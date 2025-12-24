@@ -1,12 +1,7 @@
 ---
 title: 关于
+path: /about
 ---
-
-## ⚠️博客正在准备迁移至WordPress.⚠️
-
-
----
-
 
 ## 🌍 本站CDN服务
 
@@ -28,8 +23,3 @@ title: 关于
 ---
 
 本站访客统计由 [Vercount](https://vercount.one/)和[Umami](https://umami.is/) 提供:
-
-📊 本站总访问量：<span id="vercount_value_site_pv">Loading</span> 次  
-👥 本站总访客数：<span id="vercount_value_site_uv">Loading</span> 人
-
-更详细的请在 [数据统计]({{ '/stats/' | relative_url }}) 中查阅。
