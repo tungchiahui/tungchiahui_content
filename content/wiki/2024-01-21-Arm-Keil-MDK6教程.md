@@ -1,7 +1,7 @@
 ---
 title: Arm-Keil-MDK6教程
 date: 2024-01-21
-path: /blog/arm-keil-mdk6-tutorial
+path: /wiki/arm-keil-mdk6-tutorial
 ---
 
 * TOC

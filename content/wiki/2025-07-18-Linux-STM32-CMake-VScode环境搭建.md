@@ -1,7 +1,7 @@
 ---
 title: Linux-STM32-CMake-VScode环境搭建
 date: 2025-07-18
-path: /blog/linux-stm32-cmake-vscode
+path: /wiki/linux-stm32-cmake-vscode
 ---
 
 * TOC

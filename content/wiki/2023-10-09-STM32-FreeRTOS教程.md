@@ -1,7 +1,7 @@
 ---
 title: STM32-FreeRTOS教程
 date: 2023-10-09
-path: /blog/stm32-freertos-tutorial
+path: /wiki/stm32-freertos-tutorial
 ---
 
 * TOC

@@ -60,6 +60,12 @@ path: /
 
 ---
 
-## 📰 最新博客
+<div class="content-page">
 
-<PostList />
+## 📚 最新博客
+<PostList :limit="5" />
+
+## 📖 最新 Wiki
+<WikiList :limit="5" />
+
+</div>

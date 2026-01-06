@@ -1,7 +1,7 @@
 ---
 title: C/C++教程
 date: 2023-10-05
-path: /blog/cplusplus-tutorial
+path: /wiki/cplusplus-tutorial
 ---
 
 * TOC
