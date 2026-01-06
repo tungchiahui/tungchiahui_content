@@ -1,6 +1,7 @@
 ---
 title: 关于
 path: /about
+layout: default
 ---
 
 ## 🌍 本站CDN服务
