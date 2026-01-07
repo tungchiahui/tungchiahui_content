@@ -4,9 +4,6 @@ date: 2023-10-05
 path: /wiki/cplusplus-tutorial
 ---
 
-* TOC
-{:toc}
-
 > 📚 学习必须与实干相结合。—— 泰戈尔
 
 ## 前言

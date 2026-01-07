@@ -4,8 +4,6 @@ date: 2023-10-09
 path: /wiki/stm32-freertos-tutorial
 ---
 
-* TOC
-{:toc}
 
 ## 前言
 **本文只负责指导一些问题，学****单片机****MCU****还是以下列视频为主:**

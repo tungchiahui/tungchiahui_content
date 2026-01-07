@@ -4,9 +4,6 @@ date: 2025-07-18
 path: /wiki/linux-stm32-cmake-vscode
 ---
 
-* TOC
-{:toc}
-
 ***`（本教程为2025年7月创建的，可能与以后的版本有些出入）`***
 
 https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&sharefrom=link&sharerefer=APP&sharesource=2301\_80523028&sharetype=blog

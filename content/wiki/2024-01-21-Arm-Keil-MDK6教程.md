@@ -4,8 +4,6 @@ date: 2024-01-21
 path: /wiki/arm-keil-mdk6-tutorial
 ---
 
-* TOC
-{:toc}
 
 **`截止2024年1月21日，MDK6已经完善到完全可以当主力IDE的状态，各项功能都比较完备。`**
 
