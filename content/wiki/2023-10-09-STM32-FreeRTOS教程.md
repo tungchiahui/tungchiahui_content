@@ -630,11 +630,11 @@ void main ()
 
     ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image98.webp)
 
-    2.  中断服务函数的调用方式：由中断事件所触发。一旦满足某个中断事件，就立马从正在运行的地方切换到中断服务函数里开始运行，然后运行完中断服务函数后，再返回刚才运行的地方接着运行。
+    1.  中断服务函数的调用方式：由中断事件所触发。一旦满足某个中断事件，就立马从正在运行的地方切换到中断服务函数里开始运行，然后运行完中断服务函数后，再返回刚才运行的地方接着运行。
 
-    3.  中断事件：比如说第X条线的外部中断事件、systick滴答定时器中断(普通延时函数的实现方式)、UART接收中断事件、UART发送中断事件、TIM定时器溢出更新中断、TIM定时器输入捕获中断、CAN通信发送中断事件、CAN通信接收中断事件、RTOS的PendSV中断等等。（每个事件对应的中断服务函数一般都不相同，但是也有一些中断事件会共用同一个中断服务函数）
+    2.  中断事件：比如说第X条线的外部中断事件、systick滴答定时器中断(普通延时函数的实现方式)、UART接收中断事件、UART发送中断事件、TIM定时器溢出更新中断、TIM定时器输入捕获中断、CAN通信发送中断事件、CAN通信接收中断事件、RTOS的PendSV中断等等。（每个事件对应的中断服务函数一般都不相同，但是也有一些中断事件会共用同一个中断服务函数）
 
-    4.  中断服务函数处理过程：
+    3.  中断服务函数处理过程：
 
         1.  CPU检测到有中断事件的发生
 
@@ -652,7 +652,7 @@ void main ()
 
     ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image101.webp)
 
-    7.  中断优先级与分组
+    4.  中断优先级与分组
 
         1.  优先级：抢占优先级和子优先级
 
@@ -660,7 +660,7 @@ void main ()
 
         ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image102.webp)
 
-        4.  更改分组(在HAL\_Init中更改)
+        3.  更改分组(在HAL\_Init中更改)
 
         ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image103.webp)
 
@@ -670,17 +670,17 @@ void main ()
 
         ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image106.webp)
 
-        9.  中断服务函数内容：
+    4.  中断服务函数内容：
 
-            1.  先查询中断标志位，确定被触发的中断事件
+        1.  先查询中断标志位，确定被触发的中断事件
 
-            2.  清除对应标志位，防止中断一直被触发，好让下次中断正常运行
+        2.  清除对应标志位，防止中断一直被触发，好让下次中断正常运行
 
-            3.  接收数据等（可选）
+        3.  接收数据等（可选）
 
-            4.  逻辑业务代码实现（可选，比如数据处理等）
+        4.  逻辑业务代码实现（可选，比如数据处理等）
 
-        10.  中断服务函数的特点：
+        5.  中断服务函数的特点：
 
             1.  中断服务函数不能传入参数；
 
@@ -692,11 +692,11 @@ void main ()
 
             5.  不要在中断服务函数中使用printf函数，会带来重入和性能问题。
 
-        11.  举例：
+        6.  举例：
 
             ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image107.webp)
 
-            2.  USART1\_IRQHnadler函数
+            1.  USART1\_IRQHnadler函数
 
                 1.  中文名：串口1\_中断服务函数
 
@@ -706,7 +706,7 @@ void main ()
 
                 4.  作用：被CPU调用，并调用紧急的中断程序(中断程序也就是中断服务函数里的内容)
 
-            3.  HAL\_UART\_IRQHnadler(句柄)
+            2.  HAL\_UART\_IRQHnadler(句柄)
 
                 1.  中文名：串口\_中断**公共**服务函数(公共的意思指串口1,2,3,4,5......等所有的串口都共用这一个函数实现功能，由后面的句柄决定究竟是哪个函数被触发)
 
@@ -726,7 +726,7 @@ void main ()
 
                     5.  其他操作（比如特殊的，在串口接收中断里会disable失能中断，也就是关掉中断）
 
-            4.  HAL\_UART\_RxCpltCallback(句柄)
+            3.  HAL\_UART\_RxCpltCallback(句柄)
 
                 1.  中文名：串口\_中断回调函数(因为他被中断公共服务函数调用，所以句柄是由调用它的中断公共服务函数所决定)
 
@@ -790,56 +790,56 @@ void main ()
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image119.webp)
 
 #### Vinci机器人队STM32工程标准(Cube+C语言)：
-    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image120.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image120.webp)
 
-    1.  applications应用层
+1.  applications应用层
 
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image121.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image121.webp)
 
-    2.  bsp驱动层
+2.  bsp驱动层
 
-    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image122.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image122.webp)
 
-    3.  Middlewares中间层
+3.  Middlewares中间层
 
-    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image123.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image123.webp)
 
-    4.  Core(主函数所在地，条件编译配置HAL库的头文件所在地)
+4.  Core(主函数所在地，条件编译配置HAL库的头文件所在地)
 
-    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image124.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image124.webp)
 
-    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image125.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image125.webp)
 
 ####   Vinci机器人队STM32C/C++工程标准(类正点原子，试运行，***不建议***，`建议用下一节的类Cube_Cpp`):
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image126.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image126.webp)
 
-        1.  应用层、驱动层等采用模块集成式，不再采用Src和Inc分离式
+1.  应用层、驱动层等采用模块集成式，不再采用Src和Inc分离式
 
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image127.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image127.webp)
 
-        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image128.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image128.webp)
 
-        2.  公共兼容层：
+2.  公共兼容层：
 
-        3.  C++子main兼容库
+3.  C++子main兼容库
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image129.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image129.webp)
 
-            2.  作用：在.cpp文件中创建一个普通的函数，该函数调用C++的代码，然后被C语言main.c文件中的main函数所调用。
+2.  作用：在.cpp文件中创建一个普通的函数，该函数调用C++的代码，然后被C语言main.c文件中的main函数所调用。
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image130.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image130.webp)
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image131.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image131.webp)
 
-            5.  弱函数\_回调函数库（该文件的源文件全局要有extern "C",因为弱函数是C语言的东西，C++无法正常识别）
+5.  弱函数\_回调函数库（该文件的源文件全局要有extern "C",因为弱函数是C语言的东西，C++无法正常识别）
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image132.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image132.webp)
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image133.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image133.webp)
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image134.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image134.webp)
 
-            ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image135.webp)
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image135.webp)
 
 #### **(建议)Vinci机器人队STM32Cube C/C++工程标准(类Cube，试运行，建议):**
 ##### 首先打开CubeMX进行工程配置，比如我们这里用裸机开发使一个LED灯闪烁
