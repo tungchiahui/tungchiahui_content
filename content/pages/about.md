@@ -8,9 +8,7 @@ layout: default
 
 | 对象存储 | CDN | 链接 |
 |-----------|------|------|
-| CF R2 | EO | [链接](https://cdn.eo.r2.tungchiahui.cn/) |
-| CF R2 | ESA | [链接](https://cdn.esa.r2.tungchiahui.cn/) |
-| CF R2 | CF | [链接](https://cdn.030204.xyz/) |
+| CF R2 | CF | [链接](https://global.cdn.tungchiahui.cn/) |
 | COS | EO | [链接](https://cdn.tungchiahui.cn/) |
 
 ---
