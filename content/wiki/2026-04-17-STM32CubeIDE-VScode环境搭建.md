@@ -10,6 +10,10 @@ path: /wiki/stm32cubeide-vscode
 
 * STM32CubeIDE for Visual Studio Code(CubeMX + CMake + GCC + HAL + VSCode + Clangd) 构成了全链路嵌入式开发方案： CubeMX解决硬件配置问题，CMake统一构建流程，GCC提供编译支持，HAL库屏蔽硬件差异，VSCode+Clangd打造智能编辑器,最主要的是，该插件可以一键部署各种环境，不用像老一辈一样手动安装开发环境了，适合新鸟和老鸟。
 
+## 参考视频
+
+官方教程：https://www.bilibili.com/video/BV1p1XoBYEsc
+
 ## Linux
 ### 环境介绍
 本教程环境介绍：
@@ -247,4 +251,149 @@ code .
 
 #### 移植作者tungchiahui的标准C/C++工程模板
 
+用git clone命令克隆仓库:https://github.com/tungchiahui/STM32HAL_CMake_CPP_Template
 
+```bash
+git clone https://github.com/tungchiahui/STM32HAL_CMake_CPP_Template.git
+```
+
+把仓库里的 **所有文件与文件夹（除了`.git`以外）** 复制到我们的STM32工程的目录里。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776427498924.webp)
+
+然后打开applications文件夹，在Src和Inc文件夹分别创建led_task.cpp和led_task.h，内容分别如下:
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image91.webp)
+
+led_task.cpp:
+
+```cpp
+#include "led_task.h"
+#include "cmsis_os.h"
+#include "stm32f1xx_hal.h" 
+
+GPIO_PinState pinstate = GPIO_PIN_RESET;
+
+extern "C"
+void StartDefaultTask(void *argument)
+{
+  for(;;)
+  {
+    HAL_GPIO_WritePin(GPIOC,GPIO_PIN_13,pinstate);
+    pinstate = (pinstate == GPIO_PIN_RESET) ? GPIO_PIN_SET : GPIO_PIN_RESET;
+    osDelay(500);
+  }
+}
+```
+
+led_task.h:
+
+```cpp
+#ifndef __LED_TASK_H_
+#define __LED_TASK_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "cpp_interface.h"
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
+
+```
+
+然后打开`cmake/user`文件夹下的`CMakeLists.txt`，把刚才新建的led_task.cpp添加上去。
+
+详细介绍（可以不看）：这里的`cmake/stm32cubemx`下的`CMakeLists.txt`是被CubeMX管理的，你重新用CubeMX生成新代码后，这个文件里的东西会被覆盖。而工作区根目录下的`CMakeLists.txt`是不会被重新覆盖的，而且给我们留了一些区域加源文件和头文件，但是这样会让这个文件太过于嘈杂。所以我们选择新建一个user文件夹，然后在这里面弄一个`CMakeLists.txt`，再用顶层`CMakeLists.txt`去加载这个子`CMakeLists.txt`，这个子`CMakeLists.txt`方便咱们修改，文件结构也更加明显。（这些都不需要咱们自己创建，我已经给创建到**模板**里了，你在上面复制的时候已经复制过来了）
+
+像下图这样加上cpp文件。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image92.webp)
+
+然后要去最顶层的CMakeLists.txt里加上这句话来引用我们自己的CMakeLists.txt。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image93.webp)
+
+```cmake
+
+# Add USER generated sources
+add_subdirectory(cmake/user)
+```
+
+大功告成，编译一次试试。可以看到下图，那些新加的文件都编译上了。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776429160105.webp)
+
+#### 下载程序到板子
+
+下载之前首先要先配置 <br>
+
+ST-Link就不用配置了，直接开始debug就完事了。
+
+而Jlink等是需要配置的。
+
+##### 配置调试器
+
+###### ST-Link
+
+无需任何配置
+
+###### JLink
+
+先安装jlink-gdbserver的bundle，如下图所示：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431910132.webp)
+
+
+然后还要配置下launch：
+
+问题解决方案：https://community.st.com/t5/stm32cubeide-for-visual-studio/stm32h7a3vg-debugging-with-j-link-under-vscode/m-p/826188#M960
+
+在`.vscode`文件夹下创建一个`launch.json`，然后输入以下内容：
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "jlinkgdbtarget",
+            "request": "launch",
+            "name": "STM32Cube: STM32 Launch JLink GDB Server",
+            "origin": "snippet",
+            "cwd": "${workspaceFolder}",
+            "preBuild": "${command:st-stm32-ide-debug-launch.build}",
+            "runEntry": "main",
+            "imagesAndSymbols": [
+                {
+                    "imageFileName": "${command:st-stm32-ide-debug-launch.get-projects-binary-from-context1}"
+                }
+            ]
+        }
+    ]
+}
+```
+
+完事
+
+##### 进行调试：
+
+如果你是STLink应该是下图所示：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431995915.webp)
+
+如果你是JLink应该是下图所示：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432039560.webp)
+
+
+然后会出现这个条，他会下载程序到板子
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)
+
+然后就成功下载了程序并进入了Debug
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432211211.webp)

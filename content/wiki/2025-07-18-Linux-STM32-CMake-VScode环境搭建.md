@@ -638,7 +638,7 @@ CompileFlags:
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image89.webp)
 
 #### 移植Vinci机器人队标准C/C++工程模板
-用git clone命令克隆仓库:https://github.com/tungchiahui/CubeMX\_MDK5to6\_Template
+用git clone命令克隆仓库:https://github.com/tungchiahui/CubeMX_MDK5to6_Template
 
 ```bash
 git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
@@ -648,11 +648,11 @@ git clone https://github.com/tungchiahui/CubeMX_MDK5to6_Template.git
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image90.webp)
 
-然后打开applications文件夹，在Src和Inc文件夹分别创建led\_task.cpp和led\_task.h，内容分别如下:
+然后打开applications文件夹，在Src和Inc文件夹分别创建led_task.cpp和led_task.h，内容分别如下:
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image91.webp)
 
-led\_task.cpp:
+led_task.cpp:
 
 ```cpp
 #include "led_task.h"
