@@ -4,11 +4,20 @@ date: 2025-07-18
 path: /wiki/linux-stm32-cmake-vscode
 ---
 
-***`（本教程为2025年7月创建的，可能与以后的版本有些出入）`***
+**`本教程已经过时，请看下方的新教程`**<br>
+**`本教程已经过时，请看下方的新教程`**<br>
+**`本教程已经过时，请看下方的新教程`**
+
+详见<NuxtLink to="/wiki/stm32cubeide-vscode">`STM32CubeIDE-VScode环境搭建`</NuxtLink> <br>
+详见<NuxtLink to="/wiki/stm32cubeide-vscode">`STM32CubeIDE-VScode环境搭建`</NuxtLink> <br>
+详见<NuxtLink to="/wiki/stm32cubeide-vscode">`STM32CubeIDE-VScode环境搭建`</NuxtLink>
+
+**`（本教程为2025年7月创建的，可能与以后的版本有些出入）`**
 
 https://blog.csdn.net/SankeXhy/article/details/138418371?shareId=138418371&sharefrom=link&sharerefer=APP&sharesource=2301\_80523028&sharetype=blog
 
 ## 简介
+
 *   CubeMX + CMake +GCC + HAL + VSCode + Clangd + Ozone 构成了全链路嵌入式开发方案： CubeMX解决硬件配置问题，CMake统一构建流程，GCC提供编译支持，HAL库屏蔽硬件差异，VSCode+Clangd打造智能编辑器,Ozone实现更方便高效的debug调试功能。
 
 *   该组合降低开发门槛（尤其对跨平台项目），提升代码质量与可维护性，并适配从原型到量产的全生命周期需求，是STM32等ARM嵌入式开发的推荐实践。
@@ -158,7 +167,7 @@ sudo ./SetupSTM32CubeMX-6.15.0
 
 桌面快捷方式如下：
 
-```cpp
+```bash
 [Desktop Entry]
 Name=STM32CubeMX
 Exec=/usr/local/STMicroelectronics/STM32Cube/STM32CubeMX/STM32CubeMX
