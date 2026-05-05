@@ -126,10 +126,6 @@ Jazzy / Gazebo Harmonic 改成：
 rg -n "<ignition-gui>|</ignition-gui>" src
 ```
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1743.webp)
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1744.webp)
-
 #### URDF / Xacro 里的 Gazebo 传感器
 
 传感器部分是 Jazzy 迁移时最容易留下 warning 的地方。
@@ -214,7 +210,12 @@ XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[
 - `pose relative_to`：表示传感器的位姿相对于哪个 link/frame，解决“传感器放在哪里”的问题。
 - `gz_frame_id`：尝试指定传感器消息里的 frame id，解决“消息 header.frame_id 写什么”的问题。
 
-本工程为了消除 Harmonic 的 warning，采用 `pose relative_to`，不再使用 `<gz_frame_id>`。
+为了消除 Harmonic 的 warning，采用 `pose relative_to`，不再使用 `<gz_frame_id>`。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1743.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1744.webp)
+
 
 #### Launch 文件
 
