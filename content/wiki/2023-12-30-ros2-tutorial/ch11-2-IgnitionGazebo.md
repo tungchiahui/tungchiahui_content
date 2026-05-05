@@ -7,7 +7,7 @@ title: "Ignition Gazebo（Gazebo Fortress）"
 
 ** 建议使用ROS2 Jazzy的，这个ROS2 Humble的Gazebo像过渡版本，代码可能和后续版本又冲突！ **
 
-详见<NuxtLink to="/wiki/ros2-tutorial#Gz Sim（Gazebo Harmonic 及之后的版本（ROS2 Jazzy及之后的版本））">Gz Sim教程</NuxtLink>
+详见<NuxtLink to="/wiki/2023-12-30-ros2-tutorial/ch11-3-gazebosim#Gz Sim（Gazebo Harmonic 及之后的版本（ROS2 Jazzy及之后的版本））">Gz Sim教程</NuxtLink>
 
 #### Ign Gazebo安装与运行
 Gazebo每个版本的变化都很大。

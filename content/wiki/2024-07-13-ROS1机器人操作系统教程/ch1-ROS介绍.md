@@ -22,7 +22,7 @@ https://www.bilibili.com/video/BV1Ub4y1a7PH
 http://www.autolabor.com.cn/book/ROSTutorials/
 
 ### 安装ROS1 Noetic
-安装ROS2详见:[ROS2机器人操作系统教程](/wiki/ros2-tutorial/)
+安装ROS2详见:[ROS2机器人操作系统教程](/wiki/2023-12-30-ros2-tutorial)
 
 ROS1已经EOF了，来ROS2吧。
 
@@ -100,7 +100,7 @@ sudo wget -O /etc/apt/trusted.gpg.d/ros.asc https://raw.githubusercontent.com/ro
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/07/13/image3.webp)
 
 ##### Docker容器(不推荐，可供有需要的使用)
-[Docker教程](/wiki/docker-tutorial/)
+[Docker教程](/wiki/2024-10-03-docker-jiao-cheng)
 
 https://gitee.com/qinyinan/amber-ce-bookworm
 

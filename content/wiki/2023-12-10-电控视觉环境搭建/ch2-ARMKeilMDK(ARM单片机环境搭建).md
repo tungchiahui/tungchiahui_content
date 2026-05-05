@@ -177,7 +177,7 @@ https://www.bilibili.com/video/BV19V411g7gD/
 4.  但是**非常推荐配合使用**，MDK6配合MDK5一起使用。使用MDK5添加源文件，添加头文件等操作(不要忘记添加完源文件和头文件后，用mdk5编译一下)；使用MDK6转化刚才的mdk5工程，进行源码编辑，编译，debug等等操作。(这样无论是用mdk5还是mdk6的队友，都可以打开你的工程直接食用啦)（看不懂这段话问学长）
 
 #### Windows && Linux
-[ARM Keil MDK6使用教程](/wiki/arm-keil-mdk6-tutorial/)
+[ARM Keil MDK6使用教程](/wiki/2024-01-21-arm-keil-mdk6-jiao-cheng)
 
 ### 告别Keil MDK : VScode+CMake环境部署【非常推荐老鸟】
 **(开发起来目前感觉还是挺舒服的，日后电控组组长如果觉得好用，可以统一一下IDE)**
@@ -194,4 +194,4 @@ armgcc:编译较快,开销略大.(仅仅只是编译快)
 
 主要是ARMCC和ARMCLANG是商用编译器，而ARMGCC是开源编译器，所以可以搭配CMake，Makefile等使用，可以更好管理项目，也可以支持全平台(Windows，Linux，MacOS等）
 
-详细教程[STM32+CMake工程部署](/wiki/linux-stm32-cmake-vscode)
+详细教程[STM32+CMake工程部署](/wiki/2025-07-18-linux-stm32-cmake-vscode-huan-jing-da-jian)

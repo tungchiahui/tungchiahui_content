@@ -2,9 +2,9 @@
 title: "ROS环境搭建"
 ---
 
-[ROS机器人操作系统教程](/wiki/ros1-tutorial/)
+[ROS机器人操作系统教程](/wiki/2024-07-13-ros1-ji-qi-ren-cao-zuo-xi-tong-jiao-cheng)
 
-[ROS2机器人操作系统教程](/wiki/ros2-tutorial/)
+[ROS2机器人操作系统教程](/wiki/2023-12-30-ros2-tutorial)
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image61.webp)
 
@@ -29,7 +29,7 @@ ROS1已经EOF了，官方鼓励使用ROS2.
 
 2.  ROS1Noetic安装方式:Docker
 
-3.  ROS2Humble/Jazzy安装方式:Docker 详看[Docker教程](/wiki/docker-tutorial/)
+3.  ROS2Humble/Jazzy安装方式:Docker 详看[Docker教程](/wiki/2024-10-03-docker-jiao-cheng)
 
 #### 方案三(可以用)
 1.  系统发行版:Kubuntu 22.04 Jammy LTS / Kubuntu 24.04 Jammy LTS

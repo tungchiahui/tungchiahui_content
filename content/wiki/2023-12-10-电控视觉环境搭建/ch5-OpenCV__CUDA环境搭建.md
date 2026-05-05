@@ -7,7 +7,7 @@ title: "OpenCV\\_CUDA环境搭建"
 
 如果你没有空闲硬盘装Linux了，可以考虑WSL2(在Windows上运行的Linux子系统2)，虽有一点点性能损失，但速度也远远高于Windows。
 
-WSL2安装教程[Vinci机器人队Linux入门教程](/wiki/linux-tutorial)
+WSL2安装教程[Vinci机器人队Linux入门教程](/wiki/2024-03-30-linux-jiao-cheng)
 
 **实体机Linux****＞****WSL2****＞＞****Windows**
 
@@ -18,7 +18,7 @@ WSL2安装教程[Vinci机器人队Linux入门教程](/wiki/linux-tutorial)
 #### 保证显卡正常
 **请确保 英伟达驱动、CUDA、cuDNN 全部安装成功并且版本正确。**
 
-**(安装驱动、CUDA、cuDNN教程:**[Vinci机器人队Linux入门教程](/wiki/linux-tutorial)**)**
+**(安装驱动、CUDA、cuDNN教程:**[Vinci机器人队Linux入门教程](/wiki/2024-03-30-linux-jiao-cheng)**)**
 
 ```bash
 
@@ -541,7 +541,7 @@ package.xml:
 ```
 
 ###### ROS2
-详见[ROS2机器人操作系统教程](/wiki/ros2-tutorial/)中CV\_Bridge章节.
+详见[ROS2机器人操作系统教程](/wiki/2023-12-30-ros2-tutorial)中CV\_Bridge章节.
 
 ##### opencv编译爆内存的问题
 解决方案：采用多核编译，一般采用make -j16 （这里16是CPU线程数，可以根据实际情况进行调整）即可解决，cpu线程越多，编译速度就越快
