@@ -1,20 +1,7 @@
 ---
-title: STM32CubeIDE-VScode环境搭建
-date: 2026-04-17
-path: /wiki/stm32cubeide-vscode
+title: "Linux"
 ---
 
-***`（本教程为2026年4月创建的，可能与以后的版本有些出入）`***
-
-## 简介
-
-* STM32CubeIDE for Visual Studio Code(CubeMX + CMake + GCC + HAL + VSCode + Clangd) 构成了全链路嵌入式开发方案： CubeMX解决硬件配置问题，CMake统一构建流程，GCC提供编译支持，HAL库屏蔽硬件差异，VSCode+Clangd打造智能编辑器,最主要的是，该插件可以一键部署各种环境，不用像老一辈一样手动安装开发环境了，适合新鸟和老鸟。
-
-## 参考视频
-
-官方教程：https://www.bilibili.com/video/BV1p1XoBYEsc
-
-## Linux
 ### 环境介绍
 本教程环境介绍：
 
@@ -343,7 +330,7 @@ ST-Link就不用配置了，直接开始debug就完事了。
 
 无需任何配置
 
-![alt text](../../public/images/2026-04-17-STM32CubeIDE-VScode环境搭建/1776435639185.png)
+![alt text](/images/2026-04-17-STM32CubeIDE-VScode环境搭建/1776435639185.png)
 
 ###### JLink
 
