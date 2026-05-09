@@ -5,16 +5,16 @@ title: "OpenCV"
 ### OpenCV
 [基础视觉算法-OpenCV实现](https://sdutvincirobot.feishu.cn/wiki/D50twQJ2UiVvaDky8Sic3aPOnEh)
 
-### CV\_Bridge
-cv\_bridge维基百科介绍:
+### CV_Bridge
+cv_bridge维基百科介绍:
 
-https://wiki.ros.org/cv\_bridge
+https://wiki.ros.org/cv_bridge
 
-https://index.ros.org/p/cv\_bridge/
+https://index.ros.org/p/cv_bridge/
 
-ROS2Humble的cv\_bridge仓库链接(注意选择对应版本的分支branches):
+ROS2Humble的cv_bridge仓库链接(注意选择对应版本的分支branches):
 
-https://github.com/ros-perception/vision\_opencv/tree/humble
+https://github.com/ros-perception/vision_opencv/tree/humble
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1953.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1954.webp)
 
@@ -23,7 +23,7 @@ https://github.com/ros-perception/vision\_opencv/tree/humble
 
 1.  apt安装(不建议)
 
-由于ros自带的cv\_bridge自动链接ros自带的oepncv版本,所以我们一般不会用ros2自带的cv\_bridge,一般都需要自己手动编译一个cv\_bridge.
+由于ros自带的cv_bridge自动链接ros自带的oepncv版本,所以我们一般不会用ros2自带的cv_bridge,一般都需要自己手动编译一个cv_bridge.
 
 ```cmake
 

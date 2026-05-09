@@ -14,9 +14,9 @@ http://wjwwood.io/serial/doc/1.1.0/index.html
 
 官方详解:
 
-https://docs.ros.org/en/humble/p/serial\_driver/generated/index.html#
+https://docs.ros.org/en/humble/p/serial_driver/generated/index.html#
 
-https://index.ros.org/p/serial\_driver/
+https://index.ros.org/p/serial_driver/
 
 下面是根据官方文档手搓的教程（截至教程出之前，还没有任何一个像样的教程）
 
