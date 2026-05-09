@@ -170,7 +170,9 @@ XML Element[alwaysOn], child of element[sensor], not defined in SDF.
 XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
 ```
 
-如果目标是日志干净，建议删掉 `<gz_frame_id>`，改用标准 SDF 的 `pose relative_to` 描述传感器位姿参考系：
+但是这个警告说实话，是警告，但实际上这个标签是生效的，必须要使用这个标签，请忽略那些警告。
+
+然后你也可以再加上一个下面这个`pose relative_to`标签，这是官方示例里给的。
 
 ```xml
 <pose relative_to="laser">0 0 0 0 0 0</pose>
@@ -183,6 +185,7 @@ XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[
   <update_rate>10.0</update_rate>
   <always_on>true</always_on>
   <pose relative_to="camera">0 0 0 0 0 0</pose>
+  <gz_frame_id>camera</gz_frame_id>
   <topic>/image_raw</topic>
   <camera name="my_camera">
     ...
@@ -199,6 +202,7 @@ XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[
   <always_on>true</always_on>
   <visualize>true</visualize>
   <pose relative_to="laser">0 0 0 0 0 0</pose>
+  <gz_frame_id>laser</gz_frame_id>
   <lidar>
     ...
   </lidar>
@@ -210,7 +214,7 @@ XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[
 - `pose relative_to`：表示传感器的位姿相对于哪个 link/frame，解决“传感器放在哪里”的问题。
 - `gz_frame_id`：尝试指定传感器消息里的 frame id，解决“消息 header.frame_id 写什么”的问题。
 
-为了消除 Harmonic 的 warning，采用 `pose relative_to`，不再使用 `<gz_frame_id>`。
+建议同时采用 `pose relative_to` 和 `<gz_frame_id>`。
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1743.webp)
 
@@ -310,7 +314,7 @@ bridge = Node(
 
 #### Fuel URL 和模型路径
 
-旧 Fuel URL：
+旧 Fuel URL（实际上旧的链接也生效，被重定向到新链接了）：
 
 ```xml
 <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/Playground</uri>
@@ -442,7 +446,6 @@ Jazzy 应该改成：
 ```xml
 <alwaysOn>
 <ignition_frame_id>
-<gz_frame_id>
 ```
 
 建议改成：
@@ -450,12 +453,14 @@ Jazzy 应该改成：
 ```xml
 <always_on>true</always_on>
 <pose relative_to="laser">0 0 0 0 0 0</pose>
+<gz_frame_id>laser</gz_frame_id>
 ```
 
 或：
 
 ```xml
 <pose relative_to="camera">0 0 0 0 0 0</pose>
+<gz_frame_id>camera</gz_frame_id>
 ```
 
 ##### robot_state_publisher 的 KDL 根 link 惯性警告
@@ -468,18 +473,6 @@ The root link base_footprint has an inertia specified in the URDF, but KDL does 
 
 说明 URDF 根 link 带了 `<inertial>`，KDL 不支持。
 
-解决方法是在原根 link 前面加一个无惯性的 dummy root link，再用 fixed joint 接到原来的 root link：
-
-```xml
-<link name="base_root"/>
-<joint name="baseroot2basefootprint" type="fixed">
-  <parent link="base_root"/>
-  <child link="base_footprint"/>
-  <origin xyz="0 0 0" rpy="0 0 0"/>
-</joint>
-```
-
-这样原来的 `base_footprint` 可以保留 Gazebo 物理需要的惯性，但 KDL 看到的真正根 link 没有惯性。
 
 ##### 改了 xacro 但日志仍显示旧内容
 
