@@ -621,6 +621,63 @@ sudo apt install terminator
 
 还有一些通用的终端复制粘帖方式我就不多说了，当然还有一些其他很有用的命令，但是我在实际的工作中并没有用到，也就是掌握了这几个快捷方式已经完全满足了我日常的工作需求。
 
+因为他本身的字体非常暗,所以要设置一下.
+
+```bash
+cp ~/.config/terminator/config ~/.config/terminator/config.bak
+vim ~/.config/terminator/config
+```
+按一下`ggdG`,注意大小写.
+然后让文件内容为:
+
+```bash
+[global_config]
+  title_transmit_bg_color = "#31363b"
+  title_transmit_fg_color = "#fcfcfc"
+  title_receive_bg_color = "#232629"
+  title_receive_fg_color = "#fcfcfc"
+  title_inactive_bg_color = "#232629"
+  title_inactive_fg_color = "#bdc3c7"
+
+[keybindings]
+
+[profiles]
+  [[default]]
+    use_theme_colors = False
+    use_system_font = False
+    font = Noto Sans Mono 11
+
+    background_type = solid
+    background_color = "#232629"
+    foreground_color = "#fcfcfc"
+    cursor_color = "#fcfcfc"
+
+    palette = "#232629:#ed1515:#11d116:#f67400:#1d99f3:#9b59b6:#1abc9c:#fcfcfc:#7f8c8d:#ff5555:#50fa7b:#fdbc4b:#3daee9:#ff79c6:#8be9fd:#ffffff"
+
+    scrollback_infinite = True
+
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+
+[plugins]
+```
+
+然后完全关闭 Terminator，再重新打开。
+这个配置会做几件事：
+
+1. 背景：接近 Konsole Breeze 的深灰，不是死黑
+2. 字体：接近纯白，比你现在亮很多
+3. 蓝色：换成更亮的 KDE 蓝
+4. 绿色/黄色/青色：也整体提亮
+5. 顶部红色标题条：改成灰色，不再那么刺眼
+
+
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image215.webp)
 
 咱们的Git入门教程：[Vinci机器人队Git入门教程](https://sdutvincirobot.feishu.cn/docx/B7arde6u0ob5tsxk5QOcFLG7nYd)
