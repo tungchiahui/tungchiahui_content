@@ -23,7 +23,7 @@ auto str = "Hello"; // 推导为 const char*
 std::print ≈ fmt::print > printf > std::cout（关闭同步） > std::cout（默认） > std::endl
 
 1. 特点:
-    因为它本质上是 C++ 标准把 {fmt} 库（fmtlib）正式吸收进来。
+    因为它本质上是 C++ 标准把 `{fmt}` 库（fmtlib）正式吸收进来。
 
     fmt 库以极高性能著称，特性包括：
 
