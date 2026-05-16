@@ -1268,14 +1268,14 @@ colcon build --packages-select mycar_localization
 
 ```bash
 . install/setup.bash
-ros2 launch stage_ros2 my_house.launch.py
+ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py
 ```
 
 （2）然后在终端下进入当前工作空间，输入如下指令：
 
 ```bash
 . install/setup.bash
-ros2 launch mycar_localization mycar_loca.launch.py
+ros2 launch mycar_localization mycar_loca.launch.py use_sim_time:=True
 ```
 
 （3）启动键盘控制节点以作备用：
