@@ -2679,17 +2679,17 @@ ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py
 ros2 launch mycar_navigation2 bringup.launch.py use_sim_time:=True
 ```
 
-（3）启动rviz2，加载`/opt/ros/jazzy/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，为机器人设置初始位姿后，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点了。
+（3）启动rviz2，加载`/opt/ros/humble/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，为机器人设置初始位姿后，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点了。
 
 ```bash
-rviz2 -d /opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz
+rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
 ```
 
 *   `rviz2`：启动 `rviz2` 工具。
 
 *   `-d`：指定要加载的 `.rviz` 配置文件。
 
-*   `/opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz`：`.rviz` 配置文件的路径。
+*   `/opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz`：`.rviz` 配置文件的路径。
 
 运行该命令后，`rviz2` 将启动并加载 `nav2_default_view.rviz` 配置文件。
 
@@ -2719,36 +2719,87 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration, PythonExpression
+
 
 def generate_launch_description():
 
-    slam_pkg = get_package_share_directory("mycar_slam_slam_toolbox")
-    nav2_pkg = get_package_share_directory("mycar_navigation2")
+    use_sim_time_arg = DeclareLaunchArgument(
+        'use_sim_time',
+        default_value='false'
+    )
 
-    slam_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(slam_pkg,'launch',
-                                                    'online_sync_launch.py'))
+    slam_backend_arg = DeclareLaunchArgument(
+        'slam_backend',
+        default_value='cartographer',
+        description='SLAM backend: slam_toolbox or cartographer'
+    )
+
+    use_sim_time = LaunchConfiguration('use_sim_time')
+    slam_backend = LaunchConfiguration('slam_backend')
+
+    slam_toolbox_pkg = get_package_share_directory("mycar_slam_slam_toolbox")
+    cartographer_pkg = get_package_share_directory("mycar_slam_cartographer")
+    # 从这开始修改: Jazzy auto_slam 引用 mycar_navigation2_jazzy，而不是 Humble 版本包
+    nav2_pkg = get_package_share_directory("mycar_navigation2_jazzy")
+    # 从这结束
+
+    slam_toolbox_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                slam_toolbox_pkg,
+                'launch',
+                'online_sync_launch.py'
+            )
+        ),
+        launch_arguments={
+            'use_sim_time': use_sim_time
+        }.items(),
+        condition=IfCondition(
+            PythonExpression(["'", slam_backend, "' == 'slam_toolbox'"])
         )
+    )
 
-    # slam_launch = IncludeLaunchDescription(
-
-    #     PythonLaunchDescriptionSource(os.path.join(slam_pkg,'launch',
-
-    #                                                 'online_async_launch.py'))
-
-    #     )
+    cartographer_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                cartographer_pkg,
+                'launch',
+                'cartographer.launch.py'
+            )
+        ),
+        launch_arguments={
+            'use_sim_time': use_sim_time
+        }.items(),
+        condition=IfCondition(
+            PythonExpression(["'", slam_backend, "' == 'cartographer'"])
+        )
+    )
 
     nav2_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(os.path.join(nav2_pkg,'launch', 
-                                                    'nav2.launch.py'))
-        )
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                nav2_pkg,
+                'launch',
+                'nav2.launch.py'
+            )
+        ),
+        launch_arguments={
+            'use_sim_time': use_sim_time
+        }.items()
+    )
 
     ld = LaunchDescription()
-    ld.add_action(slam_launch)
+    ld.add_action(use_sim_time_arg)
+    ld.add_action(slam_backend_arg)
+    ld.add_action(slam_toolbox_launch)
+    ld.add_action(cartographer_launch)
     ld.add_action(nav2_launch)
     return ld
+
 ```
 
 **2.编译**
@@ -2765,14 +2816,14 @@ colcon build --packages-select mycar_navigation2
 
 ```bash
 . install/setup.bash
-ros2 launch stage_ros2 my_house.launch.py
+ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py
 ```
 
 （2）然后在终端下进入当前工作空间，输入如下指令启动自主SLAM功能：
 
 ```bash
 . install/setup.bash
-ros2 launch mycar_navigation2 auto_slam.launch.py
+ros2 launch mycar_navigation2 auto_slam.launch.py use_sim_time:=True slam_backend:=cartographer
 ```
 
 （3）启动rviz2，加载`/opt/ros/humble/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点，并且导航中还会实现建图的功能。

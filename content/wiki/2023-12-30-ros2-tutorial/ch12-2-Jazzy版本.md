@@ -2767,20 +2767,20 @@ colcon build --packages-select mycar_navigation2
 
 ```bash
 . install/setup.bash
-ros2 launch stage_ros2 my_house.launch.py
+ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py
 ```
 
 （2）然后在终端下进入当前工作空间，输入如下指令启动自主SLAM功能：
 
 ```bash
 . install/setup.bash
-ros2 launch mycar_navigation2 auto_slam.launch.py
+ros2 launch mycar_navigation2_jazzy auto_slam.launch.py use_sim_time:=True slam_backend:=cartographer
 ```
 
-（3）启动rviz2，加载`/opt/ros/humble/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点，并且导航中还会实现建图的功能。
+（3）启动rviz2，加载`/opt/ros/jazzy/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点，并且导航中还会实现建图的功能。
 
 ```bash
-rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
+rviz2 -d /opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz
 ```
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1770.webp)
