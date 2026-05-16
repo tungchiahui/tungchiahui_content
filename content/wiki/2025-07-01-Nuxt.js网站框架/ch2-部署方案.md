@@ -146,8 +146,5 @@ about:config → 搜索 "browser.cache.disk.enable" → 设为 false → 刷新
 ```
 
 ```Bash
-bundle exec jekyll serve --livereload
-
-# 上面那个出错后，用下面这个把错误全排除就好了
-bundle exec jekyll serve --livereload --trace
+npm run dev
 ```
