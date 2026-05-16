@@ -1,4 +1,4 @@
 ---
-title: "Jekyll静态网站框架"
+title: "Nuxt.js网站框架"
 ---
 
