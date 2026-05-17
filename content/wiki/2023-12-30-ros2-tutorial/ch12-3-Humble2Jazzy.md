@@ -1,5 +1,5 @@
 ---
-title: "Jazzy导航仿真"
+title: "Humble与Jazzy导航的差异"
 ---
 
 ## 参考的官方 Jazzy 示例
@@ -9,6 +9,8 @@ title: "Jazzy导航仿真"
 - `/opt/ros/jazzy/share/nav2_bt_navigator/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml`
 
 ## 修改内容
+
+可以复制一个humble的功能包并命名为 `mycar_navigation2_jazzy`,然后拿这个功能包进行改动.
 
 1. 将功能包名保持为 `mycar_navigation2_jazzy`，并在相关位置补充修改边界注释。
    - `package.xml`
