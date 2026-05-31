@@ -2,4 +2,4 @@
 title: "远程开发SSH"
 ---
 
-详见[Vinci机器人队Linux入门教程](https://sdutvincirobot.feishu.cn/wiki/GIKnwJo39iREkHkFGvqcy5Osntc)
+详见[SSH远程开发](/wiki/2024-03-30-linux-jiao-cheng/ch9-qi-ta-cao-zuo#ssh远程开发)
