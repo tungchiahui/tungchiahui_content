@@ -251,6 +251,53 @@ Current time: Mon Jun  2 12:00:00 2026
 | 示例 3 | 通用计时器 | `measure(function<void()>)` | 包装成一个工具函数，可重复使用 | `steady_clock` 是最佳选择 |
 | 示例 4 | 系统时间和格式化 | `system_clock::now()`、`to_time_t()`、`24h` | system_clock 可以转为日历时间 | system_clock 可能被系统时间调整影响，不用于计时 |
 
+## 计时和显示时间不要混用
+
+| 需求 | 推荐时钟 | 原因 |
+|:---|:---|:---|
+| 测量函数耗时 | `steady_clock` | 单调递增，不受系统时间调整影响 |
+| 超时判断 | `steady_clock` | 不会因为系统时间跳变导致超时错误 |
+| 打印当前日期时间 | `system_clock` | 可以转换成日历时间 |
+| 生成日志时间戳 | `system_clock` | 对人类可读 |
+
+一个常见错误是用 `system_clock` 做超时判断。如果系统时间被 NTP 或用户手动调回去，程序可能“等很久都不超时”。测耗时和超时都优先用 `steady_clock`。
+
+### 示例 5：用 steady_clock 做超时判断
+
+```cpp
+#include <chrono>
+#include <iostream>
+#include <thread>
+
+int main()
+{
+    using namespace std::chrono;
+
+    auto deadline = steady_clock::now() + 300ms;
+
+    while (steady_clock::now() < deadline)
+    {
+        std::cout << "waiting...\n";
+        std::this_thread::sleep_for(100ms);
+    }
+
+    std::cout << "timeout\n";
+
+    return 0;
+}
+```
+
+**可能的运行结果**：
+
+```
+waiting...
+waiting...
+waiting...
+timeout
+```
+
+这里的重点不是循环本身，而是超时基准用 `steady_clock`。这类写法在定时器、串口读取超时、网络等待超时里非常常见。
+
 ## 常见错误
 
 **错误 1：忘记 `using namespace std::chrono` 导致字面量不识别**
@@ -292,6 +339,7 @@ auto sec = duration_cast<seconds>(1500ms);  // 1 秒！不是 1.5 秒
 3. **用字面量 `1s`、`100ms` 而不是直接写数字**：可读性更好。
 4. **`duration_cast` 是截断，不是四舍五入**：精度会丢失，注意使用场景。
 5. **C++20 增加了日历和时区支持**：`std::chrono::year_month_day` 等，更强大。
+6. **超时判断也用 `steady_clock`**：和测耗时一样，不受系统时间调整影响。
 
 ## 小结
 

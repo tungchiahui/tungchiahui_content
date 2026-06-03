@@ -246,6 +246,51 @@ func2(5) = 115
 | 示例 3 | 存入容器 | `vector<std::function<void()>>` | 统一管理不同类型的回调 | 每个元素都可以是不同的实现 |
 | 示例 4 | 存储成员函数 | `std::bind(&C::m, &obj, _1, _2)` | 成员函数需要 this 指针，bind 把 this 绑定进去 | 更多 bind 用法见下一节 |
 
+## std::function vs 模板参数
+
+`std::function` 的优势是能**存储**和**统一类型**；模板参数的优势是**零开销**，但不能方便地放进容器或成员变量。
+
+| 场景 | 推荐 |
+|:---|:---|
+| 只是在函数里立刻调用一次回调 | 模板参数 |
+| 类成员需要保存一个回调 | `std::function` |
+| vector 里保存多个不同 lambda | `std::function` |
+| 性能热点路径，高频调用小函数 | 模板参数优先 |
+
+### 示例 5：只临时调用时，模板也可以接收回调
+
+```cpp
+#include <iostream>
+
+template<typename Func>
+void repeat(int times, Func func)
+{
+    for (int i = 0; i < times; ++i)
+    {
+        func(i);
+    }
+}
+
+int main()
+{
+    repeat(3, [](int i) {
+        std::cout << "i = " << i << "\n";
+    });
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+i = 0
+i = 1
+i = 2
+```
+
+这个例子没有保存回调，只是马上调用，所以模板写法很合适。如果要把回调存到类成员里，或者放进 `vector`，就更适合 `std::function`。
+
 ## 常见错误
 
 **错误 1：签名不匹配**
@@ -292,6 +337,7 @@ void func(F callback);  // 零开销
 2. **只是传入回调参数时，可以用模板而不是 `std::function`**：模板零开销。
 3. **调用前检查是否为空**：`if (func)` 或 `if (func != nullptr)`。
 4. **`std::function` 有轻微的性能开销**（类型擦除 + 可能的堆分配），大部分场景可忽略，但热点路径慎用。
+5. **保存回调时注意捕获生命周期**：`std::function` 可能比被捕获的局部变量活得更久。
 
 ## 小结
 

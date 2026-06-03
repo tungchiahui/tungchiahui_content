@@ -26,7 +26,7 @@ C++11
 
 ## 需要的头文件
 
-不需要额外头文件。`enum class` 是语言关键字。
+不需要额外头文件。`enum class` 是语言关键字。如果要使用 `uint8_t` 这类固定宽度整数作为底层类型，需要 `#include <cstdint>`。
 
 ## 基本语法
 
@@ -94,6 +94,7 @@ Color::red = 0
 ### 示例 2：在示例 1 基础上，指定底层类型和自定义值
 
 ```cpp
+#include <cstdint>
 #include <iostream>
 
 // 指定底层类型为 uint8_t（只占一个字节）
@@ -218,6 +219,55 @@ Alice has higher grade
 | 示例 1 | 旧 enum 问题 vs enum class | `enum class`、`static_cast<int>()` | 旧 enum 名字污染、隐式转 int；enum class 解决 | 需要整数值时必须显式转换 |
 | 示例 2 | 指定底层类型和 switch 用法 | `enum class : uint8_t`、switch + enum class | 指定底层类型能节省内存（如嵌入式场景） | `sizeof(enum class)` 不等于成员个数 |
 | 示例 3 | 在 struct 中使用 enum class | enum class 做 struct 成员、比较操作 | 表示状态、等级等有限取值集合 | enum class 支持 `==`, `<`, `>` 等比较 |
+
+## enum class 适合表示状态和选项
+
+`enum class` 最适合表示“有限个离散取值”，比如机器人状态、任务阶段、通信协议命令、UI 模式。
+
+### 示例 4：用 enum class 表示机器人状态
+
+```cpp
+#include <iostream>
+
+enum class RobotState
+{
+    Idle,
+    Running,
+    Error
+};
+
+void handle_state(RobotState state)
+{
+    switch (state)
+    {
+        case RobotState::Idle:
+            std::cout << "wait for command\n";
+            break;
+        case RobotState::Running:
+            std::cout << "execute task\n";
+            break;
+        case RobotState::Error:
+            std::cout << "stop and report error\n";
+            break;
+    }
+}
+
+int main()
+{
+    RobotState state = RobotState::Running;
+    handle_state(state);
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+execute task
+```
+
+如果用 `int state = 1`，读代码的人不知道 `1` 是什么；如果用 `enum class RobotState::Running`，语义直接写在类型里，而且不会和其他枚举的 `Running` 混用。
 
 ## 常见错误
 

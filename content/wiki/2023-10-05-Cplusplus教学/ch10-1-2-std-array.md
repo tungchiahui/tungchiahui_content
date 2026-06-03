@@ -172,6 +172,50 @@ size from inside function = 5
 | 示例 2 | at() 安全访问和 fill() 填充 | `at()`、`fill()` | `at()` 越界会抛异常；`fill()` 方便批量赋值 | `fill()` 对所有元素赋相同值 |
 | 示例 3 | 对比 C 数组和 array 传参 | `data()`、`const std::array<int,5>&` | array 传参时大小信息不丢失 | array 大小是类型的一部分，不同大小是不同的类型 |
 
+## array 和 vector 的区别什么时候明显
+
+如果只是存 5 个整数，`array` 和 `vector` 看起来都能用。但放到工程里，差异主要体现在“大小是否固定”和“是否需要动态扩容”：
+
+| 场景 | 推荐 | 原因 |
+|:---|:---|:---|
+| 三轴 IMU 数据 `{x, y, z}` | `std::array<double, 3>` | 大小永远是 3，不需要扩容 |
+| 固定长度 PID 参数 `{kp, ki, kd}` | `std::array<double, 3>` | 编译期就知道大小，语义明确 |
+| 运行时读取一批传感器点 | `std::vector<Point>` | 点的数量运行时才知道 |
+| 用户输入任意数量数据 | `std::vector<T>` | 需要 `push_back` 动态增长 |
+
+`array` 更像“有 STL 接口的固定数组”，`vector` 更像“会变长的数组”。不要因为 `array` 更轻量就到处用它：只要元素个数运行时才知道，就应该用 `vector`。
+
+### 示例 4：固定三轴数据更适合 array
+
+```cpp
+#include <array>
+#include <iostream>
+
+double norm3(const std::array<double, 3>& v)
+{
+    return v[0] * v[0] + v[1] * v[1] + v[2] * v[2];
+}
+
+int main()
+{
+    std::array<double, 3> accel = {0.1, 0.2, 9.8};
+
+    std::cout << "accel size = " << accel.size() << "\n";
+    std::cout << "squared norm = " << norm3(accel) << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+accel size = 3
+squared norm = 96.09
+```
+
+这个例子中，三轴数据必须正好是 3 个值。用 `std::array<double, 3>` 可以把这个约束写进类型里；如果误传 `std::array<double, 2>`，编译期就会报错。
+
 ## 常见错误
 
 **错误 1：用变量指定 array 大小**

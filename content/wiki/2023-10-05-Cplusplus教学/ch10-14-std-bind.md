@@ -54,6 +54,7 @@ using namespace std::placeholders;  // 引入 _1, _2, _3...
 ```cpp
 #include <iostream>
 #include <functional>
+#include <string>
 
 void print_info(const std::string& name, int age, double score)
 {
@@ -132,6 +133,7 @@ int main()
 ```cpp
 #include <iostream>
 #include <functional>
+#include <memory>
 
 class Calculator
 {
@@ -181,6 +183,7 @@ bound3(7, 8) = 115
 ```cpp
 #include <iostream>
 #include <functional>
+#include <string>
 
 class Button
 {
@@ -258,9 +261,22 @@ auto f = std::bind(add, _1, 10);  // ❌ _1 未定义！
 
 正确做法：加 `using namespace std::placeholders;` 或用 `std::placeholders::_1`。
 
-**错误 2：`scr` 等误输入**
+**错误 2：以为 bind 默认按引用保存参数**
 
-在编写 bind 示例时常见笔误，比如写成了 `scr` 而非正确的代码。bind 的文件中不应该出现无意义的字符。
+```cpp
+int value = 10;
+auto f = std::bind([](int& x) { x = 100; }, value);
+// f();  // ❌ value 被拷贝进 bind，不能绑定到 int&
+```
+
+正确做法：需要引用时用 `std::ref`：
+
+```cpp
+int value = 10;
+auto f = std::bind([](int& x) { x = 100; }, std::ref(value));
+f();
+std::cout << value << "\n";  // 100
+```
 
 **错误 3：成员函数绑定后传参数量不对**
 
@@ -300,6 +316,7 @@ auto make_bound()
 3. **用 `std::placeholders::_1` 而不是 `_1`**（或 `using namespace`）：避免名字污染。
 
 4. **了解 bind 有助于阅读旧代码**：很多旧项目大量使用 bind。
+5. **bind 默认拷贝参数**：需要引用语义时用 `std::ref` / `std::cref`。
 
 ## 小结
 

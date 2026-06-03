@@ -151,6 +151,7 @@ Charlie       24    78.5
 ### 示例 3：std::print 直接输出（C++23）
 
 ```cpp
+#include <cstdio>
 #include <print>
 #include <string>
 
@@ -171,7 +172,7 @@ int main()
     std::println("pi = {:.3f}", 3.1415926);
 
     // 输出到 stderr
-    std::println(std::cerr, "Error: something went wrong!");
+    std::println(stderr, "Error: something went wrong!");
 
     return 0;
 }

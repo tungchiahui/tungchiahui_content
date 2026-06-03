@@ -271,6 +271,65 @@ Cleaned up: "/tmp/cpp_test_demo"
 | 示例 3 | 递归遍历和过滤 | `fs::recursive_directory_iterator`、`extension()` | 递归找特定后缀的文件 | 递归遍历可能很慢，注意目录深度 |
 | 示例 4 | 创建、拷贝、删除 | `create_directory()`、`copy()`、`remove_all()` | 常见文件操作，跨平台 | `remove_all` 类似 rm -rf，小心使用 |
 
+## 抛异常版本 vs error_code 版本
+
+很多 filesystem 函数有两种用法：
+
+```cpp
+auto size = fs::file_size(path);      // 失败时抛异常
+
+std::error_code ec;
+auto size = fs::file_size(path, ec);  // 失败时不抛异常，错误写入 ec
+```
+
+| 写法 | 优点 | 适合场景 |
+|:---|:---|:---|
+| 抛异常版本 | 代码短，失败自动中断 | 文件理应存在，失败就是异常 |
+| `error_code` 版本 | 不抛异常，便于继续处理 | 扫描大量文件、权限不确定、允许跳过失败项 |
+
+### 示例 5：扫描目录时用 error_code 跳过失败项
+
+```cpp
+#include <filesystem>
+#include <iostream>
+#include <system_error>
+
+namespace fs = std::filesystem;
+
+int main()
+{
+    fs::path dir = fs::current_path();
+
+    for (const auto& entry : fs::directory_iterator(dir))
+    {
+        std::error_code ec;
+        auto size = fs::file_size(entry.path(), ec);
+
+        if (ec)
+        {
+            std::cout << "[skip] " << entry.path().filename().string()
+                      << " reason: " << ec.message() << "\n";
+            continue;
+        }
+
+        std::cout << entry.path().filename().string()
+                  << " size = " << size << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**（因目录内容而异）：
+
+```
+[skip] content reason: Is a directory
+package.json size = 1234
+README.md size = 2048
+```
+
+扫描目录时，遇到目录、权限不足、符号链接异常都很常见。用 `error_code` 可以让程序跳过坏项继续跑，而不是第一个失败就退出。
+
 ## 常见错误
 
 **错误 1：忘记检查 exists 就直接操作**
@@ -308,6 +367,7 @@ if (path1 == path2)  // 只是字符串比较！
 3. **遍历大目录用 `directory_iterator`**：避免一次性加载所有文件。
 4. **文件操作注意异常安全**：很多 filesystem 函数在失败时会抛 `fs::filesystem_error`。
 5. **C++17 的 filesystem 基本够用**：C++20/23 增加了一些便利函数但核心不变。
+6. **扫描大量文件时考虑 error_code 重载**：避免一个异常路径中断整个扫描。
 
 ## 小结
 

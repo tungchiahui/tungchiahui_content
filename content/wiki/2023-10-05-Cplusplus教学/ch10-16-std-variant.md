@@ -64,6 +64,7 @@ size_t idx = v.index();  // 0-based
 #include <iostream>
 #include <variant>
 #include <string>
+#include <type_traits>
 
 int main()
 {
@@ -266,6 +267,83 @@ Quit!
 | 示例 3 | visit 模式 | `std::visit(lambda, v)` | visit 强制覆盖所有类型，是 variant 的最佳访问方式 | 泛型 lambda + visit 是最简洁的组合 |
 | 示例 4 | 消息分发模式 | struct visitor + variant | 用 variant + visitor 实现类型安全的消息处理 | visitor 必须为每种类型都提供 operator() |
 
+## variant 适合"有限几种类型之一"
+
+`variant` 不是为了替代所有继承和多态。它最适合这种情况：类型种类有限，而且你希望编译器提醒你把每种情况都处理掉。
+
+| 场景 | 推荐 |
+|:---|:---|
+| 消息只有 Text / Number / Quit 三类 | `std::variant` |
+| 状态只有 Idle / Running / Error 几类 | `std::variant` |
+| 解析结果可能是 int / double / string | `std::variant` |
+| 类型种类很多且需要运行时扩展插件 | 继承 + 虚函数 |
+| 所有对象共享一套接口 | 多态接口更自然 |
+
+### 示例 5：用 variant 表示状态机
+
+```cpp
+#include <iostream>
+#include <string>
+#include <type_traits>
+#include <variant>
+
+struct Idle {};
+struct Running
+{
+    int task_id;
+};
+struct Error
+{
+    std::string message;
+};
+
+using State = std::variant<Idle, Running, Error>;
+
+void print_state(const State& state)
+{
+    std::visit([](const auto& s) {
+        using T = std::decay_t<decltype(s)>;
+
+        if constexpr (std::is_same_v<T, Idle>)
+        {
+            std::cout << "state: idle\n";
+        }
+        else if constexpr (std::is_same_v<T, Running>)
+        {
+            std::cout << "state: running task " << s.task_id << "\n";
+        }
+        else if constexpr (std::is_same_v<T, Error>)
+        {
+            std::cout << "state: error " << s.message << "\n";
+        }
+    }, state);
+}
+
+int main()
+{
+    State state = Idle{};
+    print_state(state);
+
+    state = Running{42};
+    print_state(state);
+
+    state = Error{"motor timeout"};
+    print_state(state);
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+state: idle
+state: running task 42
+state: error motor timeout
+```
+
+这里的状态永远只能是三种之一。相比用 `int state_code` 加一堆额外字段，`variant` 能把每种状态需要的数据放在对应类型里，减少“错误状态却还读 running 字段”这类问题。
+
 ## 常见错误
 
 **错误 1：get 用错类型抛异常**
@@ -305,6 +383,7 @@ std::visit(Visitor{}, v);  // ❌ 编译错误！
 3. **需要"知道当前是哪种类型"时用 `std::get_if`**：返回指针，安全高效。
 4. **用 variant + visit 实现消息/事件分发**：模式匹配的雏形。
 5. **variant 的大小是所有类型中最大的 + 索引字段**：不要存太多大类型。
+6. **类型种类有限时用 variant 更清晰**：如果类型需要随插件扩展，继承和虚函数通常更合适。
 
 ## 小结
 

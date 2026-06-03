@@ -231,6 +231,112 @@ cherry: 1
 | 示例 3 | map vs unordered_map | 两种容器的区别 | 需要排序用 map，需要更快查找用 unordered_map | unordered_map 元素顺序不确定 |
 | 示例 4 | 统计频率的应用 | `++m[key]` | `m[key]` 不存在返回 0（int 的默认值） | 依赖 int 默认值为 0 的特性 |
 
+## 常用写法对比
+
+### 读取时不要随手用 `m[key]`
+
+`m[key]` 很方便，但它的语义是“如果 key 不存在，就创建一个默认值”。这在统计频率时很好用，但在普通查询时可能埋坑：
+
+```cpp
+std::map<std::string, int> scores = {{"Alice", 85}};
+
+std::cout << scores["Bob"] << "\n";  // 输出 0，同时 Bob 被插入
+std::cout << scores.size() << "\n";  // size 变成 2
+```
+
+查找时更推荐：
+
+```cpp
+auto it = scores.find("Bob");
+if (it != scores.end())
+{
+    std::cout << it->second << "\n";
+}
+```
+
+### 插入、覆盖、查找的语义
+
+| 写法 | key 不存在 | key 已存在 | 适合场景 |
+|:---|:---|:---|:---|
+| `m[key] = value` | 插入 | 覆盖 | 明确想设置成某个值 |
+| `m.insert({key, value})` | 插入成功 | 不覆盖旧值 | 不想覆盖已有数据 |
+| `m.emplace(key, value)` | 原地构造插入 | 不覆盖旧值 | value 构造成本较高 |
+| `m.insert_or_assign(key, value)` | 插入 | 覆盖 | C++17，语义比 `m[key]=` 更明确 |
+| `m.find(key)` | 返回 `end()` | 返回迭代器 | 安全查询 |
+| `m.at(key)` | 抛异常 | 返回引用 | key 理应存在，不存在就是错误 |
+
+### 示例 5：insert 不覆盖，赋值会覆盖
+
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+int main()
+{
+    std::map<std::string, int> scores;
+
+    auto [it1, ok1] = scores.insert({"Alice", 85});
+    auto [it2, ok2] = scores.insert({"Alice", 100});
+
+    std::cout << "first insert ok? " << ok1 << "\n";
+    std::cout << "second insert ok? " << ok2 << "\n";
+    std::cout << "Alice = " << scores.at("Alice") << "\n";
+
+    scores["Alice"] = 100;
+    std::cout << "after assignment, Alice = " << scores.at("Alice") << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+first insert ok? 1
+second insert ok? 0
+Alice = 85
+after assignment, Alice = 100
+```
+
+这个例子里，第二次 `insert` 没有覆盖旧值；而 `scores["Alice"] = 100` 明确覆盖了旧值。它们不是谁更高级，而是语义不同。
+
+### 示例 6：map 的有序性适合范围查询
+
+```cpp
+#include <iostream>
+#include <map>
+
+int main()
+{
+    std::map<int, const char*> events = {
+        {100, "start"},
+        {250, "turn"},
+        {400, "stop"},
+        {600, "upload"}
+    };
+
+    auto begin = events.lower_bound(200);
+    auto end = events.upper_bound(500);
+
+    for (auto it = begin; it != end; ++it)
+    {
+        std::cout << it->first << ": " << it->second << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+250: turn
+400: stop
+```
+
+`unordered_map` 平均查找单个 key 很快，但它没有顺序，不能自然地做“找 200 到 500 之间的 key”这种范围查询。只要你需要有序遍历或范围查询，`map` 就不是“慢版本”，而是更合适的工具。
+
 ## 常见错误
 
 **错误 1：读取时误用 `m[key]` 造成意外插入**
@@ -261,6 +367,18 @@ std::map<Point, int> m;  // ❌ 编译错误！Point 没有 operator<
 ```
 
 正确做法：定义 `operator<` 或提供自定义比较函数。
+
+**错误 4：以为 unordered_map 输出顺序稳定**
+
+```cpp
+std::unordered_map<std::string, int> m = {{"b", 2}, {"a", 1}};
+for (const auto& [k, v] : m)
+{
+    std::cout << k << "\n";  // ❌ 不要依赖输出顺序
+}
+```
+
+正确做法：需要稳定顺序就用 `std::map`，或者把 key 拿出来排序后再输出。
 
 ## 使用建议
 

@@ -46,12 +46,25 @@ if (p) { ... }              // p 非空
 | `func(nullptr)` | 传递空指针参数 |
 | `return nullptr;` | 返回空指针 |
 
+## nullptr 和其他"空"的区别
+
+`nullptr` 只表示"没有指向任何对象的指针"。它不是整数 0，也不是空字符串，更不是容器为空。
+
+| 表达含义 | 推荐写法 | 不要混用 |
+|:---|:---|:---|
+| 空指针 | `T* p = nullptr;` | 不要写 `NULL` 或 `0` |
+| 空智能指针 | `std::shared_ptr<T> p = nullptr;` | 不要手动 new/delete |
+| 空字符串 | `std::string s;` 或 `""` | 不要用 `nullptr` |
+| 可能没有返回值 | `std::optional<T>` | 不要硬塞一个"特殊值" |
+| 容器为空 | `v.empty()` | 不要和指针是否为空混淆 |
+
 ## 示例代码
 
 ### 示例 1：nullptr 基本使用
 
 ```cpp
 #include <iostream>
+#include <cstddef>
 
 int main()
 {
@@ -181,6 +194,59 @@ shared_ptr is null
 shared_ptr value = 100
 ```
 
+### 示例 4：nullptr 不是魔法——多个指针重载仍需指定类型
+
+```cpp
+#include <iostream>
+
+void reset(int* p)
+{
+    std::cout << "reset int pointer\n";
+    if (p != nullptr)
+    {
+        *p = 0;
+    }
+}
+
+void reset(double* p)
+{
+    std::cout << "reset double pointer\n";
+    if (p != nullptr)
+    {
+        *p = 0.0;
+    }
+}
+
+int main()
+{
+    int count = 42;
+    double ratio = 3.14;
+
+    reset(&count);   // 明确调用 int* 版本
+    reset(&ratio);   // 明确调用 double* 版本
+
+    int* count_ptr = nullptr;
+    reset(count_ptr); // 仍然明确是 int* 版本
+
+    // reset(nullptr); // ❌ 编译错误：nullptr 可以转成 int*，也可以转成 double*
+
+    std::cout << "count = " << count << "\n";
+    std::cout << "ratio = " << ratio << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+reset int pointer
+reset double pointer
+reset int pointer
+count = 0
+ratio = 0
+```
+
 ## 运行结果
 
 见上方每个示例的"运行结果"。
@@ -192,17 +258,20 @@ shared_ptr value = 100
 | 示例 1 | nullptr 基本用法 | `nullptr`、`p == nullptr` | 初始化指针为"空"，类型安全 | nullptr 的类型是 `std::nullptr_t` |
 | 示例 2 | 解决重载歧义 | 重载函数中 nullptr 匹配指针版本 | NULL 不能区分整数和指针重载，nullptr 可以 | 这就是 nullptr 替代 NULL 的核心原因 |
 | 示例 3 | 模板和智能指针 | `shared_ptr = nullptr`、`if(sp)` | 智能指针也能用 nullptr 初始化 | 智能指针的 bool 转换等价于 `!= nullptr` |
+| 示例 4 | 多个指针重载 | `int*`、`double*`、`nullptr` | nullptr 能排除整数重载，但不能替你选择具体指针类型 | 多个指针重载时先把 nullptr 放进明确类型的指针变量 |
 
 ## 常见错误
 
-**错误 1：把 `nullptr` 写成 `nulltr`**
+**错误 1：以为 nullptr 可以匹配任意一个指针重载**
 
 ```cpp
-int* p = nulltr;  // ❌ 编译错误！这是笔误
-int* p = nulltpr; // ❌ 同样笔误
+void f(int*);
+void f(double*);
+
+f(nullptr);  // ❌ 编译错误：两个指针版本都能匹配
 ```
 
-正确做法：`nullptr`（null + ptr）。
+正确做法：先明确类型：`int* p = nullptr; f(p);`
 
 **错误 2：把 `nullptr` 赋给整数**
 
@@ -223,7 +292,7 @@ if (p == NULL) { ... }  // 能工作，但不是最佳实践
 **错误 4：把 nullptr 当布尔值用在非预期的地方**
 
 ```cpp
-std::string s = nullptr;  // ❌ 运行时错误！s 被构造为 "空指针" 字符串
+std::string s = nullptr;  // ❌ C++23 起直接禁止；旧标准中也是未定义行为
 ```
 
 正确做法：空字符串用 `std::string s;` 或 `std::string s = "";`。

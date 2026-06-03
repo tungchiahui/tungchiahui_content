@@ -51,6 +51,7 @@ for (auto it = c.begin(); it != c.end(); ++it) { ... }
 | 操作 | 说明 |
 |:---|:---|
 | `c.begin()` / `c.end()` | 正向迭代器范围 |
+| `c.cbegin()` / `c.cend()` | 只读正向迭代器范围 |
 | `c.rbegin()` / `c.rend()` | 反向迭代器范围 |
 | `*it` | 解引用，获取元素 |
 | `++it` / `--it` | 移动到下一个 / 上一个元素 |
@@ -58,6 +59,20 @@ for (auto it = c.begin(); it != c.end(); ++it) { ... }
 | `std::advance(it, n)` | 前进 n 步 |
 | `std::next(it, n)` | 返回前进 n 步后的迭代器（不修改原迭代器） |
 | `std::prev(it, n)` | 返回后退 n 步后的迭代器 |
+
+## 迭代器能力不是都一样
+
+迭代器看起来都像指针，但不同容器的迭代器能力不一样：
+
+| 迭代器类型 | 能做什么 | 常见容器 |
+|:---|:---|:---|
+| 输入迭代器 | 只能从前往后读一次 | 输入流 |
+| 前向迭代器 | 可以多次从前往后走 | `forward_list` |
+| 双向迭代器 | 可以 `++`，也可以 `--` | `list`、`map`、`set` |
+| 随机访问迭代器 | 可以 `it + n`、`it - it2` | `vector`、`array`、`deque` |
+| 连续迭代器（C++20 概念） | 元素在内存中连续 | `vector`、`array`、`string` |
+
+这也是为什么 `vector` 能写 `v.begin() + 2`，但 `map` 不能写 `m.begin() + 2`。不是 map 落后，而是 map 的内部结构是树，走到下一个元素要沿着树结构移动，不能像数组一样直接跳到第几个。
 
 ## 示例代码
 
@@ -86,7 +101,7 @@ int main()
 **运行结果**：
 
 ```
-forward: 10 20 30 40 50 
+forward: 10 20 30 40 50
 ```
 
 ### 示例 2：在示例 1 基础上，反向遍历和 const 迭代器
@@ -120,7 +135,7 @@ int main()
 **运行结果**：
 
 ```
-reverse: 50 40 30 20 10 
+reverse: 50 40 30 20 10
 first element via const_iterator: 10
 ```
 
@@ -131,6 +146,7 @@ first element via const_iterator: 10
 #include <vector>
 #include <map>
 #include <set>
+#include <string>
 
 int main()
 {
@@ -167,9 +183,9 @@ int main()
 **运行结果**：
 
 ```
-vector: 10 20 30 
-map:    Alice:85 Bob:92 
-set:    2 5 8 
+vector: 10 20 30
+map:    Alice:85 Bob:92
+set:    2 5 8
 ```
 
 ### 示例 4：用 `std::next` 和 `std::advance` 移动迭代器
@@ -211,6 +227,114 @@ after advance 3: 40
 last element via prev: 60
 ```
 
+### 示例 5：vector 可以 `begin() + n`，map 只能用 `std::next`
+
+```cpp
+#include <iostream>
+#include <iterator>
+#include <map>
+#include <string>
+#include <vector>
+
+int main()
+{
+    std::vector<int> nums = {10, 20, 30, 40};
+    std::map<std::string, int> scores = {
+        {"Alice", 85},
+        {"Bob", 92},
+        {"Charlie", 78}
+    };
+
+    auto v_it = nums.begin() + 2;
+    std::cout << "vector third = " << *v_it << "\n";
+
+    // auto m_it = scores.begin() + 2;  // ❌ map 迭代器不支持 + 2
+    auto m_it = std::next(scores.begin(), 2);
+    std::cout << "map third = " << m_it->first << ": " << m_it->second << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+vector third = 30
+map third = Charlie: 78
+```
+
+这个例子体现了“统一”和“差异”同时存在：
+
+- 统一：它们都有 `begin()` / `end()`，都能用 `++it` 遍历。
+- 差异：`vector` 是连续数组，能随机跳转；`map` 是有序树，不能用 `+ n` 直接跳。
+
+### 示例 6：遍历时删除，vector 和 map 的写法很像
+
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+#include <vector>
+
+int main()
+{
+    std::vector<int> nums = {1, 2, 3, 4, 5};
+
+    for (auto it = nums.begin(); it != nums.end();)
+    {
+        if (*it % 2 == 0)
+        {
+            it = nums.erase(it);
+        }
+        else
+        {
+            ++it;
+        }
+    }
+
+    std::map<std::string, int> scores = {
+        {"Alice", 85},
+        {"Bob", 59},
+        {"Charlie", 78}
+    };
+
+    for (auto it = scores.begin(); it != scores.end();)
+    {
+        if (it->second < 60)
+        {
+            it = scores.erase(it);
+        }
+        else
+        {
+            ++it;
+        }
+    }
+
+    for (int n : nums)
+    {
+        std::cout << n << " ";
+    }
+    std::cout << "\n";
+
+    for (const auto& [name, score] : scores)
+    {
+        std::cout << name << ": " << score << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+1 3 5
+Alice: 85
+Charlie: 78
+```
+
+这个写法的核心是 `it = container.erase(it)`。不管是 `vector` 还是 `map`，删除当前元素后都要使用 `erase` 返回的新迭代器继续走。
+
 ## 运行结果
 
 见上方每个示例的"运行结果"。
@@ -223,6 +347,8 @@ last element via prev: 60
 | 示例 2 | 反向遍历和 const | `rbegin()`、`rend()`、`const_iterator` | 反向遍历用反向迭代器更方便 | 用 `const_iterator` 或 `cbegin()` 保证不修改元素 |
 | 示例 3 | 不同容器统一语法 | `it->first`、`it->second` | map 的迭代器解引用是 `pair`，必须用 `->` 访问 | map 迭代器的 `*it` 是 `std::pair` |
 | 示例 4 | 移动迭代器 | `std::next()`、`std::advance()`、`std::prev()` | `next` 不修改原迭代器，`advance` 会修改 | `advance` 对某些容器可能是 O(n) 操作 |
+| 示例 5 | 不同迭代器能力 | `it + n`、`std::next()` | vector 支持随机访问，map 不支持 | 不要把所有迭代器都当指针用 |
+| 示例 6 | 遍历时删除 | `erase()` 返回值、结构化绑定 | 删除后要继续使用新的有效迭代器 | `erase` 后旧迭代器可能失效 |
 
 ## 常见错误
 
@@ -254,6 +380,14 @@ std::vector<int>::iterator it = my_set.begin();  // ❌ 类型不兼容！
 
 正确做法：每类容器的迭代器类型不同，用 `auto` 可以自动推导。
 
+**错误 4：认为所有迭代器都能相减**
+
+```cpp
+auto dist = my_map.end() - my_map.begin();  // ❌ map 迭代器不支持相减
+```
+
+正确做法：需要距离时用 `std::distance(my_map.begin(), my_map.end())`。但注意：对 `map` / `list` 这类容器，计算距离通常需要一步步走过去，复杂度是 O(n)。
+
 ## 使用建议
 
 1. **遍历优先用范围 for**：它底层就是迭代器，但语法更简洁。
@@ -267,4 +401,5 @@ std::vector<int>::iterator it = my_set.begin();  // ❌ 类型不兼容！
 - `begin()` → 首元素，`end()` → 尾元素后，`rbegin()` → 尾元素，`rend()` → 首元素前。
 - 用 `*it` 解引用，`++it` 前进，`it->member` 访问成员。
 - `std::next/prev/advance` 移动迭代器，注意 `advance` 修改原迭代器。
+- 不同容器的迭代器能力不同，`vector` 能随机访问，`map` / `set` 只能双向移动。
 - 理解迭代器是理解 STL 算法的基础（下一节）。

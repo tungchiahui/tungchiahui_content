@@ -230,6 +230,87 @@ Score: -1
 | 示例 2 | optional 表示转换失败 | `try/catch` 包装 + optional | 把异常转换成空 optional，调用者更易处理 | 也可以用 `std::from_chars`（C++17）更高效 |
 | 示例 3 | optional 作为成员变量 | `std::optional<std::string>` 成员 | "可选字段"用 optional 比用 magic value（如 -1）更清晰 | optional 本身占用额外空间（T 的大小 + bool + padding） |
 
+## optional 适合"可能没有"，不适合"错误详情很多"
+
+`optional` 表达的是：这个值可能存在，也可能不存在。它不负责说明“为什么失败”。
+
+| 场景 | 推荐 |
+|:---|:---|
+| 查找名字，可能找不到 | `std::optional<size_t>` |
+| 配置项可能没填 | `std::optional<std::string>` |
+| 字符串转数字，只关心成不成功 | `std::optional<int>` |
+| 打开文件失败，需要知道权限/路径/格式错误 | 错误码、异常、或 `expected` 类工具 |
+| 网络请求失败，需要错误类型和错误消息 | 错误对象，不要只用 optional |
+
+### 示例 4：optional 和错误信息的区别
+
+```cpp
+#include <iostream>
+#include <optional>
+#include <string>
+
+std::optional<int> parse_port_simple(const std::string& text)
+{
+    try
+    {
+        int port = std::stoi(text);
+        if (port >= 0 && port <= 65535)
+        {
+            return port;
+        }
+    }
+    catch (...) {}
+    return std::nullopt;
+}
+
+struct ParseResult
+{
+    bool ok;
+    int value;
+    std::string error;
+};
+
+ParseResult parse_port_with_error(const std::string& text)
+{
+    try
+    {
+        int port = std::stoi(text);
+        if (port < 0 || port > 65535)
+        {
+            return {false, 0, "port out of range"};
+        }
+        return {true, port, ""};
+    }
+    catch (...)
+    {
+        return {false, 0, "not a number"};
+    }
+}
+
+int main()
+{
+    auto simple = parse_port_simple("70000");
+    std::cout << "simple ok? " << (simple ? "yes" : "no") << "\n";
+
+    auto detailed = parse_port_with_error("70000");
+    if (!detailed.ok)
+    {
+        std::cout << "error: " << detailed.error << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+simple ok? no
+error: port out of range
+```
+
+如果调用者只关心“有没有值”，`optional` 很合适；如果调用者需要知道失败原因，单独的 `optional` 就不够了。
+
 ## 常见错误
 
 **错误 1：不检查直接 `*opt`**
@@ -265,6 +346,7 @@ std::cout << opt.value();  // ❌ 抛出 std::bad_optional_access
 3. **默认用 `value_or()` 而不是 `*opt`**：`value_or()` 更安全。
 4. **`std::optional` 有额外空间开销**：等于 `sizeof(T) + sizeof(bool) + padding`，小对象影响不大。
 5. **C++23 引入了 `std::optional` 的 monadic 操作**：`.and_then()`, `.transform()`, `.or_else()` 链式调用更优雅。
+6. **需要错误详情时别只用 optional**：optional 只表达有没有值，不表达为什么没有。
 
 ## 小结
 

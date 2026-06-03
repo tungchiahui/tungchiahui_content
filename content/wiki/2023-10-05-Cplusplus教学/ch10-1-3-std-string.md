@@ -218,6 +218,104 @@ int main()
 | 示例 3 | 数字与字符串互转 | `std::to_string()`、`std::stoi()`、`std::stod()` | 格式化输出或解析输入时常用 | `stoi` 若字符串非法会抛异常 |
 | 示例 4 | 字符串作为函数参数 | `const std::string&`、范围 for 遍历 | 传引用避免拷贝，范围 for 遍历字符 | `const std::string&` 是最佳传参方式 |
 
+## 常见写法对比
+
+### `+` 拼接 vs `+=` / `append`
+
+少量拼接时，`+` 很直观：
+
+```cpp
+std::string full = first + " " + last;
+```
+
+如果在循环里反复拼接，优先用 `+=` 或 `append`，必要时配合 `reserve`：
+
+```cpp
+std::string line;
+line.reserve(100);
+
+for (const std::string& word : words)
+{
+    line += word;
+    line += ' ';
+}
+```
+
+一个字符串只拼两三次时，差异不明显；如果拼几千次日志、路径、协议字段，反复 `+` 可能产生很多临时字符串。
+
+### `string` vs `const char*`
+
+| 写法 | 含义 | 推荐场景 |
+|:---|:---|:---|
+| `std::string` | 拥有字符串内容，自动管理内存 | 绝大多数 C++ 业务代码 |
+| `const char*` | 指向一段 C 风格字符串，不拥有内容 | 调用 C API、字符串字面量 |
+| `s.c_str()` | 从 string 获取 C 字符串指针 | 传给 C API |
+
+`c_str()` 返回的指针只在字符串没有被修改、且字符串对象还活着时有效。不要把它长期保存到别处。
+
+### 示例 5：循环拼接时 reserve 的意义
+
+```cpp
+#include <cstddef>
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main()
+{
+    std::vector<std::string> fields = {"time", "x", "y", "yaw", "speed"};
+
+    std::string csv;
+    csv.reserve(64);
+
+    for (std::size_t i = 0; i < fields.size(); ++i)
+    {
+        csv += fields[i];
+        if (i + 1 != fields.size())
+        {
+            csv += ',';
+        }
+    }
+
+    std::cout << csv << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+time,x,y,yaw,speed
+```
+
+这个例子里 `reserve(64)` 不是必须的，但它体现了思路：当你知道大概会拼出多长的字符串时，可以提前预留空间，减少中途扩容。
+
+### 示例 6：和 C API 交互时使用 c_str()
+
+```cpp
+#include <cstdio>
+#include <string>
+
+int main()
+{
+    std::string filename = "log.txt";
+
+    FILE* file = std::fopen(filename.c_str(), "w");
+    if (file == nullptr)
+    {
+        return 1;
+    }
+
+    std::fputs("hello\n", file);
+    std::fclose(file);
+
+    return 0;
+}
+```
+
+`std::fopen` 是 C API，需要 `const char*`，所以这里用 `filename.c_str()`。现代 C++ 自己写文件更推荐 `std::ofstream` 或 `std::filesystem`，这里只是展示和旧接口配合的方式。
+
 ## 常见错误
 
 **错误 1：拼接时两个都是 C 字符串**
@@ -248,6 +346,17 @@ std::cout << s.substr(pos);  // ❌ pos 可能是 npos（一个巨大的值）
 std::string s = 123;  // ❌ 不会变成 "123"！
 ```
 正确做法：用 `std::to_string(123)`。
+
+**错误 4：长期保存 c_str() 指针**
+
+```cpp
+std::string s = "hello";
+const char* p = s.c_str();
+s += " world";
+std::cout << p;  // ❌ s 修改后，p 可能已经失效
+```
+
+正确做法：需要字符串内容就保存 `std::string`，不要长期保存 `c_str()` 返回的指针。
 
 ## 使用建议
 

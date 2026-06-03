@@ -192,6 +192,88 @@ unordered_set:       20 40 10 50 30
 | 示例 2 | find 查找和 erase 删除 | `find()`、`erase()` | `find` 返回迭代器，要检查是否为 `end()` | 删除不存在的元素不会出错 |
 | 示例 3 | count 判断存在、对比有序和无序 | `count()`、`unordered_set` | `count()` 只能返回 0 或 1，比 find 更简洁 | unordered_set 不排序 |
 
+## set 和 vector 去重的区别
+
+`set` 适合“边插入边保持唯一”，`vector + sort + unique` 适合“先收集一批数据，最后统一去重”。
+
+| 场景 | 推荐写法 | 原因 |
+|:---|:---|:---|
+| 每来一个 ID 就要判断是否见过 | `std::unordered_set` | 在线查询快 |
+| 需要一直保持有序唯一 | `std::set` | 插入后自动有序 |
+| 已经收集了一批数据，最后去重 | `vector + sort + unique` | 批量处理通常更直接 |
+| 需要保留原始出现顺序并去重 | `vector + unordered_set` 辅助 | set 会改变顺序 |
+
+### 示例 4：批量去重时，vector + sort + unique 也很合适
+
+```cpp
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+int main()
+{
+    std::vector<int> ids = {3, 1, 2, 3, 2, 5, 1};
+
+    std::sort(ids.begin(), ids.end());
+    ids.erase(std::unique(ids.begin(), ids.end()), ids.end());
+
+    for (int id : ids)
+    {
+        std::cout << id << " ";
+    }
+    std::cout << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+1 2 3 5
+```
+
+这个例子最后得到的是有序唯一结果。如果你只是想把一批数据去重后输出，`vector + sort + unique` 很清楚；如果你在数据到来的过程中就要不断判断“之前是否出现过”，用 `set` / `unordered_set` 更自然。
+
+### 示例 5：保留首次出现顺序的去重
+
+```cpp
+#include <iostream>
+#include <unordered_set>
+#include <vector>
+
+int main()
+{
+    std::vector<int> input = {3, 1, 2, 3, 2, 5, 1};
+    std::vector<int> result;
+    std::unordered_set<int> seen;
+
+    for (int id : input)
+    {
+        if (seen.insert(id).second)
+        {
+            result.push_back(id);
+        }
+    }
+
+    for (int id : result)
+    {
+        std::cout << id << " ";
+    }
+    std::cout << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+3 1 2 5
+```
+
+这里 `unordered_set` 只负责判断是否见过，`vector` 负责保存原始出现顺序。容器不是只能单独用，很多工程写法都是组合使用。
+
 ## 常见错误
 
 **错误 1：想通过下标访问 set 元素**
@@ -223,6 +305,18 @@ for (int n : s)
 ```
 
 正确做法：使用迭代器版本的 `erase(it++)`，或收集后统一删除。
+
+**错误 4：以为 set 会保留插入顺序**
+
+```cpp
+std::set<int> s;
+s.insert(3);
+s.insert(1);
+s.insert(2);
+// 遍历结果是 1 2 3，不是 3 1 2
+```
+
+正确做法：需要保留插入顺序时，用 `vector` 保存顺序，再用 `unordered_set` 辅助去重。
 
 ## 使用建议
 

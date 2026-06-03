@@ -256,6 +256,57 @@ add(1.1, 2.2) = 3.3
 add(string, string) = hi world
 ```
 
+### 示例 6：同步调用看不出问题，保存回调后引用捕获才危险
+
+```cpp
+#include <functional>
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main()
+{
+    std::vector<std::function<void()>> callbacks;
+
+    {
+        std::string name = "Alice";
+
+        auto print_now = [&name]() {
+            std::cout << "sync: " << name << "\n";
+        };
+        print_now();  // 立刻调用，name 还活着，所以没问题
+
+        callbacks.push_back([name]() {
+            std::cout << "saved by value: " << name << "\n";
+        });
+
+        // callbacks.push_back([&name]() {
+        //     std::cout << "saved by ref: " << name << "\n";
+        // });  // ❌ 离开作用域后 name 销毁，之后再调用会悬空
+    }
+
+    for (const auto& cb : callbacks)
+    {
+        cb();
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+sync: Alice
+saved by value: Alice
+```
+
+这个例子是 Lambda 生命周期最重要的场景：
+
+- 立刻同步调用时，引用捕获通常看起来没问题。
+- 保存到 `std::function`、线程、定时器、异步回调里以后，Lambda 可能比局部变量活得更久。
+- 异步或保存回调时，优先按值捕获需要的数据，或者用智能指针管理生命周期。
+
 ## 运行结果
 
 见上方每个示例的"运行结果"。
@@ -269,6 +320,7 @@ add(string, string) = hi world
 | 示例 3 | lambda + STL 算法 | sort/find_if/count_if 的第三个参数 | lambda 是 STL 算法的最佳搭档 | 捕获的变量在 lambda 体内可直接使用 |
 | 示例 4 | this 捕获和 mutable | `[this]`、`[*this]`、`mutable` | `[*this]` 拷贝整个对象，异步安全 | mutable 让按值捕获的变量可修改（但不影响外部） |
 | 示例 5 | 泛型 lambda | `[](auto a, auto b) {...}` | C++14 起参数类型可以是 auto | 泛型 lambda 底层是模板 |
+| 示例 6 | 保存回调的生命周期 | `std::function`、按值捕获 | 回调可能晚于局部变量执行 | 异步/保存回调不要随便引用捕获局部变量 |
 
 ## 常见错误
 
@@ -301,6 +353,20 @@ auto f = [x]() { x++; };  // ❌ 编译错误！按值捕获的变量是 const
 ```
 
 正确做法：`auto f = [x]() mutable { x++; };`
+
+**错误 4：异步回调里默认 `[&]` 捕获**
+
+```cpp
+void start()
+{
+    std::string msg = "hello";
+    register_callback([&] {
+        std::cout << msg;  // ❌ callback 晚点执行时 msg 可能已经销毁
+    });
+}
+```
+
+正确做法：明确按值捕获 `[msg]`，或者把数据放到 `std::shared_ptr` 中延长生命周期。
 
 ## 使用建议
 

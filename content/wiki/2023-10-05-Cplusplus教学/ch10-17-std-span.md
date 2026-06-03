@@ -209,6 +209,60 @@ avg(c_arr) = 2.2
 | 示例 2 | 子视图操作 | `subspan()`、`first()`、`last()` | 零拷贝切片，可以局部处理大数组 | 子视图修改影响原数据 |
 | 示例 3 | 用 span 写通用函数 | `sum(std::span<const double>)` | 通用算法 + 任意连续容器 | 函数内部用 range-for 和 .size() 即可 |
 
+## `span<const T>` 和 `span<T>` 的区别
+
+| 写法 | 能否修改底层数据 | 常见用途 |
+|:---|:---|:---|
+| `std::span<const T>` | 不能修改 | 只读处理、统计、打印、校验 |
+| `std::span<T>` | 可以修改 | 填充缓冲区、归一化数据、原地滤波 |
+
+`span` 不拥有数据，所以“是否 const”非常重要。函数参数默认优先写 `std::span<const T>`，只有明确要修改原数据时才写 `std::span<T>`。
+
+### 示例 4：只读 span 和可写 span
+
+```cpp
+#include <iostream>
+#include <span>
+#include <vector>
+
+void print(std::span<const int> data)
+{
+    for (int n : data)
+    {
+        std::cout << n << " ";
+    }
+    std::cout << "\n";
+}
+
+void add_offset(std::span<int> data, int offset)
+{
+    for (int& n : data)
+    {
+        n += offset;
+    }
+}
+
+int main()
+{
+    std::vector<int> values = {10, 20, 30};
+
+    print(values);
+    add_offset(values, 5);
+    print(values);
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+10 20 30
+15 25 35
+```
+
+`print` 只读，所以用 `span<const int>`；`add_offset` 要原地修改，所以用 `span<int>`。这比传 `vector<int>&` 更通用，因为它也可以接收 `array` 和 C 数组。
+
 ## 常见错误
 
 **错误 1：span 比它引用的数据活得久**
@@ -246,6 +300,7 @@ std::span<int> sp(lst);  // ❌ list 不连续！
 2. **span 只是视图**：不拥有数据，必须确保底层数据存活。
 3. **子视图零拷贝**：`subspan` 等操作非常高效。
 4. **C++20 才有 span**：如果你的项目用 C++17，可以用 `std::string_view`（字符串版的 span）或第三方库。
+5. **只读参数优先 `span<const T>`**：这样 vector、array、C 数组都能传，而且不会被函数修改。
 
 ## 小结
 

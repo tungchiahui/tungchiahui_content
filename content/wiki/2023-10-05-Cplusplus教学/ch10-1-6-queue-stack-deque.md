@@ -21,8 +21,9 @@ C++98
 ## 需要的头文件
 
 ```cpp
-#include <queue>   // for std::queue, std::deque
+#include <queue>   // for std::queue
 #include <stack>   // for std::stack
+#include <deque>   // for std::deque
 ```
 
 ## 基本语法
@@ -246,6 +247,72 @@ int main()
 | 示例 2 | stack LIFO 行为 | `push()`、`top()`、`pop()` | stack 只能从顶部进出 | `pop()` 不返回值，要先 `top()` 取值 |
 | 示例 3 | deque 双端操作和随机访问 | `push_front/back`、`pop_front/back`、`d[i]` | deque 支持两端操作且支持下标 | deque 是唯一一个两者都支持的 |
 | 示例 4 | stack 实际应用 | 用 stack 实现括号匹配 | 利用 LIFO 特性，遇到右括号弹出最近的左括号 | stack 非常适合"最近未匹配"的场景 |
+
+## queue / stack 为什么不能遍历
+
+`queue` 和 `stack` 不是普通容器，而是**容器适配器**。它们故意隐藏了底层容器的大部分能力，只暴露符合语义的操作：
+
+| 类型 | 它强调的语义 | 故意不提供什么 |
+|:---|:---|:---|
+| `queue` | 先进先出 | 不提供遍历、不提供下标、不允许访问中间元素 |
+| `stack` | 先进后出 | 不提供遍历、不提供下标、不允许访问底部元素 |
+| `deque` | 双端队列 | 提供遍历、下标、两端操作 |
+
+这不是功能少，而是语义更强。比如任务队列只应该处理队首任务，如果随便访问中间任务，代码就不再像“队列”。
+
+### deque 和 vector 的区别什么时候明显
+
+如果只在尾部 `push_back`，`vector` 和 `deque` 看起来差不多；一旦你频繁在头部插入/删除，区别就明显了：
+
+| 场景 | 推荐 | 原因 |
+|:---|:---|:---|
+| 只在尾部追加，按下标访问 | `std::vector` | 连续内存，缓存友好 |
+| 头尾都要频繁插入删除 | `std::deque` | 两端操作快 |
+| 需要把底层指针交给 C API | `std::vector` | 内存连续，`data()` 可靠 |
+| 实现任务队列语义 | `std::queue` | 限制接口，意图清晰 |
+
+### 示例 5：滑动窗口更适合 deque
+
+```cpp
+#include <deque>
+#include <iostream>
+
+int main()
+{
+    std::deque<int> window;
+    const int window_size = 3;
+
+    for (int value : {10, 20, 30, 40, 50})
+    {
+        window.push_back(value);
+        if (window.size() > window_size)
+        {
+            window.pop_front();
+        }
+
+        std::cout << "window: ";
+        for (int n : window)
+        {
+            std::cout << n << " ";
+        }
+        std::cout << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+window: 10
+window: 10 20
+window: 10 20 30
+window: 20 30 40
+window: 30 40 50
+```
+
+滑动窗口每次从尾部加入新数据、从头部移除旧数据，这就是 `deque` 的舒适区。如果用 `vector`，头部删除会导致后面元素整体前移，数据量大时成本更明显。
 
 ## 常见错误
 

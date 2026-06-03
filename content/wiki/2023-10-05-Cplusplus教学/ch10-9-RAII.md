@@ -232,6 +232,77 @@ This is line 2.
 File was automatically closed by RAII
 ```
 
+### 示例 4：在示例 3 基础上，提前 return 时才看出 RAII 的价值
+
+下面这个例子故意模拟"处理到一半发现数据不合法，提前返回"。正常流程里手动释放和 RAII 看起来差不多，但一旦有多个返回路径，区别就很明显。
+
+```cpp
+#include <iostream>
+#include <string>
+#include <utility>
+#include <vector>
+
+class Connection
+{
+    std::string name_;
+
+public:
+    explicit Connection(std::string name) : name_(std::move(name))
+    {
+        std::cout << name_ << " connected\n";
+    }
+
+    ~Connection()
+    {
+        std::cout << name_ << " disconnected\n";
+    }
+
+    void send(const std::string& msg)
+    {
+        std::cout << name_ << " send: " << msg << "\n";
+    }
+};
+
+bool upload_with_raii(const std::vector<std::string>& lines)
+{
+    Connection conn("server"); // 构造时连接，函数结束时自动断开
+
+    for (const auto& line : lines)
+    {
+        if (line.empty())
+        {
+            std::cout << "empty line, stop upload\n";
+            return false; // conn 仍然会析构
+        }
+
+        conn.send(line);
+    }
+
+    return true; // conn 也会析构
+}
+
+int main()
+{
+    std::vector<std::string> data = {"hello", "world", "", "after error"};
+
+    bool ok = upload_with_raii(data);
+    std::cout << "upload ok = " << std::boolalpha << ok << "\n";
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+server connected
+server send: hello
+server send: world
+empty line, stop upload
+server disconnected
+upload ok = false
+```
+
 ## 运行结果
 
 见上方每个示例的"运行结果"。
@@ -243,6 +314,7 @@ File was automatically closed by RAII
 | 示例 1 | RAII 基本原理 | 构造函数获取，析构函数释放 | 展示了手动管理的问题和 RAII 的解决方案 | RAII 的"一定执行析构"是 C++ 的核心保证 |
 | 示例 2 | lock_guard 是 RAII | `std::lock_guard<std::mutex>` | 构造时加锁，析构时解锁，异常安全 | 比手动 lock/unlock 安全得多 |
 | 示例 3 | fstream 是 RAII | `std::ofstream`、`std::ifstream` | 构造时打开文件，析构时关闭文件 | 不需要显式写 close |
+| 示例 4 | 多返回路径中的 RAII | 构造/析构、提前 `return` | 真实工程里经常有提前返回，RAII 能保证资源仍被释放 | 资源对象要放在正确的作用域里 |
 
 ## 常见错误
 
@@ -286,11 +358,13 @@ void func()
 3. **RAII 对象必须在栈上**：利用作用域自动触发析构。
 4. **析构函数永远不要抛异常**：标记 `noexcept`。
 5. **理解 RAII 就理解了 C++ 的核心设计哲学**：后续智能指针、并发编程都建立在 RAII 之上。
+6. **用作用域控制资源持有时间**：想早点释放资源，就把 RAII 对象放进更小的 `{}` 作用域。
 
 ## 小结
 
 - RAII = 资源获取即初始化，是 C++ 最核心的资源管理惯用法。
 - 构造时获取资源，析构时释放资源，离开作用域保证释放。
 - `std::unique_ptr`、`std::lock_guard`、`std::fstream` 都是 RAII。
+- 多个 `return`、异常、复杂分支下，RAII 的价值最明显。
 - 永远不要在析构函数中抛异常。
 - 理解了 RAII，就为理解智能指针和并发编程打好了基础。

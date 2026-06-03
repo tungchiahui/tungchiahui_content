@@ -50,6 +50,18 @@ for (auto& 变量名 : 容器)
 | `for (auto& x : c)` | 可修改引用遍历 | 需要修改容器中元素 |
 | `for (int x : {1, 2, 3})` | 遍历初始值列表 | 快速遍历已知小集合 |
 
+## 什么时候不用范围 for
+
+范围 for 适合"逐个访问元素"。如果你的逻辑依赖下标、相邻元素、反向遍历、跳着遍历，或者需要在遍历过程中增删容器元素，传统 `for` 或迭代器循环反而更清楚。
+
+| 需求 | 推荐写法 | 原因 |
+|:---|:---|:---|
+| 只读访问每个元素 | 范围 for | 最简洁 |
+| 修改每个元素的值 | `for (auto& x : c)` | 直接改原元素 |
+| 需要下标 | 传统 `for (size_t i = 0; ...)` | 下标是逻辑的一部分 |
+| 比较相邻元素 | 传统 for | 要访问 `i` 和 `i - 1` |
+| 遍历时删除元素 | 迭代器循环 / 算法 | 范围 for 容易触发迭代器失效 |
+
 ## 示例代码
 
 ### 示例 1：用范围 for 遍历 vector
@@ -202,6 +214,48 @@ scores (structured binding):
   Charlie: 78
 ```
 
+### 示例 5：在示例 4 基础上，需要下标时不要硬用范围 for
+
+```cpp
+#include <cstddef>
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main()
+{
+    std::vector<int> temperatures = {22, 23, 21, 25, 24};
+
+    std::cout << "all temperatures: ";
+    for (int t : temperatures)
+    {
+        std::cout << t << " ";
+    }
+    std::cout << "\n";
+
+    std::cout << "changes between adjacent days:\n";
+    for (std::size_t i = 1; i < temperatures.size(); ++i)
+    {
+        int change = temperatures[i] - temperatures[i - 1];
+        std::cout << "  day " << i << " -> day " << (i + 1)
+                  << ": " << change << "\n";
+    }
+
+    return 0;
+}
+```
+
+**运行结果**：
+
+```
+all temperatures: 22 23 21 25 24
+changes between adjacent days:
+  day 1 -> day 2: 1
+  day 2 -> day 3: -2
+  day 3 -> day 4: 4
+  day 4 -> day 5: -1
+```
+
 ## 运行结果
 
 见上方每个示例的"运行结果"。
@@ -214,6 +268,7 @@ scores (structured binding):
 | 示例 2 | const auto& vs auto& | `const auto&`、`auto&` | `const auto&` 避免拷贝；`auto&` 可修改元素 | 遍历 string 等大对象时一定要用引用 |
 | 示例 3 | 遍历初始值列表和 map | 遍历 `{...}` 和 map | 初始值列表可以直接放在 for 里 | map 遍历出来的是 `std::pair` |
 | 示例 4 | 结构化绑定解包 map | `for (const auto& [k, v] : m)` | C++17 语法，key/value 分别起名更清晰 | 如果不用 C++17，可以用示例 3 的方式 |
+| 示例 5 | 需要下标时的写法 | `std::size_t i`、传统 for | 相邻元素比较离不开下标 | 不要为了使用新语法牺牲清晰度 |
 
 ## 常见错误
 
