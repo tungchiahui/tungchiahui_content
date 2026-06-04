@@ -1,5 +1,5 @@
 ---
-title: "Boost.Aiso库
+title: "Boost.Asio库"
 ---
 
-[Boost.Asio库UDP通信](/wiki/2023-10-05-cplusplus-jiao-xue/ch11-1-5-udp-tong-xin)
+[Boost.Asio库UDP通信](/wiki/2023-10-05-cplusplus-jiao-xue/ch18-1-5-udp-tong-xin)

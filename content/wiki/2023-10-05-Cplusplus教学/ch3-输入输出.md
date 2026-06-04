@@ -100,4 +100,19 @@ std::cin >> a     //输入一个变量a
 
 **运行/观察结果：** 运行时需要按提示输入数据，输出结果会随输入内容和分支条件变化。
 
+## 现代 C++ 的格式化输出
+
+前面介绍的 `printf` 和 `std::cout` 都很常用，但各有缺点：`printf` 的格式占位符写错时不够类型安全，`std::cout` 连续输出多个变量时又比较啰嗦。
+
+现代 C++ 提供了更适合格式化输出的工具：
+
+- `std::format`（C++20）：生成格式化后的 `std::string`，写法简洁，类型安全。
+- `std::print` / `std::println`（C++23）：直接格式化输出，`println` 会自动换行。
+
+例如输出一个名字和分数，`std::cout` 常写成 `std::cout << name << ": " << score << std::endl;`，现代写法可以写成 `std::println("{}: {}", name, score);`。
+
+`std::print` / `std::println` 默认输出到标准输出，也可以把第一个参数写成 `stdout` 或 `stderr`。这里的 `stdout` / `stderr` 是 C 标准库的 `FILE*`，不是 `std::cout`。
+
+后面现代 C++ 章节会专门讲：[std::format / std::print](ch17-17-std-format-print)。
+
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)
