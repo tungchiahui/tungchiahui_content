@@ -1,0 +1,303 @@
+---
+title: "函数与头文件"
+---
+
+## 函数
+
+### 概述
+
+**作用：**将一段经常使用的代码封装起来，减少重复代码
+
+一个较大的程序，一般分为若干个程序块，每个模块实现特定的功能。
+
+### 函数的定义
+
+函数的定义一般主要有5个步骤：
+
+1、返回值类型 
+
+2、函数名
+
+3、参数表列
+
+4、函数体语句 
+
+5、return 表达式
+
+**语法：** 
+
+```cpp
+返回值类型 函数名 （参数列表）
+{
+
+       函数体语句
+
+       return表达式
+
+}
+```
+
+* 返回值类型 ：一个函数可以返回一个值。在函数定义中
+* 函数名：给函数起个名称
+* 参数列表：使用该函数时，传入的数据
+* 函数体语句：花括号内的代码，函数内需要执行的语句
+* return表达式： 和返回值类型挂钩，函数执行完后，返回相应的数据
+
+**示例：**定义一个加法函数，实现两个数相加
+
+```cpp
+//函数定义
+int add(int num1, int num2)
+{
+	int sum = num1 + num2;
+	return sum;
+}
+```
+
+### 函数的调用
+
+**功能：**使用定义好的函数
+
+**语法：**` 函数名（参数）`
+
+**示例：**
+
+```cpp
+//函数定义
+int add(int num1, int num2) //定义中的num1,num2称为形式参数，简称形参
+{
+	int sum = num1 + num2;
+	return sum;
+}
+
+int main() {
+
+	int a = 10;
+	int b = 10;
+	//调用add函数
+	int sum = add(a, b);//调用时的a，b称为实际参数，简称实参
+	cout << "sum = " << sum << endl;
+
+	a = 100;
+	b = 100;
+
+	sum = add(a, b);
+	cout << "sum = " << sum << endl;
+
+	system("pause");
+
+	return 0;
+}
+```
+
+> 总结：函数定义里小括号内称为形参，函数调用时传入的参数称为实参
+
+### 值传递
+
+* 所谓值传递，就是函数调用时实参将数值传入给形参
+* 值传递时，==如果形参发生，并不会影响实参==
+
+**示例：**
+
+```cpp
+void swap(int num1, int num2)
+{
+	cout << "交换前：" << endl;
+	cout << "num1 = " << num1 << endl;
+	cout << "num2 = " << num2 << endl;
+
+	int temp = num1;
+	num1 = num2;
+	num2 = temp;
+
+	cout << "交换后：" << endl;
+	cout << "num1 = " << num1 << endl;
+	cout << "num2 = " << num2 << endl;
+
+	//return ; 当函数声明时候，不需要返回值，可以不写return
+}
+
+int main() {
+
+	int a = 10;
+	int b = 20;
+
+	swap(a, b);
+
+	cout << "mian中的 a = " << a << endl;
+	cout << "mian中的 b = " << b << endl;
+
+	system("pause");
+
+	return 0;
+}
+```
+
+> 总结： 值传递时，形参是修饰不了实参的
+
+### **函数的常见样式**
+
+常见的函数样式有4种
+
+1. 无参无返
+2. 有参无返
+3. 无参有返
+4. 有参有返
+
+**示例：**
+
+```cpp
+//函数常见样式
+//1、 无参无返
+void test01()
+{
+	//void a = 10; //无类型不可以创建变量,原因无法分配内存
+	cout << "this is test01" << endl;
+	//test01(); 函数调用
+}
+
+//2、 有参无返
+void test02(int a)
+{
+	cout << "this is test02" << endl;
+	cout << "a = " << a << endl;
+}
+
+//3、无参有返
+int test03()
+{
+	cout << "this is test03 " << endl;
+	return 10;
+}
+
+//4、有参有返
+int test04(int a, int b)
+{
+	cout << "this is test04 " << endl;
+	int sum = a + b;
+	return sum;
+}
+```
+
+### 函数的声明
+
+**作用：** 告诉编译器函数名称及如何调用函数。函数的实际主体可以单独定义。
+
+*  函数的**声明可以多次**，但是函数的**定义只能有一次**
+
+**示例：**
+
+```cpp
+//声明可以多次，定义只能一次
+//声明
+int max(int a, int b);
+int max(int a, int b);
+//定义
+int max(int a, int b)
+{
+	return a > b ? a : b;
+}
+
+int main() {
+
+	int a = 100;
+	int b = 200;
+
+	cout << max(a, b) << endl;
+
+	system("pause");
+
+	return 0;
+}
+```
+
+### 函数的分文件编写
+
+**作用：**让代码结构更加清晰
+
+函数分文件编写一般有4个步骤
+
+1. 创建后缀名为.h的头文件  
+2. 创建后缀名为.cpp的源文件
+3. 在头文件中写函数的声明
+4. 在源文件中写函数的定义
+
+**示例：**
+
+```cpp
+//swap.h文件
+#include<iostream>
+using namespace std;
+
+//实现两个数字交换的函数声明
+void swap(int a, int b);
+
+```
+
+```cpp
+//swap.cpp文件
+#include "swap.h"
+
+void swap(int a, int b)
+{
+	int temp = a;
+	a = b;
+	b = temp;
+
+	cout << "a = " << a << endl;
+	cout << "b = " << b << endl;
+}
+```
+
+```cpp
+//main函数文件
+#include "swap.h"
+int main() {
+
+	int a = 100;
+	int b = 200;
+	swap(a, b);
+
+	system("pause");
+
+	return 0;
+}
+
+```
+
+## 头文件的组织方式
+
+头文件的作用：头文件含有某个库的外部声明函数和变量，方便我们调用库中的API。
+
+注意事项：
+
+1.  常见的头文件stdio.h stdlib.h iostream string等
+
+2.  头文件的扩展名：.h或者.hpp，其实没必要写扩展名，但是建议还是写。
+
+3.  预处理：#include <> 和 #include " "
+
+4.  条件编译
+
+5.  extern "C" { } 用来实现C语言和C++的混合编译，表明它按照类C的编译和连接规约来编译和连接，而不是C++的编译的连接规约。
+
+```cpp
+#ifndef __FILE_NAME_H_    //头文件防止引用重复的条件编译
+#define __FILE_NAME_H_   //头文件防止引用重复的条件编译
+
+#ifdef __cplusplus    //混合编译的条件编译
+extern "C"           //混合编译的条件编译
+{                   //混合编译的条件编译
+#endif             //混合编译的条件编译
+/*  头文件内容开始   */
+
+//头文件内容：预处理、函数声明、变量声明
+
+/*   头文件内容结束  */
+#ifdef __cplusplus     //混合编译的条件编译
+}                      //混合编译的条件编译
+#endif                 //混合编译的条件编译
+
+#endif   //头文件防止引用重复的条件编译
+
+```
