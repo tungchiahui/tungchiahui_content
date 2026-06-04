@@ -14,7 +14,7 @@ C++中能够表示整型的类型有以下几种方式，**区别在于所占内
 | ------------------- | ----------------------------------------------- | ---------------- |
 | short(短整型)       | 2字节                                           | (-2^15 ~ 2^15-1) |
 | int(整型)           | 4字节                                           | (-2^31 ~ 2^31-1) |
-| long(长整形)        | Windows为4字节，Linux为4字节(32位)，8字节(64位) | (-2^31 ~ 2^31-1) |
+| long(长整形)        | Linux 64位通常为8字节，32位环境通常为4字节       | 由平台位数决定   |
 | long long(长长整形) | 8字节                                           | (-2^63 ~ 2^63-1) |
 
 ### sizeof关键字
@@ -36,11 +36,12 @@ int main() {
 
 	cout << "long long 类型所占内存空间为： " << sizeof(long long) << endl;
 
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 > **整型结论**：==short < int <= long <= long long==
 
@@ -81,11 +82,12 @@ int main() {
 	float f3 = 3e-2;  // 3 * 0.1 ^ 2
 	cout << "f3 = " << f3 << endl;
 
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 ### 字符型
 
@@ -116,11 +118,12 @@ int main() {
 	ch = 97; //可以直接用ASCII给字符型变量赋值
 	cout << ch << endl;
 
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 ASCII码表格：
 
@@ -197,11 +200,12 @@ int main() {
 	cout << "\tHello" << endl;
 	cout << "\n" << endl;
 
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 ### 字符串型
 
@@ -219,7 +223,6 @@ int main() {
    	char str1[] = "hello world";
    	cout << str1 << endl;
        
-   	system("pause");
 
    	return 0;
    }
@@ -237,7 +240,6 @@ int main() {
    	string str = "hello world";
    	cout << str << endl;
    	
-   	system("pause");
 
    	return 0;
    }
@@ -271,11 +273,12 @@ int main() {
 
 	cout << "size of bool = " << sizeof(bool) << endl; //1
 	
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 ### 类型别名 typedef
 
@@ -287,6 +290,8 @@ typedef unsigned char uint8_t;
 typedef float fp32;
 typedef double fp64;
 ```
+
+**运行/观察结果：** 这段偏语法定义，通常需要配合调用代码一起编译，重点看定义方式和使用位置。
 
 ### 数据单位、二进制与补码
 

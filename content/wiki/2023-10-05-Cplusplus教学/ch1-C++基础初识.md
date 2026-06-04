@@ -6,30 +6,29 @@ title: "C++基础初识"
 
 ### 第一个C++程序
 
-编写一个C++程序总共分为4个步骤
+在 Linux 下编写一个 C++ 程序，总共分为 4 个步骤
 
-* 创建项目
+* 创建目录
 * 创建文件
 * 编写代码
-* 运行程序
+* 编译并运行程序
 
-#### 创建项目
+#### 创建目录
 
-​	Visual Studio是我们用来编写C++程序的主要工具，我们先将它打开
+先创建一个单独的目录，用来存放当前示例：
 
-![1541383178746](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541383178746-9b8dda0c6f.webp)
-
-![1541384366413](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541384366413-21c94623c2.webp)
+```bash
+mkdir hello_cpp
+cd hello_cpp
+```
 
 #### 创建文件
 
-右键源文件，选择添加->新建项
+创建一个 `main.cpp` 文件：
 
-![1541383817248](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541383817248-bb996478e0.webp)
-
-给C++文件起个名称，然后点击添加即可。
-
-![1541384140042](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541384140042-11110f8c33.webp)
+```bash
+touch main.cpp
+```
 
 #### 编写代码
 
@@ -41,15 +40,91 @@ int main() {
 
 	cout << "Hello world" << endl;
 
-	system("pause");
 
 	return 0;
 }
 ```
 
-#### 运行程序
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
-![1541384818688](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541384818688-7408f95c89.webp)
+#### 编译并运行程序
+
+使用 `g++` 编译，然后运行生成的可执行文件：
+
+```bash
+g++ main.cpp -std=c++17 -Wall -Wextra -o main
+./main
+```
+
+终端输出：
+
+```text
+Hello world
+```
+
+### main函数参数
+
+`main` 函数不是必须带参数。最常见的两种写法是：
+
+```cpp
+int main()
+{
+	return 0;
+}
+```
+
+**运行/观察结果：** 这是最简洁的程序入口，适合不需要读取命令行参数的程序。
+
+```cpp
+int main(int argc, char* argv[])
+{
+	return 0;
+}
+```
+
+**运行/观察结果：** 这也是标准的程序入口写法，适合需要读取命令行参数的程序。
+
+其中：
+
+* `argc` 表示命令行参数的数量，通常至少为 1，因为程序自身的路径也会算作一个参数。
+* `argv` 表示命令行参数数组，`argv[0]` 通常是程序自身的路径或名称，`argv[1]` 开始才是用户传入的参数。
+* `char* argv[]` 也可以写成 `char** argv`，两者在这里表达的含义相同。
+
+示例：
+
+```cpp
+#include<iostream>
+using namespace std;
+
+int main(int argc, char* argv[]) {
+
+	cout << "argc = " << argc << endl;
+
+	for (int i = 0; i < argc; i++) {
+		cout << "argv[" << i << "] = " << argv[i] << endl;
+	}
+
+	return 0;
+}
+```
+
+编译并运行：
+
+```bash
+g++ main.cpp -std=c++17 -Wall -Wextra -o args_demo
+./args_demo hello 123
+```
+
+**运行结果**：
+
+```text
+argc = 3
+argv[0] = ./args_demo
+argv[1] = hello
+argv[2] = 123
+```
+
+> 注意：`argv[0]` 的具体内容和启动方式有关，可能是 `./args_demo`，也可能是完整路径。实际处理参数时，通常从 `argv[1]` 开始读取用户输入的内容。
 
 ### 注释
 
@@ -85,11 +160,12 @@ int main() {
 
 	cout << "a = " << a << endl;
 	
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 > 注意：C++在创建变量时，必须给变量一个初始值，否则会报错
 
@@ -122,11 +198,12 @@ int main() {
 	//month = 24; //报错，常量是不可以修改的
 	
 	
-	system("pause");
 
 	return 0;
 }
 ```
+
+**运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
 ### 关键字
 
@@ -188,7 +265,7 @@ C语言和C++并不是对立的竞争关系： 1)C++是C语言的加强，是一
 
 C/C++环境配置:[电控组环境搭建大全](https://sdutvincirobot.feishu.cn/wiki/FQszwXIR5iQgCfk7pRwc9rYpnqg)
 
-1.  黑马程序员C++视频：
+1.  C++ 视频教程：
 
 https://www.bilibili.com/video/BV1et411b73Z
 
