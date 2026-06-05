@@ -2,23 +2,30 @@
 title: "C++开发环境与第一个工程"
 ---
 
-这一章先不讲复杂理论，只做一件很具体的事：
+这一章先不改代码，只做一件很具体的事：
 
-在 Linux 上把一个 C++ 小工程跑起来，并改成自己的 HelloWorld。
+在 Linux 上把我准备好的 CMake 模板跑起来。
 
 如果你刚开始学 C++，看到 `CMake`、`Ninja`、`target_link_libraries` 这些名字不用紧张。本章不要求你理解它们的全部原理，先照着步骤把工程跑通。等后面学到头文件、分文件编写、第三方库时，再回来看这些内容会更自然。
 
-完整 CMake 模板详解放在后面的 `ch21-CMake工程模板`。本章只关心两件事：
+完整 CMake 模板详解放在后面的`CMake工程模板`。本章只关心两件事：
 
 1. 你的电脑能不能编译并运行 C++ 工程。
-2. 你能不能把模板改成一个最小的 HelloWorld 工程。
+2. VSCode 能不能用 F5 调试这个工程。
 
 ## 本章最终效果
 
-做完本章后，你会得到一个名为 `hello_cpp` 的工程，运行结果类似：
+做完本章后，你会得到一个名为 `hello_cpp` 的文件夹，里面是完整的 CMake 模板工程。
+
+原样运行模板时，输出类似：
 
 ```text
-Hello, CMake project!
+[lib1] Vector v = 1 2 3
+[lib1] Norm = 3.74166
+[lib2] Matrix m =
+1 2
+3 4
+[lib2] Determinant = -2
 ```
 
 这一章会按下面的顺序来：
@@ -26,8 +33,8 @@ Hello, CMake project!
 1. 在 Ubuntu 或 Fedora 上安装 C++ 开发工具。
 2. 下载我准备好的 CMake 模板。
 3. 先原样运行模板，确认环境没问题。
-4. 把模板里的示例代码改成 HelloWorld。
-5. 用 VSCode 按 F5 调试程序。
+4. 看一下模板里哪些文件和后面的学习有关。
+5. 用 VSCode 按 F5 调试模板程序。
 
 先认识几个名字，后面看到它们就不会太突然：
 
@@ -37,7 +44,10 @@ Hello, CMake project!
 | `CMake` | 读取 `CMakeLists.txt`，生成构建规则 |
 | `Ninja` | 按照 CMake 生成的规则执行编译 |
 | `GDB` | 调试器，VSCode 按 F5 时会用到 |
-| `lib1` / `lib2` | 模板里自带的两个示例小库，本章会删掉 `lib2`，把 `lib1` 改成 `hello` |
+| `lib1` / `lib2` | 模板里自带的两个示例小库，本章先不改它们 |
+| `cmake_template` | 模板当前生成的可执行程序名 |
+
+注意：`hello_cpp` 是我们 clone 下来的文件夹名，`cmake_template` 是这个工程当前生成的程序名。它们不是一回事。
 
 ## 安装基础工具
 
@@ -50,11 +60,6 @@ sudo apt install git cmake ninja-build g++ gdb libeigen3-dev
 
 这里安装了 `libeigen3-dev`，是因为模板原始示例里用到了 Eigen。先装上它，模板就能直接跑起来。
 
-OpenCV 本章用不到。以后需要 OpenCV 时再安装：
-
-```bash
-sudo apt install libopencv-dev
-```
 
 ### Fedora
 
@@ -62,11 +67,6 @@ sudo apt install libopencv-dev
 sudo dnf install git cmake ninja-build gcc-c++ gdb eigen3-devel
 ```
 
-OpenCV 本章用不到。以后需要 OpenCV 时再安装：
-
-```bash
-sudo dnf install opencv-devel
-```
 
 ## 检查工具是否安装成功
 
@@ -80,34 +80,44 @@ gdb --version
 
 这些命令都能输出版本号，就说明基础环境已经可用。
 
-## 安装 VSCode 扩展
-
-如果你只想先用命令行运行程序，这一节可以先看一遍，后面调试时再回来操作。
-
-建议在 VSCode 里安装这两个扩展：
-
-1. CMake Tools
-2. C/C++
-
-它们的分工是：
-
-| 扩展 | 作用 |
-|:---|:---|
-| CMake Tools | 识别 `CMakePresets.json`，执行 configure/build，选择 target |
-| C/C++ | 提供 IntelliSense、断点、GDB 调试 |
-
-简单说：CMake Tools 负责构建工程，C/C++ 扩展负责代码提示和调试。
-
 ## clone CMake 模板
 
 ```bash
 git clone https://github.com/tungchiahui/CMake_Template.git hello_cpp
 cd hello_cpp
+code .
 ```
 
 这里把项目目录命名为 `hello_cpp`。后面所有命令都默认在这个目录里执行。
 
 刚开始学习时先不要管 Git 历史，也不要急着改很多文件。第一步只做一件事：确认这个模板能在你的电脑上运行。
+
+## 安装 VSCode 扩展
+
+建议在 VSCode 里安装这些扩展：
+
+1. CMake Tools
+2. C/C++
+3. C/C++ DevTools
+4. clangd
+
+它们的分工是：
+
+| 扩展 | 作用 |
+|:---|:---|
+| CMake Tools | 识别 `CMakePresets.json`，执行 configure/build，选择 target，管理 CMake 工程构建流程 |
+| C/C++ | 微软官方 C/C++ 扩展，提供基础 IntelliSense、断点调试、GDB/LLDB 调试配置支持 |
+| C/C++ DevTools | C/C++ 扩展的辅助工具，提供更方便的调试信息展示、内存/寄存器/变量查看等增强能力 |
+| clangd | 基于 `compile_commands.json` 提供更准确的代码补全、跳转定义、查找引用、诊断提示、重构能力 |
+
+简单说：
+
+- `CMake Tools` 负责构建工程；
+- `C/C++` 和 `C/C++ DevTools` 主要负责调试；
+- `clangd` 主要负责代码提示、跳转、诊断和重构。
+
+如果你使用 `clangd` 做代码提示，建议关闭或弱化 `C/C++` 扩展的 IntelliSense，避免两个语言服务器同时工作导致提示重复或冲突。
+
 
 ## 先原样跑通模板
 
@@ -140,6 +150,18 @@ cmake --build --preset linux-debug
 cmake --install build/linux-debug
 ./install/linux-debug/bin/cmake_template
 ```
+
+出现以下,即成功!
+
+```text
+[lib1] Vector v = 1 2 3
+[lib1] Norm = 3.74166
+[lib2] Matrix m =
+1 2
+3 4
+[lib2] Determinant = -2
+```
+
 
 ## 模板当前结构
 
@@ -175,334 +197,8 @@ cmake --install build/linux-debug
 | `src/lib2/` | 第二个示例小库 |
 | `CMakeLists.txt` | 告诉 CMake 这个工程怎么构建 |
 
-接下来要做的改造很简单：
+本章只需要认识这些位置，不需要修改它们。
 
-1. 删除 `lib2`，让工程只保留一个小库。
-2. 把 `lib1` 改名为 `hello`。
-3. 把 Eigen 示例代码改成打印 HelloWorld。
-4. 把最终可执行程序名从 `cmake_template` 改成 `hello_cpp`。
-
-改造后结构：
-
-```text
-.
-├── CMakeLists.txt
-├── CMakePresets.json
-├── .vscode/
-│   └── launch.json
-├── cmake/
-│   └── ProjectOptions.cmake
-└── src/
-    ├── CMakeLists.txt
-    ├── main.cpp
-    └── hello/
-        ├── CMakeLists.txt
-        ├── inc/hello/hello.hpp
-        └── src/hello.cpp
-```
-
-## 删除 lib2
-
-`lib2` 只是模板里的第二个示例库，本章用不到，可以删掉。
-
-执行删除命令前，可以先确认自己还在 `hello_cpp` 目录里：
-
-```bash
-pwd
-```
-
-输出路径最后应该是 `hello_cpp`。
-
-```bash
-rm -rf src/lib2
-```
-
-只删目录还不够，后面还会修改 `src/CMakeLists.txt`，把对 `lib2` 的引用也删掉。
-
-## 把 lib1 改名为 hello
-
-`lib1` 这个名字只是模板示例名。我们把它改成更好理解的 `hello`。
-
-先改库目录名：
-
-```bash
-mv src/lib1 src/hello
-```
-
-再改头文件目录名：
-
-```bash
-mv src/hello/inc/lib1 src/hello/inc/hello
-```
-
-最后把 Eigen 示例文件名改成 HelloWorld 文件名：
-
-```bash
-mv src/hello/inc/hello/eigen3_test.hpp src/hello/inc/hello/hello.hpp
-mv src/hello/src/eigen3_test.cpp src/hello/src/hello.cpp
-```
-
-## 修改顶层 CMakeLists.txt
-
-打开 `CMakeLists.txt`。
-
-这里只改项目名。原来项目名是：
-
-```cmake
-project(cmake_template VERSION 1.0.0 LANGUAGES C CXX)
-```
-
-改成：
-
-```cmake
-project(hello_cpp VERSION 0.1.0 LANGUAGES C CXX)
-```
-
-因为 `src/CMakeLists.txt` 使用 `${PROJECT_NAME}` 创建可执行文件，所以最终程序名会从：
-
-```text
-cmake_template
-```
-
-变成：
-
-```text
-hello_cpp
-```
-
-如果你不确定自己有没有改对，可以直接把顶层 `CMakeLists.txt` 改成下面这样：
-
-```cmake
-cmake_minimum_required(VERSION 3.25)
-
-project(hello_cpp VERSION 0.1.0 LANGUAGES C CXX)
-
-include(GNUInstallDirs)
-
-include("${CMAKE_CURRENT_LIST_DIR}/cmake/ProjectOptions.cmake")
-
-add_subdirectory(src)
-```
-
-## 修改 src/CMakeLists.txt
-
-打开 `src/CMakeLists.txt`。
-
-这个文件负责告诉 CMake：
-
-1. 主程序的入口文件是 `src/main.cpp`。
-2. 工程里有一个小库目录 `hello`。
-3. 主程序需要链接 `hello_src_lib` 这个库。
-
-可以直接把 `src/CMakeLists.txt` 改成：
-
-```cmake
-add_executable(${PROJECT_NAME}
-  ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
-)
-
-target_link_libraries(${PROJECT_NAME}
-  PRIVATE
-    project_options
-    project_warnings
-)
-
-add_subdirectory(hello)
-
-target_link_libraries(${PROJECT_NAME}
-  PRIVATE
-    hello_src_lib
-)
-
-set_target_properties(${PROJECT_NAME} PROPERTIES
-  INSTALL_RPATH "$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"
-)
-
-install(TARGETS ${PROJECT_NAME}
-  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)
-```
-
-这里最重要的变化是：
-
-```cmake
-add_subdirectory(hello)
-```
-
-和：
-
-```cmake
-hello_src_lib
-```
-
-意思是：主程序要使用 `hello` 小库。
-
-## 修改 src/hello/CMakeLists.txt
-
-HelloWorld 不需要 Eigen，所以删除 `find_package(Eigen3 REQUIRED)` 和 `Eigen3::Eigen`。
-
-打开 `src/hello/CMakeLists.txt`，直接改成：
-
-```cmake
-set(PREFIX "hello")
-
-file(GLOB_RECURSE ${PREFIX}_SRC_LIST CONFIGURE_DEPENDS
-  "${CMAKE_CURRENT_LIST_DIR}/src/*.c"
-  "${CMAKE_CURRENT_LIST_DIR}/src/*.cpp"
-)
-
-add_library(${PREFIX}_src_lib SHARED
-  ${${PREFIX}_SRC_LIST}
-)
-
-target_include_directories(${PREFIX}_src_lib
-  PUBLIC
-    $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/inc>
-    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
-)
-
-target_link_libraries(${PREFIX}_src_lib
-  PUBLIC
-    project_options
-  PRIVATE
-    project_warnings
-)
-
-# ========================
-# Third-party dependencies
-# ========================
-
-# =======
-# Install
-# =======
-install(TARGETS ${PREFIX}_src_lib
-  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-  ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
-  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)
-
-install(DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/inc/"
-  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
-)
-```
-
-这个文件暂时不引入任何第三方库。
-
-如果以后要引入 Eigen、OpenCV 等库，就在 `Third-party dependencies` 区块中添加。完整写法见 `ch21-4-第三方库依赖写法`。
-
-## 修改 hello.hpp
-
-打开：
-
-```text
-src/hello/inc/hello/hello.hpp
-```
-
-写入：
-
-```cpp
-#pragma once
-
-namespace hello {
-
-void print_hello();
-
-}  // namespace hello
-```
-
-这个文件只写函数声明。意思是：有一个叫 `print_hello` 的函数，后面会在 `.cpp` 文件里写它的具体内容。
-
-头文件放在这个路径：
-
-```text
-inc/hello/hello.hpp
-```
-
-这样代码里就可以写：
-
-```cpp
-#include "hello/hello.hpp"
-```
-
-这种写法可以避免多个库都有同名头文件时发生混乱。
-
-## 修改 hello.cpp
-
-打开：
-
-```text
-src/hello/src/hello.cpp
-```
-
-写入：
-
-```cpp
-#include "hello/hello.hpp"
-
-#include <iostream>
-
-namespace hello {
-
-void print_hello()
-{
-    std::cout << "Hello, CMake project!" << '\n';
-}
-
-}  // namespace hello
-```
-
-## 修改 main.cpp
-
-打开：
-
-```text
-src/main.cpp
-```
-
-写入：
-
-```cpp
-#include "hello/hello.hpp"
-
-int main()
-{
-    hello::print_hello();
-    return 0;
-}
-```
-
-这三个 C++ 文件的关系是：
-
-| 文件 | 作用 |
-|:---|:---|
-| `hello.hpp` | 声明 `print_hello` 函数 |
-| `hello.cpp` | 实现 `print_hello` 函数 |
-| `main.cpp` | 调用 `hello::print_hello()` |
-
-## 重新构建
-
-因为改了 CMake 文件，建议重新 configure。
-
-```bash
-cmake --fresh --preset linux-debug
-cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
-```
-
-输出：
-
-```text
-Hello, CMake project!
-```
-
-如果你的 CMake 版本较旧，不支持 `--fresh`，可以删除对应构建目录后重新配置：
-
-```bash
-rm -rf build/linux-debug
-cmake --preset linux-debug
-cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
-```
 
 ## 用 VSCode F5 调试
 
@@ -522,8 +218,8 @@ cmake --build --preset linux-debug
 2. 选择 `linux-debug` preset。
 3. Configure。
 4. Build。
-5. 选择 `hello_cpp` 作为 launch target。
-6. 在 `main.cpp` 或 `hello.cpp` 打断点。
+5. 选择 `cmake_template` 作为 launch target。
+6. 在 `main.cpp`、`lib1` 或 `lib2` 的 `.cpp` 文件里打断点。
 7. 按 F5，选择 `Debug CMake Target`。
 
 如果断点能停住，说明 GDB、VSCode、CMake Tools 都已经配好。
@@ -573,11 +269,11 @@ cmake --preset linux-debug
 cmake --build --preset linux-debug
 ```
 
-再确认 VSCode CMake Tools 已经选择 `hello_cpp` 作为 launch target。
+再确认 VSCode CMake Tools 已经选择 `cmake_template` 作为 launch target。
 
 ### 改了 CMakeLists.txt 后构建异常
 
-重新 configure：
+本章没有要求修改 `CMakeLists.txt`。如果你后面章节改了 CMake 文件后构建异常，可以重新 configure：
 
 ```bash
 cmake --fresh --preset linux-debug
@@ -592,7 +288,7 @@ cmake --preset linux-debug
 
 ## 下一步学什么
 
-本章只是让你先拥有一个能运行、能调试、能继续扩展的小工程。
+本章只是让你先拥有一个能运行、能调试的小工程。
 
 后面的章节会从 C++ 基础语法开始讲：
 
@@ -602,4 +298,4 @@ cmake --preset linux-debug
 4. 运算符
 5. 程序流程结构
 
-等你学到工程组织、第三方库和构建系统时，再回来看 `ch21-CMake工程模板`，就会更容易理解每个 CMake 文件为什么这样写。
+下一章开始，我们先只改 `src/main.cpp`。等你学到函数分文件编写时，再去整理 `lib1` / `lib2`；等你学到工程组织、第三方库和构建系统时，再回来看 `CMake工程模板`。

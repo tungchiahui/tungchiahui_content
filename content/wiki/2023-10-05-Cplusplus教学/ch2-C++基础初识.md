@@ -6,23 +6,30 @@ title: "C++基础初识"
 
 ### 本章运行约定
 
-本章的代码示例默认在 `ch1-C++开发环境与第一个工程` 创建的 CMake 工程中运行。
+本章的代码示例默认在 `ch1-C++开发环境与第一个工程` 下载并跑通的 CMake 模板中运行。
 
-前期语法练习主要编辑这个文件：
+从这一章开始，前期语法练习只改这个文件：
 
 ```text
 src/main.cpp
 ```
 
-每个示例都可以把代码复制到 `src/main.cpp` 中，然后用 CMake 模板构建运行。
+每个示例都可以把代码复制到 `src/main.cpp` 中，然后重新构建并运行模板程序。
 
-这样做的好处是：后面学习头文件、库、第三方依赖和 VSCode 调试时，都使用同一个工程环境，不需要临时切换到另一套编译方式。
+暂时不要修改这些文件和目录：
+
+1. `CMakeLists.txt`
+2. `src/CMakeLists.txt`
+3. `src/lib1/`
+4. `src/lib2/`
+
+也不用手动写 `g++ main.cpp`。我们继续用上一章已经跑通的 CMake 模板来编译程序。
 
 常用命令：
 
 ```bash
 cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
+./build/linux-debug/src/cmake_template
 ```
 
 如果你还没有完成上一章的工程环境搭建，请先看 `ch1-C++开发环境与第一个工程`。
@@ -60,7 +67,7 @@ int main()
 
 ```bash
 cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
+./build/linux-debug/src/cmake_template
 ```
 
 终端输出：
@@ -129,19 +136,19 @@ int main(int argc, char* argv[])
 
 ```bash
 cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp hello 123
+./build/linux-debug/src/cmake_template hello 123
 ```
 
 **运行结果**：
 
 ```text
 argc = 3
-argv[0] = ./build/linux-debug/src/hello_cpp
+argv[0] = ./build/linux-debug/src/cmake_template
 argv[1] = hello
 argv[2] = 123
 ```
 
-> 注意：`argv[0]` 的具体内容和启动方式有关，可能是 `./build/linux-debug/src/hello_cpp`，也可能是完整路径。实际处理参数时，通常从 `argv[1]` 开始读取用户输入的内容。
+> 注意：`argv[0]` 的具体内容和启动方式有关，可能是 `./build/linux-debug/src/cmake_template`，也可能是完整路径。实际处理参数时，通常从 `argv[1]` 开始读取用户输入的内容。
 
 ### 注释
 

@@ -224,19 +224,31 @@ int main() {
 
 **作用：**让代码结构更加清晰
 
-从 `ch1` 开始，本教程默认使用 CMake 工程模板。也就是说，写到这里时，你的工程里已经有：
+前面几章我们主要在 `src/main.cpp` 里写代码。这样适合学习语法，但是程序稍微大一点，就会变得很乱。
+
+函数的分文件编写，就是把代码拆成：
+
+1. 头文件 `.h`：写函数声明。
+2. 源文件 `.cpp`：写函数定义。
+3. `main.cpp`：调用函数。
+
+从 `ch1` 开始，本教程一直使用同一个 CMake 模板。写到这里时，你的工程大致还是这个结构：
 
 ```text
 src/
 ├── CMakeLists.txt
 ├── main.cpp
-└── hello/
+├── lib1/
+│   ├── CMakeLists.txt
+│   ├── inc/lib1/eigen3_test.hpp
+│   └── src/eigen3_test.cpp
+└── lib2/
     ├── CMakeLists.txt
-    ├── inc/hello/hello.hpp
-    └── src/hello.cpp
+    ├── inc/lib2/eigen3_test.hpp
+    └── src/eigen3_test.cpp
 ```
 
-本节不重新创建一个新工程，直接在 `ch1` 的基础上改：把 `hello` 这个小库改成 `swap` 小库，然后把前面写过的 `swap.h` 和 `swap.cpp` 放进去。
+`lib1` 和 `lib2` 是模板自带的两个示例库。本节第一次整理它们：删掉暂时用不到的 `lib2`，把 `lib1` 改成我们自己的 `swap` 小库，然后把前面写过的 `swap.h` 和 `swap.cpp` 放进去。
 
 改完之后，目录结构变成：
 
@@ -246,37 +258,58 @@ src/
 ├── main.cpp
 └── swap/
     ├── CMakeLists.txt
-    ├── inc/swap.h
+    ├── inc/swap/swap.h
     └── src/swap.cpp
 ```
 
-如果你没有按 `ch1` 把 `lib1` 改成 `hello`，那就把下面命令里的 `src/hello` 理解成你当前的 `src/lib1`。核心思路一样：一个库目录负责自己的头文件、源文件和 `CMakeLists.txt`。
+也就是说：
 
-#### 把 hello 目录改成 swap
+1. `lib2` 不参与这个例子。
+2. `lib1` 被改名为 `swap`。
+3. `swap.h` 放到 `src/swap/inc/swap/`。
+4. `swap.cpp` 放到 `src/swap/src/`。
 
-在工程根目录执行(或者用VScode编辑)：
+#### 整理 lib1 和 lib2 (你也可以用VScode图形界面删,不用敲以下命令)
+
+执行删除命令前，可以先确认自己还在工程根目录：
 
 ```bash
-mv src/hello src/swap
+pwd
+```
+
+输出路径最后应该是你 clone 下来的工程目录，比如 `hello_cpp`。
+
+删掉暂时用不到的 `lib2`：
+
+```bash
+rm -rf src/lib2
+```
+
+把 `lib1` 改名为 `swap`：
+
+```bash
+mv src/lib1 src/swap
 ```
 
 然后把头文件改成原教程里的名字：
 
 ```bash
-mv src/swap/inc/hello/hello.hpp src/swap/inc/swap.h
-rmdir src/swap/inc/hello
+mv src/swap/inc/lib1 src/swap/inc/swap
+mv src/swap/inc/swap/eigen3_test.hpp src/swap/inc/swap/swap.h
 ```
 
 再把源文件改成原教程里的名字：
 
 ```bash
-mv src/swap/src/hello.cpp src/swap/src/swap.cpp
+mv src/swap/src/eigen3_test.cpp src/swap/src/swap.cpp
 ```
+
+你也可以在 VSCode 左侧文件树里手动删除、重命名，结果一致即可。
 
 现在 `swap.h` 放在：
 
 ```text
-src/swap/inc/swap.h
+src/swap/inc/swap/swap.h
 ```
 
 `swap.cpp` 放在：
@@ -290,7 +323,7 @@ src/swap/src/swap.cpp
 打开：
 
 ```text
-src/swap/inc/swap.h
+src/swap/inc/swap/swap.h
 ```
 
 写入：
@@ -304,7 +337,7 @@ void swap(int a, int b);
 
 这段代码和前面的分文件示例保持一致。
 
-补充说明：真实工程里通常不建议在头文件中写 `using namespace std;`，函数名也尽量避免直接叫 `swap`，因为标准库里有 `std::swap`。不过这里先专心理解"头文件声明、源文件定义、主函数调用"这条线，所以仍然沿用前面的教学代码。
+> 补充说明：真实工程里通常不建议在头文件中写 `using namespace std;`，函数名也尽量避免直接叫 `swap`，因为标准库里有 `std::swap`。不过这里先专心理解"头文件声明、源文件定义、主函数调用"这条线，所以仍然沿用前面的教学代码。
 
 #### 修改 swap.cpp
 
@@ -317,7 +350,7 @@ src/swap/src/swap.cpp
 写入：
 
 ```cpp
-#include "swap.h"
+#include "swap/swap.h"
 
 void swap(int a, int b)
 {
@@ -330,7 +363,7 @@ void swap(int a, int b)
 }
 ```
 
-这里的 `#include "swap.h"` 表示：`swap.cpp` 要先看到函数声明，再提供函数定义。
+这里的 `#include "swap/swap.h"` 表示：`swap.cpp` 要先看到函数声明，再提供函数定义。
 
 #### 修改 main.cpp
 
@@ -343,7 +376,7 @@ src/main.cpp
 写入：
 
 ```cpp
-#include "swap.h"
+#include "swap/swap.h"
 
 int main()
 {
@@ -366,10 +399,12 @@ int main()
 src/swap/CMakeLists.txt
 ```
 
-这个文件可以继续使用 `ch1` 里的库模板，只需要把第一行从：
+这个文件原来来自 `lib1`，所以里面还有 `lib1` 和 Eigen 示例的痕迹。
+
+先把第一行从：
 
 ```cmake
-set(PREFIX "hello")
+set(PREFIX "lib1")
 ```
 
 改成：
@@ -386,7 +421,63 @@ swap_src_lib
 
 的库。
 
-这里最重要的几行是(你不用修改,我已经写好了)：
+`swap` 这个例子不需要 Eigen，所以删除 `Third-party dependencies` 区块里的 Eigen 依赖：
+
+```cmake
+find_package(Eigen3 REQUIRED)
+
+target_link_libraries(${PREFIX}_src_lib
+  PUBLIC
+    Eigen3::Eigen
+)
+```
+
+整理后，`src/swap/CMakeLists.txt` 可以写成：
+
+```cmake
+set(PREFIX "swap")
+
+file(GLOB_RECURSE ${PREFIX}_SRC_LIST CONFIGURE_DEPENDS
+  "${CMAKE_CURRENT_LIST_DIR}/src/*.c"
+  "${CMAKE_CURRENT_LIST_DIR}/src/*.cpp"
+)
+
+add_library(${PREFIX}_src_lib SHARED
+  ${${PREFIX}_SRC_LIST}
+)
+
+target_include_directories(${PREFIX}_src_lib
+  PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/inc>
+    $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>
+)
+
+target_link_libraries(${PREFIX}_src_lib
+  PUBLIC
+    project_options
+  PRIVATE
+    project_warnings
+)
+
+# ========================
+# Third-party dependencies
+# ========================
+
+# =======
+# Install
+# =======
+install(TARGETS ${PREFIX}_src_lib
+  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+  ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+install(DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/inc/"
+  DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+)
+```
+
+这里最重要的几行是：
 
 ```cmake
 file(GLOB_RECURSE ${PREFIX}_SRC_LIST CONFIGURE_DEPENDS
@@ -410,8 +501,10 @@ target_include_directories(${PREFIX}_src_lib
 它把 `src/swap/inc/` 加入头文件搜索路径，所以代码里才能写：
 
 ```cpp
-#include "swap.h"
+#include "swap/swap.h"
 ```
+
+注意：不要写成 `#include "inc/swap/swap.h"`。CMake 已经把 `src/swap/inc/` 告诉编译器了，所以 include 时从 `inc/` 里面继续往后写，也就是 `swap/swap.h`。
 
 完整 CMake 写法会在 `ch21-CMake工程模板` 中系统讲解。这里先知道"头文件放进 `inc/`，源文件放进 `src/`，库名由 `PREFIX` 决定"即可。
 
@@ -423,7 +516,66 @@ target_include_directories(${PREFIX}_src_lib
 src/CMakeLists.txt
 ```
 
-把里面的 `hello` 改成 `swap`。
+原来模板里有：
+
+```cmake
+add_subdirectory(lib1)
+add_subdirectory(lib2)
+```
+
+改成：
+
+```cmake
+add_subdirectory(swap)
+```
+
+原来模板里还会链接：
+
+```cmake
+target_link_libraries(${PROJECT_NAME}
+  PRIVATE
+    lib1_src_lib
+    lib2_src_lib
+)
+```
+
+改成：
+
+```cmake
+target_link_libraries(${PROJECT_NAME}
+  PRIVATE
+    swap_src_lib
+)
+```
+
+整理后，`src/CMakeLists.txt` 可以写成：
+
+```cmake
+add_executable(${PROJECT_NAME}
+  ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+)
+
+target_link_libraries(${PROJECT_NAME}
+  PRIVATE
+    project_options
+    project_warnings
+)
+
+add_subdirectory(swap)
+
+target_link_libraries(${PROJECT_NAME}
+  PRIVATE
+    swap_src_lib
+)
+
+set_target_properties(${PROJECT_NAME} PROPERTIES
+  INSTALL_RPATH "$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"
+)
+
+install(TARGETS ${PROJECT_NAME}
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+```
 
 这两处最关键：
 
@@ -449,7 +601,7 @@ target_link_libraries(${PROJECT_NAME}
 ```bash
 cmake --fresh --preset linux-debug
 cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
+./build/linux-debug/src/cmake_template
 ```
 
 如果你的 CMake 版本较旧，不支持 `--fresh`，可以改成：
@@ -458,7 +610,7 @@ cmake --build --preset linux-debug
 rm -rf build/linux-debug
 cmake --preset linux-debug
 cmake --build --preset linux-debug
-./build/linux-debug/src/hello_cpp
+./build/linux-debug/src/cmake_template
 ```
 
 输出类似：
@@ -478,13 +630,13 @@ b = 100
 
 | 文件 | 作用 |
 |:---|:---|
-| `src/swap/inc/swap.h` | 写函数声明，让其他 `.cpp` 文件知道怎么调用 |
+| `src/swap/inc/swap/swap.h` | 写函数声明，让其他 `.cpp` 文件知道怎么调用 |
 | `src/swap/src/swap.cpp` | 写函数定义，提供真正的实现 |
 | `src/swap/CMakeLists.txt` | 把 `swap.cpp` 编译成 `swap_src_lib` |
 | `src/CMakeLists.txt` | 把 `swap_src_lib` 链接到主程序 |
-| `src/main.cpp` | `#include "swap.h"` 后调用 `swap(a, b)` |
+| `src/main.cpp` | `#include "swap/swap.h"` 后调用 `swap(a, b)` |
 
-如果漏了 `#include "swap.h"`，编译器不知道 `swap` 函数的声明。
+如果漏了 `#include "swap/swap.h"`，编译器不知道 `swap` 函数的声明。
 
 如果漏了 `add_subdirectory(swap)`，CMake 不会进入 `src/swap`。
 
@@ -499,7 +651,7 @@ target_link_libraries(${PROJECT_NAME}
 
 链接器找不到 `swap` 函数的实现。
 
-## 头文件的组织方式
+## 头文件的组织方式(只是一个规范,现在暂时不用知道)
 
 头文件的作用：头文件含有某个库的外部声明函数和变量，方便我们调用库中的API。
 
