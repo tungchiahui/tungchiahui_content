@@ -4,43 +4,48 @@ title: "C++基础初识"
 
 ## C++初识
 
+### 本章运行约定
+
+本章的代码示例默认在 `ch1-C++开发环境与第一个工程` 创建的 CMake 工程中运行。
+
+前期语法练习主要编辑这个文件：
+
+```text
+src/main.cpp
+```
+
+每个示例都可以把代码复制到 `src/main.cpp` 中，然后用 CMake 模板构建运行。
+
+这样做的好处是：后面学习头文件、库、第三方依赖和 VSCode 调试时，都使用同一个工程环境，不需要临时切换到另一套编译方式。
+
+常用命令：
+
+```bash
+cmake --build --preset linux-debug
+./build/linux-debug/src/hello_cpp
+```
+
+如果你还没有完成上一章的工程环境搭建，请先看 `ch1-C++开发环境与第一个工程`。
+
 ### 第一个C++程序
 
-在 Linux 下编写一个 C++ 程序，总共分为 4 个步骤
+打开工程中的：
 
-* 创建目录
-* 创建文件
-* 编写代码
-* 编译并运行程序
-
-#### 创建目录
-
-先创建一个单独的目录，用来存放当前示例：
-
-```bash
-mkdir hello_cpp
-cd hello_cpp
+```text
+src/main.cpp
 ```
 
-#### 创建文件
-
-创建一个 `main.cpp` 文件：
-
-```bash
-touch main.cpp
-```
-
-#### 编写代码
+把内容替换为：
 
 ```cpp
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
-int main() {
+int main()
+{
     // 程序从 main 函数开始执行，下面的语句会按顺序运行。
-
 	cout << "Hello world" << endl;
-
 
 	// 返回 0 表示程序正常结束。
 	return 0;
@@ -49,13 +54,13 @@ int main() {
 
 **运行/观察结果：** 运行后会按输出语句打印对应内容，变量值可结合初始化、赋值和函数调用顺序推导。
 
-#### 编译并运行程序
+#### 构建并运行程序
 
-使用 `g++` 编译，然后运行生成的可执行文件：
+在工程根目录执行：
 
 ```bash
-g++ main.cpp -std=c++17 -Wall -Wextra -o main
-./main
+cmake --build --preset linux-debug
+./build/linux-debug/src/hello_cpp
 ```
 
 终端输出：
@@ -99,10 +104,12 @@ int main(int argc, char* argv[])
 示例：
 
 ```cpp
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
-int main(int argc, char* argv[]) {
+int main(int argc, char* argv[])
+{
     // 程序从 main 函数开始执行，argc/argv 用来接收命令行参数。
 
 	cout << "argc = " << argc << endl;
@@ -118,23 +125,23 @@ int main(int argc, char* argv[]) {
 
 **运行结果**：见下方“运行结果”；`argv[0]` 会随启动方式不同而变化，重点观察 `argc` 和各个 `argv` 的对应关系。
 
-编译并运行：
+构建并传入命令行参数运行：
 
 ```bash
-g++ main.cpp -std=c++17 -Wall -Wextra -o args_demo
-./args_demo hello 123
+cmake --build --preset linux-debug
+./build/linux-debug/src/hello_cpp hello 123
 ```
 
 **运行结果**：
 
 ```text
 argc = 3
-argv[0] = ./args_demo
+argv[0] = ./build/linux-debug/src/hello_cpp
 argv[1] = hello
 argv[2] = 123
 ```
 
-> 注意：`argv[0]` 的具体内容和启动方式有关，可能是 `./args_demo`，也可能是完整路径。实际处理参数时，通常从 `argv[1]` 开始读取用户输入的内容。
+> 注意：`argv[0]` 的具体内容和启动方式有关，可能是 `./build/linux-debug/src/hello_cpp`，也可能是完整路径。实际处理参数时，通常从 `argv[1]` 开始读取用户输入的内容。
 
 ### 注释
 
