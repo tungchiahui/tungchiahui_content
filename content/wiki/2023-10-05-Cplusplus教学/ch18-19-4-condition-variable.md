@@ -23,6 +23,7 @@ title: "condition_variable"
 #include <thread>
 
 std::queue<int> data_queue;
+// 加锁用来保护共享数据，避免多个线程同时修改造成数据竞争。
 std::mutex queue_mutex;
 std::condition_variable queue_cv;
 bool finished = false;
@@ -76,9 +77,12 @@ void consumer()
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread p(producer);
     std::thread c(consumer);
 
+    // join 会等待子线程结束，避免 main 提前退出。
     p.join();
     c.join();
 
@@ -113,6 +117,7 @@ all done
 #include <string>
 #include <thread>
 
+// 加锁用来保护共享数据，避免多个线程同时修改造成数据竞争。
 std::mutex data_mutex;
 std::condition_variable data_cv;
 std::string message;
@@ -131,6 +136,8 @@ void prepare()
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread worker(prepare);
 
     std::unique_lock<std::mutex> lock(data_mutex);
@@ -141,6 +148,7 @@ int main()
     std::cout << message << "\n";
 
     lock.unlock();
+    // join 会等待子线程结束，避免 main 提前退出。
     worker.join();
 
     return 0;

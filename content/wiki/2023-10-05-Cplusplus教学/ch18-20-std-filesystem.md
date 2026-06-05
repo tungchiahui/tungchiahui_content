@@ -294,10 +294,12 @@ auto size = fs::file_size(path, ec);  // 失败时不抛异常，错误写入 ec
 #include <iostream>
 #include <system_error>
 
+// filesystem 用来跨平台处理路径、文件和目录。
 namespace fs = std::filesystem;
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     fs::path dir = fs::current_path();
 
     for (const auto& entry : fs::directory_iterator(dir))

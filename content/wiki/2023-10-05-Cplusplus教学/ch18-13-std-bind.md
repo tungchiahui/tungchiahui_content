@@ -43,11 +43,13 @@ void print_student(const std::string& name, int age, int score)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     using std::placeholders::_1;
     using std::placeholders::_2;
 
     print_student("Alice", 20, 95);
 
+    // bind 会把函数和部分参数提前绑定成一个可调用对象。
     auto print_bob = std::bind(print_student, "Bob", _1, _2);
     print_bob(21, 88);
 
@@ -81,11 +83,13 @@ void divide(int a, int b)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     using std::placeholders::_1;
     using std::placeholders::_2;
 
     divide(10, 2);
 
+    // bind 会把函数和部分参数提前绑定成一个可调用对象。
     auto swapped = std::bind(divide, _2, _1);
     swapped(2, 10);
 
@@ -130,11 +134,13 @@ public:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     using std::placeholders::_1;
     using std::placeholders::_2;
 
     Printer printer("LOG");
 
+    // bind 会把函数和部分参数提前绑定成一个可调用对象。
     auto print_any = std::bind(&Printer::print, &printer, _1, _2);
     print_any(7, "ready");
 
@@ -169,9 +175,11 @@ int weighted_sum(int base, int x, int y)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     using std::placeholders::_1;
     using std::placeholders::_2;
 
+    // bind 会把函数和部分参数提前绑定成一个可调用对象。
     auto by_bind = std::bind(weighted_sum, 100, _1, _2);
     auto by_lambda = [](int x, int y) {
         return weighted_sum(100, x, y);
@@ -217,8 +225,10 @@ void add_to(int& total, int value)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     int total = 0;
 
+    // bind 会把函数和部分参数提前绑定成一个可调用对象。
     auto add_copy = std::bind(add_to, total, 5);
     add_copy();
     std::cout << "outside after copy bind = " << total << "\n";

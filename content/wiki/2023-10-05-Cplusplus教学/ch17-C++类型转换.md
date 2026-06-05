@@ -72,6 +72,7 @@ enum class Status
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     double score = 89.7;
     int integer_score = static_cast<int>(score);
 
@@ -81,6 +82,7 @@ int main()
     std::cout << "integer_score = " << integer_score << "\n";
     std::cout << "status_code = " << status_code << "\n";
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```
@@ -132,12 +134,14 @@ void try_meow(Animal* animal)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     Cat cat;
     Dog dog;
 
     try_meow(&cat);
     try_meow(&dog);
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```
@@ -160,6 +164,7 @@ not a cat
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     int value = 10;
     const int& readonly_ref = value;
 
@@ -168,6 +173,7 @@ int main()
 
     std::cout << "value = " << value << "\n";
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```
@@ -190,6 +196,7 @@ value = 20
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     int value = 42;
     int* p = &value;
 
@@ -200,6 +207,7 @@ int main()
     std::cout << std::boolalpha;
     std::cout << "same pointer = " << (p == again) << "\n";
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```

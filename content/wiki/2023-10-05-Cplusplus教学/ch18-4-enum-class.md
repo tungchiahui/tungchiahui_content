@@ -254,9 +254,11 @@ void handle_state(RobotState state)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     RobotState state = RobotState::Running;
     handle_state(state);
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```

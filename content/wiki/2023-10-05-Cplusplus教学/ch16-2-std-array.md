@@ -195,6 +195,7 @@ size from inside function = 5
 #include <array>
 #include <iostream>
 
+// std::array 是固定长度数组，长度在编译期就确定。
 double norm3(const std::array<double, 3>& v)
 {
     return v[0] * v[0] + v[1] * v[1] + v[2] * v[2];
@@ -202,6 +203,7 @@ double norm3(const std::array<double, 3>& v)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     std::array<double, 3> accel = {0.1, 0.2, 9.8};
 
     std::cout << "accel size = " << accel.size() << "\n";

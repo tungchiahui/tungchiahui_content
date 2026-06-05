@@ -271,6 +271,7 @@ Current time: Mon Jun  2 12:00:00 2026
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     using namespace std::chrono;
 
     auto deadline = steady_clock::now() + 300ms;
@@ -283,6 +284,7 @@ int main()
 
     std::cout << "timeout\n";
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```

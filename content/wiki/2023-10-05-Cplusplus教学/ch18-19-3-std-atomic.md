@@ -18,6 +18,7 @@ title: "std::atomic"
 #include <thread>
 #include <vector>
 
+// atomic 提供原子操作，适合简单的跨线程共享状态。
 std::atomic<int> counter{0};
 
 void add_many(int times)
@@ -30,6 +31,8 @@ void add_many(int times)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // vector 是动态数组，元素数量可以在运行时变化。
     std::vector<std::thread> threads;
 
     for (int i = 0; i < 4; ++i)
@@ -39,6 +42,7 @@ int main()
 
     for (auto& thread : threads)
     {
+        // join 会等待子线程结束，避免 main 提前退出。
         thread.join();
     }
 
@@ -66,6 +70,7 @@ expected = 400000
 #include <iostream>
 #include <thread>
 
+// atomic 提供原子操作，适合简单的跨线程共享状态。
 std::atomic<bool> running{true};
 
 void worker()
@@ -82,11 +87,14 @@ void worker()
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread t(worker);
 
     std::this_thread::sleep_for(std::chrono::milliseconds(350));
     running = false;
 
+    // join 会等待子线程结束，避免 main 提前退出。
     t.join();
     std::cout << "stopped\n";
 

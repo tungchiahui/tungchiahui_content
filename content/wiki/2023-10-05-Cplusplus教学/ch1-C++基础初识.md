@@ -37,10 +37,12 @@ touch main.cpp
 using namespace std;
 
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	cout << "Hello world" << endl;
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -69,6 +71,8 @@ Hello world
 ```cpp
 int main()
 {
+	// 程序从 main 函数开始执行，下面的语句会按顺序运行。
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -78,6 +82,8 @@ int main()
 ```cpp
 int main(int argc, char* argv[])
 {
+	// 程序从 main 函数开始执行，argc/argv 用来接收命令行参数。
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -97,6 +103,7 @@ int main(int argc, char* argv[])
 using namespace std;
 
 int main(int argc, char* argv[]) {
+    // 程序从 main 函数开始执行，argc/argv 用来接收命令行参数。
 
 	cout << "argc = " << argc << endl;
 
@@ -104,9 +111,12 @@ int main(int argc, char* argv[]) {
 		cout << "argv[" << i << "] = " << argv[i] << endl;
 	}
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
+
+**运行结果**：见下方“运行结果”；`argv[0]` 会随启动方式不同而变化，重点观察 `argc` 和各个 `argv` 的对应关系。
 
 编译并运行：
 

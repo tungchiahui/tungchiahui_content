@@ -244,6 +244,8 @@ void add_offset(std::span<int> data, int offset)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // vector 是动态数组，元素数量可以在运行时变化。
     std::vector<int> values = {10, 20, 30};
 
     print(values);

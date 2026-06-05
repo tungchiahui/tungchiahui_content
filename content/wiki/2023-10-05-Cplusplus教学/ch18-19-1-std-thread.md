@@ -20,6 +20,7 @@ title: "std::thread 与 join"
 #include <thread>
 #include <vector>
 
+// vector 是动态数组，元素数量可以在运行时变化。
 void fill_numbers(std::vector<int>& output, int start)
 {
     for (int i = 0; i < 3; ++i)
@@ -40,12 +41,15 @@ void print_numbers(const char* name, const std::vector<int>& values)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     std::vector<int> left;
     std::vector<int> right;
 
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread t1(fill_numbers, std::ref(left), 1);
     std::thread t2(fill_numbers, std::ref(right), 10);
 
+    // join 会等待子线程结束，避免 main 提前退出。
     t1.join();
     t2.join();
 
@@ -101,9 +105,11 @@ long long run_threads()
 {
     auto begin = steady_clock::now();
 
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread t1(wait_one_second);
     std::thread t2(wait_one_second);
 
+    // join 会等待子线程结束，避免 main 提前退出。
     t1.join();
     t2.join();
 
@@ -113,6 +119,7 @@ long long run_threads()
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     std::cout << "sync seconds = " << run_sync() << "\n";
     std::cout << "thread seconds = " << run_threads() << "\n";
 

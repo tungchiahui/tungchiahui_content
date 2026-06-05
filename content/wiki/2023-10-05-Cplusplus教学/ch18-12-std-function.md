@@ -58,6 +58,8 @@ struct Multiply
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // std::function 可以保存普通函数、lambda 或函数对象。
     std::function<int(int, int)> op;
 
     op = add;
@@ -101,6 +103,7 @@ int add(int a, int b)
     return a + b;
 }
 
+// std::function 可以保存普通函数、lambda 或函数对象。
 int calculate(int a, int b, const std::function<int(int, int)>& op)
 {
     return op(a, b);
@@ -108,6 +111,7 @@ int calculate(int a, int b, const std::function<int(int, int)>& op)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     int x = 10;
     int y = 5;
 
@@ -149,6 +153,7 @@ with offset result = 115
 
 class Button
 {
+    // std::function 可以保存普通函数、lambda 或函数对象。
     std::function<void()> on_click_;
 
 public:
@@ -172,6 +177,7 @@ public:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     Button button;
 
     button.click();
@@ -213,6 +219,9 @@ Save clicked, count = 2
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // std::function 可以保存普通函数、lambda 或函数对象。
+    // vector 是动态数组，元素数量可以在运行时变化。
     std::vector<std::function<void()>> tasks;
 
     int total = 0;
@@ -270,10 +279,12 @@ void repeat(int times, Callback callback)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     repeat(3, [](int i) {
         std::cout << "i = " << i << "\n";
     });
 
+    // 返回 0 表示程序正常结束。
     return 0;
 }
 ```

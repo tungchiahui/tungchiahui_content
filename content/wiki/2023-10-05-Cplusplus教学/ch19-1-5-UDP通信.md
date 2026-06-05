@@ -40,9 +40,12 @@ using boost::asio::ip::udp;
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     boost::system::error_code ec;
 
+    // UDP socket 用来发送或接收无连接的数据报。
     udp::socket socket(io, udp::endpoint(udp::v4(), 9001));
 
     std::array<char, 1024> data;
@@ -50,6 +53,7 @@ int main()
 
     std::cout << "receiver：监听 UDP 0.0.0.0:9001，等待数据" << std::endl;
 
+    // receive_from 会等待并接收一个 UDP 数据报。
     std::size_t n = socket.receive_from(boost::asio::buffer(data), sender_endpoint, 0, ec);
     if (ec)
     {
@@ -66,6 +70,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -144,9 +150,12 @@ using boost::asio::ip::udp;
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     boost::system::error_code ec;
 
+    // UDP socket 用来发送或接收无连接的数据报。
     udp::socket socket(io);
     socket.open(udp::v4(), ec);
     if (ec)
@@ -161,6 +170,7 @@ int main()
 
     std::cout << "sender：准备发送到 127.0.0.1:9001" << std::endl;
 
+    // send_to 指定目标地址发送 UDP 数据报。
     std::size_t n = socket.send_to(boost::asio::buffer(msg), receiver_endpoint, 0, ec);
     if (ec)
     {
@@ -173,6 +183,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -262,7 +274,10 @@ void on_receive(const boost::system::error_code& ec,
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
+    // UDP socket 用来发送或接收无连接的数据报。
     udp::socket socket(io, udp::endpoint(udp::v4(), 9001));
 
     std::array<char, 1024> data;
@@ -280,6 +295,7 @@ int main()
 
     std::cout << "main：async_receive_from 已返回，准备 io.run()" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     io.run();
 
     std::cout << "main：io.run() 返回" << std::endl;
@@ -287,6 +303,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -438,6 +456,7 @@ private:
     }
 
 private:
+    // UDP socket 用来发送或接收无连接的数据报。
     udp::socket socket_;
     udp::endpoint remote_endpoint_;
     std::array<char, 1024> data_;
@@ -445,11 +464,14 @@ private:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     UdpEchoServer server(io, 9001);
 
     std::cout << "main：调用 io.run()" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     io.run();
 
     std::cout << "main：io.run() 返回" << std::endl;
@@ -457,6 +479,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -586,6 +610,7 @@ private:
     void schedule_send()
     {
         timer_.expires_after(std::chrono::seconds(1));
+        // 注册异步等待：这一行不会阻塞，回调会在定时器到期后执行。
         timer_.async_wait(std::bind(&UdpHeartbeatSender::on_timer,
                                     this,
                                     std::placeholders::_1));
@@ -633,6 +658,7 @@ private:
 private:
     udp::socket socket_;
     udp::endpoint endpoint_;
+    // 创建定时器，并设置到期时间。
     boost::asio::steady_timer timer_;
     std::string msg_;
     int count_;
@@ -640,6 +666,8 @@ private:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     UdpHeartbeatSender sender(io, "127.0.0.1", 9001);
 
@@ -654,6 +682,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 

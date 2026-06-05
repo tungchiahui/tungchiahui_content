@@ -249,6 +249,7 @@ Score: -1
 #include <optional>
 #include <string>
 
+// optional 表示“可能有值，也可能没有值”的结果。
 std::optional<int> parse_port_simple(const std::string& text)
 {
     try
@@ -289,6 +290,7 @@ ParseResult parse_port_with_error(const std::string& text)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     auto simple = parse_port_simple("70000");
     std::cout << "simple ok? " << (simple ? "yes" : "no") << "\n";
 

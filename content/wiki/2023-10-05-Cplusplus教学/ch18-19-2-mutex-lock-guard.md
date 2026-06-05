@@ -18,6 +18,7 @@ title: "mutex 与 lock_guard"
 #include <thread>
 
 int counter = 0;
+// 加锁用来保护共享数据，避免多个线程同时修改造成数据竞争。
 std::mutex counter_mutex;
 
 void add_many(int times)
@@ -31,9 +32,12 @@ void add_many(int times)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread t1(add_many, 100000);
     std::thread t2(add_many, 100000);
 
+    // join 会等待子线程结束，避免 main 提前退出。
     t1.join();
     t2.join();
 
@@ -62,6 +66,7 @@ expected = 200000
 #include <vector>
 
 int total = 0;
+// 加锁用来保护共享数据，避免多个线程同时修改造成数据竞争。
 std::mutex total_mutex;
 
 int sum_part(const std::vector<int>& data, int begin, int end)
@@ -86,11 +91,14 @@ void worker(const std::vector<int>& data, int begin, int end)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     std::vector<int> data = {1, 2, 3, 4, 5, 6};
 
+    // 创建子线程，让这部分代码和 main 线程并发运行。
     std::thread t1(worker, std::cref(data), 0, 3);
     std::thread t2(worker, std::cref(data), 3, 6);
 
+    // join 会等待子线程结束，避免 main 提前退出。
     t1.join();
     t2.join();
 

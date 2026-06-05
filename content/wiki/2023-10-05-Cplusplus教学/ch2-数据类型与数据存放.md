@@ -27,6 +27,7 @@ C++中能够表示整型的类型有以下几种方式，**区别在于所占内
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	cout << "short 类型所占内存空间为： " << sizeof(short) << endl;
 
@@ -37,6 +38,7 @@ int main() {
 	cout << "long long 类型所占内存空间为： " << sizeof(long long) << endl;
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -194,6 +196,7 @@ ASCII 码大致由以下**两部分组**成：
 
 ```cpp
 int main() {
+	// 程序从 main 函数开始执行，下面的语句会按顺序运行。
 	
 	
 	cout << "\\" << endl;
@@ -201,6 +204,7 @@ int main() {
 	cout << "\n" << endl;
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```

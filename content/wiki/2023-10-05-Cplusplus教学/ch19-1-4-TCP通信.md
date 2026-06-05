@@ -40,14 +40,18 @@ using boost::asio::ip::tcp;
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     boost::system::error_code ec;
 
+    // acceptor 负责监听 TCP 端口并接收客户端连接。
     tcp::acceptor acceptor(io, tcp::endpoint(tcp::v4(), 9000));
 
     std::cout << "server：监听 0.0.0.0:9000，等待客户端连接" << std::endl;
 
     tcp::socket socket(io);
+    // 同步 accept 会阻塞，直到有客户端连接进来。
     acceptor.accept(socket, ec);
     if (ec)
     {
@@ -80,6 +84,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -177,6 +183,8 @@ using boost::asio::ip::tcp;
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     boost::system::error_code ec;
 
@@ -185,6 +193,7 @@ int main()
 
     std::cout << "client：准备连接 127.0.0.1:9000" << std::endl;
 
+    // 发起连接，成功后 socket 才能收发数据。
     socket.connect(server_endpoint, ec);
     if (ec)
     {
@@ -205,6 +214,7 @@ int main()
     std::cout << "client：发送完成，等待回显" << std::endl;
 
     std::array<char, 1024> data;
+    // 读取收到的数据，返回值表示本次实际读到的字节数。
     std::size_t n = socket.read_some(boost::asio::buffer(data), ec);
     if (ec)
     {
@@ -218,6 +228,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -404,16 +416,20 @@ private:
 
 private:
     boost::asio::io_context& io_;
+    // acceptor 负责监听 TCP 端口并接收客户端连接。
     tcp::acceptor acceptor_;
 };
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
     EchoServer server(io, 9000);
 
     std::cout << "main：调用 io.run()，服务端开始运行" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     io.run();
 
     std::cout << "main：io.run() 返回" << std::endl;
@@ -421,6 +437,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -600,6 +618,7 @@ private:
 
         std::cout << "client：发送完成，字节数 = " << length << "，等待回显" << std::endl;
 
+        // 读取收到的数据，返回值表示本次实际读到的字节数。
         socket_.async_read_some(boost::asio::buffer(data_),
                                 std::bind(&TcpClient::on_read,
                                           this,
@@ -628,6 +647,8 @@ private:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
 
     TcpClient client(io, "127.0.0.1", 9000);
@@ -635,6 +656,7 @@ int main()
 
     std::cout << "main：调用 io.run()" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     io.run();
 
     std::cout << "main：io.run() 返回" << std::endl;
@@ -642,6 +664,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 

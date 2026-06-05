@@ -70,6 +70,7 @@ if语句的三种形式
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	int score = 0;
 
@@ -87,6 +88,7 @@ int main() {
 	}
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -107,6 +109,7 @@ int main() {
 
 ```cpp
 	int main() {
+	// 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	int score = 0;
 
@@ -132,6 +135,7 @@ int main() {
 	}
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -152,6 +156,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	int score = 0;
 
@@ -190,6 +195,7 @@ int main() {
 	}
 
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -328,6 +334,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	int num = 0;
 	while (num < 10)
@@ -337,6 +344,7 @@ int main() {
 	}
 	
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -365,6 +373,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	int num = 0;
 
@@ -377,6 +386,7 @@ int main() {
 	
 	
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -403,6 +413,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -410,6 +421,7 @@ int main() {
 	}
 	
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -566,6 +578,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	for (int i = 0; i < 100; i++)
 	{
@@ -577,6 +590,7 @@ int main() {
 	}
 	
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```
@@ -597,6 +611,7 @@ int main() {
 
 ```cpp
 int main() {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
 
 	cout << "1" << endl;
 
@@ -611,6 +626,7 @@ int main() {
 	cout << "5" << endl;
 	
 
+	// 返回 0 表示程序正常结束。
 	return 0;
 }
 ```

@@ -297,10 +297,12 @@ struct Error
     std::string message;
 };
 
+// variant 表示一个变量可以在多个候选类型中保存其中一种。
 using State = std::variant<Idle, Running, Error>;
 
 void print_state(const State& state)
 {
+    // visit 会根据 variant 当前保存的类型调用对应处理逻辑。
     std::visit([](const auto& s) {
         using T = std::decay_t<decltype(s)>;
 
@@ -321,6 +323,7 @@ void print_state(const State& state)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     State state = Idle{};
     print_state(state);
 

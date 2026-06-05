@@ -21,10 +21,13 @@ title: "Boost.Asio 基础"
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
 
     std::cout << "main：准备调用 io.run()" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     std::size_t count = io.run();
 
     std::cout << "main：io.run() 返回，执行了 " << count << " 个回调" << std::endl;
@@ -32,6 +35,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -92,9 +97,12 @@ void print_msg(const std::string& msg)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
 
     std::cout << "main：投递任务 A" << std::endl;
+    // post 只是把任务放进队列，真正执行要等 io.run()。
     boost::asio::post(io, std::bind(print_msg, std::string("A")));
 
     std::cout << "main：投递任务 B" << std::endl;
@@ -102,6 +110,7 @@ int main()
 
     std::cout << "main：准备调用 io.run()" << std::endl;
 
+    // 启动事件循环，前面注册的异步任务会在这里被调度执行。
     std::size_t count = io.run();
 
     std::cout << "main：io.run() 返回，执行了 " << count << " 个任务" << std::endl;
@@ -109,6 +118,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -207,13 +218,17 @@ void release_guard(const boost::system::error_code& ec,
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io;
 
     std::shared_ptr<WorkGuard> guard =
         std::make_shared<WorkGuard>(boost::asio::make_work_guard(io));
 
+    // 创建定时器，并设置到期时间。
     boost::asio::steady_timer timer(io, std::chrono::seconds(2));
 
+    // 注册异步等待：这一行不会阻塞，回调会在定时器到期后执行。
     timer.async_wait(std::bind(release_guard,
                                std::placeholders::_1,
                                guard));
@@ -227,6 +242,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -303,7 +320,10 @@ void print_robot_state(const std::string& name, double x, double y)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // std::function 可以保存普通函数、lambda 或函数对象。
     std::function<void(double, double)> f =
+        // bind 会把函数和部分参数提前绑定成一个可调用对象。
         std::bind(print_robot_state,
                   std::string("mycar"),
                   std::placeholders::_1,
@@ -319,6 +339,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -406,9 +428,12 @@ private:
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     Robot robot("mycar");
 
+    // std::function 可以保存普通函数、lambda 或函数对象。
     std::function<void(double, double)> f =
+        // bind 会把函数和部分参数提前绑定成一个可调用对象。
         std::bind(&Robot::print_pose,
                   &robot,
                   std::placeholders::_1,
@@ -424,6 +449,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -497,9 +524,11 @@ boost::asio::buffer(data)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     std::string msg = "hello asio";
     auto buf1 = boost::asio::buffer(msg);
 
+    // std::array 是固定长度数组，长度在编译期就确定。
     std::array<char, 128> data;
     auto buf2 = boost::asio::buffer(data);
 
@@ -511,6 +540,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 
@@ -624,11 +655,13 @@ private:
     void run()
     {
         std::cout << "IoThread：io.run() 开始" << std::endl;
+        // 启动事件循环，前面注册的异步任务会在这里被调度执行。
         io_.run();
         std::cout << "IoThread：io.run() 返回" << std::endl;
     }
 
 private:
+    // io_context 是 Asio 的事件循环对象，异步任务需要靠它调度。
     boost::asio::io_context io_;
     boost::asio::executor_work_guard<boost::asio::io_context::executor_type> guard_;
     std::thread thread_;
@@ -642,9 +675,11 @@ void print_task(const std::string& msg)
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
     IoThread io_thread;
     io_thread.start();
 
+    // post 只是把任务放进队列，真正执行要等 io.run()。
     boost::asio::post(io_thread.io(), std::bind(print_task, std::string("A")));
     boost::asio::post(io_thread.io(), std::bind(print_task, std::string("B")));
 
@@ -658,6 +693,8 @@ int main()
     return 0;
 }
 ```
+
+**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。
 
 ### 编译运行
 

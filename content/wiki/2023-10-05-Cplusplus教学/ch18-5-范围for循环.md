@@ -224,6 +224,8 @@ scores (structured binding):
 
 int main()
 {
+    // 程序从 main 函数开始执行，下面的语句会按顺序运行。
+    // vector 是动态数组，元素数量可以在运行时变化。
     std::vector<int> temperatures = {22, 23, 21, 25, 24};
 
     std::cout << "all temperatures: ";
