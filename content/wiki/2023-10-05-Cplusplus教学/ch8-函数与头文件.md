@@ -232,7 +232,7 @@ int main() {
 2. 源文件 `.cpp`：写函数定义。
 3. `main.cpp`：调用函数。
 
-从 [C++开发环境与第一个工程](/wiki/2023-10-05-cplusplus-jiao-xue/ch1-c-kai-fa-huan-jing-yu-di-yi-ge-gong-cheng) 开始，本教程一直使用同一个 CMake 模板。写到这里时，你的工程大致还是这个结构：
+从 [C++开发环境与第一个工程](/wiki/2023-10-05-cplusplus-jiao-xue/ch1-c-kai-fa-huan-jing-da-jian-yu-ce-shi) 开始，本教程一直使用同一个 CMake 模板。写到这里时，你的工程大致还是这个结构：
 
 ```text
 src/
