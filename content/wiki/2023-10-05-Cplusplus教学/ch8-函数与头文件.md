@@ -248,7 +248,7 @@ src/
     └── src/eigen3_test.cpp
 ```
 
-`lib1` 和 `lib2` 是模板自带的两个示例库。本节第一次整理它们：删掉暂时用不到的 `lib2`，把 `lib1` 改成我们自己的 `swap` 小库，然后把前面写过的 `swap.h` 和 `swap.cpp` 放进去。
+`lib1` 和 `lib2` 是模板自带的两个示例库。本节第一次整理它们：删掉暂时用不到的 `lib2`，把 `lib1` 改成我们自己的 `swap` 小库，再把模板自带的示例头文件和源文件分别重命名为 `swap.h` 和 `swap.cpp`，用它们完成本节的函数分文件编写示例。
 
 改完之后，目录结构变成：
 
@@ -264,59 +264,22 @@ src/
 
 也就是说：
 
-1. `lib2` 不参与这个例子。
-2. `lib1` 被改名为 `swap`。
-3. `swap.h` 放到 `src/swap/inc/swap/`。
-4. `swap.cpp` 放到 `src/swap/src/`。
+1. 删除本例暂时用不到的 `lib2`。
+2. 把 `lib1` 目录重命名为 `swap`。
+3. 把 `inc/lib1` 目录重命名为 `inc/swap`，再把其中的 `eigen3_test.hpp` 重命名为 `swap.h`。
+4. 把 `src/eigen3_test.cpp` 重命名为 `src/swap.cpp`。
 
-#### 整理 lib1 和 lib2 (你也可以用VScode图形界面删,不用敲以下命令)
+#### 整理 lib1 和 lib2
 
-执行删除命令前，可以先确认自己还在工程根目录：
+首先删除掉`lib2`,这里不需要.
 
-```bash
-pwd
-```
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712796407.webp)
 
-输出路径最后应该是你 clone 下来的工程目录，比如 `hello_cpp`。
+1. 把 `lib1` 目录重命名为 `swap`:
+2. 把 `inc/lib1` 目录重命名为 `inc/swap`，再把其中的 `eigen3_test.hpp` 重命名为 `swap.h`:
+3. 把 `src/eigen3_test.cpp` 重命名为 `src/swap.cpp`:
 
-删掉暂时用不到的 `lib2`：
-
-```bash
-rm -rf src/lib2
-```
-
-把 `lib1` 改名为 `swap`：
-
-```bash
-mv src/lib1 src/swap
-```
-
-然后把头文件改成原教程里的名字：
-
-```bash
-mv src/swap/inc/lib1 src/swap/inc/swap
-mv src/swap/inc/swap/eigen3_test.hpp src/swap/inc/swap/swap.h
-```
-
-再把源文件改成原教程里的名字：
-
-```bash
-mv src/swap/src/eigen3_test.cpp src/swap/src/swap.cpp
-```
-
-你也可以在 VSCode 左侧文件树里手动删除、重命名，结果一致即可。
-
-现在 `swap.h` 放在：
-
-```text
-src/swap/inc/swap/swap.h
-```
-
-`swap.cpp` 放在：
-
-```text
-src/swap/src/swap.cpp
-```
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712918093.webp)
 
 #### 修改 swap.h
 
@@ -335,9 +298,11 @@ using namespace std;
 void swap(int a, int b);
 ```
 
-这段代码和前面的分文件示例保持一致。
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713074486.webp)
 
-> 补充说明：真实工程里通常不建议在头文件中写 `using namespace std;`，函数名也尽量避免直接叫 `swap`，因为标准库里有 `std::swap`。不过这里先专心理解"头文件声明、源文件定义、主函数调用"这条线，所以仍然沿用前面的教学代码。
+这是我们第一次把函数声明单独放进头文件。`swap.h` 只负责告诉其他源文件：工程中存在一个名为 `swap`、接收两个 `int` 参数的函数。
+
+> 补充说明：真实工程里通常不建议在头文件中写 `using namespace std;`，函数名也尽量避免直接叫 `swap`，因为标准库里有 `std::swap`。不过这里先专心理解"头文件声明、源文件定义、主函数调用"这条线，因此暂时使用这份简单的教学代码。
 
 #### 修改 swap.cpp
 
@@ -363,7 +328,11 @@ void swap(int a, int b)
 }
 ```
 
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713085999.webp)
+
 这里的 `#include "swap/swap.h"` 表示：`swap.cpp` 要先看到函数声明，再提供函数定义。
+
+这时候有VScode的报错无所谓,是因为`CMakeLists`没修改,其次`clangd`也没有被刷新,先不用管代码提示的报错.
 
 #### 修改 main.cpp
 
@@ -388,6 +357,8 @@ int main()
 	return 0;
 }
 ```
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713106888.webp)
 
 `main.cpp` 只负责调用函数，不再把 `swap` 函数的具体实现写在自己里面。
 
@@ -431,6 +402,9 @@ target_link_libraries(${PREFIX}_src_lib
     Eigen3::Eigen
 )
 ```
+
+只用修改以上两项,其他的均不用修改,下面介绍一下比较重点的地方:
+
 
 整理后，`src/swap/CMakeLists.txt` 可以写成：
 
@@ -548,6 +522,8 @@ target_link_libraries(${PROJECT_NAME}
 )
 ```
 
+只用修改以上两项,其他的均不用修改,下面介绍一下比较重点的地方:
+
 整理后，`src/CMakeLists.txt` 可以写成：
 
 ```cmake
@@ -596,22 +572,18 @@ target_link_libraries(${PROJECT_NAME}
 
 #### 重新构建并运行
 
-因为改了目录名和 `CMakeLists.txt`，建议重新 configure：
+编译
 
-```bash
-cmake --fresh --preset linux-debug
-cmake --build --preset linux-debug
-./build/linux-debug/src/cmake_template
-```
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713420848.webp)
 
-如果你的 CMake 版本较旧，不支持 `--fresh`，可以改成：
+此时你再看clangd的代码提示就不报错了.
 
-```bash
-rm -rf build/linux-debug
-cmake --preset linux-debug
-cmake --build --preset linux-debug
-./build/linux-debug/src/cmake_template
-```
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713445608.webp)
+
+然后运行:
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713490504.webp)
+
 
 输出类似：
 
@@ -651,41 +623,302 @@ target_link_libraries(${PROJECT_NAME}
 
 链接器找不到 `swap` 函数的实现。
 
-## 头文件的组织方式(只是一个规范,现在暂时不用知道)
+## 头文件的组织方式
 
-头文件的作用：头文件含有某个库的外部声明函数和变量，方便我们调用库中的API。
+刚才我们把 `swap` 函数的声明放进了 `swap.h`。其他源文件只要包含这个头文件，就能知道这个库提供了哪些函数。这些提供给外部代码使用的函数、类型和变量，通常统称为库的 **API**。
 
-注意事项：
+头文件一般负责放置：
 
-1.  常见的头文件stdio.h stdlib.h iostream string等
+1. 函数声明。
+2. 类型、结构体和类的声明或定义。
+3. 必要的常量与变量声明。
+4. 使用这些声明所必需的其他头文件。
 
-2.  头文件的扩展名：.h或者.hpp，其实没必要写扩展名，但是建议还是写。
+头文件本身不能单独运行。修改头文件后，需要重新编译包含它的 `.c` 或 `.cpp` 文件来验证。
 
-3.  预处理：#include <> 和 #include " "
+### 纯 C++ 工程的头文件
 
-4.  条件编译
+本章的 `swap` 库由 `swap.cpp` 实现，并由 `main.cpp` 调用，所有源文件都按照 C++ 代码编译。因此，我们先来看普通 C++ 头文件的完整写法。
 
-5.  extern "C" { } 用来实现C语言和C++的混合编译，表明它按照类C的编译和连接规约来编译和连接，而不是C++的编译的连接规约。
+纯 C++ 工程推荐使用下面的头文件模板：
 
 ```cpp
-#ifndef __FILE_NAME_H_    //头文件防止引用重复的条件编译(记得修改宏定义的名字)
-#define __FILE_NAME_H_   //头文件防止引用重复的条件编译
+#ifndef __FILE_NAME_H_  // 防止头文件被重复包含，使用时要修改宏名
+#define __FILE_NAME_H_
 
-#ifdef __cplusplus    //混合编译的条件编译
-extern "C"           //混合编译的条件编译
-{                   //混合编译的条件编译
-#endif             //混合编译的条件编译
-/*  头文件内容开始   */
+/* 头文件内容开始 */
 
-//头文件内容：预处理、函数声明、变量声明(上面学的内容全部写在这里,其他的都是模板)
+// 在这里编写必要的预处理指令、类型定义、函数声明和变量声明
 
-/*   头文件内容结束  */
-#ifdef __cplusplus     //混合编译的条件编译
-}                      //混合编译的条件编译
-#endif                 //混合编译的条件编译
+/* 头文件内容结束 */
 
-#endif   //头文件防止引用重复的条件编译
-
+#endif  // __FILE_NAME_H_
 ```
 
-**运行/观察结果：** 这段是语法或接口示例，重点观察写法；放入完整程序后再运行验证。
+使用模板时，要根据实际文件名修改保护宏。例如：
+
+- `swap.h` 可以使用 `__SWAP_H_`。
+- `camera.hpp` 可以使用 `__CAMERA_HPP_`。
+
+本章的 `swap.h` 可以整理成：
+
+```cpp
+#ifndef __SWAP_H_
+#define __SWAP_H_
+
+#include <iostream>
+using namespace std;
+
+void swap(int a, int b);
+
+#endif  // __SWAP_H_
+```
+
+这才是C++头文件最规范的形态.
+
+编译执行后:
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715053871.webp)
+
+
+这里开头的 `#ifndef` 和 `#define`，以及末尾的 `#endif`，组成了 **头文件保护宏**。同一个头文件即使被间接包含多次，其中的内容也只会参与一次编译，避免出现重复定义等问题。
+
+纯 C++ 项目中也经常使用 `.hpp` 扩展名，用来强调这是 C++ 头文件；`.h` 同样可以使用。项目自己的头文件通常应该保留扩展名，例如：
+
+```cpp
+#include "swap/swap.h"
+```
+
+标准库中的 `<iostream>`、`<string>` 等名字没有扩展名，是 C++ 标准规定的命名方式，不代表项目中的头文件也应该省略扩展名。
+
+### C 接口以及 C/C++ 混合工程的头文件
+
+一个工程中可以同时存在 `.c` 和 `.cpp` 文件。例如，既可以让 C++ 源文件`xxx.cpp`调用 `.c` 文件中的函数，也可以让 `main.c` 调用 `.cpp` 文件中的函数。
+
+但是，C 与 C++ 编译器处理函数名称的方式并不完全相同。只要调用跨越了 C 和 C++ 的边界，就应提供一个兼容的接口头文件。
+
+头文件中的 `extern "C"` 只会在它被 C++ 编译器处理时生效，作用是告诉 C++ 编译器：这些函数按照 C 语言的链接规则处理。
+
+对于需要在 C 和 C++ 之间使用的接口，推荐使用下面的头文件模板,且建议扩展名为`.h`：
+
+```c
+#ifndef __FILE_NAME_H_  // 防止头文件被重复包含，使用时要修改宏名
+#define __FILE_NAME_H_
+
+#ifdef __cplusplus      // 当前文件被 C++ 编译器处理时才会成立
+extern "C" {
+#endif
+
+/* 头文件内容开始 */
+
+// 在这里编写必要的预处理指令、类型定义、函数声明和变量声明
+
+/* 头文件内容结束 */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // __FILE_NAME_H_
+```
+
+下面的两个例子是两种独立的工程形式，都在前面完成的 `swap` 工程基础上修改。可以只选择一种练习；如果连续练习，需要按照第二个例子的说明先恢复文件名。
+
+#### `main.cpp` 调用 `swap.c`
+
+这个例子保留 C++ 编写的 `main.cpp`，把 `swap` 函数改为使用 C 语言实现。
+
+首先将 `swap.cpp` 重命名为 `swap.c`：
+
+改完后的主要目录结构为：
+
+```text
+src/
+├── CMakeLists.txt
+├── main.cpp
+└── swap/
+    ├── CMakeLists.txt
+    ├── inc/swap/swap.h
+    └── src/swap.c
+```
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715114622.webp)
+
+因为 `src/swap/CMakeLists.txt` 已经会同时收集 `.c` 和 `.cpp` 文件，所以这里只需重命名文件，不用修改这个 CMake 文件。
+
+把 `src/swap/inc/swap/swap.h` 改成可以同时被 C 和 C++ 包含的形式：
+
+```c
+#ifndef __SWAP_H_
+#define __SWAP_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void swap(int a, int b);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // __SWAP_H_
+```
+
+注意，这个头文件可能被 C 编译器处理，所以不能再在其中包含 `<iostream>` 或编写 `using namespace std;`。
+
+在 `src/swap/src/swap.c` 中使用 C 语言实现 `swap`：
+
+```c
+#include "swap/swap.h"
+#include <stdio.h>
+
+void swap(int a, int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+}
+```
+
+`src/main.cpp` 仍然是 C++ 源文件,且不用做任何更改：
+
+```cpp
+#include "swap/swap.h"
+
+int main()
+{
+    int a = 100;
+    int b = 200;
+
+    swap(a, b);
+    return 0;
+}
+```
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715202883.webp)
+
+编译 `swap.c` 时，C 编译器不会定义 `__cplusplus`，因此会跳过 `extern "C"`。编译 `main.cpp` 时，C++ 编译器会看到 `extern "C"`，从而按照 C 语言的链接规则寻找 `swap.c` 中的 `swap` 函数。
+
+#### `main.c` 调用 `swap.cpp`
+
+> 难点,在STM32HAL库中常用
+
+这个例子反过来：入口文件使用 C 语言，而 `swap` 库继续使用 C++ 实现。
+
+如果刚做完上一个例子，先把 `swap.c` 改回 `swap.cpp`：
+
+接着把入口文件 `main.cpp` 重命名为 `main.c`：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715304838.webp)
+
+改完后的主要目录结构为：
+
+```text
+src/
+├── CMakeLists.txt
+├── main.c
+└── swap/
+    ├── CMakeLists.txt
+    ├── inc/swap/swap.h
+    └── src/swap.cpp
+```
+
+文件名发生变化后，还要打开 `src/CMakeLists.txt`，把：
+
+```cmake
+add_executable(${PROJECT_NAME}
+  ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
+)
+```
+
+改成：
+
+```cmake
+add_executable(${PROJECT_NAME}
+  ${CMAKE_CURRENT_SOURCE_DIR}/main.c
+)
+```
+
+`src/swap/inc/swap/swap.h` 继续使用前面的兼容写法：
+
+```c
+#ifndef __SWAP_H_
+#define __SWAP_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void swap(int a, int b);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // __SWAP_H_
+```
+
+在 `src/swap/src/swap.cpp` 中使用 C++ 实现 `swap`：
+
+```cpp
+#include "swap/swap.h"
+#include <iostream>
+
+void swap(int a, int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
+}
+```
+
+`swap.cpp` 必须包含 `swap.h`。C++ 编译器读取头文件后，才会知道这个 `swap` 函数需要按照 C 语言的链接规则对外提供。
+
+最后在 `src/main.c` 中调用它,`main.c`仍然沿用`main.cpp`不需要做任何修改：
+
+```c
+#include "swap/swap.h"
+
+int main(void)
+{
+    int a = 100;
+    int b = 200;
+
+    swap(a, b);
+    return 0;
+}
+```
+
+`main.c` 只通过头文件调用 `swap`，不需要理解 `std::cout` 等 C++ 写法。C++ 代码全部留在 `swap.cpp` 中。
+
+只有需要跨越 C/C++ 边界的函数才需要这种兼容写法，其他 `.cpp` 文件之间仍然按照普通 C++ 方式调用。
+
+模板的顶层 `CMakeLists.txt` 已经通过 `LANGUAGES C CXX` 启用了 C 和 C++。CMake 会用 C 编译器编译 `main.c`，用 C++ 编译器编译 `swap.cpp`，并把 `swap.cpp` 构建成模板中的 `swap_src_lib` 共享库，最后再将它链接给主程序。
+
+`extern "C"` 只改变链接规则，并不会把 C++ 代码自动转换成 C。放在其中的接口应使用 C 能理解的类型和写法，不要使用函数重载、类、模板或 C++ 引用等 C++ 专有功能。
+
+### `#include <...>` 和 `#include "..."`
+
+两种写法都用于包含头文件，但常见用途不同：
+
+```cpp
+#include <iostream>
+#include <opencv2/opencv.hpp>
+```
+
+尖括号通常用于标准库或已经安装的第三方库头文件。
+
+```cpp
+#include "swap/swap.h"
+```
+
+双引号通常用于当前工程自己的头文件。这里能够写成 `"swap/swap.h"`，是因为 CMake 已经把 `src/swap/inc/` 添加到了编译器的头文件搜索路径中。
+
+无论使用 C 还是 C++，都应为头文件添加保护宏；只有头文件需要作为 C 与 C++ 之间的接口时，才在保护宏内部增加 `extern "C"` 兼容部分。

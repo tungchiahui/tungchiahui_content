@@ -74,17 +74,17 @@ cmake --build --preset linux-debug
 
 配置成build+debug模式:
 
-![alt text](../../../public/images/2023-10-05-Cplusplus教学/1780711946967.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780711946967.webp)
 
 点击左下角的build.
 
-![alt text](../../../public/images/2023-10-05-Cplusplus教学/1780712055746.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712055746.webp)
 
 运行
 
-![alt text](../../../public/images/2023-10-05-Cplusplus教学/1780712071584.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712071584.webp)
 
-![alt text](../../../public/images/2023-10-05-Cplusplus教学/1780712086586.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712086586.webp)
 
 终端输出：
 

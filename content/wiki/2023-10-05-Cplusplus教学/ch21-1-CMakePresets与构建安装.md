@@ -709,7 +709,11 @@ build/linux-debug/src/cmake_template
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707302786.webp)
 
-如果你要断点调试，就点击 CMake Tools 提供的 Debug 按钮。普通运行就点运行按钮。
+如果你要断点调试，就点击 CMake Tools 提供的 `Debug` 按钮；如果只是直接运行程序，就点击 `Launch` 按钮。
+
+除了上面的操作入口，VSCode 底部状态栏中，`Build` 按钮旁边也有 `Debug` 和 `Launch` 快捷按钮。选择好 `cmake_template` target 并完成构建后，可以直接点击这里运行或调试程序。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715507074.webp)
 
 ### Install
 
