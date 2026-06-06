@@ -287,8 +287,6 @@ C语言和C++并不是对立的竞争关系： 1)C++是C语言的加强，是一
 
 **本文只负责指导一些问题，学****C/C++****还是以下列视频为主:**
 
-C/C++环境配置:[电控组环境搭建大全](https://sdutvincirobot.feishu.cn/wiki/FQszwXIR5iQgCfk7pRwc9rYpnqg)
-
 1.  C++ 视频教程：
 
 https://www.bilibili.com/video/BV1et411b73Z

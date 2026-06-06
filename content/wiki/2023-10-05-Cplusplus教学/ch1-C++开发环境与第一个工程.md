@@ -8,7 +8,7 @@ title: "C++开发环境与第一个工程"
 
 如果你刚开始学 C++，看到 `CMake`、`Ninja`、`target_link_libraries` 这些名字不用紧张。本章不要求你理解它们的全部原理，先照着步骤把工程跑通。等后面学到头文件、分文件编写、第三方库时，再回来看这些内容会更自然。
 
-完整 CMake 模板详解放在后面的`CMake工程模板`。本章只关心两件事：
+完整 CMake 模板详解放在后面的 [CMake工程模板](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-cmake-gong-cheng-mu-ban)。本章只关心两件事：
 
 1. 你的电脑能不能编译并运行 C++ 工程。
 2. VSCode 能不能用 F5 调试这个工程。
@@ -55,7 +55,7 @@ title: "C++开发环境与第一个工程"
 
 ```bash
 sudo apt update
-sudo apt install git cmake ninja-build g++ gdb libeigen3-dev
+sudo apt install git cmake ninja-build gcc g++ gdb libeigen3-dev
 ```
 
 这里安装了 `libeigen3-dev`，是因为模板原始示例里用到了 Eigen。先装上它，模板就能直接跑起来。
@@ -64,8 +64,18 @@ sudo apt install git cmake ninja-build g++ gdb libeigen3-dev
 ### Fedora
 
 ```bash
-sudo dnf install git cmake ninja-build gcc-c++ gdb eigen3-devel
+sudo dnf install git cmake ninja-build gcc gcc-c++ gdb eigen3-devel
 ```
+
+| Ubuntu/Debian | Fedora/RHEL   | 说明                 |
+| ------------- | ------------ | ------------------ |
+| git           | git          | 版本控制工具             |
+| cmake         | cmake        | CMake 构建工具         |
+| ninja-build   | ninja-build  | Ninja 构建工具         |
+| gcc           | gcc          | C 编译器              |
+| g++           | gcc-c++      | C++ 编译器            |
+| gdb           | gdb          | GNU 调试器            |
+| libeigen3-dev | eigen3-devel | Eigen3 C++ 数值库开发文件 |
 
 
 ## 检查工具是否安装成功
@@ -80,17 +90,52 @@ gdb --version
 
 这些命令都能输出版本号，就说明基础环境已经可用。
 
-## clone CMake 模板
+## 安装VScode
+https://code.visualstudio.com/Download
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image23.webp)
+
+如果是debian系下载deb,如果是rhel系下载rpm.
+
+下载完之后，点击浏览器，找到这个安装包的文件夹，并在该路径打开终端。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image24.webp)
+
+Debian系：输入`sudo apt install ./code`然后按`tab`按键补齐文件名，回车。
+
+RHEL系：输入`sudo dnf install ./code`然后按`tab`按键补齐文件名，回车。
+
+例如补齐后的：
 
 ```bash
-git clone https://github.com/tungchiahui/CMake_Template.git hello_cpp
-cd hello_cpp
-code .
+sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 ```
 
-这里把项目目录命名为 `hello_cpp`。后面所有命令都默认在这个目录里执行。
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image25.webp)
 
-刚开始学习时先不要管 Git 历史，也不要急着改很多文件。第一步只做一件事：确认这个模板能在你的电脑上运行。
+## 配置VScode
+
+然后打开VScode，在终端输入下面的命令
+
+```bash
+code
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image26.webp)
+
+
+然后可以配置一个环境单独给C++环境使用，避免和默认环境冲突。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420070033.webp)
+
+进行一些设置，按我的来就可以
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705209213.webp)
+
+选中你创建的CMake配置
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705255118.webp)
+
 
 ## 安装 VSCode 扩展
 
@@ -118,10 +163,31 @@ code .
 
 如果你使用 `clangd` 做代码提示，建议关闭或弱化 `C/C++` 扩展的 IntelliSense，避免两个语言服务器同时工作导致提示重复或冲突。
 
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705309128.webp)
+
+
+## clone CMake 模板
+
+```bash
+git clone https://github.com/tungchiahui/CMake_Template.git hello_cpp
+cd hello_cpp
+code .
+```
+
+这里把项目目录命名为 `hello_cpp`。后面所有命令都默认在这个目录里执行。
+
+刚开始学习时先不要管 Git 历史，也不要急着改很多文件。第一步只做一件事：确认这个模板能在你的电脑上运行。
+
+选中你创建的CMake配置
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705255118.webp)
+
 
 ## 先原样跑通模板
 
-先不要急着改代码。直接复制下面三行命令：
+### 用命令行方式运行
+
+先不要急着改代码。按` ctrl + ~ `弹出VScode终端并运行下面三行命令：
 
 ```bash
 cmake --preset linux-debug
@@ -139,6 +205,8 @@ cmake --build --preset linux-debug
 3 4
 [lib2] Determinant = -2
 ```
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705705759.webp)
 
 说明工程、编译器、CMake、Ninja、Eigen 都工作正常。到这里，最麻烦的环境部分就已经过关了。
 
@@ -162,6 +230,55 @@ cmake --install build/linux-debug
 [lib2] Determinant = -2
 ```
 
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705741785.webp)
+
+### 用VScode图形化方式运行
+
+我们要用VScode图形化方式去运行上面那些命令:
+
+点击左侧边的`CMake`:
+
+1. 首先要配置`cmake --preset linux-debug`,等同于在界面中是点击`Configure`按钮,并选择`Linux Debug`:
+
+    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705995297.webp)
+
+
+2. 然后`cmake --build --preset linux-debug`这个配置会在你配置`configure`时被自动配置:
+   
+   ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780706149481.webp)
+
+   然后你要手动点击左下角的`Build`按钮来进行build:
+
+   ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707106120.webp)
+
+3. 然后`./build/linux-debug/src/cmake_template`运行这个程序等同于:
+   
+   先配置程序路径:
+   ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707152235.webp)
+
+    运行程序:
+    Debug是对程序进行debug,而Launch是直接运行程序不debug,除非你有debug需求,一般咱们直接用launch.
+    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707202465.webp)
+
+    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707302786.webp)
+
+
+接下来是要讲如何把生成产物放进`install`,一般只有你要发行一个程序之类的才install,平常只用上面的build即可(测试完改回build的配置).
+
+1. `cmake --install build/linux-debug`等同于:
+    在 VSCode 里按 `Ctrl+Shift+P`，然后输入`CMake: Install`.
+
+    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707509033.webp)
+
+    解释: 这个命令会调用当前配置的 `build preset` 对应的 `cmake --install <buildDir>`。
+    如果你选择了 linux-debug preset，它等同于`cmake --install build/linux-debug`.
+
+2. 然后`./install/linux-debug/bin/cmake_template`运行这个程序等同于:
+    先配置程序路径:
+
+    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707743776.webp)
+
+    运行程序的方式和上面一样,也是点`Debug`或者`Launch`.
 
 ## 模板当前结构
 
@@ -200,30 +317,6 @@ cmake --install build/linux-debug
 本章只需要认识这些位置，不需要修改它们。
 
 
-## 用 VSCode F5 调试
-
-这个模板已经提供 `.vscode/launch.json`。
-
-它里面最关键的一行是：
-
-```json
-"program": "${command:cmake.launchTargetPath}"
-```
-
-意思是：让 CMake Tools 告诉 VSCode 当前选择的可执行 target 在哪里。
-
-调试流程：
-
-1. 用 VSCode 打开 `hello_cpp` 目录。
-2. 选择 `linux-debug` preset。
-3. Configure。
-4. Build。
-5. 选择 `cmake_template` 作为 launch target。
-6. 在 `main.cpp`、`lib1` 或 `lib2` 的 `.cpp` 文件里打断点。
-7. 按 F5，选择 `Debug CMake Target`。
-
-如果断点能停住，说明 GDB、VSCode、CMake Tools 都已经配好。
-
 ## 常见问题
 
 ### 找不到 Ninja
@@ -248,7 +341,7 @@ sudo dnf install ninja-build
 
 ### 找不到 gdb
 
-F5 调试时如果找不到 GDB：
+调试时如果找不到 GDB：
 
 ```bash
 sudo apt install gdb
@@ -259,17 +352,6 @@ sudo apt install gdb
 ```bash
 sudo dnf install gdb
 ```
-
-### F5 找不到程序
-
-先确认已经构建：
-
-```bash
-cmake --preset linux-debug
-cmake --build --preset linux-debug
-```
-
-再确认 VSCode CMake Tools 已经选择 `cmake_template` 作为 launch target。
 
 ### 改了 CMakeLists.txt 后构建异常
 
@@ -298,4 +380,4 @@ cmake --preset linux-debug
 4. 运算符
 5. 程序流程结构
 
-下一章开始，我们先只改 `src/main.cpp`。等你学到函数分文件编写时，再去整理 `lib1` / `lib2`；等你学到工程组织、第三方库和构建系统时，再回来看 `CMake工程模板`。
+下一章开始，我们先只改 `src/main.cpp`。等你学到函数分文件编写时，再去整理 `lib1` / `lib2`；等你学到工程组织、第三方库和构建系统时，再回来看 [CMake工程模板](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-cmake-gong-cheng-mu-ban)。

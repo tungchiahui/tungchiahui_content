@@ -21,8 +21,6 @@ title: "CMake工程模板"
 .
 ├── CMakeLists.txt
 ├── CMakePresets.json
-├── .vscode/
-│   └── launch.json
 ├── cmake/
 │   └── ProjectOptions.cmake
 └── src/
@@ -50,7 +48,6 @@ title: "CMake工程模板"
 |:---|:---|
 | `CMakeLists.txt` | 顶层入口，声明项目、加载公共配置、进入 `src` |
 | `CMakePresets.json` | 保存构建预设，例如 `linux-debug` 和 `linux-release` |
-| `.vscode/launch.json` | 保存 VSCode F5 调试配置，启动 CMake Tools 当前选择的 target |
 | `cmake/ProjectOptions.cmake` | 保存 C/C++ 标准、公共 warning 等配置 |
 | `src/CMakeLists.txt` | 创建最终可执行文件，并链接 `lib1`、`lib2` |
 | `src/lib1/CMakeLists.txt` | 创建 `lib1_src_lib`，管理 lib1 自己的 include、依赖、安装 |
@@ -175,46 +172,46 @@ install/linux-debug/
 | 手动调用 Makefile | preset 指定 Ninja |
 | 手动设置动态库路径 | 安装目标设置 `INSTALL_RPATH` |
 | 手写 VSCode task | VSCode CMake Tools 直接读取 preset |
-| 手写复杂调试脚本 | `.vscode/launch.json` 调试当前 CMake target |
+| 手写复杂调试脚本 | VSCode CMake Tools 直接运行或调试当前 CMake target |
 
-## VSCode F5 调试
+## VSCode CMake Tools 运行与调试
 
-这个模板可以按 F5 调试，但 F5 不是由 `CMakePresets.json` 单独完成的。
+这个模板不需要额外写 VSCode 调试配置。安装 CMake Tools 后，VSCode 可以直接识别 CMake 里的可执行 target，并对当前 target 执行运行或调试。
 
-两个文件分工如下：
+图形化流程可以理解成命令行流程的按钮版本：
 
-| 文件 | 职责 |
+| 命令行 | VSCode CMake Tools |
 |:---|:---|
-| `CMakePresets.json` | 决定如何 configure/build，构建目录在哪里 |
-| `.vscode/launch.json` | 决定按 F5 时启动哪个程序、用哪个调试器 |
+| `cmake --preset linux-debug` | 选择 `Linux Debug` preset 后 Configure |
+| `cmake --build --preset linux-debug` | 点击 Build |
+| `./build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击运行按钮 |
+| 用 GDB 调试 build 目录产物 | 选择 `cmake_template` target 后点击 Debug 按钮 |
 
-模板中的 `launch.json` 使用：
-
-```json
-"program": "${command:cmake.launchTargetPath}"
-```
-
-它表示让 VSCode CMake Tools 提供当前选择的可执行 target 路径。选择 `cmake_template` 后，F5 调试的就是类似下面这个 build 产物：
+CMake Tools 运行或调试的通常是 build 目录里的可执行文件：
 
 ```text
 build/linux-debug/src/cmake_template
 ```
 
-推荐调试流程：
+因此日常开发不需要每次 install。`install` 主要用于验证安装布局、头文件安装、动态库 RPATH 等内容。
+
+推荐流程：
 
 1. 安装 VSCode CMake Tools 扩展和 Microsoft C/C++ 扩展。
 2. 选择 `linux-debug` configure preset。
 3. Configure。
 4. Build。
-5. 选择 `cmake_template` 作为 launch target。
-6. 按 F5，选择 `Debug CMake Target`。
+5. 选择 `cmake_template` 作为运行/调试 target。
+6. 点击 CMake Tools 提供的运行按钮或 Debug 按钮。
+
+更详细的图形界面操作步骤见 [CMakePresets与构建安装](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-1-cmakepresets-yu-gou-jian-an-zhuang)。
 
 ## 本章建议阅读顺序
 
-1. `ch21-1-CMakePresets与构建安装`：先理解 preset 工作流。
-2. `ch21-2-顶层CMake与公共编译选项`：理解顶层入口和公共配置。
-3. `ch21-3-src与lib模块CMake详解`：理解可执行文件、库、include、install。
-4. `ch21-4-第三方库依赖写法`：学习 Eigen、OpenCV、Boost、PCL 等库如何引入。
+1. [CMakePresets与构建安装](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-1-cmakepresets-yu-gou-jian-an-zhuang)：先理解 preset 工作流。
+2. [顶层CMake与公共编译选项](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-2-ding-ceng-cmake-yu-gong-gong-bian-yi-xuan-xiang)：理解顶层入口和公共配置。
+3. [src与lib模块CMake详解](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-3-src-yu-lib-mo-kuai-cmake-xiang-jie)：理解可执行文件、库、include、install。
+4. [第三方库依赖写法](/wiki/2023-10-05-cplusplus-jiao-xue/ch21-4-di-san-fang-ku-yi-lai-xie-fa)：学习 Eigen、OpenCV、Boost、PCL 等库如何引入。
 
 学完后，你应该能做到：
 

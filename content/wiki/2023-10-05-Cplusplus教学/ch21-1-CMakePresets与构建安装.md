@@ -481,103 +481,171 @@ cmake --install build/linux-debug
 
 安装 VSCode 的 CMake Tools 扩展后，它会自动识别 `CMakePresets.json`。
 
-推荐流程：
+这一节把命令行操作和 VSCode 图形界面操作对应起来。
 
-1. 打开项目目录。
-2. 选择 Configure Preset：`linux-debug` 或 `linux-release`。
-3. 执行 Configure。
-4. 执行 Build。
-5. 需要安装时，在终端执行 `cmake --install build/linux-debug`。
+### 打开 CMake 面板
 
-这样不需要手写 `.vscode/tasks.json`。
+用 VSCode 打开工程根目录后，点击左侧边栏的 `CMake`。
 
-## VSCode F5 调试工作流
+如果 CMake Tools 正常识别工程，你会看到 preset、Configure、Build、运行 target 等入口。
 
-如果要按 F5 调试，还需要 Microsoft C/C++ 扩展，因为 GDB 调试由它提供。
+### Configure
 
-这个模板保留一个极简 `.vscode/launch.json`：
+命令行：
 
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug CMake Target",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${command:cmake.launchTargetPath}",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "/usr/bin/gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty printing",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    }
-  ]
-}
+```bash
+cmake --preset linux-debug
 ```
 
-这里最关键的是：
+在 VSCode 图形界面中，对应的是：
 
-```json
-"program": "${command:cmake.launchTargetPath}"
-```
+1. 点击 Configure。
+2. 选择 `Linux Debug`。
 
-它不是写死：
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705995297.webp)
+
+这一步会读取：
 
 ```text
-./install/linux-debug/bin/cmake_template
+CMakePresets.json
+CMakeLists.txt
 ```
 
-而是让 CMake Tools 返回当前选择的 launch target 路径。通常是：
+并生成：
+
+```text
+build/linux-debug/
+```
+
+如果你改了 `CMakeLists.txt`、新增了源文件、修改了第三方依赖，通常需要重新 Configure。
+
+### Build
+
+命令行：
+
+```bash
+cmake --build --preset linux-debug
+```
+
+在 VSCode 图形界面中，CMake Tools 会在 Configure 后识别对应的 build preset。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780706149481.webp)
+
+然后点击左下角或 CMake 面板里的 `Build` 按钮：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707106120.webp)
+
+这一步会编译 `.cpp` 文件，并生成 build 目录里的可执行文件和动态库。
+
+本模板的 Debug 可执行文件通常在：
 
 ```text
 build/linux-debug/src/cmake_template
 ```
 
-因此日常调试不需要每次 install。
+如果你只是修改了普通 `.cpp` 代码，一般只需要重新 Build，不一定要重新 Configure。
 
-### F5 前需要做什么
+### 运行 build 目录里的程序
 
-推荐顺序：
+命令行：
 
-1. 选择 Configure Preset：`linux-debug`。
-2. 执行 Configure。
-3. 执行 Build。
-4. 选择 Launch Target：`cmake_template`。
-5. 按 F5。
+```bash
+./build/linux-debug/src/cmake_template
+```
 
-如果你改了代码，只需要重新 Build 后再 F5。
+在 VSCode 图形界面中，对应的是：
 
-如果你改了 `CMakeLists.txt`、新增源文件、改依赖，建议先 Configure，再 Build，再 F5。
+1. 选择运行/调试 target。
+2. 选择 `cmake_template`。
+3. 点击运行按钮。
 
-### 为什么不写 `preLaunchTask`
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707152235.webp)
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707202465.webp)
+
+运行后，终端里会看到程序输出。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707302786.webp)
+
+如果你要断点调试，就点击 CMake Tools 提供的 Debug 按钮。普通运行就点运行按钮。
+
+### Install
+
+命令行：
+
+```bash
+cmake --install build/linux-debug
+```
+
+在 VSCode 图形界面中，可以按 `Ctrl+Shift+P` 打开命令面板，然后输入：
+
+```text
+CMake: Install
+```
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707509033.webp)
+
+如果当前选择的是 `linux-debug` preset，它等同于：
+
+```bash
+cmake --install build/linux-debug
+```
+
+安装后的程序在：
+
+```text
+install/linux-debug/bin/cmake_template
+```
+
+日常写代码、运行、调试，一般直接使用 build 目录里的程序：
+
+```text
+build/linux-debug/src/cmake_template
+```
+
+只有在验证安装布局、头文件安装、动态库 RPATH 或准备发布程序时，才需要 install。
+
+### 对应关系总结
+
+| 你想做的事 | 命令行 | VSCode CMake Tools |
+|:---|:---|:---|
+| 配置工程 | `cmake --preset linux-debug` | 选择 `Linux Debug` 后点击 Configure |
+| 编译工程 | `cmake --build --preset linux-debug` | 点击 Build |
+| 运行 build 产物 | `./build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击运行按钮 |
+| 调试 build 产物 | 用 GDB 调试 `build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击 Debug 按钮 |
+| 安装工程 | `cmake --install build/linux-debug` | 命令面板执行 `CMake: Install` |
+
+这样不需要手写 `.vscode/tasks.json`，也不需要额外准备 VSCode 调试配置文件。
+
+## 运行与调试注意事项
+
+CMake Tools 可以直接运行或调试当前选择的可执行 target，所以不需要手写额外的运行脚本。
+
+如果要调试，建议安装 Microsoft C/C++ 扩展和 GDB，因为 CMake Tools 负责选择 target，真正的 C/C++ 调试器仍然需要 GDB/LLDB 支持。
+
+如果你只改了 `.cpp` 代码，一般重新 Build 后再运行或调试即可。
+
+如果你改了 `CMakeLists.txt`、新增源文件、改依赖，建议先 Configure，再 Build，然后再运行或调试。
+
+### 为什么不写 `tasks.json`
 
 旧模板常用 `.vscode/tasks.json` 写一长串命令：
 
-```text
+```bash
 cmake ..
 make install
 source setup.bash
 run app
 ```
 
-这个模板不这样做。原因是构建已经交给 CMake Tools 和 preset 管理，`launch.json` 只负责"启动调试器"。
+这个模板不这样做。原因是构建、运行和调试入口都可以交给 CMake Tools 管理，命令行流程则由 `CMakePresets.json` 固化。
 
 这样职责更清楚：
 
 | 文件 | 负责 |
 |:---|:---|
 | `CMakePresets.json` | configure/build 参数 |
-| `.vscode/launch.json` | F5 调试 |
+| VSCode CMake Tools | 选择 preset、Configure、Build、运行和调试 target |
 | `CMakeLists.txt` | target、依赖、安装规则 |
 
 ### 需要安装 gdb
