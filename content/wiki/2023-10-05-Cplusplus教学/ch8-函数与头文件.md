@@ -503,6 +503,18 @@ add_subdirectory(lib2)
 add_subdirectory(swap)
 ```
 
+原来的模板里允许`lib1`调用`lib2`,现在`lib2`没了,所以删掉这部分:
+
+```cmake
+target_link_libraries(lib1_src_lib
+  PRIVATE
+    lib2_src_lib
+)
+```
+
+上面的这个直接删除.
+
+
 原来模板里还会链接：
 
 ```cmake
@@ -522,7 +534,7 @@ target_link_libraries(${PROJECT_NAME}
 )
 ```
 
-只用修改以上两项,其他的均不用修改,下面介绍一下比较重点的地方:
+只用修改以上三项,其他的均不用修改,下面介绍一下比较重点的地方:
 
 整理后，`src/CMakeLists.txt` 可以写成：
 
@@ -903,6 +915,170 @@ int main(void)
 模板的顶层 `CMakeLists.txt` 已经通过 `LANGUAGES C CXX` 启用了 C 和 C++。CMake 会用 C 编译器编译 `main.c`，用 C++ 编译器编译 `swap.cpp`，并把 `swap.cpp` 构建成模板中的 `swap_src_lib` 共享库，最后再将它链接给主程序。
 
 `extern "C"` 只改变链接规则，并不会把 C++ 代码自动转换成 C。放在其中的接口应使用 C 能理解的类型和写法，不要使用函数重载、类、模板或 C++ 引用等 C++ 专有功能。
+
+#### `main.c` 调用 `swap.cpp`(进阶)
+
+> 难点,在STM32HAL库中常用
+
+上一个例子直接把 `swap` 函数做成了 C 接口。这样可以跑通，但也带来一个限制：`swap.h` 必须让 C 编译器看得懂，所以里面不能写命名空间、类、模板、函数重载、C++ 引用等 C++ 专有写法。
+
+更常见的做法是再加一层 **C 接口文件**：
+
+1. `main.c` 只调用一个 C 能理解的函数，例如 `cpp_main()`。
+2. `cpp_interface.cpp` 负责进入 C++ 世界。
+3. `swap.cpp` 保持普通 C++ 写法，可以使用命名空间。
+
+改完后的主要目录结构为：
+
+```text
+src/
+├── CMakeLists.txt
+├── cpp_interface.cpp
+├── cpp_interface.h
+├── main.c
+└── swap/
+    ├── CMakeLists.txt
+    ├── inc/swap/swap.h
+    └── src/swap.cpp
+```
+
+先在 `src/` 下创建 `cpp_interface.h`：
+
+```c
+#ifndef __CPP_INTERFACE_H_
+#define __CPP_INTERFACE_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+int cpp_main(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // __CPP_INTERFACE_H_
+```
+
+这个头文件才是真正给 `main.c` 使用的 C 接口。它里面只声明 `cpp_main(void)`，参数和返回值都是 C 能理解的类型。
+
+然后修改 `src/main.c`：
+
+```c
+#include "cpp_interface.h"
+
+int main(void)
+{
+    return cpp_main();
+}
+```
+
+此时 `main.c` 不再包含 `swap/swap.h`，也不再直接调用 `swap`。它只负责启动 C++ 侧的 `cpp_main()`。
+
+接着把 `src/swap/inc/swap/swap.h` 改回普通 C++ 头文件，并给 `swap` 加上命名空间：
+
+```cpp
+#ifndef __SWAP_H_
+#define __SWAP_H_
+
+namespace swap_demo
+{
+void swap(int a, int b);
+}
+
+#endif  // __SWAP_H_
+```
+
+注意，这个 `swap.h` 现在已经不是 C 接口头文件了。它里面有 `namespace`，所以不能再让 `main.c` 直接包含。
+
+这里也不需要给 `swap.h` 加：
+
+```cpp
+#ifdef __cplusplus
+extern "C" {
+#endif
+```
+
+原因是：`swap_demo::swap` 本来就是一个普通 C++ 函数，我们希望它保留 C++ 的命名空间写法。`extern "C"` 应该只放在 C 代码真正要调用的那层接口上，也就是前面的 `cpp_interface.h` 里的 `cpp_main(void)`。
+
+换句话说，进阶版中有两个头文件：
+
+| 头文件 | 谁来包含 | 是否需要 `extern "C"` |
+|:---|:---|:---|
+| `cpp_interface.h` | `main.c` 和 `cpp_interface.cpp` | 需要，因为它是 C/C++ 边界 |
+| `swap/swap.h` | `swap.cpp` 和 `cpp_interface.cpp` | 不需要，因为它是纯 C++ 头文件 |
+
+继续修改 `src/swap/src/swap.cpp`：
+
+```cpp
+#include "swap/swap.h"
+#include <iostream>
+
+namespace swap_demo
+{
+void swap(int a, int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
+}
+}
+```
+
+最后创建 `src/cpp_interface.cpp`：
+
+```cpp
+#include "cpp_interface.h"
+#include "swap/swap.h"
+
+int cpp_main(void)
+{
+    int a = 100;
+    int b = 200;
+
+    swap_demo::swap(a, b);
+
+    return 0;
+}
+```
+
+`cpp_interface.cpp` 是 C 和 C++ 的分界线。它包含了 `cpp_interface.h`，所以 `cpp_main()` 会按照 C 语言的链接规则对外提供；它本身又是 `.cpp` 文件，所以内部可以正常调用 `swap_demo::swap(a, b)` 这种 C++ 写法。
+
+文件增加后，还要打开 `src/CMakeLists.txt`，把 `cpp_interface.cpp` 加入主程序：
+
+```cmake
+add_executable(${PROJECT_NAME}
+  ${CMAKE_CURRENT_SOURCE_DIR}/main.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/cpp_interface.cpp
+)
+```
+
+这里不用把 `cpp_interface.h` 写进 `add_executable()`。CMake 主要负责把 `.c`、`.cpp` 这类源文件交给编译器编译，头文件本身不会单独编译成一个目标文件。
+
+`cpp_interface.h` 是通过代码里的 `#include` 被找到的：
+
+```c
+#include "cpp_interface.h"
+```
+
+因为 `main.c`、`cpp_interface.cpp` 和 `cpp_interface.h` 都在 `src/` 同一层目录下，所以这里使用双引号包含时，编译器可以从当前源文件所在目录找到它。
+
+如果以后把 `cpp_interface.h` 移到单独的 `inc/` 目录，就需要再用 `target_include_directories()` 把那个目录加入头文件搜索路径。当前这个例子放在同一层目录，所以不需要额外修改 CMake。
+
+`src/swap/CMakeLists.txt` 不需要修改，因为它本来就会收集 `src/swap/src/` 目录下的 `.cpp` 文件，`swap.cpp` 仍然会被编译进 `swap_src_lib`。
+
+编译运行后，输出仍然类似：
+
+```text
+a = 200
+b = 100
+```
+
+这个进阶写法的重点是：`extern "C"` 只放在最外层、最简单的接口上，也就是 `cpp_main(void)`。真正的 C++ 代码放在 `cpp_interface.cpp` 后面，`swap` 可以使用命名空间，以后也可以继续使用类、模板、函数重载等 C++ 功能，只要这些 C++ 专有内容不要直接暴露给 `main.c`。
 
 ### `#include <...>` 和 `#include "..."`
 

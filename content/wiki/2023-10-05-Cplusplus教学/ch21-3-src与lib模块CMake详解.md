@@ -26,6 +26,11 @@ target_link_libraries(${PROJECT_NAME}
 add_subdirectory(lib1)
 add_subdirectory(lib2)
 
+target_link_libraries(lib1_src_lib
+  PRIVATE
+    lib2_src_lib
+)
+
 target_link_libraries(${PROJECT_NAME}
   PRIVATE
     lib1_src_lib
@@ -157,6 +162,56 @@ target_link_libraries(${PROJECT_NAME}
     lib2_src_lib
 )
 ```
+
+## 让 lib1 单向调用 lib2
+
+如果 `lib1` 的源码中需要调用 `lib2` 提供的函数，例如在 `src/lib1/src/eigen3_test.cpp` 中写：
+
+```cpp
+#include "lib2/eigen3_test.hpp"
+
+void some_function()
+{
+    lib2::run_eigen_matrix_example();
+}
+```
+
+那么 `lib1_src_lib` 必须显式链接 `lib2_src_lib`：
+
+```cmake
+target_link_libraries(lib1_src_lib
+  PRIVATE
+    lib2_src_lib
+)
+```
+
+这句话建议放在：
+
+```cmake
+add_subdirectory(lib1)
+add_subdirectory(lib2)
+```
+
+之后。因为执行完 `add_subdirectory(lib1)` 和 `add_subdirectory(lib2)` 后，`lib1_src_lib`、`lib2_src_lib` 这两个 target 才都已经存在。
+
+这里用 `PRIVATE`，表示 `lib2` 只是 `lib1` 自己实现时需要用到的库。CMake 会让 `lib1` 在编译时找到 `lib2/eigen3_test.hpp`，也会在链接时找到 `lib2` 里的函数实现，但不会强迫所有链接 `lib1` 的目标都自动使用 `lib2` 的头文件。
+
+如果以后 `lib1` 的公开头文件里直接包含了 `lib2` 的头文件，或者公开接口里使用了 `lib2` 的类型，就应该改成 `PUBLIC`：
+
+```cmake
+target_link_libraries(lib1_src_lib
+  PUBLIC
+    lib2_src_lib
+)
+```
+
+注意，这里是单向依赖：
+
+```text
+lib1 -> lib2
+```
+
+不要再反过来让 `lib2` 链接 `lib1`。如果两个库真的需要使用同一段代码，通常应该把公共部分抽到 `common` 之类的新库中。
 
 ## 链接 lib1 和 lib2
 
@@ -770,4 +825,3 @@ target_link_libraries(${PROJECT_NAME}
 ```
 
 实际项目中，建议把所有 `add_subdirectory` 放在一起，所有主程序链接库也放在一起，文件会更清楚。
-
