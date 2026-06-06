@@ -741,7 +741,7 @@ vim ~/.config/terminator/config
 #### git
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image215.webp)
 
-咱们的Git入门教程：[Vinci机器人队Git入门教程](https://sdutvincirobot.feishu.cn/docx/B7arde6u0ob5tsxk5QOcFLG7nYd)
+咱们的Git入门教程：[Vinci机器人队Git入门教程](/wiki/2023-12-29-git-jiao-xue)
 
 ### ROS2体系框架
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image216.webp)
