@@ -153,9 +153,14 @@ add_subdirectory(lib1)
 add_subdirectory(lib2)
 ```
 
-再：
+再设置库之间的依赖和主程序要链接的库：
 
 ```cmake
+target_link_libraries(lib1_src_lib
+  PRIVATE
+    lib2_src_lib
+)
+
 target_link_libraries(${PROJECT_NAME}
   PRIVATE
     lib1_src_lib
@@ -165,18 +170,43 @@ target_link_libraries(${PROJECT_NAME}
 
 ## 让 lib1 单向调用 lib2
 
-如果 `lib1` 的源码中需要调用 `lib2` 提供的函数，例如在 `src/lib1/src/eigen3_test.cpp` 中写：
+本模板现在用 `lib1` 调用 `lib2` 做一个单向依赖示例。`src/main.cpp` 只直接调用 `lib1`：
 
 ```cpp
-#include "lib2/eigen3_test.hpp"
+#include "lib1/eigen3_test.hpp"
 
-void some_function()
+int main()
 {
-    lib2::run_eigen_matrix_example();
+    lib1::run_eigen_vector_example();
+    return 0;
 }
 ```
 
-那么 `lib1_src_lib` 必须显式链接 `lib2_src_lib`：
+然后在 `src/lib1/src/eigen3_test.cpp` 中，`lib1` 再调用 `lib2`：
+
+```cpp
+#include "lib1/eigen3_test.hpp"
+#include "lib2/eigen3_test.hpp"
+
+#include <Eigen/Dense>
+#include <iostream>
+
+namespace lib1 {
+
+void run_eigen_vector_example()
+{
+    const Eigen::Vector3d vector(1.0, 2.0, 3.0);
+
+    std::cout << "[lib1] Vector v = " << vector.transpose() << '\n';
+    std::cout << "[lib1] Norm = " << vector.norm() << '\n';
+
+    lib2::run_eigen_matrix_example();
+}
+
+}  // namespace lib1
+```
+
+因此 `lib1_src_lib` 必须显式链接 `lib2_src_lib`：
 
 ```cmake
 target_link_libraries(lib1_src_lib
@@ -223,16 +253,27 @@ target_link_libraries(${PROJECT_NAME}
 )
 ```
 
-作用：让主程序链接两个库。
+作用：让主程序链接模板中的两个示例库。
 
-如果 `main.cpp` 中调用：
+当前 `main.cpp` 只直接调用：
 
 ```cpp
 lib1::run_eigen_vector_example();
+```
+
+而 `lib1::run_eigen_vector_example()` 内部又会调用：
+
+```cpp
 lib2::run_eigen_matrix_example();
 ```
 
-那么链接阶段必须能找到这两个函数的实现。函数实现位于：
+所以这个模板的实际调用路径是：
+
+```text
+main.cpp -> lib1 -> lib2
+```
+
+函数实现位于：
 
 ```text
 src/lib1/src/eigen3_test.cpp
@@ -246,7 +287,9 @@ lib1_src_lib
 lib2_src_lib
 ```
 
-所以主程序需要链接这两个 target。
+所以主程序至少需要链接 `lib1_src_lib`，而 `lib1_src_lib` 又需要链接 `lib2_src_lib`。
+
+本模板这里仍然让主程序同时链接 `lib1_src_lib` 和 `lib2_src_lib`，是为了保留"主程序挂载两个示例库"的直观结构。实际项目中，如果 `main.cpp` 完全不直接调用 `lib2`，也可以只让主程序链接 `lib1_src_lib`，由 `lib1 -> lib2` 这条依赖关系带出 `lib2`。
 
 ## `INSTALL_RPATH`
 
