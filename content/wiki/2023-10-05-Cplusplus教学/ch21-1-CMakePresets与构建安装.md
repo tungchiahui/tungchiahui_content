@@ -312,6 +312,148 @@ build/linux-debug
 "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
 ```
 
+#### 让 clangd 找到 `compile_commands.json`
+
+仅仅生成 `compile_commands.json`，不代表 clangd 一定能自动找到它。
+
+在 VSCode 中使用这种方式前，需要安装 LLVM 官方的 clangd 扩展。
+CMake Tools 负责配置、构建和选择 target，clangd 则负责代码补全、
+跳转定义、语义检查等编辑功能，它们不是同一个扩展。
+
+这个模板把 Debug 构建目录设置为：
+
+```text
+build/linux-debug/
+```
+
+因此执行：
+
+```bash
+cmake --preset linux-debug
+```
+
+之后，编译数据库位于：
+
+```text
+build/linux-debug/compile_commands.json
+```
+
+clangd 默认会从当前源文件所在目录逐级向上寻找
+`compile_commands.json`。它通常能找到项目根目录或 `build/` 直属目录
+中的数据库，但不一定会继续搜索 `build/linux-debug/` 这样的多层
+preset 目录。
+
+如果 clangd 没有找到数据库，它会进入 fallback 模式，只用少量默认
+参数分析源文件。这时即使 CMake 可以正常编译，VSCode 中仍可能出现：
+
+1. 项目头文件显示找不到。
+2. Eigen、OpenCV 等第三方库显示找不到。
+3. C++ 标准识别错误，例如工程使用 C++23，clangd 却按照 C++17 分析。
+4. 跳转定义、自动补全和错误提示不准确。
+
+推荐在项目根目录创建 `.clangd`：
+
+```yaml
+CompileFlags:
+  CompilationDatabase: build/linux-debug
+```
+
+目录结构会变成：
+
+```text
+.
+├── .clangd
+├── CMakeLists.txt
+├── CMakePresets.json
+├── build/
+│   └── linux-debug/
+│       └── compile_commands.json
+└── src/
+```
+
+`CompilationDatabase` 使用相对于 `.clangd` 所在目录的路径，所以不要
+写某个用户电脑上的绝对路径。这个文件只保存项目通用配置，可以提交到
+Git。
+
+注意，`.clangd` 不会生成编译数据库。第一次使用工程，或者修改了
+`CMakeLists.txt`、编译选项、依赖和 preset 后，仍然要重新执行：
+
+```bash
+cmake --preset linux-debug
+```
+
+或者在 VSCode CMake Tools 中选择 `linux-debug` 并点击 Configure。
+
+如果 `.clangd` 创建后没有立即生效，可以在 VSCode 命令面板执行：
+
+```text
+clangd: Restart language server
+```
+
+也可以关闭并重新打开当前 `.cpp` 文件。
+
+如果同时安装了 Microsoft C/C++ 扩展，并且编辑器出现两套重复的错误
+提示，可以保留该扩展提供的 GDB 调试功能，同时关闭它的 IntelliSense，
+让 clangd 独立负责代码分析。这属于个人 VSCode 设置，不需要写入 CMake
+模板。
+
+#### 检查 clangd 是否真的生效
+
+在 VSCode 中打开：
+
+```text
+查看 -> 输出 -> clangd
+```
+
+正常情况下应当看到类似内容：
+
+```text
+Loaded compilation database from .../build/linux-debug/compile_commands.json
+Compile command from CDB is: ...
+```
+
+如果看到：
+
+```text
+Failed to find compilation database
+command clangd fallback
+```
+
+说明 clangd 仍然没有读到编译数据库。依次检查：
+
+1. VSCode 打开的是否为项目根目录。
+2. `.clangd` 是否位于项目根目录。
+3. 是否已经执行过 `cmake --preset linux-debug`。
+4. `build/linux-debug/compile_commands.json` 是否真实存在。
+5. `.clangd` 中的目录名是否与 `binaryDir` 完全一致。
+
+如果系统终端中可以直接使用 `clangd`，还可以检查单个源文件：
+
+```bash
+clangd --check=src/main.cpp
+```
+
+输出中应当显示它加载了 `build/linux-debug/compile_commands.json`，
+并使用 CMake 生成的 include 路径、宏定义和 C++ 标准。
+
+#### 使用 Release 数据库
+
+如果希望 clangd 按照 Release 配置分析，可以改成：
+
+```yaml
+CompileFlags:
+  CompilationDatabase: build/linux-release
+```
+
+并先生成对应数据库：
+
+```bash
+cmake --preset linux-release
+```
+
+日常开发通常使用 `build/linux-debug` 即可。不要同时让 `.clangd` 指向
+一个尚未生成或已经过期的构建目录。
+
 ### `CMAKE_INSTALL_PREFIX`
 
 ```json
