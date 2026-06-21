@@ -75,6 +75,7 @@ code .
 2. 自带CUDA和CuDNN
 3. 默认Shell环境为bash
 4. 换源为国内镜像源
+5. Shell添加上丰富的颜色
 
 ```dockerfile
 # 基于NVIDIA官方CUDA 12.6和CuDNN基础镜像
@@ -92,6 +93,17 @@ RUN apt-get update && apt-get install -y ca-certificates \
 
 # 替换为清华大学的DEB822格式镜像源
 RUN sed -i 's|http://archive.ubuntu.com/ubuntu/|https://mirrors.tuna.tsinghua.edu.cn/ubuntu/|g' /etc/apt/sources.list.d/ubuntu.sources
+
+# 配置终端颜色和提示符
+RUN sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' /root/.bashrc && \
+    # 自定义PS1（带颜色的提示符）
+    echo 'export PS1="\[\033[1;36m\]\u@\h\[\033[00m\]:\[\033[1;34m\]\w\[\033[00m\]\$ "' >> /root/.bashrc && \
+    # 给ls、grep等命令添加别名
+    echo "alias ls='ls --color=auto'" >> /root/.bashrc && \
+    echo "alias grep='grep --color=auto'" >> /root/.bashrc && \
+    echo "alias ll='ls -alFh --color=auto'" >> /root/.bashrc && \
+    # 清理临时文件
+    rm -rf /tmp/LS_COLORS
 ```
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1782045300397.webp)
 
@@ -303,6 +315,17 @@ RUN if [ "$(dpkg --print-architecture)" = "amd64" ]; then \
     elif [ "$(dpkg --print-architecture)" = "arm64" ]; then \
         sed -i 's|http://ports.ubuntu.com/ubuntu-ports/|https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/|g' /etc/apt/sources.list.d/ubuntu.sources; \
     fi
+
+# 配置终端颜色和提示符
+RUN sed -i 's/#force_color_prompt=yes/force_color_prompt=yes/g' /root/.bashrc && \
+    # 自定义PS1（带颜色的提示符）
+    echo 'export PS1="\[\033[1;36m\]\u@\h\[\033[00m\]:\[\033[1;34m\]\w\[\033[00m\]\$ "' >> /root/.bashrc && \
+    # 给ls、grep等命令添加别名
+    echo "alias ls='ls --color=auto'" >> /root/.bashrc && \
+    echo "alias grep='grep --color=auto'" >> /root/.bashrc && \
+    echo "alias ll='ls -alFh --color=auto'" >> /root/.bashrc && \
+    # 清理临时文件
+    rm -rf /tmp/LS_COLORS
 ```
 
 
