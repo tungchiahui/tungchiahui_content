@@ -2,6 +2,10 @@
 title: "各种Docker容器部署"
 ---
 
+**可以跳过此节**
+**此节就是教你拉取一些dockerhub上已经构建好的镜像**
+
+
 ### 部署容器步骤
 先从dockerhub拉取（docker pull）镜像，**然后再通过docker run命令创建容器即可。**（直接运行docker run命令也行，这会自己寻找本地镜像并创建，如果本地没有则会自动去dockerhub上寻找镜像并拉取创建容器一条龙服务。）
 
