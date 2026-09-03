@@ -1,8 +1,5 @@
 ---
 title: Linux下从任务栏启动VS Code时Codex插件打不开的解决方法
-date: 2026-07-21
-path: /blog/vscode-taskbar-codex-fix
-description: 解决Linux KDE任务栏直接启动VS Code时Codex插件无法打开，而从终端执行code命令可以正常使用的问题。
 ---
 
 ## 问题现象
