@@ -1,0 +1,22 @@
+name: Canonical content sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: canonical-content-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    uses: tungchiahui/tungchiahui_web/.github/workflows/content-sync.yml@main
+    with:
+      source_commit: ${{ github.sha }}
