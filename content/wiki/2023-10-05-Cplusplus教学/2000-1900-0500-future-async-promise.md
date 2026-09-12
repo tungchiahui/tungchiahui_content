@@ -22,7 +22,7 @@ std::shared_future
 
 > 某个结果现在还没有，但未来会产生；调用方先拿到一个 `future`，之后再等待或取得结果。
 
-## 1. `std::future<T>` 是什么
+## `std::future<T>` 是什么
 
 `std::future<T>` 表示：
 
@@ -54,7 +54,7 @@ wait_until()
 valid()
 ```
 
-## 2. 最简单的 `std::async`
+## 最简单的 `std::async`
 
 ```cpp
 #include <future>
@@ -105,7 +105,7 @@ main continues
 30
 ```
 
-## 3. `async` 的参数和 `thread` 很像
+## `async` 的参数和 `thread` 很像
 
 概念上：
 
@@ -126,11 +126,11 @@ std::async(policy, callable, arg1, arg2, ...)
 - 函数对象；
 - 成员函数。
 
-## 4. `std::launch::async` 和 `std::launch::deferred`
+## `std::launch::async` 和 `std::launch::deferred`
 
 `std::async` 支持两种重要启动策略。
 
-### 4.1 `std::launch::async`
+### `std::launch::async`
 
 ```cpp
 std::async(std::launch::async, task);
@@ -142,7 +142,7 @@ std::async(std::launch::async, task);
 
 > 现在就安排任务独立执行。
 
-### 4.2 `std::launch::deferred`
+### `std::launch::deferred`
 
 ```cpp
 std::async(std::launch::deferred, task);
@@ -188,7 +188,7 @@ int main()
 
 这里 `task()` 会在调用 `get()` 的线程中执行。
 
-## 5. 不写 policy 会怎样
+## 不写 policy 会怎样
 
 可以写：
 
@@ -212,7 +212,7 @@ std::launch::async
 
 否则不要假设“不写策略就一定创建新线程”。
 
-## 6. `future::get()` 只能取得一次
+## `future::get()` 只能取得一次
 
 普通 `std::future` 的结果通常只能 `get()` 一次：
 
@@ -235,7 +235,7 @@ result.valid()
 
 检查它是否仍然关联有效状态。
 
-## 7. `wait()`：只等待，不取结果
+## `wait()`：只等待，不取结果
 
 ```cpp
 future.wait();
@@ -257,7 +257,7 @@ std::cout << "ready\n";
 std::cout << result.get() << '\n';
 ```
 
-## 8. `wait_for()`：等待一段时间
+## `wait_for()`：等待一段时间
 
 ```cpp
 auto status = result.wait_for(std::chrono::milliseconds(100));
@@ -297,7 +297,7 @@ int main()
 }
 ```
 
-## 9. 异常会通过 future 传播
+## 异常会通过 future 传播
 
 这是 `future` 相比裸 `std::thread` 很方便的一点。
 
@@ -335,7 +335,7 @@ result.get()
 
 这比让工作线程自己想办法把错误传回主线程方便很多。
 
-## 10. `std::promise<T>`
+## `std::promise<T>`
 
 `std::promise<T>` 可以理解成 future 通道的“写入端”。
 
@@ -385,7 +385,7 @@ std::move(promise)
 
 把 promise 的所有权移动到工作线程。
 
-## 11. `promise::set_value()`
+## `promise::set_value()`
 
 ```cpp
 promise.set_value(value);
@@ -401,7 +401,7 @@ promise.set_value();
 
 表示任务成功完成，但没有具体返回值。
 
-## 12. `promise::set_exception()`
+## `promise::set_exception()`
 
 promise 也可以主动写入异常：
 
@@ -465,7 +465,7 @@ int main()
 }
 ```
 
-## 13. 什么是 broken promise
+## 什么是 broken promise
 
 如果 `promise` 在既没有：
 
@@ -496,7 +496,7 @@ std::future<int> future;
 future.get(); // 抛出 std::future_error
 ```
 
-## 14. `std::packaged_task`
+## `std::packaged_task`
 
 `std::packaged_task` 用来把一个可调用对象包装成：
 
@@ -537,7 +537,7 @@ std::packaged_task<int(int, int)>
 返回一个 int
 ```
 
-## 15. `packaged_task` 和 thread 配合
+## `packaged_task` 和 thread 配合
 
 ```cpp
 #include <future>
@@ -579,7 +579,7 @@ worker thread 取出并执行
 future 接收结果
 ```
 
-## 16. `promise` 和 `packaged_task` 的区别
+## `promise` 和 `packaged_task` 的区别
 
 `promise` 更像：
 
@@ -599,7 +599,7 @@ packaged_task
 适合包装已有函数/任务
 ```
 
-## 17. `std::shared_future`
+## `std::shared_future`
 
 普通 `std::future` 更偏单消费者：
 
@@ -633,7 +633,7 @@ shared.get()
 
 读取同一个结果。
 
-## 18. `async` 和 `thread` 怎么选
+## `async` 和 `thread` 怎么选
 
 如果你关心的是：
 
@@ -666,7 +666,7 @@ std::async / std::future
 
 它们表达的是不同层次的抽象。
 
-## 19. 常见错误
+## 常见错误
 
 1. 不写 launch policy，却默认认为 `std::async` 一定创建新线程。
 2. 对同一个普通 `future` 重复调用 `get()`。

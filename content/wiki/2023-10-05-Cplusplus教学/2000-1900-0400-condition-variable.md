@@ -17,7 +17,7 @@ title: "condition_variable"
 共享状态 + mutex + condition_variable
 ```
 
-## 1. 为什么不能一直轮询
+## 为什么不能一直轮询
 
 最直接的等待方式可能是：
 
@@ -44,7 +44,7 @@ while (!ready.load())
 
 条件变量允许线程进入阻塞等待，等到其他线程通知后再继续。
 
-## 2. 基本组成
+## 基本组成
 
 通常会同时存在：
 
@@ -66,7 +66,7 @@ bool ready = false;
 
 它只是通知机制。真正决定线程能否继续的是谓词所检查的共享状态。
 
-## 3. 最简单的等待与通知
+## 最简单的等待与通知
 
 ```cpp
 #include <condition_variable>
@@ -127,7 +127,7 @@ worker 被唤醒并重新获得 mutex
 条件成立，wait 返回
 ```
 
-## 4. 为什么 `wait()` 要配合 `std::unique_lock`
+## 为什么 `wait()` 要配合 `std::unique_lock`
 
 常见写法是：
 
@@ -151,11 +151,11 @@ std::lock_guard<std::mutex>
 
 `unique_lock` 支持这种“暂时释放、重新获得”的所有权管理，而 `lock_guard` 不提供手动解锁和重新加锁能力。
 
-## 5. `wait(lock)` 与 `wait(lock, predicate)`
+## `wait(lock)` 与 `wait(lock, predicate)`
 
 条件变量有两种常见等待形式。
 
-### 5.1 不带谓词
+### 不带谓词
 
 ```cpp
 cv.wait(lock);
@@ -172,7 +172,7 @@ while (!ready)
 }
 ```
 
-### 5.2 带谓词
+### 带谓词
 
 推荐写：
 
@@ -193,7 +193,7 @@ while (!ready)
 
 因此大多数普通场景优先使用带谓词版本。
 
-## 6. 虚假唤醒（spurious wakeup）
+## 虚假唤醒（spurious wakeup）
 
 等待线程有可能在没有对应业务事件发生时从 `wait()` 醒来，这叫虚假唤醒。
 
@@ -218,7 +218,7 @@ cv.wait(lock, [] {
 
 这也是为什么“谓词”不是可有可无的装饰。
 
-## 7. 条件变量没有记忆：不要把 notify 当状态
+## 条件变量没有记忆：不要把 notify 当状态
 
 另一个常见误解是：
 
@@ -264,9 +264,9 @@ cv.wait(lock, [] { return ready; });
 condition_variable 负责提高等待效率
 ```
 
-## 8. `notify_one()` 和 `notify_all()`
+## `notify_one()` 和 `notify_all()`
 
-### 8.1 `notify_one()`
+### `notify_one()`
 
 ```cpp
 cv.notify_one();
@@ -279,7 +279,7 @@ cv.notify_one();
 - 新增一个任务，只需要一个 worker 处理；
 - 只需要一个消费者继续执行。
 
-### 8.2 `notify_all()`
+### `notify_all()`
 
 ```cpp
 cv.notify_all();
@@ -294,7 +294,7 @@ cv.notify_all();
 
 被唤醒不等于所有线程能同时进入临界区。它们仍然需要竞争同一把 mutex。
 
-## 9. 修改状态后什么时候 notify
+## 修改状态后什么时候 notify
 
 一种常见推荐写法是：
 
@@ -319,7 +319,7 @@ cv.notify_one();
 
 > 对共享谓词状态的访问必须正确同步，等待方必须在锁保护下检查谓词。
 
-## 10. 生产者消费者
+## 生产者消费者
 
 这是条件变量最经典的应用。
 
@@ -406,7 +406,7 @@ int main()
 
 否则生产者彻底结束后，如果队列已经为空，消费者可能永远继续等待，再也没人通知它有数据。
 
-## 11. 为什么取出任务后要尽快释放锁
+## 为什么取出任务后要尽快释放锁
 
 消费者应该在锁内只做：
 
@@ -420,7 +420,7 @@ int main()
 
 如果消费者拿着 queue 的 mutex 执行一个耗时 2 秒的任务，那么生产者和其他消费者这 2 秒内都可能无法访问队列。
 
-## 12. 超时等待：`wait_for()`
+## 超时等待：`wait_for()`
 
 ```cpp
 cv.wait_for(lock, duration)
@@ -455,7 +455,7 @@ if (!cv.wait_for(lock, std::chrono::seconds(1), [] {
 }
 ```
 
-## 13. 绝对时间等待：`wait_until()`
+## 绝对时间等待：`wait_until()`
 
 ```cpp
 cv.wait_until(lock, time_point, predicate)
@@ -476,7 +476,7 @@ cv.wait_until(lock, deadline, [] {
 
 涉及超时时，通常优先使用 `steady_clock`，因为它不会受到系统墙上时钟被手动修改的影响。
 
-## 14. 一个条件变量可以等待多个条件吗？
+## 一个条件变量可以等待多个条件吗？
 
 可以。
 
@@ -507,7 +507,7 @@ else
 
 条件变量只是提示“相关状态可能变化了”，最终必须重新检查状态本身。
 
-## 15. `std::condition_variable_any`
+## `std::condition_variable_any`
 
 普通：
 
@@ -533,7 +533,7 @@ std::condition_variable_any
 
 C++20 中，`condition_variable_any` 还提供了能与 `std::stop_token` 配合的等待重载，这在 `std::jthread` 协作式停止里很有用。
 
-## 16. 条件变量与 atomic 怎么选
+## 条件变量与 atomic 怎么选
 
 如果只是：
 
@@ -563,7 +563,7 @@ mutex + condition_variable + predicate
 
 更自然。
 
-## 17. 常见错误
+## 常见错误
 
 ### 错误 1：把通知本身当成状态
 

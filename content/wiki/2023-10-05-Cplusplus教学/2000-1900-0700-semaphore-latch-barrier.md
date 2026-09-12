@@ -20,7 +20,7 @@ std::barrier
 
 这些工具不是并发入门第一优先级，但理解后可以避免手写复杂的条件变量计数逻辑。
 
-## 1. `std::counting_semaphore`
+## `std::counting_semaphore`
 
 计数信号量内部维护一个计数值。
 
@@ -51,7 +51,7 @@ semaphore.release();
 
 计数增加，并可能唤醒等待线程。
 
-## 2. 限制并发数量
+## 限制并发数量
 
 例如只允许最多两个线程同时执行某段任务：
 
@@ -95,7 +95,7 @@ int main()
 
 即使创建了 5 个线程，真正进入受限区域的线程最多只有 2 个。
 
-## 3. 模板参数和初始计数不是同一个东西
+## 模板参数和初始计数不是同一个东西
 
 ```cpp
 std::counting_semaphore<10> semaphore(3);
@@ -117,7 +117,7 @@ std::counting_semaphore<10> semaphore(3);
 
 不要把两者混在一起理解。
 
-## 4. `try_acquire()`
+## `try_acquire()`
 
 如果不想阻塞，可以使用：
 
@@ -138,7 +138,7 @@ try_acquire_until(...)
 
 适合“等不到资源就做其他事情”的场景。
 
-## 5. `std::binary_semaphore`
+## `std::binary_semaphore`
 
 二值信号量只有两种状态，可以理解为计数最多为 1 的 semaphore。
 
@@ -172,7 +172,7 @@ signal.release();
 
 > mutex 强调所有权：由获得锁的线程释放；semaphore 强调许可数量，释放许可的线程不一定是获得许可的那个线程。
 
-## 6. semaphore 不能自动保护复杂共享状态
+## semaphore 不能自动保护复杂共享状态
 
 有了 semaphore 并不意味着共享容器就自动线程安全。
 
@@ -195,7 +195,7 @@ semaphore 常用于：
 
 而不是简单替代 mutex。
 
-## 7. `std::latch`
+## `std::latch`
 
 `std::latch` 是一个一次性倒计时同步点。
 
@@ -219,7 +219,7 @@ done.wait();
 
 当计数降到 0 后，所有等待者继续执行。
 
-## 8. latch 示例
+## latch 示例
 
 ```cpp
 #include <iostream>
@@ -262,7 +262,7 @@ done.wait();
 
 只关心“3 个参与者是否都已经完成某个阶段”。
 
-## 9. `count_down()`、`wait()`、`arrive_and_wait()`
+## `count_down()`、`wait()`、`arrive_and_wait()`
 
 常见操作：
 
@@ -280,7 +280,7 @@ latch.arrive_and_wait();
 然后我也等待其他参与者
 ```
 
-## 10. latch 只能使用一次
+## latch 只能使用一次
 
 这是 `latch` 和 `barrier` 最关键的区别。
 
@@ -298,7 +298,7 @@ latch.arrive_and_wait();
 
 如果程序需要一轮又一轮地同步，应使用 `std::barrier`。
 
-## 11. `std::barrier`
+## `std::barrier`
 
 `std::barrier` 是可重复使用的阶段同步点。
 
@@ -316,7 +316,7 @@ latch.arrive_and_wait();
 
 这种场景非常适合 barrier。
 
-## 12. barrier 示例
+## barrier 示例
 
 ```cpp
 #include <barrier>
@@ -355,7 +355,7 @@ int main()
 
 虽然每个阶段内部的打印顺序仍然不确定，但不会有某个线程提前跨过同步点进入下一阶段，而其他线程还没有完成上一阶段。
 
-## 13. barrier 会自动开始下一轮
+## barrier 会自动开始下一轮
 
 当本轮所有参与者到达后，barrier 会完成当前阶段，然后自动为下一阶段重新准备。
 
@@ -369,7 +369,7 @@ barrier
 可重复阶段同步
 ```
 
-## 14. completion function
+## completion function
 
 `std::barrier` 还可以在每一阶段全部参与者到达后执行一个完成函数。
 
@@ -387,7 +387,7 @@ barrier
 
 使用这个功能时应确保 completion function 本身不会引入新的复杂阻塞或锁依赖。
 
-## 15. `arrive_and_drop()`
+## `arrive_and_drop()`
 
 如果某个参与者之后不再参加后续阶段，可以调用：
 
@@ -401,7 +401,7 @@ barrier.arrive_and_drop();
 
 这和简单离开线程不同，因为 barrier 必须知道未来还应该等待多少参与者。
 
-## 16. 三种工具怎么选
+## 三种工具怎么选
 
 | 问题 | 推荐工具 |
 |:---|:---|
@@ -412,7 +412,7 @@ barrier.arrive_and_drop();
 | 保护共享对象的一致性 | `mutex` |
 | 等待复杂谓词条件 | `condition_variable` |
 
-## 17. 和 condition_variable 的关系
+## 和 condition_variable 的关系
 
 这些工具很多都可以用：
 
@@ -439,7 +439,7 @@ mutex + condition_variable + counter
 - 更不容易写错边界条件；
 - 阅读代码的人一眼能看出同步模式。
 
-## 18. 常见错误
+## 常见错误
 
 1. 把 semaphore 当成 mutex，误以为它自动保护共享对象。
 2. `acquire()` 后忘记 `release()`，导致许可永久减少。

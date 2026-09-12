@@ -16,7 +16,7 @@ std::jthread
 
 如果项目使用 C++20，并且线程是“启动后持续运行，退出时需要安全停止”的类型，`std::jthread` 通常比裸 `std::thread` 更合适。
 
-## 1. `std::thread` 的生命周期风险
+## `std::thread` 的生命周期风险
 
 使用 `std::thread` 时：
 
@@ -44,7 +44,7 @@ std::terminate()
 
 这意味着异常、提前 `return`、复杂分支都可能让“是否已经 join”变成维护负担。
 
-## 2. `std::jthread` 会自动 join
+## `std::jthread` 会自动 join
 
 最简单的写法：
 
@@ -73,7 +73,7 @@ t.join();
 
 这让线程管理更符合 RAII 思想。
 
-## 3. `jthread` 不等于“强制杀死线程”
+## `jthread` 不等于“强制杀死线程”
 
 `std::jthread` 的停止机制是：
 
@@ -100,7 +100,7 @@ t.join();
 
 如果在任意位置突然中断，很容易破坏程序状态。
 
-## 4. `std::stop_token`
+## `std::stop_token`
 
 `std::stop_token` 表示：
 
@@ -146,7 +146,7 @@ std::stop_token
 
 由 `jthread` 自动提供，不需要调用者手动传。
 
-## 5. `request_stop()`
+## `request_stop()`
 
 调用：
 
@@ -166,7 +166,7 @@ stop_token.stop_requested()
 
 并自行退出。
 
-## 6. `stop_possible()`
+## `stop_possible()`
 
 `stop_token` 还可以查询：
 
@@ -178,7 +178,7 @@ stop_token.stop_possible()
 
 普通 `jthread` 自动提供的 token 通常是可停止的。
 
-## 7. `jthread` 析构时会发生什么
+## `jthread` 析构时会发生什么
 
 如果一个 `jthread` 在析构时仍然 joinable，析构过程概念上会：
 
@@ -200,7 +200,7 @@ join()
 
 如果 `worker` 正确响应 stop token，就能自然退出。
 
-## 8. 析构请求停止不等于一定能立刻退出
+## 析构请求停止不等于一定能立刻退出
 
 如果工作线程完全不检查 stop token：
 
@@ -221,7 +221,7 @@ void worker(std::stop_token)
 
 > `jthread` 提供停止协议，但线程函数必须主动合作。
 
-## 9. 阻塞操作也要考虑停止
+## 阻塞操作也要考虑停止
 
 下面虽然检查了停止请求：
 
@@ -246,7 +246,7 @@ blocking_operation()
 - 是否能被唤醒；
 - 是否可以分阶段检查停止状态。
 
-## 10. `std::stop_source`
+## `std::stop_source`
 
 `std::stop_source` 是停止请求的“控制端”。
 
@@ -293,7 +293,7 @@ false
 true
 ```
 
-## 11. `std::stop_callback`
+## `std::stop_callback`
 
 有时不希望某个线程一直轮询：
 
@@ -332,7 +332,7 @@ int main()
 
 注意 callback 的执行上下文与停止请求有关，因此回调本身也应该保持简单，并避免制造新的锁顺序问题。
 
-## 12. `jthread` 也支持普通线程函数
+## `jthread` 也支持普通线程函数
 
 并不是所有 `jthread` 函数都必须接收 `stop_token`。
 
@@ -369,7 +369,7 @@ int main()
 
 形式调用。
 
-## 13. 带参数的 stop token 线程函数
+## 带参数的 stop token 线程函数
 
 ```cpp
 #include <iostream>
@@ -405,7 +405,7 @@ std::jthread thread(worker, 7);
 worker(自动提供的 stop_token, 7)
 ```
 
-## 14. `jthread` 同样可以 join
+## `jthread` 同样可以 join
 
 自动 join 不代表不能手动 join。
 
@@ -429,7 +429,7 @@ thread.joinable()
 thread.get_id()
 ```
 
-## 15. `jthread` 也可以 detach，但通常不推荐
+## `jthread` 也可以 detach，但通常不推荐
 
 `jthread` 仍然提供：
 
@@ -441,7 +441,7 @@ thread.detach();
 
 除非确实明确理解生命周期，否则不要为了“后台运行”轻易 detach。
 
-## 16. `condition_variable_any` 与 stop token
+## `condition_variable_any` 与 stop token
 
 普通 `std::condition_variable` 没有直接接收 `stop_token` 的等待重载。
 
@@ -488,7 +488,7 @@ void worker(std::stop_token token)
 
 这样线程在等待条件时也能响应停止请求，不必额外写一个轮询循环。
 
-## 17. `thread` 和 `jthread` 对比
+## `thread` 和 `jthread` 对比
 
 | 特性 | `std::thread` | `std::jthread` |
 |:---|:---:|:---:|
@@ -503,7 +503,7 @@ void worker(std::stop_token token)
 
 如果环境允许使用 C++20，新写的“可停止后台线程”通常优先考虑 `jthread`。
 
-## 18. `atomic<bool> running` 和 stop token 怎么选
+## `atomic<bool> running` 和 stop token 怎么选
 
 传统写法：
 
@@ -534,7 +534,7 @@ jthread 生命周期
 - 只需要一个非常简单的原子标志：`atomic<bool>` 仍然很好用；
 - 线程本身有明确的“请求停止”生命周期：优先考虑 `jthread + stop_token`。
 
-## 19. 常见错误
+## 常见错误
 
 1. 以为 `request_stop()` 会强制杀死线程。
 2. 工作函数从不检查 `stop_requested()`，导致析构仍然一直等待。
