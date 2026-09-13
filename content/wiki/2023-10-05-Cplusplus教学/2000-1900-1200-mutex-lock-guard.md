@@ -40,7 +40,7 @@ mutex 的中文通常叫：
 先来看一个最经典的例子：
 
 ```cpp
-#include <iostream>
+#include <print>
 #include <thread>
 
 int counter = 0;
@@ -61,8 +61,14 @@ int main()
     t1.join();
     t2.join();
 
-    std::cout << counter << '\n';
+    std::println("{}", counter);
 }
+```
+
+**运行结果示例（存在数据竞争，实际数字每次可能不同）：**
+
+```text
+104563
 ```
 
 这里创建了两个线程：
@@ -102,7 +108,7 @@ int main()
 
 ---
 
-## `++counter` 并不是不可分割的一步
+### `++counter` 并不是不可分割的一步
 
 我们平时看：
 
@@ -173,7 +179,7 @@ counter = 12
 
 ---
 
-## 什么是数据竞争
+### 什么是数据竞争
 
 如果：
 
@@ -220,7 +226,7 @@ counter = 12
 
 ---
 
-## 什么是临界区
+### 什么是临界区
 
 假设有：
 
@@ -267,7 +273,9 @@ average = calculate_average();
 
 ---
 
-## `std::mutex` 到底是什么
+## `std::mutex` 基础
+
+### `std::mutex` 到底是什么
 
 mutex 是：
 
@@ -335,7 +343,7 @@ mutual exclusion
 
 ---
 
-## mutex 并不会自动“锁住变量”
+### mutex 并不会自动“锁住变量”
 
 这是初学 mutex 时非常容易误解的一点。
 
@@ -393,7 +401,7 @@ std::mutex counter_mutex;
 
 ---
 
-## `std::mutex` 的基本使用
+### `std::mutex` 的基本使用
 
 `std::mutex` 定义在：
 
@@ -411,7 +419,7 @@ mutex.unlock();
 
 ---
 
-## `lock()`：获得锁（不是加锁，是获得锁）
+#### `lock()`：获得锁（不是加锁，是获得锁）
 
 最基本的用法：
 
@@ -461,7 +469,7 @@ lock();
 
 ---
 
-## `unlock()`：释放锁
+#### `unlock()`：释放锁
 
 线程获得 mutex 后：
 
@@ -488,7 +496,7 @@ mutex.unlock();
 执行过程大致就是：
 
 ```text
-获得 mutex
+获得 mutex（获得不了就阻塞，卡在这里）
     ↓
 进入临界区
     ↓
@@ -503,21 +511,21 @@ mutex.unlock();
 
 ---
 
-## `try_lock()`：拿不到就算了
+#### `try_lock()`：拿不到就算了
 
 有些时候，我们并不想：
 
 ```text
 拿不到锁
 ↓
-一直等
+一直等（阻塞）
 ```
 
 而是希望：
 
 ```text
 拿得到就执行
-拿不到就先干别的
+拿不到就先干别的（不想阻塞卡在这里）
 ```
 
 这时可以使用：
@@ -548,7 +556,7 @@ lock()
 
 拿不到
 ↓
-等待
+等待（阻塞）
 ```
 
 而：
@@ -558,7 +566,7 @@ try_lock()
 
 拿不到
 ↓
-立即返回 false
+立即返回 false（不会阻塞）
 ```
 
 成功时：
@@ -600,12 +608,12 @@ try_lock() == false
 
 ---
 
-## 用 mutex 修复 `counter`
+### 用 mutex 修复 `counter`
 
 之前的数据竞争可以这样解决：
 
 ```cpp
-#include <iostream>
+#include <print>
 #include <mutex>
 #include <thread>
 
@@ -632,9 +640,19 @@ int main()
     t1.join();
     t2.join();
 
-    std::cout << counter << '\n';
+    std::println("{}", counter);
 }
 ```
+
+**运行结果：**
+
+```text
+200000
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789278766269-efd65a5f.webp)
+
+如上图，只有第一个有mutex机制的正确输出了`200000`，而其他没mutex机制的输出是不固定的。
 
 现在所有想修改：
 
@@ -676,7 +694,7 @@ unlock();
 
 ---
 
-## 为什么不推荐手写 `lock()` / `unlock()`
+### 为什么不推荐手写 `lock()` / `unlock()`
 
 下面这段代码看起来没有什么问题：
 
@@ -772,11 +790,15 @@ unlock()
 
 代码一复杂，就很容易遗漏。
 
-这正是 RAII 特别适合解决的问题。
+这很像内存管理里的`new`和`delete`所面临的问题，在内存管理中，我们使用的是RAII思路去解决这个问题，也就是智能指针。
+
+在这里，也正是 RAII 特别适合解决的问题。
 
 ---
 
-## RAII 为什么适合管理锁
+## RAII 锁管理
+
+### RAII 为什么适合管理锁
 
 RAII 的核心思想之前已经学过：
 
@@ -828,7 +850,7 @@ unlock();
 
 ---
 
-## `std::lock_guard`
+### `std::lock_guard`
 
 最简单、最常用的 RAII 锁之一就是：
 
@@ -891,12 +913,12 @@ mutex.unlock();
 
 ---
 
-## 用 `lock_guard` 改写 counter
+### 用 `lock_guard` 改写 counter
 
 之前的代码可以写成：
 
 ```cpp
-#include <iostream>
+#include <print>
 #include <mutex>
 #include <thread>
 
@@ -921,8 +943,14 @@ int main()
     t1.join();
     t2.join();
 
-    std::cout << counter << '\n';
+    std::println("{}", counter);
 }
+```
+
+**运行结果：**
+
+```text
+200000
 ```
 
 每轮循环：
@@ -963,7 +991,7 @@ std::lock_guard<std::mutex>
 
 ---
 
-## 可以用 `{}` 主动缩小锁的作用域
+### 可以用 `{}` 主动缩小锁的作用域
 
 RAII 锁什么时候释放？
 
@@ -1012,7 +1040,7 @@ do_other_work();
 
 ---
 
-## 临界区应该尽量小
+### 临界区应该尽量小
 
 假设写成：
 
@@ -1079,7 +1107,7 @@ send_network_data();
 
 ---
 
-## 但临界区也不能乱拆
+### 但临界区也不能乱拆
 
 “临界区尽量小”并不是说：
 
@@ -1140,7 +1168,7 @@ average = calculate_average();
 
 ---
 
-## 锁保护的是“共享状态”
+### 锁保护的是“共享状态”
 
 假设：
 
@@ -1195,7 +1223,7 @@ age 一把锁
 
 ---
 
-## 减少共享数据，通常比疯狂加锁更好
+### 减少共享数据，通常比疯狂加锁更好
 
 再看这个例子：
 
@@ -1273,7 +1301,7 @@ local_counter
 
 ---
 
-## `std::unique_lock`
+## `std::unique_lock` （常用）
 
 `lock_guard` 的特点非常简单：
 
@@ -1324,7 +1352,7 @@ std::unique_lock<std::mutex> lock(mutex);
 
 ---
 
-## `unique_lock` 可以提前解锁
+### `unique_lock` 可以提前解锁
 
 例如：
 
@@ -1354,7 +1382,7 @@ do_expensive_work();
 
 ---
 
-## `unique_lock` 可以再次加锁
+### `unique_lock` 可以再次加锁
 
 例如：
 
@@ -1390,7 +1418,7 @@ unlock
 
 ---
 
-## 延迟加锁：`std::defer_lock`
+### 延迟加锁：`std::defer_lock`
 
 默认：
 
@@ -1433,7 +1461,7 @@ change_shared_state();
 
 ---
 
-## 尝试加锁：`std::try_to_lock`
+### 尝试加锁：`std::try_to_lock`
 
 还可以：
 
@@ -1458,7 +1486,7 @@ else
 
 ---
 
-## `owns_lock()`
+### `owns_lock()`
 
 由于 `unique_lock` 比较灵活，所以一个：
 
@@ -1518,7 +1546,7 @@ false
 
 ---
 
-## `lock_guard` 和 `unique_lock` 怎么选
+### `lock_guard` 和 `unique_lock` 怎么选
 
 初学阶段可以直接记：
 
@@ -1560,13 +1588,31 @@ unique_lock
 
 ---
 
-## 什么是死锁
+| 项目                       | `lock_guard` | `unique_lock` |
+| ------------------------ | ------------ | ------------- |
+| 自动加锁/解锁                  | ✅            | ✅             |
+| 手动 `unlock()` / `lock()` | ❌            | ✅             |
+| 延迟加锁                     | ❌            | ✅             |
+| `try_lock`               | ❌            | ✅             |
+| move                     | ❌            | ✅             |
+| `condition_variable`     | ❌            | ✅             |
+| 对象大小                     | 更小           | 通常更大          |
+| 理论运行开销                   | **最低**       | 略高            |
+| 灵活性                      | 低            | **高**         |
+
+
+单论效率，std::lock_guard 略高于 std::unique_lock，但通常差距小到基本不用考虑。
+
+
+## 死锁与多把锁
+
+### 什么是死锁
 
 mutex 可以解决很多线程同时访问共享数据的问题。
 
 但如果同时使用多把 mutex，又可能产生新的问题：
 
-> 死锁（Deadlock）
+> 死锁（Deadlock），当然不是V社开发的那个游戏[死锁](https://store.steampowered.com/app/1422450/Deadlock/)。
 
 假设：
 
@@ -1638,7 +1684,7 @@ B 等 A
 
 ---
 
-## 一个形象的死锁例子
+### 一个形象的死锁例子
 
 可以把两把 mutex 想象成两根筷子。
 
@@ -1674,7 +1720,7 @@ B：等 A 放下左筷子
 
 ---
 
-## 避免死锁：固定加锁顺序
+### 避免死锁：固定加锁顺序
 
 一个非常重要的方法就是：
 
@@ -1710,7 +1756,7 @@ m2 → m1
 
 ---
 
-## `std::scoped_lock`
+### `std::scoped_lock`
 
 如果一个操作本来就需要：
 
@@ -1771,7 +1817,7 @@ scoped_lock 析构
 
 ---
 
-## `scoped_lock` 也可以管理一把锁
+#### `scoped_lock` 也可以管理一把锁
 
 它不一定必须传两把以上 mutex。
 
@@ -1804,7 +1850,7 @@ std::lock_guard lock(mutex);
 
 ---
 
-## `std::lock()`
+### `std::lock()`
 
 C++11 还提供：
 
@@ -1876,7 +1922,16 @@ std::scoped_lock lock(m1, m2);
 
 ---
 
-## `std::recursive_mutex`
+| 锁             | 单 mutex 性能 |    灵活性 |         多 mutex |
+| ------------- | ---------: | -----: | --------------: |
+| `lock_guard`  |      ⭐⭐⭐⭐⭐ |      低 |             不方便 |
+| `scoped_lock` |      ⭐⭐⭐⭐⭐ |      低 |          **最好** |
+| `unique_lock` |      ⭐⭐⭐⭐≈ | **最高** | 可配合 `std::lock` |
+
+
+## 其他 mutex 类型
+
+### `std::recursive_mutex`
 
 普通：
 
@@ -1952,7 +2007,7 @@ std::recursive_mutex mutex;
 
 ---
 
-## `std::timed_mutex`
+### `std::timed_mutex`
 
 普通：
 
@@ -2043,7 +2098,7 @@ sleep_until()
 
 ---
 
-## `std::shared_mutex`：多读单写
+### `std::shared_mutex`：多读单写
 
 普通 mutex 有一个特点：
 
@@ -2104,7 +2159,7 @@ std::shared_mutex
 
 ---
 
-## `shared_lock` 和 `unique_lock`
+#### `shared_lock` 和 `unique_lock`
 
 使用 `shared_mutex` 时：
 
@@ -2182,7 +2237,7 @@ unique_lock + unique_lock
 
 ---
 
-## 为什么读取也可能需要锁
+#### 为什么读取也可能需要锁
 
 有一种很常见的错误写法：
 
@@ -2228,7 +2283,7 @@ int read()
 
 ---
 
-## `shared_mutex` 不一定比普通 mutex 更快
+#### `shared_mutex` 不一定比普通 mutex 更快
 
 看到：
 
@@ -2276,7 +2331,9 @@ shared_mutex 一定比 mutex 快
 
 ---
 
-## `std::call_once`
+## 一次性初始化
+
+### `std::call_once`
 
 还有一类特殊的多线程需求：
 
@@ -2314,7 +2371,7 @@ std::call_once
 例如：
 
 ```cpp
-#include <iostream>
+#include <print>
 #include <mutex>
 #include <thread>
 
@@ -2322,7 +2379,7 @@ std::once_flag flag;
 
 void initialize()
 {
-    std::cout << "initialize once\n";
+    std::println("initialize once");
 }
 
 void worker()
@@ -2340,6 +2397,12 @@ int main()
     t2.join();
     t3.join();
 }
+```
+
+**运行结果：**
+
+```text
+initialize once
 ```
 
 三个线程都会执行：
@@ -2368,7 +2431,7 @@ initialize();
 
 ---
 
-## 函数局部 `static` 初始化也是线程安全的
+### 函数局部 `static` 初始化也是线程安全的
 
 C++11 开始：
 
@@ -2401,7 +2464,9 @@ std::call_once
 
 ---
 
-## 最好把 mutex 和它保护的数据封装在一起
+## 工程实践 （重要）
+
+### 最好把 mutex 和它保护的数据封装在一起
 
 不推荐设计成：
 
@@ -2471,7 +2536,7 @@ counter.increment();
 
 ---
 
-## 为什么 mutex 经常写成 `mutable`
+### 为什么 mutex 经常写成 `mutable` （重要）
 
 前面的：
 
@@ -2524,7 +2589,7 @@ mutable
 
 ---
 
-## 持锁时不要随便调用未知代码
+### 持锁时不要随便调用未知代码
 
 例如：
 
@@ -2565,7 +2630,7 @@ mutex
 
 ---
 
-## 三种常用 RAII 锁怎么记
+### 三种常用 RAII 锁怎么记
 
 初学阶段可以记成：
 
