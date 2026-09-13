@@ -62,9 +62,11 @@ mutex + condition_variable + counter
 
 ---
 
-# semaphore：控制“许可数量”
+## semaphore：许可数量
 
-## `std::counting_semaphore`
+### semaphore：控制“许可数量”
+
+### `std::counting_semaphore`
 
 `std::counting_semaphore` 内部维护一个计数。
 
@@ -148,7 +150,7 @@ release()
 
 ---
 
-# counting_semaphore 最典型的用途：限制并发数量
+### counting_semaphore 最典型的用途：限制并发数量
 
 例如：
 
@@ -261,7 +263,7 @@ C 获得许可继续
 
 ---
 
-# semaphore 和 mutex 最大的区别
+### semaphore 和 mutex 最大的区别
 
 `mutex` 通常表达：
 
@@ -319,7 +321,7 @@ semaphore
 
 ---
 
-# 模板参数和初始计数不是一回事
+### 模板参数和初始计数不是一回事
 
 例如：
 
@@ -391,7 +393,7 @@ std::counting_semaphore<10> semaphore(3);
 
 ---
 
-# `try_acquire()`
+### `try_acquire()`
 
 如果你不想：
 
@@ -432,7 +434,7 @@ mutex.try_lock();
 
 ---
 
-# 带超时的 acquire
+### 带超时的 acquire
 
 还可以：
 
@@ -485,7 +487,7 @@ try_acquire_until()
 
 ---
 
-# `std::binary_semaphore`
+### `std::binary_semaphore`
 
 C++20 还提供：
 
@@ -543,7 +545,7 @@ signal.release();
 
 ---
 
-# binary_semaphore 可以理解成一个“门”
+### binary_semaphore 可以理解成一个“门”
 
 例如：
 
@@ -593,7 +595,7 @@ signal.release();
 
 ---
 
-# binary_semaphore 不是 mutex
+### binary_semaphore 不是 mutex
 
 虽然 binary semaphore 的计数最多为 1，看起来很像：
 
@@ -641,7 +643,7 @@ binary_semaphore 的值只有 0 / 1
 
 ---
 
-# semaphore 不会自动让共享对象线程安全
+### semaphore 不会自动让共享对象线程安全
 
 例如：
 
@@ -697,7 +699,7 @@ mutex
 
 ---
 
-# acquire 以后一定要记得 release
+### acquire 以后一定要记得 release
 
 例如：
 
@@ -765,7 +767,9 @@ release()
 
 ---
 
-# latch：一次性倒计时同步
+## latch：一次性同步
+
+### latch：一次性倒计时同步
 
 `std::latch` 可以理解成：
 
@@ -813,7 +817,7 @@ done.count_down();
 
 ---
 
-# latch 最适合表达什么
+### latch 最适合表达什么
 
 它最适合这种需求：
 
@@ -840,7 +844,7 @@ done.count_down();
 
 ---
 
-# latch 示例
+### latch 示例
 
 ```cpp
 #include <latch>
@@ -916,7 +920,7 @@ all workers reached the latch
 
 ---
 
-# `count_down()`
+### `count_down()`
 
 ```cpp
 done.count_down();
@@ -951,7 +955,7 @@ latch 被永久打开。
 
 ---
 
-# `wait()`
+### `wait()`
 
 ```cpp
 done.wait();
@@ -991,7 +995,7 @@ count == 0
 
 ---
 
-# `arrive_and_wait()`
+### `arrive_and_wait()`
 
 如果当前线程：
 
@@ -1028,7 +1032,7 @@ latch.wait();
 
 ---
 
-# latch 是一次性的
+### latch 是一次性的
 
 这是 latch 最重要的特点：
 
@@ -1081,7 +1085,7 @@ std::barrier
 
 ---
 
-# latch 可以理解成“一次性开门”
+### latch 可以理解成“一次性开门”
 
 例如：
 
@@ -1114,7 +1118,9 @@ latch
 
 ---
 
-# barrier：可重复的阶段同步
+## barrier：可重复阶段同步
+
+### barrier：可重复的阶段同步
 
 `std::barrier` 解决的是：
 
@@ -1152,7 +1158,7 @@ std::barrier
 
 ---
 
-# barrier 可以理解成“每轮都要集合”
+### barrier 可以理解成“每轮都要集合”
 
 假设：
 
@@ -1196,7 +1202,7 @@ barrier
 
 ---
 
-# barrier 示例
+### barrier 示例
 
 ```cpp
 #include <barrier>
@@ -1281,7 +1287,7 @@ phase 3: 1
 
 ---
 
-# `arrive_and_wait()`
+### `arrive_and_wait()`
 
 barrier 最常见的操作：
 
@@ -1321,7 +1327,7 @@ arrive_and_wait();
 
 ---
 
-# barrier 会自动进入下一轮
+### barrier 会自动进入下一轮
 
 这是它和 latch 最大的不同。
 
@@ -1359,7 +1365,7 @@ barrier
 
 ---
 
-# completion function
+### completion function
 
 `std::barrier` 还可以设置：
 
@@ -1410,7 +1416,7 @@ completion：
 
 ---
 
-# completion function 不要做太重的事情
+### completion function 不要做太重的事情
 
 因为：
 
@@ -1448,7 +1454,7 @@ sleep
 
 ---
 
-# `arrive_and_drop()`
+### `arrive_and_drop()`
 
 假设 barrier 初始有：
 
@@ -1500,7 +1506,9 @@ barrier.arrive_and_drop();
 
 ---
 
-# latch 和 barrier 最核心的区别
+## 选择与对比
+
+### latch 和 barrier 最核心的区别
 
 可以直接这样记：
 
@@ -1514,7 +1522,7 @@ barrier
 
 例如：
 
-### latch
+#### latch
 
 ```text
 等 4 个模块初始化完成
@@ -1532,7 +1540,7 @@ std::latch
 
 很合适。
 
-### barrier
+#### barrier
 
 ```text
 4 个线程一起做第 1 轮
@@ -1560,7 +1568,7 @@ std::barrier
 
 ---
 
-# semaphore、latch、barrier 怎么选
+### semaphore、latch、barrier 怎么选
 
 可以直接看这张表：
 
@@ -1575,7 +1583,7 @@ std::barrier
 
 ---
 
-# 和 mutex 的区别
+### 和 mutex 的区别
 
 `mutex` 关注的是：
 
@@ -1627,7 +1635,7 @@ barrier 关注：
 
 ---
 
-# 和 condition_variable 的关系
+### 和 condition_variable 的关系
 
 理论上很多同步器都可以自己手搓。
 
@@ -1706,7 +1714,7 @@ semaphore / latch / barrier
 
 ---
 
-# semaphore 的典型场景
+### semaphore 的典型场景
 
 `counting_semaphore` 常见于：
 
@@ -1738,7 +1746,7 @@ semaphore / latch / barrier
 
 ---
 
-# latch 的典型场景
+### latch 的典型场景
 
 latch 常见于：
 
@@ -1760,7 +1768,7 @@ latch 常见于：
 
 ---
 
-# barrier 的典型场景
+### barrier 的典型场景
 
 barrier 常见于：
 
@@ -1784,9 +1792,9 @@ barrier 常见于：
 
 ---
 
-# 常见错误
+## 常见错误
 
-## 错误：把 semaphore 当 mutex
+### 错误：把 semaphore 当 mutex
 
 错误理解：
 
@@ -1811,7 +1819,7 @@ std::mutex
 
 ---
 
-## 错误：acquire 以后忘记 release
+### 错误：acquire 以后忘记 release
 
 例如：
 
@@ -1828,7 +1836,7 @@ if (error)
 
 ---
 
-## 错误：认为 binary semaphore 有 mutex 的所有权规则
+### 错误：认为 binary semaphore 有 mutex 的所有权规则
 
 binary semaphore 虽然只有：
 
@@ -1846,7 +1854,7 @@ binary semaphore 虽然只有：
 
 ---
 
-## 错误：把 latch 当成可以重置的工具
+### 错误：把 latch 当成可以重置的工具
 
 `std::latch`：
 
@@ -1868,7 +1876,7 @@ std::barrier
 
 ---
 
-## 错误：barrier 的参与人数写错
+### 错误：barrier 的参与人数写错
 
 例如：
 
@@ -1898,7 +1906,7 @@ arrive_and_wait();
 
 ---
 
-## 错误：线程退出了，却没 `arrive_and_drop()`
+### 错误：线程退出了，却没 `arrive_and_drop()`
 
 如果某个 barrier 参与者：
 
@@ -1920,7 +1928,7 @@ arrive_and_drop();
 
 ---
 
-## 错误：completion function 太慢
+### 错误：completion function 太慢
 
 completion function 执行期间：
 
@@ -1944,7 +1952,7 @@ sleep
 
 ---
 
-# 最后总结
+## 最后总结
 
 这三个 C++20 同步工具可以这样记：
 

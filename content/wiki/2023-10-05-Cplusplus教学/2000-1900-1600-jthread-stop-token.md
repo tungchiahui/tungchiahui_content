@@ -83,6 +83,8 @@ int main()
 
 程序离开 `main()` 时，`thread` 仍然是 joinable 的，于是会触发 `std::terminate()`。
 
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789303640375-2f45e713.webp)
+
 真正麻烦的是，当程序中出现：
 
 ```text
@@ -109,7 +111,7 @@ int main()
 
 ---
 
-## `std::jthread` 会自动处理线程结束
+### `std::jthread` 会自动处理线程结束
 
 最简单的例子：
 
@@ -133,6 +135,8 @@ int main()
 ```text
 working
 ```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789303670123-6fc66656.webp)
 
 这里没有写：
 
@@ -178,7 +182,7 @@ join()
 
 ---
 
-## `jthread` 不会强制杀死线程
+### `jthread` 不会强制杀死线程
 
 `std::jthread` 使用的是：
 
@@ -238,9 +242,11 @@ thread.request_stop();
 
 ---
 
-## `std::stop_token`
+## stop_token 停止协议
 
-### `stop_token` 是什么
+### `std::stop_token`
+
+#### `stop_token` 是什么
 
 `std::stop_token` 可以理解成：
 
@@ -292,7 +298,7 @@ stop_requested()
 
 ---
 
-## `jthread` 可以自动传入 `stop_token`
+### `jthread` 可以自动传入 `stop_token`
 
 来看一个最典型的例子：
 
@@ -365,9 +371,14 @@ std::jthread thread(worker);
 worker(jthread 自动提供的 stop_token);
 ```
 
+这里不可以显式填参数，比如`std::jthread thread(worker, thread.get_stop_token());`，
+这是非法的，原因非常直接：在执行构造函数参数时，thread 对象还没有构造完成，所以你还不能调用`thread.get_stop_token()`。
+
+所以这里直接记住他会自动把自己的`stop token`传入进去就行了，不需要我们手动传入。
+
 ---
 
-## `request_stop()`
+### `request_stop()`
 
 调用：
 
@@ -446,7 +457,7 @@ worker 下一次检查 stop_requested()
 
 ---
 
-## `request_stop()` 的返回值
+### `request_stop()` 的返回值
 
 `request_stop()` 会返回一个 `bool`：
 
@@ -480,7 +491,7 @@ thread.request_stop();
 
 ---
 
-## `stop_possible()`
+### `stop_possible()`
 
 `stop_token` 还可以调用：
 
@@ -523,7 +534,7 @@ stop_requested()
 
 ---
 
-## `jthread` 析构时到底发生什么
+### `jthread` 析构时到底发生什么
 
 假设：
 
@@ -605,14 +616,14 @@ join() 等待结束
 
 ---
 
-## 但析构也不能“凭空让线程退出”
+### 但析构也不能“凭空让线程退出”
 
 下面这个线程完全不检查 `stop_token`：
 
 ```cpp
 void worker(std::stop_token)
 {
-    while (true)
+    for (;;)   //死循环，效率比while(true)高
     {
     }
 }
@@ -638,7 +649,7 @@ request_stop()
     ↓
 但是 worker 根本不检查
     ↓
-while (true) 继续运行
+for(;;) 继续运行
     ↓
 析构函数接着 join()
     ↓
@@ -679,7 +690,7 @@ if (token.stop_requested())
 
 ---
 
-## 阻塞操作也会影响停止速度
+### 阻塞操作也会影响停止速度
 
 即使代码写成：
 
@@ -754,7 +765,7 @@ while (!token.stop_requested())
 
 ---
 
-## `std::stop_source`
+### `std::stop_source`
 
 前面说过：
 
@@ -841,7 +852,7 @@ std::stop_token token = source.get_token();
 
 ---
 
-## 多个 `stop_token` 可以观察同一个停止状态
+### 多个 `stop_token` 可以观察同一个停止状态
 
 例如：
 
@@ -889,7 +900,7 @@ true
 
 ---
 
-## `std::stop_callback`
+### `std::stop_callback`
 
 有时候我们不想一直手动检查：
 
@@ -976,7 +987,9 @@ callback 一定会在未来某个时间
 
 ---
 
-## `jthread` 不一定非要使用 `stop_token`
+## jthread 的线程函数和生命周期操作
+
+### `jthread` 不一定非要使用 `stop_token`
 
 `std::jthread` 也可以像普通 `std::thread` 一样运行普通函数。
 
@@ -1045,7 +1058,7 @@ void worker();
 
 ---
 
-## 带额外参数的 `stop_token` 线程函数
+### 带额外参数的 `stop_token` 线程函数
 
 例如：
 
@@ -1117,7 +1130,7 @@ worker(
 
 ---
 
-## `jthread` 仍然可以手动 `join()`
+### `jthread` 仍然可以手动 `join()`
 
 虽然 `jthread` 会自动 join，但你仍然可以自己写：
 
@@ -1165,7 +1178,7 @@ false
 
 ---
 
-## `jthread` 也可以 `detach()`，但通常不推荐
+### `jthread` 也可以 `detach()`，但通常不推荐
 
 `jthread` 仍然提供：
 
@@ -1205,7 +1218,7 @@ thread.detach();
 
 ---
 
-## `condition_variable_any` 与 `stop_token`
+### `condition_variable_any` 与 `stop_token`
 
 前面提到一个问题：
 
@@ -1306,7 +1319,9 @@ condition_met == false
 
 ---
 
-## `std::thread` 和 `std::jthread` 对比
+## 选择与常见错误
+
+### `std::thread` 和 `std::jthread` 对比
 
 | 特性 | `std::thread` | `std::jthread` |
 |---|---:|---:|
@@ -1340,7 +1355,7 @@ std::jthread
 
 ---
 
-## `atomic<bool> running` 和 `stop_token` 怎么选
+### `atomic<bool> running` 和 `stop_token` 怎么选
 
 传统代码经常这样写：
 
@@ -1428,9 +1443,9 @@ stop_token
 
 ---
 
-## 常见错误
+### 常见错误
 
-### 错误：以为 `request_stop()` 会强制杀死线程
+#### 错误：以为 `request_stop()` 会强制杀死线程
 
 错误理解：
 
@@ -1449,7 +1464,7 @@ request_stop()
 
 ---
 
-### 错误：worker 从来不检查 `stop_requested()`
+#### 错误：worker 从来不检查 `stop_requested()`
 
 例如：
 
@@ -1481,7 +1496,7 @@ join();
 
 ---
 
-### 错误：检查了停止请求，但中间阻塞太久
+#### 错误：检查了停止请求，但中间阻塞太久
 
 例如：
 
@@ -1496,7 +1511,7 @@ while (!token.stop_requested())
 
 ---
 
-### 错误：用了 `jthread` 又随手 `detach()`
+#### 错误：用了 `jthread` 又随手 `detach()`
 
 这样会失去：
 
@@ -1510,7 +1525,7 @@ RAII 生命周期管理
 
 ---
 
-### 错误：在 `stop_callback` 里做大量复杂工作
+#### 错误：在 `stop_callback` 里做大量复杂工作
 
 callback 更适合：
 
@@ -1524,7 +1539,7 @@ callback 更适合：
 
 ---
 
-### 错误：以为“收到停止请求”就必须在任意位置立刻退出
+#### 错误：以为“收到停止请求”就必须在任意位置立刻退出
 
 协作式停止真正强调的是：
 

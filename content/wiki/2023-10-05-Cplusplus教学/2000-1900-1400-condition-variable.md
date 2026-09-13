@@ -60,7 +60,9 @@ predicate
 
 ---
 
-# 为什么不能一直循环检查
+## 条件变量基础
+
+### 为什么不能一直循环检查
 
 最直接的等待方法可能是：
 
@@ -149,7 +151,7 @@ load
 
 ---
 
-# 条件变量最基本的三个对象
+### 条件变量最基本的三个对象
 
 通常会看到：
 
@@ -225,7 +227,7 @@ ready
 
 ---
 
-# 最简单的 wait / notify 示例
+### 最简单的 wait / notify 示例
 
 ```cpp
 #include <condition_variable>
@@ -314,7 +316,7 @@ wait() 会在睡眠期间释放 mutex
 
 ---
 
-# 为什么 wait() 睡眠时必须释放 mutex
+### 为什么 wait() 睡眠时必须释放 mutex
 
 假设 worker 这样干：
 
@@ -374,7 +376,7 @@ main：
 
 ---
 
-# 为什么 wait() 要配合 `std::unique_lock`
+### 为什么 wait() 要配合 `std::unique_lock`
 
 常见写法：
 
@@ -451,7 +453,7 @@ cv.wait(lock);
 
 ---
 
-# 为什么“释放 mutex + 睡眠”必须是原子的
+### 为什么“释放 mutex + 睡眠”必须是原子的
 
 这里还有一个很重要的问题。
 
@@ -506,11 +508,13 @@ lock();
 
 ---
 
-# `wait(lock)` 和 `wait(lock, predicate)`
+## wait 与 predicate
+
+### `wait(lock)` 和 `wait(lock, predicate)`
 
 条件变量有两种常见等待方式。
 
-## 不带谓词
+#### 不带谓词
 
 ```cpp
 cv.wait(lock);
@@ -541,7 +545,7 @@ while (!ready)
 
 ---
 
-## 带谓词
+#### 带谓词
 
 推荐：
 
@@ -584,7 +588,7 @@ cv.wait(lock, [] {
 
 ---
 
-# 什么是 predicate
+### 什么是 predicate
 
 predicate 就是：
 
@@ -630,7 +634,7 @@ predicate
 
 ---
 
-# 虚假唤醒（spurious wakeup）
+### 虚假唤醒（spurious wakeup）
 
 条件变量允许一种情况：
 
@@ -687,7 +691,9 @@ while (!ready)
 
 ---
 
-# notify 不是状态
+## notify 与状态
+
+### notify 不是状态
 
 条件变量还有一个非常容易误解的地方：
 
@@ -743,7 +749,7 @@ notify_one()
 
 ---
 
-# 那为什么不会轻易因为“通知先发生”而出错
+### 那为什么不会轻易因为“通知先发生”而出错
 
 因为正确的代码不会依赖：
 
@@ -817,7 +823,7 @@ condition_variable
 
 ---
 
-# `notify_one()`
+### `notify_one()`
 
 ```cpp
 cv.notify_one();
@@ -851,7 +857,7 @@ notify_one();
 
 ---
 
-# `notify_all()`
+### `notify_all()`
 
 ```cpp
 cv.notify_all();
@@ -914,7 +920,7 @@ notify_all()
 
 ---
 
-# 修改状态以后什么时候 notify
+### 修改状态以后什么时候 notify
 
 很常见的写法是：
 
@@ -982,7 +988,9 @@ wait 方必须在锁保护下检查 predicate
 
 ---
 
-# 生产者消费者模型
+## 生产者消费者
+
+### 生产者消费者模型
 
 这是条件变量最经典的应用。
 
@@ -1101,7 +1109,7 @@ consume 5
 
 ---
 
-# 为什么 predicate 是：
+### 为什么 predicate 是：
 
 ```cpp
 !queue.empty() || finished
@@ -1161,7 +1169,7 @@ consumer 永远睡下去
 
 ---
 
-# consumer 醒来后为什么还要判断
+### consumer 醒来后为什么还要判断
 
 等待结束以后：
 
@@ -1183,7 +1191,7 @@ cv.wait(lock, [] {
 
 所以接下来要区分：
 
-### 情况：队列有数据
+#### 情况：队列有数据
 
 ```text
 queue 非空
@@ -1191,7 +1199,7 @@ queue 非空
 取出一个任务
 ```
 
-### 情况：队列为空，而且 finished == true
+#### 情况：队列为空，而且 finished == true
 
 ```text
 queue.empty()
@@ -1210,7 +1218,7 @@ finished
 
 ---
 
-# 为什么真正处理任务要放到锁外
+### 为什么真正处理任务要放到锁外
 
 consumer 里面：
 
@@ -1275,7 +1283,9 @@ producer 不能 push
 
 ---
 
-# `wait_for()`
+## 超时与高级用法
+
+### `wait_for()`
 
 可以让线程：
 
@@ -1346,7 +1356,7 @@ timeout
 
 ---
 
-# `wait_until()`
+### `wait_until()`
 
 `wait_until()` 用来等待到某个：
 
@@ -1412,7 +1422,7 @@ wait_until(...)
 
 ---
 
-# 为什么超时通常推荐 `steady_clock`
+### 为什么超时通常推荐 `steady_clock`
 
 涉及“持续多久”时：
 
@@ -1452,7 +1462,7 @@ auto deadline =
 
 ---
 
-# 一个 condition_variable 能等待多个条件吗
+### 一个 condition_variable 能等待多个条件吗
 
 当然可以。
 
@@ -1529,7 +1539,7 @@ predicate
 
 ---
 
-# 但 predicate 不要写得太乱
+### 但 predicate 不要写得太乱
 
 如果你开始写：
 
@@ -1562,7 +1572,7 @@ cv.wait(lock, [] {
 
 ---
 
-# `condition_variable_any`
+### `condition_variable_any`
 
 标准库还有：
 
@@ -1620,7 +1630,7 @@ std::condition_variable
 
 ---
 
-# `condition_variable_any` 和 `stop_token`
+### `condition_variable_any` 和 `stop_token`
 
 C++20 中：
 
@@ -1676,7 +1686,7 @@ stop_token
 
 ---
 
-# condition_variable 和 atomic::wait 怎么选
+### condition_variable 和 atomic::wait 怎么选
 
 C++20 以后：
 
@@ -1760,9 +1770,9 @@ predicate
 
 ---
 
-# 常见错误
+## 常见错误
 
-## 错误：把 notify 当成状态
+### 错误：把 notify 当成状态
 
 错误想法：
 
@@ -1801,7 +1811,7 @@ finished
 
 ---
 
-## 错误：不用 predicate 处理虚假唤醒
+### 错误：不用 predicate 处理虚假唤醒
 
 不推荐：
 
@@ -1821,7 +1831,7 @@ cv.wait(lock, [] {
 
 ---
 
-## 错误：等待方加锁，修改方却裸写共享变量
+### 错误：等待方加锁，修改方却裸写共享变量
 
 例如：
 
@@ -1857,7 +1867,7 @@ ready = true; // 没有锁
 
 ---
 
-## 错误：拿着锁做耗时工作
+### 错误：拿着锁做耗时工作
 
 错误：
 
@@ -1889,7 +1899,7 @@ do_heavy_work(task);
 
 ---
 
-## 错误：停止时只修改 finished，却忘了 notify
+### 错误：停止时只修改 finished，却忘了 notify
 
 例如：
 
@@ -1922,7 +1932,7 @@ finished
 
 ---
 
-## 错误：只考虑“现在没任务”，没考虑“以后也不会有任务”
+### 错误：只考虑“现在没任务”，没考虑“以后也不会有任务”
 
 生产者消费者模型必须设计：
 
@@ -1952,7 +1962,7 @@ bool finished;
 
 ---
 
-# 最后总结
+## 最后总结
 
 `std::condition_variable` 最核心的不是：
 

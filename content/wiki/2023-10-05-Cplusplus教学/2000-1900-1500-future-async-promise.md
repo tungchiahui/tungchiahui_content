@@ -48,7 +48,9 @@ std::future / std::async / std::promise
 
 ---
 
-## `std::future<T>` 是什么
+## future 和 async 基础
+
+### `std::future<T>` 是什么
 
 `std::future<T>` 可以理解成：
 
@@ -75,7 +77,7 @@ std::future<void>
 
 ---
 
-## future 背后其实有一个 shared state
+### future 背后其实有一个 shared state
 
 `future` 本身并不是结果，也不是线程。
 
@@ -128,7 +130,7 @@ future.get();
 
 ---
 
-## 最简单的 `std::async`
+### 最简单的 `std::async`
 
 来看一个最简单的例子：
 
@@ -220,7 +222,7 @@ result.get();
 
 ---
 
-## `async` 的参数和 `thread` 很像
+### `async` 的参数和 `thread` 很像
 
 基本形式：
 
@@ -273,7 +275,9 @@ std::ref(x)
 
 ---
 
-## `std::launch::async`
+## async 启动策略
+
+### `std::launch::async`
 
 `std::async` 最常用的启动策略之一是：
 
@@ -333,7 +337,7 @@ std::thread
 
 ---
 
-## `std::launch::deferred`
+### `std::launch::deferred`
 
 另一个启动策略是：
 
@@ -418,7 +422,7 @@ main 继续运行
 
 ---
 
-## `async` 和 `deferred` 的区别
+### `async` 和 `deferred` 的区别
 
 可以简单记成：
 
@@ -452,7 +456,7 @@ deferred
 
 ---
 
-## 不写 launch policy 会怎样
+### 不写 launch policy 会怎样
 
 可以这样写：
 
@@ -502,7 +506,9 @@ auto result = std::async(
 
 ---
 
-## `future::get()`
+## future 等待与异常
+
+### `future::get()`
 
 `get()` 是 `future` 最重要的函数之一：
 
@@ -546,7 +552,7 @@ get()
 
 ---
 
-## 普通 `future::get()` 通常只能调用一次
+### 普通 `future::get()` 通常只能调用一次
 
 例如：
 
@@ -609,7 +615,7 @@ std::future_error
 
 ---
 
-## `future::valid()`
+### `future::valid()`
 
 可以通过：
 
@@ -667,7 +673,7 @@ valid()
 
 ---
 
-## `future::wait()`
+### `future::wait()`
 
 如果你只想：
 
@@ -717,7 +723,7 @@ get()
 
 ---
 
-## `wait()` 不会把任务异常直接抛出来
+### `wait()` 不会把任务异常直接抛出来
 
 假设异步任务抛出了异常。
 
@@ -751,7 +757,7 @@ get()
 
 ---
 
-## `future::wait_for()`
+### `future::wait_for()`
 
 可以等待一段时间：
 
@@ -835,7 +841,7 @@ main 继续
 
 ---
 
-## `future_status::deferred`
+### `future_status::deferred`
 
 如果：
 
@@ -883,7 +889,7 @@ result.wait_for(100ms);
 
 ---
 
-## 异步任务里的异常会通过 future 传回来
+### 异步任务里的异常会通过 future 传回来
 
 这是 `future` 很重要的能力。
 
@@ -971,7 +977,7 @@ future.get();
 
 ---
 
-# `std::promise<T>`
+## `std::promise<T>`
 
 前面的：
 
@@ -1030,7 +1036,7 @@ future
 
 ---
 
-## `promise::get_future()`
+### `promise::get_future()`
 
 创建：
 
@@ -1058,7 +1064,7 @@ future
 
 ---
 
-## promise 最简单的例子
+### promise 最简单的例子
 
 ```cpp
 #include <future>
@@ -1113,7 +1119,7 @@ main 的 future.get()
 
 ---
 
-## 为什么 promise 要 `std::move`
+### 为什么 promise 要 `std::move`
 
 `std::promise` 不能随意复制。
 
@@ -1157,7 +1163,7 @@ main 读结果
 
 ---
 
-## `promise::set_value()`
+### `promise::set_value()`
 
 生产端可以：
 
@@ -1204,7 +1210,7 @@ promise.set_value();
 
 ---
 
-## promise 的结果通常只能设置一次
+### promise 的结果通常只能设置一次
 
 例如：
 
@@ -1246,7 +1252,7 @@ std::future_error
 
 ---
 
-## `promise::set_exception()`
+### `promise::set_exception()`
 
 promise 不仅能写正常值：
 
@@ -1298,7 +1304,7 @@ future.get();
 
 ---
 
-## 完整的 promise 异常示例
+### 完整的 promise 异常示例
 
 ```cpp
 #include <exception>
@@ -1367,7 +1373,7 @@ main 调用 future.get()
 
 ---
 
-## 什么是 broken promise
+### 什么是 broken promise
 
 假设：
 
@@ -1423,7 +1429,7 @@ std::future_error
 
 ---
 
-## promise 的所有结束路径都应该有明确结果
+### promise 的所有结束路径都应该有明确结果
 
 如果使用：
 
@@ -1452,7 +1458,7 @@ broken promise
 
 ---
 
-# `std::packaged_task`
+## `std::packaged_task`
 
 `std::packaged_task` 解决的是另一类问题。
 
@@ -1483,7 +1489,7 @@ std::packaged_task
 
 ---
 
-## packaged_task 最简单的例子
+### packaged_task 最简单的例子
 
 ```cpp
 #include <future>
@@ -1554,7 +1560,7 @@ result.get() 取得 30
 
 ---
 
-## packaged_task 和 promise 最大的区别
+### packaged_task 和 promise 最大的区别
 
 `promise` 是：
 
@@ -1582,7 +1588,7 @@ packaged_task
 
 ---
 
-## `packaged_task` 会自动传递异常
+### `packaged_task` 会自动传递异常
 
 假设被包装的函数：
 
@@ -1629,7 +1635,7 @@ future.get();
 
 ---
 
-## `packaged_task` 和 thread 配合
+### `packaged_task` 和 thread 配合
 
 可以把 packaged task 交给线程执行：
 
@@ -1688,7 +1694,7 @@ result.get() 得到 42
 
 ---
 
-## packaged_task 也是 move-only
+### packaged_task 也是 move-only
 
 和 `promise` 类似：
 
@@ -1718,7 +1724,7 @@ worker
 
 ---
 
-## 为什么 packaged_task 很适合任务队列
+### 为什么 packaged_task 很适合任务队列
 
 线程池通常会有这种思想：
 
@@ -1758,11 +1764,11 @@ std::packaged_task
 
 ---
 
-## `promise` 和 `packaged_task` 怎么选
+### `promise` 和 `packaged_task` 怎么选
 
 可以这样记：
 
-### `promise`
+#### `promise`
 
 适合：
 
@@ -1784,7 +1790,7 @@ promise.set_value(result);
 
 ---
 
-### `packaged_task`
+#### `packaged_task`
 
 适合：
 
@@ -1820,7 +1826,7 @@ packaged_task
 
 ---
 
-# `std::shared_future`
+## `std::shared_future`
 
 普通：
 
@@ -1854,7 +1860,7 @@ std::shared_future<T>
 
 ---
 
-## future 转成 shared_future
+### future 转成 shared_future
 
 例如：
 
@@ -1881,7 +1887,7 @@ shared.get();
 
 ---
 
-## shared_future 更像“共享查看”
+### shared_future 更像“共享查看”
 
 普通 future：
 
@@ -1923,7 +1929,9 @@ shared_future
 
 ---
 
-# 这几个东西到底是什么关系
+## 关系与选择
+
+### 这几个东西到底是什么关系
 
 可以把整个 `<future>` 体系理解成：
 
@@ -1968,7 +1976,7 @@ shared_future
 
 ---
 
-# `async` 和 `thread` 怎么选
+### `async` 和 `thread` 怎么选
 
 如果你关注的是：
 
@@ -2034,7 +2042,7 @@ std::future
 
 ---
 
-## `async` 不是线程池
+### `async` 不是线程池
 
 不要把：
 
@@ -2084,7 +2092,7 @@ std::async(...)
 
 ---
 
-# 常见错误
+## 常见错误
 
 ### 错误：认为 `std::async()` 一定创建新线程
 
@@ -2222,7 +2230,7 @@ std::jthread
 
 ---
 
-# 最后总结
+## 最后总结
 
 这组工具最核心的区别可以记成：
 
