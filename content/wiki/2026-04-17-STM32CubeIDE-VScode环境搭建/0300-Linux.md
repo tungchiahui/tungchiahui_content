@@ -260,6 +260,23 @@ git clone https://github.com/tungchiahui/STM32HAL_CMake_CPP_Template.git
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image91.webp)
 
+main.c:
+
+这里面加上如下：
+
+```c
+#include "cpp_interface.h"
+```
+
+在main函数里找合适位置加上如下函数：
+一般裸机的话放在`while(1)`**上面**。
+RTOS放在main()里仅靠`while(1)`的那几个RTOS相关的开启函数的**上面**。
+
+```c
+cpp_main();
+```
+
+
 led_task.cpp:
 
 ```cpp
