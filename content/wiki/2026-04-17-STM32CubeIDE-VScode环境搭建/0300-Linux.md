@@ -203,8 +203,6 @@ FreeRTOS也要配置一下。
 
 这些文件夹也要配置好，最后Toolchain选择CMake,编译器选择GCC(6.14.1及之前没有选择编译器这个选项很正常)
 
-（但是CubeMX6.15.0有bug,这个选择GCC编译器并没有用，还需要后续自己手动选择编译器，以后可能会修复这个bug.）
-
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image68.webp)
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image69.webp)
