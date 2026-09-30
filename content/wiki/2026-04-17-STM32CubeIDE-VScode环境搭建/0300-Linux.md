@@ -2,7 +2,7 @@
 title: "Linux"
 ---
 
-### 环境介绍
+## 环境介绍
 本教程环境介绍：
 
 1.  系统：Fedora 43 KDE Edition Linux
@@ -13,9 +13,9 @@ title: "Linux"
 
 其他Linux环境也可以。
 
-### 安装各种软件与环境
+## 安装各种软件与环境
 
-#### 安装CubeMX
+### 安装CubeMX
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image9.webp)
 
 下载地址：
@@ -103,7 +103,7 @@ Terminal=false
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image22.webp)
 
-#### 安装VScode
+### 安装VScode
 https://code.visualstudio.com/Download
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image23.webp)
@@ -172,9 +172,9 @@ code
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420944068.webp)
 
 
-### 工程创建与测试
+## 工程创建与测试
 
-#### 使用CubeMX创建工程
+### 使用CubeMX创建工程
 点击进入单片机挑选的按钮
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image60.webp)
@@ -208,7 +208,7 @@ FreeRTOS也要配置一下。
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image69.webp)
 
 
-#### 对工程进行配置与编译
+### 对工程进行配置与编译
 
 在工程文件夹打开终端
 
@@ -242,7 +242,7 @@ code .
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776423543189.webp)
 
-#### 移植作者tungchiahui的标准C/C++工程模板
+### 移植作者tungchiahui的标准C/C++工程模板
 
 用git clone命令克隆仓库:https://github.com/tungchiahui/STM32HAL_CMake_CPP_Template
 
@@ -343,17 +343,17 @@ set(CMAKE_CXX_EXTENSIONS ON)
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776429160105.webp)
 
-#### 下载程序到板子
+### 下载程序到板子
 
 下载之前首先要先配置：
 
-##### 配置调试器
+#### 配置调试器
 
 按下图的来点击，你看看你是什么debugger,你就选哪个。
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790606954240-b80cbe26.webp)
 
-###### ST-Link
+##### ST-Link
 
 先更新下STlink的驱动：
 
@@ -363,19 +363,227 @@ set(CMAKE_CXX_EXTENSIONS ON)
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790607134879-933d161f.webp)
 
-如果这里看不到对应设备，遇到权限问题，请往下看
+如果这里看不到对应设备，遇到权限问题，请查看[配置udev](#配置udev)。
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790606862537-e94b529c.webp)
 
-###### JLink
+
+
+##### JLink
 
 先安装jlink-gdbserver的bundle，如下图所示：
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431910132.webp)
 
-如果这里看不到对应设备，遇到权限问题，请往下看
+如果这里看不到对应设备，遇到权限问题，请查看[配置udev](#配置udev)。
 
-###### Linux 下 USB 权限问题（如果你遇到的话，你解决不了就让AI来解决，AI几秒钟就给你把事办了）
+#### 进行调试：
+
+如果你是STLink应该是下图所示：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431995915.webp)
+
+如果你是JLink应该是下图所示：
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432039560.webp)
+
+
+然后会出现这个条，他会下载程序到板子
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)
+
+然后就成功下载了程序并进入了Debug
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432211211.webp)
+
+按照下图所示，把你要监视的变量输入到最顶上的框里，就可以加入到实时监视框里了。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790608511630-b448c1d8.webp)
+
+
+#### 更换调试器软件为`cortex debug`（可选）：
+
+当你要用到非ST-Link,J-Link的debugger的时候，就需要这个了。
+
+##### 安装pyOCD(很建议装)
+https://github.com/pyocd/pyOCD
+
+###### 方法一：Debian系（如Ubuntu）
+
+```bash
+sudo apt install python3-pip
+python3 -m pip install -U pyocd
+
+# 如果上面的不行，则输入下方的
+pip3 install -U pyocd
+```
+
+如果还不行，且提示
+
+```bash
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+```
+
+则使用（debian系的系统）
+
+```bash
+sudo apt install python3-pyocd
+```
+
+###### 方法二：红帽系（如Fedora）
+
+```bash
+sudo dnf install python3-pip
+python3 -m pip install -U pyocd
+
+# 如果上面的不行，则输入下方的
+pip3 install -U pyocd
+```
+
+###### 方法三：通用法
+
+说直接克隆仓库
+
+```bash
+git clone https://github.com/pyocd/pyOCD.git
+cd pyOCD
+pip3 install .
+```
+
+这样也可以安装pyOCD
+
+##### 配置udev
+
+接下来，我们需要安装ST-Link等调试器的驱动。
+
+pyOCD安装调试器驱动官方教程：
+
+https://github.com/pyocd/pyOCD/tree/main/udev
+
+还是需要用到pyOCD仓库里的文件。
+
+如果你没clone仓库请尽快克隆。
+
+```bash
+git clone https://github.com/pyocd/pyOCD.git
+cd pyOCD
+```
+
+在仓库目录下，输入以下命令
+
+```bash
+cd udev
+sudo cp *.rules /etc/udev/rules.d
+#重启udev
+sudo udevadm control --reload
+sudo udevadm trigger
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790772996363-32dd9f35.webp)
+
+##### 测试连接设备
+
+随便插上一个debugger，比如我这里插上一个连着`stm32f103c8t6`的`ST-link`：
+
+```bash
+pyocd --version
+
+pyocd list
+```
+
+像下图这样正常识别出来了，就说明成功了。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790773421631-f4d9d780.webp)
+
+
+进一步，可以继续测试
+
+```bash
+pyocd list --targets | grep -i stm32f103
+
+pyocd list --targets --name stm32f103
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774325694-5b53e98c.webp)
+
+发现是`stm32f103rc`，然后尝试连接该设备：
+
+```bash
+pyocd commander -t stm32f103rc
+```
+
+如果成功，通常会进入 pyOCD commander：
+
+然后你可以输入：
+status
+再退出：
+exit
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774481385-67797193.webp)
+
+status 能返回 Running，说明不是“只枚举到了 USB”，而是真的已经连进目标 MCU 了。
+
+成功了。
+
+但是你会发现，咱们明明插的是`stm32f103c8`，为何识别出`stm32f103rc`呢？
+
+pyOCD 当前内置目标里确实有 `stm32f103rc`，但没有内置 `stm32f103c8`；
+pyOCD 官方也说明 target 类型决定 Flash 算法、内存映射等信息，所以正式下载程序时最好不要长期拿 RC 冒充 C8。
+
+更规范的做法是给 pyOCD 安装 STM32F103C8 对应的 CMSIS-Pack：
+
+先查找是否有：
+
+```bash
+pyocd pack find stm32f103c8
+```
+
+第一次跑这个会先下载索引，等一会儿吧（需要特殊网络环境）
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774784709-8b876bb3.webp)
+
+找到后，显示没安装：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774906596-98d2eb3f.webp)
+
+再安装：
+
+```bash
+pyocd pack install stm32f103c8
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774963118-4448d8b4.webp)
+
+再查：
+
+```bash
+pyocd list --targets --name stm32f103
+```
+
+可以看到已经可以支持一堆设备了。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775069337-bff493ff.webp)
+
+```bash
+pyocd commander -t stm32f103c8
+```
+
+如果成功，通常会进入 pyOCD commander：
+
+然后你可以输入：
+status
+再退出：
+exit
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775243515-955576aa.webp)
+
+##### Linux 下 USB 权限问题（如果你遇到的话，你解决不了就让AI来解决，AI几秒钟就给你把事办了）
+
+> **如果你都正常识别出设备了，则没必要做这一步了**
 
 如果调试器插上后能在 `lsusb` 中看到，但 VS Code 找不到设备，或者调试输出中出现下面的报错，通常是当前用户没有访问 USB 设备节点的权限：
 
@@ -428,24 +636,355 @@ test -r /dev/bus/usb/001/008 && test -w /dev/bus/usb/001/008 && echo 'USB 设备
 
 这里检查的是 `/dev/bus/usb/...`。如果另外还要打开板载虚拟串口 `/dev/ttyACM*`，那是串口设备的权限，需要分别排查。
 
-##### 进行调试：
+##### 安装openOCD（必须装）
 
-如果你是STLink应该是下图所示：
+我们主要用openocd来进行debug,这样才支持LiveWatch,而pyocd暂时不支持。
 
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431995915.webp)
-
-如果你是JLink应该是下图所示：
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432039560.webp)
+```bash
+# Debian系（如Ubuntu）
+sudo apt install openocd
 
 
-然后会出现这个条，他会下载程序到板子
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)
+# 红帽系（如Fedora）
+sudo dnf install openocd
+```
 
-然后就成功下载了程序并进入了Debug
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790778562287-aa09e54e.webp)
 
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432211211.webp)
 
-按照下图所示，把你要监视的变量输入到最顶上的框里，就可以加入到实时监视框里了。
 
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790608511630-b448c1d8.webp)
+##### 安装`cortex debug`插件
+
+在VScode里搜索`cortex debug`并安装
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790773273575-136b328f.webp)
+
+
+##### 进行`launch.json`的配置
+
+新建`.vscode/launch.json`:
+
+```json
+{
+    "version": "0.2.0",
+
+    "configurations": [
+        {
+            // 调试配置名称
+            "name": "STM32 - OpenOCD - Cortex Debug",
+
+            // Cortex-Debug 固定写法
+            "type": "cortex-debug",
+
+            // 下载程序并开始调试
+            "request": "launch",
+
+            // 工程工作目录
+            "cwd": "${workspaceFolder}",
+
+            // ★ 必改：编译生成的 ELF
+            "executable": "${workspaceFolder}/build/Debug/TEST.elf",
+
+            // 使用 OpenOCD
+            "servertype": "openocd",
+
+            // ★ OpenOCD 可执行文件
+            // Linux 下用 which openocd 查询
+            "serverpath": "/usr/bin/openocd",
+
+            // ★ 根据调试器和 MCU 修改
+            //
+            // ST-Link：
+            // interface/stlink.cfg
+            //
+            // STM32F1：
+            // target/stm32f1x.cfg
+            //
+            // STM32F4 则是：
+            // target/stm32f4x.cfg
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+
+            // ★ ARM GNU Toolchain 的 bin 目录
+            // 建议不要直接写 "~"
+            // 用 ${env:HOME} 更稳
+            "armToolchainPath": "${env:HOME}/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+
+            // 启动后运行到 main()
+            "runToEntryPoint": "main",
+
+            // ★ Cortex Live Watch
+            // OpenOCD 下可用
+            // samplesPerSecond 最大 20
+            // 先用 4Hz 足够
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+
+
+            // ============================================================
+            // 以下为可选配置
+            // ============================================================
+
+
+            // 如果 Cortex-Debug 找不到 OpenOCD，
+            // Linux：
+            // which openocd
+            //
+            // 一般 Fedora 是：
+            // /usr/bin/openocd
+            //
+            // "serverpath": "/usr/bin/openocd",
+
+
+            // 如果 OpenOCD 找不到 interface/*.cfg 或 target/*.cfg，
+            // Fedora 一般脚本目录在：
+            // /usr/share/openocd/scripts
+            //
+            // 可以显式增加：
+            //
+            // "searchDir": [
+            //     "/usr/share/openocd/scripts"
+            // ],
+
+
+            // 调试 Cortex-Debug / OpenOCD 问题：
+            //
+            // "showDevDebugOutput": "raw"
+        }
+    ]
+}
+```
+
+目前我们要知道三件事，`configFiles`，`executable`，`armToolchainPath`和`serverpath`：
+
+1. `configFiles`：
+我们用的`stm32f103c8`和`st-link`：
+所以`"configFiles": ["interface/stlink.cfg","target/stm32f1x.cfg"]`。
+
+第一个参数：看你用什么调试器
+
+| 调试器 | `configFiles[0]` | 说明 |
+|---|---|---|
+| **ST-Link V2 / V2-1 / V3** | `"interface/stlink.cfg"` |  ST-Link很常见 |
+| **DAPLink** | `"interface/cmsis-dap.cfg"` | DAPLink 本质上提供 CMSIS-DAP |
+| **CMSIS-DAP** | `"interface/cmsis-dap.cfg"` | 很多国产调试器也走这个 |
+| **J-Link** | `"interface/jlink.cfg"` | SEGGER J-Link |
+| FTDI 类 JTAG/SWD | `"interface/ftdi/xxx.cfg"` | 要看具体硬件型号 |
+
+第二个参数：看 STM32 哪个系列
+
+| STM32 系列 | 常见型号示例 | `configFiles[1]` |
+|---|---|---|
+| **STM32C0** | C011、C031、C071 | `"target/stm32c0x.cfg"` |
+| **STM32F0** | F030、F072 | `"target/stm32f0x.cfg"` |
+| **STM32F1** | **F103C8、F103RC** | **`"target/stm32f1x.cfg"`** |
+| **STM32F2** | F205、F207 | `"target/stm32f2x.cfg"` |
+| **STM32F3** | F303、F334 | `"target/stm32f3x.cfg"` |
+| **STM32F4** | **F407、F405、F429、F446** | **`"target/stm32f4x.cfg"`** |
+| **STM32F7** | F746、F767 | `"target/stm32f7x.cfg"` |
+| **STM32G0** | G030、G070、G0B1 | `"target/stm32g0x.cfg"` |
+| **STM32G4** | G431、G474 | `"target/stm32g4x.cfg"` |
+| **STM32H7** | **H743、H750、H745、H747** | **`"target/stm32h7x.cfg"`** |
+| STM32H7RS | H7R3、H7S3 | `"target/stm32h7rsx.cfg"` |
+| STM32L0 | L031、L073 | `"target/stm32l0.cfg"` |
+| STM32L1 | L151、L152 | `"target/stm32l1.cfg"` |
+| STM32L4 / L4+ | L432、L476、L496、L4R5 | `"target/stm32l4x.cfg"` |
+| STM32L5 | L552、L562 | `"target/stm32l5x.cfg"` |
+| STM32N6 | N657 等 | `"target/stm32n6x.cfg"` |
+| STM32U0 | U031、U073 | `"target/stm32u0x.cfg"` |
+| STM32U3 | U385 等 | `"target/stm32u3x.cfg"` |
+| STM32U5 | U575、U585、U5A5 | `"target/stm32u5x.cfg"` |
+| STM32WB | WB55 等 | `"target/stm32wbx.cfg"` |
+| STM32WBA2 | WBA2xx | `"target/stm32wba2x.cfg"` |
+| STM32WBA5 | WBA5xx | `"target/stm32wba5x.cfg"` |
+| STM32WBA6 | WBA6xx | `"target/stm32wba6x.cfg"` |
+| STM32WL | WL55、WLE5 | `"target/stm32wlx.cfg"` |
+| **STM32C5** | C5xx | `"target/stm32c5x.cfg"` |
+
+STM32C5 要特别注意：
+
+现在不要把 C5 写死成`target/stm32c5x.cfg`，
+原因是 STM32C5 的 OpenOCD 支持非常新。2026 年 7 月才有 stm32c5x.cfg 支持补丁提交到 OpenOCD Gerrit；补丁里的文件名确实就是`target/stm32c5x.cfg`。
+但是现在还没完全发行到OpenOCD，需要等一段时间。
+
+2. `executable`:
+
+用vscode的终端命令直接查找下，或者直接在VScode的文件管理器里找：
+
+```bash
+# Linux
+find build -name "*.elf"
+```
+
+```powershell
+# Windows
+gci build -Recurse -File -Filter "*.elf"
+```
+
+> 注意，Windows要用`powershell`,不可以用`cmd`。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790776029379-8fe367ee.webp)
+
+如上图所示，在`build/Debug/TEST.elf`。
+
+所以`executable` = `${workspaceFolder}/build/Debug/TEST.elf`。
+
+3. `armToolchainPath`:
+
+用vscode的终端命令直接查找下：
+
+```bash
+cube bundle show --project
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790776233140-6b8addf2.webp)
+
+这个输出说明，我在用`gnu-tools-for-stm32@14.3.1+st.2`
+
+用命令找他在哪：
+
+```bash
+# Linux
+find ~/.local/share/stm32cube/bundles/gnu-tools-for-stm32 \
+  -type f -name "arm-none-eabi-gdb"
+```
+
+```powershell
+# Windows
+gci "$env:LOCALAPPDATA\stm32cube\bundles\gnu-tools-for-stm32" `
+  -Recurse -File -Filter "arm-none-eabi-gdb.exe"
+```
+
+> 注意，Windows要用`powershell`,不可以用`cmd`。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790776572642-f50c57f3.webp)
+
+复制输出结果：
+
+```text
+/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gdb
+```
+
+但是去掉最后的执行程序`arm-none-eabi-gdb`，只需要到`bin`即可：
+
+```text
+/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin
+```
+
+所以`armToolchainPath` = `/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin`。
+
+4. `serverpath`:
+
+用终端命令直接查找下：
+
+```bash
+# Linux
+which openocd
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779741632-f3fe4580.webp)
+
+而Windows,你自己装哪的你应该知道吧。。。
+
+最终的`launch.json`:
+
+```json
+{
+    "version": "0.2.0",
+
+    "configurations": [
+        {
+            // 调试配置名称
+            "name": "STM32 - OpenOCD - Cortex Debug",
+
+            // Cortex-Debug 固定写法
+            "type": "cortex-debug",
+
+            // 下载程序并开始调试
+            "request": "launch",
+
+            // 工程工作目录
+            "cwd": "${workspaceFolder}",
+
+            // ★ 必改：编译生成的 ELF
+            "executable": "${workspaceFolder}/build/Debug/TEST.elf",
+
+            // 使用 OpenOCD
+            "servertype": "openocd",
+
+            // ★ OpenOCD 可执行文件
+            // Linux 下用 which openocd 查询
+            "serverpath": "/usr/bin/openocd",
+
+            // ★ 根据调试器和 MCU 修改
+            //
+            // ST-Link：
+            // interface/stlink.cfg
+            //
+            // STM32F1：
+            // target/stm32f1x.cfg
+            //
+            // STM32F4 则是：
+            // target/stm32f4x.cfg
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+
+            // ★ ARM GNU Toolchain 的 bin 目录
+            // 建议不要直接写 "~"
+            // 用 ${env:HOME} 更稳
+            "armToolchainPath": "/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+
+            // 启动后运行到 main()
+            "runToEntryPoint": "main",
+
+            // ★ Cortex Live Watch
+            // OpenOCD 下可用
+            // samplesPerSecond 最大 20
+            // 先用 4Hz 足够
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            }
+        }
+    ]
+}
+```
+
+
+
+
+##### Debug与LiveWatch
+
+先编译
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779823836-11e63de7.webp)
+
+点击进入debug：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779844026-cbb6d48e.webp)
+
+成功进入：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779922152-6ec02de5.webp)
+
+复制一个你程序里的某个全局变量，我这里是`cmd_vel2`:
+
+填到`cortex live watch`，注意不是`stm32cube live watch`：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779948053-cd3fcb69.webp)
+
+然后点运行看一下变量`cmd_vel2`
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779999914-cf9b099a.webp)
+
+是不断在变化的：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790780025415-338a7c30.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790780038391-54b2f46b.webp)
