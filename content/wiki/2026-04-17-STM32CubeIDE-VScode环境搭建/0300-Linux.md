@@ -615,7 +615,20 @@ set(CMAKE_CXX_EXTENSIONS ON)
 - 添加`liveWatch`参数（重要）
 
 
-1. `serverParameters`按下面这个格式来：
+1. 添加`liveWatch`参数
+
+在`serverCwd`后面，`runEntry`前面加上：
+
+```json
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": "4"
+            },
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790826993170-f6f4832e.webp)
+
+2. `serverParameters`按下面这个格式来：
 
 那俩`-f`的参数由[openocd的两个-f参数](#openocd-parameters)可知：
 - `interface/stlink.cfg`
@@ -669,7 +682,7 @@ STM32 ← OpenOCD ──┤
 ```
 
 
-2. 只有`serverCwd`咱们不知道：
+3. 只有`serverCwd`咱们不知道：
 
 用终端命令直接查找下：
 
@@ -761,11 +774,17 @@ which openocd
 ```
 
 
-#### 进行调试：
+#### 如何进入调试
 
-进行调试
+##### 显示1
 
-如下图：
+如果你是下图这样，请按下面这样做：
+
+如果不是，请往下滑看下面的显示2。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431995915.webp)
+
+点完`Run and Debug`后，如下图：
 - `ST-Link`选`STM32cube: STM32 Launch STLink GDB Server`
 - `J-Link`选`STM32Cube: STM32 LaunchJLink GDB Server`
 - `openOCD接管`选`STM32Cube: Launch Generic GDB Server`
@@ -774,9 +793,17 @@ which openocd
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431995915.webp)
 
-或者（因为他有时候替你生成了`launch.json`了，就会变成下面这样）
+##### 显示2
+
+如果你是下图这样，请按下面这样做：
 
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432039560.webp)
+
+你显示上面这样，可能是因为你已经有生成的`launch.json`了。（这样直接点击就行）
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432039560.webp)
+
+#### 进入调试
 
 然后会出现这个条，他会下载程序到板子（仅J-link）
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)
@@ -1146,3 +1173,4 @@ test -r /dev/bus/usb/001/008 && test -w /dev/bus/usb/001/008 && echo 'USB 设备
 拔插后设备号可能变化，不要照抄示例中的 `001/008`。确认权限后，回到 VS Code 重新选择调试器。如果 `lsusb` 根本看不到调试器，应先检查 USB 线、接口和供电；这不是 udev 权限问题。
 
 这里检查的是 `/dev/bus/usb/...`。如果另外还要打开板载虚拟串口 `/dev/ttyACM*`，那是串口设备的权限，需要分别排查。
+
