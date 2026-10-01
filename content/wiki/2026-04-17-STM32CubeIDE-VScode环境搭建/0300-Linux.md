@@ -172,6 +172,51 @@ code
 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420944068.webp)
 
 
+### 安装openOCD（必须装）
+
+#### 安装openOCD
+
+我们主要用openocd来进行debug,这样才支持LiveWatch,而pyocd暂时不支持。
+
+```bash
+# Debian系（如Ubuntu）
+sudo apt install openocd
+
+
+# 红帽系（如Fedora）
+sudo dnf install openocd
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790778562287-aa09e54e.webp)
+
+
+#### 安装udev
+
+先要知道：
+
+```text
+/etc/udev/rules.d/
+    → 你自己手工配置的规则，现在基本清空
+
+/usr/lib/udev/rules.d/
+    → Linux 软件包提供的系统规则
+       └── 60-openocd.rules
+```
+
+查看openocd是否在系统里自动装了udev了：
+
+```bash
+ls -l /usr/lib/udev/rules.d/*openocd*
+```
+
+如下图，说明openocd安装过udev了。（这比pyocd方便多了）
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790820989855-95fc4922.webp)
+
+
+
+
+
 ## 工程创建与测试
 
 ### 使用CubeMX创建工程
@@ -402,185 +447,6 @@ set(CMAKE_CXX_EXTENSIONS ON)
 
 #### 更换调试器软件为`cortex debug`（可选）：
 
-当你要用到非ST-Link,J-Link的debugger的时候，就需要这个了。
-
-##### 安装pyOCD(很建议装)
-https://github.com/pyocd/pyOCD
-
-###### 方法一：Debian系（如Ubuntu）
-
-```bash
-sudo apt install python3-pip
-python3 -m pip install -U pyocd
-
-# 如果上面的不行，则输入下方的
-pip3 install -U pyocd
-```
-
-如果还不行，且提示
-
-```bash
-error: externally-managed-environment
-
-× This environment is externally managed
-╰─> To install Python packages system-wide, try apt install
-    python3-xyz, where xyz is the package you are trying to
-    install.
-```
-
-则使用（debian系的系统）
-
-```bash
-sudo apt install python3-pyocd
-```
-
-###### 方法二：红帽系（如Fedora）
-
-```bash
-sudo dnf install python3-pip
-python3 -m pip install -U pyocd
-
-# 如果上面的不行，则输入下方的
-pip3 install -U pyocd
-```
-
-###### 方法三：通用法
-
-说直接克隆仓库
-
-```bash
-git clone https://github.com/pyocd/pyOCD.git
-cd pyOCD
-pip3 install .
-```
-
-这样也可以安装pyOCD
-
-##### 配置udev
-
-接下来，我们需要安装ST-Link等调试器的驱动。
-
-pyOCD安装调试器驱动官方教程：
-
-https://github.com/pyocd/pyOCD/tree/main/udev
-
-还是需要用到pyOCD仓库里的文件。
-
-如果你没clone仓库请尽快克隆。
-
-```bash
-git clone https://github.com/pyocd/pyOCD.git
-cd pyOCD
-```
-
-在仓库目录下，输入以下命令
-
-```bash
-cd udev
-sudo cp *.rules /etc/udev/rules.d
-#重启udev
-sudo udevadm control --reload
-sudo udevadm trigger
-```
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790772996363-32dd9f35.webp)
-
-##### 测试连接设备
-
-随便插上一个debugger，比如我这里插上一个连着`stm32f103c8t6`的`ST-link`：
-
-```bash
-pyocd --version
-
-pyocd list
-```
-
-像下图这样正常识别出来了，就说明成功了。
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790773421631-f4d9d780.webp)
-
-
-进一步，可以继续测试
-
-```bash
-pyocd list --targets | grep -i stm32f103
-
-pyocd list --targets --name stm32f103
-```
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774325694-5b53e98c.webp)
-
-发现是`stm32f103rc`，然后尝试连接该设备：
-
-```bash
-pyocd commander -t stm32f103rc
-```
-
-如果成功，通常会进入 pyOCD commander：
-
-然后你可以输入：
-status
-再退出：
-exit
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774481385-67797193.webp)
-
-status 能返回 Running，说明不是“只枚举到了 USB”，而是真的已经连进目标 MCU 了。
-
-成功了。
-
-但是你会发现，咱们明明插的是`stm32f103c8`，为何识别出`stm32f103rc`呢？
-
-pyOCD 当前内置目标里确实有 `stm32f103rc`，但没有内置 `stm32f103c8`；
-pyOCD 官方也说明 target 类型决定 Flash 算法、内存映射等信息，所以正式下载程序时最好不要长期拿 RC 冒充 C8。
-
-更规范的做法是给 pyOCD 安装 STM32F103C8 对应的 CMSIS-Pack：
-
-先查找是否有：
-
-```bash
-pyocd pack find stm32f103c8
-```
-
-第一次跑这个会先下载索引，等一会儿吧（需要特殊网络环境）
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774784709-8b876bb3.webp)
-
-找到后，显示没安装：
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774906596-98d2eb3f.webp)
-
-再安装：
-
-```bash
-pyocd pack install stm32f103c8
-```
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774963118-4448d8b4.webp)
-
-再查：
-
-```bash
-pyocd list --targets --name stm32f103
-```
-
-可以看到已经可以支持一堆设备了。
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775069337-bff493ff.webp)
-
-```bash
-pyocd commander -t stm32f103c8
-```
-
-如果成功，通常会进入 pyOCD commander：
-
-然后你可以输入：
-status
-再退出：
-exit
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775243515-955576aa.webp)
-
 ##### Linux 下 USB 权限问题（如果你遇到的话，你解决不了就让AI来解决，AI几秒钟就给你把事办了）
 
 > **如果你都正常识别出设备了，则没必要做这一步了**
@@ -635,22 +501,6 @@ test -r /dev/bus/usb/001/008 && test -w /dev/bus/usb/001/008 && echo 'USB 设备
 拔插后设备号可能变化，不要照抄示例中的 `001/008`。确认权限后，回到 VS Code 重新选择调试器。如果 `lsusb` 根本看不到调试器，应先检查 USB 线、接口和供电；这不是 udev 权限问题。
 
 这里检查的是 `/dev/bus/usb/...`。如果另外还要打开板载虚拟串口 `/dev/ttyACM*`，那是串口设备的权限，需要分别排查。
-
-##### 安装openOCD（必须装）
-
-我们主要用openocd来进行debug,这样才支持LiveWatch,而pyocd暂时不支持。
-
-```bash
-# Debian系（如Ubuntu）
-sudo apt install openocd
-
-
-# 红帽系（如Fedora）
-sudo dnf install openocd
-```
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790778562287-aa09e54e.webp)
-
 
 
 ##### 安装`cortex debug`插件

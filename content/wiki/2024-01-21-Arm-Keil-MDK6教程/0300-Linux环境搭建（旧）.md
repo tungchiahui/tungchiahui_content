@@ -240,6 +240,104 @@ sudo udevadm trigger
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image26.webp)
 
+#### 测试连接设备
+
+随便插上一个debugger，比如我这里插上一个连着`stm32f103c8t6`的`ST-link`：
+
+```bash
+pyocd --version
+
+pyocd list
+```
+
+像下图这样正常识别出来了，就说明成功了。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790773421631-f4d9d780.webp)
+
+
+进一步，可以继续测试
+
+```bash
+pyocd list --targets | grep -i stm32f103
+
+pyocd list --targets --name stm32f103
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774325694-5b53e98c.webp)
+
+发现是`stm32f103rc`，然后尝试连接该设备：
+
+```bash
+pyocd commander -t stm32f103rc
+```
+
+如果成功，通常会进入 pyOCD commander：
+
+然后你可以输入：
+status
+再退出：
+exit
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774481385-67797193.webp)
+
+status 能返回 Running，说明不是“只枚举到了 USB”，而是真的已经连进目标 MCU 了。
+
+成功了。
+
+但是你会发现，咱们明明插的是`stm32f103c8`，为何识别出`stm32f103rc`呢？
+
+pyOCD 当前内置目标里确实有 `stm32f103rc`，但没有内置 `stm32f103c8`；
+pyOCD 官方也说明 target 类型决定 Flash 算法、内存映射等信息，所以正式下载程序时最好不要长期拿 RC 冒充 C8。
+
+更规范的做法是给 pyOCD 安装 STM32F103C8 对应的 CMSIS-Pack：
+
+先查找是否有：
+
+```bash
+pyocd pack find stm32f103c8
+```
+
+第一次跑这个会先下载索引，等一会儿吧（需要特殊网络环境）
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774784709-8b876bb3.webp)
+
+找到后，显示没安装：
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774906596-98d2eb3f.webp)
+
+再安装：
+
+```bash
+pyocd pack install stm32f103c8
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774963118-4448d8b4.webp)
+
+再查：
+
+```bash
+pyocd list --targets --name stm32f103
+```
+
+可以看到已经可以支持一堆设备了。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775069337-bff493ff.webp)
+
+```bash
+pyocd commander -t stm32f103c8
+```
+
+如果成功，通常会进入 pyOCD commander：
+
+然后你可以输入：
+status
+再退出：
+exit
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790775243515-955576aa.webp)
+
+
+
 #### 更新ST-Link最新驱动(Linux)
 https://www.st.com/en/development-tools/stsw-link007.html#get-software
 
