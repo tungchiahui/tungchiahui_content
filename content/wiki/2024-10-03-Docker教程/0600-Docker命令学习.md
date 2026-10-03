@@ -114,3 +114,30 @@ tungchiahui/ros-opencv:humble-411-cuda128-cudnn970-jammy
 -v /etc/passwd:/etc/passwd:ro \
 -v /etc/group:/etc/group:ro \
 ```
+
+
+#### save与load
+
+> 众所周知，因为不可抗因素，dockerhub已于2024年5月被🇨🇳封杀，所以咱们无法直接拉取镜像。
+
+有一种本地的办法，就是把镜像打成压缩包，再扔到另一台电脑上去让docker读取。
+
+打包：
+
+```bash
+docker save -o myimage.tar myimage
+```
+
+读取：
+
+```bash
+docker load -i myimage.tar
+```
+
+
+#### 第三方的dockerhub库（并不是dockerhub mirror库）
+
+可以把自己镜像上传到国内一些镜像库（images hub，不是mirror）里。
+
+##### 腾讯的TCR
+
