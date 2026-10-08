@@ -1,5 +1,5 @@
 ---
-title: "Linux"
+title: "Linux环境准备"
 ---
 
 ## 环境介绍
