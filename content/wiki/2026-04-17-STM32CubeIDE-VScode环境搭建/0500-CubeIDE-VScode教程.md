@@ -2,8 +2,7 @@
 title: "插件使用教程"
 ---
 
-
-### OpenOCD参数
+### OpenOCD使用事项
 
 <a id="openocd-parameters"></a>
 
