@@ -41,13 +41,13 @@ title: "Windows环境准备"
 → 环境变量
 ```
 
-![alt text](image.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791448937614-a1881ef9.webp)
 
-![alt text](image-1.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791448939610-fdf7b7cb.webp)
 
 编辑 → 新建，把`C:\xpack-openocd-0.12.0-7\bin`加上
 
-![alt text](image-2.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791448940693-8c46184c.webp)
 
 保存后，打开`powershell`：
 
@@ -55,4 +55,6 @@ title: "Windows环境准备"
 openocd --version
 ```
 
-![alt text](image-3.png)
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791448941884-bef3a46b.webp)
+
+#### 
