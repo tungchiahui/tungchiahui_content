@@ -126,52 +126,6 @@ sudo dnf install ./code-1.102.1-1752598767.el8.x86_64.rpm
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image25.webp)
 
-然后打开VScode，在终端输入下面的命令
-
-```bash
-code
-```
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image26.webp)
-
-
-然后可以配置一个环境单独给CubeIDE插件使用，避免和默认环境冲突。
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420070033.webp)
-
-进行一些设置，按我的来就可以
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420416232.webp)
-
-选中STM32
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420490177.webp)
-
-
-
-然后安装一些插件
-
-![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image27.webp)
-
-找到下面这个`STM32CubeIDE for Visual Studio Code`插件安装
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420601935.webp)
-
-右边弹这个提示要选择安装（要有良好的*科学网络*）
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420688705.webp)
-
-
-紧接着会进行一些环境的安装
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420710467.webp)
-
-也可以再安装一些其他的插件，比如Codex等插件
-这些看你自己啦
-
-![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420944068.webp)
-
-
 ### 安装openOCD
 
 #### 安装
@@ -179,16 +133,14 @@ code
 我们主要用openocd来进行debug,这样才支持LiveWatch,而pyocd暂时不支持。
 
 ```bash
-# Debian系（如Ubuntu）
+# Debian系（如Ubuntu，但Ubuntu一般自带的openocd版本太低了，可能需要自己自行从源码编译）
 sudo apt install openocd
 
-
-# 红帽系（如Fedora）
+# 红帽系（如Fedora，一般openocd都是最新版，无需在意版本号问题）
 sudo dnf install openocd
 ```
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790778562287-aa09e54e.webp)
-
 
 #### 安装udev
 

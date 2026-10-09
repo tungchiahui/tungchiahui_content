@@ -2,6 +2,51 @@
 title: "插件使用教程"
 ---
 
+### 安装插件
+
+然后打开VScode，在终端输入下面的命令
+
+```bash
+code
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image26.webp)
+
+然后可以配置一个环境单独给CubeIDE插件使用，避免和默认环境冲突。
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420070033.webp)
+
+进行一些设置，按我的来就可以
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420416232.webp)
+
+选中STM32
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420490177.webp)
+
+然后安装一些插件
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image27.webp)
+
+找到下面这个`STM32CubeIDE for Visual Studio Code`插件安装
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420601935.webp)
+
+右边弹这个提示要选择安装（要有良好的*科学网络*）
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420688705.webp)
+
+
+紧接着会进行一些环境的安装
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420710467.webp)
+
+也可以再安装一些其他的插件，比如Codex等插件
+这些看你自己啦
+
+![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420944068.webp)
+
+
 ### OpenOCD使用事项
 
 <a id="openocd-parameters"></a>
@@ -78,6 +123,8 @@ openocd \
 可以插上之后测试一波：
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790822431371-9446f7ae.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514972175-9fe9ca6a.webp)
 
 照上图所示，已经连接成功了。
 
