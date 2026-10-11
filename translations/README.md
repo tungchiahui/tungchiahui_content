@@ -21,7 +21,7 @@ JSON 修改经验证、Review、PR 合入 main 后只触发 Content Sync，不�
 具体架构/预算/发布与恢复详见 Web 仓库 ADR 0028 和 translation-operations.md。
 
 2026-10-11 标题补漏：手工审阅并补入 10 条标题记忆，覆盖 11 个文章主标题和 15 个目录字段，
-总计 18,449 条有效记忆。新增条目以 `provider=manual`、`model=human-reviewed` 和零 Usage
+总计 18,449 条有效记忆。新增条目以 `provider=manual`、`model=codex-semantic-review` 和零 Usage
 标记来源，不能算成供应商付费结果；全部通过 Web 仓库原有 Hash/AST/技术标识符校验。
 中文 Markdown、文件名、URL、锚点和作者正在编辑的北极熊草稿均未纳入本次提交。
 
