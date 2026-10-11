@@ -169,6 +169,20 @@
         "costUsd": 0.000052
       }
     },
+    "4d3ebaa102ce55deb4f1107d1a9ff40cc6e5f4076c8479ad3a9878aa3f4c509d": {
+      "normalizationVersion": 1,
+      "sourceHash": "09c0f2c3040c39279cb6a226d84d0e9abcbc70ef6aefb5fe8b3930cad91ad0c3",
+      "contextFingerprint": "5e7d259c73f846e37a1e76975aa86eefb59ff675f07cd9fdf4295a73f0f9ba16",
+      "sourceText": "这里的 #include <math.h>显示找不到头文件，但是我们进行编译的时候却没有报错，说明是clangd的配置有问题 。以下介绍一种解决方法：",
+      "translatedText": "Here, \\#include \\<math.h\\> shows that the header file cannot be found, but when we compile, no error is reported, indicating that there is a problem with the clangd configuration\\. The following introduces a solution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 61,
+        "costUsd": 0.000125
+      }
+    },
     "4d41bfffdff4d7d31c55ac8699a966baa970809ac0d404756d5a6136dc8d5414": {
       "normalizationVersion": 1,
       "sourceHash": "1ed1dcd71f98017f1fc1e1ab8f37b162181bd801ce1f401b64ac3a7abdf7bef6",
@@ -237,6 +251,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4d4e75f6e0c03d202c6bd4efc85d444594e0f0545d9132d131eeecfc1017d23a": {
+      "normalizationVersion": 1,
+      "sourceHash": "83c4753aa1f235e8580d491b1dbc62d7550b9af8d6fe2eadb1b4295a6151bc15",
+      "contextFingerprint": "d1bcd0bbd9167e250a19dfb3732f132af5a0fb8ed475e13fa1ebfc7ebf0fb705",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image35.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image35.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4d4eb9e238749e1ff996a3642c38b83eefaa19fb117e5a6cab935f25da8767ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c596ffe0f38ef56aa5c102c39de8296676e3bb1940dd4e5613f1d30ad1ea44d",
+      "contextFingerprint": "81d3f11c10e5c5e65fc47cad6333e7c8093801cea88ffbf62d4ae6c6b8ce8c8d",
+      "sourceText": "然后在`key.c`中,首先要初始化`gpio0`的`gpio`.",
+      "translatedText": "Then in`key.c`First, initialize the`gpio0`of the`gpio`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "4d5123d77c0c55fffd1fc6569ffe30a71e53df200e7d40f43dcccdb26b642f67": {
@@ -713,6 +755,20 @@
         "inputTokens": 136,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "4dbfa0266590410c2254ed306b65cb21fbd4a3ed21cbe029362ae82aac901164": {
+      "normalizationVersion": 1,
+      "sourceHash": "0bb62a1d8097454817c64f802e9522df764cf1a9e0f2e6af2362174ada53886e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "计算机视觉是一门研究如何让机器“看”的科学，即利用计算机来模拟人的视觉机理。它通过摄像头代替人眼，对目标进行识别、跟踪和测量，并通过对视觉数据的处理获取更深层次的信息。例如，通过三维重建技术对环绕建筑物一周的视频进行分析，可以在计算机中重构出建筑物的三维模型；又如，通过安装在车辆上的摄像头拍摄前方场景，可以推断车辆是否能够顺利通过前方区域，从而辅助决策。",
+      "translatedText": "Computer vision is a science that studies how to make machines \"see,\" that is, using computers to simulate the mechanisms of human vision\\. It replaces human eyes with cameras to recognize, track, and measure targets, and obtains deeper\\-level information by processing visual data\\. For example, by analyzing video captured around a building using 3D reconstruction technology, a three\\-dimensional model of the building can be reconstructed in a computer; similarly, by using a camera installed on a vehicle to capture the scene ahead, it is possible to infer whether the vehicle can smoothly pass through the area ahead, thereby assisting decision\\-making\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 127,
+        "costUsd": 0.00022
       }
     },
     "4dc217bc4e82e07f33e3d974e8b0123a63674ddf921143b65e63cf6dac5fec29": {

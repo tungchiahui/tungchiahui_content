@@ -155,6 +155,20 @@
         "costUsd": 0.000204
       }
     },
+    "50280c16dee248cc12018434fd3f3337ea339a3a411d17936a27f02027d7fb04": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfd7e7845b0c3d0afa1bf5f6576a8809ab9ac0c6e76b0d77dab4104e2eba5373",
+      "contextFingerprint": "0c32e52b800afe606d6d7d471ad9c01005f61c87cc55c0ce45d7cee980282fb2",
+      "sourceText": "1. 想做跨平台 App 的开发者\n2. 嵌入式 / 上位机开发者\n3. C / C++ / Java 背景程序员\n4. 希望用一套技术覆盖多端的工程师.",
+      "translatedText": "1. Developers who want to build cross\\-platform apps\n2. Embedded / host computer developers\n3. Programmers with a C / C++ / Java background\n4. Engineers who want to cover multiple platforms with one technology stack\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 56,
+        "costUsd": 0.000119
+      }
+    },
     "5029288200d1f3350d10ec59d5390da7b3f98ac5952e1c4ffd57c2e59f11f4ac": {
       "normalizationVersion": 1,
       "sourceHash": "136aab91a74be04997347701853ddff103297bb4a4a4966199696298c9fc03e6",
@@ -617,6 +631,20 @@
         "costUsd": 0.000068
       }
     },
+    "50a71da7d9cc0440bf3c689a21683397c0250ea16a2f94dabcc1b77ddc346d91": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed15a5a21e03604b9a2fe00d8f2ca911e0c7abd88e18bf7acfd47a01dd63cf1c",
+      "contextFingerprint": "afbda07e58a9c68ad490ec9505f4ced622a4ea15c2b7f2824f83b049eaff639c",
+      "sourceText": "<a id=\"usb-permissions\"></a>",
+      "translatedText": "<a id=\"usb-permissions\"></a>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "50a77f352df2aec6f3776a2f0dc04c68e30239b5397ff166f678d706d43613db": {
       "normalizationVersion": 1,
       "sourceHash": "bca699638a4507cc9a7cf3145ed70c6f6d77f8a2eb661b0c4224582f640e37f3",
@@ -659,6 +687,20 @@
         "costUsd": 0.000086
       }
     },
+    "50d093f84cab5e1903eb16320abfce6e780ad77f5d31ccc442acf0f11188b686": {
+      "normalizationVersion": 1,
+      "sourceHash": "82cad39faff2c1a718f1efe2a645e09fc248b2ca5335751f77ecb5fc50b54700",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们主要用openocd来进行debug,这样才支持LiveWatch,而pyocd暂时不支持。",
+      "translatedText": "We mainly use OpenOCD for debugging, as only this supports LiveWatch, while PyOCD does not currently support it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "50d47ee639fdc1a0140fc4734fb43c624a874b2343143036784208bd23e0f249": {
       "normalizationVersion": 1,
       "sourceHash": "db256d153688a084c16ca302606c96f060568040751f50138b3f9e6621da61fe",
@@ -685,6 +727,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "50d7c40078fb4351471ce6ff840642025121c943306bb195732a279ce39d8f35": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7bc0d6e4e1278f4e2583616dfc1b26a9501ff218733cdafa860c80e32b10abf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面第一行代码创建了一个3×3的矩阵，矩阵中存放的是1～9的9个整数，先将矩阵中的第一行存满，之后再存入第二行、第三行，即1、2、3存放在矩阵a的第一行，4、5、6存放在矩阵a的第二行，7、8、9存放在矩阵a的第三行。第二行代码创建了一个2×3的矩阵，其存放方式与矩阵a相同。",
+      "translatedText": "The first line of code above creates a 3×3 matrix, in which the 9 integers from 1 to 9 are stored\\. The first row of the matrix is filled first, and then the second and third rows are stored, that is, 1, 2, and 3 are stored in the first row of matrix a, 4, 5, and 6 are stored in the second row of matrix a, and 7, 8, and 9 are stored in the third row of matrix a\\. The second line of code creates a 2×3 matrix, and its storage method is the same as that of matrix a\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 142,
+        "costUsd": 0.000238
       }
     },
     "50d929092cbe89cce7855908161fabff04146f61aab73448cb0329f1db65e4d7": {
@@ -825,6 +881,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "50f2c325eb1ebd644fc47f9cc8ed081fa85e3662a29096d1a5ac70eadbdb1c7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "86306ea160da25624038f9de0b19310dc4121aeca3ef543b48eb998fd6b9028d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按ctrl+～打开内置终端。",
+      "translatedText": "Press Ctrl\\+\\~ to open the built\\-in terminal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "50f5e24a831fc11b0fe2660cbf9c424daed07f0e9cc99b619b5f9c530f981f97": {

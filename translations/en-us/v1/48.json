@@ -281,6 +281,20 @@
         "costUsd": 0.000057
       }
     },
+    "4835e5a6b8fe6c2f004d04135e742408200ff84d1fbef042a5fdf372b99f003b": {
+      "normalizationVersion": 1,
+      "sourceHash": "298a342313e025caa54ab2de846edfabcf3b1feb4802b27019f8dc4396251c53",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下图,\n第一个是开始运行.\n第二个是逐过程,一个函数一个函数的运行.\n第三个是单步调试,他会进入函数内部执行.\n第四个是单步跳出,会跳出这个函数.\n第五个是重启程序,但在esp32里有bug,貌似不会重启,不知道后续是否会修.\n第六个是断开链接,退出调试.",
+      "translatedText": "Below, The first one is start running\\. The second one is step over, running function by function\\. The third one is step into, which will enter the function and execute inside\\. The fourth one is step out, which will exit this function\\. The fifth one is restart the program, but there is a bug in esp32; it seems it will not restart, not sure if it will be fixed later\\. The sixth one is disconnect, exiting debugging\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 104,
+        "costUsd": 0.000187
+      }
+    },
     "483de54e216aa3331ca31d0ddb018c1fb8d055a838be2947421981b6019a9ee6": {
       "normalizationVersion": 1,
       "sourceHash": "c6a509ccb3a69d627844dccb0b17f68d5f02ffc39f37b76b16d6c24c3f32a938",
@@ -335,6 +349,20 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "484369280a31159d87639d67689f19b21eaeca240c00a58c6e0cf29b71ab1901": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb2e6c8357cfbde9cf209ac50af2e39175db42552017e4478913c8bf9ecc635a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 视频加载与摄像头调用",
+      "translatedText": "### Video loading and camera invocation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "484ca35e6ab3c9c4fcf35ed0e864c2a654fbb0611fad0f9961a9f82aa3a3a19d": {
@@ -531,6 +559,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "48b6af6ca02c434863c77ac1d4908953c0cc6d135ca16c70ee2deabe6f562d2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "80a88359fa8e2e9ee3e72f05dffa996eec749bbdd4c36e9ffcecd2ef2ee47759",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "OSC是高速晶振,CLK是时钟,PLL是锁相环,图里的DIV是分频器,MUX是选择器.\nOSC要接晶振.\nCLK是可用的时钟信号.\nPLL为了被倍频或者分频的时钟频率.\nDIV为了省电,节约资源.\nMUX是选择哪一个时钟源.",
+      "translatedText": "OSC is a high\\-speed crystal oscillator, CLK is a clock, PLL is a phase\\-locked loop, DIV in the figure is a frequency divider, and MUX is a selector\\. OSC needs to be connected to a crystal oscillator\\. CLK is an available clock signal\\. PLL is for multiplying or dividing the clock frequency\\. DIV is for saving power and conserving resources\\. MUX is for selecting which clock source\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 209,
+        "outputTokens": 100,
+        "costUsd": 0.000183
       }
     },
     "48b78559597300944acb9bf90a419c7f5c3237402b556d404dc1fce968ec4a86": {

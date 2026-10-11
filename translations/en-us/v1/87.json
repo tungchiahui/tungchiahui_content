@@ -15,6 +15,20 @@
         "costUsd": 0.00009
       }
     },
+    "871349ccf2b8419372b0a0656200d3c8bfca9e1946dff0b88ace5170786f9af4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ab847cbf40da210f4d2430e6045b4d7f1e2ebc73f96ac26ac7948c5ffea44db",
+      "contextFingerprint": "7a3f3859725121553c75105b40de97df736f47a04be10eef5f669d4d9615e20c",
+      "sourceText": "- 关键字：String\n- 语法：`String 属性名 = ‘文本内容’;`\n- 特点：引号支持双引号或者单引号，支持拼接及模板字符串",
+      "translatedText": "- Keyword: String\n- Syntax:`String 属性名 = ‘文本内容’;`\n- Features: Supports double quotes or single quotes, and supports concatenation and template strings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 30,
+        "costUsd": 0.000083
+      }
+    },
     "8716ffd1b1e1646a1c4916930efe3991309914c1ddda9c09c9030283d4299b7a": {
       "normalizationVersion": 1,
       "sourceHash": "40e656bcffda5c4cc46260cfafe42e2d97e53d1013b674281a5902a984603d6b",
@@ -27,6 +41,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "871b69bb8abf79f1ab972dbd48e1e77742e6cdc26d886fa29e19b119b3dc9026": {
+      "normalizationVersion": 1,
+      "sourceHash": "30596eaaa90ae4c74c9012dfea2e1be25eb09c3bd145125b7395cf4be8ff44c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "与通过枚举法赋值方法相似，循环法赋值也是对矩阵中的每一个元素进行赋值，但是可以不在声明变量的时候进行赋值，而且可以对矩阵中的任意部分进行赋值。具体赋值形式如代码清单2-14所示。",
+      "translatedText": "Similar to the assignment method through enumeration, loop\\-based assignment also assigns values to each element in the matrix, but it does not need to be assigned when the variable is declared, and it can assign values to any part of the matrix\\. The specific assignment form is shown in code listing 2\\-14\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 67,
+        "costUsd": 0.000134
       }
     },
     "871c96a5719e075c5bb67d15c208aa95cd45c4cc10ffd826bde4a24c6285dca7": {
@@ -155,6 +183,20 @@
         "costUsd": 0.000056
       }
     },
+    "873ab30c6fb24a392495a12febbfb1ceab7b501be4e3bf9ec5c9fde68b4e8d2f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c557b3e92d98bfac99eab6b612f10a4b339d7e1068a7f2cbc8471d97f79e4200",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们在前面已经介绍过了图像读取函数imread()的调用方式（见代码清单1-1），这里我们给出函数的原型（见代码清单2-24）。\n代码清单2-24 imread()函数的原型",
+      "translatedText": "We have already introduced the calling method of the image reading function imread() earlier (see Code Listing 1\\-1)\\. Here we provide the function prototype (see Code Listing 2\\-24)\\. Code Listing 2\\-24 Prototype of the imread() function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 63,
+        "costUsd": 0.000129
+      }
+    },
     "8742c5d2de81c6fe61e3826ccfb56b3a92475cc978b64b0ce2d6498274a52751": {
       "normalizationVersion": 1,
       "sourceHash": "950f7b1d156ecb0c7a81b6693117ae3828c6582650b90a7f8e613634859aea11",
@@ -209,6 +251,20 @@
         "inputTokens": 147,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "874e42d9792cee50715b720c692b1d6b5b8d0aa93c99dc69df74d814cb505137": {
+      "normalizationVersion": 1,
+      "sourceHash": "2949be9f938bd84cfd314904bad239db9d7a26bc591070ea68c2c2ef3c612efe",
+      "contextFingerprint": "b3a098e4bb8b2c9e07980d2f0da72c6bed0a678c302a919461eb3ca2b465d392",
+      "sourceText": "以上代码会让LED每隔1s闪烁一次.\n这里的\n`vTaskDelay(500 / portTICK_PERIOD_MS);`其实可以简化为`vTaskDelay(500);`,因为咱们之前配置过`configTICK_RATE_HZ`为1000,这样会导致`portTICK_PERIOD_MS`的值为1.<br>\n但上面的写法更加正规,如果其他人想用你的代码,别人也不会让延迟跑错单位.还是推荐不要简化的办法,而正点原子是简化后的,如果别人迁移复制你的代码,会出大问题的.<br>",
+      "translatedText": "The above code will make the LED blink once every 1 second\\. Here `vTaskDelay(500 / portTICK_PERIOD_MS);`Actually, it can be simplified to`vTaskDelay(500);`, because we previously configured`configTICK_RATE_HZ`to 1000, this will cause the value of`portTICK_PERIOD_MS`to be 1\\.<br> However, the above writing style is more formal; if others want to use your code, they will not cause the delay unit to run incorrectly\\. It is still recommended not to simplify it, whereas ALIENTEK uses the simplified version; if others migrate and copy your code, big problems will occur\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 118,
+        "costUsd": 0.000207
       }
     },
     "874ef0fffa05eb53bd37de33d94bbf4993dd469ffec655463bbd43e8387749ca": {
@@ -349,6 +405,20 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "876f84453174a54d5e379d88a2e14775af70be6b338a034581fb31d7e1e53e3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fea533e6118bf9b8a9a9d8411afeac355838faef3b41f26b942c323e75fc9448",
+      "contextFingerprint": "2ef562d771d70c580a0147e1506dc9fa111d5664b756d4eab88f4fb6c0366f26",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image125.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image125.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "87752308ef732488d1d50f925f91465256f1ada343631231a352e56678a5547e": {
@@ -575,6 +645,34 @@
         "costUsd": 0.000059
       }
     },
+    "8796fa0d155c9940592c3a2a06a53f8bd2b77a600aff620c28a5bc2ed220443f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7de05aefd9e16a04e7150d5de413ce99cfee113efc8ff8b87a76fc2005c0327a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只有你自己100%认为你写的是对的,再用dynamic,否则别用dynamic,不然可能会出现很多错误.",
+      "translatedText": "Only when you yourself are 100% sure that what you wrote is correct should you use dynamic; otherwise, do not use dynamic, or many errors may occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
+    "879777ecb0f8422f409c93f5f32631e68d08a53cbde9a29c2bb854240c4d5231": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e1cf6ed1bb31e59d1f67f20ef32b1c002c34b58edbdcf70f763f69149e68977",
+      "contextFingerprint": "de5b325f130d8859752308d36fc1e0724760e9fd79e91b90e68bae8c25fa4ed4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image53.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image53.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "8797d1f4ec2934898356786ce25c2e78fae6e444d8e1a55433411d2722ac53e0": {
       "normalizationVersion": 1,
       "sourceHash": "bc16ddbd03771a2992e37ebe5a95a7bdbcea9785b27285d5e0b71b3e3640b7b6",
@@ -629,6 +727,34 @@
         "inputTokens": 194,
         "outputTokens": 73,
         "costUsd": 0.000146
+      }
+    },
+    "87a4368603b4eecdb2b0df4ea41d44eec90b3c3a799cfabadf775d216627970e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee4266b59fa103ae289960e2daed6f9de6138ebe8b3ff5694561187bec0c25da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如：",
+      "translatedText": "If it is a function or code fragment within a paragraph, it can be wrapped in backticks (\\`), for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "87a5ddb38c938ca4a67eb0132118c18334db8e7773e4ba5fa07e06639d73f772": {
+      "normalizationVersion": 1,
+      "sourceHash": "8849bedd4e187dce086fcbf3dc6aebf64d66ebabb9515e3f9c08b5818715537d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码清单2-12 在构造时赋值示例",
+      "translatedText": "Listing 2\\-12 Example of assigning values during construction",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "87adddbe6af779f3706ee2d514579711da2f8cfcc71434eb010c2481c1d4acc9": {
@@ -743,6 +869,20 @@
         "costUsd": 0.000051
       }
     },
+    "87cbbcd8bbc089d30ac9a7aff5a60a0990bb8829e636e4c748357445ab8190f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7e65a1246b4e7b7768f41f909edca2c065b72df3c0701855a25671900387803",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "无论是图像处理还是计算机视觉，本质上都需要在计算机中处理数据。因此，研究人员必须面对一个棘手的问题——如何将研究成果通过代码实现并进行仿真验证。在这一过程中，经常会遇到重复编写基础功能程序的问题，也就是人们常说的“重复造轮子”。",
+      "translatedText": "Whether in image processing or computer vision, data essentially needs to be processed in a computer\\. Therefore, researchers must face a thorny problem—how to implement research results through code and verify them by simulation\\. In this process, the problem of repeatedly writing basic functional programs is often encountered, which is what people commonly call \"reinventing the wheel\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 76,
+        "costUsd": 0.000147
+      }
+    },
     "87ccd44e053954e5d18f78a4337081ea77928bc02c361635662922c255977d69": {
       "normalizationVersion": 1,
       "sourceHash": "1fabd296ef487b755fad976df736f28232fb8a76e42379454e713597d28e2051",
@@ -783,6 +923,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "87dbd0125703bf813bc3f7f690bf476e2eb6a1934891165665c57f54d98e593f": {
+      "normalizationVersion": 1,
+      "sourceHash": "51de35e95d88287815cf3fb073ea01fffde6e49469540607fb8a552d942f4cf8",
+      "contextFingerprint": "0b07ec18017a7b23582851908b5241c73850dde50fa0253c8a98153599ebe2b0",
+      "sourceText": "右键`stlink_winusb_install.bat`以管理员身份运行",
+      "translatedText": "Right\\-click`stlink_winusb_install.bat`Run as administrator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "87dd4d31e318c2c515adea320b51fa5f72f1ce8fbede6a489b7dee2b1cfd5a94": {

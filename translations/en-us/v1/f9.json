@@ -169,6 +169,20 @@
         "costUsd": 0.00006
       }
     },
+    "f91fd60ff90ccac28406afe2726686a4bbe4d89a0d6d2f78cb195092db3eed57": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f292062a94481c3d2cccced4d6afb34d2f749ceeeabae7000d60eff021fde46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "🤖 嵌入式 UI",
+      "translatedText": "🤖 Embedded UI",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "f921df663e7b6a67f3581dd183cb4b224eafe7aa8800b5e4a56fa85316af3809": {
       "normalizationVersion": 1,
       "sourceHash": "84075ddfe3b19c7373d95b93dd5e557c62fb774079d262ac2226f5f06844f952",
@@ -407,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "f94703fc3131e1be6bcbded2d7a476d86ca068fe875e53b3b78646ac89b50c0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5daf2e0015b4b429b1336069fe515c17175deab0b62a96a7b2943f213992db00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "用终端命令直接查找下：",
+      "translatedText": "Directly search using terminal commands:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "f9505dc5ec4af9fd09fbc25ed7e392fcd66d1798faf2f23ed59ebaca5ebad986": {
       "normalizationVersion": 1,
       "sourceHash": "2a5fcf822ca3370a44872b22a2086f020cc7fc491bfba7fe0cc0595a1a679db8",
@@ -475,6 +503,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "f95fda4ccc2ff956b5b61adf6ae57ef13e3c7f3faf97b2925f1627ba0a983f78": {
+      "normalizationVersion": 1,
+      "sourceHash": "fca576e74aab561e5ae078687170b439a8c9c48ed5592e46e7bbd9ec127b226b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "OpenCV 4中针对多通道合并函数merge()也有两种重载原型，在代码清单3-5中给出了这两种原型。\n代码清单3-5 merge()函数原型",
+      "translatedText": "In OpenCV 4, the multi\\-channel merge function merge() also has two overloaded prototypes, both of which are given in Code Listing 3\\-5\\. Code Listing 3\\-5 Prototypes of the merge() function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 54,
+        "costUsd": 0.000116
       }
     },
     "f9616d2c95f7ad706c29c622d22530a0cb423cce402141fbb08f91fc509a440e": {
@@ -673,6 +715,20 @@
         "costUsd": 0.000094
       }
     },
+    "f98e4964a7ceabc5f9b43784914c46f18f37b951d5a25b92cff10ac30fffae27": {
+      "normalizationVersion": 1,
+      "sourceHash": "995645e402d881e64aab53cfecabf475fc77d52e47dd3d79185be85190486a79",
+      "contextFingerprint": "e7522644d6636ab18bf9cf8b80217bd157f784759190737db4549b8080162e10",
+      "sourceText": "| OpenCV 4.1版本标志                            | OpenCV 4.0版本标志                  | 作用             |\n| :---------------------------------------- | :------------------------------ | :------------- |\n| `VideoWriter::fourcc('D', 'I', 'V', 'X')` | `CV_FOURCC('D', 'I', 'V', 'X')` | MPEG-4编码       |\n| `VideoWriter::fourcc('P', 'I', 'M', '1')` | `CV_FOURCC('P', 'I', 'M', '1')` | MPEG-1编码       |\n| `VideoWriter::fourcc('M', 'J', 'P', 'G')` | `CV_FOURCC('M', 'J', 'P', 'G')` | JPEG编码（运行效果一般） |\n| `VideoWriter::fourcc('M', 'P', '4', '2')` | `CV_FOURCC('M', 'P', '4', '2')` | MPEG-4.2编码     |\n| `VideoWriter::fourcc('D', 'I', 'V', '3')` | `CV_FOURCC('D', 'I', 'V', '3')` | MPEG-4.3编码     |\n| `VideoWriter::fourcc('U', '2', '6', '3')` | `CV_FOURCC('U', '2', '6', '3')` | H263编码         |\n| `VideoWriter::fourcc('I', '2', '6', '3')` | `CV_FOURCC('I', '2', '6', '3')` | H263I编码        |\n| `VideoWriter::fourcc('F', 'L', 'V', '1')` | `CV_FOURCC('F', 'L', 'V', '1')` | FLV1编码         |",
+      "translatedText": "| OpenCV 4\\.1 logo                            | OpenCV 4\\.0 logo                  | Function             |\n| :---------------------------------------- | :------------------------------ | :------------- |\n| `VideoWriter::fourcc('D', 'I', 'V', 'X')` | `CV_FOURCC('D', 'I', 'V', 'X')` | MPEG-4 encoding       |\n| `VideoWriter::fourcc('P', 'I', 'M', '1')` | `CV_FOURCC('P', 'I', 'M', '1')` | MPEG-1 encoding       |\n| `VideoWriter::fourcc('M', 'J', 'P', 'G')` | `CV_FOURCC('M', 'J', 'P', 'G')` | JPEG encoding (average performance) |\n| `VideoWriter::fourcc('M', 'P', '4', '2')` | `CV_FOURCC('M', 'P', '4', '2')` | MPEG-4.2 encoding     |\n| `VideoWriter::fourcc('D', 'I', 'V', '3')` | `CV_FOURCC('D', 'I', 'V', '3')` | MPEG-4.3 encoding     |\n| `VideoWriter::fourcc('U', '2', '6', '3')` | `CV_FOURCC('U', '2', '6', '3')` | H263 encoding         |\n| `VideoWriter::fourcc('I', '2', '6', '3')` | `CV_FOURCC('I', '2', '6', '3')` | H263I encoding        |\n| `VideoWriter::fourcc('F', 'L', 'V', '1')` | `CV_FOURCC('F', 'L', 'V', '1')` | FLV1 encoding         |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 219,
+        "outputTokens": 94,
+        "costUsd": 0.000179
+      }
+    },
     "f99ee1bcafeae14b16d1fe0e04ed6052b340c262772f47f51406d855799ccaf9": {
       "normalizationVersion": 1,
       "sourceHash": "2084b33aba26d80fb91ff81ebd4c130b0525c3d671f370cc26c2f7c2b1a3b51d",
@@ -811,6 +867,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f9c0dd2b7720e882b63c05abebbc31030775af438dad2a89c9b5aeddc3fbaf9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "087bf5e1ad41aae66217c3055dc250fde3addfc7b208041c2a79fbfa856c0c37",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 动态类型-dynamic",
+      "translatedText": "#### Dynamic Type \\- dynamic",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "f9c10ac7ec9b7def1bd8c31028cf66caeccf7783fbe63139bdeb3bfb904cce61": {

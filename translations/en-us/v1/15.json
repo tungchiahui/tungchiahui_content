@@ -99,6 +99,20 @@
         "costUsd": 0.000057
       }
     },
+    "15189a20caa83ab9d0b748fc8c6abd8195caad03f971952865837e495956d32f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b45ad8af7c4fb3628354477d78a492515ad914fd68b637c54d67f6a322455909",
+      "contextFingerprint": "5b483c44136003b3288cb782d828e88be45c0a5dc1e9b466b650a5ecc209e830",
+      "sourceText": "| 标志参数             | 简记 | 作用               |\n| :--------------- | :- | :--------------- |\n| `COLOR_BGR2BGRA` | 0  | 对RGB图像添加alpha通道  |\n| `COLOR_BGR2RGB`  | 4  | 彩色图像通道颜色顺序的更改    |\n| `COLOR_BGR2GRAY` | 10 | 彩色图像转成灰度图像       |\n| `COLOR_GRAY2BGR` | 8  | 灰度图像转成彩色图像（伪彩色）  |\n| `COLOR_BGR2YUV`  | 82 | RGB颜色模型转成YUV颜色模型 |\n| `COLOR_YUV2BGR`  | 84 | YUV颜色模型转成RGB颜色模型 |\n| `COLOR_BGR2HSV`  | 40 | RGB颜色模型转成HSV颜色模型 |\n| `COLOR_HSV2BGR`  | 54 | HSV颜色模型转成RGB颜色模型 |\n| `COLOR_BGR2Lab`  | 44 | RGB颜色模型转成Lab颜色模型 |\n| `COLOR_Lab2BGR`  | 56 | Lab颜色模型转成RGB颜色模型 |",
+      "translatedText": "| Flag parameter             | Abbreviation | Function               |\n| :--------------- | :- | :--------------- |\n| `COLOR_BGR2BGRA` | 0  | Add an alpha channel to an RGB image  |\n| `COLOR_BGR2RGB`  | 4  | Change the color channel order of a color image    |\n| `COLOR_BGR2GRAY` | 10 | Convert a color image to a grayscale image       |\n| `COLOR_GRAY2BGR` | 8  | Convert a grayscale image to a color image (pseudocolor)  |\n| `COLOR_BGR2YUV`  | 82 | Convert the RGB color model to the YUV color model |\n| `COLOR_YUV2BGR`  | 84 | Convert the YUV color model to the RGB color model |\n| `COLOR_BGR2HSV`  | 40 | Convert the RGB color model to the HSV color model |\n| `COLOR_HSV2BGR`  | 54 | Convert the HSV color model to the RGB color model |\n| `COLOR_BGR2Lab`  | 44 | Convert the RGB color model to the Lab color model |\n| `COLOR_Lab2BGR`  | 56 | Convert the Lab color model to the RGB color model |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 245,
+        "outputTokens": 148,
+        "costUsd": 0.000252
+      }
+    },
     "151afba8f8d8f19ff399fd3b11424e80e6d07f0ce3a3b0c68284105a2a171238": {
       "normalizationVersion": 1,
       "sourceHash": "89b204c018e94b23147cc3d8111f06b69f13503355890e6465e830ecdf832318",
@@ -209,6 +223,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "154981f20579f547d29d11872abba3af876ae9f7ec3d46d3418654b5c71df673": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ca2bb303f6f54fc715da5237865283904d5407cf0c9a28a8d15f784a2b7653e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "检查版本",
+      "translatedText": "Check version",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "154c8ade508d99d4b8ebb9411aa794591c96dff13e9eab49eb96e1a5d714eea6": {
@@ -393,6 +421,20 @@
         "costUsd": 0.000057
       }
     },
+    "157a8fe3ddaad0ad33b4b520444561171e01553aa69e7893ee79e290a5f5a191": {
+      "normalizationVersion": 1,
+      "sourceHash": "730e140f60258c73b3887a63de26cd7c0cf5656497c2924a77e15328988c921e",
+      "contextFingerprint": "b3599b1f1a177736fb70103e3fe83c6598883b4a15808e911248ca8f38b0d249",
+      "sourceText": "在末尾输入下面的命令，把下面`~/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`替换成你刚才复制的路径，`/home/用户名`可以用`~`来代替。",
+      "translatedText": "At the end, enter the following command, replacing the following`~/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`with the path you just copied;`/home/用户名`you can use`~`instead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "157bfa401e3d2aef902bf3166583266ff27708150c713090ab47dee7568b85d7": {
       "normalizationVersion": 1,
       "sourceHash": "fc5149ff2eacdeed4943369f8e66abc5c8053025bca0cf7e88407b846308c1eb",
@@ -419,6 +461,20 @@
         "inputTokens": 138,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "1582cb2c624a051f2a6d0d58df19e0cfa4bbb935a007ef6bceca4731bc4c14e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "223550d4375c2198acef6aa235b402255c0ab03fe396e311b80e92d565bfeaad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Markdown 图片语法格式如下：",
+      "translatedText": "The Markdown image syntax format is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "1583a92d40974962dcc401e13ac6a65ff961f650f2d1ff9dc0fca4064c5fb04d": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0a00e93b148121647fd4452e2e68fe684af5d4ce1de6b340369fab5b25b06f41": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5345bef7b52aacf70f84c0c72a86d466eec2a4d90aa3bba919201d7a7f7be7d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 下载安装程序",
+      "translatedText": "#### Download the installer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "0a030b4e191a672ad8d732e2a3416485a34274f5521189efe14225dfcdd97c16": {
       "normalizationVersion": 1,
       "sourceHash": "5164af5d84786fc4fea28c470f4ea984f43c6779540f4bf7e1cd8e5744d5e3ee",
@@ -393,6 +407,20 @@
         "costUsd": 0.000073
       }
     },
+    "0a5f3569d54afb9131cc860098b0e50e77d622276032015e8a70f2e8b9919a0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b36908a05a01b1aedcb9685ad54700e8e5b7a6335f6c782223420e33107059b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "区块中使用列表实例如下：",
+      "translatedText": "An example of using a list in a block is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 20,
+        "costUsd": 0.000065
+      }
+    },
     "0a5f903b98f286ce0eafcb77e85ddfc1e8b150b8aeb3c192460d98f7346ae4ae": {
       "normalizationVersion": 1,
       "sourceHash": "d741deb02d47674ab293c1df6aa1bed212295549553178a229cb44fe1149a3d6",
@@ -519,6 +547,34 @@
         "costUsd": 0.000051
       }
     },
+    "0a8558fa70d3509f551e3c63605a624f3878d35ecfed3c17396c6e5982893429": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2c77d7ba6285b621d2cda6e964364928419a451098e4d5cf1862924e5f4fa7c",
+      "contextFingerprint": "59ad231cdd3959a25fd1ab7e830a6ecb98600f2ee2fe1f1aab2943504d5eaade",
+      "sourceText": "将文件保存为 `TEST.md`（注意扩展名是 .md）",
+      "translatedText": "Save the file as `TEST.md` (note that the extension is \\.md)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "0a8753ac4e7e0818bf69207103f4698f7eb6af4294de6db3989ec80cdb69f4bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "90d2b0fd6cef4753ffa1cd969c617c1dc0293ed302656c0eaaf990cbaa1cd577",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "另外区块是可以嵌套的，一个 > 符号是最外层，两个 > 符号是第一层嵌套，以此类推：",
+      "translatedText": "In addition, blocks can be nested\\. A single \\> symbol is the outermost level, two \\> symbols indicate the first level of nesting, and so on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
     "0a8a1bbb499c8cd81f7f24f23ee0ef8527916c12f0a323b4546370b5ae443e98": {
       "normalizationVersion": 1,
       "sourceHash": "a68d4b354220249da6638bd1107af0a5bb94845608d5482e2fabc57896d87c1b",
@@ -587,6 +643,20 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "0a97e0dc78ad739816948a59112bea55bbf182089463af6766411e739f5cb919": {
+      "normalizationVersion": 1,
+      "sourceHash": "efc0c2802714c79d4501f547c83ce460a1461005552eab61184eeb0e1382aee0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "VideoCapture类变量同时提供了可以查看视频属性的get()函数，通过输入指定的标志来获取视频属性，例如视频的像素尺寸、帧数、帧率等。VideoCapture类中get()方法中的常用标志和含义在表2-5中给出。",
+      "translatedText": "The VideoCapture class variable also provides a get() function that can be used to view video properties\\. By inputting specified flags, video properties such as the pixel dimensions, frame count, and frame rate of the video can be obtained\\. The commonly used flags and their meanings in the get() method of the VideoCapture class are given in Table 2\\-5\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 79,
+        "costUsd": 0.000151
       }
     },
     "0a9e42294d8dc97ad4f31579c81beda06665c06d9a62d35957df713259aa6a2c": {
@@ -897,6 +967,20 @@
         "costUsd": 0.000106
       }
     },
+    "0ae9c13fed7793a232659742c6f77a404beb8f5254775d2a1def532465dfbeb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "b505a180f48962cf90a0ac6d1d1a8b21389374fb9107dd5f84db1182eebf72d1",
+      "contextFingerprint": "974f48b28b476b257c654e6064e10e9d9d0a76489a57aa0afb9d87d1cf9fe8aa",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image38.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image38.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0aeaf00b4477ade1eeed2d9ddc6a1583c45c5a102069221e880ad48756d65573": {
       "normalizationVersion": 1,
       "sourceHash": "ab659482af1276ff420fe0107a148b867f43c1da6f013ded455da5b5d85cd0e2",
@@ -993,6 +1077,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "0afd644a49229680aa5ff5e18d4730d3357d7ebe397a70aa77e3562857f7514b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d114ece28aac1c6f2733455ebe18a68260580ca88fac109840ea014d4c38f175",
+      "contextFingerprint": "bf9457bd9e21ed89039371ae437f306974f1c1a431e24a50b36cf4975d055bd7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511471149-6a59b1d1.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511471149-6a59b1d1.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0afded768580906d494f86e840454d4a5c0b615da85c037c8706d1abe3a4b570": {

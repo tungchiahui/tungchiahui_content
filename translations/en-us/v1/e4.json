@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "e405004793746c636d7b461030426638f54989b67ebd5595176c85edc233ae24": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce5aacd5d3babf4d4b3ade0f89e285f2ef3217f8169cfcd16d72680a30c413fb",
+      "contextFingerprint": "f375a49e4c9f160bf6445b66f17543331f6f4140e4b43ed48b6b2b08d52180fa",
+      "sourceText": "| STM32 系列 | 常见型号示例 | OpenOCD Target |\n|---|---|---|\n| **STM32C0** | C011、C031、C071 | `\"target/stm32c0x.cfg\"` |\n| **STM32F0** | F030、F072 | `\"target/stm32f0x.cfg\"` |\n| **STM32F1** | **F103C8、F103RC** | **`\"target/stm32f1x.cfg\"`** |\n| **STM32F2** | F205、F207 | `\"target/stm32f2x.cfg\"` |\n| **STM32F3** | F303、F334 | `\"target/stm32f3x.cfg\"` |\n| **STM32F4** | **F405、F407、F429、F446** | **`\"target/stm32f4x.cfg\"`** |\n| **STM32F7** | F746、F767 | `\"target/stm32f7x.cfg\"` |\n| **STM32G0** | G030、G070、G0B1 | `\"target/stm32g0x.cfg\"` |\n| **STM32G4** | G431、G474 | `\"target/stm32g4x.cfg\"` |\n| **STM32H5** | H503、H563、H573 | `\"target/stm32h5x.cfg\"` |\n| **STM32H7** | **H743、H750、H745、H747** | **`\"target/stm32h7x.cfg\"`** |\n| STM32H7RS | H7R3、H7S3 | `\"target/stm32h7rsx.cfg\"` |\n| STM32L0 | L031、L073 | `\"target/stm32l0.cfg\"` |\n| STM32L1 | L151、L152 | `\"target/stm32l1.cfg\"` |\n| STM32L4 / L4+ | L432、L476、L496、L4R5 | `\"target/stm32l4x.cfg\"` |\n| STM32L5 | L552、L562 | `\"target/stm32l5x.cfg\"` |\n| STM32N6 | N657 等 | `\"target/stm32n6x.cfg\"` |\n| STM32U0 | U031、U073 | `\"target/stm32u0x.cfg\"` |\n| STM32U3 | U385 等 | `\"target/stm32u3x.cfg\"` |\n| STM32U5 | U575、U585、U5A5 | `\"target/stm32u5x.cfg\"` |\n| STM32WB | WB55 等 | `\"target/stm32wbx.cfg\"` |\n| STM32WBA2 | WBA2xx | `\"target/stm32wba2x.cfg\"` |\n| STM32WBA5 | WBA5xx | `\"target/stm32wba5x.cfg\"` |\n| STM32WBA6 | WBA6xx | `\"target/stm32wba6x.cfg\"` |\n| STM32WL | WL55、WLE5 | `\"target/stm32wlx.cfg\"` |\n| **STM32C5** | C53、C54、C55、C56、C59、C5A | **见下方说明** |",
+      "translatedText": "| STM32 Series | Common Model Examples | OpenOCD Target |\n|---|---|---|\n| **STM32C0** | C011, C031, C071 | `\"target/stm32c0x.cfg\"` |\n| **STM32F0** | F030, F072 | `\"target/stm32f0x.cfg\"` |\n| **STM32F1** | **F103C8, F103RC** | **`\"target/stm32f1x.cfg\"`** |\n| **STM32F2** | F205, F207 | `\"target/stm32f2x.cfg\"` |\n| **STM32F3** | F303, F334 | `\"target/stm32f3x.cfg\"` |\n| **STM32F4** | **F405, F407, F429, F446** | **`\"target/stm32f4x.cfg\"`** |\n| **STM32F7** | F746, F767 | `\"target/stm32f7x.cfg\"` |\n| **STM32G0** | G030, G070, G0B1 | `\"target/stm32g0x.cfg\"` |\n| **STM32G4** | G431, G474 | `\"target/stm32g4x.cfg\"` |\n| **STM32H5** | H503, H563, H573 | `\"target/stm32h5x.cfg\"` |\n| **STM32H7** | **H743, H750, H745, H747** | **`\"target/stm32h7x.cfg\"`** |\n| STM32H7RS | H7R3, H7S3 | `\"target/stm32h7rsx.cfg\"` |\n| STM32L0 | L031, L073 | `\"target/stm32l0.cfg\"` |\n| STM32L1 | L151, L152 | `\"target/stm32l1.cfg\"` |\n| STM32L4 / L4\\+ | L432, L476, L496, L4R5 | `\"target/stm32l4x.cfg\"` |\n| STM32L5 | L552, L562 | `\"target/stm32l5x.cfg\"` |\n| STM32N6 | N657, etc\\. | `\"target/stm32n6x.cfg\"` |\n| STM32U0 | U031, U073 | `\"target/stm32u0x.cfg\"` |\n| STM32U3 | U385, etc\\. | `\"target/stm32u3x.cfg\"` |\n| STM32U5 | U575, U585, U5A5 | `\"target/stm32u5x.cfg\"` |\n| STM32WB | WB55, etc\\. | `\"target/stm32wbx.cfg\"` |\n| STM32WBA2 | WBA2xx | `\"target/stm32wba2x.cfg\"` |\n| STM32WBA5 | WBA5xx | `\"target/stm32wba5x.cfg\"` |\n| STM32WBA6 | WBA6xx | `\"target/stm32wba6x.cfg\"` |\n| STM32WL | WL55, WLE5 | `\"target/stm32wlx.cfg\"` |\n| **STM32C5** | C53, C54, C55, C56, C59, C5A | **See the explanation below** |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 489,
+        "outputTokens": 370,
+        "costUsd": 0.000591
+      }
+    },
     "e40509f31f1f1fdd012bd2f755ad9214e8141b972870cec34f78098aa366c0d7": {
       "normalizationVersion": 1,
       "sourceHash": "4fd404fa4bcae88ca555b54ecfb39757a307bd026e15e03e7022f1ef70ae4699",
@@ -97,6 +111,20 @@
         "inputTokens": 142,
         "outputTokens": 27,
         "costUsd": 0.000075
+      }
+    },
+    "e413b2d125669f0e0cc37b19605d5dfb064bb4d0fd913ad55441b4dd9a845e97": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cf5849926af53a3d0e81787a56bed4549da9de93d27c633410cb0823ec397c1",
+      "contextFingerprint": "e37effd31f41ada2f7c777bee9457e425b39b3566864dfe61b2292a1f14ce086",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776423543189.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776423543189.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e413d624bc232855f1335b70c9849881986c0e6cfb74c1d05e3c57a70981cbc3": {
@@ -295,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "e444cd969cddfabb6a52350027ac955f00eb5591e112b518129d8eba84148937": {
+      "normalizationVersion": 1,
+      "sourceHash": "801f7204c3d250440cbc805493dd705520a7fe6bc8266c9bbf5b2e3e429e1d14",
+      "contextFingerprint": "4591c980993f36a3cafb81239f2fbc02be15bbdba7869e26a7be5afd0645da8d",
+      "sourceText": "然后`sudo dnf install ./Ozone`然后tab补齐。",
+      "translatedText": "Then`sudo dnf install ./Ozone`Then press Tab to complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "e4470fe7f23ab4ec9d94565cb2cb491bc054224cf635c40f9b28b1d04d6d3c55": {
       "normalizationVersion": 1,
       "sourceHash": "a2a802b5034cbe20603c119e98705d1c48683f0f8812aac31894253b888a1f59",
@@ -447,6 +489,20 @@
         "inputTokens": 141,
         "outputTokens": 19,
         "costUsd": 0.000066
+      }
+    },
+    "e47a9a26cc4e3eec3974ef7ac9fad1fa0b45659955b00cc02ab4ad5610cb51e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a050e4fb3c43a753212d3f13ab6e5f62aaba7e912f5d9dee2583394f2810411",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表3-1 cvtColor()函数颜色模型转换常用标志参数",
+      "translatedText": "Table 3\\-1 Common Flag Parameters for Color Model Conversion in the cvtColor() Function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "e47c5af58c1a40c15e5fb0c1201179d5cff00d373d768b7bba51dc6e434484ba": {
@@ -811,6 +867,20 @@
         "inputTokens": 173,
         "outputTokens": 63,
         "costUsd": 0.000128
+      }
+    },
+    "e4dd86d7d0ef93888946adec33f11bbcfd71597fe997020389eef5d3ad030dbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8277236dfe7286507077d8f687684d3d08fb334705145d667a5e9238d91e979",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*6. 不同颜色模型间的互相转换*",
+      "translatedText": "*6\\. Interconversion Between Different Color Models*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "e4e73a4a0e7fed858b26d0299895b85e2b0c6558a81a889ba7e0851f05e2fd33": {

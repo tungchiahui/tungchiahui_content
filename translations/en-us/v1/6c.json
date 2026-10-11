@@ -85,6 +85,20 @@
         "costUsd": 0.000053
       }
     },
+    "6c165e60905eb27dc4dbbb3c8c2badfe31d7b89b1afbb56760094cfe213626b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "88861ef6f8c4211af2e1a951671e2c6650b8fe8fe52d48662621c6ef178cdde6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**粗斜体组合：**使用三个星号 *** (常用) 或三个下划线 ___。",
+      "translatedText": "\\*\\*Bold\\-italic combination:\\*\\* Use three asterisks \\*\\*\\* (commonly used) or three underscores \\_\\_\\_\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
     "6c1f3acacc2c380db3f831d4d3a0c06db31b1f28bb12e88f1b23a4447822f9d0": {
       "normalizationVersion": 1,
       "sourceHash": "6e4ff00544ab9d942699b72f6f234a932d7587a2e1c3d60e95935a2afccabf27",
@@ -153,6 +167,20 @@
         "inputTokens": 144,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "6c30d429139b36c0acd2ab1b08eb1b4859f45d8acba2d3e041ef4e73cd14a7b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "f535a28a3733a406bae3f8d8f80d176126235e9b498c4b504efc89b51fee894f",
+      "contextFingerprint": "c4a4a558fe13017d79e2136a131c3c5a366bfb15dbe002ef224b4ea8815177bf",
+      "sourceText": "`mode`是配置输入还是输出的模式,你可以`go to definition`看看`gpio_mode_t`.<br>",
+      "translatedText": "`mode`It is the mode for configuring input or output, you can`go to definition`take a look`gpio_mode_t`\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
       }
     },
     "6c30ea66f17729964b53899b79473001c25132b9fb74072cff71fccb12571727": {
@@ -589,6 +617,20 @@
         "costUsd": 0.000079
       }
     },
+    "6ca1db5cd1979c79c9aa79fd3fd7f822679c5e9697c5aea9be10d2c070fe5fad": {
+      "normalizationVersion": 1,
+      "sourceHash": "2788dd05e3dc08ccf65b5d45e7f0934ac16307b6be690ea5d10e4a32012a633a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表格单元格内可以使用大部分 Markdown 语法：",
+      "translatedText": "Most Markdown syntax can be used within table cells:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "6ca29022b8fe77d90383c410758307069538ac4ea9f670c2828e471b8c9976e4": {
       "normalizationVersion": 1,
       "sourceHash": "a30806bda6858abe577a9751eb100f7cc44f9b5c59dcc559b0eaf8d5bd6c3d4c",
@@ -783,6 +825,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "6cd75e60717724647d1e1c6e1b9b31f513fb6098aa2add296a976e393ac6c900": {
+      "normalizationVersion": 1,
+      "sourceHash": "895d7916038fea3d5d1a958af51c410f1e10c04a97f35ebb23b46f9bbf606bdf",
+      "contextFingerprint": "09aca4b6c72672ea8b329321eb7c39ed6536ee61d8dd03a5398b225e34c01a34",
+      "sourceText": "然后去main.c中引用cpp_interface.h头文件，并将cpp_main()函数在main函数的这个地方调用。(我这里是开RTOS了，所以需要在启动RTOS之前调用cpp_main函数，如果你是没有用RTOS的裸机程序，则在while (1)的上方调用cpp_main即可)",
+      "translatedText": "Then reference the main.c header file in cpp_interface.h, and call the cpp_main() function at this location in the main function\\. (In my case, RTOS is enabled, so the cpp_main function needs to be called before starting the RTOS\\. If you are using a bare\\-metal program without an RTOS, simply call cpp_main above while (1)\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 121,
+        "costUsd": 0.000215
       }
     },
     "6ce09680a7e1bb44d3fac485e395055612454aa628f525bad1935f79f3510a0b": {

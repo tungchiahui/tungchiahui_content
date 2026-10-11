@@ -29,6 +29,20 @@
         "costUsd": 0.000083
       }
     },
+    "6008d5eb42b1e27e3865ede67c3ad8f4256411aee5712bce1ded0b801bb8219e": {
+      "normalizationVersion": 1,
+      "sourceHash": "be74c657d4964df377eaabea5b15d8bc3fa500800d4794de6fc7411332c8a3db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接引用网络图片：",
+      "translatedText": "Directly reference an online image:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "600d7659861a58932a865a5c0a1c31acb821b995a47f5ece96426aee475dcfcd": {
       "normalizationVersion": 1,
       "sourceHash": "1dac02f29057109c0424c2ab75c50a9659e142d6e7af377aad19aebf298fa9ef",
@@ -617,6 +631,34 @@
         "costUsd": 0.000124
       }
     },
+    "60854c2b52d14704be82870bc68934042b798be5761e662291d60c944b7839f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e83df2f2645fa8676603f4b3c7678a32fbe9341d2ab183e1e056c114d004593",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，OpenCV 根据数值变量的存储位数，定义了一套专用的数据类型体系。表 2-1 列出了 OpenCV 中常用的数据类型及其取值范围。",
+      "translatedText": "Therefore, OpenCV defines a dedicated data type system based on the number of storage bits of numeric variables\\. Table 2\\-1 lists the commonly used data types in OpenCV and their value ranges\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "608ae855f04959a123b4e31bac04240c5c431b7d639f931a48578bca64d715d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "185c8ad685e57963d8d539a38891bf414351de7fcb12ff1672fcfc3100492b71",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*1. 通过at方法读取Mat类矩阵中的元素*",
+      "translatedText": "*1\\. Read elements in a Mat class matrix using the at method*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "608b01058eddadbd9bdfeacba174cd26d5d2128cb24f5021d935d1ae1f10c3a1": {
       "normalizationVersion": 1,
       "sourceHash": "fdd50fd6c765a65b115b8544584f6deeb173017843d66affb4dfe76035e7e4c7",
@@ -659,6 +701,20 @@
         "costUsd": 0
       }
     },
+    "6091ff9482abc96337b7143e7c2adf70685d6403628dc95e5b11c6de43dc56dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e73077b221408b2aac9a9dcb2efbf47845a4a37ebaaad10ddf16d08c1e06301",
+      "contextFingerprint": "ccca112ec4adda351a62628f441f26c83756685d38967f276a0a36f35f9318d7",
+      "sourceText": "类似C++的`const`.",
+      "translatedText": "similar to C++`const`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "609ee6af4893b87f4d16100eae11c0cc5eff284efc2af372ab473e0cef71b803": {
       "normalizationVersion": 1,
       "sourceHash": "838731ae0dc29bdd7ba26828bf308ed0ca4ea56a7c246a5dcf57a0762b76f649",
@@ -699,6 +755,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "60a732226f527295c04a664d228ac00a0011ff8d6d49d933c299aef119496337": {
+      "normalizationVersion": 1,
+      "sourceHash": "6347ec850f8cb1a7e4fd45e83ef5162703e7b4f5154af4aa87502187d609b630",
+      "contextFingerprint": "d3e491e3c3cc8cc730b185daa81194896f4dc1f9bd18461fec8479924a9ce10f",
+      "sourceText": "电平触发：高、低电平触发，要求保持中断的电平状态直到 CPU 响应。<br>\n边沿触发：上升沿和下降沿触发，这类型的中断一旦触发，CPU 即可响应。<br>",
+      "translatedText": "Level\\-triggered: high\\-level and low\\-level triggering, requiring the interrupt's level state to be held until the CPU responds\\.<br> Edge\\-triggered: rising\\-edge and falling\\-edge triggering; once this type of interrupt is triggered, the CPU can respond immediately\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 63,
+        "costUsd": 0.000129
       }
     },
     "60a8cfaf5317752716ddcc31a45258cb93b74612ebc4367bc7f954dc24914c56": {
@@ -799,6 +869,34 @@
         "costUsd": 0.000065
       }
     },
+    "60be1af70c8986d28e69c2e1bb788f7bd59b47b15fd431c8525589c8ea3fdc35": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba6d1801ff9c9d0f7ac046899a73d531516ee4ef742457f853d62bd831891067",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码清单2-33中的第一行默认构造函数的使用方法与VideoCapture()相同，都是创建一个用于保存视频的数据流，后续通过open()函数设置保存文件名称、编解码器、帧数等一系列参数。第二种构造函数需要输入的第一个参数是需要保存的视频文件名称，第二个参数是编解码器的代码，可以设置的编解码器选项在表2-7中给出，如果赋值\"-1\"，则会自动搜索合适的编解码器，需要注意的是，其在OpenCV 4.0版和OpenCV 4.1版中的输入方式有一些差别，具体差别在表2-7给出。第三个参数为保存视频的帧率，可以根据需求自由设置，例如实现原视频二倍速播放、原视频慢动作播放等。第四个参数是设置保存的视频文件的尺寸，这里需要注意的是，在设置时一定要与图像的尺寸相同，不然无法保存视频。最后一个参数是设置保存的视频是否是彩色的，程序中，默认的是保存为彩色视频。",
+      "translatedText": "The usage of the first default constructor in Code Listing 2\\-33 is the same as that of VideoCapture(), both create a data stream for saving video, and subsequently set a series of parameters such as the save file name, codec, frame count, etc\\. through the open() function\\. The second constructor requires as its first input parameter the name of the video file to be saved, and as its second parameter the codec code\\. The codec options that can be set are given in Table 2\\-7\\. If \"\\-1\" is assigned, an appropriate codec will be automatically searched for\\. It should be noted that there are some differences in the input method between OpenCV 4\\.0 and OpenCV 4\\.1, and the specific differences are given in Table 2\\-7\\. The third parameter is the frame rate for saving the video, which can be freely set according to requirements, for example, to achieve double\\-speed playback of the original video, slow\\-motion playback of the original video, etc\\. The fourth parameter is to set the size of the saved video file\\. It should be noted here that when setting it, it must be the same as the image size, otherwise the video cannot be saved\\. The last parameter is to set whether the saved video is in color\\. In the program, the default is to save as a color video\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 330,
+        "outputTokens": 285,
+        "costUsd": 0.000441
+      }
+    },
+    "60bee851f2fee2a17fbe1c29f7903802368505124cf6a5242401e2c7130080b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4803b3f4d2d64e94ad975a637a4d2eda44cfaaa6812107f8d340423bebcee238",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*1. RGB颜色模型*",
+      "translatedText": "*1\\. RGB color model*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "60c0f1341b2ecb7f9a23c242f885356c5d2fdbd52bbe3497f17aa8e035dd5bc6": {
       "normalizationVersion": 1,
       "sourceHash": "65c2b1abc92b2f6231bb88b90c11f38c85802c9c7f7dab13de2ac99ff28cad86",
@@ -897,6 +995,20 @@
         "costUsd": 0.000052
       }
     },
+    "60d3979f8cf7495c12b86ffae64bb8583611bcb0ef7f08ad551a2da8389de32d": {
+      "normalizationVersion": 1,
+      "sourceHash": "73dea4500998eb025e8e2e33a96554aaa7be09ec654c2463aa03454b30ffd242",
+      "contextFingerprint": "2b7ae5875b018dacf362ce26f4bc10a086f1ab9b86732ee72f4566f5874a034a",
+      "sourceText": "- 定义：Dart语言中，dynamic用来声明动态类型\n- 特点：允许变量运行时自由改变类型, 同时绕过编译时的静态检查\n- 语法1：`dynamic 属性名 = 值;`",
+      "translatedText": "- Definition: In the Dart language, dynamic is used to declare a dynamic type\\.\n- Feature: Allows a variable to freely change its type at runtime, while bypassing compile\\-time static checks\\.\n- Syntax 1:`dynamic 属性名 = 值;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
     "60d83c9b44142736b26f0c88fc9db4bb13aac383f7bee97c3f2996d44ceec351": {
       "normalizationVersion": 1,
       "sourceHash": "5bb0c7c802d9d9de1e5c88b3e7c3a69db8154fd82dc5a73b2055354c7c690c97",
@@ -937,6 +1049,20 @@
         "inputTokens": 135,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "60e5813c7243dd2fd2c63df6841918c44a02e310d4869a0193b16d5cb08bdb39": {
+      "normalizationVersion": 1,
+      "sourceHash": "1cf8cd1d02b2c9d666d516d63cc69e316c8526844db2651bc5c2877e348c6b54",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**从指定数字开始：(但必须连续)**",
+      "translatedText": "**Starting from the specified number: (but it must be consecutive)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "60e7daa2bfb57b6589b981b6cd3faef60b9b57d8ea0fd4c2d30bc20cac4e1bbf": {

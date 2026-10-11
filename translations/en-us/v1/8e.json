@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "8e034bebb9bca94983a83f2d9ce306e163db1ce50ebcfc4fa88a6b9445b4bf3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a3c885ba991b9a2f42b66a3455d4ba2caa5e2dd16555ee0d64cb05bb22ef411",
+      "contextFingerprint": "21d0e8b540160aa848120458aa94fa789ba198d4c0fb6911425b92dfbce7dc6d",
+      "sourceText": "将`configTICK_RATE_HZ`配置为`1000`,这样周期为1ms,`vTaskDelay()`函数的单位也就变成了ms.\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768316998368.webp)",
+      "translatedText": "Set`configTICK_RATE_HZ` configured as`1000`, so the period is 1 ms, and the`vTaskDelay()` unit of the function also becomes ms\\. ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768316998368.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "8e04d168272f6d7be7064a06555d1454b91ff08d5bddcbac3f9e5d579611c850": {
       "normalizationVersion": 1,
       "sourceHash": "e79bbf7cf2753b772907f2722834dca043d953ff87940d170b9edc9df0ef98f7",
@@ -141,6 +155,20 @@
         "costUsd": 0.000106
       }
     },
+    "8e29f7a919aa4737ebb5b9adc225978acce1d7e9fd21020e0cd8b2995b2536c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "05a91048c4f9e82fde72dfd20e83570355947a1893fee7471245bbd0e707cf4d",
+      "contextFingerprint": "d4a8993d943be2fdc47892e8c7ae1c901c30ca7523395f5202dafb065bc2c91a",
+      "sourceText": "安装完成后，检查 `nuxt.config.ts`。正常应该类似：",
+      "translatedText": "After installation is complete, check `nuxt.config.ts`\\. Normally it should look like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "8e2e48fc37fc16861672a975a17da26c4ef8746c4257ef02b67e92761fa52141": {
       "normalizationVersion": 1,
       "sourceHash": "1245586a8fc9a3c47d3a216e8eaa88fd4c9c46086eb5dbce0804b26b3e8052b7",
@@ -251,6 +279,20 @@
         "inputTokens": 209,
         "outputTokens": 104,
         "costUsd": 0.000188
+      }
+    },
+    "8e3c479ad3016f5ccb7cc618509d9ea2e05d7edd7409b16525362507e467a2e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e622f767676982184b5ebee7b2c81286592efed2e2c3972c0a2241a594f62c9e",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- winname: 要显示图像的窗口的名字，用字符串形式赋值。\n- mat: 要显示的图像矩阵。",
+      "translatedText": "- winname: Name of the window where the image is to be displayed, assigned as a string\\.\n- mat: Image matrix to be displayed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 35,
+        "costUsd": 0.000088
       }
     },
     "8e3d08169bfcfffea6a3c4c58407c3a063310c4b6abe2060629d1ddfc089f02c": {
@@ -603,6 +645,20 @@
         "costUsd": 0.000056
       }
     },
+    "8eaef703dedf7c48aea2d504c2a96bb0eda44d6ece70624cb273824f9f8a5802": {
+      "normalizationVersion": 1,
+      "sourceHash": "029cf143e69a43738a09d2477af8ee30b83162904078612e7ef229676e2e75b8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### OpenOCD使用事项",
+      "translatedText": "### OpenOCD Usage Notes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "8eb6836ea87079abc03dfa5389941388b9ea489f2b0f5b6358115b949aab791d": {
       "normalizationVersion": 1,
       "sourceHash": "efd9e6cb0bfd25c4519201ff117fabbb07c4c439c07e44e687e4a477f6bd061f",
@@ -783,6 +839,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "8edf0d43c6e266d658959e98d8530c08bc7a48a6712b65ecfd386eb4253300c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebc59016651baf88f2959ab64e0ea8936492f4dafc60d4adf96dc7aeb4652df7",
+      "contextFingerprint": "a160b013f755345ab6c67662a8b296704f30b39ac38b7334eff5bed1fbbba471",
+      "sourceText": "编辑 → 新建，把`C:\\xpack-openocd-0.12.0-7\\bin`加上",
+      "translatedText": "Edit → New, add the`C:\\xpack-openocd-0.12.0-7\\bin`plus",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "8ee01e7f229007c032224b2fbb538d258c7e0fce033dd27858d8be7d19460de1": {

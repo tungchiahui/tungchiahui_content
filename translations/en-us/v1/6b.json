@@ -43,6 +43,20 @@
         "costUsd": 0
       }
     },
+    "6b0a0de2c16f4f362d8d7e0c75b4af4fb01bbb9fa4b457f214a5361070de687e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f89fa9c8a0c2c61c76afebdcf613c4333231b7e12e358cb266345a5802f270b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**粗体语法：**使用两个星号 ** (常用) 或两个下划线 __ 包围文字：",
+      "translatedText": "\\*\\*Bold syntax:\\*\\* Use two asterisks \\*\\* (commonly used) or two underscores \\_\\_ to surround the text:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
     "6b0ab493b2dfed89a87715079898b4cdc5e0377cc4cbc74ad198956131bfa39d": {
       "normalizationVersion": 1,
       "sourceHash": "6fc5c9886332db7ef381a9a077a8cc9df5e5dca88c05b81a6261cfb009a9e7e2",
@@ -197,6 +211,20 @@
         "costUsd": 0.000072
       }
     },
+    "6b2f8265f7455cbb1c5171fe6a391bf22796d8588492090e512d21664bb30bfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2abe027fbe0912f051114a2615214929a236577cdeb43e2a9ed0ef06b822233",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "YUV模型是电视信号系统所采用的颜色编码方式。这3个变量分别表示像素的亮度(Y)、红色分量与亮度的信号差值(U)、蓝色与亮度的差值(V)。这种颜色模型主要用于视频和图像的传输，该模型的产生与电视机的发展历程密切相关。由于彩色电视机在黑白电视机发明之后才产生，因此用于彩色电视机的视频信号需要能够兼容黑白电视机。彩色电视机需要3个通道的数据才能显示彩色，而黑白电视机只需要一个通道的数据，因此，为了使视频信号能够兼容彩色电视机与黑白电视机，将RGB编码方式转变成YUV的编码方式，其Y通道是图像的亮度，黑白电视只需要使用该通道就可以显示黑白视频图像，而彩色电视机通过将YUV编码转成RGB编码方式，便可以在彩色电视机中显示彩色图像，较好地解决了同一个视频信号兼容不同类型电视机的问题。RGB模型与YUV模型之间的转换关系如式(3-1)所示，其中RGB取值范围均为0～255。",
+      "translatedText": "The YUV model is the color encoding method used in television signal systems\\. These three variables respectively represent the brightness (Y) of a pixel, the difference between the red component and the brightness signal (U), and the difference between blue and brightness (V)\\. This color model is mainly used for the transmission of video and images, and the emergence of this model is closely related to the development history of television sets\\. Since color televisions were invented after black\\-and\\-white televisions, video signals used for color televisions needed to be compatible with black\\-and\\-white televisions\\. Color televisions require data from 3 channels to display color, whereas black\\-and\\-white televisions require data from only one channel\\. Therefore, in order to make video signals compatible with both color televisions and black\\-and\\-white televisions, the RGB encoding method is converted into the YUV encoding method\\. Its Y channel is the brightness of the image, and black\\-and\\-white televisions need only use this channel to display black\\-and\\-white video images, while color televisions can display color images by converting YUV encoding into RGB encoding\\. This better solves the problem of the same video signal being compatible with different types of television sets\\. The conversion relationship between the RGB model and the YUV model is shown in Equation (3\\-1), where the value range of RGB is all 0 to 255\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 333,
+        "outputTokens": 280,
+        "costUsd": 0.000436
+      }
+    },
     "6b3eb5d17bef8fed868ee3105f85e291a071a1524cd51c2ae80a5a9581b80928": {
       "normalizationVersion": 1,
       "sourceHash": "de469c772ae1e315c2a4a21785f46af651ffa6cbb226b7646b91971a052546f7",
@@ -251,6 +279,20 @@
         "inputTokens": 155,
         "outputTokens": 35,
         "costUsd": 0.000089
+      }
+    },
+    "6b53f72f5992fabd846e16165ccd93de6405df5abdbfca127b592a726633a087": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe3a8210017f329428999c5eba4f4e2540e92e44d58c2be3ba712784f86f5eb6",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2. FTDI驱动",
+      "translatedText": "2. FTDI driver",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "6b590ef0332d9529138bff2ba269d5b3a1e100d2f5094cac32525f383824440a": {
@@ -461,6 +503,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "6b949cc51db1cface9c395dbc710be8d03bf24693ce068a397a6b21ebdccf6f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a44efe8bd2e9575b7a40ab3966a2ddfed3740197532738174c67b8a7f5fc707",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先要知道：",
+      "translatedText": "First, you need to know:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "6b97f8fa9a4e6d207af5576c94a30bc66637403049d1f6b2847fc5186b854a26": {
@@ -867,6 +923,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "6bf8716e5df17e8353102104aae6ae94636fb97a577d5fb882f074515146d053": {
+      "normalizationVersion": 1,
+      "sourceHash": "598e2332445c312edd09147d1689115c3e7d1aa94d40f4f6069cb8bb70fa8b1d",
+      "contextFingerprint": "da093e9d5c546fc222635ff3279acd19b8c410cee4f64d96f7ddb9c4d860ca07",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511882760-6afeb701.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511882760-6afeb701.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6bff4bee47f5e1db9f8487ef76fd23cbf971c201ca2bb0d49c143f0cf4161d32": {

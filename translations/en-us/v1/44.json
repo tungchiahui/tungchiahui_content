@@ -141,6 +141,20 @@
         "costUsd": 0
       }
     },
+    "4436fb42dd5ddbcd647c7021f72fb8632433794453a22ecc21417edaf967c9c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d599448ee7d90c353cf260beb86e005a3e2bc7a5618cbe418ccf3841d3e201f",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**表格中的特殊字符**",
+      "translatedText": "**Special characters in the table**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "44382808cbda3c5cb72bc1a31f6dde7edd93862b67ccdc4d0c7ffc393feb7ecc": {
       "normalizationVersion": 1,
       "sourceHash": "9bb3c2744ca11c1e4473b44e2248761e1cf786d3fab5f8b121a8c98c12176429",
@@ -167,6 +181,20 @@
         "inputTokens": 142,
         "outputTokens": 27,
         "costUsd": 0.000075
+      }
+    },
+    "443a99a105fb9bcc43fe500452016181affb80afc78ad821a1f24a443db4cd46": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab0b0148ee185a98928947c33f5188b15b5839ff86b7d7486a94da569c820d15",
+      "contextFingerprint": "425bc88595077e3de27434242a98c9aee7daadebdded15ecda1c509ccef0f6c0",
+      "sourceText": "然后`sudo dnf install ./JLink`然后tab补齐。",
+      "translatedText": "Then`sudo dnf install ./JLink`Then press Tab to complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "443b2c7d0aa82ea22c089c01680ab9f270cc422331ccf696e8f26e191307fa5c": {
@@ -407,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "448d39dec6aaf62f86f9bd40b48a0ad885b863d212182bc7502cb47ea5efee48": {
+      "normalizationVersion": 1,
+      "sourceHash": "cea965e1ac27eb8b74a8a86da8d15af54ac059d3526a92ba4c864b27eed1e61a",
+      "contextFingerprint": "db1717519db4242a534cdeef9bdc48089b826c88d80fff4786089bc97631e814",
+      "sourceText": "如图才是成功,不是下面这样的都是没下载成功的\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935331654.webp)",
+      "translatedText": "The image is what success looks like; anything different from the following means the download was unsuccessful\\. ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935331654.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
     "44977be632c476387b1dccb71422b08fc501bdcc623cb1e5bd3d9cd091639ad1": {
       "normalizationVersion": 1,
       "sourceHash": "5572c51925cf77bb0f3e24c8799dd1a92fbed9e71ddbdf075d4ff589c9cfca87",
@@ -547,6 +589,20 @@
         "costUsd": 0.000428
       }
     },
+    "44c482ddb2af002c5a342a779c4232fe2c9b4cff65e45f7017758b6d71ff592a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a3dd00857101e48999dcb7f75c3e55a5487422c498684ff9aa861935f6debd4",
+      "contextFingerprint": "e9647f87d0613629ebbbe2d3d106a0dccabc2c11fb47f242e267cd5b6ccc4ef5",
+      "sourceText": "GitHub README 文件\nGitHub 平台广泛使用 Markdown，特别是项目的 README 文件：",
+      "translatedText": "GitHub README file GitHub Markdown is widely used on platforms, especially for project README files:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 46,
+        "costUsd": 0.000106
+      }
+    },
     "44c6f5873185fc1f5b19e3e538f38bab532ffa71d523874a623b27136b8e1f01": {
       "normalizationVersion": 1,
       "sourceHash": "b6930f760c704a66434d35acb08a761cf5d0495b97f7da31c58702b5cf13af90",
@@ -587,6 +643,20 @@
         "inputTokens": 134,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "44cc2fc39e6d966e2848dfad14d8ddc232e859be7b270e36862ef050a532f7ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ec265bc548bd300f05f70a7b0f3f0054d0ba421ebe224f83f06ea3eb82b5099",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接下来讲解 Mat 类里可以存储的数据类型。根据官方给出的 Mat 类继承关系图，如图 2-2 所示，我们发现 Mat 类可以存储的数据类型包含 double、float、uchar、unsigned char, 以及自定义的模板等。",
+      "translatedText": "Next, we will explain the data types that can be stored in the Mat class\\. According to the official inheritance diagram of the Mat class, as shown in Figure 2\\-2, we find that the data types that the Mat class can store include double, float, uchar, unsigned char, as well as custom templates, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 74,
+        "costUsd": 0.000144
       }
     },
     "44d2e3e08f8e3205155af1b635344ff82d72fc79b7789f023579e304be5f7f0e": {

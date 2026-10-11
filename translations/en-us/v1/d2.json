@@ -197,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "d220c2cb913082078c2ccb5419246eca76d03b461397722b34204fcca45c6baf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9cb4bc1b04689d1a0d926875c95a48cb22102cf4bf2848fd66d0f24308ec1c1c",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 设置环境变量",
+      "translatedText": "#### Set environment variables",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "d22349a03880ba21e16d1bc55701d7bea9b3b5a28727578d77c2530d905b206b": {
       "normalizationVersion": 1,
       "sourceHash": "ec3733015e8efae7b89bb51cf3dc3e73095e34913110e41fa77fa1c428b748b5",
@@ -237,6 +251,20 @@
         "inputTokens": 146,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "d22dcc06caa0e7c49cdee5a0371382a91c03631d0afb7a0e212f4d14bb4ac1f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4fcb7c8d5ef8f75e2d2e404a2451d63f35e6372081a9b83aa686c338091998a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "算鸟算鸟，太麻烦了。",
+      "translatedText": "Forget it, forget it, it's too much trouble\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "d22f8f85a8a19cecf58a61fd890802d1969e8c4e161b41b7e487291236801235": {
@@ -449,6 +477,20 @@
         "costUsd": 0
       }
     },
+    "d2578b7f0a8346dd7671e6799417ccd220e675119d63105913e36102e90ee642": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9334c416b93f689d462b83714d93cfe1d85ea5b3205ed9f1bdd939ef80d7b3b",
+      "contextFingerprint": "396c990f1ba2adaa0bad291217329d566adc1cbd3c00f33414f0d5fbb2b38821",
+      "sourceText": "Windows如上图是`C:\\xpack-openocd-0.12.0-7\\bin\\openocd.exe`，所以`serverCwd`填`C:\\xpack-openocd-0.12.0-7\\bin`。\n但是不能直接填`C:\\xpack-openocd-0.12.0-7\\bin`，因为在`json`中`\\`是转义字符，所以傻逼Windows应该填`C:/xpack-openocd-0.12.0-7/bin`或者双反斜杠`C:\\\\xpack-openocd-0.12.0-7\\\\bin`。",
+      "translatedText": "Windows is as shown above`C:\\xpack-openocd-0.12.0-7\\bin\\openocd.exe`，so`serverCwd`fill in`C:\\xpack-openocd-0.12.0-7\\bin`。 But you cannot directly fill in`C:\\xpack-openocd-0.12.0-7\\bin`，because in`json`中`\\`is an escape character, so stupid Windows should fill in`C:/xpack-openocd-0.12.0-7/bin`or double backslashes`C:\\\\xpack-openocd-0.12.0-7\\\\bin`。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 54,
+        "costUsd": 0.000117
+      }
+    },
     "d258340208afff2930933b9be86b8b9abce0e545c0ac9036205e7675c57ef5fe": {
       "normalizationVersion": 1,
       "sourceHash": "ca347d9b3c5ae8df727a50147914a5d10fe61077ae6f74971437d4ab5ccdda07",
@@ -489,6 +531,20 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "d25fc9a9aafc7368b92870ed156f6bec5717ee3af7adf32799959b09fad299d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "05dd587eb3f72735814ab4fbde191da81c9e9c76079fa34fe72460392361b510",
+      "contextFingerprint": "8eff5169fee591e597ecce5e95677f02876a5dfdc824ebdaf4a4007d07f39b66",
+      "sourceText": "然后`sudo apt install ./Ozone`然后tab补齐。",
+      "translatedText": "Then`sudo apt install ./Ozone`Then press Tab to complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "d26276eec2c5524d57dd70f6bdb9e49500c49ed4ff452542b87a459d2b1092ff": {
@@ -573,6 +629,20 @@
         "inputTokens": 149,
         "outputTokens": 28,
         "costUsd": 0.000079
+      }
+    },
+    "d27a635f105dbd6c21f8f77c494ce646f80e2287b7e78054be8f920c79d343b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "06e34752b0a630da97050166a7982e461b83974bc7c28a7132c646d1b0031879",
+      "contextFingerprint": "4b50591c293ad722e1400febf6a1d14418d168a30d342367bfe30feb1ea5866b",
+      "sourceText": "随便打开一个文件夹，右键`This PC（此电脑）`，点`属性`\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768099767864.webp)",
+      "translatedText": "Open any folder, right\\-click`This PC（此电脑）`and click`属性`\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768099767864.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "d27e96a78417acf7a17e160ddda42daa766eb71e1fe85cc6ea6d904e101244e4": {

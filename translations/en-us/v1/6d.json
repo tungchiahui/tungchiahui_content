@@ -127,6 +127,20 @@
         "costUsd": 0.000109
       }
     },
+    "6d13295ad9c3fe92e4c0bf0d53cf43c464cffb956a881a7769d739ae3560e7f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9888b96a78cf5ed0f364e84ce67e14141a7c73e9bf1a39576b46fb7179956f5",
+      "contextFingerprint": "327c0d2e7b74f4af4a71caa6eecb406faede717d7e7e00ecefd0091c49741041",
+      "sourceText": "第二种构造函数在给出声明变量的同时也将视频数据赋值给变量。可以读取的文件种类包括视频文件（例如video.avi）、图像序列或者视频流的URL。其中读取图像序列需要将多个图像的名称统一为\"前缀+数字\"的形式，通过\"前缀+%02d\"的形式调用，例如，在某个文件夹中有图片img_00.jpg、img_01.jpg、img_02.jpg加载时，文件名用img_%02d.jpg表示。函数中的读取视频设置属性标签默认的是自动搜索合适的标志，因此，在平时使用中，可以将其默认，只输入视频名称。与imread()函数一样，构造函数同样有可能读取文件失败，因此需要通过isOpened()函数进行判断。如果读取成功，则返回值为true；如果读取失败，则返回值为false。\n通过构造函数只是将视频文件加载到了VideoCapture类变量中，当我们需要使用视频中的图像时，还需要将图像由VideoCapture类变量里导出到Mat类变量里，用于后期数据处理，该操作可以通过\">>\"运算符将图像按照视频顺序由VideoCapture类变量赋值给Mat类变量。当VideoCapture类变量中所有的图像都赋值给Mat类变量后，再次赋值的时候Mat类变量会变为空矩阵，因此可以通过empty()判断VideoCapture类变量中是否所有图像都已经读取完毕。",
+      "translatedText": "The second constructor assigns the video data to the variable while declaring the variable\\. The types of files that can be read include video files (e\\.g\\., video.avi), image sequences, or URLs of video streams\\. Reading an image sequence requires unifying the names of multiple images into the form \"prefix \\+ number\", invoked in the form \"prefix\\+%02d\"; for example, when a folder contains images img_00.jpg, img_01.jpg, img_02.jpg to be loaded, the filenames are represented as img\\_%02d.jpg\\. The property\\-setting tag for reading video in the function defaults to automatically searching for a suitable flag; therefore, in ordinary use, it can be left at its default, with only the video name entered\\. As with the imread() function, the constructor may also fail to read the file, so it must be checked using the isOpened() function\\. If the read succeeds, the return value is true; if the read fails, the return value is false\\. The constructor only loads the video file into the VideoCapture class variable\\. When we need to use the images in the video, we also need to export the images from the VideoCapture class variable to a Mat class variable for subsequent data processing\\. This operation can be performed using the \"\\>\\>\" operator to assign images from the VideoCapture class variable to the Mat class variable in video order\\. When all images in the VideoCapture class variable have been assigned to the Mat class variable, the Mat class variable will become an empty matrix on the next assignment; therefore, empty() can be used to determine whether all images in the VideoCapture class variable have been read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 443,
+        "outputTokens": 379,
+        "costUsd": 0.000588
+      }
+    },
     "6d13afee0615512778a50b0fe197540fb300dee96ff46d631138419f68967335": {
       "normalizationVersion": 1,
       "sourceHash": "fc352ed0c74f5e55a6350066d20d912a46603a549f13b145c94ed327b411e80b",
@@ -363,6 +377,20 @@
         "inputTokens": 160,
         "outputTokens": 46,
         "costUsd": 0.000104
+      }
+    },
+    "6d3e0e889e4a7fcbe35061cb8834e616216b9842d3fab444aa3fc427d0714c82": {
+      "normalizationVersion": 1,
+      "sourceHash": "538bb7442ce37e56adfe8bffbeff89879dde3ac2414777946a4d559307199018",
+      "contextFingerprint": "92d2198b8001f33d2dd68369612a822770fba8efc8e999b156df96c6d40e1320",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image66.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image66.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6d43833c390baf93ad4f1d3c14af0deeea19c75212dfbfae9a1871a631ca2bff": {
@@ -603,6 +631,20 @@
         "costUsd": 0
       }
     },
+    "6d979bb7f3cf0ffd3bf14c7a5cf5231a6e8c55459224c59aa37c1c22f2a73686": {
+      "normalizationVersion": 1,
+      "sourceHash": "09dd82d4c740f57bd1401f0c62ba4339c1d2204f21687ce00473ca2f79b8436c",
+      "contextFingerprint": "13f216284f910f3b05d55b2a51ffaa2bbd59134a8570fb6416972c8e9e51f390",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image120.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image120.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6d99d12ebbed9695a02f31f2394880340061134fc8224135b29e931f1f256b6b": {
       "normalizationVersion": 1,
       "sourceHash": "12203a6c45b346b6dd119489e3f2574a85595828fe470f44c3d89e16b93c7bac",
@@ -659,6 +701,34 @@
         "costUsd": 0.000083
       }
     },
+    "6d9fa62db9d535a226a3dacc196467e1179268f281028f6d0fec0b4e74bd87d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9e70ce8b292779eb85259482e81e8ed5e17981b9b9469787c27dccbeaf00b37",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "主流方式:",
+      "translatedText": "Mainstream approach:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "6da45ecc07d629f2e96a7b7821ab1b6f2eac6372b144bf62b31821a3386f4cd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "779038ded9fbee216abec4b37225a47cd27b1b298d755e0c7b7819972e36f14d",
+      "contextFingerprint": "230ddcabc582fd62b597512e603e4c3c45044a04f38f84a8b45b5186e14109c5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787038044648-70995bc0.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787038044648-70995bc0.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6da6b01cb92f840030626de7678e6cc2c208572acbece7d6a78ebf07ca0175b9": {
       "normalizationVersion": 1,
       "sourceHash": "200507e45f1563097aa36e2812cd203a3d886b361e3c190d3649a2e15ce09a57",
@@ -713,6 +783,20 @@
         "inputTokens": 199,
         "outputTokens": 90,
         "costUsd": 0.000168
+      }
+    },
+    "6dbceaa223b5726f87e1bc8ed43292781988580ad2775abd7c327cafc441cfc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "679b30413ecec44aa3edd4b471071d4e4584874ddbe0243541a60b79cc72c40d",
+      "contextFingerprint": "f367c4b29718b2c57210e75c63f37e96a66b4beb307adc626d0ca3bccd653abd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779922152-6ec02de5.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790779922152-6ec02de5.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6dbd5d197b42ed7fb17c3d1f9a0f49d88c13f68b66ffbc4b2e17365e9a741b52": {
@@ -925,6 +1009,20 @@
         "costUsd": 0.000211
       }
     },
+    "6de3375b570eb5c80e50705fea82530b7023ebc4a7189e1b2a03bafa00fb4887": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae676d2dc720b9fbeb8b8c795895bf381fdd29e41056d156952750c29c28a390",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Mat类支持的运算",
+      "translatedText": "#### Operations supported by the Mat class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "6de3eff5bae1fbb666980aaad79fe67d830672564c35505dae53721c9fb4ce0f": {
       "normalizationVersion": 1,
       "sourceHash": "55841295659e9031d1f70e12d98d3a06e4ccade74ba735dad7d45ae87fc3caa7",
@@ -953,6 +1051,20 @@
         "costUsd": 0.000052
       }
     },
+    "6de821365d46b0e0f5dc3d2534f470243e1e635b41eb56e50d4a5858fd0b97d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1ec9f9775046da6072f948a58e8680183c0b4a2c3269aff20672c5e9c749aaa",
+      "contextFingerprint": "3342b663a84a99f5b3899bdd00f5501065dd1c59ad5cd81fcc407c07ffcd15c0",
+      "sourceText": "![alt text](../../../public/images/2025-07-01-Nuxt.js网站框架/1784896538963.png)",
+      "translatedText": "![alt text](../../../public/images/2025-07-01-Nuxt.js网站框架/1784896538963.png)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6deaba57841561575dddbab15446d103e4d7451f98c7b73b086ee5cab0847bae": {
       "normalizationVersion": 1,
       "sourceHash": "bd73afd015367f5b3609b0ab99f57e850694c96790c93d1acb4a117e8382bf09",
@@ -965,6 +1077,20 @@
         "inputTokens": 154,
         "outputTokens": 38,
         "costUsd": 0.000092
+      }
+    },
+    "6debc6943894e6a6828aa53686994212401d1350b3af9a666a970509d4a85670": {
+      "normalizationVersion": 1,
+      "sourceHash": "e600a6f7185ed21a6ea2e27ae46206c2ac0f9f7efc2f8e10ebb9e74fa86e8218",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- 表头和数据行之间必须有分隔线\n- 分隔线至少需要三个连字符 ---\n- 两端的竖线 | 是可选的，但建议保留以提高可读性\n- 不需要严格对齐，但对齐后更美观",
+      "translatedText": "- There must be a separator line between the header and data rows\\.\n- The separator line requires at least three hyphens \\-\\-\\-\\.\n- The vertical bars \\| at both ends are optional, but it is recommended to keep them for readability\\.\n- Strict alignment is not required, but it looks better when aligned\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 67,
+        "costUsd": 0.000133
       }
     },
     "6dec3ca7533dabe6b025417afd5cc5520c0028e367608c50a7a4d9070eef71fe": {

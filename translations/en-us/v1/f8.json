@@ -155,6 +155,20 @@
         "costUsd": 0.000084
       }
     },
+    "f81ead5f732e537c7a3363b195941bb2ad852e6aa601d15c351787dd6246cf47": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2a8dec8224cb977f198146fd4ffcf5d910084c15e97b7a31ac4443364802065",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "elf,hex,bin都可以选，一般选elf就行。",
+      "translatedText": "elf, hex, and bin can all be selected; generally, selecting elf is sufficient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "f823a0ac89c2ad980656b6c446773291ef0de124f98f5f12b27c5e78a12a40cf": {
       "normalizationVersion": 1,
       "sourceHash": "06b4a7e0d95c732f85d071a9e976c9f161f12cb43486e0830ecf452ab7ccf7fc",
@@ -239,6 +253,20 @@
         "costUsd": 0.000066
       }
     },
+    "f8306b952ee61d86e208b9061c8e4d37915385a3852f7af9764242006b45c8d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7872accab1b7e17db8aa03d0cabdecadcfe5ed0c7178f1e21c99fc3e8a30e40f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "return返回的int的数据是读取到的电平是高还是低,0就是低,1就是高.",
+      "translatedText": "The int data returned by return indicates whether the read level is high or low; 0 means low, 1 means high\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "f83261f5aebb58795d3a45bc6b10d03cad7e1e658ca524ccde5f9dc14f57093d": {
       "normalizationVersion": 1,
       "sourceHash": "109297a03b8c0236b74aa98ae66595af320be4a1afa255107fba558a9a521e53",
@@ -265,6 +293,20 @@
         "inputTokens": 157,
         "outputTokens": 37,
         "costUsd": 0.000092
+      }
+    },
+    "f8386ae2f9b71746ef498a3cfee64fc575446da73a54df4dd21afd2bbe96c861": {
+      "normalizationVersion": 1,
+      "sourceHash": "94685a26c5c4d35516c10b9a9a97b9a424138f0aa8ffb9c401220c5dafbb10d0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们可以将数字图像理解成一定尺寸的矩阵，矩阵中每个元素的大小表示了图像中每个像素的亮暗程度，因此，统计矩阵中的最大值就是寻找图像中灰度值最大的像素，计算平均值就是计算图像像素平均灰度，可以用来表示图像整体的亮暗程度。因此，针对矩阵数据的统计工作在图像像素中同样具有一定的意义和作用。在OpenCV 4中集成了求取图像像素最大值、最小值、平均值、均方差等众多用于统计的函数，下面详细介绍这些功能的相关函数。",
+      "translatedText": "We can understand a digital image as a matrix of a certain size, where the value of each element in the matrix represents the brightness or darkness of each pixel in the image\\. Therefore, finding the maximum value in the matrix is equivalent to finding the pixel with the highest grayscale value in the image, and computing the mean is equivalent to computing the average grayscale of the image pixels, which can be used to represent the overall brightness or darkness of the image\\. Thus, statistical operations on matrix data also have certain significance and role for image pixels\\. OpenCV 4 integrates many functions for statistics, such as finding the maximum value, minimum value, mean, and standard deviation of image pixels\\. The relevant functions for these features are described in detail below\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 156,
+        "costUsd": 0.000258
       }
     },
     "f8394e2e1d8463f9f67443e87035251781c959a5001d3b1f1ae7acce2f32a45a": {
@@ -421,6 +463,20 @@
         "costUsd": 0.000052
       }
     },
+    "f8594107c4ce792875c919cc629904784ed8020d8c1e78aa275c17d164248946": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f94ae6b994b8a533cd716eba8e7c651ff64cfe63b933d4f022a7a7e58830dc6",
+      "contextFingerprint": "05d77b0e88c57b937c4c5835013f4a4a792b3d2b2541b3c24e6bd5329a7acb55",
+      "sourceText": "下载完后解压出来`SetupSTM32CubeMX-6.18.1.exe`",
+      "translatedText": "After downloading, extract it`SetupSTM32CubeMX-6.18.1.exe`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "f85a7254935b37cf41920e8505bc940b4ab2df9d11030eb75f2f773654527700": {
       "normalizationVersion": 1,
       "sourceHash": "1991a801a12dc52fe3afface18f3f3d83235d63193a5b8576c489a6a455036c4",
@@ -547,6 +603,48 @@
         "costUsd": 0.000053
       }
     },
+    "f876c3afdb89417036af7bd1338a98f2f58f178640d28f7aa199dd5c8b046996": {
+      "normalizationVersion": 1,
+      "sourceHash": "34f5cb6dcabcb68ffaed8c753f9e9858b50660f3596fecd33a4e3e0b26c70d77",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**无序列表嵌套：**",
+      "translatedText": "**Nested unordered lists:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f878852e122103fbafa8e445a1f2f6e84c92eeb42f0d37f28270652ffd51e9f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8da263efab097e97fd456abdc6272633d6e65610a3fd35f5541d01cea73b020d",
+      "contextFingerprint": "d6b0f9e74c7aadb53c811dceb4f074cd6a55e2d45c01e01a1e29fae2bb27cc16",
+      "sourceText": "选择你想安装的硬盘分区，比如我要安装在`C:\\Espressif`，那就是如下图这样。\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097823822.webp)\n如果你想安装在D盘，就把第一个C改成D。\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097881504.webp)",
+      "translatedText": "Select the hard disk partition where you want to install\\. For example, if I want to install it on`C:\\Espressif`，那就是如下图这样。 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097823822.webp) 如果你想安装在D盘，就把第一个C改成D。 ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097881504.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
+    "f87a839c7b1493558b3f18ac96850a29bbc109c2634de04731353b016b4d9725": {
+      "normalizationVersion": 1,
+      "sourceHash": "704d70234d4d7d6276682518cebffcbde82d6cc29e9052b940b5ac9c210a0280",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "检查第25行左右是否有下面这行，如果没有，你需要手动给他加上这两行。(6.14.1版本没有这个bug)",
+      "translatedText": "Check whether the following line exists around line 25\\. If not, you need to manually add these two lines for it\\. (Version 6\\.14\\.1 does not have this bug\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 46,
+        "costUsd": 0.000103
+      }
+    },
     "f87e94b3b97f0154a54196ab80a9616a472055b2a22d087cd9e02260e38c3cf4": {
       "normalizationVersion": 1,
       "sourceHash": "132bddd4a150fb758cc151e060f27f7018d1916c6d8874aa04553e4802410f49",
@@ -573,6 +671,20 @@
         "inputTokens": 167,
         "outputTokens": 51,
         "costUsd": 0.000112
+      }
+    },
+    "f88203345a05de5ae7fa8636229f9e78fadb4080d3a0de8088771bb42582dbce": {
+      "normalizationVersion": 1,
+      "sourceHash": "4111b4d5216f29098deb489a4ab5b6724cf34ae949ce95d7e8fbdb15ca6591ac",
+      "contextFingerprint": "123c102be3159de0c22db0b6d64fa0d49ac4b65e14cc4e240cb32b8abc00d666",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image60.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image60.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f886ace424fc4f2e276f0605ef0317e5bfb987eadb1692daed7d0a3ddb6f0bc7": {
@@ -603,6 +715,20 @@
         "costUsd": 0.000051
       }
     },
+    "f89168af97cb52e3ae07bdde6ae13b6a515f27a1994260c0c77532f8b1961e16": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f9b400bfdfdfb1195ac5527584d8a0a1832e0d5c5665a319732f7e0bd7d7fb8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 保存和读取XML和YAML文件",
+      "translatedText": "#### Save and read XML and YAML files",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "f892e3da8fd59880057a10bb1b3cc12df594f29cebdd4903d5a7687c5fe7a20f": {
       "normalizationVersion": 1,
       "sourceHash": "1c118a4a208328b094ab9cf36ad0f395a41645c34d14e1a0bed655634b053146",
@@ -631,6 +757,20 @@
         "costUsd": 0.000057
       }
     },
+    "f8944e432bce1a8a73e3763181b36d9a85dda6c9770063e454efedd86c84a445": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9816e527f0a8ba9fa2f0543311b3b4e47d5acabba0192b40037abe25e2d2650",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先写一个程序",
+      "translatedText": "First, write a program",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "f896b6ce8a247c092d970978cabde5a092e5813dddfba907292389ee481999a0": {
       "normalizationVersion": 1,
       "sourceHash": "85cba29ce6c40c88444aa0271f2a6e2dd8678cb0eb904e4fa5dbeb5156940516",
@@ -643,6 +783,20 @@
         "inputTokens": 181,
         "outputTokens": 65,
         "costUsd": 0.000133
+      }
+    },
+    "f8998eda0be552d4e1f6ff67f979517f652ba9f8916938ca3cf3d71288a304fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "d59c23f05e4ecb7ccc9485263cb529391f836cdc8a8a697138adf91f834f1968",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "锚点规则：",
+      "translatedText": "Anchor rules:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f89b2e24aff13ff70d7d0e9f5d65ab64fa5150ed844559c0715a08fea9c2ca1b": {
@@ -1007,6 +1161,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "f8ecfa9e6727306b72c98e939cd793cfa0a89c49af5384926c854110296fe201": {
+      "normalizationVersion": 1,
+      "sourceHash": "284c402bd7d8c8ff6fb709c3a2c566610f7dbe21cac2d5742d851d7475494586",
+      "contextFingerprint": "dc3217b1fb19fc35e5739f7d3b89e1e45df9ee4c7b830a5ddb8af899ab9a12d4",
+      "sourceText": "<a id=\"openocd-parameters\"></a>",
+      "translatedText": "<a id=\"openocd-parameters\"></a>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f8ef4f4bd113b4c25ef2abb85f1f1a4790c853c124e8ca0f97ec711a6e9ce766": {

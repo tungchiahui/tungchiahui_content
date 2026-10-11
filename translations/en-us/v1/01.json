@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0100ade91db7fb4f97502a154a7ed0179c0f290a5cf7423627854909810223e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d28e40d407d5b11162edfc82ee4efcce226fef83136e91de0894ea3d63c9416",
+      "contextFingerprint": "2a9b21a28f0c9136adf8399232187eaff50793eed55b2367afb22457db6a4ca4",
+      "sourceText": "所以`armToolchainPath` = `/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin`。",
+      "translatedText": "Therefore`armToolchainPath` = `/home/tungchiahui/.local/share/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "0101a0b04bf83809ec4259c0dbf695329ef4462d1a310eae61c24d71c206f712": {
       "normalizationVersion": 1,
       "sourceHash": "f20a32ecd2cd0517270912a5e1c28e75c1b468c2dbf4772be73f14c471adc0f4",
@@ -69,6 +83,20 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "010eab5dbcc65a4980c3db10252ef3e69f7314e5c052f43d35c65a5dced96394": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3208023e79da3bfca7caa248e3c38f9e5775e320c5b6834a134a0dbc0e5d36d",
+      "contextFingerprint": "fec5496ceb4b1d3be8cb4dbc8373e0d5d8c484117947ecbf53693f7e7c49a57b",
+      "sourceText": "那俩`-f`的参数由[openocd的两个-f参数](#openocd-parameters)可知：",
+      "translatedText": "Those two`-f`The parameters are given by[the two \\-f parameters of OpenOCD](#openocd-parameters)It can be seen that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 32,
+        "costUsd": 0.000082
       }
     },
     "0119866b2834cae41f299e6edde5b3b547d8104e0574c2c2ec3efcf1521b0b52": {
@@ -519,6 +547,20 @@
         "costUsd": 0.000052
       }
     },
+    "0198abc42d6caf19fd6b8bfe04875dfe6a157c47da48f77c2840f2187cc4d24c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d736ce5f7f895686c1596f0d146ca626a1bac46817c6c0e32f08555934a3ba2",
+      "contextFingerprint": "78881ad7da45d12524a35c19b2fe291e83f8aa2accbf7f689d259c78bdb31c26",
+      "sourceText": "1. `serverExe`:",
+      "translatedText": "1. `serverExe`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "019dd22cb8d7857e8992f76846df6eb7fbe52191486b9329f73cba31bc3069d7": {
       "normalizationVersion": 1,
       "sourceHash": "a744ba00f8af45874078990fa261a6375b6b4b1039fd4b1730ff73c2f4b2eed3",
@@ -575,6 +617,48 @@
         "costUsd": 0.000057
       }
     },
+    "01a7fe8a2e8b171e79ed77947d6eadfa046dcc5168957c46e71997fe1162cca0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0029b8cf7506e0df8b5fd0da18eabb5ee288928465f57185adbc4dea03351c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "该函数与VideoCapture()有很大的相似之处，都可以通过isOpened()函数判断是否成功创建一个视频流，可以通过get()查看视频流中的各种属性。在保存视频时，我们只需要将生成视频的图像一帧一帧地通过\"<<\"操作符（或者write()函数）赋值给视频流，最后使用release()关闭视频流。",
+      "translatedText": "This function is very similar to VideoCapture(), as both can determine whether a video stream was successfully created through the isOpened() function, and various properties of the video stream can be viewed through get()\\. When saving a video, we only need to assign the images that generate the video frame by frame to the video stream through the \"\\<\\<\" operator (or the write() function), and finally use release() to close the video stream\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 94,
+        "costUsd": 0.000174
+      }
+    },
+    "01ab563774316e4ac382e1eed72ba03d663bdce7e977107ed920cf9502c28592": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d0f9bfe5d472ad2f33534013e344560281655f9ce2b60a14ba666cda700ebb0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**表格美化建议**",
+      "translatedText": "**Table Formatting Suggestions**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "01ad3f92c9000d250d46cab57d610129deabe6448a65f719a36d6273d2b7931f": {
+      "normalizationVersion": 1,
+      "sourceHash": "37123ab604c5da0f3340f4d41084ba4f25527b956c461fefbf770525a7dbd6b4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 标题的嵌套结构",
+      "translatedText": "#### Nested Structure of Headings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "01adb06a4ee833fdf38b5b097ea0b7a843e1201eedf6c55ebe67f5665e20930e": {
       "normalizationVersion": 1,
       "sourceHash": "c8d1007b4afdf7535c8ed8ea15f4e259482c12faf87482206c81f1e687e875b9",
@@ -601,6 +685,20 @@
         "inputTokens": 141,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "01b7fc5a3551bf3b71dd2329d3a5fcbc0cd21df4594d888a6eb58eb4d92fde4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "df40337e17af708058a5cda4d07ed5e76fe8e2b20e0ee19494b13f54c8301d2c",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 中断号：每个中断的唯一标识符，用于在程序中引用和配置特定的中断。\n2. 类别：中断的来源类型，分为外部中断和内部中断。外部中断由外部设备或信号触发，\n如按键、传感器等；内部中断则由微控制器内部的硬件事件触发，如定时器溢出、软件中断等。\n3. 种类：中断的触发方式，包括电平触发和边沿触发。电平触发是在输入信号达到特定\n电平（如高电平或低电平）时触发中断；边沿触发则是在输入信号从一种电平状态变化到另一\n种状态时触发中断。\n4. 优先级：中断的响应优先级。当多个中断同时发生时，微控制器会根据中断的优先级\n来决定先处理哪个中断。较高的优先级意味着中断将优先得到处理。\n在开发过程中，开发者可以根据实际需求配置中断的触发方式、优先级等参数，以实现高\n效、可靠的事件处理机制。",
+      "translatedText": "1. Interrupt Number: A unique identifier for each interrupt, used to reference and configure a specific interrupt in a program\\.\n2. Category: The source type of the interrupt, divided into external interrupts and internal interrupts\\. External interrupts are triggered by external devices or signals, such as buttons, sensors, etc\\.; internal interrupts are triggered by hardware events inside the microcontroller, such as timer overflow, software interrupts, etc\\.\n3. Type: The trigger mode of the interrupt, including level triggering and edge triggering\\. Level triggering triggers an interrupt when the input signal reaches a specific level (such as high level or low level); edge triggering triggers an interrupt when the input signal changes from one level state to another\\.\n4. Priority: The response priority of the interrupt\\. When multiple interrupts occur simultaneously, the microcontroller determines which interrupt to handle first based on the interrupt priority\\. A higher priority means the interrupt will be handled first\\. During development, developers can configure parameters such as the interrupt trigger mode and priority according to actual requirements to implement an efficient and reliable event handling mechanism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 321,
+        "outputTokens": 213,
+        "costUsd": 0.000352
       }
     },
     "01bf7969c967143e6a48a7278f66f737879ab3fcfb2fd65a2f826699f6176436": {
@@ -735,6 +833,20 @@
       "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
       "sourceText": "1、返回值类型 ",
       "translatedText": "1\\. Return value type ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "01e0c60b2194d12b904d1af066dd2f4ad3d00585cce45f5377296759af82d061": {
+      "normalizationVersion": 1,
+      "sourceHash": "7846733c2b1bcc35f95630fb481a9d74733bc9df11df657fade03d4e428552fb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Mat 类介绍",
+      "translatedText": "#### Introduction to the Mat class",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

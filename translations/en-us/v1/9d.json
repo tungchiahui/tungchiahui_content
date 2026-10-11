@@ -43,6 +43,20 @@
         "costUsd": 0.000054
       }
     },
+    "9d10c165566917a038f4d1dd05c0cdfb31a21f71a0a5f2c1342df7ca6dac228c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e0bc22d01ea4422e1656cc53086253cc035001e94189900fd4f8c8c267a3bd8",
+      "contextFingerprint": "7dc6c9beb25831ce839e68f89fe4023a9a9b5de2ccecfc4fdf766195a8c9f1f4",
+      "sourceText": "| 调试器 | Windows 是否需要额外装驱动 | 推荐做法 |\n|---|---|---|\n| **ST-Link V2 / V2-1** | **需要** | 安装 ST 官方 `STSW-LINK009` |\n| **STLINK-V3** | 通常系统能识别，但仍推荐装 ST 官方组件 | 安装官方驱动最省心 |\n| **J-Link** | **需要官方 J-Link 软件包** | 安装 `J-Link Software and Documentation Pack`，里面自带 USB Driver |\n| **DAPLink / CMSIS-DAP v1** | **一般不需要** | 使用 Windows 自带 HID 驱动 |\n| **DAPLink / CMSIS-DAP v2** | **一般不需要** | 正规 DAPLink 使用 WinUSB，可自动绑定 |\n| 某些国产 CMSIS-DAP 魔改探针 | 不一定 | 真识别不了再考虑 WinUSB/Zadig |",
+      "translatedText": "| Debugger | Whether Windows requires additional driver installation | Recommended approach |\n|---|---|---|\n| **ST-Link V2 / V2-1** | **Required** | Install the official ST `STSW-LINK009` |\n| **STLINK-V3** | The system can usually recognize it, but installing the official ST components is still recommended | Installing the official driver is the most hassle\\-free |\n| **J-Link** | **Requires the official J-Link software package** | Install `J-Link Software and Documentation Pack`, which includes the USB Driver |\n| **DAPLink / CMSIS-DAP v1** | **Generally not required** | Use the built\\-in Windows HID driver |\n| **DAPLink / CMSIS-DAP v2** | **Generally not required** | Genuine DAPLink uses WinUSB and can be bound automatically |\n| Some domestic CMSIS-DAP modified probes | Not necessarily | Only consider WinUSB/Zadig if it truly cannot be recognized |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 336,
+        "outputTokens": 229,
+        "costUsd": 0.000376
+      }
+    },
     "9d11cf68a7cff43c75b79e6ca83cc584012355939eb00967db2496f0a57734c7": {
       "normalizationVersion": 1,
       "sourceHash": "64a12f5e3d088efd72e8f32f38f3bda84d3038dc780a17d6bebce173bce394e9",
@@ -351,6 +365,20 @@
         "costUsd": 0
       }
     },
+    "9d4eb448c8bada6dd702689dde24b0a334f4422477aa6c1f4cac0b8768e8151a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b1e5f44bcaf2d5ab6231eb0b3a78376961461a475717001a5ddd15fcfbb259f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "未来适应性：即使特定的软件或平台消失，Markdown 文件作为纯文本仍然可以被访问和编辑，确保了内容的长期可用性。",
+      "translatedText": "Future adaptability: Even if a specific software or platform disappears, Markdown files, as plain text, can still be accessed and edited, ensuring the long\\-term availability of the content\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
     "9d506724f3fee84ea4f2a3cbd8e4a51fada14df73b49d96fb0baf6e1a6fbb3df": {
       "normalizationVersion": 1,
       "sourceHash": "6646907aa570b662c4e2dadfe098815a997f14da0755ae2fe6a22468e3333f08",
@@ -561,6 +589,20 @@
         "costUsd": 0.000071
       }
     },
+    "9d83cd1dfe8536f8d9c9757678aa86e5b8547c2ba2246f084840f41f79711c1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "623db9e5da1bdb915d52ce049c24813c50238ec34d682c5d39d20c9d648bc3bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们在前面已经介绍过了图像显示函数imshow()的调用方式，这里我们给出函数的原型（见代码清单2-26）。\n代码清单2-26 imshow()函数的原型",
+      "translatedText": "We have already introduced the calling convention of the image display function imshow() earlier\\. Here we give the function prototype (see Code Listing 2\\-26)\\. Code Listing 2\\-26 Prototype of the imshow() function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
     "9d8e28dafa4c04772183507192314aad35bac64b24ab0574c48eaadf6ba9e487": {
       "normalizationVersion": 1,
       "sourceHash": "036579f49cecb1c8c947037a61173ace2b7efd0bc9881537aeeefeb17c2d1784",
@@ -687,6 +729,20 @@
         "costUsd": 0.000075
       }
     },
+    "9dafc40e8866e60079f51caa3b7fe7425b39e291b059f6404e2e472c25801bd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5930a14ce4c83456daea2db9a6879a87f0d551dd4d1e88e8f9ab938e27c529d",
+      "contextFingerprint": "6ca7069ada4f6ea07ebd46b8ff0cfa4b8ded47ce935b64156df645aa76107511",
+      "sourceText": "* STM32CubeIDE for Visual Studio Code(CubeMX + CMake + GCC + HAL + VSCode + Clangd) 构成了全链路嵌入式开发方案： CubeMX解决硬件配置问题，CMake统一构建流程，GCC提供编译支持，HAL库屏蔽硬件差异，VSCode+Clangd打造智能编辑器,最主要的是，该插件可以一键部署各种环境，不用像老一辈一样手动安装开发环境了，适合新鸟和老鸟。",
+      "translatedText": "* STM32CubeIDE for Visual Studio Code (CubeMX \\+ CMake \\+ GCC \\+ HAL \\+ VSCode \\+ Clangd) constitutes a full\\-chain embedded development solution: CubeMX solves hardware configuration issues, CMake unifies the build process, GCC provides compilation support, the HAL library abstracts hardware differences, and VSCode+Clangd creates an intelligent editor\\. Most importantly, the plugin can deploy various environments with a single click, eliminating the need for manual development environment installation like the older generation did, making it suitable for both newcomers and veterans\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 121,
+        "costUsd": 0.000215
+      }
+    },
     "9db21f7cade5b48e7d7aa209e1c53c769c4763ac971fa4cc780e586c6ca6f4d3": {
       "normalizationVersion": 1,
       "sourceHash": "c682418924e4e0c8e358ecb69e23dd85f6fdab850cdb91c55290b4f74a964751",
@@ -743,6 +799,20 @@
         "costUsd": 0
       }
     },
+    "9dc1907f565b4ac8009785126212dbee40d8e2153fd3b5f7307a66097fed715e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d8bac27032602ec038138fd6111d31df881da09d23092e71d3fbd7c63d03f0d",
+      "contextFingerprint": "64b79c506b215a01fc62d751d588fc26442446a217f25995f74ddea23e7b4bb9",
+      "sourceText": "点击`New Projects`\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768314732108.webp)",
+      "translatedText": "Click`New Projects`\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768314732108.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "9dc5717032fb2abffa316d83c24811801029d35bb25c4f21e37706adaed16c45": {
       "normalizationVersion": 1,
       "sourceHash": "e70937f91874cd22bb08298bdf2921ebed93e78aab7838acbcd72753859e1e5d",
@@ -755,6 +825,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "9dcc9090cce601bb3ef4fdc94fcf71da09ce002271173cb265b0f1638b7ae235": {
+      "normalizationVersion": 1,
+      "sourceHash": "40639e6c9fdb093a4c8dbabb31b91003b1576978bbfa5b9556ffc9d962819b91",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*2. YUV颜色模型*",
+      "translatedText": "*2\\. YUV color model*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "9dcd681c02b5492ac98163312d60190da60c10cd6999c4da9dc8bcf86b281d78": {

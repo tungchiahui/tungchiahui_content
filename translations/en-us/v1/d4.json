@@ -57,6 +57,20 @@
         "costUsd": 0
       }
     },
+    "d40dedd3948653ec499112f5b4c05b313804918b56fdb3dead1dee52674153f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1cc9ad10d4d65cc0a74d4d3a19503e76ec486ae94d6d2d815729aa7609e9dd84",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2. 使用至少三个星号：",
+      "translatedText": "2. Use at least three asterisks:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "d42b4603a8b423a46a482e55d5391601ae7bdecd57dd6d7724948b93b7cd4543": {
       "normalizationVersion": 1,
       "sourceHash": "414e56a3e260d7a30b496f908bc9358639efd03e712718cbb6bf59ae43797644",
@@ -393,6 +407,20 @@
         "costUsd": 0.000067
       }
     },
+    "d47e87ddfda7350c1212a3bd334b98d76598bc4c7f84f2d2d92989c80908ab55": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8fbd579b51291f432c66c78ea83fe6248b181cf6ec080e406889eb56d707cbf",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 规划文件夹与图片等命名(老方法,新手推荐)",
+      "translatedText": "## Planning folder and image naming, etc\\. (old method, recommended for beginners)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "d47fca429110a8e40b875b6649bef2d6c386b63557cb293103ccafcca1a82854": {
       "normalizationVersion": 1,
       "sourceHash": "30bd1bc29df6335f76862d15c063dd8d1086840cfbb0f52c1d71e012ca38c5e7",
@@ -461,6 +489,20 @@
         "inputTokens": 142,
         "outputTokens": 18,
         "costUsd": 0.000065
+      }
+    },
+    "d49ad60e4d1f199a5041258ecf043707f98e998a13b2a4ba74a17a9192a1d824": {
+      "normalizationVersion": 1,
+      "sourceHash": "6129003464bfb47d76f1dfad20ec642877aacdc4dedd45e1b7afd8c97db6f8cc",
+      "contextFingerprint": "5dee91802b8e61aa3d74d4eb041b530cd6e45e9537aa2ce1fbd26979fb97cfff",
+      "sourceText": "注意：如果转换过程中添加了alpha通道（RGB模型中第四个通道，表示透明度），则其值将设置为相应通道范围的最大值：CV_8U为255，CV_16U为65535，CV_32F为1。",
+      "translatedText": "Note: If an alpha channel (the fourth channel in the RGB model, representing transparency) is added during the conversion process, its value will be set to the maximum value of the corresponding channel range: CV_8U is 255, CV_16U is 65535, and CV_32F is 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 90,
+        "costUsd": 0.000168
       }
     },
     "d49d3f978b26c8a0cf41fa0c43ec116dbf20bf7a2bbb5a2f2b3fbe06d5fb00bc": {
@@ -603,6 +645,48 @@
         "costUsd": 0.000092
       }
     },
+    "d4cce631f3d0dc44f5f4ace8e40add0751c53702f5c96f9b457fcef8b7c6a0ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0cdb07f7b6c843d8b44796a1b8aaf6f82246769808f5407dd49e59926a1f63f",
+      "contextFingerprint": "be416db40e3905db8e69c56688ae074b57d28083ced19dc33e92855d4aba2cc4",
+      "sourceText": "右键下载好的exe以管理员身份运行，比如我的叫`JLink_Windows_V984_x86_64.exe`",
+      "translatedText": "Right\\-click the downloaded exe and run it as administrator, for example mine is called`JLink_Windows_V984_x86_64.exe`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "d4cef15a94adc87a31004d7678cd8f1e368120c3f5a5a1cace34183f6c9fe711": {
+      "normalizationVersion": 1,
+      "sourceHash": "eae0f0246310fbc0f602939b44f7d46b4f8fb60a01cd8d70e8d373dd3569baac",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 保持标题简洁明了，一般不超过 10 个汉字或 20 个英文字符\n- 使用描述性词语，避免模糊的标题如\"其他\"、\"杂项\"\n- 可以使用冒号来分隔主题和副主题",
+      "translatedText": "- Keep titles concise and clear, generally no more than 10 Chinese characters or 20 English characters\n- Use descriptive words and avoid vague titles such as \"Other\" or \"Miscellaneous\"\n- A colon may be used to separate the topic and subtopic",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 58,
+        "costUsd": 0.000124
+      }
+    },
+    "d4d0f412861a84ff93cf8b842f6ff4d77a1d2a1136ed7dd6c85b34924c3ac724": {
+      "normalizationVersion": 1,
+      "sourceHash": "855723a1da61eab276e0fa082f11dc04d110db3f9da5bafbd312dcc2d02e0c6a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再进入这个解压后的文件夹",
+      "translatedText": "Then enter this decompressed folder",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "d4d2b5cddf876e70bba6472603ace5b0649466239b655ef15cf31dc2df853baf": {
       "normalizationVersion": 1,
       "sourceHash": "d449efa5e20a3180661edf6f03fa9a170377dc9e0038a69c859d8ff1fa54d9b7",
@@ -657,6 +741,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "d4dc55bdcf2b53b7f9188e3125085a91308e6ed0f5089da91126362d5510e5b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "65cc02f2f7b0e425b928a143a50e32fc3d7c59b75c422d718fa1ce905e30492f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接按照他底下的提示应用修复即可。",
+      "translatedText": "Simply apply the fix according to the prompt below it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "d4de8fda6fb9e2f47da016c1770b6678a122ffe5128bf3f67986f9e3cf0e9fbf": {

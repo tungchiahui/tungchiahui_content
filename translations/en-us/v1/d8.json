@@ -71,6 +71,20 @@
         "costUsd": 0.000058
       }
     },
+    "d81cb38b998e189b94e2839b569cbe6589d9b79e13bfb10a89a0d01cbbbf11e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "c55d085e7d36040ce05efb85d068ae3cbcd57f9fd01f2915da5536571a3cba48",
+      "contextFingerprint": "bed2a4ea5da92baa0985a68f16c900114105f6d7d326f5804c3ee8f4ec9b496e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039533828-3c09026d.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039533828-3c09026d.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d81e15b4578d7e97a1032fc62aebfd17b17f835a6b94cfb0a322e0fb7dade3c4": {
       "normalizationVersion": 1,
       "sourceHash": "0698a8578c2ed91b43b6c1942a30b69569ba6c144e89cea8fb868f8590e2b531",
@@ -281,6 +295,20 @@
         "costUsd": 0.000055
       }
     },
+    "d84fac429b33781f4ebb52b55e038692a613521b950e4859f47d5db75d99d619": {
+      "normalizationVersion": 1,
+      "sourceHash": "2326c709fca93eabe2fd5016b1b26f15e93f8cc8ebc26272b9a8d85ff2236fbb",
+      "contextFingerprint": "b4a9784e22402a3b814bed69e5f888e4d5ed1986cbc419fbfcfc397a4cf1b975",
+      "sourceText": "除图像数据之外，有时程序中的尺寸较小的Mat类矩阵、字符串、数组等数据也需要进行保存，这些数据通常保存成XML文件或者YAML文件。本小节中将介绍如何利用OpenCV 4中的函数将数据保存成XML文件或者YAML文件，以及如何读取这两种文件中的数据。\nXML是一种元标记语言。所谓元标记，就是使用者可以根据自身需求定义自己的标记，例如可以用`<age>`、`<color>`等标记来定义数据的含义，如用`<age>24</age>`来表示age数据的数值为24。XML是一种结构化的语言，通过XML语言可以知道数据之间的隶属关系，例如`<color><red>100</red><blue>150</blue></color>`表示在color数据中含有两个名为red和blue的数据，两者的数值分别是100和150。通过标记的方式，无论以什么形式保存数据，只要文件满足XML格式，读取出来的数据就不会出现混淆和歧义。\nYAML是一种以数据为中心的语言，通过\"变量:数值\"的形式来表示每个数据的数值，通过不同的缩进来表示不同数据之间的结构和隶属关系。YAML可读性高，常用来表达资料序列的格式，它参考了多种语言，包括XML、C语言、Python、Perl等。\nOpenCV 4中提供了用于生成和读取XML文件和YAML文件的FileStorage类，类中定义了初始化类、写入数据和读取数据等方法。我们在使用FileStorage类时首先需要对其进行初始化，初始化可以理解为声明需要操作的文件和操作类型。OpenCV 4提供了两种初始化的方法，分别是不输入任何参数的初始化（可以理解为只定义，并未初始化），以及输入文件名称和操作类型的初始化。后一种方法初始化构造函数的原型在代码清单2-35中给出。\n代码清单2-35 FileStorage()函数原型",
+      "translatedText": "In addition to image data, sometimes small\\-sized Mat class matrices, strings, arrays, and other data in a program also need to be saved\\. These data are usually saved as XML files or YAML files\\. This section will introduce how to use functions in OpenCV 4 to save data as XML files or YAML files, and how to read data from these two types of files\\. XML is a metalanguage\\. A metalanguage means that users can define their own tags according to their needs\\. For example, tags such as `<age>` and `<color>` can be used to define the meaning of data, such as using `<age>24</age>` to indicate that the value of the age data is 24\\. XML is a structured language\\. Through the XML language, the subordinate relationships between data can be known\\. For example, `<color><red>100</red><blue>150</blue></color>` indicates that the color data contains two data items named red and blue, whose values are 100 and 150 respectively\\. By using tags, no matter in what form the data is saved, as long as the file conforms to the XML format, the data read out will not be confused or ambiguous\\. YAML is a data\\-centric language\\. It represents the value of each data item in the form of \"variable: value\", and uses different indentation to represent the structure and subordinate relationships between different data\\. YAML has high readability and is often used to express the format of data sequences\\. It references multiple languages, including XML, C, Python, Perl, and others\\. OpenCV 4 provides the FileStorage class for generating and reading XML files and YAML files\\. The class defines methods such as initializing the class, writing data, and reading data\\. When using the FileStorage class, we first need to initialize it\\. Initialization can be understood as declaring the file to be operated on and the operation type\\. OpenCV 4 provides two initialization methods: initialization without inputting any parameters (which can be understood as only defining, not initializing), and initialization by inputting the file name and operation type\\. The prototype of the constructor for the latter initialization method is given in code listing 2\\-35\\. Code listing 2\\-35 Prototype of the FileStorage() function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 485,
+        "outputTokens": 451,
+        "costUsd": 0.000687
+      }
+    },
     "d851fe44adeffd3456b0d47e68f1d72cb180feb3915269eef725772f24742a30": {
       "normalizationVersion": 1,
       "sourceHash": "c3752aec8fcab86aa493ccd54c02bb53d3336b45578ff26e72583d82d6fbc5ee",
@@ -449,6 +477,20 @@
         "costUsd": 0
       }
     },
+    "d88995327c56b9b92d928716e8bde01f01f4410c3ac2cd5e976ccf67b6fca7f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "3aaf0336f40c471f01e2469979b198235c6e9e267ab93097e750a3661f4c9991",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Markdown 的图片语法简洁而灵活。",
+      "translatedText": "Markdown's image syntax is concise and flexible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "d88feb38eac7c547be2b45b1b0e767db66c9d6d61d46257890718291287763f6": {
       "normalizationVersion": 1,
       "sourceHash": "821e759b947ec703060496488943014639dae484b344d930559bf3a998580233",
@@ -517,6 +559,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "d89f4d31dec58b6f89fed03285fad6ec0a36c3c6deae07a31a3eb1f4de6dbf2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "179af6f1b67fc8b2181c25314f7d5e01a547a491839eb4718f88f0b926a35a77",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要注意的是，输入的两个Mat类矩阵必须具有相同的元素数目，但是无论输入的两个Mat类矩阵的维数是多少，都会将两个Mat类矩阵扩展成一个行向量和一个列向量，因此dot()运算的结果永远是一个double类型的变量。",
+      "translatedText": "It should be noted that the two input Mat matrices must have the same number of elements, but regardless of the dimensions of the two input Mat matrices, the two Mat matrices will be expanded into a row vector and a column vector, so the result of the dot() operation is always a variable of type double\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 68,
+        "costUsd": 0.000136
       }
     },
     "d89fc62725b31698efac5618952b21d98e35eff9386bcda1b3d62908f3af7e25": {
@@ -881,6 +937,34 @@
         "inputTokens": 148,
         "outputTokens": 32,
         "costUsd": 0.000083
+      }
+    },
+    "d8dae476d4199d1bf5e0e0d4a13cace352a5bd1684de60132eccddfa911c1e10": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4d4484ba9595360002141f6e46de256993d024b5de9a39ae5799628cb34c115",
+      "contextFingerprint": "78e385836b2d6b3ce7a2d3d3f3a093cc867e195762a948c34092227904aa9be1",
+      "sourceText": "| 语言 / 类型 | 推荐标识符 | 常用标识符 / 别名 | 示例 |\n|---|---|---|---|\n| SQL | `sql` | — | ` ```sql ` |\n| MySQL | `sql` | `mysql` | ` ```sql ` |\n| PostgreSQL | `sql` | `postgresql`, `pgsql` | ` ```sql ` |\n| SQLite | `sql` | `sqlite` | ` ```sql ` |\n| PL/SQL | `plsql` | — | ` ```plsql ` |\n| T-SQL | `tsql` | — | ` ```tsql ` |\n| Cypher | `cypher` | — | ` ```cypher ` |\n| MongoDB Shell | `javascript` | `js` | ` ```javascript ` |",
+      "translatedText": "| Language / Type | Recommended identifier | Common identifiers / aliases | Example |\n|---|---|---|---|\n| SQL | `sql` | — | ` ```sql ` |\n| MySQL | `sql` | `mysql` | ` ```sql ` |\n| PostgreSQL | `sql` | `postgresql`, `pgsql` | ` ```sql ` |\n| SQLite | `sql` | `sqlite` | ` ```sql ` |\n| PL/SQL | `plsql` | — | ` ```plsql ` |\n| T-SQL | `tsql` | — | ` ```tsql ` |\n| Cypher | `cypher` | — | ` ```cypher ` |\n| MongoDB Shell | `javascript` | `js` | ` ```javascript ` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 80,
+        "costUsd": 0.000158
+      }
+    },
+    "d8dc538c2b88dc1791f2fbb950fbc7dae717c076a1d6ae57000b160d76ff5224": {
+      "normalizationVersion": 1,
+      "sourceHash": "e41c249750163c533af93cca1f5a7b45214997cfcdf905991f634b8aec0922bb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "(1) 构造时赋值（见代码清单2-11）",
+      "translatedText": "(1) Assigning values during construction (see code listing 2\\-11)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "d8e205defb594808e4f8f4187699f0ea71a3671507740b8d790d6750cc8c5325": {

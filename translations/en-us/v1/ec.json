@@ -43,6 +43,34 @@
         "costUsd": 0.000112
       }
     },
+    "ec09c8ae5496f81d1e47ee7420a76d945d4720ac118ef67a934ad7df11936715": {
+      "normalizationVersion": 1,
+      "sourceHash": "23fedfb51ace61df62f45ad13c7876ad5c235b700493ed5e609e66949504e9a2",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 只讲最常用的办法来实现某种写法,像一些非常冷门的方法本文不讲,基本都会被另一种常用的写法实现.",
+      "translatedText": "> Only the most commonly used methods for implementing a certain writing style are covered; some very obscure methods are not discussed in this article, as they are basically all implemented by another commonly used writing style\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 45,
+        "costUsd": 0.0001
+      }
+    },
+    "ec0b6426cc6175da28e1bff6fa2831ff93414b6bb1c09b50c801ecd95a23f436": {
+      "normalizationVersion": 1,
+      "sourceHash": "cae6a7860104ade122af6553c9ed8aaf5dff3db563ffad0ddeccf7e59cf15ca1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以插上之后测试一波：",
+      "translatedText": "You can plug it in and run a test:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "ec1043df96baf1918d3dce1593cfb8e945e4cc3e15a018d6c6cdddcc8a9fd869": {
       "normalizationVersion": 1,
       "sourceHash": "c6c4b49ce21fdadd48936e654fc00ee9260d1f8bdcda5cba2fc8781d4dfd0910",
@@ -225,6 +253,20 @@
         "costUsd": 0.000054
       }
     },
+    "ec36def474d2d813aa5132afafd1a999ad084bbe7ac2d2ed99402aa6373a4b14": {
+      "normalizationVersion": 1,
+      "sourceHash": "02b2ea9632c3b00c672cc45c7c8ab76c0b215a1872786cdbd4ec19341a22e863",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 图像颜色空间",
+      "translatedText": "### Image color space",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "ec392e06fec29a7c3b99198e04426004be17c3fcf66d174c65dddef78034d746": {
       "normalizationVersion": 1,
       "sourceHash": "a5aee50a5ae86fc2ee2565715d4880b9f52eaa2102b5a204c02441368894f00e",
@@ -393,6 +435,20 @@
         "costUsd": 0.000057
       }
     },
+    "ec60df812954fdedb727a8ff7e1a401f78487febda8f4e3ff8cbe65d103e0f40": {
+      "normalizationVersion": 1,
+      "sourceHash": "96a4295811a94f8d5b8505b407a98263facb125b8517faaeac801bf6d08df2dc",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 图像窗口函数namedWindow",
+      "translatedText": "#### Image window function namedWindow",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "ec658a93711f804703990d487c92d1330e1a1d46952ef6b5576d7af0eab19208": {
       "normalizationVersion": 1,
       "sourceHash": "bb06f044f08cf5cb2b116a35b2a45db22c990114110e2f5708575810d795e3ee",
@@ -419,6 +475,20 @@
         "inputTokens": 160,
         "outputTokens": 47,
         "costUsd": 0.000105
+      }
+    },
+    "ec7187eb9ff0208ba0b2fd3b8fed21e70ce2bfabb8d3006f17304b7065a694c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c993c5832b52eaf70e6c4e8f4c1e86c11cd06e2c23f166190967734d1b997df",
+      "contextFingerprint": "36520d7b929b402497495511f9b1626c47503002375dd4ad405292c041257e53",
+      "sourceText": "| 函数名称             | 函数说明             | 代码清单 |\n| :--------------- | :--------------- | :--- |\n| `imread()`       | 读取图像文件           | 2-24 |\n| `namedWindow()`  | 创建一个显示图像的窗口      | 2-25 |\n| `imshow()`       | 在指定窗口中显示图像       | 2-26 |\n| `VideoCapture()` | 调用摄像头或者读取、保存视频文件 | 2-27 |\n| `imwrite()`      | 保存图像到文件          | 2-30 |\n| `VideoWriter()`  | 将多帧图像保存成视频文件     | 2-33 |\n| `FileStorage()`  | 读取或者保存XML、YAML文件 | 2-35 |",
+      "translatedText": "| Function Name             | Function Description             | Code Listing |\n| :--------------- | :--------------- | :--- |\n| `imread()`       | Read an image file           | 2\\-24 |\n| `namedWindow()`  | Create a window to display an image      | 2\\-25 |\n| `imshow()`       | Display an image in the specified window       | 2\\-26 |\n| `VideoCapture()` | Access a camera or read and save video files | 2\\-27 |\n| `imwrite()`      | Save an image to a file          | 2\\-30 |\n| `VideoWriter()`  | Save multiple frames as a video file     | 2\\-33 |\n| `FileStorage()`  | Read or write XML and YAML files | 2\\-35 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 98,
+        "costUsd": 0.000182
       }
     },
     "ec79595a915154b04d9a3783dce9ccbf9200f3661a38ea59a5a82bdd4d245ca1": {
@@ -575,6 +645,20 @@
         "costUsd": 0.000062
       }
     },
+    "eca4299ed6715c85b6803d4d966d372667a2f5871a9c8548108f13570556e940": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ff146296461b4cf3a99521101df0b1da76f7acb25a67db1fca2117cc8d961af",
+      "contextFingerprint": "ba878ab75f2bac5c80449973e44765c238a7ba58961d83747e62cc37b20e61eb",
+      "sourceText": "1. 真正的跨平台:\n   1. Android\n   2. iOS\n   3. Windows\n   4. Linux\n   5. MacOS\n   6. Web\n   7. 嵌入式设备\n    一套代码，多端运行，UI 表现高度一致。\n\n2. 自绘引擎，高度一致的 UI 表现\n    Flutter 不依赖系统原生控件，而是通过自带的渲染引擎（Skia）进行界面绘制。\n    优点:\n   1. 不受系统版本差异影响\n   2. UI 表现高度统一\n   3. 可以做到极其流畅的动画效果\n   4. 适合高度定制化界面\n\n3. 高性能接近原生,使用以下技术:\n   1. AOT 编译（Ahead-of-Time）\n   2. 直接渲染到 Canvas\n   3. 不依赖桥接通信（不像 React Native）\n    实现接近原生应用的性能表现。\n    对于复杂动画、大量列表、实时交互场景，依然表现稳定。\n\n4. 热重载（Hot Reload）\n   开发过程中修改代码，界面几乎瞬间刷新。\n   1. UI 调整效率极高\n   2. 非常适合快速迭代\n   3. 学习成本低，上手快\n\n5. Dart 语言的优势\n   1. 语法接近 C / C++ / Java\n   2. 支持面向对象\n   3. 支持异步编程（async / await）\n   4. 编译速度快\n   看我博客与知识库的都是有 C/C++或嵌入式开发背景，学习 Dart 会非常轻松。",
+      "translatedText": "1. True cross\\-platform:\n   1. Android\n   2. iOS\n   3. Windows\n   4. Linux\n   5. MacOS\n   6. Web\n   7. Embedded devices     One codebase, runs on multiple platforms, with highly consistent UI presentation\\.\n\n2. Self\\-drawn engine, highly consistent UI presentation     Flutter does not rely on native system controls; instead, it draws the interface through its own rendering engine (Skia)\\.     Advantages:\n   1. Unaffected by system version differences\n   2. Highly unified UI presentation\n   3. Can achieve extremely smooth animation effects\n   4. Suitable for highly customized interfaces\n\n3. High performance close to native, using the following technologies:\n   1. AOT compilation (Ahead-of-Time)\n   2. Direct rendering to Canvas\n   3. Does not rely on bridge communication (unlike React Native)     Achieves performance close to native applications\\.     For complex animations, large lists, and real\\-time interaction scenarios, it still performs stably\\.\n\n4. Hot Reload    During development, when code is modified, the interface refreshes almost instantly\\.\n   1. Extremely high UI adjustment efficiency\n   2. Very suitable for rapid iteration\n   3. Low learning cost, quick to get started\n\n5. Advantages of the Dart language\n   1. Syntax is close to C / C++ / Java\n   2. Supports object\\-oriented programming\n   3. Supports asynchronous programming (async / await)\n   4. Fast compilation speed    Those who read my blog and knowledge base all have a C/C\\+\\+ or embedded development background, so learning Dart will be very easy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 419,
+        "outputTokens": 326,
+        "costUsd": 0.000517
+      }
+    },
     "eca71bdc17b6c767834e86dfe89066e981575940e3a18e1e5d7c0652953546d0": {
       "normalizationVersion": 1,
       "sourceHash": "f95bdd5a6254f0f3246aab2760992c3ca846ca58cb1701ef7c946d0e45ca6205",
@@ -601,6 +685,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "eca99cca57fbf2a5cabba92e402b39861f8d34f7827f1707dd5abfea39abc3f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a19eb734369402b197832bb75b4957116f7e907ab4586c9726ba28219bdfc4e",
+      "contextFingerprint": "ff28646c023e3855a98bf4641204f25ee6676a29eb895545bf97d58467752454",
+      "sourceText": "注意：在默认情况下，读取图像的像素数目必须小于2³⁰，这个要求在绝大多数图像处理领域是不受影响的，但是卫星遥感图像、超高分辨率图像的像素数目可能会超过这个阈值。可以通过修改系统变量中的OPENCV_IO_MAX_IMAGE_PIXELS参数调整能够读取的最大像素数目。",
+      "translatedText": "Note: By default, the number of pixels in an image to be read must be less than 2³⁰\\. This requirement is not affected in the vast majority of image processing fields, but the number of pixels in satellite remote sensing images and ultra\\-high\\-resolution images may exceed this threshold\\. The maximum number of pixels that can be read can be adjusted by modifying the OPENCV_IO_MAX_IMAGE_PIXELS parameter in the system variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 96,
+        "costUsd": 0.000174
       }
     },
     "ecac9f906a359a69c2e3d2be156d56035791a516f5b528fd234517531e36bfb5": {
@@ -743,6 +841,20 @@
         "costUsd": 0
       }
     },
+    "eccb51e81a93ac052004d784aefba853c6a7e6c0c264e34b07b6afe57b1f7e6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a34ea388c49a0e030962500ffbcc83b7e4b67000c9f1884cbd5f5ac44ded7405",
+      "contextFingerprint": "4e5ca0b8fc6ac8e8d59e51b4d0c855024d0b49b1843f71d84958ede734612bdc",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image111.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image111.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ecce4d72eaabbde35ea707c6137472d5d47b51a70b11587f73f6fe7138fa4853": {
       "normalizationVersion": 1,
       "sourceHash": "80e21bf9e05a8fd1a2e59560ab817a7a7085a43752c213aa1b5c21411889942b",
@@ -785,6 +897,20 @@
         "costUsd": 0.000073
       }
     },
+    "ecd4e3b7f9a7cc09e3135ca456225b19b97bd4d000a5e8ec910834cf4ccb0e6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "df92366b51b968911de29746d3945a8f64f363111d9bb6e0cfca9b89b9176465",
+      "contextFingerprint": "5797bce97557049788bc85a1c023a003ab9105efb475204b69589d68e3222156",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511502777-59799060.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511502777-59799060.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ecd583ae79c017f692a85aee16260107a4b442e401a5ade12b2b4a1e1e79d66b": {
       "normalizationVersion": 1,
       "sourceHash": "f4587595980747460cc647c6e45cc708a096aaf26cb8a543d28cf173ce31fc95",
@@ -811,6 +937,20 @@
         "inputTokens": 153,
         "outputTokens": 36,
         "costUsd": 0.00009
+      }
+    },
+    "ecdbcb887bfa82b6e8bb098005df1eae56d942959c4e8cc20de12afccb8b5072": {
+      "normalizationVersion": 1,
+      "sourceHash": "aec6b213f92ec0c3c8c66074d32771c6597405e7360807dbff524f68694eeb16",
+      "contextFingerprint": "7c7867ad56f39df09b23a6f4af2b8648a757ac001c72e7a9ad004d856ef5c2ea",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039468879-d224606d.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039468879-d224606d.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ecdd4ce0758b00be205c42909ed65f8a1f21ea3a6162be9c580870bc7c9e6e9f": {
@@ -937,6 +1077,20 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "ecf78e8cae8ccc472cb9ebf9bcb1f65d2efc4377d7d07c78d6f63aee4377af88": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa95e868ba1218359c0224296394401c524be071063de1123d483859e956c9b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开发规范：团队的编码规范、设计准则、工作流程等都可以用 Markdown 编写，方便团队成员查阅和更新。",
+      "translatedText": "Development specifications: A team's coding standards, design guidelines, workflows, and so on can all be written in Markdown, making it easy for team members to consult and update them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 43,
+        "costUsd": 0.000099
       }
     },
     "ecfeda7aa8a4cbd96c3d80ad1d8436b88617ca6aeab1f92d4a72ce6b90c4f272": {

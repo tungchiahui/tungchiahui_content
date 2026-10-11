@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7702a05d246ec0dfd5a49e26be9c97120c7dfd2f6921c6bc48953734e02c3161": {
+      "normalizationVersion": 1,
+      "sourceHash": "267232e8f4bf3d736fcc2171d625309193ee5a2cb623e345c2804a244e718a58",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过代码清单2-4，利用默认构造函数构造了一个Mat类，这种构造方式不需要输入任何的参数，在后续给变量赋值的时候会自动判断矩阵的类型与大小，实现灵活的存储，常用于存储读取的图像数据和某个函数运算的输出结果。",
+      "translatedText": "Through Code Listing 2\\-4, a Mat class is constructed using the default constructor\\. This construction method does not require any input parameters\\. When subsequently assigning values to the variable, it automatically determines the type and size of the matrix, enabling flexible storage\\. It is commonly used to store read image data and the output results of a function operation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 75,
+        "costUsd": 0.000144
+      }
+    },
     "77032fd342524da154a0f58415cb893be7c47baafb216f42a3bee3b30722b7b3": {
       "normalizationVersion": 1,
       "sourceHash": "321843298bef27f7a8eeac2782a13ee29898e8ad4d2bb22c49827ccc5d0ca318",
@@ -41,6 +55,20 @@
         "inputTokens": 131,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "770f373a5a4eb7bd5c330353dc06e2adec35b2506e6245f91f701ec1d7b07ce8": {
+      "normalizationVersion": 1,
+      "sourceHash": "6daf96cbb972bd0c784081b3483bba4a8e3eebf59cc8eab1e1c9a168757efec7",
+      "contextFingerprint": "28d7cc121e6f9d93392fb55e31729e648efcf505fc4714127c02d855fd8f7277",
+      "sourceText": "- `interface/stlink.cfg`\n- `target/stm32f1x.cfg`",
+      "translatedText": "- `interface/stlink.cfg`\n- `target/stm32f1x.cfg`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "771ae071cfd3f3ae56d8fa26d1d8e61420fe8f141431b97cc0efb9d2bedfe53b": {
@@ -435,6 +463,20 @@
         "costUsd": 0.000079
       }
     },
+    "77778abfa461555145bf58b3a3fb99f9ce991038c7a922a68d18683616b835a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a958d9a325971bca682914d2e71b7764dbd53a06dc0b95832d6e78288ede1366",
+      "contextFingerprint": "d08ccadab1a66abbc8bde928775c97aeee149ea2ef405963b60c15ef472e5aff",
+      "sourceText": "1. 配置主频\n搜索`CPU`,找到CPU主频的设置,设置CPU主频为240MHz(最大)\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768316286100.webp)\n\n2. 配置Flash和RAM",
+      "translatedText": "1. Configure CPU frequency Search`CPU`, find the CPU frequency setting, set the CPU frequency to 240MHz (maximum) ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768316286100.webp)\n\n2. Configure Flash and RAM",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "777d24871dcf8ea7f8ae543a2b17a41b883bc571c24b97e1b0e31c8df3744c30": {
       "normalizationVersion": 1,
       "sourceHash": "66eb9a0b9d45d07ff9f76b2b25ceca0d8d3b05f4379b391068f73b55ed72d6e3",
@@ -533,6 +575,20 @@
         "costUsd": 0.000183
       }
     },
+    "778f86b1d370934f15c3c2fec69f6cb0bcba4fb95e3bd4377a206adc08081a43": {
+      "normalizationVersion": 1,
+      "sourceHash": "cca4d04845823c5c6a6eab190737a7904d31dda8dcf639e0fb7c4ab0ce3cedc7",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*3. HSV颜色模型*",
+      "translatedText": "*3\\. HSV color model*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "779377d7ba1e4e876ab516f45227b2e8188c5465337e6f3466c5bcc42cd99865": {
       "normalizationVersion": 1,
       "sourceHash": "85b9a2f9a49863c89fe6f75425d68bf7a4637aa065236b7cf30113b0a21dd871",
@@ -573,6 +629,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "77a1aefe0cfe117290c9afaf607b22306c9aaa5c91b7f00735ca0d1b8f47c2c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "19d689a908ed6067221bd7110d3033527bfc25a0de0549a88e59072ba4e89547",
+      "contextFingerprint": "7f98a9f29ce0ca1cf260968822b57da0b9ba4f3a584dd964902d6bc3f2f03b1e",
+      "sourceText": "Markdown 区块引用是在段落开头使用 `>` 符号 ，然后后面紧跟**一个空格**符号：",
+      "translatedText": "To create a Markdown blockquote, use the `>` symbol at the beginning of a paragraph, followed immediately by**a space**symbol:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
       }
     },
     "77a2dbacfcb19a8081b819f577efa416d2dfc70e2cbef99367cdedf3cfbdfef9": {
@@ -883,6 +953,20 @@
         "costUsd": 0.000053
       }
     },
+    "77d8995f42fa28927ebe4299d54346a17cb4a0fc9e00b61471de015439344602": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bb8b2a0d4d504cbd6448f9e0113f99f26c7fcd7a3982dfe6acdfb71d1ff47f9",
+      "contextFingerprint": "e21de201a182bea4c76574423442c3ea2e4a7a31b4d63409eec82ab25872d633",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image4.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image4.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "77d91fd3b8ae4d8b3af32e91b69c182a9eab6d3c2664803f14699cbed3d60ee8": {
       "normalizationVersion": 1,
       "sourceHash": "d70e82aad1e44cf1a5e6f2333a4f425606866b43e49a9f9913f8419e4c33ad32",
@@ -951,6 +1035,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "77f5ab4042bcca5fe350930dba9ad970f81ceffb914b1715173cc384c933f912": {
+      "normalizationVersion": 1,
+      "sourceHash": "8542c308cac95ecab4924d7733eb283c8d19de28753043b3817cab33ce92ae26",
+      "contextFingerprint": "ea967ee5606db2b96587d766e7a1fe54cc75ddf45c1ac1955c1f362915f66c77",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768101274422.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768101274422.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "77f651534800fea65a9a129373d2956ee38bd128be9880a7b39ef789e0fcd598": {

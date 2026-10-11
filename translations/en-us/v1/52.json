@@ -15,6 +15,20 @@
         "costUsd": 0.000055
       }
     },
+    "5206953a81342d3ce894713cb9ab54a2b189165f5f70fa442d22f2eb5f222b1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "4dac1fd3bf99a2c757690d5ed5c065e4d6b01041b0830a339a5a6dd2581f6523",
+      "contextFingerprint": "c08a1e0e18877022a05d2d4b20a9b75b693ae3caf0e075376938299fc05eb54e",
+      "sourceText": "1.  系统：Fedora 42 KDE Edition Linux\n\n2.  系统内核：Linux 6.15.6-200.fc42.x86_64\n\n3.  架构：X86_64",
+      "translatedText": "1.  System: Fedora 42 KDE Edition Linux\n\n2.  System Kernel: Linux 6\\.15\\.6\\-200\\.fc42.x86_64\n\n3.  Architecture: X86_64",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 56,
+        "costUsd": 0.000121
+      }
+    },
     "5209a42eac9495d5ae0fb10218967f2d22c84d3f6d25dfeaf11472ac31f0d720": {
       "normalizationVersion": 1,
       "sourceHash": "10223f3620fc2cc2cf5741ee876eea41acf6907ef9230c68910fcc2345f381c9",
@@ -41,6 +55,20 @@
         "inputTokens": 130,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "520b8005b5e4c8505d0f5bb04eeb688f32fb8662a079ef6bf36de81a727da149": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc61099d9351a1a6f7188572b2a34ea83b31a42532c164912d84bb5cfa683c49",
+      "contextFingerprint": "10c45e13ea456c8a9b8f9777a0ba844040719222e680b29bbf7d304566fa059a",
+      "sourceText": "- 函数名：使用 `console.log()` 输出信息\n- 变量名：将值赋给 `userName` 变量\n- 命令行：运行 `npm install` 安装依赖\n- 键盘按键：按 `Ctrl+C` 复制内容\n- 文件名：编辑 `index.html` 文件",
+      "translatedText": "- Function name: use `console.log()` to output information\n- Variable name: assign the value to `userName` variable\n- Command line: run `npm install` to install dependencies\n- Keyboard key: press `Ctrl+C` to copy the content\n- File name: edit `index.html` file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 51,
+        "costUsd": 0.000113
       }
     },
     "520c3ab461e913fd1582bee3976032227b1a5486e92817ddd9a3cb5862c77a30": {
@@ -645,6 +673,20 @@
         "costUsd": 0.000052
       }
     },
+    "529a992e7f13f5688deb6d100f8a4fb71eddedc6cdd88a4c1e55c14d8a6430a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6b1c2dcccdb5a7f564a047d16d9a9b2a79b9e9f42e8cc292b5a998d1fe5ee2d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过下图可知，他只生成了.elf文件，并没有咱们常见的.bin和.hex文件。",
+      "translatedText": "From the figure below, it can be seen that only the \\.elf file was generated, and not the \\.bin and \\.hex files that we commonly see\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 38,
+        "costUsd": 0.000091
+      }
+    },
     "529c3e6f310aa5afbba75498a1ba605aba750253f88b1de4eadf8a0b400b24e8": {
       "normalizationVersion": 1,
       "sourceHash": "221725f7d71a93bdb15f29d2ca0a80b250f4e8674c2c894b00667436d3c84c86",
@@ -799,6 +841,20 @@
         "costUsd": 0
       }
     },
+    "52d3b32f0bd2e0cccaaec0416d594cd661bd821bd1f0b9b393f9b9d21634af64": {
+      "normalizationVersion": 1,
+      "sourceHash": "f509e3737400590df0843ed9df813c903964131303ec2e7abf43e9a8c3fb4189",
+      "contextFingerprint": "484998e2c9b4ccf52543732f9df69db10529fd51701913263402efdcad7c7b80",
+      "sourceText": "虽然在 64 位编译器中，uchar 和 CV_8U 都表示 8 位无符号整数，但两者有严格的区分：CV_8U 只能用于 Mat 类内部的数据类型标识。如果使用` Mat_<CV_8U>(3,3)` 或 `Mat a(3,3,uchar)`，都会提示创建错误。",
+      "translatedText": "Although in 64\\-bit compilers, uchar and CV_8U both represent 8\\-bit unsigned integers, there is a strict distinction between the two: CV_8U can only be used for data type identification within the Mat class\\. If you use ` Mat_<CV_8U>(3,3)` or `Mat a(3,3,uchar)` an error will be prompted during creation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 81,
+        "costUsd": 0.000158
+      }
+    },
     "52d54a43c8b031dca994872b1c2c8be6cce0011386eb2fc1021568925af9dee2": {
       "normalizationVersion": 1,
       "sourceHash": "5024eef7553274ae745797216b26f04509a935f0822558b58050baae8742133f",
@@ -895,6 +951,20 @@
         "inputTokens": 174,
         "outputTokens": 52,
         "costUsd": 0.000115
+      }
+    },
+    "52f0b16ab555aeb10d20a2aea95ab6e1ed05ac2343cd6ded3395dfacf0467132": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfa4b66ce636dbf691447197f96e3680d82393e31c681e4443aebdcf40010652",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二个参数：看 STM32 哪个系列",
+      "translatedText": "Second parameter: which STM32 series to look at",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "52f82a20f985f61a5faaf90254533c513479bd7873d0665a965575e4fdf0ef9f": {

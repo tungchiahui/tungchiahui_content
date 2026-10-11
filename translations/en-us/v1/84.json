@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "84026360c7be584fe6e7347fa08583f3ab7373b7a1a728139247dad72b88029d": {
+      "normalizationVersion": 1,
+      "sourceHash": "865c5ecc86480ac9290750e130eaa284880fe6787c2f7836792ea909dd28a623",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 代码块的高级特性",
+      "translatedText": "##### Advanced Features of Code Blocks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "840272a0277316a628a56fdee79ae1697937d02892ce6dce09464fc888223788": {
       "normalizationVersion": 1,
       "sourceHash": "288abf389554702e3058827ad15f9e6517fc37cd30f890769d684e3c1aa39e5e",
@@ -113,6 +127,34 @@
         "costUsd": 0.000057
       }
     },
+    "841a47474e5803ed7078d3872d31c63fbb2a324bbc7f01fac918c220489d1e5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d7b8f7445459d08d1660e830307e7656a1b8c208a6af1a26c784923bb33c249",
+      "contextFingerprint": "79e49ff4fc62f357e6af2a60f0b4c596427045d4a8d29071545ba49afc8561f4",
+      "sourceText": "| 调试器 | OpenOCD 配置 | 说明 |\n|---|---|---|\n| **ST-Link V2 / V2-1 / V3** | `\"interface/stlink.cfg\"` | STM32 最常见 |\n| **DAPLink** | `\"interface/cmsis-dap.cfg\"` | DAPLink 实现 CMSIS-DAP |\n| **CMSIS-DAP** | `\"interface/cmsis-dap.cfg\"` | 很多第三方调试器使用 |\n| **J-Link** | `\"interface/jlink.cfg\"` | SEGGER J-Link |\n| FTDI 类 JTAG/SWD | `\"interface/ftdi/xxx.cfg\"` | 根据具体硬件选择 |",
+      "translatedText": "| Debugger | OpenOCD Configuration | Description |\n|---|---|---|\n| **ST-Link V2 / V2-1 / V3** | `\"interface/stlink.cfg\"` | Most common for STM32 |\n| **DAPLink** | `\"interface/cmsis-dap.cfg\"` | DAPLink implementation CMSIS-DAP |\n| **CMSIS-DAP** | `\"interface/cmsis-dap.cfg\"` | Many third\\-party debuggers use |\n| **J-Link** | `\"interface/jlink.cfg\"` | SEGGER J-Link |\n| FTDI type JTAG/SWD | `\"interface/ftdi/xxx.cfg\"` | Select according to specific hardware |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 253,
+        "outputTokens": 132,
+        "costUsd": 0.000235
+      }
+    },
+    "842208c342b453991df3bdd871142ba5d7b094c6f4c9782f0982c07fd6798d70": {
+      "normalizationVersion": 1,
+      "sourceHash": "ece99c72ea03f607eb527465bfd28192164b07a096fd35aa46d1edada33b00c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码清单2-18 两个Mat类矩阵的乘法运算",
+      "translatedText": "Code Listing 2\\-18 Multiplication of Two Mat\\-Class Matrices",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "84225a2a7002d34d97ef76c8209cb3aebc5bd1adc1e82c50f763466b228455f6": {
       "normalizationVersion": 1,
       "sourceHash": "f97d283d2c53d95ae77fb5545cbcc82f68c6f8759dc83c10949dd692eca92104",
@@ -155,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "842fbea5c373dd21e52b9ccda6df7b5c945297176d6ba41c73e5a69d845691d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "506216590bd32f34a970681095ac1d9ba64ff7822de3040e7928ec0e12c6728d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "进入下载目录并打开终端",
+      "translatedText": "Enter the download directory and open a terminal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "84317404233504d44bbb3f580c0b4f49717b010a8369d15051a53ce14ce9eb3c": {
       "normalizationVersion": 1,
       "sourceHash": "e7d314254c7a253c06bb0c9ab7e8b6522be1b04b5a844fffc0adfb8b7b563f4f",
@@ -167,6 +223,20 @@
         "inputTokens": 158,
         "outputTokens": 46,
         "costUsd": 0.000103
+      }
+    },
+    "8431d002818bd618504e98a6a7060b32ea365002092207acb47dab5148b0f5d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c903238a25a94b822e0fb4062f0e302f35b5a4fb363736f7f13a687dd22dc324",
+      "contextFingerprint": "4f00ad24916dad656bfc2c8b547f23fb1706ca1a2ed9e5e0bce8a7c636113297",
+      "sourceText": "以下是`tasks.json`的内容：",
+      "translatedText": "The following is the content of `tasks.json`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "843212e509b978eef5698e1f21aeafd2a6370063caf479e391ce1d9caed2acd5": {
@@ -225,6 +295,20 @@
         "costUsd": 0.000049
       }
     },
+    "843d8cf89e87d0d1bcd30c2f1c25c86848980840f3aed8e2c72b921f77431846": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf5addaf01779049c47fe9bfdc0477b0c8018095ea57b850dcf18e9a8643f88b",
+      "contextFingerprint": "3924250e4f600228775127e0e7ce44c458064760a4cf94e2ddd641c22243008c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790606954240-b80cbe26.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790606954240-b80cbe26.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "84401007629150f045765d30f54aa615b745b85419ff1b44092fde37e8378959": {
       "normalizationVersion": 1,
       "sourceHash": "d87bf31dee2bd778eae52ae043ae90d354464f9fe25457b348d60a448b5a0545",
@@ -237,6 +321,20 @@
         "inputTokens": 141,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "8443a12628d83cb036b5eaa107353a7d4aee45e05e6b1913f996f94003e527a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "4022d8d54f1ae980be7e57f2d3ac3b7bf85bb937bc8ee032edfe4fe492ee29d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "选择ELF",
+      "translatedText": "Select ELF",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "844f1dba97ad16fffb1c53742bf83e2a07ec2bf9f45d1509c6993a9f2f4c5435": {
@@ -463,6 +561,34 @@
         "costUsd": 0.000052
       }
     },
+    "8486ea4a15161a0ccfaacc42ece45746606dc0e27c2b2ca46702b56297e7ffc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "d40536baf459771ec56c924fc4d1e4f3d767ad28952f8566f332faa97d22f312",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "无序列表使用星号(*)、加号(+)或是**减号(-)**作为列表标记，这些标记后面要添加一个空格，然后再填写内容：",
+      "translatedText": "Unordered lists use an asterisk (\\*), plus sign (\\+), or \\*\\*minus sign (\\-)\\*\\* as the list marker\\. After these markers, add a space, and then fill in the content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "84961e3483ce0f988df1e68b65a80b05cbdb303d9f8caabfdaef78a6b51ea488": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6e445c258b0f9c0b1254f3775f0ee511090dd9842e2b93df86f624cef8ee8fc",
+      "contextFingerprint": "0fb399109331446afa593339904c0cbbd473d3b749e3a30e0b9a477899bfea20",
+      "sourceText": "最终的`launch.json`:",
+      "translatedText": "Final`launch.json`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "84968a5bbe8cabdc7dda7c2fc77b3a36973a96d9da077e3550cc2ffc56aeb87f": {
       "normalizationVersion": 1,
       "sourceHash": "e2386ed065f138391ec00cb9f7d97542ec9001ca45cc3689b75cb0791cc3842d",
@@ -489,6 +615,20 @@
         "inputTokens": 147,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "849a3c4ad9143df8a124f96582e60ad050a09bb4e580e67bf8815f7ee43ba24d": {
+      "normalizationVersion": 1,
+      "sourceHash": "55cda52f9a8ca253065e689ee9da39daa4c5d9d38ea398cd821ba8e793693541",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个关键字可以自动推导变量的类型.",
+      "translatedText": "This keyword can automatically deduce the type of a variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "849b1c7cdca9121f69102e740cb96b8fe8d2f21fa093dee60ae27c61359a6146": {
@@ -701,6 +841,20 @@
         "costUsd": 0.000094
       }
     },
+    "84df5807cd482e64bee54a8f191915aa61f308b07c90cb8cab91ba83e992c479": {
+      "normalizationVersion": 1,
+      "sourceHash": "8567998c15579124f23f18a02986032af9a1624729545818cf3b880bd156aaca",
+      "contextFingerprint": "5783241b8c851a1b97f521364d8eda04699a9c0505a27daf5e4bc6228657391d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image122.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image122.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "84e19da3b43551742be5d2d53d87ea26e80f795436945454f42a5c8dfb8c40b1": {
       "normalizationVersion": 1,
       "sourceHash": "ddf5e331b1b45c7b9a872b3d423b68fb55128f44a5e0b7a3e403d7d785fa2df6",
@@ -727,6 +881,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "84e7c055f597ff5c9f70842582546381960502a71c8cb455dbffa60f7f3bfeae": {
+      "normalizationVersion": 1,
+      "sourceHash": "48570902c3a6b4a6ecc9594217cb7433ca3e78a5537e09afdea26be0b06261c6",
+      "contextFingerprint": "bfc05464f243263ab278625d20f75199bba7c341be5c1f329bf2e444abeda669",
+      "sourceText": "这个输出说明，我在用`gnu-tools-for-stm32@14.3.1+st.2`",
+      "translatedText": "This output indicates that I am using`gnu-tools-for-stm32@14.3.1+st.2`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "84e876ad3421ad2f2be5448700006dbe22e1a8626d82425707260c211252978a": {

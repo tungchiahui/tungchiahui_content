@@ -183,6 +183,20 @@
         "costUsd": 0.000059
       }
     },
+    "573cec368aebff209b13d5005dd9f351b7ef4d273aa757cea97ed72347a2964c": {
+      "normalizationVersion": 1,
+      "sourceHash": "46772cc8cb686fc4a4743ee56d8aa92f333b0c7fc74e2c6d9f78fb88197ec445",
+      "contextFingerprint": "aed6d1185d8ffc3cdf458d751c37d4edb8762a2b31b564d2e9e5cf48aaa8e47a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514972175-9fe9ca6a.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514972175-9fe9ca6a.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5745da66187b26d90909c23508904f5c25f713189788795b22efc163f6fe590a": {
       "normalizationVersion": 1,
       "sourceHash": "9a8a74517111260d1da8909d718d6ce1c46312a568fa54ded283c61d3b549128",
@@ -281,6 +295,20 @@
         "costUsd": 0
       }
     },
+    "575fc658d6c59ea8e47e42dfd4cd8438e1986e8c811e445fdd34acf2c33d9bee": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc5eb5fe068df27685943a5ed0ab6dc7535ec58944a2b3a2e09ca959a21aa88f",
+      "contextFingerprint": "f90753396037dea702943f2d151b431b80e04f3a49b32a6d2976684196eb6d40",
+      "sourceText": "先在终端运行 `lsusb`，确认调试器已被系统识别。报错中的 `/dev/bus/usb/001/008` 只是示例，实际路径以你自己的输出为准。可以用 `ls -l` 查看该节点的权限：",
+      "translatedText": "First run `lsusb` in the terminal to confirm that the debugger has been recognized by the system\\. The `/dev/bus/usb/001/008` in the error message is only an example; the actual path should be based on your own output\\. You can use `ls -l` to check the permissions of that node:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 60,
+        "costUsd": 0.000122
+      }
+    },
     "57627b3bf94f36cd15ca6596afd15eaa41431f89328c27f817e3d42512272886": {
       "normalizationVersion": 1,
       "sourceHash": "77860827d0c93ef573be455f42b19523514db604ec45abfc6c4f015672d606d8",
@@ -351,6 +379,20 @@
         "costUsd": 0
       }
     },
+    "577280ed58e04bf562170740bde6a8970a030fd1ab6708b84583656414ea8a5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0d46a039a7ba86726efa120774a645e869ac86a0b26aeaf68cbc58f06327d4d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里建议按上面这个顺序排布参数：先探针 → 再通信协议 → 再 MCU → 最后修改这个 MCU target 的参数",
+      "translatedText": "Here it is recommended to arrange the parameters in the order above: first the probe → then the communication protocol → then the MCU → and finally modify the parameters of this MCU target",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
     "57740db8e139e1a7c4b02968ea9e497bc6d2ad03145cdde34779a5bca053ba80": {
       "normalizationVersion": 1,
       "sourceHash": "35efc1d472954929ede103aa82759649d4d7d1a98e8c4873a6ff8e4d2f3c9ddc",
@@ -391,6 +433,20 @@
         "inputTokens": 154,
         "outputTokens": 46,
         "costUsd": 0.000102
+      }
+    },
+    "577a653fb4928bbeadb3327b97ddbdde28aede3353315512015ee01a504dacf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4232515566c48385b13a2c0ba5cb362af80147de42d067a23a222627d936ee8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用用法1:",
+      "translatedText": "Common usage 1:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "577f7ddc3e9c25ecf46d52d6ee2996ba016893e7b7f86321aef707fcb49da400": {
@@ -475,6 +531,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "578cc2569aa740365c654473089e83b41323a52934271d976230e052525a6653": {
+      "normalizationVersion": 1,
+      "sourceHash": "56454a785209b60a2134d3e82db7995a51bc0814dbe2dccd385b1961650fbfe2",
+      "contextFingerprint": "9e4aa2ed03938cad49f224053b5d68fb009a247ac69809aadf4fc88565a0990a",
+      "sourceText": "如果调试器插上后能在 `lsusb` 中看到，但 VS Code 找不到设备，或者调试输出中出现下面的报错，通常是当前用户没有访问 USB 设备节点的权限：",
+      "translatedText": "If the debugger can be seen in `lsusb` after it is plugged in, but VS Code cannot find the device, or the following error appears in the debug output, it is usually because the current user does not have permission to access the USB device node:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 58,
+        "costUsd": 0.00012
       }
     },
     "57914a1c0b4be77807d746d8d541a2594ea29a99b23c88d70f3260945c4805fb": {
@@ -587,6 +657,20 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "57b190f79323a4dc8bb954e6efff572e87759713b3631cac6195ee1057d78afa": {
+      "normalizationVersion": 1,
+      "sourceHash": "a659ceb4c84697768032e3525bd42ebb9ef5a371c9f386d785658cead6ba2aac",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 缩进式代码块(几乎不用)",
+      "translatedText": "#### Indented code block (rarely used)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "57b65b7a5f10e44bbef9f2e349fc6b1bd260b7225d04726d266e3ae8229b43a3": {

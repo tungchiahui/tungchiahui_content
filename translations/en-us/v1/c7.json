@@ -85,6 +85,20 @@
         "costUsd": 0.000055
       }
     },
+    "c726ae8d587eff1426631f58988ca871a981434bfe96a446d035885a75bc62f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dee3d9c503cf1c7fc070e15c9b045c5de3d0ba8ef7d5b5c982d1dd05790a7fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "利用这种方式构造Mat类时要格外注意，在Size()结构里，矩阵的行和列的顺序与代码清单2-5中的方法相反，使用Size()时（见代码清单2-7），列在前、行在后。如果不注意，虽然同样会构造成功Mat类，但是当我们需要查看某个元素时，我们并不知道行与列颠倒，就可能会出现数组越界的错误。",
+      "translatedText": "When constructing the Mat class in this way, special attention must be paid: in the Size() structure, the order of the matrix rows and columns is opposite to the method in Code Listing 2\\-5\\. When using Size() (see Code Listing 2\\-7), the columns come first and the rows come after\\. If this is not noticed, although the Mat class will still be constructed successfully, when we need to view a certain element, we will not know that the rows and columns are reversed, and an array out\\-of\\-bounds error may occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 119,
+        "costUsd": 0.000206
+      }
+    },
     "c72a2086f27b8c86955363a14fe0781c3372da364e633dc17b0a207c881a0433": {
       "normalizationVersion": 1,
       "sourceHash": "5dae0807e0fd007fddd1578381f690bd65701a9db29d76b2e56bd921b68cb6ee",
@@ -519,6 +533,20 @@
         "costUsd": 0.000069
       }
     },
+    "c7d3aa55392e114ef5ad2e6301169805df2c75757728529e0e32900473b9a96d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d66adae1f46d7d3567cc937755fb205a9f7d565b7de81624b3cb9e33558a917b",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*2. 多通道合并函数merge()*",
+      "translatedText": "*2\\. Multi\\-channel merge function merge()*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "c7d4a7bdc5aa53c6ad915f8d6f767ee9b001bebe32dd81318b93b611d9cfd998": {
       "normalizationVersion": 1,
       "sourceHash": "5e41a0863e7fc9a51ce34c739889f6621c8eca1447628fd2037361eb8153433e",
@@ -587,6 +615,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "c7e74d7c0a37bdea6fe3c96277618b1aeed7e42a7f3766be51326c82974885da": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c582da1c5018f5d68d30fe43ae899f76be637e5535aab0c2f9cc8e226ba3796",
+      "contextFingerprint": "fb0015f994d0e55f40b40861732fda4ef02760bbe5de856baa66dd7f1b252d2c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image62.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image62.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c7eb051a8bcee8a47233c9a68673f595a506b857ca9c957b22e4c581cb492f85": {

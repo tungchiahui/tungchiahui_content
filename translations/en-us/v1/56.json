@@ -57,6 +57,20 @@
         "costUsd": 0.000076
       }
     },
+    "56135e701398c9216413d9b5a191be1a1f931a4191bcf17346b094881b4a325d": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a6a763d20cb46ed38bbaf6f96c1ba438f3c66bf3aec038831625a5969ad2fce",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 安装",
+      "translatedText": "##### Install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "5613d582f2caaecc7a86275f73d76d25162e5629d7dbdc4c49d938d7b2228338": {
       "normalizationVersion": 1,
       "sourceHash": "2d698c11872db18e1139924b204635b6c2d893d2320a9a33721ca92b21244bf0",
@@ -69,6 +83,20 @@
         "inputTokens": 150,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "561a4af177472d74e9edb8661c61e715c2798fb2a3633957f48d71c816624dbc": {
+      "normalizationVersion": 1,
+      "sourceHash": "303fe1ddaef16376923e5f457415c43b82aae01b84cdce43b3cefcd1a9fa616b",
+      "contextFingerprint": "72cc870a76b0174bb9dce09fa2bdbcd29d55fe34a7327fd055e6315e46f79a81",
+      "sourceText": "- 场景：当我们需要描述一个数字类型的时候，需要使用int/num/double\n- 区别：int-整型数字，double-小数 , num-可整型可小数\n- 语法：`int/num/double 属性名 = 数值;`",
+      "translatedText": "- Scenario: When we need to describe a numeric type, we need to use int/num/double\n- Difference: int \\- integer number, double \\- decimal, num \\- can be integer or decimal\n- Syntax:`int/num/double 属性名 = 数值;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 54,
+        "costUsd": 0.000117
       }
     },
     "561e1b4edfd473002f4b40cbfe61db3d546884f4afcbc2b1c0f67834b1166d75": {
@@ -237,6 +265,20 @@
         "inputTokens": 146,
         "outputTokens": 31,
         "costUsd": 0.000081
+      }
+    },
+    "5635eb4db0322072679ff37012d2873bbc8acc4e452c7a53d07641b8d73f99d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "64208443d8906a1eb316f049f0e9de8152b04d3651ad2c9c547e9812e3aafce5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 图片尺寸控制（HTML方式）",
+      "translatedText": "### Image size control (HTML method)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "563a2fcbd15609af84b0b0d580933d8ffc3236400a078c19c48c530ba1db6aee": {
@@ -421,6 +463,20 @@
         "costUsd": 0.000058
       }
     },
+    "566349f13f2ea54f341bb3448fa4978197d2ad1bfc76c11df20d3e72932697ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "0821a4177b312cb5e8a08ff2b5299b196b95ef5c183e1979c94ae20b2de906eb",
+      "contextFingerprint": "883c890f7bb33232dbc85484e96790eef93e6f1ad27a2fbaa0b8d9c9c67615c3",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image65.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image65.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "56639df1cf29c46923ee28c3b04ecab89638e88e869f31000eee7e4f04f53313": {
       "normalizationVersion": 1,
       "sourceHash": "e10ec691bf2c52bd86daf47a79e9763fd2546891488e675b7c8a56bb0433750c",
@@ -519,6 +575,20 @@
         "costUsd": 0
       }
     },
+    "5677a391ba3e550c93fe1b1974579d44207ab475e12292d4fb916c3725b1d698": {
+      "normalizationVersion": 1,
+      "sourceHash": "c88fe11cf8600500b5c0bb83a33a1a18419ad11b6b46e7ae35c724ddc822cef4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输入的原理,就是如下图,如果KEY按下会让电路电平变为低,那就要上拉电阻,用下降沿来判断按键是否按下.\n由于上拉电阻,所以刚开始KEY没按下的时候下方电路的IO口那边是高电平,一旦KEY按下,将会变成低电平,这样就会有一个下降沿(电平由高变低).",
+      "translatedText": "The input principle is as shown in the figure below\\. If pressing the KEY causes the circuit level to become low, then a pull\\-up resistor is required, and the falling edge is used to determine whether the key is pressed\\. Because of the pull\\-up resistor, when the KEY is not pressed at the beginning, the IO port of the circuit below is at a high level\\. Once the KEY is pressed, it will become a low level, so there will be a falling edge (the level changes from high to low)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 112,
+        "costUsd": 0.000195
+      }
+    },
     "567811623a1305a829a798e0547c3e43eb7f466c05da1854547f3c1ef1c04b1d": {
       "normalizationVersion": 1,
       "sourceHash": "c9a5e89958f89ee0584906c24d4ab9f1f88c3e2e4de688b468adba21664dc6ea",
@@ -601,6 +671,20 @@
         "inputTokens": 352,
         "outputTokens": 249,
         "costUsd": 0.000405
+      }
+    },
+    "568099f3afdf5384f81fb1d27bb50b364871217b02049d0fddc74822e5539c2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a475ce783aa1d45c40f7ce3200b04faad14df3acb73895f378c5a0812d7fd9b3",
+      "contextFingerprint": "910c13ce3c77cb3c6999eb00daf5a534c6ef303b0254957ff2454a2629a61264",
+      "sourceText": "点击这个`添加到监视(Add to Watch)`",
+      "translatedText": "Click this`添加到监视(Add to Watch)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "5684f0628f5c825178c8613054c739d4d82bba74ccf6341e414a60e7a30edc57": {
@@ -799,6 +883,20 @@
         "costUsd": 0.000059
       }
     },
+    "56b59c59c10e43f132af79a8c428b104a76a9d7c913f040e7bf932de8ac64f46": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e3e1d21df21b027507289b971a7ad136b57c2363df70fee82e59ebf30549894",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 无序列表",
+      "translatedText": "### unordered list",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "56bfd2536f39d7dda210af412bd7c2a1083b5432a5389af426a6b9f2aca970ef": {
       "normalizationVersion": 1,
       "sourceHash": "cf86baba59f1b34c457ea9145f68fa667019f58867d6307aad9bc97a1821ad09",
@@ -825,6 +923,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "56c03e6c4abacc06ddacee7bb779e4d1609f182c405937fa01255674a915de95": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1305d20aadaf1477a8eed90a61f2b3aaaf03e0dd36e1f4f58a992f98fcded3b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等待进度条滚完就结束了。",
+      "translatedText": "Wait for the progress bar to finish scrolling and it will be done\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "56c43e88faed07124114eb8c626d9dc913c6084b834e3800d65375abcec36bc7": {
@@ -897,6 +1009,20 @@
         "costUsd": 0.000075
       }
     },
+    "56d59f55ae5e38b1a09083cbb84fe63a5116539137c158f2d7335595847676ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a5967ce4273bc4094390b9cc6afac2e9d8b5b05d996c8f4dd33fb17ab827a52",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会被转换为：",
+      "translatedText": "It will be converted to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "56dcb0f95ba1fb8cbe0c0717d603d8a0637a13813651ad5812c7294a5f9708e4": {
       "normalizationVersion": 1,
       "sourceHash": "fa1e23aa7f053968a67b834742631dd00a3ead3fee638091aa0b93e11453e49f",
@@ -923,6 +1049,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "56e52d288e2e96bae00d5d755381f9f5b440978a86998c878909d2c766fa0a8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d2a619824d09a719897490dbc2ae659d90b0a908ea5f27cb39ff13d360e1ca3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 安装VScode",
+      "translatedText": "### Install VSCode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "56e66ac021fb08fcf84088fa51d7d1906f0707cf7844eda0f76235f65f62f52f": {

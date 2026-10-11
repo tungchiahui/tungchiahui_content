@@ -71,6 +71,20 @@
         "costUsd": 0.000088
       }
     },
+    "b31b2ffab40e22ed29df57f767fbfe47594119990e2cb8ef9c41a311edd4d25e": {
+      "normalizationVersion": 1,
+      "sourceHash": "5645064322856670e8e160e2327be460ec65a4b27747533e958d9afca0161ddb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以下是ESP32的IO:",
+      "translatedText": "The following are the ESP32 IOs:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "b31d5132dada0e6e74879a0464cb94c2fb2199891c593693728ef897c5f32936": {
       "normalizationVersion": 1,
       "sourceHash": "fa3675446eaf745f05283eda0223660039cb115df6b6e3fccdfe65848e4b8ad9",
@@ -111,6 +125,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b3262b45cdb9f21c28694b0a928db2e3a2591cd6801c4f158fbd73de0feabb00": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc8057c2b42b6920bb48879e3592b532fc34ad1474ae278d2127a647a72c53a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点安装",
+      "translatedText": "Tap to install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "b32bc3273671f0a29a41f87466b00e7b97b27a1f6175095a06a13d0a37a44e0f": {
@@ -631,6 +659,20 @@
         "costUsd": 0.000061
       }
     },
+    "b3b199f0ac378cdd3b9d04393684fcdb064860af089992284a29a0b35f209a03": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbc128f106f8b43e66407b4ec0de04eda52159552f4e241c688b9f3b37fd4526",
+      "contextFingerprint": "502bde9a85230a7ac2de076a732f2df348092cec87eb29f8c52b9f9ee2b4bd99",
+      "sourceText": "##### SEGGER J-Link",
+      "translatedText": "##### SEGGER J-Link",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b3b27e1a35e80ee820a3f913ce79b53463500ea432f8f7d6f255cfe395ef505f": {
       "normalizationVersion": 1,
       "sourceHash": "a94a1a2503aa6b3fb8d2fc895009333c45d80b9d630d6d672cd8150d45e1d985",
@@ -923,6 +965,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b3ea21df25c0d41060e8d889d00dbb8a214b3d522c4308fbf4c037285446d6c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c6fefd28d0f8a4b41561329a38e41b74295f4b1327b2a6343d4c15f9d84fdc0",
+      "contextFingerprint": "1eaa8e6aeaeaeeaf33e8df85afd5ccdefdf3828ea160eb4e9e5060c4dc66f699",
+      "sourceText": "该函数是构造一个能够读取与处理视频文件的视频流。代码清单2-27中的第一行是VideoCapture类的默认构造函数，只是声明了一个能够读取视频数据的类，具体读取什么视频文件，需要在使用时通过open()函数指出，例如cap.open(\"1.avi\")是VideoCapture类变量cap读取1.avi视频文件。",
+      "translatedText": "This function constructs a video stream capable of reading and processing video files\\. The first line in code listing 2\\-27 is the default constructor of the VideoCapture class, which merely declares a class capable of reading video data\\. Which specific video file to read must be specified using the open() function when in use, for example, cap.open(\"1\\.avi\") is the VideoCapture class variable cap reading the 1\\.avi video file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 213,
+        "outputTokens": 105,
+        "costUsd": 0.00019
+      }
+    },
+    "b3f29952644972739ebda07845adc448755e67738513b2afed93c087aa2186d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d07c1e4cdffc50e8211a4272ea0be5296ba225565ba5be2dd6dab3b7127c5173",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- size: 二维数组变量尺寸，通过Size(cols,rows)进行赋值。\n- type: 与代码清单2-5中的参数一致。",
+      "translatedText": "- size: Size of a two\\-dimensional array variable, assigned via Size(cols, rows)\\.\n- type: Same as the parameters in code listing 2\\-5\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 39,
+        "costUsd": 0.000096
       }
     },
     "b3f3fabdc94df7e2ce4851172454a4f390a2e36fefcf8e1ad2fdad8987f77c98": {

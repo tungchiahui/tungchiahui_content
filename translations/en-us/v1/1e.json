@@ -407,6 +407,20 @@
         "costUsd": 0.000054
       }
     },
+    "1e62ff703da6fc3656e7f3e895c2e3e099009eee1be5fbe13bbbb17ee56993b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc0d8a4be006b1faa757371cf2f6b40ebe4317aa36608841f23fc957b3be21d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "静态博客生成器：Nuxt content、Jekyll、Hugo、Hexo等工具让用户能够用 Markdown 创建专业的网站。",
+      "translatedText": "Static blog generators: tools such as Nuxt Content, Jekyll, Hugo, Hexo, etc\\. enable users to create professional websites using Markdown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 38,
+        "costUsd": 0.000094
+      }
+    },
     "1e6fd4ef1cb1cf63b02091602e35a8b357a0fa98fb9175b487b0cadd90f25ec5": {
       "normalizationVersion": 1,
       "sourceHash": "9a520674949554f4897ffdf2f27631312c4bd80f616fc304e30bdb83843536e1",
@@ -659,6 +673,20 @@
         "costUsd": 0
       }
     },
+    "1e97daadc7b039c3da1970023d6a91223dfd95c12279a82e31ef51c46e391f35": {
+      "normalizationVersion": 1,
+      "sourceHash": "d702b4f5f09a254a9ee4ab6d4411c05fa38701f91ba360c03bdee7fea1719c93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Markdown 可以使用以下几种字体：粗体和斜体。",
+      "translatedText": "Markdown can use the following font styles: bold and italic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "1e98055726540cf0095a2bc1f8cfbc01a6b72e4c22766b5d0dffe090d6073b96": {
       "normalizationVersion": 1,
       "sourceHash": "2948396ff10365ab3b35bc4ceac1523e25af8d1b57f9cee8029fd45dd001a251",
@@ -783,6 +811,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "1ec48704b187497829c7a00d9a003e8cbd6ab7f8e3de817c29622624210d58b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b953141bbbd45077f6cec585fb9189834724b43ebe75bd0d337e7d27323e958a",
+      "contextFingerprint": "b3c009fe04527db43951b158c1663f0d2723bccc541fdb2176b38379aae7d863",
+      "sourceText": "**使用 J-Link：**上文安装的 `jlink-gdbserver` bundle 用于启动调试服务；USB 权限还需要 SEGGER 的 udev 规则。安装 [SEGGER J-Link Software and Documentation Pack](https://www.segger.com/downloads/jlink/) 中对应发行版的 `.rpm` 或 `.deb` 包时，会一并安装规则。如果使用解压版，则按照包内 `README.txt`，将 `99-jlink.rules` 复制到 `/etc/udev/rules.d/`。具体方法见 [SEGGER 的 Linux 排查说明](https://kb.segger.com/J-Link_Troubleshooting)。",
+      "translatedText": "\\*\\*Use J-Link:\\*\\* The previously installed `jlink-gdbserver` bundle is used to start the debug service; USB permissions also require SEGGER's udev rules\\. When installing the [SEGGER J-Link Software and Documentation Pack](https://www.segger.com/downloads/jlink/), the `.rpm` or `.deb` package for the corresponding distribution will install the rules along with it\\. If using the extracted version, follow the `README.txt` included in the package to copy `99-jlink.rules` to `/etc/udev/rules.d/`\\. For specific steps, see [SEGGER's Linux troubleshooting instructions](https://kb.segger.com/J-Link_Troubleshooting)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 241,
+        "outputTokens": 119,
+        "costUsd": 0.000216
       }
     },
     "1ec808d4f10abe4f9225eac0ede32affa754a6de36bbb8f2abad8eaf04873429": {
@@ -1021,6 +1063,20 @@
         "inputTokens": 173,
         "outputTokens": 59,
         "costUsd": 0.000123
+      }
+    },
+    "1efe09b4f377fdcdb5faada89fc346f642c5b43ad96097312b60eecd2f820dca": {
+      "normalizationVersion": 1,
+      "sourceHash": "476b3d871884d1c1a4f7e4ffac1083dacd24a67b5b24158b9f1d9038d57e93c2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么现在学习 Flutter？",
+      "translatedText": "### Why learn Flutter now?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

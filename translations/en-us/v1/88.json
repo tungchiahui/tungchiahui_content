@@ -407,6 +407,20 @@
         "costUsd": 0.000097
       }
     },
+    "88584845acb1f170741642d7353eea726e91f61772d5f40be62059fda64a91f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd33aaff763261456d25f997b91208e31c4aa69849c27d4c2cf9165c8e600177",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于Mat类矩阵的读取与更改，我们已经在矩阵的循环赋值中介绍过如何用at方法对矩阵的每一位进行赋值，这只是OpenCV提供的多种读取矩阵元素方式中的一种，本小节将详细介绍如何读取Mat类矩阵中的元素，并对其数值进行修改。",
+      "translatedText": "For reading and modifying Mat class matrices, we have already introduced in the loop assignment of matrices how to use the at method to assign values to each element of the matrix\\. This is only one of the multiple ways provided by OpenCV to read matrix elements\\. This section will introduce in detail how to read elements in a Mat class matrix and modify their values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
     "8858c896337351805acff27a1a732c4a20d5db1a67d881e56c0ee4963263258a": {
       "normalizationVersion": 1,
       "sourceHash": "13a340f950a99ec9c25b89d393f16f4cf19168dfa15a01a931a023c5c1cadf4b",
@@ -449,6 +463,48 @@
         "costUsd": 0.00006
       }
     },
+    "8866563af297f51696abd6969a9009acff419636adcd5bf57bc12b1bfbfe5ea0": {
+      "normalizationVersion": 1,
+      "sourceHash": "46860085081eec3aec9416c090c6b43a70f677f321c0c3383192d922fc1d92b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在使用多通道变量类型时，同样需要注意at方法中数据变量类型与矩阵的数据变量类型相对应，并且cv::Vec3b类型在输入每个通道数据时需要将其变量类型强制转换成int类型。不过，如果将at方法读取出的数据直接赋值给cv::Vec3i类型变量，就不需要在输出每个通道数据时进行数据类型的强制转换。",
+      "translatedText": "When using the multi\\-channel variable type, it is likewise necessary to ensure that the data variable type in the at method corresponds to the data variable type of the matrix, and the cv::Vec3b type requires casting its variable type to int when inputting the data of each channel\\. However, if the data read by the at method is directly assigned to a cv::Vec3i type variable, then it is not necessary to perform data type casting when outputting the data of each channel\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 105,
+        "costUsd": 0.000188
+      }
+    },
+    "886702d35b5b536b29198825a1bf5b4cb76e2c0e6ae88c2287a06a13e02fd766": {
+      "normalizationVersion": 1,
+      "sourceHash": "957853dfa4baef082be0023946ca4c5ca46efb75b4bda76bc312a43ac80f12d8",
+      "contextFingerprint": "bedd02406419d30d36af4001570a1d4f9d82921c1358834d28392e866692896c",
+      "sourceText": "把这些没勾的全部勾上，点安装\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097941290.webp)",
+      "translatedText": "Check all the unchecked ones, and click Install ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097941290.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "88690c65d6e9b56e64be81bc6dac5b2208e883b4b17a7a0840e7d20ca8a1b1d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "03966db08898f0a1e6c45b67f7808eea29d300f0c9c1f9d7de11c755f983570f",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**绝对路径示例：**",
+      "translatedText": "**Absolute path example:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "886a2a3541d5e0e39764482c19c05646c36f4838d35ea0fd81940a87fc358560": {
       "normalizationVersion": 1,
       "sourceHash": "a13ff40eb3ba1a4c3c1aa387caa9f67801b44c32512a7eddb7fdbf64b0c2a016",
@@ -475,6 +531,20 @@
         "inputTokens": 149,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "886f8abda08c9ac1d099464ed3208ffd3c059d681cd17ce7f60a1fe14c1821a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "3bf6f7f2a6ed332a8fdf11a90b4e9f372fa9d9d00baf8445f6c8603f5224596a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从视频中保存图片：",
+      "translatedText": "Save image from video:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "887084a5decae3d4102105cbeaa7886bfa8744265a62002d274ed33b3a537be4": {
@@ -545,6 +615,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "889a296d8d7d07cdec1660f6b6230ef4f9123ff40e5d299b97f415672f018a97": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a74e2e04893e253bbe53e13519f47ea36891adcef21db085f74a5d2230a28d1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 下载程序到板子",
+      "translatedText": "#### Download the program to the board",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "889be6973cf6434dfe93de90fffd51b97e6c14d8a5ce5154590e71d3f6e056d4": {
@@ -729,6 +813,20 @@
         "costUsd": 0.000086
       }
     },
+    "88d2148288d496838b9b3d20f58e38a4e1dddc8fc40354f7e2e8d2d90cfe4030": {
+      "normalizationVersion": 1,
+      "sourceHash": "27399df5e8aba889493c2a7fdd2f95d1c985108cc08141b4628300aa8275bb06",
+      "contextFingerprint": "50f1debb70bfef5db054acc3151fa5685434bdc2770da974fc1a4a898767ea61",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768315170936.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768315170936.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "88d29ff43864fa6c277149850aecd60be1526e467a8f8468220b1198d73f8abd": {
       "normalizationVersion": 1,
       "sourceHash": "06a4f7cd1998a5b0e2a3d665356add374f400f4013378f7262f3fe35f737f473",
@@ -861,6 +959,20 @@
       "contextFingerprint": "44c6df6774d6563614d97d7532f96e1d272e45b415600635b6843d47385831ad",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1292.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1292.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "88e9672a208383e2ac85aa0c87ebd0ebba65beee4ca04f22663ec35153345253": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6e8b2a18e60e2830a97079ac6eee519cc861f06f2dd4d9d2957050f5b145653",
+      "contextFingerprint": "315bf938347fba94003f51c6635e7a77e89f8a5f5d21f43685c6678f9f89cad6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image91.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image91.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

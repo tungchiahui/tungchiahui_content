@@ -127,6 +127,34 @@
         "costUsd": 0.000053
       }
     },
+    "0323b30c5e53a8f587274a1ddfe3977f6c97cd454001bfb36e3c81cb9fb0cdbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcd9270cc1bf142e10e6d123dbf4dea5dad70f170a28e0c0fcb4687462063047",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "复制以下代码到该文件里",
+      "translatedText": "Copy the following code into this file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "032a96533b2a7b7e98fe6ae1526333358ad8e4ef223a181e3fd6161777f542a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "686abcadecec087b50f18d10f49a1c88b761dc68bcdcdf227671c5a3a972f2d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "用命令找他在哪：",
+      "translatedText": "Use a command to find where he is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "032b7068722eb86d3de83c53b303e92af0e1d74161094793f6dd63f9190fcf6d": {
       "normalizationVersion": 1,
       "sourceHash": "e6857f660606400a47444ad94973d076ca2ac186abd2509bb36ca97a2f906514",
@@ -421,6 +449,20 @@
         "costUsd": 0.000059
       }
     },
+    "036ad8bf8c23dc6b3c794610f219f62f1d38b560bab1eb20cc344b22f1432560": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a7a03e7301a7d7eedca4b5ea6b322d5fb8c6accf7339e34ac690aa1497ba593",
+      "contextFingerprint": "28c4aeaa14cb9286eb021fd548d3bb0a6dec1a9b9529fb84185b083af7bb70ed",
+      "sourceText": "这个`stm32-Build`任务包含stm32-cmake和stm32-make任务。",
+      "translatedText": "This`stm32-Build`task contains stm32-cmake and stm32-make tasks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 33,
+        "costUsd": 0.000087
+      }
+    },
     "036fd5c25c1a9b3baf251ae5ce8daf66cf4e9faf33a4a0391437f750278d9cab": {
       "normalizationVersion": 1,
       "sourceHash": "3cfa2a09ce51cc5a832ca39d3249976d8e439410a112b8886fe20a7c5346c886",
@@ -673,6 +715,20 @@
         "costUsd": 0.000089
       }
     },
+    "03b673572e97e65686736904da07150f5b92bee4f16551a88f2a92193f558d10": {
+      "normalizationVersion": 1,
+      "sourceHash": "8441a7dce8ff44dc8ecf62fd7c9ddbc7a9529b4eca7d0cf0edd16a906a86f678",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数用于读取指定的图像并将其返回给一个Mat类变量，当图像文件不存在、破损或者格式不受支持时，则无法读取图像，此时函数返回一个空矩阵，因此可以通过返回矩阵的data属性是否为空或者empty()函数是否为真来判断是否成功读取图像，如果读取图像失败，那么data属性返回值为0，empty()函数返回值为1。",
+      "translatedText": "The function is used to read the specified image and return it to a Mat class variable\\. When the image file does not exist, is corrupted, or is in an unsupported format, the image cannot be read\\. In this case, the function returns an empty matrix\\. Therefore, whether the image is read successfully can be determined by checking whether the data attribute of the returned matrix is empty or whether the empty() function returns true\\. If reading the image fails, the data attribute returns 0, and the empty() function returns 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 114,
+        "costUsd": 0.000199
+      }
+    },
     "03bf590659dbad63fb3a4ee8823c3296358320fb09743d167eaa0ba80e7ec052": {
       "normalizationVersion": 1,
       "sourceHash": "7773a9834ffd7519d4bbc75994f6da94c37f4705ddffe601cbf3945eb8c41044",
@@ -811,6 +867,20 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "03f1a6e489c206c31098335e26b30db6bd36b13144196c218b970a7ee60a4865": {
+      "normalizationVersion": 1,
+      "sourceHash": "141bc7b4ca93d1bedcb43039c73d6493995cd9157a99bcbea7bea4aa5ced6b85",
+      "contextFingerprint": "d1c08ac30860f684a0aff0dea93bc67af939a18cc243e2f471f4eea8760adc76",
+      "sourceText": "还有一个测试方法,可以用debug来监视`key_value`的值,但要求你把按键扫描模式改成支持长按,上面的代码只需要改`key_value = key_scan(1);`这一行.<br>",
+      "translatedText": "There is another testing method: you can use debug to monitor`key_value`value, but it requires that you change the key scan mode to support long press\\. In the above code, you only need to modify`key_value = key_scan(1);`this line\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 50,
+        "costUsd": 0.000108
       }
     },
     "03f1f680afc68cae0cd0151588a8b3f7fa2dedbfaca7a23b7242dd9d229f64c9": {

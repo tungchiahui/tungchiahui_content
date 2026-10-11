@@ -57,6 +57,20 @@
         "costUsd": 0.000055
       }
     },
+    "8511a3232620db184a55a55d2a9d4fce28bea2d2312c7c0cccb5cbb8f6f92182": {
+      "normalizationVersion": 1,
+      "sourceHash": "db12a926361cc65ffb32f6a09aef83bdfe6dfe4601f57485e8aba3f99886fc7f",
+      "contextFingerprint": "7019b5b55186d37f982dc91325d80069d1de327b04cba9470f73a76dfce6bb2c",
+      "sourceText": "该函数是FileStorage类的构造函数，用于声明打开的文件名称和操作的类型。该函数第一个参数是打开的文件名称，参数是字符串类型，文件的扩展名是\".xml\"、\".yaml\"（或者\".yml\"）。打开的文件可以已经存在或者未存在，但是，当对文件进行读取操作时，需要是已经存在的文件。第二个参数是对文件进行的操作类型标志，例如对文件进行读取操作、写入操作等，常用参数及含义在表2-8中给出，由于该标志量在FileStorage类中，因此在使用时需要加上类名作为前缀，例如\"FileStorage::WRITE\"。最后一个参数是文件的编码格式，目前不支持UTF-16 XML编码，需要使用UTF-8 XML编码，通常情况下使用该参数的默认值即可。",
+      "translatedText": "This function is the constructor of the FileStorage class, used to declare the name of the file to be opened and the type of operation\\. The first parameter of this function is the name of the file to be opened, which is of string type, and the file extension is \"\\.xml\" or \"\\.yaml\" (or \"\\.yml\")\\. The file to be opened may or may not already exist; however, when performing a read operation on the file, it must be an existing file\\. The second parameter is the flag for the type of operation to be performed on the file, such as a read operation or a write operation on the file, etc\\. The commonly used parameters and their meanings are given in Table 2\\-8\\. Since this flag is within the FileStorage class, the class name must be prefixed when using it, for example, \"FileStorage::WRITE\"\\. The last parameter is the encoding format of the file\\. Currently, UTF-16 XML encoding is not supported, and UTF-8 XML encoding must be used\\. Normally, the default value of this parameter can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 310,
+        "outputTokens": 247,
+        "costUsd": 0.00039
+      }
+    },
     "8511cd50feb0eea7add66fc790a5f86dd67e22e70522a888fc7e2fb519ddf75d": {
       "normalizationVersion": 1,
       "sourceHash": "32433f521ad166c557b5d24fba8ae375c87a7364feee55aa14e79bd9eb6b1a3f",
@@ -111,6 +125,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8525f3eda8bacd60c6986c44b7ea9fb868db88e6c765068741d15ceee07a4f65": {
+      "normalizationVersion": 1,
+      "sourceHash": "bec0488eb6b3044ab1f493030916b924794b7d759e1523b466ac6663aa35b6d2",
+      "contextFingerprint": "3ddb7806f67aee4ed9d8aa47a416c8ce9d6c20d59f091de5f6ad8556265ed2e6",
+      "sourceText": "- 循环-`forEach`\n- 在添加一个字典-`addAll`\n- 是否包含某个key-`containsKey`\n- 删除某个key-`remove`\n- 清空-`clear`",
+      "translatedText": "- Loop\\-`forEach`\n- Add a dictionary\\-`addAll`\n- Whether it contains a certain key\\-`containsKey`\n- Delete a certain key\\-`remove`\n- Clear\\-`clear`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
       }
     },
     "8526798bad4c08e70f6247baafc022f779a777bc1a97b21e1b297ff089772371": {
@@ -231,6 +259,20 @@
       "contextFingerprint": "dafea706e901c5610bd357a1c44e449bac29066b64258a5a79e3565c0ff95a47",
       "sourceText": "接下来去修改同目录的`model.sdf.xmacro`：",
       "translatedText": "Next, modify the one in the same directory`model.sdf.xmacro` :",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "8542768813104366e486990ddd2e2fabc732a4cabedff72bcd852f482a0836a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "35214fdac57a48e8a42f6c7ca657c3eec1e8257b55cadd8ea3f738ca0ad732d3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "STM32C5 要特别注意：",
+      "translatedText": "Pay special attention to the STM32C5:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -827,6 +869,20 @@
         "costUsd": 0.000085
       }
     },
+    "85d53de881d05b4c4867b5001ad79039a13ba3e2f94d9762014b44c2ff283ba4": {
+      "normalizationVersion": 1,
+      "sourceHash": "83d385db27d8be466ffbeda15e3bd1626c8fbd79fc2d5108ec8a58617adfd31c",
+      "contextFingerprint": "97a1c32e02f79f2acb884fb6184b1ee189097798e2b383c1d660fe74ba76671f",
+      "sourceText": "复制一下`/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`",
+      "translatedText": "Copy it`/home/tungchiahui/UserFolder/Applications/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "85d5d2594b9003f86d1600303ca85155eecf73eec3d9c16fb79ac4a9cec5669c": {
       "normalizationVersion": 1,
       "sourceHash": "6212033ae98603486c08f2c94876b9f04bd783931a70c75b34f570b23c7a1d87",
@@ -883,6 +939,20 @@
         "costUsd": 0.000057
       }
     },
+    "85dddebc832a3bbec076d7a6e0a6fce1b10675d966e624564d07f04a5d26bad6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ca668c8c86807ce588d653397d72132966dc0471f7259a8b682a55fefcd374e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数中第一个参数为图像显示窗口的名称，第二个参数是需要显示的图像Mat类矩阵。这里需要特殊说明的是，我们看到第二个参数并不是常见的Mat类，而是InputArray，这个是OpenCV定义的一个类型声明引用，用作输入参数的标识，我们在遇到它时可以认为是需要输入一个Mat类数据。同样，OpenCV对输出也定义了OutputArray类型，我们同样可以认为是输出一个Mat类数据。",
+      "translatedText": "The first parameter in the function is the name of the image display window, and the second parameter is the Mat class matrix of the image to be displayed\\. A special note is needed here: we can see that the second parameter is not the commonly seen Mat class, but InputArray\\. This is a type declaration reference defined by OpenCV, used as an identifier for input parameters\\. When we encounter it, we can consider it as requiring a Mat class data as input\\. Similarly, OpenCV also defines the OutputArray type for output, and we can likewise consider it as outputting a Mat class data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 127,
+        "costUsd": 0.000217
+      }
+    },
     "85e279c10f37c38fb2d3ebe6cb1992dfb074e413b24ee11b03e7657d08b10a8f": {
       "normalizationVersion": 1,
       "sourceHash": "a209c29fc6fd20b5036ec134aea08bc49ae05a2361064880422e5cf57234c0ef",
@@ -937,6 +1007,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "85f6ac6932ded9bfeb87365c3ff22fea0f485cf87bd73f96510c702ab9aebd7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb680f8c444f0e2af09341f1dfb257afd3799b70022076962cc46801b899203e",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- 缩进式代码块前后需要空行分隔\n- 所有代码行必须保持一致的缩进\n- 不支持语法高亮\n- 在列表中使用时需要8个空格缩进",
+      "translatedText": "- Indented code blocks need blank lines before and after to separate them\n- All code lines must maintain consistent indentation\n- Syntax highlighting is not supported\n- When used in a list, 8 spaces of indentation are required",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 50,
+        "costUsd": 0.000109
       }
     },
     "85f82b3c730bfd56412bcb2bacf6e5e853d8e986f2405d59bcb1c8839762e769": {

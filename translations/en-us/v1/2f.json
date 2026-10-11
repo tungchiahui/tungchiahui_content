@@ -57,6 +57,20 @@
         "costUsd": 0.000051
       }
     },
+    "2f21e2c62a365f3276efcc0e7184d792ca79c93f2d1012efff8ae450a5f28518": {
+      "normalizationVersion": 1,
+      "sourceHash": "d54dd42c16715eabce5d95af62c23c522f075872b9e88ee4535ad308ecd4554a",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**常用空安全操作符**",
+      "translatedText": "**Common null safety operators**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "2f252a13a35f4dd855937af0e650edb21f6608e3312e0f6ae21ea592e438ddfd": {
       "normalizationVersion": 1,
       "sourceHash": "3e6eb5cdf1c0da2387ea15d8ea0496dc3e5e51c5e2bf35bca1d57e6bde361467",
@@ -83,6 +97,20 @@
         "inputTokens": 144,
         "outputTokens": 29,
         "costUsd": 0.000078
+      }
+    },
+    "2f32f532113a6bf6ce5562a8c50775e7c956b352f8ea4b4456e84ea12aa5a7a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee1b520689d7ca139d266b1e850c2e0242a299137d7970b40ac37172bbec2f68",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 配置VScode任务",
+      "translatedText": "#### Configure VSCode Tasks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "2f39e3a373b96ba4e7e9d73bc5f4bbd220e6e352544cec600039707a96b7766a": {
@@ -727,6 +755,20 @@
         "inputTokens": 159,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "2ffd700a2100c2a9c2c7209d0a802a6f3d73c774095df5bb4af4474fd3c51238": {
+      "normalizationVersion": 1,
+      "sourceHash": "04e199dbd83743c468241d1ae785dacbfbf6935093729b3d5fd065a21ea1d670",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在处理数据时，需要对数据进行加减乘除运算，例如对图像进行滤波、增强等操作都需要对像素级别进行加减乘除运算。为了方便运算，Mat类变量支持矩阵的加减乘除运算，即我们在使用Mat类变量时，将其看作普通的矩阵即可，例如Mat类变量与常数相乘遵循矩阵与常数相乘的运算法则。Mat类与常数运算时，可以直接通过加减乘除符号实现。代码清单2-17中给出了Mat类变量与常数进行加减乘除运算的示例程序。",
+      "translatedText": "When processing data, it is necessary to perform addition, subtraction, multiplication, and division operations on the data\\. For example, operations such as filtering and enhancing images require addition, subtraction, multiplication, and division operations at the pixel level\\. To facilitate calculations, Mat class variables support addition, subtraction, multiplication, and division operations on matrices; that is, when we use Mat class variables, we can simply treat them as ordinary matrices\\. For example, multiplication of a Mat class variable by a constant follows the rules for multiplying a matrix by a constant\\. When performing operations between a Mat class and a constant, they can be implemented directly using the addition, subtraction, multiplication, and division symbols\\. Code Listing 2\\-17 provides an example program for performing addition, subtraction, multiplication, and division operations between Mat class variables and constants\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 240,
+        "outputTokens": 171,
+        "costUsd": 0.000278
       }
     }
   }

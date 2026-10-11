@@ -169,6 +169,20 @@
         "costUsd": 0.000093
       }
     },
+    "641d91568d423e28ff9f040fa434b2c68c102b4fb3e09ec5d8ecfe62c98a6734": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae245f10ef76522523f413742478d63b3c439cea1e0bb5d5291ca1d1151ee3b0",
+      "contextFingerprint": "24d3ed1174ba19c61f84496f4ac5be7599cb19663c301d86ceb6285f35b7f335",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776427498924.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776427498924.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6420ee300fc61da757568c396991968242d9a971c313d9f63a40abe5fbb63488": {
       "normalizationVersion": 1,
       "sourceHash": "5bcaac34cb11be1c2c78ba4bc621bf909f31bf221c48e9d29f4c964e00a4bcb9",
@@ -265,6 +279,20 @@
         "inputTokens": 131,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "642e8756ba7f5720cf2456171f6a8a89a931362b1a4b68a53feec84b8996bed2": {
+      "normalizationVersion": 1,
+      "sourceHash": "00e9da7aef4cc86fc1a5315b909ba4c51259a917b1d67f3028a51a3a47e15c70",
+      "contextFingerprint": "573d203a81fa69a56e5b786c4b1efef143f1520f73b69a646a0c66361da06fe8",
+      "sourceText": "该函数主要是用于将多通道的图像分离成若干单通道的图像，两个函数原型中不同之处在于，前者第二个参数输出的是Mat类型的数组，其数组的长度需要与多通道图像的通道数相等并且提前定义；第二种函数原型的第二个参数输出的是一个`vector<Mat>`容器，不需要知道多通道图像的通道数。虽然两个函数原型输入参数的类型不同，但通道分离的原理是相同的。",
+      "translatedText": "This function is mainly used to separate a multi\\-channel image into several single\\-channel images\\. The difference between the two function prototypes is that the second parameter of the former outputs an array of Mat type, whose array length must be equal to the number of channels of the multi\\-channel image and defined in advance; the second parameter of the second function prototype outputs a`vector<Mat>`container, and there is no need to know the number of channels of the multi\\-channel image\\. Although the types of input parameters of the two function prototypes are different, the principle of channel separation is the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 119,
+        "costUsd": 0.000207
       }
     },
     "64314dabd37a80b5ee8028764473b30219da0fd3a3c7bcf6f1f7e380db1650d3": {
@@ -405,6 +433,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "64520c7912b4072f582d49b777177f78f338f70f99fac94e76911e55c0b91417": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2b21ea965a68f558a8cbc716d72048777d8971189074108045299337a88cd07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "该种方式是在构造的同时进行赋值（见代码清单2-12），将每个元素要赋予的值放入Scalar结构中即可。这里需要注意的是，用此方法会将图像中的每个元素赋予相同的数值，例如Scalar(0,0,255)会将每个像素的3个通道值分别赋为0、0、255。",
+      "translatedText": "In this method, assignment is performed at the same time as construction (see code listing 2\\-12); simply place the value to be assigned to each element into the Scalar structure\\. Note here that using this method will assign the same numerical value to every element in the image; for example, Scalar(0,0,255) will assign the three channel values of each pixel as 0, 0, and 255 respectively\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 96,
+        "costUsd": 0.000175
       }
     },
     "6453b7019f33c544a9a6a0049213c7669ae2d37b2b6ac88685590d363f814736": {
@@ -589,6 +631,20 @@
         "costUsd": 0.00011
       }
     },
+    "648a2e8e944e9b2d000eb37e151f40dd9d864f81beb1f57f0f635de775a4b40d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e888b18e7ebfe9335b84e97491dd95010d66860f2b3288cf8f79db858ed96e07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "分割线用于在视觉上分隔文档的不同部分，创建清晰的内容层次。",
+      "translatedText": "Dividing lines are used to visually separate different parts of a document, creating a clear content hierarchy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "648a5264fb342dda276fd2c24be09863b4bdce92cef92f28968da9848fad618a": {
       "normalizationVersion": 1,
       "sourceHash": "afbe89f8fb8cc3521194b6d3d0eabf103ec38e04f306068d4bac1b5de1828e8a",
@@ -601,6 +657,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "648ae979dcc65898dde0b718aee4baaf32be0c712a6cd754631ecec2ace22429": {
+      "normalizationVersion": 1,
+      "sourceHash": "4209a0f984c414ab7078a189e09a4db2b8def27978d40f28ea63726f157b8d84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你是Fedora",
+      "translatedText": "If you are using Fedora",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "648c86342e2adfe24e6290102a0d7bae43e91fd960c5be06fce7cfc2dd90709e": {
@@ -629,6 +699,20 @@
         "inputTokens": 147,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "6490f1530576ef2cff979049a9d11b6a7cd1f060f9a29e1e08b82f770081a42c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a43aade5f81fcfa10d00e8cbf5c1325a4bfa11f104480e475403519d6bb8bd6",
+      "contextFingerprint": "f9f6956a6a4e69e55ccfa8a1ae6dbf06802fb81fffe3149f1ef4d765589b3828",
+      "sourceText": "然后`sudo apt install ./JLink`然后tab补齐。",
+      "translatedText": "Then`sudo apt install ./JLink`Then press Tab to complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "649a8fdc47a93fb0a1386f427efda8c946b42958f3ca44d0b885e4d2d398e629": {
@@ -671,6 +755,20 @@
         "inputTokens": 178,
         "outputTokens": 64,
         "costUsd": 0.000131
+      }
+    },
+    "64a0efbbb4e2194de74d6e4f696af28ab7bac7ba46a01df84d881f4ecb2900e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "735defc2551790d41b3a3aa242c21c4ddd44433d0b0cf37a684a8667d0276f87",
+      "contextFingerprint": "ccef45b378553b30bec0cd8215664693e0cf541886ea34556bc4aecc3a5e6704",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420710467.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420710467.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "64a2c7917974aef0412fe00e94659e590db245833e4a5a9f91d7231f789d8d67": {
@@ -757,6 +855,20 @@
         "costUsd": 0
       }
     },
+    "64aa902a8db4acbe2f9e8782238e5c13d280dc8619e21fe81208e6145581ad2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "34066c1f49f5a3b608554b9ce6e7c5365eb1d8238af6a35f36bf0559bfd8bdd2",
+      "contextFingerprint": "c75c3c10c4805c55e5b111d7fc9705beec9e8c137faa7a40f625d1375e25e710",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image64.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image64.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "64ad0c2ee0a165cf899c4e139bbd088463f37a4ceb61882ad06c31ce674ffa00": {
       "normalizationVersion": 1,
       "sourceHash": "b0b7b25ec027ac72247dac7a41fa5133a063d73e9cab114500b5c58ee978c2f1",
@@ -827,6 +939,20 @@
         "costUsd": 0
       }
     },
+    "64d44abc26991aa5bd22eefccd577a7988febbbcfddb1a14976ce4eabd6f278d": {
+      "normalizationVersion": 1,
+      "sourceHash": "187c70275798e2bf8bcfc6c9f4d8edb3e5f866e90e458787d30bcb099d444e99",
+      "contextFingerprint": "da24d10685d61f2d5a6d5b7dc450959143145bc21aabcafd83f0c7622096669d",
+      "sourceText": "下图所示就是安装成功\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768374968925.webp)",
+      "translatedText": "The figure below shows that the installation was successful ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768374968925.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "64dff18c2105b42111f87a5069ca97e0f2ee430f14cb1e7fb063e7c133655c86": {
       "normalizationVersion": 1,
       "sourceHash": "e6c0b9a4ab445d41614fd9c29d9b885a63327d64b40af88e34bc23cbcb508b9e",
@@ -839,6 +965,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "64e196077e407495a8e1900d0ca7a50f08214f6a0d5eacc01a651ab64b34225a": {
+      "normalizationVersion": 1,
+      "sourceHash": "162cce05ec54e6cb1251c1af6643cc5347aa1167b5def418d5667c9a5c6ab172",
+      "contextFingerprint": "c19372fbf91afc25442b0d1b9aea23c70eed1baad4f708b1d9e601ac42d260ec",
+      "sourceText": "首先先修改`BSP`文件夹里的`CMakeLists.txt`:",
+      "translatedText": "First, modify`BSP`in the folder`CMakeLists.txt`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "64e1e3bf68b189dbb8694120be4ae85c933d42c8ac0c662f9f873c4791d5006a": {
@@ -937,6 +1077,20 @@
         "inputTokens": 149,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "64ed4c28eb7b973f2ad73d616b3c2bf39afc43b4c308f3adaaf42de48dcd4765": {
+      "normalizationVersion": 1,
+      "sourceHash": "330cc69eac3c8e7a4b6dbafe41ed4f1f71002f7fc594489aeecdde7136faeca4",
+      "contextFingerprint": "e0a77c8840e923ba5832b4f39b207a5e6df7e9dfae636569c8c7666e8cf5a0ae",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432211211.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432211211.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "64eddb29b517aebf8e8ba5b771a0d5a25e173c01336c3e0a9b92a5de2de411fb": {

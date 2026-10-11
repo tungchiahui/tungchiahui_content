@@ -29,6 +29,20 @@
         "costUsd": 0.000066
       }
     },
+    "c4058e15b863258dabcfd99bf712268b958f2b23a63e00ac94416a329a3f63e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "35e278344ac214592f77d7367c373c7a1628aa09859446ab478a689786e6e1e0",
+      "contextFingerprint": "eefd07717d679b08488d73c0eab8c9ad789067edd1fb26ac3f09664263b36609",
+      "sourceText": "类似C++的`std::map`.",
+      "translatedText": "Similar to C++`std::map`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "c40a673f04782a7f120813a69c6a480d5c9e405c44b24edc9961f850b78a76c4": {
       "normalizationVersion": 1,
       "sourceHash": "eaa0f90fd9ad41896574dfe15263cd13f28b36c523db5952a2c14a265b71a066",
@@ -139,6 +153,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c4369eb8b67b7ec2443610c2f94df9a17a4f48de79cdcc56268cc7dbea3c11ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "babaabb90fd975a08f9666356db3a8a706fe0e69c77cbed406ce23d5132deec2",
+      "contextFingerprint": "bf97c57c4711d4e6545df6eaebe4377532314a9e2f9b693c5ff03e1f1a759b62",
+      "sourceText": "现在不要把 C5 写死成`target/stm32c5x.cfg`，\n原因是 STM32C5 的 OpenOCD 支持非常新。2026 年 7 月才有 stm32c5x.cfg 支持补丁提交到 OpenOCD Gerrit；补丁里的文件名确实就是`target/stm32c5x.cfg`。\n但是现在还没完全发行到OpenOCD，需要等一段时间。",
+      "translatedText": "For now, do not hardcode C5 as`target/stm32c5x.cfg`， The reason is that OpenOCD support for STM32C5 is very new\\. It was only in July 2026 that a stm32c5x.cfg support patch was submitted to OpenOCD Gerrit; the filename in the patch is indeed`target/stm32c5x.cfg`。 However, it has not yet been fully released in OpenOCD, so we need to wait for a while\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 103,
+        "costUsd": 0.000187
       }
     },
     "c439463b7bee189bc1478d1fde93cd38637ab946ab4dfd48df1f7d507bd701c3": {
@@ -393,6 +421,20 @@
         "costUsd": 0.000056
       }
     },
+    "c481620be11e81a4e7f24b5c6c22dd0436e02c31b0e3e123f7533ce750241c13": {
+      "normalizationVersion": 1,
+      "sourceHash": "36308a854f27d67680e37b4a3793ca97d26a370cdd8fd719927f095922409cf8",
+      "contextFingerprint": "85a49b2feb3cc852e921ccbaa183f2674b06fcf2407a266c1e9dc298c05e3597",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790822431371-9446f7ae.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790822431371-9446f7ae.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c48238a5afcdbf4fa353a1ef89ad144793bfaf04246b1592e0012fe719a2aff6": {
       "normalizationVersion": 1,
       "sourceHash": "c387e42d602f650c8658a4468b1796a174ad429ccddf6714a95b1c1d22344041",
@@ -589,6 +631,20 @@
         "costUsd": 0
       }
     },
+    "c4b14998ad294ca3dc88c42473a272d7aa632883a6ba3496a8df88f188db1e35": {
+      "normalizationVersion": 1,
+      "sourceHash": "90759bf24053f8e5ad2dbccd402ce67d276eaf427e846083e40938dbf7f361d4",
+      "contextFingerprint": "82ee2d5473c86f219a1a717e982ecaafe402b17574d6ec1b2ffe574f0bc8a6ac",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790776572642-f50c57f3.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790776572642-f50c57f3.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c4b17d3c7de876e7de769096418e2563213f64b58282aa2f389f07ae72f9859b": {
       "normalizationVersion": 1,
       "sourceHash": "c120dcc2e0fc10f31d954cac76838d20390a241cca88ef89eb517c24ee6c5ad9",
@@ -729,6 +785,20 @@
         "costUsd": 0.000055
       }
     },
+    "c4d70e463657ee883a8d07f355924c35330cfb81df38625b2c940c2bf0930fbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dc67795cf2dd21e1d109c193152bd7fa7a1d7ec44d621a987846bf44838ed4a",
+      "contextFingerprint": "190694de07ce7dbe1600069be7a9f2b4061febdb7edb3c2500f630be63b47a9b",
+      "sourceText": "https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads",
+      "translatedText": "https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c4d9c920c34c1cc774438dc1abad16674ed9c998a390b17e1272c06600a0a46a": {
       "normalizationVersion": 1,
       "sourceHash": "bf5078f96888c882a48684dd50d6fe2e00750e177a3415aae3af41b8fbbc5aba",
@@ -783,6 +853,20 @@
         "inputTokens": 145,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "c4edc0db2b46d163c12e014d4832479f740fa8a2929187405f91f21499317e76": {
+      "normalizationVersion": 1,
+      "sourceHash": "8767dc6db528fe98637e02ebdcf353b076f004f82efc8784d10ddf28d3d9def8",
+      "contextFingerprint": "d85a6c4f1175517fa0666d6e7ddfeca6c3b8c5900839afb4ff94c128c5735e4e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790823717750-d08ba3d3.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790823717750-d08ba3d3.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c4eed87f65c40a1892b5eec2e9bf1dd7f81d3380c980b6fdefaecb8477e33792": {

@@ -267,6 +267,20 @@
         "costUsd": 0.000086
       }
     },
+    "275a5aebde5f423716227fbbd363c5699c079666e98a22f16e5ddbeaf88d0fc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "04502b0866fce21fb51fecc0f1f3b1d8135639b950df9e8c9a56da12e81e5414",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接下来使用cmake命令生成makefile文件",
+      "translatedText": "Next, use the cmake command to generate the makefile\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "275ce1bd9d96b9ebe6379354c99e1ec0f19cdb9a8bd7e617a5761265c42515a7": {
       "normalizationVersion": 1,
       "sourceHash": "1c488bc78d3ac2847c3bfda722637fd5573c83908a0b349531382bb418df15d2",
@@ -393,6 +407,20 @@
         "costUsd": 0
       }
     },
+    "277881c8447c0abb0fedd0746a7b451ad3f8704495784ba3deec69645b7f973f": {
+      "normalizationVersion": 1,
+      "sourceHash": "82d59367916fb3261eacb0a800566986d049ba03cb1b0550ac29d93b0fea4b4e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 下载SVD",
+      "translatedText": "#### Download SVD",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "277e83e0aea42a9093d84601fd646eeb0f5e7f467695b704af263c611fb8e81f": {
       "normalizationVersion": 1,
       "sourceHash": "c7ffc32d6076b8272c377f88fe316f73e349a9809eba4098c3612674c3f44f64",
@@ -405,6 +433,20 @@
         "inputTokens": 146,
         "outputTokens": 34,
         "costUsd": 0.000085
+      }
+    },
+    "2785236d6a5d5c253307b5aefc67f1057418d0bf67b1071aa2181587b5eda8e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "69c7c102c44efbe0f7d39923740dfa88dd7f8a1fcdf2353caa275eedbe11a7a5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "做完上述操作后，傻逼Windows大概率需要重启一下",
+      "translatedText": "After completing the above operations, idiot Windows will most likely need a restart\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "27864ae69e47b7df3e9488b08b8faccc01ddd5935a4044fe0403efb9f0b1d483": {
@@ -631,6 +673,20 @@
         "costUsd": 0.000054
       }
     },
+    "27c0b3198663a2a05e4664bd34b6781bc11b798338091a12922aab5f77b6a55a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b7f051bab73c8b94928081418570f242ce69fc6763dcdc274a390c06ba14c7a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上述代码首先创建了一个名为 a 的矩阵头，随后读取一张图像，并使 a 中的矩阵指针指向该图像的像素数据。最后，将 a 的矩阵头复制给 b。\n需要注意的是，虽然 a 和 b 各自拥有独立的矩阵头，但它们的矩阵指针指向的是同一块数据。因此，通过任意一个矩阵头对数据进行修改，另一个矩阵头所访问的数据也会随之改变。\n此外，当删除变量 a 时，b 并不会变成空数据；只有当 a 和 b 都被释放后，底层的矩阵数据才会真正被释放。\n这是因为在矩阵头中维护了一个引用计数（reference count），用于记录当前有多少个对象共享同一块数据。只有当引用计数减为 0 时，该数据才会被释放。",
+      "translatedText": "The above code first creates a matrix header named a, then reads an image and makes the matrix pointer in a point to the pixel data of that image\\. Finally, the matrix header of a is copied to b\\. It should be noted that although a and b each have independent matrix headers, their matrix pointers point to the same block of data\\. Therefore, modifying the data through either matrix header will also change the data accessed by the other matrix header\\. In addition, when the variable a is deleted, b does not become empty data; only after both a and b are released will the underlying matrix data actually be released\\. This is because a reference count is maintained in the matrix header to record how many objects currently share the same block of data\\. Only when the reference count decreases to 0 will that data be released\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 296,
+        "outputTokens": 173,
+        "costUsd": 0.000297
+      }
+    },
     "27c1c43ba5bc9c53a9d93db7b16714e06f7fdb5bce67afb8d69d6f7bd2a76398": {
       "normalizationVersion": 1,
       "sourceHash": "8876e0018d2d39a92ee4f251b6bc6e22565cb2b12ba07999aaf48c72b31f3fb2",
@@ -771,6 +827,20 @@
         "costUsd": 0.000078
       }
     },
+    "27f66d88bb52fcd42fe4ac1d04d8e7a021d3e6994d0f7853aad5ba6ea50920d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "913c4d2ae4651fa0f845792a8b1b70f31b060eaf98bff95d12192e73a5dacfa9",
+      "contextFingerprint": "d343618ae58d8809d63826f974c27722542cff02067fd0cebedf3b18a490b4f4",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097800892.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768097800892.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "27f7ee9e3b7ab129306fe80589443bd87864a5751ee4474a0e60e12368409bf9": {
       "normalizationVersion": 1,
       "sourceHash": "670128b6dc5629028e4669db9e1fbb60adedb0328cd35d5db67f6c56463f2490",
@@ -783,6 +853,20 @@
         "inputTokens": 169,
         "outputTokens": 44,
         "costUsd": 0.000104
+      }
+    },
+    "27fc45a94b6d5c8f1ec725fa0ef6fe3f2126d928aed445a1be813f842629a749": {
+      "normalizationVersion": 1,
+      "sourceHash": "f60d6be4691a6c78f4012c862c0e271a8d7e619f96445efc4c410033497f252f",
+      "contextFingerprint": "521fb5f16c3c63dbdf73051f4b2077d5c97aebcd2b77ea3ae8d55fa77f9921b6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511580556-99475f90.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511580556-99475f90.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "27ffa4c0859768c8cd4c0f87929703d18c37a8fa429f55b8f3133411b13ab046": {

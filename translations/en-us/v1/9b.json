@@ -267,6 +267,34 @@
         "costUsd": 0.000202
       }
     },
+    "9b467ae816985bb72744009160235be41e5503e5b19be56a22237204cec90634": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0717bf9d39a68498a2d37267deb510fa42e009977ed48f154da1ba3e3ed9a11",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- src: 待转换颜色模型的原始图像。\n- dst: 转换颜色模型后的目标图像。\n- code: 颜色空间转换的标志，如由RGB空间到HSV空间。常用标志及含义在表3-1中给出。\n- dstCn: 目标图像中的通道数。如果参数为0，则从src和code中自动导出通道数。",
+      "translatedText": "- src: The original image of the color model to be converted\\.\n- dst: The target image after color model conversion\\.\n- code: The flag for color space conversion, such as from RGB space to HSV space\\. Common flags and their meanings are given in Table 3\\-1\\.\n- dstCn: The number of channels in the target image\\. If the parameter is 0, the number of channels is automatically derived from src and code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 95,
+        "costUsd": 0.000176
+      }
+    },
+    "9b4c1b3862aad2a0d1634c739077992b4136837fe4fbfb3a6888b4cd53c81272": {
+      "normalizationVersion": 1,
+      "sourceHash": "32f5355080d656398ab4b2f19732fb3fbb9bef71070500dc3ff7513b335738be",
+      "contextFingerprint": "fa187ab4100d6beaec6b73f7d1858ed844e8d5bbf1fda131bd4791223479553b",
+      "sourceText": "时钟是一个周期性翻转的信号\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768377363665.webp)",
+      "translatedText": "A clock is a signal that toggles periodically ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768377363665.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "9b4f4fe9bd95a90e92e8469573aea9491d3e81c424e778de02d3cb7378f1cb8b": {
       "normalizationVersion": 1,
       "sourceHash": "8ef4b7e75921f33d50054c4d44149fbfe10139e849217f812e6d2d2dc9f6a61e",
@@ -363,6 +391,34 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "9b6b5de1fdfcff154494e9f64f33f84ce49524217f37b299140ef6839e4b2849": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e53289eeccbd545a065269d9279d8fcd75a8cf2df25ef4729ea8620e05e3a48",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### List",
+      "translatedText": "##### List",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9b6e748905f4a5109e101b54a96572edb65f5673277b00d09f7a113d6a8e1c1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3c57b6d95282e74be085985ddc91690789527b568ef12768a62945795bcc537",
+      "contextFingerprint": "9c7b64e727fa28fbad58069efb1264ef32b519b221656bd99908dd3e45dd5f1c",
+      "sourceText": "上面代码同样创建了一个3×3的矩阵，通过for循环的方式，对矩阵中的每一个元素进行赋值。需要注意的是，在给矩阵每个元素赋值的时候，赋值函数中声明的变量类型要与矩阵定义时的变量类型相同，即代码清单2-14中第1行和第6行中变量类型要相同，如果第6行代码改成`c.at<double>`程序就会报错，无法赋值。",
+      "translatedText": "The above code also creates a 3×3 matrix and assigns values to each element of the matrix through a for loop\\. Note that when assigning a value to each element of the matrix, the variable type declared in the assignment function must be the same as the variable type used when the matrix is defined, that is, the variable types in line 1 and line 6 of Code Listing 2\\-14 must be the same\\. If line 6 is changed to`c.at<double>`the program will report an error and cannot perform the assignment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 113,
+        "costUsd": 0.0002
       }
     },
     "9b719b9831b9eeb550f68aefe2f2ad84b70d436a5434d46777ee5af073a738fe": {
@@ -771,6 +827,20 @@
         "costUsd": 0.000083
       }
     },
+    "9bf4eb49952ec112ee5c1a732980d1b6e05ce034ca5d474d3a6f83c125292e30": {
+      "normalizationVersion": 1,
+      "sourceHash": "c99be69b2079169aed67ee0c146ee6ac1b74d755d73b19d019a23b187630ab1a",
+      "contextFingerprint": "1cbbe257b44aeed6aab06bc6edf37b7cfcb9473c1baa397695ab5d49050e87c9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image112.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image112.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "9bf59dde6afea50ef55ceb885f6c4c61f4c6f0eeea4624d91b0a604031bcdc30": {
       "normalizationVersion": 1,
       "sourceHash": "515c5809c967f262008574f650a1dbbaeae35ac9df9e6dc943ae9af080fe6529",
@@ -783,6 +853,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "9bf93647ca0f77b9095185aec5e43a06ca615519995b3ca23cef7418bdada750": {
+      "normalizationVersion": 1,
+      "sourceHash": "a268f9b48c2de829166bcfaa3f9e5683a1afc5ced52379cd84676994a6737024",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 工程创建与测试",
+      "translatedText": "### Project Creation and Testing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "9bfaf713f7b4f47095738f7b312fdb483efadc2e629404950e8ea109246f03e4": {

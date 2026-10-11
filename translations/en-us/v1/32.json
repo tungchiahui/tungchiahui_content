@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "321780c9a72a601c2becef41658651d4827154d129b995436fb743aa974171fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "930f1f959881854c155a1bb6957ed1f25fd07a3a8eddeccefe0404f6f63d8496",
+      "contextFingerprint": "04650df58396d29b5fc772af81aa299cfc1df098ed14d452b59b12ad5f1e3776",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511851361-d2547914.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791511851361-d2547914.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "32185406a8a138c4c043c7e5eeeea58dba81aa28caa8ca00462c66d8299eb163": {
       "normalizationVersion": 1,
       "sourceHash": "455218f43cf9601b9f4c233d2fba4ebe8a6f183df64a675bb1dc2c471efd82e1",
@@ -309,6 +323,34 @@
         "costUsd": 0
       }
     },
+    "325cef34d16985df13c60103c2780ddbb2e49655c0e7cb44c5a84ce630e168be": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e0eae5b632a090be9bd8d4065acebfb1de804b9a23ec294baf9912718172cb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "VideoCapture类还可以调用摄像头，构造方式如代码清单2-29所示。",
+      "translatedText": "The VideoCapture class can also access a camera, with a constructor as shown in Code Listing 2\\-29\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "325d689ae1f5f60f3cf09c250a3162672f5f7c8e4d7b7ea4350aac3c03d696d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a52383b098eb7ddf0e41d98a5c031bbf828afc656696508588f1843325bc277",
+      "contextFingerprint": "24309abfbe70b21a432fe440101e387d278026009947fe141f854e6587accc66",
+      "sourceText": "当你要使用除了`ST-Link`和`J-Link`以外的调试器时：",
+      "translatedText": "When you want to use a debugger other than`ST-Link`and`J-Link`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "325e98e4e91dd3e7588e11b141eb612215782c58b778b0010491583964379297": {
       "normalizationVersion": 1,
       "sourceHash": "fd4c0db316858ac0f255fbe81117b30ab40c86970d2a7c37f643c8d43b5e0d8d",
@@ -349,6 +391,20 @@
         "inputTokens": 160,
         "outputTokens": 42,
         "costUsd": 0.000099
+      }
+    },
+    "3260e1cc68c51de12a1ab2ab47434b0d6dc9a8018e869eda80c4c5a849662561": {
+      "normalizationVersion": 1,
+      "sourceHash": "3449e80a1b236f18dcebffab26d73ec7099720430007dc923058ab2fc68117a3",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 多通道分离与合并",
+      "translatedText": "#### Multi\\-channel separation and merging",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "326168c54186da76760a450c2c5073d2c5e2d83340877fe44fc28f9dd56a307e": {
@@ -419,6 +475,20 @@
         "inputTokens": 148,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "327e915d2961c32bf85a440e8e1a399c43497f30cbd8ec47019d68afdc16bbba": {
+      "normalizationVersion": 1,
+      "sourceHash": "570709fff67c407b6ba9fb9602a5cc0f20f5917b07f010eb9bb07c37b8c2e806",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数能够读取多种格式的图像文件，但是，在不同操作系统中，由于使用的编解码器不同，因此在某个系统中能够读取的图像文件可能在其他系统中就无法读取。无论在哪个系统中，BMP文件和DIB文件都是始终可以读取的。在Windows和macOS系统中，默认情况下使用OpenCV自带的编解码器(libjpeg、libpng、libtiff和libjasper)，因此可以读取JPEG (jpg、jpeg、jpe)、PNG、TIFF (tiff、tif)文件，在Linux系统中，需要自行安装这些编解码器，安装后同样可以读取这些类型的文件。",
+      "translatedText": "The function can read image files in multiple formats, but due to differences in the codecs used across operating systems, an image file that can be read on one system may not be readable on another\\. Regardless of the system, BMP files and DIB files can always be read\\. On Windows and macOS systems, the codecs included with OpenCV (libjpeg, libpng, libtiff, and libjasper) are used by default, so JPEG (jpg, jpeg, jpe), PNG, and TIFF (tiff, tif) files can be read\\. On Linux systems, these codecs need to be installed separately, and after installation, these types of files can also be read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 261,
+        "outputTokens": 151,
+        "costUsd": 0.00026
       }
     },
     "327f34df9f5e1abfc0f4864a033104e153daab97af397bb9f1e08d72254a3a18": {
@@ -783,6 +853,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "32c99f7f2fd5394e3bebf8300d43857444424a02f71805eaa6a31d858bd5cf1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "de2132c04b5889441ca42fc8532f2061da2f14054fe232c45e630b693da84df5",
+      "contextFingerprint": "86781e413c6e17c74843660a35839edca03ddc44c886e386a367a87a854a534f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image28.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image29.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image28.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image29.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "32ced8c7383cfc764ca3adcd3930921984a4ea8d8c73f17d81a1ea57633476fb": {

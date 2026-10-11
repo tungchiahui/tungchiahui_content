@@ -183,6 +183,20 @@
         "costUsd": 0.000055
       }
     },
+    "353942d066e080576da90017b8c73ea2238f7fe7da579cb7b52bdf4421f41cd4": {
+      "normalizationVersion": 1,
+      "sourceHash": "4712e85c08bfe654fa98a0a61c970d2f9ceec91cab6e1232ab9e0a7678f8d030",
+      "contextFingerprint": "9d2aa9d6c6c560a0e98439f28a8870aa25565d612991bed4d3956ed547dfa3f3",
+      "sourceText": "`cd ./arm-gnu`按`tab`补齐。",
+      "translatedText": "`cd ./arm-gnu`according to`tab`complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "353c425440c984b35a7e0c3593e3d5101be9c800601895acc470597d08c05c59": {
       "normalizationVersion": 1,
       "sourceHash": "4006f3cd9863524584717491ebba1990ea72ca863e573f1cc975149f41604d40",
@@ -195,6 +209,20 @@
         "inputTokens": 172,
         "outputTokens": 53,
         "costUsd": 0.000116
+      }
+    },
+    "3540ed488bbb173e7c538846bbae077a8f7dfb51adeabfe7137a394635549fcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "b09c63eebc4cc560fe172f08b5c4a11e2e9ecb97883b365974a4cb69ab93747e",
+      "contextFingerprint": "76571b226bc874db578b98e6c6a4bfb1aaa95a409ac75eb9ae0221018bae054e",
+      "sourceText": "| 操作符  | 符号   | 作用                     | 示例                                          |\n| :--- | :--- | :--------------------- | :------------------------------------------ |\n| 可空类型 | `?`  | 声明可空变量                 | `String?` → 允许 String 或 null                |\n| 安全访问 | `?.` | 对象为 null 时跳过操作，返回 null | `user?.name` → 若 user 为 null 则返回 null       |\n| 非空断言 | `!.`  | 开发者保证变量非空（否则运行时崩溃）     | `name!.length` → 断言 name 非空                 |\n| 空合并  | `??` | 左侧为 null 时返回右侧默认值      | `name ?? \"Guest\"` → name 为 null 时返回 \"Guest\" |\n| 空合并赋值 | `??=` | 变量为 null 时才赋值 | `name ??= \"Guest\"` |",
+      "translatedText": "| Operator  | Symbol   | Function                     | Example                                          |\n| :--- | :--- | :--------------------- | :------------------------------------------ |\n| Nullable type | `?`  | Declare a nullable variable                 | `String?` → Allows String or null                |\n| Safe call | `?.` | Skips the operation when the object is null and returns null | `user?.name` → Returns null if user is null       |\n| Not\\-null assertion | `!.`  | The developer guarantees that the variable is not null (otherwise it crashes at runtime)     | `name!.length` → Asserts that name is not null                 |\n| Null coalescing  | `??` | Returns the default value on the right when the left side is null      | `name ?? \"Guest\"` → Returns \"Guest\" when name is null |\n| Null coalescing assignment | `??=` | Assigns a value only when the variable is null | `name ??= \"Guest\"` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 239,
+        "outputTokens": 128,
+        "costUsd": 0.000226
       }
     },
     "35419b0df6c79f5abc89995500d802415ee430b542df8ee94f7ab83af3f52772": {
@@ -335,6 +363,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3560bd067a684f4bef449bb4181e4435e8cb2c142ae9d97fa8bd67e672f74a01": {
+      "normalizationVersion": 1,
+      "sourceHash": "7414db7694ff086d5277fa34efa819c8868ddcd3643b0d6a6eadfe93bf1a6c67",
+      "contextFingerprint": "a2f7e5dfb1bb4434cc9f357747923d1e8cb4f07d9926b590f7aeaad9f91ccf95",
+      "sourceText": "下载链接：https://github.com/xpack-dev-tools/openocd-xpack/releases",
+      "translatedText": "Download link:https://github.com/xpack-dev-tools/openocd-xpack/releases",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "35618d5d6147ee1cf63006367abac0bc25e4e8659cdcc9d60f574f8c2cd98f31": {
@@ -547,6 +589,20 @@
         "costUsd": 0
       }
     },
+    "35a1f7a4d6c027dbaeb3392c6e05199e42197abf933074f4c9c5187d8c706836": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd5d5ea002ca220e41594067e55db8cf7a18c4c8185bf02229309d54eda7622e",
+      "contextFingerprint": "2a9c69f5cc5d9ec26232703bd12330c4ab7c29f937bffc05b0fa2ad2fa55ac9e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image85.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image85.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "35ac2647b3fe8f1ac722d7a4356ecd26ea233c1ae3ea9f287f85e3748ac0bf86": {
       "normalizationVersion": 1,
       "sourceHash": "09bebd2348ac99f7044f28655bba5f90ed22a4c1c30ff9f265b9164203fbea0c",
@@ -573,6 +629,20 @@
         "inputTokens": 172,
         "outputTokens": 56,
         "costUsd": 0.000119
+      }
+    },
+    "35b19243a9fe950b53763dee1d9f4b023db0dce649460aa1af4a273c0f890755": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9b70a6cd2bd6a03faf0fd2626e1fb58a86a89464a8e44cbfae48d1009664f1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "照上图所示，已经连接成功了。",
+      "translatedText": "As shown in the figure above, the connection has been successfully established\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "35b3680162b569fdb272c6a9d5039db9f51f80b136be38fa6a921c4f2aaf598e": {
@@ -645,6 +715,20 @@
         "costUsd": 0.000067
       }
     },
+    "35c819b9db1a0fb4fbeaa69c1ba412c86b604107cfb4f717ace00ed3a44aa7a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "9eadea5ba0d6bd7c4f7248a60d861f7719615982a33c088c751659f19a84b0e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为了更好地理解VideoWriter()类的使用方式，代码清单2-34中给出了利用已有视频文件数据或者直接通过摄像头生成新的视频文件的例程。读者需要重点体会VideoWriter()类和VideoCapture()类的相似之处和使用时的注意事项。",
+      "translatedText": "To better understand how to use the VideoWriter() class, Code Listing 2\\-34 provides an example routine that uses existing video file data or directly generates a new video file via a camera\\. Readers should focus on understanding the similarities between the VideoWriter() class and the VideoCapture() class, as well as the precautions when using them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 74,
+        "costUsd": 0.000143
+      }
+    },
     "35c9cc949bcb36ab80511a250e8fb2f4f810525a8909c17db9d3567b792a143a": {
       "normalizationVersion": 1,
       "sourceHash": "aff4105b3c52c663b8ec547128839f2229a35741dc736030795153554101ad87",
@@ -699,6 +783,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "35d400ae9c76568e14c376ad612368a3c282ae08d744fd3652e0d0f70f24f5cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd853f68bdcb347f7a48bfebde8983fbd6e4007661566f51ef9ded421748a2fe",
+      "contextFingerprint": "51a9319f6771b0124791871dba3e8594af4a7a31dbc7ebee51e39ad4d24dd00e",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431910132.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776431910132.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "35d40b7c58150fdcded22dba90bdb18654e6448f48dbd8fa945b52d43d3964ef": {
