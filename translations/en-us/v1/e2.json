@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e21ff54e4264749354e4afbabbeb0eaef8887c8316d37df7278b24ba9ae08e40": {
+      "normalizationVersion": 1,
+      "sourceHash": "19e5e3a704eacd73dc8422f80a85e406592575fde2dc65a97a795ab10af87333",
+      "contextFingerprint": "32f41f654e493e97ac1aa6eaba1195e5a405233256e474b79561c8812bdc5b9d",
+      "sourceText": "实物静止时，三个轴合起来的大小应接近1 g。雷达倾斜安装后，重力会分到多个轴上，不要求某一个轴必须等于1，也不要求另外两个轴都为0。这里的 `acc_norm` 与 `gravity` 长度约9.81并不冲突：一个对应原始读数单位，一个对应内部米制计算。",
+      "translatedText": "When the physical object is stationary, the combined magnitude of the three axes should be close to 1 g\\. After the radar is installed at an angle, gravity will be distributed across multiple axes; it is not required that any one axis must equal 1, nor that the other two axes must both be 0\\. Here, `acc_norm` and `gravity` having a length of approximately 9\\.81 do not conflict: one corresponds to the raw reading unit, and the other corresponds to the internal metric calculation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 106,
+        "costUsd": 0.000187
+      }
+    },
+    "e2212c22976b3853ce0e68727926fc89b76d3122a5221251c2e521494cbba06c": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd74227621ef3dc03796f9763bf902a5ceff16ba03cbb0158455924f305a2ff4",
+      "contextFingerprint": "d8786844f7fb013e115e93045e70f0f1da04297a6198bf06014e246df87f3e85",
+      "sourceText": "打开`/src/robot_description/resource/xmacro/reality_robot.sdf.xmacro`:",
+      "translatedText": "Open`/src/robot_description/resource/xmacro/reality_robot.sdf.xmacro`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "e238436f41311470e1a3166997e91b301fa917672f2316c67e344caed8b0f885": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e7e83826188d241357412f2d079f623e0ded758204fc020e73c8d0dbe04825a",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "这得到的是旧记录对应的初始 IMU自身重力向量。当前 YAML确实采用了同一组数，但是否符合选定的 Point-LIO／导航参考系仍待核实；长度约9.81正确，不意味着方向关系也已经通过验证。本轮不改方向。",
+      "translatedText": "This yields the initial IMU self gravity vector corresponding to the old record\\. The current YAML does indeed use the same set of numbers, but whether it conforms to the selected Point-LIO / navigation reference frame still needs to be verified; a magnitude of approximately 9\\.81 being correct does not mean the directional relationship has also been verified\\. This round does not change the direction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 91,
+        "costUsd": 0.000168
+      }
+    },
+    "e2771e3a10a6cea3cc6b124d53c17f0f53fd5c7f99be1b330f9075cf473ea14e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d42ac8f6e250549ee85addc1c02970079efeea6da892375d9abcdd025a9d79b",
+      "contextFingerprint": "7f508e0fc91134d69c7c9ab2f4f68e8cfdf82440d5d959e4b10f0142a32e74ea",
+      "sourceText": "con_frame 的实际行为与注释不完全一致。",
+      "translatedText": "The actual behavior of con_frame is not entirely consistent with the annotation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "e29c1f95dc7ea727dcf6940df8b46095642a5c2fe94a74c9fcc79c0a0128c2e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2456dae6c8715650ae6bb41ec24599ff65302ea40ea1266183d00665c6566e7c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 2. 复制系统desktop文件",
+      "translatedText": "### 2\\. Copy the system desktop file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "e2b7d8d5ef6001c8d290d759382d878ccde7ab8c7064578880dfe558f4f5ff89": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3d0cfd54a64e1dc34470c60b0bf87a7be88313a8645f53ccd4e87ef33d975e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设置环境变量（不知道有没有用）：",
+      "translatedText": "Set environment variables (not sure if it helps):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "e2e9337349946c6079671be9df715f09488f64e1e69a9dfb982741243fb058b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "87f9e5470888b81a7a7f50551ca0b165a29dc8d5062c37188c7e3fed977756c0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "安装xmacro和vcstool2：",
+      "translatedText": "Install xmacro and vcstool2:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "e2eb0c2b02b70b4b5b3b77cb37cf53f3ff67d29f5fe2b61dd62dd724138951a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0567a29d5f6a5e8d2de7eb4a9545b840c2580d546ae3436c6ab1046c62927f22",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 结构体与函数",
+      "translatedText": "### Structures and Functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    }
+  }
+}

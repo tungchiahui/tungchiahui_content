@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "fe0c14093ec3e937822279f9d5cfd1bef967ada8b79cec9d908b2fc8c29957fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "66f576015c74ef627c23176b4492245ab46e332dca8cfedb0ec829bf9018b7ef",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果以后需要进行嵌入式、操作系统、驱动或纯 C 项目开发，再系统补充 C\n语言中的数组与指针、内存布局、结构体、预处理器和手动资源管理会更有\n针对性。",
+      "translatedText": "If there is a need in the future to carry out embedded, operating system, driver, or pure C project development, then systematically supplementing the C language's arrays and pointers, memory layout, structures, preprocessor, and manual resource management will be more targeted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 59,
+        "costUsd": 0.000123
+      }
+    },
+    "fe3dc0ea0b32a927bdccd4a3a4656e39ef9087ea605468f6f168e452cf4e7ecf": {
+      "normalizationVersion": 1,
+      "sourceHash": "97a17fe70667efa6790f83782733bd2e2cf0ec5633cea9241cd25e51e380e2bf",
+      "contextFingerprint": "c8919b6b8388e41598d625b7ccccd9188fa179ea7b7cf0c73ad85fc02a55a091",
+      "sourceText": "Point-LIO 配准点云已经使用 `mapping.extrinsic_R/T`，而位姿发布直接取滤波器的 IMU 位置和姿态。当前实物 `extrinsic_R` 为单位矩阵，`extrinsic_T=[-0.011,-0.02329,+0.04412] m` 非零；轴向一致不代表两个原点相同。缺少这一步时，雷达绕 IMU 转动的杆臂效应可能表现为位置误差。单纯改 `lidar_frame` 或话题名无法补齐外参；先记录这一接口缺口，工程修改另行授权。",
+      "translatedText": "Point-LIO The registered point cloud already uses `mapping.extrinsic_R/T`, while pose publishing directly takes the filter's IMU position and orientation\\. Currently, the physical `extrinsic_R` is the identity matrix, and `extrinsic_T=[-0.011,-0.02329,+0.04412] m` is nonzero; axial alignment does not mean the two origins are the same\\. Without this step, the lever\\-arm effect of the lidar rotating around the IMU may manifest as position error\\. Simply changing `lidar_frame` or the topic name cannot fill in the extrinsics; record this interface gap first, and engineering modifications are separately authorized\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 224,
+        "outputTokens": 116,
+        "costUsd": 0.000207
+      }
+    },
+    "fe3f2a300a1d10c9a9d36a9f7bfad14d9e95278751da6b1c247a4eb24a665f0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc72f4030bd9610912f145172dfa689b34610a905578a79b4e4be879f351d348",
+      "contextFingerprint": "eb75fdbfc3852f578bd0ed10b3c6bb6cc282d571f326c4ef9185971aadea8598",
+      "sourceText": "###### satu_acc（加速度读数饱和门槛）",
+      "translatedText": "###### satu_acc (acceleration reading saturation threshold)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "fe58a939e1b4e9f202ac5e7978d7b4ec1fd973ad0ad2a0d4079acb74400c42e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "72e55885748d96975fe60e05efaa1878a46d701b9711a70aece2dbfc3705ccae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数的定义一般主要有5个步骤：",
+      "translatedText": "The definition of a function generally consists of 5 main steps:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "fe6b19e195c784e2167904f3129c69708a83c3530a3236d72c3aedd2eb0506a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c627f98f0a2818eefcf4c755f7dca081e0e01f81364feed07ea2d923668dfece",
+      "contextFingerprint": "d47d03e6d6d2f6a4b2cfbd3a26f9abfd2f1323cf134abe6461845e47cec8d3bc",
+      "sourceText": "| **运算符类型** | **作用**                               |\n| -------------- | -------------------------------------- |\n| 算术运算符     | 用于处理四则运算                       |\n| 赋值运算符     | 用于将表达式的值赋给变量               |\n| 比较运算符     | 用于表达式的比较，并返回一个真值或假值 |\n| 逻辑运算符     | 用于根据表达式的值返回真值或假值       |",
+      "translatedText": "| **Operator Type** | **Purpose**                               |\n| -------------- | -------------------------------------- |\n| Arithmetic operators     | Used to perform the four basic arithmetic operations                       |\n| Assignment operators     | Used to assign the value of an expression to a variable               |\n| Comparison operators     | Used to compare expressions and return a true or false value |\n| Logical operators     | Used to return a true or false value based on the value of an expression       |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 73,
+        "costUsd": 0.000144
+      }
+    },
+    "febbb6e41006fb8d43aece66c89ce97f203b5adc6ed311d9ce1ed2f5cca6b1df": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4fd343958e9e0e75fcebb44e243a8d17fe471f8298a810cf6c4477b454fd820",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "单位、方向和零位，可以从当前模型推出：",
+      "translatedText": "Units, direction, and zero position can be derived from the current model:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "fec09673d34f7d1bb2f314185b6dc216127d2ff30d5c49e9074f0e219269cd30": {
+      "normalizationVersion": 1,
+      "sourceHash": "b987834d6943e5a51d2412a6419b499a597b64da0ecd75e3f7d1a959e479f723",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "**作用：**关键字是C++中预先保留的单词（标识符）",
+      "translatedText": "\\*\\*Function:\\*\\* Keywords are words (identifiers) reserved in advance in C++",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "fec1bad67c91afae5ff6fdde5caca12862988977503da5296574bad623ce73e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "6143017d4b706179f342fc28529599cb3a9a167689603f36d02ac58abc2deb07",
+      "contextFingerprint": "1b95eb3e7fd339811c4d93534c552f8a985aaa4dcd169b7a4d2471794a1b4619",
+      "sourceText": "只需要改掉`parent=\"chassis\"`即可。",
+      "translatedText": "Only need to change`parent=\"chassis\"`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "fedb0703a98d236d2dec5b97e7054b959ae84add4d613bf792f72dad3c71bcb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf5ec6d6d57c6564f229f50df71bdc1cda17b9868f9d4596efdb330ae49e59ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建图时的两条输出链为：",
+      "translatedText": "The two output chains during graph construction are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "fefaf176bf0ba2eb75f5ffae9c92e1e3881b04aa1f0d34b29bc573eeb9194e87": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed2eff6ffd4d5313e0bc01854b859a4c1f0f8a0b49f67f80de6239621e988db6",
+      "contextFingerprint": "7993dec9b0b2e43a2a9848ad9eb35fc29e5aa37595a1b61142a440e1c333fb76",
+      "sourceText": "###### ceres_trust_strategy（图优化的修正策略）",
+      "translatedText": "###### ceres_trust_strategy (correction strategy for graph optimization)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    }
+  }
+}

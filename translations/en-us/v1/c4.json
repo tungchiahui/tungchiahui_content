@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c404d7c7fea40bff2880a19959bef317f97364b986790960645d9fc73151ec5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e91ad4407d8b0275d85aeb14ab3e14e38ad82f8076d876775bd86684fd8e80b",
+      "contextFingerprint": "5c7efa01f919e659bc7518f235b6f6dfc7d53c27c832ddfa0fc4e07699b1cdf6",
+      "sourceText": "这个包的 `robot_state_publisher_launch.py` 会加载 `robot_description`，因此补上运行依赖：",
+      "translatedText": "This package's `robot_state_publisher_launch.py` loads `robot_description`; therefore, add the runtime dependency:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "c41ff4e58fc837acf9416f37d46e0900cfef34bdb352b83390d2e1939fea4228": {
+      "normalizationVersion": 1,
+      "sourceHash": "be35f874c404ad0eba4966bb0f0ba7e12d162a39bbbfd3eeb09c8b99d920fa3b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t利用new创建的数据，会返回该数据对应的类型的指针",
+      "translatedText": "​\tData created using new returns a pointer to the corresponding type of that data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "c424eff232141eae5471b9c5f3ac0a6f9e38c736313bcb5b307106205315471c": {
+      "normalizationVersion": 1,
+      "sourceHash": "11942351a4d956e7c789e8c0b494500c7d69b55343145a0cb5f96c2c19978c23",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再基于这个面进行画草图，然后点击底面，点转换实体。",
+      "translatedText": "Then create a sketch based on this face, then click the bottom face and click Convert Entities\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "c4514bc5546b5c5bac9ca97f187105458eefe999d17eb1784fd245e91dfc22cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "10dc334d888119df06d5e8ef8e140a7f93c8c13587d8427f753b807e4e457321",
+      "contextFingerprint": "85816446c84ce17f93ef92ae349a0ae252f6ab0379be8eb67193b13f809e9edd",
+      "sourceText": "1. 累计点云中，水平距离不大于 `minDyObsDis=0.3 m` 的点直接给格子增加 `minDyObsPointNum`；不是忽略近点。\n2. 较远的点先满足 `angle1 > minDyObsAngle`，再转到输入位姿对应的雷达自身系；自身仰角在视场窗口内，或 `abs(z_L)<absDyObsRelZThre`，就给格子计数。\n3. 最新一帧裁剪点中，只要该格有满足 `angle1 > minDyObsAngle` 的点，就把计数归零；这一轮没有再次要求视场窗口或0.3 m距离门槛。\n4. 最终计数达到 `minDyObsPointNum=1` 的格子不进入正常地形输出。",
+      "translatedText": "1. In the accumulated point cloud, points whose horizontal distance is not greater than `minDyObsDis=0.3 m` directly add `minDyObsPointNum` to the grid; near points are not ignored\\.\n2. Farther points first satisfy `angle1 > minDyObsAngle` and are then transformed into the LiDAR's own frame corresponding to the input pose; if their own elevation angle is within the field\\-of\\-view window, or `abs(z_L)<absDyObsRelZThre`, the grid is counted\\.\n3. In the cropped points of the latest frame, as long as the grid has a point that satisfies `angle1 > minDyObsAngle`, the count is reset to zero; this round no longer requires the field\\-of\\-view window or the 0\\.3 m distance threshold\\.\n4. Grids whose final count reaches `minDyObsPointNum=1` do not enter the normal terrain output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 146,
+        "costUsd": 0.000247
+      }
+    },
+    "c45b4278d3d4da47d2b32787e97ea005490f896d6103f070059bb18b03ba4a82": {
+      "normalizationVersion": 1,
+      "sourceHash": "f89774b5b692646ed24afcf70c96375009e5780ffcd9e2f5c62888a46f0f572b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "this指针的用途：",
+      "translatedText": "Purpose of the this pointer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "c45f633c2ab977af54c31dcb1d7a67965c36033e8c2f93073396c049b1d8c7b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "094540174647c2183aa5704d93e1f725b78dcbaab782a75ca30a5fa877e8526e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点击左下角的build.",
+      "translatedText": "Click build in the lower left corner\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "c47b535a1159bbe5c91a80d36037a3518d29bbe0a497d987dea498e611d19a98": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf477aed1511f33c93a9518b03fa7648b801b7e385832838967ea39f07702a2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本教程主要是机器人工程师成长计划，一些学习机器人相关知识的路线。",
+      "translatedText": "This tutorial is mainly a growth plan for robotics engineers, covering some learning paths for robotics\\-related knowledge\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "c482955b0440f00051b6a4543348521c7c428ca1a716ba6545897f841f1e6355": {
+      "normalizationVersion": 1,
+      "sourceHash": "9614b3c9db6f5168c0367713e13ea3402842d7c7c43414f82ac80edc9581f2ef",
+      "contextFingerprint": "dfcbb5b04769801edd8866784ab7c5a7dc041a953617e17a3ef65f6ce572a3f7",
+      "sourceText": "###### ceres_linear_solver（图优化内部怎样解方程）",
+      "translatedText": "###### ceres_linear_solver (How equations are solved inside graph optimization)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "c48b39d4749fd5182e7fc851ed6b94d885f38a90882dd2dc09500f6a3d3906c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "18537e9d3d769cd4e5b507162725bc13583eb467f9e517c24fda65a5fd76e0d6",
+      "contextFingerprint": "250b19efa58a201dbb28e1e9de1253753f834be59f5e6de3b2b7db998c507e57",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791277565471-19edbdb7.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791277565471-19edbdb7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c4942a4c868fc89af2663058f163ff56aa6a3ebf0c5665aa292b11d793747d71": {
+      "normalizationVersion": 1,
+      "sourceHash": "737a4cf865850d0fcf51db8a92832ac9e46a78b685cb87a9c68cab96c6e53cf8",
+      "contextFingerprint": "d4d3034a18dff7cee8a9ad38032dac68384b4d8fbf8618dff8ba991aebd5169c",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189098583.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189098583.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c4c12f1e1b6886f889c466d4698df6deb9d504ca16eea5f0fde21952ebccdbf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4e57c0ccadbdce14b934d108414131baa0d102cc346a4a7616103483e85e154",
+      "contextFingerprint": "ecba279f7aa6743d744883f502fa40a09dcb0e069def5108231f0b5f085d07c0",
+      "sourceText": "云台高度gimbal_pitch_height所表示是大 Yaw 轴中心 → Pitch 旋转轴中心的垂直高度差。",
+      "translatedText": "The gimbal height gimbal_pitch_height represents the vertical height difference from the center of the large Yaw axis to the center of the Pitch rotation axis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "c4caa168d7e44f418719c148840b6afec1e5dbc9ec1ab4b8eb2dbc45fb961b73": {
+      "normalizationVersion": 1,
+      "sourceHash": "a487cd528430ca451d8387a64ae2b84cd6c22866badfdc38fcb33350e13b84c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：日常开发时可以直接运行 build 目录里的程序，不需要每次 install。",
+      "translatedText": "Note: During daily development, you can run the program in the build directory directly, without needing to install every time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "08227f39d251a67edd7245bbf5df1523a95adf29f680d86a13b502a7d43cac49": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf6e4c7cc68683d2d1da2c48525da15bf4328900a29e6df02c9108e5e8910243",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### do...while循环语句",
+      "translatedText": "#### do\\.\\.\\.while loop statement",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "08628e214908059b569336a1f382d3d007ae457224c496c1d91cc4c4090ba4e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcb9a9894f2461b0f828b76c336bf015a3b8b93a119ff5e6c57e34080d42fb16",
+      "contextFingerprint": "d280be768bba4d1a475d5d6cd1f240ad4e0875891005cf9e45e0eb66bd6a0fd8",
+      "sourceText": "1. C++ 不是“完全兼容 C”。大部分简单的 C 代码可以较容易地迁移到\n   C++，但仍有一些合法的 C 代码不能直接作为 C++ 编译。\n2. C++ 不只是“带有类的 C”。现代 C++ 还包括模板、RAII、异常、\n   Lambda、智能指针、并发支持和丰富的标准库。\n3. C 也不是已经被 C++ 淘汰的旧语言。操作系统、嵌入式开发、驱动、\n   底层库和跨语言接口中仍然大量使用 C。",
+      "translatedText": "1. C++ is not \"fully compatible with C\"\\. Most simple C code can be migrated to C++ relatively easily, but there is still some valid C code that cannot be compiled directly as C++\\.\n2. C++ is not just \"C with classes\"\\. Modern C++ also includes templates, RAII, exceptions, lambdas, smart pointers, concurrency support, and a rich standard library\\.\n3. C is also not an outdated language that has been replaced by C++\\. C is still heavily used in operating systems, embedded development, drivers, low\\-level libraries, and cross\\-language interfaces\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 287,
+        "outputTokens": 174,
+        "costUsd": 0.000295
+      }
+    },
+    "086a421cf62c7a05c054a46c1cbab8e0bf842d6d0f4f77727ddda5416cdfac99": {
+      "normalizationVersion": 1,
+      "sourceHash": "b86837f453fba2665e4036e9c73a2b7024196ca204e8ec35a00c736c1d798cc9",
+      "contextFingerprint": "bfdfcf929a3ae6d29e3a69f7b1cf55b45fd3170ac6061d8714861d55bb9e1e0e",
+      "sourceText": "本章没有要求修改 `CMakeLists.txt`。如果你后面章节改了 CMake 文件后构建异常，可以重新 configure：",
+      "translatedText": "This chapter requires no modifications `CMakeLists.txt`\\. If the build fails after you change the CMake files in later chapters, you can reconfigure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    }
+  }
+}

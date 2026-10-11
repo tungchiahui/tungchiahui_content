@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "b31f1b2d564a77fd87e0dad20de8089fae88187c35bfff5cafe9168522ae36d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "653af3839f8c862768bb181bf6f0a88b03b86e17de1ae71dad2e6c0d970f0481",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "然后可以配置一个环境单独给C++环境使用，避免和默认环境冲突。",
+      "translatedText": "Then you can configure an environment to be used exclusively for the C++ environment, avoiding conflicts with the default environment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "b32bc3273671f0a29a41f87466b00e7b97b27a1f6175095a06a13d0a37a44e0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0be79bd919aafbc64fa6702ad63c8a17635c0a0e0c99b401a7ff9210a181c0d",
+      "contextFingerprint": "9abfdd1ae6694e16c271c48cc4eb4b155f3ffdd5ad4263c869c865968cfd1e03",
+      "sourceText": "### 改了 CMakeLists.txt 后构建异常",
+      "translatedText": "### Build exception after changing CMakeLists.txt",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "b33b52bdf52ce3bda578071ac30713d730a257e8c8877bfa2c8dcae1418420e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8951fe2c6f553d1805124ac86b011d0eacaff67c2a6377bbc776b3b5954aca8",
+      "contextFingerprint": "0b41b6cfce6d3ab44f1ce0202ef72ad96a5604cd0bd114e4919eb944aaddb3eb",
+      "sourceText": "- -1：持续累计点云，正常退出时保存到 scans.pcd。长时间运行会增加内存占用，需要正常结束程序才能执行退出保存。\n- 大于0：每累计指定次数的扫描处理就保存为 scans_1.pcd、scans_2.pcd 等，并清空累计缓存；正常退出时，剩余点仍保存到 scans.pcd。",
+      "translatedText": "- \\-1: Continuously accumulate the point cloud and save it to scans.pcd upon normal exit\\. Long\\-running operation increases memory usage, and the program must be terminated normally for the exit save to occur\\.\n- Greater than 0: After each specified number of scan processes accumulated, save as scans_1.pcd, scans_2.pcd, etc\\., and clear the accumulation buffer; upon normal exit, the remaining points are still saved to scans.pcd\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 232,
+        "outputTokens": 123,
+        "costUsd": 0.000218
+      }
+    },
+    "b34408eb5190998f0e43202dd21db49a9352ccc58e98aa93c4917756787535c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c4461b4f63a7bf751cd07a664aad4f95bff9cc613256d82e039382c9f431bfd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 封装",
+      "translatedText": "### Encapsulation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 10,
+        "costUsd": 0.000051
+      }
+    },
+    "b36cbb0a9c373232854318057782e3e570d881026677012e290d0fdadbfbfda0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d21f15d3d76e3d8f95432b2bc15ee5ac05f63a13f71d8d1b052f5aca23dbc710",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数的分文件编写，就是把代码拆成：",
+      "translatedText": "Writing functions in separate files means splitting the code into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "b396b1018153f5918cffbc67022fcbc51484aa541f53771afc38411f81435bf3": {
+      "normalizationVersion": 1,
+      "sourceHash": "d725586c9d482695f6357631ef665f2d126f116a709df4d90e984d00752d4b9c",
+      "contextFingerprint": "141794c93fd2fbfa5df0f645474bafd35eddf27c28fd2fbcaf8e05bd64fbd069",
+      "sourceText": "###### gyr_cov_output（转速估计的变化不确定性）",
+      "translatedText": "###### gyr_cov_output (uncertainty in speed estimation variation)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "b3a4244357320fe33e229d70dd4167f966e1b45b8b20ce1c6a2fbf3892d87d23": {
+      "normalizationVersion": 1,
+      "sourceHash": "e875e4d2a412b6e633cc01008e4eaa17d5c31818ce533815c9ba0dc9a7e949ac",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "​\tC++中利用==new==操作符在堆区开辟数据",
+      "translatedText": "​\tC++ uses the ==new== operator to allocate data on the heap",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "b3b2fcd68ea33049432e74d1faa992b27155457b3b27d5cd864c0e59a9c4f331": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fe37da1d218a449b2def10a5d7ed71d53ddd61896a11dcf0933cf9cbf0c3fc6",
+      "contextFingerprint": "c2d1a64365c1c7d60d1b7e29f71189931ca0a3409ab1b2d6adc9ab0d090794fa",
+      "sourceText": "## C 与 C++ 的关系和学习路线",
+      "translatedText": "## The Relationship Between C and C++ and the Learning Path",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "b3d106cc74c0074ff8f192df5b736ae0b0b10bfa437dec2921623899a3366289": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d070711dd3ed469c2033a3f959a5cf1f935b52eb5bec436d733a0eed9808773",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### continue语句",
+      "translatedText": "#### continue statement",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b3e20ba96283f7a893444ca4b0611a55e0ca7c2bb5a85f48b4d08d15ed5c7119": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8ab705eac2b8dc72955956bbefdf1faba6beef87b46f2d9c9b6389057c3b650",
+      "contextFingerprint": "b115ff6b8d87d74d4831d5abe8da54d8cfc12db6a87f597cad49fc49ba3e08a9",
+      "sourceText": "它不是原始三维点云，也不直接读取terrain_map_ext。上游已删掉的坡点、低障碍或缺数据，不能靠更换这个话题名恢复。",
+      "translatedText": "It is not a raw 3D point cloud, nor does it directly read terrain_map_ext\\. Slope points, low obstacles, or missing data that have already been deleted upstream cannot be recovered by changing this topic name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    }
+  }
+}

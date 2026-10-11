@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "3f096d29a7c7da62532ae0f0a4a60efca2e4132a7742e85d8b87060da0ad2018": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ac393bacc380afa85543fc9b49ab99f38dc15a02bd953ffc4b6d559a7eb500d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## clone CMake 模板",
+      "translatedText": "## Clone CMake template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "3f0f07933b9083f965ad49ee5215c0801fa3fdf4ead1138ea8b41189a838b036": {
+      "normalizationVersion": 1,
+      "sourceHash": "b22660ecfd12a9b658fb31386f74d9c7b8449584b05da7a6c0634cfb5aaaeb27",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结1：数组名的命名规范与变量名命名规范一致，不要和变量重名",
+      "translatedText": "> Summary 1: The naming conventions for array names are consistent with those for variable names; do not reuse variable names\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "3f1d91744be06c9a6cabd0401fc6280be73d3d5bf8042b30b1233712e61f2eca": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c6fe2769d80f0609953d3b16e968d3be4e224f52197e9e50afe9ccedca5715b",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**while循环练习案例：**==猜数字==",
+      "translatedText": "**While loop practice example:**==Guess the number==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3f470c0cd6a75f1a05a80882c8e8a4d42879b51bd6d8dbf5bbc453ca2c1d652d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2790dbf41edcfe8527c21a75f9724e2f61a61cd202821896fb805bd83857255",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 用命令行方式运行",
+      "translatedText": "### Run it via the command line",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "3f5fe39b6f5abf7bc5752c2264633107cc91c81f31252da3d541dcb8d189aa01": {
+      "normalizationVersion": 1,
+      "sourceHash": "96027c087109caf23b6487dbc158db0a3f20c04f5c12e1c459e4e5916e3e4bb7",
+      "contextFingerprint": "422d83af16f553b51f8a5dbcc13999b59fa6ccd3b75121deee9cf1eb32a0aa5f",
+      "sourceText": "2.  全局变量\n\n    1.  位置：全局变量是定义在函数外部，通常是在程序的顶部。\n\n    2.  作用域：全局变量在整个程序生命周期内都是有效的，在任意的函数内部能访问全局变量。",
+      "translatedText": "2.  Global variables\n\n    1.  Position: Global variables are defined outside of functions, usually at the top of the program\\.\n\n    2.  Scope: Global variables are valid throughout the entire program lifecycle and can be accessed inside any function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 47,
+        "costUsd": 0.000108
+      }
+    },
+    "3f66e35137fedcc06d8255c1889db94611908b1cac1900e38a359696708a4ce6": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf0e00b3ca94f1ba926f9a1db4da4400deec93dc86e2d9d7c3da11c25bfbcd13",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "所以：**下坡地面缺失，检查下界；上坡地面缺失，检查上界；越远越缺，连同距离放宽比例一起检查。** 下界的“调大”是数值变大，例如-1.5到-1.0，反而缩小向下保留范围。",
+      "translatedText": "Therefore:**If the downhill ground is missing, check the lower bound; if the uphill ground is missing, check the upper bound; the farther away it is, the more it is missing, so check together with the distance relaxation ratio\\.** \"Increasing\" the lower bound means the value becomes larger, for example from \\-1\\.5 to \\-1\\.0, which instead narrows the downward retention range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 89,
+        "costUsd": 0.000165
+      }
+    },
+    "3f681c9dfe50888589ee126cc00d060cf9253ab42314fba379d869b0889ef47f": {
+      "normalizationVersion": 1,
+      "sourceHash": "82d59670d4d795cb770e5805bf0610c086053735ec944e7e1d9603ac4e931efe",
+      "contextFingerprint": "b6a25ec1a9bb711334990c5efe9d6ef50c4ed7b751b22279f2c294f0638cd497",
+      "sourceText": "N_SCANS 来自 scan_line，所以设置4时允许：`line = 0、1、2、3`",
+      "translatedText": "N_SCANS comes from scan_line, so it is allowed when set to 4:`line = 0、1、2、3`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "3f708f9fc82f7a1141aa614baca9578c0f7bd388dcf74560ee59d3018ce19012": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbe2668dd1f772865b9c8b5255df9ce087fea74d244990ad5c86a763258ce8ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些参数主要是用于Gazebo。",
+      "translatedText": "These parameters are mainly used for Gazebo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "3f7bd0615dd3e904dcdb6c42ef79896a3acff25c556fab25e5ff3f1a628bd7ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "817b2c8ead663116e0a4ff190d13e94140cacf0a890e4a7c63be7f2a95c4356c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "lidar和pointcloud应该是20hz,而imu是200hz。",
+      "translatedText": "lidar and pointcloud should be at 20hz, while imu is at 200hz\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "3f9c173f188e05350f892f2e5c300f517161027cf90c82d1628499c362a7e106": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f90f310a6a0ace962de79ee1a7592afe9e7e1866f3ea88786859a69bfd5e6dd",
+      "contextFingerprint": "7024886d05c34923de3c5640dcb120d28103b816b8d03e40f6646e8fa02c5483",
+      "sourceText": "1. 删除本例暂时用不到的 `lib2`。\n2. 把 `lib1` 目录重命名为 `swap`。\n3. 把 `inc/lib1` 目录重命名为 `inc/swap`，再把其中的 `eigen3_test.hpp` 重命名为 `swap.h`。\n4. 把 `src/eigen3_test.cpp` 重命名为 `src/swap.cpp`。",
+      "translatedText": "1. Delete the `lib2` that is temporarily not used in this example\\.\n2. Rename the `lib1` directory to `swap`\\.\n3. Rename the `inc/lib1` directory to `inc/swap` and then rename the `eigen3_test.hpp` within it to `swap.h`\\.\n4. Rename `src/eigen3_test.cpp` to `src/swap.cpp`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
+    "3fb3b076130e864ffe6bc4170b4c1a33c7d1619451005974a47a3442c59e1a54": {
+      "normalizationVersion": 1,
+      "sourceHash": "b732d5edbcb908dc23c646dc64b2e449ebe39c359b9978828ec927669976f504",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "若以后考虑启用，它从输入位置附近的地面出发，尝试把高度接近的地面区域连起来；自身远场只输出连上的区域。三项含义是：",
+      "translatedText": "If activation is considered in the future, it starts from the ground near the input position, tries to connect ground areas with similar elevations; its own far field outputs only the connected areas\\. The three meanings are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
+    "3fbe23da54f4c8512b75cf3cc4d7b0b1c492c35bf06c857d69055a1fa21745f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9287c1adceefa3f4061a2906b76871781cc093f7f8dae448da54156013197d95",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* struct 默认权限为公共\n* class   默认权限为私有",
+      "translatedText": "* Default permission for struct is public\n* Default permission for class is private",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "3fff819336c12ae693e974ecccc69a2e9ee811f3a221f8c8e782f75d7d484a99": {
+      "normalizationVersion": 1,
+      "sourceHash": "c78cd5e6f4e259ee466c2323106b4af505bf3a424541a7c8543f47b3865c73a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么轴距是 = 0.207 - (-0.207) = 0.414 m",
+      "translatedText": "Then the wheelbase is = 0\\.207 \\- (\\-0\\.207) = 0\\.414 m",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    }
+  }
+}

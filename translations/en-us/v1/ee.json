@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ee0fc096eb57b48c10d2aea6626030aed4600a4f1e09319ed611cfb9a5636f8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d15e60b885b84246a5d42f4bbf550f466c1b01188a05b8e46a5a1f80aa104cf",
+      "contextFingerprint": "1d889deec846c728d829c00117a63f7eff633775dd381c2447c7ad8bc246523b",
+      "sourceText": "应该随 joint_pitch 变化。",
+      "translatedText": "should vary with joint_pitch \\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "ee2e3998c0d8d7a0834d082de4f7e7a163212cf61f51e6ee9aef442c7ef5c4aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "9aa8f0eadf69336b3e72960f44ec6c6e9a509db28ab3aaa54033eeba4bc23edb",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "先验 PCD 加载时没有自动做坐标旋转或单位缩放，地图还必须与当前 Point-LIO 参考系一致。源码对 PCD 读取失败返回的空指针也没有在调用处检查，所以启用前需要确认文件有效。",
+      "translatedText": "When loading the prior PCD, coordinate rotation or unit scaling is not automatically performed; the map must also be consistent with the current Point-LIO reference frame\\. The source code does not check at the call site the null pointer returned when PCD reading fails, so the file must be confirmed to be valid before enabling it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 78,
+        "costUsd": 0.00015
+      }
+    },
+    "ee30e1cbb08966d54ea3e2ddd40a43f70b6d986b5269e7f4066111a1899126df": {
+      "normalizationVersion": 1,
+      "sourceHash": "f522c4994f7872e0b5695d08ca6eff79e4740bf7cbc48ee78b1b08f4baf2579f",
+      "contextFingerprint": "fcd4f727dc0c23177befd31cd637439d570e7c7bae4005b092cfc6ea182e7a4d",
+      "sourceText": "###### check_satu（IMU读数量程保护）",
+      "translatedText": "###### check_satu (IMU reading range protection)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "ee358795fc20eeb9cfc2c388318bf3a0d1e13f09794ecfd6fe16a10dd075cd8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbccc765a123a1d0fad025ee7809a114f06d37aa44c4c3af706b2b82afac5081",
+      "contextFingerprint": "75463b4025ad1c45655351929517d3f428f3d15df734db36936e1e68afb05143",
+      "sourceText": "位置与点坐标沿用上游的 m，姿态使用无量纲四元数，时间戳由秒和纳秒字段表达；本节点不缩放单位、不再次降采样，也不做两种输入的时间同步。里程计沿用输入位姿时间戳，正常点云转换沿用输入点云时间戳；后者已对照容器安装的 `pcl_ros 2.4.5` [对应实现](https://github.com/ros-perception/perception_pcl/blob/2.4.5/pcl_ros/src/transforms.cpp#L91)核对。",
+      "translatedText": "Position and point coordinates follow the upstream m, orientation uses a dimensionless quaternion, and timestamps are expressed by seconds and nanoseconds fields; this node does not scale units, does not downsample again, and does not perform time synchronization between the two inputs\\. Odometry follows the input pose timestamp, and normal point cloud conversion follows the input point cloud timestamp; the latter has been checked against the container\\-installed `pcl_ros 2.4.5` [corresponding implementation](https://github.com/ros-perception/perception_pcl/blob/2.4.5/pcl_ros/src/transforms.cpp#L91)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 93,
+        "costUsd": 0.000174
+      }
+    },
+    "ee6b9ba51236e65fa787171b7899c5a935b871ab641e180b910c18b86a1b5729": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7e624759047c1a8405af38451c48e51a8ee2024f5811f00f26c2565e3d6bb1d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 二维图、PCD与实时定位：各自负责什么",
+      "translatedText": "#### 2D maps, PCD, and real\\-time localization: what each is responsible for",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "ee90f8037b066714ba1ce78b75986844b95da0671334a950cc30d5cc3dd1ecad": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3b0e4f527e988292a278ec123c35ce51a16eeee205aeba8192c68a35447def4",
+      "contextFingerprint": "d11b1c32e36eaff0408ed71952f79bdc6240f86a0df6bedf3f34e900411620e7",
+      "sourceText": "- 云台朝底盘正方向时为0\n- 范围必须归一化，`[-π, π) rad`，也就是 `[-180°, 180°)`\n- 旋转方向按照标准坐标系，也就是在某个轴的正方向看，绕他的逆时针为正。",
+      "translatedText": "- When the gimbal faces the forward direction of the chassis, it is 0\\.\n- The range must be normalized, `[-π, π) rad` that is, `[-180°, 180°)`\n- The rotation direction follows the standard coordinate system, that is, when viewed along the positive direction of an axis, counterclockwise around it is positive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 65,
+        "costUsd": 0.000129
+      }
+    },
+    "eeab1fd54aa22c073de70bf041efde73eaa3af3f2cf702a643774aef2b8eb805": {
+      "normalizationVersion": 1,
+      "sourceHash": "d33af2d14e9fc2edef26d0d053b69b346b6d6e43627add185295536c9e3c61bb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "赋值运算符包括以下几个符号：",
+      "translatedText": "The assignment operators include the following symbols:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "eeb5c0fdc3277a0dec1cd85792c0a515eed951f7672b5ba1eb86f52950aad5a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "67cb22763145fc4f9d448b4f2617af4dcb87622536f7ebdac423612c1f85065d",
+      "contextFingerprint": "05a73575708f780e7d4b5e2b1c279fa699c50345c8d598b43bd604f1ed0c501d",
+      "sourceText": "文件增加后，还要打开 `src/CMakeLists.txt`，把 `cpp_interface.cpp` 加入主程序：",
+      "translatedText": "After adding the file, still open `src/CMakeLists.txt`, add `cpp_interface.cpp` to the main program:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "eec3c816a0630986c5162ffbb7e6cd179f377aaf7244ff61fe562be331d983e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0ca76a380f3a5956d66486525daf17454e5b232f1c4ce58559cb522b38952d8",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 本章最终效果",
+      "translatedText": "## Final effect of this chapter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "eee8727a5917a36eedbb48011fb3ab72e94ad8200dd0051e38bb3f5a86af2eaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "e627ecbec12b2fde89811f5c941352878abaa50788272ef2ee9b79aebbe08bf7",
+      "contextFingerprint": "44f7082956575abbb3890cacfdd5e343942e44c571b8274fa1a1bbdfd7f44685",
+      "sourceText": "当前保持mapping，与正在启动的sync_slam_toolbox_node建图流程一致。本版本中，mode由Ceres插件读取；localization会启用更便于移除约束的内部设置，**仅改这个字符串不会把当前程序自动变成定位节点。** [Ceres模式读取](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/solvers/ceres_solver.cpp)、[同步建图节点入口](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync_node.cpp)",
+      "translatedText": "Currently, mapping is maintained, consistent with the mapping process being started for sync_slam_toolbox_node\\. In this version, mode is read by the Ceres plugin; localization will enable internal settings that make it easier to remove constraints\\.**Only changing this string will not automatically turn the current program into a localization node\\.** [Ceres mode read](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/solvers/ceres_solver.cpp)、[Synchronous mapping node entry](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync_node.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 88,
+        "costUsd": 0.000167
+      }
+    },
+    "eefcd2d9319e8b40802eeae5ba95cfc2ab80d06991fbb593a8e5f2a3c437fa10": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d008d50e0be214606cc1d14da6c71726b8742a8de3133a98169f7ac0d2c27cb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常量",
+      "translatedText": "### Constant",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "9309006d96f356291c2519bfea9ad398427d9b65762e361814ebb302b9508b42": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d66ec3cba4ea127a1879f90fad58a6b880d13e45ce28f1660afa3e2f0c48ae6",
+      "contextFingerprint": "2b341f21ee61995ec7f6c79457327fe18f869bec5443e67cea2fbb0c3e688b1c",
+      "sourceText": "他在`/src/rmoss_gz_resources/resource/models/rm25_example_robot`里，\n你复制下这个大文件夹，并重命名为`ysu2026_sentry_robot`，里面的xmacro也命名为`ysu2026_sentry_robot.def.xmacro`。",
+      "translatedText": "He is in`/src/rmoss_gz_resources/resource/models/rm25_example_robot`, copy this large folder and rename it to`ysu2026_sentry_robot`and name the xmacro inside it to`ysu2026_sentry_robot.def.xmacro`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "934713b180e4a881b0364c65da8a8ea5dc862047d1621cdaec7526b012dac96c": {
+      "normalizationVersion": 1,
+      "sourceHash": "646fe602520a71d5593b976332d949bd7f964a3a025ebadc882ae5f064de6d8c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个参数如其字面意思一样，就是底盘的厚度，也就是底盘的上顶面到下底面的距离。",
+      "translatedText": "This parameter, as its literal meaning suggests, is the thickness of the chassis, that is, the distance from the upper top surface to the lower bottom surface of the chassis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 41,
+        "costUsd": 0.000095
+      }
+    },
+    "9353b91f3b92123c0a50b0453b8752f6e684f2ea0a7f876785357a937c713f5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "093f6d13ed779b0c32065942bc8d175b75bd32d94e6bf17a996ad82073b91e40",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首先你得知道ROS默认规定的方向：",
+      "translatedText": "First, you need to know the direction specified by ROS by default:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "936205af228cccecde61a32f4667549ed2731e4f68d99828b996d4bd9c65e422": {
+      "normalizationVersion": 1,
+      "sourceHash": "075611fc63d5f7ed2df2a374ea99ffe7fcc956221379c3bc425434d18bc0196b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "至此全部结束。",
+      "translatedText": "This concludes everything\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "936c7df68961feff40311652b11e8c6ca33a56e712f432a1c48d712d17709c38": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5195aa0f05f4c628c062b27b817994309a3a880302d0c29a5b788eca6f3efd0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "配置编译 iptables 模块（Firewall中）",
+      "translatedText": "Configure and compile the iptables module (in Firewall)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "938b1ef254dfcf4f04940bb4e59a5b7bd2b11c4c487635b07c0d311a544ec4e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "32b32dcca538bd9b04185117d42ddc0d8c134719a8bb71a4b04105b9a254739c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "测试下Gazebo加载模型还正常不，如果正常则说明没毛病。",
+      "translatedText": "Test whether Gazebo still loads the model normally; if it does, that means there is no problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "93b270c83822814f56d99f0b48f08efdd2379988e559eecdfc179ab8ccda8d00": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfba92ab3fb6a089c6eb73c3eb1150a788ea3b750608e1b37588fb1dae14a7b9",
+      "contextFingerprint": "241fb4c57d2be00771ab1e9c6088755d0ddaa207ffa08e5a72fe154c5bfc7a3e",
+      "sourceText": "如果你使用 `clangd` 做代码提示，建议关闭或弱化 `C/C++` 扩展的 IntelliSense，避免两个语言服务器同时工作导致提示重复或冲突。",
+      "translatedText": "If you use `clangd` for code suggestions, it is recommended to disable or weaken the IntelliSense of the `C/C++` extension to avoid duplicate or conflicting suggestions caused by two language servers working at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "93bece9384e83079b1230a1a8e8fb2fab4b8fe3a865c57b6cd318a742253b3a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4d26825b480c1db303a0bceda8b74f43095b6fc3b625ccf7618617027edd341",
+      "contextFingerprint": "7b80ad7ebc596734a43a80392a6a6aa8ce3b8b961be2241ff987746b5fd3e520",
+      "sourceText": "https://code.visualstudio.com/Download",
+      "translatedText": "https://code.visualstudio.com/Download",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

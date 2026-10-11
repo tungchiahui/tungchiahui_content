@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f32d4136b310f6e292d7e0df63c4c49bff89c62096fda30e092b626bf47d10c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "cac7df2ebdac1d304447d5a7cca9043ccc410c8a9c1751833ddb5324a5c0c4ca",
+      "contextFingerprint": "dfab7e5d8f2e81a49496c1db34f2b7f965432e04aeb65b912be64130a07e9281",
+      "sourceText": "前6项是当前启用值；后3项在YAML中被注释，示例内容不是实际参数值。另补列ROS标准use_sim_time，说明前面发现的仿真时钟缺项。",
+      "translatedText": "The first 6 items are the currently enabled values; the last 3 items are commented out in the YAML, and the example content is not the actual parameter values\\. In addition, the ROS standard use_sim_time is listed to explain the missing simulation clock item found earlier\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 69,
+        "costUsd": 0.000136
+      }
+    },
+    "f34824988055cdca6bf002038d1494d6968a6ee648ddff0808c31559a9f2f80e": {
+      "normalizationVersion": 1,
+      "sourceHash": "67a620a283d125847570a8e756f95684d33eace31e5c1db9c16740abb0a3bedc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把内容替换为：",
+      "translatedText": "Replace the content with:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f35416c2b2ad4464bb6b34046b161383302ea5f5ef3c6903b308cc3412808912": {
+      "normalizationVersion": 1,
+      "sourceHash": "08a9f64fee640cbc9428e4f98df652196be323cc1b9e2bb737ce92b4fbb37f06",
+      "contextFingerprint": "cd0b728aa15666043028b52947e5f79707ab473f636bca9a14b555bea02aff27",
+      "sourceText": "**作用**：C++规定给标识符（变量、常量）命名时，有一套自己的规则",
+      "translatedText": "**Function**：C++When naming identifiers (variables, constants), there is a set of rules of its own\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
+    "f3b66064857f9e45cb57359f31bc44576cacb18ec4a93e8a82c2f7d52a365f7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8da11258427608513e31c0f095286b207710a72631fa71b6f81106036c835a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之后，从任务栏启动VS Code就会使用：",
+      "translatedText": "Afterwards, launching VS Code from the taskbar will use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "f3d5d86ce6797dccb64a2ca39f1ab2ccbd470581ae923582a7e32aa2e1baec2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c0763fed2f180ef7cba4fde920a5e184b6c2801a5056d92820f2e05fa88180c",
+      "contextFingerprint": "3e04d9f6acb4269b4653bd001361345a70e3c1b57330402b371acefa46b56019",
+      "sourceText": "如果这两个能出来，就说明：\n`/livox/lidar` 实际上也能跨机器收到，只是 ros2 topic hz 这条 CLI 在你这个 CustomMsg 上表现不正常。",
+      "translatedText": "If these two can be output, it indicates that: `/livox/lidar` it can actually also be received across machines; it is just that the ros2 topic hz CLI behaves abnormally with your CustomMsg\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    }
+  }
+}

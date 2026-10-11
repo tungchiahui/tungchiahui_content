@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "00374d7d245a5e9533d03ce21be1f7dd1b0f295c5efb72b6c691c5c06c712fc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "31470a3aac9a5703473ba47e80732926747dc3dfb7e758d0afecae286b158f1a",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* true  --- 真（本质是1）\n* false --- 假（本质是0）",
+      "translatedText": "* true  \\-\\-\\- True (essentially 1)\n* false \\-\\-\\- False (essentially 0)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "0044e54e0c57b19eb0bbf3af92ed783cc135304b5be34b5f397ba1b6126924c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "22fabaade98193c3f610a7d0fe2cd082d206e54511062b4484966ad370db0c83",
+      "contextFingerprint": "0f3985c0332ddf4dafa39228c57bddf7a41b0e0ca0f30ba4c629290482d4d41b",
+      "sourceText": "源码还存在接口前提：两个输入分别回调，使用最近收到的里程计，没有时间配对、插值或“已获得有效里程计”的保护；输出参考系固定写成 `odom`，没有校验或变换输入参考系。上游位姿与坐标关系仍需核对，尤其会影响本块的高度窗口和动态候选判断。",
+      "translatedText": "The source code also has interface preconditions: the two inputs are called back separately, using the most recently received odometry, with no time pairing, interpolation, or protection for \"valid odometry obtained\"; the output reference frame is fixedly written as `odom`, with no validation or transformation of the input reference frame\\. The upstream pose and coordinate relationships still need to be verified, which will especially affect the height window and dynamic candidate determination of this block\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 97,
+        "costUsd": 0.000176
+      }
+    },
+    "004f0b3f7721f45dcdb565dfb2a16bc68935ff235d091c34e6eb38521bdec7ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfe4fa900aff5c1a24408e1e9fd8d2e87a6ec0ef8dabfae9e4a0f04fb97ba95d",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结2：利用指针可以记录地址",
+      "translatedText": "> Summary 2: Pointers can be used to record addresses\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "00c22d9c762f2c34f2c0bbfa2202ddca56636b09f86b271311c3815211998d5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "82eb7e419fc559ac989bf13a6f083d4e5fce3f71eb16ad19c7c6110a2294d88b",
+      "contextFingerprint": "d9bb6602c757e62d8c291fed6291a1c758a67e3588ec55b1e8a58c061032ae52",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image24.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image24.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "00cfe10515c2463a83cb5c191180876dbc8ed7b1408b72db3250fc29bf7a81ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c5097abd77ff0116b3d12309f5e96ddcb4a190b61fd120e2d387dd3bd8d0d71",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 收到前10帧，累计它们的点。\n2. 把每帧逐点时间调整到第一帧的起始时间。\n3. 第11次回调时，把累计点云放入处理队列。\n4. 这次回调收到的第11帧没有加入累计点云，然后计数清零。",
+      "translatedText": "1. Receive the first 10 frames and accumulate their points\\.\n2. Adjust the per\\-point time of each frame to the start time of the first frame\\.\n3. On the 11th callback, place the accumulated point cloud into the processing queue\\.\n4. The 11th frame received in this callback is not added to the accumulated point cloud, and then the count is reset to zero\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 81,
+        "costUsd": 0.000153
+      }
+    },
+    "00dc713df71a33d350eb7dba9d0af32cdb8fa5290b75d2ad013ccf2ca17ce561": {
+      "normalizationVersion": 1,
+      "sourceHash": "f340ddee9ee2ec6a48f53fdedad76bd0cfccc2348cca660e52bde282ae538aa7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两侧当前有这些区别：",
+      "translatedText": "The current differences between the two sides are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "00f64a38c644e85ca04afb143540a8fbe84052ec312a2d7822cec0d551664152": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf9614e532386bef3d520d3629d5ea76c4e26e286234797bbbdf584f12ae5c2c",
+      "contextFingerprint": "6fd6cdd53ddd9fb068ffa8ee6b5c10b28ad0bf9bc546325b8981b8c79005af48",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705209213.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705209213.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "180c216fa0133bf45b0695074ecefbc8489103470b990e4d10cec1d261d58459": {
+      "normalizationVersion": 1,
+      "sourceHash": "d600ce19902e0354164e85fa4fb46e2a63f9389282615fe1a0e68c51dcb9eba1",
+      "contextFingerprint": "f764e1d3206ab3876ab4fe1d7fc5be33a0660ca26db236eb01dbe5db5282b86c",
+      "sourceText": "## C 风格 I/O 与 C++ 流式 I/O",
+      "translatedText": "## C\\-style I/O and C++ streaming I/O",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 41,
+        "costUsd": 0.0001
+      }
+    },
+    "18259755af01f93b937667703d6b208d6f75f3d86fb828fab39dd9437366fafe": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb00e40945373b636ad8eb165d63de8e8f4b165078ee8235c55a9f4e82488704",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：所有指针类型在32位操作系统下是4个字节",
+      "translatedText": "> Summary: All pointer types are 4 bytes under a 32\\-bit operating system\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "18626fa1caf3e760b830ada2c9f2def0cdaed616458d97dc93c6ed1c16722bba": {
+      "normalizationVersion": 1,
+      "sourceHash": "34afc26e72a0bf998c21c5e76fbde7285ab6bf166bb5862582f5eabff16a7bc2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "传递方式有两种：",
+      "translatedText": "There are two transmission methods:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "18899b543bfa96c827cf91db2efb7b8832aad38c283d40c83ed429ec4129fa78": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3e98b8a0e9345cdddbcb47b3c837690ecfbd1891a1d839f8b843e5ce081e3b1",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 使用 vim .config，在开头添加一行（UA2F 插件需要）：",
+      "translatedText": "- Use vim \\.config, and add a line at the beginning (required for the UA2F plugin):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "18ad9778ead13a0577ba34f40da653b5b089d0292638013a93b7ebc90cce7129": {
+      "normalizationVersion": 1,
+      "sourceHash": "8aa4b10eb87274b884448a0e57ee0e8e369a742adb784469266eb1d21b8e2e44",
+      "contextFingerprint": "c7609ac1a562e5c0354f6516f1f757f5cd6ff66c1fd3caf451c80f43b48ee436",
+      "sourceText": "注意，这里的`<pose>0 0 0.055 0 0 0</pose>`里的`0.055`不是底盘高度。\n实际上是chassis 坐标原点 → 底盘质心 COM 的 Z 偏移。\n北极熊这套规定`chassis z=0 等于 轮轴中心平面`。\n所以如果机器人实际重量都在顶上，质心大概在高出轮轴中心平面 xxx mm的地方，那就填 `<pose>0 0 xxx 0 0 0</pose>`。",
+      "translatedText": "Note that the`<pose>0 0 0.055 0 0 0</pose>`here`0.055`does not refer to the chassis height\\. It is actually the Z offset from the chassis coordinate origin → chassis center of mass COM\\. This Polar Bear system specifies`chassis z=0 等于 轮轴中心平面`Therefore, if the actual robot weight is all at the top, and the center of mass is approximately xxx mm above the wheel axle center plane, then fill in`<pose>0 0 xxx 0 0 0</pose>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 80,
+        "costUsd": 0.000155
+      }
+    },
+    "18b8a2b1e1d06d7863cf2f99fad27d6032ffba14b7313a99ec8592e77d1b694e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a15fea2d7abc8cd69d9b491c7c64a6ecb7d2d840efef8d7ab5a5f67742252121",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 循环结构",
+      "translatedText": "### Loop structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "18d1006f200090551838ddd7b20a34d8fd0d7bf65156bcadb77c34100e7313c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "11c1dbb2c0ef3fda2fc115f9ad15276f390aec9bbc006b11c9ea2be2f3d8812b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**利用指针访问数组中元素",
+      "translatedText": "\\*\\*Purpose:\\*\\* Use pointers to access elements in an array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "18d4f42bd8ce81f13a6bbe09ab64231750b985fe691ed82a5f6981431d8c0f9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f15f890ccca5126d667c184cefe28df6eb9275fba0edab38a1718aced34fe7e7",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果：**",
+      "translatedText": "**Operation result:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "18d8f6f4a4dbd86a7783f193f51cfa58a23adf5857ea42cceb00755dc1afca64": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4b8c05da548f7970d398e169b98f8e4ccd448027708adcf1dad0b4664dbaea7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上位机这一步没有查询云台→底盘 TF，也没有处理不同原点之间的旋转速度补偿；上面的MCU公式仅解释平面方向换轴。原点偏置是否需要处理，要结合真实安装和下位机速度定义核对。",
+      "translatedText": "In this step, the host computer does not query the gimbal\\-to\\-chassis TF, nor does it handle rotational speed compensation between different origins; the MCU formula above only explains the axis swapping for planar directions\\. Whether origin offset needs to be handled must be verified against the actual installation and the lower\\-level controller's speed definitions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 73,
+        "costUsd": 0.000141
+      }
+    },
+    "18db912970d5f5cb46120fd96f1968f02dc4fed0beb9de4690851a7d13df11d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc929213202175809a6421748948240dc7082ea8edd17cd7c60e42a673212661",
+      "contextFingerprint": "7f8c10717a7de981aec28b72cc2508130d7c067a67f339dd9a447f2cd0e48cb5",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705255118.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780705255118.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "18eb4c1f843abd81fff7eb3099a394f00f33aa5073d72d6178bcba8c5394cfd4": {
+      "normalizationVersion": 1,
+      "sourceHash": "c203352b1f689ef05a9158399d03ff9aa5b594d72e7e339ddf47236ce0abf4b7",
+      "contextFingerprint": "30fbcb3e534941e125c985a9edd3cf1bca6f34aab24ca9795b9a9a9fbf1d8401",
+      "sourceText": "1. 安装 OpenWRT SDK，并设置环境变量\n2. 在任意目录下，创建一个新的文件夹，用于存放你的应用程序代码\n3. 在该目录下，创建 `Makefile` 文件，并按照以下结构填写相应内容：",
+      "translatedText": "1. Install the OpenWRT SDK and set up environment variables\n2. In any directory, create a new folder to store your application code\n3. In that directory, create the `Makefile` file and fill in the corresponding content according to the following structure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 53,
+        "costUsd": 0.000116
+      }
+    }
+  }
+}

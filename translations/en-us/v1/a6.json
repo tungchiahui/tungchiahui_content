@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a60c06dc12d2aba9ec0f91046a74d6c2991c6a3b0399465fb1f5bde92ce43aec": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc6f8319f02debcb6fa064265cc6a6ee5db534cb03bf784ddfcc06210d983e5d",
+      "contextFingerprint": "2e34e1c317e74aaf5c30a7e02addab380622a45b7e2a9c1e482772d75a71bac4",
+      "sourceText": "- `pb2025_nav_bringup`里的`rm_navigation_reality_launch.py`\n  - 同功能包下的`robot_state_publisher_launch.py`\n\n\n- `rmu_gazebo_simulator`里的`bringup_sim.launch.py`\n  - 同功能包下的`spawn_robots.launch.py`\n  - 同功能包下的`package.xml`\n\n- `robot_description`里的`robot_description_launch.py`",
+      "translatedText": "- `pb2025_nav_bringup`in`rm_navigation_reality_launch.py`\n  - under the same functional package`robot_state_publisher_launch.py`\n\n\n- `rmu_gazebo_simulator`in`bringup_sim.launch.py`\n  - under the same functional package`spawn_robots.launch.py`\n  - under the same functional package`package.xml`\n\n- `robot_description`in`robot_description_launch.py`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "a612e8a7d8c7167cbc7904a2d33b095136210cd648d2154f4248713824c861a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "0985ee70bcd98070beb7632b88f6282ad1cfa7b305dff904a5ee679eae56ad4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类在设计时，可以把属性和行为放在不同的权限下，加以控制",
+      "translatedText": "When designing a class, attributes and behaviors can be placed under different access levels to control them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "a61c002640c9e52d9573e8f37b04f633cd05d2e4b8321973ebb39d24fe3a0b0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0a4b96f82170f3f2aaadcfea9d971df0aeb0fa3694f2a068fe7c512ef7d93b1",
+      "contextFingerprint": "062864915f0d202983f15f1901b5f27402876163a8b200f5e766676a16e2280e",
+      "sourceText": "| 功能 | xacro | xmacro |\n|---|---|---|\n| 定义变量 | `<xacro:property name=\"r\" value=\"0.1\"/>` | `<xmacro_define_value name=\"r\" value=\"0.1\"/>` |\n| 使用变量 | `${r}` | `${r}` |\n| 数学表达式 | `${2 * r}` | `${2 * r}` |\n| 定义宏 | `<xacro:macro name=\"wheel\" params=\"r w\">` | `<xmacro_define_block name=\"wheel\" params=\"r w\">` |\n| 调用宏 | `<xacro:wheel r=\"...\" w=\"...\"/>` | `<xmacro_block name=\"wheel\" r=\"...\" w=\"...\"/>` |\n| include | `<xacro:include filename=\"xxx.xacro\"/>` | `<xmacro_include uri=\"file://xxx.xmacro\"/>` |\n| 条件 | `<xacro:if value=\"${...}\">...</xacro:if>` | 主要通过 `<xmacro_block ... condition=\"${...}\"/>` |\n| namespace | `xmlns:xacro=...` | 不需要 |\n| 参数默认值等高级功能 | 较丰富 | 简化很多 |",
+      "translatedText": "| Function | xacro | xmacro |\n|---|---|---|\n| Define variables | `<xacro:property name=\"r\" value=\"0.1\"/>` | `<xmacro_define_value name=\"r\" value=\"0.1\"/>` |\n| Use variables | `${r}` | `${r}` |\n| Mathematical expressions | `${2 * r}` | `${2 * r}` |\n| Define macros | `<xacro:macro name=\"wheel\" params=\"r w\">` | `<xmacro_define_block name=\"wheel\" params=\"r w\">` |\n| Invoke macros | `<xacro:wheel r=\"...\" w=\"...\"/>` | `<xmacro_block name=\"wheel\" r=\"...\" w=\"...\"/>` |\n| include | `<xacro:include filename=\"xxx.xacro\"/>` | `<xmacro_include uri=\"file://xxx.xmacro\"/>` |\n| Condition | `<xacro:if value=\"${...}\">...</xacro:if>` | Mainly through `<xmacro_block ... condition=\"${...}\"/>` |\n| namespace | `xmlns:xacro=...` | not required |\n| Advanced features such as default parameter values | Relatively rich | Much simplified |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 59,
+        "costUsd": 0.000124
+      }
+    },
+    "a626b155856020522dc06e19ab6d5032551846f35f4ccafa6f528adb88f91a34": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8b433ea8099f38cfd99b78e9d3928b6f6fc292392b2b0e110dd085cd9fd597c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**在==循环语句==中，跳过本次循环中余下尚未执行的语句，继续执行下一次循环",
+      "translatedText": "\\*\\*Purpose:\\*\\* In an ==iteration statement==, skip the remaining statements in the current iteration that have not yet been executed, and proceed to the next iteration\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
+    "a63508413167d91fd98a830c57b44dc34df839dff418be22ef99ac958f3174be": {
+      "normalizationVersion": 1,
+      "sourceHash": "022ee661e929c95ed91a705d8eaae6a6deca3a0cb54d340386b15c230ef6cd2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前20 m表示收到清图事件后，删除水平距离小于20 m的自身缓存点。平时没有自动执行，也不是最大输出范围。",
+      "translatedText": "The current 20 m means that after receiving a map\\-clearing event, cached points of the vehicle itself with a horizontal distance of less than 20 m are deleted\\. It is not automatically executed during normal operation, nor is it the maximum output range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 57,
+        "costUsd": 0.000117
+      }
+    },
+    "a66cb676dbdbbccabca87f4dbbecbed1f1a88c4034598e3a3ee271b7d17c2069": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ceff8163327569def2473c832cde48ace1dd5a1002344698560c7ae9533ade5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "基本界面配置：",
+      "translatedText": "Basic interface configuration:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a67b95d542d904329f035f6aea2833aa9ab6edf27bfacde1d6dfc3d9a73e208f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f93aed3faf28ab0038eade970971fb300a8d423d057d80165734eb4c87d8143",
+      "contextFingerprint": "97b085697ea0bf29184602f392d0431a99341bba6f11d0a7cd2acf0294cbadd2",
+      "sourceText": "| 头文件 | 谁来包含 | 是否需要 `extern \"C\"` |\n|:---|:---|:---|\n| `cpp_interface.h` | `main.c` 和 `cpp_interface.cpp` | 需要，因为它是 C/C++ 边界 |\n| `swap/swap.h` | `swap.cpp` 和 `cpp_interface.cpp` | 不需要，因为它是纯 C++ 头文件 |",
+      "translatedText": "| Header file | Who should include it? | Is it necessary to include `extern \"C\"` |\n|:---|:---|:---|\n| `cpp_interface.h` | `main.c` and `cpp_interface.cpp` | Yes, because it is a C/C\\+\\+ boundary |\n| `swap/swap.h` | `swap.cpp` and `cpp_interface.cpp` | No, because it is a pure C++ header file |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 64,
+        "costUsd": 0.000131
+      }
+    },
+    "a67bc96cce6bae029545e0912d5feacb87e337b7faf60883077900a874f5edae": {
+      "normalizationVersion": 1,
+      "sourceHash": "f53bac22ef5f7ea1ac0df66e3f27d7ef03cd0a55dc4980a637b80f4d6343a88f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是咱们没有大小yaw结构的话：",
+      "translatedText": "However, if we do not have the large and small yaw structure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
+    "a697d284ab0993debdf60955e368d314170825cc13ec608f0b423adb9749b3e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "dae66f0936f5cf493a5fc8160659dde4956d234e35d19ba12fc366990818a897",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例",
+      "translatedText": "Example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "a6c18d9fed7050b6a6866dfd6491b2a7c2c4f4de4c638bffb7e4aee1562c45b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d22f3e0154165c06a44738ce5a2a2d66ddec637160ed36f86f58d46c2f3b2d9",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## MaskGWM — CVPR 2025",
+      "translatedText": "## MaskGWM — CVPR 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a6c7875f3b9619f6d81e6715790d555649ee8727521aafc2dd5e862489e7f03c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8266c810779a92502e5c3c57d4d859d18541848acaa0615784d87be24f81d16b",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 使用一个已经创建完毕的对象来初始化一个新对象\n* 值传递的方式给函数参数传值\n* 以值方式返回局部对象",
+      "translatedText": "* Use an already created object to initialize a new object\n* Pass values to function parameters by value\n* Return a local object by value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "a6c9a0f063278ab3866c4c0e350fca93dba257a758fa8cf45e991be967384ad4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0febfb3bff2341679c97c771e8645a74f9af58647f47b20ce4cca3ec04a6e1dc",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 安装VScode",
+      "translatedText": "## Install VScode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a6f0d677a667ce6ba250ce66942c4e13b8d209cf20208155cc0626ea5f3da819": {
+      "normalizationVersion": 1,
+      "sourceHash": "a96e6a120101568880ec458990c830179552f0b5b1cf1cc4e36fe5718ee6ed6d",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 将属性和行为作为一个整体，表现生活中的事物\n* 将属性和行为加以权限控制",
+      "translatedText": "* Take attributes and behaviors as a whole to represent things in life\n* Apply access control to attributes and behaviors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "a6f9a1e4e6f55813b8f3d88ff8ba1052f2a279f132dc316154c94aed55f8b8cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "64e3d13bd07479d30320f7fb9e289f3d9f70aa80be0c323bfb0c7c3cd742b403",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前先保持 True。后续若输出和接收负载过高，再考虑 False；改变的是输出节拍，逐点估计与点云降采样仍然执行。",
+      "translatedText": "For now, keep it as True\\. Later, if the output and received load becomes too high, consider False again; what changes is the output cadence, while per\\-point estimation and point cloud downsampling are still performed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1d495b80f7e6eedb2d732e47e87cad74bd91ad577080aad709d2d0ad81234650": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e69f5e0c9874172dfa735c5134762d3d28c15740319e408a3b60b6d3f977f5f",
+      "contextFingerprint": "ce2353032dd7d80d638d0e767e0f951f7ddf1b28e7e722fbdc3ac5a26dda1da8",
+      "sourceText": "与上一块不同，扩展节点在入缓存、缓存更新、选地面和自身远场输出时，都使用这个随距离扩大的窗口；没有在最终输出时退回固定上下界。`disRatioZ=0.2` 表示每增加1 m水平距离，上下各放宽0.2 m，不代表允许的坡度或坡面识别结果。",
+      "translatedText": "Unlike the previous block, the expanded node uses this distance\\-expanding window when entering the cache, updating the cache, selecting the ground, and outputting its own far\\-field; it does not revert to fixed upper and lower bounds at the final output\\.`disRatioZ=0.2` This means that for each additional 1 m of horizontal distance, the upper and lower bounds are each relaxed by 0\\.2 m; it does not represent the allowed slope or the slope surface recognition result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 99,
+        "costUsd": 0.000179
+      }
+    },
+    "1d5c44f88386d769f9fb3c92242521910806faa9f72725bdcc7bf20ab19b1cd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d006df3fc644c13bfbfdbf53c073563d30997f66e8d309093e7ad0d52732579e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是 yaw 旋转轴中心 → pitch 旋转轴中心的垂直距离。",
+      "translatedText": "That is, the vertical distance from the center of the yaw rotation axis → the center of the pitch rotation axis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "1d8c78d4dc95a19c04208dd92cdaedbcc8b0ed682263a9879a0186c2aa9e7c79": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7359674ebcee2b927dc358ca3c1a9f8d07cc8dff36665e788fb44eb1b8d11ac",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 读取时机与验证范围",
+      "translatedText": "###### Read Timing and Verification Scope",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "1db5214799440a21be3e4a52ee32804bf1539eca33d3f10eb847f8db8d85c543": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e4872c2a7ea760b422c35f1ff76495008816b78a2cfe6b639da79b5ae5831a0",
+      "contextFingerprint": "9d4513f3aa9963aed8070c4f9486f45b98da0e9ce7962658a7ca458e879c1907",
+      "sourceText": "1.  **静态存储区（全局区）** ：可以分为rodata区data区和bss区，已经初始化的只读常量被放在rodata,已经被初始化的非零变量被放在data区;没有被初始化的或者值为零的变量被放在bss区，通常默认初始化为 0(表示数字的数据类型)，'\\\\0'(char类型) 和 NULL(指针类型)。\n\n2.  **栈区（stack）** ：局部变量被存放在该区，如果不初始化局部变量，那么局部变量是随机值。容量很小。\n\n3.  **堆区（heap）** ：由程序员开辟内存空间给变量，由程序员分配和释放，如果程序员不进行释放内存，则会内存泄漏，当程序结束后，系统会帮忙释放没有被释放的内存。\n\n4.  **代码区** ：存放 CPU 执行的机器指令，通常是只读的。",
+      "translatedText": "1.  **Static storage area (global area)** : It can be divided into the rodata area, the data area, and the bss area\\. Initialized read\\-only constants are placed in rodata, and initialized non\\-zero variables are placed in the data area; variables that are not initialized or whose value is zero are placed in the bss area and are usually initialized by default to 0 (for numeric data types), '\\\\0' (char type), and NULL (pointer type)\\.\n\n2.  **Stack area (stack)** : Local variables are stored in this area\\. If local variables are not initialized, then the local variables contain random values\\. The capacity is very small\\.\n\n3.  **Heap area (heap)** : Memory space is allocated to variables by the programmer and is allocated and freed by the programmer\\. If the programmer does not free the memory, a memory leak will occur\\. When the program ends, the system will help free memory that has not been freed\\.\n\n4.  **Code area** : Stores the machine instructions executed by the CPU and is usually read\\-only\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 302,
+        "outputTokens": 218,
+        "costUsd": 0.000353
+      }
+    },
+    "1db577a9ed1024ab3b602563c40396bf30ff21ca147a1f388121bcc24cb6cee6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c0bc6726e870c510e603ba7d59e173419b378f87acaf4263ae0bc006169468f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本地实现实际搜索的网格数包含中心网格：",
+      "translatedText": "The number of grids where the local implementation actually performs the search includes the center grid:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "1dca6841cb842b9d418ffc25c6b7cddf8dead6abb71abca3492c9597c7d0c8d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "33e54f94632e21c48e3927323bce167dd85845167f27797644eea8575c3c3429",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "进行一些设置，按我的来就可以",
+      "translatedText": "Just make some settings, follow my lead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "1de5649b06eb24bc4b874c9e105976bdae6a33a39d86ef32ec1376471c17bf24": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c40274dff0c49f697464caa9760da38ab626e11da6d05d8a2168f4530dbbf84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还原 OpenWrt 源码到初始状态（可选）：",
+      "translatedText": "Restore the OpenWrt source code to its initial state (optional):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    }
+  }
+}

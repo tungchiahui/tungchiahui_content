@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d817f7881313d388f06846574f252b47b99747e3578e00a2c098110104227a16": {
+      "normalizationVersion": 1,
+      "sourceHash": "8da91d36f81871ff061305d23e1cb739a31df90719d33d93e643d8851cc05624",
+      "contextFingerprint": "25ab06fc1aa3b54bbabcbb3b434bd63a0b6b2a8b29be57eb6f94c77c39a19e94",
+      "sourceText": "本轮在 `ysu_ros_humble` 中只查询环境、安装路径与文件，确认独立 launch、导航 launch和两份 YAML 与当前源码文件一致，并核对Humble时钟默认类型；没有启动节点、发送上述消息或进行运动测试。",
+      "translatedText": "In this round, only the environment, installation path, and files were queried in `ysu_ros_humble`, confirming that the standalone launch, navigation launch, and both YAML files are consistent with the current source code files, and verifying the default clock type for Humble; no nodes were launched, the above messages were not sent, and no motion tests were performed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 77,
+        "costUsd": 0.000147
+      }
+    },
+    "d82aefe8cb86d75d49cbc3ec5b214aac1db8a0a0c9f4d17f1f8695fc4fbe4e36": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0438d7068531aff75fd5c104962f3fde0b279b50908b4452732afa1d12f8eac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即使desktop文件已经修改，KDE任务栏中原来固定的图标仍可能保留旧启动信息。因此还需要：",
+      "translatedText": "Even if the desktop file has been modified, the original pinned icon in the KDE taskbar may still retain old launch information\\. Therefore, you also need to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "d837d1c781e27588355782afa685403b999b35a5eae6b02922a50a2b20e8831c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec9ab723d4d7d37913ada5be48a78e343b2239caf9e0a399a748d1c223b19069",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**用于执行代码的运算",
+      "translatedText": "\\*\\*Purpose:\\*\\* Operations used to execute code",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "d8478b72dbb718933868c6ccb867949c485e8b0abac22dfd25ad37f75f3fbe38": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dec22df0b5db4efdc318f61e694ff2d65ea1d1a010d72d309e6706480251f6e",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：同名静态成员处理方式和非静态处理方式一样，只不过有两种访问的方式（通过对象 和 通过类名）",
+      "translatedText": "> Summary: Static members with the same name are handled in the same way as non\\-static ones, except that there are two ways to access them (through an object and through the class name)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 45,
+        "costUsd": 0.000101
+      }
+    },
+    "d851fe44adeffd3456b0d47e68f1d72cb180feb3915269eef725772f24742a30": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3752aec8fcab86aa493ccd54c02bb53d3336b45578ff26e72583d82d6fbc5ee",
+      "contextFingerprint": "850d70285642d3c71e266eb6560ba73e0770d1e8d54de8f20bd86eac228631a2",
+      "sourceText": "当前值obstacle_scan是相对名称：默认空命名空间下为`/obstacle_scan`；若节点在/sentry命名空间中，则为`/sentry/obstacle_scan`。前面的转换器输出也使用相对名称，需在一致的命名空间和重映射下接通。",
+      "translatedText": "The current value obstacle_scan is a relative name: in the default empty namespace it is `/obstacle_scan`; if the node is in the /sentry namespace, it is `/sentry/obstacle_scan`\\. The preceding converter output also uses relative names and must be connected under a consistent namespace and remapping\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 68,
+        "costUsd": 0.000137
+      }
+    },
+    "d8a2534c907df12b32a467168359be4473c35af2a46b5c57d89601007f9595c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef762f1689580d6941a2c496fb9d02b1b1480c58969371b7de220185446784cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以可以在宏参数中进行简单数学运算。",
+      "translatedText": "Therefore, simple mathematical operations can be performed in macro parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "d8b83139c6947ccfad8e2bb66a88f9e5c62610a04b111a9d960fd6496d7d01a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc980513d39eaed16335d23a11bad1c56e2c962b4f491ed295b77d8a7bb3cb34",
+      "contextFingerprint": "a881a79f12d9cfdcd0fee0f4e9ea89f1c849c105a16de5bde52b38b07c94abd1",
+      "sourceText": "**运行结果：** 程序触发未定义行为，本次运行收到 `SIGSEGV` 后异常终止，没有可靠的正常输出。",
+      "translatedText": "**Run result:** The program triggered undefined behavior; this run received `SIGSEGV` and then terminated abnormally, with no reliable normal output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "d8bfebf4cf513e9e3612c1ed666a706a3a4908dfa0d2a4f87689bac69ceb30c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf7e6de765d5cf57969d6976060f6ba2bfc03e9eb64a01d9472aef690b0e28be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**优点：**可以简化指针修改实参",
+      "translatedText": "\\*\\*Advantage:\\*\\* It can simplify modifying the actual argument via a pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "d8d7cfdbf9de3acf37f883305ed2dc58868b82d734f059f6ba45887ead0076e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f7e3d895fd971680b1099f3b7680895c9103cd69ee5f336526cee0db5f333b5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个选择在普通 PointCloud2 分支中使用。例如 Velodyne 的 time、Ouster 的 t 会经过相应换算。",
+      "translatedText": "This selection is used in the normal PointCloud2 branch\\. For example, Velodyne's time and Ouster's t undergo the corresponding conversion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    }
+  }
+}

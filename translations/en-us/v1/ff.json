@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ff059186873eee21e5e3d0d92ca82811bcd71cbf96933ca583822e5e1384b509": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8cfcf1af99406712e8181479388298761fbea1601b9c136dbeddf1dfc7beeba",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 测试mid360是否正常开启",
+      "translatedText": "#### Test whether the mid360 starts normally",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "ff1b54e9752d50ca5d32f26e066dff7db93871dca523811e94f949f408b02e80": {
+      "normalizationVersion": 1,
+      "sourceHash": "a45d63e45957ac1ed6d755c9f19c7f146c58ccccb075064d6ec403a9f5b169a4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### NavWAM",
+      "translatedText": "### NavWAM",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ff247b782e92688151566cef81467491daf93d599993bca27d526399a8bea888": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bd7921fee9eaa26c9c33a3ead0b5fe56b6be2e27b6eae71d50265178321b6b5",
+      "contextFingerprint": "b712846ba3de4bb14f4036fbdee0b216f30beab463b5a27973cf50f57fad904c",
+      "sourceText": "| 你看到的现象 | 先看哪些参数 | 用直白的话解释 |\n|---|---|---|\n| 正常坡被画成障碍，小车不愿意走 | `useSorting`、`quantileZ` | 系统要先给每一小片区域选一个“地面高度”。选得太低，斜坡较高的一侧就可能看起来像凸出的障碍。当前 True、0.2是在采用较低的一档高度估计地面，不是开启了“允许上坡” |\n| 上坡远处的地面点消失 | `maxRelZ` | 当前地面点若高到输入雷达位置上方0.5 m之外，会被过滤。要检查坡是不是被这个上限截掉，而不是一看到不上坡就改排序开关 |\n| 下坡远处的地面点消失 | `minRelZ` | 当前地面点若低到输入雷达位置下方1.5 m之外，会被过滤。这个下限影响系统能不能继续看到较低处的坡面 |\n| 下坡较低部分被当成坑或落差 | `considerDrop` | True 会把“低于这一小片估计地面”的点也按高差处理，可能识别坑，也可能误判正常坡。当前 False没有打开这种处理，不表示禁止下坡；它也会忽略一部分真实凹陷 |\n| 坡上的小高差被当成障碍 | 下游 `min_obstacle_intensity` | 当前局部代价地图采用0.1 m，也就是10 cm的高度差下限。满足其他条件时，达到或超过这个门槛的点可能被画成障碍。这项在后续代价地图参数块中，不是本节点的参数 |\n| 改了 `disRatioZ`，远处坡点仍然消失 | `disRatioZ` 与上面的高度上下限 | 它只在前面的缓存筛选中放宽高度范围，最后输出仍受 `minRelZ/maxRelZ` 限制，所以不能简单靠调大它解决坡点丢失 |",
+      "translatedText": "| The phenomenon you observed | Which parameters to check first | Explain in plain terms |\n|---|---|---|\n| A normal slope is drawn as an obstacle, and the vehicle is unwilling to drive | `useSorting`、`quantileZ` | The system must first choose a \"ground height\" for each small patch of area\\. If it is chosen too low, the higher side of the slope may appear as a protruding obstacle\\. The current True, 0\\.2 is using a lower height estimate for the ground, not enabling \"allow uphill\" |\n| Ground points at a distance on an uphill slope disappear | `maxRelZ` | If the current ground point is higher than the input radar position by more than 0\\.5 m, it will be filtered out\\. Check whether the slope is being cut off by this upper limit, rather than changing the sorting switch as soon as you see it will not go uphill |\n| Ground points at a distance on a downhill slope disappear | `minRelZ` | If the current ground point is lower than the input radar position by more than 1\\.5 m, it will be filtered out\\. This lower limit affects whether the system can continue to see the lower slope surface |\n| The lower part of a downhill slope is treated as a pit or drop | `considerDrop` | True will also process points that are \"below the estimated ground for this small patch\" according to height difference, and may identify a pit, but may also misjudge a normal slope\\. The current False does not enable this processing, which does not mean downhill is prohibited; it will also ignore some real depressions |\n| Small height differences on a slope are treated as obstacles | Downstream `min_obstacle_intensity` | The current local costmap uses 0\\.1 m, that is, a height difference lower limit of 10 cm\\. When other conditions are met, points that reach or exceed this threshold may be drawn as obstacles\\. This item is in the subsequent costmap parameter block, not a parameter of this node |\n| Changed `disRatioZ`and the distant slope points still disappear | `disRatioZ`and the upper and lower height limits above | It only relaxes the height range in the previous cache filtering, and the final output is still subject to `minRelZ/maxRelZ`restrictions, so you cannot simply solve the loss of slope points by increasing it |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 457,
+        "outputTokens": 438,
+        "costUsd": 0.000663
+      }
+    },
+    "ff4775aab2bf4c4d15b2964adf74bc8f6b0166daaa0f9e33b9dd78aadec21571": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc40c8c583b0aa090367133d310639e79180b10881afd80da3ab94c0fa06f49a",
+      "contextFingerprint": "c2d1a64365c1c7d60d1b7e29f71189931ca0a3409ab1b2d6adc9ab0d090794fa",
+      "sourceText": "## 结构体在 C 和 C++ 中的写法差异",
+      "translatedText": "## Differences in struct syntax between C and C++",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "ffa6cd7377c605a1be2a2e954836aeb98348608f74011f14d968a2957bd9b6ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "cab91c244429d419eae1295e4448bbb4d2f4470e60290e8550736924189454a3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 引用的基本使用",
+      "translatedText": "### Basic usage of references",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "ffb4ec5dd998179c0ac1e3b8d23a031e5e869d244b799c40e16cd2f64416f12f": {
+      "normalizationVersion": 1,
+      "sourceHash": "00115b9574618c6b047defb5fd6fa7f2ce60fd7dd7989a1246191d05b3cd571c",
+      "contextFingerprint": "a2d4d1f2ca031ad57feb770e4c3a70e6b8f77fe6e35a898f05ecbd15eaa84f70",
+      "sourceText": "###### base_frame 与 lidar_frame：启动时会转动整份地图",
+      "translatedText": "###### base_frame and lidar_frame: at startup, the entire map is rotated",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
+    "ffd32d88a0f040d286ea4a22e89f26d5f6c05d86ea5ea8dbce84479fe46ce306": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bac90884f0780bc41af140166109a660b1db5cf2a62b1bcb97714e383cc5b69",
+      "contextFingerprint": "b899a03c975e10e22c9d2cbe2e65ff66f793ce37774b5ce286f1fe54def2b7c3",
+      "sourceText": "实时点云已经由Point-LIO与接口节点配准到 `odom`，本节点直接累加坐标，不再逐帧转雷达系，也不额外按云台yaw旋转这些点。云台旋转时，静态环境应仍在共同的odom坐标下对齐；这个结论依赖上游位姿、安装外参和时间接口正确，目前没有独立yaw验证。",
+      "translatedText": "The real\\-time point cloud has already been registered by Point-LIO and the interface node to `odom`\\. This node directly accumulates coordinates, no longer converting to the radar frame frame by frame, nor additionally rotating these points by the gimbal yaw\\. When the gimbal rotates, the static environment should still be aligned under the common odom coordinates; this conclusion depends on the correctness of the upstream pose, installation extrinsics, and time interface, and there is currently no independent yaw verification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 114,
+        "costUsd": 0.000201
+      }
+    },
+    "ffe358c56446429ee81c8fef637da7f07914c386d883b17449987c1af22abe4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "8374e1e73ca5bc9af84f700be03bbded5e89007136ba7d66177e22954e643144",
+      "contextFingerprint": "8d2985da26963e25b75599fc1b0152cf6f155c86b2cfa153f991e45801582f41",
+      "sourceText": "若target_frame设空，源码不转换点，直接在输入系中计算。当前输入为odom，这就变成以odom原点和方向作虚拟中心；机器人移动后，它不等价于仍以底盘为中心投影。",
+      "translatedText": "If target_frame is left empty, the source code does not transform points and directly computes in the input frame\\. The current input is odom, which then becomes a virtual center based on the odom origin and orientation; after the robot moves, it is no longer equivalent to still projecting with the chassis as the center\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 78,
+        "costUsd": 0.00015
+      }
+    },
+    "fff1f94077423e437e8aed917a8bfcf773abf1a441d26bd2fdb57b0966f35ffe": {
+      "normalizationVersion": 1,
+      "sourceHash": "4690c797b54fdf12e53862c0a97756fd3ed95dfee3a89a374f707335e1bd2de0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t隐式转换法",
+      "translatedText": "​\tImplicit conversion method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "b0004f3641128573f1e8f28109bf688e9b079b5a88758d4d222dd8c820c7588c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7bf92ffc02badfb5ca73d6dcb24391edf966753b0f1442f4937bd6b67891ede",
+      "contextFingerprint": "e4340c8e64da59e37c93fc4ece058caf08d75454a73810766515dd822ba50549",
+      "sourceText": "| asm        | do           | if               | return      | typedef  |\n| ---------- | ------------ | ---------------- | ----------- | -------- |\n| auto       | double       | inline           | short       | typeid   |\n| bool       | dynamic_cast | int              | signed      | typename |\n| break      | else         | long             | sizeof      | union    |\n| case       | enum         | mutable          | static      | unsigned |\n| catch      | explicit     | namespace        | static_cast | using    |\n| char       | export       | new              | struct      | virtual  |\n| class      | extern       | operator         | switch      | void     |\n| const      | false        | private          | template    | volatile |\n| const_cast | float        | protected        | this        | wchar_t  |\n| continue   | for          | public           | throw       | while    |\n| default    | friend       | register         | true        |          |\n| delete     | goto         | reinterpret_cast | try         |          |",
+      "translatedText": "| asm        | do           | if               | return      | typedef  |\n| ---------- | ------------ | ---------------- | ----------- | -------- |\n| auto       | double       | inline           | short       | typeid   |\n| bool       | dynamic_cast | int              | signed      | typename |\n| break      | else         | long             | sizeof      | union    |\n| case       | enum         | mutable          | static      | unsigned |\n| catch      | explicit     | namespace        | static_cast | using    |\n| char       | export       | new              | struct      | virtual  |\n| class      | extern       | operator         | switch      | void     |\n| const      | false        | private          | template    | volatile |\n| const_cast | float        | protected        | this        | wchar_t  |\n| continue   | for          | public           | throw       | while    |\n| default    | friend       | register         | true        |          |\n| delete     | goto         | reinterpret_cast | try         |          |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b000598f5fd37b66d160e8a5feb6f784a3d356f95910cf1e45af9652330e41e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f692d7d1322e5bd73a73d0718fb42b6d6c183e6b37088f0c37c43b20ae00d55",
+      "contextFingerprint": "d0c9579b7467eeedc9eed54090f1184cc4d0d6eab5c871f5fffe0de4bb2b719f",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712086586.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712086586.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b021abf0ee5d6e6c8e4ccf7af900c8ece063cec0f42f072433d52af5b475f95a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8390e8c3e62c55b224088eba4c3f322bcfa3d72831daca99160c4a842a9e0e0",
+      "contextFingerprint": "661c43e456b20d7d478b0e43f5a910040fa4c7587b63010247d164adf1c65d00",
+      "sourceText": "前12项对应当前实物 YAML；`prior_pcd_file` 虽被注释，却由 launch另行传入；`input_cloud_topic` 没写在这份 YAML中，仍使用源码默认值。这两项也列出，便于完整理解输入来源。",
+      "translatedText": "The first 12 items correspond to the current physical YAML;`prior_pcd_file` although they are commented out, they are passed in separately by launch;`input_cloud_topic` they are not written in this YAML and still use the source code default values\\. These two items are also listed to facilitate a complete understanding of the input sources\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 68,
+        "costUsd": 0.000135
+      }
+    },
+    "b05301c0d14c1bc7c6895c96273bc18ee2d9663ad2061a7ef458b0bc3689891e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff4ee904251f01f0797de76eba638859e13b494b833bd417fbab5dadf4eaf19b",
+      "contextFingerprint": "d338c0aad3e2d20724e70a770633d4474bdc7c0ad15461e5dc0e65b75ae615c0",
+      "sourceText": "初始化地图使用的是预处理后的点云，并没有直接使用经过 filter_size_surf 体素降采样的那份点云。",
+      "translatedText": "The map initialization uses the preprocessed point cloud, and does not directly use the point cloud that has undergone filter_size_surf voxel downsampling\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
+    "b09952d13c3c6491cd6eba865e0e0cdff32fcdb3595ac8438121c2b46e0ff1c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "76c5c5159541857218b591e784b4344649d0ad1f57120eede1d0631907d72b73",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编译",
+      "translatedText": "Compile",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "b0b5fea24ee5c2ee048708229a6f311ba9d6e156142e18f78e796b5d964359af": {
+      "normalizationVersion": 1,
+      "sourceHash": "34d25b1e6837cd5b873a8980efae7296bab5648a7419031c5e2b63e8b6b6156c",
+      "contextFingerprint": "bc05a7ff121edc3b6e49e83d291d165407db4a7b727369519e4bc959f149188c",
+      "sourceText": "###### extrinsic_R（雷达与内部IMU的轴向关系）",
+      "translatedText": "###### extrinsic_R (axial relationship between the radar and the internal IMU)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "b0c08e9e02cf7d9fc630d94c74d63844cb8e863a919f26ccc253bedbeb04f893": {
+      "normalizationVersion": 1,
+      "sourceHash": "985e9b08a1c5051b7823225f09cd2a2feb032676f04a0afcde51a3a1026de888",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "​\t\t代码区是**共享**的，共享的目的是对于频繁被执行的程序，只需要在内存中有一份代码即可",
+      "translatedText": "The code region is**shared**The purpose of sharing is that for frequently executed programs, only one copy of the code needs to exist in memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    }
+  }
+}

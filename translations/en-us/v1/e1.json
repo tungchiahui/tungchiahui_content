@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e1067ca9d9988eaa4bc135bf549f16a63f3ef45c607697c59906919cee83d410": {
+      "normalizationVersion": 1,
+      "sourceHash": "9af1fb96e3865fc5cf2f57604e96c0e9c7550580ce2d0b266587e8374f6eac5a",
+      "contextFingerprint": "cf09de26e3354ec15599edb9c0141bfa98eb25b9035280dad79f982485cabe34",
+      "sourceText": "MID360 固定在 `gimbal_yaw`，雷达→yaw 云台层的安装关系固定；雷达→底盘关系则包含实际机械 yaw，随关节角变化。实际 pitch 在 `gimbal_pitch_joint`，位于雷达挂载层之后，不应进入雷达到这两个目标系的机械变换。两个 odom 关节保持固定，JointState 继续使用 `{relative_pitch, relative_yaw, 0, 0}`。",
+      "translatedText": "The MID360 is fixed at `gimbal_yaw`\\. The installation relationship from the LiDAR to the yaw gimbal layer is fixed; the LiDAR\\-to\\-chassis relationship includes the actual mechanical yaw and varies with the joint angle\\. The actual pitch is at `gimbal_pitch_joint`\\. It is located after the LiDAR mounting layer and should not enter the mechanical transformation from the LiDAR to these two target frames\\. The two odom joints remain fixed, and JointState continues to use `{relative_pitch, relative_yaw, 0, 0}`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 101,
+        "costUsd": 0.000182
+      }
+    },
+    "e11a525633711b93d18acadd360f0919d9e8516a1b54aac09b7ee68622aa8aae": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e9f35594f861e655b155faeca766cd093c1b9925c2d23d6d12fc6012107a1be",
+      "contextFingerprint": "50b93dd917dc43e3bc0ad0f04c6aeee71b9a8881f031882468ed14ed8233e9dd",
+      "sourceText": "###### path_en（里程计轨迹发布）",
+      "translatedText": "###### path_en (odometry trajectory publication)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "e16780e5ea1c624ae4874a362d4a9ec26fd0937de02ed5d8f27d665b416eaee6": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a35e48ae1fcc4796d42824865e6ed3a56808db4a3fcbab981e048e752b49baf",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 二维数组定义方式",
+      "translatedText": "#### Definition methods of two\\-dimensional arrays",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "e1a3ea4713b1c3293811d17cd63d350ad89c682aaf17fa41a090db26146c9d6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca1cab4017577921d2b6251ebfe134ff49455dbefa130c3cc6c8491ea2334c2f",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**继承是面向对象三大特性之一**",
+      "translatedText": "**Inheritance is one of the three major features of object\\-oriented programming\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 21,
+        "costUsd": 0.000066
+      }
+    },
+    "e1be2fcbc8506e452ce280cbe7a0dea040faa3a1a43a269b5e73db152acdc3be": {
+      "normalizationVersion": 1,
+      "sourceHash": "337455b618781f8dae68a2a52f299b9d67c138b3b49f15bffbbd2178ac6ba023",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果（随机数会随运行环境变化，以下为一次运行示例；类型大小或类型名可能随编译器和平台变化）：**",
+      "translatedText": "**Run results (random numbers vary with the runtime environment; the following is an example from one run; type sizes or type names may vary with the compiler and platform):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "e1e27154b6c6387e4c1293b28b11942494a7ee9843c95450a4137aadd5110ad1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9b09e1cfc14d7de7f283087c26128707bc51a0e3a698254541d069da410d36f",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "通过4.3.1我们知道在C++中成员变量和成员函数是分开存储的",
+      "translatedText": "From section 4\\.3\\.1, we know that in C++, member variables and member functions are stored separately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    }
+  }
+}

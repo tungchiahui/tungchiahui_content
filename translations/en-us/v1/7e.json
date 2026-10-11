@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "7e032426c556c63248511e9064b92dcca9f165b5f1048ae4d336ccb38a6030a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b497801ca0a0aa3c128ba5791eb680bb87e92957dc62149bbbafa12e3fa0762",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个计数按进入保存分支的扫描处理次数增加。例如稳定20 Hz且每帧正常处理时，100次约为5秒，但 interval 本身不是时间参数。本地仅在 interval>0 时分批保存，0及其他负值也不会触发周期保存，使用默认特殊值 -1 更清楚。",
+      "translatedText": "This count increases according to the number of scan processing times that enter the save branch\\. For example, at a stable 20 Hz with normal processing per frame, 100 times is about 5 seconds, but interval itself is not a time parameter\\. Locally, saving is performed in batches only when interval \\> 0; 0 and other negative values also do not trigger periodic saving, and using the default special value \\-1 is clearer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 95,
+        "costUsd": 0.000173
+      }
+    },
+    "7e12d452942e728c0404c8bd50db5912b11ff12ab2ba368545efb3d9f7483152": {
+      "normalizationVersion": 1,
+      "sourceHash": "7541f0d54e17105958322122166ae6449b0ebd46da383f67c4be1cc82d27e727",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "案例描述：从1开始数到数字100， 如果数字个位含有7，或者数字十位含有7，或者该数字是7的倍数，我们打印敲桌子，其余数字直接打印输出。",
+      "translatedText": "Case description: Count from 1 to 100\\. If the ones digit of a number contains 7, or the tens digit contains 7, or the number is a multiple of 7, we print \"knock on the table\"; for all other numbers, print them directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 65,
+        "costUsd": 0.000131
+      }
+    },
+    "7e2b2eb62e400108565bcc4ab9d78c5f6b9c26cc691bea4e63a630fe128e1115": {
+      "normalizationVersion": 1,
+      "sourceHash": "2956b4c4c94708034398de9655f72818b77e4a71a6c1f8b6b0c53759d0a9acfe",
+      "contextFingerprint": "3c74d4639cdebd6bde32b757d011f5b435f9a1cb1b8d0f601c4fa09206aaaf19",
+      "sourceText": "> 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。\n> \n> 原文链接：https://blog.csdn.net/u010674953/article/details/129280724",
+      "translatedText": "> Copyright Notice: This article is an original article by the blogger and follows the CC 4\\.0 BY-SA copyright agreement\\. When reposting, please attach the original source link and this notice\\.\n> \n> Original link:https://blog.csdn.net/u010674953/article/details/129280724",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
+    "7e400713e58a25fb8667254dcfb7449b0f85479a15475745a86dc1227536e518": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f01658006b4facc52483467bf0c403f8661d393a11fcf8dffb590e96b37788f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 赋值运算符重载",
+      "translatedText": "#### Assignment Operator Overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "7e6df762ccdc46e82d50426b1945c4a7d516607d9c887def42f13841929b49e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "044620d56536b42985a151779c1cbf96eb654cdf6e219fff4d8b34dcc2b5d554",
+      "contextFingerprint": "d44b632654beca6cf1f32f64f50bbbef3f26985da86de880fe3de797c684f5d7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791447723704-e64252f0.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791447723704-e64252f0.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7e7e3a606bdfdb697a8dd232c93b87983830802d8110025e915128ddff530a0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f33240523d6355b43b7c492ef12d6a9fa60cb6e31a3ffe31ea3ea985866ec365",
+      "contextFingerprint": "dde915f3e4cccc79b177e48bbb55343183855c6106c060ec2b175272e122631c",
+      "sourceText": "![1545533829184](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545533829184-a2d0cf0d88.webp)",
+      "translatedText": "![1545533829184](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545533829184-a2d0cf0d88.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7e7ecbb3da71d6143d521c6ebb1ba8702d9f9565dcceafd093cc02b17f3081ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "87f0469ff7b7192db7d2f3341834aeea6209876dfa9d73c0653239b08ccc6d27",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 变量",
+      "translatedText": "### Variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "7ebaa9937b2853cd7118f2ecefed2144f1c4bf493d0d64c04cff6ffff578ab22": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6a6be49a4f748d3f291b900045316e7757cbd9a62c1a9cd704065c129ecbe7e",
+      "contextFingerprint": "96bd2fa383cca37da0133ed5f002ec800f8c0be4a95255c9c1be5a1c3f39a1c1",
+      "sourceText": "**YAML的 `init_pose` 直接写入匹配矩阵。** 在当前输入为odom、目标为map的约定下，它是 `map←odom` 初值，即“odom原点在map中的位置和方向”。",
+      "translatedText": "**YAML's `init_pose` is directly written into the matching matrix\\.** Under the convention that the current input is odom and the target is map, it is the `map←odom` initial value, that is, \"the position and orientation of the odom origin in the map\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 60,
+        "costUsd": 0.000124
+      }
+    },
+    "7ecb218ef248e3c9bb16b3ea53097086e9a190ebad619328d8c330364724b018": {
+      "normalizationVersion": 1,
+      "sourceHash": "69cafb04839def464e8da23e9a9a4d4a9f06550fae84736af18d58ca601f3381",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 函数调用运算符 ()  也可以重载\n* 由于重载后使用的方式非常像函数的调用，因此称为仿函数\n* 仿函数没有固定写法，非常灵活",
+      "translatedText": "* The function call operator () can also be overloaded\n* Because after overloading, the way it is used is very much like a function call, it is called a functor\n* Functors have no fixed way of being written and are very flexible",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 57,
+        "costUsd": 0.000117
+      }
+    },
+    "7ee7fc06ca5ada4dfaa3d50fe8f5a7015bfd0da1f0ae7f6ae47d6a56ceb5164d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ff23659679bc65f34dbb45d0c901dbd1d5e5c5ec6bb6d24f7e5f6cc772a5e49",
+      "contextFingerprint": "8d58041ee6959edc4082ec82d467424d337eb62f32a69f65e351576379eff120",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189090628.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189090628.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7eeeebde5827c1e24adfd8147ccb8c2cc1e3fb44a981d2673bccba2e3492376a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecf7d984eb1958577eae1ad25563aa9b75734bc5a3f7799da817d052cc4e283c",
+      "contextFingerprint": "b7dc1809965463ab35dae52d265ed9cb3d462121ece463f6bf89aa054757b2d1",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715114622.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715114622.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

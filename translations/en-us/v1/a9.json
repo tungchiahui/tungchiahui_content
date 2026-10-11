@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a910c956014df91f8b00090fc7ae610dc36b167402756ced82cf4cb248ad6142": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffc2683603a6027203ea5023ded0c21cfe087d8081cbb2cfca0b205eff12e30c",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++定义常量两种方式",
+      "translatedText": "C++Two ways to define constants",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "a914f3684c2034c9125d53038cb23079188dfdc28fb4f93d11a9e8fb322fa7f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "eaebb5796c13068c0badd2d745195299ef8efbbd9e2e6214f64e5830f7982439",
+      "contextFingerprint": "95b6df9559ebdeb894642a83d1575e840a243b88f2952f1b54d78891dd73bb35",
+      "sourceText": "以后实车需要测量实际同步状态；如果发现偏移，必须先确认校正方式及其符号，再处理对应代码或驱动配置。当前把 time_diff_lidar_to_imu 填成非零值，不会完成校正。",
+      "translatedText": "In the future, the actual vehicle will need to measure the real synchronization state; if an offset is found, the correction method and its sign must first be confirmed before handling the corresponding code or driver configuration\\. Currently, setting time_diff_lidar_to_imu to a nonzero value will not complete the correction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 70,
+        "costUsd": 0.000138
+      }
+    },
+    "a91710c2dde79b467e7edc547c369a906ce4e715b13cef98e803414aadddabf6": {
+      "normalizationVersion": 1,
+      "sourceHash": "27d73fd6e623e069a208e8316a8e360bc0e5e4ca574c1822e2b25289a031c573",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**布尔数据类型代表真或假的值 ",
+      "translatedText": "\\*\\*Purpose:\\*\\* The Boolean data type represents a true or false value\\. ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "a919c34e26e710c71e2ca2687ba0331475cb1b897cddcd881c937ac35676804e": {
+      "normalizationVersion": 1,
+      "sourceHash": "21155e80a5d34e2aa02c4dfe4e656fc197636bbd90c6eec0b04f683f01bcb65c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果类中有属性指向堆区，做赋值操作时也会出现深浅拷贝问题",
+      "translatedText": "If a class contains a member that points to the heap, assignment operations will also cause shallow and deep copy problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "a92d7706b8b782412871c5862b1d795937189e4054a40db858af1dc4de7a393b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2873489d4129e70abed8a10be3ff1dfbbe9bef2d423c883528d47b924177b6d2",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- +yaw：车头向左转。\n- +pitch：车头向下压。\n- +roll：左侧抬高、右侧降低。",
+      "translatedText": "- \\+yaw: the vehicle nose turns left\\.\n- \\+pitch: the vehicle nose presses downward\\.\n- \\+roll: the left side rises and the right side lowers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 41,
+        "costUsd": 0.000097
+      }
+    },
+    "a9502212cc42d4a43d7a9d61fafe9fe2740a7028f1f39545d5cbf181a9876056": {
+      "normalizationVersion": 1,
+      "sourceHash": "7671423fb31e28f29d5504b209b6d20f3957f7f6529f87f09d500c40f6607bf0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果都正常，那么mid360就正常开启了。",
+      "translatedText": "If everything is normal, then the mid360 has started up normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "a985d9588b0a9749c8ad358be9dc95add895147da673183080916f9258c54d6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d628893ed0ebac64d02538a1ac7ea79618db2adfdd9d37264b4ba94e28d699a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每个1.0 m缓存分块的新入点计数达到100，或距离该块上次更新达到1.0秒，就重新降采样并筛除过期点；清图事件也会强制更新。计数在更新后清零，计时采用输入点云时间。",
+      "translatedText": "For each 1\\.0 m cache block, when the new entry point count reaches 100 or 1\\.0 second has elapsed since the block was last updated, re\\-downsample and filter out expired points; a map clear event also forces an update\\. The count is reset to zero after the update, and timing uses the input point cloud time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
+    "a9c8f37c7bf668e01502824b12725f07f051ac75275bf4f36a9b9006df610d7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd33e69f05c00e738cf9ebe36db52c9dc72cd73bcac3a028e6c5b4474bfdb39d",
+      "contextFingerprint": "92d9fc099734301262238cdb4aeb1942457687c40123f621abd6fc5d7646e0f6",
+      "sourceText": "C/C++ 提供了 **typedef** 关键字，您可以使用它来为类型取一个新的名字。下面的实例为单字节数字定义了一个术语 **BYTE** ：",
+      "translatedText": "C/C\\+\\+ provides the **typedef** keyword, which you can use to give a new name to a type\\. The following example defines a term for a single\\-byte number, **BYTE**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 59,
+        "costUsd": 0.000123
+      }
+    },
+    "a9eca190b924dc5ab9c8ba8af9d51f804b2ef6ab5b9bac2cc1459924da95be48": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c07257b186257fe47432a181c018842116bdd998164957020916f2540933f0e",
+      "contextFingerprint": "9a6e2d843228cc9aa1af618bf7e59742dce4d696f865b2c6d45a2cef5e83dd83",
+      "sourceText": "启动`robot_description`，里面有`joint_state_publisher，robot_state_publisher，RViz2`：",
+      "translatedText": "Start`robot_description`Inside there is`joint_state_publisher，robot_state_publisher，RViz2`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    }
+  }
+}

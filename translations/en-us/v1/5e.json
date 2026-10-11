@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5e18c7804016a91043fe3746e4aba14b4bc52c6dc9d5ddd1b9f3642011374612": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a26529d7c186f38f2a1e8c126e9bb1e4dbe8d11616eae755ec6b89b85554936",
+      "contextFingerprint": "7abdf1724214726d3505d65c52077eae9c65b73f553655d97ef946354f8c0645",
+      "sourceText": "| 链路阶段 | `vx、vy` 参考的方向 | `wz` 的含义 |\n|---|---|---|\n| 导航控制器计算，再经平滑器得到 `cmd_vel_nav2_result` | 虚拟云台系 `gimbal_yaw_fake` 的 x、y 轴 | 导航提出的旋转分量；恢复行为也可向该话题提供指令 |\n| 本节点发布 `cmd_vel` | 实际云台 yaw 层 `gimbal_yaw` 的 x、y 轴 | 输入导航角速度 + 附加自旋角速度 |\n| `serial_comm` 接收并发送给MCU | 原样传递上述云台系分量，没有再转成底盘系 | 原样传递已相加的总量，约定由底盘执行 |\n| MCU驱动底盘 | 若控制算法需要底盘系速度，须按机械相对 yaw 换算 | 应执行这条底盘目标角速度，不再重复叠加同一自旋量；实际实现待核对 |",
+      "translatedText": "| Link stage | `vx、vy` Reference direction | `wz` meaning of |\n|---|---|---|\n|  computed by the navigation controller, then smoothed to obtain `cmd_vel_nav2_result` |  virtual gimbal frame `gimbal_yaw_fake` x and y axes of |  rotation component proposed by navigation; the recovery behavior may also provide commands to this topic |\n|  This node publishes `cmd_vel` |  actual gimbal yaw layer `gimbal_yaw` x and y axes of |  input navigation angular velocity \\+ additional spin angular velocity |\n| `serial_comm` receives and sends to the MCU |  pass through the above gimbal\\-frame components as\\-is, without converting again to the chassis frame |  pass through the summed total as\\-is, with the chassis agreed to execute it |\n|  MCU drives the chassis |  if the control algorithm requires chassis\\-frame velocity, it must be converted according to the mechanical relative yaw |  should execute this chassis target angular velocity without re\\-adding the same spin component; the actual implementation is to be verified |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 286,
+        "outputTokens": 178,
+        "costUsd": 0.0003
+      }
+    },
+    "5e1900ebd72d135c9316eb58019ee24a05a8c0cf1ada49c36340b47210b2fa2f": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ae60fda8a7d9cab07723ca6c4e4ac0f861cccd097fc22bd354b81c3c36b0999",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用**：用于==表示小数==",
+      "translatedText": "**Function**：used to ==represent decimals==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "5e3cf1d9cf5a35338b1121dc8b969ed61de0a0b70734b02e50fe2207d8a5c7b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "2df787d8548adeb85e5109bcea0d904516aec37ac9e6f6806a549cb2352f321d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数重载注意事项",
+      "translatedText": "#### Precautions for function overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "5e4d42da01eb163828d419764dbeab296772960a09d6c3662ac5ee6c17a491b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad02706553806cb2939419485a3657038159bcfce623aa3909124636384deb5b",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "NWM 是 **Visual World Model → Planning** 的代表。它说明视频生成型 WM 并不只是 CV：模型可以对不同候选 action 想象不同未来，再由 CEM 选择更好的动作。",
+      "translatedText": "NWM is a representative of **Visual World Model → Planning**\\. It shows that video generation\\-based WMs are not just CV: the model can imagine different futures for different candidate actions, and then CEM selects better actions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
+    "5e5ff8bddc9b051a4a2a08eca626f9f0fab3d66a4e03bbcd04781be562a84770": {
+      "normalizationVersion": 1,
+      "sourceHash": "f459a6a393c5fc014adc29d50afa7af06f7d8f926d06e6a05f135cd745551f5d",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "2.C++的iostream中的std::cin和std::cout",
+      "translatedText": "2\\. std::cin and std::cout in iostream of C++",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "5e640af270203b775004ffe7860f9bf8212962c1011bbcad4c2c4f0639b5b7d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f813ce4ca085f96fd6775788f10e79fd0e99b885e67699ddff41753e671b6db5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 程序运行前",
+      "translatedText": "### Before program execution",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "5ebe07a683ebbdf17621409025ec62f3f08aafdd0c3bad84ba02e13176f706f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f5c16d11a7f40740744e9ac6619ad83b49ca32f828d62eb918aefe9f6e5f98e",
+      "contextFingerprint": "c00ca751a5113fef3a67b145ae95a364d6653076143aeaa79a3beb2fdc41db5c",
+      "sourceText": "当前实车驱动设置 xfer_format=4、multi_topic=0，源码发布：",
+      "translatedText": "Current real vehicle drive settings xfer_format=4, multi_topic=0, source code release:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 42,
+        "costUsd": 0.0001
+      }
+    }
+  }
+}

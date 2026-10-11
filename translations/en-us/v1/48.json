@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "482dce7384ba1d4111004152db4b8fad60e731a535518cac88c1f0b2ae96b6c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b492451fe91cbcde937cc40104071ab6035b46b732552a7924e95a75875a968",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：继承中 先调用父类构造函数，再调用子类构造函数，析构顺序与构造相反",
+      "translatedText": "> Summary: In inheritance, the parent class constructor is called first, then the child class constructor; the destruction order is the reverse of construction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
+    "48359b66da85977e07271b3373067a3b9b2bbf2ae3cd6cf61225996624b60156": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dace342e546043f475e7e60e069b6c763daf590e557b2c654c1a5041f784691",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5. 更新并安装 feeds 软件源",
+      "translatedText": "5. Update and install feeds package sources",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "483de54e216aa3331ca31d0ddb018c1fb8d055a838be2947421981b6019a9ee6": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6a509ccb3a69d627844dccb0b17f68d5f02ffc39f37b76b16d6c24c3f32a938",
+      "contextFingerprint": "1464f9e337f01ee8ca74ea70f0f2684f25212016628e18fca2500472d4c27c97",
+      "sourceText": "这里把项目目录命名为 `hello_cpp`。后面所有命令都默认在这个目录里执行。",
+      "translatedText": "Here, the project directory is named `hello_cpp`\\. All subsequent commands are assumed to be executed in this directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "48d0a0471f8b8d9cc22e2a0c001b8b3c76bfd748147f02b87f177d6d14d746b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "29764ec4138eb60d56c74e0cb205905753a5ff0f4174ef3d7f29d7a68747358a",
+      "contextFingerprint": "ad8e13b26c20735f1bbdbceb0503963cd0902a05adf3da1d40badf343e407f4b",
+      "sourceText": "当前 `fake_vel_transform` 也配置为订阅 `odometry`、使用 `gimbal_yaw`，两者名称相符。`robot_base_frame` 决定里程计消息表达的机体系，不单独发布该机体系的 TF；已有机器人 TF 链连接 `base_footprint` 到 `gimbal_yaw`。云台独立 yaw 的角运动不能直接当作底盘角运动。",
+      "translatedText": "Current `fake_vel_transform` is also configured as subscription `odometry` and uses `gimbal_yaw`; the two names match\\.`robot_base_frame` determines the body frame expressed by the odometry message; it does not separately publish the TF for that body frame; the existing robot TF chain connects `base_footprint` to `gimbal_yaw`\\. The angular motion of the gimbal's independent yaw cannot be directly treated as the chassis angular motion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 79,
+        "costUsd": 0.000152
+      }
+    },
+    "48d884cb9a52b808e5cd0d9c0e374a2cacac0bb89bf02b4e7e86645e1d477928": {
+      "normalizationVersion": 1,
+      "sourceHash": "10e53d5f1ab1cdfdfdd5805b6d52659698494db0b2d55e556a999779e3b6e416",
+      "contextFingerprint": "8b8ed7976c1cc06a8f899224255dd3864ba85c3d2cc7ee128c3cd3d4b869a7d9",
+      "sourceText": "| 参数 | 你实际应该量什么 | 当前代码含义 |\n|---|---|---|\n| 底盘长度 | 车体刚性主体前沿到后沿，沿 X | `geometry_box x=...` |\n| 底盘宽度 | 车体刚性主体左沿到右沿，沿 Y | `geometry_box y=...` |\n| 底盘高度 | 刚性主体底面到顶面，沿 Z | `geometry_box z=...` |\n| 轴距 | 前轮轴心到后轮轴心的 X 向距离 | `x_front - x_rear` |\n| 轮距 | 左轮中心面到右轮中心面的 Y 向距离 | `y_left - y_right` |\n| 轮径 | 轮子外圆直径 | 当前 `2 × 0.0758` |\n| `chassis_height` | 地面 → `chassis` 坐标系原点 | 当前 0.076 m |\n| `gimbal_yaw_height` | `chassis` 原点 → 云台 yaw 旋转轴原点 | 当前 0.1376 m |\n| `gimbal_pitch_height` | yaw 轴原点 → pitch 轴原点 | 当前 0.16 m |\n| Mid360 `pose` | parent 坐标系原点 → `front_mid360` 原点 | 当前相对 `chassis` |",
+      "translatedText": "| Parameter | What you should actually measure | Meaning in the current code |\n|---|---|---|\n| Chassis length | The distance from the front edge to the rear edge of the rigid body of the vehicle body, along X | `geometry_box x=...` |\n| Chassis width | The distance from the left edge to the right edge of the rigid body of the vehicle body, along Y | `geometry_box y=...` |\n| Chassis height | The distance from the bottom face to the top face of the rigid body, along Z | `geometry_box z=...` |\n| Wheelbase | The X\\-direction distance from the front wheel axle center to the rear wheel axle center | `x_front - x_rear` |\n| Track width | The Y\\-direction distance from the center plane of the left wheel to the center plane of the right wheel | `y_left - y_right` |\n| Wheel diameter | The outer diameter of the wheel | Current `2 × 0.0758` |\n| `chassis_height` | Ground → `chassis` coordinate system origin | Current 0\\.076 m |\n| `gimbal_yaw_height` | `chassis` Origin → gimbal yaw rotation axis origin | Current 0\\.1376 m |\n| `gimbal_pitch_height` | yaw axis origin → pitch axis origin | Current 0\\.16 m |\n| Mid360 `pose` | parent coordinate system origin → `front_mid360` origin | Currently relative to `chassis` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 297,
+        "outputTokens": 216,
+        "costUsd": 0.000349
+      }
+    },
+    "48ddd6f64f7fa2644edcf1485c6b14ac9e43d850a764b0a17df4238e651e1008": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a5053e3b1abb4c208afedb509d1d8cc085a65eeed74273f0c1c7fffeae1dc63",
+      "contextFingerprint": "26d405a6dffbe65e60e2438162b60ec2ccf8415b552d160460396207bc509c72",
+      "sourceText": "增大range_min可排掉更多近处回波，但也会漏掉车旁障碍；减小则可能带入车体、云台或其他自车点。0.3 m圆形门槛不是完整车辆轮廓，距底盘原点更远的自车回波仍可能留下，需要结合安装位置与真实车体观察。",
+      "translatedText": "Increasing range_min can remove more near\\-field echoes, but it may also miss obstacles beside the vehicle; decreasing it may bring in the vehicle body, gimbal, or other ego\\-vehicle points\\. The 0\\.3 m circular threshold is not the complete vehicle outline; ego\\-vehicle echoes farther from the chassis origin may still remain, so it must be combined with the installation position and actual vehicle body observations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 97,
+        "costUsd": 0.000178
+      }
+    }
+  }
+}

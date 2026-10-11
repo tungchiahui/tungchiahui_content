@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "0f0da3b61bd21330141c9fe578ccbc426426afe75653ff1849cb2b2d7e9e9612": {
+      "normalizationVersion": 1,
+      "sourceHash": "a91f59b3f5e5bb7c2c03325d2e18a73a0943c4356750a08d429a27065c77d245",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把电脑上的 RViz、ros2 topic echo、ros2 topic hz 全部关掉。",
+      "translatedText": "Close all RViz, ros2 topic echo, and ros2 topic hz instances on the computer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "0f1c6798fba7868df0c43e7f74c91a48814833ee1c37578273ff5d6c8119510a": {
+      "normalizationVersion": 1,
+      "sourceHash": "34d887ef92d7bfbe26ff9cda3bfb55f567655c39ad6020f4120f980df6375dea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "改完后的主要目录结构为：",
+      "translatedText": "The main directory structure after the modification is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "0f2032c194828b30c1ac2c494d3c7896c5147da2bfeadff141fd2bfaaa97dae2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f69b68772fd069120407515155d59453ee33780198649d5aead483d19f501b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设计学生和老师的结构体，其中在老师的结构体中，有老师姓名和一个存放5名学生的数组作为成员",
+      "translatedText": "Design structures for students and teachers, where the teacher structure has the teacher's name and an array holding 5 students as members\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "0f398b993524be5089010e662e92176ce49c3497a1081d1f5d84a38d0be70422": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a88007b39c21dc4fb05bfd85a685f0575918ba5b649056c465bd12529772842",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本工程整套流程的选择来自launch参数：",
+      "translatedText": "The selection of the entire process flow for this project comes from the launch parameters:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "0f3a55ef7e815f50cb5e160904d202c12cd7f6dbec31722e150110a1a300bb3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3afecbc8f2554d190baf522f1c178e6cda3a243f293cc10aaf3cf632db7367fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "World Model 与 Action Policy 解耦。核心价值不是生成漂亮未来图，而是让 latent state 通过 world modeling 学到对导航有用的环境和动态信息。",
+      "translatedText": "Decouple the World Model from the Action Policy\\. The core value is not generating pretty future images, but enabling the latent state to learn environment and dynamics information useful for navigation through world modeling\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
+    "0f64094c92ec9a079fe1c7c4e18fa73756a91b54caff5f0892eea64ccd54b1c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "81a0fda7c218c88e3c1b3a3fc48aada842a160d3d14c8aca58570d429bb1b2f7",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用：** 结构体中的成员可以是另一个结构体",
+      "translatedText": "**Function:** A member in a structure can be another structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "0f6f6ad0452c5e66507cf3bc5a13a2f1ad38795925835d92c4267a3be59b426e": {
+      "normalizationVersion": 1,
+      "sourceHash": "95e3aeab065f2012bb57107036ec8014a4040b2af647fa143b10ebcf65876f5f",
+      "contextFingerprint": "c0698cdc0d0834c0e43a867883f5d735255a570a46fafe384656b8c64ad51bc2",
+      "sourceText": "原注释“与单位无关”不成立。当前输入是 g；如果换成 m/s²仍照用4.0，正常静止时某轴读数就可能超过门槛。单位改变时必须一起复核这项。",
+      "translatedText": "The original note \"unit\\-independent\" does not hold\\. The current input is g; if it is changed to m/s² and 4\\.0 is still used as is, then under normal stationary conditions the reading on a given axis may exceed the threshold\\. When the unit changes, this item must be reviewed together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 78,
+        "costUsd": 0.000148
+      }
+    },
+    "0f73d5b8a72d633f9bf6d321a56829cf1cdbdffa8ba7c52b96346e65497ba901": {
+      "normalizationVersion": 1,
+      "sourceHash": "2aba875962ea6fe3d95489971e7341b4014f1babfdb09221586b6da2246b6632",
+      "contextFingerprint": "2b8e743594c638a40b51e2c3b2d85b284005f40f78eb4b7940cf0385c49f87b6",
+      "sourceText": "`num_neighbors=20` 指每点用于描述局部形状的邻点数，地图与实时点都用它。它不是20个匹配候选或20帧累计。范围太大可能混入墙角两面、坡面与障碍等不同结构，太小又可能受噪声影响；当前库实际找到的邻点不足5时，会设为无效局部特征的默认值，因此稀疏区域与降采样尺度要一起看。",
+      "translatedText": "`num_neighbors=20`It refers to the number of neighboring points used at each point to describe the local shape, and it is used for both the map and real\\-time points\\. It is not 20 matching candidates or an accumulation of 20 frames\\. If the range is too large, it may mix in different structures such as two sides of a wall corner, a slope surface, and an obstacle; if it is too small, it may be affected by noise\\. When the current library actually finds fewer than 5 neighboring points, it is set to the default value for an invalid local feature, so sparse regions and the downsampling scale should be considered together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 135,
+        "costUsd": 0.000226
+      }
+    },
+    "0f7bd9ecb7605944c6c6f68a6d27537509839aa13f8c081188e6bc8127003f01": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a25d86b1b5212588073fbe3a0ce2833f53c51f740870239e94ec18bfa1f0db4",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "命名空间的定义使用关键字 **namespace** ，后跟命名空间的名称，如下所示：",
+      "translatedText": "A namespace is defined using the keyword **namespace**, followed by the name of the namespace, as shown below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "0f7c9404ea44548965e0670c82bdd01ca77b4495d604b54c92b8488d716c02e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f8407215f9989c1b1a94224614089e11d9f8e986aa4aaeefddde6ac8adf2740",
+      "contextFingerprint": "d66aa2aa2055c36d4fb0ffae4bcf5ec3c7c67afb2fd8b176bfd60f3cb495b51f",
+      "sourceText": "源码位置：`src/pb2025_sentry_nav/fake_vel_transform/src/fake_vel_transform.cpp`、对应头文件及 README；上游：`sensor_scan_generation`、`pb_omni_pid_pursuit_controller` 和导航 launch；串口：`src/serial_comm/src/serial_comm.cpp`。本轮仅修改日志这一参数块，工程源码、配置和参数值均保留。",
+      "translatedText": "Source code location: `src/pb2025_sentry_nav/fake_vel_transform/src/fake_vel_transform.cpp`, corresponding header files, and README; upstream: `sensor_scan_generation`、`pb_omni_pid_pursuit_controller`, and navigation launch; serial port: `src/serial_comm/src/serial_comm.cpp`\\. This round only modifies the logging parameter block; project source code, configuration, and parameter values are all preserved\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 57,
+        "costUsd": 0.000121
+      }
+    },
+    "0f84db85fa658e7ec2a095f9521cea2fe8d840cc86f89b40b3d7d5bce48f8f3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "eab206152f41860a90a7e6b9ae423d6769199646e5547a52a2e7fd9c85926494",
+      "contextFingerprint": "e966cb87b5cf13ed6f30777648e2711b36bbaf0787aa7a8309decf45c6313a8d",
+      "sourceText": "`src/main.cpp` 仍然是 C++ 源文件,且不用做任何更改：",
+      "translatedText": "`src/main.cpp` Still C++ source file, and no changes are required:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "0f97acc963101250f84ff3d6b75785ae77a702251ec28fb3e7edff768edc4bfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "665e98f06860e7dd30c7bbefe7961c87a4b82c84a0abe3414dd4d002d9779fe8",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 记录当下目标，沉淀技术成长轨迹。",
+      "translatedText": "> Record current goals and accumulate a trajectory of technical growth\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "0fac253b09cc84493d3fc01b622234c51baca9258bb7a798ba278a052d248944": {
+      "normalizationVersion": 1,
+      "sourceHash": "9570a558d86c892e006c3f48b9056b21949dbd7c62320772d1bc08acb878e58b",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "但是，C 和 C++ 现在是两门分别制定标准、分别发展的语言，不能简单理解\n为同一门语言的两个版本：",
+      "translatedText": "However, C and C++ are now two languages with separately formulated standards and separate development, and cannot be simply understood as two versions of the same language:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    },
+    "0fad730e29fd8f1ce5d2186e7d533c43e7d7d9c9725fd1f11616045946127ac2": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea6417c44215c39fa8a5311e86cdaa107e7f24aa9a396455886d129bf5e54a4e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**用于表示一些==不能显示出来的ASCII字符==",
+      "translatedText": "\\*\\*Purpose:\\*\\* Used to represent some ==ASCII characters that cannot be displayed== ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "0ffc30ac367d568e143433d71de5d3cb2581c6fc59f78fe0d0772d5072f07c1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "26aefec75b5f17b6a6aa132d44a2a10e933f225074623f68f849fdf1bb6158f8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Future RGB、Future Latent、Future Occupancy、Future 3DGS、Future Physical State、Reward / Risk / Value、Action Chunk？",
+      "translatedText": "Future RGB、Future Latent、Future Occupancy、Future 3DGS、Future Physical State、Reward / Risk / Value、Action Chunk？",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

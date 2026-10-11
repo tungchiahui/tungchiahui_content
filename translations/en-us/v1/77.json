@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "770c4aa1ffe1efc3d2399b8a8c1cae16d619e17a215b9b48c688fa0ee7ec5f6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa2b171f6cf9e37cdba23af72323efb1701e5db3bae60b8611a7aa6511d507a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示意图：",
+      "translatedText": "Schematic diagram:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "77237d3d5be96445c07d91599546eb8e0cfd7e78c6487a4c08e1b3b4d737c792": {
+      "normalizationVersion": 1,
+      "sourceHash": "e13393ca505e188910b7a90f31e1e3744930f4e7b6856b09329a33216d1cfc48",
+      "contextFingerprint": "58e5428dee64849b949b2f553032ffc11e522834c947e856495c71bbce11f4ae",
+      "sourceText": "###### plane_thr（地图邻点的平整度门槛）",
+      "translatedText": "###### plane_thr (flatness threshold for map neighbors)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "77411e727d708a64882c0fb7319305f8e2af4fd0d9d4465689809b0cd544026d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef38cd9b5e0c0e29f20f389a818c0a5f9f296b58e6f652381b5190f20aaed14f",
+      "contextFingerprint": "9ff9589bbd8cb6698103349fedd4ef7ec171c04cd4f80229fb8e449169a93237",
+      "sourceText": "`odom_topic` 当前接 `sensor_scan_generation` 的 `odometry`；消息位姿参考系预期为 `odom`，`child_frame_id` 为 `gimbal_yaw`。本节点读这个位姿的 yaw，发布父系 `gimbal_yaw` 到子系 `gimbal_yaw_fake` 的反向 yaw 变换，约50 Hz，平移为零。",
+      "translatedText": "`odom_topic` Currently connected to `sensor_scan_generation` of the `odometry`; the message pose reference frame is expected to be `odom` and `child_frame_id` is `gimbal_yaw`\\. This node reads the yaw of this pose and publishes the inverse yaw transform from parent frame `gimbal_yaw` to child frame `gimbal_yaw_fake` at approximately 50 Hz, with zero translation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 63,
+        "costUsd": 0.000132
+      }
+    },
+    "77420cf1ca11b875a72bd6beca258a1d89e6f9dda6e648702d621ae980608de3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6bc40f91e96ba19347e81f23f7c59d8fe4f39a399281ac14856279cf1cd1303",
+      "contextFingerprint": "91799b677a37c4d43e29d90cdf4d1bb8aab1155edafbeb7c62456e5be89c1178",
+      "sourceText": "当前 `checkTerrainConn=False`，因此 `terrainUnderVehicle`、`terrainConnThre`、`ceilingFilteringThre` 都不影响输出。其他高度筛选仍在执行；这里只是专门的连接检查与顶棚筛选关闭。",
+      "translatedText": "Currently `checkTerrainConn=False` therefore `terrainUnderVehicle`、`terrainConnThre`、`ceilingFilteringThre` do not affect the output\\. Other altitude filtering is still being performed; here only the dedicated connection check and ceiling filtering are disabled\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "7742887438d358ffce74a248ee77b93af08d66c426f24b9c8eb289406ea6f117": {
+      "normalizationVersion": 1,
+      "sourceHash": "6aa3446e8037387741d31cf3a1cc65ee175845c72381a8a26fdccaf7a6e260da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例：",
+      "translatedText": "Example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "7747dadd979d09fada6e4efadc30edf96b7900cf70978fe34e5b9f8e7b4794df": {
+      "normalizationVersion": 1,
+      "sourceHash": "05a6ffc51685a13d2781e0e9237d9557c4e4b199052e17f1f29e4bebe494a180",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 总结",
+      "translatedText": "## Summary",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "775465011b2622a468f51052a7c395bb61763ae1290fe9020e7d5cca8ca09995": {
+      "normalizationVersion": 1,
+      "sourceHash": "639ec0c1d8547f80512a3e4d0bbd3324e8d82f951b466fd5aa4425dd89dac25e",
+      "contextFingerprint": "9d5e0fe18cd435f9787776e1246b6a465455588fadd38c0b3cf8a23e7974b699",
+      "sourceText": "源码补充：初始两重力方向恰好完全反向时，`Set_init` 的一个分支返回 `-Eye3d`，该矩阵不是有效的三维旋转矩阵。这个极端分支需单独核实；本轮没有证明现有配置触发它，也没有修改源码。",
+      "translatedText": "Source code supplement: when the two initial gravity directions happen to be exactly opposite,`Set_init` one branch of  returns `-Eye3d`, and this matrix is not a valid three\\-dimensional rotation matrix\\. This extreme branch needs to be verified separately; this round did not prove that the existing configuration triggers it, nor was the source code modified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 70,
+        "costUsd": 0.000137
+      }
+    },
+    "775618852ce217cd7f76f77951474df7d22a0ff68016d2fa11138a78f94c2fd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c80fa24e8d3f54d6c66da4d546c28b253f0dcb53911acc331b70ebc60b724aae",
+      "contextFingerprint": "feea85d70d3d342522de00eaae9713e027059073b4f1aaa4f5d75fd4d28faf39",
+      "sourceText": "但你当前的 Livox CustomMsg 路径直接执行：`curvature = offset_time / 1000000.0;`也就是固定从 ns 转成 ms。因此，当前修改 timestamp_unit 不会改变这条输入路径的时间解释。",
+      "translatedText": "However, your current Livox CustomMsg path directly executes:`curvature = offset_time / 1000000.0;`That is, it always converts from ns to ms\\. Therefore, the current modification of timestamp_unit will not change the time interpretation of this input path\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 57,
+        "costUsd": 0.000121
+      }
+    },
+    "775de2b4aad588ae51058284faedb996a78595a10459bc2d5e3b49182390d45a": {
+      "normalizationVersion": 1,
+      "sourceHash": "747cd9a9d0497e5ed94e14bfea73dfcb0dd53ca0d1b2773222ae7ab0d2c1460b",
+      "contextFingerprint": "d1d24e97f0d65763c888137b1d84981465fdde25ea0914499a3e87b6676e73bc",
+      "sourceText": "- 将LUCI_DESCRIPTION中，bootstrap 替换为 argon\n- 将LUCI_DEPENDS中，+luci-theme-bootstrap 替换为 +luci-theme-argon",
+      "translatedText": "- In LUCI_DESCRIPTION, replace bootstrap with argon\n- In LUCI_DEPENDS, replace \\+luci-theme-bootstrap with \\+luci-theme-argon",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 60,
+        "costUsd": 0.000129
+      }
+    },
+    "7761f8a2507e8e76752c20e7b99865dd1da53c6781f0e5fdce4f4a2bab9ee17d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a430c2c54a1d59c4d6b5810ca44d2d85b6e4d91a3b166fd4344b5d3ad2dc964d",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3. include",
+      "translatedText": "3. include",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "77699acea8a83cb886cddd6ab0bb5e3a6b16f2e6f9122947e6e15d2cc31385ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "31b88396b44b0af9efbb017d68e11f32499d317c5e888bed3698ec26a5a326d7",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 冒泡排序",
+      "translatedText": "#### Bubble sort",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7782c2540c547ee688f96d646aa50904ba4dd2712bb3f4818baff5cd71ed06ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "001b1421c73be596157fee2ecf2e88587143bca810daf352ff96a0f9fb7c4d79",
+      "contextFingerprint": "3fb46e5f8f4ef807ce8840a9cb8791f14ccfcacef7a2ed192be953ec30e10862",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `solver_plugin` | `solver_plugins::CeresSolver` | 不适用，插件名称 | **通常保持当前值，不作为优先调试项** | 选择二维位姿图的优化后端 | 不适用 | 不适用 | 启动时加载；当前安装的solver_plugins.xml只注册了Ceres，插件名称错误或不可用会导致加载失败 |\n| `ceres_linear_solver` | `SPARSE_NORMAL_CHOLESKY` | 不适用，算法枚举 | **通常保持当前值，不作为优先调试项** | 选择每轮图优化中求解线性方程的方法 | 不适用 | 不适用 | 当前为稀疏直接求解；只有实际调用Ceres优化时影响计算；当前常规建图不触发自动图优化 |\n| `ceres_preconditioner` | `SCHUR_JACOBI` | 不适用，算法枚举 | **当前运行不使用这个参数，暂不调整** | 为适用的迭代线性求解方法提供加速方式 | 不适用 | 不适用 | 参数被读取，但当前SPARSE_NORMAL_CHOLESKY不使用预条件器；切换算法后须核对组合是否支持 |\n| `ceres_trust_strategy` | `LEVENBERG_MARQUARDT` | 不适用，算法枚举 | **通常保持当前值，不作为优先调试项** | 决定图优化每轮如何提出、调整修正步长 | 不适用 | 不适用 | 当前使用LM；另一暴露选项为DOGLEG；实际优化触发后才影响求解，不控制车辆运动 |\n| `ceres_dogleg_type` | `TRADITIONAL_DOGLEG` | 不适用，算法枚举 | **当前运行不使用这个参数，暂不调整** | 选择Dogleg策略内部的求解方式 | 不适用 | 不适用 | 仅ceres_trust_strategy=DOGLEG时使用；当前LM下不参与计算 |\n| `ceres_loss_function` | `None`，字符串 | 不适用，类型名称 | **通常保持当前值，不作为优先调试项** | 决定图约束误差是否采用鲁棒损失，减弱异常约束的影响 | 不适用 | 不适用 | None采用普通平方损失；只有图约束进入优化后才影响结果；不是关闭地图保存、扫描匹配或整个SLAM |",
+      "translatedText": "| Parameter name | Current value | Unit | Recommended action for real vehicle handling | Effect | Effect of increasing | Effect of decreasing | Conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `solver_plugin` | `solver_plugins::CeresSolver` | Not applicable, plugin name | **Usually keep the current value; not a priority tuning item** | Select the optimization backend for the 2D pose graph | Not applicable | Not applicable | Loaded at startup; the currently installed solver_plugins.xml registers only Ceres; an incorrect or unavailable plugin name will cause loading to fail |\n| `ceres_linear_solver` | `SPARSE_NORMAL_CHOLESKY` | Not applicable, algorithm enum | **Usually keep the current value; not a priority tuning item** | Select the method for solving linear equations in each round of graph optimization | Not applicable | Not applicable | Currently sparse direct solving; only affects computation when Ceres optimization is actually invoked; current regular mapping does not trigger automatic graph optimization |\n| `ceres_preconditioner` | `SCHUR_JACOBI` | Not applicable, algorithm enum | **This parameter is not used in the current operation; do not adjust for now** | Provide an acceleration method for applicable iterative linear solver methods | Not applicable | Not applicable | The parameter is read, but the current SPARSE_NORMAL_CHOLESKY does not use a preconditioner; after switching algorithms, verify whether the combination is supported |\n| `ceres_trust_strategy` | `LEVENBERG_MARQUARDT` | Not applicable, algorithm enum | **Usually keep the current value; not a priority tuning item** | Determine how each round of graph optimization proposes and adjusts the correction step size | Not applicable | Not applicable | Currently LM is used; the other exposed option is DOGLEG; it affects the solution only after actual optimization is triggered, and does not control vehicle motion |\n| `ceres_dogleg_type` | `TRADITIONAL_DOGLEG` | Not applicable, algorithm enum | **This parameter is not used in the current operation; do not adjust for now** | Select the internal solving method of the Dogleg strategy | Not applicable | Not applicable | Used only when ceres_trust_strategy=DOGLEG; under the current LM it does not participate in computation |\n| `ceres_loss_function` | `None`, string | Not applicable, type name | **Usually keep the current value; not a priority tuning item** | Determine whether graph constraint errors use a robust loss to reduce the influence of abnormal constraints | Not applicable | Not applicable | None uses ordinary squared loss; it affects results only after graph constraints enter optimization; it is not turning off map saving, scan matching, or the entire SLAM |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 523,
+        "outputTokens": 462,
+        "costUsd": 0.000712
+      }
+    },
+    "778f4c79e25f7ac9d230c9ec4b721726718cfe27c88bf7b61e90eef3e56b4c9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "93698daf810820ba205694ac775992df31a69d5da71b1afae7a4464ebe6c8e92",
+      "contextFingerprint": "25ab06fc1aa3b54bbabcbb3b434bd63a0b6b2a8b29be57eb6f94c77c39a19e94",
+      "sourceText": "整套导航 launch 会同时安排两个地形分析节点，扩展节点本身始终是独立进程，不随导航组件开关变成组件。本轮在 `ysu_ros_humble` 中只查询环境与文件，确认包路径、安装后的独立 launch、导航 launch 和两份 YAML 与当前源码文件一致；没有启动节点或读取运行节点的有效参数。",
+      "translatedText": "The entire navigation launch will simultaneously schedule two terrain analysis nodes\\. The extension node itself is always an independent process and does not become a component with the toggling of navigation components\\. In this round, within `ysu_ros_humble` only the environment and files are queried to confirm that the package path, the independent launch after installation, the navigation launch, and the two YAML files are consistent with the current source files; no nodes were started, and no valid parameters were read from running nodes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 102,
+        "costUsd": 0.000183
+      }
+    },
+    "77a63395a37b57f2fde3c527301c716231b30797a7fab4eb05231209bf6a6ccd": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4915170a500163a7cc1071f35e1e96cc217c72079946cb288e0064cccb2f5d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也不会按“合并1帧”执行。代码仍累计10帧，再由下一次回调触发输出。",
+      "translatedText": "nor will it execute as \"merge 1 frame\\.\" The code still accumulates 10 frames, and then the next callback triggers the output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
+    "77a96156b5f64d52b64ac87469401658b24cf6a46ba1416f108d386ed4981592": {
+      "normalizationVersion": 1,
+      "sourceHash": "d86fe3567ea0fed2641a635f8011fbcb1612209c4f44c71eadc774bab6d72a4a",
+      "contextFingerprint": "83abb28496c16e674f99e97b74196405ccd9ae413b857b165762d85040c8142a",
+      "sourceText": "`cpp_interface.cpp` 是 C 和 C++ 的分界线。它包含了 `cpp_interface.h`，所以 `cpp_main()` 会按照 C 语言的链接规则对外提供；它本身又是 `.cpp` 文件，所以内部可以正常调用 `swap_demo::swap(a, b)` 这种 C++ 写法。",
+      "translatedText": "`cpp_interface.cpp` is the boundary between C and C++\\. It contains `cpp_interface.h`, so `cpp_main()` is exposed externally according to C language linkage rules; it is itself a `.cpp` file, so internally it can normally call `swap_demo::swap(a, b)` this C++ notation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 66,
+        "costUsd": 0.000138
+      }
+    },
+    "77ad72b6fa9eccd32a0d08dc2fa5429f5cc433d4b7d0a19e66b020306858bf4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3bd635cff368a27a36e6568c98309ef97816207df2ed5e3a00139eb0120fb64",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "在C++中，类内的成员变量和成员函数分开存储",
+      "translatedText": "In C++, member variables and member functions within a class are stored separately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "77b487073cd347e90232c00b4998be4785917514a61cddd969ec03e14d122261": {
+      "normalizationVersion": 1,
+      "sourceHash": "88b5260afd12866338dc15e455a76b6de86c691f01f7e539536f4c5443f5411c",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 论文链接总表",
+      "translatedText": "## Master List of Paper Links",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "77c2e0d1ec0395c5e3f2f4506fcd60eafd3b5558965f571b706d8932323bfcf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "590f45759bc46b138ec20ded58f5d3aa28d06be34895c1b065bb7c03893c6a32",
+      "contextFingerprint": "e434dd01c6e56dbce203ce981b5e964426babffebea28753747a66eebb04b838",
+      "sourceText": "- LuCI > Applications -> luci-app-openclash\n- LuCI > Applications -> luci-app-adblock\n- LuCI > Applications -> luci-app-ddns-go",
+      "translatedText": "- LuCI > Applications -> luci-app-openclash\n- LuCI > Applications -> luci-app-adblock\n- LuCI > Applications -> luci-app-ddns-go",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "77d91fd3b8ae4d8b3af32e91b69c182a9eab6d3c2664803f14699cbed3d60ee8": {
+      "normalizationVersion": 1,
+      "sourceHash": "d70e82aad1e44cf1a5e6f2333a4f425606866b43e49a9f9913f8419e4c33ad32",
+      "contextFingerprint": "1af4e4205f05fdfccabe06162cb0c80e510c1797602e76170af1fe5e5d2f8a5d",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189244150.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189244150.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "77fddb3b57d0703b4b58b4e8d94b3770d742053a9eedfdb9bf793804c0b7cb50": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6c61304fc9bc727470a41684fc6ad89fa67fbfecd31dbdbe65eb4bfa4aa6938",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "回答：**未来世界“看起来”是什么样？**",
+      "translatedText": "Answer:**What does the future world \"look\" like?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    }
+  }
+}

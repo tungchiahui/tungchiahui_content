@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f0123920d16cbefb301c84f092c57d3a6a28035bc6278d7c3108c668d246b0bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "68529161430165eff467e981cf73174e884669d4ad4182c4729a889a85fb3a09",
+      "contextFingerprint": "14667997c9753bd29b206c27296aa5a221e874ad8e7b19d7416d186702e536f3",
+      "sourceText": "整套启动的独立进程和组件模式都使用同一份处理后的参数文件，`slam` 不会跳过这个接口。本轮在 `ysu_ros_humble` 中仅加载环境并查询包路径，确认安装后的本包 launch、导航 launch 和两份 YAML 与当前源码一致；未启动节点，也未读取运行节点的有效参数。",
+      "translatedText": "The independently launched processes and component mode of the entire startup use the same processed parameter file,`slam`does not skip this interface\\. In this round, only the environment is loaded and the package path is queried in `ysu_ros_humble` to confirm that the installed launch of this package, the navigation launch, and the two YAML files are consistent with the current source code; no nodes were started, and the effective parameters of the running nodes were not read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 94,
+        "costUsd": 0.000172
+      }
+    },
+    "f0338fee6010bd38130408c1cf92d9c6bb331e221edebf9018386dc562254414": {
+      "normalizationVersion": 1,
+      "sourceHash": "48f28ddc419743ec211ea28ad8d3677c16481178629ed36c27cc8d70ddac5f48",
+      "contextFingerprint": "fbd3fdc6289c73d0b080245d507c6fa2e25656318f0174c6b9e56eaf94b4fd53",
+      "sourceText": "###### satu_gyro（角速度读数饱和门槛）",
+      "translatedText": "###### satu_gyro (angular velocity reading saturation threshold)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "f03f363574b029e0688b94075d29726ab10f98c08dd90364fa496772fc5bcf0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "522bd810ece5d050bec8b413f4402b5e7564982aaa8f301d9a7b4d9782661b6f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "较旧的KDE版本可能使用：",
+      "translatedText": "Older KDE versions may use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "f05ecce2f507bf27878aeb6269d5eefc6da824d940c39a4b20342392e41e4a4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "61d0b0c989987060a57f6f6efe6933b3ae4654d8794cea6e619b130cd2dd4bcb",
+      "contextFingerprint": "4eabccec71e0f513c84cb41fa74356c1bccd3736a23d9ab1a1aedd326de81691",
+      "sourceText": "- iptables-mod-filter\n- iptables-mod-ipopt\n- iptables-mod-u32",
+      "translatedText": "- iptables-mod-filter\n- iptables-mod-ipopt\n- iptables-mod-u32",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f075ccfd47c114b1f026f54c868f1b78aa3ac236e678c9b8683ea776d6f194ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "af847336f9e687e13a3cbe8d2e5b75f4c19eb809fdeec1028dd636f8d2fbd225",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后：",
+      "translatedText": "Then:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "f097f59aeb276f866b9d98c3b92dbca4261382d923b583a912799fc988d66ae7": {
+      "normalizationVersion": 1,
+      "sourceHash": "62d586281e5a1604dcd3d021c1930a2ca359176939cf27af1f798095eed15362",
+      "contextFingerprint": "9c81750a01559695e64a082b5c2fd304e759e508fdc8b6f850e0a5366a0d6609",
+      "sourceText": "它维护 Curiosity Value Map（好奇价值地图），并根据 world-model plan 与真实 observation 的反馈差异减轻 hallucination（幻觉）对导航决策的影响。",
+      "translatedText": "It maintains a Curiosity Value Map and reduces the impact of hallucination on navigation decisions based on the feedback difference between the world-model plan and real observations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 44,
+        "costUsd": 0.000104
+      }
+    },
+    "f0d45da2e097a3e41d088da43b3e988ca4951dafc41befcac37bb56044884de9": {
+      "normalizationVersion": 1,
+      "sourceHash": "79796aaa710ea3a61efdeff2e3496dfee56791065daa44770ee8a27080e2e0c1",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1. 系统软件包更新 ",
+      "translatedText": "1. System software package update ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "3a063fa3012bcf1edef7368d9201969e22fc11ed48d5ee968b529c1656872542": {
+      "normalizationVersion": 1,
+      "sourceHash": "02b75272415e2b1ef831173d5d49753370d5d0854b15380f37e4b42e2ad036f3",
+      "contextFingerprint": "242ade61dde057e77c6defef73918c470bc3305e9e8865066e716514e8b459f1",
+      "sourceText": "可以把odom理解为“上游里程计持续记录的位置坐标”。本节点在每帧扫描的时间戳查询`odom←base_footprint`的TF，得到底盘在odom中的位置和朝向；该时刻查询失败就跳过这帧。",
+      "translatedText": "The odom can be understood as the \"position coordinates continuously recorded by the upstream odometry\"\\. For each scan frame, this node queries the TF at the frame's timestamp`odom←base_footprint`to obtain the chassis's position and orientation in odom; if the query fails at that moment, the frame is skipped\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 67,
+        "costUsd": 0.000133
+      }
+    },
+    "3a256ce0c101a2a31a711be4c972288460ec6559caffd412dae7696031b476ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f0cff7b076a8c33603c22504d32f22af729f20ce657e0a65459b61e6b09fba0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为了使用指向该结构的指针访问结构的成员，您必须使用 -> 运算符，如下所示：",
+      "translatedText": "To access a member of a structure using a pointer to that structure, you must use the \\-\\> operator, as shown below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "3a2a57765952be861deaa6aebaf78735e9572855e78044011b9647cb17787c01": {
+      "normalizationVersion": 1,
+      "sourceHash": "26ff11775720787327a86cf75f4c9a748f407ccb8a1cf2e6b329165cffe07446",
+      "contextFingerprint": "02ac5ea06f92eccbbe87c855d4df95484f6febdc4540a7916b10037665554e39",
+      "sourceText": "1. 在 Ubuntu 或 Fedora 上安装 C++ 开发工具。\n2. 下载我准备好的 CMake 模板。\n3. 先原样运行模板，确认环境没问题。\n4. 看一下模板里哪些文件和后面的学习有关。\n5. 用 VSCode 按 F5 调试模板程序。",
+      "translatedText": "1. Install the C++ development tools on Ubuntu or Fedora\\.\n2. Download the CMake template I have prepared\\.\n3. First run the template as\\-is to confirm there are no issues with the environment\\.\n4. Take a look at which files in the template are relevant to the later learning\\.\n5. Use VSCode and press F5 to debug the template program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 85,
+        "costUsd": 0.000161
+      }
+    },
+    "3a364e571a36353bf6822804415c5946a62e07eb701f498a77fd53cbc47fba26": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae7084d2a661345cb2ef8e9ca982b2b3a62039c7a38e6e4126d75d535492478e",
+      "contextFingerprint": "d46bd1a11b1841c5e08281def261df1fc4ed4c3c95ae38f996128229a99588a6",
+      "sourceText": "![1541673704101](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541673704101-896e39119b.webp)",
+      "translatedText": "![1541673704101](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541673704101-896e39119b.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3a50516ff40f57eae7e80e65852aaf57b8fbd2e820eacdabd03b63927d9e2e00": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b8dcaba373d1d11abf6ecedb09e3d7438aee537a85b0f02dda6afd4513705df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多态使用时，如果子类中有属性开辟到堆区，那么父类指针在释放时无法调用到子类的析构代码",
+      "translatedText": "When using polymorphism, if a subclass has attributes allocated on the heap, the parent class pointer cannot call the subclass's destructor code when releasing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "3a68fe5cb75c8342aaba864944bd025bb461f0c27ffc8d0387fe212e505c978d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9556d7ccc59368f04d6e2020f3a017bf7a22bc135c64db228ece39ad2d79c6a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开：",
+      "translatedText": "Open:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "3a69a908693e74dae0db65fca47593cd50015ce20a70be4d62e3e9cb38301279": {
+      "normalizationVersion": 1,
+      "sourceHash": "4059bf04b2de55d7c4200737b961cf94fc07766469f11119e6d0ac7f53e00eb4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "该点的处理时刻就是：",
+      "translatedText": "The processing time for this point is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "3a6e7d20757f0d1cae53b26383061d74f637387833748afd5338294f4d1f33aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd43f1035b497659aa0fed8648862351cc556f42018b9299fbaf17665bd85390",
+      "contextFingerprint": "8d4216fad0e13e98f023133d38ca29a25afd8b0419bfb49604c46bbc003a2277",
+      "sourceText": "`minBlockPointNum=10` 仍然生效：正常地形点输出要求邻域地面样本数至少10。提高它会减少稀疏格输出，降低它可能保留更多细小障碍，但也更依赖少量、不稳定的地面样本。它同时受降采样尺度、衰减时间和实际点密度影响。",
+      "translatedText": "`minBlockPointNum=10`Still in effect: normal terrain point output requires at least 10 neighboring ground samples\\. Increasing it reduces sparse cell output; decreasing it may retain more small obstacles, but also relies more on a small number of unstable ground samples\\. It is also affected by downsampling scale, decay time, and actual point density\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 69,
+        "costUsd": 0.000139
+      }
+    },
+    "3ab12037912105197e8a46fcbc6030825c94af5dcb0c2bcefbd02522046f1fa8": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6c2304ed0f32f6587a3f83408004bbc7de2a5b8ae2035df99055e85d600ec6f",
+      "contextFingerprint": "c0b6d0c238a821a7ee8c4bbe4c1c822fe8935505f5ba8a09726b7558746fe9c2",
+      "sourceText": "> 不同发行版和安装方式的路径可能不同。修改前应先通过`command -v code`、`readlink -f \"$(command -v code)\"`和桌面文件中的`Exec`字段确认实际路径。",
+      "translatedText": "> Paths may differ across distributions and installation methods\\. Before making changes, first confirm the actual path through`command -v code`、`readlink -f \"$(command -v code)\"`and the`Exec`field in the desktop file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
+    "3af00848f70aa5ade2c10f86fa3a7f59f7ac2ec505904a3df84d0204a779a69c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8413d7b62f90b2afdb55e93e7a62ab609d4044175b4f974654a33cab71b74268",
+      "contextFingerprint": "cc634910f18b16ef128770dca54d7bdca5621fb2abaf0c8171e44c13391705dd",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189102221.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189102221.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

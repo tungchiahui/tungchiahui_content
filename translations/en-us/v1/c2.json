@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c2132f91eef649ffd15135df41558f89a73977e253e0f6899cdf0eded40e6e1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0881f0d78172080f2a1a4d00481e3e6720391ccb3552272baca10da155e89af",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 结构体嵌套结构体",
+      "translatedText": "### Nested structure within a structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "c21d83ad801ef382155165ced544bff12d09a5cdd2c3b7a4b1c308ad20f0f6c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4c1d85befd96373cfe8cb8d52cff551a629ae3c85496861bab19d07a2645597",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结： 值传递时，形参是修饰不了实参的",
+      "translatedText": "> Summary: In pass\\-by\\-value, the formal parameter cannot modify the actual parameter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "c2502449a73f4893e06e33c376dcd4d1adccfb4799f9cc18375c310fb73fcaed": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d1d4b0464182a432478143b92d93a5c94d8516f60dddb5a638a40c5b70d190b",
+      "contextFingerprint": "d5a74bfc32c7d95bc0868d7452d195bce97752716a71824e8ef5be7beb8cc940",
+      "sourceText": "1. 单行格式if语句：`if(条件){ 条件满足执行的语句 }`\n\n   ![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-2ca437479f.webp)\n\n   示例：\n\n   ```cpp\n   int main() {\n\n   \t//选择结构-单行if语句\n   \t//输入一个分数，如果分数大于600分，视为考上一本大学，并在屏幕上打印\n\n   \tint score = 0;\n   \tcout << \"请输入一个分数：\" << endl;\n   \tcin >> score;\n\n   \tcout << \"您输入的分数为： \" << score << endl;\n\n   \t//if语句\n   \t//注意事项，在if判断语句后面，不要加分号\n   \tif (score > 600)\n   \t{\n   \t\tcout << \"我考上了一本大学！！！\" << endl;\n   \t}\n\n\n   \treturn 0;\n   }\n   ```\n\n   **运行结果（示例输入 `650`）：**\n\n   ```text\n   请输入一个分数：\n   您输入的分数为： 650\n   我考上了一本大学！！！\n   ```\n\n   ​",
+      "translatedText": "1. Single\\-line format if statement:`if(条件){ 条件满足执行的语句 }`\n\n   ![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-2ca437479f.webp)\n\n   Example:\n\n   ```cpp\n   int main() {\n\n   \t//选择结构-单行if语句\n   \t//输入一个分数，如果分数大于600分，视为考上一本大学，并在屏幕上打印\n\n   \tint score = 0;\n   \tcout << \"请输入一个分数：\" << endl;\n   \tcin >> score;\n\n   \tcout << \"您输入的分数为： \" << score << endl;\n\n   \t//if语句\n   \t//注意事项，在if判断语句后面，不要加分号\n   \tif (score > 600)\n   \t{\n   \t\tcout << \"我考上了一本大学！！！\" << endl;\n   \t}\n\n\n   \treturn 0;\n   }\n   ```\n\n   **Execution result (example input `650`):**\n\n   ```text\n   请输入一个分数：\n   您输入的分数为： 650\n   我考上了一本大学！！！\n   ```\n\n   ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "c284bc4dba1071db2501cc456784ae6523781b972a9cc90220c4fadff31164f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "21ac40bb66d77e3cf35ee6fd95fb3ae07a93bd2fec6bc2f77ae82ed7a05be1c3",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 核心论文目录",
+      "translatedText": "## Core paper catalog",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c287ae61ff0c4e325adb861517988bb9867ebef7cceacb61be12f30412805b85": {
+      "normalizationVersion": 1,
+      "sourceHash": "108398435706b7bd571278b0bc8ed32dff43e72d01d65826bbb92e1848420cca",
+      "contextFingerprint": "632ff4ba102a98a36dfc36353c2c76a9f7de3d5865912794679ea21be6c69f51",
+      "sourceText": "map是最终二维栅格和建图位姿的参考系；odom是当前里程计参考系；base_footprint是随底盘移动的参考点。正常关系可读成：",
+      "translatedText": "map is the reference frame for the final 2D grid and mapping pose; odom is the current odometry reference frame; base_footprint is a reference point that moves with the chassis\\. The normal relationship can be read as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 61,
+        "costUsd": 0.000127
+      }
+    },
+    "c29c7d293ca37de2f80aee2cd14be29ad4570f7ca6d55e5ba5837bf306b7c277": {
+      "normalizationVersion": 1,
+      "sourceHash": "c09a62da060dc3c54ec9a17fcd9ef3fd83678bb8afefcae25c0d8f6ec51ffd34",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一个长期值得追的问题是：",
+      "translatedText": "A question worth pursuing over the long term is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "c29e25a4a1b6ca1517eb5cabaf5c496a185e1639dbafe7c900a0d6b21e830292": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f7ab748593e4e0ca5ff5cd04bf6cd6f752c5bae015737ef9f5c0d86c66a7ac8",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "这里只是会限制ROS2里Gazebo的限幅。（真正的限幅应该让MCU端根据机械限位进行限位）",
+      "translatedText": "This only limits the clamping of Gazebo in ROS2\\. (The actual limiting should be performed by the MCU based on the mechanical limits\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 44,
+        "costUsd": 0.000103
+      }
+    },
+    "c2b5b88432683646842a3ff9d25a1bfbacb555490daf09bdc96bb1465ec1b8bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c213d6d78b0f745338865e55783730762fde40b3026f5347c19499800a560e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**示例1：**设计一个圆类，求圆的周长",
+      "translatedText": "\\*\\*Example 1:\\*\\* Design a circle class to calculate the circumference of a circle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "c2c64d41f8878f505c61f5ed80facf4ecb435c464b74a9fdb1bbd5c4d2766cd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "53a0ed8bb4a42308e9644eac34ec654e778c13e2a0cd4ac24e1a42f7ebb3e4df",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### interval（点云保存的帧数间隔）",
+      "translatedText": "###### interval (frame interval for point cloud saving)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "c2eb0b94f2da410787eecbe8ac9b7ff484b8da52e7052ba5cc0ea9443548a658": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fbcfeacaafa0ee751fd12a328aa10e6126aac5d9bc81ffc26ff1d29fe1004f0",
+      "contextFingerprint": "e5dbfa49ed8cc0fca3806971f4aab98b0e8a1c404ead18852467160ed79fd4fe",
+      "sourceText": "* 同一个作用域下\n* 函数名称相同\n* 函数参数**类型不同**  或者 **个数不同** 或者 **顺序不同**",
+      "translatedText": "* In the same scope\n* the function names are the same\n* function parameters**the types are different**  or  **the number is different** or **the order is different**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    }
+  }
+}

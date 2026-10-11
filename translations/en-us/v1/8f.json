@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8f013a728bd8fcf9f2426e9a8db96405858b4458530d7f4a625c99a07e93eecf": {
+      "normalizationVersion": 1,
+      "sourceHash": "bff2d7df27a6816b18340ad07ab514737bf4fd83cb350893dbce24969da3f8c9",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "它描述**雷达坐标轴与内部 IMU坐标轴怎样对应**。当前单位矩阵表示两路输入按轴向一致使用。整台 MID360斜装时，雷达与内部IMU一起倾斜，不能因此再把整机的-45°安装角填进这项。",
+      "translatedText": "It describes**how the radar coordinate axes correspond to the internal IMU coordinate axes**。The current identity matrix indicates that the two input channels are used with consistent axial directions\\. When the entire MID360 is mounted at an angle, the radar and the internal IMU tilt together, so the \\-45° mounting angle of the whole unit must not be filled into this item because of that\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 84,
+        "costUsd": 0.000157
+      }
+    },
+    "8f04fbbc772b336af22b7a8dd1ce7213c3de824bdb9ec3faf3c5121f4d247483": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0f58fe5e594269780853b341516c55891108d8cd3d842394d10248743851358",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 结构体",
+      "translatedText": "## Structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "8f10bffd0f6a98cbd1e697b08869a70788b08400c7ede15854bf5cc6459fc5e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "4889ba7403fa7a0b74d960cd79c2749c193b52ff5567196b1796c2db09f72be0",
+      "contextFingerprint": "a118d130747c5ba9242afc54a1eedaccecd8c431113365555f2d18124e4a9ef2",
+      "sourceText": "当前重点方向：Navigation World Model、Latent World Model、3D Structured World Model、World Model + Planning、World Model + Policy、Model-Based RL、动态障碍预测、实时化、Sim2Real、ROS2 / Nav2 实机部署。",
+      "translatedText": "Current key directions: Navigation World Model, Latent World Model, 3D Structured World Model, World Model \\+ Planning, World Model \\+ Policy, Model-Based RL, dynamic obstacle prediction, real\\-time implementation, Sim2Real, ROS2 / Nav2 real\\-machine deployment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 77,
+        "costUsd": 0.000153
+      }
+    },
+    "8f7d9134b887ba058a99c1c598c46b44059290212099d70f38b7da5acad857b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "5024ccc06d6cbdabc3cc5d2ff535acefdee274ceffa94596d96c9dec2e563859",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后输入： cl /d1 reportSingleClassLayout查看的类名   所属文件名",
+      "translatedText": "Then enter: cl /d1 reportSingleClassLayoutClass name to view    File name to which it belongs",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "8f8bc974c47790b50ac0d1634bb3e4dd9ba64d253cae9954301cf7eb25d6817e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d4a04b0daea5efeb36bc0c92c0f8aa6d4a090edcd06ea46089fc95157f019c9",
+      "contextFingerprint": "6d32d12cc2cd0a6d626e7ef2b4d174efa089c656da925f64c9eebcf26c497891",
+      "sourceText": "语法：` 返回值类型  函数名 （参数= 默认值）{}`",
+      "translatedText": "Syntax:` 返回值类型  函数名 （参数= 默认值）{}`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "8fa21896a62a5cd8b0f776b5b5544e212db40c84a8bff695a984902b003f9f76": {
+      "normalizationVersion": 1,
+      "sourceHash": "e26e7d2232e5288c9198ea5afe8b77242e545e210cb43eaf783401067ab5a6c0",
+      "contextFingerprint": "41f24fd56c5859c780fbefbaa9c7fb53640cdb03311a868e8d965a55e21a8186",
+      "sourceText": "| 启动选择 | 当前实际工作链 |\n|---|---|\n| slam=True | Point-LIO、二维扫描转换和slam_toolbox建图；另提供静态map→odom |\n| slam=False | Point-LIO、small_gicp三维PCD定位及map_server二维地图；不启动slam_toolbox |",
+      "translatedText": "| Startup selection | Current actual working chain |\n|---|---|\n| slam=True | Point-LIO, 2D scan conversion and slam_toolbox mapping; additionally provides static map→odom |\n| slam=False | Point-LIO, small_gicp 3D PCD localization and map_server 2D map; does not start slam_toolbox |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 232,
+        "outputTokens": 117,
+        "costUsd": 0.00021
+      }
+    },
+    "8fbe49028e3334c2066955847890a2a175ae832c8141b8269c54f5750f38c5eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "a761a5fea8b455b8f88ebc5efa2a0b2145410e2157d11cb143b07f7535d50db0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是说：",
+      "translatedText": "In other words:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "8fd105821824afdd68ef62ee7d6b3b9b41c1a5044285f0d48fdf07a8aa290d25": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e4e7af355d7a12df705fa0455a8a7d4013c744b002cc8cf6bee494289b12681",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 找不到 gdb",
+      "translatedText": "### gdb not found",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    }
+  }
+}

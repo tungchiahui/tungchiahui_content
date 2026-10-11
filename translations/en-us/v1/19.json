@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1923bb0a3577fd3e61621d7f66f5b7d804a0859291d4d607cc3c1cb642c8de4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6340263371271c45be2712412f246e8bb9e66c73d2517d85f3974b8c5bfcef45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "DreMa 使用 Gaussian Splatting + Physics Simulator 构建 Learnable Digital Twin（可学习数字孪生）：",
+      "translatedText": "DreMa uses Gaussian Splatting \\+ Physics Simulator to build a Learnable Digital Twin:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 27,
+        "costUsd": 0.00008
+      }
+    },
+    "192e11cbc0d9f5d0e01404de196010820295ce089d653c9d396263ca77d06f8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e64bc22f2b9330c80462b980bb1676c0cc1778c66f53a4c747bda788156a5a6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 实车先看：地图、起点和云台零位",
+      "translatedText": "#### Vehicle first look: map, start point, and gimbal zero position",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "1932c247121995913e3688144ff4967ab36e6d4f97b45e1308cfa63ba7839053": {
+      "normalizationVersion": 1,
+      "sourceHash": "286395619880f5feacf8597d69e010ca60119ff434d11327f0e71335c32eeaf3",
+      "contextFingerprint": "d45668a81defb06c55ec363ed26aa0058d5a792d5b416633d7c6603ad9c9b5cc",
+      "sourceText": "下面的两个例子是两种独立的工程形式，都在前面完成的 `swap` 工程基础上修改。可以只选择一种练习；如果连续练习，需要按照第二个例子的说明先恢复文件名。",
+      "translatedText": "The following two examples are two independent engineering forms, both modified on the basis of the previously completed `swap` engineering\\. You may choose only one for practice; if practicing consecutively, you need to first restore the file name according to the instructions in the second example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 58,
+        "costUsd": 0.00012
+      }
+    },
+    "19425496d212076f8501cb1baabfbd9e2172c2affc2a4c527329b147ba7ed3bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "48e41327ab0bf2b3c49e8bca783e1bcec85f77ad4f85b309681f4853e6f24d65",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 构造函数，没有返回值也不写void\n2. 函数名称与类名相同\n3. 构造函数可以有参数，因此可以发生重载\n4. 程序在调用对象时候会自动调用构造，无须手动调用,而且只会调用一次",
+      "translatedText": "1. Constructors do not have a return value and do not use void\\.\n2. The function name is the same as the class name\\.\n3. Constructors can have parameters, so overloading can occur\\.\n4. When the program calls an object, it automatically calls the constructor; there is no need to call it manually, and it is called only once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 75,
+        "costUsd": 0.000142
+      }
+    },
+    "195a9bdd2fa87060ec1bb3186a7372763ee57603582141e8fad00d40bc78216d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c9a6221cc76533a0aadbe0f7e23b72eef1852508cee53dba928c4b7637663c0",
+      "contextFingerprint": "07490f6c126c37277dcf14fe565ec1793e9d89f0a45258827bedcb257c53b3c6",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189083467.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189083467.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "195ff98e9459da3f7db85f52ac94f343530b7b11c3d9532fa31ee7c2a686963e": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a84e25e1f63e1a237df6f337e62e0669400c747c24ebe710343cdbe96040a5c",
+      "contextFingerprint": "0f3985c0332ddf4dafa39228c57bddf7a41b0e0ca0f30ba4c629290482d4d41b",
+      "sourceText": "输入里程计与扫描没有时间配对或插值，也没有等待有效里程计的保护；近场点云同样没有同步与新鲜度检查。节点直接使用输入坐标，未校验参考系，最后却固定写 `odom`。这些前提对坡面高度和距离分区都有影响。",
+      "translatedText": "The input odometry and scan are not time\\-paired or interpolated, and there is no protection for waiting for valid odometry; the near\\-field point cloud likewise lacks synchronization and freshness checks\\. The node directly uses the input coordinates without validating the reference frame, yet at the end it fixedly writes `odom`\\. These premises affect both the slope height and the distance partitioning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 80,
+        "costUsd": 0.000153
+      }
+    },
+    "1968310e78bfca333d6f498950b69b5ff3de7005efe8a9c9b18396518bd62545": {
+      "normalizationVersion": 1,
+      "sourceHash": "0480c77621864b9a8eb7b56db00aed24ebac7c49c1252a874058b73a0d5e7913",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### useSorting、quantileZ 与 considerDrop（地面高度选择与低处高差处理）",
+      "translatedText": "###### useSorting, quantileZ, and considerDrop (ground elevation selection and handling of elevation difference at low positions)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "197997694d7b0786868fc355e4ef7176ecd997427a1229a4c47330f72b0f867b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6218b7717cb4124adb5e2113b3abf286058c9febcfc45f250ae14448b7784d7",
+      "contextFingerprint": "48ba117865d952a46a96cd63a9763a2ca65ef60ed57ba642dfee90cd4e84e07b",
+      "sourceText": "查看`sensor_msgs/msg/JointState`：",
+      "translatedText": "View`sensor_msgs/msg/JointState`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "198c43b638a952a0e1b693d66b6ab4e1786ef31f5ff7863ef316a0b08c7c84ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dfdc73d0681652c8f26eb8f002ef40ca66bf2d93771e9909687425decb477b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**特点2：**数组是由==连续的内存==位置组成的",
+      "translatedText": "\\*\\*Feature 2:\\*\\* An array is composed of ==contiguous memory== locations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "19da1a3152751ab30a510f5d329524990a33d4a12ba3fa28734089c7de039b1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "93c2e57b3496b35698a7e612ea0babb74a34a59ad330fbaae6418bd05cb66b0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "生活中你的家有客厅(Public)，有你的卧室(Private)",
+      "translatedText": "In life, your home has a living room (Public) and your bedroom (Private)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    }
+  }
+}

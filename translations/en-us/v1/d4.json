@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d40063dd0b014183df61affa64ddee1bff35780d8bd770d4c9da152bd6b3e252": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a7acd9fcacd7fe08c8c884069289ef8da28fd1103f14044edca05d411e392ac",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 5. 刷新桌面应用缓存",
+      "translatedText": "### 5\\. Refresh desktop app cache",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "d407e307d060d5f6080b6e054305ef7fddc07068f61b33eb9c52c753db298c09": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0aa6e4e47e4ade1e6ece5ded9dffee73606e95e16c7601675a5dbcc56c3829b",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数调用运算符重载",
+      "translatedText": "#### Function call operator overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "d449fda98383bc1b09be80d66f02df6c2459a39c6ed3e989869d82119a590fef": {
+      "normalizationVersion": 1,
+      "sourceHash": "7444a530f21c3ddc51cadeed89fad521a10f96ed3a88f17c5d270193405564a9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两订阅和两发布的队列深度均为5。输入话题名是相对名，随节点命名空间和重映射解析；坐标系字符串不自动添加节点命名空间。两个输出话题名在源码中固定，不能通过修改输入参数改名。",
+      "translatedText": "The queue depth for both subscriptions and both publications is 5\\. The input topic name is a relative name, resolved according to the node namespace and remapping; the coordinate system string does not automatically add the node namespace\\. The two output topic names are fixed in the source code and cannot be renamed by modifying the input parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 71,
+        "costUsd": 0.00014
+      }
+    },
+    "d469b774f7a63da477edb521d96c6ac5c20b2bd5cdc8ed887f7dabdb718c5995": {
+      "normalizationVersion": 1,
+      "sourceHash": "9042099dac778ca7129bc157bc8378769e8cd1313527cb42a046a112194e331c",
+      "contextFingerprint": "2e958c4d03d7fd621530c2497c804e13844aaebdff48c2e459091500b6f38128",
+      "sourceText": "###### max_dist_sq：1.73 m是配对门槛，不是定位误差指标",
+      "translatedText": "###### max_dist_sq: 1\\.73 m is a pairing threshold, not a positioning error metric",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "d4936e6bb952adce9472ce78b14132fd5b1ebbeb1b5151d1dbaceb53d4ee7266": {
+      "normalizationVersion": 1,
+      "sourceHash": "3481936eeb4c96d72e5aeb098d4c3dba32752ee5337f89055c8f1a0586994aaf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "添加必要组件：",
+      "translatedText": "Add necessary components:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "d49d3f978b26c8a0cf41fa0c43ec116dbf20bf7a2bbb5a2f2b3fbe06d5fb00bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ae9cd4d3246fecb9c8e417d72c8594f5abee8382e9f68e18d3f908236789fff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "核心不是“换一种传感器输入”，而是让世界表示具有显式三维几何结构。",
+      "translatedText": "The core is not \"switching to a different sensor input,\" but rather making the world representation have an explicit three\\-dimensional geometric structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
+    "d49e9022de8d1c56fc7f6df4c56f784e2f29b4c941623f0adb2defe1933e21dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a07d0e8295c4ff4c1a0b082cd392ff655ea81317ac21ddc0f83e7f485a74e9c0",
+      "contextFingerprint": "16f6aa8de4c301b2dd668c4cc0539473272067ba5f53f9ce2eb6bcd6e934bdcf",
+      "sourceText": "头文件中的 `extern \"C\"` 只会在它被 C++ 编译器处理时生效，作用是告诉 C++ 编译器：这些函数按照 C 语言的链接规则处理。",
+      "translatedText": "In the header file, `extern \"C\"` only takes effect when it is processed by the C++ compiler, and its purpose is to tell the C++ compiler: these functions are handled according to the linking rules of the C language\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 66,
+        "costUsd": 0.000133
+      }
+    },
+    "d4b0a00cba1a3612b25d52545d0a53d906b0c196e68532dbd9de0b5d588e05b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e562eefa6f5b87fb77b588f24fd686f75d036b1622b3e29b13471657c95cb811",
+      "contextFingerprint": "da66184916f41e1edbe81609a79348ee6538c89d8213525c07a2cac8c40a4749",
+      "sourceText": "旧章节仍有两处与当前模型冲突：把 `rel_yaw` 填到 `gimbal_yaw_odom_joint` 的旧表，以及“雷达挂在 `gimbal_yaw_odom` 与 `gimbal_yaw` 没有区别”的说法。当前两个 odom 关节固定，实际 yaw 在 `gimbal_yaw_joint`、实际 pitch 在 `gimbal_pitch_joint`，串口 position 为 `{relative_pitch, relative_yaw, 0, 0}`；MID360 随 yaw 转动，不随 pitch 转动。本块按当前模型说明，旧章节原文保留待审查。",
+      "translatedText": "The old chapter still has two places that conflict with the current model: the old table that maps `rel_yaw` to `gimbal_yaw_odom_joint` and the statement that \"mounting the radar on `gimbal_yaw_odom` versus `gimbal_yaw` makes no difference\"\\. Currently the two odom joints are fixed, the actual yaw is at `gimbal_yaw_joint` and the actual pitch is at `gimbal_pitch_joint`, with the serial port position being `{relative_pitch, relative_yaw, 0, 0}`; the MID360 rotates with yaw and does not rotate with pitch\\. This block explains according to the current model, and the original text of the old chapter is retained for review\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 221,
+        "outputTokens": 114,
+        "costUsd": 0.000204
+      }
+    },
+    "d4fb35cdfa31e7406a52681f73b6bc715db1c351672139fc989561be1c4f706f": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a339c0a8d021b48748672a1eb450d1b6cdf3d35dd99e547133b7724cde2f79c",
+      "contextFingerprint": "7b298187ffe0596a2e10fbf4757a7637a50ad0e53077ddaedda8878e6da513d8",
+      "sourceText": "如果刚做完上一个例子，先把 `swap.c` 改回 `swap.cpp`：",
+      "translatedText": "If you just finished the previous example, first change `swap.c` back to `swap.cpp`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "4d06cb89c2def2d17962db958efe51d02726cd94a6c9bd3754e61864c2c1e2c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1fa568eb1d6c627223526c786de9eaeab1a988068e4e2a0472a0a2df38a9a156",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 无法实例化对象\n * 子类必须重写抽象类中的纯虚函数，否则也属于抽象类",
+      "translatedText": "* Cannot instantiate object\n * A subclass must override the pure virtual functions in the abstract class; otherwise, it is also an abstract class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "4d08e01ed2aa3d59212a53834913a9f59fa205446a716660e00a280cace769ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "082978e84600a26ac3c9e79777321aa4b1f9c867ffd1df5a5b4337fa79a18db7",
+      "contextFingerprint": "d87ff5e6c7d2bae59f0c41545639d64091572a341c9625f9d68d4e710e47adde",
+      "sourceText": "**附加量设为0，只关自旋附加项；输入速度全零，也不会自动清掉自旋附加项。** 输入全零且 `spin_speed_≠0` 时，转换仍会输出非零角速度。收到 `cmd_spin` 也只改变量，没有立刻发布新 `cmd_vel`；之后进入速度处理回调才体现新值。它本身不是持续输出速度的独立旋转控制器。",
+      "translatedText": "**Set the additional amount to 0, only disable the spin additional term; even if the input velocity is all zeros, the spin additional term will not be automatically cleared\\.** When the input is all zeros and `spin_speed_≠0` , the conversion will still output a nonzero angular velocity\\. Receiving `cmd_spin` only changes the variable and does not immediately publish a new `cmd_vel`; the new value is only reflected after entering the velocity processing callback\\. It itself is not an independent rotation controller that continuously outputs velocity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 102,
+        "costUsd": 0.000185
+      }
+    },
+    "4d55433feb34e41934090fd5264a1b018bfd758015e69e8b5caa9fbed0c13368": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd6464963d9ad9d2b1413782fe86aa7b40bdc24d2bbaa8aaa2cfad6f57faff5c",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**练习案例2：点和圆的关系**",
+      "translatedText": "**Practice Case 2: Relationship Between a Point and a Circle**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "4d65a5f82b32b4e04f430141c02e83ed0ec2d815ecddc345032209a057b1a2b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "64df3baf20a2641968008224d9f30a666c9f9661d6cfac63071aa996f3308e71",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**让代码结构更加清晰",
+      "translatedText": "\\*\\*Purpose:\\*\\* Make the code structure clearer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "4d76f738d0fabf6911b381085feed4b715065b78308e684f7ac4b388cf3f18ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "2868775d2cf4709c5cd9adec697a2329712ec497c5412140c9d73523cd16d9dd",
+      "contextFingerprint": "950232a9bb37226d3d698054d43ef68e485d430d0d19234365cf0929d1403fac",
+      "sourceText": "###### use_sim_time（ROS标准时钟参数：仿真段存在缺项）",
+      "translatedText": "###### use_sim_time (ROS standard clock parameters: missing entries in the simulation section)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "4db96b863ac7f31e870dac4a23391a35575591176c4416357abe51b8bfcad28a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f002e44ee860de69218824e57c0581209ad677ab7b64ed629166a67c0c529bb4",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 建议：给标识符命名时，争取做到见名知意的效果，方便自己和他人的阅读",
+      "translatedText": "> Recommendation: When naming identifiers, strive to achieve the effect of knowing the meaning from the name, making it easier for yourself and others to read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
+    "4dc4cfd510ca1f777cf11f2432ce10d60403324a3d928632643368249a48882f": {
+      "normalizationVersion": 1,
+      "sourceHash": "87321c4b16103351ee5bc657004de76a4688c6bc01e27c1fe0c447569aaac554",
+      "contextFingerprint": "838b868bdd0f79754d6c681477f74c3a3630df2699dcbce19847c85203e09cba",
+      "sourceText": "当前保持 `odom`。节点对点云执行刚体变换，对位姿左乘同一缓存矩阵，然后填写输出参考系名称。它没有验证输入位姿的 `header.frame_id` 与 `child_frame_id` 是否符合预期，也没有按输入名称查询 `camera_init → odom`。",
+      "translatedText": "Currently keep `odom`\\. The node performs a rigid transformation on the point cloud, left\\-multiplies the same cached matrix to the pose, and then fills in the output reference frame name\\. It does not verify whether the input pose's `header.frame_id` and `child_frame_id` meet expectations, nor does it query `camera_init → odom` by input name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 68,
+        "costUsd": 0.000136
+      }
+    },
+    "4dc9f8de76e74a34152bde6fff0305d18092f0dfc988fde47d991c37da0ace23": {
+      "normalizationVersion": 1,
+      "sourceHash": "39972d6a8e102609bdb5b63eb4e0225b52901fd809f8a470a5bac29c6a585608",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个很重要",
+      "translatedText": "This is very important",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d21bc8390f00c4ca8c7b8be3ccb23e6ed36dad6ca5c4a44debfc7779b95ea0e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "68fead1b3699d4ce67b6c9e1ccf2148aab7afdb7f2d690a6294e8032b697e915",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的库。",
+      "translatedText": " library\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 8,
+        "costUsd": 0.00005
+      }
+    },
+    "d21cda445c62d4ba2f93978e7f249dfe6433fdd278cbf4f2a442ef34f4d2a21d": {
+      "normalizationVersion": 1,
+      "sourceHash": "496a3294fd8e05fcdd9ca2200b190a120a23b9618433311a14d9a3d492dff33e",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 引用必须初始化\n* 引用在初始化后，不可以改变",
+      "translatedText": "* A reference must be initialized\\.\n* After a reference is initialized, it cannot be changed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "d239d76b977e62beddd97ce5616fd8c90138e02d17f4f6af734adbaff4f744d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c54ba72508e3091ae0b29c02faf219f276b91f9cb2377462b09272450b9aedf0",
+      "contextFingerprint": "8a8aae66780c7d905dc0b50199b0cdc2797c20911cefb0ae37abd730621251d3",
+      "sourceText": "下面的 IMU噪声可以先用两句话理解：**测量噪声**管“有多相信这次读数”；**运动状态的过程噪声**管“允许原来的运动估计多快改变”。它们作用不同，不应因为名字都有 `cov` 就一起加大。表中单位按本地公式推导，也不能直接与厂家噪声密度或原始 g读数比较。",
+      "translatedText": "The following IMU noise can first be understood in two sentences:**Measurement noise**governs \"how much to trust this reading\";**Process noise of the motion state**governs \"how quickly the original motion estimate is allowed to change\\.\" They serve different roles and should not be increased together just because their names both contain `cov`\\. The units in the table are derived from local formulas and also cannot be directly compared with manufacturer noise density or raw g readings\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 102,
+        "costUsd": 0.000183
+      }
+    },
+    "d23dd94299a171df557ad48421ae7c740a5fb421d1c7347a76ab5d272ed0bfb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0d6f5a248b583de22860517163d2b7cd0d7907c74763eff4922988290007051",
+      "contextFingerprint": "6f39a70c91826ac4858293f07260392f11c0bee523bec4ee8385dce17062d600",
+      "sourceText": "一个`joy_controller.launch.py`是用来发`/cmd_vel`的。（实车用的是这个）",
+      "translatedText": "One`joy_controller.launch.py`is used to send`/cmd_vel`of\\. (The actual vehicle uses this one\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "d26276eec2c5524d57dd70f6bdb9e49500c49ed4ff452542b87a459d2b1092ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "5064800a307d14ad29c3a590d6d85b5436f6a315f81a7e345124e307558b96dd",
+      "contextFingerprint": "18d8cbf3d426fb09f58a5315272d3c7c86809aa130d31c6bfcf7b825874eb2aa",
+      "sourceText": "当前模型中 `base_footprint → chassis` 是固定连接，高度为 `chassis_height=0.0625 m`。本节点保留完整三维变换，并不根据名称把底盘投影到地面或强制水平。",
+      "translatedText": "In the current model, `base_footprint → chassis` is a fixed connection, with a height of `chassis_height=0.0625 m`\\. This node retains the complete three\\-dimensional transformation and does not project the chassis onto the ground or force it to be horizontal based on its name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 51,
+        "costUsd": 0.00011
+      }
+    },
+    "d2654619fb2c8e43ad3683a77f76776f09db22750329241e12ece917efd06634": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7b53f6254a57d780ed7ce979389693dc9ec9c375a793a1af156fd724a0f3355",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**示例1： 基本语法**",
+      "translatedText": "**Example 1: Basic syntax**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "d288056b9061a828afde7fb09dabb17f34f3d0f959b655a73fc38fea044abd6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d8bd5a573c188dfe5549fb3df4213d6b261d73f4f34dfbfc6f50a4ffe0602f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "构造函数调用规则如下：",
+      "translatedText": "The constructor invocation rules are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "d29222da29798bd9164e08f2df1343457066f1f123f0d8facc915606e2dd5571": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0a55a8c8c5300a0cd5607761b6666130135c61c5b75cfb1f638d9c6da265007",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而 JointState 记录 0° → −90° → −180°，是为了告诉 TF：底盘与云台的相对关系正在变化。",
+      "translatedText": "JointState records 0° → −90° → −180° in order to tell TF: the relative relationship between the chassis and the gimbal is changing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "d29c6326ee78db95197944f3338f2b7f9e90eb28aa6c83eb401439a716f8df55": {
+      "normalizationVersion": 1,
+      "sourceHash": "74a163f2ead2e1d07eb6178572a471b048c8a2edf2fb6902dc2aa6c2f5c8d27b",
+      "contextFingerprint": "124307198354679f5f718640312e51e1fb2ecf7d7a54b940db3dd2233c02c6d8",
+      "sourceText": "回调只保存最近输入的frame_id与时间戳，没有检查多帧是否同系，也没有在frame_id变化时清空累计点。PCD没有ROS消息那样的frame_id，本节点按自己的来源假设处理；文件名和坐标系字符串不能证明地图已经对应。",
+      "translatedText": "The callback only saves the most recent input frame_id and timestamp, does not check whether multiple frames belong to the same system, and does not clear the accumulated points when frame_id changes\\. PCD does not have a frame_id like ROS messages, and this node processes based on its own source assumptions; the filename and coordinate frame string cannot prove that the map already corresponds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 104,
+        "costUsd": 0.000188
+      }
+    },
+    "d2afecf434ea57a7f0f9a03f50e9cd2f649d9fa3a0682036bf8f19819ca522e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fc24fcf2f02f23f162043b9ef942c499d91e089d39f71c3c2291096076dace8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "删除编译配置文件：",
+      "translatedText": "Delete compilation configuration file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "d2e20a441fdddebd1fdca4c5d376137dcfa7b2c20980aad4000a3cbe3a96cdc3": {
+      "normalizationVersion": 1,
+      "sourceHash": "6697c7f125214c15b457a89c9af1b71a617c2856bf18b3e8ee86aebfcc27ce64",
+      "contextFingerprint": "00b87cbf661dcfbf26eb1e53fd775b831a1f52c1b3f7994f2739be94b292d78c",
+      "sourceText": "Fork：https://github.com/tungchiahui/ysu2026_rm_sentry",
+      "translatedText": "Fork：https://github.com/tungchiahui/ysu2026_rm_sentry",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d2e77d0be72a15dc7d575d1dac6c12121237ef330603cb67d4bc1e3d6a45d46e": {
+      "normalizationVersion": 1,
+      "sourceHash": "029c3038ae6e5c7f234bcbd25501a0ac22959ae6de54677fab27825a6b34ff43",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "Point-LIO 仍然会根据时间戳等待 IMU 覆盖点云扫描末尾。但这只是按时间戳组织数据，不能证明两种传感器的物理采样时间已经对齐。",
+      "translatedText": "Point-LIO It still waits for the IMU to cover the end of the point cloud scan based on timestamps\\. However, this only organizes the data by timestamp; it does not prove that the physical sampling times of the two sensors have been aligned\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 64,
+        "costUsd": 0.000129
+      }
+    }
+  }
+}

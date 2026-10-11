@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "bd08f209fb1dfeecea8c0a18d11e3b82daaf98f010f77b8987522a5c173386b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "525cab6b5cb317eeecc22ca29cee59b535f068e92e98b05d971fed664e6eec6c",
+      "contextFingerprint": "a9850f1f343c3d4d1109eaa89e889806781c37b249c235cd2489ab62b38976b5",
+      "sourceText": "实际发布周期应按对应启动模式测量后核对。修改scan_time只会改字段，不会使10 Hz输入变成20 Hz扫描，也不会给各个角度格补出真实采样时间。",
+      "translatedText": "The actual output cycle should be verified after measurement according to the corresponding startup mode\\. Modifying scan_time only changes the field; it will not turn a 10 Hz input into a 20 Hz scan, nor will it fill in real sampling times for each angle cell\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 68,
+        "costUsd": 0.000135
+      }
+    },
+    "bd296c2f6cb22b58f88fbe77b8139011435b537f9b3293f23a8a0ab5ec6de5fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "76238de1c5acfce7e3e195aff18c784cdbe84d872226c6b9e187a5a1fbe6bd6f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开工具窗口后，定位到当前CPP文件的盘符",
+      "translatedText": "After opening the tool window, locate the drive letter of the current CPP file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "bd32e180653f90ef428d9c65bb0d4bb8a5c2652f31aa142d95f0d91940c464f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bca7f4563da79a15ad7bb3b58ac5b4eed00967454def9fc69e815540805c0e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**例如：**每个老师辅导一个学员，一个老师的结构体中，记录一个学生的结构体",
+      "translatedText": "\\*\\*For example:\\*\\* Each teacher tutors one student; in a teacher's struct, a student's struct is recorded\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "bd53f0f631a7b300d43ff2bff41e74c763b191b99760b1bd84a2e07aad24b0ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc28d58d4cf0ff4b1f562dad29550a231340e1419d8112416a918c6b33a5b4a5",
+      "contextFingerprint": "1ff79191bd30f7bbf55c61a304e0cb2f7ee8ac943db7ce03d099ffec1b420f10",
+      "sourceText": "#### pcd_save（点云地图保存）",
+      "translatedText": "#### pcd_save (point cloud map saving)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "bd5d37e1bb99170f7de3ff8eed5dff25a3fc2a0b0baf64bb2a1d1f39c348c2ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8ba4865ddd701ab06ead0f6714e3c5386765c7413f661fc7f9673cef3c1e7fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只有非静态成员变量才属于类的对象上",
+      "translatedText": "Only non\\-static member variables belong to objects of the class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "bd6621a2af26482f773c6a490f011398e9c687c320f2301a060ee8171d630d6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c91643aa11bc1b12052f7cef504a4901bf97ff74d222db0e2bd8adf079ff052",
+      "contextFingerprint": "88cff1107816b3a267c0bf1aa41f8e00f7d2c69e7447eb32d1ee4a31e7f0eb53",
+      "sourceText": "每个配对回调按点云时间戳查询 `front_mid360 ← base_footprint`，最大等待0.5秒，不使用上游节点那种一次性初始化缓存。设 `T_AB` 把 B 系坐标转换到 A 系，O 为输入里程计参考系、L 为雷达、B 为底盘，则计算：",
+      "translatedText": "Each pairing callback queries by point cloud timestamp `front_mid360 ← base_footprint`, with a maximum wait of 0\\.5 seconds, not using the one\\-time initialization cache of upstream nodes\\. Let `T_AB` transform coordinates from frame B to frame A; O is the input odometry reference frame, L is the lidar, and B is the chassis\\. Then compute:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 74,
+        "costUsd": 0.000147
+      }
+    },
+    "bd66c4fcc9a0cf1ca69f8621cb410bdbaaf46f5803c92a15efd5234fc3dbdd34": {
+      "normalizationVersion": 1,
+      "sourceHash": "ade9bcb1f546338932c741bfda6a73833a436f36141d18db6cb29fa5805403ec",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "求出立方体的面积和体积",
+      "translatedText": "Find the surface area and volume of the cube",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "bd785d689e34a176172e4ea62a1ce5870c73968b8f2daf8dad4e0b26c11372da": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc776427c269c971334bd6473a759b2d98233bc3e5fe208b677b09247f160886",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 删除执行make menuconfig后产生的一些临时文件，包括一些软件包的检索信息，删除后会重新加载package目录下的软件包。若不删除会导致一些新加入的软件包不显示。",
+      "translatedText": "> Delete some temporary files generated after executing make menuconfig, including retrieval information for some software packages\\. After deletion, the software packages in the package directory will be reloaded\\. If not deleted, some newly added software packages will not be displayed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 54,
+        "costUsd": 0.000116
+      }
+    },
+    "bdab02d440657756d499ce453b48612cd065cea6f617e7ee5d66ea36f901a962": {
+      "normalizationVersion": 1,
+      "sourceHash": "451aebc12c6e965d709a0d17850600bc4490215b31dc0cac43d2479d567091e8",
+      "contextFingerprint": "51873ccf9a17fe0a59676a0dc8489efb6f94465283fbd748cd0ca471548e7694",
+      "sourceText": "- [ ] 精读 X-MOBILITY\n- [ ] 精读 NWM\n- [ ] 精读 DINO-WM\n- [ ] 精读 World4Drive\n- [ ] 阅读 WMNav\n- [ ] 阅读 Drive-WM\n- [ ] 精读 GWM\n- [ ] 阅读 DreMa\n- [ ] 阅读 MoSim\n- [ ] 阅读 MaskGWM\n- [ ] 阅读 One-Step WM\n- [ ] 阅读 AR Forcing\n- [ ] 阅读 NavWAM\n- [ ] 理解 Renderer / Simulator / Planner\n- [ ] 理解 RGB / Latent / Occupancy / 3DGS / Physical State 等不同 WM 输出\n- [ ] 跑通至少一个正式顶会 baseline 的 official checkpoint\n- [ ] 建立 Failure Case Dataset\n- [ ] 从稳定 failure 提出 Research Question\n- [ ] 做最小修改验证 hypothesis\n- [ ] 再进入正式创新点设计",
+      "translatedText": "- [ ] Close reading X-MOBILITY\n- [ ] Close reading NWM\n- [ ] Close reading DINO-WM\n- [ ] Close reading World4Drive\n- [ ] Reading WMNav\n- [ ] Reading Drive-WM\n- [ ] Close reading GWM\n- [ ] Reading DreMa\n- [ ] Reading MoSim\n- [ ] Reading MaskGWM\n- [ ] Reading One-Step WM\n- [ ] Reading AR Forcing\n- [ ] Reading NavWAM\n- [ ] Understanding Renderer / Simulator / Planner\n- [ ] Understanding different WM outputs such as RGB / Latent / Occupancy / 3DGS / Physical State\n- [ ] Get an official checkpoint of at least one formal top\\-conference baseline running\n- [ ] Build a Failure Case Dataset\n- [ ] Propose a Research Question from stable failures\n- [ ] Make a minimal modification to validate the hypothesis\n- [ ] Then proceed to formal innovation design",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 293,
+        "outputTokens": 177,
+        "costUsd": 0.000301
+      }
+    },
+    "bdc0997a9bcc32f44215f1075a26599f6ce3e953b843bcada11c503a1bb0f096": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2c75e665af31d396c20255f36c01ba7abdf7fe6e08cfc73f5bc64bd951d89fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "r = 圆柱半径\nl = 圆柱沿自身轴线方向的长度",
+      "translatedText": "r = radius of the cylinder l = length of the cylinder along its own axis",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "bde1b012705eb998c153166a39f041c6f35895a470c47d486f7c979600ff0ad1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5c199163e3ffdc3a404c9871f6ec401fff7bf245e0f5f565e0ecee99a3fe6c5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "源码直接相加，没有对最终角速度限幅或平滑。上游平滑器处理的是相加之前的速度，不能据其限值认定相加后的总量已受同样限制。是否适合实车需结合底盘能力及下位机限制核对，本轮不调整转速。",
+      "translatedText": "The source code adds the values directly, without limiting or smoothing the final angular velocity\\. The upstream smoother processes the velocities before addition, so its limits cannot be used to conclude that the total after addition is subject to the same limits\\. Whether it is suitable for a real vehicle must be checked against the chassis capability and lower\\-level controller limits; in this round, the rotational speed will not be adjusted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 85,
+        "costUsd": 0.000158
+      }
+    },
+    "bdeceb8bac8b9fd8f11af8c19743f3976dce717754903de7fa46d7ceacfd08fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae9b28a67bedeed68c1ee971bd9e57fe1b96fe88229dd5ca50390bbe570acc8a",
+      "contextFingerprint": "0f65697f6ac27eeb2ce72adc9b0a5ccd2b65c861ead022c9e14a5f2298bf5ad2",
+      "sourceText": "![1544861202252](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1544861202252-f2305d08e7.webp)",
+      "translatedText": "![1544861202252](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1544861202252-f2305d08e7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bdf78f0a5e05e6131996d532da03cda7c53bef656cb004b3ef598cc39fb7fadf": {
+      "normalizationVersion": 1,
+      "sourceHash": "21d744ac1c4f5187352bc234e24fdac21453854313a3bb499bd4bcf739a92111",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**练习案例2：**数组元素逆置",
+      "translatedText": "\\*\\*Practice Case 2:\\*\\* Reversing array elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "bdf7d059443fc9e498619ab81c671b468bb6c7497b43e2d7999276ed3975e320": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f40673f506ec895e78f51f9c640861b2e2e4d8cc28b75912e806f5a598e2afe",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 构造函数的分类及调用",
+      "translatedText": "#### Classification and invocation of constructors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    }
+  }
+}

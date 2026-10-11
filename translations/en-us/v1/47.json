@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "47303ff8f014880efc426de0868188fa0c4c5075ac644ad79731f6516f2c3fdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "477f75ac52b5e006dda7edece2bd98c74be94a3a12488422cae5e99db2123af4",
+      "contextFingerprint": "e9685df1cf541c8bfd89a0042b495400225ee7bee0d4bcb79da9c6c311c6ce49",
+      "sourceText": "启动串口程序发布`/serial/gimbal_joint_state`",
+      "translatedText": "Start serial port program publishing`/serial/gimbal_joint_state`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "474dfeb74ede0eea1e5bd01b918d918ff26189ee1aa63489bc0041552b0db4c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8253ce3115e0e0a1166fc81177e8c49e5ccc96e714de903d9247cb3f6d14f35",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 环境说明本教程以乌班图22.04作为环境",
+      "translatedText": "### Environment description: This tutorial uses Ubuntu 22\\.04 as the environment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "4759695c087a65808f81ad23d3dacb1190be17d56b8370a13fecb813dad0fde5": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a138b07d4f872bb0ac8303a7573732b9a9f544168bcf60d6771aaba5bcf9cc9",
+      "contextFingerprint": "e85ae0e273e4790a1d2d01dace68b9c82ac2d98978419956068158810f600dbc",
+      "sourceText": "另一个已确认的源码缺口是初始化保护：点云回调没有检查初始 TF 是否成功，直接使用缓存。容器的 `tf2::Transform` 默认构造不初始化数值，而节点也没有先将缓存设为单位变换。如果点云先到、或首次 TF 查询一直失败，可能使用未初始化矩阵；触发后的运行表现本轮未测试。",
+      "translatedText": "Another confirmed source code gap is initialization protection: the point cloud callback does not check whether the initial TF succeeded and directly uses the cache\\. The container's `tf2::Transform` default constructor does not initialize values, and the node also does not first set the cache to an identity transform\\. If the point cloud arrives first, or the initial TF query keeps failing, an uninitialized matrix may be used; the runtime behavior after triggering was not tested in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 95,
+        "costUsd": 0.000175
+      }
+    },
+    "477cc71ef6d2cbd03bf2b3bb9cc5e62bf17bdb5fb55129a4aaac1667bac993ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "7db1bf5b27bbf1778f370126e39f86b99c522be1c7bd4178b50a4c277f8f76ed",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**菱形继承概念：**",
+      "translatedText": "**Diamond inheritance concept:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "47ae8f6234313337fbc9d8ad5da67fd43e4b6b151308a704865bd7ce3731c769": {
+      "normalizationVersion": 1,
+      "sourceHash": "86ad5826c0f66c5712ea599f8401a9cf8127c09ea5ebaafb45d67f022bc8d5cf",
+      "contextFingerprint": "3acbc7868973f474a03677f918118aeec52e4905289828f295b1266a36240ad9",
+      "sourceText": "| 文件 | 作用 |\n|:---|:---|\n| `src/swap/inc/swap/swap.h` | 写函数声明，让其他 `.cpp` 文件知道怎么调用 |\n| `src/swap/src/swap.cpp` | 写函数定义，提供真正的实现 |\n| `src/swap/CMakeLists.txt` | 把 `swap.cpp` 编译成 `swap_src_lib` |\n| `src/CMakeLists.txt` | 把 `swap_src_lib` 链接到主程序 |\n| `src/main.cpp` | `#include \"swap/swap.h\"` 后调用 `swap(a, b)` |",
+      "translatedText": "| File | Role |\n|:---|:---|\n| `src/swap/inc/swap/swap.h` | Write function declarations so other `.cpp` files know how to call them |\n| `src/swap/src/swap.cpp` | Write function definitions to provide the actual implementation |\n| `src/swap/CMakeLists.txt` | Compile `swap.cpp` into `swap_src_lib` |\n| `src/CMakeLists.txt` | Link `swap_src_lib` to the main program |\n| `src/main.cpp` | `#include \"swap/swap.h\"` call after `swap(a, b)` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 47,
+        "costUsd": 0.000108
+      }
+    },
+    "47e032944bce31377241f28c04c0fcc5f3d50c7c8f2a4c0da4777887d573bd6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e2eb5ab9ffdacf129777617eeb720b5598014221640c968f69e46944a915233",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "回答：**世界在动作作用下实际上会怎样变化？**",
+      "translatedText": "Answer:**How does the world actually change under the action?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "47e112fba54962a0670bc9e0f68bfdae43ad40589246adcd7c588f6e319c9cdc": {
+      "normalizationVersion": 1,
+      "sourceHash": "13f38d59bdb6a8d98c96f45e382b44609a28ca84e2f87f2c340da19e366c9fae",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 类型别名 typedef",
+      "translatedText": "### Type alias typedef",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    }
+  }
+}

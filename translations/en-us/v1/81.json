@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "81318178ea48e19beb2ed4693ecc785447b4c27ddee05398ef25c9b1e503a3b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "72f2bf60915c19a64a2b9d69bd61d45600dcc8f7343656ad19b826693dc9c59b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "保存内容是多帧配准扫描的累计点云；文件不会自动放到导航先验地图目录。输出文件名固定，需保留不同轮次结果时，应先归档已有文件。",
+      "translatedText": "The saved content is the cumulative point cloud of multi\\-frame registration scans; the file will not automatically be placed in the navigation prior map directory\\. The output filename is fixed, so when results from different rounds need to be retained, existing files should be archived first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 58,
+        "costUsd": 0.00012
+      }
+    },
+    "814d98d1bd316208e932e16923e3956c071887313208e604d5cf23e76ac30660": {
+      "normalizationVersion": 1,
+      "sourceHash": "66feb250aceb0aff34b60193f70672c28e003548869545e2dd909caa6a45bfc5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "blind：近距离排除半径。 当前代码计算：",
+      "translatedText": "blind: Close\\-range exclusion radius\\. The current code calculates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "81784a09e2754c7f7e132b5bc32baddf9dcb8320c54ff3e2d2c399d3353a631a": {
+      "normalizationVersion": 1,
+      "sourceHash": "55a144ef40b4109946a7c095e23e382f07b916e1388527cdca666d069ea58f7f",
+      "contextFingerprint": "861c9fbf4aebbccb269a3edda001d5376a4a7e3c4ded6f6e435f9d18a8060677",
+      "sourceText": "这项只控制slam_toolbox自己的保存入口。Point-LIO保存PCD由pcd_save控制；.posegraph与.data由serialize_map接口保存。设为False也不等于关闭二维建图或关闭所有保存渠道。",
+      "translatedText": "This item only controls slam_toolbox's own save entry point\\. Point-LIO Saving PCD is controlled by pcd_save; \\.posegraph and \\.data are saved through the serialize_map interface\\. Setting it to False also does not mean disabling 2D mapping or disabling all save channels\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 94,
+        "costUsd": 0.000175
+      }
+    },
+    "819285a4c1e229c976f002a59e39b04edf2de92d2d1c9e3d66d66e8f6199f4d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "55d734706609053422fc6c711d7b524ea91a83a8baa577e65da1e61c8a94cb66",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  作为函数返回类型",
+      "translatedText": "2.  as a function return type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "81940e10e8639f14bcc06d18fabab0709eee2df8d8269b5ef532ef2c4a836254": {
+      "normalizationVersion": 1,
+      "sourceHash": "7344fced8bec5d6cacd09aef3209bb53eb57fcd8da5c816fb618770637153dec",
+      "contextFingerprint": "a9850f1f343c3d4d1109eaa89e889806781c37b249c235cd2489ab62b38976b5",
+      "sourceText": "LaserScan定义中scan_time表示扫描之间的时间间隔。这里没有测量实际间隔，只把参数0.05 s写入消息；输出由输入点云驱动，实际周期取决于地形点云、TF与计算过程。",
+      "translatedText": "In the LaserScan definition, scan_time represents the time interval between scans\\. Here, the actual interval is not measured; only the parameter 0\\.05 s is written into the message\\. The output is driven by the input point cloud, and the actual period depends on the terrain point cloud, TF, and computation process\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 79,
+        "costUsd": 0.000151
+      }
+    },
+    "81b3d66f8674cd14f01d42db1445752080abd6700a5e6bc7148d250f1614281c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b51228b7feb9af2f24d31ff6625333eac8f616889f8aac36e1a6ab2390958de",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，换话题或改坐标系名称前，必须同时检查输入位姿究竟属于谁。改名字不会把底盘位姿自动变成云台位姿，也不会把世界 IMU 姿态变成关节角。源码没有查询或校验这些关系；上游内部 IMU→雷达转换、机械TF失败返回单位变换等已记录问题，也可能使这里用错角度。",
+      "translatedText": "Therefore, before changing the topic or the coordinate frame name, you must simultaneously check whose pose the input actually is\\. Renaming will not automatically turn a chassis pose into a gimbal pose, nor will it turn a world IMU attitude into joint angles\\. The source code does not query or validate these relationships; documented issues upstream, such as the internal IMU\\-to\\-lidar transform and mechanical TF failure returning an identity transform, may also cause incorrect angles to be used here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 103,
+        "costUsd": 0.000186
+      }
+    },
+    "81ba5a9994dce031254d16bbe3527102a78c224a71c88e92e492cebcbec0e640": {
+      "normalizationVersion": 1,
+      "sourceHash": "24500324535778dcb82ee29cf7bedcf0b8985fc5d42aaf07a9fd0c6ebd73a057",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看这个云台最中心的环与底盘原点之间只有dz，说明云台在车的最中央，无偏移。",
+      "translatedText": "Look at this gimbal: between the centermost ring and the chassis origin, there is only dz, which indicates that the gimbal is at the very center of the vehicle with no offset\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 47,
+        "costUsd": 0.000103
+      }
+    },
+    "81c0169d87832248c1c125b0948fb455494089916e6f405a55acf6eb6b67b86a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c0ba082fa0f6a92e721d0d624268b000cb6320963b849cb400d9054df837905",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**练习案例：敲桌子**",
+      "translatedText": "**Practice Case: Knocking on the Table**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "81d85149a4714e39833669464a4e510e87550d1ed97393f25a1d1dcdec0882ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "49e466b62fb735c7708d9ba44a8209971e71981cb2670c63e66805a198ed8cb9",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "表格中的应用场景不是硬性边界。例如，嵌入式系统也可以使用 C++，大型\n应用也可能包含 C 模块。最终选择哪门语言，要看项目需求、运行环境、\n现有生态和团队经验。",
+      "translatedText": "The application scenarios in the table are not rigid boundaries\\. For example, embedded systems can also use C++, and large applications may also include C modules\\. The final choice of which language to use depends on project requirements, runtime environment, existing ecosystem, and team experience\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 68,
+        "costUsd": 0.000137
+      }
+    },
+    "81e6298a3d1e7fe589411f46773de1f512ddbd9b5da661222c42bea8597e05cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4a2b18a6f8f4496547e42a1c955e9f3030865804429eabce52c41f83cac364a",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 启动来源与当前验证范围",
+      "translatedText": "###### Startup source and current verification scope",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    }
+  }
+}

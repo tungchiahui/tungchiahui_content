@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5a23df698a106ef048cd23a921b12117c5c245e818c5db0aa26b063031284ac4": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3c4b7f9b3ed128da04fce33780153e4e600184522ac4bac068524933a7d5fdd",
+      "contextFingerprint": "83d453e26138b15e6168b6893bc654bc98ae126ee0fef43065868d4fb9852596",
+      "sourceText": "## Drive-WM — CVPR 2024",
+      "translatedText": "## Drive-WM — CVPR 2024",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "5a3c53a632f2ab6e444042c66ad4bf8422934200fb4c9cac7da97591ae621333": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1ffb17ac3d53a973669e141a404192d25f33ea43335fc5fafcd67597875d919",
+      "contextFingerprint": "884e19a911f442eea8ade3b772dafa060d1ba3337ddb487fc91dd45e3b62650a",
+      "sourceText": "> 除非是做开发，并打算 push 到 GitHub 这样的远程仓库，否则几乎用不到。此操作相当于make dirclean外加删除/dl、/feeds目录和.config文件。",
+      "translatedText": "> Unless you are doing development and intend to push to a remote repository such as GitHub, you will hardly ever need it\\. This operation is equivalent to make dirclean plus deleting the /dl and /feeds directories and the \\.config file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 64,
+        "costUsd": 0.00013
+      }
+    },
+    "5a416243f00b27410db3789c74e0da0b9b5fb376bda56d6e8fc6146c03b6194c": {
+      "normalizationVersion": 1,
+      "sourceHash": "721176acdcdb4dbee9fb42084b6e805443bfd1e753797f5502ff6231911d513a",
+      "contextFingerprint": "b3d02e90f13146101a29d492feb625d6a2d11967f05cb8433ad0fb46045c51f9",
+      "sourceText": "这里的 `#include \"swap/swap.h\"` 表示：`swap.cpp` 要先看到函数声明，再提供函数定义。",
+      "translatedText": "Here, `#include \"swap/swap.h\"` indicates: `swap.cpp`the function declaration must be seen before the function definition is provided\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "5a54a88688a68ceaec0c81badee35c47df23b0d65bef465c74d427b356aba8e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1eb105a2932f118fefa3aeaaaf33f7c0ca096dcafc5496e8f2cccca81749edc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "改成：",
+      "translatedText": "Change to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "5a5aef6c0e10ea73312b4df1104cea5c8dd76ce4344e33d8296c371a4251d14d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e00640597de5107059d7458cce90fb026c02e9f7d892f1e88087774485e0b759",
+      "contextFingerprint": "e66283584d7ee57a8669ba34e8f913cad390ee49697f674efa0af901beb9d8d0",
+      "sourceText": "导航这边主要是下发cmd_vel相关的数据,主要包含vx,vy,wz。这里的wz是wz_navigation，而最终机器人自旋速度是`wz_final = wz_navigation + wz_spin;`（最终自旋速度 = 导航速度 + 自旋速度）",
+      "translatedText": "The navigation side mainly issues data related to cmd_vel, primarily including vx, vy, and wz\\. Here wz is wz_navigation, while the final robot spin speed is`wz_final = wz_navigation + wz_spin;`(final spin speed = navigation speed \\+ spin speed)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 69,
+        "costUsd": 0.000141
+      }
+    },
+    "5a67eb0eeabedeb8b8e2003cb3f4812204838909b2b0e60f338c0640fa0bb288": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed6b4061a44c443d1216d32f3d3fc4a6b77e9a511b29a65c872e451b32a5916e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同一角度格内有多个合格点时，只保留水平距离最近的一个。例如，同方向2 m和5 m处各有点，扫描只留2 m；二维扫描不会同时表达它们的高度或多层结构。",
+      "translatedText": "When there are multiple qualified points within the same angular cell, only the one with the shortest horizontal distance is retained\\. For example, if there are points at 2 m and 5 m in the same direction, the scan retains only the 2 m one; a two\\-dimensional scan will not simultaneously represent their heights or multilayer structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 73,
+        "costUsd": 0.00014
+      }
+    },
+    "5a6d9b613de0d45ed57b56e2b6730fcb188c4dadb1793b9eddea55febfc69a2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0138b913941556e4f227cb31f39ee9bb24b89e3b00949e38b8b4ee173d1aff51",
+      "contextFingerprint": "b372b636948482eb3fca1fd518d7009d6466fdd629ac35d59446f5e2a748dafb",
+      "sourceText": "> 注意：C和C++ 语言的比较运算中， ==“真”用数字“1”来表示， “假”用数字“0”来表示。== ",
+      "translatedText": "> Note: In comparison operations in C and C++ language, == \"true\" is represented by the number \"1\", and \"false\" is represented by the number \"0\"\\.== ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
+    "5a954d224bb86dd95ad56635689d0a0193aea652f1cc7090a632e1027288e236": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6390ba01e1ea422f5e1e9635a563b36e8c9095d74773cb182732de6104b6ba4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前过程是：",
+      "translatedText": "The current process is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "5a9f6dfe69c394b39756b256f34ee3b935506d0a3b9fad45881cfbd86d3c2c6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "36d3b5f0f98fc431b5aa9f55dadf71808114cbceaff2906a1be89ad10d52b5ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本教程主要负责梳理知识点、工程环境和实践中容易遇到的问题。初学者也\n可以结合以下视频或文档学习：",
+      "translatedText": "This tutorial mainly focuses on organizing knowledge points, engineering environments, and problems easily encountered in practice\\. Beginners can also learn by combining the following videos or documents:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
+    "5ad03217b75b43e4a6ff3307bd00cb42261910804e80f8146a2ea810f92b9be1": {
+      "normalizationVersion": 1,
+      "sourceHash": "859157cd7756d9e258f9d4e7306e161fbb8f6f492bc4db6995810a34df341afa",
+      "contextFingerprint": "eaca49b5c01e1b06128761716c5a242b86539addc2792e4ba34228d9e6acd6d2",
+      "sourceText": "#### `main.c` 调用 `swap.cpp`",
+      "translatedText": "#### `main.c` Call `swap.cpp`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "5ad8c8853a6aacd371179a9654bd2e3db3095a722c0b6eba629b433dc5bcda56": {
+      "normalizationVersion": 1,
+      "sourceHash": "5af3c35e20856dca0b50308cd9cb71255f89f2eed79105720d3b9a615742701e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如下图显示轴距也是324mm",
+      "translatedText": "As shown in the figure, the wheelbase is also 324 mm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 21,
+        "costUsd": 0.000066
+      }
+    }
+  }
+}

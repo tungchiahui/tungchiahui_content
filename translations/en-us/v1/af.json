@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "af19412ab40ede0f03c0c2d59ec66451053294eced48d413c15c809d57d23f3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "13cfa1acaadafe9f3968d4ba9c4290f5e54c22818e7c4cb17b8be612683b3833",
+      "contextFingerprint": "0f3985c0332ddf4dafa39228c57bddf7a41b0e0ca0f30ba4c629290482d4d41b",
+      "sourceText": "上实物前应先核对原点离地高度、`odom` 竖直方向和位姿转换。窗口过窄会丢坡面，过宽会引入顶棚或其他楼层；是否成为障碍还取决于局部地面估计及后续筛选。当前不据这些数值直接修改重力方向或安装外参。",
+      "translatedText": "Before installing the physical object, first verify the origin height above the ground,`odom` vertical direction, and pose transformation\\. A window that is too narrow will lose the slope surface, while one that is too wide will introduce the ceiling or other floors; whether it becomes an obstacle also depends on local ground estimation and subsequent filtering\\. Currently, the gravity direction or installation extrinsics are not directly modified based on these values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 89,
+        "costUsd": 0.000164
+      }
+    },
+    "af3ef120a85aa8085717f910d3c2fa00463b9a7d648e7ff86c44f76e44544c1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f7abf077e4914ffb340446bf4d3cb9a16cd244193ec42a2f5f5d4da8175c038",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "后面的章节会从 C++ 基础语法开始讲：",
+      "translatedText": "Subsequent chapters will start with the C++ basic syntax:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "af450fb920ac2e946242297df700a9510b123b6e1262c15a47bbcef8c1da9c42": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f57af783e6dcb48b32d33994ca3c21237f1f18486eca2b3b2f779197bdb964e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个文件里面需要修改的是：",
+      "translatedText": "In this file, what needs to be modified is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "afc7c027997951c18b6e13ba90649801a82fbdd7b1babca9552c4ce472640ef6": {
+      "normalizationVersion": 1,
+      "sourceHash": "395a1d115a8be3ad37e1c5b2f3a37ba4c0be32dea4967687cfef15c2b2509865",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或：",
+      "translatedText": "Or:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "afd0dd5459d22b467077cb1deaea09354b62baa94691e893964d3ad3a49427eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "34dcd44536a7bab8502d6859c05acd22ed814265af043ec9c058fb2a683be980",
+      "contextFingerprint": "c94b08959adb7061c11c8de678db6dfc075b0190f1a8e04c898629bdc5712500",
+      "sourceText": "| 启动方式 | 参数与地图来源 | 当前区别 |\n|---|---|---|\n| 整套reality导航，slam=False | 实物nav2_params.yaml，经localization_launch传入；PCD由launch参数字典另传 | 本表值；默认world对应的实物地图文件缺失，需准备当前场地地图 |\n| 整套simulation导航，slam=False | 仿真nav2_params.yaml，同样另传PCD | 除use_sim_time=True外，本块12项相同；默认仿真地图存在 |\n| 整套slam=True | 进入slam_launch，不进入localization_launch | 本节点不运行，不能用建图输出说明本块已验证 |\n| 包内独立launch | 自己写的参数字典，不读取整套YAML | num_neighbors=10，两种leaf_size均0.25，max_dist_sq=1.0，输入cloud_registered，frame与PCD默认空；不能直接当整套入口 |",
+      "translatedText": "| Startup method | Parameter and map sources | Current differences |\n|---|---|---|\n| Full reality navigation set, slam=False | Physical nav2_params.yaml, passed in via localization_launch; PCD is passed separately via the launch parameter dictionary | Values in this table; the physical map file corresponding to the default world is missing, and a map of the current site needs to be prepared |\n| Full simulation navigation set, slam=False | Simulated nav2_params.yaml, likewise with PCD passed separately | Except for use_sim_time=True, the 12 items in this block are the same; the default simulation map exists |\n| Full set slam=True | Enters slam_launch, does not enter localization_launch | This node does not run; the mapping output cannot be used to show that this block has been verified |\n| Independent launch within the package | Self\\-written parameter dictionary, does not read the full YAML set | num_neighbors=10, both types of leaf_size are 0\\.25, max_dist_sq=1\\.0, input cloud_registered, frame and PCD default to empty; cannot be used directly as the full entry point |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 385,
+        "outputTokens": 301,
+        "costUsd": 0.000477
+      }
+    },
+    "afd52a1750e2d61f8f688b348a04508c094497534d223acb48a2a7d78824bef6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9985eeb69ddcd803d1eee4aab456790b8aeb0954bb242add982ea3512f493bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不同区域存放的数据，赋予不同的生命周期, 给我们更大的灵活编程",
+      "translatedText": "Data stored in different regions is given different lifecycles, providing us with greater programming flexibility\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "aff45f8e49ef0346840dc6cc51cd108a97937381459ebf04aa557b399014fb8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "83af143b7d7bace47817b2bdab214f8b8a37d2b6b08c3ccf19527e951eb74713",
+      "contextFingerprint": "ba1c2eed23d60894f7fc8ecdd4c005d23b64ce507915bcadc480c0f550e25dac",
+      "sourceText": "`plane_thr` 检查地图邻点自己是否平整；`match_s` 检查新点能否对上这个面。两项不能只因为地图不好看就一起放宽，时间和外参错误也会造成类似现象。",
+      "translatedText": "`plane_thr` Check whether the neighboring map point itself is flat;`match_s` Check whether the new point can align with this plane\\. The two criteria cannot both be relaxed simply because the map looks bad; timing and extrinsic calibration errors can also produce similar phenomena\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 53,
+        "costUsd": 0.000114
+      }
+    }
+  }
+}

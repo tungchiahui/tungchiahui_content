@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "be025578ea1d13fc5b1a91b1393447e2310b675f86149c01cb51037d228be4a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ae744d6f446781b0d586f3b13ca3c48e802c545cee7119f0629610a800cadbd",
+      "contextFingerprint": "17f7896f598508204291e6eaf4da1554e601ed2ea2304bd7a09d684cc4e9d086",
+      "sourceText": "| 用哪套轴描述同一个平移目标 | `vx` | `vy` |\n|---|---:|---:|\n| 虚拟系 `gimbal_yaw_fake` | 0.3 | 0 |\n| 转换后的实际云台系 `gimbal_yaw`，也是串口发送的数值 | 0 | -0.3 |\n| MCU正确换算到底盘系后 | 0.3 | 0 |",
+      "translatedText": "| Which set of axes is used to describe the same translation target | `vx` | `vy` |\n|---|---:|---:|\n| Virtual frame `gimbal_yaw_fake` | 0\\.3 | 0 |\n| Converted actual gimbal frame `gimbal_yaw`，which is also the value sent via the serial port | 0 | \\-0\\.3 |\n| After the MCU correctly converts to the chassis frame | 0\\.3 | 0 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 72,
+        "costUsd": 0.000142
+      }
+    },
+    "be30ddcf2513f155b3c6bf2db60d3e1817a7cf9eb57d6d528f6f3c51c8666bab": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb618f4a25a7eddd93f95bd6ad778638c1fd68478451df968e23a05d48efa99c",
+      "contextFingerprint": "b5099ff2101fa3389330c812cfcc232de392b6b2dc1a7fddbe8a4856e0290609",
+      "sourceText": "就是把`<visual name=\"xxxxx\">`标签里的`<pose>0 0 0 0 0 0</pose>`反复调整。让模型变的更好看点。\n但这没啥用，让TF图合理才是最重要的。",
+      "translatedText": "It is just about`<visual name=\"xxxxx\">`within the tags`<pose>0 0 0 0 0 0</pose>`adjusting repeatedly\\. Making the model look a bit better\\. But this is not very useful; making the TF diagram reasonable is the most important thing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 46,
+        "costUsd": 0.000102
+      }
+    },
+    "be5a4d1e26aa182b20ab35de51cd6a4b1f86deb59be83b7f19dbdd06417a7753": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4b59b262690431198abe9a31dd5e5f10af7c3d5930453f8026a9713eef986a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "生成完后，返回ws目录：",
+      "translatedText": "After generation is complete, return to the ws directory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "be5c313b51fd30759858044bab1ecf4697749dd0908e1ee297f85cb01b1e266c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea7ecb64c5cc75f4e7b0b138ee6c3703b154142593b50bd02d474c54990ccc4b",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "当前最值得重点追踪的是 **B：Latent Future → Planning / Policy**。",
+      "translatedText": "Currently, the most noteworthy for focused tracking is **B: Latent Future → Planning / Policy**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "be63b21e74c46360005593b8bc8430b44866a2907777de4c4de9c89c69b8476d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e28dca459651329bf1e39fb052ed256093a253a0bd5894aa23aaab36a467ed2b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再测量点云OXYZ点到底盘中点（轮轴中点）的距离。",
+      "translatedText": "Then measure the distance from the point cloud OXYZ point to the center point of the base plate (the midpoint of the wheel axle)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 34,
+        "costUsd": 0.000085
+      }
+    },
+    "be67a4eb5396722220d8f6ae0551b25b1e6b168b5948195c6261c9038a5a3bd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "931aeb45cad39a9aa1ffab3eb93f0322f5805f904e921d8ce1bacce583e4a00b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 字符串型",
+      "translatedText": "### String type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "be6e7ef84159c84f8f80dd707c26ad63bf24d9b89e20ff67f52127f8ae7944f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d77ba13a31f0d147e10bda4215b3b36b0e755dc49bfce1c908ff20ab908ee622",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "出现以下,即成功!",
+      "translatedText": "The following indicates success\\!",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "bea1f993fc43c34270ff3153c545dcd8f6fa39bacb548186d428a985a0bb6232": {
+      "normalizationVersion": 1,
+      "sourceHash": "72b108adea619143d118f9e7c7f940d0ab4685ecc9c12e43a6f03b1201b0ebfc",
+      "contextFingerprint": "b2a4c9c31d21c5fb2b443bb6542418630a5c99e10698e8c8c9b03d822e73a662",
+      "sourceText": "源码位置：`src/pb2025_sentry_nav/terrain_analysis/src/terrainAnalysis.cpp`；下游强度筛选位于 `src/pb2025_sentry_nav/pb_nav2_plugins/src/layers/intensity_voxel_layer.cpp`。本块纠正的是日志中的参数解释，工程源码、配置和参数值均保留。",
+      "translatedText": "Source code location: `src/pb2025_sentry_nav/terrain_analysis/src/terrainAnalysis.cpp`; downstream intensity filtering is located at `src/pb2025_sentry_nav/pb_nav2_plugins/src/layers/intensity_voxel_layer.cpp`\\. This block corrects the parameter explanations in the log; project source code, configuration, and parameter values are all retained\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "beadc3156ab9d3c47f963bd184c2dc1f6837d8666f747a7db40885145a48d689": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1bf0d9bd90ee61985051884e8d67d785b8a72017b38e455da731c0746531206",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "堆区数据利用new关键字进行开辟内存",
+      "translatedText": "Heap data uses the new keyword to allocate memory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "beb0da9ad91e380d5ec864aa0b2d0de78141a52647ec2052a9fd7ecb867be4ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "96d24705b447b412123a005fdf64bc8510d442cdf1b6d8a235d41464275097fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编辑配置文件：",
+      "translatedText": "Edit configuration file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "bef4ecdcd242c471d1be23a7224454df3266b349357ca8dee181099a322408a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "5065c0438c07e57c6081ba9c18671287f7628eeb9c0284e71891016b7f54be43",
+      "contextFingerprint": "2dfec61d747d1aceebab81b3e48ed71d6e995c40ff9e95c0b7714aa8d0043232",
+      "sourceText": "源码先以 `ceil((angle_max-angle_min)/angle_increment)` 建数组，再计算下标。当前实现没有检查下标是否越界，而角度上界允许通过；当角域与增量恰好形成整数分格时，上界点存在越界路径。当前近似整圈设置得到720项，不能据此证明其他角度组合的边界安全；该缺口尚无运行触发记录。",
+      "translatedText": "The source code first builds an array with `ceil((angle_max-angle_min)/angle_increment)`, then computes the index\\. The current implementation does not check whether the index is out of bounds, while the upper bound of the angle is allowed to pass; when the angular domain and the increment exactly form an integer partition, the upper bound point has an out\\-of\\-bounds path\\. The current approximate full\\-circle setting yields 720 entries, and this cannot be used to prove the boundary safety of other angle combinations; this gap has no runtime trigger record yet\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 107,
+        "costUsd": 0.00019
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "201fd8dcdd6160e946c11a12ca99f6589da67b2f8d322e6f3537648f1adde13c": {
+      "normalizationVersion": 1,
+      "sourceHash": "64c5be3c13f1f6fe5b1a3a2a529bcb859af179c28ca90c8a85d3ee71f189e4ca",
+      "contextFingerprint": "3deb4125c20a39ee5658ee1fbacd9f9f004a548d0768bc0f62d15e03ed684712",
+      "sourceText": "在C++中 struct和class唯一的**区别**就在于 **默认的访问权限不同**",
+      "translatedText": "In C++, the only**difference**between struct and class is that **the default access permissions are different**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "207c1654684d94f11ab0834d73f7fed906fb2e7116069206785580442c7e156d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8820b17c8cd935db212201bd292db447c367523fbe647af0af440fd06830af1",
+      "contextFingerprint": "25378ff7e5e1b0df6b18803cf9d29cacea24faaa25d69dfdd465e68140bc32c5",
+      "sourceText": "| 项目 | 当前 ROS 模型的约定 |\n|---|---|\n| 单位 | **rad**；串口节点不会自动把度转成弧度 |\n| yaw 正方向 | 从车顶往下看，**逆时针为正** |\n| yaw 零位 | 云台前向与底盘前向对齐 |\n| pitch 正方向 | **向下俯为正，向上仰为负** |\n| pitch 零位 | pitch 机构与 yaw 层坐标轴对齐；不代表坡地时相对世界水平 |",
+      "translatedText": "| Items | Conventions of the current ROS model |\n|---|---|\n| Unit | **rad**; the serial port node does not automatically convert degrees to radians |\n| Positive yaw direction | Viewed from above the vehicle,**counterclockwise is positive** |\n| yaw zero position | the gimbal forward direction is aligned with the chassis forward direction |\n| Positive pitch direction | **pitching downward is positive, tilting upward is negative** |\n| pitch zero position | the pitch mechanism is aligned with the yaw layer coordinate axes; this does not represent horizontal relative to the world on a slope |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 227,
+        "outputTokens": 116,
+        "costUsd": 0.000208
+      }
+    },
+    "20e9418f758cac33b731fa5262c0813560ad187bb8f3d149c387e1575da90808": {
+      "normalizationVersion": 1,
+      "sourceHash": "5380be91b091026ea8287aa661768b4fc87610e65824fecfad7ad6256d0881e0",
+      "contextFingerprint": "80b68e1f93f1c62ce2fa7782a278b5fcc0325c6322333ed538de38e27be4b935",
+      "sourceText": "**运行结果（与上面的 `swap.c` 一起编译并链接）：**",
+      "translatedText": "**Running result (compile and link together with the above `swap.c`):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "20f2eecccf925418baad322b23b49a87f643d7431fb24b1fb7dd02edcfbc493e": {
+      "normalizationVersion": 1,
+      "sourceHash": "35d78858153b3267b2640b73989f35aa04698763d7dba06c3f86a1df1cf49c0a",
+      "contextFingerprint": "1a2d9ccf79240f7f364e0b5ef1dcda0f2fbca41ed185d98838312000c50914fc",
+      "sourceText": "**话题 `initialpose` 则被当作 `robot_base_frame=gimbal_yaw` 在地图中的位姿。** 回调再查询最新 `gimbal_yaw←输入扫描系`，当前扫描系应为odom，两者相乘得到map←odom：",
+      "translatedText": "**topic `initialpose` is treated as `robot_base_frame=gimbal_yaw` the pose in the map\\.** callback then queries the latest `gimbal_yaw←输入扫描系`\\. The current scan frame should be odom, and multiplying the two yields map←odom:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    }
+  }
+}

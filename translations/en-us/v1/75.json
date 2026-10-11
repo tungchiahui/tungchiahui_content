@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "752f9002b607807d1aecc25235d485279770fedd8193792cf7f4a7137a7f6153": {
+      "normalizationVersion": 1,
+      "sourceHash": "afff0edb9af28b5c40c1ffa6661cf74cf0df35dda9838e369459277401bd3dc7",
+      "contextFingerprint": "931160afd7d208acd52b6ed6a426c0478e0306c162e6b2248c30a22c229fa935",
+      "sourceText": "最后在 `src/main.c` 中调用它,`main.c`仍然沿用`main.cpp`不需要做任何修改：",
+      "translatedText": "Finally in `src/main.c` call it,`main.c`still follows`main.cpp`no modifications are needed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 22,
+        "costUsd": 0.000071
+      }
+    },
+    "7530aa303f1581d56df7917328569740def532882c61757ae64a5df8c66a2d96": {
+      "normalizationVersion": 1,
+      "sourceHash": "11b177b7fcca148c01185d2b55bbb0a9eaba80688e3bd766b68dff9193a65d4b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "暂时不要修改这些文件和目录：",
+      "translatedText": "For now, do not modify these files and directories:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "7544bc630adf3d292d0b0cb71a6f52fa0cb3cf6071249e7d5fcec101d4988eea": {
+      "normalizationVersion": 1,
+      "sourceHash": "b665b2f2767faf072c69922a4b748d88a5741b566e980c3e315f53ba96c1bfcd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 一维数组",
+      "translatedText": "### one\\-dimensional array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7549ab1adff860398683de87a92c73de63a202d7e7662d560f67eaaddd8af9ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ff4ebf1e347783825f4e5002abe6fb3c3e89b194458603510e45c5f23351fd7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "xmacro 中通常可以通过宏调用的 condition 控制：",
+      "translatedText": "In xmacro, this can usually be controlled via the condition macro call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "7571316dac326d0e7c69408d139eed25a6f977781787c7154c6685b11bdda2b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "67f8cbf9b54981ad7d68af139ec45fe4fa0396f1abf2cf8238c13c3efde848fe",
+      "contextFingerprint": "678a1f8d0af713066653aeb55603905a2848da3ba5c72877bd08412915406af1",
+      "sourceText": "#### 修改 src/swap/CMakeLists.txt",
+      "translatedText": "#### Modify src/swap/CMakeLists.txt",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "758af16260f5e9ec8121bcde09f0110f1bf2e890319999d67465ee032c6b9266": {
+      "normalizationVersion": 1,
+      "sourceHash": "95e34865b27d45c33ecdbda4be5c1651853734b925dc30bde1216a40d1f36720",
+      "contextFingerprint": "7f8a93c0713019f51891b178443dde6d19ce183dbb7c3bcf1dc5101a84759c66",
+      "sourceText": "`swap.cpp` 必须包含 `swap.h`。C++ 编译器读取头文件后，才会知道这个 `swap` 函数需要按照 C 语言的链接规则对外提供。",
+      "translatedText": "`swap.cpp` must include `swap.h`\\.C++ Only after the compiler reads the header file will it know that this `swap` function needs to be provided externally according to C language linkage rules\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    },
+    "75a29c017c57301b3728d08e48b207f51244765f4a66ffcf673ab802c9e62b73": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea1461f29caab6d8b3cc812c310d63024e5164812f3428a755ea81630b97c528",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### localTerrainMapRadius：为什么4 m附近要单独看",
+      "translatedText": "###### localTerrainMapRadius: why should the vicinity of 4 m be examined separately?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    }
+  }
+}

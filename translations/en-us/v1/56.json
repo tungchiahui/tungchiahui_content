@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "560d519712f6612567b37a9afd25fd85e93980e21f7b7cc30efed5dd22e9addb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c675b1fb8452b38f42f4eaad5414a170e227c8e5315d3d3c2376aabbd695e1f",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 代码组织结构清晰\n* 可读性强\n* 利于前期和后期的扩展以及维护",
+      "translatedText": "* Clear code organization structure\n* Strong readability\n* Facilitates expansion and maintenance in both early and later stages",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "5631ae22d552465c31284d1d60a00e1d391a06b1b47935ad1911d31f71ef9598": {
+      "normalizationVersion": 1,
+      "sourceHash": "07108c90c9eec440ee6c97bb76aef2140899ba965a6da6b9c52dc3a4c4738758",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 父类指针或引用指向子类对象",
+      "translatedText": "* A parent class pointer or reference points to a subclass object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "564ab7d3e7816bab356d16f0778f23aa542619d8f7e9196913f58d6a4ca948dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9bfb42a2566c303637e81a66f094c21feb0a138f3568bb5ca01f912c5880f0d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "北极熊的雷达是放在底盘上的，我们准备放到Yaw云台上。",
+      "translatedText": "The polar bear's radar is mounted on the chassis; we plan to mount it on the yaw gimbal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "565a8440681829d370695552cc4044b7d5fc3445cf6cd88377c8db6c3cd55ee8": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a09e4d4a0140bf1a0bd39e4bb71ddf8ec1b69f7ec1ecd35d5216eab5c053c32",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后我们之前接触的都是",
+      "translatedText": "Then everything we encountered before was",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "5661cdae23ff8cd3e0a9459e28a247dd05ce9708f408d993c712bb91e168b994": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e644171b4fbd29a42be5d28cd1c8a5a1fa9c75afc09cf62fa229f34d1be2ef3",
+      "contextFingerprint": "2f16ffe82ccf1679cf0520f76f840315e4b3167850abded135c285efbf715913",
+      "sourceText": "`src/swap/inc/swap/swap.h` 继续使用前面的兼容写法：",
+      "translatedText": "`src/swap/inc/swap/swap.h` Continue using the previous compatible syntax:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "56639df1cf29c46923ee28c3b04ecab89638e88e869f31000eee7e4f04f53313": {
+      "normalizationVersion": 1,
+      "sourceHash": "e10ec691bf2c52bd86daf47a79e9763fd2546891488e675b7c8a56bb0433750c",
+      "contextFingerprint": "c1f683166ff03395c408620e5aff8d3d65ff4fbe02095339328ec59eace92ebb",
+      "sourceText": "源码1：https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav\n源码2：https://github.com/SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator",
+      "translatedText": "Source code 1:https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav Source code 2:https://github.com/SMBU-PolarBear-Robotics-Team/rmu_gazebo_simulator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "567da9241e164b1c3d245751261f52d508f41ddc49cbe9bdf803fa44139a4462": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2dc3873ed92294b9f63d315136513a7074aeb270f8545a514bcc4d849d50115",
+      "contextFingerprint": "7d5be052be95b8bb807530722035b597153b7589c26028509468d39ed031e030",
+      "sourceText": "| 特性 | C 语言 | C++ 语言 |\n|:---|:---|:---|\n| 语言定位 | 小而精简，强调直接表达底层操作 | 功能更丰富，支持从底层到高层抽象 |\n| 编程范式 | 主要采用过程式编程 | 多范式：过程式、面向对象、泛型、函数式等 |\n| 资源管理 | 通常手动申请和释放资源 | 支持手动管理，更推荐使用 RAII 和智能指针 |\n| 抽象与复用 | 函数、结构体、宏和模块化文件 | 函数、类、模板、泛型算法和标准库 |\n| 标准库 | C 标准库 | C++ 标准库，也提供对大部分 C 标准库功能的支持 |\n| 类型系统 | 相对简单，部分隐式转换较宽松 | 类型系统更丰富，通常提供更严格的检查 |\n| 运行效率 | 适合高性能和底层开发 | 同样适合高性能开发，合理抽象通常不会带来额外开销 |\n| 常见场景 | 嵌入式、操作系统、驱动、底层库 | 游戏、图形、机器人、桌面软件、基础设施和高性能计算 |",
+      "translatedText": "| Feature | C language | C++ language |\n|:---|:---|:---|\n| Language positioning | Small and streamlined, emphasizing direct expression of low\\-level operations | Richer in features, supporting abstraction from low\\-level to high\\-level |\n| Programming paradigm | Mainly procedural programming | Multi\\-paradigm: procedural, object\\-oriented, generic, functional, etc\\. |\n| Resource management | Usually manual allocation and release of resources | Supports manual management, with RAII and smart pointers recommended |\n| Abstraction and reuse | Functions, structs, macros, and modular files | Functions, classes, templates, generic algorithms, and the standard library |\n| Standard library | C standard library | C++ standard library, which also provides support for most C standard library functionality |\n| Type system | Relatively simple, with some implicit conversions being more permissive | Richer type system, usually providing stricter checks |\n| Runtime efficiency | Suitable for high\\-performance and low\\-level development | Also suitable for high\\-performance development; reasonable abstraction usually introduces no additional overhead |\n| Common scenarios | Embedded systems, operating systems, drivers, low\\-level libraries | Games, graphics, robotics, desktop software, infrastructure, and high\\-performance computing |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 352,
+        "outputTokens": 249,
+        "costUsd": 0.000405
+      }
+    },
+    "568e64ea3a547836cdb1f902ebdb07ac8694d753cbefbce712beef9e29dfce1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "486873d2705f376440577401f7350c3d0f056affc2d34ff87e81aff5c2c86b49",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后每篇新论文优先回答以下问题。",
+      "translatedText": "For each new paper from now on, prioritize answering the following questions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "56944ba990934914094d9a551d71e9573dde038d1e590fc7dd1f49ff4653eac3": {
+      "normalizationVersion": 1,
+      "sourceHash": "350faca6dfc3f460f1a8543a62fb1717aa5724847622fe9861aec82dcb68e30a",
+      "contextFingerprint": "0ef247494e197b9eeda375231e2817ed3f4c5a1ad6b0e3fcf6a2c1ef3ca3f950",
+      "sourceText": "###### scan_line（有效扫描线数量）",
+      "translatedText": "###### scan_line (number of valid scan lines)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "569cc6d6a84136e216ea9d2b790317d430c142016e42b940b4a40cc873f3e189": {
+      "normalizationVersion": 1,
+      "sourceHash": "550af6712dd28ebb411655a0aef9b7dc030ab8d66d5dfde43f627626c853bbbc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前正常输出高度差还与下游0.1 m障碍下限共同作用，因此进入局部障碍标记的正常点，高度差通常需落在0.1～0.5 m之间，并通过其他过滤。当前数值是否适合实车尚无测量结论。",
+      "translatedText": "The current normal output height difference also interacts with the downstream 0\\.1 m obstacle lower limit; therefore, for normal points entering the local obstacle marking, the height difference usually needs to fall between 0\\.1 and 0\\.5 m and pass other filters\\. Whether the current values are suitable for a real vehicle still lacks measurement\\-based conclusions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 76,
+        "costUsd": 0.000146
+      }
+    },
+    "56bfe51f063a2948b87c28dd01d661fe6bacdee4015e9092e8ca2389d58bdd96": {
+      "normalizationVersion": 1,
+      "sourceHash": "d20c89265d1b2eef7cd3ec66f9525614f829169fb66d1d098da9d3997429b4a6",
+      "contextFingerprint": "2235f63c0b2a2f029938aca06d95bac793b073e8ec7e4efd18475187873677a9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "56dcb0f95ba1fb8cbe0c0717d603d8a0637a13813651ad5812c7294a5f9708e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa1e23aa7f053968a67b834742631dd00a3ead3fee638091aa0b93e11453e49f",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 如果把源码改坏了，或者长时间没有进行编译时使用。",
+      "translatedText": "> Use this when the source code has been broken, or when compilation has not been performed for a long time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    }
+  }
+}

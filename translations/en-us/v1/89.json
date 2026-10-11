@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "89211b3f9659ec94c3444cf5abd2fa1cc7e7ccabaa94cc806f5716be87808ded": {
+      "normalizationVersion": 1,
+      "sourceHash": "cacdd035da5dcda3e58376a62ca2aba3c2466d145a95369aeb646ae0422a8ede",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结1：对于内置的数据类型的表达式的的运算符是不可能改变的",
+      "translatedText": "> Summary 1: It is impossible to change the operators for expressions of built\\-in data types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "8964b6b25c9dbe873b4a2cf19918529ef4b97908533f0da64b6e0fa90b1dad9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c495590f7c9c90cba75f541cfdba4b0abf9352d5a633d95088924a028f74e16e",
+      "contextFingerprint": "cdcc2385bfeba38bab767a05b739c14fe94a843177b7c3fc257e694d05a6a4b3",
+      "sourceText": "这里的`model://`是 `sdformat_tools` 针对 Gazebo / SDF 做的 URI 解析支持。",
+      "translatedText": "Here`model://` is `sdformat_tools` the URI parsing support for Gazebo / SDF\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 21,
+        "costUsd": 0.00007
+      }
+    },
+    "898376b4e48a6841087cb0c2ec46687b33b13cdaed83b5561144f3dbe6a1a0d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2041ac9fa2dced218c83abbcd77117e3be45d53a5204159324bc91a0f3aa429a",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### C++对象模型和this指针",
+      "translatedText": "### C++Object model and the this pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "898edf674fe1f5f9dded6c313e2a60dc374ff49e79e3a70391c438dc59ed15df": {
+      "normalizationVersion": 1,
+      "sourceHash": "556aff69947b399f26eb647120cefa1c449ee59ad99c3b21ba363a3cf54c7fdd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### CV ↔ Robotics 方向占比",
+      "translatedText": "### Proportion of CV ↔ Robotics directions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "899962171fd5b82edd865359cb1f0fb127ef40df06f944ccdc96ea938293d071": {
+      "normalizationVersion": 1,
+      "sourceHash": "210fccac90e55897dc0da6b814e62ddf77cb0a347ba42c826a2fab3021976b00",
+      "contextFingerprint": "ee5a17113586411ebc03c8aa75af8ca75033fea202d8fc816207293c64d48d84",
+      "sourceText": "`noDataObstacle=True` 且初始化完成时，地面样本不足的格子会生成4个障碍标记点，`z` 设为输入位姿高度，`intensity` 设为 `vehicleHeight`。这表示主动阻挡欠数据区域；False 只是不生成这些点，未知区域怎样通行仍由下游决定。",
+      "translatedText": "`noDataObstacle=True` and when initialization is complete, cells with insufficient ground samples will generate 4 obstacle marker points,`z` set as the input pose height,`intensity` set as `vehicleHeight`\\. This indicates actively blocking under\\-data regions; False only means not generating these points, and how unknown regions are traversed is still determined by downstream\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 67,
+        "costUsd": 0.000137
+      }
+    },
+    "89a6776135ffdc881398d6eff417fc19dc64ab18f64f1b0d43b70661d00101e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecda44758b620296743b6d099fa621bd9ed2a5f57df289fb04f236ca41dbbf69",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### limitGroundLift 与 maxGroundLift（地面估计抬升限制）",
+      "translatedText": "###### limitGroundLift and maxGroundLift (ground estimation lift limits)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 22,
+        "costUsd": 0.000071
+      }
+    },
+    "89ad323ee523aa97f64940dda3f1dbb01da3054be0a752eb0d26a739d3c03dfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f3ff7e42d5f00f1211e6e525c9653a3ed0ddd4a469f4188d4859feae49dfcd8",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**内存四区意义：**",
+      "translatedText": "**Significance of the four memory regions:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "89b495fb46715e921c02cde77f37b45475c117f9c416b8835c00900ce553b3e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "81e9e9c8ddb799c6bce2e8a6408ce4844febfbd37917a81c0f26eac3c3fcf13c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前编译的默认输出目录为：",
+      "translatedText": "The default output directory currently compiled is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "4910263a47aaf5cc00e709ea1c13a6bc110ab04d52e320601cfd46a0cfae597e": {
+      "normalizationVersion": 1,
+      "sourceHash": "02928c0b1b6cd6ba25b999cda4ec4741fd2b98f58b69de2aa26bba8ceadb4a41",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 值传递",
+      "translatedText": "### Pass by value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "492b9a06bebb26cb4950db156cf29063ca41b28b009ab3065de93edb15824817": {
+      "normalizationVersion": 1,
+      "sourceHash": "1574c18276f540a061e68c1ff1243f2a6a92dc7df1867b263fd4e6b5e97fe4a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对这个面进行草图绘制，然后把原点转实体引用，这个点就是轮轴中点，也是chassis中点。（这是北极熊规定的轮轴中点就是chassis中点）",
+      "translatedText": "Sketch on this face, then convert the origin to a solid reference\\. This point is the axle midpoint, and it is also the chassis midpoint\\. (This is the rule set by Polar Bear: the axle midpoint is the chassis midpoint\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 55,
+        "costUsd": 0.000116
+      }
+    },
+    "4933d98e21cbf9cabe161f88c87d94cb0b1c29bab69d0cfe639a29522f6a4816": {
+      "normalizationVersion": 1,
+      "sourceHash": "64f3d375dc17cb77ed4fdbe8951489681f67c860b16f929736cd9fc548f2003a",
+      "contextFingerprint": "06da2b5f89822725dc44cde4f1ee660ed2ca15439c5342090872954fded29177",
+      "sourceText": "这里需要显式设置 `robot_name:=reality_robot`，因为描述包自身的默认入口仍是 `default_value=\"simulation_robot\"`。\n然后`use_rviz`默认就是`true`，可以不加。",
+      "translatedText": "Here it needs to be explicitly set to `robot_name:=reality_robot` because the default entry point of the description package itself is still `default_value=\"simulation_robot\"`\\. Then`use_rviz`the default is `true`, so it can be omitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
+    "49599ee152dfd36b4907584264f34c47a1c4f9ad999c2c3dd85dc415a45a3ab7": {
+      "normalizationVersion": 1,
+      "sourceHash": "09546b2b59a5e8ff084611560697cdf44c4bb34bf33accf0a44ef4922d886cf1",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "本文用于长期记录 **World Model（WM，世界模型）在机器人导航、路径规划、具身智能方向的论文阅读、复现、实验与创新点分析**。",
+      "translatedText": "This article is used for long\\-term recording of **World Model (WM) paper reading, reproduction, experiments, and innovation point analysis in the directions of robot navigation, path planning, and embodied intelligence**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    },
+    "496fa66425383b53d19a5cb046c9a91913ad6f43c499263aac1119ae64296bf0": {
+      "normalizationVersion": 1,
+      "sourceHash": "641f2ffe30317fa05c3a136f300c96258714f167ff31bfbf832672d31ec46653",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是咱们没有大小Yaw结构。",
+      "translatedText": "However, we do not have a large and small Yaw structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "49a0ae6e25993471419026ebec1197d31f3845ca8a77e97548863da9d430999f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c9af6ca7cc48c0d0895e7a9ded242575a76128fda84d2d2fa04beb58a18b091",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发布动态 TF。",
+      "translatedText": "and publish the dynamic TF\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "49c4d5b71fcf4b8889e35465adb6dc152aaa8af7bfff287ae340f95a0833a95e": {
+      "normalizationVersion": 1,
+      "sourceHash": "69ecd7d093a6284236358741c2250045d0394e38630f0bae38e0f6a563a40ba7",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 注意：数组名是常量，不可以赋值",
+      "translatedText": "> Note: The array name is a constant and cannot be assigned\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "49da6d77ef8d42648ace22ad8d65bf6b7c9ec42b5a5004dfd7a66ed0d376e31f": {
+      "normalizationVersion": 1,
+      "sourceHash": "80090566af8c719fa74221451301aa76647a0bd81bf412fd510da8253b9c4fda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "4、函数体语句 ",
+      "translatedText": "4\\. Function body statements ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "49f0376838eac61b9c60d1c90116894c1d99b5496e2f83831e630069f4f09814": {
+      "normalizationVersion": 1,
+      "sourceHash": "314b448e1dfdeaf6b37833d81e42f4dc59f10fc55c16b7305bd9a7be429d64ae",
+      "contextFingerprint": "e13144b19316cc34833b0911edf72a8268d06dd8eb5092d999e5c46ca59085d9",
+      "sourceText": "`sensor_scan` 是配准扫描转换回雷达系的结果，不会恢复已被 Point-LIO 丢弃的点，也不执行新的估计或运动补偿。位置与点坐标沿用 m，姿态为无量纲四元数，线速度字段按 m/s、角速度字段按 rad/s 表达；速度含义仍需结合下文的源码缺口判断。",
+      "translatedText": "`sensor_scan`This is the result of converting the registered scan back to the radar frame; it will not recover points that have already been discarded by Point-LIO, nor does it perform new estimation or motion compensation\\. Positions and point coordinates continue to use m, orientations are dimensionless quaternions, the linear velocity field is expressed according to m/s, and the angular velocity field according to rad/s; the meaning of the velocities still needs to be determined in conjunction with the source code gap described below\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 126,
+        "costUsd": 0.000218
+      }
+    }
+  }
+}

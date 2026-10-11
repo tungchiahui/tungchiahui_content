@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "6716dcc6babc0c77e2445eca53846c4cfd2479037cd71f2def724e934cb5cc1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "909acd40df459489ac78caa463fd73df7317b7614e1f304486fa33cce51e6118",
+      "contextFingerprint": "8c2c791852b835a24aab295428fc0c4876d6587fbcbb1016769c6997ee5c47c4",
+      "sourceText": "两个节点都订阅 `loam_interface` 的 `lidar_odometry` 和 `registered_scan`；`ext` 还订阅 `terrain_map`，当前以输入里程计的位置为中心，4 m内采用近场结果、4 m外计算扩展结果，再合并输出。本块只整理 `terrain_analysis`，`terrain_analysis_ext` 的参数留到下一块。",
+      "translatedText": "Both nodes subscribe to the `loam_interface` of `lidar_odometry` and `registered_scan`; `ext` also subscribes to `terrain_map` and is currently centered on the position from the input odometry, using near\\-field results within 4 m, computing extended results beyond 4 m, and then merging the outputs\\. This block only organizes `terrain_analysis`; the parameters of `terrain_analysis_ext` are left to the next block\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 76,
+        "costUsd": 0.000148
+      }
+    },
+    "67a73f0090124942f2c170bbe79a9ff0816a7d4b2b84c99b1781483d7d406b39": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3ebc07c3f6be241f53ff8dcc69f073190f5735db4c0e900fa09c90773a27bce",
+      "contextFingerprint": "dba7258816df55ddd8087515f310d8771060de47d0948ec80b9c570ca781446f",
+      "sourceText": "- 当前 `considerDrop=False`：只输出非负高度差，低于估计地面的点被过滤。\n- True：先取 `abs(z−g)`，凹下去的点也可能作为高度差输出；仍需通过其他高度和样本数条件。",
+      "translatedText": "- Current `considerDrop=False`: output only non\\-negative height differences; points below the estimated ground are filtered out\\.\n- True: first take `abs(z−g)`; concave points may also be output as height differences; they still need to pass other height and sample count conditions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 54,
+        "costUsd": 0.000117
+      }
+    }
+  }
+}

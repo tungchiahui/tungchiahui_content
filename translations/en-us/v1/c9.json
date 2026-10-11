@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c90c2b3b8dfd2951e36c99bc68a31bb3483fcaa96fa137d7630d8736fb554e9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "11de3823d33f831413099aab8a2c9bbd59d2c55e893d2cc3697aafaba39eac59",
+      "contextFingerprint": "70abc570c43fc4c4f8ae72ec126706e4e2e297bad91e38ad40277295310d36b8",
+      "sourceText": "可以ping一下：`ping 192.168.1.107`",
+      "translatedText": "You can ping:`ping 192.168.1.107`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c913eeca66141b077f08634686525cf2af969660479f2ab637814dc74dc0b52e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fe9ff2a1c9eea0a6a40972e722204d4d5b9978a225d9c658b20b5e83f3411cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "删除后，系统会重新使用：",
+      "translatedText": "After deletion, the system will reuse:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "c924f66ba54eebbe92707663c3633f2a6fdb3262da60eaf8fb1618b4979e0f2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e289b8fd430e7567dd96e5b8745fc4f0541e50c1985f8fb28ed00f6f4438a8a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设计一个英雄的结构体，包括成员姓名，年龄，性别;创建结构体数组，数组中存放5名英雄。",
+      "translatedText": "Design a struct for a hero, including member name, age, and gender; create an array of structs, storing 5 heroes in the array\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "c92b9438abb764c49a37c73fc77c9c78ab09d0cd4df0c6259f29da2f51d095f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9cd05a26fbb1f5d4047f2c40c319bc5c8da06062b63bf064d0cdc1a089c050c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 比较运算符",
+      "translatedText": "### Comparison operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c9559780261e21e5f6ff951df37915425a164f44c8c9cd8143793ce74b1cd7ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "de95f9d2c12c039f5fde86832362645b4e463ebfae0d3d2652518fc0e6fa5a2b",
+      "contextFingerprint": "274af23d1fc0239eeb799bd602b95e10d65e971b9012f85a3eb1bde573732e39",
+      "sourceText": "这个节点给全局代价地图提供地形点。**当前4 m内借用 `terrain_analysis` 的结果，4 m外才输出自己计算的结果。** 因此，改本块的地面估计或高度筛选参数，不会同时改变近场；4 m是两种结果的交接距离，不是雷达最大量程。",
+      "translatedText": "This node provides terrain points to the global costmap\\.**Within the current 4 m, it uses the result of `terrain_analysis`; only beyond 4 m does it output its own computed result\\.** Therefore, changing this block's ground estimation or height filtering parameters will not simultaneously change the near field; 4 m is the handover distance between the two results, not the radar's maximum range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 86,
+        "costUsd": 0.000162
+      }
+    },
+    "c978ae8c75196057e5aa74c6138819d90c601d3cfcbf7cdea6be25348b38865f": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a48ad79cba166a748e0f3be1d94525d4ec53a1c14e7b990f94e573e965791b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在当前项目中还可以看到：",
+      "translatedText": "In the current project, one can also see:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "c997b2d420adde65e615b486b1b82ac9607a6195e698f5cae3a162096ff08647": {
+      "normalizationVersion": 1,
+      "sourceHash": "13ac081718424926437e373e787249c3a490d31741d1fe2325b5c08a9cc546e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它不表示“找 18 个点”或“搜索 18 米”。",
+      "translatedText": "It does not mean \"find 18 points\" or \"search for 18 meters\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "c9acf99a3a978d3d9eb36d6e1d4281652204b755df20d3f449a046016624b2ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "52373e5bc1138b4520b073490d627cd8ea7417e486055376913bb3f988fcb50b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "友元的目的就是让一个函数或者类 访问另一个类中私有成员",
+      "translatedText": "The purpose of a friend is to allow a function or class to access private members of another class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "c9b74b79ecc8cd505e4dc12b34b9b18dfb068658e4675d20edf3f0215154e12e": {
+      "normalizationVersion": 1,
+      "sourceHash": "331184a0d5268a79735fc37d406f7e570232c9d4770c05b41ca06b9cca3b76dc",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 函数声明。\n2. 类型、结构体和类的声明或定义。\n3. 必要的常量与变量声明。\n4. 使用这些声明所必需的其他头文件。",
+      "translatedText": "1. Function declarations\\.\n2. Declarations or definitions of types, structures, and classes\\.\n3. Necessary constant and variable declarations\\.\n4. Other header files required to use these declarations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "c9c77027e712cdeb46fc22a1ccdfd2b026e12918bcbf833300cc2cb41aa7bc2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "53e97e4ab418fe520106d001e587cd6c1d1402416b6ec0d055aa48621b466ec7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原来模板里有：",
+      "translatedText": "Originally, the template contains:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    }
+  }
+}

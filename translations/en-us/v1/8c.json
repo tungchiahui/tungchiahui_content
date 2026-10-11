@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8c36b4c1ecf25fc16d0981f571d3b59eab467d02f184bb599ebbea2523974d88": {
+      "normalizationVersion": 1,
+      "sourceHash": "19cd299e021581bc00460979ac5d4a3388b6e35c5b1b04ea3792bc53ee71afa9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "记录 Baselines、Main Results、Ablation、Efficiency、Generalization、Failure Cases、Real Robot、Sim2Real。",
+      "translatedText": "Record Baselines, Main Results, Ablation, Efficiency, Generalization, Failure Cases, Real Robot, Sim2Real\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "8c689b30e8f42a6f240217b2d7743867baeaf8e4e800083b19e62736ee8cb0f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7487a13c331c3baede46134e5ba2b0f2387f079599e034bc977b5455528958a5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 补充学习资料",
+      "translatedText": "### Supplementary Learning Materials",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "8c6a01ba6f322fd371ca252440bff22422e6749846469e00fae7a175ab4b64c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2211013fd41ab15b7dee58250f08f004bb46c3a221f10a66f72d804e517fb18f",
+      "contextFingerprint": "688f3e22dce1cf8b9516e37aa6076d760937d6ae88ed305ab8b1efccb4940107",
+      "sourceText": "- Base system -> dnsmasq (取消勾选，因为默认会安装dnsmasq-full，需要排除dnsmasq避免冲突报错）",
+      "translatedText": "- Base system \\-\\> dnsmasq (uncheck it, because dnsmasq-full is installed by default, and dnsmasq needs to be excluded to avoid conflict errors)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
+    "8c76c77e5bc23f9a4cb5df05b5c88b0e84271fce08b4d0faae6545423f506c32": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1891d3f1ba8d23ecbcf128e672fc01f4cd4bac3fb780e1dd8fa5f9fde4a4b20",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 重新配置如果需要重新配置：",
+      "translatedText": "#### Reconfigure If reconfiguration is required:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "8c9806a0ddb2ada8635815776b4ae58b1abcfacbe1253b9105256b388e4c3603": {
+      "normalizationVersion": 1,
+      "sourceHash": "2eddb8646ec25822f62110561231d07c684c7a994aa36911b007408f965c9b7a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 重新构建并运行",
+      "translatedText": "#### Rebuild and run",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "8ca2e1a7578612eac3c818b755d0c239da9843bc658a13005676dfe58f61f502": {
+      "normalizationVersion": 1,
+      "sourceHash": "05e27762e69a5d52c1b2757051f5833d922da6b10bae7bc93be03fae24d631e9",
+      "contextFingerprint": "198b4aaca389b49b850cd054100c8ec05d3128fa960f94e042b157c96f5959de",
+      "sourceText": "高度窗口看 `z_base_footprint`，即点相对底盘原点、沿底盘z轴的坐标；高差窗口看 `intensity`，即上游地形分析给出的“离估计地面多远”。它们单位都是m，但基准不同。",
+      "translatedText": "Altitude window view `z_base_footprint` , i\\.e\\., the coordinate of the point relative to the chassis origin along the chassis z\\-axis; height difference window view `intensity` , i\\.e\\., \"how far from the estimated ground\" given by the upstream terrain analysis\\. Their units are both m, but the reference frames are different\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 67,
+        "costUsd": 0.000132
+      }
+    },
+    "8cee81c33cfcc29748d72f6521dede54b21ea09aca72f00ec86bdcc070a84e62": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bd98a06c4a04eb85161902f5f3d55d7855da53bf11dcf8420586fb72cc2671b",
+      "contextFingerprint": "129ed59fff83b75e658e6653dd2533570bce73279396f30e7f94f528dc2cf7e9",
+      "sourceText": "C++程序在执行时，将内存大方向划分为**4个区域**",
+      "translatedText": "C++When a program is executing, memory is broadly divided into**4 regions**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    }
+  }
+}

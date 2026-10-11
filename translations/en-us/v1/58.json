@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "580d2a7f93e77f857bdffe630f3ae3d53ef9a1e85469af5082f74537c5022f7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "407d2409808162e857e93b1c2633ab1344334d6a4f05432315db7cee89c12d0a",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "它把“预测未来”和“决定动作”联合起来，体现 **WM → WAM（World Action Model，世界动作模型）** 的趋势。",
+      "translatedText": "It combines \"predicting the future\" and \"deciding actions,\" reflecting the **WM → WAM (World Action Model)** trend\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 36,
+        "costUsd": 0.000092
+      }
+    },
+    "5829b503eee2afb89418975f3eee3c397d1491861fe8d5cdd03f1d19645c45b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "44e6acfcc13404bc24f9fa7204e7c44703467cbbe6e622b06a358e88da1e348d",
+      "contextFingerprint": "d7533a61c65a493eb506f5b259766c8eda3e585e85142093c1dba536dc785bf5",
+      "sourceText": "两个输入必须形成配对才进入发布回调。源码没有设置最大配对时间差，也没有将输入位姿插值到点云时间：位姿取配对的里程计消息，机械 TF 按点云时间查询，输出 TF 与 `odometry` 都标记为点云时间。近似配对不等于同一采样时刻；实际配对误差和运动影响仍需验证。",
+      "translatedText": "Both inputs must form a pair before entering the publish callback\\. The source code does not set a maximum pairing time difference, nor does it interpolate the input pose to the point cloud time: the pose is taken from the paired odometry message, the mechanical TF is queried at the point cloud time, and the output TF and `odometry` are both marked with the point cloud time\\. Approximate pairing is not equivalent to the same sampling instant; the actual pairing error and motion effects still need to be verified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 107,
+        "costUsd": 0.000191
+      }
+    },
+    "589892dc7e322a02850f8162e86a25eae7aad444a2091a56a1a0586c96ee04c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa672e630fa82737a4b62028cd477c45a980434e8c42167ac4d078afd324a833",
+      "contextFingerprint": "5093f68633af6ea5ef4fee230ddd62964691e708137a74a953f7a30b1a0c07bc",
+      "sourceText": "openwrt-22.03 已将 iptables 移除，为避免兼容性问题，暂时切换到 openwrt-21.02分支: ",
+      "translatedText": "openwrt-22.03 iptables has been removed\\. To avoid compatibility issues, temporarily switch to openwrt-21.02 branch: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 44,
+        "costUsd": 0.000103
+      }
+    },
+    "5899b0c0c4d20f5962f2e4c7d2de3f597ff80df44bf896f0b1ebcdc9cab9692e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b834768d4f4d0531e96959c9330f9d72af0b44e5a625a25bed3f873571dd473e",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：与if语句比，对于多条件判断时，switch的结构清晰，执行效率高，缺点是switch不可以判断区间",
+      "translatedText": "> Summary: Compared with if statements, for multi\\-condition judgments, the switch structure is clear and execution efficiency is high; the disadvantage is that switch cannot judge intervals\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
+    "58ab910a3c179887b63d12356eb29d7330f1f87c502b5f32d193769eb2704935": {
+      "normalizationVersion": 1,
+      "sourceHash": "70c1715f925c061b3ea192114ea4c8e28621ea4fd39ec40bca7c8e48a420f5cb",
+      "contextFingerprint": "2e48b72d827d58d8435ce742da5dfe5807703a242ba2e4df63b6b8d9080096fc",
+      "sourceText": "当前输入 `terrain_map_ext` 的点坐标在odom中；转换使用输入消息时间戳对应的 `base_footprint←odom`，随后以转换后的x、y、z筛选。输出 `obstacle_scan.header.frame_id` 为base_footprint，时间戳沿用输入。",
+      "translatedText": "The point coordinates of the current input `terrain_map_ext` are in odom; the transform uses the `base_footprint←odom` corresponding to the input message timestamp, then filtering is performed using the transformed x, y, z\\. The output `obstacle_scan.header.frame_id` is base_footprint, and the timestamp follows the input\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 66,
+        "costUsd": 0.000134
+      }
+    },
+    "58ff7b038a262d98b07d582133372d16af8db003f58ec239a6bd416d6aa4c57c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c32fa93de57ef0cc9b88b2bfadbb491ba5e56773be4c058947660dbb938607f5",
+      "contextFingerprint": "a6784dbcefae51b8a069e5aa3ddf01ef2f9b8d0eb9b0e78e7b6e68e509f11b6b",
+      "sourceText": "当前 `use_imu_as_input=False`，这项不参与当前模型的预测。改它不能改善本轮转动表现，暂不调整。换到另一种模型后才重新解释和核对。",
+      "translatedText": "Current `use_imu_as_input=False`\\. This item does not participate in the prediction of the current model\\. Changing it cannot improve the rotation performance of this round, so it will not be adjusted for now\\. It will only be reinterpreted and verified after switching to another model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 56,
+        "costUsd": 0.000116
+      }
+    }
+  }
+}

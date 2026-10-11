@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e01a4c698321a1469c5c2b80c87a1fed570708b58f2cafd452fc041b7bbf1945": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2e13e8a411ae913553732c26977b68517cb90972ab622e98f2d99c1ff2d29f2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "深浅拷贝是面试经典问题，也是常见的一个坑",
+      "translatedText": "Shallow and deep copy is a classic interview question and also a common pitfall\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "e0327442513f3a2ab92294939d61119d88a8a649659ef71ee29de247835bf98e": {
+      "normalizationVersion": 1,
+      "sourceHash": "86de1eba85949c4cf590fb5c68bd55305a23cad6d5dfacc433d591cbf83581a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "比较运算符有以下符号：",
+      "translatedText": "Comparison operators include the following symbols:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "e036fda7fca4182e8cdaa68ecd9dcce05c3ed0313bbf788c0637ad33a85f09ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "894fc471a5e198a8503e592ec5767e52a578c3e8fb3fd3bc223bc22593017756",
+      "contextFingerprint": "8fbd20bab3cc3d09d6aa2b699af93d75b3cb0be1619d2fe41bc817f6f34f4b4f",
+      "sourceText": "`time_increment` 写死为0，表示没有逐束时间差；`header.stamp` 沿用输入点云时间。地形输入含历史点，不能把这个结果当成所有射线确实在同一时刻由物理二维雷达采集，也不能用scan_time代替运动补偿或修复上游点时间单位。",
+      "translatedText": "`time_increment`Hard\\-coded to 0, indicating there is no per\\-beam time difference;`header.stamp`Follows the input point cloud time\\. Terrain input contains historical points; this result must not be treated as all rays actually being acquired at the same instant by a physical 2D radar, nor may scan_time be used in place of motion compensation or to fix the upstream point time unit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 90,
+        "costUsd": 0.000166
+      }
+    },
+    "e03d18f096bff53d3a11cc9a4411e703385e1582b3dc32828ba8c35783a21a75": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f786dc149a0242d2a8bbf514df2cb8743fdcead73c342a8e4666202dfb26481",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 3. 修改启动路径",
+      "translatedText": "### 3\\. Modify the startup path",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "e0b1dd0728849c407e59385d67d2d13fe09b7da14d4f63609b57e062844af1ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "569dcacdbc7ba50d496ce092393a436d0abcefe07f50ed08a91d306bb7811676",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 安装准备",
+      "translatedText": "## Installation Preparation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "e0b5f0302beb4499fa9fdb96664d3781a0a0ebf9793c151074369b6c62dcfac2": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1bec292aa1e25751af9f264a821acc7cc932de31266d280234418be470ec8e4",
+      "contextFingerprint": "0790b24daaad47d8a353bad26e7d59c1ce9bae88abc8d902e35a528ee46b4356",
+      "sourceText": "这块先负责让 Point-LIO **把位置、运动和地图估计对**；坡道能不能通行，随后才由地形分析和代价地图判断。实车遇到问题时，先按下面的现象找参数，不必先读噪声公式。",
+      "translatedText": "This section is responsible first for making Point-LIO **align position, motion, and map estimation**; whether the ramp is passable is then determined by terrain analysis and the costmap\\. When issues occur on the real vehicle, first find the parameters according to the phenomena below; there is no need to read the noise formulas first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 80,
+        "costUsd": 0.000152
+      }
+    },
+    "e0e00717cff78d680929be8013b7ca9d330e85bff7ebd510a4e56b9ea89dc432": {
+      "normalizationVersion": 1,
+      "sourceHash": "c76ef9eb367dbfa35b161079197178199aa5e2e16ad388e7648e3f5ac0914fb1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "堆区数据由程序员管理开辟和释放",
+      "translatedText": "Heap data is allocated and freed under programmer management",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "e0e3ee7520d34ee253d17b5573c4737a8fe82c9413c9fd2dc00d3affe0bb9761": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdf36fe79c3d905f0807600f8653689d8d29343efc0cf5ada5b40bfba7f533b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样 CMake 会创建一个名为：",
+      "translatedText": "This way, CMake will create one named:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "e0fc4fc58ffb68a0b6ffb9ebb419eeba37c2e61b130db83a00c4490c12ffc637": {
+      "normalizationVersion": 1,
+      "sourceHash": "a89bbde561028e7ded2fdad2f89120fbaba527e487883efee3d791851396bf96",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 找不到 Ninja",
+      "translatedText": "### Ninja not found",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    }
+  }
+}

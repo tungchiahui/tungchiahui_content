@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f728d007f2f49f789aa557ecbe09ebcf5572e6dd8925d833142cbc8e08b5bc5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4d323dcb9b6bb896524a0a00ab83dd4f39f13481a2fdd6412f5d0c43646f436",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "综上，你应该需要的数据是：",
+      "translatedText": "In summary, the data you should need is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "f75364f910b83ebd920321e3dcf66729d932693d65e06d1f895e8daa73e2d6b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "883577b5146143b4066ea3f560b7eb2cdb75a859dc6e42e0473ee8ad105147d9",
+      "contextFingerprint": "d9e8ce6c6bf2444ce5e4b114f143b312b4a596a463fdb70f233d17f183cb4bdc",
+      "sourceText": "所以，近处点密集的块可能很快更新，远处点少的块可能等到时间门槛，旧点保留超过0.2秒。没有新扫描时也不会单靠计时继续处理。`noDecayDis=0.0` 没有免衰减区域；以后调大，只让指定范围的自身历史绕过年龄检查，不会自动恢复近场缺失的输出。",
+      "translatedText": "Therefore, blocks with dense points nearby may be updated quickly, while blocks with few points far away may wait until the time threshold, with old points retained for more than 0\\.2 seconds\\. When there is no new scan, processing will not continue based solely on the timer\\.`noDecayDis=0.0`There is no decay\\-free region; if increased later, it only allows the self\\-history within a specified range to bypass the age check, and will not automatically restore the missing output in the near field\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 103,
+        "costUsd": 0.000184
+      }
+    },
+    "f7563f619ef5cb9c0d08c850724e09535680eee8d34df7879fcf9d60814a280a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b3a3b9690bb47036968d07004f3831630335e5f5e966939ffa2488c0c7ced40",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### ROS Parameters（坐标接口、建图模式与续建入口）",
+      "translatedText": "#### ROS Parameters (coordinate interface, mapping mode, and resume\\-mapping entry)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "f78b83a7465baa680ba34b3fe483eff14be032b3903e3a4e94663ac78435b8d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "81ba7c75b535a7b594ac33fd81c8b13747c6e25775df1c6fe6d3e174a8ebd0dc",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**示例2：野指针**",
+      "translatedText": "**Example 2: Wild pointer**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f7917c35322803c4e0f0c577d26d5a66517f844772a58e46c64e3bad0ab7d522": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f23aa3bbae4f6188274c6c6343dd621f635de997b4a7dcfc2dbbd335192057f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "用法：函数调用作为左值",
+      "translatedText": "Usage: function call as an lvalue",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "f7c86c885cc4641f60af81fda840a4144ed0c26ece02d13b412e3d9feaf0fa7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a02bbb3caa73a8c12703983578fab73937de857218d88e009ca6cbb037301a70",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：空指针和野指针都不是我们申请的空间，因此不要访问。",
+      "translatedText": "> Summary: Neither null pointers nor wild pointers refer to space we have allocated, so do not access them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "f7f4e44fa188a9fd800d05e542c4a9b9dc76410cdb6c6c0b5ae99a3b54375cd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d52531bf6d267f4b4f83eab8357127dc91315a368ca44f67960b668d39f6732",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以在电脑和工控机上都试一下，工控机全显示就没啥问题，电脑有不显示的可能是数据包大小的问题，但DDS一般没问题。",
+      "translatedText": "You can try it on both a computer and an industrial PC\\. If it all displays on the industrial PC, there is no problem\\. If something does not display on the computer, it may be a data packet size issue, but DDS generally has no problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 59,
+        "costUsd": 0.00012
+      }
+    }
+  }
+}

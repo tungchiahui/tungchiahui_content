@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "4e20c1ec5b30178ce157e039c9e491397a036cddba315f1858bdad7120dbba9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "fae245790d7dbc098ca317c8ace04cf5cc953889cb768e10f8d3bf229e6ad08e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一章先不改代码，只做一件很具体的事：",
+      "translatedText": "In this chapter, we won't change the code first; we'll do just one very specific thing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "4e369c21ba3b76d6a426f978b15345aded4100589f58e595a5b5c7fbf7d87fe0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1270da9afc8a39e5faef53d574e95e5b52892efdde8fb061e33abb03a53df9b3",
+      "contextFingerprint": "0f86d4d0d8f0eaf7a29944cce3081522f4e2d2037f535c5293971528c6a1ce20",
+      "sourceText": "所以 `disRatioZ` 能放宽缓存候选范围，却不能保证远处坡面超出固定窗口的点最终被保留。原注释只解释了前一阶段，不能据此认定整条链都随距离扩大高度范围。",
+      "translatedText": "Therefore, `disRatioZ` can relax the cache candidate range, but it cannot guarantee that points on distant slope surfaces beyond the fixed window are ultimately retained\\. The original annotation only explained the previous stage; based on that alone, one cannot conclude that the entire chain expands the height range with distance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 62,
+        "costUsd": 0.000126
+      }
+    },
+    "4e50e15a7fbd05e22c9bff8ccce4dc0bf73297e52f987fb44e7499adeb51b1ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac1c6ad2b0ed78af8f037fc65399658e92b5d97ba1212513ecb0885e0f93b42f",
+      "contextFingerprint": "86b58c3c24e54d89690ed1a12d6d014c54d73b4423c59726c196fa7dfd1f5173",
+      "sourceText": "这里的`pose z`是底盘刚体的中心面的中心点在chassis 0点的什么位置，可以由SW测量得知，是65.46mm",
+      "translatedText": "Here,`pose z`is the position of the center point of the central plane of the chassis rigid body relative to chassis point 0\\. It can be obtained by SW measurement and is 65\\.46 mm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 47,
+        "costUsd": 0.000104
+      }
+    },
+    "4e636dcc27ffe97b272644458d5c0965072530941066e27a726dd7215f695a27": {
+      "normalizationVersion": 1,
+      "sourceHash": "999c952ba63380870479aa932ee7dabc85913525ed6a777ef4a59c5d7a988bab",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 左移运算符重载",
+      "translatedText": "#### Left shift operator overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "4e6d172e529dafbc221b05c48dfe7aace9633fd79240bf69c4ef2a677eb64f0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "92d6526b84bcad56deaec7b07788955478576ff748284d2633068443a6904244",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 程序运行后",
+      "translatedText": "### After the program runs",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "4e908acd525bf971d6465875f85818a72279cc2ea05553dd53e58f3a45802ad3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c93ae26e770d32259bf63a3f4d4daa264a490777034641d3386994d5f57e61e5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "MCU从云台系换到底盘系时，要另外使用两者的机械相对角。若 q 表示云台系相对底盘系的平面朝向，已计入固定安装关系，方向换算为：",
+      "translatedText": "When the MCU switches from the gimbal frame to the chassis frame, the mechanical relative angle between the two must be used additionally\\. If q represents the planar orientation of the gimbal frame relative to the chassis frame, with the fixed installation relationship already accounted for, the direction conversion is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 67,
+        "costUsd": 0.000132
+      }
+    },
+    "4e95a1400fd175357846db7d37f87de9e70211e8429141eb296b60d0688c6fa1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba5a745fc7b4915d3efa2193449e90030e07458f611e83e0b97d28d419a703c9",
+      "contextFingerprint": "e25f043f0b08c7ce0d0f2fd00a6569ce21147dbd5f44c8839de57ce54285ae2b",
+      "sourceText": "再把这个仓库里的功能包克隆到src文件夹里：https://github.com/qza36/COD_loopback_sim",
+      "translatedText": "Then clone the feature package from this repository into the src folder:https://github.com/qza36/COD_loopback_sim",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "4ebfe015036efef30f7e7d09343acbeb7299d92e65a574a34a6e452880b05587": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ae07006fb66285b50a1613ce142f6f01fbd1184a22c8e23ddf428f9b3a2bc3c",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用：** 最常用的排序算法，对数组内元素进行排序",
+      "translatedText": "**Function:** The most commonly used sorting algorithm, which sorts the elements within an array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "4eca7a2fa6ae4aa181fa70dbf5062c787e7afd454960a2f938cba6486318c698": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc60df2443eeebd3b3774f388ed08acdacb02f0daba8d6e74187515bcce77026",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### odometry（里程计发布设置）",
+      "translatedText": "#### odometry (odometry publishing settings)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "4ed4b99bb3947f7298a826b2bee258120443ab6918b23834afef3d3aa9e78fbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "0867910760c222213c84312b68853546a67a998b34252301969a865589959d29",
+      "contextFingerprint": "3e6b14497b4ff0062dc170c90c0bd4bbfd0c81036e21253f888613afad20f7fa",
+      "sourceText": "每个0.2 m平面格先收集邻域高度。`useSorting=True` 时排序并取下标 `floor(quantileZ×N)` 的高度；当前 `quantileZ=0.2`，例如10个样本会取下标2，即从低到高第3个样本。它可以减少极低离群点对“最低地面”的影响，但分位比例过高也可能把障碍底部或坡面较高部分当作地面。",
+      "translatedText": "For each 0\\.2 m planar cell, first collect the neighborhood heights\\.`useSorting=True` sort them and take the height at index `floor(quantileZ×N)`; currently `quantileZ=0.2`\\. For example, with 10 samples, index 2 is taken, i\\.e\\., the 3rd sample from low to high\\. It can reduce the influence of extremely low outliers on the \"lowest ground,\" but an excessively high quantile ratio may also treat the bottom of obstacles or higher parts of slopes as ground\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 102,
+        "costUsd": 0.000185
+      }
+    }
+  }
+}

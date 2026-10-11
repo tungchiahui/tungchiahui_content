@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "7f168fc08d87f6d2639b55bbaadb26175a10277f1efedd228c79d4cf654f5518": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fd9b51546ff0c77058dcdf124d9b24944ef3fad30c887f7532178ea3366f9f8",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 运算符",
+      "translatedText": "## Operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "7f39058b710a21449d62d7dee5730d986f878b3cea5342e8ca9cb46ab1e22a06": {
+      "normalizationVersion": 1,
+      "sourceHash": "e44dd2b8288df9d5187cff40a7e0d42bd6e13692aef0707c7fcc624b884a69ac",
+      "contextFingerprint": "9a51603633bf76b915759b5d0aefdccc90f359aeb7e5e7f6137548744fcccf12",
+      "sourceText": "回调没有按消息header.frame_id转换位姿、没有使用其协方差，也没有按消息时间查TF，而是取最新变换；收到首帧扫描前，扫描frame_id还为空，查询可能失败。手动设初值只改当前和下一轮匹配猜测，不会重转PCD，也不清空已累计点。云台快速转动时，人工位姿对应的朝向与最新TF是否同一时刻也要核对。",
+      "translatedText": "The callback does not transform the pose according to the message header.frame_id, does not use its covariance, and does not look up TF by message time; instead, it takes the latest transform\\. Before the first scan is received, the scan frame_id is still empty, so the query may fail\\. Manually setting the initial value only changes the current and next matching guesses; it does not re\\-transform the PCD, nor does it clear the accumulated points\\. When the gimbal rotates rapidly, it is also necessary to verify whether the orientation corresponding to the manual pose and the latest TF are at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 145,
+        "costUsd": 0.000245
+      }
+    },
+    "7f5c1f84a046d0aa7cf0c4288880f787994cf4e02dae508ed1b6203b81e3a1b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "090c62316b2aa6b567889beb65c54a60138532f248bdb8c61065a2d5dfa4cd69",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 一维数组数组名",
+      "translatedText": "#### One\\-dimensional array array name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7f7450796d95f145163198ad6d88be391cf5508a34f2fadd525a201d7c1005bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdcb6398d716ee6f65b9a0f933584432a950ec50a92eed478fb861dc9f586a90",
+      "contextFingerprint": "16a069bd4ba40fe04bb490db352b42a00771f4d0cb5e90591dd4eef3b35f171f",
+      "sourceText": "| 节点                     | 主要分工                          | 输出                | 当前使用者  |\n| ---------------------- | ----------------------------- | ----------------- | ------ |\n| `terrain_analysis`     | 较细的近场地形分析，当前下采样尺度为 **0.05 m** | `terrain_map`     | 局部代价地图 |\n| `terrain_analysis_ext` | 扩展更大范围，当前下采样尺度为 **0.1 m**     | `terrain_map_ext` | 全局代价地图 |",
+      "translatedText": "| Node                     | Main responsibility                          | Output                | Current user  |\n| ---------------------- | ----------------------------- | ----------------- | ------ |\n| `terrain_analysis`     | Relatively fine near\\-field terrain analysis, current downsampling scale is **0\\.05 m** | `terrain_map`     | Local costmap |\n| `terrain_analysis_ext` | Extend to a larger range, current downsampling scale is **0\\.1 m**     | `terrain_map_ext` | Global costmap |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 63,
+        "costUsd": 0.00013
+      }
+    },
+    "7f840dab93c8f4eab7926029177a75651a13fb3745505d1d10e43737a0383586": {
+      "normalizationVersion": 1,
+      "sourceHash": "54b317df69398b7967d5afffac27d50a7461db8c7716ca4a2db910edd2098370",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 菱形继承带来的主要问题是子类继承两份相同的数据，导致资源浪费以及毫无意义\n* 利用虚继承可以解决菱形继承问题",
+      "translatedText": "* The main problem caused by diamond inheritance is that a subclass inherits two copies of the same data, leading to resource waste and meaninglessness\\.\n* Using virtual inheritance can solve the diamond inheritance problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 45,
+        "costUsd": 0.000101
+      }
+    },
+    "7f84cb819bcf97a36383fcf6b83f1c2ed26d8956218d54811952601e85b8112a": {
+      "normalizationVersion": 1,
+      "sourceHash": "77a8a41171880507d541abbfbc2bcaded9afe0ce5855a07b7280846e0d5557c7",
+      "contextFingerprint": "ad0d4fb12b300c121e0eb2a7c86e9a38dfe5b5690d066d1c5909b4f7db7ada47",
+      "sourceText": "False 使用系统时间；True 使用 `/clock` 提供的 ROS 时间。TF 缓存用的是节点时钟，Point-LIO、关节 TF 和本节点必须处于一致的时间域。",
+      "translatedText": "False uses system time; True uses the ROS time provided by `/clock`\\. The TF cache uses the node clock; Point-LIO, joint TF, and this node must be in a consistent time domain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 53,
+        "costUsd": 0.000117
+      }
+    },
+    "7f862b710caa1fc7d477105e2ca65574aa31ddcfb98f82cacb625a3f6243dd1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "410e68590cdd9e1627530b9c00502715129e7ac028c4539e9b2fb746b9fe920b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们遵循北极熊的规定",
+      "translatedText": "We follow the polar bear's rules",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "7fb9704b6229a2327ea4a22dd1f601a61ce57ccaa52c948f3777931f7c8d0b9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8d0cf3fab28022507cf1ab36902309beeda0706e9f7c767d3b7136134990876",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t这种继承被称为菱形继承，或者钻石继承",
+      "translatedText": "This kind of inheritance is called diamond inheritance, or diamond\\-shaped inheritance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "7fd668e1e4b774a4fcd22c1a13508ccabf9eadb4e875e3b2bd27f0ff9ccadc16": {
+      "normalizationVersion": 1,
+      "sourceHash": "57e02d8b0838fdac8347d52b554213d8b47c65b95699dfaa226b2607da8d2d33",
+      "contextFingerprint": "8007c872a4602ee28e30f90ea503cafdfacf830a3cb4d3b1956c7eb7646a64a7",
+      "sourceText": "15项自定义参数在构造时读取，没有动态参数更新回调；同名参数运行时改变不自动更新这些成员或重建TF过滤器。ROS标准use_sim_time由节点时钟处理。当前use_inf=True使inf_epsilon不参与输出，其他门槛仍按各自条件执行。",
+      "translatedText": "Fifteen custom parameters are read at construction time, with no dynamic parameter update callbacks; runtime changes to parameters with the same names do not automatically update these members or rebuild the TF filter\\. The ROS standard use_sim_time is handled by the node clock\\. Currently use_inf=True causes inf_epsilon not to participate in the output, while other thresholds still execute according to their respective conditions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 105,
+        "costUsd": 0.000189
+      }
+    },
+    "7fe83512aee480497395f70d1e7c41a5fef0e48cc30e00c839975a636d7630b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "695da797fb7d124cb813e6ff296a4dbde566900d6d3f4138e905a42562d12ff8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多态分为两类",
+      "translatedText": "Polymorphism is divided into two types:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "7ff99f0ffc8afdccf769c7f0bbb844ac0eb1b9c62484094f51fe390df66fa467": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fe8f23f36f36b6d59ba30ae7fd08a7587a606a8fef53e38945035371a19ee82",
+      "contextFingerprint": "39c015459d9b155a25937f1dcb9abdb0acdf5abfff78352e1955501c1c6a3437",
+      "sourceText": "| **运算符** | **术语** | **示例**   | **结果**  |\n| ---------- | -------- | ---------- | --------- |\n| =          | 赋值     | a=2; b=3;  | a=2; b=3; |\n| +=         | 加等于   | a=0; a+=2; | a=2;      |\n| -=         | 减等于   | a=5; a-=3; | a=2;      |\n| *=         | 乘等于   | a=2; a*=2; | a=4;      |\n| /=         | 除等于   | a=4; a/=2; | a=2;      |\n| %=         | 模等于   | a=3; a%2;  | a=1;      |",
+      "translatedText": "| **Operator** | **Term** | **Example**   | **Result**  |\n| ---------- | -------- | ---------- | --------- |\n| =          | Assignment     | a=2; b=3;  | a=2; b=3; |\n| \\+=         | Add and assign   | a=0; a\\+=2; | a=2;      |\n| \\-=         | Subtract and assign   | a=5; a\\-=3; | a=2;      |\n| \\*=         | Multiply and assign   | a=2; a\\*=2; | a=4;      |\n| /=         | Divide and assign   | a=4; a/=2; | a=2;      |\n| %=         | Modulo and assign   | a=3; a%2;  | a=1;      |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 258,
+        "outputTokens": 143,
+        "costUsd": 0.000249
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e707cbf07e6b94e9d25e31d4c987ada63a01adc576ebccdac5a2f7124b1b2471": {
+      "normalizationVersion": 1,
+      "sourceHash": "78e67e15e5da04c38ec3bc3d72bd18d7bb705f8eeb64151d28f738724ff78d1f",
+      "contextFingerprint": "a1d6d01bd4dba2aaaf89f72d208d7c8c2222f99612aead8dbd0f4de8f8bd3608",
+      "sourceText": "它没有直接订阅Point-LIO的aft_mapped_to_init，也不靠一个叫/odom的话题来取得位姿。当前链中，Point-LIO先经loam_interface适配，sensor_scan_generation再发布odom到base_footprint的TF；只有里程计消息而缺这条有效变换，仍不足以建图。",
+      "translatedText": "It does not directly subscribe to Point-LIO's aft_mapped_to_init, nor does it rely on a topic called /odom to obtain the pose\\. In the current chain, Point-LIO is first adapted via loam_interface, and then sensor_scan_generation publishes the TF from odom to base_footprint; having only odometry messages without this valid transform is still insufficient for mapping\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 239,
+        "outputTokens": 125,
+        "costUsd": 0.000222
+      }
+    },
+    "e71ac4488d7f02ecaae1bd54a1fd01ed054f15bd604b1f33d3c28a14c79bb649": {
+      "normalizationVersion": 1,
+      "sourceHash": "1aabba5bcdead191a45b92043b7a36918a76244d858c8b5e8b87f8ff6962768a",
+      "contextFingerprint": "f91d1b7d8a0f78f3dbfd37fe2ebc11154efacfa8230625d78a589aa4823694ae",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020807353-1996e692.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020807353-1996e692.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "e753b00598f266db92fe00fcd6299f8925a3a1845f825eb4c2976d71d9a5072d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f1246327b6b07cc839be4c527506e2da42b9d256cba266b94a503086065205b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如此，我们的：",
+      "translatedText": "Thus, our:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "e7a3943b944a9bf259b033a690a234d211e7600ace633b1d64b9e37645f6da10": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee455ca8be40abdefc8e399af9a1418b046dba77d078ac680c9827ddbdbca966",
+      "contextFingerprint": "0e02dabbf4f9eddfa3d358cd23eb74eb70aac5efbac8af654ab00178f4659cf1",
+      "sourceText": "当前采用 use_imu_as_input=False 的 output 模型，以下按这个运行分支解释；“当前值”来自实物配置，不是本轮读取的运行节点值。表中的 g₀ 是上方 YAML 中的重力向量，当前模长约9.81 m/s²。",
+      "translatedText": "The output model currently uses use_imu_as_input=False; the following explanation is based on this operating branch; the \"current value\" comes from the physical configuration, not the runtime node value read in this round\\. g₀ in the table is the gravity vector in the YAML above, with a current magnitude of approximately 9\\.81 m/s²\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 92,
+        "costUsd": 0.000171
+      }
+    },
+    "e7bdcbce63b824b5a004a77f7dfa97146eba844173c3cd9fbd30f38e1ff81afb": {
+      "normalizationVersion": 1,
+      "sourceHash": "618741fea15994d3c2457aa060d50f2c73f55a5f1869339b0eb46d2ee3409332",
+      "contextFingerprint": "80961f6648701cb6ebca43c212c8b3bdb33b46db58a8fcb4f60ba0bb868f4b6f",
+      "sourceText": "`vx、vy` 单位为 m/s，分别沿所选参考系的 x、y 轴；`wz` 单位为 rad/s，表示绕 z 轴的旋转速度指令。下面按平面运动、x朝前、y朝左、z朝上的约定解释；正 `wz` 从上方看为逆时针。实车轴向、MCU正负号和单位仍需核对。",
+      "translatedText": "`vx、vy` The unit is m/s, respectively along the x and y axes of the selected reference frame;`wz` The unit is rad/s, representing the rotational speed command about the z axis\\. The following explanation follows the convention of planar motion, with x forward, y to the left, and z upward; positive `wz` is counterclockwise when viewed from above\\. The actual vehicle axes, MCU sign polarity, and units still need to be verified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 218,
+        "outputTokens": 109,
+        "costUsd": 0.000197
+      }
+    },
+    "e7da158af08a7cddac04d22fbcb94378718543f6089aae7fac0bc2580a69009f": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b80ba15dfe94eaa9e1d70d7a5fcb111b16825655f7507c6b684ea568553d086",
+      "contextFingerprint": "627b4087fa323b86b1dcd036a97ca5b6356cf05a93f5fa07ff07f6528d6cbd29",
+      "sourceText": "#### rmu_gazebo_simulator里的package.xml（仿真包依赖）",
+      "translatedText": "#### rmu_gazebo_simulator in package.xml (simulation package dependency)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "e7e02357cf9c3957178853868fc280eb380f3e1927c14a8c5bfcadbfcc48c472": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b26a89d55da32601af1dbbbc5738f5476c2448f1bd4133a3fec302cce1cc778",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Evaluation",
+      "translatedText": "### Evaluation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "e7f217d09fcd38d14237e869ca8f52c8728400b2d900fe5812fcdcfc1cd25b47": {
+      "normalizationVersion": 1,
+      "sourceHash": "89980c836f495889c881a28f9ac4617c54f131f028cb22bc54c73a5d4a2728d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前 False 的处理方式是：滤波器内部估计角速度、加速度等状态，收到 IMU 后用测量纠正这些状态，再进行运动预测和激光匹配。",
+      "translatedText": "The current handling of False is as follows: the filter internally estimates states such as angular velocity and acceleration; after receiving IMU data, it corrects these states using measurements, and then performs motion prediction and laser matching\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    }
+  }
+}

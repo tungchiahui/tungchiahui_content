@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "330a94bef7ef3754b4d8206a8be8df2ab9e1550dfbeeed8d5d08263f7e328b38": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5b0a0181c71192da371f631d897e65e15173ad0e8cd4fb89381617079da5881",
+      "contextFingerprint": "328ec5c2a94f689aec3ffbf2cdbe0866a880c5abbce8cfe3e4cce50878f7455f",
+      "sourceText": "比如说`ros2 topic hz /livox/lidar`可能在电脑上一直不显示，但在工控机上显示，则输入下面这俩命令在电脑上：",
+      "translatedText": "For example,`ros2 topic hz /livox/lidar`it may not always display on the computer, but it displays on the industrial control machine, then enter the following two commands on the computer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
+    "33132e345892ca02d0aa67e27c19234736cc542e3379177d8a10dac3d01539f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b43d17e75b9380dbbc417f97bc3d210e9faf88509002fcc0147aee4243dd4363",
+      "contextFingerprint": "ab9eb8b37f5fbae5db122581d7a35b60743a7288bad736250d7dae807c0a45ee",
+      "sourceText": "所以，做已有地图导航时，这份YAML中的mode仍写mapping，也不代表slam_toolbox在后台继续建图，因为该节点根本没有启动。若以后要使用slam_toolbox自己的定位方案，需要相应定位节点、序列化地图和匹配流程；那是另一套启动需求。[官方定位节点实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_localization.cpp)",
+      "translatedText": "Therefore, when performing navigation on an existing map, even if the mode in this YAML is still set to mapping, it does not mean that slam_toolbox continues to build the map in the background, because that node is not started at all\\. If slam_toolbox's own localization solution is to be used in the future, the corresponding localization node, serialized map, and matching process are required; that is a separate startup requirement\\.[Official localization node implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_localization.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 114,
+        "costUsd": 0.000201
+      }
+    },
+    "33151bfda93fd50ca830f42bd64a3d133475f1a51bb815f8e6818f77b53a00a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d705b2bffe7af78f1f3688952c8c53e878245ab74f7173624a18e5df78b410db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前81越大，条件越严格。代码允许的距离误差还随点到雷达的距离变化，例如1 m处约11.1 cm、4 m处约22.2 cm；这些是匹配门槛，不是定位精度或车必须离墙多远。",
+      "translatedText": "The larger the current 81, the stricter the condition\\. The distance error allowed by the code also varies with the distance from the point to the radar, for example about 11\\.1 cm at 1 m and about 22\\.2 cm at 4 m; these are matching thresholds, not positioning accuracy or how far the vehicle must stay from the wall\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 80,
+        "costUsd": 0.000151
+      }
+    },
+    "33254ddda6c953de6fbecac8af4a80cb695217fb29bc7db43ea356851a57b732": {
+      "normalizationVersion": 1,
+      "sourceHash": "aba7967ffa55b472380117be03dcd92dad4011e315e822e7e2755390ce515e84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这东西只影响Gazebo，放心大胆填就完了，没必要很精细。",
+      "translatedText": "This thing only affects Gazebo, so just fill it in freely and boldly; there is no need for it to be very precise\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "3342981e285346fb0adaa4ab53e192fc73bf980344b4762785320f37ee18c79a": {
+      "normalizationVersion": 1,
+      "sourceHash": "10f556a88a7c5be292d490e6c415df5fc70eaf01f54ef87008a5e063c065a40d",
+      "contextFingerprint": "d738a260f5912d082aabc5bbb31e47f61bb34e7ed465f15130552de1ddf264de",
+      "sourceText": "**运行结果（以下为按提示依次输入 `10`、`20`、`30`……时的一次示例）：**",
+      "translatedText": "**Run result (the following is an example when entering `10` , `20` , `30`\\.\\.\\. in sequence as prompted):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "339c251ae84cf29e5df7203a42df8a76aa5f29b4b26c45eb58dfbb2ef892fbbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "80745465389ca36c373ecb918ff3904623908c290f2a88da5d6186992c72ca0c",
+      "contextFingerprint": "8aaa5c3837aedb18c44393e7256cb9b419c88b78ff4e5d35f6a8a6f16b0a890f",
+      "sourceText": "###### ceres_preconditioner（迭代求解的加速辅助，当前不用）",
+      "translatedText": "###### ceres_preconditioner (acceleration aid for iterative solving, currently unused)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
+    "33c9b13fdeb71311eee44ac9f21d128baebec38d1134d1c981c4423b9e0ffc74": {
+      "normalizationVersion": 1,
+      "sourceHash": "5621edc521ae8781dab1d32112e6467b6c4172211d3fe452383ad39a7d861b8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中引入并调用：",
+      "translatedText": "Introduce and call in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "33f12056f0249ff9709ba83ab87ff345bff8ecd75ec222e6ceb4b388490b9ec1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5e60fd4e52842f7110ded0d926cb37f8e8956c2a9f32b7cf72670134af5ba8a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下载完之后，点击浏览器，找到这个安装包的文件夹，并在该路径打开终端。",
+      "translatedText": "After downloading, click the browser, find the folder containing this installation package, and open a terminal at that path\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    }
+  }
+}

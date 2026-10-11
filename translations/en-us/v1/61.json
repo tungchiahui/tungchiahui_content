@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "613c061d40e6d215a183aab08c3a2d5fa1d9d18d8afc1d1f0e04901b0ef49253": {
+      "normalizationVersion": 1,
+      "sourceHash": "01c9b460d6482ffd24b844fa01c17f4b35b97874fcf2b50deec4c706e7c72d8e",
+      "contextFingerprint": "dbd646627b74333880db9729710ccdd1e973a414d3321fbb6b77b02e50df954c",
+      "sourceText": "`std::print` / `std::println` 默认输出到标准输出，也可以把第一个参数写成 `stdout` 或 `stderr`。这里的 `stdout` / `stderr` 是 C 标准库的 `FILE*`，不是 `std::cout`。",
+      "translatedText": "`std::print` / `std::println` By default, output goes to standard output, but you can also write the first argument as `stdout` or `stderr`\\. Here `stdout` / `stderr` refers to the C standard library's `FILE*`, not `std::cout`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
+    "61c61d1904aa642711ab1f12e99f5f7cec15291b3229f47c339e33b1c85fc04f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e518d3dc9786dad267e3651658abc7ec2cb0c9dac08c7aeb2be590dc8a30e7ce",
+      "contextFingerprint": "88166e822ecb4ca62f13a06d2efaf7108fcaab7ba56b2a9e15c91dbece2da79c",
+      "sourceText": "- **源码能确认：** 17项读取与当前门控、随距离扩大的高度窗口、远场绝对高差、4 m近远场合并、衰减与清图触发方式，以及三个未生效参数；上面的行为解释按当前源码复核。\n- **仿真已观察：** 2026-10-08 的静止和约20 cm往返只覆盖独立 Point-LIO 输出，没有验证扩展地形、上下坡、坑洼、顶棚、4 m交接或全局代价地图。\n- **必须实物核实：** 输入原点到地面的高度、内部 IMU→雷达→底盘关系、`odom` 竖直方向、坡面及低障碍的回波密度、下坡与真实落差是否被正确区分、交接处一致性和障碍离开后的残留。MID360 随实际 yaw、不随实际 pitch 转动的机械约定继续保留；本轮未作运行测试。",
+      "translatedText": "- **Source code can confirm:** The 17 reads and the current gating, the height window that expands with distance, the far\\-field absolute elevation difference, the 4 m near\\-far field merge, the attenuation and map\\-clearing trigger method, as well as the three inactive parameters; the behavioral explanation above has been reviewed against the current source code\\.\n- **Simulation has observed:** The 2026\\-10\\-08 static and approximately 20 cm round\\-trip tests only covered the independent Point-LIO output, and did not validate extended terrain, uphill and downhill slopes, potholes, ceilings, the 4 m handover, or the global costmap\\.\n- **Physical verification is required:** the height from the input origin to the ground, the internal IMU→LiDAR→chassis relationships,`odom` the vertical direction, the echo density of slopes and low obstacles, whether downhill and true elevation differences are correctly distinguished, consistency at the handover point, and residual traces after obstacles leave\\. The mechanical convention that MID360 rotates with actual yaw and not with actual pitch continues to be retained; no runtime tests were performed in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 324,
+        "outputTokens": 246,
+        "costUsd": 0.000393
+      }
+    }
+  }
+}

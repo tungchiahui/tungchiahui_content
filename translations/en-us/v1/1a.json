@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1a0af091076602bcdb94122ec844534a73c13be5bbf6997ad2b70e671810fb90": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1a6ae02f73c1196c1746c0cc005dd0230e72bbe53345cef7b6150f31517bb9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，下面这条命令并不是简单地直接执行Electron主程序：",
+      "translatedText": "Therefore, the following command does not simply execute the Electron main program directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "1a25c93afc6f5eb60024d9bbc1448cdad45e30feb62cc472fb4f52fb0c937e99": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd9fa1fbf6b997b17fbbbc4a83f1d673d799ec52895a9bb5a7142fd0314259ba",
+      "contextFingerprint": "6cf1d510aa40b7aa2d168c0a7a61d8390ef9f383c69d70067b3b8b1faaaf8e82",
+      "sourceText": "| 点在底盘系中的z | 上游给出的地形高差 | 本节点结果 |\n|---:|---:|---|\n| +0.2 m | 0.15 m | 两个窗口都通过，参与二维投影 |\n| +0.2 m | 0.06 m | 高差不足0.1 m，被删 |\n| -0.7 m | 0.2 m | 低于-0.5 m高度下界，被删，即使高差足够 |",
+      "translatedText": "| z of the point in the chassis frame | terrain elevation difference provided by the upstream | result of this node |\n|---:|---:|---|\n| \\+0\\.2 m | 0\\.15 m | Both windows pass; participate in 2D projection |\n| \\+0\\.2 m | 0\\.06 m | Elevation difference less than 0\\.1 m; deleted |\n| \\-0\\.7 m | 0\\.2 m | Below the lower height bound of \\-0\\.5 m; deleted even though the elevation difference is sufficient |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 215,
+        "outputTokens": 107,
+        "costUsd": 0.000193
+      }
+    },
+    "1a36a68c20b9206f86b289432198d13667cc94be7739738a3df3fe174b2bb92f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed4baec78c48c2ab0f57f63fb976cf7da4b86bc559eafe2ecc08e53d2d00f95e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t按参数分为： 有参构造和无参构造",
+      "translatedText": "​\tDivided by parameters: parameterized constructor and parameterless constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "1a45c5f36fb07ab118db9a10f79ab7413614bb76fb1918bc4867aa9eed53c214": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f1d84b902a9953c3faeff72b564f9e7a7040ba59c89fc24e9996e7316a05756",
+      "contextFingerprint": "00636fdbf2dbd6d59c3e5ba99f52ebf0ff6ee64b70ffb728c589f815c55eb48e",
+      "sourceText": "因此这是**底盘原点上的虚拟二维扫描**，不是MID360原点上的真实激光束。MID360与底盘有安装偏移，不能把range_min理解成“离雷达外壳0.3 m”。输入是累积地形结果，含不同时间、不同高度的点；同一角度格只留最近的合格点，也不重新验证从底盘虚拟中心到该点是否存在真实光路或遮挡。",
+      "translatedText": "Therefore, this is a**virtual 2D scan at the chassis origin**not a real laser beam at the MID360 origin\\. The MID360 has a mounting offset from the chassis, so range_min cannot be understood as \"0\\.3 m from the radar housing\\.\" The input is an accumulated terrain result, containing points at different times and different heights; for the same angular bin, only the nearest qualifying point is retained, and there is no re\\-verification of whether a real optical path or occlusion exists from the virtual center of the chassis to that point\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 220,
+        "outputTokens": 129,
+        "costUsd": 0.000221
+      }
+    },
+    "1adddb1928d4983a631453889ff49498347c2cd2512e7702804e1a23b60c26c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d56aa51a2cdd92acab88c222d06c6c0d0c11e33f2b837bab724e28698395794",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "改成 False 后，代码还会在激光逐点时刻增加协方差预测，通常计算量更大。它不是“把 Point-LIO 输出频率设成 IMU 频率”的开关，也不能保证切换后精度更高。",
+      "translatedText": "After changing it to False, the code will still add covariance prediction at each laser point time, which usually results in a larger computational load\\. It is not a switch for \"setting the Point-LIO output frequency to the IMU frequency,\" nor can it guarantee higher accuracy after switching\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 71,
+        "costUsd": 0.000141
+      }
+    }
+  }
+}

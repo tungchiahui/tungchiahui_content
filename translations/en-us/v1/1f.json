@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1f02fefaf00088395b46035786ed94c74c57cea017e7b2a1e611e5e133b49fe2": {
+      "normalizationVersion": 1,
+      "sourceHash": "0913798c410ce350a8184b412a4785ffa90ec55383cd40a70936874c664d33a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前 True 表示使用 MID360 内部 IMU。雷达连续扫描时，IMU 帮助算法判断传感器正在怎样转动、加减速，也参与初始方向判断。",
+      "translatedText": "Currently, True indicates that the MID360 internal IMU is used\\. During continuous LiDAR scanning, the IMU helps the algorithm determine how the sensor is rotating and accelerating or decelerating, and it also participates in initial orientation determination\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 54,
+        "costUsd": 0.000115
+      }
+    },
+    "1f53ffdf6a97016eeba2d2887940b30db2ae04d9b4ed6535f6ab23919a5f1313": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8e7b33c3682ccf67d77f4e3e6d0f350722cbd29ebb8cd13a18e20fe5e2c646a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再确认点云 frame：",
+      "translatedText": "Reconfirm the point cloud frame:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "1f6209ce390ac4bbed02cfa95503d0dd9e8853c9ae8ec54e76a54d898e7b06d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5447757e84a98ae74fd6647cf9cb483626940a6987da3c062143869ad71fac6",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "不同资料采用的 C++ 标准和代码风格可能不同。学习语法时可以参考多个\n来源，但在本教程的工程中，以当前章节给出的 C++ 写法和 CMake 配置为准。",
+      "translatedText": "Different materials may adopt different C++ standards and code styles\\. When learning the syntax, you may refer to multiple sources, but in the project of this tutorial, the C++ notation and CMake configuration given in the current chapter shall prevail\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 72,
+        "costUsd": 0.000143
+      }
+    },
+    "1f75de8f6fb857036c3811ce45a5c85af4b5c1d2f007f3c305643111c5ff9af9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8405454c622d0b4ff4134d445ddbf90b3e1486a4a3c188209267be33620cb81f",
+      "contextFingerprint": "1676960dcb6d85e1d75f0b8d72eb9d52c1990347cb79e9df2033b5b5766af147",
+      "sourceText": "“位姿图”可理解为：记录各帧扫描时车辆的位置、朝向，以及帧与帧之间的相对关系。求解器在有这些约束且触发优化时，调整二维x、y、yaw，使约束更一致。它不优化Point-LIO的三维IMU状态，也不替代small_gicp的PCD定位。",
+      "translatedText": "A \"pose graph\" can be understood as: recording the vehicle's position and orientation during each frame scan, as well as the relative relationships between frames\\. When these constraints are present and optimization is triggered, the solver adjusts the 2D x, y, and yaw to make the constraints more consistent\\. It does not optimize the 3D IMU state of Point-LIO, nor does it replace the PCD localization of small_gicp\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 215,
+        "outputTokens": 111,
+        "costUsd": 0.000198
+      }
+    },
+    "1f7ad4875186b5a07194710f08d8c6682a777f24195970e173c4abd142852668": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fc9026e133fca6b28eaf030ea8303ff0f0dbadb6693864191104f1fc2bd3420",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "提问：指针也是种数据类型，那么这种数据类型占用多少内存空间？",
+      "translatedText": "Question: A pointer is also a data type, so how much memory space does this data type occupy?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "1f8f6dd5dacc7fceb1c45c45e20b9266c5533525b3db4962654dcede910d3789": {
+      "normalizationVersion": 1,
+      "sourceHash": "a34cf89b433efa9289a47207f00efd56cf046d50b270ef5a54af9b25c87cd368",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**当前定位：CV / Video WM 较重，但与 Planning 的连接非常明确。**",
+      "translatedText": "**Current positioning: CV / Video WM is relatively heavy, but its connection to Planning is very clear\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "1fa80b9e90dc419900d029a9f3311ac708e3c390762814e3535a755b86325bd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "91bf0a929e935afd2a44a07e5d9a3d27de0b119e6eb46bda674892c31b909860",
+      "contextFingerprint": "91e8b57eac9c8b7dc5ff20872ffa708c1e2b70fefd7d9e064d205916bda7f715",
+      "sourceText": "所以，真正的半径在`src/rmoss_gz_resources/resource/models/rmua19_standard_robot/chassis_wheel.def.xmacro`。",
+      "translatedText": "So, the true radius is at`src/rmoss_gz_resources/resource/models/rmua19_standard_robot/chassis_wheel.def.xmacro`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "1fb13e43ac0c86829b2a4f5d757c0df5cac318a3e92548a96705cd858cf280e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dc108d28122380e1725d5d8436a0df08126b069f846b338baa9076bf8db8ea4",
+      "contextFingerprint": "5c5f192543fbacc4b71096482253c7f53cc0c3554a94b37a16e279378a61aa07",
+      "sourceText": "节点直接把输入位姿当作雷达位姿，并用其逆变换处理点云；没有核验输入 `child_frame_id` 是否对应 `lidar_frame`，也没有验证两种输入的参考系一致。上游若仍是内部 IMU 位姿，雷达→底盘的机械 TF 不能代替缺失的 IMU→雷达外参。",
+      "translatedText": "The node directly treats the input pose as the radar pose and uses its inverse transform to process the point cloud; it does not verify whether the input `child_frame_id` corresponds to `lidar_frame` nor does it verify that the reference frames of the two inputs are consistent\\. If the upstream is still the internal IMU pose, the mechanical TF from radar to chassis cannot replace the missing IMU\\-to\\-radar extrinsics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 85,
+        "costUsd": 0.00016
+      }
+    }
+  }
+}

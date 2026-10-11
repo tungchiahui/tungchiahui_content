@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "761da143b19c0fe5f3f5f0f303f0ab05296a6dc9a9de1dc54413058b941a627e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e730a62df442ffeb82c2e57024e6e36cc0cc125344c955f8d84633934244275",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### vehicleHeight（地形输出高差上限）",
+      "translatedText": "###### vehicleHeight (terrain output height difference upper limit)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "76398987a411687aff9994c96461a7593451fde3a9b2898d1d6efc1dfe13e87a": {
+      "normalizationVersion": 1,
+      "sourceHash": "46ad852e2d043a3e3311835a62c5cd2b28720f76fda9da1d8d9234761774d989",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- lower：约 −45°，向上仰。\n- upper：约 +32.4°，向下俯。\n单位都是 rad。",
+      "translatedText": "- lower: approximately −45°, tilting upward\\.\n- upper: approximately \\+32\\.4°, tilting downward\\. The units are all rad\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "764069122b1a8d90f92e9f0c7596d5a4c2435cf83b2c88fe0df972894ff82559": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e0ec895c9a0767af5f0008ecedb4fc3b2e722eed454faf97e0b822852bfa093",
+      "contextFingerprint": "d278a33bd1c61f01096de16950104b563a570dff886d5033dc5f32c49adc6a6e",
+      "sourceText": "`类名::~类名(){}`",
+      "translatedText": "`类名::~类名(){}`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7659539092af781e332541deffa357badc4cfb5aa9c4df0742afcbc366b731c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1362f0c8d32cb9903520d2b1425c655fe17c978c0c1a0cb5afbf641bba936ebc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输出约20 Hz真实时间重复当前结果，点云匹配则约2 Hz真实时间尝试一次；20 Hz不表示每次都得到新定位。TF时间取最后收到的扫描时间加0.1秒，固定在源码中，不是本块参数；也没有“已成功匹配过”的输出保护，启动初值同样可被发布。这里只记录输出接口，仍不展开此前搁置的导航走停或TF时效故障排查。",
+      "translatedText": "Output repeats the current result at approximately 20 Hz real time; point cloud matching attempts once at approximately 2 Hz real time; 20 Hz does not mean a new localization is obtained every time\\. The TF time takes the last received scan time plus 0\\.1 seconds, fixed in the source code, not a parameter of this block; there is also no output protection for \"has already been successfully matched,\" and the startup initial value can likewise be published\\. Here only the output interface is recorded; the previously shelved troubleshooting of navigation start\\-stop or TF timeliness faults is still not expanded\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 127,
+        "costUsd": 0.000219
+      }
+    },
+    "76716ff9a96501340a39d755a86b10d9117637dffa222de72b475cccdebc9361": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c0b37d087c3d270a6f089c0f8173d6c6bd56ac7db93e8e38d0d82a4af94379c",
+      "contextFingerprint": "5e756db0d3da5b1a199980cc5b4b875eaa985a8728fef0988f531c4b14aa7a48",
+      "sourceText": "* **在定义变量或者常量时候，不要用关键字**",
+      "translatedText": "* **When defining variables or constants, do not use keywords\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "7684b10a19f70cce68518436b2bc07961565bf9b141ac190bdbf5d8e9a18da82": {
+      "normalizationVersion": 1,
+      "sourceHash": "eaa16dd2e35d7967662205ac6b7007239b3d3ced4c689458002ae85bc29fa29e",
+      "contextFingerprint": "fca6e3af4b1dd771965dc20c46ae7c0d02a1cafc93143718686ab58773983d5b",
+      "sourceText": "### terrain_analysis_ext（扩展远场地形与近远场结果合并）",
+      "translatedText": "### terrain_analysis_ext (extended far\\-field terrain merged with near\\-far field results)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "769a10731eb3606f3833e330d5c7d3e343634f555d745fa0563d15a777c4fa6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "35bda7533de9079f5ff46ddeeaef16577b1787f4d11230d94e7899ed06b0f46f",
+      "contextFingerprint": "85f5b27223cc790a8fa418e36edd9e527ddd3b3d06e291982882718a716dce7f",
+      "sourceText": "这个例子反过来：入口文件使用 C 语言，而 `swap` 库继续使用 C++ 实现。",
+      "translatedText": "This example is the reverse: the entry file uses the C language, while the `swap` library continues to be implemented using C++\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "76cb01d8bbe3098cb33ee176b79160a2ce651ca4dcfd1b19af78c6523d320680": {
+      "normalizationVersion": 1,
+      "sourceHash": "984085d30f18e3a9a6c26f076c08b0900da914fc610b77884e83e8ce042169c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**将自定义的结构体放入到数组中方便维护",
+      "translatedText": "\\*\\*Purpose:\\*\\* Place custom structures into an array for easy maintenance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "76cce68f4eee49f319ff4c1ae15c19ba4c6718201a03534c429fddf99f3dcd7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "31dcdfb549a51217d76d9ff285e8e9b29853fe4f1288a83f17cf73cb4361f501",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### lowerBoundZ、upperBoundZ 与 disRatioZ：能不能看到远处上下坡",
+      "translatedText": "###### lowerBoundZ, upperBoundZ, and disRatioZ: whether distant uphill and downhill slopes can be seen",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "76ee55cbfba28a9fe21ff224b70b0281a4b62d11ff89e8ce1d18962f19750a39": {
+      "normalizationVersion": 1,
+      "sourceHash": "51cde0e4f02bf6861c3d353299214d36f384574af8c2dd2cb4b862a79b647240",
+      "contextFingerprint": "85d83f17812f28e00f9154748792fe75ccddf9c371ea353c578a41fcd182f315",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189103993.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189103993.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

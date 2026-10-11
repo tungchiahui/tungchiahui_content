@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f2344ad09d9eb2b021804bb24796925b5ff305ac57d68f1f5548c863bb3633f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "29e0edeb959d24f6e0860ae0ad081106f8c7ae21919308f879a50d6bf47f4056",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或者删除构建目录：",
+      "translatedText": "Or delete the build directory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f270cf1273f60d6cbc2792753f885246571ecae68f38b8b57c5ff0789510748d": {
+      "normalizationVersion": 1,
+      "sourceHash": "132f2f74da8d53d66caa57246efd8326b7e1074493ee237848dd436142b750ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如补齐后的：",
+      "translatedText": "For example, after completion:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f2751e3bc2abce1bf6681f53c70116c09595c92593e44231261be117c4984880": {
+      "normalizationVersion": 1,
+      "sourceHash": "616dc0b25a4302dd84bdd561f677336ac64dd2d588c8b1c63f3db5d29d11b97a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 用VScode图形化方式运行",
+      "translatedText": "### Run in VSCode graphical mode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "f294fde6016dafccd06c14cfa14036fcec8017f52fb98e59e100de893c7a33d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1d8d4be968d49b322c7a3c0de13235f6f6c4b0adf174067b7f7378983ceb1e7",
+      "contextFingerprint": "f0b1361a2f9ef523dbe36a67dd43feb3efe4301a4d1a004ce5dda8bec3ed3749",
+      "sourceText": "固定缓存本身不等于错误：两个固定参考系之间的对齐通常应保持固定，运动中的雷达→底盘变换由下游 `sensor_scan_generation` 按点云时间查询。需要确认的是 `C` 是否正确代表 `odom` 与 `camera_init` 的关系，不能简单改成每帧跟随云台更新。Point-LIO 的初始旋转还受重力对齐影响，不能默认输入初始姿态一定是单位旋转。",
+      "translatedText": "A fixed cache itself is not an error: the alignment between two fixed reference frames should generally remain fixed, and the moving radar\\-to\\-chassis transform is queried downstream `sensor_scan_generation` by point cloud timestamp\\. What needs to be confirmed is whether `C` correctly represents the relationship between `odom` and `camera_init`; it cannot simply be changed to update every frame following the gimbal\\. Point-LIO's initial rotation is also affected by gravity alignment, so the input initial pose cannot be assumed by default to be a unit rotation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 215,
+        "outputTokens": 113,
+        "costUsd": 0.000201
+      }
+    },
+    "f2ce943c8ee180ddb0e4dce9bd4af245738bd2ca8ce71c0998936d3eab4090fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3b5889b1af2bc6e4188fc64adab3b851ed136578acf8d58057c58069fa6469f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Linux到MCU的数据",
+      "translatedText": "### Data from Linux to MCU",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f2f8c054c03886e6763dad6b96666c0fd344f2e89c94ee0f49ab91c8a68f39b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "22755b93297ff0865579bf9457432e0575d9491702fe3d1adbfc69b21e717815",
+      "contextFingerprint": "f75f6a9dbde8cf757ca4ed04de0a0cb233d5a0b9fd4de4fa7f3a72fc141c90fb",
+      "sourceText": "| joint | 当前应填的数据 | 相对于谁 |\n|---|---|---|\n| `gimbal_pitch_joint` | `rel_pitch` | 实际 pitch 机构相对 yaw 机构 |\n| `gimbal_yaw_joint` | `0.0` | 第二级 yaw；你们不使用它的运动 |\n| `gimbal_pitch_odom_joint` | `0.0`，也可省略 | 固定连接，动态角度不起作用 |\n| `gimbal_yaw_odom_joint` | `rel_yaw` | 唯一 yaw 机构相对底盘 `chassis` |",
+      "translatedText": "| joint | Data that should be filled in currently | Relative to what |\n|---|---|---|\n| `gimbal_pitch_joint` | `rel_pitch` | The actual pitch mechanism relative to the yaw mechanism |\n| `gimbal_yaw_joint` | `0.0` | Second\\-level yaw; you do not use its motion |\n| `gimbal_pitch_odom_joint` | `0.0`，and it can also be omitted | Fixed connection, dynamic angle has no effect |\n| `gimbal_yaw_odom_joint` | `rel_yaw` | The sole yaw mechanism relative to the chassis `chassis` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 70,
+        "costUsd": 0.000138
+      }
+    }
+  }
+}

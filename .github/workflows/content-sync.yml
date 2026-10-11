@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'content/**'
+      - 'translations/en-us/**'
   workflow_dispatch:
 
 permissions:

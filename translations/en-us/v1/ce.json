@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ce3c41e1916d3ec4393599382087ffc78592536fdc34c62d95a48844241ac869": {
+      "normalizationVersion": 1,
+      "sourceHash": "40373dd5698cc9d58bddc178d8de4be8209c179ac535815a1fb0ae54a5d588a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果定义正确，你应该看到 yaw 从：0 → 正值",
+      "translatedText": "If defined correctly, you should see yaw go from: 0 → positive value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "ce44b327e63c0148a05df7230f2f3d97dd7ffc9bf1340ab6553c341ec377facc": {
+      "normalizationVersion": 1,
+      "sourceHash": "08327628a69260f2fd1811ee47505e5c0ec8081384d45e3116b8f35f672bfc7a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还要核对驱动是否已经旋转了数据：本地驱动有对IMU进行旋转的代码，当前所读 MID360配置的旋转三项均为0。后续换配置时，要检查点云和IMU是否仍按预期对应，不能只看它们的消息名称。",
+      "translatedText": "Also verify whether the driver has already rotated the data: the local driver contains code that rotates the IMU, and currently the three rotation items read from the MID360 configuration are all 0\\. When switching configurations later, check whether the point cloud and IMU still correspond as expected; do not rely solely on their message names\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 72,
+        "costUsd": 0.000142
+      }
+    },
+    "ce56cac81e15f13c51f83c7fbb569c681c04d62549ecfb17fd56b65a8c8fbd42": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7a56a5c35e418d2eb1238d57ac8bf5867229518a317b4ad239284fcff0a402c",
+      "contextFingerprint": "f0dc906889264e75c93f8769188991e6af85dbc97613e6b366a6a10813108b89",
+      "sourceText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-1541662566808-769f340713.webp)",
+      "translatedText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-1541662566808-769f340713.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ce60f119ada7de65ffdf968f94f8e9ef72c6ce4482df3b0fb427b0d6d06bb1d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "00122635d82a997d570e449a3af41fe99d58a51c890281804250a49393de435e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t又有某个类同时继承者两个派生类",
+      "translatedText": "​\tAnd there is a class that simultaneously inherits from two derived classes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "ce621469cd72b35f59dc40f2856741caf86f38c911df3dc05d464b730f33ec19": {
+      "normalizationVersion": 1,
+      "sourceHash": "94915a6d92187125cf624d17bdd0ea7d860a42a5dfb509ba8cf68718cfa312c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t\t全局变量和静态变量存放在此.",
+      "translatedText": "​\t\tGlobal variables and static variables are stored here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "ce8270d48f0acbdfb9049e4b15832892942a2801f0d58945bc71be68656cbbb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "20cc511909e78fc91e058ae35991b5bdd33f1a4392d6b0e6c74cfac2a98e1792",
+      "contextFingerprint": "f30cf5d94738e3db69b6bfc34beaa205c19096eb8ab70cf49bdd5d403b10183a",
+      "sourceText": "### robot_description（机器人模型与关节定义）",
+      "translatedText": "### robot_description (robot model and joint definitions)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "cead1bfefedddebbe55dfa5d1d4b85daa9d782c7baf22b3be5a1eff165065aaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "3899222a9ffcfe4eff8fd8353c23e7864f27b09f89f5d6320586812317b556c3",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 默认构造函数(无参，函数体为空)\n2. 默认析构函数(无参，函数体为空)\n3. 默认拷贝构造函数，对属性进行值拷贝\n4. 赋值运算符 operator=, 对属性进行值拷贝",
+      "translatedText": "1. Default constructor (no parameters, empty function body)\n2. Default destructor (no parameters, empty function body)\n3. Default copy constructor, performs value copy of attributes\n4. Assignment operator operator=, performs value copy of attributes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 50,
+        "costUsd": 0.000113
+      }
+    },
+    "cebfbcc58dfdd44ac1fd19442ca329363048978403bd3d986055e6eb5de8efff": {
+      "normalizationVersion": 1,
+      "sourceHash": "6dabe6311e6d33fff73201f0ff5f752b11340ec2205d3bb078a25e6ec97ee67e",
+      "contextFingerprint": "7b0b1fe8bf789772ee8086995e0eec2c26707a035c9448ae748178f52005d680",
+      "sourceText": "###### gravity与gravity_init（目标参考系重力与初始化重力）",
+      "translatedText": "###### gravity and gravity_init (the gravity of the target reference frame and the initialization gravity)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    }
+  }
+}

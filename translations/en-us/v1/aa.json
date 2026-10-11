@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "aa0013b85875d98210086a5b5447181a2331cb0b7654d5cf088211f24a4c9960": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf99b8216a1b4968792cbe57c71df6a32ab6a75a3dc2c7ff1c9e56ac6d198667",
+      "contextFingerprint": "930447bf8147f810bfd5c16606c696251d3302db28f9ae6d581b9ccaf4e1b364",
+      "sourceText": "启动初值只用于给 `spin_speed_` 赋值；收到 `cmd_spin` 后直接用消息数值替换，后续一直保留，源码没有自动恢复初值或消息过期规则。重启时才重新使用启动参数。下面保留话题使用示例，仅作为说明，本轮没有执行：",
+      "translatedText": "The startup initial value is only used to assign a value to `spin_speed_`; after receiving `cmd_spin`, it is directly replaced with the message value and retained thereafter\\. The source code has no automatic restoration of the initial value or message expiration rule\\. The startup parameter is used again only on restart\\. The following topic usage example is retained for illustration only and was not executed in this round:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 81,
+        "costUsd": 0.000153
+      }
+    },
+    "aa266ce6847e571f0e45213c59f0bd1d65960f20d7a02381e35988c1f971516e": {
+      "normalizationVersion": 1,
+      "sourceHash": "60d35908050e5e176482871b360e07601c5b9ad8b7e4b194fdfc9b1b518e32d9",
+      "contextFingerprint": "3362a4e4bf0e1ec72db44417d154e8c593256df9f65e64a29b46868e7bbf9616",
+      "sourceText": "快速转底盘或云台时，应看真实峰值是否接近设备量程、是否出现限幅；当前 `check_satu=True` 才执行这项保护。调大它不会使车辆允许转得更快，也不能直接解决航向漂移。",
+      "translatedText": "When rotating the chassis or gimbal quickly, check whether the actual peak value approaches the device range and whether limiting occurs; currently only `check_satu=True` executes this protection\\. Increasing it will not allow the vehicle to rotate faster, nor can it directly solve heading drift\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 57,
+        "costUsd": 0.000123
+      }
+    },
+    "aa2faca8e8b1d3a5cc9aeee21b3c4e3fd39d4e0550b50f1510cfe6b963169acd": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b342aab7929e2e8d74b231f4b3c4c4d6b8d55d452aff45bffae415878e2057c",
+      "contextFingerprint": "9a02c2e7f016ad00a1ff4282dea807e14ad8ae99fcbd6ba99dc79be200599808",
+      "sourceText": "**运行结果（地址每次运行可能不同，以下用 `<地址>` 表示；类型大小或类型名可能随编译器和平台变化）：**",
+      "translatedText": "**Running results (the address may differ each run; below, `<地址>` is used to represent it; type sizes or type names may vary with the compiler and platform):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
+    "aa3dd3d9e7cc4659c6c16d03b437ebbb562dcb7bf0f32391a256769dbd0cde41": {
+      "normalizationVersion": 1,
+      "sourceHash": "f74ea680fb4635c830ac6b0bae44c21d3a58fb2f4bfd7b86146e0c94f498b4c6",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 有继承关系\n* 子类重写父类中的虚函数",
+      "translatedText": "* has an inheritance relationship\n* the subclass overrides the virtual function in the parent class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "aa439fde60ae72565a34bd8e78e09a54a40065cc8715ba8c58aa018cf261d275": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e00fd4cabacb4ed07c7a2c06e507a57f642007cc125fe2d5add9764bb8e6ebb",
+      "contextFingerprint": "7e9fec7052e712c0a93dd3cc74b2c3f451fe3150596d05e27ed8349678dc7c89",
+      "sourceText": "True先把每格距离设为+∞，再用最近合格点覆盖；某格没有合格点就保留∞。False则先设为range_max+inf_epsilon，当前默认组合是11 m，仍超出10 m有效量程。",
+      "translatedText": "For True, first set each grid distance to \\+∞, then use the nearest qualified point to cover it; if a grid cell has no qualified point, keep ∞\\. For False, first set it to range_max+inf_epsilon; the current default combination is 11 m, which still exceeds the 10 m effective range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 77,
+        "costUsd": 0.000148
+      }
+    },
+    "aa4d49d45a03ccaf6921c056203fe3ff68fe9c4985f5992cbb86de907d49cab2": {
+      "normalizationVersion": 1,
+      "sourceHash": "16bdebc7e0923c68ac5b1a585f79a4ff02e2b1f0df4d5a7a4a6ef1de15eb2441",
+      "contextFingerprint": "840c7e78a2ea7dceb6515f8cb0beb02b32f2e441dadef202411be4631a7aa357",
+      "sourceText": "True 时随里程计发布 camera_init → aft_mapped 的 TF；False 时关闭这条 TF，里程计和配准扫描仍可继续输出。",
+      "translatedText": "When True, publish the TF from camera_init → aft_mapped along with the odometry; when False, disable this TF, while odometry and registered scans can still continue to be output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
+    "aa85792f2341946e7bd88b9812e0870e1d1fb3e27c434dfa836edd160efea607": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b550ebdff995f8825025d3fb3f0d7417ac642e8d2b1a7f82041fac71e75be1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用： 通过重载递增运算符，实现自己的整型数据",
+      "translatedText": "Function: Implement your own integer data by overloading the increment operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "aaa429fd3969dfed98317b48373da1f68c3589c1e95e0578d03746c2fa5ddcaa": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b969074f7b545f2fe9b088569731d8bfd5e9d526e96feb9dfe8bf6d7553d440",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用：** 满足循环条件，执行循环语句",
+      "translatedText": "**Function:** When the loop condition is satisfied, execute the loop statement\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "aac4e5b6af5affc5daeaca13ed609e1a00118fe617b3189cb79a02de18f9bd4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "aacab2a501d8c0087594a98418311fbf8a32e0b2360ae7de042a25319dc4a12f",
+      "contextFingerprint": "19519541a34beb667137f8cf75ea15ee68e1d074e0315bb49bedbab693f2c93e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791037935797-704a1a9e.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791037935797-704a1a9e.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

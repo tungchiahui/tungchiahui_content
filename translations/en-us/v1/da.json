@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "da1be2befc4865ff85bc486d11ea3f82af82dd17a12c3d14781eeeb5621589fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "59f9b9fa4897c879e20dd2b91790d17184065496605401324fba475a260d0394",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 虚析构和纯虚析构",
+      "translatedText": "#### Virtual destructors and pure virtual destructors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "da8a51fadd56ab88c70631b5ee710690cd342aa7198f7b24d9141c6692a92f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d438b7de42e22c7a284537e68917bdd859d91520b770d42379ebab27455b740",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Robot Output",
+      "translatedText": "### Robot Output",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "da92383f75a612f14d03c9f7d88d92f56259b709131053750c527d2a0ecfa015": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0860499626125579cca37372431791c60bdedafb2a6b259f40009b2d4af7356",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：通过引用参数产生的效果同按地址传递是一样的。引用的语法更清楚简单",
+      "translatedText": "> Summary: The effect produced by passing a reference parameter is the same as passing by address\\. The syntax of references is clearer and simpler\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "da94f9ab300b1c41d857e35baa1b1018072733738a972dd17ea03a7ffba85f4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "88eccd6bfc8eed74144d9731681d602b6273be1bd9418af43545139ab04378c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：所有操作不要使用root用户",
+      "translatedText": "Note: Do not use the root user for any operations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "dae518a209c974027e23322df8e097412b22c548d78d37e2d22144494a6071a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "2706f4d724da7becae2f8d1d9dc8941e078c535db58e30c433e8ac18abfc8c6e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**通过指针访问结构体中的成员",
+      "translatedText": "\\*\\*Purpose:\\*\\* To access members within a structure through a pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "daf6745fea8154c73973de29bb49f522f32d229f853c2196ae613e7d8256639c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ed7ed875ab6179e9c607136066445735953edcb56274b55cdfdc9834fb03628",
+      "contextFingerprint": "51ea00530e6f13088a322bda0c02e713a66540320fee32da5d2a62395bccbc2e",
+      "sourceText": "这组旧记录的 Y为正，而上面-45°理论和仿真记录的 Y为负。`atan2(0.716, 0.696) ≈ 45.8°` 不能只解释为0.8°的小加工误差：还存在方向符号差异。应先核对当时实物安装、坐标轴、启动配置和驱动有无额外旋转，再判断记录是否能直接比较；本轮没有实物证据解释其来源。",
+      "translatedText": "For this set of old records, Y is positive, whereas the Y in the above \\-45° theoretical and simulation records is negative\\.`atan2(0.716, 0.696) ≈ 45.8°` This cannot be explained merely as a small machining error of 0\\.8°: there is also a sign difference in direction\\. The physical installation at the time, coordinate axes, startup configuration, and whether the drive had any additional rotation should first be checked, and only then can it be determined whether the records can be directly compared; in this round, there is no physical evidence to explain their origin\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 115,
+        "costUsd": 0.000198
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "050520e024ad2e505d09efaf57aabe7c28c41be228de2ab9ee81789f4d0b16e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f99e2f9127753136a2f9e9b8f49acd58f4942f5e62862176de551c6e530e18ed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "选中以下选项：",
+      "translatedText": "Select the following option:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "050b00d55ba58a5ae7b4e0d42a83f033dc6e576b3c4254d8fa2271c755502673": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a5d0b3b063b104e92948f7baba170d537d26d10740d315c9f97e46780e5390a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原样运行模板时，输出类似：",
+      "translatedText": "When running the template as\\-is, the output is similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "05425b8837953ceabc423df2e8416426ec8e58feb911b9609f1d5516a1f7e727": {
+      "normalizationVersion": 1,
+      "sourceHash": "251e5ab962da343ad3c0021d0a6f11a3c09c006f87b84f99042c408acaa333c8",
+      "contextFingerprint": "9de6fec150f88123e84d044458de031627a89dab5f42d52b706ee5de165be41c",
+      "sourceText": "当前base_frame是base_footprint；pointcloud_to_laserscan的target_frame也是base_footprint，所以`obstacle_scan.header.frame_id=base_footprint`。虚拟扫描中心与这里跟踪的底盘参考点一致，扫描到base的变换为单位变换。",
+      "translatedText": "The current base_frame is base_footprint; pointcloud_to_laserscan's target_frame is also base_footprint, so`obstacle_scan.header.frame_id=base_footprint`The virtual scan center coincides with the chassis reference point tracked here, and the transform from the scan to the base is the identity transform\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 93,
+        "costUsd": 0.000174
+      }
+    },
+    "0544a875bb80a7e884ff9bd3b6148a4a1e1acae60561498cf85a3b32052a5c5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d83dd7f8a26d4c7ac1129873e12ae8b23468ce7d6900fc64f96f3b036045182",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "咱们需要跟MCU规定好，他需要把云台电机的角度进行转换：",
+      "translatedText": "We need to agree with the MCU that it must convert the angle of the gimbal motor:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "0552172309d7613c6b264a7fd54c30054dbe0a0093b79c5fea6d077a778aab5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "0031e46c43486b539dc6ac32490e1fdc41fa30e30aa17ef8cf0bf37adb9228d5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们要用VScode图形化方式去运行上面那些命令:",
+      "translatedText": "We need to use the VSCode graphical method to run the above commands:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "0552f78d01ee41e353c07773b7d0fc620de7f8d09dba3e82f7e538795a3c6343": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d60eb6f2814b9cc08651087d461c2fa637d0f14d4cd9545c2dedf6f03d03caa",
+      "contextFingerprint": "aa506ea0519858e62f5c6099a84f849180b4847d877e25a62a81ad4e89ad8a09",
+      "sourceText": "机器人静止时，IMU 的 linear_acceleration 本质上测的是与重力反向的“比力”。如果只绕 X 轴 roll 一个角度 r，那么静止时大致有：",
+      "translatedText": "When the robot is stationary, the IMU's linear_acceleration essentially measures the \"specific force\" opposite to gravity\\. If it only rolls around the X\\-axis by an angle r, then when stationary, approximately:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 57,
+        "costUsd": 0.000122
+      }
+    },
+    "0562d9d6f1158e02441920019b48f041cc83c2259b13b35e7819d57d3191c8ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "b27406c0508126d8cfe5c031f38afd16db94a76fefd5090e1780199d0541fdda",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**旧实物记录（安装与数据来源待核对）**",
+      "translatedText": "**Legacy physical record (installation and data source pending verification)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "05698c425b4ef6ded2d5650fdc18a64e453d59d2c5ce49055ce964fe260c40b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee110edd51cbc1926f5fcbd2c6e84b64ca1aff9ad5ac7bc9a988eea5eb4cb5c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "记忆：",
+      "translatedText": "Memory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "05783315b3a639ad14f465cbd8198c4ba010a84e0bb0ba1a8d2e7e00b1fa6b4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0743a8e15c5c292e89799d276e09895046e1251672b9b1d9f84862c50a4dafa7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**示例3：**逻辑或",
+      "translatedText": "\\*\\*Example 3:\\*\\* Logical OR",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "057ca914b6fef2fcddf06064ad236916469c7d076c89b5427b5414fa07705fa8": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9dfe0fa319523d9272979459dfe4094e172383922552abe5663880c1fe04324",
+      "contextFingerprint": "20dea3c8b673fb6f7661b6d814358c433738085913081d1cbff921c22a8e54ad",
+      "sourceText": "CEM、MPC、MPPI、Gradient Planning、Learned Policy、Actor-Critic，还是 World Action Model？",
+      "translatedText": "CEM, MPC, MPPI, Gradient Planning, Learned Policy, Actor-Critic, or World Action Model?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "05a8801ac65538f0449b8008004ae2b47c5999dfc0b06217f86ad166ac0a5f0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc800ea26936b12253083502c606515defb16c629f1cec6611ace536b459d4bf",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**指针的作用：** 可以通过指针间接访问内存",
+      "translatedText": "**Role of pointers:** Memory can be accessed indirectly through pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "05abcf24d49ee9a253c009e26a7f287f287d3b0cdf9af87ad433764109a98a95": {
+      "normalizationVersion": 1,
+      "sourceHash": "01f87e1da9a9cd94c888f8031f021dc911cbff8c9de3cd33df53774086270e1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个xmacro是本项目里自定义的一种格式，为了实现：",
+      "translatedText": "This xmacro is a custom format defined in this project, in order to achieve:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "05b3ab361f645ca59ffb27b0ab7ca283028e8c04caa71df9a3253ce3b951a887": {
+      "normalizationVersion": 1,
+      "sourceHash": "449f9bb5ba693c62f129ebedf621ef0a81f56d4d36a2f8b3aaa9b0b87667a8f2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "添加其他工具（可选）：",
+      "translatedText": "Add other tools (optional):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "05b6c1a074bc1530d31062932ed12d7ca6b0ce451a4678ef430c444186f5e255": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3056bc837354d9a07880f4870d9ed04788aea449cd64e20fc39ddbacbd68421",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "struct 语句定义了一个包含多个成员的新的数据类型，struct 语句的格式如下：",
+      "translatedText": "The struct statement defines a new data type containing multiple members\\. The format of the struct statement is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "05e34ef6da2e17d4050623d0c0cf6a168ba459087ffe4284600bd913334a3d31": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fba10c86a88e5050db4eb75d5f2f9470d899e81c9002ce0fe2db99b8d5d6bf4",
+      "contextFingerprint": "b6a3a668ca3fb59507029bdac20e4e99a0cf0a9bbd40e6244b51045dc1335a3f",
+      "sourceText": "### `#include <...>` 和 `#include \"...\"`",
+      "translatedText": "### `#include <...>` and `#include \"...\"`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "05f7b101598f421207304edc72586d3a17c96433311279d56a1e13a34d62fafc": {
+      "normalizationVersion": 1,
+      "sourceHash": "217ec6a86346098c16d37ef5ba04c35e306a037242b62c807ff40b0f783973b3",
+      "contextFingerprint": "e278dba31a1b2c4dc14caf50fdb7280f46e3076d159e6b0520e52bc366432986",
+      "sourceText": "True 时额外发布 cloud_registered_body，将预处理点云通过内部外参转换到 IMU 坐标系，主要用于辅助检查点云和外参；需要 scan_publish_en 同时为 True。",
+      "translatedText": "When True, additionally publish cloud_registered_body, transforming the preprocessed point cloud into the IMU coordinate system via the internal extrinsics, mainly used to assist in checking the point cloud and extrinsics; scan_publish_en must also be True\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 70,
+        "costUsd": 0.00014
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f43aa06cdc3971dbc6b9bccdf00c20efcea1a093d0c264f05bf1d0e9fddf56d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "38c9d22a5902d1d0bc419d504a528f68e10cc65fbc0289bfbec5a50b7289274d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原因：它正好位于 CV、World Model 与机器人规划之间，不必把主要算力花在 photorealistic RGB generation（照片级 RGB 生成）上，同时能够保留移动机器人 Navigation、Planning 和实机闭环优势。",
+      "translatedText": "Reason: It sits exactly between CV, World Model, and robot planning, so it does not need to spend the main compute on photorealistic RGB generation, while retaining the advantages of mobile robot Navigation, Planning, and real\\-machine closed loop\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 55,
+        "costUsd": 0.00012
+      }
+    },
+    "f49272bbe44d142d437545bbb3ffb29a581b9b98711461c05606d7bec6a98266": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d06521764682f37c8de4cfa4165544ffb399565d8c5c515fc80d5a012832de8",
+      "contextFingerprint": "93225c3d827c0ff725afd0135f52561b8408ee2b2ee2c48c16aefd3c705f1e8f",
+      "sourceText": "###### init_pose 与 robot_base_frame：两种初始位姿不是同一个对象",
+      "translatedText": "###### init_pose and robot_base_frame: The two initial poses are not the same object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 38,
+        "costUsd": 0.000094
+      }
+    },
+    "f4d18cbd5a04aca57f22026b742a48fddb31f8a380604a1efc41e266ec55f229": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7db91e5f226049f27280508263ac65733c335337a782ffae753fb5f81df6366",
+      "contextFingerprint": "03b562e2d60431f604614db35b3717e30bcd32bbd33626f2bac4b130547df0b1",
+      "sourceText": "其中云台 IMU 的 RPY 用来生成 `/serial/imu` 的 orientation。",
+      "translatedText": "The RPY of the gimbal IMU is used to generate the orientation of `/serial/imu`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "f4f8b28472b5f8bdf26c8901881ca6d4fb9d7f9a6b83cf3647474c7f60759588": {
+      "normalizationVersion": 1,
+      "sourceHash": "559c98dd9f67c7b033f4eda210e8b8fc6f77cae69ee90220b426acb1d146f4af",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "实物需要核对设备型号、点云与IMU原点的定义，以及数据进入 Point-LIO前有没有额外变换；不能把云台到雷达的安装距离填到这里。现有数值保留，不作为本轮新标定结论。",
+      "translatedText": "For the physical setup, it is necessary to verify the device model, the definitions of the point cloud and IMU origins, and whether there is any additional transformation before the data enters Point-LIO; the installation distance from the gimbal to the LiDAR must not be entered here\\. The existing values are retained and are not treated as conclusions of a new calibration in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 90,
+        "costUsd": 0.000164
+      }
+    },
+    "f4fc78e2a14e39e59b2f4eef604a0c309482f2b5b1429990b1b309108153a17b": {
+      "normalizationVersion": 1,
+      "sourceHash": "54f87a67d8ff9cf4b3ba50e94422da342e9e846e46c8111270e8aeef4fd8e666",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "子类继承父类后，当创建子类对象，也会调用父类的构造函数",
+      "translatedText": "After a subclass inherits from a parent class, when a subclass object is created, the parent class's constructor is also called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    }
+  }
+}

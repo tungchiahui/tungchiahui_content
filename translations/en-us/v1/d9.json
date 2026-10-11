@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d90c8dac9730f709860105537ba67b64fb51f1111d27ffc43790357219959d51": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f8590727c5d691b9304e8815cb81530f3732f61dd91babbb7283d6367d3de76",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### this指针概念",
+      "translatedText": "#### Concept of the this pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "d970307491b3164ea888c288f313185495bda9eed7051bb74b87ad5079bb4ef7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9be243b709bd52e1a503903c61a8f5eb1d7da72230f5394220d109ada3d69faf",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 仿真",
+      "translatedText": "#### simulation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "d97ebd83193f72c5e710fd12a472a6e1651e2fab3d399c026708928895ff3388": {
+      "normalizationVersion": 1,
+      "sourceHash": "276346e029e0e799561eb9a09777a7a06008cb668cc2c7e9de623876656b39b1",
+      "contextFingerprint": "ad89abb8ac658ca7df0f983a96664b9e020432d8f1821375714ec5a214e6e5df",
+      "sourceText": "正确的上游配准和机械TF应让独立云台yaw转动后的静态环境仍转换到底盘方向；不能对这份点再手工重复加一个云台角。MID360挂在gimbal_yaw、随yaw不随pitch转动，两条odom关节固定的机械约定继续适用。",
+      "translatedText": "Correct upstream registration and mechanical TF should ensure that the static environment, after the independent gimbal yaw rotation, is still transformed into the chassis frame; you must not manually add another gimbal angle to this point cloud again\\. The MID360 is mounted at gimbal_yaw and rotates with yaw but not with pitch; the mechanical convention of the two fixed odom joints continues to apply\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 93,
+        "costUsd": 0.000172
+      }
+    },
+    "d98e17367052ff9bdee8557446c7a7f7c234bcfe8b2414f7038155712d67f33b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c5f734c1e63b2643eaddec7fa636af97c7fa975b58ec2302b51c5d84e880bce",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 提示：编译器在编译代码时，会忽略注释的内容",
+      "translatedText": "> Tip: When compiling code, the compiler ignores the content of comments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "d9ad8a93f2d784b2f1c5a695496c1d516c1f311237b3af912a6f8479b6c6e00c": {
+      "normalizationVersion": 1,
+      "sourceHash": "423eb7802087fed946fbaf60d22e4dfe771f7618d35c59cbb045520fa0a49ca3",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 注意：C风格的字符串要用双引号括起来",
+      "translatedText": "> Note: C\\-style strings must be enclosed in double quotation marks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "d9bb429bc6e449076fc9af3ef53c46519c41ce9a337eb5918cfe3dbe306c2332": {
+      "normalizationVersion": 1,
+      "sourceHash": "44be8f9960ee8f0e27360fb17be54fbf47be7c4d43111e92356a593cc16a4fcf",
+      "contextFingerprint": "a59cd963eb00e81444ba036cf0a1daac73a2f1f2abc9070b5aa3ea4955471889",
+      "sourceText": "RViz 的 Fixed Frame 理解成 “我站在哪个坐标系里看整个世界？”\n而点云坐标系是`frame_id = front_mid360`，\n也就是说，每一帧原始点云都是“以雷达自身为原点”描述的。",
+      "translatedText": "Understand RViz's Fixed Frame as \"In which coordinate system am I standing to view the entire world?\" And the point cloud coordinate system is`frame_id = front_mid360`， That is to say, each frame of the raw point cloud is described \"with the lidar itself as the origin\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 66,
+        "costUsd": 0.000132
+      }
+    },
+    "d9ca3f7cde55d3e2570a4d30f90064e4717ff1addd4c468c951ecff5d3101522": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8b7188c846e421e35a726afbe21c931b35a0021c6af0c675e024f21a5074545",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一章会按下面的顺序来：",
+      "translatedText": "This chapter will proceed in the following order:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "d9e49ae109b627bcf2f6324f9799325ef1aedc15d01ba7efc42ec72b0b7971f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "367d2860375d8769386b9f90897fd7db795c4dfd81d7306a8eca3f4eae1e4062",
+      "contextFingerprint": "4f1f8a3af14017ed1fb7c3ed57a3f4c22d03a936e105e82e95c19ac16660958c",
+      "sourceText": "8项自定义参数仅在构造时读取，没有动态参数更新回调；运行时写同名参数不会更新成员、重建话题或改变初始自旋。ROS标准的 `use_sim_time` 由节点时钟处理，运行时改变自旋应通过 `cmd_spin`，两者不要混淆。",
+      "translatedText": "The 8 custom parameters are read only at construction time, with no dynamic parameter update callback; writing a parameter with the same name at runtime will not update members, rebuild the topic, or change the initial spin\\. ROS standard `use_sim_time` is handled by the node clock; changing the spin at runtime should be done via `cmd_spin`; do not confuse the two\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 76,
+        "costUsd": 0.000146
+      }
+    },
+    "d9ed88b13296dd14d3921fd0fe1d32df25bbee4ecacf925abeb1e38182e2822f": {
+      "normalizationVersion": 1,
+      "sourceHash": "90396f275c40de718b4f2c85a5b34131596f4a3a893b285b94a92170009a0152",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "分别利用普通写法和多态技术，设计实现两个操作数进行运算的计算器类",
+      "translatedText": "Design and implement a calculator class that performs operations on two operands using both the ordinary approach and polymorphism, respectively\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    }
+  }
+}

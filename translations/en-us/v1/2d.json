@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "2d03c72bc5fef8df28e1673b7afffae263a00d982af1263fa1ccde7af3788ef7": {
+      "normalizationVersion": 1,
+      "sourceHash": "15128f8e97a1c8b93209db05107ef91716f40b9d308c51bbaf65d1b25c9b52cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“通常保持”表示初次测试不优先调这个参数；“按设备型号和驱动核对”仍需要完成一次设备适配检查；“上实物前必须核对”则强调实际输入、单位和坐标约定必须明确。核对正确就保持，不代表每次上车都要改数值。",
+      "translatedText": "\"Usually kept\" means this parameter is not prioritized for adjustment during the initial test; \"check according to device model and driver\" still requires completing a device adaptation check; \"must be verified before use on real hardware\" emphasizes that actual inputs, units, and coordinate conventions must be clearly defined\\. If the check is correct, keep it as is; this does not mean the value must be changed every time it is run on the vehicle\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 94,
+        "costUsd": 0.000169
+      }
+    },
+    "2d0c2f0d2fff168a206d3ee2f60b5d8ab150f633ba392405fd887a9b68ab657a": {
+      "normalizationVersion": 1,
+      "sourceHash": "37af5fba55b3075f57e7e51f4330c93003a6030b5bac1891262ff9698bafd3e3",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "因此，引入了 **命名空间** 这个概念，专门用于解决上面的问题，它可作为附加信息来区分不同库中相同名称的函数、类、变量等。使用了命名空间即定义了上下文。本质上，命名空间就是定义了一个范围。",
+      "translatedText": "Therefore, the concept of **namespace** was introduced specifically to solve the above problem\\. It can serve as additional information to distinguish functions, classes, variables, etc\\. with the same name in different libraries\\. Using a namespace defines a context\\. Essentially, a namespace defines a scope\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
+    "2d1b49d3e10dd06a99724304071cca83f8cd9d316bd0804b2006926f4b234308": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e1f055f140161c03be6683c566fa0a0844d606ed4afdd419eb3a0ffeab658b0",
+      "contextFingerprint": "3187ccdd99c9ed13afed19d36dfb948de8d54dbe29ef09a87f3664a04fc00f45",
+      "sourceText": "打开`/src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/ysu2026_sentry_robot.def.xmacro`把",
+      "translatedText": "Open`/src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/ysu2026_sentry_robot.def.xmacro`Take",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "2d3120abe2a877753c9bb4513179627f8a956804a2a67b94aa820225debaa38b": {
+      "normalizationVersion": 1,
+      "sourceHash": "064d05e19d20af5ead667a149369b2d4409422a3a055ef63f3e87a4de175137e",
+      "contextFingerprint": "b42191d882401454c6ae9fddab338851b06fd660239e3301332fdd7d7fe4010b",
+      "sourceText": "驱动和 Point-LIO 的命名空间或话题重映射要一致。话题名负责选择输入源，消息中的 frame_id 表示坐标名称；选择话题不会自动进行坐标变换。",
+      "translatedText": "The namespace or topic remapping of the driver and Point-LIO must be consistent\\. The topic name is responsible for selecting the input source, and the frame_id in the message indicates the coordinate frame name; selecting a topic does not automatically perform coordinate transformation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 72,
+        "costUsd": 0.000142
+      }
+    },
+    "2d32705e11e95558df4d317f91e01a93e3b6fbdaec2941373318a836616ff42a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8edfeabc20c46e65ed66979dddc7d2b7e8a1a1248771a7a9a42b010b5d6607e",
+      "contextFingerprint": "44c5d9b9c568c41311a06f2e229f192430aa2dcf0a5bc07ae45984e6fcc32226",
+      "sourceText": "设 `Δz=z_point−z_input_pose`，`d` 为 `odom` 中的水平距离。入缓存以及缓存更新时使用：",
+      "translatedText": "Let `Δz=z_point−z_input_pose` , `d` be the horizontal distance in `odom` \\. When entering the cache and updating the cache, use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "2d950e7a6391f66b2512b25b5dd29faaf0e266893940d8f1246cef9681e7744a": {
+      "normalizationVersion": 1,
+      "sourceHash": "049015f17fe8b398d3ad973786b51ca01cf28220bf3426b9fc916118598fcdf9",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "您可以通过使用 **::** 运算符来访问嵌套的命名空间中的成员：",
+      "translatedText": "You can access members in nested namespaces by using the **::** operator:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "2db3aa1cc7224d7094abb6ece4e7c0270712dae4a43dc066bb90e1d3979a04a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c7396cf95132d342b519528a511560868e21d7fdadac519b4c701202cc32b9f",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**示例：** 将数组 { 4,2,8,0,5,7,1,3,9 } 进行升序排序",
+      "translatedText": "**Example:** Sort the array \\{ 4,2,8,0,5,7,1,3,9 \\} in ascending order",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 36,
+        "costUsd": 0.000092
+      }
+    },
+    "2db4e821bf33e1a69f455710a13fe437a87dce6f569c03313becb30f6b58a492": {
+      "normalizationVersion": 1,
+      "sourceHash": "77646012cd5c28cc6d52deeef4472a1b403767c74485ed9046e34f54f8e19b7a",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "C++中能够表示整型的类型有以下几种方式，**区别在于所占内存空间不同**：",
+      "translatedText": "C++The types that can represent integers include the following,**the difference lies in the amount of memory space occupied**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 39,
+        "costUsd": 0.000095
+      }
+    },
+    "2dbff71248ac0c9b0b821d12275d596fb5aa7d2ce5fa23c914bcbeba22e660ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "34ca580e036c78916c3c5123e42e280be70426d242f8ae3d93ce00688b3f4b61",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "他描述的是",
+      "translatedText": "What he described is",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "2dcd7cbe8d69b36a42c333a6148fd504036ea39ac6507da590110386a926f81d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5340c0ecd103b0d9d49d5360f130178b8777abbf293c8ad3a6ca9548bafa2041",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 使用说明",
+      "translatedText": "## Instructions for Use",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "2de02d4af208eab73db827668ad050e36f7d9d34f42258ba20185adecf583c8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c075b1809c6c3b545d2dc80bc89580e931324ac2230b36496eb115a5187c85b",
+      "contextFingerprint": "59b54cc09a9df4af33e9aec96af5cda59ccf85d8db5d0fba1c60b0f44d1d483b",
+      "sourceText": "1.  **局部变量：**\n\n    1.  位置：在某个函数或块的内部声明的变量称为局部变量。\n\n    2.  作用域：它们只能被该函数或该代码块内部的语句使用。局部变量在函数外部是不可知的。",
+      "translatedText": "1.  **Local variables:**\n\n    1.  Location: Variables declared inside a function or block are called local variables\\.\n\n    2.  Scope: They can only be used by statements inside that function or block of code\\. Local variables are not known outside the function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 51,
+        "costUsd": 0.000114
+      }
+    }
+  }
+}

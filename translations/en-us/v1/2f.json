@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "2f1e7ce53cc4ac86b94f01cca367d02fde195537d3705d467686bb12298dc197": {
+      "normalizationVersion": 1,
+      "sourceHash": "e57595da9412d59aec2b05b8e0909b0918a218dcebde573e590d42749f162a99",
+      "contextFingerprint": "63fb3dc2ecc751bb83e447b38f1dcd7c1ef084bab6e0e635f23aae6248c34e41",
+      "sourceText": "所以远处下坡点即使通过扩展地形节点随距离放宽的窗口，仍可能在这里被固定下界删掉。上坡、下坡是否连续可见，要同时看target_frame的方向与高度窗口；`disRatioZ` 不会替本节点放宽范围。",
+      "translatedText": "Therefore, even if a distant downhill point passes the window that is relaxed with distance through extended terrain nodes, it may still be removed here by the fixed lower bound\\. Whether the uphill and downhill are continuously visible must be determined by considering both the direction of target_frame and the height window;`disRatioZ` will not relax the range for this node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 81,
+        "costUsd": 0.000155
+      }
+    },
+    "2f39e3a373b96ba4e7e9d73bc5f4bbd220e6e352544cec600039707a96b7766a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ddb20674d766c3a4ee33a3dfd700708cf645f284ac81e26e80cc9552c6b70ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "找出并打印最重的小猪体重。",
+      "translatedText": "Find and print the weight of the heaviest piglet\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "2f3bfb35a7192687899e5ee4b4fe6c2b35bf4dfb41e73bca6e90b3cf4a5e113a": {
+      "normalizationVersion": 1,
+      "sourceHash": "fab9c2b5eed6f80b5379a5599e8c94548f4645fb385af72d94128d8c18d9a143",
+      "contextFingerprint": "b933c0d7e47784c238bc11f33ea11f736192ab0b2e32403d048b12deeaee3fd3",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713490504.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713490504.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2f9a5bf57b3296c9b0b03ca83cd3388aa4356fd3ecb863a9fd2d4a9203af7066": {
+      "normalizationVersion": 1,
+      "sourceHash": "97f368061944d10407090fcfef196b5defdeac22872b0fa388901b7a16a58840",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在程序中，局部变量和全局变量的名称可以相同，但是在函数内，如果两个名字相同，会使用局部变量值，全局变量不会被使用。",
+      "translatedText": "In a program, local variables and global variables can have the same name, but within a function, if two names are the same, the local variable value will be used, and the global variable will not be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
+    "2fc6dc8f46feaa2b3006a8b815c17d08c479c71ecc607e94e04108cd6fe89e1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "75fb69614db0d02c4a089beca2d1eaf2b813fb763af092b7ee488f85517a7c8c",
+      "contextFingerprint": "dd26d0e29aa15a35458776b8cedf5377c4fece443ff3ea579fb2f100773c33e4",
+      "sourceText": "我这里自然就是125mm/2=62.5mm",
+      "translatedText": "Here, of course, I have 125mm/2=62\\.5mm",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "2fe3a308258c25ecb9bd9f10f031648cfa0b5b92f22d0b60825a7584e4e2dc4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "68b6b6575c6e10e0413d564760dc9936fbd2afaaf790a9fcfa81516734c0de84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "指针变量和普通变量的区别",
+      "translatedText": "The difference between pointer variables and ordinary variables",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    }
+  }
+}

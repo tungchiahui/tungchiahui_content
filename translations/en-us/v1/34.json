@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "340db63109a06ff99401d4ed05806efab0a34e4b11893836a98f8f6fc6b51588": {
+      "normalizationVersion": 1,
+      "sourceHash": "160b9b3be5d9b5ae4559cca95fa23a800357370880f355cb358c4b4543bb5309",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**共用体** 是一种特殊的数据类型，允许您在相同的内存位置存储不同的数据类型。您可以定义一个带有多成员的共用体，但是任何时候只能有一个成员带有值。共用体提供了一种使用相同的内存位置的有效方式。",
+      "translatedText": "**A union** is a special data type that allows you to store different data types in the same memory location\\. You can define a union with multiple members, but only one member can contain a value at any given time\\. Unions provide an efficient way of using the same memory location\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 62,
+        "costUsd": 0.000127
+      }
+    },
+    "341f6985b08f134d5a78e830c449614b3e3a29e1a28d071f3e4415d674e6e080": {
+      "normalizationVersion": 1,
+      "sourceHash": "11fa3e9683dd6e0ba74a2df7c8c62ac60119f438d6dcd7ec7709a4561a1dbbb9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 定义命名空间",
+      "translatedText": "### Define Namespace",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "34397be4e078eda4632a17d96812671588fba201eb8c51cf7bc22215e6609b2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b932904d8c64111e5b22bb96f1a4279f9f473b0ec3d910215f332dddda9b2d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "纯虚析构语法：",
+      "translatedText": "Pure virtual destructor syntax:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "345466bdb673d05adc8c6e1a7275b628cd54df261ca2fde17cd76834f369d635": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fe248e0687b655a8be1f247e5039b9842eb60f700b167e4607b661fc7c393eb",
+      "contextFingerprint": "e0ae04494398fd66f62bfccfec242cb16cd3fbeb48d8512f9845a792b7022178",
+      "sourceText": "`base_footprint`这个名称不会自动得到水平投影。当前上游保留完整三维姿态，扫描按该系x-y平面投影，而slam_toolbox只取二维x、y、yaw；坡道上是否符合预期，需要核对实际投影平面，不能指望本节点补回已丢失的高度或自动把倾斜扫描拉平。扫描到base的安装关系由[LaserAssistant实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/laser_utils.cpp)取得。",
+      "translatedText": "`base_footprint`This name does not automatically yield a horizontal projection\\. The current upstream retains the full 3D pose; the scan is projected onto the system's x-y plane, while slam_toolbox takes only the 2D x, y, and yaw\\. Whether it behaves as expected on a slope requires checking the actual projection plane; this node cannot be relied upon to restore lost height or automatically flatten an inclined scan\\. The mounting relationship from the scan to the base is obtained via[LaserAssistant implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/laser_utils.cpp)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 225,
+        "outputTokens": 123,
+        "costUsd": 0.000216
+      }
+    },
+    "34560f68e4088a781f91feb70255ee34de4bfe8d251ca6366ff4ab0da87c0698": {
+      "normalizationVersion": 1,
+      "sourceHash": "021f7de7690903a5872cc8371b4fd0b2883d5eab80f3f685f586683c11e7d667",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其中：",
+      "translatedText": "Among them:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "3459032209fb7ccbda63b9189c6342131d3ef629b6cf7cb1e8d89c5c3c876a0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7de76cd3c2a6726d39bf94bec15573f2fd0756b2553cba2c2a5a99503092c3b7",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. const修饰指针   --- 常量指针\n2. const修饰常量   --- 指针常量\n3. const即修饰指针，又修饰常量",
+      "translatedText": "1. const modifying pointer   \\-\\-\\- pointer to constant\n2. const modifying constant   \\-\\-\\- constant pointer\n3. const modifying both pointer and constant",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 30,
+        "costUsd": 0.000083
+      }
+    },
+    "34693895b61f0ffe8c14ae11ced8ae7ab712b37baa715d30afb0946b024fcd36": {
+      "normalizationVersion": 1,
+      "sourceHash": "af3b9f08ba84373b9c0e3ef0452c73afa06c8bfd8c1ddc59ef6213a5af533cf9",
+      "contextFingerprint": "cbc7c74f399d297b025826625340c019612bfadc7f8bb984003685072018e2a4",
+      "sourceText": "- 经查找网卡使用的是Intel IG211-AT，走的是PCIE通道，这里要选用e1000e\n- Kernel modules > Network Devices将kmod-e1000e，kmod-igb驱动选中",
+      "translatedText": "- After checking, the network card uses Intel IG211-AT and operates over the PCIe channel; here, e1000e should be selected\\.\n- Kernel modules \\> Network Devices: Select the kmod-e1000e and kmod-igb drivers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 75,
+        "costUsd": 0.000147
+      }
+    },
+    "34834b099e4a8986129888efd4e6d9a8029cf8879b219c9051f958bdcd3b7dc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "db7442c6ce08c65dbd277f4dbcad113f82b208ec62f0110a3c7ad8cca2017524",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "换句话说，进阶版中有两个头文件：",
+      "translatedText": "In other words, there are two header files in the advanced version:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "34a50581d05e730e6e059b473ca52f467a6f56cf1f2ab3fe7b40a2b9e3b1cb46": {
+      "normalizationVersion": 1,
+      "sourceHash": "548efccb990d2ba34a6da178dffbc2ca950acd937d96db6f76da25497d073f62",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打印结果：",
+      "translatedText": "Print result:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "34d696d41aeb45d4693036e07943a331252fe113e1124a4c84dc8b6802fe2d5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "da1ebe1617059f5ca9af4aca724560bc57f2c6234ed355dd34496f8127e050ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "抬头：",
+      "translatedText": "Title:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "34dd9556b09baf4589066b7b5fa795e1c6104ae36e94e6516cf33826e9bfb5f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a34f559d4ff7447f652e3e61bc3fd600f3f854a4c2afdf59af9e5424954b7c2",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 启动配置来源",
+      "translatedText": "###### Startup configuration source",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "b522d8aac63e8ae7a601f584934a3591a6e9fb1459aca6bcc952c20d76cc2362": {
+      "normalizationVersion": 1,
+      "sourceHash": "f46a1016ce4f86502cd220c9254ad92043b46e6fed7cdbd9834ce8c595e889cb",
+      "contextFingerprint": "f35018c835de0d7c660dbe569c85ace9e71a79e7559e976773ebb922b5e50bbe",
+      "sourceText": "其中 cut_frame_init 默认 False。当前没有发现把 common.cut_frame 赋给它，也没有发现使用 cut_frame_time_interval。\n此外，这个内部函数按点数分段，使用 cut_frame_num，并不是直接按照 YAML 中的0.05秒切分。\n因此，单独修改这两个 YAML 参数不会实现注释描述的拆帧行为。",
+      "translatedText": "Where cut_frame_init defaults to False\\. Currently, no assignment of common.cut_frame to it has been found, nor has any use of cut_frame_time_interval been found\\. Additionally, this internal function segments by point count, using cut_frame_num, rather than directly splitting according to the 0\\.05 seconds in the YAML\\. Therefore, modifying these two YAML parameters alone will not achieve the frame splitting behavior described in the comments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 232,
+        "outputTokens": 122,
+        "costUsd": 0.000216
+      }
+    },
+    "b552d1586bcaa48f1de2a4be3129c2a52d7028b81cc2f329064ea159ab6a30f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a1a08011ab0f41beb68553ead124b70f98b00ff2c9a69f85c233b2ac864d6b6",
+      "contextFingerprint": "7d51141a7103d5d81996eac1a5c214eb610160e7deeb80aa57a9ec58e057bf9b",
+      "sourceText": "**语法：**`表达式1 ? 表达式2 ：表达式3`",
+      "translatedText": "**Syntax:**`表达式1 ? 表达式2 ：表达式3`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b562097c35b0763ee0804a6596dfc5af7d912c2af6ae614c234e1b3036f23d53": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bf5b1788c0b0770c9d2cf6cbe360a36e9d2e5ee66827cdb9af4bb916ff19d3f",
+      "contextFingerprint": "93448bd8e8b1ba6557d4bf5c9ec15df54c8c83790bdcf063fa640cf662d9240c",
+      "sourceText": "## One-Step WM / AR Forcing / NavWAM：2026 新路线",
+      "translatedText": "## One-Step WM / AR Forcing / NavWAM: 2026 New Route",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "b588e8aefc5dbffe4408a6b008b8f7325643b05192b77ef082b39fba706ab698": {
+      "normalizationVersion": 1,
+      "sourceHash": "70c0c5e0e0a4fbcffdf31dc9f81b537e97a09a9ad7c63012ab1ae5dcc6385142",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 修改接口MAC地址修改MAC地址：",
+      "translatedText": "### Modify interface MAC address\\. Modify MAC address:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    }
+  }
+}

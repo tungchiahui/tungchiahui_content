@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "69135f796f4350102eb8541559c874f2ce7dd39328878cbed89dd040588f46d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b12208170f1d15787a782ab5792abdfbe3c819020f1cbcdf88f09b82cf7daa14",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "经测量车长X=525mm",
+      "translatedText": "Measured vehicle length X=525mm",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "691c359687904cd06e3394fb23dca9213a47f4bd0fd81b270fee7b7c3ce96fa1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b80aea81b83be3fce1e76156a7a33e86a956439c77f38fcacf59544acb4b017",
+      "contextFingerprint": "5e9e9f46ece8acff92f858539f628d3aec0c34dc2e282e9caee91fdeb8fea1f1",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189096835.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189096835.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "69477d0c9b450626da4fe3fe5e4092bf0eb2ee98c2395e90d33044ce7e7cd9f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc5de85868cf8d7f3529948eafc153a36614daad78d63b9a7f08c25f135354bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设驱动稳定20 Hz，这段逻辑理论上约每11个回调输出一个合并包，即约 1.82 Hz，累计点云覆盖约 0.5秒。这会增加等待时间和单次处理点数，因此首轮保持 False。",
+      "translatedText": "Assuming a stable drive at 20 Hz, this logic theoretically outputs one merged packet about every 11 callbacks, i\\.e\\., about 1\\.82 Hz, with the accumulated point cloud covering about 0\\.5 seconds\\. This increases the waiting time and the number of points processed at once, so the first round keeps False\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
+    "694b91bc513564f8d3fd19fa1d5cb44bac1add4e8967c130cb14c5c56f0fe243": {
+      "normalizationVersion": 1,
+      "sourceHash": "4db36c0ba45e52f64f0f7289d784488567a6e33cb9514a8a4d0a34ec9dfd5a43",
+      "contextFingerprint": "92110c208168626ee402158e9fb9efcb1e6b78d65f5e6ca091adfc12d3cc336f",
+      "sourceText": "纯虚函数语法：`virtual 返回值类型 函数名 （参数列表）= 0 ;`",
+      "translatedText": "Pure virtual function syntax:`virtual 返回值类型 函数名 （参数列表）= 0 ;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "69564598f4fdb2497b7fd575fa6e5ab8a1257a5507b8219e4f73026e679b3f54": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cd261fa4eabd179b6e7cb81c228520689a5aa622b29080b76d4c678cf8a0f22",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 引用做函数参数",
+      "translatedText": "### Reference as a function parameter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "697d2b3f92bbf7de5531768269f72da8d44e177abc742caa46ceab8e39c813c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0372ad768a55dddd7bc45d025b70e45f11d377f207dec601c57d7c906f3a686f",
+      "contextFingerprint": "b372b679dd4317f66beb27854ede08f9208775a53a9718f453dedc62562b17cd",
+      "sourceText": "timestamp_unit：解释逐点时间字段的单位。 本地枚举及转换关系为：",
+      "translatedText": "timestamp_unit: explains the unit of the point\\-by\\-point time field\\. The local enumeration and conversion relationships are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "697e76e703dcee482829a428d332791e4401839c2f2645b163787588b1cfd1c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "76b1f93f73f4a32a2b4ba3dda96169058e01670a850027c9d22b65b389095d1b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "静止测量有助于核对 IMU实际轴向，但测得的初始 IMU方向仍要与目标参考系区别开；不能只用测量结果代替整条坐标关系检查。",
+      "translatedText": "Static measurements help verify the IMU's actual axes, but the measured initial IMU orientation must still be distinguished from the target reference frame; measurement results alone cannot replace the entire coordinate relationship check\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 45,
+        "costUsd": 0.000104
+      }
+    },
+    "698471f399f0a8611e2117fb95d3149b682ecbdcc2812707f4b9dddbbec66ac5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2125f2df7318cfdcd0a75d42afad797c56f41a49af097bf9035e9bd46d0e1994",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用： **给变量起别名",
+      "translatedText": "\\*\\*Purpose:\\*\\* Assign an alias to a variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "69c5bea76687a318dc423fb7945e3d624e68933a52d61b0a2b9c584a1e954a39": {
+      "normalizationVersion": 1,
+      "sourceHash": "449f274f2428ca8ca4ab49744315c97c37618c2f48dc7d0d77baf5c1e92647d3",
+      "contextFingerprint": "4f0ceacad90c18eac0868830075c0d2974be9d09026503e09cb039df1098e9c7",
+      "sourceText": "**语法**：`数据类型 变量名 = 初始值;`",
+      "translatedText": "**Syntax**:`数据类型 变量名 = 初始值;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "69cb4f0acc7ec9e2e90a74ed9f31dc780d4ea858ca22b6f140edcffdb6b094fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cd938dd4f4f26ea0577365d3e41544fd228a15354a5de8c8cd9b61358a2621f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**重载关系运算符，可以让两个自定义类型对象进行对比操作",
+      "translatedText": "\\*\\*Purpose:\\*\\* Overloading relational operators allows comparison operations between two objects of custom types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    }
+  }
+}

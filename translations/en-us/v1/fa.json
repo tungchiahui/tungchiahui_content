@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "fa0d7901461ba6f5ccf31b4c01c4ecedd405afd5caac2742ac50533b323b6eb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "450cd9b10e0027346146ab8bacc6ccb6a9c5ef9fb11e5767bf60db007f113530",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**cout** 是与流插入运算符 << 结合使用",
+      "translatedText": "**cout** is used in conjunction with the stream insertion operator \\<\\<",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "fa117eb04eb56ee9a6c86951147c8898eacbac1d409e3f1cb967fc98d7e3afb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4a771e96f1168f278f8371d6d1fafae9ef97062878f97c07cfe4d4b1c98efa1",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Renderer / Simulator / Planner 框架",
+      "translatedText": "## Renderer / Simulator / Planner framework",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "fa20d2f87c3f151ecc9fefa7b41d0e36877fd2d9990e34172b32d829a5c9b71a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c361ceea6c11921b5ef698e06225a9f3fbbd4f3be54758a8e8c2f81e2444124",
+      "contextFingerprint": "52f26693129c41cd753f5fa967a385e9176b259dd98040ed85d892149cbfc629",
+      "sourceText": "### `/usr/bin/code`",
+      "translatedText": "### `/usr/bin/code`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "fa280155dbf3cb16cc18d3ed784b0327b4094da32933d8237bdc6b5f9f26ffc3": {
+      "normalizationVersion": 1,
+      "sourceHash": "73631f2a8cd0d2a89aa9837f0204095d4586afd2bda91b57745995ca30873ef5",
+      "contextFingerprint": "6d54da5ac5df248c03bd18ba42d9b5291281d5e4079ea150e10e69c3aa5601ee",
+      "sourceText": "`num_threads=4` 控制邻域估计、建树及匹配的并行计算。降采样调用没有传这个参数，当前库该函数默认4线程；把参数改大，不等于所有步骤都跟着增加线程。它不是节点频率，也不保证线程翻倍就快一倍，先沿用当前值。",
+      "translatedText": "`num_threads=4`Control parallel computation for neighborhood estimation, tree building, and matching\\. The downsampling call does not pass this parameter, and in the current library this function defaults to 4 threads; increasing the parameter does not mean that all steps will increase their thread count accordingly\\. It is not the node frequency, nor does it guarantee that doubling the threads will double the speed; for now, continue using the current value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 88,
+        "costUsd": 0.000163
+      }
+    },
+    "fa2c6a0d82458eaa470301e5a14bbf670c34629fa021a7c3b40d5309abdb9c9c": {
+      "normalizationVersion": 1,
+      "sourceHash": "83add496174292f63c48c74aa56f8990a4afdcdcebf9a6fd2555a7dae855b3dd",
+      "contextFingerprint": "c2a0d2f1f4fcd45e110dcd8740794b71aa6b271596697fe8a3ce47e0e7f8df5d",
+      "sourceText": "###### imu_time_inte（IMU标称时间间隔）",
+      "translatedText": "###### imu_time_inte (IMU nominal time interval)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "fa4bc6077fb46bf703c7cbd6dc45c344a46f9b319a2f3f418dc92717e0b72fab": {
+      "normalizationVersion": 1,
+      "sourceHash": "aae35ed6ee93df8a7520fc487f245ab3953faa2564838868c6f875dfddc161ad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开工程中的：",
+      "translatedText": "Open the following in the project:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "fa501ced6c819ce1920bb7d24dc7b1c4a79cd61359d61d2e536f691a93c4c21d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bd89c9a5d4e8b449fd3de9bbca420c9241f118aa605c7a921368b1cdc3b1d8c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**常量引用主要用来修饰形参，防止误操作",
+      "translatedText": "\\*\\*Purpose:\\*\\* Constant references are mainly used to modify formal parameters to prevent accidental modification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "fa5a9b418c594f926f58a59be56aab42555983cb6eec278883c71bd63df71772": {
+      "normalizationVersion": 1,
+      "sourceHash": "f241ec86304f377cef027de064f724148ae64299d5d522e6116188e82cf91e84",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "在C++中，函数的形参列表中的形参是可以有默认值的。",
+      "translatedText": "In C++, parameters in a function's parameter list can have default values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 30,
+        "costUsd": 0.000083
+      }
+    },
+    "fa7d14a7727442360cef1cfdcaa80cd2c9bf178fca50e4af8c0bf1f5b45f2c9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ece8a85930d742841e7d142017ef482b865a5b25b92a9855b2d53c78fb62838b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把下面这些",
+      "translatedText": "Put the following",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "fafa8879b83d9def4cc9c665ca090e7d62ae1236009e59869d647a8c0761540f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b61617a38224f5f6709dd9ff61dee86145da15945bc4bd1a29e4da05dc94592",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 论文方向占比：每篇到底偏哪里",
+      "translatedText": "## Direction proportion of papers: where each paper actually leans",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    }
+  }
+}

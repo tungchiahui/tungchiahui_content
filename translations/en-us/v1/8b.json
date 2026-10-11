@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8b102b0ebb768ddeb6d00b6eb773a0b432886351673a8ca431a6b2e40ca424a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "22b5610ff5d011449e632b280afd545087745ec330f483202b6ac0d777cbe9f3",
+      "contextFingerprint": "e53fcdd2281c74a967997c121439f0381f4afea86819d21b74524fe5cb9778c1",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404891239.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404891239.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "8b54e0466cf58766b5c73b8d99c8ca3e0801a761d3cbb01804be304e5357a593": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef3063305eb9b6b80f3776b3f9d4474e9a6245108bd9d608264f6ee39257f6a8",
+      "contextFingerprint": "b372b636948482eb3fca1fd518d7009d6466fdd629ac35d59446f5e2a748dafb",
+      "sourceText": "> 注意：C++风格字符串，需要加入头文件==#include\\<string>==",
+      "translatedText": "> Note: C++ style string, need to include the header file ==\\#include\\\\\\<string\\>==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
+    "8b8599388f13fbb5aaae09e3d0e0af3f0f9911b8b3a96103b45c2243858e7cae": {
+      "normalizationVersion": 1,
+      "sourceHash": "578f4d85a0d5d537e21a678b33d0994bcf9ec98a169976d2799923e87746ba7b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里最重要的几行是：",
+      "translatedText": "The most important lines here are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "8bd87851edeec98ba03326814f3067b5223525561c22d1796fcd7da4d88d5d5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0caa23038d97b2eb562f87e79b4f3607b7c478751b6005c54c9faa972d787b98",
+      "contextFingerprint": "8690c7d07e866ffeaadba0796eb744e02a826740ab5ec1ae36d62e4988e0ea96",
+      "sourceText": "`joy` 第6个按钮可触发；`cloud_clearing` 的 Float32 消息还会用消息数值覆盖半径。近场节点对应话题是 `map_clearing`，二者不同。扩展节点清图后仍会借入 `terrain_map` 的近场结果，因此近场点可以继续出现在合并输出中；不能把清自身缓存理解为清掉整套地图。本轮没有发送清图事件。",
+      "translatedText": "`joy` The 6th button can be triggered;`cloud_clearing` Float32 messages will also override the radius with the message value\\. The topic corresponding to the near\\-field node is `map_clearing`, and the two are different\\. After the extended node clears the map, it will still borrow `terrain_map` near\\-field results, so near\\-field points can continue to appear in the merged output; clearing its own cache cannot be understood as clearing the entire map\\. No map\\-clearing event was sent in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 100,
+        "costUsd": 0.000182
+      }
+    }
+  }
+}

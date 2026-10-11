@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "623ba7c0c3df34c0becb8a2ab8d2c99ebbb2f2b4b6235e3e25675fccb0a48ce4": {
+      "normalizationVersion": 1,
+      "sourceHash": "6640f155a793d57cc5debdd2085b2fb68a73a0491e88354fc3e8de4e44d105b7",
+      "contextFingerprint": "4aababb4462063d94929c3efd21dad29bd3753f23f59f9d69a09763691d699a5",
+      "sourceText": "1. chassis → gimbal_yaw_odom (大Yaw)",
+      "translatedText": "1. chassis → gimbal_yaw_odom (large Yaw)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "6247c5d1f61be4988c42d427de05abacc2cc699980debe6a1557d91511807e69": {
+      "normalizationVersion": 1,
+      "sourceHash": "60b879a317151b23003ba751136857bad5d2d971f776899db099e82d836c78d4",
+      "contextFingerprint": "5fc5a9236612305ff0e26b30a7a0303fe7d152db6c1055c017de3f98f25a7f0f",
+      "sourceText": "**运行结果**：见下方“运行结果”；`argv[0]` 会随启动方式不同而变化，重点观察 `argc` 和各个 `argv` 的对应关系。",
+      "translatedText": "**Run result**：see \"Run result\" below;`argv[0]` will vary with the startup method\\. Focus on the correspondence between `argc` and each `argv`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "626da2fc84225aac2a3394bd0cbf4b69103e8cf0ff275cfca7a8bf23315f0953": {
+      "normalizationVersion": 1,
+      "sourceHash": "463ca923724e8d7b7c404624c66a006efcd17edd7b575ec4b505c073c5867f7f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**将结构体作为参数向函数中传递",
+      "translatedText": "\\*\\*Purpose:\\*\\* Pass a structure as a parameter to a function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "629d2619d7a83b1c51598c63e80964e18d6dfc28ff7e49757a7be4a662720037": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2df51134a4b69a3bc2b4c8bd217f295f40496aacee36bc1376ca1822c6356f3",
+      "contextFingerprint": "1e4360c606a9cd10ec0dfa3dad5739a170ffe28e24f23f76808d9a7c7e0918f0",
+      "sourceText": "所以RViz箭头若被你理解成底盘车头，而当前云台相对底盘左转90°，就可能少算一个云台角。位置也对应云台原点：若人工消息给z=0，源码把它当作云台原点位于map的z=0，而不是“底盘地面高度为0”；高度应按这份地图的基准核对。只改 `robot_base_frame` 的名字也需要重新核对整条关系，不能把“机器人”三个字自动等同于底盘。本参数仅该回调用，不在每次点云匹配时扣机械角。",
+      "translatedText": "Therefore, if you interpret the RViz arrow as the chassis front, while the current gimbal is turned 90° left relative to the chassis, you may miss a gimbal angle\\. The position also corresponds to the gimbal origin: if the manual message gives z=0, the source code treats it as the gimbal origin being at z=0 in the map, not as \"the chassis ground height being 0\"; the height should be checked against this map's datum\\. Changing only the name of `robot_base_frame` also requires rechecking the entire relationship; the three characters \"robot\" cannot automatically be equated with the chassis\\. This parameter is only used in this callback and is not deducted as a mechanical angle during each point cloud matching\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 243,
+        "outputTokens": 161,
+        "costUsd": 0.000267
+      }
+    },
+    "62b34544ec7806575de47eaf78cee0553f154fe8c15568a83b276a52c086fcd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "e07cabd8981a8be2ecb44342fa0f5a4970eeebcf65747e74443c71d4e0a0e378",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前Ceres插件在启动阶段仍需成功加载。官方说明提到的其他插件名称，不代表当前安装包已经提供；不能只改名字就假定能切换。",
+      "translatedText": "The current Ceres plugin still needs to load successfully during the startup phase\\. The other plugin names mentioned in the official documentation do not mean that the current installation package already provides them; you cannot assume that switching is possible just by changing the name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 55,
+        "costUsd": 0.000115
+      }
+    },
+    "62ce27110c1c57b05232de88019179e58dd9194244c290bbeedb133471e408fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "8689f65c1a7945f0f94066b82b835166be0d5f11f6da647b177c5b1e8dd353da",
+      "contextFingerprint": "ae282a11cf48625e4a85f68a5393fb43044d4a851ba795d02df95409e89da820",
+      "sourceText": "###### scan_topic（接收哪份二维扫描）",
+      "translatedText": "###### scan_topic(which 2D scan to receive)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    }
+  }
+}

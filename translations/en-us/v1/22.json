@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "2230a70895b57c40da18ce78a4ee36e6f6996b3e34c9ebc646c4316f019d7031": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e200d748493282811beb6b35655c36394784e042d54bbfc378fd399a84160d2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t两个派生类继承同一个基类",
+      "translatedText": "Two derived classes inherit from the same base class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "223b684aa39fdf9ad303844c74109cd984e47103838593c7d27e4d1cab402cb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "264a4d265de9559127b62253be3609d7faa304400c3a00a68498c6bc94ab29a5",
+      "contextFingerprint": "4d782a32d198875ff1d813ef79ee1b40064c9396d37ec3b31f8e6eca6243dd3c",
+      "sourceText": "当前自身远场只保留绝对高差 `h<1.0 m` 的点，1.0 m边界不保留。这个值没有更改机器人尺寸，也不表示能跨越1 m台阶。",
+      "translatedText": "Currently, only points with an absolute height difference of `h<1.0 m` are retained in the self far field, while the 1\\.0 m boundary is not retained\\. This value does not change the robot dimensions, nor does it mean that a 1 m step can be crossed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 60,
+        "costUsd": 0.000122
+      }
+    },
+    "224630d5d40fbb3c633bc66e0dc4ff550f30bd5a41f10a5ec0d1b25abc0cc5ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "137305951c293c9d4d08c100d24fa3cc76cb127e4fb470cc99cf1fbb488c9476",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### useSorting 与 quantileZ：正常坡为什么也可能像障碍",
+      "translatedText": "###### useSorting and quantileZ: why a normal slope can also look like an obstacle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "2257bfa4a23c08b46ee5b99d8dd3c43ed4c13b648de1dc6046162b1c7a538fe0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c480b41a272fcb176391e7b39eba6673d2b0e707edc75ba0594f2eafab387a0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**详解：**",
+      "translatedText": "**Detailed explanation:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "2289324b969140d074cbc8968da422b8fc121d7c88006d9391a7ef22c8cf84de": {
+      "normalizationVersion": 1,
+      "sourceHash": "2962bffd26727e8622ac1e74c569df5b69e10550fa96e590d687fa02d884144c",
+      "contextFingerprint": "0f3985c0332ddf4dafa39228c57bddf7a41b0e0ca0f30ba4c629290482d4d41b",
+      "sourceText": "这里的第一个仰角按 `odom` 中相对输入位姿的位置计算：",
+      "translatedText": "The first elevation angle here is calculated according to `odom` the position relative to the input pose:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "229346ffebe809712b212cf19a451b51c74b24d9ccad7785124aeb730385451b": {
+      "normalizationVersion": 1,
+      "sourceHash": "529a303d2b5ea585e54cbfe04010ed19afd1b75f8af45cab8e37d6b818b5b15d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "三个点数控制参数作用于不同阶段。",
+      "translatedText": "Three point\\-count control parameters act on different stages\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "2297bc110fd47c6c737d53d3810cb26e8aa48f9e7bbe919e71ef85845b5c6e63": {
+      "normalizationVersion": 1,
+      "sourceHash": "699fe4ec32d7879e6d02c21712aa264c714a21ba1266c90534b4f046731e5edb",
+      "contextFingerprint": "d6379a808069d9ceb20b83bf139d4344773d28e017cb4065e46c48b77fd02966",
+      "sourceText": "可以参考[串口驱动与串口包协议](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0350-chuan-kou-tong-xin-chuan-kou-bao-xie-yi-shi-li)",
+      "translatedText": "For reference[Serial port driver and serial port packet protocol](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0350-chuan-kou-tong-xin-chuan-kou-bao-xie-yi-shi-li)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "2298d5582c60bc8402b569339129a27a82c08f6c7427d721c962636e4e7010c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "7860fd41eb66dbabdfd872cd15f404c1bb23bc06f585c8faed27942f4c92ccc7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设上游已保留这些点，其他条件也满足：",
+      "translatedText": "Assuming the upstream has retained these points and other conditions are also satisfied:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "229b8e6bc042648cfe397cb21bb95877114a2323c053aa7a8f81eb62c9483778": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c4cad387d806d5a8dd2e9aed3c568bfb910298945698ad5b01fb437212bfd53",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个话题参数：名称、消息类型和命名空间必须同时对应。",
+      "translatedText": "The two topic parameters—name, message type, and namespace—must all correspond at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "22a048bd9e086c64d14f989d4cc749d69b73cb0df5b5451143441f3f44cd1d6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d6d0a974af1231bade3bd11466d112bde36905e242a3c7e22b6465c5611bf1f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 继承中的对象模型",
+      "translatedText": "#### Object model in inheritance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "22cc256df21f7b45951e31339e7053dce09fa1907e4c4cf0fe4ab7a2a5cd0b46": {
+      "normalizationVersion": 1,
+      "sourceHash": "4001f54eaa658dfc4d09681bd974f664335e85ce2d77eb11fdc7205a6e660b67",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 分文件编写的核心理解",
+      "translatedText": "#### Core Understanding of Writing in Separate Files",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "22cff23c42eec58772244deb98c901e8f1317a3d882c9a0bfa1eb0f7907255ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff7b27b96835659669cc03196f259eb669fc163b7c219959588b2789ea2b73f5",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 运行方式",
+      "translatedText": "## Operation Mode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "22dbc84ac235dea6c7483f1ddb2bd9a023238e05c591ab1b909fc2322e0b66be": {
+      "normalizationVersion": 1,
+      "sourceHash": "f00da5b30ec5b558f3a9f0b70dee251de36d6ba38f44b401bf3e037d4fc1f254",
+      "contextFingerprint": "2be928bf08269b1b17b70d907aa608b6fd578abcaf2c326637422e2ffc6f9ddc",
+      "sourceText": "接着把 `src/swap/inc/swap/swap.h`  或者 `src/swap/inc/swap/swap.hpp` (纯C++头文件用.h和.hpp都可以) 改回普通 C++ 头文件，并给 `swap` 加上命名空间：",
+      "translatedText": "Next, change `src/swap/inc/swap/swap.h`  or `src/swap/inc/swap/swap.hpp` (for pure C++ headers, either \\.h or \\.hpp is fine) back to a regular C++ header, and add a namespace to `swap`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
+    "22eb07878422b50d4833d2462bdc38e92b4f288198cafe9516faf3f40c1f96b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "c792b8506b7def8bc06f64a45d06016544c550d499822e0ff7550cc2ac2e881d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 参数",
+      "translatedText": "## Parameter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    }
+  }
+}

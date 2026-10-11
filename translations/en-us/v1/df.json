@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "df15aa2fbc78bccef74f2cb4c1af38f3edff4d717743bc14297257fbbb7dd855": {
+      "normalizationVersion": 1,
+      "sourceHash": "52222655f6d08bb53c743b5414e54df60ad84f71dae664a5187c895147e4e0fe",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1. 变量基本完全对应",
+      "translatedText": "1. The variables correspond essentially completely\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "df15f77d92848aa0d5e6d9c0b20b6afbf6f546cc7faf720561f4e53bb379290a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c5c4d8acff4f92055267f1c447753aacd6af9eda5fd5ea44c718b0576be864d",
+      "contextFingerprint": "2491eaa27a58888925770315a5d1c55b94f53c6c6708bb051e51ff13c4cbedfe",
+      "sourceText": "- Kernel modules → Other modules → kmod-rkp-ipid",
+      "translatedText": "- Kernel modules → Other modules → kmod-rkp-ipid",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "df5808c2ea7fc9c1fb22faf66dc4ddee53f550c01bc6f5cb13f40ba34454ee5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "02f828b751a49c87dbfc4f27c2c2a174bdd821e0bab80ccc90e03ceb50f45b3c",
+      "contextFingerprint": "669d9ad4e1b5a73a66a4204430a08aad2d754eea29200e4947cde430d6f4e5ad",
+      "sourceText": "| **运算符** | **术语** | **示例** | **结果**                                                 |\n| ---------- | -------- | -------- | -------------------------------------------------------- |\n| !          | 非       | !a       | 如果a为假，则!a为真；  如果a为真，则!a为假。             |\n| &&         | 与       | a && b   | 如果a和b都为真，则结果为真，否则为假。                   |\n| \\|\\|       | 或       | a \\|\\| b | 如果a和b有一个为真，则结果为真，二者都为假时，结果为假。 |",
+      "translatedText": "| **Operator** | **Term** | **Example** | **Result**                                                 |\n| ---------- | -------- | -------- | -------------------------------------------------------- |\n| \\!          | NOT       | \\!a       | If a is false, then \\!a is true; if a is true, then \\!a is false\\.             |\n| &&         | AND       | a && b   | If both a and b are true, the result is true; otherwise, it is false\\.                   |\n| \\\\\\|\\\\\\|       | OR       | a \\\\\\|\\\\\\| b | If either a or b is true, the result is true; if both are false, the result is false\\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 109,
+        "costUsd": 0.000199
+      }
+    },
+    "df5b1a882799294f88db7439cf3b20bd804605d3b2a8c9427fe5a8385de90eeb": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e952808aa2c2edcc1f7fcdec54c9c7abdc0e8b4e71cf795368d68aa3585397f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "算术运算符包括以下符号：",
+      "translatedText": "Arithmetic operators include the following symbols:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "df640d99220c4ecfaae3bb4203f186aa41ad550fa8571e2e2ea419ca8515307d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6524dc90dea7d71776e52f60dc936df00858deb1db3072958009f6635477a1fc",
+      "contextFingerprint": "58e6494300cb5995f1d11579720b55c3fadfc0fdd0918d4b9c81334d911143fa",
+      "sourceText": "本节点近似配对的是 `Odometry` 和 `Path`，不是带时间戳的速度；输入速度没有时间戳，只缓存最近值。收到局部路径会刷新“控制器活跃”时间；最近0.5秒内有路径时，非零速度等待配对回调处理，否则直接按当前保存的 yaw 转换。近似配对不能证明路径、位姿、速度对应同一时刻。",
+      "translatedText": "This node approximately pairs `Odometry` and `Path`; it is not a timestamped velocity\\. The input velocity has no timestamp, and only the most recent value is cached\\. Receiving a local path refreshes the \"controller active\" time\\. When there is a path within the last 0\\.5 seconds, a nonzero velocity waits for the pairing callback to process it; otherwise, it is directly converted using the currently saved yaw\\. Approximate pairing cannot prove that the path, pose, and velocity correspond to the same instant in time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 209,
+        "outputTokens": 112,
+        "costUsd": 0.000198
+      }
+    },
+    "df6ee49db27b9de301c0526970af0458623257a858b293fe674ca3d7cc6c453d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec8d745236d3a2ab694b98abc861867ff39daa4febd308205bbfbd736310bb21",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 定义结构体",
+      "translatedText": "### Define a structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "df7a4b7ec0a39251963f01c73ff8043447519a25049e7682c1d791fab2b9f8ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "b34b4e948f7e46b6e639d971564553b45c0cc9e33dae78baff04fac809ea2994",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**当前定位：Simulator + Robot Learning。核心价值是理解 WM 不只用于在线规划，也可以用于 imagination / data generation。**",
+      "translatedText": "**Current positioning: Simulator \\+ Robot Learning\\. The core value is understanding that WM is not only for online planning, but can also be used for imagination / data generation\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "dffe9bc9885015556f86390b530ffc816334565415e848d4f2e72e34d4e5df0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "00c49fc2ee4d63dc0fa913cdf3afaacd7a878c8a990325f26f8d75b1cea179b0",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2. 安装依赖关系与编译工具链 ",
+      "translatedText": "2. Install dependencies and the compilation toolchain ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    }
+  }
+}

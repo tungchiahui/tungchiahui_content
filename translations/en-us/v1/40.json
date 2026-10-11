@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "4019de6627cad74503c1bd0b1f91e68bc302b0bdc48122d44c123d00323c6c4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb335d07cdba2a8b5bff1aadac3df1ac88d57cf2ed477a4f2748b694290d194c",
+      "contextFingerprint": "cb5c66cedd9078e430f323d43dbd473cb363eaa537f5ce530dcfdd95a890cef6",
+      "sourceText": "![timg](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-timg-c3dc8314a2.webp)",
+      "translatedText": "![timg](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-timg-c3dc8314a2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "402ccaa98002229e60aa08b602ceb9c0d31c018adcf01f2da213fbe143158700": {
+      "normalizationVersion": 1,
+      "sourceHash": "3bb9dba783b065f50878dc0b90f9f8815c7007364460a58835972409995a7df0",
+      "contextFingerprint": "5dd63b4eb2852d0fd92fc70dcb0759d54461024caa83ea96cd2541d5c755870d",
+      "sourceText": "localization_launch.py 会将启动参数 prior_pcd_file 传给：prior_pcd.prior_pcd_map_path",
+      "translatedText": "localization_launch.py will pass the boot parameter prior_pcd_file to: prior_pcd.prior_pcd_map_path",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 44,
+        "costUsd": 0.000103
+      }
+    },
+    "404142c090d14c2e691c9906d043d795768be32889d89558cda785a620f6b889": {
+      "normalizationVersion": 1,
+      "sourceHash": "cffbc8fe09c1f10469948414dc9f81e4c50bb76d031b9469d91da237c591930f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t3. 拥有纯虚析构函数的类也属于抽象类",
+      "translatedText": "3\\. A class with a pure virtual destructor is also an abstract class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "40745c5bca4faab76fa5015bd59066d32b10c3fa21110360b3cf23362deb928d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd84c4a40d220177a6f22c1a8e5f4ff6df672d2e9fb3b10dfe73fb72476b44e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Linux 收到以后并不马上发布，而是保存：",
+      "translatedText": "After Linux receives it, it does not publish it immediately, but instead saves it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "40bb7ae7fd39144c25cd10a30806cec550c91cc87d47f8d1bc6412ba7f0d74c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "02338e8f65af1e2ce8819ed91ed1dfc9c228d060eb1407c6a03e1c2cea04dcc4",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**继承实现：**",
+      "translatedText": "**Inheritance implementation:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "40bc609069c2fae932602e87f4f4fad11c669e55345bc9654802a8e15aa869b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5228edf71eb1d1adeebc09bdd3bf973a0520280d21490fe4a57284762ea1dad6",
+      "contextFingerprint": "2b72cce0a4dee754dd35f48dc10bfd30273d94a04a2217b2d3f4b45ea28d4ed1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020936120-f40cf710.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020936120-f40cf710.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "40be12701f48e4f5b6df6a61965541c92d0c89b521892c122f69a85b786f4b95": {
+      "normalizationVersion": 1,
+      "sourceHash": "f22ac6d855083cf775cb92206ddaf3a10bf2b23f3604d3f8ab0169c1ecb1e3b4",
+      "contextFingerprint": "8711e14823ba77922df4605465852f2a66b1753034f68a49548fa8da82f08976",
+      "sourceText": "* `argc` 表示命令行参数的数量，通常至少为 1，因为程序自身的路径也会算作一个参数。\n* `argv` 表示命令行参数数组，`argv[0]` 通常是程序自身的路径或名称，`argv[1]` 开始才是用户传入的参数。\n* `char* argv[]` 也可以写成 `char** argv`，两者在这里表达的含义相同。",
+      "translatedText": "* `argc` Indicates the number of command\\-line arguments, usually at least 1, because the path of the program itself is also counted as an argument\\.\n* `argv` Indicates the array of command\\-line arguments,`argv[0]` is usually the path or name of the program itself,`argv[1]` Only then do the arguments passed in by the user begin\\.\n* `char* argv[]` It can also be written as `char** argv`; here both express the same meaning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 86,
+        "costUsd": 0.00016
+      }
+    },
+    "40efcd41a8b80d25d4dd1fd5e9af52a5dac3e4903ce2dded4fbf9842a34f72ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2f3191cb62afb94f2a5339c608813e23ed62c538af4d5b5de2a24601c90c602",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 函数的分文件编写",
+      "translatedText": "### Splitting functions across files",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "40f184b1d4fc36731e1292261d98257c7993688114fedc25033d766068b4a942": {
+      "normalizationVersion": 1,
+      "sourceHash": "356be847248732bf37480fceadb3f170c1324d77d814da4360187cd426e76ad5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**优点1：**将所有成员属性设置为私有，可以自己控制读写权限",
+      "translatedText": "\\*\\*Advantage 1:\\*\\* All member attributes are set to private, allowing you to control read and write permissions yourself",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    }
+  }
+}

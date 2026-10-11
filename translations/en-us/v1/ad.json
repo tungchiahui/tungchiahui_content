@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ad1c44f275e7dc3dae7c006aedf06a639b3bcbfea2a64aa29a970d60cc784dbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9359a8daba5a7afaa6cc1575f2786ee1995e60d784bb339aff3ce3dc00aa2a8a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前局部代价地图的强度下限为0.1 m。地面估计抬高会降低凸起的高度差，可能让低障碍低于该门槛；估计过低则可能把正常地面标成障碍。后续实物应同时检查地面、低障碍和坡面，不能只看点云是否连续。",
+      "translatedText": "The current lower bound of the costmap intensity is 0\\.1 m\\. An elevated ground estimate reduces the height difference of protrusions, potentially causing low obstacles to fall below this threshold; an underestimated value may instead label normal ground as an obstacle\\. Subsequent physical tests should simultaneously check the ground, low obstacles, and slopes, rather than only checking whether the point cloud is continuous\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 83,
+        "costUsd": 0.000157
+      }
+    },
+    "ad1f6c4e4c69342dfbde2599a155bc3f97d651e810d38e211be8929f588fa7da": {
+      "normalizationVersion": 1,
+      "sourceHash": "91ecaa30dcd83c62caf2a66d19a8d7144c6d2f549cf049e432a453ee22eb30d9",
+      "contextFingerprint": "2ddd9177f0b775bf932b5e6b8cf5088e6a76d700925c790c5516fce4737f4628",
+      "sourceText": "一个`joy_controller_sim.launch.py`是用来发`/red_standard_robot1/cmd_vel`的。（仿真用的是这个）",
+      "translatedText": "One`joy_controller_sim.launch.py`is used to send`/red_standard_robot1/cmd_vel`of\\. (This is used for simulation)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "ad4eda1a4844e84d2e0c8919ba6eec86fcd496578aa4829187c28c6cb71c95a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd2ef7a881a380c115418d58d4aa305e7ee7117d37fe5dab4526a3e2e459818e",
+      "contextFingerprint": "e81ad2f31c2a14799ea6df23d63bedfe315d9740d70ba499926a03dc7876a8cf",
+      "sourceText": "| **数据类型** | **占用空间** | **有效数字范围** |\n| ------------ | ------------ | ---------------- |\n| float        | 4字节        | 7位有效数字      |\n| double       | 8字节        | 15～16位有效数字 |",
+      "translatedText": "| **Data type** | **Memory usage** | **Significant digit range** |\n| ------------ | ------------ | ---------------- |\n| float        | 4 bytes        | 7 significant digits      |\n| double       | 8 bytes        | 15–16 significant digits |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "ad86e406f8797ab63d1b3ce1cf6f8a49764eea0a68221c15804d6d86a5717249": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf4ff98e17639c1fe3dad72ef12747e4273c4d4fb4d9d6e038e6936417a716ca",
+      "contextFingerprint": "b42637edd2f29df0a0e0d3fa300b0fe0bbdc90e7d981efd4791af5b02f410968",
+      "sourceText": "这项决定“雷达和内部 IMU 之间的位置、朝向关系，是固定使用，还是让算法边运行边估计”。当前 False使用配置中的 `extrinsic_T/R`。",
+      "translatedText": "This decision determines \"whether the position and orientation relationship between the radar and the internal IMU is fixed or estimated by the algorithm during operation\"\\. Currently False uses the configuration's `extrinsic_T/R`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 43,
+        "costUsd": 0.000101
+      }
+    },
+    "ad8e2d3d2eecb3abd12e564a33349983d75db48cac69a0b9456ec62808b2bbc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a8921037b3cb8b889a54ac99702cc0ab2f76b59a8398f3eaf6f42388793300f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 数据的输入",
+      "translatedText": "### Data input",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "ad93b65b4bd636dcdc85a07b071130d5168b3682e7e7ee280d63deeb97887983": {
+      "normalizationVersion": 1,
+      "sourceHash": "0248796df61d8ae0b7bbba8f3d4036c4bb4ccae42fee5429854afe0f1293f4e9",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 所谓值传递，就是函数调用时实参将数值传入给形参\n* 值传递时，==如果形参发生，并不会影响实参==",
+      "translatedText": "* So\\-called pass\\-by\\-value means that when a function is called, the actual argument passes its value to the formal parameter\\.\n* In pass\\-by\\-value, ==if the formal parameter is modified, it will not affect the actual argument==\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 53,
+        "costUsd": 0.000112
+      }
+    },
+    "adb4b94e1f8891abf34f01fd83ed65ed90cb616acd696d18730b176da93d6adf": {
+      "normalizationVersion": 1,
+      "sourceHash": "01d1ba58faa14469e699f0c240da477e5549b3d6b182a908b4fe8c712048eaf2",
+      "contextFingerprint": "90c12335c36dca86c3b31c43b0c09a61295b1179c2081de728282d9c0fe11fd0",
+      "sourceText": "13项自定义参数均在构造时声明和读取，没有动态参数更新回调；`init_pose` 用于启动，人工初值走 `initialpose` 消息。13项之外的ROS标准 `use_sim_time` 由节点时钟处理，不能混为算法参数动态更新。",
+      "translatedText": "All 13 custom parameters are declared and read at construction time; there is no dynamic parameter update callback;`init_pose` is used for startup, and manual initial values go through the `initialpose` message\\. ROS standard `use_sim_time` beyond the 13 items are handled by the node clock and cannot be conflated with dynamic updates of algorithm parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 69,
+        "costUsd": 0.000137
+      }
+    },
+    "adb7c17ebd365b9acf673d70371ffa6dff596f1fe8aafec0eacd12a6e03b4db4": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e7f98c190dc3b3039a41ede00024d3e7c888335b2696c760bcd9f1bfa5d05a4",
+      "contextFingerprint": "78737d21124249d38a9bd1bc3463fdab9fa980726cadbc1cb9c6214abdaab395",
+      "sourceText": "`scanVoxelSize=0.1 m` 是自身累计点云的三维降采样尺度，不是地面格子大小，也不保证10 cm以上障碍都能看见。细杆、障碍边缘和远处稀疏回波应重点观察；调小能保留更多细节，但点数与计算量会上升。",
+      "translatedText": "`scanVoxelSize=0.1 m`is the 3D downsampling scale of its own accumulated point cloud, not the ground grid size, and it does not guarantee that all obstacles above 10 cm can be seen\\. Thin poles, obstacle edges, and sparse echoes at long range should be observed with emphasis; reducing it can retain more details, but the number of points and the computational load will increase\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 81,
+        "costUsd": 0.000153
+      }
+    },
+    "add6492deb3dfd89db70401d1b022de01f0125f74557c08b12589f40bc3e0bad": {
+      "normalizationVersion": 1,
+      "sourceHash": "0df380148618c02a292e378e8a2aa20193da5c42272c8190d6895ab4b81ad7c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输出位姿和速度协方差均保持默认零值；源码没有估计不确定性。上述实现问题可以由源码确认，实际速度误差、首帧数值和对下游的影响本轮未运行测量。",
+      "translatedText": "The output pose and velocity covariances both remain at their default zero values; the source code does not estimate uncertainty\\. The above implementation issues can be confirmed from the source code; the actual velocity error, first\\-frame values, and impact on downstream were not measured by running in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 64,
+        "costUsd": 0.000128
+      }
+    },
+    "add7afd18fb7a1035352d824df7f691a7c4cad02d8401da425d7cb4834e25fcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "184ca877c619fad9af6279cbb0d996c4acbcde5f5d2888e1dcb5a403671abf35",
+      "contextFingerprint": "d8786844f7fb013e115e93045e70f0f1da04297a6198bf06014e246df87f3e85",
+      "sourceText": "回到`/src/robot_description/resource/xmacro/reality_robot.sdf.xmacro`：",
+      "translatedText": "Back to`/src/robot_description/resource/xmacro/reality_robot.sdf.xmacro`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "addc71e871664b4784bee96e514400a6807571757bc4f11e1d2ae7b19edf9547": {
+      "normalizationVersion": 1,
+      "sourceHash": "24813950b0f00f35f560b30f4320d3b333fcccb3b5a1dd8ca52452d7ba2c5dac",
+      "contextFingerprint": "95e6b176edea52ca2ea3f0d94ed9dbeeb61cac194d181dc2219e67d16086f52c",
+      "sourceText": "2. chassis → front_mid360",
+      "translatedText": "2. chassis → front_mid360",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ade626b27caf7f249d8430809614a1dc77f69a0e839a87effda658cbfdb03aaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "65852cda5aac959c274a2b4fc8645f1cf8035e40fc749a8d8a48c9f2a6174769",
+      "contextFingerprint": "d75a5a176154800bcc52b62f45a1300d1b61c4b1428a98fa528d8da3d80ac3d7",
+      "sourceText": "在 `src/swap/src/swap.c` 中使用 C 语言实现 `swap`：",
+      "translatedText": "in `src/swap/src/swap.c` implement in C language `swap`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "adedec4713eaee9c32cbcca1ad36a2b12582b1324604f64a7915f88cc2108f6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "22c48b706c686eb2b814afa7df71b17f8903d874c1208671a610f35fdf951e88",
+      "contextFingerprint": "0d3607f48dd9a828539b47f185e295daf135df24aa6153a888f51d678eaa78da",
+      "sourceText": "![1541676003486](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541676003486-69cdc4d8ef.webp)",
+      "translatedText": "![1541676003486](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-1541676003486-69cdc4d8ef.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

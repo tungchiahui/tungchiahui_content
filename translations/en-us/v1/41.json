@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "411e771a622ba2605e74d9a2b49a32aac87e47be01588d916e74ace98e635026": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b2d6b40ac05561dabb7ab0505ea99a8ab153661e42f4b4380c3381138088e5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后运行:",
+      "translatedText": "Then run:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "4130d3c571b4d23a9bafdb46c66fb327bb28ac47c38c1c32c3ed3d4ec4b91e30": {
+      "normalizationVersion": 1,
+      "sourceHash": "17c20bad033cbb7083d4bdffada7b7029cd7e69577abc631a55d9e38c59e9186",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里大小pitch是重合的。",
+      "translatedText": "Here the large and small pitches coincide\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "4141704edcb2e98ada19d8e46c24380c5d478d7310d7e8a529ca7f6a1aa92ae0": {
+      "normalizationVersion": 1,
+      "sourceHash": "59848c915a33d70090fc08dcaa650f0bbad9d108237cf6f2fd986c9045c458c0",
+      "contextFingerprint": "1a606fa67fcec8593c921592358e5ee574cba3d6df51a78290a6f9c85ed22c26",
+      "sourceText": "| 方向 | 数据 | 代码实际用途 |\n|---|---|---|\n| 读取文件 | `prior_pcd_file` | 加载PCD，启动时变换、降采样，建立固定目标地图 |\n| 订阅 | `registered_scan`，可由input_cloud_topic更名 | 复制XYZ坐标并累加多帧，作为本轮匹配点云；不用反射强度或点内时间 |\n| 订阅 | `initialpose`，PoseWithCovarianceStamped | 用人工给定的位姿重设匹配初值；话题名写死为相对名 |\n| 广播 | `map → odom` | 发布点云匹配得到的参考系修正；不发布独立位姿或匹配点云话题 |",
+      "translatedText": "| Direction | Data | Actual code purpose |\n|---|---|---|\n| Read file | `prior_pcd_file` | Load PCD, transform at startup, downsample, build fixed target map |\n| Subscribe | `registered_scan`，renamable by input_cloud_topic | Copy XYZ coordinates and accumulate multiple frames as the matching point cloud for this round; do not use reflection intensity or per\\-point time |\n| Subscribe | `initialpose`，PoseWithCovarianceStamped | Reset the initial matching value using a manually given pose; the topic name is hardcoded as a relative name |\n| Broadcast | `map → odom` | Publish the reference frame correction obtained from point cloud matching; do not publish independent pose or matching point cloud topics |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 248,
+        "outputTokens": 138,
+        "costUsd": 0.00024
+      }
+    },
+    "414ba9a4b9f5f3d288f21eea4d0470e33b3f66fea01afd51b6340f5ecc4cca35": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ea029c3c87ca6dd016473c9e4759da867d1b4dd1634a96228b33ccca9155fd4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设为 True 后，加速度与角速度作为预测输入，经过单位缩放、偏置处理后推动运动状态。切换模型还会改变所使用的噪声参数，所以首轮保持当前 False。",
+      "translatedText": "When set to True, acceleration and angular velocity are used as prediction inputs, and after unit scaling and bias processing, they drive the motion state\\. Switching the model also changes the noise parameters used, so for the first round, keep the current False\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
+    "4157495c4fbe2e4f6de5307f05b1c7276e472bea6f10b96120ab7e22ac56fd32": {
+      "normalizationVersion": 1,
+      "sourceHash": "58bf5296f38a3bcece76456fa570c327e75ddc4c1ead6810986af70cbc431899",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "命名空间可以嵌套，您可以在一个命名空间中定义另一个命名空间，如下所示：",
+      "translatedText": "Namespaces can be nested; you can define one namespace inside another namespace, as shown below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "4177e2bf9d6414b30bf9997359b00ae49a7c512c54c9d36b76e9dba19a2baff8": {
+      "normalizationVersion": 1,
+      "sourceHash": "bef7a95306e54a2398c4038b4aaf0c734f0981fee319c70707e1bad0b55c4dc2",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 仿真测试",
+      "translatedText": "#### Simulation Test",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "417aa2a1b08117938284d82b512df067c0c7075854a9bb16b3cc63d6976ccc6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ffe8b117ff82ad9ae453e51150a034363c4c6d7595606839896ad21ef874f16",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### AR Forcing",
+      "translatedText": "### AR Forcing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "41a0e4e8fb9c992c4e5647ef192ede4e35283ea0d2907ca159085bc47cf0ff9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "81b32686fca274bb6c8b3969877c9c8274d9bb6c4e283448e023f90b441808fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而这个项目是：",
+      "translatedText": "And this project is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "41a200c9829e5290a48696e7fd8c7f38482f64f381f182113ff3154fe16a630e": {
+      "normalizationVersion": 1,
+      "sourceHash": "91ac3685f3c9a78f41eb0901495869cdf4f57fe416bc77d0aa23586433948f3b",
+      "contextFingerprint": "952e5ba0208d90473e24785e97e09e77fc1d2d965fff7c37ce0bb4dfba0dbf21",
+      "sourceText": "`clearingDis` 仅在清图事件触发后使用，清掉的是 `d < clearingDis` 的点。当前0没有正半径清除区；`joy` 的第6个按钮可触发清图，`map_clearing` 的 Float32 消息会覆盖清图半径并触发处理。原注释“该距离外的点会被清除”方向相反，不能照此理解。清图只影响本节点缓存，不是删除 Point-LIO 地图；本轮未发布任何清图消息。",
+      "translatedText": "`clearingDis` Only used after a clear\\-map event is triggered; what gets cleared are the points of `d < clearingDis`\\. Currently 0 has no positive\\-radius clearing area; the 6th button of `joy` can trigger the clear map, and the Float32 message of `map_clearing` will override the clear\\-map radius and trigger processing\\. The original comment \"points beyond this distance will be cleared\" has the opposite direction and cannot be understood that way\\. Clear map only affects the cache of this node, not deleting the Point-LIO map; no clear\\-map message was published in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 123,
+        "costUsd": 0.000217
+      }
+    },
+    "41aaa29b8494d1097a78e2bf6623060445b9e016a84df8e5b6ed1003e3571a9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec4d4b9de3f915272961a44ae0eedeb2a9229025bbf989d2d8c9b8603cbf3f44",
+      "contextFingerprint": "19cdc1a3393df708160175f0ccac6fca2e8ddb5e3411eedf17927fd406df7eb4",
+      "sourceText": "现阶段我们常用的转义字符有：` \\n  \\\\  \\t`",
+      "translatedText": "At present, the escape characters we commonly use are:` \\n  \\\\  \\t`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "41d27101ac964e44c5fafe431ceb4c2124b5712747a360db4d71dbaf887a022b": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfacd412c70b652151065f06b5eadf084768a8a1501d088954d68962ace123e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "刚开始学习时先不要管 Git 历史，也不要急着改很多文件。第一步只做一件事：确认这个模板能在你的电脑上运行。",
+      "translatedText": "When you first start learning, do not worry about Git history, and do not rush to change many files\\. The first step is to do only one thing: confirm that this template can run on your computer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 48,
+        "costUsd": 0.000106
+      }
+    }
+  }
+}

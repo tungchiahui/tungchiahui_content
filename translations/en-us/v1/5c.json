@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5c226c94f26ef0807cc8ec33ff103c661a432117b143f0f52bdb1eeafa660ca2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1baa196bc64d9ad82271a609cada851050902caf8ea3f80185e2da0f8a22edff",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 数据单位、二进制与补码",
+      "translatedText": "### Data Units, Binary, and Two's Complement",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "5c296eae9a75bea347d993b6e0df1e294139ca39e982058f583efcc50f67b795": {
+      "normalizationVersion": 1,
+      "sourceHash": "66976cda326c59d2c75f51c43f44325c3335bd7e31dd1bcbad98db636eca06fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "说明工程、编译器、CMake、Ninja、Eigen 都工作正常。到这里，最麻烦的环境部分就已经过关了。",
+      "translatedText": "This indicates that the project, compiler, CMake, Ninja, and Eigen are all working properly\\. At this point, the most troublesome environment setup is already done\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "5c2d5cd3f17307b71ea09ae47a52dba71c6669dfd8857fa2579cc5f019d19162": {
+      "normalizationVersion": 1,
+      "sourceHash": "79b474afbc8edd2f13bb4670a4ea5765f891528b94d5b703d573fc3a2a977d6b",
+      "contextFingerprint": "ed6125049b8315f0797bf94869225dcd6cb9fad35a592c43a87dfe94f4e04b8f",
+      "sourceText": "###### lid_topic 与 imu_topic（雷达与IMU输入话题）",
+      "translatedText": "###### lid_topic and imu_topic (Radar and IMU input topics)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "5c2fcea10cac95ec6aa4fe4068579fcc853e21547020b86e84ffe9864bbde040": {
+      "normalizationVersion": 1,
+      "sourceHash": "51d6a9b0d7ac3c56a7dad8e25d27626413030abd8b9cbf1713b98972a5899b16",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常表示：这个文件主要负责定义宏。",
+      "translatedText": "Typically indicates: this file is primarily responsible for defining macros\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "5c3b4ea1e32904d50bd702c57b7ff53bbc4f464760c8bbc09514350989adf121": {
+      "normalizationVersion": 1,
+      "sourceHash": "62fc1f879542e31a4773b4a0295d1079290e2f66e52a8d07a4681fed77660d84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面保留原日志的安装理论和测量记录作为线索。本轮没有执行其中的命令，也没有新增实物测量；这些记录所用的设备、安装方向和驱动配置仍需核对。",
+      "translatedText": "The installation theory and measurement records from the original logs are retained below as clues\\. No commands from them were executed in this round, and no new physical measurements were added; the equipment, installation orientation, and driver configuration used in these records still need to be verified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 59,
+        "costUsd": 0.00012
+      }
+    },
+    "5c4eb3f6fbd5bc0d1b121e876b3a5ff7bc7459bb92b65864295aa304c019b60a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7e38cacce54276ac70cdfc42b7de35df39c43f836bdb6f88f9f3812cac6bf3e",
+      "contextFingerprint": "e2a4280898342ecbb9222f59c21ee819514c4d64c421f88633a5d36dfcbe0913",
+      "sourceText": "当前0.1是算法采用的噪声假设，不是已经量出的传感器精度；它作用于换算后的 m/s²数据。与 `acc_cov_output` 配合时，要分清“读数可信不可信”和“估计能不能跟上真实变化”这两件事。",
+      "translatedText": "Currently, 0\\.1 is the noise assumption adopted by the algorithm, not the sensor accuracy that has already been measured; it acts on the converted m/s² data\\. When combined with `acc_cov_output`, it is necessary to distinguish between two things: \"whether the readings are credible or not\" and \"whether the estimate can keep up with real changes\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 85,
+        "costUsd": 0.000159
+      }
+    },
+    "5c565c9147afac0760d39e7a0ab679de5b122038d7312abeb3721e29addc2442": {
+      "normalizationVersion": 1,
+      "sourceHash": "b39a51acc2c687bf7da114a323995bf29c49fe303c14c745e753690751ee519d",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：逻辑==与==运算符总结： ==同真为真，其余为假==",
+      "translatedText": "> Summary: Logical ==AND== operator summary: ==true only when both are true, otherwise false==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "5c9c86aa1738efcd0cdb5f5dc3f2e900fe8ebe144c3a9fc7a4e9d485b75f188f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f51c62a9a8d2a8dd94e8aeda296995b74224c0e8f848dfe6858ede5665cb42f3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "5、return 表达式",
+      "translatedText": "5\\. Return expression",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "5cae909e2e48105a0dd570b7b6fe696116eed95b596e010fcf1c4945cba00377": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fc8e6eca87de5870b4d090d0dff1cfdf501bf6a70fbafac8800f9ff84bfd5ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "二维数组就是在一维数组上，多加一个维度。",
+      "translatedText": "A two\\-dimensional array is simply a one\\-dimensional array with an additional dimension\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "5cb241903f9a0a7437c2ab4050a9a087ecc66c57d245a548cc74ca2f46ade329": {
+      "normalizationVersion": 1,
+      "sourceHash": "c159c7bbd8be8c44fa8b67b7ee95d112ecf9669ef56ffc91c8a6848ad1365168",
+      "contextFingerprint": "5d163f8eaa01ddd47493c162498ebeb357c930cf1d3ba117a8588a2d782e6df3",
+      "sourceText": "- Kernel modules -> Network Support -> kmod-tun （openclash TUN模式必须）",
+      "translatedText": "- Kernel modules \\-\\> Network Support \\-\\> kmod-tun (required for OpenClash TUN mode)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "5cbab298650ad37fd7cc6a106ca8a3a8ec5053a1307a535ab55a7f110bb32fdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3f773c3c482e1f7f18f3be1b7df880583c8f28a135759b7b9a31ae34011a1a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "break使用的时机：",
+      "translatedText": "Timing for using break:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "5ccacae48acce5c5f6673be750f1472ebf0a4fd45efa42e611b505b536b94eb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c66b180fd1243fd614a3fc37eb55010eaf6d0332c15cd73fbc4f5ef5a05c59fd",
+      "contextFingerprint": "bebe68f7487ddf73bae48e9a0ef2d23860ee0221e12d15c9258f108336915920",
+      "sourceText": "已有地图导航（`slam:=False`）的关系为：",
+      "translatedText": "The relationship with existing map navigation (`slam:=False`) is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "5ce5f71abc399003544abd0dee65b3b5ac1233e7bc7ed33ff1a734225a3f613e": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb0814752feea658c3d1afe195b10d26ec7f7760763e7af7036ec0976f16d99b",
+      "contextFingerprint": "f5e56bff7e13c335a3249fa1469b5fc6b0070266a5f436a522b420202816a98e",
+      "sourceText": "` virtual ~类名() = 0;`",
+      "translatedText": "` virtual ~类名() = 0;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "5cf69cf021ecf8ebae12977669286cb12bada98b5a3e2be4f6727c89bbc9bcb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d43c77385906c44c17c0499033a42f4ba472b5dd15dc651d7e9ac94983893a1",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "先抓住两个问题：**正常的坡会不会被当成障碍，以及坡上的地面点有没有被过滤掉。** 这段讲的是导航系统如何看待坡；目前没有坡道测试，不能从这些数值判断实车最多能爬几度。",
+      "translatedText": "First, grasp two questions:**whether a normal slope would be mistaken for an obstacle, and whether ground points on the slope have been filtered out\\.** This passage discusses how the navigation system views slopes; there is currently no slope test, so these values cannot be used to determine the maximum gradient the actual vehicle can climb\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 71,
+        "costUsd": 0.00014
+      }
+    },
+    "5cf6db4a2569a5cf55283ac93359ad4eb55147694f30b8c64c4e9be8e5af443b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f624b6a826956d1bed0be604a94bf4a93f3996493e29f8a6d80aa4153f47d93d",
+      "contextFingerprint": "dea69f7c3178ed6f9644b9b6da8ca998f1762636c0aee68f01b943d34257cf46",
+      "sourceText": "###### base_frame（跟踪底盘参考点，不是独立转动的云台）",
+      "translatedText": "###### base_frame (tracking the chassis reference point, not an independently rotating gimbal)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    }
+  }
+}
