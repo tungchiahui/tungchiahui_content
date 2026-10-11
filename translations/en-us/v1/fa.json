@@ -463,6 +463,20 @@
         "costUsd": 0.000207
       }
     },
+    "fa6e28c1241322a2eae9f7255366411b693ac458bcb5a195ec4ee36adf4db8dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "13ddb5fc0b5e3353884969a2f2cfb1f61ebf0ffce6b0e59de6cc2fe9c975a51d",
+      "contextFingerprint": "ee845b7007ea470193985b4209c6dec97f4d5e59d6468d4768ddd5b50d9d6d11",
+      "sourceText": "| 启动方式 | 配置与输入输出来源 |\n|---|---|\n| 整套reality，slam=True | 实物nav2_params.yaml经slam_launch传入；cloud_in重映射为terrain_map_ext，scan为obstacle_scan；target_frame=base_footprint |\n| 整套simulation，slam=True | 仿真nav2_params.yaml，13项中仅use_sim_time=True不同；同样的输入输出与目标系 |\n| 整套slam=False | 进入已有地图定位流程，不启动这个转换节点 |\n| 包内sample_pointcloud_to_laserscan_launch.py | 示例点云发布器与静态TF；目标系cloud、高度0～1 m、角域约±90°、scan_time=0.3333、距离0.45～4 m，未读取整套YAML |",
+      "translatedText": "| Launch method | Configuration and input and output sources |\n|---|---|\n| Complete reality launch, slam=True | Hardware nav2_params.yaml is passed through slam_launch; cloud_in is remapped to terrain_map_ext, scan to obstacle_scan; target_frame=base_footprint |\n| Complete simulation launch, slam=True | Simulation nav2_params.yaml; among the 13 parameters, only use_sim_time=True differs\\. Same inputs, outputs and target frame |\n| Complete launch, slam=False | Enters existing\\-map localization and does not start this conversion node |\n| Package’s sample_pointcloud_to_laserscan_launch.py | Example point cloud publisher and static TF; target frame cloud, heights 0–1 m, angles approximately ±90°, scan_time=0\\.3333, distances 0\\.45–4 m\\. Does not read the complete YAML |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "fa7d14a7727442360cef1cfdcaa80cd2c9bf178fca50e4af8c0bf1f5b45f2c9f": {
       "normalizationVersion": 1,
       "sourceHash": "ece8a85930d742841e7d142017ef482b865a5b25b92a9855b2d53c78fb62838b",
@@ -531,6 +545,20 @@
         "inputTokens": 169,
         "outputTokens": 58,
         "costUsd": 0.000121
+      }
+    },
+    "fa923d0fa0bcc5fde37c5aebe240a107360893a72ce6149dd5e48a16b3a19bd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "310e2ca1256a97cfe7888e39f7a674005a131bc8fbe2535c797c9a1d75b20fe0",
+      "contextFingerprint": "4e8e13350d0da5fab513ba3eddcd924d94039fc9757085b752d42f7e27f223d3",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `distance_variance_penalty` | `5.5` | m，距离惩罚尺度；内部取平方 | **当前运行不使用这个参数，暂不调整** | 对偏离本次搜索中心的平移候选降低分值 | 正值范围内：同样偏移扣分更轻，更允许轮廓匹配修正估计；不扩大搜索范围 | 扣分更重，更偏向估计附近；也可能压制必要修正，达到系数下限后不再继续降低 | 当前扫描匹配关闭；配置5.5先平方为30.25 m²，再进入公式；不是允许偏差5.5 m或实测里程计方差 |\n| `angle_variance_penalty` | `5.0` | rad，角度惩罚尺度；内部取平方 | **当前运行不使用这个参数，暂不调整** | 对偏离本次搜索中心朝向的yaw候选降低分值 | 正值范围内：同样角度偏移扣分更轻，更允许匹配修正朝向；不扩大角度搜索范围 | 扣分更重，更偏向估计朝向；也可能压制必要修正，达到系数下限后不再继续降低 | 当前扫描匹配关闭；配置5.0先平方为25 rad²；不是5°、角速度或云台机械角限制 |",
+      "translatedText": "| Parameter name | Current value | Unit | Vehicle handling suggestion | Function | Effect of increasing | Effect of decreasing | Effective conditions / remarks |\n|---|---|---|---|---|---|---|---|\n| `distance_variance_penalty` | `5.5` | m, distance penalty scale; squared internally | **This parameter is not used in the current run; do not adjust for now** | Reduces the score of translation candidates that deviate from the center of this search | Within the positive range: for the same offset, the penalty is lighter, allowing contour matching to correct the estimate more; does not expand the search range | The penalty is heavier, biasing more toward the vicinity of the estimate; it may also suppress necessary corrections, and once the coefficient lower limit is reached it will not decrease further | Scan matching is currently disabled; the configured 5\\.5 is first squared to 30\\.25 m² and then enters the formula; it is not an allowed deviation of 5\\.5 m or the measured odometry variance |\n| `angle_variance_penalty` | `5.0` | rad, angle penalty scale; squared internally | **This parameter is not used in the current run; do not adjust for now** | Reduces the score of yaw candidates that deviate from the heading at the center of this search | Within the positive range: for the same angular offset, the penalty is lighter, allowing matching to correct the heading more; does not expand the angular search range | The penalty is heavier, biasing more toward the estimated heading; it may also suppress necessary corrections, and once the coefficient lower limit is reached it will not decrease further | Scan matching is currently disabled; the configured 5\\.0 is first squared to 25 rad²; it is not a 5° limit, angular velocity, or gimbal mechanical angle limit |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 374,
+        "outputTokens": 340,
+        "costUsd": 0.000521
       }
     },
     "fa936953cfa0a11ba3acda2dfce6ba903973c3855db05eb6fcd84a6fd7bbd506": {

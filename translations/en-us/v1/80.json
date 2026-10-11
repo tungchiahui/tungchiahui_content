@@ -309,6 +309,20 @@
         "costUsd": 0.000063
       }
     },
+    "80444b79b474379dfccccb6856d1dbe906942da25c601a23ed6d5af8e6733396": {
+      "normalizationVersion": 1,
+      "sourceHash": "cad75cca65308c2a2e2db599b5ba75bf569852679b897d86923ab3eee1c428f1",
+      "contextFingerprint": "6a5826d7f275919c22a436b83e79aad31f6399705f7d42a4931eed01a2bb0963",
+      "sourceText": "pointcloud_to_laserscan提供二维扫描，slam_toolbox把扫描放到地图上并生成栅格；前者本身不保存二维地图。当前扫描来自地形点云，不是MID360原始回波直接截一层。",
+      "translatedText": "pointcloud_to_laserscan supplies two\\-dimensional scans, and slam_toolbox places them in the map to generate the occupancy grid\\. The former does not save the two\\-dimensional map itself\\. Current scans come from terrain point clouds rather than directly slicing raw MID360 returns\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "8044c5520e88a5c3a17335a0078bb343c83f2584c85f09f27bbe1b0832459276": {
       "normalizationVersion": 1,
       "sourceHash": "11f7fec452f52185dd30c60088616f64951ddc1c90ccfb2b4e729bb97fa281f4",

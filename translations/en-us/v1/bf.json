@@ -281,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "bf41b343282f432fd3660ccad4224f71bd11a42603bb6bdc4d940f6ff506b262": {
+      "normalizationVersion": 1,
+      "sourceHash": "27c080cc6ddbc1f17579e553b0b7c395389df90881ad50329fa6740d3e67d3b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "粗匹配通过后再精匹配，最终分数达到0.45才进入闭环连接与轨迹优化。更严格可能漏掉有效重访，更宽松可能错连重复结构；不能把达到0.45理解为位置已准确。",
+      "translatedText": "After coarse matching is passed, fine matching is performed; only when the final score reaches 0\\.45 does the system proceed to loop closure connection and trajectory optimization\\. A stricter threshold may miss valid revisits, while a looser one may incorrectly link repeated structures; reaching 0\\.45 must not be interpreted as the position already being accurate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 75,
+        "costUsd": 0.000144
+      }
+    },
     "bf473cc450b3a4b6af03fcde19326461a97fbc51e53a562f636a6db0fed707ac": {
       "normalizationVersion": 1,
       "sourceHash": "df8a2cae84cb1bd986f2bf031fc18bc5bcbdf0d656f35daa85e80731a796db05",
@@ -699,6 +713,20 @@
         "inputTokens": 154,
         "outputTokens": 27,
         "costUsd": 0.000079
+      }
+    },
+    "bfa1b5c1001528ce98cc9bd07d9cf7c7c0a99e6a4127622423b205a390ce6827": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ddca0e398f0b585bcfda0881616fb50997415892a50cec22535170f8c5a64ed",
+      "contextFingerprint": "026c7a7be106c739e06022e924b152d17a2665ca21b7761a2f3d7fa6a6048a99",
+      "sourceText": "###### link_match_minimum_response_fine（普通近邻链关联门槛，当前不用）",
+      "translatedText": "###### link_match_minimum_response_fine (ordinary nearest\\-neighbor chain association threshold, currently unused)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
       }
     },
     "bfa2c4876bbe61f1518fbc726f45015d38504ed64ba09120f5f54b2bb86670b1": {

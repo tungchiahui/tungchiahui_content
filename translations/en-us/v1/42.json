@@ -463,6 +463,20 @@
         "costUsd": 0.000056
       }
     },
+    "426fa078d4b9115d3c66736fed05c3ba5715d4c0914c905d120b5c0e73e0bbf4": {
+      "normalizationVersion": 1,
+      "sourceHash": "48c33b0a9dc64776b3e2f32fa935dfb5aacb856c8bf13cc44e47cee0d5f68102",
+      "contextFingerprint": "6917cfc732c5cdd46e477132a351646d9a2fd5f37d42f5b1668d7b74a2b19069",
+      "sourceText": "正常坡面如果被地形节点正确认作地面，高差应接近0，通常被当前`min_intensity=0.1 m`筛掉；墙、台阶等明显高差点才进入二维障碍轮廓。坡面被筛掉，并不保证整条坡道已经标成可通行：仍取决于其他有效回波、扫描射线覆盖，以及下游对空闲／未知区域的处理。",
+      "translatedText": "If the terrain node correctly identifies a normal slope as ground, its height difference should be near 0 and is usually removed by the current`min_intensity=0.1 m`filter\\. Only pronounced height differences such as walls and steps enter the two\\-dimensional obstacle outline\\. Filtering slope points does not guarantee that the entire ramp is marked traversable; that still depends on other valid returns, scan\\-ray coverage and downstream handling of free and unknown regions\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "42740da58349de9d9b3199a95c00c034ce54ec09f10b3bd8778489d5bb6fe4eb": {
       "normalizationVersion": 1,
       "sourceHash": "6c6aadc468e7193c4c5df3c036fae64ffd0ac614b90ac2f464831f8d24cdd252",
@@ -643,6 +657,20 @@
         "inputTokens": 148,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "429c5ab0759053cb2de347292ec05da2f73b8bba5fc7b8637611ec05165b7fed": {
+      "normalizationVersion": 1,
+      "sourceHash": "81a783582345a7da2383d74e84a014d02ffe6b49ee53eeb1f381e58ddc3274f7",
+      "contextFingerprint": "afdbd793d5ac5fe89dc086ccf531e17999d797bb876116cae43f039ce8216d6b",
+      "sourceText": "当前实物和仿真YAML的slam_toolbox段均没有这一项。slam_launch将use_sim_time交给RewrittenYaml替换，但当前安装的实现只改已有键，没有为此段补键；Node也没有单独传入use_sim_time覆盖值。",
+      "translatedText": "This setting is currently absent from both hardware and simulation YAML slam_toolbox sections\\. slam_launch passes use_sim_time to RewrittenYaml for replacement, but the installed implementation only changes existing keys without adding one to this section\\. Node does not separately receive a use_sim_time override\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "429c923c55011ae518cafa747cb069d890c4d0d0b74b453fcc742ad7bc808808": {
@@ -881,6 +909,20 @@
         "inputTokens": 141,
         "outputTokens": 28,
         "costUsd": 0.000076
+      }
+    },
+    "42dcd0a897696b398e6d335cebedded0276468aff7cf3453a35856eeb3681276": {
+      "normalizationVersion": 1,
+      "sourceHash": "b09e905a30653ba0e22dc2411d66a04b47cf5bad7c74ff33e24eba5433f7bcaf",
+      "contextFingerprint": "d1edb2acaea3f444db4e74b8830fcefea430b09e27ca84de0952acfdee031c22",
+      "sourceText": "速度由连续两次转换后的 `robot_base_frame` 位姿差分得到，没有使用输入里程计的 `twist`。有三项明确的实现问题需要记录：",
+      "translatedText": "Velocity is calculated by differencing two consecutive transformed `robot_base_frame` poses, without using the input odometry’s `twist` field\\. Three clear implementation problems must be recorded:",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "42e02a3855a5389ca4c8c370cd16fc471bef83573c78e89df85a84ff6b03097b": {

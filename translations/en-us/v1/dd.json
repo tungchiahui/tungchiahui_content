@@ -715,6 +715,20 @@
         "costUsd": 0.00006
       }
     },
+    "ddac6fb4a8fafe7db9f2a2afb65b5028f3f8746044854108b8f6b085e66220b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f658d8bbbfc66fb655fab771624f401a03070ee51236d856c8294a4378034e0",
+      "contextFingerprint": "598b8291cc77c1271e7ddc2bc7bb14c7d0071fcde7591bbd8b452b36f6e8c13c",
+      "sourceText": "| 启动方式 | 来源 | 要注意的区别 |\n|---|---|---|\n| 整套 reality launch | 默认 `pb2025_nav_bringup/config/reality/nav2_params.yaml`，可由 `params_file` 指定；经 `navigation_launch.py` 传入 | 节点名设为 `terrain_analysis_ext`，匹配本表17项 |\n| 整套 simulation launch | 默认 `pb2025_nav_bringup/config/simulation/nav2_params.yaml`，同样经导航 launch 传入 | 当前这17项与实物 YAML 相同，不能因此认定实物效果相同 |\n| 包内独立 `terrain_analysis_ext.launch` | XML 内直接提供参数，不读取上面整套 YAML | 例如 `decayTime=4.0`、`quantileZ=0.1`、`vehicleHeight=1.5`、`lowerBoundZ=-2.5`，与本表不同 |\n| 直接运行可执行文件且不传参数 | C++ 声明时的默认值 | 例如 `decayTime=10.0`、`useSorting=False`、`checkTerrainConn=True`；不会自动套用本表 |",
+      "translatedText": "| Launch method | Source | Differences to watch |\n|---|---|---|\n| Complete reality launch | Defaults to `pb2025_nav_bringup/config/reality/nav2_params.yaml`; an alternative can be specified using `params_file` and passed through `navigation_launch.py` as the configuration | Node name is set to `terrain_analysis_ext`, matching the 17 parameters in this table |\n| Complete simulation launch | Defaults to `pb2025_nav_bringup/config/simulation/nav2_params.yaml` and is also passed through the navigation launch | These 17 parameters currently match the hardware YAML; this does not establish equivalent hardware behavior |\n| Package’s standalone `terrain_analysis_ext.launch` | The XML directly supplies parameters instead of reading the complete YAML above | For example, `decayTime=4.0`、`quantileZ=0.1`、`vehicleHeight=1.5`、`lowerBoundZ=-2.5`, unlike this table |\n| Run the executable directly without parameters | Defaults declared in C++ | For example, `decayTime=10.0`、`useSorting=False`、`checkTerrainConn=True`; this table is not applied automatically |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ddacc634c66b14bfee25d9d6868c6839a2190f7cd63f3f8e294215c3a49368d8": {
       "normalizationVersion": 1,
       "sourceHash": "7c8f595e06b6b1799d6b0d6417a1d683d61f32522c00585d730a0d033259c2d1",

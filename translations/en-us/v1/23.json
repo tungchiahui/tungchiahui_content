@@ -435,6 +435,34 @@
         "costUsd": 0.000091
       }
     },
+    "238e4025ece9cc10cecaa987bdae93d2ac31169c24ad2463134a2edc16c421e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "b00c248f33af4f7e9dde9a395dcb1aac6c355055b0b0ac8266a4b46a002735d1",
+      "contextFingerprint": "8064ff1162edb2fd3ea3c46b7769add90b311230b492d5c42c901040fa793f1d",
+      "sourceText": "还有两个接口前提：**近场没有点，扩展节点不会用自己的4 m内计算补洞；近场停止更新，源码也不检查其年龄。** 它会继续合入最近收到的近场结果，并把合并消息标成当前扫描时间。不能仅凭 `terrain_map_ext` 的时间戳新，就断定其中所有点都新。",
+      "translatedText": "Two further interface prerequisites:**If the near field has no points, the extended node does not fill gaps with its own calculations inside 4 m; if near\\-field updates stop, the code does not check their age\\.** It continues merging the latest received near\\-field result and timestamps the merged message with the current scan time\\. A fresh `terrain_map_ext` timestamp therefore does not establish that every point in the message is fresh\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "238f215d4e9809f5d3281a3d6b489cb793594559aefa306c401c6aa836b38767": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c3cff586e8e4e338c2ec94537a47eb151cad8a0ffabf06cfa00a365e6038ae4",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "扩角可能增加耗时或匹配到相似轮廓；拿到非零响应也不证明定位正确。若实物中轮廓缺失、动态遮挡，或云台转动／坡道导致二维轮廓变化，扩大yaw范围不会恢复缺失信息。[零响应扩角与停止条件](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "Widening the angle may increase time consumption or match similar contours; obtaining a non\\-zero response does not prove that the localization is correct\\. If contours are missing in the real object, dynamically occluded, or the 2D contour changes due to pan\\-tilt rotation or a ramp, expanding the yaw range will not recover the missing information\\.[Zero\\-response angle widening and stopping conditions](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 85,
+        "costUsd": 0.000159
+      }
+    },
     "238f96d23e0cf7f226b097f794ef2cbd088dcbe6b3615c491c8f546333326c5c": {
       "normalizationVersion": 1,
       "sourceHash": "c8cf331821ac375139c0a3e958d6195e9944642f103ee0e4b7895fabdfccac1a",

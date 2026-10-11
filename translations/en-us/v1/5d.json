@@ -519,6 +519,20 @@
         "costUsd": 0
       }
     },
+    "5d91f77005477707e1aad2cdfca21e51dee30b80b0812d60c07b02a942258f82": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cf53ab0cbde4619be3b420e353a2041e0cf871235670fadfc0f4fe374cb8723",
+      "contextFingerprint": "1904d8bcbd45a656e219442c9704624b40d5374a3207b3c7cf4a4ce9e3e5add4",
+      "sourceText": "False 使用系统时间；True 使用 `/clock` 的 ROS 时间。输入位姿、配准扫描、机械 JointState／TF 和节点应使用一致的时间域，否则按消息时间查询机械 TF 可能失败。",
+      "translatedText": "False uses system time; True uses ROS time from `/clock` \\. Input poses, registered scans, mechanical JointState and TF, and the node should share a consistent time domain\\. Otherwise, mechanical TF queries at message timestamps may fail\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5d94255d1afac76fff123bf4abfcbe6d0fad3cb96e04ef0a426cfc21d3f6cb17": {
       "normalizationVersion": 1,
       "sourceHash": "9190bc38b9257617814e5967b12fd0aa835b935d81947b3e3730c11c75431912",
@@ -587,6 +601,20 @@
         "inputTokens": 145,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "5dab38bad3c9d551acf1a467bf4efdd579ac2fe0dce6ea12c3ee2455b6f3d42a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b759f91e742721920b04e5f717f419f09fe12399c2b8b3d405f288fe7bfbff17",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "主要是机器人的**底盘长宽、轮距/轴距、轮径、云台高度、Mid360 安装位置**：",
+      "translatedText": "The main dimensions are the robot’s **chassis length and width, track width and wheelbase, wheel radius, gimbal height, and Mid360 mounting position**:",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "5db0e78869a8ccaf623054ba86868eef5be3bcb3afebd5c79fba6dca4dfb88a4": {

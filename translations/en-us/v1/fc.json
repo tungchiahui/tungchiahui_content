@@ -183,6 +183,20 @@
         "costUsd": 0.000069
       }
     },
+    "fc2b1d8c55b706b0df1712201c98f195c7f5423db17eb5b32575edd444f5aa5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "95f7c2d517e4c633d37b0264c64d30884677ccbdeb651f9a8c5655cbb09cdef5",
+      "contextFingerprint": "aa5ae8ddb483568416789ed3f6bf9cdae6e1671dced424341a6ca9c0088ee771",
+      "sourceText": "###### debug_logging（调试信息，不改变建图精度）",
+      "translatedText": "###### debug_logging (debug information, does not change mapping accuracy)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
     "fc309ffc7b057d12961d1d7faf31e3c225cea0bf71424c2bc740abaf8d7effbd": {
       "normalizationVersion": 1,
       "sourceHash": "90cc2c1a7e0a2032e9d78abf3e4be27002d2a94acc59f534b2aa43180f342736",
@@ -699,6 +713,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "fca61fa002a9ebbe61a14f0b2f9052ea5b275fc62d104ab33aedde9a28df6a24": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0f54c266d36790cd50bb10dede6dde27f28793d8b72726909f420a385ee8b63",
+      "contextFingerprint": "ee0112bd437eff387074712008bf2700bdf5df539d3917ccb8d71d24e9449855",
+      "sourceText": "它描述**雷达原点相对 MID360 内部 IMU原点的位置**，当前按代码使用 `p_I=R_IL·p_L+t_IL`。`[-0.011,-0.02329,+0.04412] m` 换成毫米就是[-11,-23.29,+44.12] mm。",
+      "translatedText": "This describes **the position of the LiDAR origin relative to the internal MID360 IMU origin**. The current code uses `p_I=R_IL·p_L+t_IL`. The vector `[-0.011,-0.02329,+0.04412] m` corresponds to [-11,-23.29,+44.12] mm.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "fca99371e02f375d02dd40d089cb9617dc25d917c46cc7c4417f4d6797391f26": {

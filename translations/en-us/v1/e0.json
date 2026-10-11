@@ -463,6 +463,20 @@
         "costUsd": 0.000052
       }
     },
+    "e0498a4fa12ce0aad8532dd84da299247dcde69f6bb7d9252e1da4e3585e0390": {
+      "normalizationVersion": 1,
+      "sourceHash": "32b0f435c81f9d8d589ce953d837eec95e631839aa6441d37454713318cb4224",
+      "contextFingerprint": "62c07c27fbfd195a46eb244bcc83696f6c3de016d9280cd84659f31565394ba2",
+      "sourceText": "| 坡道问题 | 应先核对什么 |\n|---|---|\n| 连续坡面被画成墙或障碍带 | 地形节点的地面估计、useSorting／quantileZ，以及进入二维扫描的高差门槛；两套地形节点在近远场的正负高差处理不同 |\n| 下坡缺点、坡道轮廓不完整 | 上游高度窗口、底盘投影系的方向，以及转换器固定min_height／max_height范围 |\n| 实物地面整体倾斜、转云台后地图变形 | 重力方向、IMU／雷达／底盘外参、机械关节角与点时间；应先排除接口问题，再调筛选门槛 |\n| 二维图看着通畅，导航仍绕开坡道 | 实时代价地图也接收地形点云；静态地图可通行不代表实时障碍层允许通过 |\n| 识别正确，车辆仍无法上下坡 | 实车坡度、抓地力、离地间隙、坡顶／坡底过渡与制动能力；地图参数不能提高机械能力 |",
+      "translatedText": "| Ramp problem | Checks to prioritize |\n|---|---|\n| A continuous slope appears as a wall or obstacle band | Terrain ground estimation, useSorting and quantileZ, and the height\\-difference threshold for two\\-dimensional scans\\. The two terrain nodes handle positive and negative differences differently in near and far fields |\n| Downhill points are missing, leaving incomplete ramp outlines | Upstream height windows, the chassis projection frame’s direction, and the converter’s fixed min_height and max_height range |\n| Hardware ground appears tilted overall, or the map deforms after rotating the gimbal | Gravity direction; IMU, LiDAR and chassis extrinsics; mechanical joint angles; and point timing\\. Rule out interface problems before tuning filtering thresholds |\n| The two\\-dimensional map looks clear, but navigation still avoids the ramp | Live costmaps also receive terrain point clouds\\. Static\\-map traversability does not ensure the live obstacle layer allows passage |\n| Recognition is correct, but the vehicle still cannot climb or descend | Actual slope, traction, ground clearance, transitions at the top and bottom, and braking capability\\. Map parameters cannot improve mechanical capability |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e05bb329dd02934396fe7addf7ea7f855c8fc2e105e7450b27136e074b83553c": {
       "normalizationVersion": 1,
       "sourceHash": "c8a951a513a6f7218cf56f54cb98d3d004bbda063db4fba8c16f494b159b27b9",

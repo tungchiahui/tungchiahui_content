@@ -169,6 +169,20 @@
         "costUsd": 0.000166
       }
     },
+    "2e3a62828e60f3462f20654b5aa1a3dc370001b7cf5cef9ad8cc944243aff5ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "315935b0c40f3403d4814595d49a24b1e00d98cadeee5c99fe2fa78756b31cfe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前关闭匹配，不靠调它改善现有地图。以后若启用，仍应先核对IMU／雷达／底盘转换、点时间和有效二维轮廓；扩大搜索或涂抹不能代替这些接口核对。",
+      "translatedText": "Matching is currently disabled, so tuning this cannot improve the existing map\\. If enabled later, first verify IMU, LiDAR and chassis transformations, point timing and valid two\\-dimensional outlines\\. Expanding search or smearing cannot replace these interface checks\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "2e424d416747387e5c44970a88aa1399427432b3e80752981f90a1f86fdbe51b": {
       "normalizationVersion": 1,
       "sourceHash": "bbc9837c348bfadf632cd7cae84725d363db67254fea56c840da016e8240cb6b",
@@ -209,6 +223,20 @@
         "inputTokens": 150,
         "outputTokens": 41,
         "costUsd": 0.000095
+      }
+    },
+    "2e475543392b589009bc071c2b3fae61576f18389b8e58b8d93de8f2633570e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a25c00dcd09220bfca12596e500d2bad334a90a25cdde005f2b90da51660b3e",
+      "contextFingerprint": "a31ae03660247f313cdbbe7fc6dea7e762ed1a4e0154a94ae4b2c7ee8d4f9eea",
+      "sourceText": "debug、抽帧、TF队列、时间门槛、栅格分辨率、TF缓存及交互许可在节点配置／线程初始化时读取；两项雷达范围在首次创建该扫描系的元数据时读取，随后缓存。stack_size_to_use由可执行程序入口读取。相关路径没有参数变化后自动重建这些成员／队列／激光元数据的回调；交互切换使用专门服务，不能混同为直接改参数即可生效。",
+      "translatedText": "Debug settings, scan subsampling, TF queues, time gates, grid resolution, TF buffers and interaction permission are read during node configuration or thread initialization\\. The two LiDAR range settings are read and cached when that scan frame’s metadata is first created\\. stack_size_to_use is read at executable entry\\. These paths have no callbacks to automatically rebuild members, queues or LiDAR metadata after parameter changes\\. Interactive mode uses a dedicated service; it is not equivalent to directly changing a parameter\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "2e4c1787fe12085093f69cb46069a7065af2683f51515a1731bec0fd3a4ee05d": {
@@ -695,6 +723,20 @@
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image318.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2ec412018847f866320f616b66015fc526a8c893550cac8640c4f3f81baad589": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0f47e6a8d7b2354603862d21e07e48ec6659d99e12158d93fa74de22ff0831a",
+      "contextFingerprint": "bbb17f9cf9a2273cf27255396bef945077f33da883704cd5f58d0601803fa437",
+      "sourceText": "整套 reality／simulation 启动分别默认使用对应目录的 `nav2_params.yaml`，可由 `params_file` 指定；导航 launch给节点或组件加载处理后的参数文件，并重写已有 `use_sim_time`。两种模式都把该节点命名为 `fake_vel_transform`，匹配 YAML。",
+      "translatedText": "Complete reality and simulation launches default to `nav2_params.yaml` in their respective directories; an alternative can be specified using `params_file` \\. The navigation launch loads the processed parameter file into the node or component and overrides the existing `use_sim_time` setting\\. Both modes name the node `fake_vel_transform` to match the YAML\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,

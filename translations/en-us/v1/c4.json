@@ -43,6 +43,20 @@
         "costUsd": 0.000067
       }
     },
+    "c409bb6ff75cb2068edb3b1da8d96389ea3d5d5d09d799ea58db9689b4bbaca6": {
+      "normalizationVersion": 1,
+      "sourceHash": "13f0e35a19c50913d6f01015cd11a3cbad5d39404bf480e4d8d6785952a2885a",
+      "contextFingerprint": "988378a501461fc293239fc497af02092644ca9d633c3eb67e0a7cc2b0fba082",
+      "sourceText": "**当前use_scan_matching=False、do_loop_closing=False。** slam_toolbox仍按上游里程计摆放扫描并生成二维图；距离与转角门槛仍会检查，但普通扫描匹配、图节点关联和自动闭环分支被跳过。表中“当前运行不使用”表示参数已读入、作用分支没有执行，不是参数拼写无效。",
+      "translatedText": "**Currently use_scan_matching=False, do_loop_closing=False\\.** slam_toolbox still places scans according to the upstream odometry and generates a 2D map; the distance and angle thresholds are still checked, but ordinary scan matching, graph node association, and the automatic loop\\-closure branch are skipped\\. In the table, \"not used in the current run\" means the parameter has been read in and its active branch was not executed, not that the parameter spelling is invalid\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 122,
+        "costUsd": 0.000214
+      }
+    },
     "c40a673f04782a7f120813a69c6a480d5c9e405c44b24edc9961f850b78a76c4": {
       "normalizationVersion": 1,
       "sourceHash": "eaa0f90fd9ad41896574dfe15263cd13f28b36c523db5952a2c14a265b71a066",

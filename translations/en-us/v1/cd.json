@@ -197,6 +197,20 @@
         "costUsd": 0.00007
       }
     },
+    "cd1db86c7dc8ca6bd345fc639fe0480612cec4a5b49fc1d13f24420569237ffa": {
+      "normalizationVersion": 1,
+      "sourceHash": "35fd21b175e54121f33f8eea49a85814f2bb9ab750a58f873c2df696d9279c8e",
+      "contextFingerprint": "3129030f044042075497ef0560745abc20a2351d91a3a0d895c3f4eec0eaa68b",
+      "sourceText": "相应实物默认二维地图 `map/reality/rmul_2024.yaml` 也不存在；仿真默认二维地图存在。这只是当前默认文件检查，没有读取运行节点参数，也不排除使用者另传world、PCD或二维地图路径。上实物前需要准备当前场地的对应地图，不能把仿真PCD存在当成实物地图已准备。",
+      "translatedText": "The corresponding default hardware two\\-dimensional map `map/reality/rmul_2024.yaml` also does not exist, while the default simulation map does\\. This only checks current default files; running\\-node parameters were not read, and users may supply other world, PCD or two\\-dimensional map paths\\. Prepare corresponding maps for the actual site before running on hardware\\. An existing simulation PCD does not establish hardware\\-map readiness\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "cd1e48266524e7db31e30958ab8535b5148e0cea15883d5f86342cb0aa844e6c": {
       "normalizationVersion": 1,
       "sourceHash": "85e2bcbbd6e297c34a23668f3832345ff1a450e9f6402fb27ca80da510bf4e0b",
@@ -615,6 +629,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "cd98963374899a92e01211b476d9635106d1e665afea54ebb15946a91c0b89c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce8993b90a8430163b5059177a1130b4a34428d7b5d22a42dc2623636f866bc6",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "这3项质量门槛共同作用，不能只看粗分数、细分数或方差中的一个；粗、细两级使用的匹配过程也不同，两个分数不宜直接当成同一置信度尺度比较。[候选关联与闭环判定源码](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "These three quality thresholds act together; one cannot look only at one of the coarse score, fine score, or variance\\. The matching processes used at the coarse and fine levels also differ, so the two scores should not be directly compared as if they were on the same confidence scale\\.[Candidate Association and Closed\\-Loop Decision Source Code](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 73,
+        "costUsd": 0.000141
       }
     },
     "cda25fbc6df85dc3e6117bbac3a3d01f812178dc501b5ff36dbf59d32b9040de": {

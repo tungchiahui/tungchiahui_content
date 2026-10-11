@@ -225,6 +225,20 @@
         "costUsd": 0.000066
       }
     },
+    "1a320ada153233a791600e05f46c03b424b3f56c2dc02f0bb2f5e43d812d163f": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b4a0cef55ad0aaf705a80c09742f1df531a14781cf8afe6ac9be21358e09ea8",
+      "contextFingerprint": "d70f404f3659af2e344d36c522e97c169c13c2c3e8bbff882765e88852141f8c",
+      "sourceText": "**数值变了，运动目标没有变。** MCU若把收到的 `(0,-0.3)` 直接当成底盘系分量，就会理解成往车右侧走。该例只解释坐标转换，没有进行车辆运动测试。",
+      "translatedText": "**The numbers change, but the intended motion does not\\.** If the MCU interprets the received `(0,-0.3)` directly as chassis\\-frame components, it will understand the command as moving right relative to the robot\\. This example only explains coordinate conversion; no vehicle motion test was performed\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1a36a68c20b9206f86b289432198d13667cc94be7739738a3df3fe174b2bb92f": {
       "normalizationVersion": 1,
       "sourceHash": "ed4baec78c48c2ab0f57f63fb976cf7da4b86bc559eafe2ecc08e53d2d00f95e",

@@ -561,6 +561,20 @@
         "costUsd": 0.000051
       }
     },
+    "8ba42ee0b8f96219d266f6f744be6207fbe06e74b996b1c1f9e8e3261e1fc6b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa6ef4e87eda265bc47016f58f74c56353bfa4ed9637c73b63e08e99d2053fe0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开启后的扫描匹配，可以理解为：先按里程计估计把当前二维轮廓摆上去，再与近期已有轮廓比较，寻找更吻合的位置和朝向。它可能减轻二维里程计误差，也可能在重复走廊、稀疏轮廓或误分类地形上找到错误对应。",
+      "translatedText": "Scan matching after activation can be understood as follows: first, place the current 2D contour according to the odometry estimate, then compare it with recently existing contours to find a more closely matching position and orientation\\. It may reduce 2D odometry error, but it may also find incorrect correspondences in repetitive corridors, sparse contours, or misclassified terrain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 79,
+        "costUsd": 0.000151
+      }
+    },
     "8bb2e75df503cdf524ccd4e8816bf3df5588ada2e1e7e029208f7b128b15ac93": {
       "normalizationVersion": 1,
       "sourceHash": "b9f4a3e5933be59b5dd4bbca77d8d2bc9ece7af23ca4c96c71b1d7083c006f7e",

@@ -99,6 +99,20 @@
         "costUsd": 0.000055
       }
     },
+    "a416284be8831bad29a56f4938ce7815526d03974c12d859e314252a868b9615": {
+      "normalizationVersion": 1,
+      "sourceHash": "6449125c81f2cfb095f7c2b44f99d394b2ed6a47471486dd962b9a37aea4c5a0",
+      "contextFingerprint": "c61723645de1e5b1e92128c21b7f98d906d16faaa43265e793d969d9fc136deb",
+      "sourceText": "当前构建使用的small_gicp代码直接判断“对应点距离平方是否大于 `max_dist_sq`”；超出就拒绝。源点先按当前猜测变换到地图，再找最近地图点，才检查这项，因此在米制点云中单位为m²：",
+      "translatedText": "The small_gicp code used by the current build directly checks whether squared correspondence distance exceeds `max_dist_sq` and rejects the pair if it does\\. Source points are first transformed into the map using the current estimate, then paired with their nearest map points before this check\\. With metric point clouds, the units are therefore m²:",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a416d8ea239392528dcfd66d630a5c9d369df0b5caa12e33eca893efcb384839": {
       "normalizationVersion": 1,
       "sourceHash": "ce005e26f938fa0f37b7aca7018b6076038ec74560937d36dabea26696cf6689",
@@ -223,6 +237,20 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "a431a00e5292d55257b4de82d17d7a2007c6192e625e6c6176652a6689a65c6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c43abc36eff0f3ecedf4a888ad00ad7a9c07619d0c873aa74d08d24bbb1e56c",
+      "contextFingerprint": "6c06701f4be75d6cfecad310b252d76d8e0a324e00a157d5d5399443fa0b35f7",
+      "sourceText": "###### throttle_scans（按份数抽取扫描）",
+      "translatedText": "###### throttle_scans (sampling scan by fraction)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "a432193d23f0f8b6dc73302f3c32925ab886e2c41c35a0d8c4b4b9d57eb80a66": {
@@ -601,6 +629,20 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "a474499abbeffef4d59d6785e6056fa5344eaad28d65a2d0ed14bd75dc34f5e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcfe9d2b8955e8b33e07248afc35c7841835e8b7047892f07b0063910f332c43",
+      "contextFingerprint": "713e4e50367633787cb4568305715a6393b9b2638e755873bdcd7d255bafa235",
+      "sourceText": "**当前∞无回波被跳过，不会自动把整条方向画成10 m空地。** 大于／等于消息上限的值和NaN同样被跳过。因此，上游将正常坡面滤掉后，若该方向没有其他有效回波提供射线覆盖，坡面区域不保证成为空闲；调分辨率或输出频率不能补出这份观测。占用／空闲还依赖栅格累计统计。[Karto射线栅格实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Karto.h)",
+      "translatedText": "**Current ∞ no\\-return values are skipped; they do not automatically mark the entire direction as 10 m of free space\\.** Values at or above the message upper limit and NaN are also skipped\\. If upstream filtering removes normal slope points and no other valid return provides ray coverage in that direction, the slope region is not guaranteed to become free\\. Resolution or output\\-frequency tuning cannot create the missing observation\\. Occupied and free states also depend on accumulated grid statistics\\.[Karto ray\\-grid implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Karto.h)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a4772e719199686044be3e5084addaf0519bb71b8138b6abd2070adcc3868960": {

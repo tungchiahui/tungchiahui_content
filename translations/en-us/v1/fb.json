@@ -155,6 +155,20 @@
         "costUsd": 0.000052
       }
     },
+    "fb1cfea1dc19e37253b3e74a8db7173745d297af10afc9466fd15dd676996d63": {
+      "normalizationVersion": 1,
+      "sourceHash": "e02044cff9b70eaf5a96050755143bf67f46a5c0c9e543f3ce918fbf30582c1a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如候选输入20 Hz、N=2，抽帧后的候选上限约10 Hz；后面的0.2 s时间门槛仍可能将其压到不超过约5 Hz，位移不足时还会更低。改N不会控制雷达发布频率，也不保证实际入图频率等于输入频率除以N。",
+      "translatedText": "For example, if the candidate input is 20 Hz and N=2, the candidate upper limit after frame decimation is about 10 Hz; the subsequent 0\\.2 s time threshold may still reduce it to no more than about 5 Hz, and it will be even lower when the displacement is insufficient\\. Changing N does not control the radar publication frequency, nor does it guarantee that the actual map insertion frequency equals the input frequency divided by N\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 98,
+        "costUsd": 0.000175
+      }
+    },
     "fb1f3153a3a7488c1cd6b62ba768410a9bc816e30ccd4d32e8fb6e42c7aed930": {
       "normalizationVersion": 1,
       "sourceHash": "bb8136d726f537334ccfca8e445497f68a2afa93e64adf5f78fabd1e9b6acdb1",
@@ -547,6 +561,20 @@
         "costUsd": 0.000061
       }
     },
+    "fb85cfead242f7cb35547a1cf4c3dc51a6e2b6d253ee68d8c42ec56c3d856d91": {
+      "normalizationVersion": 1,
+      "sourceHash": "92d9b2f773b7369bacd053583dab0e40eff105b0d4d1774274599f49956cedb5",
+      "contextFingerprint": "1d272ec677c4e65c605f6445e64c114f57ca628e4029c2018ccf40d0996186b3",
+      "sourceText": "实车必须让二维图片／YAML、PCD定位与Nav2所理解的map具有一致尺度、原点和方向。将map_frame换成另一个名字，不会把旧地图或PCD旋转、平移过去。",
+      "translatedText": "On hardware, the two\\-dimensional image and YAML, PCD localization and Nav2’s map must share scale, origin and orientation\\. Changing map_frame to another name does not rotate or translate an old map or PCD into that frame\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "fb8877b784e9833a3da66a5df66100ffc76f14f9b8342e6521e13602190f0b98": {
       "normalizationVersion": 1,
       "sourceHash": "5f3a3a9db32688376a93370196f9148ae8d7a01f83a02a33af2de4ff0f8b0d2d",
@@ -573,6 +601,20 @@
         "inputTokens": 136,
         "outputTokens": 20,
         "costUsd": 0.000065
+      }
+    },
+    "fb8bc43102c1b2e64ff391ee8614db1b571ddc55ee778be64db1e0ae7b48eb1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "61382fb6cee4275102008d53a4a835b85bdd831816541b7857c12faac3a42e30",
+      "contextFingerprint": "0569e7f71a7bb2dfd9417a31019bcc6207e15b33313cdbaa0e9c03d6434514b4",
+      "sourceText": "PS等图片编辑可以用于经过现场确认后的静态地图清理，**不是必须步骤，也不能修复实时地形识别。** 即使把静态图上的误障碍擦白，实时terrain_map／terrain_map_ext仍可能把同一坡面重新加入代价地图。优先核对坐标、单位、时间和上下坡筛选，再评估是否需要人工修图。",
+      "translatedText": "Image editing with PS or similar software can clean static maps after on\\-site verification, but**it is neither mandatory nor a fix for live terrain recognition\\.** Even after false static obstacles are painted white, live terrain_map and terrain_map_ext may reintroduce the same slope into the costmap\\. First check coordinates, units, timing and uphill and downhill filtering, then assess whether manual map editing is needed\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "fb8f9ca9c048f39b4d46d83d475fb427769319bc443e95dab0ead063851fc8a0": {

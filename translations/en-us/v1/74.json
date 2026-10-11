@@ -351,6 +351,20 @@
         "costUsd": 0.000074
       }
     },
+    "743cf3516835d1d0fee563a31ad35ac250ad6f338ff31405a80feb11198177b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8134d03ee2d5b6ea7a21100602920733449fe3d3f76208cc80e6a9f2305bb4d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以当前内部二维扫描位姿为中心，在建图平面的x、y方向尝试平移。0.5 m表示粗搜索正方形边长，所以两个方向各约±0.25 m；搜索中心来自里程计／已有扫描修正，不是地图原点、云台机械零位或Nav2目标点。",
+      "translatedText": "Test translations in the mapping plane’s x and y directions around the current internal two\\-dimensional scan pose\\. 0\\.5 m is the coarse\\-search square’s side length, giving approximately ±0\\.25 m per direction\\. The center comes from odometry or existing scan corrections, rather than the map origin, gimbal mechanical zero position or a Nav2 target\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "744341e19daf25fe4fb9aff42594f8570c37674da1b7ae04fedc1700be2a334f": {
       "normalizationVersion": 1,
       "sourceHash": "ba5cb5369b2749f5b2ad77fcbcd28e502e6cb3b1afa9f19891779a02c6cb8379",
@@ -391,6 +405,20 @@
         "inputTokens": 145,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "744790db864d256890d09317681f3f4331ced15f99242770da92b212f2ef0774": {
+      "normalizationVersion": 1,
+      "sourceHash": "7060b7150120c59668ecd67e5c87d9e4d627a32af4d00d0318d8e1657d65a044",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "这3项用于绕行后重访旧区域时的**大范围粗搜索**：找多大的位置范围、用多细的网格、旧轮廓周围给多宽的匹配分值。后续精匹配还会复用上一组普通匹配器，两个分区并非完全独立。",
+      "translatedText": "These three items are used for the **large\\-scale coarse search** when revisiting old areas after detouring: how large a position range to search, how fine a grid to use, and how wide a matching score margin to allow around old contours\\. Subsequent fine matching will still reuse the previous set of ordinary matchers, so the two partitions are not completely independent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 79,
+        "costUsd": 0.000151
       }
     },
     "744792f4db52b5d4ba15336feef327a71e8e19337d258752b957b5eeb5ca3d3f": {

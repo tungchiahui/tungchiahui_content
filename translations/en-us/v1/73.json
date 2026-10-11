@@ -71,6 +71,20 @@
         "costUsd": 0.00012
       }
     },
+    "730fcfed5d21195855bb06d1d4ceb7b82953e7787bf2bb912c51c9cfb7556e1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "393e85408a89af4a72afcb051a6292bbf109a4706905362fa38c8d34f6e2d5d4",
+      "contextFingerprint": "7336caa20b5e65b5d02b97d778a92eed7ddc0679fb17e6a268fd173114f0bdc8",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `use_sim_time` | `False` | 不适用，布尔 | **上实物前必须核对并正确配置** | 选择节点及 TF 缓存使用的时间源 | 不适用 | 不适用 | ROS2 标准参数；实物通常 False，仿真 True 并依赖 `/clock`；整套 launch 会覆盖 YAML 中的值；不转换输入时间戳 |\n| `state_estimation_topic` | `\"aft_mapped_to_init\"` | 不适用，话题名 | **上实物前必须核对并正确配置** | 指定输入位姿话题，类型为 `nav_msgs/msg/Odometry` | 不适用 | 不适用 | 当前对应 Point-LIO 的 `camera_init → body` 位姿消息，`body` 是内部 IMU；源码却按雷达位姿使用，见下文 |\n| `registered_scan_topic` | `\"cloud_registered\"` | 不适用，话题名 | **上实物前必须核对并正确配置** | 指定输入配准扫描，类型为 `sensor_msgs/msg/PointCloud2` | 不适用 | 不适用 | 当前点坐标在 `camera_init` 中，已由 Point-LIO 使用雷达→IMU 外参变换；不能替换成原始扫描或 `cloud_registered_body` |\n| `odom_frame` | `\"odom\"` | 不适用，坐标系名称 | **通常保持当前值，不作为优先调试项** | 指定输出点云及里程计的参考系名称 | 不适用 | 不适用 | 实际用缓存矩阵转换数据，再设置输出名称；不是通过 TF 查询任意目标系，也不发布对应 TF；名称本身不能保证水平或重力方向正确 |\n| `base_frame` | `\"base_footprint\"` | 不适用，坐标系名称 | **上实物前必须核对并正确配置** | 指定首次 TF 查询的目标机体系，用于构造初始对齐缓存 | 不适用 | 不适用 | 查询 `lookupTransform(base_frame, lidar_frame, 输入位姿时间戳, 0.5秒)`；首次成功后不再查询；独立 launch 写的是 `gimbal_yaw`，与整套配置不同 |\n| `lidar_frame` | `\"front_mid360\"` | 不适用，坐标系名称 | **上实物前必须核对并正确配置** | 指定首次 TF 查询的源系，并设置输出里程计子坐标系名称 | 不适用 | 不适用 | 指向雷达坐标系；设置这个名字不会把内部 IMU 位姿自动转换为雷达位姿；当前遗漏的外参转换需要单独处理 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `use_sim_time` | `False` | Not applicable; boolean | **Verify and configure correctly before running on hardware** | Select the time source for the node and TF buffer | Not applicable | Not applicable | Standard ROS2 parameter; usually False on hardware, True in simulation with `/clock`; the complete launch overrides the YAML value\\. Input timestamps are not converted |\n| `state_estimation_topic` | `\"aft_mapped_to_init\"` | Not applicable; topic name | **Verify and configure correctly before running on hardware** | Specify the input pose topic, of type `nav_msgs/msg/Odometry` | Not applicable | Not applicable | Currently corresponds to Point-LIO’s `camera_init → body` pose message; `body` is the internal IMU, but the code uses it as a LiDAR pose; see below |\n| `registered_scan_topic` | `\"cloud_registered\"` | Not applicable; topic name | **Verify and configure correctly before running on hardware** | Specify the input registered scan, of type `sensor_msgs/msg/PointCloud2` | Not applicable | Not applicable | Point coordinates are currently in `camera_init`, already transformed using LiDAR→IMU extrinsics by Point-LIO\\. Do not replace them with a raw scan or `cloud_registered_body` |\n| `odom_frame` | `\"odom\"` | Not applicable; frame name | **Usually keep the current value; not a priority for tuning** | Specify the reference frame name for output point clouds and odometry | Not applicable | Not applicable | Transforms data using a cached matrix, then sets the output name\\. It does not query TF for an arbitrary target frame or publish the corresponding TF\\. The name alone does not ensure correct leveling or gravity direction |\n| `base_frame` | `\"base_footprint\"` | Not applicable; frame name | **Verify and configure correctly before running on hardware** | Specify the target body frame for the first TF query, used to build the initial alignment cache | Not applicable | Not applicable | Query `lookupTransform(base_frame, lidar_frame, 输入位姿时间戳, 0.5秒)`; no further queries after the first success\\. The standalone launch specifies `gimbal_yaw`, unlike the complete configuration |\n| `lidar_frame` | `\"front_mid360\"` | Not applicable; frame name | **Verify and configure correctly before running on hardware** | Specify the source frame for the first TF query and the child frame name for output odometry | Not applicable | Not applicable | Points to the LiDAR frame\\. Setting this name does not automatically convert an internal IMU pose into a LiDAR pose\\. The currently missing extrinsic transformation requires a separate fix |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "73108124e9c5f2687796dd33211fde4483cbd2c0e8f5735809b6bdd6a16e286f": {
       "normalizationVersion": 1,
       "sourceHash": "156f3c5d783fe93f8752fa0dcf8f73f25425a79b20af94b088770425d31f8ba6",
@@ -323,6 +337,20 @@
         "costUsd": 0.000062
       }
     },
+    "73468299cb0424beb123dfc762db48ea82f5778e7cc2c4db9b18ddb5fe82ef76": {
+      "normalizationVersion": 1,
+      "sourceHash": "395815fc7367982e7ba1483ba68f72f417f1af13f8be5affb375eeb4f1738558",
+      "contextFingerprint": "d636b0ebcb839e4ae022cf7cf3f42878ffed71d601c160dd9cd706b2ceb9452d",
+      "sourceText": "###### scan_buffer_size（近期匹配保留几份扫描，当前不用）",
+      "translatedText": "###### scan_buffer_size (recent matches retain several scans, not currently used)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "7349c8d0ab6dbe0cfe748c65f21c296cf49e59cb47ab8aff641d00ef38f88f56": {
       "normalizationVersion": 1,
       "sourceHash": "bc444f7a70b4972ff3dbf5cffae30d872a656d007573dffe59c207548f9283ea",
@@ -447,6 +475,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "73631ed45b21ae2f87417c5ffb668626e85235cb74c52d0e82cf78aeb0ef13f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0926e62cd8c0e5444d0f251e81d7487ce972dbc048c4d9a6eef352fe4e0ba96",
+      "contextFingerprint": "0e8dc36434b43e0fedda944ec21972948af7f358094d4c45c99a6aea1858e978",
+      "sourceText": "- **源码能确认：** 当前6项实物／仿真配置相同；底盘位姿来自扫描时刻TF，保留二维x、y、yaw；输入是底盘系虚拟扫描；保存服务与文件落盘不同；续建3项未设置；mode不单独切换整个工作链；仿真段缺少显式use_sim_time。\n- **已有验证范围：** 独立Point-LIO静止与约20 cm往返；未验证本节点建图、续建、地图保存、上下坡投影或实际仿真时钟值。\n- **实物待核实：** IMU／雷达／底盘转换与关节机械角、扫描中心和投影平面、TF与扫描时间一致性、二维图与PCD共同基准；若需续建，还须核对旧图第一帧及新一轮起点。",
+      "translatedText": "- **Confirmed from the source code:** The current six hardware and simulation settings match\\. Chassis poses come from TF at scan time and retain only x, y and yaw\\. Input is a virtual chassis\\-frame scan\\. A save service differs from writing files\\. Three continued\\-mapping settings are unset\\. Mode alone does not switch the complete pipeline\\. The simulation section lacks explicit use_sim_time\\.\n- **Existing verification scope:** Standalone Point-LIO while stationary and during roughly 20 cm of back\\-and\\-forth movement\\. This node’s mapping, continued mapping, map saving, uphill and downhill projection and actual simulation\\-clock value remain unverified\\.\n- **Pending hardware checks:** IMU, LiDAR and chassis transformations and mechanical joint angles; scan center and projection plane; TF and scan timing consistency; and a shared coordinate basis for the two\\-dimensional map and PCD\\. Continued mapping also requires checking the old graph’s first frame and the new session’s starting pose\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "73632816d9218f21e21f960a88b34ebb37db5695c41ab07c8126f87ba4e47039": {
@@ -825,6 +867,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "73b4cb6eb6e695a8cd7f4e217f57183bf8ca0c2fd135b2b06caaf804c1691757": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e15dbe9aa3a3827a7bcc42b2b0b0ce586e0dd1570ddc4b233fda595044e58b3",
+      "contextFingerprint": "8e30ac457fa019f3f783c293bd560f0e4b586be738e39178df0e50061ec2f363",
+      "sourceText": "###### stack_size_to_use（栈限制，通常沿用）",
+      "translatedText": "###### stack_size_to_use (stack limit, usually inherited)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "73b5701f69aa1a042b5556540fc1149d6a7a06aa46e3ce484eef01f40019b36d": {

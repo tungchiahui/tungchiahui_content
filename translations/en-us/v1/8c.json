@@ -29,6 +29,20 @@
         "costUsd": 0.000084
       }
     },
+    "8c07114d96c248507fd810626a2118799a69eb68a6624c3a6e94aeea572ad4dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "586f65293769131d6d17b2edaed79c81a5b029b9611cfa53fa8c2070e29d7a71",
+      "contextFingerprint": "c539170e4bb97069896e1ea22e1e9a43cd271abfc3dd18d0533554eb2c794c32",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `fine_search_angle_offset` | `0.00349` | rad／步，约0.2° | **当前运行不使用这个参数，暂不调整** | 控制内部精搜索的yaw采样步距 | 精搜索更稀，候选通常减少，可能漏掉较窄的匹配峰 | 精搜索更密、计算增加；不保证角度更准 | 当前不用；此版本实际作为步距，不是精搜索半范围；当前精搜索半范围约1° |\n| `coarse_search_angle_offset` | `0.349` | rad，粗搜索半范围，约20° | **当前运行不使用这个参数，暂不调整** | 在估计扫描朝向两侧尝试yaw修正 | 粗搜索范围扩大、候选和计算增加，也更易遇到相似朝向 | 范围缩小、候选减少，真实朝向修正可能落在范围外 | 当前不用；粗搜索约±20°，总宽约40°；不是底盘／云台转角上限 |\n| `coarse_angle_resolution` | `0.0349` | rad／步，约2° | **当前运行不使用这个参数，暂不调整** | 控制粗yaw步距，同时决定内部精搜索半范围 | 粗角度采样更稀；精搜索半范围同时扩大，计算不能只看粗候选数量 | 粗角度采样更密；精搜索半范围同时缩小 | 当前不用；精搜索半范围＝本项÷2，当前约±1°；需与fine步距配套 |\n| `minimum_angle_penalty` | `0.9` | 无量纲，角度扣分系数下限 | **当前运行不使用这个参数，暂不调整** | 限制角度项最多能扣多少分 | 下限提高，触底时扣分更轻；设1可取消该项扣分 | 下限降低，允许角度项扣更多分；未触底时无变化 | 当前不用；仅在内部调用启用惩罚时使用，0.9不是0.9 rad或90%的匹配成功率 |\n| `minimum_distance_penalty` | `0.5` | 无量纲，距离扣分系数下限 | **当前运行不使用这个参数，暂不调整** | 限制距离项最多能扣多少分 | 下限提高，触底时扣分更轻；设1可取消该项扣分 | 下限降低，允许距离项扣更多分；未触底时无变化 | 当前不用；0.5不是0.5 m，亦非最终分数门槛；当前公式通常未达到这个下限 |\n| `use_response_expansion` | `true` | 布尔值 | **当前运行不使用这个参数，暂不调整** | 粗响应近似为0时扩大角度范围重试 | True：满足触发条件时追加角度搜索，增加计算和相似朝向候选 | False：不追加扩角尝试，仍可执行正常粗搜／精搜 | 当前不进入匹配；最多追加3次，每次半范围增加20°；只扩角，不扩平移或雷达量程 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `fine_search_angle_offset` | `0.00349` | rad per step; approximately 0\\.2° | **Unused in the current execution path; leave unchanged for now** | Control internal fine\\-search yaw sampling steps | Sparser fine searches with usually fewer candidates; may miss narrow matching peaks | Denser fine searches and more computation; no guarantee of greater angular accuracy | Currently unused\\. This version uses it as a step size, not a fine\\-search half\\-range\\. Current fine\\-search half\\-range is about 1° |\n| `coarse_search_angle_offset` | `0.349` | rad; coarse\\-search half\\-range, approximately 20° | **Unused in the current execution path; leave unchanged for now** | Test yaw corrections on both sides of the estimated scan heading | Broader coarse searches with more candidates and computation; more chance of similar headings | Narrower searches with fewer candidates; the true heading correction may lie outside the range | Currently unused\\. Coarse search is roughly ±20°, about 40° total; not a chassis or gimbal rotation limit |\n| `coarse_angle_resolution` | `0.0349` | rad per step; approximately 2° | **Unused in the current execution path; leave unchanged for now** | Control coarse yaw steps and the internal fine\\-search half\\-range | Sparser coarse angle sampling, but a larger fine\\-search half\\-range; computation cannot be judged only by coarse candidate count | Denser coarse angle sampling, with a smaller fine\\-search half\\-range | Currently unused\\. Fine\\-search half\\-range equals this value divided by 2, currently about ±1°\\. Must be compatible with the fine step |\n| `minimum_angle_penalty` | `0.9` | Dimensionless; lower bound for the angle penalty factor | **Unused in the current execution path; leave unchanged for now** | Limit the maximum score reduction from the angle term | Raise the floor, giving a lighter penalty when clamped; 1 disables this score reduction | Lower the floor, permitting a heavier angle penalty; unchanged before reaching the floor | Currently unused\\. Used only when the internal call enables penalties\\. 0\\.9 is neither 0\\.9 rad nor a 90% matching\\-success rate |\n| `minimum_distance_penalty` | `0.5` | Dimensionless; lower bound for the distance penalty factor | **Unused in the current execution path; leave unchanged for now** | Limit the maximum score reduction from the distance term | Raise the floor, giving a lighter penalty when clamped; 1 disables this score reduction | Lower the floor, permitting a heavier distance penalty; unchanged before reaching the floor | Currently unused\\. 0\\.5 is neither 0\\.5 m nor a final score threshold\\. The current formula usually does not reach this floor |\n| `use_response_expansion` | `true` | Boolean | **Unused in the current execution path; leave unchanged for now** | Retry with expanded angular coverage when coarse response is approximately zero | True: add angular searches when triggered, increasing computation and similar\\-heading candidates | False: add no angular expansion, but normal coarse and fine searches remain available | Currently not reached because matching is disabled\\. At most three extra attempts, each increasing the half\\-range by 20°\\. Expands angles only, not translation or LiDAR range |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "8c07c0cdf36dee93355fd8b08333fceea5936b2e05ea10ad0739f28d26331666": {
       "normalizationVersion": 1,
       "sourceHash": "8d467e38bbe8423fdd3ccfd72af6b174374ada83df47b63cdfc2de1cc667c29e",
@@ -489,6 +503,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8c7f0f8116f38a29344a09c4dab435a4ad1d731a15255264f15fdd2f4b9fcdcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "31e6c8bc1b3456574bb2f1011305014618a799dfc0d2134cf16b75ea4b7d6130",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "固定边长而将格距减半，平移候选数约增为4倍，网格内存也增加；总计算量还受角度和点数影响。最终精匹配还可能越过原粗搜索边缘，±4 m不是最终修正量的绝对上限。",
+      "translatedText": "With the side length fixed and the grid spacing halved, the number of translation candidates increases by about a factor of 4, and the grid memory also increases; the total computational cost is also affected by the angles and the number of points\\. The final fine matching may also extend beyond the original coarse search boundary, so ±4 m is not an absolute upper limit on the final correction amount\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 85,
+        "costUsd": 0.000157
       }
     },
     "8c7fdf0c484f0b7f18f69fff57198de6159ec47248953bc0df50ea2d636e1ced": {

@@ -183,6 +183,20 @@
         "costUsd": 0.000075
       }
     },
+    "3e3c426c99fa00a81a2b20cee92521febdbe6a7dc37dd3bd670b34e2745917ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bfe2cb82b8bdf4a1e605282447b66d3fc7e97ee8b46e0c0a6e544be5f7c5e67",
+      "contextFingerprint": "20abdbe29d6afdcf3b73504576ca9d61c3d77d1b5eb94c7b03ec6b09dd2ed5cb",
+      "sourceText": "| 值 | 处理方式 |\n|---:|---|\n| `1` | Livox CustomMsg；内部名称为 `AVIA`，当前 MID360 也走此路径 |\n| `2` | Velodyne 样式 PointCloud2，包含 `time`、`ring` 等字段 |\n| `3` | Ouster 样式 PointCloud2，包含 `t`、`ring` 等字段 |\n| `4` | Hesai XT32 样式 PointCloud2；原 YAML 注释没有列出这一项 |",
+      "translatedText": "| Value | Processing path |\n|---:|---|\n| `1` | Livox CustomMsg, internally named `AVIA`; the current MID360 also uses this path |\n| `2` | Velodyne style PointCloud2 with `time` and `ring` fields |\n| `3` | Ouster style PointCloud2 with `t` and `ring` fields |\n| `4` | Hesai XT32 style PointCloud2; this option is absent from the original YAML comments |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3e403bee110c4cdf54ededefa392a50d62f256500d6483ef16db3abb449dc873": {
       "normalizationVersion": 1,
       "sourceHash": "c6acae16a6f9ceb6524741a76e31a6941ef1960cd69b5661eb794d97a41c2977",
@@ -601,6 +615,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3e9ce1363b53d2fde42c843ac90029f2ebc0a9494c46616fc78de55d7d038b22": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b157f12cedeb39d7eb980f096641041eb4b73516ae0d2561e56e7209db71957",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "例如，估计扫描位置在A，算法尝试把当前轮廓放到旁边B去与旧轮廓对齐。此项根据A、B之间的平面距离扣分；**不按车从上一帧实际走了多少米扣分，也不把候选位置发给底盘执行。**",
+      "translatedText": "For example, if the estimated scan position is at A, the algorithm attempts to place the current contour at a nearby B to align with the old contour\\. This item deducts points based on the planar distance between A and B;**It does not deduct points based on how many meters the vehicle actually traveled from the previous frame, nor does it send the candidate position to the chassis for execution\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 85,
+        "costUsd": 0.000158
       }
     },
     "3e9dde6c5805d0b4f29dca871ebcc2012d81a5c8cf8ae3c1efe2de7aa808b663": {

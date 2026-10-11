@@ -239,6 +239,20 @@
         "costUsd": 0.000308
       }
     },
+    "c93330eb337256e627a9ba4d9df32e75e2e298f73e30615b6318fef9bb293d11": {
+      "normalizationVersion": 1,
+      "sourceHash": "375071074fd5ef18144f9439b9d48463219ecb6fb16fa610e42ea21fb14f8e2c",
+      "contextFingerprint": "cd90bdc1a712e55621efa577e937596e469c68c6a340cc4204893b908b6e6e41",
+      "sourceText": "- **源码能确认：** 本组13项实物／仿真配置一致；扫描筛选与地图输出分离；等待TF队列与同步处理队列不同；当前不发布动态map→odom；二维范围受上游量程约束；∞不自动产生空闲射线；位移前置门槛可能拦住原地转动后的扫描。\n- **已有验证范围：** 独立Point-LIO静止与约20 cm低速往返；未验证slam_toolbox实际处理频率、原地转动、坡道空闲覆盖、长时间队列／内存、序列化或交互功能。\n- **实物待核实：** 移动与转动下的入图连续性、雷达／底盘时间与坐标、近场自车回波和低障碍、坡道是否被有效射线覆盖、地图细节与计算负载。重力方向、内部IMU转换及点时间问题仍需先核对。",
+      "translatedText": "- **Confirmed from the source code:** These 13 hardware and simulation settings match\\. Scan filtering and map output are separate\\. The TF\\-wait queue differs from the synchronous\\-processing queue\\. Dynamic map→odom is not currently published\\. Two\\-dimensional ranges are constrained by upstream range\\. ∞ does not automatically generate free\\-space rays\\. The preliminary displacement gate may block scans after rotation in place\\.\n- **Existing verification scope:** Standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. slam_toolbox’s actual processing frequency, rotation in place, ramp free\\-space coverage, long\\-running queues and memory, serialization and interactive features remain unverified\\.\n- **Pending hardware checks:** Scan insertion continuity during movement and rotation; LiDAR and chassis timing and coordinates; nearby self returns and low obstacles; valid ray coverage on ramps; map detail and computation load\\. Gravity direction, internal IMU conversion and point\\-time issues still require prior checks\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c93afdf8931aebce2a8f793788bb50bf75ff06101beaa425774700719974129b": {
       "normalizationVersion": 1,
       "sourceHash": "5261f85d8608c54ea52cd5a069bdbfd7d79e1bd188e59758455c47292c9d8368",

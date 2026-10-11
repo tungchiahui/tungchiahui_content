@@ -519,6 +519,20 @@
         "costUsd": 0.000052
       }
     },
+    "519b40fddf4cabc2e4248533d3eed5c1805fa224cbf48b19b03725cfca8d5c0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0475cfd044699135940a7705a9503dc1d66ac0414d8fbf4b23a5c5dbefc0062b",
+      "contextFingerprint": "dbcf5058f927e2b1f99399073c72e2ff49126e58d01fcdf99172b36d6a6a77fe",
+      "sourceText": "###### loop_match_minimum_response_coarse（粗匹配进入精匹配的门槛，当前不用）",
+      "translatedText": "###### loop_match_minimum_response_coarse (the threshold for entering fine matching from coarse matching; currently not used)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "519c5fe6d29663fd9252a3122612975a23763b843552056115e8b27f5c898f60": {
       "normalizationVersion": 1,
       "sourceHash": "891003b317145fa1df719ee78b0a706643929fdd07bf1d98939cc191094219ce",
@@ -573,6 +587,20 @@
         "inputTokens": 150,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "51a608801004d38fe7a406aee89110118a2b360f11631a98768fe753ef7ecde4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6e64958c454dbebe532b8b3448b599d7987186aff70d7210bd9886c794ca560",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "值较小会更偏向A附近，可能减少被相似结构拉走的机会，也可能让正确的位姿修正受到压制；值较大则减轻这项约束。它只改变已有候选的分值，不代替前面的搜索范围、轮廓质量或匹配门槛。",
+      "translatedText": "A smaller value will bias more toward the vicinity of A, possibly reducing the chance of being pulled away by similar structures, but it may also suppress correct pose corrections; a larger value relaxes this constraint\\. It only changes the scores of existing candidates and does not replace the preceding search range, contour quality, or matching threshold\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 71,
+        "costUsd": 0.00014
       }
     },
     "51a886ddc0a89a6a5c206fd29aac94013615f2ef1361eeaf904faa0d4a6a279f": {
@@ -797,6 +825,20 @@
         "inputTokens": 139,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "51f09d887f92c080758eef9c3f481f34a5c5a47ff948dd31b0ab6c3238dd1ca4": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb0cf0df59a3a1aa26de286b1a64178b082b2a39103bc2462564d4dcb45f254f",
+      "contextFingerprint": "bddcbb7c3c90eb3e8e9c5b9eea0b70d90aa93231f3aa385b34552829f6468c08",
+      "sourceText": "###### minimum_travel_heading（入图角度间隔，0.1约为5.73°）",
+      "translatedText": "###### minimum_travel_heading (angle interval of the incoming map, 0\\.1 is approximately 5\\.73°)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "51f1859145a821912d7b4fc606b6ef81649c35b084a53b4bdc70034c4211fe96": {

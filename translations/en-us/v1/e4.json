@@ -71,6 +71,20 @@
         "costUsd": 0.00006
       }
     },
+    "e409e5ca1551a95655e5055799313a1291e02c01543ee22f090e3c817573a09a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a739d8da757a5ec59c3ef0e75f0c22bd594c7d36e55d5f6385908d659f1ba89f",
+      "contextFingerprint": "9a35310826b0915f019f1b97ce4ceccc87fcab31b008423e94d733ff16327cf9",
+      "sourceText": "1. 云台高度gimbal_yaw_height",
+      "translatedText": "1. Gimbal height, gimbal_yaw_height",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e4112e89c5bbe6550c9a36dfa7f35d826c25ef82a43e7f85884d100485ff649c": {
       "normalizationVersion": 1,
       "sourceHash": "ad5716f6d4f499e44256efc97e9e7c40ec692ec02e0dce62d87c493f44f4345a",
@@ -629,6 +643,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "e48ed2c0c9bc6fb3edb56f4266e6488f7b0f7db89665b458218d06c4e0091fca": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7104132ff4c9c7b7904b58bf2d411554f2f3bfe0ddc68842334cb7499ec4341",
+      "contextFingerprint": "0da09ec7b4ad1d27fc4dff32634da054cfa41fb6d54574661dc1c1cc421ca1af",
+      "sourceText": "当前0.5 s对应名义约2 Hz地图更新循环；minimum_time_interval=0.2 s控制的是扫描筛选，两个频率可以不同。同一份已处理扫描集合也可以被多次重新画成地图，更新更快不等于获得更多环境信息。",
+      "translatedText": "The current 0\\.5 s corresponds to a nominal approximately 2 Hz map update cycle; minimum_time_interval=0\\.2 s controls scan filtering, and the two frequencies can differ\\. The same processed scan set can also be redrawn into a map multiple times; a faster update does not mean obtaining more environmental information\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 78,
+        "costUsd": 0.000151
       }
     },
     "e490b4fba220c675d492a24b7bda223171b211e6897379427474dd2c2d46e474": {

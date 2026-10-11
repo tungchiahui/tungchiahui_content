@@ -407,6 +407,20 @@
         "costUsd": 0
       }
     },
+    "374e9f30c7bbf2ef627564a1a6f18a465954db0f3cba86ee28847e8a22c2bda6": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdd03cbad769796e5496a69b6f369306625bb743f6deb912fa84b30060ceff6e",
+      "contextFingerprint": "0950fd915aca2cdfc72edc33620f3f099734c64dea7aa3974f10f2aceacce998",
+      "sourceText": "整套 reality／simulation 启动分别默认使用对应目录的 `nav2_params.yaml`，经 `navigation_launch.py` 将处理后的参数文件交给该节点，并把节点名设为 `terrain_analysis` 以匹配 YAML。包内独立 XML launch 和 C++ 默认值是另外的来源，例如独立 XML 的 `decayTime=1.0`、`noDecayDis=1.75`、`vehicleHeight=1.5`，不能套用本表；直接运行可执行文件也不会自动加载整套 YAML。",
+      "translatedText": "The complete reality and simulation launches default to `nav2_params.yaml` in their respective directories\\. They pass the processed parameter file to the node through `navigation_launch.py` and set its name to `terrain_analysis` to match the YAML\\. The package’s standalone XML launch and C++ defaults are separate sources\\. For example, the standalone XML’s `decayTime=1.0`、`noDecayDis=1.75`、`vehicleHeight=1.5` cannot be assumed to match this table\\. Running the executable directly does not automatically load the complete YAML\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "375a1e3b4a84237020393c48ad3e57e926bddd00f2c145630c40e6fec99a5f9e": {
       "normalizationVersion": 1,
       "sourceHash": "dde02220510eacc8d8326ceb1a47cb1b9ba8c2b12eebd24151a10ae8f8bd32f3",

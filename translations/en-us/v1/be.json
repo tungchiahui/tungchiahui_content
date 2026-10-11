@@ -253,6 +253,20 @@
         "costUsd": 0.000056
       }
     },
+    "be49a8966a97066ca45f0e77bfa75cb950613c34fd791e1a2274d607b6a6b6f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "003abf5c711a0056dfd9cba41f819ed1d858bf84ce2759b9d792113ee5745a8b",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "当前内部相关网格每格1 cm。源码粗平移每次跨两格，即2 cm；正常精化阶段回到1 cm步距，在粗结果周围小范围细找。[搜索范围与粗细步距实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "Current internal correlation\\-grid cells are 1 cm\\. Coarse translation steps move across two cells, or 2 cm; normal refinement returns to 1 cm steps within a small region around the coarse result\\.[Search range and coarse and fine step implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "be4df1811b24cf4548d00e832035a7dbd41d984e23529192b6c3a8b14f452b47": {
       "normalizationVersion": 1,
       "sourceHash": "9319520a1b4ebdb7ade1c3fa4bcc0a25a6db98c59fd5f72c9404de06b6289a3c",
@@ -559,6 +573,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "be834f1644d4042cee29e9752552c953010fcabccce8a265522779f97a805a52": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f3d835e6d48e458f08a63ad2edf8e828c4032fff4b8409860af0fe5af5982c7",
+      "contextFingerprint": "e7a4bcd06e191b145569080dda944a9aa3ae664ac3db7cdcd42789e02da7b319",
+      "sourceText": "| 启动方式 | 这块参数从哪里来 | 需要区分的值 |\n|---|---|---|\n| 整套 reality launch | 默认 `pb2025_nav_bringup/config/reality/nav2_params.yaml`，可由 `params_file` 指定其他文件；经 bringup 传给 `navigation_launch.py` | `base_frame=base_footprint`；`use_sim_time` 最终由 launch 参数重写，默认 False |\n| 整套 simulation launch | 默认 `pb2025_nav_bringup/config/simulation/nav2_params.yaml`；同样经 `navigation_launch.py` 加载 | `base_frame=base_footprint`；`use_sim_time` 最终由 launch 参数重写，默认 True |\n| 独立 `loam_interface_launch.py` | launch 内的参数字典，不读取上述 YAML | `base_frame=gimbal_yaw`；未设置或声明 `use_sim_time` 启动参数，按 ROS2 默认 False |",
+      "translatedText": "| Launch method | Parameter source | Values to distinguish |\n|---|---|---|\n| Complete reality launch | Defaults to `pb2025_nav_bringup/config/reality/nav2_params.yaml`; an alternative file can be specified using `params_file` and passed through bringup to `navigation_launch.py` | `base_frame=base_footprint`；`use_sim_time` is ultimately overridden by the launch argument, defaulting to False |\n| Complete simulation launch | Defaults to `pb2025_nav_bringup/config/simulation/nav2_params.yaml`; also loaded through `navigation_launch.py` as the configuration | `base_frame=base_footprint`；`use_sim_time` is ultimately overridden by the launch argument, defaulting to True |\n| Standalone `loam_interface_launch.py` | The launch’s parameter dictionary; does not read the YAML above | `base_frame=gimbal_yaw`; no `use_sim_time` launch argument is set or declared, so ROS2 defaults to False |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "be853e34c88cd43f48f631ebfc0f97ec5d989709a879536265d9ad1d4f5e30f8": {

@@ -295,6 +295,20 @@
         "costUsd": 0.000053
       }
     },
+    "c55108c446fd8cb09ab7182a22eca4207f2aaf52d8b060395e33c85a4324acae": {
+      "normalizationVersion": 1,
+      "sourceHash": "c80926be0e789935a659dbc8580e7af49378ffc8bf0420733e7d1267edb7d4a5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些角度参数及扩展可用于普通匹配、普通近邻关联和自动闭环搜索；两项扣分下限则只用于启用惩罚的调用，普通近邻关联和闭环调用仍跳过扣分。约±80°描述粗搜索，后续精化还能略越过边缘，不能把它当成车辆转动限制。",
+      "translatedText": "These angle parameters and extensions can be used for ordinary matching, ordinary nearest\\-neighbor association, and automatic loop\\-closure search; the two penalty lower bounds are only used in calls with penalties enabled, while ordinary nearest\\-neighbor association and loop\\-closure calls still skip penalties\\. Approximately ±80° describes the coarse search; subsequent refinement can still slightly exceed the edges, and it must not be treated as a vehicle rotation limit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 90,
+        "costUsd": 0.000167
+      }
+    },
     "c559fc2a9f3bfd7e8c6402fec0710e2ccc7f2eb5abce5bf61923765bbc024469": {
       "normalizationVersion": 1,
       "sourceHash": "967478f24911296a25cd47a5b960e3d5d9ef5f8a1d65444d5a0dc3a701b65ede",

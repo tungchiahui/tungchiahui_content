@@ -183,6 +183,20 @@
         "costUsd": 0.000057
       }
     },
+    "502984646e88e104a3738672e5dcea07976045a34af91219d1604e217a0a7522": {
+      "normalizationVersion": 1,
+      "sourceHash": "8456fbfaf8e6de3af7080b4c32bc839a9d6182440faf00e8a088779388dd64da",
+      "contextFingerprint": "df75a6d48635b0e5bd0250207a041e2bc2bf7056af0ea3119ead85e46c62cb17",
+      "sourceText": "这个节点在整套 `slam:=True` 启动中使用。已有地图导航 `slam:=False` 不走这个入口；当前局部／全局代价地图直接使用地形点云，并非依靠这份二维扫描更新障碍。",
+      "translatedText": "This node is used by the complete `slam:=True` launch\\. Existing\\-map navigation `slam:=False` does not use this entry point\\. Current local and global costmaps directly use terrain point clouds, rather than relying on this two\\-dimensional scan to update obstacles\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5036aa62375e278413b8a979d7911c8615199d963bc9ff55c6024ce2449658fd": {
       "normalizationVersion": 1,
       "sourceHash": "9ae58914f7136e4dd5b5d22d3c7d2a8906125a3d97d32ab0165453f6a41452cc",
@@ -671,6 +685,20 @@
         "inputTokens": 167,
         "outputTokens": 52,
         "costUsd": 0.000113
+      }
+    },
+    "50bac760734741f9e517241f95122649ff4708aa8b75b1e20686eaef7af9c39b": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a81ac0ed30dcad97902608752ebd04837d357e764dd66a96035c0a7f18f5aec",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 读取与使用路径",
+      "translatedText": "###### Read and use paths",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "50c9f0b08eeb0935ad9a0cad2e36eda37019fd4f0e683efdf71a6ba93c1760c3": {

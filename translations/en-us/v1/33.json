@@ -337,6 +337,20 @@
         "costUsd": 0
       }
     },
+    "334672fb5d79dc5ecb1b5d536ac468e464a7d7adb344c519ecf2ea159e1f114a": {
+      "normalizationVersion": 1,
+      "sourceHash": "eba563aa223c8d34e6500001fe6f45920746287042645f70e59c1319aed789aa",
+      "contextFingerprint": "396c3871d757ee39240b1aade0e79b09e353492da4a234fa13442f71e6ec5c20",
+      "sourceText": "**当前导航链最终下发的 `vx、vy` 按实际云台自身坐标系 `gimbal_yaw` 表达；`wz` 按接口约定是底盘的目标角速度。** “速度用谁的轴表达”与“哪个部件执行动作”是两件事：用云台的轴描述平移，仍然是让底盘移动；输出旋转指令也没有直接控制云台 yaw 关节。",
+      "translatedText": "**The navigation chain’s final `vx、vy` is expressed in the actual gimbal’s own `gimbal_yaw` frame; `wz` represents the target chassis angular velocity under the interface convention\\.** The axes used to express velocity and the component executing movement are separate matters: translation expressed along gimbal axes still moves the chassis\\. The rotation command also does not directly control the gimbal yaw joint\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "334a7e4d47444aca920f9800065088eeec320647c287085d37eafb05fb10e43b": {
       "normalizationVersion": 1,
       "sourceHash": "cd5947570f19d091226ebdc20181719778c1b0e03f73307d8dc0a61c930671c2",

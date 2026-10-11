@@ -127,6 +127,20 @@
         "costUsd": 0
       }
     },
+    "071fd356c62d06e5e57a204451dd025c7ee0ee9fd79ea28edbf855a96347cd95": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ca82f601964ad09f586c834a526361680c441f6198c2a6a0d4713c50dc38559",
+      "contextFingerprint": "2b6f2af457bb74fb21dc81fdd5939c912b70d4319af0a3b0ce7047cbf79dd6de",
+      "sourceText": "###### loop_match_minimum_response_fine（最终闭环匹配门槛，当前不用）",
+      "translatedText": "###### loop_match_minimum_response_fine (final closed\\-loop matching threshold, currently unused)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "07200ee4f574e88463a96b16a25463a3f3d8bb9eacf0e55e15e3162fb976c509": {
       "normalizationVersion": 1,
       "sourceHash": "d8ac3f0e15fff477b92765f13977e992e570f85503cd49ae390825fc2009fac8",
@@ -785,6 +799,34 @@
         "costUsd": 0.000056
       }
     },
+    "07cc95226f19ce10ba7038b2af5d5d3e88153a1cb48b3141f448bed340ab8455": {
+      "normalizationVersion": 1,
+      "sourceHash": "67d801b934a8f37a78a0c548c332a1730e519492e9021601b6a7aa6f8ade19ed",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Correlation Parameters - Correlation Parameters（普通扫描匹配搜索）",
+      "translatedText": "#### Correlation Parameters \\- Correlation Parameters (Normal Scan Matching Search)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "07d0a2e3ce6605e0fd9b3cfdaadb302a30e04931fe9a68670afa3672813fe621": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1b953f840883a3ea0afa16c86e4c29cb1100b3d5e3611c07f702091aa53ddb5",
+      "contextFingerprint": "10f92262747418b4e4c8f23a417f2bf05430afca1b9e985be5b1518426d7526d",
+      "sourceText": "当前use_scan_matching=False，从空图建图时不建立新的匹配图节点；有序列化文件也不能直接当作已经验证可续建／定位的地图。续建还涉及旧图结构、起点和新旧坐标的关系，当前未验证。",
+      "translatedText": "Currently use_scan_matching=False, so starting from an empty map does not create new matching graph nodes\\. Existing serialized files are not automatically verified maps for continued mapping or localization\\. Continued mapping also depends on the old graph structure, start pose and relationship between old and new coordinates; this is currently unverified\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "07d27ac9bd4f4ad186519ee3db09ac007f2485ad8a9bf84e24d40abb17a2c3e8": {
       "normalizationVersion": 1,
       "sourceHash": "cce89a7570a4995b5a6432fb1a4513c82629349f1f51893b43823b8b82dc4520",
@@ -895,6 +937,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "07e4e71ad922073ca5aefcbd4a85495a383ca4be2756928994dc4c36a6941431": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4582ed77a69c35a4e0cf441138f53a94159d939764fed874b29b7fa68991067",
+      "contextFingerprint": "852aa49fa047afed1d98e54d8a10252e23307927d679c8f8dffa406bc973caa1",
+      "sourceText": "实物／仿真nav2_params.yaml及安装副本的两项当前值一致，由slam_launch传给sync_slam_toolbox_node。SMapper::configure读取后设置到Karto；ROS包装层未提供参数时的默认值为0.5、1.0，与本工程5.5、5.0不同。[参数读取实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "The two current values match across hardware and simulation nav2_params.yaml and installed copies, passed through slam_launch to sync_slam_toolbox_node\\. SMapper::configure reads them and sets Karto values\\. Without ROS\\-wrapper parameters, defaults are 0\\.5 and 1\\.0, differing from this project’s 5\\.5 and 5\\.0\\.[Parameter\\-reading implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "07e67e6c0d10dfae5722c3ca11228643fa11c99a54441dfd769c21f2755829ae": {

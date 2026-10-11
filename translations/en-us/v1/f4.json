@@ -29,6 +29,20 @@
         "costUsd": 0.000107
       }
     },
+    "f40876236a65591677ecde3102a6fff44bfce8087dae04ecd7cdcea6f32daf9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "100a4a67134951f4d1afc374b47c8638da6e5e93073e5da44cfe0c0437a3b1b3",
+      "contextFingerprint": "a875d5c99031230ab06a8b8b146af6c3f11359edb67a79c0ca8555d91225fc91",
+      "sourceText": "| 方向 | 话题 | 消息与坐标含义 |\n|---|---|---|\n| 订阅 | `aft_mapped_to_init` | `Odometry`；参考系 `camera_init`，子系 `body`，数值是内部 IMU 位姿 |\n| 订阅 | `cloud_registered` | `PointCloud2`；当前扫描的配准点坐标，参考系 `camera_init` |\n| 发布 | `lidar_odometry` | `Odometry`；参考系名设为 `odom`，子系名设为 `front_mid360`；数值语义仍需核对 |\n| 发布 | `registered_scan` | `PointCloud2`；用缓存矩阵转换点坐标，参考系名设为 `odom` |",
+      "translatedText": "| Direction | Topic | Message and coordinate semantics |\n|---|---|---|\n| Subscribe | `aft_mapped_to_init` | `Odometry`; reference frame `camera_init`, child frame `body`; values describe the internal IMU pose |\n| Subscribe | `cloud_registered` | `PointCloud2`; registered point coordinates from the current scan, in reference frame `camera_init` |\n| Publish | `lidar_odometry` | `Odometry`; reference frame name set to `odom`, child frame name set to `front_mid360`; the numerical semantics still require verification |\n| Publish | `registered_scan` | `PointCloud2`; transforms point coordinates with a cached matrix and sets the reference frame name to `odom` |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f40c5bf02a15e327697531cdba3a409e919c0d25640352f2f374486062564773": {
       "normalizationVersion": 1,
       "sourceHash": "5ab1ed86ac4f5c53f46cdeaeda6fb1d4d25a8f81d2154a689253c6b7a352d2b8",

@@ -113,6 +113,20 @@
         "costUsd": 0.000057
       }
     },
+    "a810fe80f2b1ee231b6481b5d9e4b4385d686493f23d658b217d8b126b204fe9": {
+      "normalizationVersion": 1,
+      "sourceHash": "de4607d8d90870e34d35da3b2bcb160bcf2822dfb48f4ef95a4e80bbdcbf68fb",
+      "contextFingerprint": "80b87864a53672254359050e3ced4de8b158bea57aabecf051fc6e1721b52e2c",
+      "sourceText": "**雷达在云台上，这一步特别依赖零位。** 同一份PCD若建图时与重新启动时云台相对yaw不同，当前 `base←lidar` 会含不同角度；按源码计算，目标地图可能被不同矩阵转动，而独立加载的二维地图不会自动跟着调整。是否实际造成错位，需要结合PCD生成时的起点、云台零位、底盘方向与地图原点判断，目前没有测试结论。",
+      "translatedText": "**With the LiDAR on the gimbal, this step particularly depends on the zero position\\.** If relative gimbal yaw differs between creating the PCD and restarting with it, the current `base←lidar` contains a different angle\\. According to the code, a different matrix may rotate the target map, while the independently loaded two\\-dimensional map does not adjust automatically\\. Whether this actually causes misalignment depends on the PCD generation start pose, gimbal zero position, chassis heading and map origin; no test conclusion is available yet\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a8139c184bf8cb335522f9ea9923b4d1a1854140aa48af395bc517448690effa": {
       "normalizationVersion": 1,
       "sourceHash": "66a1541a1ce9bd856277bc90a4b0f012f658d70b076f005aceb7c48e5472bbb7",

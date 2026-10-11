@@ -365,6 +365,20 @@
         "costUsd": 0.000051
       }
     },
+    "6166b4b83f78f8145ec5a39179ca9176be763a1d70d526f4f2e4214a1d6ee89f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cf08e46129855815b87170997f04f22a16896da9f1e231282a778f5b5634d5f",
+      "contextFingerprint": "7137bd3e99f726ec13cc641c051e0bc3de3cd3b51cc238bd25770654529e56ee",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `preprocess.lidar_type` | `1` | 不适用，枚举 | **按设备型号和驱动核对，通常保持当前值** | 选择点云消息类型及字段解析方式 | 不适用 | 不适用 | 当前走 Livox CustomMsg 分支；必须与输入消息格式匹配 |\n| `preprocess.scan_line` | `4` | 条，计数 | **按设备型号和驱动核对，通常保持当前值** | 指定接受的扫描线编号范围 | 提高允许编号上限；输入仍只有0～3时不会增加点数 | 丢弃超过编号上限的点，减少有效数据 | 本地驱动为 MID360 设置4个 line 编号；Point-LIO 判断 `line < scan_line` |\n| `preprocess.timestamp_unit` | `3` | 不适用，单位选择枚举 | **当前运行不使用这个参数，暂不调整** | 指定 PointCloud2 逐点时间字段的单位 | 不适用 | 不适用 | 当前 CustomMsg 直接将 `offset_time` 从 ns 换成 ms，不通过此开关 |\n| `preprocess.blind` | `0.5` | m，距离 | **实物运行时重点观察，有问题再针对性调整** | 排除距离点云坐标原点过近的点 | 排除范围扩大，近处干扰减少，同时丢失更多有效结构 | 保留更多近处结构，也可能保留更多车体或近距离干扰点 | 在当前 Livox 预处理中实际使用；按三维距离过滤 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `preprocess.lidar_type` | `1` | Not applicable; enum | **Check against the device model and driver; usually retain the current value** | Select the point cloud message type and field parser | Not applicable | Not applicable | Currently uses the Livox CustomMsg branch; must match the input message format |\n| `preprocess.scan_line` | `4` | Lines; count | **Check against the device model and driver; usually retain the current value** | Specify the accepted scan\\-line index range | Raise the allowed index limit; does not add points if input indices remain 0–3 | Discard points above the index limit, reducing valid data | The local driver assigns four line indices to MID360; Point-LIO checks `line < scan_line` |\n| `preprocess.timestamp_unit` | `3` | Not applicable; unit\\-selection enum | **Unused in the current execution path; leave unchanged for now** | Specify the units of the PointCloud2 per\\-point time field | Not applicable | Not applicable | The current CustomMsg path converts `offset_time` directly from ns to ms, bypassing this switch |\n| `preprocess.blind` | `0.5` | m; distance | **Observe closely on hardware; adjust only for a specific problem** | Exclude points too close to the point cloud coordinate origin | Expand the excluded region, reducing nearby interference but also losing more useful structure | Retain more nearby structure, potentially also retaining more robot\\-body or close\\-range interference points | Used by the current Livox preprocessing path; filters by three\\-dimensional distance |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6167b2a793e875dfe2626b1297e6b88d96ab90c84f4ee90bcdac56bd6ba4b56a": {
       "normalizationVersion": 1,
       "sourceHash": "ce4f86cc85ee6ec6dcf1df29bb4ae42bd3497faf956be01cefe69f168f196793",
@@ -489,6 +503,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "6175f4bc309d59f5dbc758b290f03b89d122f9145836f8ef2624e03ad64cc08a": {
+      "normalizationVersion": 1,
+      "sourceHash": "739b29b2d4fa64fbd5d2b093fd89cee63d8a8cfc743e57302a67cb7aadc1c2e3",
+      "contextFingerprint": "4c48f4357d446870bd92306ecad2f6041eea5889260d06606a69575603e3eac4",
+      "sourceText": "当前use_scan_matching=False，这6项会被读取，但不参与当前自动建图流程的匹配搜索和评分。若以后开启匹配，当前角度搜索可概括为：**粗搜左右各约20°，每2°试一次；精搜在粗结果左右各约1°内，每0.2°试一次。**",
+      "translatedText": "Currently use_scan_matching=False, these 6 items will be read but will not participate in the matching search and scoring of the current automatic mapping process\\. If matching is enabled in the future, the current angle search can be summarized as:**Coarse search: about 20° to the left and right, trying once every 2°; fine search: within about 1° to the left and right of the coarse result, trying once every 0\\.2°\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 109,
+        "costUsd": 0.000193
       }
     },
     "6176ad1599f19985b374fa5132b81b2f6bbbecfbfcf373962d6d7c4903a72383": {

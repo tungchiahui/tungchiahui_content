@@ -393,6 +393,20 @@
         "costUsd": 0.000063
       }
     },
+    "ef3bc03c53c3670b846a3f4c1b66e9c88b279fdef43eda887f8930a323e7b476": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ee6cacc07bf6e38c92734dce7c5aa2b52b1c07b7ecd79f61a35d7c79f469702",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "增大可能排掉近处自车回波，但也会排掉车旁障碍；圆形距离门槛不能完整代替车体与云台活动包络的自车过滤。当前Karto栅格射线处理中，读数小于或等于实际下界会被跳过。",
+      "translatedText": "Increasing the value may filter out nearby ego\\-vehicle echoes, but it will also filter out obstacles beside the vehicle; a circular distance threshold cannot fully replace ego\\-vehicle filtering based on the vehicle body and gimbal motion envelope\\. In the current Karto grid ray processing, readings less than or equal to the actual lower bound are skipped\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 74,
+        "costUsd": 0.000145
+      }
+    },
     "ef3d8f36d1e564122f5c604d4c760f9d6598bbf0635de8a28c8b3516ff28c9fe": {
       "normalizationVersion": 1,
       "sourceHash": "fffd9c517f5b15db88132f53f21c645efab67039e3d4a31568920b9a0949a2cf",

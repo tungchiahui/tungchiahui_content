@@ -799,6 +799,20 @@
         "costUsd": 0.000055
       }
     },
+    "d6c5852d6eae4b2c21a0a5b12dc7325c3d2fcb1acf8b76bc90859627e529f657": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7bb528ddf3b452dfe50564522311e059a243549f5c4b67dc5e08420a15d2f06",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "因此，当前是在粗匹配朝向附近约±1°内，每0.00349 rad（约0.2°）试一次，共11个角度候选。减小本项只让这段范围内试得更密，不会扩大范围，也不表示最终朝向误差能达到0.2°。[粗细搜索的实际调用](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "Therefore, currently within approximately ±1° around the coarse matching orientation, a trial is performed every 0\\.00349 rad (about 0\\.2°), giving a total of 11 angle candidates\\. Reducing this item only makes the trials denser within this range; it does not expand the range, nor does it mean that the final orientation error can reach 0\\.2°。[Actual invocation of coarse and fine search](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 94,
+        "costUsd": 0.000172
+      }
+    },
     "d6c60ef01fb27f63a889e4aa61fa5bdbc34584d1281060b8c6cd6319404e7e6d": {
       "normalizationVersion": 1,
       "sourceHash": "57f9451a5404c0600fc14a0d0161012a114a39a66f15b4a1c46f8ea1f63fccd9",
@@ -923,6 +937,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d6e8ad68ca8bfc31480942c02265c269a13c30bfd283c4e0a4ad96ce75d9aa1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "230892051e48291258f4dbe59e692addf5348eadfdf22e2b060aaf3f4b48bca0",
+      "contextFingerprint": "acae535d404cd4de6228b31a519b39975a750a9b0be0aee083fb742824391fe4",
+      "sourceText": "###### minimum_distance_penalty（距离项至少保留多少分）",
+      "translatedText": "###### minimum_distance_penalty (how many points to retain at minimum for the distance term)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "d6edb339de73146b86669e276131cd73d6d6c70e1af17f95189efd8cc59fd947": {

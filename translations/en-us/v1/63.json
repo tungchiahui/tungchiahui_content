@@ -771,6 +771,20 @@
         "costUsd": 0.000054
       }
     },
+    "63c4f3de30507d61d504e731973c56290ed3e157549c61f5a5b36555bed4b508": {
+      "normalizationVersion": 1,
+      "sourceHash": "6668b3727c979e91679d9f9ec2474026cf44bd8b9b84fcd3c978f76d8f28785a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "外层先执行，且它在放行后就更新自己的比较基准；内层若拒绝该扫描，两层基准会暂时不同。因此实际步距还取决于速度、转角、输入周期和处理结果。调大通常减少入图份数，调小通常增加；过稀可能让转弯附近的小结构覆盖不足。",
+      "translatedText": "The outer layer executes first, and it updates its own comparison baseline after allowing the scan; if the inner layer rejects that scan, the two baselines will temporarily differ\\. Therefore, the actual step distance also depends on speed, turning angle, input period, and processing results\\. Increasing it generally reduces the number of included map portions, while decreasing it generally increases them; if it is too sparse, small structures near turns may be insufficiently covered\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 95,
+        "costUsd": 0.000173
+      }
+    },
     "63caf4c1dcdeebb9d3b120e180faec836681d7a5703dabec4551975cedca4a87": {
       "normalizationVersion": 1,
       "sourceHash": "2afba04a46bf97d03df6e4405e6b7ad5c5882bf90e850c8d4ee532015af29932",

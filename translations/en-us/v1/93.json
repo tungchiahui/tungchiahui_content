@@ -71,6 +71,20 @@
         "costUsd": 0.000085
       }
     },
+    "930d4bbf8fe778d62cb79543ea76d58f3a4e93af05935820865d83142926a085": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f7bcea7f027c083a7895e07d991f65a1d9074e9b293f40a1bb1a6c0db820c4f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这项不是简单的“超过阈值全部删掉”：若阈值设为5 m，输入有一份合法8 m回波且消息上限仍为10 m，栅格射线会截到5 m，不把8 m端点画成障碍；这段射线仍可参与空闲区域的统计。",
+      "translatedText": "This is not simply “delete everything that exceeds the threshold”: if the threshold is set to 5 m, and the input contains one valid 8 m echo while the message upper limit remains 10 m, the grid ray will be clipped at 5 m and will not render the 8 m endpoint as an obstacle; this ray segment can still participate in the statistics of free space\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 84,
+        "costUsd": 0.000158
+      }
+    },
     "931357e4bade4b3107e87ee818394f7e6dfe4d4edabe5a00c2eebc5ff93e7444": {
       "normalizationVersion": 1,
       "sourceHash": "22e863617a554bdf75b66b9b95d19454b7563146e7e6b99e202f4315fba0f3e5",

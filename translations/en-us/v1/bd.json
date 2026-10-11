@@ -15,6 +15,20 @@
         "costUsd": 0.000093
       }
     },
+    "bd0181ebdb08b8dfc64b471b1d66d2b41caf566d7552d51e38fca677fe81e49e": {
+      "normalizationVersion": 1,
+      "sourceHash": "33fe5ec88c5e3cf3e0ee74781c57ffd678dab8b48aedfd39a2ed8c6d35cc8510",
+      "contextFingerprint": "e9f677573500e9b9eb6eaba05a252f266716f9b9e581d07ffcab4169fed4c6bc",
+      "sourceText": "`robot_state_publisher_launch.py` 的默认入口为 `reality_robot`；描述包自身的 `robot_description_launch.py` 默认仍为 `simulation_robot`。Gazebo 的 `spawn_robots.launch.py` 继续加载 `simulation_robot.sdf.xmacro`。",
+      "translatedText": "`robot_state_publisher_launch.py` defaults to `reality_robot`; the description package’s own `robot_description_launch.py` still defaults to `simulation_robot`. Gazebo’s `spawn_robots.launch.py` continues to load `simulation_robot.sdf.xmacro`.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bd08f209fb1dfeecea8c0a18d11e3b82daaf98f010f77b8987522a5c173386b1": {
       "normalizationVersion": 1,
       "sourceHash": "525cab6b5cb317eeecc22ca29cee59b535f068e92e98b05d971fed664e6eec6c",

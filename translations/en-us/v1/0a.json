@@ -477,6 +477,20 @@
         "costUsd": 0.000062
       }
     },
+    "0a62cea1e2c7a0473746fc2107139393dc0912ff9f489f0ccb4e118b334a2665": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7ffb2aa90d64c062d3b599fd46c0d514a7efdb45687bd301213280b14293a02",
+      "contextFingerprint": "3fc257979e4f029db7e0e77f3edc26909e14a5b8c505bc8b450e37f55a2352d6",
+      "sourceText": "3项在SMapper::configure中读取并设置到Karto，非正值分别回退到0.5、0.01、0.1；网格在首次有效扫描初始化时创建，没有动态修改参数后自动重建的回调。[参数读取实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "Three items are read in SMapper::configure and set to Karto; non\\-positive values fall back to 0\\.5, 0\\.01, and 0\\.1 respectively; the grid is created when the first valid scan initializes it, and there is no callback to automatically rebuild after dynamically modifying parameters\\.[Parameter reading implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 75,
+        "costUsd": 0.000146
+      }
+    },
     "0a64f37854fb9ab0c1e1ddf2e16da08326a744b77c595291ac7f60ca4d0e18c6": {
       "normalizationVersion": 1,
       "sourceHash": "a59a73030dbae61849e6a0759676697becf741584a7e9f97c17f169f8b7ea6f3",

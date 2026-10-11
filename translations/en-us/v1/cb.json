@@ -337,6 +337,20 @@
         "costUsd": 0.000071
       }
     },
+    "cb43a2432642d9e2f45671e0c2f53e14a5b2d49d22cf88e0f4a3089f31b075fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "608fa60ce373d92d8a1721fe7aa81480aca62b0aa7cb2fb4e39d819769c2d214",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "它主要为大地图序列化等调用准备，不限制Point-LIO累计PCD、扫描缓存或程序总内存。系统是否接受申请仍受资源限制影响，入口没有检查setrlimit返回值；当前没有相关失败证据，通常保持。",
+      "translatedText": "It is mainly prepared for calls such as large map serialization, and does not limit Point-LIO cumulative PCD, scan cache, or total program memory\\. Whether the system accepts the request is still affected by resource limits; the entry point does not check the return value of setrlimit; there is currently no relevant failure evidence, and it is usually left as is\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 88,
+        "costUsd": 0.000163
+      }
+    },
     "cb43a6fd49d58dd4261c524353b08fb616a06d4937dd7cd1b355e190f3189a0d": {
       "normalizationVersion": 1,
       "sourceHash": "988a1de021a93656b02d29ea4e8452856a05399f240cccf29133532cdcbc65ad",

@@ -337,6 +337,20 @@
         "costUsd": 0.000052
       }
     },
+    "b06b757f71bb81cf73fe4b561373dfc01a9e375c9ffe504ffef1c1274e58272c": {
+      "normalizationVersion": 1,
+      "sourceHash": "b045432aca6255448de8b13e021f5059a1c4eddee031db0888b687ba2d35830b",
+      "contextFingerprint": "ec48a337b9d929e24d93c46b6c078ef606bb8b15341f9e5dc305b3b85d4ecc36",
+      "sourceText": "当前False沿用上游Point-LIO提供的运动估计，仍会生成二维栅格；源码只是跳过本节点的二维匹配、图节点和关联构建。不能据此说整车SLAM已关闭，也不能据此证明长距离二维图不会漂移。[普通处理路径（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "The current False continues to use the motion estimation provided upstream by Point-LIO and still generates a 2D grid; the source code merely skips this node's 2D matching, graph nodes, and association construction\\. This cannot be used to claim that the vehicle SLAM has been disabled, nor can it be used to prove that the long\\-distance 2D graph will not drift\\.[Normal processing path (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 104,
+        "costUsd": 0.000185
+      }
+    },
     "b06d38ed936f4582e900f156bea209ee223ce8e4d3f8e90ec889f00ae42ec765": {
       "normalizationVersion": 1,
       "sourceHash": "c89d9885d5318c68fd939a38b019219f405219dd018afd5d4ada36494b19c5d1",
@@ -419,6 +433,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "b081af9fe7621bbac03e9c1f1f0f926591da785d7d3edac7604377bbba698f27": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b3d5e0eab3579d8d8bd4ec942db089b62e14b131875ca47c85fe6f5c540543c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "结合前一块已经核实的平方分母，当前普通粗搜索x、y各约±0.25 m时，距离系数最低约0.99917；即使粗角度扩至约±80°，角度系数仍约0.9844。二者均高于当前0.5、0.9下限，所以即使以后开启普通匹配，单改这两个下限也可能看不到变化。这是按当前搜索边界计算的结果，未做运行验证。",
+      "translatedText": "Combined with the previously verified squared denominator, when the current coarse search range for x and y is approximately ±0\\.25 m each, the distance coefficient is at least about 0\\.99917; even if the coarse angle is expanded to about ±80°, the angle coefficient is still about 0\\.9844\\. Both are higher than the current lower limits of 0\\.5 and 0\\.9, so even if normal matching is enabled later, changing only these two lower limits may still produce no visible change\\. This is a result calculated based on the current search bounds and has not been verified by running\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 131,
+        "costUsd": 0.000224
       }
     },
     "b082f54a637895ef110916d42dfd4e64128a3e0d252e6b944b9d0cd4e19698ca": {
@@ -741,6 +769,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b0e0700db253c108b62088ef2ff6375b75556cd5b7817a97e88abe54ecccc55c": {
+      "normalizationVersion": 1,
+      "sourceHash": "30c1ed84810add90ba550fe1e4455bea5ed6e25160a800c07891d4ea647a6eb5",
+      "contextFingerprint": "10f92262747418b4e4c8f23a417f2bf05430afca1b9e985be5b1518426d7526d",
+      "sourceText": "当前use_scan_matching=False，从空图建图时没有新图节点可供拖动；但enable=True仍会额外保存已成功处理的原始扫描，即使实际交互未开启。没有人工调整需求时，关闭可减少附加缓存，Karto自身的历史扫描仍存在，不能当作总内存开关。",
+      "translatedText": "Currently use_scan_matching=False; when building a map from an empty map, there are no new map nodes available for dragging; however, enable=True will still additionally save the raw scans that have been successfully processed, even if actual interaction is not enabled\\. When there is no need for manual adjustment, disabling it can reduce additional caching; Karto's own historical scans still exist and cannot be treated as a total memory switch\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 97,
+        "costUsd": 0.000177
       }
     },
     "b0e110c054b23daac0dcee46ec744f79a18e22092b1b330d5ebe9896bcd2f404": {

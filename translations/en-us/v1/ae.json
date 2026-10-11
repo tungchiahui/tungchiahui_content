@@ -15,6 +15,20 @@
         "costUsd": 0.000103
       }
     },
+    "ae093ddf331cf590f99d14704b85c5024573b5b8a539734c8a2c000d1b2fe307": {
+      "normalizationVersion": 1,
+      "sourceHash": "b84b15f94c75e627f49ba983695bd3fb3227f91fe9534ad08a7d8a73e7b14091",
+      "contextFingerprint": "2161311aefb3a8a146229b264df523ec32fc2dd42ce968e1e91508dc3cbcb83b",
+      "sourceText": "| RViz Fixed Frame | 你转云台 yaw 时 | 你整车移动时 |\n|---|---|---|\n| `front_mid360` | **环境点云会动/转** | 环境也会动 |\n| `chassis` | **环境应基本不动** | 环境会动 |\n| `odom` / `map` | 环境应基本不动 | 有正确里程计/定位后，环境也应基本不动 |",
+      "translatedText": "| RViz Fixed Frame | When you rotate the gimbal yaw | When the whole robot moves |\n|---|---|---|\n| `front_mid360` | **The environment point cloud moves or rotates** | The environment also moves |\n| `chassis` | **The environment should remain largely stationary** | The environment moves |\n| `odom` / `map` | The environment should remain largely stationary | With correct odometry or localization, the environment should also remain largely stationary |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ae0c6dbf485ec4be0e8b2554d55c0e47626f34b54a00fbb95e45638e261fbaf2": {
       "normalizationVersion": 1,
       "sourceHash": "ed60c48ed8cd9b2226fadda0076a4e99c7d735169e3f0c6b6fce12bbbbcd1d82",
@@ -309,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "ae4d90cabafc205b3010b6addef03c16dab9018be2e8dcfb227b4821dc071da5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b31c5908b2ff13cdddfb294703544912e6ae3d2c972153340faa27f62d719782",
+      "contextFingerprint": "6f7921c35de8fe8c96b91ce44e8facce286c873874236c4e7795b8b27e0a9d9a",
+      "sourceText": "若设置为`/某个目录/site`，读取的是`site.posegraph`与`site.data`两份文件；后缀由程序补上，不能只给一张PGM或一份PCD。两份文件应来自同一套序列化结果。[序列化读写实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/include/slam_toolbox/serialization.hpp)",
+      "translatedText": "If set to`/某个目录/site`the files read are`site.posegraph`and`site.data`\\. The program appends suffixes, so a single PGM or PCD is insufficient\\. Both files should come from the same serialization result\\.[Serialization read and write implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/include/slam_toolbox/serialization.hpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ae4da55bee11334b311dee190ecd45d0cc6a380531acc52f4a75fb769b678562": {
       "normalizationVersion": 1,
       "sourceHash": "73cc782e8cd12bc36e8fa51ceeba576f00ca863f5e01dec5c3f02c089877f36f",
@@ -387,6 +415,20 @@
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image114.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ae598a022aca06c87af7b52bcba5af01de47676fd1ec5dae8d3b26d1391865bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "8116ebb07a4591629fe127413fdc563385ef487a519460f7252759332773d100",
+      "contextFingerprint": "0d1fa9d78006d6817a4cb4f685f194c83a4624ce4dd6e1511c03832bfbddfad6",
+      "sourceText": "实物／仿真nav2_params.yaml及安装副本的6项值一致，随slam_launch传给sync_slam_toolbox_node。SMapper::configure读取后直接设置到Karto；minimum_distance_penalty的ROS包装层缺省值为0.05，本工程显式覆盖为0.5。[参数读取实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "All six values match across hardware and simulation nav2_params.yaml and installed copies, passed with slam_launch to sync_slam_toolbox_node\\. SMapper::configure reads and directly sets them in Karto\\. The minimum_distance_penalty ROS\\-wrapper default is 0\\.05; this project explicitly overrides it to 0\\.5\\.[Parameter\\-reading implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,

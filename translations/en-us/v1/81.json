@@ -267,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "8138b59ab0b808c9b59ec44358e9b69bb616bf8d57131e0f73c8413494124ee9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c825f3263b9f25df02fcb1a118a48dcabe04dddfcfc3cf7266ccafa82a008a62",
+      "contextFingerprint": "941bb339774ab37dd90cdcacdd370f86a94c598f0ce8d64834db2b8d1700c50e",
+      "sourceText": "###### min_laser_range（建图采用的最近距离）",
+      "translatedText": "###### min_laser_range (the nearest distance used for mapping)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "814a12bb5a2c6a5b868174fb19bafd9283473bd79638b144f577551327bc81c4": {
       "normalizationVersion": 1,
       "sourceHash": "f81f2b02e2e9920d4dc08fe9e6c89c3e3862aac3380b788cc561728b98480fe5",
@@ -293,6 +307,34 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "81508764cca087cff8ac299d294aad1432b8cdfb12b89a4cd15a71fe7feab2e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "874d9812dea7c2191bf5cb976d2b7b2f2f2ead0469275fa23a7b237cd4239dc4",
+      "contextFingerprint": "a6e553f8e0f85891b2670936346a875e30720e7a9ef383b55d94bf739bcd0883",
+      "sourceText": "- 每次把粗搜索半范围再增加20°，最多3次。当前约±20°起步，依次尝试约±40°、±60°、±80°。\n- 一旦粗响应不再近似为0，就停止追加扩角；不是低于闭环0.35／0.45分数门槛就一直扩展。\n- 平移范围、角度步距和雷达量程保持原值；它不去全图寻找位置，也不属于small_gicp的PCD重定位。",
+      "translatedText": "- Each time, increase the coarse search half\\-range by another 20°, up to a maximum of 3 times\\. Currently it starts at about ±20°, then tries approximately ±40°, ±60°, and ±80° in sequence\\.\n- Once the coarse response is no longer approximately 0, stop adding further angle expansion; do not keep expanding just because it remains below the closed\\-loop 0\\.35/0\\.45 score threshold\\.\n- The translation range, angular step, and radar range remain at their original values; it does not search the entire map for a position, nor does it belong to the PCD relocalization of small_gicp\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 145,
+        "costUsd": 0.000245
+      }
+    },
+    "8150949ac0eec05d97e440c17c223138483bb2825057445fb673c5af115ddc9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e75da8f3fc0e5704f4552e03725ee80b3f72bba03eef93d650b541f99728660e",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "因此，扩大8 m搜索区不能找回已被3 m候选距离排除的旧区域。8 m也不是车辆必须走够的距离、雷达量程或绕地图全局找位置的范围；角度搜索另有参数。[候选筛选与平移搜索实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "Therefore, expanding to an 8 m search region cannot recover old regions that have already been excluded by the 3 m candidate distance\\. 8 m is also not the distance the vehicle must travel, the radar range, or the scope for globally searching for a position around the map; angular search has separate parameters\\.[Candidate filtering and translational search implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 77,
+        "costUsd": 0.000147
       }
     },
     "81572fddd82c831786ce9ef3e9d004c607ecde899abb4ee3abdc78f0b7e40838": {
@@ -349,6 +391,20 @@
         "inputTokens": 149,
         "outputTokens": 27,
         "costUsd": 0.000078
+      }
+    },
+    "81707fe5397c3df54784137ab33589d4f3137c0556b91fdd44757e3210c04fab": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a02af6ef7b315544be81b28d7ce456bd0c4cb972bdc466f013677e55cdb5a0c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在有效组合内，固定搜索范围而步距减半，平移候选数量约增为4倍；总工作量还受角度样本和扫描点数影响。相关网格还要覆盖有效回波范围，并非只分配0.5×0.5 m的小方格，减小格距也会增加初始化内存。",
+      "translatedText": "Within the valid combination, if the search range is fixed while the step size is halved, the number of translation candidates increases by about a factor of 4; the total workload is also affected by the number of angle samples and scan points\\. The associated grid must also cover the valid echo range, and is not merely allocated as small cells of 0\\.5×0\\.5 m; reducing the grid spacing also increases initialization memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 94,
+        "costUsd": 0.000171
       }
     },
     "817240e3d26b8cd4b67187513be5ba23d1e038e4b722eeaf99477ce68d0aa760": {
@@ -545,6 +601,20 @@
         "inputTokens": 141,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "81b1b06100b0272090c5569d89a086b8c884c25bc48a2146c3e8741fcd229f4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea686b951479cf9fba067305a57ffa5a1cf2a69177e0aa93194098a4b2b8cb8a",
+      "contextFingerprint": "f9ad69eb152218e5432cb749c1d9159b8b2d8cb22e3a45ff1e8bafeed84aee2f",
+      "sourceText": "1. ysu2026_sentry_robot.def.xmacro    ← 机器人“本体结构”的唯一真源\n2. reality_robot.sdf.xmacro           ← 实车入口：传感器安装、实车专用高度/姿态\n3. simulation_robot.sdf.xmacro        ← 仿真入口：仿真传感器和 Gazebo 插件\n4. model.sdf.xmacro                   ← rmoss_gz_resources 里的 standalone Gazebo 模型入口",
+      "translatedText": "1. ysu2026_sentry_robot.def.xmacro    ← The single source of truth for the robot’s physical structure\n2. reality_robot.sdf.xmacro           ← Entry point for the real robot: sensor mounts and hardware-specific heights and poses\n3. simulation_robot.sdf.xmacro        ← Entry point for simulation: simulated sensors and Gazebo plugins\n4. model.sdf.xmacro                   ← Entry point for the standalone Gazebo model in rmoss_gz_resources",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "81b3d66f8674cd14f01d42db1445752080abd6700a5e6bc7148d250f1614281c": {
@@ -919,6 +989,20 @@
       "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776420416232.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "81f84b6254998bcb35ce1b766f35d3aa8843e5f694038260c1933b7fa4ddfc79": {
+      "normalizationVersion": 1,
+      "sourceHash": "23eaed79feec64e9e27f573122c01a2fcb2a5a208803da2df48b5ecccb55de9d",
+      "contextFingerprint": "b4eb10977a6ad813c08fa9b1f613d773d3e2f8d17ca25b61059b1b91d96c5853",
+      "sourceText": "这项最重要的作用是**单位换算**。当前本地驱动把 MID360 的加速度以 g发布，Point-LIO内部按 m/s²计算，所以 `acc_norm=1.0` 把原始1 g换成约9.81 m/s²。[Livox 驱动的数据单位定义](https://github.com/Livox-SDK/livox_ros_driver2/blob/master/src/comm/lidar_imu_data_queue.h)",
+      "translatedText": "The most important role of this parameter is **unit conversion**. The current local driver publishes MID360 acceleration in g, while Point-LIO calculates internally in m/s². Thus, `acc_norm=1.0` converts a raw reading of 1 g to approximately 9.81 m/s². [Data unit definitions in the Livox driver](https://github.com/Livox-SDK/livox_ros_driver2/blob/master/src/comm/lidar_imu_data_queue.h)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,

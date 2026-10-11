@@ -519,6 +519,20 @@
         "costUsd": 0.000062
       }
     },
+    "02929856a965abed8070155f6f0c50c23ccf63bddafa400bdd9bee71a6c26c47": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cb8f792910b1c068692e66af62ad40b42bbb3466a440139700801c41b6e3238",
+      "contextFingerprint": "1f6965bbab9e1d0e8ad8540cb0f5dd39e0ae9e484230bcccf53ccef2b45fbe7c",
+      "sourceText": "当前保留0.3～10.0 m水平距离的点，按 `sqrt(x²+y²)` 计算，不含z。相同x、y而高度不同的点，只要过高度／高差窗口，测距数值就一样。",
+      "translatedText": "Currently retains points at horizontal distances from 0\\.3 to 10\\.0 m, calculated using `sqrt(x²+y²)` without z\\. Points with identical x and y but different heights therefore have the same range value, provided they pass the height and height\\-difference windows\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0295f903134327f6cb4033a07a70cb57e4bd23ed3b93c89035a2d6bfa34027b7": {
       "normalizationVersion": 1,
       "sourceHash": "61373d15db7823e4ea48d0a29e698e9b70094a01f48cc7e2ad3612be90fd5c0f",
@@ -811,6 +825,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "02d7492c73ef61215f76a48e5a648a27c7000a540fbbbe9d72297cbff0c2367e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0e2730450c3552063d630945ea79494a1b31907c6ee587dfa59b5455ca0a569",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "0.05 m表示一格5 cm。调大如0.1 m，格子变粗，小杆、墙边或窄口可能合并；调小如0.025 m，格子更细，但不会补出雷达没采到或上游已删掉的点。",
+      "translatedText": "0\\.05 m means one grid cell is 5 cm\\. If increased to, for example, 0\\.1 m, the grid becomes coarser, and small rods, wall edges, or narrow openings may be merged; if decreased to, for example, 0\\.025 m, the grid becomes finer, but it will not recover points that the radar did not sample or that were already deleted upstream\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 89,
+        "costUsd": 0.000164
       }
     },
     "02dcc925629da661eb07e2351005507d60ff7d2069b5a111f1d47d346011131b": {

@@ -365,6 +365,20 @@
         "costUsd": 0.000067
       }
     },
+    "44687f5b1b54f55f6d8b57e702f4ff856786e3587a323dd7e51f5d492e6045d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d54b3376cd0397813a40a46cedd5bec6a06492a7ceba0a4193e4a8994827a87e",
+      "contextFingerprint": "9a8c352c7f50a2ed44fa74529d95a578c7b9bc4df71b1a664bdd22204b91439b",
+      "sourceText": "若transform_publish_period为正，源码还把发布的map→odom戳设为“最近扫描戳+transform_timeout”；这不是预测未来运动。当前period=0，这个用途没有参与输出。它也不会给输入点云补运动补偿、把逐点时间单位改正确，或将TF历史缓存变长。",
+      "translatedText": "If transform_publish_period is positive, the source code also sets the published map→odom stamp to \"latest scan stamp \\+ transform_timeout\"; this is not predicting future motion\\. Currently period=0, so this use does not participate in the output\\. It also does not add motion compensation to the input point cloud, correct the per\\-point time units, or make the TF history cache longer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 100,
+        "costUsd": 0.000183
+      }
+    },
     "4474deacdd0d12ad893e65ed4c676a45ddec5409348a56180516a1552734b2e1": {
       "normalizationVersion": 1,
       "sourceHash": "6e2dcb10bbc88037e00dfcf612507d18e23dd12a9250e814dd8d49a1a30903f4",
@@ -531,6 +545,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "44ab2d926a362bba48702fb0543e93517396de07b520af991cd3e5d539320e04": {
+      "normalizationVersion": 1,
+      "sourceHash": "964a0756888f55bafd441abc0608c7633406a136ee3731e2c552619e057612ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前False适合普通观察；True可让实际Ceres求解输出完整报告，但当前自动图优化没有触发，这一报告不会凭开关自动出现。",
+      "translatedText": "Currently, False is suitable for ordinary observation; True enables the actual Ceres solver to output a complete report, but currently automatic graph optimization is not triggered, and this report will not automatically appear just by toggling the switch\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 52,
+        "costUsd": 0.000111
       }
     },
     "44acf3e8cdeffadf0a533a19818eeb61273137b858a54618b1fa70f6420265cd": {

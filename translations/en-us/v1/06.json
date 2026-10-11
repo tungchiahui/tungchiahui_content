@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "06040580bf20c1f9ea64ba81871619126aac07c860ed613d0030be5741734a8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d1fa377de73148f791b6d19393b11afab019a2638746cc9cb85d2e58642ce1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调整时要一起看前两项：本项变大，粗候选减少，但内部精搜索范围会变宽；本项变小，粗候选增多，但精搜索范围会变窄。源码按round(总范围／步距)+1取候选数，宜保持范围与步距能够合理分段，不能把粗、细两项当成互不相关的独立旋钮。",
+      "translatedText": "When tuning, the first two items should be considered together: if this item increases, the coarse candidates decrease, but the internal fine search range widens; if this item decreases, the coarse candidates increase, but the fine search range narrows\\. The source code takes the number of candidates as round(total range / step size) \\+ 1, so it is advisable to keep the range and step size segmentable in a reasonable way, and the coarse and fine items must not be treated as mutually independent knobs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 109,
+        "costUsd": 0.000194
+      }
+    },
     "0608a8afb35003a02afb1cd4517baca3b156f11688bf7eb9b8ce26f2518c8d45": {
       "normalizationVersion": 1,
       "sourceHash": "6dbe27896a5344ee44733b1d253f40d4289cecfb33a58aba0c1afaf84b3a39e5",
@@ -167,6 +181,20 @@
         "inputTokens": 162,
         "outputTokens": 43,
         "costUsd": 0.000101
+      }
+    },
+    "063437f1a9a2127967768fb4a5a71f14d84d99e550a39148f93ea880dbdb71b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7d896d367449bed74c1d842a04475855131d25faeea8b633390fa7e10fa79af",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再抬头/低头时，不应该跟 pitch 改变",
+      "translatedText": "When the gimbal subsequently tilts up or down, this should not change with pitch.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "06359a92f4e2b40b3c66a4e73a4ee07944f9ecbb330f16701d3db9aa62a18e1c": {

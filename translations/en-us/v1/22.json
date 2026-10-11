@@ -155,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "222a5f998337c4e5b50afdf1dfa21e31b8c49689c4371092145c53d6382fb46f": {
+      "normalizationVersion": 1,
+      "sourceHash": "02ec4628048ce84a2e046be3ef900b61d8f7ac2ab3cb6fd9884b169b40cec544",
+      "contextFingerprint": "263bd837603ef395dbd07eb460aa51929656888d3f7537cce4d074f6e7bb7448",
+      "sourceText": "###### minimum_time_interval（扫描最短放行间隔，还有位移门槛）",
+      "translatedText": "###### minimum_time_interval (scanning the shortest release interval, and there is also a displacement threshold)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "222f49e0383bde1cf308022da16a757823bd80e77ea74b11990a40d3ce5cdc39": {
       "normalizationVersion": 1,
       "sourceHash": "de06df96d70e42b430b461e4533feed2b13946c401240982b5f2c638baa5716b",
@@ -419,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "2274098e4c17e85223284f7dcfd86ef89e116894e83bd307e548b62f8630d753": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d0a9f654bfcb5f88d4b4575dac1f565d3676856909cef3415b3f4e3ae2471b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前一次更新有效匹配少于30个点时，调大通常降低激光影响；达到30个点时，另一条公式的影响方向相反。这里统计的是一次逐点／时间组更新，不是整帧点数。源码不一致已确认，实际触发和影响尚未测试，当前保留0.01。",
+      "translatedText": "When a single update currently has fewer than 30 valid matched points, increasing this value generally reduces the LiDAR’s influence. Once it reaches 30 points, the other formula has the opposite effect. The count applies to one per-point or time-group update, rather than a complete frame. The source-code inconsistency is confirmed, but its actual activation and effects have not been tested. The value remains 0.01 for now.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "2274655ea4e36eae74b7fb09345d31c6e7e4a3936c9d3b2646b83946921fd25f": {
@@ -965,6 +993,20 @@
         "inputTokens": 181,
         "outputTokens": 62,
         "costUsd": 0.000129
+      }
+    },
+    "22dea812e20782b08290bf437e8f55dcb08b3513b0422809602a7c7f94e57248": {
+      "normalizationVersion": 1,
+      "sourceHash": "605aea8c8ad1dd7a4152dc6cde5362f161a4dc09c2e60054f6931038e94b6676",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以下按源码与实物 YAML 核对。转换成立的前提是上游输入确实为雷达位姿；上一块记录的内部 IMU／雷达位姿接口缺口仍会影响本节点，不能在这里靠改坐标系名称补齐。",
+      "translatedText": "The following checks use the source code and hardware YAML\\. These transformations require the upstream input to be an actual LiDAR pose\\. The internal IMU and LiDAR pose interface gap recorded above still affects this node and cannot be fixed here by renaming coordinate frames\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "22eb07878422b50d4833d2462bdc38e92b4f288198cafe9516faf3f40c1f96b4": {

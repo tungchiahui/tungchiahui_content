@@ -127,6 +127,20 @@
         "costUsd": 0.000054
       }
     },
+    "151b580ec7a85a42cc2bc89d76b1a34348239bd5ca853dc81430a02f84206199": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2c1ea4729787ad8cea6941679644a02fd17add6f18089ffe5786a786eec9662",
+      "contextFingerprint": "0e30d49d156cd76b73a1bbf45c571d1702a759770945536edc016da34abfdd3c",
+      "sourceText": "###### use_response_expansion（粗响应接近0时，只扩大角度重试）",
+      "translatedText": "###### use_response_expansion (when the coarse response is close to 0, only expand the angle and retry)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
     "151c9a24c5a3a9a8eae6fe49c1544453b93d639893c2013d74efff71bfab961d": {
       "normalizationVersion": 1,
       "sourceHash": "36546289a28f6bda101b482d210bff4a081a69e45eb06f2e33be5486a6c795d1",
@@ -461,6 +475,20 @@
         "inputTokens": 138,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "15823eef945abf1f3ea5d5f3367a3517bbf3e37bfe6ad35cc89092e09f22aed8": {
+      "normalizationVersion": 1,
+      "sourceHash": "95fcdc0b4b61083f91d0da9b617b1def8fac51cee76b93eb0ab0e3b3a2b8148a",
+      "contextFingerprint": "683dfc485ccda237ce61ace195ac712614a49c09c59c6876095c138b6d29eb63",
+      "sourceText": "两项下限按正常评分语义取0～1。设1会使对应项不再扣分；设0仅允许系数降到0，不代表关闭惩罚。源码没有完整的区间校验，不应以超出区间的值表示更强或更弱的正常惩罚。[评分系数与下限实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "Both lower bounds take values in the range 0 to 1 under normal scoring semantics\\. Setting 1 will prevent the corresponding term from incurring any further penalty; setting 0 only allows the coefficient to drop to 0, and does not mean the penalty is disabled\\. The source code does not perform complete range validation, so values outside the valid range should not be used to express stronger or weaker normal penalties\\.[Scoring coefficient and lower\\-bound implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 98,
+        "costUsd": 0.000174
       }
     },
     "1582cb2c624a051f2a6d0d58df19e0cfa4bbb935a007ef6bceca4731bc4c14e7": {

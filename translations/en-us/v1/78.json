@@ -841,6 +841,20 @@
         "costUsd": 0.000059
       }
     },
+    "78e7933c33a1bd5319ea71873e5f6fd5cb83904a1885494888c4d1597a8791b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "74924a7bf15137337fbc1242c3b5fadd367eb551e788878cfa93f258fa961aee",
+      "contextFingerprint": "10f92262747418b4e4c8f23a417f2bf05430afca1b9e985be5b1518426d7526d",
+      "sourceText": "当前use_scan_matching=False，不执行普通匹配评分；但首次合法扫描进入Karto时仍会创建匹配器，使用这3项分配网格并检查数值组合。因此，当前先保持，不能把“未执行匹配”理解为任意设置都无影响。",
+      "translatedText": "Currently use_scan_matching=False, so ordinary match scoring is not performed; however, when the first valid scan enters Karto, a matcher is still created, using these 3 items to allocate the grid and check the numerical combination\\. Therefore, for now, keep it as is; \"match not performed\" cannot be understood to mean that any settings have no effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 87,
+        "costUsd": 0.000163
+      }
+    },
     "78ea824c9a5a49c8e5a2609499dac32fab7a8f2886f0a796a78224b5689bc8ae": {
       "normalizationVersion": 1,
       "sourceHash": "f4c8e69eaabaabd7dcf9aa9ffe6fd78be3af50a13c9800ec7f77950cb8742f2a",

@@ -113,6 +113,20 @@
         "costUsd": 0.000059
       }
     },
+    "da2409e2e3944ead1191920eee36f08cb769db2f859bc715e79838b1aacce7cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "255584da903cd09d0cabbd7349db94121c8db3ab1b74e24db828f64e19d186b5",
+      "contextFingerprint": "32bb4ab24bdd165e0e3ac57e886aa0017c19ce1ebecd2036c063b1664741c55f",
+      "sourceText": "雷达点在上游已通过TF转换到底盘投影系；这里不应再次手工叠加front_mid360的安装偏移或云台yaw。若两边仅改frame_id而没有真正变换坐标，地图仍会错误；参数名称一致也不能证明上游IMU／雷达／底盘转换正确。",
+      "translatedText": "Upstream TF has already transformed LiDAR points into the chassis projection frame\\. Do not manually add front_mid360’s mounting offset or gimbal yaw again here\\. If either side merely changes frame_id without transforming coordinates, the map remains wrong\\. Matching parameter names also cannot establish that upstream IMU, LiDAR and chassis transformations are correct\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "da267935e7e083c8be545e08be987ff39cc021e4ea80bbe7e9ef8e8baca323c7": {
       "normalizationVersion": 1,
       "sourceHash": "407e7a725c8ea39004f1a81dbb2016eb4dc7a111c9c345b214c556dd3225ca1c",
@@ -475,6 +489,20 @@
         "inputTokens": 159,
         "outputTokens": 41,
         "costUsd": 0.000097
+      }
+    },
+    "daa20207c046cd42094ed0b776b9aa79b5bd41094bc58b5782246e52e2bba79b": {
+      "normalizationVersion": 1,
+      "sourceHash": "be599b562c2040b261fe8a5f198f6f61f56cab214bba408dc8019cf94cb63b21",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接在rviz2里进行测试也是一样的，在rviz2里打开TF插件看各个坐标系。",
+      "translatedText": "Testing directly in rviz2 is also the same; open the TF plugin in rviz2 to view the various coordinate frames\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "daa230b735bd331d3e1ac117089ed7e4390c7ce973cd8ea6d9ba2a126cbb5685": {

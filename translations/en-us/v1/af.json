@@ -701,6 +701,20 @@
         "costUsd": 0
       }
     },
+    "af8d842dec285fe6254e9a69929ee0394978a2b2f570b85d3bf6b59c3b50e0e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2e3d067980b69690d411417171aa06a80c9bc89ca8eb733088fd0a01d34e3c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "涂抹会按网格离散：当前组合生成3×3格的核，从中心向x、y各扩一格，即5 cm，邻格分值逐渐降低。因此，标准差3 cm与核的实际覆盖边界不是同一量；它也不直接加厚保存的墙体或改变导航障碍膨胀。",
+      "translatedText": "Smearing is discretized on a grid: the current combination generates a 3×3 cell kernel, extending one cell from the center in each of the x and y directions, i\\.e\\., 5 cm, with neighboring cell scores gradually decreasing\\. Therefore, a standard deviation of 3 cm and the kernel's actual coverage boundary are not the same quantity; it also does not directly thicken the saved walls or change navigation obstacle inflation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 94,
+        "costUsd": 0.000171
+      }
+    },
     "af8d8d72786f4e8cf47e41c952e610cb232934c5015c8860f0e966f05e27b4ed": {
       "normalizationVersion": 1,
       "sourceHash": "92cf6651ed3817e257ac9ae0a76226aeeb2760e7772197e7368704af3fb69421",

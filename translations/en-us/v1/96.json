@@ -617,6 +617,20 @@
         "costUsd": 0.000051
       }
     },
+    "9688e0784fc67afa877721b41a989a2651fe644a8efb941d913c793391849633": {
+      "normalizationVersion": 1,
+      "sourceHash": "e20b1368f5e00d35b799e85d5f5f44d0690722fedc6359fed97b2a4d1b41f09c",
+      "contextFingerprint": "5e80d9cab348cac43e1b441d0681cf3830bd5d97b6f96bac2c404ad420875cce",
+      "sourceText": "源码中的普通近邻链LinkNearChains也使用它，所以即使以后do_loop_closing仍False，只要开启扫描匹配，它也可能影响普通图关联。当前这两条关联路径都未启用，先不调整。",
+      "translatedText": "LinkNearChains, the ordinary near\\-neighbor chains in the source code, also use it, so even if do_loop_closing remains False in the future, as long as scan matching is enabled, it may still affect ordinary graph association\\. Currently, neither of these two association paths is enabled, so no adjustment will be made for now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 81,
+        "costUsd": 0.000153
+      }
+    },
     "9688e378bde80571aad85a5137cac0bc96f4c7d49015d11254a8198aa0156086": {
       "normalizationVersion": 1,
       "sourceHash": "3e792fb33b1200e4e89466531969340db4921a058211b897e0a290e6acf2611c",
@@ -1035,6 +1049,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "96c96bf42603266071ce6f0c568d14a5549b7741c8b190eb4bdff5af1e291655": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1cdb5f779991012e6557d87b4e1e1ac9d7d6866449be6ffe8d168580d0bbb73",
+      "contextFingerprint": "cef0a106eebe5fee293a8d20b597fb51aa7d7445f2565fcc52d37f17a1015537",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `prior_pcd.enable` | `False` | 不适用，布尔 | **根据实际功能需求开启或设置** | 选择初始地图来源：当前扫描或已有 PCD | 不适用 | 不适用 | False：从当前扫描建立初始地图；True：加载先验 PCD；集成建图的 slam_launch.py 强制为 False，切换工作方式后按用途配置 |\n| `prior_pcd.prior_pcd_map_path` | YAML 未设置；程序默认 `\"\"` | 不适用，文件路径 | **根据实际功能需求开启或设置** | 指定先验 PCD 文件 | 不适用 | 不适用 | 当前未启用先验，无需填写；仅启用先验时读取；定位 launch 会传入路径，直接运行节点不会自动获得该路径 |\n| `prior_pcd.init_pose` | `[0.0,0.0,0.0]` | m，分别为 x/y/z | **当前运行不使用这个参数，暂不调整** | 给内部 IMU 的位置状态赋初始位置 | 某分量增大，位置沿对应坐标轴正方向偏移 | 某分量减小，位置沿对应坐标轴负方向偏移 | 仅 `enable=True` 且 `use_imu_as_input=False` 时使用；实际赋值位于首次输出位姿阶段 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `prior_pcd.enable` | `False` | Not applicable; boolean | **Enable or configure as needed** | Select the initial map source: the current scan or an existing PCD | Not applicable | Not applicable | False: build the initial map from the current scan; True: load a prior PCD\\. The integrated mapping slam_launch.py forces False; configure according to the intended mode after switching |\n| `prior_pcd.prior_pcd_map_path` | Absent from YAML; the program defaults to `\"\"` | Not applicable; file path | **Enable or configure as needed** | Specify the prior PCD file | Not applicable | Not applicable | Prior\\-map mode is currently disabled, so this need not be set\\. It is read only when prior\\-map mode is enabled\\. The localization launch supplies the path; running the node directly does not obtain it automatically |\n| `prior_pcd.init_pose` | `[0.0,0.0,0.0]` | m; respectively x/y/z | **Unused in the current execution path; leave unchanged for now** | Set the initial position of the internal IMU position state | Increasing a component shifts the position along that coordinate axis’s positive direction | Decreasing a component shifts the position along that coordinate axis’s negative direction | Used only when `enable=True` and `use_imu_as_input=False`; the assignment occurs when the first pose is output |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "96caff077366047146df8b5505c1e72200a961bc6a2fa81c8a69b443a4e8fc63": {

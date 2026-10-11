@@ -155,6 +155,20 @@
         "costUsd": 0.000064
       }
     },
+    "ea1a216dd9af2205347626bd9f1511de63ad5149249353f553929a86e57f1c8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8eb27ab8bc625361e2b3a315ff5e565ad0d6a1c51d0f897c62feb9c0306ca528",
+      "contextFingerprint": "d3076adcc9ecce74e105dbf2d4ff140faf107b327640f000de2d1c309a2590b3",
+      "sourceText": "- **源码依据：** `pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp`；启动接线见 `pb2025_nav_bringup/launch/slam_launch.py`，LaserScan字段定义见ROS2 sensor_msgs。\n- **已有验证范围：** 独立Point-LIO静止与短距离往返已有输出记录；该转换节点的二维扫描、建图轮廓、云台连续yaw和坡道投影尚未验证。\n- **实物待核实：** 底盘原点与投影平面、IMU／雷达／底盘转换、上下坡点是否被固定高度窗口截掉、低障碍与悬空结构的保留范围、自车回波、角度覆盖、实际扫描周期及无回波区域的下游处理。",
+      "translatedText": "- **Source\\-code references:** `pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp`; launch wiring is in `pb2025_nav_bringup/launch/slam_launch.py`, and LaserScan field definitions are in ROS2 sensor_msgs\\.\n- **Existing verification scope:** Standalone Point-LIO output while stationary and during short back\\-and\\-forth motion is recorded\\. This converter’s two\\-dimensional scan, mapping outlines, continuous gimbal yaw and slope projection remain unverified\\.\n- **Pending hardware checks:** Chassis origin and projection plane; IMU, LiDAR and chassis transformations; uphill and downhill clipping by fixed height windows; retained low obstacles and suspended structures; self returns; angular coverage; actual scan period; and downstream treatment of no\\-return regions\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ea1b27530bef6b1dea22b47ea8db305ced42cb5af7bde6b6939f6e209df5502a": {
       "normalizationVersion": 1,
       "sourceHash": "d16ea54bab9beb0c7dec8824d0dc3ebbefae53bef54a7cb09bded7555d32791b",
@@ -673,6 +687,20 @@
         "costUsd": 0
       }
     },
+    "ea981a84c238cbaebcab21c61cb0c1c215943a591c95b943dbd758ab79fc2d73": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b7c07646180f4f575f251280dab75123919c6b87a3a09af6742c2f9cfa556b5",
+      "contextFingerprint": "cd90bdc1a712e55621efa577e937596e469c68c6a340cc4204893b908b6e6e41",
+      "sourceText": "- **源码能确认：** 当前配置关闭二维匹配和自动闭环；距离／转角仍有作用但受两层门槛约束；重心只改变图距离参考；近期窗口不限制全部历史；链长度还用于普通关联；闭环方差单位m²，响应值不是成功概率。\n- **已有验证范围：** 仅独立Point-LIO静止与约20 cm低速往返；未验证slam_toolbox长距离、转弯、独立云台yaw、闭环或与PCD的一致性。\n- **实物待核实：** 移动／原地转动时实际入图连续性，长距离及重访误差，坡道有效二维轮廓、遮挡与动态干扰；若需启用匹配／闭环，还须核对二维修正与PCD及定位参考系的衔接。",
+      "translatedText": "- **Confirmed from the source code:** Current settings disable two\\-dimensional matching and automatic loop closure\\. Distance and rotation remain active but face two layers of gates\\. The barycenter only changes the graph\\-distance reference\\. The recent window does not limit all history\\. Chain length also serves ordinary associations\\. Closure variance uses m², and response scores are not success probabilities\\.\n- **Existing verification scope:** Only standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. slam_toolbox’s long\\-distance behavior, turns, independent gimbal yaw, loop closure and PCD consistency remain unverified\\.\n- **Pending hardware checks:** Actual scan insertion continuity during movement and rotation in place; long\\-distance and revisit errors; valid two\\-dimensional ramp outlines; occlusion and dynamic interference\\. Enabling matching or loop closure also requires checking how two\\-dimensional corrections connect with the PCD and localization frame\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ea9a5a99f0c0cf2bd8967736f36dae2102b0d6d0b45f7d6061d2f8d4d9ff43d9": {
       "normalizationVersion": 1,
       "sourceHash": "ae3104423e3052d1b26333e57ef00f795ef664086081a74e2a0d75d9470f73c4",
@@ -895,6 +923,20 @@
         "inputTokens": 178,
         "outputTokens": 62,
         "costUsd": 0.000128
+      }
+    },
+    "eae7e829d96e0968f7b46d1e6f3f872bf138d2550a61756fedd42e5647424fe7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d66e12c1b12c28c6b6b19c8e14d6638980ea370022c2333598096deaee5b609f",
+      "contextFingerprint": "37fe7d141cadc91ae191b15dc33473025475ee0a5054378b5fdb1cd9df88a4e4",
+      "sourceText": "| 实车上看到的现象 | 先看哪些参数或条件 | 怎样理解 |\n|---|---|---|\n| 正常坡面被画成障碍 | 地形估计、`min_intensity` | 当前10 cm高差门槛可能接纳被误估成凸起／凹陷的坡点；降低门槛也会接纳更多小障碍和噪声 |\n| 下坡较远处的点消失 | `min_height`、target_frame方向 | 这里重新要求底盘系z不低于-0.5 m；上游按距离放宽高度范围，并不保证能通过这里 |\n| 高处横梁、悬空结构被画成墙 | `max_height`、`max_intensity`、上游地形筛选 | 通过筛选的点会压到二维平面；目前z上限6 m很宽，是否妨碍车辆通行需按实车包络判断 |\n| 车旁小障碍没进入地图 | `range_min`、`min_intensity` 和上游输出 | 0.3 m内的点或高差不足10 cm的点会被删；本节点也不能恢复上游丢掉的点 |\n| 小杆或障碍边缘漏掉 | `angle_increment`、点云密度 | 当前约0.5°一个角度格，每格只留最近合格点；分格更细不能补出原本没有的回波 |\n| 以为扫描固定20 Hz，实际不是 | `scan_time`、输入点云周期 | 0.05 s只写入消息，发布由点云回调驱动，没有20 Hz发布定时器 |\n| 有点云却没有扫描 | 下游订阅、坐标TF、字段 | 没人订阅扫描时不接点云；当前需要有效TF以及XYZ、intensity字段 |",
+      "translatedText": "| Observed on hardware | Parameters or conditions to check first | Interpretation |\n|---|---|---|\n| Normal slopes appear as obstacles | Terrain estimation and `min_intensity` | The current 10 cm height\\-difference threshold may accept slope points incorrectly estimated as bumps or depressions\\. Lowering it also accepts more small obstacles and noise |\n| Distant downhill points disappear | `min_height`, and the direction of target_frame | This stage again requires chassis\\-frame z to be at least \\-0\\.5 m\\. Upstream distance\\-based height expansion does not guarantee acceptance here |\n| High beams and suspended structures appear as walls | `max_height`、`max_intensity`, and upstream terrain filtering | Accepted points are projected onto a two\\-dimensional plane\\. The current 6 m z upper bound is broad; assess obstruction using the actual robot envelope |\n| Small obstacles beside the robot are absent from the map | `range_min`、`min_intensity` and upstream output | Points within 0\\.3 m or with height differences below 10 cm are removed\\. This node also cannot recover points discarded upstream |\n| Thin poles or obstacle edges are missed | `angle_increment`, and point cloud density | Each angular cell currently spans about 0\\.5° and retains only the nearest qualifying point\\. Finer cells cannot create returns absent from the input |\n| The scan is assumed to run at a fixed 20 Hz, but does not | `scan_time`, and the input point cloud period | 0\\.05 s is only written into the message\\. Point cloud callbacks drive publication; no 20 Hz publication timer exists |\n| Point clouds arrive, but no scan appears | Downstream subscriptions, coordinate TF and fields | Without scan subscribers, point clouds are not subscribed to\\. Currently requires valid TF and XYZ and intensity fields |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "eae93594011a90ecef0b8da4cf8e97f04e804195f5c3636c8cc98a8b0b9fbeca": {

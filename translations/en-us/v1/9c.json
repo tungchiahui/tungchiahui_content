@@ -295,6 +295,20 @@
         "costUsd": 0
       }
     },
+    "9c55050172803c7f9a45d64159594baa792c8db37a680bc438859d00dc49ccd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "1716b0f5e31307f742e12ca33e92d8693d0f06b963df29dd9af3814eaa76b9e6",
+      "contextFingerprint": "ae9d43f7b77bf8ae81a306691a7307403541773242182fae0e3a11772b5f3a42",
+      "sourceText": "fine和coarse步距应使用有限正数；读取链没有对非正值自动回退的处理，也没有运行中修改这些ROS参数后同步更新内部匹配器的回调。教程里的rough_search_angle_offset不属于此处实际读取的参数名，当前键名为coarse_search_angle_offset；“自动增大网格”的泛化描述也应按这里实际只扩角理解。",
+      "translatedText": "fine and coarse step sizes should use finite positive numbers; the reading chain does not automatically fall back for non\\-positive values, nor does it have a callback to synchronously update the internal matcher after modifying these ROS parameters during runtime\\. The tutorial's rough_search_angle_offset is not a parameter name actually read here; the current key name is coarse_search_angle_offset; the generalized description of \"automatically increasing the grid\" should also be understood here as only expanding the angle\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 217,
+        "outputTokens": 112,
+        "costUsd": 0.0002
+      }
+    },
     "9c550e40853f759a4a32b97bab10a899da96e7b2cab578195abad6a060d973aa": {
       "normalizationVersion": 1,
       "sourceHash": "c59fce8739c7c6e5e9d4efd00d6a1bd476dede8bc8e82e0521cc33f30fd8bb34",
@@ -377,6 +391,20 @@
         "inputTokens": 188,
         "outputTokens": 80,
         "costUsd": 0.000153
+      }
+    },
+    "9c6a80759a61df74a31ddb16ca76f072c975cedfb0efaf43ea0edcdda0d7d1ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "98f6ad44074cb2f69b9b1ee96ff70d6a8c37a61517497173c70ae2dfa5619202",
+      "contextFingerprint": "23d8b3171d0dc5aef2d519f5281c756fbe27e5b8d835c10475518efd5fd285ee",
+      "sourceText": "###### minimum_angle_penalty（角度项至少保留多少分）",
+      "translatedText": "###### minimum_angle_penalty (minimum score to retain for angle items)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "9c6e4dd35108e317984733c384ca50d579ef6cc0378676fa77f2529380290d63": {

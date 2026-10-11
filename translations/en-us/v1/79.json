@@ -561,6 +561,20 @@
         "costUsd": 0.000075
       }
     },
+    "797656f5271cdd6e6a8ffa8d8ee0393fea50ac83a7704ff28a8df5e2be1438f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4421c6bd023ca15babb5b995dada47e97135732a777556f2525d6f8f6569a6f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开启闭环后，3 m用于筛选当前扫描与旧扫描参考点的距离，不代表在3 m内就认定回到旧位置。候选还需经过链和匹配条件；后续匹配搜索网格的范围是另一组参数。",
+      "translatedText": "After loop closure is enabled, 3 m is used to filter the distance between the current scan and the reference point of the old scan; it does not mean that returning to the old position is determined if within 3 m\\. Candidates still need to pass the chain and matching conditions; the range of the subsequent matching search grid is another set of parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 77,
+        "costUsd": 0.000145
+      }
+    },
     "797724139649c5dc406bdaef9a84a3e43df55663e65ec34649ef04dd83f8a4d7": {
       "normalizationVersion": 1,
       "sourceHash": "f5f70a60166061d982de924ff9131a771ef616b2ebdd7805403a8774a8a900a2",
@@ -909,6 +923,20 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "79c885dccb3116468a37c65deb4244d2957d6697790cbe0011ef994eca428a40": {
+      "normalizationVersion": 1,
+      "sourceHash": "367abbf27fca3ddb6d0dd00da60f721b81e5a0826cc94d26c8b820cee6a7c394",
+      "contextFingerprint": "2170f4aa13981be41163dcedf91ca1afbea4e6ddbca5acab9fef8697d162f59f",
+      "sourceText": "###### loop_match_maximum_variance_coarse（粗匹配位置分散程度，单位m²）",
+      "translatedText": "###### loop_match_maximum_variance_coarse (coarse matching position dispersion, unit m²)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "79c89c7ef78b30b4d5df2bdc0e30378e97ec92a04dd4bc1b1054b22bf8b23974": {

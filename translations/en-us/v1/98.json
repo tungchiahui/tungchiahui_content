@@ -743,6 +743,20 @@
         "costUsd": 0.000168
       }
     },
+    "98d62fabd78c3c14e4f2f0ff455d3870452082c57c5a3d08cbc56ef41fdf81d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f3206801db55c29c2277bface8d36e0c0d5c7fe75228fe7eced1ff21d73eeb4",
+      "contextFingerprint": "bf12f873f3560720a9d32751971284627195882a02ae94c866e9a6d59a11e978",
+      "sourceText": "范围或格距组合的检查使用assert，实际是否触发还取决于编译时是否启用断言；不能仅凭程序能启动就判断组合合理。涂抹范围检查则明确抛runtime_error，错误文案可能写“too small”，即使实际是超过上限。[涂抹核及取值限制](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Mapper.h)",
+      "translatedText": "The check of the combination of range and grid spacing uses assert; whether it actually triggers also depends on whether assertions are enabled at compile time; one cannot judge that the combination is reasonable merely because the program can start\\. The smearing range check explicitly throws runtime_error, and the error message may say \"too small\" even though the actual problem is exceeding the upper limit\\.[Smearing kernel and value limits](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Mapper.h)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 96,
+        "costUsd": 0.000175
+      }
+    },
     "98e1e8ffd8da2c6880a8d7e1ddb3415f72156d207c3d0b005534ab1d81542d41": {
       "normalizationVersion": 1,
       "sourceHash": "981ec682c4403ecec0682f6ce1040207c6ceaf1c4c6f123cd39b0bfd177bffe0",

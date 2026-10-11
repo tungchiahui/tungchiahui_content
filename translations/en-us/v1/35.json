@@ -505,6 +505,20 @@
         "costUsd": 0
       }
     },
+    "359505196f7eb7dc6e004b27950cdba02316bec06da40c9e86f660d901da0df2": {
+      "normalizationVersion": 1,
+      "sourceHash": "e34f7bf1a494e5fc2c111d752f6a5e561e6882ff1fc1026b0d3deb5fb03a219f",
+      "contextFingerprint": "fb6784e3ace19351ff7c9c5d8d5996c5b5f9fa81836a9e571c4e4efe6fc92412",
+      "sourceText": "首帧之后，原地转底盘或独立转云台时，若底盘TF的x、y基本不变，后续扫描会被这层拦住；单独缩短minimum_time_interval并不能解决。后续Karto层的minimum_travel_heading还没机会介入，不能凭设置了转角阈值就认定原地旋转会正常更新地图。这里是源码条件，尚无本节点转弯或独立yaw验证。",
+      "translatedText": "After the first frame, when rotating the chassis in place or rotating the gimbal independently, if the x and y of the chassis TF remain essentially unchanged, subsequent scans will be blocked by this layer; simply shortening minimum_time_interval does not solve the problem\\. The minimum_travel_heading of the subsequent Karto layer has not yet had a chance to intervene, so one cannot assume that in\\-place rotation will update the map normally just because a rotation angle threshold has been set\\. This is the source code condition, and there is still no verification of turning or independent yaw for this node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 221,
+        "outputTokens": 137,
+        "costUsd": 0.000231
+      }
+    },
     "35994dafb0b884b9dca82e1d15b2d7fb41ead5496b96b1111f3ed0c45f8d85ae": {
       "normalizationVersion": 1,
       "sourceHash": "bf984b8fcdec1bf50ba5c27968d2c6a9c3e52a5cc3236a4da0cb0be44a50539e",

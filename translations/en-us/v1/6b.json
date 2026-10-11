@@ -71,6 +71,20 @@
         "costUsd": 0.000077
       }
     },
+    "6b0cfc03968fe9d2e8c17b80a267633b399cf1c63ef1fc99ab0d3a78963ff71c": {
+      "normalizationVersion": 1,
+      "sourceHash": "69e200b95bbfad170583c0c5228de1dcf58876a0d96e024c08cf90509b98bc55",
+      "contextFingerprint": "7bf0fd7a5e5b69c6824bb780b11cd1b62b998edb3b6eba7282a144364a9b9d94",
+      "sourceText": "历史缓存按写死的2 m水平分块管理。每块新入点达到100，**或**距上次更新达到2.0秒，**或**发生清图，才重新降采样并检查年龄；这些步骤仍由新扫描驱动。`decayTime=0.2 s` 是检查时使用的过期门槛，不能覆盖这个触发条件。",
+      "translatedText": "The historical cache uses hardcoded 2 m horizontal blocks\\. A block is downsampled again and checked for age only when it receives 100 new points, **or** 2\\.0 seconds have elapsed since its last update, **or** a clearing event occurs\\. New scans still drive these steps\\. `decayTime=0.2 s` is the expiration threshold used during the check and cannot override its trigger conditions\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6b16976bed58fcd1645dc7b903f552cf13733936a51cd483405b10b63f6faa84": {
       "normalizationVersion": 1,
       "sourceHash": "8c9045c69afa60a75427a5b59df7352541074f4276353d5d88c753fcd5f4513d",

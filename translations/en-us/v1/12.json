@@ -701,6 +701,20 @@
         "costUsd": 0.000061
       }
     },
+    "12c1d415a4e4205f95bc27f6012d1f68c623d827ffe94f56018a3d6eb83e7525": {
+      "normalizationVersion": 1,
+      "sourceHash": "22e997ec26a1bb95932eedfea6c0b1d3bbbdaf1c368be61e490bd781147cd905",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上实物时，它与颠簸、急加减速和振动有关，但4.0不代表已经确认硬件量程就是4 g，更不是车辆允许的最大加速度。要先核对型号／实际量程设置、输入单位和正常运动峰值。阈值太低可能把正常颠簸数据屏蔽，太高可能继续接受已限幅的读数。",
+      "translatedText": "On the real robot, this relates to bumps, sudden acceleration or deceleration, and vibration. However, 4.0 does not mean that the hardware range has been confirmed as 4 g, nor does it specify the vehicle’s maximum permitted acceleration. First verify the model, actual range settings, input units and peaks during normal movement. A threshold that is too low may reject normal bump data; one that is too high may continue accepting clipped readings.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "12c326581f7fdbb5e18580939e43e92dfa583107b3d371d9a3e75579f786ec40": {
       "normalizationVersion": 1,
       "sourceHash": "0727d4791a898bee765c8145183b81fb011e7e3fdc9971af76b1efe88f14c33b",
@@ -783,6 +797,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "12d1a2189783f0faaa69d8dab904a1f3e1503c451b382c699136e049f5a35f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "934c76cea512e1511431721f6200ea2612b7de1436b1edb3c16032ffd6983c47",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 参数详解（扫描处理、地图输出与运行资源）",
+      "translatedText": "##### Parameter details (scan processing, map output, and runtime resources)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "12d2bc6f4b67f31ab7579e7c8bf654ee1cd2187c6cd6ad4116403e3db2b0914c": {

@@ -533,6 +533,20 @@
         "costUsd": 0.000066
       }
     },
+    "4974bcba5c13905a7f46a803e29ecafbde9b7ecdcb6af677619c46c839c16d08": {
+      "normalizationVersion": 1,
+      "sourceHash": "e64d8bf79adfd410f258567a2fcf0c5cac79c29d0049c910f6edb9cc55960115",
+      "contextFingerprint": "dfab7e5d8f2e81a49496c1db34f2b7f965432e04aeb65b912be64130a07e9281",
+      "sourceText": "积压扫描太旧时，适当增大可能保留所需历史，但不会消除处理积压；减小则可能更快丢掉旧变换。前面已确认仿真段use_sim_time缺项，增大历史缓存不能替代统一时间来源。",
+      "translatedText": "When the backlog scan is too old, appropriately increasing it may retain the required history, but it will not eliminate the processing backlog; decreasing it may discard old transforms more quickly\\. It has already been confirmed earlier that the simulation segment use_sim_time has missing items, and increasing the history cache cannot replace a unified time source\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 77,
+        "costUsd": 0.000148
+      }
+    },
     "4975c02f761bd3c119774aff4f61192aa239bd4a6d4112e5729b5136830cc76f": {
       "normalizationVersion": 1,
       "sourceHash": "f844d28319da4a9481164ee55d8642cca725c854df0172bf695b6469b4b390eb",
@@ -629,6 +643,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "498e368758b9953d6ef244659f0934f1e00973dce6736ba887bc7bc30c1f7ac1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed4ece0b59c4e4f514ca95e86cc4664991e70cdc1338c490579a82ff37857f7e",
+      "contextFingerprint": "f30cf5d94738e3db69b6bfc34beaa205c19096eb8ab70cf49bdd5d403b10183a",
+      "sourceText": "### robot_description修改掉mid360的位置",
+      "translatedText": "### Adjust the mid360 position in robot_description",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "49970e802b1a399297e7622688107308b910ac12c35bb73dbdcd97903f82c9d0": {

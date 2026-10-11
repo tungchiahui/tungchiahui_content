@@ -155,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "671dca8b0f45a4fef62002c29ca85872def49df64f1a033c8d21473feaad03c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "de315ebd857bfa30b669575d11e9ec5be2bcec3a12e5c9d5215e40c21f00b6d7",
+      "contextFingerprint": "386db7e8e3df516d37e017d56a9e98a41e80e18986dc81a6167912e019c591cd",
+      "sourceText": "所以，静止读数取反能告诉我们“重力在初始IMU系中指向哪里”，**不能未经坐标核对就直接等同于 `mapping.gravity`**。同样，也不能看到导航通常让 z朝上，就擅自改成[0,0,-9.81]；还需核对 Point-LIO参考系、整机安装和后续接口怎样连接。本轮保留方向与数值，待核实。",
+      "translatedText": "Negating stationary readings therefore tells us where gravity points in the initial IMU frame, but **without checking the coordinate frames, it cannot be equated directly with `mapping.gravity`**. Likewise, the fact that navigation usually uses an upward z axis does not justify changing it to [0,0,-9.81] without further checks. Verify the Point-LIO reference frame, the sensor installation and how downstream interfaces connect. The direction and values remain unchanged pending verification.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "671fb19082c14633e4b1ed18699f2f1edd70a7f2e415399aa38f56773d474321": {
       "normalizationVersion": 1,
       "sourceHash": "fc430a7c5f6d37033df57913591cfde3b3cbb74ae9f1660dea293f6c1238fcad",

@@ -869,6 +869,20 @@
         "costUsd": 0
       }
     },
+    "b1bf90e63a94ce3c73b9fea4fd43228bc145e438b62a7b8ef6cde3572fa6e043": {
+      "normalizationVersion": 1,
+      "sourceHash": "48744ec64e073bff5d2f0db92f3c3db6e62acb09756a055bc983c00c6c94bb73",
+      "contextFingerprint": "6df5957a64809f671184af2a7801368dd518e9c8e09125a9564c36e5730fa588",
+      "sourceText": "- **源码能确认：** 四项参数均有作用；底盘 TF 与 yaw 云台层里程计的区别；机械 TF 按每次点云时间查询；TF 失败继续使用单位变换；近似配对方式；速度的时间、坐标与首帧问题。\n- **仿真已观察：** 2026-10-08 的静止及约20 cm往返检查覆盖独立 Point-LIO 输出，没有验证本节点的 `sensor_scan`、底盘 TF、云台层里程计及差分速度；不能据此认定本接口正确。\n- **必须实物核实：** 雷达与云台安装外参、机械相对 yaw 的零位／方向／弧度单位、关节与雷达数据的时钟一致性，以及上游内部 IMU 位姿到雷达位姿的完整关系。后续获准测试时，应区分底盘运动、独立 yaw 和独立 pitch，分别检查输出；当前重力方向与仿真点时间接口仍保留待核实状态。",
+      "translatedText": "- **Confirmed from the source code:** All four parameters are used; chassis TF differs from yaw\\-gimbal odometry; mechanical TF is queried at every point cloud timestamp; TF failures retain the identity transform; pairing is approximate; velocity has timing, coordinate and first\\-frame problems\\.\n- **Observed in simulation:** The stationary and roughly 20 cm back\\-and\\-forth checks on 2026\\-10\\-08 covered standalone Point-LIO output, without verifying this node’s `sensor_scan`, chassis TF, gimbal\\-layer odometry or differenced velocity\\. They cannot establish that this interface is correct\\.\n- **Requires hardware verification:** LiDAR and gimbal mounting extrinsics, mechanical relative yaw zero position, direction and radian units, clock consistency between joint and LiDAR data, and the full upstream transformation from internal IMU pose to LiDAR pose\\. When later testing is authorized, distinguish chassis motion, independent yaw and independent pitch, checking each output separately\\. Gravity direction and the simulation point\\-time interface remain pending verification\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b1c02c323d25a20e0fe587f53bced00eb8a3532f3adaef1b6163d6afc6959aae": {
       "normalizationVersion": 1,
       "sourceHash": "a107c2100daa20e331a8cbc22b58fcb2957413f64d35be2f422d7c869abddf7f",
@@ -881,6 +895,20 @@
         "inputTokens": 339,
         "outputTokens": 246,
         "costUsd": 0.000397
+      }
+    },
+    "b1c4d9298c994c4acca0958c5ca2fe1aa0bbce4900f4eaa802e72bc9ad89cccb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6b464cc526592fefb333cac9234981df270eec6e8cc2a49cba97e81d71887b1",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 当前 IMU输入单位、加速度换算、饱和门槛、各参数的生效分支、内部外参用途和已记录的求解／初始化疑点。容器中只核对了安装包与当前实物 YAML的来源，没有读取运行节点参数。\n- **仿真已观察：** 2026-10-08 的静止和约20 cm往返有 Point-LIO位姿与配准点云输出；未验证坡道、长距离、快速转动、独立云台 yaw或实际振动。本块旧命令与读数作为历史记录保留，不扩大本轮验证范围。\n- **必须实物核实：** 真实安装、轴向与原点定义、量程设置、静止读数和运动峰值。重力大小已约9.81，方向与目标参考系尚待核对；没有新增测量，也没有改动源码、配置或参数值。",
+      "translatedText": "- **Confirmed from the source code:** The current IMU input units, acceleration conversion, saturation thresholds, activation branches for each parameter, internal extrinsic usage, and the recorded solver and initialization concerns. Only the provenance of installed packages and the current hardware YAML was checked in the container; running-node parameters were not read.\n- **Observed in simulation:** On 2026-10-08, Point-LIO pose and registered point cloud output were observed while stationary and during roughly 20 cm of back-and-forth motion. Slopes, long distances, rapid rotation, independent gimbal yaw and actual vibration were not verified. Earlier commands and readings in this block remain as historical records; they do not expand this round’s verification scope.\n- **Requires hardware verification:** The actual installation, axis and origin definitions, range settings, stationary readings and movement peaks. Gravity magnitude is already about 9.81, while its direction and target reference frame still require checks. No new measurements were taken, and no source code, configuration or parameter values were changed.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b1c6e626531df24e8da41093180890d37096163c7570d255cbd0042d7df48954": {

@@ -477,6 +477,20 @@
         "costUsd": 0.000063
       }
     },
+    "407b5b90ff98e2b3235dc70c35571f7d53fc7fb9ecc0e9d74ed70a93cf4c8c1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "07168a1b83c1244483d9add866a0d12ab09c4b742481d6b3bda35c58c16bbf0c",
+      "contextFingerprint": "5cda46deb3834e128eed4fb6e866139be5b3bdd158804a04579ec91e8b7edd36",
+      "sourceText": "###### loop_match_minimum_chain_size（历史链至少几份，当前不用）",
+      "translatedText": "###### loop_match_minimum_chain_size (at least several copies of the history chain, not needed at present)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "407d26671c3781c6dc172c1defda842023d6a1cb4f0b18d1d78e79df3de1f9e2": {
       "normalizationVersion": 1,
       "sourceHash": "6b89ffde8138a932b870eb059caac99d4a1238bd7e586456d3e2a4c14eb02b50",
@@ -499,6 +513,34 @@
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image553.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4085c77c68a4854d782eca42b3d6dec34fb5e4f615e5be4b9f9cd4c84d62eff1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d31f59e588e756293eded0665d306620ac87b959f231363342e9416cedb983e",
+      "contextFingerprint": "c00e7b4fb59a8cf361b92abc6a7fb6a1bf254d8f9e22657f8bd6a1826068af7c",
+      "sourceText": "读取路径为slam_toolbox的setSolver加载插件，再由CeresSolver::Configure读取5项ceres设置；该路径没有随参数修改自动重建求解器的回调。未识别的线性算法／信赖域／损失名称可能落回默认分支，不应把“能启动”当成拼写正确。[参数读取与配置分支（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/solvers/ceres_solver.cpp)",
+      "translatedText": "The read path is slam_toolbox’s setSolver loading the plugin, followed by CeresSolver::Configure reading five ceres settings\\. This path has no callback to automatically rebuild the solver after parameter changes\\. Unrecognized linear\\-solver, trust\\-region or loss names may fall back to defaults; successful startup does not establish correct spelling\\.[Parameter reading and configuration branches (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/solvers/ceres_solver.cpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4085fd224fe423ef5451dafdc841a91cf635493cdeaa9a0594c49d5cbaecb376": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba07993018df466f51d751c4e18befc2b131e94d5148ca28756bedf87474d6a1",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**θ 相对 odom，q 相对底盘，二者不能直接混用。** 不能把MCU世界 IMU 姿态当关节角；q 应由机械相对 yaw与安装零位确定。上述90°例子中，底盘与 odom方向恰好一致，所以两角相同；底盘自己也转向时，就不再相同。",
+      "translatedText": "**θ is relative to odom, while q is relative to the chassis; they cannot be used interchangeably\\.** MCU world\\-frame IMU orientation cannot be used as a joint angle\\. Determine q from mechanical relative yaw and the installation zero position\\. In the 90° example above, the chassis happens to align with odom, so the two angles are equal\\. Once the chassis also turns, they differ\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,
