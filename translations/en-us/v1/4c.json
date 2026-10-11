@@ -211,6 +211,20 @@
         "costUsd": 0.000057
       }
     },
+    "4c41609317544e90502ed45b2e82e41081012f0b263173466917a68f50a02368": {
+      "normalizationVersion": 1,
+      "sourceHash": "53a34895ef9d39da654d062280cadb4187646e740260685887052cad6ff79afb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是这个警告说实话，是警告，但实际上这个标签是生效的，必须要使用这个标签，请忽略那些警告。",
+      "translatedText": "But to be honest, although this is a warning, the tag actually takes effect and must be used, so please ignore those warnings\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
     "4c42d43de9b8049d96e82f4803cb2536abf2b5e1e10438e5642c29cc2e18a70e": {
       "normalizationVersion": 1,
       "sourceHash": "e9a7bec150a7f79a3cb2215de76c5b7fc9fd845b718117e3536e2b03ffdfafa6",
@@ -239,6 +253,20 @@
         "costUsd": 0.000058
       }
     },
+    "4c50a7e950c19de92fc4875b4cf3fcf0222117760e46208857860af0dc599c38": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7292b20863727123a349162a9fcf87044f4e6ce17357f656ee905d9ab31559e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以我们可以手动的给激光雷达周围添加一下东西，点击Gazebo工具栏的正方体，圆球或者圆柱，随意放置几个到我们激光雷达的最大扫描半径内。",
+      "translatedText": "So we can manually add some objects around the LiDAR; click the cube, sphere, or cylinder in the Gazebo toolbar, and place a few of them arbitrarily within the maximum scanning radius of our LiDAR\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
     "4c541c5a30eaf270057bd8ea699ebbfe74787402cddb26effa37cf446e63095c": {
       "normalizationVersion": 1,
       "sourceHash": "a1fc881944baaea5e8f6970627ec2ccbaa864ca2b356d20b0abaae912a07a45d",
@@ -251,6 +279,20 @@
         "inputTokens": 144,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "4c54d480f45af7ceff0f85aa3e5444463b2727ae077bd4fc178411b87e37dd61": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d0d0f2a9a440d292bbc3dd7b6d947bea9422016047ae22824eab705a20002f5",
+      "contextFingerprint": "0cf0ab8d6afb3d165a6acddb1e0e57ff80c8fd3f12d9a875ac4d8cbf07a54b96",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1726.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1726.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4c561a3e0aced61801e04dd899c137fda69814b5d26fa2e4e89dacfb3a5f728e": {
@@ -335,6 +377,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "4c71a5d778620bc13d9f7b136aee34553f0c195b287d05b98bf72f0b7ee1c010": {
+      "normalizationVersion": 1,
+      "sourceHash": "b539b9abbf09a2b7a7b79efcb91ee03cba17313c9848c973651eae64841c8505",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看了超声波的原理，你有没有发现和前面的激光雷达传感器是一样的，是的，所以超声波传感器插件和激光雷达传感器插件在Gazebo插件中是同一个：",
+      "translatedText": "After looking at the principle of ultrasonic waves, have you noticed that it is the same as the previous LiDAR sensor? Yes, so the ultrasonic sensor plugin and the LiDAR sensor plugin are the same in Gazebo plugins:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 52,
+        "costUsd": 0.000111
       }
     },
     "4c71e44e75ac3678b0eb8f95ad049967d84201032a880988d75d06518d9c5231": {
@@ -547,6 +603,20 @@
         "costUsd": 0
       }
     },
+    "4cd7e18820d536fe6f1b4c7d637c97679f58676b13f51353ec27dc1d0786ab2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6462e0c94f9a3acfefe51a3f95e149fc018c1302e9d48a2a81aeb91510da39e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以从 Humble 迁移到 Jazzy 时，兼容性问题最大的地方通常就是 Gazebo。界面和功能看起来差不多，但代码里大量名字不互通，需要把 Ignition 时代的命名迁移到 Gz Sim / Gazebo Harmonic 写法。",
+      "translatedText": "So when migrating from Humble to Jazzy, the area with the biggest compatibility issues is usually Gazebo\\. The interface and functionality may look similar, but a large number of names in the code are not interchangeable, and the naming from the Ignition era needs to be migrated to the Gz Sim / Gazebo Harmonic style\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
     "4cd84dc5d428f7b938854724c1b332255edbc6e7f22c11bcbc51316ff8d027a3": {
       "normalizationVersion": 1,
       "sourceHash": "f08892d10e6b84b726b592afaeddc0275dd44ba62a41ec1a3db9197a81705e31",
@@ -673,6 +743,20 @@
         "costUsd": 0.00006
       }
     },
+    "4cf103707f82cbbc48d8fa5b5789660163fcbd90cacab683b50390cb0e8e692d": {
+      "normalizationVersion": 1,
+      "sourceHash": "40805821bb0183a2ae21bcc6b12d26f80f3aad3f274f640afea2db26c3434641",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "机器人停止后，输出里程计消息，并获取里程计消息中的机器人的位移数据。",
+      "translatedText": "After the robot stops, output odometry messages, and obtain the robot's displacement data from the odometry messages\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "4cf3ea3fb5d1c12632a9f34a4609c7e1d050510ebe06c994de6bdf44f6903ca5": {
       "normalizationVersion": 1,
       "sourceHash": "742e7e9c070be74cba86871ae85c717dd50272f3919a88ec26a4318fce01a78d",
@@ -685,6 +769,20 @@
         "inputTokens": 208,
         "outputTokens": 88,
         "costUsd": 0.000168
+      }
+    },
+    "4cfa211b72c05c9b3b1874393971337286794aa068c2a4e251110737cd1ce677": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b328060c4614c1bd3bdc7740272135fea03fd060575565e8cdcac492dcf7146",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "ROS launch 仍然用：",
+      "translatedText": "ROS launch still uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "4cfe96c2f4774891d6ef05828d262e42522d99b0c32c9463d74a836f3adb59c1": {

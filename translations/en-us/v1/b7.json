@@ -127,6 +127,20 @@
         "costUsd": 0.000073
       }
     },
+    "b73b8bbd30ca3487b1576abf206f6bd344abe41e0c28681ff6962f709b00921a": {
+      "normalizationVersion": 1,
+      "sourceHash": "146ea1adee2b5e1ead5307a806cd72e6d7b42af3b65c24f9be83b809d3d953bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每个成功的男人都有一辆车，咱们也不例外",
+      "translatedText": "Every successful man has a car, and we are no exception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "b73dfe8ea5b199bed33c98f026a42b85cedc2d1c5ca463e194c0abd8f6d9aa73": {
       "normalizationVersion": 1,
       "sourceHash": "e30555aaea772258fd5452e45a8f9353c2892c5aa47f1edbc5bd6dbf68d8ee93",
@@ -519,6 +533,20 @@
         "costUsd": 0.000062
       }
     },
+    "b7b7a61f5a1b7448eb75d5f4e167a5307aef42335982a2ddd47b35092a358eb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9d0b63b7e240f5d6d192889aff36eaf17a747fa54041a45bb5aa53f3e363948",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**方式2：launch集成**",
+      "translatedText": "**Method 2: launch integration**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "b7b93a69043fb7cb072ddbfc06d6bdc15042972e3b6fe0113c01cc09bc0d20db": {
       "normalizationVersion": 1,
       "sourceHash": "0000621ec4aee7be30139babbd75e87f663ce69fde677782f1c4418399ec80e3",
@@ -547,6 +575,20 @@
         "costUsd": 0.000114
       }
     },
+    "b7c6e73eb83350186eb545d1803407130df942a64dcd526b661c360fe1c0b0fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "47b54ccc74dad36b9668b65d854a72bbbcdd77174f71313ab54598419721eda7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点一下，你就能看到fishbot在Gazebo中飞速的移动。接着打开终端，打印一下odom话题和tf话题，移动机器人观察数据变化。",
+      "translatedText": "Click once, and you will see fishbot moving rapidly in Gazebo\\. Then open a terminal, print the odom topic and tf topic, and move the robot to observe changes in the data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
     "b7c8e5a5a064916f3884374d8c002881680f5a3183f5b4d04161b61d3c45095a": {
       "normalizationVersion": 1,
       "sourceHash": "afc14ae7165e37197ba2122bdc056655a9c5b83e1e842a9be6359ea6a66931bd",
@@ -573,6 +615,20 @@
         "inputTokens": 138,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "b7cc018bec541c258832f6184bfe0ae621c9f21c363f9ea4513f9f0a55a8a888": {
+      "normalizationVersion": 1,
+      "sourceHash": "86359830faf1d49499289d8996b100c5aed9b478d8e96ba893a41c46a3ead3ee",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### ROS 和 Gazebo 消息桥接",
+      "translatedText": "#### ROS and Gazebo message bridging",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "b7d539147e50bf86f2c8db4708bf3d8803c0abaf949e9ff048d8a7a48ee27952": {
@@ -671,6 +727,20 @@
         "inputTokens": 162,
         "outputTokens": 45,
         "costUsd": 0.000103
+      }
+    },
+    "b7f4fb6ef845aa120da879c93fe546ff1c733fc6af3ffd80cc277b9502824c13": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ff632eb32cb39a7a943ce70b125f466f95970ecd38a8ceac69b802e58e41152",
+      "contextFingerprint": "80c7b24a2c5fe43192d020a2684a13cf28dd100ad2ba3523825740786be9c0c8",
+      "sourceText": "| 话题 | 动作类型 | 描述 |\n|:---|:---|:---|\n| /smooth_path | nav2_msgs/action/SmoothPath | 提供平滑路径的服务，接受路径平滑的请求，并返回平滑后的路径。这允许客户端（如行为树）异步地请求路径平滑，并在平滑完成后接收结果。 |",
+      "translatedText": "| Topic | Action Type | Description |\n|:---|:---|:---|\n| /smooth_path | nav2_msgs/action/SmoothPath | A service that provides path smoothing, accepts path smoothing requests, and returns the smoothed path\\. This allows clients (such as behavior trees) to asynchronously request path smoothing and receive the result once smoothing is complete\\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 79,
+        "costUsd": 0.000154
       }
     },
     "b7f5421676c287d16a33476e6c671f54c4a93cae2d2884ecf85df0010e2a7923": {

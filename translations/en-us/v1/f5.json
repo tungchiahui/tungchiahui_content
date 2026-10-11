@@ -43,6 +43,20 @@
         "costUsd": 0.000054
       }
     },
+    "f50a14666540582336d78c0524dbf4a543ceb04194b5115099ac93b6ce49209b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f89c92aa9f1631505a5319f3795c7e2a18737c445302f78a51e7bdf07d935e05",
+      "contextFingerprint": "31700bd6bbeb8a313244998e38c8d56d3c2649279c38af115d149f6402667883",
+      "sourceText": "但是在当前 ROS2 Jazzy / Gazebo Harmonic 工具链里，URDF 转 SDF 通常会输出 SDF 1.11，而 SDF 1.11 没有标准 `<gz_frame_id>` 元素。因此启动时可能会出现：",
+      "translatedText": "However, in the current ROS2 Jazzy / Gazebo Harmonic toolchain, converting URDF to SDF typically outputs SDF 1\\.11, and SDF 1\\.11 has no standard `<gz_frame_id>` element\\. Therefore, at startup, the following may occur:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 70,
+        "costUsd": 0.000141
+      }
+    },
     "f50afde2e18c57775f75fab64b8b9bf50cda89498410f0e20399bbfe4d03d240": {
       "normalizationVersion": 1,
       "sourceHash": "d09fbbf49b622ea6573e9c511b011b368a92bf2f80d2a43b8315f0938428a773",
@@ -125,6 +139,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "f5268d5ce02bbb1cba5728916a0599c43d5a93c569784e693d4b0f66fb550f20": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c6ea1c13b1013975bcc591e96170aaa83cec7b3fd7bbcf2705ea2ff30e8d64a",
+      "contextFingerprint": "ee466562c85e611a9ebe354ed601b88b951cb6a67b5a0b42fd0866f6a08735fd",
+      "sourceText": "##### **方式二：通用（该方法未经测试，如果你测试了，请帮忙删掉本句话）**",
+      "translatedText": "##### **Method 2: General (This method has not been tested; if you have tested it, please help delete this sentence)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "f5304b7c6a62bdcb34333fc12e6b862a28c1848aa74554974b01e51ba2d4f971": {
@@ -309,6 +337,20 @@
         "costUsd": 0.000184
       }
     },
+    "f58c9688d1d71f44723f4b35e394685ee220f54073cb5fac644e1c3b81be71af": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0bad781731ca349db0501f4cd7fca9abaa081ce2df0fdb65018c06b9d584eb7",
+      "contextFingerprint": "f1a6aa6ca912acfe8dc053b02625463d1d296ad562c901f8b3cd91a3f554c272",
+      "sourceText": "*   Webots: Webots是一个强大的开源多机器人仿真软件平台，它支持各种机器人硬件和传感器模拟，并且可以与ROS 2进行集成。\n\n*   Gazebo Classic: Gazebo Classic是ROS 1中常用的仿真器，也可以通过ROS 2进行连接和使用。\n\n*   MORSE: MORSE是一个基于Python的开源仿真器，可以用于ROS 2仿真和机器人开发，支持多种传感器和行为模型。\n\n*   V-REP: V-REP是一个强大的多机器人仿真平台，它支持ROS 2与其进行通信，可以实现各种机器人模型和场景的仿真。",
+      "translatedText": "*   Webots: Webots is a powerful open\\-source multi\\-robot simulation software platform that supports simulation of various robot hardware and sensors, and can be integrated with ROS 2\\.\n\n*   Gazebo Classic: Gazebo Classic is a commonly used simulator in ROS 1, and can also be connected to and used through ROS 2\\.\n\n*   MORSE: MORSE is an open\\-source simulator based on Python, which can be used for ROS 2 simulation and robot development, and supports multiple sensor and behavior models\\.\n\n*   V-REP: V-REP is a powerful multi\\-robot simulation platform that supports ROS 2 communicating with it, enabling simulation of various robot models and scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 291,
+        "outputTokens": 185,
+        "costUsd": 0.00031
+      }
+    },
     "f58d16c8851e7a6235d90cc4830acceef37c0b0f08706a48ac282766ecc8001f": {
       "normalizationVersion": 1,
       "sourceHash": "acfa4cb5b1f1c9d39c8a59f44a0363d59ae2073e83c2be27ca58800e7ec0965b",
@@ -321,6 +363,20 @@
         "inputTokens": 177,
         "outputTokens": 55,
         "costUsd": 0.00012
+      }
+    },
+    "f5a301ec671daf5e3cfcd36670ce5e548845ff599e43b4e15bcc2108fcfe8493": {
+      "normalizationVersion": 1,
+      "sourceHash": "35e5e26522335d8ce327e2826251af88fef605bde4c4ebeb056746c1e1890989",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启动机器人底盘和键盘控制节点，使用键盘控制机器人向前直线运动一段距离，并测量线性位移数据。",
+      "translatedText": "Start the robot chassis and keyboard control node, use the keyboard to control the robot to move forward in a straight line for a certain distance, and measure the linear displacement data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 41,
+        "costUsd": 0.000096
       }
     },
     "f5a6127d5de504a74743d3547454c5ddeef93f8e40d819dae5dede60cc09412b": {
@@ -363,6 +419,20 @@
         "inputTokens": 144,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "f5ae08e6f27ff992ccd135012a889ff6510a062a31cdd755de6abcdf33bc51ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5b0af3b6764e97818d2d41dd939c065da1ebfa9329095d7e220d4c60bb31546",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "添加和修改RVIZ2的如下：（通过LaserScan插件可以看到激光数据）",
+      "translatedText": "Add and modify RVIZ2 as follows: (laser data can be seen through the LaserScan plugin)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "f5b2859e36b85381e47b3ee14812f1d89dd3770f7e09dea1a1d846ed8e139047": {
@@ -491,6 +561,20 @@
         "costUsd": 0
       }
     },
+    "f5d979b88af1678ecf2a8ada24f6b3ea8a43bdb4ebc0670de288a415d288cb0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fbc8d2f4661f3fa3c3782a713e51a1b066902d28d97a1957fe8e31b099ee1c5",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "*   主视图会显示仿真环境，我们可以通过鼠标以不同方式来导航场景，相关操作如下：",
+      "translatedText": "*   The main view displays the simulation environment, and we can navigate the scene in different ways using the mouse, with the relevant operations as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "f5e6d01d6a65b4315880f0e4fe2ba6e02ffc65bfa3cde51b0397e2b7763c4f77": {
       "normalizationVersion": 1,
       "sourceHash": "d194ae948fa613e3cab0e2ceee8d811b3a19f555fc3ae8aeb680800b8eab8fd0",
@@ -559,6 +643,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f5fcb81dd2ee6a4836b28d4e11bd737353f7a529fb41f6c6875df5c3d044e649": {
+      "normalizationVersion": 1,
+      "sourceHash": "e80347e2802c27ad19c8f26cbc18035deccbc02c4b058f00d97c82c41653ea39",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "*   左上方工具栏包含多种几何体（球体、框体、圆柱体）按钮和变换控件。通过集合体按钮可以直接将盒子、球体或圆柱体模型插入仿真环境。只需单击要插入的形状，然后将其放入环境中。该形状将自动捕捉到地平面上。",
+      "translatedText": "*   The toolbar in the upper left contains buttons for various geometric bodies (sphere, box, cylinder) and transformation controls\\. Through the collection body buttons, box, sphere, or cylinder models can be directly inserted into the simulation environment\\. Simply click the shape to be inserted, then place it into the environment\\. The shape will automatically snap to the ground plane\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 76,
+        "costUsd": 0.000148
       }
     }
   }

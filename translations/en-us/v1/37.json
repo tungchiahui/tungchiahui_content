@@ -211,6 +211,20 @@
         "costUsd": 0.000078
       }
     },
+    "37326d2ce732886aca778fc0d80764bea8d782373cf529e796c6defca13933b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5339c9b0676dfdaaa0a31aabfcb8a486464eb9b97cbbbb2455fcd1c0d14c39e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "综上所述，IMU在机器人领域具有实时性高、精度较高、不受光照条件限制、尺寸小巧和低功耗等优点。然而，它也存在累积误差、受外部干扰影响、不适用于绝对定位和无法感知环境信息等缺点。因此，在设计机器人系统时需综合考虑应用需求，并与其他传感器（如相机、激光雷达等）进行融合，以提升机器人的感知、定位和控制能力。",
+      "translatedText": "In summary, IMUs in the field of robotics offer advantages such as high real\\-time performance, relatively high accuracy, insensitivity to lighting conditions, compact size, and low power consumption\\. However, they also have disadvantages, including cumulative errors, susceptibility to external interference, unsuitability for absolute localization, and inability to perceive environmental information\\. Therefore, when designing robotic systems, it is necessary to comprehensively consider application requirements and fuse IMUs with other sensors (such as cameras, LiDAR, etc\\.) to enhance the robot's perception, localization, and control capabilities\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 118,
+        "costUsd": 0.000207
+      }
+    },
     "37367be325c03231066def760cdafc12bd7b2a5256c556ac5b3a323f0b06be6e": {
       "normalizationVersion": 1,
       "sourceHash": "ddf737d97d679a1fed9fb5cc6112aef6edc94bd44d69f939c1a7fe2bb44175a3",
@@ -337,6 +351,20 @@
         "costUsd": 0.000079
       }
     },
+    "37642bc0bc8d53143c5382a668077622a8788ea344f9cc65f41671273fbf99e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "9abbf90f136c7efeafbb0866cbe20a0094a4bd69b79fa5ee1e29d285df7f32d1",
+      "contextFingerprint": "81bdde1f457a8a16f0b3c2bfd20a6efecbe8cb0fdfd1592836600d5de954ffc6",
+      "sourceText": "6.  cartographer_occupancy_grid_node发布的话题",
+      "translatedText": "6.  cartographer_occupancy_grid_node Published topics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "3765b2323835a19cd2e4feae42178a3de9b3ca02abbe66766ca9041743d6160d": {
       "normalizationVersion": 1,
       "sourceHash": "d9fe9945edabf8dd9c41adc4b57e2bf70f33fbba4129417302974beb8e939234",
@@ -377,6 +405,20 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "376ba96e6941b2ffd30ea7788cc357fa9168b7bf53c13ad87192d2156ba95e3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "242b053d7bd2062d140b55637332287384f7782866cfccc90ea99e560e2d747c",
+      "contextFingerprint": "f37d2f1a78ce857bb82cb491bdba61c501ff846f0271930e62f55da8273a75d3",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1635.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1635.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "376ea077df0bf66e091a95fe9fe15af3bb86ccf60c6813d4844c56adcd7714b6": {
@@ -617,6 +659,20 @@
         "costUsd": 0.000673
       }
     },
+    "37b2055f93a894f52f4af3c212b2d4284a113882b0ab461408ed2a82fca61819": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dde59ce09754d3482e05490d132c72ffe3ea4c7d7e572e44450d7d81d757341",
+      "contextFingerprint": "951d8b21a8a53d400563145299c19aa7dca080106aa560e09c47e35dfaee014c",
+      "sourceText": "在Nav2导航系统中`nav2_controller`功能包的`controller_server`负责处理导航任务中的控制请求，确保机器人能够按照规划的路径进行移动。其主要功能是根据`nav2_planner`模块计算出的全局或局部路径，生成速度、方向控制的命令，即控制机器人沿着规划好的路径行走。该节点在执行时还需要依赖于`/local_costmap/local_costmap`节点提供的地图消息。",
+      "translatedText": "In the Nav2 navigation system,`nav2_controller`the package`controller_server`is responsible for handling control requests in navigation tasks to ensure that the robot can move along the planned path\\. Its main function is to generate velocity and direction control commands based on the global or local path calculated by the`nav2_planner`module, i\\.e\\., to control the robot to follow the planned path\\. During execution, this node also depends on the map messages provided by the`/local_costmap/local_costmap`node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 92,
+        "costUsd": 0.00017
+      }
+    },
     "37bafd2d8e7fef6883f8be105fad56ff55eb7fcdb0e5d920c22e69b41b2a034a": {
       "normalizationVersion": 1,
       "sourceHash": "a9d18e7e9ec13a3b80dc7d10db1ea8fe77f9ef31acd0fb53c2f7e23d37183c32",
@@ -643,6 +699,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "37c8650487a72932ee2374535fb14b2227f8bd142de91468b52ad5b10a4eb097": {
+      "normalizationVersion": 1,
+      "sourceHash": "d564ed37462d3070f745bdd45ec3c2117dcf63625ec309d2280e7f3494ebc6ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以再生产一个fishbot（为了后面需要多机器人仿真的小伙伴）。",
+      "translatedText": "You can create another fishbot (for those who will need multi\\-robot simulation later)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "37c936978ba9fed206a6db38af5a1ee745911516fccafe66a921698fa043e8a8": {
@@ -855,6 +925,20 @@
         "costUsd": 0.000052
       }
     },
+    "37f2c803c2a6648dafc8ae5d2a84d419d3c000c56c96de90ddaa8fe6da8f1f47": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc4d0cffe4d6c3f9bc09562c00201dcb675db08ab8baba0841a02f1f1f4d3ae7",
+      "contextFingerprint": "7942fda976a6ef04a29db0579658daf18bc79e88f92bb759cae813b4ab78002c",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /map | /nav_msgs/msg/OccupancyGrid | 地图数据 |\n| /scan | /sensor_msgs/msg/LaserScan | 激光雷达数据 |\n| /initialpose | /geometry_msgs/msg/PoseWithCovarianceStamped | 用来初始化粒子滤波器的均值和协方差 |\n| /tf | /tf2_msgs/msg/TFMessage | 坐标变换消息 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /map | /nav_msgs/msg/OccupancyGrid | Map data |\n| /scan | /sensor_msgs/msg/LaserScan | Lidar data |\n| /initialpose | /geometry_msgs/msg/PoseWithCovarianceStamped | Used to initialize the mean and covariance of the particle filter |\n| /tf | /tf2_msgs/msg/TFMessage | Coordinate transformation message |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 97,
+        "costUsd": 0.000182
+      }
+    },
     "37f8a987f66c8a9a40c6449bb1e716b8af57ba705eef6ee0b3a0eac1cf913557": {
       "normalizationVersion": 1,
       "sourceHash": "f601ff78230a2b6ca0089617d85e9f1cf7a4ab0c03302f3f4e28a95b996b8ab3",
@@ -867,6 +951,20 @@
         "inputTokens": 148,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "37fab9a589ba37f64781c7e23da795e0e66e49182dc53f52fae261b60f5e4c51": {
+      "normalizationVersion": 1,
+      "sourceHash": "abc77476ef587ef43a756d6e9412692749c7f11d3f76bad2497ec18358f72c42",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### TCP 通信是什么",
+      "translatedText": "### What is TCP communication?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

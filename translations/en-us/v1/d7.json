@@ -197,6 +197,20 @@
         "costUsd": 0.000117
       }
     },
+    "d734c38f2f9f379cb1e1274eb5b9fc7e8d8a6f3a5aee57b5549667347e5dcd83": {
+      "normalizationVersion": 1,
+      "sourceHash": "5af32038ee1a7299f29491f272eb56e0f3251c6699815a7b631150c4799c5ea0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接下来就可以使用键盘控制机器人运动了。",
+      "translatedText": "Next, you can use the keyboard to control the robot's movement\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "d735128a45fa54acec3ebdc0ef7e91a68ce2ff09e90d228b5829facfc70bba65": {
       "normalizationVersion": 1,
       "sourceHash": "e122160140d466bd59db9099a2dc466fec787b489d3cd5b5f45e7dffea63baac",
@@ -209,6 +223,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "d735f5cdb8c0a7b040780d3b2d38fa9ca71f97549334c746a72881fb88aa60e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfa9f02786ea5348c7abdc2d429dc9f78979121286ccaf9454127b8c4ea26565",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**odom坐标系** 不是固定不动的，原点是机器人的初始位置。",
+      "translatedText": "**odom coordinate system** is not fixed; its origin is the robot's initial position\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "d738662f3802702486635698ae5c072db9f6ddcd156eb758d1cd65b86c0d31da": {
@@ -295,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "d754f53cf83ec7f1efcc7f4d3694236c26d290f4274494448c077e5c53feb72e": {
+      "normalizationVersion": 1,
+      "sourceHash": "516fe6f49801d3b960e1e2782aff5676a75f9e1d2cece97730da9494b2d1090d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以使用下面的命令查看：",
+      "translatedText": "You can view it using the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "d765eb91e103bdf7cd6353a05145712840c84408c1db78b363dd8cc431b8d6c1": {
       "normalizationVersion": 1,
       "sourceHash": "6a15b851c68379c4e87375164b313046aa76d29155b1ee7c949328c8d25cee2d",
@@ -349,6 +391,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d7778a26b33c5cade29377368014b036482e17fdbce647e6f7113a5b2a47f289": {
+      "normalizationVersion": 1,
+      "sourceHash": "11950f039e5cf09ad51f929105043c4eece9a580e0e32b39cc70e69c2938597c",
+      "contextFingerprint": "579b9af22c50d73eca17cac8dfa76a038f314a383524c8970297412eb104c801",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1637.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1637.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d77a956a95847380c8d0b4a623f532a0736440983f92e5a1f28017615c0b2ac2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6329e5dfef30b95fb6c041fbc25f23780854633923a52a1622db1ecd29a2bbea",
+      "contextFingerprint": "76635fe99a266cedc2fa9e662756389596ce605fec6b8fef9cd2432c5acc93bb",
+      "sourceText": "Gazebo 是不依赖于ROS2的一个独立的项目，可以独自安装。但是如果安装了ROS2，在ROS2存储库中已经集成了对应版本的 Gazebo，可以调用如下指令直接安装：",
+      "translatedText": "Gazebo is an independent project that does not depend on ROS2 and can be installed on its own\\. However, if ROS2 is installed, the corresponding version of Gazebo is already integrated in the ROS2 repository, and it can be installed directly by invoking the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 87,
+        "costUsd": 0.000163
       }
     },
     "d77d8814026f5cf9a680151696794982aba32cb5cb8d1e067859bd4e46f4c3c1": {
@@ -419,6 +489,34 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "d78ba10305d842c6585f9f55eb2e6b9c5940718e9abc2f0f578580468227b7ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "06e66b65de42dc758b07ba92a3fccce4d6f006c51940b9b34b48d5747c9a866b",
+      "contextFingerprint": "646d5510f2d93d1d52e17deff1e323b7f95c75d48344c4b37e3f11f50f33c160",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1655.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1655.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d78d74d789b42149ea7016c2264ec4f2bd813fb40a529542004a0495c7ad7887": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f9e308be03371ffe66515b01264d5fb9613b267a7bd1d8b558bfa1f0ee719c7",
+      "contextFingerprint": "1b8adc678bce5bb501cb57c2562fcd7d6ee2707d6607bff93dc50e93040578c0",
+      "sourceText": "然后你也可以再加上一个下面这个`pose relative_to`标签，这是官方示例里给的。",
+      "translatedText": "Then you can also add the following`pose relative_to`tag, which is given in the official example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "d78e2f7f2da2ad03336ad78d153f4123f6dbb1ca891dad33e75d1ee446a74df2": {
@@ -505,6 +603,20 @@
         "costUsd": 0
       }
     },
+    "d7a60fa208cb4495f2f40136fe7eba566366c5077ef52c6eacbccb63710e9036": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c78f255f9dac7bc94c63b0900f674286d4c82b73bbe609c34d564350b4df71d",
+      "contextFingerprint": "723d30ac19f50b46fe5852e20745cf6f86e0119fcd76c222943cbb13b49bf9eb",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /plan | nav_msgs/msg/Path | 当前位置到目标点的全局路径 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /plan | nav_msgs/msg/Path | Global path from the current position to the target point |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
     "d7a9268a038c270c7f48f32039c73ac2b816b7cb5f52793467ab7ac21d599fbd": {
       "normalizationVersion": 1,
       "sourceHash": "1401056cf9a96ac99dfdec01b7c28520c3eb25ca62c12d7f0aed3198538f826e",
@@ -575,6 +687,20 @@
         "costUsd": 0.000062
       }
     },
+    "d7b76e9a8c6347653007f39ba6b482cfb67aff6f1327de892e852c4628b03bfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd7649222c33a2d821bde88ba69fe7d9d71db2e2fe3ceba3f07ccdee9c3308c3",
+      "contextFingerprint": "bbf46a8f5ae436b949553923abf5f5c7dad6c09d2607f6495d4fd43131cec7f7",
+      "sourceText": "| 概念 | 说明 |\n|---|---|\n| CAN ID | 用来标识一帧 CAN 消息的含义或来源 |\n| 标准帧 | 11 位 CAN ID |\n| 扩展帧 | 29 位 CAN ID |\n| 数据区 | 经典 CAN 一帧最多 8 字节数据 |\n| CAN FD | CAN 的扩展版本，支持更长数据区和更高数据速率 |\n| 波特率 | 常见有 250K、500K、1M |\n| 终端电阻 | CAN 总线两端通常需要 120Ω 终端电阻 |",
+      "translatedText": "| Concept | Description |\n|---|---|\n| CAN ID | Used to identify the meaning or source of a CAN message frame |\n| Standard frame | 11\\-bit CAN ID |\n| Extended frame | 29\\-bit CAN ID |\n| Data field | A classic CAN frame carries at most 8 bytes of data |\n| CAN FD | An extended version of CAN that supports a longer data field and higher data rates |\n| Baud rate | Common values are 250K, 500K, 1M |\n| Terminating resistor | Both ends of a CAN bus usually require a 120Ω terminating resistor |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 227,
+        "outputTokens": 115,
+        "costUsd": 0.000207
+      }
+    },
     "d7b8bc448121ab9652788dc7d7c0adce75f4d1c83861d7a31ddfd148f6943968": {
       "normalizationVersion": 1,
       "sourceHash": "fa48f3f3932da20c892eb6b36534a2afdd68e34b3705daf3fa9c884268efddd4",
@@ -615,6 +741,20 @@
         "inputTokens": 147,
         "outputTokens": 33,
         "costUsd": 0.000084
+      }
+    },
+    "d7cd4199ecc9fa141edbf3b5a2c558caa9e73c6a709d7f9eb4ed2f4ab3d46faf": {
+      "normalizationVersion": 1,
+      "sourceHash": "20e00865576e4ff28d24e6421d7b34533e12f86a00255884568de2dd1ef910af",
+      "contextFingerprint": "f8f5f613e82d11568437f3b02b2904f7ea9fee309fe62bc3580dfb89a181cf61",
+      "sourceText": "*   **frame_id**  地图坐标系名称。\n\n*   **topic_name**  话题名称。\n\n*   **yaml_filename**  地图数据源。",
+      "translatedText": "*   **frame_id**  Map coordinate system name\\.\n\n*   **topic_name**  Topic name\\.\n\n*   **yaml_filename**  Map data source\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 56,
+        "costUsd": 0.000121
       }
     },
     "d7cdf7e8ff534b222fb63793237ac821a34e697c99d4d2acff5045bb356ad869": {

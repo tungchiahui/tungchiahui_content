@@ -155,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "1f48be6f713dd875485b70b07225f148ad1bcb88bc7fcb229edd2a32784b5d43": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f98cc5bed82eb399b9e3a64d3fb99163c3a06740b1820044a138187feea7baf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Jazzy / Gazebo Harmonic 改成：",
+      "translatedText": "Jazzy / Gazebo Harmonic changed to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "1f5398607e88dc47548011d1fb46b40a0403120a401bb86ce797e9f19a9b235c": {
       "normalizationVersion": 1,
       "sourceHash": "00c6a9521d485a6c55239774790e6bf23702a94b7eea0e949c2a105ebb5157de",
@@ -223,6 +237,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "1f67845438ba355ff3c5566ab2be14b6996a32e701c2a9aed03e7b8d42127a22": {
+      "normalizationVersion": 1,
+      "sourceHash": "17e52a2113b0fb5a4fea3417215253c8814d7c2c87aeedec4d9e151013b06d03",
+      "contextFingerprint": "8d52cb865d0725c9c22c8ba7bd1cc0cc898004c70a1fce805b0313da8b3929f2",
+      "sourceText": "*   **调试专用** ：仅在调试阶段输出信息，生产环境自动静默\n\n*   **性能优化** ：通过编译选项完全移除调试代码，零运行时开销\n\n*   **分级控制** ：与其他日志级别（INFO/WARN/ERROR）解耦",
+      "translatedText": "*   **Debug\\-only** : Outputs information only during the debugging phase, automatically silent in production environments\n\n*   **Performance optimization** : Completely removes debug code through compilation options, with zero runtime overhead\n\n*   **Level control** : Decoupled from other log levels (INFO/WARN/ERROR)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 66,
+        "costUsd": 0.000134
       }
     },
     "1f6b61f4d48b620b0969da5bc7c46e985de43d6a22a0d151f1a31fa14a330900": {

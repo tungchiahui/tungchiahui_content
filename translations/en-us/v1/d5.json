@@ -71,6 +71,20 @@
         "costUsd": 0.000079
       }
     },
+    "d52c7b56fb9354a7dcb56e19b6fcbb8eb0fe1f02495aa1dc80fcb3e7267efa76": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5aba83a9bc3536fa97f2b8a63a3831b6c55250c43bb71200b7d7e4493fa6731",
+      "contextFingerprint": "0a34e76e5882284aef763d27fb0cee1a54b387bca268266475f1f1d7066ac3de",
+      "sourceText": "- Qt 上位机和机器人主控通信\n- 机器人和远程服务器通信\n- 工控机和网络设备通信\n- 多个程序之间进行可靠数据交换\n- 远程发送控制命令\n- 上传日志、配置文件、地图文件\n- 和某些雷达、相机、工业设备的 SDK 通信",
+      "translatedText": "- Communication between the Qt host computer and the robot main controller\n- Communication between the robot and the remote server\n- Communication between the industrial computer and network devices\n- Reliable data exchange between multiple programs\n- Remote sending of control commands\n- Uploading logs, configuration files, and map files\n- Communication with the SDKs of certain radars, cameras, and industrial devices",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 77,
+        "costUsd": 0.000148
+      }
+    },
     "d52d7d3152c6440628728248c034c69e4e9fc5f8b12b658af3b6cfba8c2a799a": {
       "normalizationVersion": 1,
       "sourceHash": "2b6550bd282d99d1b28ff6713d4303a2d7c24a7a28dd8dc4ddbbe42461606ffb",
@@ -183,6 +197,34 @@
         "costUsd": 0.000056
       }
     },
+    "d56370d2956c190d20b67b0908badaddc84be3c383493662880623958d7c287d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c70a6083333e859172d78af5f2dacec4a4f85afde670b2b24be21f26bcea5f12",
+      "contextFingerprint": "c1e9d59b8916bf8fab4ce66a9505e87e28ea78083243a01a1821e905a8bc2da3",
+      "sourceText": "| 话题 | 类型 | 描述 |\n|:---|:---|:---|\n| /submap_query | cartographer_ros_msgs/srv/SubmapQuery | 提供查询子图的服务，获取到查询的子图 |\n| /start_trajectory | cartographer_ros_msgs/srv/StartTrajectory | 开始一条轨迹 |\n| /finish_trajectory | cartographer_ros_msgs/srv/FinishTrajectory | 结束一条给定ID的轨迹 |\n| /write_state | cartographer_ros_msgs/srv/WriteState | 将当前状态写入磁盘文件中 |\n| /get_trajectory_states | cartographer_ros_msgs/srv/GetTrajectoryStates | 获取指定轨迹的状态 |\n| /read_metrics | cartographer_ros_msgs/srv/ReadMetrics | 读取性能指标 |",
+      "translatedText": "| Topic | Type | Description |\n|:---|:---|:---|\n| /submap_query | cartographer_ros_msgs/srv/SubmapQuery | Provide a service to query subgraphs and obtain the queried subgraph |\n| /start_trajectory | cartographer_ros_msgs/srv/StartTrajectory | Start a trace |\n| /finish_trajectory | cartographer_ros_msgs/srv/FinishTrajectory | End a trace with a given ID |\n| /write_state | cartographer_ros_msgs/srv/WriteState | Write the current state to a disk file |\n| /get_trajectory_states | cartographer_ros_msgs/srv/GetTrajectoryStates | Get the status of the specified trace |\n| /read_metrics | cartographer_ros_msgs/srv/ReadMetrics | Read performance metrics |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 311,
+        "outputTokens": 198,
+        "costUsd": 0.000331
+      }
+    },
+    "d5682c71ff21e25837154317b9c9ef5461dd67b397befb55a938a231f3ccf049": {
+      "normalizationVersion": 1,
+      "sourceHash": "edb6855675f54e1dafe67db65fa410ce771ecf8cf55ce700bfd491c3b6aec84f",
+      "contextFingerprint": "df6278a89fb1cf5aa50a45287882276dc08ebb97ebdfc399b3c3d0474685f861",
+      "sourceText": "#### 与ROS2集成优化",
+      "translatedText": "#### Integration and optimization with ROS2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "d56e5a641f2bee38b6019fd5bbfb5c3ba4224a019dc4bd1644211b43f0e9bc91": {
       "normalizationVersion": 1,
       "sourceHash": "0a436aaaf80245cc9c059b418f0ec1166059bc58ddd8213ba6c34077234c4ee3",
@@ -195,6 +237,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d5711a05e2230c650b6e3ea9f4b9351dd29a0a61ef42628fa999c8feb0f1a1bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "510404d83621904c7fd49e21147c793c3028d106127968129c78009df3e2ba12",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要钱的长这样",
+      "translatedText": "The free ones look like this",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "d57c3f494a712251496af1490df4b8acf5acd91185cc595985c4fe20c0c6f7d8": {
@@ -265,6 +321,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d58c6426b559fd3173fcab1f15e8dde9a611405c35d71b9d577247984f6f91df": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b3de692cc7d924c6fdb17c84c0f60ad394fcaa67978f76f7cda56bbbb66a806",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调用成功，观察gazebo发现机器人，人没了",
+      "translatedText": "The call succeeded\\. Upon observing Gazebo, the robot was found, but the person was gone\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 26,
+        "costUsd": 0.000074
       }
     },
     "d58e57346422a892d8947c68313baf67ea8e3c8fc4f4270cdbc31317c3703596": {
@@ -349,6 +419,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "d5aa42f579ff7e94dcb24320f55df739bda5fa827aaa8eb9aa9f3b4d3005c296": {
+      "normalizationVersion": 1,
+      "sourceHash": "78e94c307beed6cbae0e68d15792551ca1cdbe1017dbc6cde026d23a53af90ec",
+      "contextFingerprint": "0bd5fcf756de0984b53b7779e9f7b0bd60e4711f6c2a514c44dce41e50a5432a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/1790302995269-87252e7b.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/1790302995269-87252e7b.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d5d103af7740565241b06d40edb20fc822139b09b2c0dabb674e32c29d4b83c7": {

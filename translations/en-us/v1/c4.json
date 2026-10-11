@@ -57,6 +57,20 @@
         "costUsd": 0.000079
       }
     },
+    "c41c5c3d5b73b2912cadf55e0d87667312fe618242de12b851e128ec61f55a03": {
+      "normalizationVersion": 1,
+      "sourceHash": "add7b729202112e185e0ee8b24c41e9a6532547c14c47b4ead8c4f46373d79a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重点检查这些文件：",
+      "translatedText": "Key files to check:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "c41ff4e58fc837acf9416f37d46e0900cfef34bdb352b83390d2e1939fea4228": {
       "normalizationVersion": 1,
       "sourceHash": "be35f874c404ad0eba4966bb0f0ba7e12d162a39bbbfd3eeb09c8b99d920fa3b",
@@ -421,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "c491f12c2bc5cab297cc78163e1367589625875d9f23643b12e89b930eb8b327": {
+      "normalizationVersion": 1,
+      "sourceHash": "85b72c7c698750bd478781ac356ff7362fd08f0762bc059c348e36c966b255c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Linux 下进行 UDP 通信有多种方案，常见的包括：",
+      "translatedText": "There are multiple solutions for UDP communication under Linux, common ones include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "c4942a4c868fc89af2663058f163ff56aa6a3ebf0c5665aa292b11d793747d71": {
       "normalizationVersion": 1,
       "sourceHash": "737a4cf865850d0fcf51db8a92832ac9e46a78b685cb87a9c68cab96c6e53cf8",
@@ -489,6 +517,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c4ba9aa0b9b321e9cbaaafed8d3481d3c71776f53bcf53dc480c41d4ed964c04": {
+      "normalizationVersion": 1,
+      "sourceHash": "44e6b33a66c03ed0d69ca7e9ae145ffdf50d0be7dbcebf785d1e761d71e90906",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最终odom有效数据应该在250Hz左右,4ms发布一次,对于导航也是完全够用的.",
+      "translatedText": "The final valid odom data should be around 250 Hz, published once every 4 ms, which is also completely sufficient for navigation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
+    "c4bf58d0ab22a1624a6eac5d2e23d43125849134c0d55b5e39b09710473fac1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f51d5d5b7f935f6a82680509a6001fd0e696c64dfbd5934411f8658a842b6135",
+      "contextFingerprint": "cd3e370bca4b27c7576dd4ea387e630a277da448331d49e9d64af803e97cc490",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /cmd_vel | geometry_msgs/msg/Twist | 发送给底层控制器的速度命令 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /cmd_vel | geometry_msgs/msg/Twist | Velocity command sent to the low\\-level controller |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 44,
+        "costUsd": 0.000103
       }
     },
     "c4c12f1e1b6886f889c466d4698df6deb9d504ca16eea5f0fde21952ebccdbf5": {
@@ -589,6 +645,20 @@
         "costUsd": 0.000055
       }
     },
+    "c4dd2ce0d721098c1d2421f06ab514d4586e592802470a332ccf11d2511ff1c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "70bfbf3393f918ebbac5465eeed9fdace8a6bbea4ae9004f1dab1f2c1a8bcd2e",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "Ignition Gazebo中可以直接创建机器人模型，或者也可以加载ROS2中URDF格式的机器人模型，此处我们使用后者（也可以选择用自己的urdf小车，但是注意修改launch的路径）。",
+      "translatedText": "In Ignition Gazebo, you can directly create a robot model, or you can also load a robot model in URDF format from ROS2\\. Here we use the latter (you can also choose to use your own URDF robot, but be sure to modify the launch path)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 72,
+        "costUsd": 0.000141
+      }
+    },
     "c4eca7a070d57f5cd1d2536db6aa83fe1d136232bfdba144a747d96f6aac08a7": {
       "normalizationVersion": 1,
       "sourceHash": "a27c2a3408ad5c66b329cf07d6ce7eb1bc2952fd1cb9735c6705d9ff571c004b",
@@ -643,6 +713,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "c4f9ac2613ead9c15de21e6637da970f15817373193a64eb8b36f1677951a148": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7ebb107d4abe7557a0b9224dadad1ef8d9b7ecae5bd7352694cbedc0baa4955",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如长960宽450长400",
+      "translatedText": "For example, length 960, width 450, length 400",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 21,
+        "costUsd": 0.000066
+      }
+    },
+    "c4f9b3262df0ebc3190ddef8190d0e723f2e1b52493e7fd011321af9565c90e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4d928b163ba08b80f9ba4df406305ae5590dbd51ecfe95d4864d94e618f924e",
+      "contextFingerprint": "ae865dfc093c2eaa2521fec3a9c9ad11be2f49741a71fb9f3517d0f6bea9f1a4",
+      "sourceText": "在上方Topic输入`/cmd_vel/linear/x`，再输入`/cmd_vel/angular/z`，然后用键盘控制机器人移动。",
+      "translatedText": "In the Topic field above, enter `/cmd_vel/linear/x`, then enter `/cmd_vel/angular/z`, and use the keyboard to control the robot's movement\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
       }
     },
     "c4fbacecef1497870b24ac07cb6d23090ecc9775f4b499113aeab4833b20c5aa": {

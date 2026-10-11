@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "700594c86e781384d77c6d9bb0507a0f108a4270a0dec7c528cd2bd6be508ee5": {
+      "normalizationVersion": 1,
+      "sourceHash": "244f274c609e35f63c31c400cf4fbab6d5f303942ebbea43c7a5459cea1bdedc",
+      "contextFingerprint": "29a0b900cb6b4ca86c97ef604b65c2bea43567219a55490e23d98ff51fbb1b3e",
+      "sourceText": "首先请调用指令`gz sim`启动Gazebo，选择Empty仿真环境，然后添加立方体，每一个立方体都对应一堵墙。",
+      "translatedText": "First, call the command`gz sim`Start Gazebo, select the Empty simulation environment, then add cubes, where each cube corresponds to a wall\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "7019226a3b53da244f037cd1ffd466dda99497f57fd7eddae450cbcd62a35387": {
+      "normalizationVersion": 1,
+      "sourceHash": "aea11eac529e1265ab7c50f16086d790a493d6d6275943005f37f1d7ac609b8a",
+      "contextFingerprint": "f71906f4a7d53a6076f0fb54232538dadea574a50292e63d7ff4771f486e2ae6",
+      "sourceText": "如果项目本身就是纯 ROS 2 架构，并且希望快速把 CAN 帧转换成 ROS 2 topic，那么 `ros2_socketcan` 是一个可以考虑的方案。",
+      "translatedText": "If the project itself is a pure ROS 2 architecture and you want to quickly convert CAN frames into ROS 2 topics, then `ros2_socketcan` is an option worth considering\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 53,
+        "costUsd": 0.000116
+      }
+    },
+    "701f7d647ca16e10e914f5eaeea8d83859602197c25b8b58c689f6343dfe954c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c99dac26adb5dc9b6046aea726984ecdf2aaec2f710da3da8f750df4f8e33ba8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 迁移后的验证顺序",
+      "translatedText": "#### Verification sequence after migration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "701fe1a5f582aa4c2d06dbbed95a82a3af3a259893c0c43121e93422c45244fe": {
       "normalizationVersion": 1,
       "sourceHash": "85d029ad0f5eaa725e083333072e24ae9cb78563f746e594d0cc333abd59ca05",
@@ -181,6 +223,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "70695ad8e4fbca8d75524522bf1b4e6a47178685dcd39bc9d29b73b0e5f36378": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fe0898f05d7c49ce0ed05cb51e039caad7c93f1a8411042d3a27bcc651fedb9",
+      "contextFingerprint": "17aef4c68ae13c28eaf566a0f4f4e5d7594b7400e4fabd9c2a720bd6ba176183",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /goal_pose | geometry_msgs/msg/PoseStamped | 导航目标点，用于触发导航任务 |\n| /tf | tf2_msgs/msg/TFMessage | 坐标变换消息，用于不同坐标系之间的转换 |\n| /odom | nav_msgs/msg/Odometry | 里程计数据，提供机器人位置和运动信息 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /goal_pose | geometry_msgs/msg/PoseStamped | Navigation goal point, used to trigger navigation tasks |\n| /tf | tf2_msgs/msg/TFMessage | Coordinate transformation messages, used for conversion between different coordinate frames |\n| /odom | nav_msgs/msg/Odometry | Odometry data, providing robot position and motion information |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 97,
+        "costUsd": 0.000182
       }
     },
     "7074f8a50a25395e71c27528a32d7fa8fc9bc5aacfa8d6ec956d1220d8455ed2": {
@@ -489,6 +545,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "70ef1475deb11fcdfa68e71ade8bbbece9f400040fba58ca63aebf39d701443d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9319bd9a68f448c38260e383ebbc6e3954e0ba0f1ad9f2ac67ab73986d05ce20",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仿真的不要钱哈哈，接着我们来配置一下仿真的IMU。",
+      "translatedText": "Simulation costs nothing, haha\\. Next, let's configure the simulated IMU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "70f4a30a0cb4d5ebe47026293816510e8e5267f9e904377b34b29fb92011c851": {

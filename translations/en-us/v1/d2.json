@@ -169,6 +169,20 @@
         "costUsd": 0
       }
     },
+    "d237e2aff249669529852622cf0ac56a42cfcba11cf95ad07219e100fe439cda": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f09fd082263d0233166b2cc4c24b3f1a51e2de7ac291a4c99f961f13f363cab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果还没有的话，手动查找一下：",
+      "translatedText": "If not already done, manually search for it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "d239685ada0e9fb0103b9809a1a87d57ec37f5cde088f76edc85db9778e3234c": {
       "normalizationVersion": 1,
       "sourceHash": "6c7afc03ac13f3f879ba17473ef6176a02e7de122d97476d7cced8eb13772b8f",
@@ -231,6 +245,20 @@
       "contextFingerprint": "53a19564ca548ad3b1b6808c17bdcd829d621d53af81fa376ba50bfbedb17e61",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image7.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d2411172f47df786d63d2efa44774de2caa6b831ba019d2445b1162d0fff3685": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa622fa98823c69950d2b856fe5810f171327be1bce8479a9a31297100e0c5ea",
+      "contextFingerprint": "c692d7230801ded098e1c31180fb1de6e1d00a4f350223abeab8cddf3a077eb2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1617.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1617.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -421,6 +449,34 @@
         "costUsd": 0
       }
     },
+    "d27a09696c7881818b94273e243631534ffa45f59f0d958709c84d180c8e6678": {
+      "normalizationVersion": 1,
+      "sourceHash": "c60c82ed10c9dd431b232e9dacfed771632757440f87d8f13ae2f8d923826f67",
+      "contextFingerprint": "4ca22a1e8aca2da8c298f3b1f484228b82a93223c44fa1fdb902bbfbca755a4c",
+      "sourceText": "| 话题 | 类型 | 描述 |\n|:---|:---|:---|\n| /slam_toolbox/clear_changes | slam_toolbox/srv/Clear | 清除所有待处理的手动位姿图操作的更改 |\n| /slam_toolbox/deserialize_map | slam_toolbox/srv/DeserializePoseGraph | 从磁盘加载保存的序列化位姿图文件 |\n| /slam_toolbox/dynamic_map | nav_msgs/OccupancyGrid | 请求位姿图的当前状态作为占用网格 |\n| /slam_toolbox/manual_loop_closure | slam_toolbox/srv/LoopClosure | 请求对位姿图进行手动更改 |\n| /slam_toolbox/pause_new_measurements | slam_toolbox/srv/Pause | 暂停处理新传入的激光扫描 |\n| /slam_toolbox/save_map | slam_toolbox/srv/SaveMap | 保存可用于显示 AMCL 定位的地图图像文件。 |\n| /slam_toolbox/serialize_map | slam_toolbox/srv/SerializePoseGraph | 保存地图位姿图和数据，可用于继续建图、slam_toolbox 定位、离线操作等 |\n| /slam_toolbox/toggle_interactive_mode | slam_toolbox/srv/ToggleInteractive | 在交互模式与非交互模式之间切换，发布节点的交互式标记及其位置，以便在应用程序中进行更新 |\n| /slam_toolbox/reset | slam_toolbox/srv/Reset | 将当前地图重置回初始状态 |",
+      "translatedText": "| Topic | Type | Description |\n|:---|:---|:---|\n| /slam_toolbox/clear_changes | slam_toolbox/srv/Clear | Clear all pending changes to the manual pose graph operation |\n| /slam_toolbox/deserialize_map | slam_toolbox/srv/DeserializePoseGraph | Load a saved serialized pose graph file from disk |\n| /slam_toolbox/dynamic_map | nav_msgs/OccupancyGrid | Request the current state of the pose graph as an occupancy grid |\n| /slam_toolbox/manual_loop_closure | slam_toolbox/srv/LoopClosure | Request manual changes to the pose graph |\n| /slam_toolbox/pause_new_measurements | slam_toolbox/srv/Pause | Pause processing of newly incoming laser scans |\n| /slam_toolbox/save_map | slam_toolbox/srv/SaveMap | Save a map image file that can be used for displaying AMCL localization\\. |\n| /slam_toolbox/serialize_map | slam_toolbox/srv/SerializePoseGraph | Save the map pose graph and data, which can be used to continue mapping, slam_toolbox localization, offline operation, etc\\. |\n| /slam_toolbox/toggle_interactive_mode | slam_toolbox/srv/ToggleInteractive | Toggle between interactive and non\\-interactive modes, publishing the node's interactive markers and their positions so they can be updated in the application |\n| /slam_toolbox/reset | slam_toolbox/srv/Reset | Reset the current map back to its initial state |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 465,
+        "outputTokens": 358,
+        "costUsd": 0.00057
+      }
+    },
+    "d27a540564e1b960b433221cd22a51c08e51fad78627a9a259b160f7a6025c6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdeb150fe52d1aca0fb48c14beea037783b16df7e8e881d5d06f42761fd2d5b3",
+      "contextFingerprint": "73454219a48ebc4056781812e0ef31348851e1f687cbae4c7e74aa9b329b3fa8",
+      "sourceText": "接下来，点击rviz2菜单栏的`2D Pose Estimate`在地图中为机器人设置一个初始位姿。",
+      "translatedText": "Next, click the rviz2 menu bar's`2D Pose Estimate`Set an initial pose for the robot in the map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "d27e96a78417acf7a17e160ddda42daa766eb71e1fe85cc6ea6d904e101244e4": {
       "normalizationVersion": 1,
       "sourceHash": "0d66812ba39bfbf069ec83dc82c39f9d4cef6f36c356e7e598c07f5e77e47bf2",
@@ -475,6 +531,20 @@
         "inputTokens": 158,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "d2948059cf12461eb55f73fb5db70479bf8af89ba3b2cd63e82bbf4cfa07b530": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad03e2f157fcaf1a9d5ab69dc5cc4d145a7c271e0efa5bb1dacdec85c0cf7360",
+      "contextFingerprint": "2c983e78a60ee7604d7d8454a18afac579725fa058233caf1bd7cd608e189824",
+      "sourceText": "- TCP 通信的基本概念\n- IP 地址、端口号、服务端、客户端的含义\n- Linux socket 和 Boost.Asio 的基本关系\n- 使用 C++ 创建 TCP 客户端和服务端\n- 理解 TCP 字节流和粘包问题\n- 设计简单的 TCP 应用层协议\n- 将 TCP 通信封装成可复用的 C++ 类\n- 为后续网络设备通信、远程控制、Qt 上位机打基础",
+      "translatedText": "- Basic concepts of TCP communication\n- Meaning of IP address, port number, server, and client\n- Basic relationship between Linux socket and Boost.Asio\n- Using C++ to create a TCP client and server\n- Understanding TCP byte streams and the packet sticking problem\n- Designing a simple TCP application\\-layer protocol\n- Encapsulating TCP communication into a reusable C++ class\n- Laying the foundation for subsequent network device communication, remote control, and Qt host computer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 241,
+        "outputTokens": 118,
+        "costUsd": 0.000214
       }
     },
     "d29bb09aeaa4f180c626295bd1d9d8d2da054b1c6ccbd7da8f557e1eaa00f33e": {
@@ -617,6 +687,20 @@
         "costUsd": 0
       }
     },
+    "d2c1492da757cbd8326219f78ad6b4cb5c127d2d2e59074eb038e3d28190ea0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "677980d040f16e628cf4e186d75b9aeebf43ab0a85ce488ccd9b72bd55a03079",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**机器人模型功能包下新建launch文件**",
+      "translatedText": "**Create a new launch file under the robot model function package\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "d2c3213e3d358146db526f9d0cdbbddb90ae36fd3cc4e3b3c5c71586d283d528": {
       "normalizationVersion": 1,
       "sourceHash": "9af30b30f746cae3673a3f6b2507014735697df94dd7141fca4885dcd098f952",
@@ -685,6 +769,20 @@
         "inputTokens": 136,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "d2d27ad4bc0227081cb3d662fd8f6379ff7b1ea0e8ef6735571e0f461b51503d": {
+      "normalizationVersion": 1,
+      "sourceHash": "991bea0be9ad0a89798fda59ee7af5b86c1db21b1737bdb42a5b736d9566dcee",
+      "contextFingerprint": "6d138dfeefe6b89eccf1162543ccf1094f0ef8ea3ec2931cb2dca592066ce814",
+      "sourceText": "4.  /global_costmap/global_costmap发布的话题",
+      "translatedText": "4.  /global_costmap/global_costmap Published topics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "d2d313ec32e033764b6ee6fb304b2c6fb4dacf5c1030550b040101ba05a3a0ad": {
@@ -839,6 +937,20 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "d2fa231fd9ce7f174e34a52083e6cc180c3ee038ae11d6254f1aef2a96485852": {
+      "normalizationVersion": 1,
+      "sourceHash": "962de50f4335f921d92d3b07b61648bcd6da08d3fb4800fab175b150c6a66b09",
+      "contextFingerprint": "3fe19ec4836810a85180c187c1f13fa7e80e86db9e5f65cc30b0afca7212694f",
+      "sourceText": "> **独立性：** SLAM能够独立完成环境地图的构建，无需Nav2的介入。它依靠传感器数据来感知环境，并通过算法估计机器人的位置与姿态，从而构建出环境的地图。与此同时，Nav2也具备自主导航的能力。即使没有SLAM地图作为输入，它也能依赖其他来源的环境信息进行导航。\n> \n> **互补性：** 尽管两者在技术上各自独立，但它们的结合却带来了显著的优势。Nav2能够利用SLAM创建的精确地图进行高效的路径规划，确保机器人能够顺利导航至目标位置。而SLAM则能借助Nav2的导航控制功能，在机器人移动过程中实时收集环境信息，从而进一步提高地图构建的效率和准确性。",
+      "translatedText": "> **Independence:** SLAM can independently complete the construction of an environment map without the involvement of Nav2\\. It relies on sensor data to perceive the environment and estimates the robot's position and pose through algorithms, thereby constructing a map of the environment\\. Meanwhile, Nav2 also has autonomous navigation capabilities\\. Even without a SLAM map as input, it can rely on environmental information from other sources for navigation\\.\n> \n> **Complementarity:** Although the two are technically independent, their combination brings significant advantages\\. Nav2 can use the precise map created by SLAM for efficient path planning, ensuring that the robot can navigate smoothly to the target position\\. SLAM, in turn, can leverage Nav2's navigation control functions to collect environmental information in real time as the robot moves, thereby further improving the efficiency and accuracy of map construction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 274,
+        "outputTokens": 170,
+        "costUsd": 0.000287
       }
     },
     "d2fa72a5fc317414245ce9d368e279c1b899db401b53fcab575c261f81be4f59": {

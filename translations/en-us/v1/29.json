@@ -99,6 +99,20 @@
         "costUsd": 0.000149
       }
     },
+    "293ac9558b4323d75af87acc5f394b3b9f919389a91c9878ea1589cc50d0b8c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "46eacca00706bea7762273c023923cc800ebf16e67c87a5498b31c3d17402ac1",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "以下列举了一些常见的在ROS2中使用的SLAM系统：",
+      "translatedText": "The following lists some common SLAM systems used in ROS2:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "293cda3244c1beafc15144708f4b532a85d66c020a4de1fe3ae299ef08813b69": {
       "normalizationVersion": 1,
       "sourceHash": "88e34606cc668b802c25cc84e7f4abaf394e7c9927b87a153676fd9748ee9bc6",
@@ -337,6 +351,20 @@
         "costUsd": 0.000051
       }
     },
+    "29a3b236d8c62c1550b3f2e283694de25fde1aa6070c349e308d773de01a53a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "aad6bec6f9a5e741ff9f09a90ec2cc5069d6b29e872bdd644ca25f787a8921e3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在AMCL中，粒子滤波器的核心思想是使用一组粒子（样本）来代表机器人在地图上的可能位置。每个粒子都有一个权重，表示该粒子所代表的位置的置信度。算法会根据机器人的运动模型和传感器数据来更新这些粒子的位置和权重。随着时间的推移，粒子会逐渐收敛到机器人实际位置附近，从而实现对机器人位置的准确估计。",
+      "translatedText": "In AMCL, the core idea of the particle filter is to use a set of particles (samples) to represent the possible positions of the robot on the map\\. Each particle has a weight that indicates the confidence of the position represented by that particle\\. The algorithm updates the positions and weights of these particles based on the robot's motion model and sensor data\\. Over time, the particles gradually converge near the robot's actual position, thereby achieving an accurate estimate of the robot's position\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 103,
+        "costUsd": 0.000186
+      }
+    },
     "29af71c71eb1b554e053d58d4ed20c64c924800c4b92e372ec829ca88427764d": {
       "normalizationVersion": 1,
       "sourceHash": "64626961c2765e24308336392643485dfcd13dd8e5683387236f1bd022ed765c",
@@ -351,6 +379,20 @@
         "costUsd": 0.000059
       }
     },
+    "29b0f29c13a7dba91f12ed23b8519d2b1d3b3f72db09f64a1621e766a1837113": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca3202b104e9be0b5df064f5fa072ed7cb1cec2857e6101aa840dcff1ef951d2",
+      "contextFingerprint": "bacc7f514a325897d84fb21163be44804a1d256c6fbf8e64f4d7b951140891bb",
+      "sourceText": "建议同时采用 `pose relative_to` 和 `<gz_frame_id>`。",
+      "translatedText": "It is recommended to use both `pose relative_to` and `<gz_frame_id>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "29b7b035dbb40f6e8fbd47f7d4df56bbdce9ef4fabd7699945ffaa21afdc20c0": {
       "normalizationVersion": 1,
       "sourceHash": "f18f4016803fae7814a75b0f4f2bebfd0795659de5d9d25a99e524e5cbd8af8f",
@@ -363,6 +405,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "29c8ee60104a1b4ef0426f645211255a8cef3a09ced4dcc7b6a46cd7b436ae67": {
+      "normalizationVersion": 1,
+      "sourceHash": "06da92e14e35bda053f39643a00f4fe1193d70e0bc3207cbe4df996c846ed862",
+      "contextFingerprint": "94291e22b3ef24183cda15b8dea4b5bba3c36c4667e4b8dfb62db36086a487ed",
+      "sourceText": "- `*.sdf`：world、model、GUI、插件、Fuel URL 通常在这里。\n- `*.urdf.xacro` / `*.urdf`：机器人插件、传感器标签通常在这里。\n- `*.launch.py`：Gazebo 启动包、启动参数、桥接 topic 通常在这里。\n- `package.xml`：运行依赖通常在这里。\n- `CMakeLists.txt`：安装目录和编译依赖通常在这里。",
+      "translatedText": "- `*.sdf`: world, model, GUI, plugins, and Fuel URL are usually here\\.\n- `*.urdf.xacro` / `*.urdf`: robot plugins and sensor tags are usually here\\.\n- `*.launch.py`: Gazebo launch packages, launch parameters, and bridge topics are usually here\\.\n- `package.xml`: runtime dependencies are usually here\\.\n- `CMakeLists.txt`: installation directories and build dependencies are usually here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 67,
+        "costUsd": 0.000138
       }
     },
     "29ca274c59b298b504b00fb473f2afbbfbfbc45d3f72dd62f16421ecf467248e": {
@@ -461,6 +517,20 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "29e73d77778b4efc3ac9ceab6ea127ff24f3bc45c241b3d192642c98965c3d96": {
+      "normalizationVersion": 1,
+      "sourceHash": "d59592481e2851b6dad907ea5a1421c14e0221fead7ab41228a7ca6623c21171",
+      "contextFingerprint": "007fd1cfc62b623f3535c1054c4d300d4a6c45d671f4df59937d018bd76730df",
+      "sourceText": "在功能包下，新建launch目录和params目录，launch目录下新建`cartographer.launch.py`文件并输入如下内容：",
+      "translatedText": "Under the package, create a launch directory and a params directory\\. Under the launch directory, create a new `cartographer.launch.py` file and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "29e899489df13a7e495b822733c92cb12cc82fd128359a682e30baf95db267a0": {

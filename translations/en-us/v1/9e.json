@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "9e0e5769eb8ca1ff2012b25e45cc254310342636a23fa6214c656cb8e601899e": {
+      "normalizationVersion": 1,
+      "sourceHash": "553e7323adb002483ca10714220b336629d0d98aa800c2fbbe8977747e7d7800",
+      "contextFingerprint": "1e91d3141ebf93675609197adc60b983f79b8a311c13973ffa456c53c8e559aa",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /plan_smoothed | nav_msgs/msg/Path | 经过平滑处理后的全局路径 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /plan_smoothed | nav_msgs/msg/Path | Smoothed global path |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 41,
+        "costUsd": 0.000099
+      }
+    },
     "9e19e56313d97c89f6ae060559568f646b79a527726dce00ee7686c040b6354a": {
       "normalizationVersion": 1,
       "sourceHash": "9e70c540bca0d16c407adf2b7c134f2bb5ad4f2dcd1d5fad08567ebd870663bc",
@@ -393,6 +407,20 @@
         "costUsd": 0.000061
       }
     },
+    "9eabd944734db0038232604eb187e50f5796f00acca5f246e4ef11118d65d38b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d165a990501af7c5b0e834de9872fee5f44ee832e95a30424b5ae77c8dbb9cdd",
+      "contextFingerprint": "b8723892ae1acae4264b71a36457fd8874524ee07914fa8ae11f3716b23bee12",
+      "sourceText": "启动 rviz2，直接将默认配置保存至当前功能包的rviz目录，保存文件命名为sim.rviz。",
+      "translatedText": "Start rviz2, save the default configuration directly to the rviz directory of the current package, and name the saved file sim.rviz\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
     "9eb2145618a395e18ca564da741bbf48a367d2ab28a2a4c7d1e41597578bbc2e": {
       "normalizationVersion": 1,
       "sourceHash": "0d1f477693fed35f0bed96b25522e06f132bf922462f9e31af9ded195160b867",
@@ -455,6 +483,20 @@
       "contextFingerprint": "e4583dbe53b6d36535fa7c7c5feae371fcc224be293eea2e8b7f865ab99aa1b8",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image591.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image591.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9ebb8f8cda8d5a55436f5668361d44bfa0de40a2ad0dd86074798ae4d67ea505": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd0779edd3846e0db11ed615fa5f9a9847024acbc1852021b9a192232fb0c5d3",
+      "contextFingerprint": "0d66f7d32af69525b59239579001b0b6ad0597a78aae5e8ccae0ef1d483695a2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1793.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1793.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -615,6 +657,20 @@
         "inputTokens": 163,
         "outputTokens": 48,
         "costUsd": 0.000107
+      }
+    },
+    "9ee1f34802347d5df66784a95716faf75995d85a987216d6e846b5d004401cf3": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ff9a3e01307d0a4469ed423750e220991b03db4e9e4a3f6525f097e5a387918",
+      "contextFingerprint": "7f3084265daee0bd7885c62ba601a0a61df12b0380a798300bb5b7d2f354df51",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /global_costmap/footprint | geometry_msgs/msg/Polygon | 机器人（或任何移动平台）的足迹（footprint）信息。足迹是机器人在地图上占据的空间形状，通常用多边形表示。 |\n| /map | nav_msgs/msg/OccupancyGrid | 发布环境地图，特别是用于导航的占用网格图（Occupancy Grid Map）。 |\n| /scan | sensor_msgs/msg/LaserScan | 激光扫描数据。 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /global_costmap/footprint | geometry_msgs/msg/Polygon | Footprint information of a robot (or any mobile platform)\\. The footprint is the shape of the space occupied by the robot on the map, typically represented by a polygon\\. |\n| /map | nav_msgs/msg/OccupancyGrid | Publishes the environment map, especially the Occupancy Grid Map used for navigation\\. |\n| /scan | sensor_msgs/msg/LaserScan | Laser scan data\\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 238,
+        "outputTokens": 121,
+        "costUsd": 0.000217
       }
     },
     "9ee665d53229dab0f5dbd798a2280adaac58ae090d1c17b5d610f55cb47a372e": {

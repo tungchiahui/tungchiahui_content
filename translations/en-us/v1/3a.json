@@ -29,6 +29,20 @@
         "costUsd": 0.000133
       }
     },
+    "3a0e3c06f27c61ef557781f36026dba3ab494173ca6662c74747827c94997431": {
+      "normalizationVersion": 1,
+      "sourceHash": "63b9438373658303998fdba06d2a64ae782fdbbdf40ec68852df74cea1031a7c",
+      "contextFingerprint": "399b889f57686843e4cf20d1c43b817539c43b9b4e4619795334541cfd7b441c",
+      "sourceText": "该launch文件中，启动了Ignition Gazebo仿真环境、通过ros_gz_bridge建立了仿真与ROS2的连接，并且启动了rviz2节点。其中建立连接时，实现了速度指令、里程计以及坐标变换等消息的转换。",
+      "translatedText": "In this launch file, the Ignition Gazebo simulation environment is started, a connection between the simulation and ros_gz_bridge is established through ROS2, and the rviz2 node is launched\\. When establishing the connection, the conversion of messages such as velocity commands, odometry, and coordinate transforms is implemented\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 83,
+        "costUsd": 0.000158
+      }
+    },
     "3a10607c68fd283aef4067bde3444d204d04ebfa12f6a95a1410a8273f3a1733": {
       "normalizationVersion": 1,
       "sourceHash": "166bb790f0c0a6483f5634a0297500d05241a61ca744d54b282507847ab2ae69",
@@ -71,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "3a224de66d2e7bf3c7a34e006e295e980e82d198f81c267ba28f0adeeb13a7d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2a5ace8f4bd7b943066ffee178fafbdf37030ba36fbe6e15809d920933890f1",
+      "contextFingerprint": "070b0b8f27922687f76712412eb97894211a3e0a1a7db49a086cae8a027151a8",
+      "sourceText": "*   `use_sim_time`: 指定是否使用模拟时间而非实际时间。\n\n*   `global_frame`: 定义全局坐标系的名称，通常为地图坐标系。\n\n*   `robot_base_frame`: 指定机器人基座的坐标系名称。\n\n*   `odom_topic`: 里程计数据的ROS话题名称。\n\n*   `bt_loop_duration`: 行为树执行循环的持续时间（单位可能根据实现而异）。\n\n*   `default_server_timeout`: 导航服务器操作的默认超时时间。\n\n*   `enable_groot_monitoring`: 启用或禁用Groot监控功能。\n\n*   `groot_zmq_publisher_port`: Groot监控中ZeroMQ发布者的端口号。\n\n*   `groot_zmq_server_port`: Groot监控中ZeroMQ服务器的端口号。\n\n*   `plugin_lib_names`: Nav2 Jazzy 官方示例说明该参数用于添加自定义 BT 插件；Nav2 内置 BT 插件会自动加载，所以没有自定义 BT 插件时不要配置空列表。",
+      "translatedText": "*   `use_sim_time`: Specifies whether to use simulated time instead of actual time\\.\n\n*   `global_frame`: Defines the name of the global coordinate frame, typically the map frame\\.\n\n*   `robot_base_frame`: Specifies the name of the coordinate frame of the robot base\\.\n\n*   `odom_topic`: The name of the ROS topic for odometry data\\.\n\n*   `bt_loop_duration`: The duration of the behavior tree execution loop (the unit may vary depending on the implementation)\\.\n\n*   `default_server_timeout`: The default timeout for navigation server operations\\.\n\n*   `enable_groot_monitoring`: Enables or disables the Groot monitoring feature\\.\n\n*   `groot_zmq_publisher_port`: The port number of the ZeroMQ publisher in Groot monitoring\\.\n\n*   `groot_zmq_server_port`: The port number of the ZeroMQ server in Groot monitoring\\.\n\n*   `plugin_lib_names`: The official Nav2 Jazzy example states that this parameter is used to add custom BT plugins; built\\-in Nav2 BT plugins are loaded automatically, so do not configure an empty list when there are no custom BT plugins\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 278,
+        "outputTokens": 175,
+        "costUsd": 0.000294
+      }
+    },
     "3a256ce0c101a2a31a711be4c972288460ec6559caffd412dae7696031b476ce": {
       "normalizationVersion": 1,
       "sourceHash": "1f0cff7b076a8c33603c22504d32f22af729f20ce657e0a65459b61e6b09fba0",
@@ -111,6 +139,20 @@
         "inputTokens": 196,
         "outputTokens": 85,
         "costUsd": 0.000161
+      }
+    },
+    "3a2b584db79dba8725709c39291933a99afe4c0cfc76a7bf2c766a4d33e0f8e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "63145dd665a41b40a327ea04aabfc5be1e0376e25277541c1e0006b68040652b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "利用rqt工具，我们再对另外两个服务接口进行请求。",
+      "translatedText": "Using the rqt tool, we will make requests to the other two service interfaces\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "3a3005c3eac3038f2496f827f28688e88321a7b7bb198019f67426d301acc0a2": {
@@ -167,6 +209,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3a382e9471864320ee46e2368a5e0a53d8aab78af86622b1cec03b57e858ac0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "70ae217181ce9740e2ba2693a74c3cde064bb6a5c40bb49d40096b3ef4bb75a6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 总代码(又发又收)",
+      "translatedText": "#### Total code (both transmit and receive)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "3a4e135c73fa938348539a1ff0672b3debc7b5247b81d6622b1a00d1a21aea64": {
+      "normalizationVersion": 1,
+      "sourceHash": "a851a72ecbae1e79d611c7915e997795e4dccbe745a2951e7434a3e8d2bd2fc6",
+      "contextFingerprint": "d07cb339542b767d304013ec884fc317c28d3961b25568c9fd534a6970ee863c",
+      "sourceText": "[Boost.Asio库串口通信](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0300-chuan-kou-tong-xin)",
+      "translatedText": "[Boost.Asio Serial Port Communication Library](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0300-chuan-kou-tong-xin)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "3a50516ff40f57eae7e80e65852aaf57b8fbd2e820eacdabd03b63927d9e2e00": {
@@ -519,6 +589,20 @@
         "costUsd": 0.000092
       }
     },
+    "3ab43b85648f8961846535a4f52e18cd12dfbf83ad513de6123b31d93730bbc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae2433c1d2cef7518a24c4aae57d4a1f8309ce6c586d5ae1331bcf1fd278ca74",
+      "contextFingerprint": "5d96b7920998327e8b53eb3177338d83f8c5d026337d9e6fc542b27de1a3cf4e",
+      "sourceText": "**（6）velocity_smoother相关配置文件**",
+      "translatedText": "**(6) velocity_smoother Related configuration files**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "3ab5200a8d39eaa4d9a024f0001abbcb92ecee2ee8c70fb16284dbdf92664c32": {
       "normalizationVersion": 1,
       "sourceHash": "b7cd6a36182c95e98c22adf461080e726c8e15415855a8a5e1eda53818ee4bc1",
@@ -547,6 +631,20 @@
         "costUsd": 0.000089
       }
     },
+    "3abe451f051592b26aa4d1a31dd07c30a5f26a08a95e1ec5c8cab0dacb668bfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1946d75a377bc01870ae934f8487f1261a68c4de561f905d145fcc100291585",
+      "contextFingerprint": "4f56297074ee66722e3ebf4cba98afbc2031106be16445ada557a8b4eab69358",
+      "sourceText": "在工作空间中输入以下命令从而去创建功能包`mycar_description`",
+      "translatedText": "Enter the following command in the workspace to create a feature package\\.`mycar_description`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "3abf5f6bdd83c20391a72820ebd6c0e4f2960952b091f2e98e46430c5d7974e8": {
       "normalizationVersion": 1,
       "sourceHash": "71d60679debd3bb4cfb17656e42ff1b98e3aaebff790f354704d5eaec5235ed9",
@@ -559,6 +657,20 @@
         "inputTokens": 161,
         "outputTokens": 40,
         "costUsd": 0.000097
+      }
+    },
+    "3abfdb9bd56fd63522904342de3ef8881da16d64248aa0d2a0d8de86d7dec8d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "caa84f14322fbc4a3c8f8d8edbfdd3beb584b6bb54f34d8450b3c7b018cfd912",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "SDF 示例：",
+      "translatedText": "SDF Example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "3abff845359e3f09a1ec66d2270432b1b1c24e3b907ddca4754d279e529848aa": {

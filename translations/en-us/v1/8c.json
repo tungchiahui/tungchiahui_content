@@ -29,6 +29,34 @@
         "costUsd": 0.000057
       }
     },
+    "8c0e69cfe4e9af75822ef26f419e737edbe89c313be4e7b02c880447fe91f47c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c28d719e8186e72ccdc88b44c22cc305c3b92a9edfde365c077656a1f2e2319",
+      "contextFingerprint": "3de0ffa4cce0dd1c06681b34b0afbfe9b79414d2045e743a8432fba7343e26b6",
+      "sourceText": "`--window 20`的瞬态更准，他会抛弃上面更老的数据，`window=20` 很快就会把旧的样本丢掉。",
+      "translatedText": "`--window 20`If the transient state is more accurate, it will discard the older data above,`window=20` it will soon discard the old samples\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "8c110fab240db5d8b5734a8bed9779c6672ec473e34a66fe6201dca9195439b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a90ca806a0deed8e5b1077a65d719b113956ad27cfc40dff52383bba735bc00",
+      "contextFingerprint": "af9b59323fba0698f98938609fecc62e1e98815f9d0626e7bcbf1d63972d12ce",
+      "sourceText": "https://app.gazebosim.org/fuel/models",
+      "translatedText": "https://app.gazebosim.org/fuel/models",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "8c20deb0e4728bd1f0dc15f04c3dadcb56e26b04d82573aea9c435951f6c7bbc": {
       "normalizationVersion": 1,
       "sourceHash": "466cc917598723d36f6cac3e3460c59142fdd7f030f7483b22120343e917e0f3",
@@ -97,6 +125,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8c52c5eab461f0a109cefa657c83f02dbd09b6f1e8cc1757cab3d77679e261bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9628175d8b2020bd7e5b9279d48782bec5deb588e2fbdc9a566aba07fcfed474",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首先你要有一个地图，小鱼为你准备了两个，两个图片都是800\\*600像素的。",
+      "translatedText": "First, you need a map\\. Xiaoyu has prepared two for you, and both images are 800\\*600 pixels\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "8c5432716e8ba98555f400cdbe271a19401e67736c59df459e58b9fe3502a7f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "edc9d06c5847761bdb9761ca18a0a0dd1eb482414aa1597a2eb1ca03b70128fc",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "ROS2的不同版本的Gazebo跨度也很大，比如Humble和Jazzy及Jazzy之后的版本之间很多标签区别很大。",
+      "translatedText": "ROS2Different versions of Gazebo also vary widely; for example, many tags differ significantly between Humble and Jazzy, as well as between Jazzy and later versions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 51,
+        "costUsd": 0.000111
       }
     },
     "8c56249e6df02bcedcbe02b7e5db87c17f48ecec95cbc5376db10ab51f1adf0d": {
@@ -309,6 +365,20 @@
         "costUsd": 0.000294
       }
     },
+    "8c8ca53c26cd2b3b8197cb074f1ad04bb524deff7613ed0beed7ce5cdb4a396e": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6fa6aaff4ad0ee101a00c9d9443507c3201ba221652f82202ae691987714b84",
+      "contextFingerprint": "b6920d15421f11df648a2eaec196f7d13d0a73d98fe2c51943be286a2f8f839a",
+      "sourceText": "1. 突然烂图\n   1. 如果你的环境很简单，那么跑图的时候可能会突然烂图，这个时候，大概率是do_loop_closing的问题，你把do_loop_closing设置成false再试试。\n   这个东西是SLAM用激光检测形状来匹配之前走过的路，如果他匹配到的形状差不多他会把当前这段轨迹和以前的轨迹连起来，然后重新优化整张 pose graph，让地图整体更一致。\n   主要是为了防止odom会漂，因为 odom 会漂，机器人最后回到起点时，SLAM 可能觉得位置差了几十厘米，但是可以通过激光雷达矫正。\n   2. 在窄通道尽量直线过去，不要原地旋转等等，这种窄通道炸了大概率是scan matching相关参数的问题。",
+      "translatedText": "1. sudden map corruption\n   1. If your environment is simple, the map may suddenly become corrupted while running\\. In this case, it is most likely a do_loop_closing issue\\. Try setting do_loop_closing to false and test again\\.    This thing is used by SLAM to detect shapes with laser and match against previously traversed paths\\. If it matches a similar shape, it will connect the current trajectory segment with previous trajectories, and then re\\-optimize the entire pose graph to make the overall map more consistent\\.    This is mainly to prevent odom drift, because odom will drift, and when the robot finally returns to the starting point, SLAM may think the position is off by tens of centimeters, but it can be corrected by lidar\\.\n   2. In narrow passages, try to go straight through as much as possible, do not rotate in place, etc\\. If it breaks in such narrow passages, it is most likely a scan matching related parameter issue\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 292,
+        "outputTokens": 215,
+        "costUsd": 0.000346
+      }
+    },
     "8c8dc3eea96618177d0a5ebf3b5a1d5ff0d73f2b6e45347d3bb9bfe7d1212d18": {
       "normalizationVersion": 1,
       "sourceHash": "4c8b7068f9e5d6cf8dc44551a775079282a23e3a74225d207c8a87242953b296",
@@ -517,6 +587,20 @@
         "inputTokens": 208,
         "outputTokens": 107,
         "costUsd": 0.000191
+      }
+    },
+    "8cd5360e487cda3bc57e7dcc3fefc788cc0164d04a0960a8ed7126f7c4067141": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c4ae967a1b6a32bc2ad3ad90d45f8caeb2cd3f8a58afb8356832cec30fcea57",
+      "contextFingerprint": "fe023855dfef82bd5bdedb22f76665be3455602f57a59fef41e29a7cac94d44b",
+      "sourceText": "launch目录下新建launch文件gazebo_sim_demo.launch.py，并输入如下内容：",
+      "translatedText": "Create a new launch file gazebo_sim_demo.launch.py in the launch directory, and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
       }
     },
     "8cee81c33cfcc29748d72f6521dede54b21ea09aca72f00ec86bdcc070a84e62": {

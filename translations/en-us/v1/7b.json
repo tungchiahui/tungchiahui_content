@@ -29,6 +29,20 @@
         "costUsd": 0.000059
       }
     },
+    "7b07aa2155e7f39e9cedd454beddadd498f5f053de1f37620ee7909f1f8cc8e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5f60068699369f6ebfe9bba907c2454df7ff44e4c4ec5bdfebd87922218371c",
+      "contextFingerprint": "857b3b00cd96e075a8f5bf22239459021250a13562fcd20b7bf6c55691b9412a",
+      "sourceText": "在sim.world中添加如下代码生成一个机器人：",
+      "translatedText": "Add the following code to sim.world to generate a bot:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "7b07fe96e299b5c5cb8f52f12db7b34b8014e13bcb79d695ddf9f057aaa292f0": {
       "normalizationVersion": 1,
       "sourceHash": "13e5311cff69016d0cc461637685826837b1646ef9c9a95507750c88a3706c08",
@@ -127,6 +141,34 @@
         "costUsd": 0
       }
     },
+    "7b2a1600d26e29fffefbb69caa514ad4e926fa707a4d2cb2c862582e5118d0cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c44065a2a699d14d6e45e12a42079ec3ca8056438aa119ffc2033ecc82fc4cf",
+      "contextFingerprint": "934d31e64600f3220820eab87b290d7536c8e478659311470665d18545db8dbb",
+      "sourceText": "*   `laser_model_type`: 设置激光模型类型，`likelihood_field`是一种常用的模型，它考虑了激光束击中障碍物的概率。\n\n*   `laser_max_range`和`laser_min_range`: 分别设置激光雷达的最大和最小探测范围。\n\n*   `laser_likelihood_max_dist`: 设置激光模型考虑的最大距离，超过这个距离的数据将被忽略。\n\n*   `do_beamskip`和相关参数（`beam_skip_distance`、`beam_skip_threshold`、`beam_skip_error_threshold`）: 这些参数用于控制是否跳过某些激光束的处理，以减少计算量。然而，`do_beamskip`被设置为`false`，意味着不跳过任何激光束。",
+      "translatedText": "*   `laser_model_type`: Set the laser model type,`likelihood_field`is a commonly used model that takes into account the probability of the laser beam hitting an obstacle\\.\n\n*   `laser_max_range`and`laser_min_range`: Set the maximum and minimum detection ranges of the lidar, respectively\\.\n\n*   `laser_likelihood_max_dist`: Set the maximum distance considered by the laser model; data beyond this distance will be ignored\\.\n\n*   `do_beamskip`and related parameters (`beam_skip_distance`,`beam_skip_threshold`,`beam_skip_error_threshold`) : These parameters are used to control whether to skip the processing of certain laser beams in order to reduce computation\\. However,`do_beamskip`is set to`false`which means no laser beams are skipped\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 117,
+        "costUsd": 0.000207
+      }
+    },
+    "7b2ebc393137029da09decf686faa5207e651007d4dcdb052da3e2a99e45b8e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad0e3c9f83c7f49259c76978f481fc26463deb5984ac8bbf653838e67d3adb24",
+      "contextFingerprint": "4503f2b9d76f33cc86dad50236d928a87c5a781ee7c0ea05296001cca415e714",
+      "sourceText": "2.  cartographer_node发布的话题",
+      "translatedText": "2.  cartographer_node Published topics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "7b311a942e88b8e0d35e40a8f82f9ddc7a1fa8e6c0601ad091698ae67dcb4ce8": {
       "normalizationVersion": 1,
       "sourceHash": "60aae5758b8b8b8b36eae8242e3db62eb0c533407ebe2f8d53519c7757663c8f",
@@ -167,6 +209,20 @@
         "inputTokens": 150,
         "outputTokens": 38,
         "costUsd": 0.000091
+      }
+    },
+    "7b57063fe195cee62b5a20a6cc15080f68390b89da887bd80611b3be80e72186": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e683582e800039bbacbf6f559cfecc428ce2ef9877f088b6177c6039f4cf412",
+      "contextFingerprint": "6c28befb83c13302ec3d761d2315ebd479e1a7d9c682365062962247beaa0b89",
+      "sourceText": "https://arxiv.org/abs/1709.00084",
+      "translatedText": "https://arxiv.org/abs/1709.00084",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7b5e3aab370eea446da36a1476e44642ac159b80f32342ed0d10adcacd890b4c": {
@@ -379,6 +435,20 @@
         "costUsd": 0.000226
       }
     },
+    "7ba6ed2e659f359478ab3e655b9390cce2207faa6b393ea2013b4a5124b88b3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ceeaaf4e6972478ae71bef7160670d7e854a998ac3c59f0a360b1072f57a5a2d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 使用方式",
+      "translatedText": "## Usage",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "7bac6183feb3b895c6a717657912d890fd23238bf5b6b28dc58aa0daf9cbc551": {
       "normalizationVersion": 1,
       "sourceHash": "6e3c3277075cb4c51ee5e5223909a207f63653f55a235dcfada2e7c23f11cf60",
@@ -421,6 +491,20 @@
         "costUsd": 0.000054
       }
     },
+    "7bb27f0b544ac89326e0894ff5c8c89ccdeec966d590e2d6c65ca181ab5b6f7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "883b72208281a90fe68dff6715fb84abf47b3a507efc1d7628dbec1b7c453110",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这俩对咱们的区别不算太大，也就是一个教程多，一个教程少的区别，你直接学老版Gazebo也是一样用的。",
+      "translatedText": "The difference between these two isn't significant for us; it's just that one has more tutorials and the other has fewer\\. You can directly learn the old version of Gazebo and use it the same way\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 48,
+        "costUsd": 0.000105
+      }
+    },
     "7bb2fbf2e777ac34681a119c49c4aba9b435907cc6d95a466be1602d35c944e6": {
       "normalizationVersion": 1,
       "sourceHash": "7c3d207e3bdd4dd01042095e1b6cbdedc5a0adf72a263c0d88b7c22eceff637d",
@@ -435,6 +519,20 @@
         "costUsd": 0.000058
       }
     },
+    "7bc0d83ea0eff34b6877090611962290739dfec8e4628aef0e6bc1395b8b2782": {
+      "normalizationVersion": 1,
+      "sourceHash": "9befca4c0cdb16dfb220012b8f9e385715b84b5b1d2762a6a3dfa352de54b3ce",
+      "contextFingerprint": "a2ba4fe2e2b42ab91c94020e104e1cdc041edf02a53a71f2dedaf8e361d15d9a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1731.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1731.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "7bc1f33e937a6b3bc768a703be2e621b83fee438bdc8ce48df4e31425dbcd79e": {
       "normalizationVersion": 1,
       "sourceHash": "92429a9ff1993f63b2a0cbfb8cd0ed80c11b50d5e63f4235d22819f823b7340b",
@@ -447,6 +545,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "7bc2f02bc541242fa800f73d1fd75f9a48e48d626f185711094202982e9128c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6ab1b0c9c7cd588202939b3c9f1804b7635c617c9912db1b0a38e95561dbace",
+      "contextFingerprint": "efa7efad6b084ee5fd65e7c781d6c614c0c2ed46e1c5ca2e44d8d30ff167e26e",
+      "sourceText": "在params目录下新建一个名为`bt.yaml`的文件，并输入如下内容：",
+      "translatedText": "Create a new file named`bt.yaml`in the params directory, and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "7bc55da06e0d37123603eb5b3222623c74869f2a3f61e881254a84201f0ca947": {
@@ -505,6 +617,20 @@
         "costUsd": 0.000052
       }
     },
+    "7bd5d1e57878a86ae843cfeb72b93df12e36859e7d9a82d2dcc81b9f678d8c3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c22b8149781ed6bdc8b7eda10ad9abff5a075fbc4ddf1bb76647a4c807c509e",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 添加雷达",
+      "translatedText": "##### Add Radar",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "7bd697db9149aaca93f8d10a996f528c7f3c1112464223b8ce3dc188618ae771": {
       "normalizationVersion": 1,
       "sourceHash": "913306401634bbec442b360963c1ae6abc5ae3ad9770986de88bcdb1a23081fd",
@@ -517,6 +643,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7bdc4fc858ca7f5522d590e89d20680dd942c75c6863ec89e8d3311e1568d81b": {
+      "normalizationVersion": 1,
+      "sourceHash": "752f9c28962de6107d8644e1699ee821e17664104a05a60b0b4ec1ebf64ff85b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "定位就是Slam会发布一个/tf，这里面会包含机器人到map之间的坐标变换。",
+      "translatedText": "The localization means that SLAM will publish a /tf, which will contain the coordinate transformation between the robot and the map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
       }
     },
     "7be2bce6292961df70da9a5bf9473988a1c3b74dbc3dda5238fac79895c4fad3": {
@@ -587,6 +727,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7bf5523944c4a3739fc8f819a313d672bdc2f29a2396cb87269eeefe746513c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c50857acea76a6b728e0e46c5da680fc8495b0a81e9bf26588524a8188cb08f5",
+      "contextFingerprint": "da50df98b5074626a34485ce186ddc0af61c345da61077375dcfa13f5e2fdf8a",
+      "sourceText": "修改`car.urdf.xacro`：",
+      "translatedText": "Modify`car.urdf.xacro`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     }
   }

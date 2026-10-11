@@ -141,6 +141,34 @@
         "costUsd": 0.000053
       }
     },
+    "792c7e3387634e5a4029698305d8bc34761ef9b8a741efc0663c87a4b88d96a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2f729d4c8f1581a6ec4ec5419813df456a37c1b27c3419bb28c9ce463a61007",
+      "contextFingerprint": "e774bf7bb9812516ca0803431ad18107593ec1a98b2853ae61b78bd663e26d5e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/1790305312940-da3c783b.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/1790305312940-da3c783b.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "793556b0d6ef4ccd55a0e485b65ddb3b378b7b990d9180b47506d0081d1f338a": {
+      "normalizationVersion": 1,
+      "sourceHash": "92db6a6fe892070bee83c7fd69c13611b6122dc91b907d1f7cc642abd9ab4bf0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "1.代码框架搭建",
+      "translatedText": "1\\. Code Framework Setup",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "793d488c2b40ee26b3f81dfa4cc093b0feda1f3290c45acfaffc76345e25ab64": {
       "normalizationVersion": 1,
       "sourceHash": "f5d41a80c7c8133d6bb6c4c266898a5a62e08fb43b83c12c5629e0b98c4bceb8",
@@ -153,6 +181,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "794230c5bb78dd11bd05dc1b1a81d20e99d61919fc8528cd08ac7c40065c6305": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bdcaf257ee466acada601d69fcf230cf092df2a876a881fc799b81b2d94b56e",
+      "contextFingerprint": "bc65518cf043e53ad8960af3bfd49d382072f92d60272d40b26b831e3405918d",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /global_costmap/costmap_raw | nav2_msgs/msg/Costmap | 全局代价地图的原始数据，用于路径规划 |\n| /global_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | 机器人在全局代价地图中的足迹表示 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /global_costmap/costmap_raw | nav2_msgs/msg/Costmap | Raw data of the global costmap, used for path planning |\n| /global_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | Footprint representation of the robot in the global costmap |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 83,
+        "costUsd": 0.00016
       }
     },
     "79501afe3504ae48adb9cd7b15433ecb754f0dd347ba80abe50c2b00783a41dc": {
@@ -211,6 +253,20 @@
         "costUsd": 0
       }
     },
+    "795a4b73cbcf3bbf61b6e94dfa685be52413fe9097b3fbdaa21443a3884e1165": {
+      "normalizationVersion": 1,
+      "sourceHash": "a815ab7b4e51e038f80f22416c46a1381cd8a749ad3f26dfba98e081b1b17fb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节课通过配置两轮差速控制插件，让我们的机器人动起来",
+      "translatedText": "In this lesson, we configure the two\\-wheel differential control plugin to get our robot moving\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "79611f41ed0d2af281d9ad3d7ffa19c78549e0aaa71e11bab52ca663883a81da": {
       "normalizationVersion": 1,
       "sourceHash": "11e2740c9323a95956e6bc02e38468914c4d78d6857c4e1984a99a615e9fcc38",
@@ -253,6 +309,20 @@
         "costUsd": 0.000114
       }
     },
+    "796ea23a9166d83f39e7551b3e2f4054048163af0b26987eb367567370277f37": {
+      "normalizationVersion": 1,
+      "sourceHash": "49f3dd20a191dfd67b45e91edaec64d775a5616d7282906164e8e091f6801426",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "自己写的大部分源码仅供参考，如果有更好的思路可以说：",
+      "translatedText": "Most of the source code I wrote myself is for reference only; if you have a better approach, feel free to share:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 32,
+        "costUsd": 0.000081
+      }
+    },
     "796f222cec7b93f00b27637be7504913f907f17ab0e0b4c276184facb5824562": {
       "normalizationVersion": 1,
       "sourceHash": "ecd8cab79d23baf8aa540cae2205f72e5e1aec0af237b4959c34c437cb22b3c0",
@@ -281,6 +351,20 @@
         "costUsd": 0.000124
       }
     },
+    "797154f95c41f54e6fefc0a5886191bec113b725dee10aa7adc4c057e3ea3813": {
+      "normalizationVersion": 1,
+      "sourceHash": "407a3da5e2337cbc6cde63204b391cf3d76ae37ce550a3e7120a2bf07bf76050",
+      "contextFingerprint": "9720c45ec5beee371f96e3e6702845f359624559e6473fa1490492d1abb00e2b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1784.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1784.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "797724139649c5dc406bdaef9a84a3e43df55663e65ec34649ef04dd83f8a4d7": {
       "normalizationVersion": 1,
       "sourceHash": "f5f70a60166061d982de924ff9131a771ef616b2ebdd7805403a8774a8a900a2",
@@ -307,6 +391,20 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "7981e2c84b45683755539431c0ddeecf19fd08b5678f864c72ac0147b9805a26": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7252ae81c5b3a344cf766e50d9d1c5a639829664204c6469c0fd1e5db2916c8",
+      "contextFingerprint": "f3be401df8c87cf847421a47215d2103198e4c0260542ebc20533808f40de983",
+      "sourceText": "*   **并行扫描匹配** 利用并行计算技术加快扫描匹配速度，提高建图效率。\n\n*   **位姿图优化** 通过图优化技术估计机器人的姿态和地图的拓扑结构，减少累积误差。\n\n*   **实时地图更新** 在机器人移动过程中实时更新地图，确保地图的准确性和时效性。\n\n*   **回环检测** 通过回环检测识别机器人曾经访问过的区域，进一步减少累积误差，提高地图的全局一致性。\n\n*   **多传感器融合** 支持激光雷达、IMU、里程计等多种传感器数据的融合，提高定位和建图的精度。",
+      "translatedText": "*   **Parallel scan matching** Use parallel computing technology to accelerate scan matching and improve mapping efficiency\\.\n\n*   **Pose graph optimization** Estimate the robot's pose and the map's topology through graph optimization techniques to reduce accumulated errors\\.\n\n*   **Real\\-time map update** Update the map in real time while the robot is moving to ensure the map's accuracy and timeliness\\.\n\n*   **Loop closure detection** Identify areas the robot has previously visited through loop closure detection, further reduce accumulated errors, and improve the global consistency of the map\\.\n\n*   **Multi\\-sensor fusion** Support the fusion of data from multiple sensors such as LiDAR, IMU, and odometry to improve the accuracy of localization and mapping\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 250,
+        "outputTokens": 140,
+        "costUsd": 0.000243
       }
     },
     "7982773f06b971f00e0dc9af2460d0c2ebd0725dbbd2e1796a4482f1ed3fb967": {
@@ -377,6 +475,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "79a496fd814c23121d9120ead07f43a40de1f7f27230d56c4b325de5ee91485f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bb201b0bd8b6a7bf7a5db121aa68d2586c6234acddeebba13672285307f66ee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "1.添加地图",
+      "translatedText": "1\\. Add a map",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "79aa563a5afa259ea8e6a3514279fd9ea8f605e450fbf13fabe6d0829e67baf9": {

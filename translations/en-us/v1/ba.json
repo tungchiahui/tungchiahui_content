@@ -141,6 +141,20 @@
         "costUsd": 0.000069
       }
     },
+    "ba31e7a988a580a7b366e464482a5a343c252286de24dc1393dc56d7ff9497ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "5631468c0beca1e76598af95eb177baaf62bd8b8e5bc0d302f00573d3e59ed0d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用上述命令后频率下降到50-100Hz,这是ROS最舒服的一段频率了",
+      "translatedText": "After using the above command, the frequency dropped to 50\\-100 Hz, which is the most comfortable frequency range for ROS",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "ba35da7c3e1a32345ec3786580b55f97edf7a8a22730621abe998e631fd9de2c": {
       "normalizationVersion": 1,
       "sourceHash": "b9a641333f309748324f2cf1bc042f6f13a5e3af5e9d14b168b8a20cf9261fe7",
@@ -153,6 +167,20 @@
         "inputTokens": 200,
         "outputTokens": 94,
         "costUsd": 0.000173
+      }
+    },
+    "ba38680139ef96bf5e6e643bd8313c2f90ec119895f00c2c89f0b4bc91730410": {
+      "normalizationVersion": 1,
+      "sourceHash": "0192a41cdcfdf26f919254ee40c21eacdd5e19501aef88851228c987b5a0878b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Gazebo每个版本的变化都很大。",
+      "translatedText": "Each version of Gazebo undergoes significant changes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "ba39b196a13aa27a65da0f5a9735677cba93b9c5d5c5e6b454d4d102a82f5697": {
@@ -307,6 +335,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "ba79192f78412be8caba8f15b759811c49b8e6f7474ea33ed9e4464d6bd38a3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "64c5c08b3221bc49ed58aee27a7d5b711970883fdc9a9fbd4b857c7a900d5936",
+      "contextFingerprint": "4600aedf70d3729a6e72e7da6f7614ae65d3748680c51c2203ffb2fd5ce72707",
+      "sourceText": "学习 TCP 通信，并不代表要用 TCP 替代 ROS 2 的 topic、service、action。",
+      "translatedText": "Learning TCP communication does not mean using TCP to replace the topics, services, and actions of ROS 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 35,
+        "costUsd": 0.00009
       }
     },
     "ba7bdb1b5c42be6762b0e65569572a6715c6556010fd0700a454d0ce32fc7ca7": {
@@ -687,6 +729,48 @@
         "costUsd": 0.00011
       }
     },
+    "baeabb8f33668afc5c876fe371e96f2c0b1bcb6904e5fa2ee3dbd33b3ff2cc58": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f98b3e786331272dec3638e5be3d9908d4da5064c6d304d9c5f5bff39ec9b4b",
+      "contextFingerprint": "0f50d9aee9324ea4ad655fff1ecbb4fbfa29ed9b36a139596bf9f041ba190db9",
+      "sourceText": "- 适合 C++ 工程开发\n- 同时支持 TCP、UDP、串口、定时器等功能\n- 可以写同步代码，也可以写异步代码\n- 不依赖 ROS 2，方便在普通 C++、OpenCV、Qt、嵌入式 Linux 项目中复用\n- 后续可以和串口、UDP、定时器形成统一的 I/O 编程风格",
+      "translatedText": "- Suitable for C++ engineering development\n- Simultaneously supports TCP, UDP, serial ports, timers, and other functions\n- You can write synchronous code or asynchronous code\n- Does not depend on ROS 2, making it easy to reuse in ordinary C++, OpenCV, Qt, and embedded Linux projects\n- Subsequently, it can form a unified I/O programming style with serial ports, UDP, and timers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 122,
+        "costUsd": 0.000216
+      }
+    },
+    "baf0c8a63d23f1ec158d0f21bcb0357bfbb2fe40c173f2b02788b6be1f4993fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb89fde806420adb62658b9921ba4a27e667550c7a55f21d42488d653d8c1941",
+      "contextFingerprint": "a87eda004cc57196033848c5929eb34eea7bafbd68c6f8094fa5b9853bdb44f1",
+      "sourceText": "- 比直接使用 `termios` 更适合 C++ 工程开发\n- 可以封装成普通 C++ driver，方便复用\n- 不依赖 ROS 2，OpenCV、Qt、普通 C++ 项目都能使用\n- 后续也可以很自然地接入 `ros2_control hardware_interface`\n- 比较适合机器人上位机和 STM32 通信场景",
+      "translatedText": "- More suitable than directly using `termios` for C++ engineering development\\.\n- It can be encapsulated into a regular C++ driver for easy reuse\\.\n- It does not depend on ROS 2, so OpenCV, Qt, and ordinary C++ projects can all use it\\.\n- It can also be naturally integrated later with `ros2_control hardware_interface`\n- which makes it quite suitable for robot host computer and STM32 communication scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 219,
+        "outputTokens": 116,
+        "costUsd": 0.000205
+      }
+    },
+    "baf1c2ba923cf736e1edbffb971116db44b5b6d8990dfd85b3c084eb62ce5b4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bfa3d7930f46d4578c780e479f60a80178293ad6a3334f66d62c1e06092d1ee",
+      "contextFingerprint": "0d8c2f0ef8c3c7bcd53ba16d4b84cd45cb6f32f734289feaf953ef7022e24c59",
+      "sourceText": "详见[远程桌面](/wiki/2024-03-30-linux-jiao-cheng/0900-qi-ta-cao-zuo#远程桌面)",
+      "translatedText": "See details[Remote Desktop](/wiki/2024-03-30-linux-jiao-cheng/0900-qi-ta-cao-zuo#远程桌面)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "baf466441dd16290d53cd928d43a5b3966985c837f798bcf0fbcfb91654632d4": {
       "normalizationVersion": 1,
       "sourceHash": "acc621cc692367bf8fa6f41110a6248bcfb95dd83467123e1e1f3662e1fe2b7d",
@@ -713,6 +797,20 @@
         "inputTokens": 153,
         "outputTokens": 43,
         "costUsd": 0.000098
+      }
+    },
+    "bafc208303822cc8a831cca06fc6b2aa4894382884e11193d6bf82613d03f34c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0742beee2a2ba705416694073c36dbe286af25c446bf96ddf4ba6f8b45352a30",
+      "contextFingerprint": "19c2b70953e5771980da05c21e224f95dbd9ad9a178b858a005f3dfd548186ab",
+      "sourceText": "stage中的position模型可以以差速、全向或阿克曼的方式模拟移动机器人底盘。在car_base.inc中输入如下代码：",
+      "translatedText": "The position model in stage can simulate a mobile robot chassis in differential, omnidirectional, or Ackermann modes\\. Enter the following code in car_base.inc:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 45,
+        "costUsd": 0.000104
       }
     },
     "bafe889a6ffbcb76fd611cd04975eafcb8a91df506e70704c236792c4d3b14b7": {

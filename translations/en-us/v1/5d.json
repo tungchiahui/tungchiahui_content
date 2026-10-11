@@ -43,6 +43,20 @@
         "costUsd": 0
       }
     },
+    "5d182d91e0953f485d3d85b4f4c86f9983b769db893f4a1fbaa064517929ce36": {
+      "normalizationVersion": 1,
+      "sourceHash": "1627ca0ca40312974bf7b591b8d9e83ba08575177b7e447fd57bf8de894c0b5c",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**视图选项**",
+      "translatedText": "**View Options**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "5d22e44dd1eaa79ec41b09ea4bf7b365082c13a206d41ee470f75803c512dabd": {
       "normalizationVersion": 1,
       "sourceHash": "411b5f2a70e72e3e3b14584c2a7416fab5e119719f171ed6c5e070dc278b4deb",
@@ -55,6 +69,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "5d259460575018c393a295edb31336d255dc1c612ebcd65f7a0f0cf6623a8e60": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8f9d4cc1340c304990c1a4db96a6c502ed72688725b4caab0a9fa409d1d8b36",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常见通信方式",
+      "translatedText": "### Common Communication Methods",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "5d268c9c080dcc1c0662ecb92faa531cf8b0f06de6edbe56d0b4c7aac9205bf3": {
@@ -181,6 +209,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "5d52424b45ff7dfb3c351aadefdfa41279f40cb725ddad59cbd8855cc9e06ced": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3107edeae72e3c10c04eea0f720e1368205c493e6c66c9d1cabe93804b6bd75",
+      "contextFingerprint": "b25f5dcc1bb43811417f1ab28ced203fec89a05b53fffb8828ebc1d481c6689f",
+      "sourceText": "| 方案 | 类型 | 特点 | 适合场景 |\n|---|---|---|---|\n| SocketCAN | Linux 原生 CAN 接口 | Linux 标准方案，通用、稳定、工程常用 | 推荐作为主线学习 |\n| can-utils | SocketCAN 命令行工具集 | 提供 `candump`、`cansend`、`cangen` 等工具 | 调试 CAN 总线 |\n| libsocketcan | SocketCAN 辅助库 | 便于配置和管理 CAN 接口 | 需要程序内配置 CAN 参数时使用 |\n| ros2_socketcan | ROS 2 封装库 | 将 SocketCAN 封装进 ROS 2 生态 | 纯 ROS 2 项目或参考实现 |\n| ros2_canopen | ROS 2 CANopen 协议栈 | 适合 CANopen 设备 | 电机驱动器使用 CANopen 协议时 |\n| 厂商 SDK | 厂商提供的驱动库 | 和具体硬件绑定 | 使用特定 USB-CAN、PCIe-CAN 设备时 |",
+      "translatedText": "| Solution | Type | Features | Suitable Scenarios |\n|---|---|---|---|\n| SocketCAN | Linux native CAN interface | Linux standard solution, general\\-purpose, stable, commonly used in engineering | Recommended as the main learning path |\n| can-utils | SocketCAN command\\-line toolset | Provides `candump`, `cansend` and `cangen` tools | Debugging CAN bus |\n| libsocketcan | SocketCAN auxiliary library | Facilitates configuration and management of CAN interfaces | Use when CAN parameters need to be configured within a program |\n| ros2_socketcan | ROS 2 wrapper library | Wraps SocketCAN into the ROS 2 ecosystem | Pure ROS 2 projects or reference implementations |\n| ros2_canopen | ROS 2 CANopen protocol stack | Suitable for CANopen devices | When motor drivers use the CANopen protocol |\n| Vendor SDK | Vendor\\-provided driver library | Bound to specific hardware | When using specific USB-CAN, PCIe-CAN devices |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 367,
+        "outputTokens": 251,
+        "costUsd": 0.000412
       }
     },
     "5d5a525625447081caf15e2ac98aa8a5d88c0457b251dcca962b1f243e050196": {
@@ -315,6 +357,20 @@
       "contextFingerprint": "a7453c54df60856b7c8083e694f9b7b53c1e24bab0c6f32dab07c370687aea96",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image748.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image748.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "5d910e3971834f5204b371f3f008481af1b5036af4058242cb4f00ceb0c2e84a": {
+      "normalizationVersion": 1,
+      "sourceHash": "fae667772a2abcac205195c92238cd6f1babd840de62f6543ce8dd4aa7b53237",
+      "contextFingerprint": "4118a60119c1cbe1b000b9e549b07a58b6e4c0e0960d47207c3dadaf2653f0c9",
+      "sourceText": "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm%5C_source=official&pli=1",
+      "translatedText": "https://chromewebstore.google.com/detail/immersive-translate-trans/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?utm%5C_source=official&pli=1",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -561,6 +617,20 @@
         "costUsd": 0.000061
       }
     },
+    "5de93df7b0cb415bfc1a8b2dc38cc7c18474d36dd2e7375cb2f1d7952b682ab8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ddb2a439252eb9c89697daf8da0a535d1ac78640288c752aa62014eda3b599d0",
+      "contextFingerprint": "6710847655fb09f17232c03b60af6b23f6942af6e30be6dd739cb55d052376a1",
+      "sourceText": "然后现在ROS2Humble自带的是Ignition Gazebo（ Gazebo Fortress），但是ROS2 Jazzy自带的是\tGazebo Harmonic，建议学习\tGazebo Harmonic ！",
+      "translatedText": "So now ROS2 Humble ships with Ignition Gazebo (Gazebo Fortress), but ROS2 Jazzy ships with\tGazebo Harmonic; it is recommended to learn\tGazebo Harmonic\\!",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 64,
+        "costUsd": 0.000132
+      }
+    },
     "5df00eeee6c77b7821fc4f77379190de0957f653531fec05e29df2b036ad19cb": {
       "normalizationVersion": 1,
       "sourceHash": "a7441b413982cdffbcea7dfd29ddd0413837ba9feec5ea97fd592ccbde30d5ce",
@@ -587,6 +657,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "5df14090c358ea884597d0c1ddfc027455614b107e92b1b92156ffac422f3f2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0b5d9a56c042e0abdf223521e26385b46f978dda5fda92251ac2e40dfb55779",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "功能",
+      "translatedText": "Features",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "5df2168d4ba5351c3e96a5bb61c7f78e832f395811bd4694b70c880c661cba17": {

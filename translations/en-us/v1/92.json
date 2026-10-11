@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "92008ecdcc95b2ce6e86ad7da256ffe030e27bfb5f282da356f7dcc228aa2aba": {
+      "normalizationVersion": 1,
+      "sourceHash": "1554d563a623099d09277f70b9fa6f475acff23ba50b3730e9651ccd121a352e",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**2.编译**",
+      "translatedText": "**2\\. Compile**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "920bd511f2c2c50fe6d6c72f7ed80d97ccc7b86ca0926d31ca7716839210ed27": {
       "normalizationVersion": 1,
       "sourceHash": "63dccb9f745389e32e8be1965afef6ee86ef98d6e96a090d9bffa308c0e96076",
@@ -13,6 +27,34 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "920d9804476fff011f80a58351b1bf56625d1bc14fd32cf2caf0f866b1c01bad": {
+      "normalizationVersion": 1,
+      "sourceHash": "73d67a75c33709176fe48ddf8146f7a0cffb15317dd076c3497819f9074c5a8c",
+      "contextFingerprint": "4b23b459f130f5ae8d7765487caaccb7bf2f5e59702f7009af2e378ae533c085",
+      "sourceText": "> **cartographer_node：**\n> \n> 主要负责订阅来自各种传感器的数据（如激光雷达、IMU、里程计等），并基于这些数据实时构建地图。它采用子图（submap）的方法来逐步构建和更新地图，确保定位的准确性和建图的实时性。\n> \n> **cartographer_occupancy_grid_node：**\n> \n> 该节点负责接收`cartographer_node`发布的子图列表（`/submap_list`），并将其拼接成完整的栅格地图（occupancy grid map），然后发布这个地图。这个节点是地图生成的最终环节，它使得Cartographer能够输出人类可读且易于可视化的地图。",
+      "translatedText": "> **cartographer_node:**\n> \n> Mainly responsible for subscribing to data from various sensors (such as LiDAR, IMU, odometry, etc\\.) and building maps in real time based on these data\\. It uses a submap approach to incrementally construct and update the map, ensuring localization accuracy and real\\-time mapping performance\\.\n> \n> **cartographer_occupancy_grid_node:**\n> \n> This node is responsible for receiving`cartographer_node`the published submap list (`/submap_list`), stitching them into a complete occupancy grid map, and then publishing this map\\. This node is the final stage of map generation, enabling Cartographer to output maps that are human\\-readable and easy to visualize\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 259,
+        "outputTokens": 145,
+        "costUsd": 0.000252
+      }
+    },
+    "9219a53b09544e943a7ee7d550f402394af576bd22490cc76720ff08b6bbaf6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a9824b7c072644ac8e879d143a4693cad1d6ea9b42d8f3b020a97e16e6365e6",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "如果你在ROS1或者说其他地方使用，而且没有安装ROS2，请选择该方法。",
+      "translatedText": "If you are using it in ROS1 or elsewhere, and ROS2 is not installed, please choose this method\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
       }
     },
     "921ae5ae27eb45ed9ef86e7665a6a46e605a16121b0ca2e950ee485c9f673d29": {
@@ -41,6 +83,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "921f8b6a167ec1cd9bb0d5d6701a5d9180822e2f06008dd422fb8a6cc9c5e943": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ee797e2e4dfe7fe26a57431fea700bfa71c22d7b611d463c70bc904aafc0497",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果不改，Gazebo 可能会提示：",
+      "translatedText": "If you do not change it, Gazebo may prompt:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "922592ea7cc25e953c3da8773281caccca3811881be5b5d25e55236d8d52bf2b": {
@@ -99,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "92343addc7e16cbf7a912e6db528004077af86ae650cccd4bc7640c038ebd7a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0cd8563fbd2d7f910a5d77599993dc76d437f1bd0038996c047cd586d90666e",
+      "contextFingerprint": "49ebcd845079908f53694e68c793beb3f6ab9a7ba0ca2bd9e440f3b9983af6cc",
+      "sourceText": "stage中的camera模型可以模拟深度相机。在camera.inc中输入如下代码：",
+      "translatedText": "The camera model in stage can simulate a depth camera\\. Enter the following code in camera.inc:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "92397136a1e212d7a55c70751dd83e7473e3044861789509327f2874a32ce2d9": {
       "normalizationVersion": 1,
       "sourceHash": "ba31ef17b2d5578a04c66a12fa6852d40cffb44d1a1aba7f5955512d95ced714",
@@ -125,6 +195,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "9262db293462af3b4560a1ce952979c6621e9a8261de5e023c5a7ef70246fbb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "27c1aef09e2b50115741144cc14e17ff726e595b2112a01b80feefae61f4661c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "CANopen 是建立在 CAN 之上的高层协议，涉及对象字典、PDO、SDO、NMT 等概念。",
+      "translatedText": "CANopen is a high\\-level protocol built on top of CAN, involving concepts such as the object dictionary, PDO, SDO, and NMT\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
       }
     },
     "926f68a649fe0e834c81f554622f8bcc9f845ca73728f77459c6cfc4644901c2": {

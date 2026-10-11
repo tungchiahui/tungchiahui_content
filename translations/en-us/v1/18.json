@@ -85,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "18223d3a9888a7cd4b5619ee9df7015a23e73c96a554f344f7ab4e52d479adec": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b4c38ec302f116a0ec033249fa4f6564f5a2f58083d4879d41d2b5c0db26e7a",
+      "contextFingerprint": "ae4c89d3421530fed41a2914e36465535e974105e0898e2ec326bdb155eb904e",
+      "sourceText": "效率：Boost.Asio接收 >> 单片机串口中断 >> 多线程阻塞式接收 >> 单线程阻塞式接收（在传输速度非常快的情况下，全都是远远大于>>）",
+      "translatedText": "Efficiency: Boost.Asio receive \\>\\> MCU serial port interrupt \\>\\> multithreaded blocking receive \\>\\> single\\-threaded blocking receive (when the transmission speed is very fast, all are far greater than \\>\\>)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 57,
+        "costUsd": 0.000121
+      }
+    },
     "18259755af01f93b937667703d6b208d6f75f3d86fb828fab39dd9437366fafe": {
       "normalizationVersion": 1,
       "sourceHash": "fb00e40945373b636ad8eb165d63de8e8f4b165078ee8235c55a9f4e82488704",
@@ -97,6 +111,20 @@
         "inputTokens": 143,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "1827be021dfa3e85520b6c98b33a35172ff98b4d7478ad0b2f5b876c5c1537d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cfebf2659a9092bda09ffb6f6e58b2d5ae233d40d690b0f409897dceade0c05",
+      "contextFingerprint": "cf109fdcb540e8a14580349d03b4c9b664291ae41f1ec8e1f469cc82700bb3b6",
+      "sourceText": "由于我们想避免那么大的开销,又想在必要时查看打印的数据进行调试,所以我们常采用`RCLCPP_DEBUG`来打印数据,在必要时期才打印数据.",
+      "translatedText": "Since we want to avoid such a large overhead and also want to view the printed data for debugging when necessary, we often use`RCLCPP_DEBUG`to print data, and print data only when necessary\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
       }
     },
     "1829a2fa6d5d372640a3666503463a0d741db0523c61ae7f721f32aecd1b696c": {
@@ -153,6 +181,20 @@
         "inputTokens": 161,
         "outputTokens": 41,
         "costUsd": 0.000098
+      }
+    },
+    "185090ce760cc3aaa6d0a9381029628bbfd5e53ae2ae29e7a6e88ebe8cb84f24": {
+      "normalizationVersion": 1,
+      "sourceHash": "e857667a7a1782de0881dad277d7a2c23b235d59d85e040c25fdeed8d3d8c505",
+      "contextFingerprint": "2a44f54e466899c0e69d6a7052617402e9add83e1072b40f9caf0318eee6204f",
+      "sourceText": "https://index.ros.org/p/serial_driver/",
+      "translatedText": "https://index.ros.org/p/serial_driver/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "18571a7cdf04de0ac7c98e20923f7b34f3ead4c236834da9460c99aaf4e683c2": {
@@ -264,6 +306,20 @@
       "usage": {
         "inputTokens": 138,
         "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
+    "187784b1bff03644df897998fa46b9d04358840345c6cbdba45d302306f9df28": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8666ea5656b4d9a38d1107c57931121f48cd715e1caa9ee14488e27815f41e1",
+      "contextFingerprint": "564ff3f7dc2d323f40a7471e4699cfd18cf2da1e55628eca71f76d973721522b",
+      "sourceText": "IMU对应的消息类型为`sensor_msgs/msg/Imu`",
+      "translatedText": "The message type corresponding to IMU is`sensor_msgs/msg/Imu`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
         "costUsd": 0.000059
       }
     },
@@ -421,6 +477,20 @@
         "costUsd": 0.000051
       }
     },
+    "18b8fc72a9801db823acd93cfff5c3bb1ec7b7a86817c0dce7b1e8cb4ebd030b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d49da6cd127d7af9eae20761db9484b7df3b2f9eddbfd026c2a439bfff33460",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 调用服务加载模型",
+      "translatedText": "#### Call the service to load the model",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "18cb0bbab52f52b32f8367320c9f6ff39c6068d34fba3ccb0b3923eb05e565ed": {
       "normalizationVersion": 1,
       "sourceHash": "9187fa044ef453748579850b7ca1ff26a83f80560a0c7d0a90809d6aeaa0861a",
@@ -433,6 +503,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "18cd381d799f3db6ed06cf936fa73c7461188f6a0773c7a71d77f0f3f4e4ce08": {
+      "normalizationVersion": 1,
+      "sourceHash": "56cf265771b4e697920c0c2c795a734cfec2b9d89be631e46c25169b1213b620",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并把存放模型的路径加到~/.bashrc里（第二个冒号后面的可以不写，第二个冒号后面的是多个路径。）",
+      "translatedText": "And add the path where the model is stored to \\~/\\.bashrc (the part after the second colon can be omitted; what follows the second colon is for multiple paths\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
       }
     },
     "18cf9946fa5892c7c538048696b4a337cf162a286480c5d00f3ee19c7d64ac0f": {
@@ -503,6 +587,20 @@
         "inputTokens": 177,
         "outputTokens": 73,
         "costUsd": 0.000141
+      }
+    },
+    "18dad6f0d498af51f2b48e293d24075d4be03327e803cb99cec21fbb459e34be": {
+      "normalizationVersion": 1,
+      "sourceHash": "aee3abbc31a12b1957577ad9503beab02807fc153f66d67626da83e36e33a9fd",
+      "contextFingerprint": "d64d8822b1d10b68b749cf20f6259ebfb2546e8a20292da209995a3981067d4d",
+      "sourceText": "5.  /global_costmap/global_costmap参数",
+      "translatedText": "5.  /global_costmap/global_costmap Parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "18db912970d5f5cb46120fd96f1968f02dc4fed0beb9de4690851a7d13df11d5": {

@@ -127,6 +127,20 @@
         "costUsd": 0.000169
       }
     },
+    "8d6661387284d69054e2ceaf379e1292d470f41322f9b4a8113bbd01aa93ebef": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa1201ba69af0dbf59dc10a66a956c89fec89ac6f143485385db07c416e6957b",
+      "contextFingerprint": "ffbefa35ecc3890ff93d7e7a8d62f53f5d60bd2d23d0ba8ec3b4cda6605bf318",
+      "sourceText": "| 话题 | 类型 | 描述 |\n|:---|:---|:---|\n| /scan | sensor_msgs/msg/LaserScan | 来自激光雷达输入的扫描数据 |\n| /tf | tf2_msgs/msg/TFMessage | 配置的odom_frame到base_frame的转换 |",
+      "translatedText": "| Topic | Type | Description |\n|:---|:---|:---|\n| /scan | sensor_msgs/msg/LaserScan | Scan data from LiDAR input |\n| /tf | tf2_msgs/msg/TFMessage | Configured odom_frame to base_frame transform |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 72,
+        "costUsd": 0.000145
+      }
+    },
     "8d6ed676b3ece54baa17e099b6342ddb6b1be78ebab6a1344da93d8ebf5fdf9c": {
       "normalizationVersion": 1,
       "sourceHash": "3f47d38f71d6f2c12cf4e2cd851974c57540ed5b79d81e4c87e64cdf2f0cd473",
@@ -153,6 +167,20 @@
         "inputTokens": 131,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "8d78fd588d381c4003a05d8b153b43e1032d2125d23998217f99adb095f15e40": {
+      "normalizationVersion": 1,
+      "sourceHash": "fda4b4eb6301fa01290a70f12893fcbc22508d09fd2359662ec1d6edf643732c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这两个节点的协同工作，前者负责实时构建和更新地图，后者则负责将子图拼接成完整的栅格地图并发布，使得Cartographer能够高效地实现SLAM功能。",
+      "translatedText": "These two nodes work in coordination: the former is responsible for building and updating the map in real time, while the latter is responsible for assembling submaps into a complete grid map and publishing it, enabling Cartographer to efficiently implement SLAM functionality\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 55,
+        "costUsd": 0.000117
       }
     },
     "8d81ba55cf56c7df1b3e0de2d1ae2d5adc69e5608450a4648163ce309e59e63c": {
@@ -237,6 +265,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "8da22e776238766d4bcbd958d88c1b4586b8483cc040076402d2ad1b3ab3b39d": {
+      "normalizationVersion": 1,
+      "sourceHash": "506a7eaee877ad103f3f32e579297331dedb5fcfd6342ac214339ad790b89ff9",
+      "contextFingerprint": "dd85026dd9d906496afe823f2dc4657bbb3ac6e4287487fa0a7b2bf5c7ef990e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1757.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1757.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "8da6e2332386004cab3dfa8411ffb4485d3427f63a46533854c7e57aa4d2f062": {
@@ -351,6 +393,20 @@
         "costUsd": 0.00006
       }
     },
+    "8dbd502c1b8ede724fdd1d887fdaf49f74b8d1df8083c81f3065fff91da09d67": {
+      "normalizationVersion": 1,
+      "sourceHash": "11552993d10d551fa14db8b3190f2f226e2e65afe0c4667ecd769336d22dacdd",
+      "contextFingerprint": "1a31eb548a81487bff3db644094959750dec5a1cfad183b899410bf220245dae",
+      "sourceText": "在实际应用上,我们很少使用`RCLCPP_INFO`,原因是打印数据开销太大,像Nvidia Jetson Xavier等工控机设备可能吃不消.",
+      "translatedText": "In practical applications, we rarely use `RCLCPP_INFO`because the printing data overhead is too large, and industrial PC devices such as the Nvidia Jetson Xavier may not be able to handle it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
     "8dc561c65f1915416fa74027b0793ed1ec01fb13ecde15c6479df1fb40ea8ed5": {
       "normalizationVersion": 1,
       "sourceHash": "908db53dc83cd02f305f7b4ab021dfe184e22cf7fb8e19aac5eb22fedbc15ad8",
@@ -363,6 +419,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "8dc9b1147b8a5deacc551d1ec18bfc2d464e31c82a4ca2fec9673b64f6d039a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "60b23f17aed9383640bce1ff7ce2b81ea68a447e978930893e85a9b868fd1b4f",
+      "contextFingerprint": "3dbfd10b4c77d3be4beb78ece3121bb29fc5bf640f30ef0bc04806302621cd5f",
+      "sourceText": "5.  执行\n\n    1.  请先调用如下指令启动仿真环境：\n\n    ```bash\n    . install/setup.bash\n    ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py\n    ```\n    3.  然后在终端下进入当前工作空间，输入如下指令：\n\n    ```bash\n    . install/setup.bash\n    ros2 launch mycar_slam_slam_toolbox online_sync_launch.py use_sim_time:=True\n    ```\n    5.  启动rviz2，将Fixed Frame设置为map，添加map插件并将话题设置为/map，即可显示slam_toolbox创建的地图了，当机器人运动时，地图也会随之更新。\n\n    6.  use_sim_time:=True参数表示使用仿真的时间。\n\n      最后需要说明的是，本节内容使用的是`sync_slam_toolbox_node` 节点，即以同步方式建图，而异步建图节点`async_slam_toolbox_node` 的使用与同步类似。",
+      "translatedText": "5.  Execute\n\n    1.  First, run the following command to start the simulation environment:\n\n    ```bash\n    . install/setup.bash\n    ros2 launch demo_gazebo_sim gazebo_sim_robot_world.launch.py\n    ```\n    3.  Then, in the terminal, navigate to the current workspace and enter the following command:\n\n    ```bash\n    . install/setup.bash\n    ros2 launch mycar_slam_slam_toolbox online_sync_launch.py use_sim_time:=True\n    ```\n    5.  Start rviz2, set the Fixed Frame to map, add the Map plugin and set the topic to /map, and the map created by slam_toolbox will be displayed\\. As the robot moves, the map will update accordingly\\.\n\n    6.  The use_sim_time:=True parameter indicates the use of simulation time\\.\n\n    Finally, it should be noted that this section uses the`sync_slam_toolbox_node` node, i\\.e\\., mapping in synchronous mode, while the asynchronous mapping node`async_slam_toolbox_node` is used similarly to the synchronous one\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 253,
+        "outputTokens": 152,
+        "costUsd": 0.000259
       }
     },
     "8dceb911c610a576a98f58e4a6bbdbcd73ffa1543382c8a36fe3b81866b1cd2d": {

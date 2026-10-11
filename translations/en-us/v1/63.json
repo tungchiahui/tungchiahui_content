@@ -99,6 +99,20 @@
         "costUsd": 0.000067
       }
     },
+    "63282289aab2613a7928a45672df54b231b51c7ef969835ae7d9c06bc08f4581": {
+      "normalizationVersion": 1,
+      "sourceHash": "308888b8a04a78defc1dde0e393f6be29fa8f5f26b55236db5ab768d0f8f3a48",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要注意的是虽然只有一个发射器和一个接受器，激光雷达通过电机可以进行旋转，这样就可以达到对周围环境360度测距的目的。",
+      "translatedText": "It should be noted that although there is only one transmitter and one receiver, the LiDAR can rotate via a motor, thereby achieving 360\\-degree ranging of the surrounding environment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "6329fb0d96128f3778822c2257e105319d272b4dc13a59a0c45a89e370e64e1c": {
       "normalizationVersion": 1,
       "sourceHash": "bffadd6032df5f9f514e150dd7d31c56d20d108e14b809c4cbfa02faadc36e38",
@@ -167,6 +181,20 @@
         "inputTokens": 130,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "633f66851d98b582ec60c8f7683b4703a356979790367e8de79b652f3b025c45": {
+      "normalizationVersion": 1,
+      "sourceHash": "2abdd3756f192874f955690cafaa863ec3d44ba937ceae57aeb0b76ea09c5274",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "world即世界，gazebo的world文件就是用于描述世界模型的，也就是环境模型。",
+      "translatedText": "world means world\\. A Gazebo world file is used to describe a world model, that is, an environment model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "63414b63387b932b88213ae1847dd3374e099a1d25e7f49c0c4d7685a88ab608": {
@@ -251,6 +279,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "63621a0c653da7fd9f4024ecc79ee1aba9943d225dce20ac2a314394e2f2a98d": {
+      "normalizationVersion": 1,
+      "sourceHash": "49bc0c06a0938ecb222d4d9013d357af9401d86272f9e4da78a96cd29f62e78b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Linux 下常见 TCP 库",
+      "translatedText": "### Common TCP libraries on Linux",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
       }
     },
     "6372cad9ef2028e52feb0685f0d3b75bc4fbd43a5e0f12f01d050147a53272f5": {
@@ -351,6 +393,20 @@
         "costUsd": 0
       }
     },
+    "6392c27b254a74a9087a37de5fe303684b8d7a8ba205c91c364fc8b9d9c20009": {
+      "normalizationVersion": 1,
+      "sourceHash": "4327e8668d88114b08ac016642d7fe50bf4e2b229a865e016d059b940d93b463",
+      "contextFingerprint": "6eb318e85d48806bfd370b6017cd7a6017560ca8419d110204d7dd490bf92538",
+      "sourceText": "*   name <string>\n\n*   用于世界的识别名称，例如在图形用户界面的标题栏中使用。\n\n*   interval_sim <float>\n\n*   每次调用 World::Update() 时运行的模拟时间量。每个模型都有其自己可配置的更新间隔，可以大于或小于此值，但比此值更短的间隔在图形用户界面或 World 更新回调中是不可见的。您可能不需要改变默认值100毫秒：此值在客户端内部使用，如Player和WebSim。\n\n*   quit_time <float> 在模拟时间达到指定的秒数后停止模拟。在 libstage 中，World::Update() 返回 true。在带有图形用户界面的 Stage 中，模拟被暂停。在没有图形用户界面的 Stage 中，Stage 会退出。\n\n*   resolution <float> 底层位图模型的分辨率（以米为单位）。较大的值可以加快射线追踪速度，但会以碰撞检测和感知精度为代价。通常情况下，默认值是一个合理的选择。\n\n*   show_clock <int>\n\n*   如果非零，每经过 $show_clock_interval 次更新就在标准输出上打印模拟时间。这对于观察非 GUI 模拟的进展非常有用。\n\n*   show_clock_interval <int>\n\n*   设置在启用 $show_clock 的情况下，在标准输出上打印时间之间的更新次数。默认值是每经过 10 秒模拟时间打印一次。较小的值会稍微降低模拟速度。\n\n*   threads <int>\n\n*   要生成的工作线程数。一些模型可以并行更新（例如激光器、测距仪），在这里运行 2 个或更多线程可能会使模拟运行更快，取决于可用的 CPU 内核数量和世界文件的情况。如果您有启用并行的高分辨率模型（例如带有数百或数千个样本的激光器或大量模型），则每个内核使用一个线程。",
+      "translatedText": "*   name <string>\n\n*   The identifying name for the world, for example used in the title bar of the graphical user interface\\.\n\n*   interval_sim <float>\n\n*   The amount of simulated time that runs each time World::Update() is called\\. Each model has its own configurable update interval, which may be greater than or less than this value, but intervals shorter than this value are not visible in the graphical user interface or in the World update callback\\. You probably do not need to change the default value of 100 milliseconds: this value is used internally by clients such as Player and WebSim\\.\n\n*   quit_time <float> Stops the simulation after the simulated time reaches the specified number of seconds\\. In libstage, World::Update() returns true\\. In Stage with a graphical user interface, the simulation is paused\\. In Stage without a graphical user interface, Stage exits\\.\n\n*   resolution <float> The resolution of the underlying bitmap model, in meters\\. Larger values can speed up ray tracing, but at the cost of collision detection and sensing accuracy\\. In general, the default value is a reasonable choice\\.\n\n*   show_clock <int>\n\n*   If nonzero, prints the simulation time to standard output every \\$show_clock_interval updates\\. This is very useful for observing the progress of non\\-GUI simulations\\.\n\n*   show_clock_interval <int>\n\n*   Sets the number of updates between printing the time to standard output when \\$show_clock is enabled\\. The default is to print once every 10 seconds of simulated time\\. Smaller values slightly reduce simulation speed\\.\n\n*   threads <int>\n\n*   The number of worker threads to spawn\\. Some models can be updated in parallel (e\\.g\\., lasers, rangefinders), and running 2 or more threads here may make the simulation run faster, depending on the number of available CPU cores and the world file\\. If you have high\\-resolution models with parallelism enabled (e\\.g\\., lasers with hundreds or thousands of samples, or a large number of models), use one thread per core\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 530,
+        "outputTokens": 434,
+        "costUsd": 0.00068
+      }
+    },
     "639c8d6aa295935dc17c0b471b2562e80cc2a7c6aaccecc4353f5d2d866a6bba": {
       "normalizationVersion": 1,
       "sourceHash": "55a60b993df015ce43aa5d0071cbd3202c5b764ee99132a878ae0d2708230034",
@@ -363,6 +419,20 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "639fdd6238cd3d8b2f75152dd0a8d15ea9bf99a73300f11ab5ae8d0789e11f29": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6fd98f31a36f1118bb63141da427ceefc169241a276f229376dd909556c6504",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "IMU（惯性测量单元）主要由以下几种类型组成：",
+      "translatedText": "An IMU (Inertial Measurement Unit) is mainly composed of the following types:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "63a1977e3f04f943a2e815c94d124758f430dc475662588f7d5d65a62fa9b96a": {

@@ -323,6 +323,20 @@
         "costUsd": 0.000057
       }
     },
+    "b13d61f747fa1dd3fc5a7cd0c6452bd35529bf39528a71ee1a10cf3701d83168": {
+      "normalizationVersion": 1,
+      "sourceHash": "de8bec6517901f80c681bad3e6bc8413c9a8ce635bcb19494ad427ace28b0631",
+      "contextFingerprint": "3ac08256a0555a4acc406b86598fd173186c5c13a122f3981b98760d8027d8c3",
+      "sourceText": "虽然仿真环境中的机器人已经配置了运动控制插件，可以通过`/model/vehicle_blue/cmd_vel`话题订阅速度指令并运动，但是Ignition Gazebo与ROS2中的消息格式并不一致，所以还需要通过ros_gz_bridge这一桥接功能包，实现二者之间消息的转换，调用指令如下：",
+      "translatedText": "Although the robot in the simulation environment has been configured with a motion control plugin and can subscribe to velocity commands via`/model/vehicle_blue/cmd_vel`a topic and move, the message format in Ignition Gazebo is not consistent with that in ROS2, so the ros_gz_bridge bridge package is still needed to convert messages between the two\\. The command is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 90,
+        "costUsd": 0.000169
+      }
+    },
     "b13e0155bf4f467791190f25315a0364056434ef40b62b3bfe0644aa28f6fab6": {
       "normalizationVersion": 1,
       "sourceHash": "5de05679eb5ae832b092d38911f4196d97fff7e3d18fdb504d111b9f4375d2be",
@@ -575,6 +589,20 @@
         "costUsd": 0
       }
     },
+    "b1aa00a52b49bd0a640d33f7abb1da83acf104206d34bec6e43fbc79e25ab944": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d78b62c2a8edb9821f8cf563fc6eed198b8315a628360d5cbfca5349e686685",
+      "contextFingerprint": "a6f6128ee3478bc9204be16b39a0c6a05613555e8c30cc175f546e9771825fb9",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /local_costmap/footprint | geometry_msgs/msg/Polygon | 机器人或移动平台的足迹多边形，用于本地代价地图的计算 |\n| /scan | sensor_msgs/msg/LaserScan | 激光扫描仪的扫描数据，用于环境感知和避障 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /local_costmap/footprint | geometry_msgs/msg/Polygon | Footprint polygon of the robot or mobile platform, used for local costmap computation |\n| /scan | sensor_msgs/msg/LaserScan | Scan data from the laser scanner, used for environment perception and obstacle avoidance |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 81,
+        "costUsd": 0.000157
+      }
+    },
     "b1ac54908123159f252d1ee9791a8221f3f7345e46feaf246ce21f6d4e31f996": {
       "normalizationVersion": 1,
       "sourceHash": "824a9e43e8658c5643aeaa4f68cd4dc029e6e8e90adf4a0ee210292cadd1853f",
@@ -645,6 +673,34 @@
         "costUsd": 0.000397
       }
     },
+    "b1c6e626531df24e8da41093180890d37096163c7570d255cbd0042d7df48954": {
+      "normalizationVersion": 1,
+      "sourceHash": "64b14904364cae7788e7c44bc25e89b25e13acbdf8e4a2623efdce359312e62f",
+      "contextFingerprint": "5f8d42130d43694ca8f2d56ef16f0286d8ea0dd94fa07ac0f345a2bda5bb84a5",
+      "sourceText": "除了TOF之外还有其他方法进行测距，比如三角法，这里就不拓展了放一篇文章，大家自行阅读。[激光三角测距原理详述](https://www.slamtec.com/cn/News/Detail/190)",
+      "translatedText": "Besides TOF, there are other methods for distance measurement, such as triangulation\\. I will not expand on this here; I will include an article for everyone to read on their own\\.[Detailed Explanation of the Principle of Laser Triangulation Distance Measurement](https://www.slamtec.com/cn/News/Detail/190)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 58,
+        "costUsd": 0.000119
+      }
+    },
+    "b1c98133bce022b2618b999ccf5b08d1832550eef92b2d62e03fa52b9ecfc96c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c8b8edbd33cfdfca7f004a00967ed82fc2ff6321beb465b4a2a53160751f570",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回成功，此时拖送Gazebo观察一下，发现多出了一个机器人，距离刚好是在X轴（红色）1米（一个小格子一米）处。",
+      "translatedText": "Return success\\. At this point, drag and drop into Gazebo to observe\\. It is found that an extra robot has appeared, and its distance is exactly 1 meter along the X\\-axis (red), where one small grid equals one meter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 55,
+        "costUsd": 0.000115
+      }
+    },
     "b1c9cff357884ee4401d5bdbefa74f79baca1e160811713fc1651f23e03b1b01": {
       "normalizationVersion": 1,
       "sourceHash": "bb034182eeb1a0619190496f0cbb425c071610a210069f0c4204268570dc33eb",
@@ -657,6 +713,20 @@
         "inputTokens": 134,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "b1cc5478d1baddd7f27f18dbdd0d1f87851ea61d3e2e8ab023edcdbf7cf67542": {
+      "normalizationVersion": 1,
+      "sourceHash": "671629190680da380f0b5e2ca04e9e673547cf23137123a1f1c3031ad22cfc9b",
+      "contextFingerprint": "b9a48ee6abfda6372a8a1a25ccf98c842a684aa24f058c8b68586dc3ed2a3e17",
+      "sourceText": "因为是给Gazebo的插件，所以在`URDF`中，我们需要使用`<gazebo>`进行配置，因为是要给`gazebo`配置插件，所有要在`gazebo`标签下添加`plugin`子插件。",
+      "translatedText": "Because it is a plugin for Gazebo, in`URDF`we need to use`<gazebo>`for configuration\\. Since we are configuring a plugin for`gazebo`all additions must be made under the`gazebo`tag to add`plugin`sub\\-plugins\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 50,
+        "costUsd": 0.000109
       }
     },
     "b1d1f1dee8ed709d5788cc28a8a30c142c62c57a0ffadf6478de2ed8c97b1563": {
@@ -743,6 +813,20 @@
         "costUsd": 0.000058
       }
     },
+    "b1d961260f9fee3063d3f55a4d07beffd07a29bf118b9244acb71521d1681879": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb4600b182ea4b38984a4520721a08dd744725338a354dcdcdd24b149fcd186e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在实际项目中，TCP 通信常见于：",
+      "translatedText": "In actual projects, TCP communication is commonly used in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "b1e4398f3bd93a9b22735f98ed8a92ebb5acd7b8d89aa472e35ec63b39e0a557": {
       "normalizationVersion": 1,
       "sourceHash": "bb1158cca4bd9eace3d534c6daaee805c78978760101f07b60438f9292b106ca",
@@ -769,6 +853,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b1f113e045a748cbc89beee988c173b377ce2afa00cdedf5671883ea250da6ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "a521c7362b29261f9edce936b6e0bf1f726698832580b511345eaca687c998e3",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 5. 启动 Gazebo",
+      "translatedText": "##### 5\\. Launch Gazebo",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "b1f7b64e340e35f72658d8758770c4829f58c1dfc8e1c5fb1c9a74b36b548108": {

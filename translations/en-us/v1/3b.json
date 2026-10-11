@@ -57,6 +57,20 @@
         "costUsd": 0.000049
       }
     },
+    "3b103fa1ed371a0530affa56136b3656793627d0e8b38e4c8a565e44a0b4290e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea809ff94c1d40911d207cbfa49d4e4f6de6cee063dd5fdfd0e035306f510901",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "滚动鼠标滚轮可放大或缩小鼠标光标处的位置。",
+      "translatedText": "Scroll the mouse wheel to zoom in or out at the mouse cursor position\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "3b21be3c9d03bc50a555c00129f66c06b1a303c6df4c5ff6671400b6b304c7b8": {
       "normalizationVersion": 1,
       "sourceHash": "21bbc67f099d5b1e021807cad7d8d427379d03648434b6a90103e129cde63c24",
@@ -127,6 +141,20 @@
         "costUsd": 0.000061
       }
     },
+    "3b37361f8881a379071e483dc8536f5a284801dbcc760047b5260e92258e9265": {
+      "normalizationVersion": 1,
+      "sourceHash": "a934b163b73769ef8f5941dfe7be2ed2d5589633aed0dd41092318f44a974a46",
+      "contextFingerprint": "8174a207918b4b6d1d0cc732801993db9ef7b39d797cd00ddd07cb39abe1b1c8",
+      "sourceText": "可以用`ign topic -e -t /imu`测试gazebo是否发布了话题，后面再用gazebo_bridge把话题给ROS2就行了。",
+      "translatedText": "You can use`ign topic -e -t /imu`to test whether Gazebo has published the topic, and later just use gazebo_bridge to ROS2 the topic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 48,
+        "costUsd": 0.000108
+      }
+    },
     "3b3cc74d71f8484a0c7b576bf9e7de0245d1b8a60a4f228443ea995f14f090cd": {
       "normalizationVersion": 1,
       "sourceHash": "268244548454fba9f74e80bfb7b5ac661b353f246a856b03335fe2893daa1a74",
@@ -153,6 +181,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3b47de8db37206f8ec74e8c554d800e3de8c2b1409a0179e8d170074bbd3bf6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfef203d51ee795228d9d617ee75aa68fa69c20c3902b3f510c7a5c01013cfa1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线性位移标定是用来标定机器人在直线移动时行进的距离。该标定与车轮直径参数密切相关，当车轮直径测量不准确或轮胎磨损时，会导致轮式里程计的线性位移出现误差。以下是线性位移标定的主要步骤：",
+      "translatedText": "Linear displacement calibration is used to calibrate the distance traveled by a robot when moving in a straight line\\. This calibration is closely related to the wheel diameter parameter\\. When the wheel diameter is measured inaccurately or the tire is worn, it will cause errors in the linear displacement of the wheel odometer\\. The main steps of linear displacement calibration are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 79,
+        "costUsd": 0.00015
       }
     },
     "3b4a75300d17ccc61934423f80604a9de2b08f127d4ee41bfd8a20ae3631909a": {

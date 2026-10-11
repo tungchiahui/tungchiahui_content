@@ -29,6 +29,34 @@
         "costUsd": 0.000063
       }
     },
+    "2b0eac124e5f0a15f06b75b57564e1057d89985ae223d4e0f49109dd5522f1f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "31a8156d8f6487d42387974651b6a11f2ae952f1fb0ae13452a7cecf75e15163",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通的单线激光雷达一般有一个发射器，一个接收器，发射器发出激光射线到前方的目标上，物品会将激光反射回来，然后激光雷达的接受器可以检测到反射的激光。",
+      "translatedText": "A typical single\\-line LiDAR generally has one transmitter and one receiver\\. The transmitter emits a laser beam onto a target ahead, and the object reflects the laser back\\. The LiDAR's receiver can then detect the reflected laser\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 51,
+        "costUsd": 0.000113
+      }
+    },
+    "2b101678dc8bd90e874cdb348c29f47d458f82cfda2dd54bf956834d1d6e736d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ad707050ba9a5f3e6c16f26919b533a07d5e1472c350523a56a9fdb9aeab52a",
+      "contextFingerprint": "22a406ac8b86563a2e1d852e8c2442937689b67b18eb3891add32d411957274e",
+      "sourceText": "*   header，表示该消息发布的时间\n\n*   pose，表示当前机器人位置和朝向\n\n*   twist，表示当前机器人的线速度和角速度\n\n*   数据中还包含一个covariance，其代表协方差矩阵，后面小鱼写篇文章来介绍下，这里只需了解其含义即可。",
+      "translatedText": "*   header, indicates the time when the message was published\n\n*   pose, indicates the current robot position and orientation\n\n*   twist, indicates the current robot linear velocity and angular velocity\n\n*   The data also contains a covariance, which represents the covariance matrix\\. I will write an article later to introduce it\\. Here, you only need to understand its meaning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 73,
+        "costUsd": 0.000144
+      }
+    },
     "2b105184406b1ec73227b02b2d088b08afb554bbc88623faf4f17e6ba3bea959": {
       "normalizationVersion": 1,
       "sourceHash": "8d67a51ff60607a08ef5de74bd9b164f6935e635783697845ae7a0d4ea5c59d5",
@@ -69,6 +97,20 @@
         "inputTokens": 160,
         "outputTokens": 51,
         "costUsd": 0.00011
+      }
+    },
+    "2b14d7492fc4b1eaced5373f2c6c861f24853b5d2a396eed7680df64c9f27e6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cea7f3ff9db341e323d9d2238debae68454b85f417935739e6483315cac4b6c",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行**",
+      "translatedText": "**Run**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "2b19f57ac16d549d7e16f98148c88df7370a5dd09e6db3a4f8b38da73d618b1e": {
@@ -461,6 +503,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "2b8b891e56931d0e288848a55f971e21d8ff9ca559b653580df9a8a8a7eaabbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a28601f54d6e5db9fdf8c72275f92dee66f8e5b4a5b99b1ad4787502ab05be1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 命令行迁移",
+      "translatedText": "#### Command\\-line migration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "2b8fe5002f5000e80d42d5a3b8d2dd257766c16853ecd1a5d04240e3e8e49e44": {

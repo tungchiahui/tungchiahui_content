@@ -85,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "6d1098c3caeaa6af312e1d9d96198c4480e1a3aafd38204806e64b41af2abdce": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b00494a38d4dd4a32246db180d2cee535cf127799f11db60c598ffd07dedd62",
+      "contextFingerprint": "c941135624f8db8d7ebaf72b47ebf88ddf1c913e76b22610adb1a8851348ca39",
+      "sourceText": "arduino.urdf 和 stm32_2w.urdf 文件中，在`<robot>`根标签下添加如下代码：",
+      "translatedText": "arduino.urdf and stm32_2w.urdf file, under the`<robot>`root tag, add the following code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 41,
+        "costUsd": 0.000099
+      }
+    },
     "6d1115378bd579dc0d02adc5d97cab2886e1fa8b617986a709de2efefa4192c4": {
       "normalizationVersion": 1,
       "sourceHash": "85dd719ba9da6677b66ce068c0ec15fbd4682d8bd698bde5e39f20e70126c430",
@@ -111,6 +125,34 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "6d1476d53eea2cf28803e9e7385cd460ba8e4123243f99ae1609fca55af3dad8": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc580e71fdb83b667070072fb8b7dc35c771ea3faaf4231faf81754ae0e66fd6",
+      "contextFingerprint": "09d9cd3bf0cf1e2531d62665826ddb0f31d48e10cce90e4cfe11701227897e87",
+      "sourceText": "1.  **创建 ROS2 包** 创建一个新的 ROS2 包用于实现键盘控制功能。\n\n2.  **编写键盘控制节点** 编写一个 C++ 节点，用于监听键盘输入并发布速度命令。\n\n3.  **与麦轮底盘通信** 将发布的速度命令与底盘控制结合。",
+      "translatedText": "1.  **Create ROS2 package** Create a new ROS2 package to implement keyboard control functionality\\.\n\n2.  **Write keyboard control node** Write a C++ node to listen for keyboard input and publish velocity commands\\.\n\n3.  **Communicate with the Mecanum wheel chassis** Combine the published velocity commands with chassis control\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 88,
+        "costUsd": 0.00017
+      }
+    },
+    "6d18b8a95f7c45ad985da0f4cc3739b914a3ba81397f5deb5cd552c019222621": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2cfbfa10831e3509656b3038f7a259c597d37f71764b8aae17b375533d4e663",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "超声波传感器原理是什么呢？",
+      "translatedText": "What is the principle of an ultrasonic sensor?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "6d1e30017b319fafb094527e7f823265948b966eeebc9607502b24accb7d194f": {
@@ -197,6 +239,20 @@
         "costUsd": 0.000066
       }
     },
+    "6d2c3f2e424f46ba00dcdd21de1d7b733b6e3b5f2bc2aabda31b2d442cc46a72": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfa84ef889593c0f8a90af86768627732c44b6d98ed08cb8d10467cd29336f6d",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5.  执行",
+      "translatedText": "5.  Execute",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "6d3227f6467d9c0cdfa6cd693667eaa41fc8505947d44d889154d0db2d8896e7": {
       "normalizationVersion": 1,
       "sourceHash": "2824688448fd2b8ee1482beaaf298b1937efbbd55113351be34df599a7f68327",
@@ -237,6 +293,34 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "6d3abc2d8598e0a05727cec0d4785d0cb986cf99211832ae61fd85e9d7ca869c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee55010443a7ea85803173bc7670e5141e339a35ed11322274a914b4748d3158",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "机器人在仿真环境与实际环境下的表现差异较大，换言之，仿真并不能完全做到模拟真实的物理世界，存在一些\"失真\"的情况，原因:",
+      "translatedText": "Robots exhibit significant differences in performance between simulation environments and real environments; in other words, simulation cannot fully replicate the real physical world, and there are some \"distortions\\.\" Reasons:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "6d43833c390baf93ad4f1d3c14af0deeea19c75212dfbfae9a1871a631ca2bff": {
+      "normalizationVersion": 1,
+      "sourceHash": "956783c07808c6d7253b1a9e1db8da064ebd8880003c9a6dbbb4fe9519114ed5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "借助于Ubuntu的包资源管理器，可以使用二进制的方式安装cartographer，安装指令如下：",
+      "translatedText": "Using Ubuntu's package manager, Cartographer can be installed in binary form\\. The installation command is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
       }
     },
     "6d5569922ba916fb215728d4371c790efa1ba366683767112df5b80b59d0ded3": {
@@ -645,6 +729,20 @@
         "costUsd": 0.000077
       }
     },
+    "6de797d168b626fdc7b462ea0485e1dbf510ded4b11e945ad80b270531fa47a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a060b6223c7e74d393629cd823932c4696d3c5245a6585f9caa93e7ed44deb5",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**初始位姿参数**",
+      "translatedText": "**Initial pose parameters**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "6deaba57841561575dddbab15446d103e4d7451f98c7b73b086ee5cab0847bae": {
       "normalizationVersion": 1,
       "sourceHash": "bd73afd015367f5b3609b0ab99f57e850694c96790c93d1acb4a117e8382bf09",
@@ -699,6 +797,20 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "6df2578cc4efcc4d970ee7cffd12b21b9ee972e1ffd6701fdba0114b04cee7a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffcfb1374d0b2b6aaabc2ccfa7ce4d893ace6323a293a4c2c2400c1b60879bc0",
+      "contextFingerprint": "b85834f1ecf8466763c9f5709cb746d7986e23641f742f528ee45650bfa215dd",
+      "sourceText": "官方教程：\nhttps://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html",
+      "translatedText": "Official tutorial: https://docs.ros.org/en/jazzy/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
       }
     },
     "6df3247fc76c17aa65960b45e421350bb09d1621acef8199cd710aeb008ca33b": {

@@ -183,6 +183,20 @@
         "costUsd": 0.000052
       }
     },
+    "d64520d55e091a953bac1c6865e42e39acb99a908017230fc4133ca5a048e520": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ad31df81d0495772af7031de9623adb8fa22e468ca8c070cceb2070b92cb299",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "CAN 通信是机器人、车辆、工业控制和电机驱动中非常常见的总线通信方式。",
+      "translatedText": "CAN communication is a very common bus communication method in robots, vehicles, industrial control, and motor drives\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "d64752bacc87a7b4eaff8716fce2c996392d7143101e9a149203583051c4d0bc": {
       "normalizationVersion": 1,
       "sourceHash": "13aa050066da5d6b96cc184685d119895ac0076e505327b71637fca71115b1b3",
@@ -223,6 +237,20 @@
         "inputTokens": 181,
         "outputTokens": 69,
         "costUsd": 0.000138
+      }
+    },
+    "d6501200b387031c6ee0063c317e5690bc85125ed8d29accd76580c1c5badf4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "69b8357c2c98ef13c4e096bd2e08428837e776fbac431665492d3ce4cf9194b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果该路径下没有，那可能在ROS的安装路径下：",
+      "translatedText": "If it is not in this path, it may be under the ROS installation path:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "d65e9ccd6255d511453bbe1eb7da06969fd96b0a5de5e2dff38e1b19ed9c3033": {
@@ -449,6 +477,20 @@
         "costUsd": 0.000086
       }
     },
+    "d6b2f5c1a5a7688745062bf91bf0e1cea84824ecb543fa76c480a64321b5da9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "01b9a69f04b4978583aee33940087ffd1517d0fa3a5d9bfe713b018a9dc97394",
+      "contextFingerprint": "3f350a85ff36b565f49c473ac13f63b0882d04e27dd595cabef2788dd1b4e9ec",
+      "sourceText": "ros_gz_bridge是连接ROS2与Gazebo的桥梁，ROS2与Gazebo使用的消息并不兼容，必须通过ros_gz_bridge进行转换。",
+      "translatedText": "ros_gz_bridge is the bridge connecting ROS2 and Gazebo\\. The messages used by ROS2 and Gazebo are not compatible and must be converted through ros_gz_bridge\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 70,
+        "costUsd": 0.000141
+      }
+    },
     "d6bcdc827feeab246f6fac54995f8fda2a2b460ada6bee34cbf24168434b7a1e": {
       "normalizationVersion": 1,
       "sourceHash": "1d2f53f2fa88fe82e77bd5ebbed04310813edf7b630dabb57d3173dfb72adbdc",
@@ -491,6 +533,20 @@
         "costUsd": 0.000063
       }
     },
+    "d6c52f29e696cd631bf6f4c3933edd46eb4c49f6a93601ce5ba5084a9e486c1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "df70b9c27dfe8b1c953dd90666e59ea967ce8a70578dbb09b1525373e3cb4545",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**3.编写launch文件**",
+      "translatedText": "**3\\. Write launch files**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "d6c60ef01fb27f63a889e4aa61fa5bdbc34584d1281060b8c6cd6319404e7e6d": {
       "normalizationVersion": 1,
       "sourceHash": "57f9451a5404c0600fc14a0d0161012a114a39a66f15b4a1c46f8ea1f63fccd9",
@@ -519,6 +575,20 @@
         "costUsd": 0.000052
       }
     },
+    "d6d663d2b399e4b51d614ede4241d7f73a1d2597423453c9362c82a7e1b6e534": {
+      "normalizationVersion": 1,
+      "sourceHash": "23c814dddec8ae924cf1e50b97ee7695a573c30bf0461e8f89833cd6b950cf45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "硬件平台的选择是具有多样性的，比如：轮式底盘、两足或四足机器人、无人机等等。现在硬件平台相关技术发展的已经比较成熟了，可以自己制作，也可以直接采购，假设选择后者的话，那么购买后，关于具体使用，可以参考配套的使用手册。一般情况下，供应商会提供对应的驱动包，直接下载并编译执行即可驱动硬件平台，当然如果是集成了上位机的整套机器人方案，那么一般已经预置了驱动程序，届时直接运行即可。",
+      "translatedText": "The choice of hardware platform is diverse, for example: wheeled chassis, bipedal or quadruped robots, drones, and so on\\. At present, technologies related to hardware platforms have developed relatively maturely, and they can be self\\-made or directly purchased\\. Assuming the latter is chosen, then after purchase, regarding specific use, the accompanying user manual can be referred to\\. Generally, the supplier will provide the corresponding driver package, and it can be directly downloaded and compiled for execution to drive the hardware platform\\. Of course, if it is a complete robot solution integrated with a host computer, then the driver program is generally already preinstalled, and it can be run directly at that time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 146,
+        "costUsd": 0.000245
+      }
+    },
     "d6d95ae57150c8f297a37be289ff0e7d49fb72a6929af33bb149f6c34636f2c1": {
       "normalizationVersion": 1,
       "sourceHash": "e1e97554a45fe231216fd223b169ac1df87d79d9068cc4f10034dbd0d9c7c13f",
@@ -545,6 +615,20 @@
         "inputTokens": 148,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "d6e087a8498977e218f940854d41b479625af1da220cb0e37c6b7584bad27d6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0b04295cd6ba133c42a571e9915cd6f69464ac46c1fb222dca584a0b053ac60",
+      "contextFingerprint": "c3de2c11f119ffa869a42bc726a8c22335829770d0d24a719e24bc35bd3daa1a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1625.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1625.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d6edb339de73146b86669e276131cd73d6d6c70e1af17f95189efd8cc59fd947": {

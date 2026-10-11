@@ -253,6 +253,20 @@
         "costUsd": 0.000076
       }
     },
+    "506a42dbef00f9dd263aadb6d3503a4bfc6a864d173857a7efb5b38213bb6733": {
+      "normalizationVersion": 1,
+      "sourceHash": "78602e69bf46d1ddb68f0007c57d33fb46e887b28047bd669d777f8458a13d3f",
+      "contextFingerprint": "1e922b5abf8813fcec1074452354284e1ab2742b7ff0de8bdf1224a095da10ce",
+      "sourceText": "| 话题名称 | 消息类型 | 描述 |\n|:---|:---|:---|\n| /cmd_vel_nav | geometry_msgs/msg/Twist | 发布控制命令，包括线性和角速度，用于控制机器人按照规划路径移动。 |\n| /cost_cloud | sensor_msgs/msg/PointCloud2 | 发布成本地图中的点云数据，用于避障和路径规划。 |\n| /local_plan | nav_msgs/msg/Path | 发布局部路径规划结果，即机器人应如何到达当前目标点附近的一个点。 |\n| /marker | visualization_msgs/msg/MarkerArray | 发布可视化标记，用于在RViz等可视化工具中显示路径、障碍物等信息。 |\n| /received_global_plan | nav_msgs/msg/Path | 发布从全局规划器接收到的全局路径，即当前位置到目标点的路径。 |\n| /transformed_global_plan | nav_msgs/msg/Path | 发布经过坐标变换的全局路径，确保路径与机器人的当前坐标系一致。 |",
+      "translatedText": "| Topic name | Message type | Description |\n|:---|:---|:---|\n| /cmd_vel_nav | geometry_msgs/msg/Twist | Publishes control commands, including linear and angular velocities, to control the robot to move along the planned path\\. |\n| /cost_cloud | sensor_msgs/msg/PointCloud2 | Publishes point cloud data in the costmap, used for obstacle avoidance and path planning\\. |\n| /local_plan | nav_msgs/msg/Path | Publishes the local path planning result, i\\.e\\., how the robot should reach a point near the current goal\\. |\n| /marker | visualization_msgs/msg/MarkerArray | Publishes visualization markers, used to display information such as paths and obstacles in visualization tools such as RViz\\. |\n| /received_global_plan | nav_msgs/msg/Path | Publishes the global path received from the global planner, i\\.e\\., the path from the current position to the goal\\. |\n| /transformed_global_plan | nav_msgs/msg/Path | Publishes the coordinate\\-transformed global path to ensure that the path is consistent with the robot's current coordinate frame\\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 376,
+        "outputTokens": 287,
+        "costUsd": 0.000458
+      }
+    },
     "506d1160ba039d03560bc38386081c74cb87ecfd5877eeec3dbf6d9dbc60d976": {
       "normalizationVersion": 1,
       "sourceHash": "b56c683d6b86202f33a6dbb08eb6b705a8ac77b6d02276dd68a7553e48269c4d",
@@ -321,6 +335,20 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "507b8df41cf8fc0ac95020fc77038184c97fd95760acb203b78bcd622c3f641b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ecfff1dda576b077901e568974cbdb0ae4d433b6fc22ed3c466b68dae318050",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**摘要和默认值**",
+      "translatedText": "**Abstract and default values**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "507dd277d83930af3aaba5ca78dcef255ad515f5571d5f3430a31dc7722cff6a": {
@@ -393,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "509bc37620ebc4a6ad11fa4fe509fde77d2380647e434d58f45e39099e33edf4": {
+      "normalizationVersion": 1,
+      "sourceHash": "2411b9ab0b3648a699f9c8c2fe71aa09c6665fb3e99ae44fbf976548c9559c14",
+      "contextFingerprint": "f17a1a09319f4775ac6b4b045d9a1e1f09c67137b2d1f9d85155fb3b04746c7b",
+      "sourceText": "**（5）waypoint_follower相关配置文件**",
+      "translatedText": "**(5) waypoint_follower related configuration files**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "509d364c1d1e1270dfe088aafc7e987b6eff0b6fc198f1ec24d462563f025577": {
       "normalizationVersion": 1,
       "sourceHash": "caef3f6fd57f5ff6eda38f9c4a0bbc744bae264efb007710a4650e5db1d5d442",
@@ -435,6 +477,20 @@
         "costUsd": 0.000068
       }
     },
+    "50a77f352df2aec6f3776a2f0dc04c68e30239b5397ff166f678d706d43613db": {
+      "normalizationVersion": 1,
+      "sourceHash": "bca699638a4507cc9a7cf3145ed70c6f6d77f8a2eb661b0c4224582f640e37f3",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**远程开发** 是一种在远程主机上进行编写、编译或运行程序的开发方式。相对于本地开发，远程开发需要将本地设备连接到远程主机，以实现数据传输和操作同步。",
+      "translatedText": "**Remote development** is a development approach in which programs are written, compiled, or run on a remote host\\. Compared with local development, remote development requires connecting a local device to a remote host to enable data transfer and operation synchronization\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 52,
+        "costUsd": 0.000113
+      }
+    },
     "50c9f0b08eeb0935ad9a0cad2e36eda37019fd4f0e683efdf71a6ba93c1760c3": {
       "normalizationVersion": 1,
       "sourceHash": "cad63682391ce9fb573f215a1e66124dce1adc262b252db8c52c05614e7b7811",
@@ -461,6 +517,20 @@
         "inputTokens": 149,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "50d47ee639fdc1a0140fc4734fb43c624a874b2343143036784208bd23e0f249": {
+      "normalizationVersion": 1,
+      "sourceHash": "db256d153688a084c16ca302606c96f060568040751f50138b3f9e6621da61fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Linux 下使用串口通信有多种方案，常见的包括：",
+      "translatedText": "There are multiple approaches for using serial communication under Linux, common ones include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "50d5fbfa0ed176351d6f8f0dcca0d0a210158d1efedc3008f8492276fe13a0dc": {
@@ -559,6 +629,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "50f5e24a831fc11b0fe2660cbf9c424daed07f0e9cc99b619b5f9c530f981f97": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f77786de48292f1d42dcf23426c8d229b5cac0a153ebe83ed21ea6f35717a9a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 定位节点基本操作",
+      "translatedText": "#### Basic positioning node operations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "50f8d2c5fc1c75878675e1f212430ca2b4ac3e1caae4e5e959e5aa0c4dbb545d": {

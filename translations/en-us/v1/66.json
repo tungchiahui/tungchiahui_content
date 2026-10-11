@@ -15,6 +15,20 @@
         "costUsd": 0.000065
       }
     },
+    "660f6c4008e13d57d167cda27581fe13117b785471122737cebef72d5bc08ace": {
+      "normalizationVersion": 1,
+      "sourceHash": "faa3481ec960dd22d1343b89fe9671936da137407751f3bd9f212b38817e85fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "ROS的imu信息只有三轴加速度，角速度和四元数。（并没有磁力计和欧拉角，磁力计并非必须要填的，而欧拉角和四元数可以互相转换，四元数更好被算法运算，所以选择用四元数）",
+      "translatedText": "ROS IMU information only has three\\-axis acceleration, angular velocity, and quaternion\\. (There is no magnetometer or Euler angles\\. The magnetometer is not mandatory, and Euler angles and quaternions can be converted to each other\\. Quaternions are better for algorithm computation, so quaternions are chosen\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 71,
+        "costUsd": 0.000142
+      }
+    },
     "6619e38f6db3872bad203fc7868a4b54928afe0d089cfa2379d7d786d02b946d": {
       "normalizationVersion": 1,
       "sourceHash": "295b39ff94de3077bdf8144a400727d10ac74b378b8b5838f739c1c54d507c41",

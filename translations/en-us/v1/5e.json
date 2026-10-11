@@ -99,6 +99,34 @@
         "costUsd": 0.000066
       }
     },
+    "5e2cf4e83d6782ebb05a26c9b64f6adc418b01ae3ab732bd028ddf83e613a0a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "5117e2fd6780fb5d818822efec7d4efc171f03884fb459df3567f8225866d5c1",
+      "contextFingerprint": "9f7503c6a3eb77765cbeb61a6e1f79abc758501df3292865172b1d9c4ad1a6f6",
+      "sourceText": "*   **@**  表示双向桥接；\n\n*   **\\[**  表示从Gazebo到ROS的桥接；\n\n*   **\\]**  表示从ROS到Gazebo的桥接。",
+      "translatedText": "*   **@**  indicates bidirectional bridging;\n\n*   **\\\\\\[**  indicates bridging from Gazebo to ROS;\n\n*   **\\\\\\]**  indicates bridging from ROS to Gazebo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 39,
+        "costUsd": 0.000097
+      }
+    },
+    "5e324ecd7906eab159160b7e768cabb9c2756acbb038b0b53b0c11377705a3b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "9460cd3cd87c2b43c5d9e29872041641176f55bc3c5e83b30a34b41666a00454",
+      "contextFingerprint": "91c869884d8f1f5bb411f12b4fe88d8c5c323f9238d5475b0099adecff00b4bc",
+      "sourceText": "它描述的是机器人位姿与速度的预估信息。 其中位姿信息是以header中的frame_id为参考系的，而速度信息则是以child_frame_id为参考系的。",
+      "translatedText": "It describes the estimated information of the robot's pose and velocity\\. The pose information is relative to the frame frame_id in the header, while the velocity information is relative to the frame child_frame_id\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 61,
+        "costUsd": 0.000128
+      }
+    },
     "5e3c32f729681da89beb70a6cc901a4cf3ef6c81c8c97c96df8399fb7ac9b736": {
       "normalizationVersion": 1,
       "sourceHash": "e1578934752794dacbdc982a2afbca611f6331b8c15ca53e99580e19d11827da",
@@ -295,6 +323,20 @@
         "costUsd": 0.000077
       }
     },
+    "5e60821279a3a41e2725cc8428a0e821cc373dd26cd74cc26f3cbbe34bcaab2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbba62e8daa1b6ff742f33c71d24bf908369c03159e18d9adcc142a70dedfc93",
+      "contextFingerprint": "e98fb52d3239af753b16b21bf2aeb0fb2f693acb01e943e0f713aedefbbce3ae",
+      "sourceText": "在Nav2 导航框架中`nav2_planner`功能包下的`planner_server`节点，负责处理路径规划请求，生成从当前位置到目标位置的路径。该节点在执行时需要依赖于`/global_costmap/global_costmap`节点提供的地图消息。",
+      "translatedText": "In the Nav2 navigation framework,`nav2_planner`under the package`planner_server`node, responsible for handling path planning requests and generating a path from the current position to the target position\\. When executing, this node depends on the`/global_costmap/global_costmap`map messages provided by the node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
     "5e63d6f5896d7936f7ed93eb851d9e49838f984b54e4f78eb03a3612b2e1d0a2": {
       "normalizationVersion": 1,
       "sourceHash": "dd923bc8f30436db9b55ee05fc11342945826e788bdf512d103105b578d66831",
@@ -349,6 +391,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "5e813dda08853e7d788c3bbea4885dd8cd553f054f27d3345c1cd5681fe2cfd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3df1f2e7cc3f1ae7028b02b2b91f8faea0c15d21065cb67ecdf77229ff0a458",
+      "contextFingerprint": "0ca5bf3592cdf67cf282253fa52a4913eea42972c81a18b095fcde223ce0514b",
+      "sourceText": "在params目录下新建一个名为`smootherr.yaml`的文件，并输入如下内容：",
+      "translatedText": "Create a new file named`smootherr.yaml`in the params directory, and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "5e8a275cc7bd11e3abe6d0e027aa8bccbc1191428efc9f44bcc55cab07f5b065": {

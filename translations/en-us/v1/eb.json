@@ -127,6 +127,20 @@
         "costUsd": 0.000061
       }
     },
+    "eb309b52609b2744213aefe3bb7b6ba6907186f956e25ca14b4a1cded9323e07": {
+      "normalizationVersion": 1,
+      "sourceHash": "58d82282733fec8b41cf4bf0952b13856c5f6d23e60cfb7d95cbd0b28db5ea04",
+      "contextFingerprint": "d8cb40aad43a57679f4ef792970a5bde2cf2ae284dcd44e6364a390a103f8902",
+      "sourceText": "**（即 ROS2 Humble 迁移至 ROS2 Jazzy 及之后版本。只用 Humble 的工程也建议看一下，因为很多写法会影响以后升级。）**",
+      "translatedText": "**(i\\.e\\., ROS2 Humble migrated to ROS2 Jazzy and later versions\\. Projects using only Humble are also advised to take a look, because many coding practices will affect future upgrades\\.)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 64,
+        "costUsd": 0.000132
+      }
+    },
     "eb3298c0fe802867b93ee138bca5f8004eafea356d0b44acfbad74bb17a1a739": {
       "normalizationVersion": 1,
       "sourceHash": "bf09c47dd93420d963381e2e81a45965e0cbda7e7b5e625ed758634d47f90121",
@@ -295,6 +309,20 @@
         "costUsd": 0.000056
       }
     },
+    "eb6ad8393fe321ec8aed04911288686ce5de59f6196a53a5a3afd850e12462c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "481b1c0eccc5928698cb829398277619b4f6ada67831fd337a9e8307edd3fe7b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "目前市面上的激光雷达，几乎都是采用三角测距，比如思岚的：",
+      "translatedText": "Currently, LiDARs on the market almost all use triangulation ranging, such as those from Slamtec:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "eb6baf450462345ebb1187859eaf61e7388639e3b98ee34c8efd141c8b5f5b8a": {
       "normalizationVersion": 1,
       "sourceHash": "52a819ed1dd381beb615acb4a3e926651da76011ba78087d2c3e2576b92ba74b",
@@ -335,6 +363,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "eb795f71517458166db4466fc2f92089d2096ea526874ca786bb2782ed3c674a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3b8c686595dc8170654eb2d798eec8b7252e6fa966da0f025b491447f361121",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  右侧的插件按钮（垂直省略号）",
+      "translatedText": "2.  Plugin button on the right (vertical ellipsis)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "eb8372698079c303a0317208c18c52f228b660c2cf06571173e47cabed14f09a": {
@@ -643,6 +685,48 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "ebf0a81594fe024f61f5bb54f58e0e65a0d031103ddd204c117ce212c29a315e": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a0cb8590a82ed1464b787b5c614999ca77cb0c92e34ee979a38db044fe35e45",
+      "contextFingerprint": "57e8e28dbdb100eb6ae564556d8c5169715848045d6ed99043977e3342332060",
+      "sourceText": "| 话题 | 类型 | 描述 |\n|:---|:---|:---|\n| /submap_list | cartographer_ros_msgs/SubmapList | 子图列表 |",
+      "translatedText": "| Topic | Type | Description |\n|:---|:---|:---|\n| /submap_list | cartographer_ros_msgs/SubmapList | Subgraph list |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 39,
+        "costUsd": 0.000096
+      }
+    },
+    "ebf48b307ebe232c390830ec7a3eb1f7ea9cc4ff26d6a2af0d17e4ffea1a7797": {
+      "normalizationVersion": 1,
+      "sourceHash": "a82e7a2cf680bf5033a35b496614b849c84d52d4774085ac5a815c1e26618fca",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**界面介绍**",
+      "translatedText": "**Interface Introduction**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "ebf523af621c917952973ba13da62183f8bab25eb5f55832afd490edbc98e593": {
+      "normalizationVersion": 1,
+      "sourceHash": "02cbe517bc236f08c0bbb2a2bff3f53eafbcf72be1b7cb2fd535f0a05152d227",
+      "contextFingerprint": "7d4f52ced199a8dabd093b7f23ab5b39fc17698b69f989a4a63b1a65113a1aa2",
+      "sourceText": "[Boost.Asio库UDP通信](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0500-udp-tong-xin)",
+      "translatedText": "[Boost.Asio library UDP communication](/wiki/2023-10-05-cplusplus-jiao-xue/2100-0100-0500-udp-tong-xin)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "ebf64282a0fc2c510db4cf5fcba6c3f01b84300897643b919ded9daf7cdad888": {

@@ -15,6 +15,20 @@
         "costUsd": 0.000069
       }
     },
+    "830a4462aad68b72da69e7cfe42ad04427c37056d80d212bc5c51aeed4cadfe6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4100a547b7e6dc68de3685b3975ea9366b3508a43a86c85bbeac980b0160f0dc",
+      "contextFingerprint": "a89eeab0ace1038cae68056dbd16dde86f8aba1a68bdd87449b6c7a5d3b72f76",
+      "sourceText": "`serial_driver` 依赖于 **ASIO** 库（一个跨平台的 C++ 网络编程库）。确保系统中已安装 ASIO：",
+      "translatedText": "`serial_driver` depends on the **ASIO** library (a cross\\-platform C++ networking library)\\. Ensure that ASIO is installed on the system:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 42,
+        "costUsd": 0.0001
+      }
+    },
     "830b4545b1ee5e095eeb2cfd5e665ef5748e7985ab3331a646a2e12c625fcae1": {
       "normalizationVersion": 1,
       "sourceHash": "a1ee54719245aa6ddfb220f0f792edbf073a87f0526bff28712517a640c99920",
@@ -125,6 +139,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "834b5a338b0ef9b7caa0c24771d94ccbb93e735ba2e7e2bbcfb13477be24dec9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fcf45d00aa1dfae2d4d700a08f208696f488dba6a542b84080c99075b5655c5",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**准备机器人模型功能包**",
+      "translatedText": "**Prepare the robot model package**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "834e7684886684fbf8e367a0e4af53b8a0bf26c4ac0677e8e78265c81d9bf8c4": {
@@ -253,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "836f3b8ee38bb69947adf89aef7dd79927c29c5242bfe56d4627508df0251191": {
+      "normalizationVersion": 1,
+      "sourceHash": "01aea1e167bb857394fdae3e17cc4f9fd65c8abc56364d785c95a8d6ae80cec4",
+      "contextFingerprint": "b4111f01beab0173dca0ba5762bc76ae55cdb2717ba348a1066daadceeb44d36",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1648.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1648.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "83703cf02b026ea1103cf607ea23eae28b671d648bed183f4d9161d2d1384856": {
       "normalizationVersion": 1,
       "sourceHash": "3e325e97a74fa17367c5e0953c2bf8709c87c16dac6a8e9466e7704257092b15",
@@ -321,6 +363,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "83880e98b6268c6afa675454364969f8fee91d143b303870941672bc928b9b24": {
+      "normalizationVersion": 1,
+      "sourceHash": "2eb10d07681aebc348fbfb2475afa92c9caa45c09f494fad6a063467ea540f95",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见系统插件：",
+      "translatedText": "Common system plug\\-ins:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "838d8fe756e34f1132e35e683692aaa2830d98ab1868940f12c759403e92c5ce": {
@@ -405,6 +461,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "83c086cc0cd1bdfc67ca9a7ed87cf1dce1e2e4812b028d2d0b2c15dde8c94ffd": {
+      "normalizationVersion": 1,
+      "sourceHash": "0971b3cbec453eb4ece9c8a762b9e79c1765de6225eaa965c24561a3224e637d",
+      "contextFingerprint": "313819cfbadf12a7a48d324e238093bbb809b4a92da06be63eafa8647bb28486",
+      "sourceText": "修改sdf文件，调整立方体的尺寸，实现墙体的合围。在sdf文件中，四个立方体分别对应了四个`<model>`标签，其`name`属性分别为`box`、`box_1`、`box_2`、`box_3`，将`box`和`box_1`中的`<size>1 1 1</size>`修改为`<size>0.1 5 1</size>`，将`box_2`和`box_3`中的`<size>1 1 1</size>`修改为`<size>10 0.1 1</size>`（*注意：每个*`<model>`*标签下，都包含两个*`<size>`*标签，分别位于*`<collision>`*标签和*`<visual>`*标签下，两个*`<size>`*标签内容都需要修改*）。",
+      "translatedText": "Modify the SDF file to adjust the dimensions of the cubes and achieve an enclosed wall\\. In the SDF file, the four cubes correspond respectively to four`<model>`tags, whose`name`attributes are respectively`box`、`box_1`、`box_2`、`box_3`; change the`box`and`box_1`in`<size>1 1 1</size>`to`<size>0.1 5 1</size>`; change the`box_2`and`box_3`in`<size>1 1 1</size>`to`<size>10 0.1 1</size>`(*Note: under each*`<model>`*tag, there are two*`<size>`*tags, located respectively under the*`<collision>`*tag and the*`<visual>`*tag; the contents of both*`<size>`*tags need to be modified*)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 111,
+        "costUsd": 0.000201
       }
     },
     "83c2e5ef35ccb04fc30bd55f3013b103e1037f60cdf67f553c2b9c8103bc2194": {

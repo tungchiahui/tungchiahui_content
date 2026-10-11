@@ -43,6 +43,20 @@
         "costUsd": 0.000069
       }
     },
+    "ad1a3a5fb2fa60ea886588d42d0e209ebace7c6cf19429ad7fe31b988d58b5e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4adde06d73fe850f0f2a9bdeae161a6e571cf51e243843b602330d1e9239ee3",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "从Gazebo Classic迁移到ROS2 Jazzy的Gazebo Sim(Gazebo Harmonic)：",
+      "translatedText": "Migrating from Gazebo Classic to Gazebo Sim (Gazebo Harmonic) in ROS2 Jazzy:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "ad1c44f275e7dc3dae7c006aedf06a639b3bcbfea2a64aa29a970d60cc784dbf": {
       "normalizationVersion": 1,
       "sourceHash": "9359a8daba5a7afaa6cc1575f2786ee1995e60d784bb339aff3ce3dc00aa2a8a",
@@ -97,6 +111,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "ad2b70ed444dfcaff33165b9f6b72738f9ebc7ccdccc0776951887b984699d31": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4aa1bda6e8801283f8fe4ad632b612bdbf651e356c16df0df117c6aabc6938e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以用下面命令检查：",
+      "translatedText": "You can check with the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "ad2b8fc8318a5dc98abc8cd12a83405580f049b4f3387aa3e860976e717deb17": {
@@ -209,6 +237,20 @@
         "inputTokens": 159,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "ad5033c146251971be6aeecb705ab8849d3742d4852c7f25df9ec2cc73c5bb22": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4fe029cf410102222dd1f5b4d03cccb3edb82a059f93c93df6113e2aecbadf2",
+      "contextFingerprint": "7c32b5997293d264dad200c83e14d815a6253581c076e7dc68060afbbde3f898",
+      "sourceText": "*   speedup <int>\n\n*   Stage 将尝试以实时的这个倍数运行。如果设置为 -1，Stage 将尽可能以最快速度运行，并且不会尝试跟踪实时时间。\n\n*   size \\[<width:int><height:int> \\]\n\n*   窗口的大小（以像素为单位）。\n\n*   center \\[<x:float><y:float> \\]\n\n*   窗口中心的位置，使用世界坐标表示（以米为单位）。\n\n*   rotate \\[<pitch:float><yaw:float> \\]\n\n*   相对于垂直向上的角度，旋转角度（以度为单位）。\n\n*   scale<float>\n\n*   世界坐标到像素坐标的比例（窗口缩放）。\n\n*   pcam_loc \\[<x:int><y:int><z:int> \\]\n\n*   透视摄像机的位置（以米为单位）。\n\n*   pcam_angle \\[<pitch:float><yaw:float> \\]\n\n*   透视摄像机的垂直和水平角度。\n\n*   pcam_on<int>\n\n*   是否启用透视摄像机（0/1）。",
+      "translatedText": "*   speedup <int>\n\n*   Stage will attempt to run at this multiple of real time\\. If set to \\-1, Stage will run as fast as possible and will not attempt to track real time\\.\n\n*   size \\[<width:int><height:int> \\]\n\n*   The size of the window (in pixels)\\.\n\n*   center \\[<x:float><y:float> \\]\n\n*   The position of the window center, expressed in world coordinates (in meters)\\.\n\n*   rotate \\[<pitch:float><yaw:float> \\]\n\n*   The rotation angle relative to vertical up, in degrees\\.\n\n*   scale<float>\n\n*   The ratio of world coordinates to pixel coordinates (window scaling)\\.\n\n*   pcam_loc \\[<x:int><y:int><z:int> \\]\n\n*   The position of the perspective camera (in meters)\\.\n\n*   pcam_angle \\[<pitch:float><yaw:float> \\]\n\n*   The vertical and horizontal angles of the perspective camera\\.\n\n*   pcam_on<int>\n\n*   Whether to enable the perspective camera (0/1)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 279,
+        "outputTokens": 170,
+        "costUsd": 0.000288
       }
     },
     "ad537eed8dc9edaa2ca343262ff711c7f69d7e8f2a2810b7d9cb8d92a8e9b875": {
@@ -337,6 +379,20 @@
         "costUsd": 0.000101
       }
     },
+    "ad896e7438b69e7345b3acca9c6ec3dee9aac3fb7895e0fd3ec56a79844a3801": {
+      "normalizationVersion": 1,
+      "sourceHash": "215446b85b5d5c0c4a607f3dcd15e823df43e93105b2eb97d12403e9d3ffeca4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 导航条件",
+      "translatedText": "#### Navigation Conditions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "ad8e2d3d2eecb3abd12e564a33349983d75db48cac69a0b9456ec62808b2bbc0": {
       "normalizationVersion": 1,
       "sourceHash": "7a8921037b3cb8b889a54ac99702cc0ab2f76b59a8398f3eaf6f42388793300f",
@@ -393,6 +449,20 @@
         "costUsd": 0.000064
       }
     },
+    "ad95fc920296d265ac7aeefbc8ad217292c8a643d743f86f5c6ed618139c0db4": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfc70bf247310d886c601ca28046bcb45dcb9ffa13744d425fbc6d1a61b88208",
+      "contextFingerprint": "7242c260f498ee33d37249e58363def5486fe2ea38fe435aa6fbc977308b13fb",
+      "sourceText": "请在bts目录下，新建一个名为`bt_planner_controller_behavior.xml`的文件并输入如下内容：",
+      "translatedText": "In the bts directory, create a new file named`bt_planner_controller_behavior.xml`and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "ad97bc3063f5c624c353a33d959ccca2b9f115e7e40db8ec7bdcfb7e8643759c": {
       "normalizationVersion": 1,
       "sourceHash": "a74e79195e41c0b6d43cd329825f14b18b42d773f3101f1ad4cb665d7d610d94",
@@ -405,6 +475,20 @@
         "inputTokens": 145,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "ad9a4444140b37846ef7a19d95159f12a0bd7005f2d9456d15f6b0ba102d5e7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e000dd43db1c36906e21d0b00b867e994b228629964a091f90fe665dffd8e0e6",
+      "contextFingerprint": "7fb188b082680fa8371bff8e886a7ac5a1454ec6f5b1a501e386861f4003dfd5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1622.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1622.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ada02dd67ee43174ae86c6cae6ec9c138f58c6dc90d831f5326fbf55309a5186": {
@@ -545,6 +629,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "add1e6ea29a992231f911fa5f7d8f7175858a800516cded4bb8e9f79e407d1c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "42a622f094c12b823ac18e318dccb562c8961a7d88695eb731d7d7e5e7faeb1d",
+      "contextFingerprint": "4600aedf70d3729a6e72e7da6f7614ae65d3748680c51c2203ffb2fd5ce72707",
+      "sourceText": "学习 Linux 串口通信，并不代表不用 ROS 2。",
+      "translatedText": "Learning Linux serial communication does not mean that you do not need ROS 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
       }
     },
     "add4c0981eee6a95fa198ceab02be04afc908aaea167a1854a2d076cf04d255d": {

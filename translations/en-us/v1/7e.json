@@ -743,6 +743,20 @@
         "costUsd": 0
       }
     },
+    "7ee87b147af4c7973ee2945901e4c35670f1acb78c61614472fb720d2bf03d3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f13aa4e0b444e3705ed75cda0e205830ed3f982a9ce247e302898a6efcf80c5",
+      "contextFingerprint": "78768c433664918123d7448dd8df820cf6e0d2beb0900e9bab420f8de3ee9fe2",
+      "sourceText": "*   samples <int> 每次扫描的激光样本数量。\n\n*   range_max <float> 激光扫描仪所报告的最大距离，以米为单位。扫描仪将不会检测超出此范围的物体。\n\n*   fov <float> 激光扫描仪的角度视野。\n\n*   resolution <int> 仅计算第 n 个激光样本的真实距离。缺失的样本将用线性插值填充。一般来说，使用较少的样本会更好，但某些（实现不好的）程序需要固定数量的样本数。设置此数字大于 1 可以减少所需的计算量，适用于固定大小的激光矢量。",
+      "translatedText": "*   samples <int> Number of laser samples per scan\\.\n\n*   range_max <float> Maximum distance reported by the laser scanner, in meters\\. The scanner will not detect objects beyond this range\\.\n\n*   fov <float> Angular field of view of the laser scanner\\.\n\n*   resolution <int> Only compute the true distance of every nth laser sample\\. Missing samples will be filled in by linear interpolation\\. In general, using fewer samples is better, but some (poorly implemented) programs require a fixed number of samples\\. Setting this number greater than 1 can reduce the amount of computation required, suitable for fixed\\-size laser vectors\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 251,
+        "outputTokens": 132,
+        "costUsd": 0.000234
+      }
+    },
     "7eeeebde5827c1e24adfd8147ccb8c2cc1e3fb44a981d2673bccba2e3492376a": {
       "normalizationVersion": 1,
       "sourceHash": "ecf7d984eb1958577eae1ad25563aa9b75734bc5a3f7799da817d052cc4e283c",

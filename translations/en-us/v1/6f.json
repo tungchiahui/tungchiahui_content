@@ -85,6 +85,20 @@
         "costUsd": 0.000057
       }
     },
+    "6f2b96bef1801d0a6a88ad3bcebcce72fbc8f4d1be8929051302ff0d8da74a3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d2ffd77afda956e87e15d3d4b63f09c75c62c01dcd8bb51d8f6c485e1dad491",
+      "contextFingerprint": "2f831258dd07ceabbec5c2d21537bfe4a5bc3054922a354145d8b6bcf5337268",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1651.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1651.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6f30e3895ee25e32f2386ccca8e631c9163336c272ab88008833eb560ce38089": {
       "normalizationVersion": 1,
       "sourceHash": "08709279caabd7a48ace7ee0c31c3490dbad300c70a6285acb207d82f7058fd1",
@@ -239,6 +253,20 @@
         "costUsd": 0.000057
       }
     },
+    "6f7cf85d35826d43ffaf4179c2f81013581421787cff143f76e5d164c948c3a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c89618e6fcbf452dae8be89ff74d0dd231893b29ccea550f02711ae381864f72",
+      "contextFingerprint": "9b0b707119810ed8087230865795c522f448abfedbca29e04fe2d2bb88c9a65b",
+      "sourceText": "| 对比项 | TCP | UDP |\n|---|---|---|\n| 是否连接 | 需要建立连接 | 不需要建立连接 |\n| 可靠性 | 可靠传输 | 不保证送达 |\n| 顺序 | 保证顺序 | 不保证顺序 |\n| 延迟 | 相对更高 | 相对更低 |\n| 适合数据 | 命令、配置、文件、日志 | 高频数据、广播、实时状态 |\n| 典型场景 | 远程控制、服务器通信、参数配置 | 雷达数据、遥控数据、状态广播 |",
+      "translatedText": "| Comparison Item | TCP | UDP |\n|---|---|---|\n| Connection | Requires connection establishment | No connection establishment required |\n| Reliability | Reliable transmission | No guaranteed delivery |\n| Ordering | Guarantees ordering | No ordering guarantee |\n| Latency | Relatively higher | Relatively lower |\n| Suitable Data | Commands, configuration, files, logs | High\\-frequency data, broadcast, real\\-time status |\n| Typical Scenarios | Remote control, server communication, parameter configuration | Radar data, telecontrol data, status broadcast |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 213,
+        "outputTokens": 108,
+        "costUsd": 0.000194
+      }
+    },
     "6f9029362eb657182faf474f633ae90727a705dffb45c9c2494f694ab5b747c4": {
       "normalizationVersion": 1,
       "sourceHash": "4e8586138431e12025c5a5f55f2bf8179090dac3a6b7bcf91b8ba2d735612500",
@@ -251,6 +279,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "6f954d66ff0f45e72ce15c67880a7218f9340f297d8dd77789b9f364d31b513a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a078b59969c87ce70da6191dec542a3a75f827e94de6b249e5115719e97223f1",
+      "contextFingerprint": "dbf264222610033731091692898ccf8c14358277fe480e12dff4a92f57c0fff9",
+      "sourceText": "*   `use_sim_time`: 指定是否使用模拟时间而非实际时间进行节点的计时和同步。这在仿真环境中特别有用，因为仿真环境可能无法提供与真实时间完全同步的时钟。\n\n*   `loop_rate`: 定义了节点的主循环速率，即节点每秒执行其主要任务（如处理数据、发布信息等）的次数。这个参数对于控制节点的响应性和资源使用非常重要。\n\n*   `stop_on_failure`: 指明当导航任务遇到无法克服的障碍或达到其他失败条件时，节点是否应该停止执行。这对于确保在失败情况下系统能够安全地停止并等待进一步指令很重要。\n\n*   `bond_disable_heartbeat_timeout`: 涉及节点间通信的可靠性机制。Bond是ROS 2中用于节点间稳定通信的一种机制，其中心跳信号用于检测节点是否仍然活跃。将此参数设置为true会禁用心跳超时检测，这可能在某些特定的网络配置或应用场景中是有用的。\n\n*   `waypoint_task_executor_plugin`: 指定了在执行路径点导航任务时要使用的插件。路径点导航通常涉及一系列预先定义的点，机器人需要按顺序访问这些点。这个参数允许用户指定用于执行这种类型任务的特定插件或算法。\n\n*   `wait_at_waypoint`: 这是一个复合参数，用于配置在路径点等待的特定行为。\n\n    *   `enabled`: 启用或禁用在到达每个路径点时等待的功能。\n\n    *   `plugin`: 指定实现等待功能的插件类型。这允许用户根据需要选择不同的等待策略或行为。\n\n    *   `waypoint_pause_duration`: 定义了在每个路径点处等待的持续时间（以毫秒为单位）。这可以用于确保机器人在移动到下一个路径点之前已经稳定或已经完成了某些操作。",
+      "translatedText": "*   `use_sim_time`: Specifies whether to use simulated time instead of actual time for node timing and synchronization\\. This is particularly useful in simulation environments, which may not provide a clock fully synchronized with real time\\.\n\n*   `loop_rate`: Defines the main loop rate of the node, i\\.e\\., the number of times per second the node executes its primary tasks (such as processing data, publishing information, etc\\.)\\. This parameter is very important for controlling the node's responsiveness and resource usage\\.\n\n*   `stop_on_failure`: Indicates whether the node should stop execution when a navigation task encounters an insurmountable obstacle or meets other failure conditions\\. This is important for ensuring that, in the event of failure, the system can safely stop and wait for further instructions\\.\n\n*   `bond_disable_heartbeat_timeout`: Concerns the reliability mechanism for inter\\-node communication\\. Bond is a mechanism in ROS 2 used for stable communication between nodes, in which heartbeat signals are used to detect whether a node is still active\\. Setting this parameter to true disables heartbeat timeout detection, which may be useful in certain specific network configurations or application scenarios\\.\n\n*   `waypoint_task_executor_plugin`: Specifies the plugin to be used when executing waypoint navigation tasks\\. Waypoint navigation usually involves a series of predefined points that the robot needs to visit in order\\. This parameter allows the user to specify the particular plugin or algorithm used to execute this type of task\\.\n\n*   `wait_at_waypoint`: This is a composite parameter used to configure the specific behavior of waiting at waypoints\\.\n\n    *   `enabled`: Enables or disables the function of waiting upon reaching each waypoint\\.\n\n    *   `plugin`: Specifies the type of plugin that implements the waiting function\\. This allows the user to choose different waiting strategies or behaviors as needed\\.\n\n    *   `waypoint_pause_duration`: Defines the duration of waiting at each waypoint (in milliseconds)\\. This can be used to ensure that the robot has stabilized or has completed certain operations before moving to the next waypoint\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 445,
+        "outputTokens": 369,
+        "costUsd": 0.000577
       }
     },
     "6fa80194c6c614c9edf220270ddcd0baccf76e69c10df7a05189efb430449412": {
@@ -351,6 +393,20 @@
         "costUsd": 0.000069
       }
     },
+    "6fc60dc7c8aef75258573bfd8896a00c7022ab0ec5f49da90aae92833b3bbcc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b74f26b9c0e2fa50637a03d6bf7c1d8baa1bcb422c6e7a3a0de851f343734440",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接着我们尝试使用rviz2进行可视化激光雷达数据",
+      "translatedText": "Next, we attempt to use rviz2 to visualize the lidar data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "6fd689973a3cb43ca77dc7293b304004ecfae342e23b563edd650f1484df40d9": {
       "normalizationVersion": 1,
       "sourceHash": "f010e737511abde774e86c6c2a07a8f1444e3bf4b4e64ff4805fc534004360e5",
@@ -447,6 +503,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "6fefc3ffc7000c8a34924bb71e6299058f69c75f120075bf7af7fec1b0b803ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "262ebf1c2c955d4d20cd31b4556c5a4e2acb73737ed8cce191d7407dec5a26c6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "左边选尺寸对应关系",
+      "translatedText": "The correspondence of the size selected on the left",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "6ff1e2fec4afab4ea27f8d34a5590e578fd578f39d5c18765fb5d4e891838b65": {

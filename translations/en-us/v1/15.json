@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "15003402b8cbce4b862acee278902e430526cd0df3f6516e5e6b9f8a27ce891f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fd772600e05d6eed3efd21a6df2b69b79e7470c0e1bc996a0188c04971ec5be",
+      "contextFingerprint": "bf577f2f482e47e2983703d97069173fe6701de044f4af0a46db95292d93c79c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1715.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1715.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1508c69eaef8d8516eb4a1f462544540e7652091ac959425e3749343375dd46d": {
       "normalizationVersion": 1,
       "sourceHash": "cb109b9fe7e37176e517246ac5a8a20d48410ff854afe498b54554cadd73ebb2",
@@ -99,6 +113,20 @@
         "costUsd": 0.000057
       }
     },
+    "15234babf95e73d237850a4d0bfe3730609cd0717758ce187c4fe8daa8e6555d": {
+      "normalizationVersion": 1,
+      "sourceHash": "daae2aee455a5b6a44a42c1641b1386a82d5c110f1c395978b5233a121f0dfad",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**3.执行**",
+      "translatedText": "**3\\. Execution**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "153b4279c9c704b92081a0ff642ec6e9531a9300681d5d42bae662a5f2054695": {
       "normalizationVersion": 1,
       "sourceHash": "d8d4a5d8a0cfecd12b29686c9b543be5e611e540de2e064ced9babf50f0ffe30",
@@ -183,6 +211,20 @@
         "costUsd": 0.000066
       }
     },
+    "1554384ebc889dc456a76f86e5918d71c7acc588482e1560aa01135c936f53c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a4913c4f3dd0b41a6472e0f056490976a24965957dfc345fae276835b9106e8",
+      "contextFingerprint": "5f6b32cb8866c6c55bf6138ac4645e4243049fb4f951bb0a9782f4d6be77a9e4",
+      "sourceText": "**4./local_costmap/local_costmap订阅的话题**",
+      "translatedText": "**4\\./local_costmap/local_costmap subscribed topics**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "15569414c54e15c08e2476cc3db162272ca3020fdf7b84de57ad6886577ab881": {
       "normalizationVersion": 1,
       "sourceHash": "145429f8919d2dca46cabc37d7e27189e88da1270481946c526f5d500ffc1815",
@@ -265,6 +307,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "157237d02159006e9e0f28ba374b56a6f1e6e353176fade8a62f2c42218f75d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c97ac1fa3efbf38b51dd01b9c40ff1b9ad2b1cbb00d3ce862d1c023cbef18bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：如果你的Gazebo不卡，但是Gazebo巨卡的话，请确认Gazebo是以独显打开的，而不是核显。",
+      "translatedText": "Note: If your Gazebo is not lagging, but the Gazebo is extremely lagging, please confirm that Gazebo is opened with the discrete GPU, not the integrated GPU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 43,
+        "costUsd": 0.000099
       }
     },
     "157bfa401e3d2aef902bf3166583266ff27708150c713090ab47dee7568b85d7": {
@@ -407,6 +463,20 @@
         "costUsd": 0.000056
       }
     },
+    "1599ffc4475b5040f82f5ace18cc11f8988d0ff96519a946c17ca730c0c3fbd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d0aabc4a453b6a47760ba0761c0ce57744b846363b9c0f6da3fdaf2de7ae130",
+      "contextFingerprint": "18ddee2d01ee29f8e117a97109b4ceadffc6975480f06d7bc577ccfccc0fc9a1",
+      "sourceText": "*   **累积误差：** 由于积分计算的误差会随时间累积，IMU的姿态估计随着时间推移可能会出现漂移，需要与其他传感器进行融合或采用校准方法进行补偿。\n\n*   **受外部干扰影响：** IMU的测量结果容易受到振动、震动和温度变化等外界干扰的影响，可能导致姿态估计不稳定或不准确。\n\n*   **不适用于绝对定位：** 单独使用IMU无法提供物体的绝对位置信息，需要结合其他传感器（如GNSS）来实现绝对定位。\n\n*   **无法感知环境信息：** IMU只能提供自身的加速度和角速度数据，无法直接感知环境或检测周围物体。",
+      "translatedText": "*   **Cumulative error:** Because errors in integral calculations accumulate over time, IMU attitude estimation may drift as time passes, requiring fusion with other sensors or the use of calibration methods for compensation\\.\n\n*   **Susceptible to external interference:** IMU measurement results are easily affected by external interference such as vibration, shock, and temperature changes, which may lead to unstable or inaccurate attitude estimation\\.\n\n*   **Not suitable for absolute positioning:** Using an IMU alone cannot provide the absolute position information of an object, and it needs to be combined with other sensors (such as GNSS) to achieve absolute positioning\\.\n\n*   **Cannot perceive environmental information:** An IMU can only provide its own acceleration and angular velocity data, and cannot directly perceive the environment or detect surrounding objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 256,
+        "outputTokens": 159,
+        "costUsd": 0.000268
+      }
+    },
     "159f9eb9102d1b91fad7346227612892be9e17c1ef1545c1056509b71c24e32c": {
       "normalizationVersion": 1,
       "sourceHash": "5c0b4b93546c14807d45d923600bc505d7eda958d5e4c4087579f74119622796",
@@ -489,6 +559,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "15bf29052b10597344eb243623deae7ded4366c2494fe570e53ae50d75c1d805": {
+      "normalizationVersion": 1,
+      "sourceHash": "6267cc5e9bcdf1f06d43689b92bdb8987f5d3985917f98ab338c3bcbe4b95d55",
+      "contextFingerprint": "1a825e5632485cbd7df027180e43c43cdb815d3b57da894bb5eb5c3fd57bc7ad",
+      "sourceText": "根据官方迁移说明，普通命名通常把 `ignition` / `ign` 换成 `gz`。",
+      "translatedText": "According to the official migration documentation, ordinary naming usually replaces `ignition` / `ign` with `gz`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     },
     "15c09ad0c9bd0cc2849704b412eb5d3f0c7e8d2e8dc5fa98785737db3ef749a9": {

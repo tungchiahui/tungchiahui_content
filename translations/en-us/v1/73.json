@@ -43,6 +43,20 @@
         "costUsd": 0.000066
       }
     },
+    "730ae9c232312ca3be5d7ca33f7b194e616decc3041b08c252ea8b796a7329ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4915994ba59dc1cd149432a84ab702313772fa00229ebd1ef7dcb43ec106c57",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时该插件还提供了一些可以控制输出的选项，因为是仿真，所以还要告诉插件轮子对应的joint名称等信息，这样就有了下面这个参数表格：",
+      "translatedText": "At the same time, this plugin also provides some options that can control the output\\. Because it is a simulation, it is also necessary to tell the plugin information such as the names of the joints corresponding to the wheels, so the following parameter table is obtained:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 59,
+        "costUsd": 0.00012
+      }
+    },
     "73108124e9c5f2687796dd33211fde4483cbd2c0e8f5735809b6bdd6a16e286f": {
       "normalizationVersion": 1,
       "sourceHash": "156f3c5d783fe93f8752fa0dcf8f73f25425a79b20af94b088770425d31f8ba6",
@@ -55,6 +69,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "7316ff9336191774aeebb0cf585eb24ef1b945554abd4393790871e1383dfff5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f18354cf06d6bca302238aaf11cecf71ed64da13f6e760e6918158806487bf9f",
+      "contextFingerprint": "f0c0b0b693a9d1c50a66f6ede6c53f4a56c48154abe7fbfaea5ef83342878a40",
+      "sourceText": "*   `/bond_disable_heartbeat_timeout`: 控制是否禁用心跳超时检测，这在节点间通信绑定时用于监控对方节点的活跃度。\n\n*   `always_send_full_costmap`: 控制是否总是发送完整的代价地图信息，而不是仅发送变化的部分。\n\n*   `clearable_layers`: 列出可以被清除的代价图层，这些图层中的障碍物信息可以通过某种方式（如传感器数据）被更新或清除。\n\n*   `filters`: 定义应用于代价地图的过滤器列表，用于预处理或修改地图数据。\n\n*   `footprint`: 指定机器人在地图上的足迹形状，即机器人占据的空间范围。\n\n*   `footprint_padding`: 为机器人的足迹添加额外的填充空间，以考虑机器人运动时的额外空间需求。\n\n*   `global_frame`: 定义全局代价地图所使用的参考坐标系。\n\n*   `height`和`width`: 定义全局代价地图的高度和宽度（以单元格数计）。\n\n*   `inflation_layer`: 配置膨胀层的参数，膨胀层用于在障碍物周围增加一定宽度的“缓冲区”，以避免机器人与障碍物过近。\n\n    *   `cost_scaling_factor`: 膨胀成本的缩放因子。\n\n    *   `enabled`: 控制膨胀层是否启用。\n\n    *   `inflate_around_unknown`: 控制是否在未知空间周围进行膨胀。\n\n    *   `inflate_unknown`: 控制是否将未知空间视为障碍物并进行膨胀。\n\n    *   `inflation_radius`: 膨胀的半径。\n\n    *   `plugin`: 指定使用的膨胀层插件。\n\n*   `lethal_cost_threshold`: 定义代价地图中视为“致命”障碍物的成本阈值。\n\n*   `map_topic`: 指定订阅以获取地图信息的ROS话题。\n\n*   `observation_sources`: 定义代价地图的观测源，即哪些传感器或数据源用于更新地图。\n\n*   `obstacle_layer`: 配置障碍物层的参数，障碍物层负责处理传感器观测到的障碍物信息。\n\n    *   `combination_method`: 定义如何组合多个观测源的信息。\n\n    *   `enabled`: 控制障碍物层是否启用。\n\n    *   `footprint_clearing_enabled`: 控制是否清除机器人足迹内的障碍物信息。\n\n    *   `max_obstacle_height`和`min_obstacle_height`: 定义障碍物的高度范围。\n\n    *   `observation_sources`: 指定障碍物信息的来源。\n\n    *   `plugin`: 指定使用的障碍物层插件。\n\n    *   `scan`: 包含与激光扫描相关的配置，如扫描数据的处理方式。\n\n*   `origin_x`和`origin_y`: 定义全局代价地图原点的坐标。\n\n*   `plugins`: 列出启用的代价地图插件，这些插件定义了如何构建和更新代价地图。\n\n*   `publish_frequency`: 定义发布代价地图的频率。\n\n*   `resolution`: 定义代价地图的分辨率，即每个单元格代表的实际物理尺寸。\n\n*   `robot_base_frame`: 定义机器人基座的参考坐标系。\n\n*   `robot_radius`: 定义机器人的半径，用于计算机器人在地图上的占用空间。\n\n*   `rolling_window`: 控制是否使用滚动窗口（即动态变化的地图区域）而非固定大小的地图。\n\n*   `static_layer`: 配置静态层的参数，静态层负责处理地图中的静态障碍物信息。\n\n    *   `enabled`: 控制静态层是否启用。\n\n    *   `map_subscribe_transient_local`: 控制是否订阅瞬态本地地图更新。\n\n    *   `map_topic`: 指定静态地图的ROS话题（如果不同于全局地图）。\n\n    *   `plugin`: 指定使用的静态层插件。\n\n    *   `subscribe_to_updates`: 控制是否订阅地图更新。\n\n    *   `transform_tolerance`: 定义坐标变换的容忍度。\n\n*   `track_unknown_space`: 控制是否跟踪地图中的未知空间。\n\n*   `transform_tolerance`: 定义在坐标变换过程中允许的误差范围。\n\n*   `trinary_costmap`: 控制是否使用三态代价地图（空闲、占用、未知），而不是仅使用二态（空闲、占用）。\n\n*   `unknown_cost_value`: 定义在代价地图中表示未知空间的值。\n\n*   `update_frequency`: 定义更新代价地图的频率。\n\n*   `use_maximum`: 控制是否使用多个观测源中的最大值来更新代价地图。\n\n*   `use_sim_time`: 控制是否使用仿真时间（在仿真环境中很有用）。\n\n*   `voxel_layer`: 配置体素层的参数，体素层使用体素网格来表示三维空间中的障碍物信息。\n\n    *   `enabled`: 控制体素层是否启用。\n\n    *   `footprint_clearing_enabled`: 控制是否清除机器人足迹内的体素信息。\n\n    *   `mark_threshold`和`unknown_threshold`: 定义将体素视为障碍物或未知的阈值。\n\n    *   `max_obstacle_height`和`min_obstacle_height`: 定义体素表示的障碍物的高度范围。\n\n    *   `observation_sources`: 指定体素信息的来源。\n\n    *   `origin_z`: 定义体素网格在Z轴上的原点。\n\n    *   `plugin`: 指定使用的体素层插件。\n\n    *   `publish_voxel_map`: 控制是否发布体素地图。\n\n    *   `scan`: 包含与激光扫描相关的配置，如扫描数据的处理方式。\n\n    *   `z_resolution`和`z_voxels`: 定义体素网格在Z轴上的分辨率和体素数。",
+      "translatedText": "*   `/bond_disable_heartbeat_timeout`: Controls whether to disable heartbeat timeout detection, which is used to monitor the liveness of the peer node during inter\\-node communication binding\\.\n\n*   `always_send_full_costmap`: Controls whether to always send the complete costmap information instead of only the changed parts\\.\n\n*   `clearable_layers`: Lists the costmap layers that can be cleared; obstacle information in these layers can be updated or cleared through some means (such as sensor data)\\.\n\n*   `filters`: Defines the list of filters applied to the costmap, used to preprocess or modify map data\\.\n\n*   `footprint`: Specifies the footprint shape of the robot on the map, i\\.e\\., the spatial extent occupied by the robot\\.\n\n*   `footprint_padding`: Adds extra padding space to the robot's footprint to account for the additional space required during robot motion\\.\n\n*   `global_frame`: Defines the reference coordinate frame used by the global costmap\\.\n\n*   `height`and`width`: Defines the height and width of the global costmap (in number of cells)\\.\n\n*   `inflation_layer`: Configures the parameters of the inflation layer; the inflation layer is used to add a \"buffer zone\" of a certain width around obstacles to prevent the robot from getting too close to obstacles\\.\n\n    *   `cost_scaling_factor`: The scaling factor for inflation cost\\.\n\n    *   `enabled`: Controls whether the inflation layer is enabled\\.\n\n    *   `inflate_around_unknown`: Controls whether to perform inflation around unknown space\\.\n\n    *   `inflate_unknown`: Controls whether to treat unknown space as an obstacle and inflate it\\.\n\n    *   `inflation_radius`: The inflation radius\\.\n\n    *   `plugin`: Specifies the inflation layer plugin to use\\.\n\n*   `lethal_cost_threshold`: Defines the cost threshold for considering an obstacle as \"lethal\" in the costmap\\.\n\n*   `map_topic`: Specifies the ROS topic to subscribe to for obtaining map information\\.\n\n*   `observation_sources`: Defines the observation sources of the costmap, i\\.e\\., which sensors or data sources are used to update the map\\.\n\n*   `obstacle_layer`: Configures the parameters of the obstacle layer; the obstacle layer is responsible for processing obstacle information observed by sensors\\.\n\n    *   `combination_method`: Defines how to combine information from multiple observation sources\\.\n\n    *   `enabled`: Controls whether the obstacle layer is enabled\\.\n\n    *   `footprint_clearing_enabled`: Controls whether to clear obstacle information within the robot's footprint\\.\n\n    *   `max_obstacle_height`and`min_obstacle_height`: Defines the height range of obstacles\\.\n\n    *   `observation_sources`: Specifies the source of obstacle information\\.\n\n    *   `plugin`: Specifies the obstacle layer plugin to use\\.\n\n    *   `scan`: Contains configuration related to laser scanning, such as how scan data is processed\\.\n\n*   `origin_x`and`origin_y`: Defines the coordinates of the origin of the global costmap\\.\n\n*   `plugins`: Lists the enabled costmap plugins, which define how the costmap is built and updated\\.\n\n*   `publish_frequency`: Defines the frequency at which the costmap is published\\.\n\n*   `resolution`: Defines the resolution of the costmap, i\\.e\\., the actual physical size represented by each cell\\.\n\n*   `robot_base_frame`: Defines the reference coordinate frame of the robot base\\.\n\n*   `robot_radius`: Defines the radius of the robot, used to compute the space occupied by the robot on the map\\.\n\n*   `rolling_window`: Controls whether to use a rolling window (i\\.e\\., a dynamically changing map region) instead of a fixed\\-size map\\.\n\n*   `static_layer`: Configures the parameters of the static layer; the static layer is responsible for processing static obstacle information in the map\\.\n\n    *   `enabled`: Controls whether the static layer is enabled\\.\n\n    *   `map_subscribe_transient_local`: Controls whether to subscribe to transient local map updates\\.\n\n    *   `map_topic`: Specifies the ROS topic for the static map (if different from the global map)\\.\n\n    *   `plugin`: Specifies the static layer plugin to use\\.\n\n    *   `subscribe_to_updates`: Controls whether to subscribe to map updates\\.\n\n    *   `transform_tolerance`: Defines the tolerance for coordinate transforms\\.\n\n*   `track_unknown_space`: Controls whether to track unknown space in the map\\.\n\n*   `transform_tolerance`: Defines the allowable error range during coordinate transforms\\.\n\n*   `trinary_costmap`: Controls whether to use a trinary costmap (free, occupied, unknown) instead of only a binary one (free, occupied)\\.\n\n*   `unknown_cost_value`: Defines the value representing unknown space in the costmap\\.\n\n*   `update_frequency`: Defines the frequency at which the costmap is updated\\.\n\n*   `use_maximum`: Controls whether to update the costmap using the maximum value among multiple observation sources\\.\n\n*   `use_sim_time`: Controls whether to use simulated time (useful in simulation environments)\\.\n\n*   `voxel_layer`: Configures the parameters of the voxel layer; the voxel layer uses a voxel grid to represent obstacle information in 3D space\\.\n\n    *   `enabled`: Controls whether the voxel layer is enabled\\.\n\n    *   `footprint_clearing_enabled`: Controls whether to clear voxel information within the robot's footprint\\.\n\n    *   `mark_threshold`and`unknown_threshold`: Defines the threshold for treating a voxel as an obstacle or unknown\\.\n\n    *   `max_obstacle_height`and`min_obstacle_height`: Defines the height range of obstacles represented by voxels\\.\n\n    *   `observation_sources`: Specifies the source of voxel information\\.\n\n    *   `origin_z`: Defines the origin of the voxel grid along the Z axis\\.\n\n    *   `plugin`: Specifies the voxel layer plugin to use\\.\n\n    *   `publish_voxel_map`: Controls whether to publish the voxel map\\.\n\n    *   `scan`: Contains configuration related to laser scanning, such as how scan data is processed\\.\n\n    *   `z_resolution`and`z_voxels`: Defines the resolution of the voxel grid along the Z axis and the number of voxels\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 972,
+        "outputTokens": 949,
+        "costUsd": 0.001431
       }
     },
     "731a17468cbfcbae115026a7a9d7f42a76b6c5d9fdf701777bddcc1266163078": {
@@ -225,6 +253,20 @@
         "costUsd": 0.000109
       }
     },
+    "734cc5c8bec6a391d1df75659a4f6a22db7b7e626d2f8b388ce2f026fc9bb012": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca2e6ae2ae564cf2db13baad5664baaa37a03f0e2fefd2a199bfb67e85b81362",
+      "contextFingerprint": "ae8efdc0901412367b8d03248d9ab2e4f2d7b6ad11a623b21b3d30fd1aa24b23",
+      "sourceText": "stm32_4w.urdf 文件中，在`<robot>`根标签下添加如下代码：",
+      "translatedText": "stm32_4w.urdf In the file, under the`<robot>`root tag, add the following code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "734e1952541cc822aaf6f6d1f93b4797294344b24eea704a8c84582855813f0f": {
       "normalizationVersion": 1,
       "sourceHash": "1e4592de361a3b6535deee211f6bd5bef29f56f81d599ef0322fa58c8c926dd9",
@@ -237,6 +279,20 @@
         "inputTokens": 132,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "734ea298c6dcba3a1f2e2352e194f4b9ffcfe1079b399d906005d25c7abcb736": {
+      "normalizationVersion": 1,
+      "sourceHash": "c56b76919a880978afb281aad4bfc493202e37918f76a55e616bcf6747c7ac23",
+      "contextFingerprint": "7cc047f9089e14cfb6e08dfab43f4961dee229a24defbeae0e8ac4ebac5fcd3c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1630.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1630.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "735294707b590ed197c6689f2d8e01fa1b9458c1f462b1885602f544526cbaeb": {
@@ -265,6 +321,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "735f3f5a519240f3de32dad0c0b8ce4b024eb00a18f90416215127e8b7c28c32": {
+      "normalizationVersion": 1,
+      "sourceHash": "219117b7988accf674a2fcc3798b35ca29548d577abb9a24f957860f6422c424",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 创建工作空间",
+      "translatedText": "#### Create workspace",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "73632816d9218f21e21f960a88b34ebb37db5695c41ab07c8126f87ba4e47039": {
@@ -435,6 +505,20 @@
         "costUsd": 0.000103
       }
     },
+    "73a96630497905d51e3f4dbb9dd39c15b859c0b82dad58589d13780c33aec2d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7b08ab6431b9292231fa1077109b862470ab7894c92610ce96eba7c0fcb40ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "该launch文件主要是加载了生命周期管理器、行为树、规划器、控制器、恢复器、航点跟踪、路径平滑以及速度平滑等节点。并且除了生命周期管理器节点外，每个节点都还会加载一个配置文件，接下来需要编辑这些配置文。",
+      "translatedText": "This launch file primarily loads nodes such as the lifecycle manager, behavior tree, planner, controller, recoveries, waypoint tracking, path smoothing, and velocity smoothing\\. In addition, except for the lifecycle manager node, each node also loads a configuration file\\. Next, these configuration files need to be edited\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 67,
+        "costUsd": 0.000136
+      }
+    },
     "73aab6426d4d6885f63842032ce4c1df52d7a090540426190079991b805bb40b": {
       "normalizationVersion": 1,
       "sourceHash": "322e94aa3000c9d36c3cce569d7a40f939ef63295593fd740d2e474f292f4ead",
@@ -475,6 +559,20 @@
         "inputTokens": 145,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "73ae5feb02a86b6fa0b8c20f188ef7092f209857cfbf2f8486aedcdca4672516": {
+      "normalizationVersion": 1,
+      "sourceHash": "32dcdd922c2d1cf4bea0aa95ba3fe52ad0c9cb4e8bb6d12f41f7d5e3c055567f",
+      "contextFingerprint": "146385efa44e34b1d3a18e8e1469daabbe41ccbb0922c391c4bfa1ef787a5cb1",
+      "sourceText": "##### ignition_frame_id / gz_frame_id 与 pose relative_to",
+      "translatedText": "##### ignition_frame_id / gz_frame_id and pose relative_to",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 40,
+        "costUsd": 0.000097
       }
     },
     "73ae68a83f35341f65da741213148f5cf0fa4db443f3f7d4b7740201b55d3599": {
@@ -573,6 +671,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "73c90a629f4f9fedb2efb32d7c534e9cceea8f188f6f89e2663618edd797d44e": {
+      "normalizationVersion": 1,
+      "sourceHash": "569505135a13a1a2dc393e4316f1e53eb88cde01a3fcdb464648915d22833ce0",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 超声波Ultrasonic",
+      "translatedText": "##### Ultrasonic",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "73c9c993647c5aee0b05de76154caafc14c53cdbdcb83dd987dd9a928c2e2f57": {

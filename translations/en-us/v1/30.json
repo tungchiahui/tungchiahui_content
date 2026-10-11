@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "300223a8711e161fec8bef6c1d45403d161c15939a01a5d15775bae6a22edb1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6b69972dd72366930dfa6e23f37889163d4e163f92cebccbdf7af7b9a769ceb",
+      "contextFingerprint": "acaf54340af74b2c87668df068f7e1cd23e606beedcefb466227000e5cebc205",
+      "sourceText": "*   将毫米转换为米：长0.96m，宽0.45m\n\n*   以机器人中心（`base_link`坐标系原点）为基准，计算矩形顶点坐标：",
+      "translatedText": "*   Convert millimeters to meters: length 0\\.96 m, width 0\\.45 m\n\n*   Using the robot center (`base_link`coordinate system origin) as the reference, calculate the coordinates of the rectangle's vertices:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
     "300faa66d497746c0449dbc5949196192d1c86ab64ed9432462c7fd6ba0b287e": {
       "normalizationVersion": 1,
       "sourceHash": "b6a7a77771ca95f0d96a6c9674e8634cc63918217f4f68c944dbf40b973e7d42",
@@ -141,6 +155,20 @@
         "costUsd": 0.000136
       }
     },
+    "303b659e798cd3b5325a7ec45f72d6633faa644ddc077761cffa8606f8a4489c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4eda0de0ae1dbf24eeebd4bab27cb339ebe9f8cff98b0366e4d2324a5421204",
+      "contextFingerprint": "ea921ba3482c3a870956bef837df161b8a9693ebe5ec1ccb0b0ad26ffe2dffbe",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1633.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1633.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "304296f00c18a602310328e67b5776dae7aa175fe42b599905ee2cfdd1a32dd1": {
       "normalizationVersion": 1,
       "sourceHash": "70bad085588ce74b9dcc202de734d5001b7337dcfd3bfc765647a3d7025f47e3",
@@ -183,6 +211,20 @@
         "costUsd": 0.000082
       }
     },
+    "30553d703ae97b0c7d34548b8f9d36a5ff8436ec4eaa4cb4cda7f5a3f8e38f64": {
+      "normalizationVersion": 1,
+      "sourceHash": "56a05e02bad4a1f73d0a288be3f035a95dc50364db9f3f6a3adee388143e53fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以看到图里的提示，已经连接到xbox手柄了。",
+      "translatedText": "You can see the prompt in the image indicating that it has already connected to the Xbox controller\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
     "305758524365e668020cf32e2a27389019330caf275cbda10b15ea663506035d": {
       "normalizationVersion": 1,
       "sourceHash": "a53a4b17db0a5141b2e6561f2c3202f9425ce6d108d0f19d775fa07c3aa196c0",
@@ -209,6 +251,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "305c132e453ca6edd73c6f9f9fa5f9baf51a5172a24a28f7dab6bae664674a5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3342d694db415a22e8cce194a918b82afda91cafe07cc186ec48e7c7adcaca15",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相信你改完之后依然是看不到任何激光雷达的数据的，反看topic的echo出来的数据，不是0就是inf(无限大)，再看看gazebo你会发现，激光雷达并没有达到任何一个物体上。",
+      "translatedText": "I believe that after you finish making the changes, you will still not be able to see any lidar data\\. If you look back at the data echoed from the topic, it is either 0 or inf (infinity)\\. Then look at Gazebo, and you will find that the lidar is not hitting any object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 72,
+        "costUsd": 0.000138
       }
     },
     "305fd501ff62d5c19b3ae5bfef7d9a6da82a17091a6504972ddcad0248637783": {
@@ -281,6 +337,20 @@
         "costUsd": 0.000055
       }
     },
+    "306e92768857bf66e31f406b3b7716092c06fe8a30e88789c72c709a4836bec7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4360561622040598002c46384c665e111f9d339693bca3b471c0756c068c6550",
+      "contextFingerprint": "23b7f20eec5d969dda085c05ee81aef425e46569656e1a63b804a71026960d5d",
+      "sourceText": "*   `rviz2`：启动 `rviz2` 工具。\n\n*   `-d`：指定要加载的 `.rviz` 配置文件。\n\n*   `/opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz`：`.rviz` 配置文件的路径。",
+      "translatedText": "*   `rviz2`: Start the `rviz2` tool\\.\n\n*   `-d`: Specify the `.rviz` configuration file to load\\.\n\n*   `/opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz`: Path to the `.rviz` configuration file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 28,
+        "costUsd": 0.00008
+      }
+    },
     "3072599f7f5c65359db948f37d3f134c3fac8118cade65d83b568786642bf297": {
       "normalizationVersion": 1,
       "sourceHash": "13f1381ca6c089d0ac6c3ea4a0ca9b0e1dcff90154ecac64d487b60b07894369",
@@ -293,6 +363,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "30728ac431bc4bfe7fcffb9777a47e14d59cf5ec8921b6d5019c4292c1782077": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe53c85bace467486962c153c155e9f30d3c00fbd565eddf478e7a9c4bbe2daf",
+      "contextFingerprint": "94bead0650105fae274f70d01f0868e5bfee349bf236b988b4747062c0cce2aa",
+      "sourceText": "- ROS 包名用 `ros_gz_bridge`\n- Gazebo 消息命名空间用 `gz.msgs.*`\n- 如果 topic 没有桥出来，先执行 `gz topic -l` 看 Gazebo 侧真实 topic 名称，再改 bridge 参数",
+      "translatedText": "- For ROS package names, use `ros_gz_bridge`\n- For Gazebo message namespaces, use `gz.msgs.*`\n- If the topic is not bridged out, first run `gz topic -l` to see the actual topic name on the Gazebo side, then modify the bridge parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
+    "3072b8c839969e2d4b967da25abc86dd45e2dfc54ab7496c77f00806e7bed873": {
+      "normalizationVersion": 1,
+      "sourceHash": "254cf02c87489d530617edfa162e099e8b04fd61889a36272a74ccbf8ee790a3",
+      "contextFingerprint": "91fe747bc9688c6d5a475c95fae3bd15914cdfeef5a09548b30e74294bfcfda5",
+      "sourceText": "修改后与的house.sdf文件内容如下：",
+      "translatedText": "The modified file content with house.sdf is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "307bde01a4d3ac88c36b2ac1df2f8b297e47f365f983080d56f93463b0232056": {
@@ -335,6 +433,34 @@
         "inputTokens": 135,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "3081dacfbb0073fbaf2fd0035596abd3898743f5eebe04782c57520629844046": {
+      "normalizationVersion": 1,
+      "sourceHash": "0435c24bf5a6b890f940081237f5b2ed31d4a97203e9fe8b302d3f52cd6889bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两位数的长这样",
+      "translatedText": "Two\\-digit numbers look like this",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "30853e36159560892fe30e55e236418cf3d5dd2f1674b19b749311ff36ee25a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3864e0f80e47c93bea5c2a21dd544e89c4d5bc336195023352739e48190539a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面需要介绍这些数据如何进行传输。",
+      "translatedText": "Next, it is necessary to explain how these data are transmitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "308a88992fab33d4695e8d381e178608987a7d9167110f989761b16a00b114d4": {
@@ -603,6 +729,20 @@
         "costUsd": 0.000063
       }
     },
+    "30ddac4127ce8eb0348c9d03f55bc10ee60026df1e592c7a7f7c4f749a807267": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2dc3279b34d9dafea2f9b03936159d4b5207c000a31208a13a774273d4ae857",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### cartogarpher基本使用",
+      "translatedText": "#### Basic usage of cartographer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "30e52e289a0f5ddf1eeabc796628169764cc343b0001a9f956745fbe2047a35b": {
       "normalizationVersion": 1,
       "sourceHash": "01e116b4912e7168f7fb90c477ccbfe9632e1d49ce16b671eec098f0df4bd9f1",
@@ -643,6 +783,20 @@
         "inputTokens": 142,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "30fa18e84dbe707410918aaab96d32c780505d6a42d598ec5dfe8949a1677940": {
+      "normalizationVersion": 1,
+      "sourceHash": "fab5572c4903c62e9aeba3ba3c6840d2325e7d3e9321e9ab98eee4e7765b4892",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "检查是否还写着：",
+      "translatedText": "Check whether it still says:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "30ff09bfd709d794210b68485bce066479514b99ca6320c59d7b97c0548fd3ea": {

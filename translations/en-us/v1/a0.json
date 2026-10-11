@@ -43,6 +43,20 @@
         "costUsd": 0.000055
       }
     },
+    "a008c11844e75328fc453b34d74f50a5e52e0981de29e28530c55b9e923bd5ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "581c764258823b2cb34c215d3cc07273cbc44f31e35692e26a8b3bbf4f645953",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要注意的是，TCP 不是一条消息对应一次接收。TCP 本质上是字节流协议，所以实际工程中通常需要设计自己的数据协议，例如帧头、长度、命令字、数据区、校验等。",
+      "translatedText": "It should be noted that TCP does not correspond to one receive per message\\. TCP is essentially a byte stream protocol, so in actual engineering it is usually necessary to design your own data protocol, such as frame header, length, command word, data area, checksum, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 62,
+        "costUsd": 0.000127
+      }
+    },
     "a00b078568ee7b952d6de7d1a7773037ea0bd06f07a268200d1014ef23c58714": {
       "normalizationVersion": 1,
       "sourceHash": "ce2f001a5016df3583d8de8a059db94292eeb8095758bc683f79fc3491b1fc7c",
@@ -125,6 +139,20 @@
         "inputTokens": 139,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "a01a472cdd564f81daa512c7b6878e63b5f27095d3d9357faf8d462637ecb9a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "05032176db3f6bfedc6d2fa09a7c2d4c6026cbef0e9edf0400e7863824119531",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重新构建并 source：",
+      "translatedText": "Rebuild and source:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a029239d1fd2a874e3cafa81ce69257f908b0354ff006632a44cbed1a3d20555": {
@@ -253,6 +281,20 @@
         "costUsd": 0.000066
       }
     },
+    "a05562a05720696c615f7f47744e28f9a3525c9dd9c576ffcfa4894441998c64": {
+      "normalizationVersion": 1,
+      "sourceHash": "c739882a0ace00f56d505909867720f27f43512890633e931ced3cb70bf3c9a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Jazzy 应该改成：",
+      "translatedText": "Jazzy should be changed to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "a055cb7b165aa151261ef232fea187af72276bf0275b96de7cd8f7fe5c4d2496": {
       "normalizationVersion": 1,
       "sourceHash": "966922c390f6887795c467ad00770251eb712cfa10cc530c8f93e74afb8404fa",
@@ -377,6 +419,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "a07a77952b63e777e88dd0beeb63dd8bb31656affc32629262b6dd5c35a236ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ec9d5521b2cf7292b28c03312c18862169ab705dd29a1b15dc6526ca6adcdbe",
+      "contextFingerprint": "25a307c930b766d09518d8fa28bdec1fdcc56b9a3747d5fd1fe331204cfc3b74",
+      "sourceText": "再添加`ParticleCloud`插件，将话题设置为`/particle_cloud`，并将话题下`Reliability Policy`设置为`Best Effort`，最后使用键盘控制机器人运动时，会发现，机器人周边会出现点云，并且随着机器人的运动，点云会出现不同程度的收敛或发散。",
+      "translatedText": "Then add`ParticleCloud`plugin, set the topic to`/particle_cloud`and set the under\\-topic`Reliability Policy`to`Best Effort`Finally, when using the keyboard to control the robot's movement, you will notice that a point cloud appears around the robot, and as the robot moves, the point cloud will exhibit varying degrees of convergence or divergence\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 68,
+        "costUsd": 0.000135
       }
     },
     "a07b2814910fb91a051f476a97d9ec41851206d573c57cdc04c074b6f93be690": {

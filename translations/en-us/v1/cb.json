@@ -253,6 +253,20 @@
         "costUsd": 0.000071
       }
     },
+    "cb43a787bc2bc5453e854bc8beb514407823e537efd24a67bbf30035e92cab58": {
+      "normalizationVersion": 1,
+      "sourceHash": "702c31ee6e0c531361f6a311784b47e2facbfe506ef7ad5a024fae7367a02894",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Linux TCP 通信",
+      "translatedText": "## Linux TCP Communication",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "cb442e0e9b190d8fa47e241648ddcead594521c7a47f43f7078e6fde1636e554": {
       "normalizationVersion": 1,
       "sourceHash": "4c6bbe1de69ad8cf58c184a2d3492243b453c9637c26f12901ff71414afc8129",
@@ -447,6 +461,20 @@
         "inputTokens": 176,
         "outputTokens": 61,
         "costUsd": 0.000126
+      }
+    },
+    "cbaea3faf60571cd8bb5fc38821309c65f1bea63eabd434d8d88fa56e210616f": {
+      "normalizationVersion": 1,
+      "sourceHash": "820705d17b9466f5cb6e3bbc69f40e5b1acaf8db6b53262d3283050f04244efc",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "或者也可以以ROS2 launch的方式启动，指令如下：",
+      "translatedText": "Alternatively, it can also be started by ROS2 launch, with the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "cbb21ed75cbbc1e8762c06c30fdb995415714a2603971c257d72e006e86f9f4c": {
@@ -657,6 +685,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "cbf84d93289b850054a8e4d65f1c7e916c6618181ef814c56219b83aafa0231b": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c1be8e1fcdd60f30a28b8d9b136916b33e2251e4fe230cf2deb1a6da4bd8c22",
+      "contextFingerprint": "346d5ddc94f4448149d7e7d05947f79acb2cf3d8c6aae440c0b3f690f71ba0c5",
+      "sourceText": "*   `bond_disable_heartbeat_timeout`: 设置为`true`时，禁用amcl节点与其他节点之间基于心跳的超时检测。这通常用于当节点之间的连接非常稳定，不需要频繁的心跳检测来确认连接状态时。\n\n*   `base_frame_id`: 定义机器人基坐标系的ID，通常是`base_link`或类似的名称。\n\n*   `global_frame_id`: 定义全局地图坐标系的ID，通常是`map`。\n\n*   `odom_frame_id`: 定义里程计坐标系的ID，通常是`odom`。\n\n*   `tf_broadcast`: 设置为`true`时，amcl节点会发布从里程计坐标系到全局地图坐标系的变换。\n\n*   `transform_tolerance`: 设置TF变换的容忍度，用于处理TF树中的时间不一致性。\n\n*   `use_sim_time`: 设置为`true`时，amcl将使用ROS 2的模拟时间（如果可用）。这在仿真环境中很有用。",
+      "translatedText": "*   `bond_disable_heartbeat_timeout`: When set to `true`, the heartbeat\\-based timeout detection between the amcl node and other nodes is disabled\\. This is typically used when the connection between nodes is very stable and frequent heartbeat detection is not needed to confirm the connection status\\.\n\n*   `base_frame_id`: Defines the ID of the robot base coordinate frame, usually `base_link` or a similar name\\.\n\n*   `global_frame_id`: Defines the ID of the global map coordinate frame, usually `map`\\.\n\n*   `odom_frame_id`: Defines the ID of the odometry coordinate frame, usually `odom`\\.\n\n*   `tf_broadcast`: When set to `true`, the amcl node publishes the transform from the odometry coordinate frame to the global map coordinate frame\\.\n\n*   `transform_tolerance`: Sets the tolerance for TF transforms, used to handle time inconsistencies in the TF tree\\.\n\n*   `use_sim_time`: When set to `true`, amcl will use ROS 2's simulated time (if available)\\. This is useful in simulation environments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 286,
+        "outputTokens": 179,
+        "costUsd": 0.000301
       }
     },
     "cbf95451a87c2e351dbd43c8ddc91510b9549fd3cfae76915302eda9d5da1eea": {

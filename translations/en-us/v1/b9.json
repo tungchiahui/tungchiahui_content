@@ -29,6 +29,20 @@
         "costUsd": 0.000087
       }
     },
+    "b903b6795544e6b073c6842dede6ae98f1b7407242cf218505f363f15820d0a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ad06fafd0a7550ff09d87d4b6ea3c2f9b042a8dd6ea52437a2c57cfa040a161",
+      "contextFingerprint": "46fa84c3b9d4a3b2ee22b08286adf379ea61252d4c90b7e2acaca5a2611131e9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1623.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1623.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b90a9d6e410e22a28c09b1137f3ec46cd440d641eb8dc6c0a6d8ff60c07ce43c": {
       "normalizationVersion": 1,
       "sourceHash": "c64e6af114634a901dcb3a8a84f59b1f1c525b5135c2d87326feb2d9bd73fb56",
@@ -421,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "b98962c37614fa9ea0e2d73c0eb574807f97becf96969554c1eec1622c2b148a": {
+      "normalizationVersion": 1,
+      "sourceHash": "dad299aae9848eafc6bae26d0249060aaa55448d84c4222a6c3be179ecd666ad",
+      "contextFingerprint": "03b9e59b5891d776285c3c42ffa57cd1a02c7d26739efd6fa23d1665d53b6abb",
+      "sourceText": "先修改`car_base.urdf.xacro`，添加上各种惯性，碰撞，摩擦等等：",
+      "translatedText": "First modify`car_base.urdf.xacro` to add various inertia, collision, friction, etc\\.:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "b98fbbb50aec47cfa09f1f87d42bb24098c770477f244ad579037de1a2bd986c": {
       "normalizationVersion": 1,
       "sourceHash": "9f1dec5082b1179147b0541d58ae4b0a21edb6613ed2f90fc8393513c1879272",
@@ -433,6 +461,20 @@
         "inputTokens": 160,
         "outputTokens": 50,
         "costUsd": 0.000108
+      }
+    },
+    "b98fe1a12483bcb6c86bffa17806a4b41af60aef98dd14f7124f489e340d14a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f291782c4da026be4aae2f3d85329c1789441a600161c3720f72b24830ff815",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这玩意是个轻量化的类，没必要放在堆区，直接在栈区里创建即可。",
+      "translatedText": "This thing is a lightweight class, so there is no need to put it on the heap; just create it directly on the stack\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "b99095016ed794df496a600d9554f6846c5d2dc111c83e94a4d66da1b761d784": {
@@ -475,6 +517,34 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "b99edb19d0f46e66509048d139d74574fdc3baebbea6ddac00ce3b37f02827d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe0c47512a0d0d7716c511f52d25ed65818a5d2c2c44c81ad75d964223053517",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有了前面的经验，我们需要在URDF添加以下内容即可，但我们下载的是鱼香ROS添加好的，所以不用改了：",
+      "translatedText": "With the previous experience, we only need to add the following content to the URDF\\. However, what we downloaded is the one already prepared by Fish\\-Fragrant ROS, so there is no need to modify it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 51,
+        "costUsd": 0.000108
+      }
+    },
+    "b9a620f228d3327e3bf95b1446fd6b50f4f032517a52b83270547df7bbaba91c": {
+      "normalizationVersion": 1,
+      "sourceHash": "324907b4e918cfada2102baa10a6238a5ee1b4961cdddb33f5866a9ca2a76cb7",
+      "contextFingerprint": "eb49e5b62285c2b1ab744e6a7b9620caade34d1fe0add36d7d0d3a6efe8244bd",
+      "sourceText": "除此之外，还会在sim.world中包含mycar.inc并调用其生成机器人的功能。",
+      "translatedText": "In addition, it also includes sim.world and calls its function of generating robots in mycar.inc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 41,
+        "costUsd": 0.000098
       }
     },
     "b9a66d91220d64f6c036c754407fa496bd32a2ca7ebd007b4dcc11cbfdec08f4": {
@@ -603,6 +673,20 @@
         "costUsd": 0
       }
     },
+    "b9c3e88551acb025bb03c2c46d7c831b0ed78ba864a5f754ac31beb8e091dc1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3e02ee04aca4f6239313ebc0f6649e717795e8e00c21d61df762fd2c1722b59",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "后期随着应用的深入，也会陆续介绍其他一些插件。",
+      "translatedText": "As the application deepens later, some other plugins will also be introduced successively\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "b9c63d77d96bab9fded49f0199c3d81face3dc1baef0d357979b25f3a5179e4c": {
       "normalizationVersion": 1,
       "sourceHash": "ff6414498a89fd364329829a9649110ce726bcc210645394671fa1681158d81f",
@@ -657,6 +741,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "b9d02c318ce466bda81e50bbe685384b04d39c158ef4eac7bea22b6eb2e632ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0bbf5b3b69055633164b647a8b5f6b05e78a155ce2134058ca51b466530c6ec",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### AMCL自适应蒙特卡洛定位",
+      "translatedText": "### AMCL Adaptive Monte Carlo Localization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "b9f2c83a5b0d05e486fbd8054848e6efea1184be33ebb2a3e1ab9c41a57b6ffa": {
@@ -727,6 +825,20 @@
         "inputTokens": 139,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "b9fe56dbe371c4c03310ed469b27f0627114aad69832330bfe5ec08d2a80f992": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7f0279e4efa8d6e7ec167f42b71d2db10e509a6df085158a82db872cb1e4498",
+      "contextFingerprint": "26c4536fb6c76bebaefb87026f28243a2db3b24a96fc174fa37007c4f54d9354",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1646.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1646.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

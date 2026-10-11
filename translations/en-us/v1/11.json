@@ -15,6 +15,20 @@
         "costUsd": 0.000071
       }
     },
+    "11077c9339e04d6c84c275c5f7e77cf988a6102598deacd44f08d45413effac0": {
+      "normalizationVersion": 1,
+      "sourceHash": "33128bbb7f1095a632472cdd7928c9a3acb0a63981b2aa3d6cde66d724578403",
+      "contextFingerprint": "041834922af5f30882d809f8ddc266f33d186e2f0e166f5b70436f30e1c24acb",
+      "sourceText": "**laser_link和imu_link等坐标系** 和base_link之间的位置是静态的，所以当base_link移动了，其他子坐标系也会跟随移动。",
+      "translatedText": "**laser_link and imu_link coordinate systems** The position between base_link is static, so when base_link moves, other sub\\-coordinate systems will also move accordingly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 70,
+        "costUsd": 0.000142
+      }
+    },
     "110d71e889906dee74b71c5c8091118604d0c2f2d285a5860a223cabc8dfce65": {
       "normalizationVersion": 1,
       "sourceHash": "b3196db93617984d628f2d890a02a2f54575d46dad715f5198bd0790608cc24b",
@@ -155,6 +169,20 @@
         "costUsd": 0.000061
       }
     },
+    "114a391bd341556e79deff52308857d541085f037b5a2f4fedbdbba1ac995350": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e68a4a525e269ab468b86cde377928bd94debdbcf5ead9fbba58629469548f0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但如果你的设备只是自定义 CAN 协议，例如自己规定 CAN ID 和数据格式，那么优先学习 SocketCAN 就足够了。",
+      "translatedText": "However, if your device only uses a custom CAN protocol, for example, you define your own CAN ID and data format, then it is sufficient to prioritize learning SocketCAN\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "114b0fc2c9583b6364237723e335effdfc1e61e0bb7d177bb0e90c149d43f545": {
       "normalizationVersion": 1,
       "sourceHash": "6a826df12f28080fe76bdf253d06e5d7c687175697c3619edb429e43a4b28ce1",
@@ -169,6 +197,20 @@
         "costUsd": 0.00009
       }
     },
+    "114c2f3ab32616896ffdc10e3b83bbfb0826e346f2f75b981d4e6798fb5e29c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "89bd61394f6c3042436311137b39df7cdae6b3e33ed8f0ee0bf8ed0163c12a13",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 导航简述",
+      "translatedText": "#### Navigation Overview",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "115265b0e607cc4375de22f2818c6ce16462011cdf0c2d6ed9611b0000c9917b": {
       "normalizationVersion": 1,
       "sourceHash": "0034b9bf6ca13e74a2570240ab467b673fe43b398ed274ba5af2c7d1384014d0",
@@ -181,6 +223,20 @@
         "inputTokens": 141,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "115885cabe7140d8f1da0dc2c39fcdd97c40d078de1e8edd8af880761b1de911": {
+      "normalizationVersion": 1,
+      "sourceHash": "837ba8395658346dfa46744852a834b3860fa6ffb31f71ff65ae60536b63aa3b",
+      "contextFingerprint": "9c3e530abddbedc89179de5d810f77014fa12ea62207f19f41702f0a0019ba35",
+      "sourceText": "https://gazebosim.org/docs/latest/fuel_insert/",
+      "translatedText": "https://gazebosim.org/docs/latest/fuel_insert/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "116cbbd9db59c3fd385c03b904df895b91b2a6655e00de659754ee4feae20a69": {
@@ -223,6 +279,20 @@
         "inputTokens": 131,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "117341df30ef9b87880299a85bab6f16fcccb6ec0c83921a3e4e52e1810aaa1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6a2c8cf46a52b890c9b169059ca6e929c5144f8404a461652c5b3e606681cf3",
+      "contextFingerprint": "7237e1f276fc203172f5b220ae603a6d1c26c7f8e2e80e767eb2dcf65bc283b1",
+      "sourceText": "另外，而为了便于使用，在`map_saver_server`的基础之上还封装了一个名为`map_saver_cli`的可执行程序，它可以以实参的方式更方便的设置地图保存相关数据，并且后续执行时也是调用`map_saver_cli`，其实参列表如下：",
+      "translatedText": "Additionally, for ease of use, based on `map_saver_server`, an executable program named `map_saver_cli` is also encapsulated, which can more conveniently set data related to map saving via arguments, and during subsequent execution it also calls `map_saver_cli`\\. Its argument list is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 56,
+        "costUsd": 0.00012
       }
     },
     "1179b5fa8a052caef4a1cf39767fade0cde07fddde20a3a74115b2b9b47c8bf5": {
@@ -295,6 +365,20 @@
         "costUsd": 0
       }
     },
+    "118c37b68a757ed96e4acabd0d26a592e4f526d7d8e2eb45b49a3ebefb8bf609": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee202f6f0734b65bcf019db3f73c98d9e770136bc591addcd87011a3ae6dc44b",
+      "contextFingerprint": "bf01de01efb6b358d03ff4612b25ee932d4b7e55705edb6d56b17a1808e304dc",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1748.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1748.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "118f6f2d1efde58109c772a06f8fb54cd07d7731b536b78ba4206f6b48dc4eb9": {
       "normalizationVersion": 1,
       "sourceHash": "8e785fe2cd3269eafeee1f035394f9ced2cf284cf26f864e135bab46077890f6",
@@ -335,6 +419,34 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "1199df79e427c965093d482858b4bdb6e30905d0d4412527c2bce772ad0e1a14": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0b32a938f5120e9c0610d6416ec04d81ffa0aca0419cfcb23b07e829b5fe090",
+      "contextFingerprint": "bf3766773c86d36fad686ce3567ed3f601d3db4fef01d736b7b72ecc825e43d9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1775.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1775.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "11a29ae7455f5f0c842437f1ead8006aaeea89abccb2de52716251047eeb1b8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7923c3b11f20299982a9c5e85a5ec98d2b787432a2708624ed15d2141c0b400a",
+      "contextFingerprint": "77c9dcca7b642eb1944fdd471676fc2c0a0e1cd7f5edd6dd1217562d9d6b8fad",
+      "sourceText": "GAZEBO_MODEL_PATH是老版Gazebo Classic的宏。",
+      "translatedText": "GAZEBO_MODEL_PATH is a macro of the old Gazebo Classic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "11a340148b700360529511d7a18c3a925f20c06593d5a3c58e4f056a7aeba1fc": {
@@ -391,6 +503,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "11adff800dbb2709d7a22592589bc56ede0b50b4e077e3798a8ddf88908652e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2b7efa6df57b1f1e2fbf4f20c461cb7e896e50177ce2bf0496b9de4bea0d3fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "惯性测量单元是测量物体三轴姿态角(或角速率)以及加速度的装置。一般的，一个IMU包含了三个单轴的加速度计和三个单轴的陀螺，加速度计检测物体在载体坐标系统独立三轴的加速度信号，而陀螺检测载体相对于导航坐标系的角速度信号，测量物体在三维空间中的角速度和加速度，并以此解算出物体的姿态。在导航中有着很重要的应用价值。",
+      "translatedText": "An inertial measurement unit is a device that measures the three\\-axis attitude angles (or angular rates) and acceleration of an object\\. Generally, an IMU contains three single\\-axis accelerometers and three single\\-axis gyroscopes; the accelerometers detect the acceleration signals of the object along the three independent axes of the carrier coordinate system, while the gyroscopes detect the angular velocity signals of the carrier relative to the navigation coordinate system, measuring the angular velocity and acceleration of the object in three\\-dimensional space, and thereby solving for the object's attitude\\. It has very important application value in navigation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 219,
+        "outputTokens": 123,
+        "costUsd": 0.000214
       }
     },
     "11b402b44320608cbec205f0206a40bddc77c381efdc03904474531fc9ba7987": {
@@ -461,6 +587,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "11c35efbcc5ba6a23b562c8cfaa4901d19b2cdb82c7fdf4f3c35189a25baa7bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b7ff0560cc8abbca42700e90a86586f92c96aa6257c28c22e24b7a854273622",
+      "contextFingerprint": "9c60c7f8aeaee34d2298672d6ebea8584f05aca5e4510fe03c7d4d07c9650467",
+      "sourceText": "我们这里肯定是4轮车，我创建了一个`move_control.urdf.xacro`专门存放运动控制类代码：",
+      "translatedText": "Ours here is definitely a four\\-wheeled vehicle\\. I created a`move_control.urdf.xacro`dedicated location for motion control code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "11c64bb01f02f3239413f640f26ddf421f4f41cab9a70441fd1952e5351dd325": {
