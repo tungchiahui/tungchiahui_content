@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7b042989ae59a83f681ccdb8b2a9fbb0f367b8e9e09062310bc1a64090b6580e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2ddeffc1d1e4e1e08b8c71a1aaf989936bb0c00c37d4ba13af948ffdc139a0c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要忘记字符串转成C风格的。",
+      "translatedText": "Do not forget to convert the string to C\\-style\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "7b05600f1096fa4b78b105007e77785bac1d8ee3b1e8b998ca5a1ab3c9696e79": {
       "normalizationVersion": 1,
       "sourceHash": "868047967a3987403ec624c4d507674e5dfcf4b735ca1d1769bc44dafdc768d2",
@@ -97,6 +111,20 @@
         "inputTokens": 166,
         "outputTokens": 53,
         "costUsd": 0.000114
+      }
+    },
+    "7b2694a0575d48f3e8794443e9a6bf1cc9ef2b062b4dbd514718c3c0cccdfc19": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6c8db7f95e4cb4d549cee5e3adba8e052f70f9021f18749c3686e89930548f3",
+      "contextFingerprint": "2e5e1b04449de13f0f3efddd69b1e7a5d4def40a9b788ceba45e3566c596da97",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1482.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1482.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7b311a942e88b8e0d35e40a8f82f9ddc7a1fa8e6c0601ad091698ae67dcb4ce8": {
@@ -309,6 +337,20 @@
         "costUsd": 0.000052
       }
     },
+    "7b9a4a7e9daf191c20d774715d4b17f68b057e9c7a1620d3006ce1d316a7be30": {
+      "normalizationVersion": 1,
+      "sourceHash": "47857257c67c9b8822e0cda54e5ff08a1f7a3adece7c672e0317be78fe316f5c",
+      "contextFingerprint": "fa5adc30b698f3a51961c868b2cd5d34d777a57b740219796e27c1e51bb13812",
+      "sourceText": "乌龟接收的话题是/turtle1/cmd_vel，命名空间是/turtle1",
+      "translatedText": "The topic that the turtle subscribes to is /turtle1/cmd_vel, and the namespace is /turtle1",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
     "7ba169dcfa2f8fc7d0e3fb47d4b046ea2528de4f45097eeb5d5b493dbcff11a1": {
       "normalizationVersion": 1,
       "sourceHash": "c1ba36f7be8e2e4c61f4a13e57e064190429848c682472bad239598fb356a7e5",
@@ -321,6 +363,20 @@
         "inputTokens": 169,
         "outputTokens": 53,
         "costUsd": 0.000115
+      }
+    },
+    "7ba5b3f40b672fa0e346f4f04813cf82fcd9f332ef5906b705ca5f1e94997a12": {
+      "normalizationVersion": 1,
+      "sourceHash": "643cb2236d0ac8d04660497465f30445e4375102e325d6b23c43cb8db04772fb",
+      "contextFingerprint": "5ba33dac4bee559fd2ac3448ae3b0bcf66c8782cede7f6feb1a11bd3d4072487",
+      "sourceText": "注意，Gazebo资源包在不同ROS2版本可能宏的名称不同，如在ROS2Humble里是IGN_GAZEBO_RESOURCE_PATH，在ROS2Jazzy里是GZ_SIM_RESOURCE_PATH。（往后的ROS2版本估计都是GZ_SIM_RESOURCE_PATH）（详见下方Gazebo教程）",
+      "translatedText": "Note that the Gazebo resource package may have different macro names in different ROS2 versions, for example, in ROS2Humble it is IGN_GAZEBO_RESOURCE_PATH, while in ROS2Jazzy it is GZ_SIM_RESOURCE_PATH\\. (Future ROS2 versions are estimated to all use GZ_SIM_RESOURCE_PATH) (See the Gazebo tutorial below for details)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 129,
+        "costUsd": 0.000226
       }
     },
     "7bac6183feb3b895c6a717657912d890fd23238bf5b6b28dc58aa0daf9cbc551": {
@@ -421,12 +477,40 @@
         "costUsd": 0.000054
       }
     },
+    "7bd40e080cae5b2e854eb851c50a023216ec102a478a0697d435fb6376798747": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3188c540eb84533af12736f9ccbed173a804651b250b5e8c6f0f9d44bee67ff",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "主要由于ROS1的WS和ROS2的WS路径不同，所以，我们只需要修改有关路径的内容，比如说Meshes的路径",
+      "translatedText": "Mainly because the WS of ROS1 and the WS path of ROS2 are different, we only need to modify the content related to the path, such as the path of Meshes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
     "7bd5c317626cb6dad781757589afff781d7a1b4b73798746ec7a0fa65b673fbc": {
       "normalizationVersion": 1,
       "sourceHash": "ce3bf6fd06582da4174b78702823e30709d1c2f007f65f905d11427998b39597",
       "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
       "sourceText": "常用变量：",
       "translatedText": "Common variables:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7bd697db9149aaca93f8d10a996f528c7f3c1112464223b8ce3dc188618ae771": {
+      "normalizationVersion": 1,
+      "sourceHash": "913306401634bbec442b360963c1ae6abc5ae3ad9770986de88bcdb1a23081fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第四个终端：",
+      "translatedText": "Fourth terminal:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -449,6 +533,34 @@
         "costUsd": 0.000329
       }
     },
+    "7be2eedd61facd7f1b17a0952d6a20a59693354f0cb0c9a94ee02224f6fc9e17": {
+      "normalizationVersion": 1,
+      "sourceHash": "33973d882ee35036121f0cb9139ba80c3512ef35c7b85cf36e21f104bfcb266f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "回调函数是可能会数据丢失的。这是正常现象。",
+      "translatedText": "The callback function may lose data\\. This is normal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "7be540d497d8b9ffc51869e823937b1bea214f9f6edf1655797567033930a8bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "de5752684e9d3a9f31738f01f3bcc349149ec4284a0d42263807547f3c9a69dd",
+      "contextFingerprint": "4a951db1b684ba17b75b553fb074e748c23570917b9d4ce3471e66de07dbefc5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1328.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1328.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "7bedc33d98122927721828a5f8931b8c6b7ddf10088b42166711d3a6ded1fc6f": {
       "normalizationVersion": 1,
       "sourceHash": "5006120eb942caacd645edded694d767ee77a319b20f2e892ae115f4cb15d6e8",
@@ -461,6 +573,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "7bf115a14ea432c8b46cc8a4a6b82467c15a3db4c9184eca82f30421d6672828": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dc49208aacca05b413e3b1da1f173de33fa12a851c556621dd99b993ba2fe26",
+      "contextFingerprint": "213a6d2085a7f8c87b407ecc423e5f81de5cb87d71a70bb1ec2029f95f4ef861",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1371.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1371.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bb03e0e49411347d982d6787f0a6fd0719422aca23faf29305376390ff86ac83": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb2478347ea01cdf70c4d690417f72b2594be10203efdd828b8c97e43fc53cec",
+      "contextFingerprint": "c392c1177a639995c3b440d87155dfe49450d7a79d5ad26f226a0a8506a8f810",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1458.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1458.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bb0507034e7e66825060e159b129e0fe8e2f04dbb5be424abf85eb17e0c9b9f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa515201e7f13fd96ddb8863e4206f96d6e4f067dae323d590c37ce604184052",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需求中的机器人模型是由底盘、摄像头和雷达三部分组成的，那么可以将每一部分都封装进一个xacro文件，最后再通过xacro文件包含组织成一个完整的机器人模型。",
+      "translatedText": "The robot model in the requirements is composed of three parts: the chassis, camera, and radar\\. Therefore, each part can be encapsulated into an xacro file, and finally these xacro files can be included and organized into a complete robot model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
     "bb098e3ee7f11ffc5775ad7c7f39c8e536bc1fbed13e4a37f41a13bfce3ca3b8": {
       "normalizationVersion": 1,
       "sourceHash": "a7da708f569bdf53bda3b01c99e1c1efe1a84865d8f52ba43cde43ca4ac7d786",
@@ -83,6 +111,20 @@
         "inputTokens": 148,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "bb330a12b19a5fae3a161cf58c88fec940c785755949e6c8ebc11296d7467fac": {
+      "normalizationVersion": 1,
+      "sourceHash": "48e549cda8d8decd482be84f87ce7fa282e70b32bd7f88193a9bc192f4a72ce3",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 导出URDF与Meshes",
+      "translatedText": "#### Export URDF and Meshes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "bb3889a93443b005cfb8f7f238b3d784784cedc675642835cf4ff40ca68e0a9b": {
@@ -169,6 +211,34 @@
         "costUsd": 0.000154
       }
     },
+    "bb4dbc246dbcf648dd485186caa22f2052111ff0303e79387a52a4d0dc9c6dae": {
+      "normalizationVersion": 1,
+      "sourceHash": "64a3788be372bff867b799fa2728fc3a29ce8aee3ce343de59d1a150dd3a9f1a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发送一个数值给服务端，服务端要先拿到目标值进行判断，判断该目标值是否可以被接收，或者被拒绝，再把处理结果响应给客户端。",
+      "translatedText": "When sending a value to the server, the server must first obtain the target value for judgment, determine whether the target value can be accepted or needs to be rejected, and then respond to the client with the processing result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
+    "bb55adc9ebfbfd7160090429b687942a34109893e9767360aa299ee06157fc91": {
+      "normalizationVersion": 1,
+      "sourceHash": "86a0305ebec032b93bc839700c29b47e17e0925b9ee81c04f6eded1e8b876824",
+      "contextFingerprint": "e879bc737c1c2c9ad0bbe53a6e525188cc37e268396526a133fef270ffbbb730",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1089.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1089.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bb5becbcf7ffc083001c6b738a5f26d2f7fc331e3470730fade971edf835ee0c": {
       "normalizationVersion": 1,
       "sourceHash": "c5cccbe738a04e5f8b759e4a6ac58a1b845ab20a3b23ebf21144a8d286dc08dd",
@@ -197,6 +267,20 @@
         "costUsd": 0.000049
       }
     },
+    "bb6ed768f5402b7773953375ae15747fd4c3c4522b2a945bdccf2a3479b4ee73": {
+      "normalizationVersion": 1,
+      "sourceHash": "c90c20397ff0781b4cc03e141004cce9cb9ef66b6f934c8de32ad1eb7fa1479a",
+      "contextFingerprint": "4182ef30212c2d8bc32226fc742704a6b42d3cbe8535eaea491370337808e2db",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image143.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image143.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bb70595c45e81fbf2c17fed92513dfa0f035a460f1505a7e3b83c9889a20c8fe": {
       "normalizationVersion": 1,
       "sourceHash": "25b4ba98d3b98fb10300d9e395d79bbd55862989de921e34a8c0cb8515839146",
@@ -209,6 +293,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "bb715052ff87edb3b359185e1b0d405a0fe70bdab6a7b57c8090a41259c80ba7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4da2c3773c248bd56a981ac0b769cdba8b6d4c77882a5b875465443acdcef4bf",
+      "contextFingerprint": "09efbb5bea41ac78b7772a084c1b25d007497d0768923b1fa51d0c43eef3c6cc",
+      "sourceText": "然后有参数，参数里有个键叫robot_description，然后这个键对应一个值",
+      "translatedText": "Then there is a parameter, and within the parameter there is a key called robot_description, and this key corresponds to a value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "bb7b7f60795e60d221908e547261695519b720bc7054982a04f6020a7b13ab23": {
@@ -265,6 +363,20 @@
         "inputTokens": 173,
         "outputTokens": 50,
         "costUsd": 0.000112
+      }
+    },
+    "bb91cd23f5d8ad03ac89aefc01591a4414c7267c4599e2904152310268275daa": {
+      "normalizationVersion": 1,
+      "sourceHash": "a201401b95b28a2d88d304467e8e7d4702337b2586c8a0213564969f9e4c8824",
+      "contextFingerprint": "cd25136e79d534200ba8f558533543f1d8a274944ef6f4c0dc9684473c4d4cf5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image126.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image126.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bb93489898691a89b2ea62822532e169e413bd46ee26de5f856addd7faa61025": {

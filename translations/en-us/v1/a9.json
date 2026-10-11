@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a9052cc84a438ffca5cc788ff8b726813729ea04844f2bc108cdd2663565f703": {
+      "normalizationVersion": 1,
+      "sourceHash": "447b5245d0fa238bfc96fcdf9a0a7980688c31971e98f476fd51f10717a43fe8",
+      "contextFingerprint": "78b4fe6eba7829bf23bca3f2684c06cfbfd8f379dcbb38b1814f56e5fe3ea7a7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image87.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image87.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a910c956014df91f8b00090fc7ae610dc36b167402756ced82cf4cb248ad6142": {
       "normalizationVersion": 1,
       "sourceHash": "ffc2683603a6027203ea5023ded0c21cfe087d8081cbb2cfca0b205eff12e30c",
@@ -27,6 +41,20 @@
         "inputTokens": 180,
         "outputTokens": 70,
         "costUsd": 0.000138
+      }
+    },
+    "a916d5a9e8c10979e70d3c13286c3a6fb3c91d3bc69ebc78abda91573a243fa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6feda50978a2507c728d574a7fc5b36fc8fd680927aefa7acf76dc050eb6ff4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个result最终结果的状态是不一定的，有可能任务被取消了，或被终止了，也有可能任务正常运行了。",
+      "translatedText": "The status of this result—the final result—is not necessarily fixed; the task may have been canceled or terminated, or it may have run normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 37,
+        "costUsd": 0.00009
       }
     },
     "a91710c2dde79b467e7edc547c369a906ce4e715b13cef98e803414aadddabf6": {
@@ -99,6 +127,20 @@
         "costUsd": 0.00005
       }
     },
+    "a9285901105528e0fcdc938f4c9bbbe6425776eae0e9651bdc781036d7374ecc": {
+      "normalizationVersion": 1,
+      "sourceHash": "31059b682995683e98983474986af0e15c9c93041fcc793ae11ac75e4863377a",
+      "contextFingerprint": "db71a577c8249b74825ba7dc252a67d9067288d31d7919ad7cd1ed9c99665083",
+      "sourceText": "坐标变换的实现其本质是基于话题通信的发布订阅模型的，发布方可以发布坐标系之间的相对关系，订阅方则可以监听这些消息，并实现不同坐标系之间的变换。显然的根据之前介绍，在话题通信中，接口消息作为数据载体在整个通信模型中是比较重要的一部分，本节将会介绍坐标变换中常用的两种接口消息：`geometry_msgs/msg/TransformStamped`和`geometry_msgs/msg/PointStamped`。",
+      "translatedText": "The implementation of coordinate transformation is essentially based on the publish\\-subscribe model of topic communication\\. The publisher can publish the relative relationships between coordinate frames, and the subscriber can listen to these messages and perform transformations between different coordinate frames\\. Obviously, as introduced earlier, in topic communication, interface messages, as the data carrier, are a relatively important part of the entire communication model\\. This section will introduce two commonly used interface messages in coordinate transformation:`geometry_msgs/msg/TransformStamped`and`geometry_msgs/msg/PointStamped`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 97,
+        "costUsd": 0.000178
+      }
+    },
     "a92d5321e380281cf8cd45c1d9d6593e0ebe8696d020526893177328c3a9e126": {
       "normalizationVersion": 1,
       "sourceHash": "e08dd771a924e7595091e77f971d3b1c8fdf82d3420f41948e3c2765a1169704",
@@ -125,6 +167,20 @@
         "inputTokens": 158,
         "outputTokens": 41,
         "costUsd": 0.000097
+      }
+    },
+    "a9313b0d4eeaef3ede6a7602d8bb32fe2464d7fa5e53cfddffb0c0c7a80fc4d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "54e02e2d395d2332b47214ff1be30d653690055eae45f98450f751b60da9a525",
+      "contextFingerprint": "f3ebfd757ce6892b874a1508a3924f3115c7a4e49ada00c1b5e424765600778a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image446.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image446.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a93152a2e6d09978cd00323ee218a2a1927159263cde88e3f218acf9e333a4b0": {
@@ -183,6 +239,20 @@
         "costUsd": 0.000063
       }
     },
+    "a93f23b6427f04087543a8c9393327fe5c0dbfd7950f6357ae9b5f40ce5c6d5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee5abee4c01dce1b842d3b00efe655a4ef90c38be546bca297b4800cbcb80123",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**作用**",
+      "translatedText": "**Function**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "a9502212cc42d4a43d7a9d61fafe9fe2740a7028f1f39545d5cbf181a9876056": {
       "normalizationVersion": 1,
       "sourceHash": "7671423fb31e28f29d5504b209b6d20f3957f7f6529f87f09d500c40f6607bf0",
@@ -209,6 +279,34 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "a9621cffe8022692c07cf4fd631dc2de2b26256fc7ed57f2cca0f9d4f7da1b06": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ae14d16ed6287dae8e5f96ae36498261cd9934d5fa0c3b06de878b39e089b11",
+      "contextFingerprint": "99068ef733a25113b4f6b46574f26511222150561f20747946e0f280210f3583",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image927.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image927.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a96f387c5806347547616fca66559ed22febe4f568dd11a676a2730401629137": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b4e1d703c55d5dd1e305a5033dafaf35bdbe4f82c817aa59be008e64818e1a1",
+      "contextFingerprint": "dd98cfbb624375ce95e0d6c5dc9ed85b361779510c1d042fe6f1242c2db8679d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1229.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1229.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a97714f5fd4dce1245ac4a16593b80ad94e0e30f75ce545b986b482772c73391": {
@@ -307,6 +405,20 @@
         "inputTokens": 138,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "a996f3e38c12970b8281a7db5be2d3eaa7b1e1a17961fc8bc8395074cecd8983": {
+      "normalizationVersion": 1,
+      "sourceHash": "41cd365649bd8d1cfd94fedf0e0a1d742e09d080ea43a3381374bff6f1020feb",
+      "contextFingerprint": "c7df825281541732d62f5f4ef15f474d85fede1d98dc8b369b43508655081f42",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image905.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image905.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a997f8112d7f52892b61629b1395e492275e19446d51d5846bcc429733f3a53e": {
@@ -545,6 +657,20 @@
         "inputTokens": 138,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "a9fc9ac1ed1d02d203a23c8e61d35ce6a4407c0ab9f78f3bbeacf235498f02d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c533a9ccc03a7c321a9235a015cb4f1f486a0f2c4862abf3fa3dfa197894392",
+      "contextFingerprint": "663579d6ec75092d5208322fdce317163329cbeee254d169efdb1ef4174298aa",
+      "sourceText": "需要依赖于rosbag2_cpp或者rosbag2_py",
+      "translatedText": "It needs to depend on rosbag2_cpp or rosbag2_py",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
       }
     }
   }

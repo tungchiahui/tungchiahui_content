@@ -71,6 +71,20 @@
         "costUsd": 0.000053
       }
     },
+    "6d0de857aa6af13335a963d1931316a45028cc36949958d28d34a64ecba01128": {
+      "normalizationVersion": 1,
+      "sourceHash": "47e09f683dbbd5d753567c5ae180f5a636baf90471e08cae9f141ec37af22e6b",
+      "contextFingerprint": "13a2cd95e6236e8926ff3a0531980e0155d064487547e25cc91895f248290b37",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1364.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1364.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6d1115378bd579dc0d02adc5d97cab2886e1fa8b617986a709de2efefa4192c4": {
       "normalizationVersion": 1,
       "sourceHash": "85dd719ba9da6677b66ce068c0ec15fbd4682d8bd698bde5e39f20e70126c430",
@@ -181,6 +195,20 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "6d3227f6467d9c0cdfa6cd693667eaa41fc8505947d44d889154d0db2d8896e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2824688448fd2b8ee1482beaaf298b1937efbbd55113351be34df599a7f68327",
+      "contextFingerprint": "7859ec2f8901340541275d92b87d252302b57853b4311f3b1c8f6e145fc1fa68",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image413.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image413.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6d33a7abb60f2f18cfa7c7c842bcc986c1c471773de304fe8bfd4d9b3f04d02e": {
@@ -309,6 +337,20 @@
         "costUsd": 0.000064
       }
     },
+    "6d757384871c4250f69d1b844428bdc182da6e9a8b567a918b4e86f86b405a4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f6939e3a812ebac080b17de5830b0cf03d542bbbf7d5f6d6a373c5c6bd60e18",
+      "contextFingerprint": "1b10001bab30f2dc5115677aa66067223e4582ea3c52218edb91c70a6d9f6ece",
+      "sourceText": "*   **name** （可选）：指定link名称，此名称会映射为同名坐标系，还可以通过引用该值定位定位link。\n\n*   **<geometry>** （必填）：用于设置link的形状，比如：立方体、球体或圆柱。\n\n    *   **<box>** ：立方体标签，通过size属性设置立方体的边长，原点为其几何中心。\n\n    *   **<cylinder>** ：圆柱标签，通过radius属性设置圆柱半径，通过length属性设置圆柱高度，原点为其几何中心。\n\n    *   **<sphere>** ：球体标签，通过radius属性设置球体半径，原点为其几何中心。\n\n    *   **<mesh>** ：通过属性filename引用“皮肤”文件，为link设置外观，该文件必须是本地文件。使用 package://<packagename>/<path>为文件名添加前缀。\n\n    *   **<origin>** （可选）：用于设置link的相对偏移量以及旋转角度，如未指定则使用默认值（无偏移且无旋转）。\n\n        *   **xyz** ：表示x、y、z三个维度上的偏移量（以米为单位），不同数值之间使用空格分隔，如未指定则使用默认值（三个维度无偏移）。\n\n        *   **rpy** ：表示翻滚、俯仰与偏航的角度（以弧度为单位），不同数值之间使用空格分隔，如未指定则使用默认值（三个维度无旋转）。\n\n    *   **<material>** （可选）：视觉元素的材质。也可以在根标签robot中定义material标签，然后，可以在link中按名称进行引用。\n\n        *   **name** （可选）：为material指定名称，可以通过该值进行引用。\n\n        *   **<color>** （可选）：rgba 材质的颜色，由代表red/green/blue/alpha 的四个数字组成，每个数字的范围为 \\[0,1\\]。\n\n        *   **<texture>** （可选）：材质的纹理，可以由属性filename设置。",
+      "translatedText": "*   **name** (Optional): Specifies the link name\\. This name is mapped to a coordinate frame with the same name and can also be used to locate the link by referencing this value\\.\n\n*   **<geometry>** (Required): Used to set the shape of the link, such as a cube, sphere, or cylinder\\.\n\n    *   **<box>** : Cube tag\\. The side length of the cube is set via the size attribute, with its origin at the geometric center\\.\n\n    *   **<cylinder>** : Cylinder tag\\. The cylinder radius is set via the radius attribute, and the cylinder height is set via the length attribute, with its origin at the geometric center\\.\n\n    *   **<sphere>** : Sphere tag\\. The sphere radius is set via the radius attribute, with its origin at the geometric center\\.\n\n    *   **<mesh>** : References a \"skin\" file via the filename attribute to set the appearance of the link\\. The file must be a local file\\. Use package://<packagename>/<path>as a prefix for the filename\\.\n\n    *   **<origin>** (Optional): Used to set the relative offset and rotation angle of the link\\. If not specified, default values are used (no offset and no rotation)\\.\n\n        *   **xyz** : Represents the offset in the three dimensions x, y, and z (in meters)\\. Separate different values with spaces\\. If not specified, the default value is used (no offset in any of the three dimensions)\\.\n\n        *   **rpy** : Represents the roll, pitch, and yaw angles (in radians)\\. Separate different values with spaces\\. If not specified, the default value is used (no rotation in any of the three dimensions)\\.\n\n    *   **<material>** (Optional): The material of the visual element\\. A material tag can also be defined in the root robot tag and then referenced by name within a link\\.\n\n        *   **name** (Optional): Specifies a name for the material, which can be referenced via this value\\.\n\n        *   **<color>** (Optional): The color of the rgba material, consisting of four numbers representing red/green/blue/alpha, with each number ranging from \\[0,1\\]\\.\n\n        *   **<texture>** (Optional): The texture of the material, which can be set via the filename attribute\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 469,
+        "outputTokens": 422,
+        "costUsd": 0.000648
+      }
+    },
     "6d80815f12af14443347961cf2c76ec3de83f28126fab72add4362b68474d72e": {
       "normalizationVersion": 1,
       "sourceHash": "4a28ea0281d6538c7581fcf715f311c708fe03b8251e7510ece5d111e9101ffb",
@@ -343,6 +385,34 @@
       "contextFingerprint": "d5d7151c660ba6e354688801659592ffb513fa69dd5abbf19cd374d576fd5442",
       "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189237016.webp)",
       "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791189237016.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6d8fcdd5532cd4eb1afd0a571cf86f11cf3e7e5e4b5d2585c849d369179752d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "101c208d5ad408823448a84bd1417347a3746697adb025c4d1b6525e97d0c1ff",
+      "contextFingerprint": "96cda00c1413ac7a123f92a47e18cb4b559bee2578a21116e7555ce3529b1204",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1168.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1168.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6d92450a226ee17aefbae77f321a47cd75865fbb4b05af7c8c59fe468fafeb23": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f5835d51bb6bd2c617ececee9e6d7c2de5308ec355565534b206f8df849a7e5",
+      "contextFingerprint": "c2f250e539499e00087b99929364867ed500ce7bbdc6efa5ebd92156ebecb4ba",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image707.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image707.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -533,6 +603,20 @@
         "costUsd": 0.000112
       }
     },
+    "6dd6614ede1955dd09263df534164afd9719d10ccfee7443ff4d643db92da0e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "48de022d076a2bb3933294cf96e584d9cdfba301db7367ca243700a02937c6a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样检验才是真能确定数据被发送出去了。",
+      "translatedText": "This is the only way to verify that the data has actually been sent out\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "6dd75727f79aef960c611675da6041800749e3bf07ba263421b9dfb967ffe8f2": {
       "normalizationVersion": 1,
       "sourceHash": "f5669d899aa4cd45e871b1d08ac6f69879263b58fe1cbb11eb190b15bf54b8c6",
@@ -671,6 +755,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "6dfa848bbcd805f66449bec581c3a33fe0be3be390f44f0291d5f01ad6805065": {
+      "normalizationVersion": 1,
+      "sourceHash": "cebf7b58c9b9f63b03c9ede7f4f0ff4ab4d78516344a98fda3ab66528b81d885",
+      "contextFingerprint": "ffea15a2cf62d5871224e459be44f26184027d9155697ec8d008034f57648b5b",
+      "sourceText": "#### **F1 Tenth**",
+      "translatedText": "#### **F1 Tenth**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6dfc50b6d294f0f0136039fd5bd86403e6466af9895403ae76fbe2961c370421": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4171311d9de0e60c6fce5c30fd01e2766aacf50e5585e3fc535ddf191af918c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以上通过TF即可算",
+      "translatedText": "The above can be calculated using TF\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }
