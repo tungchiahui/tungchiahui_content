@@ -43,6 +43,34 @@
         "costUsd": 0.000096
       }
     },
+    "0917bffd0155abecee5d6d16667e3911bed8e7b0be4b1f47eee0f982463c78e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6a02d52f7de0062d5529e0309b91068182e9c55288c4d733874ae8a14fb4547",
+      "contextFingerprint": "b219c9958277979907d1b60b26e09000b866771284fd416a452a0ef467383c12",
+      "sourceText": "| ROS2消息类型 | Gazebo Transport 类型 |\n|:---|:---|\n| builtin_interfaces/msg/Time | gz.msgs.Time |\n| geometry_msgs/msg/Point | gz.msgs.Vector3d |\n| geometry_msgs/msg/Pose | gz.msgs.Pose |\n| geometry_msgs/msg/PoseArray | gz.msgs.Pose_V |\n| geometry_msgs/msg/PoseStamped | gz.msgs.Pose |\n| geometry_msgs/msg/PoseWithCovariance | gz.msgs.PoseWithCovariance |\n| geometry_msgs/msg/Quaternion | gz.msgs.Quaternion |\n| geometry_msgs/msg/Transform | gz.msgs.Pose |\n| geometry_msgs/msg/TransformStamped | gz.msgs.Pose |\n| geometry_msgs/msg/Twist | gz.msgs.Twist |\n| geometry_msgs/msg/TwistWithCovariance | gz.msgs.TwistWithCovariance |\n| geometry_msgs/msg/TwistWithCovarianceStamped | gz.msgs.TwistWithCovariance |\n| geometry_msgs/msg/Vector3 | gz.msgs.Vector3d |\n| geometry_msgs/msg/Wrench | gz.msgs.Wrench |\n| geometry_msgs/msg/WrenchStamped | gz.msgs.Wrench |\n| nav_msgs/msg/Odometry | gz.msgs.Odometry |\n| nav_msgs/msg/Odometry | gz.msgs.OdometryWithCovariance |\n| rcl_interfaces/msg/ParameterValue | gz.msgs.Any |\n| ros_gz_interfaces/msg/Altimeter | gz.msgs.Altimeter |\n| ros_gz_interfaces/msg/Contact | gz.msgs.Contact |\n| ros_gz_interfaces/msg/Contacts | gz.msgs.Contacts |\n| ros_gz_interfaces/msg/Dataframe | gz.msgs.Dataframe |\n| ros_gz_interfaces/msg/Entity | gz.msgs.Entity |\n| ros_gz_interfaces/msg/Float32Array | gz.msgs.Float_V |\n| ros_gz_interfaces/msg/GuiCamera | gz.msgs.GUICamera |\n| ros_gz_interfaces/msg/JointWrench | gz.msgs.JointWrench |\n| ros_gz_interfaces/msg/Light | gz.msgs.Light |\n| ros_gz_interfaces/msg/SensorNoise | gz.msgs.SensorNoise |\n| ros_gz_interfaces/msg/StringVec | gz.msgs.StringMsg_V |\n| ros_gz_interfaces/msg/TrackVisual | gz.msgs.TrackVisual |\n| ros_gz_interfaces/msg/VideoRecord | gz.msgs.VideoRecord |\n| ros_gz_interfaces/msg/WorldControl | gz.msgs.WorldControl |\n| rosgraph_msgs/msg/Clock* | gz.msgs.Clock* |\n| sensor_msgs/msg/BatteryState | gz.msgs.BatteryState |\n| sensor_msgs/msg/CameraInfo | gz.msgs.CameraInfo |\n| sensor_msgs/msg/FluidPressure | gz.msgs.FluidPressure |\n| sensor_msgs/msg/Image | gz.msgs.Image |\n| sensor_msgs/msg/Imu | gz.msgs.IMU |\n| sensor_msgs/msg/JointState | gz.msgs.Model |\n| sensor_msgs/msg/Joy | gz.msgs.Joy |\n| sensor_msgs/msg/LaserScan | gz.msgs.LaserScan |\n| sensor_msgs/msg/MagneticField | gz.msgs.Magnetometer |\n| sensor_msgs/msg/NavSatFix | gz.msgs.NavSat |\n| sensor_msgs/msg/PointCloud2 | gz.msgs.PointCloudPacked |\n| std_msgs/msg/Bool | gz.msgs.Boolean |\n| std_msgs/msg/ColorRGBA | gz.msgs.Color |\n| std_msgs/msg/Empty | gz.msgs.Empty |\n| std_msgs/msg/Float32 | gz.msgs.Float |\n| std_msgs/msg/Float64 | gz.msgs.Double |\n| std_msgs/msg/Header | gz.msgs.Header |\n| std_msgs/msg/Int32 | gz.msgs.Int32 |\n| std_msgs/msg/String | gz.msgs.StringMsg |\n| std_msgs/msg/UInt32 | gz.msgs.UInt32 |\n| tf2_msgs/msg/TFMessage | gz.msgs.Pose_V |\n| trajectory_msgs/msg/JointTrajectory | gz.msgs.JointTrajectory |",
+      "translatedText": "| ROS2Message type | Gazebo Transport type |\n|:---|:---|\n| builtin_interfaces/msg/Time | gz.msgs.Time |\n| geometry_msgs/msg/Point | gz.msgs.Vector3d |\n| geometry_msgs/msg/Pose | gz.msgs.Pose |\n| geometry_msgs/msg/PoseArray | gz.msgs.Pose_V |\n| geometry_msgs/msg/PoseStamped | gz.msgs.Pose |\n| geometry_msgs/msg/PoseWithCovariance | gz.msgs.PoseWithCovariance |\n| geometry_msgs/msg/Quaternion | gz.msgs.Quaternion |\n| geometry_msgs/msg/Transform | gz.msgs.Pose |\n| geometry_msgs/msg/TransformStamped | gz.msgs.Pose |\n| geometry_msgs/msg/Twist | gz.msgs.Twist |\n| geometry_msgs/msg/TwistWithCovariance | gz.msgs.TwistWithCovariance |\n| geometry_msgs/msg/TwistWithCovarianceStamped | gz.msgs.TwistWithCovariance |\n| geometry_msgs/msg/Vector3 | gz.msgs.Vector3d |\n| geometry_msgs/msg/Wrench | gz.msgs.Wrench |\n| geometry_msgs/msg/WrenchStamped | gz.msgs.Wrench |\n| nav_msgs/msg/Odometry | gz.msgs.Odometry |\n| nav_msgs/msg/Odometry | gz.msgs.OdometryWithCovariance |\n| rcl_interfaces/msg/ParameterValue | gz.msgs.Any |\n| ros_gz_interfaces/msg/Altimeter | gz.msgs.Altimeter |\n| ros_gz_interfaces/msg/Contact | gz.msgs.Contact |\n| ros_gz_interfaces/msg/Contacts | gz.msgs.Contacts |\n| ros_gz_interfaces/msg/Dataframe | gz.msgs.Dataframe |\n| ros_gz_interfaces/msg/Entity | gz.msgs.Entity |\n| ros_gz_interfaces/msg/Float32Array | gz.msgs.Float_V |\n| ros_gz_interfaces/msg/GuiCamera | gz.msgs.GUICamera |\n| ros_gz_interfaces/msg/JointWrench | gz.msgs.JointWrench |\n| ros_gz_interfaces/msg/Light | gz.msgs.Light |\n| ros_gz_interfaces/msg/SensorNoise | gz.msgs.SensorNoise |\n| ros_gz_interfaces/msg/StringVec | gz.msgs.StringMsg_V |\n| ros_gz_interfaces/msg/TrackVisual | gz.msgs.TrackVisual |\n| ros_gz_interfaces/msg/VideoRecord | gz.msgs.VideoRecord |\n| ros_gz_interfaces/msg/WorldControl | gz.msgs.WorldControl |\n| rosgraph_msgs/msg/Clock\\* | gz.msgs.Clock\\* |\n| sensor_msgs/msg/BatteryState | gz.msgs.BatteryState |\n| sensor_msgs/msg/CameraInfo | gz.msgs.CameraInfo |\n| sensor_msgs/msg/FluidPressure | gz.msgs.FluidPressure |\n| sensor_msgs/msg/Image | gz.msgs.Image |\n| sensor_msgs/msg/Imu | gz.msgs.IMU |\n| sensor_msgs/msg/JointState | gz.msgs.Model |\n| sensor_msgs/msg/Joy | gz.msgs.Joy |\n| sensor_msgs/msg/LaserScan | gz.msgs.LaserScan |\n| sensor_msgs/msg/MagneticField | gz.msgs.Magnetometer |\n| sensor_msgs/msg/NavSatFix | gz.msgs.NavSat |\n| sensor_msgs/msg/PointCloud2 | gz.msgs.PointCloudPacked |\n| std_msgs/msg/Bool | gz.msgs.Boolean |\n| std_msgs/msg/ColorRGBA | gz.msgs.Color |\n| std_msgs/msg/Empty | gz.msgs.Empty |\n| std_msgs/msg/Float32 | gz.msgs.Float |\n| std_msgs/msg/Float64 | gz.msgs.Double |\n| std_msgs/msg/Header | gz.msgs.Header |\n| std_msgs/msg/Int32 | gz.msgs.Int32 |\n| std_msgs/msg/String | gz.msgs.StringMsg |\n| std_msgs/msg/UInt32 | gz.msgs.UInt32 |\n| tf2_msgs/msg/TFMessage | gz.msgs.Pose_V |\n| trajectory_msgs/msg/JointTrajectory | gz.msgs.JointTrajectory |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 1359,
+        "outputTokens": 1236,
+        "costUsd": 0.001891
+      }
+    },
+    "091b963d745180137ff9b6219fa1e4b85b51988c455baab0d43d17b47288ef73": {
+      "normalizationVersion": 1,
+      "sourceHash": "8945232c6f5ca5ff943c0d73deeb14adada10093d6b91f8a0f79ef8a257c6db5",
+      "contextFingerprint": "4c2a6225a8490a92a47a924713e0c25fa54cc2b1118d25b49b5f66ce51c493b8",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /clock | rosgraph_msgs/msg/Clock | ROS系统时间 |\n| /cmd_vel_teleop | geometry_msgs/msg/Twist | 遥操作命令，用于控制机器人的线性和角速度 |\n| /local_costmap/costmap_raw | nav2_msgs/msg/Costmap | 局部代价地图的原始数据 |\n| /local_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | 机器人在局部代价地图中的已发布足迹 |\n| /preempt_teleop | std_msgs/msg/Empty | 遥操作抢占信号，用于中断当前遥操作 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /clock | rosgraph_msgs/msg/Clock | ROS system time |\n| /cmd_vel_teleop | geometry_msgs/msg/Twist | Teleoperation command, used to control the robot's linear and angular velocity |\n| /local_costmap/costmap_raw | nav2_msgs/msg/Costmap | Raw data of the local costmap |\n| /local_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | Published footprint of the robot in the local costmap |\n| /preempt_teleop | std_msgs/msg/Empty | Teleoperation preemption signal, used to interrupt the current teleoperation |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 285,
+        "outputTokens": 170,
+        "costUsd": 0.00029
+      }
+    },
     "0927b6913b940a153b16c46ee09d1c562d86f844c8c00e6e21474bedc1df23f0": {
       "normalizationVersion": 1,
       "sourceHash": "b143fbb456bee0f2f83728fb9d938495e8071b8233c5df580d30b846e5657824",
@@ -295,6 +323,20 @@
         "costUsd": 0.000063
       }
     },
+    "09997a6af59b33d8871363efc2a67d06a366ed88cfebd22d424dc30bfeeccdcb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e40669cb0d5ad3d70ef895d1a6d39759e6fc7417551088c6f31705d812409d32",
+      "contextFingerprint": "8f1dad192b01011a1f462bd0cba3b8c4bc611ffbe1d875b55d68f23016760653",
+      "sourceText": "因为激光雷达是属于射线类传感器，该类传感在在Gazebo插件中都被封装成了一个动态库`libgazebo_ros_ray_sensor.so`。",
+      "translatedText": "Because LiDAR is a ray\\-based sensor, this type of sensor is encapsulated as a dynamic library in Gazebo plugins`libgazebo_ros_ray_sensor.so`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "0999ae2d9679433ef2f13c2773be3da914effd8422b94790a5bea6a0728e60c9": {
       "normalizationVersion": 1,
       "sourceHash": "a7cc6dd6d88e38e82745ba603ab6f1b4a4767883fd84fec46b30ae1efdbb7d52",
@@ -349,6 +391,34 @@
         "inputTokens": 149,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "09b55bea1106a11270060b8a43e305c6644a1dd45f3e52f13e9e7e1281e185a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "da9d793b7f8c66f98d735d2edf5b95873eee797adbd00001a51e94c12d3dc8a4",
+      "contextFingerprint": "4600aedf70d3729a6e72e7da6f7614ae65d3748680c51c2203ffb2fd5ce72707",
+      "sourceText": "也就是说，ROS 2 负责机器人系统内部通信，TCP 负责和外部系统、网络设备、远程服务进行交互。",
+      "translatedText": "That is to say, ROS 2 is responsible for internal communication within the robot system, while TCP is responsible for interacting with external systems, network devices, and remote services\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 48,
+        "costUsd": 0.000107
+      }
+    },
+    "09b6495a7660dde5a694c3bac3a4b93516e734f4f54f4c2b141038632639bbcb": {
+      "normalizationVersion": 1,
+      "sourceHash": "790b5007a3c74d9cfdf48771f21907fb3f51d2dbf10609dccf0f3dd1000f6dd0",
+      "contextFingerprint": "4a81fb210f866f37584225a491cf808eb8fff0893bb86e8949c956e8a9b80651",
+      "sourceText": "`stage_ros2`节点是stage_ros2功能包的核心节点之一。它通过加载world文件来创建一个仿真场景，包括地图、障碍物和机器人等元素。world文件描述了虚拟环境的属性，节点会根据文件中的描述构建对应的环境。stage_ros2节点利用这个虚拟环境来模拟机器人的运动、感知和控制。通过该节点和world文件的结合，可以进行机器人的仿真和测试。",
+      "translatedText": "`stage_ros2`The node is one of the core nodes of the stage_ros2 package\\. It creates a simulation scene by loading a world file, including elements such as the map, obstacles, and robot\\. The world file describes the properties of the virtual environment, and the node builds the corresponding environment according to the description in the file\\. The stage_ros2 node uses this virtual environment to simulate the robot's motion, perception, and control\\. Through the combination of this node and the world file, robot simulation and testing can be performed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 124,
+        "costUsd": 0.000216
       }
     },
     "09b953ed546ec869afcd54e655a6f7c4e0c3615bfbbbf7995cd6360d23449d3a": {

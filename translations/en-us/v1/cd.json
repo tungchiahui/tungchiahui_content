@@ -15,6 +15,20 @@
         "costUsd": 0.000057
       }
     },
+    "cd0684277c8e7ab13306db01da30504e802bf849f3822563987d37feefad45bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a51e5dbaa7cdd1eb05dd497d9e44a7c353603a5c37bdbd29d6783bac0a664a0",
+      "contextFingerprint": "827505a7c8613ae29d4bce4e8061325e57b1f79a3fc804acecb7d6da5b4bc9de",
+      "sourceText": "> 1.  高昂的成本：研发一款自主移动机器人需要购买昂贵的硬件组件，如传感器、电机、控制器等，且这些硬件在研发初期可能需要频繁更换或升级，导致成本急剧上升。\n>     \n> 2.  资源限制：由于资金和资源有限，可能无法同时拥有多台实体机器人进行测试。这会导致测试周期延长，研发进度受阻。\n>     \n> 3.  环境的不确定性和复杂性：在真实环境中测试机器人时，可能会遇到各种不可预测的情况，如光线变化、地面不平整、电磁干扰等，这些因素都可能影响机器人的性能。\n>     \n> 4.  安全风险：在测试过程中，如果机器人的控制算法或硬件出现故障，可能会导致机器人失控，对人员或环境造成损害。\n>     ",
+      "translatedText": "> 1.  High costs: Developing an autonomous mobile robot requires purchasing expensive hardware components, such as sensors, motors, controllers, etc\\., and these hardware components may need to be frequently replaced or upgraded in the early stages of development, causing costs to rise sharply\\.\n>     \n> 2.  Resource constraints: Due to limited funding and resources, it may not be possible to have multiple physical robots for testing at the same time\\. This can prolong the testing cycle and hinder R&D progress\\.\n>     \n> 3.  Environmental uncertainty and complexity: When testing robots in real environments, various unpredictable situations may be encountered, such as changes in lighting, uneven ground, electromagnetic interference, etc\\., and these factors may all affect the robot's performance\\.\n>     \n> 4.  Safety risks: During testing, if the robot's control algorithm or hardware fails, the robot may go out of control and cause harm to people or the environment\\.\n>     ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 269,
+        "outputTokens": 173,
+        "costUsd": 0.000289
+      }
+    },
     "cd06e154c378c8bb4504aee5f9eba2ccc1474e04397305c4a89dde6bc24212cb": {
       "normalizationVersion": 1,
       "sourceHash": "320570d2cf2929f9f157ed12533fb8c93d657b8c1f963bf4501ef6299532d249",
@@ -183,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "cd3713f17c15ff4ca39f5b693e2865024f5173315f003d53de87ecd5273fbebe": {
+      "normalizationVersion": 1,
+      "sourceHash": "4067a3453d45617f1c41e0455e249ad1c0c3a020c446a995cf1edeeb6bb1d39e",
+      "contextFingerprint": "2806cc146da10bf3587085b852a8d323e03950014b3c7899e68c25d67e25981c",
+      "sourceText": "https://gazebosim.org/docs/harmonic/getstarted/",
+      "translatedText": "https://gazebosim.org/docs/harmonic/getstarted/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "cd373d3ba1d173d83b6cf5f798fbee28bca08370314943664ccda8759d76e172": {
       "normalizationVersion": 1,
       "sourceHash": "94c0652496bdda20e71e4a3c2b2835c3ac14b5ae353dfcd2d48fbf4a7a1e351a",
@@ -239,6 +267,20 @@
         "costUsd": 0.000071
       }
     },
+    "cd4404853b53990fcfb3e88b7aaa48385811aabf5ac2df738c80e0e18264e436": {
+      "normalizationVersion": 1,
+      "sourceHash": "908bd1a3494528e6d91c6f68f59653dc7da4c5e1fe1303d235ca64b37f98a1da",
+      "contextFingerprint": "e7f7b095a696ac2f377dfc9578bbb163fc530896015585daee3a679965ce3152",
+      "sourceText": "### 发布cmd_vel给单片机",
+      "translatedText": "### Send cmd_vel to the microcontroller",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "cd4de597c2675c77ae0178f20f48e2ad6f4d0100c6fda227cec5f9aa7449957e": {
       "normalizationVersion": 1,
       "sourceHash": "f4ab2ed0a74c7224d609ba35d7cf07f95416575c5457f2ac7e60dea6b364ecf1",
@@ -251,6 +293,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "cd56c5aba2dd77fb95a310f6f9a5fec49b08169f908058936937cc0641f0c75c": {
+      "normalizationVersion": 1,
+      "sourceHash": "00dd0b97e8da1b138794c0a1173c3f75ff7523fae264aa389490ac4f7bda71ab",
+      "contextFingerprint": "312a8f568af6bd5f6747ae4cf097a244162bc30914fdfe8eeba7178e7b2151b9",
+      "sourceText": "所以本节我们来说一下如何使用ROS2+Gazebo来仿真超声波传感器。",
+      "translatedText": "So in this section, let's discuss how to use ROS2+Gazebo to simulate an ultrasonic sensor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "cd58deb6cb6b71bc278a5f34f28580e94c4f3c724c4e16be31904c90b5d94bea": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6fb87a7ea83284d007917c28fa14e3f7ed50886311157667f716b6ce70716d2",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### GUI 标签 warning",
+      "translatedText": "##### GUI label warning",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "cd597da72d828590b74df035b85a40148643a912c02eb7647801331e814402ad": {
@@ -433,6 +503,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "cda25fbc6df85dc3e6117bbac3a3d01f812178dc501b5ff36dbf59d32b9040de": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1f8bd3e9dc6c281249ca41cef71415395df4fc559e54c9830ef6241adbc154b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 自定义节点",
+      "translatedText": "### Custom nodes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "cda3ed09d67904b0c958d34ffb81ceec703dea9db1df69f896c96b49ace871f2": {
@@ -669,6 +753,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "cdfeb8995c2befb252bf62d4828e19d953741a75cb6bbffacd9161e9125bdceb": {
+      "normalizationVersion": 1,
+      "sourceHash": "57438b3cde5e9a9eb2f95038f92bceb12ad4fbb7a383cebe1507e91561098704",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Launch 文件",
+      "translatedText": "#### Launch file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
       }

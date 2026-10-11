@@ -99,6 +99,20 @@
         "costUsd": 0.000065
       }
     },
+    "d31f778107e271fcc407eaa91fc7a2f41ccee01a73512c07e45799a0740f119a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5c8b65643253aab9870c58bb4c739f56462c4a32cd3d1e10a5bbce0dc6a016f",
+      "contextFingerprint": "250942f3976859ca20344cbffa9416af11da9a56ca256ac196e5446e0f26f055",
+      "sourceText": "> 1.  机器人是一辆移动式平台时，”面向平台“的开发模式下可能需要人随车走，这显然效率低下，并存在一定的安全隐患；\n>     \n> 2.  ”面向平台“的开发模式，还会受限于环境、地形等诸多因素的约束；\n>     \n> 3.  机器人与开发人员之间可能是一对多的关系，也即多位开发或测试工程师使用同一台设备，”面向平台“的开发模式下不免会出现资源抢占的情况；\n>     ",
+      "translatedText": "> 1.  When the robot is a mobile platform, the \"platform\\-oriented\" development mode may require a person to follow the vehicle, which is obviously inefficient and poses certain safety hazards;\n>     \n> 2.  The \"platform\\-oriented\" development mode is also constrained by many factors such as the environment and terrain;\n>     \n> 3.  There may be a one\\-to\\-many relationship between the robot and developers, that is, multiple development or test engineers use the same device, and under the \"platform\\-oriented\" development mode, resource contention will inevitably occur;\n>     ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 107,
+        "costUsd": 0.000192
+      }
+    },
     "d321b49b75c50309155b97fc8f71d23b15bacda06c70a96a8d689f62d84535b5": {
       "normalizationVersion": 1,
       "sourceHash": "c395bf15a46c9066804492e0f1636fed7e7031d25381cfdab916dcbf3fdb2dcf",
@@ -239,6 +253,20 @@
         "costUsd": 0.000102
       }
     },
+    "d344b0d649b2745dfd35ccb4a4e76e8d85e63333b12b1118be3c7e23fe79f565": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2f9b3bf2547ab5f75575accd67eb767e2a35e346f902b1fa63d716862f29c13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个插件需要配置一系列参数如下图：",
+      "translatedText": "This plugin requires configuring a series of parameters as shown in the figure below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
     "d351b9b127eaaba720bc87afb36f7c5d1941f3f8e697e2367988278e69b92b94": {
       "normalizationVersion": 1,
       "sourceHash": "ac24f59ae384b38936df7fd03a5de4f6d2e6b2d4d26689ed5b0cf67a02cc45c5",
@@ -337,6 +365,20 @@
         "costUsd": 0.000071
       }
     },
+    "d3825bf954ca598513e46732dcd20d5f57964b3cfc35623982c9a9fe924a7127": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f67d999067eaafb0ebc1287ad349fc7332c30654d187b67db0ac18c4bed633d",
+      "contextFingerprint": "adcb8f5d2ed22fd54fedf11d6596e079ed143da04c066f1c56d322023c5b540f",
+      "sourceText": "在进行传感器模拟之前，需要先添加一个名为`gz-sim-sensors-system`的插件，打开urdf文件，在`<robot>`根标签内添加如下代码：\n（建议创建一个`gazebo_sensor.urdf.xacro`专门存放）",
+      "translatedText": "Before performing sensor simulation, you need to first add a plugin named`gz-sim-sensors-system`Open the URDF file and add the following code within the`<robot>`root tag: (It is recommended to create a`gazebo_sensor.urdf.xacro`dedicated storage)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
     "d383e8b028997359b0e36d80dc31a6e9991f9dc20ae8cda6fdb48780c4f4d145": {
       "normalizationVersion": 1,
       "sourceHash": "fa6eaee2678658a0dd944bb50e1c47b55bca2c97de261c24d3e380cfb3ae3eb7",
@@ -377,6 +419,34 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "d3a2ae15c082bf92bef48af179736af8ce0d8456643c767331c19db2394b081c": {
+      "normalizationVersion": 1,
+      "sourceHash": "fea060738287057897bc302137c5177f8b49fcc42f8f3070277e60b524aeab08",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 执行",
+      "translatedText": "##### Execute",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "d3a890263fc6bfc00fdb128d9ed5f8879aef4234ca644dfa9b818a7f21f50c4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c97edac15224f0b590ddd11e0eae5a000c178a8086614ec693b6b04dd0a1ff95",
+      "contextFingerprint": "c2a4a4d1f0bb98753c232e8b8a2814f16c31d1cd92b41f66515910485f19187b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1718.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1718.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d3ab10ccaffeb4f8de29d5f40a8ede6c8e021cdca8d6ddebe5583c1ba39545a0": {
@@ -475,6 +545,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "d3d935578a4c6f1853df4a610cfd0f8d3d901e7db0c0503fc314964043a1614d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f60142eacd53549919b22649f6e1c502aa700f7c9a2fa41707c1273195af7f32",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本地模型路径不要盲目改。例如：",
+      "translatedText": "Do not blindly change the local model path\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "d3d96c3e30804275c2979354f7e6fd4b599a7abe13574ba5ea204766c2420fb3": {

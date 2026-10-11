@@ -43,6 +43,20 @@
         "costUsd": 0
       }
     },
+    "420b5b5b696e8bed8757ae77f7be6e7b3882fd18895c32a48d48ec6f4be607e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d21b6878f2d562e5129b971b712c93e94fe26256946024a19d59f20e3e2d265",
+      "contextFingerprint": "81e1805504d685673a27aabc5e2e6e715dd74b5e343ed917761956eab8ee5030",
+      "sourceText": "| 方案 | 优点 | 缺点 |\n|---|---|---|\n| SocketCAN | Linux 原生、通用、稳定、适合长期学习 | 需要理解 socket 编程和 CAN 帧结构 |\n| can-utils | 调试方便，命令简单 | 主要用于命令行测试，不是完整工程封装 |\n| libsocketcan | 配置 CAN 接口方便 | 不是主要的数据收发方案 |\n| ros2_socketcan | 和 ROS 2 生态结合方便 | 离开 ROS 2 后复用性较差 |\n| ros2_canopen | 适合 CANopen 设备，协议栈完整 | 只适合 CANopen 场景，学习成本较高 |\n| 厂商 SDK | 对特定硬件支持好 | 通用性较差，容易绑定厂商 |",
+      "translatedText": "| Solution | Advantages | Disadvantages |\n|---|---|---|\n| SocketCAN | Native to Linux, general\\-purpose, stable, suitable for long\\-term learning | Requires understanding of socket programming and CAN frame structure |\n| can-utils | Convenient for debugging, simple commands | Mainly used for command\\-line testing, not a complete engineering wrapper |\n| libsocketcan | Convenient for configuring CAN interfaces | Not the primary solution for data transmission and reception |\n| ros2_socketcan | Convenient integration with the ROS 2 ecosystem | Poor reusability when separated from ROS 2 |\n| ros2_canopen | Suitable for CANopen devices, complete protocol stack | Only suitable for CANopen scenarios, relatively high learning cost |\n| Vendor SDK | Good support for specific hardware | Poor generality, prone to vendor lock\\-in |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 295,
+        "outputTokens": 199,
+        "costUsd": 0.000328
+      }
+    },
     "4210d4c08180b4284c7f3ada047942ab14e8b687e2b653532c0af811042bed4a": {
       "normalizationVersion": 1,
       "sourceHash": "68408de5790e0d4f609dd0f047ebd6a59f1464856455f887e3d19181a3d1d14a",
@@ -97,6 +111,20 @@
         "inputTokens": 191,
         "outputTokens": 81,
         "costUsd": 0.000155
+      }
+    },
+    "421d034d77f103f9d99898d457910eabd94f651ce1ca44dc6823cddea80ac2fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "56a0c314484e45689bf7f35b70238a5e654bb56221af549ec2ab36e4911f513c",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 注意事项",
+      "translatedText": "#### Precautions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 10,
+        "costUsd": 0.000051
       }
     },
     "421d437abe027bcb39a0e7e4ef10c28023747fd12a53ec9549ffa44e9874654d": {
@@ -239,6 +267,20 @@
         "costUsd": 0.000057
       }
     },
+    "4254b3ac0575d82e22a6b8be022ddd943fc64d7544ba4a21e1a08dafc1415551": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed0298c432dd8743c15beb297b08257647e2fa7818f4d5a4752634c7a8adba75",
+      "contextFingerprint": "f9a962a98cfa423f3618c8df042c63bd9a1fe8a6467c6e5dd9c432a9328facee",
+      "sourceText": "就需要注意一个点，我们用的是 **毫秒milliseconds** ，不是 **微秒microseconds** 。",
+      "translatedText": "One thing to note is that we use **milliseconds** , not **microseconds** \\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 26,
+        "costUsd": 0.000077
+      }
+    },
     "425cc6c5cbdc52e002331f0137da937309349da162aa5ea7837abab25a2ab279": {
       "normalizationVersion": 1,
       "sourceHash": "56018cec5729e6b74c3cd679f582b0548fe4c708c9505202e21f8a7e0fe76625",
@@ -293,6 +335,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "42740da58349de9d9b3199a95c00c034ce54ec09f10b3bd8778489d5bb6fe4eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c6aadc468e7193c4c5df3c036fae64ffd0ac614b90ac2f464831f8d24cdd252",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "转角位移标定是用来标定机器人在转弯时的角度变化。该标定与底盘的旋转半径参数密切相关，当旋转半径设置不当时，会导致转角位移的测量误差。另外需要注意的是，如果是两轮差速机器人，那么旋转半径和轮间距基本一致。这是因为两轮差速机器人在旋转时没有造成车体的侧滑运动，所以可以使用轮间距来计算旋转角度，并且旋转半径可以近似等于轮间距。然而，对于四轮差速机器人，在旋转时会产生侧滑，轮间距无法直接用于计算旋转角度。四轮差速机器人的旋转半径需要通过实验获取，因为它的旋转半径受到侧滑运动的影响。此外，由于机器人的左右侧轮胎差异或车辆重心偏移等原因，左旋转和右旋转时计算旋转角度所使用的旋转半径可能不同，因此需要进行分别实验来获取左右旋转时的旋转半径。",
+      "translatedText": "Corner displacement calibration is used to calibrate the angular change of a robot when turning\\. This calibration is closely related to the chassis rotation radius parameter; when the rotation radius is set improperly, it will cause measurement errors in corner displacement\\. In addition, it should be noted that if it is a two\\-wheel differential robot, then the rotation radius and the wheel spacing are basically the same\\. This is because a two\\-wheel differential robot does not cause lateral slipping of the vehicle body when rotating, so the wheel spacing can be used to calculate the rotation angle, and the rotation radius can be approximately equal to the wheel spacing\\. However, for a four\\-wheel differential robot, lateral slipping occurs during rotation, and the wheel spacing cannot be directly used to calculate the rotation angle\\. The rotation radius of a four\\-wheel differential robot needs to be obtained through experiments, because its rotation radius is affected by lateral slipping motion\\. In addition, due to reasons such as differences between the left and right tires of the robot or offset in the vehicle's center of gravity, the rotation radius used to calculate the rotation angle during left rotation and right rotation may be different\\. Therefore, separate experiments need to be carried out to obtain the rotation radius during left and right rotation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 310,
+        "outputTokens": 252,
+        "costUsd": 0.000396
       }
     },
     "42781e424e29107c9b6db0dd9b74d82088367928372c22fb904f95d889c23be9": {
@@ -377,6 +433,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "4294b02811fcc154f07f9cf28b7155dc8cdeb33754825e7e3d972eb1a98ef70e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e730910b2b31318ddee44c0bd2e10f0d111bbe8904a4e1ecc9fe0ae0a58f1bd1",
+      "contextFingerprint": "87d19182ee16b0b9b3e2079549651380ea5ed49abf7b7118f8e09a932f907b07",
+      "sourceText": "里程计信息默认的输出话题为`odom`，其消息类型为：`nav_msgs/msg/Odometry`",
+      "translatedText": "The default output topic for odometry information is `odom`, and its message type is:`nav_msgs/msg/Odometry`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "42966df1fc81cfc2339b79843018b4110d40bb52c1b04c0eaca53476d866dc7e": {

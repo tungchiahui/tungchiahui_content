@@ -85,6 +85,20 @@
         "costUsd": 0.000058
       }
     },
+    "dc23a3f208788d8d1c780aab0754bfcd60c9368b6b6974e8eca6e1eda6e8f826": {
+      "normalizationVersion": 1,
+      "sourceHash": "44c73a81d604f8ee01c8f3455f76dd56a2095614fd6b4b7f6c45338643778c0a",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 改了 xacro 但日志仍显示旧内容",
+      "translatedText": "##### Modified the xacro but the log still shows the old content",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "dc275d7eb77ffba25fdfff5861262ddddcfd03be58c7932d60a983ccfd07fd3e": {
       "normalizationVersion": 1,
       "sourceHash": "0033b0016e06d7e0a5ce67a49a531a807628a771d023814a479f2dee2dc94c31",
@@ -97,6 +111,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "dc28a7b1658069a08a9948016bdb3d58a659568c9beca04c124f9e6347e7356b": {
+      "normalizationVersion": 1,
+      "sourceHash": "22efaab402360fd39b4f3d7dd13628523aae71b712b3f79ab6353468396304dc",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**添加Gazebo需要的sdf特有的标签**",
+      "translatedText": "**Add the SDF\\-specific tags required by Gazebo**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "dc360c2bf8c7d4f57a357dc85911e0268ade0d090a7251874fa756cd21ca14c5": {
@@ -265,6 +293,20 @@
         "inputTokens": 147,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "dc610fe627708fe5898e2f9a695851754fe0c4e0f46e4641bb725b531010aa77": {
+      "normalizationVersion": 1,
+      "sourceHash": "8440dc932e0a5a1d24a8989aa554e44a9cdd614d375214b1a4f77163c9801e29",
+      "contextFingerprint": "fc9d7d22e62a436c3572098463bcff1956869bb1baefcbd846fe37cfcf9406f4",
+      "sourceText": "调用指令`ros2 interface show nav_msgs/msg/OccupancyGrid`查看接口格式，显示如下内容（注释已汉化）：",
+      "translatedText": "Invocation instruction`ros2 interface show nav_msgs/msg/OccupancyGrid`View the interface format; the displayed content is as follows (comments have been translated into Chinese):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
       }
     },
     "dc6378df6f97fce4631f44e4fb1d73672e7fe6e4d348f26f236f3c4eddf5be06": {
@@ -447,6 +489,20 @@
         "inputTokens": 135,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "dca0d565bec37c1383c8248fef6ffe00127b7b35835bc746a7c308628b4d4529": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f38dc56c401f86a987476d5fec29d7d2c77bc7858af5ef5cbecc2d7690784f6",
+      "contextFingerprint": "7677f97483227aa404b1262d572469022cc220b5ebc67f4403a230b17bf80c70",
+      "sourceText": "*   FollowPath: 这个部分定义了一个名为FollowPath的插件或配置集，它可能是一个路径跟随行为或算法的配置。它包含了多个子参数和子配置，用于定义如何跟随路径。\n\n    *   BaseObstacle: 定义了基本的障碍物评估参数，用于在路径跟随过程中避免障碍物。\n\n        *   class: 指定了类的名称，这里是BaseObstacle，表示这是一个基本障碍物评估组件。\n\n        *   scale: 定义了该障碍物评估在整体评估中的权重或影响程度。\n\n        *   sum_scores: 指示是否累加多个障碍物的分数，false可能表示使用最大值或其他逻辑。\n\n    *   GoalAlign, GoalDist, PathAlign, PathDist, RotateToGoal, Oscillation: 这些都是路径跟随过程中的不同评估或行为组件，每个都有其特定的参数和用途，如对齐目标、保持与目标或路径的距离、减少振荡等。\n\n    *   acc_lim_theta, acc_lim_x, acc_lim_y: 这些参数定义了机器人在不同方向上的加速度限制。\n\n    *   critics: 指定了哪些评估组件（或“批评家”）将被用于路径跟随决策。\n\n    *   debug_trajectory_details: 指示是否发布轨迹的详细调试信息。\n\n    *   其他与速度、加速度、时间粒度、轨迹生成等相关的参数，共同定义了路径跟随算法的行为和性能。\n\n*   controller_frequency: 指定了控制器（可能是FollowPath或其他控制器）的运行频率，以赫兹为单位。\n\n*   controller_plugins: 指定了将要使用的控制器插件列表，这里只包含了FollowPath。\n\n*   failure_tolerance: 定义了容忍失败的时间或距离，用于在评估控制器是否失败时提供一定的缓冲。\n\n*   general_goal_checker: 定义了一个通用的目标检查器，用于确定机器人是否已达到其目标位置和方向。\n\n*   goal_checker_plugins: 指定了将要使用的目标检查器插件列表。\n\n*   min_theta_velocity_threshold, min_x_velocity_threshold, min_y_velocity_threshold: 这些定义了机器人在不同方向上的最小速度阈值，低于这些阈值可能被视为停止或静止。\n\n*   odom_topic: 指定了里程计信息的ROS主题。\n\n*   progress_checker: 定义了一个进度检查器，用于评估机器人是否在向目标移动。\n\n*   qos_overrides: 定义了ROS服务或主题的QoS（服务质量）覆盖设置，用于调整消息传递的可靠性和性能。\n\n*   speed_limit_topic: 指定了速度限制信息的ROS主题。\n\n*   use_sim_time: 指示是否使用模拟时间，这在ROS仿真环境中非常有用。",
+      "translatedText": "*   FollowPath: This section defines a plugin or configuration set named FollowPath, which may be a configuration for a path\\-following behavior or algorithm\\. It contains multiple sub\\-parameters and sub\\-configurations used to define how to follow a path\\.\n\n    *   BaseObstacle: Defines the basic obstacle evaluation parameters used to avoid obstacles during path following\\.\n\n        *   class: Specifies the name of the class, here BaseObstacle, indicating that this is a basic obstacle evaluation component\\.\n\n        *   scale: Defines the weight or degree of influence of this obstacle evaluation in the overall evaluation\\.\n\n        *   sum_scores: Indicates whether to accumulate the scores of multiple obstacles; false may mean using the maximum value or another logic\\.\n\n    *   GoalAlign, GoalDist, PathAlign, PathDist, RotateToGoal, Oscillation: These are different evaluation or behavior components in the path\\-following process, each with its own specific parameters and purposes, such as aligning with the goal, maintaining distance from the goal or path, and reducing oscillation\\.\n\n    *   acc_lim_theta, acc_lim_x, acc_lim_y: These parameters define the robot's acceleration limits in different directions\\.\n\n    *   critics: Specifies which evaluation components (or \"critics\") will be used for path\\-following decisions\\.\n\n    *   debug_trajectory_details: Indicates whether to publish detailed debug information for the trajectory\\.\n\n    *   Other parameters related to speed, acceleration, time granularity, trajectory generation, etc\\., jointly define the behavior and performance of the path\\-following algorithm\\.\n\n*   controller_frequency: Specifies the operating frequency of the controller (possibly FollowPath or another controller), in hertz\\.\n\n*   controller_plugins: Specifies the list of controller plugins to be used; here it contains only FollowPath\\.\n\n*   failure_tolerance: Defines the time or distance tolerance for failure, used to provide some buffer when evaluating whether the controller has failed\\.\n\n*   general_goal_checker: Defines a general goal checker used to determine whether the robot has reached its target position and orientation\\.\n\n*   goal_checker_plugins: Specifies the list of goal checker plugins to be used\\.\n\n*   min_theta_velocity_threshold, min_x_velocity_threshold, min_y_velocity_threshold: These define the robot's minimum speed thresholds in different directions; falling below these thresholds may be regarded as stopped or stationary\\.\n\n*   odom_topic: Specifies the ROS topic for odometry information\\.\n\n*   progress_checker: Defines a progress checker used to evaluate whether the robot is moving toward the goal\\.\n\n*   qos_overrides: Defines the QoS (Quality of Service) override settings for ROS services or topics, used to adjust the reliability and performance of message passing\\.\n\n*   speed_limit_topic: Specifies the ROS topic for speed limit information\\.\n\n*   use_sim_time: Indicates whether to use simulated time, which is very useful in ROS simulation environments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 764,
+        "outputTokens": 702,
+        "costUsd": 0.001072
       }
     },
     "dca5ae5ee4c806e624ac471130f627e2626fedf84f0d64eea125f8e3058d9a91": {

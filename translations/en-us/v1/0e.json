@@ -29,6 +29,20 @@
         "costUsd": 0.000057
       }
     },
+    "0e09d16248503cdfc42fbde770aa4368f174703968cf6a3e6fd0d5bc9324e355": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c216bfb19ff6cbc8ee17a506885d7a474ca99d2d76bbfcd141f09e85815f476",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "如果是麦轮（ROS1的，ROS2的待更新）（把轮子关节设置为自己轮子关节名即可）：",
+      "translatedText": "If it is a mecanum wheel (for ROS1, ROS2 needs to be updated) (just set the wheel joint to your own wheel joint name):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 47,
+        "costUsd": 0.000106
+      }
+    },
     "0e0a096881477f1f753bcb0a2353794c37e8198f23d03bd832a1221fc112e3eb": {
       "normalizationVersion": 1,
       "sourceHash": "f8350fdb3337c99794a077cf348675568b99b513cbb32de4411feb8eacf74789",
@@ -155,6 +169,20 @@
         "costUsd": 0.000099
       }
     },
+    "0e3623b0cb86a4fa2ac90c10c1c987496bfaae0c2ee3de4b5e0f04e71d07f2ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c503d092ee0dec8a748f23b7f5c443b199c147b2a27967ba202b03b17109a92",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议修改时加成对中文注释，方便以后知道从哪里开始、到哪里结束：",
+      "translatedText": "When suggesting modifications, add comments in Chinese so that it is easier to know later where it starts and where it ends:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
     "0e40529476d599523e30e2d3d4fc4b65039ca71b448c067a77c731870e6f4437": {
       "normalizationVersion": 1,
       "sourceHash": "5e2a5131234539ce6494337610f5c074b989dec4554847c17917c83d73422f5f",
@@ -181,6 +209,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "0e56690abbc9933159e09306cca02cea4930fe6c239358cda874484f908c3f81": {
+      "normalizationVersion": 1,
+      "sourceHash": "3560733fae7abd0650bd8cf9580aad4394378dbd98727112030ad2639f70dd1f",
+      "contextFingerprint": "6710847655fb09f17232c03b60af6b23f6942af6e30be6dd739cb55d052376a1",
+      "sourceText": "这个是老版Gazebo，仅在ROS1和ROS2 Humble上可用。（但是ROS2并不推荐使用老版Gazebo，更加建议使用新版Gazebo）",
+      "translatedText": "This is the old version of Gazebo, available only on ROS1 and ROS2 Humble\\. (However, ROS2 does not recommend using the old version of Gazebo; the new version of Gazebo is recommended instead\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 69,
+        "costUsd": 0.000137
       }
     },
     "0e5eaee2d9be42f932f02fefd5f21b1f76d487de51d70569b68e7776a31fca24": {
@@ -377,6 +419,20 @@
         "inputTokens": 206,
         "outputTokens": 96,
         "costUsd": 0.000177
+      }
+    },
+    "0ea1a85aed2a67cc9a580572ddf602bc0e0b6234872c570f8b5ce2ad5e4aaad7": {
+      "normalizationVersion": 1,
+      "sourceHash": "6eb82ba656be7dee054c50146bfe7fe3140c639638387ddfcb75c1d4905806bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "UDP 的核心特点是快，但不可靠。因此它更适合“持续发送的数据流”，而不是“必须保证每条消息都送达”的场景。",
+      "translatedText": "The core characteristic of UDP is that it is fast but unreliable\\. Therefore, it is more suitable for \"continuously sent data streams\" rather than scenarios where \"every message must be guaranteed to be delivered\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 48,
+        "costUsd": 0.000106
       }
     },
     "0ea5398a58e21b5698d1b198dba7a44bd9705a5c4abbdf4831bc204a4f305f9a": {

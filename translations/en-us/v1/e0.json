@@ -141,6 +141,20 @@
         "costUsd": 0.00007
       }
     },
+    "e0266d5de6f5802f41a3fda8ce90730e5c7c22870a7fa453f59be72249d7f160": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7c10a619ce97c52a1eb555f29449adb6f67480c67b06684f022fb8e93fab091",
+      "contextFingerprint": "f66480da684f6a05728f62113878198e63a5d04d535a178825d90c9b354cd2c2",
+      "sourceText": "https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html",
+      "translatedText": "https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e028ba0f679c0bbd8d543919c53e31a37a0aa69cb2e3afb055fad2394520db00": {
       "normalizationVersion": 1,
       "sourceHash": "f48fb1a3f6e0bb4b1a0b1396990b7e267fbae63a8030770d982eb2cdfe3c19d0",
@@ -209,6 +223,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "e0329baff7191c6af714c89b4c8dcde21f29dfce6fca5fd9c5475efd7c374ac6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cd47f17683f0b2e7142cd25bfbea687bd78e9ef14f75f6c6b077c1612bba043",
+      "contextFingerprint": "30064bc41c95595dd99e11eae559455f44686b4e2ce6423fe3e9774cd6b32e79",
+      "sourceText": "另外用 `timeout` 做过短启动检查：",
+      "translatedText": "Additionally, a short startup check was performed with `timeout`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "e0362b5747b5964105bdf4ecf8641daa25ab4bb09e9b481a96ead5d3323f8767": {
@@ -307,6 +335,34 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "e047dc2519ff21394f753592f2366cbd9d7b76a530aa669a7d0663363811f795": {
+      "normalizationVersion": 1,
+      "sourceHash": "4022131627ccd1e0fe5a887065fba3adc30349a2ca0e91a4bb025258b325d8fa",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**实现方式**",
+      "translatedText": "**Implementation method**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "e05bb329dd02934396fe7addf7ea7f855c8fc2e105e7450b27136e074b83553c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8a951a513a6f7218cf56f54cb98d3d004bbda063db4fba8c16f494b159b27b9",
+      "contextFingerprint": "73ce0f864d7fea465f5fa57beb67f2f1eac0fe78630cd251ae519a17f97ea336",
+      "sourceText": "`/usr/share/ignition/ignition-gazebo6/worlds`",
+      "translatedText": "`/usr/share/ignition/ignition-gazebo6/worlds`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e0618e30bb91e0f4bd0bb2f4e9bb5ed98f869aa8ebed03ba8043d9ac74b2f853": {
@@ -533,6 +589,20 @@
         "costUsd": 0
       }
     },
+    "e0ac7ad8de1b9d9f089724612ad339dd4da56df243718dc905698adf3ea2b921": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6fb9056754cbb656f884ef23f46187ee165b434aa6fadfbb683f961e6830214",
+      "contextFingerprint": "e9c7aed19b77e2eddb45a7a28450ecfdbb1ca35194ddd3c45675b5f71dcdeee9",
+      "sourceText": "Nav2中通过的`nav2_lifecycle_manager`功能包下的`lifecycle_manager`节点管理其他节点的生命周期状态转换。`lifecycle_manager`节点通过ROS 2的生命周期节点（Lifecycle Node）机制，提供了一种标准化的方法来控制Nav2中各个节点的状态转换。这些状态包括未配置（Unconfigured）、非活动（Inactive）、活动（Active）和结束（Finalized）等。通过精细控制这些状态转换，`lifecycle_manager`节点能够确保Nav2系统的各个部分在正确的时机启动、运行和停止，从而提高系统的可靠性和稳定性。",
+      "translatedText": "In Nav2, through the`nav2_lifecycle_manager`under the package`lifecycle_manager`node manages the lifecycle state transitions of other nodes\\.`lifecycle_manager`Through the ROS 2 lifecycle node mechanism, nodes provide a standardized method to control the state transitions of each node in Nav2\\. These states include Unconfigured, Inactive, Active, and Finalized\\. Through fine\\-grained control of these state transitions,`lifecycle_manager`nodes can ensure that all parts of the Nav2 system start, run, and stop at the correct times, thereby improving the reliability and stability of the system\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 242,
+        "outputTokens": 119,
+        "costUsd": 0.000216
+      }
+    },
     "e0b1dd0728849c407e59385d67d2d13fe09b7da14d4f63609b57e062844af1ed": {
       "normalizationVersion": 1,
       "sourceHash": "569dcacdbc7ba50d496ce092393a436d0abcefe07f50ed08a91d306bb7811676",
@@ -561,6 +631,20 @@
         "costUsd": 0.000152
       }
     },
+    "e0b72e2a2e5f0607b4f167f39adef0046c2665420807caaa2e54152e424793f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2e05f695d5545de79ce2d6faaf13c6c6f0c05fd2f0e65d59bb6d9bf2c1cc78b",
+      "contextFingerprint": "d0c667cd59eab1775a56ede091f12605a5eb9e005dc8d17fbc50c8fe6910ca6a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1713.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1713.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e0c00ca2a707b9cb9ce42e79450986cb6b187a46f1c53c6babb203b1f9b2af33": {
       "normalizationVersion": 1,
       "sourceHash": "d13cd0add205a773a95b6352a059ca66f340325205769baaad1d9776d53b7c93",
@@ -587,6 +671,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "e0c3736d0c7204e1c3b39130a6a254d7474aff4fdb7fa8966a774f5dc2037619": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e3d0b0e02e0ebb193c655522f07a319d1a804d159e61803a434a8ab06ead6cb",
+      "contextFingerprint": "f818a09635d86ff7ff50c40645edf4777ca3b4f236a8792b3aec3411d3630873",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1692.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1692.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e0cd3f68842473bfd83403d00e02f23397cb87be57381c22565f44081fa1c8e9": {
@@ -629,6 +727,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "e0d3d743477a98106d2b075b428cd2d75236a1ab6978e3287b3069aa2b30e794": {
+      "normalizationVersion": 1,
+      "sourceHash": "50afbcca17518dcc1a01ec63f8e196e0d37f17c2a37fb9f1d400a4f9a623c7f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样串口就初始化成功了。",
+      "translatedText": "This way, the serial port is successfully initialized\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "e0d96f008eefaea9a78ad15c315706992dcc9cf1367fc436e44c230c6a6f70c8": {

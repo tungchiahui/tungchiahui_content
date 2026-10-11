@@ -323,6 +323,20 @@
         "costUsd": 0.000061
       }
     },
+    "688eef4e3b24ea9fc15c729869409ae26f4329f8274286ad84c0c76a52301fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0354ca55b81e502cf0ade91912fa29e22a8ca86a1eaa7ed6069cd45fd04dd534",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Cartographer是Google推出的一套基于图优化的激光SLAM算法库，支持二维和三维地图的构建。它结合了激光雷达和惯性测量单元（IMU）的数据，通过高效的算法实现实时、准确的定位和建图。",
+      "translatedText": "Cartographer is a graph\\-optimization\\-based laser SLAM algorithm library introduced by Google, supporting the construction of 2D and 3D maps\\. It combines data from lidar and an inertial measurement unit (IMU) to achieve real\\-time, accurate localization and mapping through efficient algorithms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
     "688f542770495bdca9a9a7bd2d1a15b451041741871ef6394b7e4900f761c4be": {
       "normalizationVersion": 1,
       "sourceHash": "d80c4f2fa7a14b229c909dbcd02d89d273e8989fec269d8b24c67add2ff89256",
@@ -335,6 +349,20 @@
         "inputTokens": 193,
         "outputTokens": 88,
         "costUsd": 0.000164
+      }
+    },
+    "6891c750369b8b755e5e76fe70ecee14c9b84242e76e1939123be9c2c684e411": {
+      "normalizationVersion": 1,
+      "sourceHash": "61aaf6abd69a51cd25cc377eab6e7f83a0b5a147f74cad15db669dc064a539a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：如果你的Gazebo不卡，但是Ignition Gazebo巨卡的话，请确认Ignition Gazebo是以独显打开的，而不是核显。",
+      "translatedText": "Note: If your Gazebo is not laggy, but Ignition Gazebo is extremely laggy, please confirm that Ignition Gazebo is opened with a discrete GPU, not an integrated GPU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
       }
     },
     "6893a240189fe55400321ee6468e25fb1d9b627d40901271ce2be3740c0bcfc6": {
@@ -489,6 +517,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "68d687c11233723b86c8536bc1605194501317283067063b9a9671b0e93a1ab0": {
+      "normalizationVersion": 1,
+      "sourceHash": "86f1d174224bb86eb27fbc30dabbdac09c31861b92028aa99503cc7525869c89",
+      "contextFingerprint": "5dee9a52a5a383c38f4c16e08e39d2757e031052e78240b9635722a0bb545a29",
+      "sourceText": "| 配置项 | 含义 |\n|:---|:---|\n| ros | ros相关配置，包含命名空间和话题重映射等 |\n| update_rate | 数据更新速率 |\n| left_joint | 左轮关节名称 |\n| right_joint | 右轮关节名称 |\n| wheel_separation | 左右轮子的间距 |\n| wheel_diameter | 轮子的直径 |\n| max_wheel_torque | 轮子最大的力矩 |\n| max_wheel_acceleration | 轮子最大的加速度 |\n| publish_odom | 是否发布里程计 |\n| publish_odom_tf | 是否发布里程计的tf开关 |\n| publish_wheel_tf | 是否发布轮子的tf数据开关 |\n| odometry_frame | 里程计的framed ID，最终体现在话题和TF上 |\n| robot_base_frame | 机器人的基础frame的ID |",
+      "translatedText": "| Configuration Item | Meaning |\n|:---|:---|\n| ros | ROS\\-related configuration, including namespace and topic remapping, etc\\. |\n| update_rate | Data update rate |\n| left_joint | Left wheel joint name |\n| right_joint | Right wheel joint name |\n| wheel_separation | Distance between left and right wheels |\n| wheel_diameter | Wheel diameter |\n| max_wheel_torque | Maximum wheel torque |\n| max_wheel_acceleration | Maximum wheel acceleration |\n| publish_odom | Whether to publish odometry |\n| publish_odom_tf | Whether to publish the odometry TF switch |\n| publish_wheel_tf | Whether to publish the wheel TF data switch |\n| odometry_frame | The frame ID of the odometry, which is ultimately reflected in the topic and TF |\n| robot_base_frame | The ID of the robot's base frame |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 353,
+        "outputTokens": 243,
+        "costUsd": 0.000398
       }
     },
     "68d93167eeae74010192202c4d637d8e5d114da7ac4b7522d55d6ef674fe09d7": {

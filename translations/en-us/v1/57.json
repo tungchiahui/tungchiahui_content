@@ -15,6 +15,20 @@
         "costUsd": 0.000055
       }
     },
+    "570a4128d5b90cb54d98028d4fcc35d431c27d887756a8a087d4cf9423af8fdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "92b5a0f9b49d1cede4a90a6ba638d1cfcbdd8a250d6f7f2416e0b1f41487ecab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "白色：无障碍物区",
+      "translatedText": "White: obstacle\\-free area",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "570d38d698beef5508cc75e1730a974605e3a49fee0af84a7e2160df7e518d66": {
       "normalizationVersion": 1,
       "sourceHash": "92bc59802f2a2231aa73820cde6a90f5ba76ac5bf7a182753e75eeeec5ea0be4",
@@ -43,6 +57,20 @@
         "costUsd": 0.000056
       }
     },
+    "571a89bf3181c4370c9101f034447dd67f818d21736002ea29c664a4c512f1fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "879b72f0b16256edb3b7160fc7286f604114aeb002954129dceb7885fa879140",
+      "contextFingerprint": "e5bff55fae478a3c9e3343869f5d0b650ce8f11b60dc49d5625c26f858920ab1",
+      "sourceText": "*   **X 轴** ：向前（前进方向）为 **正**\n\n*   **Y 轴** ：向左（左侧方向）为 **正**\n\n*   **Z 轴** ：向上（垂直地面）为 **正**",
+      "translatedText": "*   **X\\-axis** : Forward (direction of travel) is **positive**\n\n*   **Y\\-axis** : Left (leftward direction) is **positive**\n\n*   **Z\\-axis** : Up (perpendicular to the ground) is **positive**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
     "5721f996fd8a2c2fb680cf564e20df12ddb1527e848657370ee4645ca0301a4f": {
       "normalizationVersion": 1,
       "sourceHash": "e9e0145a59d267a690c4f5713c57f4b4d375bea211002f99f62903a96f18246c",
@@ -55,6 +83,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "572391623123af6f8c82c836b285e883cb3e58bd22944a305945f1813994f2f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbb6da6e1f6257742f24057b8924169706cdc61fda4f258510232a1c44ad9388",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "ROS2只有humble有老版Gazebo",
+      "translatedText": "ROS2Only humble has the old version of Gazebo",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "5725b8831ecbf5e4e092d0297da78b13de1f02ecffe99124cae1e040e437fd4a": {
@@ -351,6 +393,20 @@
         "costUsd": 0.000071
       }
     },
+    "579f756ca419d1cd9666a3c14990da8811e782bcb18f6b3efe14b1f7adadb4ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "17e8829fb08644c84091c18ca8ee956dd4f2656581e9579f24a37c81a3830fd9",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**机器人仿真** 是一种利用计算机模型和仿真技术来模拟机器人在虚拟环境中的行为和性能的过程。它通过创建虚拟的机器人和环境模型，模拟机器人的感知、控制和运动能力，以及与环境和其他对象的交互。",
+      "translatedText": "**Robot simulation** is a process that uses computer models and simulation technology to simulate the behavior and performance of robots in a virtual environment\\. By creating virtual robot and environment models, it simulates the robot's perception, control, and motion capabilities, as well as its interactions with the environment and other objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 66,
+        "costUsd": 0.000132
+      }
+    },
     "57a98bd61ae323241d73b91ed6c4ceff12cc102c63d419f88d0afddce3d52e90": {
       "normalizationVersion": 1,
       "sourceHash": "bfb321c886fdd7c4a8872d561090a9842f5da72de5a78672a95126f7be45c67d",
@@ -419,6 +475,34 @@
         "inputTokens": 154,
         "outputTokens": 40,
         "costUsd": 0.000095
+      }
+    },
+    "57b9e58c0a05cb877184b04c7b8b7f1e57c452ec2ef19259d11ffc173d762d18": {
+      "normalizationVersion": 1,
+      "sourceHash": "dea12eaeb86ead87261885c735ee06c1919a39597622d965e444ffab7d0e447a",
+      "contextFingerprint": "a65c98e7ba44b77116f9d0864e164892ce4bc7428dff9751a7b577b49cfb5b70",
+      "sourceText": "使用之前的命令启动Gazebo并加载gazebo_ros插件，我们使用下面的指令来看插件的节点，以及改节点为我们提供的服务有哪些？",
+      "translatedText": "Use the previous command to start Gazebo and load the gazebo_ros plugin\\. We use the following command to view the plugin's node and what services this node provides for us?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
+    "57bbac72ad0e51bce9309a94584b0e0c551ecce0fb3e1fad48f8d9706f9bdea2": {
+      "normalizationVersion": 1,
+      "sourceHash": "15ff664c341f67b01e1c35cbed9152fb944390299e3a83b265d677b7cdde45cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相关知识点如下：",
+      "translatedText": "The relevant knowledge points are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "57c1b8a9d62e2f083d8d64e342f1d87effee059b1e1eeed948f6afe4d40843c0": {

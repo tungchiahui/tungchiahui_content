@@ -281,6 +281,20 @@
         "costUsd": 0.000073
       }
     },
+    "3f5b8a7c14dd009c1daf3c3ee9cd4a3c4e8aa887ddf2f5d3a4abdecf5b311896": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad696c45a8921c403fbd8aee2dcd9ead01f2bf623241ecdcdef6fae97ce6e77c",
+      "contextFingerprint": "0a7fe53f9bb77ee23acefdbd6596cc558e4f5af7cb4d6be636ec67d125b3b48a",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /map | nav_msgs/msg/OccupancyGrid | SLAM节点发布的地图数据 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /map | nav_msgs/msg/OccupancyGrid | Map data published by the SLAM node |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
     "3f5fe39b6f5abf7bc5752c2264633107cc91c81f31252da3d541dcb8d189aa01": {
       "normalizationVersion": 1,
       "sourceHash": "96027c087109caf23b6487dbc158db0a3f20c04f5c12e1c459e4e5916e3e4bb7",
@@ -505,6 +519,20 @@
         "costUsd": 0.000066
       }
     },
+    "3f9e802f18e0180f11fb626b1213edf6ab12afd045fa2eaed78c85186cb65cb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbd58bc7cf35844bc6c41151859fc7cc51340c8143ea6de0e01ac87fe14514d0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启动rviz2",
+      "translatedText": "Start rviz2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "3fa5ed52984e2fed3b17c7baf7f8c20a16d5a1bf9daa7236c550265777307f4a": {
       "normalizationVersion": 1,
       "sourceHash": "a5bb0cbdf8a2c6458a142e3d4a1f011d953751f0c39277c0bc816876b1a4273c",
@@ -517,6 +545,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "3fac7b78e0137dd4b7f2b2921fb11eeb2a9bd01a6699f0a9d3e6e1631d284619": {
+      "normalizationVersion": 1,
+      "sourceHash": "1dfcad2b8843a0a69d7e3ec76c14547f95b86432572605c2a2565a7bf4f351ef",
+      "contextFingerprint": "af6e80ec761aece47a6e2fa1f41d7c3315e2a0600a14d07d5c90e37a5eab6fe3",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1624.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1624.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3fad286556a784ddec4038790f70e93838552b36d30ed56be28eafd90add8b50": {
@@ -587,6 +629,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3fc18b54ca5e83bbafd4c8d4b0dc9fdf72a7c1abb75e16ad14405b5c15464513": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f0f0144b00909ff443228f6f1a0d49d4563b6df8d9e97e745784b0b3271c7dd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们可以让下位机传给上位机的数据有里程计ODOM数据，惯性计IMU数据，全球定位GNSS数据等等，当然也可以让这些设备直接与工控机通信，让工控机处理好机器人的定位信息再一起传给下位机。",
+      "translatedText": "The data that the lower\\-level controller can transmit to the upper\\-level controller include odometry ODOM data, inertial measurement unit IMU data, global navigation satellite system GNSS data, and so on\\. Of course, these devices can also communicate directly with the industrial control computer, allowing the industrial control computer to process the robot's positioning information and then transmit it together to the lower\\-level controller\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 84,
+        "costUsd": 0.000157
       }
     },
     "3fc67e763a57e8672963b148ee1939047e10bab00416a253a7bb664936f6f0b6": {
@@ -727,6 +783,20 @@
         "inputTokens": 150,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "3fff8fa61999433e957fae804fe5d1e209282bcbcfb4f947c255782725bc9ee2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9461d980b2335d64eb25871b3fac0ca0f11ba15377578925383964a4471eca01",
+      "contextFingerprint": "95d1aac5fc6a8fe83e5d73159e520a946636c8e43f04ffe51611ac13b025574e",
+      "sourceText": "串口初始化函数`init_port()`有俩参数，",
+      "translatedText": "Serial port initialization function`init_port()`It has two parameters,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c0026e78370c93f01491f74cb8bacb523ce30c33e6e72526877efeb13aa9adcd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c3a2bbf98b42e661aa2ad6fc477229cf5753f83de42295742967343292bef23",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "查看话题的频率：",
+      "translatedText": "Frequency of viewing topics:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "c008321421b17488ffcf7b78b52704a7826e2588c7828a5d2e67d73fc9b9884f": {
       "normalizationVersion": 1,
       "sourceHash": "dfd2b7e5046c222496a1f38d37974e3d41e23edda3f87906c30712f83ce2b495",
@@ -113,6 +127,20 @@
         "costUsd": 0.000055
       }
     },
+    "c023ae34c0a8275558fd608f02207facee63ce37a2b55b3db7a2d6a3f9b54a67": {
+      "normalizationVersion": 1,
+      "sourceHash": "bae74a0e75b66632819c1908b01830d0d5dfa165db08622f2194ec2374fb1332",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接着我们可以来请求服务来加载模型，先带你看一下服务的接口类型。",
+      "translatedText": "Next, we can request the service to load the model\\. Let's first show you the service's interface types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "c023d34bc2b6c1cd76defa61e895059ddc5f833627632520a5a18d291b0ea22a": {
       "normalizationVersion": 1,
       "sourceHash": "1399c88209488cb230c019cf15f057a663d04ce55086f91dbf2daae423feea49",
@@ -181,6 +209,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "c03aeeeb7a73a63397f57e522f3df8563a668c4a67f4d40982c7a9e3c635cb12": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6c244ae6194b9e6a9394f14a65233725ce25a3d2630fb6977cc36a77981b279",
+      "contextFingerprint": "c8b13bef7478edf95ea9bb0e8cf471d773d72e25f6843f4c94b4c10581f0c763",
+      "sourceText": "*   **save_map_timeout**  保存地图操作的最大等待时间。\n\n*   **free_thresh_default**  栅格单元被认为未被占用的概率阈值。\n\n*   **occupied_thresh_default**  栅格单元被认为占用的概率阈值。\n\n*   **map_subscribe_transient_local**  节点重启后消息不保留，默认为 true。",
+      "translatedText": "*   **save_map_timeout**  The maximum waiting time for a map save operation\\.\n\n*   **free_thresh_default**  The probability threshold at which a grid cell is considered unoccupied\\.\n\n*   **occupied_thresh_default**  The probability threshold at which a grid cell is considered occupied\\.\n\n*   **map_subscribe_transient_local**  Messages are not retained after node restart; the default is true\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 217,
+        "outputTokens": 105,
+        "costUsd": 0.000192
       }
     },
     "c03e0daedd9489496b534fc16e54733d5d20e77bdebc0d34bd9a77a02fee96a5": {
@@ -265,6 +307,20 @@
         "inputTokens": 146,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "c04fa4a56b8f399e5f40bb93df51c4fc7de418d6ecfcdcd1ea015db7163efdd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b79ace177314a14d68c7fcaf3644c3f8af383d96a1ceb38bbccdc07f58753e53",
+      "contextFingerprint": "18ddee2d01ee29f8e117a97109b4ceadffc6975480f06d7bc577ccfccc0fc9a1",
+      "sourceText": "*   **算法集成** 包含基于卡尔曼滤波器和粒子滤波器的SLAM算法，以及基于图优化的SLAM算法等。\n\n*   **数据处理** 提供数据融合、数据预处理和异常检测等功能，支持激光雷达、摄像头、IMU等多种传感器数据的处理。\n\n*   **地图构建** 利用传感器数据和机器人运动信息构建准确的地图，并进行更新和优化。\n\n*   **模块化设计** 支持用户插入自己的算法或替换现有模块，实现高度定制化的SLAM解决方案。",
+      "translatedText": "*   **Algorithm Integration** Includes SLAM algorithms based on Kalman filters and particle filters, as well as graph optimization\\-based SLAM algorithms, etc\\.\n\n*   **Data Processing** Provides functions such as data fusion, data preprocessing, and anomaly detection, supporting the processing of data from multiple sensors such as LiDAR, cameras, and IMUs\\.\n\n*   **Map Construction** Utilizes sensor data and robot motion information to construct accurate maps and performs updates and optimization\\.\n\n*   **Modular Design** Supports users in inserting their own algorithms or replacing existing modules to achieve a highly customized SLAM solution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 228,
+        "outputTokens": 118,
+        "costUsd": 0.00021
       }
     },
     "c05024ec01577d474b9c7d8c6628f4567b3e3df129a382302808b674277a7d8d": {
@@ -421,6 +477,20 @@
         "costUsd": 0.000051
       }
     },
+    "c0792a2fec638d7bbe2e8070963db1a6fe444b02029d3c9c37c0f6cbc02f4bbb": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c48e633d86c8ff299076f1e0b6c94db720e8953316bda586e94b102448bf6fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些功能最终都离不开通信。",
+      "translatedText": "Ultimately, these functions all depend on communication\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "c0813acbf3011a04089996364ffe064a95f07bc4f3ac5338721b0f5b7d0fb1ba": {
       "normalizationVersion": 1,
       "sourceHash": "12d7c813d1ca0d3f5cb9138e79126f51d7deb0526ccfb86446d9b7617d807570",
@@ -497,6 +567,20 @@
       "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
       "sourceText": "##### 使用",
       "translatedText": "##### Use",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "c0a279919458b6d57083a2f9e52e57dfe86c3667cf69d9357549fd97d5a6c178": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8e0ef354f757ac24a471041bc3bf2c1b0e68b841cb2becf4fa9385da854ab59",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  准备工作",
+      "translatedText": "1.  Preparation",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

@@ -57,6 +57,20 @@
         "costUsd": 0.00006
       }
     },
+    "7417a6e05717614fa398cef82477da77d63f0fedf7039dda0f4749721df1e7ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "f40849872c3d39af01284816e2a2c2db728dc2d0f3b7686218c1c201c191c157",
+      "contextFingerprint": "8392dda3190fa9f6aa2762cc5650c3a09a49958cea0e4b2f204d3b22576737e3",
+      "sourceText": "该节点需要两个参数，一个机器人的模型名字和urdf的文件地址，这个简单，前面我们曾经使用package_share来拼接过urdf路径。",
+      "translatedText": "This node requires two parameters: the robot's model name and the file path to the URDF\\. This is simple; earlier we used package_share to concatenate the URDF path\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 51,
+        "costUsd": 0.000113
+      }
+    },
     "74188a8db880ad85978899cf0b3c6cd6820bae27993545f532edeb3b3e2b19cf": {
       "normalizationVersion": 1,
       "sourceHash": "8853b1dd1315602b522324f71881155a298392dcfdfbfe6ebf7ad3abc147ca8c",
@@ -295,6 +309,20 @@
         "costUsd": 0.000145
       }
     },
+    "745138342e981c48ab85aeb23448d1b55be1de90e3d3fc59f37208c392a6944a": {
+      "normalizationVersion": 1,
+      "sourceHash": "77bb4045d2c27c520648f6d6e6fec17cc93485c2587f498f9fe271c101f6ee45",
+      "contextFingerprint": "ec0bb617eec13f51000231175d94d8e7a1b8c3f55362eb9e6b7f0710d1a41798",
+      "sourceText": "在多机器人运行时，不同的机器人发布的话题会以各自对应的`name`值为命名空间，且不同机器人发布的坐标变换也会以`name`值为前缀。",
+      "translatedText": "When multiple robots are running, topics published by different robots will use their corresponding `name` values as namespaces, and coordinate transforms published by different robots will also use the `name` value as a prefix\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
     "7453e77e2bf59ee0ac600ec5495273fc35c6504dcf2915beb98a0c51088421f2": {
       "normalizationVersion": 1,
       "sourceHash": "b68a38de403f1316c75b9f23e26f50d856efa373a843b91c3a340867a194cbb3",
@@ -307,6 +335,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "74597f1f80665da68c6d858b37decc6f58b1ef4bb030d2554da6354cf9b9deb7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e59e9ab92aa32c12aa6068c3559fe95c4c3abf6e2ccfbb968ba64eb1967126be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "TCP 的特点是可靠、按顺序传输、不容易丢数据，适合对数据完整性要求较高的场景。",
+      "translatedText": "TCP is characterized by reliable, in\\-order transmission and is not prone to data loss, making it suitable for scenarios with high data integrity requirements\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
       }
     },
     "745a572c5eb80264ee77ebda32e51d8aa817eaeeea62911e7d9b43f1e3d5504f": {
@@ -601,6 +643,20 @@
         "inputTokens": 161,
         "outputTokens": 51,
         "costUsd": 0.00011
+      }
+    },
+    "74cb3a0f31af1887c36e73b223de5c97d0a266d16cd736e3840a02f2d9dce0b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "04237bb01feaf486aa9f49fcf4264576e0a35d095dbfc40c14367b770d8e549e",
+      "contextFingerprint": "10df9d18207248a5ea79c3f21dd19ffdf42c4a87b14a178fdda093c1a3ccdf5e",
+      "sourceText": "立足角度不同，对机器人组成的认识也会有所不同。宏观上讲，机器人由硬件以及软件两大部分组成。进一步细化，机器人又可以分为三大部分： **控制系统** 、 **传感系统** 与 **硬件平台** 。",
+      "translatedText": "Depending on the perspective, the understanding of robot composition may vary\\. From a macro perspective, a robot consists of two major parts: hardware and software\\. Further refined, a robot can be divided into three major parts: **control system** , **sensing system** , and **hardware platform** \\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 68,
+        "costUsd": 0.000135
       }
     },
     "74d2f552a24613bfa2f57716a220d263645891adf29b5f70a0bfa23ded1c74cf": {

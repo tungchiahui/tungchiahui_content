@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "cc07a86941c6ad5ac3e5b07295da6242989238254e9e12bcd5eedf30da0580d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0bd1009c60a6834500f54d1ea52acc11014b4b59b8f258b0157a28eaaa36edbd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 讲硬件之前要先讲Linux硬件绑定等相关知识",
+      "translatedText": "### Before discussing hardware, we must first cover knowledge related to Linux hardware binding and similar topics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
     "cc08687ffe7a70a9bc763a76aa87a792f9b643a8b7b1e99e134b79e1911a644e": {
       "normalizationVersion": 1,
       "sourceHash": "2c80b061d60fb2a202e640062f7ea078a1f9e5c6681fd7335215d36ba3143242",
@@ -27,6 +41,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "cc0a7b233378ac61238d939aee375f087cb28d7bd67e63b9a8202eb07f885d50": {
+      "normalizationVersion": 1,
+      "sourceHash": "51ee4d440d7ddbfad76784c6a8a78303d9f2905d52ee13ad4591703198ac611c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "旧写法：",
+      "translatedText": "Old notation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "cc0a89594f22789e79ae27782f677008075ff6dc2ed852a2cc194e34ba02b0b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff0edc503d25de0b661541ed69752c8ebf55979549a9ba2fe127b441b2e9786d",
+      "contextFingerprint": "d6d154a909a6c6113b671128dd89134770b94a9c01e03a01acea607a77a9eb9e",
+      "sourceText": "这个消息类型广泛用于控制机器人运动，也就是我们常说的DOF自由度，通过发布到 `/cmd_vel` 话题，可以为机器人提供运动指令。",
+      "translatedText": "This message type is widely used to control robot motion, which is what we commonly call DOF (degrees of freedom)\\. By publishing to the `/cmd_vel` topic, motion commands can be provided to the robot\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 46,
+        "costUsd": 0.000103
       }
     },
     "cc11dcc1046a0c244892ef825e98c6b486585fec95336bb80057677ef57b0ffa": {
@@ -335,6 +377,20 @@
         "inputTokens": 157,
         "outputTokens": 45,
         "costUsd": 0.000102
+      }
+    },
+    "cc90fc53bbdd57894416aa1b286133bd4c897f79cbc826c55c38ee42ebfb995e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5843d1cef4b05ace96af960d5dad2a34b4a2b02ba01ece8e218e07a57279ea6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议可以使用官方的节点。记得跑之前，先将步长降低。",
+      "translatedText": "It is recommended to use the official nodes\\. Remember to lower the step size before running\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "cc9acd176dca47cac16fa06c17fb3e14c5e4795e66ebf93591539b63c254ed36": {

@@ -29,6 +29,34 @@
         "costUsd": 0
       }
     },
+    "b50fbcfafe23815ad7c13b8986486b09529e946759f48fabef618418c23a9e8a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f573104a80c8a4b30903e652219cea72f5b2977b845895e8a78c712cbd1a444f",
+      "contextFingerprint": "7751d248d0c9dd204262de5820b527f9036ddc8e5e94d4c82bb0dac390b43229",
+      "sourceText": "到了 ROS2 Jazzy，官方搭配的是 Gazebo Harmonic。此时命名体系基本切换为 Gazebo / Gz Sim，例如命令变成 `gz sim`，ROS 包名改成 `ros_gz_*`，插件文件名改成 `gz-sim-xxx-system`。",
+      "translatedText": "At ROS2 Jazzy, the official pairing is Gazebo Harmonic\\. At this point, the naming system has basically switched to Gazebo / Gz Sim, for example the command becomes `gz sim` and ROS package names are changed to `ros_gz_*` and plugin file names are changed to `gz-sim-xxx-system`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 70,
+        "costUsd": 0.000139
+      }
+    },
+    "b5144d55e1e988929f86743dbe15aa1e2723d887906efc605deb4a256b056fa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c771c6486e7427db7b7aadaea16e5c53d4147376eedc4283921a1d6a71d3448",
+      "contextFingerprint": "6cee79a43462bd28fe17773261e7703dd4aa67592987ac6ade40413b54371f5f",
+      "sourceText": "*   **ROS2 依赖版本** ：用于 ROS2 环境中，依赖于 ROS2 的通信机制（如 `rclcpp`）。\n\n*   **独立库版本** ：不依赖 ROS2，可以直接在普通的 C++ 项目中使用。(未经测试)",
+      "translatedText": "*   **ROS2 Dependency version**: Used in the ROS2 environment, relies on the communication mechanism of ROS2 (such as `rclcpp`)\\.\n\n*   **Standalone library version**: Does not depend on ROS2 and can be used directly in ordinary C++ projects\\. (Untested)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 101,
+        "costUsd": 0.000186
+      }
+    },
     "b51c4cf705b4c7c4cfd16cb18a00a1c0a2564fafad6caafef4c00b86d84bc4b4": {
       "normalizationVersion": 1,
       "sourceHash": "a43e0e5226b882cdd8776b196a83e05414e3e21ea7ea5c0b65653746477b0a8f",
@@ -295,6 +323,20 @@
         "costUsd": 0.000085
       }
     },
+    "b5650c4f971443d73f22cefb070d2e35f3f7a989d396f0f3a850906fac93ebdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b136c3b8e3ec5d6b218648ca6500182561159745e9e053a70c5440ff5ec5bab",
+      "contextFingerprint": "c5804683fa66b645493eadc81efe8c241412679408c3c428babfc15bd5fde7ce",
+      "sourceText": "此时再次打开终端，输入`gazebo`，把选项卡切换到Insert",
+      "translatedText": "At this point, open the terminal again and enter`gazebo`，switch the tab to Insert",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "b565de7eba50625cb83d8f3d2fe699b0405f6a5b603541d9b29ec2c3631bcfc8": {
       "normalizationVersion": 1,
       "sourceHash": "2cd6f47ab2ec941e641d858e88ceddb0699ff98c7ac8bb04e8299ebaac786a18",
@@ -307,6 +349,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b56eb09578157646f6739acd21b554935b5096aa4aa5bbbe94728311a19091d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "43976bfe4c2de35da83023d69bb57b2f3913c1c009494b671b7428424186b2a8",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## ROS Joy节点",
+      "translatedText": "## ROS Joy node",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "b574e6860c8b7994e6dfa2cbb1a38833157eeb476367f990872929471bda32a5": {
@@ -505,6 +561,20 @@
         "costUsd": 0.000055
       }
     },
+    "b5d3b1bcd94787d291addd20fd9e5f39122d9848836577a535c7331907fd4373": {
+      "normalizationVersion": 1,
+      "sourceHash": "13ecb5906d9136af5d4fe8355e9b2728d9fe3108aa8d0d70aa1ffb7179b84ce4",
+      "contextFingerprint": "db84f1fb7f333b5830900eea00fc240697d7ecc77fd641a88e7155bd100d531f",
+      "sourceText": "在用户目录下新建ign_models目录，将下载的资源解压缩到该目录以作备用。",
+      "translatedText": "Create a new ign_models directory under the user directory, and extract the downloaded resources into this directory for later use\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "b5d82a6bde829f2c99cfb9006398d3eee7e6274fbc2198d32db0a190b524c0c9": {
       "normalizationVersion": 1,
       "sourceHash": "4c7a53d9ca32ee4e43d165928d7cdfae0f076ddd8d535db5554a4fb3c6dfe1d1",
@@ -587,6 +657,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "b5f2ed6bbde6198b5864efba82ef15f3f98b914b27a3ded7e5d0b0521e572643": {
+      "normalizationVersion": 1,
+      "sourceHash": "bba6d147f8358cbf13424fcb34dd4349d0344a7e6d0db879ae15ed99d7f0e660",
+      "contextFingerprint": "22a7ca7e5a28ae179fbc18a93815c444c4bbdab2a40473942d0639b28068a4ad",
+      "sourceText": "在slam_toolbox中常用的节点有两个：sync_slam_toolbox_node和async_slam_toolbox_node。",
+      "translatedText": "There are two commonly used nodes in slam_toolbox: sync_slam_toolbox_node and async_slam_toolbox_node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 46,
+        "costUsd": 0.000106
+      }
+    },
+    "b5f621440d444f0dbf226e41c3fcb3d828374adf7003fa896bd32ddba9bd5b38": {
+      "normalizationVersion": 1,
+      "sourceHash": "9713e338cd0fa1d0b9c2fb9de19ca3244dab32e211d5c713cc1d5c9424c58d11",
+      "contextFingerprint": "770970058b13eb059e6daaa94cc74677f56aa2e04b1a1e30754b0d143502cbdb",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1764.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1764.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b5f7566323f488dcb5e29ddcb44c2c81f694036e208e61ab4b01350ca6166284": {

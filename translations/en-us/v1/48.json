@@ -267,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "484ce6c9d595bfe4e28153bd523841ce6925893474aa7c278b2f2c637abd9d32": {
+      "normalizationVersion": 1,
+      "sourceHash": "f44327250a0715071b2eb8aef82fb5e0032aad91c8e84d710357e716ad83349e",
+      "contextFingerprint": "5aa916adeb2e3466443ba8f7bcd3cf49681ecb5a257032f3684e7bad5f8859ee",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1746.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1746.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "485785cc6615ec58e6091dd5ffbbcc82532f0a4d2d2e9ad1ad3be076fcc7d759": {
       "normalizationVersion": 1,
       "sourceHash": "9eab0bf5eb9e5b6b76ba88f9c1ed96f39e594c631ab91564100540373badd1b9",
@@ -309,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "48649357430b412ade6069c30f26f7e1efff5f056739984bee4950a323f0af28": {
+      "normalizationVersion": 1,
+      "sourceHash": "342d482ff3e59e8685766bb5f232468a0655a4892f5eb189ca658c3f01188fa4",
+      "contextFingerprint": "2dbca37e48d2fca7b6314baefb3f8a4c14583d861d7ae7c38161e2384f4bb6fe",
+      "sourceText": "进入 `serial_driver` 目录并编译：",
+      "translatedText": "Enter the `serial_driver` directory and compile:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "4898881832faa14f10e5f56d468358dbdb819982e630531046168e1e0f170dd7": {
       "normalizationVersion": 1,
       "sourceHash": "0ba07e622575d2bcd34da84f68c3e23efc89daec2ca6937279fae9cca819962c",
@@ -321,6 +349,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "48a70255b0766841ba0d8fdf18e58586d730373cfbf82c0efe65685c58d9785b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c3aff1a772341ad6a9278c09def72f2de867c4d1ea0bda925147c6ea80d7c5e",
+      "contextFingerprint": "a3216f5e1b8ef00aa81f64acc8cb0670a7f28c060dfb58b83f34d6930d352b5c",
+      "sourceText": "*   `alpha1`**到**`alpha5`: 这些参数用于控制粒子滤波器中的权重更新过程，但它们的具体作用可能因amcl的实现而异。在标准的amcl实现中，这些参数可能不是直接使用的。\n\n*   `max_particles`和`min_particles`: 分别设置粒子滤波器的最大和最小粒子数。\n\n*   `resample_interval`: 设置在重采样前需要的滤波更新次数。\n\n*   `pf_err`和`pf_z`: 这些参数用于控制粒子滤波器的性能，但它们的具体作用可能依赖于amcl的实现细节。",
+      "translatedText": "*   `alpha1`**to**`alpha5`: These parameters are used to control the weight update process in the particle filter, but their specific roles may vary depending on the AMCL implementation\\. In standard AMCL implementations, these parameters may not be used directly\\.\n\n*   `max_particles`and`min_particles`: Set the maximum and minimum number of particles for the particle filter, respectively\\.\n\n*   `resample_interval`: Set the number of filter updates required before resampling\\.\n\n*   `pf_err`and`pf_z`: These parameters are used to control the performance of the particle filter, but their specific roles may depend on implementation details of AMCL\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 220,
+        "outputTokens": 112,
+        "costUsd": 0.000201
       }
     },
     "48b78559597300944acb9bf90a419c7f5c3237402b556d404dc1fce968ec4a86": {

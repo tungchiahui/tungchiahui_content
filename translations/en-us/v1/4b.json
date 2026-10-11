@@ -29,6 +29,20 @@
         "costUsd": 0.000059
       }
     },
+    "4b0889972f00063f41edfad5a8c5a4fe314a4f24b4a9f81891a51c38a0b071ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "e170dd0325db8f4168a0b0b32dda5cb5a43e5e058670dd2bcc69652fc25e9608",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "串口通信通常指 UART 通信。在 Linux 上，常见的 USB 转串口设备会被识别为类似下面的设备文件：",
+      "translatedText": "Serial communication usually refers to UART communication\\. On Linux, common USB\\-to\\-serial devices are recognized as device files similar to the following:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
     "4b0e52e8cf43a5c5afa851bf55b145afab0f2480edb244443df0f1fba8059924": {
       "normalizationVersion": 1,
       "sourceHash": "27a62376fd635abf7fc60b3432283c57747f305ab7d0d05c756fb96f3c9543cb",
@@ -41,6 +55,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4b11381cd4c7c2ed4a6f99042cae62ccf04dee1179056334894b579c5af5f8c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "60cdbdc678c266c16bfa7cbb170e59610b4ee3f3a38cf30c0470abac97372cda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "停止旧进程后重新构建、source、启动：",
+      "translatedText": "After stopping the old process, rebuild, source, and start:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "4b14d6ad4e0e6c44f235fb386045fc0404c206a352ef8782dbdbefc370e48d3d": {
@@ -71,6 +99,20 @@
         "costUsd": 0.000154
       }
     },
+    "4b198545fe88e7dded0ca94556c27ad37c9f98f2ade0a1965655b5c269e8e10b": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b4a37cd2d657d2ddb3033dfec1652b94046b947cd063b0d83d484f0bfe66cc6",
+      "contextFingerprint": "ab41b9b13d78dd1fd05688e4b2213bd9551d1ccf9376f349ddfe033820f83615",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1733.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1733.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4b1b8e237f6a28eff974909099cf23d98168ebfb5ecf6ede9a096a4fcda6f7f1": {
       "normalizationVersion": 1,
       "sourceHash": "b161ac0b2f09892e6d0006800be3bd12f56f8a8ede5be989c263d02c2fa5680e",
@@ -83,6 +125,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4b1c314f61bc881c2207a7b38ecd415a840738260883f6d0c4f4059b56ba9ab0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b65d319c28e5503d36b87227a2362de629408c04f62ff595100ef4660c9404c5",
+      "contextFingerprint": "8afe98fe8dd5652696b088d6228130f9a5e522a7754295eca45db7f2ffa637be",
+      "sourceText": "**事件驱动** Boost.Asio 使用操作系统提供的底层 I/O 复用机制（如 Linux 的 `epoll`、Windows 的 I/O Completion Ports）来监控文件描述符（如串口、套接字等）是否有可用的数据。当数据到达时，触发相应的事件。",
+      "translatedText": "**Event\\-driven** Boost.Asio Use the low\\-level I/O multiplexing mechanisms provided by the operating system (such as Linux's `epoll` and Windows' I/O Completion Ports) to monitor whether file descriptors (such as serial ports, sockets, etc\\.) have available data\\. When data arrives, the corresponding event is triggered\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 213,
+        "outputTokens": 93,
+        "costUsd": 0.000176
       }
     },
     "4b2637169cf7496f2536cc92ecc057fcc47ce7c98b03ae55f1572ed3a17793cc": {
@@ -365,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "4bb82629cdd8e6c03dd6d0a9f087f8f61324376e4235d967f6b22e80bd3259a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ebbbe406ed19cc42a988a0641ef830cf1aae44f44ce1ec75bf9d835350eb1a9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后点右上角的call，可以显示下图成功了。",
+      "translatedText": "Then click Call in the upper\\-right corner; if successful, the screen below will be displayed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 25,
+        "costUsd": 0.000072
+      }
+    },
     "4bcdfc3cfff10da2521269cdc5cd5475a5f837a6e21f7865f39c5c4c6552e300": {
       "normalizationVersion": 1,
       "sourceHash": "0a7562e5850b381700c9e8c2cbd2afbb24ed5b7be9303203f342fa16b3fd14cd",
@@ -545,6 +615,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4bfc2120579d3fd737562df4fc63aed7753da2f0dc0f826e1e6163f10b440422": {
+      "normalizationVersion": 1,
+      "sourceHash": "13e69b5bc5842f460da30587889fe8096d5c2b140d615748fb85706bd62ea0ce",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Linux 下常见 CAN 工具和库",
+      "translatedText": "### Common CAN tools and libraries on Linux",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
       }
     },
     "4bffdd9c3a7afe38622be4fbac71adec3efcdde48d4b6066b867d2cfe68d470a": {

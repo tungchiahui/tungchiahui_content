@@ -71,6 +71,20 @@
         "costUsd": 0.000063
       }
     },
+    "762ae712285a4f4a86a6a8759a7629cbef318db9066818fa13017fc20de2493c": {
+      "normalizationVersion": 1,
+      "sourceHash": "27e3f7af413255be5e1096a5fce8056bbaa01c438884444a62276a3abebae680",
+      "contextFingerprint": "2619e287fd244f1accada2050944bbc9a45ea8db80d84689436c8c80950de6d3",
+      "sourceText": "*   `/bond_disable_heartbeat_timeout`: 该参数与节点之间的通信绑定（bonding）有关。节点之间的通信可以通过绑定来增强可靠性，而心跳超时是检测节点是否仍然活跃的一种方式。设置为`false`意味着启用心跳超时检测。\n\n*   `attempt_respawn_reconnection`: 取值为bool值，设置为`true`时，表示如果管理的节点意外终止，生命周期管理器将尝试重新启动它。\n\n*   `autostart`: 取值为bool值，设置为`true`时，表示在生命周期管理器启动时，它将自动尝试启动其管理的节点。\n\n*   `bond_respawn_max_duration`: 重新连接或重新启动节点时的最大持续时间。\n\n*   `bond_timeout`: 与节点之间的通信绑定超时有关。如果在这个时间内没有收到来自另一个节点的消息，则认为该节点已经断开连接。\n\n*   `diagnostic_updater`:\n\n    *   `period`: 诊断更新器的更新周期。诊断更新器用于收集和发布有关节点状态的诊断信息，定义了这些信息更新的频率。\n\n*   `node_names`: 由该生命周期管理器管理的节点名称列表。\n\n*   `use_sim_time`:是否使用仿真实践。",
+      "translatedText": "*   `/bond_disable_heartbeat_timeout`: This parameter relates to communication bonding between nodes\\. Communication between nodes can be enhanced for reliability through bonding, and heartbeat timeout is a way to detect whether a node is still active\\. When set to `false`it means heartbeat timeout detection is enabled\\.\n\n*   `attempt_respawn_reconnection`: The value is of bool type\\. When set to `true`, it indicates that if a managed node terminates unexpectedly, the lifecycle manager will attempt to restart it\\.\n\n*   `autostart`: The value is of bool type\\. When set to `true`, it indicates that when the lifecycle manager starts, it will automatically attempt to start the nodes it manages\\.\n\n*   `bond_respawn_max_duration`: The maximum duration for reconnecting or restarting a node\\.\n\n*   `bond_timeout`: This relates to the communication bonding timeout between nodes\\. If no message is received from another node within this time, that node is considered disconnected\\.\n\n*   `diagnostic_updater`:\n\n    *   `period`: The update period of the diagnostic updater\\. The diagnostic updater is used to collect and publish diagnostic information about node status, and this defines the frequency at which such information is updated\\.\n\n*   `node_names`: The list of node names managed by this lifecycle manager\\.\n\n*   `use_sim_time`: Whether to use simulation practice\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 320,
+        "outputTokens": 220,
+        "costUsd": 0.00036
+      }
+    },
     "76398987a411687aff9994c96461a7593451fde3a9b2898d1d6efc1dfe13e87a": {
       "normalizationVersion": 1,
       "sourceHash": "46ad852e2d043a3e3311835a62c5cd2b28720f76fda9da1d8d9234761774d989",
@@ -99,6 +113,20 @@
         "costUsd": 0
       }
     },
+    "76462f0aa50007f85c27aaf377bd3dd4771e804c169fe1b552b5bba354922bdc": {
+      "normalizationVersion": 1,
+      "sourceHash": "367b798b94671ab0633a203f4fc450987fecddd99afa1287992cff4014f30344",
+      "contextFingerprint": "693142febb7b70f2ed2080d66978eabfcdf6e2e9ace4a8c164cc9923ca6efb5e",
+      "sourceText": "导航实现时，需要依赖于地图与定位功能，我们可以在一个launch文件中集成之前的定位launch以及当前编写的导航核心模块的launch，以简化导航功能的启动，在launch目录下新建一个名为`bringup.launch.py`的launch文件，并输入如下内容：",
+      "translatedText": "When implementing navigation, it is necessary to rely on map and localization functions\\. We can integrate the previous localization launch and the launch of the currently written navigation core module into a single launch file to simplify the startup of the navigation function\\. Create a new launch file named`bringup.launch.py`in the launch directory and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 70,
+        "costUsd": 0.00014
+      }
+    },
     "76503c7c62018f07e9cfe47881302777b8b8572b8eb3da855e72ce722c7cde77": {
       "normalizationVersion": 1,
       "sourceHash": "dbdb88251071720056c2a6d9a792e54f4d0e5f122f1ca766e801104b2d5e6c95",
@@ -111,6 +139,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "76520f7fdb3b85b881c644ba7e83cdc075afad74e6af886464da4816464bafb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "e05e2dddfa9a7c6febb0fc2b66c69eee1cbb14bea4c897a779d0165a516c1542",
+      "contextFingerprint": "3e9803bece397237b24e61f524928ef4827dab8643fb8d1797ff5b1bab097699",
+      "sourceText": "修改gazebo_sim_robot_world.launch.py文件，修改后的代码如下：",
+      "translatedText": "Modify the gazebo_sim_robot_world.launch.py file\\. The modified code is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
       }
     },
     "7659539092af781e332541deffa357badc4cfb5aa9c4df0742afcbc366b731c2": {
@@ -379,6 +421,20 @@
         "costUsd": 0.000057
       }
     },
+    "7694986c49e31705bbf1d4b70849661ae50405aa66f99597d5e0b0c43c19740a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba46fe03b228f973c6e51ebdf246bf2c79d0feb9e88247acd946a0cd543e51db",
+      "contextFingerprint": "5bdbca5016bbfd1ff10bd3b75e2d2458b4ea8f7f1a3d984cc582e9418aabe0fc",
+      "sourceText": "**启动ROS2节点**",
+      "translatedText": "**Start ROS2 node**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "769a10731eb3606f3833e330d5c7d3e343634f555d745fa0563d15a777c4fa6b": {
       "normalizationVersion": 1,
       "sourceHash": "35bda7533de9079f5ff46ddeeaef16577b1787f4d11230d94e7899ed06b0f46f",
@@ -419,6 +475,20 @@
         "inputTokens": 153,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "76a919c1b57d44606f36f9f116ad7ec74ac8ec807e72accb1d8ceb2e2e61edc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "975353d3b32e27081381e1a67862a14649be88fd4b2446245b529b81b9d17ef6",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**资源下载**",
+      "translatedText": "**Resource Download**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "76aa1f386f802a47a31841ff53fc9a4ae39283e0592bb77acc79587a67e273ef": {
@@ -589,6 +659,20 @@
         "costUsd": 0.000054
       }
     },
+    "76d7d893c931b828ef0a812362eea3bed79ff8370631b7f71c50c9eac5075726": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d94ec2398285b3f2147c48b08d892d3e712eaaaf4c1536ca05e28fbfa6bc17f",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 3. 检查 Gazebo 转 SDF 是否还有 warning",
+      "translatedText": "##### 3\\. Check whether Gazebo to SDF conversion still has warnings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "76d8c4741c28e3bee9d9dbcb4759e5aa244aa805adb69a4d57608cd1bb0f1dc0": {
       "normalizationVersion": 1,
       "sourceHash": "aa40e190a77172ad1a0259067acbaa1fac8a3626a90b3e436f229c9f23ea20a8",
@@ -727,6 +811,20 @@
         "inputTokens": 136,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "76fd6dcbb6f5681b74967eae76d1946a8bf49712a6d069e6ac7565ef6317779e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a18223126a60b4c5f325c802ea13c8cde8a7e5e854b224bc64e70ead06c71c33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果在主线程里直接接收并加上死循环和延时，这种效率往往是最低的，并且有很大的安全风险，非常不建议使用。",
+      "translatedText": "If receiving directly in the main thread and adding an infinite loop and delay, this approach is often the least efficient and carries significant safety risks, so it is strongly not recommended\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 41,
+        "costUsd": 0.000097
       }
     }
   }

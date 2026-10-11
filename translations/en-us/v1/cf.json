@@ -421,6 +421,20 @@
         "costUsd": 0.000122
       }
     },
+    "cf8980d4d33440cc85a87f4efadda6d90a651109dd24873389a9dbc1e6c3086f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9478e438e25c52f20e6f0498a46d5cd434fe3690033d0fe3c857a7461e517bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "试试另一个包：",
+      "translatedText": "Try another package:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "cf8f556e4f883ba7aceee83ef01379092c1071a6149c13dc564cadaa035de7af": {
       "normalizationVersion": 1,
       "sourceHash": "8801b8f17d3c3b3fdd649d2bf50e6fb812d91f41ea36528856a23d72e27d8290",
@@ -477,6 +491,20 @@
         "costUsd": 0.000056
       }
     },
+    "cf9a8eddd321eff2b4582b5ce1d5fb2049fce4c6c2bf15fdb1397b6ab47522b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9d70554b2fb383402169690e6d98c7c8f0e8745fc1cd0a13ef3422bd738c068",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "具体imu接口请看硬件平台章节。",
+      "translatedText": "For specific IMU interfaces, please refer to the hardware platform chapter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "cf9d761b1a626c57506901431375fd5a4fc2e150b315365b7cccbb0789d3bb51": {
       "normalizationVersion": 1,
       "sourceHash": "ba68c0f6d7df4f0d3f7effc67327e15a71ab30be2c589331469c3bf972bb09e6",
@@ -503,6 +531,34 @@
         "inputTokens": 157,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "cfb06c9732c4326cd430e1ab0a47a279a99ee177a192b428621ffafde9c66025": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ed383ddd290d246b7d74ed0ca3c69779d05824dd0f00a7e5507442f19ad6e4a",
+      "contextFingerprint": "3c9acbb0aa421bd80f10e0557781bac7ab3e629791b97d448b50ff5591bc5951",
+      "sourceText": "相比串口和 CAN，TCP 更偏向网络通信。它通常运行在以太网、Wi-Fi 或本机回环网络上，适合传输控制命令、配置参数、日志、状态信息、文件数据等。",
+      "translatedText": "Compared with serial ports and CAN, TCP is more oriented toward network communication\\. It typically runs over Ethernet, Wi-Fi or the local loopback network, and is suitable for transmitting control commands, configuration parameters, logs, status information, file data, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 65,
+        "costUsd": 0.000134
+      }
+    },
+    "cfb3e36c0653fcb2052741e6af48e04b6053f52659515a0078dd96133926e354": {
+      "normalizationVersion": 1,
+      "sourceHash": "87867f111c03f5299cc9e1ab2d128aa62339533b980af99490519edcfe278139",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不一定非得要码盘(里程计Odom)的数据，只要把机器人6个自由度DOF，可以由电机编码器计算而来（x,y,z,yaw,pitch,roll不懂的看上方Moveit2里的教学）全部发过来就行。",
+      "translatedText": "It does not necessarily have to be encoder (odometry Odom) data; as long as all 6 degrees of freedom DOF of the robot, which can be calculated from the motor encoders (x, y, z, yaw, pitch, roll—see the Moveit2 tutorial above if you do not understand), are sent over, that is fine\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 81,
+        "costUsd": 0.000152
       }
     },
     "cfb5bd45316b0f67503fb8068540bfefd9394c4920e020935ec9afc71dcf7fb3": {
@@ -547,6 +603,20 @@
         "costUsd": 0.00005
       }
     },
+    "cfb8b112d1b8873884995433d5e38e1343bc12b8b56ecc9ff9bb53f6266c1c25": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3e4c70e27bacc23ebe1dbd89585f7ba071370967b03210833f0c5fd0017fa9c",
+      "contextFingerprint": "970973290b6dc3dc198bfdf58956ed67366c1cef3b7d7047fa3d2671aba69c44",
+      "sourceText": "安装`joy`和`joy-linux`包，这俩包分别是俩不同的`joy`节点。",
+      "translatedText": "Install`joy`and`joy-linux`packages, these two packages are two different`joy`nodes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "cfbae62613c40ab54be61af8babe76340dde9040090ecc2f15d8f29e9dc13bb7": {
       "normalizationVersion": 1,
       "sourceHash": "d3b0adbd5bab8d6576a8ec2b4272455ef290ead1e08219e2f85afc65d672cbb4",
@@ -559,6 +629,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "cfc822a3498a59f1ac54f3c14dd65084b334c73e7ca61edfd9e2abe907967e47": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e77c9ebbbf3e7babc8951cea0aef576dc0c33e1a9ece09ba9b60605a60c0096",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以是双向通信：",
+      "translatedText": "It can also be two\\-way communication:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "cfca0fb7077e28f0e937c7adcba8aa0ff663211c76ef12fafc4ac6b199f8e00e": {
@@ -601,6 +685,20 @@
         "inputTokens": 146,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "cfced9dd7cab7f937b1582b24215bf38d047f0714d8841eb2b9e280515ce71ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4999afd5a8b1029b02639835a2c69fd974ef9008f6498b2dd1e10c9ae37508f",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**yaw 角范围**",
+      "translatedText": "**yaw angle range**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "cfd031c413bc849dcff8be56d810eb7de150355b9c7d4d159135659e19722cf4": {
@@ -741,6 +839,20 @@
         "inputTokens": 186,
         "outputTokens": 71,
         "costUsd": 0.000141
+      }
+    },
+    "cffaff5d313cd50b875ce9c3b2ad6d462065d8833b00deb4b41a447275135cff": {
+      "normalizationVersion": 1,
+      "sourceHash": "492604aa1e5997c72532f5e63857fb9753adfeac4c31fb3efade9f6744fd4ad8",
+      "contextFingerprint": "a7536af80a55678f3e721f68020504cf08ee2536929386afa6917c25b5178345",
+      "sourceText": "在该文件中，使用了功能包中`nav2_lifecycle_manager`中的`lifecycle_manager`组件，该组件可以自动的配置、激活其所管理的具有生命周期的节点。构建功能包后并执行该launch文件，其最终效果与方式一类似。",
+      "translatedText": "In this file, the package's`nav2_lifecycle_manager`in the`lifecycle_manager`component is used; this component can automatically configure and activate the lifecycle nodes it manages\\. After building the package and executing this launch file, the final effect is similar to that of method one\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 55,
+        "costUsd": 0.000119
       }
     },
     "cffbe25fc938f6d09c0518f7a1a9037a7b952c0140909a2c8ca1d4d85fa7d82e": {

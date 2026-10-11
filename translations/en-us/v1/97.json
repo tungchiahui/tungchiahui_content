@@ -169,6 +169,20 @@
         "costUsd": 0.00009
       }
     },
+    "9737cd23fabc2669f25a76eed4aaa8369ca8375c48d2d86dc676cb7385299e13": {
+      "normalizationVersion": 1,
+      "sourceHash": "86a24c5c4614cbc7e35861ca05cae3d41545e29bea03317a57db038199a36ff7",
+      "contextFingerprint": "e8edf5cd13d0952f584649927ec8dfa5b97f5d3961c9f12d14379b72febf9320",
+      "sourceText": "| 方案 | 优点 | 缺点 |\n|---|---|---|\n| Linux socket API | 原生、稳定、依赖少、通用性强 | 代码相对繁琐，异步处理麻烦 |\n| boost::asio | C++ 工程友好，异步 UDP 方便，适合封装 driver | 需要理解 io_context、endpoint、socket 等概念 |\n| Qt Network | 和 Qt 程序结合自然，适合上位机 | 不适合脱离 Qt 的底层 driver |\n| Python socket | 上手快，适合测试 UDP 包 | 不适合作为 C++ 底层主线 |\n| ROS 2 topic | ROS 2 内部通信方便 | 不适合替代通用 UDP 学习 |",
+      "translatedText": "| Solution | Advantages | Disadvantages |\n|---|---|---|\n| Linux socket API | Native, stable, few dependencies, strong versatility | Code is relatively cumbersome, asynchronous handling is troublesome |\n| boost::asio | C++ is engineering\\-friendly, convenient for asynchronous UDP, suitable for encapsulating drivers | Requires understanding concepts such as io_context, endpoint, socket, etc\\. |\n| Qt Network | Integrates naturally with Qt programs, suitable for host computers | Not suitable for low\\-level drivers detached from Qt |\n| Python socket | Quick to get started, suitable for testing UDP packets | Not suitable as the C++ low\\-level mainline |\n| ROS 2 topic | Convenient for ROS 2 internal communication | Not suitable as a replacement for general UDP learning |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 288,
+        "outputTokens": 188,
+        "costUsd": 0.000312
+      }
+    },
     "973cb81a5657c71a20fd9e6ee97e3d9f9e0a2cf70022aa4205e7700065c3bc05": {
       "normalizationVersion": 1,
       "sourceHash": "8dcfedf905ece42f36aa169225d2e7451e1247c040880a4ebc8cfe65425bff71",
@@ -251,6 +265,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "97692c53fcebd7c89cfc03bf80297fdee3b780bdaf384ac8b6960b762385b4e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9db02350c4b09d38a730a376deb8f35c2e7ea8b91404a22b501b1cc7b876ab27",
+      "contextFingerprint": "8b496f7912c8370a58abd9f41f47007da209716a49b7a818f46d253dc928c660",
+      "sourceText": "| 通信方式 | 常见场景 | 典型用途 |\n|---|---|---|\n| 串口 UART / USB Serial | STM32、ESP32、传感器、调试模块 | 上位机与下位机通信、简单设备控制 |\n| CAN / CAN FD | 电机驱动器、底盘控制板、车辆总线 | 多节点设备通信、电机控制、底盘控制 |\n| TCP / UDP | 激光雷达、网络相机、多程序通信、远程控制 | 网络设备通信、上位机之间通信 |\n| Modbus RTU / TCP | PLC、变频器、工业传感器 | 工业设备通信 |\n| EtherCAT | 伺服驱动器、工业机器人、运动控制系统 | 高实时性多轴控制 |\n| I2C | IMU、温湿度传感器、OLED、ADC | 嵌入式 Linux 直连低速传感器 |\n| SPI | 高速 ADC、屏幕、部分传感器模块 | 嵌入式 Linux 直连高速外设 |",
+      "translatedText": "| Communication method | Common scenarios | Typical uses |\n|---|---|---|\n| UART / USB Serial | STM32, ESP32, sensors, debug modules | Communication between host computer and lower\\-level device, simple device control |\n| CAN / CAN FD | Motor drivers, chassis control boards, vehicle buses | Multi\\-node device communication, motor control, chassis control |\n| TCP / UDP | LiDAR, network cameras, multi\\-program communication, remote control | Network device communication, communication between host computers |\n| Modbus RTU / TCP | PLC, frequency converters, industrial sensors | Industrial device communication |\n| EtherCAT | Servo drives, industrial robots, motion control systems | High\\-real\\-time multi\\-axis control |\n| I2C | IMU, temperature and humidity sensors, OLED, ADC | Embedded Linux direct connection to low\\-speed sensors |\n| SPI | High\\-speed ADC, screens, some sensor modules | Embedded Linux direct connection to high\\-speed peripherals |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 303,
+        "outputTokens": 189,
+        "costUsd": 0.000318
       }
     },
     "976a57160a7fbe5391197c378a7f2f47a0d9d47b0a2bc0d2b782232b7416a1d7": {

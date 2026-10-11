@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c202dd9464070ad1465eda61879bab8fe912d169934b8e7d217b721933c77ab4": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4f4371a1b0ecce35f218b436e848b2f3365e89adc77e1cc77750d8d5cb4118d",
+      "contextFingerprint": "7604d99639924954eae4c6ed860ac41157631d59be27ba3d15d8e3701cade97e",
+      "sourceText": "IGN_GAZEBO_RESOURCE_PATH是新版Igntion Gazebo的宏。",
+      "translatedText": "IGN_GAZEBO_RESOURCE_PATH is a macro for the new version of Ignition Gazebo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "c20fc6b34a252f6496cf222cf012b595c77d2608a5d24c8eab5d9ba1909ad346": {
+      "normalizationVersion": 1,
+      "sourceHash": "d86ebf10f6a358e2b34c18c1306ca834621b8a06f25f17cd826a4144fa36fe87",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当然，为了兼容以后的Gazebo，在下方也会有教程教你如何从ign gazebo迁移到gazebo sim（最最最新版gazebo）。",
+      "translatedText": "Of course, for compatibility with future Gazebo versions, there will also be a tutorial below teaching you how to migrate from Ignition Gazebo to Gazebo Sim (the very, very latest version of Gazebo)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
     "c2132f91eef649ffd15135df41558f89a73977e253e0f6899cdf0eded40e6e1a": {
       "normalizationVersion": 1,
       "sourceHash": "e0881f0d78172080f2a1a4d00481e3e6720391ccb3552272baca10da155e89af",
@@ -155,6 +183,20 @@
         "costUsd": 0
       }
     },
+    "c244b5b717476cc0374322eae08246b503f0d8b3b1594da773e5ac5d0b357c53": {
+      "normalizationVersion": 1,
+      "sourceHash": "a744409c2228c5e192dd0d37676579b60e1aaec4b6534875f969097700fe3bf9",
+      "contextFingerprint": "bccbe769124116f95a8b0e59c70674689ac6e52ee5389f730144e32a9d1b92ce",
+      "sourceText": "*   /spawn_entity，用于加载模型到gazebo中\n\n*   /get_model_list，用于获取模型列表\n\n*   /delete_entity，用于删除gazbeo中已经加载的模型",
+      "translatedText": "*   /spawn_entity, used to load models into Gazebo\n\n*   /get_model_list, used to get the model list\n\n*   /delete_entity, used to delete models already loaded in Gazebo",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 67,
+        "costUsd": 0.000138
+      }
+    },
     "c2452864d6227b4d42b548c5901f2a27a3e9eab1b6df1f43261fa8188781753d": {
       "normalizationVersion": 1,
       "sourceHash": "b1bf7cabe7747ff72df26ce3738498f5cd400bcb1bb04ed8d08dbd30978070b8",
@@ -237,6 +279,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "c265c0288e3f8b479c1679ff1c1d9526ace5595e7814eb69b22803be9ec495d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "96bccfc71f6ffa55cfb60bfe7caa58ab4c2b9ecba9078d207ddefd2ebc5dc058",
+      "contextFingerprint": "8bfe94d2f95fc4f6e957d4dc31d2dbab05f0e1ea8c709ae3e9e4b0d1b04c856d",
+      "sourceText": "在params目录下新建一个名为`velocity.yaml`的文件，并输入如下内容：",
+      "translatedText": "Create a new file named`velocity.yaml`in the params directory, and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "c267a3dab62f8f870e9e956aaf475a4778efc9d64a7358c18cc0edefe9c3e17c": {
@@ -335,6 +391,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "c28a9fddc507bb0cc437c57d2bb7d832b6ad7e2679d13d8ca246b147f4d6adb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "44c12992c82bee7a028b53a228a676d98d4fc52a7d5765f61eb06a1d84c40a20",
+      "contextFingerprint": "1a7b757c0e0393b0b17a7e1e43f03021d51c9523d8443e3e1f69431d3a5a7cac",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /odom | nav_msgs/msg/Odometry | 机器人的里程计信息，包含位置、速度和姿态 |\n| /speed_limit | nav2_msgs/msg/SpeedLimit | 导航过程中的速度限制信息，用于动态调整机器人的移动速度 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /odom | nav_msgs/msg/Odometry | The robot's odometry information, including position, velocity, and orientation |\n| /speed_limit | nav2_msgs/msg/SpeedLimit | Speed limit information during navigation, used to dynamically adjust the robot's movement speed |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 81,
+        "costUsd": 0.000157
       }
     },
     "c290ecf516ae3b029909f050ddc5674e19aa132de17a0eef391b9e2ed3b3ccef": {

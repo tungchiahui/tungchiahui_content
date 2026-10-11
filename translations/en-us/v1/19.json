@@ -113,6 +113,20 @@
         "costUsd": 0.00008
       }
     },
+    "192486c5a9c5ed3edda7e3c2519117b528a617f01a7938c808fea5c577c1a4a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "21cf41d2511486db3e48c5f127b9411624655aa1193584863dfbf61ce0bb1fad",
+      "contextFingerprint": "14a132b2726d10e27eef1f5f977c6afe9bd5179e5613ed6fc7765e4cbc91fbac",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1749.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1749.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "192ca41227c212a165b05d512243dd68ebde22e6113efe471265bff52913ab30": {
       "normalizationVersion": 1,
       "sourceHash": "930038c8353028521335a9afe81bcc331e1730c067675bad5b1161ad2fcf815b",
@@ -323,6 +337,20 @@
         "costUsd": 0.000052
       }
     },
+    "197a52eb89a25e7830fe2cf9a9e529a9116107913e416b8026764354dcc1e74c": {
+      "normalizationVersion": 1,
+      "sourceHash": "15f6b81e182024a19b7b727cdb790ce9b901d23e21db22c0084d7d5939a3b41c",
+      "contextFingerprint": "65b4132beb64de039c1e3074644e85288ec12ff633598ed679603a1c61c66521",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /global_costmap/costmap | nav_msgs/msg/OccupancyGrid | 发布全局代价地图的当前状态。 |\n| /global_costmap/costmap_raw | nav2_msgs/msg/Costmap | 未经进一步处理的原始代价地图数据。 |\n| /global_costmap/costmap_updates | map_msgs/msg/OccupancyGridUpdate | 全局代价地图的更新，该消息可以高效更新地图。 |\n| /global_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | 发布机器人的足迹（footprint），即机器人在地图上占据的空间形状。 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /global_costmap/costmap | nav_msgs/msg/OccupancyGrid | Publishes the current state of the global costmap\\. |\n| /global_costmap/costmap_raw | nav2_msgs/msg/Costmap | Raw costmap data without further processing\\. |\n| /global_costmap/costmap_updates | map_msgs/msg/OccupancyGridUpdate | Updates to the global costmap; this message can efficiently update the map\\. |\n| /global_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | Publishes the robot's footprint, i\\.e\\., the shape of the space the robot occupies on the map\\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 275,
+        "outputTokens": 165,
+        "costUsd": 0.000281
+      }
+    },
     "1982fe04624626ac5f4cf27962821ab61397a4d6892adf71ca6346b2ee34e4fa": {
       "normalizationVersion": 1,
       "sourceHash": "e815ebf5e9cb2febde7d7108b8574f50568eb367c9724a0bd6305e3eca511b61",
@@ -421,6 +449,20 @@
         "costUsd": 0.00008
       }
     },
+    "19977fac3628d8ef62772caf321714aecaea893ed6c79dd2275501fb364d6b93": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef09a64e7043dc26d19428317e8f2b73e5f3af75e884cd1acf2cb33058dd2246",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**5.编译**",
+      "translatedText": "**5\\. Compilation**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "19c08aeae5fa77cac26714b96bb329d06dc0997f1685c97c8b153e0f1cf62b53": {
       "normalizationVersion": 1,
       "sourceHash": "1baadf7b9224ae09d854c8956f620298b56ae789776e62da0007342a8df8fed2",
@@ -517,6 +559,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "19e1b7233ddf1eb718e57ed171b14d10d6ed50c09f38e80b757f4d7b1545c858": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d701f58d9b37414bea76d83eff5b68313ba144ff399bf27de2cd828f7bd7cb9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 航点跟随节点说明",
+      "translatedText": "#### Waypoint Following Node Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "19ef080581ba8586e782c2fad3d7fde401df83f6749ad1b58ff0dc36225ab194": {

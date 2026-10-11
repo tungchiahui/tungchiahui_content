@@ -15,6 +15,34 @@
         "costUsd": 0.000049
       }
     },
+    "8208cba8104c8203e89ff9c714cd1f1a8c837073cf961af160971be716169c41": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb5f0c73bbdd20d96ed79433e9edcd3143e5b360c11da633c6ff0c062941b7f1",
+      "contextFingerprint": "168f312dc9c5a6b5f356fdfce28cc9f3dc3399ab0f8e6a3ea3251dd6b5245db0",
+      "sourceText": "SLAM建图时，地图数据是保存在内存中的，这也意味着，一旦节点关闭，数据也会一并被释放，而更合理的实现应该是将构建的地图序列化到的磁盘以持久化存储，并且后期还要通过反序列化读取磁盘的地图数据以做其他操作。在Nav2中已经已经封装好了地图序列化和反序列化的相关功能包，该包是：`nav2_map_server`。",
+      "translatedText": "During SLAM mapping, map data is stored in memory, which also means that once the node is closed, the data will be released along with it\\. A more reasonable implementation should serialize the constructed map to disk for persistent storage, and later also deserialize and read the map data from disk for other operations\\. In Nav2, the relevant function packages for map serialization and deserialization have already been encapsulated\\. This package is:`nav2_map_server`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 95,
+        "costUsd": 0.000179
+      }
+    },
+    "8208f16464d7687c8a4bec91c215435121eb60050e66fe5d695caeee128591b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "45341e830b70592628aa18554a36933cae4d4dfecfb330bf2bbf5b1b5899bc6c",
+      "contextFingerprint": "b6f9d6aed13a4e6a00244c45f3aba8f4b762926a2ec23d5158b1bdfa538b837a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1714.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1714.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "8208fdecd0983efad7ce49936dcc449d47383074be12e220090ba4ce7a95520b": {
       "normalizationVersion": 1,
       "sourceHash": "ea67d4dff6b1c97b0900efeff5b8ff72c7b93ce2aaf52e38b9330e76804696fb",
@@ -237,6 +265,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "82477a12958c1517f021e5812c0725b6e1ebe3d242d6ce4fc055e22410e7ad44": {
+      "normalizationVersion": 1,
+      "sourceHash": "094363b0b2e954321aa5c8ff17a2ee6d78ce8df7f0f129694b68e33df1fcf060",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从Gazebo到ROS的桥接示例：",
+      "translatedText": "Example of bridging from Gazebo to ROS:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "8247c0d6070af27c7b70a7117f6c5199bdc617e96575cf4894b3ccbf1f5115b7": {
@@ -571,6 +613,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "82c56dc5b680e29ab06b6bb05606bb17757bb2e78111b14b03b31b56a07fe569": {
+      "normalizationVersion": 1,
+      "sourceHash": "cccb178279402ed0f8ebf37543b0f7c1d6f904d066fc2095b65913664b9ee9f1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 初始化详解",
+      "translatedText": "#### Initialization explained",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
       }

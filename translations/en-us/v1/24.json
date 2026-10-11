@@ -99,6 +99,20 @@
         "costUsd": 0.000055
       }
     },
+    "242b0b1b0ee13bdcbc7e64b9d14cd6fdc62671a3aab2e030b24fc482083c24fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "84a1c56dac308affa22072a21ee8a33532d8dcf8635da8b577ae3d6a03efede7",
+      "contextFingerprint": "b966c26a4327ed22c82a24f1ddd8fbcb133ed26b0187a8ab89e6146b34fcbbab",
+      "sourceText": "在stage_sim.launch.py文件中添加如下内容：",
+      "translatedText": "Add the following content to the stage_sim.launch.py file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "242eee82a2949b23138097b2b3bddf6a08a656f973f2339790e2a9f60ada8f3d": {
       "normalizationVersion": 1,
       "sourceHash": "7a05928f48f60a82799d6ae50276a60b48c750c05020618c057855c158218908",
@@ -239,6 +253,20 @@
         "costUsd": 0.000276
       }
     },
+    "247126ebf765f801b1004d6977167a406c696eb53e33ea8552af751bc21f1f65": {
+      "normalizationVersion": 1,
+      "sourceHash": "1124fe7a53221ea2f81fc9e4a6e16295ced41b09100a0900cb2fca9c0872d1a9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Gazebo Classic安装与运行",
+      "translatedText": "#### Gazebo Classic Installation and Running",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "247cd6399d0941278cbc78badcd25ffd9b2b8201a7e6d5413c7197bdd91735e3": {
       "normalizationVersion": 1,
       "sourceHash": "2e3f32b07e735066dd7035ff0677b8c4da25234465c736b931a7e1bf93418fbb",
@@ -279,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "24891540c8132790a16ac9f58829f0df179ed599d3023d018b288655840bb3c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a556dbd9c9d1642d0d1bc518a66d75ffaaee997fd5883a425e0c55a2a47faa9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "模型都通用，可以一起配置上。",
+      "translatedText": "The models are all universal and can be configured together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "248a1e5561edbd9e07f47686cfd10f65cff6e1551a849e52eb01b0941cbf147e": {
@@ -435,6 +477,20 @@
         "costUsd": 0
       }
     },
+    "24be7485c1f1ed2949162a71440e83600811ea124e1efd85326ec9e7136aa80b": {
+      "normalizationVersion": 1,
+      "sourceHash": "acf635a5aa7dba7b6f7acf857f5125d5f935f3671a6be1fd12a7a15048a43251",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### IgnG添加机器人",
+      "translatedText": "#### IgnG Add Bot",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "24c591739d4456a992d65fa123f3c15ff37edbaa6868d82a338c049cedf45b78": {
       "normalizationVersion": 1,
       "sourceHash": "3f13b5f4adc75a0d0ac6cd8f364e80907702c5f021790ea9517de16afe071bf4",
@@ -503,6 +559,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "24d8eccca7892688bef51052374a6cf0bf67a087fc872e6d50570ce823fae7d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "99870e0e0acc6eec4ec7323ccf450aa75cba20319b6d8107e118f8b0f79f428a",
+      "contextFingerprint": "755002e888e17ed8277a95c3e0726c26d4ffe6199d802acda20fcc5da8e1aebe",
+      "sourceText": "- 适合 C++ 工程开发\n- 和 TCP、串口、定时器可以使用同一套 Boost.Asio 编程模型\n- 支持同步和异步 UDP 收发\n- 不依赖 ROS 2，方便在普通 C++、OpenCV、Qt、嵌入式 Linux 项目中复用\n- 适合封装网络传感器、远程遥控、状态广播等功能",
+      "translatedText": "- Suitable for C++ engineering development\n- TCP, serial ports, and timers can use the same Boost.Asio programming model\n- Supports synchronous and asynchronous UDP transmission and reception\n- Does not depend on ROS 2, making it easy to reuse in ordinary C++, OpenCV, Qt, and embedded Linux projects\n- Suitable for encapsulating functions such as networked sensors, remote control, and status broadcasting",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 118,
+        "costUsd": 0.00021
+      }
+    },
+    "24e2b91f22fa9dda1c82ddcc8a53efdf7a2b69e0b9194a13eb1c319224666b5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d646d9f48a956a309c75907a4636289e86ee187b38e43cb61f72f34d85481c3d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "（以上坐标是指X，Y，Z坐标，没有旋转度）",
+      "translatedText": "(The above coordinates refer to X, Y, Z coordinates, with no rotation angles\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "24e4cf1f9582206d8f44e2edb11980427b04d780af9ed4017e875e3a8415e923": {

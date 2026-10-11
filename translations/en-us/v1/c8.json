@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c80196f28d4d65a2b42af601ea740957c0e260aed9ca3a6790d35d51fa872058": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff1c150aabacf8c260408b00def97a66d9a2332c0be0d2947c74eef1c2f9e474",
+      "contextFingerprint": "0353603b2245a8e7da7f828a43733e3e4fd711c9c0c7971478a28fadc542991e",
+      "sourceText": "在ros安装路径下的worlds目录（`/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/worlds/`）中复制visualize_lidar.sdf文件至world目录。",
+      "translatedText": "In the worlds directory under the ROS installation path (`/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/worlds/`), copy the visualize_lidar.sdf file to the world directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    },
     "c803ce6fb9825debdb1a50869c15b6f90a99beb07876f0ed0b1880f9cbba248a": {
       "normalizationVersion": 1,
       "sourceHash": "3d6b0b0a6f7cc52c9dccd3363cc1e038502eb6fd11fe8dc6220deb8358442d44",
@@ -267,6 +281,20 @@
         "costUsd": 0.000055
       }
     },
+    "c87c3930baf45f033f7f345a69c001aca71040da61e0f7eed1a0d3a4fd4ca79d": {
+      "normalizationVersion": 1,
+      "sourceHash": "42164451da43514de6f8a8cc03d6ff4965448705b7b7b9b8261b278b8a571524",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启动 Jazzy 版本：",
+      "translatedText": "Start Jazzy version:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "c8824d29e6ab70c04664ecd38498b8e25f2fe2252ee7bc5f757ab9536e4e2fbe": {
       "normalizationVersion": 1,
       "sourceHash": "ff87a1b32882e70db28261ecf2859bfca387f97747ca8f1a93ad3ecc344e3f4f",
@@ -323,6 +351,48 @@
         "costUsd": 0.000061
       }
     },
+    "c8a8a1c075df19c7550baea7ce7b8ce8bfef3f191f9c6129b72ed1eac59c480f": {
+      "normalizationVersion": 1,
+      "sourceHash": "29307a8b27dcb05bc31ccc0bba6622f0719f395d0544757a29d446db4d117523",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "优化后的launch如下：",
+      "translatedText": "The optimized launch is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "c8aff6c08d49e3e805e9821209134161d6be02d60e461bb561c0c9109821932e": {
+      "normalizationVersion": 1,
+      "sourceHash": "19ca4d2cc090a6326b872ce563891d1c11b0354c7a53a22626e53239a39e8ab4",
+      "contextFingerprint": "1a0ceb18be086d6c69eb853cc2f6012b8f0f83c81291bae7a2346f3a3c032814",
+      "sourceText": "通过该指令可以将发布在`/model/vehicle_blue/cmd_vel`话题上的`geometry_msgs/msg/Twist`类型的ROS2消息转换成可以被Gzebo识别的`gz.msgs.Twist`类型的消息。",
+      "translatedText": "Through this command, messages of type `/model/vehicle_blue/cmd_vel` published on the topic `geometry_msgs/msg/Twist`ROS2 can be converted into messages of type `gz.msgs.Twist` that can be recognized by Gzebo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "c8b889012a06226c11a3c1eace95ea456400b310c0aa62259c4a780cbbbca7c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "7dca0ebbe705309d95c9417363b42a76f2d8b9fa745181311c8e97c38eaf186b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“Follow”选项可保持视图始终在最后选择的模型上。",
+      "translatedText": "The “Follow” option keeps the view always on the most recently selected model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "c8bc6300e3bb8638e2d150aef21f48bbfefce95dcf3f220e4d9998f0d2df156f": {
       "normalizationVersion": 1,
       "sourceHash": "9bd1986a72080007ea513bbb76a568337c5207cb151f24f30125ff47bf17e2af",
@@ -349,6 +419,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "c8c1de5a0ab4ee11f83fb3637a22c509fb8f622211647fcda7ca50a59be1fc02": {
+      "normalizationVersion": 1,
+      "sourceHash": "379d38b2e88d718177803705181520d758bab12f92a3db5cdbe1be4099f2f6ea",
+      "contextFingerprint": "0fbe38fc0e693e173232650ebe9ff9190f1a85c3aa4a93c72ac0d32562e6087b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1787.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1787.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c8c5a4aefab9906869b9d4f406721a2bb5fefe2239ca96631175564506f01b22": {
@@ -489,6 +573,20 @@
         "inputTokens": 137,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "c8e9d88b19fbaa766e6f6abd535586347a1ecabe87f96dae4cffa434c3f1067d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4a7b0af24d7d64f670e010753e1d34722544434683c55551ef60cafcd661173",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**3.发布的服务**",
+      "translatedText": "**3\\. Published services**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "c8f04d38eb5ebf2ac60f69af7a88f58fc47e05b20c46b7d7859397e175277f2b": {

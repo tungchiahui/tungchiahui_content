@@ -141,6 +141,20 @@
         "costUsd": 0.000073
       }
     },
+    "b634fc144315c226384cf46309f013c9e5c2562e188d2566995b6bbc9449d75f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f65a5a1f85b9a495318331b1b1842842a98b96470a196e3fc257359dec525836",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 将Ign Gazebo迁移至Gz Sim",
+      "translatedText": "### Migrate Ign Gazebo to Gz Sim",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "b6393f673e3f2b16080b156de359aaadb9e58ffe72819efa686091443c151bf8": {
       "normalizationVersion": 1,
       "sourceHash": "4d18725fd4394141810b30abbdd446976670c29b0ea54df6cea935e71cd7e339",
@@ -175,6 +189,34 @@
       "contextFingerprint": "5ffc6afc74dfbb9390ddeeae3c8eba84fa6f759ba09956a9615eb3634dc3f0ea",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image604.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image604.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b64a1934e193807a6cb17d35b20f8751c8c88291b9b193a6ccdd2899e7bd8fed": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7c1d38443423625a4de5521e37639cf4ea1cd29f62c8bc478d4fff602059014",
+      "contextFingerprint": "556e7fb353948e64f66775556435084ebafa36778f2653b2c66c30f863500364",
+      "sourceText": "https://github.com/CyberNaviRobot/CyberRobot_ROS2_Humble_WS",
+      "translatedText": "https://github.com/CyberNaviRobot/CyberRobot_ROS2_Humble_WS",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b64e2e77f0a3c54c8f940d58b6f78618516f3d00fd23f107c425e49518cac9a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "13ea25470fdd78a0d5a9eb51479f8445bf97dc0f16d3f9a084e9d3946f671c04",
+      "contextFingerprint": "311dd7697ef1a9ef825fc1ac4a548eb7398fce6c951daabb4fd5d91f3a2f10ad",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1744.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1744.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -225,6 +267,20 @@
         "costUsd": 0.000076
       }
     },
+    "b668be340943ad034bf72d95903e4ec5200d22609d40050ce2413ffdc691f18e": {
+      "normalizationVersion": 1,
+      "sourceHash": "25c9011f9543e4dea17d7e6b810f045016a080b296c57e4131afe569f5698f23",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是由于建议使用树形TF，所以我们通常将map坐标系作为根坐标系，所以此时map在rviz2里是不动的，odom作为map坐标系的下行坐标系。（可以听一下赵老师ROS1的课程，这里讲的很好）",
+      "translatedText": "However, since using a tree\\-structured TF is recommended, we usually take the map coordinate frame as the root coordinate frame, so in this case map does not move in rviz2, and odom serves as the downstream coordinate frame of the map coordinate frame\\. (You can listen to Teacher Zhao's ROS1 course; it is explained very well here\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 78,
+        "costUsd": 0.000148
+      }
+    },
     "b66cd9d601d13f70a1f7ef3dbabc87d6151ccc3190415ea90502424e2f1db364": {
       "normalizationVersion": 1,
       "sourceHash": "0f3777059ffb6480ab5c02bdfebfe07fed4a335eacafc6e5172e07015a90593f",
@@ -237,6 +293,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b67ad1bd22bbe057cc98e1027b4c29fce88756c3a055a5596b5d81613837763c": {
+      "normalizationVersion": 1,
+      "sourceHash": "84575cb4d07e76d274ddfe52d347885af7e82f64502a2a7e0d2885a42ee5f37f",
+      "contextFingerprint": "9f15bbe7bf42566feba36e6a4c3d574f83f79709a30d6f3316144143de2a479e",
+      "sourceText": "修改gazebo_sim_world.launch.py文件，包含机器人模型的发布文件并在Gazebo中生成机器人模型，修改后的代码如下：",
+      "translatedText": "Modify the gazebo_sim_world.launch.py file to include the launch file for the robot model and spawn the robot model in Gazebo\\. The modified code is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 46,
+        "costUsd": 0.000103
       }
     },
     "b67f63908382f17e6a5a49fb9edc167e1c622a769916fb535da19ac9d0a67a8f": {
@@ -351,6 +421,34 @@
         "costUsd": 0.000056
       }
     },
+    "b6aa38df8694b484a24c0a0575940368342709fb76822d1080f7374d086c2093": {
+      "normalizationVersion": 1,
+      "sourceHash": "477dcf73a23863bafdbf8b0294170b04d512888743d98621a9428033773a46df",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**ranger摘要和默认值**",
+      "translatedText": "**ranger summary and defaults**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "b6b333f83a56d9d2064420919fe2b16b9494f20e5182cd965946f6ac47efc61d": {
+      "normalizationVersion": 1,
+      "sourceHash": "37d0951dcfe7223dfee8f470e78c58a028b9f9131c16f6aab5ae5eec52eb05bd",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 传感器 warning",
+      "translatedText": "##### Sensor warning",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "b6bae97c53e33689470e73c26ae7759dd4afcc8457a1554653e894e3455489c3": {
       "normalizationVersion": 1,
       "sourceHash": "61fa7ef1395c6fe1c5b6c82d90ffa83296fd4a10e9adac165aa120f87200886d",
@@ -449,6 +547,20 @@
         "costUsd": 0.000094
       }
     },
+    "b6dacd39cb6de401ed698a9f7238a554f791792563a67486cc0e05782d3df1e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0731d951b5c70aa28c38d9718d44b94f6f9d5dd91dbc1ec5137a68d4eae1caae",
+      "contextFingerprint": "9bf2df167ee0284deb81d52273154101a8699c9bebf82940cf5de3835eedec81",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1693.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1693.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b6ddf401c0a09cf29f5475998d10bf5b32c8ce307555fbae311350c470cca164": {
       "normalizationVersion": 1,
       "sourceHash": "beb68e2bb644c6b8315446219d93253014c6ca6fa4f0bf210e11b794c88e5a26",
@@ -475,6 +587,20 @@
         "inputTokens": 143,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "b6e0dcc33d3b85f8b15d94f6412bbac1c2bdea60d76a70d5a694763315b92171": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0fc1a5d753338d6810edec7595dbdb722deab69adef4b2d4acf597c722e65d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以下是转角位移标定的主要步骤：",
+      "translatedText": "The following are the main steps for rotational angle displacement calibration:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "b6e1307b2e666e23b73c3e2d894adf7f88365f25ba9e8eb7d651f1c0a98a57d2": {

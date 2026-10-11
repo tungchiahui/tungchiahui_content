@@ -295,6 +295,34 @@
         "costUsd": 0
       }
     },
+    "1a65e05c986e779502f9c71604f275483d0980cd2665c302f7dcecd3e3bf7579": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd6d4bdf1e451ece48fc4a6d7ff15dc891c63d8e58b6fcdcfaea042ccce914ed",
+      "contextFingerprint": "bbf46a8f5ae436b949553923abf5f5c7dad6c09d2607f6495d4fd43131cec7f7",
+      "sourceText": "| 概念 | 说明 |\n|---|---|\n| IP 地址 | 用来定位网络中的设备 |\n| 端口号 | 用来区分不同程序 |\n| Datagram | UDP 数据报，一次发送对应一个数据报 |\n| 广播 | 向局域网内多个设备发送数据 |\n| 组播 | 向加入同一组播组的设备发送数据 |\n| 丢包 | UDP 不保证数据一定送达 |\n| 乱序 | UDP 不保证数据按顺序到达 |",
+      "translatedText": "| Concept | Description |\n|---|---|\n| IP Address | Used to locate devices in the network |\n| Port Number | Used to distinguish different programs |\n| Datagram | UDP datagram; one send corresponds to one datagram |\n| Broadcast | Send data to multiple devices within a local area network |\n| Multicast | Send data to devices that have joined the same multicast group |\n| Packet Loss | UDP does not guarantee that data will be delivered |\n| Out\\-of\\-Order | UDP does not guarantee that data will arrive in order |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 107,
+        "costUsd": 0.000193
+      }
+    },
+    "1a67c5dccfff882fb5d9d4a07c24ba29038b7ca7f5f6d02a72fe255ff1df5e26": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e7ec8c28de3fa946822b2ca7b1a71737e10a909ea7550bf31ef0e93f87feb48",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过仿真测试，可以降低机器人研发成本和风险，提高机器人系统的性能和可靠性，并为实际机器人部署提供参考和指导。",
+      "translatedText": "Through simulation testing, robot R&D costs and risks can be reduced, the performance and reliability of the robot system can be improved, and references and guidance can be provided for actual robot deployment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 44,
+        "costUsd": 0.0001
+      }
+    },
     "1a67dcb704299eb95da00590112606df765febe57e8c2dba970a269beafd8c90": {
       "normalizationVersion": 1,
       "sourceHash": "f8908ccbf9bd6e86fbd94d3d3e41d62d1246a41871ea2f874a79ef042dba01bf",
@@ -309,6 +337,34 @@
         "costUsd": 0.000064
       }
     },
+    "1a6ee8f2586157c70030d30ad1a7113d96447b581b22a42e0f47a897f8771e7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "64459d8ad13d2e5a1efd5ca61ca61b7073eb5ca1a2b8968a946980d799bdff45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本文使用humble版本(即Ignition Gazebo)当做教程。",
+      "translatedText": "This article uses the humble version (i\\.e\\., Ignition Gazebo) as the tutorial\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "1a750e6eb0d30f449c21fd50431417b53bfbfd1f3c1533fb2260d7e73baa05b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "3552e0d319403f34998d55237f601e2dc8e550fe4ae35d664a6b8eb9f2e07380",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在Insert选项卡下可以看到一个目录，以及目录下的模型名称，随着下载脚本的不断下载，这里的模型会越来越多。",
+      "translatedText": "Under the Insert tab, you can see a directory along with the model names under it\\. As the download script continues downloading, there will be more and more models here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
     "1a789b1712ed7a472e97ce7ee34670148096f3235846fe9f18bbbf6f79fa8183": {
       "normalizationVersion": 1,
       "sourceHash": "422adb12ae4df39b64e93031ae01508de7f254b62bf0d6472aa76778dacfb6b9",
@@ -321,6 +377,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "1a82e92bc35214b469065756f0e14810ae1fafa47219dfaeee1c918f10ad8b24": {
+      "normalizationVersion": 1,
+      "sourceHash": "a13f3d7d15d7880a5b5a54a245bca71a225807c526ce510abb9de7fbb828175f",
+      "contextFingerprint": "1d109412cd22208aa01ab607d42fb7ff3ae2cfc4705b0b65308a53caf604ca25",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1781.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1781.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "1a84c0d470cb4dad7e562b4f6d0d5340fa96c6a323c3c13af2132037c8397cae": {
@@ -435,6 +505,20 @@
         "costUsd": 0
       }
     },
+    "1aa5ef4c1057240f58c4713a1b43ed5995976cf807612429cf51ae23b1bbc397": {
+      "normalizationVersion": 1,
+      "sourceHash": "885d14d9062de96f4188690206abd63462ea634264b8fbbaa5fae237e321378c",
+      "contextFingerprint": "0de70dad8635054a07524330c052b203ec0b45f8753355ddd04f66fe134ff7d9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1799.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1799.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1abbf8133d8898291f0f435a5f0e0fc7ce160dac202c233670251bf90068dbee": {
       "normalizationVersion": 1,
       "sourceHash": "5c3beee22a3dea3b950adef6bb0237bec2f10caeab70aa8f1ae66f923b8183f4",
@@ -491,6 +575,34 @@
         "costUsd": 0
       }
     },
+    "1acc4653220501219bf64f37c255f0b59ac2adb2206164324a62bd8b146fa9c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5e622273973e4dcaa3d639f29c026ccc5f844726e9dc62fc450c502dabf87b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "激光雷达的原理也很简单，就像蝙蝠的定位方法一样，蝙蝠定位大家都知道吧，像下面这样子的回声定位。",
+      "translatedText": "The principle of LiDAR is also very simple, just like the positioning method of bats\\. Everyone knows how bats locate, right? It's echolocation like the following\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "1ad13665cf91eb319482d304e8061bd8fcd55363a25a6039a2e350eee6e42067": {
+      "normalizationVersion": 1,
+      "sourceHash": "43f80b4fc0804c455d7418f40744d89581e71b959403d91217e545b00a905794",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看到这里你是不是迫不及待敲起来命令行来加载我们的机器人到gazebo了，别着急，小鱼再推荐一个可视化服务请求工具，其实在第六章中小鱼介绍过，在rqt工具集里有一个叫服务请求工具。",
+      "translatedText": "Seeing this, are you eager to type commands to load our robot into Gazebo? Don't rush—Xiaoyu will recommend a visualization service request tool\\. In fact, in Chapter 6, Xiaoyu introduced a tool in the rqt toolkit called the Service Request tool\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 64,
+        "costUsd": 0.000131
+      }
+    },
     "1ad3b6a2bf1759693d11dc813653b958b48f36073715dfe8ddb83b063b2c3c78": {
       "normalizationVersion": 1,
       "sourceHash": "968e7142b8d55513ab49930bea171200d9ce57cdd4fddb3152c4325e90392b70",
@@ -517,6 +629,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "1adca14532398c5f7920ccfafb34d82b8c5c681880be3d2455ca89ceea625378": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e92f36b40f54953bb76a30787592f9e52359955cbf83de7369d0255c623a12f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 发送代码详解",
+      "translatedText": "#### Detailed Explanation of Sending Code",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "1adddb1928d4983a631453889ff49498347c2cd2512e7702804e1a23b60c26c6": {

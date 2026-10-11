@@ -239,6 +239,20 @@
         "costUsd": 0.000132
       }
     },
+    "f9347817af50b8513f4052b99cdd5640bcfe2a1d9feb485e18335e4b99307304": {
+      "normalizationVersion": 1,
+      "sourceHash": "c223eb7a9dc311522d159bc48ca094c20fcf93166b0d927ebc6c6399c2f61d5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相机示例：",
+      "translatedText": "Camera example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "f9353803f82c29f59c01f0c95f4ae11f491c5ee87ed6f0ec816f81fee86e0842": {
       "normalizationVersion": 1,
       "sourceHash": "dbdb4fc060eb32c3cde21db8adb81e05d347f27387a1177faec606c7c540d595",
@@ -491,6 +505,34 @@
         "costUsd": 0.000066
       }
     },
+    "f981a35ab1313dcf7caba50bf54d75fb817b8ce8df07eb0c40be2902f67e5243": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5f112f7ff8fa543274f6675509d25a03401f55b9f36f0686c71a010c4036432",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "3.硬件平台",
+      "translatedText": "3\\. Hardware Platform",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f9872ce260594501d64271e2c6fad7b6cee6cc8425fc0724a1cd079824bc03f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2dd8b071d303f86be513d270bab1a076d40002c932d5d9c463a7a5ed674c66f0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "选择一个开放而平坦的区域，确保没有障碍物和其他干扰因素。",
+      "translatedText": "Choose an open and flat area, ensuring there are no obstacles or other interference factors\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "f98dac300ed5e0258dedb1c57e32b4f9ba2d75d76309c8bdf5231d2d72ab7a6e": {
       "normalizationVersion": 1,
       "sourceHash": "226576ae2bd8898e4a2d8a1b610f21a9ef8d708dd6b804a4b8f629606e0f4cc8",
@@ -503,6 +545,34 @@
         "inputTokens": 159,
         "outputTokens": 38,
         "costUsd": 0.000094
+      }
+    },
+    "f99ee1bcafeae14b16d1fe0e04ed6052b340c262772f47f51406d855799ccaf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "2084b33aba26d80fb91ff81ebd4c130b0525c3d671f370cc26c2f7c2b1a3b51d",
+      "contextFingerprint": "8fb6bcf7a1b8cd9535855924513ecf74e1b5480453c6093d2e890e5ddbbf3aaa",
+      "sourceText": "我们想要让gazebo显示出我们配置好的机器人模型使用/spawn_entity来加载即可。",
+      "translatedText": "We want Gazebo to display our configured robot model; simply use /spawn_entity to load it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "f9a4a8fff11d909b13853c4520e31dc1415eecd2738b25907d3e74ba33c8a7dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3a22b3b9daf0f99aec672382bde41258e6a37633751d9d700e89b82d44d71a5",
+      "contextFingerprint": "0b6e1a33a396cb7a79ffcf8687ca045c532a0df9f49960698b0a370acec5485e",
+      "sourceText": "*   `initial_pose`: 定义了机器人的初始位姿（x, y, yaw, z），但在实际使用中，如果`set_initial_pose`被设置为`true`，则这个初始位姿可能会被通过服务请求设置的初始位姿所覆盖。\n\n*   `set_initial_pose`: 设置为`true`时，允许通过服务请求来设置机器人的初始位姿。\n\n*   `always_reset_initial_pose`: 设置为`false`时，表示不会在每个定位会话开始时自动重置初始位姿。",
+      "translatedText": "*   `initial_pose`: Defines the robot's initial pose (x, y, yaw, z), but in actual use, if`set_initial_pose`is set to`true`this initial pose may be overridden by the initial pose set via a service request\\.\n\n*   `set_initial_pose`: When set to`true`, it allows the robot's initial pose to be set via a service request\\.\n\n*   `always_reset_initial_pose`: When set to`false`, it indicates that the initial pose will not be automatically reset at the start of each localization session\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 97,
+        "costUsd": 0.00018
       }
     },
     "f9a85f5710d1db5a8b5ec78881576f405fd971b1388fb375179a39db1c4d3b79": {
@@ -531,6 +601,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "f9b29d6b6eb6f73a7afcc5d625f943c451836f25bd13aa508667492b8e01f3c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b15d4fca509df78a0596e57836492a1b781a57f92bbe58b90e3dd93ccdf4ad78",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "你可以在没插手柄的时候看一下：",
+      "translatedText": "You can take a look when the controller is not plugged in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "f9b6d321b9947ef1b3692f81561a1db1e2d041b1b47915e0a247a6fe5b775ae0": {
@@ -629,6 +713,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f9d53bf5307588fd545d5e36c0fc39f3933eb313773fab42621d372f49ea541a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5f67e63b475daa2b5bb3dea7e8ebc30de7d567c30c4bd307612e6b2195755cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看不懂的英文可以用沉浸式翻译这个chrome插件来翻译,可以进行中英文对照翻译,非常好用.",
+      "translatedText": "For English you don't understand, you can use the Chrome extension Immersive Translate to translate it, which can provide Chinese\\-English bilingual comparison translation and is very useful\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 40,
+        "costUsd": 0.000093
       }
     },
     "f9db910048038b32a8df96d016371a52c2f24e2b3db2c40f25c3f644d38d0d64": {

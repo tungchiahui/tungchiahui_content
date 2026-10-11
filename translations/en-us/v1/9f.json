@@ -43,6 +43,34 @@
         "costUsd": 0.000072
       }
     },
+    "9f0d5965d378a7aa458bb138278c5d0b55d404aa2397d5f3c12e9ec6802cd2b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2150540f82c72953beb8cc7062009b1cd7434d76840c6eafb8a69545bee0b257",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在这个包下，频率静止时在 20 Hz,手柄活跃后在 500 Hz上。",
+      "translatedText": "In this package, the frequency is stationary at 20 Hz, and after the handle becomes active, it is at 500 Hz\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "9f0db5a6617364fac855593ee4102d8cf3c7e12a00e17e197851687b7f54b765": {
+      "normalizationVersion": 1,
+      "sourceHash": "75a2f3fe2cab2f5bbd7aed90b378ef55b364ab953d7b602eb4d36529e42a4223",
+      "contextFingerprint": "ec0482e8418a1cef6d69ff182185537bc0973367caeee6aa9dfff34d414eb68b",
+      "sourceText": "前面咱们介绍过，要发布机器人模型我们所使用的节点是`robot_state_publisher`,所以我们在`gazebo.launch.py`中加入这个节点，同时再加上rviz2的启动节点，最终的`gazebo.launch.py`内容如下：",
+      "translatedText": "Previously, we introduced that the node we use to publish the robot model is`robot_state_publisher`, so we add this node in`gazebo.launch.py`and also add the rviz2 launch node\\. The final`gazebo.launch.py`content is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
     "9f0dc25542ad07f296d22fd14319b7530c346b9e163d7a353c9d2bf280fa045a": {
       "normalizationVersion": 1,
       "sourceHash": "6159586378602eb7e0f42e635d88f7b71c6c002d848898c7d9f158901bacae7f",
@@ -295,6 +323,20 @@
         "costUsd": 0.00008
       }
     },
+    "9f70416adb5dc3c57c1f15da941ad38c344d6a853f9e1dfdfa21bf8faa2f9dad": {
+      "normalizationVersion": 1,
+      "sourceHash": "98cafef22b7ed1486d01aad9be49e8c61ba3bd2cd6abbeee6f3d2166218575bd",
+      "contextFingerprint": "c84d5c6d02c345c0f451781e1747fed91f9e527cf8b21c3bab3ba88ef2e9cedf",
+      "sourceText": "调用指令`ros2 interface show nav_msgs/msg/MapMetaData`查看接口格式，显示如下内容（注释已汉化）：",
+      "translatedText": "Call instruction`ros2 interface show nav_msgs/msg/MapMetaData`View the interface format; the displayed content is as follows (comments have been translated into Chinese):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "9f720a4b9ffd8e6d6ce52aa76610ddcef41695a7967181db14f5355254f15b5c": {
       "normalizationVersion": 1,
       "sourceHash": "9f559f658c6ad2f6a886401d7837de3f99520226183a1de23fc90e7d75f4e1d0",
@@ -463,6 +505,20 @@
         "costUsd": 0
       }
     },
+    "9fa7607bdb6af471c7032d7e2ef65351ace6900e81089cf911fb281c6a594235": {
+      "normalizationVersion": 1,
+      "sourceHash": "717c5dd49d962f404a7bba52078f73b48a6b66eb5db48d146b892382e249928f",
+      "contextFingerprint": "f26404c820da2edd9005fcbf04fa7b1067d0803bbf5482eaaaccb51b7720044a",
+      "sourceText": "http://rtv.github.io/Stage/modules.html",
+      "translatedText": "http://rtv.github.io/Stage/modules.html",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "9fa885c930bbd48394a037873efd660c4b59bfbe6207c25dffaa4fc2db6bb06b": {
       "normalizationVersion": 1,
       "sourceHash": "7f6a14fec02bec558e9eacb5ea5461dfcec2b00806b45dceb246beadb46c613f",
@@ -531,6 +587,20 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "9fb25ba3b07200198bd7800b20ae9dd60d7d61cb538a595514a8821009f6a8f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "95a1a77311cc234cb021f18ea3c11c97a583fea142e90b6a4c956c5f3b8ea409",
+      "contextFingerprint": "51b463996b900444391ef1042c88a8fe1885ea3216188860ef0879d1986397bc",
+      "sourceText": "`k`：停止所有运动。",
+      "translatedText": "`k`: Stop all motion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
       }
     },
     "9fb3b115304d47fd81e8cc2d1013e2e9fcfa90625d280ceef9943dec3da633b0": {
@@ -699,6 +769,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "9feaaf02e81027336ce1faa661c064f6d3fea7e8715e03f37ccce64c33cfac4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b340c228bd4788f0134e0b96c24f65afb7a88bde76eded837c262b46ebad9307",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 插件",
+      "translatedText": "#### Plugin",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "9fed01a15ba4939380f7e8c2960fb15c1943bf8ba51af9f5ffa8d1d8a87cd58e": {

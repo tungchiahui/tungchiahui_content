@@ -155,6 +155,20 @@
         "costUsd": 0.000065
       }
     },
+    "bd38a5e517492d011b105f7aa8dcfa203a3930c16faab44fd347f8a400ef19c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b552ac5b86c9a9c5280fa8da4849a4d9840395ea5ebb94221ed545a2a0fa2cb",
+      "contextFingerprint": "4d29f9f6cecd6e14112adb28cb96747b1ee3801a784da1db0596d50af0a3e2e5",
+      "sourceText": "- `bt_navigator` 成功创建 `navigate_to_pose` 和 `navigate_through_poses`。\n- `planner_server` 成功加载 `nav2_navfn_planner::NavfnPlanner`。\n- `controller_server` 成功加载 DWB 和所有 critics。\n- `behavior_server` 成功加载 `nav2_behaviors::...` 插件。\n- 在没有 Gazebo/robot_state_publisher/TF 的短启动环境里，最后停在等待 `base_link -> map` TF，这是预期的运行环境缺失，不是配置 fatal。",
+      "translatedText": "- `bt_navigator` Successfully created `navigate_to_pose` and `navigate_through_poses`\\.\n- `planner_server` Successfully loaded `nav2_navfn_planner::NavfnPlanner`\\.\n- `controller_server` Successfully loaded DWB and all critics\\.\n- `behavior_server` Successfully loaded `nav2_behaviors::...` plugin\\.\n- In a short startup environment without Gazebo/robot_state_publisher/TF, it finally stopped waiting for `base_link -> map` TF; this is an expected missing runtime environment, not a configuration fatal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 75,
+        "costUsd": 0.00015
+      }
+    },
     "bd395eff4fb0d810a5de0f74ebf1c86803f2226c2a0f667ecf085cf780a0c5b7": {
       "normalizationVersion": 1,
       "sourceHash": "51c14844f67ec78eeb55fc5fe8b139d40db28d6aa9476b0f4e0768f057957de7",
@@ -195,6 +209,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "bd40e0fc8dfcdb878c43a0612f4522e1ff2def5a742c1e6cb6a525dd9259b305": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0f4d7c40fdd064818311a9f3454bfea4a78e986ccb8e995bbe0b87f53b4f686",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Gazebo 安装完毕之后，可以通过两种方式启动。",
+      "translatedText": "After Gazebo is installed, it can be started in two ways\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "bd40f3e7fd0dd5b79c86491b2c1e97ff1d65b711c56de3ae76ca10987fa5a7e8": {
@@ -407,6 +435,20 @@
         "costUsd": 0.000116
       }
     },
+    "bd847ea0bf39a5949230393f3f062cab1d68c73c5678cd2e5ff8c77bee51ed70": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bc29f3173aff1bed303a38137817b427d3b1f7a704d36220457215e50ed62d3",
+      "contextFingerprint": "35f9a6cbcbe15c6aebbec1cb9af66e57005c981a7ed137e9b5af52d85adad042",
+      "sourceText": "在功能包下，新建launch和params文件夹，在launch目录下新建名为`mycar_loca.launch.py`的文件，并输入如下内容：",
+      "translatedText": "Under the package, create new launch and params folders, and in the launch directory create a new file named`mycar_loca.launch.py`and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
     "bd866c530cfa1986a3f64ce76e1c85671616bb4ab0699dd9964f3d419ab5d9a5": {
       "normalizationVersion": 1,
       "sourceHash": "58bae29d750dab8366b4f2776c701e422462ae459dd320e93f3c9590fbce51f4",
@@ -517,6 +559,20 @@
         "inputTokens": 153,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "bdbcd07f916bc25fe38cb478e49ac32a60f3b093d0523edc265c69c4f686bbc1": {
+      "normalizationVersion": 1,
+      "sourceHash": "99493bd124f107c9fa832cb5b03aa828df2a4473dafc2f63ff817d027994e39e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面这段话是小鱼从百科中摘抄出来的，你需要知道的一个关键点是IMU可以测量以下三组数据：",
+      "translatedText": "The above passage was excerpted by Xiaoyu from an encyclopedia\\. One key point you need to know is that an IMU can measure the following three sets of data:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 42,
+        "costUsd": 0.000097
       }
     },
     "bdc0997a9bcc32f44215f1075a26599f6ce3e953b843bcada11c503a1bb0f096": {

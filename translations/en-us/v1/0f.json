@@ -225,6 +225,20 @@
         "costUsd": 0.000057
       }
     },
+    "0f30b363d8dc0a8c2bfc38ece39d20d71ae199e4af63620257232ab972df37c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0b9332d941e608d1992afad421b2a79f0f91488049545c95de488966e817c64",
+      "contextFingerprint": "6b8e8d15fd2d7250c91a1990eae25de6e243e036d61bc5f37f4ae434d940407f",
+      "sourceText": "*   drive \"diff\", \"omni\" 或 \"car\" 选择差速转向模型、全向模式或类似汽车的阿克曼模式。\n\n*   localization \"gps\" 或 \"odom\" 如果选择 “gps”，位置模型将以完全准确的精度报告位置。如果选择 “odom”，将使用简单的里程计模型，并且位置数据会随时间与真实位置的差异而漂移。里程计模型由 odom_error 属性参数化。\n\n*   localization_origin \\[x y z theta\\] 您可以使用 localization_origin 参数来设置定位坐标系的原点。默认情况下，它将复制模型的初始姿态，因此机器人将报告相对于起始位置的位置。提示: 如果将 localization_origin 设置为 \\[0 0 0 0\\] 并且定位方式为 “gps”，模型将返回其真实的全局位置。这种设置是不现实的，但在希望抽象定位细节的研究中很有用。\n\n*   odom_error \\[x y z theta\\] 在选择 “odom” 定位方式时用到的里程计误差模型参数，每个值是计算里程计位置估计时积分 x、y 和 theta 速度的误差比例的最大值。对于每个轴，如果在此处指定的值为 E，则实际比例在启动时在 -E/2 到 +E/2 的范围内随机选择。请注意，由于舍入误差，将这些值设置为零并不能让定位完美无误 - 为了实现这一点，您需要选择 “gps” 定位方式。",
+      "translatedText": "*   drive \"diff\", \"omni\" or \"car\" selects a differential steering model, omnidirectional mode, or a car\\-like Ackermann mode\\.\n\n*   localization \"gps\" or \"odom\" If \"gps\" is selected, the position model will report position with completely accurate precision\\. If \"odom\" is selected, a simple odometry model will be used, and the position data will drift over time from the true position\\. The odometry model is parameterized by the odom_error property\\.\n\n*   localization_origin \\[x y z theta\\] You can use the localization_origin parameter to set the origin of the localization coordinate system\\. By default, it will copy the model's initial pose, so the robot will report its position relative to the starting position\\. Tip: If localization_origin is set to \\[0 0 0 0\\] and the localization method is \"gps\", the model will return its true global position\\. This setup is unrealistic, but it is useful in research where you want to abstract away localization details\\.\n\n*   odom_error \\[x y z theta\\]The odometry error model parameters used when the \"odom\" localization method is selected\\. Each value is the maximum error ratio for integrating the x, y, and theta velocities when computing the odometry position estimate\\. For each axis, if the value specified here is E, the actual ratio is randomly selected at startup within the range from \\-E/2 to \\+E/2\\. Note that due to rounding errors, setting these values to zero will not make localization perfectly accurate \\- to achieve that, you need to select the \"gps\" localization method\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 467,
+        "outputTokens": 373,
+        "costUsd": 0.000588
+      }
+    },
     "0f374d3a30225dee3d87baf02b6a09335e079ac5c06a953d96b58a038b03da6e": {
       "normalizationVersion": 1,
       "sourceHash": "f936a8e45b16dc7f3228fc3bb9bf1fa85e1fd0c6d57f8ebf10c7f698ca2b81f0",
@@ -365,6 +379,20 @@
         "costUsd": 0.000066
       }
     },
+    "0f6ab1f7d743af317d533e9c3302b771f5f9e71f3fa4cee3a01462a55d720da3": {
+      "normalizationVersion": 1,
+      "sourceHash": "19c88926d699da572bd79fb85752b117825de97107c644966ecedee1e863cf9d",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  订阅的话题",
+      "translatedText": "1.  Subscribed topics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "0f6f6ad0452c5e66507cf3bc5a13a2f1ad38795925835d92c4267a3be59b426e": {
       "normalizationVersion": 1,
       "sourceHash": "95e3aeab065f2012bb57107036ec8014a4040b2af647fa143b10ebcf65876f5f",
@@ -377,6 +405,20 @@
         "inputTokens": 181,
         "outputTokens": 78,
         "costUsd": 0.000148
+      }
+    },
+    "0f6f7f6d03a882a24e3fb7b21d135929d3dd0e4abcd20b06ea84b451b6a35e27": {
+      "normalizationVersion": 1,
+      "sourceHash": "08570891b85a20a59faa0cd16c775bced7b831b8164b19b73b64a4777c87be35",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "IMU是惯性测量单元（Inertial Measurement Unit）的缩写，它是一种集成了多个惯性传感器如加速度计、陀螺仪、磁力计等的导航传感器。IMU可以实时地测量和记录其所在物体的加速度、角速度和方向等信息，并通过信号处理和数学模型来计算出物体的姿态、位置和运动状态等。",
+      "translatedText": "IMU is the abbreviation of Inertial Measurement Unit; it is a navigation sensor that integrates multiple inertial sensors such as accelerometers, gyroscopes, magnetometers, etc\\. An IMU can measure and record in real time information such as the acceleration, angular velocity, and orientation of the object in which it is located, and through signal processing and mathematical models calculate the object's attitude, position, and motion state, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 93,
+        "costUsd": 0.000172
       }
     },
     "0f73d5b8a72d633f9bf6d321a56829cf1cdbdffa8ba7c52b96346e65497ba901": {
@@ -519,6 +561,20 @@
         "costUsd": 0.000062
       }
     },
+    "0fab221088e0266ebf97e6fcd88f9ebd1a997c01ef9abe8e4a30eb0cbe4b06d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4da0e79c74e273cb19bece94b5961271f6fbbfba97faef99d1fbb11113184b5",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Linux UDP 通信",
+      "translatedText": "## Linux UDP Communication",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "0fab79f72d320be50cdf87757761f80eff11df705a847a0013fd69897438d24d": {
       "normalizationVersion": 1,
       "sourceHash": "987f75ac73c4acbf2bdd83439a2db929cfb1cff94dedeb1b7de232af5073c386",
@@ -561,6 +617,34 @@
         "costUsd": 0.000069
       }
     },
+    "0fb148a09c7e50834a329db40897d037c5adc3c85fd5cac70ac3452bba95022c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4074a055e502d0cb06a02cf02cbacfaaf096a1ca5bbd12b183875b82cc5ec46f",
+      "contextFingerprint": "621692a671142acedae8cfbc5ade986e396988c14554a553451e4601f11a4cd4",
+      "sourceText": "（3）启动rviz2，加载`/opt/ros/jazzy/share/nav2_bringup/rviz`下的`nav2_default_view.rviz`文件，再通过菜单栏的`Nav2 Goal`设置目标点，机器人就可以自动导航至目标点，并且导航中还会实现建图的功能。",
+      "translatedText": "(3) Start rviz2 and load the`/opt/ros/jazzy/share/nav2_bringup/rviz`below`nav2_default_view.rviz`file, then use the`Nav2 Goal`in the menu bar to set a target point\\. The robot will then automatically navigate to the target point, and the mapping function will also be performed during navigation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
+    "0fb281b81d60518e316eed04bd72494ff7ac27bc0feebbf1ceef45a7b4785d30": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb7c2b93e9653fb4dd7cba705f38613282c47c8e61c30806fa668dab5bd5a776",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从官网找到的imu传感器的",
+      "translatedText": "The IMU sensor found from the official website",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "0fb87fc2dc557dd63cd4f113bcd76640e3d324ccb3e6bdeb0727296f2af1ce84": {
       "normalizationVersion": 1,
       "sourceHash": "9e401bb110e96dc96650cce3833b27c47bfa951b0f073dc08979fc0c130512cd",
@@ -587,6 +671,20 @@
         "inputTokens": 137,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "0fc00f8eb1849eee114cd497dfae87471e21d80b5d92340e062976cbbf370f32": {
+      "normalizationVersion": 1,
+      "sourceHash": "375a3685e25a7a16cae51fc0bd9eb10b42b005f2ab6bf8e6174f66471c283445",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "这是ROS1的库，但是也可以从第三方源码编译这个库，用于ROS2.",
+      "translatedText": "This is a ROS1 library, but this library can also be compiled from third\\-party source code for ROS2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
       }
     },
     "0fc0231635ffb0a97030571cea686216e7f8443647390eb2809788ef74b13dd8": {
@@ -685,6 +783,34 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "0ff5ea438073783256952226fd4ea5f175e19c04483883ea5fcbcfe6ad1cc488": {
+      "normalizationVersion": 1,
+      "sourceHash": "499485c5fff35782adfcf82358c4e0d5884782fccf3d7e27a4ecb4cae8be263c",
+      "contextFingerprint": "542e09aa7d76d334ca5f0a23f1219590158c01c4ecb53dbbb0ef6f8469d66e3a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1708.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1708.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0ff66a1dc5e2570dcdba61e724dbc93fe396e5eab63e3c90ab6fbe25a15e8924": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ec2d5e78b9a13cf39b4a833e1068898ecb2ee771aeebf8167e5447a7048b9c9",
+      "contextFingerprint": "fc833eee0b05997f705bafbfcf0714e937c65bda5e2ca0f417c636293244a7c9",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /local_costmap/clearing_endpoints | sensor_msgs/msg/PointCloud2 | 清除成本图上的障碍物点云数据，通常用于动态障碍物处理 |\n| /local_costmap/costmap | nav_msgs/msg/OccupancyGrid | 本地成本图，表示机器人周围环境的可通行性 |\n| /local_costmap/costmap_raw | nav2_msgs/msg/Costmap | 未经处理的本地成本图，可能包含更详细的信息 |\n| /local_costmap/costmap_updates | map_msgs/msg/OccupancyGridUpdate | 本地成本图的更新信息，包括哪些区域发生了变化 |\n| /local_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | 发布的机器人足迹多边形，时间戳表示发布时间 |\n| /local_costmap/voxel_grid | nav2_msgs/msg/VoxelGrid | 体素网格数据，用于成本图生成中的空间划分和优化 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /local_costmap/clearing_endpoints | sensor_msgs/msg/PointCloud2 | Clears obstacle point cloud data on the costmap, typically used for dynamic obstacle handling |\n| /local_costmap/costmap | nav_msgs/msg/OccupancyGrid | Local costmap, representing the traversability of the environment around the robot |\n| /local_costmap/costmap_raw | nav2_msgs/msg/Costmap | Raw local costmap, which may contain more detailed information |\n| /local_costmap/costmap_updates | map_msgs/msg/OccupancyGridUpdate | Update information for the local costmap, including which areas have changed |\n| /local_costmap/published_footprint | geometry_msgs/msg/PolygonStamped | Published robot footprint polygon, with the timestamp indicating the publication time |\n| /local_costmap/voxel_grid | nav2_msgs/msg/VoxelGrid | Voxel grid data, used for spatial partitioning and optimization in costmap generation |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 349,
+        "outputTokens": 239,
+        "costUsd": 0.000392
       }
     },
     "0ffbbe42c71ae961750faadb19976ae22a75882a20701368e5fb9c5d48509ef1": {

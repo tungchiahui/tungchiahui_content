@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b8002b64ad8cd5f88e95f0341796abbd25088f333b50753ab7b16ae915ce6f54": {
+      "normalizationVersion": 1,
+      "sourceHash": "0391c68c201efb61b11157128fed31d24ed6cd87b4198369fefdcc3657723d18",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Ignition Gazebo 安装完毕之后，可以通过两种方式启动。",
+      "translatedText": "After Ignition Gazebo is installed, it can be launched in two ways\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "b8068a11f59d4426908dc53a9fe12c10b8ede941132c4544fbd1a09de3e221ce": {
       "normalizationVersion": 1,
       "sourceHash": "189e2eeb48735617c55083dea7f56ea70c04570cb8f45d65cc7745382b48adb0",
@@ -41,6 +55,20 @@
         "inputTokens": 137,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "b81a9eea99a945218df939d951d431cf5dbd1362342050fe190939b1a11407a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a4ea7195206f58f2a0f6e149e2ce95cf933160c26fd30d7732bacb10924f7c9",
+      "contextFingerprint": "c76212f8b3170b074ec0c65458ce82e44ecd14ed5993c822410ae71c33d6c92f",
+      "sourceText": "| 概念 | 说明 |\n|---|---|\n| IP 地址 | 用来定位网络中的设备，例如 `192.168.1.10` |\n| 端口号 | 用来区分同一设备上的不同服务，例如 `8080` |\n| Server | 服务端，负责监听端口并等待连接 |\n| Client | 客户端，主动连接服务端 |\n| Socket | 网络通信的抽象接口 |\n| 连接 | TCP 通信前需要先建立连接 |\n| 粘包 | TCP 是字节流协议，需要自己设计应用层协议 |",
+      "translatedText": "| Concept | Description |\n|---|---|\n| IP address | Used to locate a device on the network, for example `192.168.1.10` |\n| Port number | Used to distinguish different services on the same device, for example `8080` |\n| Server | The server side, responsible for listening on a port and waiting for connections |\n| Client | The client side, actively connects to the server |\n| Socket | An abstract interface for network communication |\n| Connection | A connection must be established before TCP communication |\n| Sticky packets | TCP is a byte stream protocol, so you need to design your own application\\-layer protocol |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 112,
+        "costUsd": 0.000199
       }
     },
     "b81ab9f318304e32bf280f4713489ae20e75f89176c1ae079a8b41106aebe172": {
@@ -309,6 +337,20 @@
         "costUsd": 0
       }
     },
+    "b876b633bd1b95b14120f89e656d748caa028fa9e661faa93c61b4730be3bfc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7cb6aeddb90890b2c08a600ae05e32e82313ef48ca63a879ddada63bcfdd4c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写完后的launch文件如下：",
+      "translatedText": "The completed launch file is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "b87e01bf03b2282af061f2caef3c670de7fbcb4688677760d78fa17dfd3e0fa5": {
       "normalizationVersion": 1,
       "sourceHash": "4eb14502a84d327039d252b0d5335b2c387a266e4bf2bf51a703309084175dc3",
@@ -477,6 +519,20 @@
         "costUsd": 0.000075
       }
     },
+    "b8ada2ff17165d6bed67e7c2da88ae252d4ba5b7ec129e934baaee896c1ac2e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fa5d7ce551594e3645d06abf36fd500ca44916cdf130c7308f5636e7333f9dd",
+      "contextFingerprint": "7ced35128921bf76872c222c5aaba3b1e35fad4f710c26c1d49b2745f6dc74af",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1694.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1694.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b8b2d5c9fa382b54df9eb7fad4941686f7df00c193099bdd1cae3a55d2092e35": {
       "normalizationVersion": 1,
       "sourceHash": "0f247bd9c344ecef656baf031c64bc42ded6cefa91aa3384715e596d80590960",
@@ -615,6 +671,20 @@
         "inputTokens": 146,
         "outputTokens": 31,
         "costUsd": 0.000081
+      }
+    },
+    "b8e0e42136b6abf684aa97bcac1ad3c9175edde8eb7f4716bd20f091ed457343": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b44787a9762e4af7399a14a335d51042eee831878bae7459c2b3bb0484057f5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "3.窗体参数",
+      "translatedText": "3\\. Form parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "b8ec62a2b1e553b09d7f21919c1bd0ed03fc1eeec8939c0522be34ca2586ff25": {

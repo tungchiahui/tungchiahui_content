@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3401c0ee3729dd93b13a53fbe383ac6ead3a208a764c9030808bfff8381791ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf6787269c9572da2ca8b824c7519b4e7aaf73a4cd46d0eb42c4f6a1de1035e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "五位数的长这样：",
+      "translatedText": "The five\\-digit one looks like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "340db63109a06ff99401d4ed05806efab0a34e4b11893836a98f8f6fc6b51588": {
       "normalizationVersion": 1,
       "sourceHash": "160b9b3be5d9b5ae4559cca95fa23a800357370880f355cb358c4b4543bb5309",
@@ -27,6 +41,20 @@
         "inputTokens": 139,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "34181baa54f9d76fc4d543237730f13aabc1d0b2a99ce114fa9cf1959194b4d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "664941ec5051113862b7aef9488b3223112450131da773483062a848d2d6784f",
+      "contextFingerprint": "aa577764280e243e34a78dde92018aaedba78138099b15b1fa0d8e9265a4d295",
+      "sourceText": "3.  /global_costmap/global_costmap订阅的话题",
+      "translatedText": "3.  /global_costmap/global_costmap Subscribed topics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "341f6985b08f134d5a78e830c449614b3e3a29e1a28d071f3e4415d674e6e080": {
@@ -141,6 +169,20 @@
         "costUsd": 0.000057
       }
     },
+    "3439de5f4be40adaab1d019d2a4df1c04745ea164c92881cfa42c32235dfe849": {
+      "normalizationVersion": 1,
+      "sourceHash": "85529c0ad8ac607fcdfb806a8eed1b65b2ee7f446a23ae8e97ae734125eabe74",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节我们要在Gazebo中建立一个测试的环境，其实也很简单，利用Gazebo的画墙工具即可完成。",
+      "translatedText": "In this section, we will set up a test environment in Gazebo\\. It is actually quite simple and can be done using Gazebo's wall\\-drawing tool\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
     "3441a2e6fce329af500014a000f81031575e8ce23df5c6bc48907ee163b3c238": {
       "normalizationVersion": 1,
       "sourceHash": "4f2093bd994cffa36d7a8d5019dba029dc987c4e925a185b0a9c6c3a7b6eb4dd",
@@ -181,6 +223,20 @@
         "inputTokens": 148,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "344c2f342ec9446d1b53ac46f7dffa7f3558e9781252b08ff7c0e6103e1534dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "7dc51226fd0cd0f8117a643960592e825919a943b9e88e5a8b83aeac7802c362",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总之，仿真技术虽然重要，但并不能完全替代实体测试。实体测试可以验证仿真结果的准确性，并发现仿真中可能忽略的问题。",
+      "translatedText": "In summary, although simulation technology is important, it cannot completely replace physical testing\\. Physical testing can verify the accuracy of simulation results and uncover issues that may have been overlooked in simulations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 42,
+        "costUsd": 0.000099
       }
     },
     "344e3d07b6049072ac5139d2dae0efcc0e5f4554694beba776cfc267ac9c5b57": {
@@ -267,6 +323,20 @@
         "costUsd": 0.000083
       }
     },
+    "345d1d79226c7c0cdb9dc4ca2d2abcea29d181fa9230bbc97c9ff93da783e622": {
+      "normalizationVersion": 1,
+      "sourceHash": "1489b7c212c40b5bdfab42e1133d31f7d3cda6c8519f896ffdc94838eddf2a6c",
+      "contextFingerprint": "a57d4c40045648f40ec60a02fcfce12f5d05aa31889155e57c620e5663ea27ab",
+      "sourceText": "SerialPortConfig(uint32_t baud_rate, **drivers::serial_driver::FlowControl flow_control** , drivers::serial_driver::Parity parity, drivers::serial_driver::StopBits stop_bits)",
+      "translatedText": "SerialPortConfig(uint32_t baud_rate, **drivers::serial_driver::FlowControl flow_control** , drivers::serial_driver::Parity parity, drivers::serial_driver::StopBits stop_bits)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "34693895b61f0ffe8c14ae11ced8ae7ab712b37baa715d30afb0946b024fcd36": {
       "normalizationVersion": 1,
       "sourceHash": "af3b9f08ba84373b9c0e3ef0452c73afa06c8bfd8c1ddc59ef6213a5af533cf9",
@@ -279,6 +349,34 @@
         "inputTokens": 190,
         "outputTokens": 75,
         "costUsd": 0.000147
+      }
+    },
+    "346d75edb482469d2e362dd5ac2a918ca23f445ed890329c2060ed725bc6ba16": {
+      "normalizationVersion": 1,
+      "sourceHash": "18c7aba69984ec3cd5eb79704fbf6c1dd36a28ee27317123d975359dda0a68a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不会用这个插件的话,也可以看鱼香ROS翻译好的版本(但是网站不稳定):",
+      "translatedText": "If you don't know how to use this plugin, you can also look at the version translated by YuXiang ROS (but the website is unstable):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 38,
+        "costUsd": 0.00009
+      }
+    },
+    "34745c91e153e81737cbede0e4afdabfc73bda6f322b3c5ec10be40101065891": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1fc9355583f856a86d8c52d3107c96bcec56f0d080e3bda900a3945f6480c96",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**2.线性位移标定**",
+      "translatedText": "**2\\. Linear displacement calibration**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "3474d63a0aff8583f69fec265129e61911a8987cf9551cc3d11ee40f633a9486": {
@@ -477,6 +575,20 @@
         "costUsd": 0.00008
       }
     },
+    "34a443bdb4b38ee2746e7c570e1598c006eb0f4643483793d208b0b26e872298": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cce51b38e3566d972f5dde86d46e7f554b3808993a6c4408e714656566bd95d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见工具和库包括：",
+      "translatedText": "Common tools and libraries include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "34a50581d05e730e6e059b473ca52f467a6f56cf1f2ab3fe7b40a2b9e3b1cb46": {
       "normalizationVersion": 1,
       "sourceHash": "548efccb990d2ba34a6da178dffbc2ca950acd937d96db6f76da25497d073f62",
@@ -545,6 +657,20 @@
         "inputTokens": 134,
         "outputTokens": 10,
         "costUsd": 0.000053
+      }
+    },
+    "34bf89c28f0b523c5acd4a1b15163b3feffbf310f459d2d6a1771cdaa9089633": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a47a918b7ebe6cd3636ff7ad76bbc9139c3eeab33cc15f6526e6f620e5d9f42",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 修改内容",
+      "translatedText": "## Modify content",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "34c2c8cd29ff09814ab0f3b9a59614efc74ccf3b9e34e2859c791d5cac9a402d": {
@@ -617,6 +743,20 @@
         "costUsd": 0
       }
     },
+    "34c791902a3f2bfd0ba21da465ed33917ad8cde80ea8c6a3af3e1b6ed0be0356": {
+      "normalizationVersion": 1,
+      "sourceHash": "47684b2e68cac10aeeb4aacf5818a51109faf9d5e895e57076c8e57c5814e887",
+      "contextFingerprint": "b4fe65cc4647c0863fa91be188065ce12b7fa15ab216c2671c54d95c16c00768",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1754.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1754.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "34c960aa213141ca1bfabf30bab7afb0b55980e6b066058c4ee720093280ea64": {
       "normalizationVersion": 1,
       "sourceHash": "d4c992d2b4552abe19242eb95f8d34d91ebe0d74a11de25bdf24278b740d2943",
@@ -643,6 +783,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "34d1dd4e04fcbed019754e253fcac44e945365e25f57ce50afcabc57ebb74974": {
+      "normalizationVersion": 1,
+      "sourceHash": "33289d9fbad4180304c9a581da0b4710f6d1307bf49fc41a725981a3cb7e75d4",
+      "contextFingerprint": "133f6cae9219d938ec20de89a6a274189309ae773a9bb9619122e89e6030e1de",
+      "sourceText": "### Ignition Gazebo（Gazebo Fortress，基于ROS2 Humble）",
+      "translatedText": "### Ignition Gazebo (Gazebo Fortress, based on ROS2 Humble)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
       }
     },
     "34d696d41aeb45d4693036e07943a331252fe113e1124a4c84dc8b6802fe2d5b": {
@@ -685,6 +839,34 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "34e000a1394d0fed10d1cd2bcf53743e602ce444a367f481356e3aa30d0bce80": {
+      "normalizationVersion": 1,
+      "sourceHash": "58dcdb3dc87ebd2749b62db6d3f81c68cf63a6b87446513eb5eb20d15980dfa0",
+      "contextFingerprint": "cd3e370bca4b27c7576dd4ea387e630a277da448331d49e9d64af803e97cc490",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /cmd_vel | geometry_msgs/msg/Twist | 发布经过处理或平滑后的速度控制指令的话题 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /cmd_vel | geometry_msgs/msg/Twist | Topic for publishing processed or smoothed speed control commands |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 45,
+        "costUsd": 0.000105
+      }
+    },
+    "34e5a6668a933d39bc786257925da949149961bf64c915aa0cddc57bfecc8bd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "57ead10e73003d9de001fc2eecaefd2da6865fce1768fce480491c1eb83ff003",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "节点列表",
+      "translatedText": "Node List",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "34eb2364a08aa2087c5a7922d50c66950661956e2eaca898305a4e4b3350d620": {

@@ -169,6 +169,20 @@
         "costUsd": 0.000129
       }
     },
+    "562f1bfb875896f952167f0776e982d8cc91ab6ea7a6f509d48ca5bb174f758a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dced8b4e7b8c1e904c1657fe924739c663a9f2a69b25fc5b01a0d08c65b3a1e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Gazebo是一个独立于ROS的软件，对外提供了丰富的API可以使用，gazebo的插件按照用途大致可以分为两种：",
+      "translatedText": "Gazebo is software independent of ROS that provides a rich set of APIs for external use\\. Gazebo plugins can be roughly divided into two types based on their purpose:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
     "5631ae22d552465c31284d1d60a00e1d391a06b1b47935ad1911d31f71ef9598": {
       "normalizationVersion": 1,
       "sourceHash": "07108c90c9eec440ee6c97bb76aef2140899ba965a6da6b9c52dc3a4c4738758",
@@ -195,6 +209,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "563ea34fc167a7a5f96c48580a1fabe0e0c24d6853a4231f0dbbfab42a83c83f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf100bad29c4a396bedfbb963267b85059f3db3bace25ec19c132bd6d663e304",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启动rviz2可以查看仿真环境下传感器相关数据，启动键盘控制节点后，也可以控制机器人运动。",
+      "translatedText": "Start rviz2 to view sensor\\-related data in the simulation environment\\. After starting the keyboard control node, you can also control the robot's movement\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
       }
     },
     "5644eccd5d71fa14179775a3a8e272b4c9b56b701518e8b135ec2c9b7db4c3d7": {
@@ -419,6 +447,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "567811623a1305a829a798e0547c3e43eb7f466c05da1854547f3c1ef1c04b1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9a5e89958f89ee0584906c24d4ab9f1f88c3e2e4de688b468adba21664dc6ea",
+      "contextFingerprint": "d527e66fbba1a169c82c8c3eeb837b1d5b77f90ec0210dd905981446f55cb8f0",
+      "sourceText": "| 话题 | 接口 | 描述 |\n|:---|:---|:---|\n| /reinitialize_global_localization | std_srvs/srv/Empty | 在全局范围内初始化粒子位姿 |\n| /request_nomotion_update | std_srvs/srv/Empty | 在没有运动模型更新的情况下手动触发粒子群的更新 |",
+      "translatedText": "| Topic | Interface | Description |\n|:---|:---|:---|\n| /reinitialize_global_localization | std_srvs/srv/Empty | Initialize particle poses globally |\n| /request_nomotion_update | std_srvs/srv/Empty | Manually trigger particle swarm update without motion model update |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 74,
+        "costUsd": 0.000149
       }
     },
     "56789b1b636097de7ef973a93468af7df9798a3df8b2b928ba09f812ce67de8d": {
@@ -755,6 +797,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "56ed31cf0931118dda512c42a67532d93dca883cff8bbc0809e253e7576af3b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8243b7b21ba9f8494bf084427be49db204d02fe3b9abede8f6cfac575fa54b5d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "构建功能包并执行launch文件后，运行结果如下。",
+      "translatedText": "After building the function package and executing the launch file, the run result is as follows\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     }
   }

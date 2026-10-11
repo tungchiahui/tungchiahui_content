@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7d044c53affdc1566fa0b3f7e4fa95ed83dedf8973a7035a24dad43c4b4a624c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6a3458b93d3cd0cf872cfc01bc98fa25fdc20bbec19240b16f01e75ac3426b7",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 路径平滑节点说明",
+      "translatedText": "#### Path Smoothing Node Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "7d0765793d0dcd80142395b7053a1b2492292740b519cb05947e68370a3b0376": {
       "normalizationVersion": 1,
       "sourceHash": "eb4e454bf4c8d5f43742dada8f5cdf3263cfc08f48c6dd99912c881f4afa362c",
@@ -141,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "7d1e41f8dbcd40e7b557a978e344715a2b6da3ff9c3453391420c826b1e6d0cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ab7c04b58dce570f5a0abab88705ed0bedba386d78733477ec26cca026a8b09",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "基本模型（model）模拟具有基本属性的对象；位置、大小、速度、颜色、对各种传感器的可见性等。基本模型还具有由线性列表组成的主体。在内部，基本模型被用作所有其他模型类型的基类。我们可以使用基本模型来模拟环境对象。在stage中，底盘模型、雷达模型、相机模型等都可以看作是基本模型的子类。",
+      "translatedText": "The base model simulates objects with basic properties: position, size, velocity, color, visibility to various sensors, etc\\. The base model also has a body composed of a linear list\\. Internally, the base model is used as the base class for all other model types\\. We can use the base model to simulate environmental objects\\. In stage, the chassis model, radar model, camera model, etc\\. can all be regarded as subclasses of the base model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 100,
+        "costUsd": 0.000182
+      }
+    },
     "7d25659222737be6f1183a3bbd1137d587f57090ebd88fb4348ebae888b7c76a": {
       "normalizationVersion": 1,
       "sourceHash": "10f152bd258d3aa8886503ed495058e359179cb3d0387c61a5600d20606b0652",
@@ -211,6 +239,20 @@
         "costUsd": 0.000066
       }
     },
+    "7d3168910f8af93d09d515f46d3c9eb5779743a1ce10914604e9742f12e4ef3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5620d1f8e6b3c7bb1a158bc98b91e4d8cec16c435868c1603f04f52ae998cf4e",
+      "contextFingerprint": "ca4ccf081baf9277244ef7d83408aba01df46fef0705515d2a39e07751426ba5",
+      "sourceText": "说明 URDF 根 link 带了 `<inertial>`，KDL 不支持。",
+      "translatedText": "Indicates that the URDF root link has `<inertial>`, which KDL does not support\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "7d321165c39638733f4be5975c191840646a11a1a0c3ed9e9046a3776d5f95a6": {
       "normalizationVersion": 1,
       "sourceHash": "d70124862fb8909e74314cf09219d691c7aa212b0e58f6181e3732ddac20e97f",
@@ -279,6 +321,20 @@
         "inputTokens": 286,
         "outputTokens": 170,
         "costUsd": 0.00029
+      }
+    },
+    "7d393afc7aa3aa7edade7fb6645a814d48380aa8605fc87935cf47f00a73cc0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ddac33397db1c75f86d6fb4cbe061cb677fece915a39b4d6251b6251e2f7331",
+      "contextFingerprint": "3fec86f0154f17886077fbcfe55865ec5a62b18f8c4a1aefcecb0112efd5f25a",
+      "sourceText": "##### robot_state_publisher 的 KDL 根 link 惯性警告",
+      "translatedText": "##### robot_state_publisher KDL root link inertia warning",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 23,
+        "costUsd": 0.000073
       }
     },
     "7d3c87d3a3fb38e474cdea0695fa1b42f3a4042fae5a2985ebb05e67ba416e78": {
@@ -561,6 +617,20 @@
         "costUsd": 0.000058
       }
     },
+    "7da6a94e2b2c065bc0f7cdab089e46626e4dc09a2b277d4ff4593e15669b713a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f79add6614b43cc51cf5d3e54654a862e387c1d78b0c1cb14e6d0da381287fb6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 规划器节点说明",
+      "translatedText": "#### Planner node description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "7daa5e93f329967c3e004294744bcd71966f896d85066c278d614ffe48ea4bb6": {
       "normalizationVersion": 1,
       "sourceHash": "b0c1a791822325f64ee28ceb5bf359f4470e6e7496c1e9c07e9af81d1490af3e",
@@ -685,6 +755,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "7dc387732e3bb366a79fd441afd72c28109f62c480fe5cfadaeac6e4f9d918cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ac44754d29ee131bad697ce6c7fe64d24ceeb3ad0001f44fc69e69b1e1008fb",
+      "contextFingerprint": "a547c75356772e33345b64316d32a2ec10f381bce812fb6d0906e943b5c343a3",
+      "sourceText": "我们首先需要ExecuteProcess来输入终端命令，所以要先把from launch.actions import ExecuteProcess的注释先打开。",
+      "translatedText": "We first need ExecuteProcess to input terminal commands, so we need to first uncomment from launch.actions import ExecuteProcess\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 38,
+        "costUsd": 0.000094
+      }
+    },
+    "7dcae20d97ddc5c7ee5d41c22b4462a365e6e4f47974a811eb9ce83f89ee3992": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c8ad8846f082098cbc5f4c1e2eac81426275236e99290bd4df900c52dc7d0a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仿真在机器人系统研发过程中占有举足轻重的地位，在研发与测试中较之于实体机器人实现，仿真有如下几点的显著优势:",
+      "translatedText": "Simulation plays a pivotal role in the development of robotic systems\\. Compared with implementation on physical robots during development and testing, simulation offers the following significant advantages:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 38,
+        "costUsd": 0.000094
       }
     },
     "7dd1d1927dfd3f6ebf730ec134e7b0940930fcf837d1ea2086cad1c643b3b105": {
@@ -853,6 +951,20 @@
         "inputTokens": 164,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "7df993d98f80e3312fcb6d166ae7c65ea55d875c3a1e727755263c220b622178": {
+      "normalizationVersion": 1,
+      "sourceHash": "24e368355e8f7d0b24f3771f9ac299a5e2a697126c79a9e61346b6811087a897",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Linux 串口通信",
+      "translatedText": "## Linux Serial Communication",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
       }
     },
     "7df9b63deb32697081f40a53333e0c2421a413927ba5643f8634a53a174919ca": {

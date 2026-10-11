@@ -43,6 +43,20 @@
         "costUsd": 0.000079
       }
     },
+    "07062a14270cf6c2bcfd8b53344b6f102c2c211f964fae55e04e817165599235": {
+      "normalizationVersion": 1,
+      "sourceHash": "98ee53f75b86e055557b7f3050338a375e743169dcf6dfeaebd2147d8d68cf9d",
+      "contextFingerprint": "f34329b6048b2da68478631e39b4574c8154b5c9487a4d38663855b5b3f47460",
+      "sourceText": "在`nav2_map_server`中的地图读取节点是`map_server`，该节点相关信息如下。",
+      "translatedText": "In`nav2_map_server`the map reading node is`map_server`; the related information of this node is as follows\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
     "070a5b8bd0c7343663158c4b3e400406c20567a1f130e1748a24e6046ec50881": {
       "normalizationVersion": 1,
       "sourceHash": "dbdb7c371c194280bddf8676b40719781550de682e19930382cb56cfc45d0539",
@@ -183,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "0757282687e5f8026a90f5aa64358087279b653a34184675783f5f477ead2e4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "05ee36fa50c651d4eeb0cd31af466a5a0f335a21261dccbcbd1f0b4ee123fc22",
+      "contextFingerprint": "9f01498237302381ba04666f0d728d91391b9735f1f6565ac8f2bf8e069dbf3c",
+      "sourceText": "在上述代码中，创建了`amcl`节点，并从`params`目录加载了名为`amcl.yaml`的配置文件，且由于`amcl`也是拥有生命周期的节点，所以将其添加进了生命周期管理器。最后，定位必须依赖于地图信息，因此又包含了 **地图读取基本操作**  中的launch文件，以加载地图。",
+      "translatedText": "In the above code, a `amcl` node was created, and a configuration file named `params` was loaded from the `amcl.yaml` directory\\. Since `amcl` is also a node with a lifecycle, it was added to the lifecycle manager\\. Finally, localization must rely on map information, so the launch file from **Basic Map Reading Operations** was also included to load the map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 99,
+        "costUsd": 0.000177
+      }
+    },
     "075cc349befc7a51f66b4e5ac24bbcc506865a62dea210a878c8235a6fbb3dbf": {
       "normalizationVersion": 1,
       "sourceHash": "d7b53d763e0e3481abde2f0a0bdb29aa630bf8b5e075be78cd54781bfc141fa9",
@@ -265,6 +293,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "07786fd64a2cfd88162ff953b72c066348e96e7c57e75e08351aa00bc0e33828": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed6a2d00b6cd58fb6c660afc317da33f21e905657927fa2f703d4119b1fe628b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为了可以让Ignition Gazebo识别到模型资源，下一步还需要修改用户目录下的 .bashrc 文件，添加如下代码：",
+      "translatedText": "In order for Ignition Gazebo to recognize the model resources, the next step is to modify the \\.bashrc file in the user directory and add the following code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
       }
     },
     "0778e77899cb9777c1d24deb7f6a88c9a82ab82b86380f6fec8224d2210b1776": {
@@ -407,6 +449,20 @@
         "costUsd": 0
       }
     },
+    "078d39c28298a4b40420d2dafd5784963bee8ef0c0b64ca66bb0e1af4ae246de": {
+      "normalizationVersion": 1,
+      "sourceHash": "add354f4a3c4b76c7eb32f7b948fe473998df5cb224df29eb10434b3b99e5358",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以根据个人喜好，继续设计房间模型。",
+      "translatedText": "You can also continue designing the room model according to personal preference\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "078d66f6d260eb09d4530ffc2ee53046ccc713351e6cf95325f8d3816405e964": {
       "normalizationVersion": 1,
       "sourceHash": "b9ed99c9e6242c587bd5a1a1394682c6ef1f9378ed6be821fb601939a04c9a2a",
@@ -517,6 +573,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "07c405ecacef6a4b106bf08eafb2247720f4353736517caea5c3a565946cf3ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb3e316b1e02663a3feef3df7880d33e9dbc29c396c5208920d108c2c16d9dfe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "除去和参数相关的几个服务，我们可以看到另外三个特殊服务：",
+      "translatedText": "Excluding the few services related to parameters, we can see three other special services:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "07c652f6e8f07e4aee79e2f29a77bdbc8e1f1bb6956e76c244cc510f1790a0ea": {

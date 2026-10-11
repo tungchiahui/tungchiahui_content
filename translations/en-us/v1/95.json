@@ -15,6 +15,20 @@
         "costUsd": 0.000061
       }
     },
+    "950ad7e12aecb47593c1dc040e5ed39f2f52a791c066a8cfcffb8b41776d13ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "183d9435fb5dce78de82727aa40d5abaaa693d4bdc7004ea28779cc3fd8c82a3",
+      "contextFingerprint": "c9d1a0531510f3933d722ed8e0151b88112681c879e26fc639f7b2a9a0f28fc4",
+      "sourceText": "| 方案 | 优点 | 缺点 |\n|---|---|---|\n| termios | Linux 原生、依赖最少、底层能力强 | 配置繁琐，初学者容易写错 |\n| boost::asio | C++ 工程友好，异步通信方便，适合封装 driver | 需要理解 asio 的基本模型 |\n| libserial | 简单易用，上手快 | 灵活性和工程可控性不如自己封装 |\n| serial_driver | 和 ROS 2 生态结合方便 | 离开 ROS 2 后复用性较差 |\n| pyserial | 调试快，适合脚本 | 不适合作为高性能 C++ 底层驱动主线 |",
+      "translatedText": "| Solution | Advantages | Disadvantages |\n|---|---|---|\n| termios | Native to Linux, minimal dependencies, strong low\\-level capabilities | Cumbersome configuration, beginners prone to errors |\n| boost::asio | C++ engineering\\-friendly, convenient asynchronous communication, suitable for encapsulating drivers | Requires understanding the basic asio model |\n| libserial | Simple and easy to use, quick to get started | Flexibility and engineering controllability are inferior to custom encapsulation |\n| serial_driver | Convenient integration with the ROS 2 ecosystem | Poor reusability outside of ROS 2 |\n| pyserial | Fast debugging, suitable for scripting | Not suitable as the main line for high\\-performance C++ low\\-level drivers |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 280,
+        "outputTokens": 180,
+        "costUsd": 0.0003
+      }
+    },
     "950cb8d847a1abdb09e2baa995d01a14b1dd730f39ba9c87129df3b728ebf9f3": {
       "normalizationVersion": 1,
       "sourceHash": "70b5cc800e84a710aa8c248fc62ad83b5e62e07230203629d344291d3e802a5a",
@@ -309,6 +323,20 @@
         "costUsd": 0.000053
       }
     },
+    "9570d569344db23083b963ff4be4c31e3f9b19be654f7d638c83febb54d8f8bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "3887b9b9af8e21c879350d11944044838cca4f0c40a1582afab9e602d7aca5ba",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  启动gazebo，我们可以将命令行写成一个launch节点",
+      "translatedText": "1.  To start Gazebo, we can write the command line as a launch node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "9571bd0329025c6012b7b75e91e133c432d580f4125ca44d0c13ff5c75d96b56": {
       "normalizationVersion": 1,
       "sourceHash": "1e577bf8162789d2861ff0a542431dddf2650f28acae6ab2e1dc18b0ea37b77e",
@@ -363,6 +391,20 @@
         "inputTokens": 138,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "958beddabf1b887be904ff76dc690a15d544ff7386a4c41cb7f5442a3ccceb33": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdda9cbfb5b8c1cd81a4112c6eea000709ec7a59e0150cc7ff3d3a74f59dd134",
+      "contextFingerprint": "8776235002cd0246759d2f814f72fe7231d405ace99a2cba465070bc87810c78",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1770.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1770.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "959257942de9187dc1c38478ceb3739c6c368b0c81003a2b5d889da38b7b0190": {
@@ -559,6 +601,20 @@
         "inputTokens": 146,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "95e49d8a0b5f7c0dd99c2bf99c9e7dcc66273a58933df633122eba6073b28e0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bad5cee59d7e9b52a7c7f5a09db455a8275e88314db503f7e48a417c5cf79ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面几节内容我们使用的是Ignition Gazebo内置的仿真环境，本节开始将介绍如何自行搭建仿真环境。本节案例将仿真一个长10m宽5m的矩形房间。该案例可以先启动Ignition Gazebo以拖拽的方式搭建仿真环境，然后再修改仿真环境对应的文件以调整细节。",
+      "translatedText": "In the previous sections, we used the built\\-in simulation environment of Ignition Gazebo\\. Starting from this section, we will introduce how to build a simulation environment by ourselves\\. The example in this section will simulate a rectangular room 10 m long and 5 m wide\\. In this example, you can first launch Ignition Gazebo and build the simulation environment by dragging and dropping, and then modify the files corresponding to the simulation environment to adjust the details\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 98,
+        "costUsd": 0.000177
       }
     },
     "95ea2835e7df5d91a57418fc4ae3304601faec57f2c657fe520163a7ebc2f08f": {

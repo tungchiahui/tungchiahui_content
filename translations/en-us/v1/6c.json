@@ -141,6 +141,34 @@
         "costUsd": 0.000067
       }
     },
+    "6c394d7dc57a0c8b46d355269329c892e46805b780eec17e3dd8661058646b4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "07c416c76ac831dc73a65d83da3a68e2f473b7ad4c8a450b4d6cc08695918f9e",
+      "contextFingerprint": "3f350a85ff36b565f49c473ac13f63b0882d04e27dd595cabef2788dd1b4e9ec",
+      "sourceText": "ros_gz_bridge是连接ROS2与Ignition Gazebo的桥梁，ROS2与Ignition Gazebo使用的消息并不兼容，必须通过ros_gz_bridge进行转换。",
+      "translatedText": "ros_gz_bridge is the bridge connecting ROS2 and Ignition Gazebo; ROS2 and the messages used by Ignition Gazebo are not compatible and must be converted through ros_gz_bridge\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 74,
+        "costUsd": 0.000147
+      }
+    },
+    "6c3bc46169a673a77c7629b9daf775107643313a8aca2ddca1d39420f5e4e8f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "bea6421d083b3b2def61d95a61ec8c1c209fa728760e454aa7d855f60f175ceb",
+      "contextFingerprint": "9c72c27d9aca9af593ad223ce36ec0b76cd0eff862fe99ff53a3229a34b7ff2f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1716.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1716.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6c4a3ba25cea057d0d04ff6d2b3836ea637af694954b9245f08694627bead42c": {
       "normalizationVersion": 1,
       "sourceHash": "43f0db5e466f3ec139b79ead5f723ee0f760790b4d28cbc44603ab04753466f2",
@@ -237,6 +265,20 @@
         "inputTokens": 193,
         "outputTokens": 87,
         "costUsd": 0.000163
+      }
+    },
+    "6c6a0f61bfc6ef2656f01b557df1ab77d4abc66beb79828c8046c0289ad4d98c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5986015260dfda0982eadf05ba8f7fadbbe283267456a21cb4e23bf0ed2fb69",
+      "contextFingerprint": "97be2f1325a978cef72e811a8609600333346d85dcce15e5624e78adc4c7fd9f",
+      "sourceText": "源码：https://github.com/gazebosim/docs/blob/master/harmonic/tutorials",
+      "translatedText": "Source code:https://github.com/gazebosim/docs/blob/master/harmonic/tutorials",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "6c6fdf30dcc63fca717b20d7df290ab0274d445f79463b8c1edf8a7488292565": {
@@ -421,6 +463,20 @@
         "costUsd": 0.000066
       }
     },
+    "6c9aca75436f6ff2707d15bdbcddbab65ad8345e54c7ed442898217924652a11": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b397daed67e92744ab5cf5cb38942fe328c5c115e7704abad1a8e6a73b70b80",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是对于底层驱动学习和长期工程复用来说，仍然建议先掌握 SocketCAN。",
+      "translatedText": "However, for low\\-level driver learning and long\\-term engineering reuse, it is still recommended to first master SocketCAN\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "6ca29022b8fe77d90383c410758307069538ac4ea9f670c2828e471b8c9976e4": {
       "normalizationVersion": 1,
       "sourceHash": "a30806bda6858abe577a9751eb100f7cc44f9b5c59dcc559b0eaf8d5bd6c3d4c",
@@ -491,6 +547,20 @@
         "costUsd": 0.000082
       }
     },
+    "6cbb76d0d9a6d6b1fbc3279200a1bb629bde4085f002ac1fda9aae98e1baa5ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "75bcd1e6375cf95771136abbb2bf4c89f81978ba40b00dcb78b87cf1f5354940",
+      "contextFingerprint": "7134ca19fd85f8c3c50bee9a240882d9d473bb73e22a9f3af54c4752afa31eb9",
+      "sourceText": "本节将介绍如何为仿真机器人添加雷达、相机等传感器。本节代码部分内容对于我们教程中涉及到的arduino、stm32_2w以及stm32_4w等机器人模型而言是完全通用的。",
+      "translatedText": "This section will introduce how to add sensors such as lidar and cameras to a simulated robot\\. The code content in this section is fully applicable to the robot models involved in our tutorial, such as Arduino, stm32_2w, and stm32_4w\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 70,
+        "costUsd": 0.00014
+      }
+    },
     "6cbcc3bacf60d91b425ab479fa0d74ecc7314897116f8683b38f4a810bbb9fd6": {
       "normalizationVersion": 1,
       "sourceHash": "682d6308bf4674cee00780320d6f09c1ac3bf33b0d3ae077b6f5774f3839a824",
@@ -517,6 +587,20 @@
         "inputTokens": 166,
         "outputTokens": 49,
         "costUsd": 0.000109
+      }
+    },
+    "6cce8356bc18309a6b2b139b0916838433a747176c4ea1f6ead772c46adaa5e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bd4d35cf45ae4df828682c94e6ab0f4eadc9fbf5d800032c4df09bdbb82519a",
+      "contextFingerprint": "182672908a9cff6f971a8fbeed657df5f6d90d79f8e4bbb4061c2f5d282995b3",
+      "sourceText": "加什么？加点高斯噪声，高斯噪声只需要指定平均值和标准差两个参数即可，不过因为IMU传感器的特殊性，我们还需要给模型添加两个偏差参数，分别是 `平均值偏差`和`标准差偏差`。",
+      "translatedText": "What to add? Add some Gaussian noise\\. Gaussian noise only requires specifying two parameters: the mean and the standard deviation\\. However, due to the special characteristics of IMU sensors, we also need to add two bias parameters to the model, which are `平均值偏差` and `标准差偏差`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 60,
+        "costUsd": 0.000123
       }
     },
     "6cd6a3799e702ac8ff1fc8d0f26feccfd7b94435b79e096787829158aa6f0e33": {
@@ -601,6 +685,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "6cecb097cdea90e1bcdf3f6884f92480b83a0e7fbdb54e689198021aecb4d890": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4f32df6492892cc933800b677b33bfcbceb7d879ec5aba3be7d657f6c83c88e",
+      "contextFingerprint": "50203f02bd28f6a55d7e39fac2007b7c3b5925a34f9489cd3386964eae3c7244",
+      "sourceText": "底盘驱动启动之后，会持续广播一个比较重要的数据——里程计。里程计用于描述当前机器人相对于出发点的位姿以及速度等信息，里程计在机器人定位和导航的局部路径规划中有着重要的作用。在ROS2中里程计消息被封装为了`nav_msgs/msg/Odometry`接口，可通过指令`ros2 interface show nav_msgs/msg/Odometry`查看该接口的具体数据结构，结果如下：",
+      "translatedText": "After the chassis drive is started, it will continuously broadcast a relatively important type of data—odometry\\. Odometry is used to describe the current robot's pose relative to the starting point as well as velocity and other information\\. Odometry plays an important role in robot localization and local path planning for navigation\\. In ROS2, the odometry message is encapsulated as`nav_msgs/msg/Odometry`interface\\. The specific data structure of this interface can be viewed through the command`ros2 interface show nav_msgs/msg/Odometry`The result is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 110,
+        "costUsd": 0.000195
       }
     },
     "6ced4d40cb8bd4e8a39b282352db0081507e0342cd4e3fcf8a6824dd2e1c2adc": {

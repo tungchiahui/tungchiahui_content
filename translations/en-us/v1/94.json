@@ -169,6 +169,20 @@
         "costUsd": 0.000059
       }
     },
+    "944e29f8f20c3d7efacce2ef92348dd41e335246060b6f8e6844b927ce263b8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ca56d1f6cf1d1a0c3dcaea657153c4ec839dee2bb007d6dcb767162723957a7",
+      "contextFingerprint": "b53e535f3196cbde0bc350ecc7e255edfcec7f580d5f7bf1ba71b8e1ff874a44",
+      "sourceText": "注意看`js0`,`event15`这种有没有多。",
+      "translatedText": "Look carefully`js0`,`event15`Is there more of this kind?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "944fbf04d8ebbee15f6c958515d3cd21983c9d59666ab430da94b7e7e9ca3278": {
       "normalizationVersion": 1,
       "sourceHash": "37abbf8b5934be437a121268a94e91dde03b6394000f297665c0a1446a53204c",
@@ -421,6 +435,20 @@
         "costUsd": 0.000096
       }
     },
+    "94a4de1fe5de85d2ee0c9df48bc25b3e7d0bebcb02eb2e361cb1270cd92793d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e8b3a702532b959ec68d59a0f101ebe931ab4afae2e92015feb7c47925128f1",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*小提示：*",
+      "translatedText": "*Tip:*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "94a6ab13d07e50db8f9ead3e783dec4a096b5d41c49fd766807911cc47a987b2": {
       "normalizationVersion": 1,
       "sourceHash": "7167db525ac974a9bf52381abbb4cc35f6b266ec16a9106802062ec46ab6328b",
@@ -433,6 +461,34 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "94a8bcd7c57be2209ca53f39a1a01f7017aaa6a6fc37580416582c47817ddc3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7d8a640485a33dbeea1917538bb69a921f4710c56f4944d50b65bc60782e588",
+      "contextFingerprint": "da1f527e05e365d05a293ae2b27bd2cc306e81604194832d37dfe8eb937b138c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1765.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1765.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "94abf2972c9b71e081e78e9bdd9b8953edb82f0de1ec7c816e6a0ba3382e84eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "38aa759a0c5ff22c2bc1539068a431cccda4bdc4a2da3da32397222bf31e59de",
+      "contextFingerprint": "9a02b961b0a6dda63ca7f12977087fba1d35b8fe962da30b4d460d6e3c5c8137",
+      "sourceText": "*   用户将操作（如 `async_receive`）注册到 `io_context`。\n\n*   `io_context` 将异步操作挂起，并等待 I/O 事件的触发。\n\n*   当 I/O 事件触发时，`io_context` 调用对应的回调函数。",
+      "translatedText": "*   The user registers an operation (such as `async_receive`) with `io_context`\\.\n\n*   `io_context` suspends the asynchronous operation and waits for the I/O event to be triggered\\.\n\n*   When the I/O event is triggered,`io_context` invokes the corresponding callback function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 69,
+        "costUsd": 0.00014
       }
     },
     "94ad2960b14a915b097f123870ddf23da7ca17858a57c1f2172f94821f481766": {

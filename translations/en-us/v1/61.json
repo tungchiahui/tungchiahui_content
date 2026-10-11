@@ -197,6 +197,20 @@
         "costUsd": 0.000073
       }
     },
+    "6152d06055b524773a2c24b81ddcc3d32b206020b806839a2c5f6d025d2623b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "37ad06cd3e6e8e94a6e02b65c9ec0e82bfcbe92d3b7176653a45367a6e8a0fdb",
+      "contextFingerprint": "a430b2991ff5bfe1403328734c00c1cb2fb8210b3ed570a64c59d31212131716",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1668.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1668.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "615f6f52a7b1e5d121318616aab0cb716a4569c17ff70fb7462915b53d73ffa9": {
       "normalizationVersion": 1,
       "sourceHash": "217935b37cb14eeefe8747b932038569c92cce3263d2b14669b14c96ca1ecc70",
@@ -379,6 +393,34 @@
         "costUsd": 0.000393
       }
     },
+    "61c7c1250a74a201487960b703682670045967f89476ba45ecd297613cdda5aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "ccd99c1f920399796c6abc9d0be28ea1a461c7d19cf59cf66f96415130760db7",
+      "contextFingerprint": "6e428c7ace6295b07c4ebd8db1f03913186bd8d1a9a3d9d4101791baaa1da016",
+      "sourceText": "除了发布话题的代码，别忘记发布odom与base_link之间的动态坐标变换。",
+      "translatedText": "In addition to the code for publishing the topic, do not forget to publish the dynamic coordinate transformation between odom and base_link\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "61c80f0deb9c8a2fd21969be0f3a7c8bf56f348f50a98e8853e7e5de063fa5e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d95a8dd8853e352a005c4bcd8151e5be161397faec174faf12a805179ec0087",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开Gazebo->Gazebo左上角->Edit->Building Editor->左下方选Import",
+      "translatedText": "Open Gazebo \\-\\> top\\-left of Gazebo \\-\\> Edit \\-\\> Building Editor \\-\\> select Import at the bottom left",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "61cdc6759da5b8ca4881827afd5e89a7c54f4b352c0b2c0876c0bdb0bbe1b5b8": {
       "normalizationVersion": 1,
       "sourceHash": "ddbe2cc275e5202c65b26fe4a84e15820343b9223a65c5f9984ee219ba7b9347",
@@ -391,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "61d7d5099442adafcfd5086b95742751146f9e344886dbfb17ec80166f60bf95": {
+      "normalizationVersion": 1,
+      "sourceHash": "86d15497a3a54dec30e72ce68887f98e5d6e1ab81456f6c6223d9e0edf705aa7",
+      "contextFingerprint": "2e819303949f5886fa0d23000d15d4929cded720beddb7c4395695ac02b1819b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1669.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1669.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "61de6bea4b29ef08342bf13e75ff59a351b825b680ed49b5463b7d868b4e359f": {
@@ -433,6 +489,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "61e566cd88f61a2b0e9030f094f7b2a113c552575395301c526ca04149be715f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a2dbf789397c27885206e522671081fbb88b3f47122bdd19dc0f3b5c2c98263",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "Gazebo中可以直接创建机器人模型，或者也可以加载ROS2中URDF格式的机器人模型，此处我们使用后者（也可以选择用自己的urdf小车，但是注意修改launch的路径）。",
+      "translatedText": "In Gazebo, a robot model can be created directly, or a robot model in URDF format can be loaded from ROS2; here we use the latter (you may also choose to use your own URDF car, but be sure to modify the path in the launch file)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 72,
+        "costUsd": 0.00014
       }
     },
     "61f731f0b3f1cc9fe8d9a02327eb227daea136d4ebd332fe0d8b1f657a7ac3f5": {

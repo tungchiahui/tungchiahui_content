@@ -71,6 +71,20 @@
         "costUsd": 0.000099
       }
     },
+    "f61a3671a1dd5fc19bed6bad9b995e1a2b1dbec63a5c474d61d9caf9ed123588": {
+      "normalizationVersion": 1,
+      "sourceHash": "a74545ca27412f62edb7c7fa22f2af9136d45eaa94df74a8101683b701cec2c8",
+      "contextFingerprint": "04768b3100e02fe4161e3b18b8f81a88a7416f2172f3b5b3cad91d13675d31a9",
+      "sourceText": "原因是 Humble 配置在 `plugin_lib_names` 中手动列出了 Nav2 内置 BT 插件，而 Jazzy 已经自动加载这些内置插件，导致 `ComputePathToPose` 被重复注册。",
+      "translatedText": "The reason is that the Humble configuration manually lists Nav2's built\\-in BT plugins in `plugin_lib_names` , whereas Jazzy already automatically loads these built\\-in plugins, causing `ComputePathToPose` to be registered repeatedly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 45,
+        "costUsd": 0.000105
+      }
+    },
     "f61f7c964514aed7a0abad84f339ed539cef59e3ce096f116856b8fee9320aa4": {
       "normalizationVersion": 1,
       "sourceHash": "a7c38025e31e38b1ea0ecd1443cbfee3b8b62f7cc627e33a883f8f0a48195393",
@@ -141,6 +155,20 @@
         "costUsd": 0.000054
       }
     },
+    "f6374217c8ad86c4ec52f3941aebf71490c342379b74ae85b25ac1d5cac61aa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "30978544b0f25a86603c3c09693ace13afe001fba24f6fb939ae09e186652c46",
+      "contextFingerprint": "2f4286521be5f2e62ecd3d8d33ef20dc6577f268407b68d7ecec8fdee287fea7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1690.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1690.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f642edd3bb58ac8d4e7b9361206c1ef6f56a32f16bb394a9df9e5fb450fa1582": {
       "normalizationVersion": 1,
       "sourceHash": "ac6932181d31290fdb720450b31651ad323e405edf1265b19c8d0ab19d51ca99",
@@ -153,6 +181,20 @@
         "inputTokens": 139,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "f642fbc0fa9e45ba2b47279ebe9a04d77365f6ba403cc10de09b60b71a2ebc14": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ae2ac970b8fa5b7615df406fc62e709f6dbf75aff455665c33f2f15605bb1c5",
+      "contextFingerprint": "42c3a63723bfd24f615a5e5e94607785d9d4174dd70b7e208e65a95ccce959b9",
+      "sourceText": "在stage_ros2中也可以很方便的生成多个机器人。",
+      "translatedText": "In stage_ros2, multiple robots can also be generated very conveniently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     },
     "f6431c8a09c45750b296fd306b7b0bdfc2ccb13677dc8741929e22226502decd": {
@@ -267,6 +309,20 @@
         "costUsd": 0.000059
       }
     },
+    "f661804d25f55601892f12738dd23e750d2506b9bad2528c7429de62ed28fb3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "44c2283105fdb4b4d4a362b7026c417ac90a04a44a55d6a8242ab1056feb55d5",
+      "contextFingerprint": "97a3a6e315fff720087fa1c5277dfd66f58b0150dd6d8dcb6b997cd2aa449121",
+      "sourceText": "在选择使用sync_slam_toolbox_node还是async_slam_toolbox_node时，需根据应用需求和环境权衡。若实时性关键且能接受一定定位或建图误差，选择async_slam_toolbox_node。若对数据一致性和准确性要求较高，且实时性非首要考虑，则选择sync_slam_toolbox_node。另外二者的主要区别在于数据处理的方式，而两个节点发布的话题、订阅的话题、发布的服务以及使用的参数等都是一样的。",
+      "translatedText": "When deciding whether to use sync_slam_toolbox_node or async_slam_toolbox_node, a trade\\-off must be made based on application requirements and environment\\. If real\\-time performance is critical and a certain degree of localization or mapping error is acceptable, choose async_slam_toolbox_node\\. If there are higher requirements for data consistency and accuracy, and real\\-time performance is not the primary consideration, then choose sync_slam_toolbox_node\\. In addition, the main difference between the two lies in the data processing method, while the topics published, topics subscribed to, services provided, and parameters used by the two nodes are all the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 242,
+        "outputTokens": 150,
+        "costUsd": 0.000253
+      }
+    },
     "f66302cdae4fb2d30c299e53304ebafd91efa8ee044263c380acd60b25a89a00": {
       "normalizationVersion": 1,
       "sourceHash": "af05219c60de48ff7b852b98a9d880d2fb4a64e659d525f958ce915aca21589f",
@@ -279,6 +335,20 @@
         "inputTokens": 161,
         "outputTokens": 42,
         "costUsd": 0.000099
+      }
+    },
+    "f66782d53ea7f7874e9e40327f61e05dc78d46a6aed4f0b2fd0a98b5e6baf618": {
+      "normalizationVersion": 1,
+      "sourceHash": "b028b9737cb4cc3d03abffca92b6119cde2e976260632e5372a06d1fe01efb36",
+      "contextFingerprint": "9a7de16322341f674f26eecc09f9448a05e8b6a948d482ae86934c4ad4faab0f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1729.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1729.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f66b2b6f41f0b87fd64e1056ce10f03bff6ea72d143c54868b04b265d4e2273f": {
@@ -343,6 +413,34 @@
       "contextFingerprint": "4445f31fb2ea84c3f8354debc965130605d327b812e3276288acb37ca29983bb",
       "sourceText": "https://mirrors.bfsu.edu.cn/help/rosdistro/",
       "translatedText": "https://mirrors.bfsu.edu.cn/help/rosdistro/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f6886be86e9965004261e39fb36026de9bb1977239ce9bf6bb29c9df54820ee1": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa9833f3c443e1f2a0ffd7c1048d61c476b672fc7ae70cab4408b9e775017773",
+      "contextFingerprint": "ae2de71e3f4ce6c5ecb77a52db7795929e9a74bb7d62462f56620d3067de61cb",
+      "sourceText": "| ROS 2 消息类型                                  | Gazebo Transport 类型                 |\n| ------------------------------------------- | ----------------------------------- |\n| actuator_msgs/msg/Actuators                 | gz.msgs.Actuators                   |\n| geometry_msgs/msg/PoseWithCovarianceStamped | gz.msgs.PoseWithCovariance          |\n| geometry_msgs/msg/TwistStamped              | gz.msgs.Twist                       |\n| gps_msgs/msg/GPSFix                         | gz.msgs.NavSat                      |\n| marine_acoustic_msgs/msg/Dvl                | gz.msgs.DVLVelocityTracking         |\n| ros_gz_interfaces/msg/EntityWrench          | gz.msgs.EntityWrench                |\n| ros_gz_interfaces/msg/LogicalCameraImage    | gz.msgs.LogicalCameraImage          |\n| ros_gz_interfaces/msg/LogPlaybackStatistics | gz.msgs.LogPlaybackStatistics       |\n| ros_gz_interfaces/msg/ParamVec              | gz.msgs.Param                       |\n| ros_gz_interfaces/msg/ParamVec              | gz.msgs.Param_V                     |\n| ros_gz_interfaces/msg/WorldStatistics       | gz.msgs.WorldStatistics             |\n| sensor_msgs/msg/Range                       | gz.msgs.LaserScan                   |\n| vision_msgs/msg/Detection2D                 | gz.msgs.AnnotatedAxisAligned2DBox   |\n| vision_msgs/msg/Detection2DArray            | gz.msgs.AnnotatedAxisAligned2DBox_V |\n| vision_msgs/msg/Detection3D                 | gz.msgs.AnnotatedOriented3DBox      |\n| vision_msgs/msg/Detection3DArray            | gz.msgs.AnnotatedOriented3DBox_V    |",
+      "translatedText": "| ROS 2 Message type                                  | Gazebo Transport type                 |\n| ------------------------------------------- | ----------------------------------- |\n| actuator_msgs/msg/Actuators                 | gz.msgs.Actuators                   |\n| geometry_msgs/msg/PoseWithCovarianceStamped | gz.msgs.PoseWithCovariance          |\n| geometry_msgs/msg/TwistStamped              | gz.msgs.Twist                       |\n| gps_msgs/msg/GPSFix                         | gz.msgs.NavSat                      |\n| marine_acoustic_msgs/msg/Dvl                | gz.msgs.DVLVelocityTracking         |\n| ros_gz_interfaces/msg/EntityWrench          | gz.msgs.EntityWrench                |\n| ros_gz_interfaces/msg/LogicalCameraImage    | gz.msgs.LogicalCameraImage          |\n| ros_gz_interfaces/msg/LogPlaybackStatistics | gz.msgs.LogPlaybackStatistics       |\n| ros_gz_interfaces/msg/ParamVec              | gz.msgs.Param                       |\n| ros_gz_interfaces/msg/ParamVec              | gz.msgs.Param_V                     |\n| ros_gz_interfaces/msg/WorldStatistics       | gz.msgs.WorldStatistics             |\n| sensor_msgs/msg/Range                       | gz.msgs.LaserScan                   |\n| vision_msgs/msg/Detection2D                 | gz.msgs.AnnotatedAxisAligned2DBox   |\n| vision_msgs/msg/Detection2DArray            | gz.msgs.AnnotatedAxisAligned2DBox_V |\n| vision_msgs/msg/Detection3D                 | gz.msgs.AnnotatedOriented3DBox      |\n| vision_msgs/msg/Detection3DArray            | gz.msgs.AnnotatedOriented3DBox_V    |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 500,
+        "outputTokens": 376,
+        "costUsd": 0.000602
+      }
+    },
+    "f68d3c738a9256b033aa6597d12eac5fb1256c349417faf5018ae79d401997bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fd9a60365c97497d8f4525cb85286870842ab1fa3ae4daac081de5cdb62b722",
+      "contextFingerprint": "bc9f2a5019e4b3dbc339da255875707398ce17301ea6e6ca89bd86bdb9431562",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1717.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1717.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -475,6 +573,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "f6bb0d85b3c7279448ba8d675475536ab65e57d1a8ed0f6f365c3561827ecb16": {
+      "normalizationVersion": 1,
+      "sourceHash": "5da284a8c3de9b359a4801d2bed42792aea754ddec11fee75e7415d3b66f56ec",
+      "contextFingerprint": "5411af461c41e921a09bbd5c2f6884ebff7ca6752a04d84f759178da63ff76da",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1762.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1762.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f6bc320cfe15f47b222d38b8e73c8ac60a80d183f01817219f4b5db0f251090b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e57d3faf1a90513a55aee40eabcad92f2487b8eaf2ec874a1881b3aebfeea59",
+      "contextFingerprint": "5510dc9a628c63f6ee214e16da4c589d3e036d05e8465f06ed9f87df8ccf3f59",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1706.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1706.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f6c08f01651aff785bc82da3c593766241b6d7f24a1097f8d619e7a66f732417": {

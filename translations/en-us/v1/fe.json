@@ -225,6 +225,20 @@
         "costUsd": 0.000073
       }
     },
+    "fe416fcc3b8f11bf82276395a06641e2b037a22d9dfa738b7d271460349ba5bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e6bea61b7daa088e2acc8975f1574b4919795a2ed0cb36e2826ad3dc5f84aac",
+      "contextFingerprint": "da363d342e4803b6d4a1137abd988d764ead4a2329115986ec51423e5866b7e9",
+      "sourceText": "这玩意对于ROS2算法意义不是很大，控制组直接在MCU上实现即可，有需求可以学本节。 **（可以跳过本节）**",
+      "translatedText": "This is not very significant for the ROS2 algorithm; the control group can be implemented directly on the MCU, and those who need it can study this section\\.**(This section can be skipped\\.)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
     "fe45bf1eea012af6cf52fde56d5983dd20f99563e8188fc9485af4ea767c91a0": {
       "normalizationVersion": 1,
       "sourceHash": "61f9714b8a5a7c7eeea2a7ada4b804ac4081eefd855f568005009e0b512e1f4d",
@@ -421,6 +435,20 @@
         "costUsd": 0.000058
       }
     },
+    "fe760eba2a6a63372cb094a4cc6d158bc06fd700d210e9954432930399debedf": {
+      "normalizationVersion": 1,
+      "sourceHash": "e604b92167b8b0743363ee517c37a859d058f078e51586ba0e43f9fae83a3da5",
+      "contextFingerprint": "229cca8858179c275f1858f8f79215647e8d07cc939e38b1a0905598882c3d49",
+      "sourceText": "添加完，接着点击File->SaveWorld，将文件保存到我们的fishbot_descrption的world下。",
+      "translatedText": "After adding, click File\\-\\>SaveWorld to save the file to our fishbot_descrption world\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 32,
+        "costUsd": 0.000086
+      }
+    },
     "fe76d32f113f0c4942651f45f769fc79dde9101537b3af16b917dddc72697786": {
       "normalizationVersion": 1,
       "sourceHash": "4130b1935547c693f9b64c2137752aace71f2238881ad930b37f42984df2b43c",
@@ -447,6 +475,20 @@
         "inputTokens": 185,
         "outputTokens": 61,
         "costUsd": 0.000129
+      }
+    },
+    "fe84b0ef9462275434dd6eeb9abea3b95b0d3de622c7123100efa209f85bbe69": {
+      "normalizationVersion": 1,
+      "sourceHash": "e965fc3f1b3fa2f01e83b88170b6ae96c5eb731b64f4b0e601c208cc38afa5a1",
+      "contextFingerprint": "44776e52c8f99039bb175aa57947a5e8bbb044cc4c3133338fa840dfe571d0f4",
+      "sourceText": "在ROS 2下进行SLAM，通常涉及使用专门为ROS 2开发的SLAM相关软件包。这些软件包利用ROS 2的通讯框架（如话题、服务和action）来处理接收到的传感器数据，包括激光雷达、相机、惯性测量单元等。",
+      "translatedText": "Performing SLAM under ROS 2 typically involves using SLAM\\-related software packages developed specifically for ROS 2\\. These packages leverage the communication framework of ROS 2 (such as topics, services, and actions) to process received sensor data, including LiDAR, cameras, inertial measurement units, and others\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 89,
+        "costUsd": 0.00017
       }
     },
     "fe85255aac6d6d79d6b89f7c6a12cfd50df910d755af0668105d6648dd384663": {
@@ -659,6 +701,20 @@
         "costUsd": 0.000054
       }
     },
+    "feb54cd33bcb7640783c346efbd65832cfa02a98c1f502202c890082e0f27b9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "439a6387bd4f7d62facf18b74b16574b7f4c835167e55a44469506a94bccaa86",
+      "contextFingerprint": "d545a5cd06ea398531b811dd9dcdeb1681d6af55d3c82640cf0e42f6ef4ef599",
+      "sourceText": "### 什么时候使用 ros2_canopen",
+      "translatedText": "### When should ros2_canopen be used?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "feb91e5e75dec050f1db800c3dace7233f4be65c629716869f5e18bf9455c060": {
       "normalizationVersion": 1,
       "sourceHash": "5a646bc856cec35c24b0a87301b1c885da9fa468d632aead49d4650d265ddf2f",
@@ -827,6 +883,20 @@
         "costUsd": 0.000056
       }
     },
+    "fee199d225eca2c5e039582c7cf6acec609fe2b9e6c435b62edeb5e47d06f063": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d9737989ef289dd955b31ed2a2779b9449ca3750cb31ed7f8bfd445397a9a31",
+      "contextFingerprint": "f1747bc52740a92371ddfa109cce3ed17c268ba985d9ee3ab5e6918cd8a84ac6",
+      "sourceText": "*   `yaw ∈ (-π, π]` **（即 `-180°` 到 `180°`）**\n\n*   当 `yaw = π`（180°），如果继续增加，应该跳转到 `-π`（-180°），而不是 `π`。\n\n*   当 `yaw = -π`（-180°），如果继续减少，应该跳转到 `π`（180°）。",
+      "translatedText": "*   `yaw ∈ (-π, π]` **(i\\.e\\., `-180°` to `180°`)**\n\n*   When `yaw = π` (180°), if it continues to increase, it should jump to `-π` (\\-180°), not `π`\\.\n\n*   When `yaw = -π` (\\-180°), if it continues to decrease, it should jump to `π` (180°)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
     "fee6756e8e663f8f9ea8fb5a39b23ef4f090ab064309cf09cc4733e35e031137": {
       "normalizationVersion": 1,
       "sourceHash": "fdfec311f28aae4459ab29520ccb6b0b1b1bee49a904fe4b562b2757ea3abfb4",
@@ -909,6 +979,20 @@
         "inputTokens": 143,
         "outputTokens": 18,
         "costUsd": 0.000065
+      }
+    },
+    "fef8bbac175303f8fd3af1aa313dc09ff1e40cd111912ab0837f1077a0a9d783": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1ed802749485f7fb375c304494a5b541cc337081473f5f36b38b7c62794eb30",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**1.准备测量场地**",
+      "translatedText": "**1\\. Prepare the measurement site**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "fefaf176bf0ba2eb75f5ffae9c92e1e3881b04aa1f0d34b29bc573eeb9194e87": {

@@ -127,6 +127,20 @@
         "costUsd": 0.000106
       }
     },
+    "8e2e48fc37fc16861672a975a17da26c4ef8746c4257ef02b67e92761fa52141": {
+      "normalizationVersion": 1,
+      "sourceHash": "1245586a8fc9a3c47d3a216e8eaa88fd4c9c46086eb5dbce0804b26b3e8052b7",
+      "contextFingerprint": "67ad304b9905b346b4337bfb2505764b26203141378770c64581ea78d4b9010f",
+      "sourceText": "执行完毕若无异常，再调用`ros2 topic list`即可查看到`/map`话题了，说明地图消息已经被发布了。",
+      "translatedText": "After execution completes, if there are no exceptions, then call`ros2 topic list`to view the`/map`topic, indicating that the map message has been published\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
     "8e2ec04f3c6b30328c99caa7de3ed794f6eb8f571b8b5e34add7994a5a2a811f": {
       "normalizationVersion": 1,
       "sourceHash": "2a40f09f64beca3f31af8f2c30e0634dcc46e990912d016a7fbd3271096b03d5",
@@ -153,6 +167,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8e313597e1ae3d96cfbe987c4acf8329f89c872081f91d55f610cf504968a453": {
+      "normalizationVersion": 1,
+      "sourceHash": "827ff2ed5193b109c2cafec0220d1bc8742e4c56aeb9274883df452ab83ca043",
+      "contextFingerprint": "a000c84e6d553ae837d3de62984aec399b7abcfb72ec17ffb0cd009c629a85d9",
+      "sourceText": "使用`map_server`读取地图时，常用的方式有两种，分别是使用终端指令与launch文件集成。两种方式效果一致，都可以以话题的方式发布地图消息。",
+      "translatedText": "Usage`map_server`When reading a map, there are two common methods: using terminal commands and integrating via launch files\\. Both methods have the same effect and can publish map messages as topics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
       }
     },
     "8e33575b8308c11c3147594d8b0d2f3497f2ecd0dfc6c26ae63ee0bb1b2be61e": {
@@ -209,6 +237,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8e4185c795418b7b41fef0bd920147e1c522f8b2867d3265f1d68f6b27d0f05f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8717ced748c9fa47d9b9382329f5e72a0a8d9f7f504fc51e220934865daff427",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "模拟器以及rviz2将被启动，并且在rviz2中可以显示里程计、激光雷达以及深度相机等相关信息，运行结果如下。",
+      "translatedText": "The simulator and rviz2 will be launched, and in rviz2, relevant information such as odometry, LiDAR, and the depth camera can be displayed\\. The running results are as follows\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
+    "8e4501bae13b1df78e1aa0938d42e4172b9f66e6eb4b15cba1802bca9d230d75": {
+      "normalizationVersion": 1,
+      "sourceHash": "86f70524f4075d2c84c8a7f5ea33f74769a31709546c7bdc7f49e072725007ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以自行编译测试。",
+      "translatedText": "You can compile and test it yourself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "8e4687319c3af23718fc429ec04e369b209ace8958141b76e7e44a56b233cf95": {
@@ -629,6 +685,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8ef45619d47a55a3fd6822fefa9898a7ad2becbeea5cb00e2ab494f599752026": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c87c4c156a72155d4941ac34a109e4cecdfc6ceb04cc7597e5c22a3c9533b4d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "收集实际位移数据（w1）和里程计消息中的位移数据（w2），并结合驱动包配置文件中的原轮胎直径值（d1），即可计算修正后的轮胎直径值（d）。计算公式如下：",
+      "translatedText": "Collect the actual displacement data (w1) and the displacement data from the odometry message (w2), and combine them with the original tire diameter value (d1) in the driver package configuration file to calculate the corrected tire diameter value (d)\\. The calculation formula is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 65,
+        "costUsd": 0.000131
       }
     }
   }

@@ -43,6 +43,20 @@
         "costUsd": 0.000072
       }
     },
+    "080f16f32c264a977e795f748e55bda5fe277976b5490cecb784d03f08a18e69": {
+      "normalizationVersion": 1,
+      "sourceHash": "25867f9149d5a3f0007cf8866bcf36390f59ada5dd35cab0976f9c080ce67274",
+      "contextFingerprint": "9c8ee6ec5bab802ff73a123883a5af2fe04eed6e037e074361b06d69f2ad6e7c",
+      "sourceText": "*   三维加速度计加速度\n\n*   三维陀螺仪角速度\n\n*   三维磁力计（有的也没有磁力计）",
+      "translatedText": "*   3D accelerometer acceleration\n\n*   3D gyroscope angular velocity\n\n*   3D magnetometer (some do not have a magnetometer either)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "0812ace28ebaa2f09fce762ee6ad083290c2710b1278f8deec4eb567d775102c": {
       "normalizationVersion": 1,
       "sourceHash": "7abbf66d454681b2ab205b7341d6ad420c04de30c8c43060a71024d76bea966d",
@@ -253,6 +267,20 @@
         "costUsd": 0.00009
       }
     },
+    "085b6ee0b8c0bee994f6f6ac9d1f3d4b945889f7811419c024ed6014f93fe04c": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb763c820f068fb057150e178f4b8b836b159580d84f01c361b7e4d301fb14f3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果还启动 RViz，也补：",
+      "translatedText": "If RViz is also started, add:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "085fcdca33659647850ea6dd3c052a726c0690c046a06bf578d7e357adae7f85": {
       "normalizationVersion": 1,
       "sourceHash": "4c72332235be07a65c531412299ca3cb2ae4077c367d81e73f7da3411ea13e94",
@@ -351,6 +379,20 @@
         "costUsd": 0.000087
       }
     },
+    "0875463143ab65b6cfc367307ace17ac31016289266c811e8548be343e5f6aa2": {
+      "normalizationVersion": 1,
+      "sourceHash": "37ebf5b3347b1d68403492d3b39fb8271a4b2114bcf4ea8d11426e34c6eba966",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "硬件平台相当于机器人的躯体，提供了对机器人的物理支持，通常由驱动系统和执行机构两部分组成。",
+      "translatedText": "The hardware platform is equivalent to the body of a robot, providing physical support for the robot, and generally consists of two parts: the drive system and the actuator mechanism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 40,
+        "costUsd": 0.000094
+      }
+    },
     "08783d803f56e644ec27cd3935b2843960d6e4c78249bac70eab1d43de0fcb93": {
       "normalizationVersion": 1,
       "sourceHash": "76bce74764598417c5e3783ef090b08b4d2a1968839573af0ee38f8cefca88bd",
@@ -377,6 +419,20 @@
         "inputTokens": 142,
         "outputTokens": 29,
         "costUsd": 0.000078
+      }
+    },
+    "08802c1eee55f3730c909bd923d96b0eb88ba2576d0f79b81dfff2fe55455eca": {
+      "normalizationVersion": 1,
+      "sourceHash": "d19cbd355f287363b04929aa332210a6b64d3c95237a5017c7aea96030a96e1b",
+      "contextFingerprint": "36c3f5b274bf8fb73d5dfcf06d952116fccccbabc21c3425bb3c9f83c573c631",
+      "sourceText": "终端下进入功能包demo_gazebo_sim的world目录，使用指令`gz sim house.sdf`启动仿真环境，点击窗口右上的折叠按钮，搜索`Resource Spawner`并打开，点击`Local resources`并选择模型拖拽至仿真环境中。将修改后的内容保存至house.sdf文件。",
+      "translatedText": "In the terminal, enter the world directory of the package demo_gazebo_sim and use the command`gz sim house.sdf`to launch the simulation environment, click the collapse button in the upper right of the window, search for`Resource Spawner`and open it, click`Local resources`and select a model to drag into the simulation environment\\. Save the modified content to the house.sdf file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 88,
+        "costUsd": 0.000165
       }
     },
     "0881535e8c2005fd5789b65e774441e8afcae78aa81dea7246041503da7cb955": {

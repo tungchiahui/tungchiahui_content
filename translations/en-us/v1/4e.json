@@ -253,6 +253,20 @@
         "costUsd": 0.000053
       }
     },
+    "4e6e99b0fa5e4eba9e36305e6f35f2f4ab2192b67d7e540af5275a20696192b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "334a82238db33ca82971620e44a1e265ee828095e21022351804b8fff594715f",
+      "contextFingerprint": "0be0686560f1490b3428d01f06b73fcd3e3e3d30af5d67f9a919bb75e339d12d",
+      "sourceText": "- SocketCAN 是 Linux 下 CAN 通信的标准方案\n- 不依赖 ROS 2，适合普通 C++、OpenCV、Qt、嵌入式 Linux 项目\n- `can-utils` 非常适合调试和验证 CAN 设备\n- 后续可以封装成普通 C++ driver\n- 可以自然接入 `ros2_control hardware_interface`",
+      "translatedText": "- SocketCAN is the standard solution for CAN communication under Linux\n- Does not depend on ROS 2, suitable for ordinary C++, OpenCV, Qt, and embedded Linux projects\n- `can-utils` Very suitable for debugging and verifying CAN devices\n- Can later be encapsulated into an ordinary C++ driver\n- Can naturally integrate with `ros2_control hardware_interface`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 90,
+        "costUsd": 0.000171
+      }
+    },
     "4e78bd151a910a61108446330f1e45a0949fc0d52a01a8f14e91a0064a33c38c": {
       "normalizationVersion": 1,
       "sourceHash": "84d0e729a50e00ddaac5fa6a92871bc3721ac73aec83615382a0e1e561e2d363",
@@ -365,6 +379,48 @@
         "costUsd": 0.000107
       }
     },
+    "4e8c6b40103f8f89b5c5fb950e20553ff09c62127ddac6e9c1d8092c0abd6e3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dabd27632fb2c5f8737dc9a162effc7e7bcacfd5597526fcb512f38fcce0ca6",
+      "contextFingerprint": "ca624b53835118944315e08e845c484aba465a518a4255199be290d6c5ce292d",
+      "sourceText": "#### ros_gz_bridge",
+      "translatedText": "#### ros_gz_bridge",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4e8c8c6f5ef4208941190a84da3d59dbcdad7503b64e8a34efa7763c9b5f843d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b41b78e2ca291116ee9d27a2978e13c4ede3a0bfc327d5ebe01f1e250e67fd66",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**4.编译**",
+      "translatedText": "**4\\. Compile**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "4e9046dc1d71892228411a5fd74ea49f1b64931aa4808f0b82b10f7538cf701e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0375133a814c332e3d41edd130eee2f3dce454a8468dedfa60e766be0a7afdb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节我们将在仿真环境中，添加一张全局地图，请先准备一张作为全局地图的图片。",
+      "translatedText": "In this section, we will add a global map to the simulation environment\\. Please first prepare an image to serve as the global map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "4e908acd525bf971d6465875f85818a72279cc2ea05553dd53e58f3a45802ad3": {
       "normalizationVersion": 1,
       "sourceHash": "c93ae26e770d32259bf63a3f4d4daa264a490777034641d3386994d5f57e61e5",
@@ -421,6 +477,20 @@
         "costUsd": 0
       }
     },
+    "4e9e55867616210bdb7d8e79779135f06b859f91a03169294e7f0b15b137e842": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d88fd1adb39049cd2250b4bd1ea25aef0325991e03448e5260c598f02a6a7ae",
+      "contextFingerprint": "a7287b266c84a371110278e37f67b6bedfad3dc78cc7f66ec1a582f345d52e64",
+      "sourceText": "这样做的好处是，串口通信代码不会和 ROS 2 强绑定。以后即使写 OpenCV 项目、Qt 上位机或者普通 C++ 调试程序，也可以继续复用同一套串口 driver。",
+      "translatedText": "The advantage of doing this is that the serial communication code will not be tightly bound to ROS 2\\. In the future, even when writing OpenCV projects, Qt host computer applications, or ordinary C++ debugging programs, the same serial driver can continue to be reused\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 75,
+        "costUsd": 0.000147
+      }
+    },
     "4ea12d1e1dd759ddeb9163d7ebbff7d2e2d3b7835f11547516c5e0740b1375d1": {
       "normalizationVersion": 1,
       "sourceHash": "16df4a7be5714897a37ffebaecbddc921453f3b2643f925c47b41f637d0736a4",
@@ -447,6 +517,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4ea3cfd5949005ca07f6dcbce351ea71a8c597249753f8bea50184daa291975b": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd959204d6bf2300014e8bfd6b2779cd958aeb81e1b71709c714555f2ce01f06",
+      "contextFingerprint": "a91aa5008a70e2f97624de2d9c0b78c8aabb8186e9d191770b190be8b962bcad",
+      "sourceText": "4.  编译",
+      "translatedText": "4.  Compile",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
       }
     },
     "4ea7980da24b07a4bd29e0278217d85d1759c2ce6d49c162d98e22f82b4a72ee": {
@@ -575,6 +659,20 @@
         "costUsd": 0.000059
       }
     },
+    "4eca0222137ad3b45098e1ca60f3c8a27e4e3d9a08ce04fcc08b9ad2932330ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "943b11e5457277e8569ec2fb6ea2a885669923e73acd25b6c4d0e3556c6e4dff",
+      "contextFingerprint": "857b3b00cd96e075a8f5bf22239459021250a13562fcd20b7bf6c55691b9412a",
+      "sourceText": "在world目录下，新建sim.world文件，并输入如下内容：",
+      "translatedText": "In the world directory, create a new sim.world file and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "4eca7a2fa6ae4aa181fa70dbf5062c787e7afd454960a2f938cba6486318c698": {
       "normalizationVersion": 1,
       "sourceHash": "dc60df2443eeebd3b3774f388ed08acdacb02f0daba8d6e74187515bcce77026",
@@ -685,6 +783,20 @@
         "inputTokens": 187,
         "outputTokens": 77,
         "costUsd": 0.000149
+      }
+    },
+    "4eecf12c005d80f8613281b8205da4af9dfc1547eb19c91c6b98a0182fc36c55": {
+      "normalizationVersion": 1,
+      "sourceHash": "04a3999201a15747ab12bf2134155849110b8e9d4f3f419b8e18b0f039403eae",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "ROS2总代码如下：",
+      "translatedText": "ROS2The total code is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "4ef54aa18993c1990d05c7e24b1c28e0c0cbb1658e36ecda616e3dcaad6d2bd8": {

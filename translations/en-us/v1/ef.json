@@ -85,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "ef0e65982139e6cbcd828b4f2d4346551d3a20c6b9b98523cc0d563b7ba3f7e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe31bf4ab04c037b0fbd864b20cd0923a8b572a730a97dd1045f35c52c2d2126",
+      "contextFingerprint": "1590bd9c77b1cf0ea35a4c96ff2c26233b0b618e717b1ba0ca7a34ba7021c85f",
+      "sourceText": "#### slam_toolbox概述",
+      "translatedText": "#### slam_toolbox Overview",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "ef0e9b79ba4699a1103ada762b6d21ad3b1065c5c18016b53ca853808a9bff5d": {
       "normalizationVersion": 1,
       "sourceHash": "086d2479f2f25e258e1dfb25a9e056726d579de6a5fb17faae0aabf2caf815ed",
@@ -97,6 +111,20 @@
         "inputTokens": 291,
         "outputTokens": 163,
         "costUsd": 0.000283
+      }
+    },
+    "ef115e355baedacd6394da591a9b1215a9e0502380a59cf682b00f6b10e110d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5545a062a1eecfb579df755720071488783a486acb71af545ab44c362f9d8690",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "修改rqt中的参数，增加一个命名空间，然后修改一个位置，让第二个机器人和第一个相距1m的地方生产，然后点击Call。",
+      "translatedText": "Modify the parameters in rqt, add a namespace, then modify a position so that the second robot is spawned 1 m away from the first, and then click Call\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
       }
     },
     "ef18a10be311127e8f66fb82f35daa14c56ea52a83aa01abd2cb87a7c36cc18a": {
@@ -183,6 +211,20 @@
         "costUsd": 0.00012
       }
     },
+    "ef310c2c3f35d2a7fc86f0c183c6c088511192c85adbbff091aaeaa4cf5d8d29": {
+      "normalizationVersion": 1,
+      "sourceHash": "be8c04a8a6fd39d1d437c2c934434f7fb00ad1007936b85492da5e5265a14aa9",
+      "contextFingerprint": "1a0ceb18be086d6c69eb853cc2f6012b8f0f83c81291bae7a2346f3a3c032814",
+      "sourceText": "通过该指令可以将发布在`/model/vehicle_blue/cmd_vel`话题上的`geometry_msgs/msg/Twist`类型的ROS2消息转换成可以被Ignition Gzebo识别的`gz.msgs.Twist`类型的消息。",
+      "translatedText": "Through this instruction, messages published on`/model/vehicle_blue/cmd_vel`on the topic`geometry_msgs/msg/Twist`of type ROS2 can be converted into`gz.msgs.Twist`messages of the type recognizable by Ignition Gazebo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
     "ef32d9a7df752b86abaf9a5b08a1121a143426a872e10d68d80be463db013089": {
       "normalizationVersion": 1,
       "sourceHash": "ca4cbe577a80b3f2854795e5dcc807896f6c00567588c8ac286eb83c87fa32bf",
@@ -211,6 +253,20 @@
         "costUsd": 0
       }
     },
+    "ef39fd0c08312c59d983a4c1bc3effe9f224e8bd1070952958a1d6c4717045e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e96a7a5b1057b2dfcae7c7c05bd98128625e0b505de34d1891de2b7fff4392a4",
+      "contextFingerprint": "4600aedf70d3729a6e72e7da6f7614ae65d3748680c51c2203ffb2fd5ce72707",
+      "sourceText": "学习 UDP，并不代表要用 UDP 替代 ROS 2 的 topic。",
+      "translatedText": "Learning UDP does not mean using UDP to replace ROS 2's topic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 28,
+        "costUsd": 0.00008
+      }
+    },
     "ef3a3b3b2237851350df7067823ccc57fa339db79fdd9bca08d9ef1d44dd6712": {
       "normalizationVersion": 1,
       "sourceHash": "fa78a9c643eae0fafeab44cebec99b9fcf91c87aad870b8a6118351ab4ce7906",
@@ -223,6 +279,20 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "ef3ac8f732f6e1ef44298f74bb43e886e7fae76528a15691b93cefeccc2c9bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "19c3c8affe18b3929b03a50ac589cf8f15b78312107e026f0375db65b0631493",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "launch目录用于存储launch文件，rviz目录由于存储rviz2的配置文件，而world目录则用于存储Gazebo仿真环境的相关文件。",
+      "translatedText": "The launch directory is used to store launch files, the rviz directory is used to store rviz2 configuration files, and the world directory is used to store files related to the Gazebo simulation environment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 47,
+        "costUsd": 0.000105
       }
     },
     "ef3ba6f49fcd9421aee1672c8c44341a991a1ccc135d41240a0b4e99559f4fcb": {

@@ -29,6 +29,20 @@
         "costUsd": 0.000178
       }
     },
+    "5b1499fa9f4c91c58398c0680dd106b5ad0faafc90a7f8906bec049bf018ff80": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a35816ae40c03a027e0883127aec3848df5238e3fef8ec57d277d593af1bd0e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种框架对于一个250Hz（每4ms输出一次）的陀螺仪来说,最后/imu的发布频率是100Hz（每10ms发布一次）,效率也是还可以接受的.",
+      "translatedText": "For such a framework, for a 250Hz gyroscope (output once every 4ms), the final /imu publish rate is 100Hz (published once every 10ms), and the efficiency is also acceptable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 52,
+        "costUsd": 0.000113
+      }
+    },
     "5b159ec90c64dd3163cc33a98539fcc3581aa63343f4a41d7611bd1fdb6950e2": {
       "normalizationVersion": 1,
       "sourceHash": "adac37c93521e839b5028632b71c63624673ca5dc4625d8195e83188ed9e98fd",
@@ -113,6 +127,20 @@
         "costUsd": 0.000084
       }
     },
+    "5b25f3c12ab991635db2f096a170a223549711f96d8996c4240e91e49ed0a0cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "24432e518c57b99ecc952c32f6f925df1357e129478d59b16e5b9413cc46b273",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 定位节点说明",
+      "translatedText": "#### Locating Node Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "5b2654445cedb705893ecc2e9351512ce955aa0998ae0e003042f165716c0e2c": {
       "normalizationVersion": 1,
       "sourceHash": "505dd7a8ccc8cd1398fd4b33ce495d9ccfce048bebef975cf4218bb60a48fc9b",
@@ -125,6 +153,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "5b266d417275cf94603570bfb56507a989afb53ccedcc131b84a89a2cea09219": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bae048efc3800f3431f1460242f7b324b137edda77722d8cf58a3e1ba9a4a37",
+      "contextFingerprint": "005dc193b7c7cc01ccf9a59d06a6efa08d48b2a2a0e9a907c97dbea5e0f42ce7",
+      "sourceText": "- 上位机向 STM32 发送电机速度指令\n- STM32 向上位机返回编码器数据\n- 读取 IMU、GPS、激光测距模块等传感器数据\n- 使用 USB 转串口模块进行调试\n- 在 ROS 2 底盘控制中和下位机通信",
+      "translatedText": "- The host computer sends motor speed commands to the STM32\n- The STM32 returns encoder data to the host computer\n- Read sensor data such as IMU, GPS, and laser ranging modules\n- Use a USB\\-to\\-serial module for debugging\n- In ROS 2 chassis control, communicate with the lower\\-level controller",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 77,
+        "costUsd": 0.000151
       }
     },
     "5b28df6c0be983a8088d64807c5ea19b71d47d0803eb7507fd1c4b7900db8904": {
@@ -489,6 +531,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "5ba25a6652db97f1f963cf22da6231065da09a894e0886703d82d130de3fbb73": {
+      "normalizationVersion": 1,
+      "sourceHash": "36598c54475f66a9eb3abbfed76b8341e172bb29f286ee53cf8d8ca1bd869aa1",
+      "contextFingerprint": "3fbcbfbc87cfde29316cdf37bb43289b32e43500f26833e18e1e257935dd241d",
+      "sourceText": "https://github.com/ros-drivers/transport_drivers",
+      "translatedText": "https://github.com/ros-drivers/transport_drivers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "5ba362eb8aa7feb2cc36d0f1f7a9286b2045badbc36f44e43c5100a4463464cd": {

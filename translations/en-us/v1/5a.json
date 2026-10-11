@@ -43,6 +43,20 @@
         "costUsd": 0.000049
       }
     },
+    "5a1b39990643ddd2ada3a292f33c70e9a0970c3df68f8a39389b37927d61dcaa": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca3f07ea4fae9b3398b6a176db2a4046297a731abbf3407c378c8778d4a4c116",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在机器人项目中，UDP 常用于高频、实时、允许少量丢包的数据传输场景。",
+      "translatedText": "In robotics projects, UDP is commonly used for high\\-frequency, real\\-time data transmission scenarios where a small amount of packet loss is acceptable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "5a1ff0e83052dd1e2010f0c5af8a358a00d7d71b760b586bab1e0929a9accbb5": {
       "normalizationVersion": 1,
       "sourceHash": "6e93aac158465d7e2fef83fad92fb5f42aa214a0f12124aa67dab4234f6657d9",
@@ -55,6 +69,20 @@
         "inputTokens": 171,
         "outputTokens": 50,
         "costUsd": 0.000112
+      }
+    },
+    "5a20c6efe01d16958a99a1cb9869de85fbc3dfe2d0dacf228b4186148844ee23": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d7790c797d322a66fd1b257636d841c5da2a2a1b61733b540df65e309972fd4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在Gazebo中内置了许多插件，可以点击工具栏的右侧按钮自行添加，比如：可以选择 Grid Config 插件调整世界网格的特征，包括单元格大小、网格位置、单元格计数、或颜色等。",
+      "translatedText": "Many plugins are built into Gazebo and can be added by clicking the button on the right side of the toolbar\\. For example, you can select the Grid Config plugin to adjust the characteristics of the world grid, including cell size, grid position, cell count, or color, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 63,
+        "costUsd": 0.000128
       }
     },
     "5a23df698a106ef048cd23a921b12117c5c245e818c5db0aa26b063031284ac4": {
@@ -99,6 +127,20 @@
         "costUsd": 0.000061
       }
     },
+    "5a2e8947c1c671baeb182d93d730e76dd372fb46545e6dd580760ffd8f760fdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "67f1360e4741f7554be2aab01c264399b02be954b0d03cfba2a5a75aed77d75a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "SLAM建图完毕，在终端下进入工作空间，调用如下指令保存地图：",
+      "translatedText": "After SLAM mapping is complete, enter the workspace in the terminal and call the following command to save the map:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "5a35ba26f0cac33fae9a2f4686cba19ed280973c11b28ea59a56e424f1ba20d7": {
       "normalizationVersion": 1,
       "sourceHash": "c7f5dcdcde2efc926900c797e0f4f760a344498ebe70cc54f065aa3a7a3df6f7",
@@ -125,6 +167,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "5a38a0e1009807f207532363ea74894233bf4a9418a973b35144e0bfbfe2d2f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "e89f116fd57faa0f0c7674c7cbfebcbd5f7b7eb55982dd42ff5532e7b3c8ae24",
+      "contextFingerprint": "48381b05ed2e9ef6885d71a884ff398c6b1f72a965dd45f413abe1b7be4b569a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1712.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1712.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "5a3c53a632f2ab6e444042c66ad4bf8422934200fb4c9cac7da97591ae621333": {
@@ -167,6 +223,20 @@
         "inputTokens": 146,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "5a4900aaa246a5fcc3889304fbf4ef920466a80fee65d15d20c7f72c6fb6bc89": {
+      "normalizationVersion": 1,
+      "sourceHash": "883a1bde72b6f5cecfb5c1d3416ae674ff22f11069cbd6449d48ebb7dd451ee5",
+      "contextFingerprint": "a7fed6d6bc8c1e06ac5891759fa2a57e60fb9723a29b68727fb53dbae25b964c",
+      "sourceText": "> **sync_slam_toolbox_node：**\n> \n> 这是一个同步节点，会等待所有传感器数据到达后再处理，确保数据完整性和一致性，提高定位和建图准确性。但同步处理可能导致延迟，更适合对数据一致性和准确性要求高、实时性要求不高的场景。\n> \n> **async_slam_toolbox_node：**\n> \n> 与同步节点不同，这是一个异步节点，可以立即处理已接收的数据，减小延迟，提高响应速度。但异步处理可能导致数据不完全同步，定位和建图结果可能不如同步方式准确。因此，它更适合对实时性要求高、对数据一致性和准确性要求相对较低的场景。",
+      "translatedText": "> **sync_slam_toolbox_node:**\n> \n> This is a synchronous node that waits for all sensor data to arrive before processing, ensuring data integrity and consistency and improving localization and mapping accuracy\\. However, synchronous processing may cause latency, making it more suitable for scenarios with high requirements for data consistency and accuracy and low real\\-time requirements\\.\n> \n> **async_slam_toolbox_node:**\n> \n> Unlike a synchronous node, this is an asynchronous node that can immediately process received data, reducing latency and improving response speed\\. However, asynchronous processing may result in data that is not fully synchronized, and the localization and mapping results may be less accurate than with the synchronous approach\\. Therefore, it is more suitable for scenarios with high real\\-time requirements and relatively low requirements for data consistency and accuracy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 264,
+        "outputTokens": 164,
+        "costUsd": 0.000276
       }
     },
     "5a54a88688a68ceaec0c81badee35c47df23b0d65bef465c74d427b356aba8e9": {
@@ -309,6 +379,20 @@
         "costUsd": 0.000057
       }
     },
+    "5a9440de5515325c56c4fbfaff405fd80f0d938ee01e79e41319f612272c9c49": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d83406b40e84b22db0b470cb4437318615af8821ed15575ce176b55d968c338",
+      "contextFingerprint": "4cba80af30ad8dcc1e1f67d3b8bf5ce48e13fc9a7fce837158b89b4601c02c29",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1761.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1761.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5a954d224bb86dd95ad56635689d0a0193aea652f1cc7090a632e1027288e236": {
       "normalizationVersion": 1,
       "sourceHash": "a6390ba01e1ea422f5e1e9635a563b36e8c9095d74773cb182732de6104b6ba4",
@@ -349,6 +433,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "5a98cacb7a3bd8356f35559764d36e60eb70b09a940a0f1debfe6c5a6cda1ffe": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7ba5651484c91b039984085bd2afe73a310590d7766da2ec3cfb645ad6430e2",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "其数据主要包含三个部分： **（详细的接口内容请看硬件平台章节）**",
+      "translatedText": "Its data mainly consists of three parts: **(For detailed interface content, please refer to the hardware platform chapter\\.)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
       }
     },
     "5a98fcce2841649b711033acf1f90772a00eea1fb49b245abc963c83ee3a148a": {
@@ -421,6 +519,20 @@
         "costUsd": 0
       }
     },
+    "5aaa435c80394dbe245c5687e297edd241394c36391e08e76ee69fe1528af021": {
+      "normalizationVersion": 1,
+      "sourceHash": "aff43321c97d44042df371098bb1ea0067977f7b606a754fd7eeb4e532e64a76",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "2.搭建代码框架",
+      "translatedText": "2\\. Build the code framework",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "5aab3934cb222d4b0d397078389960a393516ea06f24f93cdc623afc28f8e73f": {
       "normalizationVersion": 1,
       "sourceHash": "7ab26dcf1a4b9efb51195eae964e9655b8cb079d0f622add676668eb9ea1e88d",
@@ -489,6 +601,20 @@
         "inputTokens": 164,
         "outputTokens": 45,
         "costUsd": 0.000104
+      }
+    },
+    "5acb44c2513ed8bf4ba855538354eda70026558e7693aa1f094150ecd480e5c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "5736eaf0832333b2fde3ae3469c1bbffd0076f497c421614b9973e9193387257",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**参数解释：**",
+      "translatedText": "**Parameter description:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "5acb7501438351dadb5d0bebbe2134ce284e5b44d9af938ac1129e84d121105f": {
@@ -561,6 +687,20 @@
         "costUsd": 0.000066
       }
     },
+    "5adb7de28b0aab04d34fe34a4e3a2c24c33100862154cfb1fff6241e8491b7e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "c29e24e1d10155cbf7b84e60bec741d15fce8266a22051771110a79755bab265",
+      "contextFingerprint": "febcf4b6b4b85061775a52aee1f4eb4f69fee4e578d39375e85f5c56ee6c2920",
+      "sourceText": "*   `/bond_disable_heartbeat_timeout`: 是否禁用节点间的心跳超时检查。当设置为`true`时，表示禁用该功能，可能用于减少网络通信量或适应特定网络环境。\n\n*   `always_send_full_costmap`: 是否总是发送完整的成本图。当设置为`true`时，节点将不依赖于增量更新，而是始终发送完整的成本图数据。\n\n*   `clearable_layers`: 指定可以被清除的层列表。在这个例子中，包括`obstacle_layer`、`voxel_layer`和`range_layer`，这意味着这些层中的障碍物数据可以被清除。\n\n*   `filters`: 用于指定应用于成本图的过滤器列表。此处为空，表示没有应用任何过滤器。\n\n*   `footprint`: 机器人的足迹多边形，定义了机器人在二维空间中的物理占用区域。\n\n*   `footprint_padding`: 足迹的填充量，用于在计算成本图时给机器人足迹添加额外的空间。\n\n*   `global_frame`: 全局参考坐标系的名称，通常用于定位和导航任务。\n\n*   `height`: 成本图的高度（以单元格数量计）。\n\n*   `inflation_layer`: 膨胀层的配置，用于在障碍物周围添加一定范围的膨胀区域，使机器人与障碍物保持安全距离。\n\n*   `lethal_cost_threshold`: 致命成本阈值，超过此阈值的成本值表示不可通行的区域。\n\n*   `map_topic`: 订阅的地图主题名称，用于获取全局地图信息。\n\n*   `observation_sources`: 观察源的配置，用于指定哪些传感器数据将被用于更新成本图。此处为空字符串，可能是默认值或配置方式的不同。\n\n*   `obstacle_layer`: 障碍物层的配置，用于处理来自传感器（如激光雷达）的障碍物数据。\n\n*   `origin_x`,`origin_y`: 成本图原点的X和Y坐标，定义了成本图在全局坐标系中的位置。\n\n*   `plugins`: 启用的插件列表，定义了成本图使用的不同层（如障碍物层、膨胀层等）。\n\n*   `publish_frequency`: 成本图的发布频率（以Hz为单位）。\n\n*   `resolution`: 成本图的分辨率（以米/单元格计）。\n\n*   `robot_base_frame`: 机器人基座的参考坐标系名称，用于定位机器人。\n\n*   `robot_radius`: 机器人的半径，用于在成本图中表示机器人的物理尺寸。\n\n*   `rolling_window`: 是否使用滚动窗口。当设置为`true`时，成本图将随着机器人的移动而更新其位置和范围。\n\n*   `track_unknown_space`: 是否跟踪未知空间。在某些情况下，这可能用于处理未探索或未知的区域。\n\n*   `transform_tolerance`: 变换容差，定义了接受变换的时间差和角度差的阈值。\n\n*   `trinary_costmap`: 是否使用三态成本图（通常是自由、占用、未知）。\n\n*   `unknown_cost_value`: 未知区域在成本图中的成本值。\n\n*   `update_frequency`: 成本图的更新频率（以Hz为单位），不同于发布频率。\n\n*   `use_maximum`: 是否在多个源提供相同位置的成本信息时使用最大值。\n\n*   `use_sim_time`: 是否使用模拟时间而非系统时间。这在仿真环境中很有用。\n\n*   `voxel_layer`: 体素层的配置，用于将三维空间划分为体素（体积像素），以提高成本图的处理效率。",
+      "translatedText": "*   `/bond_disable_heartbeat_timeout`: Whether to disable the heartbeat timeout check between nodes\\. When set to `true` means the feature is disabled, possibly to reduce network traffic or adapt to a specific network environment\\.\n\n*   `always_send_full_costmap`: Whether to always send the full costmap\\. When set to `true` the node will not rely on incremental updates, but will always send the full costmap data\\.\n\n*   `clearable_layers`: Specifies the list of layers that can be cleared\\. In this example, it includes `obstacle_layer` , `voxel_layer` and `range_layer` which means that obstacle data in these layers can be cleared\\.\n\n*   `filters`: Specifies the list of filters applied to the costmap\\. It is empty here, meaning no filters are applied\\.\n\n*   `footprint`: The robot's footprint polygon, which defines the robot's physical occupied area in 2D space\\.\n\n*   `footprint_padding`: The footprint padding, used to add extra space to the robot footprint when computing the costmap\\.\n\n*   `global_frame`: The name of the global reference frame, usually used for localization and navigation tasks\\.\n\n*   `height`: The height of the costmap (in number of cells)\\.\n\n*   `inflation_layer`: Configuration of the inflation layer, used to add an inflation region around obstacles so that the robot maintains a safe distance from obstacles\\.\n\n*   `lethal_cost_threshold`: The lethal cost threshold; cost values above this threshold represent impassable areas\\.\n\n*   `map_topic`: The name of the subscribed map topic, used to obtain global map information\\.\n\n*   `observation_sources`: Configuration of observation sources, used to specify which sensor data will be used to update the costmap\\. It is an empty string here, which may be a default value or a different configuration approach\\.\n\n*   `obstacle_layer`: Configuration of the obstacle layer, used to process obstacle data from sensors such as lidar\\.\n\n*   `origin_x`,`origin_y`: The X and Y coordinates of the costmap origin, defining the position of the costmap in the global coordinate system\\.\n\n*   `plugins`: The list of enabled plugins, defining the different layers used by the costmap, such as the obstacle layer and inflation layer\\.\n\n*   `publish_frequency`: The publishing frequency of the costmap (in Hz)\\.\n\n*   `resolution`: The resolution of the costmap (in meters per cell)\\.\n\n*   `robot_base_frame`: The name of the reference frame for the robot base, used to localize the robot\\.\n\n*   `robot_radius`: The radius of the robot, used to represent the robot's physical size in the costmap\\.\n\n*   `rolling_window`: Whether to use a rolling window\\. When set to `true` the costmap updates its position and extent as the robot moves\\.\n\n*   `track_unknown_space`: Whether to track unknown space\\. In some cases, this may be used to handle unexplored or unknown areas\\.\n\n*   `transform_tolerance`: Transform tolerance, defining the thresholds for acceptable time difference and angular difference in transforms\\.\n\n*   `trinary_costmap`: Whether to use a trinary costmap, typically free, occupied, and unknown\\.\n\n*   `unknown_cost_value`: The cost value of unknown areas in the costmap\\.\n\n*   `update_frequency`: The update frequency of the costmap (in Hz), which is different from the publishing frequency\\.\n\n*   `use_maximum`: Whether to use the maximum value when multiple sources provide cost information for the same location\\.\n\n*   `use_sim_time`: Whether to use simulated time instead of system time\\. This is useful in simulation environments\\.\n\n*   `voxel_layer`: Configuration of the voxel layer, used to divide 3D space into voxels (volume pixels) to improve the processing efficiency of the costmap\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 694,
+        "outputTokens": 622,
+        "costUsd": 0.000955
+      }
+    },
     "5adc87b86e273c020dc50a4e4ea41f6646d3929f9246b6621b77e14430581293": {
       "normalizationVersion": 1,
       "sourceHash": "65770a553dcff6ce082f96a970d6578e668b892986e4194fee7c0b380d997148",
@@ -601,6 +741,20 @@
         "inputTokens": 163,
         "outputTokens": 48,
         "costUsd": 0.000107
+      }
+    },
+    "5ae839c7c74306fe0706d8ddd90f7491eb1994eea7298c5b0b126341847c429e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bb8eedb898287157ae87664e864911e42142518db6a0a4e875b0ed7f7ad3524",
+      "contextFingerprint": "f3a1a6289193ca8ad1499af2d28a99cb7ef7187a333cb9444009725529efd7c2",
+      "sourceText": "*   pose \\[ x:<float> y:<float> z:<float> heading:<float> \\] 指定模型在其父坐标系中的姿态。\n\n*   size \\[ x:<float> y:<float> z:<float> \\] 指定模型在各个维度上的大小。\n\n*   origin \\[ x:<float> y:<float> z:<float> heading:<float> \\] 指定对象中心的位置，相对于其姿态。\n\n*   velocity \\[ x:<float> y:<float> z:<float> heading:<float> omega:<float> \\] 指定模型的初始速度。请注意，如果模型撞到障碍物，其速度将被设置为零。\n\n*   velocity_enable int (默认为0) 大多数模型忽略其速度状态。这样可以节省处理时间，因为大多数模型的速度永远不会被设置为非零值。一些子类（例如ModelPosition）会改变这个默认值，因为它们期望移动。用户可以在这里指定一个非零值来启用对该模型的速度控制。这与调用Model::VelocityEnable()的效果相同。\n\n*   color <string> 使用X11数据库（rgb.txt）中的颜色名称指定对象的颜色。\n\n*   bitmap filename:<string> 通过解释位图中的线条来绘制模型（支持bmp、jpeg、gif、png）。文件被打开并解析为一组线条。这些线条被缩放以适应模型当前大小所定义的矩形内。\n\n*   ctrl <string> 指定模型的控制器模块及其参数字符串。例如，字符串\"foo bar bash\"将加载libfoo.so，其Init()函数将以整个字符串作为参数进行调用（包括库名称）。控制器需要解析字符串（如果需要参数）。\n\n*   fiducial_return fiducial_id <int> 如果非零，则通过fiducialfinder传感器检测到此模型。该值用作基准标识符。\n\n*   fiducial_key <int> 仅当模型和fiducialfinder的fiducial_key值匹配时，fiducial_id模型才会被fiducialfinder检测到。这允许您在同一环境中拥有几种独立类型的基准标识，每种类型只显示在为其\"调谐\"的fiducialfinders中。\n\n*   obstacle_return <int> 如果为1，则此模型可以与具有此属性设置的其他模型发生碰撞。\n\n*   ranger_return <int> 如果为1，则该模型可以被ranger传感器检测到。\n\n*   blob_return <int> 如果为1，则该模型可以在blob_finder中被检测到（取决于其颜色）。\n\n*   laser_return <int> 如果为0，则此模型不会被激光传感器检测到。如果为1，则该模型在激光传感器中显示为正常（0）反射。如果为2，则显示为高（1）反射。\n\n*   gripper_return <int> 如果为1，则该模型可以被夹爪夹取，并且可以通过与具有非零obstacle_return的任何东西的碰撞来推动。\n\n*   gui_nose <int> 如果为1，则在模型上绘制显示其朝向的鼻子（正X轴）。\n\n*   gui_grid <int> 如果为1，则在模型上绘制比例网格。\n\n*   gui_outline <int> 如果为1，则在模型周围绘制边界框，指示其大小。\n\n*   gui_move <int> 如果为1，则模型可以在GUI窗口中通过鼠标移动。",
+      "translatedText": "*   pose \\[ x:<float> y:<float> z:<float> heading:<float> \\] Specifies the pose of the model in its parent coordinate system\\.\n\n*   size \\[ x:<float> y:<float> z:<float> \\] Specifies the size of the model in each dimension\\.\n\n*   origin \\[ x:<float> y:<float> z:<float> heading:<float> \\] Specifies the position of the object's center, relative to its pose\\.\n\n*   velocity \\[ x:<float> y:<float> z:<float> heading:<float> omega:<float> \\] Specifies the initial velocity of the model\\. Note that if the model hits an obstacle, its velocity will be set to zero\\.\n\n*   velocity_enable int (default 0) Most models ignore their velocity state\\. This saves processing time because the velocity of most models will never be set to a non\\-zero value\\. Some subclasses (e\\.g\\., ModelPosition) change this default because they expect to move\\. The user can specify a non\\-zero value here to enable velocity control for this model\\. This has the same effect as calling Model::VelocityEnable()\\.\n\n*   color <string> Specifies the color of the object using a color name from the X11 database (rgb.txt)\\.\n\n*   bitmap filename:<string> Draws the model by interpreting lines in a bitmap (supports bmp, jpeg, gif, png)\\. The file is opened and parsed into a set of lines\\. These lines are scaled to fit within the rectangle defined by the model's current size\\.\n\n*   ctrl <string> Specifies the model's controller module and its parameter string\\. For example, the string \"foo bar bash\" will load libfoo.so, whose Init() function will be called with the entire string as the argument (including the library name)\\. The controller needs to parse the string (if parameters are needed)\\.\n\n*   fiducial_return fiducial_id <int> If non\\-zero, this model is detected by fiducialfinder sensors\\. The value is used as the fiducial identifier\\.\n\n*   fiducial_key <int> Only when the fiducial_key values of the model and the fiducialfinder match will the fiducial_id model be detected by the fiducialfinder\\. This allows you to have several independent types of fiducial identification in the same environment, each type only visible to fiducialfinders \"tuned\" for it\\.\n\n*   obstacle_return <int> If 1, this model can collide with other models that have this property set\\.\n\n*   ranger_return <int> If 1, this model can be detected by ranger sensors\\.\n\n*   blob_return <int> If 1, this model can be detected in blob_finder (depending on its color)\\.\n\n*   laser_return <int> If 0, this model will not be detected by laser sensors\\. If 1, this model appears as normal (0) reflection in laser sensors\\. If 2, it appears as high (1) reflection\\.\n\n*   gripper_return <int> If 1, this model can be grasped by grippers and can be pushed by collisions with anything that has a non\\-zero obstacle_return\\.\n\n*   gui_nose <int> If 1, a nose indicating its orientation (positive X axis) is drawn on the model\\.\n\n*   gui_grid <int> If 1, a scale grid is drawn on the model\\.\n\n*   gui_outline <int> If 1, a bounding box is drawn around the model, indicating its size\\.\n\n*   gui_move <int> If 1, the model can be moved with the mouse in the GUI window\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 850,
+        "outputTokens": 789,
+        "costUsd": 0.001202
       }
     },
     "5aee45af4904633dd5de02bcfa9d583dfa7fa8fcca582f97b44059d8b7f6feb0": {
