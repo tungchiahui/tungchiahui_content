@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "6104c983440ba32066dd3e36703c94febdb1948c8c4ecab38db504086459f61a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a258289d32cd90d186e7a47c5e27ff17d162243fb7cb076ebdcf39b0c7d50e3",
+      "contextFingerprint": "5f7354884fc4de309966308c9abbad6fc4a12e6c0ea21ea3247ba08421302975",
+      "sourceText": "在`source /opt/ros/jazzy/setup.bash`的下一行加入下面这句",
+      "translatedText": "At`source /opt/ros/jazzy/setup.bash`add the following sentence on the next line",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "6105fea560bbbbc922d95e91cc4a32e5d2bc3535c8a3d9fca623128ddabcc1aa": {
       "normalizationVersion": 1,
       "sourceHash": "da884ef3c1620b9cce8e9a41baaa26c76696fbded985750a464811152b76fe4f",
@@ -71,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "612b345207e6d8fa04dd644363ecd88467a944d31870b5cf9f520b77620be077": {
+      "normalizationVersion": 1,
+      "sourceHash": "582209e20859a2a9661323e5282ef0f98144a90fe3269ac31f83c5a3eb1ba415",
+      "contextFingerprint": "ae2b1ca935bb9c95e72595bd521208f99ae4572808c8d6da301494ba38767854",
+      "sourceText": "#### hardware_spawner",
+      "translatedText": "#### hardware_spawner",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6137b6e4800a6c0ef8365fb4d7f45740cdf641562f59067f4cad7ba76b867da0": {
       "normalizationVersion": 1,
       "sourceHash": "06de9d78bfc413b6f65faf86991cb2f6a5de810b7a1087eee46af78463039b34",
@@ -99,6 +127,20 @@
         "costUsd": 0.000077
       }
     },
+    "613b51b82c08f4f5f25c786bcbee8dd226e71593b4a9865f62fcf514e6911e30": {
+      "normalizationVersion": 1,
+      "sourceHash": "45b1bfa399cdcbdc664f2603f2f2835833bf79599d5548cd70e1767e5ee7ec0d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开CubeMX(并点击最上方File->Load Project 或者 直接点击下方图中的图标)",
+      "translatedText": "Open CubeMX (and click File\\-\\>Load Project at the top, or directly click the icon shown in the figure below)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "613c061d40e6d215a183aab08c3a2d5fa1d9d18d8afc1d1f0e04901b0ef49253": {
       "normalizationVersion": 1,
       "sourceHash": "01c9b460d6482ffd24b844fa01c17f4b35b97874fcf2b50deec4c706e7c72d8e",
@@ -125,6 +167,20 @@
         "inputTokens": 175,
         "outputTokens": 91,
         "costUsd": 0.000162
+      }
+    },
+    "613d16c363eda18ebb75c053b4f31ac04438dbe13d89cbf4463b95d88a282103": {
+      "normalizationVersion": 1,
+      "sourceHash": "27fabe2c87973ac00ea35cd8fa9e128de933c3d512bd8142b1f959fe31feec85",
+      "contextFingerprint": "932d2f5b254be48f8f19a3cc85e8eca31ba12d92d7c335365619a28c396e30d3",
+      "sourceText": "以下内容根据 [官方文档](https://docs.docker.com/engine/install/ubuntu/) 修改而来。",
+      "translatedText": "The following content is modified based on the [official documentation](https://docs.docker.com/engine/install/ubuntu/)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "6140770c49b15defc7fe84e57167c9d0e8f0422da07ce09ba74364f89865fa79": {
@@ -211,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "615f5fb52506a38e41b14458d9d06b5b6cf05fd20dde64e14efde333da963fff": {
+      "normalizationVersion": 1,
+      "sourceHash": "581b6dbe5272bda898e1ba8aa623221e4fe95442d1e70760ba949a08bb2f2ff7",
+      "contextFingerprint": "307e63158033d7b87446a282de83b18819d5d6989f78e94db5e05b0c2c9be355",
+      "sourceText": "搜索`CMSIS Solution Environment Variables`:",
+      "translatedText": "Search`CMSIS Solution Environment Variables`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "615f6f52a7b1e5d121318616aab0cb716a4569c17ff70fb7462915b53d73ffa9": {
       "normalizationVersion": 1,
       "sourceHash": "217935b37cb14eeefe8747b932038569c92cce3263d2b14669b14c96ca1ecc70",
@@ -223,6 +293,20 @@
         "inputTokens": 131,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "61657fb3a0edc655cb6b90bbcb692a95f57eb52c7b3131726ba177a6adf1dfe8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fc7f9992c043f567ab208aa90e64affaa5ca70795a2624968e43600483fb768",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例子：",
+      "translatedText": "Example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "6168228c3a8b128e10f82f68ca074cf3f848f1ac2058a6fa2a924ea9349ac7bf": {
@@ -251,6 +335,20 @@
         "inputTokens": 135,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "616c8c7183250c99bd6534e7c4a3d69f2d9094035de386cf39dcbcddd8ca753e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a353311a1988c825bf1eed54b5dc7ca5746483fe0fb9319bd5425396be39a21e",
+      "contextFingerprint": "20966dade00ab870f4b2fbb4948d153702f6cde5458893ccc7fdf0d843d31126",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/07/13/image3.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/07/13/image3.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "616c9e4e8c2d8e9980c0f7fd6dbfe739dfa03fa58b3fd4588a3f7cff9eb26ade": {
@@ -309,6 +407,20 @@
         "costUsd": 0.000051
       }
     },
+    "6176ad1599f19985b374fa5132b81b2f6bbbecfbfcf373962d6d7c4903a72383": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1894c5bc058bede7883a661efdd935cb6107a8e7622ddc57aafa2049fd82ad3",
+      "contextFingerprint": "cefd40ccaf990fe657875b0cdb72303f34804145f58442a612b81d620ea51e62",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image174.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image174.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "618d7fde0a85f31ec12100393a22afe8a399f55a6631cc2b2a41a8ce952ac408": {
       "normalizationVersion": 1,
       "sourceHash": "3ca43b1a7617514c5ed4cef9cc4b0fbf91823d5603fdfd50df10ff18c7fe3308",
@@ -337,6 +449,34 @@
         "costUsd": 0.000056
       }
     },
+    "61a4ca46ddfed37d8064aa1f9674795d58bf9ac57359b87eeb8985b7cd250825": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1fb0cc90bdf96e3730f81f5e42cda7c52f8a5ce9faf7d53a1ca3b89ca54eef0",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "Docker容器≈C++类实例(即对象)",
+      "translatedText": "Docker container ≈ C++ class instance (i\\.e\\., object)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "61a9f6e15d952046223b244cb36b83350c140b20b98c97f8da87acccb80a6b45": {
+      "normalizationVersion": 1,
+      "sourceHash": "910c19a6e1c4abc9c8509e44e8222f16f8ee072e8c289371c2f5e2305e01385c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在机器人原地旋转一周时，如果机器人基坐标系与里程计坐标系相吻合，那么旋转半径参数无需调整；如果机器人基坐标系与里程计坐标系不吻合且rviz2中机器人的旋转角度大于实际旋转角度，那么请将旋转半径调大；如果机器人基坐标系与里程计坐标系不吻合且rviz2中机器人的旋转角度小于实际旋转角度，那么请将旋转半径调小。将计算出的结果写入 MyCar 机器人的配置文件对应的参数，并重新构建。",
+      "translatedText": "When the robot rotates one full turn in place, if the robot base coordinate system coincides with the odometry coordinate system, then the rotation radius parameter does not need to be adjusted; if the robot base coordinate system does not coincide with the odometry coordinate system and the robot's rotation angle in rviz2 is greater than the actual rotation angle, then increase the rotation radius; if the robot base coordinate system does not coincide with the odometry coordinate system and the robot's rotation angle in rviz2 is less than the actual rotation angle, then decrease the rotation radius\\. Write the calculated result into the corresponding parameter in the MyCar robot configuration file, and rebuild\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 236,
+        "outputTokens": 139,
+        "costUsd": 0.000238
+      }
+    },
     "61b6f17bd3de708183a14bc529949338501baf5d721990ecb679dc4058bf23ba": {
       "normalizationVersion": 1,
       "sourceHash": "7329d5efa21c9298a33f40761f539aa6fa000d81d08f1373daf3b17fa2ff8307",
@@ -349,6 +489,20 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "61b84aa22d5da879dc0d43b68ba6d666d5fe281c6a53376bee5688a79cf098c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "e00a674370ebd370d641824d6c606acfd56a3e8b0864858261155abff6dcf3db",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**4.使用**",
+      "translatedText": "**4\\. Use**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "61beb6098f06fe4f3e7bfb67c724a66458abd7e231d14dc932c7e35d4a2e930d": {
@@ -503,6 +657,20 @@
         "inputTokens": 178,
         "outputTokens": 72,
         "costUsd": 0.00014
+      }
+    },
+    "61e81abfac4380676a967b1980283115e5fe61233df6aa1cfa275bd5ef9b7286": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d0255e83477ea824c942a71ad4c3a469e6d89c94d5513bd1f77c0fa25a1c9ed",
+      "contextFingerprint": "b4e6b7a5f5378264821c390150229634313a40580b90823b2b8360d42cd04e71",
+      "sourceText": "### Linux如何配置ST-Link等调试器？",
+      "translatedText": "### How do I configure debuggers such as ST-Link on Linux?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     },
     "61f731f0b3f1cc9fe8d9a02327eb227daea136d4ebd332fe0d8b1f657a7ac3f5": {

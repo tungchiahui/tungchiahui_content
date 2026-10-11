@@ -43,6 +43,20 @@
         "costUsd": 0.000152
       }
     },
+    "d30c55fa5185629ca78dde23ae3bdd539eb22d468decd4f036e9ca7d3516481e": {
+      "normalizationVersion": 1,
+      "sourceHash": "098692a811fd7be5b239527ded9ea5d3f0a68254d54b4c9927bee9012eaa4a3c",
+      "contextFingerprint": "e742ac93da9f4796b60694022aeb31b95e83477df79ed790e2dd4be904c711a9",
+      "sourceText": "使用以下命令将当前用户添加到 `docker` 组：",
+      "translatedText": "Use the following command to add the current user to the `docker` group:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "d30cc30b7b4558a860f813d896edeb3726ac778fb4d205528bdef7c16cbdc232": {
       "normalizationVersion": 1,
       "sourceHash": "5bff3945bbeef8171a12f73efcdadfa4417db22200ff251b3ad2e0e9eba6dfad",
@@ -113,6 +127,20 @@
         "costUsd": 0.000192
       }
     },
+    "d320d2cc15b2e71c28caf023a3f0a4ef1677653d8b6430a68efc45b763042c6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "69bd4da77c71af14df4bf50c54a8a8d9bd143e5c7aa5bd5738fa5a5993bf63b5",
+      "contextFingerprint": "c15371f77bb88cdf639c557c22f4480f3b1d4ddc88039d3c33b6a46afaa1140e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1866.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1866.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d321b49b75c50309155b97fc8f71d23b15bacda06c70a96a8d689f62d84535b5": {
       "normalizationVersion": 1,
       "sourceHash": "c395bf15a46c9066804492e0f1636fed7e7031d25381cfdab916dcbf3fdb2dcf",
@@ -181,6 +209,20 @@
         "inputTokens": 189,
         "outputTokens": 71,
         "costUsd": 0.000142
+      }
+    },
+    "d3317de45ddce72a9cdb51a7c2ad39cb0bce6a2fc5ce1a0e0d5bc0cb3279104d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c0ed75103376e9f0cf778ce4530feb9e342a297fec3cb8e987928254f7ddb4c",
+      "contextFingerprint": "078283c29a12a660cf495462d760532248b5f1176c84bd757baae653eb9ffd9f",
+      "sourceText": "这里的 `wlp0s20f3` 就是当前真正连接外网的网卡。",
+      "translatedText": "Here, `wlp0s20f3` is the network interface card that is actually connected to the external network\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "d3323e56951eec7ac31149da1dc1e3c5a67b272b160f3141cef17da15a43f45b": {
@@ -281,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "d3520f50c9a432c24c1a85662677b537eb613ebee32293e0497de029073dcd53": {
+      "normalizationVersion": 1,
+      "sourceHash": "264f635c23b6cf973479d88f42edc930e81e8a72074a37637384e0d13e6e5248",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  支持Ubuntu 24.04 Noble的方式：",
+      "translatedText": "2.  Methods to support Ubuntu 24\\.04 Noble:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "d352b35d36df5ba8900015011becc8915ea6d7810b7cd7c0d3d4fb496ccd83ed": {
       "normalizationVersion": 1,
       "sourceHash": "4b355a5a9d18e61a5d04179f4deb485205bb2eadb49c333dc647fa79c0094f39",
@@ -307,6 +363,34 @@
         "inputTokens": 206,
         "outputTokens": 95,
         "costUsd": 0.000176
+      }
+    },
+    "d3553103e59552c8c4cda4e446f60f24826c44afcd57aaba56d64f904f915d75": {
+      "normalizationVersion": 1,
+      "sourceHash": "8867c5b49942ed42dde89088cdab2e41a03bf54bbe979473be6a98c2639824bc",
+      "contextFingerprint": "4e8ce2e1daced68f4d76d1b1c3948efd7b78b08cd70debc6926e0ff6a8a66114",
+      "sourceText": "6. 配置环境变量\n    1. 如果你是KDE+Wayland,则还需要下面这个步骤（Kubuntu26.04及以上，Debian13及以上，Rocky10及以上，Fedora等）\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image235.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image236.webp)\n\n    2. 如果你是KDE+X11,则还需要下面这个步骤(大多数发行版的低版本,可以用`fastfetch`看具体的用的`x11`还是`wayland`)\n\n    ```bash\n    vim ~/.config/plasma-workspace/env/fcitx5.sh\n    ```\n\n    ```bash\n    export GTK_IM_MODULE=fcitx\n    export QT_IM_MODULE=fcitx\n    export XMODIFIERS=\"@im=fcitx\"\n    export SDL_IM_MODULE=fcitx\n    export INPUT_METHOD=fcitx\n    ```\n\n    再重启\n\n7.  重启",
+      "translatedText": "6. Configure environment variables\n    1. If you are KDE+Wayland, you also need the following step (Kubuntu26.04 and above, Debian 13 and above, Rocky 10 and above, Fedora, etc\\.)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image235.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image236.webp)\n\n    2. If you are KDE+X11, you also need the following step (for older versions of most distributions, you can use`fastfetch`depends on the specific one used`x11`or`wayland`）\n\n    ```bash\n    vim ~/.config/plasma-workspace/env/fcitx5.sh\n    ```\n\n    ```bash\n    export GTK_IM_MODULE=fcitx\n    export QT_IM_MODULE=fcitx\n    export XMODIFIERS=\"@im=fcitx\"\n    export SDL_IM_MODULE=fcitx\n    export INPUT_METHOD=fcitx\n    ```\n\n    then restart\n\n7.  restart",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 113,
+        "costUsd": 0.000201
+      }
+    },
+    "d35a406aeef911c7110073d61a9e95263fa05e6693d73037b828a459696e8aab": {
+      "normalizationVersion": 1,
+      "sourceHash": "25914b2b50de35caa26c9bfb44f37df8baad7260285120e0a16c82e5c311ee11",
+      "contextFingerprint": "295a28d9009b523f587b326be2b23f08d03697a6243cc7a1ab38c28e897cd060",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1808.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1808.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d3627f1a7ccedc7715077bea14e516acfee746bdc9a1769531e5c2411104b5b3": {
@@ -365,6 +449,34 @@
         "costUsd": 0.000071
       }
     },
+    "d37f957ba99b1de0556fa0a0e97f243a9744f3d38a52a84a12aac170307f20fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3289d8e1cc65d3f71b36fc5f53b76a9dd23c66010dbad1670e097567f43ab38",
+      "contextFingerprint": "84bfd4c6ed8b2d7f1292dc79743f1de143080ad087c4abdd39c81b3f099e8e0c",
+      "sourceText": "#### C/C++插件（不推荐）",
+      "translatedText": "#### C/C\\+\\+ plugin (not recommended)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "d3814cb45c46553b39bd16aa38a906d7fbf9f9972c390131b11ba050d7afff45": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbfc2cabd90a75188c3cb3bfc554607fa9920a9f9eb55d1608aaf41f87a8fa6f",
+      "contextFingerprint": "ac18bfe68f22268032351be7b3c74c4e65107bc371b1aec35ccc72e7744c0b11",
+      "sourceText": "### CMSIS-Toolbox + STM32CubeMX Integration",
+      "translatedText": "### CMSIS-Toolbox + STM32CubeMX Integration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d3825bf954ca598513e46732dcd20d5f57964b3cfc35623982c9a9fe924a7127": {
       "normalizationVersion": 1,
       "sourceHash": "6f67d999067eaafb0ebc1287ad349fc7332c30654d187b67db0ac18c4bed633d",
@@ -405,6 +517,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d394afe3d488e2d3c092d6c8428ea3db7e62d2099dcafea83133ba593ca69f1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "43400a272ca650451ba4eeddb89945c3caa15fde5b736e4fc0180e1d8d584da9",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**2.为VScode安装远程开发插件**",
+      "translatedText": "**2\\. Install the Remote Development extension for VSCode**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "d39eac53f1b097d15eeb70713b0b134d25d5f11a90d4c0e50441cc301f8c41ae": {
@@ -463,6 +589,20 @@
         "costUsd": 0.000057
       }
     },
+    "d3afd09e26ceea8eff5824c6519f087f97e6c9e4646b8c5ddd0c0d4ddbfa181c": {
+      "normalizationVersion": 1,
+      "sourceHash": "37d31158b5b1684a5c5842fd10cd1cb75e6501e6884806a6b26812e93a212954",
+      "contextFingerprint": "d3e722cef0e1b5ff35986cbb03c2730edd092f1515b5d53ac644f503c7932d43",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image83.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image83.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d3b5ab39ad248908cd9aff6e042dab5e9a669751fef9b3c84b5bfe003a198dc2": {
       "normalizationVersion": 1,
       "sourceHash": "f1d0e1e90c75fb187183d226d21f5a0f80bd26552d9d2778e802718ccd009398",
@@ -517,6 +657,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "d3ce8e9c102b600c60444fcfc0fa37dd17307bce17ff83147b07add09ed18cbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "631667184587e1deb2e73496fa0d30701462c5f1c32c50c145b8215143674ad2",
+      "contextFingerprint": "2fa77f0dee94b75fb09d80a1a919b670e6e0873a82f1749e0f316f4fce50f348",
+      "sourceText": "由于robot_localization对融合实现已经做了很好的封装，所以整个实现流程是比较简单的。",
+      "translatedText": "Since robot_localization has already provided good encapsulation for the fusion implementation, the entire implementation process is relatively simple\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 35,
+        "costUsd": 0.000089
       }
     },
     "d3d0141bbe2e1d30402e8217852a380349c83b058471dbe0b6408818c8c48d23": {
@@ -673,6 +827,20 @@
         "costUsd": 0.000054
       }
     },
+    "d3eb88b14d94c346c3a1291fdf0909a653481e4a51a5f33f4a39f294d90bc8f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "189d40baf436e298645d8744d94c8a1262fe955763b8571b4e1d30df1b766f27",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二步在微软应用商店将Ubuntu卸载。(该步一般可以省略)",
+      "translatedText": "Step 2: Uninstall Ubuntu from the Microsoft Store\\. (This step can generally be omitted\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "d3f21d468b297152ad8259bd2254f243ebb0c0853ed7540d8ee957c429ec6473": {
       "normalizationVersion": 1,
       "sourceHash": "e362835cad3f348cff5896c9609b2c4bda2e3544c155296b195b8c3993d2c286",
@@ -721,6 +889,20 @@
       "contextFingerprint": "7c63476c67ddbe702aa080ec046068ce08bc38f39a185cc3a02280603ab4765d",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image31.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image31.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d3ffedc9c3e9da87679b1776d2d6ac5f8bf8e84584cc46fd9613513eac8cc088": {
+      "normalizationVersion": 1,
+      "sourceHash": "784442fc20c197d4afd5a51b13903467a64c48e2309b91a8d5f7c8155e0619b3",
+      "contextFingerprint": "a9ba16fa4aba8daa2c4dd42b9fc141b15db32979199300b036dc444c7bff5cfc",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image99.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image99.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

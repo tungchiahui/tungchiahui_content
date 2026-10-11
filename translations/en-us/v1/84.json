@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "8408c82660a7c6999bcd379737a1e7139bfc8711b5c6627a7ac7e0068b4df4e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "52e13c93077654cce54c60dc43d6582b9c599a7341762d414899a08da1368b9b",
+      "contextFingerprint": "ba793d741028dbe95244ab130b549b9381b35609d3d8b4f0ef3ac87495b21dbb",
+      "sourceText": "1. 基于Ubuntu24.04系统的镜像\n2. 自带CUDA和CuDNN\n3. 默认Shell环境为bash\n4. 换源为国内镜像源\n5. Shell添加上丰富的颜色",
+      "translatedText": "1. Mirror based on Ubuntu24.04 system\n2. Comes with CUDA and CuDNN\n3. Default shell environment is bash\n4. Change source to a domestic mirror source\n5. Add rich colors to Shell",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
     "840a24241d86333c8fa0c1f3289a7e6aada6dc55ba09d2ec865bd4a45a9a6206": {
       "normalizationVersion": 1,
       "sourceHash": "b717be2ad78c5df400de7fce6330684ea50a53f0ea65780ad0350f79988b6bc3",
@@ -155,6 +169,34 @@
         "costUsd": 0.000103
       }
     },
+    "843212e509b978eef5698e1f21aeafd2a6370063caf479e391ce1d9caed2acd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5b692acbeaf3702fae155e63b9cc6e2c279349a3428b555f4bcde723af4ff3d",
+      "contextFingerprint": "2605e3979bafeffa89fd8fa403b6e7e942812c7c399879863c889cfd8ffdfcdf",
+      "sourceText": "*   `read()` 读取左右轮编码器，更新左右轮 position/velocity。\n*   `diff_drive_controller.update()` 根据 `/diff_drive_controller/cmd_vel` 和轮子反馈计算左右轮目标速度，并发布里程计。\n*   `write()` 把左右轮目标速度写到电机驱动板。",
+      "translatedText": "*   `read()` Read the left and right wheel encoders, update the left and right wheel position/velocity\\.\n*   `diff_drive_controller.update()` Based on `/diff_drive_controller/cmd_vel` and wheel feedback, calculate the target speeds of the left and right wheels, and publish odometry\\.\n*   `write()` Write the target speeds of the left and right wheels to the motor driver board\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
+    "8438d3562ecb2786075a19ef45391b02d89ab2b5c4cffb8ded9c14032d8378bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "e294e2fdca948de9127a9ea8a1a6c9262fa2b347742540c219d3fd96498b5d44",
+      "contextFingerprint": "d6a1dbf647786aa7c457769ab6f49a6bfbf8500d90f933c8c7ad89779a492a54",
+      "sourceText": "看哪个会输出东西,输出东西的文件夹就是你拥有的sddm,比如xsessions输出内容的话,那就是x11的sddm,如果wayland-sessions输出内容的话你就是wayland的sddm.",
+      "translatedText": "See which one outputs content; the folder that outputs content is the sddm you have\\. For example, if xsessions outputs content, then it is the X11 sddm; if wayland-sessions outputs content, then you have the Wayland sddm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 68,
+        "costUsd": 0.000136
+      }
+    },
     "843a221f8dbae91109cbbcb75457168e15e55f44803cc6fae3da72333e8f5123": {
       "normalizationVersion": 1,
       "sourceHash": "55681df45af4588fe49dc02993d2601731afb17cae6b953ab4fa5f21a1ab9508",
@@ -167,6 +209,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "843bf59b4aa249c5ce58caed027b68a0bb6788c7c6d2bde097605807eff6b359": {
+      "normalizationVersion": 1,
+      "sourceHash": "3bf44b32895cca73d7925f8602b07551ab0092477fef11f2ff8b698aaebc7b2d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 安装",
+      "translatedText": "#### Install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "84401007629150f045765d30f54aa615b745b85419ff1b44092fde37e8378959": {
+      "normalizationVersion": 1,
+      "sourceHash": "d87bf31dee2bd778eae52ae043ae90d354464f9fe25457b348d60a448b5a0545",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下图这个busid为2-1的就是我的目标。",
+      "translatedText": "The one in the figure below with busid 2\\-1 is my target\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "844f1dba97ad16fffb1c53742bf83e2a07ec2bf9f45d1509c6993a9f2f4c5435": {
@@ -379,6 +449,20 @@
         "costUsd": 0.000056
       }
     },
+    "84869de2d215c6598e85592f36e84b915baf53675ed58a72cbbe08e901ce8038": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e96df88b5ba0a4d0672119a7664b3a0cc3f05f819ec3ac52b443ff28f50eab4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 字体问题解决",
+      "translatedText": "#### Font issue resolved",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "84968a5bbe8cabdc7dda7c2fc77b3a36973a96d9da077e3550cc2ffc56aeb87f": {
       "normalizationVersion": 1,
       "sourceHash": "e2386ed065f138391ec00cb9f7d97542ec9001ca45cc3689b75cb0791cc3842d",
@@ -519,6 +603,20 @@
         "costUsd": 0.000054
       }
     },
+    "84b7b8d7171b95b115db1d91dd18500230587f33b81455d54ac55bb2b46731bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee21b39f302670f31521a320ef762f0f21cfadb3d75cf8a374b0567da4e128fd",
+      "contextFingerprint": "cd9e4d8cdfbec7c619cb24b7dbf21828188b05d93c36575bdc2592749a88e2d8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image78.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image78.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "84bcc9e4be5746d40b33f210b25b9561c3e92fb960c89c6b867a4c9896e2fc8a": {
       "normalizationVersion": 1,
       "sourceHash": "1d184f145c0285fa1ccea09fddcf19e6ea43aeb52eba36619f6d1d44a112a850",
@@ -533,6 +631,20 @@
         "costUsd": 0.000101
       }
     },
+    "84c34a1b1086ee9c7d00a560d3b6d1b5a6f3bffd80a5a7cd303e371138482680": {
+      "normalizationVersion": 1,
+      "sourceHash": "17e6642fd12172b33b0a04d7cab407fde9b17fe93c9cbf0e6b6e55ae9bcc75b6",
+      "contextFingerprint": "f052d111db989900ba104807e3cd398780af42e7aa71d58209ccd7ae52e88cd0",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image199.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image199.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "84c47feea16416b177286f440d3333e3a9306f42a8a27bd939931e4e7764a603": {
       "normalizationVersion": 1,
       "sourceHash": "410fc33bfc9b7b285e5f25f2fe6d108b1f53eb1b8bb2324d668f4efa78e32484",
@@ -545,6 +657,20 @@
         "inputTokens": 174,
         "outputTokens": 64,
         "costUsd": 0.000129
+      }
+    },
+    "84ca9a9dd01fa670ad8af538866b9d707e09b1d30b335b5857f346c40a727be4": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcbb02852412dc154142d960a10ac9fd6be2020f9956ceef59518abbb069edcc",
+      "contextFingerprint": "28e8373c8870ac5edffe588f4c16c16191412a54b4fea6aa6a80b2c0d4c50ed9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image212.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image212.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "84cca685e57fb59e45608f58ca261dc2d2f996a0d665e688343bdec404949e2c": {
@@ -631,6 +757,20 @@
         "costUsd": 0.000196
       }
     },
+    "84edcb90b6bfa4014a8f35120c620154bf3d30c573ff08c4b32b613554b6a592": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d010700d75ad2db040ce404838dfe8d2a9bef4b84faa7207f677280c749c9c8",
+      "contextFingerprint": "a79d30bda96e066e63f7c7e60b005da573a004ac3b146232e33d087c28e4068f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image105.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image105.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "84ef56ec36866adec2b1822816d9421b9071f16d743a4d0c0a3912e017d91d19": {
       "normalizationVersion": 1,
       "sourceHash": "fda83ff82cbf4686776765c42c0c2e10f02edc08237a004b98ae99ac7a1a6efd",
@@ -643,6 +783,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "84f1120bbb4c96b1b58b0929129c759aa1881062d2ad668412598644d10da9fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "d58dc43febe54e750e08f8898cf633cf6c13d2bc79a25da3c373d9ee3a4032d7",
+      "contextFingerprint": "b1b3d5a4a4c52158fbb8fe88c3d9ad066bbeb03b84564207e721d4e8e257850e",
+      "sourceText": "http://www.autolabor.com.cn/book/ROSTutorials/",
+      "translatedText": "http://www.autolabor.com.cn/book/ROSTutorials/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "84fbee8f74a7c51c77a2344544f5a82316a2a252e35098ca58215fce0e20de46": {

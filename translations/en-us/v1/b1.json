@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b106c0d59fa1f845cb21748742c1330d0f5b4863a4702b0f648f11118e0c04e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3d39b3f112d6a2bd9c97984f3b87be62808e146a7afb55d91503b22b3559b16",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设对应：",
+      "translatedText": "Assumption correspondence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "b107f1cf81b1f83f09556495b9dbf519b55d68e24c3797439289be1073ac6fe2": {
       "normalizationVersion": 1,
       "sourceHash": "a80092fd9b895131299c0cbd21c1a68dc3c9bb3c613d7b4a5846804cdebaab2b",
@@ -113,6 +127,20 @@
         "costUsd": 0.000076
       }
     },
+    "b114c1075fc35d0b994f7c709341a9b2a66bf15908cc66ba5f905a716180bfec": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9d0750ac4b7ad38ef4227a98b436857468c9f8d26d4b0e18142db4bbd976b1b",
+      "contextFingerprint": "7e19aa583623b5f937aaf329bb319d8a23c227d40ff493a55abb704e3689b7da",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image302.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image302.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b1188d61cebda8b96c642f340ab71d5aa68d562c84ad9c693278936238ffc728": {
       "normalizationVersion": 1,
       "sourceHash": "2fe4d5d1b31a051cb7be91eb386d705e20303d430adf8f1199d99e31e7ee8da6",
@@ -167,6 +195,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b11ffd342d1c85a58a4c5718ca095231ab8fe906cadc6986612bdcd886962267": {
+      "normalizationVersion": 1,
+      "sourceHash": "8586d1cf14ead96c781b11faa3e4add4de70952b514a4343316ba2bb776a77d3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以先看你要远程开发的设备的hostname是什么？",
+      "translatedText": "First, you can check what the hostname of the device you want to develop remotely is?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 25,
+        "costUsd": 0.000072
       }
     },
     "b1224b3307ae40b3afeca9d0432392f12f16d6d7c18f5028f2a5e11982fcf02a": {
@@ -323,6 +365,20 @@
         "costUsd": 0.000057
       }
     },
+    "b136b342a0706ac9fd8b768722e8a83166e5a3d2a32dd60c1b1bc5996e3125b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b539ae398bd82973776de43a250c404f23102eeb05e84aae2c6cad2b8ec5e4da",
+      "contextFingerprint": "4e80a95d92092dc2422410c84fbff239918ce78ac61441824a5a7acb1be42f68",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image327.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image327.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b13d61f747fa1dd3fc5a7cd0c6452bd35529bf39528a71ee1a10cf3701d83168": {
       "normalizationVersion": 1,
       "sourceHash": "de8bec6517901f80c681bad3e6bc8413c9a8ce635bcb19494ad427ace28b0631",
@@ -351,6 +407,20 @@
         "costUsd": 0.000053
       }
     },
+    "b1441c693f9501f41be36bd6e85907c9213740ab91359c8c650345459a24d4d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3914ed22d24445af51c3e2ba8a952b0f01d7f61f22fe755ef639359b3bfd2c65",
+      "contextFingerprint": "64124bd09193e45d9e9dbf625ab029c8cd47a8bcc1d06679e9156dd8ff7cfaea",
+      "sourceText": "*   **command interface** ：控制器写入的目标值。例如电机目标速度、关节目标位置、关节目标力矩。\n*   **state interface** ：硬件读回来的状态值。例如编码器位置、当前速度、力矩、电流、温度。",
+      "translatedText": "*   **command interface**: The target value written by the controller\\. For example, motor target speed, joint target position, joint target torque\\.\n*   **state interface**: The state value read back from the hardware\\. For example, encoder position, current speed, torque, current, temperature\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 62,
+        "costUsd": 0.000128
+      }
+    },
     "b144f34182b052f2942ad7d8a61ef73e9f71399f47d604f625d041940ee4bfa2": {
       "normalizationVersion": 1,
       "sourceHash": "2245325653a428253b156ac63a93b6d1e3857dde8d51a807640307d67e2516b9",
@@ -363,6 +433,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "b14999f24b52c50828e5167a8835fb730f5c85b0d19788e8ccdaa2a8f754f920": {
+      "normalizationVersion": 1,
+      "sourceHash": "63084a96fba21cb81528e4caece83636a631c8c1931a8675df9131ce0389adc5",
+      "contextFingerprint": "6c54658da0deeafb140689e99c6251f7828ba5d49ef4ef7601d61abb51e21f80",
+      "sourceText": "去`/opt/1panel/apps/alist/alist/data/data`目录修改掉如下图的设置从`false`改成`true`。",
+      "translatedText": "Go to`/opt/1panel/apps/alist/alist/data/data`Modify the settings in the directory as shown in the figure, changing from`false`to`true`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
       }
     },
     "b150bef1f3f3224830753fb9a55096f2c4aa81b9bb7f70ecf5d59d0b5f4b013d": {
@@ -419,6 +503,20 @@
         "inputTokens": 168,
         "outputTokens": 56,
         "costUsd": 0.000118
+      }
+    },
+    "b16c075d60c6c995b12bbef33367d3a7bdf252951c3442a8fec76d027dc957a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "732c2bf26fc140cfe9c7582e1b3331f2ff52d19807339d93b0ff6ad894ac580b",
+      "contextFingerprint": "6b084a2c6187afe33ed8dda6d73b7cee59aa13fd084ac96452da93fb57ca55ec",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image247.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image247.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b170069472f1f386e54799f75377b8cc4483e01b62ffd6cfffc7b30ac5265f19": {
@@ -489,6 +587,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "b185d01072787a70d76275126b853dfa6c7043839167a08fde0830fd80f9f640": {
+      "normalizationVersion": 1,
+      "sourceHash": "541878520874f03dae47fc819a49df3e190cdd309c6177dc3eb8b80b8af7640e",
+      "contextFingerprint": "905cd45c2efa93df232a511baa4bb297ecb1b88d1db33c7b33a169fff40a5020",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1807.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1807.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b18b2ec579f36c818cced7f0db588546476b37a2c51503c744db43a371859aed": {
@@ -603,6 +715,20 @@
         "costUsd": 0.000157
       }
     },
+    "b1abf99e7d75ffb2fbf9a460fbb245303e5531e3643360b9e59b5372b2d297fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "e625ac44edc334be299ba0f768ad91df8655f374363a8b5c441e67638d15af0e",
+      "contextFingerprint": "bc9cae437e6904bfbb242d3ddb1f3b2490de10ed27a613373ee988ab04933546",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b1ac54908123159f252d1ee9791a8221f3f7345e46feaf246ce21f6d4e31f996": {
       "normalizationVersion": 1,
       "sourceHash": "824a9e43e8658c5643aeaa4f68cd4dc029e6e8e90adf4a0ee210292cadd1853f",
@@ -629,6 +755,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "b1b59e50680bc9d5952854473374a24f2727ffade38254cdb6a4e6e9e52480d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a2a5fba5fc3089eae70068b08d95cbb9445d5849fffb5bbcb4f0d8bc9c29ccd",
+      "contextFingerprint": "da026dcc3af11695b6748648f0dcc0cd3c3df50c39b2d98b0821538d0dd4618a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1846.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1846.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b1b826c20dbfeb587c886086dc5cdb069b0ae9d466ebf9be10b086bc52d78dc2": {
@@ -827,6 +967,20 @@
         "costUsd": 0.000063
       }
     },
+    "b1dcc06f53300589aeec8b62b77a78c507d0af85852722f332a1065258974860": {
+      "normalizationVersion": 1,
+      "sourceHash": "f297d7dc69f24b41d32db62b920edec571210aa17649e3cad07f304c8837c1e9",
+      "contextFingerprint": "04045586021b180ee89a4064822b06cb5a90b5a925cba45824d1e410ee1bcdff",
+      "sourceText": "下面这个选`don't ask me again`",
+      "translatedText": "Choose the following`don't ask me again`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b1e4398f3bd93a9b22735f98ed8a92ebb5acd7b8d89aa472e35ec63b39e0a557": {
       "normalizationVersion": 1,
       "sourceHash": "bb1158cca4bd9eace3d534c6daaee805c78978760101f07b60438f9292b106ca",
@@ -847,6 +1001,20 @@
       "contextFingerprint": "b50f7f7e45e94623f2b70260ee997cd205c4a648dce3f82890495f07e869dbaf",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image433.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image433.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b1e9a481c71b3868763ef95fcb8caed69e16603fa7dce266b6bc5834c7ddb9c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdace71d24884096a0ea4420763632ea5a678aa248f0cd8704ef45ed98212e4b",
+      "contextFingerprint": "0bdb99e5608707d8f14cda94e18237cb024d117778c09cd713d94f99b879bcff",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image333.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image333.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

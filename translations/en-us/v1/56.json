@@ -85,6 +85,34 @@
         "costUsd": 0.000051
       }
     },
+    "561e7e77241d5e573659a9b37f93ecd5ebd1fe8a85ae2c9cac938d208957834d": {
+      "normalizationVersion": 1,
+      "sourceHash": "be5f31b77355cc43da13c821df275d9ec2c9190d5fc5fb25905a22fb18071421",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### USB端口设置",
+      "translatedText": "#### USB port settings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "56200d33111bfd85b485af4b8c99dc5d70a6661f71e1bffd70b2ab45fe1206cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f9ea9f96decc9e38b7d45a409af46616422e99a6a2142008aab1a9a9bb3f776",
+      "contextFingerprint": "0fee613137285b6942e351843402c70886e5ab4024de38becf15acc3af6c2836",
+      "sourceText": "**6. `pre-shared-key`**",
+      "translatedText": "**6. `pre-shared-key`**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "56243cb568773b8a0df9aa653d3078c5ab2c0cad35f4fbbe5c62db6dc1836bb1": {
       "normalizationVersion": 1,
       "sourceHash": "21b9901a0691a1501f1b7b27e1844aacad38f626bd9f4e6fdfd0ca8a378ed751",
@@ -197,6 +225,20 @@
         "costUsd": 0.000063
       }
     },
+    "5632fa5619dc816711e39d6d52f7b15e8ea6764cc7d62aa3fdd71c2e797e6b09": {
+      "normalizationVersion": 1,
+      "sourceHash": "c13b576329388ea7c5081bdf17c3402f4bb9292e8fe1157addcc1f083401466d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "主要是两种拆解方式,一个是设一个固定的坐标系,一直按这个坐标系转动,",
+      "translatedText": "There are mainly two disassembly methods: one is to set a fixed coordinate system and keep rotating according to this coordinate system,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
     "563a2fcbd15609af84b0b0d580933d8ffc3236400a078c19c48c530ba1db6aee": {
       "normalizationVersion": 1,
       "sourceHash": "801b4d55f715b355e00e8fb37ef48501ddd7154451696dc71e8ef735e2f5617c",
@@ -223,6 +265,20 @@
         "inputTokens": 152,
         "outputTokens": 36,
         "costUsd": 0.000089
+      }
+    },
+    "5642bf8ac4648a1cc75de45c330df0f8ea0e54e7b6dcad34edaa1efdfcad3613": {
+      "normalizationVersion": 1,
+      "sourceHash": "c48856124fb6982386e16bc27bd06021911a74b91d8d70edb9635c743f9c5f89",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "flatpak类似于apt和dnf等包管理工具，可以安装软件，但安装的不是最基础的软件，是QQ，QQ音乐这种软件。",
+      "translatedText": "Flatpak is similar to package management tools such as apt and dnf, and can install software, but what it installs is not the most basic software; it is software like QQ and QQ Music\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 47,
+        "costUsd": 0.000105
       }
     },
     "5644eccd5d71fa14179775a3a8e272b4c9b56b701518e8b135ec2c9b7db4c3d7": {
@@ -421,6 +477,20 @@
         "costUsd": 0.000067
       }
     },
+    "566e23c43afe950643c337786b320a1707ba9e178b291d3bd51cdcec2066349f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4907e57b18e119bf8cfeca4778c8a1aa891ebedaeeb9d00b6f60e59f17e57b1",
+      "contextFingerprint": "cae7c929523c747065b806ff848753be39ea823b5f95d65f461e241d89024150",
+      "sourceText": "基于这些测量数据，状态估计节点将过滤后的位置、方向和线性、角速度（nav_msgs/Odometry）发布到 /odometry/filtered 话题上，并在启用时将过滤后的加速度发布到 /accel/filtered 话题上。",
+      "translatedText": "Based on these measurement data, the state estimation node publishes the filtered position, orientation, and linear and angular velocity (nav_msgs/Odometry) to the /odometry/filtered topic, and publishes the filtered acceleration to the /accel/filtered topic when enabled\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 77,
+        "costUsd": 0.000153
+      }
+    },
     "566ff5ebb31a383837ffb93dbe7e3b96ed0bf45723ce4338b1f60634e67e77b7": {
       "normalizationVersion": 1,
       "sourceHash": "fc8300831cb10f7b7e960ed483f0beb5341a7f7ebe2903303ec778202e64ca4e",
@@ -505,6 +575,20 @@
         "costUsd": 0.000054
       }
     },
+    "567b2950e0774e0fb5978737f0bf0136debc3cb141b45b3f4694b0cbd159abc2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9653089b8c969ac7de684b85517bab95de7c1f13bb293b41f23ce4da469e9be1",
+      "contextFingerprint": "fa58aa3e05f051269ccf8165d72ab9eabddd583e2c44652b777c9d943582e97f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image45.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image45.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "567da9241e164b1c3d245751261f52d508f41ddc49cbe9bdf803fa44139a4462": {
       "normalizationVersion": 1,
       "sourceHash": "a2dc3873ed92294b9f63d315136513a7074aeb270f8545a514bcc4d849d50115",
@@ -531,6 +615,34 @@
         "inputTokens": 149,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "568527f6f7796f009aa97a668b93b377a1b86d8b5f807b9fb359ccc807894681": {
+      "normalizationVersion": 1,
+      "sourceHash": "136319c83ad0bf0a4b5eabc9b6f968c80664338c768ed1b8606dedd77f3fce14",
+      "contextFingerprint": "9c1e1613d30fc56853bd455af8f91e0f470fb62d7471d6ef531427e6720db4cd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/image21.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/image21.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "568a0dd4daf0ebcc56461ca50025ec2081e8be1eaf61041cbbf02a63221c8704": {
+      "normalizationVersion": 1,
+      "sourceHash": "369891fb48a3320aa22e21a803e71d62dd3028c0a79fc16121451dca73c4f198",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这被叫做正向运动学（Forward Kinematics）。",
+      "translatedText": "This is called forward kinematics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 12,
+        "costUsd": 0.000057
       }
     },
     "568c4b0d205223ed4b55dd8a91036a7c4267087f64e58105763dc7c29904162e": {
@@ -617,6 +729,20 @@
         "costUsd": 0.000146
       }
     },
+    "56a430e4cc10b9289fa04936873c7c6e65c867ea580a463ac93dcc374a0c3351": {
+      "normalizationVersion": 1,
+      "sourceHash": "69ecfd1923eb1fa5e730a1591f005f914dafca68e0143b4f162ed1172bbd7692",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你没给电机设置setPosition(INFINITY)，那么这个电机就是个速度电机。",
+      "translatedText": "If you have not set setPosition(INFINITY) for the motor, then this motor is a speed motor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "56a568d55568bbe4a765d953495a43903f2e353586b5f545d81ee2edb6ce949b": {
       "normalizationVersion": 1,
       "sourceHash": "b2fb81022f88fdc778cdde31a3915001052f90a77958f5cc21277d8f40d940d1",
@@ -643,6 +769,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "56abdba1bac01e4d9ab78b79be6c2295d2d9e6ba61ee981562eb31e7119fc386": {
+      "normalizationVersion": 1,
+      "sourceHash": "51ec2c00f8c078b3392ec1d1434c07d2340bbc5f38f212d333839cfdac51482d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下载字体",
+      "translatedText": "Download Font",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "56b05f2b0565e197381c102cb26d377a22e044f65a2f6190da62c066ddaac85f": {
@@ -679,6 +819,20 @@
       "contextFingerprint": "2235f63c0b2a2f029938aca06d95bac793b073e8ec7e4efd18475187873677a9",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/image2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "56c43e88faed07124114eb8c626d9dc913c6084b834e3800d65375abcec36bc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7168c83e1f59434b9df72a0ac919ddeca1a68be27b9d33da0f7b56f59754cdec",
+      "contextFingerprint": "cd473e12778c40bce504fd34ebe861966dcd8c4e9502cbc53e85a1dcbac924ff",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1894.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1894.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -727,6 +881,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "56d11a9380446dd4339ac82fe2fb18d55a057a3d781cc71a6e8b79d57f2ecd43": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdf12ec3a4dcf351fe882574f1d1d2861f983ea2f57e2bc4092d2a2cc9432d6c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由P点世界坐标系反算关节角度，那么叫逆向运动学（Inverse Kinematics）。",
+      "translatedText": "Calculating the joint angles from the world coordinate system of point P is called Inverse Kinematics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 25,
+        "costUsd": 0.000075
       }
     },
     "56dcb0f95ba1fb8cbe0c0717d603d8a0637a13813651ad5812c7294a5f9708e4": {
@@ -811,6 +979,62 @@
         "inputTokens": 143,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "56ee49caceace80bf4df1a3f35e0764ffe4a3dd7b37793a15b60f494521d5b57": {
+      "normalizationVersion": 1,
+      "sourceHash": "24e8d750ed7b8ca2a2deadfb59e2c5abeb00f5a1bf84b7e7f693bc7594ae56a8",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**高阶操作（可选）**：",
+      "translatedText": "**Advanced operations (optional)**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "56f2ce4b1dd2f2a8807549407efd88c24f7f9dfe1983b6972a13aa8d539c4ad5": {
+      "normalizationVersion": 1,
+      "sourceHash": "58f46398b3c92a6dcc4a5f4355e8a7ce7c49b509e98b4b26601c109cbe983dfa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Debian系本教程大部分都用Ubuntu当例子。",
+      "translatedText": "Debian\\-based: Most of this tutorial uses Ubuntu as the example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "56f419e52a599de0be1bc7164447baeff513ed49c758315eff7cfdff871214a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d143dfcf8bdbca1257a4e91c041fd9f8c5819f9967f723364a1ffd24ce9a760",
+      "contextFingerprint": "72ebb30f5aa44c15e4f66accd5eb8a3006499fed62ab052e7506aacb9b406a14",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image7.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "56f62483475110a9bc65ed5d54a1c782cb5f581ee58d6f163fcfcc809ef17c30": {
+      "normalizationVersion": 1,
+      "sourceHash": "140f940af51223fd282e20cf9c6dc3d73dc447a6fed54572d63e2b76687cbf69",
+      "contextFingerprint": "da83eebf997ffee4ac91a94d21488cc4802b56428469e995bc32b808dcb57a1b",
+      "sourceText": "| 输入 | 类型 | 说明 |\n|:---|:---|:---|\n| `~/joint_trajectory` | `trajectory_msgs/msg/JointTrajectory` | 轨迹话题 |\n| `~/follow_joint_trajectory` | `control_msgs/action/FollowJointTrajectory` | 标准轨迹 action，MoveIt2 常用 |",
+      "translatedText": "| Input | Type | Description |\n|:---|:---|:---|\n| `~/joint_trajectory` | `trajectory_msgs/msg/JointTrajectory` | Trajectory topic |\n| `~/follow_joint_trajectory` | `control_msgs/action/FollowJointTrajectory` | Standard trajectory action, commonly used in MoveIt2 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     }
   }

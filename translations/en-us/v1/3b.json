@@ -29,6 +29,34 @@
         "costUsd": 0.00006
       }
     },
+    "3b09fee82aac2b8c1e63bff45afffb2073a603ac896d2af71c85b0c13b3f2051": {
+      "normalizationVersion": 1,
+      "sourceHash": "f778f1f45ee32f46c035da6ca306941cfd00b1cc4c6447e32690ad8c3bd7dc1a",
+      "contextFingerprint": "591d1a5c2d4befa41b28bb3030ac2aa138876892cd7979a6323ca908a8bf2edd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790755537530-84a80eb6.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790755537530-84a80eb6.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3b0a7788eeeb7565721aa3a3da1183ab44db5256762e81352ce52fc5f778a6f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f6870903aa76bdcd353090e8688a70bc74ee39740f3653cab6d6a8f177b39a9",
+      "contextFingerprint": "03b8a3b69f39ee267940f87b123262d1aee97873b493a3cf0d0fb9226a966d80",
+      "sourceText": "*   `ekf_node`是基于增强卡尔曼滤波器（EKF）的节点，用于融合多个传感器数据来进行状态估计。它接收来自里程计、IMU、激光雷达等传感器的数据，并将它们融合在一起以提供更准确的机器人状态估计。EKF节点使用机器人的运动模型和传感器测量模型来估计机器人的位置、姿态和速度等状态变量。\n\n*   `ukf_node`是基于无迹卡尔曼滤波器（UKF）的节点，用于实现机器人的状态估计和本地化。UKF节点采用无迹变换（Unscented Transform）来处理非线性系统，通过估计机器人在空间中的位置和姿态，提供更准确的状态估计。与EKF相比，UKF节点可以更好地处理非线性系统的估计问题。\n\n*   `navsat_transform_node`用于将全球定位系统（GNSS）导航卫星数据与惯性测量单元（IMU）数据进行融合，以提供精确的位置估计。该节点校正GNSS信号的误差，并将其转化为带有高精度的位置信息。这有助于改善在室内或具有GNSS信号不稳定性的环境中的机器人定位精度。",
+      "translatedText": "*   `ekf_node`It is a node based on the Extended Kalman Filter (EKF), used to fuse data from multiple sensors for state estimation\\. It receives data from sensors such as odometry, IMU, and LiDAR, and fuses them together to provide more accurate robot state estimation\\. The EKF node uses the robot's motion model and sensor measurement model to estimate state variables such as the robot's position, orientation, and velocity\\.\n\n*   `ukf_node`It is a node based on the Unscented Kalman Filter (UKF), used to implement robot state estimation and localization\\. The UKF node uses the Unscented Transform to handle nonlinear systems, providing more accurate state estimation by estimating the robot's position and orientation in space\\. Compared with the EKF, the UKF node can better handle estimation problems in nonlinear systems\\.\n\n*   `navsat_transform_node`It is used to fuse Global Navigation Satellite System (GNSS) navigation satellite data with Inertial Measurement Unit (IMU) data to provide accurate position estimation\\. This node corrects errors in the GNSS signal and converts it into position information with high precision\\. This helps improve the robot's localization accuracy in indoor environments or environments with unstable GNSS signals\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 340,
+        "outputTokens": 242,
+        "costUsd": 0.000393
+      }
+    },
     "3b0ea9f5941abe5b0b6b1d30ba77f622429a1b4eaf3013218bb334fb0740153c": {
       "normalizationVersion": 1,
       "sourceHash": "b7efaaedefee30c38a967700a97b6fdb1f2e3429a7f6e30244c0e2c0e9d6a7bf",
@@ -69,6 +97,20 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "3b1a6a946de8e65fa02be6293b2db7e1797a07ff2a0104373888d58f25f372f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f13741d9e3b2efa2cf0e8fa426c4b27ed33a349acce1d97c03b5ebf546aaac3",
+      "contextFingerprint": "9ed30bdb7cc2b6ea77511e56a46c8f7812dd1c73dabd37be1428f95c4f88bf79",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1854.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1854.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3b21be3c9d03bc50a555c00129f66c06b1a303c6df4c5ff6671400b6b304c7b8": {
@@ -113,6 +155,20 @@
         "costUsd": 0.000076
       }
     },
+    "3b2a9ee916f395f4484c78c36377438784b047093a5f0b70f9b98a1601779e15": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a14cb020a22e83043997367f29a7d108d34b95df7363c83db0cdf87932d3077",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "右键开始菜单，选择终端（以管理员身份运行）",
+      "translatedText": "Right\\-click the Start menu and select Terminal (Run as Administrator)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "3b33b41ba90e7e723d4263aad38410d04c204874e5e2e84fc07dd82e348abc3f": {
       "normalizationVersion": 1,
       "sourceHash": "7a1b01f153b6f6c218f3c0a80e44d34fa10227773b05371b266293199835ff1e",
@@ -139,6 +195,20 @@
         "inputTokens": 138,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "3b354d247ae35ec584b3ffe912413297d31c94c281c42c59b6a418d2c40ea5b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3c526eeaddde7df2a8e9d76897df98c5805482ade6842e2dcef8552c83af5cd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### VScode头文件配置",
+      "translatedText": "### VSCode header file configuration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "3b37361f8881a379071e483dc8536f5a284801dbcc760047b5260e92258e9265": {
@@ -253,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "3b53a265edccc0c04e95616c5d76e66dce8fef5d476f9114119c7f688c1afad2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1ec682cccc4a3e06d132f1609e1d096df728e1fdf5fed8f1097230e0af79625",
+      "contextFingerprint": "d61364aac9f9b4f5c574eaef0b628589a1aa60a76f12b75057107681bfe68a20",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image117.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image117.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3b568b8f6695b4588979556c64384b624f09c2db895d4ae273247c9ec59326d7": {
       "normalizationVersion": 1,
       "sourceHash": "a40a9e51bbc8b80881991c656d4c32e9c42bc66dd2b842f0269b8e16946f828d",
@@ -351,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "3b6df82a490a115dbd5050fd1412318874e5266db789ef010746334b65da6b00": {
+      "normalizationVersion": 1,
+      "sourceHash": "0df5770eaed3383f9559919dda087c212e31cb86550eca9426a7ff83acdeed90",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 其他操作",
+      "translatedText": "### Other operations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "3b770e6a14f8be1bd97d81f8003c078780184105c138d845d714bc61202bccda": {
       "normalizationVersion": 1,
       "sourceHash": "52811f008ee79935675182c5aa4bcfb859080c055b1a447a1499c34570789e93",
@@ -391,6 +489,20 @@
         "inputTokens": 149,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "3b7c0fda9662d33f8ffbff1e6d34e458fd5ee49c6ed262d41486fceec2fc03d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fa4415235b90a4b13f589303d2cecba9c967cdead6ca732963d494317339a4f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "运行以下命令检查 KVM 是否启用：",
+      "translatedText": "Run the following command to check whether KVM is enabled:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "3b8460f27005735733af9f6679f48237461a7b96d536fc768dd30e3404f506ce": {
@@ -435,6 +547,20 @@
         "costUsd": 0.000052
       }
     },
+    "3ba595306babed79b802dcfb14e4e646b2a07a106603785e285900847cd4b16d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b74f2bb1cbdf5838422bd2492404b4aef2b291f6b470908739420e22ac305e56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本教程以jazzy为例子.",
+      "translatedText": "This tutorial uses jazzy as an example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "3bb37082471add07afce8495eb3ce19025c86d0eb06ab32a8a8d07e74b9e1a48": {
       "normalizationVersion": 1,
       "sourceHash": "6d47b016214f16f6efb9bbd8de8d2236fbfb9b5fe871a54e49bc5418ba0ceb62",
@@ -461,6 +587,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "3bc35ed4fb2b64a95e37a71e67d257da343700e4c482550b0362c8fae3d041a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "be2ecdf6c8d1a6b492aa55912c62ff8d63d27a327ae2644059065f70416a292f",
+      "contextFingerprint": "9e4ec4cde3f5c8c0f3fa57c4a5c838cddd3ea2c3ffcdf2f31352da1622d27ace",
+      "sourceText": "https://wiki.ros.org/noetic/Installation/Ubuntu",
+      "translatedText": "https://wiki.ros.org/noetic/Installation/Ubuntu",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3bc4acb8ee8dc8e749e1b6c8426f4378a48fa6e4383e08b4435bd568968bea9c": {
@@ -531,6 +671,34 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "3be085aaab37f813207308655ce0e84f2047913cb88110c0bdcac02598e73f69": {
+      "normalizationVersion": 1,
+      "sourceHash": "410bbd6f819c8093d1e2a8c77d675a2744c37e2917e68d9230213bf5f37f015d",
+      "contextFingerprint": "2e8f705e673daeefbedd9120d9129ab8008b8a7712d24493157cac527b14c5b5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1928.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1928.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3be6ae034060eaf2b9a43f1133e6029ec84e9cca0dff499ff443b4b649b98fe3": {
+      "normalizationVersion": 1,
+      "sourceHash": "81b58418a4e3bab51e0a728a3a5fb8b34c4367990f8587e4a12c7a041632a3ba",
+      "contextFingerprint": "a363709509fa5cad5214bc69c6e931318e8bdaac234743f3af3343397e318466",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image39.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image39.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3becf84eedefd66763e7b054668c709d638f1d6c9c512f84c76a119854c4c6bc": {

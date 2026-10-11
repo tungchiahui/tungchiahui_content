@@ -127,6 +127,20 @@
         "costUsd": 0
       }
     },
+    "1928af500a9cebdde0bec0ec3500898a7a29b9d21ed2aa4778eeaef4be5ecd3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4212522e9eeae35c4002bac963599e20e9770020db6671e6daa7d2f750c99a84",
+      "contextFingerprint": "1dec76abe839b19c9a4d527e30f0c81cb26604ce91d2126790fb73586118090e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790754949023-e0a8e34e.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790754949023-e0a8e34e.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "192ca41227c212a165b05d512243dd68ebde22e6113efe471265bff52913ab30": {
       "normalizationVersion": 1,
       "sourceHash": "930038c8353028521335a9afe81bcc331e1730c067675bad5b1161ad2fcf815b",
@@ -153,6 +167,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "192e4a6e8e0d65d1d7ad6448fd9756731597d9f05b4bd64b237e1b1c17ceaefa": {
+      "normalizationVersion": 1,
+      "sourceHash": "fac8ccfd3df63b8399b6f185cddc4782842977e3157f662915374b7adb3f8925",
+      "contextFingerprint": "37b8023b6712badea42b5c9de2e324a3b5898518e1ab51c3f46dbd52196ba24c",
+      "sourceText": "1.  参数中声明四个轮子的 joint 名。\n2.  `command_interface_configuration()` 返回四个 `<joint>/velocity`。\n3.  `state_interface_configuration()` 返回需要读取的 `<joint>/position` 或 `<joint>/velocity`。\n4.  `on_configure()` 创建 `cmd_vel` 订阅者。\n5.  订阅者把最新速度命令写入实时 buffer。\n6.  `update()` 读取最新速度命令。\n7.  根据运动学模型计算各轮速度。\n8.  把结果写入 `command_interfaces_`。",
+      "translatedText": "1.  Declare the joint names of the four wheels in the parameters\\.\n2.  `command_interface_configuration()` Returns four `<joint>/velocity`\\.\n3.  `state_interface_configuration()` Returns the `<joint>/position` or `<joint>/velocity` that need to be read\\.\n4.  `on_configure()` Create a `cmd_vel` subscriber\\.\n5.  The subscriber writes the latest velocity command into the real\\-time buffer\\.\n6.  `update()` Read the latest velocity command\\.\n7.  Calculate each wheel's speed according to the kinematic model\\.\n8.  Write the results into `command_interfaces_`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 82,
+        "costUsd": 0.000158
       }
     },
     "192e746e244857ca9013c73b30c393a10377565c011e6f6d561a1ab7fde909e3": {
@@ -211,6 +239,20 @@
         "costUsd": 0.00012
       }
     },
+    "1938b8df65c69489baf8d0588e6dcb1f47cc22323a9d4647b81564e3233e14ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "117c94e7b97205a000d1e803f18438071771a56c1973e321b23d7dcb63aa15c9",
+      "contextFingerprint": "728f8da2f219e09cccf0d309cfcf00a9fae6ba946346df3f72b0b4290618e047",
+      "sourceText": "S3协议的网址应该是`服务器ip:9000`:",
+      "translatedText": "The URL of the S3 protocol should be`服务器ip:9000`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "19425496d212076f8501cb1baabfbd9e2172c2affc2a4c527329b147ba7ed3bc": {
       "normalizationVersion": 1,
       "sourceHash": "48e41327ab0bf2b3c49e8bca783e1bcec85f77ad4f85b309681f4853e6f24d65",
@@ -223,6 +265,20 @@
         "inputTokens": 171,
         "outputTokens": 75,
         "costUsd": 0.000142
+      }
+    },
+    "1943897e89cdab1a84ec40294b2eccbb629a881039123e48e76e9f3a9dfed3ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "5771e0e5674d8c6648163cd5f608591cc9835386af56afd6871792a90a905bca",
+      "contextFingerprint": "af5726442b711305c62e15b9a3a5ecb7c61bdb1f23875d7a9b214b79dd6e1514",
+      "sourceText": "然后点击防火墙设置,选择`WireGuard`.",
+      "translatedText": "Then click firewall settings and select`WireGuard`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "1946859c66c463c627657f378d9e1cd40a6e25f26b1354b1b21cbac199b3ea39": {
@@ -245,6 +301,20 @@
       "contextFingerprint": "53b60ad88e3bd667cdd4b7ac48305420a9d234407a296a213c8867736eab0fa7",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image323.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image323.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "1950784afc86545633f9610618380f7918f3e672dcbc8a385cc551ed79584285": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3672ce457fd95f0f587aaaf6f56f9f7ed1ee7cf259bb35015b2280f9625354d",
+      "contextFingerprint": "d01f1de549f0ac524f3c707d259b907fc1d7bbba79d29cd5ae1e8988a9f5e2b8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1895.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1895.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -281,6 +351,20 @@
         "costUsd": 0.000153
       }
     },
+    "1961a9fc4c3ad55b72ee8e6285422a3e0d4b03c6a6e4606c9c1851ad82c991d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cec5f162d94411a61b5d3cfcfbe36b509505e7ae3c72ab5f28662c4acfb2418",
+      "contextFingerprint": "bf7e9d6faf0e1e67e3e9e4d1282edff0cccb192afb5eef334f5fceb00fa460d3",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774481385-67797193.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774481385-67797193.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1968310e78bfca333d6f498950b69b5ff3de7005efe8a9c9b18396518bd62545": {
       "normalizationVersion": 1,
       "sourceHash": "0480c77621864b9a8eb7b56db00aed24ebac7c49c1252a874058b73a0d5e7913",
@@ -309,6 +393,20 @@
         "costUsd": 0.000056
       }
     },
+    "196ce831ecfb54635a3c0471dec1704e79901a6195a765e12dbb17a5d7c32022": {
+      "normalizationVersion": 1,
+      "sourceHash": "10634355611a5a3749013e045d25898453982d20bcca56de2cb887a8e4a1cc40",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "⑥Frame 0和frame n",
+      "translatedText": "⑥Frame 0 and frame n",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "19712c3ca25aff7e9076d5df511c49ffe350b8d957e82e7c4419ecec313d9ba2": {
       "normalizationVersion": 1,
       "sourceHash": "f45e510ed1882fbd63fccbdc02da9ea8031a3f638fd6acf30b8f2d1a2bd65905",
@@ -321,6 +419,34 @@
         "inputTokens": 144,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "19722cbc3f7422663b531ad933420a8357586f7b7685f42f3b1aa1994ebea614": {
+      "normalizationVersion": 1,
+      "sourceHash": "0aa0aed7fbb9e4a3c5536fb1deca8feb85a49c74949e960d41323e3410031349",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果不知道需要哪些工具,建议可以全部都选上最新版本.(亲测全选最新版本是可以正常使用的)",
+      "translatedText": "If you do not know which tools are needed, it is recommended to select the latest version of all of them\\. (I have personally tested that selecting the latest versions of all of them works properly\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 47,
+        "costUsd": 0.000103
+      }
+    },
+    "1978283c3ac51454bb593a80f5015196f82f928239e12d5370d5a424c09fe450": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ba2bc8f42e238d1a69aab95b98534b2ba43a24f4ec886cd15940b5b7b58a52e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后一个杆件也一样，建议让X3的方向和X2方向重合，这样的话，theta和alpha都是0。",
+      "translatedText": "The same applies to the last member; it is recommended to make the direction of X3 coincide with the direction of X2, in which case both theta and alpha are 0\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 43,
+        "costUsd": 0.000098
       }
     },
     "197997694d7b0786868fc355e4ef7176ecd997427a1229a4c47330f72b0f867b": {
@@ -363,6 +489,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "19859b12362910fcbca39d5662cf6cc67ed69c59d760cf6e2de296c09df4d20b": {
+      "normalizationVersion": 1,
+      "sourceHash": "693a3612e14f4f07d83d5f0276c47ab5f062355a419dc8e1b87fbce70d9364ed",
+      "contextFingerprint": "70f273ecaf09779fbd02991975b645d8aa2050a376cf50545c33214c21eeeae9",
+      "sourceText": "官方教程:https://mdk-packs.github.io/vscode-cmsis-solution-docs/installation.html",
+      "translatedText": "Official tutorial:https://mdk-packs.github.io/vscode-cmsis-solution-docs/installation.html",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "198659da071a2e65198137d8856ce67439626ce3a5e1f19b6affd8c10750463e": {
@@ -463,6 +603,62 @@
         "costUsd": 0.000053
       }
     },
+    "199c8e9e3fc2ac786f34de48947bf68be04252ec7ced92a77b82aaab17646f3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "725857b511a912378a4d509373d7c5d6715815c4fdea88c7ece2e938e8f9dbd4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "倘若在一个空间里有一个刚体（frame），我们如何确定刚体在这个空间里的位姿呢？",
+      "translatedText": "If there is a rigid body (frame) in a space, how do we determine the pose of the rigid body in this space?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "19bae8d9720a590be45d31e685a6139744abff1e9b26475b2e552d3776462873": {
+      "normalizationVersion": 1,
+      "sourceHash": "b213a0114cc0c32e58ca41f3649b5c826ab5410c288d5d7dd24b99b4cdaa1e7b",
+      "contextFingerprint": "911d182045982e9d80a4ea2b10258481b1dbeb70666b566aadf6cefa050e4d41",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790769581682-66b5e2d2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790769581682-66b5e2d2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "19be75941d4dd63aea78cc1e1becb306570e5eaa96936ce8fe3b579d014919a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2d7222aacf55eb63deb78d34cae3d95bc01966baaea39d54884a4c45d2f2fe9",
+      "contextFingerprint": "7a7a33197521e7a05d53e96338e1b5a074b928f06fa8233fee66787c7e20b9d4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image58.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image58.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "19bf4e598eb1f049814016d223e8e517ef33fe97feb789ee10eb740a925c9912": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac2d1258d081927524d6b332b6ce1afae2d8e1d3f1fa4db6764eb73e582682da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以我们不勾选.",
+      "translatedText": "So we do not check it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "19c08aeae5fa77cac26714b96bb329d06dc0997f1685c97c8b153e0f1cf62b53": {
       "normalizationVersion": 1,
       "sourceHash": "1baadf7b9224ae09d854c8956f620298b56ae789776e62da0007342a8df8fed2",
@@ -489,6 +685,76 @@
         "inputTokens": 220,
         "outputTokens": 115,
         "costUsd": 0.000204
+      }
+    },
+    "19c71c3c679f954b610be697acf4f6b5dcd6272b4c1bdf327f1220f59ad3f866": {
+      "normalizationVersion": 1,
+      "sourceHash": "df9dcf19634732c879abbec4507c2282a5f8592dec11ee40ea6834beb82956fb",
+      "contextFingerprint": "5d647470fad132b942e09d872402ddd8beb537b235a22da0ab5ec3ad6e736484",
+      "sourceText": "https://github.com/CyberNaviRobot/CyberRobot_ROS2_WS",
+      "translatedText": "https://github.com/CyberNaviRobot/CyberRobot_ROS2_WS",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "19cbb3baca373c4336fd563f1158393f0762b59dd9fa0c0a066c1f1098a340b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "25070b0627cf30a6077db50e71fb012d1555faa7cbacd8bc4e0b360c13bb9fed",
+      "contextFingerprint": "90db5a8cde6268d043a541d0bc79d447b57cd18264944a935aa392b45a679938",
+      "sourceText": "在该文件中，一个重要操作是将publish_tf参数设置为false，设置为false后，底盘驱动不再发布base_footprint与odom的坐标变换，而是由`ekf_node`取而代之。",
+      "translatedText": "In this file, an important operation is to set the publish_tf parameter to false\\. After setting it to false, the chassis driver no longer publishes the coordinate transformation between base_footprint and odom; instead, it is performed by`ekf_node`instead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 70,
+        "costUsd": 0.000138
+      }
+    },
+    "19cc7f44178dbc4e62287a9b4169e9f663467ac9e97127eba996d0e1d679c5d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3728bdce10924bb4f79d11c4641f7d921e51395e9a3476d7c7f7fb741c23249",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 在服务器端安装",
+      "translatedText": "##### Install on the server side",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "19d03a2debf655d952a81533f2b03189ebc363cdcfa3097f784de15673b6af3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "75f5de59222dcb1ab5f4c081bfcb1e07e61ff5267401404f450d7f0362233c60",
+      "contextFingerprint": "1edff335a8b6bc67bcbb43b7c7362781455c548184859ea409d04a053014ede5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image17.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image17.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "19d532496812362e60308fa38f929a84aee61509dbf1a50319b9c62de5f3cb77": {
+      "normalizationVersion": 1,
+      "sourceHash": "68590b21475eaa784ddf9c9cf8be2eaede292030f04b0903aa4cf97116a03fff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启动被连接的主机（启动时需要连接显示器或使用HDMI采集卡，并且配置完SSH远程访问之后，可以不再使用显示器或HDMI采集卡），并进入设置界面。",
+      "translatedText": "Start the connected host (a monitor or HDMI capture card is required for startup, and after configuring SSH remote access, the monitor or HDMI capture card is no longer needed), and enter the settings interface\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 46,
+        "costUsd": 0.000107
       }
     },
     "19d64293dd11ea40e56d3b5babe6b9f898e37edf04a87dd595fb1b9e0dc7a670": {
@@ -547,6 +813,20 @@
         "costUsd": 0.000073
       }
     },
+    "19db14dee367f2638898c49182cd9b72356f7e3322d5d9f96f214f48d74ab26f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba5068c1fe620044dcf4b58afa4f511bc57448e337cf50a8e441845025c26261",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打上三个断点",
+      "translatedText": "Set three breakpoints",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "19dbba50ebe085364541f3f5448825a214439fc477a63c3b632d27eae319f661": {
       "normalizationVersion": 1,
       "sourceHash": "6d61070b6ccdf1b6e4ec5097fb8de59cfc667d03028d6656c511f0d4fbb72467",
@@ -573,6 +853,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "19e22642dbc834078d334c6ad5656655945d71ec6daf8c6da7af37a8b05638d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a8969d8075fbeed5795356323bd0967e868f4d5f1db894340b17dc77939788b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "VScode远程开发依赖于ssh，请首先按照上一节内容配置ssh远程连接。",
+      "translatedText": "VS Code remote development relies on SSH; please first configure an SSH remote connection according to the previous section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     },
     "19ef080581ba8586e782c2fad3d7fde401df83f6749ad1b58ff0dc36225ab194": {

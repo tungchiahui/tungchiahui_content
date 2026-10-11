@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0902df7294945f9daa9b168797706a8b96d734ed50beb61445095077be4eae9d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dac15ab4419a89441084494a0cef63227353d364e87aab332574d838cdd5904",
+      "contextFingerprint": "e1f7ad57d81070f3f88be4c1787526b95485eba7147126635fefe2cee130bb88",
+      "sourceText": "https://mirrors.bfsu.edu.cn/help/ubuntu/",
+      "translatedText": "https://mirrors.bfsu.edu.cn/help/ubuntu/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "090c9199663a787a9b1e9d0c05919cb29173cd66142e09e5bb056dafe9949e52": {
       "normalizationVersion": 1,
       "sourceHash": "12e642f4963aea6378b1945d493d4a85c50198c0907405adf9178cbae6c178fc",
@@ -127,6 +141,20 @@
         "costUsd": 0.000064
       }
     },
+    "092ec90e2e06ac0f8dc7e95bf9ae96724081f4046d76b41f7ce790a1f454fa2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2f11e4c3081e6cfcb948f62076d32b1b7db02e8ba6b8e5901f48fdc5b76e64a",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### VScode远程开发",
+      "translatedText": "##### VSCode Remote Development",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "0933820e445ba77894221152d77837b4ab95399275ff13bec3e70a043bc4c31b": {
       "normalizationVersion": 1,
       "sourceHash": "1de165739cc34c99cb846d6d7474e9fa54ca17677bc010fa7994fc0ba01b6e99",
@@ -153,6 +181,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "093a1e4442a4fbc073acff05a18ff49f4e9430099091367f53a5eb92f390c432": {
+      "normalizationVersion": 1,
+      "sourceHash": "c418e6e7be19b351cbe86f2afd6110452551e695f762c372017f4a7f40fbd257",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果YAML能够启动，但无法产生WireGuard握手，优先检查：",
+      "translatedText": "If YAML can start but fails to produce a WireGuard handshake, prioritize checking:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "093fb86e325a140254f7e652d18bb77212c7c2f4fc20994083c839657616a05d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c765f2a5a4fa2d5d47a3a6d435b87a795cdcd58ca6d30f7fab2026e01d05588",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5.  然后点击确定进行分区，接着在主界面左上角点提交。",
+      "translatedText": "5.  Then click OK to partition, and next click Submit in the upper left corner of the main interface\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "0940d1ad16b98d924a36c1e6afe325cc315d092cfc26918c78046408d368cdd3": {
+      "normalizationVersion": 1,
+      "sourceHash": "66b2c68efa15a3036b67db14b9989991314ae5c87ccba9a91d49de004c94582a",
+      "contextFingerprint": "5a9db2354afa8a04c4d2edf9eb8c31877f8d9894c70c9c67e1d918a43046e487",
+      "sourceText": "1.  有英伟达NVIDIA独立显卡\n\n2.  显卡驱动必须满足≥570.86.10\n\n3.  设备的架构必须为amd64(x86_64)架构或者aarch64(arm64)架构。(绝大多数设备均满足)\n\n4.  支持的显卡型号如下:\n\n    1.  GTX10系列桌面端、移动端显卡均已支持\n\n    2.  RTX20-RTX50系列桌面端、移动端显卡均已支持\n\n    3.  NVIDIA Jetson AGX Orin、NVIDIA Jetson Orin NX、NVIDIA Jetson Orin Nano工控机已支持\n\n    4.  NVIDIA Jetson AGX Xavier、NVIDIA Jetson Xavier NX工控机已支持\n\n    5.  其他显卡均未适配，强行使用其他显卡肯定会有不兼容的问题，如果想要适配你的显卡型号，请单独联系学长",
+      "translatedText": "1.  Has an NVIDIA discrete graphics card\n\n2.  The graphics card driver must satisfy ≥570\\.86\\.10\n\n3.  The device architecture must be amd64(x86_64) architecture or aarch64(arm64) architecture\\. (The vast majority of devices satisfy this)\n\n4.  The supported graphics card models are as follows:\n\n    1.  GTX 10 series desktop and mobile graphics cards are all supported\n\n    2.  RTX20-RTX50 series desktop and mobile graphics cards are all supported\n\n    3.  NVIDIA Jetson AGX Orin, NVIDIA Jetson Orin NX, and NVIDIA Jetson Orin Nano industrial PCs are supported\n\n    4.  NVIDIA Jetson AGX Xavier and NVIDIA Jetson Xavier NX industrial PCs are supported\n\n    5.  Other graphics cards are not adapted\\. Forcibly using other graphics cards will definitely cause incompatibility issues\\. If you want your graphics card model to be adapted, please contact the senior student separately",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 301,
+        "outputTokens": 198,
+        "costUsd": 0.000328
       }
     },
     "0948cf617c80df9c4614b4f463e42e9eada6e8ab5c98d6441f531c611827e917": {
@@ -211,6 +281,20 @@
         "costUsd": 0.000077
       }
     },
+    "0950d040ef3ad6cc4198e925cc7c238a3375ad32212e0e79e706828d7f285930": {
+      "normalizationVersion": 1,
+      "sourceHash": "82b544d716b82d59e99f0d708d206217f94ed52619d5a3f4046345a9766ae918",
+      "contextFingerprint": "c7c7e06f47e0eab42155768280fab2c050d445024a8be26dba332fe4c6da0bf0",
+      "sourceText": "出现就绪就是配置成功了\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768147547538.webp)",
+      "translatedText": "If \"ready\" appears, the configuration is successful ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768147547538.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "0960cd9e0087f91fa9c1a68e351687c5943bce073fb62618a05e6119ba4184d4": {
       "normalizationVersion": 1,
       "sourceHash": "be56e097592832f1c6abe4b64cc91e7565bd67276efd239401fb02bc5379f328",
@@ -237,6 +321,20 @@
         "inputTokens": 162,
         "outputTokens": 43,
         "costUsd": 0.000101
+      }
+    },
+    "0973f7b1fff10bb1eda097ed78d73c96211e9c5ae9e82ce326d63dc5f937004f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b95be0310d18a52c89c45a699134308273d73bdfab6d8ca6fe8c8f8d6c62772",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  支持的发行版：",
+      "translatedText": "1.  Supported distributions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "0974c7e2c0b55e20098996036702734fd366ee6a002f450cbd3d0a3d821986ff": {
@@ -281,6 +379,20 @@
         "costUsd": 0
       }
     },
+    "097cadaa03b06a3599fa077832dff8ea83fa4fa47762037d04505e6ca936f97c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5916efbfe273382a545bfff5e0307fb439b70d7703e608f7d21882e00948c19e",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2. 移动端",
+      "translatedText": "2. Mobile",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "0987e2c2a7797d9c17a8bab2b639e1d91da19b5f9b9c1bba6f022ce4e425194e": {
       "normalizationVersion": 1,
       "sourceHash": "24bc5b775161ba4e74b45e13ef8b27c7960f7596d808eea1d6ae136dd55cecd2",
@@ -293,6 +405,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "098eae52e0fc2aacdb916c36d2593461ba31b41146b7d7d4d2295992dac5fc0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8d9bcae0fbabed18e9aaa03f9384e0cf6d8fb8551608eb4b81874e3059ebda6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "2.配置所连接的网络",
+      "translatedText": "2\\. Configure the connected network",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "098f7f8d2a583ce1cc960f6381e993bc5525fe9eec7d22ceeaa0e2b8f3913ee6": {
@@ -393,6 +519,20 @@
         "costUsd": 0.000081
       }
     },
+    "09ae9deccec7f8e5941405a032c301f144b2ee999418c4b0d7a1c5f1e884c344": {
+      "normalizationVersion": 1,
+      "sourceHash": "d93b714501aa1786419865676445afcea1f232c29a46aab85a8f29e3d3d9e6c4",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "把上图除了**efi和刚才创建的那俩分区** 的其他分区全部点change更改为do not use the partition.",
+      "translatedText": "Change all other partitions in the above image except**EFI and the two partitions just created**to \"do not use the partition\" by clicking Change\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
     "09b55bea1106a11270060b8a43e305c6644a1dd45f3e52f13e9e7e1281e185a0": {
       "normalizationVersion": 1,
       "sourceHash": "da9d793b7f8c66f98d735d2edf5b95873eee797adbd00001a51e94c12d3dc8a4",
@@ -405,6 +545,20 @@
         "inputTokens": 163,
         "outputTokens": 48,
         "costUsd": 0.000107
+      }
+    },
+    "09b60a2393e4a67ed17416f547968e629c227b25296ee740e2b96529c21666d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2fdce8905467a5ed187f2ea56734cf7025657f18c0f13c969008dcb4d88b5f7",
+      "contextFingerprint": "48d05ec2e9c25e3e4faa0dc8777668accf756f836d0eb1b195ee632408dcf7df",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1831.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1831.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "09b6495a7660dde5a694c3bac3a4b93516e734f4f54f4c2b141038632639bbcb": {
@@ -433,6 +587,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "09bc376143416933edd2c3fb49e4d456db71abcc45a0bbc1359f6db5e19538e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "07b6104df8fcae779de981bfde11d94450b995f83f2d5ae40a6aa5c60f0185ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果出现问题，就卸载wsl2出问题的发行版",
+      "translatedText": "If a problem occurs, uninstall the WSL2 distribution that is causing the problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "09bef73f31f74011568b048d5e262c82926c535a74a78f6181c94d4d208dc9a1": {
@@ -477,6 +645,34 @@
         "costUsd": 0.00006
       }
     },
+    "09c6b993b52f0a3d725ef33ce8890d6add7fd69a2d069685cec7b7ba212ba5f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f15749f83a4a9e42d6fd596088bbdb30b15df86177f1547d9c7df4c99708489b",
+      "contextFingerprint": "cc2368ad9d6b7819c6cc801480658c9810108836cde4a50da61006294b0d19e9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1863.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1863.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "09cc7c8530df9e495b78d210d900bcc997995b64d26095220cdf1410c37426f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "3423af843eab8951005b7c3ad2045cddcd2cdaf6519dca20a5f73623fce4c954",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 创建YAML配置",
+      "translatedText": "###### Create YAML configuration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "09ce77e67f760c029dd631ae3c851aac29df8161fecf8a9d14343e6bb5636e2c": {
       "normalizationVersion": 1,
       "sourceHash": "9473e5f98763bc6ec2a07f612a715883ea126ad1125bfc3b4770907d2bf708d7",
@@ -503,6 +699,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "09d8340e701ee310e6de24f5ea79744c387675c7c9def9655d7b089ec9a0a7d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d35ca072bd09752d2cb452fec635b93139966c3450aa085d92db880e088dc2f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "官网下载搜狗输入法",
+      "translatedText": "Download Sogou Input Method from the official website",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "09dd0ed065ac8d160231f7cd21c32abb8d6c40a4f5ac907c3fe5f8cceabc4cec": {

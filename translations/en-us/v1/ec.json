@@ -57,6 +57,20 @@
         "costUsd": 0.000052
       }
     },
+    "ec1a08dba5f44d14be1e6a8bc9d03e549359d88a4b005339639abbbb3c416611": {
+      "normalizationVersion": 1,
+      "sourceHash": "086b16fa9460c41c4f371dcb0c49e7e178fd958879092ceaf428992f490b59be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "大多数设置都默认即可,但账号密码要自己填写,这个端口外部访问这里,如果你的服务器在内网,可以选择打开,如果你的服务器的IP是一个公网IP,那么不建议你打开.",
+      "translatedText": "Most settings can be left at their defaults, but you need to fill in the account and password yourself\\. As for this external access port here, if your server is on an internal network, you can choose to enable it; if your server's IP is a public IP, then it is not recommended that you enable it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 71,
+        "costUsd": 0.000136
+      }
+    },
     "ec1b83ed7c5331a62db76c245b29794eca19c4905f76833ae741aab5ab18e511": {
       "normalizationVersion": 1,
       "sourceHash": "cc52031c3e4768d2e6a49ec53a338e4e86abef9c025621988e38770ebf63a016",
@@ -113,6 +127,48 @@
         "costUsd": 0
       }
     },
+    "ec2614edc0c8e54d5fdd5d5ac0c945a7284e9b2eaf274e5ef277e25267b2cfba": {
+      "normalizationVersion": 1,
+      "sourceHash": "660ce02811d0aaf06283395ec374d525546a973e3b14584d7ff3ff1b798bad60",
+      "contextFingerprint": "a1e11a60f88c869f7b988f3b9148d60ee3cbc57b76d96d5dc86f4758648fb72e",
+      "sourceText": "在 Ubuntu 24.04 + ROS 2 Jazzy 中，ROS 2 的默认安装路径是：",
+      "translatedText": "In Ubuntu 24\\.04 \\+ ROS 2 Jazzy, the default installation path of ROS 2 is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 45,
+        "costUsd": 0.000105
+      }
+    },
+    "ec301105980ceadf2716af12fb31de0d9a2d3d79d245b0a0e95ccea0089c8f21": {
+      "normalizationVersion": 1,
+      "sourceHash": "10c8d8a0e3165bdb51f8ed3f2ba4f2e27640d9106bd585d30bde22543b5e2147",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 启动WSL2子系统和虚拟平台",
+      "translatedText": "##### Enable the WSL2 subsystem and virtual platform",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "ec3123189f2744c6d72cbb5379e398a39276437a4b07370cc196bed8c547a540": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb531facd0d27049d90627269acdc8f6ee3243787663016c0d97d8a0acb2211a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过dnf安装完显卡驱动后，也可以使用通用法安装CUDA，这种方法也很方便（CUDA在更新内核后不会掉的）。",
+      "translatedText": "After installing the graphics card driver via dnf, you can also use the general method to install CUDA, which is also very convenient (CUDA will not be lost after a kernel update)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 46,
+        "costUsd": 0.000103
+      }
+    },
     "ec318d6bff14dba7d7ba5d0f294bf6f3160e864bba15b2ef273e07f7c30b1fd8": {
       "normalizationVersion": 1,
       "sourceHash": "a783a6ec5f15c983b64fe8ee01586420c8731244a240386e6000cc4ca9436919",
@@ -139,6 +195,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "ec33a10bca5274fc3dc8fe54be2bca6f8ac211a5f093f90f7fd7b9017fd616e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea5e7e51555c2f66c6fae5218158f30a09cf170ae2b19fe9b405aeb54b2c19c3",
+      "contextFingerprint": "cb14fc1824e76716ba000773b3ecefce6e7bc376fd0bcb2557152a3725896e39",
+      "sourceText": "在robot_localization功能包中提供了`ekf_node`、`ukf_node`和`navsat_transform_node`多个节点来实现机器人的状态估计和定位。不同节点介绍如下：",
+      "translatedText": "The robot_localization function package provides`ekf_node`、`ukf_node`和`navsat_transform_node`multiple nodes to implement robot state estimation and localization\\. The different nodes are introduced as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 44,
+        "costUsd": 0.000102
       }
     },
     "ec3506a1d413bfa8c15667f9e73f098e80fd6550235959d02c6a4ace2e8d299e": {
@@ -169,6 +239,20 @@
         "costUsd": 0
       }
     },
+    "ec3c7f9a9cc1da654d2f546da1a142c0fba6232ad17a93362505eeaabf3b5741": {
+      "normalizationVersion": 1,
+      "sourceHash": "1564f999cfff5092ba844f274483104fa9bf27279dab16560067721c0cb67503",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样也可以安装pyOCD",
+      "translatedText": "This way, pyOCD can also be installed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "ec3d0b3a637d91edbb6f429ed4c9c698a93da352172936b30fb995c8f7719ac3": {
       "normalizationVersion": 1,
       "sourceHash": "d629f37e8e94a2c7212e520e39822a493b28aedda4e36dae2965bc76f9f62a37",
@@ -197,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "ec4565c9999c722b182e16678deca4a45446b25fd9ef83f06d5220f837e8ea36": {
+      "normalizationVersion": 1,
+      "sourceHash": "0078d60fe96409f1453c13f16afd3ba29642f1f732008e915b8ea1ba7c4b0d01",
+      "contextFingerprint": "d5dd250b0a8fa52b2e93cdb10139b0121c44b89a1552b7f7c7fe2c60c7605275",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image345.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image345.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ec46e000d92b61fd24d21555e1e210126d79943ac768157fadbfadf0fca11379": {
       "normalizationVersion": 1,
       "sourceHash": "58a7ad1c0d1e52a31963638335aeee62e64a37523e4e190a6f8f340db84d276c",
@@ -209,6 +307,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "ec4fe0319c3074f5a86d5717b7fd61bba65bc507535e70c04d5459263f09d1da": {
+      "normalizationVersion": 1,
+      "sourceHash": "0103c8bdff8ed4246be8934f6afe9d997e211e745e55e8e543ba25159e76dcf6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "找到自己第二个盘。",
+      "translatedText": "Find your second drive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "ec5051bdefc4ba25d207faa0c4ac63f17bc596338720fb60d6c7d010190de175": {
@@ -237,6 +349,20 @@
         "inputTokens": 176,
         "outputTokens": 55,
         "costUsd": 0.000119
+      }
+    },
+    "ec571ebc171bdb9c4ade62d574d73694414df78d07230e8ca181b50f6e2c44de": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed8ecd78ecb2b055a9ab9851278e14d0cb5011c7ac5c7288c989f72dd2460b42",
+      "contextFingerprint": "68337d10c7f651cbb3175fba467856659000599619823c3764a924fdb365778b",
+      "sourceText": "根据你安装的选择不同（最小安装或普通安装），有[不同的](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)Snap软件会被预装到系统，在删除Snap服务之前，我们需要移除Snap安装的这些",
+      "translatedText": "Depending on the installation option you chose (minimal installation or normal installation), there are[different](https://so.csdn.net/so/search?q=%E4%B8%8D%E5%90%8C%E7%9A%84&spm=1001.2101.3001.7020)Snap applications that will be preinstalled on the system\\. Before removing the Snap service, we need to remove these installed by Snap",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 54,
+        "costUsd": 0.000115
       }
     },
     "ec5ca7b40d7774fce895b42edbf00a0dfbd7d9896526b6d9667321065aafc7c5": {
@@ -351,6 +477,20 @@
         "costUsd": 0
       }
     },
+    "ec8ac984a1932ff91ec9d59aea938938ba2d1c9eab68dcd52d0dfe166b6e2ebd": {
+      "normalizationVersion": 1,
+      "sourceHash": "81d3aea257a31efdbc2d273a61a077f39d31f6796040d1875c26c5a10e3daeda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以查看常用控制器：",
+      "translatedText": "You can view commonly used controllers:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "ec8ef23f5224dfd16d7c40ca5176018c1d43773ba0b2c585e97d6afaf88965b9": {
       "normalizationVersion": 1,
       "sourceHash": "b6045a07679d45b0a75ab0d6d654e8b9a5710c93aa23eb432db5818cda9be548",
@@ -421,12 +561,54 @@
         "costUsd": 0.000071
       }
     },
+    "eca319c1addd2936c7612f557fe8d179cf625525fb328b9c8a42e91e9e998ab5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9149a75754436da3f2d30c58c9fdc6a1bc837dc60e7c3f6b6051b3695f16d72",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果退出，可以调用exit命令：",
+      "translatedText": "To exit, you can call the exit command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "eca71bdc17b6c767834e86dfe89066e981575940e3a18e1e5d7c0652953546d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "f95bdd5a6254f0f3246aab2760992c3ca846ca58cb1701ef7c946d0e45ca6205",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点击安装.",
+      "translatedText": "Click to install\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "eca95ba46f6743d57edf838895394d77480e1ce4b45416d8367465d07c4bd949": {
       "normalizationVersion": 1,
       "sourceHash": "8f04ff196e93ef7468b459edf6dd43555457ccfef1ec4db6012f5c2992232fa0",
       "contextFingerprint": "1b4c2ee707c0c78b0a027b46b39dc22e8e1cff74eb8261da5e4e76004cc74f8b",
       "sourceText": "### `std::lock_guard`",
       "translatedText": "### `std::lock_guard`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ecac9f906a359a69c2e3d2be156d56035791a516f5b528fd234517531e36bfb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "12266566bf0166755be6819ba138c5b416d8df581bd26b83d3dc99f678317023",
+      "contextFingerprint": "594b1e5cd7bb6b16bd37e036796a8c9e0ecd85464d89a069ee53482f70e11170",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image67.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image67.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -447,6 +629,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "ecb94bec3dd593d1ab26abaa14de2a36e828d40c83ec4de1a5019b2d54af2eed": {
+      "normalizationVersion": 1,
+      "sourceHash": "f01c029d2de16ae87a144d42003acd5be4aebb8f6a9d071dfb8333fb38eb5930",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### SCARA机器人(RRRP类型4个自由度)",
+      "translatedText": "###### SCARA robot (RRRP type, 4 degrees of freedom)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "ecb95d4bf223ffdb44694b3200d26fde8138900609abec8a4b9bcc9b5fda487a": {
@@ -503,6 +699,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "ecc926c0d7cf7aabd02067471afaff526d9d765bd7df0f7493929d78ebc346c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8eecf68b8e004cdf9ada8ed1a9a2f9411be56bdd3477ca110d7fb02038477fbf",
+      "contextFingerprint": "cefdcb2d847711f146e3d10b34fe33e98c8553bfcf505afa280f6a30ef7f0a93",
+      "sourceText": "#### 使用 mock_components 测试",
+      "translatedText": "#### Test using mock_components",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "eccacde764839d92c20c7ba8ecdfb85f5a290bb8df7e9c6b7973f30362d941d1": {
@@ -615,6 +825,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "ece1682021423d7aa548d6a1ffa08452fde464dede97529b8056f2325b26829d": {
+      "normalizationVersion": 1,
+      "sourceHash": "627eca7dbc34e9a124172d72b6136ac8b3e41f916dbdba221d1de33b9492c94c",
+      "contextFingerprint": "ee08eacd50719c8c4f0044dbebefd2e983faaf9320ebebc5df190dc0385a11ae",
+      "sourceText": "如果你是在办公室等地方链接办公室的wifi,那么你需要知道`室外内网网段`,如果你直接用手机数据流量的话,那么什么都不需要知道.",
+      "translatedText": "If you are connecting to the office Wi\\-Fi in a place such as an office, then you need to know`室外内网网段`, if you are directly using mobile data, then you do not need to know anything\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 47,
+        "costUsd": 0.000104
       }
     },
     "ece2b5aea283460804118f152375786232ad3dfa9f585bac29796ef18ab6b390": {

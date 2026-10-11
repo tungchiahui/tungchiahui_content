@@ -15,6 +15,20 @@
         "costUsd": 0.000064
       }
     },
+    "6f1017051247f536fc820fd01686c8f4a0a33c926780b81bf6b2f2c943bef31c": {
+      "normalizationVersion": 1,
+      "sourceHash": "39ade211ca7ebaa6fef1ccfbf21102c639dba0ec429db3d72874a052a11201c0",
+      "contextFingerprint": "861da849dcad6ae18cc58b01037913c0b33b1c86698f8f183598be0acbbb636b",
+      "sourceText": "| 函数 | 作用 |\n|:---|:---|\n| `on_init()` | 声明参数，初始化非实时对象 |\n| `command_interface_configuration()` | 声明要占用哪些 command interfaces |\n| `state_interface_configuration()` | 声明要读取哪些 state interfaces |\n| `on_configure()` | 读取参数、创建订阅者、初始化缓存 |\n| `on_activate()` | 激活前检查接口、清零命令 |\n| `on_deactivate()` | 停止控制器、释放状态 |\n| `update(time, period)` | 实时控制循环，计算并写入命令 |",
+      "translatedText": "| Function | Purpose |\n|:---|:---|\n| `on_init()` | Declare parameters, initialize non\\-realtime objects |\n| `command_interface_configuration()` | Declare which command interfaces to claim |\n| `state_interface_configuration()` | Declare which state interfaces to read |\n| `on_configure()` | Read parameters, create subscribers, initialize caches |\n| `on_activate()` | Check interfaces before activation, reset commands to zero |\n| `on_deactivate()` | Stop controller, release state |\n| `update(time, period)` | Realtime control loop, compute and write commands |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 72,
+        "costUsd": 0.000143
+      }
+    },
     "6f16bc7a4e57e7c1eec7ca01a0fdf1bf1e49d7bde5d6e97721fc91e269c2623c": {
       "normalizationVersion": 1,
       "sourceHash": "8283537141118bb6ca86e94ec6a619881c5a8cc6f69a9ba2aeb06298846a79fb",
@@ -113,6 +127,20 @@
         "costUsd": 0.000068
       }
     },
+    "6f3d97918140c892789b99a91910d8e99cf21295af1d90cda8376866414e421d": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc7bbb4c97c71f9319277dafd2a56e05aa5602d591ae82516fb86b9a5133d049",
+      "contextFingerprint": "1d31ed6f6d09ec5c9f91d0413efc4701a3b30d87bec14438b49c9e099cb3b898",
+      "sourceText": "（注意 `MesloLGS NF` 必须放在首位）",
+      "translatedText": "(Note: `MesloLGS NF` must be placed first)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "6f3dc066952618d83f777c61bd360da5fb711e5637c7cb308fac46ca75c6bf40": {
       "normalizationVersion": 1,
       "sourceHash": "030e5c24411dfb2bd0165a3256594dcdc9bc6abd667ac988a1e84a8277d2f10a",
@@ -153,6 +181,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "6f47589f7a88f2bd97a377a646a446b22779eba28cf04244bc73c18b790bee73": {
+      "normalizationVersion": 1,
+      "sourceHash": "1047a483b38eb3cc1e99b33736f4cb978d3d9379690465869653576bbd597853",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "16个数字，转动的部分占了9个数字，也就是左上角的3X3的旋转矩阵，然后右上角3X1的向量表示相对于原点的位移量是什么。（也就是frame6的原点相对于frame0的原点位移量是什么）",
+      "translatedText": "16 numbers, the rotating part occupies 9 numbers, that is, the 3X3 rotation matrix in the upper left corner, and then what does the 3X1 vector in the upper right corner represent as the displacement relative to the origin? (That is, what is the displacement of the origin of frame6 relative to the origin of frame0?)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 80,
+        "costUsd": 0.000151
       }
     },
     "6f4ca77e63adc3afd19e11b9623ed02fc1cba271cc5140d4de7779fd2821e0d9": {
@@ -267,6 +309,34 @@
         "costUsd": 0.000194
       }
     },
+    "6f8eb26153f0203dd40961869d47af022ffe69941a541cc6bede8b92bc3301d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "836a50b6bdd2df5f249c2f8286c8815fe13bac62cb8a860dfbb0fcfdd3afa500",
+      "contextFingerprint": "b46e5553828bf41e5b6d90657a3a761d1cfdc83a8e3765c5f0fec3a5b4f76a06",
+      "sourceText": "https://www.bilibili.com/video/BV1qh411Q7d4",
+      "translatedText": "https://www.bilibili.com/video/BV1qh411Q7d4",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6f902348fe916fd2383fc3dc7ba82e6ad1b826c4f608a36f8115996eb29e1831": {
+      "normalizationVersion": 1,
+      "sourceHash": "327b5541bf4d703c7e3eb115ae152ce70ecd4eaaafc239822cfe9394ef47e5e6",
+      "contextFingerprint": "8a6699a41db77202ee1851b197833f9c579f1763183e38b2d2fdf9719a959bd4",
+      "sourceText": "注意，安装驱动之前，要确定自己没用.run等方式安装了驱动。可以用nvidia-smi命令查看，如果提示没安装驱动就可以。如果提示当前已经安装了驱动，请先卸载驱动(卸载教程上面应该有）或者等下一次内核更新(内核更新会掉.run安装的驱动）",
+      "translatedText": "Note: before installing the driver, make sure you have not installed the driver using methods such as \\.run\\. You can use the nvidia-smi command to check\\. If it indicates that no driver is installed, that is fine\\. If it indicates that a driver is currently installed, please uninstall the driver first (there should be an uninstall tutorial above) or wait for the next kernel update (a kernel update will remove drivers installed via \\.run)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 105,
+        "costUsd": 0.000186
+      }
+    },
     "6f9029362eb657182faf474f633ae90727a705dffb45c9c2494f694ab5b747c4": {
       "normalizationVersion": 1,
       "sourceHash": "4e8586138431e12025c5a5f55f2bf8179090dac3a6b7bcf91b8ba2d735612500",
@@ -293,6 +363,20 @@
         "inputTokens": 445,
         "outputTokens": 369,
         "costUsd": 0.000577
+      }
+    },
+    "6f9acffe927b360a0f94edb63679529d19e1036ad8c952d0e0034bbda713a58f": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e11c0afee9e37e0864139ba36658f1bd0f475afa2be16ad1d6cf5c224ba64e4",
+      "contextFingerprint": "b6503416c5036ee3334ed70a6737f3a7d15fc9c38076d0651c2209bf099675cb",
+      "sourceText": "https://hub.docker.com/repository/docker/tungchiahui/ros-opencv/general",
+      "translatedText": "https://hub.docker.com/repository/docker/tungchiahui/ros-opencv/general",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6fa80194c6c614c9edf220270ddcd0baccf76e69c10df7a05189efb430449412": {
@@ -365,6 +449,20 @@
         "costUsd": 0.000081
       }
     },
+    "6fae8b54cedb632857a87873857086a7e47f30f47287f0ea6bf6888b7352591c": {
+      "normalizationVersion": 1,
+      "sourceHash": "611966fd5c7c34708bcba1d8d8654a62764105e31c579c1a7a43844f25196aaf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本章介绍机器人实体硬件开发中常见的工控机使用、日志优化、底盘与传感器数据发布、坐标系关系，以及里程计标定和融合等内容。",
+      "translatedText": "This chapter introduces content commonly encountered in robot physical hardware development, including the use of industrial computers, log optimization, chassis and sensor data publishing, coordinate system relationships, as well as odometry calibration and fusion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 47,
+        "costUsd": 0.000106
+      }
+    },
     "6fb12c8d455c25e6f7390c674455215625182fcbae6a8f205742aed4bb3cbe58": {
       "normalizationVersion": 1,
       "sourceHash": "682261d72f7214748121096cc5f9ce0e54536a7aa7d884271e1e4bc61bd433a3",
@@ -377,6 +475,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "6fb7a7ebba47472441127caff15a3760211a7b7f0e857cab3168da4618e29722": {
+      "normalizationVersion": 1,
+      "sourceHash": "764ce9b25dbcc905dec4380526798d0edd488cf6095056c13bff26e470f01a4c",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 将纯WireGuard配置放入Clash Meta",
+      "translatedText": "##### Put a pure WireGuard configuration into Clash Meta",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "6fc08b5108ace91cd3cc0be9f65d670ec49c3d9b690467bdf1d32c6061738695": {
@@ -463,6 +575,20 @@
         "costUsd": 0.000072
       }
     },
+    "6fe274beeaf64e0af0280ba2ab78427f054ec374eb9dd5c82bab3a8b6f298e5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "de1c23dbc658d2fd4c6395dc7103eaa23770051a597fcb27e713582052fba255",
+      "contextFingerprint": "064677d0aec6ba3f4dbe0e19c04f0ab12b9078084fb0daa9f436df28cff52026",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image285.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image285.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6fe328349789592a56fd33678006786223f373482fe50f5849e4ed5faac95a5d": {
       "normalizationVersion": 1,
       "sourceHash": "0318994ed50ce947b7d10208dc2fec80b81efec743564bef2ec3bda8605bf481",
@@ -531,6 +657,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "6ffb609c38bce173b0b4c67ee8d72ac227b058fc08f27a1606d031f3604e6d1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c071bcbf4f29824e049aa9a66dda3a598dc61332464876a2b8c07e5407c1b77",
+      "contextFingerprint": "2355c7ad7881c1241ce5d1aa31d756ff3a88c780d780134cd624bd363dba4b3f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image35.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image35.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

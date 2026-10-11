@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f9018b471951229a56c57e2d3ab22df7d5cf5cb95f0e00ee1c41955a5319d42a": {
+      "normalizationVersion": 1,
+      "sourceHash": "48ee1ac99e8e33de5703666de3c3fa11e379d56c1161f925336502a725e6d078",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "(Docker Desktop在Linux上只是Docker Engine的一个GUI管理工具，依然默认使用Docker Engine开启容器，所以依然几乎没有损耗，讨厌用命令行的可以考虑使用)",
+      "translatedText": "(Docker Desktop on Linux is merely a GUI management tool for Docker Engine, and it still uses Docker Engine by default to start containers, so there is still almost no overhead\\. Those who dislike using the command line may consider using it\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 55,
+        "costUsd": 0.000116
+      }
+    },
+    "f904a0386b81087dfc5be965b29c16e5e46175d3513e93101acf47964726bf00": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2e76b7cbfcfafce02c45cca96e3bcc7527b8fe78f9695a479db7f9eb72d08fb",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  安装cuDNN",
+      "translatedText": "2.  Install cuDNN",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "f9096f4db4f30d2632f3882d7f8ed7e961d456089d22a989c4d60d21fe3e8368": {
       "normalizationVersion": 1,
       "sourceHash": "7432e6b591b4343bfc1f8fd38b46c07857578ffe3c2a0fcc88d0848074b36917",
@@ -41,6 +69,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "f911997a2d3128d3921f5e759c73773dbbfbfa39549a98ea6d74abce6def5a61": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c17bbdfd4a5c78bc76b584365533c680f186e4d5b2c96a1ea23acf046067f7b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以编写：",
+      "translatedText": "You can write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "f914bef393d9dc5f037c75a7bd463a2406c636e534b65264c02f747711a08075": {
@@ -141,6 +183,34 @@
         "costUsd": 0
       }
     },
+    "f9221d146876df79ba6ad54dde555005e8d8ca55376991fd7c87b577ffa0d61b": {
+      "normalizationVersion": 1,
+      "sourceHash": "474295bd5f041083d92cd827ab56d2d34d94fa4ce98363f6a9201f62b2dcf3fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个一定要开着。",
+      "translatedText": "This must be kept on\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f9234d976a8a3b045533d3563affd4403f115f281efd134d8fbde803ad89a5a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "e457391842665db6e9fb90a0d4ad785e1e33b8e611a9ee2e602da163271f4b1d",
+      "contextFingerprint": "ca690d6a4075a1266698712a18ecc2306c07414f48627c23cd659e1aae5c0367",
+      "sourceText": "use as选`swap area.`",
+      "translatedText": "use as option`swap area.`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "f923dd2fc58fd47509ea62578785b0c4ac4464844228ce2f1e08873a1e8e24ba": {
       "normalizationVersion": 1,
       "sourceHash": "abf22f6a39404933b28bada8595afb255e1c6fd11013bdb8556622cba5e380f9",
@@ -167,6 +237,20 @@
         "inputTokens": 177,
         "outputTokens": 57,
         "costUsd": 0.000122
+      }
+    },
+    "f92a6669a9fb5d5df0f55a310b8b9c17288ff20fe71f20b345e2d0b39a505ff6": {
+      "normalizationVersion": 1,
+      "sourceHash": "09f1886c8a9e8ce698aaaf5bf867c19dfe480cb19d414eb035f36665bd2e29fa",
+      "contextFingerprint": "9b4f81b0c6b0b0a4ee1388a86efa6d149998fbbae939340191fe191836077fb3",
+      "sourceText": "在luci界面中,点击`网络 → 接口 → 添加新接口`",
+      "translatedText": "In the LuCI interface, click`网络 → 接口 → 添加新接口`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "f92b110b91686fa563b312ab8a0c34835cda8f6e840fb969a1796c3852416cdf": {
@@ -379,6 +463,20 @@
         "costUsd": 0.000051
       }
     },
+    "f95db69a96bc6ba61adecf7d723b216b9924590fc3b79f0b017ec14d9273c773": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a0c44f49d9c8508f32869059810d7f087ddc585f07fdff0b961accd4687e8c7",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  教学文档",
+      "translatedText": "2.  Teaching document",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "f9616d2c95f7ad706c29c622d22530a0cb423cce402141fbb08f91fc509a440e": {
       "normalizationVersion": 1,
       "sourceHash": "b49c056f170f30bd0390b5c73bde1b45e83acd007c03e72f011d534f11bce3fc",
@@ -391,6 +489,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "f9658ccba54fd1dc7010c57dc2eea82b4d5cdc3691008bedbac7a3c3983eaf3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7ef9e56269bc488f2955bfc377eb52d67b929c35daed196cae83972c79f98f7",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 优先使用 Linux 自带的固定设备路径",
+      "translatedText": "#### Prioritize the use of built\\-in fixed device paths in Linux\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "f9685b2b7c571bb1710683ab968e4597331b8b6221d4c4ded259e981a2987319": {
@@ -461,6 +573,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "f96ca37d6ee1f26e9ab791eb537d8443fb3e871eefa6ffff16f08ad072885847": {
+      "normalizationVersion": 1,
+      "sourceHash": "52649a00d6c30b946e9bf5220f530f951fe4222914c3973cf93d952a01b40cee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种方式实际上是根据：",
+      "translatedText": "This approach is actually based on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "f96e6003d351648d75f3c8449521bee3f744d4c3b94cad39f23f5b2e5b1996c5": {
@@ -603,6 +729,20 @@
         "costUsd": 0.000055
       }
     },
+    "f9af7ecf3bcc9948f8eae80cc15b511ce0ef87ed015e82ce4cc9f69f0f3c3004": {
+      "normalizationVersion": 1,
+      "sourceHash": "65164492705d3a3ee063c66fb750b422bb0b6bde27eb1041f6f8ff78b71c6a46",
+      "contextFingerprint": "0ed724a91c2e55d5d42f2df542e40579aaeb2a95aef8a0ad21245f4d5c86446a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image55.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image55.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f9b29d6b6eb6f73a7afcc5d625f943c451836f25bd13aa508667492b8e01f3c7": {
       "normalizationVersion": 1,
       "sourceHash": "b15d4fca509df78a0596e57836492a1b781a57f92bbe58b90e3dd93ccdf4ad78",
@@ -631,12 +771,40 @@
         "costUsd": 0.000054
       }
     },
+    "f9b826b52e6ad2b927658a6f8b27895233b60d370425f817822c73e9a1e1451c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0673a67ed37fa964664bb1352b1b512e9ecc9a64bed25a06a35bd6b25a42c8c0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 查看snap包应用数量",
+      "translatedText": "#### View the number of snap package applications",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "f9bbffb09d1061a73803ae1af3a6fdc3ef6d65a765ef55be55e514ba65074083": {
       "normalizationVersion": 1,
       "sourceHash": "690bcb28a2bdceda15e0b119bd7f742f2bb4bae35b269438dd3cb7c37895cb18",
       "contextFingerprint": "a53edf0eaea71678dac309b743462e021b91047a9fb2e9d1afe8f60fd6dd28e3",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1540.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1541.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1540.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1541.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f9bdf5d23c45fb108aa2c181e50d118e7727e3d8c6556c54d446c6353fa8b6c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a787e2dc9e7edff5843cdcd09bfac173e59d5e62cef30b6df7da1ac6f6cf3cc",
+      "contextFingerprint": "5b5f161b177d75f1b6dd04a55584543467d11bfe9362f7e4db38fc907b692245",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image264.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image264.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -715,6 +883,20 @@
         "costUsd": 0
       }
     },
+    "f9cd22e07cad83068245e1fa5a17dbdbb12aec60317941a156106d6a2921f8c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "73c730aa108f21fbca430d66d14d98aaa199ec524c8e9161b519d675864e70e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "密码选个简单点的，纯数字的，因为以后要经常输入，所以尽可能简单点。",
+      "translatedText": " Choose a simple password, purely numeric, because it will be entered frequently in the future, so make it as simple as possible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "f9d53bf5307588fd545d5e36c0fc39f3933eb313773fab42621d372f49ea541a": {
       "normalizationVersion": 1,
       "sourceHash": "b5f67e63b475daa2b5bb3dea7e8ebc30de7d567c30c4bd307612e6b2195755cc",
@@ -757,6 +939,20 @@
         "costUsd": 0.000067
       }
     },
+    "f9e32d324573bbab3054639607f7d316b57309a1e4a7019f1ab90d0aca6f5423": {
+      "normalizationVersion": 1,
+      "sourceHash": "94dc9e96266cf7600870bfe9040fbf5c6164f69d17cd1f2968bcbf410f3f1000",
+      "contextFingerprint": "94c621ea80bae49749c3a6e3ed07eba2f1573b25bc82e40cff4cf543e1832e71",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image44.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image44.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f9ee3aa6f52ee629a6345e12a80c96a4bbe52cb3df2a1fe8c64a0eecc4d95315": {
       "normalizationVersion": 1,
       "sourceHash": "f1cda3fd6c28949a05d03b47735da485c39df9ae5892a3648ec700634a5ac7e6",
@@ -797,6 +993,34 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "f9f46bc7c81b0ba5df0319dbb1a77e3425e4a4a60125f226d12995fa4f828d32": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e680490c4e38462234c4f338329ba6c3e8bdde2de1e4c4a647fc983385beee6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后找到你的存放AList的桶子的存储地点进行编辑。",
+      "translatedText": "Then find the storage location of the bucket where your AList is stored and edit it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "f9faa608fecd33479c3e28e15784890d6f116b7a19dfa98e49a6ef3f7f5021e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "d779d9461ee9c0d5b136e1232bf8b662e9f9d87408aba1d4091c9ebd221480c4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Keil Studio Pack",
+      "translatedText": "### Keil Studio Pack",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f9fdcf6d0ba522b2084ad3b921e23682e325c62e39467f0cc71eb1fec6492f97": {

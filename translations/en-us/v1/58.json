@@ -141,6 +141,20 @@
         "costUsd": 0.000191
       }
     },
+    "5830488cb544b6a40214f29de8b363a42efd8280be937b45050b7e38e688984a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e33e5718433d2718404947fa5886b4103fcd2c423237bcc9783b12c73013696b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### KDE主题",
+      "translatedText": "### KDE theme",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "5831d6376d25bbfe39a33f94497bf285a13d7206e88261d58b5d778909b12a20": {
       "normalizationVersion": 1,
       "sourceHash": "c11eb79dd0642a5a15676b06a8ee36087205eff16ef44c106e1232e9307a684a",
@@ -281,6 +295,20 @@
         "costUsd": 0.000054
       }
     },
+    "585af9bba40310c0a0b4e3107be1755fa6b3a914426e6cec8cf2015a913b678f": {
+      "normalizationVersion": 1,
+      "sourceHash": "eaf002855da328aef8e7e706d4e717551ddf838df41492b1766300ceb557888a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面这个矩阵就叫旋转矩阵（Rotation Matrix），是一个3\\*3的正交矩阵，ABR描述的是A为参考坐标系，B相对于A的方向。",
+      "translatedText": "The above matrix is called a rotation matrix, which is a 3\\\\\\*3 orthogonal matrix\\. ABR describes A as the reference coordinate system and the orientation of B relative to A\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
     "5862a33faa021e6af906cb238613284231c0698a807eda15fdeaeaa0ec1cb132": {
       "normalizationVersion": 1,
       "sourceHash": "2c2d910116c6ddce4b59a50eea3d64e6c5165238f1d921a03e241ea1be6f1c6b",
@@ -321,6 +349,34 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "5870409b954ebb9ba7712717b71e72fef395bb78977807e839eeb05f565449be": {
+      "normalizationVersion": 1,
+      "sourceHash": "96507a632eb87048d1ba90455b75e88d76acd1d05a80c56e2ac429e7ff6092d6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 从Bash切换到Zsh",
+      "translatedText": "### Switching from Bash to Zsh",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "5871116e4c21c7dacba769aab2416c4d8ff6c57b7422f279f47c32f765fa7f8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0367b4261d81cd2b09c679d2979bb54e4e8abe6577f033e31039846f5011fbc",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3.  为你的镜像打标签",
+      "translatedText": "3.  Tag your image",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
       }
     },
     "587686ca60769d15ad50147d7c3356ee45d542a8a487e49b9996e84d93c6cc3c": {
@@ -365,6 +421,34 @@
         "costUsd": 0.000221
       }
     },
+    "58870716ed420693f200513f14c9e66774891a811f721f951d2b1d570ee7c1ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ad085938e470a5521eb019071af93a3dd0661e6bb1299f889a82a924d0f3688",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  如果你是使用的模板，那么将模板中的“其他注意事项”文件夹中的Middlewares文件夹复制到根目录即可。",
+      "translatedText": "1.  If you are using the template, then simply copy the Middlewares folder from the \"Other Notes\" folder in the template to the root directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "58883be8be01bfba258d6bba954a76ffd811a663e6c4d43a7f244b647e2cb476": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d5fc30d998815656c7ed96dad2be014947cc68ee2c9d58f3416414eb52bde71",
+      "contextFingerprint": "6d832cc9aaef9b7067cb18cfdcf28fcc47813435e7cd90653c47523718781cb0",
+      "sourceText": "将原本的`find_package(OpenCV 4 QUIET)`改为精确匹配版本，并添加`EXACT`参数：",
+      "translatedText": "Change the original`find_package(OpenCV 4 QUIET)`to the exact match version, and add the`EXACT`parameter:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "58893a29b03623a4199371ab01f118bb042658eca8385c002edaacf2912bc4ad": {
       "normalizationVersion": 1,
       "sourceHash": "ae13fb5c23b2ac70857f782e21b34ec7a5f0cb910fb5c46183ce9d0c7670de7f",
@@ -377,6 +461,48 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "588ab50ad6c538ea5bc9baa92c66e6ae7eaef8ba884f92ed5597b7734265684c": {
+      "normalizationVersion": 1,
+      "sourceHash": "046f956f0e3af06722084196ab9c452591e412bd8b0582e06ecd72aa4f1d029a",
+      "contextFingerprint": "20ccd212dc34c908d64225c2963cbeeb4d4b1fbace69d03d9f3fa96a918b4717",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/image2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/image2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "588c6d477f0fc0ab94f8ec067355aef6c9dcb954415f6d88c3b47449713cb3d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff304b79ef13890c53ff6a0acdb0d463214786e0ea26234ddebeaab06c6d9fd1",
+      "contextFingerprint": "03be53e5d4ca6c9db4171e4b2a8e3c8f510cd119b89d69d210c499192c103810",
+      "sourceText": "还记得上文中我提到不建议修改.zshrc，这是因为我们在使用oh my zsh框架后，oh my zsh会建立一个~/oh-my-zsh目录用于存放相关文件，其中有一个名为custom的文件夹，我们可以将我们的配置脚本放在此处，oh my zsh会自动加载这一目录下的vim脚本。",
+      "translatedText": "Remember what I mentioned earlier about not recommending modifying \\.zshrc? This is because after we use the Oh My Zsh framework, Oh My Zsh creates a \\~/oh-my-zsh directory for storing related files\\. Within it there is a folder named custom, where we can place our configuration scripts, and Oh My Zsh will automatically load the vim scripts in this directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 90,
+        "costUsd": 0.000168
+      }
+    },
+    "58954003d6c30a4ec4224bdb76e3d173e415f64b5136f3413da9bcbb0ddc5d0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc6c30dd13dae6cf9ba21421a41e6d29f12c09bddbe9408d77bffe8bcb342a3f",
+      "contextFingerprint": "2b36558149ef75b2740c13e601bee1ed8430160b7d61ce97ac9bfdbdbe8da6cb",
+      "sourceText": "假设说有一个点P，他在frame i下的表达是Pi，如果我们找到了Ti-1 i的矩阵，那么就有办法，获得P在frame i-1下的表达了。",
+      "translatedText": "Suppose there is a point P, and its representation in frame i is Pi\\. If we find the Ti-1 matrix of i, then there is a way to obtain the representation of P in frame i-1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 64,
+        "costUsd": 0.000131
       }
     },
     "589892dc7e322a02850f8162e86a25eae7aad444a2091a56a1a0586c96ee04c0": {
@@ -533,6 +659,20 @@
         "costUsd": 0.000122
       }
     },
+    "58b11161eb16f363883baf040beb7ed9fe1485d610a3485c14f907f7fdd73a65": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a3a4e2e3bb470f310a4e6dfc2e039f7992ac408ae68c3484f29525800e81c52",
+      "contextFingerprint": "9ce8d6c0fcc4b509308f2f01e5827dec59d0a61062030216493cceb4a97f11eb",
+      "sourceText": "选择一个版本，这里以CUDA12.4为例（绿色框住的都是我这台电脑对应可安装的版本，而红色框则不能）",
+      "translatedText": "Select a version; here, take CUDA12.4 as an example (everything framed in green is a version that can be installed on my computer, while those framed in red cannot)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
     "58b3eed22a659d8df06b97a85532be45f202f807c50392298b362526407fecab": {
       "normalizationVersion": 1,
       "sourceHash": "151f7422e9b0b14f1382e28a76b6717b16fbfaa774145446dd6f8559e27042f9",
@@ -559,6 +699,20 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "58c3a28162e7e4ec165995df1c748dbab0617ad9f245e8f89e8427b8521de91e": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5b85e1b4e9df841dcd1571ba4bd54a4c0fe6a4e001be525e74620d28980e710",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 打开CubeMX生成器",
+      "translatedText": "#### Open the CubeMX generator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "58c9c6f5ecc1f4c103ca6ffa3b1382388c7466c858df6333f1fefced49f829a2": {
@@ -673,6 +827,20 @@
         "costUsd": 0.000054
       }
     },
+    "58e4a56c0aa4f36d5d3f7f4a9ccb1af1009a84f2f98da3b1f2e1ca1d7c304b93": {
+      "normalizationVersion": 1,
+      "sourceHash": "772f78facc8b2c3fe7106905fa086396cc0d163e80fbe2403619f944c60fcb70",
+      "contextFingerprint": "1f4ff77545728ee3d443b61832957b0484fa9454674650df04f9c09b34182101",
+      "sourceText": "1. `public-key`是否误填成客户端公钥；\n2. `private-key`是否为当前客户端私钥；\n3. `pre-shared-key`是否完整，末尾的`=`是否遗漏；\n4. `ip`是否与服务端分配给该Peer的地址一致；\n5. Endpoint域名和端口是否正确；\n6. 软路由防火墙是否已经放行WireGuard端口；\n7. 独立WireGuard客户端是否仍然处于开启状态。",
+      "translatedText": "1. `public-key`Whether it was mistakenly filled in as the client public key;\n2. `private-key`Whether it is the current client private key;\n3. `pre-shared-key`Whether it is complete, and whether the trailing`=`is omitted;\n4. `ip`Whether it is consistent with the address assigned to this peer by the server;\n5. Whether the Endpoint domain name and port are correct;\n6. Whether the soft router firewall has already allowed the WireGuard port;\n7. Whether the standalone WireGuard client is still enabled\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 95,
+        "costUsd": 0.000173
+      }
+    },
     "58e4efb097d9e0165798087237cb6d9343ca5814302bd6ed4515f36f33a175a6": {
       "normalizationVersion": 1,
       "sourceHash": "b8f3011f2eaacd9a7e6649cbde25e879bacb2b6763242607e2bda3ae4131f70a",
@@ -687,6 +855,48 @@
         "costUsd": 0.000054
       }
     },
+    "58e5e0d336e3a642581872d83e42ac1fd259a1966f837e0ddb13d6116f83b0c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d50ad8a9f016b4e1256496968d958c3860cd4446e0fc342f6a0bd0aec088b35",
+      "contextFingerprint": "a397ee5a47ef0a0f46700b9f138a0cbae09f9a33415a5e8e1975d0b0ff1c576e",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768145605588.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768145605588.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "58f1f6c435e5cbcde9ef1ce35e6e47e4ec8aa076f8abe9805b97ef292d6d37ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bc0ef3633ea8b98e2c8e6244bdf99f9dea70680977dd125e9aa032765d04be6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些示例文件安装在：",
+      "translatedText": "These example files are installed in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "58f32f51b39c2b0b9166ae241d749fb805c5c17446ffd8fc2430cfd0e927a58c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9656ad07c963ac66c47f96d7fdb1fc02b2768df6e6ae9250333b79c0459ef652",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用配置：",
+      "translatedText": "Common configurations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "58f916ddcacbaab420e0c47b350b8008f0d865c2c6c952a9fd7a6eb125ae0ad1": {
       "normalizationVersion": 1,
       "sourceHash": "3058352546730b63a1291c4486efa8886ff9d25138fca65b309c0500f4d7a2b9",
@@ -699,6 +909,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "58fc4f5c8bb4131439f705c25814840f0fe33bf612ddd86107c990f5200bffed": {
+      "normalizationVersion": 1,
+      "sourceHash": "445b0fa610aa7156c80ffe3d43bd736106aa616a965965e1e59fb0641bdba47a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "保存后给脚本执行权限：",
+      "translatedText": "After saving, grant execution permission to the script:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "58ff7b038a262d98b07d582133372d16af8db003f58ec239a6bd416d6aa4c57c": {

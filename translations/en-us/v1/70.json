@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7004915e4be7341eaf7bc7dfe75a013373e745032307f01d618d7a0bec465886": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f9e5ab676a5dc5372985630d96fa032a5b48620a1ad788479d3e22b084b8372",
+      "contextFingerprint": "cc87631185f4ada96fecd87689240a6c23a68e6c6c40a8dbcd2614559cf24716",
+      "sourceText": "**(2) 查找你的 NVIDIA 显卡设备 ID** 使用 `lspci -nn | grep NVIDIA` 查找显卡，例如：",
+      "translatedText": "**(2) Find your NVIDIA graphics card device ID** Use `lspci -nn | grep NVIDIA` to find the graphics card, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "700594c86e781384d77c6d9bb0507a0f108a4270a0dec7c528cd2bd6be508ee5": {
       "normalizationVersion": 1,
       "sourceHash": "244f274c609e35f63c31c400cf4fbab6d5f303942ebbea43c7a5459cea1bdedc",
@@ -13,6 +27,34 @@
         "inputTokens": 157,
         "outputTokens": 34,
         "costUsd": 0.000088
+      }
+    },
+    "700922e58fd6202b2ef8a7ecd17df493a47c41d848ee1219a47230b3a14165ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "89feb8e8070b6eac196f0de4b940d0115f963016e93639e4af484fc628c53cbe",
+      "contextFingerprint": "88e28db1bed2332e5c2a368131eaa6d06090f5d9607336b5285e0612f05d37c8",
+      "sourceText": "这个`noauto`是必须要写的。那个`toram`如果你电脑内存大于等于16GB（小于8GB谨慎，可能会崩溃），则可以填，这样安装速度会提升200+%，甚至300+%，甚至无上限。",
+      "translatedText": "This`noauto`must be written\\. That`toram`If your computer's memory is greater than or equal to 16GB (be cautious if it is less than 8GB, as it may crash), then you can fill it in, and the installation speed will increase by 200\\+%, or even 300\\+%, or even without limit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 74,
+        "costUsd": 0.000141
+      }
+    },
+    "70115b8976fcfabe823b9a8b51a340fbb2d47e87087cd9a6fdce5354b0eaf54b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9827762bcf9435ae0ef3315395413935d7631b6c49240d12d655b9f59853704",
+      "contextFingerprint": "d771012bc259092128eb1dfef907942c2aeb66a6842d37a3fd9b8299c8957ddb",
+      "sourceText": "`zsh`的全局配置文件位于`/etc/zsh.zshc`， 单用户配置文件位于`~/.zshrc`。",
+      "translatedText": "`zsh`The global configuration file is located at`/etc/zsh.zshc`; the single\\-user configuration file is located at`~/.zshrc`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "7019226a3b53da244f037cd1ffd466dda99497f57fd7eddae450cbcd62a35387": {
@@ -127,6 +169,20 @@
         "costUsd": 0.000051
       }
     },
+    "704a0085380fb6b5858469862c861db04d45cc76a9fc6c5ae7d469ee6d03324d": {
+      "normalizationVersion": 1,
+      "sourceHash": "16ecb636f5c7cf91916357ea8469d3ee59154faa6b24780a24f3452b21b09d68",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 图形化",
+      "translatedText": "#### Graphical",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "704b968756e4fdb84b21ee6e9f7850e63ef1fb8d39c28d7b57940deeae5d802d": {
       "normalizationVersion": 1,
       "sourceHash": "1b8740edece3b3629d20f648ed078afcb419d2a503095ef148cbfae05c7c4531",
@@ -183,6 +239,20 @@
         "costUsd": 0.000057
       }
     },
+    "7055ef28eb4b361b759d0ab245f424fcd02de2ee6588fddf806a014a3faff617": {
+      "normalizationVersion": 1,
+      "sourceHash": "f99c266be134476a62ef689f368d56f297b0cadf017686de022bdeb83c3634b1",
+      "contextFingerprint": "892216285da352611ed6b2cc3a8c4589ddcc6f89944b1a944276ee85139e5c3a",
+      "sourceText": "首先你需要服务器上安装一个`1panel`.",
+      "translatedText": "First, you need to install on the server a`1panel`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "7056112dd2b3b291131cdb7e27ed64c46784ab1c00c1a6bc4ab4820f8486d840": {
       "normalizationVersion": 1,
       "sourceHash": "e496784425eb1c9d7f9bb13a7026a77efcf7a5ccc28d21a49d599b6a6d2f7105",
@@ -237,6 +307,20 @@
         "inputTokens": 216,
         "outputTokens": 97,
         "costUsd": 0.000182
+      }
+    },
+    "706a7eabe1349067cdb30428936a51583a420357daeeaceb0c4dd582f1696600": {
+      "normalizationVersion": 1,
+      "sourceHash": "f94688ffe2966af4a5db85688cdc535e5d5c274b5fd6e7ec92bdcdd8789ecf45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这将自动安装与你当前内核版本匹配的内核开发包。",
+      "translatedText": "This will automatically install the kernel development package matching your current kernel version\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "7074f8a50a25395e71c27528a32d7fa8fc9bc5aacfa8d6ec956d1220d8455ed2": {
@@ -435,6 +519,20 @@
         "costUsd": 0.000053
       }
     },
+    "70d3a3ce00e10910a28b2371273cd519aff1be82421dbcd8f505957a5755dc54": {
+      "normalizationVersion": 1,
+      "sourceHash": "662a5a6470064c76600636fb3d4ec0a3c14b69bc449bb60bb2aeeeb8565773b5",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5.  然后去此电脑里找到这个被加载的镜像，点进去。",
+      "translatedText": "5.  Then go to This PC and locate the mounted image, and click to open it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "70d67bd0a2c90082e7e02dd9e0c43af517c3a9bae339238872f64f7724d279b0": {
       "normalizationVersion": 1,
       "sourceHash": "362f3197ba0061ad30440b60d51a1df6d179315df5f6f92c67af753e4189309c",
@@ -587,6 +685,34 @@
         "inputTokens": 150,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "70f6b7b2b18f5ffa82809a3fd82093dc880d5247a063ebbb6470419c3d3dead0": {
+      "normalizationVersion": 1,
+      "sourceHash": "daa3fbbafef3dea06e5f369c5b474848e26ac20043107be5d349f74b6a025b1f",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 相关资料",
+      "translatedText": "##### Related Materials",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "70f94fe25d031fff549f78c1f5cd49c473b6584cbc6bd32db19c0ba7036ad6a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ff8f62439a86d11305c5c9bc4acdaf257a15c68497ca4086ccdf5cffdfd1dae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "确认一下自己是否安装成功",
+      "translatedText": "Check whether you have installed it successfully\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "d601df218002c215a882444bd0829973c81311a7299e766fbb3655d127e16d1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c799ccf260442e2e61f1797343bcaecdcbb0f5cf330f3cb7aebb4fa3b92b58fd",
+      "contextFingerprint": "d0aa3cfe98c859744926970e8de916944409510c8ab9ff68492daab06175f75c",
+      "sourceText": "| 概念 | 解释 |\n|:---|:---|\n| 镜像 | Image，运行容器的模板，像是一个应用快照 |\n| 容器 | Container，运行中的镜像实例，有自己的文件系统、网络等 |\n| Dockerfile | 构建镜像的脚本，写明安装哪些包、设置哪些环境变量等 |\n| 仓库 | Registry，存放镜像的地方，比如 Docker Hub |",
+      "translatedText": "| Concept | Explanation |\n|:---|:---|\n| Image | A template for running containers, like an application snapshot |\n| Container | A running instance of an image, with its own filesystem, network, etc\\. |\n| Dockerfile | A script for building images, specifying which packages to install, which environment variables to set, etc\\. |\n| Registry | A place for storing images, such as Docker Hub |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 81,
+        "costUsd": 0.000156
+      }
+    },
     "d604c8ab4bcb3de02206ceb951a788bf9115155533089d94ed49fc440e5115a8": {
       "normalizationVersion": 1,
       "sourceHash": "2803b3a09018e117cd01e767e9988068ebc5a885c577cf156aecfe4dbfa18c3e",
@@ -29,6 +43,20 @@
         "costUsd": 0.000085
       }
     },
+    "d60dd0c74480ab0c214c6a286069af610673d814ca4cc8595d19f66216a3ddd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "683f5e95f032204eed55a6e224aaae2c2ddc0d098618184643f09b38f53b7136",
+      "contextFingerprint": "3c857db2e0e35a602a2dce3d711b8d25efb57ca680fc7d4d0f832095ef6820d7",
+      "sourceText": "假如你是F103，那么打开`STM32Cube_FW_F1_V1.8.5`文件夹。",
+      "translatedText": "If you are F103, then open the`STM32Cube_FW_F1_V1.8.5`folder\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "d611ea793663dd5f3817f98aab8ffdaa80e6395f9a317a4933561891dfb83020": {
       "normalizationVersion": 1,
       "sourceHash": "0e1affd4b6dc37d6ea404f420258f40ceccd1e28edb8b34f96a7769932883b98",
@@ -43,6 +71,20 @@
         "costUsd": 0.000062
       }
     },
+    "d6135ec3fb96d448029d8760b7e95603e65b9ba71770fd925aad71632947265a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a25262b53566fd7a89c90e9f689562ec3476a5bbe88e96fc2960cb071d716186",
+      "contextFingerprint": "cacbaf23c084ab23b31ed82679169aae54ab1b037adbe559475136eb131c725e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774963118-4448d8b4.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774963118-4448d8b4.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d61a08668f6b88a50ff6fa7cc842b4903522b1c60ddcf479a9fd9043dd9ed854": {
       "normalizationVersion": 1,
       "sourceHash": "1885ae8881f0fb295bcc65ba13869c66ddb23637789b370367144272166f93f9",
@@ -55,6 +97,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d61b4d26945c1c1028465b797d1edbeaf0f2a5a424cece335b43c5d2f65768e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "99a11ad2eab74c6a727d1941f8a9e316baeb561551bba496d21428f0eea3b98b",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "腾讯云Edge One Pages的服务器主要是在中国（大陆🇨🇳、港澳台🇭🇰🇲🇴🇨🇳）和国外一些主要的国家，但是缺点是可能需要你在国内进行域名备案，但是国内域名备案需要购买服务器等东西，所以成本很高。**（腾讯云Pages自带CDN，所以不用再套一层CDN了）**",
+      "translatedText": "The servers of Tencent Cloud Edge One Pages are mainly located in China (mainland 🇨🇳, Hong Kong, Macau, and Taiwan 🇭🇰🇲🇴🇨🇳) and in some major foreign countries, but the drawback is that you may need to complete domain filing (ICP registration) in China; however, domestic domain filing requires purchasing servers and other items, so the cost is high\\.**(Tencent Cloud Pages comes with a CDN built in, so there is no need to layer another CDN on top\\.)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 121,
+        "costUsd": 0.000208
       }
     },
     "d61d4e4055c713b40ab99d8032af286b844ca2fc31a96d10f8c0419960e1e62a": {
@@ -85,6 +141,20 @@
         "costUsd": 0.000055
       }
     },
+    "d627b1206e1ec92c6f5254549e80b9b9b313ae3848e6b1affecc3fe9ebe69c75": {
+      "normalizationVersion": 1,
+      "sourceHash": "2aa48cb9e21ce27d065dda19ef2632317b0b852b12c8b9200e6acb18904f4794",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上传文件夹指令格式如下：",
+      "translatedText": "The command format for uploading a folder is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "d62adcafd6e64007fc3de095540976c598727f225cc18ef17e3a659435cabf5b": {
       "normalizationVersion": 1,
       "sourceHash": "006f4d05f16f9f61a3c23f73aaef55ff0d5ca9f73ecbbec26220a054705f1219",
@@ -97,6 +167,20 @@
         "inputTokens": 151,
         "outputTokens": 29,
         "costUsd": 0.000081
+      }
+    },
+    "d62bea3ca556580bd5e09dc2190a61f9cff1f6e1bcd3366f313ee810e9d57c19": {
+      "normalizationVersion": 1,
+      "sourceHash": "9476100af229f85b4ab96b10d54731a72afd6d81d5154db882286adbc003747e",
+      "contextFingerprint": "deba5f0a15016a976a9de4991e28668ed01ad3dd2881ee60da0d5a09625254aa",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image347.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image347.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d62c58b8db0504a0f4c1255f1320daa5994ac61295001a8b6c1a780073f9a2a2": {
@@ -267,6 +351,34 @@
         "costUsd": 0.000052
       }
     },
+    "d663b7a619493bd2a69a220327f08ce2541bf3bad7826298dc23955a46b07cba": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf8d9962cc6a0bd1e9f8bd5291c02ad2ee4f373bcdb4937fda8d0aa5fd6b1675",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端中进入当前工作空间，执行launch文件：",
+      "translatedText": "In the terminal, navigate to the current workspace and execute the launch file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "d667ae472ebe7a822cb26599e1cd667096f17bb990752f6377c4c83e5035a10d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e7b6ae0fac36e6813d282f4f6e526cf9e0ad043e50cef155298f04263f7c977",
+      "contextFingerprint": "2fe5e0f82f0e9198f0c1db45aa4077963c5099d8967f3cdaa567eec6180c409d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1953.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1954.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1953.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1954.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d668d62ef8414778886d02aa8d3bef91056e68ea57728823fb9c7a642d49d11b": {
       "normalizationVersion": 1,
       "sourceHash": "4e342e44af727bba3837122e38953d3e858d4c2bd898639055eba91f9f755625",
@@ -295,6 +407,20 @@
         "costUsd": 0.000061
       }
     },
+    "d66e28488be4610e3efac1d439692e1607064997666c4a5d19476ac25aa7974f": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cb22b3d6cab4e39bf05fcb62bb75735ac2e18d417f4b4756fc824d8e08735b1",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3.  配置VNC启动脚本:",
+      "translatedText": "3.  Configure the VNC startup script:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "d67bb2b1e3ae1be319914782146eee687e1029df24a743305ce8ddb108ff384c": {
       "normalizationVersion": 1,
       "sourceHash": "fffe3498308ce69bb3c4d43fb5d0fc604cc1ae74a1a4267541d58b5431ff67ac",
@@ -307,6 +433,34 @@
         "inputTokens": 250,
         "outputTokens": 146,
         "costUsd": 0.000251
+      }
+    },
+    "d67c13530fbd1e6af740d07b0a51cfdee37fb98cba47bd679ba7b4166fb76352": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ea27d33d65a3510313decd90ac24842691a67b7d535e7e48e6737bb41b24d6c",
+      "contextFingerprint": "281b7ca1af986cef6baacf1f7688dbc3d29c8d2b41f9ed8c05672db67682ceff",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787149035102-0dba3465.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787149035102-0dba3465.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d680011049cbaf8e167c82da28d28197e186a7db50680a72646ae9878c9d5572": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdf026f8fd31c0f898fbf67d197105e77b67ad25d167d7e91eec68b917d37905",
+      "contextFingerprint": "cb3e751efe51195b024cb8beb05fc02dde860c48fc1a8565e62891b60d31ad44",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image10.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image10.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d6811e6da2f50b2745ec8f39ea0597c079d3abcf0f085549ff9e675239cc490a": {
@@ -335,6 +489,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "d682a2f9867922372dc5f5e4ceb4d7d8de7f430e8d9d37453e1d211b13b5e2d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5495bea91a7969be6f6965b88c05df1c17da31f9a4ca9921c28730bfb8627bdf",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 学习路线建议",
+      "translatedText": "### Learning Path Recommendations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "d683e3fecd518fce63f90a90853b03a62a645d323d8fb4bae1ae56e0a6d28dd0": {
@@ -421,6 +589,34 @@
         "costUsd": 0
       }
     },
+    "d6971a5fa0c33fec9be66ab8beae411b583dce51ed73d36f840c77fb0f3931fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9357b2fc9bb5560c6c86eaa0fed3f706f2bf232900235b5f384ae0ddd8dba6f",
+      "contextFingerprint": "221a649d91d6ceb87e872450ea4634d70874c2e06ab78d57669470a86d9aa1e7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image15.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image15.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d6a1bd426c94b936be68bff8973e3e5bd70543b16607f5bf90efe3936bde1830": {
+      "normalizationVersion": 1,
+      "sourceHash": "356ae87f2cbc1f513ed45e06fc639dc370ca7da400858479113bfb8087e6cdf1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在打开的编辑器里面输入以下内容（以GNOME为例）：",
+      "translatedText": "Enter the following content in the opened editor (using GNOME as an example):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "d6a1e9755ba478133b79d1d3e707a90a283d4147345ead882becfd5648242bc0": {
       "normalizationVersion": 1,
       "sourceHash": "feade1d6dc4a95d1a3c7a2ccf662244057cccdf56f8ee01b477af12247318df6",
@@ -455,6 +651,20 @@
       "contextFingerprint": "ff5a5498907a88182ce9ec32ef4a242b184ce91cf542d5f3d35d275d85225cc9",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1048.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1048.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d6aff96d95718617da012c6e1cfcc3b4b32854f1224e68a84259947066f8ed4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f662e67a189ebec54459d6fda4b626c8ea8593ce5cfb4c55f8a19b25080d9fdf",
+      "contextFingerprint": "738d55007fca8e0f00a33fd3e3f08a3df942351adf670e46286ab80e64033390",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image2.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -559,6 +769,34 @@
         "inputTokens": 130,
         "outputTokens": 9,
         "costUsd": 0.00005
+      }
+    },
+    "d6c9139a9526491118e11f9a8f47775f98bfc3c0b9a891c285b2b4c76c04fb1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a71243104b15aba906c557f5ecd158da4c49e585a3e0ddf390b71b8dfe971455",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首先安装依赖和GPG：",
+      "translatedText": "First install the dependencies and GPG:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "d6d13d6feff0f172a14ac97f6be8b839789638ec6f4111a294b08853f76e19cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "173df38e6bd86870cc4a2a44a19027584d28a48534a152e5074d62879f3dee17",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并开启了一个LED做测试",
+      "translatedText": "and turned on an LED for testing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "d6d369c5186c8cd19a4f323b93d407d6229da78bee537a3121059a92c0412e5d": {

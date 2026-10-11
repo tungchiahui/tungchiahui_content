@@ -15,6 +15,20 @@
         "costUsd": 0.000059
       }
     },
+    "f405abccbdb4a8a962bf904c0e5652601ec0abdff24dcfbdc47da5f078218db5": {
+      "normalizationVersion": 1,
+      "sourceHash": "044c21634573df4d5ff8307f5effa970a138c6bd08275acfd6c52e8df8069f5d",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- ✅ 勾上：把 STM32CubeIDE 的工程文件直接扔到 CubeMX 项目根目录\n- ❌ 不勾：生成独立的 STM32CubeIDE/ 工具链目录",
+      "translatedText": "- ✅ Checked: Put the STM32CubeIDE project files directly into the CubeMX project root directory\n- ❌ Unchecked: Generate a separate STM32CubeIDE/ toolchain directory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 46,
+        "costUsd": 0.000107
+      }
+    },
     "f40c5bf02a15e327697531cdba3a409e919c0d25640352f2f374486062564773": {
       "normalizationVersion": 1,
       "sourceHash": "5ab1ed86ac4f5c53f46cdeaeda6fb1d4d25a8f81d2154a689253c6b7a352d2b8",
@@ -71,6 +85,20 @@
         "costUsd": 0.00014
       }
     },
+    "f42dd6538c82a1cc81925c33741b746b57858060dc70f92537a1fea2f2651441": {
+      "normalizationVersion": 1,
+      "sourceHash": "caf532b031ffcbfa84d4c1f4e369408193cce2338b21f12c4f58d20c4097db9b",
+      "contextFingerprint": "dd038cbc1956dfd40c4b1be6e399a0eb128486f3fb4f784f52258254b2b1b970",
+      "sourceText": "这些步骤执行后，Docker将使用NVIDIA Container Runtime，并支持GPU加速的容器运行。你可以使用`nvidia-smi`命令来验证容器中的NVIDIA GPU是否可用。",
+      "translatedText": "After these steps are performed, Docker will use the NVIDIA Container Runtime and support GPU\\-accelerated container execution\\. You can use`nvidia-smi`command to verify whether the NVIDIA GPU is available in the container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 45,
+        "costUsd": 0.000104
+      }
+    },
     "f430577e5989a72af52c5c3dc2fad9916185bcb0af2ff3f8af381f178523ba4c": {
       "normalizationVersion": 1,
       "sourceHash": "21f661d23f098e58107c55f077d67dce46f09b2410c38307e15e50d7997abe7f",
@@ -83,6 +111,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "f434dbf930fe02682d76718b532abfca0f102806bf085b1c5ab48ec19592e320": {
+      "normalizationVersion": 1,
+      "sourceHash": "3866245c7b420523a7fb6ac86a5e48b389cd1334261d2702a5f657f4f1189b66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开一个终端，并敲下列命令打开Master",
+      "translatedText": "Open a terminal, and type the following command to open Master",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "f436365e339d28bad19a6c4da056715ecf9a947d91d9c14fb8b362011397d608": {
@@ -111,6 +153,20 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "f436decc1a7032d55e11c4f7967036da3da59d6c60f07833d64fa2f2cd012c4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1564e10842bd12dd35f5b5ae07b1c9a84a1fa02cd5e783e530988f7fc287327",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 开启核显",
+      "translatedText": "#### Enable integrated graphics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f437a0d05a35b26e28dce2e75e09b72623010a0ee95facbd35ccf439cebbf840": {
@@ -169,6 +225,20 @@
         "costUsd": 0.000064
       }
     },
+    "f44a4a05d3ac524a668a0c7687568ee349d7bebb46ef20f3c21e7da8855c6934": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea7839749053f9a035c8189e24130f27e735a76aab3738bd27fa052e60f28dad",
+      "contextFingerprint": "b94bf6b66ee35f980e6e7abd988750d7c69b945e4d38a55e7e3b786d8c27eb9c",
+      "sourceText": "robot_localization是ROS2中的一个功能包，用于实现多传感器数据融合的机器人定位和导航。它提供了一个解决方案，可以将来自不同传感器（如轮式里程计、IMU、GPS、激光雷达等）的数据进行融合，以获得更准确和鲁棒的定位结果。在该功能包中，融合算法已经通过节点封装完毕，调用者只需在调用节点时注入参数即可。",
+      "translatedText": "robot_localization is a feature package in ROS2, used to implement robot localization and navigation with multi\\-sensor data fusion\\. It provides a solution that can fuse data from different sensors (such as wheel odometry, IMU, GPS, LiDAR, etc\\.) to obtain more accurate and robust localization results\\. In this feature package, the fusion algorithm has been encapsulated through nodes, and the caller only needs to inject parameters when calling the node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 227,
+        "outputTokens": 110,
+        "costUsd": 0.000201
+      }
+    },
     "f44cb9488590503c0fcef302f61ad9be7bc6955d64a664b08e7b12b0ce7b2687": {
       "normalizationVersion": 1,
       "sourceHash": "81fc20c2e3edac7ad4f36ff857a57e16233d75583bc1ca87fccf430f82164d66",
@@ -225,6 +295,20 @@
         "costUsd": 0.000067
       }
     },
+    "f46caf0148e663f08bfe9277eef598f60639c15a92016f87b7104b022bdd92b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb22d457e96d8c4f370bcae671673ba5a407f78d22f1e103518722d3c077171a",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  卸载旧输入法",
+      "translatedText": "1.  Uninstall the old input method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f46d17536e6a1a9661955e4cdedcf7602adc5da809bc070d9b4ad48f5651b25f": {
       "normalizationVersion": 1,
       "sourceHash": "5aa6226ee332aab321e17739eaaa60881695ee6deb54d4d13910c292fec640b4",
@@ -251,6 +335,20 @@
         "inputTokens": 137,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "f46ee63fa33e832f2c4e9109a45bced64c1f2ece74467316c12d4f934f081de0": {
+      "normalizationVersion": 1,
+      "sourceHash": "59338c6ef7fdaf84c19b60d127688861459f16341f28df55b8e41d3aeca4b03a",
+      "contextFingerprint": "25ef34eabd45afb381e8ad74cecfd95b4ae63177a7033ca7643bc4a675dc53b1",
+      "sourceText": "**1.robot_localization简介**",
+      "translatedText": "**1\\. robot_localization Introduction**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "f477afa5c4a677294a042b4c3ef5070501445641dd551a1a768298c0eefacc60": {
@@ -365,6 +463,20 @@
         "costUsd": 0.000104
       }
     },
+    "f48e667f4240c7561331b51410090498a75a63b02edef2539d231d7d38777db6": {
+      "normalizationVersion": 1,
+      "sourceHash": "aac059fcd80b7ff46d32020f2746cce49e68d8c633bb76f7d31e1100ff389215",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "里程计标定和融合是机器人领域中的两个重要技术，通过利用这些技术，机器人可以更加准确地了解自身位置和运动状态，提高机器人的定位和导航精度，为机器人的自主导航、路径规划等任务提供基础。",
+      "translatedText": "Odometry calibration and fusion are two important technologies in the field of robotics\\. By utilizing these technologies, a robot can more accurately understand its own position and motion state, improve its localization and navigation accuracy, and provide a foundation for tasks such as autonomous navigation and path planning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
     "f49272bbe44d142d437545bbb3ffb29a581b9b98711461c05606d7bec6a98266": {
       "normalizationVersion": 1,
       "sourceHash": "5d06521764682f37c8de4cfa4165544ffb399565d8c5c515fc80d5a012832de8",
@@ -391,6 +503,20 @@
         "inputTokens": 165,
         "outputTokens": 45,
         "costUsd": 0.000104
+      }
+    },
+    "f498dddea03aa1ad4af7ebb87d248f2a4cba98c685630bb3fa29acc220eac9e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb868b47b24a5e0ae4e2cb5dc7e0aeadec28c4e09976ca4dca1b635e937fe857",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 各大容器拉取",
+      "translatedText": "### Pull for all major containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "f49f2898a2eb380cffed90e974efce4823611f68caac42fe380519109498c1a6": {
@@ -433,6 +559,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f4a8b484087ee36d2cda7cb239fa601d1c11551c058f85cf28dc94d881b4f41b": {
+      "normalizationVersion": 1,
+      "sourceHash": "892ec79425f649f2d52c069c9d557a7215981f77db971749716ec05ec073fe02",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### SystemInterface 生命周期",
+      "translatedText": "#### SystemInterface lifecycle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f4b0eb918bf0fc549d8c2480b29d1aa755eadbf6a1e01e89268c0b5134a24307": {
@@ -503,6 +643,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f4cd31385c2f3a3901e8c152a2b9f4561cd38ef2a3a74cbf48dc533c1cf9fc38": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b0059680ca72f2d351df1557b5f248dbe86edb06bfd78b9630e68ffceb6e8a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "出现STM32 STLink后，接着点回车Enter",
+      "translatedText": "After the STM32 STLink appears, then press Enter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "f4d05b7ef7c838e7678a9d9f92be502004b1cc7b1f22ff7f7cc38a6fa0a746fa": {

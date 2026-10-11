@@ -57,6 +57,20 @@
         "costUsd": 0.000055
       }
     },
+    "c115615ad651e240853bfced5d68ec87a8235eee50eb29a552e5bfd84a9d41c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0635f9585b761d4d8ce9499e24875b4aa5ae8cc184b29a44d365ce370f8370c1",
+      "contextFingerprint": "62e6ea56ea5d0ecc13e6de7ab4d08179bdeb2cda48910b25fb6081b107ad3324",
+      "sourceText": "/tf则需要我们发布odom_frame到base_frame的转换，我们必须使用C++代码去动态发布odom的坐标变换。",
+      "translatedText": "/tf requires us to publish the transform from odom_frame to base_frame; we must use C++ code to dynamically publish the odom coordinate transform\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
     "c118459c68a9d8d9bd8bc57c9cc6fcd3b72302329421b4924351498e190460d7": {
       "normalizationVersion": 1,
       "sourceHash": "90c47b32e96ff8a7e2358a7db1215f555fdbbc63359b4c9183728528689865eb",
@@ -183,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "c131337c9567f7d81a2d8d36f8fc3f2af912c1b730c51199eb7749d8f945c575": {
+      "normalizationVersion": 1,
+      "sourceHash": "0dd85cf847dee60d57ae964e7347512f029294e260e26d6308bc7f20c42ccb8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在这里输入group的名字和所需要添加的源文件路径（这里因为applications里无源文件，所以我们注释掉）",
+      "translatedText": "Enter the group name and the path of the source files to be added here (here, because there are no source files in applications, we comment it out)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
     "c132ecff176bca4e4f0d2f17bd907c4ae3f656e149741facf4db000eb19f4f8d": {
       "normalizationVersion": 1,
       "sourceHash": "3392a4618e0ed9e671be69731f4fd9fc8593b20de20cda752d7e7a6b52c84f12",
@@ -195,6 +223,48 @@
         "inputTokens": 187,
         "outputTokens": 65,
         "costUsd": 0.000135
+      }
+    },
+    "c135336cf754e732df5bc69d183ed8a479adc8489d8a381d3aabae64d730427c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9d6dc3337c9a473e00035a253c069ed22c65a2fe62b3536dda8ca767a8b9c41",
+      "contextFingerprint": "8b17df9a801499738ed6fff6f2f0936653848be8855b59616958a41965509c74",
+      "sourceText": "如果 `192.168.240.1` 能 ping 通，但是外网 IP 不能 ping 通：",
+      "translatedText": "If `192.168.240.1` can be pinged, but the public IP cannot be pinged:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "c1355d3a47c9043d642f469e7d456be75b27c26acc5a3889a01632a12b205ab5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a41f11919d6daa6473f017a03d4653a500374d1b3a8e5b7769bf20a473368102",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把刚才下载的压缩包里的东西解压到这里。",
+      "translatedText": "Extract the contents of the archive you just downloaded to here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "c136bccf1d2d63c17c9256a66a34e88e3d99eaeee59414540e4c09737b0aae36": {
+      "normalizationVersion": 1,
+      "sourceHash": "54bfdb5f8c7f77ced5844db077a7b0e99489f498a9fa9fe1f6ab2b0480ce0711",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如图的，P点在Frame3里的坐标是（L3，0，0）",
+      "translatedText": "As shown in the figure, the coordinates of point P in Frame3 are (L3, 0, 0)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
       }
     },
     "c13b3e8f4bd7639489c4d618034178f814e5e325365919342b9e11311e4fd473": {
@@ -253,6 +323,20 @@
         "costUsd": 0.000051
       }
     },
+    "c15360afa76968fe9a2ffbf9a4327ea7099650adbbf242b2170e0d7abbfbe3db": {
+      "normalizationVersion": 1,
+      "sourceHash": "44dc06b3092a6f35251c5dd9971689ad3fe68250480ef66d8b82238be14267b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后在wsl中的终端里查看设备。",
+      "translatedText": "Then check the device in the terminal within WSL\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "c165a48620183250f1cce20564a3d1cddfce7d1790c09f386f9d3adb485d20c1": {
       "normalizationVersion": 1,
       "sourceHash": "9fbd2d48b31dd7a2962d3ad72d5ee7d6f83b9c6ba2b91990eeb45119177dfb5d",
@@ -295,6 +379,20 @@
         "costUsd": 0.00007
       }
     },
+    "c16ce602a012bd60afc9e3d8a02a5a7da27557764aaef04671918dc2e939e6e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "76ff535c6fd71421bfbdb1bebc07a703a85d8253a23735676339250eda8a956e",
+      "contextFingerprint": "9d04556752f5836e254f07136fe10f23de32f59c0548a89b4feaab68ecedbfe6",
+      "sourceText": "6.  接着点执行。",
+      "translatedText": "6.  Then click Execute\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "c16f8b4b9fe2cbd4884bc270218f6059db649019501a065bdd6f2250e25440f0": {
       "normalizationVersion": 1,
       "sourceHash": "0e0a09b621a04cb026a75872440432d68a467f253e12b04aa0fb05ecc0a6de37",
@@ -335,6 +433,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c1782bbae7c87cdadd80e5ce0bd78a9dbc0efc5be52b575866aa234e93d2a208": {
+      "normalizationVersion": 1,
+      "sourceHash": "15df1df8db598bfda8a56c043352bf60c6cde4bd1a65e4868ffc54d87800c5f2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点击下载2.3版本",
+      "translatedText": "Click to download version 2\\.3",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "c17a295f401c1be58a58b07eb8bc4ac18b39c56dda33ccaa473f1b65f6603d84": {
@@ -491,6 +603,34 @@
         "costUsd": 0.00006
       }
     },
+    "c19a6dec04b5bdd21bf58d3593dfea8c671fd721696c71c67f031b893a0805d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "502901376e2eac58ab00e3b23eb6a0149b4f4a29d3ba4d23229650777092738e",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### RPR类型",
+      "translatedText": "###### RPR type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c19d3b47b131b5ef1044bd0eada58ba366ff22cb6e81c9a9b0877773c49bbacd": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d035abbc95c2c1fa159c2b7885f2fb6a4792dfff85f22d78177a2e1e4e8cc8a",
+      "contextFingerprint": "4b792cd082391a1128e502ccf72c6ec8d7a8c7830ec850f7e539a0c387acf79c",
+      "sourceText": "`hardware_spawner` 用于配置或激活硬件组件：",
+      "translatedText": "`hardware_spawner` Used to configure or activate hardware components:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "c19f13220ee8635d35930d08c058015db10a51cff01c7de347ace8b46b6ffb1f": {
       "normalizationVersion": 1,
       "sourceHash": "a97c34f7f43283edee9b6b057d3d381dcb27b029ca17618abb495b6823cff6e8",
@@ -533,6 +673,20 @@
         "costUsd": 0.000052
       }
     },
+    "c1a53c0f0857ad492e2221053b7714ce0fc2c257a4e66d565850e8e3a07e8462": {
+      "normalizationVersion": 1,
+      "sourceHash": "60014901df8a1386a6a65594bad06fc905c4ddc4c88de623e3eb3b6ddeb0c89d",
+      "contextFingerprint": "d1812823bb8d4a672bd6a7d6cfefb4ef442d96ad7056fdc6d948cfcd220d5270",
+      "sourceText": "4.  使用 `resolvectl`或 `systemd-resolve`查看是否成功（最推荐）",
+      "translatedText": "4.  Use `resolvectl`or `systemd-resolve`to check whether it succeeded (most recommended)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "c1a61923a8c1344e4d1533315c41477a9958ad444eb09536488cefe043956f23": {
       "normalizationVersion": 1,
       "sourceHash": "30ffff0cfc02cba79f33553e1434e7ee08014d73765f63f989e078af4c3252a5",
@@ -559,6 +713,20 @@
         "inputTokens": 144,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "c1ab0cfa53ddc3e4e52a557259ca2e7c79cdd9b990bfd51befd54a082aed688d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b96095efaade9d5aafeb1288f2c3a3eaedc99ac9576b9f67198832eebc24e888",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开DiskGenius双击Windows的ESP分区。",
+      "translatedText": "Open DiskGenius and double\\-click the Windows ESP partition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "c1af71acb84e16019585a558385a6b17418a326c63220e2b04ec146557164733": {
@@ -617,6 +785,20 @@
         "costUsd": 0.000051
       }
     },
+    "c1b40b769d7e8ae302839f3d4e7989c00bc1753776e97498b01d7e3e886faf07": {
+      "normalizationVersion": 1,
+      "sourceHash": "28f93fd142339d6119b45017b5ceb916bf265c8b475519a78bab72750747a3ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后一行加上（vim编辑器不会用自己百度）",
+      "translatedText": "Add at the last line (if you don't know how to use the vim editor, search it yourself on Baidu)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 33,
+        "costUsd": 0.000082
+      }
+    },
     "c1bd742a26fff3f902c4d519a7ecabdc84eae3155ee1cbe64ef0456680610257": {
       "normalizationVersion": 1,
       "sourceHash": "b6f1493437de0aba8e2e5d67ef18a54aad8458afc6f05375baab73ec892c1862",
@@ -657,6 +839,20 @@
         "inputTokens": 190,
         "outputTokens": 82,
         "costUsd": 0.000156
+      }
+    },
+    "c1ceedf9052ee0f51646417d19fe823cfe37cf70f6d08236c0d41f948e64848d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e9cd2241c48823ea18fceabeb54c8aaf128cdecc2d5f965f623ffa5de05c2f6",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 内网",
+      "translatedText": "##### Intranet",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "c1d152ad3896e51e1ab4370882eb3efc6338f04dc48de98ad589c45a230c61db": {
@@ -743,6 +939,34 @@
         "costUsd": 0.000072
       }
     },
+    "c1e3943a599b42dc3a6fff3d565fb2e2fbdcffeeab375bf2d101bf46b5b545cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "6247c7f66987e318e3e3497b594c616b4054d463513fe8cb6534ad66a086cdba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以使用下面这种dnf的方式进行CUDA安装。",
+      "translatedText": "CUDA installation can also be performed using the following dnf method\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "c1e39afabc7f3c4c3fd8908adf1804ecfc3750d2299cb648075cd95b28330c98": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0fab8538a8611238be13ae2152bc58c69135508e9256c1ad5f3690ed9442f36",
+      "contextFingerprint": "66e6be78c2ab29e6403f7f33b19c23d04b931ec5efdb04e7c9b0e1cba7fe5028",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1902.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1902.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c1e49ebf4dd6897977fb6009ea73e3506081e44f5c459abda54af5184bde0dc5": {
       "normalizationVersion": 1,
       "sourceHash": "3ba5372db3bb3ae17ce79e2ec11f5d5b748562169ca67b645b4af2eaa6896d4b",
@@ -811,6 +1035,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "c1f219f6563692665a7ebaa581c489e1e5ae73e80d69feb600f4b58c41b79251": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a03f67357fe3b59c261216c1e5c829baa9c509d223c627f82fabf44b071f0df",
+      "contextFingerprint": "6580653dee6b4766f09f23733dc1eb539a1ef3c475fed922b2fbd5ff6f8fefb8",
+      "sourceText": "官方为此提供了相关的更为详细的资料文档：https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/YML-Input-Format.md#source-file-management",
+      "translatedText": "The official documentation provides more detailed information on this:https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/YML-Input-Format.md#source-file-management",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "c1ffe38378f70d2221d838d44ab3959220e010affcb5c7102bea9a8e659a46ee": {

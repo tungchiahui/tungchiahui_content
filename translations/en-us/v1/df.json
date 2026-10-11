@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "df0035c97b7416a134124a0f8734f85becf6f0e64d3ae789d1da96382a136d56": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fda217dba396614a733d3bf8f21d47bca5c1b4a9a8a830ea558cb08f6ae31df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "X1和X2必须平行，因为是个P类型的关节",
+      "translatedText": "X1 and X2 must be parallel because it is a P\\-type joint",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "df07e6c42679f3827b71906475ea6a5bd60708656783cef57cb8d4cf833cfa48": {
+      "normalizationVersion": 1,
+      "sourceHash": "07ece44d7857440f97543a6fb233fc35c3e7da1c334954cb3267fb0c9d886c74",
+      "contextFingerprint": "58b6ac88a3b7e801037ca06423cf771d596ee7ef93cb40fa70c88180dbebbfc0",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image94.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image94.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "df0a042cb077f7edc0267c88080070e492009ae6d0827565ef04f446e30d2636": {
       "normalizationVersion": 1,
       "sourceHash": "11f5988428eb5acb0610e419ce2358529e11ba8bf6566239f26c273c7e5db932",
@@ -57,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "df1645d3bb4f7f6e20f3c91eee97cd55fbcba4b8a4d94c1fc1b478742af35502": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c3b65fe9fe0e4f34a5cde99080e0d05e7616552703011bbd1d48038120cfec2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 📦 它是怎么工作的？",
+      "translatedText": "### 📦 How does it work?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "df1c8ff28bb81135d0a19320b922299b60e283f6cd97313c373e379025dbdaac": {
       "normalizationVersion": 1,
       "sourceHash": "39390e5abc379abc8675feb13bfdbc3e09ec7e12f213050fbccd149c30d88595",
@@ -99,6 +141,20 @@
         "costUsd": 0
       }
     },
+    "df29ae4d04aa91653ea70e0908cb72b7e6acc2b601da719e14ddbb11ccbbbebc": {
+      "normalizationVersion": 1,
+      "sourceHash": "c224b8da237042a69a2495eb7771bfd8a749ddeb1cbbc967748eb2e2c31524ef",
+      "contextFingerprint": "34124b398c3ebf54821f26e22b5cecf6fecc3aa50026958f13ec551f4770491a",
+      "sourceText": "给swap区域分区，这个Size请填写你的`内存大小（运存大小）+2GB`*`（单位MB）`*，比如我电脑内存为32GB，那么32+2=34GB，再用`34*1024=34816MB，`所以填`34816`.",
+      "translatedText": "Partition the swap area\\. For this Size, please enter your`内存大小（运存大小）+2GB`*`（单位MB）`*; for example, if my computer's memory is 32GB, then 32\\+2=34GB, then use`34*1024=34816MB，`so enter`34816`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
     "df29fb509d3bb61d55a46a23ce5a9da0c3ac59486bbc267f10b23b5650b13e7d": {
       "normalizationVersion": 1,
       "sourceHash": "0dea2395b78278ffe48e5819b6e679d60f2d14e5b1169f2d991c808b237e481b",
@@ -127,6 +183,20 @@
         "costUsd": 0.000054
       }
     },
+    "df3c1eb8f707bcb6f1f23ebbf9c25697a2f8f621ed57061797ab23fc03ea165a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebe7a2a3b33d13903cd5f63f8acd933d284e683105442086b3644fa6d465ca89",
+      "contextFingerprint": "45770923aacbfe8b03d9488fed27ba798a625ce83ef117ca904e349c351544a4",
+      "sourceText": "**ROS1最后一个****LTS****版本****ROS** **Noetic官方仅在Ubuntu20.04 Focal和Debian10 Buster提供二进制安装文件.且在2025年彻底停更。(有第三方的方式可以将ROS Neotic部署在Ubuntu 22.04 Jammy、Ubuntu 24.04 Noble以及Debian12 Bookworm等发行版上)**",
+      "translatedText": "**The last ROS1****LTS****release \\*\\*\\*\\*ROS** **Noetic officially provides binary installation files only on Ubuntu20.04 Focal and Debian 10 Buster, and will be completely discontinued in 2025\\. (There are third\\-party ways to deploy ROS Noetic on distributions such as Ubuntu 22\\.04 Jammy, Ubuntu 24\\.04 Noble, and Debian 12 Bookworm\\.)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 96,
+        "costUsd": 0.000179
+      }
+    },
     "df469b7849ac7414f851a5c6a55224d1a7954dc3890c2a346b560cbd5aeb40de": {
       "normalizationVersion": 1,
       "sourceHash": "7165db9150627771cc6024a59d56c05221688f4d74be9486fe1197c798c72e5c",
@@ -139,6 +209,20 @@
         "inputTokens": 145,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "df4821445347891e4105d833b0a5619c18b82e04cd57353d487aab4ec49ddae7": {
+      "normalizationVersion": 1,
+      "sourceHash": "50ba4381590ebc718619de694284e05b90dc423d462aea5a53271779446befc3",
+      "contextFingerprint": "df6278a89fb1cf5aa50a45287882276dc08ebb97ebdfc399b3c3d0474685f861",
+      "sourceText": "#### ROS2 Control 简述",
+      "translatedText": "#### ROS2 Control overview",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "df4cfa56bc970c1a3300cd00f82f28e91041be6a319b714d3cb5eaca1e4966e8": {
@@ -223,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "df63d1b613d4a0a9f301e9722f935626844d2e4e41c0ab8402bd0be7d39de835": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6d88bc6dc784862a0fbeb53068f22a41b54f44cd5d71ace2e9ff9f2350e54f7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有一个点就是DWS,就是原点，当手臂内折，那么可以以360度任意一个角度来达到这个点，所以该点就是DWS。",
+      "translatedText": "There is a point, which is the DWS, i\\.e\\., the origin\\. When the arm folds inward, it can reach this point at any angle in 360 degrees, so this point is the DWS\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 50,
+        "costUsd": 0.000109
       }
     },
     "df640d99220c4ecfaae3bb4203f186aa41ad550fa8571e2e2ea419ca8515307d": {
@@ -435,6 +533,20 @@
         "costUsd": 0.000063
       }
     },
+    "dfb1d1a2228c611853ed34238e9e7cfc9b084a42ce7ceb7097ecc643cf336b5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0f335190d97347fc58b9b9c11070534de6b31e7b128912e0157341f2b970c5a",
+      "contextFingerprint": "1c914d404de124bd0d5f0e25dc1ff32bc69f7f431a4f39b5bd400ec66f539f37",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790765339737-8bab6e47.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790765339737-8bab6e47.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "dfca3493d5e11dc72446499826d88b5322d2cee7dc67e22c340dd8c8436aeb87": {
       "normalizationVersion": 1,
       "sourceHash": "175940eb59c6aa7da7dc22e1c16e203eac88c2c33ac0f0f370d64a592f76c08e",
@@ -461,6 +573,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "dfd406079e92d61f28509fd0301adf4799e0bc4fc7de9f418e38f73766635712": {
+      "normalizationVersion": 1,
+      "sourceHash": "90ac927ca4e04bab5af6fa5e2d4f7f5e83edb542acc0563f8b24645ae7bca09e",
+      "contextFingerprint": "377e0ef9b2411b4271c083f9bb5a48c8c0c97ba0ae3d250998fdb4b6b23dafc1",
+      "sourceText": "- https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/",
+      "translatedText": "- https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "dfd52619618b310316401aa414f859f9562b7e00d7de50612821bb859f6d2b0b": {

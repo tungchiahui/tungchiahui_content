@@ -15,6 +15,20 @@
         "costUsd": 0.000085
       }
     },
+    "0102834aa1fe08fe5bc1e9ffd236a9f736a8c4298408c6151c777288eb0c2b30": {
+      "normalizationVersion": 1,
+      "sourceHash": "39dbccbaf0f244b029e6d82565492587050b8394e9a0066bce08d81d9b201393",
+      "contextFingerprint": "3395f0399b664053b26eb6c14368f0cb1bbd1c9d8d754f4e2b5e183ec73ce5a3",
+      "sourceText": "（如需修改此文件，先使用 `sudo chattr -i /etc/resolv.conf`解除锁定）",
+      "translatedText": "(If you need to modify this file, first use `sudo chattr -i /etc/resolv.conf`to unlock)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "0105a072b85bd2505450c306afb335adeefa24608f964e66fe64168d212b44e2": {
       "normalizationVersion": 1,
       "sourceHash": "130ccb731de7f0a785e74cfb44c2fba19b7f6b51d831332ee7957783de37ec26",
@@ -57,6 +71,20 @@
         "costUsd": 0.000064
       }
     },
+    "0119866b2834cae41f299e6edde5b3b547d8104e0574c2c2ec3efcf1521b0b52": {
+      "normalizationVersion": 1,
+      "sourceHash": "b672a9f2e1795fd99d2ea8d11c45e985f7725937db7dfc076ecd20f2480347bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每一列向量都是B的对应的坐标轴相对于A的方向余弦（Direct Cosines）。",
+      "translatedText": "Each column vector is the direction cosine (Direct Cosines) of the corresponding coordinate axis of B relative to A\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "011e4cda619eb79ec708f003d11606176d35f81bfe56cc62d4130f05978e9df5": {
       "normalizationVersion": 1,
       "sourceHash": "4c2133ab72c185294a3b45b1d1cf6814c62d57c0f7a92113828a4c8ea1e6e96e",
@@ -83,6 +111,48 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "01228dd65614a304b73cea21f6f6bff196acede2b872600d0b8dc12722319110": {
+      "normalizationVersion": 1,
+      "sourceHash": "400ad5344373f8866cd0fbadf7256545643775175c6bd820550f24c44424b2d7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 环境介绍",
+      "translatedText": "### Environment Introduction",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "012746431ee439149ccf71e34e2c10ab1370bd73e0fd36370d568f4f08ff4d2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7f1439243ae5d8714a4246dbc7946f06a7c319ae6dc62f723e343e06774a3de",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 用CubeMX配置工程(这玩意不用教吧,自己配置吧)",
+      "translatedText": "#### Configure the project with CubeMX (no need to teach this, configure it yourself)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "0127ab6613901c8256e7fe53d2fb472afef0a16a88defe274ea5c70ac3c79a2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "36b4913c06163f6caa3c4357624ec542264064cca9dba630b0150089db1fa935",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用以下命令将镜像推送到 Docker Hub：",
+      "translatedText": "Push the image to Docker Hub using the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "0127d0df037c1c9f4295016d3ecbf993bd20b72549155df5026456d827be44d6": {
@@ -125,6 +195,34 @@
         "inputTokens": 147,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "013961840d0611dfce9b64a13390dc981584e48fd41e12d4071af62093e25746": {
+      "normalizationVersion": 1,
+      "sourceHash": "de0b694082fd59ab3bd3b04e1590c925f8d3059613038f9baf832f48073d06f5",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  如果开启了的话，就先卸载rpmfusion",
+      "translatedText": "2.  If it is enabled, first uninstall rpmfusion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "0142009f2c364d44ee7cad94b1c4a3afcb555954a444b533d7ba1e0160b108f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "877729221c305a787bd745b7ee788df43ac9db4762c821ce921f188f35517cd5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 控制器加载与调试命令",
+      "translatedText": "### Controller loading and debugging commands",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "01497600d69ab82f044a0a4b2cf06624917d3f95d04ef8d51edcf5026bab303b": {
@@ -183,6 +281,20 @@
         "costUsd": 0.000103
       }
     },
+    "01530696dd524f15c1dac128f8f6a82e6c46a6b1660d1e3d454a67a47aa0a00f": {
+      "normalizationVersion": 1,
+      "sourceHash": "968324af7e196316754aee72c07299f2be4b162eb60176e4fc4280b0f9a6ebf7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### STM32F4 DFP",
+      "translatedText": "### STM32F4 DFP",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "015781f92d90430c0045f56a11dddae71d5a58c1548226245315fb098afd1e20": {
       "normalizationVersion": 1,
       "sourceHash": "b35358663004bf041fbc0fbef0be8997879b6c748921d4668ce579952f12cdea",
@@ -225,6 +337,20 @@
         "costUsd": 0.000054
       }
     },
+    "0166461a8d0da5bad0271fa5bb26a751a4fb689ab2f1f48d6c08a55687347e84": {
+      "normalizationVersion": 1,
+      "sourceHash": "95656e64a0b2fad06e4b0f067a7c724c89c79fc051cb32267007ebb44b827ba8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "安装完后，然后开启你的WSL2",
+      "translatedText": "After installation, then start your WSL2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "0168481c544301377e5eb26bddf674f53d7a2d0d0e63ae7f70ddfb2200cdfce1": {
       "normalizationVersion": 1,
       "sourceHash": "5dfc749b52efa4beeba48b356c2d5c0767d2f040d402f580bedef1b8ceaf4fe2",
@@ -251,6 +377,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "016f3f7f6b21aa116aa1a67d80470cc37ffd268e17e30ea9fe8669fc30032c2f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8001fa376cb600934f7ea84c49c65ea1193859d121e3df1e5f036aacef02eb5",
+      "contextFingerprint": "b84289151702f0147bb0cc9f02abf1c248dd2732af65f832421be133f0e226d8",
+      "sourceText": "我这里选择`STM32CubeIDE`(因为官方例程就是拿`STM32CubeIDE`举的例子),我也只测试过`STM32CubeIDE`没问题,其他俩选项你自己自测,但其实没必要,选`STM32CubeIDE`就行.",
+      "translatedText": "Here I choose`STM32CubeIDE`(because the official example uses`STM32CubeIDE`as the example), I have also only tested`STM32CubeIDE`, which is fine\\. You can test the other two options yourself, but it is actually unnecessary—just choose`STM32CubeIDE`and that is enough\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 55,
+        "costUsd": 0.000115
       }
     },
     "01724df611e00a88cd0ac719be3da410899b404b32cd4c0d0d904b70cb2df1ec": {
@@ -365,6 +505,34 @@
         "costUsd": 0.000058
       }
     },
+    "019724b7dd7a5cd44ce963292766c0c23115e7c91edd3a217fc1cfda9eca40ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1a7d5adda72de09276f54a3ac5d04e4bed6ff136b03e33f65c53839f680fa2a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以安装：",
+      "translatedText": "Can install:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "019dd22cb8d7857e8992f76846df6eb7fbe52191486b9329f73cba31bc3069d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a744ba00f8af45874078990fa261a6375b6b4b1039fd4b1730ff73c2f4b2eed3",
+      "contextFingerprint": "5b43801f5eb4b398b61d809d25ee09140cbc411c0a0677f0be4f85a5b4ab20fb",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image59.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image59.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "019e73faf4e6363e00376dcbf805005500ad2fe223fa2d337fbbae180c9b150c": {
       "normalizationVersion": 1,
       "sourceHash": "3022823500753ce3009e315553598b30f208b918624a60ec82d72f92e0a5a0f4",
@@ -421,6 +589,34 @@
         "costUsd": 0
       }
     },
+    "01b46c9b8424d7e6c0da1aa582bc23f73169c5c9f36d87cf9aff2c75193e7d2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bc50368846f05b70152df596eb06ea94551a48fc641b3c4611511f25e9f4bc3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "手臂一样长的话，那样工作空间就是个圆了，",
+      "translatedText": "If the arms were the same length, then the workspace would be a circle,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "01bf7969c967143e6a48a7278f66f737879ab3fcfb2fd65a2f826699f6176436": {
+      "normalizationVersion": 1,
+      "sourceHash": "aeaf19a25f78e840e625937603859ca7037c7458c2ca863300fa631197b44d54",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在该文件中，关键配置如下：",
+      "translatedText": "In this file, the key configurations are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "01c1ff2bd3b837a196607f6822d5cb5a16ddb20cc78c16a2dc85fbce3621cfc7": {
       "normalizationVersion": 1,
       "sourceHash": "cc72b6f8f9b06bd32c25bba2f9c88edd8908507a75efd4d0971d4c21db191898",
@@ -433,6 +629,34 @@
         "inputTokens": 152,
         "outputTokens": 30,
         "costUsd": 0.000082
+      }
+    },
+    "01c2e7a5d4b53209d57ca31145d9d43ed724439a840bb154c994fe5150e6ddcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "3168e7f72c748b88ba255fbbdbdeb840ccc5a4e7fc663b6ff7923d7c72fe1a6f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 最终推荐方案",
+      "translatedText": "#### Final Recommended Solution",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "01c9c037e67d2a29be25c7fe573c274e568398af8cef8d7d91397465c4d3b12c": {
+      "normalizationVersion": 1,
+      "sourceHash": "575ca122c5485f2b749705fdf6001160362ca88e84cef692fdcc035461249f90",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在中国大陆🇨🇳平均在10ms，在中国香港🇭🇰平均2ms，中国台湾🇨🇳平均4ms。",
+      "translatedText": "In mainland China 🇨🇳, the average is 10 ms; in Hong Kong, China 🇭🇰, the average is 2 ms; in Taiwan, China 🇨🇳, the average is 4 ms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 54,
+        "costUsd": 0.000113
       }
     },
     "01cd1edb173110452303778e38285edd63584e5556fc412a087133706ef07e35": {
@@ -519,6 +743,20 @@
         "costUsd": 0.000055
       }
     },
+    "01e30ae5e6d33f3246357e6cdda7bdb3bd4686ee0f91e82c742ddd07305050be": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7734e051499251d242d5adf468201f0dbb75c4dbe5e4ef0b4ad410bde6f0ea8",
+      "contextFingerprint": "dfab7e5d8f2e81a49496c1db34f2b7f965432e04aeb65b912be64130a07e9281",
+      "sourceText": "这个配置文件最顶上的那个use_sim_time设置为False。",
+      "translatedText": "Set the use_sim_time at the very top of this configuration file to False\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "01e56e4b2ffae22da581e9c98e54ba08806bcb478ab053f8450fc428314abd0d": {
       "normalizationVersion": 1,
       "sourceHash": "7be10947e065564a106a76f2be48c9e24709f144810c6a5fa8e544324a331fbd",
@@ -531,6 +769,20 @@
         "inputTokens": 225,
         "outputTokens": 128,
         "costUsd": 0.000222
+      }
+    },
+    "01ecc90099ce56923165799f1b4ecb046b13069ecbdbeb21955bdc53b6926875": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4f2542a9a34f8fe1062f3e25ae23570304ed50fc63a98630d5bcb620ab31b46",
+      "contextFingerprint": "d628cc9f7e84344eb8039153bcc6c59a3e3e7ea5d4b908fbbf543f757b9620e8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image25.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image25.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "01f012dd340fe4c64fa28ccae603a69f394eea16643c0acb10bfc974ce271cf2": {
