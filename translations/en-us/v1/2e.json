@@ -71,6 +71,20 @@
         "costUsd": 0.000051
       }
     },
+    "2e1c18478d8c35e7dafbde51c955fa680a08a5f1932bfdb62b5e378ebb25fdff": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ddfeb34813182ed686360f885aee63dd96c8fcd8c1dc8b5d6e6d459d37c95c1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "百度搜索 bfsu mirror",
+      "translatedText": "Baidu Search bfsu mirror",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "2e1cdf62f8779f63d75190570f662f255768a0f464ed91477619a478abb30bbd": {
       "normalizationVersion": 1,
       "sourceHash": "0436c269caa89fad3c315cf429a3e8b91082db20cced10f92cb895c7a28b3929",
@@ -127,6 +141,20 @@
         "costUsd": 0.000055
       }
     },
+    "2e2ef77aa49f1266d8db4dde492ea225701b9204adf42ec74de5612d6f2a8716": {
+      "normalizationVersion": 1,
+      "sourceHash": "b567356dfd03de7f1127434a60f550cb7a7e61ec5ff4662723f8617feedf261a",
+      "contextFingerprint": "5b57cd686b9006374cf8cc6a3c410d6142c02c23340e0cecc3995d3e9cae3705",
+      "sourceText": "1.  先用 `mock_components/GenericSystem` 跑通控制器。\n2.  再接 Gazebo。\n3.  最后接真实硬件。",
+      "translatedText": "1.  First use `mock_components/GenericSystem` to get the controller working\\.\n2.  Then connect to Gazebo\\.\n3.  Finally connect to the real hardware\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "2e344f1741209a8078677bfb6ce7d66f9a068bd3c28e83add467c753bf247b92": {
       "normalizationVersion": 1,
       "sourceHash": "037373916b990bd65ef48141aa18b89a972800cfd501c3cb45c3533927433981",
@@ -139,6 +167,20 @@
         "inputTokens": 201,
         "outputTokens": 88,
         "costUsd": 0.000166
+      }
+    },
+    "2e424d416747387e5c44970a88aa1399427432b3e80752981f90a1f86fdbe51b": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbc9837c348bfadf632cd7cae84725d363db67254fea56c840da016e8240cb6b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再启动urdf模型，同时发布tf。",
+      "translatedText": "Restart the URDF model and publish TF at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "2e4488b0b1e98f282c36234a109b0dbeb56c3f34d496fda7c139fe781dd2ee61": {
@@ -169,6 +211,34 @@
         "costUsd": 0
       }
     },
+    "2e4d4a48696be6829ff92bb78cfc01a04f87206e2a7664968797543d5d139e03": {
+      "normalizationVersion": 1,
+      "sourceHash": "645bebbf8c61c789ecb8fd92a5dc5440191dbb132152ded0a1c5b974ce52445f",
+      "contextFingerprint": "ff01ad7d991179d483fbd696429b0260089c3c3b77aeb2dab77f7d09f97e2a07",
+      "sourceText": "上面这条指令是将本地公钥上传到远程主机的ssh目录下，该目录下有文件authorized_keys保存了公钥内容。",
+      "translatedText": "The above command uploads the local public key to the ssh directory on the remote host, where the file authorized_keys stores the public key content\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 43,
+        "costUsd": 0.000102
+      }
+    },
+    "2e4f665cb55dac155a205d5e24d7857ed680209f5c95ac733e07c1093422d787": {
+      "normalizationVersion": 1,
+      "sourceHash": "c17aea73024cc54b462f6c983715b81eeda29e38aa22963dc38dc2a23fbf0599",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 控制器加载失败",
+      "translatedText": "#### Controller failed to load",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "2e505cafbf317581c9299bfb7a7c049dcb2f96919461d7b20227856e17cf69b5": {
       "normalizationVersion": 1,
       "sourceHash": "2227ffdc73e87844b03cc983b43ae33a3e354a2c57461f6992fea6720c3d2666",
@@ -197,6 +267,20 @@
         "costUsd": 0.000064
       }
     },
+    "2e6001c657682d1e19603f7aadb758b56aa7809b87d23d25f84341a6ed8f68f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "e951cfa967f22c5423b841e441ac8b2a7b04da63cd8cf975b380e63a6ef303d7",
+      "contextFingerprint": "43582daf1db9e22ffdadb3b8e99a0107b5614e8ee93d84e49c6c0569268cb569",
+      "sourceText": "***`（本教程为2026年9月创建的，可能与以后的版本有些出入）`***",
+      "translatedText": "***`（本教程为2026年9月创建的，可能与以后的版本有些出入）`***",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "2e61dc35dcec9ac96eaee9e821b5b52ba042d4991d700af765aebf0081e168c7": {
       "normalizationVersion": 1,
       "sourceHash": "dabf825779638bbcdc53c3c75d78e8d668d1a6e597c59bba0aeaf32ee070b7ca",
@@ -209,6 +293,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "2e78d8e6393e2d4b4a7055e36a1f00fd771d6743d445e69c3b2815df64493a48": {
+      "normalizationVersion": 1,
+      "sourceHash": "9076b35ddbef2fd1c2067462afa6c17ee3c28afc616006bd76ca0175223aa365",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在下面这个界面按E。",
+      "translatedText": "Press E on the interface below\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "2e81e8aea5bc342870e612437d8dae16f1ec1ddac301aeed7841d0575dd9c256": {
@@ -253,6 +351,20 @@
         "costUsd": 0.000081
       }
     },
+    "2e90c1999399463ff52e6cda6e71392c8c21136a1114e72fa2c694df19bf3a96": {
+      "normalizationVersion": 1,
+      "sourceHash": "ddf7592b937bd5733b7c65ce52d0b5631f081d127581cf14203658e4c729a544",
+      "contextFingerprint": "f3ad54925024737f70612922b1c6528b150e4c40ef5dbe721d55a46ddf1c556b",
+      "sourceText": "添加几个端口\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146848849.webp)\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146858053.webp)\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146876612.webp)",
+      "translatedText": "Add a few ports ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146848849.webp)\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146858053.webp)\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146876612.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "2e9394a0aee2b2577e29fb68e123007b9477e2451c6048656cc876a61cc5e420": {
       "normalizationVersion": 1,
       "sourceHash": "d9edbaae52bedbfc73f82f5d0203170b2c9f72b6169d7efdc834f5fe5237f5f3",
@@ -295,6 +407,20 @@
         "costUsd": 0.000059
       }
     },
+    "2e9d9e8dee99e99a23089cab7cf602c44b1080a4a3ac116c23192576cbc3cd6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "511e6480070d381385a637edd44ab62fef173dcf9ae6e85148ba6cc5e4ebfe1c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 安装并激活MDK6插件",
+      "translatedText": "### Install and activate the MDK6 plugin",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "2e9f927b186c849a2c4b6b2b053b513a880ae9b405f6b9550b2b3c26621601d2": {
       "normalizationVersion": 1,
       "sourceHash": "a2cb2a3a69aa61ff37773c0957db3516ec9653c73343550b3200f68859640299",
@@ -329,6 +455,20 @@
       "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
       "sourceText": "3.  正点原子FreeRTOS：",
       "translatedText": "3.  ALIENTEK FreeRTOS:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "2ea8591688832c1b63a23d574bccbb9b9ec2a92f746b09ba1e6b05866277f57c": {
+      "normalizationVersion": 1,
+      "sourceHash": "45825492216f0438629974e46aa95357feb816b90b46781fa9178e00744ffb96",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### MinIO 自建对象存储",
+      "translatedText": "### Self\\-hosted MinIO object storage",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -421,6 +561,20 @@
         "costUsd": 0.000069
       }
     },
+    "2ebd5b7c1e2d8a5d6608a743c55ae7ca1967ec13b817411db5330780d643fc4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0bb3c90816d3041ce9dbd8504fc6d463e69108601678af2add4be46bb2bec1d",
+      "contextFingerprint": "566afc3273f890e279834640dacc26b2e921b6093b6221af132bae9bbd3a611a",
+      "sourceText": "9.  再重启",
+      "translatedText": "9.  Restart again",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "2ebe11259d95b6b4377056b0f1d6981c20842cdc332d23ab5070afbe2e37b12a": {
       "normalizationVersion": 1,
       "sourceHash": "9d227210914f093a1e4a05cb6c6ffbecf790993c4080e37fe9ef34556a535210",
@@ -491,6 +645,20 @@
         "costUsd": 0.000052
       }
     },
+    "2ed095d8f31b0adf62fb8e9d2d07c7458bf3e4257ffc94fd36086969ec9a3377": {
+      "normalizationVersion": 1,
+      "sourceHash": "87d14171573219bdbccac9a95ba2048eae2db3a246e64b3b8749bd0e94b54498",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下载好ARM Keil Studio Pack",
+      "translatedText": "Download the ARM Keil Studio Pack",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "2edbde7948ee292d2d1b1a5abe89ed0ed385c9935ca8a3a829044777d5abbf64": {
       "normalizationVersion": 1,
       "sourceHash": "299a5dd7acc0a2624bab3189d1827cf9e737cf5b4b74167f0195ce75cd95fbfc",
@@ -547,6 +715,34 @@
         "costUsd": 0.000075
       }
     },
+    "2ee47c2d564cf4e39f9fde5e81ffa078c28b88fdc68114deee6895baab47dc0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebbc08d7f2045638ce957a1a67da1e3a42dc434b4127065c784be952b0bb3527",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如何SSH那样在VScode中远程开发容器里的系统呢?",
+      "translatedText": "How can I remotely develop a system in a container in VSCode, just like with SSH?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "2ee4e6df07c86c66516737834f43442941ec0440961070c86b168b07cebab8bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "d339ec88326079b2c13eddeff40a5cf10ec3704c0f11b193379ce534cfab32ea",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 查看系统生成的摄像头固定路径",
+      "translatedText": "##### View the camera fixed path generated by the system",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "2ee844a49f3f11441c2f4b6c26c3a628d87fb8c982f0b1d9db95f9d26c1384a8": {
       "normalizationVersion": 1,
       "sourceHash": "a37bfa6890a7c7140a207085ccfea3d922779d637ae35ebb0f6fb2d44003bce8",
@@ -559,6 +755,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "2eea8e7b43b3148dd961120c207bc63e6cc15aae795919da2b16e8cda017d931": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d75dbd9f03e19d220f285d3be553f4f23cb4903eaf6baf64bf74dd6c2e94868",
+      "contextFingerprint": "2beeb583b1afda8a1318c4f81bd6c129890a7b23438156f8a715329faa4af176",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1832.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1832.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "2ef09b56910ae881ab8f60c0fae39d7b8d583ed37b1f5c450750b8ac7a5aa9f3": {

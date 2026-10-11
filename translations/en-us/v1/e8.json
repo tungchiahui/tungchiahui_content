@@ -57,6 +57,20 @@
         "costUsd": 0.00022
       }
     },
+    "e81bee1ee02ad3451cbe5572e9fbbbb920ebaa089b9d43cb70c74cc79bcfb068": {
+      "normalizationVersion": 1,
+      "sourceHash": "21a717e73fa7d30ff1acf1aa25a5fdbe1f0b464e533e5a860e5c128ee2c64fed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "查看接口：",
+      "translatedText": "View interface:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "e81d41b15ef2d38a9c850c2d525173f2f98cc32d5a201bc477a6bf5dbd964af6": {
       "normalizationVersion": 1,
       "sourceHash": "f9c1948349381fbc8bca34e1231df19297d3b5d83f8e42bc2d569d5dfcbd4cdd",
@@ -113,6 +127,20 @@
         "costUsd": 0.000069
       }
     },
+    "e82beee4c276f4958c8d8cf94eb928e13f80b698e36b8262b853044e9880ef6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b7672c684544ceb7f24229c9a27e8b5835aebf742a469aa45b872917f23d62a",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  安装Fcitx5",
+      "translatedText": "2.  Install Fcitx5",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "e82e0cfef64e00b69aefdb22b48ae1f231f8dcc2620d0ae41b3a4c29ccb0828d": {
       "normalizationVersion": 1,
       "sourceHash": "59f0372f3bf13b8bd2d5074cea875ac01b30d3da8df6575391469aea2856cacb",
@@ -133,6 +161,20 @@
       "contextFingerprint": "ede4a673324f9a1e44c76fff3bb06d2c89082747b4b46679cbd5acdcecaba064",
       "sourceText": "#### `SerialTransport::stop()`",
       "translatedText": "#### `SerialTransport::stop()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "e830eaf6c990e3e1099b4272db358241c516af00fb471cffc3a6703b7dc33125": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a10aea84d8be23022cca819fd898c1f5bc77c98095e1a4ff83abc47f6a460a1",
+      "contextFingerprint": "35a98773c5f7afa45abe7d8a38f01974575eee03a4460ed58c80806e1bfcd74a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image95.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image95.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -183,6 +225,20 @@
         "costUsd": 0.000068
       }
     },
+    "e841ba1452c84cd71d190b39a3fa6d2c61f4d3c89c3c83477508b667b74cbfc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "808cb2c5156b862b90e1024e91677bdd35bcdadf69c1118a9835a763bf560e32",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 终端",
+      "translatedText": "##### Terminal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
     "e842ca7d77fe05cd95c80bd4ecfee449b7e2015633f9befdcd0fdb01fa8a3273": {
       "normalizationVersion": 1,
       "sourceHash": "b799e18ddbe77e295aac7a448d6d50b892eac5f63aad46f7ff79d9fbaae80875",
@@ -209,6 +265,34 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "e84be85b4148968dd68291ae45233f6ab87d8e603a8df518192e369e07e7fb61": {
+      "normalizationVersion": 1,
+      "sourceHash": "169ef8af95c63663b988ff96dfc18532935d9264c5abfc6a8a1ee5b7b8c87438",
+      "contextFingerprint": "41b8a4a188619193a1daee8a972faa0ee762c2fa0a2868189e575ad740a35881",
+      "sourceText": "不过，这些普通的 Shell 命令需要配合 Docker 提供的特定指令（如 `RUN`、`COPY`、`ENV` 等）一起使用，Docker 才能够正确解析并执行这些步骤。构建镜像的过程，本质上就是按照 `Dockerfile` 中定义的指令，从上到下一步步执行，最终生成一个可用的镜像。",
+      "translatedText": "However, these ordinary Shell commands need to be used together with specific instructions provided by Docker (such as `RUN`、`COPY`、`ENV` etc\\.) so that Docker can correctly parse and execute these steps\\. The process of building an image is essentially executing the instructions defined in `Dockerfile` step by step from top to bottom, ultimately generating a usable image\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 72,
+        "costUsd": 0.000145
+      }
+    },
+    "e84f168134decb4b88d76f9526c743b5224b897e753423310b84009f487eea44": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f9679d7edc77c4a9fb59ebfd7383fafc842179d1383797a527153bb4b75be62",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 什么是shell？",
+      "translatedText": "#### What is a shell?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "e854b666ec0e963a217f152470afd51ed1cb6163a1ad732f4f5e1ab0abc61625": {
@@ -279,6 +363,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "e85efe445b32f4d0e073a31f54b0ae328f37dd1ef97700536e0fb9d3ab98bc46": {
+      "normalizationVersion": 1,
+      "sourceHash": "7abed7b51a98ac1b95c2cfbee1c3b25a971bbf535b37233cebfdd2ac23f493bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "远程主机启动 ssh 服务命令如下：",
+      "translatedText": "The command to start the SSH service on the remote host is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
       }
     },
     "e861abc0e7edd8f0cc39aeb0553d7b469923bb1ae8e41c77dac6acb91d5fb5fe": {
@@ -379,6 +477,20 @@
         "costUsd": 0.000057
       }
     },
+    "e877482d69ba79a08f998eb2382efcd9d5498f5f77bbb0e37e1b8e943decb23e": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6ee7ad92be85ed5ab2362633f19a1621420be0a52efe051c2e884c2fd4fb560",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果是 Fedora KDE Wayland，Waydroid 的桌面体验会比较接近原生应用。",
+      "translatedText": "On Fedora KDE Wayland, the Waydroid desktop experience will be relatively close to that of a native application\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
     "e87b158f0bf04aea14a2ee52afa4a4d77c74ba8bc36e1b0f18902a2a666b8a65": {
       "normalizationVersion": 1,
       "sourceHash": "ac64e0e85b3dc0f619d0752602c2fc0d2c98f9cefc6c009667f13f2ac9dbdc1e",
@@ -407,6 +519,20 @@
         "costUsd": 0.000053
       }
     },
+    "e880bead5e41ad6cb9f301c788a56ec638354b38b9eccd932cf3b0d7b3df45a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a8398d73373e9ffc6671e699187d3e5227b1466e363ec942bee06662a4c35ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上传文件指令格式如下：",
+      "translatedText": "The format of the upload file instruction is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "e88181ad5af4a15b9934d95e3b9f1e77b21850c125751ab133b267a7d445a8f4": {
       "normalizationVersion": 1,
       "sourceHash": "ece779a173f0d7c2c63db617df131fdfa668412f62b5f153f7190647e1fb92fa",
@@ -419,6 +545,20 @@
         "inputTokens": 145,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "e88329d5effc4f2c240fcc96be84d35cf1c467db29eaf007eaf647f0bd856067": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3b8dd04c92c1b6dc16431b9179d2e84455624a10184b862743411c2cfdbc7b2",
+      "contextFingerprint": "d3084f4657a99d987d9f8e85a98a4696f1015fe4616a8091f12abf77a503ef39",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790749629848-9ebec443.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790749629848-9ebec443.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e883f6a28be6d8f5bf0e6e85b48579842ed315a11a088c8323fcea91030b3296": {
@@ -447,6 +587,20 @@
         "inputTokens": 255,
         "outputTokens": 155,
         "costUsd": 0.000263
+      }
+    },
+    "e8927b6caa503556ba9abd9af123f264a02f3d07122c6300fa025c2d5a1197bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "efbde1c6d54ef968a66f51a598686d4e8ee8787613fb45a7ed23e2ba7d7a6c43",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同步带机构使其旋转。（第一个电机）",
+      "translatedText": "The timing belt mechanism causes it to rotate\\. (The first motor)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "e89db36f6b7bebd7e9996474e8f2ec3e1219f87971b08a0be181ac387b902833": {
@@ -489,6 +643,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "e8a17b523178c9f775f28737435e8e8181c54eb8af035e39ef8390d205046ac6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0df4c3e72cf19b2eae3290ff5119421f157de5dd1c4948cf339e4f3918a44437",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 运行软件",
+      "translatedText": "#### Run software",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "e8a3d6fe6f532e3e36b2875988a2985eec2f02c03d28765495a83d6057d1f0b7": {
@@ -659,6 +827,34 @@
         "costUsd": 0
       }
     },
+    "e8ca90a7a761e2e5d9523525320885a664d7507f343a3a0441cdff744c6f0e0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "05ea49b212dc1bbe3e8e8f1d2f93b592906568c60e128d776fdc579f7a45e2f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在这里多加一行../\\*\\*",
+      "translatedText": "Add one more line here\\.\\./\\\\\\*\\\\\\*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "e8ce8184294ebd77fa0ef0fa7186c59da3e2f4d442af6f421c5b62112edd3da4": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f6f164d871ea39cba174e7b61f451e5b51d73cd1278ab42a9148c36537e1a73",
+      "contextFingerprint": "fa8270bab6149138e1d40e8741b397e2c0d4bace332762e885f058912ee98188",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image28.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image28.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e8d0a4ad6a920a69a465a89bee1e359de923f9d48ae5187ae48f28605208ed27": {
       "normalizationVersion": 1,
       "sourceHash": "abc622d9aa93bb6b58aa2bbb4e92815a04028d97adc00dab66ebb0535cea14ea",
@@ -671,6 +867,20 @@
         "inputTokens": 147,
         "outputTokens": 28,
         "costUsd": 0.000078
+      }
+    },
+    "e8d1495b1aa429cbb8b319efae8c60185e14424a358c606cb8edb7c0fa0f7036": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce6278cbd655eb45134bc4e9f5775f2d7568e51e77e5bf49ecf481a1a8e63e95",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "YAML 中加载：",
+      "translatedText": "Loading in YAML:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "e8d6663b8ff5b6f9faf3404fae635afb2d203a50943c97c53e6ad897cf887889": {
@@ -715,6 +925,20 @@
         "costUsd": 0.000144
       }
     },
+    "e8d9476400c1baafc8410883d6dae7a7294dd38b387fd24cae44525f53542d74": {
+      "normalizationVersion": 1,
+      "sourceHash": "530c4c95cdf0008618ffa49f3a89e0315346c640525abafdc50fb5595125efd2",
+      "contextFingerprint": "ff4fb5a9194a698f5c585b87f92f8bd0aa9149f4de6b03458d587ccf59a064c9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image265.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image265.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e8e1193ac473a10b054e00c55d3c119f2ed2953151e49ad19c36c93b79edc6dd": {
       "normalizationVersion": 1,
       "sourceHash": "419605b8691e556abac8fe1eef86e56bcc0851de63b01c0f1568609f4852efe5",
@@ -755,6 +979,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "e8e8b71a927b1734a9219b52eada33a921b676c2978dc2954321a46ebfa740d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac610ce57513d778f10c1232eaec0d5f1ad9a1215277e55421a106a02bdca58d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果规则仍然没有生效，可以直接重启系统。",
+      "translatedText": "If the rule still does not take effect, you can directly restart the system\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "e8ebab751ee7d0209c469d6e88f78e4ab68846261d19c45e89843ef60001ac56": {
+      "normalizationVersion": 1,
+      "sourceHash": "e362b8aeff8fb68a01ff0157b1009e195c101c800ac699e676ef95f4fbe44500",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 使用VScode优化",
+      "translatedText": "#### Optimizing with VSCode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "e8fece375a63372dd3896e742e64d8f3a54123130cab699e24cc781484816012": {

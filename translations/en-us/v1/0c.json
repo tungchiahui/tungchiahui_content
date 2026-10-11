@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0c1066fefa4f53e8b658e8de43d1161a1c835bda1b1a7d433c015d352aacd063": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a42ad7680e2c20b175485ce963b3a16a724e726c8adb34a4aeed835cff4fbb3",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 定制独一无二的zsh",
+      "translatedText": "#### Customize a unique zsh",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "0c108f43b143a341812c368443ff1710c52abbd2bf52e5e88bc4c47d6853f1a8": {
       "normalizationVersion": 1,
       "sourceHash": "4e577e6d605bb2cdb6af515632c62b3d3609f6a2ae3f3bda8c73b4def6e13836",
@@ -57,6 +71,34 @@
         "costUsd": 0.000057
       }
     },
+    "0c1a53132bbc4c69ad6b13ddb1fab8870699c95b8333dd50f52aa46f3a29e816": {
+      "normalizationVersion": 1,
+      "sourceHash": "754b10ae4581901c92ca3374959bdc9e7acef4f6447f3750e740456f24034053",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Gazebo 集成时仍然需要：",
+      "translatedText": "When integrating Gazebo, the following are still required:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "0c1f018c7480405103657368069b4bdaa8ffa18fd6b023984dc723d7f3d43137": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b92a00ddb78f34467919318428819004ef02fde8bc8d08f0a4e9c3b17bfe51c",
+      "contextFingerprint": "bd288f656b845e339e36c9e9e4b0aec8b1f15b8881381522a5086ba6869f2852",
+      "sourceText": "*   订阅速度命令；\n*   根据差速运动学计算左右轮目标速度；\n*   向左右轮关节的 `velocity` command interface 写命令；\n*   根据左右轮反馈计算里程计；\n*   可选发布 `odom -> base_link` TF。",
+      "translatedText": "*   Subscribe to velocity commands;\n*   Calculate the target speeds of the left and right wheels based on differential kinematics;\n*   To the left and right wheel joints' `velocity` command interface, write commands;\n*   Calculate odometry based on left and right wheel feedback;\n*   Optionally publish `odom -> base_link` TF\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 62,
+        "costUsd": 0.000127
+      }
+    },
     "0c1f176458c87eba6473d0cbe9fa922f67c406f73d11831e771c16f8201e942b": {
       "normalizationVersion": 1,
       "sourceHash": "ad5de66c16ef71b56c5c23b466ca595afcf2449e5429fb35b961c1dd39d012f8",
@@ -85,6 +127,20 @@
         "costUsd": 0.000067
       }
     },
+    "0c21c91812741fe6cfec20945390b8267ef83ba56dea164355294fb8bc090362": {
+      "normalizationVersion": 1,
+      "sourceHash": "54656a6b4cf6825f77525e7a050ed2ecd73cc2852b9716871c3485dedc8eb178",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正常情况下可以看到：",
+      "translatedText": "Under normal circumstances, the following can be seen:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 17,
+        "costUsd": 0.00006
+      }
+    },
     "0c27b48ac721cc03f51132d473c4381ec11fa11ad97daf19e007dea47c3bb4f4": {
       "normalizationVersion": 1,
       "sourceHash": "ab3b67b8f9b1807947672739b450c0c3a1b263358d64868ef4c98ace852d7ed1",
@@ -97,6 +153,20 @@
         "inputTokens": 246,
         "outputTokens": 131,
         "costUsd": 0.000231
+      }
+    },
+    "0c2b0eaebd4cf8e7176f872fc768525c49daaf533ee31112522e62fc00af4d02": {
+      "normalizationVersion": 1,
+      "sourceHash": "2aa6a9d2eb4269b14be5e6ee5625594a2f4983bb86a959050b9a421db9256cfd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "轨迹（平动DOF）对时间的微分(导数)，就是刚体线速度。",
+      "translatedText": "The derivative of the trajectory (translational DOF) with respect to time is the linear velocity of the rigid body\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "0c2b9b1a4fe5e218f6f7ad00c49ae4bd24b4ee122ff2ff28feefa71222540089": {
@@ -125,6 +195,20 @@
         "inputTokens": 174,
         "outputTokens": 54,
         "costUsd": 0.000117
+      }
+    },
+    "0c47b7561f14a61fafc195ea5c85f9f6e8c0623e798acc3884620d3bdadadb53": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd1001fba39578525aebe1d30a4a1c627b3e851a2e08282933beec5a83a76a7b",
+      "contextFingerprint": "55658162ac016b118e4c197a8cfbea7ff56745ef398802022cde8a09b111d3b3",
+      "sourceText": "3. 查看KEY\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146996637.webp)",
+      "translatedText": "3. View KEY ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1768146996637.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "0c5068c8303d9673179904e4250ed95a7b1084a249f2913f5eab7656e65bf6b1": {
@@ -281,6 +365,20 @@
         "costUsd": 0
       }
     },
+    "0c684195d58d693d821767f078a35d05dfdafa913e4ad806b80c5b6dfdc1db90": {
+      "normalizationVersion": 1,
+      "sourceHash": "40359d1146cc53772c900489dfe48e7d2a253752c912f4aaa4313d736c5a70bd",
+      "contextFingerprint": "133f6cae9219d938ec20de89a6a274189309ae773a9bb9619122e89e6030e1de",
+      "sourceText": "### ROS2 Control 安装",
+      "translatedText": "### ROS2 Control Installation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "0c68e58e64422cc76416372f5a082ecf13a91d7edb066b4817b033f232f15c48": {
       "normalizationVersion": 1,
       "sourceHash": "aaf93d0f4f62e725a4824d0059b849f4a6b8dd2822e8d9c26e8c46e10b5490bd",
@@ -323,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "0c781f0ce6535bf731defaf9cc6112921768682936d7e80ba3977ad160a3ccd3": {
+      "normalizationVersion": 1,
+      "sourceHash": "1dc8522f98ec5ac70395d2f4c927ee4739c889b375f98b05492b43cd1935cce3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 初次编译",
+      "translatedText": "### First compilation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "0c7a43835874f0264e3596ec3cd064a4c3cc502bd4b80226bacd8721ed68816b": {
       "normalizationVersion": 1,
       "sourceHash": "0b8643c66d03a222bc453fdee1b11e1eaa375537318b3d4063e395f357ab7582",
@@ -351,6 +463,34 @@
         "costUsd": 0
       }
     },
+    "0c7e9e168b7ec6b7413571af63bdaf19e71ade3e07d5371aa228f422abe07979": {
+      "normalizationVersion": 1,
+      "sourceHash": "f55262fcde3b5e076cc573c33921b6536ba99c47bef20641ba359e563a639b6b",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 磁盘设备的固定路径",
+      "translatedText": "#### Fixed path of the disk device",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "0c85d71f5b4264e74e3556e3692138430b460c128262b5cfc2a30f4b3c930700": {
+      "normalizationVersion": 1,
+      "sourceHash": "927d12a87d5c3912f052fe07483757ff3b5c2c7ac1659f238060b77e9de8cce4",
+      "contextFingerprint": "8980ca191383684e4536736300dd9f19ac302848dfc1ae8b70c11ad76ff21bb3",
+      "sourceText": "*   没有启动 `joint_state_broadcaster`；\n*   硬件接口没有 state interfaces；\n*   `use_urdf_to_filter=true` 时，URDF 中没有对应 joint；\n*   硬件 `read()` 没有更新 state。",
+      "translatedText": "*   Not started `joint_state_broadcaster`; \n*   Hardware interface has no state interfaces; \n*   `use_urdf_to_filter=true` there is no corresponding joint in the URDF; \n*   Hardware `read()` did not update the state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
     "0c8addb1244fba04baf1744513bef466de4ed11b5158586aa8e7d6bf4337049e": {
       "normalizationVersion": 1,
       "sourceHash": "9f0da4cc28b4c9ab021ae7dd4af7e8b8754d2de0770dd4049f3909dfd4d5776d",
@@ -365,6 +505,20 @@
         "costUsd": 0.000061
       }
     },
+    "0c8bfb536499e5258883b78b11cadd8bbd75bf4d4b49818b0fd0ae3b5edebfd3": {
+      "normalizationVersion": 1,
+      "sourceHash": "72125707f8025e4e416985d6d956872899adf3cdc30b399ea6a03df2d530c9e9",
+      "contextFingerprint": "139452a14d450473d6273d301f7c38fa7f14eac8f35b6dc5a90d3b635d97c4b3",
+      "sourceText": "https://github.com/pyocd/pyOCD/tree/main/udev",
+      "translatedText": "https://github.com/pyocd/pyOCD/tree/main/udev",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0c90e7e31008e12ec6ad7e2d6bf2cc8e97850f72a1c1d46f559dbab6bdfe7757": {
       "normalizationVersion": 1,
       "sourceHash": "14ece99881912d6486da6a551294a05643a14ef6bf406b8fe7e19fe178cd4f5d",
@@ -377,6 +531,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "0c9795e643c63802fa3da56c7f5354c3021859edd19a50cf8fe131e7a1b19c72": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c962202c89f3d374265e5b198306889b5841a3de4f688e33010c9c1605455d0",
+      "contextFingerprint": "8f49e1e6905106394aec028fb99a0dc969b417f65b6c2ff92673f444c1bf7b7a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1873.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1873.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0c996732f9e6a7fd348c7f5b86c70840303b36cff0ed49f0d919e500df5a8c4d": {
@@ -405,6 +573,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "0c9bbe8cb6bc6139fa535a22e5e4cf170984ad89cf4f158630bce3e25140561f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d16da939cc9057ab8ccba1eacb6ca20324137b52d5b59da87d65575a5be5eeb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 工程配置(比如初始化一个GPIO口并创建任务使其电平翻转)",
+      "translatedText": "#### Project configuration (such as initializing a GPIO port and creating a task to toggle its level)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "0c9fce3d31e4eeb040992cdb74c5e464a7a3aa0478060a233e93f6d36012cbd3": {
@@ -449,6 +631,34 @@
         "costUsd": 0.000065
       }
     },
+    "0caff79c70b7cd401ebab4600a9c1a2dd7cb7625d941ce0551748f799b462fbb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f699bc71858914246b1509b157180dac046c34a415fb9089f860401e3eea3ade",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  Ubuntu 20.04 Focal",
+      "translatedText": "1.  Ubuntu 20.04 Focal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0cb7e848d07275987ad080ffe3053c24a8fdf4fc2ebb637e185d61ccd8d162d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a1e55e5c7f86dd945efeb83886238918d290618116ad45322ac27d53709c4fe",
+      "contextFingerprint": "06a34d6ac54837eb03c998a3d20ccac62bbe4442e5c8d34b279855320ad480ba",
+      "sourceText": "我把配置填到了VScode中的`settings.json`使用我的插件进行了测试：",
+      "translatedText": "I filled the configuration into VSCode's`settings.json`Tested using my plugin:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "0cba4b1272f7e46919b08855d2ceee762c8347a6c146a098515d3ce34677ff5c": {
       "normalizationVersion": 1,
       "sourceHash": "e2c7d014bee9cfc6053bea1c2c53ad8e34c7514d6107ed3c72959e5069d23e47",
@@ -489,6 +699,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0cc238b057489b3db87553b6193236bb46d42874b45bc64cb5a41eceaeaa5ee8": {
+      "normalizationVersion": 1,
+      "sourceHash": "abc9a1d95cf2354106794b158635283328643111fb54f1da08943d933fe18a25",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Windows Subsystem For Linux 2(Windows的Linux子系统2)（勉强的法子）",
+      "translatedText": "### Windows Subsystem For Linux 2 (Windows的Linux子系统2) (a reluctant approach)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "0cc4055343a80b5b42f848d1953e54751d9962c7668e9b232a3775b756987fe0": {
@@ -575,6 +799,20 @@
         "costUsd": 0.000117
       }
     },
+    "0cd443e87a527ff6797170223265d78b6c201fcc550857425e848025b98f2c3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "92dc0e69fcf6324f9f1b58323d8411bfe910882b86aa789a3baea2f4df22546d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种方案最大的优点是：",
+      "translatedText": "The greatest advantage of this approach is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "0cd5f8b3017968ee270a8966e249105f4124b8e69a1e4a4e1461317d865044c9": {
       "normalizationVersion": 1,
       "sourceHash": "981f9a13ecb4d4ceac2fb9846f15cb770c964c991eb3e5f5163b41a465044bad",
@@ -645,6 +883,20 @@
         "costUsd": 0.000052
       }
     },
+    "0ce4a4e6a66eacac568ecd4f778375191dd3b248e8a3babfcaa2220c23bd62a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "37c407c2db702d46cd253cabaa042fb6aaf3e92812322cb1ce218a34bb840b6a",
+      "contextFingerprint": "eb0226ee53effc7f4beabe761fdeee5f25f0693e28bed64c5e0a1e6ca5f7666c",
+      "sourceText": "找到`Arm CMSIS-Toolbox`，选择`2.15.0`，这个版本尽量可以先选这个，后续你明白这玩意是干啥的了，再选择其他版本。",
+      "translatedText": "Find`Arm CMSIS-Toolbox`，select`2.15.0`，For this version, it is best to choose this one first\\. Later, once you understand what this thing is for, you can select other versions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
     "0ce4ef84d81de26f6476168923f83215253cf8e2bd6f3feb7433a13c67671f48": {
       "normalizationVersion": 1,
       "sourceHash": "14f1a1039e693b267465c42681f201d53de05104fedad04b635d3161c3ac1512",
@@ -657,6 +909,20 @@
         "inputTokens": 143,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "0ce67bd3f8bd052f1728a8095e1489da3d6f6d1ac8a9a782c51c51ebb75e5e0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "65fa8700a65189404d27c4396b6821913049a752310cd475e3344d6bb0cbdd76",
+      "contextFingerprint": "7f30f2f13e99f59f8a7f79f6989e1d13a1aa7655ac759349324b5036e93a4a40",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image231.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image231.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0ced03b295c88d2c96f37e295db52ee25877e8361e32acba1c41db2f6063d61c": {
@@ -687,6 +953,20 @@
         "costUsd": 0.000054
       }
     },
+    "0cef2623c0330ac514a7df4f4ccfb66fc291b74a6f4aab7ed05d6992e47e3e55": {
+      "normalizationVersion": 1,
+      "sourceHash": "566a732b9d41e0545ced1fb5958f20cd914fc287ccb70c993e0ea3506b167872",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "根据教程做，就可以实现这种效果啦。",
+      "translatedText": "Follow the tutorial, and you can achieve this effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "0cf137fa806d3bb9f98e82efc00bd434d46486f387a9e8e1f3b3fcb666f53d14": {
       "normalizationVersion": 1,
       "sourceHash": "88926cecac2577394bbbc7ef75903bd0c8d7b4479002755a852e65673af21422",
@@ -699,6 +979,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "0cf3e4ce6dd5abae1f118bd00cf452dd1679b19612259e0b6a6d63e1d3349fd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "63a41e43be31e2e13e500d4dbd9842c935be375e12bb89b60c5fd8e40a956396",
+      "contextFingerprint": "87961d2b5904f8a2011336940067cdd1ce92bc7d61fcd54731911f3ad60d3064",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image24.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image24.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0cf87662e63f5cbc29c0628e73d910747dcf26990bae1fe2d25a538752f9f654": {

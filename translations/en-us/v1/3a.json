@@ -15,6 +15,20 @@
         "costUsd": 0.000063
       }
     },
+    "3a04a57ab9ce676a02b91bde6ea25a683b4f823895a4d72f5bb0932d019b3be1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1376e166d0fb1032aae6acb8b79175533b198faa9c550421de7c2114f1b5d4c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "现在只是限制住了两个轴的距离，两个轴还是可以转动的，所以需要下一个参数，Link Twist连杆扭角。",
+      "translatedText": "Currently this only constrains the distance between the two axes; the two axes can still rotate, so the next parameter is needed: Link Twist\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
     "3a063fa3012bcf1edef7368d9201969e22fc11ed48d5ee968b529c1656872542": {
       "normalizationVersion": 1,
       "sourceHash": "02b75272415e2b1ef831173d5d49753370d5d0854b15380f37e4b42e2ad036f3",
@@ -225,6 +239,48 @@
         "costUsd": 0.00006
       }
     },
+    "3a39afa11b5153c0219028c96d042acb28b66e887a4c949d03e60d0e384a11f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "95583776dc73c46cc9cf925e39ff4033ba4928eb2f72e416a9c06ef2f2111181",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  Ubuntu Gnome 22.04",
+      "translatedText": "2.  Ubuntu Gnome 22.04",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3a3a70a4ca8592630fa1bce29b349a679a909b1acb0afbe01cee53a2a1054216": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b9242339f21c0a76822134011aa4f305265e241bc341f3e5af87f82f80932e9",
+      "contextFingerprint": "3c227d6dfa6972de2913a691e944b07bc5b6cb56ac22e9bc920b5451a57cd5ec",
+      "sourceText": "https://store.kde.org/",
+      "translatedText": "https://store.kde.org/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3a41f2c7784f2bc40e8484c855d18f8ef27599d38736a300452b48adea9eab95": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbacd82653bf5858c9b0679b3276cf1e261b4c3d310dcbde8d7a7ebcda1cd31f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "目标：能够在我本地终端中输入一个命令，然后我快速进入某个docker容器的终端。",
+      "translatedText": "Goal: To be able to enter a command in my local terminal, and then quickly enter the terminal of a certain Docker container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "3a4e135c73fa938348539a1ff0672b3debc7b5247b81d6622b1a00d1a21aea64": {
       "normalizationVersion": 1,
       "sourceHash": "a851a72ecbae1e79d611c7915e997795e4dccbe745a2951e7434a3e8d2bd2fc6",
@@ -251,6 +307,34 @@
         "inputTokens": 158,
         "outputTokens": 35,
         "costUsd": 0.00009
+      }
+    },
+    "3a59ef60e292e7e8e47f6268c91a4952d834408b12ab77a29cf61021f84ab4b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b2ba789f9b736773d35c8218bf147aaed1d25968f56f9f42ac9baea6389bb43",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 安装CMSIS",
+      "translatedText": "##### Install CMSIS",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "3a648ebaa6fedbaa999538c2bd879c8db77e9b8de413e152cd97526cc4d4aec2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d4e998d7444785aab89852202cdddf58a75481de7852452414fa24ab4781d65",
+      "contextFingerprint": "2f68032a9dae5c13c37f09f0b8ec02109b4562ea7e60dd4e397aed6f1596afed",
+      "sourceText": "| 参数 | 默认值 | 说明 |\n|:---|:---|:---|\n| `update_rate` | `100` | 控制循环频率，单位 Hz |\n| `enforce_command_limits` | `false` | 是否根据机器人描述中的关节限制约束命令 |\n| `handle_exceptions` | `true` | 是否捕获控制器和硬件组件操作中的异常 |\n| `hardware_components_initial_state.unconfigured` | `[]` | 指定启动后停留在 unconfigured 的硬件组件 |\n| `hardware_components_initial_state.inactive` | `[]` | 指定启动后停留在 inactive 的硬件组件 |",
+      "translatedText": "| Parameter | Default Value | Description |\n|:---|:---|:---|\n| `update_rate` | `100` | Controls the loop frequency, in Hz |\n| `enforce_command_limits` | `false` | Whether to constrain commands based on joint limits in the robot description |\n| `handle_exceptions` | `true` | Whether to catch exceptions in controller and hardware component operations |\n| `hardware_components_initial_state.unconfigured` | `[]` | Specifies hardware components that remain unconfigured after startup |\n| `hardware_components_initial_state.inactive` | `[]` | Specifies hardware components that remain inactive after startup |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 67,
+        "costUsd": 0.000136
       }
     },
     "3a64cf62fa592d2bdfc3dc35e4ad55cb139b4096e174fcf0dc024e133ad5c494": {
@@ -293,6 +377,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "3a6c3f37c8596a828a766e2a96b91334b45e62ca39036ead45e9695d8c929b07": {
+      "normalizationVersion": 1,
+      "sourceHash": "649aa1ee67d302ae68ccaf85d5f9e76f95f87bf13f652d84b896496a240b0f9d",
+      "contextFingerprint": "ff447d3bac935ad77a3d1ecf041c9be792af66a0965d282e41497422eb59afd0",
+      "sourceText": "| 需求 | 推荐方案 |\n|:---|:---|\n| 差速底盘 | `diff_drive_controller` |\n| 机械臂轨迹 | `joint_trajectory_controller` |\n| 只想直接写关节位置 | `position_controllers/JointGroupPositionController` |\n| 只想直接写关节速度 | `velocity_controllers/JointGroupVelocityController` |\n| 只想测试硬件命令 | `forward_command_controller` |\n| 特殊底盘运动学 | 自定义 controller |\n| 自定义阻抗、导纳、力控策略 | 自定义 controller 或基于 `admittance_controller` 扩展 |",
+      "translatedText": "| Requirements | Recommended Solution |\n|:---|:---|\n| Differential\\-drive chassis | `diff_drive_controller` |\n| Manipulator trajectory | `joint_trajectory_controller` |\n| Only want to directly write joint positions | `position_controllers/JointGroupPositionController` |\n| Only want to directly write joint velocities | `velocity_controllers/JointGroupVelocityController` |\n| Only want to test hardware commands | `forward_command_controller` |\n| Special chassis kinematics | Custom controller |\n| Custom impedance, admittance, or force\\-control strategies | Custom controller or based on `admittance_controller` extension |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 71,
+        "costUsd": 0.000141
       }
     },
     "3a6c5ec2d8861b305b0fc6505c17683fc1afa78ded6a5487163e683227590c04": {
@@ -393,6 +491,20 @@
         "costUsd": 0.000094
       }
     },
+    "3a79c634f4a4e3bf9443262b178ff657076f9466b47c40f3d269334c362cce12": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee4ecffc9259b296f63d5f3e5f67844e0404cfc7c600ae60404efa61a224cf3e",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  克隆vcpkg仓库",
+      "translatedText": "2.  Clone the vcpkg repository",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "3a80e1e0b8ad0778eb4a6891c4900d54c369b3cfa22c8556443118085301df64": {
       "normalizationVersion": 1,
       "sourceHash": "d37f38edccf507b821d65eb815fccf036c5d9f44b96116ff6c8999807c7aab5b",
@@ -419,6 +531,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3a82d4bb70c5f85ed4a93e4b2c9417b0892d60525331a3457340be55afcbc797": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6920811b49d21cb53a5668355db28bd1e1d9c254ff67b9ad5ecc8ad17ef197f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "KDE自带的截图工具贼好用，同时这个截图工具同样可以录屏，但是OBS比截图工具更加专业，所以我们一般只用这个截图工具进行截图。",
+      "translatedText": "KDE's built\\-in screenshot tool is very useful\\. This screenshot tool can also record the screen, but OBS is more professional than the screenshot tool, so we generally only use this screenshot tool for taking screenshots\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
+    "3a843dae375d91747b1be4e39b8e49d4cc8d65d36523e5939e6f721a50c8de1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6127d42e344fdde05ad42086d4882654a92e9891126ec6dbeae98dac11871e09",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### Arm Tools 环境配置",
+      "translatedText": "##### Arm Tools Environment Configuration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "3a84908506d62905447521ca8e9cb048496efd829dd456fead6305e381b64aa8": {
@@ -449,6 +589,20 @@
         "costUsd": 0.000082
       }
     },
+    "3a8a300d14c57252d24489e80f8a44907d9f35aabf42088a5ed6296a1fa58893": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a032962b5f1ddf40f88253a031522f77a02fa6080f71dcf15ecae44e73b4b2c",
+      "contextFingerprint": "97070ccb081c1063356de254f7774c590b49d8924dc990083706be90f1e03ca5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image57.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image57.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3a8b49bac73bb9ff9d445bf7af9fec06005ea104a8b493a1ae26a3bf32ae2a03": {
       "normalizationVersion": 1,
       "sourceHash": "ec6244e0d6105a52bf0fb3073449a1616e116ba50ae243536e6e70e7d69dad70",
@@ -461,6 +615,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "3a952fbfa7664d6a423c8eb07d76416aa3d56b331bb8698941761706187d9438": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce70c22eaee61adaddc683f8f398c64ecf492d0846f0d1eb3e74c2cbf5cad9c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "右键拖住它，拖到桌面再放手。",
+      "translatedText": "Right\\-click and hold on it, drag it to the desktop, then let go\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "3a95e196b6fb8c01e97a15146523445a96206203eb0e3ad57e532cbeaf6ceaed": {
@@ -561,6 +729,20 @@
         "costUsd": 0.000051
       }
     },
+    "3aa7c6fabcaf922cc7fea45a559bb83fd8ad56693c3bbc4eff696d00599e0bee": {
+      "normalizationVersion": 1,
+      "sourceHash": "891b3fadba5f0307095f980694a116bea28e96a48ec8b239f76f10ab7efdf2dd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "简单来说就是：",
+      "translatedText": "Simply put:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "3aa8b1d2460dceca6253f7b21186a7db7b791a80d031ce548755ce57452ad5b0": {
       "normalizationVersion": 1,
       "sourceHash": "18664af366bf701f69abeb6e76c615a21f5f3315664ff353ded528b5f10ef8b9",
@@ -573,6 +755,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3aa924902eec673a426329f725fe54bc8523a6ba1468d94d80d52426dac270c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c8124d32548ade0fe826a74920329feef0d26385cde8345f20107bdb01e72e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "远程开发成功。",
+      "translatedText": "Remote development successful\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "3ab12037912105197e8a46fcbc6030825c94af5dcb0c2bcefbd02522046f1fa8": {
@@ -729,6 +925,20 @@
         "costUsd": 0.000082
       }
     },
+    "3ad50ba403b37d34102b385d42665ffc1092f92d36733ae9c91f8753b079a673": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fd21be0e10ac00bd0b30bc800111961e01f3733b4a52070d25558fe2ea279be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 udev 规则匹配正确：",
+      "translatedText": "If the udev rule matches correctly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "3adeada7d1ab24b19d3fb504f79b4c99c06e88eae2172aa464e4fc3709e45843": {
       "normalizationVersion": 1,
       "sourceHash": "a03be81dbac105a778e9a8170dfb40eed8e887a69921abbcaba326324316b72b",
@@ -755,6 +965,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3aeb93914f597aac2d6406fe2e44de6fc760336fb46ef189a65172798e2f9a3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "022776a0d0e7da6e770860f1a57ba9349a8c913b94ab55f171d5890f7363717e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "双系统会导致Ubuntu比Windows的时间快8小时，而Windows的时间比Ubuntu慢8小时，所以需要解决系统时间同步的问题。还是第一次分享的那个视频，后面有一节讲到了时间同步的问题。",
+      "translatedText": "Dual\\-booting causes Ubuntu's time to be 8 hours ahead of Windows, while Windows' time is 8 hours behind Ubuntu, so the issue of system time synchronization needs to be resolved\\. It is still the same video shared the first time; a later section discusses the issue of time synchronization\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 67,
+        "costUsd": 0.000133
       }
     },
     "3af00848f70aa5ade2c10f86fa3a7f59f7ac2ec505904a3df84d0204a779a69c": {

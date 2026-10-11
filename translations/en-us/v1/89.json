@@ -15,6 +15,20 @@
         "costUsd": 0.000062
       }
     },
+    "8900aa9d7aceb0a0f430a7a6df00d5d106e780c9933ec7cd0eef84d6d6d7ed70": {
+      "normalizationVersion": 1,
+      "sourceHash": "471b3b992bb1a87d28cee68381f0b670758492dd2a9a2672111a895912263864",
+      "contextFingerprint": "d0bceb5638fce72f4cec36ea1cb132a4b72b3739a557f8f426970cb2ea2b76fa",
+      "sourceText": "*   在ros2_stm32_bridge功能包的params目录下新建文件ekf.yaml，并输入以下内容：",
+      "translatedText": "*   In the params directory of the ros2_stm32_bridge package, create a new file ekf.yaml and enter the following content:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 45,
+        "costUsd": 0.000103
+      }
+    },
     "89027063a8a20d8caf41a5cb769ccc50b127a3b04aae62d1ddd246705664ed18": {
       "normalizationVersion": 1,
       "sourceHash": "81d58d749ebc030428d1b0d8fc64122f6f8b925af6b2a9f496ca470e4d336b9f",
@@ -43,6 +57,20 @@
         "costUsd": 0.000055
       }
     },
+    "890dd10648359171f0db10869f9c629dcb60ad5db47546971b7d41abb4fe00b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc5c027267d32146e2a9a972237555e4257b330d5e7ceb06f8271c9e902d1edd",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 安装微PE并下载WinPE的镜像",
+      "translatedText": "###### Install MicroPE and download the WinPE image",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "89211b3f9659ec94c3444cf5abd2fa1cc7e7ccabaa94cc806f5716be87808ded": {
       "normalizationVersion": 1,
       "sourceHash": "cacdd035da5dcda3e58376a62ca2aba3c2466d145a95369aeb646ae0422a8ede",
@@ -55,6 +83,34 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "892c3d7a93a55eca0557c44f02d176fbdec3d693629be9820ee5d6bdffe9e1f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "43e8272f3f6708b2779b672af1577208e2958a1a19da1ddb6b20a2811bb7d88e",
+      "contextFingerprint": "601a32cf762288198043e3adfea2b531039bd247e725747233218b2c8e430a6e",
+      "sourceText": "#### **将用户添加到 `docker` 组** ：",
+      "translatedText": "#### **Add the user to the `docker` group**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "892c69a1f3d21d31f9d5b1fc2a27053edf7302841093100a3164dfd83a691695": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3a429c3412cfd091bfa01b74fd53c70fd395626a2047e7bb2aefba9711be947",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**注意事项**",
+      "translatedText": "**Precautions**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 10,
+        "costUsd": 0.000051
       }
     },
     "8930b6db3171c06a0650965ab055df6abd8bfd5dba4276077a87127a7c5da8b4": {
@@ -83,6 +139,34 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "89396a2133248d3ea2c44fbaa820aa4084f86efb8aefc10de2ea354ab5701aaa": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a4db70972f6cfce6f95816bc6273a0ca810e28315e231e758fb6fe5cf9941a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后需要频繁的使用ssh远程登录，为了简化实现，可以将远程主机的ssh服务设置为开机自启动，命令如下：",
+      "translatedText": "In the future, frequent SSH remote logins will be needed\\. To simplify implementation, you can set the SSH service on the remote host to start automatically on boot\\. The command is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 46,
+        "costUsd": 0.000102
+      }
+    },
+    "89398eda2b76ae88c9bfc9216a80353bfdca6f347d7c65a2615c68752bf0fd82": {
+      "normalizationVersion": 1,
+      "sourceHash": "775a7441a967f39a23377bdd3aa01dc859b9bdcc7611672acdff91298dc58fd4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果我们使用通用方式安装显卡驱动，会发现每次Feodra更新内核后，显卡驱动都会掉，如何解决这个办法呢？请采用DNF安装显卡驱动。",
+      "translatedText": "If we install the graphics card driver in a general way, we will find that every time Fedora updates the kernel, the graphics card driver stops working\\. How can this problem be solved? Please use DNF to install the graphics card driver\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 55,
+        "costUsd": 0.000116
       }
     },
     "893bbda6b1129fddd165c835efb199106b1a27a794fc23cb4d06fd1c12ca70f6": {
@@ -175,6 +259,20 @@
       "contextFingerprint": "f10db68cf56aa2aedaf864768964253db6a3b0cffe9e1054fef1bfed5c37a8e6",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1104.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1104.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "895120ec6c8b89ea78b4dd60c27eccbd75b3f4c2655be0db628b5ff3461e164a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a0691103a13b35c817af921518d7b51de9c5eaa40cef250612cf54bfc292227",
+      "contextFingerprint": "05250f487f90293fc6435d7f0e29a5e227d7f6924a40441d9eb7e22b213a92ad",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image44.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image44.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -323,6 +421,20 @@
         "costUsd": 0.000053
       }
     },
+    "897e78e806eb4b3c9d920e7dace0fb8dfedc12ed2a33342565c211404cbd7d87": {
+      "normalizationVersion": 1,
+      "sourceHash": "06a9c3e7c99d8539d61cdd45a40144c062c7c59a17c867dbf34f0050d2d9f8d1",
+      "contextFingerprint": "4a0731b175bcd31482979c62e66fe70696aed18913113f0ebf7343316364bbcf",
+      "sourceText": "随便插上一个debugger，比如我这里插上一个连着`stm32f103c8t6`的`ST-link`：",
+      "translatedText": "Just plug in a debugger, for example, here I plug in one connected to`stm32f103c8t6`of`ST-link`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "898376b4e48a6841087cb0c2ec46687b33b13cdaed83b5561144f3dbe6a1a0d7": {
       "normalizationVersion": 1,
       "sourceHash": "2041ac9fa2dced218c83abbcd77117e3be45d53a5204159324bc91a0f3aa429a",
@@ -349,6 +461,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "898c4a97d60b1edad524f571a54a5f47ab7113ed3db34d38d566a2403c9583f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "e26c7fb546026db5462a80b9f65704c020ee0bc9b2463195e39ee1d58fe86553",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其实发现，这四个参数，只有一个参数是变化的，其他都是固定的。",
+      "translatedText": "In fact, it is found that among these four parameters, only one parameter varies, while the others are fixed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 29,
+        "costUsd": 0.000078
       }
     },
     "898edf674fe1f5f9dded6c313e2a60dc374ff49e79e3a70391c438dc59ed15df": {
@@ -449,6 +575,20 @@
         "costUsd": 0.000071
       }
     },
+    "89ac50e74f57ba3d4b47891e57420a6f3cdeb18a3047a054c20b567d3a10c555": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5244c1be3b6481ea3e22c3971b86f33521f4951568c5f9f51aee04496c7bebb",
+      "contextFingerprint": "a91aa5008a70e2f97624de2d9c0b78c8aabb8186e9d191770b190be8b962bcad",
+      "sourceText": "4. 配置与查看KEY",
+      "translatedText": "4. Configure and View KEY",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "89ad323ee523aa97f64940dda3f1dbb01da3054be0a752eb0d26a739d3c03dfc": {
       "normalizationVersion": 1,
       "sourceHash": "8f3ff7e42d5f00f1211e6e525c9653a3ed0ddd4a469f4188d4859feae49dfcd8",
@@ -477,6 +617,20 @@
         "costUsd": 0.000052
       }
     },
+    "89b2034b391fe3f0885088cb89f1bb76c57ceeb12972f34fa0c056de82bb41e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "78e77a357bb5684e5c254376f1b1485bb40ad9c3ec7e925eedd792b3cee2ad5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样的话，AP左乘一个R就得出来了P转动后在A系的坐标。（一定要与下面讲的旋转坐标变换分清楚，很容易混淆）",
+      "translatedText": "This way, by left\\-multiplying AP by R, we obtain the coordinates in frame A after rotating P\\. (Be sure to distinguish this clearly from the rotation coordinate transformation discussed below; they are very easy to confuse\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 53,
+        "costUsd": 0.000111
+      }
+    },
     "89b495fb46715e921c02cde77f37b45475c117f9c416b8835c00900ce553b3e1": {
       "normalizationVersion": 1,
       "sourceHash": "81e9e9c8ddb799c6bce2e8a6408ce4844febfbd37917a81c0f26eac3c3fcf13c",
@@ -489,6 +643,20 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "89b8db3eea21233513f5e2a2b5c56d2812fca7852fc64c5a5a114843ac3c8847": {
+      "normalizationVersion": 1,
+      "sourceHash": "c38ecb974f8639b95e53c218bcb5642ffd4466063c0afe68aa51c1f51dfd8eac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "找一个纯英文目录创建一个DiskGenius文件夹，建议在任意一个磁盘分区里的Program Files文件夹下新建DiskGenius文件夹。",
+      "translatedText": "Find a purely English directory to create a DiskGenius folder\\. It is recommended to create a new DiskGenius folder under the Program Files folder in any disk partition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "89ba6d6f7cb0520a01522153bd850283bb5979e3f8e4cbf140a97e19f41d69ef": {
@@ -587,6 +755,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "89d61fd4fa50063c4a6a478c32eefa48e51123cadf358116ced51244b9c430e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "855ac29905600c8fbbcf46c2ff8d2fd9fb2855a4a966076e846e7a8db392734c",
+      "contextFingerprint": "82aa809a080859b6dde6d26181a06f4fd97e6b09ac12cf857f170c46447af836",
+      "sourceText": "打开`CubeMX.csolution.yml`",
+      "translatedText": "Open`CubeMX.csolution.yml`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "89e0d36b34f6177637b38dcecfc6036fdb9e8ae691bed1cdef66f1e26b0b4511": {
@@ -699,6 +881,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "89fc301c1050c12373cd265dda21a923afb16f3f90a4bb5a378ab4103cb7b10d": {
+      "normalizationVersion": 1,
+      "sourceHash": "760208a2042262163a3095abb7a8527a2878e09cca10d68b3a5b7df81adc5e0e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这12个方程式就是除了低下的0001，上面的参数都可以列一个式子。我们要做的，就是从12个式子中求出6个未知数。",
+      "translatedText": "These 12 equations mean that except for the 0001 below, each parameter above can be expressed by an equation\\. What we need to do is solve for the 6 unknowns from the 12 equations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 48,
+        "costUsd": 0.000106
       }
     }
   }

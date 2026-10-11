@@ -99,6 +99,20 @@
         "costUsd": 0
       }
     },
+    "931fd3bd3880917b067280f2a04d7e057f8aad97e795e91dc4c2d9bd022021ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "7516fed2ed06d6f080a0fe1ebce230da886c42639589efba538c8bc99eedaaf3",
+      "contextFingerprint": "a6fb3df3100c1b899a361dc3f409c9c9415d92e230750cb0ad373e09a28b0fcb",
+      "sourceText": "- `/dev/serial/by-id/`：主要根据设备本身的身份信息生成；\n- `/dev/serial/by-path/`：主要根据设备连接到主机的 USB 物理路径生成。",
+      "translatedText": "- `/dev/serial/by-id/` : mainly generated based on the device's own identity information;\n- `/dev/serial/by-path/` : mainly generated based on the USB physical path through which the device is connected to the host\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
     "9320fb9110f8a90eadf796b1f6141114801a49965b5b712191af91ddea11faed": {
       "normalizationVersion": 1,
       "sourceHash": "4cebcbcd4a142b28337535c2741a477f3336f39f3944ead8632574844c12667f",
@@ -141,6 +155,20 @@
         "costUsd": 0.000075
       }
     },
+    "9341dc861065fb02b606b21108f4e83ff718cb075d722b307a8198ce00c50110": {
+      "normalizationVersion": 1,
+      "sourceHash": "10b31907ff1028df66a43b4c115a0e16c6937c19d8b6ab626e0a835c7cf2f2d0",
+      "contextFingerprint": "cb0198f108c662a4da04bdd508697efe7487c7c11060894a28a07b36d6e13087",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image6.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image6.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "93420bc437f93843ec9fdf1753ee4bbe7a581f4d8b20edbd575354d6eb6675e5": {
       "normalizationVersion": 1,
       "sourceHash": "96685868cc47dd8f21cea25a0e86852ccdb81b4bfdb040c9d6dce52a31fd5e18",
@@ -167,6 +195,34 @@
         "inputTokens": 145,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "934504b97e959a7f0fb03d8b2ea7c67b0ff2061c981e277704dc4e169cea032d": {
+      "normalizationVersion": 1,
+      "sourceHash": "374d68d708297e1761ab3822114b28ae79f476b40aa528a216942467256b50c7",
+      "contextFingerprint": "48cef9ab607ba2787ce78b44bebcdbbc2f35107a86fb5f1e68612e07b4654228",
+      "sourceText": "1.  **在同一设备上访问** ：\n\n    1.  打开安卓设备上的浏览器（如Chrome），输入以下地址：\n\n    ```bash\n    http://localhost:8000\n    ```\n    3.  如果HTML文件中有`index.html`，它会自动加载；否则，你需要手动点击文件链接。",
+      "translatedText": "1.  **Access on the same device** ：\n\n    1.  Open a browser on the Android device (e\\.g\\., Chrome) and enter the following address:\n\n    ```bash\n    http://localhost:8000\n    ```\n    3.  If the HTML file contains`index.html`it will load automatically; otherwise, you need to manually click the file link\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
+    "93468da1c56d5800c56b38d95f760092f75949d7f4b42ee5b680eb61d1c34c94": {
+      "normalizationVersion": 1,
+      "sourceHash": "50ed0584e5f84b828714ff347c98cc1010544603818d054e98ba3418ad2effa2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际上这套字体叫：\nNoto Sans CJK / Noto Serif CJK\n它同时包含：\n中文（Simplified + Traditional）\n日文（JP）\n韩文（KR）",
+      "translatedText": "Actually, this font family is called: Noto Sans CJK / Noto Serif CJK It simultaneously includes: Chinese (Simplified \\+ Traditional) Japanese (JP) Korean (KR)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 51,
+        "costUsd": 0.000114
       }
     },
     "934713b180e4a881b0364c65da8a8ea5dc862047d1621cdaec7526b012dac96c": {
@@ -237,6 +293,34 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "9363c54c99382725c325f3b12eeffefcd981a8c170f72675337454ebe5c164ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "589406d205ce2acd2cec72a819cd4f639e5e420deaa6d3433c107ed276f4b3e2",
+      "contextFingerprint": "d6d175c84a4812982b187575ac920a8cd144bcebb99a2a687dd483f67b8eae12",
+      "sourceText": "![WireGuard客户端参数位置](请替换为图片地址)",
+      "translatedText": "![WireGuard客户端参数位置](请替换为图片地址)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9369508f9d04bc66557c89c382924124adf63de9c2031b64725804ac3e83e863": {
+      "normalizationVersion": 1,
+      "sourceHash": "b68fde4d564bd2e20b6529cef91302dd16f3ed0f13270969b80b0cc4db903bce",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### NVIDIA显卡直通",
+      "translatedText": "### NVIDIA GPU passthrough",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "936c7df68961feff40311652b11e8c6ca33a56e712f432a1c48d712d17709c38": {
@@ -405,6 +489,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "939a18d67a5dfed924ed332b87befd36e85a356a779e9a45abdfb4cd7bee5591": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1066cfc9a4407025bfcfadd71b2d5841875da3f6c94397002f76ed59bc25e83",
+      "contextFingerprint": "6850c93289d9e9734cb2b5c1dcb5244793ef4ebda16ef65863fffeb5c12e791c",
+      "sourceText": "1.  一般连杆扭角按逆时针是正值。\n\n2.  我们常说的转向，是从逆着的方向去看，也就是让箭头指向眼睛的方向去看的。\n\n3.  从轴的逆方向去看和顺着方向去看转向，是完全相反的方向，但是在平面上容易产生视觉错觉，难以理解。可以拿支笔或者电机，转动一下试试。",
+      "translatedText": "1.  Generally, the connecting rod torsion angle is positive when counterclockwise\\.\n\n2.  The steering direction we commonly refer to is viewed from the opposite direction, that is, viewed with the arrow pointing toward the eye\\.\n\n3.  Viewing the steering direction from the opposite direction of the shaft versus viewing it along the direction are completely opposite directions, but on a plane it is easy to produce a visual illusion, making it difficult to understand\\. You can take a pen or a motor and try rotating it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 102,
+        "costUsd": 0.000182
       }
     },
     "939d5f3af75a5ed61c18f04b13525258fb528f02df5681ab43933f41450f770a": {
@@ -615,6 +713,20 @@
         "inputTokens": 135,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "93f1f5084a96868a7261d3ac8a4cc48e3dccbc7d95ab74bba73723964e385852": {
+      "normalizationVersion": 1,
+      "sourceHash": "f649e98a025110a5b4fa90d2759c907e15ee840f4a9147a4e01fa79e28d25698",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么填写：",
+      "translatedText": "Then fill in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "93f8238edc3302dbf91698979042712fe0c171f9ab1c00cf976595a124ecccc3": {

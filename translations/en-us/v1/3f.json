@@ -141,6 +141,34 @@
         "costUsd": 0.000068
       }
     },
+    "3f1a5759da729fd60acbb6e6c97763fe8fd2cc1741bc6dcd9c8e138d98764c47": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4043144d2d77d145be4f3d37e8df0fe7800cf622aeb68a01625bf38c4d20ccd",
+      "contextFingerprint": "5f76fc3ffcab82b2e6319715f565518a72f334d2c1f6490aaa6e4993262f65a9",
+      "sourceText": "5.  如果想用当前用户登陆容器,可以加上下面这几条,但非常非常**不建议**.",
+      "translatedText": "5.  If you want to log in to the container as the current user, you can add the following lines, but it is very strongly **not recommended**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 37,
+        "costUsd": 0.000089
+      }
+    },
+    "3f1d2a52b2dc3371375cd9d45544aee0b782794bb0bc508398488e234734eb43": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1097090911e5467899d733c6ed4f3680a0d6ad3417911d1eb0dc8eb912b36e4",
+      "contextFingerprint": "ed19bddc69eb46f009230b4ac62f8a24162a25d4091a0f0f4215c98f11fef250",
+      "sourceText": "#### `/joint_states` 没有数据",
+      "translatedText": "#### `/joint_states` No data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "3f1d530dddb223954956a1640f7c6e4de61f1c8964fac5390e83a57797e5da48": {
       "normalizationVersion": 1,
       "sourceHash": "e8a3fe9027fb5a0a62e260160fc0c175c5c289b71d1ebd37a617094e561c2044",
@@ -181,6 +209,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "3f311583d3cc33ae1b87bd7225f834ac12a88537cb4a3eacadd181bf2e8c2743": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9723c52f023353ad951db8aed7d415a19e0898b626ccd0fc684c7338ca19e36",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "点击转化MDK5工程",
+      "translatedText": "Click to convert the MDK5 project",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "3f3291a2eb6da10ee07d9e5ec2a20535022815b97babc2d4021ca71224589b51": {
@@ -245,6 +287,20 @@
       "contextFingerprint": "e30383011881b2c9bcd56531172b68019b76c7799c7faeedc7dc1f7d5d8c3638",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1021.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1021.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3f45892adc2a71ee8a211d72231aeb05bfe5e944b8cd991df3609ee0fae6fd97": {
+      "normalizationVersion": 1,
+      "sourceHash": "47cdc15e8de85e40524c5c78c825fc776195af44da516fef126180845a37464a",
+      "contextFingerprint": "88b7e19f20a7cbb1d4754df6907d138a35b3c4e28d24fe4e14328fb62a117ed4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image146.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image146.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -421,6 +477,20 @@
         "costUsd": 0.000059
       }
     },
+    "3f7098c16cfd6924e8e19b4b89c0307f2e3b9103631517f6c430719210277a6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b75753e928b481e46a7e526acce6d43def02cf2cbdf531afd3b8dc1eebadf8ff",
+      "contextFingerprint": "f0cd4ecbd4b764eb3a82595f817326654eb503020e5747e57bf9e56514586960",
+      "sourceText": "| 文件 | 作用 |\n|:---|:---|\n| `urdf/test_diff_drive.xacro.urdf` | Gazebo 差速底盘 URDF/xacro 示例 |\n| `config/diff_drive_controller.yaml` | 差速控制器参数示例 |\n| `launch/diff_drive_example.launch.py` | 差速底盘完整启动示例 |\n| `urdf/test_mecanum_drive.xacro.urdf` | 麦克纳姆底盘示例 |\n| `config/mecanum_drive_controller.yaml` | 麦克纳姆控制器参数示例 |",
+      "translatedText": "| File | Purpose |\n|:---|:---|\n| `urdf/test_diff_drive.xacro.urdf` | Gazebo differential drive chassis URDF/xacro example |\n| `config/diff_drive_controller.yaml` | Differential controller parameter example |\n| `launch/diff_drive_example.launch.py` | Complete differential drive chassis launch example |\n| `urdf/test_mecanum_drive.xacro.urdf` | Mecanum chassis example |\n| `config/mecanum_drive_controller.yaml` | Mecanum controller parameter example |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 53,
+        "costUsd": 0.000117
+      }
+    },
     "3f7bd0615dd3e904dcdb6c42ef79896a3acff25c556fab25e5ff3f1a628bd7ae": {
       "normalizationVersion": 1,
       "sourceHash": "817b2c8ead663116e0a4ff190d13e94140cacf0a890e4a7c63be7f2a95c4356c",
@@ -533,6 +603,20 @@
         "costUsd": 0.000054
       }
     },
+    "3f9eff8afbb272e27810200ac78c6d7f87d98fe62c618375fc6f79855f570efc": {
+      "normalizationVersion": 1,
+      "sourceHash": "36bfb2d78faace138decac6a7bfcc8deaa5e224daff15987f3ef7d72015e3fb1",
+      "contextFingerprint": "1dd23b17c4ed8d9963108c91f72862bbb433249fc4118f00939534f9be68437e",
+      "sourceText": "**`截止2024年1月21日，MDK6已经完善到完全可以当主力IDE的状态，各项功能都比较完备。`**",
+      "translatedText": "**`截止2024年1月21日，MDK6已经完善到完全可以当主力IDE的状态，各项功能都比较完备。`**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3fa5ed52984e2fed3b17c7baf7f8c20a16d5a1bf9daa7236c550265777307f4a": {
       "normalizationVersion": 1,
       "sourceHash": "a5bb0cbdf8a2c6458a142e3d4a1f011d953751f0c39277c0bc816876b1a4273c",
@@ -545,6 +629,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "3fa92d44fd0611d81cdd9ac887f3b0e8bcf1b8f5bd8d5c5f9365dde6eb5c9411": {
+      "normalizationVersion": 1,
+      "sourceHash": "82d57448aac7c1c1cdbe96eafe3818a01a97a9c8efb0c67f63bc610413516400",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "源文件和头文件都已经成功导入了，我们可以对文件内容进行编写，看其是否能通过编译。",
+      "translatedText": "The source file and header file have both been successfully imported\\. We can now write the file contents and see whether they can pass compilation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "3fac7b78e0137dd4b7f2b2921fb11eeb2a9bd01a6699f0a9d3e6e1631d284619": {
@@ -589,6 +687,20 @@
         "costUsd": 0.000051
       }
     },
+    "3faef2a0386a1454151c3212fe3627171d3e9a6e8ea2b3133aa1b8a9584df9c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "aef2d50f954d77b60c89a12a22f5d51662d9ec4ac1872aa94e51538bb474a828",
+      "contextFingerprint": "b1de14d333fd89002a0128edfdd0852650f55032c9c789eafe6cb73e4917e235",
+      "sourceText": "*   尝试设置为 `off` 后重启终端\n\n*   检查 Fallback Ligatures 是否生效",
+      "translatedText": "*   Try setting it to `off` and then restart the terminal\n\n*   Check whether Fallback Ligatures take effect",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "3fb3b076130e864ffe6bc4170b4c1a33c7d1619451005974a47a3442c59e1a54": {
       "normalizationVersion": 1,
       "sourceHash": "b732d5edbcb908dc23c646dc64b2e449ebe39c359b9978828ec927669976f504",
@@ -601,6 +713,20 @@
         "inputTokens": 166,
         "outputTokens": 49,
         "costUsd": 0.000109
+      }
+    },
+    "3fbbd78b76c54838edad96c618c36d3fed84896e7ae2b13fe987a3ad0457d6f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8940c9dd1345856c945e83a4517f482f0522352c6996e4a9977c819757d5e502",
+      "contextFingerprint": "e10cdec33c3428bbc8703f67f881298c719b60cb3631f0d2deeb0887cee85b23",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image113.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image113.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3fbe23da54f4c8512b75cf3cc4d7b0b1c492c35bf06c857d69055a1fa21745f1": {
@@ -673,6 +799,20 @@
         "costUsd": 0.00008
       }
     },
+    "3fce8145d9df00297f9695f4f47aca81703ca18f0e7aebe0e77a74f6c764b850": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3376bb466e69906e4c889a076cb7aa2c742423f9f2e7807b72535577500875f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样做的好处是：控制器可以复用，硬件可以替换，仿真和真机可以共用大部分上层配置。",
+      "translatedText": "The advantage of doing this is: the controller can be reused, the hardware can be replaced, and simulation and the real machine can share most of the upper\\-layer configuration\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 40,
+        "costUsd": 0.000094
+      }
+    },
     "3fd83a11be2b0c6aca459739801ca53e49f8cfc4925549a23c628592c54c7912": {
       "normalizationVersion": 1,
       "sourceHash": "cbe4cf32e1dd392a069051fdc579e9e18e399e37c75345a485a8f9d16e04ca7a",
@@ -687,6 +827,20 @@
         "costUsd": 0.000053
       }
     },
+    "3fd86ab99e1652fa6d2252c59f85b49a61b0309ff94df599ce33584828691c5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "fcdf87137b901e1cce8f30aea6235b56834809a8293688f8f36b9ee5d4888acd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "①先找到关节转轴Joint Axes",
+      "translatedText": "① First, locate the joint rotation axis Joint Axes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "3fddf13dcd6e6dd8f955bfd44b5733bc8c7c7f1d8041180929241854ae7c46a7": {
       "normalizationVersion": 1,
       "sourceHash": "dc65d38aaa3c30ebd1268861c85d3c286736d14b8776d025e7a4ece695b12cb3",
@@ -699,6 +853,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "3fe1c97c0b82151bb0431d99e476bba0c86375bed84d977530b8c472570c8ea6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f62f7a0e8e2efbcd9167679b92fc52710c95f48d387046009dabf7c09b462a1",
+      "contextFingerprint": "ca2234b2fbf38d1e1eb52610a9d6020c237d23f2231fdf594f5097d04c42c2f9",
+      "sourceText": "3.  安装完毕后，重启VScode\n\n4.  然后右下角会跳出来两个窗口，点击激活MDK6Community.",
+      "translatedText": "3.  After the installation is complete, restart VScode\\.\n\n4.  Then two windows will pop up in the lower right corner\\. Click to activate MDK6Community\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 38,
+        "costUsd": 0.000092
       }
     },
     "3feac6dda9f9aff016d71496613df539b767c3cf5c9248ed1fcb04262d50fa09": {

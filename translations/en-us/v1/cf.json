@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "cf03c95a8a6ff20a738f77fd36359eaa68f171c3bd82991bc2b74edfb4b2e09e": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e1b937034098267ce28646ec86503cc5435d1534084d4134adcf536f93fd6c5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议参考这个教程的配置。",
+      "translatedText": "It is recommended to refer to the configuration in this tutorial\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "cf06410e77232a417d957a5414c99cccb19f3e1cad81cda100c4c1271fa33ad5": {
+      "normalizationVersion": 1,
+      "sourceHash": "08afe3fb65fdf5a5a91bd7a5403abbc0b13d336c7a1bf1f99f707c7e29ef6940",
+      "contextFingerprint": "ae58044336de6f7bbae441632f2a16feaab60ab41587b5c7021e26025b78b3ac",
+      "sourceText": "它们的 `idVendor` 和 `idProduct` 是完全相同的。",
+      "translatedText": "Their `idVendor` and `idProduct` are completely identical\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
     "cf0bf3287d7e061380e601b3ef3fd1c5dc8f230f8740f897c90c21ef8c265e0e": {
       "normalizationVersion": 1,
       "sourceHash": "98df9ec8ba8024e33c3e12a3cbf2a255fd9de390cb9ef531e1bbcd5554fe4fe9",
@@ -69,6 +97,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "cf0fc0d5ee70b2f96e3aa09eff662a8563e78e96c6154a17ac4f4e2f72fa02d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "0123219d0d4ed7fe27f4a0126865ea82cc3efc35ad76d5e359c50027ee58d6a5",
+      "contextFingerprint": "67c1b10d59283c1fac614794428abebb9c7d7ba34d430a85f909dd77507acf01",
+      "sourceText": "*   控制器负责算法，例如差速运动学、机械臂轨迹插值、PID、夹爪控制。\n*   硬件接口负责通信，例如串口协议、CAN 报文、驱动板寄存器、Gazebo 插件。\n*   URDF 负责声明机器人有哪些 joint、command interface 和 state interface。\n*   YAML 负责声明加载哪些控制器以及控制器参数。\n*   `controller_manager` 负责把它们组合起来。",
+      "translatedText": "*   The controller is responsible for algorithms, such as differential drive kinematics, robotic arm trajectory interpolation, PID, and gripper control\\.\n*   The hardware interface is responsible for communication, such as serial protocols, CAN messages, driver board registers, and Gazebo plugins\\.\n*   URDF is responsible for declaring which joints, command interfaces, and state interfaces the robot has\\.\n*   YAML is responsible for declaring which controllers to load and the controller parameters\\.\n*   `controller_manager` is responsible for combining them together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 101,
+        "costUsd": 0.000185
       }
     },
     "cf147204ffe99f5daf49d061d41761acdffe884a6d0e04041d1b8723bf415de9": {
@@ -197,6 +239,20 @@
         "costUsd": 0.000056
       }
     },
+    "cf3a444deb247226e26d754d6a4f92d7d3fc6d13103d8af5874978df5ffa7546": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3a09c19640d11a879c2788352f20104ffd478a2245ba57a59cefe357f591ad0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### pip3源替换",
+      "translatedText": "### pip3 source replacement",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "cf3b84446a108b15e4fca40e93e63a665075aa6b5f354440947e04bb6307faf6": {
       "normalizationVersion": 1,
       "sourceHash": "3dd27e56f32dcdddcff9595bd849e5715195f3052268f63f308fa29e05ccafc3",
@@ -253,6 +309,20 @@
         "costUsd": 0.000053
       }
     },
+    "cf503bc615cd2f6b4de0cc2ed74042ac99b2a947d965009c9737c3bdf3f5d9bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "572e641ad2fe2967732caa21ec8870123aabf79026d6b30eb9030f9301976416",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "将用户环境变量和系统环境变量都配置一下",
+      "translatedText": "Configure both user environment variables and system environment variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 16,
+        "costUsd": 0.000062
+      }
+    },
     "cf51353944b1d89bede6becb4af7ef01707d63f59e90591a8af3ec8f0032570d": {
       "normalizationVersion": 1,
       "sourceHash": "bbc970433f996ed8d1ccf8ea7707bafc03fa3f97f39c064633a3604f78c5e661",
@@ -279,6 +349,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "cf558cbfe6ad306d778b2e17c42af8602c3a67f39c716e3a2e52b80db0683fcb": {
+      "normalizationVersion": 1,
+      "sourceHash": "86fece953994d53d6394d868608cf8369e9156de8840999f26175ddb4109cde9",
+      "contextFingerprint": "bd26388c0be47d20826b117c0f3d14e773db3577e761329fd20f8e6ac8407213",
+      "sourceText": "点击`generate code`后,如果弹出来要你下载FW,你就选yes.",
+      "translatedText": "Click`generate code`Afterwards, if a prompt pops up asking you to download FW, select yes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "cf592c0be71d5dcd85ba568015836a0468c0c48e78e79936fb9d0222d940f376": {
@@ -363,6 +447,34 @@
         "inputTokens": 140,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "cf6c9270aa60b942847f055df886e4424ea6a1c2ed119b3766d3971ca67efb59": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d39bfb5ea819989997e8fe3de4f94e8f33724323306f201ca20599335d2a723",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后点击重启。",
+      "translatedText": "Finally, click restart\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "cf6d3b0a2caa00524847815ef664fb78bd992918ac6fc8a839825769046e792d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d4243564545cd042eea7f03dca2cc062639a3f2fa73f1b432200449631d8697",
+      "contextFingerprint": "6e0b393bd8b4c488992375fddd081bec00f6d65a83bb06aa512379d42b985d25",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image60.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image60.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "cf746bd20b97420f2012bc49ecfcfa47c09af21531225e55bd12100dae255695": {
@@ -463,6 +575,20 @@
         "costUsd": 0.000098
       }
     },
+    "cf97db66503e79eef3eac3644407d9b9fcfea85a0f65945e3c397ee1661aeaaa": {
+      "normalizationVersion": 1,
+      "sourceHash": "8af47e0561c008dc21cf781b636549a57709038c3f356c2a153d83adc40f0585",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是这里你需要发布/odom,以便于知道机器人的位置和姿态，这样才能够够推算出机器人在map中的位置。",
+      "translatedText": "However, here you need to publish /odom so that the robot's position and orientation are known, which allows the robot's position in the map to be inferred\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
     "cf9881d3420c9b3c5c19a43129dd354d0ab24cde73b7116b326d67037d61e388": {
       "normalizationVersion": 1,
       "sourceHash": "fd403a783a18e40daf934cd160312b963fc0191374ed3a79e5936786f2699ada",
@@ -489,6 +615,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "cf99eca2673b210f4ef4678ba367963e425276b968f0fd17442f723fd5bdd6b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "eef54819a1d62e83673d445b55b6d55a9f02b70f8acc9d6d7481fbbaec021873",
+      "contextFingerprint": "a91aa5008a70e2f97624de2d9c0b78c8aabb8186e9d191770b190be8b962bcad",
+      "sourceText": "4. 构建多架构镜像 用下面的命令构建 amd64 和 arm64：",
+      "translatedText": "4. Building multi\\-architecture images Use the following command to build amd64 and arm64:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "cf9a8eddd321eff2b4582b5ce1d5fb2049fce4c6c2bf15fdb1397b6ab47522b7": {
@@ -531,6 +671,20 @@
         "inputTokens": 157,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "cfa02113ed56fa73ec39fde46b52d79090ac9d6a6dbeee815c44e9165ae84339": {
+      "normalizationVersion": 1,
+      "sourceHash": "50514aee2d2bcabbf7431c369e0949cf1de34160be8612ca51977d101a5f5f9e",
+      "contextFingerprint": "0f652c8344aea233465d4b5b5e7d4c2fef0822046a7998f50f43a58a06ab50c2",
+      "sourceText": "常见 ros2_control 包路径如下：",
+      "translatedText": "Common ros2_control package paths are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "cfb06c9732c4326cd430e1ab0a47a279a99ee177a192b428621ffafde9c66025": {
@@ -617,6 +771,20 @@
         "costUsd": 0.00007
       }
     },
+    "cfb93be1ed821f0d868279c5d7a6ab495dd358ca76b11a625f826e13b25178be": {
+      "normalizationVersion": 1,
+      "sourceHash": "66ce47f026d5fcb500278b576ebf74bc76891a24d3f7257e49901f9e9bab7532",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "确保当前目录下有以下文件：",
+      "translatedText": "Ensure the following files exist in the current directory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "cfbae62613c40ab54be61af8babe76340dde9040090ecc2f15d8f29e9dc13bb7": {
       "normalizationVersion": 1,
       "sourceHash": "d3b0adbd5bab8d6576a8ec2b4272455ef290ead1e08219e2f85afc65d672cbb4",
@@ -629,6 +797,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "cfc48311d79b760f8bab90dd390bfcc8194c7c531751139d5449e50abdc46f13": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecfbd63d2863d52ccd08be4d4b47d959987184b14853d81093c6472f897a6abe",
+      "contextFingerprint": "6c8312b4b0cd826eb95bb4dcd4f8412f1ae753fe8b5ed9e96b5054dec14ce278",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1817.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1817.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "cfc822a3498a59f1ac54f3c14dd65084b334c73e7ca61edfd9e2abe907967e47": {
@@ -701,6 +883,20 @@
         "costUsd": 0.000054
       }
     },
+    "cfcfa8f11628d3cfc4c1486a7f12427869f6568ea039e1b8eeaa696430a093c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "44a1438a904f07a4f4839bb1f854b51103ce49f0c9ad321b152ddf83f2988612",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 设置用户名与密码",
+      "translatedText": "##### Set username and password",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "cfd031c413bc849dcff8be56d810eb7de150355b9c7d4d159135659e19722cf4": {
       "normalizationVersion": 1,
       "sourceHash": "66ac85d49c85f500d058d30c1610edae87491f49a77e0cdb19969bf0b76a4655",
@@ -713,6 +909,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "cfd43aa036c412efbd3f55e03791d7f83af5fc05bc105443999ea748ab938e1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0eeb848adeabca03754377bd8b6c7ecfbb374d3fb6cad182fa9bd6f73655d8e4",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### Linux终端使用Windows软件",
+      "translatedText": "##### Using Windows software in the Linux terminal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "cfd63201dce9857cb73331cbc3ecfde28f5176453b457f8c394a4a35bfccdc57": {
@@ -785,6 +995,20 @@
         "costUsd": 0.000075
       }
     },
+    "cfea0a98062dae26b5309894f7355829b9401c22e3f9c4b87874ad4f4735eb53": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2ca44431d578f88ddf63ab7616912cd74c8b6ab7fff09a63b8b85e93a77a416",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是公垂线(唯一解)，其长度为Link Length连杆长度",
+      "translatedText": "That is, the common perpendicular (unique solution), whose length is Link Length (link length)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "cfef1e2505c9f88bd9d9105b80e6fc816d511f69674e5be5d8e1d2f05860d8d2": {
       "normalizationVersion": 1,
       "sourceHash": "fc16a89138d963924f3c7c604ec86d59c8a6e799a023b0f875a5680a877f138a",
@@ -811,6 +1035,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "cff4395d32da7f6cdc738372bf66d850468ff98fdc989d5dc7ccb10c9d16ec70": {
+      "normalizationVersion": 1,
+      "sourceHash": "85474f2aa3edf01e35c7da0b7028105a76019b752aaacdee3a585a52aacb00cf",
+      "contextFingerprint": "a91aa5008a70e2f97624de2d9c0b78c8aabb8186e9d191770b190be8b962bcad",
+      "sourceText": "4.  接着点执行。",
+      "translatedText": "4.  Then click Execute\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "cff91dc193930a4f5b82d56daf72f35593cb3f67654d39542c4abd3c6a6ed4d5": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0b0009e138f4812936756e75024f340cda2c4c3d2a8912efebaa7a1f574e92c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b4f77d3663d37f035fad94412c59c7835eed438e826f7b2c158c6e674e1899d",
+      "contextFingerprint": "a32144597851f8a0bab6d8d84e2bf25b1c7814036d5284a2c4bb481564344e47",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790764675735-c30d1456.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/1790764675735-c30d1456.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0b0238b3cda6919b8abe68194958f7fb65e4dfb015e01862bbfa889756024d4f": {
       "normalizationVersion": 1,
       "sourceHash": "5fd5263e6ea5c2f84626df1a723383eee17c3841f2237b0ed7feb3f0b0b6ae66",
@@ -183,6 +197,20 @@
         "costUsd": 0.000065
       }
     },
+    "0b1c7d5c15dfbd4b1f693f46fe245114b18669fa82414d006c7888c76578bd0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5865b5cd65e76b6e9555d32793437aeccf7be07d932017da2f6e572c656b0588",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输入：",
+      "translatedText": "Input:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "0b1dd1d8378308e95d70a6db66742ef9d80d5415692ecef4d0950e2287e6e609": {
       "normalizationVersion": 1,
       "sourceHash": "b903fc6de594f62b3e332972064290dc05f619e2977b3589c4ccc985902bc0d1",
@@ -195,6 +223,20 @@
         "inputTokens": 155,
         "outputTokens": 43,
         "costUsd": 0.000099
+      }
+    },
+    "0b2401b5afcdd57b82ffc5076d72a9c5144a7a4b7131520ac5c322f6650a4627": {
+      "normalizationVersion": 1,
+      "sourceHash": "17762cdf1b5875b0c0518a9b02ddc655229e07188eb63e5668a71f0046c52f63",
+      "contextFingerprint": "0ab40e08a0fdea194840605fe09cab5de0f6a0a435bb693f8523e88102f0fa24",
+      "sourceText": "##### 使用 `/dev/serial/by-path/`",
+      "translatedText": "##### Use `/dev/serial/by-path/`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "0b241479d1d563845d4221ff9f6e629b9e227546dda03f51e375a9f4d21b19f6": {
@@ -225,6 +267,20 @@
         "costUsd": 0.000066
       }
     },
+    "0b289fe0b335822ffd7f186527def4bd061c1cdf429f575f6a715f6756ff4f0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b8a358c198131e87ece360f82074312e4df9381b61e98d7f7c3a7ba21f93ec2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是说，针对空间中任意两个转轴，我们需要两个参数来进行描述，也就是Link Length和Link Twist。",
+      "translatedText": "In other words, for any two rotation axes in space, we need two parameters for description, namely Link Length and Link Twist\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "0b2d41673ab1e1b7df5e53bff4bf10e328e7929011984ab8ba6b3897128796c7": {
       "normalizationVersion": 1,
       "sourceHash": "d9e14c94139f0222310a9761ffa6241395d70d8cb4819b9f9a4f76594203f02f",
@@ -251,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0b2f229dc7176b04804333483c06267bcdd9acdfcf1db65032b2824e89ec878c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e1921a9310d3ffeebc193dcc16a2342c233989065ec32ec2ec8345cb2c681dc",
+      "contextFingerprint": "2cfdb920293b2db855b8c676c3738d4c4ea2428955b35090888dc5d3738abbd2",
+      "sourceText": "如下图可知,容器中的Ubuntu24共享了宿主的英伟达驱动,版本为595.80.\n自带CUDA12.6与CuDNN9.3.0",
+      "translatedText": "As shown in the figure below, the Ubuntu 24 in the container shares the host's NVIDIA driver, with version 595\\.80\\. It comes with CUDA12.6 and CuDNN9.3.0",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 60,
+        "costUsd": 0.000125
       }
     },
     "0b382ab5ad169d8d4d5d07747f8556235f8a55cdfae9dee61ef7b6a82ea4cf9e": {
@@ -617,6 +687,20 @@
         "costUsd": 0
       }
     },
+    "0b9f0a890e4adfe95888433f4a3a25a9031c790761248971c5328fb69822751c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d7693611714c26543bf84c2a9b997ea7a5129cb1f35790234e4bb6e65c71ce1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Pack安装",
+      "translatedText": "#### Pack installation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "0bb0024cec10d279a1d047e8482f9830f4751cea4307ffe7810f4fbe95be888d": {
       "normalizationVersion": 1,
       "sourceHash": "80c0c0d654c5d6a26e8e0338f381ed80bfb6d58809cb64a474364d44af85e0e4",
@@ -657,6 +741,20 @@
         "inputTokens": 157,
         "outputTokens": 36,
         "costUsd": 0.000091
+      }
+    },
+    "0bd6ae8b71191193e1b2ffe0ef65bbb7d2ce30cf70196255663bffc3f94c958b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d44483da2f6cf75a6bcdba45b79847f45d2dea907e22dc452bb34890cfefdf8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本教程环境介绍：",
+      "translatedText": "Introduction to the tutorial environment:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "0bd870f82f323f9a4c135eb619c6cb112dffdc4e41f5f2d36ce2ef4236a71af3": {
@@ -741,6 +839,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0becf6a52a02c85d0985a2700c1313f972810c14c2855133f82dfca96c2a4977": {
+      "normalizationVersion": 1,
+      "sourceHash": "253730fb9ed61f938d8a600c862277e3e745e3fbf8c866d0ce9aece5e8b2c061",
+      "contextFingerprint": "99ed6bebfdf648903f5eb99e60856aad6ba85a3783c35ac0550a2870bc9e6719",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image104.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image104.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0becf74a9ee49aeb83ba54d048c70dca99c266e9d42939a01f30cae7f67e3cfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e07fbff2e9292d5418f461bf9c9f506e0cad81f05d1ad7abfe46c639c9f09364",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "查看第一台设备：",
+      "translatedText": "View the first device:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "0bf8c029cdfbd216c6c6b49138a3d172d90b2e45153ffeb3b2421da47b0ac9e7": {

@@ -15,6 +15,20 @@
         "costUsd": 0.000063
       }
     },
+    "a706efe600fca61af1cdd56e32e28db86e4aba4b61e84e51ece30bbb3f58071d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c413326bcb4d5f937b16557c3c6f2e7a7778f26e90429c12f38eccbee190b9c",
+      "contextFingerprint": "1cae00ec0768cf0c012b4271b0b08af660b207d7e228252bdf3b3c4383f72e95",
+      "sourceText": "- **节点缓存 TTL：30 天**  \n  EdgeOne 会把图片缓存到边缘节点 30 天。后续访问优先从 CDN 节点返回，可以明显减少 AList、服务器 和 服务器宽带 的压力。\n\n- **强制缓存：关闭**  \n  保持关闭更稳妥。如果源站明确要求某些资源不要缓存，EdgeOne 会尊重源站设置，避免把特殊资源错误缓存。\n\n- **Cache Key：查询字符串全部忽略**  \n  例如：\n\n  ```text\n  xxx.webp\n  xxx.webp?a=1\n  xxx.webp?a=2\n  xxx.webp?a=3\n  ```\n\n  都会被认为是同一个缓存资源。这样可以防止别人不断修改 URL 参数绕过缓存，反复回源打你的 AList 和 服务器，而我这里文件还存储在NAS上，也会进一步防止他反复打我的NAS。\n\n- **忽略大小写：关闭**  \n  `abc.webp` 和 `ABC.webp` 会被当成两个不同文件，避免不同文件被错误合并到同一个缓存。\n\n- **PHP / JSP / ASP / ASPX：不缓存**  \n  这些通常属于动态页面，单独设为不缓存可以防止动态内容被 CDN 长时间缓存。对于纯图片 CDN 来说基本属于防呆设置。\n\n- **图片浏览器缓存 TTL：1 天**  \n  `jpg`、`png`、`gif`、`bmp`、`svg`、`webp` 等图片会在用户浏览器中缓存 1 天。用户短时间内重复访问时，浏览器可以直接读取本地缓存，连 EdgeOne 都不用重新请求。",
+      "translatedText": "- **Node cache TTL: 30 days**  \n  EdgeOne will cache images on edge nodes for 30 days\\. Subsequent access will preferentially be returned from CDN nodes, which can significantly reduce the pressure on AList, the server, and server bandwidth\\.\n\n- **Force cache: Off**  \n  Keeping it off is safer\\. If the origin server explicitly requires that certain resources not be cached, EdgeOne will respect the origin server settings and avoid incorrectly caching special resources\\.\n\n- **Cache Key: Ignore all query strings**  \n  For example:\n\n  ```text\n  xxx.webp\n  xxx.webp?a=1\n  xxx.webp?a=2\n  xxx.webp?a=3\n  ```\n\n  will all be considered the same cached resource\\. This can prevent others from continuously modifying URL parameters to bypass the cache and repeatedly hitting your AList and server, and since my files are also stored on a NAS, it will further prevent them from repeatedly hitting my NAS\\.\n\n- **Ignore case: Off**  \n  `abc.webp` and `ABC.webp` will be treated as two different files, avoiding different files being incorrectly merged into the same cache\\.\n\n- **PHP / JSP / ASP / ASPX: Do not cache**  \n  These usually belong to dynamic pages, and setting them separately as not cached can prevent dynamic content from being cached for a long time by the CDN\\. For a pure image CDN, this is basically a foolproof setting\\.\n\n- **Image browser cache TTL: 1 day**  \n  `jpg`,`png`,`gif`,`bmp`,`svg`,`webp` and other images will be cached in the user's browser for 1 day\\. When users visit repeatedly within a short period of time, the browser can directly read the local cache, and not even EdgeOne needs to be requested again\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 401,
+        "outputTokens": 318,
+        "costUsd": 0.000502
+      }
+    },
     "a70aca8200c21a2a36ec8681a44084d67bc8c8733c4ac5f2e7ef4aa4c828b10e": {
       "normalizationVersion": 1,
       "sourceHash": "152be4b10364a5d16d57e4a5a2c2d7600bcd1126756c797475f9e0013b490b16",
@@ -181,6 +195,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "a748afbfbc8c3b8e5403ce5794f4cd0f0cb12143a28a42293d3211e219aae468": {
+      "normalizationVersion": 1,
+      "sourceHash": "782846c4fd6e4a1199c1b3ca140e4c4aace0ac687133b97acba578e8082bd19a",
+      "contextFingerprint": "0f84e6870895914f8cc11ff1599513da2acaadc5e3944c97cb3a2f52b2a388f2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image120.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image120.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a74b088ca15867418e5f51d169f2197e58d16b7ce8fee022b03516fb0ef7baaa": {
@@ -351,6 +379,20 @@
         "costUsd": 0
       }
     },
+    "a76e466ca125c3255102c2cbd61abab11432ec97dc044b0798a2a1f6a4b067c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d750e10a95a76bd220d8cf6f894d081d4bd47365b42e5dc3ac0354a1ee718c2",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 将镜像推送至Docker Hub",
+      "translatedText": "#### Push the image to Docker Hub",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "a7740a904008a37874cd487ad3636bfc22984e7491a540d5edbdae48e766d5cd": {
       "normalizationVersion": 1,
       "sourceHash": "2485d5cf8572279e2bf94e3de789647ac438ca7d9a58279312716da83cb82ede",
@@ -393,6 +435,20 @@
         "costUsd": 0.00006
       }
     },
+    "a782c35fe43366aff49bacb51a9132511d105a8659123b34ed91cba928baa017": {
+      "normalizationVersion": 1,
+      "sourceHash": "0177f2b84c2da406abf59908b92b530f772df9741e340d71c75a079b5243d1ce",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 环境准备",
+      "translatedText": "#### Environment Preparation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "a7838e0f54c748f6b0754e48e53055cef03fe44ee2aaa7a4d4e2ab1c46587d66": {
       "normalizationVersion": 1,
       "sourceHash": "600f06190a4ad84ff055584ff1d468e418e5e9341d5069c4b93dca79d74632e8",
@@ -433,6 +489,20 @@
         "inputTokens": 159,
         "outputTokens": 46,
         "costUsd": 0.000103
+      }
+    },
+    "a793d3c4a516c57959359b253ced79924f3980ac899f640d3f25c16e3af73805": {
+      "normalizationVersion": 1,
+      "sourceHash": "9644f784602758d7bce93017ae8c4dc896a00bb43d563da9f9f7160541ca322d",
+      "contextFingerprint": "59aadf806770a12c7a4b5aeae0f23142c3e795cd7f92d6f846f0e43a2018a941",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1950.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1950.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a79ec5695a6e6e6b7cca01220d3c910bb6835a5f0acb655a702d2fe94543f27d": {
@@ -491,6 +561,20 @@
         "costUsd": 0.000113
       }
     },
+    "a7b8ccb00020e514aa5e010ffbf37169c5ed2434bb0cc2d847a6414ced282cca": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0b1f4c57f9b949e27eca26be9c304140d611fa72db1517aa1631c8b3ea551c0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 排查 udev 规则",
+      "translatedText": "#### Troubleshoot udev rules",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "a7be3ae9e63440507ce971fd84e4e927b318cbc533ce9c5e2ec377bf89657e83": {
       "normalizationVersion": 1,
       "sourceHash": "705a44ce758f57e915de1bf08e1e683f5b21302c3672c73753b8f6091417c846",
@@ -545,6 +629,20 @@
         "inputTokens": 148,
         "outputTokens": 33,
         "costUsd": 0.000084
+      }
+    },
+    "a7c6d6486e4f16e2d4f7abbd9dbb4aa5e1f4e187f6c59fbb30cd7caa12c33416": {
+      "normalizationVersion": 1,
+      "sourceHash": "43125d233e0f31d585623bd1adff23e6466e90887c072d008b88f8f08965ddc2",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*docker扩展插件已经进化为container tools了，请安装container tools。*",
+      "translatedText": "*The Docker extension plugin has evolved into Container Tools; please install Container Tools\\.*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "a7ce6983d7fad635ab885c0f57ace990353d209d4fe5d14f7f1a194a5ebee30f": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4000c160f3112c084c42d3f3003efc65e3bf1ce7d1d3d285e327adb4c44d44df": {
+      "normalizationVersion": 1,
+      "sourceHash": "d83f08977420aa6424aa123b97b8f932be929ce397125ad1a92b1069657e5b52",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 测试固定别名",
+      "translatedText": "#### Test fixed alias",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "4001672718705b1634f8a07bb34eafcdbe0a5f6280ec6d21ac6daf8c6d4ceb2d": {
       "normalizationVersion": 1,
       "sourceHash": "bcb380addc1493ba6f2f710a77725d45a439048c5373a19b2bc9c580aac4eb02",
@@ -35,6 +49,20 @@
       "contextFingerprint": "cb5c66cedd9078e430f323d43dbd473cb363eaa537f5ce530dcfdd95a890cef6",
       "sourceText": "![timg](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-timg-c3dc8314a2.webp)",
       "translatedText": "![timg](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-timg-c3dc8314a2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "402062e31fe123bc751005bebe815eacaf0a51b8b53fc2ed3b82f8da3742ee87": {
+      "normalizationVersion": 1,
+      "sourceHash": "85bd45b0f566a09b6d6f87a287165f7540662fcd774aa2aa0948ec69852d8b74",
+      "contextFingerprint": "b15d2903a625fe0e9d7fcee67371a3282c13b1be4e7466c22324ca17aead7dad",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1860.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1860.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -85,6 +113,20 @@
         "costUsd": 0.000111
       }
     },
+    "40335b352c007eca204b2ff9093fab98d98ae406c5b51eccf8445db3bc793c6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b22d801465d86fe6372e34af2fd3cf6fa79c98a0116c8334a2ea6a41e3e8923",
+      "contextFingerprint": "bb70b246eb8d735dd5e15235220deb28726ef8cb65b5b3947aa0f674b9116ef4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image238.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image238.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "403689a11d72b7e88de13e32dc4a7c6e37ffb0913619634210766503c51dd1b5": {
       "normalizationVersion": 1,
       "sourceHash": "51cc78c0c27715b1c5c12b9db5f1039c9679ae76d695da7eaedf4e0cdc321e03",
@@ -127,12 +169,54 @@
         "costUsd": 0.000054
       }
     },
+    "40474c419938102cd4873f47b191a9dda5793f66165b14ca556705db37c8d9a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad77103d2df2a5f6620580b60b397d6e48e6a523760b512ebb9ec08783ce5b63",
+      "contextFingerprint": "6c81fc5eafc287e925a09ebd766600f186f96fecc12ca2c3ec0e556dee5a1d27",
+      "sourceText": "*   控制器要的 command interface 不存在；\n*   控制器要的 state interface 不存在；\n*   另一个控制器已经占用了同一个 command interface；\n*   URDF 里的 joint 名和 YAML 里的 joint 名不一致；\n*   硬件组件还没有激活。",
+      "translatedText": "*   The command interface requested by the controller does not exist;\n*   The state interface requested by the controller does not exist;\n*   Another controller has already claimed the same command interface;\n*   The joint name in the URDF and the joint name in the YAML are inconsistent;\n*   The hardware component has not been activated yet\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 69,
+        "costUsd": 0.000137
+      }
+    },
+    "4049ea2a9a17d1653ae59a66b83ad5843daacf7d4c93aa1cd972e19a0b366400": {
+      "normalizationVersion": 1,
+      "sourceHash": "88f97b5c457be769aac49f18a4c902732f68fe90a6806766504e39209fa03f8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从Z1到Z2的角，伸右手大拇指指向X1，然后四指与Z1到Z2方向相同，所以是逆时针，为正值，所以是90度。",
+      "translatedText": "The angle from Z1 to Z2: point the right\\-hand thumb in the X1 direction, then the four fingers are in the same direction as Z1 to Z2, so it is counterclockwise and positive, therefore it is 90 degrees\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
     "404ad596f6ce446e922b1a2f76ed1c61e8d4fa73e614be1b18e9cf81ebc5064d": {
       "normalizationVersion": 1,
       "sourceHash": "b39d90cdf3fd5a2d2536902e14505c46162e7b20e3b7f5534cae6484de19c94b",
       "contextFingerprint": "1c85231b6b576b92f911c9cac7c705a1f095addd97845ae6388fef9792d3e455",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1476.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1476.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "404e32292fe00d96c0176a64ce1b82cca9bedd91c58bc7891ced94b0de93cf52": {
+      "normalizationVersion": 1,
+      "sourceHash": "65fa6ae30c640c0ee7db1ebce34f9cf945d11957ab2cb416167b67a4ae671313",
+      "contextFingerprint": "8aa709497987cef5bb5a1037ee3f43b3ef123df1a1981cfdbc6ccd8b089c8c15",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image1.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image1.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -211,6 +295,20 @@
         "costUsd": 0.000049
       }
     },
+    "406888855c8755e94b85afe5c7b86d0cd5e29d9fc36d31a36c78892a3d723f3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "16e65cf29dd821b79f8189712fef2260bcd67d0ad94eb11523d548398e8cdb18",
+      "contextFingerprint": "a7bd34dfe45585ce497e80cdea57302f724c07a7b4a07c966d163128aff302b2",
+      "sourceText": "2.  Windows需要下载安装一下LLVM (Linux一般不用管或者`sudo apt install llvm`)",
+      "translatedText": "2.  Windows requires downloading and installing LLVM (Linux generally doesn't need to worry about it or`sudo apt install llvm`)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "406dcf4c8354f7526f306dd5224db52e29f84fa99063b1b5d2facaace5324aad": {
       "normalizationVersion": 1,
       "sourceHash": "89e9df53f5ed7671e033ac923460a5b436afd70c0976e516c6f4dc1d21ffa835",
@@ -265,6 +363,20 @@
         "inputTokens": 140,
         "outputTokens": 24,
         "costUsd": 0.000071
+      }
+    },
+    "4074ec60fe0e679536b5d5d4bbebb9a83e5890df9ea5ccc00fd7cb0afb316762": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce7001d9afdc065e7ed3d1c1ebbf0e793136b6f8ebf4152ce490ea560330ab2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是因为Cloudflare的CDN在中国大陆🇨🇳会抽风，所以才不太行。",
+      "translatedText": "This is because Cloudflare's CDN acts up in mainland China 🇨🇳, so it's not very reliable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
       }
     },
     "4076581272404d605bc978e4bcb7dce76389d7b11d574ac746e3898b6349d46f": {
@@ -337,12 +449,40 @@
         "costUsd": 0.000071
       }
     },
+    "408919cd607a444da11b7372c8d2202f228f38300ffdd406ab559aeefcc963e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3eefb5eaee0a05229f75b4a886878902b81ea258d8245d3d040c1db9b48ccfb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "经过测试，文件已经成功被保存到了桶子里。",
+      "translatedText": "After testing, the file has been successfully saved to the bucket\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "408e2ed9fde7493b37e4e15ab2f1e8477d93d0a08b3ad22059c487c12749b546": {
       "normalizationVersion": 1,
       "sourceHash": "a680868a6d51592001f784dfee6194db494ba2b18cccf86e70ffc9dd40546c88",
       "contextFingerprint": "53deda73f6e661d3ec1aaa01dd09c8db6b96e3fe294c3ab86f83c75d552ba2b2",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image4.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image4.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "408fe1b844d4a8a1840366db54efe9d72f8bf3d92b1c9f571786f3c7b586d18e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b52a6bd7daecc572e20cf0fa2ef6cda2985e50cc3d6c46b2d715ae4a46f215f6",
+      "contextFingerprint": "df1604a4b09af693c3513223ab82640d42ef81ee3295ebce5762697d44a0b93f",
+      "sourceText": "**1. `server`**",
+      "translatedText": "**1. `server`**",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -421,6 +561,20 @@
         "costUsd": 0.000058
       }
     },
+    "40a3d222abe9e422e4325595983437661919ecb6210905841bdc454205b5e387": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d408d4f5a8e29a30c261fa71f70587d0da897f899cd850fdc9f3c954d679408",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "SSH（Secure Shell）是一种通用的、功能强大的、基于软件的网络安全解决方案。计算机每次向网络发送数据时，SSH都会自动对其进行加密。数据到达目的地时，SSH自动对加密数据进行解密。整个过程都是透明的，使用OpenSSH工具将会增进你的系统安全性。SSH安装容易、使用简单。",
+      "translatedText": "SSH (Secure Shell) is a versatile, powerful, software\\-based network security solution\\. Every time a computer sends data to the network, SSH automatically encrypts it\\. When the data reaches its destination, SSH automatically decrypts the encrypted data\\. The entire process is transparent, and using OpenSSH tools will enhance your system's security\\. SSH is easy to install and simple to use\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 84,
+        "costUsd": 0.00016
+      }
+    },
     "40a89094d7817dd8102254467e3542cf46ecda9d32d73077c654d792451181a8": {
       "normalizationVersion": 1,
       "sourceHash": "f7fbc9dae6613a0feae625bc70cd1e7b18aa88991c27face189acbe5fef46e71",
@@ -475,6 +629,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "40b9d7be887ba18b01ea57c35efa13f010cbc4e8b268baa14b12c997af31ac3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9212caa189c03961a2fa228182384412f7b62b17ee3aa8896ca9cb917e11352d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 跨Ubuntu大版本更新",
+      "translatedText": "#### Cross\\-major\\-version Ubuntu upgrade",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "40ba503604aa352b422b2071411d300b0b803ab4f81159ee75121500cae857a4": {
@@ -547,6 +715,20 @@
         "costUsd": 0
       }
     },
+    "40bcfde7c83f91f26768b64935cd74620fdee5deff01f9b06437b323ddeb98e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a9b55fd811a768035e24b136cde6ddee4674aee4daae939791a8b714b43437c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由于frame0和frame1重合，那么alpha0 = 0，",
+      "translatedText": "Since frame0 and frame1 coincide, alpha0 = 0,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 20,
+        "costUsd": 0.000068
+      }
+    },
     "40be12701f48e4f5b6df6a61965541c92d0c89b521892c122f69a85b786f4b95": {
       "normalizationVersion": 1,
       "sourceHash": "f22ac6d855083cf775cb92206ddaf3a10bf2b23f3604d3f8ab0169c1ecb1e3b4",
@@ -559,6 +741,34 @@
         "inputTokens": 187,
         "outputTokens": 86,
         "costUsd": 0.00016
+      }
+    },
+    "40c9bbed8eda17a6fbad3c53f9c5818c89aea144b830d86f7aa71bd9234e0da0": {
+      "normalizationVersion": 1,
+      "sourceHash": "21d9510bb17cbe798c38c2c36d0c2b12ddce57b0609fa69fbe2655f1bf3d5bd9",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 查看是否是 Docker / firewalld 转发问题",
+      "translatedText": "##### Check whether it is a Docker / firewalld forwarding issue",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "40cb6af7b1f0052243c297878269740d852368b019202a2d569e49cb43ee7076": {
+      "normalizationVersion": 1,
+      "sourceHash": "729305eb0c29b988691922fc6623c675823422c21d463f82f5def090aa054f1a",
+      "contextFingerprint": "181c1bfccf890255c8461ecd9e33a9086e610da186a4d63e04a233beb5046348",
+      "sourceText": "安装完毕后，可以看看/boot/efi/EFI文件夹里，是否有refind了.",
+      "translatedText": "After installation is complete, you can check the /boot/efi/EFI folder to see whether refind is present\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
       }
     },
     "40db2bca4ab7769ae88d14fd2090226ea11e309e6baec5d44c06329ffb9169db": {
@@ -615,6 +825,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "40e12991211f43615103018297bfee654b72c112493974f0066805d99eab7464": {
+      "normalizationVersion": 1,
+      "sourceHash": "52725e7ca4675ac22dfc6bd1e0350475cb95f145318c4e0377da7573f021140d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### ControllerInterface 关键函数",
+      "translatedText": "#### ControllerInterface Key Functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "40e3bd6f62e23592adbcfcc702b7cb62bb2a58d2d543aa321a81c405b7e7e793": {
@@ -685,6 +909,20 @@
         "inputTokens": 145,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "40f8bb188fa22aa2fe85944a6d9b97f39000d5ace68ec8dfc56a25a67050d574": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e2b27b43fee1e5f7d1bc31bded6792bc84615740c5c77327c7af3a774b81923",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Fedora（DNF5）",
+      "translatedText": "#### Fedora（DNF5）",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "40fc1e6fbb96f4586c7204dac65ca244b5dccddbdad1711b1d7378f11b8b1cb4": {

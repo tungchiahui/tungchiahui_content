@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "fd050116cd212464bc121c7b608bc2858c83eafd3abd1125332990b79657d6d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf917d9599a68b486f12d62e11d0a45f10d7e1a1b20893f9c19877d715b80775",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后再找到C盘，点调整分区。",
+      "translatedText": "Then find the C drive and click Adjust Partition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "fd091cc346ac139f0b861cb3d8575c33f818a9d89b9cf54973b002230fc7a767": {
       "normalizationVersion": 1,
       "sourceHash": "9243dfa88057745f481439c752ffabdbcc9de66732b52fa652354dae6ddeb455",
@@ -71,6 +85,20 @@
         "costUsd": 0.000059
       }
     },
+    "fd1ac9203740074419375b0d356702d2db1139a4a7fe74361315b5f70a076052": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb002520f624b46975337afb21ea1d8c641891f69ecbedb140c02a844a84cc4a",
+      "contextFingerprint": "9928e77b1a615a6694cb901a0630aea5032b7c2002a59d960fa73c1290182bc8",
+      "sourceText": "| 阶段 | 执行者 | 作用 |\n|:---|:---|:---|\n| `read()` | 硬件接口 | 从电机、编码器、传感器或仿真器读取状态 |\n| `update()` | 控制器 | 根据状态和目标计算新的命令 |\n| `write()` | 硬件接口 | 把命令写给电机驱动器、仿真器或底层硬件 |",
+      "translatedText": "| Stage | Executor | Role |\n|:---|:---|:---|\n| `read()` | Hardware interface | Read state from motor, encoder, sensor, or simulator |\n| `update()` | Controller | Compute new commands based on state and goal |\n| `write()` | Hardware interface | Write commands to motor driver, simulator, or low\\-level hardware |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 56,
+        "costUsd": 0.00012
+      }
+    },
     "fd1b68fe5087dfcd8da1218072f23b86e9312aac117fe6be2069fc0dc93de63a": {
       "normalizationVersion": 1,
       "sourceHash": "b41394feecfcd38ef513c1d53ea53579d2fbf97f11bd27212e966334e9013b57",
@@ -97,6 +125,34 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "fd1ebf568d6b87bea83a39ad2eef6e30894342db273199bf2a8c80413035e551": {
+      "normalizationVersion": 1,
+      "sourceHash": "326c2e7f49163c00c9c3cb40f772be7f36a31e52de360c40b6b1e0197abaadf8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果服务没有运行，可以使用以下命令启动 Docker 服务：",
+      "translatedText": "If the service is not running, you can use the following command to start the Docker service:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
+    "fd1ee94dad052ce9cd8011957946fec4abb2fe20bbe47e5d73ebbbb096002a3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3f35379e1ab9a41dbfa2a6ac5e39129a4d20fe394ea152f7ae1aa946b81250c",
+      "contextFingerprint": "9f54b0a698b8387a83a17f8ca9159b7242fe7197d7d71f4fb1c684e5523e676d",
+      "sourceText": "4.  然后找到你下载的Linux安装介质.iso，双击打开。（或者右键点`装载mount`）",
+      "translatedText": "4.  Then find the Linux installation media \\.iso you downloaded and double\\-click to open it\\. (Or right\\-click on`装载mount`)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 31,
+        "costUsd": 0.000082
       }
     },
     "fd25b342b9b577250eac7f8bf20e0cbf790f00608d03dc04e49a23a8861589c8": {
@@ -139,6 +195,20 @@
         "inputTokens": 140,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "fd458cfc58d228888d877c915a6baed1264327f7bae5972b46ee5abe410cbc62": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc2838733f7b9aebd9a29b2dc3cb8f2f61429c67605cf2db4a59bc5dce60ce2a",
+      "contextFingerprint": "097824a8aa7628a9444dd379ca4d0b576288cc7ae98fdf9aa231974bd83536be",
+      "sourceText": "#### **检查 Docker 服务状态** ：",
+      "translatedText": "#### **Check Docker service status** :",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "fd4ed269e8105820fdd86c86fc8f56b85fae9745dc34e8dd01e7593e3f7fa467": {
@@ -195,6 +265,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "fd57727f1eea5772d5f1e95801bf144eb4489d4618b5b61110a6153fceb5e555": {
+      "normalizationVersion": 1,
+      "sourceHash": "709544eccf52adbf6cb14717914e9477387f6f8abd3e5b944cdbd4712b2e7502",
+      "contextFingerprint": "b8da9e05ad1e819ec0731129e2d8bc2248baf1a91b797d295fe21a773494ba0a",
+      "sourceText": "**我这里选择所有Linux X86_64最通用的办法：**",
+      "translatedText": "**I'll choose here the most universal method for all Linux X86_64:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
       }
     },
     "fd5792d626d932eb04833e36165c06bf1a6336c02dd4c0b36fe557b97dab8553": {
@@ -365,6 +449,20 @@
         "costUsd": 0.000065
       }
     },
+    "fd863bcbf927c56a753a7cbd85568361063f33f220aedac899f0f27ca218c5b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d208b5a94d2c92ea9fe977986cf6120122d467705bceb2f950e238bea3289381",
+      "contextFingerprint": "826244a77f5618c815710c4c248a1246a604dc84d39c37b1192f6a562bc920d4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787156017266-fa0d943f.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787156017266-fa0d943f.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "fd868ac36fde3ed7bd685f24dc32ebabf7368ecf4036a5b264443052f94198be": {
       "normalizationVersion": 1,
       "sourceHash": "e8391c266d3de91dbf564fb7b20eb34e49a0c41aceb1bb9d287110968c7e4ce3",
@@ -433,6 +531,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "fd9fff3e29505a5492f3870a9ca72351305970baf01bb5ea17f97776547c10dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2fbfd26eb86bc861cae2166278edbce42b08352f0e103928d8a32cda1355091",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要知道的常识：",
+      "translatedText": "Common knowledge to know:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "fda67e441d0b7776c0561a7ae0dbf40830dc5184fd099e9cb1e56054bf6c826c": {
@@ -589,6 +701,20 @@
         "costUsd": 0.000058
       }
     },
+    "fdd62174178bf101cef150672810bbee3e55d63b639f76ce2466e10faf53fbd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea21b511982e7a5ab878e4cc9a7b51f801a4208588ed13c737aa8d4c3eb58300",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  配置环境（只需配置一次即可）",
+      "translatedText": "1.  Configure the environment (only needs to be configured once)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "fdd6d13ac48bef807640af5d9a1f6e41d7fd699793464725e8a9bb109110bea5": {
       "normalizationVersion": 1,
       "sourceHash": "f374b41ebbf08fd8e1ba6b097fe1ab1011d1f0d1b0a946e0c78e5a3d26bce01e",
@@ -601,6 +727,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "fdda90feb6bb559b9dca2a16fcff985704206d4214868dad55b88ddfd51b19c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c64eb7a6a5313f4f218f97f03b7f8323d2170a18d66488ca8a2851634f53dd06",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先打开串口接收节点，接收stm32传过来的数据。",
+      "translatedText": "First open the serial port receiving node to receive data transmitted from the STM32\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "fddafaee862f11ef16b386d3cf25e44d331fac89a559b2fd4f8da2b21dff337e": {

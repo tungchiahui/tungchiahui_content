@@ -169,6 +169,34 @@
         "costUsd": 0.000088
       }
     },
+    "c641d7dfea5bb297199af0df87868b40569f1b1ec895e588fff70de51a2c5e41": {
+      "normalizationVersion": 1,
+      "sourceHash": "0669e9635d572986506d83d12c5e89d0242b4a6a5cc11e6189a82875a6ef6abd",
+      "contextFingerprint": "9f90ec96298b1f1aa15a3ad4b163c71e87eafbd7925c0f2c2aceeab3a1cd3514",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image9.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image9.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c641e930a1e0b39abcf0464b6b69c0f17c24cb728d95766f8b084cbc4f1296f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b983bccdbeeb86ac9c99e9b7b1c3de8a22ca868dfad74ba230fb8c9e969c368a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首选：",
+      "translatedText": "Preferred:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "c6441a178a851e1ad9d2733c118f0a146fb33fa4b7c12c4cdc0edd79cfb65135": {
       "normalizationVersion": 1,
       "sourceHash": "33deaf06a692102f2b38445e8f4f67127b31fbccf78ea450c304eb1b7994fb2f",
@@ -225,6 +253,20 @@
         "costUsd": 0.000149
       }
     },
+    "c64f4ad4e711c4dd1dfe48855c58d1fa62c597a674836641120a4e3b734708c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5858001d00bf294d4b36d7480142bdd1854d00db3484c03f889d5dfcd8d5a6c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种适用于你有一个空的硬盘（不是空的磁盘分区，是一整个硬盘全是空的），然后整个硬盘全分给Linux。（当然这种情况也适用于上面那个和Windows共用一个EFI分区的方法）",
+      "translatedText": "This applies when you have an empty hard drive (not an empty disk partition, but an entire hard drive that is completely empty), and then allocate the entire hard drive to Linux\\. (Of course, this situation also applies to the method above of sharing a single EFI partition with Windows\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 65,
+        "costUsd": 0.000129
+      }
+    },
     "c6504f181893b87ce82f9526d816af9877c55a0bc4d887d24454ed58a30fd657": {
       "normalizationVersion": 1,
       "sourceHash": "9e0571146b8f2cd0fe2be7f797a388ea3cd44d168a067bdf8ad94af7c969c3cb",
@@ -239,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "c65a16c52eeed1a828717a02dded699a7ea9f0b348d69de6053a030d707060bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe20bb49d6379813c0b02305a462990584bb35f553cbca6eeda22758bcb88850",
+      "contextFingerprint": "8b1189fe0e94b3eb38634b28fb4e92141e251187716173ecf5d92b37855e2656",
+      "sourceText": "- Interface中的Public key是当前客户端的公钥，不能填入Clash Meta的`public-key`；\n- Peer中的Public key才是WireGuard服务器公钥，需要填入Clash Meta的`public-key`。",
+      "translatedText": "- The Public key in the Interface is the current client's public key and cannot be filled into Clash Meta's`public-key`; \n- The Public key in the Peer is the WireGuard server's public key and needs to be filled into Clash Meta's`public-key`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    },
     "c65c751e743ab17da63041db2c8fe6afb054175bad8a2049051a151149be0a62": {
       "normalizationVersion": 1,
       "sourceHash": "65d3ccf76af3922bde4aad7a281fc77fd351c516833e8914aaf6b69445cd61b6",
@@ -251,6 +307,20 @@
         "inputTokens": 151,
         "outputTokens": 30,
         "costUsd": 0.000082
+      }
+    },
+    "c65e75b3e229cf62b74eb7f071572aee4fb139e3fdd8735d846ab556cde2e153": {
+      "normalizationVersion": 1,
+      "sourceHash": "e81c5cbc26bbd21569fac4b73f16cd15368d725b9785377f6f3ad3ff8c30a35d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按照网站对应的部分敲，如我上图里是这样的：",
+      "translatedText": "Type according to the corresponding part on the website, as shown in my image above:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "c65f4ee9775ae51c3e0848bf728b01611c9788cb2c0816db2e5392f76585e49d": {
@@ -323,6 +393,20 @@
         "costUsd": 0.000087
       }
     },
+    "c67628ad092ea0e1593cac11d6eebd87d30977a3cd460bae2ed7304f8426bab3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cd6431bedfb603a499a64d68e9b865c4b2aff893159b4794b2dd613b8414ae3",
+      "contextFingerprint": "995ccc936e294093138ff4605a34b06d71b585820937a5ec6c07d590433d6dfd",
+      "sourceText": "同样用相似的命令检查音频设备（10de:228e）。",
+      "translatedText": "Similarly, use a similar command to check the audio device (10de:228e)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
     "c676ba31c96a1927167f1d94f117c14879bee1e1dcaed265b53d6858e56b88b6": {
       "normalizationVersion": 1,
       "sourceHash": "b3ca035d6b07d80e7feea4054c77232f0120ee392740730d705d182d6b05c01f",
@@ -349,6 +433,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "c67e52cf37b1dad535b531a8dc6f115db03e04fdc7d11b8cdb9ed9d9f8278a68": {
+      "normalizationVersion": 1,
+      "sourceHash": "eddd082e2728c8eb32d363ba8c67a06df4f409e281fb00429b92da66b1dc1eba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有的应用配置有问题，可以删掉他的缓存。",
+      "translatedText": "Some applications have configuration issues; you can delete their cache\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "c6820cc21a340fbf0df8131bf238b1fb5905cc62db5cab428d031604a003c73f": {
@@ -407,6 +505,20 @@
         "costUsd": 0
       }
     },
+    "c6a6555f714dba5f4332fee0b4ffe8dbdb9a45811c3cb815d1b8727854c4a791": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0b1b3e6ed96fc1a87773e8f427538e9b63e3c944674148e0e775a06a6c25ade",
+      "contextFingerprint": "9dea13a4a6f17578440348b26a2aac8bb59344f87a6749fc82315e7d9adf6fc7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1849.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1849.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c6a6f2adc912fd912e031ce5a0c99b4aaf9a702e10b3db69609bf23544b0105a": {
       "normalizationVersion": 1,
       "sourceHash": "30f6cf5463353a91bf3fb4f9d79d2d1f7b4bd325cba58b4b88cfb72094b403f8",
@@ -433,6 +545,20 @@
         "inputTokens": 159,
         "outputTokens": 38,
         "costUsd": 0.000094
+      }
+    },
+    "c6b12b8eaf7afb2e03329e8218cd075c26853484fca8174c4b257840f31a8552": {
+      "normalizationVersion": 1,
+      "sourceHash": "992f8deb6c467ef5458be41f258327a5e87ba319df365546666b453cae8a8e80",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把镜像变为容器时，需要用docker run命令添加很多参数，这个可以理解你这个电脑到底有啥硬件配置。",
+      "translatedText": "When turning an image into a container, you need to use the docker run command to add many parameters, which can be understood as finding out what hardware configuration this computer actually has\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 42,
+        "costUsd": 0.000097
       }
     },
     "c6b1407d9d451093cc3195c5ef812a318d7c9911b40e96c173a6a930ac2b9631": {
@@ -463,6 +589,20 @@
         "costUsd": 0.000064
       }
     },
+    "c6bf1d3823dc88f99ad98a1a1b7068a95c8d4e0506084380447b4f358bf13a30": {
+      "normalizationVersion": 1,
+      "sourceHash": "241a50623d7827001aad8dce406db8a36e5ad5b67f1b6a785d99ae34e54323b2",
+      "contextFingerprint": "02cba6a64a66d55fb8b9cdab84cdcb0082bfadb95b4502b3629c3d73abad60a7",
+      "sourceText": "https://wiki.ros.org/noetic/Installation/Debian",
+      "translatedText": "https://wiki.ros.org/noetic/Installation/Debian",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c6c10cc9e6434a8c0896bce0b0c4e6250f54bb9fbf0d6c2ea5e348d869ef8944": {
       "normalizationVersion": 1,
       "sourceHash": "3453c046229845d821b8611372c5566884100a7130b2f841f0d7f96a933a0c97",
@@ -483,6 +623,20 @@
       "contextFingerprint": "c43116a761828d0f28cd8a8470d4170ed8da45ec0d4a67dfdae34e66a78cf6fa",
       "sourceText": "## WMNav — IROS 2025",
       "translatedText": "## WMNav — IROS 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c6ccacd3a8fc5d1c449ecf1d9e2fab99f54419fbd049003227bcc1257dd51079": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f9ca3b215c075abdd3032680e9d342f2c68e85d4533b776f9306256d81d865a",
+      "contextFingerprint": "e63b6ed8ddbe0f02c17d8bbbc5709e5fd6601b5ee6fe62b1173553d3ce74932e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image19.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image19.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -603,6 +757,34 @@
         "costUsd": 0.000083
       }
     },
+    "c6e1fb982ecd02e98106a25939f532da61693b9a0702d951694a2ea4100be90c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b388228273d5dcfa7560786e428a6fe07245cfbad5adad0ccd38d58c8c58c10",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 安装设备DFP",
+      "translatedText": "##### Install device DFP",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c6e2d85ea946da828ed6e4324a3d0967989dbc6e3512ef30d8ec07eba138ca09": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc57aa8db6340dfcda1fb486d408a5970cb9fae309947960436560df4196aced",
+      "contextFingerprint": "38c033928efe8ebada81f3e226af623def8dbb41edf45f368b8e350780fb1793",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787154451682-f5d538c1.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1787154451682-f5d538c1.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c6e4d3a2226eb67e3198b442e7ecd57caaf643448f79da6b3d9f2e35bd18edd6": {
       "normalizationVersion": 1,
       "sourceHash": "af7641b68a490fb0b2bcaa17d77e703de63173e082a69d3c9e876d7100d27178",
@@ -615,6 +797,34 @@
         "inputTokens": 149,
         "outputTokens": 35,
         "costUsd": 0.000087
+      }
+    },
+    "c6e56edc3dd1a67f0533f84583346bbb5b6903704740787869f96afd998a4b1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "70d7f3ce3f306092386f568c080cee3122da52a66c872a7ccf3a2d475cc3c988",
+      "contextFingerprint": "d5905e45ebe54cb190d9f1b3a2a2ad981907ed4b61dbfa8e5d9887959065d542",
+      "sourceText": "| Clash Meta字段 | WireGuard客户端中的对应字段 |\n|:---|:---|\n| `server` | Peer中的Endpoint域名或公网IP |\n| `port` | Peer中的Endpoint端口 |\n| `ip` | Interface中的Addresses，只填写IPv4地址，不写`/32` |\n| `private-key` | Interface中的Private key |\n| `public-key` | Peer中的Public key，也就是WireGuard服务器公钥 |\n| `pre-shared-key` | Peer中的Preshared key |\n| `persistent-keepalive` | Peer中的Persistent keepalive |",
+      "translatedText": "| Clash Meta field | Corresponding field in WireGuard client |\n|:---|:---|\n| `server` | Endpoint domain or public IP in Peer |\n| `port` | Endpoint port in Peer |\n| `ip` | Addresses in Interface, fill in only IPv4 address, do not write`/32` |\n| `private-key` | Private key in Interface |\n| `public-key` | Public key in Peer, that is, the WireGuard server public key |\n| `pre-shared-key` | Preshared key in Peer |\n| `persistent-keepalive` | Persistent keepalive in Peer |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 83,
+        "costUsd": 0.00016
+      }
+    },
+    "c6e5abc19e4614b6a30f4409a53464c9aaf8f00f3eb22c4fa6b578a40aa600df": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c4488630db2f2b6c6ae352e254de67413d7f252b040794f5c262107415c922e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 机器人学",
+      "translatedText": "### Robotics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "c6ea26096a6490ae49623623d8a9673ce56b3f29b5e4a325596c4be7b9a304f9": {
@@ -643,6 +853,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "c6edfe116492769a015ee3b1557b10f753871aa3f1e547885d7ec7ccefc09b04": {
+      "normalizationVersion": 1,
+      "sourceHash": "55d203ba335fc42ed00696e5c8bb65bd0c8c3a63d430dcf63445f25e8345904c",
+      "contextFingerprint": "5e12afb1a0c720e60ed42ab4e0eee5e2e7c574cda20a568bf1032b743e6c90c6",
+      "sourceText": "https://www.wepe.com.cn/",
+      "translatedText": "https://www.wepe.com.cn/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c6fa865f8ad8e7a77bf9c05282e66f9fc5f51a2cf856474fcd367498fb72f30c": {

@@ -29,6 +29,20 @@
         "costUsd": 0.000054
       }
     },
+    "bc1023f5b5aca7ab90e428cc71cd2582a3fd756109c4df5c0ef379923b5113af": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca99ae87f05df4190818645814599a24433702b6dccb207fc24e5a0a08f05630",
+      "contextFingerprint": "5d4e3f5bcc6185c0a98d9f7bf19eb50882b51ed3d64e55a625b552db21f4cc7a",
+      "sourceText": "这里有一个很重要的区别：`joint_state_broadcaster` 是 broadcaster，它只发布状态，不负责让机器人动；`diff_drive_controller`、`joint_trajectory_controller`、`mecanum_drive_controller` 这类才是 controller，会占用 command interface 并向硬件写命令。`position_controllers`、`velocity_controllers`、`effort_controllers` 和 `forward_command_controller` 更像“直接转发命令”的工具，适合调试硬件接口，但不会替你计算复杂运动学。",
+      "translatedText": "There is a very important distinction here:`joint_state_broadcaster` is a broadcaster; it only publishes state and is not responsible for making the robot move;`diff_drive_controller`、`joint_trajectory_controller`、`mecanum_drive_controller` and similar are controllers; they occupy the command interface and write commands to the hardware\\.`position_controllers`、`velocity_controllers`、`effort_controllers` and `forward_command_controller` are more like tools that \"directly forward commands,\" suitable for debugging hardware interfaces, but they will not compute complex kinematics for you\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 90,
+        "costUsd": 0.000168
+      }
+    },
     "bc11ee78f49893b9adcc40c245f5aae6b54cd1736aeaf987f5a6c741ee462594": {
       "normalizationVersion": 1,
       "sourceHash": "9fe5d1f6ffa0f59fbc2cee8cb53b5356c3d09d6c8e247f767841ee3cfccb91d7",
@@ -55,6 +69,20 @@
         "inputTokens": 158,
         "outputTokens": 34,
         "costUsd": 0.000089
+      }
+    },
+    "bc1b1750ca9c6f94c2dc9502a9da71a6fb4ecac75cb03edda6dfb16cce607bfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cf228945d80e54002c55de30434e841a7053c434b3ce4284a50ef252b673526",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建立自定义 udev rule。",
+      "translatedText": "Create a custom udev rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "bc1c823e1ea1724ebfdfa95bb253f7e45e12895bfa16ba46e82e26d2a93c863d": {
@@ -141,6 +169,20 @@
         "costUsd": 0.000057
       }
     },
+    "bc388127d88b6e64e627bd990afa1def81e268b599daf965b28fc231f53e83bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e589bb45a5c1cfea2457e7d8273e16a7aa957ce484572a631f4728c26203bbc5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你给电机setPosition(INFINITY)的话，那么这个电机将变成角度电机，而原本设置速度的函数将会变成设置角速度。",
+      "translatedText": "If you setPosition(INFINITY) on a motor, then this motor will become an angle motor, and the function originally used to set speed will become one that sets angular velocity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
     "bc3a19dceb7ba7324f02bf1948fd983af5b55537d02416e05eba3dbb0dcdd6de": {
       "normalizationVersion": 1,
       "sourceHash": "a32a1585adbff062c82be4b0fe8313caea43942a24361f8179665e8980e769ae",
@@ -167,6 +209,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "bc41fb330890e062e9514fc639ae4b7d93b97ac91d1718dbae60a23277c50655": {
+      "normalizationVersion": 1,
+      "sourceHash": "f53098fbc2bfed7341d6ddfdf7955c540f4ef1cf687fa05b70cd392591d8bd75",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 英伟达显卡",
+      "translatedText": "##### NVIDIA graphics card",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "bc42cc10be89f9e8ee752d90a8b183bc62a654377f85d172fd186b8f7a008066": {
@@ -253,6 +309,20 @@
         "costUsd": 0.000064
       }
     },
+    "bc587dbe74b02a4e447ddb53a7ec0ea562f8b9c9a9923876d0f85d90de7ab727": {
+      "normalizationVersion": 1,
+      "sourceHash": "16a4733801a549fb17940974a16f2d92827816a873ea5eb924836741eddbd84a",
+      "contextFingerprint": "4e99b6c2bb4d8717b81778181f448724b5c8cab25f1a30ed0aaa353b0a9659ac",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1791017283656-95d3e85d.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1791017283656-95d3e85d.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bc622ea9287c723bab07c89d0934018104ee2d172a40210423b34ccbf144a83f": {
       "normalizationVersion": 1,
       "sourceHash": "4665a71b7a009975a2cc1e73c659836a9ad28f89ebbfe05f10adb6bde181c4bf",
@@ -281,6 +351,48 @@
         "costUsd": 0.000076
       }
     },
+    "bc6c3577b45f48d64343534d81d9a1c6d6f3fb6571334aef81adea09a2ba37e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a6ef186094e59d50ed66b58fd01f0cf242e1d1aca23240d15c5c0c23a40986b",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### Docker容器(不推荐，可供有需要的使用)",
+      "translatedText": "##### Docker container (not recommended, available for those who need it)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "bc6e9297f56127630422cf1431c11ea40f7bdebf1b6cdf76af08a4fa67e3891a": {
+      "normalizationVersion": 1,
+      "sourceHash": "0aae622e4a07993eef0cbbd67c30c6fb0912c0f3300eda4d111d65c9a27cb89d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下载好就行了。",
+      "translatedText": "Just finish downloading it and you're good\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "bc7542328e1babd9f8f190ae978bacc008dc7f37bbabe1a56260dbe1187b02e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ec71351302bf663c2c5711435908d96bad6713173b6f4935ae5201718f45bc9",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "由于旋转矩阵R里每个元素都是两个向量内积，内积是可以交换位置且最后结果**数值不变**的。",
+      "translatedText": "Since each element in the rotation matrix R is the inner product of two vectors, the inner product can have its operands swapped with the final result**remaining numerically unchanged**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "bc776d3ed15d9bc21994c9850894dc82b2360ca79b1cc80f0cea65dcbdb1cd1d": {
       "normalizationVersion": 1,
       "sourceHash": "902845ec9c749541caec3e263f6586bb992b6961e90f89ee17b78f3800bf1369",
@@ -295,6 +407,20 @@
         "costUsd": 0.000064
       }
     },
+    "bc8175fe6c1e1580576eb4c494669ab1bec580d243001016838a1f992ae2e2e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "12ac829908e0cde25417714c00910513162db5ea6f3ae8518a6daa93fecb03ea",
+      "contextFingerprint": "fa5239e9ac3fe6e1528bb6e6226528c300b9d93d1e2ea783cd53574e368117ce",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1818.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1818.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bc83bdbdca6fd0edda55b2f62d90036948e709c30cb0971a35306941841dd7fa": {
       "normalizationVersion": 1,
       "sourceHash": "b2bcdbbbe9bb5858a42a0d73ef5e15508316ef379f9d22b1161852a82a7190f0",
@@ -307,6 +433,20 @@
         "inputTokens": 148,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "bc85d45d9dfe26be1e4732703a3994e163dc895ceda81f660b666c5c0b05d96d": {
+      "normalizationVersion": 1,
+      "sourceHash": "32b4dc32c67237e28ad2751fd916740f53431fafe5997f8e1844e6840dc87039",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "工程中建议优先级：",
+      "translatedText": "Recommended priority in engineering:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "bc88d05ad3959360fbd3f9b57669155bfd2e9ba7c77f910305fb8611fd321e0a": {
@@ -365,6 +505,20 @@
         "costUsd": 0.000062
       }
     },
+    "bc94ce3eb6a16833f1294fd6ccdb888da6fe3ff91a256e0db3e6d710e4b57415": {
+      "normalizationVersion": 1,
+      "sourceHash": "896466473e7b0d37b61963538efc64f76e2e697dbfad6326d0c01ca6715c459e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你的终端里的文字一点颜色都没有的话再添加这个,某些发行版比如RockyLinux默认是没有颜色的,而Fedora,Ubuntu这种开箱即用的发行版一般默认都是有颜色的.",
+      "translatedText": "If the text in your terminal has no color at all, add this\\. Some distributions, such as Rocky Linux, have no color by default, while out\\-of\\-the\\-box distributions like Fedora and Ubuntu generally have color by default\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
     "bc99dc2bc682778fe3736af29089ff9322c101876687e981ac97c7b8f0171fb3": {
       "normalizationVersion": 1,
       "sourceHash": "609a485b8ed08ee9bbd8eb6318c79e4b4aaf6e21e609ac0a4e779b2422d4e61b",
@@ -419,6 +573,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "bca9cff8add9c3cec1350e8482160553b25b5d4705274115a2470d5cf2f54d02": {
+      "normalizationVersion": 1,
+      "sourceHash": "7345b4bee9227ac010c80cf2f102a25785a19109e567e1e40c45ec4c6d2ebb22",
+      "contextFingerprint": "7305991202f94195953a45c83ae2265ef4215529cc2cc7e16ebb0df776e9d5ae",
+      "sourceText": "再启动rviz2以及键盘控制节点，在rviz2中将参考坐标系设置为odom，添加tf插件，再添加两个odometry插件并将话题分别设置为odom和odometry/filtered。使用键盘控制机器人前进，两个里程计插件显示的数据和机器人的实际运行基本相符，前进一段时间后，手动搬动机器人让其产生一定角度的偏航，该动作也能在融合后的里程计以及坐标变换中准确显示，而轮式里程计由于电机并未旋转而没有改变（如下图所示）。",
+      "translatedText": "Then restart rviz2 and the keyboard control node\\. In rviz2, set the reference coordinate frame to odom, add the tf plugin, then add two odometry plugins and set their topics to odom and odometry/filtered respectively\\. Use the keyboard to control the robot to move forward\\. The data displayed by the two odometry plugins basically matches the actual motion of the robot\\. After moving forward for a period of time, manually lift and move the robot to produce a certain yaw angle\\. This action can also be accurately displayed in the fused odometry and coordinate transformation, while the wheel odometry does not change because the motors have not rotated (as shown in the figure below)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 244,
+        "outputTokens": 153,
+        "costUsd": 0.000257
       }
     },
     "bcab358fc04cb092cb67fa26f909cf28e4bb8ab7f950b95a4e399ea6b7f63446": {
@@ -533,6 +701,20 @@
         "costUsd": 0.000079
       }
     },
+    "bcca58b814a91285b5242980af215c9dee1ac075a05455d7798600138c7e6730": {
+      "normalizationVersion": 1,
+      "sourceHash": "3890ed176f4a4a983cc7a49eb5fd0a6dc7b20fea2b9c4f7adaabd6280c832724",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仍然会指向正确设备。",
+      "translatedText": "it will still point to the correct device\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "bccd93896443ac3f491068be804435943e8d67ebee45f0c1173720185ca068c3": {
       "normalizationVersion": 1,
       "sourceHash": "4ba0738388bb81a1c6d3a308b9a95777c0d1d20d8f19ce13548124566ca74c51",
@@ -545,6 +727,20 @@
         "inputTokens": 149,
         "outputTokens": 28,
         "costUsd": 0.000079
+      }
+    },
+    "bcd37bdaa92c207159923da67b2537d47d2264f9c32edef1f87473c3f084ae88": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ebed903b8c8cebdabb542b025762a752c2eeb678fbc2149835cad7f4ddb9709",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3.  安装内核源代码（可选）：",
+      "translatedText": "3.  Install kernel source code (optional):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "bcd8d5b49e47d8ace102fe4749ee62d4baed4c216827ff2d326f4bf1d09be109": {

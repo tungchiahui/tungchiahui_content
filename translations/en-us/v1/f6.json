@@ -85,6 +85,20 @@
         "costUsd": 0.000105
       }
     },
+    "f61f106ccb82fa9a6c600c74fdb56f8b9ef471fdbed7deb6c479e424d0fe74bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "32dc916b64a33b0f38773b948b3d17af7fe4edaa4aae9c1f77e5ffe72da9d0c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对应插件 XML：",
+      "translatedText": "Corresponding plugin XML:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "f61f7c964514aed7a0abad84f339ed539cef59e3ce096f116856b8fee9320aa4": {
       "normalizationVersion": 1,
       "sourceHash": "a7c38025e31e38b1ea0ecd1443cbfee3b8b62f7cc627e33a883f8f0a48195393",
@@ -97,6 +111,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "f624db64341e4795743109fed18d78805be0676746a2948d84e54a40d961c80a": {
+      "normalizationVersion": 1,
+      "sourceHash": "48f7b73dfc996d8f5d9ff39505d664439584053bd816480b09c58ac2847ea0d0",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 设置 KDE6 自动登录",
+      "translatedText": "##### Set up KDE6 automatic login",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "f6252f80b29f9158415c73ec023661dbf7fbd9f84f2cf21fbd5727307d90bb14": {
@@ -253,6 +281,20 @@
         "costUsd": 0.000054
       }
     },
+    "f6480aba1d24a60493d1f82427a84b1f485f930b677bc8e9398fdd5df9b6d904": {
+      "normalizationVersion": 1,
+      "sourceHash": "11f8db5083c98c5f990e7dae15fded7e34e5082838049f3baafaa944312af3d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "配置完成后，不再需要打开独立的WireGuard客户端。使用该配置时，应关闭WireGuard App中的隧道，只打开Clash Meta。",
+      "translatedText": "After configuration is complete, you no longer need to open a separate WireGuard client\\. When using this configuration, you should turn off the tunnel in the WireGuard App and only open Clash Meta\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 46,
+        "costUsd": 0.000103
+      }
+    },
     "f64abd58253511543a9ea1ef15a96ecd2c25fd51ad75ca71b0df82822e0d4713": {
       "normalizationVersion": 1,
       "sourceHash": "8f6360b2c4b052c0b6ef9d443372f1d923c3d08d348db5103c03783036ef3bfa",
@@ -279,6 +321,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f65a0c6c0267a90f206ea8dd4e385a97f7ce26febe117241eedefe8d985f450c": {
+      "normalizationVersion": 1,
+      "sourceHash": "05e27899c1c4dcec06c7984c60ee84ff7c4e960b08a21a7200d7561f101f4ab3",
+      "contextFingerprint": "c7ae4ec0935a6882475039e7582c84d0c0e2c8d1b658da06a4b2911218175430",
+      "sourceText": "| 函数 | 调用时机 | 作用 |\n|:---|:---|:---|\n| `on_init(const HardwareInfo & info)` | 加载硬件时 | 读取 URDF 中的 joint、interface、param |\n| `on_configure(...)` | 配置硬件时 | 打开串口、初始化驱动板、分配资源 |\n| `on_activate(...)` | 激活硬件时 | 使能电机，清零命令 |\n| `on_deactivate(...)` | 停用硬件时 | 失能电机，停止输出 |\n| `read(const rclcpp::Time &, const rclcpp::Duration &)` | 每个控制周期 | 读取硬件状态并写入 state interfaces |\n| `write(const rclcpp::Time &, const rclcpp::Duration &)` | 每个控制周期 | 读取 command interfaces 并写给硬件 |",
+      "translatedText": "| Function | Call timing | Purpose |\n|:---|:---|:---|\n| `on_init(const HardwareInfo & info)` | When loading hardware | Read joint, interface, and param from URDF |\n| `on_configure(...)` | When configuring hardware | Open the serial port, initialize the driver board, and allocate resources |\n| `on_activate(...)` | When activating hardware | Enable the motor and zero the command |\n| `on_deactivate(...)` | When deactivating hardware | Disable the motor and stop output |\n| `read(const rclcpp::Time &, const rclcpp::Duration &)` | Each control cycle | Read the hardware state and write it to the state interfaces |\n| `write(const rclcpp::Time &, const rclcpp::Duration &)` | Each control cycle | Read the command interfaces and write them to the hardware |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 103,
+        "costUsd": 0.000188
       }
     },
     "f65e9fcdae63484f1796be38ed65a4bb1731abb59c924d3be702c87565414c7b": {
@@ -351,6 +407,20 @@
         "costUsd": 0
       }
     },
+    "f6681470209149772af836f21348a21b73d261cf9b1055d04dd3463ccd662367": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bb947590137547fbf0879a93af247764c3746c03278c3c2d51cf9f5670b6fbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看似延迟不低，而且没有像Cloudflare那样被半封禁，实际上带宽低的要命，加载一个图片卡的要死。最不推荐的方案。（连中国香港🇭🇰这种什么方案都2ms的都变成50+ms了，可想而知多么垃圾）",
+      "translatedText": "The latency may not seem high, and it is not half\\-blocked like Cloudflare, but in reality the bandwidth is extremely low, and loading a single image is painfully slow\\. This is the least recommended option\\. (Even Hong Kong, China 🇭🇰, where any solution normally has 2 ms latency, has turned into 50\\+ ms—you can imagine how crappy it is\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 88,
+        "costUsd": 0.000162
+      }
+    },
     "f66b2b6f41f0b87fd64e1056ce10f03bff6ea72d143c54868b04b265d4e2273f": {
       "normalizationVersion": 1,
       "sourceHash": "4e8d2bb8911d0b0ff713abb4c4a3b5514039c4dece889472664b3793c7b2c9f3",
@@ -363,6 +433,34 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "f66d065cfee747b29c2fe7af16aa2020f6bcb587adc2fb2741fe2a3da22f3741": {
+      "normalizationVersion": 1,
+      "sourceHash": "246bf1eab83c9afa067a4a03e711618252c847ec4407e13eb32f98c00591a9fa",
+      "contextFingerprint": "e26bc53e22ac96f9322c147c414da2e787c65d0815bcb46866ed94a2eb871cf9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image11.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/01/image11.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f67949c26982df4949e7cd06be544fb5b927634269fa73d3b0ed3d7b592fd253": {
+      "normalizationVersion": 1,
+      "sourceHash": "0828f8896ba4eb4ff5c161ef930243fa26bf624a451a0fe4a320de9173d58a81",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Waydroid 里显示已经连接 Internet，但是应用无法联网。",
+      "translatedText": "In Waydroid, it shows that the Internet is already connected, but applications cannot access the network\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     },
     "f67a494c2247319d7c57e42443069c533420dfa07728f7fbe5d08dff09bbf721": {
@@ -477,6 +575,34 @@
         "costUsd": 0.000053
       }
     },
+    "f690fc84f4d841f4f859949b1fea29386913d9bffa7e7643ecf84a6704e940e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba7dbb07b809b7cbe58018a76e83c37663cf4c47fb7b8b73322b91d49a986dc3",
+      "contextFingerprint": "9610411093c914c80b57e8fc71175962156488eddb0fde955c868860ffe96dbf",
+      "sourceText": "`rqt_controller_manager` 适合查看、加载、配置、激活和停止控制器；`rqt_joint_trajectory_controller` 适合给 `joint_trajectory_controller` 手动发送简单关节轨迹。",
+      "translatedText": "`rqt_controller_manager` Suitable for viewing, loading, configuring, activating, and stopping controllers;`rqt_joint_trajectory_controller` Suitable for manually sending simple joint trajectories to the `joint_trajectory_controller`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "f691c80ce56dcad1dc6c5e47491db93241c1b70f38a0abece73215f93c874253": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7ee5a97df09cff0db3363b412a4db1abe340fd8bfc5b82827fccf566399102b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "方法一（官方）",
+      "translatedText": "Method 1 (Official)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f69c79b8da3b5b5a48630c91dd3daac41a132be53f7355d1284592895d0b8428": {
       "normalizationVersion": 1,
       "sourceHash": "2fc9c13419f43aa3538bc8c65782053b3c1764180ea2e0dc6e7571054686b589",
@@ -533,6 +659,34 @@
         "costUsd": 0.000057
       }
     },
+    "f6aed7b62a77017d24e309cc46845d42078ee7c16c74916ab3ccfd422675c5e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d3c10cb69bd0cc52ae9e457fa89950ad4ee44c9c19b5b94830181ed3c1aa163",
+      "contextFingerprint": "ad26c1a918000bc8bc30990dc8de54bdf9e5cc9315140c8f1ae28a2a867d454d",
+      "sourceText": "`controller_manager` 包提供了四个常用可执行文件：",
+      "translatedText": "`controller_manager` The package provides four commonly used executable files:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "f6b2272d6c9b297ea6c416bee4d1201ab89dbb1a91896b6494fb3445dd51387c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e0dfc580d9b9aa17892abd3fe556cc7aaa4a1f8674d165301fac65770e2c964",
+      "contextFingerprint": "9fdce6d1c409c040818947860bea2c686ac1028bb2e20d42e731ee996fcd4e6e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image106.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image106.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f6b2ff73f23a842823fd6c114fc0396a0260d1c568965ff2662ea59308d04748": {
       "normalizationVersion": 1,
       "sourceHash": "d3487d385f172e32511776f47c6108f9564be5bbf41e85051e84ff9c46dc2a8f",
@@ -559,6 +713,20 @@
         "inputTokens": 167,
         "outputTokens": 51,
         "costUsd": 0.000112
+      }
+    },
+    "f6b67c32adbd81339cb33d41b5a42fb3fcb1abcc97fa2fb8b6df50650d09248e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e1b0ab39ed3894f1bd795c9b051dc5625aa385af3b91eadc6fa170a653fa02f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在中国大陆🇨🇳平均在230ms，在中国香港🇭🇰平均2ms。",
+      "translatedText": "In mainland China 🇨🇳, the average is 230 ms; in Hong Kong, China 🇭🇰, the average is 2 ms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 38,
+        "costUsd": 0.000091
       }
     },
     "f6b949aba20198b9c25e0b2adbb42d37397c45d38608c35dfa00db47e593d8f2": {
@@ -643,6 +811,20 @@
         "inputTokens": 146,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "f6de699adf3798bfbcfe9a3c822ea71e71b25566a48834e3bee782c748fdfd9c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba0c48ababf0974914e56862e9018285a3fc08f4295c26477a28faf1bd1f3f90",
+      "contextFingerprint": "7ca9b70f775be0f9731553b8f4856b0b0f94c0923fa8843dd82c2145dcf87ff1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image321.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image321.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f6e3855286ba28f2d493e7de3b337aebd489f902407fd08136362a5fc5adca5d": {
@@ -741,6 +923,34 @@
         "inputTokens": 148,
         "outputTokens": 24,
         "costUsd": 0.000074
+      }
+    },
+    "f6ef558eb6bec0e65c720c9d320c8ecfbe39fae9dac475f3f9e2b2f5cf0cf562": {
+      "normalizationVersion": 1,
+      "sourceHash": "98fb436537da3f28d8d8de4252ab812f9ae44b4785353c6ff49293f9c1983c8c",
+      "contextFingerprint": "0e32bd3ef174e29f513343c793c78844a413a613a269b6acdf4107a345c769b5",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1783174344742.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/1783174344742.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f6fc592c1fd11c21f3fe9f36698ef0e929a272a8e07fce6467e2b115ff9e9994": {
+      "normalizationVersion": 1,
+      "sourceHash": "a691bdf700537be3803b8bb8eec3ac3a6110b3378ab9b1ac73d200b0426097df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开一个终端:",
+      "translatedText": "Open a terminal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "f6ff668c16f466abf7fdb9df0f315a27f66ece258dcb92043b14893204bdaf07": {

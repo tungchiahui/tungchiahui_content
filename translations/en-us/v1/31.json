@@ -57,6 +57,20 @@
         "costUsd": 0.00013
       }
     },
+    "310a0519628ea052b20904b4696991d7eab4c258ceaf7b62072a9c6c31cca886": {
+      "normalizationVersion": 1,
+      "sourceHash": "22f23d6f0b0197acf8712e818cd5343ad052751aa41c9cb6e3c499317a88d108",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "(现在已经无需找了)",
+      "translatedText": "(There is no longer any need to search\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "310b53270550e2dd4eb8d3d177d6e095cd23a09ff60ca7f5408fb840c2d19d76": {
       "normalizationVersion": 1,
       "sourceHash": "ec4beafa462fdaf893bea61e049fb4d5081b47fe758395e8d47a85f5c0645829",
@@ -71,6 +85,20 @@
         "costUsd": 0.000063
       }
     },
+    "310ff6dc713c783993843250ae5b654191303438983c3aeb9e389bb2e5fb6fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2054e85727704f5c8d9ab2ad86f775450a76f4e05b1e56496f9cc9d1889ae5a6",
+      "contextFingerprint": "c7a6de7c0ae15eec596e42e78098bda3f66125687b47c60041ab6669dc7a8b85",
+      "sourceText": "从本质上来说，`Dockerfile` 可以看作是一份用于自动化构建镜像的脚本文件。我们在日常使用 Linux 系统时，在终端中执行的各种安装、配置命令（例如安装软件、修改环境变量等），都可以按照一定的语法规则写入到 `Dockerfile` 中。",
+      "translatedText": "Essentially,`Dockerfile` can be regarded as a script file used for automated image building\\. In our daily use of Linux systems, the various installation and configuration commands executed in the terminal (such as installing software, modifying environment variables, etc\\.) can all be written into `Dockerfile` according to certain syntax rules\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 65,
+        "costUsd": 0.000134
+      }
+    },
     "31148ac98adcf429d2ff66122ce49e1a14cbb0e24b97e948fc0cf1ec3e626016": {
       "normalizationVersion": 1,
       "sourceHash": "049c4eb2ff2d23b77a0dfbc0e7623f42ad3d8c2b97fe5e51e37c8ea70c1cbd92",
@@ -83,6 +111,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "31169f23dd4a31df5b8ce01323c098a45c40593609b8a1f661a9c45986baa400": {
+      "normalizationVersion": 1,
+      "sourceHash": "de8c9f6994c5e146b129b79e20170f968afc335393bfa99deeb2399e706f82b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "至此，IP配置完毕。",
+      "translatedText": "At this point, the IP configuration is complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "311701f1f929035a6bfcb0fbb500d07815adceed46ecf747b0c427099b69bbb4": {
@@ -125,6 +167,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "31240237cca553bdb2cda4293c053b6088133dad0c2ea9c791bd546dc41b0bb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4abc60279eecbc93f419fad5ae6b64542b318223506c437a53c7320e12ce5868",
+      "contextFingerprint": "bc567a7bd59f462c1381fe2fa6f3794cb1d84763eccc4a18bac71ee2fa9ef80c",
+      "sourceText": "1.  先不用真实电机，确认 `pluginlib` 能加载硬件插件。\n2.  启动 `ros2_control_node`，运行 `ros2 control list_hardware_components`。\n3.  确认硬件组件能进入 `inactive`。\n4.  确认 `list_hardware_interfaces` 中有期望的 command/state interfaces。\n5.  使用 `forward_command_controller` 直接给 command interface 发命令。\n6.  在 `write()` 中打印一次命令，确认控制器确实写入。\n7.  接真实电机，但先架空轮子或关闭高功率输出。\n8.  确认 `read()` 能正确更新 `/joint_states`。\n9.  最后再接 `diff_drive_controller` 或 `joint_trajectory_controller`。",
+      "translatedText": "1.  First, without using a real motor, confirm that `pluginlib` can load the hardware plugin\\.\n2.  Start `ros2_control_node` and run `ros2 control list_hardware_components`\\.\n3.  Confirm that the hardware component can enter `inactive`\\.\n4.  Confirm that `list_hardware_interfaces` contains the expected command/state interfaces\\.\n5.  Use `forward_command_controller` to send commands directly to the command interface\\.\n6.  Print the command once in `write()` to confirm that the controller actually writes it\\.\n7.  Connect a real motor, but first prop up the wheels or disable high\\-power output\\.\n8.  Confirm that `read()` can correctly update `/joint_states`\\.\n9.  Finally, connect `diff_drive_controller` or `joint_trajectory_controller`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 122,
+        "costUsd": 0.000217
       }
     },
     "31245bf792f781132b1b4b0ca107d574b13db77975f3603b54705afc3cc863ee": {
@@ -197,6 +253,20 @@
         "costUsd": 0
       }
     },
+    "3148160c44b73eb30b78b4afd31d0b669726f13d5ee63fa3c61e228c4073b630": {
+      "normalizationVersion": 1,
+      "sourceHash": "277d38e92d44f0d4da429f4d83cef4e0128cc11688786136685868654525751d",
+      "contextFingerprint": "3ce52dfdfa5d5218957b47bdd55d7ba51c3a873b6b73164f15ec65a6568bb269",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image89.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/01/21/image89.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "314bfee9ac6216cebb44d3df91b7eeb8250365a8516c99b2b36fa9d07a07fca9": {
       "normalizationVersion": 1,
       "sourceHash": "e3ddb2a992a394bff74ad778b30be545ec83f24d38f19467d0927c47d1f535a7",
@@ -209,6 +279,34 @@
         "inputTokens": 148,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "314dfe712b2feb875650c92aa4267ad8fd384ee9c2e94a4d654fce7ef6a95039": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2fa097edabcbf8ba1bc26d5925bfdbd3cbb5ea96896db82092d587f9756ec87",
+      "contextFingerprint": "00237f45073c9a2f0d1c52ad5625a2bafb79b707bb52ee7e8ce17542b492bf3b",
+      "sourceText": "**可以跳过此节**\n**此节就是教你拉取一些dockerhub上已经构建好的镜像**",
+      "translatedText": "**You can skip this section**\n**This section teaches you how to pull some images that have already been built on Docker Hub**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "31512b6d80df093be786e8a6665d619d8744c98b8f53acd3c5c878e3698e6548": {
+      "normalizationVersion": 1,
+      "sourceHash": "77f1afb73d18aedc492ddda34050273e170f76a045d1c9c613e55bc5e0573ed7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Run（运行程序）和Debug（调试程序）？",
+      "translatedText": "### Run and Debug?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 10,
+        "costUsd": 0.000055
       }
     },
     "31548fb71b3a4dca3cbbe7e1f9b48ba79a25cc998ae8130e5938c53559837204": {
@@ -267,6 +365,20 @@
         "costUsd": 0.000052
       }
     },
+    "3168260aa26edb3a85ded57253438f1e954c7df90a859f2c5c959c54a6b7f44e": {
+      "normalizationVersion": 1,
+      "sourceHash": "d548a9c3f0ab1dfd6f89de7bb910bf42b7e772ec0c8905f4fdd3e6b2bdbe8f8f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### KDE Dolphin 以root打开",
+      "translatedText": "### KDE Dolphin Open as root",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "31703a44bfd26f4521356db5e94eea9a3c426035a6a130ead7981fcaf487eb10": {
       "normalizationVersion": 1,
       "sourceHash": "5dc63e4bcc7016c5094ca03457e239db829ab28d9c5a45f7406bb28432289759",
@@ -279,6 +391,20 @@
         "inputTokens": 133,
         "outputTokens": 15,
         "costUsd": 0.000058
+      }
+    },
+    "31766f7b7c708afc0c573d523866a6e49ec37bc6e83f038e9ce2e5466c3e5a01": {
+      "normalizationVersion": 1,
+      "sourceHash": "195aef7598fda1f99e076ef033f95e5e80fd3a67826cc35c366cdb4f0bc52e6e",
+      "contextFingerprint": "f8b6ec0efead594772ca05480b0b258f533ada912f9cec83673172900f1a9092",
+      "sourceText": "安装 `OVMF` 包。例如，在 Ubuntu 上可通过以下命令安装：",
+      "translatedText": "Install the `OVMF` package\\. For example, on Ubuntu it can be installed using the following command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "31808b0496e4a616a5e797445ec7d04cd503ba231b597058af8dc7295029aec3": {
@@ -323,6 +449,20 @@
         "costUsd": 0.00006
       }
     },
+    "3197a7ae120c1c7b94f02fd957d0ba2dc3ec7c233a963fbabe8daebc1388bedd": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bef69481f7ed89bac932f88351273d766381c323b62b49e4ed09600bc39541b",
+      "contextFingerprint": "e158a24e22482ddd0312d9f9c463309a43cfec2644efb379a9d3ec51d7125ba8",
+      "sourceText": "我这里选择了`/home/tungchiahui/UserFolder/MySource/MDK6Projects/`存放工程。（你任选一个空的你自己创建的纯英文路径的文件夹存放即可）\n然后工程名叫做`mdk6_test`",
+      "translatedText": "I chose here`/home/tungchiahui/UserFolder/MySource/MDK6Projects/`to store the project\\. (You can choose any empty folder you created yourself with a pure English path to store it\\.) Then the project name is`mdk6_test`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
     "319960ec626dfc8e418f8942cb46f7859d6dc4f2afe2e32bbc4733809402c465": {
       "normalizationVersion": 1,
       "sourceHash": "b8e44afbd4b058194f9069dc4a2231ec311a4f1a6cb77a04d47fc28eb7aa1ac7",
@@ -363,6 +503,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "31a461121e6aa1818bce6e77b2355b553f3eb4ee2604f9fc183dcb797058fc88": {
+      "normalizationVersion": 1,
+      "sourceHash": "ade01b2f0d1420aaef5c1c817c3edf966c4a9b6e885a99f4eb9c7ef24f94c199",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  插件2：微软Docker远程开发工具",
+      "translatedText": "2.  Plugin 2: Microsoft Docker Remote Development Tools",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "31ac127349a28b05b9cd06338e046812d5adf95913cde6222705a869259bc048": {
@@ -477,6 +631,20 @@
         "costUsd": 0.000063
       }
     },
+    "31d000c3f69e80e89977c9b0e9e94c7102056ecc2b0728d8f172dbfe7a9ffe5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "82129f70a858af600ddee3be4c85127c4f5490bdcec9b2a717f5b7945c1b127d",
+      "contextFingerprint": "51e854bed039f621a4e1449390ec2211f3b38f5a92e53b75ea90164bf9d04d7f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1806.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1806.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "31d76094062d9ec15897a13f8ea96533c6d792855066f00d2c11827d9666ae49": {
       "normalizationVersion": 1,
       "sourceHash": "de3543020e50c87588e87b853e923083d9c8ca30035ef6a68710cb2b43545d81",
@@ -489,6 +657,48 @@
         "inputTokens": 154,
         "outputTokens": 43,
         "costUsd": 0.000098
+      }
+    },
+    "31dc0ae46881331b1b15a6c4efb7c2701f4bf6a990306a91b9a50831d2a2c4ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e24e72dc152aeb227c4164bfd9041a52f035b6bb52926c442fbb9af0c8472ac",
+      "contextFingerprint": "1aa6efdf97f02dda3259dfbfe70962369a8620d8c1aaffbd6f61ed617df52203",
+      "sourceText": "安装ROS2详见:[ROS2机器人操作系统教程](/wiki/2023-12-30-ros2-tutorial)",
+      "translatedText": "InstallationROS2For details, see:[ROS2Robot Operating System Tutorial](/wiki/2023-12-30-ros2-tutorial)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
+    "31ef05be854e00de3b2a1e6debedb9f3a353bab824064fa2934a9cb29294477d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cd67fa00a416b7c067de237bdb3e7ff13d4fb2c7a33c2b6be49a7e98ef8e137",
+      "contextFingerprint": "181c1bfccf890255c8461ecd9e33a9086e610da186a4d63e04a233beb5046348",
+      "sourceText": "如图在/boot/efi/EFI文件夹里，有个refind.",
+      "translatedText": "As shown in the figure, in the /boot/efi/EFI folder, there is a refind\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "31f0a708820955ff9c462f7e6a45127b79d5cda4806b10f7c9915f739e210c2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f653b2c8f32d6439c305d53ee7b50a64478965bdc70cedc18789f40423908fc",
+      "contextFingerprint": "671c10936abae6fe5a08ec00faa4257b73a6d32a03b1ac61d7769f04ec6a8278",
+      "sourceText": "选择`Create New Solution`后,选择 Device，然后搜索芯片，例如`stm32f407ig`",
+      "translatedText": "Select`Create New Solution`Then select Device, and then search for the chip, for example`stm32f407ig`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "31f13ba12b52b3ae923981e0e1236db4cca952f8b6cb2e83d84947d83379e603": {

@@ -29,6 +29,20 @@
         "costUsd": 0.000051
       }
     },
+    "d00863e9fbec41002ddb310992c1aecbeedf41f12f22b935f99d5dc04fca8bd4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c588187b8a8e06105adffe5293f013399d6357fffb8918b14eeb0eadde5ade3",
+      "contextFingerprint": "8f632ccd5daa1e8b4e4f953e34ae96dc3d84ff2eb92f5a64a8971fca38a9643e",
+      "sourceText": "| 命令 | 描述 | 示例 |\n|:---|:---|:---|\n| docker run | 创建并启动一个新的容器。 | docker run -it ubuntu bash |\n| docker build | 通过指定的 Dockerfile 创建一个新的镜像。 | docker build -t myimage . |\n| docker pull | 从 Docker 仓库拉取镜像。 | docker pull ubuntu |\n| docker push | 将本地镜像推送到 Docker 仓库。 | docker push myimage |\n| docker stop | 停止一个正在运行的容器。 | docker stop container_id |\n| docker start | 启动一个已经存在的容器。 | docker start container_id |\n| docker restart | 重新启动容器。 | docker restart container_id |\n| docker ps | 列出当前正在运行的容器。 | docker ps |\n| docker rm | 删除一个或多个停止的容器。 | docker rm container_id |\n| docker exec | 在一个正在运行的容器中执行命令。 | docker exec -it container_id bash |\n| docker logs | 查看容器的日志输出。 | docker logs container_id |\n| docker images | 列出本地所有镜像。 | docker images |\n| docker rmi | 删除一个或多个镜像。 | docker rmi myimage |\n| docker network | 管理 Docker 网络。 | docker network ls |\n| docker volume | 管理 Docker 数据卷。 | docker volume ls |\n| docker-compose up | 启动 docker-compose.yml 中定义的所有服务。 | docker-compose up |\n| docker-compose down | 停止并移除 docker-compose.yml 中定义的所有服务及其相关资源。 | docker-compose down |\n| docker info | 显示 Docker 系统的详细信息。 | docker info |\n| docker stats | 查看正在运行的容器的实时资源使用情况（CPU、内存等）。 | docker stats |\n| docker inspect | 查看容器或镜像的详细信息（JSON 格式）。 | docker inspect container_id |\n| docker save | 将一个镜像保存为 tar 文件。 | docker save -o myimage.tar myimage |\n| docker load | 从 tar 文件中加载镜像。 | docker load -i myimage.tar |\n| docker tag | 为镜像添加标签（tag）。 | docker tag myimage myimage:v1 |\n| docker buildx build | 使用 Buildx 构建多架构镜像。 | docker buildx build -t myimage . |\n| docker buildx create | 创建一个新的 Buildx 构建实例。 | docker buildx create --use |\n| docker buildx ls | 列出所有可用的 Buildx 构建实例。 | docker buildx ls |\n| docker buildx use | 设置当前的 Buildx 构建实例。 | docker buildx use mybuilder |\n| docker buildx bake | 使用 Bake 文件批量构建镜像。 | docker buildx bake -f bake.hcl |\n| docker buildx build --push | 构建镜像并推送到镜像仓库。 | docker buildx build --push -t myimage . |\n| docker buildx build --platform | 构建镜像并为多个平台生成支持。 | docker buildx build --platform linux/amd64,linux/arm64 -t myimage . |",
+      "translatedText": "| Command | Description | Example |\n|:---|:---|:---|\n| docker run | Create and start a new container\\. | docker run \\-it ubuntu bash |\n| docker build | Build a new image using the specified Dockerfile\\. | docker build \\-t myimage \\. |\n| docker pull | Pull an image from a Docker registry\\. | docker pull ubuntu |\n| docker push | Push a local image to a Docker registry\\. | docker push myimage |\n| docker stop | Stop a running container\\. | docker stop container_id |\n| docker start | Start an existing container\\. | docker start container_id |\n| docker restart | Restart a container\\. | docker restart container_id |\n| docker ps | List currently running containers\\. | docker ps |\n| docker rm | Remove one or more stopped containers\\. | docker rm container_id |\n| docker exec | Execute a command inside a running container\\. | docker exec \\-it container_id bash |\n| docker logs | View the log output of a container\\. | docker logs container_id |\n| docker images | List all local images\\. | docker images |\n| docker rmi | Remove one or more images\\. | docker rmi myimage |\n| docker network | Manage Docker networks\\. | docker network ls |\n| docker volume | Manage Docker volumes\\. | docker volume ls |\n| docker-compose up | Start all services defined in docker-compose.yml\\. | docker-compose up |\n| docker-compose down | Stop and remove all services defined in docker-compose.yml and their associated resources\\. | docker-compose down |\n| docker info | Display detailed information about the Docker system\\. | docker info |\n| docker stats | View real\\-time resource usage (CPU, memory, etc\\.) of running containers\\. | docker stats |\n| docker inspect | View detailed information (in JSON format) about a container or image\\. | docker inspect container_id |\n| docker save | Save an image as a tar file\\. | docker save \\-o myimage.tar myimage |\n| docker load | Load an image from a tar file\\. | docker load \\-i myimage.tar |\n| docker tag | Add a tag to an image\\. | docker tag myimage myimage:v1 |\n| docker buildx build | Build multi\\-architecture images using Buildx\\. | docker buildx build \\-t myimage \\. |\n| docker buildx create | Create a new Buildx builder instance\\. | docker buildx create \\-\\-use |\n| docker buildx ls | List all available Buildx builder instances\\. | docker buildx ls |\n| docker buildx use | Set the current Buildx builder instance\\. | docker buildx use mybuilder |\n| docker buildx bake | Build images in batch using a Bake file\\. | docker buildx bake \\-f bake.hcl |\n| docker buildx build \\-\\-push | Build an image and push it to a registry\\. | docker buildx build \\-\\-push \\-t myimage \\. |\n| docker buildx build \\-\\-platform | Build an image and generate support for multiple platforms\\. | docker buildx build \\-\\-platform linux/amd64,linux/arm64 \\-t myimage \\. |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 847,
+        "outputTokens": 734,
+        "costUsd": 0.001135
+      }
+    },
     "d00bdaf409a8aa4a126aa5aaf0f171cffb0de799c436806b875c9f6d2f1ed69b": {
       "normalizationVersion": 1,
       "sourceHash": "89ddab85efcb735d3fa9c916a41876df32f4290fb0694c23ef1546a7833c82d3",
@@ -57,6 +71,20 @@
         "costUsd": 0.000071
       }
     },
+    "d012fc7279354ae1c30387c312968665737a8d23f196490f804077ec2ce148e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5c4e922c830b03411eb7924688551fa24c2c9cda25cd857e5a81fb84626d61c",
+      "contextFingerprint": "68874d8a3ee966db31a0cba2f49af344b7aca27ab404c3548e89ab03b7723307",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image93.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image93.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d01affdab2ad7e303358e6202e017c9e3c843ae1ecdcc87b8491db859d6d7288": {
       "normalizationVersion": 1,
       "sourceHash": "8195031cd19ddc2caa3a9e396aca938fd5761848f10bfe28deb3121d3cf27d03",
@@ -69,6 +97,20 @@
         "inputTokens": 130,
         "outputTokens": 9,
         "costUsd": 0.00005
+      }
+    },
+    "d01c93a81a4bf82154c2d18a7e94c9e0be4d09f29400bf017d4589b5ae085bd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "63819248388c362aa6fc3c0f95d9d0ab7c2d6d701de0c70f30369c30ffe6b841",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  Fedora",
+      "translatedText": "2.  Fedora",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "d024e2d1d1747612cdbc7db7b63fc4fa58efd71bd89c718683959f57ebd7921f": {
@@ -153,6 +195,20 @@
         "inputTokens": 152,
         "outputTokens": 44,
         "costUsd": 0.000099
+      }
+    },
+    "d03e0a05277a26627f0b653a6f7d1c310cd4f2cde6e326d49947239566445069": {
+      "normalizationVersion": 1,
+      "sourceHash": "468caa56ca6e6ab799f7a779994b543223f5598e6fd307e974f39320a97e1462",
+      "contextFingerprint": "33a0cf35ac61b25349101a0e1a20411f6b41a48221cf113ba9a7d5bc05c53a69",
+      "sourceText": "#### `<param>` 传硬件参数",
+      "translatedText": "#### `<param>` Pass hardware parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "d03e48f21f53405fc27e67f9c03abb7e8c38bb88b9367b21049cd9da493ab092": {
@@ -267,6 +323,20 @@
         "costUsd": 0.000118
       }
     },
+    "d0650d5a674c5855ef03a3e3db46a1266052b9e8de8ab9a90e2525b2dff21785": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba034e157b32614aa0e9b6dc6c165811a6521a11636493e1306506f247af40a2",
+      "contextFingerprint": "c71c86e85c05f819954524be6c42e407d31c27f67b8d0856fbdf2938577c7ac8",
+      "sourceText": "##### 查找 `idVendor` 和 `idProduct`",
+      "translatedText": "##### Find `idVendor` and `idProduct`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "d066f63097f6220678904dce73ef7e2770e030a17e63f284b531e4bfba46071c": {
       "normalizationVersion": 1,
       "sourceHash": "90ea5acdb32e04d00f1b6a6e241aa46ff5fa46093be37b250cb1bf76b590ead2",
@@ -365,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "d07e673776767c1fbc314175dea90ab11f1071a74bce1be62c1eecb58951454a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3615bc90aa023d41b682ac7574d0d1e97b691be81743b22902be23ea7cd92ed",
+      "contextFingerprint": "ae201a221d060cee753a8b26ce5e2c52c4707436cdd20f9e0174117ed22cc412",
+      "sourceText": "1.  `NVIDIA_DRIVER_CAPABILITIES=all` `--gpus all`没有英伟达显卡请注释。\n\n2.  \\--name后面请自己为容器起名。\n\n3.  最后一行仓库名称请你自己找对应的镜像填上。\n\n4.  ROS1在Fedora发行版下会爆内存，需要添加上下面这个参数，如果你不是Fedora和ROS1,**请不要加**。(现在其实也很少用ROS1了,ROS1已经逐步淘汰了)",
+      "translatedText": "1.  `NVIDIA_DRIVER_CAPABILITIES=all` `--gpus all`If you do not have an NVIDIA graphics card, please comment it out\\.\n\n2.  After \\\\\\-\\-name, please give the container a name yourself\\.\n\n3.  For the repository name in the last line, please find the corresponding image yourself and fill it in\\.\n\n4.  ROS1 runs out of memory under Fedora distributions, so you need to add the following parameter\\. If you are not using Fedora and ROS1,**please do not add it**(In fact, ROS1 is rarely used now, and ROS1 has gradually been phased out)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 116,
+        "costUsd": 0.000203
+      }
+    },
     "d082af6835174819c659b863455d54630c96719875a26f7bea5e7dd43b3b7c29": {
       "normalizationVersion": 1,
       "sourceHash": "c9673c8d349912634fa1d68afc52d8942e45b316bb609e752d76f373f0762052",
@@ -405,6 +489,20 @@
         "inputTokens": 148,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "d08a09cd639fddab49bd190a390e99af81e9398248dff47833bb5c2ca5b9a8e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "17a33e938445b2708b4d6f39ae6d5ba4d9588926c63d7b0318905eeed15b3a39",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "描述多个轴串在一起需要4个参数(每两两杆件都需要4个参数)，连杆长度Link Length，连杆扭角Link Twist，连杆偏距Link Offset，连杆夹角Joint Angle。",
+      "translatedText": "Describing multiple axes connected in series requires 4 parameters (every two links require 4 parameters): link length, link twist, link offset, and joint angle\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 39,
+        "costUsd": 0.000099
       }
     },
     "d08d05ee12446ba147d25c05c4f33ec9eb6628f8bf469f5adaa82e1286783b09": {
@@ -505,6 +603,20 @@
         "costUsd": 0
       }
     },
+    "d0a1f1b9dff1312d9c781357830d7e1d684c4368118c832634707ab23c9ca579": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c9ce4968b442ed192f6178794d462b912290c95330f1c67bcdd470d9cc66927",
+      "contextFingerprint": "e0f2266d89b6a8eb65158c48aa1afaaba7c5ea8eda23bcf27137ad4d5b01c381",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image21.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image21.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d0a23f13d62d12297a3ef9dce1a56f43322534a5a8cdcab0abb5b5bd5acebff8": {
       "normalizationVersion": 1,
       "sourceHash": "8eaa23326154ab518f00aa417a4523d40b8e8254fc15082c10be860351d61df9",
@@ -517,6 +629,20 @@
         "inputTokens": 143,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "d0a6822e51afe3b93b212e76fab6fef81957080eff68ee8a8edda9c9429b1f2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d06068e1cf511c9d9b82c89217f8bc3767d23507ce14a4f5054f59b96bc95e4b",
+      "contextFingerprint": "eb690cffc805ae24dce1173ea16ba93ec4717be3b836a6638729fa9ce623d5c1",
+      "sourceText": "*   ROS2 Control Jazzy 官方文档：https://control.ros.org/jazzy/index.html\n*   Getting Started：https://control.ros.org/jazzy/doc/getting_started/getting_started.html\n*   Controller Manager：https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html\n*   Hardware Interface：https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/hardware_interface_types_userdoc.html\n*   Joint State Broadcaster：https://control.ros.org/jazzy/doc/ros2_controllers/joint_state_broadcaster/doc/userdoc.html\n*   Diff Drive Controller：https://control.ros.org/jazzy/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html\n*   Joint Trajectory Controller：https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html\n*   ros2_control GitHub：https://github.com/ros-controls/ros2_control\n*   ros2_controllers GitHub：https://github.com/ros-controls/ros2_controllers",
+      "translatedText": "*   ROS2 Control Jazzy Official Documentation:https://control.ros.org/jazzy/index.html\n*   Getting Started:https://control.ros.org/jazzy/doc/getting_started/getting_started.html\n*   Controller Manager:https://control.ros.org/jazzy/doc/ros2_control/controller_manager/doc/userdoc.html\n*   Hardware Interface:https://control.ros.org/jazzy/doc/ros2_control/hardware_interface/doc/hardware_interface_types_userdoc.html\n*   Joint State Broadcaster:https://control.ros.org/jazzy/doc/ros2_controllers/joint_state_broadcaster/doc/userdoc.html\n*   Diff Drive Controller:https://control.ros.org/jazzy/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html\n*   Joint Trajectory Controller:https://control.ros.org/jazzy/doc/ros2_controllers/joint_trajectory_controller/doc/userdoc.html\n*   ros2_control GitHub:https://github.com/ros-controls/ros2_control\n*   ros2_controllers GitHub:https://github.com/ros-controls/ros2_controllers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 321,
+        "outputTokens": 198,
+        "costUsd": 0.000334
       }
     },
     "d0b13f99f9f062e798d2b0c4102027281f4600a0c0f7e05bc4d7fe9006edfb7a": {
@@ -545,6 +671,20 @@
         "inputTokens": 202,
         "outputTokens": 93,
         "costUsd": 0.000173
+      }
+    },
+    "d0b4dad9f7f3afa704a3d16a6a8e3b1a15855703213e93567d01ef088df9fe80": {
+      "normalizationVersion": 1,
+      "sourceHash": "370bedd2a698a6a2c85f6b7a100b7acb8abfdb82053182c94b7853fd6a3aea93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用的标红了，偶尔用的标绿了，其他了解就行。",
+      "translatedText": "Commonly used ones are marked in red, occasionally used ones are marked in green, and the rest just need to be understood\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 32,
+        "costUsd": 0.000082
       }
     },
     "d0b5187e9cf4465e4bfab33f409a27f86b4bf22f5e4e86fd7087ce6c97c404c5": {

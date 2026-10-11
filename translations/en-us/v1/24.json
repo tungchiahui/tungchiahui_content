@@ -29,6 +29,20 @@
         "costUsd": 0.000063
       }
     },
+    "240ecfa49262251a5697cb37c55cf362d5024a873394f9e9e103d6e455e8655a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8ab546cc46fcff16fc8748c856ca3ba829f3dfcb3ec22d4a57713ad5acd2151",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3.  然后点击确定进行分区，接着在主界面左上角点提交。",
+      "translatedText": "3.  Then click OK to partition, and next click Submit in the upper left corner of the main interface\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "2415935fdd4542c52ec9da42781ca1df81592a0751034b733ace5d21898f8046": {
       "normalizationVersion": 1,
       "sourceHash": "1cfa44beda145eb73a74b867cee325fb3f163739d2233a47f5557b0fee218787",
@@ -211,6 +225,20 @@
         "costUsd": 0.00007
       }
     },
+    "2448503a745f816fef376efd90cc464fca9b9a86aeaa83c6826488dd37aa2ee6": {
+      "normalizationVersion": 1,
+      "sourceHash": "632bbc51e6b030fd2a35e73f991a8b964d616afe62bd9a5466c0234b90d746b8",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 查看设备属性",
+      "translatedText": "##### View device properties",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "2462231c276bb311ada025f52c8b862c49645c07cd13f38b5303feef7a4d7382": {
       "normalizationVersion": 1,
       "sourceHash": "a27e97f58c3b00cc47a626e5ef5712bdb0646ac8d915aa822ff8d9b5d0a53b85",
@@ -265,6 +293,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "247240d9661311788124a9e80cd9fc54ab16b245f40cc147d2f42707b64196b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c200433cae9fccc49b4d140734e0a92b899524dad5043395cd718e08918df80",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 推荐检查方法",
+      "translatedText": "##### Recommended Inspection Method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "247cd6399d0941278cbc78badcd25ffd9b2b8201a7e6d5413c7197bdd91735e3": {
@@ -365,6 +407,20 @@
         "costUsd": 0.000064
       }
     },
+    "2495ee8936a33b2fe289a7ff67af14f609d5e2f5979922c110902fc59e8ba905": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a3fb62bb55f88accc84d633a8224f5a7dd7d84ef8a8378b90caafc2ad82c503",
+      "contextFingerprint": "e58658afc6526c52d9f9b32c438ae631c264c44b6388151512f2438f5b71aaee",
+      "sourceText": "编辑 `/etc/default/grub`，在 `GRUB_CMDLINE_LINUX_DEFAULT` 中加入：",
+      "translatedText": "Edit `/etc/default/grub`，in `GRUB_CMDLINE_LINUX_DEFAULT` add:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "2496d91e3b51557ea77aa98d571f8797c4b7e1499893ad3eecda685d6c55b5bf": {
       "normalizationVersion": 1,
       "sourceHash": "4284d1b768a6142032d8adbe5b86bfd2281245cf0b2a54ad9192711f072f3ea3",
@@ -377,6 +433,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "24976df5bba4c3a118f2a25bc267d46a7c437759b5f1cd4b6afbf62b4f984979": {
+      "normalizationVersion": 1,
+      "sourceHash": "357529ff652420c7fd5a419f4d97da9775a3fb309f1ef5854dd197c372d5359a",
+      "contextFingerprint": "ed809f5f4a6c81abba75284005989dd9e34ef959fd3c6045e2cfaf5b48a0c07e",
+      "sourceText": "2.  优缺点：\n\n    1.  优点：\n\n        1.  WSL2是最好的Linux发行版;(bushi)\n\n        2.  性能损耗极低。且比在Windows上跑深度性能 **强非常非常多;** （如下图，时间的数值越低证明性能越高）\n\n        3.  非常方便调用USB设备，可以USB直通;\n\n        4.  非常方便使用英伟达显卡的CUDA与cuDNN;\n\n        5.  非常方便Win与WSL2互相传文件等协同操作;\n\n        6.  WSL2中甚至可以在Linux的终端中使用Windows软件;\n\n        7.  非常方便使用Windows的VScode远程开发;\n\n    2.  缺点：\n\n        1.  无法调用本机摄像头，或说调用本机摄像头会巨麻烦。（虽无法调用本机摄像头，但是可以使用USB的摄像头）",
+      "translatedText": "2.  Pros and cons:\n\n    1.  Pros:\n\n        1.  WSL2 is the best Linux distribution; (just kidding)\n\n        2.  Extremely low performance overhead\\. And compared to running deep learning on Windows, performance is **much, much stronger;** (as shown in the figure below, the lower the time value, the higher the performance)\n\n        3.  It is very convenient to use USB devices, and USB passthrough is possible;\n\n        4.  It is very convenient to use NVIDIA GPUs' CUDA and cuDNN;\n\n        5.  It is very convenient for Windows and WSL2 to transfer files to each other and perform other collaborative operations;\n\n        6.  In WSL2, you can even use Windows software in a Linux terminal;\n\n        7.  It is very convenient to use VS Code remote development from Windows;\n\n    2.  Cons:\n\n        1.  It cannot access the local camera, or rather, accessing the local camera is extremely troublesome\\. (Although it cannot access the local camera, a USB camera can be used)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 278,
+        "outputTokens": 201,
+        "costUsd": 0.000325
       }
     },
     "249eeb35ce4a467ac1aaddc3450ce024928b5994b3eda8482b1299aa8acc9d98": {
@@ -491,6 +561,34 @@
         "costUsd": 0.000054
       }
     },
+    "24c0414fd02378682e536f02e15ff0a1bfcbd3e51207116d809c883f405c5bcd": {
+      "normalizationVersion": 1,
+      "sourceHash": "a952e5a650b50046f1367f301e8cd0ac685dd2b4d3c158d9e9ed56161acb12b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "答案是B。",
+      "translatedText": "The answer is B\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "24c31ccb85485ff04c7440f967e30c409d7a9887c8b4b7d0ce80926d414a1d31": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc7db3897842ad41f91182cd422fe8ddfdda6b3ea9d6aff9e50bfcca91dee756",
+      "contextFingerprint": "89749a8e8ba4a21f2097467768755ccb286be31f70a94258788ace69c22075d7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image289.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image289.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "24c591739d4456a992d65fa123f3c15ff37edbaa6868d82a338c049cedf45b78": {
       "normalizationVersion": 1,
       "sourceHash": "3f13b5f4adc75a0d0ac6cd8f364e80907702c5f021790ea9517de16afe071bf4",
@@ -603,6 +701,34 @@
         "costUsd": 0.000063
       }
     },
+    "24ec0e15223b7622a3e210484ab15dea077b5229a496df8d883afbd607231aaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "83799b22ffd1e96c1e44dbd1c87e3863c8837f737992524afea81fe3ce20ba92",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在部署AList服务器本身敲",
+      "translatedText": "Type it on the deployed AList server itself",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "24f026a952d091a672d694d48bcceaaf00c2a47780b042c1818fdbac2d20d672": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0f9e0e8ece5e48081d4d004d12da7f53d562ee4ad6417396e526ae0e6c403e4",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. 普通互联网流量直连；\n2. 家庭内网流量通过WireGuard访问；\n3. 根据规则自动判断流量应该走哪个出口。",
+      "translatedText": "1. Direct connection for regular internet traffic;\n2. Home intranet traffic is accessed through WireGuard;\n3. Automatically determine which exit the traffic should take based on rules\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
     "24f2a2c09405cfc9538de8371555f545b8c2bb60ca9a5267548a68d8f61a0a5a": {
       "normalizationVersion": 1,
       "sourceHash": "586f71ff2adeb1c1fa400fc713caee5c23734da35a6fde72ae6e71adc9aaa6d5",
@@ -615,6 +741,20 @@
         "inputTokens": 160,
         "outputTokens": 44,
         "costUsd": 0.000101
+      }
+    },
+    "24f8d983cab83a71ff35947e6ad2be31f1f7ce3fb17d3e4af3995d87c6671e98": {
+      "normalizationVersion": 1,
+      "sourceHash": "4067699ecc299db33f3f2886851e0bbbbe128ead2feebabc583b9a641fea31ed",
+      "contextFingerprint": "88e038caecc235dde054741fb84b50dbcac9fd8f3985ff2c3ce78b60c7be1e11",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image26.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/03/30/image26.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "24fe479982e776ad2830886d6c96b0219c796a05dd7b686b37fc357bec2480bc": {
