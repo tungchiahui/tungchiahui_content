@@ -15,6 +15,20 @@
         "costUsd": 0.000085
       }
     },
+    "78084050c1278327b33f6744626256e3e61699b4ecfb255c0105a82766966225": {
+      "normalizationVersion": 1,
+      "sourceHash": "ede8780ffd26e6688593e5a85ab6137dd3a6e47061cbcdf142d0cfd2695f1273",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例 1 和示例 2 为了直观，把实现直接写在模块接口里。真实项目里更常见的写法是：接口单元只导出声明，实现单元放函数体。",
+      "translatedText": "Examples 1 and 2 put the implementation directly in the module interface for clarity\\. A more common approach in real projects is: the interface unit exports only declarations, and the implementation unit contains the function bodies\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 48,
+        "costUsd": 0.000109
+      }
+    },
     "781e0aa7f9883a9e80b2a7be47a6e5bf5f728ab5c363b6f7df63d4e5c6c33c7f": {
       "normalizationVersion": 1,
       "sourceHash": "cf8aa6ce44ab45bb6c87c8e5349b0fbae60c87ab0f4a318649717fa4f25bfa87",
@@ -43,6 +57,62 @@
         "costUsd": 0.000057
       }
     },
+    "7834d54ada59f9e752d486c0f3f0760b940e2765f4d88f68a967942b98de7a0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f1f35039f5fe54a2e2246ed92326ff79882598d507fc9616c3c90a6d42c728d",
+      "contextFingerprint": "ebf61ab5641816af9024b8d615f4820d52592089838ebd0fd548b3cbbf38dd93",
+      "sourceText": "一般来讲，boost库太大太重了，而且boost库里面很多内容比如`error_code`，`thread`等早就被ISO C++收编到标准库了。\n咱们只需要用到boost里的asio的功能，所以在实际开发里，直接用`Standalone Asio`即可。",
+      "translatedText": "Generally speaking, the Boost library is too large and heavy, and much of its content, such as`error_code`，`thread`and so on, has long been incorporated into the standard library by ISO C++\\. We only need to use the asio functionality in Boost, so in actual development, we can directly use`Standalone Asio`即可。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 80,
+        "costUsd": 0.000153
+      }
+    },
+    "7848cf61aba34004e650bf1445f1655431c6df39f2268122dadabab67cad39f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "51809966557fe9c61348522ecd1e0271316f1eb46d6e394aac412f9fa5e0c50b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "你会看到类似输出：",
+      "translatedText": "You will see output similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "784c52897118f40d5f8b376d08611c0b28cc4226362c05a8736b24a12694ed04": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3a4b9efbf6ac383239db4d591c460f8225482f78247f99ef156736b0bdc29b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把示例 1 改成异步版本：",
+      "translatedText": "Change Example 1 to an asynchronous version:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "7857dc3803dbfd60aebb182c4ffd991dd7455c36feae7c59cdc306eebb103f06": {
+      "normalizationVersion": 1,
+      "sourceHash": "052a13a678e6f4285db1f7cfcf892b33c4378619453c49730cde1e745a938ed2",
+      "contextFingerprint": "aedd4964390f9f14749625b02fa5e6d60fae091b9d9f2bc87c5ed75528ddd6f3",
+      "sourceText": "或者在 VSCode CMake Tools 中选择 `linux-debug` 并点击 Configure。",
+      "translatedText": "Or select `linux-debug` in VSCode CMake Tools and click Configure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 20,
+        "costUsd": 0.000068
+      }
+    },
     "7861e8d3da428d0c742828dc01d4a433ba9417b827f214401c3025850b9bf6d8": {
       "normalizationVersion": 1,
       "sourceHash": "df3abb61616cbc463adba5271911f2776dbcddfbdc9faf2e68fb437f84774fb4",
@@ -57,6 +127,20 @@
         "costUsd": 0.000051
       }
     },
+    "7862b8586b74571f8d67095a73b6d1b46692e69239d2843fc34b7e5b862cbbdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a0dce94c9c47441fb9802a6011b27565bbf9f8541eb9289f579f4b6f8b35004",
+      "contextFingerprint": "559b0a7a53d85f3d32a9ac914f0b58b4c5851e2933a3c2c33dfbd399592ee3c0",
+      "sourceText": "这一步会编译 `.cpp` 文件，并生成 build 目录里的可执行文件和动态库。",
+      "translatedText": "This step compiles the `.cpp` files and generates the executable and shared libraries in the build directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "7868b8e522947ba189682c96797accba9ac3655e285be31b2b3282a174211242": {
       "normalizationVersion": 1,
       "sourceHash": "6f9dd9bc2ff51d8e90aa934efb34df84fb872bcbdbb455cee8d64901c9b4b7e0",
@@ -69,6 +153,34 @@
         "inputTokens": 154,
         "outputTokens": 31,
         "costUsd": 0.000084
+      }
+    },
+    "7868ff5ef1213309ee104501739de480b150bec3de9a07254d1ddde22ef90d21": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd15c7a1932fe0e67a49ebae3663208268326402213a20a500701a77909de362",
+      "contextFingerprint": "bbd3987cccc097e4cacb86eda019025b0720fc0958d01ad0ead897b3677588e7",
+      "sourceText": "`mutex` 关注的是：",
+      "translatedText": "`mutex` What is focused on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "78763a06e6ffd487aa8ea0740604e7a008ad1433d6d33811cb3aba753e4b4c60": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9321eac9ae9b320c8de848eeb430973fa81b55320a2f062a84c36348e8ee864",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这意味着：",
+      "translatedText": "This means:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "7880d27266e0ebcb1c22715f730b2438b1ba9c3d90c19b459e036752b48b766e": {
@@ -110,6 +222,20 @@
       "usage": {
         "inputTokens": 139,
         "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "789cd00c4d79c2fdd96c631e134b09498892e2f6ae46eadeaf578342c286a6af": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5be2c9a222ea81810f91d2f49d2504302a57c1707d48da87200d14b26f39a3b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序启动后，工作线程开始运行：",
+      "translatedText": "After the program starts, the worker thread begins running:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
         "costUsd": 0.000063
       }
     },

@@ -15,6 +15,48 @@
         "costUsd": 0.000062
       }
     },
+    "a51a22a62da5777a3da3508705c2812b534979c8089b5112be9fbfda24a2fd07": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cff919b7348a751a828e5712bc5db1da12224dd67f80586a35dc58828a2924c",
+      "contextFingerprint": "3301eac768cb9baea63975da61141c9daf1d6a0f4ae1064df180d208584cdfb6",
+      "sourceText": "这些是例程中不同函数的使用片段，不是要粘贴到同一个函数里的完整程序。STM32 端收到 `0x01`、`0x02` 后，回调分别更新 `cmd_vel`、`set_mode`；它自身周期性发送 `0x01`，没有周期性回发 `0x02`。例程接收回调在中断中调用 `feed()`，自己的业务回调应保持简短；如果改为多个任务或中断共同访问同一个协议对象，要把协议操作集中到一个任务中。",
+      "translatedText": "These are usage snippets of different functions in the example routines, not a complete program to be pasted into the same function\\. After the STM32 side receives `0x01` and `0x02` , the callbacks update `cmd_vel` and `set_mode` respectively; it periodically sends `0x01` itself, and does not periodically send back `0x02` \\. The example's receive callback is called in an interrupt with `feed()` ; your own business callback should be kept short; if multiple tasks or interrupts access the same protocol object together, the protocol operations should be concentrated into one task\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 109,
+        "costUsd": 0.000196
+      }
+    },
+    "a51ab7b3285d89856bdf645781b13349ceeb8abbd2fedb200291c720c346976c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c768e5177fd1cead8ffc3796f4bbcff9c397c327f113880030fabf4bb05ef18",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 提供：",
+      "translatedText": "C++ Provided by:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "a53535894032f4deaa91529240f50979bef0f841b81e8e2aa1198ed09c59f83d": {
+      "normalizationVersion": 1,
+      "sourceHash": "385f1ec25be3282208ee5092147c0d7e27ab7b225c60813cffc43996aa301d60",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 异步发送整个指定 buffer。",
+      "translatedText": "> Asynchronously send the entire specified buffer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "a53ef5e1853bfd7aa510c86aebfa08ffc8ba8f43abf6fc631623fec7d9d30219": {
       "normalizationVersion": 1,
       "sourceHash": "d5f79b70c83be05f0d589ee072d1ca92998a935294445c6cb58e05b9e43886ed",
@@ -27,6 +69,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "a54615c48eef097216dd5012a9f2ae034a214e4f618a8c08f5441d8667c8fedb": {
+      "normalizationVersion": 1,
+      "sourceHash": "af4168c4181a6e18466183a3090fcec063b12f82944fa1a9506811cf813e9dc2",
+      "contextFingerprint": "c18d9f349cf2b6a56461eb9ea386f801430c4dcea1c27969a7bf0e865abf1d1e",
+      "sourceText": "### `wait_for()`",
+      "translatedText": "### `wait_for()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a55719e0d237514ec1b8f9528551760be5343f64ca2228a153214c0848eec287": {
@@ -169,6 +225,20 @@
         "costUsd": 0.000091
       }
     },
+    "a5c55e2a2a15a10d9e642b324f75a9ee7707d018e3c2b445be83b6a27760bf8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "88fb8d8b01a95d70bb5e15fa29970f7aab82c7c0326143dba5a7f9e598d15870",
+      "contextFingerprint": "443a05bc33671016d62c7b5ef0700e9109d5d5a7c8bd1bea37eaacacb80c7e0c",
+      "sourceText": "> 本章面向机器人、ROS2、下位机串口、TCP/UDP 通信学习。  \n> 本教程刻意采用 `std::bind`，暂时不使用 lambda，方便初学者先把“回调函数、占位符、成员函数绑定、异步执行顺序”看清楚。",
+      "translatedText": "> This chapter is intended for learning about robots, ROS2, lower\\-level computer serial ports, and TCP/UDP communication\\.  \n> This tutorial deliberately adopts `std::bind`and temporarily does not use lambda, so that beginners can first clearly see \"callback functions, placeholders, member function binding, and asynchronous execution order\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 82,
+        "costUsd": 0.000158
+      }
+    },
     "a5c7ce1574be2829e4f5213fe62029c86dd7542d82862c4ef2c5311ba4711953": {
       "normalizationVersion": 1,
       "sourceHash": "5371a41b1a66003f23c0c0542120917fe39d7a4bd0a583731b48c58b6d0f743b",
@@ -211,6 +281,20 @@
         "costUsd": 0.000052
       }
     },
+    "a5d476c1a3d4039f6057eb9dce1030d0f4f657d2cc27922ab63e88a8694f263e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e27526df51306e100928bd83593a0e4189862eff950a5400708399f01685f37",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以想成：",
+      "translatedText": "You can think of it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "a5da3385a716f7c28a5be8ecb9a00ff53f0b27e6508680351d2e7d476e7e4700": {
       "normalizationVersion": 1,
       "sourceHash": "81ee0a54aeffa2889b5507b62abe2cf328480be8b4f160fce4b9ad169ef1219a",
@@ -225,6 +309,20 @@
         "costUsd": 0.000065
       }
     },
+    "a5f05ae019c93329e3bda153aac1791068ca37b5d14cb612241f6d0e1bbd139b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a8ab10d84aeec054334af0558093f7256b64bbb6946961e89561d088e09e2df",
+      "contextFingerprint": "a8b86a2a07f5c89b8045e7a10bcf9a4c32b8f2a94b1a7c60727b8297d19698cc",
+      "sourceText": "如果回调还没执行，`EchoSession` 对象已经被释放，就会崩溃。",
+      "translatedText": "If the callback has not yet been executed,`EchoSession` and the object has already been released, a crash will occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
     "a5f413c4bb2c9db29f3340c838f686817a51655c00a5173cb30ed07bf529a166": {
       "normalizationVersion": 1,
       "sourceHash": "eda2dc056e253e686f85ca46cc644f44ae8ae1a595c9b2d594a19b9a9f4ec139",
@@ -237,6 +335,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "a5f8e6ea82f4fd39c69c87c5a2eb2c809edfc5768a923d370f4ce2ca3dcbd2a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "07c24a7cd0676b41fe20791d4a3ea1ee3c87fd3f525ca75e34abe3c731619da0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为我们只关心：",
+      "translatedText": "Because we only care about:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "a5fcf70549c0ac8d99e2ec1d1de5f0bc07b8565d5b94ccf4cc9124b42f2380d0": {

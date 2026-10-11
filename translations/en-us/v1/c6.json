@@ -15,6 +15,20 @@
         "costUsd": 0.00008
       }
     },
+    "c61082941072c7ef7cdac7b77fa180c46cbc8b00e389a13bb99a566389a7a80f": {
+      "normalizationVersion": 1,
+      "sourceHash": "15015286ebf812e8c0eccc5601a3ff51f78f1da0d0ab8fc0e42b245482a0288a",
+      "contextFingerprint": "a52744f9bfc047073cb3e5ffe9343dbd05e9274325c251fb2262de70a541423e",
+      "sourceText": "`std::lock_guard` 不支持手动解锁和重新加锁，所以不能满足普通 `condition_variable::wait()` 的要求。",
+      "translatedText": "`std::lock_guard` Manual unlocking and relocking are not supported, so it cannot satisfy the requirements of ordinary `condition_variable::wait()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "c628923441bc013eb962f668861dd869de865b46afa5df97fd75f8acb9a0e1b8": {
       "normalizationVersion": 1,
       "sourceHash": "63c298de5a3e01c67dc63db6013f45d7c162cad3d6e070dce5681f627b3404d0",
@@ -27,6 +41,34 @@
         "inputTokens": 162,
         "outputTokens": 43,
         "costUsd": 0.000101
+      }
+    },
+    "c6379debce220393affcb0726799b749590a860101b92d37ab33e85d19d96b1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f20d3092283320757fee01fdecf3ad26d9cda7b54f7cae5f54a30be90f867c6c",
+      "contextFingerprint": "bfdfcf929a3ae6d29e3a69f7b1cf55b45fd3170ac6061d8714861d55bb9e1e0e",
+      "sourceText": "如果你改了 `CMakeLists.txt`、新增源文件、改依赖，建议先 Configure，再 Build，然后再运行或调试。",
+      "translatedText": "If you modified `CMakeLists.txt`, added source files, or changed dependencies, it is recommended to Configure first, then Build, and then run or debug\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "c6441a178a851e1ad9d2733c118f0a146fb33fa4b7c12c4cdc0edd79cfb65135": {
+      "normalizationVersion": 1,
+      "sourceHash": "33deaf06a692102f2b38445e8f4f67127b31fbccf78ea450c304eb1b7994fb2f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编译运行程序。",
+      "translatedText": "Compile and run the program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "c6497deb607996cd3f984e14467cc0100c001569526a25c433c497e2f298c4ae": {
@@ -69,6 +111,34 @@
         "inputTokens": 138,
         "outputTokens": 22,
         "costUsd": 0.000068
+      }
+    },
+    "c66904ef05abcff7c0c3ed0baa91b52ff2e73645d174536cef5af7d886f752f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "14db8683ecb43a057a2f75568361fa0f162e91d026b6c2a837e7a8beb5383f01",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是条件变量最核心的理解之一。",
+      "translatedText": "This is one of the most core understandings of condition variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "c676ba31c96a1927167f1d94f117c14879bee1e1dcaed265b53d6858e56b88b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3ca035d6b07d80e7feea4054c77232f0120ee392740730d705d182d6b05c01f",
+      "contextFingerprint": "d2abf6bec0fbbbe6ac738dd35655a87fa9850936adc194ed4ce8600c06a6be46",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707152235.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707152235.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c67d57bf033986477c9ae1c1a895d73a917b66e576dcdce5a0a2ce39fd33706d": {
@@ -141,6 +211,20 @@
         "costUsd": 0.000064
       }
     },
+    "c6c10cc9e6434a8c0896bce0b0c4e6250f54bb9fbf0d6c2ea5e348d869ef8944": {
+      "normalizationVersion": 1,
+      "sourceHash": "3453c046229845d821b8611372c5566884100a7130b2f841f0d7f96a933a0c97",
+      "contextFingerprint": "a297d7f982d60de6f31883c987747bb0343898293415e78ed2bcede81a9083d4",
+      "sourceText": "终端 2：用 `nc` 发送 UDP 数据。",
+      "translatedText": "Terminal 2: use `nc` to send UDP data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "c6c2123df86cc0b4d7f017610addb4c18306f88c5e481990967a048b95a34395": {
       "normalizationVersion": 1,
       "sourceHash": "5b6fc19d7de7da86e23d2d4b88d5dba44a3dbd5a9ca98b11194e975d4b95412a",
@@ -167,6 +251,34 @@
         "inputTokens": 154,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "c6d197614235d55348f46e4089e1d36ce1267a8e2fd236f58f635a44d94385bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d509a472dfbe150b92c6fab99a4e5c376eff1b873ed0ed81be06cd9e4bfb4a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一般比：",
+      "translatedText": "General ratio:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c6d682d72a05b4e882f593fc84cf101bd08d29c38aa41032100cf381fecf8cdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "069835fbb04f48f138a575918a40621636bae8a205fcd6cba1f63e9937df38c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正决定什么时候退出的是工作线程。",
+      "translatedText": "It is actually the worker thread that decides when to exit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "c6d6da4098a0b0d2ddade1e70526135a8fd32dd26bb68b986eba1091002f425c": {

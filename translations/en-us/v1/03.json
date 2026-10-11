@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "03042428cd12f56fed17cb2781e8ce64e412ce100ad5ebd466e5f01d5c423eaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9834cf34520ed80b78f1ae34384f163071b9b21010aef43d258d8cdfde64fa4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是条件变量最经典的应用。",
+      "translatedText": "This is the most classic application of condition variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "030b5a942d097b8ec0e25a44f60c8999df80e71aebe028a932135a68558d0922": {
       "normalizationVersion": 1,
       "sourceHash": "3d876e835bc5524b10218a17c8c9f47fcb9d9a25560c0cd35261736b9a8dd530",
@@ -13,6 +27,20 @@
         "inputTokens": 136,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "031239c51d158f5f86b51c314e3e64e2cd453fa115316f3b7de2da2bb38e4745": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6a156678130e969b8c564fcb5f01344963f3972fa1dfd3c3b90cafaed792823",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## wait 与 predicate",
+      "translatedText": "## wait and predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "03194126dd0a7b94af6f1689b289d04832fdcd3afcbff32e3f58ad95d2a86fd8": {
@@ -40,6 +68,48 @@
       "usage": {
         "inputTokens": 139,
         "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "033768c808f1af4135d06eeeec70e398a3256dfc8d57822719763990c6cb43a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b9ac62f11747bd571c5ee037419d4f87bde3ce19ba504e59b586043d9fe9b71",
+      "contextFingerprint": "a297d7f982d60de6f31883c987747bb0343898293415e78ed2bcede81a9083d4",
+      "sourceText": "终端 2：用 `nc` 发送并接收回显。",
+      "translatedText": "Terminal 2: Use `nc` to send and receive the echo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "0337992c0b0a247ac042689eae85b6ebdd094e640abc4bf7bef5e8e5928d2b17": {
+      "normalizationVersion": 1,
+      "sourceHash": "efc4309a1682b8d632cea919d547f3661a61bb00e8b50c53ddf90b857b5d237b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们可以让线程等待某个原子变量的值发生变化，而不需要自己一直写循环忙等。",
+      "translatedText": "They allow a thread to wait for the value of an atomic variable to change without having to write a loop and busy\\-wait on its own\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
+    "033eb5b0b6a5d39cb0d67219dcb32d8790abddfad0fee94fc655042ae0ec0ea5": {
+      "normalizationVersion": 1,
+      "sourceHash": "61844265c47e9e49e136767791181875ef9902079e13b193d2d538b8b34a67ab",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "这种方式叫做**忙等 / 自旋等待**。",
+      "translatedText": "This approach is called**busy waiting / spin waiting**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
         "costUsd": 0.000066
       }
     },
@@ -71,6 +141,20 @@
         "costUsd": 0.000052
       }
     },
+    "034f42922e6f96f6649fece4c33109a62f57351f03225d09b7b2dac8febf6ada": {
+      "normalizationVersion": 1,
+      "sourceHash": "129db80bbf1c068dbc4055a3de764dc034b9ac68a00466301e300138a348e6d9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的那些线程来真正执行 handler。",
+      "translatedText": "those threads to actually execute the handler\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "035f46732659e1847bc3fd943db7bd1d05a43f170685ed718943f5bd92f7db02": {
       "normalizationVersion": 1,
       "sourceHash": "1418c3631bab741e1fe0311a1f3850aa5e1cc0469b73327051c236dc05849911",
@@ -83,6 +167,20 @@
         "inputTokens": 144,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "036581bdc4c5edb434dace3e63182189d088dd419513124c8312602beb152e9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bef516ad7678b46e1ee7b1fc18d49b27c0acb852822d67eaa4e0aa0d53babb21",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而内部的：",
+      "translatedText": "And the internal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "037a67d218b3480b4d24fd3f90263ce85a24f3755f452c87e3241d6cfaaa3dca": {
@@ -127,6 +225,20 @@
         "costUsd": 0.000053
       }
     },
+    "0394a16dec2224ac87b733e90601e8b612f601d9329a4a748b32e2c0f9bec414": {
+      "normalizationVersion": 1,
+      "sourceHash": "f405f9e5887d3b3c9392f14632b6387a7c0eac17c7fe7f4d7cc91927ec87e717",
+      "contextFingerprint": "78ae599abcd8e26d185450fb639427117275f1094ea8b2470cbcd12c0ca0a543",
+      "sourceText": "只是普通 `int`。",
+      "translatedText": "Just ordinary `int`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "039689414f7122d2f6844f73a716c86eefac49be7b7c9cdecac6ab646724ec2b": {
       "normalizationVersion": 1,
       "sourceHash": "b5795e5b33442f1fa8645963f25acf0412a0ba5fd65d8cba806f7489602048da",
@@ -139,6 +251,20 @@
         "inputTokens": 160,
         "outputTokens": 42,
         "costUsd": 0.000099
+      }
+    },
+    "039dc4da4f88a2c1835b50b05a8babdabb9f74895f3c1bc89e53182e548ab096": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e1c51671478ff74583f8547acd2289970b90bfcbff3425964a35d2f365e0bfc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本模板显式写出目录，是为了让初学时更直观。",
+      "translatedText": "This template explicitly writes out the table of contents to make it more intuitive for beginners\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "03a1afdc92570e38a1ca654e8c836807d3559edda983b5d0194eaf72f97882fa": {
@@ -155,6 +281,20 @@
         "costUsd": 0.000059
       }
     },
+    "03a27fc13411843578aad3b3029c6a24451ea39e9f5d9b297fc1ad112827a37b": {
+      "normalizationVersion": 1,
+      "sourceHash": "99de373bc4d83dc495ddd525ddecb4bd1580c00d32498e96321e2d3bcd590a87",
+      "contextFingerprint": "00e20141de658a9351240523bd192412c109091ad35cfccc420683d6b0df08ff",
+      "sourceText": "`std::jthread` 使用的是：",
+      "translatedText": "`std::jthread` Uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "03c664179f6e87963e38de82040dd326469df7957c1eab8a81f14da367bf0455": {
       "normalizationVersion": 1,
       "sourceHash": "5e132cb83bc3d736b48dd4886a3eba14f74279ae637255670287c5f0156681d2",
@@ -167,6 +307,62 @@
         "inputTokens": 196,
         "outputTokens": 91,
         "costUsd": 0.000168
+      }
+    },
+    "03c77de93bd66f4fb90dbe6c11af058eb365092a4ad5fe64cdaa91790886d414": {
+      "normalizationVersion": 1,
+      "sourceHash": "269e71ce50762a4d127e212e0ec706ad5d9203db915891b4d5201b3aa3501830",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "推荐结构：",
+      "translatedText": "Recommended structure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "03deb960ab7e3ff2645bd22e4c1d5b45e25bea8655644cdcd2fe1128de99fad2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9f551b95572939054630d6f48a4491379f7593d34b8c3c6e1fcf4e5e3cc7f33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以不要假设：",
+      "translatedText": "So do not assume:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "03e698dbbf1b98ce5a43408246f8275c0267c21517b73d05020fc4f243277fed": {
+      "normalizationVersion": 1,
+      "sourceHash": "6241d1f4c30ab19bd858a373cd7098814e3bc03c63bafe1575740a8947497e5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前三行顺序不确定。",
+      "translatedText": "The order of the first three lines is uncertain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "03f18023573ec3e8d7b7fd77af05c3eeeb96da1a49ff223784ddcd96b7169346": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6be5b1c9ca04a3adfb57e912ca9b1cc917c11c0a2b421cacfd475233dfbb05f",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 常见的内存序包括：",
+      "translatedText": "C++ Common memory orderings include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     },
     "03f645e4943f20d93bdb072952c853880a8f6d559db33018d38fd8bafa8e8bb9": {
@@ -183,6 +379,20 @@
         "costUsd": 0.000076
       }
     },
+    "03fc0c10f14e1a90d425350488b4fe58ff7274b78c94d2c76df701e60c3ace90": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ca76b5d27637f1485c50b25da7cdfb2b3d9052bfc3abe760c14b1724cb23168",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "此时 `io_context` 可以同时调度两个 handler。",
+      "translatedText": "At this point, `io_context` can schedule two handlers simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "03fc1a161d5d4a7e94d9d2abb410b5fd38c0d917dea4112082ea05125d4650be": {
       "normalizationVersion": 1,
       "sourceHash": "bd8e58035d29c8adce5a11b9c66352dbf670baedcbb433419207bcb27ca6ca22",
@@ -195,6 +405,20 @@
         "inputTokens": 136,
         "outputTokens": 21,
         "costUsd": 0.000066
+      }
+    },
+    "03fca9e40580c9d03995dfb83720d6b1ca3168df16af6baa990d584a4dba4638": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd8f87386bd7a611725ece57a9a627bef387e5cce6cff2a894135e631e6d77c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正的执行顺序是：",
+      "translatedText": "The actual execution order is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     }
   }

@@ -43,6 +43,20 @@
         "costUsd": 0.000062
       }
     },
+    "3c23dae4f9d68c5070d11c086d1c4971a311b94bbc79508fcb18218a1835acbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d1c6b81268f0d1a40bbabbc1abfe74860811a07c8b73fad434c8b39b046faab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然 buffer 可以装 100 字节，但是：",
+      "translatedText": "Although the buffer can hold 100 bytes, however:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "3c268c23b6baa6e2380fcde5d3251dfd4274dd0656dcba0af59dbf9e0f359b81": {
       "normalizationVersion": 1,
       "sourceHash": "e382b6963c3ea17582acef22810621932541862d254032221caf431b6b913bb8",
@@ -83,6 +97,48 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "3c3dc74931b513e7fe356ff2f349d0a4472d5d16fc46a1ced13415882fe617aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e3ba1eb5c78cfb2c3e276c8acd0fabf11660f36630477a5837f18976b583c27",
+      "contextFingerprint": "8e515af118a59537b7e14ec174b2347c17076669e94783160ef2c13f71574f12",
+      "sourceText": "不能指望同一个 `array` 自动帮你保存每一次读取的数据。",
+      "translatedText": "You cannot expect the same `array` to automatically save the data from every read for you\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "3c3e85fb81646c9bd854e0f9152b0f2b3b5c530066bbe915c5afc279cc49f5f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "398908f41dcf64643a674ea78f506ccf9abe0b3e2b2f58d4696b835c44580eb0",
+      "contextFingerprint": "03abc8a4c37761ab3fa7993a2b95434bb79d54fb31530275832075ac0a424f65",
+      "sourceText": "不过 `jthread` 的析构不只是简单地 `join()`。",
+      "translatedText": "However, `jthread` the destructor is not simply `join()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "3c4235f1b60b07c4b434b72f0862d98bea7aadd1b9ca13f3dcf75ce038afad98": {
+      "normalizationVersion": 1,
+      "sourceHash": "24c3627f60e599afc311f8d0743f68838da2c54a97cd8694cd3d792cfb7d8983",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些主要优势。",
+      "translatedText": "These main advantages\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "3c51fcd83e3773b0f3e24acb5ac79201619bf58d4d1cf1ba08d744baf4c14434": {
@@ -153,6 +209,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "3c6b52a3f482f0ea02d8c0e8d388ed5132af707458fdc7220f0820e06bc43a6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a717e129d126fa489a8c35a0ed3d6615be0be22154e2bb0d2955f884841b7950",
+      "contextFingerprint": "d388f9c154ddd67039e4419517c5af6e888dbe4e7d60d6f2a837bb616c55926d",
+      "sourceText": "验证一个非常重要的现象：如果 `io_context` 里没有任何未完成任务，`io.run()` 会立刻返回。",
+      "translatedText": "Verify a very important phenomenon: if `io_context` has no incomplete tasks, `io.run()` returns immediately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     },
     "3c71b4a00e8a9a220516a43afac275a20d761104d838a12b9dbf574cd363be4a": {
@@ -267,6 +337,20 @@
         "costUsd": 0.00005
       }
     },
+    "3ce12d0ae5725cded7be3d4715d26f0b73f4adbb4afa987da2588969a4529ffa": {
+      "normalizationVersion": 1,
+      "sourceHash": "04ddff35b84bd2c3a63a2dd0bdb7c02d4e4d8687f37eb074a219115f4672ffa0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "才真正删除。",
+      "translatedText": "it is truly deleted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "3ceeaf1e67a3d08eb8d196fc20b8876fe2ccc390032dcc0e9edaf3b42d96acc0": {
       "normalizationVersion": 1,
       "sourceHash": "8ec2abbd1525c439319e0406801d95b03b6a44ccc6ca2c915a22a7195b0a887e",
@@ -307,6 +391,20 @@
         "inputTokens": 146,
         "outputTokens": 28,
         "costUsd": 0.000078
+      }
+    },
+    "3cfb8368ac52bf5f15e4ad04bb54d8978328a1e112e79b0dbffde1e576e7f7b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "684bded828fc1b8227b837ddbe488d13b4faf32ea691febabf5d28de4b41ecf4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如本例的接收缓冲区只有：",
+      "translatedText": "For example, in this case the receive buffer only has:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "480a46d917327cd1509a078d97f70d166342854171268e958e00d5f51c513f12": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d3b7234f4a73f8d719fcab76b631b1b63f1d3adc289a8d073e5244fc6bee215",
+      "contextFingerprint": "5ac5fe412fc34a5030ad4731367d2f9b0f314ba8df748e538ec754867d2cd597",
+      "sourceText": "### `async_write()` 的回调参数",
+      "translatedText": "### `async_write()` callback parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "480a78dcc6312d4fc88f4a8395d96601636c8c70b994936e5c1312313af0d1f5": {
       "normalizationVersion": 1,
       "sourceHash": "e66c876878869b3d5a418181b2ccc079483408f525409ea7edf2260074ff2ab3",
@@ -29,6 +43,34 @@
         "costUsd": 0.000061
       }
     },
+    "480beeb118910884bd05855fd524df66671bcd64cc970076359b723bab05ef71": {
+      "normalizationVersion": 1,
+      "sourceHash": "48bd2cfa935c771397262158d4fb429ca824514b5b7a0f5ace37041520205e64",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 阻塞操作也会影响停止速度",
+      "translatedText": "### Blocking operations also affect the stop speed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "4814e987ae67f15f9de8b224aa00ef59454365253dde61d79908d9e30cdb94a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac77663f42360a836ae9670042ee8c7adb31515db0485cace28c6aa74c54ab19",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发送数据后，接收端输出类似：",
+      "translatedText": "After sending the data, the receiver outputs something like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "481e04b7a082c71b7632a5757a44c193c93e0b22c2d8e20b518136cbe714bd7b": {
       "normalizationVersion": 1,
       "sourceHash": "8b582d67a4472cfb549831761ed5b4d9a349ffba79979c5f3f589cf712211dbf",
@@ -55,6 +97,20 @@
         "inputTokens": 152,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "4831006d679e546cffd46fe817bef2a3572ecc6247bc2a557ac534cc210442c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d6644bba95b9ba94eb23244334437eb562ed02871d744c3117eb165c9d89ba5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：用 CMake 3.28+ 或构建系统管理模块依赖。",
+      "translatedText": "Correct approach: use CMake 3\\.28\\+ or a build system to manage module dependencies\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "4833c58ce730de54ab7025370efb866a66270d92fb90ce27111abb3dfbea741c": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000077
       }
     },
+    "483ffe38548085d3550def0aa05b17463a72c7b152c0587bf480ec8e1a79f2af": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7f58e42ffd191dc7889c965577254461e5972154c93adb887c0975eef1a2b78",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "参数：无。",
+      "translatedText": "Parameters: none\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "4840c3ebcf9ead1269945bda09e28f6fe1593a11e2790e5ac1cadd9ca5321936": {
       "normalizationVersion": 1,
       "sourceHash": "35dab892449f258deb5a59a0cadbac97f81467fb22ff0b18019a4c31b6371da4",
@@ -111,6 +181,48 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4842378702655f3cf14c4e52cdcf6130413bc653c467a032a1ec295e746564d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e894377ebb1770d2d0488c4c35924a9d690a0fa5209b3f81cf005fe1e1b1619",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果要测试程序接收数据，可以再打开一个终端：",
+      "translatedText": "To test the program receiving data, you can open another terminal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "485b9799e4123038980987be96a75b05e91d5121b0839157741c81369f399310": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd2be0405fad0565402f1948818d73a12cc2bcdc2980b3fc37ed85ba5bb8896e",
+      "contextFingerprint": "c9ace3765278083c2790a1d061ee79e12a00c9cbff6c9bfadf9f11757babe5b9",
+      "sourceText": "clangd 默认会从当前源文件所在目录逐级向上寻找\n`compile_commands.json`。它通常能找到项目根目录或 `build/` 直属目录\n中的数据库，但不一定会继续搜索 `build/linux-debug/` 这样的多层\npreset 目录。",
+      "translatedText": "By default, clangd searches upward level by level starting from the directory containing the current source file `compile_commands.json`It can usually find the database in the project root directory or the directory directly under `build/` but it may not continue searching preset directories with multiple levels such as `build/linux-debug/`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 62,
+        "costUsd": 0.000128
+      }
+    },
+    "4898881832faa14f10e5f56d468358dbdb819982e630531046168e1e0f170dd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ba07e622575d2bcd34da84f68c3e23efc89daec2ca6937279fae9cca819962c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "自动理解成：",
+      "translatedText": "Automatically understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "48b9fb97235b7c61c35d31c64954586040b90cd43b28328fa1c032a197148c7b": {
@@ -169,6 +281,20 @@
         "costUsd": 0.000349
       }
     },
+    "48ddc44a47499a6e9113181524e8ed3d484f5c368ceaf7566d3531e45c1bea98": {
+      "normalizationVersion": 1,
+      "sourceHash": "76bcd103c793941fffcdf41bcbb5e84021b71340b2ba442f16191cf134796822",
+      "contextFingerprint": "d0d1d4de7c2a1583de747b8fa70603f1faa41b4e6789891f266d3de9b5db5e7d",
+      "sourceText": "`acquire / release` 最经典的用途是：",
+      "translatedText": "`acquire / release` The most classic use is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "48ddd6f64f7fa2644edcf1485c6b14ac9e43d850a764b0a17df4238e651e1008": {
       "normalizationVersion": 1,
       "sourceHash": "8a5053e3b1abb4c208afedb509d1d8cc085a65eeed74273f0c1c7fffeae1dc63",
@@ -195,6 +321,34 @@
         "inputTokens": 146,
         "outputTokens": 28,
         "costUsd": 0.000078
+      }
+    },
+    "48edcb4a2718b9c8aacc698afbaf591a2097a102a2e4ae9c9c183fcbbe767d09": {
+      "normalizationVersion": 1,
+      "sourceHash": "460c61e9153eb80ca2490fe16fb743e05e8059d9bc47ac2e539f1130f21adff9",
+      "contextFingerprint": "bb903e375df70a4067b23f4cbc8e07cd0b7a4989f22cee759eb5f14e17eb2409",
+      "sourceText": "### 为什么 `msg` 不能过早销毁？",
+      "translatedText": "### Why can `msg` not be destroyed prematurely?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "48f2f735360580aa83e53d1d12451deffa74d7435e0017c506c2ba293157a2e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ba370955db0566b326a7557697bfb00237fc2b5536919a390bf7ccc85156b13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它：",
+      "translatedText": "Therefore it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "48fa5de5c841028b28e393432717c01dbfd404ef3151a3e99dc362b763213045": {

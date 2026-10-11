@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4b02629341aed67a6f0036921d2a8e1946278e92ec93b45aae2f83b91b992cf8": {
+      "normalizationVersion": 1,
+      "sourceHash": "381f8b15689a6067d7613a1fb3d7619288dbf7579b234eaa2ebf9129ac72210a",
+      "contextFingerprint": "73173f0edbf3bfe343f04568df4b15e8558d3294d35c00bc5dae54aafa4ff1c3",
+      "sourceText": "| 旧写法 | 主要问题 | 现代写法 |\n|:---|:---|:---|\n| `NULL` / `0` 表示空指针 | 会和整数重载混淆 | `nullptr` |\n| `typedef` 写类型别名 | 模板别名不直观 | `using` |\n| 普通枚举 | 枚举名污染作用域，可隐式转整数 | `enum class` |\n| 手动 `new/delete` | 提前返回、异常、重复释放都容易出错 | RAII、`std::unique_ptr`、`std::shared_ptr` |\n| 手动 `lock/unlock` | 忘记解锁会死锁，异常路径更危险 | `std::lock_guard`、`std::unique_lock` |\n| 远处定义普通函数做简单回调 | 局部逻辑被拆散，不能方便携带上下文 | Lambda |\n| 只用函数指针保存回调 | 不能保存有捕获的 lambda 和函数对象 | `std::function` |\n| 手写适配函数调整参数 | 代码重复，旧接口适配麻烦 | `std::bind` 或 Lambda |\n| 用特殊值表示失败 | `-1`、空字符串等魔法值语义不清 | `std::optional` |\n| 用 `union` 表示多种类型 | 访问错误类型会产生未定义行为 | `std::variant` |\n| 手写时间单位换算 | 秒、毫秒、微秒容易混 | `std::chrono` |\n| 平台相关文件 API | Windows/Linux 写法不同 | `std::filesystem` |",
+      "translatedText": "| old style | Main issues | modern style |\n|:---|:---|:---|\n| `NULL` / `0` indicates null pointer | confused with integer overloads | `nullptr` |\n| `typedef` write type aliases | template aliases are not intuitive | `using` |\n| plain enum | enum names pollute the scope and can be implicitly converted to integers | `enum class` |\n| manual `new/delete` | early return, exceptions, and double free are all error\\-prone | RAII, `std::unique_ptr` , `std::shared_ptr` |\n| manual `lock/unlock` | forgetting to unlock causes deadlock, and exception paths are even more dangerous | `std::lock_guard` , `std::unique_lock` |\n| defining an ordinary function far away for a simple callback | local logic gets scattered and cannot conveniently carry context | Lambda |\n| using only function pointers to store callbacks | cannot store lambdas with captures and function objects | `std::function` |\n| hand\\-writing adapter functions to adjust parameters | code duplication; adapting old interfaces is troublesome | `std::bind` or Lambda |\n| using special values to indicate failure | `-1`magic values such as empty strings have unclear semantics | `std::optional` |\n| use `union` to represent multiple types | accessing the wrong type causes undefined behavior | `std::variant` |\n| manually writing time unit conversions | seconds, milliseconds, and microseconds are easy to mix up | `std::chrono` |\n| platform\\-dependent file APIs | Windows/Linux are written differently | `std::filesystem` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 331,
+        "outputTokens": 232,
+        "costUsd": 0.000378
+      }
+    },
+    "4b06d86f264fa7cbbb9b1f5b7ae0165c0ef0766012dc233888aba38bb58061e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e4c915a5365b981d1d7386ef573bb5a11cb16bef55557bb97db1f9853f22112",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "preset 的机器可读名称。",
+      "translatedText": "A machine\\-readable name for the preset\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
     "4b0e52e8cf43a5c5afa851bf55b145afab0f2480edb244443df0f1fba8059924": {
       "normalizationVersion": 1,
       "sourceHash": "27a62376fd635abf7fc60b3432283c57747f305ab7d0d05c756fb96f3c9543cb",
@@ -43,6 +71,20 @@
         "costUsd": 0.000093
       }
     },
+    "4b2872006e9b1f072ecc464cda23990e4ecb23466eeca54798dc0dae8e9641c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a536babd83afdede3c974edcaf3fc9b106e04b66ea63dd9c6572e6baae6fc254",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "现在程序里已经有两个线程：",
+      "translatedText": "The program now already has two threads:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "4b4510c30394e94e1ff8812aa509dea38c22ca449014ed964f96810eed3bec5b": {
       "normalizationVersion": 1,
       "sourceHash": "3f58430e81a2dec1da60b1c12c430a59a69322ee4396f5d9f36166859c8c03e6",
@@ -57,6 +99,20 @@
         "costUsd": 0.000051
       }
     },
+    "4b4895a36427e5acb9d3762d66947da403784c5eadfd8df55fdf5064a9e8f3d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "62f0d8d34206e05d7bb0acea8f3e91749bb3101158d4a8ce5eb1c8d6a430fdb2",
+      "contextFingerprint": "49f98aa1c2d47fa1b70585df44bf684ee288e87001edb2c7751c961d8f55c809",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377602353-447bf95e.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377602353-447bf95e.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4b4a9f57c465d5fe118e2d26c801879085c4ec9ba52be8c73bc11bcd7bae513e": {
       "normalizationVersion": 1,
       "sourceHash": "5c063ac52d29147ba79dd922275ee72fa14926ab713efec64cbe1d9e22df1549",
@@ -69,6 +125,34 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "4b55978fdd8ca90ad1a62eb2c289996f5f7c1727be4f7b959fe04658d1f34ab1": {
+      "normalizationVersion": 1,
+      "sourceHash": "247fedd528460c74ea63f234ec0d8ca093364dea86fd4078648c3f8b769be513",
+      "contextFingerprint": "0c387bab0e7ca8779c109e758bfe32d780f5bff48dd5b0eaa67eb61262d4af08",
+      "sourceText": "因为这个 `jthread` 已经不再关联一个可 join 的执行线程。",
+      "translatedText": "Because this `jthread` is no longer associated with a joinable execution thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "4b639c85a741a33c241505ccda92bd3cf6b8ef3359f5dd596761ab69192d18bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "5176793a9d9a9334a38a40a8246051a0c9b8df638e0214288dcbe162f6c6b5b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还有一个细节：",
+      "translatedText": "One more detail:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "4b6f1b35b6aed58209c1fc7bcce619c61992f5a5982bdad9d028e7059d69112e": {
@@ -99,6 +183,34 @@
         "costUsd": 0.000058
       }
     },
+    "4b73dd327a4045ef895a7b220fd17983055aeb170d835dfd55675addfb641e65": {
+      "normalizationVersion": 1,
+      "sourceHash": "be87461694a6a1ce2585f146f0e9324183b3fabc96ea4faac06632edb84446fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "服务端输出类似：",
+      "translatedText": "The server outputs something like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "4b79b12eb35384614add14e631e4c21b3e694c3bc9e78aac44dd3164e25762a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "671197f99d9a063bc945355aee638caa4264121bcfa0e86d866fc09462c7feb3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "属于更高层的组合操作。",
+      "translatedText": "Belongs to a higher\\-level combinatorial operation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "4b7e2e805654e57502ff401d1922717c4ef5c33257036461e10e41ce731a3868": {
       "normalizationVersion": 1,
       "sourceHash": "0224ce45372d6d1668b5e69652551471aeda03f537e833ccdb09aa117580d73f",
@@ -125,6 +237,48 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4bd236762af88a38485059f247e158d6a8f74968319e741f59611f20d805b0e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "822fee447f6117ff46badd18aa946ee10e6e1e355f189a834d1abd9faf92ac9b",
+      "contextFingerprint": "77cd3d460b1ebbfebdba65822645481505f40cc21590b6876299527608d8d2ac",
+      "sourceText": "属于底层的单次 I/O 操作。",
+      "translatedText": "A single I/O operation belonging to the underlying layer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "4bd949b37c9f89ddbee100abfb6ed4e30dd33220c08ac2e404d54142dfd4f20f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1d28970287bafe9727e714e956cc75d5a935e0be91a686c6854643031215d38",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而不是承担复杂业务逻辑。",
+      "translatedText": "rather than undertaking complex business logic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "4bdc08839a2d52d156eeffeb408a7f57b1a581a42278a1792484d5a2ed161a52": {
+      "normalizationVersion": 1,
+      "sourceHash": "447aa6b49c09bad56611b4b018c6cd8277248f6d8f5768a41d33b7395cd68610",
+      "contextFingerprint": "a858555b200568b094853dc928fe0dc6d4070d0896d36ee7a345c62bf3e7822a",
+      "sourceText": "从`boost::system::error_code ec;`换成`asio::error_code ec;`或者`std::error_code`（更建议用标准库，实际上就是boost库被收编的内容）",
+      "translatedText": "from`boost::system::error_code ec;`replace with`asio::error_code ec;`or`std::error_code`(It is more recommended to use the standard library; in fact, it is the content adapted from the Boost library)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 38,
+        "costUsd": 0.000091
       }
     },
     "4bde8a882b9ae47b56ba6b006dcda07987106e8b0d54cb4d8c3c4aa4cdd541d0": {
@@ -155,12 +309,40 @@
         "costUsd": 0.000072
       }
     },
+    "4be43c7b1d55a50f14609914efdcf55c2a5a9d073b6475b5b74c69be51a7b00c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e87744d1d2df72b4fe22fdb373916b3a8cd71c83c80294bd29bd7b176a1fef8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "二者最好保持一致。",
+      "translatedText": "It is best to keep the two consistent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "4be46db973d48f419ec2e170bacac34895c6405ab6e4527902ff35a694807339": {
       "normalizationVersion": 1,
       "sourceHash": "c88837acff444aa7f19f08b9f802b307f4ae1a28a3486453be326b7be8781fac",
       "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
       "sourceText": "C++17",
       "translatedText": "C++17",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4be8d6aa80148536a0a6023c028eab6c61836c51bbff42831beba11fa6a569a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfca77be066c83be9cbc558d43dd4886586eccb243dadb0e48d3c9ec962c2c78",
+      "contextFingerprint": "71c8ccabda699bfddac7b29ff1292f1c84fca317661ff0ddc71b2b42fe5fb62e",
+      "sourceText": "### `promise::set_exception()`",
+      "translatedText": "### `promise::set_exception()`",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

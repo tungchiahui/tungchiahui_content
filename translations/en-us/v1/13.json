@@ -15,6 +15,20 @@
         "costUsd": 0.000103
       }
     },
+    "130f7c4b795a4ee952c9725548cd63e217146cdb58d95f2a05eacc297659015b": {
+      "normalizationVersion": 1,
+      "sourceHash": "671fc1bfd5e9d7932d998474b2f3dc69f979f05a640263e4f464d2a498ca4f20",
+      "contextFingerprint": "adc52e2414cf6fdf50cc5e33133e84f311fbe984ae2c639a27b7394143f4c849",
+      "sourceText": "表示 `CMakePresets.json` 文件格式版本，不是项目版本。",
+      "translatedText": "indicates `CMakePresets.json` the file format version, not the project version\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "1312896ff4246dbe8d5b389592ba365fe951fb81c6a158eca963188a58c94965": {
       "normalizationVersion": 1,
       "sourceHash": "875b0881bd692cc3d3800acfaa546953ba15d86805a05a60127c534175c5b785",
@@ -71,6 +85,48 @@
         "costUsd": 0.000056
       }
     },
+    "133a80fecba38bf2f3d44853fdfc258c3a2eef5bd9a9bf73a75dcd5c5cde40f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1e85ca8265045610d6064dae76ae3933555cb39f0fa34fc711b673c28395162",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能会因为构建目录还没有生成而失败。",
+      "translatedText": "It may fail because the build directory has not yet been generated\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "1343c593897cbde4f1775ce38aa2805a00421d901cf446a6cd012c5624ebf8a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1b8223277959f4d4ec86652456925108ed4a9c99e61f5102d911e4593c06e90",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些问题都可以先用定时器看懂。定时器看懂之后，串口、TCP、UDP 本质上只是“等待的事件不同”：",
+      "translatedText": "These problems can all first be understood using timers\\. Once timers are understood, serial ports, TCP, and UDP are essentially just \"different events being waited for\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "134b51b1c663322642007beff08338cc898b96c4e7017ab9d1a100a0c7e65cdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a13fd3bfca0b09c5c93596778b35c51d57e371acaef5ce89648021f8fa77a63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 2 可以连续发送：",
+      "translatedText": "Terminal 2 can continuously send:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "135ecdf83986b9c451add096377ad411f863a1410de611209c032a4260ece101": {
       "normalizationVersion": 1,
       "sourceHash": "be14fd0ce4585a113bff83afdb489667b566f1052c941ec833d37650f1e3026d",
@@ -99,6 +155,34 @@
         "costUsd": 0.00016
       }
     },
+    "136d218d6e419e9ff32da8f77cf85596480f95bff565a3d2d5b517beec3bbbd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa8c698f8cf4b20cb06333578c0844fb2e38fc47983b1254a8b4aeb22dd67c5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可用许可会越来越少。",
+      "translatedText": "Available licenses will become fewer and fewer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "136d68cf20694936be934586b66ed31502f1a111e6de3325c630c7f6c457107f": {
+      "normalizationVersion": 1,
+      "sourceHash": "22e3321bf15cd22f4fccc2067a3cabfccf28591c7d6989e980d3ec928e819267",
+      "contextFingerprint": "1b586a17115f3f1984e6451d632514657b162aca16fae0a78e8c31bea5a039e9",
+      "sourceText": "`post()` 相当于：",
+      "translatedText": "`post()` Equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "137044fd976a3274ff88c8bf762a540f606a1f17b2478953a8251637b9c555ce": {
       "normalizationVersion": 1,
       "sourceHash": "f3bef377818ef9013c0d57c5e4e8f1cc86e9e3b4a08cf1a6996fdc9155144e74",
@@ -111,6 +195,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "13737ddc1ba0a874df644c7bae1649b3c2de7597bf74c9aea5f7bc1134206966": {
+      "normalizationVersion": 1,
+      "sourceHash": "b485bd6a28f509b0430aadce5234bf08c05f5bf94ff6ea812de67c5216b566ef",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**编译命令（以 GCC 为例）**：",
+      "translatedText": "**Compilation command (using GCC as an example)**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "13762770050c8e10525db7f4a5440f721422c0b90065b8ab568b7323169ac55e": {
@@ -183,6 +281,34 @@
         "costUsd": 0.000058
       }
     },
+    "139d4477f71e01be458c7055c08f689f4905462bd9b282a6c1326d803d8b872d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e6e7c2583e24973cdb8cf09d68c5c6bd81f10de48d41f8539c9c43f1d5a069e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "给 preset 添加更长的说明。",
+      "translatedText": "Add a longer description to the preset\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "13a1c92c63af4d0cac7278b8a6893ee3b3dad6ecf1528e78fd3fc3dafbe0fdee": {
+      "normalizationVersion": 1,
+      "sourceHash": "15bf806994d431395ee00c828c152d9bb074f54bde5fc7fdb0e8a06bb8825174",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个 Asio 线程仍然可能出现：",
+      "translatedText": "Two Asio threads can still occur:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "13a8c9b21840915fb37dacef905c2e07962a91a67297548fcde8fbc96f0c5a66": {
       "normalizationVersion": 1,
       "sourceHash": "4b94741222f45f7fd4d3f0d4c8b92a429210f68062364213d6e944bd3ea53366",
@@ -209,6 +335,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "13bcdc6640d65c81d298e3bb14ce0cdc66ff8468f2363258f7895ee6ce1cd510": {
+      "normalizationVersion": 1,
+      "sourceHash": "24cdb5238c82b0326933c8dffa457e8c0895137759c5736d2944a25d291ee8c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当另一个终端执行：",
+      "translatedText": "When another terminal executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "13c37a36608d079b4cb0a09b7434e22ab81465d590f5577f5427865804582c18": {
+      "normalizationVersion": 1,
+      "sourceHash": "0bb0755fcbd134a0f2e85caa72803ff49768990a2db80cbfef7f2fedfaecc498",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常见错误",
+      "translatedText": "### Common errors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "13c8e027a2ea562875c7bbebac4b55f3b82de9de84ef05bb18c9e670f24563e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f928353c5ad8c7e3fbc1c3c975c9ace835f4f6d35137ec1429cac7ca5e9a2cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果串口中的数据超过 11 字节：",
+      "translatedText": "If the data in the serial port exceeds 11 bytes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "13d51a85c8c24950c92e2df32fcfe95f78315b90097f855e8b3c7fb523e1a247": {
@@ -251,6 +419,20 @@
         "inputTokens": 175,
         "outputTokens": 57,
         "costUsd": 0.000121
+      }
+    },
+    "13e9c4bb2b36be100b8ed531e8213b8ce1f4156b2f0b5a46bbed78d6beae0cb7": {
+      "normalizationVersion": 1,
+      "sourceHash": "069418ec32f2d8c937a0f11485866edeb346d9a5df2363324947e43e4cdaf1b8",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**（因文件内容而异）：",
+      "translatedText": "**Execution result**(varies depending on file content):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a70dc7dcc0018bbdd064d6ede4ad0a5ee5e4f3ba0b8ec74d8f7aacf838f14dbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ecb044498832eeb1feda97f285f5e309687f25c3b97ad984952aaa0fddc53b6",
+      "contextFingerprint": "5ddebf1fd18b705f0b88b8083fe006379b1aaec67dfe5a48416270e03239ad2f",
+      "sourceText": "线程间共享状态应使用 `std::atomic`、`mutex` 或其他标准同步工具。",
+      "translatedText": "Shared state between threads should use `std::atomic`, `mutex`, or other standard synchronization primitives\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "a70f272154c3675101197c4e8d26482c579927f3fb7e69fe54931bbeec57c266": {
       "normalizationVersion": 1,
       "sourceHash": "f5c75aefdb7df985043dc1fa182e70253f4684e8ad26f24edcd5152226a22992",
@@ -43,6 +57,34 @@
         "costUsd": 0
       }
     },
+    "a743e83939cc446fb9da63758a1bbe30b10c34b96a00494531bbe2171a0c5d73": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7c1f1520ad1f4d58ca75f781526958f11d0ed78db91f4d8979a72f9c0714c30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 1：创建虚拟串口。",
+      "translatedText": "Terminal 1: Create a virtual serial port\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "a744ebc2c46abba83232b0c916bea41f6985fb82c48f4817fb32d9fe364bf8de": {
+      "normalizationVersion": 1,
+      "sourceHash": "21c4a261324a2ff994e9136097b85941730204dffcec5bc4ac2942eb0778da6b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行逻辑不是：",
+      "translatedText": "The execution logic is not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "a7520efd9a41b511195cbc5a0834479ca1093d698f07c4451d1f9b01698b8be0": {
       "normalizationVersion": 1,
       "sourceHash": "8ba94b42e79c279d9184ec7090f62f2def4f42e8ce6d4e4bac4f795724c94be2",
@@ -55,6 +97,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "a752d60812b62add58353e0d15892fea3b4b72f8348f18c7cdf959ed27c08ddf": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b230a19fb008c10e8528a2289947a11e218b4164bd3984cc2af0a81e0de9026",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "包装成：",
+      "translatedText": "Packaged as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "a753c48753894402069dbe45c5a7b2cc97eb3e679fe761b0cf5c77545ea35a98": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a7345a7d076bc0db6ef86b442b6122b45368618a23f75eba89eca76ae83f45a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在 VSCode 图形界面中，对应的是：",
+      "translatedText": "In the VSCode graphical interface, the corresponding setting is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "a7564d127238b8986af1c4ae060585a1a6cdb6a2deedbd437701e0db2319ab05": {
@@ -71,6 +141,20 @@
         "costUsd": 0.000186
       }
     },
+    "a75c5b26b6268e7b384a26ab06295eb571f80a35b922f9fdc888fc4d269deae0": {
+      "normalizationVersion": 1,
+      "sourceHash": "439e8c942ebfc0368a0c0093c373bd8043f8a6893bf400658575da82470635d7",
+      "contextFingerprint": "e8ff4fa461501288833e9bfa16bf5a36565a635e8ad7df336f9faeae12e37886",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789303670123-6fc66656.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789303670123-6fc66656.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a75cefc850c6476757369c051198e7ff765a4022efa19e6e5b15033ad64daed9": {
       "normalizationVersion": 1,
       "sourceHash": "ed3f0dc1f68123930aa1d6a090058c1e8bde7f9bd2c10477d3f44a1b864d6934",
@@ -85,6 +169,62 @@
         "costUsd": 0.000077
       }
     },
+    "a75fea64df0159dfea9f1c0ee95a0d4eeb0d2d49073b91505cf9782277b5a9e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c932ba10edf74cd3880844ecdcc12399330ff2f44d483a9c6f3eb880cca7d65f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这个对象刚创建时：",
+      "translatedText": "So when this object is first created:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "a76237e19950fc8e0249a4d5d60697111f922e05eb36b56853e7a4d03ebbfd25": {
+      "normalizationVersion": 1,
+      "sourceHash": "864697eb96b9c37fd9337481c54b789eeab3e5823376b700b964614eb0f5b85b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "含义是：",
+      "translatedText": "The meaning is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "a76cb2649a08e493d03f885f2bc440f170491f197fdc4c56d76cdf26d6f4175b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2282b8df6f3adc55f53fa93c4474f76d04b7f3328154271def832eb557cc9abf",
+      "contextFingerprint": "84a85f4f03ee968907439c7ae52a7e333dd8f347cf7524808e0fad1f652910e6",
+      "sourceText": "## 示例 2：普通 `main()` 里写同步 TCP Client",
+      "translatedText": "## Example 2: Ordinary `main()` Writing a Synchronous TCP Client in",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "a7740a904008a37874cd487ad3636bfc22984e7491a540d5edbdae48e766d5cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2485d5cf8572279e2bf94e3de789647ac438ca7d9a58279312716da83cb82ede",
+      "contextFingerprint": "bc009770f2abd7f23f1a84eab5618def2c0197471bcb4d5ab540c1275d073d41",
+      "sourceText": "正确做法：用 `-std=c++20 -fmodules-ts`（GCC/Clang），MSVC 用 `/std:c++20`。",
+      "translatedText": "Correct approach: use `-std=c++20 -fmodules-ts` (GCC/Clang), MSVC uses `/std:c++20`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 28,
+        "costUsd": 0.00008
+      }
+    },
     "a7744bfd8d1236fee1fdc9c4c7f580d0b2e2f82f7eab3951af85ac2dc7857387": {
       "normalizationVersion": 1,
       "sourceHash": "eceaf4b77e7c8d2d4cbb1cab5ff0d45190b726a093c868fea3b529406c914f56",
@@ -97,6 +237,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "a7829950c5f7dc32841b84d2ae0ce53e7a860cde0eeacb56991b53d73dddd664": {
+      "normalizationVersion": 1,
+      "sourceHash": "7eb930e129ce7bd589693e53094ef6921b202da3d15fd3629e624a7c7a4899b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果临界区中存在：",
+      "translatedText": "If the following exists in the critical section:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "a7838e0f54c748f6b0754e48e53055cef03fe44ee2aaa7a4d4e2ab1c46587d66": {
@@ -139,6 +293,20 @@
         "inputTokens": 171,
         "outputTokens": 51,
         "costUsd": 0.000113
+      }
+    },
+    "a7c5a520a1a17844c2318862459058532b91fcfee81191da0a01c02bb53977fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed1f42007a5b688cfef3f1cc86b69f3b0d29ab11945cf9aeffb5cc8f3078de1a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们的核心思想可以概括成一句话：",
+      "translatedText": "Their core idea can be summarized in one sentence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "a7f15a506c5303fd23892c66560a159ea2a4a20a98c33159571295973950044a": {

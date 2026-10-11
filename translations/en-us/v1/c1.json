@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "c1090929443c13de64f24ff161b4f4b62520a3ebd102f4bd091fa6a59349a293": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9d760b4ed93394dd15c76809d1737bd4d68ee097669aa02d5bfa6c5c8932f89",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：它不会阻塞等待定时器到期，只负责注册。",
+      "translatedText": "Note: It does not block waiting for the timer to expire; it is only responsible for registration\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "c113bd042156f34bf5c7d9a000b929e5955769923c04dcbbd709cd3e1278e6d1": {
       "normalizationVersion": 1,
       "sourceHash": "705e1ae52242e1896f6192500b6e284d34c59c491f41415345c7237a54d94b30",
@@ -55,6 +69,20 @@
         "inputTokens": 134,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "c12740b91910f0bafbbf21d4c1665d38b6c1908a87130117c62e50fb9a929172": {
+      "normalizationVersion": 1,
+      "sourceHash": "68c60f04499bdb74527435e4a37ca82c25d5b586a0940530a40d07fe73719bd5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 坑 6：UDP 以为一定可靠",
+      "translatedText": "### Pitfall 6: Assuming UDP is necessarily reliable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "c128b053215f24dc5035db610a1326c76a6140aad85ab204cad00ea1a6dcd281": {
@@ -127,6 +155,20 @@
         "costUsd": 0.000137
       }
     },
+    "c14db057fa690cfcf08666c65a5a02d0e777da3cc5d94eea911bc1834060891d": {
+      "normalizationVersion": 1,
+      "sourceHash": "699b1e9ae994055fe74c19521660ef7f92a72ad2d64cd804643fa4291974b3a7",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 核心概念",
+      "translatedText": "## Core Concepts",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "c165a48620183250f1cce20564a3d1cddfce7d1790c09f386f9d3adb485d20c1": {
       "normalizationVersion": 1,
       "sourceHash": "9fbd2d48b31dd7a2962d3ad72d5ee7d6f83b9c6ba2b91990eeb45119177dfb5d",
@@ -153,6 +195,20 @@
         "inputTokens": 164,
         "outputTokens": 49,
         "costUsd": 0.000108
+      }
+    },
+    "c17a295f401c1be58a58b07eb8bc4ac18b39c56dda33ccaa473f1b65f6603d84": {
+      "normalizationVersion": 1,
+      "sourceHash": "53404eab48eb8e6f420bf34dcdfd9bc39a28c83ce3a831ff961cbdf155ec6023",
+      "contextFingerprint": "896b1ceb1e947803824e842f972695883618489e1c83719563e77a6e2e790cec",
+      "sourceText": "### 错误：线程退出了，却没 `arrive_and_drop()`",
+      "translatedText": "### Error: the thread exited, but did not `arrive_and_drop()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "c17a5e0b4c2890da6cc25305c0182b06c40aab7a4d19fb63d9868d9061121639": {
@@ -211,6 +267,20 @@
         "costUsd": 0.000063
       }
     },
+    "c19543350acb35fbeaaf8c8cb3d0c08289b7759ef4f694fea9eab1a1eb2eb7d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "b51811014e26ba9a50859083623ccc996a25351e86a56dd3987fdf3faf265263",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于非常简单的线程，它甚至很直观。",
+      "translatedText": "For very simple threads, it is even quite intuitive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "c1986c098b67fc0762f7173011a58a23b5e4506be381747908ad099262bdb322": {
       "normalizationVersion": 1,
       "sourceHash": "b2fd3b5f12c710ef16ad25443bb23ae0d852fa1fddd1bff7025f399ee3fee8ae",
@@ -251,6 +321,34 @@
         "inputTokens": 144,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "c1b18a5380a3449d374dc69985be6dea3dd66818d323511ee97b5d814d582229": {
+      "normalizationVersion": 1,
+      "sourceHash": "c05562a5f5ab69b2d8817eeffc3970feb68f486bc50bc2aa2a7676f7509f08e5",
+      "contextFingerprint": "bd2313e1c6c016ac968a0d054840917e952575d5e7f3ef5d62d7d4ee0e13ce2f",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707202465.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707202465.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c1b22e1c0a1fb26423e8cf118adcaafe79d319e8d461144c8ab09776beb0f49e": {
+      "normalizationVersion": 1,
+      "sourceHash": "de7fa6d505277a548fbd2661b605a3e73cee852405d7347ddc0c58c087dda01e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "才是：",
+      "translatedText": "is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "c1cc9dbf05fb99f6ac1a65af397d8b4c8a1188931e6b0ff7107a8510f39408af": {
@@ -295,6 +393,20 @@
         "costUsd": 0.000095
       }
     },
+    "c1e49ebf4dd6897977fb6009ea73e3506081e44f5c459abda54af5184bde0dc5": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ba5372db3bb3ae17ce79e2ec11f5d5b748562169ca67b645b4af2eaa6896d4b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里不能写成：",
+      "translatedText": "This cannot be written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "c1e6dcd963792d922183ac725c3795f0f1b9c813377baa05743f0d60e69a1304": {
       "normalizationVersion": 1,
       "sourceHash": "7e9ce949376dc3f39eed3185f5fcd02c956dd7fc14ccc71b1f8492c056aa6b7c",
@@ -307,6 +419,20 @@
         "inputTokens": 139,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "c1e9ae48ab0b2c2d9d4086a11315bb391c4f1253514b6828381ebe1ccd18d6b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "fad07aafd0df781fd0721c4c6a3efdb6cd3238d722abf05dbc0624551c3fe23e",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "表示 buffer 的**起始地址**。",
+      "translatedText": "Represents the **starting address** of the buffer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

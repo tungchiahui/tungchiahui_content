@@ -43,6 +43,20 @@
         "costUsd": 0.000055
       }
     },
+    "05114b59c4b4b6f734d7089213f41322b84cc92d07695983c2ce811b49bd92c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2550e26c25dd3f497ec9fe9ec376351a5e0c499bd0a9ff3b2020fbf26ed7591",
+      "contextFingerprint": "179d42b380de0b79a611406501b6f9bb3249764b23d557565f5932b3cae38013",
+      "sourceText": "### 为什么示例 8 不需要 `strand`，示例 9 却需要？",
+      "translatedText": "### Why does Example 8 not need `strand`, while Example 9 does?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "051265faac9a5fadbf423bf8e165756026b9d0074c3dc5e134aca852352f6f8e": {
       "normalizationVersion": 1,
       "sourceHash": "ad4d30c77e3532a3a76f048a26ce303f9dff40111ba7b596b8aa06dad0091e8d",
@@ -169,6 +183,20 @@
         "costUsd": 0.000051
       }
     },
+    "05711a4e433cbcca1d9e88ea81df1ea6533eab7269a45776f49032268518f864": {
+      "normalizationVersion": 1,
+      "sourceHash": "a37a4570898a8bb867a6b87699776e1176238beef165a53f59e304e4c4e47935",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "剩余的数据仍然留在操作系统的串口接收缓冲区中，等待程序下一次读取。",
+      "translatedText": "The remaining data still stays in the operating system's serial port receive buffer, waiting for the program to read it next time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
     "05783315b3a639ad14f465cbd8198c4ba010a84e0bb0ba1a8d2e7e00b1fa6b4c": {
       "normalizationVersion": 1,
       "sourceHash": "0743a8e15c5c292e89799d276e09895046e1251672b9b1d9f84862c50a4dafa7",
@@ -181,6 +209,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "057c4888091bb6f240d44365bcf58a7972a8115353faa6e91540b6874cabcf03": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f9bfe49d60f233427749a6e7e89ab28bd0ace71ab7ece55324e67f1dda21373",
+      "contextFingerprint": "cefba221f955fd33ae11aa7e7fc1fbfefedd6ad22a6310d995120b1b97469be4",
+      "sourceText": "### `wait()`",
+      "translatedText": "### `wait()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "057ca914b6fef2fcddf06064ad236916469c7d076c89b5427b5414fa07705fa8": {
@@ -209,6 +251,48 @@
         "inputTokens": 191,
         "outputTokens": 73,
         "costUsd": 0.000145
+      }
+    },
+    "058afe5fd82941d8baafb0953d54195b7b25e57c70e0469db45b79a061250e2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ab041a6f16c2588f1569463872211256ea21ee8fab4783a2a818681e44fd569",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### latch 是一次性的",
+      "translatedText": "### latch is one\\-shot",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "05909580306b53e82b1d43a147ae4a61e31997f38912ac32ad0d1eb4b2214bdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9af58160582f0f3ff449b3791df4829ee94e952021a043638c04883f0d7376a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "则更适合：",
+      "translatedText": "then it is more suitable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "059414a1d2b37217cf675b660e36280578a4b85e28ca6591f8ff82fcc1b8f572": {
+      "normalizationVersion": 1,
+      "sourceHash": "607b4c28f537f64a7783e7121cff8583a45a6d3568f118283d851348e96c09f4",
+      "contextFingerprint": "bfdfcf929a3ae6d29e3a69f7b1cf55b45fd3170ac6061d8714861d55bb9e1e0e",
+      "sourceText": "如果你改了 `CMakeLists.txt`、新增了源文件、修改了第三方依赖，通常需要重新 Configure。",
+      "translatedText": "If you changed `CMakeLists.txt`, added source files, or modified third\\-party dependencies, you usually need to reconfigure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "05a8801ac65538f0449b8008004ae2b47c5999dfc0b06217f86ad166ac0a5f0f": {
@@ -253,6 +337,20 @@
         "costUsd": 0.000057
       }
     },
+    "05b54d434f682181dd0061950073b99381155736b19e326fd1be63dd57ec64d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d92fc480f5e5b222ca582dbcc108575020389204a6da2dbc8709fbce826ebfc2",
+      "contextFingerprint": "d78a724f80f6330f2ddb8bc8de6762e5ede7845fc82553f53f7a30a7bbf65c1c",
+      "sourceText": "> `std::async` 负责“提交任务”，`std::future` 负责“以后拿结果”。",
+      "translatedText": "> `std::async` Responsible for \"submitting tasks\",`std::future` responsible for \"retrieving results later\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "05b6c1a074bc1530d31062932ed12d7ca6b0ce451a4678ef430c444186f5e255": {
       "normalizationVersion": 1,
       "sourceHash": "e3056bc837354d9a07880f4870d9ed04788aea449cd64e20fc39ddbacbd68421",
@@ -265,6 +363,20 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "05d0f1efac5151163d09d48e17a5521b27456ec56b835817ba0003ba259932a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "86e5c436bf150e618f60a69a87a476bbdf35fc853b0dd5d7cac0c9ab86eeffa7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但程序仍然可以正常结束。",
+      "translatedText": "However, the program can still terminate normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "05e34ef6da2e17d4050623d0c0cf6a168ba459087ffe4284600bd913334a3d31": {

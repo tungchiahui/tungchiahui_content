@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0e262c301ea0c085b472c248f57447cee32dd1c16b8cef8855ba5552a9a432e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "66b7c9e3a4d7aef3d84095d8212aa2c1158965f2c30bea3bd0719262ec796708",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "UDP 和 TCP 最大区别：",
+      "translatedText": "The biggest difference between UDP and TCP:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "0e2a91443bffe8cb9f18333f694f7e133972aaa4cf5a4cbdae64909a222b5472": {
       "normalizationVersion": 1,
       "sourceHash": "290bb27c0af6b95ff7f333b54939352fe24faaddae02b00928f77c20aff19f16",
@@ -41,6 +55,20 @@
         "inputTokens": 143,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "0e2d562b7b56ea0f5422001d3b6771d2115394aba10aa972bf434eea21e84b7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0a859ff2fb1c8733c54a7a16f8883f574b75b887d5a3eca2c4b7f42863dd4ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并不是直接由 main 线程关闭串口。",
+      "translatedText": "The serial port is not directly closed by the main thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "0e35e8a0102a3ecbfa48bfa3dbfc42a05fc657403a513b86cef0f493f9d16e17": {
@@ -155,6 +183,20 @@
         "costUsd": 0.00012
       }
     },
+    "0e851cac469ae503f94f95178c78107f7bd30df691a664d54c4890e481073987": {
+      "normalizationVersion": 1,
+      "sourceHash": "58171e7835d02de57d7ec898a8a53e25e77bfb3b3d389505f31a631032e851b0",
+      "contextFingerprint": "821c9ffe30fd2c80f91cada277d4c833d635f0604b0e106fa09918ed73ffe329",
+      "sourceText": "> 等到值变成 `x`",
+      "translatedText": "> Wait until the value becomes `x`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "0e8da705eeb922c4b32e3a05609f1c7eda6f9e34132ce45f9d6e75c5a3cef857": {
       "normalizationVersion": 1,
       "sourceHash": "14b2aaafb0b2bf73105baaea749a7eee895c08e2f38f95119129f0a0176d5328",
@@ -167,6 +209,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "0e91d325d464f7899ee194bba345e79b6c58d58159ad2a372f7ed126eb695d3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "18d7fd61b46dbb7119206b1258d2f4b99fd1d132e39f550cb3a3e4a87f3da98e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，遍历目录中的所有文件",
+      "translatedText": "### Example 2: Based on Example 1, traverse all files in the directory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "0e983d361d9287015fc330089a537a55f2c65071bb3b96a5e3388c9c51a40a50": {
@@ -195,6 +251,34 @@
         "inputTokens": 194,
         "outputTokens": 85,
         "costUsd": 0.000161
+      }
+    },
+    "0ea5398a58e21b5698d1b198dba7a44bd9705a5c4abbdf4831bc204a4f305f9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "179a1cc0882e500fde4b841b1190aee186d81e47a8c29587746dd470dca51e91",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如第一次读取后：",
+      "translatedText": "For example, after the first read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "0eab5ff2084d4101b47888b2698b70643910b01a1eff41f7c028e39ed879ee87": {
+      "normalizationVersion": 1,
+      "sourceHash": "93b23e13c4cbcc7ccc335427b8d7216993cff26794cd2affcae7ae55301e4644",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "理论上很多同步器都可以自己手搓。",
+      "translatedText": "Theoretically, many synchronizers can be hand\\-built by oneself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "0eb875ba3dd784964ea14964c6ce5909b3f1418396e10a851665183b9dabbb11": {
@@ -239,6 +323,20 @@
         "costUsd": 0.000053
       }
     },
+    "0eedb5f682d8ce1806082afbc4fab86fa66bd2c7d1b4cdaef02e2bc0ab13936e": {
+      "normalizationVersion": 1,
+      "sourceHash": "57b312e03ba18f67dae6fa1b88cc8b3e6ad5c50ffd1b80c2ba08d960c1acffd2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等待约 2 秒后：",
+      "translatedText": "After waiting for about 2 seconds:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "0ef0e7244c14e7202a817270938548c8b2eedca9e21e7297097b136d7c5a761a": {
       "normalizationVersion": 1,
       "sourceHash": "7c2718b195be1dda1d906c507451dabd17fee038a1144b3a20a5a6c716b38e9e",
@@ -251,6 +349,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "0ef561071856013bbf631bb4ca4859749240449c7f7d5672751d100816c9d919": {
+      "normalizationVersion": 1,
+      "sourceHash": "55e941dc89472c7e2c576eac0e6d4b9e88fbe66e1646bb251949b58c87784da4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但某个线程执行完当前阶段以后：",
+      "translatedText": "But after a thread finishes executing the current phase:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "0ef65d69f8d936d91984c5d090e64f6e31ed6078a5223ea3600c0db3f7f19186": {

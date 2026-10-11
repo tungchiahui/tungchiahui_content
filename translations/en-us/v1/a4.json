@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a406b3224eca5897497554e39f8e29238294e229f216a80cad81395cfdfa884b": {
+      "normalizationVersion": 1,
+      "sourceHash": "181cceca58f94dce75fe64971a5cc9364bbcdecae4586c8a33e4e1d4d6763dfb",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 唤醒一个等待这个原子变量的线程。",
+      "translatedText": "> Wake up a thread waiting on this atomic variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "a40e4f42d4b2bbd091f16a0f59e888419069f0ee7aabb74a1991745d80ba8a50": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca36eebb73f81e5e7849516d1be95d1689ee60d11039800c2fe6a8fd11bb51fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把数据保存起来。",
+      "translatedText": "Save the data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
+      }
+    },
     "a418ba41b41a74b6761457857df75355756b9f3b34c14ddef06cc23839f0e5bc": {
       "normalizationVersion": 1,
       "sourceHash": "8fa0cf324195988f9fe76ff7d543a3c2a2f80ff2a457b5f1ae6598cfe5d4fc46",
@@ -29,6 +57,20 @@
         "costUsd": 0.000081
       }
     },
+    "a427e77dfe1144e550775bac7caa560d7b981fcb294af86420159220092103e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1073ffb90e3111a8f7b907bc165f9fb0c36cc5018748d09ef759e0c30c28f0c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只负责等待。",
+      "translatedText": "Only responsible for waiting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a42e6a5a3d4440b5d615aefcdb0f5136286486e445e14e3c07be198eaff96f77": {
       "normalizationVersion": 1,
       "sourceHash": "4773f699d263d627f921eef0d3dc6fcb2cf85a535ea8a6c8e4c984f139aad9b9",
@@ -41,6 +83,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "a432193d23f0f8b6dc73302f3c32925ab886e2c41c35a0d8c4b4b9d57eb80a66": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e43fa7ad6fbfeebe35eb81723e574be382c73945569f438fcb8468138274f7f",
+      "contextFingerprint": "09556099c5f731b97ba4e0a793fdd8eb74f85bd4da99dfc9190e04d26580d112",
+      "sourceText": "`volatile` 主要表达的是：",
+      "translatedText": "`volatile` The main expression is: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a434691efb677a7cdda183fc1d1c2542a84364bd3c25209871879efd6177b0ee": {
@@ -85,6 +141,20 @@
         "costUsd": 0.000053
       }
     },
+    "a43bc8da04d9195d486c991f7e96d8d58680c582e8d232c9f7ae68365e7b8041": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e610066c0dc1d36aa689986dc459c4cb97883376012e2e4e9cd733538c2706c",
+      "contextFingerprint": "b85ef8027f994570efc1a1642513dcbed30c29a3ded02222d3cb442d001f745e",
+      "sourceText": "于是 `wait(10)` 返回。",
+      "translatedText": "Thus `wait(10)` returns\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
+      }
+    },
     "a43d382576e005bac417b854d0c30aeefdb360461d536d8eb4806c66f206f0cb": {
       "normalizationVersion": 1,
       "sourceHash": "9f0d0ef3f71fe6dbd6d20b21f4910a43f2888ec899d00e8259cf589cb8e026ab",
@@ -99,6 +169,20 @@
         "costUsd": 0.000053
       }
     },
+    "a44c20cf4cd5fdca537d12d81533b8680f4a0e018c5857cc43f0ff748fa348ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "126f920205b2b2d9a1bac8ec1740ba5166830ecd37111effda3ac03665285933",
+      "contextFingerprint": "c4ece7dfd67599ebe133d3af1a0d430cec6d8ca1e90a21029e27e2764f700ea7",
+      "sourceText": "因为 `on_timer` 是成员函数，不是普通全局函数。成员函数必须依赖某个对象才能调用。",
+      "translatedText": "Because `on_timer` is a member function, not an ordinary global function\\. A member function must depend on some object to be called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "a44f7c0b7789f932486007171556e726005b39be86d3fb12c0bbeda06ffed87d": {
       "normalizationVersion": 1,
       "sourceHash": "31903e99b946cef6f2b1924783563decf2d09e7b75381173553eba9a735de6c5",
@@ -111,6 +195,48 @@
         "inputTokens": 143,
         "outputTokens": 33,
         "costUsd": 0.000083
+      }
+    },
+    "a45493b6732b6c1e706b935ce98c33fa434b3ef0e0c6fe43b7798f7339744896": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb4b31200475d77c5c70cebcebb637c905051b763f7dda540b823c67121bed05",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可能是：",
+      "translatedText": "It could also be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "a4577542ccb8171fff869115ea8a4fcd44d2d1b2222cb7284ab14485ac473480": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec53dbdff80eafd3eb542244e38964808f7e9f2081aea5d14389a71e7e4ff382",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "约 3 秒后：",
+      "translatedText": "After about 3 seconds:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "a459f894f549ca6fd78c1e3a9f4b5b70447bfb2e92bef47e04aa09316a067096": {
+      "normalizationVersion": 1,
+      "sourceHash": "557004028f3bb060d3441db526ce9253e5bdc2b2074d20d238ea38cf09572b8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后一定记住：",
+      "translatedText": "Finally, always remember:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a46feee76254df099c7071e0b99ef2770a44c5865c2156a37ad54131006dd303": {
@@ -141,6 +267,34 @@
         "costUsd": 0.000059
       }
     },
+    "a481137ac369f2df9b5c62c34220d80795d9bf0fbdd551991736084146dc6724": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cc31ebb622b80b2f1c2ffb91547d819e53a752c562009bb06049c92b3d4b0fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常会变成：",
+      "translatedText": "Usually becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a482c244eb73729752f63838ac6f3f9b5962032543abeb8e924885a46e6280c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6755de3750b0834c26290327f7e68fa64e6fbb9990e3ee8b79c69b2ef64fc02e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个类可以：",
+      "translatedText": "This class can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a493c0524e161807c9e5d7bf09a6fe209815e093a8d16485bebbe5436aa64589": {
       "normalizationVersion": 1,
       "sourceHash": "99c4f81d34ba21b29a5971eed6a23dba0511ea4a6ca7e3072dacf52254249150",
@@ -155,6 +309,20 @@
         "costUsd": 0.000077
       }
     },
+    "a4a3a7f44772301bdf85e77787e1ff1c24fa3d58dd0f89e68334cd9fc54ea3d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8cac4b0096d953e7c11a94a331a34648d2c5eba900388a5ef6b42399b0c51b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例先看它的基本含义。",
+      "translatedText": "In this example, let's first look at its basic meaning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "a4aace984fcaf4e30f398228a0ed4accfc9a62eab35d3f78b1e4d7d10172245e": {
       "normalizationVersion": 1,
       "sourceHash": "6227bded42c599f76fc6092fd67342c00baac2002eecb2e4a390c2749da534d1",
@@ -167,6 +335,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "a4da24e785e0b27855f40c39423f48baa08b96728b4c47c05a7d8d6ffed028ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "8af6e08070bd8ad0ffac0930aee39d174916d89dbece652b27eb231694dc6404",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以最简单的区别是：",
+      "translatedText": "So the simplest distinction is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "a4e080cf336ac287a1dc5434cbaee6f81ab4f144478cccb8a2f66e7f6bdcab77": {

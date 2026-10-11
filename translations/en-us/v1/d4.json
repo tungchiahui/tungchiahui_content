@@ -43,6 +43,34 @@
         "costUsd": 0.000069
       }
     },
+    "d42b4603a8b423a46a482e55d5391601ae7bdecd57dd6d7724948b93b7cd4543": {
+      "normalizationVersion": 1,
+      "sourceHash": "414e56a3e260d7a30b496f908bc9358639efd03e712718cbb6bf59ae43797644",
+      "contextFingerprint": "34fe778c8932b8173f82b6fc072ff4073ecd1acac50f97dd96f6061578f666d5",
+      "sourceText": "> 变成 `true` 了吗？",
+      "translatedText": "> become `true`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
+      }
+    },
+    "d42b6951ae8b3f37fb408b2b9374bcee890fed9309fabd4e3a8c540620ff9cb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ec74a7cacb39bebc0254c7f33cecad279850e12bf5dacab1433dd11e83cd247",
+      "contextFingerprint": "451e56c226801bbf91b27bb99586a140e77be51e41c6cd856e54c1ac86645178",
+      "sourceText": "1. 注册 `async_receive_from()`；\n2. `io.run()` 等待数据；\n3. 收到一个 UDP 数据报后执行回调；\n4. 程序结束。",
+      "translatedText": "1. Register `async_receive_from()`;\n2. `io.run()` Wait for data;\n3. Execute the callback after receiving one UDP datagram;\n4. The program ends\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
     "d443fc7eeb6c2884725d9b9eaf5fcd000403e6dea9c8e732294d6261d7d8a0a3": {
       "normalizationVersion": 1,
       "sourceHash": "08adc93689c9003da79fd481ab0d3171419d9f43eb5773fb6240e28d5dcd44c9",
@@ -111,6 +139,20 @@
         "inputTokens": 241,
         "outputTokens": 118,
         "costUsd": 0.000214
+      }
+    },
+    "d47ac6622ae18b5ce074b69d29e58e40bd67b87e4009dea30c58ac3660be4ecd": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a8eef24ab8f2a26f46dec911b814e1af7554997fe2d082e5ba0ed4f8ec24bbe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这适合：",
+      "translatedText": "This applies to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "d4936e6bb952adce9472ce78b14132fd5b1ebbeb1b5151d1dbaceb53d4ee7266": {
@@ -211,6 +253,20 @@
         "costUsd": 0.000052
       }
     },
+    "d4d4820ae4cbf69510b67b9c4ddb1216427852898ebfe96e85ab6fcad9902d1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9eb934326d307c78b44ca4ff5bafb311416f0641dc45ae4897bc5670e1804278",
+      "contextFingerprint": "30841001580eb920fd075eef4fe09bf52541d182fd099abd7cdd5def66f5c51c",
+      "sourceText": "说明这次等待并不是因为 `ready` 成立而结束，通常就是因为收到了停止请求。",
+      "translatedText": "This indicates that the wait did not end because `ready` became true, but usually simply because a stop request was received\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "d4d93aca459265f2abdf1b885e9ee9d7d4e4122eb0ab98f2301edac7cf7bb002": {
       "normalizationVersion": 1,
       "sourceHash": "d9032c51701c10b1375f6cf8ac22482f5035ef358823b23a4ee951ebb5e38ace",
@@ -251,6 +307,20 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "d4e5cad475613fe908a47bf7a9a2fc9b009fded12c1373be9d8335171af5fe24": {
+      "normalizationVersion": 1,
+      "sourceHash": "78a67f58c8385f79addb1a7fde509d4308a9b559566f2fa817e4fa8602436398",
+      "contextFingerprint": "d42103894d16c66e3f31c633f0c060225b2e8eb508e393f5388d4770f3a7a4af",
+      "sourceText": "## 为什么没有 `installPresets`",
+      "translatedText": "## Why is there no `installPresets`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "d4fb35cdfa31e7406a52681f73b6bc715db1c351672139fc989561be1c4f706f": {

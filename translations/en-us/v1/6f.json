@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "6f0d050907144295deba9a5c3ac07c2f2d3dd9f0c8674661c31800d1e49d0d43": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd0c2476e1da7ea82399bf335418d4265cd7cf0f838a1111ede87580af1bab15",
+      "contextFingerprint": "459d558e1950713412bf94bc421cbb8c6d2ca618a39a51288d7e3ecd53ea7afc",
+      "sourceText": "写一个 UDP 发送端，向 `127.0.0.1:9001` 发送一条消息。",
+      "translatedText": "Write a UDP sender that sends a message to `127.0.0.1:9001`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 17,
+        "costUsd": 0.000064
+      }
+    },
+    "6f1afdc27738410ec7687ff8950ba6219c46459af326f93a0414cdc42b7ccc01": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef392e1badda8c88cee53ed89b1a8ccb0a2e5e4d338935c713d9f7b800fc576c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "服务端输出：",
+      "translatedText": "Server output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6f219808140310177e780f3808035d81d2da3e7ab0358f15667e2519dc298e46": {
+      "normalizationVersion": 1,
+      "sourceHash": "554a4eedca5f7a216edd5156d12a7c92058db5a4c2f22f364a2cd145922524e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直到累计收到：",
+      "translatedText": "Until cumulatively received:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "6f250849c7a7af3999eeb9003c4ecfc428173f5625f59a59f8ef670e80525999": {
+      "normalizationVersion": 1,
+      "sourceHash": "226160d7283a6b4205a234f0068893ded8b95c73785be8714026be03b9589829",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以需要：",
+      "translatedText": "Therefore, it is necessary to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "6f3dc066952618d83f777c61bd360da5fb711e5637c7cb308fac46ca75c6bf40": {
       "normalizationVersion": 1,
       "sourceHash": "030e5c24411dfb2bd0165a3256594dcdc9bc6abd667ac988a1e84a8277d2f10a",
@@ -13,6 +69,34 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "6f3e5b0b9e8ad1e5ea86a66563385093356d8a32f1178051dfbd9c47faf0b259": {
+      "normalizationVersion": 1,
+      "sourceHash": "30d88b6c5ae100dc7192c1dcef4d2df5455a150ac030f0c823563574eae42e26",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正的状态必须放在：",
+      "translatedText": "The real state must be placed in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "6f3fd7ba5b4fd7ddc7584420d82e926f6790460d0962eb379f173011a9ff4afa": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5f64a6a030431d52443b230350f2978c8179134b106e1756752326b048ae277",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 最简单的 wait / notify 示例",
+      "translatedText": "### Simplest wait / notify example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "6f4ca77e63adc3afd19e11b9623ed02fc1cba271cc5140d4de7779fd2821e0d9": {
@@ -41,6 +125,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "6f5ddff45a188bcc54519fd44f83a2ff2d86c955f7e0583b8f062ca79eeca19c": {
+      "normalizationVersion": 1,
+      "sourceHash": "62a82bf6e7f978ea51dabca947b90ba59a52f888804cea92757862fb024262ff",
+      "contextFingerprint": "008df288461b70845fdcdef0cb5fc55e11db6019d3d179fecf3ea1c67ff9a1ac",
+      "sourceText": "#### `socket.read_some(buffer, ec);`",
+      "translatedText": "#### `socket.read_some(buffer, ec);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6f69c306d486e464c0a24ef82de3228c16103f937060b1f4fb7829457fcda197": {
@@ -153,6 +251,20 @@
         "inputTokens": 140,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "6fd689973a3cb43ca77dc7293b304004ecfae342e23b563edd650f1484df40d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f010e737511abde774e86c6c2a07a8f1444e3bf4b4e64ff4805fc534004360e5",
+      "contextFingerprint": "937d99a99a7b25a7469d631c80dae1b803743eb3e476f0f6d01bcccb1f703050",
+      "sourceText": "### `async` 和 `thread` 怎么选",
+      "translatedText": "### `async` and `thread` How to choose",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "6fdaba4e8e68bdaea5a6e6c02f8f0d857f0691dc04f4f6df9e1d9837085e9059": {

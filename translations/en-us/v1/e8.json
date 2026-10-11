@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e80482db224824cc3fbeede79c3b13b4c26adbdf4d221b281dbe73a38ccc14db": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff06ad8ee5a91079c6c0dbfc4f918cee283952087d56b2077c2050e56c662162",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学完之后，你应该能做到：",
+      "translatedText": "After completing this, you should be able to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "e805b62d3fc1be556e18bad341901e9253c7e5efc2c59f6002dd96ee2742fba6": {
       "normalizationVersion": 1,
       "sourceHash": "e451ca35255b1d0b8a8c1da21438ca66284192389703de027ba56c3ac315415a",
@@ -27,6 +41,20 @@
         "inputTokens": 223,
         "outputTokens": 127,
         "costUsd": 0.00022
+      }
+    },
+    "e8215c4b8a50b45dd826a96568ae58f4dd43ccde48cfc08ca80bef7191680231": {
+      "normalizationVersion": 1,
+      "sourceHash": "1924ce9a2230b293ec4892c8181aad0b10dafe1856e381bb0127ac964b99de6f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然线程安全了，但线程会不断执行：",
+      "translatedText": "Although it is thread\\-safe, the thread will keep executing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "e82aa9fbfcc669bed56c70b96fc3f8a7a48c9a1ea5e9b4b682ae61f9bc55e341": {
@@ -69,6 +97,20 @@
         "inputTokens": 180,
         "outputTokens": 69,
         "costUsd": 0.000137
+      }
+    },
+    "e8300616be982a60cd053202b97d2277795d3e3bc4745890578bbde2d37f26da": {
+      "normalizationVersion": 1,
+      "sourceHash": "4396976758be3f5912dc3287f78ef828fff5028312bb5781c4a2ba7f49e0aad0",
+      "contextFingerprint": "ede4a673324f9a1e44c76fff3bb06d2c89082747b4b46679cbd5acdcecaba064",
+      "sourceText": "#### `SerialTransport::stop()`",
+      "translatedText": "#### `SerialTransport::stop()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e836f3d447385787a3fd0d4a20beb1f9f7b44f6e181e10541f6c3a2b289e1e66": {
@@ -127,6 +169,20 @@
         "costUsd": 0.000073
       }
     },
+    "e8583a48f5445c94e10b77d0819859587f0d5531d3a2dd800a91acacdcccf218": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed7a58d3db3abe3a8dcdd9be669ea04b93f014ef1aa1c4617497deaafddaaef1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为 worker 后来执行：",
+      "translatedText": "Because the worker later executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "e85ea79feb60e8662f0586114f80402d38f20d079c1ef198d65b9b5f3d1e9709": {
       "normalizationVersion": 1,
       "sourceHash": "03b4d8d6d35082f5f24d2c6869db9693969385516a37051264d57740a156f0a5",
@@ -139,6 +195,48 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "e861abc0e7edd8f0cc39aeb0553d7b469923bb1ae8e41c77dac6acb91d5fb5fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "76235ca99cb1d77773a8f524367831e0a59573f3d5349cdc9d070f05ca73b4b5",
+      "contextFingerprint": "04ac653596906cc6aea9a180027a5ae41804764a2bfcf12b0a735e3cbffeddef",
+      "sourceText": "C++11 在 `<future>` 中提供了一组更偏向“任务与结果”的并发工具：",
+      "translatedText": "C++11 in `<future>` provides a set of concurrency utilities that are more oriented toward \"tasks and results\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "e862e4eb5ea29c3488c7b753caebfdae2cd2370c6ce652b952d3568ebddd0296": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb14879e0f66650817e67fda16ebb539e7f74f1d418c91c1ad9c6f90833c7048",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "所以刚开始的时候，`io_context` 里面其实真的没有任何 handler 可以执行。",
+      "translatedText": "So at the very beginning,`io_context` there really wasn't any handler available to execute inside\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "e864bf81496abb883cfb1127bfb7f66f654477150d94381df2472bf4de4dfcc2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b4e10d084526061e1ab754f4a81af553a00c53bf8ab063b932cb05c320f1e0c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "strand 只能保证：",
+      "translatedText": "strand can only guarantee:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "e86d9a8746b621ad99b5d0153273a6ae4a997fd6a971003fa5e125c73aa5e84c": {
@@ -167,6 +265,34 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "e8730f630455c01c39d96fa5803be907f47dc5ec53ad199d0467a367fcdc7639": {
+      "normalizationVersion": 1,
+      "sourceHash": "046b68e6769093e5c63d525c19561f26e6da3809e83d5da24f34866726f0b8cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序启动后输出：",
+      "translatedText": "After the program starts, output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "e88181ad5af4a15b9934d95e3b9f1e77b21850c125751ab133b267a7d445a8f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "ece779a173f0d7c2c63db617df131fdfa668412f62b5f153f7190647e1fb92fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一节把命令行操作和 VSCode 图形界面操作对应起来。",
+      "translatedText": "This section maps command\\-line operations to the corresponding VSCode graphical interface operations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
       }
     },
     "e883f6a28be6d8f5bf0e6e85b48579842ed315a11a088c8323fcea91030b3296": {
@@ -253,6 +379,34 @@
         "costUsd": 0.000053
       }
     },
+    "e8ac404b7a4062297e45ff500d5ef96111635cbae51918509cf22d7647b97611": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff6fd0d9d44354220eba4d9848ad92b66fd31e2d43b39f2f06af8f0bf8ff9a15",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这两个文件决定了整个工程的基本身份和公共编译规则。",
+      "translatedText": "These two files determine the basic identity of the entire project and the common compilation rules\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "e8b276f2c1e344dfd342beeef6434ee941019f07f5d023fc6f5b25f616ff16f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5842f8cad942e8c1750f3cd9ef0a508d30a541cbc7f13faae619f8bc1742a27",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初始：",
+      "translatedText": "Initial:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "e8b40fe97e35d3ce07ed222bae9978a3b9cb6e257b9e31ee3eea7de4c8e4f14f": {
       "normalizationVersion": 1,
       "sourceHash": "d512d132e6c7cf62e21c314f5821189d13e5cb6d59f7b9c353d4b8200bb835f9",
@@ -265,6 +419,48 @@
         "inputTokens": 165,
         "outputTokens": 44,
         "costUsd": 0.000103
+      }
+    },
+    "e8b7d8ede583ea6b54cdf4acba599c49a6c25deabe15cbbbf81a2404e9735f9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6803a0b00e3bb4963ebecf3aedef20ce6c9459f0aa0b626a3754bc61371c5adb",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "如果一个 `io_context` 只有一个线程调用：",
+      "translatedText": "If a `io_context` has only one thread calling it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "e8bf4b4e140a224017154cbce3e8fd95787d542d284598a4bbbb4e416aeb57e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a018df6624d698f35ca88ff32f9b702f692d68751e29bfb452f31563fcb23f0",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 我要把整个 buffer 都写出去再返回。",
+      "translatedText": "> I want to write out the entire buffer before returning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "e8c666b3fd3b2c77a0aeb8237792f2b6baf8450e6ed8fe21eba01aee606b0b4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7b65e1b83bf4c694c98f94916445054d1e128fa846bc4a8d054b3eb6301fce8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个线程此时都在：",
+      "translatedText": "Both threads are currently at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "e8d6663b8ff5b6f9faf3404fae635afb2d203a50943c97c53e6ad897cf887889": {
@@ -307,6 +503,20 @@
         "inputTokens": 183,
         "outputTokens": 74,
         "costUsd": 0.000144
+      }
+    },
+    "e8fece375a63372dd3896e742e64d8f3a54123130cab699e24cc781484816012": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d909deedf5a4bd26cb3d54ccaf43922e42e5f57da3cc212ed8f652f88795156",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：同步等待客户端连接。",
+      "translatedText": "Function: synchronously wait for a client connection\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     }
   }

@@ -29,6 +29,20 @@
         "costUsd": 0.000051
       }
     },
+    "a810e5bd1939d32703e573c258348ccd12b2c8db21ce335f551a4e781acd1faf": {
+      "normalizationVersion": 1,
+      "sourceHash": "d62888ff8ae4702e04d9210614dd29f95e19610848e30aff8e45d4f3042ff0be",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### semaphore 的典型场景",
+      "translatedText": "### Typical scenarios of semaphore",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "a8171870ab725f29fef71bccdd58f1a5f63b4a0d035550387a95f9ce63d75a4e": {
       "normalizationVersion": 1,
       "sourceHash": "e520c4f4ec0a4a5be1e37a95fee512dcb86401c3cd395fd0978bc67f08062d5f",
@@ -55,6 +69,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "a825618dcadbd3fd99f0a2eeeb674d552db993da007f0fe3887b6ca35a012ad3": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cded20bb7240261d700c9b5810fe13061f0bb481e698857129b688c0dd32a69",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "另一个线程即使：",
+      "translatedText": "Even if another thread:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a8359884d898f547102c8c5fe56c0a5864561870d25706b547b281be54a2c586": {
@@ -97,6 +125,48 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "a84c45d7de594a08f983aef15c00ba88441c6b603d0c095cc3c40b8c074dc3ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecc7fd3768f2d9a690655eadbff42167b272ead553727493a11ba637da46bb04",
+      "contextFingerprint": "d8709f04f53309644f5e859fe4339cf581ec3833cebc2e2ef658cf3f49e2a228",
+      "sourceText": "### `future::get()`",
+      "translatedText": "### `future::get()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a85a5dc5ee712110e283e795ec34815eff0be31f2b156af36eaf41fbd5b1ae43": {
+      "normalizationVersion": 1,
+      "sourceHash": "b91317415de52ac946a53a93381bae2595bc09b6591ad6ecb2f73d12a5b23b84",
+      "contextFingerprint": "af6613915a5b1aa97971b6f42f851cca648c4e43653f5b5f1eb67cbf8336a18e",
+      "sourceText": "> 这个 `std::atomic<int>` 类型在当前实现中是否永远都是 lock-free 的。",
+      "translatedText": "> Is this `std::atomic<int>` type always lock-free in the current implementation?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 26,
+        "costUsd": 0.000077
+      }
+    },
+    "a85e05fc878a06a02841482981475d1d204bfb3188ac2944a1a476623d579d2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "766dc7a9243a9e11a96aa0e36b707dd87e7f41e1dd8adf01791827123af139c8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "客户端输出：",
+      "translatedText": "Client output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "a866905c925bec281ad3f2e3335e8efb2628fbe13770d00328bdf4eff47ed33c": {
@@ -155,6 +225,34 @@
         "costUsd": 0.000065
       }
     },
+    "a871c6ed07302f456e180fc23b82f7a5fe38354856ccc3bd5b9e81d832780501": {
+      "normalizationVersion": 1,
+      "sourceHash": "4db4c600faca9372c62d4037d28e46c2157d1eb6156ac14ac138a69c198d2926",
+      "contextFingerprint": "1616c1b7b5dfceec7f3051a1ddf1accf94c4983ff331e4730b3f8faca021b884",
+      "sourceText": "作用：在开始 `feed()` 之前，为一条命令注册解包后的处理函数。收到该命令的有效帧时，协议按处理函数的参数类型取出字段并调用它。",
+      "translatedText": "Purpose: before starting `feed()`, register a handler function for a command after unpacking\\. When a valid frame of this command is received, the protocol extracts fields according to the parameter types of the handler function and calls it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
+    "a87f7f829797d0157df0d09e8e046eef1fc1c93ba4b041a35be0ca807d548237": {
+      "normalizationVersion": 1,
+      "sourceHash": "208d8afdf9e648fc94effd3699a1471bf6f8a01b29dae366275acf10fa5a6bdc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编译运行程序后，",
+      "translatedText": "After compiling and running the program,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "a8807b829bc3a2290db2715605ee4cb3788e8bfd7a2240c0f5d299d5252e1c74": {
       "normalizationVersion": 1,
       "sourceHash": "b7a273b6437566064bd4c32eaa50a01bff8172dce90dfb549cddd6b3b7c3c314",
@@ -169,6 +267,20 @@
         "costUsd": 0.000269
       }
     },
+    "a88669d3444fda4e9a9cbe6ecda85b73d19d9b82fd98a3d3e7f677c0f1881649": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd2494a5c272f6eb477c2b158fe7269a0bbb355d5961d0a8571245d63d00e857",
+      "contextFingerprint": "a223460dca85f9e0fbd69c93a01832e5a58f6e229faa0cc36adcacec57bb3cff",
+      "sourceText": "### `std::bind` 里的固定参数",
+      "translatedText": "### `std::bind` Fixed parameters in",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "a88772bf7b0bde00c2fcb7e7a3ba57536ea54af5860620c7aa68516967279fcc": {
       "normalizationVersion": 1,
       "sourceHash": "5d5300cd4917f22bf4fefe977345a072398158e15bdbeefd75d852c99c5041ae",
@@ -181,6 +293,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "a8930d51c3f5763af0e33831d7bcb11168ea0e802e3ffcd1b3cdc4eb5228287c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c2e0e1137cf71eab0ce384fe832e9a5aa0723b6e0d2de7a2f3410950238b232",
+      "contextFingerprint": "72fa3af6595eccac848f15e6c025eb6622fd29e5a9d0ec42c753de2ee30b479f",
+      "sourceText": "没有 `work_guard`：",
+      "translatedText": "No `work_guard`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "a894f6ee038ce7ee03758d3c8639350b1a59aeef6f675164284d75ea726bec34": {
@@ -225,6 +351,20 @@
         "costUsd": 0.000055
       }
     },
+    "a8bf925f360db16255ad67ce627c6ae5d9f6b1e0b11e182b9b7d33901c04381a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e4d3bcabdf8b90f21aec90c33da48ed84cafab41fe38c6204313664aec5c61d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此直接规定：",
+      "translatedText": "Therefore, it is directly specified that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "a8c20fd98cdabb2300dceb2b49078c3776b54e831ca05d225c2f215874d3fb8e": {
       "normalizationVersion": 1,
       "sourceHash": "0e78e559a41da1792f2e6aaaa517526d825d883b64bddb0c9283b9e766c4fa50",
@@ -237,6 +377,34 @@
         "inputTokens": 194,
         "outputTokens": 80,
         "costUsd": 0.000155
+      }
+    },
+    "a8d0c08703449e0b65eaf9e909373e83b57f7a62ef0ffce2f3d6a1f6a1b5f65b": {
+      "normalizationVersion": 1,
+      "sourceHash": "518a230efe2525dace8e6901639f53346b9e4902056fc2a97d7dfa5abb3833ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但实际上只有：",
+      "translatedText": "But in reality, there is only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "a8e1c914af11cd1997532321554abe3d1cb668ab59060e39cf3550ac98b61c92": {
+      "normalizationVersion": 1,
+      "sourceHash": "e79c832f6f721e568b89270f637e7d133e2782916566ed7622bc05f1a7f4fff8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "条件变量允许一种情况：",
+      "translatedText": "Condition variables allow a situation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "a8e4e4410b93ecb7b5574c463072e3911a5d63ca76287543bd72c3a8d9a94195": {
@@ -265,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "a8ea8bc6f000aeefa1da114da8255c41371062a38eb1cbec1442c49fc4e08158": {
+      "normalizationVersion": 1,
+      "sourceHash": "82ff67061597c1f842bd688cba10de42eb7aef1c9611e0b1cc2e9e6d380429b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "结果就是：",
+      "translatedText": "The result is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "a8ee533912479d4bf739e1e3f841f5b87389746fae51821aa5a4cd77e89638b8": {

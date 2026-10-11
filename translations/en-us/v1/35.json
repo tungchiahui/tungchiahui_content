@@ -15,6 +15,20 @@
         "costUsd": 0.00013
       }
     },
+    "3518450719b2a4886b2a5f75052d92a2851eada6cb645c65d55db7aa686183fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "46d460abb32b3f5fe434d7f33dc3a8b9ef6fe7ed74b324061b94eb9382881d09",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "隐藏某个 preset，不直接给用户选择，通常用于继承。",
+      "translatedText": "Hide a certain preset and do not present it directly to the user for selection; typically used for inheritance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "351ed7407d5753b57f21ef2e72b978c55654e920d6bdf1097cc9829418146625": {
       "normalizationVersion": 1,
       "sourceHash": "a387a310b3f31b5d1a2d3d59cbf5770751fe6501511c6185d8cfc02c58658a3b",
@@ -41,6 +55,20 @@
         "inputTokens": 136,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "352db79556d4429b3e37af32899d29f1e18459adc34a2be510640fab26d6a866": {
+      "normalizationVersion": 1,
+      "sourceHash": "a53a6aa5989d63f3ae74a3ef1392363c61b6b856318d93bb289c3eda5a7fe4a6",
+      "contextFingerprint": "5d947b3d83f92ac87f641d517f1dd7f937e1597ac4b8fc62585c62d9e64e39a1",
+      "sourceText": "### `stop_possible()`",
+      "translatedText": "### `stop_possible()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "352f043819dbe416a7b374e2200185287de6106f9bf628464c7c4edf971b06a1": {
@@ -113,6 +141,34 @@
         "costUsd": 0.000056
       }
     },
+    "355e5af2b6ba06fe405632754f5c5ad104937469f14d81e76d13c3dcfa6cb3f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a314cb36999c2552ff88c10cd96bfc77db1766e4af2f8a62a508bbb6b82d1594",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不会被两个 Asio handler 同时访问。",
+      "translatedText": "will not be accessed by two Asio handlers at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "356750fe97e03ae017ccdb594e8d58894f90c0a090f764607fdc6ced6296441a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b83077ab0d86b38cad38a5685b9127b230207c40195f391214760d77af9f7bf7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有时候我们不想一直手动检查：",
+      "translatedText": "Sometimes we don't want to keep checking manually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "3567558eeb982d9b78f68d353b0cc7bea778a44f9de15d76ea1d619b2328c4f5": {
       "normalizationVersion": 1,
       "sourceHash": "3a01bd3221e6ad56ff6f22c5100fc4f9bea7dd8a0ef784cb16d7744551d1cf39",
@@ -181,6 +237,90 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "35bb9072d3ba29753407a33b8dc029a6599879873b57b69ed8511e2f1c0ad22f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2588785e92a2ccd2c6e57ebd64eec0482e0da69b5995fa650c5d8e49238cec0e",
+      "contextFingerprint": "c9f4ba569756cd2d45d48413fd2ef68a7968085f4b9804dec1f42974fb99bbfa",
+      "sourceText": "1. 使用哪个生成器。\n2. 构建目录在哪里。\n3. 构建类型是什么。\n4. 安装目录在哪里。\n5. 是否生成 `compile_commands.json`。",
+      "translatedText": "1. Which generator to use\\.\n2. Where the build directory is\\.\n3. What the build type is\\.\n4. Where the install directory is\\.\n5. Whether to generate `compile_commands.json`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
+    "35c764d09a62b048ef706e336d8679d0e9d416ec251220d0ba070be3263bd976": {
+      "normalizationVersion": 1,
+      "sourceHash": "60f329ee17676e65c36c20dc11fd18402ad01026a9599ecab10014a32e12eb6e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "监听终端会依次收到：",
+      "translatedText": "The listening terminal will receive in sequence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "35c9cc949bcb36ab80511a250e8fb2f4f810525a8909c17db9d3567b792a143a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aff4105b3c52c663b8ec547128839f2229a35741dc736030795153554101ad87",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "latch 常见于：",
+      "translatedText": "latch is commonly found in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "35cfdd1ca4d6e9579718d6251239d20afadcd3559571265e42bbc191686a0140": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7edbd25603abdec693aa58bfd02daf1b330137b653765bd7464745c761a6f71",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## barrier：可重复阶段同步",
+      "translatedText": "## barrier: reusable phase synchronization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "35d45663c74a16e4e9496865acb9d28f259e43f6284a771c7f4bb838864d0a6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7e5d634582996c10d3911e530f23526fcb049f4e2ad3d39dfb9c28a09309a33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后再进入详细知识：",
+      "translatedText": "Then proceed to detailed knowledge:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "35dd6a641751a0e1e3b7d84b462942c93d5732060ff0d936fce1b7c055f45bc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "30799e906b417280860abe5837c09f9519c71c76b10a229cb66c6c8d7e7e4559",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以先把它理解成：",
+      "translatedText": "You can first understand it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "35f6b5e5888d3a83fac618ab176d8649067e641699bc7c1bf954810d19ab4056": {

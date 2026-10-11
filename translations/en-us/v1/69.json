@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "69077d0e9a5cba3ef6417765b9b0c60c101571041587c74aaff202b6ea06a117": {
+      "normalizationVersion": 1,
+      "sourceHash": "b443c06970cda424cbe68817d999a4072369c043a0fb4e7b3f9816019ea5fc94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后程序会阻塞等待串口数据。",
+      "translatedText": "Then the program blocks and waits for serial port data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "69135f796f4350102eb8541559c874f2ce7dd39328878cbed89dd040588f46d4": {
       "normalizationVersion": 1,
       "sourceHash": "b12208170f1d15787a782ab5792abdfbe3c819020f1cbcdf88f09b82cf7daa14",
@@ -41,6 +55,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "693d9f99d072922e6941429bf978c40b56103b90289bf9183da5c2092de4d42c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d97da66709dccd8c1c4982bd3673226803bee438a7e5a84b78592e83d89ac2a2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 本示例需要注意的点",
+      "translatedText": "### Points to note in this example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "6940a0cc4454c53d68b43c0285dae95ef46fac57a607a3a2bb2da5088adb8268": {
+      "normalizationVersion": 1,
+      "sourceHash": "7886edaccf5bb9141df8f264fd057c67a87cf9b592f48e43fd4a2f41060ac01e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本来就不会立刻返回。",
+      "translatedText": "It would not have returned immediately in the first place\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "69420292f71e6a08ba0ac0ab958379d161b3dc6932604840e1ebb1cb75bfb41b": {
@@ -99,6 +141,48 @@
         "costUsd": 0.000055
       }
     },
+    "696539080b954558a98411ac6e14453898c35210039dc81cd908872f0e4edd88": {
+      "normalizationVersion": 1,
+      "sourceHash": "82a271be6d764457bd5a4c7feb7bf2934978334ff8f54f64773a854a720b69dc",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 6：类里封装连续异步串口读取",
+      "translatedText": "## Example 6: Encapsulating continuous asynchronous serial port reads in a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "696a599d5b4d339e4276d10e10c76d903c57efa6bd2b75f2ab6756435bf9feed": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b033356b1796d9ba016ea8d75545771852b818f795a1b7871abafe336506c1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例中相当于告诉 Asio：",
+      "translatedText": "In this example, it is equivalent to telling Asio:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "696b6edfab70e7fa4a91be0dec4e8ea9dadeafb3fa2482c55f1ed8aa8b8c4f48": {
+      "normalizationVersion": 1,
+      "sourceHash": "10f39b2400dada3ef664d93609773d779daa597f5b501aa1389710713160bdd0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以两个回调都在主线程里执行，不会并行执行。",
+      "translatedText": "Therefore, both callbacks are executed on the main thread and will not execute in parallel\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "696bf4abd3b49fdbd9a94b2f5ef7d0c4f43a29932aae5ba93a88e0893313fd2d": {
       "normalizationVersion": 1,
       "sourceHash": "3f1b8c05bf3a00f7d8e93030075ebdfe71b7f466f133b682fa53ad071dfdb091",
@@ -111,6 +195,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "6972d05c3885149abb974382d8a527a9a71d99cde6d187cdbbb917b612a6aba2": {
+      "normalizationVersion": 1,
+      "sourceHash": "17d14d23729283487896f5562308e01796d3d67e80e7de4e62a83eec559b2deb",
+      "contextFingerprint": "0364b704af108285c757b630814662c03cf6b448b8590ca75a22b13fad9f7484",
+      "sourceText": "### `std::stop_token`",
+      "translatedText": "### `std::stop_token`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "697a47d5f6cf1884a1733798dc71b87fb5cd4152fa87569a16d76dc54f8955bd": {
@@ -211,6 +309,20 @@
         "costUsd": 0.000052
       }
     },
+    "69c7186bda6136d264ad1a08979111db7a8d3cb7a0d0d079099dede2a7772e95": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a0ea8d6eb83be2d2bdece69a400e1fc339fda811045dfa353b3e09b4d1b22a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习内存序时，最重要的是先区分两个概念：",
+      "translatedText": "When learning about memory ordering, the most important thing is to first distinguish between two concepts:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 25,
+        "costUsd": 0.000072
+      }
+    },
     "69cb4f0acc7ec9e2e90a74ed9f31dc780d4ea858ca22b6f140edcffdb6b094fa": {
       "normalizationVersion": 1,
       "sourceHash": "0cd938dd4f4f26ea0577365d3e41544fd228a15354a5de8c8cd9b61358a2621f",
@@ -239,6 +351,76 @@
         "costUsd": 0.000071
       }
     },
+    "69e928361c1ca218694b476ef17d63b6553b1d247483b42f52e4c98048763e91": {
+      "normalizationVersion": 1,
+      "sourceHash": "e97e169efdb76990c83d1c85a6546ac55aa974a91aad27b4ba3aa38bbc73a2b0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节讲两个文件：",
+      "translatedText": "This section discusses two files:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "69eb0ecc002276fa1f4229fa71014d03093066b1c3135ca216d65c72babd6f45": {
+      "normalizationVersion": 1,
+      "sourceHash": "35cd6e0b560769fdc37aeed0ba5bca640dde6728f1a6ffb4597b2d6347201e19",
+      "contextFingerprint": "2abc58175e45d51d525f88fcc72f8e28bfeabded45422f5d784165673abb033e",
+      "sourceText": "### C++20：`wait()` / `notify_one()` / `notify_all()`",
+      "translatedText": "### C++20：`wait()` / `notify_one()` / `notify_all()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "69ec4191e2f327b01ee2fe6a4df4dc5a4ce4ebc57a912b0d9063e3c7f2e13855": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc44b2672d007ec041052ff229b384771d84f022d5a2d7a7b1b93195a2d68202",
+      "contextFingerprint": "269218810bbd2cf0ef5ccd9ae6bcd68a79ab46fe3f404ac53bdb15765779a780",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715507074.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780715507074.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "69f1ac41b3b6065ba822f403a36f97f13bc6eed9bf648705f50859e367865811": {
+      "normalizationVersion": 1,
+      "sourceHash": "e31c44cba40e33c3686738ebcea776234d788272e72f7639ddb2137578045aeb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它不只会自动处理：",
+      "translatedText": "So it not only handles automatically:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "69f1e875da1a1fdd98942cdc5edb5674948b8a109a428100eef02bdc9453b675": {
+      "normalizationVersion": 1,
+      "sourceHash": "f686ccb473a150d92162cbb463b1a31339b6f7daae9d09a20c5120c748337f64",
+      "contextFingerprint": "3f580b07f01c9237cf0f45fbdf8fff952064b7245b72d6a2b7ee1dc5ea268cb5",
+      "sourceText": "**文件 2：`counter.cpp`**（模块实现单元）",
+      "translatedText": "**Document 2:`counter.cpp`**(Module Implementation Unit)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "69f86296f305510fba01540bd571896f29fddbd52871eb237a84ecdde72d66b7": {
       "normalizationVersion": 1,
       "sourceHash": "38f1f6817a843fcbb8c42797ea4d49227207c070e2a90546e69da5fc2036a278",
@@ -251,6 +433,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "69f990193c2fa8129955b7247ec51d932d6b74cb7ce853dbff69cce81046c289": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7c2c4ea18598ea1cfe56f01967b986dd6b3ab7f8cf601d9bc69a26b45498cb2",
+      "contextFingerprint": "d7d33d54b414d74b127270a193e9da1c65b6a50af432119b70a7dea20c1eaf78",
+      "sourceText": "1. `accept()` 阻塞等待连接；\n2. `read_some()` 阻塞等待数据；\n3. `write()` 阻塞等待写完成。",
+      "translatedText": "1. `accept()` Block waiting for connection;\n2. `read_some()` Block waiting for data;\n3. `write()` Block waiting for write completion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "69fbed74d86326cb3b4e51a9f9855a7c5bc491d6e250ae6a87dfc0412dda21b1": {

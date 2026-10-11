@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f603e4cf503e6a894d60c996993d70e7f6cacdb099058342786a4640293cbf84": {
+      "normalizationVersion": 1,
+      "sourceHash": "047a5e613d27f368c497e9d7492014b2f818301137d67bfce38bb1c104abd4f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是：",
+      "translatedText": "However:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "f606fa71e34ece51c8223dbc3d17137b742529cc5faac56de367ceb791e83453": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a1eb48b63378715ca43cbb4190d55da41b7bd7c17dd92b70f08c5e7a2096e16",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### completion function 不要做太重的事情",
+      "translatedText": "### The completion function should not do too much heavy work",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "f60cd22531f5932fa312b54124836318c23ff06d114bc065560acc8b7547f00b": {
+      "normalizationVersion": 1,
+      "sourceHash": "650cfff7ed6955e0922c86d4dd392342b0e4ec599efa7d0227c6748a3e0ac1c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正执行发生在：",
+      "translatedText": "The actual execution occurs at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f617944e56ae5fb4d7039607e9eb642442a4a4677c4fa786c9662652d74ca646": {
       "normalizationVersion": 1,
       "sourceHash": "805af9ec1b04b4201a5707721114a38c036cc93ba0eb2854efd9c0502384e706",
@@ -127,6 +169,20 @@
         "costUsd": 0
       }
     },
+    "f661665de40e4c0ee690f9fd850e3e9b14fd222cc3742e35d0d7cdbc9827214c": {
+      "normalizationVersion": 1,
+      "sourceHash": "55fd8c78f3612d43d3a130d2bc16094e84f92242e527206aa13fc05ba7efe2a0",
+      "contextFingerprint": "b29532134eae8a8e1018c67c50f3ecee0ed742776d048e0d87727a9ecabc794a",
+      "sourceText": "`std::condition_variable` 用来解决这样一类问题：",
+      "translatedText": "`std::condition_variable` Used to solve this type of problem:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "f66302cdae4fb2d30c299e53304ebafd91efa8ee044263c380acd60b25a89a00": {
       "normalizationVersion": 1,
       "sourceHash": "af05219c60de48ff7b852b98a9d880d2fb4a64e659d525f958ce915aca21589f",
@@ -153,6 +209,20 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "f67a494c2247319d7c57e42443069c533420dfa07728f7fbe5d08dff09bbf721": {
+      "normalizationVersion": 1,
+      "sourceHash": "eafa71a606a2645b398591f8e2c0a32b1b8988995fb6f6cd3481a856eb8cf5d3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### promise 的所有结束路径都应该有明确结果",
+      "translatedText": "### All termination paths of a promise should have a definite result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "f67e7b96560c847e93529a11b9ecbd464e4d83e431c7cdcc23e35944f421cad7": {
@@ -211,6 +281,20 @@
         "costUsd": 0.000111
       }
     },
+    "f69eaa83251bfeec98020a8d5b5ec6282373f45abc4bb4911c2add3cd393c1fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a82e683f9067752aff231115a7b4a641c46d1f569a192782fc84c13f4e2b2d9",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：忘记检查 exists 就直接操作**",
+      "translatedText": "**Error 1: Forgetting to check exists before operating directly**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "f6aab3d4d6fda5e01f185088ec838fa4bdfa64c5b942779e823d242b6505813a": {
       "normalizationVersion": 1,
       "sourceHash": "e1c6bf4a168b251cc2f1a5645ead516a24febfcc9ce6776dfc55a693a2fe43ff",
@@ -223,6 +307,34 @@
         "inputTokens": 138,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "f6ab68f8885316970fc2844836330489f21269f2bceae667f65621880258717b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bbaf2b40e74c3a77e4c3e8e3f2abd2e5de7b91ba25f774e233d04e52946bc44",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### preset 名称写错",
+      "translatedText": "### The preset name is written incorrectly",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "f6b502b657c4ce7a7edf8143f115f8024ff3fbf8bb42f154d286b22265c4c5e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e32fd4d39250915f311bfd2d61fb015aea2987a85418106ff3bdbdd552afc5e",
+      "contextFingerprint": "edc8456db7852676c61d3e3a9909e5ad4d41948286ab6545e12b0fa25c8d1014",
+      "sourceText": "本节最重要的调用关系就是：**ROS2/STM32 各自的串口驱动负责收发字节；两端用同一份 `wire_protocol` 负责 `pack()` 和 `feed()`。**",
+      "translatedText": "The most important invocation relationship in this section is:**ROS2/STM32 Their respective serial drivers are responsible for sending and receiving bytes; both ends use the same `wire_protocol` responsible for `pack()` and `feed()`\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 51,
+        "costUsd": 0.000112
       }
     },
     "f6b949aba20198b9c25e0b2adbb42d37397c45d38608c35dfa00db47e593d8f2": {
@@ -267,6 +379,20 @@
         "costUsd": 0.000053
       }
     },
+    "f6de0c839b2c4c5961f54583dfa1a4123a90383a1b540f48ec8ca89ba4de98d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "37b96e1ed3d05fcb2e285ee1de963d230b63c37961e986c49e924fc4bfb8fb78",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，把接口和实现拆开",
+      "translatedText": "### Example 3: Based on Example 2, separate the interface from the implementation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "f6e449d19490def87be842ddd784758898bfa290117092354305834f944b7c62": {
       "normalizationVersion": 1,
       "sourceHash": "9c712406070d91ad7cb5cccebf9fe1ce0e5573c593cd1be276dc86d91eebc0c4",
@@ -281,6 +407,20 @@
         "costUsd": 0.000078
       }
     },
+    "f6e88568c19f874c66ffa2046be43987308bafa9f90c97c0454c069d3cc82d45": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8e951fada79a44d1c70a724879390f446d1577090ccad881c1b014916bd8ffa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以暂时不涉及多线程并发问题。",
+      "translatedText": "Therefore, multithreading concurrency issues are not involved for the time being\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
     "f6e99d074646ca7d93960aa6e2849da54085d305581938d30d2232898dbe75e9": {
       "normalizationVersion": 1,
       "sourceHash": "cc767693083aa12bb8e10171966b55b40c565dc8b4074ead202ff4092649b286",
@@ -293,6 +433,34 @@
         "inputTokens": 162,
         "outputTokens": 38,
         "costUsd": 0.000095
+      }
+    },
+    "f6ea9b6f50721030a812020509d351c0725380b624fe5958017148bb02e7beed": {
+      "normalizationVersion": 1,
+      "sourceHash": "9484bf4c454f9a7e1bdd2500a6426ac8e00c5ecea342d33bda142cbc53c82e2f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "worker 睡眠结束：",
+      "translatedText": "worker sleep ended:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f6ecc54e68abf4b7c68fca3a853b78e9f356ab49693536e8e99188687f5fb277": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa9035acebb0e6169165fb8f58bf5d01c14217b423801766b07f44c6ea5b716f",
+      "contextFingerprint": "49549c782d7d92814a81a428127b32747d67319dfb29840a3782534600aca0bf",
+      "sourceText": "`boost::asio::post()` 可以把一个普通函数投递到 `io_context` 里，让它以后由 `io.run()` 执行。",
+      "translatedText": "`boost::asio::post()`You can deliver an ordinary function to `io_context` so that it will be executed later by `io.run()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 24,
+        "costUsd": 0.000074
       }
     }
   }

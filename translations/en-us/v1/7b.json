@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7b05600f1096fa4b78b105007e77785bac1d8ee3b1e8b998ca5a1ab3c9696e79": {
+      "normalizationVersion": 1,
+      "sourceHash": "868047967a3987403ec624c4d507674e5dfcf4b735ca1d1769bc44dafdc768d2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是实现连续异步读取的关键。",
+      "translatedText": "is the key to achieving continuous asynchronous reading\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "7b07fe96e299b5c5cb8f52f12db7b34b8014e13bcb79d695ddf9f057aaa292f0": {
       "normalizationVersion": 1,
       "sourceHash": "13e5311cff69016d0cc461637685826837b1646ef9c9a95507750c88a3706c08",
@@ -29,6 +43,20 @@
         "costUsd": 0.000052
       }
     },
+    "7b12932187a25d6b4f6bb95f238e1a1cde75b8cea9bc0c749d030c559c3700fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "34dd10bd9b3721e709510043daee7051597c7c31b3eb446500ae05b04c7bf7b4",
+      "contextFingerprint": "84a85f4f03ee968907439c7ae52a7e333dd8f347cf7524808e0fad1f652910e6",
+      "sourceText": "## 示例 3：普通 `main()` 里异步发送串口数据",
+      "translatedText": "## Example 3: Ordinary `main()` asynchronously send serial port data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "7b21894b867dd007c2d4d1cde7f7b4f918f6503a47ecf59e655fb5d6a47cd742": {
       "normalizationVersion": 1,
       "sourceHash": "c246a191c268f5ba420f4f86cca16b4bb7559ed4a1b5170ed864f88e3896df13",
@@ -55,6 +83,34 @@
         "inputTokens": 166,
         "outputTokens": 53,
         "costUsd": 0.000114
+      }
+    },
+    "7b311a942e88b8e0d35e40a8f82f9ddc7a1fa8e6c0601ad091698ae67dcb4ce8": {
+      "normalizationVersion": 1,
+      "sourceHash": "60aae5758b8b8b8b36eae8242e3db62eb0c533407ebe2f8d53519c7757663c8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "来看一个最简单的例子：",
+      "translatedText": "Let's look at a simplest example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "7b3491ec12b8eea15da9bb7520aa47f82f3b027a5d0edeb154b53ae4c8c4bc30": {
+      "normalizationVersion": 1,
+      "sourceHash": "39757749783216c231bbcd392578ef5c47eda7377fbaf4a78adead66f3f921f8",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **如果 latch 计数还没有归零，就等待。**",
+      "translatedText": "> **If the latch count has not yet reached zero, wait\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "7b55baa985c0e92b857852a183a4126abf409adfc9520a9713a63d8366784e54": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000058
       }
     },
+    "7b697900fd52b9402023f6823fb842675a7e76c4ca67c9e40bfe835fa8086261": {
+      "normalizationVersion": 1,
+      "sourceHash": "db213e311dd5b231db94bfc66710c7a5207ed2d5a2abd88f581926972e03d62c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也不代表线程一定能马上停止。",
+      "translatedText": "It also does not mean that the thread will necessarily stop immediately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "7b7008ecf517a26f2a1b0335131e389d5fec418fa936a21e41ad2df307ff40d0": {
       "normalizationVersion": 1,
       "sourceHash": "4dc6847c7b90502fe2d0379cff8c8be64287408ead099f7924f1d4019cdf03b8",
@@ -113,6 +183,20 @@
         "costUsd": 0.000123
       }
     },
+    "7b77d652206f6623c514babf0b7eb03af815b91fd5ba61c5ba23e29bf51cdd1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "30b646b3ff181724a257f2fc174babee9253bede6b0a372c81909c25d108d6ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就是未来结果的读取端。",
+      "translatedText": "It is the reading end of future results\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "7b7c201855c7a9bbb2c8fe01773df57147f07d8c0cf07622359d73a54eac46b0": {
       "normalizationVersion": 1,
       "sourceHash": "60616b28a96bdbeca03b43af0f74cd5b6f9f84d6da555819d1af4a8f25bc4471",
@@ -125,6 +209,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "7b878d4ade2773aaeba9b384b4b85b071a86967faa25f27a9eeffaabb3816819": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3c7e648f0460b3c23287bde9c628a59dd131f2a2604be37275d4c8505755677",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程池通常会有这种思想：",
+      "translatedText": "Thread pools typically embody this idea: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "7b8d7542f2af65625c4ce7e93d4eca256b7f931e5402a917d79d354ef23198d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d258dbb5e54df49a835a515fe7201ecad6112f965d44e603ce309e4acbddce2b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "归零以后不会：",
+      "translatedText": "After zeroing, it will not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "7b96ab870379c9cd920e1cffb841fe40eb380008aa20d0a47362934ac650e414": {
@@ -209,6 +321,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "7bc1f33e937a6b3bc768a703be2e621b83fee438bdc8ce48df4e31425dbcd79e": {
+      "normalizationVersion": 1,
+      "sourceHash": "92429a9ff1993f63b2a0cbfb8cd0ed80c11b50d5e63f4235d22819f823b7340b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "传统解决办法是：",
+      "translatedText": "The traditional solution is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "7bcff46147f6f4c580115a04b08748814d368f80b0934a3b2ce6406da6169959": {

@@ -99,6 +99,20 @@
         "costUsd": 0.000057
       }
     },
+    "e0362b5747b5964105bdf4ecf8641daa25ab4bb09e9b481a96ead5d3323f8767": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf813040dd762dbc53c36a8f1f6ea5266945f05cda248c0840dadb2952f042b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "另一个线程执行：",
+      "translatedText": "Another thread executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "e036fda7fca4182e8cdaa68ecd9dcce05c3ed0313bbf788c0637ad33a85f09ea": {
       "normalizationVersion": 1,
       "sourceHash": "894fc471a5e198a8503e592ec5767e52a578c3e8fb3fd3bc223bc22593017756",
@@ -155,6 +169,62 @@
         "costUsd": 0.000076
       }
     },
+    "e042d91d2797769f8b1c17deeb20cb08f1e4e9abaf1350cbf246461090b6056e": {
+      "normalizationVersion": 1,
+      "sourceHash": "15302c05107dc327b0e0070ec96e14809b69c876fea654893b3878669196a779",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例中：",
+      "translatedText": "In this example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "e0442bca7d30f36190b7d36d395567e3bd999e8b6e57e0382078054c8bb8cb8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "45fd0582876b89efd0c8c9d6477c9d730e681d4e70453a7c4006332b851ec4ff",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 异步操作使用的底层数据，在操作完成以前不能被销毁。",
+      "translatedText": "> The underlying data used by an asynchronous operation must not be destroyed before the operation completes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "e0618e30bb91e0f4bd0bb2f4e9bb5ed98f869aa8ebed03ba8043d9ac74b2f853": {
+      "normalizationVersion": 1,
+      "sourceHash": "e86070c569027449ff074d4e0bbf6e145d57ef63f6d26380ef9487a685f7bd28",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "解决这个问题。",
+      "translatedText": "Solve this problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "e062d651b3b7cb770e2ec6460ad3bac7e5e91a93eb97fe61f61e3f1cf6b0d3dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "81bad7276b8e8d95985d662c76b5354cff171cc24c1a7efa0b88d334e0e88fe7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是工程里更推荐把它封装成类，见下一个示例。",
+      "translatedText": "However, in engineering projects it is more recommended to encapsulate it as a class; see the next example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "e0718d1124802f2ab799f576d6fd16595174ee04f3300f2df24c4cc2d7654c25": {
       "normalizationVersion": 1,
       "sourceHash": "b1b4469f415da9be4b7484776d90861314117864cb1759d940fbd19f2a517c8a",
@@ -183,6 +253,34 @@
         "costUsd": 0.000052
       }
     },
+    "e07ba08be69b360338a527ac1834efd7e0041543387f141c8c778ff5fe4326d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec5d0f19503402dc36e070a74e864185191b82e00bb298900b8ad969a56434d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个函数都可能操作：",
+      "translatedText": "Both functions may operate on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "e08253414b7d23dc56c7015ce7d5f1f6ccff4db2b6125ebe4c28659c4fb7db94": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc773e986be47fd5636bb1142627c5120438b27e29dd480ded1844a11b5e224d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "说明 clangd 仍然没有读到编译数据库。依次检查：",
+      "translatedText": "This indicates that clangd still has not read the compilation database\\. Check sequentially:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "e08896f531e7eb7d7d0a3d241bf68eec7664ff977b0b853534a752f4cf788c67": {
       "normalizationVersion": 1,
       "sourceHash": "7349be3a05c4142f79b19934c9f7e599db846481ee6fd5a39070c66f7ef96407",
@@ -195,6 +293,20 @@
         "inputTokens": 145,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "e09167cd691358c42ca06d1283c45ba95eedf49f77f4869365003e9eb66e88b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e67c92f0a9deeabcc5308704ac224109d5e0d3aa3dccd3f6ea983984e023558",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "而现代 C++ 更倾向于通过 RAII 自动管理资源。",
+      "translatedText": "Modern C++, however, tends to manage resources automatically through RAII\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 29,
+        "costUsd": 0.000081
       }
     },
     "e09c31176cccd3825798d90b6faf678f519bc0c2ce5ddc6bec43720f69564d56": {
@@ -211,6 +323,20 @@
         "costUsd": 0.000058
       }
     },
+    "e09e395063081908dba67befc8db10a427e81c83c9b3c56c0ef5c911aa960d3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "764060be108b473d65c0187d5aa1c46e20f64e30a0f2fae2fa2906f039108a1e",
+      "contextFingerprint": "476f183cceb3c6c9243038cf4ffd277c193f790f45e9c8ff360cb737159a8026",
+      "sourceText": "等待中的线程下一次执行 `test_and_set()` 时，就可以成功获得这个“锁”。",
+      "translatedText": "When the waiting thread executes next `test_and_set()`, it can successfully acquire this \"lock\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "e0a3147fd3b2363c8d6fe80d37be199e426eb0c2d1d23ad48545d034d9fd3ff6": {
       "normalizationVersion": 1,
       "sourceHash": "1d2008ea1cabed67b655fcc8212e7bd6f1ab94dc55ca29377f8719664d22a2ad",
@@ -223,6 +349,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "e0a81722880b29b4d061e6fc796cd5ff4677dc48745a5095d965ccd5b568ba74": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa849701745f0791e1df7d3d56c88648b51870eed2affec1a541a49d896f8602",
+      "contextFingerprint": "7b908b43cdeb0c5993ceeb1670fbe338ab6afc966a63a599981cfea997a102fd",
+      "sourceText": "`std::thread` 很适合表达：",
+      "translatedText": "`std::thread` Very suitable for expressing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "e0b1dd0728849c407e59385d67d2d13fe09b7da14d4f63609b57e062844af1ed": {
@@ -251,6 +391,34 @@
         "inputTokens": 185,
         "outputTokens": 80,
         "costUsd": 0.000152
+      }
+    },
+    "e0c00ca2a707b9cb9ce42e79450986cb6b187a46f1c53c6babb203b1f9b2af33": {
+      "normalizationVersion": 1,
+      "sourceHash": "d13cd0add205a773a95b6352a059ca66f340325205769baaad1d9776d53b7c93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "strand 往往是一种很自然的设计。",
+      "translatedText": "strand is often a very natural design\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "e0c35180ddb4e25f8877546991e7030194c1e8bc4b4bc15d298df0ec7ef4951b": {
+      "normalizationVersion": 1,
+      "sourceHash": "07005460a005579ab593abb9cfb89527aee8c5fe5cd0ad6f62826a8382512184",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "避免了这里的并发访问。",
+      "translatedText": "This avoids concurrent access here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "e0d2a4ea993bf2bed3287c8f07cbd9eb4ed8faa2ffc597516b80f53e54c35a9e": {
@@ -307,6 +475,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "e0e96fa17f0e0d97a2a9c722a42b567aec2fde5edeee997abed8374ce351b06a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e628fa8059ce9cbf380b22ea66f7bbf21b5780396aa5c4df7cf64eaa8310401",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之后每隔约 1 秒输出一次：",
+      "translatedText": "Afterward, output once every approximately 1 second:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "e0fc4fc58ffb68a0b6ffb9ebb419eeba37c2e61b130db83a00c4490c12ffc637": {

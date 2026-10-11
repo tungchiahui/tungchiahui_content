@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "111004392b40451d8b74f02e0ea4f908788213b93b6b6b2ffcf582fc584d512e": {
+      "normalizationVersion": 1,
+      "sourceHash": "293a7afd14ac1aee3ee34fc74918c1f36a851ebe0732f39f041d0c1629ca2824",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样的原子语义，但内部可能需要通过锁来实现。",
+      "translatedText": "such atomic semantics, but internally it may need to be implemented through locks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "111cb7bc2e41075c9da5fe5a8a079115cf08c136c2fe42eec029bc2534837724": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a311fd5cac636a61f4ced4b2b02e50451dced781f9fbd920e048c876e43b0f9",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> main 线程负责“产生任务”，Asio 线程负责“真正处理串口”。",
+      "translatedText": "> The main thread is responsible for \"generating tasks\", while the Asio thread is responsible for \"actually handling the serial port\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "112db6b962dacf8e75175d1bbf6eab891de9281399ae3c592986d42b7ef2b9f5": {
       "normalizationVersion": 1,
       "sourceHash": "9fad0d696c7459855db4b9c0d97a53f07ed2860110d169eaac1f31eb5d909ddb",
@@ -57,6 +85,34 @@
         "costUsd": 0.000061
       }
     },
+    "114b0fc2c9583b6364237723e335effdfc1e61e0bb7d177bb0e90c149d43f545": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a826df12f28080fe76bdf253d06e5d7c687175697c3619edb429e43a4b28ce1",
+      "contextFingerprint": "aa5c362fa6c3a087b5d8747c936784951c41e86d8bc978cb877336b30eaa5425",
+      "sourceText": "下面示例都假设程序使用 `/dev/pts/3`，另一个终端使用 `/dev/pts/4`。你要按自己终端实际输出修改。",
+      "translatedText": "The following examples all assume that the program uses `/dev/pts/3`, and another terminal uses `/dev/pts/4`\\. You should modify them according to the actual output of your own terminal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
+    "115265b0e607cc4375de22f2818c6ce16462011cdf0c2d6ed9611b0000c9917b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0034b9bf6ca13e74a2570240ab467b673fe43b398ed274ba5af2c7d1384014d0",
+      "contextFingerprint": "e4dee07d916bcfe5e140945ef347a9ac648b1451cbcd7ded0f604013ab816bb5",
+      "sourceText": "### 为什么 `read()` / `write()` 不是 `serial` 的成员函数？",
+      "translatedText": "### Why is `read()` / `write()` not a member function of `serial`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "116cbbd9db59c3fd385c03b904df895b91b2a6655e00de659754ee4feae20a69": {
       "normalizationVersion": 1,
       "sourceHash": "63fcd003008dd9af2143df594aaa9a9253e21ca0f6513623e3f7669ef3970cea",
@@ -69,6 +125,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "11716daa02b1ef7aa9169843b1a97b84bd43dd5be40e9c0f3cf2b19370a452ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cb424855efb8ceadac1c44600046775535a80afc75e3fe5fe0e2a04828946e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "驱动。",
+      "translatedText": "Driver\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "1179b5fa8a052caef4a1cf39767fade0cde07fddde20a3a74115b2b9b47c8bf5": {
@@ -141,6 +211,20 @@
         "costUsd": 0
       }
     },
+    "1192a34572524c34e4e417f773bd7b2fc6296f9f4bd45e64cdd32af738f6e112": {
+      "normalizationVersion": 1,
+      "sourceHash": "86d8b631fec4a5d5fc1b2ce76836c9babf106da39e18d7b70e885500f07ce7b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "里面等待。",
+      "translatedText": "Wait inside\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "11a340148b700360529511d7a18c3a925f20c06593d5a3c58e4f056a7aeba1fc": {
       "normalizationVersion": 1,
       "sourceHash": "9624783d379e0a07de2438c63f06653c5e3c02568ca695f92736edf8350edc07",
@@ -169,6 +253,20 @@
         "costUsd": 0.000117
       }
     },
+    "11b4bf08e08d8306c415fce62063d56553c433085a767934b544e658fcd40f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "af8b0a047e1166d053c0c2230b56d4e8dc6034e36b8f3cf9733f94daae1ae3f5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这和：",
+      "translatedText": "This is the same as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 13,
+        "costUsd": 0.000055
+      }
+    },
     "11b4f473e71c4216284d299aa4ab0d3afe080cc638b74f760a29c60f4ece61c6": {
       "normalizationVersion": 1,
       "sourceHash": "1216db4cec99a17efc68616b26112c99e28467a7fa27cc40da6b38bd41c10738",
@@ -181,6 +279,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "11dd196b5c83b1cfc9a6fcb5e7726feb6ed65d2d1142f9d91608d9a8811dfdd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "23ed13fc38b9a5f1456a7b968da02f22d9a5dca66d5b2deee17b971c538ff2db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "配合。",
+      "translatedText": "Coordination\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "11e03d278a758c4bcd2210b1a9d8f457d87df1297ef7b3d25aed08e33f868627": {
@@ -209,6 +321,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "11f3fefc100a281879f9b0fa2637e95f4a27f205ef8877a5f1727aec0c4bd753": {
+      "normalizationVersion": 1,
+      "sourceHash": "33d21d14207d358e3787bad65180937b50b2fc0f591967d26d485881b66c356f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：不用 predicate 处理虚假唤醒",
+      "translatedText": "### Error: Do not use predicate to handle spurious wakeups",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "11fe628b2dfe4301e237aa0c2e9dd1b22be132f7bf1d6af7b635222a378bc972": {

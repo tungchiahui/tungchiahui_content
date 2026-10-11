@@ -43,6 +43,20 @@
         "costUsd": 0.000083
       }
     },
+    "600fc72e2aeab75160967ffb0bbfb3ab8585be985dfaf2fe020d54c2a2d21338": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d735d0cae64eb4496150007f7d6992264614a238773ab7eba5ea91313b26392",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "拥有更强的并发处理能力，改成：",
+      "translatedText": "Has stronger concurrent processing capability, change to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "6012be1a111f97fbfd665ebe76477421a0b0f81d9e3ee2e7fc68ba838e44b81b": {
       "normalizationVersion": 1,
       "sourceHash": "2ac99ff5bbad15b81f5a6c9e9c04360c54ce008e2bc9dfef8b26701bfdcdf2b8",
@@ -113,6 +127,48 @@
         "costUsd": 0.000289
       }
     },
+    "604344aaa9b9da87c97ef5f4f4d062908a0c77eebb3c965894096db8ec6d8d3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "86c469871465b5c95076b1c906ca4ca925a79e92c559dbf20d739ad8aa5ceb86",
+      "contextFingerprint": "219657697115effa91b5aa0dff4df25acc39b9b62130ed0d1155551294e76232",
+      "sourceText": "> `atomic::wait()` 适合等待“一个原子变量的值发生变化”；`condition_variable` 更适合等待“复杂条件成立”。",
+      "translatedText": "> `atomic::wait()` Suitable for waiting for \"the value of an atomic variable to change\";`condition_variable` More suitable for waiting for \"a complex condition to become true\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 36,
+        "costUsd": 0.000088
+      }
+    },
+    "60451ff775f21478ed5136c900abc4d4b990e40c8ff498f938c3e8ce963c0cb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0c4bf7b405675518033c23da864f0c31562acdd4afca6b57956688c2d046ed0",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **计数最多只有 1 的 semaphore。**",
+      "translatedText": "> **A semaphore whose count is at most 1\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "604533778b23e0a31366b70f3dd41876701950ba08f70251070ad49160baabfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "f268126ca507dd3b399892a4ec4f8964ee4f274bf36f4d192d44f7c6fff13208",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "worker：",
+      "translatedText": "worker：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "604bb5e8d0453228e16c8c18040146305d405c4ee5b471de25609647fe2f0c3e": {
       "normalizationVersion": 1,
       "sourceHash": "105b1a5cc419331c01177e3711fad86d67e824b97fdbdc7822677064cb59b2b8",
@@ -141,6 +197,34 @@
         "costUsd": 0.000112
       }
     },
+    "6063b57a1b358af31cc724993af9343090daf863a2e6fe03a52b3ca2905e175e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b743d200d1d2310ed743ee6563d8d81b4a63fff24781743b2b9d2613118a126e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要把：",
+      "translatedText": "Do not treat:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "6067b19c9d29c488a71e9dec070909f68ba825bc786246875eca5fa54a10e08a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b852fc2445b4b551ab8d75dd90b5436806d6003d30f5f417529e6bc0440ea80c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直到持有锁的线程执行：",
+      "translatedText": "Until the thread holding the lock executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "6071debda67348f7a0523e8612df916570a368eaa48bc3ac995e3223ae705405": {
       "normalizationVersion": 1,
       "sourceHash": "3bb844b8548dd5ef2880f485945b8e0da5386f3a9d6505248f0ae24233dd79b2",
@@ -153,6 +237,20 @@
         "inputTokens": 151,
         "outputTokens": 38,
         "costUsd": 0.000091
+      }
+    },
+    "6077b9b5fd9bbd4f2f7784daab44fef91865c83b7ea451306f0c7cd8389257b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c22f20d2c60ba331945c793344bdcfde0daa54571d711929e07c0adb5be446c",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这些 handler 不会彼此并发执行。",
+      "translatedText": "> These handlers do not execute concurrently with one another\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "607c7d23841d5a5c44dd9c6a5a147d22ced06ceaee33e2dd0cbbb07a7ba3d2bb": {
@@ -225,6 +323,20 @@
         "costUsd": 0.000053
       }
     },
+    "60a63827cca78f09d3dfbf3717316bfc45906ebe77cac3d7333cc2b6af6e8f33": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dac238df103c48157a28309cee231f857cd67bedc1c546a0a0e596a642625fa",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## TCP 粘包和半包提醒",
+      "translatedText": "## TCP Sticky Packets and Half Packets Notice",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "60ac7200e94f87df5879c04411d2ad10b154ef5887d9bd788ac94eb33e4b5422": {
       "normalizationVersion": 1,
       "sourceHash": "6c608a2192af6704df60cf9ec128bdd86502bb5d5c733a0c2b89a2fd48a4f445",
@@ -237,6 +349,62 @@
         "inputTokens": 156,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "60b2ebb95d07dc9e14dd049ffc1df39d728f335bbdf5081050fdfd8cf76f6233": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a2a376e4dc2df776315ea3b5467d96c6f4740157cea57fdf6238d432069fc39",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这时候应该考虑：",
+      "translatedText": "At this point, consider:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "60bb8dfde94f70cdf3ab1d4a105a1e3937a5ad47ab1d75c9b2120731ac50e4df": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f9d8d80f5870552fbb546726ebf3d58e4728933b4337c6946e013e63e272d16",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 我要把这个 buffer 读满再返回。",
+      "translatedText": "> I want to read this buffer until it is full before returning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "60c1aadabb13339ca3bd4856b178e62115b304a410537d74b2aa40a6a6361b63": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2f77960fc4b7ef6b6df88708964f593887b3c221469554181b36484aba33743",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能是：",
+      "translatedText": "Possibly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "60c3d64d300e96799b1bb8a3ed0596b8136679a2b6bfe1b24cb76e2aa4203dc1": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcc987ceb2d30b6b30de1bb0a608cc6fa7dbb7b4c9a39020d71f57b0576a174b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "整个执行流程是：",
+      "translatedText": "The entire execution process is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "60c7d9a47cd6ad8fbb70dbb9fc75ed782700b396368a0ea9157042ab84f56727": {
@@ -267,6 +435,20 @@
         "costUsd": 0.000053
       }
     },
+    "60e12f6c0cb9cdd32679ce3274eec6d7dbae669605188c42b5f461253674ff83": {
+      "normalizationVersion": 1,
+      "sourceHash": "04a35059f9ada23a6d2c94d7ab4804dc2163f16f899cec15b52ef158683f84b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如串口一次收到了：",
+      "translatedText": "For example, the serial port received at one time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "60e7daa2bfb57b6589b981b6cd3faef60b9b57d8ea0fd4c2d30bc20cac4e1bbf": {
       "normalizationVersion": 1,
       "sourceHash": "a5de7d92c319d0b41c96c1a61db902846695cbd0716ac88f53875240b58e261f",
@@ -293,6 +475,20 @@
         "inputTokens": 148,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "60f2f85b30aa284552540f8e7b356df2b5c6e49880f20f83aee145af1f054542": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d0d61eba7172e2521446f82d26dc830c1a4c712553e3f8887171ec67f5e7b1c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正的读取工作由：",
+      "translatedText": "The actual reading work is performed by:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "60f5a14fb64b9adebae74ff10b20ec2209086160f37d13fe2ffab57bb79dcd88": {

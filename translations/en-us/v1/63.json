@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "63033de8822b8bd85cea0458bc6416fdf96e055f5bbb9b8b34243d3f2bff734f": {
+      "normalizationVersion": 1,
+      "sourceHash": "559d9845021760393ecf94c78dbd51aa469f1f8e469f5b9505eeb9dc0c77ab20",
+      "contextFingerprint": "b42dbb8baedee2b19dd317f1357ac583acf828431d86cfc62f57458c5b0be03f",
+      "sourceText": "在生成的 `Core/Src/main.c` 中，把头文件放进 `USER CODE BEGIN Includes`，并在外设初始化之后调用 `cpp_main()`：",
+      "translatedText": "In the generated `Core/Src/main.c`, place the header file into `USER CODE BEGIN Includes`, and call it after peripheral initialization `cpp_main()`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "630dc514542f50cb74baf96d7e3d0656bbce3460063f114bb666ed7f5b057a8a": {
       "normalizationVersion": 1,
       "sourceHash": "9bcabe1429acc6c41f04b3734f419d51f5761ede438276dba263a9884f655a3d",
@@ -43,6 +57,20 @@
         "costUsd": 0.000067
       }
     },
+    "631f64624c12e8400dd903e439edcad0f0ae44cc081496a40a791a914a0e1226": {
+      "normalizationVersion": 1,
+      "sourceHash": "5458c61f1c88e8a0a591a8b822d725f2c771b186f749280b497cac56dac9bf04",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "随后 main 再：",
+      "translatedText": "Then main again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "632175162a3a117652d14db120af6fb9e32b045c38172692d50b817f750882e3": {
       "normalizationVersion": 1,
       "sourceHash": "238e4e8ce76edcf32fd8a2179c2976ea46266bbe5d58608c465d5b4d354c044b",
@@ -57,6 +85,20 @@
         "costUsd": 0.000067
       }
     },
+    "6329fb0d96128f3778822c2257e105319d272b4dc13a59a0c45a89e370e64e1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "bffadd6032df5f9f514e150dd7d31c56d20d108e14b809c4cbfa02faadc36e38",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你不想：",
+      "translatedText": "If you don't want to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "632a4e3e4a34d95ea05673379e496a4104c396928583b7d704f21a917bd54f27": {
       "normalizationVersion": 1,
       "sourceHash": "cb6c315579888869cece8d92d59deb284f1d92ec6573f42479c1a1ff1917e7dd",
@@ -69,6 +111,34 @@
         "inputTokens": 140,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "632ae74adbb3b9ebe9eb3ef4790f9acaf97d4afa640ca75e85690df71d6bd491": {
+      "normalizationVersion": 1,
+      "sourceHash": "3710bd579d7d9ba2f87b63c891ded8c579e87d1cdcf5c60bb193a327ead027d2",
+      "contextFingerprint": "3a823aa4603b88245860a23db88a47c470029f02e2f08f71f63c1e53ade36b5c",
+      "sourceText": "在 C++17 之前，操作文件和目录（遍历、创建、删除、检查是否存在）需要依赖平台特定的 API（如 POSIX 的 `<dirent.h>`、Windows 的 `FindFirstFile`），代码不能跨平台。",
+      "translatedText": "Before C++17, manipulating files and directories (traversing, creating, deleting, checking for existence) required relying on platform\\-specific APIs (such as POSIX's `<dirent.h>` and Windows's `FindFirstFile`), and the code could not be cross\\-platform\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 63,
+        "costUsd": 0.00013
+      }
+    },
+    "632f4506015ef999d3c0c829f7b59a242efb12c89de203a73725d00f95f230c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b00e31e4c2426776b7ce3e2f5c8e62b757b5cc387f5d74388bb17cedeaea1175",
+      "contextFingerprint": "3385f5fb8c19bfb49a4de8636103bcfe9609a5ac1bc4919dd874b1163b60ccbb",
+      "sourceText": "#### `socket.receive_from(buffer, sender_endpoint, 0, ec);`",
+      "translatedText": "#### `socket.receive_from(buffer, sender_endpoint, 0, ec);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "63414b63387b932b88213ae1847dd3374e099a1d25e7f49c0c4d7685a88ab608": {
@@ -127,6 +197,34 @@
         "costUsd": 0.000056
       }
     },
+    "6376e52bf93ce7e339bb2685e5c64a97e82f5e2188f8deffb7f4b7791ebf34a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a71abf5b82b154af3eef8c6e418a170c1d32bf329677ebbe389d2fe8497bc1bc",
+      "contextFingerprint": "76f31645b674de98c5199b3428f0dca87ec66580b855ec743032a0f47dc0250b",
+      "sourceText": "### 如果剩余数据不够填满整个 `array` 呢？",
+      "translatedText": "### What if the remaining data is not enough to fill the entire `array`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "638846125742eef3724b66dc4e52143dd7a075e7b661ab560a34d3301564a932": {
+      "normalizationVersion": 1,
+      "sourceHash": "c745e94858beb325a1a21985f98e005b453c6c7e974a78f89416c4eb607b1a82",
+      "contextFingerprint": "77b92fb6f0d51754dd04d0cdd9e84e741eab66f683d60532a77adebccb828976",
+      "sourceText": "## stop_token 停止协议",
+      "translatedText": "## stop_token Stop Protocol",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "63906a99890a59a826bf102ba3c717acc9ed11e511548197317e9cd0157efae0": {
       "normalizationVersion": 1,
       "sourceHash": "0ccaef14a186ae4838c756c7c3956ae4c84a040dcf264874e2f2b6d093ac5a79",
@@ -155,6 +253,20 @@
         "costUsd": 0.000051
       }
     },
+    "63ab22fb293939e0828407955b1e334a1559cc7996777398f4eed4fae4c64c54": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ab49b8ad1d062f5f7574d7928dc7c66b164c8ff3edc3b036d0a957c0657f09f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 修改状态以后什么时候 notify",
+      "translatedText": "### After modifying the state, when should notify be called?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "63b68e508c440d4579984d2849bc5428a61e89aac665467488357c439d2f09f5": {
       "normalizationVersion": 1,
       "sourceHash": "627846e520b03acdd89bb5c0c096f054f6e11c2feb9072e6a3fdcb37b50800ab",
@@ -169,6 +281,20 @@
         "costUsd": 0.00007
       }
     },
+    "63bce20ef45444c9c3950ba5953648cfd099054ec93de2dc9c529f7118a603eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "d39eb26758c8ff1a1389e366a6357f6090273de3ecf891e77650875c3898b547",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 3：类里写异步 TCP Echo Session",
+      "translatedText": "## Example 3: Writing an asynchronous TCP Echo Session in a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "63bf30749dfcc0fdf1d910828f6898850ed6be4eba385e27b0e572a9628b9592": {
       "normalizationVersion": 1,
       "sourceHash": "1c7be1cea1d429cf46c7c73857e562ed2e631b2b400452df3664543b77244509",
@@ -181,6 +307,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "63c0becf5b3cd77629146c0a347f68bd3bd84cf2abe921a3a24c0ed051cf50b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "397fed842b7e5ce73f240595d71f936ed632a1ebccb549553bbd561b4801dfa4",
+      "contextFingerprint": "bbd3987cccc097e4cacb86eda019025b0720fc0958d01ad0ead897b3677588e7",
+      "sourceText": "`mutex` 通常表达：",
+      "translatedText": "`mutex` Usually expressed as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "63e7606c40922b57874a02b9de2cf0302a549e2b6611e2c61b214a7984fb2977": {
+      "normalizationVersion": 1,
+      "sourceHash": "46611bc23dd10b372704796e09cf3189e1b28c663501d0e446be3e780f03be6e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后 main 线程修改队列：",
+      "translatedText": "Then the main thread modifies the queue:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "63f81fd2824a9004940a38afea6d9462ba2de66d1b5248b1d19d4456fd961491": {

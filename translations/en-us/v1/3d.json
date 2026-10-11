@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3d000bee1b25b3a500846dad205ee20494270ac90d28b9763e1e318e0ed2e2ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "84995b22469e4299fac779b6303933ab561aebeaf843463e59fb21d69b41c97e",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "就是用来解决这种 **handler 并发执行** 问题的。",
+      "translatedText": "It is used to solve this kind of **concurrent handler execution** problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "3d093857ab2c19c71f4d6cd28b48178850f13eb3a23b3ad169d3ffacbe88c173": {
       "normalizationVersion": 1,
       "sourceHash": "8c19465fde2c9eb893f36780e097e9f0babdf3d58ce07022ac3330907c828ceb",
@@ -27,6 +41,20 @@
         "inputTokens": 184,
         "outputTokens": 75,
         "costUsd": 0.000146
+      }
+    },
+    "3d1ab95fc8d7f9c5df5f21195819ba0bac3c8142d65019faf30128071fc442db": {
+      "normalizationVersion": 1,
+      "sourceHash": "0013827b22d282b4509f94f2c440791b253844c1a4fe5d86cbcdf83fb11dbe42",
+      "contextFingerprint": "a223460dca85f9e0fbd69c93a01832e5a58f6e229faa0cc36adcacec57bb3cff",
+      "sourceText": "### `std::bind` 说明",
+      "translatedText": "### `std::bind` Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "3d24248efaa21a128ba2dad54e512a6777bbf2a11821afa0536669428c6f4b3d": {
@@ -141,6 +169,34 @@
         "costUsd": 0.000073
       }
     },
+    "3d6f4f5dd4303b078fd4f5438dbfc6181e5e6c4d968435982a74b900c8f64293": {
+      "normalizationVersion": 1,
+      "sourceHash": "35b907325c686c16f5fa13de59d4c430074176f52622162bc0cdcdcaf9d5cefc",
+      "contextFingerprint": "361650389795afd6c84d442bc9c1c1e339228ab0e27e70bb5136a26231af7dc5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474887133-7cae0874.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474887133-7cae0874.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3d715b4c43578cf025235461790fd9bc3f5d7a044d24ad51729272b9bf0c2c0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef601ab17f848988de4a427fc65b4d6981bfe286dc1d34f4ba6981d7724820b9",
+      "contextFingerprint": "004588b826f7fb150c06f99e89a693324cc3b131a54a0c2e0af71b21e8900ca6",
+      "sourceText": "但在普通业务代码中，一般不要因为自旋锁“看起来简单”就自己使用 `std::atomic_flag` 实现锁。",
+      "translatedText": "However, in ordinary business code, generally do not use `std::atomic_flag` to implement locks yourself just because a spinlock \"looks simple\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
     "3d759d810081f224683be795d349471d46a4a049fe7e41afa99feab16e965658": {
       "normalizationVersion": 1,
       "sourceHash": "0ac414fc065829e70728cded38d0eac49c6e14ee054e5e2433e7b6ea80163fe5",
@@ -181,6 +237,48 @@
         "inputTokens": 153,
         "outputTokens": 37,
         "costUsd": 0.000091
+      }
+    },
+    "3d83aa16b871d680750c4383b1f07a111b546bd056c5cc93afd372405ddfe685": {
+      "normalizationVersion": 1,
+      "sourceHash": "043d6893a5713b2db24c5524603d571e8b4c63f737e9ab719854e0c04ef9a86b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能输出：",
+      "translatedText": "Possible output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "3d8e757a1e08eb1e5dad208001b73bcedac74f7345f1210daf0e5ba4fa6c69b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "9db8ee6978a75a8b3357d8191ec7b1a5422bdd74508ba58336a7accb0347585b",
+      "contextFingerprint": "63cfb87c54e8b94381f6b286357e94cdda17124541c35be0040cc3acf1be2553",
+      "sourceText": "`io.run()` 仍然会认为：",
+      "translatedText": "`io.run()` will still think:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "3d923774823d2f298ad09942fafd79b5566d34ab36bd549d31ed1f10ca29954e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0676be3f541f9a42f6f1ed773ca6360204a5c0bb03899da6e94833071a3dde82",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注册新的异步任务。",
+      "translatedText": "Register a new asynchronous task\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "3d999b7f4b10c2d5f8f88c4b01100b7e2e945e95ba07987093e5d49e7e30225a": {
@@ -309,6 +407,20 @@
         "costUsd": 0.000084
       }
     },
+    "3ddae7ae5fccd1a16591fd6788b653e1f8b3527bc69556816af7e8d1817f0cb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8497bbfc24314f88cbd81e845185769809df571aabb7fac2c297734354a2cf0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发现已经：",
+      "translatedText": "Found:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "3ddaf68f06e13addab25761efe0c44278d7e4a9a2718d18fc338ec6d5da4ff6a": {
       "normalizationVersion": 1,
       "sourceHash": "85313b46b3d32a6853ee6ab310d02c35d992eded82a8cc69873e8c35e9bc2716",
@@ -321,6 +433,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "3de1fed0874925e941d27af4745cfd338f8301214a99f2e9936e02eedcd5c0bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "51518ed1b90b6fe1dc79b44d2965823dbe3a82dd205481573ea05cea403a579f",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "因为 ROS2 executor 可能被你阻塞，其他 topic、timer、service 都会受影响。",
+      "translatedText": "Because the ROS2 executor may be blocked by you, other topics, timers, and services will all be affected\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 38,
+        "costUsd": 0.000093
       }
     },
     "3de4d0e824a949691f04c22dc4c14b42c6a5eeff22e80b5ceef423882b857c94": {

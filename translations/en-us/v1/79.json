@@ -15,6 +15,20 @@
         "costUsd": 0.000062
       }
     },
+    "7912dda228228cae033bc451f8f2ac949d51e0df7ab912ec4b7b78cab453b690": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a64614fbd8e92e9a7d086519417a779dcaffa4c0b19e44e2105d3fe607271d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是很常见的接收缓冲区写法。",
+      "translatedText": "This is a very common way of writing a receive buffer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "7919a5a7f8bf37a92ae0886a6dfdccb11ffbe008a31f53c9f3c44bbf1fbaedb7": {
       "normalizationVersion": 1,
       "sourceHash": "10a8beed9a3e043ca81464dc09333abb807d4af860c8623268caa5181ee0c68c",
@@ -43,6 +57,48 @@
         "costUsd": 0.000126
       }
     },
+    "791b47d44c474d84df5c14fb3b9687e86314b7b71be3eeebe07d73f54e0c31a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "396e962b6649c33319310c2094e9fe11d01c2baaf712e8fbb02afde795c23938",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设 worker 这样干：",
+      "translatedText": "Suppose the worker does this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "7926c8718ee52317d727ce9c3465b961aa187c3918615a17842e16a761b2377c": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc4ede259479faf0624dda98782649585c9a9ce510a145681f64f826b899de79",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：completion function 太慢",
+      "translatedText": "### Error: completion function too slow",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "7927bac938d4bba43ead65c9715668c11c812ced196237ff2d3b67fe734d84a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d42e98a09d4bec8731fe0bfbcba13665df789901edf5de1c45ea5ba2d8d1aca6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一节使用：",
+      "translatedText": "This section uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "7928e256f2b33d01ccdaaeaeabc42ce6f9c0926de16d01b9427c7b7b4ad3f541": {
       "normalizationVersion": 1,
       "sourceHash": "fa9fd6110c6fd4a698647d96a05f146a196e96259729ca27554a41d3d048b606",
@@ -55,6 +111,62 @@
         "inputTokens": 136,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "792bb2be4ce70c726077a62901c9b514cf31cf4f6243afc7eaa04c136d8b7a06": {
+      "normalizationVersion": 1,
+      "sourceHash": "48e11955caaa98a9c8ddee294d7605fff4a561d8fb992fa33e6fe300cd7104a6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有两个参数。",
+      "translatedText": "There are two parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "793d488c2b40ee26b3f81dfa4cc093b0feda1f3290c45acfaffc76345e25ab64": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5d41a80c7c8133d6bb6c4c266898a5a62e08fb43b83c12c5629e0b98c4bceb8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接执行：",
+      "translatedText": "Direct execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "79501afe3504ae48adb9cd7b15433ecb754f0dd347ba80abe50c2b00783a41dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "6342db10ed92a484fa5b08615e1dd512551504f68976212339208e92585b0c6c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后，可以通过：",
+      "translatedText": "In the future, you can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "79570fc2c3a4c466698fa18116a909abb31310a6479d269f193720fbe8f842c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1900e14c43ebf274126b53aa75e3908858717e5815023a5ad8c83d6bf4de61e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "被调用。",
+      "translatedText": "Called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 8,
+        "costUsd": 0.00005
       }
     },
     "7962ec2b229358488a687ba331a010717d729a27ad6998651457a53b5d33f5c6": {
@@ -155,6 +267,20 @@
         "costUsd": 0.000061
       }
     },
+    "79b42592275e1cd0c02569e4f993d7df49e332e34dedef26ed54eb4c184bdc7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "02a7abfdc1a92bf8dc036279dcc7d4c09a5c89393054bd43302b7e02c9f480e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即使你用了：",
+      "translatedText": "Even if you used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "79bb05514354bfe2cb2b70175b2c2c7885e3233edcd6235350b39a371fccc9c6": {
       "normalizationVersion": 1,
       "sourceHash": "8a5ab2a6e12d2b9fb8dfeee544395584af9c41b7773b17a8c3da1f993ccb4ae3",
@@ -253,6 +379,20 @@
         "costUsd": 0.00006
       }
     },
+    "79ecf5a8f74a69e5d1228ed4ec599910618e657dcfe6255017de1f6a8f49a047": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c44adf973745bcc1aa3d768c341e5fcfabd25a60b033970264695b86d58974e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这里：",
+      "translatedText": "So here:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "79f3d8ca688c65436ce4ef5dbaa085f156a6b6a58cfad0fc9779cd38b68ed14b": {
       "normalizationVersion": 1,
       "sourceHash": "2900f671ab334e8da8639a57c16cc3dbce58f0f63f81e2329ae75f12546cbe6c",
@@ -267,6 +407,20 @@
         "costUsd": 0.000054
       }
     },
+    "79f746d6ff1ee3580e8c69328bdb831e70c797cf78bbe243bdbef14bcca9d6b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "32b36ca1a527e079401155b06c64564abf93938353e8bd9b11cd1791aaf3cab8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如定时器时间统一写：",
+      "translatedText": "For example, timer times are uniformly written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "79f94ac541db8b398e945611fc013ef8712d9e85559bd7c43c736d565319a278": {
       "normalizationVersion": 1,
       "sourceHash": "69a6b461808299616047a5ebf7b74f0896a5d3245ac590d290a40ede440b4af2",
@@ -279,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "79fb01554a84b7e0ee3594911005fa37058e2e1f5f4702211c0c01fedb95abd4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8485b820ad866d8dfa231d689f4d7f554842d37ac2a366ec7a2e9ce43fc76d02",
+      "contextFingerprint": "a9190434896ddc414c1448d6545ac675a787580f13dcd84417aa8abf349ef460",
+      "sourceText": "客户端输入 `hello` 回车后，服务端输出类似：",
+      "translatedText": "Client input `hello` After pressing Enter, the server outputs something like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     }
   }

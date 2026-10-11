@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "fb0742e0bad169e2b69c8293f1159f85c25bb20d3c04b8ce109a9dddc9ea91dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4f99ad285fbea4ce82756c62753cfcd500f4747e284b280ebbf1abd6ed74178",
+      "contextFingerprint": "e24db034034924ba8055c9ce2e74dd8e728298e28440d3c66abf0b542056e99f",
+      "sourceText": "- `config`：`Serial_Config`，串口配置，包含设备名 `port_name_`、波特率 `baud_rate_`、数据位 `character_size_`、校验位 `parity_`、停止位 `stop_bits_` 和流控 `flow_control_`。\n- `receive_callback`：`std::function<void(std::span<const uint8_t>)>`，收到字节时执行的函数。它的参数是**本次收到的字节片段**，不是保证完整的一帧。`std::span` 不拥有数据，只在本次回调中使用；需要留存时自行复制。",
+      "translatedText": "- `config`:`Serial_Config`; serial port configuration, including device name `port_name_`; baud rate `baud_rate_`; data bits `character_size_`; parity `parity_`; stop bits `stop_bits_` and flow control `flow_control_`\\.\n- `receive_callback`:`std::function<void(std::span<const uint8_t>)>`; the function to execute when bytes are received\\. Its parameter is **the received byte fragment this time**; a complete frame is not guaranteed\\. `std::span` does not own the data and is only used within this callback; copy it yourself if you need to retain it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 92,
+        "costUsd": 0.000172
+      }
+    },
     "fb091dfdd4440631dcc3707975b5300160cdebea3d45bc0675e559927f8718d4": {
       "normalizationVersion": 1,
       "sourceHash": "bb2e6572a6843888a97e1930698cd8353c034f6132ebc92430110d62c6f8ba3e",
@@ -55,6 +69,76 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "fb1f3153a3a7488c1cd6b62ba768410a9bc816e30ccd4d32e8fb6e42c7aed930": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb8136d726f537334ccfca8e445497f68a2afa93e64adf5f78fabd1e9b6acdb1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 CMake Tools 正常识别工程，你会看到 preset、Configure、Build、运行 target 等入口。",
+      "translatedText": "If CMake Tools recognizes the project correctly, you will see entries such as preset, Configure, Build, and run target\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "fb21541c051d957a7f34e2c56b369cb47256fa57df842dec1ecc115122128a19": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f8e9c7330483af1076b08486ab86965445203c7a98a39f07b3177c942dc31f3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么 atomic 还有第二个参数",
+      "translatedText": "### Why does atomic have a second parameter?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "fb2e5e835ded31d304df0889f955806f0de6e20de551e6a959cd430ba9365ef3": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b67eb6683d1d9d7b7eb5f92df1697cd6e71c00bb6bc02144e6670c515eb9c1e",
+      "contextFingerprint": "8a2fdfe4b3722f24a98ffaa7c45be330afc5612d152acb9ad7ebe506623e7d0a",
+      "sourceText": "#### `serial.write_some()`",
+      "translatedText": "#### `serial.write_some()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "fb4ab93ffcdc85491e9315f10c713e740767d089193d0f4af5cfdf74ccf97b95": {
+      "normalizationVersion": 1,
+      "sourceHash": "397f6dba257190ca0a6dcd89bb7966d36c2ad4bde1ba771922428126f6cf7501",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它只表示：",
+      "translatedText": "It only indicates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "fb4c2d6770f34c95620d504f38be28607e11bd8087dcfa5fcfa6f99e4ba1994b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a63afc38fdb57cd1cc03fdb744aea2ed763c794377cf4d769758edd566b03914",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初始化只发生一次。",
+      "translatedText": "Initialization occurs only once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "fb544a1ca626133153fe706a35a3d72025ef317d7b1d7bb01f87f6d171c3527c": {
@@ -127,6 +211,20 @@
         "costUsd": 0.000071
       }
     },
+    "fb759bf260a2e0c936b30454e7656f149a94c5423f1800d8023f9a87895f0596": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6c82e3f56d20a5fdab975039c31bb093bef119cb3c3fa759d63172d54280d9d",
+      "contextFingerprint": "038ab6991f9587c4b901ebc9dfecab37d8ff66320aa8ded79ff31218f3603af1",
+      "sourceText": "`buildPresets` 是\"构建阶段\"的 preset。",
+      "translatedText": "`buildPresets` is a preset for the \"build phase\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "fb913213c19dbb343be59adf8ab14797b0f89465d4489240304c6a0e2a313be5": {
       "normalizationVersion": 1,
       "sourceHash": "647673a6c336baedbcb50515762b53c83a3a005352943c36c1bcb33fe08f463d",
@@ -169,6 +267,20 @@
         "costUsd": 0.000057
       }
     },
+    "fbc190162e18d7492532d5645a5658d918efe386253a81cbef407a23642aca89": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e4b4025764619eb651a7c70e1e197d9ffe3f7a4b321c03fc802b15e29aa6639",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### promise 的结果通常只能设置一次",
+      "translatedText": "### The result of a promise can usually only be set once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "fbd57fbc0a64cfa551a7ae6b587ec512be95c52a8b12382190a895bf99e92cd7": {
       "normalizationVersion": 1,
       "sourceHash": "c897f28d5ef7664d1adcfee3ab6cdbdfe355cfd181b01d2e7d676b0cb93620b0",
@@ -194,6 +306,20 @@
       "usage": {
         "inputTokens": 159,
         "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "fbfc6b84e61562c8b5f709ce1da2e66b9a29dcbecb68e329ea73620a1df4cddb": {
+      "normalizationVersion": 1,
+      "sourceHash": "eeea609c7297f5bb145495e1c873ea4eeff331e9c07dc9f8c2a4129a8a99d965",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 一个线程发现锁被别人占用了之后，不睡眠，也不阻塞，而是一直站在那里反复询问：“锁释放了吗？”",
+      "translatedText": "> After a thread discovers that a lock has been acquired by someone else, it neither sleeps nor blocks, but keeps standing there repeatedly asking: \"Has the lock been released?\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
         "costUsd": 0.000096
       }
     }

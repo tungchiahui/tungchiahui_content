@@ -43,6 +43,34 @@
         "costUsd": 0.000051
       }
     },
+    "2e208c5d0a7c1bd6a8659e53e8a50167193c2feda67637ce78f6231f714cf3e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7480b109a68ce777486080f21aff540ea67a8debc61e5a3b52bacd04f18f6a12",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不确定。",
+      "translatedText": "Uncertain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "2e2e9463713167d4241d389dc0edd1cde41a66533b5778f4f790f5743194a47e": {
+      "normalizationVersion": 1,
+      "sourceHash": "adf27f0c01181ae937f6e468542a4a9e1f9ad25e02bf15756ec9f076c9809bd1",
+      "contextFingerprint": "9c4dce23487caf08bd105665d0dc02b71b5c7ea9d13ae4dd88c9d84fe38f59ed",
+      "sourceText": "如果使用普通 `bool`：",
+      "translatedText": "If using ordinary `bool`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "2e344f1741209a8078677bfb6ce7d66f9a068bd3c28e83add467c753bf247b92": {
       "normalizationVersion": 1,
       "sourceHash": "037373916b990bd65ef48141aa18b89a972800cfd501c3cb45c3533927433981",
@@ -55,6 +83,62 @@
         "inputTokens": 201,
         "outputTokens": 88,
         "costUsd": 0.000166
+      }
+    },
+    "2e505cafbf317581c9299bfb7a7c049dcb2f96919461d7b20227856e17cf69b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2227ffdc73e87844b03cc983b43ae33a3e354a2c57461f6992fea6720c3d2666",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二次读取：",
+      "translatedText": "Second read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "2e58060033ba85b05dbb8d9ac271e24384bf8be84b5df0742cd692bc3c699f64": {
+      "normalizationVersion": 1,
+      "sourceHash": "61525ba4404ab52d10e27292dbfb3b03ad82c630daaa86be0e48bb78fb607f0b",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 保证“实现一定无锁”。",
+      "translatedText": "> Guarantee \"lock\\-free implementation to a certain extent\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "2e848a7bc8cfb54b553e5c4586bb7fba137cc1e323b316c89f8c2b6a141a5d79": {
+      "normalizationVersion": 1,
+      "sourceHash": "245ea23e69f01162b23e3ece9bed46c97d5f7ac1a504d78c5d8d7885408f9285",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "尽快释放锁。",
+      "translatedText": "Release the lock as soon as possible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "2e8d87eedcb34afd9edf784d44f18a63d60e133600ea10cc785219bea168f0a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "27c208d503ff481064c5fa1da7c7eb1aaeb4dcbcdd9d981e2775ec509c1d8d56",
+      "contextFingerprint": "00e20141de658a9351240523bd192412c109091ad35cfccc420683d6b0df08ff",
+      "sourceText": "`std::jthread` 同时解决了这两个问题，但它并不是“自动强杀线程”的工具。",
+      "translatedText": "`std::jthread` It solves both problems at the same time, but it is not a tool for “automatically force\\-killing threads\\.”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 31,
+        "costUsd": 0.000081
       }
     },
     "2e975d7055253af912f0091154b5d15db055e433ed6b872d226624480e3ebf34": {
@@ -71,6 +155,20 @@
         "costUsd": 0.000059
       }
     },
+    "2e9f927b186c849a2c4b6b2b053b513a880ae9b405f6b9550b2b3c26621601d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2cb2a3a69aa61ff37773c0957db3516ec9653c73343550b3200f68859640299",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而不适合：",
+      "translatedText": "Instead, it is not suitable for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "2ea3b242b317ae4f8ee02a6e7643a3ce03d1dcf3ba94c5c17ca9fc39e9a4e750": {
       "normalizationVersion": 1,
       "sourceHash": "036890a8603be8d53c1c7250fee71256f19949b3b589d78cfb244e7b60d2491e",
@@ -83,6 +181,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "2ea85d5cf8fe916621db1bb71c740104e3484e983172766574d99c4e2c172e12": {
+      "normalizationVersion": 1,
+      "sourceHash": "b73074230062108ff90d05ae1ec3e19aaff58d3f28af5df7d9c1f808250c475e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果返回：",
+      "translatedText": "If returned:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "2eb3b4c5005eeca8744bb794d15a06bfa214def363f905c20f9d3370727bc744": {
@@ -113,6 +225,34 @@
         "costUsd": 0.00009
       }
     },
+    "2eb9c3e5ad9fb1240aaa2f272fecbc329dbf54e9289e8b723b4d74620ed3c12d": {
+      "normalizationVersion": 1,
+      "sourceHash": "46adf49c0ad653eb1f0c8ee21fba7b6bdfa5b321fedff362964bbf9d3932a07c",
+      "contextFingerprint": "4ac1b7333663ecfc58e7d7aa0a940a2457a0285ba9293d0247d210452960f1a1",
+      "sourceText": "这三个项目和 ROS2、Nav2、ros2_control、小车底盘控制都能接上。",
+      "translatedText": "These three projects can all connect with ROS2, Nav2, ros2_control, and the robot chassis control\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
+    "2eca6e75b469477a786ee28f22456424f12d12b44cb6b2a0b87f57fdad9c405c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f091c98cdae4b2cb0c1d40d71d99d01e10cba8ad2bff77a1e664600e54c502fc",
+      "contextFingerprint": "0bb8af45a16e0c705ef61f04c239965b514dff33732ab56b47393e63d625afd6",
+      "sourceText": "而 `std::unique_lock` 支持这种：",
+      "translatedText": "and `std::unique_lock` supports this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "2ecce9c2d7ff402e81e53aa9c90bdde94245cfdf7dfc7511fbeeecd39935c165": {
       "normalizationVersion": 1,
       "sourceHash": "bdf76baac2f4676bc54396ef7d261c72a45e8aae42714c6a118ab2c53de7821a",
@@ -141,6 +281,20 @@
         "costUsd": 0.000052
       }
     },
+    "2edc7e7339c2ed35199d69e03123a9bf6d92a49d8fdc1e89371d9ad62322f5d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "55c72afeaa7559db1e13002ea729af5fc84cf39f3ad45b5cb4397393da234a44",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 保证同一个串口上的多次异步发送按顺序一个一个执行。",
+      "translatedText": "> Ensure that multiple asynchronous transmissions on the same serial port are executed one by one in order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "2edffbc68f316e91b3c4d733ddd50ca200dece91c2c6d5cdd9896d4e61c6918e": {
       "normalizationVersion": 1,
       "sourceHash": "b278f5a5ecc00c20309cdbb28e513e642dafb4bf51f23883bc6bbe6432cc1bd0",
@@ -167,6 +321,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "2ee844a49f3f11441c2f4b6c26c3a628d87fb8c982f0b1d9db95f9d26c1384a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a37bfa6890a7c7140a207085ccfea3d922779d637ae35ebb0f6fb2d44003bce8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "命名空间中的普通函数。",
+      "translatedText": "An ordinary function in a namespace\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "2ef09b56910ae881ab8f60c0fae39d7b8d583ed37b1f5c450750b8ac7a5aa9f3": {

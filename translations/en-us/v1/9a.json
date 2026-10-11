@@ -43,6 +43,20 @@
         "costUsd": 0.000059
       }
     },
+    "9a34e71c590bb032b0b377d9a1fd4c40b90f21ca9eb01802b75de405345ea193": {
+      "normalizationVersion": 1,
+      "sourceHash": "c56ba8bdfaa50cf03864289055c0c0bcfbaa548391088fe9995181c68a890c1e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果每次都直接启动一个新的：",
+      "translatedText": "If each time a new one is started directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "9a3ae12b6c17fe4c857d1227f24cabeee000f8a5b9863b8dc8d27a72aab55ded": {
       "normalizationVersion": 1,
       "sourceHash": "a6b38d0d7b2d93f0cea42e7949cd6697b2df47d38893149078d90ce052763e95",
@@ -55,6 +69,20 @@
         "inputTokens": 144,
         "outputTokens": 36,
         "costUsd": 0.000087
+      }
+    },
+    "9a5ad18afd1e8fb8827305da8e50511e7d520b85f162ee76501dc5a4c5793ef0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1299f61ba74858d37e86271bc609e81caca7f99161820c4226e598174287c98b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "说明共享状态设计可能已经开始变复杂了。",
+      "translatedText": "This indicates that the shared state design may already be starting to become complex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "9a670c9c5e7df2bfda9f2fcd2c2b42695f70148ca4e6c5df7868dafefa77a2b0": {
@@ -99,6 +127,20 @@
         "costUsd": 0
       }
     },
+    "9a93b746a40e50a20fc860f719a1960b72586d69312716dc3f0e57651af14b61": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cab4a7f7ddf7f66b0ac891dc8688dc01bd38c2e5ace8005a61ded50c3717cc7",
+      "contextFingerprint": "8fc9c46c3f04d57e776c1ba0c92d16e0e4f5e01da405ebd74f73cf363c811084",
+      "sourceText": "`std::stop_token` 可以理解成：",
+      "translatedText": "`std::stop_token` It can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "9a9eab5e682b8b96c523c9c9622e19e7343a57fcc91bca56a6cac267277e7085": {
       "normalizationVersion": 1,
       "sourceHash": "ac07ee6b0359eac55732dc43f5c67f11ba3bcae7aebf4bb9836e1f70426ed97d",
@@ -111,6 +153,34 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "9aa515991a14963ce38b22444490dbefebc6c8ebe127abb1987b4c362d19ea0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd418e66310fa9429ee17f23280498f1845dd788815c5ca9f06e2eee53c34b63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正好是 11 字节。",
+      "translatedText": "exactly 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "9ab62030f7adf2257b0c2fcf699334ded70910c6d460adb0cb3d9242f233aa57": {
+      "normalizationVersion": 1,
+      "sourceHash": "a47146d1464d4aba0ed567ca1bcae1bd882de160c570bc5336955d030a7c9f9c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：最简单的模块",
+      "translatedText": "### Example 1: The simplest module",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "9ac41a3238991a026c44a010b6f4d325f4001f033dedf4c76b15921831d0c18f": {
@@ -167,6 +237,34 @@
         "inputTokens": 151,
         "outputTokens": 36,
         "costUsd": 0.000089
+      }
+    },
+    "9aeba4627de0825eb99e6aff56061f3eb01c0fa0d0650439feb40ee0080d7b91": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fe07a6346d5d88c007e0dab54116f6260da3503a2f3a4074fec800e2851e8c2",
+      "contextFingerprint": "b3f9a6b53710c3cc69565af3c238a7d2ed6b29c15b59bbe8de8d87f600d9cc59",
+      "sourceText": "> **让这个 handler 遵守 `strand_` 的串行执行规则。**",
+      "translatedText": "> **Make this handler follow the serial execution rules of `strand_`\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "9af51abb791e04c25b6f12d44e10d4422568b6252b6f38ae0588f27ca3651772": {
+      "normalizationVersion": 1,
+      "sourceHash": "96be3303c4b51b9eb2eea57fbf7aba4e31528fdf21152ab8493c5441e17d43f3",
+      "contextFingerprint": "aa756ae3eebc8c56cd404da475bccaeed2215476d225f31ea823fc0cef3869f0",
+      "sourceText": "安装好 ROS2、`colcon` 和 standalone Asio 开发头文件（Ubuntu/Debian 包名 `libasio-dev`）。以下以 ROS2 humble 为例；如果你安装了其他发行版，替换 `humble`：",
+      "translatedText": "Install ROS2,`colcon` and the standalone Asio development headers (Ubuntu/Debian package name `libasio-dev`)\\. The following uses ROS2 humble as an example; if you have installed another distribution, replace `humble`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 70,
+        "costUsd": 0.000142
       }
     },
     "9afa7c356dddf71652b3c3955fc8c9861ede4dae3cef0297b72089eb5668e6aa": {

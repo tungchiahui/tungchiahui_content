@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "76086e869f7688381000a15f78bb93adf2c790527866a3f575257e854e675f4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "823c92b744da6ed7daef5d7d61980b66408e8131943c4336e739e5b54922bbd8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么“释放 mutex + 睡眠”必须是原子的",
+      "translatedText": "### Why must “release mutex \\+ sleep” be atomic?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "760d653a23ab33c05473e14574f05c83e23079cbcc16051b232aeab6a2a449c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca2a2648219ac6496a5ffba13851934c40b92607c594a17f4aaab1ea305c7035",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果中间发生：",
+      "translatedText": "If it happens in between:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "761da143b19c0fe5f3f5f0f303f0ab05296a6dc9a9de1dc54413058b941a627e": {
       "normalizationVersion": 1,
       "sourceHash": "3e730a62df442ffeb82c2e57024e6e36cc0cc125344c955f8d84633934244275",
@@ -43,6 +71,20 @@
         "costUsd": 0
       }
     },
+    "76503c7c62018f07e9cfe47881302777b8b8572b8eb3da855e72ce722c7cde77": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbdb88251071720056c2a6d9a792e54f4d0e5f122f1ca766e801104b2d5e6c95",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两种思路分别是：",
+      "translatedText": "The two approaches are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "7659539092af781e332541deffa357badc4cfb5aa9c4df0742afcbc366b731c2": {
       "normalizationVersion": 1,
       "sourceHash": "1362f0c8d32cb9903520d2b1425c655fe17c978c0c1a0cb5afbf641bba936ebc",
@@ -55,6 +97,20 @@
         "inputTokens": 222,
         "outputTokens": 127,
         "costUsd": 0.000219
+      }
+    },
+    "765a72488ad13fdd5334cc5d1636eca54bf953e398d307a70bae03d962ac246a": {
+      "normalizationVersion": 1,
+      "sourceHash": "272068157b54f91b123ae369b7d6bf4df89d244603c7d8732bcf4ef1a4765793",
+      "contextFingerprint": "9800aa73044592abb1020fed00610661c5c499b61af7287d84f324e72a451249",
+      "sourceText": "### 为什么不写 `tasks.json`",
+      "translatedText": "### Why not write `tasks.json`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "765d39902fd9988dcc06a418e3eecd502ba25329cbcc820e3470023908108f27": {
@@ -83,6 +139,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "766c99fbdceb0969cb31a53ccffd9d6c6c13ddd1b8581936e4dff2fa0de4ee22": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bae1b1e6168f0c331c53b95ac755738ca35fc6321df8b97ff811d72725deace",
+      "contextFingerprint": "4f299d08d9e4f3cd4b43f1799f10a1b941265a6e0ac0c9d3d88c9667f0a64bb0",
+      "sourceText": "`boost::asio::read()` 默认会一直读取，直到：",
+      "translatedText": "`boost::asio::read()` By default, it will keep reading until:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "766d8e3e537486edac298641f339c374ed17137859626991ad3114ff5343c5c8": {
@@ -155,6 +225,20 @@
         "costUsd": 0.000083
       }
     },
+    "76915253a27f936ef56f0afd9a3e5d4ccadf2a35d580c18c928d51fb664b4ca4": {
+      "normalizationVersion": 1,
+      "sourceHash": "e87ca3efbf28fe1c19026c694edf9cb8b99d9bd316518c7bd02eea69d05e6127",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里的第二个参数控制的是：",
+      "translatedText": "The second parameter here controls:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "769a10731eb3606f3833e330d5c7d3e343634f555d745fa0563d15a777c4fa6b": {
       "normalizationVersion": 1,
       "sourceHash": "35bda7533de9079f5ff46ddeeaef16577b1787f4d11230d94e7899ed06b0f46f",
@@ -167,6 +251,20 @@
         "inputTokens": 159,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "769fa5f2596162d19fec9c96ee49df55a04a86dfb2886950c81c5c3522031332": {
+      "normalizationVersion": 1,
+      "sourceHash": "7748f38ec030f191bf09d2d860aa4ab920701ad7e32c084dbf5c6f4b141fcd51",
+      "contextFingerprint": "e315869c9648fb9bd73a5db52e61c04f81f4a0ad4ef3fd7e6a4fd3fdfac08920",
+      "sourceText": "### `reset()` 和 `io.stop()` 不一样",
+      "translatedText": "### `reset()` and `io.stop()` differ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
       }
     },
     "76a60163bbfb770c1831ba9586b2ffec6b61fc4fe3ff59c38d851fd71578aea1": {
@@ -195,6 +293,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "76b468a5c77684fd4b85acaead5d1b0154cf53b65e485f49e7015ccf2ecabcd3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f05d86ba9f6a3fb6a495b57ef98913dcc8e7df5acb6bec857763d652d15d7a0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### build 前没有 configure",
+      "translatedText": "### No configure before build",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "76be2544b8d33d8b9e092f05e65db23eb2c6d54965b511e06713dbd36e775d61": {
@@ -267,6 +379,34 @@
         "costUsd": 0.000057
       }
     },
+    "76d626707539d5666fdce3b235caa1c769d163fbcff079c3083cfe0b6187de2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "419f4155c1c66e5ea744978245222f2fad4f0ab052efbe338f06584955bda4ef",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "过程类似：",
+      "translatedText": "The process is similar:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "76d8c4741c28e3bee9d9dbcb4759e5aa244aa805adb69a4d57608cd1bb0f1dc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa40e190a77172ad1a0259067acbaa1fac8a3626a90b3e436f229c9f23ea20a8",
+      "contextFingerprint": "4bdff2b1f089f8096dc4c804bc012da0407d396a0595a12a41ee512ecb9e9651",
+      "sourceText": "`configurePresets` 是\"配置阶段\"的 preset。",
+      "translatedText": "`configurePresets` is the preset for the \"configuration phase\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "76d9859de6253cc63f02ea00cb8be9d4194485db6f7bd888d11a715381aa03c1": {
       "normalizationVersion": 1,
       "sourceHash": "800013de3f66d47bcc35d81bb86ffcee57a342b43a79ac64a53ed59e5dbe4435",
@@ -295,6 +435,20 @@
         "costUsd": 0.000056
       }
     },
+    "76eca0e3ec4e5ed1dbccf9cc7984038c264cee4c8db602671ad62533f2542b32": {
+      "normalizationVersion": 1,
+      "sourceHash": "96ebf34990f4c453ae7c1c5fe30bfec6ca98cda8ccb3f48b042ee6dca827d666",
+      "contextFingerprint": "a057f4c0c9fbf8de18dedb5ff3ff2385e186174a454cf38de40ca7de7b683bc3",
+      "sourceText": "### 最简单的 `std::async`",
+      "translatedText": "### The simplest `std::async`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
     "76ee55cbfba28a9fe21ff224b70b0281a4b62d11ff89e8ce1d18962f19750a39": {
       "normalizationVersion": 1,
       "sourceHash": "51cde0e4f02bf6861c3d353299214d36f384574af8c2dd2cb4b862a79b647240",
@@ -307,6 +461,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "76fb4d6ed6b0d0243811cc01ac9d84ed094f06b205a196f8b8e2f75f72e8aeec": {
+      "normalizationVersion": 1,
+      "sourceHash": "b19c71c897f19c7fbb470651d37ec2d77778e12888f29c88077debbe501b8682",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常比基于墙上时间更适合：",
+      "translatedText": "It is usually more appropriate than wall\\-clock time\\-based:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     }
   }

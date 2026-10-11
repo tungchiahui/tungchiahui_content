@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "230321484d626abe58aad373c9aa932dfacc7bbc4cccdd0182480e5be0776f7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8d093fe34d515ea7be671c2a5a168e370e3eb8cd81347d7faf38eac19f88a68",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **你给它一个函数，执行这个函数时，它自动把函数的返回值写入结果通道。**",
+      "translatedText": "> **You give it a function, and when this function is executed, it automatically writes the function's return value to the result channel\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "2306e5ad138dea6c3eba83bf67736f342e3c1b2fb270d098780c3f472293c149": {
+      "normalizationVersion": 1,
+      "sourceHash": "7155322ce4d0148b6753b60ac8f1d855ca641015630649ebba927924525f6c79",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种场景：",
+      "translatedText": "This scenario:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "23105d6cec8189878823b6da4118021359ab7b35dc87cce070a4eceab8be57b4": {
       "normalizationVersion": 1,
       "sourceHash": "68dc6c1f1139848a868f25dcd74d61bf0abed1fb82b3ede93fd3a3e9906bb65f",
@@ -15,6 +43,20 @@
         "costUsd": 0.000097
       }
     },
+    "23168cad16c2de261efe41e120705830cc4c9a17be4938683d16ad04d6ce76e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "49ffead588aa0ad7db4e2a43d4461ab77fe6d99873ed55ec8451ac378b553327",
+      "contextFingerprint": "35e347ec2c11b38de46ed2a50d373a9ce61dee4379fd5cdc4fdfde4fb3a23403",
+      "sourceText": "`is_lock_free()` 用来查询：",
+      "translatedText": "`is_lock_free()` Used to query:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "2320012a9c3ec5380daa1d28ff33a0eeb5b7d5b37063184ed85142b64fe237ba": {
       "normalizationVersion": 1,
       "sourceHash": "8d9446edadbc06e0ed116aef79bb95e9d08991b9d9a643b29204703061081c46",
@@ -27,6 +69,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "23245b2bb730c750976416f2ae09d4513508b9140d95815b098166b110aebf04": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d524c132bd11945d94b51ead3d5d724c84eb0a26c42476add46ed016ccbabbd",
+      "contextFingerprint": "e4ae42bf02a68be15e74d6f5c91831e6ae338224771db9da3f6bc951730f7472",
+      "sourceText": "### `make_work_guard()` 和 `reset()` 怎么记",
+      "translatedText": "### `make_work_guard()` and `reset()` how to remember",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "232475f2b9f5f09f85158656ca0bdcf9e323e8edc56808e901956e5da121ba88": {
@@ -57,6 +113,20 @@
         "costUsd": 0.000079
       }
     },
+    "233358fdef00bab524eeb9aebfc79df009c3dcb36f1cbb8847860f1bd20a54e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "241f3d25283b2b622273c2606916ea1769974af4bb6445173e28d9868b48dfad",
+      "contextFingerprint": "872964a2e7fd31867d40d841d19ef1ca5b9432c6ba81b8778f20e136e675f06d",
+      "sourceText": "说明它的原子操作是 lock-free 的，也就是底层通常可以直接依靠 CPU 提供的原子指令完成。",
+      "translatedText": "It indicates that its atomic operations are lock-free, meaning that at the lower level they can usually be completed directly by relying on atomic instructions provided by the CPU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 46,
+        "costUsd": 0.000103
+      }
+    },
     "23402093ec6e1ad94f4af78d068308dc48e20fcc9858780d740b5e64897bab44": {
       "normalizationVersion": 1,
       "sourceHash": "ce16c402ca7b3321ad41eb9ac5ae30216c41a838c24e783a24052cb7cea46f54",
@@ -85,6 +155,20 @@
         "costUsd": 0.000071
       }
     },
+    "235b1c31630e271186babee944fd7f0e03e1b73581a70ac02a90f10580cb1e8a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3556f1b891cfab208f5256c5a69772bc80adf8675019c282ccfad39f76dfaaf4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 latch 特别适合：",
+      "translatedText": "Therefore, a latch is particularly suitable for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "236bf1eba64a0496c8091d53b143e38986e75fb8beb687bcafddce275548ccc9": {
       "normalizationVersion": 1,
       "sourceHash": "3bf614d11d500624089a7c8ce732540bbb84ed36c11df5463b986f39be11dfc2",
@@ -97,6 +181,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "2370c7bd16baed01c75bba11f5e5bd3bc58c48cad9e5ce51779e1e8590ca87fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "de0a2eb3d173c8b16beaa2d51d787b0bd3c3075aea41cd1ec3e10a390258038a",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "当 ROS2 收到一条命令：",
+      "translatedText": "When ROS2 receives a command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
       }
     },
     "237f1b1f2f09caeec2e54a79e07c17962930f22bcaa864b56ad05d3c36d7b8eb": {
@@ -127,6 +225,48 @@
         "costUsd": 0.000093
       }
     },
+    "238ceaa053989a0825c6b0ba3157d5445b72a7d960246717c0fb69cb67451ee1": {
+      "normalizationVersion": 1,
+      "sourceHash": "708f0130cf6292f9e5cd125598536111b734fe64e4bc3cad2d8360b71a6daac5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我把“定时器”提前，是因为定时器不依赖串口硬件、不依赖网络对端，最适合看清楚：",
+      "translatedText": "I moved the “timer” earlier because the timer does not depend on serial hardware or the network peer, making it the most suitable for seeing clearly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "238f96d23e0cf7f226b097f794ef2cbd088dcbe6b3615c491c8f546333326c5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8cf331821ac375139c0a3e958d6195e9944642f103ee0e4b7895fabdfccac1a",
+      "contextFingerprint": "93456d2b63af3f81691c5b65df024f37b1b6bf56e34159046ca0246064e473b4",
+      "sourceText": "如果文件里没有 `debug` 这个 preset，就会失败。",
+      "translatedText": "If there is no `debug` preset in the file, it will fail\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "239321826e1696688b870ac74af5594f61ca60fa62f646c6338f3e78efe184c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a169ca4f624eb6c623551c59d8bb557fe32d6669d856d1d1a40ecc03c974cf0e",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 后台 Asio 线程暂时没任务时也不要退出，后面其他线程还可能继续投递任务。",
+      "translatedText": "> When the background Asio thread temporarily has no tasks, do not let it exit either; other threads may still submit tasks later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "2398af428b8b00fb29898a0b7948b371d8e1fc745de7e178b82783ca6cf1babb": {
       "normalizationVersion": 1,
       "sourceHash": "e37c8b8b5b160d5551c22251d1c92dafe3f4ad49552f507358ae12d88d1cb209",
@@ -139,6 +279,90 @@
         "inputTokens": 149,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "23a7370e917ca70ff59a09a17004e4b97c3b004ca722a71b3e718466503c1fd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b299bed0ba21025ad98801aa0a1e990be7af9114410a4ad25aa076a6603fa4f",
+      "contextFingerprint": "cd663b03874952903c407d11df2286d5ff80362cfc1d68c7b32ef81887f4771e",
+      "sourceText": "### `jthread` 析构时到底发生什么",
+      "translatedText": "### `jthread` What exactly happens during destruction",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "23abb742894c38c487293d43521f3df2fab0f474fd3343b228bca86831b2f962": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5d07ed52fe246dd14fa94c36ea94a461731da028d30f0327a1bb64f3953a416",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 把一段连续内存包装成 Asio 可以使用的 buffer 描述对象。",
+      "translatedText": "> Wrap a contiguous block of memory into a buffer descriptor object that Asio can use\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "23bb21ecdca75f971e5f6cb259abf5aec66ac3086bd23aac83529adfed303fd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3872168630d505b509c1a5ba96fc7133f885552d2bc2bcc0e855245108c60763",
+      "contextFingerprint": "fad4659800e9e3a487cf18d780f5428809c6ddc5efa8bedb30c781075c7758db",
+      "sourceText": "`std::atomic_flag` 真正重要的地方在于：",
+      "translatedText": "`std::atomic_flag` What really matters is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "23c2fdadcbbd3127937eec6743288fbad497008233e245aaec9d17479306ae08": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d6f64686d66432b7ea6fc6583842e00601479de494a7729a6893f0452998b39",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的使用视角不一样。",
+      "translatedText": "The perspectives on usage are different\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "23c6e0c97cdec2568fe26060475e4762b946055d34b2c246156c20a936e04949": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd4724ffe5ca7669de641018f18dab69251c65e6ca2b062b9e84e4cfad8d2511",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "顺序是：",
+      "translatedText": "The sequence is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "23c8be3780e8f9c2ded23b2da451df4b7a353d979380c556cad8117f210c644d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b9c60247b88ae1b4c95efa785189fbe439225e55866b534c7b26ea2dec1c11f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可能分两次读到：",
+      "translatedText": "It may also be read in two parts:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "23de03e669f8eda8d274f03c7cc5e82581597e32a2152dc24624f2cf7b3a6616": {
@@ -181,6 +405,20 @@
         "inputTokens": 143,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "23f5f6ffdad237b9babf1cdd9b258d15a1cba950ae990986672bd1e8c2b259ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4b1883f967c0aab411c1c03af029e4a3ce273e474552d7b883c4732d34c6371",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能产生数据竞争。",
+      "translatedText": "A data race may occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

@@ -15,6 +15,34 @@
         "costUsd": 0
       }
     },
+    "8e06ed595ca7d5343ce83278fa583087510630dc6fa3116f0debf8333e209b46": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6dd6cff5f485679db149a545dff110fbc761a15bae7ecf04d6323eb5c509fbb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "规则：",
+      "translatedText": "Rules:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "8e1d932413665095263053621488a3b6c513bf1ae926309620deae31ae1b9fa5": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcaeeddcfae34d1e48ddc917f9bfc7dd60080aca0f09b164636097222c6722a6",
+      "contextFingerprint": "b6c58e0a7c49fc725ea8603d59798ef540fe7a2a65ab8d3f737b1ac7c115cc7d",
+      "sourceText": "| 写法 | 说明 |\n|:---|:---|\n| `Linux Debug` | 清晰 |\n| `Linux Release` | 清晰 |\n| `Debug` | 可以，但不区分平台 |\n| `Fedora GCC Debug` | 如果 preset 很多，可以写更具体 |",
+      "translatedText": "| Writing style | Description |\n|:---|:---|\n| `Linux Debug` | Clear |\n| `Linux Release` | Clear |\n| `Debug` | OK, but no platform distinction |\n| `Fedora GCC Debug` | If there are many presets, you can be more specific |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "8e201220cc57413bf65bb3e4e0b711304dd7e452ad36413e3be4236fc15cdd55": {
       "normalizationVersion": 1,
       "sourceHash": "875ade54b6cc6c99d68d84762fa698d08891e302ae88c2d32ac4367ffe696c67",
@@ -85,6 +113,20 @@
         "costUsd": 0.000099
       }
     },
+    "8e7f9cf22eee07a6dabfa81c22e2fd7f19c78e8f840fb34e7fd0f64d1b0c40d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f135ecf4b96778cdbd0493d7c27d831410d98248c2507964120f93f050a9f4f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "机器人通信里最容易出问题的不是“API 会不会调用”，而是：",
+      "translatedText": "In robot communication, the most problematic thing is not “whether the API can be called,” but:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "8e8ecf38ad222e7caa18541d6b5a0b4075881ef6d07dd203831c4e6bf27ec843": {
       "normalizationVersion": 1,
       "sourceHash": "b7fff7e5516ef6c2970fbf4bc2821cb4f01968fb4808fc21ae91f8917a32e000",
@@ -139,6 +181,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "8eb6836ea87079abc03dfa5389941388b9ea489f2b0f5b6358115b949aab791d": {
+      "normalizationVersion": 1,
+      "sourceHash": "efd9e6cb0bfd25c4519201ff117fabbb07c4c439c07e44e687e4a477f6bd061f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更符合语义。",
+      "translatedText": "more semantically consistent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "8ebe60b3efd7270da4318dd6bbcd5c7f00372830130ce438cc5909098439d750": {
@@ -209,6 +265,20 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "8ee1255864f4150cbfd54b2ca5ae853dc9ffd63c84ec669f8bbb35c3b37ae021": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f0d1a3603ab1054d7b388beef88f682ba8400ec16e4504fdb1d946cb8ff6252",
+      "contextFingerprint": "f33d65b42e108ac64c5263d99c9263c6ccc51f698b03b2f45a8614be7a7a1d74",
+      "sourceText": "### `std::launch::deferred`",
+      "translatedText": "### `std::launch::deferred`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

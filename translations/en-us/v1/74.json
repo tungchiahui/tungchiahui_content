@@ -1,6 +1,90 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "740824fdd97b1051a0907ce5d17a67577d0480e2853db9db6133f0ffeb1aed2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "92920de77bf6c3e7f7c3453b52bb4ec093ceabf47a1540521c37ac6fc3354cd2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把整个类记成：",
+      "translatedText": "You can remember the entire class as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "7410c6355e33baf932b25ac20bcec3624849def044f97a5fbaa4b64d177f9a72": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab837ca65ec5bcee48288932adc1852c494c0e82482c403fb14cede76e3e2706",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么 handler 本身不会并发执行。",
+      "translatedText": "Then the handler itself will not execute concurrently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "741e316266a62c6174cfedf487cce249f21b10ae7cecad8d74f1f3da7d8d12ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab78d30054d99ea66dd10559fbcee756250d07af0d75e88100a1b7f9b2283ce8",
+      "contextFingerprint": "c8662730de8f28162ea951f8e4ec4735dbb813dc3b64db0e0c9bb80838e5d7f4",
+      "sourceText": "`on_timer` 的函数签名必须能接收这个参数：",
+      "translatedText": "`on_timer`The function signature must be able to accept this parameter:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "7421893a81b0f33ef3111b9e5702562ff7d5846367f831ca8bdeb23520383fb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "28cad02be0a771165cdb67abf1dbab21438fcf7f2337fddeeb0d81d432320b72",
+      "contextFingerprint": "f9bc5465ffbef53ec0c69f6c88ebeff6d3990af096c9270a8a198acc478b6e46",
+      "sourceText": "#### 错误：以为 `request_stop()` 会强制杀死线程",
+      "translatedText": "#### Error: thought `request_stop()` would forcibly kill the thread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "74227e901be6d41692c59048d9a7c0a706d872ebe3812326eaee0ca62755cf0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf6b75d318947916f30a3d8e5171daa403f4a0c6f219bd68ed05ca4713d133ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设我们只写：",
+      "translatedText": "Suppose we only write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7428c674923b68acb406f2e6013bc81ff89c61004d687cead46d375570e275e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c48ad8427ad38d9d8bb73b873b57c1fbd9978bddd5a5800ccf26cd615d2f871",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但这不代表对方一定收到了。",
+      "translatedText": "However, this does not mean the other party necessarily received it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "742a4458fc3e7ba8ad9c531c151699d8c11c64a34bad786d6eeedb192aae9cd0": {
       "normalizationVersion": 1,
       "sourceHash": "3f9de99a345287b274bbb2ae5470c77bffa21243f7ad4b0e635d93df2ec32658",
@@ -71,6 +155,48 @@
         "costUsd": 0.000074
       }
     },
+    "744792f4db52b5d4ba15336feef327a71e8e19337d258752b957b5eeb5ca3d3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f71dda82c79bc966563a88bf055ddb947a0fafcbf7d7ef8d38815001f2c1302",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些可以在这个结构上继续加。",
+      "translatedText": "These can continue to be added on top of this structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "744dc3d92897f81c00d976927343a4bdae0604dfdbcbd6388bff86bdc36b16dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "54cd3dcf2f8fb6b39dfc9dd9716b208521f7f82a102e6b950590fcb83c010330",
+      "contextFingerprint": "d88821f438b0fd707de7fae60395c3105612e4e157a0674cf90faea3b563b3a0",
+      "sourceText": "如果要调试，建议安装 Microsoft C/C++ 扩展和 GDB，因为 CMake Tools 负责选择 target，真正的 C/C++ 调试器仍然需要 GDB/LLDB 支持。",
+      "translatedText": "For debugging, it is recommended to install the Microsoft C/C\\+\\+ extension and GDB, because CMake Tools is responsible for selecting the target, and the actual C/C\\+\\+ debugger still requires GDB/LLDB support\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 73,
+        "costUsd": 0.000145
+      }
+    },
+    "7453e77e2bf59ee0ac600ec5495273fc35c6504dcf2915beb98a0c51088421f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "b68a38de403f1316c75b9f23e26f50d856efa373a843b91c3a340867a194cbb3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "又永远不：",
+      "translatedText": "And never:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "745b5def7bac7f7715b8a952c6faf95b9e80b7612a9c6ba5101d1ac8eb60017d": {
       "normalizationVersion": 1,
       "sourceHash": "dd82258779d0810b8cf52d752baab5eae93509b6afd56d68b268a34649605321",
@@ -83,6 +209,20 @@
         "inputTokens": 149,
         "outputTokens": 27,
         "costUsd": 0.000078
+      }
+    },
+    "746283490f1466566216ed6b601b52e947cd7a158a6890a63ba0cb64934595a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "51a6ab878ead47d9c50bc3388fd46ee9ad9ada3072eb02b5b9ca872b526acb0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把它移动到：",
+      "translatedText": "Move it to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "746312d040e092caeb22e99d8e82cdf6c1846cf30945d688e8ed4387e5046b2c": {
@@ -125,6 +265,20 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "747273ebb7b860d6ec27945a2947227b1be79cbd69b77dedfbbb2476964c3b8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebb9aa7ef2e5e0a81d20f2b62b15e9cb7e49c5d3d3e9032280bf9ea57c01d3c1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它只关心：",
+      "translatedText": "It only cares about:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "747ad4285e39fc92696f710b0d7d56c1381c1888e65ff71fdbe1df4567f7cf78": {
@@ -197,6 +351,48 @@
         "costUsd": 0.000192
       }
     },
+    "749168ea5ed7e9065ca1664a5b1adee772c7f306455941dc6f534bfdd9784fc9": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad35d4fd1e6eaaba5fb557bc431d8d2bdae92c7739c09e1ecd9d21c7dff76be4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "来进行同步。",
+      "translatedText": "for synchronization\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "74a1627f92456fe0951d90d8dda0b97d4987c58b2a89a927347dd60c660b3f84": {
+      "normalizationVersion": 1,
+      "sourceHash": "f064ba63604cdce2f4a4d6f4129ac09e66d2e972a59ae8fa360645d8bae812bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只能一个一个执行。",
+      "translatedText": "Can only be executed one at a time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "74c24f6e2de4efdadb27daa81daa4f26a3cb11365114542ba26b3a0e95150d35": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf2728c3145c47feb7231f58bd40e556149e37af4f92f3ce90deeff90b4ca40c",
+      "contextFingerprint": "d7566f978f857083e470b799b5b6d6553a177e555186a52cc6a16a38e0d7c4e1",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707302786.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707302786.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "74c2af84fa7b42d795bc4ba318beb80af946406188bdce33f396d29a78c18e1e": {
       "normalizationVersion": 1,
       "sourceHash": "5fee75341a12861cc966fb4336a67f52b5aaa04f245ff4423dd431f4bd75cfe0",
@@ -225,6 +421,20 @@
         "costUsd": 0.00007
       }
     },
+    "74dfdac432a61117ab62722fdc13c5647500851a7370930498f67dace85f66ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "601b8e5ca0f1f1a9f75701d767cb4e53d08ea2de83355e89d47d249e9dff5e1a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种情况一般适用于一个串口设备。（此时main有1个主线程，asio有1个线程）",
+      "translatedText": "This situation generally applies to one serial port device\\. (In this case, main has 1 main thread, and asio has 1 thread\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
     "74e8782c9e429695f331f272abd72304899cab4e760fbe70182111a106b3b367": {
       "normalizationVersion": 1,
       "sourceHash": "5b3f5c6551764a6028941f2ffc03422d68a943e7676e68bfd3a2749abf017ca6",
@@ -237,6 +447,20 @@
         "inputTokens": 151,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "74ea2c9920ab4df75a6133e0c39ba554a3e1d98995a05356d2a2a5ad5a3de25d": {
+      "normalizationVersion": 1,
+      "sourceHash": "47f49549698e593c22d042eac7e4fb097740f8ef97531d667763113c45b4c12b",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 多个线程都需要读取同一个异步结果",
+      "translatedText": "> Multiple threads need to read the same asynchronous result",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "74ea57d5440f5a1b61a4a0ec9352028be0f38ad53a7aebc2bd6260e87ba9ffdb": {
@@ -265,6 +489,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "74febe912a01e2693f05c31e2b8a2664b265834f4444b91813524a1521d13e75": {
+      "normalizationVersion": 1,
+      "sourceHash": "a00a657d9badb9c07d336bee33ef74c59d02f0f27e53d1c6032b7f721715810b",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 等待这个线程真正结束。",
+      "translatedText": "> Wait for this thread to actually finish\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     }
   }

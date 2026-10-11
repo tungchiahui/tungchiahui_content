@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "2b0d56d0fbf3765666f9d5462f3ba711809d804cbcbf7242990bd36f9d7ba16f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bcc5e2c25e824c733261ed9f4668311cac4c7d5ef9e6f4247948bad3ed834da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "UDP 发送不需要先连接服务器。",
+      "translatedText": "UDP sending does not require connecting to the server first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "2b105bfa9d71288a4ead224c03053522bfe67d3660b8ab606c1c674b1236672c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f7cc95b6b7fa69d6b54961ee28151f2c1d05e8f09172c0f796dee4646ee5c33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通互斥量在等待时间较长时，线程通常可以被操作系统阻塞或挂起，避免持续占用 CPU。",
+      "translatedText": "With an ordinary mutex, when the wait time is relatively long, the thread can usually be blocked or suspended by the operating system, avoiding continuous CPU consumption\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
     "2b1112ed5dad61faef2dde14dd27f03c7f94e15bb9d039dd317c11edeb4fc80c": {
       "normalizationVersion": 1,
       "sourceHash": "13d614a4a55bfaf6fb61cd0fcbca13736e8ad0d3ea858234dcd73782a7be7f40",
@@ -13,6 +41,20 @@
         "inputTokens": 160,
         "outputTokens": 51,
         "costUsd": 0.00011
+      }
+    },
+    "2b1b129229c97771bc8468d298ef152d79cf34973fbff1a330b74b5539837c8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "932073085c1752ecfcdac8290aac9c4318a9424e65ae43f0367ffaac912d60e4",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> “你该停了，请在合适的位置自己退出。”",
+      "translatedText": "> “You should stop now; please exit on your own at an appropriate point\\.”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "2b2f425e2503db92b31ee089520a587c7cbebec04b699172e14fcebafabe1f06": {
@@ -71,6 +113,20 @@
         "costUsd": 0.000117
       }
     },
+    "2b410ad47169f2b9882094725d67cec84e5d7e15cbd48fd49f4e335fd6d87feb": {
+      "normalizationVersion": 1,
+      "sourceHash": "89c0586b5afc9ca64bc512932eb43d5046b5739a088f6707cb241ee378c79b10",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不只是指：",
+      "translatedText": "Not only refers to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "2b414b78aa8deb4c835bd2d0fbc390e9cecb62ea3f1f70026f8cfc7ad420bcd1": {
       "normalizationVersion": 1,
       "sourceHash": "05f832bbc62a473d0ee8cc6c8d826c0dee58f0bea9a8d9c4881d5cdb7a5f075a",
@@ -83,6 +139,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "2b4b3150f06cb77e0eb23eba057f6359c443f543b140ea66a026c36472e32bd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e983a37545085cf070f2d52442a9a6673f2cd25a3ca86ccfeaef728973879e3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "UDP 可能丢包、乱序、重复。重要命令不要无脑依赖单次 UDP。",
+      "translatedText": "UDP may lose packets, reorder them, or duplicate them\\. Do not blindly rely on a single UDP transmission for important commands\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "2b4cc528723da068a188deab8d728ed7b7cfd87a80a9e5b70e5847a0970a68e9": {
@@ -127,6 +197,20 @@
         "costUsd": 0.000053
       }
     },
+    "2b691aa622e6705220551a3e6f059bab9312e5818fdaefe3e0abebdd2ea74962": {
+      "normalizationVersion": 1,
+      "sourceHash": "e90f866df42db9c204d0c661f507521b10e64319ae119e6638eb898213241e25",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 学完这套教程应该达到什么程度",
+      "translatedText": "## What level should be achieved after completing this tutorial?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "2b6eec913a8890341649b8cbb854e99ee1b11705f1c1fafefabb107d0cc79b84": {
       "normalizationVersion": 1,
       "sourceHash": "cc95f27c95d36c9e9ccc5364feb8ddea403b31fd8613559d3cf43e5998ab150c",
@@ -141,6 +225,34 @@
         "costUsd": 0.000057
       }
     },
+    "2b7cc7f6b22701e616571210209eb70aa9e5e5535ee76839afbd997df72be5bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "5636eac4091fe4c67101070b3c7b8be47e33fbc261870b2f15df0dcdff582658",
+      "contextFingerprint": "663f4991a9e38449a30cf9f1fc28289da5ec002c7f17ec3a7a94e5098ca962b8",
+      "sourceText": "**错误 2：`create_directory` 和 `create_directories` 混淆**",
+      "translatedText": "**Error 2:`create_directory` and `create_directories` confusion**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "2b7e42d45ceb56e46cd973f9af6534409ca2e6dd90feb51ef6e4075471cfa59b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9ab77d65bff8b89b815ccb1364d308b6b9c09853221eecec193e1d92b6dcbd9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么多个异步写操作可能同时操作同一个串口。",
+      "translatedText": "Then, multiple asynchronous write operations may operate on the same serial port simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "2b7e4aaabd631ea8e8c67ee7f7f3f4a3b7f98acc814ce0be61389aff081920be": {
       "normalizationVersion": 1,
       "sourceHash": "87ef3e62a481904aecff74c559bbabe43565ee8bca17838a914efe730b982bf5",
@@ -153,6 +265,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "2b7e9bcc30cedd0cbae4c452023f836d23f0f34f1876bb020f9d0ca2c7761c4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0779fc567496736f6817a8304c8ad3541b6d19ae4ab4cc19f860048a9a5d7d4b",
+      "contextFingerprint": "357ea8e5196208246f6cfa50dcf511cd658bdc8bb6fc5f5bf904015cafe8c203",
+      "sourceText": "### `strand` 不是“固定线程”",
+      "translatedText": "### `strand` Not \"fixed threads\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "2b830e81dd25c1cf1f1815128c930a82fcfa56bd9bb51418d11ad5fcee9e09c6": {
@@ -211,6 +337,20 @@
         "costUsd": 0.000089
       }
     },
+    "2ba23356f56545a344c6690216e16f5851b081f1b42f7b759c3147a551b8e8b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5756bca84a627fc215961d08f14ec6a24ab15197baf8bdeaf13a27e42b37f7c0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都是：",
+      "translatedText": "All are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "2ba632ad6dbf323d05761e37f34faa6ac89e11656a5958551f94bd9d2aab3994": {
       "normalizationVersion": 1,
       "sourceHash": "e5ee94ecad5e30c8e1f0908185e0f993e6069e96e938123d89a6ba7d2945b102",
@@ -267,6 +407,20 @@
         "costUsd": 0.000054
       }
     },
+    "2bd7b04f24ba42a2aa01802044174f22e9689d2864458f4db3c4c59b4c2fb339": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3bb8dd2f3330f2e10322055b74c0e2534ff1f76536ad60097f01b8a061ed909",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这时 consumer 才可以安全退出。",
+      "translatedText": "Only then can the consumer exit safely\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "2bdaa12eae2b165f675c8b62463779c43fd006a029cc36772cc4c613a6870b40": {
       "normalizationVersion": 1,
       "sourceHash": "085e0026bfe57cab847e948b3ea809f001694847f65047851c330ddb7d150d99",
@@ -321,6 +475,20 @@
         "inputTokens": 143,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "2bf0ff05ab222fa152dac4503aec0b9de40299982f7803d6d8016b65748f55ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "92be940bef5085325b54798bc8a7e419a0f85a7b256181c0c93284555fc1bbb4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "全部混在一个函数里。",
+      "translatedText": "All mixed together in one function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "2bf9ff44e956b24bf9701f2e766e99c384815eed4d938fc96b66d28f8a4993db": {

@@ -15,6 +15,20 @@
         "costUsd": 0.000153
       }
     },
+    "aa1c935df5999ed9693d5ba87effc2a29f43d534fd3246d6ba986adf8d2f7ae2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4aa5bcf766702bc477386cbf4bcccf246cad99d1407df62300d840f9cc720cb6",
+      "contextFingerprint": "8307fb77d9a7855ebe3da87259e1864d428dc5f9db8d62914f22499da46ba662",
+      "sourceText": "这段代码能工作，是因为失败时 `expected` 会被更新成 atomic 当前值。",
+      "translatedText": "This code works because on failure, `expected` is updated to the current value of atomic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "aa20ae131b8f66dbd67c92cb7a7b103c8eb6f6b092272dde6502d7bcd9f429d5": {
       "normalizationVersion": 1,
       "sourceHash": "347b4f416b14e63af6877bcb5cfb7cf05a37ed7f601af16d8ea0a13e788ea455",
@@ -27,6 +41,20 @@
         "inputTokens": 144,
         "outputTokens": 29,
         "costUsd": 0.000078
+      }
+    },
+    "aa25dc37132e6451936105888ada320bb69f5ce9d6b9c62eb457c55cac8adbca": {
+      "normalizationVersion": 1,
+      "sourceHash": "e693cba7c8bef967ed27dd762f83532ccc70d5783106375c6deb8fdf04e3115b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们不是同一类工具。",
+      "translatedText": "They are not the same type of tool\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "aa266ce6847e571f0e45213c59f0bd1d65960f20d7a02381e35988c1f971516e": {
@@ -127,6 +155,34 @@
         "costUsd": 0.000066
       }
     },
+    "aa5b8256e14dff4fe89ecc27ef75a39fdd19cc82b572d93fc7b8125b2899f5f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9fee23bfa47845aa423e1d7ad2cbc2edfde6027d36c8c31cd4010ac870c49f4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 不带谓词",
+      "translatedText": "#### without predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "aa624a19a84fb1597497953077f5c37cf446d8e473e55ced4104989d3243991d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab0f1b7cfde18891ebfe0c40d7be5f5dac19ba4b12d7681ab1d28d5fbcac98cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是具体平台和标准库实现决定的。",
+      "translatedText": "This is determined by the specific platform and standard library implementation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "aa64f93b8acb0888f6246c244ed2689cc5b28ce95a592f87ff9156bd98028158": {
       "normalizationVersion": 1,
       "sourceHash": "d77ec3f5059d55566ad5fa1ca181c948c39b7fc8b7bf7efc010517e19be980bf",
@@ -139,6 +195,34 @@
         "inputTokens": 151,
         "outputTokens": 35,
         "costUsd": 0.000088
+      }
+    },
+    "aa651e261a282d07e795cf5a7384aedcf4a6e47049c1e00643ced778662b69fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "10367402c08c95900338606580ced8710ab1dc37982bccae4cf24799a8360741",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**：见下方“运行输出与时间顺序”；如果示例涉及定时器、线程、网络或外部设备，具体时间和顺序可能会随环境略有变化。",
+      "translatedText": "**Running result** : See “Running output and chronological order” below; if the example involves timers, threads, networks, or external devices, the specific timing and order may vary slightly depending on the environment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 48,
+        "costUsd": 0.000107
+      }
+    },
+    "aa6a5d481b8c77bb0530a5f8f873728413ff001a81ba6ce6d55aac9a40c4740f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e27007167e5ef7ab9cf47ddd00aec66fb17138c4f73a1d3d8eafa4b299c0d230",
+      "contextFingerprint": "e1e2e59e49af8e95736882cb6f49de85e75b5396aba6658a0d14180858630ce9",
+      "sourceText": "### 为什么把 `&buffer` 额外传给回调？（很重要，要记得）",
+      "translatedText": "### Why pass `&buffer` additionally to the callback? (Very important, remember this)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "aa705f3605510c1a859fbd6bd10d90f3dc99539bcc9ab12c4688681942cb768d": {
@@ -209,6 +293,20 @@
         "inputTokens": 140,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "aaacef2e7decc6a2dbe683b94f2bc38c3dc80d900d9a6dbefbae87c1b21c4836": {
+      "normalizationVersion": 1,
+      "sourceHash": "25590fa66a28d26e4e2fbd1df91032f5b5c0043bc8f0a4a9eef45272a4627d25",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只有一个线程执行：",
+      "translatedText": "If only one thread executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "aaaddb9c4debe6efddf67e0054787563215b8f8e2f444769cc2fbfe8c390d8d0": {
@@ -309,6 +407,20 @@
         "costUsd": 0.000096
       }
     },
+    "aadebfbf0778176202504f6066f22e96ece18141b2015aa92bbb19ef993c93e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d23ab4006df4722b88028a69b38123c74554bee2b8a8b315d663fcf58ee195e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以可以理解成：",
+      "translatedText": "So it can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "aae012accffa41c7807b300a9f0e9ce6a7ee070e05950b44ad777a7b07a34938": {
       "normalizationVersion": 1,
       "sourceHash": "f447f1acb5ddd7429fafde94a9586160084f2a7bd8ce8b9a0e1796056d5c714c",
@@ -319,6 +431,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "aae0cee5bebd25bdfe409c4ed83c6ded33bbe687aa78a46b3196b08e4b27a96f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e421994fd37bb55b7b1ce2871ac206c441ac76fbd4362077893436e7869e7bd",
+      "contextFingerprint": "42364ca6b31d6474c9bccfe3e7822303ed798d24609836601a52ca0233aa6530",
+      "sourceText": "下面这个线程完全不检查 `stop_token`：",
+      "translatedText": "The following thread does not check at all `stop_token`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
       }

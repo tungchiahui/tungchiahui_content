@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b409ec30014a42a27a6ff718931cdcb9953cfa83edbe0145ac2831c6e3976047": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e4fb6a9d1173ef19f34f2c7f63c3ef78c9899c72f5aef0ae0600fd78f0fc449",
+      "contextFingerprint": "35ef29857df0f98788365822cfe5c68ed4dd7d4455dd4e26d4de98d2e69fb022",
+      "sourceText": "### binary_semaphore 不是 mutex",
+      "translatedText": "### binary_semaphore is not a mutex",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "b40af7e3badc92eb9db1edeb0fa1b2fc08f2d7170658f62cad65f3b83f07815b": {
       "normalizationVersion": 1,
       "sourceHash": "d2a8e9cec238f96f0c3b8a1bcdfc40a874ef9388efd3be521f7c44a29933cf17",
@@ -27,6 +41,20 @@
         "inputTokens": 161,
         "outputTokens": 51,
         "costUsd": 0.00011
+      }
+    },
+    "b4459043c70409c46fae4f948ac8b22a583bd0b1be13b091f4eeff45f9d90549": {
+      "normalizationVersion": 1,
+      "sourceHash": "72945640a63d383714e26352ddd031b7776dd498e3bf53831e90c696dbb797c4",
+      "contextFingerprint": "f2e8cbfee3cba505967ad3443986b1c95bd3451a8afb2049c55f17a2166d3dc1",
+      "sourceText": "1. `async_xxx()` 只是注册异步任务，不是立刻执行回调。\n2. `io_context.run()` 才是真正驱动异步任务执行的地方。\n3. 回调函数只会在正在执行 `io_context.run()` 的线程里被调用。\n4. 异步 buffer、socket、timer 对象必须活到回调执行完。\n5. 类里绑定成员函数时，写 `std::bind(&Class::func, this, _1, _2)`。",
+      "translatedText": "1. `async_xxx()`It only registers an asynchronous task; it does not execute the callback immediately\\.\n2. `io_context.run()`is what actually drives the execution of the asynchronous task\\.\n3. The callback function will only be called in the thread that is executing `io_context.run()`\\.\n4. Asynchronous buffer, socket, and timer objects must remain alive until the callback finishes executing\\.\n5. When binding a member function in a class, write `std::bind(&Class::func, this, _1, _2)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 81,
+        "costUsd": 0.000155
       }
     },
     "b44a80c7b8f1d6f7ce20519a1acc02bee037d25186e3e3e2a96246be2ab34e81": {
@@ -85,6 +113,34 @@
         "costUsd": 0.000053
       }
     },
+    "b464d49fd954eaf18d216cb4d3ec07df1ca22052042bf507a7cc174c3e3ee647": {
+      "normalizationVersion": 1,
+      "sourceHash": "777119ff78bd620ac4025ed296935bd65c1f31618ce90e75d3731bc5f46bb58e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是如果我们为了让：",
+      "translatedText": "But if we, in order to make:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "b46b1d10f5a85eaa1f81b63a5270b31496a10cb7f8d11de3515bb14395aa505d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f9eac007544fe1efb80c6d1277c8cc78243ad6bfdab948be102fedf383d7679",
+      "contextFingerprint": "7f26b87d6218c8b2ef2e1633c425473ffc983a99f53037964848e5927efc491b",
+      "sourceText": "#### `boost::asio::buffer(buffer)`",
+      "translatedText": "#### `boost::asio::buffer(buffer)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b47589717cdfdf59ccebce0f644942fa319d18555a182fdc25d60bfb67815ef2": {
       "normalizationVersion": 1,
       "sourceHash": "c6d1c2702355ef1b4ac428c12a070f26feaadd1b65a5ecd1f2edde9508d3c129",
@@ -99,6 +155,34 @@
         "costUsd": 0.000173
       }
     },
+    "b476d1367df4db50f81cab1d0563db83cfda3da154008a2b84bbf97ce0b2ce93": {
+      "normalizationVersion": 1,
+      "sourceHash": "0bbadb9c3001f72ad32702f555b9b69fe0df612805d438130e697ca102491b85",
+      "contextFingerprint": "018486039744263cd5e4fa94606503b925d8c5f54fc512a64e789d2fb955ca16",
+      "sourceText": "`boost::asio::buffer(data)` 的作用可以简单理解为：",
+      "translatedText": "`boost::asio::buffer(data)`The role of  can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "b47afb3cc3c25ac54192e3e8781aa507173d85346ea692639d6b4e66017840a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbaab1219f21e952cc5ac7c89dd3f0e6f08083a1bc7c9484e7aad5d44cb0aeb6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "全部封装进一个类。",
+      "translatedText": "Encapsulate everything into a single class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "b47b06f0038f24a6206cce64b0581d406cbab0f27df26fe5ba641560bb19b6cc": {
       "normalizationVersion": 1,
       "sourceHash": "ee57d7d1f254dafc8758c988726619ff48bac36dc57893d63d327bb3445b5a9d",
@@ -111,6 +195,34 @@
         "inputTokens": 152,
         "outputTokens": 29,
         "costUsd": 0.000081
+      }
+    },
+    "b47bda5bf7d7e649fb777db625e48ca0f3993dba05afdd29d51a85a76cb5bb39": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3d504c002563a3ad9859d476ea4fb6de1562ee46a1b9751cc40fbf90217ab99",
+      "contextFingerprint": "5cc9d8b6da24da2a51acfbd190395d5dca765d6ec7860be65996e4ec5e647260",
+      "sourceText": "1. 没有调用 `io.run()`；\n2. `io.run()` 已经返回；\n3. 异步对象提前析构；\n4. buffer 提前析构；\n5. 串口没收到分隔符，例如 `async_read_until(..., '\\n')` 但下位机没发换行。",
+      "translatedText": "1. did not call `io.run()`;\n2. `io.run()` has already returned;\n3. the asynchronous object was destructed early;\n4. the buffer was destructed early;\n5. the serial port did not receive the delimiter, for example `async_read_until(..., '\\n')` but the lower\\-level device did not send a newline\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 58,
+        "costUsd": 0.000122
+      }
+    },
+    "b48edfa8582702804244ea29df08db35b1a4547835a4687e456e069b94eba493": {
+      "normalizationVersion": 1,
+      "sourceHash": "bad382565044b78d5c55fc1905fc88e751027808ce2602f8db95010e922f4d69",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个例子很像机器人里的周期任务，例如：",
+      "translatedText": "This example is very similar to periodic tasks in robotics, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "b491d1c450ac5f17b1e0e94ccafffd15be671caae2f786419b95d477a8b51818": {
@@ -153,6 +265,34 @@
         "inputTokens": 215,
         "outputTokens": 102,
         "costUsd": 0.000187
+      }
+    },
+    "b4c45c2f32009b6c803e002fa29f0d314033e5f769a0a14976752e9b37df19a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c1f38203d589d5695fea84c8d574466e7bd38637098427130f1224d00d22751",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个写法在本例中是安全的，因为：",
+      "translatedText": "This notation is safe in this example because:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "b4c930877f6296119879faa2dff08ec02f5421ddf51816645d5116419bd3f6fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "085182888b2db208195e2a4c92c118b66de08c03c6575fd16009a6ef663efcd9",
+      "contextFingerprint": "2a199aaf242609365396b4068a774df651b5c7db442ce1fa97341115b9dd6fd0",
+      "sourceText": "- 原子性；\n- 跨线程同步；\n- happens-before 关系；\n- 数据竞争保护。",
+      "translatedText": "- Atomicity;\n- Cross\\-thread synchronization;\n- happens-before relationships;\n- Data race protection\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 33,
+        "costUsd": 0.000087
       }
     },
     "b4d4a9d88bf1efe1fbc4b2713e3476060e178b91b5893249d238923d1492df78": {
@@ -223,6 +363,20 @@
         "inputTokens": 167,
         "outputTokens": 48,
         "costUsd": 0.000108
+      }
+    },
+    "b4fd47a586db5f6e63a3b56168bc7a3275632dbd55fbe5d943f3225ff429c6f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bc5feca3a76218bd0f262d99baeb5c25dc726aff8f6c6cb42b518da0d46e970",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如可能连续调用：",
+      "translatedText": "For example, calls may be made consecutively:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     }
   }

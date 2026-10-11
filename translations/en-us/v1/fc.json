@@ -15,6 +15,48 @@
         "costUsd": 0.000064
       }
     },
+    "fc0b046327eb48fedf919d739835b11b70ad020a31e57eb67da2baf33166fd5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "47f6de3ed2fc40e31df12fd1a6d4205d31c5907cc6ffa336c1e762cc52731e4a",
+      "contextFingerprint": "5bee6da0b1489e5b07b8f56af5aebc57f6c433ae12d4517f65ffa35bdf2bc0e1",
+      "sourceText": "`CMakePresets.json` 用来保存常用的 CMake 配置。它解决的问题是：不要每次都手写一长串 `cmake -S ... -B ... -G ... -D...` 命令。",
+      "translatedText": "`CMakePresets.json` Used to store commonly used CMake configurations\\. The problem it solves is: avoid having to manually write a long string of `cmake -S ... -B ... -G ... -D...` commands every time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "fc1e4b2c4055266f65ec095e9b5e22a100d88ff9ff54ddfdf26938e389b525af": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0a5026cdd46cf0b74f2b0dc4595da74d930ea1df0d5ed41dedb9f3855ef92a3",
+      "contextFingerprint": "30841001580eb920fd075eef4fe09bf52541d182fd099abd7cdd5def66f5c51c",
+      "sourceText": "这里 `ready` 本身只是一个同步信号。",
+      "translatedText": "Here `ready` itself is only a synchronization signal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "fc2119d27a15439c1fad4834fec624b11c70d994000829552994e55b572bd53b": {
+      "normalizationVersion": 1,
+      "sourceHash": "35fce5064cb30e674e8bb55a318fba48d90fdd600034e332b5402f3b632d1605",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常只能消费一次。",
+      "translatedText": "Usually it can only be consumed once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "fc227a8a43c97ed134412c273ee86405e1ca81c24f89e69eaa8d42a737122ba5": {
       "normalizationVersion": 1,
       "sourceHash": "ffd540859ef657ccf00e841f44597f22db723ed3507aeb30b4b8fce6909fa5e3",
@@ -113,6 +155,20 @@
         "costUsd": 0.000186
       }
     },
+    "fc549d3f055d391579bbdbcc74c023fff7bda8c433795f9334606c1d00fadd48": {
+      "normalizationVersion": 1,
+      "sourceHash": "7326deefc402e5893c183037a4a1baa0587ba34aca863437dc06fe8b110c02e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由你自己控制。",
+      "translatedText": "Controlled by yourself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "fc5b038e14e19ff6dd3f17b94edd2204976a31057ab0321f082e189c1570b832": {
       "normalizationVersion": 1,
       "sourceHash": "9742627a35f828ab683bab69365a98a91f0c609027d61bb36dfcf73c97f834b0",
@@ -125,6 +181,34 @@
         "inputTokens": 175,
         "outputTokens": 53,
         "costUsd": 0.000117
+      }
+    },
+    "fc6359b97a4afe02bc23e2ba47c084a0001986aa05f6a0745862aa11389cd9d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "27fe664ef70ec3e7db9219ef24a4d888b383496aceb57941e5b254bf714d815a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "甚至一条消息被拆开：",
+      "translatedText": "Even a single message gets split apart:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "fc659d86470301543d0b515d00c3a9aea513f88819b8b2ed35f569fbdbe07f4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "23e9e79b17bdf351786028c417c0bd9460b3ce1200db7997d972ffc00cba04b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是原本正在：",
+      "translatedText": "Thus originally was in the process of:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "fc683be009c1fcde0be39de6d6185e8fa1ebee51e17287077f738cf66796565c": {
@@ -167,6 +251,20 @@
         "inputTokens": 144,
         "outputTokens": 20,
         "costUsd": 0.000068
+      }
+    },
+    "fc8e33de66fb590f4790b1d22a74b9cd022806e01a9f20340f9366680f0b13ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "358f12ac4ad0669c3d17909044d8c596d96e2ae2c5f0fe4c4bb29a9cfe61f79e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "自动把返回值送进 future。",
+      "translatedText": "Automatically sends the return value into the future\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "fc978e07e748dae8a523a507d25dde685fc0762b277c35b459bd0063c8906859": {
@@ -239,6 +337,20 @@
         "costUsd": 0.000143
       }
     },
+    "fcb9c17676951be0980b130c730abf02d15142779434875f8b0487e1c9c0e5a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b3c5c8b0c0203922deae834835d2f38ccf7562cbe9386793335d30808a53b37",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++20 中：",
+      "translatedText": "C++20 Medium:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "fcc165454d547ae143667d2776b6a6a53114db38ca2b25439dbe8403d38621fd": {
       "normalizationVersion": 1,
       "sourceHash": "dbc0011753d1fb777b54e329fd45c1ea84531bb52a3e3e994a58fd805fc94b59",
@@ -279,6 +391,48 @@
         "inputTokens": 148,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "fcdec510735c6fc7da5d5eba46d10e7c7574020bb10d42bbfbef34e7a829d2a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c80c9154061b565b79e7d5daa738233b8679cfe7613801f1bc5e4dddd84d9bfd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而是直接：",
+      "translatedText": "Instead, directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "fce8f7437110e7150b4b739bcf5fb474fad4bcb6ff4eec051b2213be7137db22": {
+      "normalizationVersion": 1,
+      "sourceHash": "8060d55c2c1bbb53dea84f80258e0aa7f6c6218f8ae68393697fe823f83d2976",
+      "contextFingerprint": "5aeb1373c440fdbf726bd70e98e3a05522c85507ec7f7a366cb142888090b92d",
+      "sourceText": "如果系统终端中可以直接使用 `clangd`，还可以检查单个源文件：",
+      "translatedText": "If it can be used directly in the system terminal, `clangd`you can also check a single source file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "fcece59fe26ff63af2287f0b6998cefa6708498b571c45731e41879d6bf4eb81": {
+      "normalizationVersion": 1,
+      "sourceHash": "adde2414d6e3e491a2755291a96e4f21154f4fb203de2c8690fe7e01eed4a591",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此这两行可以理解成：“给下一轮定时器续命”。",
+      "translatedText": "Therefore, these two lines can be understood as: \"extend the life of the timer for the next round\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 30,
+        "costUsd": 0.00008
       }
     }
   }

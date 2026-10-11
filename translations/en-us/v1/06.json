@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0608a8afb35003a02afb1cd4517baca3b156f11688bf7eb9b8ce26f2518c8d45": {
+      "normalizationVersion": 1,
+      "sourceHash": "6dbe27896a5344ee44733b1d253f40d4289cecfb33a58aba0c1afaf84b3a39e5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些 handler 本身不会同时执行。",
+      "translatedText": "These handlers themselves do not execute concurrently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "060a65ef20021f4f86843bad1ea16a10960f42e53a430b8c1578f6d6291433fe": {
       "normalizationVersion": 1,
       "sourceHash": "87afa1eb6b85c5daed527b57407676fba90d5cd9d4854adb7a7bdaf4e8aba76c",
@@ -41,6 +55,48 @@
         "inputTokens": 145,
         "outputTokens": 32,
         "costUsd": 0.000082
+      }
+    },
+    "063a01ae78763da063121e28457319a8c1b72852ab542558c03fef94df5c1a52": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6a177e21c74aa1872dc02cb23ed7ac028e0999e2b9a78e6fe9ee8a6488c1989",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "条件变量最重要的不是背：",
+      "translatedText": "The most important thing about condition variables is not to memorize:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "063f1979e9a61e50bad90cb2889f08c9303f9d0e45acb76d067a07d26c8b7501": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d7780664d801ce07c2774453a523afa7572771363e841306518423a9a1c4abc",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++20 的：",
+      "translatedText": "C++ 20:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "064ad1291e819946ced9c2b2497860189920daa39c6d46f369abb7156bce1f59": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4add82cfc27858284943c9fc7df9568d5a89b264a37609551adc5d1df5cbf79",
+      "contextFingerprint": "fc04c374b05925ec6d38db4c40b4b53ff7d7f83268b9eeba439f4b95093af7cc",
+      "sourceText": "1. 监听 `0.0.0.0:9000`；\n2. 等待一个客户端连接；\n3. 读取客户端发来的一段数据；\n4. 原样发回去；\n5. 程序结束。",
+      "translatedText": "1. listen on `0.0.0.0:9000`; \n2. wait for a client connection; \n3. read a segment of data sent by the client; \n4. send it back as is; \n5. the program ends\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "0654d7693656ad48ca28d549668c63e8c2ce4c42b872b025fb7006ab7f83234c": {
@@ -85,6 +141,34 @@
         "costUsd": 0.00006
       }
     },
+    "06717ca5659f152fd51acb532ff0cd8bf0c094ffeac9d9fb6b8a5b394e912925": {
+      "normalizationVersion": 1,
+      "sourceHash": "61ede0b288de470526d9d9596ff6af02ff92e5040305fdbc631baa8a02096205",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这组工具最核心的区别可以记成：",
+      "translatedText": "The most essential difference among this set of tools can be remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "0679bdd8974a693098afd2c420c14530e056e192775be374acbec41540c86996": {
+      "normalizationVersion": 1,
+      "sourceHash": "aae16f8cf38f25800136e3fb25c1468bd08022f25e8dd063da1f2b62b8832874",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 所有线程看到这些原子操作时，效果尽量像它们都处在一个大家一致认可的全局顺序中。",
+      "translatedText": "> All threads see these atomic operations in an effect as much as possible as if they were all in a globally agreed\\-upon order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "067c5db2f488b66717667985a56b0752a8f962292d36309466201ca1898c70d2": {
       "normalizationVersion": 1,
       "sourceHash": "ce2ce638af14f3928794efe2456d3554cd92609009b595bfb3659c5b1449b2a8",
@@ -97,6 +181,20 @@
         "inputTokens": 168,
         "outputTokens": 59,
         "costUsd": 0.000122
+      }
+    },
+    "0683da6690395efbe20aa84abfdfdc071f0d8d3aafdfe0907279f06c8bda7c6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff378f9200cc662acfff8bc79cfccf447f4036c4aaca9c7bf4940c11f629405b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么真正处理任务要放到锁外",
+      "translatedText": "### Why should the actual processing of the task be placed outside the lock?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "0692bbc6a95342c3adf5a21b627e3740df3deae4bc76830f4bcc8dfc3e3c6a42": {
@@ -141,6 +239,34 @@
         "costUsd": 0.000076
       }
     },
+    "06b8b5f5160f3bbe7ac962a152b6569c62696dcab2106ee39cd7043b3eb065b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ccfa7208e04bf0c4c2b85fde84f7302feccb4f4b2486ba89b2d6e1d3139c587",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它们不是：",
+      "translatedText": "So they are not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "06bd26a605e1b3167fb5c2aeecbdfde5e47af465c33cc1016ca6a3f38b57d00f": {
+      "normalizationVersion": 1,
+      "sourceHash": "188c83fc2032e8d6c5eaa6778d6b6b8cc199ca9f8ce7f7faf27ebdf8628151e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它是：",
+      "translatedText": "It is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "06c281bee7d59912befc84522bc8299f3720689c146d77b68e0a3a43d30af231": {
       "normalizationVersion": 1,
       "sourceHash": "2df754e8e14c815943be90dd273095741cec477c64d8eee6f20695f1ac98c99d",
@@ -169,6 +295,20 @@
         "costUsd": 0.000059
       }
     },
+    "06df6cb4c31a2fcfcbee19404208c4cd53ae6127584706eb9de6d7ddad07b63e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cd7281d9fc9fb1ce4b1ab2538cdd961b1b27042c7e42d5de3ba4c8e2d80d13e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么不能一直循环检查",
+      "translatedText": "### Why can't it keep looping the check?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "06e7dd34c7d6552fb56c55de70e806d538d902e10261e9a796f2901bf728b50f": {
       "normalizationVersion": 1,
       "sourceHash": "ac6757bffde4ec7c102c4b2fa412c83f12e084a87e1c3e8df7659f3e21698ade",
@@ -181,6 +321,20 @@
         "inputTokens": 210,
         "outputTokens": 107,
         "costUsd": 0.000192
+      }
+    },
+    "06e80d95c01448bd005d32eda9d0b95fc24dcf166ef82142ced6adacfa1967a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "d426a175fef6b932a99b74ab44cb2cf641e346be995512db28c10f44e497e2d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不是：",
+      "translatedText": "No:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "06ed94cdba4f8f8f7fc3faaba38e1b85b976af5a9f80e3835f8c7f3791c9cba3": {
@@ -197,6 +351,34 @@
         "costUsd": 0.000064
       }
     },
+    "06f4ddb2529f292357e9fb64b2b31a353161aa74706b09a7d5527c477ae9bc4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c7c60bf7a211fd96d9439a3b3b9dcd689047e4622a0a70dda987c49077c88a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 Asio 没有给每一种设备都分别设计：",
+      "translatedText": "So Asio did not design a separate one for every type of device:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "06f5d79780663a742c1c7236bc478fca79babb5e193f9cf1466dd8d1d8f5eee5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e38328a1cafff9f8f964e6821d043ba80d5c6b3b728edf64d23fca76db4783b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要这样：",
+      "translatedText": "Do not do this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "06fc8fc8d0698a0bdec9c56ef3e3506209361b1a7f2fa511c0566b1d11d42cfb": {
       "normalizationVersion": 1,
       "sourceHash": "58190864fd5d6f890390bd5d70141722e2ce78ab21d97d2fb177171e225c434d",
@@ -209,6 +391,34 @@
         "inputTokens": 137,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "06fdc7e09f87898ff3cf520e59163a2cb05a10ab87215d66674993ba850d8898": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2403ac9fef93bd68ffefaf8fb16e1e9d0db6eba2adb6444ff8a8085cae688cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以异步读取完成以后，相当于：",
+      "translatedText": "So after the asynchronous read is completed, it is equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "06fea4aae3c40f6bbad02e77de9a1b1124829eee6d20ce98396e2335d512b55e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9879067c1043dd6bd61cfde48a8eca9ff59213ba35ac7bc01eff1db8ea64f142",
+      "contextFingerprint": "044782f922e041e1e688183c1ce50c67229b9b4f05d51a17370befde444aa0d7",
+      "sourceText": "#### `std::string msg(buffer.data(), n)`",
+      "translatedText": "#### `std::string msg(buffer.data(), n)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

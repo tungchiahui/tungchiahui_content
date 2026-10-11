@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ac113ca7e59c15b96255dd4ca204c3f24f63733a0681bc38059ba53582829717": {
+      "normalizationVersion": 1,
+      "sourceHash": "72cbb03778112e6bf420ca7f6f9ab9b91320b68113753823499285bf2a35362c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要一上来就把：",
+      "translatedText": "Don't start by immediately saying:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "ac29aeeaea476355978b2e38add256e13a3c39b02ea0dd153a9adcb40227ae7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd27bbede87713017d631e46fae8d38c3f19cc4029c0d1631eb3d95379798a9f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会在：",
+      "translatedText": "It will be at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "ac31b32326908824597f084ee8e2b759fc0f34a24539a44f2ab23aab05b8b4da": {
       "normalizationVersion": 1,
       "sourceHash": "56dfae54213cde2aa20869a74aa0835ffad60a1fbaf90845221b2eb7ae390f4e",
@@ -41,6 +69,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "ac3df38bc091103513edbc3ee71e99cfc387256b00e41c4b4c7a7fa60a10a84d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4ba555b7dfc4b2f105fa94bcc3226acdff21eb5949bc1a80d67a03b2c473a61",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### barrier 可以理解成“每轮都要集合”",
+      "translatedText": "### barrier can be understood as \"must gather every round\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "ac499f753d0e30c675b357685d24692a3cf96dfacb8e5485d8fea935577d76cc": {
@@ -99,6 +141,62 @@
         "costUsd": 0.000068
       }
     },
+    "ac556882e3876fe3531374f59d8c17ce10800fac187cfeeb0c2b07e138803832": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f59f9bcc8b5438826396790ade9e103b5fe81c9536446d304194e97a202d218",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它可能仍然睡着。",
+      "translatedText": "It may still be asleep\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "ac57e6206a55416c5aabda94523d6ff91b95f2405cd0ce7b4f466bb26f68b8f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "0dd9c42c68dbff4862aedeb7cddb49484d2011e90f4d24681ba0b4942910658a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还可以直接指定：",
+      "translatedText": "You can also specify directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "ac6431422278d6c5d6b3baf247c6de32eec98da0482b750c79c4965be51009f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cfa93b405dde6bf0c6b44363541ea10adc1c7b19dadc09dcb8c5f5826972410",
+      "contextFingerprint": "179d42b380de0b79a611406501b6f9bb3249764b23d557565f5932b3cae38013",
+      "sourceText": "### 加上 `strand` 后发生什么",
+      "translatedText": "### After adding `strand`, what happens?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "ac68d93d0c815d35873b9b6a7e7c3ed7d11d1b5bcefa058e6bd72d493f4b322a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fc5fa4eec6e4a374b02ad0605e78668ca37b11c0f61b68ab5067c60103e701e",
+      "contextFingerprint": "8894570d10a98ba05fc8bc749a354c3d4ef90255f9245f9074fb2cd414e426f7",
+      "sourceText": "1. **编译慢**：每个 `.cpp` 文件都要重新解析所有 include 的头文件（可能几万行）。\n2. **宏污染**：`#define` 会影响所有 include 之后的代码。\n3. **顺序依赖**：include 的顺序可能影响程序行为。",
+      "translatedText": "1. **Slow compilation**：Every `.cpp` file must reparse all header files included via include (possibly tens of thousands of lines)\\.\n2. **Macro pollution**：`#define` affects all code after the include\\.\n3. **Order dependency**：The order of includes may affect program behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 58,
+        "costUsd": 0.000124
+      }
+    },
     "ac82efa76c1d294eeb68583b267955af4f0bf0f119e3b904e7273ce512017c1c": {
       "normalizationVersion": 1,
       "sourceHash": "7592bfedff780aa0669c97333d2d3115a70e5da371f5b33fb654894dbd88b2de",
@@ -127,6 +225,20 @@
         "costUsd": 0.000076
       }
     },
+    "ac988a6dd052ca8991c28005feaffd1fcff58b96ee744e3f945781fc638db4b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "27932a6d16e267b9905eda441da74e15cb93e3ef93b313cf979dba87308b2995",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它和：",
+      "translatedText": "So it and:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "ac9dc2d7a96f9ed7cf283f04816eeb6f29d48047ad4222155b1c043f2ce9c3ee": {
       "normalizationVersion": 1,
       "sourceHash": "a53cbfdcb2e1fe043225479e82c25e719ba4ca9e7bcefc931d2dfb00231525de",
@@ -153,6 +265,48 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "aca4d746ad0237784c9f0c55b144c044e5973b960e2bd8af3528f139776c4f39": {
+      "normalizationVersion": 1,
+      "sourceHash": "a58c9caf0e81ab650793892dee93c14eb1b59416ea786007e8d06a4d7b9cae42",
+      "contextFingerprint": "44f47465c018fac732a3d0583f878ceb18fd191ee556ca667988a6c5e0c974e6",
+      "sourceText": "这样不需要手写 `.vscode/tasks.json`，也不需要额外准备 VSCode 调试配置文件。",
+      "translatedText": "In this way, there is no need to manually write `.vscode/tasks.json`, and there is also no need to prepare an additional VSCode debug configuration file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 36,
+        "costUsd": 0.000087
+      }
+    },
+    "acaa698d406b514d3d9ebf964cf6ccc72f2ba9437ee954fbe2cda361b5dcffcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "919fea38f5462d10c693d7b704c0932a19a9e60f64a55fe2b943eca783496827",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是一定满足：",
+      "translatedText": "However, it must satisfy:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "acabbedba3d5246d7b93fa668e2ac24e2706884ac5ccc6cb1b290f188ca90611": {
+      "normalizationVersion": 1,
+      "sourceHash": "77574cbc90451e73e021341a1c36325866b18dd89179964dcf4de8c0e44fd76c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 程序目标",
+      "translatedText": "### Program Objectives",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "acaed858301dd9e580459e50b70f06b289fbf2a7779e6705f852cf6d62cfbfc6": {
@@ -197,6 +351,34 @@
         "costUsd": 0.000055
       }
     },
+    "acd05928f3d4973af43c8ba1f896f80a03172982ed5d58673c80a3f7aa408400": {
+      "normalizationVersion": 1,
+      "sourceHash": "19aa5483a14b261ce6a30561ed7c4de3582dec02ff2e231df6df066a08cf1464",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还存在：",
+      "translatedText": "There are also:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "acd178f74b61ba1189563a865ac3e03c372b10c2b4c3c5fcf156e45097da80dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "61cc443f892f6f9ba23e74a5eab5ff8b976b17fbe2c4fb0e1e80bb7f483b7d1f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "非常适合：",
+      "translatedText": "Very suitable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "acdd68891f9c8eceae63038f8407028db6d049e55f40aaaab1ac1982895ad962": {
       "normalizationVersion": 1,
       "sourceHash": "8863a8c3265c5adaf5758fe266e842cbd53997d64f8f5ba1baa9d3cbc251b499",
@@ -209,6 +391,20 @@
         "inputTokens": 179,
         "outputTokens": 68,
         "costUsd": 0.000136
+      }
+    },
+    "ace81533e82331f8a336c99494c54e30419da25835f50d2aef27592f120f2d11": {
+      "normalizationVersion": 1,
+      "sourceHash": "86ecd300010330a8836ebec8795cf6b81c13c21314d39cb17377d1c7f55622fc",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么 predicate 是：",
+      "translatedText": "### Why is the predicate:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "ace8b7b2ff6de465d75c427ff7483ed88b524eadebf10833a9a4ed6de6473a26": {

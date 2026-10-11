@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b306642d78c1ffbe3d88cc835144c0b30a9d74972156c1c936553755411d1102": {
+      "normalizationVersion": 1,
+      "sourceHash": "95682875e440d509ad7f6b9699cbeb46f5ad28a7f97ca4f64d3efc8342cd3e16",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **等 N 件事情全部做完，然后继续。**",
+      "translatedText": "> **Wait until all N tasks are completed, then continue\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "b30c681d4db7238187b703c1b992b81718c839c74e08c77213df28d38c278e8a": {
       "normalizationVersion": 1,
       "sourceHash": "b2dcf24c498f9a0d1ab9fd1a0c9a1fbf48a76b622860db1624023b1fb3d49f49",
@@ -13,6 +27,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "b31d5132dada0e6e74879a0464cb94c2fb2199891c593693728ef897c5f32936": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa3675446eaf745f05283eda0223660039cb115df6b6e3fccdfe65848e4b8ad9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后处理。",
+      "translatedText": "Then process it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "b31f1b2d564a77fd87e0dad20de8089fae88187c35bfff5cafe9168522ae36d2": {
@@ -197,6 +225,62 @@
         "costUsd": 0.000075
       }
     },
+    "b3b721981f357a684da7cf896c1124778ee7048eea81fe591c482d6844031422": {
+      "normalizationVersion": 1,
+      "sourceHash": "a986a8c3debea0e186cb8700b5a1090c7f416e3d56b88138118eb70b5f901db1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "参数：一个回调函数对象。",
+      "translatedText": "Parameter: a callback function object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "b3bcb01a3ec987e96507ad3d9b6111eeb8a27061560e604ddd573800de9e83ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "88c088c28a5dbfe82fe815798772d0a2ab255be0d8022da0bd6a173a9f38c836",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：创建 TCP 监听器，监听本机所有 IPv4 地址的 9000 端口。",
+      "translatedText": "Function: Creates a TCP listener that listens on port 9000 on all IPv4 addresses on the local machine\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "b3c8b478b6e79d8c4f7b621dd423d128f3b8836d3b6a1f0ddeef0fb9379ecf82": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ecab163384d3d129d56cedc3224cf87c7b8d1fef0765a5ea1d955c005b7d3d9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 选装完整的boost库（没啥必要针对于完整的程序）",
+      "translatedText": "### Install the full Boost library (not really necessary for a complete program)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "b3c9dfd3d94bfb9e9a1bb45e762aff43e0db4427ebe267c4e0897e690b7281fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd3bfae69402e5137f09d006c6d8e2f9c7abc71b9dde0debf46f0f4c3d5a975c",
+      "contextFingerprint": "ebea4dffe3aac87af072ac3fdb0337aea3925c242aa315d7dbcd0189b4b8b137",
+      "sourceText": "> 一个独立 Asio 通信线程时，可以让其他线程只通过 `post()` 提交任务，而把串口、buffer、发送队列等内部状态全部交给 Asio 线程管理，从而减少对 `mutex` 的需求。",
+      "translatedText": "> With a single dedicated Asio communication thread, other threads can submit tasks only through `post()` and leave internal state such as the serial port, buffer, and send queue entirely to the Asio thread, thereby reducing the need for `mutex`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 52,
+        "costUsd": 0.000115
+      }
+    },
     "b3d106cc74c0074ff8f192df5b736ae0b0b10bfa437dec2921623899a3366289": {
       "normalizationVersion": 1,
       "sourceHash": "1d070711dd3ed469c2033a3f959a5cf1f935b52eb5bec436d733a0eed9808773",
@@ -223,6 +307,20 @@
         "inputTokens": 165,
         "outputTokens": 54,
         "costUsd": 0.000115
+      }
+    },
+    "b3d848ccd2d01dc3bd3d52402da371abbee736b3cd627a5a01b9a68dd485723c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a6f7f11df632b4ebb78cb9501c95e048f133a73f0bf026cf6e98fba01121528",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这段：",
+      "translatedText": "This passage:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "b3e20ba96283f7a893444ca4b0611a55e0ca7c2bb5a85f48b4d08d15ed5c7119": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5719bf396152c5d1fa33cc91a952b47aec4884c07147fa659369364d60a4691b": {
+      "normalizationVersion": 1,
+      "sourceHash": "98e951920a5d85d584796ed9a4ba791bb7ddaabfb59c9466137d755a4f0054d2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把它理解成：",
+      "translatedText": "It can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "5721f996fd8a2c2fb680cf564e20df12ddb1527e848657370ee4645ca0301a4f": {
       "normalizationVersion": 1,
       "sourceHash": "e9e0145a59d267a690c4f5713c57f4b4d375bea211002f99f62903a96f18246c",
@@ -69,6 +83,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "57627b3bf94f36cd15ca6596afd15eaa41431f89328c27f817e3d42512272886": {
+      "normalizationVersion": 1,
+      "sourceHash": "77860827d0c93ef573be455f42b19523514db604ec45abfc6c4f015672d606d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把这个 future 里的结果取走了。",
+      "translatedText": "took the result out of this future\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "57635feb6e9d2f261a484caf2a1d91c58b23e5650784aad4d9d5c442c2f2d111": {
@@ -141,6 +169,34 @@
         "costUsd": 0.000052
       }
     },
+    "57842e50a424b4501836d98dae1df7a8ca74053a3c72ce7ee24d71dbb8226530": {
+      "normalizationVersion": 1,
+      "sourceHash": "5238daacb3a964395c0741223a77ec20bdf63cca561d0b31d866c363fa3e95d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以对于长期运行的 worker，一般应该在合适的位置检查：",
+      "translatedText": "Therefore, for long\\-running workers, one should generally check at an appropriate location:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "578b7c69d8b8a9be0bfe33dda4f24e823c95a42a7a5460de54c630694212d286": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f85cd24f347170e3b5110e043d179685eff033f4ee7279a51e10001570c714f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "释放：",
+      "translatedText": "Release:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "57914a1c0b4be77807d746d8d541a2594ea29a99b23c88d70f3260945c4805fb": {
       "normalizationVersion": 1,
       "sourceHash": "059da5a9343166246e72cf5dad9d61d6b77e5db0994f3e1eeed10b0cac272cdd",
@@ -167,6 +223,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "57acff064b0af58b1ceddcf34a3660ef7f93448a1169bc11dba366ebd08f9785": {
+      "normalizationVersion": 1,
+      "sourceHash": "afde27a5b97263a117f0a1d6ff6204e99926e0738ba1077ce1bea12ad5d5bbf2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后立刻让：",
+      "translatedText": "Then immediately make:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "57b0dbd01779ec181846288cd14006d1c8e1d6f264495437bdfc023ed29ef566": {
@@ -223,6 +293,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "57ef203646912c42264d270d50b793e3c9c99c2decf8bfd0fc18f0f9aadf7912": {
+      "normalizationVersion": 1,
+      "sourceHash": "66897315994dec0e20053a763797591c4f58d28806d81bdad9d5ba9f46265d8a",
+      "contextFingerprint": "e145993d7e215ae11eda3518835205301c8576cbbce71c63fbd599cc04079e65",
+      "sourceText": "## 为什么需要 `std::jthread`",
+      "translatedText": "## Why is it necessary to `std::jthread`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "57f694aa6627e10b22c9da7b636558d21ce97d19974e5432954754fff1896a87": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9f9f011acf00c5c21cfb59edff3cd26a282312c0556a5807eb5530d3e602c5b",
+      "contextFingerprint": "4b4c6c04affca29c54b301058e00cd1d71f347b0625eaee8f2461887dcfa6304",
+      "sourceText": "多出来的数据不会继续往这个 `array` 后面写，因此不会把 `array` 写越界。",
+      "translatedText": "The extra data will not continue to be written after this `array`, so it will not write `array` out of bounds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "57f9d87bcf42dbb0e64b5dcd9c2c5d9469620cdae05ecfc2faef1366b3f4d5a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b07bebcc23a7e94dd0f7b559f50961669080ab228ec588ac4110a65dd74dccc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你的需求是：",
+      "translatedText": "If your requirement is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "57fa7f5abbfca7b9e11183e08fb54b4164dca5f162f6ea0ae59661a527d56f97": {

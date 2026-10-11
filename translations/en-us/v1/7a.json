@@ -29,6 +29,20 @@
         "costUsd": 0.000068
       }
     },
+    "7a2ba1ceb123b98c10ea495e7ee5555d8c5eb6ffb9feb9a634c5a3526b526338": {
+      "normalizationVersion": 1,
+      "sourceHash": "c05780d2fa941d5d1963d816c8e1cc9c241e99b4ec2d3579233b5d3510ac1393",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接写：",
+      "translatedText": "Write directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "7a342178daa73e082b61d4051b1fb2ffd573f7c42dcad1c7dbae67aad19214d0": {
       "normalizationVersion": 1,
       "sourceHash": "71c21ff67a82805030893f271eb6d24c08f27e756a100496c15d9c078e8ba5bf",
@@ -41,6 +55,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7a3e9357ec78b5fc8644d1f904bd31379ecc150ef977a165f422b350ca457bb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5165257d033dd9cb8935d922eb61b078ad6f8168a448ce81872c56b31bc2aceb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这时：",
+      "translatedText": "At this point:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "7a4299a59c7dc3ab0086a5ef484bd3e32bbdb7edd998c8c3a851c24bec394f42": {
@@ -125,6 +153,34 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "7a6074ffef6b67a27338974a003eb690a5a868430d322435a2d543e01a313182": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e58528c53470803c50955d51bef31c89862b2f032d507fe28124293ec975962",
+      "contextFingerprint": "c5da865672d16b4c2e2c7378f8cf492dd8292c2aac4eaa93c4c060817dbb1620",
+      "sourceText": "`read()` 可以理解成：",
+      "translatedText": "`read()` It can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "7a62292fdbffd496952ee1dcf9a8609b48570bfd3a79ef2a61437b96c9878a32": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcdd302e1fe71df7cbc780565738ed2c81d74963425b1a9be9dd553a07ab7cbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时还需要考虑：",
+      "translatedText": "At the same time, it is also necessary to consider:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 19,
+        "costUsd": 0.000063
       }
     },
     "7a78cd3bae9dcee37fccaf7d71d6e67c3ffa3b64aabc4a3a8a79a1046679083b": {
@@ -225,6 +281,48 @@
         "costUsd": 0.000057
       }
     },
+    "7acc863aae796a1e541822b1966112c09ed00a68aa03756a6701367f643b066b": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e13f6bb90f17a09c22602b9abc263a74d61708e27ad90a39ef56fa8861285b3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 安装 socat",
+      "translatedText": "### Install socat",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7ad2f449acbd61813957f0e35d1e61163b713fa3a5f22002bb335d378b126e86": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbe45b96ba3610f47b8486410e0c2ff69769392149aadd8fd22dd5c004621e3d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就消失了，future 会得到：",
+      "translatedText": "it disappears, and the future will get:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "7adca7ffd9ce58cf6916d640baefaee14f328c89f9d9dab46d2fbc9e58c7f123": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed8e455a586b3a7771610ca18ce0b6e1d907827424a60581ca14f01c6aa52262",
+      "contextFingerprint": "33caa024349384165d9b1e334970ae4ad9cdd1e96011f1a2f9450d25128b3ffa",
+      "sourceText": "### `wait()` 不会把任务异常直接抛出来",
+      "translatedText": "### `wait()` will not directly throw task exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "7ae597177875cc3ae8755332e808237595b1d5c5ab3951accf6631c03c5a4be2": {
       "normalizationVersion": 1,
       "sourceHash": "aa212516ed91277fc87fbd9ef21bf58c4c73c5f87547d39238d6cd599e192381",
@@ -237,6 +335,20 @@
         "inputTokens": 141,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "7af463848dbb4a08c01bd2e87774d63081755d6ab176c657ca4baa5d4b683504": {
+      "normalizationVersion": 1,
+      "sourceHash": "1946f10b4e2e410178d285526954f7cd65ebf9ca2792a1f6ec3e159d4492784a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最直接的等待方法可能是：",
+      "translatedText": "The most direct waiting method may be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

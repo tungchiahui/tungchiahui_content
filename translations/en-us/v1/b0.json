@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "b009fe3467c853b3dae55a4f8d09a1bc57ee1d5133772f47de1f5f5bc8d39bdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "37ad100167ac26135fec653c98230482a9e20e82e2c8cb271058ac998fdb9d15",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "barrier 关注：",
+      "translatedText": "Barrier focus:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "b01322d44c8c9084a4aa3833bdfbc7bdd9fcecc44c5d7040dddead93a6f34c05": {
       "normalizationVersion": 1,
       "sourceHash": "34c4589ce95a37497208c8a3ff9e13042e786b71719ddfc44d5340d00469e568",
@@ -71,6 +85,20 @@
         "costUsd": 0.000057
       }
     },
+    "b03aab95ac41e1ff8ecae4c3eb37d7404c2d1d44ed4e7698d17bb820a0bbb943": {
+      "normalizationVersion": 1,
+      "sourceHash": "403c3aaaac31c0628b15cd68ffce6b1343766536db0f6ff1bf1dcdee39a4ba0a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完成以后调用：",
+      "translatedText": "After completion, call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "b03c56b626e97cc7f3d78896c6f436ddb8e6b51c9605606102a0f5ec4ccee518": {
       "normalizationVersion": 1,
       "sourceHash": "92356b1909337ca8a19eb1b027365894ee2cc46d13dadec4341eba38efa2b509",
@@ -85,6 +113,20 @@
         "costUsd": 0.000058
       }
     },
+    "b0522d1d41239ba74a5b9c506a919d4c6491eebe494648f37abd61c428fa61c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac40415c0c4e84d26e02379ba29344ea1da88c2879b43f9b71fa95bd8a927e18",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异步读取。",
+      "translatedText": "Asynchronous read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b05301c0d14c1bc7c6895c96273bc18ee2d9663ad2061a7ef458b0bc3689891e": {
       "normalizationVersion": 1,
       "sourceHash": "ff4ee904251f01f0797de76eba638859e13b494b833bd417fbab5dadf4eaf19b",
@@ -97,6 +139,62 @@
         "inputTokens": 161,
         "outputTokens": 43,
         "costUsd": 0.0001
+      }
+    },
+    "b0577584822e23c4d854bcf95a11de9c49935d2d2940f2df5ce1b12ae2ebfa8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c77323be50020b9f501899ddd81cd18090b8cb57f99aad2c3501709b7d36660",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里任务线程抛出的：",
+      "translatedText": "Here, what the task thread throws:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "b07b18be370f68d543397d2159b79b71cea79e25bede15bd96c0f2219c80924a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8b0a49b8df3e1ff2bfa27260e6f5316087ed5504594652f907d69d1971242ab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "时重新抛出。",
+      "translatedText": "rethrow\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b07dca879c5a6ef274787cc6da3028b5e66c69abee3ccb2eae7da6341e59eadf": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b9cc1351b8b74c24238c8f9ba509887a314263e807516068127fc12913b2671",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：同步写数据。(阻塞式发数据)",
+      "translatedText": "Function: Synchronous data write\\. (Blocking data transmission)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "b089c9bd510eed761af58fc8d5315deeb6fa21b5854b6fb97071d5ff37951991": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb8071a3396fc2036116e2688a15e852abddb4771d9a5f3142ecfe0b86a6881b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仍然：",
+      "translatedText": "Still:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "b09952d13c3c6491cd6eba865e0e0cdff32fcdb3595ac8438121c2b46e0ff1c1": {
@@ -141,6 +239,20 @@
         "costUsd": 0.000057
       }
     },
+    "b0b9ff5a86b2163444dae96c6881bae9de8c9da1ada84599162a5cb219eb63cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "364405f955be98ac114deff6141cbc43c1d41f0507ecad7bfa0808e94967d5ee",
+      "contextFingerprint": "19ccfad54af09bc5cd0a0449477b156d3a53d3187a27716e27fca46693238a23",
+      "sourceText": "#### `boost::asio::read()`",
+      "translatedText": "#### `boost::asio::read()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b0ba3c3feb998bda3c0640fffc55092b72f1c68a8fdd5265e86a755a82776907": {
       "normalizationVersion": 1,
       "sourceHash": "5532013ece922925e5cdcb8bf15f6c08465b103634d6ae6da95ad4ccebb52e7d",
@@ -169,6 +281,20 @@
         "costUsd": 0.00009
       }
     },
+    "b0c8a391536f73d3f38e5e1e8546070031d16910a5e70cd20fe06377a7bedfd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8a5f0abc9082329c52a676e74749d3a2eb84efe9532f667da6220f9c477673c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这就是一个最小机器人串口驱动雏形。",
+      "translatedText": "This is a minimal prototype of a robot serial port driver\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "b0d5a795c2d6ba2f35b4d636322121d5c86fe3e45ae06d5ea5d5a198372b88d0": {
       "normalizationVersion": 1,
       "sourceHash": "0a9b39e3ce1f25dd0f06df1bcb114ab88d47f03b7c7d075a07976bb107460bcf",
@@ -195,6 +321,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b0fb1739c0e54c65c26bbf50bf24254403e3c7938cf4f326801007ea84cdf3c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cb63ea040d89e71794a91b15dfec418a350c065bc03cec6f9c00b15028728ae",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 本库只依赖standalone asio",
+      "translatedText": "### This library depends only on standalone asio\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     }
   }

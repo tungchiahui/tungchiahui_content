@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "d5017ae82e1114c50399564d1f09c6fba1dab8a6c47caf8b6059f80d18a6b0f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "815101a7f52e0cd9ae1d6b58e9de417f0cba9446d56353e555e4ea7f8346429f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还可以使用：",
+      "translatedText": "You can also use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "d50fb1aedf673721a42760a72be9fdda02d4f07cc0d76caffd6d7eed9864b030": {
       "normalizationVersion": 1,
       "sourceHash": "e5b649e44492c11a86a39b2986d4d47e5bb8ff2808644fc0340c3d5bedc2fd75",
@@ -13,6 +27,34 @@
         "inputTokens": 183,
         "outputTokens": 61,
         "costUsd": 0.000129
+      }
+    },
+    "d51e4cf088c610dd8931f087db99696f49cb106560a31c1c370cb505472c5452": {
+      "normalizationVersion": 1,
+      "sourceHash": "a776eff6ae1263168889a367ea49cf56e60b5998d06c4a9fe9307ea7ae1dd7b1",
+      "contextFingerprint": "ae4c89d3421530fed41a2914e36465535e974105e0898e2ec326bdb155eb904e",
+      "sourceText": "Boost.Asio 读写数据时经常写：",
+      "translatedText": "Boost.Asio When reading and writing data, it is often written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "d52d7d3152c6440628728248c034c69e4e9fc5f8b12b658af3b6cfba8c2a799a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b6550bd282d99d1b28ff6713d4303a2d7c24a7a28dd8dc4ddbbe42461606ffb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很多人会猜测可以写：",
+      "translatedText": "Many people would guess that one could write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "d536b772c18dc7cb82ad1eb2acbeec9e216c833642a079d07aab9045204a2c81": {
@@ -29,6 +71,34 @@
         "costUsd": 0.000052
       }
     },
+    "d548fdb3646ef2e3d9aa39a82d2719cdecdcbcc2b78b1ced150abbbb4dc5f1fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "00d18ef3e063e880706135eb997dec267785dd1d14ded74cb3b6eb1dc4cba197",
+      "contextFingerprint": "08eab9a0cc86b6f392ea5a16af265bbf6fbc22795a5fb0e609d9d87e7a64f500",
+      "sourceText": "`std::async` 最常用的启动策略之一是：",
+      "translatedText": "`std::async`One of the most commonly used startup strategies is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "d549397d5b62105f5c45f7815f9977f7e7be2b9583f1374cdc011d36b1b42669": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6e552a795c53b1897a9b32e90fa6f78caf60c6064d62037f03348518c25708b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程 B 不会收到线程 A 之前那次通知。",
+      "translatedText": "Thread B will not receive the previous notification from thread A\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "d55cf3c5655ce7f97a0e2b50db6c807a08d018b2691c8ec7fbd0da4dc14395d1": {
       "normalizationVersion": 1,
       "sourceHash": "d83c19aff4054ecfb5fa5269e97627d06c9e60ddeb20c73347832b3e88a8929d",
@@ -41,6 +111,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "d5624d25183455f4672be1fc838c868cb784bfecfb6af97a0ee0798ed6d10546": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c9ab23e7c23962b1654943caaea8f6dab1ae8c2eb5cdc99dcfd23bd3fc01cf5",
+      "contextFingerprint": "d344ee283ca897a578b2beadea6e1334f5c9891611a35082f009c45f7f1fe6ba",
+      "sourceText": "> `read()` / `write()` 是“把整个 buffer 处理完”；`read_some()` / `write_some()` 是“这一次能处理多少就先处理多少”。",
+      "translatedText": "> `read()` / `write()` means \"process the entire buffer\";`read_some()` / `write_some()` means \"process as much as can be processed this time first\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 33,
+        "costUsd": 0.000087
       }
     },
     "d562e64b904f3bb4251ef437c1dd8f64553dc8627e37908bcd2537316ca9a630": {
@@ -99,6 +183,62 @@
         "costUsd": 0.000058
       }
     },
+    "d5865c9c1330b14ef20f4b9a26b8ae154a74354d9ec52139840149d1616e1a70": {
+      "normalizationVersion": 1,
+      "sourceHash": "030c21d1bce5b5dc48a0748836bf1e5effe169d8c888d1d259a5ff2d2ebffa7a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在 VSCode 中使用这种方式前，需要安装 LLVM 官方的 clangd 扩展。\nCMake Tools 负责配置、构建和选择 target，clangd 则负责代码补全、\n跳转定义、语义检查等编辑功能，它们不是同一个扩展。",
+      "translatedText": "Before using this approach in VSCode, you need to install the official LLVM clangd extension\\. CMake Tools is responsible for configuration, building, and selecting targets, while clangd is responsible for code completion, goto definition, semantic checking, and other editing features; they are not the same extension\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 72,
+        "costUsd": 0.000144
+      }
+    },
+    "d58e57346422a892d8947c68313baf67ea8e3c8fc4f4270cdbc31317c3703596": {
+      "normalizationVersion": 1,
+      "sourceHash": "a10dca0aad5dded6462a67803fbadc3bcb9860e956f3bd137b89f7bdddacf241",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最终可以记成：",
+      "translatedText": "Ultimately, it can be written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "d590e1af3540da529ebcb8323fd4caace341de0d2a1f18096f3b393b3b751c8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9b73af038913ec62a441ae6faddd46951fc1b2a52414d067452b8f570734bb9",
+      "contextFingerprint": "b82d87c7de8ca5874486dbee74ea2734c27491890c2b0108bef14716529e9127",
+      "sourceText": "> `mutex` 解决的是“多个线程共同访问共享数据”；`post()` 可以通过线程所有权设计减少这种共享；而当多个线程同时运行同一个 `io_context` 时，`strand` 可以进一步保证一组 Asio handler 不会彼此并发执行。",
+      "translatedText": "> `mutex`What is addressed is \"multiple threads jointly accessing shared data\";`post()`this kind of sharing can be reduced through thread ownership design; and when multiple threads simultaneously run the same `io_context`, `strand`can further ensure that a set of Asio handlers will not execute concurrently with one another\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 61,
+        "costUsd": 0.000126
+      }
+    },
+    "d59ba43212b59e8b5071f2a47d4b9fa3864e80801be1eb9f86c9a452c93199a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "c96e77bc756f7b0ac2549d627bfe86b37708c7076498669c7daec60d6186a55b",
+      "contextFingerprint": "e74ff375702986ebaca190967bfa79cbb17a80005afbb86bdf9bb417297d4746",
+      "sourceText": "### 为什么这里不需要 `mutex`？",
+      "translatedText": "### Why is it not needed here `mutex`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "d5d657ceeac78c321d602ecee9965b75250cee12b3f970556c45ce6ea83e42fb": {
       "normalizationVersion": 1,
       "sourceHash": "7548b8b4187ea069aa7d6e7cabd9c4d85a6a81a5e2befd0300f29197ff9bc8ac",
@@ -127,6 +267,20 @@
         "costUsd": 0.000057
       }
     },
+    "d5e3944e6a5a8dd6257c1c8d26c3a73f78598177eef72e5ab9f1614b4ac0db3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf9aeee191040a6705d8eada58d81be3421f707632fcded87ef765b96f318be7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最重要的几个点：",
+      "translatedText": "The most important points:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "d5e687cfe0772f0fba6733523b31e894e4f43951a4cfc05cc97f5413051f95e6": {
       "normalizationVersion": 1,
       "sourceHash": "6c087b2a5d2613906d78fc9653ea3869dd505b7f54e72c558e9333d9cec54800",
@@ -153,6 +307,34 @@
         "inputTokens": 202,
         "outputTokens": 91,
         "costUsd": 0.00017
+      }
+    },
+    "d5f0fc164e99e2177d8af93a532f3f8c63d4bf8cba1ff66e5a23333849f74aae": {
+      "normalizationVersion": 1,
+      "sourceHash": "24008f20525920ae9fe0d353ff29788f4f6d95b25aa345478f0c90b52dbd3396",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中等待和执行 Asio 的事件。",
+      "translatedText": "Wait for and execute Asio events\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "d5f4f5228a07660c4546fc73d564184d1a2bdcdf925dde5fc743d8b6771bdaa1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab7414cdec856f5f2c3e81cff332b8d7530e822d1c64f430d44ab826a18f5bd0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原因很简单。",
+      "translatedText": "The reason is simple\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "d5f541ae921f10b01769cdd8e4574d52569308ff014199f855469e38ab689526": {

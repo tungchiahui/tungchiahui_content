@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "31081efed74d2978aed4db1f08a274f36a2f6ffb2ddc96b9dfe49ccb8fff4656": {
+      "normalizationVersion": 1,
+      "sourceHash": "be7387dae10194d6c9330bb30d7dcac2a1b1ebe93a14420bc772d5d782066a78",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这种情况下：",
+      "translatedText": "So in this case:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "310b53270550e2dd4eb8d3d177d6e095cd23a09ff60ca7f5408fb840c2d19d76": {
       "normalizationVersion": 1,
       "sourceHash": "ec4beafa462fdaf893bea61e049fb4d5081b47fe758395e8d47a85f5c0645829",
@@ -85,6 +99,34 @@
         "costUsd": 0.00007
       }
     },
+    "312baf3c723bbfbd4d33122142c24cdc34721e37bd9171095a59c6c84a0cffed": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ca96d00f36c8601c18e5144933b7f400aea815168a44496ada027a102e6d296",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以典型关系是：",
+      "translatedText": "So the typical relationship is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "314bfee9ac6216cebb44d3df91b7eeb8250365a8516c99b2b36fa9d07a07fca9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3ddb2a992a394bff74ad778b30be545ec83f24d38f19467d0927c47d1f535a7",
+      "contextFingerprint": "43a36df52c913d411b067dab78169264d7307720ab237271d2e3eb6d65e69dfc",
+      "sourceText": "> `boost::asio::read()` 会同步阻塞读取数据，直到指定的整个 buffer 被填满或者发生错误。",
+      "translatedText": "> `boost::asio::read()` will synchronously block to read data until the specified entire buffer is filled or an error occurs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "315bf7065eb4193a6d5b8dfa2449a1fe2c5d864ab33668c4040929a4d3a1875a": {
       "normalizationVersion": 1,
       "sourceHash": "2fb0dd8ad40d539fb712eb3e13fa90c6ec2f9b8d06f378a52450347dbc6af0d4",
@@ -113,6 +155,20 @@
         "costUsd": 0.000104
       }
     },
+    "31703a44bfd26f4521356db5e94eea9a3c426035a6a130ead7981fcaf487eb10": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dc63e4bcc7016c5094ca03457e239db829ab28d9c5a45f7406bb28432289759",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初始时可以理解为：",
+      "translatedText": "Initially, it can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "31808b0496e4a616a5e797445ec7d04cd503ba231b597058af8dc7295029aec3": {
       "normalizationVersion": 1,
       "sourceHash": "e2d3393dcf2890492a84a22e0b3f729f422680ed748b842376c23ff0ce0220c3",
@@ -125,6 +181,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3187bb667a1efdfb4611010fe5a0c2d699ffd641a8c72b1af799db19b555021b": {
+      "normalizationVersion": 1,
+      "sourceHash": "320f12710a8754cec8c3767cc2bded38d3e24f872b96e5af686f97febbf07e55",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种代码有两个问题。",
+      "translatedText": "This code has two problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "319960ec626dfc8e418f8942cb46f7859d6dc4f2afe2e32bbc4733809402c465": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8e44afbd4b058194f9069dc4a2231ec311a4f1a6cb77a04d47fc28eb7aa1ac7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本模板只支持 Linux，并且使用 Ninja，所以固定写：",
+      "translatedText": "This template only supports Linux and uses Ninja, so it is fixed as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "319cec458868badcf9e4d3d9a16b4f4c108df54894d621bb83842b99d751de89": {
@@ -141,6 +225,20 @@
         "costUsd": 0.000052
       }
     },
+    "31a3e6732388c6bf9f4131defd2ec811f52a243ded6d237153b866cdf8d3601d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2b6334dd27ca30f2d1cccc3210db01428b19dfe41795a46145e18f3faaf7fb4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设异步任务抛出了异常。",
+      "translatedText": "Assume that the asynchronous task throws an exception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "31ac127349a28b05b9cd06338e046812d5adf95913cde6222705a869259bc048": {
       "normalizationVersion": 1,
       "sourceHash": "61384bad00827a0906b1a8f5ae03ba2925986f06c21435afc76d2b3638b2cc47",
@@ -153,6 +251,20 @@
         "inputTokens": 149,
         "outputTokens": 35,
         "costUsd": 0.000087
+      }
+    },
+    "31ae34355e41763a0f15812700bbd3ea41fd0fed5528a7a8c9583e60a5497293": {
+      "normalizationVersion": 1,
+      "sourceHash": "dab4cb979fe6d80d246588a00e28d10a90584e778fd89176d1658de435aa29b5",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 能通过“让某个状态只属于一个线程”解决的问题，就不一定非要让多个线程共享它再到处加锁。",
+      "translatedText": "> If a problem can be solved by making a certain state belong to only one thread, then it is not necessarily required to have multiple threads share it and then add locks everywhere\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 41,
+        "costUsd": 0.000096
       }
     },
     "31b92ff21dad7a1a4bc13278614bb402724ca28cb50eaf7d8a7ebdf6321d510e": {
@@ -169,6 +281,34 @@
         "costUsd": 0.000057
       }
     },
+    "31bf4b14c83b62e50faa621d04b2e1a19d59f3ef41d692b639df7de16149a2c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ed75c6513aca25df3aeb7863414455c493fbd4fe5a95c7329ca7a6d13733d41",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. 旧写法哪里容易错？\n2. 现代写法如何把意图写进类型或语法里？\n3. 在什么场景下差异才明显？",
+      "translatedText": "1. Where is the old syntax prone to errors?\n2. How does the modern syntax encode intent into types or grammar?\n3. In what scenarios does the difference become evident?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
+    "31c69026d3ea795c0d810e3bacb6579972d2e1f8ccb3319b5deb2ca2c862a321": {
+      "normalizationVersion": 1,
+      "sourceHash": "9da8c93cc749361b2e78fa3e1384068fb4c246ed769ff9711e19150db05ce311",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只有一个等待线程，可以：",
+      "translatedText": "If there is only one waiting thread, you can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "31d76094062d9ec15897a13f8ea96533c6d792855066f00d2c11827d9666ae49": {
       "normalizationVersion": 1,
       "sourceHash": "de3543020e50c87588e87b853e923083d9c8ca30035ef6a68710cb2b43545d81",
@@ -181,6 +321,34 @@
         "inputTokens": 154,
         "outputTokens": 43,
         "costUsd": 0.000098
+      }
+    },
+    "31f13ba12b52b3ae923981e0e1236db4cca952f8b6cb2e83d84947d83379e603": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e961da61cd7f459c305ed48ecdbbcb089e8ec4d57c9c0cdd92137eda5392070",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：模块 + 类",
+      "translatedText": "### Example 2: Module \\+ Class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "31fa554377bbe0a41d1072cd9f7cab05a68be364953286aa4bd11b959cd063b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "64c9f058f6f17827f34b5c3f47ff1015424b82de49a2fed4f90533289ce17622",
+      "contextFingerprint": "bde79789ad9c5b02824d108e122dbe22e33a27dba4c067a09a656d8519245e13",
+      "sourceText": "让异步回调持有 `EchoSession` 的 `shared_ptr`，保证回调执行时对象还活着。",
+      "translatedText": "Have the asynchronous callback hold a `EchoSession` of `shared_ptr` to ensure the object is still alive when the callback executes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     },
     "31fca6c89c4d18b33ff4a3dd16d7b656ba928aa60eac7f26647fa4420d7592e7": {

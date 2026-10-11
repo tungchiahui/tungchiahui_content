@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f800738bf4252afc7c88080310443b1685eaf3d51e7028779976d46694dc68e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "d443455640b439c84e296df43c12802cd0e8db20a67f7f86127dafbb818a25e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都保存成成员变量。",
+      "translatedText": "Save them all as member variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "f80430bde4ff5311a75246167be99caca076411e980ab88d3e11535df0f71e83": {
       "normalizationVersion": 1,
       "sourceHash": "01dd2b841b6f3bf03106477548f2ebcca7c45857f4d201aef2f72652934eeb11",
@@ -41,6 +55,20 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "f813bb5e6874bbc0ae1a0f0bf55a57e0c3ad73070d135ad514bf0376600ed431": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fbcc23fc29a910d6e2238b7504dc4cb38bc16b2d94dee8d80f8e885f2d3e1de",
+      "contextFingerprint": "712206a210dd586926dc03b154504624b48e23e4bc01b123ac5fc7324d1dacf3",
+      "sourceText": "`jthread` 仍然提供：",
+      "translatedText": "`jthread` Still provides:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f815ed3a0eb822bcc55be1952cd37e62616d29499f3c2544a32f6586ef311c8d": {
@@ -85,6 +113,34 @@
         "costUsd": 0.000065
       }
     },
+    "f826a68352c83aa41c8fece231848942e68397e1d095bb1b033dac2ca00bcfe2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b892287f0f5488d004a5714ac23c9d7a762e78b2500641a0b11bcce7fe521de",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常会看到：",
+      "translatedText": "Usually, you will see:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f83392ee7b37bcad3bf7cf24cab93d3d0f1d7c631ea93b98b5237e2cb50e5e4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3cc0b9471e444a462043094e48292e378b052eda5f2333f538b69469427e7e3",
+      "contextFingerprint": "2ac63ac91611ba27315049137af29dec8fda36dfd96162c1bb808abcd8c6c11f",
+      "sourceText": "> `std::atomic<T>` 保证的是“原子性”，不保证“一定无锁”；`is_lock_free()` 就是用来查询它底层是否真正采用无锁实现的。",
+      "translatedText": "> `std::atomic<T>` What is guaranteed is \"atomicity\", not \"definitely lock\\-free\";`is_lock_free()` it is used to query whether its underlying implementation is truly lock\\-free\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "f8394e2e1d8463f9f67443e87035251781c959a5001d3b1f1ae7acce2f32a45a": {
       "normalizationVersion": 1,
       "sourceHash": "8c72685bbad0e4cc907615607da2e9b690956790c478e785ae69621e201094b5",
@@ -125,6 +181,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "f850c42dff3db545519afc0eb16589e88c4ba28df4db41393c6a6150446d597b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5625a8f971c6c815a600889924acc498a7177a5644dadb9b2261516f236bd206",
+      "contextFingerprint": "5463825f61561b04b87adc2e4db7a3d2d0053933426ab1402d4683274f3316cf",
+      "sourceText": "`request_stop()` 会返回一个 `bool`：",
+      "translatedText": "`request_stop()` returns a `bool`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "f85a7254935b37cf41920e8505bc940b4ab2df9d11030eb75f2f773654527700": {
@@ -239,6 +309,62 @@
         "costUsd": 0.000056
       }
     },
+    "f8b895842759b920af7cadd8d64a64942cec55e839da32cac360aff1ac1b8f72": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e74ef1c7913cdb8d2e4d5c6b78c01557524cb3af1b188da434aee5ea69a749c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 整个线程关系",
+      "translatedText": "### the entire thread relationship",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "f8bca23bb989ac76456d9532e0e9ee252904c1132e2c89dc33a2268a172329ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b659ab4646eaf71844a4b334683fa4c5ff3ec12eab9f11e8b460ae028d7bce7",
+      "contextFingerprint": "2a19d3158132825e077b92ec9c1590410919ad0adb7aef01490157604dff4f12",
+      "sourceText": "## 示例 2：普通 `main()` 里用 `post()` 投递任务",
+      "translatedText": "## Example 2: In ordinary `main()`, use `post()` to deliver tasks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "f8c4a8f3612fb95887ba6784cbc4d2128b9e19b48bdff7bca254ccd2ac092a9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "54e729821a2a857bc9f165c15efa3a451a719e67aece3699840129e3714672c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一共 11 个字节。",
+      "translatedText": "A total of 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "f8d1b6f85cec80f8d92c6e5f53272b3e38753b0ffe1174bee448e73a40ec9a28": {
+      "normalizationVersion": 1,
+      "sourceHash": "26a99280ab17a6f60538b8973f98fccc4cbc9257034258c545ac556364e171c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果测试接收：",
+      "translatedText": "If the test receives:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "f8d5d782392eb6b3530ff6007c9ff213b4a6e115a7c3665152a19de526e9695f": {
       "normalizationVersion": 1,
       "sourceHash": "ed505d047e1fd29493cadf5f1bd200a9e6c03591c65186f90f38990663d8eaca",
@@ -253,6 +379,48 @@
         "costUsd": 0.00012
       }
     },
+    "f8d7513736daf75cac48f3c41a04427db738242c35df2e426c162758d0feb046": {
+      "normalizationVersion": 1,
+      "sourceHash": "70038fc19798194c75df84a06370089f97469c94c9203403d425b8eb98214e8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这使它不仅可以限制并发数量，也可以做线程间信号通知。",
+      "translatedText": "This allows it not only to limit the degree of concurrency, but also to perform signaling between threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "f8dbe4acffa9ee1c5cb900cff8ce8bd34985cb10f241062268227c1d5668a82a": {
+      "normalizationVersion": 1,
+      "sourceHash": "be89de049421596a919cf130ca35f10de61ecc065403b1ab57071efbd162745f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但如果另外有一个线程直接修改：",
+      "translatedText": "But if another thread directly modifies:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "f8dd74bef8231fc19a7e0ca6c95edb2dcbd87f705292bcdc38bab294c3cc8f59": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dfddba9091f2b97e8597a8936f7343460963c3c3b388119a8fbe9570c0f3908",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们不是一回事。",
+      "translatedText": "They are not the same thing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f8e495e78c82008154a5857f489ad376bdb7a302a167d01c428244d31e8486c5": {
       "normalizationVersion": 1,
       "sourceHash": "2a65c5e8f2845bc39c35f7f37fb61f498cd04dc831561e02034472f6fecb4b9d",
@@ -265,6 +433,34 @@
         "inputTokens": 143,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "f8eb70605133df901021c924de192af4f81f6b6183bd6f22cf1b8858646b9306": {
+      "normalizationVersion": 1,
+      "sourceHash": "af79bef1fdf40bb067bc98105a0a01b75e75f1c400302e53ac8b4e1bc80a9f16",
+      "contextFingerprint": "2c3024ccbbfbbc0d47c025d209dc9671cd786194e485ad77bd6f03986a0e374f",
+      "sourceText": "路径 `/home/user` 和 `/home/user/` 可能不相等，用 `fs::equivalent(p1, p2)` 做规范比较。",
+      "translatedText": "Path `/home/user` and `/home/user/` may not be equal; use `fs::equivalent(p1, p2)` for canonical comparison\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "f8ebf0b80591febc803984386bf84ea172179dda3aa8ec96d0e0b398142f2883": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5afe2ee0af33fcb1678213d0cc37915c32f2949632f37ef8f9d8b13067a6bc6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 带谓词",
+      "translatedText": "#### with predicates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "f8ef4f4bd113b4c25ef2abb85f1f1a4790c853c124e8ca0f97ec711a6e9ce766": {
@@ -293,6 +489,20 @@
         "inputTokens": 180,
         "outputTokens": 68,
         "costUsd": 0.000136
+      }
+    },
+    "f8fc2d923b4f12edf8f4c211833e590b7709a60cf69039915ebcb13233378c5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdec04007c644683e7cbfa0299c57d0942c89587ca1248839c2f059e14204ee2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它只是一个延迟任务。",
+      "translatedText": "It is just a deferred task\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     }
   }

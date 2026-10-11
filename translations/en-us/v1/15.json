@@ -57,6 +57,34 @@
         "costUsd": 0.000057
       }
     },
+    "153d9a6acd29a0c07de492d798cd9594a5852f4d58ff8972ff85b7b40cedffbc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca4bafa69c70149ff4c224334677964670ff5016f0d01f44e72bc829b15737ea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但不会：",
+      "translatedText": "But it will not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "15416d5f250ecbe30eee15462c8a117039f9b13e3c8d3f28fa6e1b20c6c7c09f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5597fe5d1c8eeab00c65eac84dca4a40a932b996b23d3c0ecca4d8759f46fef4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如你的程序可能是：",
+      "translatedText": "For example, your program might be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "154c8ade508d99d4b8ebb9411aa794591c96dff13e9eab49eb96e1a5d714eea6": {
       "normalizationVersion": 1,
       "sourceHash": "52d4163d10a0232d191ad4763b890b5ae73c3a73838446c3f227917f7710ca44",
@@ -69,6 +97,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "154e73cc1de0189d6916e7a2c7c87be6c4e9687a7e78f7f65c524b44ff5d6159": {
+      "normalizationVersion": 1,
+      "sourceHash": "39b4a111b59def24644ae9e983faad3c58a1969a712e49e2bda7d8b0d157c5ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为 buffer 需要 11 个字节，所以过程会变成：",
+      "translatedText": "Because the buffer requires 11 bytes, the process becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "15569414c54e15c08e2476cc3db162272ca3020fdf7b84de57ad6886577ab881": {
@@ -85,6 +127,20 @@
         "costUsd": 0.000062
       }
     },
+    "15574618febf0d1854d4fef384d4eb441d95235d4e75c0cfdb4f53b399ced2be": {
+      "normalizationVersion": 1,
+      "sourceHash": "7850cb1af93f704ecfec9520e704f0c196740e1053961aacb4ae95b15b818ef2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同步读取 11 个字节。",
+      "translatedText": "Synchronously read 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "15594eaf9ac98ca89b9e8fbcac61ba8201ebbe0f8b5dd82339c3ec6ecb6a0c15": {
       "normalizationVersion": 1,
       "sourceHash": "2cf820f9688b9be58e1172944cbb7bad7156e3a48ec46856fe37b801374295da",
@@ -97,6 +153,104 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "155d25547f4055e8bd1b868eabc3bbd6c6f530db7a277c10ba7560373423d3cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "60d0acc25814f79d92b7ce1935dbff1fe3916182822ac1deb931c46965605e06",
+      "contextFingerprint": "3c078ab587fd2f8ebb4e0b213258b15401dc04ddd68d031991cc6e6227baabc9",
+      "sourceText": "`boost::asio::buffer(msg)` 并不会复制 `msg` 的数据。",
+      "translatedText": "`boost::asio::buffer(msg)` will not copy `msg` data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "15683cdc3e9827e2378d8e6893f94819cb499114e10bc7c120a4f3559634b6ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfd7a3d823653ba7fad199259285077faa921ce33c71db3b835e05c3812dffcf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "监听终端：",
+      "translatedText": "Monitoring terminal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "157bfa401e3d2aef902bf3166583266ff27708150c713090ab47dee7568b85d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc5149ff2eacdeed4943369f8e66abc5c8053025bca0cf7e88407b846308c1eb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "安全点 = 可以开始退出的位置；函数 return = 线程真正退出。",
+      "translatedText": "Safepoint = the location where exit can begin; function return = the thread actually exits\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "158146ef08da420faa7b818159309882ad7ed743b6ba5b1a96e1d611d92a70bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed7aa7c94c499b7e528c6ffed71c5bc2ddd9a61d0bedac8f5b24647143ca59b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "意思是创建一个线程，在新线程里执行：",
+      "translatedText": "This means creating a thread and executing the following in the new thread:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "1583a92d40974962dcc401e13ac6a65ff961f650f2d1ff9dc0fca4064c5fb04d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f43e3201f320abda2a3f341c66741ae23c78025fe806254d499a08eab85dfd32",
+      "contextFingerprint": "5fae5ea7beabcb61374c0b9729807c4d4b429ae39313536e4019f066609c23c4",
+      "sourceText": "### `std::thread` 和 `std::jthread` 对比",
+      "translatedText": "### `std::thread` and `std::jthread` comparison",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 10,
+        "costUsd": 0.000053
+      }
+    },
+    "1587e8f167d9bace610cdb9ccfeb7b58f3943a750ec2018567406d8994f24eda": {
+      "normalizationVersion": 1,
+      "sourceHash": "c355672a253f4d1adf0dca0c335348d90cedebfc2bc898ac8e5f4810698c6f01",
+      "contextFingerprint": "8ffd45460c6d6dcdd59ee0cdecc9911ae8f4c9e857c70048ca6d1b657eb681e1",
+      "sourceText": "## 示例 3：`work_guard` 让 `io.run()` 等待未来任务",
+      "translatedText": "## Example 3:`work_guard` Let `io.run()` await future tasks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "158a16664831512bb219fbffd6d8a9778457764ef4e2feba18b6e0650322d0ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "3075509705fb2da431a3cbc53689a4071e78c496f66edaa1c25f1292ea1ba909",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 错误：检查了停止请求，但中间阻塞太久",
+      "translatedText": "#### Error: Stop request checked, but blocked in the middle for too long",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "158d44fd5dbca04e844bcf77ae95a001302e2997bda0bdbd3404b6b2a8499c09": {
@@ -125,6 +279,20 @@
         "inputTokens": 171,
         "outputTokens": 68,
         "costUsd": 0.000133
+      }
+    },
+    "159f9eb9102d1b91fad7346227612892be9e17c1ef1545c1056509b71c24e32c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c0b4b93546c14807d45d923600bc505d7eda958d5e4c4087579f74119622796",
+      "contextFingerprint": "ebb58d1c6be9f0bf7f98e4e0ede69ae1c6ec2059d82b497000b57c97530fb55a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377561915-e9063cc0.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377561915-e9063cc0.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "15b0ac2c325cf1f7222eb5bba009e9b56a5e002dbb94b8a33b38b4ead14efc30": {
@@ -169,6 +337,20 @@
         "costUsd": 0.000059
       }
     },
+    "15c09ad0c9bd0cc2849704b412eb5d3f0c7e8d2e8dc5fa98785737db3ef749a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "73bc2c627f013eee2e0a86c081fa54e4a12610d58765c5dbeb5eaec6f0ac8df7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而且 latch 一旦变成 0：",
+      "translatedText": "Moreover, once latch becomes 0:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "15d61f2900aee84a5f4a4114c12bb1473ccf6a16a826c4930990e511a5ffee40": {
       "normalizationVersion": 1,
       "sourceHash": "c7c136461461b34708e4b7b3a9becf1b8af58fe6bd08833eb1d9e450ce1e61a3",
@@ -181,6 +363,20 @@
         "inputTokens": 146,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "15deac519a1114414b83379cf08509ba0d8fbd5e91fef7aa6e875b60a0772560": {
+      "normalizationVersion": 1,
+      "sourceHash": "97a246baa97fafcb38878cd891ed7c0599efa4b5e6e73e841cee4d32a71caef3",
+      "contextFingerprint": "872964a2e7fd31867d40d841d19ef1ca5b9432c6ba81b8778f20e136e675f06d",
+      "sourceText": "这种比较小的类型通常都是 lock-free 的。",
+      "translatedText": "This smaller type is usually lock-free\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 22,
+        "costUsd": 0.000071
       }
     }
   }

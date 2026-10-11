@@ -15,6 +15,20 @@
         "costUsd": 0.000064
       }
     },
+    "4306fe5806cedd17dacfcf072e5ada411cb7b0b59b52f36d7be33753b18cd331": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4f5c71a6c96965694653a614e4a6032355b358af1ca01c07ca37f61b729ec8b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### future 背后其实有一个 shared state",
+      "translatedText": "### Behind future, there is actually a shared state",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "430dea6e5dba802c08cf4e5a6ecadae41bf9efd95530a2a2bd83a16bcdb9204a": {
       "normalizationVersion": 1,
       "sourceHash": "dd47363254596d8f8bb166249b9301bc27a253072cd7c3e3500d2fd77e5fac7b",
@@ -69,6 +83,20 @@
         "inputTokens": 154,
         "outputTokens": 38,
         "costUsd": 0.000092
+      }
+    },
+    "432a23b5d43c8bfe00957d60f6664da346bc5efe09528020cc531724187a76ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bbe9bc9d803efcf7b4aa67fa7ac649476dcb11092a12d48f590f649f0074042",
+      "contextFingerprint": "5cc433d4ce90f75df79b095e3cf6617992a7db2fa6725d216d26de21dc7dd472",
+      "sourceText": "### 回调统一使用 `std::bind`",
+      "translatedText": "### Callbacks uniformly use `std::bind`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "432d049201d45775d4811dc25f4b0d1883fb07af92bb037c0b5a0f39ee1a0d1f": {
@@ -127,6 +155,20 @@
         "costUsd": 0.000083
       }
     },
+    "435f509a483d86ee056f4b9edf07c4495f2dafcbecae5ca8b72368a746ede924": {
+      "normalizationVersion": 1,
+      "sourceHash": "669f89717785528c0e3790aa2380ed699bf88940e1309a77ffb0707406b52516",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "读取完成后，Asio 调用回调函数。",
+      "translatedText": "After the read operation completes, Asio invokes the callback function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "4365a3466d8939e610470631c8b634b5578c76fdabae4c2e655be3e320477403": {
       "normalizationVersion": 1,
       "sourceHash": "a835c2224d714e97edcc47d360bc472dbd54f4449d23b40540ea52c3facd1dfb",
@@ -139,6 +181,34 @@
         "inputTokens": 150,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "43690de415c820c1cab78c1440e430254e3d8402a0e3d1d39e7e0a2cd3cd39bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce2780908b3f9cf8ca8910f8eb82436a9e951466b7846047d108f46cf80eb400",
+      "contextFingerprint": "f9b94980570623341f0f231c4576972bfaf9b6d0d99914099a9b1cde81f970bc",
+      "sourceText": "### `try_acquire()`",
+      "translatedText": "### `try_acquire()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "438ceecab1a697b6e416d409b8996c902895c7b37f6cdbde67654e5a7378c102": {
+      "normalizationVersion": 1,
+      "sourceHash": "6eaef0ad78d08916aee5b34a21d215ab91a912f1a962a5ec0caa120df684dc84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 buffer 生命周期是安全的。",
+      "translatedText": "So the buffer lifecycle is safe\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "438fea7121a85bf2e29396a9cd173f3110128bbdbe0f328a5fc03d4a873fe375": {
@@ -197,6 +267,20 @@
         "costUsd": 0.000056
       }
     },
+    "43ccfb81f3397a286ddb08e9d473e93b222b50adc37ed58b96cd1ab0626773fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1d0c0a4b34e19841cdedce9810d4cc047eed84fd06cd55945a3cb3d08f82781",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果当前只读到了 8 字节，就可能直接：",
+      "translatedText": "If only 8 bytes have been read so far, it may directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "43cf7c88f21a250dd5f3212905dec70dc5cad279436d9ba149b43b01a7d38db7": {
       "normalizationVersion": 1,
       "sourceHash": "0d756de083475b6e4af4fb4025a43c1e22d12a8fa6b9c76f607331e2a1008437",
@@ -225,6 +309,62 @@
         "costUsd": 0.000061
       }
     },
+    "43dd1446fa856af420e522f44cf25d1a6a6fda59c5ccc0eb099964780d8562ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0dcb6d94d5900afa54e6ae040694e58ab1fa55e72472449993f91fdbcf09a77",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 buffer 是一个很快被销毁的局部变量：",
+      "translatedText": "If buffer is a local variable that will be destroyed quickly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "43dd5e0ad5f4c2e5b8aec51db0abc5110d7e2d672b2c9ca87827bd1a0211e0e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9dacb01a3e197009861e3e42c960b89d8754c1a039f17e085f3307dd9f67a7f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正决定线程能不能继续的是：",
+      "translatedText": "What truly determines whether the thread can continue is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "43e86a3d6fbe3e168ddede034bd909621ab319a9e3a47195c40123e1565c31dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "5eec4a312483ae3ea982592881b51fdadc3cf3cc70e4287ca68abb42b6d92825",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "绑定在一起了。",
+      "translatedText": "are bound together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "43ec64a17114795683187b65791b24b0ded5bffcde707f7af43d8bcba697cd1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "31b080ab2aeb1c6e8b4ab52cffa11928e98d5c55cfd5d58f52fdc941ca25532e",
+      "contextFingerprint": "05aaaa9ee76a60ba223ede98975f4e1eee89ee7f6834856134afdc7b358ef896",
+      "sourceText": "按 `example/stm32_hal/` 的步骤生成、构建并烧录 STM32 固件后，PC 端只运行一个节点：",
+      "translatedText": "After generating, building, and flashing the STM32 firmware according to the steps in `example/stm32_hal/`, only one node runs on the PC side:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
     "43ed81555c000e556b7579ad7eec773398dabcc24571e33dc518c8d9d1817223": {
       "normalizationVersion": 1,
       "sourceHash": "f6a0c2e7c19ca213d0caabda4352f00bca55088de69179db4b62f28453aa54e6",
@@ -237,6 +377,20 @@
         "inputTokens": 140,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "43f39b26d83ca50664e8cac3b93dbfbe1ad1f04ee049dddc6ad4c913e1d454c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "93b7ce5d5a09d43a1f218d4cbdcc1c6e0df24c1bfe9b51627223ac017eb4ad1b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "TCP 是字节流，没有消息边界。机器人自定义协议必须设计分帧。",
+      "translatedText": "TCP is a byte stream and has no message boundaries\\. A robot's custom protocol must be designed with framing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     }
   }

@@ -15,6 +15,20 @@
         "costUsd": 0.000063
       }
     },
+    "dd238a714641bb9568bc98f3fea40d1e47c960da0f67e785e998ad6d00f1c8c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a2a4989d8866c24da8efb7e859dfb8af6901f8a0d073baa2b82bca94993748b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **当前还有多少张可用通行证。**",
+      "translatedText": "> **How many passes are currently still available\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "dd25042f5bac007b412feb068f34ee2c54a03a3c74ff3f63b1fa713d3d734eb8": {
       "normalizationVersion": 1,
       "sourceHash": "82ea9ae2b06b65c62e12febe783f6498405a9251a7139589b54ccffbf1e81add",
@@ -57,6 +71,48 @@
         "costUsd": 0.000111
       }
     },
+    "dd7eea5f8eefdc23d89d2ac967c463f55597d51950f2f096e31410cfbbcdf12f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5fdc5df710ba6d26a89b13b576d1afa7460d2212529292f10379ccad27a3945",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **经过这个 strand 调度的 handler 彼此不并发。**",
+      "translatedText": "> **Handlers dispatched through this strand do not run concurrently with one another\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "dd8c76718a116d2d4be6101a1524230d088f41a5565a4988561c13877e594580": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1364c6950086ed0536ed52636c475913ad4f4c4d0015bcda1e086b73f052694",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "报错可能类似：",
+      "translatedText": "The error may be similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "dd968d026714b7d54a7a179b29219267f661ca877326ca7448139d468b4c5f84": {
+      "normalizationVersion": 1,
+      "sourceHash": "57021a6c3a582a75d9b0e8804c4539f7fde5997bb8e0a6b51e73fbfab1b010fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个 timer 不是两个线程。",
+      "translatedText": "Two timers are not two threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "dd968f76c89a29290b15e0c024db3d1df871423f3adf3cfc02d001de94300080": {
       "normalizationVersion": 1,
       "sourceHash": "e0c17fc4bd2ae005a2c3c6c813519f08226c6b5a12f665da5718f33b8bb27500",
@@ -69,6 +125,48 @@
         "inputTokens": 171,
         "outputTokens": 64,
         "costUsd": 0.000129
+      }
+    },
+    "dd9970576bda7772344552eeed4372c901e0818f157774397434bd3f94be6698": {
+      "normalizationVersion": 1,
+      "sourceHash": "a28e2d3aa317ff9f2726c48200c387338e6a9399e07d6f7e5ed48efcb2bd8928",
+      "contextFingerprint": "0cacbd7dfb9d5cafdb9d8b59d378a24b893fbd2820c06a05a21ecea33bab313e",
+      "sourceText": "- 单核 CPU 上多个线程轮流执行，这是并发，但不是严格意义上的并行；\n- 多核 CPU 上多个线程同时计算，这是并发，也可能是并行；\n- 一个线程里用协程处理多个网络请求，这是并发，但未必有多个线程；\n- C++ 并行算法可能使用线程池或其他执行机制，但使用者不一定直接管理线程。",
+      "translatedText": "- Multiple threads take turns executing on a single\\-core CPU; this is concurrency, but not parallelism in the strict sense;\n- Multiple threads compute simultaneously on a multi\\-core CPU; this is concurrency, and may also be parallelism;\n- Using coroutines within a single thread to handle multiple network requests is concurrency, but does not necessarily involve multiple threads;\n- C++ Parallel algorithms may use thread pools or other execution mechanisms, but users do not necessarily manage threads directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 108,
+        "costUsd": 0.000194
+      }
+    },
+    "dd9ca850a451279c1777d25b8849356309378d4fb7dd36dcaff7055179db4621": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d23a1192c61099a90e70348b22358a21c1ed5a52960c697b21c3e4667fd8440",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：异步读取当前到达的一些字节。",
+      "translatedText": "Function: asynchronously reads some bytes that have currently arrived\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "dd9e0fbba8e796fbb867d1f6f86d1e86d8ebe92eb41206cf72eb6c0062c070b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cea5ac2f0c8b04205b8f81c546947d3289834c274133511397d5a90f9053e0b",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## jthread 的线程函数和生命周期操作",
+      "translatedText": "## Thread functions and lifecycle operations of jthread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "dda22ec6e5ee08f42fef47921bd7fb7889724e2c49549628351dc97bde89e94d": {
@@ -85,6 +183,34 @@
         "costUsd": 0.000094
       }
     },
+    "ddab459f5767947f785158970e5230ec1af9d8755bcd8bdf6697255e80a9933b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fe0cd8de85b6a8e722914ae295b5c605dbc7a08a8086448d51ba4d57b64a8fb",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **要求这个任务异步执行。**",
+      "translatedText": "> **Require this task to be executed asynchronously\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "ddabf594583a9d03552db92caf1d7fc754e9d28e02c858033d7eb31647d35279": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e9f1fb54091f434d94bf21f284069eba0fd27b912aa902e99d40567c166564f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "CAS 最核心的语义就是：",
+      "translatedText": "The most core semantics of CAS are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "ddacc634c66b14bfee25d9d6868c6839a2190f7cd63f3f8e294215c3a49368d8": {
       "normalizationVersion": 1,
       "sourceHash": "7c8f595e06b6b1799d6b0d6417a1d683d61f32522c00585d730a0d033259c2d1",
@@ -97,6 +223,34 @@
         "inputTokens": 141,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "ddb65d5ae2149f8fef88e4297244391e1f6747c2444c09b106389fe6fb0ef45e": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd7b7ee8f406cd28c4c13a37ba4bf8c23423af47f6efd1845a6a5b441e3a4acb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这里用：",
+      "translatedText": "So here, use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "ddb6c1d7fc5683ac3386c49cbb01f84f99bd4fbd01147635c9fd09c075b805e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad03e05331c92c32cfa4fa04163dfe62c9d7437072b473a48c5121c79a71007e",
+      "contextFingerprint": "bd718a0937c97507583785c56742c99c4fd325656eb993d3f7fbabefdb4aba91",
+      "sourceText": "### `async_send_to()` 说明",
+      "translatedText": "### `async_send_to()` Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "ddbb710b867df71f19914c76927da7ed2174219944118da7338ffba37042ca4a": {
@@ -113,6 +267,20 @@
         "costUsd": 0.000056
       }
     },
+    "ddc372f9ebb44046468fd7248c0b9b7ab614324358991da07c7820b77ff738b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa2d4e844b1440019f6930013d8a08c677a2d2ad5ff4f68103f27ef00595ed5e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### barrier",
+      "translatedText": "#### barrier",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ddca224bba8cb68ca1425926ea5d87af903d7cdb1f26d86f3f418d1dacac0863": {
       "normalizationVersion": 1,
       "sourceHash": "deb784704535d632c324e05d2a9a8aab41b7c08fcf1d8953dcf4729af1b39143",
@@ -125,6 +293,20 @@
         "inputTokens": 160,
         "outputTokens": 44,
         "costUsd": 0.000101
+      }
+    },
+    "ddcddaa606292d5d07d7d3d224b2e2615d2a53e4badc53e6e7cb5f2857b5b2de": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e7dd259c013fe5429dc16d57a38373971377eb1292b02b8d603c3f9d87f60fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是已经没有线程执行：",
+      "translatedText": "However, there are no threads left to execute:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "ddce3b312e095a6e87bea18980cb433920628ed3077c2f0e606c9ae2edabfc7f": {
@@ -181,6 +363,48 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "ddf16836b911d7fbd1ac254b428358de91c0630c69dca016a34e600caa81a515": {
+      "normalizationVersion": 1,
+      "sourceHash": "e700c6b231edd933de5a33afb08e432854ba852c946241fe101aab4ffea5cd6f",
+      "contextFingerprint": "8fca29030c5a0a4619b009ed494648e5735967b603fbdb03c10a93d208cd3270",
+      "sourceText": "#### `std::array<char, 11> buffer{}`",
+      "translatedText": "#### `std::array<char, 11> buffer{}`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ddf18a0247a7346fec3354d6b851bdaae88059ad8602d392d03ce36a1af8d132": {
+      "normalizationVersion": 1,
+      "sourceHash": "e74d7b2d0ce6e5cbe1732fe5b5824dff0fc0e9db0b187348356e2f301a2a6e5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "关系是：",
+      "translatedText": "The relationship is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "ddfc58b68ae17f8f6472c51cf8277b2fc87a61dff1fbd768c3310ea738e57005": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c953ef2abf49a8b64a708008cf903a49b885a69db97fb4d8931d851e8805666",
+      "contextFingerprint": "5237a8b63f860338f15772515f639e974be94308b6d128b74090097d2f9b3bb2",
+      "sourceText": "## 示例 5：类里封装 `io_context` 工作线程",
+      "translatedText": "## Example 5: Encapsulating in a Class `io_context` Worker Thread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     }
   }

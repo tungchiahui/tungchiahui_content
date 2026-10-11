@@ -1,6 +1,76 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0105a072b85bd2505450c306afb335adeefa24608f964e66fe64168d212b44e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "130ccb731de7f0a785e74cfb44c2fba19b7f6b51d831332ee7957783de37ec26",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：用 async 做长期后台循环",
+      "translatedText": "### Error: use async for long\\-term background loops",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "010a9c4340c095c2a3f70540ca66160e6beedf17268d86661db271d17fc27e8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f1faa44ef36842451f75a2ed03d027467d620d1814e753b67005432410aaa3b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会重新抛出这个异常。",
+      "translatedText": "will rethrow this exception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "010e4eba9cd4ea5f6cca8ceca7119b93d312fb0b4c2152b0c62d23eddb517760": {
+      "normalizationVersion": 1,
+      "sourceHash": "74f6b37e268e44cc865f52904e4b1a4f51067009f7670b1f59160cb469832f5e",
+      "contextFingerprint": "b6dd5a6e8e6269200b0f75ac163e08c9f3f7e410aa63d8fffa455c108d2da69e",
+      "sourceText": "继续输入 `robot` 回车后，服务端输出：",
+      "translatedText": "Continue typing `robot` After pressing Enter, the server outputs:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "011e4cda619eb79ec708f003d11606176d35f81bfe56cc62d4130f05978e9df5": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c2133ab72c185294a3b45b1d1cf6814c62d57c0f7a92113828a4c8ea1e6e96e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "约 2 秒后输出：",
+      "translatedText": "Output after about 2 seconds:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "01224641f0028eab3d9f46fb5a8a4b7131d8f3dd2a1297a74e14104d3ab9ea7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c4257abb364e663016aeda760fb7894babc9e66f5c4e2512e35bb0e50913741",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此绑定时：",
+      "translatedText": "Therefore, when binding:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "0127d0df037c1c9f4295016d3ecbf993bd20b72549155df5026456d827be44d6": {
       "normalizationVersion": 1,
       "sourceHash": "f7b249c56c4c64880ac219fc8f71239b3c1af029d44a439a86c6dc4088c5bc51",
@@ -15,6 +85,34 @@
         "costUsd": 0.000059
       }
     },
+    "012ad4fc2c6dc99c51a5d47080345634f5cd04d88aa5a28b6b4eb4de59d0db27": {
+      "normalizationVersion": 1,
+      "sourceHash": "11aeddb4b6ca952e3c9437c7b172411dbc24b4ec84dcb97b61e807c81a52ef40",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能第一次：",
+      "translatedText": "Possible first time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "014e3b96562b1fe7dfc347527db4fa0e6b2148eb25ab50f9c097e786376beed2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d527969bd67b73e22b07d942f19faaa49a51ad8093b909faaab4d41b1975bb4",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **把一个可调用对象包装成一个“自带 future 结果通道”的任务对象。**",
+      "translatedText": "> **Wrap a callable object into a task object that \"carries a future result channel\\.\"**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "0150b6f1c31bab5aea864aabb18dfbdfd1c09bed6f09069a907f4ccff34ee56e": {
       "normalizationVersion": 1,
       "sourceHash": "003ad9a94b78762568f6cbb88dbdd404a4716ba0c2e8bb733cbbdd7385639573",
@@ -27,6 +125,20 @@
         "inputTokens": 156,
         "outputTokens": 42,
         "costUsd": 0.000098
+      }
+    },
+    "0152983e1a4303abae197d8fe3605473110a90c41f9b676108b30e42be3660eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8289e5e13cc0d38c81675403b697d935224d5f55612c69d44ffc381bb475f2a",
+      "contextFingerprint": "7373e8c44f339784b4e0c0b00737e2770036329e99d9296628c30700ed5bdc88",
+      "sourceText": "`timer->expires_after(std::chrono::seconds(1));`是把定时器的到期时间重新设置为“从现在开始 1 秒后”。它本身不会注册回调，也不会阻塞线程，只是修改定时器的到期时间。",
+      "translatedText": "`timer->expires_after(std::chrono::seconds(1));`It resets the timer's expiration time to \"1 second from now\\.\" It itself does not register a callback and does not block the thread; it merely modifies the timer's expiration time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 45,
+        "costUsd": 0.000103
       }
     },
     "015781f92d90430c0045f56a11dddae71d5a58c1548226245315fb098afd1e20": {
@@ -53,6 +165,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "0168481c544301377e5eb26bddf674f53d7a2d0d0e63ae7f70ddfb2200cdfce1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dfc749b52efa4beeba48b356c2d5c0767d2f040d402f580bedef1b8ceaf4fe2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "predicate 就是：",
+      "translatedText": "predicate is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
       }
@@ -99,6 +225,34 @@
         "costUsd": 0.000055
       }
     },
+    "018491be52c9ec98b3601c6df32e47a05ceb8f66934824b753b80fa8188ee0a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "651e1dd15a966141f92c46b6af2c23cb909bf55b4885e8a488ad547f88d35b54",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的设计非常契合。",
+      "translatedText": "design fits very well\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "019284c1d0e02069208c9dfca4f006082d866dd43d430577bf976f04368f0b82": {
+      "normalizationVersion": 1,
+      "sourceHash": "7537cda7624ba23dc6de2ae5f4aff2a8c050c054f11e047a2600026c2fd95e54",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个计数可以理解成：",
+      "translatedText": "This count can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "019e73faf4e6363e00376dcbf805005500ad2fe223fa2d337fbbae180c9b150c": {
       "normalizationVersion": 1,
       "sourceHash": "3022823500753ce3009e315553598b30f208b918624a60ec82d72f92e0a5a0f4",
@@ -125,6 +279,20 @@
         "inputTokens": 138,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "01cd1edb173110452303778e38285edd63584e5556fc412a087133706ef07e35": {
+      "normalizationVersion": 1,
+      "sourceHash": "e81fb93414d6802991dd43ee053e160ee11690c2951140101c2247a48b69e8a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一旦发现停止请求，就退出循环。",
+      "translatedText": "Exit the loop as soon as a stop request is detected\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "01d47ab28878bde15200253d383602246002040fedaebfb1db3a548e4827a471": {
@@ -155,6 +323,20 @@
         "costUsd": 0.000098
       }
     },
+    "01d500f75e5e3dafe8f08089f5b3feb44c2aa52f7eb1d3f2fa49bec8e373ff09": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8725cdd9354903b633b9d8ceb7a893c6548e834c7f01e4379f93e53f75c39f9",
+      "contextFingerprint": "cd88dcb244867c78aefc2f674abf54cee1390ef551fe975b49079d3c441f84d8",
+      "sourceText": "#### `CallbackProtocol::feed()`",
+      "translatedText": "#### `CallbackProtocol::feed()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "01dfdbec06a3449166b156392dc1db1256492823a714007a52f7cefedc712ac9": {
       "normalizationVersion": 1,
       "sourceHash": "1c6a0237742a2bc92bd272b5281cad5e8afe1cff5d9023f7492f114ce6fac0f1",
@@ -181,6 +363,20 @@
         "inputTokens": 225,
         "outputTokens": 128,
         "costUsd": 0.000222
+      }
+    },
+    "01f1f3e7d514b00a51ee73bec6917ac433bd5f50b333c1f6a6be3d4ee18d5a87": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7e81bcc7c34c79079ef2fcaed47042789adca8848777e53a9242dfe992a4ef1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "流程是：",
+      "translatedText": "The process is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "01f3ce1f1044cbd47214230c88441e84f70df103ddd0aefa41b792dbe1d87c65": {

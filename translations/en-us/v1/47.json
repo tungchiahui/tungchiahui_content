@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "47077b77d20ac6e7c1da563272012589651f5c5ae81653ade5eda8cdf5b52803": {
+      "normalizationVersion": 1,
+      "sourceHash": "4df6abfa11dedb1b4b3de8b9b6dd4289b1737f1ab49e873b7f83c8cacf9a0e80",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例使用 timer 每 1 秒通过 UDP 发一次消息，共发送 5 次。",
+      "translatedText": "This example uses a timer to send a message via UDP once every 1 second, for a total of 5 sends\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "470a7cf9ff817db98765db6797d5f1f0627f8a08af5791d8715bd0cf21d083cf": {
       "normalizationVersion": 1,
       "sourceHash": "0f2bb82a30757e16bb37a294eaa6c00d58d5e57800b6c6e3647c202c9bd525ca",
@@ -13,6 +27,20 @@
         "inputTokens": 237,
         "outputTokens": 143,
         "costUsd": 0.000243
+      }
+    },
+    "47225d7e01bfe75c852ad2ca715c44e01da69698ff6719c99181fed26693afe3": {
+      "normalizationVersion": 1,
+      "sourceHash": "39def770f1d0444aaaec5923992af7495a21e86612bdcea4e2c355043c23d346",
+      "contextFingerprint": "7e4c35baa2609c82b39767396bbb71c6696980cd3180c6eda7eb1c8818922a9d",
+      "sourceText": "> `std::atomic_flag` 是一个原子的“占用标志”。`test_and_set()` 会原子地读取旧值并把标志设置为 `true`，因此可以用它实现最简单的自旋锁；没有抢到锁的线程会不断循环检查，这种行为就叫自旋。",
+      "translatedText": "> `std::atomic_flag` is an atomic “occupancy flag”\\.`test_and_set()` atomically reads the old value and sets the flag to `true`, so it can be used to implement the simplest spinlock; a thread that fails to acquire the lock will keep looping to check, and this behavior is called spinning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 61,
+        "costUsd": 0.000126
       }
     },
     "4728aace24a22ac8fd85fc8d782414aa03147eb8b4661a954e8119622bb637d3": {
@@ -43,6 +71,20 @@
         "costUsd": 0.000055
       }
     },
+    "4731fd4632849436929d40c43b841f953a6560255cf31eab0bb634b4df0db1cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c1b3c86bdd79ca1a6e261b97add31cc9f4fcf04dea55e1a521c7456650bee6b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "已经把结果确定了。",
+      "translatedText": "The result has already been determined\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "4745c9a675d2060a0194efad5b0dfb65da4b88d7423d8be27333c44015e15113": {
       "normalizationVersion": 1,
       "sourceHash": "317031fc95dbb2c03db5d9971d18a23b05d1bc6d3d75d88859ab644aa781a938",
@@ -57,6 +99,20 @@
         "costUsd": 0.000062
       }
     },
+    "4745e8882d7c40dd793cdf7aa64073889a1abf18f07feeb320321c41dec71a10": {
+      "normalizationVersion": 1,
+      "sourceHash": "789e5fcdbaf58d75f76fba3ed4882257a956ec68771fe1da0eb55de1fa2f1e95",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为了方便你直接复制验证，本章各小节的\"示例代码\"遵循这些约定：",
+      "translatedText": "To make it easy for you to copy and verify directly, the \"example code\" in each section of this chapter follows these conventions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 34,
+        "costUsd": 0.000085
+      }
+    },
     "474cedfb7a31ccf16384d0cc09a03ed39169e2b1252d5dff3b8e212bac6c35f2": {
       "normalizationVersion": 1,
       "sourceHash": "c0526fd2493b69963080965c7bef7cf82c96d7663b1d72dcf5851e10a7c79a62",
@@ -69,6 +125,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "474d2e1533abd403771d1eb9ea28fb4c5f2f9cc57f48b1f07f1f2c6dd0176799": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea0da3fe81aae7169c05a4d3d87f522f483cf54308b44b25916046f889664272",
+      "contextFingerprint": "d35e212eae60f37dcdd123e1bf1157707b43c6fafbb643bef8267073eb4f2736",
+      "sourceText": "handler 仍然由执行 `io.run()` 的线程来运行，只是 strand 不允许属于自己的两个 handler 同时运行。",
+      "translatedText": "The handler is still run by the thread that executes `io.run()`, except that the strand does not allow two handlers belonging to it to run simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
       }
     },
     "474dfeb74ede0eea1e5bd01b918d918ff26189ee1aa63489bc0041552b0db4c0": {
@@ -127,6 +197,20 @@
         "costUsd": 0.000073
       }
     },
+    "477bb79dc9539ddbcabe023608d737b1f5d15ddfcc9d2cdc99369d9ca6dfe71b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe64ea1ffe9afd5f1c23830c43cbcea1df3b69f2cf83840976b6d7ac8be886cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种情况一般适用于多个通信设备。（此时main有1个主线程，asio有2+个线程）",
+      "translatedText": "This situation generally applies to multiple communication devices\\. (In this case, main has 1 main thread, and asio has 2\\+ threads\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
     "477cc71ef6d2cbd03bf2b3bb9cc5e62bf17bdb5fb55129a4aaac1667bac993ed": {
       "normalizationVersion": 1,
       "sourceHash": "7db1bf5b27bbf1778f370126e39f86b99c522be1c7bd4178b50a4c277f8f76ed",
@@ -141,6 +225,34 @@
         "costUsd": 0.000055
       }
     },
+    "47890acbb8fb7afc72b9ec8a102281816005ca7cf4f348a82229319becaf036f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7a204c9ecbc416354b2d40b563c160b948e4009c2f0d3f0ff97754c83edf9b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "获得和这个 promise 关联的读取端。",
+      "translatedText": "Obtain the read end associated with this promise\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "47891628af772d6b27b8883ef8e3d9dbff1cffd8e034c1ecfb27347231e29f29": {
+      "normalizationVersion": 1,
+      "sourceHash": "168517b8a19a081d0da58b6401403f9685f5ca8ebfbb1467425f668f48c40072",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如本例：",
+      "translatedText": "For example, in this case:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "4798d7cd66e2329db8aaeb40caec07d53a961c66e037696e09af1bf2048a5d24": {
       "normalizationVersion": 1,
       "sourceHash": "beba831bdfaca7767a56585738977b28fe17930a55e69cf6c53a0206ad876c5a",
@@ -153,6 +265,34 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "47a00f156c28c92c0c3da2a8ea6b9b7cc9777f03e2c59786f84d623817f6ba38": {
+      "normalizationVersion": 1,
+      "sourceHash": "b21f4a07ff934912b43707d039865b639aa45e99fe74a754d65d173f729d7ad3",
+      "contextFingerprint": "2f66d2022848dc3ab96b19dba094f541e99eee12ab2fc0e5933ab752ae999d98",
+      "sourceText": "连接成功后，`socket` 表示和这个客户端的连接。",
+      "translatedText": "After a successful connection,`socket` indicates the connection to this client\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "47a6cbc8822b3860802e3cac16a95492f4a8544572b1248a278c35acaf94159d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b57dc8ba3c74cba88008843398fc8094006d8812b5edb59cbb033ba3e50ad8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一次调用也不保证一定全部写完。",
+      "translatedText": "This call also does not guarantee that all writing will be completed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "47a884a98aa792fda89b18aa4b492db949161c1bfa9bc64949750d29a4ed8978": {
@@ -197,6 +337,20 @@
         "costUsd": 0.000085
       }
     },
+    "47c652d30be117e62adca7e9ef29ea204f9a3707197b0af6e3c65138a245d63b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f53e8cf03f35e1a502ca8e2adeafcab2c6517c8c597e105fa102280e3eb6185",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开始写。",
+      "translatedText": "Start writing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "47c7efc4aa16697bc46b023d9ca0f3a6e5d0e845dcbc52b530c69430508b7d6e": {
       "normalizationVersion": 1,
       "sourceHash": "3d5b7ee835b14469bbe5d828fed186c40b3a135398f1c375cd04148cddf20baf",
@@ -225,6 +379,34 @@
         "costUsd": 0.000052
       }
     },
+    "47d901374451037fef13d5a82f5cd79213af922cba317620ca223c6d5fd8b704": {
+      "normalizationVersion": 1,
+      "sourceHash": "d45a75325287dcf7b0399b99c623e67fae1e29cadebfb8aa1b0f2b99ee091905",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是线程一直占着 CPU 检查：",
+      "translatedText": "That is, the thread keeps occupying the CPU to check:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "47de66af39a6bcb0817dcb59a25f703548737ca0d89999859dc59637f721e87b": {
+      "normalizationVersion": 1,
+      "sourceHash": "76f9cf40442c001aee509576fdfc4f846cee45b26dc9bf8eb658afe693775962",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "没有执行，那么：",
+      "translatedText": "If it is not executed, then:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "47e032944bce31377241f28c04c0fcc5f3d50c7c8f2a4c0da4777887d573bd6b": {
       "normalizationVersion": 1,
       "sourceHash": "5e2eb5ab9ffdacf129777617eeb720b5598014221640c968f69e46944a915233",
@@ -251,6 +433,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "47ec7a6bf330e85be0a5ebf65d04033e83c48fd3ae16bd2510f4675fa8bbb7d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffc0ed12843132a9da8ab07403cffc138146e550fc8c6ffd497e0c7c6aaf00b5",
+      "contextFingerprint": "92f63b7b2974090962251cd1c4566ab5a9e50a257136ed201bac01806a7358e1",
+      "sourceText": "第二次 `get()` 会对无效 future 操作，通常会抛出：",
+      "translatedText": "Second time `get()` will perform an invalid future operation, which usually throws:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "47eea270a803f1512c7e9b3242775394661f4b6106ea98a1665b48fe8c4ab268": {
+      "normalizationVersion": 1,
+      "sourceHash": "79554e1148f42877677ecc5769eafd6ae5f6125ca51b6873f3ab641de1035610",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在需要等待较长时间时，可以让线程阻塞等待，不需要一直空转消耗 CPU。",
+      "translatedText": "When a relatively long wait is required, the thread can be made to block and wait, without needing to spin continuously and consume CPU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
       }
     },
     "47f2e378a66dd4a18b732a491e9e0db1839b5d2e1be0c4bdd4d7a6af3abdd1a3": {

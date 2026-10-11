@@ -15,6 +15,20 @@
         "costUsd": 0.000173
       }
     },
+    "7e065dd2755194d1b3d8454add31cc316df15e2938ff3a17bed72ae118f9f41c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a6f41cbb88182cefdad9085c4e0ccfbe777a7c118f593bd88a4a8cb825df370",
+      "contextFingerprint": "03f912b03bf57209ad35eb30e1722c70878205e1cf56d9cbccfc30511c7a07c4",
+      "sourceText": "### 一个 condition_variable 能等待多个条件吗",
+      "translatedText": "### Can a condition_variable wait on multiple conditions?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "7e082b4ab41b2157e9d13775dcfeddd70494b930935f12ac1f8f71152d7ba119": {
       "normalizationVersion": 1,
       "sourceHash": "12a2745fe691deffac09a13b24c99cf9be3722aadaccb0683505ee8e283bcbd1",
@@ -85,6 +99,34 @@
         "costUsd": 0.000138
       }
     },
+    "7e2dc7d32da2fc17a544ae8d3211696d836331707aa7482896fa75f6e15da1ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "601c689c1a899a0962f2e803d10b47e2f6b09be94e0ecbbc016006f65e952b69",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例里传了：",
+      "translatedText": "In this example, the following was passed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "7e2f691a23d9ee56b56499a441c32cea1ddbc44139d672ee1e41a0fbd048a6f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "524b841691c7186b16293a085d876de2fcc984ae56a103099a9c1af314876218",
+      "contextFingerprint": "aeb34652dd7b42b56e71331f150f4a59e0c6a6da6328eab31de9d977aa76b524",
+      "sourceText": "| 宏 | 含义 |\n|:---|:---|\n| `${sourceDir}` | 项目源码根目录 |\n| `${presetName}` | 当前 preset 名称 |\n| `${sourceParentDir}` | 源码根目录的父目录 |",
+      "translatedText": "| Macro | Meaning |\n|:---|:---|\n| `${sourceDir}` | Project source root directory |\n| `${presetName}` | Current preset name |\n| `${sourceParentDir}` | Parent directory of the source root directory |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "7e3f6db75629330165fee2c62cd15baae8863eb0731d5b89a9915bdbeb123fad": {
       "normalizationVersion": 1,
       "sourceHash": "e76804858c62fdd9497d2c1c5336f775a938f6ba23675c123c4aad432e1a1120",
@@ -141,6 +183,20 @@
         "costUsd": 0.00008
       }
     },
+    "7e607796f6f847215e3e25cd50acc812d9ffe67a8314a9a665c7f720da61a600": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a8ba12c4ce1a87a7178355716b356e1af5c964733ba88e75f8c18c7931bd177",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要这个 guard 还有效：",
+      "translatedText": "As long as this guard is still valid:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "7e6df762ccdc46e82d50426b1945c4a7d516607d9c887def42f13841929b49e8": {
       "normalizationVersion": 1,
       "sourceHash": "044620d56536b42985a151779c1cbf96eb654cdf6e219fff4d8b34dcc2b5d554",
@@ -153,6 +209,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7e76e41af9de64fb943efb77ecd88d08c6fdeefda1d5f43a682b65bd259e9431": {
+      "normalizationVersion": 1,
+      "sourceHash": "85f4888a0a4927d6ef2ac0cef0f89adbab77f47f5e5647e63b386ba356927843",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一次读取：",
+      "translatedText": "First read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "7e7d3b94fc946d0d3d4476d5ecfcb594b89e4b8bd5ed719fce7f8ae0bedf7816": {
@@ -197,6 +267,20 @@
         "costUsd": 0.000049
       }
     },
+    "7e802d1a59980df73b105b4b677bbf6fca6c95e4c02e9aebbb38f9f1119a0288": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8c6efe028b73027d9dcfad8d70997963458a093052a6285e038317d725e425c",
+      "contextFingerprint": "939c94ac59e63d78cd1379edd0ac24a72711ace6a6249b395aeb6511cbbfb4d9",
+      "sourceText": "这是为了让 `repeat_timer()` 能修改同一个 timer 和 count。",
+      "translatedText": "This is to allow `repeat_timer()` to modify the same timer and count\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "7e925061d67e4382723d7de95950c8643f86a1b524d161bf9a564b7c10fb28a7": {
       "normalizationVersion": 1,
       "sourceHash": "fbe4c5984a445b701265f39010d6c707d33fef5df8a8906bfeeaa50a8ba44e95",
@@ -225,6 +309,20 @@
         "costUsd": 0.000069
       }
     },
+    "7e9df6d3bf22fe1fdd071465566bab0a18010edd98b76979ecaedc9688edc076": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0cb4ce7afb6e045685ec5359af314df47e6b38ddf19482e750200256cc7c9ce",
+      "contextFingerprint": "eaebb83bbba99217d7484cd9ecde68cfa3cc9438b6c1c4d59ffc1fc9312e0437",
+      "sourceText": "| 顺序 | 章节 | 作用 |\n|:---|:---|:---|\n| 1 | 并发是什么 | 先理解多任务、线程、共享状态、同步和数据竞争 |\n| 2 | 并行是什么 | 再理解多核同时执行、任务并行、数据并行和性能边界 |\n| 3 | 协程是什么 | 最后理解可暂停函数、协作式调度和异步 IO 写法 |",
+      "translatedText": "| Order | Chapter | Purpose |\n|:---|:---|:---|\n| 1 | What is concurrency | First understand multitasking, threads, shared state, synchronization, and data races |\n| 2 | What is parallelism | Then understand simultaneous multi\\-core execution, task parallelism, data parallelism, and performance limits |\n| 3 | What is a coroutine | Finally understand suspendable functions, cooperative scheduling, and asynchronous IO style |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 80,
+        "costUsd": 0.000155
+      }
+    },
     "7eaf31cfa434256bca7eee0c0e7e65916df4010b47f5156db3e903041095023c": {
       "normalizationVersion": 1,
       "sourceHash": "9f79811ad154800b5bd16e0f5eaed6425897c3359828e05a9d5aeb94fbd643b7",
@@ -237,6 +335,20 @@
         "inputTokens": 170,
         "outputTokens": 60,
         "costUsd": 0.000124
+      }
+    },
+    "7eb2e248758353054efc5c651f71bded26055fafe9138ee04a026b1fe7a4f237": {
+      "normalizationVersion": 1,
+      "sourceHash": "629e64018edca807ba6294f35f16e6c1bfe7507fd5e20addad688c161c4e39bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面提到一个问题：",
+      "translatedText": "A question was mentioned earlier:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "7ebaa9937b2853cd7118f2ecefed2144f1c4bf493d0d64c04cff6ffff578ab22": {

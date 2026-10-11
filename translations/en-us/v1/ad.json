@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ad13984456df7177e8ada9f090cfe9bf6ebccf3842c1b46d1e20f3a69900c993": {
+      "normalizationVersion": 1,
+      "sourceHash": "db432240ebf9908f9e8bfc5971bb29c73b2322fc1f4b3b64d0d8ceff6bc2aa94",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 先请求线程停止，然后等待线程真正结束。",
+      "translatedText": "> First request the thread to stop, then wait for the thread to actually terminate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "ad1c44f275e7dc3dae7c006aedf06a639b3bcbfea2a64aa29a970d60cc784dbf": {
       "normalizationVersion": 1,
       "sourceHash": "9359a8daba5a7afaa6cc1575f2786ee1995e60d784bb339aff3ce3dc00aa2a8a",
@@ -57,6 +71,20 @@
         "costUsd": 0.00007
       }
     },
+    "ad2d81b73e428bc58cd8571c5f9dc691bd23f3e1fcd7faa2d74c5ece6c93b4ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "bda4b4cdf544dae387e0c633a10dd8f0c7d28c40c68719af3f6c13c4a1258aed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它不会：",
+      "translatedText": "It will not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "ad429f6e324b8fbf51b2bcb9622621a481b828f9affa8b307282e63c3028809f": {
       "normalizationVersion": 1,
       "sourceHash": "b7a5bc4c1a6ece05211c79ec7ba17888b8c9b41f08cb6bf48a697bb6736e0058",
@@ -83,6 +111,20 @@
         "inputTokens": 159,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "ad537eed8dc9edaa2ca343262ff711c7f69d7e8f2a2810b7d9cb8d92a8e9b875": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef22adc8a434280d06c28c55653ef58e11f83ee99cba77ae3381ea84d10b382b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或者其他明确的结束状态。",
+      "translatedText": "or other explicit termination states\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "ad7366bba150e568ebe37f9971520a79f0c856c216ca650c53eb29b6c75be765": {
@@ -167,6 +209,34 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "ada02dd67ee43174ae86c6cae6ec9c138f58c6dc90d831f5326fbf55309a5186": {
+      "normalizationVersion": 1,
+      "sourceHash": "56278faa6718d350144846b8c7a81be58935f3f3db5bbc0c4c797301cf9ed8e3",
+      "contextFingerprint": "5d9575102bc0045f6a2e2c372c6096fab307506abc43f1ecdffc0cb8513c7886",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789473980474-9b421a41.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789473980474-9b421a41.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ada0b3ace7b9f3a70147b0bb8a4f4888224d4cc00639870a647bc13d640c4335": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f777a94a2410455485c06dd20b8ec0e5696792942a51a11b5de0f562d3790a4",
+      "contextFingerprint": "57fc383accf22fe8438ee4ce4053a3ceddb163ea3bf047d8d0a4626de220ab3f",
+      "sourceText": "`compile_commands.json` 记录每个源文件真实的编译命令。`clangd`、VSCode、很多静态分析工具都会用它来获得 include 路径、宏定义、编译标准等信息。",
+      "translatedText": "`compile_commands.json` Record the actual compilation command for each source file\\.`clangd`、VSCode, and many static analysis tools use it to obtain information such as include paths, macro definitions, and compilation standards\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 44,
+        "costUsd": 0.000102
       }
     },
     "adb44af68f47d4d4a92e7712b7a435a3a2279ad14ee51602fe360624740c9c9e": {
@@ -293,6 +363,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "ade02d981663daa382e34fa11b7cbbceff519352dc7c2cdc3dc671fb5d79f5bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "66ba3af4eea0b32e9b827cea96bb61ea6bdac1d66facf653a08813c7c6347af0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "callback 更适合：",
+      "translatedText": "callback is more suitable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "ade626b27caf7f249d8430809614a1dc77f69a0e839a87effda658cbfdb03aaf": {

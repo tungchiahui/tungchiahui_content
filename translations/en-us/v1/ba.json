@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ba0b385f0711bd474971f5fdda7d52fc2b8a30488dadddf6b333d2ecd4655f3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e6fb790770b95599e9e62474cd8636617a6e6490a00efad91981d08fdfac967",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都在执行：",
+      "translatedText": "All are executing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "ba0c32c7e3984722e383ea331f42aee07022c9c0b79eb410b4968d64fb6dcaf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "40358bf9525278de1a827e0882902d07c3901f21f89aa9e9d5e0be21193485c8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以直接记成：",
+      "translatedText": "It can be directly remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "ba1821413b994df50bc31ab8507b1ccc6735188a806d318497a66b64001d6783": {
       "normalizationVersion": 1,
       "sourceHash": "26b709ca4b2ee21734055fd6f2181a8515cbecbebf6036a9384b05431e3bb6e4",
@@ -13,6 +41,48 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "ba218e32aa7242e3b3df9c6d75542795275918404d72a8bd5cf8c99270ad6426": {
+      "normalizationVersion": 1,
+      "sourceHash": "0207710505c11418888e81f347100c07297fc34d6cc374f4c46a270c58dd9ac6",
+      "contextFingerprint": "857119e37c3f7036f6174b8d54cdf69cc4da71cc507e378e4e61626cfecec25b",
+      "sourceText": "> producer 在 `release` 之前完成的操作，可以通过对应的 `acquire` 与 consumer 建立同步关系。",
+      "translatedText": "> Operations completed by the producer before `release` can establish a synchronization relationship with the consumer through the corresponding `acquire`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 26,
+        "costUsd": 0.000077
+      }
+    },
+    "ba2230394ee4498436704a85ec8ed57a53768a20f39bc0da9370a73f8aa12c7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0396c2c20fda9171d8dfb48ab4d3afa5cf94576702e628ab739bb157e14239fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此时服务端阻塞在：",
+      "translatedText": "At this point, the server side blocks at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "ba27e5e24f86934d1af14ab6fc376665d6484ef6330d0d974f3dbcacdbecfd9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e32d633efd4f1ff319246f4d6f89008ff213fa4bd8c1e7997bf9fd89495971c2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：把 latch 当成可以重置的工具",
+      "translatedText": "### Error: Treating the latch as a tool that can be reset",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "ba35da7c3e1a32345ec3786580b55f97edf7a8a22730621abe998e631fd9de2c": {
@@ -127,6 +197,20 @@
         "costUsd": 0.000107
       }
     },
+    "ba7dfe26954e93dd4ba5d514aa3f486a7831165178ff5dd2cc60e08db06f8602": {
+      "normalizationVersion": 1,
+      "sourceHash": "c29d6e7dd3a81b4af785ad45d77c75e8b3d52c74431229d184500bc726f36d88",
+      "contextFingerprint": "03f912b03bf57209ad35eb30e1722c70878205e1cf56d9cbccfc30511c7a07c4",
+      "sourceText": "### 和 condition_variable 的关系",
+      "translatedText": "### Relationship with condition_variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "ba803e50f00beda8684272e064d3ac1c96d9a78dced538345b263e756c2a96ea": {
       "normalizationVersion": 1,
       "sourceHash": "1b32d6bb9765d37d1e157f36a5ef541fd823c91c210be2408c53f494eb9fc342",
@@ -153,6 +237,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "ba910e21798be716cbe943423925b35f19c3e499174192ca138871f4dfb76980": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c5bfe742971356895cc7085b6e7d9f034129e433ed6bb28f87adb601d86be31",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后追加：",
+      "translatedText": "Then append:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "ba934b3566a789912e4336ec122056b436e0a6ca951ebd6dcc9d24935dd4912e": {
@@ -197,6 +295,20 @@
         "costUsd": 0.000053
       }
     },
+    "bab4c25952291e4ee8d56a0b336a2dbeccb83b0f45bd2861e14e7a09674b212d": {
+      "normalizationVersion": 1,
+      "sourceHash": "aceaaab7d3426745b4adf6b0e5dbce4e19e042fba79221dd72b9b38b52220883",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里没有写：",
+      "translatedText": "It is not written here:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "bab563008fc56cb4e01204ffe6c861515998ff2c7342562704cff14b5578a632": {
       "normalizationVersion": 1,
       "sourceHash": "06aa3900b82de2c6906ed059128526d07c8a6a4f3d20cd7114e63e3ac45e70ee",
@@ -223,6 +335,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "babb5e20e263f8298bccc92ed8c4bc4e599c508635636e40325b2f49ec912fc9": {
+      "normalizationVersion": 1,
+      "sourceHash": "a07a3195e346075d4754d51f2f2aabf14e756e43bc98ef69d91ae6984562fa3b",
+      "contextFingerprint": "1e6f2fdcf9bb5510df688009e8aab6d7f46550dc1c29b174cc5cff56b3fea93a",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707509033.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780707509033.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "babc7da927dc2ebb9cb8aef516fd6691b6874e516660f402e225fea88584aa08": {
@@ -267,6 +393,34 @@
         "costUsd": 0.000075
       }
     },
+    "bace36687fd4e23f6e52ead8901da96125e869f660305a89622543439e0936de": {
+      "normalizationVersion": 1,
+      "sourceHash": "47812c0a4bea270ebd1eef10bdfb33f289ac59afa362718727893056ac4f318f",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 8：主线程产生数据，独立 Asio 线程负责串口通信",
+      "translatedText": "## Example 8: The main thread produces data, and an independent Asio thread handles serial communication\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "badcea555786dc1a54599022d9b69a19984e38a366720f8f95ea470a5fb48cf7": {
+      "normalizationVersion": 1,
+      "sourceHash": "efd763285aad1d17a65ba20c7d7532d0bd4a831b9408765a86bc1407baa380b6",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 7：类里同时封装异步串口发送和接收",
+      "translatedText": "## Example 7: Encapsulating both asynchronous serial transmission and reception in a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "bae10eaeae07f078849925ba966e4fbf15bbf692baeb609c6ce9e28a3e645ad8": {
       "normalizationVersion": 1,
       "sourceHash": "a2283a534aed24c8888f79a1ea6a4c1b86e74c6d5a13b83dc430e6f8f18a7927",
@@ -279,6 +433,34 @@
         "inputTokens": 153,
         "outputTokens": 35,
         "costUsd": 0.000088
+      }
+    },
+    "bae1c992a740432d3cb1475b322f1b87dcc2e7449ec28cde142bed86a52dcbbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc87f35bd9ce0ab2cca17dc1f09fff76622d5cd610d0f3e63fa639af92c0b7ec",
+      "contextFingerprint": "2b693cd26f9d5a170125063f459f89b28d9ef20960ffc493618708adbcd77dac",
+      "sourceText": "1. 同步 TCP 适合理解流程，但会阻塞。\n2. 异步 TCP 需要 `io.run()` 驱动。\n3. 服务端通常是 `async_accept()` + `Session` 类。\n4. 每个 TCP 连接对应一个 socket。\n5. `shared_from_this()` 常用于保证 session 生命周期。\n6. TCP 没有消息边界，真实项目必须设计分帧协议。",
+      "translatedText": "1. Synchronous TCP is suitable for understanding the flow, but it blocks\\.\n2. Asynchronous TCP requires `io.run()` driver\\.\n3. The server side is usually `async_accept()` \\+ `Session` classes\\.\n4. Each TCP connection corresponds to one socket\\.\n5. `shared_from_this()` is commonly used to guarantee the session lifecycle\\.\n6. TCP has no message boundaries, so real projects must design a framing protocol\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 74,
+        "costUsd": 0.000147
+      }
+    },
+    "baf466441dd16290d53cd928d43a5b3966985c837f798bcf0fbcfb91654632d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "acc621cc692367bf8fa6f41110a6248bcfb95dd83467123e1e1f3662e1fe2b7d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而真正的异步任务可能是之后才出现：",
+      "translatedText": "However, the actual asynchronous tasks may only appear later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "bafbfe397288a01369a65de02fa432483a61fc0942ff31024031b81230814282": {

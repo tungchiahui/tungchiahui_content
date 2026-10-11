@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3801ab5b585ad9b834c8c8c64a77eae284f763bb82249ccc4ad3b23a2f3cb263": {
+      "normalizationVersion": 1,
+      "sourceHash": "afc57d74086d60c277080b903c25759390741147004d758655c29b24002ea50e",
+      "contextFingerprint": "7759500c3d7348cde51542ebce50d4e57f41f07840eddc5f0bcfa1504c8391f4",
+      "sourceText": "Standalone Asio ≈ 把 Boost.Asio 从 Boost 体系里单独拿出来，改用标准库类型。\n两者本质上是同一套 Asio 技术路线，作者和核心实现也基本同源；Standalone Asio 的代码会被周期性转换成 Boost.Asio。",
+      "translatedText": "Standalone Asio ≈ taking Boost.Asio out of the Boost system on its own and switching to standard library types\\. The two are essentially the same Asio technical approach, and the author and core implementation are also basically of the same origin; the Standalone Asio code is periodically converted into Boost.Asio\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 84,
+        "costUsd": 0.000162
+      }
+    },
     "3809265fb84711bd93b1624139634996336fa753230230ba69a99df25759a13e": {
       "normalizationVersion": 1,
       "sourceHash": "098645d5042a4a81d384b75c9ba2f3f400c2218852e152ef59882b7f3700b3e8",
@@ -63,6 +77,20 @@
       "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
       "sourceText": "## 运行结果",
       "translatedText": "## Operation result",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "38144dc1c5b8327ed909d74a9cd173fea64f36f790157c53b0eeb4c0c430f60a": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bcf9e89f0f12a304d33e2dbf951c228125af12fe07124451e02c7dba8c464ef",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 获取项目",
+      "translatedText": "## Get Project",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -155,6 +183,20 @@
         "costUsd": 0.000141
       }
     },
+    "386f7ffbafa976daed52d9a0ce80aa47321b70d5ab2f67310eaec5849a014cf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "48b788b3403391ca412845140afeb89e46d815ab1f85499abd04b46b4be1b2bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "基本形式：",
+      "translatedText": "Basic form:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "387a333d2301e3d1599c54f1d59446409ef2e995f924819bff7eab896943aea2": {
       "normalizationVersion": 1,
       "sourceHash": "27575fcb3efe18b92f78ca0d6b2eb9565e1736eb9b26b9359c1c308418038258",
@@ -169,6 +211,34 @@
         "costUsd": 0.000062
       }
     },
+    "38847a1990b1ed033400395686265ab54f3473afd5ba15daa451be08656e3b58": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b169c710921008d302ac56c196d916493c22e188be169b0837b36c584c6c541",
+      "contextFingerprint": "2d7fd66b6b4d1f9c32d5d52697f1879c0dd7718716af7a1464c018de3d0893d1",
+      "sourceText": "`cmake/user/CMakeLists.txt` 已经把 `applications/Src/cpp_interface.cpp`、`serial.cpp`、`protocol.cpp` 等文件加入目标，并设置所需头文件目录；所以这里必须添加 `cmake/user`，只把 C++ 标准设为 20 还不够。以后如果新增 `.cpp`，也要在 `cmake/user/CMakeLists.txt` 的源文件列表中加入它。顶层 CMake 的具体放置位置和 CubeMX 再生成时的注意事项，可对照该目录的 `README-zh_CN.md`。",
+      "translatedText": "`cmake/user/CMakeLists.txt` has already added `applications/Src/cpp_interface.cpp`、`serial.cpp`、`protocol.cpp` and other files to the target and set the required header file directories; therefore, it is necessary to add `cmake/user` here, and merely setting the C++ standard to 20 is not enough\\. In the future, if new `.cpp` are added, they must also be included in the source file list of `cmake/user/CMakeLists.txt`\\. For the specific placement of the top\\-level CMake and precautions during CubeMX regeneration, refer to the `README-zh_CN.md` in that directory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 108,
+        "costUsd": 0.000194
+      }
+    },
+    "38ac9d1b6a9f7014cbcbeb0a0abe210d060619ca5e539ee4de702b7c27fca27b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b20b944e13b5b5550b470dacadebed74229c3780016c3912f71587c2fe4ed473",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并且可能唤醒一个正在等待许可的线程。",
+      "translatedText": "and may wake up a thread that is waiting for permission\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "38acea43328309a6dd3e92be3a1a39c1641a04d2c9fb4382cdbf6e770dd6b028": {
       "normalizationVersion": 1,
       "sourceHash": "4775896a9390f87e5736aee7e515d0861c0d6e34d216898bf5123e233846b422",
@@ -181,6 +251,20 @@
         "inputTokens": 195,
         "outputTokens": 73,
         "costUsd": 0.000147
+      }
+    },
+    "38b892085ae8b64b6d9cee2c71a859c1b9936421d6495dedd37829f47603b417": {
+      "normalizationVersion": 1,
+      "sourceHash": "92f583fe1b941ca80b5cd21602844459bfd70b2a7b55d6b72691810192cbba66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果注册 callback 时，停止请求已经发生，那么 callback 可能会在注册过程中直接执行。",
+      "translatedText": "If the stop request has already occurred when the callback is registered, the callback may execute directly during the registration process\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
       }
     },
     "38d06a29982d1934c956ccd85d7adedb0f973ec25f050e3636427144e3ba885b": {
@@ -293,6 +377,62 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "38f05f6fbb4ee8ec552233282b5475ba3824579f2f9a01296f58a791b0ccd251": {
+      "normalizationVersion": 1,
+      "sourceHash": "420134d9ac452a35b4093ff33b873f70a252ffdaf4b63c3f26597ec704ac4d96",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果其他线程执行：",
+      "translatedText": "If another thread executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "38f0fad6a57bf1cee128ab191e3c98b34127c06b883dd644fd34986d80643571": {
+      "normalizationVersion": 1,
+      "sourceHash": "d429469319169b842fc0ae61211b163243e84f27379d7a10c165295ab0adb5ea",
+      "contextFingerprint": "84a85f4f03ee968907439c7ae52a7e333dd8f347cf7524808e0fad1f652910e6",
+      "sourceText": "## 示例 4：普通 `main()` 里写重复定时器",
+      "translatedText": "## Example 4: Regular `main()` with repeated timers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "38f874ffd140d83ea46ee555f2b64490d4a9735113f18cb7d3ac0b103beee683": {
+      "normalizationVersion": 1,
+      "sourceHash": "513a740dc76889d9d806015ff9d20872748657b1a678e0405c3bfac2c0d5b74f",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **这个 semaphore 所支持的最大计数上界至少为 10。**",
+      "translatedText": "> **The upper bound of the maximum count supported by this semaphore is at least 10\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "38fff2ff12adace1dfb64ab89abb22190459bd799d5dd312db819a69e252cabd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7df6f21cef3b3a4449a38f1159afbfef9f626d6af79cdf1e37b6d1d78aeb3a4f",
+      "contextFingerprint": "1ced26eea97e0a94aae8a3fddc66c9672ca3d4eafb82e362aa011fef3a1fd591",
+      "sourceText": "本节所有异步回调都使用 `std::bind`，暂时不使用 lambda。",
+      "translatedText": "All asynchronous callbacks in this section use `std::bind`, and lambda is not used for now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     }
   }

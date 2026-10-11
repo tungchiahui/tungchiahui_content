@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "27039bf82876339eefa8c0421dd930bb25e75b842c26085d05a7822c08be826a": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb3ac5a29322804504ff0a45dabf6837fb6136918b0dafc8f5c4bb10b3844b63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果需要传引用，同样需要考虑：",
+      "translatedText": "If passing by reference is required, the same considerations apply:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "27128b3b1d00ee79988206d535e1ea60fbf4455a5845ea81568f9714abffefb9": {
       "normalizationVersion": 1,
       "sourceHash": "29c6fd85c70d7a80a7fbfd9a842c9e1db9662385f29bcf491f245abcbe59c8c8",
@@ -29,6 +43,20 @@
         "costUsd": 0.000069
       }
     },
+    "272028f2eaf08f8caa2c6c6ea379ecd051df97b75e22f57e6984755d713e10ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd101c4db99c326e5bf792a4c5e7c521fe7b989dc4ec248deeef3cc744862ba6",
+      "contextFingerprint": "360db43c66b21c25dc00eecec2dc5b5b61621362a148df7195c3b9fc46c6f9b0",
+      "sourceText": "本例只有一个线程，也就是主线程。`timer1` 和 `timer2` 的回调都在调用 `io.run()` 的这个主线程里执行。",
+      "translatedText": "In this example there is only one thread, namely the main thread\\.`timer1` and `timer2` callbacks are both executed in this main thread that calls `io.run()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
     "2721ffe4cea7cbc86614cddfbb7bd8382c2dee33816e0c7c304358d354ca8a44": {
       "normalizationVersion": 1,
       "sourceHash": "f530c557547ab5b29d7c0a22f65c21adbe126040c91850a0cd8793bca18048ce",
@@ -43,6 +71,20 @@
         "costUsd": 0.00006
       }
     },
+    "272d42ad4d7d60cf0cf7e67e3faa8e0ab9ebf506bb438e38d297116df87f4d70": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b6f9f03ae0668ec3e9c6339f762525fd1e8f37af91b5005392c8b3624789ab6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 坑 4：异步写时 buffer 是局部变量",
+      "translatedText": "### Pitfall 4: During asynchronous writes, buffer is a local variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "27353433e04b78e28444e326ad514d213f1d84977ab684ab60958ae545c331de": {
       "normalizationVersion": 1,
       "sourceHash": "dfe6f5536641416218d657143320f2105d874505f8173eb6203887f1492dfdc4",
@@ -55,6 +97,62 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "274748c7a422fcfab5cc937b8213e8ecd7a18ab1e17d37d6edee8cddf86694d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "93f15c154eb2f4520afd85394bd8c92a044859dd0ba04dad0724e5902803a1b6",
+      "contextFingerprint": "9dae8c4f671dc86e8bd0de825cd568f4b6ed12c524a0195427852da0caf92804",
+      "sourceText": "`post()` 不是立刻执行函数，而是把函数放进 `io_context` 的任务队列。",
+      "translatedText": "`post()`Rather than executing the function immediately, it places the function into the task queue of `io_context`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "274eadd8a40ac8345d8f2d55decca4c40b903beb2fda1ae4299a2c5705fd588f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b947bd66c75156fb6c3475f1ad2875b095142a79a0e36c597fa966a3afc49d7",
+      "contextFingerprint": "ff7bf2713c030b62a356ef306552223516d0edaa7de053f64488045708e47484",
+      "sourceText": "> **我之前登记的那份“占位工作”现在结束了，你以后不用再为了我强行保持 `run()` 存活。**",
+      "translatedText": "> **The \"placeholder job\" I registered before has now ended, so you no longer need to force yourself to keep `run()` alive for my sake\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
+    "275290fe59719dc14556465f673fc12298d7a7edd4186c7379948d2309c5bc47": {
+      "normalizationVersion": 1,
+      "sourceHash": "df3b771339dc76a1c3006f670db7f5ecdabba38795650a3b11ad224e8e783624",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更不是：",
+      "translatedText": "Even less so:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "275565bd265fce43954183bcf06a1cee70c98253f37ba672614195f1ee573295": {
+      "normalizationVersion": 1,
+      "sourceHash": "601b180dfa4a7d1066e3a8d8884cc533d02157055cccc12d72c3b5ce4d784eb7",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这些 handler 全部通过同一个 strand 串行执行。",
+      "translatedText": "> All these handlers are executed serially through the same strand\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "2757bed0173e6aa1c0a002aa62e6206a10588cb3b173415b69c1e73c71a9cc38": {
@@ -83,6 +181,20 @@
         "inputTokens": 170,
         "outputTokens": 52,
         "costUsd": 0.000114
+      }
+    },
+    "275f3e48cfcb6b53af4ba5c25a185a474116a3b8af193fb408fb25fe5ede2fdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c217b03411cac33cb11dcb326a5a294d9453feb7b0e860d022b73b588c51e9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确写法是：",
+      "translatedText": "The correct way to write it is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "276fe396f669d0be7f58b8a1dfedab2c5e3c8f1a6f7cea9cc26823786858ce6f": {
@@ -127,6 +239,20 @@
         "costUsd": 0.000052
       }
     },
+    "27899c42f46cbc2f6a2aa52528af02dd9a7591025833af9fae0a74079d2cf61d": {
+      "normalizationVersion": 1,
+      "sourceHash": "934a12d5eee2aae96e3847ad796f23a495473819e4f6a68f05926f58a101f6ab",
+      "contextFingerprint": "4a0232cd460d816f67e13df12aeca658f4d2157d06ae17ad57de1825a61db0fa",
+      "sourceText": "### 如果直接共享 `write_queue_`，就需要 `mutex`",
+      "translatedText": "### If directly sharing `write_queue_`，then it is necessary to `mutex`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "279274c00f658c2564cb02c577a5e5ef1bd6a6c3068abf8e01d4db343a230154": {
       "normalizationVersion": 1,
       "sourceHash": "823530e283753ae6e061ea75ce5bb01145f1d3c381bc258cc839fae34947e26c",
@@ -139,6 +265,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "279e3f19722e8bb600979de1c86330034cf9e406e10a71cf20efd7c17c80ec4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e61cbe360da6352a69c8c6bd61ac4199cbcddde3261be83df43af33dc91ade1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写一个最小 TCP 服务端：",
+      "translatedText": "Write a minimal TCP server:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "27ac86ca027b4df5ab73b9e9609bfa12731995828be865e049263ce78ffc7647": {

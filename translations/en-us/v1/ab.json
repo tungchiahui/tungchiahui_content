@@ -29,6 +29,20 @@
         "costUsd": 0.000068
       }
     },
+    "ab094cd1a7c5d1be000f9fb96f474556a52f3deda067c5f0f9995395105591da": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac95654f1b8a30ff509ca9ec5f9ad7d4a3e8050c1aa942f84634d2702c43cfb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它最适合这种需求：",
+      "translatedText": "It is best suited for this kind of requirement:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "ab0c5a3a3407405ac8953bd6207e1cee3f90f5ca5fca68869a7fdbb9af584d4d": {
       "normalizationVersion": 1,
       "sourceHash": "07baee9c8c3a7f89ff11f1d607d8986e53239c197190413d7d167f1243dd2ca9",
@@ -57,6 +71,20 @@
         "costUsd": 0.00006
       }
     },
+    "ab187487a4c106ad7abd79f97b4f1315fcf89c6f26c67c07a4feb323d635ee9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd370ff08de85a96879b1bc881f894d0ab7a95b0774a4cbeecbf2bc847071c8e",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常见可扩展字段",
+      "translatedText": "## Common extensible fields",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "ab19270df4eba9d96c5bcaf3b72f80e5f274616341d12c68be0bd19af669481f": {
       "normalizationVersion": 1,
       "sourceHash": "2e19f378aa0d49ddf8c3569759894fe7e76ef799af42cf066e88f529c6ef1a3e",
@@ -69,6 +97,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "ab33f520627c44b05df9341cd0b167c48bbaab6e08bc5d8cfdc45cbcf4289be4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e85213cb2c2bc488c8d65b350e8a76b72ea3487ec98b438915400110f81b48d",
+      "contextFingerprint": "925d7ddc4ca640a3bd25266d686ed37a885fefc7911cb965f7ff382913315464",
+      "sourceText": "由于 `flag` 已经是 `true`，所以它会返回 `true`：",
+      "translatedText": "Since `flag` is already `true` it will return `true`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "ab487024cae4e94336ba3fb54861111a084fdd1fe1304004db34201bac51b0d5": {
@@ -113,6 +155,20 @@
         "costUsd": 0.000063
       }
     },
+    "ab55526fe7c23b36eea28d44657276ee928b6456b2a260e3972c6a54ed3b0191": {
+      "normalizationVersion": 1,
+      "sourceHash": "02048c3a0d2703ec07ba7e61691dbb2b542a8b52ded4520efc2a22c11f45c94c",
+      "contextFingerprint": "1b5e77fcf1f16be08ef7fe908e5d1ae138e8ad54284ae26b0d16555d71b8198a",
+      "sourceText": "板卡例程会发送 `0x01`，所以 PC 应看到 `[RX cmd_vel]`。PC 发出的 `0x01` 和 `0x02` 会分别更新板卡端的 `cmd_vel` 和 `set_mode`，可用调试器观察；因为板卡例程不发送 `0x02`，PC 不会因此看到 `[RX set_mode]`。",
+      "translatedText": "The board example program sends `0x01`，so the PC should see `[RX cmd_vel]`\\. The `0x01` and `0x02` sent by the PC will update the `cmd_vel` and `set_mode` on the board side respectively, and can be observed with the debugger; because the board example program does not send `0x02`, the PC will not see `[RX set_mode]` because of this\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
     "ab5731bc13884fb846681ec8785dd60cb662bf0cbb7edf600c1a551b2ed19007": {
       "normalizationVersion": 1,
       "sourceHash": "d5766415fcabb44b0d76d1b1940825e4a80ddca44ddf0659fd5859277447a6ad",
@@ -139,6 +195,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "ab5f3fba4dfde43e0c99f56e496bcb7ed5270c823d291ff95b97264a16dcd830": {
+      "normalizationVersion": 1,
+      "sourceHash": "52a7a2b85fae24cd9af016f12df5e3b5f16183aaff76c14305704673ea843512",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果没有 guard，逻辑会变成：",
+      "translatedText": "Without a guard, the logic would become:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "ab6b981232629e28fd9f0b0dd4d389fd52b448a152add3c623062e1767908022": {
+      "normalizationVersion": 1,
+      "sourceHash": "de2b998dde7555002dd57b064b4791df887f6207cbed617e7b5abaf1cf381d7d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多个线程同时执行时，计数仍然不会因为并发更新而丢失。",
+      "translatedText": "When multiple threads execute simultaneously, the count will still not be lost due to concurrent updates\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "ab6c62b9b81a7fe16fb1bb09771493ab33f07eb032e14dae4399f1be04647d4a": {
@@ -253,6 +337,20 @@
         "costUsd": 0.000075
       }
     },
+    "abbbb31c17ff76f517a76a9be80a050b111feabb18270a8611e428daebef70cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "a030461355e6cc7a19cf2fe0ba5ef6c54e713484ac965e370b0756432e45f031",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以可以简单记成：",
+      "translatedText": "So it can be simply remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "abc409131d24d4071abcae953ba9c880ffcf4cfab5b7c7f5350b6179b5487690": {
       "normalizationVersion": 1,
       "sourceHash": "42b4cd6b10ba62fa4e9eac4d947b3f990468c09d4c1cfa5a084ee838e38a8026",
@@ -267,6 +365,34 @@
         "costUsd": 0.000083
       }
     },
+    "abccea0aae4e8c59bec931c9d51d6579a79a219d95738d473e2708058b6257f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0a4e22aaeaad528230f841f5d189be4090f2c22240a28a27e659ae03af3e544",
+      "contextFingerprint": "7a7ffafe1ff64ba0fbca0527e549a4ecb3fea97fc515f1f60f060a0cd99a78ba",
+      "sourceText": "### `jthread` 可以自动传入 `stop_token`",
+      "translatedText": "### `jthread` can be automatically passed in `stop_token`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "abd75047fc20daffc80aba64f0d435c8b7733c3e29d0dbabc58171f5accb37f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e8139f00d0e22428f7107203691a6f0e784eb87b29995df87ed00a7c102a067",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不会在这里阻塞。",
+      "translatedText": "will not block here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "abdaacc2ce086f1649e8cabea6038c90d53793a4321222a8f7ce7e58cb82a09f": {
       "normalizationVersion": 1,
       "sourceHash": "aee4b7543d157e5f501d55e539c97472d9dcb3580b1873052ac5430abf6836cd",
@@ -279,6 +405,20 @@
         "inputTokens": 147,
         "outputTokens": 33,
         "costUsd": 0.000084
+      }
+    },
+    "abdadb0182e5932652d3547240e666b7c0319d63d90c69c0088f19180e7e6a6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3de8d89721e98fb64e593a1b2d2f210f89d1855aa8408a03cdf5c53969c356c2",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "ROS2 里也有 timer：",
+      "translatedText": "ROS2 There is also a timer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "abdb3be2be74dcce33b4c5dc01b15568cc1cb675b6e87feb9ff6cc3348d621f1": {
@@ -307,6 +447,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "abfe7a24e2d2e2434754b0061638bc0750497ad6ab7b484e6fea3af9d1d2470c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4255dabe5696f71cc8e2c4f8a6672d9e5ca4d251dcf855eee8d13dd789668191",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是一个不可分割的原子操作。",
+      "translatedText": "is an indivisible atomic operation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

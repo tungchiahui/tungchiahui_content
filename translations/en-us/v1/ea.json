@@ -15,6 +15,34 @@
         "costUsd": 0.00006
       }
     },
+    "ea095253f3a73d791e7e0abded6375925b8719407fa5198fb10da4b635b92b93": {
+      "normalizationVersion": 1,
+      "sourceHash": "f45f19223a91b48532165b6286792013570509270b51e1a0f814e75a2b62a795",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "特点：简单，但是会阻塞当前线程。机器人程序里如果在主控制循环里这么写，很容易卡住整个程序。",
+      "translatedText": "Features: simple, but it blocks the current thread\\. If written this way in the main control loop of a robot program, it can easily freeze the entire program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
+    "ea0c1c6f31319f3b5a8cf16a58a85aae57ad6bdeed2654100006ac70059a125b": {
+      "normalizationVersion": 1,
+      "sourceHash": "26522237893aa1db3ea35bd49e14e9d95b60cd875423b5d0be8d5610de9c56e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 3：向另一端发送数据。",
+      "translatedText": "Terminal 3: send data to the other end\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "ea1168a877c93a1b0343811affa16ccb7cee5b1771bfda8c4190faaf6cd585ff": {
       "normalizationVersion": 1,
       "sourceHash": "402034639271d078c1b2b80e9a2f9948aba0259f2a547e3942293c37d0f62710",
@@ -27,6 +55,34 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "ea311f5d15209aa89673359aba6d7c9139e0718e4dde6a245955b651b25eb3dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "899ad6166dc2046abc5b3c88ceae5727e936a4c3073f0671e4d9f7186169f084",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不会永久保存一条消息。",
+      "translatedText": "A message will not be permanently stored\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "ea3641bbcb5dfae5dac0f6167b406539fb038209093eb5205137c8eb2502b86d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6ee6d34b7a4e16077071923de3dc276f2a76a2c7fcbdfe356ba31f4c9d0d16b",
+      "contextFingerprint": "a9106e4ac741c888c4f8aefd5764af05acb9356a1c9ed3748e6bab8b02c42484",
+      "sourceText": "如果 `.clangd` 创建后没有立即生效，可以在 VSCode 命令面板执行：",
+      "translatedText": "If `.clangd` does not take effect immediately after creation, you can run the following in the VSCode Command Palette:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "ea3ac4d93232e246a5b11968809d9d35c0b34f17f8a8df1e3dd2b7f57ed35920": {
@@ -57,6 +113,20 @@
         "costUsd": 0.00007
       }
     },
+    "ea41f24be9c30ee7dcba6fa15ae27f7721546f7a1dceb217dd4866d777f27e52": {
+      "normalizationVersion": 1,
+      "sourceHash": "828fa4d387787dc0374b0695f342ea209a56bebc858c26135d47108e7951ab3b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用 guard：",
+      "translatedText": "Use guard:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "ea484caa7bab14cb5bf7e052b24dc7d90b7294146a3e1572a11cf19b5c22f744": {
       "normalizationVersion": 1,
       "sourceHash": "ff6ad0d949623f71d470dedf8b05e3d8ec4f60e0f7dc75092741e5fec9b0e2de",
@@ -71,6 +141,34 @@
         "costUsd": 0.000076
       }
     },
+    "ea4c3d029ac3baabbead50d5ba66f160cc47d03ba147252a4ae6a42b7d500972": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fdd93583bf38173a755d9746b628c1039cbbb57d006102d77e51568bcdbba44",
+      "contextFingerprint": "ff95f0303c56540ce91b042a4ba3c5f0d0385216a10e9484d154d6cdac9e9864",
+      "sourceText": "可以把 `run()` 粗略理解成：",
+      "translatedText": "You can roughly understand `run()` as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "ea4f0e5421f0b92b0a60a8b9781afda4de1b1dc997d17687e5b86596fd1f6ac0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d63754ed70976d2d2dbbece9228cd5388ae56dd6cddc9aa864adeaa6fffce6c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "流程严格是：",
+      "translatedText": "The process is strictly as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "ea630fb13747ea8a85485fedcd7902f19c46688f43b4d0830d730da372d78768": {
       "normalizationVersion": 1,
       "sourceHash": "dffaa61e9fad8a6d47112b45974c8d0dafd284d44d092bdad047382c05390ebc",
@@ -83,6 +181,20 @@
         "inputTokens": 141,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "ea7e4b3e8997e2d27d55afe52fea28fcbe3f06f7517b8c9c7b891cd41a4449f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "971f5fd02dd057e3e4c1e607574c4888433bff9b44b7a16e04cf401ed4ad45ad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当本阶段所有参与者都到达以后：",
+      "translatedText": "When all participants in this phase have arrived:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "ea870f7108554125c92b57f1746654969f13337a25fbc6870d82fca1fc74a6b7": {
@@ -127,6 +239,20 @@
         "costUsd": 0.000054
       }
     },
+    "eaa5f4210027c591466299a0fdc34f05f900c97bddbd02b1d3de92bc7b3aa8a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a4f81978ec38dcdb213a4bc4fe6f3e4935804a2fae2e513c4ccadca78a5ada1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 构造函数初始化列表说明",
+      "translatedText": "### Constructor initializer list description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "eaa87cc5c5eb8c81e62e7be77cf56c79f1a728094eaf5ff1d328b9e3b7644ff5": {
       "normalizationVersion": 1,
       "sourceHash": "2afd89212f55205487989698edd5bcf53e23f7ad2695604ee59cddfb49b43014",
@@ -139,6 +265,48 @@
         "inputTokens": 281,
         "outputTokens": 193,
         "costUsd": 0.000316
+      }
+    },
+    "eab0c495ead1b6f7e00b39f4da3a16b53ffd4da2f354d7bbf72901fe0cf1d1fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "36863090161803b4114c238d571d816b6b8c53699a840ec0f1d271e231932181",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "服务端启动后立刻输出：",
+      "translatedText": "Output immediately after the server starts:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "eaba46b31fe0ae1941924e66aa0272da238cbd95df2124bdf2d68db613fdbc0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "11e2b78dc37c5e4c81326fc91c27624fc0b8859fb69199b6344d0d689c3aa480",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：异步接收一个 UDP 数据报。",
+      "translatedText": "Purpose: asynchronously receive a UDP datagram\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "ead906d2b58b5407969300492a5f007c63eed5ad649ad78bf6ca1e9bb7d913ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7647a413d61a027ae0a6035a2edf0590096a67c9db76233f208af81c1ab8737",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## future 和 async 基础",
+      "translatedText": "## Future and async basics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "ead9f3f311b1fa2626593dc5e0c1f48c8e4d73eccbde967492a69d2d6de73a30": {

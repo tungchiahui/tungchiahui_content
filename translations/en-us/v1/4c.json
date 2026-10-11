@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4c05dfd6f3d26096bd92eb1e6bddda0050bdfcc1b294ba28d9eaf72d6aeadac1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8517e9860576a12c17c7ae32a6f21c4f6475ebb6ced5ff755ff8c3982939537",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果这三个值必须一起变化，那么把它们分别做成 atomic 并不一定让设计更清楚。",
+      "translatedText": "If these three values must change together, then making them individually atomic does not necessarily make the design clearer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
     "4c0706d6bd482d99c4fabc15238c0c1120f0ef719f0c50556da6e903b6793350": {
       "normalizationVersion": 1,
       "sourceHash": "5c8b1e80765dd06cb1beb20546382efc4311b73ea87c8c9e6d5f878c27dc962d",
@@ -57,6 +71,48 @@
         "costUsd": 0.000129
       }
     },
+    "4c2c0d2b5d3032e883b747ad2e4763b2c1f99d30b7b3f583d29a73366d754bb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "efed432fc16232856d0ba32343694195ed821ffe371ae581a03ae9e820011323",
+      "contextFingerprint": "d165e6e0e941f1ffa99887c94abc390552bc5ca7bd9d9bc8eed99386cde8f685",
+      "sourceText": "如果 `work()` 抛异常，`packaged_task` 会把异常保存到共享状态。",
+      "translatedText": "if `work()` throws an exception, `packaged_task` will save the exception to the shared state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "4c31da3ac0975bffe9e9627502eff97f7fe13ef18be965959039a9c7243bdcb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbd122b2809e40aa1e9ae98ea3061b91cac6a42da35ef2c1ffdde09592a6f863",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个例子把 timer 和 UDP 结合起来了：",
+      "translatedText": "This example combines the timer with UDP:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "4c3512edf46082ef2398a8865be2ff18ed239e4a4f3fa71fc39af4b3f2f7fe71": {
+      "normalizationVersion": 1,
+      "sourceHash": "165653b1d573d2080459c741621e7a254e819e5b264c05976b5e8930011bcd44",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么即使外部已经执行：",
+      "translatedText": "Then even if it has already been executed externally:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "4c361887d4641f79fbe7795b219ffd4719e9d1a79a567b9ec38cb90bbad49b73": {
       "normalizationVersion": 1,
       "sourceHash": "93604b38936857c7f142b70bf60dbe595f22f6f072032ffba9f4c29bf94e4894",
@@ -69,6 +125,34 @@
         "inputTokens": 145,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "4c3f979155cd4a58bee3475ec8118d45ef6a389f09bbbe41fc7436cb10ddd6db": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2c834af3d9759388c87934da4a1b655e544c019f0dc071517bb1e49616b8231",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "它的意思**不是**：",
+      "translatedText": "It means**not**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "4c42d43de9b8049d96e82f4803cb2536abf2b5e1e10438e5642c29cc2e18a70e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9a7bec150a7f79a3cb2215de76c5b7fc9fd845b718117e3536e2b03ffdfafa6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "consumer：",
+      "translatedText": "consumer：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4c4e7bf227f6b3ce675c27d8510256ac0d41d6e88a33678f096a1602d58d7ade": {
@@ -127,6 +211,48 @@
         "costUsd": 0.000054
       }
     },
+    "4c7bb444a4792e1d0944610f7f3783f67b5553f5e21ba6d677aa34343ce9f767": {
+      "normalizationVersion": 1,
+      "sourceHash": "6657ca6ba46f258ff01f56ab19a901ac7ca070b46151ebb3f05527fdb9775a82",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而是理解它必须围绕下面这套东西一起使用：",
+      "translatedText": "Instead, understand that it must be used together with the following set of things:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "4c7df6f6095d1e72025b943875201a6726819bae30de37f80d7b4ffe4a328041": {
+      "normalizationVersion": 1,
+      "sourceHash": "c89037ad41c552ee8b75242e888cbb86c93078c6761e20c5553f8bc7b0553142",
+      "contextFingerprint": "56c971c547f1397319c315e98db89094d8b86cc6e346884653e782ebfef961d6",
+      "sourceText": "打开 `example/stm32_hal/TEST.ioc`，在 CubeMX 中检查目标芯片与自己的板卡是否匹配，然后在这个目录生成代码。例程的 `.ioc` 选择了 STM32F103C8Tx、CMake 工具链、FreeRTOS CMSIS V2、USART1，以及名为 `serialTask`、`ledTask` 的任务；USART1 TX/RX 分别是 PA9/PA10。若你的板卡引脚不同，先在 CubeMX 中调整再生成。",
+      "translatedText": "Open `example/stm32_hal/TEST.ioc`\\. In CubeMX, check whether the target chip matches your board, then generate code in this directory\\. For the example's `.ioc` STM32F103C8Tx, the CMake toolchain, FreeRTOS CMSIS V2, USART1, and tasks named `serialTask` and `ledTask` were selected; USART1 TX/RX are PA9/PA10 respectively\\. If your board's pins are different, adjust them in CubeMX first and then generate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 236,
+        "outputTokens": 114,
+        "costUsd": 0.000208
+      }
+    },
+    "4c95122e8be50377e3582f11f5e9ae80cb70e7f27cf4ab60bd305c3580a8467b": {
+      "normalizationVersion": 1,
+      "sourceHash": "bccff79fef417a38dc3b0ca2a23b76afd7f67b900c9308ae3d0cdcd47fd53f2a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 创建一对虚拟串口",
+      "translatedText": "### Create a pair of virtual serial ports",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "4cafe9a543b01df60f73159d85815307ebf44fd025c74f62711ef3592c73462a": {
       "normalizationVersion": 1,
       "sourceHash": "c426bc12d5c90b9694fd2afcd96cfffa9b54540a670604d59c9714525211150a",
@@ -153,6 +279,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4cc513904bae9982c1a841d5315785da1d02e043f7271ca3577d19ab61e3bfce": {
+      "normalizationVersion": 1,
+      "sourceHash": "75628ab3047e95e98251b6c97e2764d197d31ece92225e0596ad49df40176e30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后，我们先：",
+      "translatedText": "Later, we first:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "4ccbb4ff966bc84fb870c65196eb51c61e9254bf5ffd56a8b9832f52245a4bff": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6317010674ee8ccd425bcec6c1ec340869b249f052e1a773212cb98985ebc96",
+      "contextFingerprint": "7d9022d1dc94c457c6fafb0c9dd42f7240095b370d9e210c13151c167b7b99e1",
+      "sourceText": "`data` 和 `sender_endpoint` 都是局部变量，但是本例安全，因为：",
+      "translatedText": "`data` and `sender_endpoint` are both local variables, but this example is safe because:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "4cd84dc5d428f7b938854724c1b332255edbc6e7f22c11bcbc51316ff8d027a3": {
@@ -209,6 +363,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4cefbb3c207c68e331161b79641e777f78e40ba3335db504a226c223972853a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "978b0f4c09ea6c6bfcf69033d741dfdd20e5755e281a797aba44a632dbc9b1c6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果这时候另一个线程再次执行：",
+      "translatedText": "If at this time another thread executes again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "4cfe96c2f4774891d6ef05828d262e42522d99b0c32c9463d74a836f3adb59c1": {

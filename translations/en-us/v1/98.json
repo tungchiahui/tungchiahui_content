@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "980c3c528a88101db06a8e2c847fc65253f8731e233e92151ef8c1b2cffc2bd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c3edba2d3c707f898a8b4f140af8c5addc7227f2b0dbaf199529729adcc4a00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于普通使用来说，最常用的还是：",
+      "translatedText": "For ordinary use, the most commonly used ones are still:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "98120bdd31687211ae4c31a92feeabf523fec52ffd118cbdaedeb470dc50a090": {
       "normalizationVersion": 1,
       "sourceHash": "7a58ee6285bd79ce900eea2e959f8ccf8525a0704b9144c4dec5c4f26894b3d5",
@@ -13,6 +27,20 @@
         "inputTokens": 178,
         "outputTokens": 53,
         "costUsd": 0.000117
+      }
+    },
+    "9813c647a05de5e879e6cce5319d2d86254bda5b3affdebc5a6c5b3dbe3a7a2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2c4e70e03fdd27ba0edadc4dddb160021aa43232c589a852ca05d537f517356",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很方便。",
+      "translatedText": "Very convenient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "9819cbad63112fb153a2d5cbfb078ab4e78bfd8a2522fd2e9168e1725d1ba5fa": {
@@ -41,6 +69,20 @@
         "inputTokens": 157,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "9823c671a73d6fcf4fb506f25c7502223051f18bb49409fc9579751cadabda0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbded9f468f4245921134e8496670035ce6f1280fdf15f8f4cea07ae86449507",
+      "contextFingerprint": "36509582bec8091c81228242141beff357b1b68087a8e69dc8499eee779041ae",
+      "sourceText": "### 坑 1：`io.run()` 提前返回",
+      "translatedText": "### Pitfall 1:`io.run()` Early return",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "9832de41831d6123206cba46bfb1f6fee12f0fabd4151bf244f4803b16d9ad6d": {
@@ -113,6 +155,20 @@
         "costUsd": 0.000058
       }
     },
+    "9892b52be5dc538316e582d521624689300aaaeb400b86871ce8dad323326ce1": {
+      "normalizationVersion": 1,
+      "sourceHash": "236d859f912d6ab40d476d433d444f144bc8dd51e8fb30fdba3e88e138c37b80",
+      "contextFingerprint": "23f770ec419393d19f5f8e5100ba31752393bd39e5c27531afe5556fbcf28c2f",
+      "sourceText": "> **timer 自己已经能够让 `io.run()` 保持运行，反而看不出 guard 的作用。**",
+      "translatedText": "> **timer itself is already able to keep `io.run()` running, so conversely the role of the guard cannot be seen\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "98a03ff15eed59f76f08f47462a49174658f6a707504116db7954afb023f1ad3": {
       "normalizationVersion": 1,
       "sourceHash": "1bfc5f3596609ba88097a646068acb2d23b1f32d6ad24fa2d1926c2fcd948479",
@@ -125,6 +181,20 @@
         "inputTokens": 158,
         "outputTokens": 41,
         "costUsd": 0.000097
+      }
+    },
+    "98a07c870a478e052ae4e02aeef75770f58bbccc4dff6a1edd43f794465e707c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e63c3f384bfb45199347ebd79ec1594870f5a9af33ad3c1ca4bf255c199c2546",
+      "contextFingerprint": "77cd3d460b1ebbfebdba65822645481505f40cc21590b6876299527608d8d2ac",
+      "sourceText": "所以类封装异步 I/O 时，经常把：",
+      "translatedText": "Therefore, when a class encapsulates asynchronous I/O , it often puts:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
       }
     },
     "98b15fa6215228420dc8be625c49df047497452f4b51dcbd042f09fc8261e9d0": {
@@ -155,6 +225,34 @@
         "costUsd": 0.000072
       }
     },
+    "98b7ff903a08fc4165416cf17c819794a73356521c8d032ead2f267cbb8ac4d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5836582617eec50c0fc6b817f64b07e23031afa08b62a632cc48b0ff94da3b3",
+      "contextFingerprint": "d35e212eae60f37dcdd123e1bf1157707b43c6fafbb643bef8267073eb4f2736",
+      "sourceText": "的 `io.run()` 发现：",
+      "translatedText": " of `io.run()` Discovery:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "98ca63cfaf78e66995b4351a36a62b0cd8fe15b5fd0ddd8dd5d63c61db4cb807": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7402adae433fccb2d8c7e6c156e4a1b7f4817be65f528fad1abb4c7f6f315a9",
+      "contextFingerprint": "c7e9a12c46a532fb6663251b78271a49a79e9db1101f97deb4c61b6da09d905c",
+      "sourceText": "如果你要断点调试，就点击 CMake Tools 提供的 `Debug` 按钮；如果只是直接运行程序，就点击 `Launch` 按钮。",
+      "translatedText": "If you want to debug with breakpoints, click the `Debug` button provided by CMake Tools; if you just want to run the program directly, click the `Launch` button\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
     "98d0145930a00599cbe1231e2c88977ff42a4fc9901c7986780cb558fd58afe1": {
       "normalizationVersion": 1,
       "sourceHash": "1da6bbb525376330b00a87ad49339f840502867f3d946306d33fa7c80bb3abf1",
@@ -167,6 +265,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "98d4eb0650067dd96e3ca42b86a686cd7069000ad96dd8ec48968fddbe7f1e77": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5c33b3dec18f5bdca6217b913488f8546fcae3562b587c1b7470b6007d1e8cd",
+      "contextFingerprint": "7a5de58ab36eb0958bfc7bcfe057d3a7dd02a4f199fae7e4109da5282e8d5832",
+      "sourceText": "1. `timer.wait()` 是同步阻塞。\n2. `timer.async_wait()` 是注册异步任务，不阻塞。\n3. `io.run()` 才是事件循环的入口。\n4. 一个线程 `run()`，回调就在这个线程里顺序执行。\n5. 多个线程 `run()`，回调可能被不同线程执行。\n6. 多线程共享数据时，用 `strand` 避免回调并发。\n7. 类里绑定成员函数的标准写法是：",
+      "translatedText": "1. `timer.wait()` is synchronous and blocking\\.\n2. `timer.async_wait()` registers an asynchronous task and does not block\\.\n3. `io.run()` is the entry point of the event loop\\.\n4. a single thread `run()` and callbacks execute sequentially in this thread\\.\n5. multiple threads `run()` and callbacks may be executed by different threads\\.\n6. when multiple threads share data, use `strand` to avoid callback concurrency\\.\n7. the standard way to bind a member function in a class is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 89,
+        "costUsd": 0.000168
       }
     },
     "98e1e8ffd8da2c6880a8d7e1ddb3415f72156d207c3d0b005534ab1d81542d41": {
@@ -183,6 +295,20 @@
         "costUsd": 0.000068
       }
     },
+    "98e3cb59195618b327a1d76c8b4e61de1cddf59779d78ac5a5118066980a857d": {
+      "normalizationVersion": 1,
+      "sourceHash": "90c7acd9a008387d87d96b39f36ac9c629ffcecbeb41353c8b8d3023981d64f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要它们：",
+      "translatedText": "As long as they:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "98fb9495258d373aa839ab07763a8b958ddcbec8e29fa412350ae78a2848caae": {
       "normalizationVersion": 1,
       "sourceHash": "7db831de37e74afee92c2ff59a00cad5c00192b2002299fbf3dd40c81baa8040",
@@ -195,6 +321,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "98ff163dcad308a133427d8f1539bc8308e46c95878bf741514ae01708d9075c": {
+      "normalizationVersion": 1,
+      "sourceHash": "be80eecf6884717ba666cf976977586ae2b71738a29b8c42579fcad4ea539dd4",
+      "contextFingerprint": "46650a18384b76fcafab0796301b08583c808991f39827175d2fedfa7dda444a",
+      "sourceText": "和 `std::thread` 相比，它最重要的改进有两个：",
+      "translatedText": "Compared with `std::thread`, it has two most important improvements:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     }
   }

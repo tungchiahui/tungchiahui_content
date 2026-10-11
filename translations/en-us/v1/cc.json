@@ -15,6 +15,20 @@
         "costUsd": 0.000056
       }
     },
+    "cc11dcc1046a0c244892ef825e98c6b486585fec95336bb80057677ef57b0ffa": {
+      "normalizationVersion": 1,
+      "sourceHash": "803414b7b4cd411b89457ac1355ea0fb494660ed69bf24e61b4e13e0b0851044",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "负责保护：",
+      "translatedText": "Responsible for protection:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "cc1962f44bd017c6823383ccdf0b49d93de56099e3456ee6e6417346a3cea8bb": {
       "normalizationVersion": 1,
       "sourceHash": "6b03c01d9cd620e23d15689318744815a9a8dbc45a3c070038f2953c0586e07d",
@@ -85,6 +99,20 @@
         "costUsd": 0.000124
       }
     },
+    "cc46d82376457c5081b0163b35792b3830942651d341d5413c037754f0bf8e69": {
+      "normalizationVersion": 1,
+      "sourceHash": "111cbcd11d0162ece25f0ccd2ff86e841c9a40e7d39440ab9c348d1fe7fc4832",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以通过：",
+      "translatedText": "You can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "cc67052655eac700e956fb5296dff199dc276a330958dcb64d6383e913402cee": {
       "normalizationVersion": 1,
       "sourceHash": "06428b81db95e89f293ac7889d35fa8d66ae803e9c7299025a9d985f090237f9",
@@ -99,6 +127,20 @@
         "costUsd": 0.000073
       }
     },
+    "cc6a366d1f2594a625ad7dc3e6723c4bf7640315ab2adb3d69921760aaa8e261": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6da37b15d49e306ce0684c99b060b18770294173fe92df5ec07dc95913d0e5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然 binary semaphore 的计数最多为 1，看起来很像：",
+      "translatedText": "Although the count of a binary semaphore is at most 1, it looks very much like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "cc715178d2036353fa80ec71c2620c57433ec4135658ce7a20be828bb710b5f1": {
       "normalizationVersion": 1,
       "sourceHash": "f394125851c65d1b23935053c47da07ad9e35eca3b26b79c2ad259987fa81614",
@@ -111,6 +153,34 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "cc739b9af07c0fa07520ec84e8e9224bd8373180a76ee98d4ba86e01b992c4d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f61e837f44fae227362534f0d6ca5b099e36a5bfda10a617ecb317690c29481",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但实际上以后只有：",
+      "translatedText": "But in fact, from then on there is only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 18,
+        "costUsd": 0.000062
+      }
+    },
+    "cc7a0111109d073fe4e3eac2dde908d30f607b259df2a3de0e2fe33aafa018e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6766cc711d8e7d701fb523c90772b5ceab88c5a6b407d64b47dc33697c39985a",
+      "contextFingerprint": "530e6481087f9dcff2a848ced73c479595fc904dc42a532ff6b36f652f40611a",
+      "sourceText": "### 多个 `stop_token` 可以观察同一个停止状态",
+      "translatedText": "### Multiple `stop_token` can observe the same stop state",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "cc7d405d8b448925de28d9e3d4499424ec6f255b39a30f62291f21319e831ee4": {
@@ -141,6 +211,20 @@
         "costUsd": 0.000089
       }
     },
+    "cc9acd176dca47cac16fa06c17fb3e14c5e4795e66ebf93591539b63c254ed36": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3a4515c54cc6e6365bfac8b0c1bbec038d41cd138e1dc878737a1e955f2072f",
+      "contextFingerprint": "d8f2667f97cb7b50aaa09b620bf90c43c3aae755ec32014e432045b7105add34",
+      "sourceText": "1. RAII：资源和对象生命周期绑定。\n2. `unique_ptr`：独占所有权，默认选择。\n3. `shared_ptr`：确实需要多个所有者时才用。\n4. `weak_ptr`：只观察，不延长生命周期，用来打破循环引用。\n5. 移动语义：把资源转移出去，避免大对象深拷贝。",
+      "translatedText": "1. RAII: Bind resource and object lifetimes\\.\n2. `unique_ptr` : Exclusive ownership, the default choice\\.\n3. `shared_ptr` : Use only when multiple owners are genuinely needed\\.\n4. `weak_ptr` : Observe only, do not extend lifetime, used to break reference cycles\\.\n5. Move semantics: Transfer resources out to avoid deep copies of large objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 66,
+        "costUsd": 0.000135
+      }
+    },
     "ccb2acb97f50b3fcbab8d9153f2ed4cca7597d73bf07ac81249fcc80754d9d1b": {
       "normalizationVersion": 1,
       "sourceHash": "e2fafab19edc8adeb7ddfe269d346d4e516d367ec04bbbf6cad8266aa034eeb6",
@@ -167,6 +251,34 @@
         "inputTokens": 211,
         "outputTokens": 98,
         "costUsd": 0.000181
+      }
+    },
+    "ccbb6a9429bdc60eaccf0db0ae18205af7e1cf51d28b535039d40ea120ee8f76": {
+      "normalizationVersion": 1,
+      "sourceHash": "41e2064cadc949983217e744f32badea47ffb28e8da06ea19c1659e39f02aa56",
+      "contextFingerprint": "44f47465c018fac732a3d0583f878ceb18fd191ee556ca667988a6c5e0c974e6",
+      "sourceText": "旧模板常用 `.vscode/tasks.json` 写一长串命令：",
+      "translatedText": "Old templates often use `.vscode/tasks.json` to write a long string of commands:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "ccd0e25f247574a513623a60e4cf14571ba0e253431583e4899d458306033ba5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cbbe8218ca712609d7e0b3909e5c5f4b5e5a475cc4df5a1ab4a1961133e6c7e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 用虚拟串口运行",
+      "translatedText": "### Run with virtual serial port",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "cce0b981b237ec670f6b8533dc1355703b9513ec6858334ddab473cf3e4415d0": {

@@ -43,6 +43,20 @@
         "costUsd": 0.000108
       }
     },
+    "a0130457ebe6eb4122c8002b73310e7f208926f335af61c9e377bfca063fab6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4953a4eaebd17e3d27a5684a26d2a23603e13c13b0d3eadbfc77e54bb1eaadc",
+      "contextFingerprint": "dc89b663604570438ebb5699fcf9de743a71b12eb0332de3f78d8c44b4c4e2a1",
+      "sourceText": "这也是为什么用 `timer.async_wait()` 来演示 `work_guard` 并不好：",
+      "translatedText": "This is also why using `timer.async_wait()` to demonstrate `work_guard` is not good:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "a013d0858bad433dcb2e83f1d316988775f60e7e8407046ecc1a8e73a422e4f4": {
       "normalizationVersion": 1,
       "sourceHash": "585bf4e504b38732929f70adf8e8df5c82f14be410adbdce1f616de6414724e0",
@@ -71,6 +85,34 @@
         "costUsd": 0.000065
       }
     },
+    "a029239d1fd2a874e3cafa81ce69257f908b0354ff006632a44cbed1a3d20555": {
+      "normalizationVersion": 1,
+      "sourceHash": "478f2040d7bac4cc285bc1f1069541617ee95dc6049e04709a9a31498041c468",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 异步等待，直到这个 11 字节 buffer 被填满或者发生错误。",
+      "translatedText": "> Asynchronously wait until this 11\\-byte buffer is filled or an error occurs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "a02ddc640da5ab8a7eb3e09d1f709a2ee4d88cfcbaa87782d253b91439b50186": {
+      "normalizationVersion": 1,
+      "sourceHash": "755f6de6cac43e1183b330efb38950e9848d248da30d6bb08a2de63d518899cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还要考虑：",
+      "translatedText": "Also consider:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "a032b2171e75e2b3756ff9fef610d6f0749e1d50774ca4033a23b848be93f229": {
       "normalizationVersion": 1,
       "sourceHash": "af3fae365787a96fce021cd357b75aa57797718d51e23a639d6904fe8b2bce3c",
@@ -83,6 +125,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "a03507e28af9b1b4dc0caa549d7d90cd7d9d78670d25b12f0fdf0524a9f90e80": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6c233a79674798cf1eed4552762d789e967a21672d4eb1af3eae793d1d3a9dd",
+      "contextFingerprint": "b3a430be8eddec339805d891d55f5f5e8980589d6bf6c5bdcfc7171fafd4b9bf",
+      "sourceText": "接着学习 `constexpr`、RAII、智能指针和移动语义。这一阶段比语法更重要的是思维方式：对象什么时候创建，什么时候销毁，谁拥有它，谁只是借用它。",
+      "translatedText": "Next, learn about `constexpr`, RAII, smart pointers, and move semantics\\. At this stage, more important than syntax is the way of thinking: when an object is created, when it is destroyed, who owns it, and who merely borrows it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 58,
+        "costUsd": 0.00012
       }
     },
     "a03b149733a164d39cf8f33311224cc5a33226960b7d6caaef2f723c346daf0e": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000097
       }
     },
+    "a03c7e65ee6f6ea957259b760d1ce615fb8fb18b6d0f74cedf453f6482353ba0": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd1d04fa9563679690b538f78092b4905cc46f91346d04d8139310c3d3fad0b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "能同时处于：",
+      "translatedText": "can simultaneously be in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "a040e2335c3eff0ab25aa0d8db51683a5f4f5a6ca25f16c2ce77ac311165a268": {
       "normalizationVersion": 1,
       "sourceHash": "5c0dcfc8bacb83354b1c0838c4cd642a9295327588bff3df088ea402c7521add",
@@ -111,6 +181,34 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "a053aab7608e2c4f1878d66351ded49bdbb27b6f24f005132ce0d69a86c252f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "16ea34e8a1effcba5627d19f30f26a490cff8352bffef6198480ba5fa4b13c32",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个程序不会自动退出，因为服务端持续调用：",
+      "translatedText": "This program will not exit automatically because the server continuously calls:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "a055cb7b165aa151261ef232fea187af72276bf0275b96de7cd8f7fe5c4d2496": {
+      "normalizationVersion": 1,
+      "sourceHash": "966922c390f6887795c467ad00770251eb712cfa10cc530c8f93e74afb8404fa",
+      "contextFingerprint": "d89b58012a4dd0548b71592058a138b400c1fecdb87e6f2dc8df185ac821f683",
+      "sourceText": "### `atomic<bool> running` 和 `stop_token` 怎么选",
+      "translatedText": "### `atomic<bool> running` and `stop_token` How to choose",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a056a6b6bd5101aece2c4b7885f5716968eba1701682dd39ed4381de2567d46c": {
@@ -139,6 +237,34 @@
         "inputTokens": 153,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "a06a9c2de11ab11bcb4e09ecb797e8075a0ee77dc8411db6828874d3b0781593": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ebd8044ee80b46435da6ceb7df7f6c43b576134da7028fbcb3430b3ceaae8f2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "随后程序执行：",
+      "translatedText": "Then the program executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a06e142b21bebc0793964edbb28203811fe6c92377b104bee48fd7d340bbddcb": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e4aae19883dad511bf14bf2fdb5e227b97e99d236dd4ff5e6e2069aa7f153fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更直观。",
+      "translatedText": "More intuitive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "a07015404bed1957d3278b2d992cc81a53f51a4d71e2181eb2b9436dfe3e8781": {
@@ -239,6 +365,20 @@
         "costUsd": 0.000072
       }
     },
+    "a0a93b9ba1886ab13e6fa46b5615f69540baf89837a6d200f0197ce39e28422a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1d869e5dfe9cb0598b156eb03c615cefd0cc3ccd58cfd80786a41bb4129c996",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最典型的用途：",
+      "translatedText": "Most typical use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a0d3a933dc5542a95fa0ef8f411f9ca7a7cc5cbe4e7fafc835ebf588a76aaa9d": {
       "normalizationVersion": 1,
       "sourceHash": "4aa2bf43227270fb624f3726b5bec55a6b0205aa90345f4adcf35dd49941959b",
@@ -265,6 +405,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "a0f16367e5278624b007a8c792b946b4ae8d0b94716ce1c0298ea56581d4ae7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae45acd7e2a7f1bc2cf395ab1f930cd6180eae03b96da76456c7306c249e51e6",
+      "contextFingerprint": "9f5f3d762a83c651f45d5c8e6062081e706aee9a098b1a69885d723437e01a76",
+      "sourceText": "1. 构造时创建 `work_guard`；\n2. `start()` 开线程执行 `io.run()`；\n3. `stop()` 停止线程；\n4. 用 `post()` 投递任务验证效果。",
+      "translatedText": "1. Create on construction `work_guard`; \n2. `start()`Start thread execution `io.run()`; \n3. `stop()`Stop thread; \n4. Use `post()` to submit tasks and verify the effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 32,
+        "costUsd": 0.000086
+      }
+    },
+    "a0fc49ad4209ff8ce5477e86200027480284ef4c4d64c7a53edbbdac4149a989": {
+      "normalizationVersion": 1,
+      "sourceHash": "0863084463b0e27fd407015fc970db450236792b8b1466b7d68dd613a6592637",
+      "contextFingerprint": "6b9b197c237ead05eff1d35528cea16707573a45cfa29f63606ef9502ce6c2ba",
+      "sourceText": "STM32 端的 `applications/Inc/protocol.hpp` 与 ROS2 端是同一套协议接口；`applications/Src/protocol.cpp` 已由 `cmake/user/CMakeLists.txt` 加入编译。下面摘出 `applications/Src/serial.cpp` 中的关键调用，分别位于任务、UART 接收完成回调和发送循环中：",
+      "translatedText": "On the STM32 side, the `applications/Inc/protocol.hpp` and the ROS2 side use the same set of protocol interfaces;`applications/Src/protocol.cpp` has already been compiled in by `cmake/user/CMakeLists.txt`\\. Below are the key calls extracted from `applications/Src/serial.cpp`, which are located in the task, the UART receive complete callback, and the transmit loop, respectively:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 78,
+        "costUsd": 0.00015
       }
     }
   }

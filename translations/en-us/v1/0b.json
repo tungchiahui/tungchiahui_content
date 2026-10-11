@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0b0238b3cda6919b8abe68194958f7fb65e4dfb015e01862bbfa889756024d4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fd5263e6ea5c2f84626df1a723383eee17c3841f2237b0ed7feb3f0b0b6ae66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以如果你发现自己准备写：",
+      "translatedText": "So if you find yourself about to write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "0b055492fd97a6d126011a2728ad48734070448578a97c365ecf2aec40cd0e18": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a38c8cc72413805db19f9a23477cc888aa00a60ff55726619da93c64ee21e03",
+      "contextFingerprint": "e81cf16595fc1bdafd8706b75d6e9223565270874deb0f83e06c666838e9dfb0",
+      "sourceText": "`async_wait()` 不会等待 2 秒。它只是把“2 秒后执行回调”这件事注册到 `io_context` 里。",
+      "translatedText": "`async_wait()` It will not wait for 2 seconds\\. It merely registers the matter of \"execute the callback after 2 seconds\" with `io_context`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 33,
+        "costUsd": 0.000087
+      }
+    },
     "0b09e7290daa6a4f5c5c97ea7fb024b1ba995beb38a0cb3e3c1b8fad32ce82f5": {
       "normalizationVersion": 1,
       "sourceHash": "cd8b8f8e46fde714e1b41f8d6fdc08621eedc3b68efaa22f7fd63a60b4d918b1",
@@ -27,6 +55,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "0b0f6410b73b5881c49bf0463429151ccdc27d7856b8503c2a3006f97c9ee8f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "354aa387e083fa011e8875c572056d27f036ff6c9abcd21c5aef4c5b9a3858d8",
+      "contextFingerprint": "85e3033f707151c292b65efb47cb30c57d05f3f127460d9337821a945cee35f8",
+      "sourceText": "**文件：`person_module.cppm`**",
+      "translatedText": "**File:`person_module.cppm`**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0b153766559b6d52ebc806b1462a3b8137457eb96a2bf6c62491f3173eca869f": {
+      "normalizationVersion": 1,
+      "sourceHash": "58e2a8e42c65f5311f862cd97415ad55bc6d29e38c4a2132ae924f15d27c299c",
+      "contextFingerprint": "8307fb77d9a7855ebe3da87259e1864d428dc5f9db8d62914f22499da46ba662",
+      "sourceText": "这里 `expected` 会被改写，是 CAS 很重要的细节。",
+      "translatedText": "Here `expected` will be rewritten; this is a very important detail of CAS\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "0b17e14d9eac21ad7407851b131825af374ea5f8c4fe4c87f31198838f7e1198": {
@@ -85,6 +141,34 @@
         "costUsd": 0.000138
       }
     },
+    "0b3cc587d1f9d299838c9f1dbd8a5411897f7bbc5149dbb0f0201d7f3045845e": {
+      "normalizationVersion": 1,
+      "sourceHash": "dec6b052d5033aaa037d4c922a0ae19e763d0e88477dbc1e30a0cf5d81e41238",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例始终使用同一个：",
+      "translatedText": "This example always uses the same one:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "0b3e1cee7fa7d7a60513ed84a322acd40143726f895a32fedfffec9aebce2234": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2b9fcf14a71c18dc8810c32c9346de7553e53b2170334064b30c1c14a9fd4a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后以后再：",
+      "translatedText": "Then later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "0b43b1ecd119cee3c338d4ceb28a3dd59f5c8ee7c47b6494480c879aa5f4abee": {
       "normalizationVersion": 1,
       "sourceHash": "95d9db997d054595ea386d4d38b7246de55b4b629d21756c8af2af1074a11785",
@@ -139,6 +223,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "0b5123c1bd13f10e8235820ae0204662847183577cd01c889e1f065d3b232f61": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fe587d699ea1b10055c62d9934dec38d66f938fa56a2fd023d3afbb52966548",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都发生在 worker 开始 wait 之前，也没问题。",
+      "translatedText": "They all occur before the worker starts to wait, so there is no problem either\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "0b79e1bccd41772e82b10d25e28f245ebc99d081e3c6b26aa33ed37181c9433a": {
@@ -225,6 +323,34 @@
         "costUsd": 0.000077
       }
     },
+    "0b93242de93b9cd25c65694ec6c57554e2aad8bfaa8a8c274096ab70a2ff1215": {
+      "normalizationVersion": 1,
+      "sourceHash": "eaaa8a07501628375d23ec35a798c7746571afb3b415a94b159b93f696137eed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它并不会立刻把任务放到后台执行。",
+      "translatedText": "It does not immediately put the task into background execution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "0b9361167c409496b39ed48179b7c09ed583f645d06f6a2758f09a7f5ceaa41b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f478ca0d960e3aa6d5814db5daccf6d1fe91ecfe680c58a5ccaca3d43a155b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "里面。",
+      "translatedText": "Inside\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "0bb0024cec10d279a1d047e8482f9830f4751cea4307ffe7810f4fbe95be888d": {
       "normalizationVersion": 1,
       "sourceHash": "80c0c0d654c5d6a26e8e0338f381ed80bfb6d58809cb64a474364d44af85e0e4",
@@ -235,6 +361,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0bbc03a7ea2192396071a3c80dfa51ff1ffb1be0ee144f0aa3f3d7b25672b01e": {
+      "normalizationVersion": 1,
+      "sourceHash": "695039783119212fe2ff82103c598e48cb1898522ea7d6120ec7fd86c7d04966",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以异步操作：",
+      "translatedText": "So the asynchronous operation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
       }
@@ -265,6 +405,48 @@
         "inputTokens": 152,
         "outputTokens": 33,
         "costUsd": 0.000086
+      }
+    },
+    "0be345b328f6dab8c4d55a38dca699150e3cd38f3eebfdba44f45a760af01c3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e311c6fb5c0fbf19395aed7f24cd565e05f14ceb48024a16373f7f41d58024e3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们先创建：",
+      "translatedText": "Let's first create:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "0be448afcf590ddf534efdbb0b7353aa3de79642b6c1c3af00f24fa240f2706c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a62ee3b7bc512ed889883331c7328d64e515854e7febbe85989ac8c521be040d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如并行算法可能需要：",
+      "translatedText": "For example, parallel algorithms may require:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "0bf8e224d5e360783359e2728750a5d5f30b093f7a2fbdde2783403f4d15a918": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9890703dbce9182c6ec836b2edc017d87791d451262a041aa575131db2e9fa1",
+      "contextFingerprint": "a6012b146e9880285cac2c2a485d15a441446f516ae7ac3542025b8144c5a57f",
+      "sourceText": "#### `SerialTransport::start()`",
+      "translatedText": "#### `SerialTransport::start()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0bffd1bbebecce650952917ceed39808fe63c6d9a4a00c1bff64e2acc70b5812": {

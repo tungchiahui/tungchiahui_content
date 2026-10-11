@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f0010b998b748e2f5375e6590259aeb666f63936d1b3276e6597e4f90b0c374f": {
+      "normalizationVersion": 1,
+      "sourceHash": "afb918606e2e0026ece13030ce243f9cf48f0df27f5e5fc064adcc73c5da6cc7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异步操作不会完成。",
+      "translatedText": "The asynchronous operation will not complete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f00be7f95c1bf9928c63797089c4c8c8a81f4e15f524958e02a379743ef82268": {
       "normalizationVersion": 1,
       "sourceHash": "1c7a199f88159d90e492e1b5d511dd423b0f39cf929f1680a8cf09c60ceb8d77",
@@ -13,6 +27,34 @@
         "inputTokens": 148,
         "outputTokens": 32,
         "costUsd": 0.000083
+      }
+    },
+    "f00d712f53079b3964ec0056afe95450c1c41405dfec10f9455f1fdd9b4cd494": {
+      "normalizationVersion": 1,
+      "sourceHash": "f91caabdc4983fafadd64fc2bf2c02acb6ac8a30a969463ddf9140a69548a994",
+      "contextFingerprint": "17bc9a4184cec630ab61639b0829cd517883c877bd7e0ef1b3af68ab9d254f55",
+      "sourceText": "| 场景 | 推荐 |\n|:---|:---|\n| 写代码、调试断点 | `Debug` |\n| 发布、性能测试 | `Release` |\n| 性能测试但还想保留符号 | `RelWithDebInfo` |\n| 嵌入式或体积敏感 | `MinSizeRel` |",
+      "translatedText": "| Scenario | Recommended |\n|:---|:---|\n| Writing code, debugging breakpoints | `Debug` |\n| Release, performance testing | `Release` |\n| Performance testing but want to retain symbols | `RelWithDebInfo` |\n| Embedded or size\\-sensitive | `MinSizeRel` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "f00feb418e045df8e77b54047cecc1bc5c7c10ee1f42f3f7ad9800b40c25afe4": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfe6f99e0032caed8a6f6aad4483a40e39029d6498b6c4be27e97dd4202ff2a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这三组数据都是 11 字节。",
+      "translatedText": "These three sets of data are all 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "f0123920d16cbefb301c84f092c57d3a6a28035bc6278d7c3108c668d246b0bc": {
@@ -29,6 +71,20 @@
         "costUsd": 0.000172
       }
     },
+    "f01742a14c4ceab1ad436a480da4d80dca541d8fd2d3ead2fd2ccbbee7038baa": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1795a3b5a8de7d72c4a6b3c3acd86fe0e6bbd2d04347fdce0f702bf49235904",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "main 却：",
+      "translatedText": "main but:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "f01c4d9fa9afc810b672a418da91662fa0109222d65963cac62fb8720d8a5e65": {
       "normalizationVersion": 1,
       "sourceHash": "18cb8f996ba3634c1237952a501fc0b7d8c3f8ee47be2ea072cfa0c8d8c2516e",
@@ -41,6 +97,20 @@
         "inputTokens": 145,
         "outputTokens": 18,
         "costUsd": 0.000066
+      }
+    },
+    "f03351e131f158a5ed05e73ae2001f0002a5302e64fff7080e87f92ed04df5ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "b31b623bab37d7b50ecd12710badf88d2d31efe2bedf91db8e650ef25685012d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一次执行：",
+      "translatedText": "First execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f0338fee6010bd38130408c1cf92d9c6bb331e221edebf9018386dc562254414": {
@@ -69,6 +139,20 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "f0357050a90eb78c6dee1ffc7ba0c67007ec630f36900b85a7ef256d50adfc7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a89ba46053cae0f61860aac90a39ba0906c519d09ac4c3f2440ac1095d403ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把示例 2 改成类封装版本。",
+      "translatedText": "Change Example 2 to a class\\-encapsulated version\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "f03d2de58cc015d8a7c7946637264bccd3125bcdc154733d6ab89bacdea35d1c": {
@@ -169,6 +253,20 @@
         "costUsd": 0.000051
       }
     },
+    "f077dcf17b94fd83634085549e129ce06f50de37b04b2f59ec55845bc2873254": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ca4e28fda6115ff4a8ce364d6e13e64324ee89d94f211c7bfaea43214fd76d8",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **给长期运行的 Asio 事件循环办理了一张“先别下班”的凭证。**",
+      "translatedText": "> **Obtained a 'do not clock out yet' permit for the long\\-running Asio event loop\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
     "f079ef6433a237a11d001a7472311e3715a5f88d66bbc2fa91f1119dc485b46b": {
       "normalizationVersion": 1,
       "sourceHash": "a12e1e152f26e7637e1c92ae0e3218b38ee9544d26415b7562d9671ef6db7a92",
@@ -211,6 +309,20 @@
         "costUsd": 0.000078
       }
     },
+    "f092d138fee93602fe09407793d73398b52f472b732b46535c59877c1475253a": {
+      "normalizationVersion": 1,
+      "sourceHash": "627ab0d7d5f93c4c5b71d7fbbed700a153902528d46f104e3b0d2a8effa1e4c0",
+      "contextFingerprint": "ee5106bffc87c8c57a08b6597edb6810e8fd8ffee1a7ca049b11b134cf88e930",
+      "sourceText": "不要在 `on_connect()` 里写这种危险代码：",
+      "translatedText": "Do not write this kind of dangerous code in `on_connect()`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "f097f59aeb276f866b9d98c3b92dbca4261382d923b583a912799fc988d66ae7": {
       "normalizationVersion": 1,
       "sourceHash": "62d586281e5a1604dcd3d021c1930a2ca359176939cf27af1f798095eed15362",
@@ -223,6 +335,20 @@
         "inputTokens": 170,
         "outputTokens": 44,
         "costUsd": 0.000104
+      }
+    },
+    "f09ab95d96aeb7dfe31161273422f7045af2a070c168ffba694b206068aa364b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a27fd496752a89b998217f0843c098f4285cfe47a1e1734ae50844caeba6d4c1",
+      "contextFingerprint": "9c2dea7dd3c30c6656092d8c259018976c18e2be8402fc8ab677eb32919403fa",
+      "sourceText": "- `std::format` / `std::print` 比 `stringstream` 简洁，比 `printf` 类型安全。\n- `std::chrono` 避免手写时间单位换算。\n- 并发编程要先保证正确，再考虑速度。\n- `std::filesystem` 让路径、目录、文件信息处理跨平台。\n- modules 是 C++20 引入的新编译模型，目前应先理解概念，再根据工具链支持决定是否使用。",
+      "translatedText": "- `std::format` / `std::print` than `stringstream` Concise, than `printf` Type\\-safe\\.\n- `std::chrono` Avoid handwritten time unit conversions\\.\n- Concurrent programming must first ensure correctness, then consider speed\\.\n- `std::filesystem` Make path, directory, and file information handling cross\\-platform\\.\n- modules is a new compilation model introduced in C++20\\. At present, you should first understand the concepts, then decide whether to use it based on toolchain support\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 94,
+        "costUsd": 0.000177
       }
     },
     "f09ca3e37ca84b2198cc0ee7b827162cb2159db76f412a5191eb1d78143e7950": {
@@ -253,6 +379,34 @@
         "costUsd": 0.000068
       }
     },
+    "f0b215831ef8ae5250029b7a44626ab77740d9b6d2d5aa713a6e2bfdc52381bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "f54ce08a79c0f32024db745f84789a65a7992819d6484513b680978bbfa228c6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "粗略理解成：",
+      "translatedText": "Roughly understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f0c0765a53f374b341d5d13279bd4b791cb4f0d382f51bc726f6d5207e2a14a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "f52847fc24551e5d76e2fc28a53dace541d1d1f95f1201abd98e539319171c63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个字段不影响实际构建逻辑。",
+      "translatedText": "This field does not affect the actual build logic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "f0cafca01281f77ca7c971e43ac1023fdc95563ba5b61d117f21727fa8eba691": {
       "normalizationVersion": 1,
       "sourceHash": "bc9b2ff76017ae806946e935e7541c77235e1d73c09c7cb7d41db79d0a269cdc",
@@ -279,6 +433,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "f0d42527d01089acacfd6c0dc685ef5ab3920cc22c9629f83c3d9502523dde3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "130b2390b48f8222467d52cb6545ef7d2ea07eedf45720452476b95fa8122214",
+      "contextFingerprint": "000ed9936e2131c731c419d4f3b2417ff8d239e9f3a74763887c7587474a6dd4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789472977575-3f093715.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789472977575-3f093715.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f0d45da2e097a3e41d088da43b3e988ca4951dafc41befcac37bb56044884de9": {

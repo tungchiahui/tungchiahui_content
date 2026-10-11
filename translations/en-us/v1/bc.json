@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bc0574c383d7864351e325233572f1dfd0e0a55a11a23125e29802a44b69895f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd92a95fa0c6116972bb6176c316052ca619b6e79176aa5b074daa8ef6e815c0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们醒来以后仍然要：",
+      "translatedText": "After they wake up, they still need to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "bc11ee78f49893b9adcc40c245f5aae6b54cd1736aeaf987f5a6c741ee462594": {
       "normalizationVersion": 1,
       "sourceHash": "9fe5d1f6ffa0f59fbc2cee8cb53b5356c3d09d6c8e247f767841ee3cfccb91d7",
@@ -43,6 +57,34 @@
         "costUsd": 0.00006
       }
     },
+    "bc1ecef2f9aee52cd05ef11bd3a8814de4df16b66826a1a2c88a64eeb4a7149a": {
+      "normalizationVersion": 1,
+      "sourceHash": "34365535a5568a89ca43af3c851570e183bbaaf40977f2f9d777625fc466e3e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是：",
+      "translatedText": "Yes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "bc2f64c258f193be581e255dfc5999ee4a6c6b3ecae4c518da2a881f5dec2a5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "28986cf0ad14016b693769f01f302dd3c512e408d4065e976f89d23758f10e79",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也不会被两个线程同时执行。",
+      "translatedText": "nor will it be executed by two threads simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "bc3a19dceb7ba7324f02bf1948fd983af5b55537d02416e05eba3dbb0dcdd6de": {
       "normalizationVersion": 1,
       "sourceHash": "a32a1585adbff062c82be4b0fe8313caea43942a24361f8179665e8980e769ae",
@@ -57,6 +99,20 @@
         "costUsd": 0.000062
       }
     },
+    "bc3e92376d4aecbec846defef3ee4481c1ceb3ecc6ed5e92e4a6ddcc40000d04": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc919597ed8172172924a0e72cb6b857cb9ad46fd21ecc626fda192cc3524925",
+      "contextFingerprint": "3a84f4a6aacc321bb3cffa2b168b6f3a43f5f3c58442282040d0b846bcf1a004",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377580436-ef3668ee.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789377580436-ef3668ee.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bc43af262109188702bae54ced9e430cd21ecce7b4f61b5b519bd9ced808d5b2": {
       "normalizationVersion": 1,
       "sourceHash": "5e51f7101f4c7686d719a321fb18ff0cf3798f91cea63960f168cf06eece2a10",
@@ -69,6 +125,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "bc45dba2f81a44c4d60acfa0f15e396b4d50e8dfade7593209b1d9f4c054b329": {
+      "normalizationVersion": 1,
+      "sourceHash": "a387e4be43856cb05cc3ec151982f003dc4344ff9515549060891594e2c2f0f1",
+      "contextFingerprint": "5ca94a7d878d365fa88ad2ae78877fb5151611b15ad908e3e37e799791532109",
+      "sourceText": "再用你的调试器或下载器把生成的固件烧录到板卡。接线时板卡 PA9/TX 接 USB-TTL 的 RX，PA10/RX 接 USB-TTL 的 TX，并共地；两端统一为 115200 8N1、无流控。PC 端把 `port` 换成实际设备名，例如 `/dev/ttyUSB0`。",
+      "translatedText": "Then use your debugger or downloader to flash the generated firmware to the board\\. When wiring, connect PA9/TX on the board to RX of USB-TTL, and PA10/RX to TX of USB-TTL, with a common ground; set both ends to 115200 8N1, no flow control\\. On the PC side, replace `port` with the actual device name, for example `/dev/ttyUSB0`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 117,
+        "costUsd": 0.000211
       }
     },
     "bc4d0defb355f97026c81681ba638f8a8e9546e8857bf9f2308dc451db209564": {
@@ -141,6 +211,20 @@
         "costUsd": 0.000077
       }
     },
+    "bca289da940b7c6c6c840e25b1bc2f8085ec518df8540cec7f16b3a3875301ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "00558a939ec75971d0616f3f12a28ea5853d85d39139ad506a18dfce0d5c86d7",
+      "contextFingerprint": "3cc4cdfd5669795718c849fc25adf244f424e29f89cee9ce7cdd9b7c165fe6b7",
+      "sourceText": "由于 `echo` 会自动在末尾添加换行符 `\\n`，实际发送的是：",
+      "translatedText": "Because `echo` automatically appends a newline character at the end `\\n`，what is actually sent is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "bca99cf6db7f3cf0be94dd2c1df5a413b97b56d37345fffcc9a133726fef484b": {
       "normalizationVersion": 1,
       "sourceHash": "eb2cb5d30aa0e62c08b490b306cd5374c2ed4853d7a2c2ce501b4132b619ff44",
@@ -167,6 +251,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "bcb35e73525465601e90c95386da9f7f7801573a0e2ecc86b0c669c8f9ae322f": {
+      "normalizationVersion": 1,
+      "sourceHash": "55aabc43ae51ac8690228659e874a1fbb7e6d42a76577d58ff2fd68c904156d7",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **“释放 mutex”和“进入等待”之间不会留下一个能丢通知的空档。**",
+      "translatedText": "> **No gap is left between \"releasing the mutex\" and \"entering the wait\" in which a notification could be lost\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "bcb3e7a2c44f0ed8d286eaccf25563ba49f583f6118d41c59c364f8d17a86ea2": {
@@ -197,6 +295,20 @@
         "costUsd": 0.000084
       }
     },
+    "bcc47f4949ed89a63e80d7755e04faddbd568f59e0146f643ef8067c03f43d62": {
+      "normalizationVersion": 1,
+      "sourceHash": "327abf31a6f472370471c5191827bae7a3ccfb2bd766f9549e77fc2b4a182c47",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "串口本质上是连续的字节流，并不会自动帮程序保存“这一条消息”和“下一条消息”的边界。",
+      "translatedText": "A serial port is essentially a continuous byte stream and does not automatically preserve for the program the boundary between \"this message\" and \"the next message\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "bcc59253b96eac69125bc6b88329fa3d01d380bf3079fe4a6fa2d0c13c1e1e49": {
       "normalizationVersion": 1,
       "sourceHash": "f5c5a6a0d78bff4d27bf2e49ab7efdef8a2925cdec7e13ac4fe83fa80e1a0f8d",
@@ -223,6 +335,62 @@
         "inputTokens": 149,
         "outputTokens": 28,
         "costUsd": 0.000079
+      }
+    },
+    "bcd8d5b49e47d8ace102fe4749ee62d4baed4c216827ff2d326f4bf1d09be109": {
+      "normalizationVersion": 1,
+      "sourceHash": "3922aca4a766f595b2520c1e7ba8b07bda4a34ec73d6e749d68c1d604c78f0b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即使改成：",
+      "translatedText": "Even if changed to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "bce504bcc1e125b812fcf3365cad25de00e0a9bdcd652385d656727ccfce1810": {
+      "normalizationVersion": 1,
+      "sourceHash": "badcb6f2243ca00894295066383d4d627ed987576a24f561bf9c1e49961ff7c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重点是：",
+      "translatedText": "Key point:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "bce521584d3259cafb420cf7454dd6eaef651f1bb3e47258621022efb31d4ca2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6345ee36f990077f23696453d3c2b92f54d15988d89c6b30bbff7ebe722f5913",
+      "contextFingerprint": "5c08f3a3fcc350f57e6b6b8188c69da94ab3e68e887747d47f736ac1f7f1aced",
+      "sourceText": "> 向这个 `jthread` 关联的停止状态发出停止请求。",
+      "translatedText": "> Send a stop request to the stop state associated with this `jthread`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "bce64b949cf9a1d4f628821622aa63fbe7a63eeb7507fa53fd0c644f69899dc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "674edc71192079024a525c5e76a7fc2b429e1ba4fa783872272558f7e7707d30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是线程虽然什么有用的事都没干，却一直占着 CPU 检查条件。",
+      "translatedText": "That is, although the thread is not doing anything useful, it keeps occupying the CPU to check the condition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "bceca97df8332b5fce47b6fd3b4c36d69e12dceabb71c193a224929ff89c7d86": {

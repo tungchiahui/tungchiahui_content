@@ -71,6 +71,20 @@
         "costUsd": 0.000078
       }
     },
+    "0f0f961a184738bdd3292d5676ee8b6d986c58d465bc973a3bb00a20676fccfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ad45dd9176fcf484f273531b5fa6b08b6582f74beb246e83f26b2fa9ae0a521",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常会让代码：",
+      "translatedText": "Typically, the code will be made to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "0f1c6798fba7868df0c43e7f74c91a48814833ee1c37578273ff5d6c8119510a": {
       "normalizationVersion": 1,
       "sourceHash": "34d887ef92d7bfbe26ff9cda3bfb55f567655c39ad6020f4120f980df6375dea",
@@ -99,6 +113,62 @@
         "costUsd": 0.000085
       }
     },
+    "0f29206b1f7b60e7f624393f86aff25bed301c9aeda53d3bf1929ddfe476cfdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "dca1c8be837062b44c33f858ff2b6d7c0cd1f9f90644f89bff5dacfe106f6c56",
+      "contextFingerprint": "ae4c89d3421530fed41a2914e36465535e974105e0898e2ec326bdb155eb904e",
+      "sourceText": "表示“异步操作完成时，Boost.Asio 自动传给回调函数的第 1 个、第 2 个参数”。",
+      "translatedText": "Indicates \"the 1st and 2nd arguments Boost.Asio automatically passed to the callback function when an asynchronous operation completes\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 41,
+        "costUsd": 0.000099
+      }
+    },
+    "0f2cd09c149f1025aba93b42365ebca97dd9ef10f54ddc6115e698d44bf82732": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f2ca4f3573dd4c0fe7070949fe20e3a555be6a12c73b7b39a00eb71af8f1728",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "semaphore 只控制：",
+      "translatedText": "Semaphore only controls:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0f2e2dc250a2cb1e88db0e9b529003613ec462979da244a8ad10b5dc79af2258": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d08b9dbbe8fad89b329529c0930e36fc9438031ce003afbb1b849d9ba2b9623",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "worker 就可能一直睡下去。",
+      "translatedText": "the worker may keep sleeping indefinitely\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "0f374d3a30225dee3d87baf02b6a09335e079ac5c06a953d96b58a038b03da6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f936a8e45b16dc7f3228fc3bb9bf1fa85e1fd0c6d57f8ebf10c7f698ca2b81f0",
+      "contextFingerprint": "a54fa60685df5fdd2373f3665f63eb265cf8caec63add04791a2ca7d38c7d337",
+      "sourceText": "1. **用 `namespace fs = std::filesystem;` 简化代码**：这个缩写几乎是社区标准。\n2. **路径用 `/` 运算符拼接**：`auto p = base / \"subdir\" / \"file.txt\";`，简洁且跨平台。\n3. **遍历大目录用 `directory_iterator`**：避免一次性加载所有文件。\n4. **文件操作注意异常安全**：很多 filesystem 函数在失败时会抛 `fs::filesystem_error`。\n5. **C++17 的 filesystem 基本够用**：C++20/23 增加了一些便利函数但核心不变。\n6. **扫描大量文件时考虑 error_code 重载**：避免一个异常路径中断整个扫描。",
+      "translatedText": "1. **Use `namespace fs = std::filesystem;` to simplify code**：this abbreviation is almost a community standard\\.\n2. **Join paths with the `/` operator**：`auto p = base / \"subdir\" / \"file.txt\";`，concise and cross\\-platform\\.\n3. **When traversing large directories, use `directory_iterator`**: avoid loading all files at once\\.\n4. **Pay attention to exception safety in file operations**：many filesystem functions throw `fs::filesystem_error` on failure\\.\n5. **C++17's filesystem is basically sufficient**：C++20/23 add some convenience functions, but the core remains unchanged\\.\n6. **When scanning a large number of files, consider the error_code overload**：avoid having one exception path interrupt the entire scan\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 263,
+        "outputTokens": 153,
+        "costUsd": 0.000263
+      }
+    },
     "0f398b993524be5089010e662e92176ce49c3497a1081d1f5d84a38d0be70422": {
       "normalizationVersion": 1,
       "sourceHash": "2a88007b39c21dc4fb05bfd85a685f0575918ba5b649056c465bd12529772842",
@@ -125,6 +195,34 @@
         "inputTokens": 164,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "0f3c180c68f0b8d2543f7b00b25c2d2fa78064bfecd1c532451f0725c6ae7848": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0edc1169f1d2b913bc547ed3cb157a52f1f62c855f9fee67d47b875db2cec9c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果什么任务都没有，它会马上返回。",
+      "translatedText": "If there are no tasks at all, it will return immediately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "0f49be92898d88a17b34e22d31bd02b646f05de4c2829d28ffab607d28952ca8": {
+      "normalizationVersion": 1,
+      "sourceHash": "988b53d58cca5694a9e51c18bd1523710a3cca4a299d758a21f7120688dec913",
+      "contextFingerprint": "d35e212eae60f37dcdd123e1bf1157707b43c6fafbb643bef8267073eb4f2736",
+      "sourceText": "这次让两个线程都调用 `io.run()`，观察回调可能由不同线程执行。",
+      "translatedText": "This time, have both threads call `io.run()`, and observe that the callback may be executed by different threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     },
     "0f5b02dd8eeffbe703a4a26b5772732c158c4e747e64cab37d9378b98b159f82": {
@@ -279,6 +377,62 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "0fb87fc2dc557dd63cd4f113bcd76640e3d324ccb3e6bdeb0727296f2af1ce84": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e401bb110e96dc96650cce3833b27c47bfa951b0f073dc08979fc0c130512cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个线程也不会退出。",
+      "translatedText": "This thread will not exit either\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "0fc7dbfa7229c787cfbd0d658445f5d7fcd5db8f32e175852c856424b7b70b89": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e7f06a56a7b5fefb320a73962df97364a90cd4c6450dc8e27c6ec6de350994c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它可以理解成标准库替你写了：",
+      "translatedText": "It can be understood as the standard library having written it for you:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "0fcbc736cb65034c0e690c8d42f83f9fb27f80c445deb517ec44056fd66739da": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd46ab53271e44299cf08414de910126bbe3a64dbd0b6fc19e735993bedee303",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些工具很多都可以用：",
+      "translatedText": "Many of these tools can be used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "0ff2fe488a0a05e01a0754a9cb0cdebf5b81df1a11c19415cb446efd246e95de": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfd8d098b45503d7fbf64612f0e5e0421a0201e48bc91a0e4398684b53bc8320",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 模板参数和初始计数不是一回事",
+      "translatedText": "### Template parameters and initial counts are not the same thing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "0ffc30ac367d568e143433d71de5d3cb2581c6fc59f78fe0d0772d5072f07c1b": {

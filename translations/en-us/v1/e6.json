@@ -57,6 +57,34 @@
         "costUsd": 0.000055
       }
     },
+    "e627779608b936582fc1fe023a3bcfe6e346df38145478bc9e9ac3eda3ced8aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4314c407b7ba15c9d1ef888d5abbf3a6384501687cc4f6753aa34f9d7087947",
+      "contextFingerprint": "182f39b88ca6c8d58c29a36f546ca985ccc3ac3950e2ec2affb4b93f07ea5a87",
+      "sourceText": "#### `acceptor.accept(socket, ec);`",
+      "translatedText": "#### `acceptor.accept(socket, ec);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "e630892b68c9fe5b42d83ca1997d721825db814062a3b023186fe81fe54cbf9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "161670467af4cf5de1c63fde22b184a254a566edeef798080d2728025ce6f7b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "2 秒没有到之前，下一行不会执行。",
+      "translatedText": "The next line will not be executed until 2 seconds have elapsed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "e6333f23f1fb003ebe8a90bf0c87a0068b185a38342f38fd804aad43ab677bd8": {
       "normalizationVersion": 1,
       "sourceHash": "1d5869a168869f2df692ce15c7ac8cc7763df2313bcd63dbb0e672bf2b34083a",
@@ -69,6 +97,34 @@
         "inputTokens": 149,
         "outputTokens": 28,
         "costUsd": 0.000079
+      }
+    },
+    "e6369e08d03a41e810959b2bdf715d3fd9a5ef7a436b8f02b3f94f99f143656d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8c6f4149fd0f939ba242b4549accb24bbf53b7ccef071efef48a431d6ac420b",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 门没开我就先睡觉，等有人叫我再起来看看。",
+      "translatedText": "> If the door hasn't opened, I'll go to sleep first; when someone calls me, I'll get up and take a look\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 34,
+        "costUsd": 0.000084
+      }
+    },
+    "e636fef7065b8759430f0c20fef06dd5ced09c9aa2266e1f5c63fdd87d67b7cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "064cf1b41bc9d6cdef97edb8f5d811a4b49cea5350070c7297399c326017c8fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以想象成：",
+      "translatedText": "It can be imagined as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "e63851771e3559d3863828c2e6235b428fc5b80a916a2fa96516f59b272ce405": {
@@ -113,6 +169,20 @@
         "costUsd": 0.000052
       }
     },
+    "e663ec37e4091f5950c066a9f335c601cd046d255f050dbde5b67a9f39096ad7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0199d173b7f3500142098bee1be443889d4022d4953d47925e7bce3d36af07a",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "对于 C++20 中“启动后持续运行、退出时需要安全停止”的后台线程，一般可以优先考虑：",
+      "translatedText": "For the background threads in C++20 that “run continuously after startup and need to stop safely on exit,” the general priority can be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 43,
+        "costUsd": 0.000101
+      }
+    },
     "e66ba190c3b4428894ac124045d0ee665a17cba20301db394baa93f91fb6df26": {
       "normalizationVersion": 1,
       "sourceHash": "9e36d2ac35d272133af2d65ff802a5394449f8df082d291fd5be7cf87944f1c1",
@@ -125,6 +195,20 @@
         "inputTokens": 143,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "e66fd5a2054a52e45c2bbd79c1bae023e70a79cb8a4741ef8da4ff5c27c7b495": {
+      "normalizationVersion": 1,
+      "sourceHash": "302fa37eb2213871cae36339f65a9e00fbd97b11c1dd98e0a571bc0098f8e8ad",
+      "contextFingerprint": "85b6e92a305add33d4ba36e48c1a1f23a5c7944cb0bc47fa6ec95642fd552d19",
+      "sourceText": "> 这个 atomic 类型在当前实现中是不是始终保证 lock-free。",
+      "translatedText": "> Does this atomic type always guarantee lock-free in the current implementation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 27,
+        "costUsd": 0.000078
       }
     },
     "e67e0508beb055a0437a4642d7454f8da4c79a6800e2d2d1109e82a51f611b8d": {
@@ -225,6 +309,20 @@
         "costUsd": 0.000051
       }
     },
+    "e6c21b80005b8e553a5a611540f42c321a89bc3d0a360031b83969d7e5dda0cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ff4349005e53cb3af2a408c70b3eca0674c4dcef64be97c17ab2c93b47856c5",
+      "contextFingerprint": "1916f7efa0bd88257209bcfaad924bd17e68322923d709492f3cda220d9b1975",
+      "sourceText": "如果使用 `Unix Makefiles`，构建命令仍然可以用：",
+      "translatedText": "If using `Unix Makefiles`, the build command can still be used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "e6db17de92f3869c44105896ea352fce023adb346a6ac3c89aaaf607baf557f1": {
       "normalizationVersion": 1,
       "sourceHash": "2513ea753f8bd2b450e2c44387087b1cbb342280317dc6c07b9fc84533af4338",
@@ -237,6 +335,20 @@
         "inputTokens": 158,
         "outputTokens": 45,
         "costUsd": 0.000102
+      }
+    },
+    "e6f9e15a3b165cb7ec5a668930a724b5a1838a8a9edc6f6460a5c6f4a150671a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4fc5863a727ac33e089b6bf009c8681a64fdd716df73ba63177859eeaf13f3a",
+      "contextFingerprint": "d4df7236b40c11508b9518c5c9e0a3dffd0fc1973cff70f212608e2472485953",
+      "sourceText": "1. 学 `nullptr`：写两个重载函数，分别接收 `int` 和 `int*`，观察 `0`、`NULL`、`nullptr` 的区别。\n2. 学 `enum class`：把普通枚举换成枚举类，看看哪些隐式转换被禁止。\n3. 学智能指针：先写一个提前 `return` 的手动 `new/delete` 例子，再改成 `unique_ptr`。\n4. 学 Lambda：分别用按值捕获和按引用捕获，观察外部变量是否变化。\n5. 学 `std::function`：把多个不同 lambda 放进同一个 `vector`，统一执行。\n6. 学并发：让两个 1 秒等待任务先顺序执行，再放进两个线程中执行，对比耗时。",
+      "translatedText": "1. Learn `nullptr`: Write two overloaded functions, receiving `int` and `int*` respectively, and observe the differences between `0` , `NULL` , and `nullptr`\\.\n2. Learn `enum class`: Replace a plain enum with an enum class, and see which implicit conversions are prohibited\\.\n3. Learn smart pointers: First write a manual `return` example that `new/delete` early, then change it to `unique_ptr`\\.\n4. Learn Lambda: Use capture by value and capture by reference respectively, and observe whether external variables change\\.\n5. Learn `std::function`: Put multiple different lambdas into the same `vector` and execute them uniformly\\.\n6. Learn concurrency: Have two tasks that each wait 1 second execute sequentially first, then put them into two threads and execute them, and compare the elapsed time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 256,
+        "outputTokens": 148,
+        "costUsd": 0.000255
       }
     },
     "e6ff45947846c562890eb4fb58273a3cb6d7032015fadc9fa7cbdf6aa88a3dfb": {

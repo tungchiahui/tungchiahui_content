@@ -15,6 +15,20 @@
         "costUsd": 0.000058
       }
     },
+    "ff08b889f05f88496dc26e899bb3b8e808eeb6a4f9da53d7a76e5affa607c344": {
+      "normalizationVersion": 1,
+      "sourceHash": "60ba5f8e0479bb66959c77bff66c1dc557e7140aa1b28593434c26b318f5efe9",
+      "contextFingerprint": "ac8580b8254e37ace6a3197f732dfd4bebe949cf6e866abf53da72ae166d776f",
+      "sourceText": "所以这里直接记住他会自动把自己的`stop token`传入进去就行了，不需要我们手动传入。",
+      "translatedText": "So just remember here that it will automatically pass its own`stop token`argument in, and we do not need to pass it manually\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
     "ff1b54e9752d50ca5d32f26e066dff7db93871dca523811e94f949f408b02e80": {
       "normalizationVersion": 1,
       "sourceHash": "a45d63e45957ac1ed6d755c9f19c7f146c58ccccb075064d6ec403a9f5b169a4",
@@ -71,6 +85,20 @@
         "costUsd": 0.000052
       }
     },
+    "ff5d8c9cbc1a99f6f756eaac450173913587952737734345d6fa8fc7aa4e59e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "03a04b5c6a41e028ad0bf887a83a38a3cdbde50fac5ba0ddeffaebf17709d7f5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是非常常见的误区。",
+      "translatedText": "This is a very common misconception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "ff7d417bae52ceca7291bf28c2212b5ec690a294c9210151c4a06e53723c1976": {
       "normalizationVersion": 1,
       "sourceHash": "87fc0db7841d163c41982ec40783e1c8c55633896627cf0e58d996670fd493ac",
@@ -83,6 +111,20 @@
         "inputTokens": 134,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "ff9f5086ab5bb518af1dea7a1f190829e6c6b038c9cfd7b87559151f66c1b5be": {
+      "normalizationVersion": 1,
+      "sourceHash": "2372e31bd7d80668de14bef78b4bd2970acce4ca58cf9392ea3c23a9dd26f411",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### latch 示例",
+      "translatedText": "### latch example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "ffa6cd7377c605a1be2a2e954836aeb98348608f74011f14d968a2957bd9b6ba": {
@@ -127,6 +169,34 @@
         "costUsd": 0.000063
       }
     },
+    "ffbbde6a02c2049569862e92e58e3932085b985160c8624ae996bcad2efc95e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ef838dfd62290c33eeffd1bfd1e4c5c30e82ed86d8807cdebb2ea4f098bf96b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "没有关系。",
+      "translatedText": "It doesn't matter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "ffbf551d3bf20a82068c6f608aee6bea1a9c279d87cc40055eb1a155dd3d6cfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7a7b28ae960cd63d02ee405043bed464b1f0ebadf940cd7c9b799a44f9d5636",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "又建立了发送队列：",
+      "translatedText": "A send queue was also established:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "ffcbc6d4bf81bcfa32f9bf32e5902c8dd6f30c169c9c0d66f7f4017ad9f2e890": {
       "normalizationVersion": 1,
       "sourceHash": "dfb2a41c9a572a35ba9e4dad6c80cf143fb73a0a4ea7f166afc97defe5aa9ec3",
@@ -155,6 +225,34 @@
         "costUsd": 0.000201
       }
     },
+    "ffd74134048388071127163b7d2955c8c01b6bffbfd9c59376963a7c0124589d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8aeb398a35315bb2e516ec89560b23a034ec4beb83f556d5f1b3035c12764ea4",
+      "contextFingerprint": "0c387bab0e7ca8779c109e758bfe32d780f5bff48dd5b0eaa67eb61262d4af08",
+      "sourceText": "虽然 `jthread` 会自动 join，但你仍然可以自己写：",
+      "translatedText": "Although `jthread` joins automatically, you can still write it yourself:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "ffe10be7b1ce39dbd13d1ded7b576220858c5d31c1d012bec1ce185eac2c877a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff1afa99986fb68b7abc8e0fee4bd100c8d8620e8e83b7c9f13d5d97b4b58d07",
+      "contextFingerprint": "9566b535fdb10d49b46c2c473ea834068fb68349d93f71b78342f874ffb35f47",
+      "sourceText": "### `std::jthread` 会自动处理线程结束",
+      "translatedText": "### `std::jthread` will automatically handle thread termination",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "ffe358c56446429ee81c8fef637da7f07914c386d883b17449987c1af22abe4e": {
       "normalizationVersion": 1,
       "sourceHash": "8374e1e73ca5bc9af84f700be03bbded5e89007136ba7d66177e22954e643144",
@@ -181,6 +279,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "fff89c9a016d6941ba5ce8779676456fd5a66c3803ee709a822f18bcf0752dfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0f9a1e87a2515b3cda441edce7d1596551b0ead978a3642e220add77567e414",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很多下位机串口协议都是一行文本，例如：",
+      "translatedText": "Many lower\\-computer serial port protocols are line\\-based text, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     }
   }
