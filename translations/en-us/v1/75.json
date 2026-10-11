@@ -71,6 +71,20 @@
         "costUsd": 0.000085
       }
     },
+    "751e61998ff1c2d7ab9ceb49618837c653509333d0866feb480adfe4ee7ccbd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f76416a02aa725c5b099077cfee8a5c4d15c0a20ad988dcdaba560d3a1b4103b",
+      "contextFingerprint": "fc2821f7555851daa805f070c5cdd3215abe039ce93eb99bab5861a773c9daa6",
+      "sourceText": "首帧之后，原地转底盘或独立转云台时，若底盘TF的x、y不变，扫描会先被外层拦住；即使内层转角本可达标，也没有机会参与判断。**只调小minimum_travel_heading，不能解决当前入口对原地转动扫描的限制。** 这里涉及建图取样，不控制底盘wz、云台机械yaw，也不是可爬坡角。",
+      "translatedText": "After the first frame, when rotating the chassis in place or rotating the gimbal independently, if the x and y of the chassis TF remain unchanged, the scan will first be blocked by the outer layer; even if the inner\\-layer rotation angle could meet the requirement, it has no chance to participate in the judgment\\.**Only reducing minimum_travel_heading cannot resolve the current entry point's limitation on in\\-place rotational scanning\\.** This involves mapping sampling; it does not control the chassis wz, the gimbal mechanical yaw, and it is not a climbable slope angle\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 129,
+        "costUsd": 0.000222
+      }
+    },
     "7526b6a71ddb17fd016012548280a4dac394f71e039bda586c6b26a46f710d84": {
       "normalizationVersion": 1,
       "sourceHash": "f459576028219511ca956887ce415a92a06aadf58fa9c862a63e1be334b87a10",

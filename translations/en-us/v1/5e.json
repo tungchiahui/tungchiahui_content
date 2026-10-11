@@ -323,6 +323,20 @@
         "costUsd": 0.000077
       }
     },
+    "5e564a360e1051335d30743d49a912247429e53b286a16c57b9e53bed9f95a3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "54820018c7619c45ecd6120e2dba663a40cd9e279d1452991785af19eae75e37",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实物到位、另行获准检查后，这块优先核对：静止三轴加速度合起来是否约1 g、转速读数是否接近零且单位正确；点云和IMU是否按预期轴向发布；整机安装与内部外参有没有混填；车体／云台转动或颠簸时，读数是否出现限幅、位姿和墙面是否跟得上。",
+      "translatedText": "Once the hardware is available and a separate inspection is authorized, prioritize these checks: whether the combined stationary acceleration across all three axes is about 1 g; whether angular-velocity readings are near zero and use the correct units; whether point clouds and IMU data use the expected axes; whether sensor installation and internal extrinsics have been confused; and whether readings clip, or the estimated pose and walls fail to keep up, when the chassis or gimbal rotates or encounters bumps.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5e59ef85ec60674396ff8ae0aba080c44ad7358a3f7eab506679ddf65fd30bc8": {
       "normalizationVersion": 1,
       "sourceHash": "5dfe4f4699c027be87401f61138d83ffb1f4a25a1308358e869339fc3a02efff",

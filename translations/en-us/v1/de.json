@@ -113,6 +113,20 @@
         "costUsd": 0.000154
       }
     },
+    "de1c11cf28a7a1ebb59095cbb69bb5e3762cd2d303b492515184b98647e4d226": {
+      "normalizationVersion": 1,
+      "sourceHash": "411d90d80b2d2d4fd767036f11aec85761307b442667294589097e1d4a44acea",
+      "contextFingerprint": "6d49ce232e3860bef361e6db434661508a6d64f3de8bea77c60a871e47f3f397",
+      "sourceText": "- **首帧方向：** `current_robot_base_angle_` 未显式初始化，发布TF与转换速度前也没有“已取得有效 yaw”的保护；首个有效里程计前的结果不能视为可靠。\n- **旧速度复用：** 配对回调使用后没有清空缓存速度。零速度走直接发布分支，却没有清掉先前缓存的非零指令；之后存在再次通过配对回调发布旧指令的路径。\n- **超时含义：** 写死的0.5秒只检查最近是否收到局部路径，不检查速度指令的新鲜度，也不是自动停车机制；20 ms定时器只发布TF，不会定时发布停车速度。\n- **时钟混用：** 活跃时间判断使用默认 `rclcpp::Clock()`，Humble中是系统时间；TF时间戳使用节点时钟，可受 `use_sim_time` 影响，定时器又用真实时间。True不能让这些步骤统一按仿真时钟运行。",
+      "translatedText": "- **First\\-frame direction:** `current_robot_base_angle_` is not explicitly initialized, and there is no valid\\-yaw guard before publishing TF or converting velocity\\. Results before the first valid odometry message cannot be treated as reliable\\.\n- **Stale velocity reuse:** The pairing callback does not clear cached velocity after using it\\. Zero velocity takes the direct\\-publication branch but does not clear an earlier cached nonzero command\\. A later pairing callback can therefore publish the old command again\\.\n- **Timeout semantics:** The hardcoded 0\\.5\\-second check only checks recent local\\-path reception, not velocity\\-command freshness\\. It is not an automatic stopping mechanism\\. The 20 ms timer only publishes TF, without periodically publishing stop commands\\.\n- **Mixed clocks:** Activity checks use the default `rclcpp::Clock()`, which is system time in Humble\\. TF timestamps use the node clock and can be affected by `use_sim_time` , while the timer uses wall time\\. True does not make these steps consistently use simulation time\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "de210e8269dcf15394513ed2ee592ec06c2f9b31d5ab1fb366f68a41fd5c7ff0": {
       "normalizationVersion": 1,
       "sourceHash": "3aba0c958aae878d57be7b94d17715f80d609e2f3757f750fb1f6615f0104569",
@@ -405,6 +419,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "de84245c3a4489f461f0579459da1215abedc374c89b4e1fc7b2d5aa95d52309": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a18dbe8b45c635f4b2ada0a67d30bce3f0b1794464d3da7929778917de513f7",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### resolution（二维图每格多大）",
+      "translatedText": "###### resolution (how large each cell is in a 2D image)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "de84ba3a5860e872ffd05f4468bc6752d7951375910f78a6d75c4a3f0eedbe75": {

@@ -589,6 +589,20 @@
         "costUsd": 0.000052
       }
     },
+    "87906c5c13360a9170a792741224d440c48ef61b916ff04355b7461229a1498a": {
+      "normalizationVersion": 1,
+      "sourceHash": "0020f6a919b1c1a02a48072466902727e0f69bafd40e95d9ed03aedee86edb32",
+      "contextFingerprint": "f97520130c18f57f6075776dfa1f6b314b5d589bcb9c70619c6f9f17450d0e3b",
+      "sourceText": "参数名按当前源码区分大小写：do_loop_closing与小写loop_*是实际键名；教程中的do_loop_close、Loop_*等写法不能直接作为本工程参数名。",
+      "translatedText": "Parameter names are case\\-sensitive according to the current source code: do_loop_closing and lowercase loop\\_*are the actual key names; the do_loop_close, Loop\\_*and other forms in the tutorial cannot be used directly as parameter names in this project\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 71,
+        "costUsd": 0.000141
+      }
+    },
     "8790ebeaad188741bbbe1313b7c912ed2bc4d808772b11a0f7d9aa322253cb2c": {
       "normalizationVersion": 1,
       "sourceHash": "e0b7c644d4e11586b6e2285323ec15d93d48ed097fd585c768e11fefba7da4bf",
@@ -869,6 +883,20 @@
         "costUsd": 0.000051
       }
     },
+    "87c5e08f9fe1ae400074c455132d0dc4edcdda3f53ce1aa58612b09771921c84": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea1fd2f9a5a2e69c5c6e2258909a9d8276bb8022b19d10a48eb848a65428dffd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同样覆盖面积，格子边长减半，格数约变为4倍。更细也不等于更准：定位漂移、地形误分类、投影方向或点时间错误仍会把错误轮廓画进更细的格子。",
+      "translatedText": "With the same coverage area, halving the grid cell edge length roughly quadruples the number of cells\\. Finer does not necessarily mean more accurate: positioning drift, terrain misclassification, projection direction, or point timing errors can still draw incorrect contours into finer cells\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 59,
+        "costUsd": 0.000124
+      }
+    },
     "87cbbcd8bbc089d30ac9a7aff5a60a0990bb8829e636e4c748357445ab8190f5": {
       "normalizationVersion": 1,
       "sourceHash": "a7e65a1246b4e7b7768f41f909edca2c065b72df3c0701855a25671900387803",
@@ -1035,6 +1063,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "87eb7db22e440cf2323eb676d1b2807329115aeb917dca4dca2fafb5c839587f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c98e10b36ce1a0e740b4238865085082bdc0d9897b3a1940287e1ee83ed8399b",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "是否需要开启，应结合长距离、转弯和重访结果判断。二维修正不会回写Point-LIO保存的PCD；当前建图又采用静态单位map→odom，启用前需一并核对二维图、PCD和定位参考系的关系。该开关不能修复重力、外参、点时间或坡面误分类。",
+      "translatedText": "Whether it needs to be enabled should be determined based on long\\-distance, turning, and revisit results\\. 2D correction will not write back to the PCD saved by Point-LIO; the current mapping also uses a static identity map→odom, so before enabling it, the relationship among the 2D map, PCD, and positioning reference frame must be checked together\\. This switch cannot fix gravity, extrinsics, point timing, or slope misclassification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 108,
+        "costUsd": 0.000193
       }
     },
     "87ec20de9d8626fb7e62cba068aba37891d9038b7ae1e510f14c9df4db4ba10e": {

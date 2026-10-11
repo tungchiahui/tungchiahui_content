@@ -211,6 +211,34 @@
         "costUsd": 0.000084
       }
     },
+    "2136abe74ad0e4efaa95de780dd3c9c619330b1991193e6cea3a69731cbdae1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "99df25a96aa7c111e5be0326f2617936c622c843bcb89869a596ff8cb0153ab3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "True时，将一份扫描中有效回波端点的平均位置作为图距离判断参考；False用扫描中心。这里的重心属于“看到的环境点”，不是底盘质量重心，也不把导航参考系改成云台系。",
+      "translatedText": "When True, use the average position of valid echo endpoints in one scan as the reference for map distance determination; when False, use the scan center\\. The centroid here refers to the 'observed environmental points,' not the chassis center of mass, and it does not change the navigation reference frame to the gimbal frame\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 70,
+        "costUsd": 0.000138
+      }
+    },
+    "213764d97c7d36a14dd6c4860d626ceb771d0b7be28d43937175cb9539032914": {
+      "normalizationVersion": 1,
+      "sourceHash": "87715717b21adad39492549af981388af598a3738ce85eb4d353342e0438693b",
+      "contextFingerprint": "b790e4ba972a56959faa16b26dcd83410702d85cd956f786052c45a42db438e3",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `use_sim_time` | `False` | 不适用，布尔 | **上实物前必须核对并正确配置** | 选择节点与 TF 缓存使用的时间源 | 不适用 | 不适用 | ROS2 标准参数；实物通常 False，仿真 True 并依赖 `/clock`；整套 launch 会覆盖 YAML 值；速度差分仍使用 `steady_clock`，不随此开关切换 |\n| `lidar_frame` | `\"front_mid360\"` | 不适用，坐标系名称 | **上实物前必须核对并正确配置** | 指定机械 TF 查询的目标雷达系，以及输出 `sensor_scan` 的参考系 | 不适用 | 不适用 | 输入 `lidar_odometry` 必须实际表示该雷达位姿；每次配对按点云时间查询雷达←底盘、雷达←指定机体系；不是内部 IMU 的名称 |\n| `base_frame` | `\"base_footprint\"` | 不适用，坐标系名称 | **上实物前必须核对并正确配置** | 指定底盘位姿转换目标和所发布 TF 的子系 | 不适用 | 不适用 | 当前发布输入里程计参考系→`base_footprint` 的 TF；不决定 `odometry` 的子系；不会自动将 z、roll、pitch 置零；独立 launch 默认 `chassis` |\n| `robot_base_frame` | `\"gimbal_yaw\"` | 不适用，坐标系名称 | **上实物前必须核对并正确配置** | 指定输出 `odometry` 的机体系及其位姿转换 | 不适用 | 不适用 | 当前里程计表示 yaw 云台层，角运动包含云台相对底盘的 yaw；不单独广播参考系→`gimbal_yaw` TF；速度字段的时间与坐标表达有源码疑点 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `use_sim_time` | `False` | Not applicable; boolean | **Verify and configure correctly before running on hardware** | Select the time source for the node and TF buffer | Not applicable | Not applicable | Standard ROS2 parameter; usually False on hardware, True in simulation with `/clock`; the complete launch overrides the YAML value\\. Velocity differencing still uses `steady_clock` and does not switch with this setting |\n| `lidar_frame` | `\"front_mid360\"` | Not applicable; frame name | **Verify and configure correctly before running on hardware** | Specify the target LiDAR frame for mechanical TF queries and the reference frame of output `sensor_scan` messages | Not applicable | Not applicable | Input `lidar_odometry` must actually describe that LiDAR pose\\. For every matched pair, use point cloud time to query LiDAR←chassis and LiDAR←specified body frame\\. This is not the internal IMU frame name |\n| `base_frame` | `\"base_footprint\"` | Not applicable; frame name | **Verify and configure correctly before running on hardware** | Specify the chassis pose transformation target and the child frame of the published TF | Not applicable | Not applicable | Currently publishes TF from the input odometry reference frame to `base_footprint`; does not determine the child frame of `odometry` or automatically zero z, roll or pitch\\. The standalone launch defaults to `chassis` |\n| `robot_base_frame` | `\"gimbal_yaw\"` | Not applicable; frame name | **Verify and configure correctly before running on hardware** | Specify the body frame and pose transformation for output `odometry` messages | Not applicable | Not applicable | The current odometry describes the yaw gimbal layer, including gimbal yaw relative to the chassis\\. It does not separately broadcast reference\\-frame→`gimbal_yaw` TF; timing and coordinate expression of velocity fields have source\\-code concerns |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "213a2a0deaa4f1b5b9db65c558c37d9302961f5d39c257f235761e70966058b3": {
       "normalizationVersion": 1,
       "sourceHash": "b8ed749291041208e0f385e4551535b84435cbc544a6f001efcc8ae38a7087a7",
@@ -373,6 +401,20 @@
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1790774784709-8b876bb3.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "218820f0be1732ea6ff4042fa1281e3a152d6677896c1da0f2c24869c110488a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3079da602e86960221be23ab73beedbe24e11d4f2899865626619b3567db1db",
+      "contextFingerprint": "86ce7ffb5cdb727331e9013d4670020eba986600468926c15537efd0d7d43164",
+      "sourceText": "先求平均加速度mean_acc = [0.00423894,0.71588876,0.69592434]\n再求这个mean_acc的模，mean_acc.norm() =sqrt(0.00423894²+ 0.71588876²+ 0.69592434²) ≈ 0.99841142 ≈ 1.0\n原始三轴合起来约1 g；代码内部使用 G_m_s2≈9.81 m/s²进行换算。这里的1与9.81对应不同单位。\n所以代入公式得[0.04166067, 7.03407005, 6.83785222]，公式里有个负号，取反后得出[-0.04166067, -7.03407005, -6.83785222]",
+      "translatedText": "First calculate the mean acceleration: mean_acc = [0.00423894,0.71588876,0.69592434]\nThen calculate the magnitude of mean_acc: mean_acc.norm() =sqrt(0.00423894²+ 0.71588876²+ 0.69592434²) ≈ 0.99841142 ≈ 1.0\nThe combined raw reading across the three axes is approximately 1 g. The code uses G_m_s2≈9.81 m/s² internally for conversion. The values 1 and 9.81 here correspond to different units.\nSubstitution into the formula gives [0.04166067, 7.03407005, 6.83785222]. The formula has a minus sign, so negating it gives [-0.04166067, -7.03407005, -6.83785222]",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,
@@ -811,6 +853,20 @@
         "inputTokens": 147,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "21ea6a6e2da666fe748bf32173d1baae646ef0fa94eb21b7cebf69e192547d96": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bd52a67a77da1e881374f7652fc3ef90abaecc81ae25b23109dbf2c8d4f9e8f",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 三项必须配套：当前数值合法，涂抹已到上限",
+      "translatedText": "###### All three must be used together: the current value is valid, and the coating has reached its upper limit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 28,
+        "costUsd": 0.000076
       }
     },
     "21eeb143481b6316817c22908539dff43886c23bbf4d4293833c77f460f06756": {

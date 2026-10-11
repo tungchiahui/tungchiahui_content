@@ -771,6 +771,20 @@
         "costUsd": 0.000062
       }
     },
+    "b7ad02c9299c2b6b58f25b7eb3c6b33bc3697c0293939bc84e3a76265bec7818": {
+      "normalizationVersion": 1,
+      "sourceHash": "524467fc5e16f25bc2472e8e0dcdb8d4e2d7e08f8742a1c5d002d91c6c899ae8",
+      "contextFingerprint": "866a35fe871de8bb19563664687b81e034b96f0b71e37a05a666d9d20a2071ba",
+      "sourceText": "| 实车上遇到的问题 | 优先核对 | 用直白的话解释 |\n|---|---|---|\n| 启动后定位不对或找不到地图 | `prior_pcd_file`、地图来源与坐标 | 要提供当前场地的三维PCD；Nav2二维地图与PCD还必须使用对应的位置和朝向 |\n| 车停在地图中某个位置，却一开始就对不上 | `init_pose` | 本参数直接给 `map→odom` 一个初始猜测，不是一律填写“底盘在地图中的位置” |\n| RViz点了初始位置，朝向却偏了一个云台角 | `robot_base_frame` | 当前消息被当作 `gimbal_yaw` 的地图位姿；箭头应对应云台yaw层朝向，不能一律当底盘车头 |\n| 同一地图，换个云台零位启动后整体方向不同 | `base_frame`、`lidar_frame` 与PCD建图时的参考 | 源码启动时用当时的底盘←雷达变换处理整份地图；雷达随yaw转，建图和当前零位是否对应必须核实 |\n| 定位跳到相似墙面、柱子或另一条走廊 | 初值、`max_dist_sq` 和现场可见结构 | 匹配距离放太宽可能接受错误对应，但初值、重复结构或坐标错误也不能只靠收紧距离解决 |\n| 定位计算慢、细节不足 | 两个 `leaf_size`、`num_neighbors`、`num_threads` | 先确认点云正确且足够，再权衡细节和计算量；更密的点不保证更准确 |",
+      "translatedText": "| Hardware problem | Check first | Plain\\-language explanation |\n|---|---|---|\n| Localization is wrong after startup, or the map cannot be found | `prior_pcd_file`, map provenance and coordinates | Provide a three\\-dimensional PCD for the current site\\. The Nav2 two\\-dimensional map and PCD must also use corresponding positions and orientations |\n| The robot is stationary at a known map location but does not align initially | `init_pose` | This parameter directly gives `map→odom` an initial guess; it is not universally the chassis position in the map |\n| The initial position clicked in RViz has a heading offset by a gimbal angle | `robot_base_frame` | The current message is treated as the map pose of `gimbal_yaw` \\. Its arrow should represent the yaw\\-gimbal layer’s heading, rather than always the chassis’s front |\n| The same map starts with a different overall orientation after changing gimbal zero position | `base_frame`、`lidar_frame` and the reference used during PCD mapping | At startup, the code transforms the entire map using the then\\-current chassis←LiDAR transform\\. Since the LiDAR rotates with yaw, verify that mapping and current zero positions correspond |\n| Localization jumps to a similar wall, pillar or another corridor | Initial guess, `max_dist_sq` and visible site structure | An overly loose matching distance may admit incorrect correspondences\\. However, initial guesses, repetitive structures and coordinate errors also cannot be fixed solely by tightening distance |\n| Localization is slow or lacks detail | Both `leaf_size`、`num_neighbors`、`num_threads` | First ensure the point cloud is correct and sufficient, then balance detail against computation\\. Denser points do not guarantee greater accuracy |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b7b7a61f5a1b7448eb75d5f4e167a5307aef42335982a2ddd47b35092a358eb9": {
       "normalizationVersion": 1,
       "sourceHash": "d9d0b63b7e240f5d6d192889aff36eaf17a747fa54041a45bb5aa53f3e363948",

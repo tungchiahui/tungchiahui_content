@@ -799,6 +799,20 @@
         "costUsd": 0.000074
       }
     },
+    "d0c295382549d9ebff79e428f8e451e132f7f6225e818812782be3ea493b1eaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "379b79413f7e96cc1351b8222ba1e6dffecc851cb1dd28ab95e2c4053fac7cba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "单位是rad，0.1不是0.1°。内层比较两份扫描的平面yaw变化；调小可让更小转角满足内层条件，调大要求转得更多，但它不能绕过前面的时间／位移筛选。",
+      "translatedText": "Units are rad; 0\\.1 does not mean 0\\.1°\\. The inner layer compares planar yaw changes between scans\\. Decreasing this lets smaller turns pass the inner condition; increasing it requires more rotation\\. It cannot bypass the earlier time and displacement filters\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d0c84630c7685c466dd9e8ee838393cee9372ad847fbc7812f69645ce2d66595": {
       "normalizationVersion": 1,
       "sourceHash": "156c8c4d858bd1c57a95ea11b4643d7c1e80daf1d1df886608d0177ff5ca0218",

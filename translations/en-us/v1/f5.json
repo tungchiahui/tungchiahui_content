@@ -309,6 +309,20 @@
         "costUsd": 0.000055
       }
     },
+    "f54a9b5ca9e03eae90a60623407a176f0b2b2d4d15b23cda621b6a3ae76c1510": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5058b80f7dcfe35ab37ec3176ec8b4b9ba2ce57896764499e8d54c022c39900",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 二维建图与PCD保存是两条输出链；常规导航同时使用二维静态地图和三维先验点云；当前关闭扫描匹配和闭环；预条件器与Dogleg类型在当前算法组合下不参与求解。\n- **已有验证范围：** 仅独立Point-LIO静止与约20 cm低速往返；二维建图、坡道投影、长距离轨迹、闭环及这组求解器的实际优化效果尚未验证。\n- **实物待核实：** 二维图与PCD坐标一致性、真实坡道和台阶区分、车辆上下坡能力、云台转动时的地图稳定性，以及地图文件保存／重新加载结果。",
+      "translatedText": "- **Confirmed from the source code:** Two\\-dimensional mapping and PCD saving are separate output paths\\. Normal navigation uses both a static two\\-dimensional map and a three\\-dimensional prior cloud\\. Scan matching and loop closure are currently disabled\\. The preconditioner and Dogleg type do not participate in the current algorithm combination\\.\n- **Existing verification scope:** Only standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. Two\\-dimensional mapping, slope projection, long\\-distance trajectories, loop closure and actual optimization with these solver settings remain unverified\\.\n- **Pending hardware checks:** Coordinate consistency between the two\\-dimensional map and PCD; distinguishing real ramps from steps; vehicle climbing and descent capability; map stability during gimbal rotation; and map saving and reloading results\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f55942f8d70358ec32a79233386dcaf8b7b7fe6cbb1b2e973e2e17b939f6196c": {
       "normalizationVersion": 1,
       "sourceHash": "f3e18c11e5e65e21affd63b249479c3a64c9e6c095d2d040e9a2978255b36b7b",

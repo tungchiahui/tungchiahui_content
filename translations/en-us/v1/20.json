@@ -29,6 +29,20 @@
         "costUsd": 0.000061
       }
     },
+    "200e1f72ee99aaafb01bcee1f569c0d419c27b6e63719a6506ddfb782bb6cfea": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c1b09daf2780636882f1d393cb3a7594e109cd6dcb6942e14626abcd78ff7c4",
+      "contextFingerprint": "1825b4c45412d7a842766ceadb70e9d13a97f42918e0a109e3fda1578e94fbbd",
+      "sourceText": "扩展节点把水平地面分成写死的0.4 m格子，每格收集附近高度，选一个“这片区域的地面高度”。当前先排序，再取 `floor(0.2×样本数)` 处的高度；10个样本取从低到高第3个。False 则取最低高度。格子和邻域内有坡、障碍或离群点时，这个代表高度未必等于每个点下面的真实地面。",
+      "translatedText": "The extended node partitions horizontal ground into hardcoded 0\\.4 m cells\\. Each collects nearby heights and selects a representative ground height for the region\\. Currently it sorts the heights and selects the value at `floor(0.2×样本数)` ; with 10 samples, this is the third\\-lowest\\. False instead selects the minimum height\\. When a cell and its neighborhood contain slopes, obstacles or outliers, this representative height may differ from the true ground beneath each point\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "20126e3890dea39a77e336a0ef8a27c831fbeea90949837f1ecacce57ed7ce92": {
       "normalizationVersion": 1,
       "sourceHash": "8ba0ae2621a9826281649f8127758692861007a27de05d7dab34a5ebe863dc4a",

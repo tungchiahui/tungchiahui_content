@@ -463,6 +463,20 @@
         "costUsd": 0
       }
     },
+    "a9680d1945be744213d0c99d1fd402020274ce44e459b855b43ec8d1c3f7816c": {
+      "normalizationVersion": 1,
+      "sourceHash": "351221961d690bce6f3eb58100780c2800bd9214ca2b0d5aee7888a5072e2727",
+      "contextFingerprint": "5fab7b6065bc9544f0915013aca0e049b5fe247cdc46d48b8cfd8552a051f97e",
+      "sourceText": "整套reality／simulation入口把各自`config/reality/nav2_params.yaml`、`config/simulation/nav2_params.yaml`传给slam_launch，启动`sync_slam_toolbox_node`；这6项在两份配置中一致。默认通过已安装的pb2025_nav_bringup包目录寻找配置，指定params_file时以指定文件为准；当前安装副本与源码对应配置一致。",
+      "translatedText": "The complete reality and simulation entry points pass their respective`config/reality/nav2_params.yaml`、`config/simulation/nav2_params.yaml`configuration to slam_launch and start`sync_slam_toolbox_node`; these six settings match in both configurations\\. By default, configuration is located through the installed pb2025_nav_bringup package directory; a specified params_file takes precedence\\. The current installed copy matches the corresponding source configuration\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a96f387c5806347547616fca66559ed22febe4f568dd11a676a2730401629137": {
       "normalizationVersion": 1,
       "sourceHash": "9b4e1d703c55d5dd1e305a5033dafaf35bdbe4f82c817aa59be008e64818e1a1",

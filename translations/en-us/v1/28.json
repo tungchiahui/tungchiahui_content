@@ -645,6 +645,20 @@
         "costUsd": 0.000056
       }
     },
+    "289a0a0b9a95808202f1c367b12ad7f29dc4fc7a807309f860297ff0168bc9b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0484e7cae34ec05bb5979ce71413a0ef4d8c409cc6860d19cb421db8fac6b4ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启用后，近期窗口同时受10份和首尾中心10 m间距限制，超限就从最旧扫描开始移出，直到两个条件都满足。距离是首尾直线距离，绕圈回到附近不等于累计路程小；它也不是雷达回波的10 m量程。",
+      "translatedText": "When enabled, the recent window is simultaneously constrained by both the 10\\-scan limit and the 10 m head\\-to\\-tail center spacing; if either limit is exceeded, scans are removed starting from the oldest until both conditions are satisfied\\. The distance is the straight\\-line distance between the head and tail; looping back to near the start does not mean the cumulative path length is small, nor is it the 10 m range of the radar echo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 95,
+        "costUsd": 0.000171
+      }
+    },
     "289a603f8b384bf0250a57b8494342e0784c19e07ebe5ee54b1a097cc57eff86": {
       "normalizationVersion": 1,
       "sourceHash": "5238764485aca41fb1a9984ac6180f540e6864af112a60b22178a22416cd684e",

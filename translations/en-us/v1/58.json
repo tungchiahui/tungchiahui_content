@@ -43,6 +43,20 @@
         "costUsd": 0.000092
       }
     },
+    "5810ff1f73bb9fb4d8250f38454f0260eb253ee0df8b4b980ab8cf2cabd5c1b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b45ce1ee1527d74f56189064e5abfccbac7c98b7a28194c49b77a3c692126b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如车正常转弯30°，若里程计已正确反映这次转动，匹配无需额外修正30°。不能看到底盘或云台转得多，就直接把此项按同样角度增大。它也不负责pitch／roll、坡度识别或云台机械限位。",
+      "translatedText": "For example, if a normal 30° turn is already correctly reflected in odometry, matching needs no additional 30° correction\\. Large chassis or gimbal turns do not justify increasing this parameter by the same angle\\. It also does not handle pitch, roll, slope recognition or gimbal mechanical limits\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "58116988f72a914b0a7468478f132ee0266a8e6ecad1a79877266260a5701a1d": {
       "normalizationVersion": 1,
       "sourceHash": "d4d3a1b6d403022f42d959bf7a9a5ec112632a1952e1931b33d6b6f18c1b8a15",

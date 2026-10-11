@@ -29,6 +29,20 @@
         "costUsd": 0.000062
       }
     },
+    "690892a5623879f88ad8e3328830f72a7259e0c58b847397f3ec8b4e2eecbdb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "eeae076f9f748a9a7963616d0c7c503231180ca84bbdc1564d8a9c20a55dcc8b",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 生效路径与实物核对",
+      "translatedText": "###### Effective Path and Physical Verification",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "690a726f5763a7934350538bbf2fb34ea4ed1ff0081a270f5f360132ea589413": {
       "normalizationVersion": 1,
       "sourceHash": "38be62dabb6559b7d1daad94570eced74c49eeeb12a3e1697365429a47b5bffb",
@@ -41,6 +55,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "690f9505bd23f16ab3806e9cdd8d2f98150e9bda782581a15e4965310a34f74a": {
+      "normalizationVersion": 1,
+      "sourceHash": "00fd980793f5251183ca90bf2d62f6c21dbc1da9b2eb3e942579172d7cd2c8a2",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "这3项可理解为：**附近多大范围找位置、隔多远试一次、轮廓稍微错开时还给多少匹配分值。** 它们控制内部匹配网格，与输出地图resolution=0.05 m不是同一个网格。",
+      "translatedText": "These three settings can be understood as:**how wide a nearby region to search, how far apart to test positions, and how much matching score to retain for slightly misaligned outlines\\.** They control an internal matching grid, distinct from the output map grid at resolution=0\\.05 m\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "69126d43f763c6a4f3b5bc70c54b1342c4568b7015f8f074c961ae2e9817fb51": {
@@ -797,6 +825,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "69f2bfb487359ef8ee1b64cd93869457fb0769d7920f84ac28e65d9e54ce6fb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "fddab24a6907f4b6f20b4e3a0fd5374001965cc7d1405d05c8dd6c35cbf570b0",
+      "contextFingerprint": "02f8d1610c81c906e0e7ad8d878ff9f802d533cdedf7338d10344083cfe92ec0",
+      "sourceText": "PCD这一路，集成slam_launch把`pcd_save.pcd_save_en`覆盖为True；当前interval=-1，且scan_publish_en=True，点云持续累计，在程序正常退出的保存分支写出scans.pcd。异常强制结束可能来不及保存，长时间累计还会增加内存占用；新一轮保存可能覆盖同名文件，需要按场地和轮次归档。",
+      "translatedText": "For the PCD path, the integrated slam_launch overrides`pcd_save.pcd_save_en`to True\\. Currently interval=\\-1 and scan_publish_en=True, so the point cloud accumulates continuously and the normal\\-exit save branch writes scans.pcd\\. Forced abnormal termination may prevent saving; long accumulation also increases memory usage\\. A later save may overwrite the same filename, so archive by site and session\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "69f76b2eadd93f5fc2b03185c0a9a96a30eb93ab0f371496941c82b94506c346": {

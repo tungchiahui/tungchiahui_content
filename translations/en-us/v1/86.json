@@ -645,6 +645,20 @@
         "costUsd": 0
       }
     },
+    "86a4dfd0ea3fd4c0cefc4f1e064d35575fac0c2bd4917afca61bdad2b9a031a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "09dfcf57252c126a697909143e6d1e22e54ac7e17c8f881ebc3bd39ebf63e321",
+      "contextFingerprint": "887c000358877a400290c02ca24b4cc6be8911e4a160c2d21f0edbddf32ab05c",
+      "sourceText": "- **时间基准：** 分母是两次发布回调之间的真实单调时间，不是两帧消息时间戳之差。仿真加速、减速、暂停或回调积压时，差分速度可能失真；`use_sim_time=True` 也不会改变这条计算路径。\n- **坐标表达：** 位置差在输入参考系（当前 `odom`）中计算，姿态差使用 `q_current × q_previous.inverse()`，也在该参考系表达；写入 `twist` 前没有转到 `gimbal_yaw`。而 ROS 的 [Odometry 定义](https://github.com/ros2/common_interfaces/blob/humble/nav_msgs/msg/Odometry.msg)要求速度在 `child_frame_id` 中表达，当前实现与消息约定不一致。\n- **首帧处理：** 没有“已收到有效历史位姿”的标志，首帧也会进入差分；`previous_transform` 未用首帧位姿建立历史，首次 `previous_time` 与当前时间又相隔很短。首个速度结果可能异常，不能把它作为有效测量。",
+      "translatedText": "- **Time base:** The denominator is actual monotonic elapsed time between publication callbacks, rather than the difference between message timestamps\\. Simulation speed changes, pauses or callback backlogs may distort the differenced velocity; `use_sim_time=True` does not change this calculation path\\.\n- **Coordinate expression:** Position differences are calculated in the input reference frame, currently `odom`\\. Orientation differences use `q_current × q_previous.inverse()` and are also expressed in that frame\\. Before writing `twist` , no transformation into `gimbal_yaw` is performed\\. However, the ROS [Odometry definition](https://github.com/ros2/common_interfaces/blob/humble/nav_msgs/msg/Odometry.msg)requires velocity to be expressed in `child_frame_id` ; the current implementation violates the message convention\\.\n- **First\\-frame handling:** There is no flag indicating that a valid previous pose has been received, so even the first frame enters differencing\\. `previous_transform` is not initialized from the first pose, and the initial `previous_time` is separated from the current time by only a short interval\\. The first velocity result may be abnormal and cannot be treated as a valid measurement\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "86a6e001e42db9934af311b8e65369135968e951e6a58197fb12d6c6935944fc": {
       "normalizationVersion": 1,
       "sourceHash": "dbbdf68bc5a834b36a82d0e723725f9fdc353790cdcfa9b6ff8dcf40579e21f6",

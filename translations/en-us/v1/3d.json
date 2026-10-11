@@ -281,6 +281,20 @@
         "costUsd": 0.000131
       }
     },
+    "3d3a9e202a748c0a9b409e8aebb560f1d4f21f98692896e39fd31e463200df76": {
+      "normalizationVersion": 1,
+      "sourceHash": "80448da9fb0f1d90ebea99ef41b6fa4aac5d06c28a2c275351be8c5f9b6afabb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "较宽的软边可能帮助稀疏／有小噪声的轮廓匹配，也会削弱相近位置的区别。它只影响内部匹配评分，不会把保存的二维墙体直接加厚，不是Nav2障碍膨胀，也不清除动态物体或改变坡面高差。",
+      "translatedText": "A wider soft edge may help match sparse or slightly noisy contours, but it also weakens discrimination between nearby positions\\. It affects only the internal matching score; it does not directly thicken the saved 2D walls, is not Nav2 obstacle inflation, and does not clear dynamic objects or change slope elevation differences\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
     "3d404e7b1b2e152abf39ae0a553417d93dc01681c34cbcc59e8af4cbe1e0c35a": {
       "normalizationVersion": 1,
       "sourceHash": "3c00a728e7be8bb6380c31755eed54b7558307bb39a2eebbd89e8fc12449a209",
@@ -517,6 +531,20 @@
         "inputTokens": 205,
         "outputTokens": 95,
         "costUsd": 0.000176
+      }
+    },
+    "3d76d0d8349ebed164c07db54825180c5c9ba744c518d435e4bbfdd081487917": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d14d3da03de97a89a093f4ced6231bc777f217a697504bf2e050788b4e96cb1",
+      "contextFingerprint": "bdd10e39482c990900ab44c61af4dcc483309b4862fd71d0e4a9e8253a775e55",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `pcd_save_en` | `False` | 不适用，布尔 | **根据实际功能需求开启或设置** | 是否累计并保存配准扫描为 PCD 文件 | 不适用 | 不适用 | 本地累计点云需 scan_publish_en=True；集成 SLAM launch 会覆盖为 True |\n| `interval` | `-1` | 次，扫描处理计数；-1为特殊值 | **根据实际功能需求开启或设置** | 控制每累计多少次扫描处理后保存一份文件 | 正数范围内：保存间隔更长，单文件通常更大、缓存更多 | 正数范围内：保存更频繁，单文件通常更小、写盘次数更多 | -1：累计到正常退出再保存；大于0：分批保存并清空累计缓存；不是秒；仅实际保存开启时生效，集成 SLAM launch 会开启保存 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `pcd_save_en` | `False` | Not applicable; boolean | **Enable or configure as needed** | Whether to accumulate and save registered scans as PCD files | Not applicable | Not applicable | Local point cloud accumulation requires scan_publish_en=True; the integrated SLAM launch overrides it to True |\n| `interval` | `-1` | Scan\\-processing count; \\-1 is a special value | **Enable or configure as needed** | Control how many processed scans accumulate before saving a file | For positive values: longer intervals, usually larger files and more buffered data | For positive values: more frequent saving, usually smaller files and more disk writes | \\-1: accumulate until normal exit, then save\\. Greater than 0: save in batches and clear the accumulated buffer\\. Not seconds; applies only when saving is enabled, as it is by the integrated SLAM launch |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3d81688eda77080a5f415a8ea5de255afcb3a941bb0639f8f2cfdb2e69ce034a": {
@@ -793,6 +821,20 @@
       "translatedText": "https://mirrors.tuna.tsinghua.edu.cn/help/pypi/",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3dcfc98fe1892efae062b07ac03484efebde16fa6d71c860b5d98cca84246feb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1da03c66ead6973de77f5f02ede6f75ca544f4b29442f92d1fb4761960dc6eaf",
+      "contextFingerprint": "7077c047df333a639857e5cc26c882d1566ea5eb988c93a24726748b1b926d24",
+      "sourceText": "| YAML 层级 | 主要内容 |\n|---|---|\n| **直接放在 `ros__parameters` 下的参数** | 估计模型、传播方式、饱和检查、地图初始化、降采样及日志开关 |\n| **`common`** | 输入话题、合帧、拆帧和时间差 |\n| **`prior_pcd`** | 先验地图及初始位置 |\n| **`preprocess`** | 雷达格式、线数、逐点时间单位和近距离过滤 |\n| **`mapping`** | IMU、重力、外参、噪声及匹配参数 |\n| **`odometry`** | 里程计发布方式 |\n| **`publish`** | 轨迹、点云和 TF 发布开关 |\n| **`pcd_save`** | 点云保存开关与保存间隔 |",
+      "translatedText": "| YAML level | Main contents |\n|---|---|\n| **Parameters placed directly under `ros__parameters` in YAML** | Estimation model, propagation method, saturation checks, map initialization, downsampling and logging switches |\n| **`common`** | Input topics, frame merging, frame splitting and time offsets |\n| **`prior_pcd`** | Prior map and initial position |\n| **`preprocess`** | LiDAR format, scan lines, per-point time units and near-range filtering |\n| **`mapping`** | IMU, gravity, extrinsics, noise and matching parameters |\n| **`odometry`** | Odometry publication mode |\n| **`publish`** | Trajectory, point cloud and TF publication switches |\n| **`pcd_save`** | Point cloud saving switch and interval |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,

@@ -43,6 +43,20 @@
         "costUsd": 0.000051
       }
     },
+    "7a107f7d32f383ff799c93489baea8e9d97d74ff92dd40c429f21df988ad0ce8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7507ba254c1810a12a98d666fcec0c0462c10e6e0a85f2e7fb3d8259f0b76736",
+      "contextFingerprint": "c3c11666a406e063ab19ad692badfb43640ab76c400cac2b4cb29891d6a2ccf0",
+      "sourceText": "二维图和PCD应来自同一场地、采用一致的尺度、原点和方向；同一轮保存也不能自动证明两者对齐。Point-LIO输出内部IMU位姿，PCD处于camera_init中；后续接口还有IMU／雷达／底盘转换和先验PCD启动变换的疑点，应按前面loam_interface、small_gicp章节核对。改二维图片的大小、原点或旋转方向时，也必须考虑PCD定位坐标，不能只看图片外观。",
+      "translatedText": "The two\\-dimensional map and PCD should represent the same site with consistent scale, origin and orientation\\. Saving both in one session does not automatically establish alignment\\. Point-LIO outputs the internal IMU pose, and the PCD is in camera_init\\. Downstream IMU, LiDAR and chassis transformations and the startup transformation of the prior PCD still have recorded concerns; check the preceding loam_interface and small_gicp sections\\. Changing image size, origin or rotation also requires considering PCD localization coordinates, rather than only the image’s appearance\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "7a13aa59276993ae0a76a613cc7d8b8c8dc079f9000ebfe830df26ac41ac1304": {
       "normalizationVersion": 1,
       "sourceHash": "e7b76355adf75dd45ff414815925063700674afe946d8fab1039ca6956692adc",

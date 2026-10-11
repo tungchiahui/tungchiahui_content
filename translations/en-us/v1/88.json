@@ -379,6 +379,20 @@
         "costUsd": 0.000061
       }
     },
+    "8847f49af233dd6897965259bafa02ddca5e3135613f19795d486007f7f9fc5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9453b299dac6c40ecbbccce52c8aac8cf950d719c9c4f94f4ff00320565631b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "应使用有限正数：此读取链没有非正值自动回退；负数会被平方，0会使评分分母为0。不能用0表示关闭惩罚，也不能把运行中设置ROS参数视为内部评分尺度已同步更新。",
+      "translatedText": "A finite positive number should be used: this read chain has no automatic fallback for non\\-positive values; negative numbers will be squared, and 0 will make the scoring denominator 0\\. It cannot use 0 to indicate that the penalty is disabled, nor can setting the ROS parameter at runtime be regarded as the internal scoring scale having been synchronously updated\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 78,
+        "costUsd": 0.000147
+      }
+    },
     "884da0eaeee8b861682ebcc8ac44a9cbcf7a3e3344db8f47d36d679279ab1502": {
       "normalizationVersion": 1,
       "sourceHash": "cd7e42d296dd0599f6b1f22c07629bfe1164d3a0212bf09071ff12cf39f1acfd",

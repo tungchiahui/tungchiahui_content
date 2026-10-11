@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "1701b99b5144602ae014e93213de6754a07cd0c8ca2e10eef46287660ed62ef9": {
+      "normalizationVersion": 1,
+      "sourceHash": "692db0bb0878c8e1ca08c2a06a0908564e4e2594393bedab15aec2ab4103d3bf",
+      "contextFingerprint": "3412d1e282bd36df17efa74545d7239c8f8cc5cc03e5e360f7e6b1d664d6d5d5",
+      "sourceText": "###### scan_queue_size（等待TF的队列，不能包办处理积压）",
+      "translatedText": "###### scan_queue_size (queue waiting for TF, cannot handle the backlog on its own)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "1701bc78d6a28cc37eb2e4cd6da19c2ccaf23ce7d4731320303eb8c15eaf8e7b": {
       "normalizationVersion": 1,
       "sourceHash": "7804eba8a219c1ee7dc10918d73702b9badac4f0c1905d3120f08625d8be7e0c",
@@ -797,6 +811,20 @@
         "inputTokens": 154,
         "outputTokens": 40,
         "costUsd": 0.000095
+      }
+    },
+    "17b1e6dcbbaa656b17514047fe5192311f97063e4127e15e9d16dee90eea9775": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd2f7c78db37bf014d97af3e46293cd48eb52b261dbb0579158ab7e1b1f32eeb",
+      "contextFingerprint": "8d1735a40840d34a86259bd810e1d73706e885a992e3af788b79f5e14e58814e",
+      "sourceText": "具体检查事项、生效条件和源码疑点写在“生效条件／备注”列。当前 `gravity` 的模长已修正，仍需核实方向与目标参考系；`gravity_init` 在当前 IMU 初始化路径中不参与计算；`lidar_meas_cov` 的源码含义需要先核实，再决定是否调整。",
+      "translatedText": "Specific checks, activation conditions and uncertainties in the source code are listed in the “Activation conditions / notes” column. The magnitude of `gravity` has been corrected, but its direction and target reference frame still need verification. `gravity_init` is not used in the current IMU initialization path. Verify what `lidar_meas_cov` means in the source code before deciding whether to adjust it.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "17b4b71c653fa94aa989becf9790edda06366b2ac2a6159bf92783a45d2a118e": {

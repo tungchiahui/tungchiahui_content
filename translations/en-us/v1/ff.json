@@ -225,6 +225,20 @@
         "costUsd": 0.000114
       }
     },
+    "ff4054fd2816b73ec58c6ecf851ad38eaa3b4d7762e72508db41e917d5814f15": {
+      "normalizationVersion": 1,
+      "sourceHash": "e59137cf4d9e88dd938a18b5514f90c466399a7a39e1e426b73b8a6a6676507a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "四项都有作用，本块没有当前完全不使用的参数。三个坐标系参数只在构造时读取，运行时写入同名参数不会更新成员值；后续应用变更需另行授权重启。坐标系名称不属于数值调参，调大／调小均不适用。",
+      "translatedText": "All four parameters are used; none in this section is entirely unused in the current execution path\\. The three frame parameters are read only during construction, so updating parameters with the same names at runtime does not update the member values\\. Applying later changes requires a separately authorized restart\\. Frame names are not numerical tuning parameters; increasing or decreasing them is not applicable\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ff4775aab2bf4c4d15b2964adf74bc8f6b0166daaa0f9e33b9dd78aadec21571": {
       "normalizationVersion": 1,
       "sourceHash": "bc40c8c583b0aa090367133d310639e79180b10881afd80da3ab94c0fa06f49a",
@@ -237,6 +251,20 @@
         "inputTokens": 149,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "ff4ce614d6276d01f16993b27aeb675d287a78d5aee53b693fe087ad7497f879": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f7104e8c3826a478f38bbc91d92b0f89901bb1dfe55b9ff6cfb1e1858a60d63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实车中，放宽可留下更多点对，但重复柱子、相似走廊和动态物体也可能参与误配；收紧会减少远距离错配，却可能让真实初值偏差稍大时无足够点对。先确认地图、初值和参考系，再结合正确匹配／误匹配情况调整，不能单独把“更小”理解成“更准”。",
+      "translatedText": "On hardware, relaxing this threshold retains more point pairs, but repetitive pillars, similar corridors and dynamic objects may also create incorrect matches\\. Tightening it reduces distant mismatches but may leave too few pairs when the true initial error is somewhat larger\\. First verify the map, initial estimate and reference frames, then tune using evidence of correct and incorrect matches\\. Smaller alone does not mean more accurate\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ff4ee59e672233e839e77e3f542ca72cafa28565624a952c027d5e2e88290027": {
@@ -265,6 +293,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "ff54617e284c5b70d8978ea13c3571722e8124cd753c9c19a790774f965cf510": {
+      "normalizationVersion": 1,
+      "sourceHash": "e139c44117b90afa9de09968a552cc058b58f833266d6ef4b4405be91d9c4267",
+      "contextFingerprint": "bc4bdba90b8d23d35294e3b2d421b9596e3fb9ee061f7f47c7fd02de79872ac7",
+      "sourceText": "###### scan_buffer_maximum_scan_distance（近期窗口首尾间距，当前不用）",
+      "translatedText": "###### scan_buffer_maximum_scan_distance (distance between the beginning and end of the recent window, currently unused)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "ff5511d5a78bb57100bed77d09cafcc167ba630a07b59ffe9d9e74f66b759ce8": {
@@ -335,6 +377,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "ff6e4b9148a0b8c8f74104655b2b78428b4394b81e1799c068f5c339099f8648": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1467c182faa76e813e43dd27a7e21e0505863305a4a46f796868283bf650ecb",
+      "contextFingerprint": "a25f109120403a9057949024b259f86cdab124edc5d0c81c5de65e530fc5014e",
+      "sourceText": "这些高度沿 `odom` 的 z 轴，并相对输入 `lidar_odometry` 的位置，不是相对底盘原点或云台 pitch 层。需先确认雷达到地面高度、`odom` 的方向以及 IMU／雷达位姿转换；参考系错误不能通过单纯加大窗口解决。本轮不修改重力方向或任何工程参数。",
+      "translatedText": "These heights follow the z axis of `odom` and are relative to the input `lidar_odometry` position, rather than the chassis origin or gimbal pitch layer\\. First confirm LiDAR\\-to\\-ground height, the direction of `odom` , and the IMU\\-to\\-LiDAR pose transformation\\. Simply widening the window cannot fix a reference\\-frame error\\. This round changes neither gravity direction nor any engineering parameters\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ff6faef1ce4b1435fe6343ff92a85ea8270af2eedc0934d55a3baae061168a69": {

@@ -113,6 +113,20 @@
         "costUsd": 0.000252
       }
     },
+    "920de999e59e5ef077037b2b536d566026008a9faee670c9237e6fdba0dd8ded": {
+      "normalizationVersion": 1,
+      "sourceHash": "42ef81cdb94a7bde44885d5a2c3a83b907a27b613f5a5f0026c4c19705b178b0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前有两道筛选，不能只按“每10 cm一帧”理解：",
+      "translatedText": "Currently there are two filters, and it cannot be understood merely as \"one frame per 10 cm\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "9219a53b09544e943a7ee7d550f402394af576bd22490cc76720ff08b6bbaf6e": {
       "normalizationVersion": 1,
       "sourceHash": "1a9824b7c072644ac8e879d143a4693cad1d6ea9b42d8f3b020a97e16e6365e6",
@@ -195,6 +209,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "922d44c4acacd369fad5349dd6e6c61d8bf47c0611772cd685db544072488193": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d8ee5e02cdf35056f6fe2bdc4b8e4401f280b1d30dbfa6032aaec62d77cce00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这项在当前 YAML中没写，源码默认20，当前 output模型使用它描述速度状态的不确定程度。它不是车辆最高速度：调大允许估计速度更容易被观测改变，调小更倾向维持原来的估计。先保持默认值；加减速反应异常也应先排除单位、时间和位姿转换问题。",
+      "translatedText": "This parameter is absent from the current YAML and defaults to 20 in the source code. The current output model uses it to describe uncertainty in the velocity state. It does not specify the vehicle’s maximum speed: increasing it lets observations change the estimated velocity more easily, while decreasing it favors retaining the existing estimate. Keep the default for now. If acceleration or deceleration responses are abnormal, first rule out problems with units, timing and pose transformations.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "9233bb018e23d548bce63cbda1e0cefe6f8630cf9c80d872696ad1fbf9b673de": {

@@ -141,6 +141,20 @@
         "costUsd": 0.000069
       }
     },
+    "04251acace289c79f837a94337123f76f4e9b14194694380848925ee5e8aef32": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d1151af35aa917c8441c9e7bc945d93bca4286c621177072ba6b0b9b1f68171",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "0.9表示**仅角度惩罚这一项最多扣掉10%**。实际系数取“公式算出的系数”和0.9中较大的一个：若公式算0.98，就用0.98，并非每次固定乘0.9；若算0.7，则保留到0.9。",
+      "translatedText": "0\\.9 means**the angle penalty term alone can deduct at most 10%**\\. The actual factor is the larger of the formula result and 0\\.9\\. A computed 0\\.98 remains 0\\.98, rather than always multiplying by 0\\.9; a computed 0\\.7 is clamped to 0\\.9\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0428612cfbe78e93eba15e81ad545a4f735bb3fda6471e00f094384964faed19": {
       "normalizationVersion": 1,
       "sourceHash": "bc2d33861a14d63fc280531f5b50b94550320847ac2ef7f0fcfaacea4469fa5b",
@@ -897,6 +911,20 @@
         "costUsd": 0.000065
       }
     },
+    "04e91c71be0d524c5a5a4d45a1ec54c9362e96bb0406bc21f65cd46859dff2c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "6080c0ad398f2ae0e49f30e73b26bab56428512702a4164485957916a4fa63e4",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "近期扫描匹配默认启用这项惩罚；普通近邻链关联、自动闭环的粗匹配和精匹配调用则明确关闭惩罚。因此，**开启扫描匹配后也不是所有匹配都使用这两项**；闭环虽复用普通匹配器精化，仍会跳过这里的扣分。",
+      "translatedText": "Recently, scan matching enables this penalty by default; ordinary nearest\\-neighbor chain association, and the coarse and fine matching calls of automatic loop closure, explicitly disable the penalty\\. Therefore,**after enabling scan matching, not all matching uses these two items**; although loop closure reuses the ordinary matcher for refinement, it still skips the penalty here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 77,
+        "costUsd": 0.00015
+      }
+    },
     "04f7da9cf8fd0e7a9bd9d3df5c4ceb2f6b06e0b2bd8730bd2828205ec88cd6ad": {
       "normalizationVersion": 1,
       "sourceHash": "dcca2a3b011f3769741afed09713f1b803ec4c6e9f49dd8c8b9309082c89523a",
@@ -909,6 +937,20 @@
         "inputTokens": 147,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "04fd0fccef7d5ad7fdc55b32846e74c7f2c7324e05898e92b9e972d9b21d4f88": {
+      "normalizationVersion": 1,
+      "sourceHash": "889e5a5d9df6043e5fe3a451227b4e25eb52f1b231cf165f70fbbdcc240f06f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "与普通匹配的涂抹含义相同，但这里只用于闭环粗匹配。σ=0.03 m可理解为评分轮廓较窄，稍微错开仍有分值；不能理解成“3 cm内全部正确、外面全部错误”。",
+      "translatedText": "Same smearing meaning as ordinary matching, but here it is used only for closed\\-loop coarse matching\\. σ = 0\\.03 m can be understood as a relatively narrow scoring profile, where a slight offset still yields a score; it must not be understood as \"everything within 3 cm is correct, and everything outside is wrong\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 74,
+        "costUsd": 0.000143
       }
     }
   }

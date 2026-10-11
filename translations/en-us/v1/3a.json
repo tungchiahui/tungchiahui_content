@@ -1051,6 +1051,20 @@
         "costUsd": 0.000133
       }
     },
+    "3aed965dc24b80c23683209643ad6dc7cedf518d11ddef0db144db6cded8bfee": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ec829f7d32a6bc1cbb681009a0fc4469d48e582d370d977969d6c2dde5bdc96",
+      "contextFingerprint": "ae59616474564ac5049b687aab84568491b8783c9281dbc7a3c4e3728dceadbb",
+      "sourceText": "启用扫描匹配后，这套普通匹配器用于近期匹配和普通近邻关联；若以后启用闭环，闭环的精匹配也会复用它。后面的loop_search_space_*控制另一个闭环匹配器，分区不同不代表两条流程完全独立。",
+      "translatedText": "After scan matching is enabled, this ordinary matcher is used for recent matching and ordinary nearest\\-neighbor association; if loop closure is enabled later, the loop closure's fine matching will also reuse it\\. The following loop_search_space\\_\\* controls another loop closure matcher; different partitions do not mean the two pipelines are completely independent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 79,
+        "costUsd": 0.000151
+      }
+    },
     "3af00848f70aa5ade2c10f86fa3a7f59f7ac2ec505904a3df84d0204a779a69c": {
       "normalizationVersion": 1,
       "sourceHash": "8413d7b62f90b2afdb55e93e7a62ab609d4044175b4f974654a33cab71b74268",

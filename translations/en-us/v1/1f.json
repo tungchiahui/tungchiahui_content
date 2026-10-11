@@ -29,6 +29,20 @@
         "costUsd": 0.000115
       }
     },
+    "1f0d4f06980af57e11047b1e7de4febab31961f652b4f6cb7953daabd95bf96b": {
+      "normalizationVersion": 1,
+      "sourceHash": "13b383264a00f0fc13aecc8abd6430d50f63b40ccc103edbde070feaf5dc9a8b",
+      "contextFingerprint": "9de82c8329be8e3ed360472e73fef42969304e607940808429a8cf080ab9f9f6",
+      "sourceText": "- **源码能确认：** 六项参数的使用、输入输出话题、首次 TF 缓存、IMU 位姿未补雷达外参、初始化保护缺失，以及 launch 配置来源。\n- **仿真已观察：** 2026-10-08 的独立 Point-LIO 检查在静止和约20 cm低速往返时有正常位姿与配准点云；该检查没有覆盖本节点和下游的完整转换，也没有独立云台 yaw 验证，不能据此认定这里的接口正确。\n- **必须实物核实：** MID360 实际安装位置与轴向、内部雷达／IMU 外参、机械 yaw/pitch 零位与方向、串口角度单位和含义、各消息的时钟一致性，以及 Point-LIO 重力目标参考系与导航 `odom` 的关系。当前约定要求 JointState 使用机械相对角，世界 IMU 姿态不能代替关节角；本轮不修改重力方向。",
+      "translatedText": "- **Confirmed from the source code:** Usage of the six parameters, input and output topics, the first TF cache, missing LiDAR extrinsics for the IMU pose, missing initialization guards, and launch configuration sources\\.\n- **Observed in simulation:** The independent Point-LIO check on 2026\\-10\\-08 produced normal poses and registered point clouds while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. It did not cover this node’s complete downstream transformations or independently verify gimbal yaw, so it cannot establish that this interface is correct\\.\n- **Requires hardware verification:** Actual MID360 mounting position and axes, internal LiDAR and IMU extrinsics, mechanical yaw/pitch zero positions and directions, serial angle units and meanings, clock consistency across messages, and the relationship between the Point-LIO gravity target frame and navigation’s `odom` frame\\. The current convention requires mechanical relative angles in JointState; world\\-frame IMU orientation cannot replace joint angles\\. Gravity direction is unchanged in this round\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1f1305e25dcc876523c9bc04c553b77e1b77f6a9d4d0cdbbd5aba7863cc8dd5a": {
       "normalizationVersion": 1,
       "sourceHash": "c9623275dc5340261bd2c9dce55fbaf01e504eea2ab31a09e8e14c7ac10ff222",

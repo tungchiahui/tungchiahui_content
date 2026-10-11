@@ -351,6 +351,20 @@
         "costUsd": 0.000104
       }
     },
+    "687d7142d916837e5c6cf04d1e41bba4b40caf63f4f068ed96c76f5cc9c19853": {
+      "normalizationVersion": 1,
+      "sourceHash": "73b47f7ef1c55bd7ec2cc907d90cde8a79fa4e9e69e24b3bc361de00dc8f3723",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "含义相同，但比较的是内部二维扫描位姿的yaw候选与本次搜索中心朝向之差。估计已经包含的正常转动不会直接当作这项偏离；惩罚针对算法额外尝试的朝向修正。",
+      "translatedText": "The meaning is the same, but what is compared is the difference between the yaw candidate of the internal 2D scan pose and the orientation of this search center\\. The normal rotation already included in the estimate is not directly treated as this deviation; the penalty targets the additional orientation correction attempted by the algorithm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 68,
+        "costUsd": 0.000133
+      }
+    },
     "68855d8c5b89fcf20d14c602633a70dc9a026c70a5e5d1af81fb36119a89915b": {
       "normalizationVersion": 1,
       "sourceHash": "c212b43e98fd412b6e447e579266024f4eeaba9e1db4fad4aa7a9c74867bbffa",
@@ -505,6 +519,20 @@
         "costUsd": 0.000056
       }
     },
+    "68a4c905fc5b196073a795f7a076a309fd5a9f18c97e1c984127d2564afce73d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c86bbc8c627515709632973a01e5e2d35a21061b58cbe2f924971c4a1b8f433",
+      "contextFingerprint": "982c4f346728954c6682174f84b328b1b968555da3a20d4922a786a528450bc7",
+      "sourceText": "这个现象很像不是 Mid360 真掉到 3 Hz，而是 RELIABLE 大点云被远端订阅者拖慢了。\n这版驱动的 /livox/lidar/pointcloud publisher 是默认 QoS，也就是你前面看到的那种 RELIABLE。一帧约 257 KB，20 Hz 单独 PointCloud2 就约 41 Mb/s。ROS 2 的 DDS/QoS 本身支持不同可靠性策略；对这类高频传感器数据，让显示/调试端用“允许丢旧帧、优先拿最新帧”的方式通常更合适。ROS Documentation\n而且一个慢的远程 RELIABLE reader，可能让 writer 做重传、排队甚至产生反压。于是你会看到一个很反直觉的现象",
+      "translatedText": "This looks less like the Mid360 actually dropping to 3 Hz and more like a remote subscriber slowing down the large RELIABLE point clouds.\nIn this driver version, the /livox/lidar/pointcloud publisher uses the default QoS, which is the RELIABLE configuration seen earlier. Each frame is about 257 KB; at 20 Hz, PointCloud2 alone uses about 41 Mb/s. ROS 2 DDS/QoS supports different reliability policies. For this kind of high-frequency sensor data, display and debugging clients are usually better served by allowing old frames to be dropped and prioritizing the latest frame. ROS Documentation\nA slow remote RELIABLE reader may cause the writer to retransmit, queue data or even experience backpressure. This can produce a counterintuitive result",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "68a5ad396e952faec7439e936294666925154f7f9f71ba980eec52e8463e8ed5": {
       "normalizationVersion": 1,
       "sourceHash": "f8e1c86ef0e67ea7bfb032624c331933964821749f13476d42aa4f2eb46d37bc",
@@ -517,6 +545,20 @@
         "inputTokens": 144,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "68a65bee44971e6737834c9ffa53c67e5840f672d8a2f183256262858c1341ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe03b4133aab9475702a2c5d82d9b4839626591944448db212f1a31c7e7203aa",
+      "contextFingerprint": "a726b1c19fcb242bf330ae68f15e6c39aaa2a329bf52bba0ad67ab88d31d05da",
+      "sourceText": "源码调试等级设置使用字面日志器名称`logger_name`，而不是节点的slam_toolbox日志器；因此单开True不能保证节点的DEBUG日志显示，还要核对launch传入的日志等级。它不是“开启更准确算法”的开关。",
+      "translatedText": "Source code debug level setting uses the literal logger name`logger_name`rather than the node's slam_toolbox logger; therefore, setting True alone does not guarantee that the node's DEBUG logs will be displayed—you must also check the log level passed in by launch\\. It is not a switch for \"enabling a more accurate algorithm\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 79,
+        "costUsd": 0.000151
       }
     },
     "68a7050232818aaf76ccfe2d5879b8b010b6390ee55f94e1f3fefc1b67028924": {

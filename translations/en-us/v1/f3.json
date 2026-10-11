@@ -169,6 +169,20 @@
         "costUsd": 0
       }
     },
+    "f3203ede9d09e9af30e3dc9f549048a9ac4394e1ae2fecaac67a99e0cca91eff": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a346d7c56e78ea4bafd0cfacf83f88092a7c28640d939e983b80b417f0eb8fa",
+      "contextFingerprint": "f7a382fa9137d5863e5976db7e7900cadeee07bcd207b08a7be10f269c86f9f9",
+      "sourceText": "这是角速度的同类保护，当前实际门槛为 `0.99×35.0=34.65 rad/s`，约1985°/s、5.51圈/秒。比较的是各轴 IMU读数，不是下发给底盘的自旋速度。",
+      "translatedText": "This provides the same kind of protection for angular velocity. The current effective threshold is `0.99×35.0=34.65 rad/s`, approximately 1985°/s or 5.51 revolutions per second. It compares the IMU readings on each axis, rather than the spinning velocity commanded to the chassis.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f32416bef2021e6384b3c149f4934ba3f78528d8dc75882fa0e0a95f704c70bd": {
       "normalizationVersion": 1,
       "sourceHash": "86574f817e6b6c36a2bd4258ccfbd47c885c4f4b0c1d6a6d91a0289b366fab57",

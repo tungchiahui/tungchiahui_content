@@ -57,6 +57,20 @@
         "costUsd": 0
       }
     },
+    "4115a8e50e9d4b799cfb8dcdcaf17810ba16225a093dde602a086abc2d90d94f": {
+      "normalizationVersion": 1,
+      "sourceHash": "004fd54d2409c0ef2c28c5ef4a1024305e4e6c5d85f080bad508b4d604e020fa",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**它不是每帧连续匹配的统一质量检查。** 当前版本的逐帧MatchScan返回分数没有在Mapper::Process中用这项拒帧；近邻链门槛也不能兜住所有错误逐帧匹配。当前整条匹配分支关闭，改这项不会改善现有地图。",
+      "translatedText": "**This is not a universal quality check for every sequential match\\.** In the current version, Mapper::Process does not use this parameter to reject scans based on the sequential MatchScan score\\. The nearby\\-chain threshold therefore cannot catch all incorrect sequential matches\\. The entire matching branch is currently disabled, so changing this does not improve the existing map\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "41171ee2243549ca888ce19c4de2710e75bfbf6701126d6281249e0775e00622": {
       "normalizationVersion": 1,
       "sourceHash": "76e4299e892ab04ada9243c97c3350f8fe317f50adb8140f00791429f387a223",
@@ -575,6 +589,20 @@
         "costUsd": 0
       }
     },
+    "41a0534c4d4ec71bc804f17391756ffe48e15ad6553801d5f3263f056ef5a7b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4b64fa8501b4946b3d197dbf12f5d4f17a32237158819547e09a1b7f943e7e4",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 搜索边长、粗细步距、涂抹标准差与组合限制；当前不执行评分，但仍初始化匹配网格。不能把这3项全当作未读取参数。\n- **已有验证范围：** 独立Point-LIO静止与约20 cm低速往返；未验证本节点的搜索成功率、资源占用、转弯、独立yaw或坡道轮廓匹配。\n- **实物待核实：** 若需启用匹配，检查真实位姿修正量是否在可用范围、二维结构是否足够区分、噪声／遮挡与计算负担，并核对二维修正与PCD定位基准的一致性。",
+      "translatedText": "- **Confirmed from the source code:** Search side length, coarse and fine steps, smear standard deviation and combination constraints\\. Scoring is not currently executed, but matching grids are still initialized\\. These three settings cannot all be treated as unread parameters\\.\n- **Existing verification scope:** Standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. This node’s search success rate, resource use, turns, independent yaw and slope\\-outline matching remain unverified\\.\n- **Pending hardware checks:** If matching is enabled, check that actual pose corrections lie within the usable range, two\\-dimensional structures are sufficiently distinguishable, and noise, occlusion and computation costs are acceptable\\. Also verify consistency between two\\-dimensional corrections and the PCD localization basis\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "41a0b65382728623d43391a8eda1d1781db31b5431f59a9a367e462e11d5f0b7": {
       "normalizationVersion": 1,
       "sourceHash": "ec4de31eee33be2ec2f5e75b8c522433b0f0f1642ddaa194cb184e9836e63540",
@@ -881,6 +909,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "41d70ce047014ff1314980ae431201f76f3b862a7be202505103ab03c23caad0": {
+      "normalizationVersion": 1,
+      "sourceHash": "997b8fa102e40bcce4b09b95ad08261983d1ea04a681c11f0e136f1da586e6b8",
+      "contextFingerprint": "45ae098531d4fa3b093097ebd956466f1983c41a864b51f1450c3858fc464ced",
+      "sourceText": "###### transform_timeout（等待TF；条件下还影响发布戳）",
+      "translatedText": "###### transform_timeout (waiting for TF; under conditions it also affects the release stamp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "41d9fac334231c45d7350e24bed6fee72349163204571d154a6caf8ddebb72f3": {

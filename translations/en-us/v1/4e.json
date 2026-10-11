@@ -267,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "4e43df347e00237c35ba71dc7d4bba9290f40e31076f931f8c8c98543def2f9d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e25c38831fcf68ab2309ea8ce4ec406d993697d87d7fc96c45d5252ed3823d9",
+      "contextFingerprint": "528c8f94c50131f76a553e7bf63c36ac65adf61b494d6118a2e8b4f45dd086a2",
+      "sourceText": "当前阈值10 m，转换器输出消息的range_max也为10 m；超过消息上限的参数会被压回该上限。增大这项无法使当前输入获得更远回波，缩短则会减少可用于画远处障碍的结构。[范围初始化实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/laser_utils.cpp)",
+      "translatedText": "The current threshold is 10 m, and the range_max output message of the converter is also 10 m; parameters exceeding the message upper limit will be clamped back to that limit\\. Increasing this value cannot enable the current input to obtain echoes from farther away, while shortening it will reduce the structures available for drawing distant obstacles\\.[Range initialization implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/laser_utils.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 84,
+        "costUsd": 0.000158
+      }
+    },
     "4e5094387256ea7a5a701cc01828899aca6c7db34d53991e7cdeb016d67b76e3": {
       "normalizationVersion": 1,
       "sourceHash": "760a2f8eefb3540b8c48f892b5b851c83693754afc465d85a71bae8084874a88",

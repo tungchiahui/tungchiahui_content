@@ -183,6 +183,20 @@
         "costUsd": 0
       }
     },
+    "852bb2e467e59038f6dabad178ec33293541cef85bbb0764a01c63328621b8f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fe99ce9243c9331e4dc98b9641780b9f15840c02f3591e51404aee0da4ea8ce",
+      "contextFingerprint": "8846f6cd59f835f3844be3c67eb27386e966ba31f5b1de6f7f7fe47a359af144",
+      "sourceText": "###### angle_variance_penalty（候选朝向偏离估计时要扣多少分）",
+      "translatedText": "###### angle_variance_penalty (how many points to deduct when the candidate orientation deviation is estimated)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
     "852cf4ce2f7d5772a3f4f9e3a34fdb5dccd1a6946b19fb18f8500230099248ae": {
       "normalizationVersion": 1,
       "sourceHash": "3afe4d7d15a90d70069234019858e756baa80604d18a7e7583606286fa8ba4f9",
@@ -449,6 +463,20 @@
         "costUsd": 0.000084
       }
     },
+    "855c248ab4e2b3f87e4f4ccae3234b66201edc145981e5d8ebd32b9424eaafc9": {
+      "normalizationVersion": 1,
+      "sourceHash": "533dcce6609d2ab6b054e31d74c40bbead590b85c22bcd44fa328b9844eb53e0",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 先平方再评分、正值越大惩罚越轻；参考本次搜索中心；当前未参与评分，近邻关联与闭环也不使用这项惩罚。\n- **已有验证范围：** 独立Point-LIO静止与约20 cm低速往返，未验证本节点的平移／转角修正或惩罚效果。\n- **实物待核实：** 若以后启用扫描匹配，观察是否被重复结构拉偏、是否压制必要修正；先核对坐标转换、点时间和稳定二维轮廓。坡道识别仍应检查地形分析与扫描生成，不能靠这两个评分尺度补救。",
+      "translatedText": "- **Confirmed from the source code:** Values are squared before scoring; larger positive values give lighter penalties\\. The reference is the current search center\\. Currently unused for scoring; nearby associations and loop closure also do not use this penalty\\.\n- **Existing verification scope:** Standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. This node’s translation and rotation corrections or penalty effects remain unverified\\.\n- **Pending hardware checks:** If scan matching is enabled later, observe whether repeated structures pull estimates away or necessary corrections are suppressed\\. First verify coordinate transformations, point timing and stable two\\-dimensional outlines\\. Slope recognition still requires terrain\\-analysis and scan\\-generation checks; these two scoring scales cannot repair it\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "856207916f5ad3622e186a044085f9f232ec2a24e5e586b140c90e2c094fe9df": {
       "normalizationVersion": 1,
       "sourceHash": "b702c0b4281d6b94646e591fab9f1324759e2719f16639635acea19e726776be",
@@ -645,6 +673,20 @@
         "costUsd": 0.000081
       }
     },
+    "859cb0e50480f856bc3e930d08c4cd3cfd3a36e440f06f8b1e3ed82bc5ac48f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ee81312c3352f3882fe34f8e382475e9aed7f29cc7a8289b15e01997d7dad5a",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "0.349是弧度，约20°，表示当前估计二维扫描朝向两侧的粗搜索半范围。它搜的是**估计还需要修正多少角度**，不是车辆两帧之间允许转多少度。",
+      "translatedText": "0\\.349 is radians, about 20°, representing the coarse search half\\-range on both sides of the current estimated 2D scanning orientation\\. What it searches for is**how many more degrees the estimate still needs to be corrected by**, not how many degrees the vehicle is allowed to turn between two frames\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 69,
+        "costUsd": 0.000135
+      }
+    },
     "859ed91f51d472968c015c3c8e2bc48000ba108cd7a236dcb9cbfb10a0efc661": {
       "normalizationVersion": 1,
       "sourceHash": "514abc05180354a50c7602653365d6ed4c38c040c19abe3602ae106574eb558b",
@@ -685,6 +727,20 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "85abea6cff366fc93845d572a08fab93cc4e54c0dad3888ac24a62163371f303": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb9e3746b91458878cf6830433c6bdf8a2b9c496059bb1aa10bcadefd008ad66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启用后，只考虑参考点相距约1.5 m内的近邻链关联；当前barycenter=True时，参考点是环境回波重心。调大可纳入更远候选，也可能增加重复结构歧义；调小则更局限。",
+      "translatedText": "When enabled, only neighboring chain associations whose reference points are within about 1\\.5 m of each other are considered; currently with barycenter=True, the reference point is the environmental echo barycenter\\. Increasing it can include farther candidates but may also increase ambiguity from repeated structures; decreasing it makes it more restrictive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 68,
+        "costUsd": 0.000137
       }
     },
     "85adaf9bd632d50cd48b403fdaaee550703fa3cf7eaee62e5538f47d0f12b6a6": {

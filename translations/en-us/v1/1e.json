@@ -421,6 +421,20 @@
         "costUsd": 0.000094
       }
     },
+    "1e69dde911461f7c6e183b729ac1975ffdd3a0423a2c70119d4f1a54d1e30217": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed7fc03af85705114e2ce2c8b61061e40a5d05645c58ee53b4517cbcc1affbbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这项处理的是位姿图约束，不能直接清除点云里的行人、修改坡面高差，或修复IMU外参／点时间。当前自动图优化没有触发，切换损失函数也不能使坡道自动变成可通行区域。",
+      "translatedText": "This handles pose\\-graph constraints\\. It cannot directly remove pedestrians from point clouds, change slope height differences or fix IMU extrinsics or point timing\\. Automatic graph optimization is not currently triggered, and switching loss functions cannot automatically make a ramp traversable\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1e6fd4ef1cb1cf63b02091602e35a8b357a0fa98fb9175b487b0cadd90f25ec5": {
       "normalizationVersion": 1,
       "sourceHash": "9a520674949554f4897ffdf2f27631312c4bd80f616fc304e30bdb83843536e1",
@@ -475,6 +489,20 @@
         "inputTokens": 174,
         "outputTokens": 60,
         "costUsd": 0.000125
+      }
+    },
+    "1e7a899a5fc373e4ffa42d2fc3f4b59dac562069a863580f49cc5c3ad00b8b44": {
+      "normalizationVersion": 1,
+      "sourceHash": "a482915c76d754f0568b794cdf6c088ca4140f89288af80bc307bd07d36a6e42",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节点不会用当前时间重新标记输入位姿。切换时间源也不会修正雷达点时间单位、传感器时钟同步或旧时间戳；此前仿真转换器的秒／微秒不一致仍未解决。",
+      "translatedText": "This node does not retimestamp input poses with the current time\\. Switching time sources does not correct LiDAR point\\-time units, sensor clock synchronization or old timestamps\\. The earlier seconds versus microseconds inconsistency in the simulation converter remains unresolved\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "1e7c09ef53798aeadf87c75146878bcf2801a61750aca1c378afe49181d89151": {

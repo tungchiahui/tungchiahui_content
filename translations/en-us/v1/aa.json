@@ -15,6 +15,20 @@
         "costUsd": 0.000153
       }
     },
+    "aa01a392cdcdc34cbaaea51bff4ddb0e1ef2869a3c9550974cb57b29feed6317": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ff9d01616bf7dbd29f2f8a2fa9f4a78b7841dfb64fcb26872468a2045653411",
+      "contextFingerprint": "369463a33d05d4ad8001f1b896279e5ad921c40486f1a05b1660da7549139196",
+      "sourceText": "| 启动方式 | 参数来源 | 与本块有关的区别 |\n|---|---|---|\n| 整套 reality launch | 默认 `pb2025_nav_bringup/config/reality/nav2_params.yaml`，可由 `params_file` 指定；经 `navigation_launch.py` 加载 | 三个坐标系参数为本表值；`use_sim_time` 经 launch 重写，默认 False |\n| 整套 simulation launch | 默认 `pb2025_nav_bringup/config/simulation/nav2_params.yaml`；同样经 `navigation_launch.py` 加载 | 三个坐标系参数与实物相同；`use_sim_time` 经 launch 重写，默认 True |\n| 独立 `sensor_scan_generation.launch.py` | 读取自身声明的 `lidar_frame/base_frame/robot_base_frame` 启动参数，不读取上述 YAML | 默认分别为 `front_mid360/chassis/gimbal_yaw`；未设置或声明 `use_sim_time` 启动参数，按 ROS2 默认 False |",
+      "translatedText": "| Launch method | Parameter source | Differences relevant to this section |\n|---|---|---|\n| Complete reality launch | Defaults to `pb2025_nav_bringup/config/reality/nav2_params.yaml`; an alternative can be specified using `params_file` and loaded through `navigation_launch.py` as the configuration | The three frame parameters match this table; `use_sim_time` is overridden by launch, defaulting to False |\n| Complete simulation launch | Defaults to `pb2025_nav_bringup/config/simulation/nav2_params.yaml`; also loaded through `navigation_launch.py` as the configuration | The three frame parameters match hardware; `use_sim_time` is overridden by launch, defaulting to True |\n| Standalone `sensor_scan_generation.launch.py` | Reads its own declared `lidar_frame/base_frame/robot_base_frame` launch argument instead of the YAML above | The respective defaults are `front_mid360/chassis/gimbal_yaw`; no `use_sim_time` launch argument is set or declared, so ROS2 defaults to False |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "aa11f101a4c00e0123c71c9b1dd377d3df7ca363828f86abc7c06809538751ae": {
       "normalizationVersion": 1,
       "sourceHash": "bacc9f86948ea66bf4c66fa54bd862d16f74f3949ae4f593f415ff6707f6f9a5",
@@ -867,6 +881,20 @@
         "inputTokens": 159,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "aad4da585950ec4e9d2834eaa5897078935e277acf441c80ed9b102146f405dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "576dfe3ba8595d002829e6ce403eff5886b5c74d45a1edfe0605f141a189459e",
+      "contextFingerprint": "a4cc4bdd1ef37cea580828951e616850c8d6a9895dbd5c80160501af25335258",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `loop_search_space_dimension` | `8.0` | m，闭环粗平移搜索区边长 | **通常保持当前值，不作为优先调试项** | 在当前估计扫描位置周围寻找与候选旧轮廓吻合的位置 | 合法组合内：搜索范围扩大，计算／网格负担增加，也更可能遇到相似结构 | 范围缩小，搜索更快，但真实修正可能落在范围外 | 当前不用于闭环评分，初始化仍使用；8 m是正方形边长，x、y各约±4 m；与3 m历史候选距离分工不同 |\n| `loop_search_space_resolution` | `0.05` | m／格，闭环相关网格格距 | **通常保持当前值，不作为优先调试项** | 决定闭环粗匹配网格及平移候选的离散尺度 | 合法组合内：网格和粗搜索步距变粗，资源负担通常降低，也更容易漏掉窄的匹配峰 | 网格更细、候选更多、初始化内存增加；不保证定位更准 | 当前仍参与初始化；5 cm格距对应10 cm粗搜索步距，最终精匹配复用普通匹配器；不是输出地图分辨率 |\n| `loop_search_space_smear_deviation` | `0.03` | m，闭环评分涂抹的标准差σ | **通常保持当前值，不作为优先调试项** | 给旧轮廓周围逐渐减弱的分值，使轻微错位仍有响应 | 合法组合内：评分轮廓更宽，更容忍错位，也更难区分相近结构 | 评分更尖锐，稀疏点或轮廓变化更容易降低响应 | 当前仍初始化涂抹核；3 cm是标准差，不是允许定位误差；当前格距要求σ在0.025～0.5 m内 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `loop_search_space_dimension` | `8.0` | m; coarse loop\\-closure translation search\\-region side length | **Usually keep the current value; not a priority for tuning** | Search around the estimated scan position for alignment with a candidate old outline | Within valid combinations: broader searches, greater computation and grid costs, and more chance of similar structures | Narrower, faster searches, but the true correction may lie outside the region | Currently unused for loop\\-closure scoring but still used for initialization\\. 8 m is the square side length, approximately ±4 m in x and y\\. Distinct from the 3 m historical\\-candidate distance |\n| `loop_search_space_resolution` | `0.05` | m per cell; loop\\-closure correlation\\-grid spacing | **Usually keep the current value; not a priority for tuning** | Set the discrete scale of the coarse loop\\-closure grid and translation candidates | Within valid combinations: coarser grids and search steps usually reduce resource cost but more readily miss narrow matching peaks | Finer grids, more candidates and greater initialization memory; no guarantee of greater localization accuracy | Still used for initialization\\. 5 cm cells give 10 cm coarse steps; final fine matching reuses the ordinary matcher\\. Not output map resolution |\n| `loop_search_space_smear_deviation` | `0.03` | m; loop\\-closure scoring smear standard deviation σ | **Usually keep the current value; not a priority for tuning** | Assign gradually decreasing scores around old outlines so slight misalignment still produces a response | Within valid combinations: wider scoring outlines tolerate more misalignment but distinguish nearby structures less readily | Sharper scoring; sparse points or outline changes lower response more readily | The smear kernel is still initialized\\. 3 cm is standard deviation, not permitted localization error\\. Current grid spacing requires σ from 0\\.025 to 0\\.5 m |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "aada9a67b072014860b223a606be1c891ce4f6ec5d4c8745fdf92c8e04811600": {

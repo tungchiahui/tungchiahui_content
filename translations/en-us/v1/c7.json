@@ -463,6 +463,20 @@
         "costUsd": 0
       }
     },
+    "c7a2a00f4619b57e1749e19fa67f87442cb64fbba2c9396ed73fd3c2227f9bf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "98ec456c5b6f04b3bf0754f9f308ba880842f007902a3ed4fbae0622e4a47b4d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "粗匹配可能有多个近似答案。这里检查算法给出的x、y方差各自是否小于3.0 m²，值越小要求结果越集中；不检查yaw方差，也不是要求实际位置误差小于3 m。",
+      "translatedText": "Coarse matching may have multiple approximate answers\\. Here, it is checked whether the x and y variances given by the algorithm are each less than 3\\.0 m²; the smaller the values, the more concentrated the required results are\\. The yaw variance is not checked, nor is it required that the actual position error be less than 3 m\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 78,
+        "costUsd": 0.000147
+      }
+    },
     "c7a4239af2c214a96e89920b4e24ba24e5a60852510cb4a55b9812d9e9750158": {
       "normalizationVersion": 1,
       "sourceHash": "8f54d2ec24c7486b2a53e6484bab93350bf6ac77204483172400c8ad4c84f171",

@@ -421,6 +421,20 @@
         "costUsd": 0.000051
       }
     },
+    "f1604eb143a5e3eddafc1db9681323451336e81d10f909c01425a7cf5682412e": {
+      "normalizationVersion": 1,
+      "sourceHash": "24029c6735b38004067a3dccc1cd4d3cfdb2f260876811aa8a1ae24e817675c1",
+      "contextFingerprint": "8ed36225568e28b4dbe3780f5b1c7e120c39d7b055d26d86f6cc103de03b3983",
+      "sourceText": "该循环使用rclcpp::Rate的主机时钟，不绑定节点的/clock。地图消息戳取最近进入扫描回调的header.stamp，也不保证那份扫描已完成入图；应将“消息变新”“栅格变了”“新扫描已处理”分开判断。间隔应为正数，0没有像TF发布周期那样的停发分支。[Humble Rate时钟实现](https://github.com/ros2/rclcpp/blob/humble/rclcpp/include/rclcpp/rate.hpp)",
+      "translatedText": "This loop uses the host clock of rclcpp::Rate and is not bound to the node's /clock\\. The map message stamp is taken from the most recent header.stamp that entered the scan callback, and it is not guaranteed that that scan has finished being inserted into the map; \"the message became newer,\" \"the grid changed,\" and \"the new scan has been processed\" should be determined separately\\. The interval should be positive; 0 does not have a branch that stops publishing like the TF publishing period\\.[Humble Rate clock implementation](https://github.com/ros2/rclcpp/blob/humble/rclcpp/include/rclcpp/rate.hpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 215,
+        "outputTokens": 127,
+        "costUsd": 0.000217
+      }
+    },
     "f160f9263ba01f4c02cc624273d6c0c80b0f709a3d616978314fb6686c52ce68": {
       "normalizationVersion": 1,
       "sourceHash": "7c2ed9c40ce1b8803f966287271cefd176b27b96a4df58af6bcaac53589697ad",
@@ -489,6 +503,20 @@
         "inputTokens": 168,
         "outputTokens": 47,
         "costUsd": 0.000107
+      }
+    },
+    "f171968a5a89e79c3b38687b97d11d57b7033907258801256f13175c4de8edcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9c539a2a1a037cff335d4705170a0b37aa8bc85512c40bce965a26ff2e857a9",
+      "contextFingerprint": "4847ae1f8a6f237a81677b4986d49afd5a95f5e59b4b156b2890038e94b63bf0",
+      "sourceText": "如果云台相对于底盘有前后偏移，那么不能只填`gimbal_yaw_height`，应该填完整的pose。",
+      "translatedText": "If the gimbal is offset forward or backward relative to the chassis, specify the full pose rather than only `gimbal_yaw_height`.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f17298f33c8d5c6253b149ab05cd83ae91077e224bc487e3fff4445382ef16ee": {
@@ -796,6 +824,20 @@
       "usage": {
         "inputTokens": 137,
         "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "f1a715aa9e3a22e0afd42df9c8a774cd705ffe75f2b3cc9e16473362ac569eb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f05e8e3f51cf781db52474def83af11c75f17512c5981b2f140d8c7d454bfc6",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 组合限制、读取与实物核对",
+      "translatedText": "###### Combination restrictions, reading, and physical verification",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
         "costUsd": 0.00006
       }
     },

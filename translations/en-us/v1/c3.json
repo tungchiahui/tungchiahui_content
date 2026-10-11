@@ -869,6 +869,20 @@
         "costUsd": 0
       }
     },
+    "c3c7869df6861b932330effb6ac7515200b4bab1a554a84e499eb6c19590a165": {
+      "normalizationVersion": 1,
+      "sourceHash": "0aa151692c97a37476a16935d7625b3d052b9d5e85d8e1998f959bebc19eca7e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "10表示候选历史链的扫描份数，不是10个雷达点或10 m。增加要求更多历史结构，减少则允许较短的链参与。",
+      "translatedText": "10 represents the number of scan copies of the candidate history chain, not 10 radar points or 10 m\\. Increasing it requires more historical structures, while decreasing it allows shorter chains to participate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 45,
+        "costUsd": 0.000103
+      }
+    },
     "c3c7d9ac236a6313d4428763be38cec93417c58209b549b87ecdc82c9b2a7bb6": {
       "normalizationVersion": 1,
       "sourceHash": "60b514fa2de2bff76e4cb968adb848bca397127f213b1866d3d6659dd4cac45c",
@@ -1133,6 +1147,20 @@
         "inputTokens": 138,
         "outputTokens": 14,
         "costUsd": 0.000059
+      }
+    },
+    "c3fd60aa6ca34b6cefc4051d5abb92662feb36b127c9eb5861eea7727dc74cb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cc96119946ed22ed8a03eea22aa4334617447cd637d3c4cec05875867815c05",
+      "contextFingerprint": "c9e9ed4287fb1a91cb34b76ded0d77ff8be62602483418b00e5340dfeb2e01ec",
+      "sourceText": "1. 外层slam_toolbox入口：通常要求扫描戳间隔至少0.2 s，还要求相对上一次放行扫描的水平位移至少约8.94 cm，并受抽帧和初期计数限制。\n2. 内层Karto：相对上一次实际采用的扫描，约10 cm位移或约5.73°朝向变化可放行；这里使用的是扫描中心，当前与base_footprint重合。",
+      "translatedText": "1. Outer slam_toolbox entry: typically requires a scan stamp interval of at least 0\\.2 s, also requires a horizontal displacement of at least about 8\\.94 cm relative to the last released scan, and is subject to frame dropping and initial count limitations\\.\n2. Inner Karto: relative to the last actually adopted scan, a displacement of about 10 cm or an orientation change of about 5\\.73° can release it; here the scan center is used, which currently coincides with base_footprint\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 225,
+        "outputTokens": 124,
+        "costUsd": 0.000217
       }
     },
     "c3ffe74caf1e1bf6322af9dbd25ef87f1e6ea98b302f5d1b1b9b40c700a92298": {

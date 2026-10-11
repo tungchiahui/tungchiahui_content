@@ -197,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "3826a640b856648b6b97c2cc7e1192749b5e98f93723a1ccf18e760adc39f002": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9df881332c8e7840128afba44506b27675e5679f0be1d06ccef689ccb6d87cb",
+      "contextFingerprint": "c634988824c0961178eaef1e8d0a236e2b9b13b7fe2643a0d159699a189ec89e",
+      "sourceText": "40000000 B为约40 MB，约38.15 MiB。节点入口在现有栈软限制低于目标时申请提高，源码不主动将较高的现有限制降下来；设置更小不一定让实际栈变小。[同步节点入口](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync_node.cpp)",
+      "translatedText": "40000000 B is about 40 MB, or about 38\\.15 MiB\\. The node entry requests an increase when the existing stack soft limit is lower than the target; the source code does not proactively lower a higher existing limit; setting a smaller value does not necessarily make the actual stack smaller\\.[Sync node entry](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync_node.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
     "3829bdfe7137134d3d39de0883e4c1e702f6edcbc8fbf0e4fdaa07e2c158ea7d": {
       "normalizationVersion": 1,
       "sourceHash": "fdc3ef9e7ba1992126fa3903b1b42a4d8c6e15d9cdcb8ff657991ea6dade09e6",
@@ -435,6 +449,20 @@
         "costUsd": 0.000052
       }
     },
+    "38700df227245281244d82370d42fec171a36c72f05a5dfe5c415c2af26b5a07": {
+      "normalizationVersion": 1,
+      "sourceHash": "141d2d2e174354af990159de8d2ae8526b2170c5564bb7f44a59dc02ed047737",
+      "contextFingerprint": "8091d56f2c19f432b06403bb6d56d45a78896a04b03ad1588f2f18c7fe71c3c3",
+      "sourceText": "当前下界0.3 m，与转换器的range_min一致；距离以虚拟扫描中心base_footprint计算。减小这项不能恢复转换器已删除的0.3 m内点，源码也会将低于消息range_min的设置提高到消息下界。",
+      "translatedText": "The current lower bound is 0\\.3 m, consistent with the converter's range_min; distances are calculated from the virtual scan center base_footprint\\. Reducing this cannot restore points within 0\\.3 m that the converter has already deleted, and the source code will also raise settings below the message range_min to the message lower bound\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 97,
+        "costUsd": 0.000179
+      }
+    },
     "387a333d2301e3d1599c54f1d59446409ef2e995f924819bff7eab896943aea2": {
       "normalizationVersion": 1,
       "sourceHash": "27575fcb3efe18b92f78ca0d6b2eb9565e1736eb9b26b9359c1c308418038258",
@@ -629,6 +657,20 @@
         "inputTokens": 209,
         "outputTokens": 88,
         "costUsd": 0.000169
+      }
+    },
+    "38a48a66a1e5a2dada6bf5ef5595ce2a33d0dc071050afc397845e60309ce360": {
+      "normalizationVersion": 1,
+      "sourceHash": "e165ad692d8f1f46c6577624f69814320ce2ec117b0a8b5781db9326480fad77",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前不能把“地面斜了、墙面重影、静止漂移”等任何单一现象直接当成某个参数必须修改的证据。原始单位、时间、安装和后续 IMU／雷达位姿接口都会影响表现，其中源码缺口需要单独处理，不能通过盲调噪声保证解决。",
+      "translatedText": "At present, no single symptom such as tilted ground, ghosted walls or stationary drift is sufficient evidence that a particular parameter must change. Raw units, timing, installation and downstream IMU or LiDAR pose interfaces all affect the result. Source-code gaps require separate fixes; blindly tuning noise cannot guarantee a solution.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "38a783b32f7ec9b43d53ed4d9c4add08895d1d6139588fdfd50db24acddba190": {

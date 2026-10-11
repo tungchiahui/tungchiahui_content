@@ -603,6 +603,20 @@
         "costUsd": 0.000052
       }
     },
+    "3b90c41cfdf33d666509119009c2eb0970bf095825e2f9be84e218d55c49dc90": {
+      "normalizationVersion": 1,
+      "sourceHash": "43c2c2d6ad1e58cc67aedec0a17177420228b74341bc3d3fb32a581afd3d1382",
+      "contextFingerprint": "11a0bbb9ed07f5bc89f1663383fd6f353fef9d843bdee17bfccdcdda0405d258",
+      "sourceText": "这个节点在**已有地图导航模式 `slam:=False`** 下，把当前配准点云与先验PCD地图对齐，输出 `map → odom` 的位置、朝向修正。它不直接控制车轮或云台，也不是重新创建地形障碍的节点；`slam:=True` 的整套启动不运行它。",
+      "translatedText": "This node operates in**existing\\-map navigation mode `slam:=False`** , aligning the current registered point cloud with a prior PCD map and outputting position and orientation corrections for `map → odom` \\. It does not directly control wheels or the gimbal, nor does it recreate terrain obstacles\\. The complete `slam:=True` launch does not run it\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3b95aeb5193de1daeb85264a503ea4cb212d3886dab2aa99ea44d50f3b6b97b5": {
       "normalizationVersion": 1,
       "sourceHash": "d2ce7ef1297e498ef531fc748ff7dc6ce99d2c2180e7cb5d8da9e73ad41ce761",

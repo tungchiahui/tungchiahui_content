@@ -113,6 +113,20 @@
         "costUsd": 0
       }
     },
+    "4616908e5c48543aae778702e08fef3b3fa5ab0a181be8cc554ef6623639c754": {
+      "normalizationVersion": 1,
+      "sourceHash": "a790f6c9dd75c801af7ab2798380906752761a2b31ff2cd71113580dddbd1a56",
+      "contextFingerprint": "693abddb6761b08c10aa59a672c9919f271de03642f4a4b4862a5853583bf851",
+      "sourceText": "这里表示，他把nav2最后给的速度话题设置成了`cmd_vel_nav2_result`，而经过这个节点融合了自旋速度最后生成了`cmd_vel`，里面的`wz`就是`wz_final`。",
+      "translatedText": "Here, the final velocity topic from nav2 is named `cmd_vel_nav2_result`. This node combines it with the spinning velocity to produce `cmd_vel`, whose `wz` is `wz_final`.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "461a9d9714aaab201b195b5898e642816e112799d67636b78a1bf93d525fc77a": {
       "normalizationVersion": 1,
       "sourceHash": "d46697296f43ba5a685d35a517749fe8e0f5ba4d3ab052a4916c179a75ba0b30",
@@ -951,6 +965,20 @@
         "inputTokens": 138,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "46d55d42a164b7d26e41bf33aac659355905874048099ed9d3c0589a2f9ecd3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a7411e9a2231fdbb9ff6b9b3160504bb98b4f7ba2492f735ebfac7c30bb6763",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 配置值先平方，单位与名称容易混淆",
+      "translatedText": "###### The configuration value is squared first; the unit and name are easily confused\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "46da0a6578b82d4453fe3b990cbc38c01e6c2cb1c763168efaafcdf3aba2faaa": {

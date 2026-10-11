@@ -463,6 +463,20 @@
         "costUsd": 0
       }
     },
+    "34640d2179e31f5384587a22014e1160767255a92323c5efe52e8cb29bde01ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "09c1dee273d89e11f6076225e409c429fcb1266ab775d02fb1a53320f2dc75c2",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 参数表（扫描处理、地图输出与运行资源）",
+      "translatedText": "##### Parameter table (scan processing, map output, and runtime resources)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "3468e01b2315d4b6188efeaf99bcce148540c4a6752765e18c1b14f486fd8270": {
       "normalizationVersion": 1,
       "sourceHash": "af00a0f1d550ab915d2d1d5ff7d2c4f1ff7347d7c3211502d4f7d260ec842d9c",
@@ -1161,6 +1175,20 @@
         "inputTokens": 168,
         "outputTokens": 45,
         "costUsd": 0.000105
+      }
+    },
+    "34e426743c3b32d61f332a86af6eaa95fc99aa207d30034fae4dbdae8121f2be": {
+      "normalizationVersion": 1,
+      "sourceHash": "589b368a982babfa5e00c3c4d696fb27f6365c3cbb314f58483650e064796191",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "份数上限先达到时，增大10 m通常不会让窗口更大；两项需结合真实入图步距理解。当前匹配关闭，窗口删除逻辑不参与结果。",
+      "translatedText": "When the copy\\-count limit is reached first, increasing by 10 m usually does not make the window larger; the two need to be understood together with the actual step size in the map\\. The current match is off, and the window deletion logic does not participate in the result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 62,
+        "costUsd": 0.000125
       }
     },
     "34e5a6668a933d39bc786257925da949149961bf64c915aa0cddc57bfecc8bd7": {

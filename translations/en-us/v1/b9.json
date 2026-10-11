@@ -995,6 +995,20 @@
         "costUsd": 0
       }
     },
+    "b9d736dbfe5902a37f5bdf4170a981f8fab4d40a7b923a132db3e419d41b640e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4be23895471ced8bc588a7c2e146f289a7b2d66b8e36cb4593cc626129578e34",
+      "contextFingerprint": "771129a1664692aea28efe2b823eda98ef9e12506213483faa626ffa9ad2d78d",
+      "sourceText": "1. 用本组8 m范围、5 cm网格完成粗匹配；这一阶段没有在本组网格上再做5 cm步距的内部精化。\n2. 粗分数和x、y方差通过前面门槛后，以粗结果为中心，调用**普通匹配器**：使用上一组0.5 m范围、1 cm网格，先按2 cm粗搜，再在所得结果附近约±1 cm内按1 cm细搜。\n3. 精分数通过门槛后，才连接闭环并优化二维轨迹。",
+      "translatedText": "1. Use this group's 8 m range and 5 cm grid to complete coarse matching; at this stage, no further internal refinement at a 5 cm step is performed on this group's grid\\.\n2. After the coarse score and x, y variances pass the preceding thresholds, center on the coarse result and call the**standard matcher**using the previous group's 0\\.5 m range and 1 cm grid: first perform a 2 cm coarse search, then perform a 1 cm fine search within approximately ±1 cm around the obtained result\\.\n3. Only after the fine score passes the threshold are loop closures connected and the 2D trajectory optimized\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 235,
+        "outputTokens": 139,
+        "costUsd": 0.000238
+      }
+    },
     "b9da2b42ca2e12073ab3ff3e851709aed66222c092374c5bdcdddf072a1624fb": {
       "normalizationVersion": 1,
       "sourceHash": "78a4115164e83bc3e576fc79b40434dc2351eec18d2c81053eb20314f80a395a",

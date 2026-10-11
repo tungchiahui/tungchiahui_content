@@ -855,6 +855,20 @@
         "costUsd": 0.000082
       }
     },
+    "c1b67c2c1eff4d62be1293a1813d0ec5832a9f7879a8ec221eb82c6f2f704bfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e36a344b1f12ad3a687a71e01e80bc26f21d8971d1c69d30f367a450ef79dac",
+      "contextFingerprint": "17d34330e2a3e92db54cfd649697a6b0fae180c743ac0863b1280198d3cc5436",
+      "sourceText": "**当前还有一个与实车原地转动有关的前置限制：** 公共筛选函数检查水平位移平方，未用yaw放行。当前minimum_travel_distance=0.1 m，对应这里约8.94 cm的水平位移门槛，另有初期计数限制。以0.2 m/s移动0.2 s只有4 cm，仍可能不够，所以低速入图间隔会更长。",
+      "translatedText": "**Currently, there is also a prerequisite restriction related to in\\-place rotation of the real vehicle:** The common filtering function checks the square of horizontal displacement and does not allow passage based on yaw\\. Currently, minimum_travel_distance=0\\.1 m, corresponding to a horizontal displacement threshold of about 8\\.94 cm here, and there is also an initial count limit\\. Moving for 0\\.2 s at 0\\.2 m/s is only 4 cm, which may still be insufficient, so the low\\-speed mapping interval will be longer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 131,
+        "costUsd": 0.000225
+      }
+    },
     "c1bd742a26fff3f902c4d519a7ecabdc84eae3155ee1cbe64ef0456680610257": {
       "normalizationVersion": 1,
       "sourceHash": "b6f1493437de0aba8e2e5d67ef18a54aad8458afc6f05375baab73ec892c1862",
@@ -1105,6 +1119,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "c1ee843e09de25e8d8ca45938c7c17d1ced915101a1d3d86446aa970cab7e6a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb61e66eacd767c1518e1dd797de0dd5cd73e7df26f3700572101dce452aaabc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "范围与格距还需符合前一组的离散网格约束：按创建逻辑选正偶整数比值；当前8/0.05=160满足条件。相关assert是否执行取决于编译设置，涂抹越界则明确抛异常。",
+      "translatedText": "The range and grid spacing must also satisfy the discrete grid constraint of the previous group: select a positive even integer ratio according to the creation logic; the current 8/0\\.05=160 satisfies the condition\\. Whether the relevant assert is executed depends on the compilation settings; if the smear goes out of bounds, an exception is explicitly thrown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 75,
+        "costUsd": 0.000144
       }
     },
     "c1f219f6563692665a7ebaa581c489e1e5ae73e80d69feb600f4b58c41b79251": {

@@ -29,6 +29,20 @@
         "costUsd": 0.000057
       }
     },
+    "c80b4398c36bc826b863791fd88358288843e7f72a6d91ac852d3e50c4beb28a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1f540790fbc288a688fcd35f71f5f82545d4a4a719f8b01fd08e8def5ce5b43",
+      "contextFingerprint": "ff85f8fe19ad795d32b9a845c562026c54b33d9f832819396fd2065ae7ab62c2",
+      "sourceText": "遮挡、可见墙面或动态物体变化会让点重心改变，即使车辆位移很小。它会影响图关联中的近邻范围，但当前use_scan_matching=False不走这一路；入图位移仍按底盘／虚拟扫描中心判断。[参考点定义](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Karto.h)",
+      "translatedText": "Occlusion, changing visible walls or moving objects can shift the point barycenter even with little vehicle motion\\. It affects nearby graph\\-association coverage, but current use_scan_matching=False bypasses that path\\. Scan insertion displacement is still measured using the chassis or virtual scan center\\.[Reference\\-point definition](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Karto.h)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c80b9cee55398e3538d40f33f21e922ea30924997d071f21d6dd7cdb1f5264e5": {
       "normalizationVersion": 1,
       "sourceHash": "4db5c906b7cb518da3334e9e22cf1bc74a8567c20cb0b44d0eafe737844fb89e",
@@ -407,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "c8a0f50b2382f9803f487d92bd30d20b6d2c4d9bbbcee02bf66b19158034d010": {
+      "normalizationVersion": 1,
+      "sourceHash": "b220cab1903aef3f7f9b4dd2a135faa7201f87d8c62a0e5a6a0dc41168beef1b",
+      "contextFingerprint": "5b2492162c0da7a8010b6e5b42847b0479d7f41d094866641652fad2233c630a",
+      "sourceText": "1. 底盘距离水平地面的高度chassis_height：",
+      "translatedText": "1. Chassis height above level ground, chassis_height:",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c8a2ffd9c192e322dc8e5bcd3f653833d3531d397d5c0be7f4b10d56dd582fb5": {
       "normalizationVersion": 1,
       "sourceHash": "1c1ee7e4d13048b5253b89df8492b4644c89fbda16947e379afed77f2ea2c4f1",
@@ -573,6 +601,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c8c323bd6cbed40df5b1bb74eecca113d25574c134fbd430904216a9b53d4020": {
+      "normalizationVersion": 1,
+      "sourceHash": "4455f60937477349b89683986fa23bb12fc23d552b28743b85058e6643f7e153",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这项不是“允许5 cm台阶”，也不决定坡面能否识别为地面；它只影响二维表达的颗粒度。生成地图后，保存的YAML应记录对应分辨率；仅改旧YAML数字会改变旧图的实际米制尺寸，不能作为重新建图的替代。",
+      "translatedText": "This item is not about “allowing a 5 cm step,” nor does it determine whether a slope can be recognized as ground; it only affects the granularity of the two\\-dimensional representation\\. After generating a map, the saved YAML should record the corresponding resolution; merely changing the number in an old YAML will change the actual metric dimensions of the old map and cannot serve as a substitute for rebuilding the map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 90,
+        "costUsd": 0.000165
       }
     },
     "c8c54dfa16557f41faa0b00792d7b45d16c423f48dca81c122b8a26467bb14cb": {

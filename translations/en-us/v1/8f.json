@@ -855,6 +855,20 @@
         "costUsd": 0.000059
       }
     },
+    "8ff5c646573dfcd61fcefc10bc0cae091e8b824603a1ad013b1d72154ada74e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac50a179d7985e5ab8ee43e5ec2def974c896ed0eb94a11318d46cb61e4e0630",
+      "contextFingerprint": "23f0f350feec3089001d7484ea22f2db1cbf5105b7f16750b2f8422bc174f227",
+      "sourceText": "- 距离系数：`max(0.5, 1 − 0.2 × d² / 30.25)`。\n- 角度系数：`max(0.9, 1 − 0.2 × θ² / 25)`。\n- 候选分值＝轮廓吻合原始分值×距离系数×角度系数。",
+      "translatedText": "- Distance coefficient: `max(0.5, 1 − 0.2 × d² / 30.25)`\\. \n- Angle coefficient: `max(0.9, 1 − 0.2 × θ² / 25)`\\. \n- Candidate score = original contour matching score × distance coefficient × angle coefficient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
     "8ff79a3faba964ccdc08ab29426a47c8297774fd5a811f89bb07dfc5a4829bc0": {
       "normalizationVersion": 1,
       "sourceHash": "62003b6683e0069edfe8de702c0da676233c31a9e405b6ff5d01ad09023aa2a3",

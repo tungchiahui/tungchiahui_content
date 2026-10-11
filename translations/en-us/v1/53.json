@@ -1023,6 +1023,20 @@
         "costUsd": 0.000062
       }
     },
+    "53fa6a28c05ddc319b5c2c1b02ec947f038d5c917b76903c323aba75522742b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "bae49caae53a72e481132b8dbaff4d475b336f07f0439908f677a08d594a32ad",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 弧度单位、粗搜约±20°／2°步距、精搜约±1°／0.2°步距；下限控制最多扣分；响应近0才扩角，最多3次，平移不扩展。当前自动匹配未启用。\n- **已有验证范围：** 仅独立Point-LIO静止与约20 cm低速往返，未验证本节点转弯匹配、扩角、闭环或耗时。\n- **实物待核实：** 若以后启用匹配，观察残余朝向误差、重复结构误配、轮廓变化与计算耗时；先核对雷达／IMU／底盘转换及点时间，云台机械相对角不应直接替代内部二维扫描朝向。",
+      "translatedText": "- **Confirmed from the source code:** Units are radians\\. Coarse search is roughly ±20° with 2° steps; fine search roughly ±1° with 0\\.2° steps\\. Floors limit maximum penalties\\. Angles expand only for near\\-zero response, at most three times, without translation expansion\\. Automatic matching is currently disabled\\.\n- **Existing verification scope:** Only standalone Point-LIO while stationary and during roughly 20 cm of slow back\\-and\\-forth motion\\. This node’s turn matching, angular expansion, loop closure and timings remain unverified\\.\n- **Pending hardware checks:** If matching is enabled later, observe residual heading error, false matches between repeated structures, outline changes and computation time\\. First verify LiDAR, IMU and chassis transformations and point timing\\. Mechanical relative gimbal angles must not directly replace internal two\\-dimensional scan heading\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "53fa8dcb1b5aa3fdb92e52cd1208f58d713230bd53299ae26392bfb6a965fe51": {
       "normalizationVersion": 1,
       "sourceHash": "02433c3d7518e88f37b1b82bac16d709b363437119ac66b869601ba0826b2ef2",

@@ -841,6 +841,20 @@
         "costUsd": 0.000094
       }
     },
+    "8ae3373694c6f06a4ae1eac5bfbaf9c6d23ed00173020bad6a22291b031dc2db": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b58807483ef8c8862f71540dc2e19ff9a97a504f37fca7e67fed187b81815d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "粗搜索参考当前估计扫描位姿，内部精搜索参考粗匹配所得位姿；并非两个阶段始终相对同一个原始里程计位置扣分。",
+      "translatedText": "The coarse search references the current estimated scanning pose, while the internal fine search references the pose obtained from coarse matching; it is not the case that both stages always compute the score relative to the same original odometry position\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
     "8ae3ce36669f508061a91ee46a78e351c8bcf6979146f0b27664743a04bac005": {
       "normalizationVersion": 1,
       "sourceHash": "106bd4028bfd747a0ccf9b966223a6cebd6fcdd876c633fa4e15da3e1704303e",

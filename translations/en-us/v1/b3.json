@@ -295,6 +295,20 @@
         "costUsd": 0.000051
       }
     },
+    "b3468ea4197e1994d1c830967978ef2c5b399d488084040954be9d5a4686de4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "466e3886028511061db578c448b38cb5a279d7a08d2a4b1f75d5dd1571181434",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "分数须大于0.35，且x、y方差同时通过上一项，才进入精匹配。增大更严格，减小放宽；分数来自轮廓与相关性网格的吻合程度，范围归一化到0～1，不是经过标定的定位置信度。",
+      "translatedText": "The score must be greater than 0\\.35, and the variances of x and y must simultaneously pass the previous item, before entering fine matching\\. Increasing it makes it stricter, decreasing it relaxes it; the score comes from the degree of agreement between the contour and the correlation grid, normalized to the range 0 to 1, and is not a calibrated localization confidence\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 82,
+        "costUsd": 0.000154
+      }
+    },
     "b34c4e33fde4f0c2861c881964ec9e118610c58f34bcbcb95a7c52c075c61c17": {
       "normalizationVersion": 1,
       "sourceHash": "685b8018248be2fb47f522c610ebeb0d4e63ce369449ed2d1d25a7a0b60d1523",
@@ -657,6 +671,20 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "b3afb8d65efc5ef5fe40bc8cfdcf0fd48a6ee174e900db0ba2ad0f2bfb129033": {
+      "normalizationVersion": 1,
+      "sourceHash": "820c9804fc0865d62ef4253668fee073e883c3fbf11d925738bb469002dbfda0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前0.2 s传给TF消息过滤器，表示等对应扫描时刻的变换最多等多久。调大可容忍更晚到达的有效TF，也可能让旧消息等待更久；TF根本不存在或时间域不一致时，等待更久没有修复作用。",
+      "translatedText": "Currently, a value of 0\\.2 s is passed to the TF message filter, indicating the maximum time to wait for the transform corresponding to the scan timestamp\\. Increasing it allows tolerance of valid TF that arrives later, but may also cause old messages to wait longer; when TF does not exist at all or the time domains are inconsistent, waiting longer has no corrective effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 81,
+        "costUsd": 0.000153
       }
     },
     "b3b199f0ac378cdd3b9d04393684fcdb064860af089992284a29a0b35f209a03": {

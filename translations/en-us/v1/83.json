@@ -701,6 +701,20 @@
         "costUsd": 0.000201
       }
     },
+    "83c1d104a7aa15c22abc63242658945f927a36a664e5a332dd56bef9fd9364b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "277ca1d3a0345b5427864d029d599a4fb41677e39aa3c52df037f432a7881ced",
+      "contextFingerprint": "2350ebea8cb55993265b0333bfe073a2425b92bc5eb1c5fbcdb6007f98f2f671",
+      "sourceText": "- **初始 IMU自己看到的重力方向：** 当前 `imu_en=True`，代码从一段初始加速度读数的平均值归一化、取反，并按9.81换算得到。它仍是 IMU自身坐标中的方向。\n- **Point-LIO参考系中希望采用的重力方向：** 由 `mapping.gravity` 给出。代码会计算两者之间的初始转动关系，后续接口还要把结果正确接到导航使用的 `odom`。",
+      "translatedText": "- **The gravity direction initially observed by the IMU itself:** With the current `imu_en=True`, the code normalizes and negates the mean of an initial sequence of acceleration readings, then scales it by 9.81. This is still a direction in the IMU’s own coordinate frame.\n- **The desired gravity direction in the Point-LIO reference frame:** This is provided by `mapping.gravity`. The code calculates the initial rotation between these two directions, and downstream interfaces must correctly connect the result to the `odom` frame used for navigation.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "83c2e5ef35ccb04fc30bd55f3013b103e1037f60cdf67f553c2b9c8103bc2194": {
       "normalizationVersion": 1,
       "sourceHash": "add49ac2999444fa702bcaec572b235e93eaca4f74a0ebe4e6d0b2b4650e9a5f",

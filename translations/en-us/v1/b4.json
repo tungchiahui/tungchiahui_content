@@ -239,6 +239,20 @@
         "costUsd": 0.000071
       }
     },
+    "b42c3959364ddd297e6276a7d32332fc7d081d6710a27fd64a09415e846ba53a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9f227751f435be303b7620ae41d5d08a723faf26bba419ad6e0c6ea71b447ec",
+      "contextFingerprint": "7756937b4d6f200bdb780fc83cd32e27d636f09229ca24e0ef8a11477a594fe4",
+      "sourceText": "| 问题 | 对应数据 |\n|---|---|\n| 云台在世界里朝哪里？ | 世界姿态，例如云台 IMU yaw、导航算出的云台航向 |\n| 云台与底盘之间转了多少？ | yaw 机械相对角，填入对应 JointState |\n| 机器人往哪个方向移动？ | 按约定参考系表达的 `vx，vy`，可以是云台方向 |",
+      "translatedText": "| Question | Relevant data |\n|---|---|\n| Which direction does the gimbal face in the world? | World orientation, such as the gimbal IMU yaw or the heading computed by navigation |\n| How far has the gimbal rotated relative to the chassis? | The mechanical relative yaw angle, entered in the corresponding JointState |\n| In which direction does the robot move? | Velocity expressed as `vx，vy` in the agreed reference frame, which may be the gimbal frame |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b430c044b8614c420700fd04fd0a759b1f9350aa7e3fe5291244bbe4c0d10e3a": {
       "normalizationVersion": 1,
       "sourceHash": "48e31f8c721907805b0b8e7c1e14cc35b199680db36fa78474bfcd5826874a8c",
@@ -419,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "b46285c40f68f7a9a664ac543bd9f6f468eb309e6d26be52bbff2f9836ed9c7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd4d4615ac5d6b9437a37e0a6243f5bbba4875d313a5c6ccfe7d075687984cb6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "启用图关联后，当前扫描与附近历史扫描链匹配，分数够高才接纳这类关联。0.1是轮廓匹配的归一化分数，不是“有10%概率匹配正确”。",
+      "translatedText": "After graph association is enabled, the current scan is matched against nearby historical scan chains, and such associations are accepted only if the score is high enough\\. 0\\.1 is the normalized score for contour matching, not \"a 10% probability of matching correctly\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 60,
+        "costUsd": 0.000124
       }
     },
     "b46484b76dcbf4eefaa94e8028d8b2995230ddf175f456d0d43742da28abb8e4": {

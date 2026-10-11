@@ -43,6 +43,20 @@
         "costUsd": 0
       }
     },
+    "ac099bf784d5271b04025584ddc39e1660e8aa959dcbc6d11b9ed247073ce8e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ac0259ba2e7d57cc9142f426593545e79f7bbf7edc1769a56f4062b1782da12",
+      "contextFingerprint": "c88476e9172c5f9d987446d5279b112df279f6ce812871b65f1af4f75348c016",
+      "sourceText": "0.5、0.9来自后面的minimum_distance_penalty、minimum_angle_penalty，表示系数下限：距离项至多将分值乘0.5，角度项至多乘0.9，并非允许距离或角度门槛。",
+      "translatedText": "0\\.5 and 0\\.9 come from the later minimum_distance_penalty and minimum_angle_penalty, representing lower bounds for the coefficients: the distance term can multiply the score by at most 0\\.5, and the angle term by at most 0\\.9; they do not permit distance or angle thresholds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 83,
+        "costUsd": 0.000157
+      }
+    },
     "ac113ca7e59c15b96255dd4ca204c3f24f63733a0681bc38059ba53582829717": {
       "normalizationVersion": 1,
       "sourceHash": "72cbb03778112e6bf420ca7f6f9ab9b91320b68113753823499285bf2a35362c",
@@ -615,6 +629,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "ac9f1bc34c6bdd7bff0006f7660f668297dfc1d4b577f7762352af158a309d33": {
+      "normalizationVersion": 1,
+      "sourceHash": "f29e151f65844d147d500cc92f4a294fc8cf0f7e58815de5c33a1550af5fa40d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这组内部关系与雷达装在底盘／云台上的位置是两回事。换支架、把整机倾斜或转动云台，不会让内部两个原点之间的距离变化；整机安装位置应在机器人 TF中描述。值或方向弄错，转动时可能出现位置偏差和重影，但同样现象也可能来自时间或后续接口。",
+      "translatedText": "This internal relationship is separate from where the LiDAR is mounted on the chassis or gimbal. Changing the bracket, tilting the entire sensor or rotating the gimbal does not change the distance between its two internal origins. Describe the sensor’s installation in the robot TF. Incorrect values or directions may cause position errors and ghosting during rotation, but the same symptoms can also result from timing or downstream interfaces.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "aca1c8a46da2c782a9f1e326ee790614eb2f8772c82e57447f1fc4655c1eebe6": {

@@ -183,6 +183,20 @@
         "costUsd": 0.000052
       }
     },
+    "4f325fcfa2907c72f0e685005242e232c3b53e31b665b98b67877846a80d62ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dc6402ff518188c2c049d03b6bce9b46c822ac663e555c24d2a14367d5bf093",
+      "contextFingerprint": "5bd4db2987129b2c28822b474fe8efe6d20b04b16b52af0a944942bab4e4b350",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `use_imu_as_input` | `False` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 选择 IMU 输入模型或观测模型 | 不适用 | 不适用 | False：IMU 作为观测纠正滤波状态；True：IMU 作为运动预测输入。False 仍使用 IMU |\n| `prop_at_freq_of_imu` | `True` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 选择协方差预测的时序 | 不适用 | 不适用 | True：主要在 IMU 时刻预测协方差；False：还在激光逐点时刻预测。不会设置硬件采样频率 |\n| `check_satu` | `True` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 检查 IMU 各轴是否接近饱和，并排除饱和轴的观测更新 | 不适用 | 不适用 | 当前 `use_imu_as_input=False` 分支使用；阈值来自 `mapping.satu_acc/satu_gyro` |\n| `init_map_size` | `10` | 点，计数 | **通常保持当前值，不作为优先调试项** | 初始化地图累计点数的最低门槛 | 累计更多初始点；超过单帧点数时可能延后开始匹配 | 更早满足门槛，但初始地图可能更少 | **不是帧数，也不是 IMU 初始化次数**；初始点云来自预处理结果 |\n| `point_filter_num` | `8` | 无量纲，取点间隔 | **实物运行时重点观察，有问题再针对性调整** | Livox 点通过 line/tag 初筛后，每 N 个选一个 | 保留点更少，通常计算量下降，可能丢失有效结构 | 保留点更多，通常计算量增加，结构更丰富 | 当前 Livox 分支实际使用；应为正整数；注释中的“4、3”不是完整允许范围 |\n| `space_down_sample` | `True` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 是否对当前扫描做空间体素降采样 | 不适用 | 不适用 | True 使用 `filter_size_surf`；False 跳过该阶段，但前面的间隔取点仍执行 |\n| `filter_size_surf` | `0.2` | m，体素边长 | **实物运行时重点观察，有问题再针对性调整** | 压缩当前扫描中空间上重复的点 | 通常扫描点更少、计算更快，小结构保留更少 | 通常扫描点更多、细节更多，计算量增加 | `space_down_sample=True` 时使用；0.2 m 不是定位精度 |\n| `filter_size_map` | `0.2` | m，地图筛选尺度 | **实物运行时重点观察，有问题再针对性调整** | 地图更新时，抑制向已有点的体素重复插入新点 | 通常地图更稀疏、增长更慢，细节减少 | 通常地图更密、增长更快，内存和搜索负担增加 | 在地图插入阶段使用，独立于扫描降采样开关 |\n| `ivox_nearby_type` | `18` | 不适用，枚举 | **通常保持当前值，不作为优先调试项** | 选择地图最近邻搜索涉及的邻接网格 | 不适用 | 不适用 | 支持 0/6/18/26；邻域越多，候选范围越广，通常搜索成本越高 |\n| `runtime_pos_log_enable` | `False` | 不适用，布尔 | **根据实际功能需求开启或设置** | 启用详细状态记录和耗时统计 | 不适用 | 不适用 | True 增加状态写盘和终端输出；False 时源码仍会打开部分日志文件 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `use_imu_as_input` | `False` | Not applicable; boolean | **Usually keep the current value; not a priority for tuning** | Select the IMU input or observation model | Not applicable | Not applicable | False: use the IMU as observations to correct the filter state; True: use the IMU as input for motion prediction\\. False still uses the IMU |\n| `prop_at_freq_of_imu` | `True` | Not applicable; boolean | **Usually keep the current value; not a priority for tuning** | Select covariance prediction timing | Not applicable | Not applicable | True: predict covariance mainly at IMU timestamps; False: also predict at individual LiDAR point timestamps\\. This does not set the hardware sampling frequency |\n| `check_satu` | `True` | Not applicable; boolean | **Usually keep the current value; not a priority for tuning** | Check whether each IMU axis is near saturation and exclude saturated axes from observation updates | Not applicable | Not applicable | Currently `use_imu_as_input=False` branch uses this; thresholds come from `mapping.satu_acc/satu_gyro` |\n| `init_map_size` | `10` | Points; count | **Usually keep the current value; not a priority for tuning** | Minimum accumulated point count for initial map creation | Accumulate more initial points; may delay matching if the threshold exceeds one frame’s point count | Reach the threshold earlier, potentially with a smaller initial map | **Not a frame count or an IMU initialization count**; the initial point cloud comes from preprocessing |\n| `point_filter_num` | `8` | Dimensionless; point sampling interval | **Observe closely on hardware; adjust only for a specific problem** | Select one in every N Livox points after initial line/tag filtering | Retain fewer points, usually reducing computation but potentially losing useful structure | Retain more points, usually increasing computation and preserving more structure | Used in the current Livox branch; must be a positive integer\\. The commented values 4 and 3 do not define the full allowed range |\n| `space_down_sample` | `True` | Not applicable; boolean | **Usually keep the current value; not a priority for tuning** | Whether to spatially voxel\\-downsample the current scan | Not applicable | Not applicable | True uses `filter_size_surf`; False skips this stage, but the preceding interval sampling still runs |\n| `filter_size_surf` | `0.2` | m; voxel side length | **Observe closely on hardware; adjust only for a specific problem** | Reduce spatially redundant points in the current scan | Usually fewer scan points and faster computation, with less small\\-scale structure preserved | Usually more scan points and detail, with greater computation | `space_down_sample=True` activates this; 0\\.2 m is not the localization accuracy |\n| `filter_size_map` | `0.2` | m; map filtering scale | **Observe closely on hardware; adjust only for a specific problem** | Suppress insertion of new points into voxels already containing map points during map updates | Usually a sparser map, slower growth and less detail | Usually a denser map and faster growth, with greater memory and search costs | Used during map insertion, independently of the scan downsampling switch |\n| `ivox_nearby_type` | `18` | Not applicable; enum | **Usually keep the current value; not a priority for tuning** | Select neighboring grid cells for nearest\\-neighbor map searches | Not applicable | Not applicable | Supports 0/6/18/26; more neighbors broaden the candidate region and usually increase search cost |\n| `runtime_pos_log_enable` | `False` | Not applicable; boolean | **Enable or configure as needed** | Enable detailed state recording and timing statistics | Not applicable | Not applicable | True adds state writes and terminal output; with False, the code still opens some log files |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4f3502564e3330fd3ade3e79acf2d89274a3740a263e58b7824d82aed19b8810": {
       "normalizationVersion": 1,
       "sourceHash": "e95c5f9b354679b83b47d641040f0f30db8ad59f58a3250556cc903bcbc3302c",
@@ -251,6 +265,20 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "4f50312a3d8d84bad66b7e5f66b69bbb143e3be492cfa4c48475fa10437222fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ff2ee3c46b3a6bad57fb7242ced2b9dc31f6012554781bfc4a2c7c99779af99",
+      "contextFingerprint": "9ec34e64956084f8c5a753b4c0e5eae4014484d9f6f6d09274757a5bf5cf5589",
+      "sourceText": "`transform_tolerance=0.01 s` 在当前代码中作为转换查询的等待超时；它不是点云和TF可以错开0.01秒的补偿量，也没有把消息时间戳前移／后移。TF消息过滤器按输入时间等待目标变换，queue_size控制其队列以及点云订阅深度。TF转换失败的回调直接返回，不用单位变换继续生成扫描。",
+      "translatedText": "`transform_tolerance=0.01 s` serves as the conversion\\-query wait timeout in the current code\\. It does not compensate for a 0\\.01\\-second point cloud and TF offset or shift message timestamps\\. The TF message filter waits for the target transform at input time; queue_size controls its queue and point cloud subscription depth\\. A failed TF conversion returns directly instead of continuing to generate a scan with an identity transform\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4f527fdb990f6b837bbc5fc34adeb192e80083047a1f30ee50a7e640022133a0": {
@@ -769,6 +797,20 @@
         "inputTokens": 154,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "4ff2d3a671eb9eb17dc1736d3a0f059065ea8c192d0bcf40ac5a3ae75a0fcda9": {
+      "normalizationVersion": 1,
+      "sourceHash": "9aa390ac8e041d22d81889208882b1fbf40d60b86b16a175434a2ee030cbe707",
+      "contextFingerprint": "96e0af627fa0bebf841c94a6f0104e1d57cb86e9ed0dba904188054ea9f720db",
+      "sourceText": "当前True允许切换到RViz位姿图交互功能；启动时实际interactive_mode=False，不会自动进入拖动模式。进入后处理线程暂停，便于修改已有图节点；退出后恢复，期间新候选扫描仍可能进入同步队列，移动中使用会造成积压。[交互切换实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/loop_closure_assistant.cpp)",
+      "translatedText": "Currently, True allows switching to the RViz pose graph interaction feature; at startup, the actual interactive_mode=False, so it will not automatically enter drag mode\\. After entering, the post\\-processing thread is paused to facilitate modifying existing graph nodes; after exiting, it resumes\\. During this period, new candidate scans may still enter the synchronization queue, and using it while moving will cause a backlog\\.[Interactive switching implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/loop_closure_assistant.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 97,
+        "costUsd": 0.000176
       }
     },
     "4ff46382b2642bf6e1e0a7ae06407cc0861ca706c05919103625a50a9cb106f5": {

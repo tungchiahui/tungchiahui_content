@@ -645,6 +645,20 @@
         "costUsd": 0.000108
       }
     },
+    "26826e1000eeb486bfd3af4bacc27c2685883966a0e092e2d431ebfa0983c3af": {
+      "normalizationVersion": 1,
+      "sourceHash": "561faea7548f2f1ef02d4fecb49f6bbab5712b4460aba352ca482f10df3345c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它不是角度门槛或最终匹配分数下限。后面还要乘距离系数，所以总分并不保证保留90%。",
+      "translatedText": "It is not an angle threshold or a lower bound on the final matching score\\. It will later be multiplied by a distance coefficient, so the total score is not guaranteed to retain 90%\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 45,
+        "costUsd": 0.0001
+      }
+    },
     "2682f679b6a97c7dce95176bcf9b828c1601d9eb7986f8ed450e64af0cdad2b8": {
       "normalizationVersion": 1,
       "sourceHash": "f9d7ceb70d82e4af306c68413cbc85410829b3cbaaf170505eadb6a44f881c5b",
@@ -953,6 +967,20 @@
         "costUsd": 0.000055
       }
     },
+    "26d708eae19b9414ba95d833de5427143fe2f50e48cbc8d34d3504f8b236fac5": {
+      "normalizationVersion": 1,
+      "sourceHash": "05db40cdd7d706327bc1e8ce1200e123dafa7c75089213e5abd9b95801f89a33",
+      "contextFingerprint": "f54af7c2cd5f5250ba14332da011a06d08e4fafd455ebcd239fe5a7ebb2d5c1b",
+      "sourceText": "人工拖动／优化的是二维位姿图，不会同步修正Point-LIO保存的三维PCD。当前二维图与PCD需保持共同基准，也不能用交互修图替代坡面分类或坐标接口核对。",
+      "translatedText": "Manual dragging or optimization changes the two\\-dimensional pose graph without synchronously correcting the three\\-dimensional PCD saved by Point-LIO\\. The current two\\-dimensional map and PCD must share a coordinate basis\\. Interactive map editing cannot replace slope classification or coordinate\\-interface checks\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "26daa462421f015d83e9d7c8000ffe75f999e27374b099c171fc7f46f1ccabda": {
       "normalizationVersion": 1,
       "sourceHash": "e78a3d26b6fa2127170063d24fdf7c15f3762194e6693317596752c4b244d25d",
@@ -1035,6 +1063,20 @@
         "inputTokens": 152,
         "outputTokens": 25,
         "costUsd": 0.000076
+      }
+    },
+    "26e9b6c58bf210f60447529e6cf79facff327c950c1fa75e6ff12870dc1120b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "99ef89bc49640817129e6ffcceaaa0eaf81b2450abaef7a6b82ab08dd40d9103",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- True：每次成功的逐点／时间组匹配后发布，时间戳为当前采样时刻，输出更密集，实际频率取决于成功更新次数。\n- False：每帧处理结束后发布一次，时间戳为扫描末尾；输入20 Hz且每帧正常处理时，通常约20 Hz输出。",
+      "translatedText": "- True: Publish after every successful per-point or time-group match, using the current sampling time as the timestamp. Output is more frequent, with the actual frequency determined by the number of successful updates.\n- False: Publish once after each frame is processed, using the end of the scan as the timestamp. With 20 Hz input and normal processing of every frame, output is usually about 20 Hz.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "26eeba0c278e992c04c4cb79ba8d476e362e9137f67406a2c009d272e94fb24d": {

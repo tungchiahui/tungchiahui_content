@@ -43,6 +43,20 @@
         "costUsd": 0.000058
       }
     },
+    "9e1c37764c48b9686da02231c9dedd698c5eeae54fa5f1c2484337f33618889d": {
+      "normalizationVersion": 1,
+      "sourceHash": "413f199c51ef9ca363577833339e945a0cd5707fe20758f4cd883111a921b1c9",
+      "contextFingerprint": "59049f66e97a0d25bbfcb7c6f1d1716cbb1c120cab8c5f61f8b6ec4c7568b875",
+      "sourceText": "###### use_scan_matching（是否用二维轮廓修正里程计）",
+      "translatedText": "###### use_scan_matching (whether to use 2D contours to correct odometry)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "9e1d68176461692a2f46b1eaac54179e33dcf2345f571a465da4f256242d2a72": {
       "normalizationVersion": 1,
       "sourceHash": "b3377268e4de5b938786a91dd7a3ebfa848314b458d6766c7c9667d578ffd073",
@@ -1051,6 +1065,20 @@
         "costUsd": 0.000065
       }
     },
+    "9ef07a2a53d8b6ce7f561ea31d83105608e85c57f7f15b03126010a3b84cd4de": {
+      "normalizationVersion": 1,
+      "sourceHash": "c00780c9409e0815fadcef492279e94f0009c9918a55d45971f3cc710e7b9de9",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 位姿偏离惩罚参数表",
+      "translatedText": "##### Pose deviation penalty parameter table",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "9efb1008c1e72473dd281c856dd9f4c461dcfa0dab3967b9e9460bab57e7f6e1": {
       "normalizationVersion": 1,
       "sourceHash": "f99b1fc820fc9bc873798c9ac779392a6983f8c5770f0766ccc43784fb4043fd",
@@ -1105,6 +1133,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "9efe238a54119b216aecf4ba6d54fad36f1c42562f404fa7067f3d1d8ec0f791": {
+      "normalizationVersion": 1,
+      "sourceHash": "b95d72081e66d8604ac3114f013d9cf7f8dbafafe76eebadb636d9ca829a88b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实物若经过重复走廊、相似柱子或大量动态障碍，范围更大可能找到更多“看起来像”的位置。应先确认真实二维轮廓是否稳定、位置偏差是否超出搜索范围，再考虑调整；这些参数不负责识别坡度或判定坡道可通行。",
+      "translatedText": "If the physical environment passes through repetitive corridors, similar pillars, or a large number of dynamic obstacles, a larger range may find more locations that \"look alike\\.\" First confirm whether the true 2D contour is stable and whether the position deviation exceeds the search range before considering adjustment; these parameters are not responsible for identifying slope or determining ramp passability\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 77,
+        "costUsd": 0.000149
       }
     }
   }

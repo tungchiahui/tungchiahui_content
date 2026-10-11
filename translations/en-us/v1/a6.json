@@ -197,6 +197,20 @@
         "costUsd": 0.000117
       }
     },
+    "a6400468b2ef0f8d4414aca36aafc8f779ba8fb89920d5e2d7925c5777342aa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "11d52656143ac67ce6c1e5380837b3f323663d2652954e0b3891908b272c5ab9",
+      "contextFingerprint": "12382952b3e07a65c9fefba57c2c2c0bbc4b02b6bec0dc890ddbb229eb3aae73",
+      "sourceText": "最容易看反的是：**配置值越大，扣分越轻；配置值越小，扣分越重。** 当前use_scan_matching=False，这两项虽被读取，但不参与匹配评分，暂不调整。",
+      "translatedText": "The easy\\-to\\-reverse relationship is:**a larger configured value gives a lighter penalty; a smaller value gives a heavier penalty\\.** Currently use_scan_matching=False, so both settings are read but do not participate in matching scores\\. Leave them unchanged for now\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a6406487d250d05fdb5e9a735b0a73593fba42394c9d0a080e051621b81c9838": {
       "normalizationVersion": 1,
       "sourceHash": "8c061292cc3a8c8746ee020be40ec9d9463c0b6c84a106bc03956c426e82cc6a",
@@ -713,6 +727,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "a6c6e86280d957310dd5e7c7b46da5e59f01b1e515d7e0bdf76152fed6b74745": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb85f52bced6bcb832ea32020ccad520a62bd1302f84b1dd2b38d2f6a76ef297",
+      "contextFingerprint": "a40f26e40c30f53d8c57f3d76518c0c8a9bb52e906361317a81eafca2aa91a26",
+      "sourceText": "- 维度与格距需为正；源码按dimension/resolution建立离散网格，断言要求这个比值为整数，并使相关网格边长为奇数。按该创建逻辑，应选**正偶整数比值**；当前0.5/0.01=50满足条件。\n- 涂抹标准差须在`0.5×格距～10×格距`内，边界可取。当前格距0.01 m，对应σ为0.005～0.1 m，当前0.1 m处于上限。\n- 例如，只把格距改为0.005 m而保持σ=0.1 m，此时允许上限变为0.05 m，初始化会抛异常；即使扫描匹配关闭，也不能规避这项检查。",
+      "translatedText": "- The dimensions and grid spacing must be positive; the source code builds a discrete grid according to dimension/resolution, and the assertion requires this ratio to be an integer, and makes the relevant grid side length odd\\. According to this creation logic, one should choose**a positive even integer ratio**; the current 0\\.5/0\\.01=50 satisfies the condition\\.\n- The smearing standard deviation must be within`0.5×格距～10×格距`The boundary is inclusive\\. The current grid spacing is 0\\.01 m, corresponding to σ of 0\\.005–0\\.1 m, and the current 0\\.1 m is at the upper limit\\.\n- For example, if only the grid spacing is changed to 0\\.005 m while keeping σ=0\\.1 m, then the allowed upper limit becomes 0\\.05 m, and initialization will throw an exception; even if scan matching is disabled, this check cannot be bypassed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 277,
+        "outputTokens": 201,
+        "costUsd": 0.000325
       }
     },
     "a6c7875f3b9619f6d81e6715790d555649ee8727521aafc2dd5e862489e7f03c": {

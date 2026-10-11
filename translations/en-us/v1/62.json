@@ -85,6 +85,20 @@
         "costUsd": 0.000055
       }
     },
+    "62300750a869c49c2ae60cc3ae575573b066f0a72220507f2d6bfb8ea1266543": {
+      "normalizationVersion": 1,
+      "sourceHash": "a177768d15890a7acdc8be8109ea9fafddb0c55287aefcfd4023ab1ebe61ae57",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "10 s表示动态TF历史缓存跨度，用来查询扫描当时的变换；不是等10 s再处理，也不是允许扫描与TF随意差10 s。静态机械变换的保存规则与动态历史不同。",
+      "translatedText": "10 s represents the dynamic TF history cache span, used to query the transform at the time of the scan; it is not about waiting 10 s before processing, nor does it allow the scan and TF to differ arbitrarily by 10 s\\. The saving rules for static mechanical transforms differ from those for dynamic history\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 69,
+        "costUsd": 0.000135
+      }
+    },
     "6233f28aeb2a4730b806fbeae4af89e98fcd1b3f6043b31c169a67c4cbefe3c4": {
       "normalizationVersion": 1,
       "sourceHash": "7e4ddc21078cd973864fb24fa1d4a218a5a791831b6c8ea19f3adc71e584a067",
@@ -477,6 +491,20 @@
         "costUsd": 0.000121
       }
     },
+    "628a94590ac4b8ddd5d2ee768c9a823644815e8f724c972a84db4bba2acb9a91": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf28cf5e048b65501bed31981cc1830948ea2f31f249acbb882408639385728b",
+      "contextFingerprint": "2bbd4539f6aa900f7dcad4d15d98ec75872528bc7852dfea0b3ac577c6652cb1",
+      "sourceText": "还有一个版本相关的区别：ROS参数minimum_time_interval=0.2用于外层；当前SMapper::configure没有将它下发给Karto。新建地图的Karto内部时间兜底仍是默认3600 s，普通短时间建图主要依靠内层距离／转角条件。0.2 s参数仍有效，但不能当作两层都采用同一时间门槛。[ROS到Karto参数接线](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "There is also a version\\-specific distinction: ROS parameter minimum_time_interval=0\\.2 is used by the outer layer, but current SMapper::configure does not pass it to Karto\\. For a new map, Karto’s internal time fallback remains the default 3600 s, so ordinary short mapping sessions mainly rely on inner distance and rotation conditions\\. The 0\\.2 s parameter remains active, but does not mean both layers use the same time gate\\.[ROS\\-to\\-Karto parameter wiring](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "628e50707c029aeb48714931263c2e1056ad348c8e970b3b774679ff941850ea": {
       "normalizationVersion": 1,
       "sourceHash": "c0c52fec5cd25c355abdd3b172aeaab8ac513092a7f52c6f5532d0c7de3d6790",
@@ -853,6 +881,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "62e36bdb2e6556897edb60c4fa421b9bee3e83b4e39d05aa2039136eeadad9c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "53f938d6359690f6eef07468d339b48749281d5b3154a0862d61fb0fdf9eb7d5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“没有合格点”可以来自真实无回波，也可以来自缺数据、遮挡、上游删除、高度／高差过滤或角度格里没有样本；不能仅凭∞就判断这条方向安全。下游怎样处理无效／超量程值，应按对应扫描使用者的实现核对。",
+      "translatedText": "No qualifying point may mean a genuine absence of returns, missing data, occlusion, upstream removal, height or height\\-difference filtering, or no sample in the angular cell\\. ∞ alone does not establish that a direction is safe\\. Check how invalid and out\\-of\\-range values are handled in the implementation of each downstream scan consumer\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "62e905fc796ece094528477ee47bd3290ce2accd6a022f0b61bf9746c03f8e13": {

@@ -253,6 +253,20 @@
         "costUsd": 0.000091
       }
     },
+    "b244cd36d7bad64f5cbaa0294fa1380a5f2641e1e6f795c6bb3eafd9e18a4965": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3f1395ec206a32b75003ed0a654b7f3138e3c77aa68299fefe5418f5b2a7122",
+      "contextFingerprint": "ee3e7d7bbb17b088d716cc8879443d89dadc7b3e14113ece3e4b918ff8f23a73",
+      "sourceText": "SPARSE_NORMAL_CHOLESKY可理解为利用方程中大量零项，直接求出一轮修正量。其他暴露选项为SPARSE_SCHUR、ITERATIVE_SCHUR、CGNR，它们是算法选择，不是精度或速度档位；不能笼统说换一个就一定更准、更快。",
+      "translatedText": "SPARSE_NORMAL_CHOLESKY can be understood as exploiting the many zero entries in the equations to directly solve for one correction step\\. Other exposed options are SPARSE_SCHUR, ITERATIVE_SCHUR and CGNR\\. These select algorithms rather than accuracy or speed levels; switching does not universally guarantee greater accuracy or speed\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b249e42a623e9a38a6be8312fd80a2e5d234c39abc9c711252d606cfe141ad46": {
       "normalizationVersion": 1,
       "sourceHash": "051b0cc1d741fbe6e2d09b215f43377a79a6d975a24580203abbaceba4ad39af",
@@ -307,6 +321,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "b254788d8cf3e3a0670ca3fb550a25e076c32743a287d765b4505dd96203efa7": {
+      "normalizationVersion": 1,
+      "sourceHash": "62cf55cc85b3d79df45288efa47c4046c747d5d4e599ef47db55ef9e6df96f79",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果直线入图步距恰好0.1 m，10份扫描的首尾约隔9段，即0.9 m；实际步距未必为0.1 m，所以不能由份数直接推成固定米数或秒数。当前不向该匹配窗口加入扫描，先不调整。",
+      "translatedText": "If the linear mapping step is exactly 0\\.1 m, the first and last of 10 scans are separated by about 9 intervals, i\\.e\\., 0\\.9 m; the actual step is not necessarily 0\\.1 m, so the number of parts cannot be directly converted into a fixed number of meters or seconds\\. Currently, no scans are added to this matching window, and no adjustment is made for now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 93,
+        "costUsd": 0.000171
       }
     },
     "b25728cf29212d34a85c206856b2f1839d050df23445db64247aca40c62181be": {
@@ -925,6 +953,20 @@
         "costUsd": 0.000069
       }
     },
+    "b2cecd134da052925cd255ee90fce5710b51d908c4ab7056dfac8801d3d9f5c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "18d1dac3a057e3b0627653612bfc39763c6187f3eceb1f37aebd0c40e5afb3c8",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "这两项可以理解为：**轮廓匹配想把估计位置／朝向改动一些时，要扣多少分。** 在轮廓吻合程度接近时，惩罚使算法更倾向于当前估计附近的答案。",
+      "translatedText": "These two settings can be understood as:**how much score to deduct when outline matching changes the estimated position or heading\\.** When outline alignment scores are similar, the penalty favors an answer closer to the current estimate\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b2cf5c942b7f281259996d63a3053b7bf06fef8c95648e80c37873589417c775": {
       "normalizationVersion": 1,
       "sourceHash": "2d3b5a7ced881e7059a95ed832a83c7e99b8965801956349c3faaf88f2de6817",
@@ -1105,6 +1147,20 @@
         "inputTokens": 136,
         "outputTokens": 21,
         "costUsd": 0.000066
+      }
+    },
+    "b2fb25f50499ec3928b159c133708c9bb1a376f490699f027fb70b19a28ce68f": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb219ba8f56045788330e68f29b25a8c19bfbad52447b4a855809b7b626efa1a",
+      "contextFingerprint": "993806615dd1bd32ba73b0904d27c89d99f3018854731fadf58d4aba3372f1bf",
+      "sourceText": "1. 云台高度gimbal_pitch_height",
+      "translatedText": "1. Gimbal height, gimbal_pitch_height",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b2fe4da49c57f4e1c3e004b8b82283868cd9d077cbb1b37826eee9d4126e23c1": {

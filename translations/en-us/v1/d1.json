@@ -127,6 +127,20 @@
         "costUsd": 0
       }
     },
+    "d1265693703c0223502ca5cfb4d37cf74b8d08cf317e6d415051510cc63724fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d252d4cd3759fcd4c12def3ed1343bcbd3a35a2e7438c2880bdeed53d96b878",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "N=1不增加抽帧；N=2约每两份保留一份，N=3约每三份保留一份。计数针对进入筛选函数的扫描，不是MID360的每个点或全部原始消息，首帧会直接放行。",
+      "translatedText": "N=1 does not increase frame dropping; N=2 keeps approximately one out of every two, and N=3 keeps approximately one out of every three\\. The count applies to scans entering the filtering function, not to every point of the MID360 or all raw messages; the first frame is passed through directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
     "d12854f3e36133f1942ca9a18fdcd5f883131facf836badcd5c8b131e93dea85": {
       "normalizationVersion": 1,
       "sourceHash": "872d4e2f5f5928139feeca049d17d5f1fac8ba6a55cf2b39d21f6fa3bad95e13",
@@ -531,6 +545,20 @@
         "inputTokens": 179,
         "outputTokens": 61,
         "costUsd": 0.000127
+      }
+    },
+    "d1986cdd2c2e4a6fa7224a14fd847479d3ae210f3b9d110eedb6f679ecd481af": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6a78edfe38ba20fc9a089391eab17597c25fd9f543e368e74698a2b6548df14",
+      "contextFingerprint": "a03e2cd11731eb653e3cbf0b2ab940aa254b8dcf774728be0e36ccd9b23cbd10",
+      "sourceText": "当前False，且它位于use_scan_matching=True的分支内，因此只将do_loop_closing改成True仍不会运行。反过来，开启扫描匹配但保持闭环False，仍可运行近期匹配和普通近邻链关联，只是不自动走闭环这一路。",
+      "translatedText": "Currently False, and it is located inside the branch where use_scan_matching=True, so changing only do_loop_closing to True still will not run it\\. Conversely, enabling scan matching but keeping loop closure False still allows recent matching and ordinary nearest\\-neighbor chain association to run, just not the automatic loop\\-closure path\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 83,
+        "costUsd": 0.00016
       }
     },
     "d19b4b8b3403cf74449e86bf2734b458658c7598f02a5de9a8d8f5d8c528293d": {

@@ -491,6 +491,20 @@
         "costUsd": 0.000088
       }
     },
+    "5a89b0b6dd451fa4ce89aaa8f892f83ee1c3c0e13dcef4bae3f32b61a5ec5204": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfceb67c5b79f577049c60d87c52416fb9e574c84687366d5e0f3b8b13b30d2a",
+      "contextFingerprint": "2a1ba8cfab4ec21883fd0565c448b8479a3d3893389968293b427bb044eaae5e",
+      "sourceText": "TF就绪后，当前同步节点还将通过筛选的扫描放进独立FIFO队列q_，再逐份处理。这个队列没有受scan_queue_size限制；源码在剩余长度超过10时报警，但没有在此处自动丢弃积压。调大前面的等待队列不能解决后面的处理过慢。[同步处理实现（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync.cpp)",
+      "translatedText": "After TF is ready, the current synchronization node also places filtered scans into an independent FIFO queue q\\_, and then processes them one by one\\. This queue is not subject to scan_queue_size; the source code issues a warning when the remaining length exceeds 10, but it does not automatically discard the backlog here\\. Increasing the preceding wait queue cannot solve the subsequent slow processing\\.[Synchronous processing implementation (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_sync.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 101,
+        "costUsd": 0.000185
+      }
+    },
     "5a8b354b89d268da02947042b5a84eb3e08f08541b73fd3c69c1e703394e958f": {
       "normalizationVersion": 1,
       "sourceHash": "a56d81e8e30844a6acedbca59dc3b55f869d343024b34a047120fd79c4c5ab32",

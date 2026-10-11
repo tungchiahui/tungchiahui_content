@@ -575,6 +575,20 @@
         "costUsd": 0
       }
     },
+    "598f778af121ed04fc98efb4158aab3cba58ba1bb387b95069a1b47d8553c87a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cf802775d180165cc6755a250baa3ef2180f56bea0e2444fde29d2c1bf86755",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 位姿偏离惩罚详解",
+      "translatedText": "##### Detailed Explanation of Pose Deviation Penalty",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "598fb610b7c56b080527f6dedff4781e5fe0a6d64b88e2dadc6bbe27eac960e0": {
       "normalizationVersion": 1,
       "sourceHash": "2a2d1fdc1e29a98d41c992b2605b9e9c58e9ef51bc284d46b6f0c0b0d7350b26",
@@ -737,6 +751,20 @@
       "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935447878.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "59adaf344a915f2e341de39026659c76ff53ff3b739cd1b7b25565c63055d090": {
+      "normalizationVersion": 1,
+      "sourceHash": "ccb5f26824e8788194188c3bf3f923948db76d5b2db9568196d4069d4b13a4ef",
+      "contextFingerprint": "68e1c2b30d545b486b1c26d3f4c17b00b98369a36e794a1e5abb8e498a12b4b1",
+      "sourceText": "如果没有什么大Yaw小Yaw云台，那么挂在`gimbal_yaw_odom`和`gimbal_yaw`没有任何区别，都不会影响导航。",
+      "translatedText": "If the robot does not have separate large-Yaw and small-Yaw gimbals, mounting it under `gimbal_yaw_odom` or `gimbal_yaw` makes no difference to navigation.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,
@@ -1091,6 +1119,20 @@
         "inputTokens": 153,
         "outputTokens": 35,
         "costUsd": 0.000088
+      }
+    },
+    "59ec6fa92fd8c8c45ca03e2ec722384cd08f31639ef58b41a30f9c7353ffcd58": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef0ca60984571257c081ee1854bc58c3ba02bf24adbfd0b79f8210b331adbc08",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "闭环先挑选可能重访的历史扫描，再移动当前扫描去对比旧轮廓。这两步分别受不同参数控制：",
+      "translatedText": "The loop first selects historical scans that may be revisited, then moves the current scan to compare with the old contour\\. These two steps are controlled by different parameters respectively:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "59ece3ee8db8812df26e707f03f24397405dab51e3133c90699985f70c06e534": {

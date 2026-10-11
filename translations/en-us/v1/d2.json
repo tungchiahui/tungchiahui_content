@@ -43,6 +43,20 @@
         "costUsd": 0.00014
       }
     },
+    "d2071ac2a01064740cafaa811483d64a1c97820fb6cf2a4dccb7d781532fec3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2257f918d5570aa8c53ced44acf0d5666d965d2d613b8b459c12bb3b6900669",
+      "contextFingerprint": "667d29935aa418742ddd5f221ea4e65d7ba8278221bd95c5ba41bfff1e8c09f0",
+      "sourceText": "北极熊官方 standard_robot_pp_ros2 实际上有两类 MCU→Linux 数据。",
+      "translatedText": "The official Polar Bear standard_robot_pp_ros2 implementation actually carries two types of MCU→Linux data.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d2085dd7299518f1d03107962b19c5b659389544faeeccf603118f47a32d3dd7": {
       "normalizationVersion": 1,
       "sourceHash": "e6e8e37ffe51c6e4545e0b90a9084308e0638aecbffa948777a6202a6805442b",
@@ -293,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d237b654830a3fa07b7c294186845c54aab6fbf73bb416bbe4cc73999e67f90c": {
+      "normalizationVersion": 1,
+      "sourceHash": "72accef7a16cf3a34606555190beb440fb0769fa6e5de93f0006ba8410e2d84c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是粗平移范围，不直接扩大yaw搜索角，也不要求车辆移动到候选位置。精匹配还会在粗结果附近再搜索；当前局部精搜索平移约±1 cm，因此±0.25 m也不是最终修正量的绝对边界。",
+      "translatedText": "This is the coarse translation range; it does not directly expand the yaw search angle, nor does it require the vehicle to move to the candidate position\\. Fine matching will also search again near the coarse result; the current local fine search translation is about ±1 cm, so ±0\\.25 m is also not the absolute boundary of the final correction amount\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 78,
+        "costUsd": 0.000149
       }
     },
     "d237e2aff249669529852622cf0ac56a42cfcba11cf95ad07219e100fe439cda": {

@@ -421,6 +421,20 @@
         "costUsd": 0.000051
       }
     },
+    "90750350de98b466acad147a878e6f21fc4256348deeab6510dfbddf4c0dcb3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "61fc22decf961ea4cc97bf9b2b5f60aa58777d237f283eeeff71c2fb3a660723",
+      "contextFingerprint": "b0c3b77ecaa86e7d30dbf28d589af129187cca20246b20b255f35480f74b2887",
+      "sourceText": "- 它是 [x,y,z]，三个数都是米。 第三个数不是 yaw，也不包含 roll/pitch/yaw。\n- 它对应内部 IMU 原点在 camera_init 中的位置。 不是直接设置 base_footprint 的导航位置。\n- 本地代码的赋值时机比较特殊。 它在首次输出位姿时直接修改 kf_output.x_.pos，并非在加载先验、开始匹配之前统一完成初始化。",
+      "translatedText": "- It is [x,y,z], with all three values in meters. The third value is not yaw, and the vector contains no roll/pitch/yaw.\n- It specifies the position of the internal IMU origin in camera_init. It does not directly set the navigation position of base_footprint.\n- The assignment timing in the local code is unusual. It directly modifies kf_output.x_.pos when the first pose is output, rather than completing initialization before loading the prior map and beginning matching.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "907634ccb3dbb1648ffc6430cf844cfa45405ea35c57907ff8e2262bfaf83119": {
       "normalizationVersion": 1,
       "sourceHash": "28cf7efc0c8c02caf7814ff846e4f68167088b6a2f28b9db24008cebd24a4d4b",

@@ -421,6 +421,20 @@
         "costUsd": 0.000055
       }
     },
+    "f7a1e5ab90f22d4ccd30295331f40b94ec40bb7333e20115aab976ebb39996f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f0a9c9ba105bc811d6750f81f415c8700b3fef853f3f3b91fc19c2db4bd58ef",
+      "contextFingerprint": "5a5e3f71ddf3022fff340de566d9c567d8b081f70b14e0d8e3f89e07ae074690",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `correlation_search_space_dimension` | `0.5` | m，粗平移搜索区边长 | **通常保持当前值，不作为优先调试项** | 在当前二维位姿估计周围搜索位置修正 | 合法组合内：候选平移范围扩大，匹配工作量和初始化网格可能增加，也更易出现相似位置 | 范围缩小，候选减少，真实修正可能落在范围外 | 当前不参与匹配，初始化仍使用；0.5 m对应粗搜索x、y各约±0.25 m，不是半径0.5 m；角度范围另设 |\n| `correlation_search_space_resolution` | `0.01` | m／格，相关网格格距 | **通常保持当前值，不作为优先调试项** | 决定匹配网格及平移候选的离散尺度 | 合法组合内：网格／步距变粗，资源负担通常降低，小错位区分更粗 | 网格／步距变细，候选和网格内存增多；不保证更准确 | 当前不参与匹配，初始化仍使用；此版本粗步距为2倍格距即2 cm，精步距1 cm；不是输出地图的5 cm分辨率 |\n| `correlation_search_space_smear_deviation` | `0.1` | m，匹配评分涂抹的标准差σ | **通常保持当前值，不作为优先调试项** | 给回波端点周围逐渐减弱的分值，允许轮廓轻微错位仍有响应 | 合法组合内：评分轮廓更宽平滑，更容忍错位，也更难区分相近结构 | 评分更尖锐，但稀疏点／小噪声更容易降低响应 | 当前不用于评分，初始化仍建核；不是允许10 cm定位误差或障碍膨胀半径；0.1已是当前格距允许的上限，不能单独再增大 |",
+      "translatedText": "| Parameter | Current value | Units | Hardware guidance | Purpose | Effect of increasing | Effect of decreasing | Activation conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `correlation_search_space_dimension` | `0.5` | m; coarse translation search\\-region side length | **Usually keep the current value; not a priority for tuning** | Search for position corrections around the current two\\-dimensional pose estimate | Within valid combinations: broader candidate translations, potentially more matching work and initial grid allocation, and more similar locations | Narrower range with fewer candidates; the true correction may lie outside it | Currently unused in matching, but still used for initialization\\. 0\\.5 m gives roughly ±0\\.25 m in x and y, not a 0\\.5 m radius\\. Angular coverage is separate |\n| `correlation_search_space_resolution` | `0.01` | m per cell; correlation\\-grid spacing | **Usually keep the current value; not a priority for tuning** | Set the discrete scale of the matching grid and translation candidates | Within valid combinations: coarser grid and steps, usually lower resource cost but less distinction between small misalignments | Finer grid and steps, with more candidates and grid memory; does not guarantee greater accuracy | Currently unused in matching but still used for initialization\\. This version’s coarse step is twice grid spacing, 2 cm; fine step is 1 cm\\. Not the output map’s 5 cm resolution |\n| `correlation_search_space_smear_deviation` | `0.1` | m; matching\\-score smear standard deviation σ | **Usually keep the current value; not a priority for tuning** | Assign gradually decreasing scores around return endpoints so slightly misaligned outlines still produce a response | Within valid combinations: wider, smoother scoring outlines tolerate more misalignment but distinguish nearby structures less readily | Sharper scoring, but sparse points and small noise lower response more readily | Currently unused for scoring, but the kernel is still initialized\\. Not permission for 10 cm localization error or an obstacle inflation radius\\. 0\\.1 is already the maximum allowed by current grid spacing and cannot be increased independently |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f7a7b027de3c834a5326cf64277e37ed6cc8e193b19ec331b7bcbc7179e1cb44": {
       "normalizationVersion": 1,
       "sourceHash": "9cab0058016f8858a44287a244b89912b0ee5ce019416c3a79c66564822b7ebb",

@@ -57,6 +57,20 @@
         "costUsd": 0.00022
       }
     },
+    "e817e27d68adecf729e454c8165deef6cb446945a6b25bb57050c92f9d97c4fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "38741998e6cb6cdd1e099481fc21a6aa306f66702181c2ac71fbb042be0c337b",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "求解器插件仍会在节点配置时加载并读取参数；**“已读入”与“参与了实际优化”是两件事。** 加载已有位姿图或通过其他功能触发优化，应再按对应路径判断。这些开关决定本组求解器设置是否有实际优化任务。",
+      "translatedText": "The solver plugin is still loaded and reads parameters when the node is configured;**reading a parameter and using it in actual optimization are separate matters\\.** Loading an existing pose graph or triggering optimization through another feature requires checking that execution path\\. These switches determine whether the solver settings have an actual optimization task\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e81bee1ee02ad3451cbe5572e9fbbbb920ebaa089b9d43cb70c74cc79bcfb068": {
       "normalizationVersion": 1,
       "sourceHash": "21a717e73fa7d30ff1acf1aa25a5fdbe1f0b464e533e5a860e5c128ee2c64fed",
@@ -881,6 +895,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "e8ce78e7348e27a0ebe2ae18c9572a6d71421949781c9a1a343b6536fdd51bbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c24722d44f552892665c39f071c4c8cfaaffd2152655199b0724f9ba743c29a",
+      "contextFingerprint": "453eba1b654e7f40044a7b19eaec58910a047c4bef2617a5a0cbd89d649a4e20",
+      "sourceText": "| 实车上看到什么 | 先看哪些参数／关系 | 具体要核对什么 |\n|---|---|---|\n| 车没动，估计位置却明显变化 | `acc_norm`、`gravity`，再检查数据时间和安装关系 | 加速度单位是否正确、系统的上下方向是否与导航参考系相符；不能仅凭漂移就认定某个噪声值错误 |\n| 平地被显示成斜面，坡道的高低方向不对 | `gravity` 和整条坐标转换关系 | 静止 IMU 读数、雷达安装方向、Point-LIO 参考系到 `odom` 的关系要对得上；不是直接套一个“向下”的数组 |\n| MID360 整体倾斜安装，或随云台 yaw 转动 | `extrinsic_T/R` 与机器人安装 TF | 内部雷达／IMU 关系和整台传感器装在车上的关系要分开；整机转动不改变内部两者的位置 |\n| 过接缝、颠簸时定位突跳 | `satu_acc`、`imu_meas_acc_cov`、`acc_cov_output` | 先看支架是否牢固、加速度单位与峰值、时间接口；确认后再判断算法应怎样看待振动和真实运动 |\n| 快速转底盘或云台时墙面重影、方向跳变 | `satu_gyro`、`imu_meas_omg_cov`、`gyr_cov_output`，以及点时间接口 | 看角速度是否接近量程边缘、数据是否及时；这些现象不能只靠改噪声解决 |\n| 墙角、地面或斜坡上可用匹配点很少 | `plane_thr`、`match_s`、`ivox_grid_resolution` | 是否有足够、可靠的地图邻点；斜坡也可以是平整的面，这三项没有规定“最大爬坡角度” |",
+      "translatedText": "| Observed on hardware | Parameters or relationships to check first | Specific checks |\n|---|---|---|\n| The robot is stationary, but the estimated position changes noticeably | `acc_norm`、`gravity`; then check data timing and installation relationships | Verify acceleration units and whether the system’s up and down direction matches the navigation reference frame\\. Drift alone does not prove a noise value is wrong |\n| Level ground appears tilted, or ramp elevation directions are wrong | `gravity` and the complete coordinate transformation chain | Stationary IMU readings, LiDAR installation orientation and the relationship from the Point-LIO frame to `odom` must agree; do not simply substitute an array pointing downward |\n| The entire MID360 is tilted or rotates with gimbal yaw | `extrinsic_T/R` and the robot mounting TF | Distinguish the internal LiDAR and IMU relationship from the entire sensor’s installation on the robot; rotating the unit does not change its internal origin positions |\n| Localization jumps when crossing seams or bumps | `satu_acc`、`imu_meas_acc_cov`、`acc_cov_output` | First check bracket rigidity, acceleration units and peaks, and timing interfaces\\. Then assess how the algorithm should distinguish vibration from actual motion |\n| Walls ghost or heading jumps when the chassis or gimbal rotates rapidly | `satu_gyro`、`imu_meas_omg_cov`、`gyr_cov_output` and the per\\-point timing interface | Check whether angular velocity approaches the measurement\\-range limit and whether data arrives promptly; noise tuning alone cannot solve these symptoms |\n| Few usable matched points at wall corners, on the ground or on slopes | `plane_thr`、`match_s`、`ivox_grid_resolution` | Check for enough reliable neighboring map points\\. A slope can also be planar; these three parameters do not define a maximum climbing angle |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e8ce8184294ebd77fa0ef0fa7186c59da3e2f4d442af6f421c5b62112edd3da4": {

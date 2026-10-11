@@ -771,6 +771,20 @@
         "costUsd": 0.000052
       }
     },
+    "66e6535636aae73e0103bb8707299dab3b2553e4713f871a67fe87c5b5dc0e93": {
+      "normalizationVersion": 1,
+      "sourceHash": "9034c7f8dd86b691d9854aa0ee62fc0afe0c9338861c155d72a446adc1d4cb4f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本地实现要求float类型的XYZ与intensity字段；没有intensity字段的点云不能直接套用。若接原始雷达点，intensity可能恢复为反射强度，这时0.1／2.0不再代表10 cm／2 m；不应仅换话题继续沿用当前解释。",
+      "translatedText": "The local implementation requires float XYZ and intensity fields\\. A cloud without intensity cannot be used directly\\. With raw LiDAR points, intensity may again mean reflectivity, in which case 0\\.1 and 2\\.0 no longer mean 10 cm and 2 m\\. Do not simply switch topics while retaining the current interpretation\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "66e868aa018cb4f51319dbdba2fc52fadccd7dc855a5e385c8dddfcf5446a7bb": {
       "normalizationVersion": 1,
       "sourceHash": "e3e9b782803c8f64a847de0b6b71b94ec4e2a100c2fdd0969771c60b094c9c99",

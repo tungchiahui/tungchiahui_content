@@ -435,6 +435,20 @@
         "costUsd": 0
       }
     },
+    "2562929c862a2cc43c0ceb46fb0a8ce0e08b00d378dc3f7920f38d86e2ba455c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e104f27ef5febca3888d7d3e7c5156c657d4b07183bb1762f9e99dee732b6c5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以理解为给内部匹配轮廓加一圈“渐弱的软边”：当前点没有恰好落在旧轮廓上，稍微错开仍能得到分值，离得更远则分值更低。这里用的是高斯标准差，σ=0.1 m不是“10 cm内全部算匹配、外面全部不算”。",
+      "translatedText": "This can be understood as adding a \"gradually weakening soft edge\" around the internal matching contour: when the current point does not fall exactly on the old contour, a slightly offset point can still receive a score, and the farther away it is, the lower the score\\. Here a Gaussian standard deviation is used; σ=0\\.1 m does not mean \"everything within 10 cm counts as a match, and everything outside does not count at all\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 99,
+        "costUsd": 0.000176
+      }
+    },
     "256c3f11760009d59191380b63a6a524dfa634e85231a225da69c5681216c6e1": {
       "normalizationVersion": 1,
       "sourceHash": "63b2fdc31633be09c7d69aa60fca23b98851e9f2463762ec6c63f81096e89037",
@@ -643,6 +657,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "259804ba6094ab933cf63f2df1a0869ce747290824ae042e3663b4857be0e782": {
+      "normalizationVersion": 1,
+      "sourceHash": "36f2dc6aface9a0888a38e80bcf7c1cf96fae0a71eaa604e190cf900bbb57d6f",
+      "contextFingerprint": "88699085ea4f7628df223e3e20c2c09387d6c66c2b8721efee92262b4c0ce6be",
+      "sourceText": "这13项继续属于原文件ROS Parameters分区。扫描接收、加入建图和输出地图是不同阶段；以下按当前sync_slam_toolbox_node及2.6.10版本说明，实物与仿真配置值相同。",
+      "translatedText": "These 13 items still belong to the ROS Parameters section of the original document\\. Scan reception, map building, and map output are different stages; the following follows the current sync_slam_toolbox_node and the description for version 2\\.6\\.10, where the physical and simulation configuration values are the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 73,
+        "costUsd": 0.000142
       }
     },
     "259ec721bae09768080927ea9f2c7940cf0688c5cc7cfc3e693b0e36af3aab18": {

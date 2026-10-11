@@ -365,6 +365,20 @@
         "costUsd": 0.000062
       }
     },
+    "9f5b6d82bb45e78b990c311276fd355d081585ae761270399d25cc1e5199fc09": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d6236f76dd33d4d6a9a41451f5710125119771a1ce6517128159d3d8d9f964c",
+      "contextFingerprint": "9214af157f7fba3c5127959d1dbf88c1fa773a62df62861134331002cdd5c693",
+      "sourceText": "- **loop_search_maximum_distance=3.0 m：** 筛选附近的历史候选，比较扫描参考点之间的距离。当前use_scan_barycenter=True，参考点采用有效回波端点的重心。\n- **loop_search_space_dimension=8.0 m：** 对已经选出的候选，以当前估计扫描位姿为中心，在建图平面的x、y方向各约±4 m内尝试平移；这是8×8 m的粗搜索正方形。",
+      "translatedText": "- **loop_search_maximum_distance=3\\.0 m:** Filter nearby historical candidates and compare the distances between scan reference points\\. Currently use_scan_barycenter=True, and the reference point uses the centroid of valid echo endpoints\\.\n- **loop_search_space_dimension=8\\.0 m:** For the already selected candidates, with the current estimated scan pose as the center, attempt translation within approximately ±4 m in both the x and y directions of the mapping plane; this is an 8×8 m coarse search square\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 240,
+        "outputTokens": 126,
+        "costUsd": 0.000224
+      }
+    },
     "9f5ff2f16f3803b78aaa27b5495e830e1d519c55d3f92fd4cf76e0a792702ddb": {
       "normalizationVersion": 1,
       "sourceHash": "609d8c09a1b63719cf58b8140889001071a1a9f31af6256a8909e570bbf73f08",

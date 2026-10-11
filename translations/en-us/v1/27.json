@@ -337,6 +337,20 @@
         "costUsd": 0.00008
       }
     },
+    "276d7558cd383e8006e8c0a2360bb3af422ab1a5c9e89470a98e8e0af71cb7b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d33e4e6c687125f4f1ccc1d47f5a70beec585b7c3f734e1772835941689e211",
+      "contextFingerprint": "2029a4beeb0902422347b7cce6a93d2a113677c5e85dc66841bd96839170d7eb",
+      "sourceText": "###### loop_search_space_resolution（5 cm网格，闭环先按10 cm粗搜）",
+      "translatedText": "###### loop_search_space_resolution (5 cm grid, closed loop initially rough\\-searched at 10 cm)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
     "276dd7d960a57a52bb5c687e7ae33929fbcc0c53b945dbd0d657b99db72a6173": {
       "normalizationVersion": 1,
       "sourceHash": "47710a2f72c2153f24173eca2580b5a86850b2c10bd07d1edba4ee30c33eb7cd",
@@ -475,6 +489,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "27868249c6a55ced1238a3575bd1fbcca738f34146ff3d4307bcd35659c5b66d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8612722ec125b6af473b23fd07e741fa69d87150f7d1d64d5fe5f47e91d406fc",
+      "contextFingerprint": "287a0727fbb65e9148731d23571359859515857b211a86771f9985ad4a8076f2",
+      "sourceText": "| 方向 | 话题 | 本节点怎样使用 |\n|---|---|---|\n| 订阅 | `lidar_odometry` | 取最近收到的位置作为距离与高度的基准；预期是 `odom` 中的雷达位姿 |\n| 订阅 | `registered_scan` | 输入 `odom` 中的配准点云，用于累计、选地面和计算远场高差 |\n| 订阅 | `terrain_map` | 保存近场节点最近一帧结果，取其中4 m内的点直接合入输出 |\n| 订阅 | `joy`、`cloud_clearing` | 触发自身缓存清图；后者还提供清图半径 |\n| 发布 | `terrain_map_ext` | 合并结果，参考系写死为 `odom`，时间标为当前输入扫描时间；自身远场的 `intensity` 是绝对高度差，单位 m |",
+      "translatedText": "| Direction | Topic | How this node uses it |\n|---|---|---|\n| Subscribe | `lidar_odometry` | Use the latest received position as the distance and height reference, expected to be `odom` ’s LiDAR pose |\n| Subscribe | `registered_scan` | Input a registered point cloud in `odom` for accumulation, ground selection and far\\-field height differences |\n| Subscribe | `terrain_map` | Save the near\\-field node’s latest frame and directly merge its points within 4 m into the output |\n| Subscribe | `joy`、`cloud_clearing` | Trigger clearing of this node’s own cache; the latter also supplies the clearing radius |\n| Publish | `terrain_map_ext` | Merged result, with reference frame hardcoded to `odom` and timestamped with the current input scan time\\. The node’s own far\\-field `intensity` represents absolute height difference in m |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "27899c42f46cbc2f6a2aa52528af02dd9a7591025833af9fae0a74079d2cf61d": {

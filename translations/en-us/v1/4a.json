@@ -575,6 +575,20 @@
         "costUsd": 0.000059
       }
     },
+    "4a9c5c30ce8430bc95742c6d2a639c0ae971b41bf199de99d5c85542e9c998b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff29ce7682d93da2933d991324e219e0fcb0cc0a92e4e1db75bdcf2e6c2175ce",
+      "contextFingerprint": "3fc257979e4f029db7e0e77f3edc26909e14a5b8c505bc8b450e37f55a2352d6",
+      "sourceText": "当前实现从全部已处理扫描重新生成栅格，并非只改最新一小块；地图扩大、历史扫描增多时，缩短间隔可能明显增加负担。无/map订阅者会跳过生成；当前地图保存组件会自行订阅，所以即使不看RViz也可能持续生成地图。[栅格生成入口](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "The current implementation regenerates the grid from all processed scans, rather than only modifying the latest small patch; as the map expands and historical scans accumulate, shortening the interval may significantly increase the load\\. When there are no /map subscribers, generation is skipped; however, the current map\\-saving component subscribes on its own, so the map may continue to be generated even when RViz is not being viewed\\.[Grid generation entry point](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 93,
+        "costUsd": 0.000171
+      }
+    },
     "4a9e6b73f0b3f0a2cb3438ad4ec20a98eebcb98d2ca04f3ef4bbd2bf9f89bc3b": {
       "normalizationVersion": 1,
       "sourceHash": "1a82e720ba7cf10bbb29ec6c8ea3e18907abf8aab384ce2fae909aebb2961509",

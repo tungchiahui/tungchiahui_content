@@ -127,6 +127,20 @@
         "costUsd": 0.000057
       }
     },
+    "e94523e64dc423b814596980ddf32f33d44f638ece1b8b500d0c8623321b36fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8bb1ce8b972f7e0ac6114d92252502e670a43f035ff304bfd6d0f26759a8e81",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "纯公式算例：偏移20 cm时，距离系数约0.99974；朝向偏移10°时，角度系数约0.99976。当前数值对这种程度的偏移扣分很轻；这是公式结果，不是定位精度或实车验证结果。",
+      "translatedText": "Pure formula example: when the offset is 20 cm, the distance coefficient is about 0\\.99974; when the orientation offset is 10°, the angle coefficient is about 0\\.99976\\. The current values apply only a very light penalty for offsets of this degree; this is a formula result, not a positioning accuracy or real\\-vehicle validation result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 80,
+        "costUsd": 0.000152
+      }
+    },
     "e949db3f99c6c85113f8d3c3d60f7715e0a2bc8570e178e5095b4a29b5c0da27": {
       "normalizationVersion": 1,
       "sourceHash": "579bb283b055f5a607ab7a53a9f80c3dc3641c0afa6916f37e9956d43b6b5a35",
@@ -167,6 +181,20 @@
         "inputTokens": 138,
         "outputTokens": 23,
         "costUsd": 0.000069
+      }
+    },
+    "e9510ddaa4a8a8f9a7ec5e44ebc42920ea9cdeac7c7dd3cd54b68b40d62ef8cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "b563af86a28bfe917c6a75e12ee182a394465505586f67534d76f75942851e61",
+      "contextFingerprint": "0122d4173f10bbec1a1330cc97cdbdffdecbc77e6d9533f4e7ed1fb7aee3843e",
+      "sourceText": "当前0°角门槛和-0.3 m高度偏置，在非零水平距离处等价于要求 `Δz>-0.3 m`。`minDyObsAngle` 与 `minDyObsRelZ` 同时影响历史候选和最新回波重置，调整后的净清理效果不能只按一个方向推断。",
+      "translatedText": "At nonzero horizontal distance, the current 0° angle threshold and \\-0\\.3 m height offset are equivalent to requiring `Δz>-0.3 m`。`minDyObsAngle` and `minDyObsRelZ` affect both historical candidates and resetting by the latest returns\\. The net clearing effect after adjustment cannot be inferred from only one direction of change\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e9576b19e5a46e78c7bccf3d98d38210170b77064e5e5aa1f735ed7c2ca8e890": {

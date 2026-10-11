@@ -925,6 +925,20 @@
         "costUsd": 0.000054
       }
     },
+    "4df075bc7c96bd73a2d189fc6740747631a0b461da1fb1e58f7a1d41d9f3a240": {
+      "normalizationVersion": 1,
+      "sourceHash": "b41591090032fbf7d807dac949f52b0d48fc178b7dc2f7c3f525419c1cb55f0d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "闭环可理解为：绕行后认出曾经经过的区域，用这条新约束重新调整二维轨迹，使前后轮廓更一致。成功闭环可能减少累积偏差；错误闭环也可能把整片地图拉错。",
+      "translatedText": "A loop closure can be understood as: after traveling around, recognizing an area that was previously passed through, and using this new constraint to readjust the 2D trajectory so that the earlier and later contours are more consistent\\. A successful loop closure may reduce accumulated drift; an incorrect loop closure may also distort the entire map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 71,
+        "costUsd": 0.000138
+      }
+    },
     "4df884877b93cd85b05475cd2fd98b314a3586e666f0677753bcd16a42dac128": {
       "normalizationVersion": 1,
       "sourceHash": "3ea3686e0fa4608043f711610f9faeee51e3ee7ea42182c335079dcf8c932312",

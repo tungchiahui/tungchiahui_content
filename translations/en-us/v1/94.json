@@ -57,6 +57,20 @@
         "costUsd": 0
       }
     },
+    "940b77ef413f2203246ce7b6f3b98dcc7f3e02aca352b216f2a333bcf766589f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d36657311e681e62b397b8917e9cfd87cb749b50fc29f0e20a9e49e5d2713d56",
+      "contextFingerprint": "786a1de3e373e42e5fbfbd4563b54b6e78e035371bb7de90ff4962b02660ab66",
+      "sourceText": "等待对应时刻TF的扫描，最多先缓存10份；超出时丢最旧消息。增大可缓解短暂TF迟到，但不会增加计算能力，也不会生成缺失变换。[Humble MessageFilter实现](https://github.com/ros2/geometry2/blob/humble/tf2_ros/include/tf2_ros/message_filter.hpp)",
+      "translatedText": "Wait for the scan of the TF corresponding to the time, caching at most 10 messages first; when exceeded, discard the oldest message\\. Increasing this can alleviate brief TF lateness, but it will not increase computing power, nor will it generate missing transforms\\.[Humble MessageFilter implementation](https://github.com/ros2/geometry2/blob/humble/tf2_ros/include/tf2_ros/message_filter.hpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 65,
+        "costUsd": 0.00013
+      }
+    },
     "940fff3a5ca6de4fc8b1be25b91ca51b8cf0540ae171a43c463e174e23925d00": {
       "normalizationVersion": 1,
       "sourceHash": "c57f0ab834fe182898a6ce309decf8517d10468b57a0fddfc36a8d99d3d40c89",
@@ -505,6 +519,34 @@
         "costUsd": 0
       }
     },
+    "94831ab791b11e8bd91bd0a2362abcadd36669d7dd9ebd5995c4812ca2de5735": {
+      "normalizationVersion": 1,
+      "sourceHash": "62929e1e9536c280dab09cafddd5a84a47b82782a73f8ad430c9fbebfc56fe6e",
+      "contextFingerprint": "027f7dd1f57ffe2c1acd6d97dab28b53dd971a890bb10a8ae5264119b91f7951",
+      "sourceText": "| 应保留的文件 | 用途 | 当前方案是否需要 |\n|---|---|---|\n| 二维地图图片（如PGM／PNG）及配套YAML | map_server读取；给Nav2提供静态道路／障碍布局 | **需要成套保留**；YAML记录图片路径、分辨率、原点等，只有图片不够 |\n| 对应场地的三维PCD | small_gicp_relocalization的定位目标点云 | **需要保留**；不能用二维图片代替；当前launch通过prior_pcd_file指定 |\n| slam_toolbox序列化的.posegraph及.data | 保留其内部建图状态与扫描，供继续建图或使用它自己的定位模式 | 当前常规导航不读取；如需后续继续建图，可额外成套保存，仍需验证当前设置下的可用性 |",
+      "translatedText": "| Files to retain | Purpose | Required by the current approach? |\n|---|---|---|\n| Two\\-dimensional map image, such as PGM or PNG, and its YAML | Read by map_server; supplies static road and obstacle layout to Nav2 | **Retain the complete set**; YAML records image path, resolution, origin and other settings\\. An image alone is insufficient |\n| Three\\-dimensional PCD for the corresponding site | Target point cloud for small_gicp_relocalization localization | **Retain it**; a two\\-dimensional image cannot replace it\\. The current launch specifies it through prior_pcd_file |\n| slam_toolbox’s serialized \\.posegraph and \\.data | Retain its internal mapping state and scans for continued mapping or its own localization mode | Normal current navigation does not read these\\. Optionally save the complete set for later continued mapping, but verify usability under the current settings |",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "948e7a6d984e686c8fe8371947d7c9bdfa56b6e630ab093a19e8c355c3e18c28": {
+      "normalizationVersion": 1,
+      "sourceHash": "82dfbbf4fd9c0e1a047beeac801f3c002fe0e1b5f4f655b8ac67f13349c167ad",
+      "contextFingerprint": "48039ad6acb3c0702667f3ff425c3c8fb247cd1504293d5cfd32dc7b5e9dae0b",
+      "sourceText": "当前5 cm格距允许σ为0.025～0.5 m，0.03 m合法。例如，单独把格距增到0.1 m，仍保留σ=0.03 m，新下限会变成0.05 m，初始化将抛异常；即使闭环关闭也会检查。[容许范围与涂抹核实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Mapper.h)",
+      "translatedText": "The current 5 cm grid spacing allows σ from 0\\.025 to 0\\.5 m, and 0\\.03 m is legal\\. For example, if the grid spacing alone is increased to 0\\.1 m while σ = 0\\.03 m is retained, the new lower limit will become 0\\.05 m, and initialization will throw an exception; the check is performed even when the loop is closed\\.[Allowable range and smearing kernel implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/include/karto_sdk/Mapper.h)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 103,
+        "costUsd": 0.000184
+      }
+    },
     "94967ab133b13bbcbf044dc3e3bce716fd3c64e8976f1b3e326b347281fcc7c7": {
       "normalizationVersion": 1,
       "sourceHash": "8c44f6adf1a537ac6f34cc15e365f727f3bae47b056f53fb4f8fe72c7999bfce",
@@ -681,6 +723,20 @@
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image736.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "94bada58017fabd7508e4789d5f38ea4d02b11770b200efc85db528b902bd6ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "e616fc37754209ed17ad0379cd586916520eb19452b6bcaf83de40b3c7c7634d",
+      "contextFingerprint": "a03e2cd11731eb653e3cbf0b2ab940aa254b8dcf774728be0e36ccd9b23cbd10",
+      "sourceText": "当前实物／仿真配置均为use_scan_matching=False、do_loop_closing=False，不执行自动闭环评分；首次有效扫描初始化时仍创建闭环匹配网格，数值组合和内存分配仍有影响。",
+      "translatedText": "Both current hardware and simulation configurations use use_scan_matching=False and do_loop_closing=False, so automatic loop\\-closure scoring does not run\\. The loop\\-closure matching grid is still created when the first valid scan initializes, so numerical combinations and memory allocation still matter\\.",
+      "provider": "manual",
+      "model": "codex-semantic-review",
       "usage": {
         "inputTokens": 0,
         "outputTokens": 0,

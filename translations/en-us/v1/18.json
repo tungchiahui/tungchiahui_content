@@ -57,6 +57,20 @@
         "costUsd": 0.000058
       }
     },
+    "1808abfe7c5267b1ae33ec333b0771fc5b6fa7ee48fb12cefc65cb41083ec7ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "71fc3616658642353ef8de789e8c24df3ab4b3f762d384a05aa11f165547fa3a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 修改mid360相关配置文件",
+      "translatedText": "#### Modify the mid360 configuration files",
+      "provider": "manual",
+      "model": "codex-semantic-review",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "18092d7fcb9523c955f3c1f4874dd4f3e6620d6c18cbb1bcb6d4647defaf90f8": {
       "normalizationVersion": 1,
       "sourceHash": "86bfc3f85a0d39fdc0854af300fb7346004aa72233d527e0ebbe1dad419da08a",
@@ -139,6 +153,20 @@
         "inputTokens": 175,
         "outputTokens": 57,
         "costUsd": 0.000121
+      }
+    },
+    "18242ee1863f1a8bd140b62e20c567b11ff1c0a354ca2d5d8ac2f411050a8d66": {
+      "normalizationVersion": 1,
+      "sourceHash": "56049f31b92412fe289431b1e25ff1daa1d0db33c84bebbae58a66276bbbc974",
+      "contextFingerprint": "2e7ddd9d786defc32875708d82f34fc47ab0b19f854d63ba02becbd11fe259d6",
+      "sourceText": "###### max_laser_range（远处回波怎样参与建图）",
+      "translatedText": "###### max_laser_range (How do distant echoes participate in mapping?)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "18259755af01f93b937667703d6b208d6f75f3d86fb828fab39dd9437366fafe": {
@@ -447,6 +475,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "188e7ee21c7e1849c5cc10969e4137f3080fdd3ad97187192f3441c4d3effc94": {
+      "normalizationVersion": 1,
+      "sourceHash": "c75b402b4e39d494975e9c427890b5715549da46477a12e13f1ae1c9be30ef22",
+      "contextFingerprint": "3fc257979e4f029db7e0e77f3edc26909e14a5b8c505bc8b450e37f55a2352d6",
+      "sourceText": "3项在SMapper::configure读取并设置到Karto，非正值分别回退为8.0、0.05、0.03；首次有效扫描创建网格，没有运行中修改这3项后自动重建的参数回调。[参数读取实现](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "translatedText": "Three items are read and set into Karto in SMapper::configure; non\\-positive values fall back to 8\\.0, 0\\.05, and 0\\.03 respectively\\. The grid is created on the first valid scan, and there is no parameter callback that automatically rebuilds after these three items are modified during runtime\\.[Parameter reading implementation](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 78,
+        "costUsd": 0.000149
       }
     },
     "18902c780c99b3cac777f7220c820947ed93deb14a93332a693b95b6af7e9165": {
