@@ -85,6 +85,20 @@
         "costUsd": 0.000119
       }
     },
+    "3430bcafa895851e9e00eae2232720dc989b1dc175f884f4f36312d27cb5cad9": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c97f3b208a783e328b0475ca45b49368f387322a01e333681a1e00435bb0dd3",
+      "contextFingerprint": "29bb93931796ffb51222556d171c2a09abd939b1c84238b0d08d01dce6e1ab79",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1378.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1378.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "343589714a14240c4fc6c6919520fcafe0cb315c6f971da3e844a8e1991ed115": {
       "normalizationVersion": 1,
       "sourceHash": "d2874f0178257c1e878ec21c9855c0f9028770526f8662ebad2d1f907e4de1f0",
@@ -96,6 +110,20 @@
       "usage": {
         "inputTokens": 136,
         "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "3437bfc47f6d48d13a3cd2706b059dddf2894d5ce15a4b6b1f42985af269f7a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d09b31887ca156d0f4c48f81d3b122b1eafe499a328d7e56becfd5910273999",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可执行文件会存放到install空间里，",
+      "translatedText": "The executable file will be stored in the install space,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
         "costUsd": 0.000063
       }
     },
@@ -111,6 +139,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "3441a2e6fce329af500014a000f81031575e8ce23df5c6bc48907ee163b3c238": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f2093bd994cffa36d7a8d5019dba029dc987c4e925a185b0a9c6c3a7b6eb4dd",
+      "contextFingerprint": "40c764d3e4faf18f0fd8fa59331e11896e3ebac22c71fffec7d169dd2960b535",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1180.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1180.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3441c51394b0fe235404f42228c826b0fb019fef92a9dc67de69b2e751db560c": {
+      "normalizationVersion": 1,
+      "sourceHash": "34f64ef43975cb959a76554a267066f8a2693b82ab16c646b1e6225af5730496",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "智能指针是一种自动管理内存的指针，它会在不需要对象时自动释放内存。使用智能指针可以避免内存泄漏和空悬指针等问题。",
+      "translatedText": "A smart pointer is a type of pointer that automatically manages memory, releasing memory when the object is no longer needed\\. Using smart pointers can avoid issues such as memory leaks and dangling pointers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
       }
     },
     "34497f05423e2dd6cfe29e125d43c0b257e88e5cb32c114b5f2f818d17cb136f": {
@@ -225,6 +281,34 @@
         "costUsd": 0.000147
       }
     },
+    "3474d63a0aff8583f69fec265129e61911a8987cf9551cc3d11ee40f633a9486": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a02f1659e3d997e21b30948cc59c93126ec71e3ae6bef737b209dffa06809ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是不一定消息真的发布出去了。",
+      "translatedText": "However, it does not necessarily mean that the message was actually published\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 20,
+        "costUsd": 0.000065
+      }
+    },
+    "347737dd060edc56a1981bffaf00bed8f6b54c384dcfb202919d719560c4de80": {
+      "normalizationVersion": 1,
+      "sourceHash": "35d3a8d9dd4150a6f81890306d950411065f0e34c8b9cf747afaf5e76d5519f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "场景2:现有一带机械臂的机器人(比如:PR2)需要夹取目标物，当前机器人头部摄像头可以探测到目标物的坐标(x,y,z)，不过该坐标是以摄像头为参考系的，而实际操作目标物的是机械臂的夹具，当前我们需要将该坐标转换成相对于机械臂夹具的坐标，这个过程如何实现？",
+      "translatedText": "Scenario 2: There is a robot with a robotic arm (e\\.g\\., PR2) that needs to grasp a target object\\. The robot's head camera can currently detect the coordinates (x, y, z) of the target object, but these coordinates are in the camera's reference frame\\. However, the actual operation of the target object is performed by the gripper of the robotic arm\\. Currently, we need to transform these coordinates into coordinates relative to the robotic arm's gripper\\. How is this process implemented?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 111,
+        "costUsd": 0.000194
+      }
+    },
     "3477751419612673471a9bb34548b78e1f47ecd2c00ac5e6c5bf2f3e4bcfc2f1": {
       "normalizationVersion": 1,
       "sourceHash": "ee7bf5186c38a9195c4164b8b491b76f71a312833b55c9df98f536cf965e2e62",
@@ -281,6 +365,20 @@
         "costUsd": 0.000067
       }
     },
+    "348ae9a712c409391554f5ba909ef45f4469dee8da01db3e4053f0d7ccf72551": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c2eef5401c4b4d9fafdbc9a7073e1bcb119b69d2f38c15f4aaa5600a111cfc9",
+      "contextFingerprint": "85f1f45bcb488e5f91e20271dab1561d87337c79309727c74db5467a51cf9e8c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1532.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1533.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1532.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1533.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "348d4571f1edad7ec1946987c48bc7b86ab44974f7378a0168cdd780af32563f": {
       "normalizationVersion": 1,
       "sourceHash": "2eb3d41f1550afd525ea2aef26eea0b4f4767875abc7749170187765b8c1bd32",
@@ -321,6 +419,20 @@
         "inputTokens": 141,
         "outputTokens": 19,
         "costUsd": 0.000066
+      }
+    },
+    "349ca12bf1fa2253b2c11646a482f61996f5f1ea8d600be22cfd1e49dd4cefdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3921105d611e342593ec6a7c30fa3abf5c3e443052b05d54c9f1e1c683c76d6",
+      "contextFingerprint": "e010a24d649bded9ca704830f80a54ae263081ee0c799da145703d9f983ea866",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image213.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image213.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "349ff9d15be53eced92b6ba233b6df295e15301858f68d84ee412e4c3d0f51a2": {
@@ -491,6 +603,20 @@
         "costUsd": 0.000052
       }
     },
+    "34c56314acbe350baf06bc1c7e7a843594a37c72a3b8616fc105432e678afef0": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f1b20b1c76256a816fc4a9368490fd9bef29706ba499f94850fc16584755622",
+      "contextFingerprint": "5b285e1192abac35ece3b51cf50a575b89d44ff2b966db22a4d6089edc446391",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image412.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image412.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "34c960aa213141ca1bfabf30bab7afb0b55980e6b066058c4ee720093280ea64": {
       "normalizationVersion": 1,
       "sourceHash": "d4c992d2b4552abe19242eb95f8d34d91ebe0d74a11de25bdf24278b740d2943",
@@ -545,6 +671,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "34dfb8e55b4a69dbec8bd26a67183a1d7c04e32f40427cbc5d4334a84bda4441": {
+      "normalizationVersion": 1,
+      "sourceHash": "54ed8ece7d88e98b82c59ca8f3c07d9266fc9787ab08be4db2596d62a669e17a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一个是被强行终止",
+      "translatedText": "The first one was forcibly terminated",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "34eb2364a08aa2087c5a7922d50c66950661956e2eaca898305a4e4b3350d620": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3935ff8b9e952db840575e83c4e8204b782d319a82503ccaa39d3e4f5336f74",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二步，服务端评估目标数据，并反馈给客户端这个评估结果(是否能够达到目标)",
+      "translatedText": "Step 2: The server evaluates the target data and feeds back the evaluation result (whether the target can be achieved) to the client\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
       }
     },
     "34f0df383b3dc784709d8f3a382ad952d827a4ca020a48e9b5dfac473617229b": {

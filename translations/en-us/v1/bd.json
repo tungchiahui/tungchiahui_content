@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bd00d5dd770722a208cb58ff587a480a219295acdc95e247b098eaec20c22db0": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a9dee1a410812b647340713fbb586e8bc3fe4d871bf1a69059b236246e59cc3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按右手坐标系来看，N2相对于N1沿X轴平移了1m(一格代表1米）。",
+      "translatedText": "In a right\\-handed coordinate system, N2 is translated by 1 m relative to N1 along the X\\-axis (one grid cell represents 1 meter)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
     "bd08f209fb1dfeecea8c0a18d11e3b82daaf98f010f77b8987522a5c173386b1": {
       "normalizationVersion": 1,
       "sourceHash": "525cab6b5cb317eeecc22ca29cee59b535f068e92e98b05d971fed664e6eec6c",
@@ -127,6 +141,34 @@
         "costUsd": 0.00008
       }
     },
+    "bd353c4d7414bfba232e88996cbe1129cbe9f3e1e9eb84454d6dbbad0ae10791": {
+      "normalizationVersion": 1,
+      "sourceHash": "4097986f369d7127a9d25da210eebfc6279b97c0296438a447c1001b8f740d7c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "父级坐标系和子级坐标系是必须要写的。",
+      "translatedText": "The parent coordinate system and the child coordinate system must be specified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "bd395eff4fb0d810a5de0f74ebf1c86803f2226c2a0f667ecf085cf780a0c5b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "51c14844f67ec78eeb55fc5fe8b139d40db28d6aa9476b0f4e0768f057957de7",
+      "contextFingerprint": "f495b2154447e7d3da50164dac5ea843649c094331945e25814d32039c2b0393",
+      "sourceText": "这种方式通过rclcpp里的get_logger，但是需要给日志起个名字，放到入口参数里，我们就叫rclcpp吧。",
+      "translatedText": "This approach uses get_logger in rclcpp, but the log needs a name, which is placed in the entry parameter\\. Let's call it rclcpp\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    },
     "bd3f690ced374d88440aeb2e228d850ab66b22dfddf624e8fe2526ae41c2ca9a": {
       "normalizationVersion": 1,
       "sourceHash": "7538a9836ae8d2154ed82a2c4baddf1a724b781b3d7951744b07e8bba526701d",
@@ -155,6 +197,20 @@
         "costUsd": 0.000052
       }
     },
+    "bd40f3e7fd0dd5b79c86491b2c1e97ff1d65b711c56de3ae76ca10987fa5a7e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf2b640fe98cacf6dd020d5990b93872afe310ceb8d62c50fd1a47f78fafc950",
+      "contextFingerprint": "e5d1b2e1f80b81a337164fd2d77be6097f206638a8df3cf76fe09c05bad21553",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1259.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1259.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bd4685c7ef75c1cebaa57d019a11e63f703732c7ef088e1bfac1e165eb37f24a": {
       "normalizationVersion": 1,
       "sourceHash": "93fd6429b1ac46466a164ca6a7eefd5fa66fcdca77194a9994053c4ca71736a0",
@@ -167,6 +223,48 @@
         "inputTokens": 142,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "bd4825c82b52c828b23495c7fd39a6fe6f2834369703328ccd1b4793756a9b4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f72b2adfcbd77de168ea0b150ba9834927cb555a0783ed01816479d5705b96d3",
+      "contextFingerprint": "c1e44b1c9fef342f162811c87b6ca6199682b8a5c160ff1e1c383270cf8c6bfe",
+      "sourceText": "按下ctrl+c会结束我们的ROS2程序，要释放资源，比如要关闭context，这时已经关掉了context，这样，我们再从client和this来获取日志，就不行了，所以建议用rclcpp::get_logger()。",
+      "translatedText": "Pressing ctrl+c will terminate our ROS2 program\\. Resources must be released, for example, the context must be closed\\. At this point, the context has already been closed\\. In this way, if we then try to obtain logs from client and this, it will no longer work, so it is recommended to use rclcpp::get_logger()\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 102,
+        "costUsd": 0.000184
+      }
+    },
+    "bd4c97c15c127a6fc6b4664594fc610463ea66f060ddaac0790d71671dea0809": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f43bb025a7f2d4bbe4047e2c6e5dea5d3bbb9c3d4bbe52535643794bab0f7ff",
+      "contextFingerprint": "1bf9e36eed0494026025c3e02fe63f666925a1e0e3175dda9348af6531c9241c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image631.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image631.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bd53e715b5d70e082fb599e2bbafc1fa168972a9ddcd39ad7fda195bbd5245b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "271ce1ec46b27bb74da48f1dcb95de4562fd1d310950db63cfffaf614a7b8e9e",
+      "contextFingerprint": "761ae0924de0e4a1f7dc8e071d05502f72661feec5e21d464e1ad3c7f2873517",
+      "sourceText": "https://www.openrobotics.org/",
+      "translatedText": "https://www.openrobotics.org/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bd53f0f631a7b300d43ff2bff41e74c763b191b99760b1bd84a2e07aad24b0ba": {
@@ -183,6 +281,20 @@
         "costUsd": 0.000072
       }
     },
+    "bd5437c6f8cd1eaac67b4f34c5ea10a079f721e2dff7d16ad3802ea938ecdd76": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e23da4a274a5ee460783e85804e3a885260489f26c52c22bab1d26066b33136",
+      "contextFingerprint": "9176a44157c0c6279cc9084b71d74c6436868772ce9eaa838f1b77876bed7743",
+      "sourceText": "2.  新建一个ROS2的WS",
+      "translatedText": "2.  Create a new WS for ROS2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "bd5d37e1bb99170f7de3ff8eed5dff25a3fc2a0b0baf64bb2a1d1f39c348c2ae": {
       "normalizationVersion": 1,
       "sourceHash": "a8ba4865ddd701ab06ead0f6714e3c5386765c7413f661fc7f9673cef3c1e7fb",
@@ -195,6 +307,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "bd61b2e9ba218e3c2854620c234ba3287c28cda6caeae3b3cd445011789b46a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d65f8276038487a8169cc80942b03a27c3e34ff2ba603aac978fa006058b707e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "比如这个010,你应该改成0-10",
+      "translatedText": "For example, this 010, you should change it to 0\\-10",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 23,
+        "costUsd": 0.000069
       }
     },
     "bd65cbe2ccc34230024ab864e085ad0ef04ef2c77da40db5146c93701669a537": {
@@ -237,6 +363,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "bd6ec11da7d7ef09906d9fc219b896399282dba03d25f6d9eba826fc1cb80439": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ae2a16d37164c9a1cb2b1042669f1be86940d9d29a321545ac4769d5f7538b7",
+      "contextFingerprint": "363b19e8074e8689de9c8b5737b5456410436ee63660c2497f0984c63b57c1cb",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image436.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image436.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bd6f30197e2e94227e79262d72e7e6bcfac2836e97f0ece639243695654bcf2d": {
@@ -351,6 +491,34 @@
         "costUsd": 0
       }
     },
+    "bdb63e6839a7cde415305967be0f4cc62de55cb7cdfb3e2cf6591340fed08769": {
+      "normalizationVersion": 1,
+      "sourceHash": "978ba385f3c876733cc89c5986a037280f64dae9c04853ea136febefc018d1dc",
+      "contextFingerprint": "ddec59e3424f4aacfbb2bb56566b16b2a4d4c8e8e285d10b9abf306703d164c4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image260.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image260.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bdb9d8a3c733c1bfa514982b200ef66d0d44eed4b6040b2708ad32906c285c30": {
+      "normalizationVersion": 1,
+      "sourceHash": "516675e2454b90d6a9110fcbcca6f706a983d10fc7fb781f102e8251f8140d56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "ros2 service call + 话题名 + 接口数据类型 + json代码(也可以理解成yaml格式的)",
+      "translatedText": "ros2 service call \\+ topic name \\+ interface data type \\+ JSON code (which can also be understood as YAML format)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
     "bdc0997a9bcc32f44215f1075a26599f6ce3e953b843bcada11c503a1bb0f096": {
       "normalizationVersion": 1,
       "sourceHash": "b2c75e665af31d396c20255f36c01ba7abdf7fe6e08cfc73f5bc64bd951d89fb",
@@ -379,6 +547,20 @@
         "costUsd": 0.000057
       }
     },
+    "bdc8f88daa5522f358308905b8904b5a8972afc4503aadfa5c537c69ff7beacd": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb7af90a7c7ff171416c2e28bf63266462816a82d49e1ab6182df64cbddeca2f",
+      "contextFingerprint": "0b9b04ee2fc160feef44517b5a2e54ded41b2566ca3900c80db65804d72384f6",
+      "sourceText": "https://snippet-generator.app/",
+      "translatedText": "https://snippet-generator.app/",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bdd071f8eae462238f9215bdb8f1ffab3201843a53a11d3df34a22c3d32b4c71": {
       "normalizationVersion": 1,
       "sourceHash": "d85f1638828d78aab1d37f5d69f873c392ded40009a363a8bb30d580ff68f2cc",
@@ -405,6 +587,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "bddf013836333d91ba3c643acc328a2b9dd19ec2b611094611fd9323bfe24e46": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb975d010d2855c9dd05d2d884fe2e78e09bd98a1123dba983f791b6e6475537",
+      "contextFingerprint": "e3963fbbf8dff0a2f050b75e62e815185ae91a61ab61dd623a902474c2d51f95",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1425.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1425.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bde09e021df3def14a25340f31eedec2dd50220171811a9cebae80d5a611d275": {
@@ -491,12 +687,40 @@
         "costUsd": 0.000066
       }
     },
+    "bdea43fa1033a1d0eaa2eaca52f05c7595a4bce0fec7182351d9a31b47a1fe7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e8fd1ac3de8982ec1c7181a4fab564101a57eae22bcf1ec4d0730be7ced50a4",
+      "contextFingerprint": "cc6cfb1dde1520a1e7a39953a67f4d219c8f25b4d8ab608031d8abb4114a09f1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1049.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1050.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1049.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1050.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bdeceb8bac8b9fd8f11af8c19743f3976dce717754903de7fa46d7ceacfd08fa": {
       "normalizationVersion": 1,
       "sourceHash": "ae9b28a67bedeed68c1ee971bd9e57fe1b96fe88229dd5ca50390bbe570acc8a",
       "contextFingerprint": "0f65697f6ac27eeb2ce72adc9b0a5ccd2b65c861ead022c9e14a5f2298bf5ad2",
       "sourceText": "![1544861202252](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1544861202252-f2305d08e7.webp)",
       "translatedText": "![1544861202252](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1544861202252-f2305d08e7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bdf273bbf1012938bc391b2a42645dbe91496eed838940d45b7df60271c359c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8287f536d63a185ea9c01c556340ad3747f047ca89345cedf7566dd75fd4a562",
+      "contextFingerprint": "24949d79c27706760ab7f7ce6337c4265ab8e75c1a782046a61b523e6306de4c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image492.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image492.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -531,6 +755,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "bdf6848e551ce0b8467a8ad63a24468e3fed965aaf130a0958f4fce14343208a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2f6a889e353d27d82f307bf2257115da42416bb33c73784e1e122bde43153c0",
+      "contextFingerprint": "005d9c9cee5d6218fb5db43ed8449c7ff5c7ce9100bd9b92af3da58c9986787d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image937.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image937.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bdf76692e58d91839924e3ee7e2d3280a17aaf19ccf9f5987622f5cc53221f11": {

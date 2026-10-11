@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "9b043201d0523a31c617c0e7b65323850bd4f59aa788d04d600587b8f084d4cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "800817c206d7bc39dc1ed94c64ccfd33314e8d6f2d76cf8269a18f6248673380",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只有配置文件，没有其他实质性实现",
+      "translatedText": "Only configuration files, no other substantive implementation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "9b04d7ef63a5a66916c66906b11e49100471a1cdab6bb363f6cc959202c1c1b5": {
       "normalizationVersion": 1,
       "sourceHash": "6d0410063a12354bb98f11191ac92170c35a7931878f19d5f2a8af19981742cf",
@@ -29,6 +43,34 @@
         "costUsd": 0.000156
       }
     },
+    "9b1006dd0f9160ab2c3e72bf13a1d56ad2895555359e2ea43f2fa85b8f0d74e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "7de333312e55adc595909d8d8eb64ee936a9bfe0f82b58c10a3473f2e1a94e18",
+      "contextFingerprint": "18ff392a041ce451618a1dcee59a88ab80f94bfaa42ef6c09ff579a45423bfd6",
+      "sourceText": "一个是this->get_clock()->now()，",
+      "translatedText": "One is this\\-\\>get_clock()\\-\\>now(),",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "9b15e684615a4957620d2691a60579e8b00a538a935cce00c399d45b759e0d25": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2b0e0e31725e85c94da73f2963bb08cff22176b1ef3920a97a58859a5bbf277",
+      "contextFingerprint": "2f26a9940010d13bcab0d59441cb27713968691ffe377084f4b2ac54871c8f00",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1036.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1036.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "9b170dddf7534a342d87a22ae8a3d7c418410ff6bf45c74a4d91d6a7ed58fe3a": {
       "normalizationVersion": 1,
       "sourceHash": "a47c0fe3e19f6ff1826da24ab1013034694d9ff1c4a72c9a4bbbcf6f2f1f7732",
@@ -41,6 +83,20 @@
         "inputTokens": 133,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "9b1b32eae1963b682afc98a939bd4fd7dce38c54394883d7577ab47ae1a8f935": {
+      "normalizationVersion": 1,
+      "sourceHash": "222c9f1ca2d692b55d3b475c4c409ea713edb381d3af8a83579f11fa69feb1f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "子集标签是node",
+      "translatedText": "The subset label is node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "9b2afc47d614072fb120f2d89718cd38fe107929c2fe1b03b5f37971f61a1edd": {
@@ -141,6 +197,20 @@
         "costUsd": 0.000093
       }
     },
+    "9b41b11d80275f167bf14e8ce54a447f657f01e5a5d1f751903d5fffcb3c307d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e9dc7bbbc6109d6ba66cd8e37fcd08f316992235d07e4b1738fdae9504b244c",
+      "contextFingerprint": "9e9c71e8cfc1a1c8328f361f8bc047a18b4e8a80c7b8e56e238db26dff56ad08",
+      "sourceText": "ros2 pkg create + 功能包名（可以写在前面或者最后面） + --build-type(构建类型) + ament_cmake / ament_python + --dependencies（依赖） + rclcpp(ROS2的CPP客户端) + --node-name（节点名） + 节点名",
+      "translatedText": "ros2 pkg create \\+ package name (can be written at the beginning or at the end) \\+ \\-\\-build-type (build type) \\+ ament_cmake / ament_python \\+ \\-\\-dependencies (dependencies) \\+ rclcpp (ROS2 CPP client) \\+ \\-\\-node-name (node name) \\+ node name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 232,
+        "outputTokens": 110,
+        "costUsd": 0.000202
+      }
+    },
     "9b4f4fe9bd95a90e92e8469573aea9491d3e81c424e778de02d3cb7378f1cb8b": {
       "normalizationVersion": 1,
       "sourceHash": "8ef4b7e75921f33d50054c4d44149fbfe10139e849217f812e6d2d2dc9f6a61e",
@@ -155,6 +225,20 @@
         "costUsd": 0.000091
       }
     },
+    "9b52a5426dba02d0fd5e3969626fa62fe630865b1eabf37f05579244e3274971": {
+      "normalizationVersion": 1,
+      "sourceHash": "51379457901d65dbda92312f528d4235d6047b3258f2f0fb5badf15ff27e4393",
+      "contextFingerprint": "8c98facd913ee591376ed6b7bf6375685a13b5754139c60e7f3412f378f79b59",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image556.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image556.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "9b5732d9ecade04d0a48fe3f64a7210db1514eea20d2faa8b0a3331c3f0c129f": {
       "normalizationVersion": 1,
       "sourceHash": "73382afa8669b11e50dfac0220709756a6eb4fd9669810289633af93286e551d",
@@ -167,6 +251,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "9b5b22132e978c9696472a8d6b5fc0db54ec969cf92b01b02272e2653cabe28d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d356d2ecdb4f5e2c6eea7d141e2225aba5b29dbbdbd8db3d9fc5cc6eb00aae3b",
+      "contextFingerprint": "d434a1276a91ef100bd998c50f6e7d0430770d319ccf33c6d2438b7c29fd4830",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1000.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1000.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "9b6207627d9ccb1944ecf077d178fdb5a6f7b067f4d9f2b3e2c7b24c1383af50": {
@@ -223,6 +321,20 @@
         "inputTokens": 157,
         "outputTokens": 42,
         "costUsd": 0.000098
+      }
+    },
+    "9ba48eb070110abc9d9532bb7c28b7d7180566b90edc6bc20ee1faad20d49577": {
+      "normalizationVersion": 1,
+      "sourceHash": "972b205d6c512c01ea59a8521cb8b176cc56e533ba3c219c9193d75c5e8b4068",
+      "contextFingerprint": "95b5e38a60525cef93e408ef379202544cb385c2ff3426a6b7ac223aa7fd012d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image626.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image626.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "9ba79adf7521fb4ea7588b67576b636176365f76d34be295ff9d93d61ec4d58d": {
@@ -295,6 +407,20 @@
         "costUsd": 0.000059
       }
     },
+    "9bb7c5cf6746f1120270dd3c15dc63f4412c7d6cbdf68389d714c700b2075906": {
+      "normalizationVersion": 1,
+      "sourceHash": "91dd790be73c4449b676678db42a8acbbca46f15350cbf7d0f1a121d6aa6b1d6",
+      "contextFingerprint": "09fcfdb5405067c135bb9dc453bdc6e1fb6d536ed32b79ab10397fa0678e33ff",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image232.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image232.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "9bc9f7466434448747f84d19122e73e3867e0f8afd601c4b9f9dbc6f60e73122": {
       "normalizationVersion": 1,
       "sourceHash": "94f350f736d2bd6f58b03b191511ec2af1019286db86c42a8801123e3f915d05",
@@ -337,6 +463,20 @@
         "costUsd": 0.000207
       }
     },
+    "9bd37046d533081d44b5baade016869971bfac662c96b4a00c2731b5e5dba3cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "95eb5322bff9c9333e518ee85b1e9edb83cbb3c6d11be3edfe081fa9d802f6f3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只是想要一个传统、稳定、轻量的终端，可以继续用 Terminator。",
+      "translatedText": "If you just want a traditional, stable, lightweight terminal, you can continue using Terminator\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "9bd3f3855af5d64db1d41f6db5a989dbae0294f6ccb52b2394a68558dabe5501": {
       "normalizationVersion": 1,
       "sourceHash": "b4a23bf81e73be5b662679a017dc033fd6585a1b45f22e501f7d33a7bd3c8b1e",
@@ -371,6 +511,20 @@
       "contextFingerprint": "2c7ad1a86e46ab35a61e0cb5bf4b8685ce43a736a19090eb89ccbaf2d05483e6",
       "sourceText": "#### `tcp::acceptor acceptor(io, tcp::endpoint(tcp::v4(), 9000));`",
       "translatedText": "#### `tcp::acceptor acceptor(io, tcp::endpoint(tcp::v4(), 9000));`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9bf59dde6afea50ef55ceb885f6c4c61f4c6f0eeea4624d91b0a604031bcdc30": {
+      "normalizationVersion": 1,
+      "sourceHash": "515c5809c967f262008574f650a1dbbaeae35ac9df9e6dc943ae9af080fe6529",
+      "contextFingerprint": "50cbf05aea8715b40aa69592add99dfce2f64a86b87076fa4f515f20eaac88f0",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image966.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image966.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

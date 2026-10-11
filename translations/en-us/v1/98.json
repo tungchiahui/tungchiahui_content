@@ -43,6 +43,20 @@
         "costUsd": 0.000051
       }
     },
+    "981442f0f8c5a36dca84beec01de916a324e6884e6248f4085cc9327ace1c768": {
+      "normalizationVersion": 1,
+      "sourceHash": "45372e24b22a1e4bac3faa4294ec3d6166a7c43b110486ef91c4c2e9c2580926",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在上述案例中，案例1是多坐标系的场景下实现不同坐标系之间的变换，案例2则是要实现同一坐标点在不同坐标系下的变换，虽然需求不同，但是相关算法都被封装好了，我们只需要调用相关 API 即可。",
+      "translatedText": "In the above cases, Case 1 involves transformation between different coordinate systems in a multi\\-coordinate\\-system scenario, while Case 2 involves transforming the same coordinate point under different coordinate systems\\. Although the requirements differ, the relevant algorithms have been encapsulated, and we only need to call the relevant API\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
     "9819cbad63112fb153a2d5cbfb078ab4e78bfd8a2522fd2e9168e1725d1ba5fa": {
       "normalizationVersion": 1,
       "sourceHash": "f4d5754f5b46784ee5a866367093001d17d01b51036fff686feb658026abc5cc",
@@ -83,6 +97,20 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "9831d017fe74f6e6163a832be327dcb13ca5674fa13a690958e1aa564158b7e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "15ee3d608a5cc7cc6ca42e01502e1d36426035467da6fdefb7e1ddbde4c607e3",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 广播实现",
+      "translatedText": "##### Broadcast implementation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "9832de41831d6123206cba46bfb1f6fee12f0fabd4151bf244f4803b16d9ad6d": {
@@ -127,6 +155,20 @@
         "costUsd": 0.000071
       }
     },
+    "9843baf88ef4338acd70662a39387f3e7ed5b137035b011c73a1d2312d2c95b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ccb74cd3416fa1817ff06cb92c0a79ab7d023e27756b79cc67f89ace5b9838e0",
+      "contextFingerprint": "83c928ea1d6492281b43e7dc24014e019b6ba7c0c1c1bcc36c6f683edf2f6cbb",
+      "sourceText": "*   `check_urdf`命令可以检查复杂的 urdf 文件是否存在语法问题；\n\n*   `urdf_to_graphviz`命令可以查看 urdf 模型结构，显示不同 link 的层级关系。",
+      "translatedText": "*   `check_urdf`The command can check whether a complex URDF file has syntax issues;\n\n*   `urdf_to_graphviz`The command can inspect the URDF model structure and display the hierarchical relationships among different links\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 39,
+        "costUsd": 0.000095
+      }
+    },
     "9857264d605d59fb28c335e0fb621324bd7ddde409b45346f02907962f57f68c": {
       "normalizationVersion": 1,
       "sourceHash": "36858b339cbf97b8247f9ae430d9c85547bae6d62d55c962e2fb48c2119e11bc",
@@ -167,6 +209,48 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "987a287cdd1b759fb370f288ab95dba82bfcb62a4665f4ea07c925f2afb1bae9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8fe5a36b2d3ee7d9311dd6ed1a46a5ddc67456655e5d3840434756026ee2384",
+      "contextFingerprint": "3b27d3b8722eaea3d1de6ac943dda14a6b950a5c5a195ad800386eb63f9a40dd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image376.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image376.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "988f19925e5d273135bed223a76140bd78754f708059cbabc7031b48487fa874": {
+      "normalizationVersion": 1,
+      "sourceHash": "d304f550d66be2cae98759e8630abf0562fefaa4807ad92660f9c5da077ac48b",
+      "contextFingerprint": "e9a1e7cf4109f803b01426c40f998f48fc7a1ba6e4a09457d7ea82cfcba9d27a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image465.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image465.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9890958d5640af0eedca0dc4835b165c838efa9294dbef36d4daacf6d75701db": {
+      "normalizationVersion": 1,
+      "sourceHash": "9aa2c57d05ed9c25f170979cb023f469dc1bfe085dcd823fe72815aad0f13e85",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后替换类的名称",
+      "translatedText": "Then replace the class name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "9892b52be5dc538316e582d521624689300aaaeb400b86871ce8dad323326ce1": {
@@ -223,6 +307,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "98aa614c154b3a44ed650534e1a228069cf8799111a96afb958668d4349101d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4f14141fe90513ab9788ddab8ee0d023f9caf81f5671b27a34bbbe6940b739d",
+      "contextFingerprint": "907b4e0263612ebc6e953411d8d365a7d3f2e1aab4c1428869f608f8a3054e88",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image755.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image755.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "98abb4493952dfbc133ddf4b4388665b4ef330e82fd901ebcd1926fd0198f55c": {
@@ -293,6 +391,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "98c0057f492ff64ebbfd61cb577bff9ca9c06f3a555c08d1628bd8d6370025d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "503893a438892c321fa875629f276bbf298d792e952918b296759b811567fe3a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一个主要用于注册事件，第二个是开始事件，第三个是节点退出。",
+      "translatedText": "The first is mainly used for registering events, the second is the start event, and the third is node exit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 29,
+        "costUsd": 0.000078
       }
     },
     "98ca63cfaf78e66995b4351a36a62b0cd8fe15b5fd0ddd8dd5d63c61db4cb807": {
@@ -391,6 +503,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "98f9ef1c08f761a26e0f7ec20961e988d1cb41a4cd8a263beb4c1806d6f1b56c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7c4092a183def229d61d2b4283d6d09167f724ea3a8e145ab91c9796e492270",
+      "contextFingerprint": "0deb468ec43ff4f1916e48fac4e6f3cb8f7692dda507b9596a847084e5caba01",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image546.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image546.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "98fb9495258d373aa839ab07763a8b958ddcbec8e29fa412350ae78a2848caae": {

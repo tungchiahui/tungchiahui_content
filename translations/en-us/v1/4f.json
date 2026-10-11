@@ -15,6 +15,20 @@
         "costUsd": 0.000059
       }
     },
+    "4f1528302bd8b23c547017b4311e0e091b84769fdeffae59154e7434a2d756a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bcece6500603259c0e9a3247c4c234685e2623e2a95a89137897f1f76511967",
+      "contextFingerprint": "5d5da4407a8d0365fa3f0af2052b0b5c24925fe32ee5982ad14e9d8612d911f1",
+      "sourceText": "在Package.xml中请添加",
+      "translatedText": "In Package.xml please add",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "4f185938dcdf1be64376c5f51d1250ba02449f3cadc4c42739ba1b2eee521732": {
       "normalizationVersion": 1,
       "sourceHash": "e799c2f2b26312b8c57801348ce0c6fc1838ab7f32544f7972754ae4c9fafd9f",
@@ -29,6 +43,20 @@
         "costUsd": 0.000083
       }
     },
+    "4f1cf26ca8e04ccb0a0aa2a7efaf00d6b224a89a0bef08a0e460e4aa4d225e56": {
+      "normalizationVersion": 1,
+      "sourceHash": "42ae129459e1d21a0470bc881e67135a7f3b924e449136b4e5c00683d812b352",
+      "contextFingerprint": "0005bc2b189bfd7cdbc940177c783663ee6da678613a49beeabbc599c74178e5",
+      "sourceText": "解析非默认值的urdf，在终端里也有类似于get_package_share_directory，以下就是(这里参数model少写了个L)要把参数值用反引号(ESC与TAB中间的按键)框起来。",
+      "translatedText": "To parse a non\\-default URDF, in the terminal there is also something similar to get_package_share_directory, as follows (here the parameter model is missing an L): enclose the parameter value with backticks (the key between ESC and TAB)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 64,
+        "costUsd": 0.000132
+      }
+    },
     "4f1ed1a211861bd09f6c66dbe7f1f7a00345f33ca59ebba18481698c38c81e63": {
       "normalizationVersion": 1,
       "sourceHash": "f82d97109c8e4fa3a766d93ee9300f1c39222213d4e19cfacc22e8e7da9a0a88",
@@ -41,6 +69,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4f1fc230d3f3c545d510f4a4a4ae08bd40ee01f11fc2d51ac2ad816348202b60": {
+      "normalizationVersion": 1,
+      "sourceHash": "682d21729e8598d745f4a63bfd9a42c7fb58c70e0bde23befd20d6e37a7434ea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "消息都没有，就会抛异常。直到buffer里有数据，坐标也转化成功，才不会抛异常。",
+      "translatedText": "If there is no message at all, an exception will be thrown\\. Only when there is data in the buffer and the coordinates are also converted successfully will the exception no longer be thrown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 43,
+        "costUsd": 0.000097
       }
     },
     "4f1fc909136c2a91c4346b5765f3bf3de2f7609d7c4823ebf9bd0e2033fa58e4": {
@@ -85,6 +127,20 @@
         "costUsd": 0.000052
       }
     },
+    "4f3502564e3330fd3ade3e79acf2d89274a3740a263e58b7824d82aed19b8810": {
+      "normalizationVersion": 1,
+      "sourceHash": "e95c5f9b354679b83b47d641040f0f30db8ad59f58a3250556cc903bcbc3302c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最大值255，最小取值0",
+      "translatedText": "Maximum value 255, minimum value 0",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "4f38b49a44052336fdce486170038a60e488a365a3cb1478ff2103b34e41109a": {
       "normalizationVersion": 1,
       "sourceHash": "a4205b1254ee4d16aa1ed70afcfff11dba55008088ccde8a27f3d20319a90253",
@@ -97,6 +153,20 @@
         "inputTokens": 147,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "4f4086f6c268f349724c967977ea027bdb3686212ed395ec70046aa8d26a750b": {
+      "normalizationVersion": 1,
+      "sourceHash": "aab197105b41491682ce9c55a48fb0a25d9a59a54e18b7409978f9c88a0e8efd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建完所有系后",
+      "translatedText": "After building all departments",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "4f49a1a54ca19bc30644e1f587c16a786f21db0798c564bc0969c7e251704444": {
@@ -211,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "4f8f00f6aca16b54627f69ae3cbcd06a0d5cf97571b18420a5ccb29858b4f4be": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d6fef92481a69a8eb4d3b420a428f2cedc3c0b59ac93266aa0ce861c3294b69",
+      "contextFingerprint": "153f610bc4b41c3b4691894800b9408170090c4cf447669a2088f8f647473bcf",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1098.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1098.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4f90309d0c1d2a4ea2ccf5750cd1ed455cded43b171381913d08695f2e5c58a3": {
       "normalizationVersion": 1,
       "sourceHash": "bc90a690db2921f98a1a98b1b112325f499cb95dfbcb111c0836f50d4940ffed",
@@ -309,6 +393,20 @@
         "costUsd": 0.000094
       }
     },
+    "4fc63e33e9c38a483bed53426ef57117be8d3855a3382386c01b685f63a504c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "47d06ce14fb38fba0b793206812af6dcd75153a3d885ec51ba3f7bf5165b0452",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二个终端：",
+      "translatedText": "Second terminal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "4fc80f86d2698587f7c4ddb94f0990d564c3a69339eb0788a0839338fabd983e": {
       "normalizationVersion": 1,
       "sourceHash": "e711b6153b35bcbc10657301a984ac0770482ac1f0d0d120cfedcc995964288f",
@@ -321,6 +419,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "4fc8b5f9c045062582cebcd03c7aac13e694fc7dbc235be302ab05ab05e62979": {
+      "normalizationVersion": 1,
+      "sourceHash": "35d11feb58f13fd20bd90dd2dd24a178bb497faee1ce8934b3fc475234c71c99",
+      "contextFingerprint": "1b023efc71106fd1d4082bcbadcbc9901df136c2e1be506a51c173d110bfa7ba",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1230.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1230.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4fd8df64444c767ffcc1fdf6ff5b883ff3419399f871eb2153bd7c60f298d602": {
@@ -377,6 +489,20 @@
         "inputTokens": 154,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "4ff46382b2642bf6e1e0a7ae06407cc0861ca706c05919103625a50a9cb106f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b784f7006da64214c829a75dee362b74bbd68e93dcf7ae68655b4b51a407cebd",
+      "contextFingerprint": "6bdbb8cc7a5a7d45d8de6b3a00f1c042a5344603a514562a335ac0762e3908b1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image520.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image520.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4ff481940a1813ad439466bcb008904a5294f1377ca8093d25d45075a6c8ab7a": {

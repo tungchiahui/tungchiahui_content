@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ad0636a45232146e0ee23b02be39f571438d3ca7de7cbc845648ade731862231": {
+      "normalizationVersion": 1,
+      "sourceHash": "eae0f2c0c45e575222580a7fc53edb45f6a560fbc46409d4f69447ba8e1ab4f4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "####   launch优化说明与实现",
+      "translatedText": "####   Launch optimization description and implementation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "ad10e699c10c30e998e0d3a0b93e1ec73e9c9caf0a1b1528a7a4117fd4e490e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "2944806f238dee281260a39e19714268b9d7a0a1e63b21dafcda271d3b72b093",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "咱们最常用的是有限位的revolute类型的关节，continuous可无限旋转的关节，fixed固定关节，这个根据具体的关节类型来填。",
+      "translatedText": "The most commonly used are revolute joints with finite limits, continuous joints that can rotate infinitely, and fixed joints\\. This should be filled in according to the specific joint type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 41,
+        "costUsd": 0.000098
+      }
+    },
     "ad13984456df7177e8ada9f090cfe9bf6ebccf3842c1b46d1e20f3a69900c993": {
       "normalizationVersion": 1,
       "sourceHash": "db432240ebf9908f9e8bfc5971bb29c73b2322fc1f4b3b64d0d8ceff6bc2aa94",
@@ -69,6 +97,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "ad2b8fc8318a5dc98abc8cd12a83405580f049b4f3387aa3e860976e717deb17": {
+      "normalizationVersion": 1,
+      "sourceHash": "982ce4bab997ef68d3da3d90d6e5addfb3a444afaff53050ba2bb2899d6953a6",
+      "contextFingerprint": "5415874568498b2bbd5fe50f8ede1c9c2a2c44d96aa440723a10eec55deab818",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image600.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image600.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ad2d81b73e428bc58cd8571c5f9dc691bd23f3e1fcd7faa2d74c5ece6c93b4ef": {
@@ -141,6 +183,20 @@
         "costUsd": 0.000058
       }
     },
+    "ad4a2098f989ceada8b969678ed02f6ba5d8cf8eeb61a5b9a937abaaa511f35a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e48f4c508e246ae22c0a4235e4eaeecae2bf50f82a21cea168f3c351aef1203b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端3将输出 laser 相对于 camera 的坐标，具体结果请参考案例1。",
+      "translatedText": "Terminal 3 will output the coordinates of the laser relative to the camera; for the specific result, please refer to Case 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
     "ad4eda1a4844e84d2e0c8919ba6eec86fcd496578aa4829187c28c6cb71c95a5": {
       "normalizationVersion": 1,
       "sourceHash": "cd2ef7a881a380c115418d58d4aa305e7ee7117d37fe5dab4526a3e2e459818e",
@@ -169,6 +225,62 @@
         "costUsd": 0.000055
       }
     },
+    "ad6b85138533a14573f99034c60a17dcade19ea09d9ffac4e8c7a5e78a37cef9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3c22fe10301e889697bb38f63d6e26571bb898228f13f2425c957194ac95ae4",
+      "contextFingerprint": "9117f2cc3f8454bd0ca87fc48f1b5c0fdcede21085de1f88c6b2d25189e00cca",
+      "sourceText": "package.xml在创建功能包时，所依赖的部分功能包已经自动配置了，不过为了实现坐标点变换，还需要添加依赖包`tf2_geometry_msgs`和",
+      "translatedText": "package.xml When creating a feature package, some of the dependent feature packages have already been automatically configured, but in order to implement coordinate point transformation, it is also necessary to add dependency packages`tf2_geometry_msgs`and",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 54,
+        "costUsd": 0.000115
+      }
+    },
+    "ad6dfb810c1ff2d1cdbf37d3e1624f09ba584e348e6c6b3933196d2b540772a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "81a9da42c5a61de698ecae0eb9bace0d32b3495528e195164fe7679a1677bb19",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "tf2功能包内包含了四元数与欧拉角的转换算法。",
+      "translatedText": "The tf2 function package contains conversion algorithms between quaternions and Euler angles\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "ad6e0e3030d8eba97ef2e7d224e77922118ce9c6142ab8ef62c9fe63a1aa8c24": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ff5cd45394abcc5c48c7533e98e2c191d5713d021fcb4d47325e9d07ed30795",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "SolidWorks是一种计算机辅助设计（CAD）和计算机辅助制造（CAM）软件，由Dassault Systèmes SolidWorks Corp.开发。它主要用于工程设计和制造，可用于创建3D三维模型、进行装配设计、进行工程分析和绘图等。SolidWorks具有直观的用户界面和强大的功能，使工程师和设计师能够快速而精确地设计复杂的零部件和装配体。该软件广泛应用于机械、航空航天、汽车、医疗设备等行业，是工程设计领域的重要工具之一。",
+      "translatedText": "SolidWorks is a computer\\-aided design (CAD) and computer\\-aided manufacturing (CAM) software developed by Dassault Systèmes SolidWorks Corp\\. It is mainly used for engineering design and manufacturing, and can be used to create 3D models, perform assembly design, carry out engineering analysis and drafting, etc\\. SolidWorks has an intuitive user interface and powerful features, enabling engineers and designers to quickly and accurately design complex parts and assemblies\\. The software is widely used in machinery, aerospace, automotive, medical equipment, and other industries, and is one of the important tools in the field of engineering design\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 228,
+        "outputTokens": 129,
+        "costUsd": 0.000224
+      }
+    },
+    "ad6f462a9b67082d5b54ddea8eddf7297b525616a600997fa7c838b82f852405": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc51303d2567509cfbb0d3f8841b5e43354ad7b60780a8b95c486b398fc19716",
+      "contextFingerprint": "a29d03d1fbd82f85cf0fc81f74e18d8ba3081897fb4cb8e902d71ac17748beaf",
+      "sourceText": "用ctrl+c来进行取消程序运行",
+      "translatedText": "use ctrl+c to cancel program execution",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "ad7366bba150e568ebe37f9971520a79f0c856c216ca650c53eb29b6c75be765": {
       "normalizationVersion": 1,
       "sourceHash": "f34095aa341166eee19a0c8dd44a0cc74db11c9f8b134c0141d80fa82e553ded",
@@ -181,6 +293,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "ad7bdc00334b7d30574676a5fb7c372dd9a6f767babfa5788fd588a6d5d23ad1": {
+      "normalizationVersion": 1,
+      "sourceHash": "b087765dbc35dee9d9e4d428c9e80b913287550929eb9d9ee9b485e0fb991fae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "sRGB是R,G,B,Alpha(浮点模型，所以范围是0-1.0)",
+      "translatedText": "sRGB is R,G,B,Alpha (floating\\-point model, so the range is 0\\-1\\.0)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "ad7dd5e685e0bd7997c82e81fea7b8a4e22b73561e14fd0ba9c371f32ed1b922": {
@@ -239,6 +365,20 @@
         "costUsd": 0.000112
       }
     },
+    "ad9467dfe742617332030a6aba3672a3e6bde057b107bc74e6025c681efacb49": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c6c49f9d10ad14306ab684a98fdccfb1eaebb2dae3f1fa87bf28ce4f343aeda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们不能用rqt代替命令行，虽然rqt更方便，但是因为我们在工作中是远程控制机器人的，我们是通过terminal来远程控制机器人，所以，命令行很重要，这样不能使用rqt。",
+      "translatedText": "We cannot replace the command line with rqt\\. Although rqt is more convenient, because in our work we remotely control the robot through a terminal, the command line is very important, so rqt cannot be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
     "ad95d7ebef321659b78ccc3b078d8ca38bc63488d9af30bc96cc1f3b299cb231": {
       "normalizationVersion": 1,
       "sourceHash": "5ba7ada15ecff645bb4561dfc7e1d29fb02f88c7f181749ad94e7b0973059260",
@@ -251,6 +391,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "ad97bc3063f5c624c353a33d959ccca2b9f115e7e40db8ec7bdcfb7e8643759c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a74e79195e41c0b6d43cd329825f14b18b42d773f3101f1ad4cb665d7d610d94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果打印了xacro说明安装了，如果没打印，则要手动安装",
+      "translatedText": "If xacro is printed, it indicates that it is installed; if not printed, it must be installed manually\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
       }
     },
     "ada02dd67ee43174ae86c6cae6ec9c138f58c6dc90d831f5326fbf55309a5186": {
@@ -279,6 +433,20 @@
         "inputTokens": 163,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "adb15c177345117fd4348553b022840299c05f6a5e1e63c58c0556e805273f6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5478b63b55a365e89c43a7ec50a6433ea7dd15005809c5255d52e30fe7c5577",
+      "contextFingerprint": "79d0b4a2e16c89b01ae732f9acc4390fd59350c04831b1f614e8f739042c6947",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1486.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1486.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "adb44af68f47d4d4a92e7712b7a435a3a2279ad14ee51602fe360624740c9c9e": {
@@ -449,6 +617,20 @@
         "costUsd": 0.000055
       }
     },
+    "ade3cadf55edcfcd1b4993a977e5e45ae520ecf7a277b82c3908af9a68f40e5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9923623e8a3e40d664fb934eee9ead4a216f18eedb1e3e15c1f7e48370565cee",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 案例与分析",
+      "translatedText": "##### Case and Analysis",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "ade626b27caf7f249d8430809614a1dc77f69a0e839a87effda658cbfdb03aaf": {
       "normalizationVersion": 1,
       "sourceHash": "65852cda5aac959c274a2b4fc8645f1cf8035e40fc749a8d8a48c9f2a6174769",
@@ -503,6 +685,20 @@
         "inputTokens": 149,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "adf957ff7706b16485f559034de65ba35dd047ee6f535c0cb7b3b36044d33790": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2ca8f4211372db113ebc7c0d017f5bd581f284516acacada75d0046b2035116",
+      "contextFingerprint": "e54393d1744b99f3f72b0e822428df32349cf731a8390ea8155639d54c34cfcc",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1157.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1157.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

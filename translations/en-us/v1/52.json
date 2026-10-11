@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5209a42eac9495d5ae0fb10218967f2d22c84d3f6d25dfeaf11472ac31f0d720": {
+      "normalizationVersion": 1,
+      "sourceHash": "10223f3620fc2cc2cf5741ee876eea41acf6907ef9230c68910fcc2345f381c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有4个入口参数，但是后两个有默认值，所以我们只用管前2个。",
+      "translatedText": "There are 4 input parameters, but the last two have default values, so we only need to deal with the first 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "520b66af427c1016ea902809edaebf01a2cebee05d8a82e485b4f7ea171b8ffe": {
+      "normalizationVersion": 1,
+      "sourceHash": "98f71a32b6410bd21aa82f7bbf03ae05ef5e6b4a09138c07a37fd5892b735d6f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 练习",
+      "translatedText": "#### Practice",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "520c3ab461e913fd1582bee3976032227b1a5486e92817ddd9a3cb5862c77a30": {
+      "normalizationVersion": 1,
+      "sourceHash": "4725e7430630eadede6b5080525dd5ef1f9d0107e993b7a4b241fa0597d110e7",
+      "contextFingerprint": "46d4c915ad7b3cfd393688fbf977d75c69302258870bc8ac499758e1c17ce7f4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image471.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image471.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "520d281ca189546e441e0061348a0936035cbca64bd57a6e4bea56f06a177bb8": {
       "normalizationVersion": 1,
       "sourceHash": "5b4c6b84625302ef141af627f2aa675860db9e7aa74e017216d2906c186e5810",
@@ -29,6 +71,34 @@
         "costUsd": 0.000557
       }
     },
+    "5214665064887c85016e0c24dd96bfbf61311648ffca82d9b3e8c6ee134e1c69": {
+      "normalizationVersion": 1,
+      "sourceHash": "796ff8dafa3733c38e18c639bda8fec6ed0d46490691fd1d3f4de605a822e283",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个类的构造函数有两个重载，第一个是周期，第二个是频率。",
+      "translatedText": "The constructor of this class has two overloads: the first is period, and the second is frequency\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "52149b640dd37a3b73dead5ec4c7233a721216985778b199f1288aea9753c51e": {
+      "normalizationVersion": 1,
+      "sourceHash": "33fe67c9d9140481e876d32c897e804803bc0271aaa9721f8f9178d4ca0efcfe",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 坐标变换",
+      "translatedText": "### Coordinate transformation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "5215bfc60dcaafe7cd30999abce3fd4c7d256c4f4bea30b1e69605ba21c5a99d": {
       "normalizationVersion": 1,
       "sourceHash": "1eba3706acbecbf8ceac5192ebf5c56d8d6ab575ba1b6cb8bc6d11570e7da183",
@@ -41,6 +111,48 @@
         "inputTokens": 172,
         "outputTokens": 57,
         "costUsd": 0.00012
+      }
+    },
+    "5216e7edebb73687e5385f6e6881332ba4b88a0742512d7e67bdaf5ef8275967": {
+      "normalizationVersion": 1,
+      "sourceHash": "90fec0042c95e82d09f8c25581c3c3604bc06cc330bcedb7bea28fcff5aed5c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样就成功转换坐标了，可以打印转换的坐标。",
+      "translatedText": "In this way, the coordinates are successfully transformed, and the transformed coordinates can be printed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "523ebf39582427e3f6ad478092177c20f4e3d20e9a68ed0d12be1fe8b9de0460": {
+      "normalizationVersion": 1,
+      "sourceHash": "53033c29e1eadb41281406c5ffc59db29b2639a79d907aaafa43097ee0b5234d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只是想展示模型，用GUI，",
+      "translatedText": "If you just want to demonstrate the model, use the GUI, ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "5241f558841571959cc1f0bfdc129119c9479a03d06ef1d79201b05f768cb61b": {
+      "normalizationVersion": 1,
+      "sourceHash": "92943e4083600f2d925016a0076cb383fb7697d0289b883719369ed77d67ac33",
+      "contextFingerprint": "ddb6edde9e4c72e78e7eaec0f3935c86de3bbf45800d6530fdc51b90416e636f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image710.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image710.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "52454272802f84813a72edbc03aff3ed6da066fa20d2fba27ac22eaabdbf58aa": {
@@ -83,6 +195,20 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "52490c08a9d8e7c468ca37b6cc2aba5726d8b74cdc7383aec19f792aa2a3231c": {
+      "normalizationVersion": 1,
+      "sourceHash": "14fbec98ba1476016de045e4d8213d341a928c67f2d5402ec26fb947f4a4d3cf",
+      "contextFingerprint": "25f0750fccd59748ea6db8d9948b6b6437b0ed51d9ecf3e5669d31bba3d93f5b",
+      "sourceText": "7.  对URDF文件进行修改",
+      "translatedText": "7.  Modify the URDF file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "525166b6b98238a6f0de01b8e36eb2ffd2ff60bfebdc1b62890fa0de3d4aa01b": {
@@ -139,6 +265,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "52584c8fa783f090314f07162ecd2434244c36c1893247d019c12197d9d86a2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "74bde497efd46e66e30bf9878537b86c1bfb3ca3d766ab8695f8a6a529efb785",
+      "contextFingerprint": "5ce5b7e25e75b1d96fb1bb23023b0c4cf7d272d77905b8badbdad3472efd9679",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1101.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1101.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "525bfea8ba350c803b631d1cb5115840f8bbd3385e1e6a85da65ccbe4a2a2cb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1dad1dba39e4f5fcbff493eb9edfb5a2bdca63b414f901fd5ace2eb96508447b",
+      "contextFingerprint": "b00d211e3ab560a5ee166589745f1c587b51ff682ca01c7064633a1af74893fd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image568.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image568.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "525c0f7fd5710d90cdac42f80d8718e09fa5c1d8fded93daf3725557e7a48028": {
@@ -267,6 +421,34 @@
         "costUsd": 0.000052
       }
     },
+    "528806fb37c6b3a5a057c3aadd096ca7f6ad739ae50afd412844c0a3af62905c": {
+      "normalizationVersion": 1,
+      "sourceHash": "75577887182698a97e6674c1115e454099ac2e76d609536113700b2a565d3d4c",
+      "contextFingerprint": "66d6f4f857c4fcebd478afc183e8d16d7fcfa1de50bee52cb91727618f4a22ab",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1041.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1041.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "528a28e1db400b67a9865554ece01819b60cfe9d775bb7ac49a2c6e088ee74f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "556978d1179611bbc9958279141dcd9d6b747282ff6a374f49af5a77edbe3be3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "urdf 文件如无异常，将显示urdf中link的层级关系，如下图所示：",
+      "translatedText": "If the URDF file has no abnormalities, the hierarchical relationship of links in the URDF will be displayed as shown in the figure below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "528b27963d19d7a79e4d85739725820def7768bfd1b934ab77b39be7fbd35bf5": {
       "normalizationVersion": 1,
       "sourceHash": "54d85561d440ccdaa61c87b318ee513e3fd66faee243b71ef927d1a50d75730d",
@@ -293,6 +475,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "529c3e6f310aa5afbba75498a1ba605aba750253f88b1de4eadf8a0b400b24e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "221725f7d71a93bdb15f29d2ca0a80b250f4e8674c2c894b00667436d3c84c86",
+      "contextFingerprint": "d6f50e49582c5d7e1d6387bfbe7ea3e6af47eb862a1f36b01539ab7809c84c15",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image953.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image953.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "529fe1a9fe09bd955a825115dcb7d8e30a5d95d13ea75d3561e3d1a55a92d457": {
@@ -393,6 +589,34 @@
         "costUsd": 0.000055
       }
     },
+    "52c906c55255d6882ead343461b91cd43e7d3f53a7db7cd634bde8959f4f29fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "abccb1e6a305eadecb829ca5b9709b9cf9ded56cc11ef06a83d3327f27859aea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "name是功能包名称",
+      "translatedText": "name is the package name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "52cfa0ff9d63dd08ba9214c0b9650cd90c1be02c6974a019f9d34a96c09d61fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b988cd363df563e5c94ae9a08e14e6d89145195963e9e2465e0d5c48c0bb7f4",
+      "contextFingerprint": "6f57a52da5ad643d039209f5ebd63966bfe102e37555b7184bae217e4a1a0c48",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image150.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image150.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "52d54a43c8b031dca994872b1c2c8be6cce0011386eb2fc1021568925af9dee2": {
       "normalizationVersion": 1,
       "sourceHash": "5024eef7553274ae745797216b26f04509a935f0822558b58050baae8742133f",
@@ -447,6 +671,34 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "52ee9ec17a63c5f4f1115913d26235985cf546e22500438c0cfb5cee0d826ca3": {
+      "normalizationVersion": 1,
+      "sourceHash": "db4bba25a9c505e26ba2f7ff54cb12850b03d1cf9709d15a231f8ea894683a4d",
+      "contextFingerprint": "6a68650e4903f2e1f51f0351374d651d23d628fee415bc59e1ce6fabf4105b22",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image460.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image460.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "52f82a20f985f61a5faaf90254533c513479bd7873d0665a965575e4fdf0ef9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "eebcdae2b02c213a22a79a1ba45bd7e20ea7eaac3045df8e41d75f28c299a9b4",
+      "contextFingerprint": "e36cd30c7e8802da1b4ada2cc2733eba2040e91aaecb637276d2c996655bd708",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image116.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image116.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "52ffb5c6e9e08551fd83486538df5ff11c5af61063836b27f38db5946db8524b": {

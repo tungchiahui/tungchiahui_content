@@ -15,6 +15,20 @@
         "costUsd": 0.000068
       }
     },
+    "1402c4abc8f0050eda0317a316c8860f799ce2212e029254448a2dcf64938d98": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3b52ad150192bbbeebd7faab1d8fea758ddf2cb5acea742c62ce6e2c663aeb8",
+      "contextFingerprint": "43a6451eaf9f8f932c749675a25dc8f1108a9031f45df2257d98f798dd45e801",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image984.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image984.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1402dd4ab871d0be3fc378d4d2909e3121f87e3bc0866ba6f72c45126499b103": {
       "normalizationVersion": 1,
       "sourceHash": "b9033a2b49b3811cd1ffba71c0515131105eafb11bc508c20aa27d390e61bd46",
@@ -41,6 +55,20 @@
         "inputTokens": 137,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "140fbd616f83893375b8064bea9541ab2867c8e10b16e6b3259335a951665640": {
+      "normalizationVersion": 1,
+      "sourceHash": "047b3da171cd6f1daaab56f9c2a4ec62d08a447d91acbf1345ea6de8b84bd644",
+      "contextFingerprint": "cc6bca83e64ff180ff38fe6286c48f4c8071d02fa9105af6167c114a9b9d17c2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image506.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image506.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "141839e1c1674c45876f38305e034fccfd88fcde5dfe718ba817a791157854b1": {
@@ -197,6 +225,20 @@
         "costUsd": 0.000054
       }
     },
+    "146b3ce3ebda1c6d285b67d45532ea6f9280c64bf17ea3f612abbe8713cc333e": {
+      "normalizationVersion": 1,
+      "sourceHash": "236cc8faae7fbe0475574c9f71c7137a8bd8e4d8e9a5ea7824550129024fa2da",
+      "contextFingerprint": "a182febc268198fc5c2223697dec3aaa911d5ad64d045edde6608172c968044f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1276.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1276.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "146c27e0b0e087931ff1ca2c5303b5d5b25ae4299b82a3f60ba3e06f2be4540d": {
       "normalizationVersion": 1,
       "sourceHash": "37c2af14a0b918d96c6c0ece314ae109f8fa5e6d5618365b5bb4189891d00508",
@@ -223,6 +265,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "146f0919ee2f2e07233c56dfdb9fc4264f9f9dd26505347bc774da6f560f4c54": {
+      "normalizationVersion": 1,
+      "sourceHash": "44b1705e3176c79a9b6d1942e9e173d6cb8cfe22ba3233257a4684ef00e63634",
+      "contextFingerprint": "10836328b2caa1f77df1a1f67489f8ab532c877a3c0de0e37265519b26980eff",
+      "sourceText": "1.  建议ROS_DOMAIN_ID的取值在\\[0,101\\] 之间，包含0和101；\n\n2.  每个域ID内的节点总数是有限制的，需要小于等于120个；\n\n3.  如果域ID为101，那么该域的节点总数需要小于等于54个。",
+      "translatedText": "1.  It is recommended that the value of ROS_DOMAIN_ID be between\\[0,101\\] , inclusive of 0 and 101;\n\n2.  The total number of nodes within each domain ID is limited and must be less than or equal to 120;\n\n3.  If the domain ID is 101, then the total number of nodes in that domain must be less than or equal to 54\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 86,
+        "costUsd": 0.00016
+      }
+    },
+    "1470c9f1ae3b12ef63757eeddc8534e223c2eac7ab536756c1cdd63540e6d783": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d03de7fb8c9d51fe4c1b544fb8340945a2302a30253bb0fcbb1d7e84c26b4f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果咱们想把摄像头移动到车头，如图所示，在X上有偏移量，Y没有，但是Z有。然后roll，pitch，yaw上没有。",
+      "translatedText": "If we want to move the camera to the front of the vehicle, as shown in the figure, there is an offset in X, none in Y, but there is in Z\\. Then, there is none in roll, pitch, or yaw\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 57,
+        "costUsd": 0.000117
       }
     },
     "1472c8b97a6ca78440c8d45d37d74def2962b41f6c73952d8ae3ac6a4658bc0a": {
@@ -253,6 +323,20 @@
         "costUsd": 0
       }
     },
+    "148321abef35a7421ee2112f1b76b25af08c88b6fbd3a172b58673066f37c4da": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ed472c29a94c038865a43b191b40ab26d8de082e30ba1ff4473013c23f612b5",
+      "contextFingerprint": "1c3c0654d5a5f8c92bfbf73baf16d77c8bafa56b4a8dfd57451714e331cfad78",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1514.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1514.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1485c127e15de3f86593882804cd49cffdd08579cafaa675a0a20d3e78542a86": {
       "normalizationVersion": 1,
       "sourceHash": "8343411a9567650f2c364f9eafe65cb267a03dbf9a6d24497015dcbd68c9c325",
@@ -265,6 +349,20 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "1496ce6fe039dfa4edf8a61d93ac1ee22e6395b4285bfe640ab114dfe17f5ebb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f80dc0b8a6ca1b2b00cd4cc9ca2b3a11afea32ad8309afe952230702371ddc3d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个是在终端中生成新小乌龟的命令",
+      "translatedText": "This is the command to generate a new small turtle in the terminal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "149b7f02241540fc14469ad288135998aba075a119b302b94d223d3887d0f164": {
@@ -407,6 +505,20 @@
         "costUsd": 0.000057
       }
     },
+    "14d29e5fd493326a328960fb186093476f7f00e56ffa9a000960d5ece377c908": {
+      "normalizationVersion": 1,
+      "sourceHash": "c172450200e3a57948383aa1a9fde3e87b367b88a5af3334bcca1ca96baaac70",
+      "contextFingerprint": "aa5a3769888817dd9664c58e93d1b27297eca18c14c4a40f369ca0b231cad206",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image645.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image645.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "14d7ff64e2c7bfcbf7fa5e0d7ad830e78e6d37c2f3d9b83fa6fd7a85e362df17": {
       "normalizationVersion": 1,
       "sourceHash": "a5a420122742750285ef6888ee1885871f6e111490d08c0ab46beda8435066cf",
@@ -491,6 +603,34 @@
         "costUsd": 0.000063
       }
     },
+    "14f4541529b6de6c8108d79f1617eb16152bf34e3ed4eaf67a9e72ede549f96c": {
+      "normalizationVersion": 1,
+      "sourceHash": "653f388cd7b90026d9a144ea219737907483f30a20d1917a7f0918b8eb19cea7",
+      "contextFingerprint": "090128603cac7cd1023d8f146b112348f717c33ed28e1fc8e5829fa7065786ec",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image544.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image544.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "14f64bd775355beb4e31fcd0c0ca7d447a1fc85cdfa1b06a80a58995f889f93e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b8911791bad34eea35e4e8ffc82a7f63587e253c3eb7b81a87fe7743b55fd02",
+      "contextFingerprint": "717ddd33de216015d363e14a37fafd0f1fdb25324d7e94971650923289a416e7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1570.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1570.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "14faa8f998cf998d9d2d06bfbe3e734ec6dcb887b5b2e34bedd46698fbf06b9b": {
       "normalizationVersion": 1,
       "sourceHash": "99638a650df2602d2dcf247aa11051323df3ec22c8b5c097016e9dc38077f7dc",
@@ -503,6 +643,20 @@
         "inputTokens": 159,
         "outputTokens": 39,
         "costUsd": 0.000095
+      }
+    },
+    "14fd4fa12a2164b00d5504edfe63fbff730dd92f14aab383b0065ef67ab0b7f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "10b6d6670b942b6e5600c57ac92ad5c24498342efd84592e8bdec2d20aed7e99",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**想输出延时，消息必须有消息头。**",
+      "translatedText": "**To output a delay, the message must have a message header\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     }
   }

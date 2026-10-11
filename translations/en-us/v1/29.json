@@ -43,6 +43,34 @@
         "costUsd": 0
       }
     },
+    "290e11430436d1c0106453f4fae21628084f81893e9e581bb567641ef65e8a95": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ca816313fbc5bb37b91243a7356a383ec7957398d3929d0c2b8282862e3ecdf",
+      "contextFingerprint": "f80e4691171504bc6ba3b0999c16b0688207b2fb6bee77733d54407f169a7769",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1492.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1492.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "290fce11f617f1fd4b45b168945f580030c4fd9764e7e277f46f6ea53c41fad9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c0a4bb6f2e7c1a11c3b3a0814fe8f21686c05a90d538e40cc36844282f078b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打印两个坐标系的平移旋转关系。",
+      "translatedText": "Print the translation and rotation relationship between the two coordinate systems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "2917661a724742fc89c40c84da467618ed49ea4a9d7d6b547413d292264721b1": {
       "normalizationVersion": 1,
       "sourceHash": "d96a653e4fdcb0404aae2c98bb6cff31eb95526d70bdecb4acd7fc8067b177f4",
@@ -55,6 +83,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "291c15a56286e65fce46cfbe6c8ef55f2760193dd7bd4fa922e5792824c115d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d377167cc2fb291f6723bb27773c855c01cf60ff832442496cfce40cca8534c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "场景1：现有一移动式机器人底盘，在底盘上安装了一雷达，雷达相对于底盘的偏移量已知，现雷达检测到一障碍物信息，获取到坐标分别为(x,y,z)，该坐标是以雷达为参考系的，如何将这个坐标转换成以小车为参考系的坐标呢？",
+      "translatedText": "Scenario 1: There is a mobile robot chassis, and a radar is installed on the chassis\\. The offset of the radar relative to the chassis is known\\. Now the radar detects an obstacle and obtains coordinates (x, y, z), which are in the radar reference frame\\. How can these coordinates be converted to coordinates in the robot reference frame?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 76,
+        "costUsd": 0.000149
       }
     },
     "293cda3244c1beafc15144708f4b532a85d66c020a4de1fe3ae299ef08813b69": {
@@ -141,6 +183,20 @@
         "costUsd": 0
       }
     },
+    "2958d7949d51c87d5db4cc5847d30fab02c5cadc329065d9c9482e58e7c07872": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a5eda7099743b5818b7abc212417b549e4da40a3a2abf384d41391f541820a2",
+      "contextFingerprint": "e859ecc9085ca28af1b323d7246a5046fe091f8b0a7932dfe38785ae1bb257b7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1120.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1120.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "29631b21fc64e940a79fe8726c6be6528129dd0fedbcc35dc9935ad7f6849caa": {
       "normalizationVersion": 1,
       "sourceHash": "fa6eca78b4c2c7d0a52ce0f8269fc7e110cd5d89bdab8e635236421008ba6d3d",
@@ -153,6 +209,20 @@
         "inputTokens": 158,
         "outputTokens": 43,
         "costUsd": 0.000099
+      }
+    },
+    "29644e81b1a712d84ff536e9fbb54cc5f803ac71f0b5aacd5daa307d77fae98c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b933ad74ee6f90e9c6b1f6866a6c998f1bbd388c1cd284f91b9e7ee2f8f134e",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  对joint关节建立基准轴",
+      "translatedText": "2.  Create a datum axis for the joint\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "296dc23bd581ff66164a658a90c05dd82975a95d44021de5dfc0b1ab275be714": {
@@ -197,6 +267,62 @@
         "costUsd": 0.000068
       }
     },
+    "2989760111c6e7bd7dbff211a23bb075ea4eb30c26ec243f61ceac7c9f31f360": {
+      "normalizationVersion": 1,
+      "sourceHash": "11c2c940d7e87c4b664943f086ec64af8b44801f450762334633b30a89ba744f",
+      "contextFingerprint": "61e0ecee1e0d5cc2f6f72372005d25a6390f689ac264bfcda62960fe037d87de",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image530.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image530.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "298cbc48b32218722859cb6ade7fb90dff5a2c9190308c2229dcd7c72dcc6b69": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad3f7a3acbedf7702c3f828ca307a4936bd9c2c2e28bd03062699e269418459a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "RobotModel是机器人模型插件",
+      "translatedText": "RobotModel is a robot model plugin",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "298e18d95be3820f9c3831a6afbdd679d985541a13acbba3935f00b27c380a3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b6d71a9d962cb2f5b78ba92eb356fe90d04a8e8d95be79469b46da4c543a6b1",
+      "contextFingerprint": "6d0adebacb67e40730b5adb643c48a3c37244730a6f44409ffb180aa85810322",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image765.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image765.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2995c5ff5c7760250c493b3161ea1a87173c44d3dceef89dfc8cb800e5f220b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "91117889a46509b9f3a2f1ffa8fece9ebbb980b98b15c94985d4cae69e2e28e9",
+      "contextFingerprint": "4454dd22602e2e516e41b776e9fa238693d742642255b08b5d2f297706592568",
+      "sourceText": "<exec_depend>xxxxxx</exec_depend>",
+      "translatedText": "<exec_depend>xxxxxx</exec_depend>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "299744b4bd37ea79d20bfafc0e0f8ce9df0f8d775c5cbbb106afa7bb30459ca6": {
       "normalizationVersion": 1,
       "sourceHash": "603df91bb528182287b7436f00ea3edf1e8c7518dd5921fee0839942fc0af73b",
@@ -237,6 +363,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "29ca274c59b298b504b00fb473f2afbbfbfbc45d3f72dd62f16421ecf467248e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f49fdf0d24a90ade92e462748bab0ba63188dad0c4fc0cde47ec15fc7d9c3b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开小乌龟节点与键盘控制小乌龟节点。",
+      "translatedText": "Start the turtle node and the keyboard control turtle node\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "29d0200178d6ae60ae933a0fc8819233ee38f7ce5c745846ac456e5897f244e2": {

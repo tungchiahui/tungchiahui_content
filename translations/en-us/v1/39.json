@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "390221db133e69cd15af79766a85db38c72c616d5665b1867004707f1b5ab532": {
+      "normalizationVersion": 1,
+      "sourceHash": "444360da8b68c7e7424155734827220bd606eb3f27cd342117ec6ee70ef48272",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "Open Robotics与全球ROS社区合作，为机器人创建开放的软件和硬件平台，包括 ROS1、ROS2、Gazebo模拟器和Ignition模拟器。Open Robotics使用这些平台解决一些重要问题，并通过为各种客户组织提供软件和硬件开发服务来帮助其他人做同样的事情。",
+      "translatedText": "Open Robotics collaborates with the global ROS community to create open software and hardware platforms for robots, including ROS1, ROS2, the Gazebo simulator, and the Ignition simulator\\. Open Robotics uses these platforms to solve some important problems and helps others do the same by providing software and hardware development services to various client organizations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 79,
+        "costUsd": 0.000155
+      }
+    },
+    "390b9bc587d7d208fa44ab58094bae4684d395446228bab47a950caf3093c46b": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f90809e1c80545feac83cc7a27508d7dd5090ca9c11485d930a065646845bd0",
+      "contextFingerprint": "314af8b07dadef2c233733ce3b3d0e80f75a6f0eb4e18e24786a99ef5103763e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image345.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image345.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "390bc90dfc2a546f71d5d70c757052eed5c3f022c9a5ba65ad000e033f85355a": {
       "normalizationVersion": 1,
       "sourceHash": "68d04d85783b67da155785dd16cab645f474f06ed3a793b2c3e03822f679a4ee",
@@ -85,6 +113,20 @@
         "costUsd": 0.000077
       }
     },
+    "392652edfcc0ab7d9a02d356300d9128411e1819d50e15df775ee0d26d5fe458": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f1714c4f616ba2be124d948abb6c01008a206d9d04a234743fea90111ef8177",
+      "contextFingerprint": "a3421eb02e2c6b13fb8d37e541eb665df2f05eefcff10ce341326775b8c0ac7b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image839.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image839.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "3927beaee8a8d5a1409afaab55a7c32f57ba04417c165a65ed1ea344dcf5ca0a": {
       "normalizationVersion": 1,
       "sourceHash": "de68a02c3b120a3ce4c07e2b99db655bb7859e5281414123d619df0ce625c2a1",
@@ -125,6 +167,20 @@
         "inputTokens": 165,
         "outputTokens": 45,
         "costUsd": 0.000104
+      }
+    },
+    "393d203604968f27b504c0f949451662910d4091c7eab28eb50c167d9c07f6a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "6eff64583c2f11480c5c51b640271f248d6b8adab2c10afa950efde94c19eff7",
+      "contextFingerprint": "5dba1e7bfc4e881b0a887b30f7bc19c87b75140e6c3cbd985ae16d02f3ff9304",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image552.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image552.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "393ebcd9d69160788d2bed8d294034585ebba139b7eb0aef7d6b5bc67170c1b2": {
@@ -225,6 +281,34 @@
         "costUsd": 0.000061
       }
     },
+    "395fa2bb7fad3047083c6595fafb2ea9ced7c471756a42bd3c68a8fb298078b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "778f55ab8ff6eceda8181fdddd6f42d5d30693483c1d43f13deaa1f2786b9d12",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "urdf 中的 joint 标签用于描述机器人关节的运动学和动力学属性，还可以指定关节运动的安全极限，机器人的两个部件(分别称之为 parent link 与 child link)以”关节“的形式相连接，不同的关节有不同的运动形式: 旋转、滑动、固定、旋转速度、旋转角度限制....,比如:安装在底座上的轮子可以360度旋转，而摄像头则可能是完全固定在底座上。",
+      "translatedText": "The joint tag in urdf is used to describe the kinematic and dynamic properties of robot joints, and can also specify the safety limits of joint motion\\. Two parts of the robot (respectively called parent link and child link) are connected in the form of a \"joint\"\\. Different joints have different motion forms: rotation, sliding, fixed, rotation speed, rotation angle limit\\.\\.\\., for example: a wheel mounted on the base can rotate 360 degrees, while a camera may be completely fixed on the base\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 108,
+        "costUsd": 0.000195
+      }
+    },
+    "3969e46d956c9b2fdfc0480e9fe6506c63bb5566a49502e8712ee0272e1934b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "22470db3c7079605641531f4b69fbab0e13c6b2964540a16cc631b66d2178352",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "案例我们会采用 C++ 和 Python 分别实现，二者都遵循上述实现流程。",
+      "translatedText": "For the example, we will implement it using C++ and Python respectively, and both will follow the implementation process described above\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
     "396e7f178ddd315aa700c77c999d00d9a4ade4a23b437f94918aa7a47881a2c5": {
       "normalizationVersion": 1,
       "sourceHash": "19b0847b971f904e82fb61b7c494504b64378695d424d1105a1431b4db649520",
@@ -265,6 +349,34 @@
         "inputTokens": 219,
         "outputTokens": 98,
         "costUsd": 0.000184
+      }
+    },
+    "397781c3fd741122cc324ef17c740abafdf9d423b5c3d3549fcc2e6e1f79caf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6b62e40a429888bd501530cf9dbef33ea490713ba937895df5fcded09caaa8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最终响应：",
+      "translatedText": "Final Response:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "397b1837899c74a8d9f5a0e099b76c95cf345ebdfebe5f4a509563244cfb2aec": {
+      "normalizationVersion": 1,
+      "sourceHash": "db9be79b1355b51a7b5a6c08c361068562de0ddc6a49d583d32bf472013d1871",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后为我们客户端设置了一个ID，因为可能有多个客户端都访问这个服务端，所以我们要给每个客户端都设置一个唯一的ID",
+      "translatedText": "Then we set an ID for our client, because there may be multiple clients accessing this server, so we need to set a unique ID for each client\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
       }
     },
     "3983f6bea7cf6cc5b3b59c576637de32da2c98591db6e0c8dad4e32cb3c4fe78": {
@@ -323,6 +435,34 @@
         "costUsd": 0.000058
       }
     },
+    "398ed2d5fc2999e2d3aaf2f83b9e8b7995b1409b31dc79d543cb2c0b7826c5ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "394db616aef00f0da8c56feaea93facd7b52c66353fd2541937c1c081651c04d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "atoi()是把数据转化成整形",
+      "translatedText": "atoi() converts data into an integer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "398f2cc1a4bacc551837a83ff06263f5f546af741a80750b31595853f97bac91": {
+      "normalizationVersion": 1,
+      "sourceHash": "665783924313e5d5cd16ccf0fdab886c40d827ba46b4e73563cc2a96de7c2883",
+      "contextFingerprint": "801da110fa50338d68712ced80d66b1ff3eea160f3ea40d3f1d4928332c585fa",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1586.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1587.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1586.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1587.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "399f032c1086e7099e158e12d58fb543e890bc9c1711de3dc8d6ee6230a15f59": {
       "normalizationVersion": 1,
       "sourceHash": "01705daf7372c097a193f76f86355c3855dc35c83ed95206c40606bf7b3e7ac2",
@@ -337,6 +477,34 @@
         "costUsd": 0.000051
       }
     },
+    "399f98e4d79ddcd31f13fa2696c0168f31b3b8116df7aa27b43bb4b0816b843a": {
+      "normalizationVersion": 1,
+      "sourceHash": "382a562aa8fd5c09160f962f7f14ab1d399b3f5b494bbfa801cf669eda36f851",
+      "contextFingerprint": "cdbac40805acf40238be4c521e9d7f58498882cbf4a25b9fcc026b0e68e3d271",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1593.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1593.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "39a870859362737c22b3161dd0f8190ff0fae4466b531ec09439ddfb81e5f253": {
+      "normalizationVersion": 1,
+      "sourceHash": "9382039f958ac5da20c61058667eefaf0d6b6f6eb59d0d13947ce4933b044fec",
+      "contextFingerprint": "b0a4b5592f3d53d05db9f61d07cd19b1bacd4da0b7ed1e53afd7d2afd4be5593",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1513.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1513.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "39a8c1ac3f8c951facea25f2324a84c51f2faf15dd66d31f1fd77ac518447c41": {
       "normalizationVersion": 1,
       "sourceHash": "76d6bb52c3bf5a0fcd9955b07fd9b0f7361a60739e3e4b2eea9c24240f9bcec4",
@@ -349,6 +517,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "39b5bd10cda06c3298806e42e0de3f29d072d4eee5d62e022b5262caa469fcce": {
+      "normalizationVersion": 1,
+      "sourceHash": "7576047e2ef88f71bd6d66655511cfa47da2f2d3ed2ff69f7721138bc1492751",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "ros2 bag play + 文件夹名称",
+      "translatedText": "ros2 bag play \\+ folder name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "39b844bc37ecc5a41cf702dc1f38e90bd2ab13458bd9e1fb2d09fa56fab2f836": {
@@ -393,6 +575,20 @@
         "costUsd": 0.000052
       }
     },
+    "39d7d1f83db5c92df08aba833d5be2d4023a6b91ebea93cc3879ccf28b4fdfdc": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cbd29967401788421091075c9e5ed06f07e2edb7d1700538aa2c114bc9f1567",
+      "contextFingerprint": "6b5091cb0220ef7c9e080ae7c49165b5a30e71377cf2d82ad0e02dcbb1da6e1f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1091.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1091.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "39db11b31d162f79920edf82da917ab1ae4ad6d84232bd1a5441966cc7d575c7": {
       "normalizationVersion": 1,
       "sourceHash": "92970ac8955df73e876bf3a913c331a7668675ec3840a3c714dec6ca7d4b922c",
@@ -405,6 +601,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "39ddcc05a9707f7c91ba1d900897e7119c365af0497186b577f9d012438e8db6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a8d902bb53a19dde4641864a578e79c5b0c99f711215c79ab2a061a19c08bb3",
+      "contextFingerprint": "70ada2a2ce8deb85996e9402714443cf5f2a1082311339e60bcbcf9d48b09fb0",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image211.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image211.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "39e27f73345468e2cfe15fedcf373e10da239320b2fdb143c15e43bdba2de6b3": {
