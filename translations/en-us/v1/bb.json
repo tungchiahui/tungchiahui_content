@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "bb134b92f06b78a21fded1ebca5386a65801781f8fdd24f9d614b535726a2fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "a359d3e64cb875978bf75fcb240fb55b400a9843d585cee6da38c94eea5e7a89",
+      "contextFingerprint": "bf8b42e595488e1d0d878dabbcd775e11ba11df9a90dd3d36b810ae06e9fc86b",
+      "sourceText": "###### local_plan_topic、use_sim_time 与源码疑点",
+      "translatedText": "###### local_plan_topic, use_sim_time and source code doubts",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "bb23a31d6761e2a2278c65b52d9a47ed9e692de43a6d1c0b0c1aef300459dede": {
+      "normalizationVersion": 1,
+      "sourceHash": "19011f42c9286a9a3bb4ba3c728fc14a25ff7fbbf3f14cc7b739c274cb19ed8a",
+      "contextFingerprint": "3b13228569792ca4c0c4d3089ea90686885bb2251b63837a79295c7dbd549527",
+      "sourceText": "use_imu_as_input 决定 IMU 怎样参与滤波。",
+      "translatedText": "use_imu_as_input determines how the IMU participates in filtering\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "bb5becbcf7ffc083001c6b738a5f26d2f7fc331e3470730fade971edf835ee0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5cccbe738a04e5f8b759e4a6ac58a1b845ab20a3b23ebf21144a8d286dc08dd",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "因此，C 和 C++ 既有共同基础，也有各自适合的编程方式。学习其中一门\n确实能帮助理解另一门，但写 C++ 时不应只是照搬 C 风格的代码。",
+      "translatedText": "Therefore, C and C++ share a common foundation, but each also has its own suitable programming style\\. Learning one can indeed help in understanding the other, but when writing C++, one should not merely copy C\\-style code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 69,
+        "costUsd": 0.00014
+      }
+    },
+    "bb910545927df5a15f41a3c57713065bb97151bf8f98a28b564d61891331bdc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "400c93e062d35521a3ac7b1ae18746152e1b3db0f581be1611a57adfd9b5f469",
+      "contextFingerprint": "4768a5e5e57b6f00dc36d4bde55061ead39fde54350ad1c6e6fae858ff69345b",
+      "sourceText": "`main.c` 只通过头文件调用 `swap`，不需要理解 `std::cout` 等 C++ 写法。C++ 代码全部留在 `swap.cpp` 中。",
+      "translatedText": "`main.c` Call only through header files `swap`，there is no need to understand `std::cout` such as C++ notation\\. C++ All code remains in `swap.cpp`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 50,
+        "costUsd": 0.000112
+      }
+    },
+    "bbae400b9782a923245c856fdfd2d885b6978d070f94466620026ea5b1f01c23": {
+      "normalizationVersion": 1,
+      "sourceHash": "929f0d1fc62aa9da23034a2b92d55c03306b2316bea6887b4eb5a6132fc2799a",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 难点,在STM32HAL库中常用",
+      "translatedText": "> Difficulties, commonly used in the STM32 HAL library",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "bbc0dad7a0eadaba2379a06642d5d5cc949211f2d8b2eed9b46457fb44576e5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "138cde580cfa3c66508505e65010fa5aaf51064182edb7579888159f504eeec8",
+      "contextFingerprint": "91a60695bfb8587f98caccf53933ed7bfe1f545d5363d48f9b06fc4b170e045b",
+      "sourceText": "`gimbal_yaw_fake` 是计算用的虚拟系：位置与 `gimbal_yaw` 重合，源码广播 `gimbal_yaw → gimbal_yaw_fake`，旋转取输入 yaw 的相反数，没有平移。在平面运动、输入位姿与机械 TF 正确且及时更新时，它的水平朝向与 `odom` 对齐，而位置跟着机器人走。它不是 `map`，也不是云台或底盘的世界原点；“方向与 odom 对齐”不表示完整坐标系与 odom 重合。源码只抵消 yaw，没有抵消 roll、pitch，坡面上不能直接套用完全水平的结论。",
+      "translatedText": "`gimbal_yaw_fake` is a virtual frame used for computation: its position coincides with `gimbal_yaw`, the source code broadcasts `gimbal_yaw → gimbal_yaw_fake`, and its rotation takes the negative of the input yaw, with no translation\\. When the planar motion, input pose, and robot TF are correct and updated in a timely manner, its horizontal heading aligns with `odom`, while its position follows the robot\\. It is not `map`, nor is it the world origin of the gimbal or chassis; \"the orientation aligns with odom\" does not mean the complete coordinate frame coincides with odom\\. The source code only cancels yaw, not roll or pitch, so on a slope the fully horizontal conclusion cannot be directly applied\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 241,
+        "outputTokens": 142,
+        "costUsd": 0.000243
+      }
+    },
+    "bbd09e98fb94abcd31a112f8387706e5c54efa871a595af10354f374615d513f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f27b3055ed5c3f3b3c3ae44b8154c3e439b2fa584db53a91626f85acde1fdf2",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "纯 C++ 工程推荐使用下面的头文件模板：",
+      "translatedText": "It is recommended to use the following header file template for pure C++ projects:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "bbf166b78452378d1e03d44bfc857207963aa11664f407cda1572e9860516cdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "d40b4fd9419e95d1c368c76e98b5dd9940ced99f3b0cad79ac0fc021f5671e54",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**问题：**从父类继承过来的成员，哪些属于子类对象中？",
+      "translatedText": "\\*\\*Question:\\*\\* Among the members inherited from the parent class, which ones belong to the subclass object?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    }
+  }
+}

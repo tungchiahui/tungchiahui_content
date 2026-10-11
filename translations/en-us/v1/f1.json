@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f102b31021d8549dc50aa13fe88a4909d1a921f8db7b360f3f38a03ec8d90190": {
+      "normalizationVersion": 1,
+      "sourceHash": "f45f22e674db0691112ac967ae09c15c09db3ed57e4912c9c1ef093c19e7881d",
+      "contextFingerprint": "a22641bf41fed78a11a125e67340d6ee47eed19273ecb9e977caca884d5b26cc",
+      "sourceText": "这来自北极熊原包的设计：先用一个朝向较稳定的虚拟系供导航计算，再把速度转换到实际云台系；`cmd_spin` 用于叠加底盘自旋。[北极熊原包说明](https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav/blob/main/fake_vel_transform/README.md)、[原包速度转换源码](https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav/blob/main/fake_vel_transform/src/fake_vel_transform.cpp)。这是这套工程的约定，不能认为所有 ROS2 的 `cmd_vel` 都按云台系表达。",
+      "translatedText": "This comes from the design of the original Polaris package: first use a relatively stable virtual frame for navigation calculations, then convert the velocity into the actual gimbal frame;`cmd_spin` used to superimpose chassis spin\\.[Polaris original package description](https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav/blob/main/fake_vel_transform/README.md)、[original package velocity conversion source code](https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav/blob/main/fake_vel_transform/src/fake_vel_transform.cpp)。This is the convention of this project; it cannot be assumed that all ROS2's `cmd_vel` are expressed in the gimbal frame\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 102,
+        "costUsd": 0.000186
+      }
+    },
+    "f106af6cae61344a4b13cdec59e9ebfe4fda217f1727efeb8ab57ce31f49d7f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d757209857ad4fd64b97ccf3779f8b9aed9e06b3cc3f6bac2a468c53e5856c8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 注释",
+      "translatedText": "### Comment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "f1072e18047e9d34bb9156e8c3b4819a422dcdd45997d300c81392a18b557f66": {
+      "normalizationVersion": 1,
+      "sourceHash": "1973a12132ee38e82744d2760b9f60b8e7b053dc3bbffb91a054ab87d6bcd5bf",
+      "contextFingerprint": "1c25b0ea801d79ae3eaefa40ffe455786b8086e4c18e7dcf7544c5d4e900aae0",
+      "sourceText": "地图匹配结果是“目标地图←输入累计点云”的变换；输出直接命名为 `map→odom`。要使这个名字正确，必须先保证目标PCD和输入实际坐标符合约定；本节点没有另行变换到这两个名称指定的系。",
+      "translatedText": "The map matching result is the transformation from \"target map ← input accumulated point cloud\"; the output is directly named `map→odom`\\. To make this name correct, the target PCD and the input actual coordinates must first conform to the convention; this node does not separately transform into the frames specified by these two names\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 68,
+        "costUsd": 0.000135
+      }
+    },
+    "f10a2dd7963e0eb386b24836622e7d958acb611b8bfcb89d88485a01194b3f9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "80d341ee6e11b4144a4867c49e36a95f8f3a71ad0692b0cddae7367e466ed1bd",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 安装 VSCode 扩展",
+      "translatedText": "## Install the VSCode extension",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "f11a83b7bc81b0d22bd953fb49897b4faf3d2e6c4290ec2e41f7010366389caa": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0591cb2831970a4c0be7b21661c59755e04c43ab50dc1a13b96dc9e43cd6d99",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在函数形参列表中，可以加==const修饰形参==，防止形参改变实参",
+      "translatedText": "In a function parameter list, ==const can be added to qualify a parameter== to prevent the parameter from modifying the argument\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "f138354088bb959f8f54ab2b90c8d8dc3a37354429785598d7f41f1af6fc4f59": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b74b8734756d82975d070fa3632c28da4ee2705e198fd424a5ab94686364e1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多继承可能会引发父类中有同名成员出现，需要加作用域区分",
+      "translatedText": "Multiple inheritance may cause members with the same name to appear in parent classes, requiring scope qualification to distinguish them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "f13e66239133371c68adb30d62a4497c8e1c64c853558fd05cddd47f65de3c95": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ba40b4b6e5b56112217724d773b496810136b3086bf5fb6c5e447b1d86f1f3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "保存更改：",
+      "translatedText": "Save Changes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "f16a6a006f19937c979eeab95286d4162bd22c816bb4f1d1e10b0e1778eedc6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc6a4ef407a4e16e38739b1ae8dd11178e5c0be7c1eed5bdfee79b4519d10fa8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这与从当前扫描建图的用途一致。",
+      "translatedText": "This is consistent with the purpose of mapping from the current scan\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f17bf76050edd2af752860ebf74db7116b28c2b32fbbfd6ec11665eecd1cc342": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdf9890d0eae8409230cbef2da438f9910030920b8f961a534cdc0bf417b111a",
+      "contextFingerprint": "c8893ff82051dbdee0be7a59ac7bd58c7ecf14b33309ba0b55a9680e1aea0251",
+      "sourceText": "init_pose 有三个容易误解的地方：",
+      "translatedText": "init_pose There are three easily misunderstood points:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    }
+  }
+}

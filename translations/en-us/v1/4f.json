@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "4f5d6a891728bfc105891488090cd07c176981e998dd40ef7e87d6b18791f737": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cd778d0650dc03d3937f49ce207383673fa1a56fced535266029cd2cc167672",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 实型（浮点型）",
+      "translatedText": "### Real type (floating\\-point type)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "4f675b003bd17e0a33495703b14148d088d2efae496bebd89994017363363606": {
+      "normalizationVersion": 1,
+      "sourceHash": "17c48c89f99c70525536acb5bdc1e0d64e200a6dde6652d334f389a8901d1b48",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**函数重载满足条件：**",
+      "translatedText": "**Conditions for function overloading to be satisfied:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "4f960f88379cd86d9c9fe97aa26127e7f636031f1faca559e4fb6f8e88e3ab38": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0bf2e273fe8e4078299d2dfb0801b5cbe774e3d98edf11a708e22ba2d890513",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 总概",
+      "translatedText": "#### Overview",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "4f9db5f95591b72d470c0086a0adc57f25242276f8cd67a0d37b6e8ed9ca3294": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ac1840d9db870b27b4cd2ba63d532a159c8500696ce3cf5a162ec1f0827083a",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 析构函数，没有返回值也不写void\n2. 函数名称与类名相同,在名称前加上符号  ~\n3. 析构函数不可以有参数，因此不可以发生重载\n4. 程序在对象销毁前会自动调用析构，无须手动调用,而且只会调用一次",
+      "translatedText": "1. A destructor has no return value and void is not written either\\.\n2. The function name is the same as the class name, with the symbol \\~ prefixed to the name\\.\n3. A destructor cannot have parameters, so overloading cannot occur\\.\n4. The program automatically calls the destructor before the object is destroyed; there is no need to call it manually, and it is called only once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 86,
+        "costUsd": 0.000159
+      }
+    },
+    "4fd9ff557ea5b73a4283f5d4d3e6a0981a4bacc2dd18c3824fc9ac9f42f9357f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c5d89c673ab2cc253464ea223d86f20715f0e8a2e22adda8ad6caa65aa6e449",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 应该先学 C，还是直接学 C++",
+      "translatedText": "### Should I learn C first, or directly learn C++?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    }
+  }
+}

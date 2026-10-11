@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "9e19e56313d97c89f6ae060559568f646b79a527726dce00ee7686c040b6354a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e70c540bca0d16c407adf2b7c134f2bb5ad4f2dcd1d5fad08567ebd870663bc",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 已观察与待核实事项",
+      "translatedText": "###### Observed and To Be Verified Items",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "9e1d68176461692a2f46b1eaac54179e33dcf2345f571a465da4f256242d2a72": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3377268e4de5b938786a91dd7a3ebfa848314b458d6766c7c9667d578ffd073",
+      "contextFingerprint": "40c457ccef4f0c3daa41198b2ca73648b2489b4db7cdf3eccd8b4f04015a6d79",
+      "sourceText": "当前正常地形输出近场高差低于0.5 m、远场低于1 m，因此max_intensity=2 m通常不额外删点；这不表示参数没被读取。若换输入、调整上游或出现其他标记点，效果会改变。高度与高差门槛使用“小于下界／大于上界则删除”，边界值可通过。",
+      "translatedText": "Currently, the normal terrain output has a near\\-field elevation difference below 0\\.5 m and a far\\-field difference below 1 m; therefore, max_intensity = 2 m usually does not remove additional points; this does not mean the parameter was not read\\. If the input is changed, upstream is adjusted, or other marker points appear, the effect will change\\. The height and elevation difference thresholds use \"delete if less than the lower bound / greater than the upper bound,\" and boundary values pass\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 213,
+        "outputTokens": 116,
+        "costUsd": 0.000204
+      }
+    },
+    "9e2e5d57036fc47a78b4f8a1fe1f291b7c0ed6e0053381bcc9847d0ffae13897": {
+      "normalizationVersion": 1,
+      "sourceHash": "b52b64920ac23c140ce71489924de1c0a69644f47c077abb2af81173668e3ab9",
+      "contextFingerprint": "8e31930d8a1e376bc5124514ade8c156576e71685f6a4ab5f3e19047f44dceff",
+      "sourceText": "前面介绍的 `printf` 和 `std::cout` 都很常用，但各有缺点：`printf` 的格式占位符写错时不够类型安全，`std::cout` 连续输出多个变量时又比较啰嗦。",
+      "translatedText": "The previously introduced `printf` and `std::cout` are both very commonly used, but each has its drawbacks: `printf`'s format placeholders are not type\\-safe enough when written incorrectly, and `std::cout` is also somewhat verbose when continuously outputting multiple variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
+    "9e2f13ccca54531a7c760d94e1137491b8164b331f32f16d9a04048ab6b76de7": {
+      "normalizationVersion": 1,
+      "sourceHash": "681af6a394d8f90268d401d52b7d8974d7208f1aa009733c3600f956c464470b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 优化视觉效果（无所谓可选）",
+      "translatedText": "### Optimize visual effects (optional, not critical)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "9e8ff4c9c5dab8e892d5cda7c526f7279769c7f110f0936200084b686814cda3": {
+      "normalizationVersion": 1,
+      "sourceHash": "3aac220acd8eaa7173411e5730aa245b99cbc4c528650b1d086eb5935554a303",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Plugin params（位姿图求解器设置）",
+      "translatedText": "#### Plugin params (pose graph solver settings)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "9e9a5176854155a47bd28b741cdec86f38e3e8c2cb8e3fcc135494b7b44a552f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f96332c2c29fac99bd7c78fae39915b75f7d8e5b348b971bd6d35701e200587",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### blind（近距离盲区过滤）",
+      "translatedText": "###### blind (close\\-range blind zone filtering)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "9ea12e6ade670624e108d19f5afccb102176d2d6c77f9a0b7372aaa15e075412": {
+      "normalizationVersion": 1,
+      "sourceHash": "1eeb55434b6aa6e78d9aaaff1e2315baf4bbbe6e11504046fc52f652f35e81d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由于四个轮子的 joint 都是：",
+      "translatedText": "Since the joints of all four wheels are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "9ebfe626ca9a5d4b9ca3d19602047046e1a20de0163b2f89aa1125722f0afe83": {
+      "normalizationVersion": 1,
+      "sourceHash": "db5d7f397bc8a8256a1c0c2ac234664ea93a823e25a1d89386d38d6db9d92117",
+      "contextFingerprint": "9e0a92e0acf8f31ee206ef059684c33e4adb242f8a3f31492a7cee4f33df5e6b",
+      "sourceText": "###### odom_frame（输出里程计与点云参考系）",
+      "translatedText": "###### odom_frame (output odometry and point cloud reference frame)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "9ed6a865be3016880a21017e4f100731ffd56568251f4fdd5ab4ee0caa2fb7c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4289b8932bd6b0c9c05badd0e6152344fcb7567a4dbed8c750593010dfa473a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "安装依赖：",
+      "translatedText": "Install dependencies:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "9ed9ca6aacb6c9fc4da807cb730a651737c53a46435ed38515f698eef6db2c85": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa43c1cf8cbf24df2024fc3e8aee35b48c52554f6ed008d3cd6b709915318fa8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 二维数组",
+      "translatedText": "### two\\-dimensional array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    }
+  }
+}

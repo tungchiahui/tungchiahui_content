@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c5276f03c75e6f989830e97afe583e7c20992398dc775cbf611a8e641935f11e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bedd5fedd7405ea362dbb5eb272b73d00882eeff36002a71f5a1c4d87cbd2bba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "比如现在北极熊：",
+      "translatedText": "For example, now the polar bear:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "c52ffb0e34e4889d68c5b5f27c992ce4c5615d49fe3eb6322e9dcdffeda4b8df": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5bfcbb4329eb8268c35d45a6a669ba62a5c5816906b407c707116e3c6d1c641",
+      "contextFingerprint": "1d889deec846c728d829c00117a63f7eff633775dd381c2447c7ad8bc246523b",
+      "sourceText": "但其实，如果你的雷达放在Yaw的云台上，其实joint_pitch无所谓，不影响最终的导航，但可能和自瞄有关系。",
+      "translatedText": "But actually, if your radar is mounted on a yaw gimbal, then joint_pitch does not matter; it does not affect the final navigation, but it may be related to auto\\-aim\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 55,
+        "costUsd": 0.000116
+      }
+    },
+    "c562ca838913690f9726722fead7569a888225dee7f62975af0bdf4ca003dc95": {
+      "normalizationVersion": 1,
+      "sourceHash": "608015e131b799a44c029acc704248eb3bd2c5c5fac828645ae504badc9333b9",
+      "contextFingerprint": "3fd6bf3c332fd63676c280166b5a8cb2f3d7391f1ae7b05851207189c68b9aa5",
+      "sourceText": "`[0,0,0,0,0,0]` 表示先猜两系完全重合；这只有在起始参考关系吻合时才合适，不表示算法已知道机器人在地图中的真实位置。位置单位m，角度rad；偏航90°应为约1.5708，而不是填90。旋转按yaw、pitch、roll组成 `Rz×Ry×Rx`。",
+      "translatedText": "`[0,0,0,0,0,0]` indicates an initial guess that the two frames are fully coincident; this is appropriate only when the initial reference relationship matches, and it does not mean the algorithm already knows the robot's true position in the map\\. Position units are m, angle units are rad; a yaw of 90° should be approximately 1\\.5708, not 90\\. Rotation is composed in the order yaw, pitch, roll `Rz×Ry×Rx`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 92,
+        "costUsd": 0.000168
+      }
+    },
+    "c574eeb6f3ef18cb41095a2a1fb19402b52562abae3236e8261bfe56678b227c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9079b05530e66869f3c80bf4864e4bcbf2eb64d27e6ad6e89e07e8244e9321e",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 本块实物核对与验证范围",
+      "translatedText": "##### Physical verification and validation scope of this block",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "c5b7590cf93a144b15ef5102589b44ea3e1a56031463dd24c6a1d50f150c1e6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "484e74996cb7c3c9209a98dea150df36c768d5712fc400dbad723c69c36f16bd",
+      "contextFingerprint": "feea16a47488c889ddffc2521b112ac28ffac79587cc79d07bc3a3c1aed63a90",
+      "sourceText": "**运行结果（与上面的 `swap.cpp` 一起编译并链接）：**",
+      "translatedText": "**Running result (compile and link together with the above `swap.cpp`):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "c5bdc835b37f1912e4932df93127d3d56ab3977a7df0fbe50eb3f5306db92f75": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff4c6981730a5a9ff04b9f855e359684d101cad5fb474fb85e394f3e1b312734",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**bool类型占==1个字节==大小**",
+      "translatedText": "**The bool type occupies ==1 byte== in size\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "c5bffd23a18333b336cc25aae6136a8ed648aebbcaa3864269c63f3272f56177": {
+      "normalizationVersion": 1,
+      "sourceHash": "777ec9f6d2d1a5b5867c779d356dfcd361911998aa7a32025235edac17d6d450",
+      "contextFingerprint": "c0698cdc0d0834c0e43a867883f5d735255a570a46fafe384656b8c64ad51bc2",
+      "sourceText": "若仍是 g输入却把它改成9.81，原始1 g会被换成约1 m/s²，比例就错了近10倍。当前保持1.0；这项不能用来“压住漂移”或消除振动。换驱动、做了单位转换或换传感器后，才按实际输入重新确认。",
+      "translatedText": "If it is still a g input but is changed to 9\\.81, the original 1 g will be replaced with approximately 1 m/s², and the ratio will be off by nearly a factor of 10\\. Currently keep it at 1\\.0; this item cannot be used to \"suppress drift\" or eliminate vibration\\. Only after changing the driver, performing a unit conversion, or changing the sensor should it be reconfirmed according to the actual input\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 111,
+        "costUsd": 0.000195
+      }
+    },
+    "c5c71a3f21558c10759dd0c4fa76e6614c896192b80e81ec2bf01591382065dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7e1f56ac17fe834dc4fb045127dc03b792e5a6b7c950ae886c7d5b6fb19e6fb",
+      "contextFingerprint": "44bfda91db9da81b2bc5cf934471b050119170ee819ad37b265338b97761219f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791097373406-8cfd26a8.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791097373406-8cfd26a8.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c5cd02297067be54d73d2e9a3b470664021f6a4d1c9b89d280ab4df34de6f0d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "dddc196ccd93868fa86fb2f91d13ed8365a206956bab01f530cb22d4be1ec3cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两种分类方式：",
+      "translatedText": "Two classification methods:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c5d2c05203b5647cff376c24f608259f63fa0a13c191c74452747cc1cbe8bfc1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a07728de7224237c8310b861beb522d800581d35826fafce8278f9407fdd30a",
+      "contextFingerprint": "111ca01829e807ef3b864106788205e1d0576d827ddef8ae8f4a31f57bbdc5dc",
+      "sourceText": "1. `main.c` 只调用一个 C 能理解的函数，例如 `cpp_main()`。\n2. `cpp_interface.cpp` 负责进入 C++ 世界。\n3. `swap.cpp` 保持普通 C++ 写法，可以使用命名空间。",
+      "translatedText": "1. `main.c` Only call a function that C can understand, such as `cpp_main()`\\.\n2. `cpp_interface.cpp` is responsible for entering the C++ world\\.\n3. `swap.cpp` Keep the normal C++ syntax; namespaces can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 59,
+        "costUsd": 0.000125
+      }
+    },
+    "c5f9d7963c92e7809197eadc496da6a39158187c4de6a6c423443beff00d1377": {
+      "normalizationVersion": 1,
+      "sourceHash": "aee69a94a037e4db665f4392869502411496d544d5bf2d0f6942f7b4b33db6c1",
+      "contextFingerprint": "6badf7fd968a3fe123c2bdf49f6cc85a2ad0f427abe18690a06dada8eb72cbe5",
+      "sourceText": "关闭 IMU 对应的是另一个参数 mapping.imu_en。",
+      "translatedText": "Disabling the IMU corresponds to another parameter, mapping.imu_en\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    }
+  }
+}

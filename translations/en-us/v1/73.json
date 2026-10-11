@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "7303dfd1381c55e854cb9ceb8bcb985b0baeacc7f748cc475f17e13f0b1b45d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c1cda528d937721d0f1992c119fc5d8d3cfccbf20889ccdbe028aa04a38fa0b",
+      "contextFingerprint": "3358927df1a4344ea286a3f6e5b173760e6f39b74aaa9cbbf8f524812d92d830",
+      "sourceText": "编译 `swap.c` 时，C 编译器不会定义 `__cplusplus`，因此会跳过 `extern \"C\"`。编译 `main.cpp` 时，C++ 编译器会看到 `extern \"C\"`，从而按照 C 语言的链接规则寻找 `swap.c` 中的 `swap` 函数。",
+      "translatedText": "When compiling `swap.c`, the C compiler does not define `__cplusplus`, so it skips `extern \"C\"`\\. When compiling `main.cpp`, the C++ compiler sees `extern \"C\"`, and thus follows the C language linking rules to look for the `swap.c` in `swap` function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
+    "73644a4ff403075339b8682a3e0650e400f904b8c10502290fd83345153db648": {
+      "normalizationVersion": 1,
+      "sourceHash": "becc33efe3c8b8a6f05d549f3fcf2a0fc7f0923fd9e222f310918d700bede5f8",
+      "contextFingerprint": "632ff4ba102a98a36dfc36353c2c76a9f7de3d5865912794679ea21be6c69f51",
+      "sourceText": "而且北极熊现在的模型里，base_footprint 在地面，chassis 原点基本位于四个轮子的轮轴中心高度。",
+      "translatedText": "Moreover, in the current polar bear model, base_footprint is on the ground, and the chassis origin is basically located at the height of the axle centers of the four wheels\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 49,
+        "costUsd": 0.000108
+      }
+    },
+    "736b4fecef8ec76ba068356f290eb61274efd244fb05018ef184b97e3b043413": {
+      "normalizationVersion": 1,
+      "sourceHash": "c315b652b6c6855e496a816265d13e3464aaaf454795d7d6fed3457607d11bf3",
+      "contextFingerprint": "65a8e40714f090b2aa72269a2a92fb9b02639b8caed8db9793e9c29554671818",
+      "sourceText": "本块没有当前完全不使用的自定义参数：`robot_base_frame` 只在收到手动初始位姿时参与，`init_pose` 只在启动时设初值，它们不是持续调节项。话题、坐标系和路径不能按数值大小调参。",
+      "translatedText": "This block has no custom parameters that are currently completely unused:`robot_base_frame`participates only when a manual initial pose is received,`init_pose`initial values are set only at startup; they are not continuously adjusted items\\. Topics, coordinate frames, and paths cannot be tuned by numerical values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 60,
+        "costUsd": 0.000125
+      }
+    },
+    "73a4743924f1b9d8dd4197a753e8055aec3e95f10533e4ae7765e3b84a17d6c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2c9177b2f9a4ac9e1bd581b1d98779f665acdf11ddeac4e7752b88d38a8eb02",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++中函数的形参列表里可以有占位参数，用来做占位，调用函数时必须填补该位置",
+      "translatedText": "C++The formal parameter list of a function can include placeholder parameters to serve as placeholders, and the corresponding arguments must be supplied when calling the function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 45,
+        "costUsd": 0.000103
+      }
+    },
+    "73ae3399af2e55fe16a804300b1da807058ffd3c971049e40372662cc4865828": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f75306d2487afc183eb52c5a1b375a5c2db1e137f1455ed9d8abc59f4c7162a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一个较大的程序，一般分为若干个程序块，每个模块实现特定的功能。",
+      "translatedText": "A relatively large program is generally divided into several program blocks, with each module implementing a specific function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "73ed1cc6dda7936d9f842cba0654146b47a6bd2cd0dcbef8fb525491fc7e195b": {
+      "normalizationVersion": 1,
+      "sourceHash": "eab1ba4c4eccb2bd86517696b19dabe986a137fa9ba49b348ca1cb1683e6ba60",
+      "contextFingerprint": "6e978617182d6c3ff5cadc8c642c57d9c8f952b06761443a5fe7257e1afab527",
+      "sourceText": "###### prior_pcd_map_path（先验点云地图路径）",
+      "translatedText": "###### prior_pcd_map_path (prior point cloud map path)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    }
+  }
+}

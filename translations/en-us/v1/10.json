@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1009ea8dbd2e2c0694c3e204ffa1908521124d7f34a73372567960002f29e471": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d372213d15b9fbffdd693ffff736b2b7aa74d0eae47b2aaf75c671446c9d187",
+      "contextFingerprint": "f46feb83397602bc312f7996c22947e4232dfae0cec7a0d31523a7bd64d6b405",
+      "sourceText": "改“机器人本体长什么样” → 改 ysu2026_sentry_robot.def.xmacro。\n改“实车传感器装在哪里、实车采用哪些参数” → 改 reality_robot.sdf.xmacro。\n改“Gazebo 里怎么跑” → 改 simulation_robot.sdf.xmacro。\nmodel.sdf.xmacro 只是 rmoss_gz_resources 里的完整 Gazebo model 入口，不是你实车 TF 的主入口。（所以这个model.sdf.xmacro其实没那么重要，但顺手改了也行。）",
+      "translatedText": "Change \"what the robot body looks like\" → change ysu2026_sentry_robot.def.xmacro\\. Change \"where the real\\-vehicle sensors are mounted and which parameters the real vehicle uses\" → change reality_robot.sdf.xmacro\\. Change \"how it runs in Gazebo\" → change simulation_robot.sdf.xmacro\\. model.sdf.xmacro is only the complete Gazebo model entry point in rmoss_gz_resources, not the main entry point for your real\\-vehicle TF\\. (So this model.sdf.xmacro is actually not that important, but changing it along the way is fine too\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 267,
+        "outputTokens": 157,
+        "costUsd": 0.000269
+      }
+    },
+    "101682b4caf16b1de047451f5e9c5a3f081f07d115f3582381a377c16d5239ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb0e9d80c0d41a1babcaf9c53d27a85f3799446af6a98c132bc0b8fcb97229b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用模板时，要根据实际文件名修改保护宏。例如：",
+      "translatedText": "When using the template, modify the include guard according to the actual file name\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
+    "105f328a2c2607fd9ed4ff3281140a1b0bb453039ae4c877f5581ac16a33a84a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7f3b4978475a9689737a2d3528cf4119ae21bb8f754b660790fd11310a9a9de",
+      "contextFingerprint": "b1f01e19b88351409f39a4223abb04412f7730a59c9477fdfa3bcf2abcef4236",
+      "sourceText": "当前使用的是 MID360 内部 IMU，保持 `imu_en=True`、`use_imu_as_input=False`。MCU 世界姿态不能代替机械关节角；实际 yaw 在 `gimbal_yaw_joint`，实际 pitch 在 `gimbal_pitch_joint`，两个 odom 关节固定，MID360 随 yaw、不随独立 pitch 转动。",
+      "translatedText": "Currently using the MID360 internal IMU, keep `imu_en=True` and `use_imu_as_input=False`\\. The MCU world pose cannot replace the mechanical joint angles; the actual yaw is at `gimbal_yaw_joint`; the actual pitch is at `gimbal_pitch_joint`; the two odom joints are fixed, and the MID360 rotates with yaw but not with independent pitch\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 69,
+        "costUsd": 0.00014
+      }
+    },
+    "10a4a69e3123514a6c64474cf8f655a7b8005c76d9a42c7fba8920f067001fff": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3579aa4ad7093bbc9ebe751a0a64158347687b3b5ed5b4e943e67b779d5363a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "继承的好处：==可以减少重复的代码==",
+      "translatedText": "Benefits of inheritance: ==can reduce duplicate code==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "10a9da9a6858a50413f29528cb93f09d2bab0cb2f8cbf2630e8a1dae1708c8e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "241c49c077d094e120412774db769e4cbb0ff2365a8ae5e165b6b5d8e44698e1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前输入为：",
+      "translatedText": "The current input is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "10f466581e9142c537742098e909a820c05bf8511a2988aa9ac3ff1113c2cdf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "020ed4b0bb5013f3a798b7f6f7b6812b6e5a27363cd93fcfb71830d0ab14d573",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "友元的三种实现",
+      "translatedText": "Three Implementations of Friend",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "10f5bd10a2ca37b8e261dde6e36208cb075ddf6418c0e11e64afb056172ac784": {
+      "normalizationVersion": 1,
+      "sourceHash": "07fa0bf78a16c8bdddb01df91585c9d096601a2a6ddc60bd0b6ebb88ee4b5a7b",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 终端横幅修改文件：",
+      "translatedText": "##### Terminal banner modification file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "10f7840b2271aa7fb537b7aa39fd8b903db2bc4f5bac73c90713c2add623d5d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e67c3709c7e824aff5809366cf95974c05038e561cb3b0ee8db0c9ba68821ae3",
+      "contextFingerprint": "08bdf49b51ba87ac3bc35050a566efd7453dc8d333d0022ec0624243aa52ab92",
+      "sourceText": "当前源码实际计算 `C × 输入位姿`，即 `C × T_WI(t)`，随后将子系名设为 L；没有右乘 `T_IL`，也没有用初始输入位姿核对 `C=T_OW` 的条件。",
+      "translatedText": "The current source code actually computes `C × 输入位姿` , i\\.e\\. `C × T_WI(t)` , and then sets the subchain name to L; there is no right multiplication by `T_IL` , nor any condition that verifies `C=T_OW` using the initial input pose\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    }
+  }
+}

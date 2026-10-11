@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "121a33ef0a79c74a684ad157151c67982b886c359448d6742320dadf35e8ef0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "7157329eb4ad770187f85170c6086e94ebf98c94492ef16e9ca854039842ce73",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 注意1：switch语句中表达式类型只能是整型或者字符型",
+      "translatedText": "> Note 1: In a switch statement, the type of the expression can only be integer or character type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "1232f27fc3e9132cbe3a5d7e7f03dadf329b6c95850f49fe87dc5ead649d62cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "52dbfbe05d56deedb64b462265c788388aea4339d297ecdce9b89de99fb2c1ee",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 查看二维数组所占内存空间\n* 获取二维数组首地址",
+      "translatedText": "* View the memory space occupied by a two\\-dimensional array\n* Get the base address of a two\\-dimensional array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "12430cd123bd64a9a94421cb50e069d248a06942b71ef4c576350831b7171a34": {
+      "normalizationVersion": 1,
+      "sourceHash": "95246c21b1f33d6e66ce1def5c8a64dd82488b313d996639cd52abac6b956ce0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果用到this指针，需要加以判断保证代码的健壮性",
+      "translatedText": "If the \\`this\\` pointer is used, a check must be added to ensure the robustness of the code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "1251ad20a51d17f84577f90eef86b203ef97d00560d62d461d4f373e6938e069": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e62b2043e1b0dc309e8fc5b208edcec66c7146a4b8bb38eef646761cbd0ed58",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "对象的**初始化和清理**也是两个非常重要的安全问题",
+      "translatedText": "Objects'**initialization and cleanup**are also two very important security issues",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "12780745a5ab171e5e7f413cc84c6201965604b75c2b9373f82e3114d16028a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "511d87c9f299c50dfe2d465a17d86f8bee5aa84b069fb851689771e1d59667b0",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* 标识符不能是关键字\n* 标识符只能由字母、数字、下划线组成\n* 第一个字符必须为字母或下划线\n* 标识符中字母区分大小写",
+      "translatedText": "* Identifiers cannot be keywords\n* Identifiers can only consist of letters, digits, and underscores\n* The first character must be a letter or an underscore\n* Letters in identifiers are case\\-sensitive",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 43,
+        "costUsd": 0.000101
+      }
+    },
+    "12b25aab4b63feb1d79df6c61d91ec43ed6fdec4ef73ccbe86c7390a2c13fa72": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd668f4c8beae8803297c52cae1785185db89ee61f758aa62ecdec23a04231c5",
+      "contextFingerprint": "5c875abce69e2bdf39d6af02cf056d0cb986baa9d9fc370f39c6d06906f67bfe",
+      "sourceText": "记录 GPU、数量、显存、训练时间、Epoch / Steps、Precision、Multi-GPU Strategy。",
+      "translatedText": "Record GPU, quantity, VRAM, training time, Epoch / Steps, Precision, Multi-GPU Strategy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 36,
+        "costUsd": 0.000092
+      }
+    }
+  }
+}

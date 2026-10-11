@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5503b203005b9308037e99955aea010195f67dd3847a342b1d23ac14cb1ed4f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1fad23e6604af7dc0313fbf9a80601c3f265e6dce77724497f552e654cdaaeaf",
+      "contextFingerprint": "d0bba3ce5230fcabb73663c496ed19a8b91830f39d662123625cc602dc99273c",
+      "sourceText": "这里不用把 `cpp_interface.h` 写进 `add_executable()`。CMake 主要负责把 `.c`、`.cpp` 这类源文件交给编译器编译，头文件本身不会单独编译成一个目标文件。",
+      "translatedText": "Here, there is no need to put `cpp_interface.h` into `add_executable()`\\. CMake is mainly responsible for passing source files such as `.c` and `.cpp` to the compiler for compilation; header files themselves are not compiled separately into an object file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
+    "550a522603668082ddb9fb6a9ed3dda5945d76900abf1218c9dbfa0844e34d8a": {
+      "normalizationVersion": 1,
+      "sourceHash": "799f7f55356b8d5e0c26063bb7fbf8a2ca65275b9ae5de0eb882ea0d43b12063",
+      "contextFingerprint": "da3cf3e722d156a9a27c444d5f7738216775620c4ed8b491ae5a6e29c25a983a",
+      "sourceText": "一个工程中可以同时存在 `.c` 和 `.cpp` 文件。例如，既可以让 C++ 源文件`xxx.cpp`调用 `.c` 文件中的函数，也可以让 `main.c` 调用 `.cpp` 文件中的函数。",
+      "translatedText": "In a project, both `.c` and `.cpp` files can exist at the same time\\. For example, you can have a C++ source file`xxx.cpp`call functions in a `.c` file, and you can also have `main.c`call functions in a `.cpp` file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 62,
+        "costUsd": 0.000128
+      }
+    },
+    "552ac8541383e0d8b46aa35978b56f823ba5cd3ddcaa88aa7e975b4f817b1c2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8dd585f309a6f2d102555e880fe45db2b961f16f781565269a36a2aec123eaf",
+      "contextFingerprint": "4435a8e38e6ffc5f95af8d7811ee506405f9ac48be86864e59959b02dd9f2248",
+      "sourceText": "头文件本身不能单独运行。修改头文件后，需要重新编译包含它的 `.c` 或 `.cpp` 文件来验证。",
+      "translatedText": "A header file cannot run on its own\\. After modifying a header file, you need to recompile the `.c` or `.cpp` files that include it for verification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "55300d60443be92d7f4fdb82fdddee84c010fbb745007dc7fa7412cee52c1ec2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f37a3898d3a4109c8f3910800cf6490f0000abea7ef51cdbed44591457ee7f93",
+      "contextFingerprint": "4f1a3bc446c962f5cd6b357cbcf5d05db3db82a025adcb0fb8dc17c4ef299c9d",
+      "sourceText": "`gravity` 最重要的实物含义是：**Point-LIO建立自己的参考系时，应该把哪边理解为“向下”，以及重力的大小按多少计算。** 它会影响初始姿态和加速度换算；方向弄错时，地面、高低和后续坡道识别都可能受到影响，不能先靠放宽地形高度范围掩盖。",
+      "translatedText": "`gravity`The most important physical meaning is:**Point-LIO When establishing one's own reference frame, which side should be understood as \"downward,\" and by how much the magnitude of gravity should be calculated\\.** It affects the initial attitude and acceleration conversion; if the direction is wrong, the ground, height, and subsequent slope recognition may all be affected, and this cannot first be masked by loosening the terrain height range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 99,
+        "costUsd": 0.00018
+      }
+    },
+    "5536d425a9b7e6f423c98fd19fe3cd5f668779ca546acbd47e251886ad7a1b06": {
+      "normalizationVersion": 1,
+      "sourceHash": "66e6a58e867ef5870d2626c40e14d61c2de90637182f034e6943ddc9482d9be3",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 继承方式",
+      "translatedText": "#### Inheritance method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "5552e7826a3a114142cb62c3240a01307e8e34a4acd476af4320b7909370fc77": {
+      "normalizationVersion": 1,
+      "sourceHash": "64d55a4e5dcce5210c782711c68f7162f289c965111407f5e2661be0427c9967",
+      "contextFingerprint": "939830c13d40a12c755a2d8072686189af26f1b64f61c5ff8f93774847548bd4",
+      "sourceText": "下面是当时使用旧包名 `ysu2026_robot_description` 的终端记录，保留原始输出；现在复查时使用上面的 `src/robot_description` 路径：",
+      "translatedText": "Below is the terminal record using the old package name `ysu2026_robot_description`, preserving the original output; when rechecking now, use the above `src/robot_description` path:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "55909797dc50c849434bb7b59af5ba3a8bdc7effd24b097ce14bbb78e8b72a72": {
+      "normalizationVersion": 1,
+      "sourceHash": "a97e573a9615f9ec4d924f5800c1e41233d209a0ac7b711a4245971a62b2472b",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 统一论文阅读模板",
+      "translatedText": "## Unified Paper Reading Template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "5598486b26af3bf07c93172d987c45b007f86a7049803d12c5c91b54fc8d2eb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "441bbaa59ed9bf046c8fb3183f48cf091ff3c26254d24d59a97cb7f5ae524360",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 导航",
+      "translatedText": "### Navigation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "55dbf5a295704ba4d0c9177e3adc7c21fe4ebcec7e6dfabd94434ad4dc9b6c80": {
+      "normalizationVersion": 1,
+      "sourceHash": "90c2f7e9058731817c452e748d14e8b785274599d216bae12c0c2a656d52c1fd",
+      "contextFingerprint": "066c2252e3090a6034e2bb440839302a2f0fc081a81724711dbd80e1d0759a63",
+      "sourceText": "找到这个脚本：`/src/rmoss_gz_resources/update_model.sh`",
+      "translatedText": "Find this script:`/src/rmoss_gz_resources/update_model.sh`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "55e83fb441674e07b7a5503b5e3a9aeeb82441fb56e36d59e1f0c6f2a68df85b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0833c12478b56f8c295a9edec296045b77e76829e5d6a919e832af92dc515001",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 安装基础工具",
+      "translatedText": "## Install basic tools",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    }
+  }
+}

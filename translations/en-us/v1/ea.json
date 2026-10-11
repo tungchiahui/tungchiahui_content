@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ea8cc2535b2e93cb38ae55c4992a465f29e9a8c7ab1bb8a3ce2a3bed2f36cc73": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe708119b2c6ef7f6c1e596b2c10903754ecf197bb379574b3a68c37f1ecfb91",
+      "contextFingerprint": "6101d0f5a711a8881f9a83448482b9867b90d6ea5cac665ab9e3c476ecf64180",
+      "sourceText": "这个进阶写法的重点是：`extern \"C\"` 只放在最外层、最简单的接口上，也就是 `cpp_main(void)`。真正的 C++ 代码放在 `cpp_interface.cpp` 后面，`swap` 可以使用命名空间，以后也可以继续使用类、模板、函数重载等 C++ 功能，只要这些 C++ 专有内容不要直接暴露给 `main.c`。",
+      "translatedText": "The key point of this advanced approach is:`extern \"C\"` place it only on the outermost, simplest interface, that is, `cpp_main(void)`\\. The actual C++ code is placed after `cpp_interface.cpp`\\. `swap` can use namespaces, and in the future can also continue to use C++ features such as classes, templates, and function overloading, as long as these C++\\-specific contents are not directly exposed to `main.c`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 220,
+        "outputTokens": 109,
+        "costUsd": 0.000197
+      }
+    },
+    "ea8f80cb300ff2ea1598ed3d36a759dd60090f8acf1c879970482d2aafe8dd29": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fd1b1c8231b0a9fc5474fc8b17856daa8be0454f1318f45cf401e24084800b8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 结构体定义和使用",
+      "translatedText": "### Struct definition and usage",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "eaa87cc5c5eb8c81e62e7be77cf56c79f1a728094eaf5ff1d328b9e3b7644ff5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2afd89212f55205487989698edd5bcf53e23f7ad2695604ee59cddfb49b43014",
+      "contextFingerprint": "f018903eca0309c4e95d84285431f0ed66a8f97a806a77db8fff77ed27483192",
+      "sourceText": "因此，**导航时会读取二维图和PCD；实时匹配的是“当前三维点云与保存的三维PCD”。** 不是把PCD与二维图片互相匹配，也不是每帧先存一份PCD再匹配。当前small_gicp按约0.5 s的定时器处理累计点云，只有匹配收敛才更新结果；这不保证每0.5 s都得到正确定位。常规导航不启动slam_toolbox和这个二维扫描转换节点，也没有用它们进行实时二维地图匹配。接线见[slam_launch.py](/home/tungchiahui/UserFolder/MySource/ysu2026_rm_sentry/ysu2026_rm_sentry_nav/src/pb2025_sentry_nav/pb2025_nav_bringup/launch/slam_launch.py:126)、[localization_launch.py](/home/tungchiahui/UserFolder/MySource/ysu2026_rm_sentry/ysu2026_rm_sentry_nav/src/pb2025_sentry_nav/pb2025_nav_bringup/launch/localization_launch.py:135)。",
+      "translatedText": "Therefore,**During navigation, the 2D map and PCD are read; what is matched in real time is the “current 3D point cloud and the saved 3D PCD\\.”** It is not matching the PCD with a 2D image, nor saving a copy of the PCD each frame before matching\\. The current small_gicp processes the accumulated point cloud on a timer of about 0\\.5 s, and updates the result only when matching converges; this does not guarantee correct localization every 0\\.5 s\\. Normal navigation does not start slam_toolbox or this 2D scan conversion node, nor does it use them for real\\-time 2D map matching\\. For wiring, see[slam_launch.py](/home/tungchiahui/UserFolder/MySource/ysu2026_rm_sentry/ysu2026_rm_sentry_nav/src/pb2025_sentry_nav/pb2025_nav_bringup/launch/slam_launch.py:126)、[localization_launch.py](/home/tungchiahui/UserFolder/MySource/ysu2026_rm_sentry/ysu2026_rm_sentry_nav/src/pb2025_sentry_nav/pb2025_nav_bringup/launch/localization_launch.py:135)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 281,
+        "outputTokens": 193,
+        "costUsd": 0.000316
+      }
+    },
+    "eae93594011a90ecef0b8da4cf8e97f04e804195f5c3636c8cc98a8b0b9fbeca": {
+      "normalizationVersion": 1,
+      "sourceHash": "da51b4251d6f46de8a2e28922b62b77a7797709800e1cfa5c7ac82609c6126da",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. public        公共权限  \n2. protected 保护权限\n3. private      私有权限",
+      "translatedText": "1. public        Public permission  \n2. protected Protected permission\n3. private      Private permission",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "eaee484fda3af5d7529c6a4e8c2ca33f0c5c0dc3aa63fd55579b78126726e322": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecf25b89dc900d907b026e5d28bbeab0083ad3c254074c68a8426eb6950514cb",
+      "contextFingerprint": "e5fc097ac32a585c26a27660841c87f83541ca4f0fff1c1129ab934ab5f95e3e",
+      "sourceText": "`global_leaf_size=0.1 m` 处理先验地图；`registered_leaf_size=0.05 m` 处理每轮累计实时点云。两者不要求相同，也不等于地形分析格子、Nav2地图分辨率或定位精度。地图处理不会改原PCD，实时处理不会改变Point-LIO本身的输出。",
+      "translatedText": "`global_leaf_size=0.1 m` Process the prior map;`registered_leaf_size=0.05 m` Process the accumulated real\\-time point cloud for each round\\. The two are not required to be the same, nor are they equal to the terrain analysis grid, Nav2 map resolution, or localization accuracy\\. Map processing will not modify the original PCD, and real\\-time processing will not change the output of Point-LIO itself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 84,
+        "costUsd": 0.000158
+      }
+    }
+  }
+}

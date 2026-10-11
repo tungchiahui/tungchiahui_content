@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "2c063851f2341ad7a97aabb4420c869cf28b403cc1f56db28b2c917d2b9508f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "30e6b10188fc7703dbf6694e6084f0cf9fdcbae54e5bf8e6949d07496ae2bab6",
+      "contextFingerprint": "bcd85b5f5a17cb915b5e040c5578cc013ce2a9f928a90537f330a47ba44a11bf",
+      "sourceText": "###### input_cmd_vel_topic、output_cmd_vel_topic 与MCU配合（速度输入与输出话题）",
+      "translatedText": "###### input_cmd_vel_topic, output_cmd_vel_topic cooperate with the MCU (speed input and output topics)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 40,
+        "costUsd": 0.000097
+      }
+    },
+    "2c11ce5614e072828027d33b5b533b5a0be5b0a42695e92bc8b16fe72bcd3f12": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5a0a1516bbb46669a49549410b18704717efda75a577d9c272c9421370f6399",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后调这组参数时，主要比较输出延迟、有效环境结构、点云重影和轨迹连续性。先使用当前值建立基准，再针对具体表现改变一个参数，才能判断改善来自哪里。",
+      "translatedText": "When tuning this parameter group in the future, mainly compare output latency, effective environmental structure, point cloud ghosting, and trajectory continuity\\. First use the current values to establish a baseline, then change one parameter for the specific behavior in order to determine where the improvement comes from\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 61,
+        "costUsd": 0.000126
+      }
+    },
+    "2c2ac11dc396b9774ab6ff95a547bd25bb9a5a46a1cd7d075839e21d11a98e85": {
+      "normalizationVersion": 1,
+      "sourceHash": "31b2974a16c33f99dae6f728d0db4a19b57c28ffd0b5799708cd9109cea76651",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首先你得知道宿主机的ip地址：",
+      "translatedText": "First, you need to know the IP address of the host machine:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "2c4249d1b387fd6218bac292d7e1199b6cf4f6856fdec1bd1e7b0cbc00db48bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ddf6d2d7c2d4973ca7e6b20deebf93c714b3012fa223dfeda8473d4ce5980f7",
+      "contextFingerprint": "b9e7641bb3099c1df87efc6461265ce7c6ad419c6a97db208520f906e695ce73",
+      "sourceText": "**扫描以 `base_footprint` 原点为中心，方向按底盘系表达。** 输入虽来自MID360，却不是原始雷达点云，而是 `terrain_map_ext`；其中 `intensity` 已被改成相对估计地面的高差，单位m，不是雷达反射强度。",
+      "translatedText": "**Scan with `base_footprint` as the origin, with directions expressed in the chassis frame\\.** Although the input comes from MID360, it is not the raw LiDAR point cloud, but `terrain_map_ext`; where `intensity` has been changed to the height difference relative to the estimated ground, in m, not the LiDAR reflection intensity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 68,
+        "costUsd": 0.000135
+      }
+    },
+    "2c4ef79685b3554d9476a59324258e4815b11ac083182c8d5bf8f839ef7d3f31": {
+      "normalizationVersion": 1,
+      "sourceHash": "be694d367d3a17a3875e75c4dca3ff2e6344af36c566326f29fd26db9ae19c9b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **对于移动机器人导航，什么样的 Future Representation（未来世界表示）最有利于 Planning？Future RGB、Future Latent、Future Occupancy、Future Geometry、Future Risk，谁真正能改善闭环导航？**",
+      "translatedText": "> **For mobile robot navigation, what kind of Future Representation is most beneficial for Planning? Future RGB, Future Latent, Future Occupancy, Future Geometry, Future Risk—which one can truly improve closed\\-loop navigation?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 48,
+        "costUsd": 0.000109
+      }
+    },
+    "2c614ae0def78dbaee7d9d396535d19014372769a6911b377cd7daf0ad97a591": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fa58f6cbca8a33fc2e631f0c060a2bfb80bb8436ee2428942e904b02bb70c4d",
+      "contextFingerprint": "ac6038571b40523773f448e180297f589d5c1034f1a1191059740d6451f5e71a",
+      "sourceText": "每次回调还按点云时间查询 `front_mid360 ← gimbal_yaw`，再计算：",
+      "translatedText": "Each callback also queries by point cloud time `front_mid360 ← gimbal_yaw`and then computes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "2cd2f3977c377ca1b570edb7cc2ec2d09140057b07e1437577416c220266e4c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "95e8df96a2d620a472a699f51590f9ef9477dfb96a2c74aba0648fb8db92d960",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "配置路径：\nNetworking support →\n  Networking options →\n    Network packet filtering framework (Netfilter) （要先选中再进去）→\n      Core Netfilter Configuration → ",
+      "translatedText": "Configuration path: Networking support →   Networking options →     Network packet filtering framework (Netfilter) (select first, then enter) →       Core Netfilter Configuration → ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 48,
+        "costUsd": 0.000109
+      }
+    }
+  }
+}

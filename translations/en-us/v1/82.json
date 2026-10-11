@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "822087706aa200b89f9c27cf9afa347399bf45ecc8968f35185dca843f6e0565": {
+      "normalizationVersion": 1,
+      "sourceHash": "685103e619fae579a1d77d09abe98be446b9c8b64235aba65aa9332c53d51bad",
+      "contextFingerprint": "463ecc96601148c6f1356d1086c3c0e845d342a254617cb0f11c4a36d4ce757e",
+      "sourceText": "True会创建`slam_toolbox/save_map`服务，并订阅地图；收到地图后，服务调用才会触发二维图片及YAML的保存。没有地图时会报告无法保存，True本身不会定时落盘。[MapSaver实现（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/map_saver.cpp)",
+      "translatedText": "True creates the`slam_toolbox/save_map`service and subscribes to the map; only after the map is received will the service call trigger the saving of the 2D image and YAML\\. When there is no map, it will report that saving is not possible, and True itself does not periodically persist to disk\\.[MapSaver implementation (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/map_saver.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 79,
+        "costUsd": 0.00015
+      }
+    },
+    "8220c37f43fca1b4dd094e96cbfadbd11e3c196433664ad1b6cf605f45b91e42": {
+      "normalizationVersion": 1,
+      "sourceHash": "e04c9dd735050e1dba4748b11332bf60b661ebf36c3beb9aca8def7bf5a02877",
+      "contextFingerprint": "a230d8e3a5eb9a08c9e703fd8ab0364eef96e9e838d9577fead4ea440f8cd3e9",
+      "sourceText": "这时候有VScode的报错无所谓,是因为`CMakeLists`没修改,其次`clangd`也没有被刷新,先不用管代码提示的报错.",
+      "translatedText": "At this point, it does not matter if there are VSCode errors, because`CMakeLists`have not been modified, and secondly`clangd`have also not been refreshed\\. For now, do not worry about the errors shown by the code hints\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 53,
+        "costUsd": 0.000111
+      }
+    },
+    "8247c0d6070af27c7b70a7117f6c5199bdc617e96575cf4894b3ccbf1f5115b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a218000f2f8c843e9cdbb302ae893303b340c96b5d4f80a71de1c554983e12f",
+      "contextFingerprint": "fa26fe152c60ca1cfb406b6aa4bd16a30d16278af7d3cff156dbed9d2f58dcb7",
+      "sourceText": "**运行结果：** 编译失败：结构体定义末尾缺少分号 `;`，程序不会生成可执行文件。",
+      "translatedText": "**Run result:** Compilation failed: the struct definition is missing a semicolon at the end `;`, and the program will not generate an executable file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
+    "824fd5b9a96bab578ad9c51b6e3233768c519198908aed29f2b7df90f7f656f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d257e6dee310777c1823b62ab69067534fe81276c35ebf2d983d3e42fbcdac0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**用于表达式的比较，并返回一个真值或假值",
+      "translatedText": "\\*\\*Function:\\*\\* Used to compare expressions and return a true or false value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "8259d70ebbbd7bb27234b3624731657f4552540575131992680784f091ec8b98": {
+      "normalizationVersion": 1,
+      "sourceHash": "593cb2c9b1e2d3e8a3625d7b828bb8732fde5637bb9d14ebeb6135acee861800",
+      "contextFingerprint": "5f5bcfa573e466fcb34cbbc3d88c08feca8968b4e1374cc86a5262449c688d17",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791097194218-47b89a28.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791097194218-47b89a28.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "82c7e9fa967dbaeacaee75466a909fcc761a3200becf94e9df36ab3815d330e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ad0b1458d5b99d16c5c579df30f82b78b9e6622163f1c1c0a0cbb617f9a78c8",
+      "contextFingerprint": "99de89441ca7dd13d72a869aca7964fd91b5dbaca821a9308cd7db9058e6cf7e",
+      "sourceText": "### loam_interface（Point-LIO输出的坐标与话题适配）",
+      "translatedText": "### loam_interface (coordinates output by Point-LIO and topic adaptation)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    }
+  }
+}

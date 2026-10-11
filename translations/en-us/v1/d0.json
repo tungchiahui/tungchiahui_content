@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d01affdab2ad7e303358e6202e017c9e3c843ae1ecdcc87b8491db859d6d7288": {
+      "normalizationVersion": 1,
+      "sourceHash": "8195031cd19ddc2caa3a9e396aca938fd5761848f10bfe28deb3121d3cf27d03",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 数据类型",
+      "translatedText": "## Data Type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "d02ebd39303e0a16cf24a55debf9c4dcb2f34cbb843043edb120f4625dc7f03c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ce562173014799244e2ccdac16c78c3d8099ef2305ba051e83d1043bfc9094f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先确认能看到正常环境点云。",
+      "translatedText": "First, confirm that the normal environment point cloud can be seen\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "d06292fa896355c30cd9f8f38ddbe95376655d5ece439e11a5b8c693ee1e8949": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a48215f287d6788b94243326b309c6415e1aec6efecf6aa12f63da0da8aeb93",
+      "contextFingerprint": "37463d9b4c3e8d1ad0d755583a85b754f612ec6ca8eb9ba9c071e1bc6f8eac54",
+      "sourceText": "###### 两个leaf_size、num_neighbors 与 num_threads（点云精简、邻点数量与计算线程）",
+      "translatedText": "###### Two leaf_size, num_neighbors, and num_threads (point cloud simplification, number of neighbors, and computation threads)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 54,
+        "costUsd": 0.000118
+      }
+    },
+    "d0910003a49d26f79b58ca6a333f64a9638c250a64a68f4e2fa8d2669ebcd411": {
+      "normalizationVersion": 1,
+      "sourceHash": "961cd7c624d7fc1ac99d11b757e79ca0f84a556ac6307ace2dca8e639ddc5538",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### ros__parameters（ROS节点参数）",
+      "translatedText": "#### ros\\_\\_parameters (ROS node parameters)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "d0b495257ce81bff68a300e13f17b34f2276b8293edd53dabdd56d3455cdf3ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ba50b4cdfea45ffebd53b26f15fca24e5559b6f93bbdf4d3f5811fc27d03d70",
+      "contextFingerprint": "dfab7e5d8f2e81a49496c1db34f2b7f965432e04aeb65b912be64130a07e9281",
+      "sourceText": "坐标、话题、保存开关和Ceres模式在节点配置时读取；3项旧图参数在启动载入入口读取。相关路径没有在参数改动后自动重建订阅、求解器或重新加载旧图的回调；ROS标准use_sim_time由节点时钟机制处理，应与这些启动参数分开理解。",
+      "translatedText": "Coordinates, topics, the save switch, and the Ceres mode are read during node configuration; the three legacy map parameters are read at the startup loading entry point\\. The relevant paths have no callbacks that automatically rebuild subscriptions, the solver, or reload the legacy map after parameter changes; the ROS standard use_sim_time is handled by the node clock mechanism and should be understood separately from these startup parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 93,
+        "costUsd": 0.000173
+      }
+    },
+    "d0f0faf2ab7b1cc79500a69dbe2c7b098732986d3521b7e8f6329dd39fcf0f4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "18d2640cca488e18765d20a983cd4164ecf37295562a1f89b79f9de3a0e1dec7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：引用是可以作为函数的返回值存在的",
+      "translatedText": "Purpose: A reference can exist as the return value of a function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    }
+  }
+}

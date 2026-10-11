@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1701bc78d6a28cc37eb2e4cd6da19c2ccaf23ce7d4731320303eb8c15eaf8e7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7804eba8a219c1ee7dc10918d73702b9badac4f0c1905d3120f08625d8be7e0c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "进行测试。",
+      "translatedText": "Perform the test\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "1715cc31b81aa333be3bb84db2a440778cf592aa8cde66ddf1f3cb81e2423a84": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e80a207d80a0f3dbe9d619fb4980c290d1be22ef759d3f31fac0bb6de6ddde2",
+      "contextFingerprint": "948b302cdc5039452da83163c19b5e72285a703469d106d303bb3aa67e0f8e12",
+      "sourceText": "当前 lidar_type=1、scan_line=4 与本地 MID360 驱动实现一致；blind=0.5 可以先作为基准。\ntimestamp_unit=3 在当前 Livox CustomMsg 分支中没有参与换算，但逐点时间仍被正确地按 ns 处理。",
+      "translatedText": "Currently lidar_type=1 and scan_line=4 are consistent with the local MID360 driver implementation; blind=0\\.5 can be used as a baseline first\\. timestamp_unit=3 does not participate in the conversion in the current Livox CustomMsg branch, but the per\\-point time is still correctly handled in ns\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 213,
+        "outputTokens": 95,
+        "costUsd": 0.000178
+      }
+    },
+    "172be7608904d007b4696f5200d4b2afc743915aa99567f1030421f5eef5e8bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad26d218dda8c174681bb36760dfc77a7b027c876b52160493c583ce51629f00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "0.005秒对应200 Hz的标称周期，但当前源码只读入这个值，没有用它计算。改成更小的数不会让实物 IMU输出得更快；实际数据间隔要看消息时间戳。当前暂不调整。",
+      "translatedText": "0\\.005 seconds corresponds to a nominal period of 200 Hz, but the current source code only reads this value and does not use it for calculation\\. Changing it to a smaller number will not make the physical IMU output faster; the actual data interval depends on the message timestamp\\. No adjustment will be made for now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 71,
+        "costUsd": 0.00014
+      }
+    },
+    "17609ad6906a2df9eb76b98f22d7b6b8d7260f4bc893cca9786d3cf3acb8f13e": {
+      "normalizationVersion": 1,
+      "sourceHash": "936342e1e1e9296cedb4aae6fb380fa6a45e8de4366a21a723bfd74fef6621c7",
+      "contextFingerprint": "0fd61f68633a4cbbb6a9dceb0fb154b090405565132b512de67f32a0e20de600",
+      "sourceText": "init_map_size=10 只是一道点数门槛。",
+      "translatedText": "init_map_size=10 is just a point threshold\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "17643fedb0d12d83d0c3b0f0b3a2f995799aec2afe1801bed5f267af3779a5bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "d30aaa495f0c2906ce7d2a362acd898f3fc31a21e3f7332d7828e2acf80b10e0",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 检查工具是否安装成功",
+      "translatedText": "## Check whether the tool is installed successfully\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "177c6a6caefb51bae0948fb9923db2afb8978d465da0da65dba842bf1a451d1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3261d465d32c5035a9c80439bd0f8eeed35439e1400e9c45b82e035aaa080395",
+      "contextFingerprint": "341a3a08c9e608cfd7000788c0be653ef0588bbe24fb70495983ec8e28e8dd24",
+      "sourceText": "![1545017602518](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545017602518-13a27cfbf5.webp)",
+      "translatedText": "![1545017602518](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545017602518-13a27cfbf5.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "17c0c55e29c494e6a72452eb79e75bbfa96c25b35f6ee5d9bbedba573a1098bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "f78ab6c0553a760f605232cf6a92670432b438bc98bf9562df496694491df035",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 和之前的异同",
+      "translatedText": "## Similarities and differences from before",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "17f9037d73f0e8cc34e1ad8503644058a3e8e75fc03c890e1420a7829e7d6bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e797b2d0f625f635380b512ff0e4d82cd17f25dc45c1040fbcbfe8a97cc45f0",
+      "contextFingerprint": "99da9b883134711d7f07aa55bd678bdac51deb94e6251f537f22d429f40d2ea4",
+      "sourceText": "* 成员函数后加const后我们称为这个函数为**常函数**\n* 常函数内不可以修改成员属性\n* 成员属性声明时加关键字mutable后，在常函数中依然可以修改",
+      "translatedText": "* After adding const to a member function, we call this function a**constant function**\n* Member attributes cannot be modified within a constant function\n* After adding the keyword mutable when declaring a member attribute, it can still be modified in a constant function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 54,
+        "costUsd": 0.000116
+      }
+    }
+  }
+}

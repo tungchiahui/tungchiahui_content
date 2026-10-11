@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ac31b32326908824597f084ee8e2b759fc0f34a24539a44f2ab23aab05b8b4da": {
+      "normalizationVersion": 1,
+      "sourceHash": "56dfae54213cde2aa20869a74aa0835ffad60a1fbaf90845221b2eb7ae390f4e",
+      "contextFingerprint": "99b9123fa893499bf684620451871c1670db8b7fec01a28ac972bab00a0a57dc",
+      "sourceText": "正常地形点要求 `0≤h<vehicleHeight`，当前即0～0.5 m，不包含0.5 m上界。`h` 相对估计地面，`minRelZ/maxRelZ` 则相对输入雷达位姿的 `odom` z，两者参考基准不同。",
+      "translatedText": "Normal terrain point requirement `0≤h<vehicleHeight`; currently this is 0 to 0\\.5 m, excluding the upper bound of 0\\.5 m\\.`h` relative to the estimated ground,`minRelZ/maxRelZ` then relative to the z of the input radar pose,`odom` the two use different reference frames\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 62,
+        "costUsd": 0.000128
+      }
+    },
+    "ac37510672947fc7b4b3079c941e7b5ceb30880f938cfeca85103bcb60dcbf98": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5712b5c86a3854fa2f6dcbd943b18a54e4c9c87057098d7c61ad6cd9d140d2c",
+      "contextFingerprint": "8d252e241810e8995a2f3915a42cc15e7b3fc8578bfc23e14882ac4946cad988",
+      "sourceText": "两项单位相同，都是 rad/s：",
+      "translatedText": "Both units are the same, both are rad/s:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "ac499f753d0e30c675b357685d24692a3cf96dfacb8e5485d8fea935577d76cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dfab64e3b25f2bf6cc4e4af66e28a2ec003e339bf6fdf130dda3b6628b5c3fd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### World Representation（世界表示）",
+      "translatedText": "### World Representation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 9,
+        "costUsd": 0.000052
+      }
+    },
+    "ac50f313c5ae146d3418d43a315c02bc3c993f5592613f0af63a52a5c3e4778a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8435dda228481ff99d4fdfba6315c2f5baeebd76319ca2cb1d49c26c7d656178",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先认识几个名字，后面看到它们就不会太突然：",
+      "translatedText": "First, let's get familiar with a few names so they won't seem too abrupt when you see them later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 30,
+        "costUsd": 0.000079
+      }
+    },
+    "ac8f5f2ba356e7d954ad076b57406ee01f54ac89fb9e5d65280f471ba7b476d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9b2c0f8fb1cb8590defa6d93ba907e2b236043a39153aafbcb07caf78eb68c6",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3. 轴距和轮距也要量“轮中心”，不是底盘外壳",
+      "translatedText": "3. For wheelbase and track width, you also measure the \"wheel centers,\" not the chassis shell\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "ac9dc2d7a96f9ed7cf283f04816eeb6f29d48047ad4222155b1c043f2ce9c3ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "a53cbfdcb2e1fe043225479e82c25e719ba4ca9e7bcefc931d2dfb00231525de",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类对象作为类成员",
+      "translatedText": "#### Class Objects as Class Members",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "aca1c8a46da2c782a9f1e326ee790614eb2f8772c82e57447f1fc4655c1eebe6": {
+      "normalizationVersion": 1,
+      "sourceHash": "7456c6c552d2407639cb764a33fdc7ec88e2fb83e753e46f256cbc8e197d5e93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在现阶段函数的占位参数存在意义不大，但是后面的课程中会用到该技术",
+      "translatedText": "At the current stage, placeholder parameters in functions have little significance, but this technique will be used in later lessons\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "ace8b7b2ff6de465d75c427ff7483ed88b524eadebf10833a9a4ed6de6473a26": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b5debbef3eda081c9a6d1ff3560b2ad19712b15e0a12869907f6a7c28b251d4",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### scanVoxelSize（点云降采样尺度）",
+      "translatedText": "###### scanVoxelSize (point cloud downsampling size)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "acf492c17882b0f0b0b6eeb2a69ad616000cccb794e64c91194161aa050c8666": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef30ab258436698c260aeb090d3767d681d9fa1ec04a3d64b9d1c515651d12a5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后咱们发",
+      "translatedText": "Then let's send it",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "acfb05200cbe57ab7ecc35cee3f812eb67711171b4ca212888529e17a8f29532": {
+      "normalizationVersion": 1,
+      "sourceHash": "db34babe4c188ea8ba08776a2edc71153dd5dcb4a8cc2ac8f807b618e5f22dc8",
+      "contextFingerprint": "9a02c2e7f016ad00a1ff4282dea807e14ad8ae99fcbd6ba99dc79be200599808",
+      "sourceText": "**运行结果（地址每次运行可能不同，以下用 `<地址>` 表示）：**",
+      "translatedText": "**Running result (the address may differ on each run; denoted below by `<地址>`):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    }
+  }
+}

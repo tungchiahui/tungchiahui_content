@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "21bb06aefaf35ec404cee9740590c8412e0f9dec93759f0f4d184b3cb67a4aaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "3334f13df2dfcdd02114b1439a31b401489ea596d04440c5f0f9c29450c5c3c0",
+      "contextFingerprint": "809d8de314ff70eb801370a07d638559fa12d27242404a7f1b71da23d12cf748",
+      "sourceText": "时钟选择由use_sim_time控制，改odom_frame、scan_topic或mode不能替代这一设置。",
+      "translatedText": "Clock selection is controlled by use_sim_time; changing odom_frame, scan_topic, or the mode cannot replace this setting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 53,
+        "costUsd": 0.000116
+      }
+    },
+    "21f89b96f7bdac60421a2f6ea8da90d5c462c2cd6f9938b9f74bd0928fed32d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "324d78c31620438f20174b61e7bc8c1d5d3fcd35d7547dc335430e5823acff13",
+      "contextFingerprint": "818cccc8f1568a04623a822bd8d507fe6c6f25b0c20776139d0ae72344ea8fa7",
+      "sourceText": "确认下frame是咱们设置的`frame_id: front_mid360`。",
+      "translatedText": "Confirm that the frame is the one we set`frame_id: front_mid360`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    }
+  }
+}

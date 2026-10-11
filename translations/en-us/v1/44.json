@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "44473257bfd8d50880261498e7d2e47b5e60fc983894522b14e0a6b93bdbdffe": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebfccfb1183a7048412930aa2513bab9d837524f6f07119e45aaed96dc841d46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果一帧预处理后已有几千个点，设置 10 或 100 都可能在同一帧满足条件。因此，增大它不一定增加初始化时间，也不能替代静止 IMU 初始化。",
+      "translatedText": "If a single preprocessed frame already contains several thousand points, setting it to 10 or 100 may both satisfy the condition within the same frame\\. Therefore, increasing it does not necessarily increase initialization time, nor can it replace static IMU initialization\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 56,
+        "costUsd": 0.000119
+      }
+    },
+    "449f830e011f16e2d43e038cd81b56b92c2f36b31c1d3f2e126fb26fc4c205b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb403d09c0b81d0e7410e74a9ca5ad1553d8069be3a8c7dfbede9a7280b3295e",
+      "contextFingerprint": "877630c7c03a35d808b41fb1c940c808723f8c9445fb38238ae4fcb00297a992",
+      "sourceText": "1.     羊继承了动物的数据，驼同样继承了动物的数据，当草泥马使用数据时，就会产生二义性。\n\n2. 草泥马继承自动物的数据继承了两份，其实我们应该清楚，这份数据我们只需要一份就可以。",
+      "translatedText": "1.     羊继承了动物的数据，驼同样继承了动物的数据，当草泥马使用数据时，就会产生二义性。\n\n2. The data that alpaca inherits from the animal is inherited twice; in fact, we should be clear that we only need one copy of this data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    }
+  }
+}

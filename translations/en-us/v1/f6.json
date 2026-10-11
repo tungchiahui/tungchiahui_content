@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f61f7c964514aed7a0abad84f339ed539cef59e3ce096f116856b8fee9320aa4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7c38025e31e38b1ea0ecd1443cbfee3b8b62f7cc627e33a883f8f0a48195393",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 配置VScode",
+      "translatedText": "## Configure VSCode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f628f75e0185b8063391ff273cdcf92ff7f536962e5a19863938c44f3c91fbb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e1806d8f486c831fb204640db958b5cd3682970b4f54e8b0215d5b4630f7294",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "至于这些角到底怎么定义，重点不是 IMU 的世界系 RPY，而是 joint 自己的坐标轴和零位。",
+      "translatedText": "As for how these angles are actually defined, the key point is not the IMU's world\\-frame RPY, but the joint's own coordinate axes and zero position\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "f64669c66dfd2adc93ae46958c12ebbd5081731d7740b2ff5827aa48475baf63": {
+      "normalizationVersion": 1,
+      "sourceHash": "c13f93481e96e99cd220aa77a538f0795179ac69de615816f2880c73464f62d0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 成员函数做友元",
+      "translatedText": "#### Member functions as friends",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f650a08e727e3b62ed47c562ae60c1ae1924268017cbdfe87ac2b3b769dd3fcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c74268c86e704c661a2aebf8657012e0b8ea3b754633b9909954da4ef1dd1b0",
+      "contextFingerprint": "a0d0e21367574e53c0cdf0592e64183fa9f7bdf0fda98be2dbf94ef0487649a8",
+      "sourceText": "![0006018857256120_b](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-0006018857256120-b-0276b13596.webp)",
+      "translatedText": "![0006018857256120_b](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-0006018857256120-b-0276b13596.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f66302cdae4fb2d30c299e53304ebafd91efa8ee044263c380acd60b25a89a00": {
+      "normalizationVersion": 1,
+      "sourceHash": "af05219c60de48ff7b852b98a9d880d2fb4a64e659d525f958ce915aca21589f",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "这篇最值得学习的是：**World Model 直接参与 Trajectory Generation / Evaluation / Selection（轨迹生成 / 评价 / 选择）**。",
+      "translatedText": "The most noteworthy aspect of this paper is:**the World Model directly participates in Trajectory Generation / Evaluation / Selection (trajectory generation / evaluation / selection)**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "f67e7b96560c847e93529a11b9ecbd464e4d83e431c7cdcc23e35944f421cad7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dbfa9e767816576caf83c047ab61ebb047a28d4d6ddbecd9a72084aa8582ef8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 成员属性设置为私有",
+      "translatedText": "#### Set member attributes to private",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f684008aee0a57d535c18a051472a68c918c7ff8e9972ec27a64dd35b57f3370": {
+      "normalizationVersion": 1,
+      "sourceHash": "3972095cd1fa714bd4bc03faffac08e2bb1a847eeceefb6553c866501f2e4b75",
+      "contextFingerprint": "ce0d4fd250afd090073b41a7ee47c9f7e62d8667f10ef6d239eccb502aff0360",
+      "sourceText": "当前1000不是车辆转速上限，也不是陀螺实际噪声的测量结果。需要与 `imu_meas_omg_cov`、角速度峰值和时间接口一起检查，不能仅凭转动时重影就认定该项要增大。",
+      "translatedText": "Currently, 1000 is not the upper limit of the vehicle speed, nor is it a measurement result of the actual gyroscope noise\\. It needs to be checked together with `imu_meas_omg_cov` and the angular velocity peak value and time interface; one cannot conclude that this item should be increased merely based on ghosting during rotation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 70,
+        "costUsd": 0.000136
+      }
+    },
+    "f69c79b8da3b5b5a48630c91dd3daac41a132be53f7355d1284592895d0b8428": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fc9c13419f43aa3538bc8c65782053b3c1764180ea2e0dc6e7571054686b589",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "您可以使用 **using namespace** 指令，这样在使用命名空间时就可以不用在前面加上命名空间的名称。这个指令会告诉编译器，后续的代码将使用指定的命名空间中的名称。",
+      "translatedText": "You can use the **using namespace** directive, so that when using a namespace you do not need to prefix it with the namespace name\\. This directive tells the compiler that subsequent code will use names from the specified namespace\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
+    "f6ced07defcb3e142827ab1c6e3c89c4824e9403d2681c96ca1e7ba9c25baff8": {
+      "normalizationVersion": 1,
+      "sourceHash": "02785f29272f639d4c5ff51477d63122a5eeba0234eadd3a9a6f6c2595b63ceb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输出类似：",
+      "translatedText": "Output similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "f6e449d19490def87be842ddd784758898bfa290117092354305834f944b7c62": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c712406070d91ad7cb5cccebf9fe1ce0e5573c593cd1be276dc86d91eebc0c4",
+      "contextFingerprint": "000b78a9cf2cba9f57fb96526af3ff310737c563938d43b0e7fc64c476984444",
+      "sourceText": "###### prop_at_freq_of_imu（按IMU时刻更新估计不确定性）",
+      "translatedText": "###### prop_at_freq_of_imu (update the estimation uncertainty at IMU timestamps)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "f6e99d074646ca7d93960aa6e2849da54085d305581938d30d2232898dbe75e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc767693083aa12bb8e10171966b55b40c565dc8b4074ead202ff4092649b286",
+      "contextFingerprint": "202d87baec0799b81d89db5f906e306284239d53d328a24f4b586fbfdaa6acb6",
+      "sourceText": "1. 你的电脑能不能编译并运行 C++ 工程。\n2. VSCode 能不能用 F5 调试这个工程。",
+      "translatedText": "1. Can your computer compile and run the C++ project?\n2. Can VSCode use F5 to debug this project?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 38,
+        "costUsd": 0.000095
+      }
+    }
+  }
+}

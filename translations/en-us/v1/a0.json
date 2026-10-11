@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a00636c367554d3f54611f5ba1906f998aa7325637222d75934aba39cf5f87c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "5855a6462be059847653aa7f2615d99eb21868bd43318865baae1b6ae6c1f4da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "0.5°在10 m处对应横向约8.7 cm，在1 m处约8.7 mm；这里只说明角度分格的几何尺度，不是定位精度，也不保证这么细的障碍都能看见。输入点云经过上游筛选与降采样，调小角增量不会增加实际回波。",
+      "translatedText": "A 0\\.5° increment corresponds to a lateral extent of about 8\\.7 cm at 10 m and about 8\\.7 mm at 1 m; this only describes the geometric scale of the angular grid, not positioning accuracy, and does not guarantee that obstacles this fine can be seen\\. The input point cloud has undergone upstream filtering and downsampling, so reducing the angular increment will not increase the actual returns\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 93,
+        "costUsd": 0.000171
+      }
+    },
+    "a03b149733a164d39cf8f33311224cc5a33226960b7d6caaef2f723c346daf0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbff61a5eaa6d1112d541dbb75ccf0d962fdb6fc1d0c8c3776c3141b5952c900",
+      "contextFingerprint": "d0324e6a1f97cf29a696e80a22791573797cb902302cad382a22b841569219e1",
+      "sourceText": "这里分开修改：include 的目录和 `.def.xmacro` 文件改为 `ysu2026_sentry_robot`，`xmacro_block` 调用的宏名也改为 `ysu2026_sentry_robot`；入口中的顶层 `<model name>` 改为 `reality_robot`。",
+      "translatedText": "Modify separately here: the included directory and the `.def.xmacro` file to `ysu2026_sentry_robot` and `xmacro_block` the macro name called also to `ysu2026_sentry_robot`; the top\\-level `<model name>` in the entry to `reality_robot`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 40,
+        "costUsd": 0.000097
+      }
+    },
+    "a040e2335c3eff0ab25aa0d8db51683a5f4f5a6ca25f16c2ce77ac311165a268": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c0dcfc8bacb83354b1c0838c4cd642a9295327588bff3df088ea402c7521add",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "3、参数表列",
+      "translatedText": "3\\. Parameter list",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a07015404bed1957d3278b2d992cc81a53f51a4d71e2181eb2b9436dfe3e8781": {
+      "normalizationVersion": 1,
+      "sourceHash": "637957f7cc1c426b6af43000e8b7739f53576a4858dd1d00110bb09a36025ace",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原来模板里还会链接：",
+      "translatedText": "So the template also links to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "a07028264e2ae05f6b30b9d176bf93415578215bc4c0034f0a16ae9b34c3f46f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fa5eb433c3f2ddfcbb0112d002d4e3b8d96997d7fd50ce7671cb9587e2767c6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如：若odom起点恰好与所描述的机器人原点重合且朝向一致，那么机器人起始地图位姿可能就是map←odom；若odom原点与云台存在高度或安装偏移，或机器人已在odom内移动，就不能直接照抄机器人位置。当前底盘、云台、雷达原点不同，需按实际参考关系计算。",
+      "translatedText": "For example: if the odom origin happens to coincide with the described robot origin and has the same orientation, then the robot's initial map pose might be map←odom; if there is a height or mounting offset between the odom origin and the gimbal, or if the robot has already moved within odom, you cannot directly copy the robot position\\. Currently the chassis, gimbal, and lidar origins are different, so the calculation must be based on the actual reference relationships\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 107,
+        "costUsd": 0.00019
+      }
+    },
+    "a09019ef3ea404f49301fadc9bcb4e2c55ea44d44c4ca4e00630c5d4106778da": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a8a19fa08396fddeafe5b9468af23ea2454734b6601a7503a02931434ba7199",
+      "contextFingerprint": "bf055fced64167d5fa9a29d19a75ae1831498a8e1dd91f1a10fa4f9f513b1774",
+      "sourceText": "这里开头的 `#ifndef` 和 `#define`，以及末尾的 `#endif`，组成了 **头文件保护宏**。同一个头文件即使被间接包含多次，其中的内容也只会参与一次编译，避免出现重复定义等问题。",
+      "translatedText": "The `#ifndef` and `#define` at the beginning, and the `#endif` at the end, form a **header guard macro**\\. Even if the same header file is included multiple times indirectly, its contents will only participate in compilation once, avoiding issues such as duplicate definitions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 57,
+        "costUsd": 0.000121
+      }
+    },
+    "a0a5df95a07e494a6df18076863aa5568156d32dd5421596bfbddd4d97b51cc3": {
+      "normalizationVersion": 1,
+      "sourceHash": "976b7a61dcb657b9fa208f24f580445c2eaec16fa95e9d4ac187731368b0c925",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**在结构体中可以定义另一个结构体作为成员，用来解决实际问题",
+      "translatedText": "\\*\\*Summary:\\*\\* A structure can contain another structure as a member to solve practical problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    }
+  }
+}

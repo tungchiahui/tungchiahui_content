@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "981bc566a481d625f58b0cca4e7a4a76214b031c5a9ebcc0c634789f558301ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff70fd93958797d81386696a67d2dd8e5939c15a121c13daea773328f385ff25",
+      "contextFingerprint": "955945c8130e7771e6b61212d7fe2756a9ed5900d8292bb68b975044a3b14062",
+      "sourceText": "但其实这个数据没啥用，北极熊并没在导航里用到roll,rpy_vel这些数据。",
+      "translatedText": "However, this data is actually useless; the polar bear did not use roll,rpy_vel or these data in navigation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
+    "9857264d605d59fb28c335e0fb621324bd7ddde409b45346f02907962f57f68c": {
+      "normalizationVersion": 1,
+      "sourceHash": "36858b339cbf97b8247f9ae430d9c85547bae6d62d55c962e2fb48c2119e11bc",
+      "contextFingerprint": "a8974ed9bbec78864b1ea771caebba83f7df03757d225e3eb0f2bc2fb7001cae",
+      "sourceText": "还有个只影响**仿真**的地方需要修改，在`src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/ysu2026_sentry_robot.def.xmacro`里面 include 的却还是北极熊公共轮子`<xmacro_includeuri=\"model://rmua19_standard_robot/chassis_wheel.def.xmacro\" />`。",
+      "translatedText": "There is also a place that only affects the**simulation**that needs to be modified; what is included in`src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/ysu2026_sentry_robot.def.xmacro`is still the polar bear public wheel`<xmacro_includeuri=\"model://rmua19_standard_robot/chassis_wheel.def.xmacro\" />`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
+    "98a03ff15eed59f76f08f47462a49174658f6a707504116db7954afb023f1ad3": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bfc5f3596609ba88097a646068acb2d23b1f32d6ad24fa2d1926c2fcd948479",
+      "contextFingerprint": "a5026fff6142cf42f08e044a10f974599cdafb56aa373339a8866f6dfcc71ee1",
+      "sourceText": "这个头文件才是真正给 `main.c` 使用的 C 接口。它里面只声明 `cpp_main(void)`，参数和返回值都是 C 能理解的类型。",
+      "translatedText": "This header file is the actual C interface intended for use by `main.c`\\. It only declares `cpp_main(void)` within it, and its parameters and return values are all types that C can understand\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 41,
+        "costUsd": 0.000097
+      }
+    },
+    "98b15fa6215228420dc8be625c49df047497452f4b51dcbd042f09fc8261e9d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5dde74098c8ff01bcd7fd042ee44d4bb44281e74eaa3921b5f2d232c731cb6f",
+      "contextFingerprint": "d0b6d05d60f7f9e94bc5c4d87d0dcbec3b75b75da08624768870adf5982a5802",
+      "sourceText": "配置成build+debug模式:",
+      "translatedText": "Configured in build+debug mode:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "98b47500a7c79c97994a2b5af3b9c9791a5bb77f9fe1af1d1939c5d4e7627e8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d634350ccc254e5f258fb608f8f1118a0965774400c614c14631426daa166acd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下一次 IMU 数据到来时，北极熊一次发布完整四项：",
+      "translatedText": "When the next IMU data arrives, Polar Bear publishes all four items at once:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "98d0145930a00599cbe1231e2c88977ff42a4fc9901c7986780cb558fd58afe1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1da6bbb525376330b00a87ad49339f840502867f3d946306d33fa7c80bb3abf1",
+      "contextFingerprint": "1502a980579810d1ad85a4778aedbb46d75f17cfeb0cc0ff4db7694a0a603879",
+      "sourceText": "把`ysu2026_sentry_robot.def.xmacro`里的`<xmacro_include uri=\"model://rmua19_standard_robot/chassis_wheel.def.xmacro\" />`改成`<xmacro_include uri=\"model://ysu2026_sentry_robot/chassis_wheel.def.xmacro\" />`。",
+      "translatedText": "Change`ysu2026_sentry_robot.def.xmacro`in`<xmacro_include uri=\"model://rmua19_standard_robot/chassis_wheel.def.xmacro\" />`to`<xmacro_include uri=\"model://ysu2026_sentry_robot/chassis_wheel.def.xmacro\" />`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "98fb9495258d373aa839ab07763a8b958ddcbec8e29fa412350ae78a2848caae": {
+      "normalizationVersion": 1,
+      "sourceHash": "7db831de37e74afee92c2ff59a00cad5c00192b2002299fbf3dd40c81baa8040",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 修改机器人参数",
+      "translatedText": "##### Modify robot parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    }
+  }
+}

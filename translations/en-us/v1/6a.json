@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "6a0d6014d3370a07da9723644648050c43b2e4670e04229b8fcfa4f249ef5344": {
+      "normalizationVersion": 1,
+      "sourceHash": "d17ebaed6c3f494abce026ba71c9e887a7603f2f3a6ca19e4d8ce874ead8f8fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，按当前默认启动接线可推断该节点采用标准默认False，仿真入口的True没有作用到这一段。仿真应与上游点云、机械TF共同使用/clock；实物通常使用False并核对驱动时间。这是根据配置与启动逻辑得出的判断，实际运行节点值及仿真效果仍待验证。",
+      "translatedText": "Therefore, based on the current default startup wiring, it can be inferred that this node uses the standard default False, and the True at the simulation entry point does not affect this section\\. Simulation should use /clock together with the upstream point cloud and mechanical TF; the physical system typically uses False and verifies the driver time\\. This is a judgment based on the configuration and startup logic; the actual running node value and simulation effect still need to be verified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 97,
+        "costUsd": 0.000176
+      }
+    },
+    "6a1e98da7b933e84a27d0d15108289800eb0a8081b58f6700025a0fda26ca160": {
+      "normalizationVersion": 1,
+      "sourceHash": "e86923e51f9b2d193ba47b7cdb24d5219a7414c4146fd5353e042f40f08d0d18",
+      "contextFingerprint": "5b1660de4dbc1a4513a508026b1956fd2f27975640efcd8ab5d6d70e478daba1",
+      "sourceText": "当前角域约为-180°～+180°，增量约0.5°，源码生成720个距离项。角度是目标系中的 `atan2(y,x)`，不是雷达垂直视场、安装倾角或云台机械yaw范围。",
+      "translatedText": "The current angular domain is approximately \\-180° to \\+180°, with an increment of about 0\\.5°, and the source code generates 720 range bins\\. The angle is in the target coordinate system, `atan2(y,x)`not the radar vertical field of view, installation tilt, or gimbal mechanical yaw range\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 69,
+        "costUsd": 0.000136
+      }
+    },
+    "6a2888c7a5a77b8c887c00aff30e87991b4c094a2d79b0a51ab2cbccadfa0f41": {
+      "normalizationVersion": 1,
+      "sourceHash": "518b577cf5398d6a946cab6387b51e66231dcaacbb714f5f22eeac9fde852b9a",
+      "contextFingerprint": "12fd486cb642c4a1d34e2319d9946b43040b6ffa45926873684218a3ed2c4dd3",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791096692226-43ee6b5b.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791096692226-43ee6b5b.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6a4b317f478e1d42bc58111da8bd82fdb861036c6f6c49633225cfa030cc0be0": {
+      "normalizationVersion": 1,
+      "sourceHash": "950794e866180902b7f89ba2a632d72c99bfb27fa3e0279dc0ad57c39622804d",
+      "contextFingerprint": "e8ac83324cb46c8fd0e7c84d2757106a52d4c0af681bd2055bd456068756b1b1",
+      "sourceText": "下面是`Point-LIO`代码：",
+      "translatedText": "Below is`Point-LIO`the code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "6a5f9fb5086dfad1d14d00a83ee3fc4e5a749a281643221ea8c8868c2860476c": {
+      "normalizationVersion": 1,
+      "sourceHash": "490ecb529bc77238b396e5fd49cfc76e94dab2c4cdc509cac67b4829b4e8f396",
+      "contextFingerprint": "15cdaf4a8b0620ae4f6bc757dfdbbd4644dd60590a59b55dee3d755ecd8f6142",
+      "sourceText": "这里的`.def`并不是 xmacro 的特殊语法，只是一种文件命名习惯。",
+      "translatedText": "Here, the`.def`is not special syntax for xmacro, but merely a file naming convention\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "6a6e6c8167e239308864767f963cbdc3e39ca4c44a50981be6d594ec733e36a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cb013c3a37268e63b85551c99047d499d39303bd236b03ffe26a2048181ca3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "请确保编译过程全局魔法",
+      "translatedText": "Please ensure the global magic of the compilation process",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "6aeaca07130e52140641dc55592a924f9bff7f968491a3183e22695786a2c562": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0383d702693197be8d845125228deacc13ab65f82672b9c57897837f6eeb4dc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编译执行后:",
+      "translatedText": "After compilation and execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "6af0172476e4b5ba25445fcbbb3ecf1fd78868503c69c7366222ebc3629ded3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "326c45c45307562130a4548813339e8a892006df83800737b8d049f1dc324714",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这两处最关键：",
+      "translatedText": "These two points are the most critical:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "6afc1213e30b10f9f16360b9ede8aef5c8cf2202f592a0d285c0bc7ab8ed2173": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffa7edbe60ac2969c2a77482f0ac32bf81c819939238ffea15bfb0bbf34fa356",
+      "contextFingerprint": "bc5fecbff256d5dddce417047147e373912e284e4934915d3a014bd008d5e6b1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image25.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image25.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

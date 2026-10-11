@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "9b05bb8ca78d6d90c14827ce6b1fce2b53463056648ed32d2293591e3de57ffa": {
+      "normalizationVersion": 1,
+      "sourceHash": "647ac84251419967e916432bccf259d6a2139accabb3d40141181112d5eda99c",
+      "contextFingerprint": "5687019a68cd5addc146d02aedad8bcda63b8f4818490bd1748b41f32b1df364",
+      "sourceText": "它管“有多相信这次转速读数”。调大减少角速度测量的影响，调小更相信它。实物转动或振动时，应同时观察读数是否干净、运动估计是否跟得上，再结合 `gyr_cov_output` 判断。当前0.1也不是厂家的精度承诺。",
+      "translatedText": "It controls \"how much to trust this rotational speed reading\"\\. Increasing it reduces the influence of angular velocity measurement; decreasing it trusts it more\\. When the physical object rotates or vibrates, you should simultaneously observe whether the reading is clean and whether the motion estimation keeps up, then combine with `gyr_cov_output` to judge\\. The current 0\\.1 is also not the manufacturer's accuracy commitment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 83,
+        "costUsd": 0.000156
+      }
+    },
+    "9b2afc47d614072fb120f2d89718cd38fe107929c2fe1b03b5f37971f61a1edd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d813946d8d80b30408b8457bc6f46b44cecd7c8409b8f6f0ed0f5e57140ee92",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "学习 C++ 并不要求先完整学完 C。对于本教程的读者，推荐直接按照 C++\n路线学习：",
+      "translatedText": "Learning C++ does not require completing the study of C first\\. For readers of this tutorial, it is recommended to directly follow the C++ learning path:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 55,
+        "costUsd": 0.000118
+      }
+    },
+    "9b4f4fe9bd95a90e92e8469573aea9491d3e81c424e778de02d3cb7378f1cb8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ef4b7e75921f33d50054c4d44149fbfe10139e849217f812e6d2d2dc9f6a61e",
+      "contextFingerprint": "9d5111037c3fbb19c7938814db6fbc353cf8d6e4a3ec173d48c2ed81ca4fb03e",
+      "sourceText": "意思是：主程序调用了 `swap` 函数，所以主程序要链接 `swap_src_lib`，否则链接器找不到 `swap` 函数的定义。",
+      "translatedText": "Meaning: the main program calls the `swap` function, so the main program must link `swap_src_lib`; otherwise, the linker cannot find the definition of the `swap` function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "9b87bf3ca79124a82ca593697df4bee8d34f2b799b0b4c83e835ea1382bc9f94": {
+      "normalizationVersion": 1,
+      "sourceHash": "89a3cd1747a26fd5eff09ac55939f1275cf96d371474de7fde72dbe4a755798d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "问题：父类和子类的构造和析构顺序是谁先谁后？",
+      "translatedText": "Question: In what order are the constructors and destructors of a parent class and a child class called?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "9b9989a426ad52d3cbd91f198c1efd34689e72ee8a51bcde3a55695d9b8c81a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "71c723b577402d2fc656c4c84f007e05cf2db375b209984524e977c9933a4d72",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个开关用旧点与最新回波做格子级候选筛选，不估计物体速度，也不创建“动态物体走过就永久禁行”的区域。候选计数每轮重建，最后只筛掉本轮仍被标记的格子输出；缓存老点的移除另由衰减等规则处理。",
+      "translatedText": "This switch uses old points and the latest echo to perform grid\\-level candidate filtering\\. It does not estimate object velocity, nor does it create areas that are permanently prohibited once a dynamic object has passed through\\. The candidate count is rebuilt each round, and only grids still marked in the current round are filtered out of the output; the removal of cached old points is handled separately by rules such as decay\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 85,
+        "costUsd": 0.00016
+      }
+    },
+    "9ba7b2ceff052a924fc4396b7693dd2f1c1fdc6db35d36f1eb07f5e65ad91dea": {
+      "normalizationVersion": 1,
+      "sourceHash": "d41ba41fe600607f6a03435bfce3f8c1d38314140e797bd8f33a1b0d4daf3e75",
+      "contextFingerprint": "eface91b9f29120b0420bcb69008031250428a9d594ee92847fa64c39eb373de",
+      "sourceText": "- `std::format`（C++20）：生成格式化后的 `std::string`，写法简洁，类型安全。\n- `std::print` / `std::println`（C++23）：直接格式化输出，`println` 会自动换行。",
+      "translatedText": "- `std::format`(C++20): Generate formatted `std::string`, concise syntax, type\\-safe\\.\n- `std::print` / `std::println`(C++23): Direct formatted output, `println` automatically wraps lines\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 54,
+        "costUsd": 0.000119
+      }
+    },
+    "9bd3f3855af5d64db1d41f6db5a989dbae0294f6ccb52b2394a68558dabe5501": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4a23bf81e73be5b662679a017dc033fd6585a1b45f22e501f7d33a7bd3c8b1e",
+      "contextFingerprint": "a2943f77a5f80d41c7ca46b01245bef3f659372b83889f01a8d6556d1d6974af",
+      "sourceText": "注意：不要写成 `#include \"inc/swap/swap.h\"`。CMake 已经把 `src/swap/inc/` 告诉编译器了，所以 include 时从 `inc/` 里面继续往后写，也就是 `swap/swap.h`。",
+      "translatedText": "Note: Do not write `#include \"inc/swap/swap.h\"`\\. CMake has already passed `src/swap/inc/` to the compiler, so when including, continue writing after `inc/`, that is, `swap/swap.h`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "9bfaf713f7b4f47095738f7b312fdb483efadc2e629404950e8ea109246f03e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "c33414f59e320ede2d71270965329d2fc80f2690aefd3e8f7ba793a23bf84382",
+      "contextFingerprint": "39c015459d9b155a25937f1dcb9abdb0acdf5abfff78352e1955501c1c6a3437",
+      "sourceText": "| **运算符** | **术语** | **示例** | **结果** |\n| ---------- | -------- | -------- | -------- |\n| ==         | 相等于   | 4 == 3   | 0        |\n| !=         | 不等于   | 4 != 3   | 1        |\n| <          | 小于     | 4 < 3    | 0        |\n| \\>         | 大于     | 4 > 3    | 1        |\n| <=         | 小于等于 | 4 <= 3   | 0        |\n| \\>=        | 大于等于 | 4 >= 1   | 1        |",
+      "translatedText": "| **Operator** | **Term** | **Example** | **Result** |\n| ---------- | -------- | -------- | -------- |\n| ==         | Equal to   | 4 == 3   | 0        |\n| \\!=         | Not equal to   | 4 \\!= 3   | 1        |\n| \\<          | Less than     | 4 \\< 3    | 0        |\n| \\\\\\>         | Greater than     | 4 \\> 3    | 1        |\n| \\<=         | Less than or equal to | 4 \\<= 3   | 0        |\n| \\\\\\>=        | Greater than or equal to | 4 \\>= 1   | 1        |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 98,
+        "costUsd": 0.000181
+      }
+    }
+  }
+}

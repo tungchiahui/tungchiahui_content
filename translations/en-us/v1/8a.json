@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8a329f291880052e88ad1e5136cf8e88f156bd2ae828af6088e3e342379205c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a31592207cd209264f6f85dfe19c519790fecd3b3e8f53462e7a3b0c24801147",
+      "contextFingerprint": "e9883a8acca2e600ca8f77d724e50c53ebe15cb4c3a81930791c34f8bdec20c3",
+      "sourceText": "当前 `limitGroundLift=False`，所以 `maxGroundLift=0.3` 不影响结果，暂不调整。最低样本本身若为低离群点，开启限制也可能将地面压低。",
+      "translatedText": "Currently `limitGroundLift=False`，therefore `maxGroundLift=0.3` does not affect the result, so no adjustment is made for now\\. If the minimum sample itself is a low outlier, enabling the limit may also push the ground lower\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 45,
+        "costUsd": 0.000102
+      }
+    },
+    "8a6113429b156e6580b1ee36b3c75ee13dc630e7d3405d61095094391911f054": {
+      "normalizationVersion": 1,
+      "sourceHash": "6067615fbe2202f79e89e448a1a72b4b1241ac6372a2bdbd954a2c9b479b8c29",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "项目里至少有两份 Mid360 配置，建议都改掉，避免以后单独启动驱动和整套 reality launch 用到不同 IP：",
+      "translatedText": "There are at least two Mid360 configurations in the project\\. It is recommended to change both to avoid using different IPs when starting the driver alone versus the full reality launch in the future:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 45,
+        "costUsd": 0.000102
+      }
+    },
+    "8a64e3763b664750e9c8ccb670bc3a9440eefabcbc09185d4738585165d2eaeb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f2c27a7eeb6e5674931683e2be7fbe8a0aeaaf294ebad01d3716e31e78f8518",
+      "contextFingerprint": "6c81fc5eafc287e925a09ebd766600f186f96fecc12ca2c3ec0e556dee5a1d27",
+      "sourceText": "* 返回值类型 ：一个函数可以返回一个值。在函数定义中\n* 函数名：给函数起个名称\n* 参数列表：使用该函数时，传入的数据\n* 函数体语句：花括号内的代码，函数内需要执行的语句\n* return表达式： 和返回值类型挂钩，函数执行完后，返回相应的数据",
+      "translatedText": "* Return type: A function can return a value\\. In the function definition,\n* Function name: give the function a name\n* Parameter list: the data passed in when using the function\n* Function body statements: the code within the curly braces, the statements that need to be executed inside the function\n* return expression: linked to the return type, after the function finishes executing, it returns the corresponding data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 86,
+        "costUsd": 0.000162
+      }
+    },
+    "8a695936230102e75fb56bc6bf5c032f3d1752c833a34443e3b2284f1a00ff02": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9f4f576c62b54005ebd9a8926b728a5abed749f9cf812a287ee2ffbb25d9d6e",
+      "contextFingerprint": "c85bb5168ec6a1bf5f189cb721c5915d3f7d0ce7b31127d9991248694eefcb3b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020884703-0f78c380.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791020884703-0f78c380.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "8a7d48df7914a16ff07a18ffcb061b9e9c01f8b5d40435ea326d9a3331526830": {
+      "normalizationVersion": 1,
+      "sourceHash": "9317167d3d3030944cd6b5b52a834006b3cf29e22e42e94226bd4ca097d4e70f",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 启动配置与源码缺口",
+      "translatedText": "###### Boot configuration and source code gaps",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "8a91758fe60134d10febacd094f16e1b9246f0d35cd5bb9ee10772ff4ee2e771": {
+      "normalizationVersion": 1,
+      "sourceHash": "d24a7b64c81ab40fd5acef111347751d960556fea13f30d39241327294c61715",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "修改为：",
+      "translatedText": "Change to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "8a9eab6609d80c33a5e1311c8a53c77b6a2c996220ea91b4b823d6b2dd060c63": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcfb2899b18669de4c782b3072266b0fdf65e3a521e2a55658d83f039b94394d",
+      "contextFingerprint": "de5e752e38f7d5e2ed8438084a40188eb54ef391d26b3f7cbd481d63365b87ea",
+      "sourceText": "这个节点把 `loam_interface` 输出的雷达位姿和配准点云近似配对，再结合机器人机械 TF，发布底盘 TF、指定机体系的里程计和雷达系扫描点云。当前底盘 TF 的子系为 `base_footprint`，`odometry` 消息的子系则为 `gimbal_yaw`，两者用途不同。",
+      "translatedText": "This node approximately pairs the radar pose output by `loam_interface` with the registered point cloud, and then combines them with the robot's mechanical TF to publish the chassis TF, the odometry in the specified frame, and the scan point cloud in the radar frame\\. Currently, the child frame of the chassis TF is `base_footprint` and the `odometry` child frame of the message is `gimbal_yaw`\\. The two serve different purposes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 84,
+        "costUsd": 0.000158
+      }
+    },
+    "8a9ec084e9635c74da82e9b4f4e043e1ea48f3e90e9251d8973faf71a7875c0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "2dd7b35efdc1e3cf466ad6b61f53149437704ee71d2c1388240ff23d288c0479",
+      "contextFingerprint": "878968ac56c05b5ff0ad6c4825398bd1a0d651b5b1b56553bbcf5205ae80b709",
+      "sourceText": "然后在rviz2里把`Fixed Frame = front_mid360`修改好。\n然后在rviz2里点`By Topic`，然后选择`/livox/lidar/pointcloud`。",
+      "translatedText": "Then in rviz2, set the`Fixed Frame = front_mid360`Make the changes\\. Then in rviz2 click`By Topic`，then select`/livox/lidar/pointcloud`。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "8af3ea1029627f1b93f36bdfd9def9aef903594c73564f2a0cebe4106fbe6bba": {
+      "normalizationVersion": 1,
+      "sourceHash": "799e4212209442dcafd7fd06551509a75cd38009ba971b7655e1acddba184e14",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 空指针和野指针",
+      "translatedText": "### Null pointers and wild pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    }
+  }
+}

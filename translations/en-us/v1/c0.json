@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c00b153571bb527af10f0e9c07e41082a8357e411299b49652e62ddf296da67c": {
+      "normalizationVersion": 1,
+      "sourceHash": "823d5151d821f4e9dad8e7c8a81a72a45f603c0172b17c44414b7b10bc1af558",
+      "contextFingerprint": "d002acf31f2843b8f4757439c77ee7d0efdbbe11205ba07ad715976f0dfbaad9",
+      "sourceText": "将复制后的 `src/robot_description/resource/xmacro/pb2025_sentry_robot.sdf.xmacro` 重命名为 `reality_robot.sdf.xmacro`，保留 `simulation_robot.sdf.xmacro`，删掉本包中不再使用的 `pb2025_infantry_robot.sdf.xmacro`。上游 `pb2025_robot_description` 包保留作为参考。",
+      "translatedText": "Rename the copied `src/robot_description/resource/xmacro/pb2025_sentry_robot.sdf.xmacro` to `reality_robot.sdf.xmacro`\\. Keep `simulation_robot.sdf.xmacro` and delete the `pb2025_infantry_robot.sdf.xmacro` that is no longer used in this package\\. The upstream `pb2025_robot_description` package is kept for reference\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
+    "c021c1010208c5939d9df12b699ed8155c5f24a8efdb757439786205e987a375": {
+      "normalizationVersion": 1,
+      "sourceHash": "8abae8ee3123e846c69f808e12cc2f20cba5b4606976977c3498455c6bda846c",
+      "contextFingerprint": "582f7afdfdfccc2a7d509b336007714d036717da87b5bb49197bc21659f38053",
+      "sourceText": "> **整型结论**：==short < int <= long <= long long==",
+      "translatedText": "> **Integer conclusions**：==short \\< int \\<= long \\<= long long==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "c049b49ddc22206621e1e5c8203daab354fbe58da7036caedf76ffbb2987c928": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0be0751946340af406de04fa44c8022aab8d905909af9417b00da14762ccbfb",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 静态多态的函数地址早绑定  -  编译阶段确定函数地址\n* 动态多态的函数地址晚绑定  -  运行阶段确定函数地址",
+      "translatedText": "* The function address of static polymorphism is bound early \\- the function address is determined at the compilation stage\n* The function address of dynamic polymorphism is bound late \\- the function address is determined at the runtime stage",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "c049f5bddee9712ad26802f81542e84217fe8402f3345596bb630806dd21bd63": {
+      "normalizationVersion": 1,
+      "sourceHash": "77da616dd954b535bbecb02382ba2621df9aaad60ae047ae0c256abf9578e363",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果表达式1的值为假，执行表达式3，并返回表达式3的结果。",
+      "translatedText": "If the value of expression 1 is false, execute expression 3 and return the result of expression 3\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "c059865ea11981c20b8839af8c602dfb0a3e416aecde8b9db7f37902a51ad343": {
+      "normalizationVersion": 1,
+      "sourceHash": "49536cfc4236fe358a7e3583cd4541b2d9519d6d7dd2ab0727a5b9d2547482c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其他配置：",
+      "translatedText": "Other configurations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c06201b42e09f71e1e847b8cbb2487d053ad0db349901d319cad2590ad09ed20": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d6b3e753adb11c06d7c6093872931d90af153aa595c550fd1b19f1d12b99044",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### SLAM（建图）",
+      "translatedText": "### SLAM (mapping)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "c0762c7dae9a576382ef26543b1a5563ec8976346819e3ab055732770105de54": {
+      "normalizationVersion": 1,
+      "sourceHash": "803159be0b8e7bee71bc23e3d4b9e4901f5de5c0f82bcb6f835fd8e91ed28f94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当：",
+      "translatedText": "When:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c09010dad67c6817ec279fc78cf8763973434960232e177182fd8fa3a93894fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9e46487c09a99dfb9da3fc154a3fb42992511181ff89756697860771c0987c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就丢弃该点。因此 blind=0.5 表示排除距离雷达点云坐标原点不足0.5 m的点，范围是一个球形区域。",
+      "translatedText": "discard that point\\. Therefore, blind=0\\.5 means excluding points less than 0\\.5 m from the origin of the radar point cloud coordinate system; the region is a spherical volume\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "c0ef2d2e783f72484f53f5f81cec28f1bb4302380c13e4d26b2d6c623ed9ccd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "85daf8ff90a2a127cbc8940d40be526a17b15e3b387fc9b2c6f308a9215d837b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 继承",
+      "translatedText": "### Inheritance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 10,
+        "costUsd": 0.000051
+      }
+    }
+  }
+}

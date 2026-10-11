@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1c0268e1efd9c686639eb87cfd5acaaeac89e3010185beddcb61357faced52bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d50de0b037795406fda486c03f0cc7fea5530fc982ef74fb3cc89763c1f1acd",
+      "contextFingerprint": "968f7f42f19f1eed77470fe28f726297a11e5f4934801193a65484c57e96496e",
+      "sourceText": "整机安装角属于机器人 TF，内部轴向对应属于 `extrinsic_R`。旋转矩阵要由明确的坐标关系给出，不能逐个数字随意调大或调小。",
+      "translatedText": "The overall installation angle belongs to the robot TF, and the internal axial correspondence belongs to `extrinsic_R`\\. The rotation matrix must be given by an explicit coordinate relationship; individual numbers must not be arbitrarily increased or decreased\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
+    "1c18c3b7a3b22d17004bab15ca34a81071a17093979827b3fa6c0b86aea6cc77": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9f13a9695d755bb20def6692e1cc7c27e52fa744a3da419a012cf18589e4c26",
+      "contextFingerprint": "a479ac787cc40831c1cb0743b4c7d7d4c6417eafe8b04aa3d827bbeaa11823ec",
+      "sourceText": "###### solver_plugin（选择二维轨迹优化后端）",
+      "translatedText": "###### solver_plugin (Select 2D trajectory optimization backend)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "1c26334ebbc3e15d513878f10a930cc5c7b364b536438a45ff6d82bbb5af57cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea999132717ad402596cf508ad70d6f5917b292bad6ee8dd8dd0ddee24ccb47c",
+      "contextFingerprint": "d78e62571a45e8846464be37214a98bbd9561a4f095a9631b491a05f401123b7",
+      "sourceText": "###### acc_cov_output（加速度估计的变化不确定性）",
+      "translatedText": "###### acc_cov_output (uncertainty in the variation of the acceleration estimate)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "1c281bbc98608f4afb8c80f07e4caec69b835fd94993940c43e3795f5076108b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd78dcfe148ae38ca4b9aae535b0b8a7e337a4e93f1a190ae3093f95233397d1",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. 子类对象可以直接访问到子类中同名成员\n2. 子类对象加作用域可以访问到父类同名成员\n3. 当子类与父类拥有同名的成员函数，子类会隐藏父类中同名成员函数，加作用域可以访问到父类中同名函数",
+      "translatedText": "1. A subclass object can directly access the member with the same name in the subclass\\.\n2. A subclass object with scope resolution can access the member with the same name in the parent class\\.\n3. When a subclass and parent class have member functions with the same name, the subclass hides the member function with the same name in the parent class, and scope resolution can access the function with the same name in the parent class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 88,
+        "costUsd": 0.000163
+      }
+    },
+    "1c3ce145b17437313d9ffac1a78662c8ddcbaa746c611242a711ecfbe19bf3e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b30253317a08ad80057cc9b0aaac6a8b1dc8cf40e0d0ecfbc9723a5656407fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“零偏”就是传感器读数中持续存在的一点偏差。它允许算法估计的加速度零偏多快变化：调大变化更容易，调小更稳定但适应漂移较慢。过大时可能把真实运动解释成偏差，当前先保持0.0001。",
+      "translatedText": "\"Zero bias\" is a persistent small offset in the sensor readings\\. It controls how quickly the algorithm's estimated acceleration zero bias can change: a larger value makes changes easier, while a smaller value is more stable but adapts to drift more slowly\\. If it is too large, real motion may be interpreted as bias\\. For now, keep it at 0\\.0001\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 82,
+        "costUsd": 0.000155
+      }
+    },
+    "1c3f5b9c11d193dbc2cf7a804e076d176754fa59d2aeb345f4d433e5c4d06e46": {
+      "normalizationVersion": 1,
+      "sourceHash": "747428a0f9c914624b1fc96772b68016095c18bef958f5e3e5bb2443d12180bb",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "原论文使用 Isaac Sim Nova Carter 数据，包含 Random Action Dataset 和 Nav2 Teacher Dataset，并提供 checkpoint、dataset、ONNX / TensorRT / ROS2 部署链。",
+      "translatedText": "The original paper uses Isaac Sim Nova Carter data, including the Random Action Dataset and the Nav2 Teacher Dataset, and provides a deployment chain for checkpoints, datasets, ONNX / TensorRT / ROS2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 56,
+        "costUsd": 0.00012
+      }
+    },
+    "1c4b3a30f04882adcb75e966aed3d60bfc1485138daccaf5a6c3a4a518819cc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a687b7abf55f31c266f08a78010a9c26613eba00be188c405187ee775e61f3a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "方法二：测量法",
+      "translatedText": "Method 2: Measurement method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "1c8df1a703840a0de2ed5a695f0925c696a5fc13eca42db035d6a2d0dc747378": {
+      "normalizationVersion": 1,
+      "sourceHash": "df124813edbfadb93c5e23f73062ccf280c8cb3345a87257f4e7750c8e5939d7",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2. 轮径",
+      "translatedText": "2. Wheel diameter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "1c996127c9ef664638244e65369f02d23c600a6a08bc79aa6a333a2e1f1e22b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "32dc5d862dfcdcb371140927d44d7907e738875e296d2b53cbf06fa21bafe922",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**两种格式**",
+      "translatedText": "**Two formats**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "1cba5375d65b74638d6a040c2f3b60081436bd98552779b2625ba52d6cde5a7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "84435e9a1744a24d848b0c1122e1e65a65e5bfc410c2ade8a0bc8f1ff0792ed2",
+      "contextFingerprint": "c312d5f1ae908c0438e8984940fbb5bf670812f5ad214c0636b8cab4e5a825f0",
+      "sourceText": "###### extrinsic_est_en（在线估计雷达与IMU外参）",
+      "translatedText": "###### extrinsic_est_en (Online Estimation of Radar and IMU Extrinsics)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "1cf79bccdf08edd7a2d833d6503f6e126ea15be2a8d64d95a1048f883162c91f": {
+      "normalizationVersion": 1,
+      "sourceHash": "421056d351c5657bfdc3e0caf70be7f22370d012f4d09043c44801f84df8f72a",
+      "contextFingerprint": "2f414fa1e647e66937cc997edb8d8d1879600fb0df998b4bcfdd14e1b316c02f",
+      "sourceText": "平面运动时，云台和底盘仅水平朝向不同，z轴方向相同；绕 z 的角速度分量不因水平 yaw 换轴而改变，所以源码只旋转 `vx、vy`，对 `wz` 直接相加。此处没有求导云台 yaw，也没有把云台相对转速作为底盘转速输入。底盘整体转向与 `gimbal_yaw_joint` 的机械相对转动必须分开理解，不能根据话题参考系名称混为同一个动作。",
+      "translatedText": "In planar motion, the gimbal and chassis differ only in horizontal orientation, with the same z\\-axis direction; the angular velocity component about z does not change due to horizontal yaw axis switching, so the source code only rotates `vx、vy` and directly adds `wz`\\. Here, the gimbal yaw is not differentiated, nor is the gimbal relative rotation speed used as the chassis rotation speed input\\. The overall chassis steering and the mechanical relative rotation of `gimbal_yaw_joint` must be understood separately and cannot be conflated into the same action based on topic reference frame names\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 118,
+        "costUsd": 0.000209
+      }
+    }
+  }
+}

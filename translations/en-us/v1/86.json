@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8620f6a112d108d0c1a47993c497ed21b41883d1ab642dae09b8eefa3fabd6e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "4da684ebbbcde4891fff27d34274482d2cebaa4515f7614b1f18a8ec63062e11",
+      "contextFingerprint": "b7d93261fcfb9e18fcaa6f5d9e969ff22c5a5eb507be70c6a8dc97af0e9f0779",
+      "sourceText": "`min_intensity=0.1` 把10 cm作为进入二维障碍轮廓的高差下限，不是说车辆能跨10 cm台阶。降低它可能看见更低障碍，也可能把正常地面或坡面误差画进地图；提高它会减少小高差轮廓，却可能漏掉对实车危险的低障碍。远场地形高差取绝对值，坡面较低一侧也可能过门槛；近场目前忽略负高差，4 m交接处的差异仍会传入扫描。",
+      "translatedText": "`min_intensity=0.1`Using 10 cm as the lower limit for height difference when entering a two\\-dimensional obstacle contour does not mean that the vehicle can climb over a 10 cm step\\. Lowering it may reveal lower obstacles, but may also map normal ground or slope errors into the map; raising it will reduce contours with small height differences, but may miss low obstacles that are dangerous to the real vehicle\\. For far\\-field terrain, the absolute value of the height difference is taken, so the lower side of a slope may also cross the threshold; the near field currently ignores negative height differences, and the difference at the 4 m handover will still propagate into the scan\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 137,
+        "costUsd": 0.000231
+      }
+    },
+    "8632a054651b93f4e4c111b7f3d630c30e775ae9b7a7fee6fa3a113c6792bb37": {
+      "normalizationVersion": 1,
+      "sourceHash": "66eaa93c5768625c0a1620421519dd402b7d42abf47ab907eedcd2e0fd366969",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写入：",
+      "translatedText": "Write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "8679eb6db4f5f7d41e14a1e87415fd8f83aee27887a6a2d91a40ee4c07d75027": {
+      "normalizationVersion": 1,
+      "sourceHash": "39b389185b53aeabe3199f9c6edf2328796257ebcc6a475a1e72f7218b437f37",
+      "contextFingerprint": "c22a749adc86f1f8471f798ca6adaf0e4f6a606643f560798a085b0e04869e9d",
+      "sourceText": "False 时关闭当前配准扫描及依赖它的 body 点云输出，内部估计和建图仍继续。原注释“关闭全部点云输出”不完全准确：初始化的 Laser_map 仍可发布。另外，本地 PCD 保存所需的点云累计也放在这个分支内，后续启用保存时应保持 True。",
+      "translatedText": "When False, the current registration scan and the body point cloud output that depends on it are disabled; internal estimation and mapping continue\\. The original comment \"disable all point cloud output\" is not entirely accurate: the initialized Laser_map can still be published\\. In addition, the point cloud accumulation required for local PCD saving is also placed in this branch; when saving is subsequently enabled, it should be kept True\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 96,
+        "costUsd": 0.000178
+      }
+    },
+    "8684e898284b5be9f7ff798e094ee22045e629e8473a6f290066c5c7783cdcfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "8628a30168e7ff478ce253731627167c538520ecc8328c4eb2195a5d6fc68d07",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Fedora",
+      "translatedText": "### Fedora",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "86a847dcdd03b6728ec89106b20f9f3855069ae87d773971a91ba88439a7c644": {
+      "normalizationVersion": 1,
+      "sourceHash": "295da30f0dd44dc3d03b0aba95c4f5fab0a70b3d9d7b1295bf794f8ead897e29",
+      "contextFingerprint": "2e6da9bc35dc14fa34744b9286a2c5081b9ea900b08c5a01870480b013eff9db",
+      "sourceText": "当前建图launch提供单位变换的静态map→odom，并配置transform_publish_period=0，slam_toolbox不发布这条动态TF。这里只说明坐标来源；已有地图导航由small_gicp提供定位关系，和建图入口不同。续建旧图若从不同位置或朝向重新启动，旧map与新odom未必重合，需一起核对启动链，不能只取消map_file_name的注释。",
+      "translatedText": "The current mapping launch provides a static map→odom transform for the unit transform, and configures transform_publish_period=0, slam_toolbox does not publish this dynamic TF\\. This only explains the source of the coordinates; existing map navigation is provided by small_gicp for the localization relationship, which differs from the mapping entry point\\. If continuing to build on an old map by restarting from a different position or orientation, the old map and the new odom may not coincide; the startup chain must be checked together, and simply uncommenting map_file_name is not enough\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 248,
+        "outputTokens": 151,
+        "costUsd": 0.000256
+      }
+    },
+    "86a910ad12d17f9814b15e10969a45afca35ec6335a95d9475defe354f7e764c": {
+      "normalizationVersion": 1,
+      "sourceHash": "24d9e9c519fad020b3d34049c3ac58707be4ee87465d443baadbc36bf84f691b",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5. 条件",
+      "translatedText": "5. Condition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "86aab09bee6961f358cb57de390c72d8ea3459cbe43dc538ba0e261ebaf85d0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "242f16f46c10aba587cf1cc99ae5c7e96bfb91f14e6c9c2d0f3e3c77b8240dd6",
+      "contextFingerprint": "631d7dc3a4734b1bae5979f0149d52bb106f5f7f4247e09c155e33e3a01156d9",
+      "sourceText": "当前跟踪控制器把路径转到局部代价地图的机体系；该系配置为 `gimbal_yaw_fake`，据此计算 x、y速度。跟踪输出经 `cmd_vel_controller → velocity_smoother → cmd_vel_nav2_result`，再进入本节点；导航行为也可输出到 `cmd_vel_nav2_result`。",
+      "translatedText": "The current tracking controller transforms the path into the body frame of the local costmap; this frame is configured as `gimbal_yaw_fake` to calculate the x and y velocities accordingly\\. The tracking output passes through `cmd_vel_controller → velocity_smoother → cmd_vel_nav2_result` and then enters this node; navigation behaviors can also output to `cmd_vel_nav2_result`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 58,
+        "costUsd": 0.000122
+      }
+    },
+    "86b367cf813a6f3f7b51de7665ee8687568836b422e251ab35dba4bf3441c267": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd8c81ab3381eb50db8c929a89f4716dd6afd0b5f18a04a864a3ca4d68d01b7f",
+      "contextFingerprint": "865ddec6995b58024784143b3bf54c4cadea2a9cc197b5ef8e92c38c5e644678",
+      "sourceText": "**int scanf(const char \\*format, ...)** 函数从标准输入流 **stdin** 读取输入，并根据提供的 **format** 来浏览输入。",
+      "translatedText": "**int scanf(const char \\\\\\*format, \\.\\.\\.)** The function reads input from the standard input stream **stdin** and scans the input according to the provided **format**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 42,
+        "costUsd": 0.0001
+      }
+    },
+    "86e8bc585789d5b65447dffe83e2584a1fc8273bd0f795450dc3e851cfaaaa73": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5e53a99a0c9ab6d410fd20505c403ab32b109abf05dc081b3b6fb2a3d0e236c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### World Model Output（世界模型输出）",
+      "translatedText": "### World Model Output",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 10,
+        "costUsd": 0.000054
+      }
+    },
+    "86f7539145f973ca3ba22b1183d008720b716f7a83f286f13a7262f2c275a22a": {
+      "normalizationVersion": 1,
+      "sourceHash": "23f02f1f92ff8c3c365fef018e5ef5ce17506a33ce3becfaf1cec5e0ed3310d8",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "ASCII 码大致由以下**两部分组**成：",
+      "translatedText": "The ASCII code is roughly composed of the following**two parts**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "86f7c3cb9e9e141809ee4af2b6ce17c1f525cff5c2718d062e91168dcce324e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc98256bba8c0d746413ae1bc905a7eaec3f06e97872e863dcfece5d9b75f148",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开启后，达到同样的初始化门槛时，代码改为读取 PCD，并把其中的点加入地图搜索结构。",
+      "translatedText": "When enabled, upon reaching the same initialization threshold, the code switches to reading the PCD and adds its points into the map search structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    }
+  }
+}

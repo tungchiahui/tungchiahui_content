@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a55719e0d237514ec1b8f9528551760be5343f64ca2228a153214c0848eec287": {
+      "normalizationVersion": 1,
+      "sourceHash": "25f2c1c88fc69aaba80aa2dcf41b1c7fa4008688ebb98f8fd51a176313d785be",
+      "contextFingerprint": "939de7a5a554ca9a03bd6dbdbbde0f18031634b8f70648526ccc734f750c7675",
+      "sourceText": "当前通过这项结果广播 `odom → base_footprint`。当底盘静止、只有实际 yaw 转动时，正确的雷达位姿和机械相对 yaw 应能互相抵消，得到基本不动的底盘位姿；这是待验证的转换目标，本轮未进行该项测试。",
+      "translatedText": "Currently broadcast through this result `odom → base_footprint`\\. When the chassis is stationary and only the actual yaw rotation occurs, the correct radar pose and the mechanical relative yaw should cancel each other out, resulting in a chassis pose that remains essentially stationary; this is the transformation target to be verified, and this test was not conducted in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 72,
+        "costUsd": 0.000142
+      }
+    },
+    "a56565e5668dc2f253c30bbff9ef4c9ba080ec1b5049b122ab4b84cd838d09e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a62ffcdd57de61512243c820de54407b808e375d530ea95133fc6cb2d7a9bc87",
+      "contextFingerprint": "203bf0c91a4c125f687973ef7e387e752d5356372be2ea414326cb1598df524f",
+      "sourceText": "取位姿时只保留x、y和yaw。位置以m表达，yaw以rad表达；上坡时的高度、roll和pitch没有进入二维建图位姿。[二维位姿读取实现（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/include/slam_toolbox/get_pose_helper.hpp)",
+      "translatedText": "When obtaining the pose, only x, y, and yaw are retained\\. Position is expressed in m, and yaw is expressed in rad; the altitude, roll, and pitch when going uphill do not enter the 2D mapping pose\\.[2D pose reading implementation (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/include/slam_toolbox/get_pose_helper.hpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 70,
+        "costUsd": 0.000139
+      }
+    },
+    "a581a902ff4f9834fa2aaf57784d4aa402556caf06272700590d55ec14321bd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6e601802a23319779004e0102248faefdd82dee17aedea71bd26d5ebcfe500a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多态的优点：",
+      "translatedText": "Advantages of polymorphism:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a5a431cf2d314d099a6e073ea888bbacafe7f2f91dfb15d7b272d0558c4bf971": {
+      "normalizationVersion": 1,
+      "sourceHash": "92ea05feb2641e44d6137979885dcf5f377aa786cb32ed8318b98ec0638a19a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**案例描述：**封装一个函数，利用冒泡排序，实现对整型数组的升序排序",
+      "translatedText": "\\*\\*Case Description:\\*\\* Encapsulate a function that uses bubble sort to sort an integer array in ascending order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
+    "a5a86987a5f33ea345c684a7dc43dab95f6b982f5df727dc89782dcf9b26d63a": {
+      "normalizationVersion": 1,
+      "sourceHash": "0941bc8e8675f9a2de68c085c74c9e97eef90db4b927b2ce332ba60ef68996c2",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结2：对二维数组名进行sizeof时，可以获取整个二维数组占用的内存空间大小",
+      "translatedText": "> Summary 2: When applying sizeof to the name of a two\\-dimensional array, you can obtain the size of the memory occupied by the entire two\\-dimensional array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 38,
+        "costUsd": 0.000091
+      }
+    },
+    "a5cd024087ecfc6a7cc47a0a956416408aed66b5ab840ae2739fe108aaa1f15f": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f07530ad41b286b4f907ed4102107fd8e88f58f22dc0f508086971342a1733e",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**参考答案：**",
+      "translatedText": "**Reference answer:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a5f413c4bb2c9db29f3340c838f686817a51655c00a5173cb30ed07bf529a166": {
+      "normalizationVersion": 1,
+      "sourceHash": "eda2dc056e253e686f85ca46cc644f44ae8ae1a595c9b2d594a19b9a9f4ec139",
+      "contextFingerprint": "a91aa5008a70e2f97624de2d9c0b78c8aabb8186e9d191770b190be8b962bcad",
+      "sourceText": "4. ${} 表达式",
+      "translatedText": "4. \\$\\{\\} expression",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a5fcf70549c0ac8d99e2ec1d1de5f0bc07b8565d5b94ccf4cc9124b42f2380d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "16338d9728cca01820cf93f32acb1d61f10a7207039f41215f0c9de9a86a0268",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见输出：Action、Action Sequence、Trajectory、Velocity Command。",
+      "translatedText": "Common outputs: Action, Action Sequence, Trajectory, Velocity Command\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    }
+  }
+}

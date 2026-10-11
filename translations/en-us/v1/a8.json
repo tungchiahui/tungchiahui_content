@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a8063dd743c6392aa38dc94cc35fd446ec4be7fe5c0f4bd9a9df7a771d265323": {
+      "normalizationVersion": 1,
+      "sourceHash": "5543ef737cc4d447b839691e8ceffd899d84d80c7b1aca801a073ca95f33c8c9",
+      "contextFingerprint": "8b2ace023064faccfc0218c8a4576a73b45484408b7a26e734a9f1f0b16c53c4",
+      "sourceText": "假设底盘朝 `odom` 的 +x，云台原本也朝前；现在只有云台向左转90°。导航仍要求沿 `odom` 的 +x，以0.3 m/s移动，自旋为0：",
+      "translatedText": "Assume the chassis faces \\+x of `odom` and the gimbal originally also faces forward; now only the gimbal rotates 90° to the left\\. Navigation still requires moving along \\+x of `odom` with a speed of 0\\.3 m/s and a spin of 0:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 73,
+        "costUsd": 0.000144
+      }
+    },
+    "a80fd2537b9a6253583d53403ffa34d934af0ccc1840e8d78c86d9a12d3c12d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6fd3a472b3e30b4c41d1551df1eaceca7281284e1a5f87fe9cf74eac07e4ccf",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 函数的声明",
+      "translatedText": "### Function declaration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "a823ba29f50e43ac2bd01e7f22b4a97198b7340aee248595d2954e45ccf24b51": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdd2dd64c6bbee792d1f479c15a15df618f226a58e3714d22b1b1b2ed9905901",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 当前建图方式与配置来源",
+      "translatedText": "#### Current mapping method and configuration source",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "a83f59a981a754e3c387d1f83663563ed34eed4669f1880af1db42a48f0ba9f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2b505b3cadecda1b7232ecf00693058cb81025410d597d32ff34d88cfe32bac",
+      "contextFingerprint": "1172b138899973edb03670f226e28ed8d75ee7bc8897046e2ff2e7560bfe0caa",
+      "sourceText": "它与终端中的`code`命令走同一个启动入口。",
+      "translatedText": "It uses the same startup entry point as the`code`command in the terminal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "a894f6ee038ce7ee03758d3c8639350b1a59aeef6f675164284d75ea726bec34": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f71db224f59dcf052d965982e5226d400584eba28211e4ef53b38e330f155ec",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 案例2",
+      "translatedText": "#### Case 2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a898132e80c34242c902444d27bfdf30fb9a8399973beb140aa31ebfaa294b83": {
+      "normalizationVersion": 1,
+      "sourceHash": "f17c65abdb5b6658c0f49f3b79328560b41a8313ca04cf906ce0795ae0ad7b71",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### const修饰成员函数",
+      "translatedText": "#### const\\-modified member function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    }
+  }
+}

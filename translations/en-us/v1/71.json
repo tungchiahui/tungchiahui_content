@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "7186675b89b21cc4fac3144209168882e954ac3711335ef960d43959af99cdb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f76a76004323fbd14dd83b997dc50c8eaec3b6d3961e96fd163668423288a6c",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "结论：C++推荐用引用技术，因为语法方便，引用本质是指针常量，但是所有的指针操作编译器都帮我们做了",
+      "translatedText": "Conclusion: C++ It is recommended to use reference techniques because the syntax is convenient; a reference is essentially a pointer constant, but the compiler handles all pointer operations for us\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
+    "719b90b505a16ebd20a1cf04a31b73a7ee7a1ff4aa90c2b9b3ef73757e18f0f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3182c1234d1083b169265f9b24b7397629d4306cc8cd4aa4c5c808c79ce4cefe",
+      "contextFingerprint": "071dc18efb7f5a5d20bb986ec8807a278669a7c15e5451a83c54c92c1a9b884f",
+      "sourceText": "###### map_start_pose（在旧地图中的二维起点，当前未启用）",
+      "translatedText": "###### map_start_pose (2D starting point in the old map, currently disabled)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "71bab89c6df1cd6814aa1884bf36d72dff5d2651ef4e6a676b17e8f8a8168456": {
+      "normalizationVersion": 1,
+      "sourceHash": "4088de1a14590bae36608852c2aa6cd0e9dad29a35288828599fb066696c8abe",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Renderer（渲染器）",
+      "translatedText": "### Renderer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 8,
+        "costUsd": 0.00005
+      }
+    },
+    "71f19da473a5c851fad087bfb060e90a58cc9f1bf3ba2191c21f134b529b04fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f931321beb0b829f19eb44efa0162de744f0ad4577ea2e6d9ce02448d0a91c46",
+      "contextFingerprint": "74656cb5aa65655f23303410bd65039e6e7ab79a71a3627bf7d5eb29f508d170",
+      "sourceText": "| 位置 | 作用 |\n|:---|:---|\n| `src/main.cpp` | 程序入口，运行时从这里开始 |\n| `src/lib1/` | 第一个示例小库 |\n| `src/lib2/` | 第二个示例小库 |\n| `CMakeLists.txt` | 告诉 CMake 这个工程怎么构建 |",
+      "translatedText": "| Location | Purpose |\n|:---|:---|\n| `src/main.cpp` | Program entry point; runtime starts here |\n| `src/lib1/` | First example mini\\-library |\n| `src/lib2/` | Second example mini\\-library |\n| `CMakeLists.txt` | Tells CMake how to build this project |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    }
+  }
+}

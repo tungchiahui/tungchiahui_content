@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "3809265fb84711bd93b1624139634996336fa753230230ba69a99df25759a13e": {
+      "normalizationVersion": 1,
+      "sourceHash": "098645d5042a4a81d384b75c9ba2f3f400c2218852e152ef59882b7f3700b3e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "1．默认构造函数(无参，函数体为空)",
+      "translatedText": "1\\. Default constructor (no parameters, empty function body)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "3809cae7141af8ca9b7cb3b2430403049a081f4fb9ba8aecff7c527a619c76d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb5250a55b20238b6dd20708dbc3cca03c4f53ee287e5bcbfdc1ea3428c0d288",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 逻辑==或==运算符总结： ==同假为假，其余为真==",
+      "translatedText": "> Logical ==OR== operator summary: ==false only when both are false; true otherwise==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "380f3c31ac1d1acfaf47eb4f5e1b62af2175eac160673229f47ddb7467eb5b51": {
+      "normalizationVersion": 1,
+      "sourceHash": "58e9aeab9defd47eb45ef4ce2029f2435fad87729f609f0d3b6847643bfa149f",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 功能包",
+      "translatedText": "## Feature Package",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "3811f83cb405734f50895674fcc1772c37c10605c97577512e1171d4a83b399c": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cbfdd9a80282616fa9165b4b4339fce4b8dbabfa7a8f6b8d26d082d94517d8b",
+      "contextFingerprint": "4e7ac2c6be9739ea7d1643f64194c6e71209b1d50c8cb1f2a1494bda3bf54d53",
+      "sourceText": "###### tf_send_en（Point-LIO位姿TF发布）",
+      "translatedText": "###### tf_send_en (Point-LIO pose TF publishing)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "384c607cb02664a6f2883ff921137a283cb9e47d8930902a39b5e0b44bc99cc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e67a3edd55dd4b054b42e46e7aa02968ca8680e47a1375cfa94b70b91d0a32a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "噪声参数的单位按本地运动方程及协方差公式推导；它们不都等同于传感器手册中的噪声密度。",
+      "translatedText": "The units of the noise parameters are derived according to the local equations of motion and covariance formulas; they are not all equivalent to the noise densities in the sensor datasheets\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 40,
+        "costUsd": 0.000094
+      }
+    },
+    "384f47fef2646f177f410a79314ddaf2c263864b15c42aef0610241e4896da81": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3478f4ec350e3399c03e704538b49f41bae52fff4e65354f2b02c6c185305b5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### main函数参数",
+      "translatedText": "### main function parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "384fa389de99eccbd242bcefe3c06f4a8c6630d7d1b285137b7ebb0783301734": {
+      "normalizationVersion": 1,
+      "sourceHash": "d44c72dc7d430f409afce95be01045466553c8d5155b7dfa4e2cab739508ac50",
+      "contextFingerprint": "58654349944197f346a152e10eb3741a45d21494e7091db7108f3ba8a8bce81f",
+      "sourceText": "**实际云台系是随 yaw 转动的普通机体系，不是世界坐标系。** 云台朝前时，其 `vx>0` 朝车前；云台向左转90°，同样的正 `vx` 方向就转到车左侧。底盘朝向不变，也不妨碍用另一套轴描述它的运动。",
+      "translatedText": "**The actual gimbal frame is an ordinary body frame that rotates with yaw, not a world coordinate frame\\.** When the gimbal faces forward, its `vx>0` points toward the front of the vehicle; when the gimbal turns 90° to the left, the same positive `vx` direction rotates to the left side of the vehicle\\. The chassis orientation remains unchanged, and this does not prevent using another set of axes to describe its motion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 96,
+        "costUsd": 0.000173
+      }
+    },
+    "3863fe02732ebcf6ab080411dea2eb29ac815b8838534d082ee13634e366c49a": {
+      "normalizationVersion": 1,
+      "sourceHash": "0109b587a6d23da935f0bffdf6cd5d459ba7bed31b3010092b6ea746f5847979",
+      "contextFingerprint": "355fab433d0a3b3297cac38d482b07bd89d7a0197a5ac5585def1027e7d20bd0",
+      "sourceText": "预条件器是帮助某些“反复逼近答案”的线性算法更快求解的辅助方式。当前采用直接求解，因此SCHUR_JACOBI不会参与这一计算；日志显示已读取，也不等于有实际加速。",
+      "translatedText": "A preconditioner is an auxiliary method that helps certain linear algorithms that \"repeatedly approach the answer\" solve faster\\. Currently, a direct solve is used, so SCHUR_JACOBI does not participate in this computation; the log showing it was read does not mean there is an actual speedup\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 72,
+        "costUsd": 0.000141
+      }
+    },
+    "38d0e94b72bdf74611268927e35ff84183a66d9e204dd65a74fcf500c1f5b2ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1470ddde2a37ef67065a68d2674f660439c9344196abd97643da6b1a915d0be",
+      "contextFingerprint": "140eab90bcec6bf9a4dd8c9a866446d44861799d59484c768435008ed4aa6ab0",
+      "sourceText": "当前是LM，因此改ceres_dogleg_type不会改变当前结果。这里的“步长”指计算中的位姿修正量，不是车辆每次走多远、底盘速度或坡度限制。",
+      "translatedText": "Currently it is LM, so changing ceres_dogleg_type will not change the current result\\. The \"step size\" here refers to the pose correction amount in the computation, not how far the vehicle travels each time, the chassis speed, or the slope limit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 64,
+        "costUsd": 0.00013
+      }
+    },
+    "38da9c6aa0b02af0946b1b8474aac2a21cb4d7ea5353b8085352cefa6f4fc919": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ad9411c9010f62f8bf9c6c698e0ada6457829b4e78fbc9eadf6cfb84eff4e7e",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "案例描述：有三名同学（张三，李四，王五），在一次考试中的成绩分别如下表，**请分别输出三名同学的总成绩**",
+      "translatedText": "Case description: There are three students (Zhang San, Li Si, Wang Wu), and their scores in an exam are as shown in the following table,**Please output the total scores of the three students separately\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 49,
+        "costUsd": 0.000107
+      }
+    },
+    "38e42081aafd64369d2a63a11f1bee7f59defa1d3ca7f092db6121aeb77ad5ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f4fbbf33fad53610512136ac6381cef2694858ff7e2a8774a68f95b5a71dbca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：共用体所占内存大小，按成员变量需占内存最大的来。",
+      "translatedText": "Note: The memory size occupied by a union is determined by the largest memory requirement among its member variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    }
+  }
+}

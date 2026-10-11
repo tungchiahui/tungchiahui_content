@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "80012b43453314acef02554444772601c7bddedf593f4a978cb809b06b423830": {
+      "normalizationVersion": 1,
+      "sourceHash": "455c6fb5198717addea90794c31ea57325267415104854b4e8ebb737eea4101e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 多态案例二-制作饮品",
+      "translatedText": "#### Polymorphism Case 2 \\- Making Beverages",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "8027b159b5c6515e72a1357098fd1c4ca8b0c17abe3def71570ef3b465195b20": {
+      "normalizationVersion": 1,
+      "sourceHash": "96f82bf52c6095b16827c8495dfea85f982843f106f22ba561287760f32fccee",
+      "contextFingerprint": "d96badf3a6519d6fba39565ba051a08113fba91f4fa5214f0bb9c33f13905af1",
+      "sourceText": "###### map_file_name（续建所需的序列化地图前缀，当前未启用）",
+      "translatedText": "###### map_file_name (serialized map prefix required for resumption; currently not enabled)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "803be7d3ad1177a8b29086d9176fb5a81e0edb3bbe89c995b9c10b36d6c789da": {
+      "normalizationVersion": 1,
+      "sourceHash": "82fa8787a1309f172da2c3161b78cd10811eee840450b23f6d58caa3771a2f0e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后在：",
+      "translatedText": "Then at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "803ede6c9d1880322e059c79e5fda7c8d534e8d5b36fb55786e3842531e7ed70": {
+      "normalizationVersion": 1,
+      "sourceHash": "173dcfbc1f5fb6250112f7a4d1439e14ad09ac7253d87b8716ffbf58bada39f3",
+      "contextFingerprint": "ad01bb45a4b7dc01f95ecc2176b14c81385791059ff3f439f85e1181d3f2c87f",
+      "sourceText": "如果以后把 `cpp_interface.h` 移到单独的 `inc/` 目录，就需要再用 `target_include_directories()` 把那个目录加入头文件搜索路径。当前这个例子放在同一层目录，所以不需要额外修改 CMake。",
+      "translatedText": "If you later move `cpp_interface.h` to a separate `inc/` directory, you will need to use `target_include_directories()` again to add that directory to the header file search path\\. In the current example, it is placed in the same directory level, so no additional modification to CMake is required\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 59,
+        "costUsd": 0.000122
+      }
+    },
+    "80579a80ca22151171f4c5e62391745815b1fef41431a0862d0704b29466187c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9b706bfa2b39220841180a9d253a710d45f0df340decce7231d00ee38d80fa6",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：只有整型变量可以进行取模运算",
+      "translatedText": "> Summary: Only integer variables can be used in modulo operations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "805f370d70c78cc7eb19d4732671fd8438d37b249bd3ff423936d52cc3c2312a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6f8be7ed8488f31f1dc36119fc266393af90f10ad3fe1c61643744e464044ec",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "包内README还写过“未设置时使用空变换”，当前实现没有对应的单位变换旁路：若PCD能读取但frame为空或TF缺失，会进入重试。应以当前源码为准，本轮不修改节点或地图转换。",
+      "translatedText": "The README in the package also stated that \"an empty transform is used when unset,\" but the current implementation has no corresponding identity\\-transform bypass: if the PCD can be read but frame is empty or the TF is missing, it enters retry\\. The current source code should be taken as authoritative, and no changes will be made to the node or map transform in this round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 85,
+        "costUsd": 0.000157
+      }
+    },
+    "80aa662f53d6ca8461aae3d22260ec612229e7d3c85872ebd35a52f1d74a655e": {
+      "normalizationVersion": 1,
+      "sourceHash": "08897cfab6882d6fb11c523fd3945103cd420ab7aa409875a531b6500fe1ed64",
+      "contextFingerprint": "a3d20d07b3d4e893af0c82bf36400c1b96a4486fcbbba3b6a7877e2097b102f6",
+      "sourceText": "*  生活中我们买的电子产品都基本会有出厂设置，在某一天我们不用时候也会删除一些自己信息数据保证安全\n*  C++中的面向对象来源于生活，每个对象也都会有初始设置以及 对象销毁前的清理数据的设置。",
+      "translatedText": "*  In everyday life, most of the electronic products we buy come with factory settings, and one day when we no longer use them, we will also delete some of our own information and data to ensure security\\.\n*  C++ The object\\-oriented concept in this comes from everyday life; every object also has initial settings as well as settings for cleaning up data before the object is destroyed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 89,
+        "costUsd": 0.000162
+      }
+    },
+    "80e09b2807f6e588823896048cae713c65bdae0507dfcef6f6ba6522e823faa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d46f644beae47be9c6ce2f4df9ce848eebe80caea907b4bccf4bf896ff0cae9",
+      "contextFingerprint": "84e3a8c4bef723be369171e8f13067a279c052b09a5f827d9f281626672f75ed",
+      "sourceText": "代码判断的是：`init_feats_world->size() >= init_map_size`",
+      "translatedText": "The code determines:`init_feats_world->size() >= init_map_size`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    }
+  }
+}

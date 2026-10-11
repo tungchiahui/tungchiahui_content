@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "fb544a1ca626133153fe706a35a3d72025ef317d7b1d7bb01f87f6d171c3527c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d1aff86e06193803afdd1bdd351350de5cbecfd4e02c727248286b9a86d75910",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 按 World Model 输出形式分类",
+      "translatedText": "## Classified by World Model output form",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "fb58dc26c08fbe8cfacdb963d8a65f8b498b458de9ca2921cc2d381afe5182b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "98d83f3fdce33ac46655d23f77b4781484bb068c268cb4dcc9c2020abd0c4566",
+      "contextFingerprint": "06d53b0a9dbdcb899f92b98a5292bfee0758a5188227b99cfa2ea354eb5ce244",
+      "sourceText": "| **转义字符** | **含义**                                | **ASCII**码值（十进制） |\n| ------------ | --------------------------------------- | ----------------------- |\n| \\a           | 警报                                    | 007                     |\n| \\b           | 退格(BS) ，将当前位置移到前一列         | 008                     |\n| \\f           | 换页(FF)，将当前位置移到下页开头        | 012                     |\n| **\\n**       | **换行(LF) ，将当前位置移到下一行开头** | **010**                 |\n| \\r           | 回车(CR) ，将当前位置移到本行开头       | 013                     |\n| **\\t**       | **水平制表(HT)  （跳到下一个TAB位置）** | **009**                 |\n| \\v           | 垂直制表(VT)                            | 011                     |\n| **\\\\\\\\**     | **代表一个反斜线字符\"\\\"**               | **092**                 |\n| \\'           | 代表一个单引号（撇号）字符              | 039                     |\n| \\\"           | 代表一个双引号字符                      | 034                     |\n| \\?           | 代表一个问号                            | 063                     |\n| \\0           | 数字0                                   | 000                     |\n| \\ddd         | 8进制转义字符，d范围0~7                 | 3位8进制                |\n| \\xhh         | 16进制转义字符，h范围0~9，a~f，A~F      | 3位16进制               |",
+      "translatedText": "| **Escape Character** | **Meaning**                                | **ASCII**Code value (decimal) |\n| ------------ | --------------------------------------- | ----------------------- |\n| \\\\a           | Alarm                                    | 007                     |\n| \\\\b           | Backspace (BS), moves the current position to the previous column         | 008                     |\n| \\\\f           | Form Feed (FF), moves the current position to the beginning of the next page        | 012                     |\n| **\\\\n**       | **New Line (LF), moves the current position to the beginning of the next line** | **010**                 |\n| \\\\r           | Carriage Return (CR), moves the current position to the beginning of the current line       | 013                     |\n| **\\\\t**       | **Horizontal Tab (HT) (jumps to the next TAB position)** | **009**                 |\n| \\\\v           | Vertical Tab (VT)                            | 011                     |\n| **\\\\\\\\\\\\\\\\**     | **Represents a backslash character \"\\\\\"**               | **092**                 |\n| \\\\'           | Represents a single quote (apostrophe) character              | 039                     |\n| \\\\\"           | Represents a double quote character                      | 034                     |\n| \\\\?           | Represents a question mark                            | 063                     |\n| \\\\0           | Digit 0                                   | 000                     |\n| \\\\ddd         | Octal escape character, d ranges from 0 to 7                 | 3\\-digit octal                |\n| \\\\xhh         | Hexadecimal escape character, h ranges from 0~9, a~f, A\\~F      | 3\\-digit hexadecimal               |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 359,
+        "outputTokens": 256,
+        "costUsd": 0.000415
+      }
+    },
+    "fba88984dafb9a6be1599f296772419984ad8afe8a9b505646258c3883a1191c": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4548ed7e4cfc1f67ca746af091c6533b5145eaaefe5a2efe616884d1880589c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就是三步：先求平均加速度 → 求这个向量的模 → 归一化后取反。",
+      "translatedText": "It is just three steps: first compute the average acceleration → compute the magnitude of this vector → after normalization, take the negative\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    }
+  }
+}

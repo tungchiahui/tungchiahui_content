@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "dd46420a49f7143443560fc13a8c7cdfa3a290ce984b0b2ed4838d9c983fadfe": {
+      "normalizationVersion": 1,
+      "sourceHash": "465f9f229430bd4cb2991eaa89d03d04f9415d055c26aa10df72cd53d8410b88",
+      "contextFingerprint": "e00156ded665a156ff7c44139d563f82c299ca576c81232b27f1fc7a2662017d",
+      "sourceText": "3. 控制器文件\n一般位于系统的`/usr/lib/lua/luci/controller/*.lua`，创建控制器文件后可以在web界面创建一个界面入口（菜单）。脚本结构如下：",
+      "translatedText": "3. Controller file Generally located in the system's `/usr/lib/lua/luci/controller/*.lua`\\. After creating the controller file, you can create an interface entry (menu) in the web interface\\. The script structure is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 45,
+        "costUsd": 0.000101
+      }
+    },
+    "dd968f76c89a29290b15e0c024db3d1df871423f3adf3cfc02d001de94300080": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0c17fc4bd2ae005a2c3c6c813519f08226c6b5a12f665da5718f33b8bb27500",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里的距离是三维距离，与点的高度、机器人中心距离不同。这个过滤同时作用于机器人点和环境点，所以增大它时，也会丢失近处墙面、地面和障碍物的有效点。",
+      "translatedText": "The distance here is a three\\-dimensional distance, which differs from the height of the point and the distance from the robot center\\. This filtering acts on both robot points and environment points, so when it is increased, valid points from nearby walls, the ground, and obstacles will also be lost\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 64,
+        "costUsd": 0.000129
+      }
+    },
+    "ddca224bba8cb68ca1425926ea5d87af903d7cdb1f26d86f3f418d1dacac0863": {
+      "normalizationVersion": 1,
+      "sourceHash": "deb784704535d632c324e05d2a9a8aab41b7c08fcf1d8953dcf4729af1b39143",
+      "contextFingerprint": "c36bb3dfbb9a10155140789a566316b4454ac2cbfb7642b21764558c74a51bc5",
+      "sourceText": "**运行结果：** 此代码块不含 `main` 函数，是语法、接口或分文件示例，不能独立运行，因此没有终端输出。",
+      "translatedText": "**Run result:** This code block does not contain the `main` function; it is a syntax, interface, or multi\\-file example and cannot be run independently, so there is no terminal output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "ddd10cdc27a8b1aaac444d2b423497a748dda8bfda72959a1d0b2b7f28f6fa2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "23c068bc2f2b4dd481240f898ca40673b6a09bdc8c99bfc3101678b868c08c27",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "this指针不需要定义，直接使用即可",
+      "translatedText": "The this pointer does not need to be defined; it can be used directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
+    "ddd2895a87a1b19b4a56982dde5df4b64a81935d8223945d6e030a1c86fd699e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b97a4328a0af1d22853e5f3e53367032120a84a920c6c636a937c166bda7baf",
+      "contextFingerprint": "8a1a1dc9b0dfc5bba05af5853d4f7c0a2ecf3dc22de0bfa8ab434407fb89412e",
+      "sourceText": "而之前学过的xacro+urdf,这个项目主要是xmacro+sdf。（对比着理解）",
+      "translatedText": "And the previously learned xacro+urdf, this project is mainly xmacro+sdf\\. (understand by comparison)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "dddb212c798178b3b68435b96e5c1c7bfa99b7cad0bc1ea91967acd688c4077c": {
+      "normalizationVersion": 1,
+      "sourceHash": "942c1346e2e1868b97900bcf32fbc52166cc9f5ce2cecc88db1d98332b52a987",
+      "contextFingerprint": "ffb239e4b78cb662e17331201ff3909538597b4eb6ac6804dbef523cce8a071a",
+      "sourceText": "首先删除掉`lib2`,这里不需要.",
+      "translatedText": "First delete`lib2`, this is not needed here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    }
+  }
+}

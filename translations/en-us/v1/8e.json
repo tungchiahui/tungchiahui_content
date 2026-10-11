@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "8e3a93fcca6aadef745baf1a682cf860b49eb9e5f3589e5254684918e187daaa": {
+      "normalizationVersion": 1,
+      "sourceHash": "f185ae9513a16fcba3ea645d878b8325f57ec7cb6760e3cf076d1263bd4cb097",
+      "contextFingerprint": "83cc855c79351de1dbc896fcbd5d4b489ea6abd0a8416d2317bc146b6b93f702",
+      "sourceText": "把 `quantileZ` 调大，通常会抬高代表地面：较高点的高差可能减小，较低点的高差却可能增大。因此不能照搬“调大就更容易上下坡”。应一起看正常坡面、小台阶和低障碍，确认地面估计是否偏高或偏低。这里没有正负高差相加抵消，也没有允许上坡／禁止下坡的专用开关。",
+      "translatedText": "Increasing `quantileZ` usually raises the represented ground: the height difference at higher points may decrease, while the height difference at lower points may increase\\. Therefore, one cannot simply assume that “increasing it makes going up and down slopes easier\\.” One should consider normal slopes, small steps, and low obstacles together to confirm whether the ground estimate is too high or too low\\. Here there is no cancellation by adding positive and negative height differences, nor is there a dedicated switch to allow uphill or prohibit downhill\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 209,
+        "outputTokens": 104,
+        "costUsd": 0.000188
+      }
+    },
+    "8e47c892d2cd6aab5c6d5b8a9fd72919ba2dbb0c28e51e172585d326cd349256": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1264ff8dfc665d62c7679767fe17ad9e044505667136bee6f75114e56becb13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但为了尽量不改北极熊后面的 TF / Nav2 （因为这是为了发布TF而用的角度）框架，最合适的兼容方法是：",
+      "translatedText": "However, to avoid modifying the TF / Nav2 framework behind the polar bear as much as possible (since this angle is used for publishing TF), the most suitable compatibility method is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
+    "8ea24261857d2d7fad8cff92baabb206dcbdf4545ad6a448869f52365a3b7bb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff117b528b9f67d35c138febe065a791d2f494c7b4fa31a8ee81bedb10ca1ac4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 指向结构的指针",
+      "translatedText": "### Pointer to a structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "8ebe60b3efd7270da4318dd6bbcd5c7f00372830130ce438cc5909098439d750": {
+      "normalizationVersion": 1,
+      "sourceHash": "58fec91e0d1728f00a3d6839fbb6086751b8a0c116bb7797765fbe8860309509",
+      "contextFingerprint": "d9405e662808f96d73008214014365613c64cf9fc9f59968c27e167f54a177d1",
+      "sourceText": "False 时关闭 PCD 保存，估计和建图仍继续；True 时累计 camera_init 坐标系中的配准扫描，保存为二进制 PCD。",
+      "translatedText": "When False, PCD saving is disabled, while estimation and mapping continue; when True, registered scans in the camera_init coordinate system are accumulated and saved as binary PCD\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 49,
+        "costUsd": 0.000111
+      }
+    },
+    "8ec4af240cb3051335a95f3333009587e4a30a158cb00b742030fe7a7604c063": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cb7bcceab51dabac930a072182d2de17903e32ff653c91b6f70bafe6d0c1c0e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调试时如果找不到 GDB：",
+      "translatedText": "If GDB cannot be found during debugging:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    }
+  }
+}

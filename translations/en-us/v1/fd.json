@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "fd2d70e1dbbf0c29c63b308cc5a9711f6431538e91e8b07eece1c26d010f1c9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "e993442dffe890c544ca097db0e527dc85305faf811a468a903f9c088438fde6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "克隆代码：",
+      "translatedText": "Clone code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "fd5792d626d932eb04833e36165c06bf1a6336c02dd4c0b36fe557b97dab8553": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fc2e86b4f9068c6341a1347642dcab716ddb3265b62166b53c5fa486167221d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例示文件中生成了两个待输入的配置。现在需要一个表单页面来管理它。",
+      "translatedText": "The example file generates two configurations to be input\\. Now a form page is needed to manage them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "fd658468a5f8c9a4dc5c29c61d79518a2f222645dd3f61dca450775e337c18c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "252d8a0d3da98619bacac2d9dc3129ab7c4daf96221a18777e271bcc172323f0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以即使设置：",
+      "translatedText": "So even if we set:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "fd748d0421233934b9bf99453b83484fc2def6e3587839501d095bb10e2cb0fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "9405db37005e7c1c8c38a8dc879d56a944ef9565f5e319571e0cc93d7d5a87ef",
+      "contextFingerprint": "d556fb9787a599095453a2e78d2c71177166681d33ab3eca4f2f9ff116e7c17c",
+      "sourceText": "源码使用的角度是 `odometry.pose` 中的 yaw，当前预期为“`gimbal_yaw` 相对 `odom` 的朝向”，同时包含底盘整体朝向与机械相对 yaw 的影响；它不是单独的机械关节角。线速度计算为：",
+      "translatedText": "The source code uses the yaw in `odometry.pose`, currently expected to be the orientation of `gimbal_yaw` relative to `odom`; it includes both the overall orientation of the chassis and the effect of the mechanism relative to yaw; it is not a standalone mechanical joint angle\\. The linear velocity is calculated as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 65,
+        "costUsd": 0.000131
+      }
+    },
+    "fd7e092f289fadcf4dcd7229e496c560ac2527c516bc5444c6cd3946ff68b2ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d69aec58751137148262068abfa2da9eae3046eccc5882185f8a117edf11c5a",
+      "contextFingerprint": "07989c23f16875ceea22e6efdb2d6f2485722a4aa59c2a7c688f2609f05d77a3",
+      "sourceText": "本章的 `swap` 库由 `swap.cpp` 实现，并由 `main.cpp` 调用，所有源文件都按照 C++ 代码编译。因此，我们先来看普通 C++ 头文件的完整写法。",
+      "translatedText": "The `swap` library in this chapter is implemented by `swap.cpp` and called by `main.cpp`, and all source files are compiled according to the C++ code\\. Therefore, let us first look at the complete writing of an ordinary C++ header file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 68,
+        "costUsd": 0.000137
+      }
+    },
+    "fdbe6cfe811f71f34c57f7e6ff5773849d20f06e2e8949245e81163ef4a4b397": {
+      "normalizationVersion": 1,
+      "sourceHash": "40eac09c97f782e6751fa29e0eb9dfa008be13c971008a243f5874098714c994",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "A 类称为子类 或 派生类",
+      "translatedText": "Class A is called a subclass or derived class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 16,
+        "costUsd": 0.000062
+      }
+    },
+    "fdff45f503188e6a281111bfb0e46ddc50685f8d627d904cb5b8b03362923e26": {
+      "normalizationVersion": 1,
+      "sourceHash": "df6cd883518a59746e830ed1c102aa01002bc4c2638935403724d9c961a9fdfa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原文件的Plugin、ROS、General、Correlation及Scan Matcher分区只是注释分类；参数仍直接写在ros__parameters下面，不增加一层算法参数键。",
+      "translatedText": "The Plugin, ROS, General, Correlation, and Scan Matcher sections in the original file are only comment categories; the parameters are still written directly under ros\\_\\_parameters, without adding an extra layer of algorithm parameter keys\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    }
+  }
+}

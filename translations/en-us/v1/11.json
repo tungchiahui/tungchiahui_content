@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "112db6b962dacf8e75175d1bbf6eab891de9281399ae3c592986d42b7ef2b9f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fad0d696c7459855db4b9c0d97a53f07ed2860110d169eaac1f31eb5d909ddb",
+      "contextFingerprint": "23c5983ca7dc8954307491471e39292c8b7a83df69fc29298fede24b0895e547",
+      "sourceText": "可以把它理解为“加速度读数快到量程边缘时，算法先别完全相信这一轴”。当前代码逐轴比较原始读数，达到 `0.99×4.0=3.96 g` 就屏蔽该轴的这次 IMU更新。",
+      "translatedText": "It can be understood as \"when the acceleration reading is close to the edge of the range, the algorithm should not fully trust this axis yet\\.\" The current code compares the raw readings axis by axis, and when it reaches `0.99×4.0=3.96 g` it masks this IMU update for that axis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 62,
+        "costUsd": 0.000126
+      }
+    },
+    "113713a8450a7d8ee0fcca3a864c09ad4b81d93689079998f3ed2750a6a32673": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6278b04b926990e5b3747db7085c7cf2957a95a41eb625487be5256261befeb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先平行于底面，做一个参考基准面。",
+      "translatedText": "First, make a reference datum plane parallel to the bottom face\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "118fc8841e6875ce5e74252b00146e574f2137b33d04f28a3ac04757bdaa2b2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc46042016bbccde75b32343fc478070b90b20c39ba2801219d18f9203c5c60a",
+      "contextFingerprint": "f41f943d358f9eb386765529f49e36ad0bd926758487da96fa2ed80017237d4f",
+      "sourceText": "![猜数字](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-img-97c3bdd8bb.webp)",
+      "translatedText": "![猜数字](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-img-97c3bdd8bb.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "11a8d3846076dfe4354263e2f11a8f8aa475b5065cb64b8afbe1e49df8491c22": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef7ff2f44791c6616df97da0140ec185f400ce8d595b784e7df08fc20baa38a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它主要给失去点云、没有有效点等回退分支提供时间窗口。正常扫描的结束时间由每个点的时间计算，不是由这个0.1秒强制规定。",
+      "translatedText": "It mainly provides a time window for fallback branches such as lost point cloud or no valid points\\. The end time of a normal scan is calculated from the time of each point, not mandatorily determined by this 0\\.1 second\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
+    "11b4f473e71c4216284d299aa4ab0d3afe080cc638b74f760a29c60f4ece61c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1216db4cec99a17efc68616b26112c99e28467a7fa27cc40da6b38bd41c10738",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在Linux桌面环境中，我遇到了一个很奇怪的问题：",
+      "translatedText": "In a Linux desktop environment, I encountered a very strange problem:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "11e03d278a758c4bcd2210b1a9d8f457d87df1297ef7b3d25aed08e33f868627": {
+      "normalizationVersion": 1,
+      "sourceHash": "44eeb410c7f472e4eff6e589ca8288c17eb7d5cfc548323be3a276a5de8fc455",
+      "contextFingerprint": "6cd2d625c35c945f2b8ff4a627396bff8543e281422723d6c1f813e89f8ecfd6",
+      "sourceText": "完整 CMake 写法会在 [CMake工程模板](/wiki/2023-10-05-cplusplus-jiao-xue/2200-cmake-gong-cheng-mu-ban) 中系统讲解。这里先知道\"头文件放进 `inc/`，源文件放进 `src/`，库名由 `PREFIX` 决定\"即可。",
+      "translatedText": "The complete CMake syntax will be explained systematically in the [CMake project template](/wiki/2023-10-05-cplusplus-jiao-xue/2200-cmake-gong-cheng-mu-ban)\\. For now, it is enough to know that \"header files go into `inc/`, source files go into `src/`, and the library name is determined by `PREFIX`\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
+    "11fe628b2dfe4301e237aa0c2e9dd1b22be132f7bf1d6af7b635222a378bc972": {
+      "normalizationVersion": 1,
+      "sourceHash": "5651589f30d8cc6737c9888c8bb617bad52f1981987d21764c0f572723173e73",
+      "contextFingerprint": "82d674b2d9f9e4c2ea7a25150853af8dcb4ced05739562b334af3fa33d5411ee",
+      "sourceText": "当前先保持 False，需要存档时再开启，并保持 publish.scan_publish_en=True。注意：slam_launch.py 会把该参数覆盖为 True，所以是否保存还要看实际启动方式。",
+      "translatedText": "Currently keep it False; enable it only when archiving is needed, and keep publish.scan_publish_en=True\\. Note: slam_launch.py will override this parameter to True, so whether saving actually occurs still depends on the actual startup method\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 66,
+        "costUsd": 0.000135
+      }
+    }
+  }
+}

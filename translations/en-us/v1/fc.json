@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "fc0291fdc187035a565d98e74209ad00e8614f33dd644faf4e5230b46f9b485b": {
+      "normalizationVersion": 1,
+      "sourceHash": "53f11f26b6fbbbcbd78f8a5846bd71c6837c8ddb1dbb256c9a7020dd4cbe1298",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 输入与输出：匹配的是哪两份点云",
+      "translatedText": "###### Input and Output: Which two point clouds are being matched",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "fc227a8a43c97ed134412c273ee86405e1ca81c24f89e69eaa8d42a737122ba5": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffd540859ef657ccf00e841f44597f22db723ed3507aeb30b4b8fce6909fa5e3",
+      "contextFingerprint": "3513bebfd07fc0fcbcad4bb4c2b0a0cc3da45e58ae987226864cdbd270932fff",
+      "sourceText": "###### scan_publish_en（参考系中的配准点云发布）",
+      "translatedText": "###### scan_publish_en (publishing the registered point cloud in the reference frame)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "fc4c8611c099dff9021b6b9e62fe70c8c7fecdf9ca03512d4fc5c99969b69332": {
+      "normalizationVersion": 1,
+      "sourceHash": "d36848e52909dcf95fed4e72111f16f6feeb79662d37bf0c175a07d5dd6a984c",
+      "contextFingerprint": "214f7e5d42a733c6699175137d9c98da1c9721979081902f010dc153e2101667",
+      "sourceText": "| 论文 | Paper / Project | Code |\n|---|---|---|\n| **X-MOBILITY** | https://arxiv.org/abs/2410.17491 / https://nvlabs.github.io/X-MOBILITY/ | https://github.com/NVlabs/X-MOBILITY |\n| **NWM** | https://arxiv.org/abs/2412.03572 / https://www.amirbar.net/nwm/ | https://github.com/facebookresearch/nwm |\n| **DINO-WM** | https://arxiv.org/abs/2411.04983 / https://dino-wm.github.io/ | https://github.com/gaoyuezhou/dino_wm |\n| **World4Drive** | https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_World4Drive_End-to-End_Autonomous_Driving_via_Intention-aware_Physical_Latent_World_Model_ICCV_2025_paper.html | https://github.com/ucaszyp/World4Drive |\n| **WMNav** | https://ieeexplore.ieee.org/document/11246684/ / https://b0b8k1ng.github.io/WMNav/ | 项目页为准 |\n| **Drive-WM** | https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html / https://drive-wm.github.io/ | https://github.com/BraveGroup/Drive-WM |\n| **GWM** | https://openaccess.thecvf.com/content/ICCV2025/html/Lu_GWM_Towards_Scalable_Gaussian_World_Models_for_Robotic_Manipulation_ICCV_2025_paper.html / https://gaussian-world-model.github.io/ | https://github.com/Gaussian-World-Model/gaussianwm |\n| **DreMa** | https://arxiv.org/abs/2412.14957 / https://dreamtomanipulate.github.io/ | https://github.com/leobarcellona/drema_code |\n| **MoSim** | https://openaccess.thecvf.com/content/CVPR2025/html/Hao_Neural_Motion_Simulator_Pushing_the_Limit_of_World_Models_in_CVPR_2025_paper.html / https://oamics.github.io/mosim_page/ | https://github.com/OamIcs/MoSim |\n| **MaskGWM** | https://openaccess.thecvf.com/content/CVPR2025/html/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.html | 待补充 |\n| **V-JEPA 2** | https://arxiv.org/abs/2506.09985 | https://github.com/facebookresearch/vjepa2 |\n| **One-Step WM** | https://arxiv.org/abs/2601.12277 / https://robotnav-bot.github.io/nav-onestepwm/ | https://github.com/robotnav-bot/NOW |\n| **AR Forcing** | https://arxiv.org/abs/2605.31314 | 待确认 |\n| **NavWAM** | https://arxiv.org/abs/2606.13494 / https://dachii-azm.github.io/navwam/ | 待确认 |\n| **Atlas** | https://www.worldlabs.ai/blog/atlas | 暂无公开训练代码 |",
+      "translatedText": "| Paper | Paper / Project | Code |\n|---|---|---|\n| **X-MOBILITY** | https://arxiv.org/abs/2410.17491 / https://nvlabs.github.io/X-MOBILITY/ | https://github.com/NVlabs/X-MOBILITY |\n| **NWM** | https://arxiv.org/abs/2412.03572 / https://www.amirbar.net/nwm/ | https://github.com/facebookresearch/nwm |\n| **DINO-WM** | https://arxiv.org/abs/2411.04983 / https://dino-wm.github.io/ | https://github.com/gaoyuezhou/dino_wm |\n| **World4Drive** | https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_World4Drive_End-to-End_Autonomous_Driving_via_Intention-aware_Physical_Latent_World_Model_ICCV_2025_paper.html | https://github.com/ucaszyp/World4Drive |\n| **WMNav** | https://ieeexplore.ieee.org/document/11246684/ / https://b0b8k1ng.github.io/WMNav/ | Refer to project page |\n| **Drive-WM** | https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Driving_into_the_Future_Multiview_Visual_Forecasting_and_Planning_with_CVPR_2024_paper.html / https://drive-wm.github.io/ | https://github.com/BraveGroup/Drive-WM |\n| **GWM** | https://openaccess.thecvf.com/content/ICCV2025/html/Lu_GWM_Towards_Scalable_Gaussian_World_Models_for_Robotic_Manipulation_ICCV_2025_paper.html / https://gaussian-world-model.github.io/ | https://github.com/Gaussian-World-Model/gaussianwm |\n| **DreMa** | https://arxiv.org/abs/2412.14957 / https://dreamtomanipulate.github.io/ | https://github.com/leobarcellona/drema_code |\n| **MoSim** | https://openaccess.thecvf.com/content/CVPR2025/html/Hao_Neural_Motion_Simulator_Pushing_the_Limit_of_World_Models_in_CVPR_2025_paper.html / https://oamics.github.io/mosim_page/ | https://github.com/OamIcs/MoSim |\n| **MaskGWM** | https://openaccess.thecvf.com/content/CVPR2025/html/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.html | To be supplemented |\n| **V-JEPA 2** | https://arxiv.org/abs/2506.09985 | https://github.com/facebookresearch/vjepa2 |\n| **One-Step WM** | https://arxiv.org/abs/2601.12277 / https://robotnav-bot.github.io/nav-onestepwm/ | https://github.com/robotnav-bot/NOW |\n| **AR Forcing** | https://arxiv.org/abs/2605.31314 | To be confirmed |\n| **NavWAM** | https://arxiv.org/abs/2606.13494 / https://dachii-azm.github.io/navwam/ | To be confirmed |\n| **Atlas** | https://www.worldlabs.ai/blog/atlas | No public training code available |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 652,
+        "outputTokens": 535,
+        "costUsd": 0.000838
+      }
+    },
+    "fc4e806f69df9eb1ddb2c2d4dcf892bb2bee549bf3f2130ea35c8d1210531a5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b69bb92ef2cc90f63cc22984b18dc5d9cde7992bfd34e83025e0dfa22892a98",
+      "contextFingerprint": "a82ec06c6d57b3c0a730d566f931678f9e994205cdd2dea112fcb24611cdd877",
+      "sourceText": "gimbal_pitch_odom_joint：可以认为就是 0，因为你现在的 description 里它本来就是 fixed。\ngimbal_yaw_odom_joint：上电那一刻可以是 0，但运行时不能固定为 0，前提是咱们有北极熊同样的“大小 yaw”机构。它应该跟着大 yaw 的真实角度更新。",
+      "translatedText": "gimbal_pitch_odom_joint: It can be considered as 0, because in your current description it is already fixed\\. gimbal_yaw_odom_joint: It can be 0 at the moment of power\\-on, but it cannot remain fixed at 0 during operation, provided that we have the same \"large and small yaw\" mechanism as the polar bear\\. It should update according to the actual angle of the large yaw\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 103,
+        "costUsd": 0.000186
+      }
+    },
+    "fc5b038e14e19ff6dd3f17b94edd2204976a31057ab0321f082e189c1570b832": {
+      "normalizationVersion": 1,
+      "sourceHash": "9742627a35f828ab683bab69365a98a91f0c609027d61bb36dfcf73c97f834b0",
+      "contextFingerprint": "3f8a5197cbaa354555db15e34a107ee819313e98218c53863f88f7c187a4ad7e",
+      "sourceText": "当前以输入里程计位置为中心：`d≤4 m` 直接复制 `terrain_map` 点；`d>4 m` 使用扩展节点自算点。近场点不会再次套用本节点的 `vehicleHeight`、排序、高度窗口、衰减或连接检查。",
+      "translatedText": "Currently centered on the odometry input position:`d≤4 m` Directly duplicate `terrain_map` points;`d>4 m` Use extended nodes to compute points themselves\\. Near\\-field points will not reapply this node's `vehicleHeight` sorting, height window, attenuation, or connection checks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 53,
+        "costUsd": 0.000117
+      }
+    },
+    "fc683be009c1fcde0be39de6d6185e8fa1ebee51e17287077f738cf66796565c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e0c534fb6c1b03de508a0740845c42f79e1d21501362a07a8a8f5c53f5a1dc7",
+      "contextFingerprint": "4b782a56ea7b64c101378b64318ee1cf955fa40ff1ac5e19441ad43607ffc034",
+      "sourceText": "**语法：** `sizeof( 数据类型 / 变量)`",
+      "translatedText": "**Syntax:** `sizeof( 数据类型 / 变量)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "fc9de476b88a2ebffcfc6ce134360a522fb57fe8873611dbafeae76f30e13b53": {
+      "normalizationVersion": 1,
+      "sourceHash": "e82bf018c92bb7f0dad99c2bb5f20e2998c698406af5acb3f2b93f6b00280ec7",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用：** 通过三目运算符实现简单的判断",
+      "translatedText": "**Purpose:** Implement simple judgment via the ternary operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "fca4e8a3ec4cdc8e8076ea24a1407ec6a7a674470b63c877fb67f56eae024981": {
+      "normalizationVersion": 1,
+      "sourceHash": "763224016da4fdc416f5a6b92a078855329579d27d698d930b84d9fe014fabf5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t一个对象或者变量没有初始状态，对其使用后果是未知",
+      "translatedText": "​\tAn object or variable has no initial state, and the consequences of using it are unknown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "fcc793c0042558b989adcb060b6a2b20e016199c37f124c9167983000c0742fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1087d5bc770fb1f17764ceac14c4c349f3142a92b9a0806e0537375c693d24e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为了调用带有命名空间的函数或变量，需要在前面加上命名空间的名称，如下所示：",
+      "translatedText": "To call a function or variable with a namespace, you need to prefix it with the namespace name, as shown below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    }
+  }
+}

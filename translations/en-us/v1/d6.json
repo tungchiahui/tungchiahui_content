@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d604c8ab4bcb3de02206ceb951a788bf9115155533089d94ed49fc440e5115a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "2803b3a09018e117cd01e767e9988068ebc5a885c577cf156aecfe4dbfa18c3e",
+      "contextFingerprint": "b1a56b84892ae2f8faa348f8de77083c8e20b8330971a2a0d64fac07d7004241",
+      "sourceText": "###### range_min 与 range_max：底盘周围的水平圆环",
+      "translatedText": "###### range_min and range_max: Horizontal ring around the chassis",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "d64eec7f9a73d953ecfc45e3c35c91cfd5f451ff1526361b68fba8647994252b": {
+      "normalizationVersion": 1,
+      "sourceHash": "86ea84ece087284df5e8ddc63eab983f5fb50e02f55ae23b12c7d48bedb2b56d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调参的目标是让真实地面、障碍和缺数据区得到合理表达；不能为了让坡道变白而把真实台阶或危险落差一起过滤。实际可通行的坡度和落差需要测量并验证，当前没有实物坡道结论。",
+      "translatedText": "The goal of parameter tuning is to ensure that real ground, obstacles, and no\\-data areas are represented reasonably; it must not filter out real steps or dangerous drops just to make ramps appear white\\. The actually traversable slope and drop need to be measured and verified, and there are currently no physical ramp conclusions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
+    "d68237b28ad5c08b9b58dc8136e18a9013f0c86efa28641f6ec8fd5b5a8a7c69": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee1e46feced3d78851c410eed587598a1451b76abeff7df8748f2b4b259d562b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "友元的关键字为  ==friend==",
+      "translatedText": "The keyword for friend is ==friend==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "d6c13a7911eaa703f6a89ec54a506ae638ddec4ee2cf147ef2678dcd13604391": {
+      "normalizationVersion": 1,
+      "sourceHash": "96e0b5f9fd64e1675a917db737cc2acbd90b1461eb45a0ec8cd5dee7aa697327",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我在debian12和debian13上试过.",
+      "translatedText": "I tried it on Debian 12 and Debian 13\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "d6d369c5186c8cd19a4f323b93d407d6229da78bee537a3121059a92c0412e5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f05fe7f8d3cefaf9751d63ab87ac0d6645577db633f8d498e0e7ddc4fcef2bb",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**示例代码：**",
+      "translatedText": "**Example code:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d6d95ae57150c8f297a37be289ff0e7d49fb72a6929af33bb149f6c34636f2c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1e97554a45fe231216fd223b169ac1df87d79d9068cc4f10034dbd0d9c7c13f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们看起来都能启动VS Code，但实际用途并不完全相同。",
+      "translatedText": "They all appear to be able to launch VS Code, but their actual uses are not exactly the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "d6eebbc275c4feea91e58180c9f3c95275ec38c463414aca8b565b531f698740": {
+      "normalizationVersion": 1,
+      "sourceHash": "36d38712a772435935c3c9b853403becd68c3cc8081641ffc9aa1db728ceff63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它与上一项类似，管“估计中的转速是否容易改变”。突然转底盘或云台时，调大通常允许更快跟随观测，调小则更相信原有转动趋势。",
+      "translatedText": "It is similar to the previous item and controls \"whether the estimated rotational speed is easy to change\"\\. When the chassis or gimbal is suddenly rotated, increasing it usually allows faster tracking of observations, while decreasing it trusts the original rotational trend more\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    }
+  }
+}

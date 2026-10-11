@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "350c54cafb1d53ef71b1958d7a9af0ecdbbe29ef7ce55ba884bf860fd0b0134d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3cdbad69d6bed25391d8d1df0eca688856e6574502abcdcbdc2412e595a88d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "None表示不增加鲁棒损失，按约束误差的平方处理。HuberLoss、CauchyLoss用于减弱大误差约束的影响；它们不能保证删掉全部错误匹配，也会影响大误差但真实有效的约束。",
+      "translatedText": "None means no robust loss is added, and the constraint error is treated as its square\\. HuberLoss and CauchyLoss are used to reduce the influence of constraints with large errors; they cannot guarantee the removal of all incorrect matches, and they also affect constraints with large errors that are actually valid\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 64,
+        "costUsd": 0.00013
+      }
+    },
+    "352f043819dbe416a7b374e2200185287de6106f9bf628464c7c4edf971b06a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "efd35bed2e574e02cacb3ad624ff72315a012b62b6a5a4dae825782b14511535",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先正常退出所有VS Code窗口，然后分别测试下面两个命令。",
+      "translatedText": "First exit all VS Code windows normally, then test the following two commands separately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "354e49bf3ea52e127c2c7e2343e256c594946a5eb50fcca64c22db8352681c61": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c311a1cf1f0af371f6767f77e5dfb6a049bff332da63a5c8b80efc2bb15bfe3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "排除冲突组件：",
+      "translatedText": "Exclude conflicting components:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "3553d8986bcc2134e97af48d50f0f9e5b5ac019efd6e641017d60a0de615de48": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0a1dcae0f99d364077b842c6a8e0c5451483ecdf7532a087551388fa15d9d83",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### vehicleHeight：哪些障碍点能进入远场输出",
+      "translatedText": "###### vehicleHeight: Which obstacle points can enter the far\\-field output?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "355528a230f2389815c1884ae75fe16d5ddcdc7a7a7620a3130325e920c97d68": {
+      "normalizationVersion": 1,
+      "sourceHash": "8662b2f195ab42153936033fa398695e53ac73500f3ec01f8c2f43d03b71eb70",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "向左90度：",
+      "translatedText": "Turn left 90 degrees:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "35a1bfdadeb2b3f988167f14abb4dad72507571ba3317cad38ba1477d5319ea7": {
+      "normalizationVersion": 1,
+      "sourceHash": "22e29d813b88b7f78e80967ab2364497cf8bb98a55b691fa173cad3364f0c635",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里的 body 指 MID360 内部 IMU 坐标系。当前没有这项调试需求，先保持 False。",
+      "translatedText": "Here, body refers to the MID360 internal IMU coordinate system\\. There is currently no debugging need for this, so keep it False for now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    }
+  }
+}

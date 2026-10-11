@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "dc061cd62be29b71daed065060a68b50da5904befdd4502e5a9a518b03bf9f5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "792661383565f833486a45c78a3d3da08e0d5b45436cac1c5a1340b411196645",
+      "contextFingerprint": "c68d30bc20b54d7690758e21286adbe6e9277daf8e269af03847077cad8d6f87",
+      "sourceText": "该查询与 `loam_interface` 的一次性基准转换意图相关，但两节点分别查询，不保证取到同一时刻的云台角。这里的机械关系始终保留：MID360挂在 `gimbal_yaw`，只有实际yaw会带动它，实际pitch位于后续层；两个odom关节固定。重力参考、内部IMU→雷达关系或地图来源错误，不能通过增大匹配距离掩盖。",
+      "translatedText": "This query is related to the one\\-time benchmark conversion intent of `loam_interface`, but the two nodes query separately, so it is not guaranteed that the gimbal angles are obtained at the same instant\\. The mechanical relationship here is always preserved: the MID360 is mounted on `gimbal_yaw`; only the actual yaw drives it, while the actual pitch is located in a subsequent layer; the two odom joints are fixed\\. Errors in the gravity reference, the internal IMU\\-to\\-lidar relationship, or the map source cannot be masked by increasing the matching distance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 117,
+        "costUsd": 0.000204
+      }
+    },
+    "dc155dcfe45109dc2e2617ec9256e6a686c4cb890831d79a77203b3df7908f9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "67dd6f4899395c64850995004118e61757ebc0d051b77bc5bbdebd7a8175f8f9",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "封装是C++面向对象三大特性之一",
+      "translatedText": "Encapsulation is one of the three major features of C++ object\\-oriented programming\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
+    "dc3eaaba1bbc9d8ee53c90b8d82fb326d6903eda12ea86a56205739432674730": {
+      "normalizationVersion": 1,
+      "sourceHash": "4360126d4623f0802f0083e7549a303300ac588e23a501b45d5b61a894a207a9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 实车先看：哪些三维点会被画进二维地图",
+      "translatedText": "#### Real vehicle preview: which 3D points will be drawn into the 2D map",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "dc48393bfe14b661a7ea74be16b06ba46c1ccc6eb74444536fd3fe62b437ac13": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2d413aeb6a0b3629ef91f02e6583cffb272fe5d5ec7b7a66efdd4df1a466330",
+      "contextFingerprint": "2f9e8c7bfd699a1fee01ed7d08a6120b895b2ae98441e2f1afa6834caea77fb9",
+      "sourceText": "###### ceres_loss_function（异常图约束的影响）",
+      "translatedText": "###### ceres_loss_function (Influence of abnormal graph constraints)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "dc51cc06fc0294a6b58c3b60b1dac8b9c2a7fd6c07fc0de3ccf18554f2c5efce": {
+      "normalizationVersion": 1,
+      "sourceHash": "29eab56baaf9e28931e18cbe59b0b6cd8300c0ecf01998897377df1f0a75437f",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### C 和 C++ 是什么",
+      "translatedText": "### What are C and C++?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "dc6da8130e7701375a4c36f3a2c49c5d49ba7fdb4c412b26a4491cfc71f0dc8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "338daeae3a58c0bb3af58946dd146b051de20e8656ae804c78d3d0a475ea2608",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**抽象类特点**：",
+      "translatedText": "**Characteristics of abstract classes**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "dc7049e9c482bb239c67f993cf2f884c28a71468ed2fd25d7688689273286e2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc3e693e1e6b0029683d7d016e9c2a2795cebd1c25721f2ebe9b18cfe99e74be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "逻辑运算符有以下符号：",
+      "translatedText": "Logical operators include the following symbols:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "dc80fa6e5fa9aa004a59dbd32d5e4b8517ea3bcb42532b6107c5e262ff847d8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "7fd22d6389c92a8b038da34e7045e1a0d1df81fde5871d238c4cc6b84c07722c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面的噪声参数主要决定“系统更信测量，还是更相信原来的运动趋势”。先确认单位、时间与安装关系，再讨论噪声；它们不会让松动支架变稳，也不是车辆速度或坡度限制。本轮没有实物，不据这些现象指定新的调参值。",
+      "translatedText": "The following noise parameters mainly determine whether the system trusts the measurements more or trusts the original motion trend more\\. First confirm the units, timing, and installation relationships, then discuss the noise; they will not make a loose bracket stable, nor are they vehicle speed or slope limits\\. There is no physical object in this round, so no new tuning values are specified based on these phenomena\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 82,
+        "costUsd": 0.000156
+      }
+    },
+    "dca6afd151d70b6a009e268e6035324fe4b0b87d922cd951977407cb0eb56f6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "53c054a4526bd546dd0eb120515e4e3b6486a06043f5d49ba5544c61119c4877",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**优点2：**对于写权限，我们可以检测数据的有效性",
+      "translatedText": "\\*\\*Advantage 2:\\*\\* For write permissions, we can detect the validity of the data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "dcf491b91c5f9007ab7b4f2fa0544420a94f090c0e7a49075d345267bbb75c0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecca32b06479cba8fc699a9bf645103a2e4c886208889f6ecfbaafd761f15505",
+      "contextFingerprint": "9afa8316571f04a3ea6c9a4658f6ae1269fe866e304fbce61ace94f7ca9e5bf9",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404784719.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404784719.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

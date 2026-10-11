@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "461a9d9714aaab201b195b5898e642816e112799d67636b78a1bf93d525fc77a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d46697296f43ba5a685d35a517749fe8e0f5ba4d3ab052a4916c179a75ba0b30",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 启动来源与验证状态",
+      "translatedText": "###### Startup Source and Verification Status",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "462905e5e4b9efa88d914ea06e722a668cf61b83c6416a0774b72c5012072dff": {
+      "normalizationVersion": 1,
+      "sourceHash": "799cccf94875c52829e47e479afdf468377d37086b3397758b61d00bf398739d",
+      "contextFingerprint": "031a33a2e113cebe3b27c2179aac663b2d2f93cc0937612e2be9aef3882c0bd6",
+      "sourceText": "**多态是C++面向对象三大特性之一**",
+      "translatedText": "**Polymorphism is C++ one of the three major features of object\\-oriented programming\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "462eaf4c978970bd7c52197a0eec15c8289d8bd663b4da96ef3e33ff9271abfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "2de031db7a69cd85d0f2a217e81fe619edebba65ed71c2876339dc82a6883a6f",
+      "contextFingerprint": "6fcc9e69b6c2cbbeeafe3cfae21ba1d0e0ac3d605d8934cc94819db88573e80e",
+      "sourceText": "这里的几个参数，这里的`chassis_height`所描述的是：",
+      "translatedText": "The several parameters here, the`chassis_height`described here is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "463ce7fb821364e023bad1bddac8c2f993addd977b80e5bd3b25412ce5bfbf54": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d9bd21f2fe2d9945f360afb143c313433d1f85ba9189cc6c120de75d0985128",
+      "contextFingerprint": "095beecd47f62d24f3a48cc4a5de44a43bdcf5e1d84a160feded74d008cf4605",
+      "sourceText": "6. .def.xmacro",
+      "translatedText": "6. .def.xmacro",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4688cd47ef7493dfcb1fbcbb61b25973d16065dbd368d5aec8f11fe4abc641da": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1eb231347258df00e5fc2ece63289ef30b416ae6d8102ffa379bad9947bd8d0",
+      "contextFingerprint": "7162a249e878350119544b51accf90b21e24b9ac7d5cab0e1bfaa75742fd94f4",
+      "sourceText": "而下面这仨可以全注释掉，因为咱们舵轮底盘的碰撞区域就是近似一个正方形，用`chassis_base_collision`足够了。",
+      "translatedText": "The following three can all be commented out, because the collision area of our steering wheel chassis is approximately a square, using`chassis_base_collision`is sufficient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "4690725b8ff1564047ecaff8b179878055f75ce1759de0fde0013369fa61ef5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b36d595ddd0b9ce284877735298b4d181f853454e918b256667c928d468097f8",
+      "contextFingerprint": "78cced96adeee58560df7a9a9080999805fb8c82061a0669649cc5cfe184e6c7",
+      "sourceText": "两次机械 TF 查询都通过 `getTransform`；任一次失败都会告警并返回单位变换，回调仍继续发布。例如雷达→底盘查询失败时，底盘位姿会直接变成输入雷达位姿，安装偏移和关节旋转未被扣除。有输出不能证明机械 TF 查询成功。",
+      "translatedText": "Both mechanical TF queries pass `getTransform`; failure of either one will trigger an alarm and return an identity transform, while the callback still continues publishing\\. For example, if the radar→chassis query fails, the chassis pose will directly become the input radar pose, and the mounting offset and joint rotation are not deducted\\. Having output does not prove that the mechanical TF query succeeded\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 80,
+        "costUsd": 0.000154
+      }
+    },
+    "46b4366cdd76afdbc468f19f45ccaaff53c7df5e27d84b753874b99ff061df96": {
+      "normalizationVersion": 1,
+      "sourceHash": "db49b7528f7c3348fcc92a9775631bb2be6ddeb73fce737cd70e932b6822a971",
+      "contextFingerprint": "5466a3a3a24a7ab6dd9937d38846675fc826a98b59ffe6e5c787744ee7aeb5c7",
+      "sourceText": "另有启动配置疑点：两份YAML的slam_toolbox段都没有显式use_sim_time。当前安装的RewrittenYaml只替换已有键，而slam_launch没有给此节点单独传入该参数；按当前默认接线，仿真入口传入True也不会自动补到此节点，标准默认仍为False。这里是静态配置判断，实际节点参数尚未观察；ROS参数分区需继续核对这一项。",
+      "translatedText": "Another startup configuration concern: neither of the two YAML slam_toolbox sections explicitly has use_sim_time\\. The currently installed RewrittenYaml only replaces existing keys, and slam_launch does not pass this parameter separately for this node; with the current default wiring, even if the simulation entry point passes True, it will not automatically be added to this node, and the standard default remains False\\. This is a static configuration assessment; the actual node parameters have not yet been observed; the ROS parameter partition needs to continue to be checked for this item\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 137,
+        "costUsd": 0.000236
+      }
+    },
+    "46b883ab7f08ea43f91198c6d56a3cd6cd1bf3286e0525a7cef2d43d82609321": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4fda83542c279ab2b8064744e01524442cfaf4a75bdd3cc4b0279b94a3d9c1f",
+      "contextFingerprint": "3f6b15939300cc8c619aa8aebb3f9cbacfdde51bee78101904ece890b2537f72",
+      "sourceText": "###### target_frame：扫描的中心和方向是底盘，不是云台或雷达",
+      "translatedText": "###### target_frame: The center and direction of the scan are the chassis, not the gimbal or radar\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
+    "46bb5ca6102896a2670fd794aac94896499c78109354aa89820fce9381d25784": {
+      "normalizationVersion": 1,
+      "sourceHash": "d59e4318e870e90adfb08217996a3d5452de7fda4ed33e68fced0a5574402bfe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "逐点时间参与运动预测与点云匹配，不能在输入转换中随意丢弃；时间单位换算也不会完成雷达与 IMU 的时差校准。",
+      "translatedText": "Point\\-by\\-point time participates in motion prediction and point cloud matching, and cannot be arbitrarily discarded during input conversion; time unit conversion also does not accomplish the time offset calibration between the radar and IMU\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "46c7e9e4bbfbe8bd275525db28cc052926187a8f8649d12f3e74bf83f37d77e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d794f9198a047f0248ebc620fbdec7ee08aab7abbb5558fd17f62d023d3bff4d",
+      "contextFingerprint": "73d6375e45708b76f826e1a4390b53d3e74588ab8f8fbf8dd1ab1bbf00e52541",
+      "sourceText": "`vehicleHeight=0.5` 限制的是正常输出点相对估计地面的高度差。它没有表示“车辆能爬0.5 m高的台阶”，也没有规定允许的坡度。",
+      "translatedText": "`vehicleHeight=0.5`What is limited is the height difference of the normal output point relative to the estimated ground\\. It does not mean that \"the vehicle can climb a 0\\.5 m high step\", nor does it specify the permissible slope\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 51,
+        "costUsd": 0.00011
+      }
+    }
+  }
+}

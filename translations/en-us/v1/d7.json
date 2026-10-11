@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d702801055b80324cd13e0f307431b8e2b2ca1e1de35c347456c948df2e379c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "184ae8890f6dd725cb2a7fb638f85c1fd91a298dc063f9f3512e2fe69c1a56d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "手动往左转云台:",
+      "translatedText": "Manually turn the gimbal to the left:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "d7294ef7ad1fdb366a7156a717a0378b5dede339cd56c1fb2d06fe7b96a26a75": {
+      "normalizationVersion": 1,
+      "sourceHash": "99ed7fde6c2063cd1d5e365ca4bd162c6c3d6da5f553e28715437e7d05e1c255",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "加载先验地图不会自动完成全局重定位，也不会自动确定机器人在整张地图中的位置。初始位置、姿态和地图坐标必须足够一致，后续局部匹配才有基础。",
+      "translatedText": "Loading a prior map does not automatically accomplish global relocalization, nor does it automatically determine the robot's position within the entire map\\. The initial position, pose, and map coordinates must be sufficiently consistent so that subsequent local matching has a basis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
+    "d738662f3802702486635698ae5c072db9f6ddcd156eb758d1cd65b86c0d31da": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6d53a210b7f7852bb0643fe94e82de1e9df729a9374440e288efaaec52c894b",
+      "contextFingerprint": "2c839df892be4bd9748633c7b2af8d61868156aefd808b4a213667dd85456824",
+      "sourceText": "###### time_diff_lidar_to_imu（雷达与IMU时间偏移）",
+      "translatedText": "###### time_diff_lidar_to_imu (radar and IMU time offset)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "d73add8e6287cb0422120fc116bbb1dd582b4ea75fe4a3232d3c8ad1522ca297": {
+      "normalizationVersion": 1,
+      "sourceHash": "a26aff841bece0cf21f5eb0873a8d3a4e787b13dc4e5e4edf2432049b203a018",
+      "contextFingerprint": "00c76a938da2155dbc620c6283657fc33ee136f0f356e8146ab6dfed01662baf",
+      "sourceText": "因此 `decayTime=0.5` 是更新时检查的年龄阈值，不是点到0.5秒就立刻消失。稀疏缓存格可能等到时间更新门槛才重新检查；没有新点云时，这段处理不会执行。增大衰减时间有利于保留地面样本，也可能延长旧物体残留；减小则需观察稀疏格是否出现空洞。",
+      "translatedText": "Therefore, `decayTime=0.5` is the age threshold checked during updates, not something that disappears immediately when it reaches 0\\.5 seconds\\. A sparse cache cell may wait until the time update threshold before being rechecked; when there is no new point cloud, this processing will not execute\\. Increasing the decay time helps retain ground samples, but may also prolong the residual presence of old objects; if decreased, it is necessary to observe whether holes appear in sparse cells\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 96,
+        "costUsd": 0.000175
+      }
+    },
+    "d77d8814026f5cf9a680151696794982aba32cb5cb8d1e067859bd4e46f4c3c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6b0fb5bdc57f962670c429e87a5524b814e53c37aa15e4c66325ed73fe1aefa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t\t全局区还包含了常量区, 字符串常量和其他常量也存放在此.",
+      "translatedText": "The global area also includes the constant area, where string constants and other constants are also stored\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "d7a95218d302d89d2c20dee088be40a1e1b06380ac6fb1279b615a8ea3de3a12": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d51bdfc0639c90cecace45dc1dbb5a157bc21dcceac40a3bca79fbbb14fb7a6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果输出类似：",
+      "translatedText": "If the output is similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "d7abfc8881da70695b48d5dbeb95014045bdea5a99e3f2c451e8d9da47e5a1bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dd83c5466b438d8883d3dda217a3ef3429d4a6c16a00759da8dadc1b3994cca",
+      "contextFingerprint": "d06f9338a958a4a2d89ae9d8769f50740237db83c447bfce3be5835316b4e02b",
+      "sourceText": "**语法：**` for(起始表达式;条件表达式;末尾循环体) { 循环语句; }`",
+      "translatedText": "**Syntax:**` for(起始表达式;条件表达式;末尾循环体) { 循环语句; }`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "d7b2d4d8bdb3f94034432245c0525d6aa9dc23bda20e690695455029a029d601": {
+      "normalizationVersion": 1,
+      "sourceHash": "90536979c1dd75843bc2a9ffe80493877764804f78789ad57e16556d6c5c7290",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初始化完成后的常规处理，大致是：",
+      "translatedText": "The routine processing after initialization is roughly as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "d7f053376b8e10e2687fb8e79b38f4efaf8924f7ce2748ba6e38000a73392aef": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fc8a84108317888fd334478ca8663b3d2dd5acddcf6119b41986b59e88cd819",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### checkTerrainConn 及三个配套参数：当前先知道没有生效",
+      "translatedText": "###### checkTerrainConn and three accompanying parameters: currently, it is known that they have not taken effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "d7fa6b424b1e69e2ae5f004f6c8e8e0933a0a33e0e89333f3b085a8eb5f7d2af": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3c34d4e6284f0d9a77e41f7729a30918537ba1139f7c0634475f423165a7aa5",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**作用:** 用于跳出==选择结构==或者==循环结构==",
+      "translatedText": "**Purpose:** Used to break out of an ==selection structure== or a ==loop structure==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    }
+  }
+}

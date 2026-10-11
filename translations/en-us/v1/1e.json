@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1e10802c9e81c94886a32f1f398419721bad70ff56fea3051de2c9f6f8efa710": {
+      "normalizationVersion": 1,
+      "sourceHash": "fab2cd40b321d89ce101789491402d87a3d84aff1167939c9ef06844130b5b6d",
+      "contextFingerprint": "9e2dcd801a6e7154961437dd135725947ac193daf87736b80b256430d4597b26",
+      "sourceText": "###### map_start_at_dock（从旧地图第一帧继续，当前未启用）",
+      "translatedText": "###### map_start_at_dock (continued from the first frame of the old map, currently not enabled)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "1e134b2a85aeb6dddcce7628bf12c5479ce5e48828d7958196e83292d686852d": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd2f38ffa2b43c862fee6697be51c5a46a883f88982d9a8a66b07bf4b98ea57b",
+      "contextFingerprint": "50c2e3042bd7fa1d7f3956c134ec01a70ccfc31f8ffc8426dff973b88e3f9139",
+      "sourceText": "- 在终端执行`code .`启动VS Code，Codex插件可以正常打开；\n- 点击KDE任务栏中的VS Code图标启动，Codex插件却无法正常进入。",
+      "translatedText": "- Run in the terminal`code .`Startup VS Code, and the Codex plug\\-in can open normally;\n- Start it by clicking the VS Code icon in the KDE taskbar, but the Codex plug\\-in fails to load properly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 53,
+        "costUsd": 0.000113
+      }
+    },
+    "1e1b95f466df42668203c9cbb5b955b0989fbf654e6989533f97dbc7c9a7eddd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2b664bd41335db7d6493750f9a403cfcf0335af896bc8d9936ec33c51fbfe9e",
+      "contextFingerprint": "b42b6c7371bc3a15890c6719acd4d69b64cd85604bacea2f5be2ea1a2ec4d761",
+      "sourceText": "本功能包复制于 `pb2025_robot_description`。为便于复用，将功能包目录命名为 `robot_description`，并将 `package.xml` 的 `<name>`、`CMakeLists.txt` 的 `project()` 和 launch 中的包查找名称同步改为 `robot_description`。",
+      "translatedText": "This feature package is copied from `pb2025_robot_description`\\. To facilitate reuse, the feature package directory is named `robot_description` and the `package.xml` of `<name>`the `CMakeLists.txt` of `project()` and the package lookup name in the launch file are synchronously changed to `robot_description`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
+    "1e1fd2fa89b7279ac61e1afe4b6ba5a68af8bc30a3fc70bda9fbc1116c0cad52": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe532d71478a43e0d058ae9d6addfaa7da183a47eeb6a282ac04ea136fa9a5da",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 共用体 union",
+      "translatedText": "## union",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 8,
+        "costUsd": 0.00005
+      }
+    },
+    "1e21f6bddbe7ff8cb45aebe4d8de9681b3882e7990591f4b4571b37cc75462fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce57e7b83768ee25f97006158d29640ef1d1fa65ae5e5d24ef24debad7dbba0f",
+      "contextFingerprint": "05fadaf329e650a2f12602e4a7855b65a32edca2d392ed6a9b3af5abd21e575e",
+      "sourceText": "因为 `main.c`、`cpp_interface.cpp` 和 `cpp_interface.h` 都在 `src/` 同一层目录下，所以这里使用双引号包含时，编译器可以从当前源文件所在目录找到它。",
+      "translatedText": "Since `main.c`、`cpp_interface.cpp` and `cpp_interface.h` are all in `src/` the same directory, when double quotes are used for inclusion here, the compiler can find it from the directory where the current source file is located\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 45,
+        "costUsd": 0.000104
+      }
+    },
+    "1e2674a107dd3a3ace3b4e303a69e588509d2b9a588cf36877342a496c5e7b22": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1caaaf1010d60a37deb113485c50679d5a63bfbac62bf7ad40fb641cd2503f4",
+      "contextFingerprint": "3de538b2da2e81bf0ddc0b08adb64513e06ace94f6c01738bb3f0c463c421ff2",
+      "sourceText": "PCD读入后，源码查询 `base_footprint ← front_mid360`，再把这个矩阵左乘到**整份地图的每个点**。它按节点当前时间查询，失败后每秒重试，成功一次就继续；没有查询次数上限，也没有在后续云台转动时更新目标地图。",
+      "translatedText": "After the PCD is read in, the source code queries `base_footprint ← front_mid360`, then left\\-multiplies this matrix onto **every point of the entire map**\\. It queries based on the node's current time, and after a failure retries every second, continuing once it succeeds; there is no upper limit on the number of queries, nor does it update the target map during subsequent gimbal rotation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 87,
+        "costUsd": 0.000161
+      }
+    },
+    "1e32d0d9bb0ea85562c11b9ed1575d19b7f90ed688d9dcd545bb1059eab55b51": {
+      "normalizationVersion": 1,
+      "sourceHash": "afdad6015aa0a62fc8f2bd3fe6ee25cfad237596841be9b634753849c8a816f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把这里的name改成",
+      "translatedText": "Change the name here to",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "1e6210f9486a949731fc2cfe0b9f3a1df13debfe2021450de42b25bc236e05cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "03f80780b0c2bf105d509cbfc4b08a8041337904ea8d2b0ca8505b4c63614d81",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 当前 Baseline 选择判断",
+      "translatedText": "## Current Baseline Selection Criteria",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "1e6fd4ef1cb1cf63b02091602e35a8b357a0fa98fb9175b487b0cadd90f25ec5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a520674949554f4897ffdf2f27631312c4bd80f616fc304e30bdb83843536e1",
+      "contextFingerprint": "ad77f8fb9baf620814d87c3db7e9022e93ca3f8acddbeb0c70a77a5a8a8b3f3b",
+      "sourceText": "教程及官方README将scan_topic说明为绝对名称；当前2.6.10订阅实现没有强制这一形式，本工程使用相对名称obstacle_scan，按ROS规则解析。话题名称与消息中的frame_id也是两件事：名称决定接收哪条消息，frame_id决定扫描坐标如何解释。[ROS2话题名称规则](https://design.ros2.org/articles/topic_and_service_names.html)",
+      "translatedText": "The tutorial and the official README describe scan_topic as an absolute name; the current 2\\.6\\.10 subscription implementation does not enforce this form, and this project uses the relative name obstacle_scan, resolved according to ROS rules\\. The topic name and the frame_id in the message are also two different things: the name determines which message is received, while frame_id determines how the scan coordinates are interpreted\\.[ROS2 topic name rules](https://design.ros2.org/articles/topic_and_service_names.html)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 239,
+        "outputTokens": 135,
+        "costUsd": 0.000234
+      }
+    },
+    "1e75e2ba0ce54c4677d66d540100711fa6aa744231988a9ceac3c202e789bd79": {
+      "normalizationVersion": 1,
+      "sourceHash": "823e48925d85ae81fff554233c6ae5b16a733da87a15cdce232aec125b8f2cdf",
+      "contextFingerprint": "ddb659f563400cbf203d43e06d9c5f9da23ff7ee3aed16e60d16a86ac10a74fc",
+      "sourceText": "1. **\\#define** 宏常量： `#define 常量名 常量值`\n   * ==通常在文件上方定义==，表示一个常量\n\n2. **const**修饰的变量 `const 数据类型 常量名 = 常量值`\n   * ==通常在变量定义前加关键字const==，修饰该变量为常量，不可修改",
+      "translatedText": "1. **\\\\\\#define** Macro constant: `#define 常量名 常量值`\n   * ==Usually defined at the top of the file==, representing a constant\n\n2. **const**\\-modified variable `const 数据类型 常量名 = 常量值`\n   * ==Usually, the keyword const is added before the variable definition== to modify the variable as a constant that cannot be changed",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 60,
+        "costUsd": 0.000124
+      }
+    },
+    "1e76131d899ec4b44d1a5549d8088a6676eb17807937d26b66ff16c3ba9a6855": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d8896c42c9292a12c84b2d02e5757dba0313ff26a758e664984881ebc40c56b",
+      "contextFingerprint": "bc3c6f7a5e048f2d4e35f6ca52c1d49d2f00978800a70059740f82c72b63761c",
+      "sourceText": "这是我们第一次把函数声明单独放进头文件。`swap.h` 只负责告诉其他源文件：工程中存在一个名为 `swap`、接收两个 `int` 参数的函数。",
+      "translatedText": "This is the first time we have placed a function declaration separately into a header file\\.`swap.h` It is only responsible for telling other source files: there exists in the project a function named `swap`, which takes two `int` parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
+    "1e798fc280b5031781f360fbd8cc8b45dea0279572750e6568bac3d37d97a20c": {
+      "normalizationVersion": 1,
+      "sourceHash": "65031d2db2f9fe87a8a005bf6308c7f89b3cf31a58b8627dce30d76b55b24e69",
+      "contextFingerprint": "e0896649f13901d50c4170c2bf07fe0771567ac2144a6937b53dece41be4c26d",
+      "sourceText": "当前在5 m水平距离处，缓存候选窗口为(-2.5,1.5) m。但源码在收集地面样本和输出正常点时，又要求固定的 `-1.5<Δz<0.5`，没有继续使用距离扩展。",
+      "translatedText": "Currently at a horizontal distance of 5 m, the cached candidate window is (\\-2\\.5, 1\\.5) m\\. However, when collecting ground samples and outputting valid points, the source code still requires a fixed `-1.5<Δz<0.5`and no longer uses distance expansion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 60,
+        "costUsd": 0.000125
+      }
+    },
+    "1e839da79617d78b645069175cc08f67c75dff4139a63a567ab83bd596523ce1": {
+      "normalizationVersion": 1,
+      "sourceHash": "382ea4697811f964ca429f95a69cf64aea4ff49117826d94885d43bc9d076548",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 无线更改修改文件：",
+      "translatedText": "##### Wireless change modification file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "1e98055726540cf0095a2bc1f8cfbc01a6b72e4c22766b5d0dffe090d6073b96": {
+      "normalizationVersion": 1,
+      "sourceHash": "2948396ff10365ab3b35bc4ceac1523e25af8d1b57f9cee8029fd45dd001a251",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在多态中，通常父类中虚函数的实现是毫无意义的，主要都是调用子类重写的内容",
+      "translatedText": "In polymorphism, the implementation of a virtual function in the parent class is usually meaningless; it mainly calls the content overridden by the subclass\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
+    "1ed03977a274019f07f95dfe46df1d7f69db057b7c402d354da9861e197f899c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac6cbd0a870143f3d24bbe42065b0ab1b0bc479c55f355639db6dd40fea16d17",
+      "contextFingerprint": "ddc118882feffd8c3089ba37efaefca5f260d7cf153ff4f5e4a380f119ad8c53",
+      "sourceText": "* 内存编号是从0开始记录的，一般用十六进制数字表示\n* 可以利用指针变量保存地址\n\n  ​",
+      "translatedText": "* Memory addresses are numbered starting from 0 and are generally represented in hexadecimal\\.\n* Pointer variables can be used to store addresses\\.\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
+    "1ef694b2bb7b24ea6ba5ac175a619059ca35a35716b3ea06168a58d17d1d60ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "08d2cd1281b5e6b6fe163060534eaaa3f9ca08da3fbf316c796b289a0abfdc10",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "yaw这里：",
+      "translatedText": "Here for yaw:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    }
+  }
+}

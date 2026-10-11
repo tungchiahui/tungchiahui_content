@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "591e6a0112de5bc8c6d433402479202b5d9d4004a7642bfd4e22d39a33be8167": {
+      "normalizationVersion": 1,
+      "sourceHash": "a552a139989b1357dcf535cf08b4ba1267630f7c3eb2d9be2f327d542f5d4bd6",
+      "contextFingerprint": "b5583a6e3dc89aa26580ddd8e39bfc701e213c741845dfa10fc634bf1b42a228",
+      "sourceText": "同一定位启动链中的 small_gicp 也会接收先验文件，但它是另一个节点。Point-LIO 关闭先验，不代表 small_gicp 没有使用地图。",
+      "translatedText": "small_gicp in the same positioning startup chain also receives the prior file, but it is another node\\. Point-LIO closing the prior does not mean that small_gicp did not use the map\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 67,
+        "costUsd": 0.000137
+      }
+    },
+    "593cfba50ed1ffcde14d9a2756e73819894f91c9d80c719ce3710ebfc1155f02": {
+      "normalizationVersion": 1,
+      "sourceHash": "02ba5490b69c6b66ec6358be09ce9fb0657a6bad47a07194bd1ccb60e7e5f55d",
+      "contextFingerprint": "36ef7b06e167e8b0128f7586c533ea266a8ef388af1de113e726544702fb4749",
+      "sourceText": "MID360继续挂在 `gimbal_yaw`，随实际 yaw、不随实际 pitch 转动；实际 yaw、pitch 分别只在 `gimbal_yaw_joint`、`gimbal_pitch_joint`，两个 odom 关节固定。虚拟系不是增加第二个实际 yaw，串口 JointState仍按机械相对角填 `{relative_pitch, relative_yaw, 0, 0}`。",
+      "translatedText": "MID360 continues to be mounted on `gimbal_yaw`and rotates with the actual yaw but not with the actual pitch; the actual yaw and pitch are only in `gimbal_yaw_joint` and `gimbal_pitch_joint` respectively, and both odom joints are fixed\\. The virtual frame does not add a second actual yaw, and the serial JointState is still filled according to the mechanical relative angle as `{relative_pitch, relative_yaw, 0, 0}`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 79,
+        "costUsd": 0.000152
+      }
+    },
+    "5940acf7720b378602f77316ff91bc15714325377b4cb02a8cdbc51f2b7633d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a73a789bb3ff6b86a42d6b01c6b6753bd0bd0fb5b9e1bf2fcfefad219ae04e60",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "静态成员分为：",
+      "translatedText": "Static members are divided into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "597e52dbeb911105ee0bd06814fa95bbd279f73b31f7021fc028304c6ffaca1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "143f55fe52ba4a5af0074fb8d9f5be096fbadf850ff15d7a0c693d2480ece95c",
+      "contextFingerprint": "e15428d960b3b5568f6fdfd165835382bd8c171ee53c8c2e27bab93491ecb446",
+      "sourceText": "#### 修改 main.cpp",
+      "translatedText": "#### Modify main.cpp",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "599e17c45f719aafad019e78932a4ad50fe0073745e615d8beb19d5342075097": {
+      "normalizationVersion": 1,
+      "sourceHash": "e52186df0858fe01c5ff38fc2fae6c31a81ede296ccf214b3560d47541a3af07",
+      "contextFingerprint": "272ddbb99950b2a21bc3a17ca3caf54befc41c3fa7c3a876a068d2ebdb033bff",
+      "sourceText": "###### lidar_meas_cov（激光匹配对位姿的影响）",
+      "translatedText": "###### lidar_meas_cov (Effect of laser matching on pose)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "59d309364a5c766f6f74590ff44b97334da5989b3de6904fcd1f15bc0b4c7373": {
+      "normalizationVersion": 1,
+      "sourceHash": "a93e58594510ac725938a55d667479db2a739ba4db4205a95e6dfd3137fe0511",
+      "contextFingerprint": "4ade8d81dc4fd77894e68146589acdfaf2cc39b178e87ecf627aeaa3cbc1470a",
+      "sourceText": "它不仅决定字段怎样解析，还决定订阅 CustomMsg 还是 PointCloud2。当前实车驱动在 livox/lidar 发布 CustomMsg，所以设置为 1。",
+      "translatedText": "It not only determines how fields are parsed, but also determines whether to subscribe to CustomMsg or PointCloud2\\. The current real\\-vehicle driver publishes CustomMsg at livox/lidar, so it is set to 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 58,
+        "costUsd": 0.000121
+      }
+    },
+    "59f8001cc0f7fd9dafc458b3260f8040e9c3db1e2727bef69dc49fd10b38c8e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dc0ef40e1cfb7c892525840c36f1a7d0a0ddd88521efdc1ea910d261de372fb",
+      "contextFingerprint": "61dfdff679ef708e3a59f5191855993c4b789f30e452682216bc77f732ad0118",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713106888.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780713106888.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

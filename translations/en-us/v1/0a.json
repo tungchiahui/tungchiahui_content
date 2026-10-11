@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "0a088d3ada680a5b82cabdb6d1fdb76aa797e0864b1e2189055c763ca6d4ff7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8335e8c226af462a34d75afbe7d5220335bef563aeb7be8318d6fc767ca838b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 标识符命名规则",
+      "translatedText": "### Identifier naming rules",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0a141cc93769b72a4107cfd63ce83234560821871b21e434a70e0e748e1a4c97": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c55bcf0bf4c33323d8e7c0412868b3694a70467d521c91a96082167a2ca2682",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每500 ms真实时间尝试匹配一次，有点才处理；每轮降采样、估计局部形状、搜索地图对应点，最多做10次优化迭代。匹配报告收敛才更新结果，未收敛则沿用旧结果，但本轮累计点仍会清空。收敛表示算法停止条件满足，不证明匹配到了场地中正确的位置；源码没有再按匹配误差、有效对应比例等检查可信度。",
+      "translatedText": "Every 500 ms of real time, one matching attempt is made, and processing is performed only if there are points; each round involves downsampling, estimating the local shape, and searching for corresponding points in the map, with at most 10 optimization iterations\\. The matching report updates the result only upon convergence; if it does not converge, the old result is retained, but the points accumulated in this round are still cleared\\. Convergence means the algorithm's stopping condition is satisfied, and does not prove that the correct location in the field was matched; the source code no longer checks credibility based on matching error, valid correspondence ratio, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 134,
+        "costUsd": 0.000226
+      }
+    },
+    "0a21c46ea9bc725d1c7db83571d5cffd1f15de76930145d4c9673362fceeb031": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a420ac75559b86808dc1dff7b7b1a5c314229720c2d7af68defcc1e6ee0153d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "3．默认拷贝构造函数，对属性进行值拷贝",
+      "translatedText": "3\\. Default copy constructor, which performs value copying of attributes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "0a3242b389ef82e3e2095f38e9c3c10ae13926e9f79c3dc8096b5b4fe5a58d15": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e3969b08b08f8742ee4d51a179c2961427c45a7b966ff6fa686edf5ac56b595",
+      "contextFingerprint": "5143faaa42d930324efb460baad5171a62944dea12e09b5bfa3f6cb58613ddf8",
+      "sourceText": "例如输出一个名字和分数，`std::cout` 常写成 `std::cout << name << \": \" << score << std::endl;`，现代写法可以写成 `std::println(\"{}: {}\", name, score);`。",
+      "translatedText": "For example, output a name and score,`std::cout` often written as `std::cout << name << \": \" << score << std::endl;`; the modern notation can be written as `std::println(\"{}: {}\", name, score);`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "0a3774301fb8c421c0bd140a6941fb5c342d81e28828f1c11e55ef0a433563a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bdbd5d6ac0327163999b63ecbed785b91b1f9e930c896fb61acaadaa65b5e33",
+      "contextFingerprint": "8abb55c4b5c0b0aa6722b5111b2274442c6a5fcc8a7e6950cd63185464284714",
+      "sourceText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-1541671163478-92952bb1c4.webp)",
+      "translatedText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage1-clip-image002-1541671163478-92952bb1c4.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0a428068bfa38722a430d8f24b96f15f628259b6a024c0161eae530257cd31f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8288c3b942e694f4b86d2492d076b537bbfc0f1a07c53d09cce2fd17c63241b",
+      "contextFingerprint": "ef59359e73c933d727268faa54c9ee74fc9959d9c245ba4fdc70a86f4d560efa",
+      "sourceText": "1. **单行注释**：`// 描述信息` \n   - 通常放在一行代码的上方，或者一条语句的末尾，==对该行代码说明==\n2. **多行注释**： `/* 描述信息 */`\n   - 通常放在一段代码的上方，==对该段代码做整体说明==",
+      "translatedText": "1. **Single\\-line comment**：`// 描述信息` \n   - Usually placed above a line of code, or at the end of a statement, ==to explain that line of code==\n2. **Multi\\-line comment**： `/* 描述信息 */`\n   - Usually placed above a block of code, ==to provide an overall explanation of that block of code==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 63,
+        "costUsd": 0.000129
+      }
+    },
+    "0a7f5ccb6c9fa6c42e7903ee3a5837340f7938f1375cb12a15e0f91379093634": {
+      "normalizationVersion": 1,
+      "sourceHash": "127dc62125cbcd83653e8f7d0238eae03a786a5cd0752282c36fd237a62e01d9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 深拷贝与浅拷贝",
+      "translatedText": "#### Deep Copy and Shallow Copy",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "0a7f795af68e4e0d5f70cd92f70e18cefbfc7ae169ace2c5cc3a434ce1461628": {
+      "normalizationVersion": 1,
+      "sourceHash": "1205e451a71b0924020bd3cb887d9843157e7fc6d1581f02394369a9d6279625",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 总体框架",
+      "translatedText": "#### Overall Framework",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0a8e7cce2bc5ae94905758741c3d0b9bdac1f3deafaeee5712153c0a293d814b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a717d6a40b654c1fb8810f8f5507744eb328b31c2ea58f865cc46cbba8fc44af",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**嵌套if语句**：在if语句中，可以嵌套使用if语句，达到更精确的条件判断",
+      "translatedText": "**Nested if statement** : Within an if statement, another if statement can be nested to achieve more precise condition judgment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "0a9410f10abe8c523b4a9a2ced89eba0a3068668d3845ae465d9b40648b7fc8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8de7526031b8d2f7ed2f61ebc43848d1967625e9d2f605da60d63adbbcbd337",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 引用的本质",
+      "translatedText": "### The Essence of Reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "0a9750ac81a0d779fd5951dfcaaf62f08bb2ebf007aeaf2be78cbdbc9e222625": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce76aa3cf75a9c7ae74a7b1897771b020cd56f1fbad145452f6115329c9bf433",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 概述",
+      "translatedText": "### Overview",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "0aa0139bed46db2fa13576c66d60aa8d35eac225969c761adfcf2810a846e5f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "32350593a7fea9043ec39bb5fd0d846fd13885d7a3f408ceda15897e512cd507",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "​\t\t在C++中主要利用new在堆区开辟内存",
+      "translatedText": "​\t\tIn C++, new is mainly used to allocate memory in the heap area\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "0aab0900159c0f0ccc9b9e910b81b8f79afa1782ac9e8a9c5148212d3791c826": {
+      "normalizationVersion": 1,
+      "sourceHash": "394fc2a3426f1cab9f1a6e99a1e1f780004c267c2758511f2d99a06e272c048e",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**封装意义一：**",
+      "translatedText": "**Encapsulation significance one:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "0ab12f6c3a75571047ab50df1d76e03dd9414ddffa4d0a43edc7178aa69557e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf669025656c82e544bff901b16423af707b5cd4fa421ee3133cfb8f1b262ea2",
+      "contextFingerprint": "0a3a0f8483d4ca2f295d2569f7f0fc7f1f4807999694f46af7d4cc6b378f8768",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404919231.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/14/1768404919231.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0af77930f9c2bc362ad9c31ae4554d420efcbf7b7914f5ac7d63a0486cc462d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "b14648e2fa09e86d8032cb83a05e0f7d244422bc0530aba14f56bd0b05278eec",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 注意：在执行循环语句时候，程序必须提供跳出循环的出口，否则出现死循环",
+      "translatedText": "> Note: When executing a loop statement, the program must provide an exit from the loop; otherwise, an infinite loop will occur",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    }
+  }
+}

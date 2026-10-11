@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "520fd27cbd371a4782b0963f2add73c2e09f2a79e84761353d17fd86049710e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "593731f99ad36b29bc5714c4eae1af7bb8b71a8f47d2b1d87972ce453c7304a6",
+      "contextFingerprint": "b1f721604ea920e338e31996dbec65328d3724b5f857787a6c054e2696eae763",
+      "sourceText": "| 实车上可能看到的现象 | 先看哪些参数或条件 | 怎样理解 |\n|---|---|---|\n| 上坡或下坡远处的地面消失 | `lowerBoundZ`、`upperBoundZ`、`disRatioZ` | 它们决定相对输入雷达位置，向上、向下能保留多大的高度范围；本节点的范围会随水平距离扩大 |\n| 正常坡面、下坡被画成障碍 | `useSorting`、`quantileZ`，以及下游10 cm障碍门槛 | 每一小片区域先选地面高度，再计算点离这个高度有多远；本节点远场对高低两侧都取绝对值，正常坡的较低侧也可能过门槛 |\n| 同一障碍或坡面在4 m附近表现突然变化 | `localTerrainMapRadius` 与两个节点的规则差异 | 近场与远场的地面格子、点密度、高度上限和负高度差处理不同；要检查交接处，不能只调一边 |\n| 想排除顶棚、判断地面是否与车旁连得上 | `checkTerrainConn` 及其三个配套参数 | 当前 False，专门的连接检查和顶棚筛选没有执行；`ceilingFilteringThre=2.0` 此时不起作用 |\n| 人或障碍离开后，旧点没有在0.2秒消失 | `decayTime` 与两项 `voxel…UpdateThre` | 旧点只在缓存块更新时检查年龄；0.2秒不是准时删除的倒计时 |\n| 以为 `clearingDis=20.0` 会自动清掉20 m外的点 | 清图事件与 `clearingDis` | 它仅在外部触发时清除20 m**内**的自身缓存，平时不按这个半径清图 |",
+      "translatedText": "| Phenomena possibly observed on the actual vehicle | Which parameters or conditions to check first | How to understand |\n|---|---|---|\n| The ground disappears at a distance on uphill or downhill slopes | `lowerBoundZ`、`upperBoundZ`、`disRatioZ` | They determine the relative input radar position and how much height range can be retained upward and downward; the range of this node expands with horizontal distance |\n| A normal slope or downhill is drawn as an obstacle | `useSorting`、`quantileZ`and the downstream 10 cm obstacle threshold | For each small patch of area, the ground height is first selected, then how far the point is from this height is calculated; in the far field, this node takes absolute values on both the high and low sides, so the lower side of a normal slope may also exceed the threshold |\n| The same obstacle or slope shows a sudden change near 4 m | `localTerrainMapRadius` and the rule difference between the two nodes | The ground grid, point density, height upper limit, and negative height difference handling differ between near and far fields; the transition must be checked, and adjusting only one side is not enough |\n| Want to exclude the ceiling and determine whether the ground is connected to the side of the vehicle | `checkTerrainConn` and its three supporting parameters | Currently False, so the dedicated connection check and ceiling filtering are not executed;`ceilingFilteringThre=2.0` does not take effect at this time |\n| After a person or obstacle leaves, old points do not disappear within 0\\.2 seconds | `decayTime` and two items `voxel…UpdateThre` | Old points are checked for age only when the cache block is updated; 0\\.2 seconds is not a countdown for deletion on time |\n| Think that `clearingDis=20.0` will automatically clear points beyond 20 m | Clear map event and `clearingDis` | It clears 20 m only when externally triggered**inside**of its own cache; normally it does not clear the map according to this radius |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 410,
+        "outputTokens": 361,
+        "costUsd": 0.000557
+      }
+    },
+    "5215bfc60dcaafe7cd30999abce3fd4c7d256c4f4bea30b1e69605ba21c5a99d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1eba3706acbecbf8ceac5192ebf5c56d8d6ab575ba1b6cb8bc6d11570e7da183",
+      "contextFingerprint": "74ba3679f134d8f9efcf57bb3709d3f2fe96d84b45b2d61a11ea9182551951c8",
+      "sourceText": "*  静态成员变量\n   *  所有对象共享同一份数据\n   *  在编译阶段分配内存\n   *  类内声明，类外初始化\n*  静态成员函数\n   *  所有对象共享同一个函数\n   *  静态成员函数只能访问静态成员变量",
+      "translatedText": "*  Static member variables\n   *  All objects share the same data\n   *  Memory is allocated during the compilation phase\n   *  Declared within the class, initialized outside the class\n*  Static member functions\n   *  All objects share the same function\n   *  Static member functions can only access static member variables",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
+    "5257987454f7da1c617eebeca1c4db27769f2553575fcfcd83af1bf36e50fe6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd7a307386b471636d54e55e69e696778705695ececa805d347291ddb2a793b0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**考试成绩统计：**",
+      "translatedText": "**Exam score statistics:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "527a1853229b7340b4b3de0d0a05675fc96d60e84f76c26d0c9fae754b05e6a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "72a10baabde5d70c6a61d5f3b5dac4b7a4e62060b2eb3f9ee59302aeb03539b0",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结2：不要滥用运算符重载",
+      "translatedText": "> Summary 2: Do not abuse operator overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "528b27963d19d7a79e4d85739725820def7768bfd1b934ab77b39be7fbd35bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "54d85561d440ccdaa61c87b318ee513e3fd66faee243b71ef927d1a50d75730d",
+      "contextFingerprint": "705f8a38b0d838259af465c2a4cded97666e1f7fcee07520b6660faab831be55",
+      "sourceText": "###### ivox_grid_resolution（地图搜索网格大小）",
+      "translatedText": "###### ivox_grid_resolution (map search grid size)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "52a1e4fb4470cc039bb5dc936764fcd078e66cd260a1961d79f9d2a55b031ff2": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d5c04db141fa9454b8d8f4f3f74077bfbc24ea251afebaa2eb9f494731bf5cb",
+      "contextFingerprint": "bc8acfc92c4944c874a15cb0f15a4f191c093bbe332cabbd04270cd2c593f102",
+      "sourceText": "###### lidar_frame（雷达坐标系与输出里程计子系）",
+      "translatedText": "###### lidar_frame (radar coordinate system and output odometry subframe)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "52d58070ffcbbc94866a898d0210df2228e368e9cca419400cad788f85dd8776": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8682ed1734674de7347e623faa156dcb280a9ef31d818d69bc94e4c475f6a01",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是呢，你也可以允许你的好闺蜜好基友进去。",
+      "translatedText": "However, you can also allow your best female friends and best male friends to enter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "52ffb5c6e9e08551fd83486538df5ff11c5af61063836b27f38db5946db8524b": {
+      "normalizationVersion": 1,
+      "sourceHash": "27c4fc437eb0a91be154fd6052893bac4641733356cb796391fce1368dc1d2e8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 二维数组数组名",
+      "translatedText": "#### Two\\-dimensional array array name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    }
+  }
+}

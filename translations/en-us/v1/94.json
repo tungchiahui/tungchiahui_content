@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "9441169c7ca5b6b95c0e47973f605cb85c0f74003e3461565d9f76992b41f981": {
+      "normalizationVersion": 1,
+      "sourceHash": "49b484705bb484e45f14cff5e0cab3c5c028482611ca7c91221b22703bf443cf",
+      "contextFingerprint": "a686099ca338582cad07ea6a31147a373595aaf3a9c12b43aa8a076b42474719",
+      "sourceText": "| 参数名 | 当前值 | 单位 | 实车处理建议 | 作用 | 调大效果 | 调小效果 | 生效条件／备注 |\n|---|---|---|---|---|---|---|---|\n| `path_en` | `False` | 不适用，布尔 | **根据实际功能需求开启或设置** | 是否发布累计运行轨迹 | 不适用 | 不适用 | True 发布 path，坐标系为 camera_init；轨迹持续累计 |\n| `scan_publish_en` | `True` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 是否发布参考系中的配准扫描点云 | 不适用 | 不适用 | 发布 cloud_registered，坐标系为 camera_init；本地 PCD 点云累计也依赖此开关 |\n| `scan_bodyframe_pub_en` | `False` | 不适用，布尔 | **根据实际功能需求开启或设置** | 是否额外发布内部 IMU 坐标系中的点云 | 不适用 | 不适用 | 需 scan_publish_en 同时为 True；话题为 cloud_registered_body，坐标系为 body |\n| `tf_send_en` | `False` | 不适用，布尔 | **通常保持当前值，不作为优先调试项** | 是否由 Point-LIO 发布自身位姿 TF | 不适用 | 不适用 | 当前集成链保持 False；True 发布 camera_init → aft_mapped，数值对应内部 IMU 位姿；独立调试开启时需核对 TF 组织，不是底盘位姿 TF |",
+      "translatedText": "| Parameter name | Current value | Unit | Vehicle processing suggestion | Function | Effect of increasing | Effect of decreasing | Effective conditions / notes |\n|---|---|---|---|---|---|---|---|\n| `path_en` | `False` | Not applicable, Boolean | **Enable or set according to actual functional requirements** | Whether to publish the accumulated runtime trajectory | Not applicable | Not applicable | When True, publish path, with coordinate frame camera_init; trajectory continuously accumulates |\n| `scan_publish_en` | `True` | Not applicable, Boolean | **Usually keep the current value; not a priority debugging item** | Whether to publish the registered scan point cloud in the reference frame | Not applicable | Not applicable | Publish cloud_registered, with coordinate frame camera_init; local PCD point cloud accumulation also depends on this switch |\n| `scan_bodyframe_pub_en` | `False` | Not applicable, Boolean | **Enable or set according to actual functional requirements** | Whether to additionally publish the point cloud in the internal IMU coordinate frame | Not applicable | Not applicable | Requires scan_publish_en to also be True; the topic is cloud_registered_body, and the coordinate frame is body |\n| `tf_send_en` | `False` | Not applicable, Boolean | **Usually keep the current value; not a priority debugging item** | Whether Point-LIO publishes its own pose TF | Not applicable | Not applicable | The current integration chain keeps False; True publishes camera_init → aft_mapped, and the values correspond to the internal IMU pose; when enabled for standalone debugging, the TF organization must be checked, and it is not the chassis pose TF |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 432,
+        "outputTokens": 337,
+        "costUsd": 0.000534
+      }
+    },
+    "9457764b580f93b6e25bb06daba76caa68d792b74ccc98c1386a576aa8c614c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "04516e5dbc5829af8e52f49086fd40abf8f8af745f836edc32c9f58bb2ecf5fc",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**总结：**",
+      "translatedText": "**Summary:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "945a8e9227bdb227832110830b279c609b50988a425794f727ab8e1645f0edbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecfeb1dc8afe8426d3186f3dcadc276055ce39293940d43fe30f306fd8363f70",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "静态多态和动态多态区别：",
+      "translatedText": "Difference between static polymorphism and dynamic polymorphism:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "947ba6746719cb042fa2f5bbff666937b975cb37b1162f96fbf0b9ef1c32f253": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3b97bcaa47f300bf06bab84701920bc9953c1378544be4b7f6a82dcbd2b9bbd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 1. 创建用户级应用目录",
+      "translatedText": "### 1\\. Create a user\\-level application directory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "9496bbc7e9ded86037f9d569182f41f9d69e338a9a2de738c46b55e23e42a894": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d5eeb54a245a1b047221def1dd90b00f6b201126eadb1000e97794758c6bfc4",
+      "contextFingerprint": "bcf84f867d5ae8430ff3776685432b08c3aa84050851183d5d513c8971e7f511",
+      "sourceText": "###### init_map_size（初始化地图的最少点数）",
+      "translatedText": "###### init_map_size (minimum number of points to initialize the map)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "94c42c9ed4973125a1bec06c93dd0b809bf4fd622a088399da57bd1d09537ddc": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc95713e2123934834aaa54b3eb697f02e4b80d9f08534d24e8ad8adcabac622",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面还有一堆北极熊原来的：",
+      "translatedText": "Below there is also a bunch of original polar bear ones:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    }
+  }
+}

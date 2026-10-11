@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "f80430bde4ff5311a75246167be99caca076411e980ab88d3e11535df0f71e83": {
+      "normalizationVersion": 1,
+      "sourceHash": "01dd2b841b6f3bf03106477548f2ebcca7c45857f4d201aef2f72652934eeb11",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Ubuntu / Debian",
+      "translatedText": "### Ubuntu / Debian",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f8244e5d44d2f9e284da316e5c7fc3b47451c9e84b2376d3a7ffc7dec2e6d8dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "77431c4e41b9296d790d2ec02cbb20e094024df5b8f82bbe70d2d2ebfb10f399",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**cin** 是与流提取运算符 >> 结合使用",
+      "translatedText": "**cin** is used in combination with the stream extraction operator \\>\\>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f87e94b3b97f0154a54196ab80a9616a472055b2a22d087cd9e02260e38c3cf4": {
+      "normalizationVersion": 1,
+      "sourceHash": "132bddd4a150fb758cc151e060f27f7018d1916c6d8874aa04553e4802410f49",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "324/2=162",
+      "translatedText": "324/2=162",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f881434bd5b400a639eabbfa1ad2c4645ac4732c348e330ad7d8ec52420d826a": {
+      "normalizationVersion": 1,
+      "sourceHash": "904bbfdb540c19f88e24eebe2e9f664f21fe98566a5495ef0d64cdf1d6822f86",
+      "contextFingerprint": "51b2b630e7715d051d5a9f92e635d22b30fa4213ffda42fc0a40a5c6b7dc8135",
+      "sourceText": "源码位置：`src/pb2025_sentry_nav/terrain_analysis_ext/src/terrainAnalysisExt.cpp`；启动来源：`src/pb2025_sentry_nav/pb2025_nav_bringup/launch/navigation_launch.py` 和两份 `nav2_params.yaml`；下游高度差筛选：`src/pb2025_sentry_nav/pb_nav2_plugins/src/layers/intensity_voxel_layer.cpp`。本块仅更新日志解释，工程源码、配置和参数值均保留。",
+      "translatedText": "Source code location: `src/pb2025_sentry_nav/terrain_analysis_ext/src/terrainAnalysisExt.cpp`; startup source: `src/pb2025_sentry_nav/pb2025_nav_bringup/launch/navigation_launch.py` and two copies of `nav2_params.yaml`; downstream height difference filtering: `src/pb2025_sentry_nav/pb_nav2_plugins/src/layers/intensity_voxel_layer.cpp`\\. This block only updates the log explanation; the engineering source code, configuration, and parameter values are all retained\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 51,
+        "costUsd": 0.000112
+      }
+    },
+    "f8d5d782392eb6b3530ff6007c9ff213b4a6e115a7c3665152a19de526e9695f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed505d047e1fd29493cadf5f1bd200a9e6c03591c65186f90f38990663d8eaca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如下图，朝后偏X=-2.99mm，朝左偏Y=104.69mm，朝上偏Z=255.58mm + 50.46mm = 306.04mm",
+      "translatedText": "As shown in the figure, offset backward by X=\\-2\\.99mm, offset to the left by Y=104\\.69mm, and offset upward by Z=255\\.58mm \\+ 50\\.46mm = 306\\.04mm",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
+    "f8fbfe5fa27cdc98bf8c07cb8031ef6e9b17e1f4e087c50091b86b9692af363a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c27b87c91934b92f5f91a9cb91044aa39c23cd6e380d996581a74a142e0d54b",
+      "contextFingerprint": "02317a5792c75530a56177fd58c5277d40df7103b525f2cdb9ad43e92bfd9f1d",
+      "sourceText": "这26项均在启动时声明和读取，没有动态参数更新回调。`maxGroundLift` 和 `noDataBlockSkipNum` 当前因开关关闭而不影响结果；`clearingDis` 由事件使用且可被消息覆盖，其变量变化也不能只靠启动参数表判断。",
+      "translatedText": "These 26 items are all declared and read at startup, with no dynamic parameter update callback\\.`maxGroundLift` and `noDataBlockSkipNum` currently do not affect the result because the switch is off;`clearingDis` are used by events and can be overridden by messages, and changes to their variables cannot be determined solely from the startup parameter table\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 68,
+        "costUsd": 0.000136
+      }
+    }
+  }
+}

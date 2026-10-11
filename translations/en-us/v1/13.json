@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1313bdb6336763a67776b8a7c72d4da232313333a447e822a5b878cbd1067dc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "3422d11edd67306e06d4b528aa10db2c1190efc3c8923e79df9acdcfb455b047",
+      "contextFingerprint": "4a9b959e63bb4251ce853314d1f6c057afb39129615e824bd4bebe94c184004e",
+      "sourceText": "2. 多行格式if语句：`if(条件){ 条件满足执行的语句 }else{ 条件不满足执行的语句 };`",
+      "translatedText": "2. Multi\\-line format if statement:`if(条件){ 条件满足执行的语句 }else{ 条件不满足执行的语句 };`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "135ecdf83986b9c451add096377ad411f863a1410de611209c032a4260ece101": {
+      "normalizationVersion": 1,
+      "sourceHash": "be14fd0ce4585a113bff83afdb489667b566f1052c941ec833d37650f1e3026d",
+      "contextFingerprint": "3adf3710f2526c5e3c9274d073c16a815d1daf33e4f148eb0338627760800df9",
+      "sourceText": "解决方式：将父类中的析构函数改为**虚析构**或者**纯虚析构**",
+      "translatedText": "Solution: Change the destructor in the parent class to a**virtual destructor**or a**pure virtual destructor**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "1368bdfafdb74b15c1cdd65277a52dc01b315c58b4af59e24d3d21f793756740": {
+      "normalizationVersion": 1,
+      "sourceHash": "5264d1f42544b7b8832beeab30b6d8490ea46de5ce7e1f663b938b20fee87486",
+      "contextFingerprint": "322783525c67d256e4fe2f40727d6dd5d809e6f2344ab9370c6e5624e5a1b0b5",
+      "sourceText": "| 导航旋转分量 | 附加自旋 | 最终输出 | 含义 |\n|---:|---:|---:|---|\n| +0.5 | +1.0 | +1.5 | 同向叠加 |\n| -0.5 | +1.0 | +0.5 | 反向抵消一部分 |\n| 0 | +1.0 | +1.0 | 导航没有要求旋转，仍有附加自旋 |",
+      "translatedText": "| Navigation rotation component | Additional spin | Final output | Meaning |\n|---:|---:|---:|---|\n| \\+0\\.5 | \\+1\\.0 | \\+1\\.5 | Same\\-direction superposition |\n| \\-0\\.5 | \\+1\\.0 | \\+0\\.5 | Reverse direction partially cancels |\n| 0 | \\+1\\.0 | \\+1\\.0 | Navigation does not require rotation, but there is still additional spin |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 83,
+        "costUsd": 0.00016
+      }
+    },
+    "137044fd976a3274ff88c8bf762a540f606a1f17b2478953a8251637b9c555ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3bef377818ef9013c0d57c5e4e8f1cc86e9e3b4a08cf1a6996fdc9155144e74",
+      "contextFingerprint": "2cc778e53c825b3ef32e3ec136c07a354ebd327ed38b41418ba169329eb72e59",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712071584.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780712071584.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "13762770050c8e10525db7f4a5440f721422c0b90065b8ab568b7323169ac55e": {
+      "normalizationVersion": 1,
+      "sourceHash": "158a0921b9eb23ba1e88abdd53b7a4f4200ebd8e0490067d5ace796fa0fd3480",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它管陀螺零偏估计的变化速度。实物静止时角速度若持续偏离零，需要先核对真实数据和偏差来源；这项不保证调大就能消除航向漂移。当前先保持0.0001。",
+      "translatedText": "It controls the rate of change of the gyroscope bias estimate\\. If the angular velocity continuously deviates from zero when the physical unit is stationary, first verify the real data and the source of the deviation; increasing this does not guarantee elimination of heading drift\\. For now, keep it at 0\\.0001\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 70,
+        "costUsd": 0.000138
+      }
+    },
+    "137713e5d1b45077f5376c9617d7731b93ce12c958d29f1296e6b295712ee880": {
+      "normalizationVersion": 1,
+      "sourceHash": "1305269977c5d474c337ed578b7f0c5384c8627416b7e1ff0e018d31aafa85e2",
+      "contextFingerprint": "2f9f7734b4ea6333ea5f466d935c55c1a21e1b3c203de59b1497e9c0c34e90c9",
+      "sourceText": "| 输出 | 代表工作 | 特点 |\n|---|---|---|\n| **Future RGB / Video** | NWM、Drive-WM、MaskGWM、One-Step WM | 人可以直接观察预测，但生成成本通常较高 |\n| **Future Latent State** | DINO-WM、X-MOBILITY、V-JEPA 2-AC、World4Drive、DreamerNav | 不追求画出未来，更适合 task-oriented prediction |\n| **Future 3D Gaussian Scene** | GWM | 显式三维几何结构 |\n| **Digital Twin Future / Imagined Data** | DreMa | 显式场景 + Physics，主要服务数据生成和策略学习 |\n| **Future Physical State** | MoSim | 直接预测机器人动力学状态，几乎不依赖 CV |\n| **Future + Action Chunk** | NavWAM | 世界预测与动作生成开始融合 |\n| **Unified Spatial Output** | Atlas | RGB、Depth、Point Cloud、3DGS 等统一空间内容 |",
+      "translatedText": "| Output | Representative Work | Characteristics |\n|---|---|---|\n| **Future RGB / Video** | NWM, Drive-WM, MaskGWM, One-Step WM | Humans can directly observe predictions, but generation cost is usually high |\n| **Future Latent State** | DINO-WM, X-MOBILITY, V-JEPA 2\\-AC, World4Drive, DreamerNav | Does not aim to render the future, more suitable for task-oriented prediction |\n| **Future 3D Gaussian Scene** | GWM | Explicit 3D geometric structure |\n| **Digital Twin Future / Imagined Data** | DreMa | Explicit scene \\+ Physics, mainly serving data generation and policy learning |\n| **Future Physical State** | MoSim | Directly predicts robot dynamics state, with almost no dependence on CV |\n| **Future \\+ Action Chunk** | NavWAM | World prediction and action generation begin to merge |\n| **Unified Spatial Output** | Atlas | Unified spatial content such as RGB, Depth, Point Cloud, 3DGS |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 351,
+        "outputTokens": 246,
+        "costUsd": 0.000401
+      }
+    },
+    "13dcbe325f2e3e3a8e71d9e5aa471ced3ddc50ba56fb1a7aa531684713f381cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "557c7b687708fafe02fdeaf2f1773ed7ba1fa2529cd8d8d5bcd63c48572eb8e7",
+      "contextFingerprint": "4e3e14ba9c7df0e92799533a1a511e8bd6ddee2fd8b754625615f87e40dc0a74",
+      "sourceText": "该单位按当前构建缓存库源码核实，库提交为 `fa0cfc983417c044b6036f71dfa448038bb9c820`。CMake引用master，重新获取依赖后应复核版本，不把当前缓存行为当成所有版本的固定承诺。",
+      "translatedText": "This unit was verified against the currently built cached library source code; the library commit is `fa0cfc983417c044b6036f71dfa448038bb9c820`\\. CMake references master; after re\\-fetching dependencies, the version should be re\\-verified, and the current cached behavior should not be treated as a fixed commitment for all versions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 62,
+        "costUsd": 0.000125
+      }
+    }
+  }
+}

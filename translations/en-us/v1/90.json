@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "900f93b7bae4c2c0857dc763d8b7bf30b0f88e926401530eeb820388422e133c": {
+      "normalizationVersion": 1,
+      "sourceHash": "97f6cb80d4972298ffd8b459c1773533336d41105f873a0359a835246e2c1c98",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有些类与类之间存在特殊的关系，例如下图中：",
+      "translatedText": "Some classes have special relationships with each other, as shown in the following figure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "90a8048be763478ddb9ae5d15b8e6301534508037829029959776535c7181bdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "87d61133ecdc0152f73072ec36da768e82042e2df7965587ad5bbb521fc03cf4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "缓存格只有满足以下任一条件才重做降采样和筛选：新入点累计达到100、距离上次更新达到1.0秒、收到清图事件。检查时按如下关系保留点：",
+      "translatedText": "The cache cell redoes downsampling and filtering only when any of the following conditions is met: the cumulative number of new input points reaches 100, 1\\.0 second has elapsed since the last update, or a map\\-clearing event is received\\. During the check, points are retained according to the following relationship:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 72,
+        "costUsd": 0.000139
+      }
+    },
+    "90bc035060fe44fc2a3d5fb4f199b5a38492d1fde60f571a01830b940d8c91b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "1280ef7ae8d0a6f7be16e3e7a50c21240a97d038f1c4b99bccd53a6814372116",
+      "contextFingerprint": "bf7d297576356d5053dd9deddf8b763a2abc2878d7c2bf4ad3edb379e0ec60c9",
+      "sourceText": "`lib1` 和 `lib2` 是模板自带的两个示例库。本节第一次整理它们：删掉暂时用不到的 `lib2`，把 `lib1` 改成我们自己的 `swap` 小库，再把模板自带的示例头文件和源文件分别重命名为 `swap.h` 和 `swap.cpp`，用它们完成本节的函数分文件编写示例。",
+      "translatedText": "`lib1` and `lib2` are two example libraries included with the template\\. This section organizes them for the first time: delete the `lib2` that is not needed for now, change `lib1` to our own `swap` small library, then rename the example header file and source file included with the template to `swap.h` and `swap.cpp` respectively, and use them to complete the function file\\-splitting example in this section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 80,
+        "costUsd": 0.000154
+      }
+    },
+    "90e8c540291aa8e75cc81b8d2af0d0f2e5405f45ca2a2e2f63442b9a092ce74e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a01c40b4efd30c8ba18f4dae53acc719b49c2b81afba72e0f46da9bab47c6a52",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结1：定义结构体时的关键字是struct，不可省略",
+      "translatedText": "> Summary 1: When defining a structure, the keyword is struct and cannot be omitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "90f384b84d811d1734acd2eccb506be0019f44a1d97b3177f0a5ab13ca90c32d": {
+      "normalizationVersion": 1,
+      "sourceHash": "05c49d305d0e9eeb44bb3b1e45d1264ea5def01f41b8a9c8d75f59ae0a4e7393",
+      "contextFingerprint": "e0b8a77ffd920dad15160ebc1054a934649ade208d905419544dc0ebc5224d7b",
+      "sourceText": "- `terrainUnderVehicle=-0.75 m`：仅当中心格没有地面样本时，假定地面在输入原点下方0.75 m，作为检查起点。若使用前提成立，应测量该原点到地面的关系；它不是底盘离地间隙，也不是直接读取的实车高度。\n- `terrainConnThre=0.5 m`：候选两片地面的高度差小于0.5 m才接上。过小可能断开正常坡，过大可能接上真实台阶或跨过缺口；不是允许爬50 cm台阶。\n- `ceilingFilteringThre=2.0 m`：连接检查中，高度相差超过2.0 m的候选可被标记排除。源码用绝对差，远低于当前地面的区域也可能命中；不是“高于雷达2 m就删”的顶棚线，也不是车顶净空。",
+      "translatedText": "- `terrainUnderVehicle=-0.75 m`：Only when there is no ground sample in the center cell, assume that the ground is 0\\.75 m below the input origin, as the starting point for checking\\. If the premise holds, the relationship from that origin to the ground should be measured; it is not the chassis ground clearance, nor a directly read actual vehicle height\\.\n- `terrainConnThre=0.5 m`：The height difference between two candidate ground patches must be less than 0\\.5 m to connect them\\. If it is too small, a normal slope may be disconnected; if it is too large, a real step may be connected or a gap may be bridged; it does not mean that climbing a 50 cm step is allowed\\.\n- `ceilingFilteringThre=2.0 m`：During connection checking, candidates whose height difference exceeds 2\\.0 m may be marked as excluded\\. The source code uses absolute difference, so regions far below the current ground may also match; it is not a ceiling line that deletes anything more than 2 m above the radar, nor is it roof clearance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 276,
+        "outputTokens": 209,
+        "costUsd": 0.000334
+      }
+    }
+  }
+}

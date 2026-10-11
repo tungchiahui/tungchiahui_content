@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "841542ad1d038a8e0813de665b67320c2ccf74bc8dbd0f16f9d1df083879a24e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b58a6aeb35828cd39f6527d3278393cb40c01177717921fbc4b7e4d22b14693",
+      "contextFingerprint": "ad89abb8ac658ca7df0f983a96664b9e020432d8f1821375714ec5a214e6e5df",
+      "sourceText": "MID360仍挂在gimbal_yaw，随实际yaw转动、不随pitch转动；两条odom关节固定。建图使用底盘系，不意味着可以将MCU世界姿态当机械关节角，也不改变这些机械约定。",
+      "translatedText": "MID360 is still mounted on gimbal_yaw, rotating with the actual yaw and not with pitch; the two odom joints are fixed\\. Using the chassis frame for mapping does not mean that the MCU world pose can be treated as a mechanical joint angle, nor does it change these mechanical conventions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 74,
+        "costUsd": 0.000145
+      }
+    },
+    "844f1dba97ad16fffb1c53742bf83e2a07ec2bf9f45d1509c6993a9f2f4c5435": {
+      "normalizationVersion": 1,
+      "sourceHash": "828ea76a03b2f2606784d1dde9ba292e57fd805798e006f1ed185da565f57b8e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 实物测试",
+      "translatedText": "#### Physical testing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "8478a3268f3fdcdb90dcb5d0eba1069159678eb816cd49a1deca2d640fe90ba7": {
+      "normalizationVersion": 1,
+      "sourceHash": "c154e5bda28c7dbabb76cee75a4991a8c8443990932a8cc31cc397624d8493b5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "改为",
+      "translatedText": "Change to",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "84ebb67d8c91954cb2f277595eba39ca19de830d04b9de7eea0a1742f83743bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "455eace9a0523de386abe981207c821b5bb473c87675b1320af9aff22f9eb94c",
+      "contextFingerprint": "c6eff09ac6354d84642cdce8a72ad4540d32b0860e544e51ed48ef2576e1f504",
+      "sourceText": "17项都在启动时声明和读取，没有动态参数更新回调；运行时仅写同名参数不会更新算法中的成员变量。`clearingDis` 可由清图消息改变量，这与重新读取 ROS 参数是两回事。衰减计时使用输入点云时间戳，不是电脑墙钟；本块未列 `use_sim_time`，也不能据此证明全链路时钟或点内时间单位已经正确。",
+      "translatedText": "All 17 items are declared and read at startup, with no dynamic parameter update callback; at runtime, merely writing parameters with the same names will not update the member variables in the algorithm\\.`clearingDis`It can change the quantity via clear\\-map messages, which is a different matter from re\\-reading ROS parameters\\. The decay timing uses the input point cloud timestamp, not the computer wall clock; this block does not list `use_sim_time`, nor can it be used to prove that the full\\-chain clock or the intra\\-point time unit is already correct\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 209,
+        "outputTokens": 111,
+        "costUsd": 0.000196
+      }
+    }
+  }
+}

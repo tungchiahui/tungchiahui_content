@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5322a666bd1facea99bc4f98f4a259b72b724b4246d61591dc365676611d9cff": {
+      "normalizationVersion": 1,
+      "sourceHash": "39b282a62665d221eda1880a6fc52c8b90d68a190e71b1e180e81c6f586ec273",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：在定义二维数组时，如果初始化了数据，可以省略行数",
+      "translatedText": "> Summary: When defining a two\\-dimensional array, if data is initialized, the number of rows can be omitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "532586afdb3f97b3abf26e481bcdf4ae5667d1cff0f0a91953103fac3baf6bda": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ce1e1e8a6d0e86f2a3fe8e303a44393819464b4ae0d2d91f4ee4c4d08f578e1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后查看雷达和imu的频率：",
+      "translatedText": "Then check the frequencies of the radar and IMU:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "533d20101f7b50cee2c30627532b677b7b9a93a67f85d748e8a36d4afc3701d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "6561b099c3bf9ebb46080000de02e13416ad71ca59c98bb5285b046408e2a924",
+      "contextFingerprint": "72f4169814bfb81f9195b44926cde4bf0332f7e64e4759dfa41b6136b8004760",
+      "sourceText": "平面角度以该系+x为0，绕+z逆时针为正；距离以该系原点计算。它与 `fake_vel_transform` 最终按云台系表达的速度指令是两条不同接口：这里处理测距轮廓，没有给底盘或云台下运动指令。",
+      "translatedText": "In this frame, the planar angle is 0 along \\+x, and is positive counterclockwise about \\+z; distances are calculated from the origin of this frame\\. It and `fake_vel_transform` Finally, the velocity commands expressed in the gimbal frame are two different interfaces: here the ranging contour is processed, and no motion commands are given to the chassis or gimbal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 80,
+        "costUsd": 0.000151
+      }
+    },
+    "5355e8999db49c1196e1f917817e07e1d2e086af5d7717e53e778d0d18ddb547": {
+      "normalizationVersion": 1,
+      "sourceHash": "df36ca397343255916f28cc5fc9d2b36bf1f6533b3fc949312b3fc42c3693779",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "观察 SLAM 轨迹时可以按需开启。轨迹没有固定长度上限，长时间累计会增加内存和显示负担。",
+      "translatedText": "It can be enabled as needed when observing SLAM trajectories\\. There is no fixed upper limit on trajectory length; long\\-term accumulation will increase memory and display load\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
+    "536b2d17ad08b9d99d5fddeec31a81951dc679a3f5a9459455791c95f77ee890": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6065b06ee049b4c9eb7f6e5362e10de4473568b2deaa8d6197b7d49740698be",
+      "contextFingerprint": "e8a302765b48d3e3b3d4391a0d120be3caad4f2d513a3d758aa30f6f0b9c29e4",
+      "sourceText": "节点只有在scan输出存在订阅者时才订阅cloud_in；最后一个扫描订阅者消失后，会取消点云订阅。输入和输出均使用SensorDataQoS；兼容的订阅QoS与有效TF是收到扫描的前提。全是被过滤的点时，仍可发布一帧全为无回波值的扫描，不能把“有扫描消息”视为障碍轮廓正确。",
+      "translatedText": "The node subscribes cloud_in only when there is a subscriber to the scan output; after the last scan subscriber disappears, it unsubscribes from the point cloud\\. Both input and output use SensorDataQoS; compatible subscription QoS and a valid TF are prerequisites for receiving scans\\. Even when all points are filtered out, a scan frame consisting entirely of no\\-return values can still be published; therefore, the presence of a scan message must not be taken as an indication that the obstacle contour is correct\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 116,
+        "costUsd": 0.000204
+      }
+    },
+    "53741a8f44914d5f563e6cc8cb77c3ec74a74902cf88bad64020148575fd2c4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c22420468df89b0a9f0536f6fe46077204cd7e7aaf10b88e8a2d229496c1878",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++中空指针也是可以调用成员函数的，但是也要注意有没有用到this指针",
+      "translatedText": "C++ A null pointer can also be used to call member functions, but you should also be careful whether the this pointer is used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "53894db5a67cfdf0b0a3d58c03d6fb15dd58976aa7a2b8345a61937cb9ca0a94": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ea2b5ae45b6eac4bf9997477a818fd1badedd85824964663141c2293214d0c2",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### voxelPointUpdateThre 与 voxelTimeUpdateThre（缓存点云更新门槛）",
+      "translatedText": "###### voxelPointUpdateThre and voxelTimeUpdateThre (cached point cloud update thresholds)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "539f843edabd601e7970ae7b3fd369a110fd83b8cd81c533befd78003c4122e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d882d417be3e3675300dfd821abf2cacc0995b9f1281a8aab72ac9fea8491698",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 函数",
+      "translatedText": "## function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "53bee2c6f2c9e04e94a195e96713fc7c8b6085fa596ebdc0ccc74254242d15cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd713b9688d0f2d88931094f41aa65e8d6a41c21d01682b0caec0985805370bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**作用：**用const来防止误操作",
+      "translatedText": "\\*\\*Purpose:\\*\\* Use const to prevent accidental modification",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "53ea57552a7eebc53f3e1c98a7bc99378a04673db4592faa3a19b405a7df3c2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "33ba540fc4b108066133f8480d09a33ba2725af037f42d0384fc5b1415c461bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还有：",
+      "translatedText": "Also:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    }
+  }
+}

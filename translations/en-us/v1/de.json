@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "de3edfbfb76fc3b56a2702aedde9911b04eb646454207c5ca1e4003eeeec83f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "aeb1d6a63f14a5adf5c7ae02d4eb01adbe9daa5ba883d7c2a0986e6062249579",
+      "contextFingerprint": "b0befea21fabca0d6c1566af68324921e0aaf2c46cdc6b5db4359cc406347e60",
+      "sourceText": "启用限制且使用排序时，地面估计不会高于“邻域最低高度 + `maxGroundLift`”。它限制的是分位地面相对最低样本的抬升，不是云台升降、底盘离地高度或每帧地面变化率。",
+      "translatedText": "With clamping enabled and sorting in use, the ground estimate will not be higher than \"the lowest height in the neighborhood \\+ `maxGroundLift`\"\\. It limits the elevation of the percentile ground relative to the lowest sample, not gimbal elevation, chassis ground clearance, or the per\\-frame ground change rate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
+    "de5a71aac0106d0ffa2d11004afd5edbd401344d122abf2de15cd40c46e251a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "53303bffdadbaa523792ffcb45dabf2d00fbaea52719387543ad0f63f03b5bcb",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**：见下方打印结果图；地址值每次运行可能不同，重点观察局部变量、全局变量、静态变量和常量所在区域的相对差异。",
+      "translatedText": "**Execution Results** : See the printed result figure below; the address values may differ on each run, so focus on the relative differences among the regions where local variables, global variables, static variables, and constants reside\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 49,
+        "costUsd": 0.000108
+      }
+    },
+    "de6868fd648564c12aa3d3ac566560044282e72bf9cd60aa2b738fe2a7eb65e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f13fe3544780f56f70ec208f5575071cbe1c64c6bcf719077811cdd74b7b326b",
+      "contextFingerprint": "6c45b4355cb08fdda13ec3f8b3cf895ef268473557b16db3420c2118751d4ebd",
+      "sourceText": "###### timestamp_unit（点内时间单位）",
+      "translatedText": "###### timestamp_unit (time unit within a point)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "de83cfdfdd330dbac6bbcc6c1ce0be3a11cfed5515d2d987c092c4d58938258e": {
+      "normalizationVersion": 1,
+      "sourceHash": "00e271ca56fb331934456607cf9ae3b62d96688bc7a81995852a186f3600d2ae",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 上坡下坡先看哪些参数",
+      "translatedText": "#### Which parameters should be checked first for uphill and downhill?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "de9eb26894eebeb86f24abb55ad10059ba0bc1f496c620ffd9e3bb73c0a8605c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4a3772c00640f5d84ebd4ddd1e77f6c4aacd7ee4650bc769c5a69df31ed5f84",
+      "contextFingerprint": "bb5ac9c6eb73c42052c9b591f986ada705980994cad4a3b2f496d6c6ef3b7e2b",
+      "sourceText": "###### vel_cov（速度估计的变化不确定性）",
+      "translatedText": "###### vel_cov (Uncertainty in the variation of velocity estimates)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "dea63d0fc5cb0ae9795933dc012e069a1d9aa932394d9f88d21ef1c2ae6336c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "82606e2fd990eb7298b84ec05e94bbc77fe05936842c40e1983a574280051593",
+      "contextFingerprint": "516e60072ecf606d4bd411addb15bad0a8ad05bbb5369bf893dc7a94fb0c295f",
+      "sourceText": "- 添加EXT4硬盘格式支持：Kernel modules > Filesystem > kmod-fs-ext4\n- 添加USB支持（如不添加可能会不响应键盘）：Kernel modules > USB Support",
+      "translatedText": "- Add EXT4 hard disk format support: Kernel modules \\> Filesystem \\> kmod-fs-ext4\n- Add USB support (if not added, the keyboard may not respond): Kernel modules \\> USB Support",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 51,
+        "costUsd": 0.000113
+      }
+    },
+    "dea76a941015eec22a01f965b6d5269a9c7be0d88132e6ce540596395a959a06": {
+      "normalizationVersion": 1,
+      "sourceHash": "01fe2aa7cbb4b391c3050917239106229f647fda4eeec95bdaa06b35e9278b52",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 从任务栏取消固定原来的VS Code图标；\n2. 在应用菜单中重新搜索“Visual Studio Code”；\n3. 从应用菜单启动一次并测试Codex插件；\n4. 确认正常后，再将新的图标固定到任务栏。",
+      "translatedText": "1. Unpin the original VS Code icon from the taskbar;\n2. Search for \"Visual Studio Code\" again in the application menu;\n3. Launch it once from the application menu and test the Codex plugin;\n4. After confirming it works properly, pin the new icon to the taskbar\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 63,
+        "costUsd": 0.000129
+      }
+    },
+    "deb03c39294fd25823bd6bc6c756815d8a5bfe4a33c259355e0202dcc371143e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e379e1e3345e48cfc023c842f6c86073eb35e968eeacc268b118afb6e5b78d0",
+      "contextFingerprint": "42c6c7a6e9aab28d1087a2af6b60686a9f24282cd298d566f3058b436e775108",
+      "sourceText": "然后pitch_odom要进行限幅：",
+      "translatedText": "Then pitch_odom amplitude limiting must be performed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "deb34897c50632c225596956eaf351ac41fce092953bf398ae4dc3c5acc37171": {
+      "normalizationVersion": 1,
+      "sourceHash": "77a009f0128ff0da9c84dbc0c29910b2d7e01fe82c715d9f8f14452e61c28e79",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面的这个直接删除.",
+      "translatedText": "Delete the one above directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "decdeb2a3f8bdb02aad9063922056585e58b94da44e3fd49c9eae03fc6d13c32": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce6cbcd2ee0d1595e475350ffc2b57249d2db800c8634fa167e945ab14a7e66b",
+      "contextFingerprint": "aa4eb6d2271ed2ae3c7840829d4c39a232f867960f2eabf8224b9611e3b982ad",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791021005063-ccfccfa2.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791021005063-ccfccfa2.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "deebcd0f538a1de217e086e657591043ec7d786a19c7e10bf410e80141598fe5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7891b798d415465931cf948c19c09b199dd648bb38fde75627d12986635d8231",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t显示法",
+      "translatedText": "​\tDisplay method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    }
+  }
+}

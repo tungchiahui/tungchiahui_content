@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e411829f73d3a3e98fa1202390df5fa63dce071c49daa1ff185caf97335e6475": {
+      "normalizationVersion": 1,
+      "sourceHash": "900d38ae2864686dcb0796b5cb55ec67fd0bcf24183ddf168908a9c19f99c9b4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 静态成员",
+      "translatedText": "#### Static member",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "e42162a2ead30bc8db4450b995fa2be1a702d420455cec074d06e83edda7fbf1": {
+      "normalizationVersion": 1,
+      "sourceHash": "36f89c3f591d2d41d6f7dc43e8b32254ff9a6d7961cdbbf10e58a7c480fb2a88",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 全局函数做友元\n* 类做友元\n* 成员函数做友元",
+      "translatedText": "* Global functions as friends\n* Class as friend\n* Member function as friend",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 20,
+        "costUsd": 0.000068
+      }
+    },
+    "e432d2dfc20ec5f56cdf554411450c6d60a10152b6c2209dea8659490bd5188f": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c5ec4fdd5801ad6a08cb99f2980b98d013455485332975ab1981a57ae1b17c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t2. 如果子类中没有堆区数据，可以不写为虚析构或纯虚析构",
+      "translatedText": "2\\. If the subclass contains no heap data, it is not necessary to write a virtual destructor or pure virtual destructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "e4ebf2a270204a60cb449a50f516b1a2ca125fb4a8c609d2f8469b45bcedbaf7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ace9b7566208b5ab5446fc257e1b597bfa590cad474caadda916b99b0f48737",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**注意:**  函数的返回值不可以作为函数重载的条件",
+      "translatedText": "**Note:**  The return value of a function cannot be used as a condition for function overloading",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "e4ed96e6835cd341956e0df0f918130654c228050e884c44c4460c53b5d726e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0116d53f43d5ecb5c3f568a7057e6e072e9d5fa0430c5f7a21a150cc39138382",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个时候我们就可以考虑利用继承的技术，减少重复代码",
+      "translatedText": "At this point, we can consider using inheritance techniques to reduce duplicate code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "e4fe1191bb9c44eeefa7f15f922d1c0633712e17b105bec917da62b634bafe83": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1bcd2ea5962283e1edebb9a753da7899a3edc88412d5b008fad1de8ee7a6f63",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类做友元",
+      "translatedText": "#### friend class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    }
+  }
+}

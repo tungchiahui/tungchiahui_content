@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "ed27616a851cc09b108fe9a3f9ad18dcaf2f4d7cc04b76530b2ab2e2615e6350": {
+      "normalizationVersion": 1,
+      "sourceHash": "164a1115270b1206ab21e0879db5bfa075cb4ff6be9447fa76df06acc7f54e46",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 构建并运行程序",
+      "translatedText": "#### Build and run the program",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "edabcc33fb8ee2f7eaf94dfd882bd708465acd62c150f6c2438b3000615a2baf": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0569aad3bbe5805c6fe46628ceb1f5b30e1985109ce6b11d9edb3663488bb21",
+      "contextFingerprint": "d8636bfac25aa7f31fe53538830413ef2bb4ecbe0af8a394c753518f063f8ee2",
+      "sourceText": "如果你还没有完成上一章的工程环境搭建，请先看从 [C++开发环境与第一个工程](/wiki/2023-10-05-cplusplus-jiao-xue/0100-c-kai-fa-huan-jing-da-jian-yu-ce-shi) 开始，本教程一直使用同一个 CMake 模板。写到这里时，你的工程大致还是这个结构.",
+      "translatedText": "If you have not yet completed the engineering environment setup from the previous chapter, please first see the section starting from [C++Development Environment and the First Project](/wiki/2023-10-05-cplusplus-jiao-xue/0100-c-kai-fa-huan-jing-da-jian-yu-ce-shi); this tutorial has consistently used the same CMake template\\. At this point, your project should still roughly have this structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 71,
+        "costUsd": 0.00014
+      }
+    },
+    "edc44d164592709666fb77ae56d99645eaadf1c99968fa12e92cd3c3982e94ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "51e290fab257c1e3f0e3286a32e1f3656b308e077b57ee1a7ed1e67fc1f00c54",
+      "contextFingerprint": "670c1970b730d2340023072e68ef9e64252b091d5c1ca8a5d3e7816e556d17d2",
+      "sourceText": "启用续建时选择map_start_pose，或选择map_start_at_dock=True。两者都给时pose优先；pose数量不是3时，源码报错后采用`[0,0,0]`，并不会因此自动改用dock。只将dock设为False也不等于关闭旧图加载，关闭加载的入口是空map_file_name。[起点选择与加载逻辑（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_common.cpp)",
+      "translatedText": "When enabling resume construction, select map_start_pose, or set map_start_at_dock=True\\. If both are provided, pose takes priority; when the number of poses is not 3, the source code reports an error and then uses`[0,0,0]`and will not automatically switch to dock because of this\\. Setting only dock to False also does not mean disabling old map loading; the entry point for disabling loading is an empty map_file_name\\.[Starting point selection and loading logic (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/src/slam_toolbox_common.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 126,
+        "costUsd": 0.000219
+      }
+    },
+    "edd8a3a3566232a84825f4a02d0cb26b3d7ef5ef443b8c684e72b552de5554b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "37e33346097169643f4c5545682803b3b6d033e1b4a2da1d1ae413c021ea99f8",
+      "contextFingerprint": "531d97c9161b84e346d7a9adb0febe0104a7251c17b6b7a4390dea66ec44777f",
+      "sourceText": "**语法：**`char ch = 'a';`",
+      "translatedText": "**Syntax:**`char ch = 'a';`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "ede1685757a24cedbf2583e6dea7d782f11cb75b6c9137fc048ca1ac8b54a34b": {
+      "normalizationVersion": 1,
+      "sourceHash": "c815e70898a34bd71b439f8d2dfe6bc0ac333c5fc5b294cbb62c29c2a6f85f40",
+      "contextFingerprint": "b372b636948482eb3fca1fd518d7009d6466fdd629ac35d59446f5e2a748dafb",
+      "sourceText": "> 总结：C++开发提倡利用多态设计程序架构，因为多态优点很多",
+      "translatedText": "> Summary: C++ development advocates using polymorphism to design program architecture, because polymorphism has many advantages",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 33,
+        "costUsd": 0.000087
+      }
+    },
+    "edf410fdacc437a5208d2aa402fd27a69282b0951a41d8283b4b1dec1a13924b": {
+      "normalizationVersion": 1,
+      "sourceHash": "403f23764db9360190a5d77bb473b5efce6d63d3d2e50628ece49675d69808c3",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 程序运行顺序与变量生命周期",
+      "translatedText": "## Program execution order and variable lifecycle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    }
+  }
+}

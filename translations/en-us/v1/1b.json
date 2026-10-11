@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "1b07390e41f9beebe69afc3cf06803ca4338732eba27c8374afc8dfbeefee77d": {
+      "normalizationVersion": 1,
+      "sourceHash": "03f18b94bcabacbe9bd649514b5b0b359ba97932fcf34088b5a01ac1d9b10e1c",
+      "contextFingerprint": "4427e7f35b932a36022b81f0772f8d0beb6d4cf400ecb710c774311ea7c2cab5",
+      "sourceText": "![1545985945198](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545985945198-f6ce42c7a5.webp)",
+      "translatedText": "![1545985945198](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage3-1545985945198-f6ce42c7a5.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "1b0c85b24140cab526c07aab5cc6d7db1911cca6bf3d339f27df6784aca6847b": {
+      "normalizationVersion": 1,
+      "sourceHash": "e61319313d32941c11e41b0e3760c7d95fb77fda2260860d65657a1680d767c3",
+      "contextFingerprint": "a684c9f4bea6026e9897d1de2a5f3631daa04456f4329adf4364c799c762f120",
+      "sourceText": "###### acc_cov_input（IMU预测模型的加速度噪声）",
+      "translatedText": "###### acc_cov_input (acceleration noise of the IMU prediction model)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "1b1336ec24dac2e707f18f6ce2ac8ba67d9cde3d96ec01f56d0b4ab5fd151bab": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f4b4dbce7a491d676b016cc9ba77cb66001ee5f9042aad562c3f9cf7a107ed5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面通过案例进行讲解多态",
+      "translatedText": "The following uses a case to explain polymorphism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "1b4fc1e59d1b9351a7bda45ebf5a9ea13715a9304b4ce78b53d32d23fb0380b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "80ae20983f9fd6b528824ea9f00e60eca2dab1ab59058a8cb8cb2bbe77d7efc9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过冒泡排序的算法，将数组中的英雄按照年龄进行升序排序，最终打印排序后的结果。",
+      "translatedText": "Using the bubble sort algorithm, sort the heroes in the array in ascending order by age, and finally print the sorted result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "1bd8af3d7e79377532e7f37c4f9d3c3cce08430d489b11efac3f015031c45113": {
+      "normalizationVersion": 1,
+      "sourceHash": "8371a2b444fd2d287db7a4d35113b7961a15cd59cd4ab4c56553668efe80d3d4",
+      "contextFingerprint": "41ab6b7a0431cf9d071779ae9700b6f7b3adfdeb8f06b1e66702396865ec2f6a",
+      "sourceText": "**当前use_scan_matching=False、do_loop_closing=False。** 从空地图进行常规建图时，Karto仍接收扫描并形成栅格，但跳过扫描匹配，也不把新扫描加入位姿图；因此不会通过自动闭环调用Ceres修正轨迹。这里的图主要依靠上游里程计摆放扫描，长距离、转弯后的累计误差不能指望这组求解器设置自动消除。[当前处理路径（Mapper.cpp，2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "translatedText": "**Currently use_scan_matching=False, do_loop_closing=False\\.** When performing regular mapping from an empty map, Karto still receives scans and forms a grid, but skips scan matching and does not add new scans to the pose graph; therefore, it will not call Ceres through automatic loop closure to correct the trajectory\\. The graph here mainly relies on upstream odometry to place scans, and accumulated errors after long distances and turns cannot be expected to be automatically eliminated by this set of solver settings\\.[Current processing path (Mapper.cpp, 2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/lib/karto_sdk/src/Mapper.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 249,
+        "outputTokens": 143,
+        "costUsd": 0.000247
+      }
+    },
+    "1bf17f50b138cb880a295f1f73916bf86190e0e32be167f6a77390e9146e1137": {
+      "normalizationVersion": 1,
+      "sourceHash": "b52be8757f22fc7f8bdc4ad085d90e2714cddd4ff1908b868e71982bdc38950b",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## World4Drive — ICCV 2025",
+      "translatedText": "## World4Drive — ICCV 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "1bffdfdae60409ddb9d6d7d9977b9cd3a3a86c4b13f9e62f4e09ebbdb3346738": {
+      "normalizationVersion": 1,
+      "sourceHash": "75cfaf0949ea00d5c60de7de36f7851858e8872e6710dd941c21b724e18b9213",
+      "contextFingerprint": "30359766f80871c658621264cb8bea2a97a27f78723f9176e09326dde8a77cb7",
+      "sourceText": "1. 进入`feeds/luci/themes/`目录\n2. 找到Argon主题所在的目录（一般为`luci-theme-argon`），并进入该目录\n3. 打开`root/usr/share/luci/static/resources/view/themes/argon/header.htm`文件，该文件定义了Argon主题的顶部导航栏、LOGO等内容\n4. 在header.htm文件中找到需要修改的内容，并进行相应的编辑和保存。例如，将LOGO图片路径指向自己的图片文件，或者调整导航栏的布局和样式\n5. 如果需要修改Argon主题的其他部分，例如底部导航栏、颜色方案等，可以在`root/usr/share/luci/static/resources/view/themes/argon/`目录下找到对应的文件进行编辑",
+      "translatedText": "1. Enter`feeds/luci/themes/`directory\n2. Locate the directory where the Argon theme is installed (usually`luci-theme-argon`), and enter that directory\n3. Open the`root/usr/share/luci/static/resources/view/themes/argon/header.htm`file, which defines the Argon theme's top navigation bar, LOGO, and other content\n4. Find the content to modify in the header.htm file, then edit and save it accordingly\\. For example, point the LOGO image path to your own image file, or adjust the layout and style of the navigation bar\n5. If you need to modify other parts of the Argon theme, such as the bottom navigation bar, color scheme, etc\\., you can find and edit the corresponding files in the`root/usr/share/luci/static/resources/view/themes/argon/`directory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 143,
+        "costUsd": 0.000243
+      }
+    }
+  }
+}

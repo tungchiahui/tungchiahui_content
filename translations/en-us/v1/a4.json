@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a41e866b81d859f6a58bb85cbd6f89b05ca327c4450195ca7de71178fd74d769": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fcb1bf5357d270d5d9f24b4c25ec57abdbd8446572ac5ef95604a137dde9515",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++中拷贝构造函数调用时机通常有三种情况",
+      "translatedText": "C++There are usually three situations for the call timing of the copy constructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "a434691efb677a7cdda183fc1d1c2542a84364bd3c25209871879efd6177b0ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "0744c070ea3d2229cf2d8f9315ca8de80faa07a419ac90e6be44729637a42334",
+      "contextFingerprint": "f71e220f8bb0f02c9077cf8db99606f25fc06addaef6606873a7590579562c85",
+      "sourceText": "R 为 `robot_base_frame`。该位姿写入 `odometry`，因此当前消息表示 yaw 云台层的原点和姿态。源码的发布器变量虽叫 `pub_chassis_odometry_`，实际子系取的是 `robot_base_frame`，不能据变量名把它认作底盘里程计。",
+      "translatedText": "R is `robot_base_frame`\\. This pose is written into `odometry`; therefore, the current message represents the origin and pose of the yaw gimbal layer\\. Although the publisher variable in the source code is named `pub_chassis_odometry_`, the actual child frame is `robot_base_frame`; it cannot be regarded as chassis odometry based on the variable name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 69,
+        "costUsd": 0.000138
+      }
+    },
+    "a438a353102106f542a40da3d259c79fc50eebcc997d44fa2945bf7937fd3819": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7f054f2e8569e753390782aedcd495982d07a76fa9fcfec730c52beabf4fbf8",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 下一步学什么",
+      "translatedText": "## What to learn next",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "a44f7c0b7789f932486007171556e726005b39be86d3fb12c0bbeda06ffed87d": {
+      "normalizationVersion": 1,
+      "sourceHash": "31903e99b946cef6f2b1924783563decf2d09e7b75381173553eba9a735de6c5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果是debian系下载deb,如果是rhel系下载rpm.",
+      "translatedText": "If it is a Debian\\-based system, download the deb; if it is an RHEL\\-based system, download the rpm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 33,
+        "costUsd": 0.000083
+      }
+    },
+    "a46feee76254df099c7071e0b99ef2770a44c5865c2156a37ad54131006dd303": {
+      "normalizationVersion": 1,
+      "sourceHash": "efd302125531b70ddce1ed1a40a5ff21584da0f2236fc915e5ecd939f48d74d4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 一维数组定义方式",
+      "translatedText": "#### One\\-dimensional array definition methods",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a480663f504873aec9b178788c9e6528cc2d7c07b9b7cbb8a02dd9522884bdfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "e39b1568dab24da8f607f6c89aee1ef1e282e72a2f8eeb4254dd6e30b8b04406",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**当前定位：第一主 baseline 候选。**",
+      "translatedText": "**Current positioning: first primary baseline candidate\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
+    "a493c0524e161807c9e5d7bf09a6fe209815e093a8d16485bebbe5436aa64589": {
+      "normalizationVersion": 1,
+      "sourceHash": "99c4f81d34ba21b29a5971eed6a23dba0511ea4a6ca7e3072dacf52254249150",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 可以解决父类指针释放子类对象\n* 都需要有具体的函数实现",
+      "translatedText": "* It can solve the issue of releasing a subclass object through a base class pointer\n* Both require concrete function implementations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "a4aace984fcaf4e30f398228a0ed4accfc9a62eab35d3f78b1e4d7d10172245e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6227bded42c599f76fc6092fd67342c00baac2002eecb2e4a390c2749da534d1",
+      "contextFingerprint": "2d134520dd7cec11a95cd4b6448191a7f1aaff3777439acf5016ab2299da78d2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791098108953-ccc60cec.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791098108953-ccc60cec.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a4e1a6cea4afde80fb9fba7ac3e9b1a257ad1414e17235d248af5f67cd498346": {
+      "normalizationVersion": 1,
+      "sourceHash": "87ac87808a91dd968bf45b55723791596721d24bd0d1e67a07cd43b20a7a3906",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 案例1",
+      "translatedText": "#### Case 1",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    }
+  }
+}

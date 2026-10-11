@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "a313003dc7ec4cf324d676f1c5efe67d0a17af081464c11d440aba9d5783f147": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb7566dd64b024d372ca1c3d5e8e465fc00b491d32bcdf08729481b27c2ca3af",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调小通常保留更多细节，代价是计算量增加；原始数据没有的细节不会因调小而出现。远处点稀疏、墙角或小柱子能否稳定描述，需看实际数据；人员、敌车等动态点在本节点没有专门筛除，实时点更多也可能带来更多干扰。",
+      "translatedText": "Reducing the setting usually retains more details, at the cost of increased computation; details absent from the raw data will not appear merely because the setting is reduced\\. Whether distant sparse points, wall corners, or small pillars can be described stably depends on the actual data; dynamic points such as personnel and enemy vehicles are not specifically filtered out at this node, and more real\\-time points may also introduce more interference\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 88,
+        "costUsd": 0.000164
+      }
+    },
+    "a3337c93babb51ad4410bd5f64d46920a0a930a588164c425536a384be145d23": {
+      "normalizationVersion": 1,
+      "sourceHash": "85d4e8a2ca4691e0b7040701738f96fcb6173882c3e3ee6814be4c63a8cf046b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### const修饰指针",
+      "translatedText": "### const\\-qualified pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "a35d2010787f6dbda6fc471e612a66f76f63e05673040522febe4ac2027c1250": {
+      "normalizationVersion": 1,
+      "sourceHash": "816578fcfb139e30ffa793135f6f7b6adc7848a26e547da7d3ffedd57be57000",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**练习案例：**乘法口诀表",
+      "translatedText": "\\*\\*Practice Case:\\*\\* Multiplication Table",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "a385e8c54d587d13a75e9859f89ce6428a52ad88159a9743ad833b8f08f10b82": {
+      "normalizationVersion": 1,
+      "sourceHash": "441f1c5962de5058b98660d02f34719e9f1f5b99a754fe16e6a0b0eeaf0ae703",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如：",
+      "translatedText": "For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a3ebd5b372260359c0d77c868b8a0d7778be3c9bf235743c065cbeed7e6b818c": {
+      "normalizationVersion": 1,
+      "sourceHash": "97937c30bf13ff3cc3ff78e05f48e715b617772731e8d80278798a0d83b90266",
+      "contextFingerprint": "3f7997785c7e998de7827b5028f31f63b490a8b8b4b6cb5d263bd816f04bf265",
+      "sourceText": "当前实物、仿真的 `FollowPath.enable_rotation` 都是 False，普通路径跟踪时该控制器自身给出的导航角速度为0。因此尚未改自旋设置时，实物默认不附加自旋，仿真默认附加3.14 rad/s，约每2秒一圈。Nav2恢复旋转等行为另有指令来源，速度平滑器也可能保留过渡过程，不能推成整个导航链永远只输出0角速度。",
+      "translatedText": "Currently, both the real robot and simulation `FollowPath.enable_rotation` are False\\. During normal path tracking, the navigation angular velocity output by this controller itself is 0\\. Therefore, before the spin setting has been changed, by default the real robot does not add spin, while the simulation adds 3\\.14 rad/s by default, about one revolution every 2 seconds\\. Nav2's behaviors such as recovery rotation have other command sources, and the velocity smoother may also retain transition processes, so it cannot be inferred that the entire navigation chain will always output only 0 angular velocity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 221,
+        "outputTokens": 127,
+        "costUsd": 0.000219
+      }
+    }
+  }
+}

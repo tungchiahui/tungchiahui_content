@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "3e7615056026a76374999f0a7cb0483a0f39edd16b78500c77e12b9c1b7f9727": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b4197489c56eb1267071f0bb7b5ec5716917de65fcf72e2705f94394a3c68e4",
+      "contextFingerprint": "82d6cd7833cea0305f122d8785cde69eae1a6afbd8a397b80b3365aa1e26a821",
+      "sourceText": "#### 修改 swap.cpp",
+      "translatedText": "#### Modify swap.cpp",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "3e76e60c30a3d2a21883585d408cba2cfe25b6ff8517cb59e3d3744bc8391cf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ddad3e68cfaed3a8c5c00f20c1518b5fff1be880956b4f9a9ab9e1d6dae1aaf",
+      "contextFingerprint": "204e549d3c33a8acb32a5d06b306993d066831bc3b23ae3d37db866862cadbfd",
+      "sourceText": "`src/swap/CMakeLists.txt` 不需要修改，因为它本来就会收集 `src/swap/src/` 目录下的 `.cpp` 文件，`swap.cpp` 仍然会被编译进 `swap_src_lib`。",
+      "translatedText": "`src/swap/CMakeLists.txt` No modification is needed, because it will already collect `src/swap/src/` files in the `.cpp` directory, and `swap.cpp` will still be compiled into `swap_src_lib`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "3e8184a46f2c9755ddb2dd9f2789a83f9711b0b4e26bc7cdd2ad299150d9137a": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f5e418bdb7be8a7457f6977f997de72d1df1043006590addd095a4d0c379e3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "案例描述：",
+      "translatedText": "Case description:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "3e82fa8c1629d150986e572f9a6cd7bf80475907b25fa1b379c4030c5732de8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "adf725f4983903e655e2fbe2a9bb7ec29ef740880760824de3dd52ea628311d2",
+      "contextFingerprint": "2bf99b37b506963c368921baca251670c178763091d8200df14fd770a1ad8725",
+      "sourceText": "###### init_spin_speed 与 cmd_spin_topic：改的是附加量",
+      "translatedText": "###### init_spin_speed and cmd_spin_topic: what is changed is the additional amount",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "3e86b587e420b0072b0c6b2bb02ad441a85e225d4058d6f9080cbfe3d02e3bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "341cbf244de26b7bae0456dd9658d499cb8c8dc6e5e0c777582efd6537844b45",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "*  当形参和成员变量同名时，可用this指针来区分\n*  在类的非静态成员函数中返回对象本身，可使用return *this",
+      "translatedText": "*  When a parameter and a member variable have the same name, the this pointer can be used to distinguish them\\.\n*  To return the object itself in a non\\-static member function of a class, use return \\*this\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 49,
+        "costUsd": 0.000107
+      }
+    },
+    "3ebde8990af7dddc828353002390ec3b3f3f58283a135e184dafb0d5af06ecd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "07ff12e7501a179be45d346da4d12b28d85d033fa3da075d6b048a1e46641c06",
+      "contextFingerprint": "f11e30e024cfd95a248ccf35fde2700dcb51572d7b004adfaf083f95a741ed56",
+      "sourceText": "`robot_description` 是通用的描述加载与 TF 发布功能包；`reality_robot` 和 `simulation_robot` 分别是实车、仿真描述入口。底层 `ysu2026_sentry_robot.def.xmacro` 定义当前车型的底盘、轮子、云台和装甲板结构，保留车型名称。两份入口仍通过 include 和宏调用使用它。",
+      "translatedText": "`robot_description` is a general\\-purpose description loading and TF publishing function package;`reality_robot` and `simulation_robot` are the real\\-vehicle and simulation description entry points, respectively\\. The underlying `ysu2026_sentry_robot.def.xmacro` defines the chassis, wheels, gimbal, and armor plate structure of the current vehicle model, retaining the vehicle model name\\. Both entry points still use it through include and macro calls\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 75,
+        "costUsd": 0.000147
+      }
+    }
+  }
+}

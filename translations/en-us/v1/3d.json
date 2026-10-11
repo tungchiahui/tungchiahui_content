@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "3d093857ab2c19c71f4d6cd28b48178850f13eb3a23b3ad169d3ffacbe88c173": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c19465fde2c9eb893f36780e097e9f0babdf3d58ce07022ac3330907c828ceb",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 值传递\n* 地址传递",
+      "translatedText": "* Pass by value\n* Pass by address",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "3d1a6ce72ff073362e3fac42a6db406a4bf75e5358f2b622a1f5c0d6ab52f3f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6171adcefb131634073c7542096c7d166384c5adb660a01d9607f9c5ad72850",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调大能覆盖更大范围，但可能查找更多点；调小范围变小，可能找不到足够的邻点。它不会直接把小于0.5 m的障碍删掉，也不是当前扫描的降采样尺寸，先结合匹配点数量与计算负担观察。",
+      "translatedText": "Increasing it covers a larger range but may search more points; decreasing it shrinks the range and may fail to find enough neighboring points\\. It does not directly delete obstacles smaller than 0\\.5 m, nor is it the downsampling size of the current scan; first observe it together with the number of matched points and the computational load\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 75,
+        "costUsd": 0.000146
+      }
+    },
+    "3d2aea4facf8bbcba3010fbb8d8e6388cff9883981216f55195ac32f05d64dd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c9e3210e2ee9c081befab06291a2d6e1c8d6259400e75ab7c533683e323c54f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "深拷贝：在堆区重新申请空间，进行拷贝操作",
+      "translatedText": "Deep copy: reallocate space in the heap area and perform the copy operation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "3d2d43d4e0bdb9e4e47b77d9ed9327887d0c998c53b2da8de07f05431bc6d442": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe3297264518f17640085147856c37a66ca53f94ff683e455771230da9dde3cc",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "两者的**区别**在于表示的有效数字范围不同。",
+      "translatedText": "The difference between the two**lies in**the different ranges of significant digits they represent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "3d388bae4634ae366ae4bf515ca7e50a20684628a1ec899a9262be0fc0f5c848": {
+      "normalizationVersion": 1,
+      "sourceHash": "5daf045c42d5a19928678288268129ec14a2c7ec5c2620b3e715592ec7d33535",
+      "contextFingerprint": "9a8decb5bb845568f6d157e459abb60ce9f8146e2ad46b2fe0f4467510f3bd25",
+      "sourceText": "MaskGWM 使用 Diffusion Transformer + Video Mask Reconstruction，重点解决 Driving World Model 的 Long-Horizon Prediction（长时预测）、Generalization（泛化）和 Multi-view Generation（多视角生成）。",
+      "translatedText": "MaskGWM uses Diffusion Transformer \\+ Video Mask Reconstruction, focusing on solving the Driving World Model's Long-Horizon Prediction (long\\-term prediction), Generalization, and Multi-view Generation (multi\\-view generation)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 62,
+        "costUsd": 0.000131
+      }
+    },
+    "3d4386e681c908de6a01266c0e108d4644e068a5a0e1ab354d499d2408333786": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f098fe4c14c97813fcc30fb54b4f10862fb0ba0ec80789084f2d6bd75de7ce5",
+      "contextFingerprint": "380691abd45ed29e5f8724569445c0c5c3a7e7f15e5e261187daed7e1ad23bea",
+      "sourceText": "| **数据类型**        | **占用空间**                                    | 取值范围         |\n| ------------------- | ----------------------------------------------- | ---------------- |\n| short(短整型)       | 2字节                                           | (-2^15 ~ 2^15-1) |\n| int(整型)           | 4字节                                           | (-2^31 ~ 2^31-1) |\n| long(长整形)        | Linux 64位通常为8字节，32位环境通常为4字节       | 由平台位数决定   |\n| long long(长长整形) | 8字节                                           | (-2^63 ~ 2^63-1) |",
+      "translatedText": "| **Data type**        | **Storage size**                                    | Value range         |\n| ------------------- | ----------------------------------------------- | ---------------- |\n| short       | 2 bytes                                           | (\\-2^15 \\~ 2^15\\-1) |\n| int           | 4 bytes                                           | (\\-2^31 \\~ 2^31\\-1) |\n| long        | On 64\\-bit Linux, typically 8 bytes; in a 32\\-bit environment, typically 4 bytes       | Determined by the platform's bit width   |\n| long long | 8 bytes                                           | (\\-2^63 \\~ 2^63\\-1) |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 104,
+        "costUsd": 0.000195
+      }
+    },
+    "3d640e1640a5d973ac54533cb5cf6aa7c3225de18610c80513814e215b4fe729": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f36a554fbdaaa626502b6ab03662ba27b45d77b2e777aa07ec47881149d4f2d",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**野指针**：指针变量指向非法的内存空间",
+      "translatedText": "**Wild pointer**: A pointer variable points to an invalid memory space",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "3d76bed9c9fa1c2a83c363d0494b65be02656a86bada7174e11f8e322d7885f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "22fa30b8a333edf1e1f62aa36dcbe440c750de38d032c19fb9cabb3dec38ee44",
+      "contextFingerprint": "3b74d5e38c91eac77416fe131b40ffb8345bc3add583e3f6af4fad1503e40b4d",
+      "sourceText": "| 名字 | 先这样理解 |\n|:---|:---|\n| `g++` | 真正编译 C++ 代码的编译器 |\n| `CMake` | 读取 `CMakeLists.txt`，生成构建规则 |\n| `Ninja` | 按照 CMake 生成的规则执行编译 |\n| `GDB` | 调试器，VSCode 按 F5 时会用到 |\n| `lib1` / `lib2` | 模板里自带的两个示例小库，本章先不改它们 |\n| `cmake_template` | 模板当前生成的可执行程序名 |",
+      "translatedText": "| Name | Understand it this way for now |\n|:---|:---|\n| `g++` | The compiler that actually compiles C++ code |\n| `CMake` | Read `CMakeLists.txt`, generate build rules |\n| `Ninja` | Perform compilation according to the rules generated by CMake |\n| `GDB` | Debugger, used when pressing F5 in VSCode |\n| `lib1` / `lib2` | The two example small libraries included in the template; this chapter will not modify them for now |\n| `cmake_template` | The executable program name currently generated by the template |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 95,
+        "costUsd": 0.000176
+      }
+    },
+    "3d81688eda77080a5f415a8ea5de255afcb3a941bb0639f8f2cfdb2e69ce034a": {
+      "normalizationVersion": 1,
+      "sourceHash": "663188f69d2c0f98bce6c9f45e2562e22b53dc1ac40724ff245471df92c9e0f6",
+      "contextFingerprint": "9650f07c35b0df868010a48a913c3a282e00df40c7a6a3232de2f79f4cae2526",
+      "sourceText": "将任务栏的desktop启动命令改为`/usr/bin/code`后，两种启动方式保持一致，Codex插件也可以正常进入。",
+      "translatedText": "Change the desktop startup command in the taskbar to`/usr/bin/code`After that, the two startup methods remain consistent, and the Codex plugin can also enter normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
+    "3da598465b43666e394512280cb801abf6926d25e91ce84631bc4c1d744b8e59": {
+      "normalizationVersion": 1,
+      "sourceHash": "e863169c979961aae4c46ce8c1ce7960956915d57642dbf030119b64511df08e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "协方差可以理解为滤波器对当前估计的不确定程度。当前 True 时，代码在处理 IMU 时刻传播它；状态仍会推进到激光点的采样时刻。",
+      "translatedText": "Covariance can be understood as the degree of uncertainty of the filter about the current estimate\\. When true, the code propagates it at the IMU instants; the state still advances to the sampling instants of the laser points\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 54,
+        "costUsd": 0.000115
+      }
+    },
+    "3daa3588ad094902c240af84fb696847be6a8157341985f274925bfc5511703b": {
+      "normalizationVersion": 1,
+      "sourceHash": "626094bdf6d64ea1c5f61c42d969d311740d2b3229f4655d78a47c5aff5939b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本章只需要认识这些位置，不需要修改它们。",
+      "translatedText": "In this chapter, you only need to recognize these positions; you do not need to modify them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 26,
+        "costUsd": 0.000073
+      }
+    },
+    "3db8d09317987722677fcd8a5dbd6d3e9f0c5ea2be628dc354aab48bb28efef4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b01648d2a5aaec4f7670cef77a75e1d7ca4f1ac9066fa9980c66e8a8fedab252",
+      "contextFingerprint": "0cacbd7dfb9d5cafdb9d8b59d378a24b893fbd2820c06a05a21ecea33bab313e",
+      "sourceText": "* C++中在程序运行前分为全局区和代码区\n* 代码区特点是共享和只读\n* 全局区中存放全局变量、静态变量、常量\n* 常量区中存放 const修饰的全局常量  和 字符串常量",
+      "translatedText": "* C++ During program execution, memory is divided into the global area and the code area before the program runs\\.\n* The code area is characterized by being shared and read\\-only\\.\n* The global area stores global variables, static variables, and constants\\.\n* The constant area stores global constants modified by const and string constants\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 77,
+        "costUsd": 0.000148
+      }
+    },
+    "3dbe37b68fce28cf1e5b99f536f20555066f61a895157a0bafd5ae4fbddeb3c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc7280e5910694eeb3d2da4d6dedf2a781063da1642e570550acd31295cdd0c7",
+      "contextFingerprint": "b8bf1f6a894df3affb0c767e3b82bc84d448f49178845465b8433321da9075ca",
+      "sourceText": "推荐复制一份到`src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/chassis_wheel.def.xmacro`。",
+      "translatedText": "It is recommended to copy one to`src/rmoss_gz_resources/resource/models/ysu2026_sentry_robot/chassis_wheel.def.xmacro`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "3df5fe7386d8bda78de058ce056bdc3f45f90c1ae7f60f56b090946aed61642c": {
+      "normalizationVersion": 1,
+      "sourceHash": "592038706c9fde7dcaaddb9c41ebb07dac0933f6c4ccb23617cd55256bf0b383",
+      "contextFingerprint": "472188c30be743e4c57fa7eb304a4ffa3f459b689a9d7a54e72861d4766df630",
+      "sourceText": "现在为了单独测试 Mid360，而`/src/pb2025_sentry_nav/livox_ros_driver2/launch/msg_MID360_launch.py`和实车代码`reality/nav2_params.yaml`不一样，所以建议改一下，测试更好测试一下。",
+      "translatedText": "Now, to test the Mid360 separately, it is`/src/pb2025_sentry_nav/livox_ros_driver2/launch/msg_MID360_launch.py`different from the real vehicle code`reality/nav2_params.yaml`so it is recommended to modify it; it will be easier to test\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    }
+  }
+}

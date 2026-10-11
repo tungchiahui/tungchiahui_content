@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "d3037435f7162139c5bdeac77d13820348c16eb0da6d3e0a0e7ded03735be026": {
+      "normalizationVersion": 1,
+      "sourceHash": "ddb8b352a633b8a93b2fe7a30a8b35de44b672eea5c710ab69ed7f6a47902a57",
+      "contextFingerprint": "9243fbae86a2c9e1a693fb5ea40a976bdd9bb75b658471561f8845089ac994a7",
+      "sourceText": "下面各参数表的“实车处理建议”以当前 MID360 实物配置为准：`use_imu_as_input=False`、`imu_en=True`，建图时不使用先验 PCD。切换估计模型、数据格式、先验地图或启动方式后，需要重新核对参数是否参与计算及是否被 launch 覆盖。",
+      "translatedText": "For the parameter tables below, the \"real\\-vehicle handling recommendations\" are based on the current MID360 physical configuration:`use_imu_as_input=False`、`imu_en=True`and no prior PCD is used during mapping\\. After switching the estimation model, data format, prior map, or startup method, it is necessary to re\\-verify whether the parameters participate in the computation and whether they are overridden by the launch file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 84,
+        "costUsd": 0.000158
+      }
+    },
+    "d3189bcaf5f38c3f6edd54ba69d26cad54642ed2d88d592f54fe1964279a2b0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "29147ffe83af562bd7410089d691a4ff31fc34311fc561811d5586a8644b1006",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 检查TF的生成情况",
+      "translatedText": "### Check the generation status of TF",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "d321b49b75c50309155b97fc8f71d23b15bacda06c70a96a8d689f62d84535b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c395bf15a46c9066804492e0f1636fed7e7031d25381cfdab916dcbf3fdb2dcf",
+      "contextFingerprint": "ae0f84b315340ca0ded11316ad7b1e830627e1dfa12499903377c810603b56d8",
+      "sourceText": "**语法：**`构造函数()：属性1(值1),属性2（值2）... {}`",
+      "translatedText": "**Syntax:**`构造函数()：属性1(值1),属性2（值2）... {}`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "d330ec852e30934e00ddb025cafdf65b6231c359ed0f445a5a2a09f7db2b8016": {
+      "normalizationVersion": 1,
+      "sourceHash": "a443560c8d42233c5ce1d5093f080890dd9e9665cb63a4bfabe6741f9b34959e",
+      "contextFingerprint": "6faeaa727b211546ffbe6c7ff3ea328915d286ba0a856c70cf1d4819c74ba6b5",
+      "sourceText": "当前 `front_mid360` 与模型中的雷达名称一致，但上游 `body` 是内部 IMU。设 `T_AB` 表示把 B 系坐标转换到 A 系，W=`camera_init`、I=内部 IMU、L=`front_mid360`、O=`odom`，完整雷达位姿一般应满足：",
+      "translatedText": "The current `front_mid360` is consistent with the radar name in the model, but the upstream `body` is an internal IMU\\. Let `T_AB` denote the transformation of coordinates from frame B to frame A, where W=`camera_init`; I=internal IMU; L=`front_mid360`; O=`odom`\\. The complete radar pose should generally satisfy:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 71,
+        "costUsd": 0.000142
+      }
+    },
+    "d340bb092a90a6ad126af6edd7cf0742176b78b42ee269789e3bb0ee42120d49": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed2847f33f2005d08b6f510bdbf3d9a74c0c869f44516ae8086f2f329216de56",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "它是理解 **Renderer / Simulator → Planner** 链路的经典工作：先想象多个驾驶动作对应的未来视觉，再根据 reward 选择更安全的轨迹。",
+      "translatedText": "It is the classic work for understanding the **Renderer / Simulator → Planner** pipeline: first imagine the future visuals corresponding to multiple driving actions, then select a safer trajectory based on reward\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
+    "d3e3a5e08c53df4c26977e86d663646328fb4191d18d2859f2c649b3b841e052": {
+      "normalizationVersion": 1,
+      "sourceHash": "324cb7aa6dd70d6eb1a01c6063638d19668dd927cd0470118fe7c1b7c7f3e488",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 指针和数组",
+      "translatedText": "### Pointers and arrays",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "d3e9cf2eed89a24088e0aba7ffc769ec8e2e6d7d70556bf270fddbb35ac10946": {
+      "normalizationVersion": 1,
+      "sourceHash": "6102da902168badc46f01f00946296ac5b513650b4b497ffe7f68882e8c00593",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "2、函数名",
+      "translatedText": "2\\. Function name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "d3f21d468b297152ad8259bd2254f243ebb0c0853ed7540d8ee957c429ec6473": {
+      "normalizationVersion": 1,
+      "sourceHash": "e362835cad3f348cff5896c9609b2c4bda2e3544c155296b195b8c3993d2c286",
+      "contextFingerprint": "9e0a92e0acf8f31ee206ef059684c33e4adb242f8a3f31492a7cee4f33df5e6b",
+      "sourceText": "###### odom_frame（底盘位姿从哪套坐标中取得）",
+      "translatedText": "###### odom_frame (from which set of coordinates is the chassis pose obtained)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    }
+  }
+}

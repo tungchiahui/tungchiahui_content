@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "023318273ac069f83d16466754665f8afb03d9b7215e57ffe2da947ae8b12403": {
+      "normalizationVersion": 1,
+      "sourceHash": "31c0ec00d6445cad01c0f856d1b80d44a7708e26e4ba1fe7d767df71e0883e0b",
+      "contextFingerprint": "66166a654668be2c7047551639155decb031656df1fc8528715cea102e8fea4b",
+      "sourceText": "**语法：** `数据类型 &别名 = 原名`",
+      "translatedText": "**Syntax:** `数据类型 &别名 = 原名`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0238ec1d5438a6ec0b4a30e95cbf464f8696dd0f88557178514bf8561597cade": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd19fad45904277926c7dcd32bee057e072c3642bb3bb95eb89eb106f5d37a03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在工程根目录执行：(或者直接用上一节讲的图形化界面编译,下面也会再教你一下)",
+      "translatedText": "Execute in the project root directory: (or directly use the graphical interface compilation discussed in the previous section, and below I will also teach you again)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
+    "023dc88459bcf764f264a365ea78f41c08e63a56a2275753ff5215a0f4080ca9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a71560c122929853295c3045de41fe7951ac6b77fe5231579bf20ff1b31f98a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如：1^3 + 5^3+ 3^3 = 153",
+      "translatedText": "For example: 1^3 \\+ 5^3 \\+ 3^3 = 153",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "023e4948b4720f54a92b0d8d3b6a477a28f25dc77e1ce9fac0ea13643336cf8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c446b046f6230b270819fdcddd38f6ac70967573291ee92a25e60c137d5c0500",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 是否适合当我的 baseline",
+      "translatedText": "### Is it suitable to be my baseline?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "024d454da24df2d695a47936c3ff688852183595d982c03f5db8916c324cd159": {
+      "normalizationVersion": 1,
+      "sourceHash": "2961909e5bf1053c8ade91d2443c039851b3d8364b762e51727c213dbb90b7e4",
+      "contextFingerprint": "7c2e1a5b93679df4274cea00ba90b86c23d7a4dfb199151acb86c678ad331d38",
+      "sourceText": "默认queue_size取硬件并发线程数，适合先沿用；若消息排队或TF等待导致丢点，再按实际数据率和负载核对，不把队列长度当成工作线程数。",
+      "translatedText": "By default, queue_size takes the number of hardware concurrent threads, which is suitable to continue using at first; if message queuing or TF waiting causes dropped points, then verify against the actual data rate and load, and do not treat the queue length as the number of worker threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 71,
+        "costUsd": 0.000139
+      }
+    },
+    "02564dbf4222592ae2f1fec13f89cc0f9dd0962949ad364219f935bd9b89d318": {
+      "normalizationVersion": 1,
+      "sourceHash": "dde6d62f193362c8c23dbd3da0219ede71f5563a7167889fe144247c8e1502d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "​\t括号法",
+      "translatedText": "​\tBracket method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0256cded68092bda29d1cf7c1044340f88a5634fa9f9c29bd22fb741d39f6aa7": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac5ed7ceef92794f716a64818faf0a3fc2ca2a08c6bc1e6082e5457a647103b9",
+      "contextFingerprint": "93d57b364385c9aa7ebccbe1625e87f1cdf05a181b54a2d37227efb0e0898c32",
+      "sourceText": "先在 `src/` 下创建 `cpp_interface.h`：",
+      "translatedText": "First create `src/` under `cpp_interface.h`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "026fd47106905ba9b1254b07e3fc29b1573a6aa8353a0fc3884f17b20caa565e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4af9f5a9126de9598a6671f3daba453ec1019794bfaac16e62b89a61c060a408",
+      "contextFingerprint": "e0950076b93367cb67f54149574bad5f1896196c4e2968f5a91b2cea7d371bfc",
+      "sourceText": "当前 `noDecayDis=0`，没有近距离免衰减区域。这个值还参与无数据功能的初始化：从记录位置移动至少该距离才进入无数据处理状态，0时首次里程计回调即可满足距离条件；当前 `noDataObstacle=False`，后者不会生成障碍。",
+      "translatedText": "Current `noDecayDis=0`, there is no close\\-range attenuation\\-free zone\\. This value also participates in the initialization of the no\\-data function: only after moving at least this distance from the recorded position does it enter the no\\-data processing state; when 0, the distance condition is satisfied on the first odometry callback; current `noDataObstacle=False`; the latter does not generate obstacles\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 77,
+        "costUsd": 0.000147
+      }
+    },
+    "0281abbc402dd1d79ff18e0dc52714613ea8ac43fee7f15f9b5d9a750a6108b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "64879161dd037ebd9b98c9431991d9074920c0f87508651249bab24c5ef25e7c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 嵌套的命名空间",
+      "translatedText": "### Nested namespaces",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "02ce814b723814037628c269f12a9c0062f6f3a6cafc391703bec9b14c7cc096": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fa007bd547af7e37b753f0ad3004b0d6630bbd7b7914b46b5be203178fe9e75",
+      "contextFingerprint": "fbbc92e8332c3c10457f875a1c0fa9c603480abb2600ec3be0d2e00f86b83261",
+      "sourceText": "这个文件原来来自 `lib1`，所以里面还有 `lib1` 和 Eigen 示例的痕迹。",
+      "translatedText": "This file originally came from `lib1`, so it still contains traces of `lib1` and Eigen examples\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "02dcc925629da661eb07e2351005507d60ff7d2069b5a111f1d47d346011131b": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9d5177f97f576a03c81d9d735f570c628bc0eed8ffc5455f76415d726970cca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么轮距是 = 0.194 - (-0.194) = 0.388 m",
+      "translatedText": "Then the wheel spacing is = 0\\.194 \\- (\\-0\\.194) = 0\\.388 m",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "02de34edc083d0b6e03326d417db1c6e3f8cbebb7ee2c04cc77fb4545b9c84dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "487c6419841c9fcefdc1e8977898794072f293d6b76d69efd6b5acafca18bc8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为底盘要一直小陀螺状态，所以推断一下：",
+      "translatedText": "Since the chassis needs to stay in a spinning\\-top state at all times, let me infer the following:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "02e06c9a481f6adcf8f0972781d2d930872c30009edb40d6d1093ac24062afe6": {
+      "normalizationVersion": 1,
+      "sourceHash": "51528d3941a00169fe8b690d9527dfd112402825ea810794a757c3dd0b6f2352",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**练习案例：水仙花数**",
+      "translatedText": "**Practice Case: Narcissistic Numbers**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "02f3a42cec6281e69fd31bc915d21b703a55d75135e28f052b4ae63211053d93": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd12dab5759a19a767385511b6f8f78a0859d7c0e97da9a29cadd93a70d9f74c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以下按 2026-10-10 当前源码与实物 YAML 核对。参数名与当前值可以确认，但 IMU、雷达和底盘的完整位姿转换存在源码疑点，不能把话题有输出等同于坐标关系正确。",
+      "translatedText": "The following is verified against the current source code and physical YAML as of 2026\\-10\\-10\\. The parameter names and current values can be confirmed, but there are source\\-code doubts regarding the complete pose transformations of the IMU, LiDAR, and chassis; having output on a topic cannot be equated with the coordinate relationships being correct\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 77,
+        "costUsd": 0.000148
+      }
+    },
+    "02f400c5b3a70ec07bc05e1017968158d7ae805588c9c9a9dc1b91a63eb1373e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f294159ad3e2f8de332b38a54b7bdc89e76eb6489bcba979dad84f96539646d",
+      "contextFingerprint": "444b68e4005668886bc83223d0a6d141aede3ec256ae02528251a7ad8c6e7c9d",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791350056801-72f20409.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791350056801-72f20409.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "02fbc4c68115ecda231073279720031ba5f09fd005730ac0eb727c683e7076a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "634958be0285039dfeb4ea4b7549ab8889f360f5ff13cb823417bad0dcec7c67",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Navigation World Models（NWM）— CVPR 2025",
+      "translatedText": "## Navigation World Models（NWM）— CVPR 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    }
+  }
+}

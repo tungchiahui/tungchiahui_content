@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "060a65ef20021f4f86843bad1ea16a10960f42e53a430b8c1578f6d6291433fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "87afa1eb6b85c5daed527b57407676fba90d5cd9d4854adb7a7bdaf4e8aba76c",
+      "contextFingerprint": "28f92a5bd1503e7386487c96a186013b499a69c7072cc43ea649177d888851c9",
+      "sourceText": "它使用的是另外两个变量，目前初始化为零；没有使用 common.time_diff_lidar_to_imu。",
+      "translatedText": "It uses two other variables, currently initialized to zero; common.time_diff_lidar_to_imu is not used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "0654d7693656ad48ca28d549668c63e8c2ce4c42b872b025fb7006ab7f83234c": {
+      "normalizationVersion": 1,
+      "sourceHash": "aed244a44ced4977e7e18034b39f50f18d7ee303756e570d0b51e6bf8809e8b7",
+      "contextFingerprint": "7ceec85ff0d1f7f19a4ebf9c690dce6f73f957ede59d9a3c53350680600cf0f9",
+      "sourceText": "C++ 最初由 C 语言发展而来，因此两者在基本语法、运算符、流程控制、\n函数和指针等方面有很多相似之处。在一些同时涉及两者的技术资料、工具链\n和岗位描述中，人们常用“C/C++”作为合称。",
+      "translatedText": "C++ It was originally developed from the C language, so the two share many similarities in basic syntax, operators, flow control, functions, and pointers\\. In some technical materials, toolchains, and job descriptions that involve both, people often use \"C/C\\+\\+\" as a combined term\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 81,
+        "costUsd": 0.000159
+      }
+    },
+    "0665b1e0ec6f374a98f95d05d44d738859bd300cfdb0b6c4f9d31ab776f80ea8": {
+      "normalizationVersion": 1,
+      "sourceHash": "66684cb22003b3a043dcda95d1789b85ff61748a52e96aa2ba043d68a2e869ca",
+      "contextFingerprint": "840dbbdb6f174c551fbb898c11aeb83abed544aac2212178663221bfe31ad71a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791021033385-2b16896c.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/09/20/1791021033385-2b16896c.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0692bbc6a95342c3adf5a21b627e3740df3deae4bc76830f4bcc8dfc3e3c6a42": {
+      "normalizationVersion": 1,
+      "sourceHash": "9334274364eb37fe3981b2c60dad1322b12c113d1c0fc104b953d204209b546f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 继承同名成员处理方式",
+      "translatedText": "#### Handling of Inherited Members with the Same Name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "06e7dd34c7d6552fb56c55de70e806d538d902e10261e9a796f2901bf728b50f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac6757bffde4ec7c102c4b2fa412c83f12e084a87e1c3e8df7659f3e21698ade",
+      "contextFingerprint": "58ba13c79ce0fb4e1d3099f482e57c872efa3d9363390ce085f3d5d703e7b752",
+      "sourceText": "**开启保存功能不等于文件已经落盘。** use_map_saver=True提供地图保存服务；当前slam_launch还启动了Nav2的map_saver_server，但launch没有自动调用保存服务，二维地图仍需执行保存操作。[地图保存功能说明（2.6.10）](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/README.md#toolbox-params)",
+      "translatedText": "**Enabling the save function does not mean the file has been written to disk\\.** use_map_saver=True provides the map saving service; currently slam_launch has also started Nav2's map_saver_server, but the launch does not automatically call the save service, and the 2D map still requires a save operation to be executed\\.[Map saving function description (2\\.6\\.10)](https://github.com/SteveMacenski/slam_toolbox/blob/2.6.10/README.md#toolbox-params)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 107,
+        "costUsd": 0.000192
+      }
+    },
+    "06ed94cdba4f8f8f7fc3faaba38e1b85b976af5a9f80e3835f8c7f3791c9cba3": {
+      "normalizationVersion": 1,
+      "sourceHash": "b60aea0c609c5fd9cdc5055a959b957191fccf3ae3d4f3003c95e6fd441283f4",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 用点云检查检查TF是否生成",
+      "translatedText": "## Use the point cloud to check whether the TF has been generated",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "06fc8fc8d0698a0bdec9c56ef3e3506209361b1a7f2fa511c0566b1d11d42cfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "58190864fd5d6f890390bd5d70141722e2ce78ab21d97d2fb177171e225c434d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本章我们主要讲解以下几类运算符：",
+      "translatedText": "In this chapter, we will mainly explain the following categories of operators:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    }
+  }
+}

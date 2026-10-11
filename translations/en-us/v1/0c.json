@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "0c2b9b1a4fe5e218f6f7ad00c49ae4bd24b4ee122ff2ff28feefa71222540089": {
+      "normalizationVersion": 1,
+      "sourceHash": "2390e12b43dcda9bba8fcd164e5a7869c99cb7a0b99da3ce276180da1730971b",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**派生类中的成员，包含两大部分**：",
+      "translatedText": "**Members in a derived class, including two major parts**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "0c51aa06c852ba14b3c8f3b9e05028c8879367a3eab409457fc8283c2728d6e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "daee34f5098fb7ee87255c56c2486471a76860f5495d197e5ee996373fe08523",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是chassis 坐标系原点到 yaw 旋转轴中心的 Z 向距离。",
+      "translatedText": "That is, the Z\\-direction distance from the origin of the chassis coordinate system to the center of the yaw rotation axis\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "0c52065dfe79cddeccc97b53a994f07f277c3ac27253cf217125a64e09e1a5a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ecb1ab93bbae4f8f445b18be192203b855a9e359b9f66535c4da7fb5f8816ce",
+      "contextFingerprint": "c4dfe39d96cbfaac07e46813ede7915c468702dd0514ff31871e1a371a357699",
+      "sourceText": "### pointcloud_to_laserscan（三维地形点云转二维扫描）",
+      "translatedText": "### pointcloud_to_laserscan (3D terrain point cloud to 2D scan)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "0c5d36dab9ed0403e1a0915901b69ea1905ff551e6bbd044b9140f08483c59b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "b52fc4367615c0da1ef8f1d327254f99436446e0710efa635d14c885c276f4a7",
+      "contextFingerprint": "6cbcaf6eef1a94a2562109363c62a4540077790ff83744d8a773a4de47eeffdb",
+      "sourceText": "遮挡、稀疏回波或位姿错误可能使静态障碍也暂时缺少“本帧确认”，从而被误筛。当前 `minDyObsPointNum=1` 比较敏感；应观察障碍离开后的残留和静态物体被遮挡时的结果，再判断是否需要调整，而不是直接根据原注释关闭或修改。",
+      "translatedText": "Occlusion, sparse echoes, or pose errors may also cause static obstacles to temporarily lack \"in\\-frame confirmation,\" leading to incorrect filtering\\. The current `minDyObsPointNum=1` is relatively sensitive; one should observe the residuals after obstacles leave and the results when static objects are occluded before deciding whether adjustment is needed, rather than directly disabling or modifying it based on the original comment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 79,
+        "costUsd": 0.000152
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e309d136364494982ee3e72b50ba9ecdffb5b586f984c923959c7b4c8dd4e824": {
+      "normalizationVersion": 1,
+      "sourceHash": "b658848f1e4e6765c8f4879af6a429aed8bc292fa24de6949743a10130aa1450",
+      "contextFingerprint": "0f494e0e4dbfdd5e10fa9d38b14c0ed34dada0b2efc17e7110f0e3d99f8ca0d4",
+      "sourceText": "本节点在 `odom` 的水平格子内估计地面高度，输出点的 `intensity` 改为相对地面的高度差，单位为 m，已经不是雷达反射强度。当前局部代价地图的 `IntensityVoxelLayer` 按该字段筛选障碍，允许范围为0.1～2.0 m，并另外检查点坐标高度、距离等条件；不是把正负高度相加为通行代价。",
+      "translatedText": "This node estimates the ground height within a horizontal grid of `odom`\\. For output points, `intensity` is changed to the height difference relative to the ground, in meters, and is no longer radar reflection intensity\\. The current local costmap's `IntensityVoxelLayer` filters obstacles by this field, with an allowed range of 0\\.1 to 2\\.0 m, and additionally checks conditions such as point coordinate height and distance; it does not add positive and negative heights together as a traversal cost\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 101,
+        "costUsd": 0.000183
+      }
+    },
+    "e342628c8465e08df4b446313ffa3fd98f21842e4079c9dec41ecfb6afc3b7ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6f3a1bf2244068826cda460024859557d9fa4a71295ac31b03f9c3ce3ebdb40",
+      "contextFingerprint": "7ffb468a94f278334b487c82cf59e94c8c62cd2473ab80aef7703f3a5a46fc26",
+      "sourceText": "介绍：https://bbs.robomaster.com/wiki/4577/714072?source=7",
+      "translatedText": "Introduction:https://bbs.robomaster.com/wiki/4577/714072?source=7",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "e35467524429451f79d33cdad7f244283b523318d0d7b03b78a97920222210d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "9cd21b012edd9d32e4ab791c4b241f04924735422952f8524b96b5d2b5ca1b52",
+      "contextFingerprint": "81e28e3032d1e4c18a497cd0309884eb2f5fd6bd1046c90c01995be11ee9f433",
+      "sourceText": "得知宿主机拿到的ip地址是`192.168.1.50`：",
+      "translatedText": "Obtain that the IP address obtained by the host machine is`192.168.1.50`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "e3689188cfcef3d667ca9433b710ad9b9bb32d57eb8c7b84daf3278fdab1a421": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a77ee5dff5322b51ce321fbb1f2c96b4c2acfa42745f2db0030b3d31cff8533",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重启工控机上的驱动一般即可解决。",
+      "translatedText": "Generally, restarting the driver on the industrial control computer will resolve the issue\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "e373d1e19874eda392e2c272c069745cecc36899262e52e6f551a39c780805c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8da59a0dffd33770c100acd97ec7f7753734ec1ab52c07d88f0baa8af4cba25f",
+      "contextFingerprint": "ebca688a7f5517440458b314a6ce1d66541b109288666017bd5b85dcee0bf5fa",
+      "sourceText": "#### pb2025_nav_bringup里的package.xml（导航启动包依赖）",
+      "translatedText": "#### pb2025_nav_bringup in package.xml (navigation launch package dependency)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
+    "e3a0cd5ccd92f9f765045d7fe91b6a421bd60bef15d7bb47ff40fcf0347dff4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "98e03d9075e0df45e06b8b818c0f3c68abf38636eae608f29a22491dec4befd0",
+      "contextFingerprint": "7813703b73f7d69ab23d9d1ff6e6970bb179ea95cc58bbc5deefdce58d083d9a",
+      "sourceText": "本章的 `swap.h` 可以整理成：",
+      "translatedText": "In this chapter, the `swap.h` can be organized as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "e3a3f9d8c9881c2e2acaa7b35cc3b190cc79e539bf1dd06c114aa1608a6f9862": {
+      "normalizationVersion": 1,
+      "sourceHash": "49d9abe2e01d63fa5eda09433fb49bba9041106cd1b95791a7b60864f7e0f386",
+      "contextFingerprint": "6547716f89db4d2b88a6ebb779b37dc18bc95825cf66bede23cc60ab82fe0b1b",
+      "sourceText": "LEVENBERG_MARQUARDT简称LM，可以理解为根据误差改善情况调整每轮轨迹修正的力度。DOGLEG是另一种提出修正步骤的方法；使用它时，才进一步选择TRADITIONAL_DOGLEG或SUBSPACE_DOGLEG。",
+      "translatedText": "LEVENBERG_MARQUARDT, abbreviated as LM, can be understood as adjusting the strength of trajectory correction in each iteration based on the improvement in error\\. DOGLEG is another method for proposing correction steps; when using it, only then further choose TRADITIONAL_DOGLEG or SUBSPACE_DOGLEG\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 83,
+        "costUsd": 0.000159
+      }
+    },
+    "e3cbacab81819b7679d0a860e75c39bc4663270d640cec6c479370fceb39ee1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "902d11594f0b37356ad07f5dec9d951f9e291851401fb05a10df1dca6db64de8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此时，在底面上建一个参考基准面，再距离这个参考基准面上方距离轮子半径距离处再建一个平行的基准面。",
+      "translatedText": "At this point, create a reference datum plane on the bottom face, then create another parallel datum plane at a distance above this reference datum plane equal to the wheel radius\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    }
+  }
+}

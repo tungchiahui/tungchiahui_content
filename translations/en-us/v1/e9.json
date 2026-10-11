@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "e914047eb4f134ede26f7bb2c67379f20a1a6b5ffc98cf5fd367f321202a6cfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "82c800e1691411a72b00cbfc712cb2e94cb5e5337f1cf79c9dc04a1881453317",
+      "contextFingerprint": "77dc7647ff9dcbddfa5c930061eb00c395aaee057b67e43b8956594581e928bf",
+      "sourceText": "###### map_frame、odom_frame、use_sim_time 与输出边界（地图、里程计参考系与时间基准）",
+      "translatedText": "###### map_frame, odom_frame, use_sim_time and output boundaries (map, odometry reference frame, and time base)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 54,
+        "costUsd": 0.000118
+      }
+    },
+    "e979351750656a28ceb9022db535b158c7cfbbed9e0d6b93872050c8b7499f47": {
+      "normalizationVersion": 1,
+      "sourceHash": "df66065b033cf4e251c9a274f8db24b91f30603f5f9b20dc519b114712c34fdf",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "例如，其他条件都满足时：同一个坡上的点，若被算成比这一小片地面高6 cm，会低于当前10 cm障碍门槛；若地面高度估计偏低，把它算成高15 cm，就可能被画成障碍。这里是**局部地面高度差，不是整条坡的总高度**。调整地面估计或抬高障碍门槛，可能减少坡面误判，也可能让真实低障碍被忽略，不能只看坡能不能通过。",
+      "translatedText": "For example, when all other conditions are met: a point on the same slope, if calculated as 6 cm higher than this small patch of ground, will be below the current 10 cm obstacle threshold; if the ground height is underestimated and it is calculated as 15 cm higher, it may be drawn as an obstacle\\. This is**local ground height difference, not the total height of the entire slope**\\. Adjusting the ground estimate or raising the obstacle threshold may reduce slope misjudgments, but may also cause real low obstacles to be ignored; you cannot judge only by whether the slope can be passed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 130,
+        "costUsd": 0.000224
+      }
+    },
+    "e97f5f775acd836e14be4db170bdc43ce891eb32488f426386c70df638c5e400": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b4d6c82e6565826465a8ae8ea1bfba13cd31d1286f6c9c27dc94c60dd34939f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多态满足条件",
+      "translatedText": "Conditions for polymorphism to be satisfied",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "e995d59b3dd74089ed1f1fc314eddc6ae8b9fa34a96d5d0d937e647f6d4a89f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "150b3be8fa006f43823cc6f4fc71ca3ac299f1c8d41adfa967ca45e2b8d31c17",
+      "contextFingerprint": "9405e0e171fbb42e184f8e9c61080eaeadd862c7944c62c5654933b7d8787aa3",
+      "sourceText": "首先将 `swap.cpp` 重命名为 `swap.c`：",
+      "translatedText": "First, rename `swap.cpp` to `swap.c`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "e99d3f94dea895d2c1af6cdb28e8215e924f86ce52a56a8e0040a7d9c5f643bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc0762d54130ea225a3854240ca63cdf4ca8cf810babcad44da2eece357e6ac7",
+      "contextFingerprint": "5c08fc4e475b7d304c2c6d79d7883a1d8b42e54709917f635c2890b3f0056976",
+      "sourceText": "ivox_nearby_type=18 表示邻接网格类型。",
+      "translatedText": "ivox_nearby_type=18 indicates the adjacency grid type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 24,
+        "costUsd": 0.000074
+      }
+    },
+    "e99e2b247396fa4bba1cbbe1bc91c9760fc63e8851bf0276d28e6ce926b77102": {
+      "normalizationVersion": 1,
+      "sourceHash": "b209294c4657f805d9bb62b356d839502b4bd8b25835c803b4b476847b0570ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**特点1：**数组中的每个==数据元素都是相同的数据类型==",
+      "translatedText": "\\*\\*Feature 1:\\*\\* Each ==data element in the array is of the same data type==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "e9be7632362e6e88a69a96a238da9c47d3f41a3098e07612bb2a2fc82c5de380": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f8863de1490454ebca42d7104fdcf37de9c3604d928d2e2f4baa11e1115a00f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这比单纯“给某个模型加一个模块”更接近一个可以持续做下去的研究问题。",
+      "translatedText": "This is closer to a research problem that can be pursued continuously than simply \"adding a module to a certain model\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "e9c1cfce50a17d24da66a05ba4d4c9b4a0a4531c6dcc74d1ab4ae65691003778": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c96650a748dd1e7edec2087a7674b56a252a4238ce6a680ad657b58e75abdf5",
+      "contextFingerprint": "433b933286ec520541e74199f0b268c3049862ccc2917ce41a298b9c8019acd5",
+      "sourceText": "本表以当前实物 YAML 为基准；仿真差异单列。`local_plan_topic` 没写在这两份 YAML 中，但源码会声明并读取，当前使用其默认值。",
+      "translatedText": "This table is based on the current physical YAML; simulation differences are listed separately\\.`local_plan_topic` Not written in these two YAML files, but the source code declares and reads it, and currently uses its default value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 49,
+        "costUsd": 0.00011
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "7b24b4c78f5d27ee21496e98db079a01c1c645861fa73edebd6f79f67753fffd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9461b8b5390cf157737d87860108ca4932fa17e8dd6623d76fe25475c65a657",
+      "contextFingerprint": "45d7a936706e47ee9e5b9ea3f210fb854acda2beb3dbe28c85e8bfe85e62ed18",
+      "sourceText": "| 配置值 | 搜索范围 | 总网格数 |\n|---:|---|---:|\n| `0` | 仅中心网格 | 1 |\n| `6` | 中心＋面相邻网格 | 7 |\n| `18` | 再加入棱相邻网格 | 19 |\n| `26` | 再加入角相邻网格 | 27 |",
+      "translatedText": "| Configuration value | Search range | Total number of grids |\n|---:|---|---:|\n| `0` | Center grid only | 1 |\n| `6` | Center \\+ face\\-adjacent grids | 7 |\n| `18` | Then add edge\\-adjacent grids | 19 |\n| `26` | Then add corner\\-adjacent grids | 27 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 53,
+        "costUsd": 0.000114
+      }
+    },
+    "7b61c6cb30dbf754aaa8d284d626c672ec7610c1f17cf46cf030bb6a79ad0395": {
+      "normalizationVersion": 1,
+      "sourceHash": "56495d6da5d17a02f240ea47198dabd01864fea41384b6b8a5c0cfd4cca1587c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设计立方体类(Cube)",
+      "translatedText": "Design a cube class (Cube)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "7b7008ecf517a26f2a1b0335131e389d5fec418fa936a21e41ad2df307ff40d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "4dc6847c7b90502fe2d0379cff8c8be64287408ead099f7924f1d4019cdf03b8",
+      "contextFingerprint": "e641d6e2672bf9c55a3e733a9d6c7349ce1ca211e2a055d4e4c81bf887a18cb7",
+      "sourceText": "然后取反得到初始 IMU自身坐标中的重力。下面旧代码片段的 gravity标签应按这个含义理解，不是要求直接填到 mapping.gravity：",
+      "translatedText": "Then negate it to obtain the gravity in the initial IMU's own coordinates\\. The gravity label in the old code snippet below should be understood with this meaning, rather than being required to be filled directly into mapping.gravity:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 60,
+        "costUsd": 0.000123
+      }
+    },
+    "7bac6183feb3b895c6a717657912d890fd23238bf5b6b28dc58aa0daf9cbc551": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e3c3277075cb4c51ee5e5223909a207f63653f55a235dcfada2e7c23f11cf60",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**示例2：**静态成员函数",
+      "translatedText": "\\*\\*Example 2:\\*\\* Static member function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "7bb0204c0b1526440ae217512e09df549873db3fcdb65d1280a29e3e03ed5381": {
+      "normalizationVersion": 1,
+      "sourceHash": "15c9b925d565b1b56c50b967075a649d94cc7e0d56821cac9ca95bf29838431d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 如果是纯虚析构，该类属于抽象类，无法实例化对象",
+      "translatedText": "* If it is a pure virtual destructor, the class is an abstract class and cannot be instantiated as an object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "7be2bce6292961df70da9a5bf9473988a1c3b74dbc3dda5238fac79895c4fad3": {
+      "normalizationVersion": 1,
+      "sourceHash": "829d387141e47b9538b5bee1a1c82ded9bf71f60b23bce0c2d3cd99cff981beb",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 参数读取、地图一次性转换、累积配准点云、平方距离门槛、启动初值与人工初值的区别、匹配收敛后的更新规则和输出接口。\n- **仿真已观察：** 2026-10-08仅验证独立Point-LIO静止和约20 cm往返；未验证本节点、先验地图匹配、独立云台yaw、人工初值或全局定位。\n- **必须实物测量／文件来源核实：** PCD与二维地图的共同基准、建图与启动云台零位、雷达／内部IMU／底盘外参、地图米制尺度及实际起点、可见结构与动态干扰、正确位置下的匹配稳定性。当前重力方向和点时间问题继续保留待核实。",
+      "translatedText": "- **The source code can confirm:** Parameter reading, one\\-time map conversion, cumulative registration point cloud, squared distance threshold, the difference between the startup initial value and the manual initial value, the update rule after matching convergence, and the output interface\\.\n- **The simulation has observed:** 2026\\-10\\-08 only verified independent Point-LIO stationary and approximately 20 cm round trip; did not verify this node, prior map matching, independent gimbal yaw, manual initial value, or global localization\\.\n- **Must be verified by physical measurement / file sources:** The common reference of the PCD and the 2D map, the gimbal zero position for mapping and startup, the lidar / internal IMU / chassis extrinsics, the map metric scale and actual starting point, visible structures and dynamic interference, and matching stability at the correct position\\. The current gravity direction and point timing issues remain pending verification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 292,
+        "outputTokens": 201,
+        "costUsd": 0.000329
+      }
+    },
+    "7bedc33d98122927721828a5f8931b8c6b7ddf10088b42166711d3a6ded1fc6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5006120eb942caacd645edded694d767ee77a319b20f2e892ae115f4cb15d6e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它应该同步跟着转。",
+      "translatedText": "It should rotate along with it synchronously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "9c0dd70f31d06563acd4b64012cb841c8f84f8edf1a86fa83b734812230fbd17": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe8e4a3a7556a8bf3f89c0e8fbcb505f3c44ded994f6159f6a007a9caab6fa2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这次问题的关键不在Codex插件本身，而在VS Code的启动入口不同：",
+      "translatedText": "The key to this issue is not the Codex plugin itself, but the different startup entry points of VS Code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "9c2e6cd3bbefdbf1fbf40a9b92c2f1051eab68f6c01b6f9111ec834312481e6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "bab6046cea84b92ddd950931c73ce5fc70db9eb69098c954174549b18dd77599",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从main函数开始，代码是一行一行运行的。（一个工程里有且只有一个main函数）",
+      "translatedText": "Starting from the main function, the code runs line by line\\. (A project has one and only one main function\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "9c301f2915aaad6df278158b1bcc251049240488ed08e0ae44f6368dca115090": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcef3201d74152315835a84d877ae8d64d53f08676ba6ba2de6db3f392cbe25b",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 整理 lib1 和 lib2",
+      "translatedText": "#### Organize lib1 and lib2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "9c320e651863dc55f83a3f62cb27ae38a91dda7ac4ee173d07ae0751cb75da26": {
+      "normalizationVersion": 1,
+      "sourceHash": "43c01397290b096ac332a81c36ab53b7bf75cd7233e4c9a60b4bda279cd1b82e",
+      "contextFingerprint": "438a68a1da532c3292efec0f6155c02c3683de34609f560c8f3a7aab43e78805",
+      "sourceText": "1. 配置文件\n位于 `/etc/config/*`：",
+      "translatedText": "1. Configuration file Located at `/etc/config/*`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "9c85cecbb7c754645dd023d41cf1c8f86b10207b024d9b9ff0251e28ec7fea7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed6d93b7246fc9d25dd8da191f36d775440d1c7959d9209c6d00cbabf00d5561",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上实物前需要核对输入位姿究竟代表 IMU 还是雷达、逆旋转后的轴向，以及这个窗口的筛选目的。雷达自身系已经扣除安装姿态，不应把整机倾斜角随意加到视场上下界；这里度制的阈值也不能与弧度制 JointState 混用。MID360 随实际 yaw、不随实际 pitch 转动的机械约定继续保留。",
+      "translatedText": "Before running on the real hardware, it is necessary to verify whether the input pose represents the IMU or the LiDAR, the axes after inverse rotation, and the filtering purpose of this window\\. The LiDAR's own frame has already accounted for the mounting orientation; the overall tilt angle should not be arbitrarily added to the upper and lower bounds of the field of view\\. Also, thresholds in degrees here must not be mixed with radian\\-based JointState\\. The mechanical convention that the MID360 rotates with the actual yaw but not with the actual pitch is retained\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 119,
+        "costUsd": 0.000207
+      }
+    },
+    "9c8d3af10d51e955f254b4dcabee3cdd1d95b6b1a817d0a0206801e53c49c66f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d04fdb82c2e99fdea4ecb988dd1e3d2ebabf88c14db7e0763b7eca7cd691d21b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这项影响“激光匹配结果对位姿有多大作用”。但本地代码的两个求解分支方向不一致，不能简单记成“调大就少信雷达”。",
+      "translatedText": "This affects \"how much the laser matching result contributes to the pose\\.\" However, the two solving branches in the local code have inconsistent directions, so it cannot be simply recorded as \"increasing it makes the radar less trusted\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 53,
+        "costUsd": 0.000113
+      }
+    },
+    "9ca7bca4b1023d0e48df4f86d916f4d758f2a0eaccdb077fc5bed5805f58c905": {
+      "normalizationVersion": 1,
+      "sourceHash": "f274ea5065c7ae512e903ceeea10c2eaf1ce2d17b415a73f8b1349d5944391ed",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 继承的基本语法",
+      "translatedText": "#### Basic syntax of inheritance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "9cb2042f0b58fa72b0b9db9d71ddeecb7359c38291dac31584886ed2e1f9d7fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cb3da4b9e00e61c631e247bc379a7372567cf4a08ac7e1a27de0f026894e845",
+      "contextFingerprint": "aded7a03f4a43843bd6b89d1b072bbb00d2c4412ba61c8e80f3c2dff4090048e",
+      "sourceText": "> 作者：KANSUNG\n> 链接：https://www.jianshu.com/p/5190ab903820\n> 来源：简书",
+      "translatedText": "> Author: KANSUNG \\> Link: https://www.jianshu.com/p/5190ab903820 \\> Source: Jianshu",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    },
+    "9cb2df159f24d1f4bc01b7212270fb969b9a1c4c9ca25bf0e1c2787834c8589d": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c4e11b3d3545675f477bba857117ea22483e50cdb869d96db2d71b4713ac5a6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### struct和class区别",
+      "translatedText": "#### Differences between struct and class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "9cf60c71eb200ec6359c62b1f7d78f7be5eccee49f825de2ac31cf2d4f37aa66": {
+      "normalizationVersion": 1,
+      "sourceHash": "5278c0c622ec61e239d4c7a3cc5e7ee2cff8f29a526222ebc3823262b01b133a",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 问题现象",
+      "translatedText": "## Problem symptom",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "9cff4e25c06287b59d56ee4d635e5517f07d7377d76bee355c72c8264e49f3c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e88b03dc3345188da3832ed344abc79a0100427d68364f31c6b83dbaf346795",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前 False 的流程是：",
+      "translatedText": "The current process when False is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    }
+  }
+}

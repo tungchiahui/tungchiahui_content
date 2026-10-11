@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "5f11aa8d8c69b02f057495a58b6d748b35b9b1b525b2216209812775a66bb5e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cdb022dc16d0b617e39ff9cd6c6e92aa23330960b3aba8b00e5005a97943f35",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：如果不想修改实参，就用值传递，如果想修改实参，就用地址传递",
+      "translatedText": "> Summary: If you do not want to modify the actual argument, use pass\\-by\\-value; if you want to modify the actual argument, use pass\\-by\\-address",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 39,
+        "costUsd": 0.000092
+      }
+    },
+    "5f146efd1bd52eb125c96aa3620676c2b2f67e1f8ca488ad5f9de85cb345bc2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdb73f8cdb2d49474777f325f6f5e4241a37602b6cc70e48f66b288b83a58a0f",
+      "contextFingerprint": "d23e47ee71eab9760dadc1920109cac9648f5b74c81e50801607dfbb7dc55481",
+      "sourceText": "除了改尺寸以外，由于咱们没有大小Yaw结构，而Gazebo又只给了小Yaw控制器，所以咱们把`gimbal_yaw_odom_joint`给固定死吧。",
+      "translatedText": "Apart from changing the dimensions, since we do not have a large Yaw structure, and Gazebo only provides a small Yaw controller, let's set`gimbal_yaw_odom_joint`fixed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 40,
+        "costUsd": 0.000097
+      }
+    },
+    "5f1d4b0b85d4d41e5d06dbbb3f3e9975c0ecb340273da4cd78a63cd4f12a8e96": {
+      "normalizationVersion": 1,
+      "sourceHash": "19350b07f1ea1694013ebae64b5c54ab7868b31a481507a5a718adcb4942b93f",
+      "contextFingerprint": "9e06334af74251502863ff12f585d59426e050eb0d19ec3934889e2981657b24",
+      "sourceText": "输出只填ranges，不填LaserScan.intensities。这里的两项intensity参数用于挑选输入点，并不把地形高差继续作为扫描强度发布。",
+      "translatedText": "For the output, fill in only ranges, not LaserScan.intensities\\. The two intensity parameters here are used to select input points and do not continue to publish terrain elevation differences as scan intensity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 51,
+        "costUsd": 0.000113
+      }
+    },
+    "5f5cf1b06a304ada2a751c7c610730f9ed93dc36fe807ba073dd65455df59b32": {
+      "normalizationVersion": 1,
+      "sourceHash": "474687c42c982bd04fc4c96a426d4e836b731d405332914888b33e96f3c97da5",
+      "contextFingerprint": "e53a668050e370ab21047558a808a326b1ac87e127dc2ff3521137be2218e6d5",
+      "sourceText": "只有需要跨越 C/C++ 边界的函数才需要这种兼容写法，其他 `.cpp` 文件之间仍然按照普通 C++ 方式调用。",
+      "translatedText": "Only functions that need to cross the C/C\\+\\+ boundary require this compatibility syntax; other `.cpp` files are still called between them in the ordinary C++ manner\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 53,
+        "costUsd": 0.000117
+      }
+    },
+    "5f69b52419ec7aa1eaf875ff2bae3655c4d2d94ade707731186b1d8eedfe5c64": {
+      "normalizationVersion": 1,
+      "sourceHash": "711dc70f7a3badd5220be9ad62af6fa11a55da147519bc62c5d0d161c3652379",
+      "contextFingerprint": "f35df28cc8492744793dde12de7daa99ab4b09f1cb19645316b8d4526229166e",
+      "sourceText": "当前安装版本为slam_toolbox **2.6.10**、Ceres **2.0.0**。以下读取和生效条件按对应版本复核；配置里的humble分支链接可供查说明，但分支内容可能继续变化。",
+      "translatedText": "The currently installed version is slam_toolbox **2\\.6\\.10**, Ceres **2\\.0\\.0**\\. The following reading and effective conditions are reviewed according to the corresponding versions; the humble branch link in the configuration can be used to check the description, but the branch content may continue to change\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
+    "5fed0d43f8f6b1fb7a57883d889b58d9f3ecd61ce82147edb6f7e92c08396e43": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ee12e764766a1ecf25521fca05dfe51c515a6e6519758d929058d8598448bbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这还没完，刚才只是测到底盘的距离，而我们真正挂在云台Yaw上，所以z要减去底盘到云台yaw的距离，所以最终朝上偏移 z = 255.58mm + 50.46mm - 210.46mm = 95.58mm",
+      "translatedText": "That is not all\\. The previous measurement was only the distance to the chassis, but we are actually mounted on the gimbal yaw, so z must subtract the distance from the chassis to the gimbal yaw\\. Therefore, the final upward offset z = 255\\.58mm \\+ 50\\.46mm \\- 210\\.46mm = 95\\.58mm",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 84,
+        "costUsd": 0.000159
+      }
+    },
+    "5ffe8da063b694797a2769ab45f674307c81fc7bd04ff22a3150363cfad0d90c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6364a821c216ace50d55f3e0e3d23819c1d9bf161cab45c06f1003014ac9a3de",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### new操作符",
+      "translatedText": "### new operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    }
+  }
+}

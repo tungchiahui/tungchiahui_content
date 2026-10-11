@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "85332fcdc7a330207fea420eae08d114c221a1e8aeb1a286ab9e86b06b1a4b7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ed208a90978d79d9911de4b233ee74b851cdb7577bd3d4f6d64fc28a182344e",
+      "contextFingerprint": "950232a9bb37226d3d698054d43ef68e485d430d0d19234365cf0929d1403fac",
+      "sourceText": "###### use_sim_time（系统时间与仿真时间选择）",
+      "translatedText": "###### use_sim_time (system time and simulation time selection)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "853fcf8babec907f4c8281913b516c82e4898ba5aad6aa5985b46c272da7f9ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "a745722cd077cb59652b7accf03c7d57bbbf5949751905e0b0bf33b6a6c54f05",
+      "contextFingerprint": "dafea706e901c5610bd357a1c44e449bac29066b64258a5a79e3565c0ff95a47",
+      "sourceText": "接下来去修改同目录的`model.sdf.xmacro`：",
+      "translatedText": "Next, modify the one in the same directory`model.sdf.xmacro` :",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "8556d58fdf7a80465e30535643faa758c2711ccfda0ea41d404049a06c01b9c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "59e44441dc276a114f61362b5188175b0e2ed7e7da8e89f89639da9c3a811ee1",
+      "contextFingerprint": "48b492163013ff4585de1401099f8a56c2104ca39f5687e90c93d876e9f3cb73",
+      "sourceText": "###### lidar_type（雷达类型与输入格式）",
+      "translatedText": "###### lidar_type (radar type and input format)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "8574bb15f54ffa2a899207e27b2c497064c99303f8093a99f98a862a4fc6589c": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c619f073e146ca98518e2fd5345cae9f96b18eea46510b9dfdc9bafcd0d6b6c",
+      "contextFingerprint": "04d2e3ba0c1764b7d8496fe50f50e129fb5d7b61e97fb9797afdddc7d7792671",
+      "sourceText": "- **源码能确认：** 导航输入与输出的参考系约定、二维速度换轴、角速度直接相加、串口原样传值、实物／仿真默认差异、参数读取方式及上述代码缺口。\n- **仿真已观察：** 2026-10-08仅检查独立 Point-LIO 的静止和约20 cm往返；没有验证本节点、独立云台 yaw、MCU速度换算、附加自旋或停车行为。本节90°例子与相加表均为计算示例。\n- **必须实物或下位机源码核实：** 轴向与单位、机械相对 yaw零位及方向、输入位姿是否正确、MCU是否把云台系线速度转到底盘执行方向、最终角速度的执行对象与限制，以及是否重复叠加自旋。此前重力方向和点时间单位问题仍保留待核实。",
+      "translatedText": "- **Source code can confirm:** the reference frame conventions for navigation input and output, 2D velocity axis conversion, direct addition of angular velocity, raw serial port value passing, default differences between physical and simulation, parameter reading method, and the above code gaps\\.\n- **Simulation has observed:** On 2026\\-10\\-08, only the stationary state of an independent Point-LIO and a round trip of about 20 cm were checked; this node, independent gimbal yaw, MCU velocity conversion, additional spin, or stopping behavior were not verified\\. The 90° example and addition table in this section are both calculation examples\\.\n- **Must be verified with physical hardware or lower\\-level controller source code:** axis directions and units, the mechanical relative yaw zero position and direction, whether the input pose is correct, whether the MCU converts gimbal\\-frame linear velocity to the chassis execution direction, the execution target and limits of the final angular velocity, and whether spin is repeatedly superimposed\\. The previously noted issues regarding gravity direction and point\\-time units also remain to be verified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 315,
+        "outputTokens": 233,
+        "costUsd": 0.000375
+      }
+    },
+    "857ddc0a8a5e7dc0f280c5534e050e7a957fa94d50305ab1c7d7f5c29cbb7617": {
+      "normalizationVersion": 1,
+      "sourceHash": "db06fad2164cf07ead040d97fe22b92c20381b009f9bcb3d106a15af3a8fee74",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 实物",
+      "translatedText": "#### Physical object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 9,
+        "costUsd": 0.00005
+      }
+    },
+    "85870e3815c735609e56f8dfa4b1f023e73e800bf9a5369b95bb01bd27c28103": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d978e54c2597875313272c72e0563ace924b2529390bd21d0de395b902930eb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "举个纯数值例子：",
+      "translatedText": "Let’s give a purely numerical example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "859b293a9ae2613287cedbc448a13f9d15165cd2c76727660479606400a716cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0574247fbad5eab1d29a7a82aff543ceb4acd7f87d3dbabc01ba55f5b89d8a0",
+      "contextFingerprint": "f3da444b0102d38c8e836f4450945a9847a00ae45681d8b15efdabf0767dd4f3",
+      "sourceText": "###### extrinsic_T（雷达与内部IMU的位置关系）",
+      "translatedText": "###### extrinsic_T (positional relationship between the radar and the internal IMU)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "85b60dbb70d09edeb2d52fa7d84d19dc35f4217fc501a5e8b1adf4d5593973ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e318fd40600f6709fa12f5fa6b3d5080f79af201a39ddb2b15db71ec3392c43",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "暂时无法在飞书文档外展示此内容",
+      "translatedText": "This content cannot be displayed outside of Feishu Docs at this time",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "85d1873a51ad956f2d880a82ba3788df431f2b3dac67e6cb0c0dce4a730efc25": {
+      "normalizationVersion": 1,
+      "sourceHash": "134c7aacb04513c327b5356c49ef82aed7355813cc7be4e02c2a477c6abe4f61",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重写：函数返回值类型  函数名 参数列表 完全一致称为重写",
+      "translatedText": "Rewrite: A function is called an override when its return value type, function name, and parameter list are exactly the same",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    }
+  }
+}
