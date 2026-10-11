@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "cd00f5a751b5909c3bc392c7e3fe48a5bc6342fa670066abcf81a9385421d2ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8fc1c6c8c53aec37fcd56c504336febbfc9478b5dc9060e6faa959a3fdc8b0e",
+      "contextFingerprint": "778f9fda5179506bf896c4e779977830a15542aa8e697a038eb86f4750987520",
+      "sourceText": "1. 点击 Configure。\n2. 选择 `Linux Debug`。",
+      "translatedText": "1. Click Configure\\.\n2. Select `Linux Debug`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "cd06e154c378c8bb4504aee5f9eba2ccc1474e04397305c4a89dde6bc24212cb": {
       "normalizationVersion": 1,
       "sourceHash": "320570d2cf2929f9f157ed12533fb8c93d657b8c1f963bf4501ef6299532d249",
@@ -43,6 +57,34 @@
         "costUsd": 0.000061
       }
     },
+    "cd13c20c139e707d8f2777684b35e83f94970f5ba00063c91e8159cccea4ca77": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b9033677c49d3ea3f3eda313cf4706d3e7706bebfee8cc0d00f4c369e6db0f8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 典型输出与时间顺序",
+      "translatedText": "### Typical outputs and time sequence",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "cd1d67715e60b81957c3da2ce8f533bb2a754d90c6bd564109bef6dd89b3cc85": {
+      "normalizationVersion": 1,
+      "sourceHash": "534777436e1c22430089b2f4dc6a417526c9f600a622089a6f0fca1360a06f18",
+      "contextFingerprint": "b170bafd15f74b1b4b5457043e1e3fafc0e3138020b668c136315d2b5a04fd67",
+      "sourceText": "`timer1_` 和 `timer2_` 是两个异步任务，但本例仍然只有一个线程。",
+      "translatedText": "`timer1_` and `timer2_` are two asynchronous tasks, but this example still has only one thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "cd373d3ba1d173d83b6cf5f798fbee28bca08370314943664ccda8759d76e172": {
       "normalizationVersion": 1,
       "sourceHash": "94c0652496bdda20e71e4a3c2b2835c3ac14b5ae353dfcd2d48fbf4a7a1e351a",
@@ -55,6 +97,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "cd3fc1bb89c61796bfd577ce21d1cbf38388b309e8689cac79222aaa6fdcc9b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee94a69c1dde0eca4ceded028900ad208bbf8d7cd72e225921343c31c3f0cd21",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中的：",
+      "translatedText": "in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "cd67b7ab4658d75d4d2df512ca20b58f70ff76eb889736e486f529815d1c14e1": {
@@ -85,6 +141,34 @@
         "costUsd": 0.000058
       }
     },
+    "cd74cede5dd5264884fe66a6735988b355bbbd5c55d855a947ea3bd23bf8206a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d341ced7ad220fd77efc53ad09935d33a5e4db967aa1f0a046cd40e7b9b92dd0",
+      "contextFingerprint": "af03d123e12d35db2028b4c8bf206ed24d05684b532bb82247fa4bdfc9420762",
+      "sourceText": "### packaged_task 也是 move-only",
+      "translatedText": "### packaged_task also move-only",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
+    "cd7bd90f3640db6b74deb9bde46b4fe3daf9fe5a259bc398dce3270370ae68e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "b22ac0baf7180c4516b0e3c22d6eb484b3e353aca55423175740efdefba3eea6",
+      "contextFingerprint": "13d8f42159ec491e53722eb5d9798857e46595326ba86abc9d72a68aa4c998bd",
+      "sourceText": "> 不再人为保持 `io.run()` 存活。",
+      "translatedText": "> No longer artificially keeping `io.run()` alive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "cd80c0b3ffec9b5bf533e4670615d776fea909f7e6cedaaa6870d27282ac897e": {
       "normalizationVersion": 1,
       "sourceHash": "c95f536f825200a58ac246466cf9a8f34e0e3caba5a861f3e0c79238682bb5ad",
@@ -111,6 +195,20 @@
         "inputTokens": 149,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "cd85af12471cc88aa823aa32b7455ec136dd1dbf3c6ac1640242edb280dd2065": {
+      "normalizationVersion": 1,
+      "sourceHash": "4890963112085eaf62c78870fc91368b5a333173ddf7141aa9e49b2175e408ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里最值得注意的是：",
+      "translatedText": "The most noteworthy point here is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "cd93ac762ab3f7239e90d715b508e719141608484c7f6b58b5f53cb284917975": {
@@ -141,6 +239,34 @@
         "costUsd": 0.000074
       }
     },
+    "cda559d0a7bb48c718d90477a3e53fae3647aeb71e6a05fd71de83fb8f738895": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2dbbf016a32f6d2e662b99eb30e061e1e389ddf89c40777875bff95c7b499e2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 什么是 broken promise",
+      "translatedText": "### What is a broken promise",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "cda6b05fa16969458f38bc6fc1b9bf2266d7e01b9559ff5aca4a7a8dfce907ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "c85bc01bcc874885b2bc998cc3c7e6205b28e90a69707a514eb05574e352f998",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Asio 线程处理完：",
+      "translatedText": "Asio thread processing completed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "cdb96035fcf50ef193c5602ad0556e458ab430fe17db83f19f0afd3252d4e0bf": {
       "normalizationVersion": 1,
       "sourceHash": "6bc6acb183172b0c8d4131a660f2fdc86290cfe08023734b6cb9d7fc57ad4ba5",
@@ -153,6 +279,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "cdc0147af53279c1a967b6047c9eb0cfcbd30f13cec21700f662ee25302964ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6ab0c734a51d2a1a8f8c57a76d5bdd131d3ec17312fdd4e1b83f36087e6179e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么即使所有真正任务都已经执行完：",
+      "translatedText": "Then even if all real tasks have already been executed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "cdc0b8d3d4b3ab493825178d4d1f9c4f5629f582c9239040e8149a01e5eb14b7": {

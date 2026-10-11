@@ -29,6 +29,20 @@
         "costUsd": 0.000057
       }
     },
+    "b9112eba0b34cf27f249e6476fdecc02c65e00f3d1d2cc72d34808f7c49543a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e642bb8a0af2825e069486a087d4810b4a5ced8e8a8f616f8a96ab081c0ec97",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "收到以后：",
+      "translatedText": "After receiving:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b917e893c4abbca87702ac2f48e9426f7a6d912560b4c75de04c6c07c91257c0": {
       "normalizationVersion": 1,
       "sourceHash": "aa9b71fc981a51e1305a2e92f709205eaa431b9211ee26a419dbd36b565635ba",
@@ -57,6 +71,20 @@
         "costUsd": 0.0001
       }
     },
+    "b93b91a8f0f320640a5d1290a9056d22e7403f523759ea42b5b0757807912cfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c7a3eb88f08108810e1e7b0c4a7c25cb8f2283aaf518ce2382f239fc96cb1f3",
+      "contextFingerprint": "84a85f4f03ee968907439c7ae52a7e333dd8f347cf7524808e0fad1f652910e6",
+      "sourceText": "## 示例 3：普通 `main()` 里写两个异步定时器",
+      "translatedText": "## Example 3: Write two asynchronous timers in a plain `main()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "b944767ee68baf4ecdb1b323e63ce2ad69a3c99a7076548e1ea60ba314e4d22f": {
       "normalizationVersion": 1,
       "sourceHash": "88d9585c711c24966089fedc0efc4985571896c09f353aad1096077be139bee2",
@@ -69,6 +97,34 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "b94d5a4f472cff2649f00b66328dfd76a180cd91c77d1d9d45b683bf18ccd3a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c2215d2c045dfa3e1641b0c3a55e735fc383d5a0775e6dd1991091fe969985e",
+      "contextFingerprint": "42364ca6b31d6474c9bccfe3e7822303ed798d24609836601a52ca0233aa6530",
+      "sourceText": "提供了可以直接配合 `stop_token` 的等待方式。",
+      "translatedText": "Provides a waiting method that can be used directly with `stop_token`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "b953cec6d849c0f3767753802b0f3fcc77f0657fae3eef290fd8666b3ca9c0cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1cbca061a55694331087e595e908923a066b93a1531e32761dfb4dc1cd33af3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以如果上一次的数据后面还需要使用，就应该在下一次读取之前：",
+      "translatedText": "So if the previous data still needs to be used afterward, it should be done before the next read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
       }
     },
     "b95824ec66a1b140de41409d31e10704dabaacf37f9daa9c24a58449e18fd6e2": {
@@ -85,6 +141,76 @@
         "costUsd": 0.000054
       }
     },
+    "b9626aee4017160edc68e7414c93c2559d2565495aa88cf77469d33b8e855832": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f9a1f840e048463cd5041be62f9b4e7cc56262aa043d329035847b3c9219dc9",
+      "contextFingerprint": "b87df0517f951ab49bed05afb9318c934983417381942be3b3bc80ca91d834a8",
+      "sourceText": "> **向 `io_context` 投递一个以后要执行的 handler。**",
+      "translatedText": "> **Post a handler to `io_context` to be executed later\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 16,
+        "costUsd": 0.000062
+      }
+    },
+    "b96a3fdd07363da724ed0bb00db676ae9a1f348b54d5cd8346a2ea34b027780f": {
+      "normalizationVersion": 1,
+      "sourceHash": "452c12298b5507d5acbd2dc1c6f53cca750bd2b156c160668e4afff5a60871d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序刚创建对象：",
+      "translatedText": "Program just created object:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "b96a55ca264f9ee9f5b03b3b6a293ab59d097546db96b95f97c41b41a1094b7c": {
+      "normalizationVersion": 1,
+      "sourceHash": "59c6f845e6fa262e38fe89230775746415c95b436df266a4ffcfac007fc3c1d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在 VSCode 图形界面中，CMake Tools 会在 Configure 后识别对应的 build preset。",
+      "translatedText": "In the VSCode graphical interface, CMake Tools recognizes the corresponding build preset after Configure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 25,
+        "costUsd": 0.000076
+      }
+    },
+    "b9790c3aee56898bc48c4b7aa2d5d65912137c1019acc11b6ed0b60e7c132050": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc890a5468ffa88a6492efc4934dcf5ed54d0310234965114bb287972e64174e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：在示例 3 基础上，创建目录、文件并拷贝",
+      "translatedText": "### Example 4: Based on Example 3, create directories, files, and copy",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "b97bde464754a395474f29583fda03382f88dad9527dc86b4c8a8345078ae247": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae22b50ed85895daf7ea452385f85040386ea269a131b0bdfb8d327757d0791c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 2：监听串口另一端。",
+      "translatedText": "Terminal 2: Listen to the other end of the serial port\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "b99095016ed794df496a600d9554f6846c5d2dc111c83e94a4d66da1b761d784": {
       "normalizationVersion": 1,
       "sourceHash": "0a981e565477087390a87bd38bdc989fa1f984fc69d6f2b75e076f38e8ab1428",
@@ -97,6 +223,62 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "b99a141cfbe44db1aa72fb8f9cb1afd4ae8391d733d94ec8cc4f99f6044197cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "19d698095b2bee10c2dce5fc629e23ce4861d0080eba13cc1e3345476d14810d",
+      "contextFingerprint": "fc827c3c087f426cab3afa91625941717884085b73597535b1025ebc7d435c57",
+      "sourceText": "#### `boost::asio::read(serial, boost::asio::buffer(buffer), ec)`",
+      "translatedText": "#### `boost::asio::read(serial, boost::asio::buffer(buffer), ec)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b99d0d76090761ecbe77ccac65b47a5f3d82128b35588eed6b23dc09365c858e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c467a1abb87039d8bd0b03ea48e5284a2871e8dc0b8fa5c0a618ad9c3723853a",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> “现在立刻把你杀掉。”",
+      "translatedText": "> \"Kill you right now this instant\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "b9b598c70b56870874a819d77cf94691dae0fde32e2ba36a9a5e354bcb40b2cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2022525db9dd4676ea02ec74622b74f17628b117b0bfda8270ddfb66889f4131",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序启动后两个线程几乎立刻输出：",
+      "translatedText": "After the program starts, the two threads output almost immediately:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "b9bc4ebc3e72ce370e245ac08d528942da118c0be0261ef5e56f2b5521cea896": {
+      "normalizationVersion": 1,
+      "sourceHash": "36ab597c6bb3af08a2cda1791db8a3877188f5b149d15eacbb3a68d951335700",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发现：",
+      "translatedText": "Discovery:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "b9c63d77d96bab9fded49f0199c3d81face3dc1baef0d357979b25f3a5179e4c": {
@@ -139,6 +321,48 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "b9cfb37b506fa9c49d6975cfad6183a65aa7bb3ab1fa359a32d8147c84110a09": {
+      "normalizationVersion": 1,
+      "sourceHash": "73aa9e5baeecdadf9099fa7900ecdcd0a2766ff64f7ced567d548b6b6c0b5b4c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它的意思是：",
+      "translatedText": "It means:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "b9f2c83a5b0d05e486fbd8054848e6efea1184be33ebb2a3e1ab9c41a57b6ffa": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f30d0347c707ce65dbbbaca8a4e6491aafd6d1404ea4407204bd3e980c6adf0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初学时可以先不用，但以后可能会见到。",
+      "translatedText": "When you are first learning, you may leave it unused for now, but you may see it later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "b9f2ce717b828e3b9d1502c7bd3f124b33134b60e0fa20f9a6ed50da88d0fb26": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e415f29c49c0bebc87ce1e6490d56602fea019eb54d97c2e0b4c014a42b7e22",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 情况：队列有数据",
+      "translatedText": "#### Situation: the queue has data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "b9f624d1e02dd158770c7326f2889e91529570a33e54e906333594f3b31bc027": {

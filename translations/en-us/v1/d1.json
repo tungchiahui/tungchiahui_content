@@ -71,6 +71,20 @@
         "costUsd": 0.000052
       }
     },
+    "d147ccbf1b9c4bb27fe6d500d05d02f038a0574a2f47fd794a243e2048aaf5ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "15e51c681de31877fb31aa7f51bc7230961fc59442789e79b2d4d864c4debcc5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：它不保证读到完整一条消息。",
+      "translatedText": "Note: It does not guarantee reading a complete message\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "d15472978c4366ac03623879a53547f5e4560ffc16ee21949c43d17e19772253": {
       "normalizationVersion": 1,
       "sourceHash": "61d3f417fe4e44eb70a714df74f32640ae7b603046c076fe90e6afa5c0dda238",
@@ -127,6 +141,20 @@
         "costUsd": 0.000069
       }
     },
+    "d16ac4ed25969821c2d93a4463a26cbe7a846451692a1cd53572be56bf969556": {
+      "normalizationVersion": 1,
+      "sourceHash": "29ea0d0e710991fa9b195fcc9a55c56f591b9f87cc052c773d7c9fced364db68",
+      "contextFingerprint": "96a2916b8e714bebdd75de470e44026d4c43a24007c82d13be8ffc9c744b5b71",
+      "sourceText": "#### `boost::asio::steady_timer timer(io, std::chrono::seconds(2));`",
+      "translatedText": "#### `boost::asio::steady_timer timer(io, std::chrono::seconds(2));`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d16ed85cd498f68ee88caa2d2e49aa841402dce710a2ee1cbe5f2f6c930deb20": {
       "normalizationVersion": 1,
       "sourceHash": "7bbab97474700828ea1b59cc530668c27527fb0a0ab9973e570229b8758ddbc3",
@@ -139,6 +167,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "d17cfd5c54e32acf50fe36a743650a3d6c82c2085147ef760d0b0d2da0970f40": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5e949e43f1cd0ecf1c27918022207c1d413d9be6441527ccaca556dfdb5d732",
+      "contextFingerprint": "adc52e2414cf6fdf50cc5e33133e84f311fbe984ae2c639a27b7394143f4c849",
+      "sourceText": "本模板的 `CMakePresets.json` 如下：",
+      "translatedText": "The template's `CMakePresets.json` is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "d19b4b8b3403cf74449e86bf2734b458658c7598f02a5de9a8d8f5d8c528293d": {
@@ -167,6 +209,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "d1aba0288add6cf93ec5e8dfc916e65d82ab9d5b623ed5014e774136a28537ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "032874b4ebbb61195c08dcaa154fca37140e069165152f0566b3916372214851",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 统一使用标准库写法",
+      "translatedText": "### Use the standard library approach consistently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "d1b63e42f2e58f11eb5c5167b3ab6a8d330eee69b82bc9107d5e80bf524e38b0": {
@@ -223,6 +279,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "d1cc15836b45200059097d8eb956aaf617db6b027f385aeffa9859a14ec3b6a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f41cc110a1258aa5afe0d17f56e3f12ae56d5855230fecaac36494904cc5572e",
+      "contextFingerprint": "5cc433d4ce90f75df79b095e3cf6617992a7db2fa6725d216d26de21dc7dd472",
+      "sourceText": "### 成员函数的 `std::bind`",
+      "translatedText": "### Member functions' `std::bind`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d1deac57f5d01166842207c3668329cda26dc7a5b9f22da3fd7c5ee3890b60e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "14d762b289c1a4f5e1fd2a648d85c79eaff8453c1311023c8b1138013fa48071",
+      "contextFingerprint": "3d493acce69c3162a985dab9e592bf033a381e32c9a0e725cfe0fa2869df0bec",
+      "sourceText": "1. 没有任务时，`io.run()` 立刻返回。\n2. `post()` 可以把普通函数投递给 `io_context` 执行。\n3. `work_guard` 可以防止 `io.run()` 因为没任务而退出。\n4. `std::bind` 可以绑定普通函数，也可以绑定成员函数。\n5. `boost::asio::buffer()` 通常只是内存视图，不负责延长数据生命周期。\n6. 异步工程里最重要的是对象生命周期和 buffer 生命周期。",
+      "translatedText": "1. When there are no tasks,`io.run()` return immediately\\.\n2. `post()` Ordinary functions can be submitted to `io_context` for execution\\.\n3. `work_guard` Can prevent `io.run()` from exiting because there are no tasks\\.\n4. `std::bind` Can bind ordinary functions, and can also bind member functions\\.\n5. `boost::asio::buffer()` Usually just a memory view, not responsible for extending the data lifetime\\.\n6. In asynchronous engineering, the most important things are object lifetime and buffer lifetime\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 83,
+        "costUsd": 0.000159
       }
     },
     "d1e52f56300398d7a8e20ec2a7c61271b46a2e9f7360a6f8f088d9047e6439cb": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "cf0c1e18f3cd16a914c6b87d34cbbd01d08c3c50a830e98dcd450aee90bbd45e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9da52e874561b501c93b004f8d19c7e15ffae13ccbf38c21f4f3893d4004d024",
+      "contextFingerprint": "6abb8f4e205be34e3ad974be4659c2e18163e5086a2eb87c6c290f5e23cac029",
+      "sourceText": "| 章节 | 当前状态 |\n|:---|:---|\n| 并发编程 | 已展开，包含 `std::thread`、mutex、atomic、条件变量、future、jthread、semaphore / latch / barrier |\n| 并行编程 | 后续补充 |\n| 协程编程 | 后续补充 |",
+      "translatedText": "| Chapter | Current Status |\n|:---|:---|\n| Concurrent Programming | Expanded, including `std::thread`, mutex, atomic, condition variables, future, jthread, semaphore / latch / barrier |\n| Parallel Programming | To be supplemented later |\n| Coroutine Programming | To be supplemented later |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 58,
+        "costUsd": 0.000123
+      }
+    },
     "cf0cc01bd6e5928fba543e23682bda75ed05c5a87f26d46eb062c8ed4a65ecd7": {
       "normalizationVersion": 1,
       "sourceHash": "fe2cffd106d80b04ec2944d1fa929439d6f323fac3318ad12d367da844351432",
@@ -13,6 +27,20 @@
         "inputTokens": 136,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "cf147204ffe99f5daf49d061d41761acdffe884a6d0e04041d1b8723bf415de9": {
+      "normalizationVersion": 1,
+      "sourceHash": "2484c7f53f86e5946fc36c57291f30735915e73a0790b0542e9765791b96a1de",
+      "contextFingerprint": "bdb50ac948c6651e8448ca0efc62df3c96fff443ce3f5d04b0b2054e1322a7b4",
+      "sourceText": "> `boost::asio::read()` 只会向你提供的 buffer 范围内写数据；如果串口里还有更多数据，多出来的部分会留待下一次读取，而下一次使用同一个 buffer 时，会重新从 `buffer[0]` 开始写并覆盖旧数据。",
+      "translatedText": "> `boost::asio::read()` Only writes data within the buffer range you provide; if there is more data in the serial port, the excess portion will be left for the next read, and when the same buffer is used next time, it will start writing again from `buffer[0]` and overwrite the old data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 61,
+        "costUsd": 0.000126
       }
     },
     "cf14d757bfa25ee7e6ba65d1e849f691f1f8c4736a88b0dcb632d43a51227353": {
@@ -99,6 +127,34 @@
         "costUsd": 0.000053
       }
     },
+    "cf51353944b1d89bede6becb4af7ef01707d63f59e90591a8af3ec8f0032570d": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbc970433f996ed8d1ccf8ea7707bafc03fa3f97f39c064633a3604f78c5e661",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 选择与常见错误",
+      "translatedText": "## Selection and Common Errors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "cf592c0be71d5dcd85ba568015836a0468c0c48e78e79936fb9d0222d940f376": {
+      "normalizationVersion": 1,
+      "sourceHash": "8efa5740775dda74cf32ba333d89a417da6959e740c7652e0eaefe92e694ed65",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 最后总结",
+      "translatedText": "## Final summary",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "cf678f00009844c07780cf32be7d47068ef51518cafac43359703ef96c631ed0": {
       "normalizationVersion": 1,
       "sourceHash": "c059eb3ee52f8338d2fa564b354fb4a8da11878d15eb1a315e3bfbc291d2a02b",
@@ -125,6 +181,48 @@
         "inputTokens": 205,
         "outputTokens": 94,
         "costUsd": 0.000175
+      }
+    },
+    "cf6affe1126347438e18eda3bdd163d0eb7f4ac81787f40e2f767908984ce1bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "082ea8094e96db78620721b8103900fde7be4953d117abd0aeb230aff5367295",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 4：类里写异步 UDP Echo Server",
+      "translatedText": "## Example 4: Writing an Asynchronous UDP Echo Server in a Class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "cf746bd20b97420f2012bc49ecfcfa47c09af21531225e55bd12100dae255695": {
+      "normalizationVersion": 1,
+      "sourceHash": "11c1310a18403f31adefb4094fdf9b7ee284676cab6817f7537827907b72a236",
+      "contextFingerprint": "3d85ccb2bb884ec45b3c46033e2ff8485773280ac03416816b1dbce636d557a7",
+      "sourceText": "1. 示例代码都包含完整 `#include`。\n2. 示例代码都包含 `main` 函数。\n3. 示例代码可以复制到单个 `.cpp` 文件中编译运行。\n4. 每个示例代码下方都给出运行结果。\n5. 示例尽量一次只增加一个新概念，避免一个例子塞太多东西。",
+      "translatedText": "1. The example code includes complete `#include`\\.\n2. The example code includes the `main` function\\.\n3. The example code can be copied into a single `.cpp` file for compilation and execution\\.\n4. The running result is given below each example code\\.\n5. Examples try to introduce only one new concept at a time, avoiding cramming too many things into one example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
+    "cf843548a242f4111fdc1c8e1145309bc4107cb5078186af510779174a270d58": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9c3094a093531265e5e5840d9a2eb79e6894d1850baa3fc36bc2f0490776059",
+      "contextFingerprint": "5d34e917aa04e42159d4bc5c80ab916014afd73e09bb5acc11a237a5fab12ee8",
+      "sourceText": "1. VSCode 打开的是否为项目根目录。\n2. `.clangd` 是否位于项目根目录。\n3. 是否已经执行过 `cmake --preset linux-debug`。\n4. `build/linux-debug/compile_commands.json` 是否真实存在。\n5. `.clangd` 中的目录名是否与 `binaryDir` 完全一致。",
+      "translatedText": "1. Whether the one opened by VSCode is the project root directory\\.\n2. `.clangd` Whether it is located in the project root directory\\.\n3. Whether it has already been executed `cmake --preset linux-debug`\\.\n4. `build/linux-debug/compile_commands.json` Whether it actually exists\\.\n5. `.clangd` Whether the directory name in `binaryDir` is completely consistent with ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 58,
+        "costUsd": 0.000122
       }
     },
     "cf8f556e4f883ba7aceee83ef01379092c1071a6149c13dc564cadaa035de7af": {
@@ -155,6 +253,48 @@
         "costUsd": 0.000098
       }
     },
+    "cf99e20dd325d52d6870036cbd395e358d15d29a77be37a1cb704ec2c54bc2a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc6d56372142ba951f1b9c27528b0cc7fd845b8261a8bf8555a3f7fcce2093b9",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 任务已经成功完成。",
+      "translatedText": "> The task has been successfully completed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "cf9d761b1a626c57506901431375fd5a4fc2e150b315365b7cccbb0789d3bb51": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba68c0f6d7df4f0d3f7effc67327e15a71ab30be2c589331469c3bf972bb09e6",
+      "contextFingerprint": "6116ff1eecaa66716c13a227c59f5a31d7049ef3129602941b88e5dc0722476c",
+      "sourceText": "`cv`：",
+      "translatedText": "`cv`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "cf9dc5b6dc6f87310e4576d72ee1a29aa707377306690043ed4cd1679ed7e56a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce375076a46b0833410cf62bc31fb6a585ee46cc6030721270080e6840ebb8aa",
+      "contextFingerprint": "39150984375b5b96fb15338ab941dba6bf00adfc09ada420d22dea3d1c6a9bae",
+      "sourceText": "`std::optional`、`std::variant`、`std::span` 则分别解决\"可能没有值\"、\"几种类型之一\"、\"借用一段连续数据\"的问题。",
+      "translatedText": "`std::optional`、`std::variant`、`std::span` respectively solve the problems of \"possibly having no value\", \"one of several types\", and \"borrowing a contiguous segment of data\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
     "cfca5dab1db487737c63bd9e98f114df128cc3b8d893f6cab2f4c8ce85e440b5": {
       "normalizationVersion": 1,
       "sourceHash": "dd875dcd32f1ca637a9492018109a718fb6a07691c5f98f520cd7eae4d6fafb3",
@@ -167,6 +307,20 @@
         "inputTokens": 163,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "cfd031c413bc849dcff8be56d810eb7de150355b9c7d4d159135659e19722cf4": {
+      "normalizationVersion": 1,
+      "sourceHash": "66ac85d49c85f500d058d30c1610edae87491f49a77e0cdb19969bf0b76a4655",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最直观的理解就是：",
+      "translatedText": "The most intuitive understanding is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "cfd63201dce9857cb73331cbc3ecfde28f5176453b457f8c394a4a35bfccdc57": {
@@ -197,6 +351,20 @@
         "costUsd": 0.000057
       }
     },
+    "cfdd28ed1b3ad84945eb1469c6e762122e60b925fda8f4afbfc98d6715fc16d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d005a6f2860f9e2580f8a37c81c9936909434c06fd770ba88beb1e1cc658fb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是说，下面这种想法是错的：",
+      "translatedText": "That is to say, the following idea is wrong:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "cfe724f35ad08b2e25102ed79af486ec107fd207e16d8bb789c30dffe74c8dca": {
       "normalizationVersion": 1,
       "sourceHash": "2b5bab9059b12498319d5be916861aefcb5d07a84cf63539f5b5ae4e71b46598",
@@ -209,6 +377,20 @@
         "inputTokens": 146,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "cfef1e2505c9f88bd9d9105b80e6fc816d511f69674e5be5d8e1d2f05860d8d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc16a89138d963924f3c7c604ec86d59c8a6e799a023b0f875a5680a877f138a",
+      "contextFingerprint": "199885005d15feb71e63581b12a8cd7b6108d0236ba90d07868eb4e242d945e7",
+      "sourceText": "> **带 RAII 生命周期管理和标准停止协议的 `std::thread`。**",
+      "translatedText": "> **With RAII lifetime management and a standard stop protocol `std::thread`\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "cff91dc193930a4f5b82d56daf72f35593cb3f67654d39542c4abd3c6a6ed4d5": {
@@ -251,6 +433,20 @@
         "inputTokens": 142,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "cffd481750730187fe79f561194d74f9affa0b607593f30735d2fa8c61246e7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "44625265d65d967b85400f746d3b13ccc59b39c71e66711569510bfac846837c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后执行这个 handler。",
+      "translatedText": "Then execute this handler\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

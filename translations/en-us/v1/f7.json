@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f715f280d977890ff472959469144154e7abe136935a928f255f008ee576bd4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ec714b8410f15ebd51acf1dc18908c39cbae2491988bf403add980f2b2e6634",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为 strand 不保证：",
+      "translatedText": "Because strand does not guarantee:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "f727e7c15e9ec1d7b3684e7596ed0f7591abf98ec6bdec656d8e505b723f33ca": {
       "normalizationVersion": 1,
       "sourceHash": "76216dac5984dcbbae86792bea4acd53bbf55ec9e394c7c07b03ceae98838aa9",
@@ -71,6 +85,20 @@
         "costUsd": 0.000071
       }
     },
+    "f758e6b1518b7fd4c5e1d5ba67d164f25aeeaf26e525454cb3267463f281303d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b9e0f332d064ddef966c0ead028e817e27dee549cf26007f6aa895f4204d7d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不能因为类里面有：",
+      "translatedText": "It cannot be because the class contains:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "f758f8cb327c1d60ce462cb2f0b841fa17fd82fbfb1f487573d57aaecbc16d06": {
       "normalizationVersion": 1,
       "sourceHash": "db7205ec6d93c0758f263955db10ffc259f1ab96f6702c39fe406e281f8c0191",
@@ -83,6 +111,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "f7787b2367c9913b655313e97e04580ac2138cde81bc029e6e5160eefc27dd53": {
+      "normalizationVersion": 1,
+      "sourceHash": "27ecf25fce0a884479456d026dde48ff964fadc31da0d9cc4397ed80a21ae18e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种对象比较大，CPU 可能没有办法用一条或少量原子指令直接完成操作。",
+      "translatedText": "Such objects are relatively large, and the CPU may not be able to complete the operation directly with one or a small number of atomic instructions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 34,
+        "costUsd": 0.000085
+      }
+    },
+    "f783882829f5b66cf5f6888e8d0ca06db2fd7d5783304ee0e0e7af4a69887932": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bfbbf677f0ebd51524611dff0899cf1b88961e3a72eedcfcbf2729340d7d0b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但要注意：",
+      "translatedText": "But note:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f78b83a7465baa680ba34b3fe483eff14be032b3903e3a4e94663ac78435b8d2": {
@@ -141,6 +197,20 @@
         "costUsd": 0.000064
       }
     },
+    "f7aec63ca6a2d0ef8843bf4844964a2e661166235fa82e9514abe57d425b49f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "25b0b112e2c2ef4737fde11c9957662dad4d671209acdef0dedc17a533d6e874",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常比：",
+      "translatedText": "Usually compared to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "f7b5b8d59992b3723e598c95caf1b5b386d6eacdc70a04bf3922ae6efced4a9c": {
       "normalizationVersion": 1,
       "sourceHash": "45727eea6cef2995c2039cb09cf89ebe45b9d81440747664bca4f019b7477acc",
@@ -167,6 +237,48 @@
         "inputTokens": 145,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "f7cca185169961be06926985f5b67d5f7427c838247bca29a62b18068cdc0274": {
+      "normalizationVersion": 1,
+      "sourceHash": "d70b1c4c0d45e7d9d3f7dfb167a213cfb7c81f2306cae3dd48a4d3b83ad250d9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等价于提前准备了一个函数对象：",
+      "translatedText": "Equivalent to preparing a function object in advance:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "f7d9fa21df2a93bc7c1209dda63369e493bb3d78f8dec42d8c70a5f053587e0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "05e4615d16b649c2259264acc2a304c4a996dee639b49c5fa20ec39c573aad8b",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "现阶段先把 **并发编程** 学扎实。",
+      "translatedText": "At this stage, first solidly learn **concurrent programming**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "f7e32e0b9f284974fd85bafacfce94aa60a59ce4e11e632d175eb9e8ac60374d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2a316e74560fa1d7548659b052531eedd3dbc147705fe69fdbff1a1f0c3d465",
+      "contextFingerprint": "6d4654cd765871de4228673d3440054eedb3d4d4b1bd3ffbd173245e29908515",
+      "sourceText": "而两个 `on_timer()` 对应的 handler：",
+      "translatedText": "And the two `on_timer()` corresponding handlers:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "f7f4e44fa188a9fd800d05e542c4a9b9dc76410cdb6c6c0b5ae99a3b54375cd9": {

@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4f014be9307133e0a74ab9308c4f83ebe72bf5cb1280d1d4c21412ed56c212ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a1f3799835721f91de49aa054ec1540ce8bb7e5b71739b364371f96d26b91ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "概念上它做的是：",
+      "translatedText": "Conceptually, what it does is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "4f185938dcdf1be64376c5f51d1250ba02449f3cadc4c42739ba1b2eee521732": {
+      "normalizationVersion": 1,
+      "sourceHash": "e799c2f2b26312b8c57801348ce0c6fc1838ab7f32544f7972754ae4c9fafd9f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：设置串口参数，例如波特率、数据位、校验位、停止位、流控。",
+      "translatedText": "Function: Set serial port parameters, such as baud rate, data bits, parity, stop bits, and flow control\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "4f1ed1a211861bd09f6c66dbe7f1f7a00345f33ca59ebba18481698c38c81e63": {
+      "normalizationVersion": 1,
+      "sourceHash": "f82d97109c8e4fa3a766d93ee9300f1c39222213d4e19cfacc22e8e7da9a0a88",
+      "contextFingerprint": "7378fa9061ecc9530574bc2abfbc365705075d7916bdbf630d3d72d415f39ccc",
+      "sourceText": "### `promise::set_value()`",
+      "translatedText": "### `promise::set_value()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4f1fc909136c2a91c4346b5765f3bf3de2f7609d7c4823ebf9bd0e2033fa58e4": {
       "normalizationVersion": 1,
       "sourceHash": "0f3bc7fef5e1ded1975c6c8271f133ed915293048f4558227e0a5591499d5539",
@@ -13,6 +55,20 @@
         "inputTokens": 188,
         "outputTokens": 72,
         "costUsd": 0.000143
+      }
+    },
+    "4f2b3ecbf3218fcf46ba4f3da809380c69a6e479d5767c7d85217a4f32a787aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fbd03c7f65ee9c91104a17cb0e41cb5cc5154d53046ca5f14b90771989ec138",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以两个线程同时修改它就会产生data race。",
+      "translatedText": "Therefore, if two threads modify it simultaneously, a data race will occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "4f2f9956a434570d5ccfef63df17be4d344d9de614e27339c82a5c682f03ff6a": {
@@ -43,6 +99,34 @@
         "costUsd": 0.000075
       }
     },
+    "4f49a1a54ca19bc30644e1f587c16a786f21db0798c564bc0969c7e251704444": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4ca09e597b07c34f0bc458560a9f6f5706329f85ad218491ed4a7860d1a6bfd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果可能要等几毫秒、几秒，甚至更久，这通常很浪费。",
+      "translatedText": "If it might take milliseconds, seconds, or even longer, this is usually wasteful\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "4f4bbf11953e035589e9b6efdbe7b43a893bf06f644ff14e6f5b679adb52a9f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2e027ca04698380f4f0142a37d6fba21d579c5b55b9f0c967a2047fbf9f0476",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "当 `io_context` 发现：",
+      "translatedText": "When `io_context` discovered:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "4f527fdb990f6b837bbc5fc34adeb192e80083047a1f30ee50a7e640022133a0": {
       "normalizationVersion": 1,
       "sourceHash": "dcd8402af419419514a78faf7977ea6afc66efd11252ffa7244cac1935e1c544",
@@ -71,6 +155,20 @@
         "costUsd": 0.000059
       }
     },
+    "4f66a7e03da6ffbb09fcdfba1a6c34f1b0f8df2177bc6ee834c2f630471e5722": {
+      "normalizationVersion": 1,
+      "sourceHash": "3478365846884e3c24aeee2a8eff2b118904d72c9cc79c3394ad46b598b0bb58",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 completion function 更适合：",
+      "translatedText": "So the completion function is more suitable for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "4f675b003bd17e0a33495703b14148d088d2efae496bebd89994017363363606": {
       "normalizationVersion": 1,
       "sourceHash": "17c48c89f99c70525536acb5bdc1e0d64e200a6dde6652d334f389a8901d1b48",
@@ -83,6 +181,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "4f81f7100a27aae9b493a8ad9c1bb0f949f93b59412c4b5b7b329b203f5e2306": {
+      "normalizationVersion": 1,
+      "sourceHash": "f32925b21cc919ae79e0da95bbfac827398d4d959de2992747d0cdea0d4bd0cb",
+      "contextFingerprint": "bd3a693ea664bfd041e784149c55c143d2c70849f5f8a4ffafefa9994861ef11",
+      "sourceText": "#### `CallbackProtocol::set_unpack_callback()`",
+      "translatedText": "#### `CallbackProtocol::set_unpack_callback()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4f960f88379cd86d9c9fe97aa26127e7f636031f1faca559e4fb6f8e88e3ab38": {
@@ -141,6 +253,20 @@
         "costUsd": 0.000056
       }
     },
+    "4fd8df64444c767ffcc1fdf6ff5b883ff3419399f871eb2153bd7c60f298d602": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f920475c03f0456738b729573b24a441da515fb24757179e5979eeb502b76cc",
+      "contextFingerprint": "afc5106819d102a56006c138ad0dc2f07c5847dfdedc4efbe4392458fee952db",
+      "sourceText": "### 为什么 `serial_` 和 `buffer_` 要做成成员变量？",
+      "translatedText": "### Why should `serial_` and `buffer_` be made member variables?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 16,
+        "costUsd": 0.000062
+      }
+    },
     "4fd9ff557ea5b73a4283f5d4d3e6a0981a4bacc2dd18c3824fc9ac9f42f9357f": {
       "normalizationVersion": 1,
       "sourceHash": "5c5d89c673ab2cc253464ea223d86f20715f0e8a2e22adda8ad6caa65aa6e449",
@@ -155,6 +281,20 @@
         "costUsd": 0.000076
       }
     },
+    "4fe2dd94dee91ad9bf9be99573244a857052dcf839e23721d0f05410c528cb28": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c32a19e6976511c5129fa625edebc71ca969b077677f1401c7ad923be48bab5",
+      "contextFingerprint": "e480bcb353406b7a06f19c64fd892efae6264c62ec3883579b0fc970a06c67e6",
+      "sourceText": "> `relaxed` 只保证 atomic 自己的访问，不会顺便让旁边的普通变量变得线程安全。",
+      "translatedText": "> `relaxed`It only guarantees atomic's own access; it will not incidentally make nearby ordinary variables thread\\-safe\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "4fef9b7901f7a7087f08d906b6443be003dee539a7cfb924ad776f9b54fa6f89": {
       "normalizationVersion": 1,
       "sourceHash": "4866b30e30e9f7c277ca4a3c19409725ae3268c7942a6bfc18e244d359f7fdc3",
@@ -167,6 +307,34 @@
         "inputTokens": 154,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "4ff481940a1813ad439466bcb008904a5294f1377ca8093d25d45075a6c8ab7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "85ecc037a0c0825c30cc2b3bf0740d736c38d28b749bbfc412c2071dc1260d71",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：停止接收、关闭串口并等待驱动线程退出。",
+      "translatedText": "Function: Stop receiving, close the serial port, and wait for the driver thread to exit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "4ff86543b59c9b0709f34b51724f337789ee93ed8b8e3080c629d91cd3978682": {
+      "normalizationVersion": 1,
+      "sourceHash": "813bdf45ed2c0d85b74c31ec25bc4d04cb766e4a85c0295a081f3aca9c851af1",
+      "contextFingerprint": "c64fd29ad27e754ce5c4a3d75925cc245ec62486e30709995d6f1c5f68fc7008",
+      "sourceText": "| 写法 | 说明 |\n|:---|:---|\n| `${sourceDir}/install/linux-debug` | 本模板 Debug 安装目录 |\n| `${sourceDir}/install/linux-release` | 本模板 Release 安装目录 |\n| `/usr/local` | 系统级安装路径，需要权限，不适合作为模板默认 |\n| `/opt/my_project` | 系统级或部署路径 |",
+      "translatedText": "| Usage | Description |\n|:---|:---|\n| `${sourceDir}/install/linux-debug` | Debug installation directory for this template |\n| `${sourceDir}/install/linux-release` | Release installation directory for this template |\n| `/usr/local` | System\\-level installation path, requires privileges, not suitable as template default |\n| `/opt/my_project` | System\\-level or deployment path |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 44,
+        "costUsd": 0.000103
       }
     }
   }

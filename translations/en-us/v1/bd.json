@@ -29,6 +29,20 @@
         "costUsd": 0.000054
       }
     },
+    "bd0ce292f936161e7b3570e173bdd08acb0f7ed8d50af2df68d0e13d0457df04": {
+      "normalizationVersion": 1,
+      "sourceHash": "51328888099fe8ae342950b376e04a3a45811677862edaf41b964c94c775b9d6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一次注册：",
+      "translatedText": "First registration:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "bd15b8eeb8af777bcc66a915277fc65a2f06210ae7ce122a35f47b9f19308921": {
       "normalizationVersion": 1,
       "sourceHash": "966f508ef21cbbc9d712ba70a4141a1b82e61747629f288f8f61e276550ac847",
@@ -55,6 +69,20 @@
         "inputTokens": 157,
         "outputTokens": 43,
         "costUsd": 0.000099
+      }
+    },
+    "bd28a801d24d8cff4c0ebaaf9e95e4a9a1ecaedfd8ccde878dcc46afc78a81fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed8f241cc867ca7641dd58c9caaaee6931dabd96e2b3471e132e421e3a19b678",
+      "contextFingerprint": "3a27f6862a86ef1c13ae254792d2d4955ee060662b7cf5eccd66ca1c415e7b3b",
+      "sourceText": "Ubuntu/Debian：",
+      "translatedText": "Ubuntu/Debian：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bd296c2f6cb22b58f88fbe77b8139011435b537f9b3293f23a8a0ab5ec6de5fc": {
@@ -97,6 +125,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "bd403d4a80ecff37d0940e4e4da03005e877a2641d5c815174d49cd5cd7c34cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfc005a2385bb265bef0e2f7f803e306596775cc631085008829470a99d5df7c",
+      "contextFingerprint": "9905aaff78f9c88d40729aa740c843af846040be43730e934c828b0d48342aa7",
+      "sourceText": "### `request_stop()` 的返回值",
+      "translatedText": "### `request_stop()` return value of ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "bd4685c7ef75c1cebaa57d019a11e63f703732c7ef088e1bfac1e165eb37f24a": {
@@ -225,6 +267,34 @@
         "costUsd": 0.000056
       }
     },
+    "bd931f7ec0ce26deb3521cac89eb866b11e89ed354ad95c3122b9c446761af31": {
+      "normalizationVersion": 1,
+      "sourceHash": "317fd7f9cbb2eaa424a013969dcfabdee140395e9df1d3610c6139a5967f3532",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里 buffer 大小是 11 字节。",
+      "translatedText": "Here, the buffer size is 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "bd96f5f1616f7daf1a71df8d9c9c8125b914ed8f0bba5a1562b03ef4e34ca893": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f43dc022ec44ec1fea66347098ec824ee9342d8ee00b4e7af2828b909008cd5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "像下面这些容器不能简单看成一整块连续内存：",
+      "translatedText": "Containers like the following cannot simply be viewed as a single contiguous block of memory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
     "bda0a491fb32f5beb138193a59453a113546bb22f47e8ccd5e27a6cb11c9eb5c": {
       "normalizationVersion": 1,
       "sourceHash": "661e723a309f1e38db3e2badaab65be8a1cef89f441e1a8d01feb83b74fcd8b1",
@@ -267,6 +337,20 @@
         "costUsd": 0.000072
       }
     },
+    "bdd071f8eae462238f9215bdb8f1ffab3201843a53a11d3df34a22c3d32b4c71": {
+      "normalizationVersion": 1,
+      "sourceHash": "d85f1638828d78aab1d37f5d69f873c392ded40009a363a8bb30d580ff68f2cc",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **所有可能并发访问这份状态的相关操作，都遵守同一个 strand 的串行化规则。**",
+      "translatedText": "> **All related operations that may concurrently access this state follow the serialization rules of the same strand\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "bde12646430d2cc01d10b8c1f9884b581ac2d9a5a5b0d8def3f12af67707b331": {
       "normalizationVersion": 1,
       "sourceHash": "492a046a5e0182ccfdaac89ec3f22e8dfd1ce98d45b7695764607a888d52451d",
@@ -295,6 +379,34 @@
         "costUsd": 0.000158
       }
     },
+    "bde3bc7ed83e1329081243322bda7fcedee5aa61eaae8549b6d8bbcfe26342d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "de5ba84b0416c52de45c456c332676fd50a90a49a90366626d7f7be50b38ed3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更容易快速响应停止请求。",
+      "translatedText": "It is easier to respond quickly to a stop request\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "bde720e506e3684dce40e03f8b5718891782f5b41124bb1a81c81ffe39395e75": {
+      "normalizationVersion": 1,
+      "sourceHash": "41722ea214cc4d14397fe8d489d0abfc070a242f373f13d078922578aeb8cf3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是如果你的等待条件比较复杂，例如：",
+      "translatedText": "However, if your wait condition is relatively complex, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "bdeceb8bac8b9fd8f11af8c19743f3976dce717754903de7fa46d7ceacfd08fa": {
       "normalizationVersion": 1,
       "sourceHash": "ae9b28a67bedeed68c1ee971bd9e57fe1b96fe88229dd5ca50390bbe570acc8a",
@@ -321,6 +433,20 @@
         "inputTokens": 137,
         "outputTokens": 12,
         "costUsd": 0.000056
+      }
+    },
+    "bdf30eb0b772030b4268e369405d7881f05a99ab832887c0ed4751047f04cb1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5773bceeaee36a318d2994f0962462acdf836e07475a18d44e77393553dd8cfc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "barrier 常见于：",
+      "translatedText": "barrier is commonly seen in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "bdf78f0a5e05e6131996d532da03cda7c53bef656cb004b3ef598cc39fb7fadf": {

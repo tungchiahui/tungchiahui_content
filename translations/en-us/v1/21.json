@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "211208f5664dabf907d03c0c0094d20bcfa9202bf08866f81564f10d54e3fa7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d57a560cd0015617eefc01d38987b705e4fb8d1953d5f60f56696ae13b0712fb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "结果相当于：",
+      "translatedText": "The result is equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "2113470189d2c9897a7e9e7e0684c0c55d7ad1df5eecf832019488aa48a5b854": {
       "normalizationVersion": 1,
       "sourceHash": "41f095c025b9d8d5e060f4ca156e7b68142ce9c984cf20ae888dd7e26d6d381c",
@@ -29,6 +43,20 @@
         "costUsd": 0.000082
       }
     },
+    "212ecaf24f6549f0dc5823a28a09d8840e74e0698d375a3f76a2d1337619ffde": {
+      "normalizationVersion": 1,
+      "sourceHash": "da5db14a9b8da1b6c2dc37b6c62c12ca8205ad9d6173b89f360b2c0e9c2c9eef",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只会在：",
+      "translatedText": "Only in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "2133c6e8b78bb406f5fbe3b311a8912b4333ba74829bf37935a9e5690c10f0ed": {
       "normalizationVersion": 1,
       "sourceHash": "bef650641e4fb5e6374e8ba8c06329c1b026982a882f341222230944dba28aeb",
@@ -41,6 +69,20 @@
         "inputTokens": 144,
         "outputTokens": 34,
         "costUsd": 0.000084
+      }
+    },
+    "213a60aeb2660c0e24a30ea734f55af73f40d9cff5ac9b8d987ce477446cd704": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfddbf881ff47989dd7a9c6ca8ab0e282e9f57116e15503e39ef2f85b667a49d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 什么是 predicate",
+      "translatedText": "### What is a predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "215748fbee60ee8382e9a94f8ee66f879ecfc6fd905076f82a2ee1d8bca0bd3f": {
@@ -85,6 +127,34 @@
         "costUsd": 0.000057
       }
     },
+    "21b0ab2bc2e45fbbabdb3cdadb80f6fb478af3c98e3960b3caaae4fa853880b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "79533b5c258404734124357455cfbf14bc3a124591b748f2d54db5d00ce3490d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "标准库不会随便把线程从某条机器指令中间直接掐死。",
+      "translatedText": "The standard library will not arbitrarily kill a thread directly in the middle of a machine instruction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "21b476753cb6afe50629807e989a2648f88786528cd7817894f2070f1850dee9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0360c0ba50f63e93377a0f13b6a607229807fafa933b968ca195bf587f153ba0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此可以理解为：",
+      "translatedText": "Therefore, it can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "21b48f38e10ca3dd65d95b32dad96c76ac8dbce5f8b25158cb54ad7e8de709fa": {
       "normalizationVersion": 1,
       "sourceHash": "4e74f1a1b019dcb9a32df688b16787ad7cf725186049f4cb4e4cac94dd443ae7",
@@ -127,6 +197,34 @@
         "costUsd": 0.000116
       }
     },
+    "21c17dc7caa750ba3c064ee8f48ab4f2a5ec44ccd49c498e87813ee77c8b690b": {
+      "normalizationVersion": 1,
+      "sourceHash": "919409bff7f245aaa274cc6a881ba607cdefb6842e84b92520da7f764c22bd93",
+      "contextFingerprint": "3ed7d146d7e3233de98ef792f641dd08989a78bebdaf2578a2b81823c236e413",
+      "sourceText": "> **默认先用 `seq_cst`；只有在明确理解同步关系，并且确实有必要时，再主动使用 `relaxed`、`acquire`、`release` 等更弱的内存序。**",
+      "translatedText": "> **By default, use `seq_cst` first; only when the synchronization relationship is clearly understood and it is truly necessary, actively use `relaxed` , `acquire` , `release` and other weaker memory orders\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "21d1076518f254a46ef6459e35195205ecd6ad403bb3b243d3cc766c8ca2078f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d278244f38e5d2d677af36845f039917ee376db34359da12f20e6582ea748aa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由于还没有达到 11 个字节，程序仍然会继续阻塞等待剩余数据。",
+      "translatedText": "Since 11 bytes have not yet been reached, the program will still block and wait for the remaining data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "21ded2d1b54746fe72f73ef7f831cb880936a1b4152a6adb4c536402f5bac0f8": {
       "normalizationVersion": 1,
       "sourceHash": "97854973f2aa1c1dff4107e201a2dbdbd63546c537968508ec7505f718598a75",
@@ -167,6 +265,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "21fe80c151a4a108e497dbc3da421591af75cd5121b7b0bf0b71b8d14d854fdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "622907dfed4736056eaf744f82f3d0b568ce0c6febdd6138f36b2477802fa84c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等待 Asio 线程真正结束。",
+      "translatedText": "Wait for the Asio thread to actually finish\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     }
   }

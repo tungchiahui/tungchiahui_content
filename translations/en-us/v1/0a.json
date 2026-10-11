@@ -15,6 +15,20 @@
         "costUsd": 0.000052
       }
     },
+    "0a0da0ea6d0792ba6066c5f20e157e221b4e20dc585f5abdabcdd141eaf1b641": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed927843bf0deb0da5b3784f1d1e425cb992a6cc4f2f928dbca14ac6516fd573",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以画成：",
+      "translatedText": "It can be drawn as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "0a141cc93769b72a4107cfd63ce83234560821871b21e434a70e0e748e1a4c97": {
       "normalizationVersion": 1,
       "sourceHash": "8c55bcf0bf4c33323d8e7c0412868b3694a70467d521c91a96082167a2ca2682",
@@ -29,6 +43,34 @@
         "costUsd": 0.000226
       }
     },
+    "0a1a644e3e238c87fe9dd79712a2beef4ebf0cfbd56c8122c9937520f5a8ff7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "88627e76cd779754862a7f9f32de12de0a373ae76acc64de0d66be0411b4293e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，自旋锁更适合临界区非常短的情况，例如：",
+      "translatedText": "Therefore, spinlocks are more suitable for cases where the critical section is very short, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "0a1a9d779d1e16f600324e9ea346513b26a1ee7a11df21745ed85f800f66570d": {
+      "normalizationVersion": 1,
+      "sourceHash": "99219a50ae3c832cd1014e1c9cad2fd566c06709013bbbd39c726ccd8aab61e3",
+      "contextFingerprint": "c37985ec7b97b4fcb85b7261d2564d3bbb73d0739ba4cea1268be290de450fca",
+      "sourceText": "### 错误：认为 `std::async()` 一定创建新线程",
+      "translatedText": "### Error: assumes that `std::async()` definitely creates a new thread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "0a1c22fd33a76e5a4b25c96490f746450d7ee271b30fe02e7cb2a5aade8ec19e": {
       "normalizationVersion": 1,
       "sourceHash": "1c5f8d0b5de000bd04b6a8008365ebdb43de5f62b3e465c0c180036697605564",
@@ -41,6 +83,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "0a1fee18328a50792a4c9a8d0f3352dbd922cb854e72434c67530850674ac28b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea512aeb59315f7b3769f9ad1d6b80d8daba803c53aa3d5df169fa66489b222b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也不一定哪个定时器的回调由哪个线程执行，这是不确定的。\n也可能两个回调都被同一个线程执行。线程调度不保证固定。",
+      "translatedText": "It is also not necessarily the case that a given timer's callback is executed by a particular thread; this is nondeterministic\\. It is also possible that both callbacks are executed by the same thread\\. Thread scheduling does not guarantee consistency\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 56,
+        "costUsd": 0.000116
       }
     },
     "0a21c46ea9bc725d1c7db83571d5cffd1f15de76930145d4c9673362fceeb031": {
@@ -83,6 +139,20 @@
         "inputTokens": 148,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "0a32c105a2bfe9257f246bfcb93dc9d93533d39e87bab3f605de41344080ce28": {
+      "normalizationVersion": 1,
+      "sourceHash": "98c223f2c6046f928b8a5e2e5f7d4cb90a02ddb9bdccefa7c81ceaccf6c54383",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 成员函数绑定说明",
+      "translatedText": "### Member Function Binding Instructions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "0a3774301fb8c421c0bd140a6941fb5c342d81e28828f1c11e55ef0a433563a0": {
@@ -169,6 +239,20 @@
         "costUsd": 0.000073
       }
     },
+    "0a617414f6b92da7e96c3db80940172ec959970e339daafe6cae3018a595bcfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "0df98f2b756ff7de404d26588794d3c16c2ddfee6314c90dc899d8bbb9a9cc46",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **判断“现在能不能继续”的条件。**",
+      "translatedText": "> **The condition for determining whether the process can continue now\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "0a675cb98dc6b6153fc9cfcbd8d17aae73f350297e34751ac1d53f06a8868249": {
       "normalizationVersion": 1,
       "sourceHash": "b1261b7b4667fc80879e057d3d2c59e93819f2d0ba86eea075330c7afaeb9a0e",
@@ -195,6 +279,20 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "0a70af85d51aa65b6e4e46f3ffca6cecb2c82437cc0d49b8bdd7868eec3f207e": {
+      "normalizationVersion": 1,
+      "sourceHash": "78fb868cf8bb847db8b297d246a8aef27ff60fe61b094e746fab19bd8b57f509",
+      "contextFingerprint": "5489ae50fd10c40247603015f580901b28ac70de76dbd623ae935bb8a556b27f",
+      "sourceText": "否则，如果一个仍然 `joinable()` 的 `std::thread` 被析构，程序会调用：",
+      "translatedText": "Otherwise, if a still `joinable()` of the `std::thread` is destructed, the program calls:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "0a7f5ccb6c9fa6c42e7903ee3a5837340f7938f1375cb12a15e0f91379093634": {
@@ -323,6 +421,20 @@
         "costUsd": 0.000056
       }
     },
+    "0aac12eac5087551cd7c0b9f8fa2315fbc0b8ab367d5edd5133da7b60e7a5c88": {
+      "normalizationVersion": 1,
+      "sourceHash": "8106f5bdc41464d94be5a6060fb709e1175eb58a6e379ff69edfda99d5fc0eae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最小异步程序大概长这样：",
+      "translatedText": "A minimal asynchronous program looks roughly like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "0ab12f6c3a75571047ab50df1d76e03dd9414ddffa4d0a43edc7178aa69557e2": {
       "normalizationVersion": 1,
       "sourceHash": "cf669025656c82e544bff901b16423af707b5cd4fa421ee3133cfb8f1b262ea2",
@@ -335,6 +447,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0ab41593390038963e2eac40768e83a3282d951100c9c224b24664a75b89e3dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "f03ed028e8a4efdab614dfdb44abdafd45d2057e6cdf2b4cd077ee94a8231b83",
+      "contextFingerprint": "e5d3a8898813d9f083dfbf96c069e350f6e93b6ac9714dadb292eca6934bb2c2",
+      "sourceText": "### `async` 不是线程池",
+      "translatedText": "### `async` Not a thread pool",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "0acd4f9d4a59946c975cb4bbdfc2402035ab973fee6028e91c98077f3e5b087e": {
@@ -365,6 +491,20 @@
         "costUsd": 0.000099
       }
     },
+    "0ae3756d806592efc06fcb50caedef997f21e670a0cf819c62cb9f3cb90096d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf9d8906068bfb8fe35f86cb1b9900efafb716f5bb680b8c89b97df971841985",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此 Asio 不会向这块内存写入超过 11 字节的数据。",
+      "translatedText": "Therefore, Asio will not write more than 11 bytes of data into this block of memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "0aefad31c871a8f90b08306769ae0d599cd369e26fa5596af87fb68358cabcd6": {
       "normalizationVersion": 1,
       "sourceHash": "b3dda012646c6aecc6d3a725998d0a081619d346d8ab87107a7fbe62128ddece",
@@ -391,6 +531,20 @@
         "inputTokens": 148,
         "outputTokens": 32,
         "costUsd": 0.000083
+      }
+    },
+    "0afded768580906d494f86e840454d4a5c0b615da85c037c8706d1abe3a4b570": {
+      "normalizationVersion": 1,
+      "sourceHash": "86cee70f786342727063a40a7ee3f8196b107cc0193437ce897dd74dcaf7e32f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后程序会卡在：",
+      "translatedText": "Then the program will get stuck at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

@@ -15,6 +15,34 @@
         "costUsd": 0.000076
       }
     },
+    "541857d71f61d0541053c986b3f91d4cd0aaa18e54e215b267469455f08d0fb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f5061fd1241139a9324e1969e3b99d493298b71f179868ceb114c7faab0ce0b",
+      "contextFingerprint": "9c6d07d0cccd255018bbc0c6bfdab49f451b7bb85cb95e80b67c4706bb56f3d8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474872653-4ef0ae31.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474872653-4ef0ae31.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "54234b8889b7bdebb45f62d11895d4844a32c213ae92dc2dcee3c7dea28f2f61": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac505b66ccff00fbbe8751845a65372351388c304258d8f534f67736bb950685",
+      "contextFingerprint": "55ae963af3a19095c0801a40ba9817fd46094a490b9f301e7e6e7b73676b6eea",
+      "sourceText": "用 VSCode 打开工程根目录后，点击左侧边栏的 `CMake`。",
+      "translatedText": "After opening the project root directory with VSCode, click the `CMake` in the left sidebar\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "542427e114fd2b386b27a46154697ee8f1453003ae758ce0b3519ada55dcef19": {
       "normalizationVersion": 1,
       "sourceHash": "e4153bceb0891745012b1c8f577dbd4a9d70bf7c6d7338395cf339677aa9ebfc",
@@ -183,6 +211,20 @@
         "costUsd": 0.000132
       }
     },
+    "5497ae975b306c19f9fae567a6d2340dc5bdc310e495f3ba6cacce389bb41a0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea1e44114565baf641294e957b5eb25c12fea566f174a783c474beb096484ad2",
+      "contextFingerprint": "2b07b7ec5ec4bd24f1acf6e47ea798310db283c2a59d783803e419a731cbc9ec",
+      "sourceText": "1. 回调什么时候执行；\n2. 回调在哪个线程执行；\n3. 对象什么时候析构；\n4. buffer 数据什么时候还能用；\n5. `run()` 为什么卡住；\n6. `run()` 为什么又会提前返回；\n7. 多线程时为什么会数据竞争。",
+      "translatedText": "1. When is the callback executed;\n2. On which thread is the callback executed;\n3. When is the object destructed;\n4. When can the buffer data still be used;\n5. `run()` Why does it get stuck;\n6. `run()` Why does it return early again;\n7.  Why does data race occur in multithreading\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 65,
+        "costUsd": 0.000131
+      }
+    },
     "54990aa3134135f21fbfdf0de3bb5ac0cdb0ed7a775e0f490d12819ee6ea229c": {
       "normalizationVersion": 1,
       "sourceHash": "56a527342caa26287c2b5dc45eeb68ef19a2f180322523a2f9cd3cbaa5f1a9a2",
@@ -211,6 +253,20 @@
         "costUsd": 0.000054
       }
     },
+    "54a9bb8c1c82d50cf8f547a303a0af64df610154b72505a61669b9861541e671": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc7fa04cba15f6e3e93d34c03f70566028bf964c32020d9b4385132c2aa5e7f1",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "Modules 是 C++20 引入的新特性，从根本上解决了这些问题——更快编译、隔离性好、无宏泄漏。",
+      "translatedText": "Modules are a new feature introduced in C++20 that fundamentally solve these problems—faster compilation, better isolation, and no macro leakage\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
     "54aaa3b5d1c139c01aa7fe7f84fc013c86f490cf2fd56324f9dfc565a846daea": {
       "normalizationVersion": 1,
       "sourceHash": "beaa63545f8cdc53f27ff519bba4c9bd01fb2b101c8f24ced913b4fa88fe799d",
@@ -223,6 +279,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "54b31f2f78d0dc160de9b249b8f78d4edb6e2ce3f21eaf4ec6c1aa258f06ed3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e04d397b183f0a973e50fe6aa93ba378cbcea1b5d1484c1a8fa0dc0ab794fc30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习每个特性时，可以按三个问题来理解：",
+      "translatedText": "When learning each feature, you can understand it through three questions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "54b6d674d325648cd87aa31c0baef8b72aa1da9238d7d5adf24936a29f7e0c3a": {
@@ -265,6 +335,62 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "54c14f787b78bc98616702f6c4f08a88adc078852ccfa6a19c2bdc697d8e86f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff01ee482231b01d1d086d3a72dabfb2494522c1a7434586a336f5337befc8ea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同理：",
+      "translatedText": "Similarly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "54c75282a93dda67fe4abb385996017e5a0348ed17a3f5b6ee567ab1598e22a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "62845aee81d88576928ece21ed61a3933c802a552e18998e93f2ccc8f1e40408",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "barrier 最常见的操作：",
+      "translatedText": "Most common operations of barrier:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "54d19327c4cdef21897344f9cd671092d65ac926af70e9b84467b8fd96987f93": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f2be5f441c2f056cb9be6dfb83f5da579fa9ad4dfc587a2b849f3bf27881645",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后执行一次。",
+      "translatedText": "Execute once later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "54dc4c5766fbc6e8e82cb2fa35de1b76bba8fa0c3a613ab00eb223675146a558": {
+      "normalizationVersion": 1,
+      "sourceHash": "5de9176d91334ce3c02ed79528fa82fdf47172a92f1f1807bd7fde3a2641e351",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发生在：",
+      "translatedText": "Occurs at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "54e668565a649f36c7d4b61c894c9ae24932e81f0a5780eb9320bc816f0404fe": {

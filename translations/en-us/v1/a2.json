@@ -29,6 +29,20 @@
         "costUsd": 0.000054
       }
     },
+    "a20d75826c65608101151e8d88d1a3337dadfb56c0440a0230d6a030f70dca48": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1863670c61708f799a16d4107c9472fc7faa1579a8d1288c55bb6d213544ebc",
+      "contextFingerprint": "62ec7bc4884b763106f8ba3dd964df258e94872a85ab6578391f54884cf10895",
+      "sourceText": "- `frame`：`std::span<const uint8_t>`，表示待发送字节的起始位置和长度。可以传 `pack()` 返回的 `std::array`；当前驱动在调用时会复制这段数据，所以局部帧数组在函数返回后可以销毁。",
+      "translatedText": "- `frame`：`std::span<const uint8_t>`，表示待发送字节的起始位置和长度。可以传 `pack()` 返回的 `std::array`；当前驱动在调用时会复制这段数据，所以局部帧数组在函数返回后可以销毁。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 48,
+        "costUsd": 0.000109
+      }
+    },
     "a211d331694b9781e2c402377fc227d12df5b0c1aa568c1a59c46ff7e961ec00": {
       "normalizationVersion": 1,
       "sourceHash": "6735eb39286ee5a7ef16cd755e70a7e130d181eeff3dc525bcb8c955506fb206",
@@ -43,6 +57,20 @@
         "costUsd": 0.000051
       }
     },
+    "a2142c1dbb7a12d4d1cddccd0e6ede4ffd0cd0aa7654b438a7f89fdaa21a5f03": {
+      "normalizationVersion": 1,
+      "sourceHash": "09c9dc163242a29fbfae8becc2b9049ab1b18df0eb99e43def822831c4292442",
+      "contextFingerprint": "bfdfcf929a3ae6d29e3a69f7b1cf55b45fd3170ac6061d8714861d55bb9e1e0e",
+      "sourceText": "顶层 `CMakeLists.txt` 的原则是：只做总控，不堆具体业务和第三方依赖。",
+      "translatedText": "Top\\-level `CMakeLists.txt` principle: only perform overall control, do not pile up specific business logic and third\\-party dependencies\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "a21762b2be6da5d13fa53daa01969b1e0cf3501289d19a35aee89c07bcd83c3f": {
       "normalizationVersion": 1,
       "sourceHash": "a90959656dc3d33dcd9460a06f9c38901168b6d44a61052486a68a4f018de0e3",
@@ -55,6 +83,34 @@
         "inputTokens": 149,
         "outputTokens": 41,
         "costUsd": 0.000094
+      }
+    },
+    "a21a9eb03b18965cfdcb95e135972c422e8a417a7dbe742e0b71c9b1ab3481ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "329096246cff47d0910da4462d8a355577c8854f1a91aa41b3fbda58425f7b26",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以填什么：",
+      "translatedText": "What can be filled in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "a224c58b1661a4bfe54381161215f7bc7753d6f7a927d03ac965a234a6c3b614": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8fe9bf55bee8f0abc02274e52e210156d953d234a6bb91ed651064f287c8dbd",
+      "contextFingerprint": "880b1145db997eec0ad966f8bfc69dcdccf18244b079faac0fe7606b353a042d",
+      "sourceText": "### `jthread` 也可以 `detach()`，但通常不推荐",
+      "translatedText": "### `jthread` can also `detach()` , but it is usually not recommended",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "a231e7e249208ec04abaa4fdfe8181ca83df47824c9c13a717560d6e7c75f838": {
@@ -85,6 +141,34 @@
         "costUsd": 0.00008
       }
     },
+    "a233c224ab2821a5b87ebf1b62489b7e5c0a388f02aea69fa505699cecb1be20": {
+      "normalizationVersion": 1,
+      "sourceHash": "7fee108d4f96125a2946bdd0523916d6ed7bd55e8b77a5c64a0dc8dc07e7b2f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以先简单理解成：",
+      "translatedText": "You can first simply understand it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "a23f4c6445aa959c478304521a16f9e64704fc1a4a3860c1c7207ff053fd5e21": {
+      "normalizationVersion": 1,
+      "sourceHash": "a25f3b28c255acabd4ad543fcf3c640330620d034ccda358255e3eb0e59efd72",
+      "contextFingerprint": "f6528b9764f6e538c4815b711f62f892d3d034bb7381f5623a94cdeea53a92e2",
+      "sourceText": "### `configurePreset`",
+      "translatedText": "### `configurePreset`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a24214f6fb55fa8a7eb479e2defadbb0e956b26ed88208d30c098257a46c0a7e": {
       "normalizationVersion": 1,
       "sourceHash": "863f21c46c52ca0c6daabe9b55fd412f7f87e7de39e3f665402b75caaa6767bc",
@@ -111,6 +195,62 @@
         "inputTokens": 146,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "a2729c801f115547a8b7fe8b25993590ff19c9cc73bc6c48bf7e6cfc450b1ca7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8df738387b1e1a3711c54f6a2e997236aafec586169b77e9eef5a541ba02708",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "指定 CMake 要生成什么构建系统文件。",
+      "translatedText": "Specify what build system files CMake should generate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "a27d504d77877349ad1213cb4e819b3b21a1d8d4e1759dc2677de82427beeb79": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cbb887aa7d2a80c2b1ae8b561478b8bb8e8086bbc3af6d42a8403bffd9b7d66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "consumer 里面：",
+      "translatedText": "Inside the consumer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a281aea4d509f6baf5774a3e89de120db7f10aca77c17cf30fa2b34b5259c875": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf4dd4cd4aa5cfd6a28af4fec8760a5dfb706e756aa76474317917901ea921a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这一节最重要的是把两个概念分开：",
+      "translatedText": "So the most important thing in this section is to separate the two concepts:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
+    "a29f9aea386c0cef6e1a95e31444a3f2b0f1d1e7a9c0509791ce9b782840fcb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e44458c1768a275575d53060abcf55a67d41794f454ba581972e2dd45b704c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以。",
+      "translatedText": "Yes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "a2a366d1d443bf20d54a690c104d600eff2755c31c8f6e5554919d523fb3169f": {
@@ -209,6 +349,34 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "a2cf72a26d1b62bbd7e66c1addc1d3b8daeb3c89b04b0842e74979917cc6fa0c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c54a34fc55b32c1c3f99455d1e5e7b14931f2ce489cc426daf594ceebce9a643",
+      "contextFingerprint": "2487dfa8500d1a280e3a35870bcf8a81e17b83ac8fba0ffeb57b4ebbdbecad4d",
+      "sourceText": "| 对比项 | Standalone Asio | Boost.Asio |\n|---|---|---|\n| 头文件 | `<asio.hpp>` | `<boost/asio.hpp>` |\n| 命名空间 | `asio::` | `boost::asio::` |\n| 错误类型 | `std::error_code` / `asio::error_code` | `boost::system::error_code` |\n| Boost 依赖 | **基本不需要** | 属于 Boost，使用 Boost.System |\n| `io_context` | `asio::io_context` | `boost::asio::io_context` |\n| `serial_port` | `asio::serial_port` | `boost::asio::serial_port` |\n| `strand` | `asio::strand` | `boost::asio::strand` |\n| `post` / `dispatch` | 有 | 有 |\n| coroutine / `co_spawn` | 有 | 有 |\n| 性能 | 基本相同 | 基本相同 |\n| API 风格 | 几乎相同 | 几乎相同 |\n| 独立库发布 | 是 | 随 Boost 发布 |\n| 适合减少依赖 | **更好** | 一般 |",
+      "translatedText": "| Comparison Item | Standalone Asio | Boost.Asio |\n|---|---|---|\n| Header File | `<asio.hpp>` | `<boost/asio.hpp>` |\n| Namespace | `asio::` | `boost::asio::` |\n| Error Type | `std::error_code` / `asio::error_code` | `boost::system::error_code` |\n| Boost Dependency | **Basically not needed** | Belongs to Boost, uses Boost.System |\n| `io_context` | `asio::io_context` | `boost::asio::io_context` |\n| `serial_port` | `asio::serial_port` | `boost::asio::serial_port` |\n| `strand` | `asio::strand` | `boost::asio::strand` |\n| `post` / `dispatch` | Yes | Yes |\n| coroutine / `co_spawn` | Yes | Yes |\n| Performance | Basically the same | Basically the same |\n| API Style | Almost identical | Almost identical |\n| Standalone Release | Yes | Released with Boost |\n| Suitable for Reducing Dependencies | **Better** | Average |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 113,
+        "costUsd": 0.000205
+      }
+    },
+    "a2e20dc6ceb394fe361e310450c89733ff4c67d0eccfe6d4396c5fc757a17660": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b3068fd239bfb2def2f5c807c7941ea173ca68063587610bee38ffadaac73b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设程序启动时先创建 Asio 线程：",
+      "translatedText": "Assume that the program creates the Asio thread first at startup:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "a2ef2ca6823a79581d6d2b09bf4f6b4dcd97d442ba73cb5617acc52ec5981696": {

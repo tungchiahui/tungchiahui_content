@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "33055a3f6a256ab2572abe0fc0fc9679721c9af91e479d1da8c6a7e2650a2a1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e489d651f2818dea833ce539b8380a93a258884ab2e14f3c231c55d0d95a5c1",
+      "contextFingerprint": "940d182cc3d1403c207001321954e47f512c05e8a6ea666eb4a09630668a3694",
+      "sourceText": "| 写法 | 说明 |\n|:---|:---|\n| `3.10` | 太老，很多现代 CMake 写法不方便 |\n| `3.16` | Ubuntu 20.04 常见版本，兼容性好 |\n| `3.22` | Ubuntu 22.04 常见版本 |\n| `3.25` | 本模板使用，和 preset version 6 搭配 |\n| `3.28+` | 适合较新的系统，但模板通用性下降 |",
+      "translatedText": "| Writing style | Description |\n|:---|:---|\n| `3.10` | Too old; many modern CMake idioms are inconvenient |\n| `3.16` | Common version on Ubuntu 20\\.04, good compatibility |\n| `3.22` | Common version on Ubuntu 22\\.04 |\n| `3.25` | Used by this template, paired with preset version 6 |\n| `3.28+` | Suitable for newer systems, but template portability decreases |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 67,
+        "costUsd": 0.000138
+      }
+    },
     "330a94bef7ef3754b4d8206a8be8df2ab9e1550dfbeeed8d5d08263f7e328b38": {
       "normalizationVersion": 1,
       "sourceHash": "c5b0a0181c71192da371f631d897e65e15173ad0e8cd4fb89381617079da5881",
@@ -13,6 +27,34 @@
         "inputTokens": 154,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "330b85bf2d6cee401947fec95ae7ce4f80ff7ec3d9b6c101e3446cbfd3722d27": {
+      "normalizationVersion": 1,
+      "sourceHash": "65c06083ba976fbfd6d5f925498aeb7dbd14ae66afc8af39b6e48a4a185e6dd2",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "它可以理解成一个**更适合现代 C++ 的线程类**。",
+      "translatedText": "It can be understood as a**thread class more suitable for modern C++**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "3311e602fbaf091e9371dd98a5a6293649f54c0dc0dfb6143188caaf274cbbc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e8f4c2662f1672e5750a95be365b33ca3087dabecd921daa34995dd3a1a0f7c",
+      "contextFingerprint": "14cc2b66befcde87363545f5add82cf0e34a130261e38990cf8521f895126e12",
+      "sourceText": "`wait_until()` 用来等待到某个：",
+      "translatedText": "`wait_until()` Used to wait until a certain:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "33132e345892ca02d0aa67e27c19234736cc542e3379177d8a10dac3d01539f0": {
@@ -69,6 +111,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "333c1a0c949ddf82df7ccd92fb91a12bcfa5368280f8614a86c66dd661940d2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd55585915a483bb6976ef15ced4cc30e27ec163809e5613b695bf8c55114c39",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 被唤醒并不代表你的业务条件一定成立。",
+      "translatedText": "> Being awakened does not mean that your business conditions are necessarily met\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "33420df1aefe59600dadbb53bb7dcb7d07c01080f771ac02cca6a561c35e544a": {
@@ -169,6 +225,34 @@
         "costUsd": 0.000057
       }
     },
+    "3388fbb0fc0be6edd61e24b8dd92a995b71ed5cc94e408592953fc3c6f12bc83": {
+      "normalizationVersion": 1,
+      "sourceHash": "1fc13fd785461bd018e50258ba2e8bc4b720a45e9bd1e74abedc5868fdae5c22",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它内部：",
+      "translatedText": "Inside it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "338fccbd7620c303a9914a86ef9b7837aba2aca680bc0aeef9db9de9f40b25f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9f696b114f52cfa809c43960fe6829b84822666ba64e9ec4eb40aa0b68a818e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异步读取：",
+      "translatedText": "Asynchronous read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "339c251ae84cf29e5df7203a42df8a76aa5f29b4b26c45eb58dfbb2ef892fbbf": {
       "normalizationVersion": 1,
       "sourceHash": "80745465389ca36c373ecb918ff3904623908c290f2a88da5d6186992c72ca0c",
@@ -183,6 +267,20 @@
         "costUsd": 0.000079
       }
     },
+    "33a1f18c651e8584b5569b177db0e45b1ad0de45dd6959442f535da1c8a3c567": {
+      "normalizationVersion": 1,
+      "sourceHash": "07e47492cd217783535f99b11db76207d5fae2f14f4b6a2673cfd8e65944e683",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例 8 中只有：",
+      "translatedText": "In Example 8, there is only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "33a866731669e38bd8759dcae339e9619b8c7f9b7105a4524a3658f8654c3355": {
       "normalizationVersion": 1,
       "sourceHash": "c6c6458c24369b4bc176ee4892a4d4dd3db9df0ef54eac442dda6d564b559e7e",
@@ -195,6 +293,34 @@
         "inputTokens": 275,
         "outputTokens": 161,
         "costUsd": 0.000276
+      }
+    },
+    "33aa5939d423aed841af982d09e3191f4ba02f89563247b0a14270e3537cb80b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a058826e4ab4cd9e41fc8226cc8f07fbd12e359a2f80678a0129ba648609b0ee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常还需要：",
+      "translatedText": "Usually, the following is also required:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "33b82604d71bcb6b44af34deb4d381b8c467a1dbe802ea57bb83ad654a4f8cab": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9c013d9619a7ec0bc283467bf61866b99f29971b277c76f84c0ab5d5d2c32b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后学习格式化输出、时间、并发、文件系统和 modules。这些内容更接近真实项目：",
+      "translatedText": "Finally, learn formatted output, time, concurrency, the file system, and modules\\. This content is closer to real projects:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "33c9b13fdeb71311eee44ac9f21d128baebec38d1134d1c981c4423b9e0ffc74": {

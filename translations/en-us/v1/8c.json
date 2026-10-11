@@ -29,6 +29,48 @@
         "costUsd": 0.000084
       }
     },
+    "8c56249e6df02bcedcbe02b7e5db87c17f48ecec95cbc5376db10ab51f1adf0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "223e325ed8ff2092275d535bc0fcb5e56a0e058625f36a70e2570d0391f21d42",
+      "contextFingerprint": "edfed51e38e830aaa555962a72d994316c4c455911d5de49929dd482c3b003b6",
+      "sourceText": "这里不可以显式填参数，比如`std::jthread thread(worker, thread.get_stop_token());`，\n这是非法的，原因非常直接：在执行构造函数参数时，thread 对象还没有构造完成，所以你还不能调用`thread.get_stop_token()`。",
+      "translatedText": "Explicit arguments cannot be provided here, for example`std::jthread thread(worker, thread.get_stop_token());` This is illegal, and the reason is straightforward: when the constructor arguments are being executed, the thread object has not yet been fully constructed, so you cannot call`thread.get_stop_token()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 53,
+        "costUsd": 0.000114
+      }
+    },
+    "8c5b4276dfc5451dce798d8fe60bd6437e9e5a61a520a4e53fe3744598248e58": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a764f316d74694f9b0a074d04c47f1202da0e0ecc9f78967465098e5330c918",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 6：类里写两个定时器",
+      "translatedText": "## Example 6: Two timers in a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "8c669bd8730a0e2777913b1dbf2175a92466f920aef7c60523ea24f36ea414b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "f513feca73d2c704c357d31dd13dac822e2650bcdcc4352d110067c889cf20ee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正重要的是：",
+      "translatedText": "What really matters is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "8c689b30e8f42a6f240217b2d7743867baeaf8e4e800083b19e62736ee8cb0f8": {
       "normalizationVersion": 1,
       "sourceHash": "7487a13c331c3baede46134e5ba2b0f2387f079599e034bc977b5455528958a5",
@@ -71,6 +113,20 @@
         "costUsd": 0.000061
       }
     },
+    "8c6bec34bc5f2d3abfa101dc39b14521fe9e764c7bf710f066b943f9e2d75052": {
+      "normalizationVersion": 1,
+      "sourceHash": "7243c53056573071800eecadcd486644f73ee1d1baeef74d3cc670e6622d7d80",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 但析构也不能“凭空让线程退出”",
+      "translatedText": "### However, destruction cannot \"make a thread exit out of thin air\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "8c76c77e5bc23f9a4cb5df05b5c88b0e84271fce08b4d0faae6545423f506c32": {
       "normalizationVersion": 1,
       "sourceHash": "a1891d3f1ba8d23ecbcf128e672fc01f4cd4bac3fb780e1dd8fa5f9fde4a4b20",
@@ -83,6 +139,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "8c77c4d6f5a9bd187389e1cef849a8cd98269e858373f65d538309d226100513": {
+      "normalizationVersion": 1,
+      "sourceHash": "d653d1a23fde3e8a89b55a437a899163795a13b250c0e2a9901ec973d6c74349",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而 semaphore：",
+      "translatedText": "And semaphore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "8c9806a0ddb2ada8635815776b4ae58b1abcfacbe1253b9105256b388e4c3603": {
@@ -99,6 +169,20 @@
         "costUsd": 0.000054
       }
     },
+    "8c9d4814b9ac0e73cddef5cbb778e829be53a6b6264b94fd0b8e4d196b44543d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f2f0dda7f47cb38a3cbd58c2f13e1000b9f8b458df46cfb221bf358378a437c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本示例仍然只有：",
+      "translatedText": "This example still only has:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "8c9d63157ff3f5e43294750e85c78f2cae5a387cba126a57c04fb00da6fd33cc": {
       "normalizationVersion": 1,
       "sourceHash": "4ce59a1d8147a9011d4ec84734b2ddd1a2003df22de2d8833235613c9abd97a3",
@@ -111,6 +195,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "8c9e1ba00a24b200692f18e23709612159474f8e2c695aedf85ce0e6ae1028f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a030cbe2668a7ea88c67f23af9d40d39100590142d8cf72037b634fa6c731d8",
+      "contextFingerprint": "84a85f4f03ee968907439c7ae52a7e333dd8f347cf7524808e0fad1f652910e6",
+      "sourceText": "## 示例 1：普通 `main()` 里同步打开串口并发送一行",
+      "translatedText": "## Example 1: In normal `main()` open the serial port synchronously and send one line",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "8ca2e1a7578612eac3c818b755d0c239da9843bc658a13005676dfe58f61f502": {
@@ -141,6 +239,20 @@
         "costUsd": 0.000061
       }
     },
+    "8cac7f361a45e893d6f603228f6cb0e3dafaac075f5d771e5cfe59d9192e9a72": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecf78c7955fff93ca9403ff2e9b84dde41cf09c027e90e22a44ece1e4e73e305",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "提供的是一套标准化的停止协议。",
+      "translatedText": "Provided is a standardized shutdown protocol\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "8cb355a1a8ca5da457b7be831dd682abddf53585fc15036a1d5b66aefda939a5": {
       "normalizationVersion": 1,
       "sourceHash": "43716cdce16666f6f6be0f135360e9c8e444f69e801e41cfd91a5e436b719281",
@@ -153,6 +265,20 @@
         "inputTokens": 149,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "8cb8d8cbb9cb7c15ba8f89f5712341fb511f5b19c4cd00cf5d4672eaeae7da2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "13cbcc450ce435c9128ee23b55c67ce5b84ff66c162ac1c2687ba8c67b9ab490",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是串口、定时器或者其他任务要等一会儿才从别的线程提交。",
+      "translatedText": "However, the serial port, timer, or other tasks must wait a while before being submitted from another thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "8cc0feef9e09eeeb7e13b54a6159b9d84112161317bdbabb78685f7fefc0907a": {

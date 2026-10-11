@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "840a24241d86333c8fa0c1f3289a7e6aada6dc55ba09d2ec865bd4a45a9a6206": {
+      "normalizationVersion": 1,
+      "sourceHash": "b717be2ad78c5df400de7fce6330684ea50a53f0ea65780ad0350f79988b6bc3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面的示例 1 使用：",
+      "translatedText": "Example 1 above uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "840d1e76a9ad691613654305acd30d905e01ac2f8966fbacc81b462d72b3f53c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce0690f0f4863d0b5c0c9c8380986d9f562b257c5ef50b41c328b54777ae8610",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是其他两个线程永远等不到第三个。",
+      "translatedText": "As a result, the other two threads will never be able to wait for the third one\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 25,
+        "costUsd": 0.000072
+      }
+    },
     "841542ad1d038a8e0813de665b67320c2ccf74bc8dbd0f16f9d1df083879a24e": {
       "normalizationVersion": 1,
       "sourceHash": "2b58a6aeb35828cd39f6527d3278393cb40c01177717921fbc4b7e4d22b14693",
@@ -15,6 +43,34 @@
         "costUsd": 0.000145
       }
     },
+    "841674b7641f327af14c651f9cdcdb8abbd45a14f95e1ee2b5ee045a21360883": {
+      "normalizationVersion": 1,
+      "sourceHash": "27be0b006922638af1c9d627053143cf627ced597461e7d00ea340402ecdeed8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过同一个 shared state 连接起来。",
+      "translatedText": "connected through the same shared state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "84225a2a7002d34d97ef76c8209cb3aebc5bd1adc1e82c50f763466b228455f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "f97d283d2c53d95ae77fb5545cbcc82f68c6f8759dc83c10949dd692eca92104",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "导致：",
+      "translatedText": "Cause:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "844f1dba97ad16fffb1c53742bf83e2a07ec2bf9f45d1509c6993a9f2f4c5435": {
       "normalizationVersion": 1,
       "sourceHash": "828ea76a03b2f2606784d1dde9ba292e57fd805798e006f1ed185da565f57b8e",
@@ -27,6 +83,48 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "8459c78161d13e79bcb30328138ff4bdaacf5cebf46eaad7ba4021358804babd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6116d49ac39ebfa5de62d1d658c5f40ce0d85406a3f9ead26fe3d32be27ebaf",
+      "contextFingerprint": "cf2c2b84fafb7fbe75785e1cb9a7c41e066ed8991b7818fa65dadbc0dd5399f3",
+      "sourceText": "### `wait_until()`",
+      "translatedText": "### `wait_until()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "846df6a1a83c58fdd55f3c334b30dd3357d965520b0d16c8179ba0ac23da51d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "afc8cd17af7a2d7f547ee571fd4ed4c1f9a2c18f12882feb71e91e9b8fd0a399",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种场景应该用：",
+      "translatedText": "This scenario should use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "8472b2565df5dbff0cbe3adf8bf4c8382fc16dbe0105c49f5792d7b333002bde": {
+      "normalizationVersion": 1,
+      "sourceHash": "7dfe732a448b8c4e5788212594d0f52faa05eae9cd615f67b5b4464a6e1e408e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例 8：",
+      "translatedText": "Example 8:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "84785dc471cb34a546f124aebe48f379f3a6630520a514f5bbc6309963fed005": {
@@ -71,6 +169,48 @@
         "costUsd": 0.000073
       }
     },
+    "849b1c7cdca9121f69102e740cb96b8fe8d2f21fa093dee60ae27c61359a6146": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bd607d4f4f87942697b445b67cb33d2922d5c92f782ea8a4298b1041c75a808",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此它很适合放在循环中：",
+      "translatedText": "Therefore it is well suited for use in loops:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "84a871b6f44d62fa238d0bdf14bc76ec51854a477a6a8562cff519cebc875ff3": {
+      "normalizationVersion": 1,
+      "sourceHash": "93bde61474c75e9eec94fc27a35da3f6d1b2857eafec1f3a90e967eb992d2992",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 实战练习建议",
+      "translatedText": "## Practical Exercise Suggestions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "84a96994374506121ac757ac7d1d3cf13bfe62f1f18c991545b7ff6283a9125c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8db7acc4ba2df210b117ef1000a95f91967a99e525f4892527704d55c43255d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它是最强、也最容易理解的常用内存序。",
+      "translatedText": "It is the strongest and easiest\\-to\\-understand commonly used memory order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "84bcc9e4be5746d40b33f210b25b9561c3e92fb960c89c6b867a4c9896e2fc8a": {
       "normalizationVersion": 1,
       "sourceHash": "1d184f145c0285fa1ccea09fddcf19e6ea43aeb52eba36619f6d1d44a112a850",
@@ -113,6 +253,20 @@
         "costUsd": 0.000059
       }
     },
+    "84e876ad3421ad2f2be5448700006dbe22e1a8626d82425707260c211252978a": {
+      "normalizationVersion": 1,
+      "sourceHash": "812b5446c5c0b790ce6d3f146a0f9fb16e9cac799e8caa5ece4e9527d5eb47e6",
+      "contextFingerprint": "48729589e39257581f3640e11b165e8b747106d80448607403da44e003cad5ec",
+      "sourceText": "`cacheVariables` 等价于命令行中的 `-D` 参数。",
+      "translatedText": "`cacheVariables`Equivalent to the `-D` parameter on the command line\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "84ebb67d8c91954cb2f277595eba39ca19de830d04b9de7eea0a1742f83743bf": {
       "normalizationVersion": 1,
       "sourceHash": "455eace9a0523de386abe981207c821b5bb473c87675b1320af9aff22f9eb94c",
@@ -125,6 +279,20 @@
         "inputTokens": 209,
         "outputTokens": 111,
         "costUsd": 0.000196
+      }
+    },
+    "84ef56ec36866adec2b1822816d9421b9071f16d743a4d0c0a3912e017d91d19": {
+      "normalizationVersion": 1,
+      "sourceHash": "fda83ff82cbf4686776765c42c0c2e10f02edc08237a004b98ae99ac7a1a6efd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "简单记成：",
+      "translatedText": "Simply remember it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

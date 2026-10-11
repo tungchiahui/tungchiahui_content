@@ -57,6 +57,20 @@
         "costUsd": 0.000055
       }
     },
+    "c023d34bc2b6c1cd76defa61e895059ddc5f833627632520a5a18d291b0ea22a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1399c88209488cb230c019cf15f057a663d04ce55086f91dbf2daae423feea49",
+      "contextFingerprint": "1e12dc8748e43ffcdb4a9f08cc60fd359e84a775172410a47542eed720fdb5e2",
+      "sourceText": "- `serial_transport::Serial_Config`：保存设备名、波特率、数据位、校验位、停止位和流控。本例使用 115200 8N1、无流控。\n- `serial_transport::SerialTransport`：提供 `start(config, 回调)`、`async_write(字节)` 和 `stop()`。",
+      "translatedText": "- `serial_transport::Serial_Config` : Save the device name, baud rate, data bits, parity bit, stop bits, and flow control\\. This example uses 115200 8N1, no flow control\\.\n- `serial_transport::SerialTransport` : Provides `start(config, 回调)` , `async_write(字节)` and `stop()` \\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 54,
+        "costUsd": 0.000117
+      }
+    },
     "c02892d6d4c028c7066b9b890d5221ad17d9b5fa6c85c7a60627e343e0e2bc5b": {
       "normalizationVersion": 1,
       "sourceHash": "7d67587d596f35ad2094e4695688d9d8750f9feb18db1066a0c9d6c850a07b6f",
@@ -83,6 +97,20 @@
         "inputTokens": 146,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "c03e0daedd9489496b534fc16e54733d5d20e77bdebc0d34bd9a77a02fee96a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f2728095d629f83f130031c59d4ec0c412965314055518048f2dc3ecbdff2e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多个地方都可以读取同一个结果。",
+      "translatedText": "Multiple places can all read the same result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "c049b49ddc22206621e1e5c8203daab354fbe58da7036caedf76ffbb2987c928": {
@@ -127,6 +155,20 @@
         "costUsd": 0.000088
       }
     },
+    "c050fe7b87bfa2285dbdf0b0891aaf473c80fbef6535e4cbe474e065cc673b5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "278ecb445282f45e57b5775675d14762ed1a2eb2be37f93cc888740e83869a33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "binary semaphore 虽然只有：",
+      "translatedText": "Although the binary semaphore only has:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "c054e60cc683e29e8817d4d295b7696813890987b3c244bfef7508c6f14325bc": {
       "normalizationVersion": 1,
       "sourceHash": "d6fa992e52e0c046148a5c05568697e3779080ecf5ec1f96444f45b777a6b0e7",
@@ -169,6 +211,20 @@
         "costUsd": 0.000052
       }
     },
+    "c05e36513af137e275e6999d412c759d6f89ab6519383a86c92173a5ed04da23": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a99298b5e5667ed2088135872172e7343f66db6acfff74b29fdd8a0812b2993",
+      "contextFingerprint": "93ca67bbcd3b996c0befd13a7eea1b32d1ccbfd9e7dc757605244d0d8870d891",
+      "sourceText": "#### `boost::asio::write(serial, boost::asio::buffer(msg), ec)`",
+      "translatedText": "#### `boost::asio::write(serial, boost::asio::buffer(msg), ec)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "c06201b42e09f71e1e847b8cbb2487d053ad0db349901d319cad2590ad09ed20": {
       "normalizationVersion": 1,
       "sourceHash": "0d6b3e753adb11c06d7c6093872931d90af153aa595c550fd1b19f1d12b99044",
@@ -181,6 +237,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "c068dc0e5e1976307b7eb1981ff4241557e249bcb889ce8e5bc1c07af508d146": {
+      "normalizationVersion": 1,
+      "sourceHash": "77745fac9cd2e0512893eb0e1c3788316df9f9a0a7e9f3e12676c252399b6556",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即使：",
+      "translatedText": "Even if:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c075e3d2c04c3b29cbb9030520967224b9d236ae5a61a275be40d29cf9b0b1e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "37964a6566de13d6fd1b7a077e87499110c0a9ca8a0be16903bf1b0ef83ad6eb",
+      "contextFingerprint": "562896e21aff0c2bfebf889c28d9875fc4f91f65d07c2575b766785d944c0e48",
+      "sourceText": "这些调用对应 `example/ros2_ws/src/serial_comm/src/serial_comm.cpp` 中的 `serial_config_` 和 `serial_driver_`。示例从 ROS2 参数 `port`、`baud_rate` 读取设备名和波特率，其余配置固定为 8N1、无流控。",
+      "translatedText": "These calls correspond to `example/ros2_ws/src/serial_comm/src/serial_comm.cpp` in `serial_config_` and `serial_driver_`\\. The example reads the device name and baud rate from the ROS2 parameter `port` and `baud_rate` in the example, with the remaining configuration fixed to 8N1 and no flow control\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 61,
+        "costUsd": 0.000127
       }
     },
     "c0762c7dae9a576382ef26543b1a5563ec8976346819e3ab055732770105de54": {
@@ -197,6 +281,20 @@
         "costUsd": 0.000051
       }
     },
+    "c0813acbf3011a04089996364ffe064a95f07bc4f3ac5338721b0f5b7d0fb1ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "12d7c813d1ca0d3f5cb9138e79126f51d7deb0526ccfb86446d9b7617d807570",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "条件变量的思想是：",
+      "translatedText": "The idea of a condition variable is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "c09010dad67c6817ec279fc78cf8763973434960232e177182fd8fa3a93894fb": {
       "normalizationVersion": 1,
       "sourceHash": "b9e46487c09a99dfb9da3fc154a3fb42992511181ff89756697860771c0987c9",
@@ -209,6 +307,20 @@
         "inputTokens": 161,
         "outputTokens": 46,
         "costUsd": 0.000104
+      }
+    },
+    "c0b9c2d3233ef60794875a2e937ef31c714b6f87365c1c4333ba036f87df882b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec701640d8538b0fac0b91514bfc086051f175cf97b1afd11ec0504415f5e390",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把示例 1 改成类封装，为后面接串口回调做准备。",
+      "translatedText": "Refactor Example 1 into a class wrapper to prepare for connecting the serial port callback later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "c0be2ec119c318a5fc4bfe68d1fb8cfccbf48a56df8bf40707dcc2d73f24eb34": {

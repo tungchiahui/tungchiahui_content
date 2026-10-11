@@ -15,6 +15,20 @@
         "costUsd": 0.000061
       }
     },
+    "e51b3494df899170e2c216bf0f4d0fd422dea1440e2583ceaa90639248185e93": {
+      "normalizationVersion": 1,
+      "sourceHash": "753b998c0556132e1196d89f6cad188e5bd96654921518fa7a602924f0e12b66",
+      "contextFingerprint": "bfdfcf929a3ae6d29e3a69f7b1cf55b45fd3170ac6061d8714861d55bb9e1e0e",
+      "sourceText": "这个模板要求 CMake >= 3.25，是因为顶层 `CMakeLists.txt` 也写了：",
+      "translatedText": "This template requires CMake \\>= 3\\.25 because the top\\-level `CMakeLists.txt` also specifies:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "e51c5eeed7ef047ac811c69fef0ea75bd8a68061a5948018830a0abe23dbee2c": {
       "normalizationVersion": 1,
       "sourceHash": "6b31e1942fc0c9a08937029bfe338165345ffeb975fc1c7ed219f320c480dd64",
@@ -71,6 +85,20 @@
         "costUsd": 0.000062
       }
     },
+    "e52cc8ed16226a06237893893b23838cb363da882efe4203e71a756f89e86d0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b96763196515eef4002b09b56f3f0954fe455b9e93413b489a951d59f34d82b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后再次调用：",
+      "translatedText": "Finally, call again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "e53114beced01b37bb169532a24eae378d9edb768d9d772a887da724aa0bae7c": {
       "normalizationVersion": 1,
       "sourceHash": "caa59ed189adb93a9d367f7e2ca9f6d87b21c69b5b968a3df3e2d9cbf877a297",
@@ -97,6 +125,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "e546acbb176e997eab6164e6041b1f02c07273b86ed38c0e852abeee91e0fdda": {
+      "normalizationVersion": 1,
+      "sourceHash": "2eafcb5964f92f3c9842bbe84d6bb7cc687f8fdeaec0a70135728c9e83211c0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之间。",
+      "translatedText": "between\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "e546f442d3b1ccca97be487ab501692c968725b6c2bd7969acf6cbf5989e86a5": {
@@ -127,6 +169,20 @@
         "costUsd": 0.000055
       }
     },
+    "e55364beb6b59c0bb31e53830250d2c89c2fdf2131131ec53fee5e40100166a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "86dfadb611a588f3e49c9fb0210da782475f60e82b2742c47d59aabed2cc70b0",
+      "contextFingerprint": "c693aad9e5bb28baa851a99b67bc2c11e4bc99f639b7dfcf8282ff8c65afe2ef",
+      "sourceText": "### `std::binary_semaphore`",
+      "translatedText": "### `std::binary_semaphore`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e5559260887328c70e42dd97b11f251e188855a62c1d24d7b1df9c244a2665f7": {
       "normalizationVersion": 1,
       "sourceHash": "f01f82b1e7812557f424b73a73d2ab25343c5b07703efa7100eff20b810e33df",
@@ -141,6 +197,20 @@
         "costUsd": 0.000066
       }
     },
+    "e559cce615c5b2866ab98d40093f326211186b5748bf6340d9e577354426b00a": {
+      "normalizationVersion": 1,
+      "sourceHash": "53fe5735cfde832115b771037641615635cb15569f6b92990ec2668b8994c652",
+      "contextFingerprint": "7a7ffafe1ff64ba0fbca0527e549a4ecb3fea97fc515f1f60f060a0cd99a78ba",
+      "sourceText": "### `jthread` 不一定非要使用 `stop_token`",
+      "translatedText": "### `jthread` It is not necessary to use `stop_token`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "e55c10ce7fa490ca14763dfb295884114f7e95cc850ed3983954b1ba6aa20998": {
       "normalizationVersion": 1,
       "sourceHash": "77816fd0f3554ce4a52c504b960797637c680580c09c2da29a07fd4ef63215cb",
@@ -153,6 +223,34 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "e560aa63786176d6fa88df72c75b78b44b2a59ed065d1ef82194cd984cceb86a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8586840080bfd13131f5ff391c7d4cc837f89840ac523cb5561fdf85d74a3bdd",
+      "contextFingerprint": "5c81c25d8e84edc0689676a696846feb37b64e0686378a57081fe67d0ddf23ac",
+      "sourceText": "但实际工程中通常不要主动使用 `consume`。",
+      "translatedText": "However, in actual engineering practice, it is usually not advisable to actively use `consume`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "e56bbe12aa42d87421cc59d57bd4ad9e912525a965b8c096ecd6d35e891a1fd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "23ce88840b4b46a7c606df5cd331ee8cb2e4101c921121a1a4c16788b2a5d6f9",
+      "contextFingerprint": "ea90fcb2c6b619fad25446c1287db610b02ad9eb845c421445ee53a9464b7374",
+      "sourceText": "两个节点都运行时，每个节点发出的串口包会到达另一端。正常情况下，终端先出现 `串口打开成功`，随后出现 `[RX cmd_vel]` 和 `[RX set_mode]`。数值和出现时间会随运行情况变化。结束时在两个节点和 `socat` 终端按 `Ctrl+C`。",
+      "translatedText": "When both nodes are running, the serial packets sent by each node will reach the other end\\. Under normal circumstances, the terminal first displays `串口打开成功`, followed by `[RX cmd_vel]` and `[RX set_mode]`\\. The values and timing will vary depending on the operating conditions\\. At the end, press `socat` on both nodes and the `Ctrl+C` terminal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 67,
+        "costUsd": 0.000134
       }
     },
     "e56ed5ea2f1abe2a1a5c52d94aa4272c548e4d756d597f2c18f67df4e4ff1fbd": {
@@ -181,6 +279,20 @@
         "inputTokens": 158,
         "outputTokens": 42,
         "costUsd": 0.000098
+      }
+    },
+    "e572be6699f9779bcbfdfb95bbe00c5b416576680a59833b9ea53446b2525bab": {
+      "normalizationVersion": 1,
+      "sourceHash": "3eaa4235f4ca661a7b08dca93171cc6f7860c9fdc08a7a30e8564666a02a478b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以用：",
+      "translatedText": "Available:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "e57ac6109de1c3acbcd717f3419e2504ac95900ee9544ec7a539ae95d2d5f984": {
@@ -309,6 +421,20 @@
         "costUsd": 0.000069
       }
     },
+    "e5cb1766c2908cfc5abe338e79de740821c27bc5cf5764cc087a38a6b311b605": {
+      "normalizationVersion": 1,
+      "sourceHash": "4668ffaaa768cbc5de6ca4507105f67d7b37c2675c590a8fd7e8b84ea80256e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个示例的等待时间取决于你什么时候向串口发送数据。",
+      "translatedText": "The waiting time in this example depends on when you send data to the serial port\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "e5ccaf9741b6aaf4a0234017126ba96e724005a2a6607945727323432a4b3a00": {
       "normalizationVersion": 1,
       "sourceHash": "f8557f04db327bcdafe5a4566f674a237ee843533aab7d848ce4a4f8a96cc116",
@@ -335,6 +461,48 @@
         "inputTokens": 216,
         "outputTokens": 109,
         "costUsd": 0.000196
+      }
+    },
+    "e5d13adb0ab0117c1a2c1fd35a055782ce3f50469f8bb50eb294788af926c703": {
+      "normalizationVersion": 1,
+      "sourceHash": "04b545faa2119b5bc90a0c2ede4fde74f67e736e1bafeee44d95ffd50dfdd116",
+      "contextFingerprint": "8dd20653cd7df96c17798a5a67c01e7dc00a006cf8982761cf07d25677549127",
+      "sourceText": "`msg_` 和 `data_` 都是成员变量，是为了保证异步写和异步读期间内存一直有效。",
+      "translatedText": "`msg_` and `data_` are both member variables, to ensure that memory remains valid during asynchronous writes and asynchronous reads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "e5db3679558efdb22951380c0ba327c58260a2bf8a21057f105a6d060c798dfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "5aae81bd2eac8bd863498aed056a474dc3feadc229dc3831ca401174925dfe46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由业务决定。",
+      "translatedText": "Determined by the business\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "e5e8990196c8b8800d680a50d44895407224d7c4b1159ff61edc51173158e67a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fa860b6fbe2357f162c89e4007c3adbaebbaa33f2121d94682d159b6f5fbb5a",
+      "contextFingerprint": "2d9f0e82f4e7afee8df843618f6ac14a057e73b8e77d706ee85476fb7efa259b",
+      "sourceText": "`private` 控制的是类成员访问权限；`export` 控制的是模块级名字是否对外可见。二者解决的问题不同。",
+      "translatedText": "`private` controls the access permissions of class members;`export` controls whether module\\-level names are visible externally\\. The two solve different problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
       }
     },
     "e5e8d28b5b274873f54b6489b5487529e1d698e0b865e0ad2681e63e10654162": {
@@ -377,6 +545,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "e5fbc1f330f1138307cbf363c7ea8bd0d7a266b65f8c29de71545947d6955af5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c898ba7b1ba62d888643c65126ed49c94a82d1d459caa81789ccf22ed47d668",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "条件变量有两种常见等待方式。",
+      "translatedText": "There are two common waiting modes for condition variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     }
   }

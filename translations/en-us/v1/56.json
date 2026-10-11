@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "560815c8de2eb33e0c256b5f5013114fb93286cc1381b0260f74498edef729db": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bf37dbba6ff6d29f9733091c84accebc80fcf5d66d1dac995578cd2a82005fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一轮：",
+      "translatedText": "First round:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "560d519712f6612567b37a9afd25fd85e93980e21f7b7cc30efed5dd22e9addb": {
       "normalizationVersion": 1,
       "sourceHash": "1c675b1fb8452b38f42f4eaad5414a170e227c8e5315d3d3c2376aabbd695e1f",
@@ -71,6 +85,34 @@
         "costUsd": 0.000054
       }
     },
+    "56292f005520970c520873c32a002ed27e7515b862a5008838cce0ec876ea1ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b52b631a25a03b3b3b3a91a7d4aea9c15305e065e7207e69ca4a89c1a722bd6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "加入 strand 后变成：",
+      "translatedText": "After adding strand, it becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "562b1a8177c5a1d8171a877714d0b8ddef1d2bb06a19060b0ffa8e4469f3ca39": {
+      "normalizationVersion": 1,
+      "sourceHash": "51f0db935c303518047ee871fefe9d7e7aa3a76fd7fbed7d22343f9c3f818928",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是这个类的情况是：",
+      "translatedText": "However, the situation with this class is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "562ce348a87d8d18a4371cb282b4955d15d10e1677bb5c24442a5a5a58ae01a6": {
       "normalizationVersion": 1,
       "sourceHash": "1feb01fc7b7f254a331607933e626398e525854ec718907081e2994804ae9d11",
@@ -99,6 +141,62 @@
         "costUsd": 0.000063
       }
     },
+    "563a2fcbd15609af84b0b0d580933d8ffc3236400a078c19c48c530ba1db6aee": {
+      "normalizationVersion": 1,
+      "sourceHash": "801b4d55f715b355e00e8fb37ef48501ddd7154451696dc71e8ef735e2f5617c",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "这时 `io_context` 中仍然还有：",
+      "translatedText": "At this time `io_context` still remains in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "5644eccd5d71fa14179775a3a8e272b4c9b56b701518e8b135ec2c9b7db4c3d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d02c64430b6a312238779dcc6fdcba4902a6300b7b7284e26b3634150db0f9ad",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **初始计数。**",
+      "translatedText": "> **Initial count\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "564790228169e7d0a5e761ca55a4361ed09853175c93e6186ffdac459e0f83ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "a37864afc35e18301de9cfcfed715fea8171106215e2c2e9625f5425aba7a9a3",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **共享状态（shared state）**",
+      "translatedText": "> **Shared state**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 9,
+        "costUsd": 0.000052
+      }
+    },
+    "5649052e8410ae9ac23b57f961ba376f6c4eeaec3f481518a1fa09797a3c0d43": {
+      "normalizationVersion": 1,
+      "sourceHash": "f56bd64ef9af8d09460149ee6402ef4dedf5fce54004033daa3260f5955ae9bb",
+      "contextFingerprint": "aad99993bdf9658d215db77c4ead42b44d1ffd9ae19db543924ccdf1d725ece0",
+      "sourceText": "这里的 `feed(frame)` 是为了先练习协议 API。真正接串口时，传给 `feed()` 的是串口每次收到的字节片段，**不要求刚好一整帧**。",
+      "translatedText": "Here, the `feed(frame)` is for practicing the protocol API first\\. When actually connecting to the serial port, what is passed to `feed()` is the byte fragment received by the serial port each time, **it is not required to be exactly a complete frame**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 56,
+        "costUsd": 0.000117
+      }
+    },
     "564ab7d3e7816bab356d16f0778f23aa542619d8f7e9196913f58d6a4ca948dd": {
       "normalizationVersion": 1,
       "sourceHash": "c9bfb42a2566c303637e81a66f094c21feb0a138f3568bb5ca01f912c5880f0d",
@@ -111,6 +209,34 @@
         "inputTokens": 146,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "564bac3bb18cc151cdcb500af8ce42bfe2069daf9d059484f8731843e0e4deb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b626ff403b8b3230c3e2c8210f25dc2360d12f05f88d79d2e76fba423516a4b",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Linux 下准备ASIO库",
+      "translatedText": "## Preparing the ASIO library under Linux",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "56506b39cf660157ced02d4ffaff5210d4c2b46748c56f1f453ffa5fc6f1d181": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb695a8789095b2bb8900c50ac9531156c825eb6a6277f3868e4ce0ce221f67a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这对于：",
+      "translatedText": "For this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "565a8440681829d370695552cc4044b7d5fc3445cf6cd88377c8db6c3cd55ee8": {
@@ -175,6 +301,20 @@
       "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
       "sourceText": "#### vector容量和大小",
       "translatedText": "#### vector capacity and size",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "5679e713624cf0fc2dff3534b35d401f80f6d2c972bfd234b3d03ce59cea4d7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdd5bd3877ec8130370fee8488631cdce854a3b89f72afff587c8a83657f0616",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而 shared future：",
+      "translatedText": "And shared future:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -267,6 +407,20 @@
         "costUsd": 0.000073
       }
     },
+    "56945b249d619e871a7c500bdbf2086e955c71713dfea59c2ba7849d94a4d29e": {
+      "normalizationVersion": 1,
+      "sourceHash": "904e974fdb6647f300781d1ae1d9ee828e5322c72c5209076d203d9eaf72dbd3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：把串口本次收到的字节交给协议；遇到完整且有效的帧时，自动调用已注册的命令处理函数。一次调用可能没有回调，也可能触发多个回调。",
+      "translatedText": "Function: Hand the bytes received by the serial port in this cycle to the protocol; when a complete and valid frame is encountered, automatically call the registered command handler function\\. A single call may result in no callback, or it may trigger multiple callbacks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    },
     "569cc6d6a84136e216ea9d2b790317d430c142016e42b940b4a40cc873f3e189": {
       "normalizationVersion": 1,
       "sourceHash": "550af6712dd28ebb411655a0aef9b7dc030ab8d66d5dfde43f627626c853bbbc",
@@ -279,6 +433,20 @@
         "inputTokens": 182,
         "outputTokens": 76,
         "costUsd": 0.000146
+      }
+    },
+    "56a568d55568bbe4a765d953495a43903f2e353586b5f545d81ee2edb6ce949b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2fb81022f88fdc778cdde31a3915001052f90a77958f5cc21277d8f40d940d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要理解成：",
+      "translatedText": "Do not understand it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "56a6f6b1170b73aa45623b6e35437902722e1fa2cc069dd04d2be425fad61c92": {
@@ -323,6 +491,20 @@
         "costUsd": 0
       }
     },
+    "56c7f8ce32b5439da7e568ddbe2ad44052cc11ac1ac915fb8f94b93d32a320cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce1ae65de5abe59b23a800952075328f3d43ced7ed24a32039ef796e21c2c456",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：创建一个基于稳定时钟的定时器，设置 2 秒后到期。",
+      "translatedText": "Purpose: Create a timer based on a stable clock, set to expire after 2 seconds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "56dcb0f95ba1fb8cbe0c0717d603d8a0637a13813651ad5812c7294a5f9708e4": {
       "normalizationVersion": 1,
       "sourceHash": "fa1e23aa7f053968a67b834742631dd00a3ead3fee638091aa0b93e11453e49f",
@@ -335,6 +517,48 @@
         "inputTokens": 142,
         "outputTokens": 28,
         "costUsd": 0.000077
+      }
+    },
+    "56e3785b69aa07e137893e47bc2165a8fb180de265356911535a6b6682623e3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9d9b747fef85dca64d50917cbc2947133fe0aa30bc150fd7350f31b78dd5755",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 代码骨架",
+      "translatedText": "### Code skeleton",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "56e66ac021fb08fcf84088fa51d7d1906f0707cf7844eda0f76235f65f62f52f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f51c2b66036eeccd1b54d163363d593ea081d23db4f683c133138827c82c79c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就会直接返回。",
+      "translatedText": "it will return directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "56ead8e44c45349b2da868481729636f80bcca69c5ede702a83419f1e4c718bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec44ce50c32ab1872c6aaa648b39943b13916220c092958ee97a751856e06d13",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## async 启动策略",
+      "translatedText": "## async startup strategy",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

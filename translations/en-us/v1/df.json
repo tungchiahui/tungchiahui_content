@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "df29fb509d3bb61d55a46a23ce5a9da0c3ac59486bbc267f10b23b5650b13e7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0dea2395b78278ffe48e5819b6e679d60f2d14e5b1169f2d991c808b237e481b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 和 mutex 的区别",
+      "translatedText": "### and the difference from mutex",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "df3ba28451ff6afc74b1209e2ffe5c90f5b339fd55b2447c39131114017a3921": {
       "normalizationVersion": 1,
       "sourceHash": "8158347b2be39cdbcb0b93da70efa17ebe8478edb7a41bd096cc71b4d434861f",
@@ -113,6 +127,20 @@
         "costUsd": 0.000087
       }
     },
+    "df6e800b50b7af1388585e0d11b010efc51b93f5e17e67816346be48b37abf8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee5dc77e64e2cad8e27dbbde81e4a7cacc2ac165cc9c40239bf6f53338c7f297",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面这两行很重要：",
+      "translatedText": "The above two lines are very important:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "df6ee49db27b9de301c0526970af0458623257a858b293fe674ca3d7cc6c453d": {
       "normalizationVersion": 1,
       "sourceHash": "ec8d745236d3a2ab694b98abc861867ff39daa4febd308205bbfbd736310bb21",
@@ -155,6 +183,20 @@
         "costUsd": 0.000095
       }
     },
+    "df80e0bae420968f86db2f9436036a31ea1ca382ad2d0623d121694579159f31": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3fa3f04c6fb576ff2afd40b08cf092517bdacfd4be6137872164acd4ddeda7b",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "先只关心一件事：ROS2 节点怎样打开一个串口、收到一段字节、发出一段字节。此时不要求看懂串口包的内容；下一部分才把“字节”解释为命令和字段。",
+      "translatedText": "First, focus on just one thing: ROS2 how a node opens a serial port, receives a segment of bytes, and sends a segment of bytes\\. At this point, there is no need to understand the contents of the serial packet; the next part will explain \"bytes\" as commands and fields\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 75,
+        "costUsd": 0.000145
+      }
+    },
     "df9000c43bbe28205ac53ee3197b4f73e80b058b7409241c9a946fd397b012fc": {
       "normalizationVersion": 1,
       "sourceHash": "5d82ff7904a34b16a834cbad752868d43f4099a743423fbd8ef77a21a955f3fa",
@@ -167,6 +209,90 @@
         "inputTokens": 151,
         "outputTokens": 33,
         "costUsd": 0.000085
+      }
+    },
+    "df9eac5f67d5707913601172b0fb2dc69963ac6e17c832a842d6182ae831c75b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e5ced7e0e36d0427f1a73f909d17e3f4a7912713549d5a7d637e14efe4f06cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就被放到了不同线程。",
+      "translatedText": "they are placed in different threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "dfb05f9d2aece83956660713784accf109af0102c8afde4bbef423a041fa86f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "91ee52474fb1971b3612e01db8ca4037bf2f25d25b4f13ff3d954b2a8085ed29",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 坑 2：回调不执行",
+      "translatedText": "### Pitfall 2: Callback Not Executed",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "dfca3493d5e11dc72446499826d88b5322d2cee7dc67e22c340dd8c8436aeb87": {
+      "normalizationVersion": 1,
+      "sourceHash": "175940eb59c6aa7da7dc22e1c16e203eac88c2c33ac0f0f370d64a592f76c08e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以像这种：",
+      "translatedText": "So something like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "dfcce948a115f882fa6fdebc627067c8cb2c547b0c4557ccc4c1dfa9797c6e60": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b6e082a13532afe4549c338395394519d2f0ed5bab6f507413447879225b21e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写入以后：",
+      "translatedText": "After writing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "dfd52619618b310316401aa414f859f9562b7e00d7de50612821bb859f6d2b0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ff59fe7458cd9363c379dd82a10972f9c9f8a2f2b17b0a672d919c2778fd09c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在线程对象析构之前，必须保证它已经：",
+      "translatedText": "Before a thread object is destroyed, it must be ensured that it has already:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "dff78d1b8e53ec2623831b544119d83e4fdb8f66d35fc7ef5e90cd70a966e284": {
+      "normalizationVersion": 1,
+      "sourceHash": "471bc738500e90c6dee9d3b38cd832d3d2167c70eadc9fd5e7d26781f43daaf7",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 我就是想让任务真正异步执行。",
+      "translatedText": "> I just want the task to truly execute asynchronously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "dffe9bc9885015556f86390b530ffc816334565415e848d4f2e72e34d4e5df0b": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3b01e8330fa0b945efbe3facdfe2f8ba9c3d26ca1423c0e7ff04c9f3c0810e0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2c21a3a62c8970af2fab058ae066b2deaa48ec24e903647e557d4d2060b1237",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "服务端启动输出：",
+      "translatedText": "Server startup output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "3b0329f72dc39130ebd626460fcc43a448898bc0ac6d0e2e54ea0ad7da8152c0": {
       "normalizationVersion": 1,
       "sourceHash": "f07f4bddbb294459629ded7a05f2018213094b292cade84f89b32b33666ed14a",
@@ -13,6 +27,20 @@
         "inputTokens": 134,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "3b0ea9f5941abe5b0b6b1d30ba77f622429a1b4eaf3013218bb334fb0740153c": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7efaaedefee30c38a967700a97b6fdb1f2e3429a7f6e30244c0e2c0e9d6a7bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序首先：",
+      "translatedText": "The program first:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "3b21be3c9d03bc50a555c00129f66c06b1a303c6df4c5ff6671400b6b304c7b8": {
@@ -29,6 +57,20 @@
         "costUsd": 0.000069
       }
     },
+    "3b287e72896e0edc306af59e174fb20c50c226aef28dbb8edc5c5282f7a4bb97": {
+      "normalizationVersion": 1,
+      "sourceHash": "cedd92823be762f2e7b929028c0e46f575328ca73c6eda041a8b30ae99105ee2",
+      "contextFingerprint": "0cc2c244b1812634d26be3f8a26640fcc4936a6bd3083f8bc0890b2b53ec1861",
+      "sourceText": "- `bytes`：`std::span<const std::uint8_t>`，表示这次收到的字节片段。它可以是半帧，也可以包含几帧，不需要先凑成完整帧。",
+      "translatedText": "- `bytes`:`std::span<const std::uint8_t>` indicates the byte segment received this time\\. It can be a half frame or contain several frames; it does not need to be assembled into a complete frame first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
     "3b2a245726c561dc8c946e76f59cbaad7c7d2577e0f925463ef220ffe13f2bb2": {
       "normalizationVersion": 1,
       "sourceHash": "369dfa655a9fe83c6913d742775af0cbf4dc2d61f44de7d4ec8550f467ef7d17",
@@ -41,6 +83,20 @@
         "inputTokens": 149,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "3b4a75300d17ccc61934423f80604a9de2b08f127d4ee41bfd8a20ae3631909a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c45f0d0a66a15712c01c849c8cc49e49e2ff7e4271ace2a50e5e85d525c4ecfa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就可以。",
+      "translatedText": "That will do\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "3b4bc9ba90423068796302a62e0acc28b8d0f3d3e740480aed466179ad3f6ad4": {
@@ -83,6 +139,34 @@
         "inputTokens": 138,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "3b6c62e30fee28ced0b30886b845e5d258b50e302010f04a59e4c492b419a2ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "8523d3e252096353768c135db4bee3db5128eb1ebeeb24a8e9dded782cbe0a03",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Install",
+      "translatedText": "### Install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "3b770e6a14f8be1bd97d81f8003c078780184105c138d845d714bc61202bccda": {
+      "normalizationVersion": 1,
+      "sourceHash": "52811f008ee79935675182c5aa4bcfb859080c055b1a447a1499c34570789e93",
+      "contextFingerprint": "3aa26c1b076df36aae652c1482fe3beddd8b67a65ad0d16af0f30f5f59edf351",
+      "sourceText": "返回值：`void`。一个串口应长期保留一个协议对象，接收过程中不要重新注册回调。",
+      "translatedText": "Return value:`void`A protocol object should be retained for a serial port over the long term; do not re\\-register callbacks during the reception process\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 37,
+        "costUsd": 0.00009
       }
     },
     "3b77e8558c3b957bf2cd102ccf3614feba38732d2190c9ece7ccdb0b4f19fa49": {
@@ -183,6 +267,20 @@
         "costUsd": 0.000057
       }
     },
+    "3bc4acb8ee8dc8e749e1b6c8426f4378a48fa6e4383e08b4435bd568968bea9c": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc0f4802b4b2b80a5f0d713d56b8385da848cf3ddd00faf96d1efacad49ec62d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它仍然依赖：",
+      "translatedText": "It still relies on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "3bce7d6ea04a4860a36b917cc56b950b41f030617359d9bb76612d68d2b5b8ca": {
       "normalizationVersion": 1,
       "sourceHash": "62ca02888119b9ca020ee6021022b57af1c13144009523120af5f37cd6a44919",
@@ -209,6 +307,48 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "3bdd228651585ed8bb110d847edad3e4a62c5cad1d2147be0b9d0633281e3311": {
+      "normalizationVersion": 1,
+      "sourceHash": "d807c0c5af829e7322312c9540c30173a9f987aa360ac379e761cf222cdceb2a",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> atomic 保护的是“一个对象的一次操作”，mutex 更适合保护“一组状态的不变量”。",
+      "translatedText": "> What atomic protects is \"a single operation on a single object,\" whereas a mutex is better suited to protecting \"the invariants of a group of states\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 40,
+        "costUsd": 0.000093
+      }
+    },
+    "3bde433e2925b7f06a38971818c390e7b130f395c862401c877e15e732246f5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c9e2cccb2273139014d4f0ea7dfa6923c07735ade44a88b3db9fb27557455ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会继续等待以后可能到来的任务。",
+      "translatedText": "It will continue waiting for tasks that may arrive later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3bed2380e8fa39e9d2eb59fad1b23efaf53c5e200e3a4cdc24429f43a1045df8": {
+      "normalizationVersion": 1,
+      "sourceHash": "01e034560b8ed92910690cca8441174c37e77177aa5aafa28a86d693bf53b80f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "进入：",
+      "translatedText": "Enter:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "3bf51ce439e2f47002b3788838e5b12e0632a33937cae95a51c3dee6c3bd8cf2": {

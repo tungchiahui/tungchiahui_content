@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "6d0193e403a6c8d1cd03346b59ad1157919fad39ca8335caa85c564e8de31647": {
+      "normalizationVersion": 1,
+      "sourceHash": "679c0db10226d4916d47626a0602d74c198ec0442bbf2e479e262fc023891fd7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设被包装的函数：",
+      "translatedText": "Assume the wrapped function:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "6d022465ab9dc2f176b30c9f645a686940bd7fca8b4c1e596f811012d174e1fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "de44331f099157a7f54c0a7fe810f44c5ebeb02b44de9cd2e2913e3fb6f4a7bf",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "那么 `io_context` 中不同的 handler 就可能被不同线程同时取走并执行。",
+      "translatedText": "Then `io_context` different handlers in  may be taken and executed simultaneously by different threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 22,
+        "costUsd": 0.000071
+      }
+    },
+    "6d0344a3070f215158ccf8d003b62a931661eefbf1051d9209ed0fb02aa10b3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cdb42d3431c3c9f0f267b6d23ae40009954d9d4ad9285ad71a2a2b4b74f65d81",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只记一张图：",
+      "translatedText": "If you only remember one figure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "6d077452dbd017b392711f42c427d23f92839ef2cf064771a072925fceed84d6": {
       "normalizationVersion": 1,
       "sourceHash": "fb7c3ef4825a8e1b353a4e9b4bc3fb3251c520d7a5e1f37bc2e3c35782d1f152",
@@ -13,6 +55,20 @@
         "inputTokens": 149,
         "outputTokens": 38,
         "costUsd": 0.000091
+      }
+    },
+    "6d0ad552e371b90de43d8c381c87674a61eeef26d8d06c54b9bfe6b0e5c69f6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6299235e48ef0b145f3c27e54b664a61a961c4537aaec4fbc3402002d8086631",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面说过：",
+      "translatedText": "As mentioned earlier:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "6d1115378bd579dc0d02adc5d97cab2886e1fa8b617986a709de2efefa4192c4": {
@@ -41,6 +97,20 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "6d1e30017b319fafb094527e7f823265948b966eeebc9607502b24accb7d194f": {
+      "normalizationVersion": 1,
+      "sourceHash": "35907af9ec670a4bc468e87ee54b9173a91e92422845b49a1094646fcc366393",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以正确的等待条件应该表达：",
+      "translatedText": "Therefore, the correct waiting condition should express:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "6d1f4de193dc72baf88723a241adbbf908b23bc8af4aecfc15cc529e663e3233": {
@@ -99,6 +169,20 @@
         "costUsd": 0.000089
       }
     },
+    "6d2afe9407830e32081107688d2d7f4b9f5be6396b3f7e62f45afdeddf44b625": {
+      "normalizationVersion": 1,
+      "sourceHash": "20622d807e09e22710a15d74846b7f2e3b5e0435e2dea6764e4d98d937f42a95",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### latch 可以理解成“一次性开门”",
+      "translatedText": "### A latch can be understood as a “one\\-time door opening”\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "6d33a7abb60f2f18cfa7c7c842bcc986c1c471773de304fe8bfd4d9b3f04d02e": {
       "normalizationVersion": 1,
       "sourceHash": "6af7b0399cb86240c29deed5f3812481c1f24c3e3626eda254d3b6e675ea71ea",
@@ -111,6 +195,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "6d38f1ea3430bb370843fa9646867facd0c2c0c27a1da9d40c1c23ff0c63e864": {
+      "normalizationVersion": 1,
+      "sourceHash": "38684959cb71d04d54eb82c45f3c5e13ef87a867893704a6ae7f527d94754506",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## CAS 与原子标志",
+      "translatedText": "## CAS and atomic flags",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "6d5d9f09f9976d48c9f8febb65bfb93506f7d755826b970028c47fd065921ecf": {
+      "normalizationVersion": 1,
+      "sourceHash": "203aaa12fa2783264a365d6b10a433d4757a0e6bc20fe3186c810f7e6ae3aa30",
+      "contextFingerprint": "4f283fa0b2711161f57c19d12fb68ee39d7e0d554a948ddb344b9edfc90a6668",
+      "sourceText": "> `condition_variable` 本身不是状态。",
+      "translatedText": "> `condition_variable` is not itself a state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "6d64a509c5602eb6f0dd85b9dbae38689f3d02b34e70154161d31639e7b305a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4abd381fc4b69a83362283a5c01a7facb1f5181ee73829798dc54743b7bc11c",
+      "contextFingerprint": "633fbb8104dbc77c7bf1848f603023e5e07c591afef4b8d533dcfe26dfd34ffc",
+      "sourceText": "### `cacheVariables`",
+      "translatedText": "### `cacheVariables`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6d6ad63f1b22cd3114438394ffad6309a8b0b2ba888bec3e15d967aa996bf782": {
@@ -155,6 +281,20 @@
         "costUsd": 0.000054
       }
     },
+    "6d83b6663509f87bd1bfce7b756ee3d9d5d0754307fbebea853cba134982c8a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "418d86f2d87ec3617838ae99dbad2f68bee9c6fc647e88a9cc139cc69c321019",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个类就是以后封装串口、TCP、UDP 通信线程的雏形。",
+      "translatedText": "This class is the prototype for the serial port, TCP, and UDP communication threads to be encapsulated later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "6d88a13a5a04a4e68b1d9f75c921f5b43a4612c6516698a301da121a62fdaf1e": {
       "normalizationVersion": 1,
       "sourceHash": "d97ccb886472e88feee222343a97f60e7f8122b247277af5f7608f362f37364a",
@@ -183,6 +323,48 @@
         "costUsd": 0.000069
       }
     },
+    "6da6b01cb92f840030626de7678e6cc2c208572acbece7d6a78ebf07ca0175b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "200507e45f1563097aa36e2812cd203a3d886b361e3c190d3649a2e15ce09a57",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就是允许的。",
+      "translatedText": "That is allowed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6dad142e6a6390d7cef7caec5a5c7d7f88e757e6c3819c6670021b4f55464e64": {
+      "normalizationVersion": 1,
+      "sourceHash": "09cb5c12c1c0f5edf8643b91c9b5c138bc0cbc32d3c79ac4f94ee3c36411a471",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第二个：",
+      "translatedText": "Second:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "6db660285516c993006601954f158eee2df466696d86ce84ca9009c022bf4d63": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac4f7a163a7972ed342bb755356e38642daa274c826628606e16d650bf63cacb",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 你后面可以怎么继续扩展",
+      "translatedText": "## How can you continue to expand later?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "6db6979b0144f8f2910e3fd0cb3d374549772a526f7996337a026ce866605f75": {
       "normalizationVersion": 1,
       "sourceHash": "089598e9742638b095d95264d419e3017cd440e39d044a2affe17dd2edd5efe4",
@@ -195,6 +377,34 @@
         "inputTokens": 199,
         "outputTokens": 90,
         "costUsd": 0.000168
+      }
+    },
+    "6dbd5d197b42ed7fb17c3d1f9a0f49d88c13f68b66ffbc4b2e17365e9a741b52": {
+      "normalizationVersion": 1,
+      "sourceHash": "1539f2ccfc1d923799ebfe2b4239284de7f09dfcf6c232246ad9368ffb4306b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么这次通知就结束了。",
+      "translatedText": "That concludes this notification\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "6dc1f23b9274913b6a99310ea15e6cba715099c8424db28d60ee862d27c85e8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6d527ead4898d361026a7aca004738a79feee7b5fa24f478fcaecb57d6072dd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "参数：",
+      "translatedText": "Parameters:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "6dc270e34c27a6b35e77f438d19338b7dac5e87e1acd91625376696a34c350ca": {
@@ -265,6 +475,20 @@
         "inputTokens": 167,
         "outputTokens": 51,
         "costUsd": 0.000112
+      }
+    },
+    "6dd75727f79aef960c611675da6041800749e3bf07ba263421b9dfb967ffe8f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5669d899aa4cd45e871b1d08ac6f69879263b58fe1cbb11eb190b15bf54b8c6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 让代码更清楚",
+      "translatedText": "### Make the code clearer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "6de3eff5bae1fbb666980aaad79fe67d830672564c35505dae53721c9fb4ce0f": {

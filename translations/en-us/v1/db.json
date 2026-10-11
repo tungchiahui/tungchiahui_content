@@ -57,6 +57,20 @@
         "costUsd": 0.00006
       }
     },
+    "db377f64756068c6ce010eedefc482dee95b032ae1ea76bd256dbfda692cff47": {
+      "normalizationVersion": 1,
+      "sourceHash": "d60f637bfbe9e31bb9459b6b8e5f3a06b77918f78f8fd2e22deafeec5a77ccee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是程序变成：",
+      "translatedText": "Then the program becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "db405b88ae9b931a1be3b6cde4667867996eee689909b0d4bf2338e2f691ab9b": {
       "normalizationVersion": 1,
       "sourceHash": "b78e6ea5af9f7e7a7d733450f275176a8748cd6905ce8ab3da9e0ba19d83631f",
@@ -83,6 +97,34 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "db50e37f5621fe2da5fd2cac7b9eeb7bb5c93e163b35d41acbc24c753e997fde": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f3daa18a45d69ae56fad0933c4c16334b899f6598ee1dea26d493a1ed7e62bf",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 第一条发送完成后发生什么？",
+      "translatedText": "### What happens after the first message is sent?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "db5496048fee31f6e1ab42583d0295b90800f344265c03b757b36b681803dab3": {
+      "normalizationVersion": 1,
+      "sourceHash": "14dbac49beb6bbc42284548e8bf870da0d2bafcaf17036bbebaea62e1fdfa67d",
+      "contextFingerprint": "6e37c3bd10ff54e6d92eea285ba798c3785b27d84c90a987dde5353cdd50a54b",
+      "sourceText": "| 对比点 | `#include` | `import module` |\n|:---|:---|:---|\n| 工作方式 | 文本复制，把头文件内容粘进当前文件 | 导入已经编译好的模块接口 |\n| 可见性 | 头文件里写了什么，包含者基本都能看到 | 只有 `export` 的名字对外可见 |\n| 宏 | 宏容易向后污染 | 模块接口不会像文本包含那样传播宏 |\n| 编译依赖 | include 顺序可能影响结果 | 模块依赖更明确 |\n| 构建要求 | 所有编译器和构建系统都成熟支持 | 需要较新的编译器和构建系统 |",
+      "translatedText": "| Comparison point | `#include` | `import module` |\n|:---|:---|:---|\n| Working method | Copy text, paste the header file contents into the current file | Import an already\\-compiled module interface |\n| Visibility | Whatever is written in the header file is basically visible to includers | Only the name of `export` is visible externally |\n| Macros | Macros tend to leak outward | Module interfaces do not propagate macros the way text inclusion does |\n| Compilation dependency | Include order may affect the result | Module dependencies are clearer |\n| Build requirements | All compilers and build systems support it maturely | Requires relatively new compilers and build systems |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 120,
+        "costUsd": 0.000212
       }
     },
     "db54daeacdfe4fc5bd67ae7364814cc07218d66666d12b60c9953fb24b11dffb": {
@@ -113,6 +155,20 @@
         "costUsd": 0.000175
       }
     },
+    "db6cf43e17ed432faa030c60505d8c542599a13a0b87d4c4445f642bb862013f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b57236e9f81a443e1f0528ec11a9cf72c1eb263360bea8dfe8bd661c8f6789ac",
+      "contextFingerprint": "335fec9b94cbc54708b49211d0669814bd0aa08e1ec56577b6e0cf78185ab84a",
+      "sourceText": "> **`io.run()` 不是一个永远运行的死循环。**",
+      "translatedText": "> **`io.run()` is not an infinite loop that runs forever\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "db7730d304f48f72e488f223be34c540a14d6df0e5c1fd65b27e6ce417aaae13": {
       "normalizationVersion": 1,
       "sourceHash": "4d61cb1ca0fba86d47429a464592c50df50b6b66636675bc816be07b862f049f",
@@ -125,6 +181,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "db7b78197131b8dabf7bc0b36ec572ed03cceeb0cc9bf6f77e99c32bbd8cd6a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f983d58d3352d5fbbd59bb2e9b02c722a3ffd80c7be82648aaf34090e81434bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "却直接退出，那么 barrier 仍然会：",
+      "translatedText": "exits directly, then the barrier will still:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "db7c1460b8259747d95f87551e6f02ef63a6d9def301b4e4499ddc32b7295dd6": {
@@ -141,6 +211,48 @@
         "costUsd": 0.000108
       }
     },
+    "db9aaeb4fbaaae30ca2f32d41c6f1a0739aef8e63c8d38bd923d1c193dd1fd5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "116c629b30ab7d73db3ac2dc5261da21669db4de48bd3e9870a402637c13d23e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行到右花括号：",
+      "translatedText": "Execute to the closing curly brace:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "dbbe6145c39e7bb71d353a7f4186acae3f9aecd44a8655847e6664324f142070": {
+      "normalizationVersion": 1,
+      "sourceHash": "f57bb38d71dd5fa61edc99d872289a50719180b89b86f294defa2b80f6fa8831",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以简单理解成：",
+      "translatedText": "It can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "dbcc6d606a055b858e3778edb9ebfa2e7216556590fbfb19332ed6ff977a0426": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2c265b1b1e0dd7455233445e34b551d2fd102a6af9b6df526c29576528072a1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 理解生命周期",
+      "translatedText": "### Understanding the Lifecycle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "dbd736bdb90ad212dbf453c172366d23ea5034e56355301be41a325fd02960b5": {
       "normalizationVersion": 1,
       "sourceHash": "2b824102b1d57b722b9153f948a42295b1ab79f551881c35fc11aae07e9e5fcb",
@@ -155,6 +267,20 @@
         "costUsd": 0.000067
       }
     },
+    "dbde4f3dbdeabf711996edf28b05a98c14704fe5041a22a06e169e75761971d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bad34e7fe7bdded28dd5e46348720cefc43cc1c5738260c27b068086cecbfe8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当计数到：",
+      "translatedText": "When the count reaches:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "dbdf62222ca24d66427271ba48bc27c21b7e94302718913dc487adf4200e31c0": {
       "normalizationVersion": 1,
       "sourceHash": "601266d080d260186d8edf9ae74f26b67d62a747d72c5eab36d27a2ee0f60455",
@@ -167,6 +293,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "dbe35a06c7da3977543677f663b503f731597341d73c2314ba78ecf8117d97ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "bab06614a918507756a748705fb61071c94180c1d2dbfcf6bc099f91558d3c5c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以我们使用：",
+      "translatedText": "So we use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "dbe35e569d2d6c9e608074cac6a81a90b8efd7b4de6a428d35e6cb08ae3aef9d": {
@@ -237,6 +377,34 @@
         "inputTokens": 143,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "dbfc49f5daedbc1d21537148d7411da8c6d3e3d1ac4938829d6daf5c8f0bc657": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b6c8709f2b55027de9a719c4673a495f9515b31bed7d767ecfbc3f718da843c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是在把 promise 的所有权移动给工作线程。",
+      "translatedText": "is moving ownership of the promise to the worker thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "dbfd5c593b4ebdf1efb1ea89dceaa60c3ed247c5304e7094cf2426fa8592146b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3025518105399de3fddb3dd82ff2308114cf69e89dfe223915f51b3174efd4e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然：",
+      "translatedText": "Although:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

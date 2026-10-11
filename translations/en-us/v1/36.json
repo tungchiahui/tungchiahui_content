@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3604a93090e9a9d6bff489190dd5f353102dfaf471282c3c109208db066b0073": {
+      "normalizationVersion": 1,
+      "sourceHash": "5133693cd35065dbc8f56bf08a0e1afbefb58773083d65b0a0e766f42a33c92a",
+      "contextFingerprint": "46650a18384b76fcafab0796301b08583c808991f39827175d2fedfa7dda444a",
+      "sourceText": "使用普通 `std::thread`：",
+      "translatedText": "Use the standard `std::thread`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "360572a0613672a0e96c8ba001eaf2d7b4ce423165d683da036c64f296f92158": {
       "normalizationVersion": 1,
       "sourceHash": "ce94c699ca78fc7af126914ced9526bae37feffed440930db0733bdaf46a9323",
@@ -27,6 +41,48 @@
         "inputTokens": 139,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "363225e9c22cd904baed6b0773632936feac5ffa318776a0d9d2754400a0fad3": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdf454ba0af45593cf6ec2287457d07103761dd0c55e399d536cb0f22fdf8291",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而自旋锁：",
+      "translatedText": "And spin lock:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "364842b2137efa9fbe0e2a46889c013e5f7bfb20e7a63137eaed1b8b67dc7c81": {
+      "normalizationVersion": 1,
+      "sourceHash": "516c770834f6a1fe8b08165fc2caaaeec6f74fedd1afbadcd11e7f39a1396802",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在很多场景下也完全正确。",
+      "translatedText": "It is also completely correct in many scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "36557dfebe1a9be148cdacf5c4fc956c728af9caf18dade2c166cc95c746d0b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "70327149ba23d7a7dee915d46dea1279b13bc6bb92ae1381b6adde222c863279",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "latch：",
+      "translatedText": "latch：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "367d603f93746111115d8b7108583c3aa3f0d9290b52ef1d1be0ac4114c89fc0": {
@@ -71,6 +127,20 @@
         "costUsd": 0.000057
       }
     },
+    "36931dc2f9533ff9701f9857a655da48659dfa3f7f95e4919beeb639f75fd071": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffccc8bf33cbcd41fea92375821e1b6182a1473cfd737d6c5aa38f0a6ee97da4",
+      "contextFingerprint": "dd916833f068bc8cddd288c9cfb2de1d4c7b485e5101b3704a0f29fd6e629232",
+      "sourceText": "也就是说，同一个 `buffer` 会被重新使用。",
+      "translatedText": "That is, the same `buffer` will be reused\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "369667fdf9dd90e3e0cfc407dde5d3084a0f4dbbfe991a3804d5bfd3c69b07a0": {
       "normalizationVersion": 1,
       "sourceHash": "c021b1aa2c95111b6985dd49932ac3ffa4b9021642f10721fc98b1e8f305a548",
@@ -97,6 +167,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "36b4c289d236a3332d6aa146284e33ff60db0f494342b59f866f2d1ca2409ad7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2fcf7a8aa8b47969b8055719f327d634b50f85c90b909a040cd54830a101aad",
+      "contextFingerprint": "aff9385f9257f1f88ad379d1435ea830273dc98a2732cc44e699263e426ec2fc",
+      "sourceText": "### 机器人程序中为什么经常需要 work_guard",
+      "translatedText": "### Why is work_guard often needed in robot programs?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "36b549e1d138b2e14692b31a42af26f1f1970cf33f320b44c47fdfd589d8c3f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f4f09e87838ee63b021989071da7b4f9978497572d95b8bbf0e628729c2ce8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：创建一个 Asio 事件循环对象。",
+      "translatedText": "Function: Creates an Asio event loop object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "36c34f65842bef2e00d7179fcb5932fee2c9960b8b25aa112d8748e63bc80151": {
+      "normalizationVersion": 1,
+      "sourceHash": "221433db3711d1f0b0ad0bdfdd16d47bfa17a6b694c0de2d52f19fe6184b8fd5",
+      "contextFingerprint": "d189135cc9a4d98f2f754b1243e2d902f0e7c077f8b2ff741be99b75952dd060",
+      "sourceText": "| API | 类型 | 是否要求整个 buffer 完成 |\n|---|---|---|\n| `boost::asio::read()` | 同步读取 | 是，默认一直读到整个 buffer 被填满或发生错误 |\n| `serial.read_some()` | 同步读取 | 否，读取到一些数据就可以返回 |\n| `boost::asio::write()` | 同步写入 | 是，默认一直写到整个 buffer 写完或发生错误 |\n| `serial.write_some()` | 同步写入 | 否，这次实际写多少就返回多少 |",
+      "translatedText": "| API | Type | Whether the entire buffer is required to be completed |\n|---|---|---|\n| `boost::asio::read()` | Synchronous read | Yes, by default it reads until the entire buffer is filled or an error occurs |\n| `serial.read_some()` | Synchronous read | No, it can return once some data has been read |\n| `boost::asio::write()` | Synchronous write | Yes, by default it writes until the entire buffer is written or an error occurs |\n| `serial.write_some()` | Synchronous write | No, it returns as much as is actually written this time |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 95,
+        "costUsd": 0.000174
       }
     },
     "36c7c30ddc93c28a17c649bc408acb817a76366ecf24fbfc8230304184f1b7af": {
@@ -139,6 +251,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "36de420eb8a23acbb935c4777ff189c975f25e23eab2e53404744701fdb48225": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2cb1bcb95824ccc4e5402bc6d2515ef5c6f84bbbb424734a84e3213ef1cd9ec",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 mutex 很适合：一个大函数里面，只有很小一块共享数据需要保护。",
+      "translatedText": "So a mutex is very suitable: within a large function, only a very small block of shared data needs protection\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "36e7f0f454e2bd12f3a88a176e2df7c4c1c73b561671fede10ef48589f1abd80": {

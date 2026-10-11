@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bb098e3ee7f11ffc5775ad7c7f39c8e536bc1fbed13e4a37f41a13bfce3ca3b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7da708f569bdf53bda3b01c99e1c1efe1a84865d8f52ba43cde43ca4ac7d786",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 不写 launch policy 会怎样",
+      "translatedText": "### What happens if no launch policy is written?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "bb0e768ad41a871cf2000d345c66479898d56e34f224695756c8c54c9034ba32": {
       "normalizationVersion": 1,
       "sourceHash": "db172c3340209edf1b701d430b1482f09d045a53ac6815eac7ea7016e729645f",
@@ -43,6 +57,20 @@
         "costUsd": 0.000064
       }
     },
+    "bb1e9e440c7ab72554cb958b41f59adf048d4409596d35a73803ed47d4fbccbc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4ba7263afa7226d0fe7c2fd98261d9ddaa8008bd02d4e72bc6cf8332d3ac44e",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## Standalone Asio",
+      "translatedText": "## Standalone Asio",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "bb23a31d6761e2a2278c65b52d9a47ed9e692de43a6d1c0b0c1aef300459dede": {
       "normalizationVersion": 1,
       "sourceHash": "19011f42c9286a9a3bb4ba3c728fc14a25ff7fbbf3f14cc7b739c274cb19ed8a",
@@ -69,6 +97,34 @@
         "inputTokens": 138,
         "outputTokens": 23,
         "costUsd": 0.000069
+      }
+    },
+    "bb3b2513f968a1aa878fab2d95571b7d7504bc688b8df33a0abd5255225877cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fa4bf9871d5d32db78156d0d3e484da13855337a9cd75792531b9ee31e41d4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 3：",
+      "translatedText": "Terminal 3:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "bb3bfd01f4192ad66a9346132e78eac1d17d4909e2cf44295f011b064baf139c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d3cc83927c315a298f02fa948732c0b4df1af85eb582cb022676ebf7ccc14fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样后期会非常难维护。",
+      "translatedText": "This will make later maintenance extremely difficult\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "bb442f760d87f836dae7d42514707fa5cb7d744fc791a6e396c3304e06eac81b": {
@@ -99,6 +155,20 @@
         "costUsd": 0.00014
       }
     },
+    "bb5e11663eb517e26da8b74936335f2a126be2ab847058a6465554b5cf50d06e": {
+      "normalizationVersion": 1,
+      "sourceHash": "701abde6d45b73d477de580bc7aae9e9a328221db5c6c910d7077f4899ea0467",
+      "contextFingerprint": "c18287fccfd0140c214aba0011137abffdb6fbd8655c62103e2d71e7b7486324",
+      "sourceText": "### `wait(lock)` 和 `wait(lock, predicate)`",
+      "translatedText": "### `wait(lock)` and `wait(lock, predicate)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "bb70595c45e81fbf2c17fed92513dfa0f035a460f1505a7e3b83c9889a20c8fe": {
       "normalizationVersion": 1,
       "sourceHash": "25b4ba98d3b98fb10300d9e395d79bbd55862989de921e34a8c0cb8515839146",
@@ -111,6 +181,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "bb7b7f60795e60d221908e547261695519b720bc7054982a04f6020a7b13ab23": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d227320ee747c3208511ff4b305e4602323e565cbef4747b19df3d8ef79ffc9",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 当前这个原子对象，在当前平台和当前实现中，底层操作是否可以不依赖额外的锁来完成。",
+      "translatedText": "> For the current atomic object, on the current platform and in the current implementation, whether the underlying operation can be completed without relying on additional locks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
+    "bb7e61401374907ff86b6dbdd26d6bd0a61a108878c6ff69ae7c53c7c0b0165c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e13ed65e5bb2aaf9d7c753adae15f9968306467fecafef07b18ec41727b6e3f",
+      "contextFingerprint": "fb62c6f126509ac8b6e660c98109f0cb13cb36cf566ff5b0eca674086086fdd9",
+      "sourceText": "`boost::asio::write()` 会一直尝试写，直到：",
+      "translatedText": "`boost::asio::write()` Will keep trying to write until:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "bb8be2ded63531111bdb53ab19acd15d469539a30848f034706f7daada5435da": {
+      "normalizationVersion": 1,
+      "sourceHash": "5638b4231bf8ce7e1a6f998fb01ada79eaedcc5b647c6bf4664cd0de86a224c4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### semaphore 和 mutex 最大的区别",
+      "translatedText": "### The biggest difference between semaphore and mutex",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "bb910545927df5a15f41a3c57713065bb97151bf8f98a28b564d61891331bdc8": {
@@ -141,6 +253,34 @@
         "costUsd": 0.000059
       }
     },
+    "bbab2def1b5368efd23027fdb3aaf57fb8ab7cfd603f0a0d88c2e7bf59d8a7e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "a938a19b76a33ba115b86af1cbe62a64edd3ae10aed77cd7906995a820874101",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：把 notify 当成状态",
+      "translatedText": "### Error: treating notify as a state",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "bbadd8137d9ac9ae809e27a76e205e9edf1c2c88c37dcc5370252bba98a84393": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef7154e3a095a96f692a4f74e45f62d1f1cc460dcc6b986ec7a9e200bb2d5f20",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**：程序正常结束，终端没有额外输出。",
+      "translatedText": "**Run result**: The program terminates normally, and the terminal has no additional output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "bbae400b9782a923245c856fdfd2d885b6978d070f94466620026ea5b1f01c23": {
       "normalizationVersion": 1,
       "sourceHash": "929f0d1fc62aa9da23034a2b92d55c03306b2316bea6887b4eb5a6132fc2799a",
@@ -155,6 +295,20 @@
         "costUsd": 0.000066
       }
     },
+    "bbbbd0b1423c327985c95d6b7b458d639566e1cd8d1e7663e96ff4056f98f383": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e58696addee308da20de6fc0d0d10fdada4c9aac28f4946961094a409380545",
+      "contextFingerprint": "fc7b4984ae2d6f5650e773cff217cbea381ba6068629d8e86c5ca897e1920a57",
+      "sourceText": "### 为什么 promise 要 `std::move`",
+      "translatedText": "### Why should Promise be `std::move`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "bbc0dad7a0eadaba2379a06642d5d5cc949211f2d8b2eed9b46457fb44576e5e": {
       "normalizationVersion": 1,
       "sourceHash": "138cde580cfa3c66508505e65010fa5aaf51064182edb7579888159f504eeec8",
@@ -167,6 +321,20 @@
         "inputTokens": 241,
         "outputTokens": 142,
         "costUsd": 0.000243
+      }
+    },
+    "bbc1dcc45000753bc99c94772dffa7b07cf304886a70a1781203e21cc77ef4b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7ab85840126db4f5074b7c35a56d5dc216f8ed72cb712fb5192297b45f07652",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果锁很快就会被释放，那么线程稍微自旋几次，可能比让操作系统把线程挂起、再重新唤醒的开销更低。",
+      "translatedText": "If the lock is going to be released very soon, then having the thread spin a few times may have lower overhead than having the operating system suspend the thread and then wake it up again\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 44,
+        "costUsd": 0.000101
       }
     },
     "bbcb387aa510d9144a98b298adaadb864f417b5f5f671e4c27c57f590872de09": {
@@ -279,6 +447,20 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "bbf505ba346bf1b20906ebce46e110c6b9e198b01883b335013ebd2a0dfcadc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8b5576f35db408469f7ab4d2c7060b2956952d72e11ed69824a03d5ecddd79b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "整个关系可以理解成：",
+      "translatedText": "The entire relationship can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "bbf7b3026f80507a3b932fa1f8df94c2758dd5f9544b564adae56dfadd6a4510": {

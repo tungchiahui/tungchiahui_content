@@ -15,6 +15,20 @@
         "costUsd": 0.000052
       }
     },
+    "6808174077518ab4192155c58878e051db3252b385b9128a39258ff309e074a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "aaa88fdb03cbc6e8a8d7cabb5ffe6ccb7c8f95434f489015486cd3d2081ff322",
+      "contextFingerprint": "689cf472c3dc291660053c648f9459becbb64e8fc8be4dc1cfe6a0d08c0d3a71",
+      "sourceText": "最后把 `wait()` 的核心记住就行：",
+      "translatedText": "Finally, just remember the core of `wait()`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "680f0262ddbbc6a79a8843d431325e7070465ae18a7662cfb3b13753cde7c418": {
       "normalizationVersion": 1,
       "sourceHash": "6a5b218d1dfda3b4c21bd8dbb95aea31305022cf66007410ab65f17d599d83fd",
@@ -83,6 +97,20 @@
         "inputTokens": 133,
         "outputTokens": 15,
         "costUsd": 0.000058
+      }
+    },
+    "683405019589ccc78ddb1f6ca9b67ed20321eae7f193cb50291900841533f123": {
+      "normalizationVersion": 1,
+      "sourceHash": "cff0df6ef318830a5164eeda4339d8ddb9d14c288a0509eb609638ce1689f265",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此这里不需要再写：",
+      "translatedText": "Therefore, there is no need to write here:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "68432067090700b70aaa0b03fa55f62962e0d4fe3f8b20a7c14afe59243772f8": {
@@ -155,6 +183,34 @@
         "costUsd": 0.000149
       }
     },
+    "685d35d666c0f6bfe93c580897a9b3011ba122f455ff22a7014aac47355fada9": {
+      "normalizationVersion": 1,
+      "sourceHash": "63382be1d3f61eacb4607d0bfac9e2e7490af08525961b05cb08cbdfe885d14b",
+      "contextFingerprint": "0c387bab0e7ca8779c109e758bfe32d780f5bff48dd5b0eaa67eb61262d4af08",
+      "sourceText": "即使 `jthread` 析构时自动：",
+      "translatedText": "Even if `jthread` automatic at destruction:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "686fb5ecf65ae5319a6e260fc456b30b102efe6aa39334540314f6ab89c82386": {
+      "normalizationVersion": 1,
+      "sourceHash": "18e31f7d2852a1dcfcbce2d2b6d4c74bf568679709570848e9baf71b256114f5",
+      "contextFingerprint": "976a417bf87e6d5213258c14989f1260860d97c962a97421d1a33eb3bdbed85e",
+      "sourceText": "1. 看懂 Boost.Asio 官方 timer / TCP / UDP 教程；\n2. 能用 `std::bind` 写普通函数回调、成员函数回调；\n3. 能解释 `io_context.run()` 的阻塞和返回条件；\n4. 能写串口异步读取下位机数据；\n5. 能写 TCP client / server；\n6. 能写 UDP sender / receiver / echo server；\n7. 能把 Asio 通信模块封装成一个类；\n8. 能把通信模块接进 ROS2 节点，而不是在 ROS2 回调里写阻塞死循环。",
+      "translatedText": "1. Understand the official timer / TCP / UDP tutorials for Boost.Asio;\n2. Be able to write ordinary function callbacks and member function callbacks using `std::bind`;\n3. Be able to explain the blocking and return conditions of `io_context.run()`;\n4. Be able to write asynchronous serial reading of data from a lower\\-level device;\n5. Be able to write a TCP client / server;\n6. Be able to write a UDP sender / receiver / echo server;\n7. Be able to encapsulate the Asio communication module into a class;\n8. Be able to integrate the communication module into a ROS2 node, instead of writing a blocking infinite loop inside a ROS2 callback\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 255,
+        "outputTokens": 156,
+        "costUsd": 0.000264
+      }
+    },
     "6872a7f6500bec586dc7f5e8795970b980f68d52c7658293ff0d340160d12c99": {
       "normalizationVersion": 1,
       "sourceHash": "3933f7ef3f2b897648d9a50df29dd034048db7fd2a5d99622c0c694c33216d96",
@@ -169,6 +225,20 @@
         "costUsd": 0.0001
       }
     },
+    "6875406a182d474c4f93e13abf397d57b57801497272667d05b3ce8b6071bff6": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5b6b9776e8589fa13137b3ff342aa91b4b3cb44beffd2495092b2c326ffb7ab",
+      "contextFingerprint": "46edb3c2e2b9e4bda53dc460442ca25d5f067919d1def3364323bf4f93b5105e",
+      "sourceText": "扫描目录时，遇到目录、权限不足、符号链接异常都很常见。用 `error_code` 可以让程序跳过坏项继续跑，而不是第一个失败就退出。",
+      "translatedText": "When scanning directories, encountering directories, insufficient permissions, and abnormal symbolic links is very common\\. Use `error_code` to allow the program to skip bad entries and continue running, rather than exiting on the first failure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
     "688c30cf70400efd6015d1facba2f9653ffd2207bcec3f52901cc0e4a3efcf10": {
       "normalizationVersion": 1,
       "sourceHash": "f98051b2dc5a450cc18a541e48e663d5782ebcd0f139f55cc178ecf2f177af76",
@@ -181,6 +251,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "688de68a9ad51c786bcef6d17ead3d8d9da6d81a42011549b51aab2a9cf9730f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc8ae993fb87ec9b43b785ce23b27f32c133b31d98e131d1cb139fd8abcd5b7b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **一个“未来结果”的读取端。**",
+      "translatedText": "> **A read end for a “future result”\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "688f542770495bdca9a9a7bd2d1a15b451041741871ef6394b7e4900f761c4be": {
@@ -321,6 +405,48 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "68deb35abcbb6f3dfba351ed2913f6b08ca9f2774eb5aea76ffc63f3960ed6fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "68d1ac6ce0f2b736d87dd0080eeb76fed3b7221e99c381dd3cc5fa1348752369",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先看这个过程：",
+      "translatedText": "First, look at this process:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "68ee30c48059be6e9eba73e0266e660e6a8031414854e0e1946df23a25efdb22": {
+      "normalizationVersion": 1,
+      "sourceHash": "379b99843ead32c380603d6e555a1fe8d26559cdf06612f6285e7c44e11faaf1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用选择：",
+      "translatedText": "Common choices:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "68f8b2c60bd5a1161459cda1fa15c6a32134a37e8aff042e4a0ee030f8998b17": {
+      "normalizationVersion": 1,
+      "sourceHash": "3301dd89573e2b7b4fefed435ae8dd5860caf8255aabafad4f684bb8bf287bc7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "与此同时：",
+      "translatedText": "Meanwhile:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "68fce4734df68a864681d59b7ea859b6eaa3132e2750bc882c57500247bf402e": {

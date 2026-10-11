@@ -15,6 +15,48 @@
         "costUsd": 0.000054
       }
     },
+    "0d1bdb91b8599ab4d1a343881d479e6a5fb7b59b5f0ad5612f05b4e6b2fea699": {
+      "normalizationVersion": 1,
+      "sourceHash": "124e9fa47dc22e82c02ffda6b37401af7a54de33fddd0b721fdb56752e212951",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "错误命令：",
+      "translatedText": "Error command:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0d1c0349b8ebcd45c8e884e5b1b726e557602fff5ea84bead4871fb9aa428699": {
+      "normalizationVersion": 1,
+      "sourceHash": "52bdf8b90d5fd83a42ab9b7697b66aef2ccffe75768c2305c49782898fa06e22",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把前面的异步串口读取和协议解析器组合起来：",
+      "translatedText": "Combine the preceding asynchronous serial port reading with the protocol parser:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "0d1cf14c20a9a4c77634e33cf2952b59145b328f57a957c852a80c37c29fd039": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b5b9a7af7dca870d1a2b78ced5b6aa20c16b08e760fa8ae01384358a7008734",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么 wait() 睡眠时必须释放 mutex",
+      "translatedText": "### Why must the mutex be released when wait() sleeps?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "0d1d4b7d760a59e3cfae507dc281ffe86d18c223cd22510ddba65665d69524ac": {
       "normalizationVersion": 1,
       "sourceHash": "d6666e25829a12244dd2ba81f37c0b2d8b2500f1be991bf8ff01a54e0fcf63a2",
@@ -57,6 +99,20 @@
         "costUsd": 0.000072
       }
     },
+    "0d30734e55747c38e3340903af77e3b971452c14b15853f146be0881aab6b77b": {
+      "normalizationVersion": 1,
+      "sourceHash": "24c0f795219f22622af91a958d9d75c2910a6c4887b8b7e86ef3967b6a7e7551",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表示实际完成传输的字节数。",
+      "translatedText": "Indicates the number of bytes actually transmitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "0d318b1c8e7c65fb291ca08e0244bf1e4d3352e63320bfd0ffb7bdea15dcf976": {
       "normalizationVersion": 1,
       "sourceHash": "0fa2a0433aa49ca1a2410302164a488227162c0802f27b87c5320d78339993d7",
@@ -71,6 +127,20 @@
         "costUsd": 0.000054
       }
     },
+    "0d31c1f427f562b9dac03cbbe9e1d5dec451cb30952ecf0809c50016b5ffba5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "36804762e71f2d72ce65829bb127c0e531245a0e688f8d7c943d85b6e9b6ef28",
+      "contextFingerprint": "fd8025eb214344566efdebc57650fe69c14851b98259361a767d087223a8c152",
+      "sourceText": "`std::latch`：",
+      "translatedText": "`std::latch`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0d5bba38fdd238f75b1526f131058ae655be09a2a5678bf5b64a796a100660cb": {
       "normalizationVersion": 1,
       "sourceHash": "1db22d27fa12e696a12de032ba660ea0587b38512f4e197c1c741ce6fc88994c",
@@ -83,6 +153,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "0d5c1026631a614006c3f9e20c0f385eae757578e5901e17f87dfda1e561fc10": {
+      "normalizationVersion": 1,
+      "sourceHash": "20b3dcdc327184fbd6b2aba697ece8eed98598241ec9766d70bb8e4ca042da5e",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 把一段连续内存包装成“地址 + 长度”的 Asio buffer，并不会复制或拥有这段数据。",
+      "translatedText": "> Wrapping a contiguous block of memory as an Asio buffer of \"address \\+ length\" does not copy or own that data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
       }
     },
     "0d62b57f8bf2548f908596fcf5bb62ef9eaf6d2324893818037c0e2f7b21d476": {
@@ -111,6 +195,20 @@
         "inputTokens": 150,
         "outputTokens": 33,
         "costUsd": 0.000085
+      }
+    },
+    "0d7749c6ac3968d8c422255e3545af25edd6ef152170cdc84ab19a8c03c7a1ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "454d06126e7f3ac0e8b55c7e29b0ef9f998ee975596002a65de8047e8f1c533b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常更适合使用：",
+      "translatedText": "It is usually more appropriate to use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "0d77f20f103f7fccf9946871ff567ec025a9ac207b34b10020603e0745029839": {
@@ -251,6 +349,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0dd06fcc3d981c157137483567e2af7670200c960d708cc8fe212265f1fab543": {
+      "normalizationVersion": 1,
+      "sourceHash": "3516d358bea7b79e0ff4f7b45e4c8352bd9ddb2aa4b2e9d20f4392727b3b6500",
+      "contextFingerprint": "4009c6e4d66084181c0f58b2f62102b869b4b92fe715b408043c7aad9b0c4fdd",
+      "sourceText": "`timer->async_wait(std::bind(repeat_timer,std::placeholders::_1,timer,count));`决定了到期以后执行谁。",
+      "translatedText": "`timer->async_wait(std::bind(repeat_timer,std::placeholders::_1,timer,count));`It determines who will be executed after expiration\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "0dfa3854a90d5ea7635d8dfb408f86f79dc890b90e58d7cda2abb0039d81008e": {

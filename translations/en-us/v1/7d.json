@@ -29,6 +29,20 @@
         "costUsd": 0.000099
       }
     },
+    "7d0e6a1837987ac68bbce84e91fe7d1160c8646b3fbca44e0e4fb27591d367b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "736dfb324b753df69a098b1f46fd7b31cef12ff138e1a92d2195a26af2a54720",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回。",
+      "translatedText": "Return\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "7d15bd1bd2d92e42834d9eb90d4e5b06c34a0340755f40a867debc2d16103ffb": {
       "normalizationVersion": 1,
       "sourceHash": "3bfa78458178939390a62dd9352f1cbd4e8d88e75efcea198a9ea49b3f1b6d20",
@@ -41,6 +55,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "7d16118b651ea9bf988b76260aee9d5523b83bff2750c4d4fdb5d7580232e91d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d62f5fbd34a7a0d6d612620adb636110568e8975b35ab13b24f46e5c07b26e7f",
+      "contextFingerprint": "4932b9076fbfaae018d8c54548edf380b98f1bfe87d2daa6737712ffd83a8abc",
+      "sourceText": "### 为什么要使用 `post()`？",
+      "translatedText": "### Why use `post()`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "7d1b701056987f4a2e01a870534f3ea8d14e4adc2e5c8b9307c5531d493b3012": {
@@ -57,6 +85,20 @@
         "costUsd": 0.000056
       }
     },
+    "7d25659222737be6f1183a3bbd1137d587f57090ebd88fb4348ebae888b7c76a": {
+      "normalizationVersion": 1,
+      "sourceHash": "10f152bd258d3aa8886503ed495058e359179cb3d0387c61a5600d20606b0652",
+      "contextFingerprint": "dd916833f068bc8cddd288c9cfb2de1d4c7b485e5101b3704a0f29fd6e629232",
+      "sourceText": "作用：把 `buffer` 对应的连续内存包装成 Asio 可以使用的 buffer。",
+      "translatedText": "Purpose: Wrap the contiguous memory corresponding to `buffer` into a buffer usable by Asio\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "7d263e1d634334f4b5051b1e83727b1c98496b7888327e89ed970aed9639f3a6": {
       "normalizationVersion": 1,
       "sourceHash": "5f92676d61398ee81f3ad689f1bf30d4d1eebab82ebc312269bf5239d0155de5",
@@ -69,6 +111,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7d2f4e3896e8eb3e0eef92e6bfe0b5143dcd110a38372a588f895ce3ce97287c": {
+      "normalizationVersion": 1,
+      "sourceHash": "045b54961c759cdc558d6d53c766defa08992d166ae820541db6c14ad82f0f37",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：启动串口驱动，尝试按配置打开设备，并开始异步接收。收到字节后调用接收回调。",
+      "translatedText": "Function: Starts the serial port driver, attempts to open the device according to the configuration, and begins asynchronous reception\\. After bytes are received, the reception callback is invoked\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "7d3001b454fd313a3bd1398e88d94d165b9c64d279a5493c86210420c8b64761": {
@@ -113,6 +169,20 @@
         "costUsd": 0.00029
       }
     },
+    "7d489152f8f69065ca1546c589baeb00f1921c19867f26ef5d7b4827246f7958": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7973bac57e369b175702f4a9c012e09c6789d805cfc6ec3e7d1b2537fc9ed9e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：TCP 是“字节流”，不是“消息包”。所以以后必须面对：",
+      "translatedText": "Note: TCP is a \"byte stream\", not a \"message packet\"\\. So from now on, we must face:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "7d50460d2ea33d9c32ff08452450f6521f9b7954e81464245dc1e19743c4307d": {
       "normalizationVersion": 1,
       "sourceHash": "469016844738a2024d2c24f3f5b25dc167916cb80384b350e6e41d3ac0ac30f5",
@@ -125,6 +195,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7d56d3a1882da709d8a5647d9bb36d65ff5b591cd9370fabc4d20cb16178eb80": {
+      "normalizationVersion": 1,
+      "sourceHash": "10120c4e92fe6d2704dd8d2e8f62482c3dd97798cd3aa3527f661af3784efbc2",
+      "contextFingerprint": "c4c0c51b0cb4bbe5a6e77649468491f1c6d5c2750f3e4add673c77899fd35883",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780706149481.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1780706149481.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7d657412785af8f99f969b6a65085bb88d4e2219878570f18f240bfff2fe147f": {
@@ -183,6 +267,62 @@
         "costUsd": 0.000164
       }
     },
+    "7d727e22663304bca1081a3163b76b22e21dbc9be5b13fb09a4eed9f100250be": {
+      "normalizationVersion": 1,
+      "sourceHash": "58fd2dc79975c472d652a411b1221638c18086a0bfd75aef48b8a51b28c1de8f",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "相当于告诉 `io_context`：",
+      "translatedText": "Equivalent to telling `io_context`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7d940623c314552501f9c8ce1b3ae2f40629672192369ea23c915732948bb3eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc6d40adff98ab68a136c903718e3e5aabfc75c5538df98defeeb688bbe1d771",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果不写第二个参数：",
+      "translatedText": "If the second parameter is not written:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "7d96f86c371cd3f0ab9922ad3ff86adfcef75ce87eabf59f176d393ae0c9e52b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f09ab2e81db5777b9a3a133074d7dbfcb66e2afa89aadd1de3124d24cd4a381c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "指定并行编译数量。",
+      "translatedText": "Specify the number of parallel compilations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "7d9e8855d5da4e23a5e2a3ebcf7654648d89a1e012781a24f87be0006090baec": {
+      "normalizationVersion": 1,
+      "sourceHash": "9689b7b1b0cca13e1cbd7d2249b44241a6dbcad15c7472e2b19b6cbfc6b3abce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每完成一个参与者：",
+      "translatedText": "For each completed participant:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "7da6a82c6eb8bfd6a93e4eb6b0a62a8d058102b0c8502947d72e023f23dea267": {
       "normalizationVersion": 1,
       "sourceHash": "85427450621e3f05ffd99b0495950277d6d4aa3a64516a0e00824925321398a8",
@@ -193,6 +333,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "7daf75e674e05a885415f9c3efef901a135882251e9008097e567acd48981357": {
+      "normalizationVersion": 1,
+      "sourceHash": "19d071c2346c87f5dde1767501cbc76e164056a785b8bda6f58c9c89312230cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "completion function 执行期间：",
+      "translatedText": "During execution of the completion function:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
       }
@@ -223,6 +377,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "7dbce42c3a4050c5ff8f2eab8071dcbd2932dfc58c0b6af6719aac7499580802": {
+      "normalizationVersion": 1,
+      "sourceHash": "84c9da9fff5c55494580dc96b7c44db9a70b47665c84c6100be1ca8e50b80040",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "另外几个重点：",
+      "translatedText": "A few other key points:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "7dc361c25d310bf2080ccbb4f634017a3a9dadbb04f89d89d40e1cce0ac30a1a": {
@@ -293,6 +461,20 @@
         "inputTokens": 165,
         "outputTokens": 45,
         "costUsd": 0.000104
+      }
+    },
+    "7defbe64dbfc68b9a2336a8804b3b2e22e1bf48671d61180afe3b8594fe9e900": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e5de976abd1229a9633c080c131c633b99d917010b89e796952372c0d4f70eb",
+      "contextFingerprint": "e5309a8701dd77c1abbb6c91f76eddfa15dce57c25c1d7afdaaa957ffb0afb5a",
+      "sourceText": "`boost::asio::buffer()` 通常不会复制数据，它只是生成一个“指向已有内存的 buffer 视图”。",
+      "translatedText": "`boost::asio::buffer()` It typically does not copy data; it merely generates a \"buffer view pointing to existing memory\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     }
   }

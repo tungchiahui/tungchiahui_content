@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5b02faee529a9ae9cfb51bb2274a850e92575bfba5904fdbb9a2ce624bdec320": {
+      "normalizationVersion": 1,
+      "sourceHash": "7be9c3c07f5db523a076219401874079311a0e91d887987038f1bdebe4b373d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样会永久损失一个许可。",
+      "translatedText": "This will permanently lose one license\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "5b03461b90922765af5e9c69649642df6ecc9af4b98ad7228e3243ccc93227a6": {
       "normalizationVersion": 1,
       "sourceHash": "14385a56a123ccecd6120418e8413413b4d7dadc7207b67e18a93734a0f923e1",
@@ -13,6 +27,20 @@
         "inputTokens": 207,
         "outputTokens": 96,
         "costUsd": 0.000178
+      }
+    },
+    "5b15cedd546035acdddfee9b12b16eb68e861e1544c3845e92d3091326a177c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9edf56b31774d6894aa059c17fd31ab4abd8932821dda2a4bd785c40a588dda",
+      "contextFingerprint": "d4c7263184b8fbaaa156623965bd0b575df25fc18814d02e4ab133e0b42dba21",
+      "sourceText": "`get()` 是 `future` 最重要的函数之一：",
+      "translatedText": "`get()` is `future` one of the most important functions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "5b1c2c5997c672ee928b18a3da47cb5f0a56e0b95cbb7eefabac42204df7cf1f": {
@@ -155,6 +183,48 @@
         "costUsd": 0.000064
       }
     },
+    "5b61e048822215bdcac83100753111d0b2e62ed2830c89d32bacc688c2397887": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f000229daf32859bca270f3ae610be2756c67e4ca2d082f91b331226635e04e",
+      "contextFingerprint": "3b7220da9af307fac7aec73c1a71958460771950ea15b266a2c5c08a5e63847b",
+      "sourceText": "1. 这里不是 `cmake_template` 的版本号。\n2. 如果想兼容更老的 CMake，要降低 `version`，但某些字段可能不能再用。\n3. 如果本机 CMake 很新，也不一定要用最高 preset 版本；够用即可。",
+      "translatedText": "1. This is not `cmake_template`'s version number\\.\n2. To be compatible with older CMake, lower `version`, but some fields may no longer be usable\\.\n3. If the local CMake is very new, you do not necessarily have to use the highest preset version; as long as it is sufficient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
+    "5b6c4e53bc8563724f1c234709474a4dbb5efeb070c89f4dce6291ed5918b791": {
+      "normalizationVersion": 1,
+      "sourceHash": "8184b5ca4ab493ffb35500f9b8ba48aaa1f179daafc662efe91813045c4c0e2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设得到：",
+      "translatedText": "Assume we obtain:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "5b6e561cacdaaf4a139d8b228e3be811577ec94a439fcf556fb1dc9079058d02": {
+      "normalizationVersion": 1,
+      "sourceHash": "641fbb5752efcb4f5d803e2a6fc2e44f5402635617848e0d5ee580d94143020a",
+      "contextFingerprint": "c93e1c2412f93298a04c48bdece2482ce047a11b72e55595cd849e260bfc4bf2",
+      "sourceText": "它最好是一个纯 C++ 类。这样你可以用普通 `main()` 或单元测试直接验证它。",
+      "translatedText": "It is best if it is a pure C++ class\\. In this way, you can directly verify it with a normal `main()` or unit test\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
     "5b7545f1e52ff3556a30cc8072163fb14e5e81b973019d1e90cdd472fd3646b0": {
       "normalizationVersion": 1,
       "sourceHash": "6a590c90c862d57e0b8286b74d2607e972bb7a44fc8a8c5d0ee562c2e634a2d6",
@@ -167,6 +237,34 @@
         "inputTokens": 168,
         "outputTokens": 60,
         "costUsd": 0.000123
+      }
+    },
+    "5b83d936fdc9f2357e1f31b3c0e2855cb49e6bf254a212d620da34d870d75db4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c2993c2e0fd1302d1d032b63fc3f0e92391df30f92b6cdf0ee3a6ec676b3024",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最重要的一点：",
+      "translatedText": "The most important point:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "5b89c89e3fdd8b5acbb41da47a57f869cb16b7715a11e6b96fdab297e9d3d43e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad82b6492bfc41fc491439df1ee41ae5066028c8e738d81198c1dc8ac4b5931a",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**（因目录内容而异）：",
+      "translatedText": "**Running result**(varies depending on directory contents):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "5b9203096953001e09d52fb210e4987fdc3156350a5cbc3d1a3b5f7204183fc6": {
@@ -183,6 +281,20 @@
         "costUsd": 0.000062
       }
     },
+    "5b97c4b38aee022812311e009477a8369a406845e9b3f514561cd7fbfc9ed8b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "427df9cf0d1d115d24e22ddebcd1922d37c48e4b2565a8c38a069de966acd5b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但注意：",
+      "translatedText": "But note:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "5ba362eb8aa7feb2cc36d0f1f7a9286b2045badbc36f44e43c5100a4463464cd": {
       "normalizationVersion": 1,
       "sourceHash": "238cce0cd25a0f6bda494a8a802b85dd86093078ae6d95d86ef64b6aa3d4267e",
@@ -197,6 +309,48 @@
         "costUsd": 0.000068
       }
     },
+    "5ba7a3cfc71433ea1a9a568f51217b330a3b24ecec7e7ca3d764c9b5925179fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "47d13540a59d3018aaa647c7077e17bf1175aa00b1d7514bafeacca41b54e44b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **归还一个许可。**",
+      "translatedText": "> **Return a license\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "5baac78d2289022c0aa31036e7245c1e38dda8d1db2a0a53826ba4ea6d9c43b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9246d51ec22e13b36f446abe0f48ce36819193c2a23e5bdf32fd9d01d317ef1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实现：",
+      "translatedText": "Implementation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "5bbebdf616673fae1b233c403be522181a998b21e65ecf90a5d8c3d40fbcea43": {
+      "normalizationVersion": 1,
+      "sourceHash": "c812a17b50ff4b20ea3c562d0bd7d4c5f067d537b9bdf016785a65fcf7da3dc2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接收端输出类似：",
+      "translatedText": "The receiving end outputs something like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "5bc6de94c804d96ec2156623e917501a49ac5b02c3f8b53298caa75ed3fad5c8": {
       "normalizationVersion": 1,
       "sourceHash": "2f3b0b7c81c4ad981d926eed1f5d034d3d032ba59cab1a3b732fc43fa5af229b",
@@ -209,6 +363,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "5bc90b71c570081d64e0b8f1201841efd4060872040779ee22229ffcd2a73c55": {
+      "normalizationVersion": 1,
+      "sourceHash": "d44befbe7bdc6790c04c675d3b48404ed8623366e09bf24f78a1b05c8ced5032",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要知道对方 IP 和端口，就可以：",
+      "translatedText": "As long as the other party's IP and port are known, it is possible to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 25,
+        "costUsd": 0.000072
       }
     },
     "5bcbdd343788416941eee939c5c297aed74d030802cf31b8b6cd6b1bd507de01": {
@@ -239,6 +407,20 @@
         "costUsd": 0.00007
       }
     },
+    "5bd9d6e2ef550e7dc7fd1302c16c7b6a36a7140c20e23e55afa7e88c8ca2ffdc": {
+      "normalizationVersion": 1,
+      "sourceHash": "d87b604693c5e89b12b59435d285ea680a7edf893114da7bb31805c5ca9961f3",
+      "contextFingerprint": "ae4c89d3421530fed41a2914e36465535e974105e0898e2ec326bdb155eb904e",
+      "sourceText": "Boost.Asio 提供的：",
+      "translatedText": "Boost.Asio Provided:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "5be8d3f557b77b974105250e7509a16008e1cfa8b5afb5678cb5eb8d0ff6e758": {
       "normalizationVersion": 1,
       "sourceHash": "326e842a511ee1680705b92c0ed552570fa6a5f94c4117cad5db292410fb5120",
@@ -253,6 +435,20 @@
         "costUsd": 0.000078
       }
     },
+    "5bf50229c80927c0bfe8a3b027c8544df830ab5a6bfa9bf110efb7b99fc9c14e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dfc12ad7722e3456d0960a86613a3b0046a832d6dc859f0e3d2a8e4630d6bc5",
+      "contextFingerprint": "41bd3874e1a6a840486e8644db171fc4c9b091eb7e622a012348aaa71ee5a2b9",
+      "sourceText": "### `volatile` 不能替代 `atomic`",
+      "translatedText": "### `volatile` cannot replace `atomic`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "5bfa7e922a0e180e11c86449de920518b467db1f1583100c14373a4d4bbe028c": {
       "normalizationVersion": 1,
       "sourceHash": "0006e4385a727ae6e23ba38bb970a5444d1952d7e7c24aca062a6307837bf69d",
@@ -265,6 +461,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "5bfc8cda8e23e55f9de110a7fabe258bd83443da4f5a0b027d2b74d5dfca1112": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3e74268db57ed6a005c6b5594a7010b8a95bea050f4cf5e716d2f2b3624b275",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并不关心你到底在等几个条件。",
+      "translatedText": "It does not care how many conditions you are actually waiting for\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     }
   }

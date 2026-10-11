@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b508cc5c6696bce44729620e5ebcefd2cb26902b7e7c1b7ef38084a472dfad52": {
+      "normalizationVersion": 1,
+      "sourceHash": "0135a86458b21bb96e2d29caeb404e28db7ad4e83775218f520b7628bfb8ae1c",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **你自己决定什么时候写结果。**",
+      "translatedText": "> **You decide when to write the result\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "b51e870e8a58e9a684f5e3b47cb4a5a7de31b49d4fbde686ea54b7843538315c": {
+      "normalizationVersion": 1,
+      "sourceHash": "016e9665170cf41c4a143e502c79858be1b746658c14ed0cfd6c6d52bfd5a750",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正表达的是：",
+      "translatedText": "What is truly expressed is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "b522d8aac63e8ae7a601f584934a3591a6e9fb1459aca6bcc952c20d76cc2362": {
       "normalizationVersion": 1,
       "sourceHash": "f46a1016ce4f86502cd220c9254ad92043b46e6fed7cdbd9834ce8c595e889cb",
@@ -15,6 +43,20 @@
         "costUsd": 0.000216
       }
     },
+    "b52de8e0e2c63591502a1ca56d40b855b4f468a7e32662c7cadf3e3f2c762ca8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7fa208bc01dd7ff6f1f9601174f8f0d19662b2ec0cd5bbd564338116e6bbd7e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一句：",
+      "translatedText": "This sentence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b52ec39dfc231d6e5e6089088b5fe0cd9610590232f464bafa4d3cce32f3fa8f": {
       "normalizationVersion": 1,
       "sourceHash": "111a975d22cd46d836157dcdbd9e745775e186bf60ef33c9ec2ab7db449f384b",
@@ -27,6 +69,20 @@
         "inputTokens": 149,
         "outputTokens": 28,
         "costUsd": 0.000079
+      }
+    },
+    "b53c0ee2c7fd00edf896889c3ac2d27d2a6c3a7cef1158a3d0df9ed5a68bee2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f176bd99a0b64725655cb642683e0bb730c69bef686be7a6dbed183947ceac06",
+      "contextFingerprint": "77cfaae5e2dae623ede617c6d0b83dc67a5e6215b460e54018a45da3873d85be",
+      "sourceText": "### `arrive_and_drop()`",
+      "translatedText": "### `arrive_and_drop()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b53c49a57e6594ecd41eb0e05e2d578e9c416ca5236f534e393fcd1ae05e30ab": {
@@ -85,6 +141,20 @@
         "costUsd": 0.000123
       }
     },
+    "b55bb5bd18bd37709d5deedc07b43cb5ce3ed9aba0e0beecba4acf5c0210de18": {
+      "normalizationVersion": 1,
+      "sourceHash": "28658ebd4c07b3319d1912dd1fc5d68e21bab2bf6e0cd6fe64e823de62254de4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 1：运行服务端。",
+      "translatedText": "Terminal 1: Run the server\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "b562097c35b0763ee0804a6596dfc5af7d912c2af6ae614c234e1b3036f23d53": {
       "normalizationVersion": 1,
       "sourceHash": "5bf5b1788c0b0770c9d2cf6cbe360a36e9d2e5ee66827cdb9af4bb916ff19d3f",
@@ -113,6 +183,34 @@
         "costUsd": 0.000051
       }
     },
+    "b574e6860c8b7994e6dfa2cbb1a38833157eeb476367f990872929471bda32a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4991fac36084061e1167ce09650c2f1db9e637efe55deb10eb1c2e96c6a48a5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程通常会先完成当前这一小块工作，然后回到循环条件：",
+      "translatedText": "A thread will usually finish the current small chunk of work first, then return to the loop condition:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "b584aa6d145b2dc73e6a8cbcbb9fe009c0118e693f46f5bda11b3f3f63bb5c45": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a6636645eddd35641b999bb41579fa74a239a5a46fdc163df23dbeafe6099eb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把 packaged task 交给线程执行：",
+      "translatedText": "You can hand a packaged task to a thread for execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "b588e8aefc5dbffe4408a6b008b8f7325643b05192b77ef082b39fba706ab698": {
       "normalizationVersion": 1,
       "sourceHash": "70c0c5e0e0a4fbcffdf31dc9f81b537e97a09a9ad7c63012ab1ae5dcc6385142",
@@ -127,6 +225,20 @@
         "costUsd": 0.000062
       }
     },
+    "b58bb81b93ecd5652fb5928f742c693b988555d21668e1f19bcf974b161ac183": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7051b72b44e2738be3389c069f01c074c45f4627bd987f5f9047d9349290c8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "文中的\"常见错误\"用于说明不要这样写。为了避免误复制，错误写法会尽量放在文字说明或短片段中，不当作可运行示例。",
+      "translatedText": "The \"common mistakes\" in the text are used to explain what not to write\\. To avoid accidental copying, incorrect forms will be placed as much as possible in textual explanations or short fragments, and not treated as runnable examples\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 53,
+        "costUsd": 0.000113
+      }
+    },
     "b5998f6f2ed23c71c3cff1fb32caba7a942d573893a0a991ab9932e7cd2d9fc1": {
       "normalizationVersion": 1,
       "sourceHash": "d6321c38e9ecf481a3f680e18e93c7bdfb074ef2ecccad94b972c68c67e9f0c4",
@@ -139,6 +251,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b59b61391aade8f73916df5e548d49257ac892c78f2cc33cfd1cfd992c3cd712": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc38d2b2b046f45fd0bb7a76c6407b5d7ad45317b8b098c33894033d22528448",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此所有 Asio handler：",
+      "translatedText": "Therefore all Asio handlers:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "b59bb6d7e88c96eeb1147beb6c3cd2d285ea5922300c89ba2ba024c829bc4819": {
+      "normalizationVersion": 1,
+      "sourceHash": "56ccf1983f4c95afd863672ed9c74129c4c3e2b3fe7803ea6409d4f0ad145d46",
+      "contextFingerprint": "3bd9e5f2da047094f021c60ca4753789b7428f030b329faddd101f3c40dcbbd2",
+      "sourceText": "### `future::wait()`",
+      "translatedText": "### `future::wait()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b5a31e7e6296383489d6e3e219b5f44d07ab9de8637f1c3673060bebe006d11b": {
@@ -169,6 +309,34 @@
         "costUsd": 0.000052
       }
     },
+    "b5d0e449b9def23fa7aa5d473ab03f64dff686ecae3287dfa611fe3d75b689c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8009e60870b85ee329ebc9a8ec19408f068cd8b57b97e649abcc1087c2cc7d2b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **一次性的取件凭证。**",
+      "translatedText": "> **A one\\-time pickup credential\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "b5d82a6bde829f2c99cfb9006398d3eee7e6274fbc2198d32db0a190b524c0c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c7a53d9ca32ee4e43d165928d7cdfae0f076ddd8d535db5554a4fb3c6dfe1d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但通常：",
+      "translatedText": "But usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b5e00f9263a8580acd0149f68a83d6d2a91904e288cc0f73bd4fe1c5810e1b7b": {
       "normalizationVersion": 1,
       "sourceHash": "160ce3d779e4354605b4cef3079cb1d942e5a4c9a5e5aff7dbcd65d5d514e5fb",
@@ -183,6 +351,20 @@
         "costUsd": 0
       }
     },
+    "b5e06b3a45dce25794440de9e8bb3e9970d681a7fb67b4031e17693f5c39c093": {
+      "normalizationVersion": 1,
+      "sourceHash": "12a092b19bd505c29925f23751cac15c0e60cd5071a4f94674f6021915b194a9",
+      "contextFingerprint": "290cff5f4038579b3b83a0d3f820b4b6de2ae5a8ce761562db07007cd156bc2b",
+      "sourceText": "### 为什么 wait() 要配合 `std::unique_lock`",
+      "translatedText": "### Why must wait() be used with `std::unique_lock`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "b5e95bb09faaa80d871da157a45e8b821b254620febeace3b8cd12a596e2aaed": {
       "normalizationVersion": 1,
       "sourceHash": "d81e8f45889ee59a8737943c726474968abbfd505de11f6c58072116c00fea1c",
@@ -195,6 +377,20 @@
         "inputTokens": 157,
         "outputTokens": 51,
         "costUsd": 0.000109
+      }
+    },
+    "b5ef87568cd4dbbcf03d61a9843f73200cf03237cbd1ff729f6eb1498298b12e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f9543e093ef8a186d4981c994c6b8a31fb647841c88ad17c438e989bd91b510",
+      "contextFingerprint": "8307fb77d9a7855ebe3da87259e1864d428dc5f9db8d62914f22499da46ba662",
+      "sourceText": "如果 `expected` 不匹配：",
+      "translatedText": "If `expected` does not match:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "b5f7566323f488dcb5e29ddcb44c2c81f694036e208e61ab4b01350ca6166284": {
@@ -223,6 +419,20 @@
         "inputTokens": 155,
         "outputTokens": 36,
         "costUsd": 0.00009
+      }
+    },
+    "b5fbd0d9ad27dc7ccd6f7dd48505348e48b7579dab9947ea99c1982ebbf57c32": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0a62ab79c1f3651c670702319a7ef3a8825cc96cc6761cf1f9adcf40f016c94",
+      "contextFingerprint": "4af9b4f24d423e315dcdcd1bd109af7f6a6c27293241e6e2153095d32dbbb446",
+      "sourceText": "### `boost::asio::buffer()` 可以接收哪些类型",
+      "translatedText": "### `boost::asio::buffer()`What types can be received",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

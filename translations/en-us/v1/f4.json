@@ -29,6 +29,20 @@
         "costUsd": 0.000074
       }
     },
+    "f4199b2e0a2c8632aa363ea8b976749d8c71eea42afd9a39e601f7ec8e06d32c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fc11668667176fd511a58d751891c9163f709d6764478cd0e85926629bd2f40",
+      "contextFingerprint": "ae56afec581945015b179a3179ac6ac0d6e2e511aa1736e0424b4b1887c13d27",
+      "sourceText": "| 写法 | 优点 | 适合场景 |\n|:---|:---|:---|\n| 抛异常版本 | 代码短，失败自动中断 | 文件理应存在，失败就是异常 |\n| `error_code` 版本 | 不抛异常，便于继续处理 | 扫描大量文件、权限不确定、允许跳过失败项 |",
+      "translatedText": "| Writing style | Advantages | Suitable scenarios |\n|:---|:---|:---|\n| Exception\\-throwing version | Code is shorter, automatically interrupts on failure | The file should exist; failure is an exception |\n| `error_code` version | Does not throw exceptions, making it easier to continue processing | Scanning a large number of files, uncertain permissions, allowing failed items to be skipped |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 72,
+        "costUsd": 0.00014
+      }
+    },
     "f430577e5989a72af52c5c3dc2fad9916185bcb0af2ff3f8af381f178523ba4c": {
       "normalizationVersion": 1,
       "sourceHash": "21f661d23f098e58107c55f077d67dce46f09b2410c38307e15e50d7997abe7f",
@@ -55,6 +69,20 @@
         "inputTokens": 152,
         "outputTokens": 33,
         "costUsd": 0.000086
+      }
+    },
+    "f439a95d3acdacf1a51c688556450836377cd555a91b9fcd71b874e6990830a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3b58a0c25ec2ee2be72bd098d9798556bce64bb820a0e6ea713a6d7ed401452",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但它们还有一个更重要的语义区别：",
+      "translatedText": "However, they also have a more important semantic distinction:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "f43aa06cdc3971dbc6b9bccdf00c20efcea1a093d0c264f05bf1d0e9fddf56d5": {
@@ -97,6 +125,34 @@
         "inputTokens": 228,
         "outputTokens": 133,
         "costUsd": 0.000228
+      }
+    },
+    "f477afa5c4a677294a042b4c3ef5070501445641dd551a1a768298c0eefacc60": {
+      "normalizationVersion": 1,
+      "sourceHash": "556f17f03e84d3f01f68db18793fae302b8bf412d24983bafb7c43da567ed568",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> “结果生产端已经断了，不会再有正常结果了。”",
+      "translatedText": "> \"As a result, the production end has already been cut off; there will be no more normal results\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
+    "f481c8ad647153d8a7bc368ca949a9717426382194071c5136c7cc5df16dde5f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bec972bff63575a685d7a8ca015dca3874fd46d7077d4ddc7c1899af5408236e",
+      "contextFingerprint": "63cfb87c54e8b94381f6b286357e94cdda17124541c35be0040cc3acf1be2553",
+      "sourceText": "`io.run()` 不是永远阻塞。它阻塞的前提是：",
+      "translatedText": "`io.run()` It does not block forever\\. The precondition for it to block is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "f4823b8294f9b73e1593f5c3d933141fbc25c644b32cb600eda120a2f8963c26": {
@@ -155,6 +211,20 @@
         "costUsd": 0.000094
       }
     },
+    "f4b0eb918bf0fc549d8c2480b29d1aa755eadbf6a1e01e89268c0b5134a24307": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ebaf72f143fd2579433a725f022ca771d992b1fe12c24a9b11e429fe66b8986",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但不建议在 callback 里面做：",
+      "translatedText": "However, it is not recommended to do the following inside the callback:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "f4b9236ba16f5b58704114f2031390cb9188acaecd1a63609cd25287b05fc825": {
       "normalizationVersion": 1,
       "sourceHash": "8af531a23522eb7e6dc659c6b0d44292b89838e2b98b3d4607b1741808a73959",
@@ -197,6 +267,20 @@
         "costUsd": 0.000074
       }
     },
+    "f4d4a2486d83a9dbe1ff5c70aea22962d08c65f38fa9c7fbf4b6546b59f464a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "cacd8c1c342b7a503b1249c8bcc4d39365d36a27b874015b46e1248d686f0429",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "监听终端输出：",
+      "translatedText": "Monitor terminal output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "f4f49061ed0af4713c0e739282718185d2df416ea5bf429e24ece85a993c64a2": {
       "normalizationVersion": 1,
       "sourceHash": "65994f657effc158ffaa8600e5516aec1095f956d9eb67118e5ba1bb1e002cc3",
@@ -209,6 +293,20 @@
         "inputTokens": 137,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "f4f5097af89043ad015c80db8731a12b5542269a0ec3e593662c4111bac60f82": {
+      "normalizationVersion": 1,
+      "sourceHash": "c05618e76f489dab2427a9b12ab7a3856f8c335d070efe584ebb7f683aacf4e0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "安装命令需要传入构建目录，因为安装规则是在 configure 阶段生成到构建目录里的。",
+      "translatedText": "The install command requires passing in the build directory, because the install rules are generated into the build directory during the configure stage\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
       }
     },
     "f4f8b28472b5f8bdf26c8901881ca6d4fb9d7f9a6b83cf3647474c7f60759588": {

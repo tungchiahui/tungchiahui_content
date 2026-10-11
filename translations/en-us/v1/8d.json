@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "8d0bd5fc31ef9e4f8e573557043dd1e01a1ddd0475c04e4e98bfa639c21e11d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "49d13f2f84d254d07db45d43b848e27b7bc0c7ea5ab2fce64c36c5c4da3ffdd3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把：",
+      "translatedText": "Handle:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "8d1945ee4b307a71d8771dfbd3e68f406ae8f70211df1e919c8c153a0f592ea6": {
       "normalizationVersion": 1,
       "sourceHash": "0f3b4fb48993e2719e33645bb89aed34c0fc9ab279fce3d335fda287e9f968f0",
@@ -41,6 +55,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8d632cf746316d58b3bc413a648d1299ea79bde7397336a412fbc2d765b89944": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a04a1800f35f3beee5edcef95dbd3c5dd3483eba289f489b3e3f4ff1348f752",
+      "contextFingerprint": "34085964c475fba9cc7f6e733fd4dd680fa3c3be0365a60ddee3635c3a1e3d80",
+      "sourceText": "如果同时安装了 Microsoft C/C++ 扩展，并且编辑器出现两套重复的错误\n提示，可以保留该扩展提供的 GDB 调试功能，同时关闭它的 IntelliSense，\n让 clangd 独立负责代码分析。这属于个人 VSCode 设置，不需要写入 CMake\n模板。",
+      "translatedText": "If the Microsoft C/C\\+\\+ extension is also installed and the editor shows two duplicate sets of error prompts, you can keep the GDB debugging functionality provided by the extension while disabling its IntelliSense, letting clangd handle code analysis independently\\. This is a personal VSCode setting and does not need to be written into the CMake template\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 90,
+        "costUsd": 0.000169
+      }
+    },
+    "8d73fd69348a3b3bd7d1d0ec7c2e72b97a72138f4ffde9970016003f71ff3fad": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca05bb6c721247ddd21719dca38f04db005b7bba4f74581fbbb637e6d78d0fde",
+      "contextFingerprint": "629a156a8d910f86c479bc2bf5a06949f00a3a81b4941575feebb36a35b27d4f",
+      "sourceText": "### `std::thread` 里的 `std::bind`",
+      "translatedText": "### `std::thread` in `std::bind`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "8d86b66843aee89599ef46aaec420b6c5109cbce0178478b3950d4f22aa5b978": {
+      "normalizationVersion": 1,
+      "sourceHash": "1aafc5dbb9f38461b024e0a50c1b1efb0057272bb371982759810dd41a9295b0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都会变成：",
+      "translatedText": "will all become:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "8d88a1a5f9786131177b80a113866faeaca2aa70ff4c5c52453116ad32c366f1": {
@@ -85,6 +141,20 @@
         "costUsd": 0.000059
       }
     },
+    "8da7dad7079c6f264208114304419eda6d138e31e46254f7d72f7c5b6b29bb77": {
+      "normalizationVersion": 1,
+      "sourceHash": "1427fce53fdc1dc3b9c54f16eaf04772ed5701f1a036de94c1b5147a211ee726",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前三次可以直接成功。",
+      "translatedText": "The first three attempts can succeed directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "8dabeefff5b70851a18858d66cf48cfca09f5d0cb4bf6a7dbd020788d2627eb4": {
       "normalizationVersion": 1,
       "sourceHash": "30fd65abc5fc814462d6e0a312864dbbe23d49541b3d7bb8017ce10c0401ad62",
@@ -113,6 +183,34 @@
         "costUsd": 0.000052
       }
     },
+    "8dbb9aad1c9467852cda25088971e08dbe28da63e9b04d779ca73c33e9176bb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2c5a61b56981c67581c2bce2fa26b04f5c58f29f62b124bddf25ce36235671d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它们不会并发执行。",
+      "translatedText": "So they do not execute concurrently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "8dc561c65f1915416fa74027b0793ed1ec01fb13ecde15c6479df1fb40ea8ed5": {
+      "normalizationVersion": 1,
+      "sourceHash": "908db53dc83cd02f305f7b4ab021dfe184e22cf7fb8e19aac5eb22fedbc15ad8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "分别表示：",
+      "translatedText": "Respectively represent:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "8dceb911c610a576a98f58e4a6bbdbcd73ffa1543382c8a36fe3b81866b1cd2d": {
       "normalizationVersion": 1,
       "sourceHash": "4a55567ac4251be9d77907a13147bc0663b9d91680e2fc26b2232804f2096375",
@@ -125,6 +223,48 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "8dd35b4a6f7a67b5a455af306901de7878f370428ec1eb6ee85c06cf565956f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc15473431752f6f25b55e5c45d56e750addd30b503f83656012a5cec709fcb7",
+      "contextFingerprint": "0b8a2d515add53aadfdcc682a44fb31601b6f90da25674e303fec5afe7dd6fc1",
+      "sourceText": "## `std::packaged_task`",
+      "translatedText": "## `std::packaged_task`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "8dd5034c59255de4d69caa491d66a02b48db0d800732a04d6e27c7293cedf7fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "96cdf3e5da52acfad51547f49275a61cbd6891d96ab5fcd6e1add9316a6b9924",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行到最后都会再次：",
+      "translatedText": "At the end of execution, it will again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "8dd871f34e5d21958ba7e7c81eaab3c6cbf794520b9728ad63c3aacd54af9170": {
+      "normalizationVersion": 1,
+      "sourceHash": "268a83c34ea3e6d9411397dc4ea9f9272f059740c95f62e7c3a274945b6a5fa1",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 对这个对象的原子操作具有标准规定的线程安全语义。",
+      "translatedText": "> Atomic operations on this object have thread\\-safety semantics specified by the standard\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "8dda69421bbb595bce8681280b37d8a1afeead3c36cc347adb58ab5e6e103545": {

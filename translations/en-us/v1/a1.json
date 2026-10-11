@@ -15,6 +15,48 @@
         "costUsd": 0.000052
       }
     },
+    "a107627eab1a8926e53abc6a6c611f4e7787e97499539305eb5c48bfee55cacc": {
+      "normalizationVersion": 1,
+      "sourceHash": "9309070ded140cc875ed846b00a1426a9dd184bef6e56ccad722414fb65a0692",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个占位符：",
+      "translatedText": "Two placeholders:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a10cc01047fce155577901849e3a537e26a3bd58fb5a5f6954194719b340ef72": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab654034639544d685c01bb8fed4d61271c96eb98a430bde15c4552ecc374890",
+      "contextFingerprint": "a6e0c8bf23320cb04c73d66c8bc839807f1cc90fdcefe04db69ae23e9b96c594",
+      "sourceText": "`counting_semaphore` 常见于：",
+      "translatedText": "`counting_semaphore` Commonly seen in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a1182858e01eddae1d101ee236bcc5a58b38c692beda0b5b64e0985437ad7116": {
+      "normalizationVersion": 1,
+      "sourceHash": "24a562d12170ba499c18aae69c64a86a7b426a5e81b9057a0c3107b0f2850490",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样两个线程就可能同时进入临界区。",
+      "translatedText": "In this way, two threads may enter the critical section simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "a118e77f96a8876a1175e74f3591fd86b19adb13696d0e2c1db23813d59faafe": {
       "normalizationVersion": 1,
       "sourceHash": "2d08114d5fd86aed3d60e53fc9264f5ee33126e8b9c27fce7bbe2575a31d6636",
@@ -43,6 +85,76 @@
         "costUsd": 0.000054
       }
     },
+    "a13226d953405fc691a5c9215d01fe66b178582b483e490f6972d13259a9f5a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e1489cbbbb99b1a9d0a5961602741cde66906b32578db920a16be64ea8d4e5a",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 第二步：接入 C++ 构建文件",
+      "translatedText": "### Step 2: Access C++ to build the file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "a132a6661a2a1b094e1b66b4a89ecf49992689b5e2427f5ec14e161daa976833": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9171a268897671cc1b5c7c2ff3401fa5bc8b8ada138f80558a20fff8915f45c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为只有主线程调用了：",
+      "translatedText": "Because only the main thread called:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "a133cb871626e45a55f8cef73d7849cb15ebdd711348cf33a43f4f8440579ccb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7b0171c7ac937a8782f7c6a925a07d18894199ebb821d5f3af318a027b8746d",
+      "contextFingerprint": "b87df0517f951ab49bed05afb9318c934983417381942be3b3bc80ca91d834a8",
+      "sourceText": "> **在这个 `io_context` 上额外建立一条“串行执行通道”。**",
+      "translatedText": "> **On this `io_context`, additionally establish a \"serial execution channel\"\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "a13a72eaa06ac37676ae5e3352a2a941ae8b8309c22d8de4c3d9c28914d4334e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c1281cbeec746b118478f82483b9b296076c5eef307ee446f201593c39a3918",
+      "contextFingerprint": "eed3d961f204b1708ab2a4e9a160088970ff42a0c928a7a43222baed00427070",
+      "sourceText": "| 值 | 含义 |\n|:---|:---|\n| `1`、`2`、`3`、... | CMake preset 文件格式版本 |\n| `6` | 本模板使用的版本，适合 CMake 3.25 及以上 |",
+      "translatedText": "| Value | Meaning |\n|:---|:---|\n| `1`,`2`,`3`,\\.\\.\\. | CMake preset file format version |\n| `6` | The version used by this template, suitable for CMake 3\\.25 and above |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "a14772a5d644741b4ac6a26874d573e2c3e35e5ab7a4d766c70288383b8c9798": {
+      "normalizationVersion": 1,
+      "sourceHash": "a003e29cb770fd5dda85bd6bee54afe1eacda85baeef94a4e2f7ee2cd5df0072",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是不对的。",
+      "translatedText": "is incorrect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "a162789566874786844dd2f4fbeef817d970fb140c5b3df0538b161c4566ead8": {
       "normalizationVersion": 1,
       "sourceHash": "707031f7b89c9cd5192297d82e9622e1bd0098f6b0e1205a9606112e3d6e2594",
@@ -57,6 +169,20 @@
         "costUsd": 0.000057
       }
     },
+    "a16749182f8d05409b9e0d6a78fcdd94f89445e251af5a614bb16ebb83786e2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3808dda8252fcac53bb816ae918fafafa9521b5a89486414e62c2fc5d3f211f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先写最简单的阻塞式定时器：程序启动后立刻打印一句话，然后阻塞等待 2 秒，再打印结束。",
+      "translatedText": "First, write the simplest blocking timer: immediately after the program starts, print a message, then block and wait for 2 seconds, and then print the end message\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
     "a1797c0f8cab3253c52aa9e050faed1a103493e3b3a588ec9ca35355e8af6dcf": {
       "normalizationVersion": 1,
       "sourceHash": "93171c40733f7aae4534b8c1309892f666d07d30b47dbc61ce0cdd046852357a",
@@ -69,6 +195,20 @@
         "inputTokens": 196,
         "outputTokens": 82,
         "costUsd": 0.000158
+      }
+    },
+    "a187ad6541761e3498c8e97c982c00c158e5973393973645b41682e246ef0630": {
+      "normalizationVersion": 1,
+      "sourceHash": "32aa5c19dc11ed9f5788063ef028979456cf8c6fae9548462b14fd46e8d30290",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以整个过程就是：",
+      "translatedText": "So the whole process is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "a18cddb71f3ac6a712a62ade2461e7d4730d363d152d635e776034283749cb1e": {
@@ -169,6 +309,20 @@
         "costUsd": 0.00009
       }
     },
+    "a1c546f61573b1f4e5f38b1a6f96d8ccf3ea694a0e877122935eb0f23e57cd4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e027dbbdb830bb20208fc3e863f7e886ece322b3b753f4e59ca67f710cd39391",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议按这个顺序理解：",
+      "translatedText": "It is recommended to understand it in this order:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "a1f75f98fbebcbe1bfd1affbc1ceaea2da41a20e3497ff75b2f2c49e7eb65d6e": {
       "normalizationVersion": 1,
       "sourceHash": "c44ae2d7b391e637a0d6e4f5f63ee67474cbe3bbea2e63efea7b552eba978ced",
@@ -181,6 +335,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "a1fd47e51be0fb4b6b36c0d38e6a09c8dec3d9e50927cd5f25224a0a11048ca1": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ebe3760cf5c1c32b8428f4936d0e1bc667f2c94b15af07fe314bc6600b7cd9a",
+      "contextFingerprint": "92bc6f509e5d9ffd9a96d9f62ad4a9a0dcd3339f4aebdd4140eeac41b1a31acb",
+      "sourceText": "## 抛异常版本 vs error_code 版本",
+      "translatedText": "## Exception\\-throwing version vs error_code version",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     }
   }

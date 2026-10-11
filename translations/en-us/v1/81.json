@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "81189635761ecf022b2dde252898fb0081ae6caf9098183a6e06aa9459329e21": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2d60ea3143a78367e7ecd3f9def1e227dba68bb2cd654757dc4f5338fd7caee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是可以使用：",
+      "translatedText": "Thus, we can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "811beaef1a55f1cf38cb6b154bada5c926ea4f095ac1d6da8fb5ce9592895a43": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae6b2d0a27ab3a192fbd3615cdf6ec1bbdb2a833d012ae84083fba7b96eaa96f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然我们创建了：",
+      "translatedText": "Although we created:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "81218555648b49d721f90ad54c4e7c4af68f98c076bc803b8f71aaf1fa4c3f91": {
       "normalizationVersion": 1,
       "sourceHash": "110e3708d7cd5c8461de2f72c012e9bcba4d21b667bdb1f2bff74a1750922569",
@@ -13,6 +41,20 @@
         "inputTokens": 134,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "8122f1fc989a3ffb05091019fc7f85c3e32f66c9d474bfbfc3d70853a9db69f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "550f6c8c16add9fe847b9d73fc56025bff9d28b689dbac36e786a490840dbef9",
+      "contextFingerprint": "f245632f5bf2a26f12a87439be342306789571be149f55e32e6b2ce97e81973e",
+      "sourceText": "#### `promise`",
+      "translatedText": "#### `promise`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "812f7589a40d0d586bceb41fcd8a50b60d03769945bc37f90134cf0f50e6afd7": {
@@ -85,6 +127,20 @@
         "costUsd": 0.000175
       }
     },
+    "8181d11a676b968c2cad72b15c869b8330c94294d85b5f8fa4aeeebef7801ca7": {
+      "normalizationVersion": 1,
+      "sourceHash": "71104805af51090cb389ff0fa8bbc5b235a894ba165ae2076cbf205679b4c0fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正麻烦的是，当程序中出现：",
+      "translatedText": "The real trouble is when the following appears in the program:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "819285a4c1e229c976f002a59e39b04edf2de92d2d1c9e3d66d66e8f6199f4d2": {
       "normalizationVersion": 1,
       "sourceHash": "55d734706609053422fc6c711d7b524ea91a83a8baa577e65da1e61c8a94cb66",
@@ -111,6 +167,34 @@
         "inputTokens": 185,
         "outputTokens": 79,
         "costUsd": 0.000151
+      }
+    },
+    "81a0038576223da0b7e8b47de09568b22a9283a44ff651b4b45ce00f99e96408": {
+      "normalizationVersion": 1,
+      "sourceHash": "05849b47d50ec62298876368bd1640749725a19dbbb5e8bea65ed37bbe1d17e7",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **我完成了自己的这一份工作，把计数减掉。**",
+      "translatedText": "> **I finished my share of the work and subtracted the count\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "81a72d834c0ce64c3fc29a003adaf52b4fb75f855a90e3afc3c459704685180c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0da4f055cf8d6ba590471b3ace401538f9d596444d05697325fdb01038397a9c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 clangd 没有找到数据库，它会进入 fallback 模式，只用少量默认\n参数分析源文件。这时即使 CMake 可以正常编译，VSCode 中仍可能出现：",
+      "translatedText": "If clangd does not find the database, it enters fallback mode and analyzes source files using only a small set of default parameters\\. In this case, even if CMake can compile normally, the following may still occur in VSCode:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 57,
+        "costUsd": 0.00012
       }
     },
     "81a75d1de988de6d44e9eeff64d17e15beefaf7a022ac0c3ae9c0564a7e8ef5a": {
@@ -195,6 +279,20 @@
         "inputTokens": 148,
         "outputTokens": 33,
         "costUsd": 0.000084
+      }
+    },
+    "81d0d13d8b676ebfdf88c606c55bfb00b5038e4ab3d9b7fd16c4cecd46e0d5e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce536d57358499c1fd6572e814b9f1cee06bbf311e365dd0d190dbc001463c7a",
+      "contextFingerprint": "2590db0b5eb43c2eff7dd362891fae2c1582373298f8522d95e5b25c2cbe184a",
+      "sourceText": "> TCP 是面向连接、可靠、有序的字节流协议。  \n> 在机器人里，TCP 常用于：上位机调试工具、远程控制、日志上传、参数服务、局域网设备通信等。",
+      "translatedText": "> TCP is a connection\\-oriented, reliable, ordered byte stream protocol\\.  \n> In robotics, TCP is commonly used for: host computer debugging tools, remote control, log uploads, parameter services, LAN device communication, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 50,
+        "costUsd": 0.000112
       }
     },
     "81d85149a4714e39833669464a4e510e87550d1ed97393f25a1d1dcdec0882ac": {

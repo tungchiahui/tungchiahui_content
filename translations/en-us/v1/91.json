@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "910835408a851a276056ac8067331b3ef79e4228079724d1d1b3db1f02832d6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "72dc28a23c9571fb14f50947c32b747fdbc9b7001b964a2b0f0a446985f90545",
+      "contextFingerprint": "be038587efdff63d8061651f059215e475b871757840c0efa3e74486db3f9648",
+      "sourceText": "重复定时器不是 `while` 循环里 `sleep`。",
+      "translatedText": "The repeating timer is not `while` in the loop `sleep`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "911ed3b7c8a48d65cf555dff3469f023d7cf2ef8a74ff273c291256b06167316": {
+      "normalizationVersion": 1,
+      "sourceHash": "f40e6ac9e43f4cad45ca9737e073b16e39e45c5f5f9193ad0b6d451406dc128c",
+      "contextFingerprint": "6d5671d18468154d38aab0c3d45f3231898b049a9ea0c925633b7c1fed2b93e2",
+      "sourceText": "> 可以和 `std::stop_token` 配合等待。",
+      "translatedText": "> can cooperate with `std::stop_token` waiting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "912038551dbaf0d3db854a996fbe75539f068823157f471c29a10fd895568a5b": {
       "normalizationVersion": 1,
       "sourceHash": "c9f8d8295cd2b24c7986a8f9e7213c5405284bdf0e1daba9504805f6b0a50952",
@@ -43,6 +71,20 @@
         "costUsd": 0.00005
       }
     },
+    "9128136459d54236476faf87fb1b378bcc50ffecb45bef7979bedb413c4c545a": {
+      "normalizationVersion": 1,
+      "sourceHash": "41ed39d1ef07bcdd2de422714fff73ddf11e65f145c86b47b031dcdeeeea6f17",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这就是内存序要解决的问题。",
+      "translatedText": "This is the problem that memory ordering is meant to solve\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "9131297ee10dd283be1ccb2c30f369f34ec59bd9fcd4520ec4f2067af63360c3": {
       "normalizationVersion": 1,
       "sourceHash": "2fe7c5db53ee23f584f6e34f6e2635125fb1fd82481c59782ad615c31512b3a4",
@@ -55,6 +97,20 @@
         "inputTokens": 145,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "913cd5ca6d66d9fc187938656297526ec37d14d954f05fad6b14a7750c115462": {
+      "normalizationVersion": 1,
+      "sourceHash": "d73d6ef137232b99bb64cafc9a5f965ecfa0ec7c60defab144f566378b8d3f1a",
+      "contextFingerprint": "78453abcf5ac9859628a01da84a4fd34491d5fa1c6ffbd4e0b394db78b187cad",
+      "sourceText": "### 错误：把 promise / packaged_task 当可复制对象",
+      "translatedText": "### Error: Treating promise / packaged_task as a copyable object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "914a1fbcf6307ec05e28f8e4e7afa71b5c3a1907aeaa089b9bd5020e072ffb0d": {
@@ -127,6 +183,20 @@
         "costUsd": 0.000247
       }
     },
+    "918f45ee3fe50715fe0314e1aa6ffbecdf21fda7a866467d2706d44bef29d915": {
+      "normalizationVersion": 1,
+      "sourceHash": "270b6a254712dbd3743d41073a3d9f552dd729d1c6fc64379dd4aa1c96ff0150",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这适合理解流程，但不适合复杂机器人程序主线程。",
+      "translatedText": "This is suitable for understanding the flow, but not for the main thread of a complex robot program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
     "9195ef8a8b3c00339e3444473086d61717408d6797f01f5dff5fad00d1bf9ae1": {
       "normalizationVersion": 1,
       "sourceHash": "9431a29d971ab4f6d3d408b8ba00dc8cf21c0a07e369ca710f88ab1f75bb719a",
@@ -141,6 +211,20 @@
         "costUsd": 0.000119
       }
     },
+    "919c7bfd0b6d8615d68211e88089a0e41373cd739073990d6642d69cef95ec84": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4e8ddb67fc76991f08263759988995da9c0731aaa32aa6c6e384d7242caed9c",
+      "contextFingerprint": "846b2a624844155b083ca4d7230b59320070b00432ff937cf9b01e2b8a9f2698",
+      "sourceText": "### `hidden`",
+      "translatedText": "### `hidden`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "91a2d39fcc1abdfb7ade7939bdeb96f708129e67e3d54c09fa21343fb343ce0a": {
       "normalizationVersion": 1,
       "sourceHash": "2e78fa3226843109de3c77840dc0cc3c92e0214a73eeceeec0d79fa887e321d1",
@@ -153,6 +237,20 @@
         "inputTokens": 143,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "91a6f7b701527a7a73bfa77d98133369107acbe4caf74aea44ba82127962fcc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3c351dd75c417aebc45d0381ce48690051775992cfc21a9e0dfb6c02f051405",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更好。",
+      "translatedText": "Better\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "91ad1daf36fafbea36dd5adf62f5214e216732387deed50c6ad9f2c0578797fd": {
@@ -181,6 +279,20 @@
         "inputTokens": 174,
         "outputTokens": 72,
         "costUsd": 0.000139
+      }
+    },
+    "91b0e8d0f8b394976dfc37298b23b596784025bf6411c705dd15a6d3747669d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "08e9b5090d9911ae6c6ee4853bdffec0a3054223995e08b9c510e72c96a980b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以异步读写时特别注意：",
+      "translatedText": "Therefore, special attention should be paid during asynchronous read and write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 20,
+        "costUsd": 0.000065
       }
     },
     "91c3791ad5dfe3446d56aa0b34fab03460dc54a4248ee1f728c2975e47544904": {
@@ -237,6 +349,20 @@
         "inputTokens": 173,
         "outputTokens": 53,
         "costUsd": 0.000116
+      }
+    },
+    "91f5f8e81befea83a050ca15fb6c6820b752527aee948333651e0f3ca52add65": {
+      "normalizationVersion": 1,
+      "sourceHash": "635abdb75054624c0d1e326c665c96868c98af580909c64cf6effdaf1145635f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以先粗略理解成：",
+      "translatedText": "It can first be roughly understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "91f96deacbfe4d80a30fc2bcbd26591093f526cc1b7f0a390c9c3317e4b3d697": {

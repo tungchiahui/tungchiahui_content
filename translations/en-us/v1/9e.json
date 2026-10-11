@@ -43,6 +43,20 @@
         "costUsd": 0.000057
       }
     },
+    "9e28de65e822fe244610e9284b093f288f98d544f6beebb4ccbdb369aace6124": {
+      "normalizationVersion": 1,
+      "sourceHash": "264739733ee4bb0bb97bd88c40939e57e49a1727a43e54704f62e8c4ef02a6a6",
+      "contextFingerprint": "5309bd0f9075dad8d5ae8096c6729580e91926d11160d0b93ac6e47cdf40295c",
+      "sourceText": "### `async_read_some()` 说明",
+      "translatedText": "### `async_read_some()` Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "9e2e5d57036fc47a78b4f8a1fe1f291b7c0ed6e0053381bcc9847d0ffae13897": {
       "normalizationVersion": 1,
       "sourceHash": "b52b64920ac23c140ce71489924de1c0a69644f47c077abb2af81173668e3ab9",
@@ -127,6 +141,20 @@
         "costUsd": 0.00006
       }
     },
+    "9e927da4b6e34ef623b6ace845256423689f581f726f8aa3c0aa05fbb07a9ca2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b47c42beaf4817d6cc042f3e2a6b5df33c0f626de9b132c0d6a13a8294e518f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### acquire 以后一定要记得 release",
+      "translatedText": "### After acquire, be sure to remember to release",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "9e9a5176854155a47bd28b741cdec86f38e3e8c2cb8e3fcc135494b7b44a552f": {
       "normalizationVersion": 1,
       "sourceHash": "4f96332c2c29fac99bd7c78fae39915b75f7d8e5b348b971bd6d35701e200587",
@@ -169,6 +197,20 @@
         "costUsd": 0.000061
       }
     },
+    "9ea314b7d8a000da2c8a799a1413147a6c76c74a3df364b488e5d4fa9c905b02": {
+      "normalizationVersion": 1,
+      "sourceHash": "59328fd9c1dc3427e5492abaa8b4d7d01640d6f82264c11af7648ca368239b3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "客户端必须在服务端已经监听后再运行，否则会连接失败：",
+      "translatedText": "The client must be run only after the server has started listening; otherwise, the connection will fail:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "9ea85e8d21e2302b1e2c27766f31a16ad110e5e58f019de4ffc31ff532613806": {
       "normalizationVersion": 1,
       "sourceHash": "b26a79d3846527ae5515ef7f5793c38a1375b0c726353d27a4f366f98b18de96",
@@ -181,6 +223,20 @@
         "inputTokens": 144,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "9ea954af4daaec849c86c3ea79a51fd58064e7b30d8748f01226bacd6337c30d": {
+      "normalizationVersion": 1,
+      "sourceHash": "11afa7d71cea58f66de737545779681cf18288b6c139affd6a09a848f89fd233",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节依旧按照“先准备环境，再看怎么调用，最后运行观察结果”的顺序：",
+      "translatedText": "This section still follows the order of \"first prepare the environment, then see how to call it, and finally run and observe the results\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 35,
+        "costUsd": 0.000087
       }
     },
     "9eab9ece23d2bdff3bb4a145e2206ca8cc5601ac126694be7d0ee3acd12705b4": {
@@ -239,6 +295,34 @@
         "costUsd": 0.000078
       }
     },
+    "9ec8e728179925a1dd9675660abd60494246630dd88276c32f95aa6d59b98cad": {
+      "normalizationVersion": 1,
+      "sourceHash": "da3a64d5fdab50acdea2ead1af6f86f7f93f0606c926b6bf1670be3ea3426050",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "没有经过 strand。",
+      "translatedText": "No strand was crossed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "9ed3ed793a6ea860aa8dfb356b1988a61706c3824cebc489eabbebb088077b92": {
+      "normalizationVersion": 1,
+      "sourceHash": "a286b64af89584f066a66e3f4b81ef064f13f23061b365f98406aca138d6e6ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不代表程序一定出错。",
+      "translatedText": "It does not mean the program will necessarily fail\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "9ed6554b6e40c061e85dc6e10e1bff3636b08e6d18f4f75d2239c38ea5eeb5c5": {
       "normalizationVersion": 1,
       "sourceHash": "38058cea6f1f6f5858c925988e182715b02ecaefd5baa681d2c814f7cda15c9b",
@@ -295,6 +379,34 @@
         "costUsd": 0.000052
       }
     },
+    "9ee665d53229dab0f5dbd798a2280adaac58ae090d1c17b5d610f55cb47a372e": {
+      "normalizationVersion": 1,
+      "sourceHash": "27e7d2e1aeea3cdae1823d42105d5c18d11b043833facc8bfad8fd4f01b38a0c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 运行输出",
+      "translatedText": "### Run output",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "9efb86fa30814f18a5720f8d62c5994b3e068a356b3f041418adfa13a6904cff": {
+      "normalizationVersion": 1,
+      "sourceHash": "783e53803a32d6bdf1eed0e5dd2e865aab89257dbf13943ce3da4a3d6f045698",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后在版本上，拿Ubuntu 22.04 Jammy举例子：",
+      "translatedText": "Then, regarding versions, let's take Ubuntu 22\\.04 Jammy as an example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "9efc72953a76717a34c6f4aa152f475bebed86be1b23dbf86ab72bcc9153041c": {
       "normalizationVersion": 1,
       "sourceHash": "1aa64763ea898e93bc01d83c427f79f86700ebd7f7c5d7003eb66494e1a82bc5",
@@ -307,6 +419,20 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "9efcce2f2d9581d9a997a14e36ca4d98513e0bb9e191d144b69aca843a304652": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba72c73b64d998b94b63c344e0c381987bb37e4ba499a5c121a7ba9314f56599",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中执行。",
+      "translatedText": "executed in\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

@@ -29,6 +29,34 @@
         "costUsd": 0.00007
       }
     },
+    "c224dd43e911d9c344e00a62e1befadfcf3f6430ba98b5ac785e844711ee8f4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "75e61f0e77e47544c26570cbf3f5c6d88e8ef6c8997826edf7c6ae1e2deadcea",
+      "contextFingerprint": "58be9f41d7d8e84b73112ead90fc95929f803e3aed401d08a5d200e5ffd92ed8",
+      "sourceText": "为什么这里必须这么写？因为 `boost::asio::steady_timer` 没有一个适合你先默认构造、再赋值的简单写法。它需要在构造时就知道自己属于哪个 `io_context`。",
+      "translatedText": "Why must it be written this way here? Because `boost::asio::steady_timer` does not have a simple form that allows you to default\\-construct first and then assign\\. It needs to know which `io_context` it belongs to at construction time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 48,
+        "costUsd": 0.000106
+      }
+    },
+    "c23bfe0438bfe83124b38791e413c65440964bd4a7a505c1ec3b4b2175dbab97": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3227a41c047d79ef173a53832f74e7c28adf118be174f651a30338a826283e2",
+      "contextFingerprint": "dbd98eb3b82f98577d48ebf17e7591d39bf56f12530bd7430da7339faafb5927",
+      "sourceText": "通常可以考虑 `relaxed`。",
+      "translatedText": "Usually, one may consider `relaxed`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "c2452864d6227b4d42b548c5901f2a27a3e9eab1b6df1f43261fa8188781753d": {
       "normalizationVersion": 1,
       "sourceHash": "b1bf7cabe7747ff72df26ce3738498f5cd400bcb1bb04ed8d08dbd30978070b8",
@@ -41,6 +69,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "c24b08c9eb6d9d155f03531b272d6ad6b4db6e8c33e3439459987ec044ca5741": {
+      "normalizationVersion": 1,
+      "sourceHash": "09a271e44d3e9b0f3f673e034432c8deb3d6bdb7a94253bd72f97e733e7bc28c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要为了所谓“性能优化”，看到：",
+      "translatedText": "Do not, for the sake of so\\-called “performance optimization,” look at:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 23,
+        "costUsd": 0.000069
       }
     },
     "c2502449a73f4893e06e33c376dcd4d1adccfb4799f9cc18375c310fb73fcaed": {
@@ -69,6 +111,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "c275694624dff0c2dfc92147760f49557484610e1aeea85c06ac0d6900c583fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1915efc5a91c83e6a4ddf141fa6633d5841e357a09185374e76ed28c091a41d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例 2：类里封装机器人协议解析器",
+      "translatedText": "## Example 2: Encapsulating a robot protocol parser inside a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "c27c6a95421e5cb6befaac7189462eaeeaedba65add76a77d0a013be6e7d0069": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1a5417c72eca37724ffddd316910966311a453653b4bb9fdcd1abd98c10bfce",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 你现在最需要记住的 5 句话",
+      "translatedText": "## The 5 sentences you most need to remember right now",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "c284bc4dba1071db2501cc456784ae6523781b972a9cc90220c4fadff31164f8": {
@@ -113,6 +183,20 @@
         "costUsd": 0.000054
       }
     },
+    "c290ecf516ae3b029909f050ddc5674e19aa132de17a0eef391b9e2ed3b3ccef": {
+      "normalizationVersion": 1,
+      "sourceHash": "db3742142158d129d15876730c18b2be4621ea62d7e8f7c4910f127283091166",
+      "contextFingerprint": "35ef29857df0f98788365822cfe5c68ed4dd7d4455dd4e26d4de98d2e69fb022",
+      "sourceText": "### binary_semaphore 可以理解成一个“门”",
+      "translatedText": "### binary_semaphore can be understood as a \"gate\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "c29c7d293ca37de2f80aee2cd14be29ad4570f7ca6d55e5ba5837bf306b7c277": {
       "normalizationVersion": 1,
       "sourceHash": "c09a62da060dc3c54ec9a17fcd9ef3fd83678bb8afefcae25c0d8f6ec51ffd34",
@@ -141,6 +225,20 @@
         "costUsd": 0.000103
       }
     },
+    "c2a82327d67852db3b278ed19d268dcfe60c33570c88aee0c1e7b8c18e7c9346": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a4cb83e63b6a58e5a94ca32f5044465eb1c9b4b611f33905ccc034aec1ed057",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "标准库还有：",
+      "translatedText": "The standard library also includes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "c2ac095e8e822a7d7796ccad30aef00d097da85fec028f6f81e21094460c7a4c": {
       "normalizationVersion": 1,
       "sourceHash": "381eebfcd1215f7663bf81606fd1c81625427472e15a85dc27955da9e070329c",
@@ -153,6 +251,20 @@
         "inputTokens": 147,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "c2afa19fc152589da40167bc706e015b84749f777452041423013e985f2fd5ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "74f979f469e2f1848502af9c894b822d95b38eecc315dd2b0db545bd18a0018f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而是统一提供：",
+      "translatedText": "Instead, it uniformly provides:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "c2b5b88432683646842a3ff9d25a1bfbacb555490daf09bdc96bb1465ec1b8bf": {
@@ -225,6 +337,34 @@
         "costUsd": 0.000075
       }
     },
+    "c2d2b3d8c582493e3305b60d7ae25fd0352c15c459635a8e75dea1e5c9a27195": {
+      "normalizationVersion": 1,
+      "sourceHash": "505e98dd1d887e27e4372d5e9451c60f8ee087342f180e726c76dd0b81f0ee19",
+      "contextFingerprint": "350444c6f4f8258937520b00217be713670acf8f100d7fcd00203d8d7230d4e5",
+      "sourceText": "| 特性 | `std::thread` | `std::jthread` |\n|---|---:|---:|\n| 引入版本 | C++11 | C++20 |\n| 创建线程 | ✅ | ✅ |\n| 手动 `join()` | ✅ | ✅ |\n| 手动 `detach()` | ✅ | ✅ |\n| 析构时自动收尾 | ❌ | ✅ |\n| joinable 状态析构会 `terminate()` | ✅ | ❌ |\n| 自带停止请求机制 | ❌ | ✅ |\n| 自动提供 `stop_token` | ❌ | ✅ |\n| 适合长期可停止 worker | 一般 | ✅ |",
+      "translatedText": "| Feature | `std::thread` | `std::jthread` |\n|---|---:|---:|\n| Introduced version | C++11 | C++20 |\n| Create thread | ✅ | ✅ |\n| Manual `join()` | ✅ | ✅ |\n| Manual `detach()` | ✅ | ✅ |\n| Automatic cleanup on destruction | ❌ | ✅ |\n| Destructor handling in joinable state `terminate()` | ✅ | ❌ |\n| Built\\-in stop request mechanism | ❌ | ✅ |\n| Automatically provided `stop_token` | ❌ | ✅ |\n| Suitable for long\\-running stoppable worker | Generally | ✅ |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 113,
+        "costUsd": 0.000205
+      }
+    },
+    "c2d9dd31fff2ede1c72cf54ac38e2af22888171a980e07db969063ab331b35b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2a72e1ff2334e27d669b9708e44dcaad9dffcc7cd5ce830f7d6bd682232f79f",
+      "contextFingerprint": "72fa3af6595eccac848f15e6c025eb6622fd29e5a9d0ec42c753de2ee30b479f",
+      "sourceText": "这就是 `work_guard` 的完整作用。",
+      "translatedText": "This is the complete function of `work_guard`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "c2eb0b94f2da410787eecbe8ac9b7ff484b8da52e7052ba5cc0ea9443548a658": {
       "normalizationVersion": 1,
       "sourceHash": "4fbcfeacaafa0ee751fd12a328aa10e6126aac5d9bc81ffc26ff1d29fe1004f0",
@@ -251,6 +391,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "c2fe0d3c05e7ad5fdeefa5fa2f3893c097fe3f96a3b223a2ae372b61b2c6fcb7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d17b1add90c9028560a0839eb1a6516696befe0b7fed599be4ed6a6e74ef742",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 4：把 private 当成模块隐藏的全部**",
+      "translatedText": "**Mistake 4: Treating private as the entirety of module hiding**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     }
   }

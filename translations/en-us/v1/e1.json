@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e105637abd52ccc47642c2a06d73b663dc82fceb94137b699b442c54139affdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "d224926de1cee2173cd507f4f332f1105155d92b636bf054483526c9a6b88f5c",
+      "contextFingerprint": "ad162faa83eb46ec3259d6d1d10e6a5be51690501c5b3c1aa822295819955088",
+      "sourceText": "程序打开 `/dev/pts/3`，然后注册一个：",
+      "translatedText": "Program opened `/dev/pts/3`, then register one:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "e1067ca9d9988eaa4bc135bf549f16a63f3ef45c607697c59906919cee83d410": {
       "normalizationVersion": 1,
       "sourceHash": "9af1fb96e3865fc5cf2f57604e96c0e9c7550580ce2d0b266587e8374f6eac5a",
@@ -57,6 +71,34 @@
         "costUsd": 0.000072
       }
     },
+    "e12964275d6e87e33cc69103365a96c6e3847a3c6ae4265e6f0ef9d581e4c8bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "3005c29b88036c4d26c5b28133164b8437502fefb046a875d22f7ce0b4d8ae1c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果看到：",
+      "translatedText": "If you see:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "e13089d40cde145e31b19be3d9201cc7414a50ce73ac137d9b220d545721c18c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3b9c5b5ed9b28a7de0c44e30478bfa66ac111e071d037653984dc81e17a648d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这时不能直接：",
+      "translatedText": "At this point, you cannot directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "e14201e8372f6b9476f8b2bf439437c3bb7a78772a023217d425d8875a83a4e4": {
       "normalizationVersion": 1,
       "sourceHash": "df53948f4b0a846fab83df990bc5ba57801d25d3ddd5243198e293b75d8fe722",
@@ -83,6 +125,20 @@
         "inputTokens": 147,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "e14ef8e213797d80a4c381a43252f3c9d2e828ca8386c357abcf8b678db7562f": {
+      "normalizationVersion": 1,
+      "sourceHash": "81af54f9b99ed2c1353b9fce8189210bff389dbe6b0de793884ab3256485b80b",
+      "contextFingerprint": "97a14b8e2d43a7ca85770e846738fe233556e23f4520fb7eae0eb7f0f4993827",
+      "sourceText": "## `cmake_minimum_required`",
+      "translatedText": "## `cmake_minimum_required`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e1568e2fb108ff2a38c1edf8823b43b4b9712dd5c16c19d1b4b007171fd50eb9": {
@@ -141,6 +197,20 @@
         "costUsd": 0.000076
       }
     },
+    "e1a0115dae4cd22383ce63265a2c6e515907458f137d4b34bbdac53e903ea49a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cd6cd27c103eb5fb66f1eba5fad9c98fdb445115611711ebc9d891a3a1843e9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 但 strand 不会自动保护整个对象",
+      "translatedText": "### But strand does not automatically protect the entire object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "e1a3ea4713b1c3293811d17cd63d350ad89c682aaf17fa41a090db26146c9d6e": {
       "normalizationVersion": 1,
       "sourceHash": "ca1cab4017577921d2b6251ebfe134ff49455dbefa130c3cc6c8491ea2334c2f",
@@ -153,6 +223,20 @@
         "inputTokens": 136,
         "outputTokens": 21,
         "costUsd": 0.000066
+      }
+    },
+    "e1b421ea115cfa13a68c558774156ad369f17661acb6b2d9d71b9df765750006": {
+      "normalizationVersion": 1,
+      "sourceHash": "766daa812d1e0eaec763afe70d43f8f5a645c83387a607f2df0a7b7a98b22d26",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 1：先运行示例 1 的服务端。",
+      "translatedText": "Terminal 1: First run the server side of Example 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "e1be2fcbc8506e452ce280cbe7a0dea040faa3a1a43a269b5e73db152acdc3be": {

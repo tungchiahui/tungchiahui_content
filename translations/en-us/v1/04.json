@@ -29,6 +29,20 @@
         "costUsd": 0.000064
       }
     },
+    "041a3f978cff4ee01518e762fa71996de572d308de183ee0a2ac294a5a0b7340": {
+      "normalizationVersion": 1,
+      "sourceHash": "d908357db19b15ecab646d654dc24c7d16edaf3a59b5ee6432525579fe891ebe",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：停止时只修改 finished，却忘了 notify",
+      "translatedText": "### Error: when stopping, only finished was modified, but notify was forgotten",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "0428612cfbe78e93eba15e81ad545a4f735bb3fda6471e00f094384964faed19": {
       "normalizationVersion": 1,
       "sourceHash": "bc2d33861a14d63fc280531f5b50b94550320847ac2ef7f0fcfaacea4469fa5b",
@@ -85,6 +99,34 @@
         "costUsd": 0.000079
       }
     },
+    "04540659d02eba048a9503d6ff946215559f3a2e665422ea02e5e66430f9cee0": {
+      "normalizationVersion": 1,
+      "sourceHash": "60b44a62b08f75091404dc4e13ba5848eee4e703b93f82765e2401bd6bffcd48",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例没有问题，因为：",
+      "translatedText": "There is no problem with this example, because:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "045a987211958a35cc64803ebea111bf066d0750031fc2f0f1c9bfe924973ff2": {
+      "normalizationVersion": 1,
+      "sourceHash": "08ab67acfbbc9e828787fb15fa821d149295c3b88d1d944d505ad8c13d14fd7a",
+      "contextFingerprint": "adc52e2414cf6fdf50cc5e33133e84f311fbe984ae2c639a27b7394143f4c849",
+      "sourceText": "安装 VSCode 的 CMake Tools 扩展后，它会自动识别 `CMakePresets.json`。",
+      "translatedText": "After installing the CMake Tools extension for VSCode, it will automatically recognize `CMakePresets.json`。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "04823c4e60a2132b6ed9146f624b0e4a24de09728b735e7328ea3bd997922c6c": {
       "normalizationVersion": 1,
       "sourceHash": "9915be5fa33f2ec5a0f9179fd2a3c37f82ed196f9b8335edbeac36d2d830dc0a",
@@ -97,6 +139,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "0496f242684b6f8fbff5f71a41fe95142ae0e178b093cca839c41d4b1495f053": {
+      "normalizationVersion": 1,
+      "sourceHash": "20cb9bfa0e8cf18fbb6f6d9ffa03d738a2e766c12a01afd8fc62f1e1de2f2dc3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "必须保证在：",
+      "translatedText": "It must be ensured that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "0497baf0ca4247e56e61f58eee19fd044d401f75c252ee37740c87f5a4be98d8": {
@@ -153,6 +209,76 @@
         "inputTokens": 144,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "04b04b201028547214c4f4f6dedbb97e20d29c9b7287dccd3c1be05f8c4ae238": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b2e1e320640527f344af250c7a42540f005d3488b3854910d9ae5a778faee15",
+      "contextFingerprint": "3ead138e3cce543bbd8a61c5532156b3e258a7f674b82fee27ed19926cbed369",
+      "sourceText": "而 `packaged_task` 是：",
+      "translatedText": "And `packaged_task` is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "04b3ebb1baa4f5501ac7d8ae1bfdd0050d4b08947d2bca7992cd1e46de8706d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5590020e861ecafe4fedda9a7e1c6bb0020e03ac56f013fb764b12d637ab35ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以必要时要：",
+      "translatedText": "Therefore, when necessary:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "04bf27a2b411bfd03856673ed71730a83b210badfa066f48aae4e0d725a85ca1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b0551aaee94abb8b20cb5bcc11e70b7a907f1a278ced55bb98522ad32c599ed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以最重要的一点是：",
+      "translatedText": "So the most important point is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "04c085913be0ec843d944f0d9bcfe8914cab2dff3d48d7b62f1315f5c99bdf36": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd7421178f89fd21c45dd8c148b55c7a5fd22204ea7f8b1815dfb17e6923e314",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "投递了很多任务，它们最终还是由：",
+      "translatedText": "Many tasks were submitted, and they ultimately were handled by:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "04c5bb10a6817b20ea592ab29a141d3958349abf6ea901f3ddbf286970d13289": {
+      "normalizationVersion": 1,
+      "sourceHash": "5246bea26de78b8870643d7751b4d990f0dc769aeb10aadbda9df0355d1f9c5b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都到期。",
+      "translatedText": "All have expired\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "04df49920a97a2f76c006693796f13038598fd24a39e60893a56e622fcc38dc9": {

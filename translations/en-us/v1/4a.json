@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4a006171469fccf03f9e048e469b7a08e7d1d529d38c6cf0d63ffb1c0cbf91e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d89e9f6719dedc4799051aa631b723ffba042d8f50b044077d667adde350395",
+      "contextFingerprint": "cd13bc90332e02b7cbb72ede8b7f54ceee5cd80c5dae67b2c10d5ea435a72a2f",
+      "sourceText": "#### `serial.read_some()`",
+      "translatedText": "#### `serial.read_some()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4a09242db40a0fa280d46da36a1cf7b45f609ee11d63caa208ebe7d0b57f7039": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c9fc18e6dcea503a9560e793c883055b268baf551a29092af595f6b0d3f6291",
+      "contextFingerprint": "9e56e52013844d718d23e6709820d0684260088ae55c86539ef647b78e8b8832",
+      "sourceText": "### `request_stop()`",
+      "translatedText": "### `request_stop()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4a0e3ff66d28675fa0274baf4bf51922ba1c01da3ac9774934ae15c6be058e50": {
+      "normalizationVersion": 1,
+      "sourceHash": "77ebd7877603956944749af7d552643953af826769ea0fc5f435cb94ff174876",
+      "contextFingerprint": "51dde1ff98bbb4d2b6f77c79cc60e183eda5836bcc3ad67d19e9250079d0beb4",
+      "sourceText": "对应的接收函数签名为 `void on_cmd_vel(uint32_t seq, float vx, float vy, float wz)`。不要把 `float` 写成 `double`，也不要把 `int32_t` 写成编译器宽度不明确的其他类型。两端必须约定相同命令号、字段类型和顺序。",
+      "translatedText": "The corresponding receive function signature is `void on_cmd_vel(uint32_t seq, float vx, float vy, float wz)`\\. Do not write `float` as `double` and do not write `int32_t` as another type with an ambiguous compiler width\\. Both ends must agree on the same command number, field types, and order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 50,
+        "costUsd": 0.00011
+      }
+    },
     "4a101e0afe2e4c2dd5467eeb59442312f740c9f5d48d87238e8014614a39386c": {
       "normalizationVersion": 1,
       "sourceHash": "2cf0ee9f86b0672508d1cadfa20bc267c60f890397d49d7cccd909493adec7b0",
@@ -13,6 +55,20 @@
         "inputTokens": 270,
         "outputTokens": 165,
         "costUsd": 0.000279
+      }
+    },
+    "4a2208815a27bc5f8bc879b1d24f95edace8c9362dbe2d1e08d9be3bf3488392": {
+      "normalizationVersion": 1,
+      "sourceHash": "4eefe4b00cb0d77928adbe9afbd52f2ce109d5f99ee779c31d11259208b3a30d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么 post 以后再 reset",
+      "translatedText": "### Why reset after post?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "4a2953674a76cab13c367784cf2026b2f8f5e68c3693e98660cddb035a67bccf": {
@@ -41,6 +97,34 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "4a3626e62bce7d63aa510eea558d1cd55cff3428aa1f0e35bc164d2011eceab6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d29619b240d4fd550cf854b3faf065c539b454adb07f0b0f463e6e8b6ee24d8c",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **strand 管的是“执行时间不能重叠”，不是“必须在哪个线程上执行”。**",
+      "translatedText": "> **What strand manages is \"execution times must not overlap,\" not \"which thread execution must occur on\\.\"**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "4a3828c5316fe83dfc71e00418767417b4a120a1dac55f5b795c26c2262d12c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9aa8aa5b1ea33c1cd947ca210d7737d5cbf85c059c85d3342bc9f1894147f3f0",
+      "contextFingerprint": "f7dcaf222b5443e033076c398be922af9765af4155cc5eb941b6b21eeb9a6b47",
+      "sourceText": "如果你不用`expires_after()`设定新的时间，那么直接调用`async_wait()`会导致回调基本会立刻执行。",
+      "translatedText": "If you do not use`expires_after()`to set a new time, then directly calling`async_wait()`will cause the callback to execute almost immediately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 31,
+        "costUsd": 0.000082
       }
     },
     "4a39e45e43e74ba675a6d9e9c886b9ba6c91ac224025fd72062c78802f414bf3": {
@@ -83,6 +167,20 @@
         "inputTokens": 163,
         "outputTokens": 50,
         "costUsd": 0.000109
+      }
+    },
+    "4a79d73bbac73d3847bc79d17d3865b07022fccc23374d4f5317d4d658de4618": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c9e3bb1ed54cde2b6600260eabe0fe0a57c44ce958f89db17643961cba43a5d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "换句话说：",
+      "translatedText": "In other words:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "4a7f511bcebc716eeda080d79458e3697611e606974ef6b095669eb926400d2a": {
@@ -141,6 +239,48 @@
         "costUsd": 0.000049
       }
     },
+    "4a9612577707ef787fe8a43414601799d716254c3d101899747ebaba8e29599d": {
+      "normalizationVersion": 1,
+      "sourceHash": "475900ba66b2687e8c708756e50042e82c497f8a3932706a809df90d53403df3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一节把它改成：",
+      "translatedText": "In this section, change it to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "4a9eec9caf38129b698a9d356b608c204130841eeee4dffaf175f7256b98c3bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1a9c7cfdcadb33c3faa32803238cae4eb66d2b81cfe910d99dcdaf2e7c43e03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "工作线程也必须先从：",
+      "translatedText": "The worker thread must also first start from:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "4a9ef190fc5c2b742a5695840960b467bda3f596ffee4464112c7d06713212f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d51d02be1ea6931c7095b9505b16c1459c8ae0f4495d2908d424fe70fdbd85e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里故意只写使用顺序，不展开 Asio 线程和串口驱动源码：",
+      "translatedText": "Here, intentionally only the usage sequence is written, without expanding on the Asio thread and serial driver source code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "4aa55eb0dde14528796f4f255273e4811ce9f97c03d081bf96cfd0110ab8a7c9": {
       "normalizationVersion": 1,
       "sourceHash": "5cfb4aa3aae4a222b25daf12bef1c020e62cf12518afd036a012552c012034b5",
@@ -167,6 +307,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4aba8dc3c012f792c3191430e7b0afbfa4d81c3b498a1abf2abeaed1c17e931b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc33250a7d2e796bb7ad263ace1c31239530bb181570e68362acedc3c8181efe",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **某个条件现在还不满足，我不想一直占着 CPU 检查，而是希望先睡眠，等条件可能发生变化时再醒来。**",
+      "translatedText": "> **A certain condition is not yet satisfied\\. I do not want to keep occupying the CPU to check, but instead want to sleep first and wake up when the condition may have changed\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 42,
+        "costUsd": 0.000098
       }
     },
     "4ac2f9a97f59eb011e4330f818f4d550864780f7ce0573b0461fa043d1fa41f3": {
@@ -251,6 +405,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "4af4f2c36aeb059a03dd13e10306ec9e3b675a826289f05a12c7dfe7d5ebb459": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cece195bc8c035e68fde9a12ee7ea5f0086239efeaf98ace6a0ee8d94b0ebba",
+      "contextFingerprint": "d8a1fa3b1c2e226e5314f1bb056b4277b1ea22a584d5a20afe951b56870a1030",
+      "sourceText": "### `jobs`",
+      "translatedText": "### `jobs`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "4af65e64696c397ed7f9c56a0eca1b115f2b879517e7ca2bf3a8c1a63ec55fce": {

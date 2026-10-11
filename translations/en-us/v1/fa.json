@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "fa0cd9564effef64f0bb8493d709bfe1e258f1e70a0979765cbc6bee92304e7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e5d88d715b7489fd4780527c95b7b0acd170255fba5a2515ae84673c950923d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以先用一句话记住：",
+      "translatedText": "You can first remember it with one sentence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "fa0d7901461ba6f5ccf31b4c01c4ecedd405afd5caac2742ac50533b323b6eb8": {
       "normalizationVersion": 1,
       "sourceHash": "450cd9b10e0027346146ab8bacc6ccb6a9c5ef9fb11e5767bf60db007f113530",
@@ -155,6 +169,20 @@
         "costUsd": 0.000054
       }
     },
+    "fa4a84a96c4a1244851685744cc9b6da63f9fe08ee70c6ccdc9d9598bc98b254": {
+      "normalizationVersion": 1,
+      "sourceHash": "fae8c8de11cd85e48e415ff286c1186a76717e20cf79148c8195b8f7abac8c45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如有：",
+      "translatedText": "For example, there are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "fa4bc6077fb46bf703c7cbd6dc45c344a46f9b319a2f3f418dc92717e0b72fab": {
       "normalizationVersion": 1,
       "sourceHash": "aae35ed6ee93df8a7520fc487f245ab3953faa2564838868c6f875dfddc161ad",
@@ -181,6 +209,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "fa5330837a9fa55f48958817ff2342eb80e45bc8254f41a0b98f828df40f0ff4": {
+      "normalizationVersion": 1,
+      "sourceHash": "59339ca4638548f28b2a4e01f8a9b8df9c18dc6fa47762556a4544ec83964810",
+      "contextFingerprint": "d8a8fea434c8dba2a2be4a5981d26d5f15990b5b5f46a6ab4ea6f6652878339b",
+      "sourceText": "> `request_stop()` 只是请求停止，真正停止必须由工作线程自己配合。",
+      "translatedText": "> `request_stop()` It is only a request to stop; actual termination must be cooperatively handled by the worker thread itself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     },
     "fa5a9b418c594f926f58a59be56aab42555983cb6eec278883c71bd63df71772": {
@@ -267,6 +309,20 @@
         "costUsd": 0.000176
       }
     },
+    "faac1082cf15f04785f5411b099ceed29c599829b5ebdb3e70c0d9cfb8893b10": {
+      "normalizationVersion": 1,
+      "sourceHash": "41b9651c89add514b6ee47f376359d372101cd1e6ef4c0df3e967143897bc36a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本模板写法：",
+      "translatedText": "Template format:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "facc325391a712c1d05d7c6e06eb60ef28bd844e86672a1ad5d27a238facacf9": {
       "normalizationVersion": 1,
       "sourceHash": "a0e9bb0164b6e89a71cdcf56df2340c39b78643767a416dc6b753c9715de6fe0",
@@ -281,6 +337,76 @@
         "costUsd": 0.000057
       }
     },
+    "facc9c6501bc5037aaccaf60c19ad2b869d10018eafded22f2b3c0fe7956e03e": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f22274bf93964dc1404693be1c80e0895024e0adf7581139e9eaadac09fb978",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后返回。",
+      "translatedText": "Then return\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "facf48cdd176d561d084882f3a37bc54f407e0c61b5d06d921ee89bbd492db81": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b911e7806c3876b23e9a4a14b5ff035b7a3f1f32814d638576e9fdfb3eded06",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为它是单调时钟，不会因为：",
+      "translatedText": "Because it is a monotonic clock, it will not be affected by:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
+    "fad4b9af2e975d32e528056d8d6111127abebc3012eab4922aabee46ce661b83": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a22bea8a3793635fbed8f6c78db7531166d80cb887538fe42f150f29450e302",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这个对象的访问具有特殊可观察意义，编译器不能像普通对象那样随意消除相关访问。",
+      "translatedText": "> Accesses to this object have special observable semantics, and the compiler cannot arbitrarily eliminate the related accesses as it would for ordinary objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "fad5f1c9cf4f61086551509eea4b0a3b918f1aadc4f9df9dd6d32a082934f341": {
+      "normalizationVersion": 1,
+      "sourceHash": "e88e9c1ffdc3d2a25e675d1dc1a00bb8c71abcc87f22ded89a415a74efaed6fe",
+      "contextFingerprint": "cd69f43b7298c59708a62278229d77198c13aa56de4c9db304bb8e18477ff2b3",
+      "sourceText": "| 需求 | 推荐工具 |\n|---|---|\n| 最多允许 N 个线程同时获得资源 | `std::counting_semaphore` |\n| 一个简单的 0 / 1 许可或线程间信号 | `std::binary_semaphore` |\n| 等 N 个参与者一次性全部完成 | `std::latch` |\n| 多个线程每轮都要同步 | `std::barrier` |\n| 保护共享对象一致性 | `std::mutex` |\n| 等复杂共享条件成立 | `std::condition_variable` |",
+      "translatedText": "| Requirement | Recommended Tool |\n|---|---|\n| At most N threads are allowed to acquire the resource simultaneously | `std::counting_semaphore` |\n| A simple 0/1 permit or inter\\-thread signal | `std::binary_semaphore` |\n| Wait for N participants to all complete at once | `std::latch` |\n| Multiple threads must synchronize each round | `std::barrier` |\n| Protect consistency of shared objects | `std::mutex` |\n| Wait for complex shared conditions to hold | `std::condition_variable` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 70,
+        "costUsd": 0.00014
+      }
+    },
+    "fad63a73024b01beb51b6f93dcc6cac098e522d772bc4efbf9ab5ca06fa506c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "068a238e7bae0f05cf59808228455c26d6386e7526839c41ecdb4de0e962a4ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要程序后续继续处理。",
+      "translatedText": "It needs to be further processed by the program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "fadc1d931ac9a43f1430411daf955b82a7d7201be257f553f0cef0c4dc48af60": {
       "normalizationVersion": 1,
       "sourceHash": "53096d2a64890452ea4fdedd77ffeeb16261c3da484cfeb39c8aa33ab76e1d36",
@@ -293,6 +419,34 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "fae6a5c5ef6a929f8d5e242d301bf118fa59760d1532c7c59759ccb3e23eaf38": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a81b9b75d93abd007a6ea46108b1528ea447300d9cc87033263d65f3ce5de46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是普通变量，而且多个线程同时读写它，那么可能产生：",
+      "translatedText": "If it is an ordinary variable and multiple threads read and write it simultaneously, the following may occur:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "faf85b1e7657742183606c2764f7858d3bef646b942a3832eeda9d72d2ff249e": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb1492b9aff920d3a849bb9da2b66c0ad813fea8ad4bb48ee790038454780245",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "应该理解成：",
+      "translatedText": "It should be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "fafa8879b83d9def4cc9c665ca090e7d62ae1236009e59869d647a8c0761540f": {
@@ -321,6 +475,20 @@
         "inputTokens": 152,
         "outputTokens": 30,
         "costUsd": 0.000082
+      }
+    },
+    "fafee7e80c249799e71de745c95b4030038e5bb0277380ea90355ce8365ad5b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "609e249fdb161418199873f6f7abf751e78903f7b3393aec4fb5d20a25d8b947",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只发送：",
+      "translatedText": "If only sending:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5f03c22bb75242f8940819e3b9b4f303160602920debc8affdde0e4cc7845ea3": {
+      "normalizationVersion": 1,
+      "sourceHash": "03c6dc75f4fd676aa4bead228f89b5ddf77e4931cc585b677e0e9c5b45f9e21e",
+      "contextFingerprint": "aae38df239f8e2f7e9036a7fbfd229856a49a815ce99d0f8a09cea15b5da7929",
+      "sourceText": "`strand` 并不是说：",
+      "translatedText": "`strand` It is not to say:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "5f10c0f2daedcffb3329456fb129cdfdd451d3bfdd549908679dba9b2423e41c": {
       "normalizationVersion": 1,
       "sourceHash": "13cfb74b69760c9adce02369ee015500412a78822a3d2ca1eb0a1d8818c1281c",
@@ -57,6 +71,20 @@
         "costUsd": 0.000113
       }
     },
+    "5f26702c4afa1967e06ed690db7ea7c4f7def342a22facac619691f087e433fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb38be4e9f1203467dc3d29c9be51e96b835941fda33f8005d48a0a12751dbdb",
+      "contextFingerprint": "cfd37f8ef7b98b763d86ddb3eb091b3cfb834edc4a0c3c42eb809769641ba7d8",
+      "sourceText": "如果多个变量必须作为整体保持一致，通常应该使用同一把 `mutex` 保护整个状态。",
+      "translatedText": "If multiple variables must be kept consistent as a whole, the same `mutex` should usually be used to protect the entire state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "5f32e9afa757e8ac521a0f8971334807535248cd8dcc05ffe68a29d62e75ff22": {
       "normalizationVersion": 1,
       "sourceHash": "e5127e78a85109731f25d73dc30942b976f1bc49f2ff212496825954ccc6ce7a",
@@ -83,6 +111,20 @@
         "inputTokens": 162,
         "outputTokens": 38,
         "costUsd": 0.000095
+      }
+    },
+    "5f54a4a27fc08e77df42443eb11e8570b2c036ffb997640948a425943822294d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f24f01d6cef2185ee7fa4a81f490a94cf2820c9b542fce008c100b132182fa68",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "开始写，因此会覆盖上一次保存的数据。",
+      "translatedText": "Start writing, so it will overwrite the data from the last save\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "5f5cf1b06a304ada2a751c7c610730f9ed93dc36fe807ba073dd65455df59b32": {
@@ -127,6 +169,20 @@
         "costUsd": 0.000064
       }
     },
+    "5f79245ab3cde76f535963f976af526a70a47cd7d65dd49bd3b96beb48241488": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ec30939cf4b300cb9ff8d8951f9b6a0255814b43a13f099a3da17e0fcabdb0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "取得的不一定是：",
+      "translatedText": "What is obtained is not necessarily:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "5f8c10e140b71ac964b1d13e1bb7b81072964b28e568332802938cac25e94095": {
       "normalizationVersion": 1,
       "sourceHash": "a3f9587a69b92c1e77b77bfa3c3649f3347c72d4d3743d1876bd903de70b6cab",
@@ -155,6 +211,20 @@
         "costUsd": 0.000074
       }
     },
+    "5fb9da0f07cf0a2d2144076844e693e433fd90c6f04d3b9c6381ede8bd2d16cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "920e33b185a75fecd1fd7b6c5b73cc4f4e2f95aba95346e79bb6b53161c49747",
+      "contextFingerprint": "430850dd6d10b3180d5bd2be17c9ea26c431b36472dcc2edfd77077abe95a0ed",
+      "sourceText": "这个程序没有体现“异步”，因为 `timer.wait()` 会直接阻塞当前线程。",
+      "translatedText": "This program does not embody \"asynchrony\", because `timer.wait()` will directly block the current thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "5fc68f2632aae22e5e8aee5830684cb8e0254028da432b6267bee3b5c1378390": {
       "normalizationVersion": 1,
       "sourceHash": "141502b0de52c7765049e36b30065c2901def8b1a10e3ae63c7e303c867c2f08",
@@ -167,6 +237,20 @@
         "inputTokens": 132,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "5fdc1bf0cd03b49b5c824e2742f554108c27caeeae57905db1bcaf8810f4a2b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "62c5ce7214663a88248d5b51cb0681fce24ca18e08738cc5aa0b1cde043576fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "barrier 也可以自己维护：",
+      "translatedText": "The barrier can also be maintained by yourself:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "5feae39b7d986d887114fd9059e6a68f83400f619e7b0467768e5b1126da78ba": {

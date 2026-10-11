@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "67027b9288873c8cc593affec3c4c885d849c56b7d459da13330a1bf52ab0a5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea7a66ad16bfa6076d1aeb2a2f86c0203d84f704418274f906a96a6ae7fd584c",
+      "contextFingerprint": "b1b5ff983ca2d798e2fb48965996e6fbe014ba07a17623f4f3807f8c0c40226f",
+      "sourceText": "下面示例使用 `/tmp/ttyV0` 和 `/tmp/ttyV1`，不用猜测每次变化的 `/dev/pts/N`。保持这个 `socat` 终端运行。",
+      "translatedText": "The following example uses `/tmp/ttyV0` and `/tmp/ttyV1`; there is no need to guess the changing `/dev/pts/N` each time\\. Keep this `socat` terminal running\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "67065ad901fcb8e0bf9dcf25fd90ae380126373a884feae04cac135f6fc1ccba": {
       "normalizationVersion": 1,
       "sourceHash": "e0e84f034589b2c820a8f1a0ca3a175a9623224715c9a2bafb667358857af883",
@@ -27,6 +41,20 @@
         "inputTokens": 188,
         "outputTokens": 76,
         "costUsd": 0.000148
+      }
+    },
+    "6751f19bf378a7fcdf55d3ae3908d5415c76730fa01e2b4ef87cefa72bb5b78c": {
+      "normalizationVersion": 1,
+      "sourceHash": "15f9731e060effaca41f5d682aaca74d37d6fb5f66df5d1fb62c4d7c46a14b2c",
+      "contextFingerprint": "2da0f902428e773560dde5049353c3b8d3897ff3ff96a4f07a27b38b8aa1523b",
+      "sourceText": "例如 `/dev/ttyUSB0`、`/dev/ttyACM0`、`/dev/pts/3`。",
+      "translatedText": "For example, `/dev/ttyUSB0`、`/dev/ttyACM0`、`/dev/pts/3`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "675e086b7b5f853170fa2423639c1fd842b2e919b2513fe261907b6b58dbe2ca": {
@@ -99,6 +127,20 @@
         "costUsd": 0.000117
       }
     },
+    "67ae0b2b6a3ed16f9466cb0b83474c0bdbb43eea83e5adf506380c249a351e69": {
+      "normalizationVersion": 1,
+      "sourceHash": "725d57fc04001f9883f836fe17c3d18b19aef33092a205408e20732a16f9cacc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "运行后，终端里会看到程序输出。",
+      "translatedText": "After running, you will see the program output in the terminal\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "67c76e266cd4405d5c6332f96a495035dbcc2ed351ab0e37a750d050c18746be": {
       "normalizationVersion": 1,
       "sourceHash": "d9a62496b86bd87f82a0adcb14d1a1bed8d5cca53f97ea16edfc95d0d9894ee9",
@@ -111,6 +153,90 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "67c7803b878f67473275893c5c4f59082e6b5c3e705b1d00df7da9f405b33bc5": {
+      "normalizationVersion": 1,
+      "sourceHash": "167d7479e6b3e8b5665d9c076304b9b24024517697db247bf43af7bd22c153b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果任务还没完成：",
+      "translatedText": "If the task is not yet complete:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "67d987882a94edf098b4b2e83ade0bd09117b5ca28498e6f597ab46c0ca328c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f64a6b6d06e4a2b55d9093158d3ca6d14d10053317c398dc22a16f7057c0c3db",
+      "contextFingerprint": "7340178075dae9018be268260aa9bedab561c5e3a1cba408838c054f7b835e92",
+      "sourceText": "工程里经常希望 Asio 在单独线程运行。  \n本例写一个最小的 `IoThread` 类：",
+      "translatedText": "In projects, it is often desirable to run Asio in a separate thread\\.  \nThis example writes a minimal `IoThread` class:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "67d9b22871840d1459376e21c09d7e9b847009306b50f520148c23b8db660c16": {
+      "normalizationVersion": 1,
+      "sourceHash": "16452161810e2eca4f6ac8315f7c1bb979fad0de587af853d7e7221a6a5c13ae",
+      "contextFingerprint": "4e836d8f3a4ec216f020cf965ac9cd314144d654eb0bb36502ca1241a3cb8015",
+      "sourceText": "1. 注册一个 2 秒定时器；\n2. `async_wait()` 不阻塞；\n3. `io.run()` 开始阻塞；\n4. 2 秒后回调函数被执行；\n5. 没有任务后 `io.run()` 返回。",
+      "translatedText": "1. Register a 2\\-second timer;\n2. `async_wait()` does not block;\n3. `io.run()` begins blocking;\n4. after 2 seconds the callback function is executed;\n5. after no tasks, `io.run()` returns\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 41,
+        "costUsd": 0.000099
+      }
+    },
+    "67e51e23cd7e5b39fe5fa9e46a20becb05aa6dc0012a8dabd6de26eb793ecaf1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3c245881bb60918002c238c74bec8633c61dac30b956ef770ee4a95d3fc99fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们最大的区别是：",
+      "translatedText": "Their biggest difference is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "67f0679265ee9e5ac12c07de881a15835a96a7dd031d4bc4813ad26da69add22": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f119d80e6be18622359dde976d2c1f62769beaf34fb944d3ae69223a9a46812",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "停止请求虽然已经发出，但线程要等到阻塞操作返回后才能再次检查。",
+      "translatedText": "Although the stop request has already been issued, the thread must wait until the blocking operation returns before it can check again\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "67fda34adaf0f8ade1d3e2c4f8abb8a3d73ba829b97023f87f30e41e25629655": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6e4bfa47fc7134c31d6fcbae931ee1257e4a2b7e5b347c57f7bec1c7e44a95d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以停止响应速度还取决于工作线程内部在干什么。",
+      "translatedText": "Therefore, the stop response speed also depends on what the worker thread is doing internally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     }
   }

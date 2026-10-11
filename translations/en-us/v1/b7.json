@@ -43,6 +43,20 @@
         "costUsd": 0.000087
       }
     },
+    "b714037f0065c8369a12074e1812aebbaeeb464785be34f8c4ecd6c9f5ef9e45": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba71fef7fd991093ed1072a6956a88e3c7a9a50d6a0c769a70a744442aa83f91",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### latch 最适合表达什么",
+      "translatedText": "### What is latch best suited to express?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "b72b5deb4da6b0e915db31e9246e580bc08e77c930206cb88ac3c8976f4976d0": {
       "normalizationVersion": 1,
       "sourceHash": "f312a3c83175c951144440d814e21e704f2f8e4d90cf024fba1dd18a6281a4b4",
@@ -85,6 +99,20 @@
         "costUsd": 0
       }
     },
+    "b73eeac091c8009a240363704c4aefb5e741db7001d4ea01a299cb82d360efb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "495f1f96b0114ca3fc5354a9a970ec68039fb2a84b6bb64030a54704d174d23c",
+      "contextFingerprint": "a8398502eeb422c592a727ef0e73bdcdb8d9602b22612305c437183b6ec2ccea",
+      "sourceText": "不是 `timer1` 固定属于线程 1，`timer2` 固定属于线程 2。",
+      "translatedText": "is not `timer1` fixed to thread 1,`timer2` fixed to thread 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 22,
+        "costUsd": 0.000071
+      }
+    },
     "b74402192fda26fc51db6786c62b8ef31e2d61101c385050e8bcf41fd5e9575d": {
       "normalizationVersion": 1,
       "sourceHash": "07bc99e49bd7a872272628c8c5b35be435de05d5e8360f900c1570247a23efbf",
@@ -99,6 +127,20 @@
         "costUsd": 0.000157
       }
     },
+    "b74b55d3a8a2ca8b1621817be2aef6c269ecacc8ce00b012542fd29526f8cb77": {
+      "normalizationVersion": 1,
+      "sourceHash": "0305a1ba3ff69bd2c9fb3a5e280e486b4c271db7920577e91c5f7958ddc021df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果下一次继续使用同一个：",
+      "translatedText": "If the same one is used again next time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "b75759e2315c2e216278634e9c367e88ff99941ab90a398ad2a3f75933cf9113": {
       "normalizationVersion": 1,
       "sourceHash": "0452ad9c7024c59fe806cef5f295e8a47edf690ba63876caf771a98263d53b52",
@@ -111,6 +153,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "b75d6f45951618cfc15a6a90655c5ede0cb4833a51fbe6fb3c08faa0e7369259": {
+      "normalizationVersion": 1,
+      "sourceHash": "39d39b957c17dfe91bc3aa02998b7b5e48f3ba6d4c88e911fe7d6c34ddc826e7",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这个 atomic 对象本身的操作是不是不可分割的？",
+      "translatedText": "> Are the operations on this atomic object itself indivisible?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "b7659cbf90a3fad90123f44293611813a9e804faaa2481f4f4387959b2311e09": {
@@ -141,6 +197,34 @@
         "costUsd": 0.00008
       }
     },
+    "b76f390e376e308a40c5d24b076ba6faeb0ca1cd10dba96da003187214fcb661": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a1e6d9f15027d4d385efe240c3935c3f03973af31fcb7afbaefcd73cc562863",
+      "contextFingerprint": "d89362e71ff569871668db8e82144232da0eb3c9c4b3fb3830d222e4e6204a5f",
+      "sourceText": "`thread` 开始析构。",
+      "translatedText": "`thread` Begin destruction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b775d552532c147cfae6fe3f457f41eddb6a7f9619e3a737351b4a43dc21f962": {
+      "normalizationVersion": 1,
+      "sourceHash": "92dd64de092cb7352cd714b30b5b15129eddc7f6ea66ac9429de2834d32203bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "strand 保证：",
+      "translatedText": "Strand guarantee:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "b77b5830ba7a460b315341146721278cd2523422aa2c1fccced69471494d6d7b": {
       "normalizationVersion": 1,
       "sourceHash": "87a4919cd8b1c5516a16391180a80fddf67f706b0894f1f81a5c0b1d036e7d5e",
@@ -169,6 +253,20 @@
         "costUsd": 0.000049
       }
     },
+    "b793e5fb055499e06041af8bd0c2d97a42918b0d05824220dae69a042d40d5a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "82bfb3f4f91335f27a3fc6b56675dc37cd4b29e9da63cc798b3b7c326f25aefd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更好：",
+      "translatedText": "Better:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "b79a19d053450ae9450f236edbbf2210db847a629db37318edf0778319a3c5f2": {
       "normalizationVersion": 1,
       "sourceHash": "e35cba5f7d9777240a8a7e26c18f63abe6cf4055063a0ddf4a7db8444c123c5b",
@@ -195,6 +293,20 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "b7bf37ad96912b273335635693a66493133286f43758feca5471be82768558bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "620b4eca4614c3fb6d574e535a63449fc0d375aa8ecf145ea9c21445a88b51cd",
+      "contextFingerprint": "ffa9c7c279dd3f0a177519404317a774e7f6fd5e756f37d160c47dcc0af8d654",
+      "sourceText": "生成后，目录中应出现 `Core/`、`Drivers/`、顶层 `CMakeLists.txt` 等文件；原有的 `applications/`、`bsp/`、`cmake/user/` 继续保留。请在 CubeMX 的设置中保留 `USER CODE`，以免以后重新生成时丢失手动修改。",
+      "translatedText": "After generation, the directory should contain files such as `Core/` and `Drivers/` and top\\-level `CMakeLists.txt`; the original `applications/`, `bsp/` and `cmake/user/` are retained\\. In the CubeMX settings, keep `USER CODE` to avoid losing manual modifications upon future regeneration\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 51,
+        "costUsd": 0.000114
       }
     },
     "b7d6d02d111cfd7a4a10a166bfd6286972875749f383e763011c8b3523c19f48": {

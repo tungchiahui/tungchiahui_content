@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "cb07d08db446e55fca15949b5872064eef5fb157b354ff73e0bc647f74373e6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e9ff0734929c47726eee38ea46a3ae62788c02e09ef19a976a89f3501877be3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接：",
+      "translatedText": "Direct:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "cb179334a7e415ca2e3772b9e4d5aa40b7d4b3f0651fc577d214ce678b2eb9a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "06f4dc1c6b09070eaf8d380e8ab5a0f3377293bb79305269685b48e363fcaa40",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还有一个很实用的地方：",
+      "translatedText": "There is also a very practical point:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "cb254aa36b37b8042edb0f03734a7d3abf67392c4af1fab297c1bfd2577164b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "de02020b500b9ef1003a3b67ad481080bfdf0a7fec87835294dd6c53490c8a30",
+      "contextFingerprint": "1a89ac7d8d06794a65d296280464d0a86a391e62d3919f4d5956301fa857507c",
+      "sourceText": "仅仅生成 `compile_commands.json`，不代表 clangd 一定能自动找到它。",
+      "translatedText": "Just generate `compile_commands.json`, it does not mean that clangd will definitely find it automatically\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "cb28c56ec34661de1d27dc1fd4be8c5d6bfdff6d7ce98bda9387528ca35c4fe1": {
       "normalizationVersion": 1,
       "sourceHash": "69fd53abce03fdf839d224183a49c705f9c11efa786cd81ba164bb4913d88d2e",
@@ -27,6 +69,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "cb316d27f338a7d664ccfb3975943f65ca4a32989c12f2ba411fecc8534ec3ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcf63842e23e4badb8bbb0b14ba1107e796fade0bd18d8d1e5b31a38d922c834",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "CAS 是很多无锁算法的核心操作。",
+      "translatedText": "CAS is the core operation of many lock\\-free algorithms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "cb350f135bbb78619ccb87dedf3b41a364d4ec01d8aad45bd0a997397ba4c59d": {
@@ -57,6 +113,20 @@
         "costUsd": 0.000063
       }
     },
+    "cb3e9a4382086b4b6c13f30e18c8838dd5c96c72cd95c8325243a9b429e87611": {
+      "normalizationVersion": 1,
+      "sourceHash": "6357c492f0e533db442931c978a0fe748b0b78e370f7d7cd633793103dfc883f",
+      "contextFingerprint": "72fa3af6595eccac848f15e6c025eb6622fd29e5a9d0ec42c753de2ee30b479f",
+      "sourceText": "原因通常是没有异步任务，也没有 `work_guard`。",
+      "translatedText": "The reason is usually that there are no asynchronous tasks, and there is also no `work_guard`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
     "cb442e0e9b190d8fa47e241648ddcead594521c7a47f43f7078e6fde1636e554": {
       "normalizationVersion": 1,
       "sourceHash": "4c6bbe1de69ad8cf58c184a2d3492243b453c9637c26f12901ff71414afc8129",
@@ -83,6 +153,34 @@
         "inputTokens": 151,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "cb70cfb4e59fd691359627d95c0bf2f52542c56a16adb61cbab6cf56ac777257": {
+      "normalizationVersion": 1,
+      "sourceHash": "270963aacb38905ba9812bdbc41bd8bd2f26b5f64aeec2019bce77fbb935e0d4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：barrier 的参与人数写错",
+      "translatedText": "### Error: The number of participants in barrier is incorrect",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "cb7c519815339c2c5d313a82535041f3caba5e94c23681308c604090b59e1a16": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e659cb3801a79751512a24f6ada2fb9daba2c8ba8cc910b118151a7cdf95f1b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也会自动处理：",
+      "translatedText": "It will also automatically handle:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "cb8aec345588dbb89349e4c20375f27f0c8798e6e7d1963ae567be5d87b07cfa": {
@@ -141,6 +239,20 @@
         "costUsd": 0
       }
     },
+    "cb9f9097d696f7f8eea568fddd05a1100b8fc0c2d6d3e7e741cca80ca4d54bb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "60840df037ca1679ee9a9e06b165df9efcb7b9735b9bc731b30533f927685a62",
+      "contextFingerprint": "7759500c3d7348cde51542ebce50d4e57f41f07840eddc5f0bcfa1504c8391f4",
+      "sourceText": "这俩没有任何性能差距，因为 Standalone Asio 和 Boost.Asio 本来就是同源实现，官方说明 Boost.Asio 是从 Asio 源码周期性转换而来的。",
+      "translatedText": "There is no performance difference between the two, because Standalone Asio and  Boost.Asio are originally implementations from the same source, and the official documentation states that Boost.Asio is periodically converted from the Asio source code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 66,
+        "costUsd": 0.000134
+      }
+    },
     "cbab5c36076fa9bd2f19c7b2ee996c86199b3fd9a56d3fca95be04b90ddb2672": {
       "normalizationVersion": 1,
       "sourceHash": "e29aa00298c14d4ac9a578542ccaac687a319c39d7b84f252d94faad0e36bbf5",
@@ -169,6 +281,20 @@
         "costUsd": 0.000152
       }
     },
+    "cbbe40001024d44ad4db800058e6e663ad89a81ab121f2dd90835226fb1ec4df": {
+      "normalizationVersion": 1,
+      "sourceHash": "2315b42166106e2d803c6d88f7ceac34adb7ab88cf47170c996c7abafca04f07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所有线程都可能永久卡住。",
+      "translatedText": "All threads may be stuck permanently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "cbc0a7d26b87de0a6a4b8114f9ca5eeb94998007f1ebfa82abb197648c7b3a16": {
       "normalizationVersion": 1,
       "sourceHash": "544ce66d32c0d7dd029d4169ba7b2cbe3146be2071fe202f7a546e14784c32a9",
@@ -181,6 +307,20 @@
         "inputTokens": 169,
         "outputTokens": 48,
         "costUsd": 0.000109
+      }
+    },
+    "cbc938a9402b65629712da993589b00aaed16f6034c2871e80012646fec2c786": {
+      "normalizationVersion": 1,
+      "sourceHash": "b00213d54c0408abb260804fc40b4f9364753228821d1f79446a3e1ad87c52be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "生产端可以：",
+      "translatedText": "The production side can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "cbcf231375d20f92bdc868d180b1ddafa89c8e96456acde8b074f4674ccfba75": {
@@ -251,6 +391,62 @@
         "inputTokens": 157,
         "outputTokens": 45,
         "costUsd": 0.000102
+      }
+    },
+    "cbe72c1d2bb4b86e8a5dc742edf2774eabd4ce3a1967d03f1bf3d243e0a482d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "23354e561653aa35bcaf37b133754ad96bd2b6f872dccde0a48a51fd376aa8c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：启动事件循环，处理异步任务和回调函数。",
+      "translatedText": "Function: Starts the event loop, processing asynchronous tasks and callback functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "cbf2c8688170aa19e1c41bc794ff52a1b48cb39a319de8de2462c4c9f1f4bd59": {
+      "normalizationVersion": 1,
+      "sourceHash": "e90dab9d94bbae12e69bbd13f957c0dd67189883bcd84f2f6f2cb8768db829e7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 坑 3：类里绑定成员函数写错",
+      "translatedText": "### Pitfall 3: Incorrectly binding a member function in a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "cbf57dc2d548f6c0774460b1ea829c565436020a6335eb455245e446b018cf00": {
+      "normalizationVersion": 1,
+      "sourceHash": "b13ce17003ba7e20bdd008821fedbc7e4882a9ece6d611ea54d5f14cec49447b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **同一时刻只能有一个线程进入临界区。**",
+      "translatedText": "> **Only one thread can enter the critical section at the same time\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "cbf77b6b8840b324dbc1bfcacf61c6403514c079b095e1dae9257a0f51a2c382": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdeeb9be80f113a933c22aea0b858eebefe8556748ade91f78a211ae5e150dda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完整过程：",
+      "translatedText": "Full process:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "cbf95451a87c2e351dbd43c8ddc91510b9549fd3cfae76915302eda9d5da1eea": {

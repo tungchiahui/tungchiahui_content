@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "da19ba411dd579cb2c385d9c2dc371869dcb13376511031a1c618adb5a619a29": {
+      "normalizationVersion": 1,
+      "sourceHash": "b09008d7da01f84362e9db9f6c803e49ca64bf9c896f409a7e399db71480b2e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回：",
+      "translatedText": "Return:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "da1be2befc4865ff85bc486d11ea3f82af82dd17a12c3d14781eeeb5621589fd": {
       "normalizationVersion": 1,
       "sourceHash": "59f9b9fa4897c879e20dd2b91790d17184065496605401324fba475a260d0394",
@@ -15,6 +29,34 @@
         "costUsd": 0.00006
       }
     },
+    "da208d23dd66ad9e4a89ca49ad24f26c6b845fec3976d90d6f46b277ea73c133": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c64706336ee0dfbfd7af83f9333dd65c4019d29d9dbeba02432a1beba805260",
+      "contextFingerprint": "b43e7f7c4703570e0aa587006394749a9ce8eb06898985339c3b38f8bd20f295",
+      "sourceText": "### `boost::asio::async_read()` 说明",
+      "translatedText": "### `boost::asio::async_read()` Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "da2fa0b19ebc898ab30e15cf9020a9b4143b2b6c7934d5096ba169a8fdc44431": {
+      "normalizationVersion": 1,
+      "sourceHash": "3189ceb5e8c1a20714a5d4dc7e345bb578a0cdeb6ac944953df5c2715316077f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一般不建议模板默认写死编译器，除非你的项目明确要求某个工具链。",
+      "translatedText": "Generally, it is not recommended to hard\\-code the compiler in the template by default, unless your project explicitly requires a certain toolchain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "da372b8cd41ba4d6bcbc2f08008fa753c750f140d972547a02093dbc38056258": {
       "normalizationVersion": 1,
       "sourceHash": "8f89a5fd789eca836ed80c1de55ac442ca8ab430d97618d42e3733f4ae58120d",
@@ -27,6 +69,34 @@
         "inputTokens": 146,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "da3a1a8c8d95997a8768aa0dfeb311d8e746092f251ac2244b6b49e8ff7e960d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0db8a43271e918e9308e054f48c81690ffab442944bdaeaf5a6b2f8ccceb8540",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "生产端最好认真处理：",
+      "translatedText": "The production side should handle this carefully:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "da3beb37702b3d65be00a0e860b0893ea513e113dce416e35fb1f51ac93e7dbb": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d8d695a7726d1cc8976950c9dac6d36daff4559d63e4a22e4eb529210ca72f7",
+      "contextFingerprint": "ad162faa83eb46ec3259d6d1d10e6a5be51690501c5b3c1aa822295819955088",
+      "sourceText": "程序打开串口 `/dev/pts/3`，然后异步发送：",
+      "translatedText": "The program opens the serial port `/dev/pts/3`, then asynchronously sends:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "da51fdbc51862dcade945a9a59551b61393344f29f07690678e8be7e8fb45bb8": {
@@ -125,6 +195,34 @@
         "inputTokens": 141,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "daa6939e4bb9f0a110155d767605acb5f72d8e45356734c31691f0ff87727bf8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ea05feed54ee22d591355163051c19e0245d14e2e14b613df3f0bc4388e3c93",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：拿着锁做耗时工作",
+      "translatedText": "### Error: holding lock while doing time\\-consuming work",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "dad6334b4f9d263bceaf40c3f417692dd0c4888390c886a1352b85d83bcc0d27": {
+      "normalizationVersion": 1,
+      "sourceHash": "62b04163be4bedda4d2a54520efc87d6e24a2569a87dfe73d5051f40cdf4f990",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例因此统一使用：",
+      "translatedText": "Therefore, this example uniformly uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "dae44263c414151767785cc55260e6c6850b226d6f74700c9f13bac75e6b89cd": {

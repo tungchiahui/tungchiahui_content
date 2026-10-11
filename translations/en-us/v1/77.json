@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "77043560be8014cd59a953a68ec506cc59d067b1bef3d5a8791a4e139bdc96ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0d59ad78fe7ca0d638c712b2075912c9aa01e92b66e8c1e4927b475771f68df",
+      "contextFingerprint": "e4955878e6a336e77020694a0599f17236b7b52246449136c1b2b05db8b36f5c",
+      "sourceText": "### `promise::get_future()`",
+      "translatedText": "### `promise::get_future()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "770c4aa1ffe1efc3d2399b8a8c1cae16d619e17a215b9b48c688fa0ee7ec5f6c": {
       "normalizationVersion": 1,
       "sourceHash": "aa2b171f6cf9e37cdba23af72323efb1701e5db3bae60b8611a7aa6511d507a4",
@@ -15,6 +29,20 @@
         "costUsd": 0.000054
       }
     },
+    "771ae071cfd3f3ae56d8fa26d1d8e61420fe8f141431b97cc0efb9d2bedfe53b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2eee9d7d7e4b5dbc98fac08d85cea0ace2ba62a47ff0408ac1e703f069a240c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### barrier：可重复的阶段同步",
+      "translatedText": "### barrier: reusable phase synchronization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "77237d3d5be96445c07d91599546eb8e0cfd7e78c6487a4c08e1b3b4d737c792": {
       "normalizationVersion": 1,
       "sourceHash": "e13393ca505e188910b7a90f31e1e3744930f4e7b6856b09329a33216d1cfc48",
@@ -27,6 +55,34 @@
         "inputTokens": 147,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "77277d194277d536e85444218fbc136882253546b271ddaa2f83dc2333f9f11e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f06e1624eee1fcf89c20faa7b6a5bd39723d671f86ae27409fa14dd3eb02537c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 1：监听 UDP。",
+      "translatedText": "Terminal 1: Listen for UDP\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "773ce86d175fc0e434487dced7260dce0a7eb1178175c34ae323bf403f3d0a4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "483de87264a2c7e80f1a0a1ed91ab4ffdfaad801a26a0bb57ecaaad2d2cfe87d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但 mutex 一直被 worker 拿着。",
+      "translatedText": "But the mutex is being held by the worker the whole time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "77411e727d708a64882c0fb7319305f8e2af4fd0d9d4465689809b0cd544026d": {
@@ -309,6 +365,20 @@
         "costUsd": 0.000082
       }
     },
+    "77af137bc16cb7f7925ae2c501b834d90c2cd5143f2705089154a4445f18e917": {
+      "normalizationVersion": 1,
+      "sourceHash": "43d35250d807f6caec558f07c1f523fb69377ba8ac39d40d913b1fd60a000219",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这一次能写多少就先写多少，然后告诉我实际写了多少。",
+      "translatedText": "> This time, write as much as you can first, then tell me how much you actually wrote\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "77b487073cd347e90232c00b4998be4785917514a61cddd969ec03e14d122261": {
       "normalizationVersion": 1,
       "sourceHash": "88b5260afd12866338dc15e455a76b6de86c691f01f7e539536f4c5443f5411c",
@@ -337,6 +407,20 @@
         "costUsd": 0.000105
       }
     },
+    "77c10affe9346e7169b03678ff7db939637dcedddb9b35100532347733b8cf84": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0840f58ef0faae3d2d5b880f288c1a00e2bcdd9c4733c8a93379a219f469a9c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的所有权管理。",
+      "translatedText": " ownership management\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "77c2e0d1ec0395c5e3f2f4506fcd60eafd3b5558965f571b706d8932323bfcf9": {
       "normalizationVersion": 1,
       "sourceHash": "590f45759bc46b138ec20ded58f5d3aa28d06be34895c1b065bb7c03893c6a32",
@@ -349,6 +433,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "77c74ff5436d2cb5a95b3b0b3105043b81ac0744cb80a9c71ea95ecb17372fe9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d8c38911ad9fad71da32a1b009f97d41b45b9972d67c730b1e081ebd4122fce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这就是很多机器人工程里“周期上报状态”的基本结构。",
+      "translatedText": "This is the basic structure of \"periodically reporting status\" in much robot engineering\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "77d5585810960ae56203909a84d1525dd7a03c2f77944ee9e6a63e41ec7aadaa": {
@@ -365,6 +463,20 @@
         "costUsd": 0.000062
       }
     },
+    "77d730f328ce681b6cbaeef3f8fe927d9b2cfd576a9b4020269713004f0a4895": {
+      "normalizationVersion": 1,
+      "sourceHash": "212ff469429a5f8ffad1a7ca47880b32454f5188eeb12d9f37cd2540881028d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原因是：",
+      "translatedText": "The reason is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "77d91fd3b8ae4d8b3af32e91b69c182a9eab6d3c2664803f14699cbed3d60ee8": {
       "normalizationVersion": 1,
       "sourceHash": "d70e82aad1e44cf1a5e6f2333a4f425606866b43e49a9f9913f8419e4c33ad32",
@@ -379,6 +491,20 @@
         "costUsd": 0
       }
     },
+    "77e3d344c92feb80f9751f3347744830ab4dc3fe3800d7798860c4523c399e0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7020df69904805848cce580cb3325451d77a634b60aeb115657aba0e611b2330",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "才会直接使用：",
+      "translatedText": "it will be used directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "77fddb3b57d0703b4b58b4e8d94b3770d742053a9eedfdb9bf793804c0b7cb50": {
       "normalizationVersion": 1,
       "sourceHash": "b6c61304fc9bc727470a41684fc6ad89fa67fbfecd31dbdbe65eb4bfa4aa6938",
@@ -391,6 +517,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "77fe5fa81952747ae6cff6a8fb9d34b99f39d8adebef32447342318a4e7614a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "b09113965402588ea8fc91aa547e56b22c41e518f1d169105ff303722638e4c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发送也是一样。",
+      "translatedText": "Sending is the same as well\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

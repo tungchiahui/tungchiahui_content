@@ -15,6 +15,20 @@
         "costUsd": 0.000158
       }
     },
+    "d304e2b1d70fc1a80f97e9c455f76cb537fac384bdeb057a0a3eefdadbd2f430": {
+      "normalizationVersion": 1,
+      "sourceHash": "07ebdf8b947c80f68ee97c13d7aeebc05af0a901399993a2a74ab55a53c745a4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 编译运行",
+      "translatedText": "### Compile and run",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "d308072d5259688b09f0431c6a6fe5d38642bcce811fd5b329312cb60f6bbc29": {
       "normalizationVersion": 1,
       "sourceHash": "2f10c05a1fef69405fd11582accfb1e79b6dfa3008bf96d884ed45d60c9059ac",
@@ -27,6 +41,20 @@
         "inputTokens": 206,
         "outputTokens": 75,
         "costUsd": 0.000152
+      }
+    },
+    "d30cc30b7b4558a860f813d896edeb3726ac778fb4d205528bdef7c16cbdc232": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bff3945bbeef8171a12f73efcdadfa4417db22200ff251b3ad2e0e9eba6dfad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么程序很快就会走到：",
+      "translatedText": "Then the program will soon reach:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "d3189bcaf5f38c3f6edd54ba69d26cad54642ed2d88d592f54fe1964279a2b0f": {
@@ -113,6 +141,34 @@
         "costUsd": 0.000062
       }
     },
+    "d339c40e16ce6dc8c4ad3bee48cba90d4323dbce5b4c97d67d14f090332707c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4eee416a52b20ccba54c7cf6c12f04c02cf8e20568db32e436aecfb6387fc42",
+      "contextFingerprint": "da8e9d780ad3ebfba5346cff599af2e4bcca21c74c857358877fe01c8d048760",
+      "sourceText": "#### `serial.set_option(...)`",
+      "translatedText": "#### `serial.set_option(...)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d33f1a8e79f4d2a8e22342d8b1ab5aa2fa5f9e3c1a0bc02ad633264d06b0d28a": {
+      "normalizationVersion": 1,
+      "sourceHash": "75fe64970a27ad66b85d47b1d425773ba7387c7f3f7b179be2edfa3fb3ee2f2a",
+      "contextFingerprint": "46cdf296946473f5767249f4d75061b123bcaa2353f84dcfa1890b24a0ac0b3e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789374757000-430588a5.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789374757000-430588a5.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d340bb092a90a6ad126af6edd7cf0742176b78b42ee269789e3bb0ee42120d49": {
       "normalizationVersion": 1,
       "sourceHash": "ed2847f33f2005d08b6f510bdbf3d9a74c0c869f44516ae8086f2f329216de56",
@@ -139,6 +195,20 @@
         "inputTokens": 172,
         "outputTokens": 68,
         "costUsd": 0.000134
+      }
+    },
+    "d354671fbc8a1103a9a07e54122622e9cc1fd1dcee38c0fbc970f0bb2dcbb9c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "678ccb83abd3bf8fd124070eb4e68f359f5c79279f55caf41e581a85444ee80e",
+      "contextFingerprint": "cf265b280ac8d8914267a7c6c982c18e6827e4d5a5f8c6f4da1a75a0e2cab9c1",
+      "sourceText": "比如一个智能指针示例如果只在 `main` 里创建对象然后正常结束，看起来和手动 `delete` 差不多；一旦出现提前 `return`、异常、跨函数传递，RAII 的价值就会立刻显现。一个 Lambda 如果只立刻调用，按值捕获和按引用捕获都可能没事；一旦保存到回调、线程、定时器里，生命周期差异就会变得非常重要。",
+      "translatedText": "For example, if a smart pointer example only creates an object in `main` and then ends normally, it looks roughly the same as manual `delete`; once early `return`, exceptions, or cross\\-function passing occur, the value of RAII immediately becomes apparent\\. If a lambda is only called immediately, capture by value and capture by reference may both be fine; once it is stored in a callback, thread, or timer, the lifetime differences become very important\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 95,
+        "costUsd": 0.000176
       }
     },
     "d3627f1a7ccedc7715077bea14e516acfee746bdc9a1769531e5c2411104b5b3": {
@@ -169,6 +239,90 @@
         "costUsd": 0.000107
       }
     },
+    "d368312699aa72975903bf7f76917f39785276ac948dd8e6d1c565cb79416a42": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1d9e0cfd2d8df1fa24929f4010987d2e5d448a13be89c96523458462f36d7eb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### latch：一次性倒计时同步",
+      "translatedText": "### latch: one\\-shot countdown synchronization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "d373e649e28427502a9659a2635ce8a242a112fe34dbc2f7b96997393596f90f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4bb2ec230c7f349d1bb2d561ec635d378c9e4a3aa56ab5f4e7f0e4b28034f01",
+      "contextFingerprint": "1ffdf1cbd8d9ad04239740fd7f623294c6e87cdae4513658c6174e5ccbc36eb8",
+      "sourceText": "1. 返回 `flag` 原来的值；\n2. 同时把 `flag` 设置为 `true`。",
+      "translatedText": "1. Returns `flag` the original value;\n2. At the same time, set `flag` to `true`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "d39eac53f1b097d15eeb70713b0b134d25d5f11a90d4c0e50441cc301f8c41ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "904b9a3fd9774dd2163d51508c749c8a07b48aa39f34d6dd02cdc9b94daa939f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不能写成这种结构：",
+      "translatedText": "It cannot be written in this structure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "d3cdbfc86f22c1bb36611630c29225f7e8b842fed65235a0ded35ece42d021ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4cd00720013e783587057ed257cd8a9e52c4a0101ee2fd808bf82ff8c6e51de",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常优先考虑：",
+      "translatedText": "Usually prioritize:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d3d6253b60bf7401c24a84435b34dd95f839a27c4e07f3b4edb4b6f9551c6209": {
+      "normalizationVersion": 1,
+      "sourceHash": "b24ee65d95a25cc24e2ffb34557eed3323eabf1cdc54dc7de8a0d8af4a6b6bdd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相当于以后调用：",
+      "translatedText": "Equivalent to calling later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "d3d96c3e30804275c2979354f7e6fd4b599a7abe13574ba5ea204766c2420fb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2197c533deb9b087508b477400de0197cc6842e5a7b66285513a22924c7e12ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还关心：",
+      "translatedText": "Also concerned about:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "d3e33029e545c2aa054cea86de09f705768e1a7d80ed34eed9c597bff2be5f85": {
       "normalizationVersion": 1,
       "sourceHash": "cf82cfcb8873c6e0b19f0e6390a5222c440dacc649567cd3c2a4b88e866803a2",
@@ -181,6 +335,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "d3e35f00a1905cc5cf4d8b718196e381a68b8f5d29e3b7aec5c567e0598ff0cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "43ed10364f4c9202c86efc19fa4fc015eb30a2d2d8b78191192f7da8814316d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那最好显式写：",
+      "translatedText": "Then it is best to write it explicitly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "d3e3a5e08c53df4c26977e86d663646328fb4191d18d2859f2c649b3b841e052": {

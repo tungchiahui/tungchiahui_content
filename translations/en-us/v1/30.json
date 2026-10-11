@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3015abe0ae32a8e2769b2a39fcf9b112c362a9a51d729a5e14ed79e0f0aa0700": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e12066cb361c2e5a1467d6f88b637eecaf6869d4a66c194b3765fb7097fe40a",
+      "contextFingerprint": "a70da12c3d33ba8c796dccee246e91313679ee905f83c0d2828d7e469cda8f18",
+      "sourceText": "下面是**可以单独编译的真实 C++ 代码**。`pack()` 生成一帧，再把这一帧喂给 `feed()`，观察注册的函数是否被调用。在 `Serial_Pack/` 根目录新建 `protocol_demo.cpp`：",
+      "translatedText": "Below is**real C++ code that can be compiled separately**。`pack()`Generate one frame, then feed this frame to `feed()` and observe whether the registered function is called\\. In the `Serial_Pack/` root directory, create a new `protocol_demo.cpp`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
     "301c0fb673794cfebe622d509c5305227acbed491e177cc9dea6eee1779ebd34": {
       "normalizationVersion": 1,
       "sourceHash": "5ee7a7230feb5f0404f64e7040c3d13b73411b83a4b952045a7612f4dcc4786e",
@@ -99,6 +113,34 @@
         "costUsd": 0.000063
       }
     },
+    "305fd501ff62d5c19b3ae5bfef7d9a6da82a17091a6504972ddcad0248637783": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8d0b946e26e24a008e768983cfc0d3a3055151e3c14e33f41a40d78f4c77bb8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 1：运行 UDP Echo Server。",
+      "translatedText": "Terminal 1: Run a UDP Echo Server\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3063a050a16df6497ef05ed5a6a9bea8e07d5f5865a51b8ead33c8dbe89ab45d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f06c4cdcc6eee18f8e065796c3ef458fa1b8e8a4799185515567c531435d1e84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果标准库已经有你想表达的模型：",
+      "translatedText": "If the standard library already has the model you want to express:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "3064ca4e869257ce1d9414f028d38a1c6e58f80cac97130af0b099e274bd4150": {
       "normalizationVersion": 1,
       "sourceHash": "350088413162c41c0a7f3018a697a2c0b9152b8cd01a2c3493920c68597b21a4",
@@ -169,6 +211,20 @@
         "costUsd": 0.000056
       }
     },
+    "307df8a0fdfe1aab3008a377cd3abd2340df94714ae70aa03e254bc104847b14": {
+      "normalizationVersion": 1,
+      "sourceHash": "611e13732d3a2123c4e6ea338b640c6f8e69cafa49a91f855fa2c73c5cbfad85",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "strand 保证的是：",
+      "translatedText": "What strand guarantees is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "308b83e2607177ffa5542eb76108a932988de38ec3fa991cfa076263dfd67d58": {
       "normalizationVersion": 1,
       "sourceHash": "0ee7041570d357dd1fb38b524b3cb058cbce3407da32cf829412f2ae6220ebae",
@@ -195,6 +251,20 @@
         "inputTokens": 149,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "309a4a47b73f77a8e96686d8ed77de04c542f1b09f64802d215c5c42e2011895": {
+      "normalizationVersion": 1,
+      "sourceHash": "84a3fb17c360c247fa87675c0fbc356669d6cf8367b657b9c94395ad3c66de7b",
+      "contextFingerprint": "d6387bec309a8d12a3c1a741f06325d3959567b8979c281bab22de392dbc7492",
+      "sourceText": "> `async_write()` = “我要异步把整个 buffer 发完，完成以后调用回调”。",
+      "translatedText": "> `async_write()` = \"I want to asynchronously send the entire buffer, and call the callback after completion\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     },
     "309c8c8ae8dd45a3bfe8e469cd2c04af66ab8d86621e50ce9247412f32ef544a": {
@@ -265,6 +335,20 @@
         "inputTokens": 137,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "30ca63c2d52c9c216d4f2e5ecdc1b4fda4f998c2f18bcd085cdc576c0ff633ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fc58e74dbece9a5e7398f5c1a5e0e304160b6f5b1835aa85dd4deefd6dd3af1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回值：通常不用关心。",
+      "translatedText": "Return value: usually no need to worry about it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "30d28df75be6be41c552ea21aeab8b914443c9910da0317be9a409b9f2ff4ea4": {
@@ -349,6 +433,20 @@
         "inputTokens": 142,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "30ff09bfd709d794210b68485bce066479514b99ca6320c59d7b97c0548fd3ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "2872b662d82d5de450104888bcd79edbfa7466fe4d34629b85c520a07564d24d",
+      "contextFingerprint": "b376746622049201015daa6f113ea0894d0b32c0da9c557b1ae76a08ee22eaf4",
+      "sourceText": "1. UDP 不需要连接，也没有 `accept()`。\n2. UDP 一次发送对应一个数据报，但不保证送达。\n3. 接收端要保存发送方 `endpoint`，回包时用它。\n4. 异步 UDP 的 buffer 和 endpoint 必须活到回调完成。\n5. 周期 UDP 发送可以用 `steady_timer` 实现。",
+      "translatedText": "1. UDP does not require a connection, and has no `accept()`\\.\n2. One UDP send corresponds to one datagram, but delivery is not guaranteed\\.\n3. The receiver must save the sender's `endpoint`and use it when replying\\.\n4. The buffer and endpoint of asynchronous UDP must remain alive until the callback completes\\.\n5. Periodic UDP sending can be implemented with `steady_timer`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 78,
+        "costUsd": 0.000152
       }
     }
   }

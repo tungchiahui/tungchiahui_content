@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "65025e2d494ed0254e92f2b9fa918c6d0d27854d7cbc7186a765a80eef1c79bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd8a45a5af7d578f885632f50579e9f8daa188bceb239578ea77fbf65940c36e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两者职责完全不同。",
+      "translatedText": "The responsibilities of the two are completely different\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "65131d14fbaebba2e36ba55e0eeedca27ec8a44b5d2edeb5bb6ad86ee10befa8": {
       "normalizationVersion": 1,
       "sourceHash": "179e1d9d7d4e629c401423e214ca0d68cefd001aec12f15e665bf94ff5488364",
@@ -27,6 +41,20 @@
         "inputTokens": 160,
         "outputTokens": 43,
         "costUsd": 0.0001
+      }
+    },
+    "653469c642d66d596846acefa985b0dae06a5d43820a4d33f064dba285af827a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8275fb9de021e03725fff5e7e7246e5452ce339826f43a3ebc8fe37aa5e318b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：同步读取串口数据。",
+      "translatedText": "Function: synchronously read serial port data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "653a03571cefa35c91f96a4b5b48d33bb50d812748fa0094774dbf01e23fefd1": {
@@ -71,6 +99,90 @@
         "costUsd": 0.000055
       }
     },
+    "655bfc4aaf7d58097bc8c2c3456bcbc8d0db22af6937640a4ae15f2459726d3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "144c0b526619b7de54fe036deb8218f3d7e479b43b0ddec102743d30b6426930",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把 notify 放锁外，更多是常见的性能和调度优化习惯。",
+      "translatedText": "Putting notify outside the lock is more of a common performance and scheduling optimization habit\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "656032216a44916c1345ebf33c64783ffaa7145bbbdd626f936adbab6fe2f30c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d69f7fa68706252ec71b8a961336e8d27e405e78ec84ce0eba61e4b247db8f67",
+      "contextFingerprint": "8b0b7c49246482e332db560fce596d3b120707949ea5329909168b32a6a9e6d6",
+      "sourceText": "**文件 3：`main.cpp`**",
+      "translatedText": "**Document 3:`main.cpp`**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "656ee016a5151de7e7073e1e917a00d0f129b1de94d084dd3014c6ba6a5c06c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "060b6b719d9ab0e63c5668e5e5a562c1def56e88cf800f9dd3570781ce7cfe03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一个 timer 很难看出异步调度的感觉，所以这次写两个 timer：",
+      "translatedText": "It is hard to get a sense of asynchronous scheduling with just one timer, so this time let's write two timers:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 32,
+        "costUsd": 0.000082
+      }
+    },
+    "657e39f8dae2b17be401b4e9fd8e27ec732db6f497a78e9314b902e4331f3017": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa37773da43ca45b7115f97acb9957edd6e935600e54fe0056cb1dda95b34a1f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不写时由底层构建工具决定。",
+      "translatedText": "If not specified, it is determined by the underlying build tool\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "657f73af6c5511b437810ecedf0d36027c7dadc5b7bccacd0112150a60303e99": {
+      "normalizationVersion": 1,
+      "sourceHash": "94e8eb49ec7c79cb3811bd0adc418a23f9b3939dd6167a490273ed59e76ab59b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你的需求非常简单：",
+      "translatedText": "If your requirements are very simple:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "6596671779565ad487a874e183100f64ad03ee16338e8dc3c5a8f3f040ea8f4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "38826b1ebc8e1016087f0883972f594dc2331ca89373c62a1ea7d3cc12c2f052",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一般更合适。",
+      "translatedText": "Generally, it is more appropriate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "6597f3ecc4997561888fa0cb5c70ee5b55da6d033d6a8193a1ef16985dc25b19": {
       "normalizationVersion": 1,
       "sourceHash": "2fce1de8b7dbaaf45d14068e978286571fbdc183f9c802467934c232d1ef403e",
@@ -83,6 +195,34 @@
         "inputTokens": 141,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "65a082f3e604a61c7d8567d17ef72a1d6b908f038823d21a3601a22cef94d297": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c55df62f489c12df098238f7bb3cdea6863d745218f5bcb93f2502872b85f56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "记住这个规则就够了：",
+      "translatedText": "Just remember this rule and it's enough:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "65a6f1863de42efacdbeb6a3670f906e34d840704315dbefa415bb20f0fe0b43": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1b96712d95ae87bae8ceaeacb941a9ce78fbfcd96b371c1b091e85ebb199262",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "现在想把它变成：",
+      "translatedText": "Now I want to turn it into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "65aa5213cc982679cb2cc42a84b754dc038ae5ce14cdc8f9c8bd2584a0b67a1a": {
@@ -99,6 +239,34 @@
         "costUsd": 0.000191
       }
     },
+    "65ad5ec2bd037a4fbcb9221f003ea1ea351c49224a6af8a234b66c6623354a78": {
+      "normalizationVersion": 1,
+      "sourceHash": "b78bcda6888506e6fd9c6d9ad9e3a7752f057b84ce20387519fe002d402377cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：设置串口参数，例如波特率、数据位、校验位、停止位和流控。",
+      "translatedText": "Function: Sets serial port parameters, such as baud rate, data bits, parity, stop bits, and flow control\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "65b50080caa9130638264e750748de404fc3a929363fcb0dbb4c70196b6a1be0": {
+      "normalizationVersion": 1,
+      "sourceHash": "177fa82ae7cd572ba7c0ef608a1ff4243d7a0f2314a7985303d0efb730b55a5f",
+      "contextFingerprint": "1643601a0c174a3e97f5f18771dd69077d8e5d5559c31e309887a1baaa2a37f4",
+      "sourceText": "## 示例 7：两个线程同时运行同一个 `io_context`",
+      "translatedText": "## Example 7: Two threads run the same `io_context`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "65b98608e694d22e02c5e2d4b378afcce99eb0b38b955e90794586c6c952d5ee": {
       "normalizationVersion": 1,
       "sourceHash": "d0268854979304f82acf2cb21c35fdf477e9c2f46337aa7afc0033b51e16eb13",
@@ -111,6 +279,20 @@
         "inputTokens": 140,
         "outputTokens": 26,
         "costUsd": 0.000074
+      }
+    },
+    "65bf99a661110514c5826d38cd00e96ec37130592e5a5f2f660f58f01d422f7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd7de73eff57fec16dc01185dccaa3d560cf5b1d95d2788c86db1ddaaa87aec3",
+      "contextFingerprint": "76f31645b674de98c5199b3428f0dca87ec66580b855ec743032a0f47dc0250b",
+      "sourceText": "### 下一次读取时，会从 `array` 的哪里开始写？",
+      "translatedText": "### On the next read, from where in `array` will writing start?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "65c0fe78a3b4f753c6564c5572fe12f0b5a0d8597c6dd104cb31a222ae9a698b": {
@@ -139,6 +321,34 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "65d18a5f1428bbfc24b0c061af3b5e2db382916560d0d044c26f331e0f6e97cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8d317318e76a4a32e92bdca74e8dc2bc3fe38ab40187be61fceacf758439ed4",
+      "contextFingerprint": "509023ceb1c9711125526dce997c638511d785ba34165acd31d0de7020db611a",
+      "sourceText": "这个 `msg` 在 `send()` 返回后就销毁了，但异步写可能还没完成。",
+      "translatedText": "This `msg` is `send()` destroyed after returning, but the asynchronous write may not yet have completed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "65d2dcbbe1cdca5a1fe96f4674ce5631073ebc1eab653df21e26477e11899e8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a48c7c65773f1eaca818e3ecb2a80b3ca8d2a485aa720d8971b018ccbf131458",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：",
+      "translatedText": "Note:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "65e9d0e0696b2cdabb98a459a6dd1f077b9a91da4e0fa9c90f0c16d288fcf9ca": {

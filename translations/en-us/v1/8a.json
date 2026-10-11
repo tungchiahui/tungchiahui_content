@@ -57,6 +57,20 @@
         "costUsd": 0.000055
       }
     },
+    "8a3f263d6fd087774b0fd21476d734c9f4e236b92415870e488b18d9833e0604": {
+      "normalizationVersion": 1,
+      "sourceHash": "35310df6de38986ec9e16200a2fd17bcdbfa057140d3e9bbaed1d54fdfdd674d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更好的方式是：",
+      "translatedText": "A better approach is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "8a507865afff96ca3964741c8e7aadb7285c903958236a4f2a2cd2f27dded35e": {
       "normalizationVersion": 1,
       "sourceHash": "bdfb14962488458ab76b8b454a97ec3a493a1a26b703319fc4873416e071a73b",
@@ -183,6 +197,20 @@
         "costUsd": 0.000068
       }
     },
+    "8a8ee26629cbb23aa5629dae507128be3c27aa347b9f5f6b92dccc9fd0827831": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9e61e3f7937a4dd9d7536056189c9e1afbb620015c3d197aaa0de0608dfb178",
+      "contextFingerprint": "8b17a157222445c2e0dfa6f783e452cacd83b199fb1004cd1f21228ab1bf3a99",
+      "sourceText": "为什么要传 `this`？",
+      "translatedText": "Why pass `this`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "8a91758fe60134d10febacd094f16e1b9246f0d35cd5bb9ee10772ff4ee2e771": {
       "normalizationVersion": 1,
       "sourceHash": "d24a7b64c81ab40fd5acef111347751d960556fea13f30d39241327294c61715",
@@ -195,6 +223,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "8a9c1b73e3c4a81fe751eea49db7cd3c527d34fc84f10c0259390b21ecec1897": {
+      "normalizationVersion": 1,
+      "sourceHash": "b760a359d3ca8f1f75e5b647bda9eb35dd91f948b61cf249330de43a30f41319",
+      "contextFingerprint": "dbd98eb3b82f98577d48ebf17e7591d39bf56f12530bd7430da7339faafb5927",
+      "sourceText": "就把所有原子操作都改成 `relaxed`。",
+      "translatedText": "Just change all atomic operations to `relaxed`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "8a9cd5c17a6ab3263cc5ba49467f89d0d32c13941b50c10bce9906483045417e": {
@@ -253,6 +295,20 @@
         "costUsd": 0.000054
       }
     },
+    "8ab71a7eb6109f5c073a7d373c090ec4afa47725e80f7989b3107eb9404a1637": {
+      "normalizationVersion": 1,
+      "sourceHash": "b927fd60c47256af8bca0edfe4acc47677425d1d05636ae9b802e4ab4e45dc8a",
+      "contextFingerprint": "fd8025eb214344566efdebc57650fe69c14851b98259361a767d087223a8c152",
+      "sourceText": "`std::latch` 可以理解成：",
+      "translatedText": "`std::latch`It can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "8ac5dc78a8d7cab1fd67d2e95b547d5003b87dae6862b7400e37cf72d5557869": {
       "normalizationVersion": 1,
       "sourceHash": "bd495bf2a8e72008eefa648387fb772f3b33b3167c2a559b4b56eada7ae5291b",
@@ -267,6 +323,34 @@
         "costUsd": 0.000066
       }
     },
+    "8ad3c8f9b006c6bb1f60a674814bfc2d3b7cce117b1bc1784b83588ebef05596": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbe6dca6d7524cfe840ecad9c37f7cc8eb29c5b0f1f8b36ce59a243192089bed",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：只考虑“现在没任务”，没考虑“以后也不会有任务”",
+      "translatedText": "### Error: Only considered \"no task now\", but did not consider \"there will be no task in the future either\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
+    "8ae5e21db09b5820b33f98b6131600d91157e1a2b213c830f8e9c2c645b4ce50": {
+      "normalizationVersion": 1,
+      "sourceHash": "f31e59aabad86cf3a70ad64a9fda92ec027573a54937a23aaacdfda14979b013",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例 7 中：",
+      "translatedText": "In Example 7:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "8af3ea1029627f1b93f36bdfd9def9aef903594c73564f2a0cebe4106fbe6bba": {
       "normalizationVersion": 1,
       "sourceHash": "799e4212209442dcafd7fd06551509a75cd38009ba971b7655e1acddba184e14",
@@ -279,6 +363,34 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "8af4b496a97ba25d77278fe460da796651365c59c5488e82afed916a9dfd048e": {
+      "normalizationVersion": 1,
+      "sourceHash": "af420bb5cf7c144f68e3eccdd7fb469cd191a4a4ff600351d4a93ed4499673ea",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### consumer 醒来后为什么还要判断",
+      "translatedText": "### Why does the consumer still need to check after waking up?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "8af6b1a8b48e648a3db5655967472880e7249861d1a27cc2725be2ad92a3ddba": {
+      "normalizationVersion": 1,
+      "sourceHash": "baf59b3dc066c6fbf14196b908dfb1b4780a5698da1f1a591c8196a858f8bf09",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "直接运行在 main 线程。",
+      "translatedText": "Run directly on the main thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

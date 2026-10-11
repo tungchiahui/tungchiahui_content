@@ -15,6 +15,20 @@
         "costUsd": 0.000142
       }
     },
+    "be06a40d8813de63d9977611b32d7a0f2c3855ee2777125f9d6fd3e1f3e2ce12": {
+      "normalizationVersion": 1,
+      "sourceHash": "5316bddc8b6139d519d4469992219ba5542c1bee8d0456444e3199862da4ad9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "约 1 秒后，两个 timer 都到期，输出可能类似：",
+      "translatedText": "After about 1 second, both timers expire, and the output may look like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "be0ff71db68fef076564e796fcc5b45332f004121c2206c4661b5a8366446ad0": {
       "normalizationVersion": 1,
       "sourceHash": "956510b8eaa25880b20ba01d3170046e39f3722802cbaf2897dec83e4638985d",
@@ -29,6 +43,34 @@
         "costUsd": 0.000097
       }
     },
+    "be14591d44328cc20b243ce8a01f94d98558687f705bd948937f47defc03e1b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "3de974a4e8bb90b341835a6560e8fb660eeecce02dd2df72b5875ea0a7c41d1c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "里面睡眠，那么只检查：",
+      "translatedText": "If sleeping inside, then only check:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "be272b4567fdd1ae892ea38679ccc8c723af37799f7ef31e6d8770c54ecc0f10": {
+      "normalizationVersion": 1,
+      "sourceHash": "def9a7caa656732398b59806e0bfc7c3b5a1f06ef3c1a65c5902e4f12dcdee4c",
+      "contextFingerprint": "1ced26eea97e0a94aae8a3fddc66c9672ca3d4eafb82e362aa011fef3a1fd591",
+      "sourceText": "本节仍然使用 `std::bind`。",
+      "translatedText": "This section still uses `std::bind`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "be30ddcf2513f155b3c6bf2db60d3e1817a7cf9eb57d6d528f6f3c51c8666bab": {
       "normalizationVersion": 1,
       "sourceHash": "eb618f4a25a7eddd93f95bd6ad778638c1fd68478451df968e23a05d48efa99c",
@@ -41,6 +83,20 @@
         "inputTokens": 156,
         "outputTokens": 46,
         "costUsd": 0.000102
+      }
+    },
+    "be48881a0d5fd31d1285ba181dfbbbe201e1b3dd2084bc2c2c1976d2314f035a": {
+      "normalizationVersion": 1,
+      "sourceHash": "23dcd76b29a00d552a691ab99cfad859e80dbec77ec00da8c2ca138f218f0e5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以异步发送期间：",
+      "translatedText": "Therefore, during asynchronous transmission:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "be4ec1baf1b703647e92e87715f5a90311deeb9c8b34d7efdaf77efe64c01bb6": {
@@ -113,6 +169,20 @@
         "costUsd": 0.000085
       }
     },
+    "be63dc0567bd2a172bc5b7c09379ce8d899fe5d7a42f32f74dd76bbadc70e001": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb31fe47546b849f8254ac919837f9e998e775ddc49be73cb396aae78cd44d1b",
+      "contextFingerprint": "070d93c49197fb402e8f37b44197a8b7567d01dad606d30ed4a2630ddd7e778d",
+      "sourceText": "## `std::promise<T>`",
+      "translatedText": "## `std::promise<T>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "be67a4eb5396722220d8f6ae0551b25b1e6b168b5948195c6261c9038a5a3bd2": {
       "normalizationVersion": 1,
       "sourceHash": "931aeb45cad39a9aa1ffab3eb93f0322f5805f904e921d8ce1bacce583e4a00b",
@@ -155,6 +225,20 @@
         "costUsd": 0.000054
       }
     },
+    "be7c944abc900073e8a9f1ccf87076169805c384c88fec32e6f6be3ef0e56bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e3568c6f68668fbbb4d462e332cb08e6d8b1acb3e901f6a1ec143251abf5a57",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序输出类似：",
+      "translatedText": "The program output is similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "be89c5109a8e3b8cb8cf6c41bbe2a65e17bb28ebdfe64903dfcb37a0e0691ff5": {
       "normalizationVersion": 1,
       "sourceHash": "5d7b4a9b6f490b82e46aea91069ca754df1c565e7f7895d4c8c02a54d7f1d040",
@@ -183,6 +267,20 @@
         "costUsd": 0.000101
       }
     },
+    "bea89c754bf30c6ed2f35bdeab7d493c74d66525788324f348b89b712578156a": {
+      "normalizationVersion": 1,
+      "sourceHash": "43b94dfdc1a612b87dda8e76c7eb9324a2f0d5b7202e7aadf4f14651619234d2",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 多个线程必须直接访问同一个共享可变数据时，用锁保护临界区。",
+      "translatedText": "> When multiple threads must directly access the same shared mutable data, use a lock to protect the critical section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "beadc3156ab9d3c47f963bd184c2dc1f6837d8666f747a7db40885145a48d689": {
       "normalizationVersion": 1,
       "sourceHash": "b1bf0d9bd90ee61985051884e8d67d785b8a72017b38e455da731c0746531206",
@@ -195,6 +293,20 @@
         "inputTokens": 138,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "beadfdc3b423e270b2d86b7b76b47606003d814681f3924fb4c764fba8911642": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f8acd5f05aa20adeb306ed95fbd5c2a75d25c83426cb5b0d92d4ad514422b0c",
+      "contextFingerprint": "3a3237c05cfb4028ffd69cfc9924f0b58fb35ab9ca31bcf01128373846854997",
+      "sourceText": "`boost::asio::post()` 可以把任务安全地投递到 Asio 事件循环。",
+      "translatedText": "`boost::asio::post()` Tasks can be safely delivered to the Asio event loop\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 18,
+        "costUsd": 0.000065
       }
     },
     "beb0da9ad91e380d5ec864aa0b2d0de78141a52647ec2052a9fd7ecb867be4ab": {
@@ -237,6 +349,48 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "bed420663f25e8f2ca0be783ebc557741d46a75ae73564cbf8f0bbdb71782641": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae5f93f9e0a544a6ddbe6be209b38d57855602dec6af73e5cc38e89fe188a360",
+      "contextFingerprint": "ce2a88f02c9b4d2f771ad3722ede84d4cfbcf57c3f3b73df45202a81a8d175d8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474015120-94faf795.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789474015120-94faf795.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "bee9a9af7604e2a3e9a92f7f564aee9d1cc87f8fff39c44becc78f9b48d66b5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cb2adfbf8a1a98d2d538eac1738a58352dd9387a1df5b910b92b8417f6490c8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "约 1 秒后主线程停止它：",
+      "translatedText": "The main thread stops it after about 1 second:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "bef1049c542694492056eca3ef921f085369c20f2922760a768657dce95dd72d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f197552ac5f4ee50332405912b3a3e9194655e199261476caebff1995298e050",
+      "contextFingerprint": "2976cb10856c4e60e3aecd537fb2687e9db01530f8a060cf91f2fcfb2e92a1e3",
+      "sourceText": "在刚生成的**顶层** `CMakeLists.txt` 中，保留 CubeMX 原有的 C 标准设置，在 `project()` 之前加入：",
+      "translatedText": "In the newly generated**top level** `CMakeLists.txt` , keep CubeMX's original C standard settings, and before `project()` add:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 30,
+        "costUsd": 0.000083
       }
     },
     "bef4ecdcd242c471d1be23a7224454df3266b349357ca8dee181099a322408a2": {

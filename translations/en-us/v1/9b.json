@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "9b04d7ef63a5a66916c66906b11e49100471a1cdab6bb363f6cc959202c1c1b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d0410063a12354bb98f11191ac92170c35a7931878f19d5f2a8af19981742cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议先看三个概念小节：",
+      "translatedText": "It is recommended to first read three concept sections:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "9b05bb8ca78d6d90c14827ce6b1fce2b53463056648ed32d2293591e3de57ffa": {
       "normalizationVersion": 1,
       "sourceHash": "647ac84251419967e916432bccf259d6a2139accabb3d40141181112d5eda99c",
@@ -13,6 +27,20 @@
         "inputTokens": 187,
         "outputTokens": 83,
         "costUsd": 0.000156
+      }
+    },
+    "9b170dddf7534a342d87a22ae8a3d7c418410ff6bf45c74a4d91d6a7ed58fe3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a47c0fe3e19f6ff1826da24ab1013034694d9ff1c4a72c9a4bbbcf6f2f1f7732",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "自然也就不需要：",
+      "translatedText": "Naturally, there is also no need for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "9b2afc47d614072fb120f2d89718cd38fe107929c2fe1b03b5f37971f61a1edd": {
@@ -85,6 +113,34 @@
         "costUsd": 0.000091
       }
     },
+    "9b5732d9ecade04d0a48fe3f64a7210db1514eea20d2faa8b0a3331c3f0c129f": {
+      "normalizationVersion": 1,
+      "sourceHash": "73382afa8669b11e50dfac0220709756a6eb4fd9669810289633af93286e551d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同一个 strand 中的 handler 仍然只能：",
+      "translatedText": "Handlers within the same strand can still only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "9b6207627d9ccb1944ecf077d178fdb5a6f7b067f4d9f2b3e2c7b24c1383af50": {
+      "normalizationVersion": 1,
+      "sourceHash": "1252abc95eb21319520917e6ebfac6faca0631cc2b79587ffd6d7e9b93c31a61",
+      "contextFingerprint": "1fa80a91def36bf4f7cf2825efefe41ee16f03c08cd2e08dd3bc85324e47d618",
+      "sourceText": "### 为什么下一次读取会覆盖上一次的 `buffer_`？",
+      "translatedText": "### Why does the next read overwrite the previous `buffer_`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "9b87bf3ca79124a82ca593697df4bee8d34f2b799b0b4c83e835ea1382bc9f94": {
       "normalizationVersion": 1,
       "sourceHash": "89a3cd1747a26fd5eff09ac55939f1275cf96d371474de7fde72dbe4a755798d",
@@ -127,6 +183,20 @@
         "costUsd": 0.000098
       }
     },
+    "9ba79adf7521fb4ea7588b67576b636176365f76d34be295ff9d93d61ec4d58d": {
+      "normalizationVersion": 1,
+      "sourceHash": "abccea6ad89e317617431f4cb2856ab6434a3ec3c0bbf17a32cdd64d1fa792d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如完全可能：",
+      "translatedText": "For example, it is entirely possible:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
     "9ba7b2ceff052a924fc4396b7693dd2f1c1fdc6db35d36f1eb07f5e65ad91dea": {
       "normalizationVersion": 1,
       "sourceHash": "d41ba41fe600607f6a03435bfce3f8c1d38314140e797bd8f33a1b0d4daf3e75",
@@ -139,6 +209,34 @@
         "inputTokens": 179,
         "outputTokens": 54,
         "costUsd": 0.000119
+      }
+    },
+    "9bad407e192120b99936563383fc718084feb9d21adfa21b51290dcb216a141b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fcc6236b65c31ec363b61f84fcfe99c06a654df64c5e2c5e0aa1aaa014e4be66",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "得到的是只读 buffer，适合：",
+      "translatedText": "The result is a read\\-only buffer, suitable for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "9bb5e5ada91f481c8d2e34cab07676bf1742787c55c2c57216a289da1f64f8af": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac24c211c67c479c34112af9cd8293a3301e700e7dbd10f646a6f055a557ea5f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类里同时维护两个 timer：",
+      "translatedText": "The class maintains two timers simultaneously:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "9bc9f7466434448747f84d19122e73e3867e0f8afd601c4b9f9dbc6f60e73122": {
@@ -195,6 +293,20 @@
         "inputTokens": 161,
         "outputTokens": 42,
         "costUsd": 0.000099
+      }
+    },
+    "9bed215740468d5b2293ed87715fb40247c6e4fb5fa9c2f6ded0f397621574af": {
+      "normalizationVersion": 1,
+      "sourceHash": "1233e12a9672eb831d7e9e544221f02f13a4aaa62564ef67b67dc008beff72d2",
+      "contextFingerprint": "2c7ad1a86e46ab35a61e0cb5bf4b8685ce43a736a19090eb89ccbaf2d05483e6",
+      "sourceText": "#### `tcp::acceptor acceptor(io, tcp::endpoint(tcp::v4(), 9000));`",
+      "translatedText": "#### `tcp::acceptor acceptor(io, tcp::endpoint(tcp::v4(), 9000));`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "9bfaf713f7b4f47095738f7b312fdb483efadc2e629404950e8ea109246f03e4": {

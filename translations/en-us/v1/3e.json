@@ -15,6 +15,34 @@
         "costUsd": 0.000058
       }
     },
+    "3e1769339bd974bd982dc76b0b95e7819a812f3bb1d03abdad4f9bf32157f2bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "3423451f17fe244953eb56aac741329cdbf2138c8ae2888264c975befa736e74",
+      "contextFingerprint": "826db052513c96b74c0764bade23381a2c426bafacca3a693d35e57d99e1aeb6",
+      "sourceText": "| 你想做的事 | 命令行 | VSCode CMake Tools |\n|:---|:---|:---|\n| 配置工程 | `cmake --preset linux-debug` | 选择 `Linux Debug` 后点击 Configure |\n| 编译工程 | `cmake --build --preset linux-debug` | 点击 Build |\n| 运行 build 产物 | `./build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击运行按钮 |\n| 调试 build 产物 | 用 GDB 调试 `build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击 Debug 按钮 |\n| 安装工程 | `cmake --install build/linux-debug` | 命令面板执行 `CMake: Install` |",
+      "translatedText": "| What you want to do | Command line | VSCode CMake Tools |\n|:---|:---|:---|\n| Configure the project | `cmake --preset linux-debug` | Select `Linux Debug` and then click Configure |\n| Build the project | `cmake --build --preset linux-debug` | Click Build |\n| Run the build output | `./build/linux-debug/src/cmake_template` | Select the `cmake_template` target and then click the run button |\n| Debug the build output | Debug with GDB `build/linux-debug/src/cmake_template` | Select the `cmake_template` target and then click the Debug button |\n| Install the project | `cmake --install build/linux-debug` | Execute in the command palette `CMake: Install` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 87,
+        "costUsd": 0.000164
+      }
+    },
+    "3e1d5c82d95da81ae24c716933057f6642ed0ab77527d5e79a0fa35e693ad41a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa0193c058cad80d8dc6d357c9d15cd73ebc08b8abf950339efcca876a1588d5",
+      "contextFingerprint": "efa03e06284c50da2e41dfc7838bfdde66fd7310ef76f2ff5858e9dbb082af39",
+      "sourceText": "`worker` 被唤醒后发现：",
+      "translatedText": "`worker` After being awakened, it was discovered that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "3e2e2db3a2d75d792635ff5a2a19c85675d1dcb10b52f255ce5033386a1ec6e2": {
       "normalizationVersion": 1,
       "sourceHash": "2236a840fa4e7590033d38e44dd3a336944712e131863a103501f2765e16fbdd",
@@ -27,6 +55,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "3e403bee110c4cdf54ededefa392a50d62f256500d6483ef16db3abb449dc873": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6acae16a6f9ceb6524741a76e31a6941ef1960cd69b5661eb794d97a41c2977",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第三次也是一样：",
+      "translatedText": "The third time is the same:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "3e49c72f7f7ecba5cac7e019bfa200e38805521a73ec36807d48ba2582764181": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5bf72c9dd75d465c83684a7cb781f57e2152e817b286df58cb24b217ca62920",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 2：监听程序发送的数据。",
+      "translatedText": "Terminal 2: Listen for data sent by the program\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "3e7134fd2a399a53640aafda4489c8af6019b32d078e50e98c07b88a0285a3ce": {
@@ -155,6 +211,20 @@
         "costUsd": 0.000077
       }
     },
+    "3e958ee109ab3f55d1860b471c389edd3df3a7ec0c1f47fbb2e5fd934161764e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ccd81cd834fbb8be1be38e768d2c74344b471f7b8f7f2b601a0f7a625e65b8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "队列变成：",
+      "translatedText": "The queue becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "3ebde8990af7dddc828353002390ec3b3f3f58283a135e184dafb0d5af06ecd8": {
       "normalizationVersion": 1,
       "sourceHash": "07ff12e7501a179be45d346da4d12b28d85d033fa3da075d6b048a1e46641c06",
@@ -195,6 +265,62 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "3ede824dfaa19244560b40ad934c2db79001c8d5a487510339382456da080b50": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bea9435d326615b69caf905ed25d1f201037ae9e167afff8e115269b6cbc862",
+      "contextFingerprint": "49e5a00cf9d334396f6f83ae61eef43e5c2346416473f18be805195ac4cc8084",
+      "sourceText": "Modules 不需要头文件。模块文件通常用 `.cppm` 扩展名（社区惯例）或 `.ixx`（MSVC）。",
+      "translatedText": "Modules do not require header files\\. Module files typically use the `.cppm` extension (community convention) or `.ixx` (MSVC)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "3edea8a47b6d534ae4d896d9b9014c5fd1b1754703b35ec0b46a32b5e32ce338": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a3be42ce8ad26c6898fe07d754c6dae5c584e2989ee792cc5660531f9511cfd",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "如果项目可以使用 C++20，对于这种线程：",
+      "translatedText": "If the project can use C++20, for this kind of thread:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "3ef0943046b8a488e38dc28f5cff5cfe53fa8a3967b457ede4c7e2ec7c9ec1fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "f24e189073ac193a33a58130a684d47429f2561796f139dd29ef68cd000b6891",
+      "contextFingerprint": "8abae7bd523ca2f667b215ba98327aa11e3bf6c5a1cb5c7a8c56090c862e06c8",
+      "sourceText": "`std::jthread` 也可以像普通 `std::thread` 一样运行普通函数。",
+      "translatedText": "`std::jthread` It can also run normal functions like a normal `std::thread`\\. ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "3ef4fde377ea10009a1dff1aa1dc5456c0866dba2717083e95a5a63aee71770f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8a4e5c176c3c8402d7e47de930e2e14b7b51c92291419721277ca249720a41f",
+      "contextFingerprint": "1158c88f5c290834a856d205885572bc58908ebf382ff71086fd652eb91cce9d",
+      "sourceText": "#### `weak` 和 `strong`",
+      "translatedText": "#### `weak` and `strong`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "3efb38aa635da8936025d6b001f3a2a9b3cba9533e1c17ecd2f2057b42e918e7": {

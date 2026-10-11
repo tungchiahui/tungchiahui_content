@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "1e04cbeee11d6d05f0ebd823e04939b4101b72dbda1e06626e62fc9fe9887706": {
+      "normalizationVersion": 1,
+      "sourceHash": "211089ef172da4cdd9a180eac7c03c4e85f1455e22674a71c0ccab26c416ad5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通业务代码经常不需要关心这个返回值。",
+      "translatedText": "Ordinary business code often does not need to care about this return value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "1e10802c9e81c94886a32f1f398419721bad70ff56fea3051de2c9f6f8efa710": {
       "normalizationVersion": 1,
       "sourceHash": "fab2cd40b321d89ce101789491402d87a3d84aff1167939c9ef06844130b5b6d",
@@ -27,6 +41,20 @@
         "inputTokens": 164,
         "outputTokens": 53,
         "costUsd": 0.000113
+      }
+    },
+    "1e15ae807b402d866bbc84c41c28d9054d75dd3f2201f3e5125935ef32cf1ef2": {
+      "normalizationVersion": 1,
+      "sourceHash": "8441b33a34e1d2b2b21e4ab903b4b3ff42870f6c71156d6119b18f18339e3302",
+      "contextFingerprint": "495aae045253e96024c8b50ef1f0822ad1d62841b95ff61aaf7e611f436b9af4",
+      "sourceText": "如果是 `shared_ptr` 管理生命周期：",
+      "translatedText": "If it is `shared_ptr` management lifecycle:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "1e18223730c93d0fac66d663287e2ec956c1d78f1ba6f74819be1e4ec13983cc": {
@@ -57,6 +85,20 @@
         "costUsd": 0.000111
       }
     },
+    "1e1d90a8382ea8e37185d959d584b4aaf752af0e5fafc59efc29f9f24caf600c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef2d820de8d8be5faeb6ec6a4f5bd4407f8247fce4a849390cdcfc148545d883",
+      "contextFingerprint": "cd4e2e760ed03190ec87281579dc30d40528eb8debff8c908468c2ac8058cda2",
+      "sourceText": "还要注意 `const`。",
+      "translatedText": "Also note `const`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "1e1fd2fa89b7279ac61e1afe4b6ba5a68af8bc30a3fc70bda9fbc1116c0cad52": {
       "normalizationVersion": 1,
       "sourceHash": "fe532d71478a43e0d058ae9d6addfaa7da183a47eeb6a282ac04ea136fa9a5da",
@@ -83,6 +125,20 @@
         "inputTokens": 164,
         "outputTokens": 45,
         "costUsd": 0.000104
+      }
+    },
+    "1e262505c675a78d2b8950cadb90fe7fc71637a93ae9b78e6d7cb0a863ab9e60": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4484c22994a677fe2f08dab54c9539b444fc5383aec3bfeacf244f2f554f659",
+      "contextFingerprint": "563e7888b6057ffc09df30f290209ff08a7e692fc784c2952a016938c1cd2cad",
+      "sourceText": "也就是当前值和传进去的旧值 `false` 相同，于是开始等待。",
+      "translatedText": "that is, the current value and the old value passed in `false` are the same, so it starts waiting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "1e2674a107dd3a3ace3b4e303a69e588509d2b9a588cf36877342a496c5e7b22": {
@@ -139,6 +195,20 @@
         "inputTokens": 297,
         "outputTokens": 210,
         "costUsd": 0.000342
+      }
+    },
+    "1e5a58b9bc3935dff9dc61ee2faa897b26ff1bbc32ce6f435a6454a0ae93e93d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c61407bc826e03b264cd571fba8ba92cb16363d3ea2675f1862f4ac4bae8e124",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里看起来会多换一行，是因为收到的数据末尾本身包含：",
+      "translatedText": "It looks like there will be an extra line break here because the received data itself ends with:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "1e6210f9486a949731fc2cfe0b9f3a1df13debfe2021450de42b25bc236e05cd": {
@@ -239,6 +309,20 @@
         "costUsd": 0.000072
       }
     },
+    "1e89ce2a49abfee6396239d2b93916bb4a40409826fc1ba7768de96d0f43ecf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "fcaea9ac3df24040b86afda9dfbf4420b92c5a74864f58e4c6140be986ca4478",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以及引用对象的生命周期问题。",
+      "translatedText": "as well as the lifetime issue of referenced objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "1e98055726540cf0095a2bc1f8cfbc01a6b72e4c22766b5d0dffe090d6073b96": {
       "normalizationVersion": 1,
       "sourceHash": "2948396ff10365ab3b35bc4ceac1523e25af8d1b57f9cee8029fd45dd001a251",
@@ -253,6 +337,34 @@
         "costUsd": 0.000087
       }
     },
+    "1eaf1ca62fa338496dc73c7352e6847f3dfbab34ebb77cc1460197efd0feff85": {
+      "normalizationVersion": 1,
+      "sourceHash": "62c86938386071d47d8f42b96273cd54258c5e5b92c137eca4fae4414895e993",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时有两个线程：",
+      "translatedText": "At the same time, there are two threads:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "1ebced431a318ad41f6acd241fa3f6fc0d5c88e1f4a639a7c74af429935d1592": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d6b16f725417cc958894a37c67a6516ca49631cf415e590aadc153ab15e2815",
+      "contextFingerprint": "c4ece7dfd67599ebe133d3af1a0d430cec6d8ca1e90a21029e27e2764f700ea7",
+      "sourceText": "因为 `on_timer` 是成员函数，不是普通函数。",
+      "translatedText": "Because `on_timer` is a member function, not a normal function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "1ec377578091633a110d1ddfabc167d09089ca9d1764867fa2eeaa1b3da3caaf": {
       "normalizationVersion": 1,
       "sourceHash": "8b6845b81549a866658e0065ddd744b79be5a694cbceea3fa8226a4743360802",
@@ -265,6 +377,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "1ec808d4f10abe4f9225eac0ede32affa754a6de36bbb8f2abad8eaf04873429": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9fe8f3a7313d34f140ef17b5aae57776c2d6f7b378c0312faae03fb7341071f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要绑定端口，就可以接收别人发来的数据报。",
+      "translatedText": "As long as a port is bound, it can receive datagrams sent by others\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "1ec8ef4e4c14ccf3a72a3ecfcde2b7e01ee30a9b12f14446265b905aa3d0509a": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdb1614c6eba5a0b97efa8094aa295d091c646ac6f2e3410a45fad599bee76a5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 运行 build 目录里的程序",
+      "translatedText": "### Run the program in the build directory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "1ed03977a274019f07f95dfe46df1d7f69db057b7c402d354da9861e197f899c": {
@@ -293,6 +433,20 @@
         "inputTokens": 142,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "1ed94469e71cd51f2dce073f9b41e83bcb44c2d2abf090c0efe7f78c98d881c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "46388fce75c103d54fd010a1d1ae162faeaf95cd79b3fcab22b1ccd764d40061",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 一个完整的异步串口类，通常同时包含“持续读取链”和“发送队列链”。",
+      "translatedText": "> A complete asynchronous serial port class usually contains both a \"continuous read chain\" and a \"transmit queue chain\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "1edd4f4a0eaaa5f0b883e839e13e43f0349d71747f1b0305e0b3ef74733e5cca": {

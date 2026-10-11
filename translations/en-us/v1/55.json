@@ -99,6 +99,20 @@
         "costUsd": 0.00018
       }
     },
+    "5532030c28e3ed2ab58caffe93c5cc76a8d9130240245914441648418d5b4119": {
+      "normalizationVersion": 1,
+      "sourceHash": "02b6631e89453fb5e9edc7546388ae0c2ddac2ccc42a6f2c0d526fa1b6016f73",
+      "contextFingerprint": "8f88729254e80e14434738418fbb76e2f11d4a190799ba90e48aef1cfc674929",
+      "sourceText": "> `boost::asio::buffer(data)` 不拥有 `data` 的内存。",
+      "translatedText": "> `boost::asio::buffer(data)` does not own `data`'s memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "5536d425a9b7e6f423c98fd19fe3cd5f668779ca546acbd47e251886ad7a1b06": {
       "normalizationVersion": 1,
       "sourceHash": "66e6a58e867ef5870d2626c40e14d61c2de90637182f034e6943ddc9482d9be3",
@@ -111,6 +125,34 @@
         "inputTokens": 131,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "553733d4c7bc991c08af68184ab767813f47904bc6a51441e9d12b3882167c43": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd64d528ccec0e8cf6006c3099d2d8fae41b4a3a926aa347f6dea99cee5aa416",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程想进入受限制区域之前调用：",
+      "translatedText": "Called before a thread attempts to enter a restricted region:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "553cb48eb8bbe470b5a2c51699e4e769b99b0231acac3f83ef9452ba0b9646cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "13c75425d54f39ca94514840ab4dfc280025c5ed0bc8472288579dd7e2aaedb1",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 保证“操作是原子的”。",
+      "translatedText": "> Guarantee \"the operation is atomic\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "55478f3e977417133a3942a116cac2a495e09fa69b2413a976fd0f1a9024bf7f": {
@@ -139,6 +181,34 @@
         "inputTokens": 147,
         "outputTokens": 35,
         "costUsd": 0.000087
+      }
+    },
+    "554b0e3247a1136d365e9a4dd7162db46c72b9452773c4b52a9e5443e7d2fbc1": {
+      "normalizationVersion": 1,
+      "sourceHash": "396bbf2cfd2483f6265127abcf0dc38dce866f54b99161bde9758a0011b9e5db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回值：",
+      "translatedText": "Return value:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "554d3f235fd37568bf4eafeb3e43ce8597a78cebb06262cfaf4aa7332426848e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a56c7e87b9830b1bea8c4e80adcdcef51e7c127333b5d66d0b3e068d7c3ca231",
+      "contextFingerprint": "cce2547523ff4b6791f7c1af878f964bc75778593b026905c028602bfdf6ad34",
+      "sourceText": "> **绑定到同一个 `strand` 的 handler，不会彼此并发执行。**",
+      "translatedText": "> **Handlers bound to the same `strand` will not execute concurrently with each other\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "5552e7826a3a114142cb62c3240a01307e8e34a4acd476af4320b7909370fc77": {
@@ -197,6 +267,20 @@
         "costUsd": 0.000076
       }
     },
+    "55805f294dcea49545d12d37b07139b16d534b0f9064cefc1a930747af3e44f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "28e465dc8eb2a28041317cb939825024ca7d84a22b65c8d68b65a631fe71afb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后，可以粗略理解成：",
+      "translatedText": "From now on, it can be roughly understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "5583b0360f4928e8a99ad9e30264d28268341503ad55b8a1232f6bc9a839534e": {
       "normalizationVersion": 1,
       "sourceHash": "57a467ed59d29efd99a1bcc82bfcd2841f27ff2c3690d966f7a2074ab56e2adf",
@@ -251,6 +335,20 @@
         "inputTokens": 130,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "559b869d13417c41888ae18784716e1d89ced18637d6223298bd0a0f28186355": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b2128e93c06c449e094adb6c9682aabb9d2d6e3b8d58a5a7ad90d8d3dc8f909",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这个 future 当前是否还关联着有效的共享状态。",
+      "translatedText": "> Whether this future is still associated with valid shared state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "55a74376962ea7ea3a4bdc93e3a8adbb7220b23d4c547a8cbdb67ac77fff3ad2": {
@@ -335,6 +433,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "55ebd2738a75a75daeb79d5d3ccf80ed208ce9ce52eb6cd7d5f8cf26dc5f1294": {
+      "normalizationVersion": 1,
+      "sourceHash": "e77fe482348ba100a8d4ecbad164706ab2122869710cfa3421c423ebe98ff945",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 整个类的工作过程",
+      "translatedText": "### The working process of the entire class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "55ee362780d12cad4c86dea926674d543a02140cfda0b9b7aef07f5f24a3aa2b": {

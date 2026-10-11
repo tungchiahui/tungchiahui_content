@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3a0256f4b626fddf9231b0089f15b2dcf694b865e21f2c2cba8193126f85554c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9e1d8f2559ce6eefa72c131b1ed539982bc0d6177fb4da32c5efa7980bce4e1",
+      "contextFingerprint": "3d10e2274cd244e537405b6ced66ee06cbcb5e3de7fe305d1ed93676f8e5a937",
+      "sourceText": "`sender_endpoint` 会被填充成发送方的 IP 和端口。",
+      "translatedText": "`sender_endpoint` will be filled with the sender's IP and port\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "3a063fa3012bcf1edef7368d9201969e22fc11ed48d5ee968b529c1656872542": {
       "normalizationVersion": 1,
       "sourceHash": "02b75272415e2b1ef831173d5d49753370d5d0854b15380f37e4b42e2ad036f3",
@@ -43,6 +57,20 @@
         "costUsd": 0.000084
       }
     },
+    "3a28a87cf6332c278a710aa245b81e255a643d1e1924b800a40c54bc96e03bba": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a592fa1bbb98834ed280e99270febdffbda8879e8cd453550f571692289d727",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 buffer 的生命周期足够长。",
+      "translatedText": "Therefore, the buffer's lifetime is long enough\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "3a2a57765952be861deaa6aebaf78735e9572855e78044011b9647cb17787c01": {
       "normalizationVersion": 1,
       "sourceHash": "26ff11775720787327a86cf75f4c9a748f407ccb8a1cf2e6b329165cffe07446",
@@ -71,6 +99,34 @@
         "costUsd": 0.000066
       }
     },
+    "3a3186bb8d0f134ca61b6f3982917692c6a9b2ff97f48e42cc04463b7905a8ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e3f21555024d6992883d1090fa04446329fd3def597dc9aa31c849b4c86fb4f",
+      "contextFingerprint": "0381577c7ae10f7add2f94fda8690d7e9548388516367c2a80e831144c881f7a",
+      "sourceText": "因为 `std::jthread` 发现这个函数可以接收 `std::stop_token`，于是会自动把自己的 stop token 传进去。",
+      "translatedText": "Because `std::jthread` discovers that this function can accept `std::stop_token`，so it automatically passes its own stop token in\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "3a36049ea532bfbb769cb4e6f3a11685e84a8186b80d9939296b986f6c2f9c8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "728b4b074d86e3d1de5a6179f84843061c6f8bec5af739591b32f23dac1ec114",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果当前线程：",
+      "translatedText": "If the current thread:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "3a364e571a36353bf6822804415c5946a62e07eb701f498a77fd53cbc47fba26": {
       "normalizationVersion": 1,
       "sourceHash": "ae7084d2a661345cb2ef8e9ca982b2b3a62039c7a38e6e4126d75d535492478e",
@@ -97,6 +153,20 @@
         "inputTokens": 158,
         "outputTokens": 35,
         "costUsd": 0.00009
+      }
+    },
+    "3a64cf62fa592d2bdfc3dc35e4ad55cb139b4096e174fcf0dc024e133ad5c494": {
+      "normalizationVersion": 1,
+      "sourceHash": "778cc35b6b61888f0939d6b35556de39d17c68c84ecd0904813ea414060b2b74",
+      "contextFingerprint": "c05b9bec7a5b2591e43b5cf6b65b390889e13e50bcf1cc3985fc8947805148db",
+      "sourceText": "而 `std::atomic_flag::test_and_set()` 可以保证多个线程同时竞争时，只有一个线程能够看到原来的值是 `false`，从而成功进入临界区。",
+      "translatedText": "whereas `std::atomic_flag::test_and_set()` can ensure that when multiple threads compete simultaneously, only one thread can see that the original value is `false` and thereby successfully enter the critical section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 37,
+        "costUsd": 0.000091
       }
     },
     "3a68fe5cb75c8342aaba864944bd025bb461f0c27ffc8d0387fe212e505c978d": {
@@ -197,6 +267,90 @@
         "costUsd": 0.000094
       }
     },
+    "3a85bfd52c5331a5093a84f610b431d0dd357b43272db650611d83b8f11bc1f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "af4bc6b36fc9ede544bc20306b8d186f8e2fc452396e189e075af6cf1debd927",
+      "contextFingerprint": "2b71b57ac6f4d4eb441d42f4e306a1e61a4f67595c5fdaa34a976b7a897b0e5d",
+      "sourceText": "## 示例 4：ROS2 节点里使用 Asio 的推荐结构",
+      "translatedText": "## Example 4: ROS2 Recommended structure for using Asio in a node",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "3a8b49bac73bb9ff9d445bf7af9fec06005ea104a8b493a1ae26a3bf32ae2a03": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec6244e0d6105a52bf0fb3073449a1616e116ba50ae243536e6e70e7d69dad70",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设我们不使用：",
+      "translatedText": "Suppose we do not use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "3a99a3849a87cb18209e6c826881fed2931018cae2088c64e0878fed7abb3b46": {
+      "normalizationVersion": 1,
+      "sourceHash": "f905da0755a21b421253f6584363701d208fbdb740f7c4b920cd110d5842d15f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以可以这么理解例子中的worker函数 返回 ≈ 这个线程执行结束。",
+      "translatedText": "Therefore, it can be understood that the worker function in the example returning ≈ this thread has finished executing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "3aa26e8ca8669846eeaaa13e82656bf430214dd9acde7199d029e21542bfe2c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c266736ea1b1b08e2680fbff117987809014acf8aa80198626f8f98bf5c89dd2",
+      "contextFingerprint": "63cfb87c54e8b94381f6b286357e94cdda17124541c35be0040cc3acf1be2553",
+      "sourceText": "`io.run()` 仍然会继续等待。",
+      "translatedText": "`io.run()` will still continue waiting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "3aa52a9a23fd88177b490919187456fd6ebc441c0d4830663f5423c93524ef6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "014d1563c02c8391d8904953fae164026d6aa2f76ecf5e24e1dc6c76c26f130a",
+      "contextFingerprint": "0c387bab0e7ca8779c109e758bfe32d780f5bff48dd5b0eaa67eb61262d4af08",
+      "sourceText": "这样工作线程即使正在条件变量里等待，也能够响应 `jthread` 的停止协议。",
+      "translatedText": "In this way, even if the worker thread is waiting on the condition variable, it can respond to the stop protocol of `jthread`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "3aa70e8bf9b4d923686339e7c99cb2307144a9d7766be6ceac0dee7f0d84cc96": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4749a4f62e8610dd29c2392a0d85931c9ea3c6c56d31451be7a8f70304b3a11",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还是：",
+      "translatedText": "Or:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "3ab12037912105197e8a46fcbc6030825c94af5dcb0c2bcefbd02522046f1fa8": {
       "normalizationVersion": 1,
       "sourceHash": "b6c2304ed0f32f6587a3f83408004bbc7de2a5b8ae2035df99055e85d600ec6f",
@@ -239,6 +393,34 @@
         "costUsd": 0.000089
       }
     },
+    "3abff845359e3f09a1ec66d2270432b1b1c24e3b907ddca4754d279e529848aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "74816d2213292b191221a823cc0d68448b879a843bb890b2c2ec56f0297c44ea",
+      "contextFingerprint": "23f770ec419393d19f5f8e5100ba31752393bd39e5c27531afe5556fbcf28c2f",
+      "sourceText": "> **允许 `io.run()` 在所有真正工作完成以后自然退出。**",
+      "translatedText": "> **Allow `io.run()` to exit naturally after all real work is complete\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "3ac655707bbc76a89bf65ff550f4f8a35dabb4652ed754540e94422c7bece711": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5a3d3a4f080f62ff9343a47a665f33252a40854cf01ba2f9131f8e0c1e12750",
+      "contextFingerprint": "b6dd5a6e8e6269200b0f75ac163e08c9f3f7e410aa63d8fffa455c108d2da69e",
+      "sourceText": "继续输入 `robot` 后，服务端输出：",
+      "translatedText": "Continue inputting `robot` After that, the server outputs:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "3ad280fc1fdf68e9d0d57cdca740831d84042ac8009a224accfce496831d0ff4": {
       "normalizationVersion": 1,
       "sourceHash": "f108b2f8b702a5d8d6aec1ae1f77598b26316663ef3e89b1fd6746a5cb0098b5",
@@ -267,6 +449,20 @@
         "costUsd": 0
       }
     },
+    "3af1ed77fd8a547a508c4af3dd867cfae10bab96aec4d4be71db12059abc7cb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "eac8be1233b43df41ab2eba7a0bf7011e79aff93e6a2598b320f9645efbe2190",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本教程尽量使用标准库：",
+      "translatedText": "This tutorial uses standard libraries as much as possible:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "3af3a4e4942fb2cee5eba41b6f0e6d7ed0bd173c5af27fb720d02ebb6a98e038": {
       "normalizationVersion": 1,
       "sourceHash": "0f03565ac60cf57e32b65261989978e6267819ec9b1d61179d1e302547a8efdb",
@@ -279,6 +475,34 @@
         "inputTokens": 166,
         "outputTokens": 49,
         "costUsd": 0.000109
+      }
+    },
+    "3af4e1786280d9fcc40553e049125245fc5f96c04f68b600c499b8cf3a635d8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a401917788881952ea54d7ebd0f446651a7c4336b49dfee4531067bd289cc8c3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正等待的是：",
+      "translatedText": "What is really being awaited is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "3af797ae4e4146107ac5fa670091de8e7161ce75361c6219b349f2e1b927ddf1": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcd4e33d0dc4d2bf0ea0c8990184142fc27025c711e7f91b8326c2f60355b330",
+      "contextFingerprint": "63cfb87c54e8b94381f6b286357e94cdda17124541c35be0040cc3acf1be2553",
+      "sourceText": "`io.run()` 看到 guard 还持有 outstanding work，也不会退出。",
+      "translatedText": "`io.run()`It will also not exit when it sees that the guard still holds outstanding work\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     }
   }

@@ -71,6 +71,20 @@
         "costUsd": 0.000059
       }
     },
+    "42224b220e0852e7e48f1e56a936ec011a621a4fb4d7009160f45d58a420b4bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "682affb529d80873b250a835f181a9c83cb8b824b67d01ed120949344051a3e3",
+      "contextFingerprint": "1a89ac7d8d06794a65d296280464d0a86a391e62d3919f4d5956301fa857507c",
+      "sourceText": "是否生成 `compile_commands.json`。",
+      "translatedText": "Generate `compile_commands.json`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "42237e39a0502ed61506675a337a6122c3014dbeb7cff5d91915192b1b9f7ee8": {
       "normalizationVersion": 1,
       "sourceHash": "21f3a2404274da6c42276c00ff17b0f47e82f09908f010c221a2e9fa0022f85d",
@@ -85,6 +99,34 @@
         "costUsd": 0.000054
       }
     },
+    "4231cb166c01054908223930c00420057292e3ae19e5e1da5ed4eb68f5fed363": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf29df26a8eb84eabce5405bd2d3d25525bc6282719c7f42043299fe7273d900",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是类似：",
+      "translatedText": "That is, similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "42322f06548d92e2b432a38196b303a0de21c4d13130bc8ea7b047b0f7a0295d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a04f6f68b807465b9b9cd648d817288d128145cc6cbb2ac51d4bb172afa076d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果本例删掉：",
+      "translatedText": "If this example is deleted:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "423781743c9ed75ac4719152a6f3fab4fc88b76b9946c2b864a0a9e808aa9f1d": {
       "normalizationVersion": 1,
       "sourceHash": "69e82f111b816964312f8be07e9d98f85dbfada69ec7c0cfe756fa0a94346851",
@@ -97,6 +139,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "423b94bd798a011ecaf7747f254ba6d0ea55a9aa65c21b8e67a12bc469eb6fea": {
+      "normalizationVersion": 1,
+      "sourceHash": "035cf3ae54bc71dc544ae47aaadb54f954bb126ac84390ccc161951c6be045fd",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 连续异步读取的核心不是写一个死循环，而是在一次异步读取完成的回调里，再注册下一次异步读取。",
+      "translatedText": "> The core of continuous asynchronous reading is not to write a dead loop, but to register the next asynchronous read within the callback of one completed asynchronous read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "423c4cd98e85ec916c1c51cf30084dcc4eb8b53d36e46b2ee8e1c1adbb4f39c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "33e3828f2463e4a0a588e6c2d1479e57a08e6b08e1319b8644460e39a7ae7f0e",
+      "contextFingerprint": "2b72caa5d81a5622a767920af34ce999fced3157343e1c9a47eaacd41c202170",
+      "sourceText": "`request_stop()` 只是发出停止请求，并不会强制中断工作线程。",
+      "translatedText": "`request_stop()`It only issues a stop request and does not forcibly interrupt the worker thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "42525bce5842c0f4fa7be6ac8b1aa73d2741e19fb64a4348dffaf43689912038": {
+      "normalizationVersion": 1,
+      "sourceHash": "90ec1c8b0b33c7e5197942779eb38eb82794af60da02df597f8e1fb50d621055",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以不要因为：",
+      "translatedText": "So do not, because of:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "425fadc17b7871a0f8badf4e6aac76b40b0ac9dcffdaa4c003225ae2355998c1": {
@@ -125,6 +209,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "42781e424e29107c9b6db0dd9b74d82088367928372c22fb904f95d889c23be9": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5e1768f637e0f0b1f632b019809141568d2f2e742f84b18c7c0ed2662104486",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时队列也空了：",
+      "translatedText": "At the same time, the queue is also empty:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 18,
+        "costUsd": 0.000062
       }
     },
     "427dac43f4f608621195b569125b27aceb0b298e133a09a4db9dab8185ba7a4b": {
@@ -211,6 +309,20 @@
         "costUsd": 0.000056
       }
     },
+    "429e09e2359deb0637d760c4f4225ba174c8dfb246bd1a68cfe4aaceff5146dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "60f01f0d865b0f31df2788c4d8146cbab6b572eac1bdccf02feb4b510f595cef",
+      "contextFingerprint": "559b0a7a53d85f3d32a9ac914f0b58b4c5851e2933a3c2c33dfbd399592ee3c0",
+      "sourceText": "如果你只改了 `.cpp` 代码，一般重新 Build 后再运行或调试即可。",
+      "translatedText": "If you only changed the `.cpp` code, generally you just need to rebuild and then run or debug\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "42a2b1ff190feef6085c04c96e0a4b84f7087934fce16ca1d37ec83c5f3992bd": {
       "normalizationVersion": 1,
       "sourceHash": "55da64e987a84689c8078645946911e315793fc2db5f465c27fd4e0e8dfb0b93",
@@ -237,6 +349,20 @@
         "inputTokens": 138,
         "outputTokens": 10,
         "costUsd": 0.000054
+      }
+    },
+    "42c9ee8fc009d582a3c8e76d86f7cd23748ea172d0d7c79b9c48d43014b926aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "238cea4ff82a5fb47f19584b607833420d8322f5af13953fa2dd5ec6d3d936c8",
+      "contextFingerprint": "85afe5ecd69e0d0240a69351a37bfa13a7e8b556c69b16ad43bab29c1c88a893",
+      "sourceText": "> **优先使用标准工具，而不是手写 `mutex + condition_variable + counter`。**",
+      "translatedText": "> **Prefer standard tools over hand\\-written `mutex + condition_variable + counter`\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "42c9f0025f25bbd632d9cbf0bf70d6d242e8716242ab4e3b4bbea48c5e0b6958": {
@@ -267,6 +393,20 @@
         "costUsd": 0.000086
       }
     },
+    "42dacc28fff33d3c30d154338ae6e27f54a79ea72181024dda6abc2c87772253": {
+      "normalizationVersion": 1,
+      "sourceHash": "66bf78b214216ff56d7ffcb1bbb1e09a326ee2c1638614a5627aa4379dcf8857",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里不仅可能拿到返回值，也可能抛出任务里的异常。",
+      "translatedText": "Here, not only may a return value be obtained, but an exception from the task may also be thrown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 28,
+        "costUsd": 0.000076
+      }
+    },
     "42e06d2e0cff68569ce6d92cb41552f5c29223aba569179a698bfa84d3378180": {
       "normalizationVersion": 1,
       "sourceHash": "21b31cc185170c4d150d7e748da98d143d0a914ce3678609f6afb2248f3a4dec",
@@ -279,6 +419,48 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "42e2219996c94c2567605ef7c6689b951c619316d14d328841654d79326ddd27": {
+      "normalizationVersion": 1,
+      "sourceHash": "0bcc3fc7b93cd5d313652f9a1129fca7fe4250962c1530b569cffe81917f8573",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但它本身并不直接解决：",
+      "translatedText": "But it itself does not directly solve:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "42ea0989e8284e4298e77eb360504f5ce785b4f839123c330cf07ae2e5cd8a19": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c6602badce4bd976b2378806e55e7a997d05e055f7450a1cce4573c3a18f386",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，即使串口实际上已经收到了 100 个字节：",
+      "translatedText": "Therefore, even if the serial port has actually already received 100 bytes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "42fcb66ad48a73fa56918345f05649773b7a1d05b4a4c8cf08592f98ea74a629": {
+      "normalizationVersion": 1,
+      "sourceHash": "691e94f8241174f312328d44e669fa558a5e208165c67a26d2232dd07ffe20e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每次读取完成以后：",
+      "translatedText": "After each read is completed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     }
   }

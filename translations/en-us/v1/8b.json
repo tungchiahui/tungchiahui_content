@@ -29,6 +29,48 @@
         "costUsd": 0.000072
       }
     },
+    "8b254c476ff7bd8c40529d3efc56f099599a8daf43b6424b945c23c2ce1beffd": {
+      "normalizationVersion": 1,
+      "sourceHash": "367251b892d63a6af3768e87d24002069e8bbd8e4b9bb658ac03a31863da94fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要把它们混在一起。",
+      "translatedText": "Do not mix them together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "8b322c35daf14054c62fdf74b6deeb8ec28e049ac0b9ced416d1cf92197d03bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "173103ff7d800d71ee251678c99256fabc6c446bf65089d86f047e3ea54de6af",
+      "contextFingerprint": "dbde3bca26cae02e8c02305f4c98e8b96ec2e624493768669d3a04576584f18f",
+      "sourceText": "`Standalone Asio`的版本是`libasio-dev = 1.18.1`。\n`Boost`的版本是`libboost-dev  1.74`,但里面的`Boost.Asio`的版本是`Asio 1.18.0`。",
+      "translatedText": "`Standalone Asio`The version of is`libasio-dev = 1.18.1`。 `Boost`The version of is`libboost-dev  1.74`, but the inside`Boost.Asio`The version of is`Asio 1.18.0`。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "8b3b7af6c8ef7ff87850532e79794f30699902e10be034cb07366e0181847787": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2f0ebf54663c270747f92004d29ec5d27c3a22e8d881b22fe70af656b2b8d44",
+      "contextFingerprint": "5df7866aac9f5b2b062ab84095196835eed57cf31ef6a69f5558bf31be301c38",
+      "sourceText": "### future 转成 shared_future",
+      "translatedText": "### Convert future to shared_future",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "8b47b8d2f61080b0087795a1172027a076f14bb560e52cd10b3ad8da8c7230af": {
       "normalizationVersion": 1,
       "sourceHash": "87e134db4868a812e4b2d05cc7739f75880cb48424779ac88e9cba2f0bfd690a",
@@ -41,6 +83,34 @@
         "inputTokens": 148,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "8b4d1fe84a6a92290873ab823401d6e9a7f51eb1cbe19b8f54c74712b79ed6f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "87bee39b736da786e738c091aa57e486e6c4f1f36ced53279575b2b493d6b667",
+      "contextFingerprint": "61afd31eb9269f7c7e1059581712941235cb68f69e661a6fbaa749eb4ff3d307",
+      "sourceText": "### 为什么结束时先 `stop()`，再 `guard.reset()`？",
+      "translatedText": "### Why does it end with `stop()` first, and then `guard.reset()`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "8b5046ce77833b267f663cfe6346d2e69d0a6d8f984ea4aa70e24a5dc604b564": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6ce76cc9eb9f8312af53a1725015e52917d8c68d7e67480ad41d731cddf3aa7",
+      "contextFingerprint": "230c5f9467faabe5b9b6150622c985d88f1b62b4b8b58c0b2cd8732f5670781b",
+      "sourceText": "- `串口打开失败`：检查设备名、USB-TTL 是否插好、当前用户是否有串口权限。\n- 已打开串口但没有协议回调：检查 TX/RX 是否交叉、是否共地、两端波特率是否一致，以及命令号和字段类型是否对应。\n- `set_unpack_callback()` 返回 `false`：检查命令是否重复、是否超过 8 个回调，或是否传入空函数。",
+      "translatedText": "- `串口打开失败`: Check the device name and whether USB-TTL is properly connected, and whether the current user has serial port permissions\\.\n- Serial port opened but no protocol callback: Check whether TX/RX is crossed, whether they share a common ground, whether the baud rates at both ends match, and whether the command numbers and field types correspond\\.\n- `set_unpack_callback()` Return `false`: Check whether the command is duplicated, whether it exceeds 8 callbacks, or whether a null function was passed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 114,
+        "costUsd": 0.000204
       }
     },
     "8b54e0466cf58766b5c73b8d99c8ca3e0801a761d3cbb01804be304e5357a593": {
@@ -57,6 +127,20 @@
         "costUsd": 0.000089
       }
     },
+    "8b613ca21c40136d547dcbe836c2286eed88555b2698a15a8dce31835f098d0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5adbf4268321ac0a57f2cc07cc764583b7bfdf363da7c8ee4d195b712cbed20",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么必须保存发送数据？",
+      "translatedText": "### Why must the sent data be saved?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "8b63d09ae01efd3ff99939c7a43e45a414b47edfcf35ee837c47221d1688e1ef": {
       "normalizationVersion": 1,
       "sourceHash": "5735816d4f48d38f1a4f111e95bcdcefba8336cdbc6bf232ad7461899d9c03e9",
@@ -69,6 +153,20 @@
         "inputTokens": 138,
         "outputTokens": 12,
         "costUsd": 0.000056
+      }
+    },
+    "8b63d85f4a9db1aca012386a7655b5e1934e2632ba6928e64c198ded30f63ea7": {
+      "normalizationVersion": 1,
+      "sourceHash": "661bcd38385f3ce7659617767667962c878204772e89cbf0a5d6d117785e60dc",
+      "contextFingerprint": "917f58ecbda21bfefa951e33b539b3241b301dd1d44dd60bee9c07becab4d04b",
+      "sourceText": "### `std::future<T>` 是什么",
+      "translatedText": "### `std::future<T>`What is it",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "8b71eec36c76fad405d5fe3dad419809583ed7322b74ae9902e1ef9f433de766": {
@@ -139,6 +237,48 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "8bb2e75df503cdf524ccd4e8816bf3df5588ada2e1e7e029208f7b128b15ac93": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9f4a3e5933be59b5dd4bbca77d8d2bc9ece7af23ca4c96c71b1d7083c006f7e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再过约 2 秒，也就是程序启动后约 3 秒，输出：",
+      "translatedText": "After about another 2 seconds, that is, about 3 seconds after the program starts, output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "8bbd8515e9ea6a266f830f2311c741464f58ebc3fe4b376d22245db5954a7539": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5bfb986aa8dca112f054992e733818bae4da5de81fb3f16952f1b9d0afd99e5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不是在：",
+      "translatedText": "Not in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "8bc2b4248e42e740e00f98c6bb9531db1ce5c14088b2126cffde968b51548c1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d352c41152147c1fc23e038fb1b4e2db6d9692d1731d1404b1b0ba67c323bbe2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会变成：",
+      "translatedText": "It becomes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "8bd87851edeec98ba03326814f3067b5223525561c22d1796fcd7da4d88d5d5e": {

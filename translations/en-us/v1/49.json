@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "490ca784c4e5ce317e855460a2cdf06a34fe5d1fa8ef9c52373badeef183db37": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa6e889c6148b8d674fca3c15e9de867dd2cd7a17c5243ddd05e682c316774c1",
+      "contextFingerprint": "b29532134eae8a8e1018c67c50f3ecee0ed742776d048e0d87727a9ecabc794a",
+      "sourceText": "`std::condition_variable` 最核心的不是：",
+      "translatedText": "`std::condition_variable`The most essential thing is not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "4910263a47aaf5cc00e709ea1c13a6bc110ab04d52e320601cfd46a0cfae597e": {
       "normalizationVersion": 1,
       "sourceHash": "02928c0b1b6cd6ba25b999cda4ec4741fd2b98f58b69de2aa26bba8ceadb4a41",
@@ -57,6 +71,20 @@
         "costUsd": 0.000099
       }
     },
+    "49391ba1d42e755dd307b4b803c55cf0568a64dd7f9e848c08cc742d18f1ca1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "05fedf9d48bdbf82a4fbc01f105002629b0c0c67ff189c70e57f4c0748ce071c",
+      "contextFingerprint": "2b66d4b930faba9eb83c36d31d9754a52299cc6da432d054f360dd4e86a7eff2",
+      "sourceText": "### `packaged_task` 和 thread 配合",
+      "translatedText": "### `packaged_task` in conjunction with thread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "493fdc5f470a250c2bcfdece16f713500c8d5344c3d715666846c6f179e17a1f": {
       "normalizationVersion": 1,
       "sourceHash": "31318cd3c6ded5a63a7d2dcba97422605834f80e0c763ccac826d051ec5e1b34",
@@ -69,6 +97,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4954a171e6d377c50195162d4d28f51965aec0fde22242cd57ffe06f88951684": {
+      "normalizationVersion": 1,
+      "sourceHash": "421e70d5ba4999bbdac4b4e0ed1b193788a0846e87b1a6ba943f63e440205726",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是把未来参与者数量永久减掉。",
+      "translatedText": "In other words, permanently subtract the number of future participants\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "49599ee152dfd36b4907584264f34c47a1c4f9ad999c2c3dd85dc415a45a3ab7": {
@@ -113,6 +155,20 @@
         "costUsd": 0.000094
       }
     },
+    "496ae532e23382baf5f479a4f5b8222d3b665c2af9a1c791ceb538c3474c62c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "102a0d3a2c87f76fa0cfd1ae984f6a7ec03f314a811bd990d1e49596df0a852c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时利用：",
+      "translatedText": "At the same time, utilize:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "496fa66425383b53d19a5cb046c9a91913ad6f43c499263aac1119ae64296bf0": {
       "normalizationVersion": 1,
       "sourceHash": "641f2ffe30317fa05c3a136f300c96258714f167ff31bfbf832672d31ec46653",
@@ -125,6 +181,20 @@
         "inputTokens": 137,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "4975c02f761bd3c119774aff4f61192aa239bd4a6d4112e5729b5136830cc76f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f844d28319da4a9481164ee55d8642cca725c854df0172bf695b6469b4b390eb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以使用 strand 保护某份状态时，需要保证：",
+      "translatedText": "Therefore, when using a strand to protect a certain state, it is necessary to ensure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "497f5a5adece691124e5ae61d29ee2ea19c188699865b4cc26504ce725e1ca4a": {
@@ -169,6 +239,20 @@
         "costUsd": 0.000055
       }
     },
+    "49a0fb0d4bffe1c0f1a20e2e22ed6d23d2286ca6c53181ebb07ab2daf6fbe9ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "9562e2148c5ecaf93ab076f4829330294c2ab191f9cb8db5985d2376ec9b92d8",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 绑定本地 9001 端口；\n2. 阻塞等待一个 UDP 数据报；\n3. 打印发送方地址和内容；\n4. 程序结束。",
+      "translatedText": "1. Bind to local port 9001;\n2. Block and wait for one UDP datagram;\n3. Print the sender address and content;\n4. The program ends\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "49aa89b9c92bb82a736ea6b8ed2c1ac0e854d6d2f110c2de39fcea91e03d4a45": {
       "normalizationVersion": 1,
       "sourceHash": "4d65a7e80af9822e4de47af00d5646243aa70896b4c764f628535f5f9021b3c5",
@@ -211,6 +295,48 @@
         "costUsd": 0.000058
       }
     },
+    "49b11edc177729c050300c5aeb0b750b2bf9d7ae4f9814e12026481e1d749eee": {
+      "normalizationVersion": 1,
+      "sourceHash": "5774ec068dfd4675ef86053464f1ec14ee2365fcf3efb2fe77f9633f59108b5e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就会出现：",
+      "translatedText": "The following will appear:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "49be0403633221a1593ac9690475975163ab8f42dce4723f99f8358ea46b1ca9": {
+      "normalizationVersion": 1,
+      "sourceHash": "73575bdb9d072cedc71350daa61fa7c4399da527713978e2a64098b0f4b6ebac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是 latch 最重要的特点：",
+      "translatedText": "This is the most important characteristic of a latch:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "49c13ddf0998e30f92e927672c7c47ee4b622e7facf5dc9aed5821092c76498b": {
+      "normalizationVersion": 1,
+      "sourceHash": "22860119094465656f99f4808d11b1789bcc038c678b88ac6e28c260ce6667bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际程序中，经常希望：",
+      "translatedText": "In actual programs, it is often desirable to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "49c4d5b71fcf4b8889e35465adb6dc152aaa8af7bfff287ae340f95a0833a95e": {
       "normalizationVersion": 1,
       "sourceHash": "69ecd7d093a6284236358741c2250045d0394e38630f0bae38e0f6a563a40ba7",
@@ -237,6 +363,34 @@
         "inputTokens": 260,
         "outputTokens": 152,
         "costUsd": 0.000261
+      }
+    },
+    "49cfb14f5b970839361c29b42eee9ef0fbcdf1cd952fd7194bbed3babb5a312a": {
+      "normalizationVersion": 1,
+      "sourceHash": "353467aa5be3fcdb7194120df93fbba3fec6dc4d1c4d71d0f94be4b30f7d62fe",
+      "contextFingerprint": "3aa26c1b076df36aae652c1482fe3beddd8b67a65ad0d16af0f30f5f59edf351",
+      "sourceText": "返回值：`void`，没有发送成功状态。这次调用不等待对端确认；如果物理串口尚未打开，提交的帧不会在重连后补发。",
+      "translatedText": "Return value:`void`，没有发送成功状态。这次调用不等待对端确认；如果物理串口尚未打开，提交的帧不会在重连后补发。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 43,
+        "costUsd": 0.000101
+      }
+    },
+    "49d11f249d386bd95efdeb8fd95ccd9999854b62c8fc5fe184c052b4a489e366": {
+      "normalizationVersion": 1,
+      "sourceHash": "4eb6a8e2856b4ae6720b924d3e0482480ba16b38b860476410d5a72ea2b53d67",
+      "contextFingerprint": "8cea930a1bde618847ac1fcc78d93829a87727d35a7febd90af208f3eea98b4e",
+      "sourceText": "### `notify_one()` 和 `notify_all()`",
+      "translatedText": "### `notify_one()` and `notify_all()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "49da6d77ef8d42648ace22ad8d65bf6b7c9ec42b5a5004dfd7a66ed0d376e31f": {

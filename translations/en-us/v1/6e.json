@@ -99,6 +99,20 @@
         "costUsd": 0.000076
       }
     },
+    "6e1c3afd614b7b171717fdc6d6a1db90e856b1d05f4c6ded5bb1b67ee71f550c": {
+      "normalizationVersion": 1,
+      "sourceHash": "544fdf95af5633e988646c175ffcacbecafa982129cc1a54b67120b8d203d6b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果能用标准同步原语直接表达你的需求：",
+      "translatedText": "If your requirements can be expressed directly using standard synchronization primitives:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "6e1de9f3a42d48cc85680558f7cfe3705a66b1c868448919a988ecad0a72a85e": {
       "normalizationVersion": 1,
       "sourceHash": "c4a0ed3b78e2f7a8281c5e6c6b655dbe74cea8995335bdfceec6ed93a38bc52d",
@@ -197,6 +211,20 @@
         "costUsd": 0.000054
       }
     },
+    "6e5bb5aec4ae7c0bb99d4b384debb3641c6cafc1154752e5ff5e946f6c32b82d": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa06872d5d7ffaf953ed7c84f6a770fdf34cdf6a8e8a917956ba8591d3e1ab0e",
+      "contextFingerprint": "7cccae6f932d079a7071bcc1525bc9141a47d27dbca83d6277e49c424c6e1013",
+      "sourceText": "- `nullptr` 让空指针和整数 `0` 分开。\n- `enum class` 让不同枚举类型不能随便混用。\n- RAII 和智能指针把资源释放交给对象生命周期。\n- Lambda 让局部回调写在使用现场。\n- `std::function` 把不同类型的可调用对象统一保存和传递。\n- `std::format` / `std::print` 让格式化输出更简洁，并保持类型安全。",
+      "translatedText": "- `nullptr` Let null pointers and integers `0` be separated\\.\n- `enum class` Prevent different enumeration types from being mixed arbitrarily\\.\n- RAII and smart pointers delegate resource release to object lifetime\\.\n- Lambda lets local callbacks be written at the point of use\\.\n- `std::function` Store and pass callable objects of different types in a unified way\\.\n- `std::format` / `std::print` Make formatted output more concise while maintaining type safety\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 80,
+        "costUsd": 0.000157
+      }
+    },
     "6e5e4cf583b862d2d1eef3b4c404e87817a9fb1ef795b9a1de82c55a7a7ef91f": {
       "normalizationVersion": 1,
       "sourceHash": "cfb9283eba75df64b0a0ad9b13acbc5492299ec23bb659ccbbadef2fab845931",
@@ -253,6 +281,20 @@
         "costUsd": 0.000057
       }
     },
+    "6e6c8823a81ac43505f8669f2d9146c8db5893d71eacf7e676c7d1ec59293971": {
+      "normalizationVersion": 1,
+      "sourceHash": "5186ca6d770d318d1bba91ef521b5b399511633094c3665a7bc8c0d8be510f44",
+      "contextFingerprint": "793279d120aa56dfe4adb31ec77c2fe5f380a7640eb325e1e9a6b171247b22bc",
+      "sourceText": "`std::barrier` 解决的是：",
+      "translatedText": "`std::barrier`What is solved is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "6e750cef49d1d9fe6406cd1efbdfe79779123dbe6ac157232578c5d459145b1e": {
       "normalizationVersion": 1,
       "sourceHash": "522920e5d3c2fb63139222e7deafaaeae9fb3cd32a56761ee816d00774517ebb",
@@ -281,6 +323,20 @@
         "costUsd": 0.000051
       }
     },
+    "6e914504bf52cb68c9636fdd4239a206420f2ef457fd8e4b95166842a24bb66d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a115db62b938b9467321c56f4bb377388def26e54648169869a4178d900cea8c",
+      "contextFingerprint": "dddee85e8295cb19d3f9f1d7047a86579ac1f7b451e83d90360228906ed7d004",
+      "sourceText": "`wait()` 需要暂时：",
+      "translatedText": "`wait()` Required temporarily:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "6e98b00f5c1b90c59a6b5e5212819f291d7d1921e36d6ae9fb49ec65d9423218": {
       "normalizationVersion": 1,
       "sourceHash": "fba00ac949ad5f1f49cb95e8a5fb72f2fe0f17813edace285f1c8e33d0b18d09",
@@ -295,6 +351,48 @@
         "costUsd": 0.000053
       }
     },
+    "6ea78ca12fff1ab88dc90b8425b4a9a797a634355d92087e04768d40c1aa9360": {
+      "normalizationVersion": 1,
+      "sourceHash": "143c9c6d1979d43bb65b1c4a55db9ec04fc2c176226e14172e2d73c63131f1d1",
+      "contextFingerprint": "3c477025b9f3f0d0e1e8dc3b370e5fd4aba2a1ce9472f6ae650ffc9c859c8e08",
+      "sourceText": "#### `CallbackProtocol::reset()`",
+      "translatedText": "#### `CallbackProtocol::reset()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6eae691aae8e4819853a1b2527209b00917fc6af6543beada59dd5120f58bb7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d2ae11e54e0247d3f3ff01c49f0646f881cf54b2bef136f81e66e2ddf2457cd",
+      "contextFingerprint": "7efd9cb0355b083de0483c09f757d134d605369a26dd9cdb939d4d1af4f35c3f",
+      "sourceText": "- Modules 是 C++20 的新编译模型，替代 `#include`，更快、更安全。\n- `export module` 声明模块名，`export` 标记对外可见的声明。\n- `import` 导入模块（替代 `#include`）。\n- 模块接口单元负责暴露 API，模块实现单元负责隐藏实现。\n- 编译器支持在不断完善中，可以了解但现阶段项目中使用需要评估。\n- 学习 modules 的设计有助于理解大型 C++ 项目的模块化思想。",
+      "translatedText": "- Modules are a new compilation model for C++20, replacing `#include`, being faster and safer\\.\n- `export module` declares the module name, and `export` marks declarations visible externally\\.\n- `import` imports modules (replacing `#include`)\\.\n- A module interface unit is responsible for exposing the API, while a module implementation unit is responsible for hiding the implementation\\.\n- Compiler support is continuously improving; it can be understood, but its use in current projects requires evaluation\\.\n- Learning the design of modules helps in understanding the modularization concepts of large C++ projects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 233,
+        "outputTokens": 126,
+        "costUsd": 0.000222
+      }
+    },
+    "6ebbf8acbfc6491bc7686508c64fcbcc236caac7979e35381891c4195bd4c5fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ba620a5ca1b34204f80d8d6dccbaa92778984b1575ba4e38f38f2c00b5e0a18",
+      "contextFingerprint": "ad162faa83eb46ec3259d6d1d10e6a5be51690501c5b3c1aa822295819955088",
+      "sourceText": "程序打开串口 `/dev/pts/3`，设置波特率 115200，然后发送：",
+      "translatedText": "The program opens the serial port `/dev/pts/3`, sets the baud rate to 115200, and then sends:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "6ec06e7cdd71b23bbeebef62bc7becd4e351a6e2557098a8725a5083c06e28f4": {
       "normalizationVersion": 1,
       "sourceHash": "66769fd5efb5ff0e05e9552c580d57956ba390cb0384b1b4f751c4d365e1c8fb",
@@ -307,6 +405,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "6ec3c156ff7dbc1e24439405fdf853d3e3dfeaaca8da4bff2e15287325699322": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb633d6a9fb3219d4f59b795fa2d89f02d0d520756a586bd8db3e6215fbe1306",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正决定正确性的核心是：",
+      "translatedText": "The core that truly determines correctness is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "6ec5ad8e2230d168f84a579ac40838ef9e6a5097c2d4ddbec756c04eeffe10f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "119ba3356f0d98c35e2cb25fbe26eca562091c0f0d69d7693843030a93fa3af5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你本来就有：",
+      "translatedText": "If you already have:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "6ec63940d451c0379d0d50d5510d4c5e89daeea709254df079270feb6ab1785e": {
@@ -335,6 +461,62 @@
         "inputTokens": 152,
         "outputTokens": 29,
         "costUsd": 0.000081
+      }
+    },
+    "6ecceed67c4bef98c7b6511363a8ef6fc276f6f82050277d75805ef26dfd3735": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b8b8c3e7e58bca2102027be72ced1c417ddc8724a64f9457bd54f4b2805832a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表示谓词：",
+      "translatedText": "Predicate representation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "6ece6ae7a56a5fef623c24f57502a21433fb8f1ffb2f00ea596e70fc2bc03fdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "68106eafd5fea937c4ea3d3ea0dd16497c230be7f439bbc61287e5876df4ab95",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里也没有使用 lambda。",
+      "translatedText": "Lambda is not used here either\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "6edd303b4fdcd62448e57f130a222c28bc2be16556600d8677af66e8dda4d3e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4db80871d7942d54b1c8ba27a139905d0b3f50bbb03a4a8c981f1a0b1d24fc7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初始只有 2 个许可。",
+      "translatedText": "Initially there are only 2 licenses\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "6edfc3a44e79c072fc9ea9fe9e31d4f987aa5b12e17a46a43c2e599efef4d8ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d6d25c77e46f34e3bcca255c878f9a7bf0e80a3b920f08b1e424c018b6a001e",
+      "contextFingerprint": "30841001580eb920fd075eef4fe09bf52541d182fd099abd7cdd5def66f5c51c",
+      "sourceText": "通知一个正在等待 `ready` 的线程：",
+      "translatedText": "Notify a thread that is waiting for `ready` :",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "6eee1255350797fb8d646b8577eb0660b88e35214882fd6a3c85ead5bed8badc": {

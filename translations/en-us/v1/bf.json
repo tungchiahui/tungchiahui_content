@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bf0076e11e2d56e3ed23add04b7ba6aa450b353b793c7b3b42246ffdca2e6bb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d4e4eb3c7fafa1fe76d7370dbc5c1e902843fe0731b2fcfe469dc6a8230930a",
+      "contextFingerprint": "00a82ba5d47dec6b6590ba0b63c45ea8b6be9c044d2b78705116347492b10f1e",
+      "sourceText": "### `jthread` 仍然可以手动 `join()`",
+      "translatedText": "### `jthread` Still can manually `join()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "bf022a179c885914d0df37812ac590df7a3caa70037acbbee6b05e6d66a3b4eb": {
       "normalizationVersion": 1,
       "sourceHash": "801260e83c5dd9e3f736a962f307a30b13363e3bbcce9c4f4e41264298bf4762",
@@ -27,6 +41,48 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "bf0f15b63e41a3afe87fea558688c9c8ef2c933129a008269195ba3f65150c6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1974f846a9ee74dc077b707328ec21f71e5d40a2e8b5000ae6ea20a822664ba0",
+      "contextFingerprint": "5a0150f0d227015b154143c5276e1f256c8fa3d2221f26304093ad007ccc6b22",
+      "sourceText": "## 示例 4：`buffer` 的基本使用",
+      "translatedText": "## Example 4:`buffer`Basic usage of ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "bf11e6bb564f9d5189c57a8fa54fd5300ec1b3fdb41578036f0b206265f17b67": {
+      "normalizationVersion": 1,
+      "sourceHash": "3990004e68a2c8293721c1af38f7c6f159ea38728180114c06d22ef9c52ab3d6",
+      "contextFingerprint": "eee0f4165fa5728f455516cf05c1be792674984d77e503a3536412fba52bdf1e",
+      "sourceText": "1. 异步接受客户端连接；\n2. 每个连接创建一个 `EchoSession`；\n3. 异步读取客户端数据；\n4. 异步写回客户端；\n5. 继续读取下一段数据。",
+      "translatedText": "1. Asynchronously accept client connections;\n2. Create one per connection `EchoSession`;\n3. Asynchronously read client data;\n4. Asynchronously write back to the client;\n5. Continue reading the next segment of data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
+    "bf13d485de4d662fdd8a6549307635c4cb797b3038f8cc4c1e9d7011384e5a46": {
+      "normalizationVersion": 1,
+      "sourceHash": "599ba79438bb8c501dc688e371b45c867986532f883eeb7166c27159d7f8fa6e",
+      "contextFingerprint": "014dcd51dc6c6e9257636a9192097b0734e0feb85ec8ea2fe634e4848de6d790",
+      "sourceText": "#### `timer.async_wait(handler)`",
+      "translatedText": "#### `timer.async_wait(handler)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "bf155c7b55522da292e31e9580950fa109149da05689e426a5b6d9f045687b6d": {
@@ -69,6 +125,34 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "bf2d0f20dab038a14218231bd541e510369eb1a44a1958a196f4de225603b52c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9bc1d201824157d6854b01c26470bab5abcb8a8ed5079bb162763eb41caf7c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原因是每次：",
+      "translatedText": "The reason is each time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "bf396dc6d49401da3e88d001e01ce4aab2a171d9400befca22bb9edaf8d1afff": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc041c6d3065580a76b9734bb27a70df95d73ed8587fcec914f4a427655a2697",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不会因为“暂时没任务”而返回，而是继续阻塞等待以后可能到来的任务。",
+      "translatedText": "It will not return just because there is “temporarily no task,” but will continue to block and wait for tasks that may arrive later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 35,
+        "costUsd": 0.000087
       }
     },
     "bf3a85d6c0a09db019f3aa235645d4512ae763e7ba90875343c61217efec2ef6": {
@@ -141,6 +225,76 @@
         "costUsd": 0.000105
       }
     },
+    "bf5db696dd66558bfdbdf8466243910a666e566e5def0ab171dbafab32f90919": {
+      "normalizationVersion": 1,
+      "sourceHash": "da5f46c17309b041a28ec7a420af3842f90220b64477a25b8618d4a5f3a6b22e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更准确地说，如果它仍然 joinable，析构过程概念上会做：",
+      "translatedText": "More precisely, if it is still joinable, the destruction process conceptually does the following:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "bf623f88a628315558df1071bd9ad98572801f9548885b205e9ae359ce0e3e2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7416b2396ab4be585ff2ede9e228f0a3ac03689162c6e738e13ca9963b4ea5a8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更像：",
+      "translatedText": "More like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "bf676f75a7f66a57d56e7b79e22e2abd5c2d816588ada0d2822d972bff6cb6ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdf970ca3205f72d8ffeccb50241c1a17d7a512762d84f405bb3ae9fd240afed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "理论上也可以保护共享状态。",
+      "translatedText": "Theoretically, shared state can also be protected\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "bf67b5f22704b45058187ea7c69ab3275cad2ac98e188b69bde86d592508a59c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9b2aedc0a060409595061c90c24c7b01ecadc5dbbc915995f20b2f595aa5f380",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会调用：",
+      "translatedText": "will call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "bf7cf3c1ea5a2b8b7cf58d85a0c404e94a446a156275d33d58b51b9454403786": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c45b8191aebc9aaf98f63db10accb0ced1a6a9598e0e6612266db702626a438",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中。",
+      "translatedText": "in\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "bf80e079d2e5d5d285fd5097a4fa8b16fbcedac5f65cf7d26c5bbe6f54247f38": {
       "normalizationVersion": 1,
       "sourceHash": "f1a0d29bdcccb1b3583d65c2745cd86c7f6e578b036e1b681c00eafa1fdcfc88",
@@ -153,6 +307,20 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "bf8820fe57b44d0a4a4b6f727ed6d0c8ce32868c0bed6dc0b7db4d4fbddd9c7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a663227d7e62e5a1617364b7e39055f59d2d2075236764e374e0addae47013cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此时存在一种可能：",
+      "translatedText": "At this point, one possibility exists:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "bf9db2ca29592bf1ceab63b40df7ce2c920e186a94d077aa48a98022878142b7": {
@@ -181,6 +349,48 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "bfadd58de072facac25f2912725a666b32ea783e946a713be4ef1bdc9ab60011": {
+      "normalizationVersion": 1,
+      "sourceHash": "68f3ee1513edaba440283e161379673d6205d457395b92ee3acfb11cd2159301",
+      "contextFingerprint": "946604d7bd74a913552e3f16d0e5d43f31ff797ea5273b2b4e4a5a0dfacc1c09",
+      "sourceText": "1. 串口断开重连；\n2. 二进制帧解析；\n3. CRC 校验；\n4. 数据转 ROS2 topic；\n5. cmd_vel 写回下位机；\n6. 多线程安全。",
+      "translatedText": "1. Serial port disconnect and reconnect;\n2. Binary frame parsing;\n3. CRC verification;\n4. Convert data to ROS2 topic;\n5. cmd_vel writes back to the lower computer;\n6. Multithread safety\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 61,
+        "costUsd": 0.000129
+      }
+    },
+    "bfb077ee41dd799266265841bb862c0f0f83a29c3246d379c25168dffa4d2b86": {
+      "normalizationVersion": 1,
+      "sourceHash": "c751a7a99bee7c99d58c796fe04aa61cfdad4dcfd6e03ff97011cda14bca080d",
+      "contextFingerprint": "948c9e6943d2cbb9a2472285d88783c10e267d08e980a4b20160bf25363e8922",
+      "sourceText": "### `io.run()` 返回值",
+      "translatedText": "### `io.run()` Return value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "bfb0f1ca5983d725759120aca5d084c9c475ef2c4f58c1fa3a57b653baa59a86": {
+      "normalizationVersion": 1,
+      "sourceHash": "952938a3bcba9b06f5e5c07af3afcc4168dd95a3220ee6aee715dfadb3ecbbe2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此可以把：",
+      "translatedText": "Therefore, we can take:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "bfb84680ec7c1247e577106c0c55841c9c142602ae536a7dd499eee2bc5a24bf": {
@@ -223,6 +433,34 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "bfdfbef9e3add35e94175997e44f0466e588b4bff66f7dfb5549be0a00880961": {
+      "normalizationVersion": 1,
+      "sourceHash": "79caee6896f9229c062670657d4921ef3e243951c81b1437e77b9dcd43de6bb8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等待 latch 的线程就可以继续。",
+      "translatedText": "The thread waiting on the latch can then continue\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "bff28098441da315085a550790259cfa64e1ae222968da8fe0e0f6e2304dd6ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "374bb9018b0472b450eee2dd947b464b46f0c4d99253d071ec1308675fd28975",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "终端 2：",
+      "translatedText": "Terminal 2:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "bff37d389e147e0887ecfb3ae4fbcac9cce19337944cb03feaf40da8ec9de9ee": {

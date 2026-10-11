@@ -127,6 +127,20 @@
         "costUsd": 0.000074
       }
     },
+    "ee4f148d472225e7c479d1e866a8808e0c96630a78e1a814b1575d8052285848": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9d31a3b13e4ff62e849202aead77b4b800107dc8267147d3b918084c493fbce",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### barrier 会自动进入下一轮",
+      "translatedText": "### After the barrier, it automatically proceeds to the next round\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "ee58ef0472bfa7baa8f2d8581d0d1a3c6954a974a02b94071de91523c1a7648a": {
       "normalizationVersion": 1,
       "sourceHash": "3c54e16d3de689669962d2b2c2a9950703afec5233ed3bdc1afc92344770aa17",
@@ -167,6 +181,20 @@
         "inputTokens": 141,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "ee741671cc87c188837112049bd0f57426c3e61ebdba87abde01de480670d6af": {
+      "normalizationVersion": 1,
+      "sourceHash": "602402b8a69f5bc7579a23f84ffbe87e3dcc6578227d2a128f26e267416b771e",
+      "contextFingerprint": "8b17a157222445c2e0dfa6f783e452cacd83b199fb1004cd1f21228ab1bf3a99",
+      "sourceText": "也不要漏掉 `this`：",
+      "translatedText": "Also do not miss `this`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "ee90f8037b066714ba1ce78b75986844b95da0671334a950cc30d5cc3dd1ecad": {
@@ -281,6 +309,20 @@
         "costUsd": 0.000054
       }
     },
+    "eeca46805d2cfebfb52e2d7baf58d448fa8e15bba6aecb8b184eb3f9c03b57ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "12dd65289ea9809c36ca86e1a9620e48ecb3ac49dcacdf5e48f7845c3218aa35",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把等待线程叫醒，让它们重新检查：",
+      "translatedText": "Wake up the waiting threads and let them recheck:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "eee8727a5917a36eedbb48011fb3ab72e94ad8200dd0051e38bb3f5a86af2eaf": {
       "normalizationVersion": 1,
       "sourceHash": "e627ecbec12b2fde89811f5c941352878abaa50788272ef2ee9b79aebbe08bf7",
@@ -307,6 +349,20 @@
         "inputTokens": 133,
         "outputTokens": 15,
         "costUsd": 0.000058
+      }
+    },
+    "eef65bfbc2883ccd87463ac2ed03fca7495315acc6cd70b568f6f0d03cd69873": {
+      "normalizationVersion": 1,
+      "sourceHash": "77d238fb9813e8b93a4386602145a7857b669216b975d74576805d7d8e7451a1",
+      "contextFingerprint": "b82a643f58b7d176558391f67b3169fbc2051827f5ad0da00abb7b801c73c000",
+      "sourceText": "原因是 Boost.Asio 的异步回调默认把错误传给 `boost::system::error_code`。以后如果你换 standalone Asio 或者标准网络库，再考虑对应类型。",
+      "translatedText": "The reason is that the asynchronous callback of Boost.Asio passes the error by default to `boost::system::error_code`\\. Later, if you switch to standalone Asio or a standard networking library, then consider the corresponding type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 53,
+        "costUsd": 0.000114
       }
     },
     "eefcd2d9319e8b40802eeae5ba95cfc2ab80d06991fbb593a8e5f2a3c437fa10": {

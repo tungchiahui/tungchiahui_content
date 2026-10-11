@@ -71,6 +71,34 @@
         "costUsd": 0.000075
       }
     },
+    "7c2bc53030fe7a927582a564810b878da37da424c81b4258d2fbcf3228fb98b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9aad13ec2728c48e114b0ba52c43b90733624fb70d89b89997ce8d81c6653b35",
+      "contextFingerprint": "4f1b4bb55064f86f9720b66dd64e2bd51bdfc086c6fd3b954860d521b1b359ea",
+      "sourceText": "> **`work_guard` 不是一个真正要执行的任务，而是一份“还有工作存在”的占位声明，用来防止 `io.run()` 在暂时无任务时提前返回。**",
+      "translatedText": "> **`work_guard` is not a task that is actually meant to be executed, but rather a placeholder declaration that \"there is still work to do,\" used to prevent `io.run()` from returning early when there are temporarily no tasks\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
+    "7c2bd72b79c3e4618af21a7faecdbbc11c9abfd18505614d9f8de5dbe6728fb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4653c983429bb083cf8ef8e39f2f90a5a1a4a1de30aeae2429f6cd266304653c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 promise：",
+      "translatedText": "If promise:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "7c2f506dac259ec1e3acf5a4cea8c3906dd36d26ff9baf7bfe77307e2424925f": {
       "normalizationVersion": 1,
       "sourceHash": "1dea70c3d0ab346c7746a1cb4d18ebe72a7756d804b52b59dfc1f2b246bac580",
@@ -83,6 +111,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "7c4ca1363aace23832561a2ad08c60c793839df54d2349a74cf5e37f8d3f5b4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7afc4a15973e10f1bec7e0d24e9c768a6f217e769fae9a236df99ddaae07412",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其中最关键的是：",
+      "translatedText": "The most critical among them is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "7c5dd3d67e60499e97c729b6c245aaa210d54070c0761ee75e1b179538e9387f": {
@@ -141,6 +183,34 @@
         "costUsd": 0.000093
       }
     },
+    "7c7b71b43181ed89c66262ae5869a5139e0470217f35da81c9553b127696fb51": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d586049c7068a384201f46f7692f0a000f68d8c10bf35d89816fee2b479075f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "strand 真正保证的是：",
+      "translatedText": "What strand truly guarantees is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "7c7d3ab588ddf41f97081fa67cd8dd77d9647e936e60665516fc6729ce17bd96": {
+      "normalizationVersion": 1,
+      "sourceHash": "63791b472d0b01de15fa53e4ba1dda6d9b31701e27efef37016df389c9fcafab",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## semaphore：许可数量",
+      "translatedText": "## semaphore: number of permits",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "7c81afb98e8b3267c88e1cb6b707459307faf5aa3ca4876953731ee39d8d775a": {
       "normalizationVersion": 1,
       "sourceHash": "d8bdbb65ea1627ea89c74ebd2df5899c7b2f1ad41810c5424b7b9a9aaa04b0c5",
@@ -167,6 +237,20 @@
         "inputTokens": 140,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "7ca41ea5d3dcc9f569ebd0b036227635053f7698e11d94f6a7e4a398c7dc4bb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "a85c09b9ba919c43b668aac6a13d95756a0ca1f0eba78353bb4d490de9935e8f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发现停止请求后，再退出循环并结束线程。",
+      "translatedText": "After discovering the stop request, exit the loop and end the thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "7cb2360d68b0c1903dedd7e3a17b120cb38ecff8f184317154ae5c4dc394a8bb": {
@@ -239,6 +323,62 @@
         "costUsd": 0.000055
       }
     },
+    "7cd9264abfd1468be96de684bb2ba7a27ed852f684428831bed863ffb31ef818": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ae99e765a2f6895f034f66d0031714a9ae7ea70e43b0eeaaf471024ddeb271d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本模板把安装目录放在项目内，是为了方便学习和删除。",
+      "translatedText": "This template places the installation directory inside the project to make it easy to learn from and delete\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "7cdc961b8e7af304cfdc8a3498f119b6a2ca67b59ba92964615fc4922d2890c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4811509aa8a3d65da69a9bc6432dc12e100e9d719d94d047aed119f70fb689a1",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 把最终结果写入共享状态。",
+      "translatedText": "> Write the final result to the shared state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "7ce75ed9b6e8e152455efb19243e280a93083db6a01a7856c3ad3eef8e139584": {
+      "normalizationVersion": 1,
+      "sourceHash": "b539041535622f04978b6d646416f1578785ee6600e07fec438530efba57640b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里 promise 离开作用域时：",
+      "translatedText": "Here, when the promise leaves the scope:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "7ceb77d82abde69aba991e4669ddc58395e2b414044c06ac6c423ca2f8987344": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b12916a0cb08bcd192ba5ee40ac5da7773c47f4efd0453d67643626fa1bd079",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 关键函数说明",
+      "translatedText": "### Key Function Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "7cf39ed2513ce5f8983559b192a73b00ee8dce63296a6a08fad4298e7b2a610f": {
       "normalizationVersion": 1,
       "sourceHash": "9a39b65a992e109b1b215cd50912af523045c32497b54f5352e389ae71728685",
@@ -251,6 +391,20 @@
         "inputTokens": 148,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "7cfc5a0520f3c75e75dca56ac019f3aac33b82a3131adcb82ad0ede0099e06fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "7473cd48a2b74d980250ab319d694a6dcacb8b56adc80ecfb565e9ee47a81dc1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本章按\"由浅入深、从常用到进阶\"的顺序组织：先学每天都会用到的语法，再学生命周期和资源管理，接着学回调、数据表达、时间、文件和并发，最后了解模块化编译。",
+      "translatedText": "This chapter is organized in the order of \"from shallow to deep, from commonly used to advanced\": first learn the syntax used every day, then learn lifecycle and resource management, followed by callbacks, data representation, time, files, and concurrency, and finally understand modular compilation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 63,
+        "costUsd": 0.00013
       }
     }
   }

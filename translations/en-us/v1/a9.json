@@ -43,6 +43,20 @@
         "costUsd": 0.000066
       }
     },
+    "a917b5fbf7001c1892ac7d5906b36d4312b516af88b72c41246b51017ff16646": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1178b42561d3bcf301d4b086e30b4a9353fc9b0b490deec49ec0e3114580067",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 持续接收 UDP 数据报；\n2. 打印发送方和内容；\n3. 原样发回发送方；\n4. 继续接收下一条。",
+      "translatedText": "1. Continuously receive UDP datagrams;\n2. Print the sender and content;\n3. Send it back to the sender as is;\n4. Continue receiving the next one\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
     "a919c34e26e710c71e2ca2687ba0331475cb1b897cddcd881c937ac35676804e": {
       "normalizationVersion": 1,
       "sourceHash": "21155e80a5d34e2aa02c4dfe4e656fc197636bbd90c6eec0b04f683f01bcb65c",
@@ -99,6 +113,20 @@
         "costUsd": 0.000097
       }
     },
+    "a93152a2e6d09978cd00323ee218a2a1927159263cde88e3f218acf9e333a4b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "558597a96e83e69f5af4065a3a88fe68a8a26cebe1cac83160aed7364dbc840a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你希望：",
+      "translatedText": "If you wish:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "a931784a2329c6d881550f0bf003122601c6d26ae10b8b012d9ebd9322e9e374": {
       "normalizationVersion": 1,
       "sourceHash": "fc32211d10fe9a5a90831db50baeb375631ea2dfc95a253d3841e37895cd57dc",
@@ -125,6 +153,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "a93866611b06385cfcf250bdcfcf221028827dc0df329fa50ba76fa68d4c37ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6f75a5f80f2372420d12cb6bf41121de5e3364d7eda1ceabc15435c682fa613",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果这两个 handler 都修改同一个普通成员变量：",
+      "translatedText": "If both handlers modify the same ordinary member variable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "a9502212cc42d4a43d7a9d61fafe9fe2740a7028f1f39545d5cbf181a9876056": {
@@ -225,6 +267,34 @@
         "costUsd": 0.000062
       }
     },
+    "a996b199ff706d57ba923e7a060bc47201cad6c0900a739235136b938cc4da88": {
+      "normalizationVersion": 1,
+      "sourceHash": "10740f34fc7442e969a9084f50e5bf49ed03e4c065f62f421dd23965cc375088",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并不会让它“等着等着就在后台完成”。",
+      "translatedText": "it will not \"just wait and complete in the background\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "a997f8112d7f52892b61629b1395e492275e19446d51d5846bcc429733f3a53e": {
+      "normalizationVersion": 1,
+      "sourceHash": "a89f35a88f2e7f7ff63b451c94fc300ce0db35782916563ec94fce746ad15e22",
+      "contextFingerprint": "ad162faa83eb46ec3259d6d1d10e6a5be51690501c5b3c1aa822295819955088",
+      "sourceText": "程序打开串口 `/dev/pts/3`，设置波特率 115200，然后阻塞等待接收 11 个字节。",
+      "translatedText": "The program opens the serial port `/dev/pts/3`, sets the baud rate to 115200, and then blocks waiting to receive 11 bytes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "a99b66cb71a033f31e3a7bbeea9dda3179d0a9c7b0048fbe03ac2272ff8071f1": {
       "normalizationVersion": 1,
       "sourceHash": "d6f4bcd55713d09fd76f005881166f97e9422be3abd937470a304eca9f0d994e",
@@ -253,6 +323,48 @@
         "costUsd": 0.000064
       }
     },
+    "a9b31e056f75f69d1e926428847f70efa3f7c142bcce6760f8793ee10772e7a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "088c73327a0ce5044f2f30a2d2f992143a39a4584a20b7de1a7798749216e5ab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个任务交给 Asio 线程。",
+      "translatedText": "This task is handed off to the Asio thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "a9b65b6bcef3126db27b2f2222747afb475786d28d36eddb79c22cc3aa7f5598": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba0f3ba0c7ceeb8fdb8b0d350c7dada2b4fbe0159f83bef7802f90d25bc2c5d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完整输出类似：",
+      "translatedText": "Full output similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a9c329f8c075e8c8265958b6ab46f1f0869cee95701357e9320e523c24c86f4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ad7a89059e4b93187d7fe6d8e77ed4bbecd26866551d762a7a9e755bb0a072a",
+      "contextFingerprint": "059cd97960d6dc79a1010b1a61a28b2b1f4aa4b3f70fd09de37d725c0b0c6539",
+      "sourceText": "### `inherits`",
+      "translatedText": "### `inherits`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a9c8f37c7bf668e01502824b12725f07f051ac75275bf4f36a9b9006df610d7c": {
       "normalizationVersion": 1,
       "sourceHash": "dd33e69f05c00e738cf9ebe36db52c9dc72cd73bcac3a028e6c5b4474bfdb39d",
@@ -265,6 +377,20 @@
         "inputTokens": 172,
         "outputTokens": 59,
         "costUsd": 0.000123
+      }
+    },
+    "a9d21600b4c90604f4586f7ddd98bbe40c1c59494e5544e78be2accc0bad5340": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e98962ccd796c3d290741adcdf099873170bbdf9ee68016e6017ad7013acb55",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "理解成：",
+      "translatedText": "Understand it as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "a9d4b5a7c9543933fd78c2550ddfaed5f1fd0981179aaa5635f81fe9ce6c74a9": {
@@ -281,6 +407,20 @@
         "costUsd": 0.000068
       }
     },
+    "a9df794564e794faa2b8749c36cd0a35430292783bcfe16ff3ab26a47a88bf34": {
+      "normalizationVersion": 1,
+      "sourceHash": "a81d0a9b71c0511521164bfd5f1b8d05727bd34413a9794fc5ea24911409e4e0",
+      "contextFingerprint": "43a36df52c913d411b067dab78169264d7307720ab237271d2e3eb6d65e69dfc",
+      "sourceText": "> `boost::asio::read()` 关注的是“把你提供的整个 buffer 填满”，而不是“一次串口发送对应一次读取”。",
+      "translatedText": "> `boost::asio::read()` What is being focused on is \"filling up the entire buffer you provide,\" rather than \"one serial transmission corresponding to one read\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "a9eca190b924dc5ab9c8ba8af9d51f804b2ef6ab5b9bac2cc1459924da95be48": {
       "normalizationVersion": 1,
       "sourceHash": "5c07257b186257fe47432a181c018842116bdd998164957020916f2540933f0e",
@@ -293,6 +433,48 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "a9f1a0c02df882d049b1cab1bcf2851a8b0f2570b15554fc7d2a2194199dc4d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ada018461b818ab625d89ecf593ddfda910d0c635cefee6e3e88ce1210716160",
+      "contextFingerprint": "85b6e92a305add33d4ba36e48c1a1f23a5c7944cb0bc47fa6ec95642fd552d19",
+      "sourceText": "> 这个具体 atomic 对象现在是不是 lock-free。",
+      "translatedText": "> Is this specific atomic object now lock-free?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "a9f4c7b553c63bfec2ae83f4623db3c053f43d3171a9a1af61768393a866dd55": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d482212458b33a7c04860a592ea318a5a79a368036eaf93feb8017863b1d039",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在线程 2 执行。",
+      "translatedText": "Execute on Thread 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "a9faff3543480fb8da02c62d25c224e3725cbeb9cca9240f4a1bc37c23546183": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fd0bec3723f222898d93e0f49cc2923df2be877b280b6f77033b3ef3272d2b2",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## VSCode CMake Tools 工作流",
+      "translatedText": "## VSCode CMake Tools Workflow",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     }
   }

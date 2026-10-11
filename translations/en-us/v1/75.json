@@ -15,6 +15,20 @@
         "costUsd": 0.000081
       }
     },
+    "751bb3f90c873fa12ed8f783394cabe82a198cc85dc58713f576ed904648fb22": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bc78223e3925773875f46390f2d4a2b5693810232999fb39a02f7e4504ab528",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果它们都操作同一个连接对象的内部状态，就可以让这些 handler 统一经过同一个 strand。",
+      "translatedText": "If they all operate on the internal state of the same connection object, these handlers can be made to pass through the same strand uniformly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "7528889b510d602259659d05f5095b05449ace35bf0de756274eb19e37971f9b": {
       "normalizationVersion": 1,
       "sourceHash": "01c197588533c7c449f750d8ef572dd41e868d189510f28bf007c4798ea5786a",
@@ -69,6 +83,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7544f88f1836e86febe03916f0ad846df664ec0d05f952753debfc7ff0b8267c": {
+      "normalizationVersion": 1,
+      "sourceHash": "50cfa17921000194374b80e90b8e44e101e7ae68867d705f3394d05584863df7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但它们不是一回事。",
+      "translatedText": "But they are not the same thing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "754896954dbd404e7342569635c1b0eed1807d24e700e86b97c7bcf0aa6d17c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0514663546c771085e47d62ef42e6e9a86c6ab802bcdd6b26fc4fd6548d98033",
+      "contextFingerprint": "e37ecf48512a66f15533f787a7d7688dc41ea7137d3d0a5273d47fe202db2e8f",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 路径信息查询 | `fs::current_path()`、`exists()`、`filename()` | 获取当前路径和各组成部分 | 所有路径操作都是跨平台的 |\n| 示例 2 | 遍历目录 | `fs::directory_iterator` | 遍历当前目录下的所有条目 | 仅遍历一级，不会递归进入子目录 |\n| 示例 3 | 递归遍历和过滤 | `fs::recursive_directory_iterator`、`extension()` | 递归找特定后缀的文件 | 递归遍历可能很慢，注意目录深度 |\n| 示例 4 | 创建、拷贝、删除 | `create_directory()`、`copy()`、`remove_all()` | 常见文件操作，跨平台 | `remove_all` 类似 rm -rf，小心使用 |",
+      "translatedText": "| Example | What it explains | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Path information query | `fs::current_path()`、`exists()`、`filename()` | Get the current path and its components | All path operations are cross\\-platform |\n| Example 2 | Traverse directory | `fs::directory_iterator` | Traverse all entries in the current directory | Only traverses one level; does not recurse into subdirectories |\n| Example 3 | Recursive traversal and filtering | `fs::recursive_directory_iterator`、`extension()` | Recursively find files with a specific extension | Recursive traversal can be slow; pay attention to directory depth |\n| Example 4 | Create, copy, delete | `create_directory()`、`copy()`、`remove_all()` | Common file operations, cross\\-platform | `remove_all` Similar to rm \\-rf; use with caution |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 249,
+        "outputTokens": 151,
+        "costUsd": 0.000256
       }
     },
     "7549ab1adff860398683de87a92c73de63a202d7e7662d560f67eaaddd8af9ec": {
@@ -141,6 +183,20 @@
         "costUsd": 0.000107
       }
     },
+    "759edcb3ef0cf9e57d613886680670229b928f90fedfe7bd4d284a548eb942cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "658589d7d03b81eefbce03bd2a579392ef5190c3a34f6e75c427b1b959becb23",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更加自然。",
+      "translatedText": "More natural\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "75a29c017c57301b3728d08e48b207f51244765f4a66ffcf673ab802c9e62b73": {
       "normalizationVersion": 1,
       "sourceHash": "ea1461f29caab6d8b3cc812c310d63024e5164812f3428a755ea81630b97c528",
@@ -153,6 +209,20 @@
         "inputTokens": 142,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "75aba09031742605c6d45f0f62f77ba769a574a02557fd499eced0ebfd9fac19": {
+      "normalizationVersion": 1,
+      "sourceHash": "86b7f134ced1f1796fe8865f1a3f31a1d3b40b95ec58c33d4f4b77e9b9c3244a",
+      "contextFingerprint": "c53004f2cf898f975080321c3e401ae509a54129015424f2a96d72e42ee9ed43",
+      "sourceText": "> 只要当前值仍然等于 `old_value`，就继续等待；一旦当前值不等于 `old_value`，就返回。",
+      "translatedText": "> As long as the current value is still equal to `old_value`, continue waiting; once the current value is not equal to `old_value` , return\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "75b2bae0007a7962180562d2a9755eab1487f33afc9048f63059f16bc4b24055": {
@@ -209,6 +279,48 @@
         "inputTokens": 149,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "75f5971fad81b0817509e9a4a24b2aa953e94110392a0688cc672ffeb3d4369b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7acb8f9fe31df79f7d317b3aa9de89bf59d10035dc9b2893ce93a9983a5e2257",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以执行过程可以理解成：",
+      "translatedText": "Therefore, the execution process can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "75f6687afcf7fb5fd0e563cdac3e6e055c2570bdc2da94a5a7bceeb02f137a93": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e0701befb7980388677fdbc5941f342a3b6d1110e711813f9169e83c1967a10",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 completion function 如果：",
+      "translatedText": "So if the completion function:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "75f8d27b84092be278a05d9b5912260e2b0d8b500be2b2aceeb472691958cc95": {
+      "normalizationVersion": 1,
+      "sourceHash": "64ca730a35a770966e7a8cefe8f5f89c99996bfbcbcc2b676789463a18873cb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一条：",
+      "translatedText": "Article 1:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     }
   }

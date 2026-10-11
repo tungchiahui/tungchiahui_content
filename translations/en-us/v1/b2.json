@@ -29,6 +29,20 @@
         "costUsd": 0.00009
       }
     },
+    "b208968c6694b2e5a4c703d23f886c041ecfdb61864e0cc2ffe8d19c9195a6bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "6daa0a2365d1e8bdd35c1887fbe749d5b66bd8710ccaf3cf69ccef98878fc875",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **notify 只是说“起来看看”；predicate 才说“现在能不能走”。**",
+      "translatedText": "> **notify only says \"get up and take a look\"; predicate says \"whether it can proceed now\"\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "b21095fcbef63ba4f24f1dcd93fa2a890e26072cc28712a9acb2b1e43df97aa8": {
       "normalizationVersion": 1,
       "sourceHash": "c9d06d8aadef70d6c895799ca7c3679bf4b8c1de7c5f513bb6528671081f195b",
@@ -41,6 +55,20 @@
         "inputTokens": 162,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "b2127b42fd009cf1b8ccb0e25d722ba66cba503fa7a502c6a1568ad704ce8e34": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f637a8679e42ffdc66c1a7e0b089653a6ba81a7d16ce1f9081d72aac223ddac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "涉及“持续多久”时：",
+      "translatedText": "When it involves \"how long it lasts\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "b2302379de8f52d39e002d9bd212fa5e4266d2756e44426cb37eb83f21ceca78": {
@@ -127,6 +155,34 @@
         "costUsd": 0.000084
       }
     },
+    "b2524772cf94f6ac28fc9bf0c6c5107f5aa243aeef4ad3f08d6c4cd1e5c72d01": {
+      "normalizationVersion": 1,
+      "sourceHash": "046ea5fd389d259be9f4cf8553eb882de4be80a39efb1ae474df747bb3c3aef8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这两个很容易混。",
+      "translatedText": "These two are easily confused\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "b25728cf29212d34a85c206856b2f1839d050df23445db64247aca40c62181be": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f20e7c517b112b7e55121c7fb2b9df190011f5b32da40b2e3cd02142b6d4cf9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也不需要：",
+      "translatedText": "Not needed either:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "b25af7107056b2416a745fc4bd57f00efa8a83591dc772bf77c12bee02c7c461": {
       "normalizationVersion": 1,
       "sourceHash": "996afb6dc39436e5174cab3cdc5874f4649254bbbf7a5dfae417e9392f73865a",
@@ -139,6 +195,34 @@
         "inputTokens": 149,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "b2641a585d737ccf6c068b1a5f74f2b8e81ead412dfc27b172d6de8ce75f3560": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2ff2074a67f7e0fa826d5bda444d61d61009979dd9fdb2035bfffcc6de63019",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于需要快速停止的线程，要考虑：",
+      "translatedText": "For threads that need to stop quickly, consider:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "b2691f78f4fbf65e171992e709f2b8d6d53437b1c79d033edcbf6b0fcf79c201": {
+      "normalizationVersion": 1,
+      "sourceHash": "e16cfecae1fe1c3814fd4f795df4bc9a31d53293b54be5040e0567abd0ee6d9b",
+      "contextFingerprint": "c6b46b9a03bd454375d94fb4fb9e414829471baa4102c7c26e73c81aa3dde22d",
+      "sourceText": "`wire_protocol` 是纯 C++20：ROS2/Linux 程序可以使用，具备 C++20 支持的 STM32 工程也可以使用。两端用同一套 `pack()`、`feed()`、`set_unpack_callback()`，各自用自己的串口驱动搬运字节。使用者不需要自己处理半包、粘包和校验，也不用阅读协议解析源码。",
+      "translatedText": "`wire_protocol` is pure C++20: ROS2/Linux programs can be used, and STM32 projects supported by C++20 can also be used\\. Both ends use the same set of `pack()`、`feed()`、`set_unpack_callback()` and each uses its own serial port driver to move bytes\\. Users do not need to handle partial packets, packet sticking, and checksums themselves, nor do they need to read the protocol parsing source code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 111,
+        "costUsd": 0.000198
       }
     },
     "b26971bdfe544369e7bea83ae8e0d49138d2f3ea6315d49f460106ea2f9cc236": {
@@ -239,6 +323,20 @@
         "costUsd": 0.000056
       }
     },
+    "b2b17b0cd96c74b089189c2b467c3568efcb3b9c01f00547cd1d7bf4729e57b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc9f1ecd5d8692e68970a96044224d27bf4f52a1a267d132e3a7e817f1794142",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## future 等待与异常",
+      "translatedText": "## future waiting and exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "b2b2ec4fd2a332ce3ea45825add43b46e3d19d98fa767474fa49760f466c8ca8": {
       "normalizationVersion": 1,
       "sourceHash": "282fa46d06bee5935bfed63592403f09c73eaf35d6f62c67fda94bddb7dd869d",
@@ -265,6 +363,20 @@
         "inputTokens": 137,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "b2c6131581965a5007ceb39d129e530b87e9cce87e01f5910360b7ef563ca6b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "d74e623dc5f04215a3abd0843517bc07df11a0d7c48c9c412389365acb2369a3",
+      "contextFingerprint": "b87df0517f951ab49bed05afb9318c934983417381942be3b3bc80ca91d834a8",
+      "sourceText": "> **给 `io_context` 人为登记一份“还有工作没有完成”的占位工作。**",
+      "translatedText": "> **Give `io_context` Manually register a placeholder job for \"there is still work not completed\"\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "b2c81090561573fcf0f1fd8cf168bfaec308fb3236bb5e710153bb71fe329b80": {
@@ -323,6 +435,34 @@
         "costUsd": 0.000069
       }
     },
+    "b2dd3c21af3626c05ec969cf58d2455c02d7818878d6c6cd31660241b3fa55ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "519bd2253d4356b0e5a59365333aae648da88cc2abed1a1c9c84f33a0cf1c0c4",
+      "contextFingerprint": "357ea8e5196208246f6cfa50dcf511cd658bdc8bb6fc5f5bf904015cafe8c203",
+      "sourceText": "### `strand` 在这里发挥什么作用？",
+      "translatedText": "### `strand`What role does it play here?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "b2e5f63baf4cf70f2225711b6a4c44f6e7cdf31f31791a23a74ee1346a24b2cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7113187414beb02b25a0e29bcb044b416da856bbfb62011f5541a29c10c780d3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "latch 关注：",
+      "translatedText": "latch Follow:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "b2e7e84daf9862a4617ca934cb63c75bc7b71c5a6e2117114e7201e76517de24": {
       "normalizationVersion": 1,
       "sourceHash": "9443a70ccf51d3d11b0ef3bc0671b0777a6d793079720af940d6739231fde674",
@@ -363,6 +503,20 @@
         "inputTokens": 138,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "b2f6449f18d8a2ba829ddbdea60887cde0eeec771b894108a48932928f9aa651": {
+      "normalizationVersion": 1,
+      "sourceHash": "a199246eed500fb9432e68546fc7eb2b279e3a1584bc6a8d88849d48e63baefd",
+      "contextFingerprint": "281f58f9775752e0af57828321fc48c106c1e1379eae6b0f02e8281ec637a4c9",
+      "sourceText": "`\"timer1\"` 是现在就固定好的参数。",
+      "translatedText": "`\"timer1\"` are parameters that are fixed right now\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "b2fae6211a14d279b9879dae363a9c9c980211ea24a8d4ae92fb2ca911c1aa56": {

@@ -15,6 +15,62 @@
         "costUsd": 0.000051
       }
     },
+    "c308f99f26953a36a3caa460f07cd84407d7a5e56d4759732690855ce1d2dcfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "874157e30191f9e50114a76a793a5d5095049480cd8b9d41a018a2750b8b6b70",
+      "contextFingerprint": "dda370db0f9e61bcca96a838f949d45e5d807307292c3f8a1cd5048e4f14ab62",
+      "sourceText": "写一个 TCP 客户端，连接 `127.0.0.1:9000`，发送一行数据，再读取服务端回显。",
+      "translatedText": "Write a TCP client that connects to `127.0.0.1:9000`, sends a line of data, and then reads the server's echo\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "c30c3d43980ee85c25e0f61e3da78757fbc26bee971ced2a173c93ecdc9b4045": {
+      "normalizationVersion": 1,
+      "sourceHash": "9879cce5d68b938f211a027264f123fdeba28dc01ee4b35119397c9ee0b714ca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以形成：",
+      "translatedText": "Thus, it forms:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "c310ab0fa8178094c60ba51d1ed63f79f934c72a83a835077497a9e00c0ce06a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea2fbc866691f93c752ddd1b1bae96372a6ed8aa5438c9fd3e6e1d1b44f368bc",
+      "contextFingerprint": "4af27acefef29210ac72c83e664b0c4410dc13d037eb8021d930986f5c11a70d",
+      "sourceText": "### `binaryDir`",
+      "translatedText": "### `binaryDir`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c311a26c8defbca04ba0e6a61001e59d42480e77dc5e186016df7bdbdcb0d671": {
+      "normalizationVersion": 1,
+      "sourceHash": "20b44283f4d347b8647b77a2253310249940b5fb1adc59ffe9ead351c380b18a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "适合：",
+      "translatedText": "Suitable for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "c31960b8aac024c24874e60864dd85de4f058f7249ac7ee6c0b9625487e9fec1": {
       "normalizationVersion": 1,
       "sourceHash": "1593d6a55b8ec623bb426d8fc43fc8bbd232e9a274b981595e997bcbf482a6d9",
@@ -27,6 +83,20 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "c3204c171b4be9fb7bd3a0985f5bdd9c62266c12aa6a75e95d0d9cf63497b4f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c7f07e3566675a2b9103b2441f596fb336f309e78306da0a8511c38ac7858da",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把示例 1 改成异步写法：",
+      "translatedText": "Rewrite Example 1 in asynchronous style:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "c323c912eb53e7f46c5250d00b3cf81a364f6da37319ad2019e9ac51a09c78b3": {
@@ -43,6 +113,20 @@
         "costUsd": 0.000056
       }
     },
+    "c3277083634e0fd99ce82ebad522fcf8f527d615976a267c16187272cbcfef33": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb24b1fefde5ca39dc1950d05bc68869503e332fadb5090370f8025d7eb0c6ad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意：它不保证一次读到完整一条消息。",
+      "translatedText": "Note: It does not guarantee reading a complete message in one go\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "c32a527982064ed16438e16c154917561a56aaa6530850bb49d6b085b55f2aee": {
       "normalizationVersion": 1,
       "sourceHash": "30fd00fb7c2ffcaa1d13c568d638bb67ff63cc84b13022b4238f825ee6f8d9ac",
@@ -55,6 +139,62 @@
         "inputTokens": 153,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "c346dfc7fc202e9cfb78a8bc946ee1d04ee77789ab801b23f1feb0e86f468326": {
+      "normalizationVersion": 1,
+      "sourceHash": "769858890e9dd0f5e0568d7b5d6fc4c50624d019001ff776393e1ff63d61aa08",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 四个 API 对比",
+      "translatedText": "### Comparison of Four APIs",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c3477ed25229d5409bdb71366bdbd3d191d02e6e66d4fe09ba1aa2e63c263824": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a92b8ec328a38d7b78d0d9e6c9cbc625e156a2b4c0760b67a1c472ee6d22611",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 根字段",
+      "translatedText": "## root field",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c34a2d4ab1894c70f6f40ccf4cdcad3b4db99084e6ff1483ea433eb9dcf25ae5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b662e1a7dedefdb54ae7bb9fdaa9e0b1a23a87d0d6aa45729b9efa71237775f2",
+      "contextFingerprint": "14d44e4e7bca010e8c15d51274aeb924df633f94a158eb4ce43a4f88658b939c",
+      "sourceText": "在 GCC 8 及以前，需要链接 `stdc++fs` 库：`g++ -std=c++17 file.cpp -lstdc++fs`。GCC 9+ 和 Clang 不需要。",
+      "translatedText": "In GCC 8 and earlier, you need to link the `stdc++fs` library:`g++ -std=c++17 file.cpp -lstdc++fs`GCC 9\\+ and Clang do not require it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "c350709c4389ee63aa37f19b19fbc06ff03c2aac6d675ec23ae48d36645fcdc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2930b04c36a2c05e8323fff9a03037ccc3860e0d0a20faf3c2bb2c1cf4132b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常应该考虑：",
+      "translatedText": "Usually, the following should be considered:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "c358b972ccf20bd7e9c27dcef421a25186c8ba6470f8e7aa9a1bd6aa4393c593": {
@@ -113,6 +253,48 @@
         "costUsd": 0.00008
       }
     },
+    "c37c8925c745c4a43803b5898ac7616026d9985a0ff4e4c4737f9363a25f4874": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6c2b2c43dc73bdc68d1b19e3a8dbbbebe71365bd5b37870d6317adbcaaa8db4",
+      "contextFingerprint": "b62e827c5bd400c907cbe6d90739ebcb0a0833bbc0fe788ee9ffa2576d151d73",
+      "sourceText": "| 工具 | 解决的问题 | 重点 |\n|:---|:---|:---|\n| Lambda | 在使用现场写一个小函数 | 捕获列表、参数、返回值、生命周期 |\n| `std::function` | 统一保存和传递不同类型的可调用对象 | 类型擦除、回调成员变量、回调容器 |\n| `std::bind` | 适配已有函数的参数 | 固定参数、调整顺序、绑定成员函数 |",
+      "translatedText": "| Tools | Problem solved | Key points |\n|:---|:---|:---|\n| Lambda | Write a small function at the point of use | Capture list, parameters, return value, lifetime |\n| `std::function` | Uniformly store and pass callable objects of different types | Type erasure, callback member variables, callback containers |\n| `std::bind` | Adapt the parameters of an existing function | Fixed parameters, adjust order, bind member functions |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 186,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
+    "c38013bcb8b416f25458e79ec342b6901c6586ff5e0041d6d90c0de3e4889432": {
+      "normalizationVersion": 1,
+      "sourceHash": "caf3517be89cb79cc2f66cac33776b41901f9035c848bf12f00c38cfa3b51f43",
+      "contextFingerprint": "3ba41fc072afa90162ba7366627f5982c22ad5f5abe193d4650f36bec16f224c",
+      "sourceText": "不过 `arrive_and_wait()` 表达意图更直接。",
+      "translatedText": "However, `arrive_and_wait()` expresses intent more directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "c387a6c42508e0b58bc2d73b00aa349dff8ddbb70a346a0a4825dd4e0deb0954": {
+      "normalizationVersion": 1,
+      "sourceHash": "066ab6dd2f75e0c42d261c976dca40778648a41415075d9134174618d00e048c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后才来 wait 的线程：",
+      "translatedText": "Threads that wait later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "c38cf1cad81cb8c25f73faeba24180eeb90e3202a58eb0a89b5079192fae5a69": {
       "normalizationVersion": 1,
       "sourceHash": "9741feccc9afbcb2dd3ceae116c9c5c3c5102e4cd50569a28d9327acc1b4b3e5",
@@ -155,6 +337,20 @@
         "costUsd": 0.000063
       }
     },
+    "c39900b304ccbb58bc8b48205b30f76d65794d545afd0ef3999fa8841ef49920": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b72ad7f82f1d5d13140c1b3a1cbde2bec190bc5af376cd1f37c412b30c43813",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要写成：",
+      "translatedText": "Do not write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "c3a5533afad07fa70ea26ad34e860ed7d086cbf76d87cb95042798c3ee243592": {
       "normalizationVersion": 1,
       "sourceHash": "a213fe1aaa1419e453e0a2c84b21ff6c3534ca3548244b9b4e19a57aafe00754",
@@ -195,6 +391,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "c3bcd816737f91410569f70b89da2481de13e30bfee01d72c642fce1428d7732": {
+      "normalizationVersion": 1,
+      "sourceHash": "2940a583adc0d68de7133ca11cb095a5323ed69cd396e96809b2e0d87253052c",
+      "contextFingerprint": "46ea62713bdadd8fd97e8f762d8b40cf7e1e6f7d9dc92f9b757b0df62dcec47c",
+      "sourceText": "#### `SerialTransport::async_write()`",
+      "translatedText": "#### `SerialTransport::async_write()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c3bcd926c05f7f7d96b7975d2db76b46e17fe5d36fdc800234c71ad3dd8bcf99": {
@@ -251,6 +461,34 @@
         "inputTokens": 146,
         "outputTokens": 33,
         "costUsd": 0.000084
+      }
+    },
+    "c3e836b9a2619499cf8a7d08c00b383bc483a77db1c81ec275b5bdf69de772fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d379fbf363d1954dbf95252d8a17049e2c9f4dcb2d13f0fee768334c20c4f57",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "作用：打开串口设备。",
+      "translatedText": "Function: Opens the serial port device\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "c3ea0dea755f3af6782716ed0c7238973d0b333d1a51750bba882847ff3459da": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a44aafe25380df5198b49b3bd655673bd3d93d36e65e76966a11339af27cf2e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把当前数据复制到：",
+      "translatedText": "Copy the current data to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "c3f171807c89303802512c5437f66e34f0f76fdc9461d86a45a790efc7d817ed": {

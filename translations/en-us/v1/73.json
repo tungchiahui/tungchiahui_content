@@ -71,6 +71,62 @@
         "costUsd": 0.000063
       }
     },
+    "732632d4febe2b7a778edc0ca58af569250ab1002067f7d5dcab3b6b192dc09e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f33f8896a7affc04899b8475cc01e7c4987bcf7979ab1d82531a9fc00b626ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的读写。",
+      "translatedText": "read and write\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "73330bb4939cd04b3f72ce11ff23b39666f030d61162b2dfbc9b0bdedf8a708b": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd35627f833d1b8edf133b297ef0a3ee95f9b2fe8e2826105ab934b57a2e966f",
+      "contextFingerprint": "55d792381200d95633578d85a9ca45c3200238657963c46fcbd16331f9af311f",
+      "sourceText": "### `guard.reset()` 到底做什么",
+      "translatedText": "### `guard.reset()` What exactly to do",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "733c1bb6737b843b0559eae36c3c30c0141271bb9a6d373ef78255bf32d86b68": {
+      "normalizationVersion": 1,
+      "sourceHash": "e68c04fbe669ab09f79ac56c0c1efff26151e6f3625d8c62f21ec2f6bca41b92",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这次：",
+      "translatedText": "This time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7349c8d0ab6dbe0cfe748c65f21c296cf49e59cb47ab8aff641d00ef38f88f56": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc444f7a70b4972ff3dbf5cffae30d872a656d007573dffe59c207548f9283ea",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "展示一种常见结构：ROS2 收到命令后，不直接写串口，而是把写操作投递给 Asio 线程。",
+      "translatedText": "Show a common structure: ROS2 after receiving a command, it does not write directly to the serial port, but instead dispatches the write operation to the Asio thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
     "734e1952541cc822aaf6f6d1f93b4797294344b24eea704a8c84582855813f0f": {
       "normalizationVersion": 1,
       "sourceHash": "1e4592de361a3b6535deee211f6bd5bef29f56f81d599ef0322fa58c8c926dd9",
@@ -139,6 +195,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "739bc560a7bc4e3c52bedbc9c0c728a02a3666ca5303e407f55fda7f8c4681cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d740ea5052a956049caf3b8ec6b87a387ec8f8e3cf85faaacf677608ebb4f0b",
+      "contextFingerprint": "e858fb71544712485943a609815c0434afe7f4f58bf25b9bf1896d71a553a202",
+      "sourceText": "## 示例 8：多线程下使用 `strand` 避免回调并发",
+      "translatedText": "## Example 8: Using `strand` in multithreading to avoid callback concurrency",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "739ce53f69a3d5b9cacff34c850b126795d5588540f2eab03b2c7831f584bb2e": {
@@ -225,6 +295,34 @@
         "costUsd": 0.000087
       }
     },
+    "73b643b215bf69c7dc8190204f4101045c23f82e9b83546a01926a5e5af67a3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4263fe2c9df1b1699ad5a3743ed71f09b9f9a57b113c0750bf10c481418b7c3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是产生数据竞争。",
+      "translatedText": "This results in a data race\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "73c9c993647c5aee0b05de76154caafc14c53cdbdcb83dd987dd9a928c2e2f57": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2d8b993963c56e23a8e6ee77e89b2e4231940d860fae3f5540e9fbcc833b88c",
+      "contextFingerprint": "267b3c17a6077e8acc8a08089b0eb6ac642ab0e3a35f818c6b8fef9a3967042b",
+      "sourceText": "## 示例 9：多个线程同时运行 `io.run()`，使用 `strand` 避免 handler 并发",
+      "translatedText": "## Example 9: Multiple threads running simultaneously `io.run()`, use `strand` to avoid handler concurrency",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
     "73da4e2c66f95a662a8bec50d32c671f4ac4c810cdf09edb5d732d45098099a1": {
       "normalizationVersion": 1,
       "sourceHash": "644bbbfa9fdd6beafabc36f7eb7f19a79a05198265ccb48bc97f249a9b098041",
@@ -251,6 +349,34 @@
         "inputTokens": 150,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "73dc57bc852ef7a3095e7d81f57768b98b0a2ca70eb6480900b1a7a99f1b62a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7e16831774a7bc9c291f2b943b3222117b25c9f90565a82071972335a5e2a7d",
+      "contextFingerprint": "6879f7c06c663c273619e3763deb2478598ddb4bb79c24c5ef174170516926c7",
+      "sourceText": "会让 `io_context` 尽快停止，未完成的异步任务可能不会正常完成。",
+      "translatedText": "will cause `io_context` to stop as soon as possible; unfinished asynchronous tasks may not complete properly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "73dc5896217ea238d5046559534910439747e344486aa288232b14f6b6122ca6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4f826e58b70c1ccf3c7ddb76aa455c3a758460b4987d43c052cdc10ca7bb3bf",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "ROS2 回调线程会立刻把任务投递出去。随后 Asio 线程执行：",
+      "translatedText": "ROS2 The callback thread will immediately deliver the task\\. Then the Asio thread executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 33,
+        "costUsd": 0.000087
       }
     },
     "73e1da44aa0275edfbb865f1733a1ec8c6c4e85558d7a7816aee98b771236fb1": {
