@@ -43,6 +43,34 @@
         "costUsd": 0.000126
       }
     },
+    "7928e256f2b33d01ccdaaeaeabc42ce6f9c0926de16d01b9427c7b7b4ad3f541": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa9fd6110c6fd4a698647d96a05f146a196e96259729ca27554a41d3d048b606",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能根本不需要访问共享数据。",
+      "translatedText": "It may not be necessary to access shared data at all\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "7962ec2b229358488a687ba331a010717d729a27ad6998651457a53b5d33f5c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebed76c195b46606a8af11cddfccf9d2b2ae0ab769d61a931906f48f48762d2b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结： vector赋值方式比较简单，使用operator=，或者assign都可以",
+      "translatedText": "Summary: The vector assignment method is relatively simple; either using operator= or assign works\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "7969d10ca7c432930dbf26e8cdf817e6216f8e84fdce350dd7200df60f8b9bb3": {
       "normalizationVersion": 1,
       "sourceHash": "0f7c783dac101332d05f3b7a7c6311b9aa1706790f7b005d607d8d0dfe0c4bc9",
@@ -57,6 +85,20 @@
         "costUsd": 0.000114
       }
     },
+    "796f222cec7b93f00b27637be7504913f907f17ab0e0b4c276184facb5824562": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecd8cab79d23baf8aa540cae2205f72e5e1aec0af237b4959c34c437cb22b3c0",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 插入   --- insert \n- 删除   --- erase\n- 清空   --- clear",
+      "translatedText": "- insert   \\-\\-\\- insert \n- delete   \\-\\-\\- erase\n- clear   \\-\\-\\- clear",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "79709659dbc31f924d35f62b1a192d2b24ab37543356fffcd5fefa96e2ebd1f1": {
       "normalizationVersion": 1,
       "sourceHash": "40196ae0929628338fe41b212badca62a03ce0040b0f9fc88d0460e6d4b7865f",
@@ -69,6 +111,34 @@
         "inputTokens": 173,
         "outputTokens": 60,
         "costUsd": 0.000124
+      }
+    },
+    "7982773f06b971f00e0dc9af2460d0c2ebd0725dbbd2e1796a4482f1ed3fb967": {
+      "normalizationVersion": 1,
+      "sourceHash": "505ffb6a3c036a46e5db261d4d78d60a3618c973ac0beb6f976f0d0f51989c48",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更推荐：",
+      "translatedText": "More recommended:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "79937fb1a7398e72f76d7a85faada7da7ef19d45ca4747f4337b2c39f9393e0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "46cd17224288042e37af4668a319be2754b8e8cc1c6ac5fc2c8aa68853badbe0",
+      "contextFingerprint": "f65120f0881e9c7cb425b8cfd5729d8fba39818a80ee059670e74cfc65a799cc",
+      "sourceText": "| 关键字 | 含义 | 典型场景 |\n|:---|:---|:---|\n| `constexpr` | 可以在编译期求值，也可以在运行期调用 | 通用编译期函数、常量表达式 |\n| `consteval` | 必须在编译期求值 | 生成编译期 ID、编译期校验 |\n| `constinit` | 保证静态对象在编译期初始化，但对象不一定是 const | 避免全局变量动态初始化顺序问题 |",
+      "translatedText": "| Keyword | Meaning | Typical Scenario |\n|:---|:---|:---|\n| `constexpr` | Can be evaluated at compile time or called at runtime | General compile\\-time functions, constant expressions |\n| `consteval` | Must be evaluated at compile time | Generate compile\\-time IDs, compile\\-time validation |\n| `constinit` | Ensures static objects are initialized at compile time, but the object is not necessarily const | Avoid dynamic initialization order issues for global variables |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 76,
+        "costUsd": 0.000149
       }
     },
     "79aa563a5afa259ea8e6a3514279fd9ea8f605e450fbf13fabe6d0829e67baf9": {
@@ -167,6 +237,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "79e8953a9a11360ed919881d80c84b5da312c3be15bcfd71d5ba2a115766cad6": {
+      "normalizationVersion": 1,
+      "sourceHash": "441b9704383cbc26ddbbb16725fcc07cf61586f9ff3707d28966fae573d5bc78",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误3：调用空函数指针",
+      "translatedText": "### Error 3: Calling a null function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "79f3d8ca688c65436ce4ef5dbaa085f156a6b6a58cfad0fc9779cd38b68ed14b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2900f671ab334e8da8639a57c16cc3dbce58f0f63f81e2329ae75f12546cbe6c",
+      "contextFingerprint": "6c53d8aaaa22f845f2aeeaef9d627c193d648e3e2ec3f76a9ca1991749d97221",
+      "sourceText": "### 用 mutex 修复 `counter`",
+      "translatedText": "### Fix with mutex `counter`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "79f94ac541db8b398e945611fc013ef8712d9e85559bd7c43c736d565319a278": {

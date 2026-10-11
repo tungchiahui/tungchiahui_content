@@ -15,6 +15,34 @@
         "costUsd": 0.000183
       }
     },
+    "e32f1c3f3ab032a31f3e038e87d576f8c8641e328a9f4f3dde735f6ce1d3b87b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7801ed9833ccb8cf02880c0f28de49b84f7cad05c46fabc17bccaf0fd30a3602",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "非常相似。",
+      "translatedText": "Very similar\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "e331543ce3e4da6942cf443abac8ab3611be90e690204790bf1a43a4b58365e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2276a71b5bc2cbbfd7742d1dc62b69be107f2c05fc23a0798f925e95e8149f8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：调整参数顺序",
+      "translatedText": "### Example 2: Adjusting Parameter Order",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "e342628c8465e08df4b446313ffa3fd98f21842e4079c9dec41ecfb6afc3b7ab": {
       "normalizationVersion": 1,
       "sourceHash": "b6f3a1bf2244068826cda460024859557d9fa4a71295ac31b03f9c3ce3ebdb40",
@@ -27,6 +55,20 @@
         "inputTokens": 142,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "e344f677aed31d41258cc736c0e9e50361ef86aefe4323b6015ab8f904b719b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b03911d71c29c6fbc36645ecb1fe2991dfb01e1def21fb7ff1d556a189d3494",
+      "contextFingerprint": "0f44dff7beb682c1626eb7b9686ca2b861f33c15822e015589402669596e1e30",
+      "sourceText": "正确做法：用 `{{` 表示字面量 `{`，`}}` 表示字面量 `}`：",
+      "translatedText": "Correct approach: use `{{` to denote the literal `{` , and `}}` to denote the literal `}`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "e35467524429451f79d33cdad7f244283b523318d0d7b03b78a97920222210d3": {
@@ -55,6 +97,20 @@
         "inputTokens": 139,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "e36a8f77c765f183e7592bd4c5c5ee3200b543df74adffd22f92db9f676aad40": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebcc75954ce81f2adeaf5bd3acd0d4ffafac6ce43403c0053296e95fa83b7779",
+      "contextFingerprint": "64124bd09193e45d9e9dbf625ab029c8cd47a8bcc1d06679e9156dd8ff7cfaea",
+      "sourceText": "- **第一个参数**：要在线程中执行的可调用对象；\n- **后续参数**：传给这个可调用对象的实参。",
+      "translatedText": "- **First parameter**：the callable object to execute in the thread;\n- **subsequent arguments**：the actual arguments passed to this callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "e373d1e19874eda392e2c272c069745cecc36899262e52e6f551a39c780805c6": {
@@ -111,6 +167,20 @@
         "inputTokens": 160,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "e3ec67012b114d11771b24d6623fb85d77c5d5c2b121445cedadecb91e6d5e76": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3bc6a67cae63f12dfa1777e7f5b7036eea43ae4ce9de930da8f87ae27491b28",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但实际上，这段程序存在严重的并发问题。",
+      "translatedText": "However, this program has a serious concurrency problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

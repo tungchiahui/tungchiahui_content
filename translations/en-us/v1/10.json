@@ -43,6 +43,48 @@
         "costUsd": 0.00014
       }
     },
+    "1068c39171fbbb95622045e884db334a5322592ee98587111c0a0e11ef4fa187": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2b78590743c56c9ebdf990c5f9a71055366a92a47c15cbf62de41d4d856aaa5",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：参数个数不匹配**",
+      "translatedText": "**Error 2: Parameter count mismatch**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "107fb2caf62a0f60bd17e66f722a47a21acf6dd89c673f63870775d3e489fb64": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac1d11803068784ce3fb0483f5527a6e1b585cda9c7aff1cf795f2343dc8272f",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 成对出现的数据，利用对组可以返回两个数据",
+      "translatedText": "* For data that appears in pairs, pairs can be used to return two pieces of data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "10817c65bcaf3ea3c7315ba2872a446c9906eb46fccdecb7e453e5f46b682b98": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c0308fc103e07401a8e4d614a9ab31c5d48b82ec59bcfc52722bd5599040c75",
+      "contextFingerprint": "e26ba2ea86a8cb555887fb694e981bcae09b85860d409ee27b6aff2fb4635f47",
+      "sourceText": "- `queue<T> que;`                                 //queue采用模板类实现，queue对象的默认构造形式\n- `queue(const queue &que);`            //拷贝构造函数",
+      "translatedText": "- `queue<T> que;`                                 // The queue is implemented as a template class, and the default constructor form of a queue object is\n- `queue(const queue &que);`            // copy constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "10a4a69e3123514a6c64474cf8f655a7b8005c76d9a42c7fba8920f067001fff": {
       "normalizationVersion": 1,
       "sourceHash": "c3579aa4ad7093bbc9ebe751a0a64158347687b3b5ed5b4e943e67b779d5363a",
@@ -111,6 +153,20 @@
         "inputTokens": 162,
         "outputTokens": 50,
         "costUsd": 0.000109
+      }
+    },
+    "10f91f7de9dd49daf714060443fb926f7face9e7cecfff324689f131d536511c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f9865d6b65347fb8493508353fc4fec4d68b39d76a2d49c60b673d214b5bbb1",
+      "contextFingerprint": "65ebdfd8586988dd87762ced023bcdeb6201c57862ca97bc25fca79986152f1f",
+      "sourceText": "- 可调用对象包括普通函数、函数指针、Lambda、函数对象等。\n- `std::function<返回值(参数...)>` 用统一类型保存签名匹配的可调用对象。\n- `std::function` 适合保存回调、作为成员变量、放入容器。\n- 空的 `std::function` 不能调用。\n- 只临时调用一次的回调，模板参数通常更轻量。",
+      "translatedText": "- Callable objects include ordinary functions, function pointers, lambdas, function objects, etc\\.\n- `std::function<返回值(参数...)>` Use a uniform type to store callable objects with matching signatures\\.\n- `std::function` Suitable for storing callbacks, serving as member variables, and placing into containers\\.\n- An empty `std::function` cannot be called\\.\n- For callbacks that are only invoked temporarily once, template parameters are usually more lightweight\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 81,
+        "costUsd": 0.000155
       }
     }
   }

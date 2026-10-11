@@ -43,6 +43,20 @@
         "costUsd": 0.000118
       }
     },
+    "575bc7cc78bd53c411e8f460af6c8b00b4833e2b63dab47e419e02917a475656": {
+      "normalizationVersion": 1,
+      "sourceHash": "41f7b22d09fa6b23fa68b3fc25bb225caa995d4ca38eb29e8c19e97984f40342",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 4：滥用 auto 让业务含义消失**",
+      "translatedText": "**Error 4: Abusing auto makes business meaning disappear**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "575d18406464536cb6e1fa2cb9bb9760bd0e57562c3e993fd4ec17238f16b1de": {
       "normalizationVersion": 1,
       "sourceHash": "7bf9d6bd93a03ebdf74fb31ce90f8231c5df7457e914e133391753022b33c7e8",
@@ -55,6 +69,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "57635feb6e9d2f261a484caf2a1d91c58b23e5650784aad4d9d5c442c2f2d111": {
+      "normalizationVersion": 1,
+      "sourceHash": "d57932210a7f71b2b6509e4127f1e9088ece35e5d61118ae5bf61e838c218519",
+      "contextFingerprint": "4209247eecfb3a91fc47fac31f55c2e6cd622fba8696a02be4a8a53da96b16dc",
+      "sourceText": "可以把 `count_if` 的内部工作近似理解成：",
+      "translatedText": "You can approximate the internal workings of `count_if` as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "576d0529f0c38aba6c1b19b1eb688832eb9cd15b56a8911c22d411df1e435162": {
@@ -71,6 +99,34 @@
         "costUsd": 0.000067
       }
     },
+    "57740db8e139e1a7c4b02968ea9e497bc6d2ad03145cdde34779a5bca053ba80": {
+      "normalizationVersion": 1,
+      "sourceHash": "35efc1d472954929ede103aa82759649d4d7d1a98e8c4873a6ff8e4d2f3c9ddc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并行是：",
+      "translatedText": "Parallel is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "578139bcdca12c7ccb88c0a75ed7d803176df56a5cb1f8e5ba138cec58a2dec7": {
+      "normalizationVersion": 1,
+      "sourceHash": "57bf1ebbcaf396dc13effead859728f5411700c3ea0bce0300c313ee2fb92199",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "文件打开方式：",
+      "translatedText": "File open method:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "57827a017da55dbe226339e9e26ecd77dba11e11c75f9530817c8536450492c2": {
       "normalizationVersion": 1,
       "sourceHash": "1f04aa3ac6f003b0d73fdd0d39fdd7fc6c3e9e7652c0cddb2adcc17d351435b1",
@@ -83,6 +139,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "57914a1c0b4be77807d746d8d541a2594ea29a99b23c88d70f3260945c4805fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "059da5a9343166246e72cf5dad9d61d6b77e5db0994f3e1eeed10b0cac272cdd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果存在并发写入，无同步读取同样可能产生数据竞争。",
+      "translatedText": "If there are concurrent writes, unsynchronized reads can likewise produce a data race\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "57a98bd61ae323241d73b91ed6c4ceff12cc102c63d419f88d0afddce3d52e90": {
@@ -111,6 +181,20 @@
         "inputTokens": 154,
         "outputTokens": 33,
         "costUsd": 0.000086
+      }
+    },
+    "57b189d9d24c1dfa76af9584fed5fb4421c96abfa3eebb7438105c8f6b660f8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3aee646e0214c5ff9fa9b4957fa40fcc095bac23d08ae255a8460286d5d883d8",
+      "contextFingerprint": "046b727835ee06f0feb5b8aaa7b51da07516a8e3dfa40b4b0a8fba7934e00e08",
+      "sourceText": "**错误 3：用 `auto` 而不是 `auto&` 导致修改无效**",
+      "translatedText": "**Mistake 3: Using `auto` instead of `auto&` results in the modification having no effect**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "57d1a0f505f22edd06c8fc744c18a5867968fe385547d5e7ed5a916a0e3cfb05": {

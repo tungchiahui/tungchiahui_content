@@ -42,6 +42,118 @@
         "outputTokens": 11,
         "costUsd": 0.000053
       }
+    },
+    "b92b5f7fdd6d1ad4705604b1d8f90043b6ad7e4ab1884461131cf55b8f57573f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f0b4f7f3bf9db76e9cdc2be08d33d25e164b2e44c3cbcc0667f75ddca9db7f8",
+      "contextFingerprint": "d738a260f5912d082aabc5bbb31e47f61bb34e7ed465f15130552de1ddf264de",
+      "sourceText": "**运行结果（以下为按提示依次输入 `10`、`20`、`30`……时的一次示例；类型大小或类型名可能随编译器和平台变化）：**",
+      "translatedText": "**Running results (the following is an example when entering `10` , `20` , `30` \\.\\.\\. in order as prompted; the type size or type name may vary depending on the compiler and platform):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
+    "b944767ee68baf4ecdb1b323e63ce2ad69a3c99a7076548e1ea60ba314e4d22f": {
+      "normalizationVersion": 1,
+      "sourceHash": "88d9585c711c24966089fedc0efc4985571896c09f353aad1096077be139bee2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**replace会替换区间内满足条件的元素",
+      "translatedText": "\\*\\*Summary:\\*\\* replace replaces elements within the interval that satisfy the condition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "b95824ec66a1b140de41409d31e10704dabaacf37f9daa9c24a58449e18fd6e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "34bbb5739ad2c6fe7b39d73df334b82e64e4b4b24bcd0e3d4ca77d09485b5bfc",
+      "contextFingerprint": "9a0f1360eb519dd536ff0b1dd18958679f1a3775197d1f6f41c848d4e8168938",
+      "sourceText": "### `detach()`：线程脱离管理",
+      "translatedText": "### `detach()`: Thread Detach Management",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "b99095016ed794df496a600d9554f6846c5d2dc111c83e94a4d66da1b761d784": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a981e565477087390a87bd38bdc989fa1f984fc69d6f2b75e076f38e8ab1428",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 可以解决很多线程同时访问共享数据的问题。",
+      "translatedText": "A mutex can solve the problem of many threads accessing shared data simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "b9c63d77d96bab9fded49f0199c3d81face3dc1baef0d357979b25f3a5179e4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff6414498a89fd364329829a9649110ce726bcc210645394671fa1681158d81f",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 基本语法",
+      "translatedText": "## Basic syntax",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b9ca17b1a4fe09828ea4396861f906c832001c6f83bd8f73b4c026edb64dfcbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "092cf24df58a94216655e2941a8d5ca8d572dd8f84ecae8ad72920c051250a5a",
+      "contextFingerprint": "f64465c7f5119c749e2bb25e10f0d126d91aabb0bc9c0f0f0c28e750a057b5b5",
+      "sourceText": "1. 新代码中，参数适配优先尝试 Lambda。\n2. 读 ROS2、Boost.Asio、旧项目代码时，要能看懂 `std::bind(&Class::method, this, _1, _2)`。\n3. 绑定成员函数时最先考虑对象生命周期。\n4. 需要引用语义时明确写 `std::ref` 或 `std::cref`。\n5. 不要为了使用 `bind` 写出难读的占位符组合，清晰比炫技重要。",
+      "translatedText": "1. In new code, parameter adaptation should first try Lambda\\.\n2. When reading ROS2, Boost.Asio, and old project code, you should be able to understand `std::bind(&Class::method, this, _1, _2)`\\.\n3. When binding member functions, first consider the object's lifetime\\.\n4. When reference semantics are needed, explicitly write `std::ref` or `std::cref`\\.\n5. Do not write hard\\-to\\-read placeholder combinations just to use `bind`; clarity is more important than showing off\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 103,
+        "costUsd": 0.000189
+      }
+    },
+    "b9cd4d75854b477db236e9ea82c961e0762ca9d11075ce00960dc31050a23ff5": {
+      "normalizationVersion": 1,
+      "sourceHash": "135ea053ab153347479e10748335fa862011106fd541fd74c01c8f7905756f07",
+      "contextFingerprint": "1c961ee53e3ded34dc7817c0f0337eb2a7af420d9a40822d0bd8a66bd79be1d5",
+      "sourceText": "- `accumulate`      // 计算容器元素累计总和\n\n- `fill`                 // 向容器中添加元素\n\n  ​",
+      "translatedText": "- `accumulate`      // Compute the cumulative sum of container elements\n\n- `fill`                 // Add elements to the container\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "b9f624d1e02dd158770c7326f2889e91529570a33e54e906333594f3b31bc027": {
+      "normalizationVersion": 1,
+      "sourceHash": "10dfcd2a1141b7723269d89e8f22c50bc1133452ec99c6f76e18ba11c398c39a",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "C++11（基础），C++20 增加了日历、时区等。",
+      "translatedText": "C++11 (basic), C++20 added calendar, time zone, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 39,
+        "costUsd": 0.000096
+      }
     }
   }
 }

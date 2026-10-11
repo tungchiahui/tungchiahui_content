@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0c13cc649f9eea9f9b5833f01ee681f79215084c2889448989a0bb7a65754d62": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c7bb6bab82f3a11df4ee755fdb800087c130d5c56dea69ffd7d3b9641c25e89",
+      "contextFingerprint": "ee0d6d14150f8d666f7b4e8a71a5874b4d3498022f7338af814513c9b5cc3078",
+      "sourceText": "### 函数局部 `static` 初始化也是线程安全的",
+      "translatedText": "### Function\\-local `static` initialization is also thread\\-safe",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "0c18c52fab39cbb4a18f99409bcd2e070cfc07ab1fc88229b793178f37a761bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "72934c317409a3953832ffb0429dea70ba1555cf0f03d6bbf86fb096b4755806",
+      "contextFingerprint": "f086257cb2818ff202ec7599b7d25850489d71f5aa3814f9a9a9d10a9b9b5c5a",
+      "sourceText": "另外，如果函数返回 `0`，表示当前实现无法提供硬件并发信息，因此不能把这个返回值当作绝对可靠的固定值。",
+      "translatedText": "Additionally, if the function returns `0`, it indicates that the current implementation cannot provide hardware concurrency information, so this return value cannot be treated as an absolutely reliable fixed value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "0c2b9b1a4fe5e218f6f7ad00c49ae4bd24b4ee122ff2ff28feefa71222540089": {
       "normalizationVersion": 1,
       "sourceHash": "2390e12b43dcda9bba8fcd164e5a7869c99cb7a0b99da3ce276180da1730971b",
@@ -13,6 +41,20 @@
         "inputTokens": 139,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "0c511d30cfb2f895bfd40467d7fbca320c8ec3d25cc4e2f877677ea995b3abc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "050f0d68735a8672e75047b073871ccaa0748f907c0681d7f1c6b1be0af5e025",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "析构函数中一般不要抛出异常。",
+      "translatedText": "Generally, exceptions should not be thrown in destructors\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "0c51aa06c852ba14b3c8f3b9e05028c8879367a3eab409457fc8283c2728d6e0": {
@@ -43,6 +85,48 @@
         "costUsd": 0.00008
       }
     },
+    "0c558a8445e0288f50c27cc82b68fd1b3c212dd0df34a0950b12ab766a071ae9": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b09e2a375cd6aca622f2b1ff9094f71f2caa1873952b7e9e2d9047f71b97f55",
+      "contextFingerprint": "d0de215d3efbcbc94b8f5f6bf0aea6d7cd98fd2570e7c542a53d52401b77fcbe",
+      "sourceText": "在 ROS2 中，`rclcpp::Duration` 和 `rclcpp::Time` 的用法和 `std::chrono` 非常相似。学好了 `std::chrono`，理解 ROS2 的时间处理就很容易了。在 Boost.Asio 中，定时器也大量使用 `std::chrono::duration`。",
+      "translatedText": "In ROS2, the usage of `rclcpp::Duration` and `rclcpp::Time` is very similar to that of `std::chrono`\\. Once you have learned `std::chrono` well, it is easy to understand the time handling in ROS2\\. In Boost.Asio, timers also make extensive use of `std::chrono::duration`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 199,
+        "outputTokens": 80,
+        "costUsd": 0.000156
+      }
+    },
+    "0c59ad7253b46ed661c92f7d492db208142f66d3035d1d917ea324a7587f098a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5e54978900486bef0707ccf6ff4d1b06304e00fc51efcaa32fd6b7249e93794",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* set容器默认排序规则为从小到大，掌握如何改变排序规则",
+      "translatedText": "* The default sorting rule of the set container is from smallest to largest; master how to change the sorting rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "0c5c4c53d5fe6f046fd8ab1fe450c30a4a1919ac65009c7bde5a49995619b818": {
+      "normalizationVersion": 1,
+      "sourceHash": "9608a0e8770484efdeb243488b06fc71bf0c5faa0952e6320c688742e208a499",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 向容器中填充指定的元素",
+      "translatedText": "* Fill the container with the specified elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "0c5d36dab9ed0403e1a0915901b69ea1905ff551e6bbd044b9140f08483c59b8": {
       "normalizationVersion": 1,
       "sourceHash": "b52fc4367615c0da1ef8f1d327254f99436446e0710efa635d14c885c276f4a7",
@@ -55,6 +139,104 @@
         "inputTokens": 189,
         "outputTokens": 79,
         "costUsd": 0.000152
+      }
+    },
+    "0c66f4991d55f2e736908b0c8cf053995f5fbb0c311a0a87d7a8f61f916b2b06": {
+      "normalizationVersion": 1,
+      "sourceHash": "753d60571bed5b0d906f1276773ed3a89b3aeded5319ddd17834af52976f4677",
+      "contextFingerprint": "c7b96122bbbf2a4ebf600b2ab6475fe706509f893b54a9ed78d240b1b91fa656",
+      "sourceText": "### `hardware_concurrency()`",
+      "translatedText": "### `hardware_concurrency()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0cc1e9502ca1cdc1846c6677142712552d7fd6b6391ebc7d2fdc0cfc384824ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f4bd573ad3b8fd8253ae8895259f320d9507926598ecadbf171421d88ec6f8a",
+      "contextFingerprint": "0277286670b266770e2f59210804fefda62f55fac447880eca17c1da7725bde2",
+      "sourceText": "#### count_if",
+      "translatedText": "#### count_if",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0cc4b43380c41007624783fe606f4ef7070782506bc2164d0b9c9dbb52e91640": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a255d03e06b569a022bf9df34e7ba8f7c9a6b5876a5e9a67723209e478032a6",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 写的时候加锁就够了，读又不会修改变量。",
+      "translatedText": "> It is enough to lock when writing; reading will not modify the variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "0cc58ce28bdaf5dc3e18be62d498e5bdd45cd813327526e7f8860ad962eeee46": {
+      "normalizationVersion": 1,
+      "sourceHash": "ada99c18dbd56a2bc48e2b3b70c06bca90d25969177af052a1a5bf011de5dcb7",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 掌握常用的排序算法",
+      "translatedText": "- Master commonly used sorting algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0ceda3bee8b1acac0779b32479ec7b23f26b1f0deab30bab785165f34abadbb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6b4478e672cfb213f0028888499af02aa5cb167acd4a04472567faab9d14fe8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set插入和删除",
+      "translatedText": "#### set insertion and deletion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "0cf137fa806d3bb9f98e82efc00bd434d46486f387a9e8e1f3b3fcb666f53d14": {
+      "normalizationVersion": 1,
+      "sourceHash": "88926cecac2577394bbbc7ef75903bd0c8d7b4479002755a852e65673af21422",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：using 基础——替换 typedef",
+      "translatedText": "### Example 1: using basics—replacing typedef",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "0cfd4ce1163dcf927e8e6f7594b7f54d29318e537ecf00545bf46a35447e6e11": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e8f2556f10b6ce60477b0a3d26f7c28e0936d416e29001a62b5b2bba56c6391",
+      "contextFingerprint": "f9f107e73729eb8490c7f96fbc766c1f5a36ca4495a9c07b724f4ec652d49025",
+      "sourceText": "`constexpr` 让函数和变量在**编译期就能求值**，把运行时开销转移到编译期，还能用在\"必须编译期常量\"的地方。",
+      "translatedText": "`constexpr` Enable functions and variables to be evaluated at**compile time**transferring runtime overhead to compile time, and can also be used where \"compile\\-time constants are required\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 40,
+        "costUsd": 0.000096
       }
     }
   }

@@ -15,6 +15,48 @@
         "costUsd": 0
       }
     },
+    "ab060d2888cc66f7accee8dd24762158755e34e4cf96a5e76b8fcf8f71af5830": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2ba6db9a37719d3514238ce13d8c1082ea501ddeb62d2b00ba0bcc3c3c3dead",
+      "contextFingerprint": "c579293d14bb20e64257674a907ff985c0479245e44dee408d466b32f40e7c38",
+      "sourceText": "* `front();`        //返回第一个元素。\n* `back();`         //返回最后一个元素。",
+      "translatedText": "* `front();`        // Return the first element\\.\n* `back();`        // Return the last element\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "ab0c5a3a3407405ac8953bd6207e1cee3f90f5ca5fca68869a7fdbb9af584d4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "07baee9c8c3a7f89ff11f1d607d8986e53239c197190413d7d167f1243dd2ca9",
+      "contextFingerprint": "9326357851ce14d435cf183f7a546402396fc84fe403ff5858e925c792cec6d2",
+      "sourceText": "这个`std::terminate()`会立刻终止整个程序。它不是“结束当前线程”，而是整个进程直接进入异常终止流程。",
+      "translatedText": "This`std::terminate()`will immediately terminate the entire program\\. It is not \"ending the current thread\"; rather, the entire process directly enters an abnormal termination flow\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
+    "ab151553495142f2b34f4181c1ddf75a6eaa2e79868c35a81c49b64cae33d4af": {
+      "normalizationVersion": 1,
+      "sourceHash": "df5e2007cbed8331c4be6fd1f58ac75a871c87d773631edf5807a92908adde71",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这就是并发最核心的感觉：",
+      "translatedText": "This is the core feeling of concurrency:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "ab19270df4eba9d96c5bcaf3b72f80e5f274616341d12c68be0bd19af669481f": {
       "normalizationVersion": 1,
       "sourceHash": "2e19f378aa0d49ddf8c3569759894fe7e76ef799af42cf066e88f529c6ef1a3e",
@@ -71,6 +113,20 @@
         "costUsd": 0.000063
       }
     },
+    "ab5731bc13884fb846681ec8785dd60cb662bf0cbb7edf600c1a551b2ed19007": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5766415fcabb44b0d76d1b1940825e4a80ddca44ddf0659fd5859277447a6ad",
+      "contextFingerprint": "29183d94ebe5fd32c3fa102532dfe3afab07d08bcc1b4466743e9f92664c1e72",
+      "sourceText": "### `std::timed_mutex`",
+      "translatedText": "### `std::timed_mutex`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ab5800028ee8a86886ad70330014c6aa71d054d909bc6eeca797deb69f057a00": {
       "normalizationVersion": 1,
       "sourceHash": "ca3ee840d21efd817a4eed1e960c9a856c0b415ce782fee6d979112e611a33b6",
@@ -83,6 +139,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "ab6c62b9b81a7fe16fb1bb09771493ab33f07eb032e14dae4399f1be04647d4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e00f454ac8935b1a1734fb39b80c774662eed25b11b2462e7a58ee0e5e18673b",
+      "contextFingerprint": "c917228e3d31f4e3ac5f77109365d3ff2845d3446ed920b3b28b4d2b7cd1483b",
+      "sourceText": "> 总结：回调可以让 `calculate` 保持不变，只通过传入不同函数来改变计算行为。",
+      "translatedText": "> Summary: Callbacks can keep `calculate` unchanged and alter the computation behavior only by passing in different functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "ab74bc6c4b6049e73d36f7cd8deb5d0725ede31b707b1a7a3f84f225e7ae9e93": {
@@ -113,6 +183,20 @@
         "costUsd": 0.000076
       }
     },
+    "ab88aee9d8f852261191275970c36826e3da10f3f400d3af323f5084705a0314": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cced429e3301d9360cd7046c53ffe84b4bc6181d42781b54dc20ce97ecd7d09",
+      "contextFingerprint": "0578e7b754698f258044a41988501bf42e98b71f1ae7258ab34cc28bc7b471c9",
+      "sourceText": "* 尾插  --- push_back\n* 尾删  --- pop_back\n* 插入  --- insert    (位置迭代器)\n* 删除  --- erase  （位置迭代器）\n* 清空  ---  clear  ",
+      "translatedText": "* Push back \\-\\-\\- push_back\n* Pop back \\-\\-\\- pop_back\n* Insert \\-\\-\\- insert (position iterator)\n* Erase \\-\\-\\- erase (position iterator)\n* Clear \\-\\-\\- clear  ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 55,
+        "costUsd": 0.000123
+      }
+    },
     "ab999196c37bc1637d552078088d8ecbdf9d8b5595e03ab3dc44d95d8c496ca8": {
       "normalizationVersion": 1,
       "sourceHash": "4d54048bbe641ef1872fc26ac9f92d437c3243ac49b0f88cacbbdd5886d880b5",
@@ -125,6 +209,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "aba6a1acd5c92dd7351f98d2b736bc7fb0fd3c0d63fdd4721b02ff852ef5fefc": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4ca9ce937f78a7042daa9270ba18204c31cf09434b9beadcd563bb1f6043b31",
+      "contextFingerprint": "b6d978d8cb2a07fefd78dc0a5e9eef889cdd0a4224e4a989d376d03497beffac",
+      "sourceText": "| 方式 | 性能 | 类型安全 | 简洁 | 出现版本 |\n|:---|:---|:---|:---|:---|\n| `printf` | 快 | ❌ | ✅ | C |\n| `std::cout` | 慢 | ✅ | ❌ | C++98 |\n| `std::format` | 很快 | ✅ | ✅ | C++20 |\n| `std::print` | 很快 | ✅ | ✅ | C++23 |",
+      "translatedText": "| Method | Performance | Type safety | Conciseness | Version introduced |\n|:---|:---|:---|:---|:---|\n| `printf` | Fast | ❌ | ✅ | C |\n| `std::cout` | Slow | ✅ | ❌ | C++98 |\n| `std::format` | Very fast | ✅ | ✅ | C++20 |\n| `std::print` | Very fast | ✅ | ✅ | C++23 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 86,
+        "costUsd": 0.000165
       }
     },
     "aba74cacbebacd7450c612d21d3d30298a733d235f8e03ee8082e12ec7e96bae": {
@@ -141,6 +239,20 @@
         "costUsd": 0.000145
       }
     },
+    "abb42790d823acfffd351d3092cd803cc8f021304a1b4ca0d396eb9bea76ad23": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fd3b4f12d2865f207cbb8ba9befc2faf937eb0775a2c590da95619c70e80634",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程由操作系统调度，多个线程可能在多个 CPU 核心上同时运行。",
+      "translatedText": "Threads are scheduled by the operating system, and multiple threads may run simultaneously on multiple CPU cores\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "abc409131d24d4071abcae953ba9c880ffcf4cfab5b7c7f5350b6179b5487690": {
       "normalizationVersion": 1,
       "sourceHash": "42b4cd6b10ba62fa4e9eac4d947b3f990468c09d4c1cfa5a084ee838e38a8026",
@@ -153,6 +265,48 @@
         "inputTokens": 152,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "abdaacc2ce086f1649e8cabea6038c90d53793a4321222a8f7ce7e58cb82a09f": {
+      "normalizationVersion": 1,
+      "sourceHash": "aee4b7543d157e5f501d55e539c97472d9dcb3580b1873052ac5430abf6836cd",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 查找指定元素，找到返回指定元素的迭代器，找不到返回结束迭代器end()",
+      "translatedText": "* Find the specified element; if found, return an iterator to the specified element; if not found, return the end iterator end()\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "abdb3be2be74dcce33b4c5dc01b15568cc1cb675b6e87feb9ff6cc3348d621f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ef5c34097c3169399b44fd94ac585f509cfaba8f3214e7a322ef7a3b7141417",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "RAII 是现代 C++ 中非常重要的思想。",
+      "translatedText": "RAII is a very important concept in modern C++\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "abe4d31b9622871fb8589eeb650d78c5b4737470aac8a1d11d4b54411bd2f44a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e27ae90fa2adfe7bb5934bf679ea5004ce687778657c5f3864a7ce127b971910",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通 mutex 有一个特点：",
+      "translatedText": "A regular mutex has one characteristic:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

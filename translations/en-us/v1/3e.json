@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "3e0d17d2ea1af68cfb59caf61f07dde6f3d0d143868f193377cb86995a3e11aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "5079964e4b2e9a65b543f1427a97dca004511d7a499a7348f9092e87479f0102",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以它是一个可调用对象。",
+      "translatedText": "So it is a callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "3e2e2db3a2d75d792635ff5a2a19c85675d1dcb10b52f255ce5033386a1ec6e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "2236a840fa4e7590033d38e44dd3a336944712e131863a103501f2765e16fbdd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而是：",
+      "translatedText": "Instead:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "3e7134fd2a399a53640aafda4489c8af6019b32d078e50e98c07b88a0285a3ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1731f85245d271c37e123b3a422c4cdf621b1a1d4d34e16ded6d1e24012c23b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不适合让同一个线程重复获得同一把 mutex。",
+      "translatedText": "It is not appropriate for the same thread to repeatedly acquire the same mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "3e729cc6a48549910d58842b3fb1692db8bdb9bb2ef607b6eb42a07cc6c01d65": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b55eec733fa7d27928a18b7ef5188f395ed0442e4497a8fde1dfc5f380b03f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "创建对象以后：",
+      "translatedText": "After creating the object:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "3e7615056026a76374999f0a7cb0483a0f39edd16b78500c77e12b9c1b7f9727": {
       "normalizationVersion": 1,
       "sourceHash": "1b4197489c56eb1267071f0bb7b5ec5716917de65fcf72e2705f94394a3c68e4",
@@ -57,6 +113,20 @@
         "costUsd": 0.00009
       }
     },
+    "3e841105374038df9d8a1849d7d4b598e9f21d5e1bd7dae2b808acae8f8efa77": {
+      "normalizationVersion": 1,
+      "sourceHash": "c688bcea9f2e673e5167443c4412ba251839513d803373f56a1797094fb3a8c4",
+      "contextFingerprint": "d7d304accffd4e4a99e628f796c9de7bdcf70b900e9774427680d79e3a6595a2",
+      "sourceText": "`const_cast` 只是把“只读视角”改回“可写视角”，它不会复制出新变量，也不会真的把一个天生的常量安全地变成普通变量。",
+      "translatedText": "`const_cast`It just changes the \"read\\-only view\" back to a \"writable view\"; it does not copy into a new variable, nor does it truly and safely turn an inherently constant value into an ordinary variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 49,
+        "costUsd": 0.000108
+      }
+    },
     "3e86b587e420b0072b0c6b2bb02ad441a85e225d4058d6f9080cbfe3d02e3bf5": {
       "normalizationVersion": 1,
       "sourceHash": "341cbf244de26b7bae0456dd9658d499cb8c8dc6e5e0c777582efd6537844b45",
@@ -71,6 +141,20 @@
         "costUsd": 0.000107
       }
     },
+    "3e8baaf44da0bb4e037f7c2c8ce26aeff2fd3d595026d685feebed094476e361": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b6f35d9292e5dfad5106da11db8eac051df3ccd30ebb44c1f5251ef08a5f1a9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：类模板中的成员函数并不是一开始就创建的，在调用时才去创建",
+      "translatedText": "Summary: Member functions in class templates are not created at the beginning; they are created only when called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "3ebde8990af7dddc828353002390ec3b3f3f58283a135e184dafb0d5af06ecd8": {
       "normalizationVersion": 1,
       "sourceHash": "07ff12e7501a179be45d346da4d12b28d85d033fa3da075d6b048a1e46641c06",
@@ -83,6 +167,62 @@
         "inputTokens": 189,
         "outputTokens": 75,
         "costUsd": 0.000147
+      }
+    },
+    "3ebe06643cbfde2b5705f5d492858b183ffd399a50a526080419dd4a4de446c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "3201852eea7627ba9dcf137cb88b9fb587f74be4a0ea6064b261aa762da64d5a",
+      "contextFingerprint": "430fa1d4936a91fd11ca01207aeb8c2712daaa57083e810626d7a3fe1f020bf4",
+      "sourceText": "因此 `std::visit` 会把这个 `TextMessage` 取出来，并交给 `MessageHandler` 处理。",
+      "translatedText": "Therefore, `std::visit` will extract this `TextMessage` and hand it over to `MessageHandler` for processing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "3ec4e90d3c45a13451e09a35050916e33005d2108cb21967ff95273a3293d60b": {
+      "normalizationVersion": 1,
+      "sourceHash": "12cb83f151f55ace7dd7539a4d26cd361a109b8250fd64885adbc8acbaa88687",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list 赋值和交换",
+      "translatedText": "#### list assignment and swapping",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "3efb38aa635da8936025d6b001f3a2a9b3cba9533e1c17ecd2f2057b42e918e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "3542ba968b6e77fede184b3c42e367201c9af2deb1cf07a2617747d823729c89",
+      "contextFingerprint": "28e57c62818e9130079a8bb152738f6daaa494352b69a99ad43b764b986ebefc",
+      "sourceText": "Lambda 本身就是第一个可调用对象参数，`42` 是它的实参。",
+      "translatedText": "Lambda itself is the first callable object parameter,`42`and is its argument\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "3eff5b94d71d0748cc5fb1874d25571fc8664558f6e4db3241e6e7771f5bbf2f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8902e231ed63732b51c03904b20130e4fd75ad0f5e3b2b2170bbfb22251c1cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "协程通常是协作式的：",
+      "translatedText": "Coroutines are usually cooperative:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

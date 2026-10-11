@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "53009b302e06cb80fe29ac750b4da3b19bb183706b76bf6a95ff69dcd910d813": {
+      "normalizationVersion": 1,
+      "sourceHash": "81894d76ca60814216463890443140d9d84f939e102f504ce90fd3f530a77d8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最基本的用法：",
+      "translatedText": "Basic usage:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "5301d9d8911e5ae20963437dc746d016285d2534bca9e2ff3a984082cd1b2a08": {
+      "normalizationVersion": 1,
+      "sourceHash": "85524f3e77c8447ea54a443ccd708f67a02b020b4969603df079620037675c5f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很多线程都只是：",
+      "translatedText": "Many threads are simply: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "53211e7838e5c639c9a2f67ccd96c36fb068452805629f4eb88630054ec0a9e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b60f6090cdaebed4b129ab96280ed657a81446d5c69e30f937aaf8da3ca587d",
+      "contextFingerprint": "79fda1ff95da0288d037727c698e51d57534d9d17fa526d44a3db1e6f04b483a",
+      "sourceText": "表示整个 `names` 的遍历范围。需要注意，`end()` 并不指向最后一个元素，而是最后一个元素后面的结束位置：",
+      "translatedText": "represents the entire traversal range of `names`\\. Note that `end()` does not point to the last element, but to the end position after the last element:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
     "5322a666bd1facea99bc4f98f4a259b72b724b4246d61591dc365676611d9cff": {
       "normalizationVersion": 1,
       "sourceHash": "39b282a62665d221eda1880a6fc52c8b90d68a190e71b1e180e81c6f586ec273",
@@ -43,6 +85,34 @@
         "costUsd": 0.000151
       }
     },
+    "534323dfa23b8ba34b496aa2ba91dfbb4e3f78e9bd5ff13fd446d2cb2910df05": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c54039d75b12809da1a0e4417269dcfc033639e68190ec7ac95de6697978599",
+      "contextFingerprint": "1907dfa2e8802552698caa93e157fa8eb4f130dde7f46c3ff6b9905a0530af8e",
+      "sourceText": "![说明: 2015-11-10_151152](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-71b78e3e0d.webp)",
+      "translatedText": "![说明: 2015-11-10_151152](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-71b78e3e0d.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "53455c3d804cfb62d6fe6db0ccfcfd8969bb26e18db47e282c9ff3b965bff0e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0bae2d7bd00359c3bd2366533b94154cc8ab0a25cc0440cb57f28ef6f4b87ff",
+      "contextFingerprint": "e9487afccdd87bc0980f8e5bb6390ad71b29e7b9950a75d721202be38a78437c",
+      "sourceText": "不需要额外头文件。`using` 是语言关键字。",
+      "translatedText": "No additional header files are required\\.`using` is a language keyword\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "5355e8999db49c1196e1f917817e07e1d2e086af5d7717e53e778d0d18ddb547": {
       "normalizationVersion": 1,
       "sourceHash": "df36ca397343255916f28cc5fc9d2b36bf1f6533b3fc949312b3fc42c3693779",
@@ -69,6 +139,20 @@
         "inputTokens": 216,
         "outputTokens": 116,
         "costUsd": 0.000204
+      }
+    },
+    "536e9f4255de9007e7d950bd53c7710621e931b3b29ae2b2a99b5b2989215994": {
+      "normalizationVersion": 1,
+      "sourceHash": "50cae8be124e86228136aeb10d4df1611e6b487a68991744c292bb8a1fb78f41",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## C风格强转为什么不推荐",
+      "translatedText": "## Why C\\-style casts are not recommended",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "53741a8f44914d5f563e6cc8cb77c3ec74a74902cf88bad64020148575fd2c4a": {
@@ -127,6 +211,20 @@
         "costUsd": 0.000061
       }
     },
+    "53e32ffcd2d9a4a302776a7e664c4481a0fbafd6d15c1f72eba8ae5a87163ce8": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd0b4c1acd6c69717faf199bdb92258d2be07ee653d7e1f4e30c218a14026196",
+      "contextFingerprint": "ea895af1390992a3b399a1fe886865b4724b33bc66a001be6cc799c418e0c5bb",
+      "sourceText": "### 示例 6：在成员函数中使用 `this` 绑定当前对象",
+      "translatedText": "### Example 6: Using `this` in a member function to bind the current object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "53ea57552a7eebc53f3e1c98a7bc99378a04673db4592faa3a19b405a7df3c2b": {
       "normalizationVersion": 1,
       "sourceHash": "33ba540fc4b108066133f8480d09a33ba2725af037f42d0384fc5b1415c461bd",
@@ -139,6 +237,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "53f8e709e4faffb9993eab159256c2660c0a30823a31c6cf6e4057ed79d24a09": {
+      "normalizationVersion": 1,
+      "sourceHash": "784ea4c0430d1f9838064222c0abec5a38ab9342863dc0f181a07264c6eef555",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：detach 后引用局部变量",
+      "translatedText": "### Error: Reference to a local variable after detach",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

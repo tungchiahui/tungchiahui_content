@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ec094092f4f94280806efccda08d43003f6cbd7c9d48730ce1ce579f6fb8cb44": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a06242ac72f9682200b3a8f1008b6010e14e07f4dfd1f11099c374d5d442307",
+      "contextFingerprint": "091627688badd21f5d1a6bf2d38016f0bb7dc381c5f4c1da625c216444af66e0",
+      "sourceText": "标准库不会偷偷帮你自动 `join()`，因为自动等待可能让程序在一个意料之外的位置长时间阻塞；也不会偷偷 `detach()`，因为那可能制造更严重的生命周期错误。",
+      "translatedText": "The standard library will not secretly and automatically help you with `join()`, because automatic waiting may cause the program to block for a long time at an unexpected location; nor will it secretly `detach()`, because that could create more serious lifetime errors\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
     "ec32e00425ec77996a2f792a5c4b6e82866d0eb9f8a1dd79570b4bbf80bc7aa1": {
       "normalizationVersion": 1,
       "sourceHash": "a3f4f62cc9628cc2de2ef27a741068db70ffacdee682ebf9934eaf50288035e4",
@@ -71,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "ec849ac5e045b600c795fc2cd7dc21c0b10230e701ed16f76765e8cf2ea1222f": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ff0f1df81d55ee8ef4dacd46b67a518cda72828d6061e9813e2c37478c4dd1c",
+      "contextFingerprint": "3345af75c0bd18420b6c2c7da8f5fad6a7d9047b9e94f13042867d5dc5e29408",
+      "sourceText": "* `string`\n* `vector`\n* `unique_ptr`\n* `shared_ptr`\n* `fstream`\n* 自定义类的构造和析构",
+      "translatedText": "* `string`\n* `vector`\n* `unique_ptr`\n* `shared_ptr`\n* `fstream`\n* Construction and destruction of custom classes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "ec85dbd0442b80d22e08a7985c306b08e5d4c603bf8ca6dc47eae66699ae17b2": {
       "normalizationVersion": 1,
       "sourceHash": "b3cf16bdf5d471b032053bbe344216266786a7cd62a96f35b15b03d7533daf8e",
@@ -99,6 +127,34 @@
         "costUsd": 0.000064
       }
     },
+    "ec9f2b84f8bd8061db8a74bf4fe33d2179eab5562b02f04a600eecc39ff3bccf": {
+      "normalizationVersion": 1,
+      "sourceHash": "4716f94cd13a03e33e019ff56c18609b0c847ff921a72a75c07799c6876fb78b",
+      "contextFingerprint": "f4123a9852d4853b915545bda8ba39bfb49c336b02c39383f3616acf385499f9",
+      "sourceText": "这里为何`ctime()`和`{:%Y-%m-%d %H:%M:%S}`打印出来的时间相差8小时呢？",
+      "translatedText": "Why is there`ctime()`and`{:%Y-%m-%d %H:%M:%S}`a difference of 8 hours from the printed time?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "eca95ba46f6743d57edf838895394d77480e1ce4b45416d8367465d07c4bd949": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f04ff196e93ef7468b459edf6dd43555457ccfef1ec4db6012f5c2992232fa0",
+      "contextFingerprint": "1b4c2ee707c0c78b0a027b46b39dc22e8e1cff74eb8261da5e4e76004cc74f8b",
+      "sourceText": "### `std::lock_guard`",
+      "translatedText": "### `std::lock_guard`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ecc21657e4088e62f66791d4fd3c8eb9aa597ab430975a064c5661e7eb0ddb36": {
       "normalizationVersion": 1,
       "sourceHash": "c0c50f09dcb3ac9fcb592d3a41ec64182b96a978d00d1ea9d2046fb09d42fff8",
@@ -113,6 +169,62 @@
         "costUsd": 0.000113
       }
     },
+    "ecce4d72eaabbde35ea707c6137472d5d47b51a70b11587f73f6fe7138fa4853": {
+      "normalizationVersion": 1,
+      "sourceHash": "80e21bf9e05a8fd1a2e59560ab817a7a7085a43752c213aa1b5c21411889942b",
+      "contextFingerprint": "dbb5eb930f5102ae7e910bae935040f5f8e0e4940c606bca397c3993e3e3b3e8",
+      "sourceText": "`fetch_add()` 和 `++counter` 的区别是：",
+      "translatedText": "`fetch_add()`The difference between `++counter` and ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "ecd1a567847c3458639e9eb05279056fd15b1b692897e0e42c4f2d2d97a04ee2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fa04c1c6f732c74b60d921346b943ca745db09468430528848260f1cf18550d",
+      "contextFingerprint": "4c5425c1de323377b0d410d26d6e58a56ed1c2da7066a50d96aa5cca9fb1d81b",
+      "sourceText": "因此 `const std::string&` 常用于只读地接收 `string`、`vector` 等较大的对象。",
+      "translatedText": "Therefore, `const std::string&` is often used to receive larger objects such as `string` and `vector` in a read\\-only manner\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "ecd698b8d67b65bd1c4444c875f4a95520e11b63a7d0c93aa704428f0ddc63ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "2da038bfcd287d0d3103c8e6adf4b75e5137804cd8b694127d12f4e95d301460",
+      "contextFingerprint": "e015c3a42f4f65c49969dfc199cdc47aa5fbe4965679697a63497659b3d0abd1",
+      "sourceText": "所以这段代码的重点不是把 `42` 转成整数，而是把 `value` 的**地址**转成整数。",
+      "translatedText": "So the key point of this code is not to convert `42` to an integer, but to convert the `value`'s**address**to an integer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "ecec10a6e791710c7c223c8af76e57beaf4de0011208946d7d64411659e67d66": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6d31575d1b79c7d4e69ce3bbafb6535bbfa294104964ad46a53f5ad86186e3e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Lambda 本身也是一种可调用对象。",
+      "translatedText": "A lambda itself is also a callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "ecef2abea086822d04ad241769d794fa17757291577aaeda17b662ac31341a29": {
       "normalizationVersion": 1,
       "sourceHash": "8bb2e73e9615009278dc4f4e502904397346f20b7794c00be7472e6840b52ae9",
@@ -125,6 +237,20 @@
         "inputTokens": 151,
         "outputTokens": 42,
         "costUsd": 0.000096
+      }
+    },
+    "ecf66f0e4758e50197f810f9f4165833711b30a32c0adcb3f35fef59f012edee": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff2db1601d97927d520365767c6dc18cb6ce04753e82297f3ffee5fba2eb26e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "明明执行了两次自增，结果只增加了 1。",
+      "translatedText": "Clearly, the increment was executed twice, but the result only increased by 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     }
   }

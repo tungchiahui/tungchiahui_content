@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "6a01316fef64b8fc8ad229935b000a81bfccc152a2df01437303bca12ca2d81b": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa21edf79054adccd3d45c84369d3397018a75de3bb5911250ac253418d88e13",
+      "contextFingerprint": "e5112b9162ee89ed2403924ffe037caa6887805346f7ad670df552184b39e8db",
+      "sourceText": "这里的 `stdout` 和 `stderr` 是 C 标准库里的 `FILE*`，需要包含 `<cstdio>`。",
+      "translatedText": "Here, `stdout` and `stderr` are in the C standard library's `FILE*`, and you need to include `<cstdio>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "6a03769df8dae2fc33f186e11785a522cd8930894de91fc066c392ec6e88afaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cd578eb11ad383d82339536a42ae23e7af771b8540400d7100c35295eebcdef",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 查找指定元素是否存在",
+      "translatedText": "* Check whether the specified element exists",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "6a0d6014d3370a07da9723644648050c43b2e4670e04229b8fcfa4f249ef5344": {
       "normalizationVersion": 1,
       "sourceHash": "d17ebaed6c3f494abce026ba71c9e887a7603f2f3a6ca19e4d8ce874ead8f8fc",
@@ -43,6 +71,20 @@
         "costUsd": 0
       }
     },
+    "6a3d0de3c867ea9dc7158e489b729c3d13ab2c4e00ef7ceb0cb49438358c2a7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7411370f7e4a1377b6dde1dd3c5dd636ac48031fa61bce5e7d07b550b140c3b",
+      "contextFingerprint": "3bb55a3a0d88a6e77161dfaa72eb8edd3d9d85ea333d23ea090a19248d16b3f4",
+      "sourceText": "**错误 2：把 `nullptr` 赋给整数**",
+      "translatedText": "**Error 2: Assigning `nullptr` to an integer**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "6a4b317f478e1d42bc58111da8bd82fdb861036c6f6c49633225cfa030cc0be0": {
       "normalizationVersion": 1,
       "sourceHash": "950794e866180902b7f89ba2a632d72c99bfb27fa3e0279dc0ad57c39622804d",
@@ -55,6 +97,34 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "6a56927425d3f059f1304a421541fef1c581a94d34b98bddad6fb793875a0b23": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f868563daac179d7a800e366ab82d6f904ea29afbc185bc3400350024616b2d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把整个过程理解成：",
+      "translatedText": "The entire process can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "6a5cf100bbd24e0e877102ebf05b31bdad095d26f1e2196a1b011ab53b863aff": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b04451be0cda601dbe7dc84bea55521e7983aba7dd79e69fa1801e272a6f42b",
+      "contextFingerprint": "fb5836befdf05bad0f309ee9419b4d08a458a2767b98e3c91977d00697d5d54c",
+      "sourceText": "线程并不是简单地“记住表达式 `x`”。标准库会把传入参数经过衰减后保存进线程内部，再在新线程中调用。",
+      "translatedText": "A thread does not simply \"remember the expression `x`\"\\. The standard library decays and stores the passed arguments inside the thread, then invokes them in the new thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
       }
     },
     "6a5f9fb5086dfad1d14d00a83ee3fc4e5a749a281643221ea8c8868c2860476c": {
@@ -85,6 +155,34 @@
         "costUsd": 0.00006
       }
     },
+    "6a81574962deacca87f098a9b8117e81525e5495d3d1987788c0afba22c35afd": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3fe8afd0f69556bf5a671143aa953f36318e237771f613e6132f134d740e19c",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "你要写一个函数，处理一段连续数据——可以是 vector、array、C 数组。在 C++20 之前，你有两种选择：",
+      "translatedText": "You need to write a function that processes a contiguous sequence of data—which can be a vector, array, or C array\\. Before C++20, you have two options:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 51,
+        "costUsd": 0.000112
+      }
+    },
+    "6ad66de0a9f4fbf1c941f2908dc97d5e5e745fe56d070ebfe00a68e36971c364": {
+      "normalizationVersion": 1,
+      "sourceHash": "15112af1820451ab525faaa0c43110526dac7b4669358815c46884cf52bd559b",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果**（大约）：",
+      "translatedText": "**Execution result**(approximately):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "6aeaca07130e52140641dc55592a924f9bff7f968491a3183e22695786a2c562": {
       "normalizationVersion": 1,
       "sourceHash": "f0383d702693197be8d845125228deacc13ab65f82672b9c57897837f6eeb4dc",
@@ -111,6 +209,20 @@
         "inputTokens": 133,
         "outputTokens": 15,
         "costUsd": 0.000058
+      }
+    },
+    "6af5d9e947f06b2e83ab1a06415cb62f5bb7c57a6b5980ce1a0df6b15ef3fc5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "767cbfe15cdf9d4576b43454f68e4d58cf86dda6dffc25460629843483372131",
+      "contextFingerprint": "1499f761f568aa5b45400bd0530419d7776c51e844d993dd8a43014a239c9b3b",
+      "sourceText": "队列中出数据称为 --- **出队**    `pop`",
+      "translatedText": "Removing data from a queue is called \\-\\-\\- **dequeue**    `pop`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "6afc1213e30b10f9f16360b9ede8aef5c8cf2202f592a0d285c0bc7ab8ed2173": {

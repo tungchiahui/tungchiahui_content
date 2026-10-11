@@ -15,6 +15,34 @@
         "costUsd": 0.000182
       }
     },
+    "e10dbe5ab12e0623290973e738d281ed30b384f6f755f4d8b63f2f00d7b13948": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2f54f650a69093b3689d8772f9fbb4b0bda94156123163aef9842e42e980d44",
+      "contextFingerprint": "7f0c9e915118db9e7f276653c218bc1595d8ff87072a466db82efb9357065533",
+      "sourceText": "| 写法 | 输出目标 |\n|:---|:---|\n| `std::println(\"x = {}\", x)` | 默认输出到标准输出，也就是 `stdout` |\n| `std::println(stdout, \"x = {}\", x)` | 明确输出到 `stdout` |\n| `std::println(stderr, \"error = {}\", code)` | 输出到标准错误 `stderr` |",
+      "translatedText": "| Usage | Output target |\n|:---|:---|\n| `std::println(\"x = {}\", x)` | By default, output goes to standard output, i\\.e\\. `stdout` |\n| `std::println(stdout, \"x = {}\", x)` | Explicitly output to `stdout` |\n| `std::println(stderr, \"error = {}\", code)` | Output to standard error `stderr` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
+    "e11512754ebf8aaf0a8a4b87223e3f49018c78927a3ba918b8474e82d4fd0a2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6d72d1d7be524fb147fc7da47141c2aace322fb3d32854cb752caef985298d0",
+      "contextFingerprint": "d6f118139f257f32c031b9fe8e5b13746496f42cc2de309aeed46120dd07c63e",
+      "sourceText": "结构化绑定没有改变 `pair`、`tuple`、结构体或数组本身，只是提供了一套统一、简洁的取值语法。方括号中的变量按元素或成员的原有顺序一一对应。",
+      "translatedText": "Structured bindings do not change the `pair`、`tuple`、struct, or array itself; they merely provide a unified and concise syntax for extracting values\\. The variables in square brackets correspond one\\-to\\-one in the original order of the elements or members\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 55,
+        "costUsd": 0.000116
+      }
+    },
     "e11a525633711b93d18acadd360f0919d9e8516a1b54aac09b7ee68622aa8aae": {
       "normalizationVersion": 1,
       "sourceHash": "9e9f35594f861e655b155faeca766cd093c1b9925c2d23d6d12fc6012107a1be",
@@ -29,6 +57,48 @@
         "costUsd": 0.000072
       }
     },
+    "e14201e8372f6b9476f8b2bf439437c3bb7a78772a023217d425d8875a83a4e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "df53948f4b0a846fab83df990bc5ba57801d25d3ddd5243198e293b75d8fe722",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误4：用普通函数指针保存非静态成员函数",
+      "translatedText": "### Mistake 4: Using a plain function pointer to store a non\\-static member function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "e146a3574434afc19e1be3c99e2a01640d35c3076f1f4f7099893155e07baa23": {
+      "normalizationVersion": 1,
+      "sourceHash": "aae6fdd8aaa2e28a86feff32b25fabe5c77aebd03e0e45f07639ecca22e17446",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 4：C++17 constexpr lambda",
+      "translatedText": "### Example 4: C++17 constexpr lambda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "e1568e2fb108ff2a38c1edf8823b43b4b9712dd5c16c19d1b4b007171fd50eb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "dba0b4e7d2b2761cddbe463886984e63de50b6aa826ada6777111856a7b05860",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 两个容器元素合并，并存储到另一容器中",
+      "translatedText": "* Merge two container elements and store them in another container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "e16780e5ea1c624ae4874a362d4a9ec26fd0937de02ed5d8f27d665b416eaee6": {
       "normalizationVersion": 1,
       "sourceHash": "3a35e48ae1fcc4796d42824865e6ed3a56808db4a3fcbab981e048e752b49baf",
@@ -41,6 +111,34 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "e17dbcb7bf1e44ae6af3d21e8c302907efa0d26392a2f512e6943823e74f859f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4869164c49d9308deb91beab9c5817ffbb324b66122f03d2910cef5f49932736",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 插入   --- insert\n* 删除   --- erase\n* 清空   --- clear",
+      "translatedText": "* Insert   \\-\\-\\- insert\n* Delete   \\-\\-\\- erase\n* Clear   \\-\\-\\- clear",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "e18d71883bea4cc39c0dc28f8ffdf584ae553283ed939af85563b164e47e9521": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c33b361db2b047fc51bb93d2df5b628e9668e77abb381a7d7ce1ca8916441d4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，span 的子视图（subspan）",
+      "translatedText": "### Example 2: Based on Example 1, a subview of span (subspan)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "e1a3ea4713b1c3293811d17cd63d350ad89c682aaf17fa41a090db26146c9d6e": {
@@ -69,6 +167,20 @@
         "inputTokens": 158,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "e1cf7e4fff9b29cbd6e2adc85ac8640779ba2e950920f7b4709b2431bb63ab13": {
+      "normalizationVersion": 1,
+      "sourceHash": "8844e76291b93117d7a51b3bf7f7f9a6e3165e27636a5f114a37a8809c2fa726",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，nullptr 在模板和智能指针中的应用",
+      "translatedText": "### Example 3: Building on Example 2, the application of nullptr in templates and smart pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "e1e27154b6c6387e4c1293b28b11942494a7ee9843c95450a4137aadd5110ad1": {

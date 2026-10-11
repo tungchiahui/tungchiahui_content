@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f00be7f95c1bf9928c63797089c4c8c8a81f4e15f524958e02a379743ef82268": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c7a199f88159d90e492e1b5d511dd423b0f39cf929f1680a8cf09c60ceb8d77",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：如果父类是类模板，子类需要指定出父类中T的数据类型",
+      "translatedText": "Summary: If the parent class is a class template, the child class must specify the data type of T in the parent class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "f0123920d16cbefb301c84f092c57d3a6a28035bc6278d7c3108c668d246b0bc": {
       "normalizationVersion": 1,
       "sourceHash": "68529161430165eff467e981cf73174e884669d4ad4182c4729a889a85fb3a09",
@@ -13,6 +27,20 @@
         "inputTokens": 197,
         "outputTokens": 94,
         "costUsd": 0.000172
+      }
+    },
+    "f01c4d9fa9afc810b672a418da91662fa0109222d65963cac62fb8720d8a5e65": {
+      "normalizationVersion": 1,
+      "sourceHash": "18cb8f996ba3634c1237952a501fc0b7d8c3f8ee47be2ea072cfa0c8d8c2516e",
+      "contextFingerprint": "85e990cada70971f204bcc8592d2352c63a14c6eec8a54725e6d866dbc866931",
+      "sourceText": "正确做法：加 `using namespace std::chrono_literals;` 或 加 `using namespace std::chrono` 或 写 `std::chrono::milliseconds(500)`。",
+      "translatedText": "Correct approach: add `using namespace std::chrono_literals;` or add `using namespace std::chrono` or write `std::chrono::milliseconds(500)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 18,
+        "costUsd": 0.000066
       }
     },
     "f0338fee6010bd38130408c1cf92d9c6bb331e221edebf9018386dc562254414": {
@@ -29,6 +57,34 @@
         "costUsd": 0.000073
       }
     },
+    "f0347c10adbafed4749d845fd8fa108cdca4d906bdf77a526c559131eb3c58d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd173897356cb16f32eea517ecdf036a7d87967a3132ea7f1ceb010ced03ba5f",
+      "contextFingerprint": "701e9555d2ed1fe0c22a7c96249b8345196752020375e860333422ab319a5d6c",
+      "sourceText": "`std::bind` 可以把已有可调用对象适配成新的可调用对象。",
+      "translatedText": "`std::bind` An existing callable object can be adapted into a new callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "f03d2de58cc015d8a7c7946637264bccd3125bcdc154733d6ab89bacdea35d1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c46d4ffc72e18a471512f63e73d38f3c82044cc1a1b3eff20d7dca8d8c0d570e",
+      "contextFingerprint": "2730c1d196119ffd683aa8bd2b39c65357dc3f2c38c29a0ab5f3c8cc7412406a",
+      "sourceText": "| 写法 | 对象状态 | 调用的函数 |\n|:---|:---|:---|\n| `Buffer b = a;` | `b` 正在创建 | 拷贝构造函数 |\n| `Buffer b(a);` | `b` 正在创建 | 拷贝构造函数 |\n| `Buffer b = std::move(a);` | `b` 正在创建 | 移动构造函数 |\n| `Buffer b(std::move(a));` | `b` 正在创建 | 移动构造函数 |\n| `b = a;` | `b` 已经存在 | 拷贝赋值运算符 |\n| `b = std::move(a);` | `b` 已经存在 | 移动赋值运算符 |",
+      "translatedText": "| Syntax | Object state | Called function |\n|:---|:---|:---|\n| `Buffer b = a;` | `b` Creating | copy constructor |\n| `Buffer b(a);` | `b` Creating | copy constructor |\n| `Buffer b = std::move(a);` | `b` Creating | move constructor |\n| `Buffer b(std::move(a));` | `b` Creating | move constructor |\n| `b = a;` | `b` Already exists | copy assignment operator |\n| `b = std::move(a);` | `b` Already exists | move assignment operator |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 48,
+        "costUsd": 0.000112
+      }
+    },
     "f03f363574b029e0688b94075d29726ab10f98c08dd90364fa496772fc5bcf0a": {
       "normalizationVersion": 1,
       "sourceHash": "522bd810ece5d050bec8b413f4402b5e7564982aaa8f301d9a7b4d9782661b6f",
@@ -41,6 +97,34 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "f04aef8c7d291a1b023061769ddd09b47416b18d6cbfca278b0a6fa77a318e59": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8ddddf4592eccf0d2b19f0869e7576f782e3867a580e3bb822f936bf274c331",
+      "contextFingerprint": "3933289fdefa8b467d342a93c94011ca2dded9b066b69860b0846475f932af2d",
+      "sourceText": "- `queue& operator=(const queue &que);`           //重载等号操作符",
+      "translatedText": "- `queue& operator=(const queue &que);`           // Overload the equality operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "f05aa241a5d25c63994b3500c8ed8ce288561ff93c75cbb676bc14da1482808b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f38887ec374e1be97bc10ac39093bd6de49cc50c9565a34a148150dde3e2280",
+      "contextFingerprint": "44a733902b85dc77597251e23e1989c8b128dd817cf776ccd5c35451ef92c537",
+      "sourceText": "- `using NewName = OldType;` 比 `typedef` 语法更直观。\n- `template<typename T> using Alias = ...;` 是 typedef 做不到的模板别名。\n- 函数指针别名、容器类型别名在项目中很实用。\n- `using` 只是别名，不是新类型；需要类型安全时要引入包装类型。\n- 别混淆 `using` 别名和 `using` 声明（命名空间引入）。",
+      "translatedText": "- `using NewName = OldType;`More `typedef` intuitive than syntax\\.\n- `template<typename T> using Alias = ...;` It is a template alias that typedef cannot achieve\\.\n- Function pointer aliases and container type aliases are very practical in projects\\.\n- `using` It is only an alias, not a new type; when type safety is needed, a wrapper type must be introduced\\.\n- Do not confuse the `using` alias and the `using` declaration (namespace introduction)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 80,
+        "costUsd": 0.000154
       }
     },
     "f05ecce2f507bf27878aeb6269d5eefc6da824d940c39a4b20342392e41e4a4c": {
@@ -57,6 +141,20 @@
         "costUsd": 0
       }
     },
+    "f0685bd95911d7ea8806b16a5708f5095c4eadd082b35ee646244b476b7f4733": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8fc67e7e9068fc536c046b3a149a9ff960128543773bb358264d6d2d4c8f8a5",
+      "contextFingerprint": "21e737588e3cc3804431951a6cffacd21945053e664ec5e75bbe7374c8dee2f5",
+      "sourceText": "> 根据 `msg` 当前保存的数据类型，让 `MessageHandler` 自动选择对应的 `operator()` 进行处理。",
+      "translatedText": "> Based on `msg` the currently saved data type, let `MessageHandler` automatically select the corresponding `operator()` for processing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "f075ccfd47c114b1f026f54c868f1b78aa3ac236e678c9b8683ea776d6f194ec": {
       "normalizationVersion": 1,
       "sourceHash": "af847336f9e687e13a3cbe8d2e5b75f4c19eb809fdeec1028dd636f8d2fbd225",
@@ -71,6 +169,48 @@
         "costUsd": 0.000051
       }
     },
+    "f079ef6433a237a11d001a7472311e3715a5f88d66bbc2fa91f1119dc485b46b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a12e1e152f26e7637e1c92ae0e3218b38ee9544d26415b7562d9671ef6db7a92",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "deque内部有个**中控器**，维护每段缓冲区中的内容，缓冲区中存放真实数据",
+      "translatedText": "Inside the deque, there is a**central controller**that maintains the contents of each buffer segment, and the buffers store the actual data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
+    "f07a6606dce07e62da23ebca787783d4395563d61f44f6c963b3ddd9692dbf55": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d86c4ee53608cabd1f4baaf9226f332a5b9030348c2ddd59b63c7e978e38be6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里创建了两个线程：",
+      "translatedText": "Here, two threads are created:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "f07e714337e9597850573d8763aee7c7f67fd6e0358c0e78b75bce5e8b0d429e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d6cb3f8c4fd6664621866f7d86ddb9e5b61960b88c3ec1016bc0998c80a1d5b",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果（随机数会随运行环境变化，以下为一次运行示例）：**",
+      "translatedText": "**Run results (random numbers may vary with the runtime environment; the following is an example from one run):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "f097f59aeb276f866b9d98c3b92dbca4261382d923b583a912799fc988d66ae7": {
       "normalizationVersion": 1,
       "sourceHash": "62d586281e5a1604dcd3d021c1930a2ca359176939cf27af1f798095eed15362",
@@ -83,6 +223,62 @@
         "inputTokens": 170,
         "outputTokens": 44,
         "costUsd": 0.000104
+      }
+    },
+    "f09ca3e37ca84b2198cc0ee7b827162cb2159db76f412a5191eb1d78143e7950": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9b6da29f2750624e09a0f23fd7b73515f4b68a280d4c94526f5008abb63db3b",
+      "contextFingerprint": "791b1b6b8b13b408cc00e9c586ef8c192454663d29acfb732d675b721c2cb6d7",
+      "sourceText": "1. **能用 constexpr 表达的就用 constexpr**：把运行时计算移到编译期，程序性能更好。\n2. **constexpr 函数既编译期又运行期**：不必写两份代码。\n3. **用 `static_assert` 做编译期检查**：配合 constexpr 函数非常强大。\n4. **constexpr 不是\"更快\"的魔法**：对于小函数，编译器本来就会优化。但对于常量表、预计算等场景很有用。\n5. **需要\"必须编译期\"才考虑 consteval**：普通工具函数优先写 constexpr，限制更少。",
+      "translatedText": "1. **Use constexpr wherever it can be expressed**：Move runtime computation to compile time for better program performance\\.\n2. **constexpr functions work both at compile time and runtime**：There is no need to write two versions of the code\\.\n3. **Use `static_assert` for compile\\-time checks**：Combined with constexpr functions, it is very powerful\\.\n4. **constexpr is not a \"faster\" magic**：For small functions, the compiler will optimize them anyway\\. But it is useful for scenarios such as constant tables and precomputation\\.\n5. **Only consider consteval when \"must be compile\\-time\" is required**：For ordinary utility functions, prefer writing constexpr, as it has fewer restrictions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 244,
+        "outputTokens": 144,
+        "costUsd": 0.000247
+      }
+    },
+    "f0a8cf1e7ff31d226524c7215683e8ee363a5288711e00060c0841b40008702e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bec1e12ca0096a877e68de21b5fff28ae1dcb5fa10d9421c3110c84324d248ee",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误1：忘记变量名两侧的括号",
+      "translatedText": "### Error 1: Forgetting the parentheses on both sides of the variable name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
+      }
+    },
+    "f0cafca01281f77ca7c971e43ac1023fdc95563ba5b61d117f21727fa8eba691": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc9b2ff76017ae806946e935e7541c77235e1d73c09c7cb7d41db79d0a269cdc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：RAII 对象必须在栈上创建，才能利用离开作用域自动析构的特性。",
+      "translatedText": "Correct approach: RAII objects must be created on the stack to take advantage of automatic destruction when leaving the scope\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "f0ce81bc0ad78af1f281272ccf2479426c08a1b2e0b8f786d83c381ca279d17e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e51eb63d2b04f8c91f84d46d28b2e1bc301c5912575379dff7ed4d0c4eedacb8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "谁都无法继续。",
+      "translatedText": "No one could continue\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "f0d45da2e097a3e41d088da43b3e988ca4951dafc41befcac37bb56044884de9": {

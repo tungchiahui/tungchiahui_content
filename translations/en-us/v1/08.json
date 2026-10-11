@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "080d90d2acf68e52c50eab6f054e561cd5c5019e952d5b3ff8a5943519991ae8": {
+      "normalizationVersion": 1,
+      "sourceHash": "daa442f33e445fa329cad485ca6678758baf70ca61ddf027be9815ae9bc75887",
+      "contextFingerprint": "d76b7f76897a1819714a8c0fcb0b9103bf71c4a810e76e6c4cf2ab8e5bc8738e",
+      "sourceText": "`std::span<T>` 是 C++20 引入的**视图类型**，它不拥有数据，只是指向一段连续内存的指针 + 大小的轻量包装。你可以把它理解为\"**对数组的引用**\"。",
+      "translatedText": "`std::span<T>` is introduced by C++20**view type**; it does not own data, but is a lightweight wrapper consisting of a pointer to a contiguous segment of memory plus a size\\. You can understand it as a \"**reference to an array**\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 65,
+        "costUsd": 0.000133
+      }
+    },
+    "080da46e440357475df719672442c6a5e40af228f5bc26d5955447a57def0952": {
+      "normalizationVersion": 1,
+      "sourceHash": "589569b4349c4b2287b6c15a1e3da66bb55d6d0bae0e579d48122778c3e100c9",
+      "contextFingerprint": "b3fb1cde994f2db617c5dad6feca1b0457a0ae928e68412a27f0d9f135af7f93",
+      "sourceText": "正确做法：`std::array<int,3>` 和 `std::array<int,5>` 是不同的类型，不能互相赋值。",
+      "translatedText": "Correct approach:`std::array<int,3>` and `std::array<int,5>` are different types and cannot be assigned to each other\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "080ea7c6a68d2b13d8ea10d36dba0186bacafdd0da6f0809cf1ebb05af3f3aa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc6046692d33313a0d62acf9f18b7292017cb16b2be53e97297ca6f1b277564c",
+      "contextFingerprint": "c2d1a64365c1c7d60d1b7e29f71189931ca0a3409ab1b2d6adc9ab0d090794fa",
+      "sourceText": "## C++ 中可能遇到的并行内容",
+      "translatedText": "## C++ Parallel content that may be encountered",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "0819b264cd2bfba8f551a394a8d5a0eaace1fecf26f72730d254c7249cdee17e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c37dc25b76e91e00ec4f84fef2cf075381f36a80d2e1d20f085b169249b8a20f",
+      "contextFingerprint": "efe627450595a1a9c1cbcb38bab708ed92701b1b1a9376da51a500833fe57bb0",
+      "sourceText": "> 注意：`dynamic_cast` 用在指针上，转换失败会得到 `nullptr`；用在引用上，转换失败会抛出 `std::bad_cast`。它要求基类至少有一个虚函数，通常是虚析构函数。",
+      "translatedText": "> Note:`dynamic_cast` When used on a pointer, a failed cast yields `nullptr`; when used on a reference, a failed cast throws `std::bad_cast`\\. It requires the base class to have at least one virtual function, usually a virtual destructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 52,
+        "costUsd": 0.000113
+      }
+    },
     "08227f39d251a67edd7245bbf5df1523a95adf29f680d86a13b502a7d43cac49": {
       "normalizationVersion": 1,
       "sourceHash": "cf6e4c7cc68683d2d1da2c48525da15bf4328900a29e6df02c9108e5e8910243",
@@ -13,6 +69,34 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "08242a3b35f1e9cbc2ba0c97703522506186976b38cf33b884da03bc1339eaa6": {
+      "normalizationVersion": 1,
+      "sourceHash": "747775bc7d4ee5a6eb06eaf22584f2bc815d6ddc3d63891a82f0283def340028",
+      "contextFingerprint": "b1f06c2c3bd0f3b49883918e99d315c6833f5fc393e9a82bda9bfaddae1c0d7f",
+      "sourceText": "需要特别注意：`[this]` 保存的是**对象指针，不是对象副本**。如果 Lambda 被保存下来，而原对象已经销毁，再通过这个 Lambda 访问成员就可能产生悬空指针问题。因此保存回调、异步任务和线程回调中使用 `[this]` 时要特别关注对象生命周期。",
+      "translatedText": "Pay special attention:`[this]` stores an**object pointer, not a copy of the object**\\. If a lambda is stored and the original object has already been destroyed, accessing members through this lambda may cause dangling pointer issues\\. Therefore, when using `[this]` in stored callbacks, asynchronous tasks, and thread callbacks, special attention must be paid to object lifetime\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 77,
+        "costUsd": 0.00015
+      }
+    },
+    "085fcdca33659647850ea6dd3c052a726c0690c046a06bf578d7e357adae7f85": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c72332235be07a65c531412299ca3cb2ae4077c367d81e73f7da3411ea13e94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类型转换可以分为隐式转换和显式转换。",
+      "translatedText": "Type conversion can be divided into implicit conversion and explicit conversion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "08628e214908059b569336a1f382d3d007ae457224c496c1d91cc4c4090ba4e2": {
@@ -29,6 +113,20 @@
         "costUsd": 0.000295
       }
     },
+    "08682c00213eca3dd47ce66678ddd3d643f821298f8ad30d69ee55db4fa0935f": {
+      "normalizationVersion": 1,
+      "sourceHash": "55c0309519b2f0450794f804770bfaff8bba0293f377481c24ef8e9e3213fc5c",
+      "contextFingerprint": "21b7b85439a4684b416160ee2a306753a1226eae2067b238389ecfb3e7eecaf5",
+      "sourceText": "* string是C++风格的字符串，而string本质上是一个类",
+      "translatedText": "* string is a string in the style of C++, while string is essentially a class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "086a421cf62c7a05c054a46c1cbab8e0bf842d6d0f4f77727ddda5416cdfac99": {
       "normalizationVersion": 1,
       "sourceHash": "b86837f453fba2665e4036e9c73a2b7024196ca204e8ec35a00c736c1d798cc9",
@@ -41,6 +139,104 @@
         "inputTokens": 151,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "087ac790bb02f41a38c76c7d7611542f311f815ac21b3f5e77e50e1684858a43": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d80b5f074f19e408cc199434e6e20c5709488d7777e523feba9439dc60a716a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "读文件与写文件步骤相似，但是读取方式相对于比较多",
+      "translatedText": "The steps for reading a file are similar to those for writing a file, but there are relatively more reading methods\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
+    "089ddeed20e44f5cc7932a36f787c9926b9e426f2a1ada8c2ae98bf268ee2925": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5127e16016eb12414d7f03ed00a03cea0919ca3648db16bfd4a0be8a9826a63",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么：",
+      "translatedText": "Then:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "08a8094953e28a52788877b56aa39dd80a3089f4730e47b0ba14853df035eccf": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c14d6d899641ad08bda50b2a705876257a2a225786154f612871fa5e1a6de73",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很接近。",
+      "translatedText": "Very close\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "08b4bd8e513eb3f6ffd1487570ee89c7b25b63bb819f6b536169488bb67a6a04": {
+      "normalizationVersion": 1,
+      "sourceHash": "9791326f4f58c6749f036c98744e3b06572ac745b6c01d2030f0ff849ac19f70",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**用法：**",
+      "translatedText": "**Usage:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "08cbde48f3bd34337213cd051a9427b4d3479fc12673cdac0b2d878d1868da1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc47ba11be174a85f87ef64e75d1f3654d323f3e00e2df3854422ef64db5143a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：统一保存不同类型的可调用对象",
+      "translatedText": "### Example 1: Uniformly storing callable objects of different types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "08f196394c048130b2dc0a4748d1224edb93ba23397498099956b2a88c7a4241": {
+      "normalizationVersion": 1,
+      "sourceHash": "7fb231227a80fce314d520a967948a3a4016dbaa436e031db890b483ab0ab920",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 对象正在“出生”时调用构造函数；对象已经存在，只是更换内容时调用赋值运算符。",
+      "translatedText": "> The constructor is called when an object is \"being born\"; the assignment operator is called when the object already exists and only its contents are being replaced\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
+    "08fdbbbaf828b8382060638b422f04ad17764a435f9b0dd50e98aede47b448cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6707fc08db231b24d96465163d4eb9ee85b0580288a5c0d6478530cc3dfe554",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只被当前线程使用，所以不需要锁。",
+      "translatedText": "It is used only by the current thread, so no lock is needed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     }
   }

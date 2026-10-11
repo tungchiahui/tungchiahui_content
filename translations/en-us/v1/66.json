@@ -15,6 +15,20 @@
         "costUsd": 0.000065
       }
     },
+    "662768a0ff765d632377d6ee8a0446a46e64c6891809673dc4cb8c894f087986": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a322fabdbddf7b96480f9605487f22286dc4cfff880d8da99fedf18975e05aa",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 同一时刻只允许一个线程进入某段需要保护的代码。",
+      "translatedText": "> Only one thread is allowed to enter a certain section of code that needs protection at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
     "6627c3a16eefbc6025bff6c404b93016482f2848139957f01c941ed7a96a59ad": {
       "normalizationVersion": 1,
       "sourceHash": "e6b011efb10cadc1d1c7475c681e18ef94c83b888dfbfd26adde5327a5dd6359",
@@ -41,6 +55,34 @@
         "inputTokens": 188,
         "outputTokens": 72,
         "costUsd": 0.000143
+      }
+    },
+    "664f16584b205e80aaa6386c2c786c5891a1b4eae6310b0302a0251db550891c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0b28d3a19bb3cbd56ff3b53b8ecf406d1804ab9ed3fa052082065ddbdcbc576",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本章按照这些问题逐步展开。",
+      "translatedText": "This chapter proceeds step by step according to these questions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "6656568830af85ba29f4702a513927cfdef964544cff5e0ad08c475d9d0d41dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "17a856553f906bb77659787c16774f655896a7a167598cecbc8af0d3f3f9a18a",
+      "contextFingerprint": "fb5836befdf05bad0f309ee9419b4d08a458a2767b98e3c91977d00697d5d54c",
+      "sourceText": "Lambda 内保存自己的 `x` 副本。",
+      "translatedText": "Lambda stores its own copy of `x`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
       }
     },
     "665ffb2246427260828b572b77c6c24063591a7c511058fed288a3a8a7a0a6ec": {
@@ -99,6 +141,34 @@
         "costUsd": 0.000065
       }
     },
+    "6683b2aecc4f275dba33a2157550d5e97a10951f19f15f06df92e883f13d3512": {
+      "normalizationVersion": 1,
+      "sourceHash": "e29ddb80b174f28cb5119a8e20e81775b38c2b8e2267f915c7590f7ebd5231f0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 按值传递",
+      "translatedText": "#### Pass by value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6697c99d1b0c8643d1b05df5c7d7ee599c50c7941b053661a8b2d4ff6ee742cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "d763db79b35201ba8c059bd33cb0f44615471fd1f3e3de91180443e889834941",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可调用对象可以是：",
+      "translatedText": "A callable object can be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "66a2f4e1a849a0769010cfdbaba1b7517f2c66dce245c414c229e7fa68138b11": {
       "normalizationVersion": 1,
       "sourceHash": "a2210ef49a6f8b42cb8cbf277b799ecc98bfda543670df20f6311174719fd999",
@@ -127,6 +197,20 @@
         "costUsd": 0.000066
       }
     },
+    "66c5c707544b98190760c6cf7b7604d608f57d9097a2ed0f04b22bfb251fadf7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4215abcc380f0d193cab32d32a3a50c5c7817111a1df1f3fc6e210ae92d49b8f",
+      "contextFingerprint": "3f72100a5969b9209475ebc1fba522b5623d5022a7e3f179e5748c929ebeea73",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | optional 返回查找结果 | `return i;` / `return std::nullopt;`、`if(opt)`、`*opt`、`value_or()` | optional 让\"没有值\"成为正常返回，语义清晰 | 解引用 `*opt` 前要确保有值 |\n| 示例 2 | optional 表示转换失败 | `try/catch` 包装 + optional | 把异常转换成空 optional，调用者更易处理 | 也可以用 `std::from_chars`（C++17）更高效 |\n| 示例 3 | optional 作为成员变量 | `std::optional<std::string>` 成员 | \"可选字段\"用 optional 比用 magic value（如 -1）更清晰 | optional 本身占用额外空间（T 的大小 + bool + padding） |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | optional returns the lookup result | `return i;` / `return std::nullopt;`、`if(opt)`、`*opt`、`value_or()` | optional makes \"no value\" a normal return, with clear semantics | Before dereferencing `*opt` , ensure there is a value |\n| Example 2 | optional indicates conversion failure | `try/catch` wrapping \\+ optional | Convert exceptions into an empty optional, making it easier for callers to handle | You can also use `std::from_chars` (C++17), which is more efficient |\n| Example 3 | optional as a member variable | `std::optional<std::string>` member | For \"optional fields\", using optional is clearer than using magic values (such as \\-1) | optional itself takes extra space (size of T \\+ bool \\+ padding) |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 278,
+        "outputTokens": 169,
+        "costUsd": 0.000287
+      }
+    },
     "66d186fce74cab05d9b42d4de593099921507b7c7e12a7d12d435516fd1d6eae": {
       "normalizationVersion": 1,
       "sourceHash": "15a3d8154ddd7a03ceef6e1d9727bc3fb391d170a8df39f942f1228954a51624",
@@ -141,6 +225,20 @@
         "costUsd": 0.000065
       }
     },
+    "66dd32e5f0af2020c77ff6fa02bb31945ebbf9f8221fdcf7c77bdf98777d1daf": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d64326078d5f1ff64cdbbc82f1ae0b19f2d19e2080047c77c45f00aea9e8bbd",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list 插入和删除",
+      "translatedText": "#### list insertion and deletion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "66e1a1ba2724c6ab15759a9102a9cdda4819bae588a8d2cabdb77472e3d01400": {
       "normalizationVersion": 1,
       "sourceHash": "6716de407daafdbeb66f50c8d431724b6e1f96f361e7ab71b541aba7346d897c",
@@ -153,6 +251,34 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "66e868aa018cb4f51319dbdba2fc52fadccd7dc855a5e385c8dddfcf5446a7bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3e9b782803c8f64a847de0b6b71b94ec4e2a100c2fdd0969771c60b094c9c99",
+      "contextFingerprint": "517e0664a0eb37f40dc4b48b06f62691ff4f05799266f0270928f3fbcfae2998",
+      "sourceText": "使用多个 `operator()` 重载会非常直观：",
+      "translatedText": "Using multiple `operator()` overloads can be very intuitive:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "66e9487cb1b5e19ad1d7f47ec163fcab9a61cd21104cb052cdbb51e5637bdb39": {
+      "normalizationVersion": 1,
+      "sourceHash": "eea5af908959ae49b7d09d58ee654ff573da142d36b870fe1c974ab11465cc81",
+      "contextFingerprint": "c17975ef85f0bbc1f05dea79e005d3454fc3b7827a9ea5af47101b53c818dc5d",
+      "sourceText": "### 示例 3：shared_ptr 的共享所有权",
+      "translatedText": "### Example 3: Shared ownership of shared_ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     }
   }

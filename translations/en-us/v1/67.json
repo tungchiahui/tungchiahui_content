@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "67065ad901fcb8e0bf9dcf25fd90ae380126373a884feae04cac135f6fc1ccba": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0e84f034589b2c820a8f1a0ca3a175a9623224715c9a2bafb667358857af883",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "后面的并发编程详细章节会继续展开：",
+      "translatedText": "The detailed chapters on concurrent programming that follow will continue to elaborate:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "6716dcc6babc0c77e2445eca53846c4cfd2479037cd71f2def724e934cb5cc1d": {
       "normalizationVersion": 1,
       "sourceHash": "909acd40df459489ac78caa463fd73df7317b7614e1f304486fa33cce51e6118",
@@ -15,6 +29,62 @@
         "costUsd": 0.000148
       }
     },
+    "675e086b7b5f853170fa2423639c1fd842b2e919b2513fe261907b6b58dbe2ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "06d811d38a458b1de2feba35f27db88ee779cf4454335d47774c6c96b1a60dce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以考虑改成：",
+      "translatedText": "Consider changing it to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "677f2606dcec6dec8a75ca2ca3caad379bde7409f948d57415ad773e17d79561": {
+      "normalizationVersion": 1,
+      "sourceHash": "93821bfc8ba664258b9f208d189b85775ea90c37d185ab13093aa2d088d7b48e",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "由于链表的存储方式并不是连续的内存空间，因此链表list中的迭代器只支持前移和后移，属于**双向迭代器**",
+      "translatedText": "Because the storage method of a linked list is not contiguous memory space, the iterators in a list only support forward and backward movement, belonging to**bidirectional iterators**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 41,
+        "costUsd": 0.000097
+      }
+    },
+    "678bc5e311124f39c9fdc2920e6d4c0210ca360d449855324e051ad14b51c2d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "445e8fb303f7e1cbc88f54aea4f69e290ab607a2d29cbe68858c714b4dab002f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：variant 基本用法——存不同类型的值",
+      "translatedText": "### Example 1: Basic usage of variant—storing values of different types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "678f2159a363fca85a39da0638df155bc07fef96c7e0eb431dd84a5e70b1934b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0300a210e7f07df670e5ac829371a7a2f45eb89362a6cb11ee7eca79292adddc",
+      "contextFingerprint": "a47892cb747b7b49b707b67d5a3c17e7376cd19622da10afb5f68f5b13f5a77f",
+      "sourceText": "- `std::array<T, N>` 封装了固定大小的数组，大小在编译期确定。\n- 拥有 STL 容器的标准接口（`size()`、`at()`、迭代器等）。\n- 可以整体赋值，传给函数时不会退化为指针，大小信息不丢失。\n- 适用于编译期已知大小的场景，比 `vector` 更轻量。",
+      "translatedText": "- `std::array<T, N>`Encapsulates a fixed\\-size array whose size is determined at compile time\\.\n- Has the standard interface of STL containers (`size()` , `at()` , iterators, etc\\.)\\.\n- Can be assigned as a whole, and does not decay to a pointer when passed to a function, so size information is not lost\\.\n- Suitable for scenarios where the size is known at compile time, and is more lightweight than `vector`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 89,
+        "costUsd": 0.000165
+      }
+    },
     "67a73f0090124942f2c170bbe79a9ff0816a7d4b2b84c99b1781483d7d406b39": {
       "normalizationVersion": 1,
       "sourceHash": "a3ebc07c3f6be241f53ff8dcc69f073190f5735db4c0e900fa09c90773a27bce",
@@ -27,6 +97,20 @@
         "inputTokens": 171,
         "outputTokens": 54,
         "costUsd": 0.000117
+      }
+    },
+    "67c76e266cd4405d5c6332f96a495035dbcc2ed351ab0e37a750d050c18746be": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9a62496b86bd87f82a0adcb14d1a1bed8d5cca53f97ea16edfc95d0d9894ee9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 为什么读取也可能需要锁",
+      "translatedText": "#### Why might reads also require locking?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     }
   }

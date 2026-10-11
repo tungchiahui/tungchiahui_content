@@ -29,6 +29,20 @@
         "costUsd": 0.000113
       }
     },
+    "1e18223730c93d0fac66d663287e2ec956c1d78f1ba6f74819be1e4ec13983cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "670cc0b9580dc94d84f9fd76ab0ea44f401f35dfe41d5a40eb3e725b8b8b2857",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：只立刻调用时，模板参数也可以接收回调",
+      "translatedText": "### Example 5: Template parameters can also accept callbacks when invoked only immediately",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "1e1b95f466df42668203c9cbb5b955b0989fbf654e6989533f97dbc7c9a7eddd": {
       "normalizationVersion": 1,
       "sourceHash": "c2b664bd41335db7d6493750f9a403cfcf0335af896bc8d9936ec33c51fbfe9e",
@@ -85,6 +99,20 @@
         "costUsd": 0.000161
       }
     },
+    "1e31615085a2cf6e0de078dcc82785b19ba46f8733a12c9642cf92da28282f6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf4f37664abd97a71b5c9f51ef85bb6759bba5053fe8a3371551d2a410057d09",
+      "contextFingerprint": "b48c4ba940830f9710209314830164e56e7e772e66131489ab8a4050d9977ebf",
+      "sourceText": "不要因为 `unique_lock` 功能更多，就认为：",
+      "translatedText": "Do not assume that because `unique_lock` has more features:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "1e32d0d9bb0ea85562c11b9ed1575d19b7f90ed688d9dcd545bb1059eab55b51": {
       "normalizationVersion": 1,
       "sourceHash": "afdad6015aa0a62fc8f2bd3fe6ee25cfad237596841be9b634753849c8a816f1",
@@ -97,6 +125,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "1e3c0a9ff4278727e464daf42f806945c83c0f387e6ecaf9821152129f648579": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5bce6fc10bc54800e9ba376aa4f46537b30af18aaf23c4d063fe86f2195f98a",
+      "contextFingerprint": "f8b4055aa791b2d1d74e87dbc216a9f5dad4be4120e04865c94c8e2338cbded5",
+      "sourceText": "| 示例 | 重点 | 说明 |\n|:---|:---|:---|\n| 示例 1 | 旧回调写法对比 | 普通函数、函数对象都能做回调，但 lambda 更适合局部短逻辑 |\n| 示例 2 | 参数和返回值 | 返回类型通常可推导，分支返回不同类型时要显式写清楚 |\n| 示例 3 | 捕获列表 | `[x]` 拷贝，`[&x]` 引用 |\n| 示例 4 | `mutable` | 修改的是 lambda 内部副本，不影响外部变量 |\n| 示例 5 | STL 算法 | `sort`、`find_if`、`count_if` 常和 lambda 配合 |\n| 示例 6 | 生命周期 | 保存回调、异步回调、线程回调中不要随便引用捕获局部变量 |\n| 示例 7 | `[this]` | 捕获当前对象指针，Lambda 访问的是原对象 |\n| 示例 8 | `[*this]` | C++17 起捕获当前对象副本，与原对象状态分离 |",
+      "translatedText": "| Example | Key point | Note |\n|:---|:---|:---|\n| Example 1 | Comparison with old callback style | Ordinary functions and function objects can both serve as callbacks, but lambdas are better suited for short local logic |\n| Example 2 | Parameters and return value | The return type can usually be deduced; when branches return different types, it must be written explicitly |\n| Example 3 | Capture list | `[x]` copy,`[&x]` reference |\n| Example 4 | `mutable` | What is modified is the lambda's internal copy and does not affect the external variable |\n| Example 5 | STL algorithms | `sort`、`find_if`、`count_if` are often used with lambdas |\n| Example 6 | Lifetime | Do not casually capture local variables by reference in stored callbacks, asynchronous callbacks, or thread callbacks |\n| Example 7 | `[this]` | Captures the current object pointer; the lambda accesses the original object |\n| Example 8 | `[*this]` | C++17 captures a copy of the current object starting from 17, separated from the original object's state |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 297,
+        "outputTokens": 210,
+        "costUsd": 0.000342
       }
     },
     "1e6210f9486a949731fc2cfe0b9f3a1df13debfe2021450de42b25bc236e05cd": {
@@ -183,6 +225,20 @@
         "costUsd": 0.000056
       }
     },
+    "1e8787f0ffe06af9973e7f052513bf24b9b77e99cbd66bae4e29104cb5698546": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7fe8d328f18b68fb0c9800e29d5dfbc613efd53556b794b7627ec508415c376",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "否则新对象和原对象会同时保存同一个指针：",
+      "translatedText": "Otherwise, the new object and the original object will both hold the same pointer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "1e98055726540cf0095a2bc1f8cfbc01a6b72e4c22766b5d0dffe090d6073b96": {
       "normalizationVersion": 1,
       "sourceHash": "2948396ff10365ab3b35bc4ceac1523e25af8d1b57f9cee8029fd45dd001a251",
@@ -195,6 +251,20 @@
         "inputTokens": 152,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "1ec377578091633a110d1ddfabc167d09089ca9d1764867fa2eeaa1b3da3caaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b6845b81549a866658e0065ddd744b79be5a694cbceea3fa8226a4743360802",
+      "contextFingerprint": "415556deb6a3045c8f70b0ddfd6742a05c5af24da5ebd053cc1772631fbe06d7",
+      "sourceText": "![说明: 2015-11-15_195707](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547604555425-4eafb02a92.webp)",
+      "translatedText": "![说明: 2015-11-15_195707](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547604555425-4eafb02a92.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "1ed03977a274019f07f95dfe46df1d7f69db057b7c402d354da9861e197f899c": {
@@ -211,6 +281,34 @@
         "costUsd": 0.000086
       }
     },
+    "1ed7217a1411dbc1a8c99852bf2da497cc77c34ef76f92f314ca63ac7fd0a978": {
+      "normalizationVersion": 1,
+      "sourceHash": "65e11011c86738700d8b50b1d33385be8375b096d2c1372e40c65b406c358240",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 反转   --- reverse\n* 排序   --- sort （成员函数）",
+      "translatedText": "* reverse   \\-\\-\\- reverse\n* sort   \\-\\-\\- sort (member function)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "1edd4f4a0eaaa5f0b883e839e13e43f0349d71747f1b0305e0b3ef74733e5cca": {
+      "normalizationVersion": 1,
+      "sourceHash": "77ad5119b5afedc0e1a71158cf4114813a4a7b05c7a31f8d33932cc073df7f13",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 将容器内元素进行反转",
+      "translatedText": "* Reverse the elements in the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "1ef694b2bb7b24ea6ba5ac175a619059ca35a35716b3ea06168a58d17d1d60ee": {
       "normalizationVersion": 1,
       "sourceHash": "08d2cd1281b5e6b6fe163060534eaaa3f9ca08da3fbf316c796b289a0abfdc10",
@@ -223,6 +321,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "1ef90cb392760ab35328dc2b7d589dcfd875e6dee5c6fa5f80940fb988c2a2d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2d7fad7008fc1b8e9f5c253a61098f4d5bb7e19902543dd7dff1f8d18b3726c",
+      "contextFingerprint": "b16fb8bd894c9c8a9bab2635abdcef1ad462c54cf1325817aabedeb8f46c4ae4",
+      "sourceText": "**`static_cast<T>(expr)` 中虽然使用了尖括号，看起来有些像模板，但它不是模板，而是 C++ 语言内置的类型转换运算符。这里的 `T` 表示要转换成的目标类型。**",
+      "translatedText": "**`static_cast<T>(expr)`Although angle brackets are used, making it look somewhat like a template, it is not a template but rather a C++ built\\-in type conversion operator in the language\\. Here, `T` indicates the target type to be converted to\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 59,
+        "costUsd": 0.000123
       }
     }
   }

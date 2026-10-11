@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "78055cbe2229890e30b45299f1269cb9941e089b0b45f231dc2f287af28812c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b99bf8a5228bf6ad108852623278941963f9e7a74c809b74008b535d05cd7a13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：既然提供了函数模板，最好就不要提供普通函数，否则容易出现二义性",
+      "translatedText": "Summary: Now that a function template is provided, it is best not to provide an ordinary function; otherwise, ambiguity is likely to occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 34,
+        "costUsd": 0.000085
+      }
+    },
+    "781e0aa7f9883a9e80b2a7be47a6e5bf5f728ab5c363b6f7df63d4e5c6c33c7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf8aa6ce44ab45bb6c87c8e5349b0fbae60c87ab0f4a318649717fa4f25bfa87",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**赋值：**",
+      "translatedText": "**Assignment:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "781f697101df862684e8002d64952c6db20e9486bc1541f0c808931ed93edbac": {
+      "normalizationVersion": 1,
+      "sourceHash": "a07278f80e3afa41fa0a6ee954b73f7a65dfccbacb6dee6a9a336848b1d41621",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 适合使用异常的情况",
+      "translatedText": "#### Situations Suitable for Using Exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "7861e8d3da428d0c742828dc01d4a433ba9417b827f214401c3025850b9bf6d8": {
       "normalizationVersion": 1,
       "sourceHash": "df3abb61616cbc463adba5271911f2776dbcddfbdc9faf2e68fb437f84774fb4",
@@ -13,6 +55,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "7868b8e522947ba189682c96797accba9ac3655e285be31b2b3282a174211242": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f9dd9bc2ff51d8e90aa934efb34df84fb872bcbdbb455cee8d64901c9b4b7e0",
+      "contextFingerprint": "c006b3b9639715f2e4167d50b181fbc2ff894691fb106308ead15870b34b2701",
+      "sourceText": "### 示例 2：在示例 1 基础上，用 get_if 安全访问",
+      "translatedText": "### Example 2: Based on Example 1, use get_if for safe access",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 31,
+        "costUsd": 0.000084
       }
     },
     "7880d27266e0ebcb1c22715f730b2438b1ba9c3d90c19b459e036752b48b766e": {
@@ -41,6 +97,20 @@
         "inputTokens": 154,
         "outputTokens": 33,
         "costUsd": 0.000086
+      }
+    },
+    "789ca64c239aee4dc97d4878ad24a6156048fbad6fc50a925dcb63489ae57945": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cd361eb0d0ceb411fa598983c5646d3d7cc1dd8d44efa87260613b2c1621e81",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：std::format 基本用法",
+      "translatedText": "### Example 1: Basic usage of std::format",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "78a2bc6daf1ff23b7c198883fc338c609cbae85915868a372e12623b6f90d52d": {
@@ -83,6 +153,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "78e3f0892607e97cb313d25a5f8fb36a838903f88e69afb4f1e7beaac32e7525": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4bb9022a6ad968e55f1362f323bdf1f2457e9eb6d1625679c53ce41534ad3db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以近似理解成：",
+      "translatedText": "It can be approximately understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "78ea824c9a5a49c8e5a2609499dac32fab7a8f2886f0a796a78224b5689bc8ae": {

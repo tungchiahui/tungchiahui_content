@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5c0c0cce3ee8d9c100669854a8ec3970285672efe5fd1972bc8c412094e4f359": {
+      "normalizationVersion": 1,
+      "sourceHash": "5baeb33cc95ab398b720e33dbe9d74ce754b6fb7eaf1b0657fc9d57f70508589",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以使用迭代器遍历：",
+      "translatedText": "You can also traverse using an iterator:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "5c226c94f26ef0807cc8ec33ff103c661a432117b143f0f52bdb1eeafa660ca2": {
       "normalizationVersion": 1,
       "sourceHash": "1baa196bc64d9ad82271a609cada851050902caf8ea3f80185e2da0f8a22edff",
@@ -41,6 +55,20 @@
         "inputTokens": 159,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "5c2ee76a415a5f43de28f598b9916da65feee5ec09c247390536daafcc842ba6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e7336fd44678186adb51b310518546300ff0de40966d0344298841d7698b7f8",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 多个线程访问同一个内存位置；\n- 至少有一个线程会写；\n- 这些访问之间没有正确的同步；",
+      "translatedText": "- Multiple threads access the same memory location;\n- At least one thread will write;\n- There is no proper synchronization between these accesses;",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "5c2fcea10cac95ec6aa4fe4068579fcc853e21547020b86e84ffe9864bbde040": {
@@ -85,6 +113,20 @@
         "costUsd": 0.000159
       }
     },
+    "5c513fda98d5d5a251ee3be2c833ed5b6615727f780303370ce92ec8a46604d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "08a6c66366aec93f75a46097d5ee23c2a29eae02f2b11659a3e33442ac9e9697",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在上述代码中，如果T的数据类型传入的是像Person这样的自定义数据类型，也无法正常运行",
+      "translatedText": "In the above code, if the data type passed for T is a custom data type like Person, it also cannot run properly",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "5c565c9147afac0760d39e7a0ab679de5b122038d7312abeb3721e29addc2442": {
       "normalizationVersion": 1,
       "sourceHash": "b39a51acc2c687bf7da114a323995bf29c49fe303c14c745e753690751ee519d",
@@ -99,6 +141,48 @@
         "costUsd": 0.000076
       }
     },
+    "5c5769cff5f613bf283b309aa74aff065ec01a24fc68d1d11a3f3aadc567a8cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "54a37d4e711b0fccf13424ed6c9b25af12030c6142a263ebe4a0ad50ada3be5f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这会出问题。",
+      "translatedText": "This will cause problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "5c97cacb11ef8532ea61013b6263e0a6cfb0f672af4503eecd1ea065ec092265": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba0c6ed187669990a9dd54bacba4df918be6d9572ceda1199c2f86120b41a4db",
+      "contextFingerprint": "e4f52fc04d3a60e63148d2d0069b264571786929e1a3e0fd323ec3fcce8d5fe1",
+      "sourceText": "而 `lock_guard` 不提供这种手动解锁能力。",
+      "translatedText": "However, `lock_guard` does not provide this manual unlocking capability\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "5c9abf0edcab0691cfdbbc25972967ede8c34f7cd11208698e951c0319682b3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0def207025055614c706c99f1152af12540c3b368238b54b36d4837a8cd725d6",
+      "contextFingerprint": "f643f9987f965c566fdf905456d9db1e70cdbf02b7d9e8518458d48e18d64ca8",
+      "sourceText": "* `stack& operator=(const stack &stk);`           //重载等号操作符",
+      "translatedText": "* `stack& operator=(const stack &stk);`           // Overload the equal sign operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "5c9c86aa1738efcd0cdb5f5dc3f2e900fe8ebe144c3a9fc7a4e9d485b75f188f": {
       "normalizationVersion": 1,
       "sourceHash": "f51c62a9a8d2a8dd94e8aeda296995b74224c0e8f848dfe6858ede5665cb42f3",
@@ -111,6 +195,20 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "5c9db648aaa4bf28ad9605b4d36d18c803feb944fda388aaac9079128a797240": {
+      "normalizationVersion": 1,
+      "sourceHash": "187087d920e65b570430a475397d7eef19e90b96e04f33eb779875e7ea1d434b",
+      "contextFingerprint": "e4f52fc04d3a60e63148d2d0069b264571786929e1a3e0fd323ec3fcce8d5fe1",
+      "sourceText": "可以理解为告诉 `lock_guard`：",
+      "translatedText": "It can be understood as telling `lock_guard`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "5cae909e2e48105a0dd570b7b6fe696116eed95b596e010fcf1c4945cba00377": {
@@ -169,6 +267,48 @@
         "costUsd": 0.000063
       }
     },
+    "5ccc01b7b89183646b0c6268814e1fb0b55f17f7f277f299c436cbcc2cc4a133": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b86655fccdff5efcf76987e39cd5d94913b211a36e3157309e7c0b69f62118d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### catch 捕获异常",
+      "translatedText": "### catch Catch exception",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "5cd53b9d642cd6493f04bc0de77194082d64e0511497e486fc62dea8b9519ea6": {
+      "normalizationVersion": 1,
+      "sourceHash": "a199e8c14a851a7783772c70ec5bc94bcf00f7a6049c233e15dbb901699d57e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：span 只适用于连续内存容器（vector、array、C 数组、deque 的部分场景）。",
+      "translatedText": "Correct approach: span is only applicable to contiguous memory containers (vector, array, C arrays, and some scenarios of deque)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "5ce5c554d8cdc359faf91d7f2d42829fe0c55674ff59820be466505f84b66df3": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3839b6d262bf7b70e42a410f39ed3f8cbc786a4cc27f5ec11eefee6689867d9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set大小和交换",
+      "translatedText": "#### set size and swap",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "5ce5f71abc399003544abd0dee65b3b5ac1233e7bc7ed33ff1a734225a3f613e": {
       "normalizationVersion": 1,
       "sourceHash": "eb0814752feea658c3d1afe195b10d26ec7f7760763e7af7036ec0976f16d99b",
@@ -181,6 +321,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "5ce7b582615ce60bd1136f57b0a7e37b2f9043edd9d6bc0940bb43513c591a6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff69dc7c357002d8d7b7d0743cabe15ce84ac51f448c387190d22d8c89cd83ee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些写法都能工作，但小逻辑会被迫挪到远处，或者要额外写一个类型。Lambda 表达式让你可以在使用现场直接写一个小函数，而且可以捕获外部变量。",
+      "translatedText": "These approaches all work, but small logic gets forced to move far away, or an extra type has to be written\\. Lambda expressions let you write a small function directly at the point of use, and they can capture external variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 52,
+        "costUsd": 0.000113
+      }
+    },
+    "5cf4809c9e60a1b2ff1506da825ed5dea8a3b91e5b69605cdca675d11c018c37": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4517c2c1e9364eee84f8268c6a760b0ca6e4f442f2fd3995ecce066d58e2a1e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更强，因为后者中间可能被其他线程插入修改。",
+      "translatedText": "Stronger, because the latter may be modified by other threads inserting in between\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "5cf69cf021ecf8ebae12977669286cb12bada98b5a3e2be4f6727c89bbc9bcb6": {

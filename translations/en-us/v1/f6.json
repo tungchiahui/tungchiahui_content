@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f617944e56ae5fb4d7039607e9eb642442a4a4677c4fa786c9662652d74ca646": {
+      "normalizationVersion": 1,
+      "sourceHash": "805af9ec1b04b4201a5707721114a38c036cc93ba0eb2854efd9c0502384e706",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**链表**（list）是一种物理存储单元上非连续的存储结构，数据元素的逻辑顺序是通过链表中的指针链接实现的",
+      "translatedText": "**A linked list**(list) is a non\\-contiguous storage structure in terms of physical storage units, and the logical order of data elements is implemented through pointer links in the linked list\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 44,
+        "costUsd": 0.000099
+      }
+    },
     "f61f7c964514aed7a0abad84f339ed539cef59e3ce096f116856b8fee9320aa4": {
       "normalizationVersion": 1,
       "sourceHash": "a7c38025e31e38b1ea0ecd1443cbfee3b8b62f7cc627e33a883f8f0a48195393",
@@ -27,6 +41,62 @@
         "inputTokens": 156,
         "outputTokens": 40,
         "costUsd": 0.000095
+      }
+    },
+    "f62d6c14eba31ada7ffb02a83b9a90f8496391ca4afcbbf285bf76578ddcb294": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ecc1fec28bec8419eebeb5df45a5b39aabd495b0a2a5829f40266ee6b844424",
+      "contextFingerprint": "9635d9df9d8adcb632cd08f9e36b74bc513b8761ea7dbc4232c3b0d53b493856",
+      "sourceText": "而 `is_even` 是：",
+      "translatedText": "while `is_even` is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f642edd3bb58ac8d4e7b9361206c1ef6f56a32f16bb394a9df9e5fb450fa1582": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac6932181d31290fdb720450b31651ad323e405edf1265b19c8d0ab19d51ca99",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 将容器内指定范围的旧元素修改为新元素",
+      "translatedText": "* Modify the old elements within the specified range in the container to new elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "f644108050735be0acaa80ba3c72ca9ffc0521e80cd8580524e04f4e218771a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed5f4a739d48d1ff56d295815faf8e3bf41e409acc09a0ed210019da6e025813",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对list容器中数据进行存取",
+      "translatedText": "* Access data in a list container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "f644fa994380e534a8c3259291999fd59692b61ebab8d1b91289d4d6b1748a59": {
+      "normalizationVersion": 1,
+      "sourceHash": "f199f38511617f2f14cefe724a2be48ad3fdc90a71056a8ba5983ffb72667f62",
+      "contextFingerprint": "56f5799c1e72ce677978b2c1c8eb7d5c48134a186bf2551f0ef2f86340f28dd5",
+      "sourceText": "### 用 `lock_guard` 改写 counter",
+      "translatedText": "### Rewrite the counter using `lock_guard`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "f64669c66dfd2adc93ae46958c12ebbd5081731d7740b2ff5827aa48475baf63": {
@@ -71,6 +141,20 @@
         "costUsd": 0.000099
       }
     },
+    "f66b2b6f41f0b87fd64e1056ce10f03bff6ea72d143c54868b04b265d4e2273f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e8d2bb8911d0b0ff713abb4c4a3b5514039c4dece889472664b3793c7b2c9f3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开方式要指定为 ==ios::binary==",
+      "translatedText": "The opening mode must be specified as ==ios::binary==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "f67e7b96560c847e93529a11b9ecbd464e4d83e431c7cdcc23e35944f421cad7": {
       "normalizationVersion": 1,
       "sourceHash": "9dbfa9e767816576caf83c047ab61ebb047a28d4d6ddbecd9a72084aa8582ef8",
@@ -99,6 +183,20 @@
         "costUsd": 0.000136
       }
     },
+    "f68d4d1c670f941ba92f6f5965f3bc45bcba792354c056840746d4b2eafc3226": {
+      "normalizationVersion": 1,
+      "sourceHash": "26c9e9394f0c4f6fdd8132ad0fd562f3154acf292f5af209d17441233340d286",
+      "contextFingerprint": "187ed87fb8bc17483064a740975441b6f4e64ceb0349c84e143d83d01c9d025e",
+      "sourceText": "- `count(iterator beg, iterator end, value);  `\n\n  // 统计元素出现次数\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // value 统计的元素",
+      "translatedText": "- `count(iterator beg, iterator end, value);  `\n\n  // Count the number of occurrences of an element\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // value The element to count",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 33,
+        "costUsd": 0.000087
+      }
+    },
     "f69c79b8da3b5b5a48630c91dd3daac41a132be53f7355d1284592895d0b8428": {
       "normalizationVersion": 1,
       "sourceHash": "2fc9c13419f43aa3538bc8c65782053b3c1764180ea2e0dc6e7571054686b589",
@@ -111,6 +209,48 @@
         "inputTokens": 168,
         "outputTokens": 50,
         "costUsd": 0.000111
+      }
+    },
+    "f6aab3d4d6fda5e01f185088ec838fa4bdfa64c5b942779e823d242b6505813a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1c6bf4a168b251cc2f1a5645ead516a24febfcc9ce6776dfc55a693a2fe43ff",
+      "contextFingerprint": "ffa3b21808a01215a21c342d9a87c07d8fe0ef2b0bc40e225596269367c6848e",
+      "sourceText": "如果不确定真实类型，应该使用 `dynamic_cast`。",
+      "translatedText": "If the actual type is uncertain, use `dynamic_cast`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "f6b949aba20198b9c25e0b2adbb42d37397c45d38608c35dfa00db47e593d8f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6a69be0f4f64a32c0c8f46f2f4d992b34d6c39af328ea7eabc46c3ee2e71fcb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通：",
+      "translatedText": "Normal:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "f6c08f01651aff785bc82da3c593766241b6d7f24a1097f8d619e7a66f732417": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ff60e4e74aab65a6192bfd7cd6dd9d6b7a0dd436dac8707bf9a33bc680bdbec",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 临界区太大",
+      "translatedText": "### The critical section is too large",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "f6ced07defcb3e142827ab1c6e3c89c4824e9403d2681c96ca1e7ba9c25baff8": {

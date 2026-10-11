@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f2111ca15ea6e4cc033a48d9975326305b4c587aad8236a567f9edff43832738": {
+      "normalizationVersion": 1,
+      "sourceHash": "c247186f98f2f1dca95c838bc041f4e2b39a0ce9676e38d8da83730049cf326e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数对象",
+      "translatedText": "#### Function object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "f2344ad09d9eb2b021804bb24796925b5ff305ac57d68f1f5548c863bb3633f5": {
       "normalizationVersion": 1,
       "sourceHash": "29e0edeb959d24f6e0860ae0ad081106f8c7ae21919308f879a50d6bf47f4056",
@@ -13,6 +27,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "f239630c9c0e26939dbd6295a5d6651832352890cb1e37fcc7fd3963b3ef846f": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbd3dec15c90571a1ca9b93f56953e1d49d1949d7b270769b11c98f562ede33e",
+      "contextFingerprint": "eee7a2b2c1eab2c3860eec1cb2b0f24185a72d9bf064b833e90be636ba207580",
+      "sourceText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547605111510-387a46c863.webp)",
+      "translatedText": "![img](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547605111510-387a46c863.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f2686c41fe5f5843f8d35ae6b4a5a271b8fc27bdd1ee48998ef79307aa6f91f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ccdef5c766b6b439fd38ed4db1df53c335d8b345f19b2dc0536765a715188de",
+      "contextFingerprint": "4843e130c1e72fc95dec7939063591c29f4f6ef64fadfd4164aabe1d46510c24",
+      "sourceText": "假设 `size == 3`，它大致等价于：",
+      "translatedText": "Suppose `size == 3` which is roughly equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "f270cf1273f60d6cbc2792753f885246571ecae68f38b8b57c5ff0789510748d": {
@@ -43,6 +85,34 @@
         "costUsd": 0.000058
       }
     },
+    "f2811b6bbfd7abe486491da1802eb13b3c945e6e014bbdb968fbbdf0fc9dbf35": {
+      "normalizationVersion": 1,
+      "sourceHash": "518ca1c5c9952d4045f8209aa42df0866e96566ffcfca172b0feb8987b380523",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 减少vector在动态扩展容量时的扩展次数",
+      "translatedText": "* Reduce the number of expansions when a vector dynamically expands its capacity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f286d418dd060d2f79808c78351e73a57783ff96f9188cdaded19e6078b32ee2": {
+      "normalizationVersion": 1,
+      "sourceHash": "dde7b7e8a64a0efd3f611fc72280da6b35cc0714fe40901cc8166caba048a8ed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以销毁或修改其中一个对象，不会直接影响另一个对象，这就是深拷贝。",
+      "translatedText": "Therefore, destroying or modifying one of the objects will not directly affect the other object; this is deep copy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "f294fde6016dafccd06c14cfa14036fcec8017f52fb98e59e100de893c7a33d4": {
       "normalizationVersion": 1,
       "sourceHash": "f1d8d4be968d49b322c7a3c0de13235f6f6c4b0adf174067b7f7378983ceb1e7",
@@ -57,6 +127,20 @@
         "costUsd": 0.000201
       }
     },
+    "f2a28ec6649abcf77ee5a76414e39d782bd78ebc013b9a1da07ac7d96c114b4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc84ef26e136a83f5a3259ce73dba2a1247809cccfec47ebb8b2214bfc0244bb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但如果同时使用多把 mutex，又可能产生新的问题：",
+      "translatedText": "However, if multiple mutexes are used simultaneously, new problems may arise:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "f2ce943c8ee180ddb0e4dce9bd4af245738bd2ca8ce71c0998936d3eab4090fa": {
       "normalizationVersion": 1,
       "sourceHash": "d3b5889b1af2bc6e4188fc64adab3b851ed136578acf8d58057c58069fa6469f",
@@ -69,6 +153,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "f2e525ab12407df73da1b68a864ec94c1c45fa618d181397828447f3c9e905bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "dedbe880ab0f8fb064352be38a466b3d340407c7d2c3333c0e2911a9ce9b483f",
+      "contextFingerprint": "5dab68d5919cb7ce88ae3fecc0d801f10bf71c187505e2e87269bf25e07083e4",
+      "sourceText": "即使线程函数已经执行完，只要还没有对对应的 `std::thread` 调用 `join()` 或 `detach()`，它仍然可能：",
+      "translatedText": "Even if the thread function has already finished executing, as long as the corresponding `std::thread` has not been called on it, `join()` or `detach()`it may still:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 37,
+        "costUsd": 0.00009
       }
     },
     "f2f8c054c03886e6763dad6b96666c0fd344f2e89c94ee0f49ab91c8a68f39b9": {

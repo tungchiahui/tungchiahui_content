@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "360572a0613672a0e96c8ba001eaf2d7b4ce423165d683da036c64f296f92158": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce94c699ca78fc7af126914ced9526bae37feffed440930db0733bdaf46a9323",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果示例（数值取决于当前机器）：**",
+      "translatedText": "**Example run result (values depend on the current machine):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "36314e0de3d8f1020163957923dc8bffe37136e58161607d684a4b124774d375": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb67d81a97a5d6461953b1e50fc4cdaf2399dede353e107643f16208a8dd9b2c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 减少共享数据，通常比疯狂加锁更好",
+      "translatedText": "### Reducing shared data is usually better than going crazy with locking\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "367d603f93746111115d8b7108583c3aa3f0d9290b52ef1d1be0ac4114c89fc0": {
       "normalizationVersion": 1,
       "sourceHash": "60f29fa4c78ccda4f1653b4e4a1904eeb60ee1c40345a2b37cd08494bf2fb0ec",
@@ -13,6 +41,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "3682a73c284dd9bb38fc800e8ec998a40aeaf4b77fd286d6c3718f5f6bb2c0e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f809263c4b438f99d607ec7db474c79a18f6e3f8cf6505be3b12411c58200af",
+      "contextFingerprint": "b01448712e32d6075dee829291e019d9a936232e47142120058f37c2e4cc0d2a",
+      "sourceText": "#### for_each",
+      "translatedText": "#### for_each",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "368a0c195dfd7fcf09cb00a704747b4d67561bfa46aebd153da9654fdc9117a6": {
@@ -69,6 +111,20 @@
         "inputTokens": 149,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "36db84100cc8e50cc0d30c1cc524060edc5596e3ef295abf0d8e38e80e1f6e03": {
+      "normalizationVersion": 1,
+      "sourceHash": "dedec8f260967debf47fdbffa959d83f3f3cde5581beb169ec90e788bdcaaa56",
+      "contextFingerprint": "38e828e95d84d965ca791640667a48d2cf71042772b531a221e3dac0bdcdffda",
+      "sourceText": "例如 `std::function<int(int, int)>` 表示：保存一个可以用两个 `int` 调用，并返回 `int` 的可调用对象。",
+      "translatedText": "For example, `std::function<int(int, int)>` means: save one that can be called with two `int` and returns `int` callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "36dba58a75b90bdfc24e33cc118d622056dde9b928a4c4c39743dd9095004013": {

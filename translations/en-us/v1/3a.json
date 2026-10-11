@@ -15,6 +15,20 @@
         "costUsd": 0.000133
       }
     },
+    "3a10607c68fd283aef4067bde3444d204d04ebfa12f6a95a1410a8273f3a1733": {
+      "normalizationVersion": 1,
+      "sourceHash": "166bb790f0c0a6483f5634a0297500d05241a61ca744d54b282507847ab2ae69",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两者的区别可以简单理解为：",
+      "translatedText": "The difference between the two can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "3a256ce0c101a2a31a711be4c972288460ec6559caffd412dae7696031b476ce": {
       "normalizationVersion": 1,
       "sourceHash": "1f0cff7b076a8c33603c22504d32f22af729f20ce657e0a65459b61e6b09fba0",
@@ -41,6 +55,20 @@
         "inputTokens": 196,
         "outputTokens": 85,
         "costUsd": 0.000161
+      }
+    },
+    "3a3005c3eac3038f2496f827f28688e88321a7b7bb198019f67426d301acc0a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ee694814c416c4d701cf14b59df1ad7b38895300ff54f10d9cde8f149e12631",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最简单、最常用的 RAII 锁之一就是：",
+      "translatedText": "One of the simplest and most commonly used RAII locks is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "3a364e571a36353bf6822804415c5946a62e07eb701f498a77fd53cbc47fba26": {
@@ -99,6 +127,20 @@
         "costUsd": 0.000059
       }
     },
+    "3a6c5ec2d8861b305b0fc6505c17683fc1afa78ded6a5487163e683227590c04": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd1f00e3e422b83e5b24376338c53b4fb6f55da2f09d705512f0252d2f301942",
+      "contextFingerprint": "01c52e2632690eab7213d8a92b28d129f06b7b4acfece7171c639a894963f5c2",
+      "sourceText": "正确做法：类型或命名要能表达含义。例如 `std::chrono::milliseconds timeout{3000};`，或者至少写成 `auto timeout_ms = 3000;`。",
+      "translatedText": "Correct approach: types or names should convey meaning\\. For example, `std::chrono::milliseconds timeout{3000};`, or at least write it as `auto timeout_ms = 3000;`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "3a6e7d20757f0d1cae53b26383061d74f637387833748afd5338294f4d1f33aa": {
       "normalizationVersion": 1,
       "sourceHash": "fd43f1035b497659aa0fed8648862351cc556f42018b9299fbaf17665bd85390",
@@ -111,6 +153,48 @@
         "inputTokens": 185,
         "outputTokens": 69,
         "costUsd": 0.000139
+      }
+    },
+    "3a71e1b90c6dc5f825fff22161d8fa3f6682f4cd0026660a56ea5d83a5263bb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2717c52afbd48282f232021cbd5f207be87236e0f229ad74ef09820fd82479a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面已经学习过：普通指针可以保存变量的地址，通过指针能够间接访问变量。",
+      "translatedText": "You have already learned: an ordinary pointer can store the address of a variable, and through the pointer you can indirectly access the variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "3a771533613c562e910f6f1b3882a3186c647cc298d61512bf7b9fb0f9bc92a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "6321cb5c22bee643bbcfccad92d686ba996f5336fed2bd59c00baccca6e43599",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数对象概念",
+      "translatedText": "#### Function object concept",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "3a7976766ed5465a17cd8b1c14bbb913a3a58fce4026eadd123c2315b9c4f8c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ecae0377b98ac0d78e2e21ebc1a706f72942128852c8ca5a03e37772cfb45cf",
+      "contextFingerprint": "926aa910233b5ad87a01a99d6f8256f4e31f1735ec8110305a55dbd782ad30f8",
+      "sourceText": "* 这些仿函数所产生的对象，用法和一般函数完全相同\n* 使用内建函数对象，需要引入头文件 `#include<functional>`",
+      "translatedText": "* The objects produced by these function objects are used in exactly the same way as ordinary functions\\.\n* To use built\\-in function objects, you need to include the header file `#include<functional>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 40,
+        "costUsd": 0.000094
       }
     },
     "3ab12037912105197e8a46fcbc6030825c94af5dcb0c2bcefbd02522046f1fa8": {
@@ -127,6 +211,48 @@
         "costUsd": 0.000092
       }
     },
+    "3ab5200a8d39eaa4d9a024f0001abbcb92ecee2ee8c70fb16284dbdf92664c32": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7cd6a36182c95e98c22adf461080e726c8e15415855a8a5e1eda53818ee4bc1",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "*  计算区间内 容器元素累计总和",
+      "translatedText": "*  Calculate the cumulative sum of container elements within the range",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3abb5a7c351be53fd9aec83a19ec08ca443422308622e2550660693165e2fcc5": {
+      "normalizationVersion": 1,
+      "sourceHash": "461debf3892b3f1935e09d994c550f067586b73dda520076e892d61fe20bb40d",
+      "contextFingerprint": "d555d1ce8edf13ca1876a0acf2830c620cda58b5d970420bec043d4ba1fb653b",
+      "sourceText": "以 `std::pair` 为例，C++17 之前需要分别访问 `first` 和 `second`：",
+      "translatedText": "Taking `std::pair` as an example, before C++17 it is necessary to access `first` and `second` respectively:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
+    "3ad280fc1fdf68e9d0d57cdca740831d84042ac8009a224accfce496831d0ff4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f108b2f8b702a5d8d6aec1ae1f77598b26316663ef3e89b1fd6746a5cb0098b5",
+      "contextFingerprint": "517e0664a0eb37f40dc4b48b06f62691ff4f05799266f0270928f3fbcfae2998",
+      "sourceText": "正确做法：visit 的 visitor 必须为 variant 中所有类型提供 `operator()`，或者用泛型 lambda。",
+      "translatedText": "Correct approach: the visitor of visit must provide for all types in the variant a `operator()`, or use a generic lambda\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
     "3af00848f70aa5ade2c10f86fa3a7f59f7ac2ec505904a3df84d0204a779a69c": {
       "normalizationVersion": 1,
       "sourceHash": "8413d7b62f90b2afdb55e93e7a62ab609d4044175b4f974654a33cab71b74268",
@@ -139,6 +265,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3af3a4e4942fb2cee5eba41b6f0e6d7ed0bd173c5af27fb720d02ebb6a98e038": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f03565ac60cf57e32b65261989978e6267819ec9b1d61179d1e302547a8efdb",
+      "contextFingerprint": "ca6a2e9f71d393ca25fd331c6ca77e62c18357943f59a9b2940a0c81de373fb8",
+      "sourceText": "1. `b->prev.lock()` 尝试获得指向 `A` 的 `shared_ptr`。\n2. 返回值保存到局部变量 `p` 中。\n3. `if` 检查 `p` 是否非空，只有对象仍然存在时才进入代码块。",
+      "translatedText": "1. `b->prev.lock()` Try to obtain a pointer to `A`'s `shared_ptr`\\.\n2. Save the return value into the local variable `p`\\.\n3. `if` Check whether `p` is non\\-null, and enter the code block only if the object still exists\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 49,
+        "costUsd": 0.000109
       }
     }
   }

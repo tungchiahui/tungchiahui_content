@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "261bc04215b0f8f7adb2ad20308602a5de8d2731d7b5939e6ba5b0ae29ac9bbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "4dc5500ad8d1a9ac87b12dc8c5557191d391ac5df26937ec871f415119b343ed",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 并行不等于线程越多越快",
+      "translatedText": "## Parallelism does not mean that the more threads, the faster\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 19,
+        "costUsd": 0.000063
+      }
+    },
+    "2647340f17def2b6cd89439b38cd88bb1afd436c5fb37b064347fbb761f073ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "a21da52dac2dd8749ac8010b01e466f152a732c997d900ad19eabc75a6fa04f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数声明只需要告诉编译器参数类型，不一定要写参数名。函数指针参数也遵守这个规则。",
+      "translatedText": "A function declaration only needs to tell the compiler the parameter types; it is not necessary to write parameter names\\. Function pointer parameters also follow this rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
     "2647fd7e460af769fd1e9f43a950789f222b037580f563bc6094ddcdb0b845ef": {
       "normalizationVersion": 1,
       "sourceHash": "42cf1dd5d8cb5ca160a6b63ed486d446e76ff04100b83fd39a06527339096318",
@@ -13,6 +41,34 @@
         "inputTokens": 187,
         "outputTokens": 78,
         "costUsd": 0.00015
+      }
+    },
+    "264946cfcb739b86564687f44a4356521168aad933ee9f14207a99a8ee3de17b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7aa8bc4fb3cbdce5fcf3d086f3a970322060093189bf222ce2848651ad713e3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：先创建具名的容器，再传给 span。",
+      "translatedText": "The correct approach: first create a named container, then pass it to the span\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "2657c9904e806d23f071260c4cd19f5848a8a53eac73cc8a825a232d4d0bfe72": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cec9f8b35629ca307454855a2edf472791aa71e50ad9babd1c80786fc251ad0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：只读 span 和可写 span",
+      "translatedText": "### Example 4: Read\\-only span and writable span",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "266521e99ad1284e481eabbcad9ac5de8d2d951eec5a38280b280493c21fa583": {
@@ -71,6 +127,62 @@
         "costUsd": 0.0001
       }
     },
+    "2688b3955cc103c708f01ba193a90f70adc8a39a1d73d33db777d51044c0ffdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee9ca389bf69df0c6838086a7adb3bfff5d09d58fb50ced2fed2ea4cc1b4ff44",
+      "contextFingerprint": "7f3253b2353a52dfceeb3229e8f93030bed9648b6d6bdb5623d7992449031ce2",
+      "sourceText": "有些计算在编译时就已经知道结果，但如果用普通函数，却要等到运行时才计算——浪费了 CPU 时间。此外，某些场景（数组大小、模板参数、static_assert）必须使用编译期常量，普通变量做不到。",
+      "translatedText": "Some computations already have known results at compile time, but if ordinary functions are used, they must wait until runtime to be computed—wasting CPU time\\. In addition, some scenarios (array sizes, template parameters, static_assert) must use compile\\-time constants, which ordinary variables cannot do\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 72,
+        "costUsd": 0.000143
+      }
+    },
+    "268a4eccf32d87aef97cf8c7a0912af3f4869d37d07f1ef58eca42ddf51a2cf1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4b179f59602a66c847c5d4e854d772c0e73278a3b1288220dea302b06a15194",
+      "contextFingerprint": "cbd81fcc7abce966a1ba71525cc282237f2b7a2ecc0c83fdc8fadefb35edec03",
+      "sourceText": "这里按值捕获 `name`，按引用捕获 `count`。因为 `button` 和 `count` 都在 `main` 中，`count` 活得比回调调用更久，所以这个例子是安全的。真实异步场景中，保存回调时要更谨慎地处理生命周期。",
+      "translatedText": "Here capture by value `name` and capture by reference `count`\\. Since both `button` and `count` are in `main` and `count` lives longer than the callback invocation, this example is safe\\. In real asynchronous scenarios, lifecycle handling must be more careful when storing callbacks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 55,
+        "costUsd": 0.00012
+      }
+    },
+    "269ce024a52eeb2effc63fef7663e746a012323478380423e9f65c14ab860379": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbcd56768581ef2b5e6b4f93fb6207481afdfce922aa1c0b7754bbf28f17fec0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不过这种代码越复杂，锁的设计也越容易出问题。",
+      "translatedText": "However, the more complex this code is, the more prone the lock design is to problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "26a26ded9814252fd88d91629a4e3b1e8b48a41d2a44c79e4c16c3bb393df00d": {
+      "normalizationVersion": 1,
+      "sourceHash": "496233c6d3a16ccb7cb986a76b4fdb1b333924c8bafa520868e3aa4708700e51",
+      "contextFingerprint": "c6039633be607eae193edd1f75efe2a670850933fae2875c6236e10d0ef882d4",
+      "sourceText": "* `push(elem);`      //向栈顶添加元素\n* `pop();`                //从栈顶移除第一个元素\n* `top(); `                //返回栈顶元素",
+      "translatedText": "* `push(elem);`      // Add an element to the top of the stack\n* `pop();`                // Remove the first element from the top of the stack\n* `top(); `                // Return the top element of the stack",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 41,
+        "costUsd": 0.000095
+      }
+    },
     "26a9c2e7f0e00158de0098011ecc470673ecceaab92b7e8b49dca4b614e45e51": {
       "normalizationVersion": 1,
       "sourceHash": "2e65f56c32f4f4d355add2c28df1dd0c27b73d6f1bf20fe499b38b4f936c146c",
@@ -97,6 +209,20 @@
         "inputTokens": 169,
         "outputTokens": 59,
         "costUsd": 0.000122
+      }
+    },
+    "26bcb715810f9b814672bd53a56b6e4f30f21320e0c29bfcc48c0f4cfb18d897": {
+      "normalizationVersion": 1,
+      "sourceHash": "69f5ccc6c9d1d6733b631fba36c26ffbcb672d7bd0407fcd44c9cff73099811b",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对容器内元素进行排序",
+      "translatedText": "* Sort the elements within the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "26c36124ba8e7303ffbd5ddca226df3814f2b225366ff857b4b28a2ecd61c868": {
@@ -141,6 +267,20 @@
         "costUsd": 0.000055
       }
     },
+    "26e3683b96dff74d16b78b442db9e5940d84882622b59e25e7f8ebe7d3a2dcdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b80c7518e130514853a499e0e9d342ee51b26ab25d69fca3b60da6ad486733b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种“替换并取回旧值”的操作在状态切换里很常见。",
+      "translatedText": "This kind of \"replace and retrieve the old value\" operation is very common in state switching\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "26eeba0c278e992c04c4cb79ba8d476e362e9137f67406a2c009d272e94fb24d": {
       "normalizationVersion": 1,
       "sourceHash": "a7c7ed4bc754eb3ad476058345659d05d3a0b47c0e4ce9cedaff2c2715155a48",
@@ -167,6 +307,20 @@
         "inputTokens": 146,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "26faa9c86dc61676e772b261431eb8ba7323726e14012ef6a217791c8540dcfc": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3fb68cacb535c5c55b91840884ae3cbd5bd7bcb5a8bca0f2cab39020996b1be",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 这次没有获得锁。",
+      "translatedText": "> This time the lock was not acquired\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

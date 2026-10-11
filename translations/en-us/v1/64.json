@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "640dbc7c9ebd1736227f072883b60a1802a3b0b2cc8fc5d41e82dfa264b473fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "b909e216803faae1a45da41b29f2d443bd38a97c491ab797c36adccf04548d61",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 临界区应该尽量小，但必须保证一次完整的共享状态修改不会被拆开。",
+      "translatedText": "> The critical section should be as small as possible, but it must ensure that a complete modification of shared state is not split apart\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "64120a4725a77397c9f8d4c5a570773db5a92bee27f002d0a543ff5415780a9c": {
       "normalizationVersion": 1,
       "sourceHash": "f5cca3a7507220a3bfc4368bb2eda7c63de1edf2249b6e614407902f42416fd6",
@@ -15,6 +29,20 @@
         "costUsd": 0.000061
       }
     },
+    "6416724ebf85df255a81d4044f9c21f40b8f7909db48c1883e038288628d197d": {
+      "normalizationVersion": 1,
+      "sourceHash": "db2188611a3a20dadfe57784eea034edbe0b9e4e34587f2bff1d14ec3a956c6a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这两个写法经常被混淆。",
+      "translatedText": "These two notations are often confused\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "641b211208d0ed0d4ea8fc80acafe78aef781f12a791ae777e43939ae239b8a9": {
       "normalizationVersion": 1,
       "sourceHash": "c49fbbe11f0f024834841a7d78cc112f7dd1918a3de65c049f741b3f08dab4ba",
@@ -27,6 +55,90 @@
         "inputTokens": 158,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "6420ee300fc61da757568c396991968242d9a971c313d9f63a40abe5fbb63488": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bcaac34cb11be1c2c78ba4bc621bf909f31bf221c48e9d29f4c964e00a4bcb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它不要求这些任务在同一时刻真的同时执行。",
+      "translatedText": "It does not require these tasks to actually execute simultaneously at the same instant\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "642531b0960c87b18d9adae4d79623dee64c27c8b001158e5cca2441ca374502": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5d4ac65d3b4f13c3627944936fd2bf363f83486b777e3df69c6cb94dafcaf49",
+      "contextFingerprint": "08eaa22e68f6533c6a08bb86af6812b2b5eca7823b45ff8b298c449d3d028932",
+      "sourceText": "`runtime_error` 表示运行时错误，例如文件打开失败、串口打开失败、网络连接失败等。",
+      "translatedText": "`runtime_error`Indicates runtime errors, such as file open failure, serial port open failure, network connection failure, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
+    "64296cc9193e35a00b9edbad8cc2cba884b626033d0c30f873c73effdc88b401": {
+      "normalizationVersion": 1,
+      "sourceHash": "beb082ff0859af732a0a3ba8df81eb8741e625082812992abc4849a59b87bc56",
+      "contextFingerprint": "dcad5a1022b805f1545e32882aec64d466949a679d0d1f6ddee7bf6a915f84af",
+      "sourceText": "`std::thread` 是 C++11 提供的标准线程管理类，定义在 `<thread>` 中。",
+      "translatedText": "`std::thread` is a standard thread management class provided by C++11, defined in `<thread>` \\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "6442bb45feb05f4eac9fb6938bc0f9fb2033f666ab9c93028f3d7cc36b16b976": {
+      "normalizationVersion": 1,
+      "sourceHash": "79b4b7c709db6a3c22a1d170082e50c99efe1397a235a356553b69b55621eb30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此这些算法会接收一个可调用对象，并在运行过程中反复调用它。",
+      "translatedText": "Therefore, these algorithms accept a callable object and repeatedly invoke it during execution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 22,
+        "costUsd": 0.000071
+      }
+    },
+    "644b2f74e00b47c9af8f0bd27311f97ba592a5eeb39b56c8d75759e2446c9be5": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7f435afa715916880e03bcf57a2a8435904585fc3712fa7d95317c45be7f837",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但从程序执行的角度来看，它通常大致需要经历：",
+      "translatedText": "However, from the perspective of program execution, it usually roughly needs to go through:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "64554f07191ba3a7a1446d061a2b63014e39a55d28e911b70b01bc7eae625d05": {
+      "normalizationVersion": 1,
+      "sourceHash": "39b75193808f2de1e3b4f122382d6ce2c4e6c671d3e9a9b948309195c1e49a4d",
+      "contextFingerprint": "67cbe524bb8148cb970a9f18159a22edb3eb784536507fa1c451938e2613c4d7",
+      "sourceText": "函数名在大多数表达式中会自动转换为函数地址，因此可以直接把 `add` 赋给函数指针。也可以写成 `&add`，其中 `&` 表示获取函数地址，两种写法效果相同。",
+      "translatedText": "In most expressions, a function name is automatically converted to the function address, so you can directly assign `add` to a function pointer\\. It can also be written as `&add`where `&` indicates taking the function address, and the two forms have the same effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 56,
+        "costUsd": 0.000118
       }
     },
     "648649460f1196589623f631f0109620cb3b5d4e0d185304ea0c1a1b9ab45e3b": {
@@ -99,6 +211,20 @@
         "costUsd": 0.000056
       }
     },
+    "649cc38def9a38ec2865951348943025ed69af6df5c4d03524ef189a5f376768": {
+      "normalizationVersion": 1,
+      "sourceHash": "b90c3392b7290590256aad79e1304923b7a0557f27305801cdcaacfb3566949b",
+      "contextFingerprint": "f9a962a98cfa423f3618c8df042c63bd9a1fe8a6467c6e5dd9c432a9328facee",
+      "sourceText": "STL**容器**就是将运用**最广泛的一些数据结构**实现出来",
+      "translatedText": "STL**containers**are simply**some of the most widely used data structures**implemented",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "64a9950a4f8bf2bd44e5f5d473fa13602c3574c68d788731d1fca03d051a30e1": {
       "normalizationVersion": 1,
       "sourceHash": "ed0dd5003402f41e3b29a592292ece2f8fb1ffce4a20783ec5e4e087e419efa0",
@@ -113,6 +239,20 @@
         "costUsd": 0.000057
       }
     },
+    "64dff18c2105b42111f87a5069ca97e0f2ee430f14cb1e7fb063e7c133655c86": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6c0b9a4ab445d41614fd9c29d9b885a63327d64b40af88e34bc23cbcb508b9e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：确保在锁的作用域内访问共享数据。",
+      "translatedText": "Correct approach: Ensure that shared data is accessed within the scope of the lock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "64e50fcaa2e6eba871c2986a94a0138f5492afdf893ab380fed9a7e82102e56f": {
       "normalizationVersion": 1,
       "sourceHash": "e00b21590fd818310164d61af0a7727a58ffa8e8504b4731f64091fef5c2a65b",
@@ -125,6 +265,34 @@
         "inputTokens": 145,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "64e5fc3a073c6e71d0ba9032cae60797973427b5165b281faeb336d0f34bdedd": {
+      "normalizationVersion": 1,
+      "sourceHash": "38e35178f62406ae2657239b0b010bb79cc9078858281497d6c6bcb3acf7c52a",
+      "contextFingerprint": "daff7a31b38c59a2cb459a2a099f9009916d092e9315946ff6cba89596289488",
+      "sourceText": "而这个函数的`pos`参数表示`std::stoi`解析到了字符串的哪个位置，也就是第一个没有被转换的字符的位置。\n例如：",
+      "translatedText": "The`pos`parameters of this function indicate`std::stoi`which position in the string was parsed, that is, the position of the first character that was not converted\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "64ea0ee63c872ee44e1dd220b7ae91d2f40053e768a9160d7f426d7bdcedcee3": {
+      "normalizationVersion": 1,
+      "sourceHash": "49ea8074d01e739502268a7462f1aa4bbab0e1fece5ed0ac0d7c25d18dbf0c78",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：需要下标时，传统 for 循环可能更合适，或者用枚举技巧。",
+      "translatedText": "Correct approach: when an index is needed, a traditional for loop may be more appropriate, or use an enumeration trick\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     }
   }

@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "480a78dcc6312d4fc88f4a8395d96601636c8c70b994936e5c1312313af0d1f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e66c876878869b3d5a418181b2ccc079483408f525409ea7edf2260074ff2ab3",
+      "contextFingerprint": "e9d7926fefb9371d91800cf9645ceb1da43f06ced2274eebd65fb994ba6b824d",
+      "sourceText": "### `std::thread` 不可复制，但可以移动",
+      "translatedText": "### `std::thread` Cannot be copied, but can be moved",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "480b62625148cdc355ada5c904fda0fb1730b62a7b528bdf955208caa24731d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "f542219639be6cacc9e944234ec6a2c751a0e45f04547e48dcb9e109a9553fb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "三个参数的含义如下：",
+      "translatedText": "The meanings of the three parameters are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "481e04b7a082c71b7632a5757a44c193c93e0b22c2d8e20b518136cbe714bd7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b582d67a4472cfb549831761ed5b4d9a349ffba79979c5f3f589cf712211dbf",
+      "contextFingerprint": "dd7d6c47c856d264a9f99255e14db34f8f18d16d5112ba2dfb6ef3f6681334e6",
+      "sourceText": "#### `lock()`：获得锁（不是加锁，是获得锁）",
+      "translatedText": "#### `lock()`: Acquire the lock (not lock, but acquire the lock)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "482dce7384ba1d4111004152db4b8fad60e731a535518cac88c1f0b2ae96b6c5": {
       "normalizationVersion": 1,
       "sourceHash": "9b492451fe91cbcde937cc40104071ab6035b46b732552a7924e95a75875a968",
@@ -13,6 +55,20 @@
         "inputTokens": 152,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "4833c58ce730de54ab7025370efb866a66270d92fb90ce27111abb3dfbea741c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fd1d92c5b80ee803fa83be2ce5af5db320f35e5975533da92c918cc8b105b76",
+      "contextFingerprint": "4249418014a3cc44e733acdb933c1188947287b3f9d56bd83345c92548d1b7fa",
+      "sourceText": "![1547105026929](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547105026929-05f23198cb.webp)",
+      "translatedText": "![1547105026929](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547105026929-05f23198cb.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "48359b66da85977e07271b3373067a3b9b2bbf2ae3cd6cf61225996624b60156": {
@@ -41,6 +97,48 @@
         "inputTokens": 146,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "4840c3ebcf9ead1269945bda09e28f6fe1593a11e2790e5ac1cadd9ca5321936": {
+      "normalizationVersion": 1,
+      "sourceHash": "35dab892449f258deb5a59a0cadbac97f81467fb22ff0b18019a4c31b6371da4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "和：",
+      "translatedText": "and:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "48b9fb97235b7c61c35d31c64954586040b90cd43b28328fa1c032a197148c7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2e7dfc7f9288803d77d91237b2319d67aaf526e6c4991bee3b2369a5b5194bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "抛出异常，后面的：",
+      "translatedText": "Throw an exception; the following:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "48c271843b6d1285d29817b2954d192a35d7087adbe06cd7087538e7a06cdbd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "5afe4b8de1b732e1dce3589183119efff25d04592128f905309035708ac27ba3",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++11",
+      "translatedText": "C++11",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "48d0a0471f8b8d9cc22e2a0c001b8b3c76bfd748147f02b87f177d6d14d746b6": {
@@ -83,6 +181,34 @@
         "inputTokens": 205,
         "outputTokens": 97,
         "costUsd": 0.000178
+      }
+    },
+    "48ea3349884e3bee3e0085e9c39d139df075440133a9d05f8ad97c8e015557ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "494994cbd2b703ea908ced182d9751dc38cb88bebeedbcb54385725551c71439",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* 打开文件失败\n* 打开串口失败\n* 读取配置失败\n* 初始化网络连接失败",
+      "translatedText": "* Failed to open file\n* Failed to open serial port\n* Failed to read configuration\n* Failed to initialize network connection",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "48fa5de5c841028b28e393432717c01dbfd404ef3151a3e99dc362b763213045": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4f797d119368b1b4f507a72ac555e15f83200fb3fbf56923dd194129bbadc31",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当传入的速度小于 0 时，会抛出参数错误异常。",
+      "translatedText": "When the passed\\-in speed is less than 0, an invalid argument exception is thrown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     }
   }

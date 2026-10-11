@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f405510838513b888e14391472ee0658f7d9dd7b113a5f18d0427774ab11a9ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "556512151e5122f4063dbd83de495af0345d4e52c08b36070caae870a2f24985",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看起来像是在调用一个函数。",
+      "translatedText": "It looks like it is calling a function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "f410973681c6e0615e2ef6a372fb4d6fa8cb086bdf16aceec8bcd6c5e47a1e4f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1852b4926cfd2ea20e2c144d9396efcc210db282e52836d0a0c5833b9902dc40",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，不同时间单位的使用和转换",
+      "translatedText": "### Example 2: Based on Example 1, the use and conversion of different time units",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "f430577e5989a72af52c5c3dc2fad9916185bcb0af2ff3f8af381f178523ba4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "21f661d23f098e58107c55f077d67dce46f09b2410c38307e15e50d7997abe7f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 什么是死锁",
+      "translatedText": "### What is a deadlock?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "f436365e339d28bad19a6c4da056715ecf9a947d91d9c14fb8b362011397d608": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5b011a89565b158b4ba8a060d1a7b434e93e13c39489d7ab90e5e4ef4130e48",
+      "contextFingerprint": "4f5ea8dc5f3b584b721c99c7cd5dd4b90883a86807f8f34e4ccfa935607f112e",
+      "sourceText": "| 参数 | 含义 |\n|:---|:---|\n| `first` | 源数据的起始位置 |\n| `last` | 源数据的结束位置，但不包含该位置 |\n| `destination` | 目标区域的起始位置 |",
+      "translatedText": "| Parameter | Meaning |\n|:---|:---|\n| `first` | Start position of the source data |\n| `last` | End position of the source data, exclusive |\n| `destination` | Start position of the target region |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
     "f43aa06cdc3971dbc6b9bccdf00c20efcea1a093d0c264f05bf1d0e9fddf56d5": {
       "normalizationVersion": 1,
       "sourceHash": "38c9d22a5902d1d0bc419d504a528f68e10cc65fbc0289bfbec5a50b7289274d",
@@ -13,6 +69,76 @@
         "inputTokens": 180,
         "outputTokens": 55,
         "costUsd": 0.00012
+      }
+    },
+    "f442eaea186225de507e379e21617998d87fd0c8e1dcdfd28a93a034e67c7364": {
+      "normalizationVersion": 1,
+      "sourceHash": "555137474e5262c32b2b0661c100e89bfe54239c01e8893482766c25560d86b7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于一把锁的普通场景，它和：",
+      "translatedText": "For an ordinary scenario with a lock, it and:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "f46d17536e6a1a9661955e4cdedcf7602adc5da809bc070d9b4ad48f5651b25f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5aa6226ee332aab321e17739eaaa60881695ee6deb54d4d13910c292fec640b4",
+      "contextFingerprint": "4b6ac5ecfd2bbc59e5632503d9cc88777ceab5b6735232c6302a650d1e2ba2ae",
+      "sourceText": "* `deque.empty();`                       //判断容器是否为空\n\n* `deque.size();`                         //返回容器中元素的个数\n\n* `deque.resize(num);`                //重新指定容器的长度为num,若容器变长，则以默认值填充新位置。\n\n  ​\t\t\t                             //如果容器变短，则末尾超出容器长度的元素被删除。\n\n* `deque.resize(num, elem);`     //重新指定容器的长度为num,若容器变长，则以elem值填充新位置。\n\n  ​                                                     //如果容器变短，则末尾超出容器长度的元素被删除。\n\n  ​",
+      "translatedText": "* `deque.empty();`                       //Determine whether the container is empty\n\n* `deque.size();`                         //Return the number of elements in the container\n\n* `deque.resize(num);`                //Respecify the length of the container as num\\. If the container becomes longer, fill the new positions with the default value\\.\n\n  ​\t\t\t                             //If the container becomes shorter, the elements at the end beyond the container length are deleted\\.\n\n* `deque.resize(num, elem);`     //Respecify the length of the container as num\\. If the container becomes longer, fill the new positions with the value elem\\.\n\n  ​                                                     //If the container becomes shorter, the elements at the end beyond the container length are deleted\\.\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 228,
+        "outputTokens": 133,
+        "costUsd": 0.000228
+      }
+    },
+    "f4823b8294f9b73e1593f5c3d933141fbc25c644b32cb600eda120a2f8963c26": {
+      "normalizationVersion": 1,
+      "sourceHash": "7622d2fa71461979f88b004a2078bf9935e19175f5d24038049716cd8f4508f1",
+      "contextFingerprint": "0032ba5dab36cbe1b668616b31cef9998c160bea200f7c80eece41c32304e53f",
+      "sourceText": "- 左值有名字、可取地址；右值是临时的（字面量、临时对象）。\n- 右值引用 `T&&` 绑定到右值。\n- 移动语义\"偷\"右值的资源，避免深拷贝。\n- `std::move(x)` 把左值转为右值，告诉编译器\"x 可以被偷\"。\n- return 局部变量时不要加 std::move（让编译器自己优化）。\n- 移动构造函数必须标记 `noexcept`。",
+      "translatedText": "- An lvalue has a name and is addressable; an rvalue is temporary (a literal, a temporary object)\\.\n- An rvalue reference `T&&` binds to an rvalue\\.\n- Move semantics \"steal\" the rvalue's resources, avoiding a deep copy\\.\n- `std::move(x)` Converts an lvalue to an rvalue, telling the compiler that \"x can be stolen\"\\.\n- When returning a local variable, do not add std::move (let the compiler optimize it itself)\\.\n- A move constructor must be marked with `noexcept`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 113,
+        "costUsd": 0.000201
+      }
+    },
+    "f4844121c52aee57fe7e97c7b32aa2aefcdc33483fbde160a92f68933d4608d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c288d2a57e247e598860f61fa8654a4ab83b3ed7e9abe97a88996a1d75581b55",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样就可能对同一块内存释放两次，产生未定义行为。",
+      "translatedText": "This may cause the same block of memory to be freed twice, resulting in undefined behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "f489c377cf1e3426a6d69e0885af19771987c31d4fbb337852e327f4adc23e5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e5491e44840b54be505540a64c2e458da876549f77d8ada8ed52ecff06a8a50",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "虽然是正确的，但会反复：",
+      "translatedText": "Although it is correct, it will repeat:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "f49272bbe44d142d437545bbb3ffb29a581b9b98711461c05606d7bec6a98266": {
@@ -29,6 +155,34 @@
         "costUsd": 0.000094
       }
     },
+    "f4b9236ba16f5b58704114f2031390cb9188acaecd1a63609cd25287b05fc825": {
+      "normalizationVersion": 1,
+      "sourceHash": "8af531a23522eb7e6dc659c6b0d44292b89838e2b98b3d4607b1741808a73959",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**算法简介：**",
+      "translatedText": "**Algorithm Introduction:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "f4d05b7ef7c838e7678a9d9f92be502004b1cc7b1f22ff7f7cc38a6fa0a746fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "0585c0abc1600a2dc51d8a41f16d68d4471a28901c0471aa589c0fb5d877b584",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于自定义数据类型，set必须指定排序规则才可以插入数据",
+      "translatedText": "For custom data types, set must specify a sorting rule before data can be inserted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
     "f4d18cbd5a04aca57f22026b742a48fddb31f8a380604a1efc41e266ec55f229": {
       "normalizationVersion": 1,
       "sourceHash": "b7db91e5f226049f27280508263ac65733c335337a782ffae753fb5f81df6366",
@@ -41,6 +195,20 @@
         "inputTokens": 146,
         "outputTokens": 25,
         "costUsd": 0.000074
+      }
+    },
+    "f4f49061ed0af4713c0e739282718185d2df416ea5bf429e24ece85a993c64a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "65994f657effc158ffaa8600e5516aec1095f956d9eb67118e5ba1bb1e002cc3",
+      "contextFingerprint": "0ba28739d4da2d6c3ddf5be52d2cc1709d76584bd41035b918e371f886353ae9",
+      "sourceText": "### 可以用 `{}` 主动缩小锁的作用域",
+      "translatedText": "### You can use `{}` to actively reduce the scope of the lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "f4f8b28472b5f8bdf26c8901881ca6d4fb9d7f9a6b83cf3647474c7f60759588": {

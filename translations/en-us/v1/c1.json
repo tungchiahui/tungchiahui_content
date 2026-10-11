@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c10516fc5c63c127e6774fff0ad68dfed3a293303d609f60458041df9c43c797": {
+      "normalizationVersion": 1,
+      "sourceHash": "39e5602d994213f69f1f718e5dae30274537476660e66d3185129691e1a06492",
+      "contextFingerprint": "caa3843f75664d0d4de788270c9ae64892dc3d6cc6e80808b0f534662142abb5",
+      "sourceText": "* 算法主要是由头文件`<algorithm>` `<functional>` `<numeric>`组成。\n\n* `<algorithm>`是所有STL头文件中最大的一个，范围涉及到比较、 交换、查找、遍历操作、复制、修改等等\n* `<numeric>`体积很小，只包括几个在序列上面进行简单数学运算的模板函数\n* `<functional>`定义了一些模板类,用以声明函数对象。",
+      "translatedText": "* The algorithm is mainly composed of the header files`<algorithm>` `<functional>` `<numeric>`composition\\.\n\n* `<algorithm>`It is the largest of all STL header files, covering comparison, swapping, searching, traversal operations, copying, modification, and so on\\.\n* `<numeric>`It is very small and includes only a few template functions that perform simple mathematical operations on sequences\\.\n* `<functional>`It defines some template classes used to declare function objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 80,
+        "costUsd": 0.000153
+      }
+    },
     "c1051c8653b9e88c977c1c16043a0f8636736e7dd8769d239305c8a0a1ae43e3": {
       "normalizationVersion": 1,
       "sourceHash": "9dda38e9f1f9248d3d97191a9d7bdcb0821c4bee96edb6fca44443cf652ab4b2",
@@ -43,6 +57,48 @@
         "costUsd": 0.000061
       }
     },
+    "c128b053215f24dc5035db610a1326c76a6140aad85ab204cad00ea1a6dcd281": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fd6d00d78a7871c1e56c390be10a7ea02081a2fd4b3894e67f0f871e5eb95f3",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 未定义行为（Undefined Behavior）",
+      "translatedText": "> Undefined Behavior",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 10,
+        "costUsd": 0.000054
+      }
+    },
+    "c12ad07a0e4667ff7403a4314cec1e9270b34b70e92adc32369862feba31aa5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d3d907d264a412a7c428863781b5a8ff1d5d6cc1d37bcf91ffd416498b3b7fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面：",
+      "translatedText": "Below:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c132ecff176bca4e4f0d2f17bd907c4ae3f656e149741facf4db000eb19f4f8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3392a4618e0ed9e671be69731f4fd9fc8593b20de20cda752d7e7a6b52c84f12",
+      "contextFingerprint": "719a440113c17749992ebe32fb72bd2ad35aafcdfc6ec72da660be666b0ae178",
+      "sourceText": "因此可以简单记住：选择 C++ 的显式类型转换，主要是为了让类型检查更严格、代码意图更清楚；除了需要运行时检查的 `dynamic_cast`，它通常不会因为写法不同而比 C 风格强转更慢。",
+      "translatedText": "Therefore, simply remember: choosing an explicit type conversion of C++ is mainly to make type checking stricter and code intent clearer; except for cases requiring runtime checks of `dynamic_cast`, it is usually not slower than a C\\-style cast just because of a different syntax\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 65,
+        "costUsd": 0.000135
+      }
+    },
     "c13b5f9e6e0abb4cec09b472943c5948880fd0f8ab4b6b0b5eac1757ebf193b1": {
       "normalizationVersion": 1,
       "sourceHash": "edc068afa360a36cbe99410a24812ca71a08fc14df10f40251d2304ce0a23470",
@@ -55,6 +111,20 @@
         "inputTokens": 154,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "c13f896fd3e803354eea7e8dd7db94f3ce0f95983cad1d7ed9f094c8d35cd677": {
+      "normalizationVersion": 1,
+      "sourceHash": "b80461eb60f52c0b6cf16b2203b4afe6a5719cfd343e07fa96088bc69d0246c4",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* vector对于头部的插入删除效率低，数据量越大，效率越低\n* deque相对而言，对头部的插入删除速度回比vector快\n* vector访问元素时的速度会比deque快,这和两者内部实现有关",
+      "translatedText": "* vector has low efficiency for insertion and deletion at the head, and the larger the data volume, the lower the efficiency\\.\n* deque, relatively speaking, is faster than vector for insertion and deletion at the head\\.\n* vector is faster than deque when accessing elements, which is related to the internal implementation of the two\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 70,
+        "costUsd": 0.000137
       }
     },
     "c165a48620183250f1cce20564a3d1cddfce7d1790c09f386f9d3adb485d20c1": {
@@ -85,6 +155,48 @@
         "costUsd": 0.000108
       }
     },
+    "c17a5e0b4c2890da6cc25305c0182b06c40aab7a4d19fb63d9868d9061121639": {
+      "normalizationVersion": 1,
+      "sourceHash": "00b040cfaec5a954077b370b3b7ed2c9e6c2793ddb6344f1ae21f811bf4b79c1",
+      "contextFingerprint": "b5f6f921679f41a1224bfad31e59abb0a0f05d0db34a6d438b904e37c5ba52a3",
+      "sourceText": "| 概念 | 含义 | 典型情况 |\n|:---|:---|:---|\n| 并发（concurrency） | 多个任务在同一段时间内推进 | 单核 CPU 在多个线程之间切换；程序同时等待多个 IO |\n| 并行（parallelism） | 多个任务在同一时刻真正执行 | 多核 CPU 上多个线程同时计算 |",
+      "translatedText": "| Concept | Meaning | Typical case |\n|:---|:---|:---|\n| Concurrency | Multiple tasks make progress during the same period of time | A single\\-core CPU switches between multiple threads; a program waits for multiple IOs at the same time |\n| Parallelism | Multiple tasks truly execute at the same instant | Multiple threads compute simultaneously on a multi\\-core CPU |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 71,
+        "costUsd": 0.000142
+      }
+    },
+    "c1804c8e57088b3d8cbb5a6f6a761761c05c705bd6342fad7c334f2a137d547d": {
+      "normalizationVersion": 1,
+      "sourceHash": "651f46573450e091e83647e76a3b22ccb313333bbedc79798cc1f44e5337481e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "迭代器种类：",
+      "translatedText": "Iterator types:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c18f437c78413369e039cb631a570aac36c596909c7531d0ed639467260cb75c": {
+      "normalizationVersion": 1,
+      "sourceHash": "b06c21c47a84a953b977b4a5ed389f2818d546cbddc4f92ba5a4c89d39ca59d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对应的构造函数是：",
+      "translatedText": "The corresponding constructor is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "c193be94e75d98de5d4f56ed2dd4b1f7b1a94eeff15a3944401920dc4644a1b8": {
       "normalizationVersion": 1,
       "sourceHash": "3cf9927bb755d99b8f3eb19409b6422b4dd735424712febbae18303aec2a264c",
@@ -97,6 +209,48 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "c1986c098b67fc0762f7173011a58a23b5e4506be381747908ad099262bdb322": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2fd3b5f12c710ef16ad25443bb23ae0d852fa1fddd1bff7025f399ee3fee8ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里第三个参数传入的是：",
+      "translatedText": "Here, the third parameter passed in is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "c19f13220ee8635d35930d08c058015db10a51cff01c7de347ace8b46b6ffb1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "a97c34f7f43283edee9b6b057d3d381dcb27b029ca17618abb495b6823cff6e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "后续可以继续补充：",
+      "translatedText": "The following can be added later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "c1a92876ff59779c92e98f1f33408dfc0650eca225589d28acc757d659eff9fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "40701316bde42401ecbcc78f3e834f24e65a0449626940cd3b2da564130dae1c",
+      "contextFingerprint": "8b17a157222445c2e0dfa6f783e452cacd83b199fb1004cd1f21228ab1bf3a99",
+      "sourceText": "可以近似理解为 Lambda 保存了当前对象的 `this` 指针，因此：",
+      "translatedText": "It can be approximately understood as Lambda saving the `this` pointer of the current object, therefore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "c1cc9dbf05fb99f6ac1a65af397d8b4c8a1188931e6b0ff7107a8510f39408af": {
@@ -113,6 +267,20 @@
         "costUsd": 0.000156
       }
     },
+    "c1d152ad3896e51e1ab4370882eb3efc6338f04dc48de98ad589c45a230c61db": {
+      "normalizationVersion": 1,
+      "sourceHash": "619ed95b975da5d33dffe4efcd19139dca2651298a5d16a5aa86cb9fe9eb9928",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 捕获列表速查",
+      "translatedText": "## Capture List Quick Reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "c1d7cdbff9b5ae1d7edf1d334f0e95418d8d49a1174447eedf9b45bdc4f45e3d": {
       "normalizationVersion": 1,
       "sourceHash": "40d16af7855a682b910201212ba53dec4cdd5365acf130d64aa59c6b1be57dc8",
@@ -125,6 +293,20 @@
         "inputTokens": 156,
         "outputTokens": 40,
         "costUsd": 0.000095
+      }
+    },
+    "c1e6dcd963792d922183ac725c3795f0f1b9c813377baa05743f0d60e69a1304": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e9ce949376dc3f39eed3185f5fcd02c956dd7fc14ccc71b1f8492c056aa6b7c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在这里，也正是 RAII 特别适合解决的问题。",
+      "translatedText": "This is exactly the kind of problem that RAII is particularly well suited to solve\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     }
   }

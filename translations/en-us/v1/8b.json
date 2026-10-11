@@ -15,6 +15,34 @@
         "costUsd": 0
       }
     },
+    "8b15ac4575d366d35b20f6f9c8e005818b59560d71ceedda19345698032b9d5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee298b9aeb2f47f55b731713386ae8004f9eae7b0ceb49385f15f3ec28332c2e",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：constexpr 函数假设所有情况都能编译期求值**",
+      "translatedText": "**Error 2: constexpr functions assume all cases can be evaluated at compile time**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "8b47b8d2f61080b0087795a1172027a076f14bb560e52cd10b3ad8da8c7230af": {
+      "normalizationVersion": 1,
+      "sourceHash": "87e134db4868a812e4b2d05cc7739f75880cb48424779ac88e9cba2f0bfd690a",
+      "contextFingerprint": "a7b5b20118c3b2a446c35a3a550ddf8fdd0f4b88bd30d93d8a1b952643e74db9",
+      "sourceText": "`optional` 表达的是：这个值可能存在，也可能不存在。它不负责说明“为什么失败”。",
+      "translatedText": "`optional` It expresses: this value may or may not exist\\. It is not responsible for explaining \"why it failed\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "8b54e0466cf58766b5c73b8d99c8ca3e0801a761d3cbb01804be304e5357a593": {
       "normalizationVersion": 1,
       "sourceHash": "ef3063305eb9b6b80f3776b3f9d4474e9a6245108bd9d608264f6ee39257f6a8",
@@ -27,6 +55,34 @@
         "inputTokens": 155,
         "outputTokens": 35,
         "costUsd": 0.000089
+      }
+    },
+    "8b63d09ae01efd3ff99939c7a43e45a414b47edfcf35ee837c47221d1688e1ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "5735816d4f48d38f1a4f111e95bcdcefba8336cdbc6bf232ad7461899d9c03e9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "协程（coroutine）关注的是：",
+      "translatedText": "Coroutines focus on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "8b71eec36c76fad405d5fe3dad419809583ed7322b74ae9902e1ef9f433de766": {
+      "normalizationVersion": 1,
+      "sourceHash": "6dbb641771e49dc763e19834368813f33766f4858386377ec165fd30558f00f2",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## nullptr 和其他\"空\"的区别",
+      "translatedText": "## Difference between nullptr and other \"null\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "8b8599388f13fbb5aaae09e3d0e0af3f0f9911b8b3a96103b45c2243858e7cae": {
@@ -43,6 +99,48 @@
         "costUsd": 0.000058
       }
     },
+    "8b90b51f6581090bed92f324fb7f40ac51709c4b6ddb19dfcc62a3314b290926": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad22e8aaf8d98c993d062ac05424011a5313bb4e6ac155d6379f3c5755784866",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 本节解决什么问题",
+      "translatedText": "## What problem does this section solve?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "8b91f575374ffbc3c8ccaf0c2212d979d89bf1b9dce5d22df3bb83ca122e72fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "fcdf920c2141b67487661591108196559c57c9737cc7bba9a77134de989df291",
+      "contextFingerprint": "f962aa46baf10808a585923e53b4d0ce1c6b04185f26feb6ec2833a458c48494",
+      "sourceText": "虽然第一种写法中出现了等号，但这里的 `=` 不是赋值运算符，因为 `b` 在这条语句执行前还不存在，它正在被创建。",
+      "translatedText": "Although an equals sign appears in the first form, the `=` here is not an assignment operator, because `b` does not yet exist before this statement is executed; it is in the process of being created\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
+    "8b9c6d41f6903998bcb1911972495b7dbc9f043e320efffde225cf7a35abeb1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "495ab80cdaa824da29f7eaaaf9edac9360a6ee5f52a4d937886ff0fc269e27c0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "赋值：",
+      "translatedText": "Assignment:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "8bd87851edeec98ba03326814f3067b5223525561c22d1796fcd7da4d88d5d5e": {
       "normalizationVersion": 1,
       "sourceHash": "0caa23038d97b2eb562f87e79b4f3607b7c478751b6005c54c9faa972d787b98",
@@ -55,6 +153,34 @@
         "inputTokens": 206,
         "outputTokens": 100,
         "costUsd": 0.000182
+      }
+    },
+    "8bdff9d4bdd9c9a0cf122098b32e1f4ac5517d893053a1a7251a08b756216fcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "7380465ff1113b239246fe107d521c95ec30884a889e2d31ec75d328406fcce4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "//beg1 源容器开始迭代器",
+      "translatedText": "//beg1 Source container begin iterator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
+    "8bf72203db590afd4fdc8b7bf17ffb496d94bf26a03ce4419c718dcbd473fba2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fc2f8693f0bd0b7bbdc8a6db678f62918d70c975df762577b60235dc1a08c8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "deque内部工作原理:",
+      "translatedText": "Internal working principle of deque:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     }
   }

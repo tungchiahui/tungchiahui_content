@@ -29,6 +29,20 @@
         "costUsd": 0.00011
       }
     },
+    "b44a80c7b8f1d6f7ce20519a1acc02bee037d25186e3e3e2a96246be2ab34e81": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cc9fe0b8d484b7d35ac7dbc747a076ec0e4a853eba2bea891cc0e379b2d1eb6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 构造函数：第一个参数是什么？后面的参数是什么？",
+      "translatedText": "### Constructor: What is the first parameter? What are the subsequent parameters?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "b45a2f9eb9f0b4b870c361237a3baa24a257e52d98424706137aac87afe69c46": {
       "normalizationVersion": 1,
       "sourceHash": "9e1b5bc34dbac04ac8a6ce5ab0e73ed8fe6831deca5660b88da42f0bed72ebf1",
@@ -43,6 +57,76 @@
         "costUsd": 0.000049
       }
     },
+    "b45cde55f31929c2a5de1365c78e9b83298b27375d75a3ae5518bcaa17c69e7d": {
+      "normalizationVersion": 1,
+      "sourceHash": "16becf3c40d4f9baf8d7b5a9cd132475491126e1aed4964970cba681b63d03cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以理解为：",
+      "translatedText": "It can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "b45fe879a97081262d0cec9746da42d6d936dd157ee62316f7cb2679ced0715c": {
+      "normalizationVersion": 1,
+      "sourceHash": "54e3b3078bddbfe1140557cfbbbb89fa746d5ec515f35862356d2cef5e1ff9c0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set基本概念",
+      "translatedText": "#### Basic concepts of set",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "b47589717cdfdf59ccebce0f644942fa319d18555a182fdc25d60bfb67815ef2": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6d1c2702355ef1b4ac428c12a070f26feaadd1b65a5ecd1f2edde9508d3c129",
+      "contextFingerprint": "74d8e87bd6712c7acafdea1bb60b196885207514d144395bc8f36dab3cf93a8c",
+      "sourceText": "- `auto` 让编译器自动推导变量类型，减少冗长类型声明。\n- `auto` 会丢失引用和顶层 const，遍历容器要用 `const auto&` 或 `auto&`。\n- 特别适合简化迭代器、智能指针等复杂类型。\n- `auto` 函数返回值默认按值返回；要保留引用语义时用 `decltype(auto)`。\n- `auto` 仍然是强类型的，编译期类型就确定了。",
+      "translatedText": "- `auto` Let the compiler automatically deduce variable types, reducing verbose type declarations\\.\n- `auto` References and top\\-level const are dropped; to iterate over containers, use `const auto&` or `auto&`\\.\n- It is especially suitable for simplifying complex types such as iterators and smart pointers\\.\n- `auto` Function return values are returned by value by default; when reference semantics need to be preserved, use `decltype(auto)`\\.\n- `auto` It is still strongly typed, and the type is determined at compile time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 93,
+        "costUsd": 0.000173
+      }
+    },
+    "b47b06f0038f24a6206cce64b0581d406cbab0f27df26fe5ba641560bb19b6cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee57d7d1f254dafc8758c988726619ff48bac36dc57893d63d327bb3445b5a9d",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 3：std::print 直接输出（C++23）",
+      "translatedText": "### Example 3: std::print direct output (C++23)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "b491d1c450ac5f17b1e0e94ccafffd15be671caae2f786419b95d477a8b51818": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad7bc9ca0b3dedc482a4b1f8f53459064c3c171832525a3f72d54b01362fed79",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "STL中的链表是一个双向循环链表",
+      "translatedText": "A linked list in the STL is a doubly circular linked list",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "b4b738c0046f9acfd541aa07f8127d6aa92da11383f3ed7ce25f99a996dd6c31": {
       "normalizationVersion": 1,
       "sourceHash": "ff13fd58009c108658ef2e9dff6190343daa987e30223965d788456a5ea6b2b8",
@@ -55,6 +139,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "b4bbf82e536438193570b00e8518073d8367becb29d0cb31d804217678147db1": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c6f114f675bf84c34790cc1082a4e89e3c7ec29d585dcb59cbef273377e5d23",
+      "contextFingerprint": "78c5986280787f8a48d5c41fe9059335311277d705686e75da919ef0a018c1e0",
+      "sourceText": "1. **编译期确定大小用 array**：如果大小在编译时就已知，用 `std::array` 比 `std::vector` 更轻量（无堆分配）。\n2. **代替 C 数组**：能用 `std::array` 的地方就不要用 `int arr[N]`。\n3. **传参注意大小**：`std::array<T, N>` 的大小是类型的一部分，函数签名要指定 N。\n4. **可赋值**：和 C 数组不同，`std::array` 能用 `=` 整体赋值（相同类型）。",
+      "translatedText": "1. **For compile\\-time known sizes, use array**If the size is known at compile time, using `std::array` is lighter than `std::vector` (no heap allocation)\\.\n2. **Replacing C arrays**: wherever `std::array` can be used, don't use `int arr[N]`\\.\n3. **Note the size when passing parameters**The size of `std::array<T, N>` is part of the type; the function signature must specify N\\.\n4. **Assignable**Unlike C arrays, `std::array` can be assigned as a whole using `=` (of the same type)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 215,
+        "outputTokens": 102,
+        "costUsd": 0.000187
       }
     },
     "b4d4a9d88bf1efe1fbc4b2713e3476060e178b91b5893249d238923d1492df78": {
@@ -83,6 +181,48 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b4dbb234d1b63102e4de9bbc2ba4bfe4274a2d704d4940ff95ace1565f7f7c15": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee3d846918147d32ff57588d4944735575f55b2460ec3fdbd37e1bd47340a1ce",
+      "contextFingerprint": "77c3bcf9e3f2bcf5d3361a4ecc7fd0995e1c238c2e4dec44334bdf3000acc2ca",
+      "sourceText": "不需要额外头文件。`auto` 是语言关键字。",
+      "translatedText": "No additional header files are required\\.`auto` is a language keyword\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "b4eb364168898d55cef92dfdf579933a7927b963da823346cc3d85bd44a4b764": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a70180e4cc511f073bda1bc796cdb470c5c2a6e4274db44c6e9b360457cbb88",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "排序规则：按照年龄进行升序，如果年龄相同按照身高进行降序",
+      "translatedText": "Sorting rules: sort in ascending order by age, and if ages are the same, sort in descending order by height",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
+    "b4f409eaf17b05f09d5cc37fad721fa5ca96afeedfdd2518393827e63c8941d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef9b485a4b320aa30c334da379c201c9d438c01d8f83e8578ff596c6422b72be",
+      "contextFingerprint": "7e367d531d47ba315f93c346d844f73077fef6b084973e91efddb1ee9deaab36",
+      "sourceText": "C 语言中，用 `typedef` 给类型起别名。但 `typedef` 的语法很别扭，特别是给函数指针、模板起别名时，写法不直观、难读。",
+      "translatedText": "In C, use `typedef` to create type aliases\\. However, the syntax of `typedef` is very awkward, especially when creating aliases for function pointers and templates; the notation is unintuitive and hard to read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 48,
+        "costUsd": 0.000108
       }
     }
   }

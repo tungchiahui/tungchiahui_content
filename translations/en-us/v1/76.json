@@ -57,6 +57,48 @@
         "costUsd": 0.000219
       }
     },
+    "765d39902fd9988dcc06a418e3eecd502ba25329cbcc820e3470023908108f27": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e38e421608a253edec5bf452a0e9c9953ebb73d05281a4beed67e21a03800b5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 线程参数默认会保存副本",
+      "translatedText": "### Thread parameters are copied by default",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "7667517bab7c6324f3f49a4f659cf6dcf7c9a8b8dce3a47d272ea6930d5e1893": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e8f8598b7901d1f618d71f4175b408605b1fdada6f0675dbc221a061203dae7",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 本章对应内容",
+      "translatedText": "## Content corresponding to this chapter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "766d8e3e537486edac298641f339c374ed17137859626991ad3114ff5343c5c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b518c1140ec98855e913afc4207a9ab01e28235e5589c088edb17dc59e4b86a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### throw 抛出异常",
+      "translatedText": "### throw throws an exception",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "76716ff9a96501340a39d755a86b10d9117637dffa222de72b475cccdebc9361": {
       "normalizationVersion": 1,
       "sourceHash": "6c0b37d087c3d270a6f089c0f8173d6c6bd56ac7db93e8e38d0d82a4af94379c",
@@ -69,6 +111,34 @@
         "inputTokens": 139,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "767f8ac46168f5ca9e4d8f8e12c023aecf56cfad53d0ad553d57f38f0f220131": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bf5fab0775d7593f4b5fca2e7d3acbd914b5c075798722e52436b48c35b786c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即：",
+      "translatedText": "Namely:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "768441dc00977c80a790324db4c85ecc1d4836c6835f85f80d85d04a0c9d9462": {
+      "normalizationVersion": 1,
+      "sourceHash": "110bf0b68c61515db8136b27040032a99ab5b53483fd0e65e6deecdfabfdbf8f",
+      "contextFingerprint": "484955de2d52b13b7a12cd801b5e217d8525c6dd787e07ddaf213eb6589638cb",
+      "sourceText": "1. 容器：各种数据结构，如vector、list、deque、set、map等,用来存放数据。\n2. 算法：各种常用的算法，如sort、find、copy、for_each等\n3. 迭代器：扮演了容器与算法之间的胶合剂。\n4. 仿函数：行为类似函数，可作为算法的某种策略。\n5. 适配器：一种用来修饰容器或者仿函数或迭代器接口的东西。\n6. 空间配置器：负责空间的配置与管理。",
+      "translatedText": "1. Containers: various data structures, such as vector, list, deque, set, map, etc\\., used to store data\\.\n2. Algorithms: various commonly used algorithms, such as sort, find, copy, for_each, etc\\.\n3. Iterators: act as the glue between containers and algorithms\\.\n4. Functors: behave similarly to functions and can serve as a certain strategy for algorithms\\.\n5. Adapters: something used to modify the interface of a container, functor, or iterator\\.\n6. Allocators: responsible for space allocation and management\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 127,
+        "costUsd": 0.000222
       }
     },
     "7684b10a19f70cce68518436b2bc07961565bf9b141ac190bdbf5d8e9a18da82": {
@@ -99,6 +169,62 @@
         "costUsd": 0.000096
       }
     },
+    "76a60163bbfb770c1831ba9586b2ffec6b61fc4fe3ff59c38d851fd71578aea1": {
+      "normalizationVersion": 1,
+      "sourceHash": "741c490eeda0be90ef2b2d8913a02ad6ba5454c92edf29f00a110b3b2f9b5aad",
+      "contextFingerprint": "7641d30f7afdd27ca504a0c69c32c5cdc02b1e1eaf490d7e0052778e9f8fb623",
+      "sourceText": "`const` 是成员函数类型的一部分。因此，指向 `const` 成员函数时，函数指针声明中也必须带有 `const`。",
+      "translatedText": "`const` is part of the member function type\\. Therefore, when pointing to `const` member functions, the function pointer declaration must also carry `const`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "76aa1f386f802a47a31841ff53fc9a4ae39283e0592bb77acc79587a67e273ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "76f759bf1882e78e37b26062486a19a2e7b382cb985a60f0a3b32bcedd3880a9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把它想象成一把只有一把钥匙的门锁。",
+      "translatedText": "You can think of it as a door lock with only one key\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "76be2544b8d33d8b9e092f05e65db23eb2c6d54965b511e06713dbd36e775d61": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cda811f7fee584cfc8c2cb0545f7207970248aabcc54279b35391d158053de9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并且这两个值必须始终保持对应关系。",
+      "translatedText": "And these two values must always maintain a corresponding relationship\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "76c4d2dc0dc12a0982c9d40eb097d42e3f3b1d38630fa95298972229b1535b7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "24a9ac934ff1a7af4548202cb3154cd5338da19034d6118fad5755813c6d4327",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设：",
+      "translatedText": "Assumption:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "76cb01d8bbe3098cb33ee176b79160a2ce651ca4dcfd1b19af78c6523d320680": {
       "normalizationVersion": 1,
       "sourceHash": "984085d30f18e3a9a6c26f076c08b0900da914fc610b77884e83e8ce042169c9",
@@ -125,6 +251,48 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "76d274060fd10b2247435aadaa75bc2fb9d1c262ef8ca6698dc9b1a91e0090e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "05a9e2c57e544a5a73f68b14ff9d17d10ab53b01e11683a544e5aaf580dd37e2",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 协程不是线程",
+      "translatedText": "## A coroutine is not a thread",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "76d9859de6253cc63f02ea00cb8be9d4194485db6f7bd888d11a715381aa03c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "800013de3f66d47bcc35d81bb86ffcee57a342b43a79ac64a53ed59e5dbe4435",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**string和char * 区别：**",
+      "translatedText": "**Difference between string and char \\*:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "76ea4ba0ef1b743b99faf970dd8cda2dbc84b4b4f1a5651f51ccd766432ef230": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ee68647a1e8c110d43b08a4058ace343dfe8ed3370306d64c996d31808930e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把它们理解成：",
+      "translatedText": "They can be understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "76ee55cbfba28a9fe21ff224b70b0281a4b62d11ff89e8ce1d18962f19750a39": {

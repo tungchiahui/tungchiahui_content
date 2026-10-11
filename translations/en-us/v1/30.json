@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "301c0fb673794cfebe622d509c5305227acbed491e177cc9dea6eee1779ebd34": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ee7a7230feb5f0404f64e7040c3d13b73411b83a4b952045a7612f4dcc4786e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就不需要程序员自己到处写：",
+      "translatedText": "there is no need for programmers to write it everywhere themselves:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "301c9a38fc82065b378b21f963c0dff8ea33d4056d9c6baf8519db73b733ef3e": {
       "normalizationVersion": 1,
       "sourceHash": "96b9a6c733a6213e50321324a2758e30772c9716d417146afa66e687a4d8fe4b",
@@ -13,6 +27,76 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "301ee2a2a6c9d4bbac245a145bd75831478c92a295f7a1931eec7094854ebe1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "75acf0dd579310bf7fd91f8831f34c27fd3f8ee67a031456dbabe3a5dcea2fda",
+      "contextFingerprint": "ceb2ee33d9c2cfcfbe40d4e8a6f5993ceb89f0be09851d33d01bb7f9f846f216",
+      "sourceText": "对于普通 C++ 学习和 ROS2 工程开发来说，重点掌握：",
+      "translatedText": "For ordinary C++ learning and ROS2 engineering development, the key points to master are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 41,
+        "costUsd": 0.000098
+      }
+    },
+    "3028a35d9016bf527a693170135e2089b59e9fb315461a681d0a0d88f8f7c7d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b3e1ceed80507f2fbdb8e04b4a05d8cccc7a1dcde2ff7c4a9239db62fa6f671",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 多个读线程同时进入，但写线程必须独占。",
+      "translatedText": "> Multiple reader threads can enter simultaneously, but a writer thread must have exclusive access\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "304d81dcb65635392e6bc2a13a1314d5cb8f0487765a277ba5720c355ccf92af": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d6f601e887b601da172a642814c2d705738064b721de2ee9fe34385e195140a",
+      "contextFingerprint": "491e984a1fd81387e96be3dbe23f54c4c93af38695f4e74a9734b3c216c2cf90",
+      "sourceText": "正确做法：测量耗时一定要用 `steady_clock`。",
+      "translatedText": "Correct approach: always use `steady_clock` to measure elapsed time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "305117f91490efeb5149b4e54ff8d5b1f66736b7c897be0fc9ea25b2f57f8a21": {
+      "normalizationVersion": 1,
+      "sourceHash": "034452aabe9b3e867ddfa7e5bf462dcf9c25d97d8a345d602d1db348d5305b2d",
+      "contextFingerprint": "46650a18384b76fcafab0796301b08583c808991f39827175d2fedfa7dda444a",
+      "sourceText": "线程的管理权不能被两个 `std::thread` 对象同时拥有，因此它不可复制：",
+      "translatedText": "The management right of a thread cannot be owned by two `std::thread` objects at the same time, so it is not copyable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 32,
+        "costUsd": 0.000082
+      }
+    },
+    "305758524365e668020cf32e2a27389019330caf275cbda10b15ea663506035d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a53a4b17db0a5141b2e6561f2c3202f9425ce6d108d0f19d775fa07c3aa196c0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为了“安全”到处加锁",
+      "translatedText": "### Adding locks everywhere for the sake of “safety”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "3064ca4e869257ce1d9414f028d38a1c6e58f80cac97130af0b099e274bd4150": {
@@ -29,6 +113,48 @@
         "costUsd": 0.000055
       }
     },
+    "306c9718e7261a8fa85a830297ea0ba847f81f79b0281f8ac61e3cc71b500d90": {
+      "normalizationVersion": 1,
+      "sourceHash": "9962f20fc73fa309c2d93c3ee5e89d3ca9fed55bdc6f9424f759c6c5e2606a0d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用标准异常类需要包含头文件：",
+      "translatedText": "Using standard exception classes requires including the header file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "306e734d963a267f3696ba4b83da46d8877ff7af2350a96524d3d1638e1a0406": {
+      "normalizationVersion": 1,
+      "sourceHash": "09eb0c4684896239fb314cc96b02c3b1bf64b31434f0b41a6114bd28184971df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是可能发生：",
+      "translatedText": "Thus it may happen:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "307bde01a4d3ac88c36b2ac1df2f8b297e47f365f983080d56f93463b0232056": {
+      "normalizationVersion": 1,
+      "sourceHash": "511ec93b177e8f9d06320298c2ff0ae67e95fc423a0a8285022ee69f57fa1f80",
+      "contextFingerprint": "d88c022c24826c64709e76387649010fa509cf39176c74de2cb1f50906870d25",
+      "sourceText": "- `std::unique_ptr`：C++11\n- `std::shared_ptr` / `std::weak_ptr`：C++11\n- `std::make_unique`：C++14\n- `std::make_shared`：C++11",
+      "translatedText": "- `std::unique_ptr`：C++11\n- `std::shared_ptr` / `std::weak_ptr`：C++11\n- `std::make_unique`：C++14\n- `std::make_shared`：C++11",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "307db91fff154b4a0ac4e23a67d3cea710622574f4d5efc3156384dcf4644c08": {
       "normalizationVersion": 1,
       "sourceHash": "a8c9986ecac04f81b44ddc41035d779f81918f6e7982fd5b887852c192a3da4b",
@@ -41,6 +167,20 @@
         "inputTokens": 132,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "308b83e2607177ffa5542eb76108a932988de38ec3fa991cfa076263dfd67d58": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ee7041570d357dd1fb38b524b3cb058cbce3407da32cf829412f2ae6220ebae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "后续如果继续补充，可以从这些问题展开：",
+      "translatedText": "If further additions are made later, they can be expanded from these questions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 22,
+        "costUsd": 0.000068
       }
     },
     "3098379cc7935f1cccb96c2047dbc838b00e4868f034122ed80b802bb08345b4": {
@@ -71,6 +211,20 @@
         "costUsd": 0.000051
       }
     },
+    "30a9e9e7e94ba96ed8a2ed2f8b6b7e26c27d8e541779aa705bde75d340e8c8a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b91dc3bb17af7b5d3291a3f042b4b1074bb653991db98e764d4816901d996ab",
+      "contextFingerprint": "0f5bb5fdc56f355bb0744b6166cbb965b28f4b09c0d1c4fdf6c9e5ca5b5427b4",
+      "sourceText": "​\tstring的赋值方式很多，`operator=`  这种方式是比较实用的",
+      "translatedText": "​\tThere are many ways to assign a value to a string,`operator=`  this method is relatively practical\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "30a9ffe35e0186903cb232b62c0c77093143dd34506f623be6f498a95d3f0c57": {
       "normalizationVersion": 1,
       "sourceHash": "fa0d8d90888382c9b0dd9e8967badf7faccc8de9e1a9f109ef52b8c9c4a70332",
@@ -85,6 +239,34 @@
         "costUsd": 0
       }
     },
+    "30c2844aaa773ac6c824d52cad626ef99de505aa6a3875fce1946c1232c4ea5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee5ab220212904f8ecf90161ea9ec02b27ee43258157b2a980a72c547dd9c51b",
+      "contextFingerprint": "884c5b2dd39d9f1135ef57cfcc9f4a99bae4969fb8857ca60d56162b1d47eaf4",
+      "sourceText": "C++98（RAII 从 C++ 诞生之初就存在，智能指针、lock_guard 等现代 RAII 工具在 C++11 成熟）。",
+      "translatedText": "C++98 (RAII has existed since the birth of C++, and modern RAII tools such as smart pointers and lock_guard matured in C++11)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 72,
+        "costUsd": 0.000146
+      }
+    },
+    "30c8483d04b24865a15cdba637230a41368aa1c3f33161b127e2b2f25ac65c1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6165c9ce6aa5a71777d0ca6b8b3d5d88abbfaf6be197d15108b460720bd7f1fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码一多以后，很容易变成：",
+      "translatedText": "Once there is a lot of code, it easily turns into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "30d28df75be6be41c552ea21aeab8b914443c9910da0317be9a409b9f2ff4ea4": {
       "normalizationVersion": 1,
       "sourceHash": "f9f24c04a5e156de4f627f5c151365201b8210cbf2a872805a6eb5701641a58f",
@@ -97,6 +279,20 @@
         "inputTokens": 136,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "30d308a4fbb02a3a85f965ebc94cade7ef8a3ddb66d4ff19f2db3bd5e96c71bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfb7cfe8850bee5a2d7c17198e85f92688ff35bcf97ae3faf24bb2ec782a8311",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 按条件统计元素个数",
+      "translatedText": "* Count elements by condition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "30d6acbc5f21268dc3e5622678623308e55215438f74ae2db0b842b56226f96c": {
@@ -125,6 +321,34 @@
         "inputTokens": 194,
         "outputTokens": 93,
         "costUsd": 0.00017
+      }
+    },
+    "30e60dbbb04f5ca9a31541032f57263d52dd0ce037a2e5ffed880e32658f35bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e108da2c440a7f7bb9d685ee4877de3dcdf73f0fd67f93347b4a7ff69d16d72",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 callback 内部又涉及锁，可能造成死锁或复杂锁依赖。",
+      "translatedText": "If the callback internally involves locks, it may cause deadlocks or complex lock dependencies\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "30f859b752235269c9f18eb3a0df7b5c111bd514229e1d089f55dca08e6d6c98": {
+      "normalizationVersion": 1,
+      "sourceHash": "30e99fa658f220106591a749ba4fc7ae0fb265c7acac4266b29c94b34b482653",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：constexpr 函数中避免未定义行为。",
+      "translatedText": "Correct practice: avoid undefined behavior in constexpr functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     }
   }

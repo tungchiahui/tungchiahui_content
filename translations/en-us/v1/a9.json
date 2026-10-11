@@ -57,6 +57,34 @@
         "costUsd": 0.000079
       }
     },
+    "a91f3706819c2ad713549544e92c544ce03b9def61bb048c781b191864ef792d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e569db78f38aabb6db53d93c86d367ced9d57f7ccd9fab8e5f883c763bedb2d",
+      "contextFingerprint": "9c79cd13399626b19d3df41dd39e1175b874105b938430a6ee195b413e1fb15c",
+      "sourceText": "1. **名字污染**：枚举值会泄漏到其所在的作用域，例如 `enum Color { red, green };` 写完后，`red` 就成了全局名字，不能再用于别的枚举。\n2. **隐式转整数**：枚举值会悄悄变成整数参与运算（`red + 1` 合法但通常没有意义）。\n3. **底层类型不确定**：编译器自行决定用多大空间存储枚举值。",
+      "translatedText": "1. **Name pollution**：Enumeration values leak into the scope in which they are defined; for example, after writing `enum Color { red, green };` ,`red` becomes a global name and cannot be used for another enumeration\\.\n2. **Implicit conversion to integer**：Enumeration values silently become integers when participating in operations (`red + 1` is legal but usually meaningless)\\.\n3. **Underlying type is unspecified**：The compiler decides on its own how much space to use to store enumeration values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 93,
+        "costUsd": 0.000172
+      }
+    },
+    "a92d5321e380281cf8cd45c1d9d6593e0ebe8696d020526893177328c3a9e126": {
+      "normalizationVersion": 1,
+      "sourceHash": "e08dd771a924e7595091e77f971d3b1c8fdf82d3420f41948e3c2765a1169704",
+      "contextFingerprint": "fdacbceaa424ccf06a72acb831fa605dfb986d2566cd53d3a9652b1d997f4266",
+      "sourceText": "**错误 1：不检查直接 `*opt`**",
+      "translatedText": "**Error 1: Do not check and directly `*opt`**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "a92d7706b8b782412871c5862b1d795937189e4054a40db858af1dc4de7a393b": {
       "normalizationVersion": 1,
       "sourceHash": "2873489d4129e70abed8a10be3ff1dfbbe9bef2d423c883528d47b924177b6d2",
@@ -69,6 +97,34 @@
         "inputTokens": 158,
         "outputTokens": 41,
         "costUsd": 0.000097
+      }
+    },
+    "a931784a2329c6d881550f0bf003122601c6d26ae10b8b012d9ebd9322e9e374": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc32211d10fe9a5a90831db50baeb375631ea2dfc95a253d3841e37895cd57dc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "切换成：",
+      "translatedText": "Switch to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a931b4e800c74891dc5ad3c23ece0220f0faf1a79ab811ab6a3c72898b344726": {
+      "normalizationVersion": 1,
+      "sourceHash": "caed1686a7a99cefc93be3904de036e810136f35c13893686905e703c3572ff0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**简介：**",
+      "translatedText": "**Introduction:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "a9502212cc42d4a43d7a9d61fafe9fe2740a7028f1f39545d5cbf181a9876056": {
@@ -85,6 +141,48 @@
         "costUsd": 0.000066
       }
     },
+    "a957c344c6f6a2eb8647eb2b1d93e5f6fe53791249306686e8bdf77a2d77ed38": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cebe0644ecfb3bc63eee53771d52a29a8271e0389ce1c2088d64017ea26721d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 的中文通常叫：",
+      "translatedText": "The Chinese term for mutex is usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "a97714f5fd4dce1245ac4a16593b80ad94e0e30f75ce545b986b482772c73391": {
+      "normalizationVersion": 1,
+      "sourceHash": "e747c85ebd6d89b1473c56b3d6eb6723af16829a9c11002434ce2a1494047368",
+      "contextFingerprint": "6af0d67c1f41840f849ff9239f169e1ff9405d572486efe7a6a3d876d04d2d7f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1788876514267-a8ed2547.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1788876514267-a8ed2547.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a97fe4a230d02f9dfad5181f16a9ca0a6b07be7bbcf1e1aee8ae4ced3d132a22": {
+      "normalizationVersion": 1,
+      "sourceHash": "f23c4d12e3d06b3c013f8e7185fc4545abaa2b292bf661dfa25a19766ae73de8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不要简单认为：",
+      "translatedText": "Do not simply assume:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "a985d9588b0a9749c8ad358be9dc95add895147da673183080916f9258c54d6c": {
       "normalizationVersion": 1,
       "sourceHash": "8d628893ed0ebac64d02538a1ac7ea79618db2adfdd9d37264b4ba94e28d699a",
@@ -99,6 +197,62 @@
         "costUsd": 0.000149
       }
     },
+    "a98ae4a411262dec944c792b3e3b611154f82d9463d15c4478eb5606f7aac25d": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b99c95c76f6a2943b3e081877a088067876e195114b5cb3f3ef595444458585",
+      "contextFingerprint": "892ff9eec51473c2bd6db8d67887b5161e2025d86858e3b1eb8464278eff5b3b",
+      "sourceText": "如果原始对象本身就是 `const`，再用 `const_cast` 强行修改就是未定义行为，例如：",
+      "translatedText": "If the original object itself is `const`, forcing modification with `const_cast` is undefined behavior, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "a99369b9d723bac42018864088d61b3cf10afb9629713a5249bf3ee2813e574c": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cdc3bc1b4010c5230fee3a8d6a119d01fd02c6d7c2f7bf4546484ab45129a3a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以最终可以看到：",
+      "translatedText": "So in the end, it can be seen that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 18,
+        "costUsd": 0.000062
+      }
+    },
+    "a99b66cb71a033f31e3a7bbeea9dda3179d0a9c7b0048fbe03ac2272ff8071f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6f4bcd55713d09fd76f005881166f97e9422be3abd937470a304eca9f0d994e",
+      "contextFingerprint": "69250fae3c4a472544c614f4265bc50c8cf343279702187c7a8ac0be9e826a4a",
+      "sourceText": "本章节示例统一使用 C++23 的 `<print>`、`std::print()` 和 `std::println()` 写终端输出；并发工具本身的标准版本仍以各节说明为准。",
+      "translatedText": "The examples in this chapter uniformly use the C++23 `<print>`, `std::print()` and `std::println()` to write terminal output; the standard versions of the concurrency tools themselves are still subject to the explanations in each section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 54,
+        "costUsd": 0.000116
+      }
+    },
+    "a9a9b08bfc2faade7664ed770ee302479357858abb9a76d4f57792bdaaa4f8c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "782d049cac94e77f1a2ec96e9bc95cabd3009198138195a2d31a7d912db0d58f",
+      "contextFingerprint": "dd935600d2eaed117965f7ffef5214ee6bc09159f29e5cfa4d746b1c0bbd223c",
+      "sourceText": "完整用法和更多示例见后面的 `std::function` 章节。",
+      "translatedText": "See the following `std::function` section for complete usage and more examples\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "a9c8f37c7bf668e01502824b12725f07f051ac75275bf4f36a9b9006df610d7c": {
       "normalizationVersion": 1,
       "sourceHash": "dd33e69f05c00e738cf9ebe36db52c9dc72cd73bcac3a028e6c5b4474bfdb39d",
@@ -111,6 +265,20 @@
         "inputTokens": 172,
         "outputTokens": 59,
         "costUsd": 0.000123
+      }
+    },
+    "a9d4b5a7c9543933fd78c2550ddfaed5f1fd0981179aaa5635f81fe9ce6c74a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "956d60c3d7570116efd5454bf85c9952c61a2334bc982339bcf476e8a1952051",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例9：通过对象调用非静态成员函数指针",
+      "translatedText": "### Example 9: Calling a non\\-static member function pointer through an object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "a9eca190b924dc5ab9c8ba8af9d51f804b2ef6ab5b9bac2cc1459924da95be48": {

@@ -43,6 +43,34 @@
         "costUsd": 0.00006
       }
     },
+    "cb3b64e3c125bf2509d2a8f4099465b3980f6a79d4907f9d9f1bd4f9f43133c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7707c247724b3f290078f1c7de6f59efa7c5f2ab91938b48c9b44f2f0fc8453",
+      "contextFingerprint": "26214517a86df81449832890c57826186b1893f922f6f8d65a34b5723a0966e0",
+      "sourceText": "下面结合 `Buffer` 类逐一说明。",
+      "translatedText": "The following describes each of the `Buffer` classes one by one\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "cb442e0e9b190d8fa47e241648ddcead594521c7a47f43f7078e6fde1636e554": {
+      "normalizationVersion": 1,
+      "sourceHash": "4c6bbe1de69ad8cf58c184a2d3492243b453c9637c26f12901ff71414afc8129",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "二进制方式写文件主要利用流对象调用成员函数write",
+      "translatedText": "Writing to a file in binary mode mainly uses a stream object to call the member function write\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
     "cb51fa62671a152c1f53944f16195ed4c4129ec011b82670f33c774e1ddb758c": {
       "normalizationVersion": 1,
       "sourceHash": "ed5b9973fee1a10ea2d3cbc67e172fcc4236be2a2835915ed375eaa107cbbdd1",
@@ -55,6 +83,34 @@
         "inputTokens": 151,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "cb8aec345588dbb89349e4c20375f27f0c8798e6e7d1963ae567be5d87b07cfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "07a13b93fbcfdc92f189069eefb31d155c1a27accd22068d61d2fba18ed7bcc7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果停止时还要同时修改很多共享状态，例如：",
+      "translatedText": "If, when stopping, many pieces of shared state also need to be modified simultaneously, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "cb8bf3ae33ec6004fcde881632a4d5d3988bf930c0c4b5682153ba75f203b1d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a46fa96428a5c3093edce3b0fe4d21cf81f21a8e41f7aff96c9d5556e2860cb",
+      "contextFingerprint": "14a7359ae54cbb066fdf8503784487c958af966085e78943e9fd354b4eb4b47b",
+      "sourceText": "需要注意，标准允许 `try_lock()` 偶发性失败。",
+      "translatedText": "Note that the standard permits `try_lock()` sporadic failures\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "cb93b6b463f68f149443c4d2165c6f0d9f6aec9115f2ae5780e4499dc27ba681": {
@@ -127,6 +183,20 @@
         "costUsd": 0.000109
       }
     },
+    "cbcf231375d20f92bdc868d180b1ddafa89c8e96456acde8b074f4674ccfba75": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fa3786891ea1572ad731561cfb75aa8e0d9a77e9541b4e5757240dd98a0cea7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：mutable 允许修改按值捕获的副本",
+      "translatedText": "### Example 4: mutable allows modification of the copy captured by value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "cbd32d121f76996549811d9294fd6e4e6daf3a124ab6777e19f17259552f8c01": {
       "normalizationVersion": 1,
       "sourceHash": "998a6f70acb769cd002bc7a50a734020c0c6ec432bf8cd210206793bc6ca6e67",
@@ -153,6 +223,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "cbdff883da0bba4cf4863b2aec4332897b7d7c4d07524a82ba627c8fb0577117": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab0fbef43e74a14529ee9fae903a6553d7d447ea2c26c6b752b53a544a50a5e4",
+      "contextFingerprint": "1efee86e1f70815eeb1ca78027cb1ee7f92cfdd34f23237e8ae2cf1500f759fa",
+      "sourceText": "在当前 `Buffer` 示例中，它们都会调用普通的拷贝构造函数，因此效果相同。但面对带有 `explicit` 的转换构造函数时，两者会出现区别。",
+      "translatedText": "In the current `Buffer` example, both invoke the normal copy constructor, so the effect is the same\\. However, when faced with a conversion constructor with `explicit`, a difference arises between the two\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "cbe70e956bd5e5c123ca9273334c8b4404b4732143e9e65aafb35c59f6be8ce1": {
+      "normalizationVersion": 1,
+      "sourceHash": "df2d928b699e79b0ee20911876f25ccb04c784b5c2e6bb94a2451c88ce52124e",
+      "contextFingerprint": "396fd6e331e468479afab7679f77f8452669238edc8b43842dc09d83321878f9",
+      "sourceText": "- `push(elem);`                             //往队尾添加元素\n- `pop();`                                      //从队头移除第一个元素\n- `back();`                                    //返回最后一个元素\n- `front(); `                                  //返回第一个元素",
+      "translatedText": "- `push(elem);`                             // Add an element to the tail of the queue\n- `pop();`                                      // Remove the first element from the head of the queue\n- `back();`                                    // Return the last element\n- `front(); `                                  // Return the first element",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 45,
+        "costUsd": 0.000102
+      }
+    },
+    "cbf95451a87c2e351dbd43c8ddc91510b9549fd3cfae76915302eda9d5da1eea": {
+      "normalizationVersion": 1,
+      "sourceHash": "46750a3d36319b42fdc9c1bfd844e7895aa750611f0d1bb1ce9503eb54f1a4e1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序首先创建：",
+      "translatedText": "The program first creates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "cbfc4aede75b1b1c8218140308e2090488032481b18433272fac139423bd88c1": {

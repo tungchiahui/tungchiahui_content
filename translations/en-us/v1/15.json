@@ -15,6 +15,20 @@
         "costUsd": 0.000084
       }
     },
+    "1512ed794a36dd93c656dbc29a412dc438eb8dc0dea23d76b2084e7bee7f1fbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9de20c10818e8b68b494487e2605a4b21b925d4458dab48d7ffb9852e73f33ff",
+      "contextFingerprint": "1c4414d20d8f3c08aa355e38ec562eb0ba520a5cac31365edfe80881ab6f8753",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 最基础的范围 for | `for (int n : v)` | 直接读懂意图：\"对 v 中每个元素 n\" | 这种写法会拷贝每个 int，但 int 很小无所谓 |\n| 示例 2 | const auto& vs auto& | `const auto&`、`auto&` | `const auto&` 避免拷贝；`auto&` 可修改元素 | 遍历 string 等大对象时一定要用引用 |\n| 示例 3 | 遍历初始值列表和 map | 遍历 `{...}` 和 map | 初始值列表可以直接放在 for 里 | map 遍历出来的是 `std::pair` |\n| 示例 4 | 结构化绑定解包 map | `for (const auto& [k, v] : m)` | C++17 语法，key/value 分别起名更清晰 | 如果不用 C++17，可以用示例 3 的方式 |\n| 示例 5 | 需要下标时的写法 | `std::size_t i`、传统 for | 相邻元素比较离不开下标 | 不要为了使用新语法牺牲清晰度 |",
+      "translatedText": "| Example | What was explained | Newly appearing syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | The most basic range for | `for (int n : v)` | Directly read the intent: \"for each element n in v\" | This form copies each int, but int is very small so it does not matter |\n| Example 2 | const auto& vs auto& | `const auto&`、`auto&` | `const auto&` avoid copying;`auto&` can modify elements | When traversing large objects such as string, be sure to use a reference |\n| Example 3 | Traversing an initializer list and a map | Traverse `{...}` and map | An initializer list can be placed directly in the for | What map traversal yields is `std::pair` |\n| Example 4 | Structured bindings to unpack a map | `for (const auto& [k, v] : m)` | C++17 syntax, key/value naming them separately is clearer | If you do not use C++17, you can use the approach in Example 3 |\n| Example 5 | How to write it when an index is needed | `std::size_t i`、traditional for | Comparing adjacent elements is inseparable from indices | Do not sacrifice clarity just to use new syntax |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 335,
+        "outputTokens": 249,
+        "costUsd": 0.0004
+      }
+    },
     "151afba8f8d8f19ff399fd3b11424e80e6d07f0ce3a3b0c68284105a2a171238": {
       "normalizationVersion": 1,
       "sourceHash": "89b204c018e94b23147cc3d8111f06b69f13503355890e6465e830ecdf832318",
@@ -27,6 +41,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "1523400dcbece928ecbd4159eee2dc82d397ff572cd02cbdb1373c1172df9c46": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e84c019ad9b628b3b33449478dd02f4ec66b3155fc099e667b27b347fe72d25",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们和之前学习过的：",
+      "translatedText": "They and those learned previously:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "154c8ade508d99d4b8ebb9411aa794591c96dff13e9eab49eb96e1a5d714eea6": {
@@ -43,6 +71,48 @@
         "costUsd": 0.000062
       }
     },
+    "15569414c54e15c08e2476cc3db162272ca3020fdf7b84de57ad6886577ab881": {
+      "normalizationVersion": 1,
+      "sourceHash": "145429f8919d2dca46cabc37d7e27189e88da1270481946c526f5d500ffc1815",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正修改它的情况非常少。",
+      "translatedText": "There are very few cases where it is actually modified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "15594eaf9ac98ca89b9e8fbcac61ba8201ebbe0f8b5dd82339c3ec6ecb6a0c15": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cf820f9688b9be58e1172944cbb7bad7156e3a48ec46856fe37b801374295da",
+      "contextFingerprint": "1e7adcf0e74b19b178ee04aa1140016a7cc9aa1476b6a45e7752ddafe53deacc",
+      "sourceText": "### 示例 3：`const_cast` 只改变 `const` 限定",
+      "translatedText": "### Example 3:`const_cast` Only change the `const` qualifier",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "158d44fd5dbca04e844bcf77ae95a001302e2997bda0bdbd3404b6b2a8499c09": {
+      "normalizationVersion": 1,
+      "sourceHash": "165ff25c3ba9993a0eee1cc08d52a5f2dcfba616953febb4259c13fafa59f380",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### swap",
+      "translatedText": "#### swap",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "1597153adabe6acc37718acad8bb7a23d46589730065b8b6a2afa3ec9a6a7800": {
       "normalizationVersion": 1,
       "sourceHash": "6d89059ded9cf913802cb1e5e7463053a89eb247cf92b155ceb0060dba197301",
@@ -55,6 +125,34 @@
         "inputTokens": 171,
         "outputTokens": 68,
         "costUsd": 0.000133
+      }
+    },
+    "15b0ac2c325cf1f7222eb5bba009e9b56a5e002dbb94b8a33b38b4ead14efc30": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a114a10f864547d21058481564c19cd3be77af91ebd3799acce5b58e287a64c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或者又获得其他 mutex，就可能产生非常复杂的锁依赖关系。",
+      "translatedText": "Or if other mutexes are acquired as well, very complex lock dependency relationships may result\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "15ba237ef278c475763d9d39a8fdb1f439bcc714fa79010481f065aed4e8b11b": {
+      "normalizationVersion": 1,
+      "sourceHash": "add6ee240337133500687a24b44a243421cb17819bb072967c2ab530a71b7088",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对deque容器的大小进行操作",
+      "translatedText": "* Operate on the size of the deque container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "15bb64e1cacb6a022302edeb808248e18c0b6c083f536a5f29072c0f85128164": {

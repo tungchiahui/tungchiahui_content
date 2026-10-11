@@ -15,6 +15,34 @@
         "costUsd": 0.000093
       }
     },
+    "bf08ccd6a7f5d4f018462c8c53fb6716c7239710830b4dbef16db5a53deb5737": {
+      "normalizationVersion": 1,
+      "sourceHash": "54aab5f6532e71ff197e33b9b20f2c74e766902f9e04e0439188f7f059451705",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会使用标准库提供的死锁避免策略获取这些锁。",
+      "translatedText": "It acquires these locks using the deadlock avoidance strategy provided by the standard library\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "bf155c7b55522da292e31e9580950fa109149da05689e426a5b6d9f045687b6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1cbbaa025f1660a8b595bcb775adb99c9d016466b1431d53275bbc4f96ea7b73",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++中对文件操作需要包含头文件 ==&lt; fstream &gt;==",
+      "translatedText": "C++ File operations require including the header file ==&lt; fstream &gt;==",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 33,
+        "costUsd": 0.000087
+      }
+    },
     "bf18482dcf48297a3eebeee35ebcdc88f29b4ce0f676c49c753c49f58ccf9326": {
       "normalizationVersion": 1,
       "sourceHash": "fafe845202b2000e0454161ccbdcd695360cd302c6bd78872e8b3a9a166c8949",
@@ -27,6 +55,48 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "bf286a91969588e571121959552c96e4780e88ff490f6a01d1493548f9b3947a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c66a276f8a4e08d8196993d63f5305267bb6070aa7b753544f22cebd9ceb0930",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发代码的难点通常不是“开一个线程”，而是：",
+      "translatedText": "The difficulty of concurrent code is usually not \"starting a thread\", but rather:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "bf3a85d6c0a09db019f3aa235645d4512ae763e7ba90875343c61217efec2ef6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae555897f54842c306493e64310762b751155074a6048c7a1ba8349dabecb488",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正应该做的是：",
+      "translatedText": "What should really be done is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "bf47c7f46f85c1b4198cad164740c975a4d77be3fa421b047eed62c7e8f90be4": {
+      "normalizationVersion": 1,
+      "sourceHash": "60d743c9e77a3c976f7456e20c0e2e42b784c2c30f95e10b2eedd3e18f74c638",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 实现关系对比",
+      "translatedText": "- Implementation relationship comparison",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "bf4a5520b398a4590b71dfe5e2bb104b5128ac5f3a526bc9e7d83d0c1731fd04": {
@@ -57,6 +127,20 @@
         "costUsd": 0.000049
       }
     },
+    "bf55e3d85a1b5711617a4b9f776b1b1ba55a0bc484377e3d3ffee63d475f2e01": {
+      "normalizationVersion": 1,
+      "sourceHash": "a39a14e5e7e49fd581c64e592cab11887698c37e265f3e906defdd6863dbeed5",
+      "contextFingerprint": "a9baa91ead7e9970b523a640703225cb7c15f1828a82754265a58ecd0baefd09",
+      "sourceText": "如果两个对象互相用 `shared_ptr` 指向对方，它们的引用计数可能永远不会归零。常见做法是：主要方向用 `shared_ptr`，反向观察关系用 `weak_ptr`。",
+      "translatedText": "If two objects point to each other with `shared_ptr`, their reference counts may never drop to zero\\. A common approach is: use `shared_ptr` for the primary direction, and `weak_ptr` for the reverse observation relationship\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
     "bf80e079d2e5d5d285fd5097a4fa8b16fbcedac5f65cf7d26c5bbe6f54247f38": {
       "normalizationVersion": 1,
       "sourceHash": "f1a0d29bdcccb1b3583d65c2745cd86c7f6e578b036e1b681c00eafa1fdcfc88",
@@ -69,6 +153,34 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "bf9db2ca29592bf1ceab63b40df7ce2c920e186a94d077aa48a98022878142b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b17bdbc7e10edc6e352464b9920f4d5859dea068f230ca8b2f8a22f197b9efdf",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对deque 中的数据的存取操作",
+      "translatedText": "* Access operations on data in a deque",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "bf9fa117739697aba3f6b41c997d6487079033aab12dd274e171e1ab581133c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "57f0dbb299665b29e126e1ca6e6105f3f1329a05a3d7473da69c7cafdbd76298",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：基本类型推导",
+      "translatedText": "### Example 1: Basic type inference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "bfb84680ec7c1247e577106c0c55841c9c142602ae536a7dd499eee2bc5a24bf": {
@@ -85,6 +197,20 @@
         "costUsd": 0.000075
       }
     },
+    "bfc18b3ad14f4680f331d2303253becc7774ae2113955996cb37fb6770cecadc": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a0472d2440d87db1c42e9a872c42197680b3dd2c6acf16b1d7355ae1604c415",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误示例：**",
+      "translatedText": "**Error example:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "bfd7ecbd1026fa5839171cced419443d43c979e7de8a267fd4b439754f9b5b7f": {
       "normalizationVersion": 1,
       "sourceHash": "7e27586f8b98e1598e6747963be55536ef8f5883b1b045878f90311fae0857d7",
@@ -97,6 +223,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "bff37d389e147e0887ecfb3ae4fbcac9cce19337944cb03feaf40da8ec9de9ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "644ab1aca2744ba03eaa20b9b3a3da03eec3cc834433681aa4a1a0b7802ffcae",
+      "contextFingerprint": "efc70a3dac9226204bc192025117af861a67420ea0bf6d8ec25a3b28a9a6a294",
+      "sourceText": "这行代码把指针 `p` 转换成了一个整数。",
+      "translatedText": "This line of code converts the pointer `p` to an integer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     }
   }

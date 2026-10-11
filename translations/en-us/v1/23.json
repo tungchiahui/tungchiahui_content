@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "23105d6cec8189878823b6da4118021359ab7b35dc87cce070a4eceab8be57b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "68dc6c1f1139848a868f25dcd74d61bf0abed1fb82b3ede93fd3a3e9906bb65f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很多地方需要传入一小段逻辑：排序规则、过滤条件、按钮回调、定时器回调。旧写法通常有三种：",
+      "translatedText": "Many places require passing in a small piece of logic: sorting rules, filtering conditions, button callbacks, timer callbacks\\. The old way of writing typically had three approaches:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
+    "2320012a9c3ec5380daa1d28ff33a0eeb5b7d5b37063184ed85142b64fe237ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d9446edadbc06e0ed116aef79bb95e9d08991b9d9a643b29204703061081c46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "协程更像是：",
+      "translatedText": "Coroutines are more like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "232475f2b9f5f09f85158656ca0bdcf9e323e8edc56808e901956e5da121ba88": {
       "normalizationVersion": 1,
       "sourceHash": "7a9a4c71571238794259f22dcd00cd85c34eaa01b8f735d1a5fde60a0d9597ba",
@@ -13,6 +41,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "232684247a6f070460d6d034d9210cbf9b148b8013cdc0f098c43e365e3cb8d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e71172fe9f1b877d1f55657c1ac6b0f774c1e1a06847de5f3c1bb9d2cc2b530",
+      "contextFingerprint": "6981955f0d5c40ec2f71d619c4c8fc06b9d6635931ab6f261b0fdea672f6ea5d",
+      "sourceText": "它在析构时会自动请求停止并等待线程结束，而且支持 `std::stop_token` 协作式取消。",
+      "translatedText": "On destruction, it automatically requests a stop and waits for the thread to finish, and supports `std::stop_token` cooperative cancellation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "23402093ec6e1ad94f4af78d068308dc48e20fcc9858780d740b5e64897bab44": {
@@ -69,6 +111,62 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "238bfb1eb959075e5f822117906896790a80ef95e969bf8d38c3b5815ae54c13": {
+      "normalizationVersion": 1,
+      "sourceHash": "c780ef52759f0840d746c47d145c85cd819a0702527d8a28e13ca1e1132ef9fc",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "C++11（基础），C++20 增加了初始化语句支持。",
+      "translatedText": "C++11 (basic), C++20 adds support for initialization statements\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "2398af428b8b00fb29898a0b7948b371d8e1fc745de7e178b82783ca6cf1babb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e37c8b8b5b160d5551c22251d1c92dafe3f4ad49552f507358ae12d88d1cb209",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，auto& 和 const auto& 的区别",
+      "translatedText": "### Example 2: Based on Example 1, the difference between auto& and const auto&",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "23de03e669f8eda8d274f03c7cc5e82581597e32a2152dc24624f2cf7b3a6616": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb276354b02ba3aecd9d7d47ee4b70927d75b2e370b44cb51709c7151ac6b0cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习目标：vector中存放自定义数据类型，并打印输出",
+      "translatedText": "Learning objective: store custom data types in a vector and print the output",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "23e8de36e7dc507eac0561270c24d768b9381a762a396d60f0cf3bd513679bc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "577fee9b01eca372336aed2bf62e935b511cd0159281b6f541bb730f7cc7edc4",
+      "contextFingerprint": "2c3e2a766739dc5c1d9302726214763d35c2f6fff72c515cb380e0dde0cb7a12",
+      "sourceText": "`e.what()` 可以获取异常中的错误信息。",
+      "translatedText": "`e.what()` The error information in the exception can be obtained\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "23eb45684ded66c706d0e39a320acd8ca2e79f78bdfa2ae6f0c122416d931025": {

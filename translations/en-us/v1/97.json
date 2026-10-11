@@ -99,6 +99,34 @@
         "costUsd": 0.000056
       }
     },
+    "973cb81a5657c71a20fd9e6ee97e3d9f9e0a2cf70022aa4205e7700065c3bc05": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dcfedf905ece42f36aa169225d2e7451e1247c040880a4ebc8cfe65425bff71",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "map和multimap**区别**：",
+      "translatedText": "map and multimap**difference**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "973d0cb6b5c67af8062119bf384fadff91d5306604a9489c3da4fb800e36efc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "5444f60ad79580414b07526595ebbdceb91f85a5fa8dbdb95b9ad069a794589f",
+      "contextFingerprint": "e1de60f130eb65b4a0ce1e6070ecb7305c76ad0d085738cfbe9d0258b01d5275",
+      "sourceText": "## C++20：优先了解 `std::jthread`",
+      "translatedText": "## C++20: Prioritize understanding of `std::jthread`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "974c72ba630cf36c573bbb6e1b37d22256c8be9c10f907d8d6d8fc76204edefb": {
       "normalizationVersion": 1,
       "sourceHash": "6f8118f95cc9c66c6967b9738af804ee9646a8dfd63a01844ac69a3508e02bc1",
@@ -111,6 +139,90 @@
         "inputTokens": 151,
         "outputTokens": 33,
         "costUsd": 0.000085
+      }
+    },
+    "976a57160a7fbe5391197c378a7f2f47a0d9d47b0a2bc0d2b782232b7416a1d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b08354b301513aa4e9c39bc9604aa33b0394aee8a7b0f966d05ba339da86011",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例1：保存函数地址并调用函数",
+      "translatedText": "### Example 1: Save the function address and call the function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "9776eaead9c1ef9fa2828bd890ea3b869efaa5b2ff14b379e46813dc61d5bf1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f6cb084c3fe3eac4888e4f2059835492b9cb1f2dec17a4a268111f9e910fd27",
+      "contextFingerprint": "67a2286b5ca095dc9ef520bea47aa18eb9910c63587b475bbeff491af577ee14",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 基本类型推导 | `auto x = 表达式` | 最简单的情况，类型由初始化值决定 | 字符串字面量推导为 `const char*` |\n| 示例 2 | auto vs auto& vs const auto& | `auto&`、`const auto&` | `auto` 会丢失引用和顶层 const，要用 `auto&` 才能引用原变量 | 遍历容器元素时要注意 |\n| 示例 3 | 简化复杂类型 | 迭代器、智能指针用 auto | 类型名太长时用 auto 保持可读性 | auto 不弱化类型安全，只是让编译器帮你写 |\n| 示例 4 | auto 遍历时的拷贝陷阱 | 范围 for + auto/auto& | `auto` 遍历拷贝元素，`auto&` 引用元素 | 想修改原容器必须用 `auto&` |\n| 示例 5 | auto 返回值 vs decltype(auto) | `auto` 函数返回、`decltype(auto)` | 函数返回引用时，普通 `auto` 会退化成值返回 | `decltype(auto)` 很强，但也要确认不会返回悬垂引用 |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Precautions |\n|:---|:---|:---|:---|:---|\n| Example 1 | Basic type deduction | `auto x = 表达式` | The simplest case: the type is determined by the initializer | String literals are deduced as `const char*` |\n| Example 2 | auto vs auto& vs const auto& | `auto&`、`const auto&` | `auto` loses references and top\\-level const, so `auto&` is needed to refer to the original variable | Pay attention when iterating over container elements |\n| Example 3 | Simplifying complex types | Use auto for iterators and smart pointers | Use auto to keep readability when type names are too long | auto does not weaken type safety; it just lets the compiler write it for you |\n| Example 4 | The copy pitfall when iterating with auto | Range for \\+ auto/auto& | `auto` iterates over copied elements,`auto&` refers to elements | To modify the original container, you must use `auto&` |\n| Example 5 | auto return type vs decltype(auto) | `auto` function return,`decltype(auto)` | When a function returns a reference, ordinary `auto` degrades to a value return | `decltype(auto)` is powerful, but you also need to make sure it will not return a dangling reference |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 333,
+        "outputTokens": 245,
+        "costUsd": 0.000394
+      }
+    },
+    "9777b8c70edb88bcad8b1b1fefab8b2247b4550a7e1d4f5bfef3f053ae8dc8e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1e4e41e6b16eada6f689ab211f7d175591d73fb6634f64c837e8c907a1bfd99",
+      "contextFingerprint": "744b1c1a2f010f4b172efce66caff05e259b8cbae79e73273456d2721d0454b2",
+      "sourceText": "### `std::shared_mutex`：多读单写",
+      "translatedText": "### `std::shared_mutex`: Multiple read, single write",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "977b0c0a03193a4c5ac71129a25cbc85cec2938b668e8cdfc3cb155d3edd5ab6": {
+      "normalizationVersion": 1,
+      "sourceHash": "03efd42ebbd7e7b471aa975b26996d1685b354fca95c850a95f9d0b40764e16a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "门口放着：",
+      "translatedText": "At the door, there is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "977dbc847cb1ee411899f3ca6dfb33b3bba2a2e1de02f8661b4572a36cf3ce1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bac91ce2f1c855b01f3c7d4fe7b70350d7051172234cf4fe900b88c749d245ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "刚创建两个节点时：",
+      "translatedText": "When two nodes are first created:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "978033d1b2d28c560bc305848fdfd31d98e1b4db5941fa001e1ac8e88bbb8373": {
+      "normalizationVersion": 1,
+      "sourceHash": "7acd9f31eeabe2476784a83604bf5320f8a433bf928a78cfa14d1001d5f7708f",
+      "contextFingerprint": "67d610af40d5180a19dc5b30843e670496ef9e42f2032aaca42aeedfa0984b30",
+      "sourceText": "正确做法：用 `value_or(default)` 或先检查。",
+      "translatedText": "The correct approach: use `value_or(default)` or check first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "978e619a0f3b4bf211cdd48d4c2b2effebab6ad5b9daed4445f41702576d230a": {
@@ -155,6 +267,20 @@
         "costUsd": 0.000063
       }
     },
+    "97b9834d3bc14713f175ef5ccdb87b961a9ff256086745c620f7f4aaeb8763a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a82b49da1c7d137afa73e482b1fc071695145e3b67193a6a077823717635208",
+      "contextFingerprint": "f0745d2d75b31360ecf971ed3aea96c587f2ba73cc06a0edacf2d18907a74ae9",
+      "sourceText": "这里的 `static_cast<int>` 明确表示：程序员知道 `price` 会被转换成 `int`，也接受小数部分被丢弃。",
+      "translatedText": "Here, the `static_cast<int>` explicitly indicates: the programmer knows that `price` will be converted to `int` and also accepts that the fractional part will be discarded\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
     "97d4d8d72c87cdb19c64f481ae8d589e1e9dc5215a655a362332ea84ce802e81": {
       "normalizationVersion": 1,
       "sourceHash": "ba63d000fa3bf8532fc2b545f3113251b44025518ddb5c84d998eb8ded60d9cb",
@@ -169,6 +295,20 @@
         "costUsd": 0.000052
       }
     },
+    "97db2562729445d407d6a331d4a47f1847be08d86c2573e7bfad941d11804bc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b3ad2dcb38453b0beeaf730d0264d2e0f63f64645470dba34bd200f9b65eea0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### STL基本概念",
+      "translatedText": "### Basic Concepts of STL",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "97db8cdd0f61ea76591c002f6e0e9d468c8a2979a324f31c159f275c572c3923": {
       "normalizationVersion": 1,
       "sourceHash": "dda17035356eb3ad746fe3a08eb02cd66d2ad1caf3811954331fd3c3f2bdf1e9",
@@ -181,6 +321,20 @@
         "inputTokens": 198,
         "outputTokens": 96,
         "costUsd": 0.000175
+      }
+    },
+    "97e46d050566ec4e9c68300e465820241a5609057c7392b4bfb012e4e9b0896d": {
+      "normalizationVersion": 1,
+      "sourceHash": "67bb53ef02e65f0a33df2407301f4ae2cbb39fa8e38aacbbb6387ab7a9c13dff",
+      "contextFingerprint": "73160e776a99dc94e702a1a9e0babf766182fa95d22db7b0b1e0e47787365d68",
+      "sourceText": "| 写法 | 含义 | 适用场景 |\n|:---|:---|:---|\n| `[]` | 不捕获外部变量 | 只用参数或局部临时变量 |\n| `[x]` | 按值捕获 `x` | 保存一份副本，适合保存回调 |\n| `[&x]` | 按引用捕获 `x` | 需要修改外部变量，且能保证生命周期 |\n| `[x, &y]` | 混合捕获 | 明确表达哪些拷贝、哪些引用 |\n| `[=]` | 默认按值捕获用到的变量 | 小例子方便，工程中不建议滥用 |\n| `[&]` | 默认按引用捕获用到的变量 | 异步或保存回调中尤其危险 |\n| `[this]` | 捕获当前对象指针 | 对象必须比 lambda 活得久 |\n| `[*this]` | 捕获当前对象副本 | C++17 起可用，适合避免悬空 `this` |",
+      "translatedText": "| Syntax | Meaning | Applicable scenario |\n|:---|:---|:---|\n| `[]` | No capture of external variables | Only use parameters or local temporary variables |\n| `[x]` | Capture by value`x` | Saves a copy, suitable for storing callbacks |\n| `[&x]` | Capture by reference`x` | Needs to modify external variables and can guarantee lifetime |\n| `[x, &y]` | Mixed capture | Explicitly express which are copies and which are references |\n| `[=]` | Default capture by value of used variables | Convenient for small examples, not recommended for abuse in engineering |\n| `[&]` | Default capture by reference of used variables | Especially dangerous in asynchronous or stored callbacks |\n| `[this]` | Capture the current object pointer | The object must live longer than the lambda |\n| `[*this]` | Capture a copy of the current object | C++17 available since, suitable for avoiding dangling`this` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 255,
+        "outputTokens": 155,
+        "costUsd": 0.000263
       }
     },
     "97e9c8a5ae449c19d5a200fad494f97fe39553007a8e9d10051269c7592c7fbe": {

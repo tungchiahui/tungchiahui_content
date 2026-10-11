@@ -15,6 +15,62 @@
         "costUsd": 0.000063
       }
     },
+    "d7065ed754d521c58a492e86262c6386ee008be321817140e0578c3ab4d2dcc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d050bd1ac185bcc824ff6e5852ce7f9bba185779c85f9652d6bc23bde3de8039",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此通常应该：",
+      "translatedText": "Therefore, typically:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "d7097fa47801ff6726d6b6f8fd5a334266e19692f6f816a4d383f2b687b9acac": {
+      "normalizationVersion": 1,
+      "sourceHash": "bcd4c26daaf2509a9dafd303f2e09219a92c73d7e1b9daffe5c165463c33176f",
+      "contextFingerprint": "556472fd41621d918ace2396eba882dd138544be1e90fbd990a06def4d56ddab",
+      "sourceText": "这很像内存管理里的`new`和`delete`所面临的问题，在内存管理中，我们使用的是RAII思路去解决这个问题，也就是智能指针。",
+      "translatedText": "This is very similar to the problem faced in memory management by`new`and`delete`, and in memory management, we use the RAII approach to solve this problem, that is, smart pointers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "d710b835e16e2e5344d01b18dfad5382da412a319db88db000851b3a22dc3347": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fc2fce3c5e7a78b085e1a4ef1667e114ad9a42e8d23ed6dd03e41c8f9ce3695",
+      "contextFingerprint": "bad096f43456c50827eaefc04902fd9cf7556fe3d4f136079067f9fa75622c61",
+      "sourceText": "| 场景 | 推荐写法 | 原因 |\n|:---|:---|:---|\n| 局部变量类型很明显 | `auto x = expr;` | 少写重复类型 |\n| 只读遍历大对象 | `const auto& x` | 避免拷贝，同时不允许修改 |\n| 要修改原对象 | `auto& x` | 明确拿到引用 |\n| 可能为空的指针 | `auto* p = get();` | 让读者一眼看出这是指针 |\n| 函数返回引用且必须保留引用 | `decltype(auto)` | `auto` 返回值会丢失引用 |\n| 类型本身是业务含义 | 显式类型 | 例如 `Meter distance = ...` 比 `auto distance` 更清楚 |",
+      "translatedText": "| Scenario | Recommended写法 | Reason |\n|:---|:---|:---|\n| Local variable type is obvious | `auto x = expr;` | Avoid repeating the type |\n| Read\\-only traversal of large objects | `const auto& x` | Avoid copying while disallowing modification |\n| Need to modify the original object | `auto& x` | Explicitly obtain a reference |\n| Pointer that may be null | `auto* p = get();` | Let readers see at a glance that this is a pointer |\n| Function returns a reference and the reference must be preserved | `decltype(auto)` | `auto` The return value will lose the reference |\n| The type itself carries business meaning | Explicit type | For example `Meter distance = ...` than `auto distance` is clearer |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 109,
+        "costUsd": 0.000195
+      }
+    },
+    "d714fa31900aec8f15cb8c190575980c59b6c0edf2f4ac477637283fcc642243": {
+      "normalizationVersion": 1,
+      "sourceHash": "a62d8954f185909bc63836c32341dd3ca3b6f460b03f0fe05e9531bbdcc4cdf1",
+      "contextFingerprint": "71a5d4be2b20f3eecfd5945f95ebfc891ff6e807b806c0850f886c8d936201c9",
+      "sourceText": "如果构造函数抛出异常，对象创建失败，程序会跳转到 `catch` 中处理异常。",
+      "translatedText": "If the constructor throws an exception, object creation fails, and the program jumps to `catch` to handle the exception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "d7294ef7ad1fdb366a7156a717a0378b5dede339cd56c1fb2d06fe7b96a26a75": {
       "normalizationVersion": 1,
       "sourceHash": "99ed7fde6c2063cd1d5e365ca4bd162c6c3d6da5f553e28715437e7d05e1c255",
@@ -57,6 +113,20 @@
         "costUsd": 0.000175
       }
     },
+    "d765eb91e103bdf7cd6353a05145712840c84408c1db78b363dd8cc431b8d6c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a15b851c68379c4e87375164b313046aa76d29155b1ee7c949328c8d25cee2d",
+      "contextFingerprint": "0343eeee4fe3cf62d26155abba8ee80378942bbc4cbbe7c9d07f5d88756f164a",
+      "sourceText": "#### set_intersection",
+      "translatedText": "#### set_intersection",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "d77d8814026f5cf9a680151696794982aba32cb5cb8d1e067859bd4e46f4c3c1": {
       "normalizationVersion": 1,
       "sourceHash": "c6b0fb5bdc57f962670c429e87a5524b814e53c37aa15e4c66325ed73fe1aefa",
@@ -69,6 +139,62 @@
         "inputTokens": 147,
         "outputTokens": 25,
         "costUsd": 0.000075
+      }
+    },
+    "d781add666b81c05e75548e70cfed37f3cc909663c8c6233dca9429878711e7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "70568df40c381ed54b9b3e0065c113de8d6ad74923f5ea928abf4262a77e1d41",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "强调：",
+      "translatedText": "Emphasis:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d78b73be3ec1ff31b611b721e80e0f95dc7bf91b1d014bfeb42228aa8bd8f448": {
+      "normalizationVersion": 1,
+      "sourceHash": "9027dc99414611390486f4a9c32477630408d89d83c849a7c797a45de9706d45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要让某段初始化逻辑只成功执行一次：",
+      "translatedText": "It is necessary to make a certain piece of initialization logic execute successfully only once:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "d78e2f7f2da2ad03336ad78d153f4123f6dbb1ca891dad33e75d1ee446a74df2": {
+      "normalizationVersion": 1,
+      "sourceHash": "41839fc9720622157120bbc88a0a1f2fb01dac12db31b52211b66729486e51a6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例中：",
+      "translatedText": "In the example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "d798cdeba172758c6c7223b93c0aea7dfe21d621c319394414428d4b52593f56": {
+      "normalizationVersion": 1,
+      "sourceHash": "d537e6779758855ede4820819c504f7ee77385095ce01fe7d3e518981ee4d986",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "排序后的数据是：",
+      "translatedText": "The sorted data is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "d7a95218d302d89d2c20dee088be40a1e1b06380ac6fb1279b615a8ea3de3a12": {
@@ -99,6 +225,20 @@
         "costUsd": 0.000051
       }
     },
+    "d7ac2941a41c351ce0a2efc47af9adf267d732d4e753a28a29248483e78dbd8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "51da09bfb06571dd57f099f93f65d005b04054bd6e07c295ca7fd2b6ab3ca926",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "T    ---   通用的数据类型，名称可以替换，通常为大写字母",
+      "translatedText": "T    \\-\\-\\-   Generic data type; the name can be replaced, usually an uppercase letter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "d7b2d4d8bdb3f94034432245c0525d6aa9dc23bda20e690695455029a029d601": {
       "normalizationVersion": 1,
       "sourceHash": "90536979c1dd75843bc2a9ffe80493877764804f78789ad57e16556d6c5c7290",
@@ -111,6 +251,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "d7cefa6d933d24c55686cc5f8269420f9379aa6fc0c88f69cfd4921b9051d9e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d5afb5baa1423892c13922cb2d57e7e54e2ba8f61a450be971515318e08d072",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**vector与普通数组区别：**",
+      "translatedText": "**Difference between vector and ordinary arrays:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "d7f053376b8e10e2687fb8e79b38f4efaf8924f7ce2748ba6e38000a73392aef": {

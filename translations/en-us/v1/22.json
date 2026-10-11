@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "22217cd1f844d8bd1c46892cb90ad95776a87170f64dfb7c2a5b06e2d91541b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e5a828e1e34546b0c8d48517173a24f7534233cbd336348977baa0d7a0ae059",
+      "contextFingerprint": "072b197843cae28436a378700ef3f2568bde320cf3444b92efb9b4456a19de6f",
+      "sourceText": "- 对 `score_ref()`（返回 `int&`）而言，引用性就是它的全部价值所在——一旦丢了，`a` 就成了和原变量毫无关系的副本。`decltype(auto)` 的作用就是把这层引用性保住。\n- 对 `score_ptr()`（返回 `int*`）而言，它本身就不是引用，是一个**普通的值**（哪怕这个值碰巧是个地址）。`auto` 推导普通值类型时本来就不会发生\"丢引用\"的事，所以推导出来天然就是 `int*`，和 `decltype(auto)` 推导结果没有任何区别。\n**真正决定\"能不能改到原变量\"的，从来不是 `auto` 还是 `decltype(auto)`，而是你拷贝的这个值里，是否仍然携带着指向原对象的\"路径\"**：\n \n- 拷贝 `int` 值 —— 路径断了，改不到。\n- 拷贝 `int*`（地址值） —— 路径还在，*解引用*之后照样能改到。",
+      "translatedText": "- For `score_ref()` (returning `int&`), referentiality is its entire value—once lost, `a` becomes a copy with no relation to the original variable\\. `decltype(auto)`'s role is to preserve this referentiality\\.\n- For `score_ptr()` (returning `int*`), it itself is not a reference but an **ordinary value** (even if this value happens to be an address)\\.`auto`When deducing an ordinary value type, \"reference loss\" never occurs in the first place, so what is deduced is naturally `int*`, with no difference whatsoever from the result deduced by `decltype(auto)`\\. **What truly determines \"whether the original variable can be modified\" is never `auto` versus `decltype(auto)`; rather, it is whether the value you copy still carries a \"path\" pointing to the original object**：\n \n- Copying the `int` value — the path is broken, so it cannot be modified\\.\n- Copying `int*` (the address value) — the path is still there, and after *dereferencing*, it can still be modified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 302,
+        "outputTokens": 209,
+        "costUsd": 0.000342
+      }
+    },
+    "222f49e0383bde1cf308022da16a757823bd80e77ea74b11990a40d3ce5cdc39": {
+      "normalizationVersion": 1,
+      "sourceHash": "de06df96d70e42b430b461e4533feed2b13946c401240982b5f2c638baa5716b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 普通函数指针与成员函数指针的区别",
+      "translatedText": "### The difference between ordinary function pointers and member function pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "2230a70895b57c40da18ce78a4ee36e6f6996b3e34c9ebc646c4316f019d7031": {
       "normalizationVersion": 1,
       "sourceHash": "1e200d748493282811beb6b35655c36394784e042d54bbfc378fd399a84160d2",
@@ -43,6 +71,48 @@
         "costUsd": 0.000074
       }
     },
+    "22517fb92cf6894f243b01672033c5e354e8bed1bee7e9410b757bb34e295276": {
+      "normalizationVersion": 1,
+      "sourceHash": "757f79541389eb008e7d31b29d650d313db0eb0561d76773a73ffd589517b080",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习目标：",
+      "translatedText": "Learning objectives:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "22523986d5635c5cbccd82c78ce19498d57a20a199b54396b08ef6362abdc2b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a26a0b932aac048d60a9a4078300630a3c37d3ffe23594eb058af8c61b11cab",
+      "contextFingerprint": "a2eecc78ea69d3c2c5e1eb76c4e9a5981a1c89c3385b2f5de0768aaf376b1e10",
+      "sourceText": "正确做法：`std::cout << elapsed_ms.count() << \" ms\\n\";`",
+      "translatedText": "Correct approach:`std::cout << elapsed_ms.count() << \" ms\\n\";`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "225378541f6310c53f285e038871262a933965b32c4f474dbb9f83943d2947e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3cfefc2c51dd18a9086ddb3a6d11a0f6f0ecd9f0e1c2beb6cfcc4638a50d51a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set和multiset区别",
+      "translatedText": "#### Difference between set and multiset",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "2257bfa4a23c08b46ee5b99d8dd3c43ed4c13b648de1dc6046162b1c7a538fe0": {
       "normalizationVersion": 1,
       "sourceHash": "1c480b41a272fcb176391e7b39eba6673d2b0e707edc75ba0594f2eafab387a0",
@@ -55,6 +125,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "227e915aff1ac076e4c44afeb77c624728bf068f4c2a2a66fe2e94865344ec29": {
+      "normalizationVersion": 1,
+      "sourceHash": "32603dd0bffd5f35d8dd5045c14824609de38adfa005e1cb36ea48067df0b066",
+      "contextFingerprint": "397cf368676671a4f71f1b7e4a0d7ef28516c69c99cd27bfd55a9b9e7a427af6",
+      "sourceText": "**运行结果：** 编译失败：比较仿函数的 `operator()` 缺少 `const` 限定，现代标准库无法在常量比较器对象上调用它。",
+      "translatedText": "**Result:** Compilation failed: the comparison functor's `operator()` lacks a `const` qualifier, so modern standard libraries cannot call it on a const comparator object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 38,
+        "costUsd": 0.000094
       }
     },
     "2289324b969140d074cbc8968da422b8fc121d7c88006d9391a7ef22c8cf84de": {
@@ -139,6 +223,76 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "22aa3c8c01ef13eda56604d32a20444d53bd533d29949f2ffa3af8d72bde8fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1ccfada3214f0565b923577137487ddc608f7ca5de4e3eebe980cdc980b0aeb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：用 variant 表示状态机",
+      "translatedText": "### Example 5: Representing a state machine with variant",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "22b05ec254f273897c57b8c7eb835d65251787e06b5527c9057444d127e8dacc": {
+      "normalizationVersion": 1,
+      "sourceHash": "23c9780439fecbee049df2e9e990c5530d713c3edb7f6f559e74862ceec214d0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### accumulate",
+      "translatedText": "#### accumulate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "22baeb7e763ce6fa7ddca939b5a0b00a6ff51e45ebc9cff7564e72cc34709bf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e9fe9af84bbc679742f888ad2eb83a85ff0fe3d176549937fb32d2bcab38ae6",
+      "contextFingerprint": "014c7e9a810ebd585679f917a8372cd40636c806c655f237fe139993f5c229f1",
+      "sourceText": "- `static_cast`：常规转换，最常用。\n- `dynamic_cast`：多态类型安全向下转换。\n- `const_cast`：只改变 `const` / `volatile` 限定。\n- `reinterpret_cast`：底层重解释，风险最高。",
+      "translatedText": "- `static_cast`: Regular conversion, the most commonly used\\.\n- `dynamic_cast`: Polymorphic type\\-safe downcast\\.\n- `const_cast`: Only changes `const` / `volatile` qualifiers\\.\n- `reinterpret_cast`: Low\\-level reinterpretation, highest risk\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 40,
+        "costUsd": 0.000098
+      }
+    },
+    "22bb970e132e7e575b55d3ef7f681dc19256ba379d3063e3e92e624fb6a3f6b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7fba08fe8519e5b86db2d17f7d238270de4d5bd22f2f1a0ba2aa726528ba30b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "推荐：",
+      "translatedText": "Recommended:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "22c03b08c2d362785306d90be1d098736e430e46175c16c2d27a399eeabed44b": {
+      "normalizationVersion": 1,
+      "sourceHash": "e21819246af6930c4ff25f8b12b9d34302eb84c50a58f9f31004a15804ca495c",
+      "contextFingerprint": "29e1ede9bd010e1f916baf5c2825a226cba15c3a0ba47898f8a6c2f3dfd81b32",
+      "sourceText": "### `unique_lock` 可以提前解锁",
+      "translatedText": "### `unique_lock` Can be unlocked in advance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "22cc256df21f7b45951e31339e7053dce09fa1907e4c4cf0fe4ab7a2a5cd0b46": {

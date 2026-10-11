@@ -15,6 +15,48 @@
         "costUsd": 0
       }
     },
+    "07057940340230e9afebaf058f2ba3822584cdf33f4a5f1b9d6e25f57fe795d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb2d5570f091fcfeae7bb2b4f2a2bf0ecf9aaaf1756b7047be7381c324e6c3cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果协程背后配合线程池或异步运行时，才可能和并行执行结合起来。",
+      "translatedText": "Only if the coroutine is backed by a thread pool or an asynchronous runtime can it be combined with parallel execution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "070a5b8bd0c7343663158c4b3e400406c20567a1f130e1748a24e6046ec50881": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbdb7c371c194280bddf8676b40719781550de682e19930382cb56cfc45d0539",
+      "contextFingerprint": "9073606f4ec26302a9f1f5fb5fedf176359535c181de12755730545a64bc18d7",
+      "sourceText": "- `find(iterator beg, iterator end, value);  `\n\n  // 按值查找元素，找到返回指定位置迭代器，找不到返回结束迭代器位置\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // value 查找的元素",
+      "translatedText": "- `find(iterator beg, iterator end, value);  `\n\n  // Find an element by value; if found, return an iterator to the specified position; if not found, return the end iterator position\n\n  // beg is the starting iterator\n\n  // end is the ending iterator\n\n  // value is the element to find",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 56,
+        "costUsd": 0.000118
+      }
+    },
+    "07189ae7c285998521e937966186adf2ec2df1926c86f831ea61aba8aa396dd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4b047c25659fee66c680ef1d3c0ea93cd8a95a8cc36e68ab4deaa7ce60d00e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果再：",
+      "translatedText": "If again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "07278e14680a22a8ae1003026e7eada1c6fe88b65ab5a4cc90ee7094b685bd77": {
       "normalizationVersion": 1,
       "sourceHash": "ce1e166297ff76784fb88360c382c2f92d4ab63494c6f18d8f573788238d2ed1",
@@ -41,6 +83,62 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "07802b96673dd997e07213485b9c519e6b88ae5c874b8da0676764eeb192c676": {
+      "normalizationVersion": 1,
+      "sourceHash": "8503a097dcd87cee94c1f2b708c6bd8e7440c0f6accaf89545f562b062d01329",
+      "contextFingerprint": "c8eea7f699bcdd26ed98a4032cce508859ff6c69af79511e63fe4ef15e9959d9",
+      "sourceText": "1. **永远用 `nullptr` 而不是 `NULL` 或 `0`**：这是现代 C++ 的规则，避免类型歧义。\n2. **智能指针也可用 `nullptr`**：如 `std::shared_ptr<T> p = nullptr;`。\n3. **用 `if (ptr)` 检查非空**：等价于 `if (ptr != nullptr)`，更简洁。\n4. **不要给非指针类型赋 nullptr**：整数、字符串等不要用 nullptr 初始化。",
+      "translatedText": "1. **Always use `nullptr` instead of `NULL` or `0`**: this is the rule of modern C++, to avoid type ambiguity\\.\n2. **Smart pointers can also use `nullptr`**: such as `std::shared_ptr<T> p = nullptr;`\\.\n3. **Use `if (ptr)` to check for non\\-null** : equivalent to `if (ptr != nullptr)` but more concise\\.\n4. **Do not assign nullptr to non\\-pointer types** : integers, strings, etc\\. should not be initialized with nullptr\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 91,
+        "costUsd": 0.000171
+      }
+    },
+    "0780878f612440029d5ab5e36b51a205d99587cbb1fcfd803ded8235782ce190": {
+      "normalizationVersion": 1,
+      "sourceHash": "918c47ca2fc95bc5248dc2f65689048a0f501b591e02249b962d7119c70eb653",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：最基本的 lambda 语法、参数和返回值",
+      "translatedText": "### Example 2: The most basic lambda syntax, parameters and return value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "0783690ea3cad6ccd562452a4af25a5a381d06e9b7d48dd81a14ddb2d6cbf367": {
+      "normalizationVersion": 1,
+      "sourceHash": "af0780e6362aa2a1182fad43a36c9ec488fa78f0380d9146f72ef40a07e4b4a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：建议使用显示指定类型的方式，调用函数模板，因为可以自己确定通用类型T",
+      "translatedText": "Summary: It is recommended to call function templates by explicitly specifying the type, because you can determine the generic type T yourself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
+    "078703e4e03b914d51e4e9c9fddeea175ca1b725c73306444a36ffd2371be6f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5e28e0cfe5f82d709af38a6402d0209576a85598c6facd8d651a6b3da8f8590",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 临界区（Critical Section）",
+      "translatedText": "> Critical Section",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 9,
+        "costUsd": 0.000052
       }
     },
     "0789f4a0267ca6f5b2a5986840494e461deae96bfddf5f4c4230c4481dface05": {
@@ -85,6 +183,20 @@
         "costUsd": 0.00006
       }
     },
+    "07d27ac9bd4f4ad186519ee3db09ac007f2485ad8a9bf84e24d40abb17a2c3e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "cce89a7570a4995b5a6432fb1a4513c82629349f1f51893b43823b8b82dc4520",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常不是所有地方都适合使用。",
+      "translatedText": "Exceptions are not suitable for use everywhere\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "07d6e7b4bf4f94e757e12359c8fdd3622d0ef8baa732c322e0d521f025bebc6f": {
       "normalizationVersion": 1,
       "sourceHash": "5cfeb0f5aaf7248570bb72175239376f30931499b5aa5908529599e01773ce22",
@@ -97,6 +209,20 @@
         "inputTokens": 145,
         "outputTokens": 34,
         "costUsd": 0.000085
+      }
+    },
+    "07d82786c986e0ae158d41ba76175304a58bde46f4e12549dee8a064cff3c6b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "2506371936f1cc36dfa4f7515ecad8cdd68f83795c09030745acb961cdd270f5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例6：函数指针数组",
+      "translatedText": "### Example 6: Array of Function Pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "07d9a5e85d59a8257831d0464dad51b86a84f0fcf6cc48fd224998d35ff472c2": {
@@ -153,6 +279,34 @@
         "inputTokens": 153,
         "outputTokens": 28,
         "costUsd": 0.00008
+      }
+    },
+    "07faea22ec1c3184f3fb621f855e317d2d2b697e748f8f789c8f955077f57301": {
+      "normalizationVersion": 1,
+      "sourceHash": "6982ca251179c4acc13e7000faab7a923a9333409cfd0c2fcb23b1b794d6bb91",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会对每个元素调用：",
+      "translatedText": "It calls the following on each element:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "07ff650c27ef0bbf5a169bc99bbc9fd0bc9229b23ac2a6b2ebe8697d217bcded": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d567c88a1873d4f1c71c83b703884cbf062e60a1746463090f09a78761b8dcb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意事项：",
+      "translatedText": "Note:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

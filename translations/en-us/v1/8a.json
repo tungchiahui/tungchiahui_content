@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "8a2ba32883f38203dd7815e5e7a924503bc2e607e50ed779c69dd2124de74326": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a5988f3ed5882ccb2e3b3f57d3bba87ef94d10dd44a51e9393f7d4c327e4a41",
+      "contextFingerprint": "a18f4d9e3dbd8ddd645155f7689767da6775ac5198f0b5d6b3f56369b91e5c39",
+      "sourceText": "#### `std::visit` 到底做了什么？",
+      "translatedText": "#### `std::visit` What exactly was done?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "8a329f291880052e88ad1e5136cf8e88f156bd2ae828af6088e3e342379205c2": {
       "normalizationVersion": 1,
       "sourceHash": "a31592207cd209264f6f85dfe19c519790fecd3b3e8f53462e7a3b0c24801147",
@@ -13,6 +27,48 @@
         "inputTokens": 159,
         "outputTokens": 45,
         "costUsd": 0.000102
+      }
+    },
+    "8a3a34fc47459b8f71237e8ec371fb47ea1c515ec1d92e49ea46a1a41b0c1b9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa6fd002ec016157b9c91ded5b28427689a7997e3a722b3729a99c453549638e",
+      "contextFingerprint": "b76b68894d6f2e8e0242c4adcfcac2358d533406e1b740873077bb0a5eb79665",
+      "sourceText": "`print` 只读，所以用 `span<const int>`；`add_offset` 要原地修改，所以用 `span<int>`。这比传 `vector<int>&` 更通用，因为它也可以接收 `array` 和 C 数组。",
+      "translatedText": "`print` read\\-only, so use `span<const int>`;`add_offset` needs to be modified in place, so use `span<int>`\\. This is more general than passing `vector<int>&` because it can also accept `array` and C arrays\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 42,
+        "costUsd": 0.0001
+      }
+    },
+    "8a3c7b57191e645c5dd609e7b214afe7d6d65316b48d3e778ead39c5fa4dff64": {
+      "normalizationVersion": 1,
+      "sourceHash": "61f84020371102f323e774f39822bb531cd528a1dee04f1a906b669dd78b9d38",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是非常常见的做法。",
+      "translatedText": "is a very common practice\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "8a507865afff96ca3964741c8e7aadb7285c903958236a4f2a2cd2f27dded35e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdfb14962488458ab76b8b454a97ec3a493a1a26b703319fc4873416e071a73b",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：对 const 对象用 move**",
+      "translatedText": "**Mistake 2: Using move on const objects**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "8a6113429b156e6580b1ee36b3c75ee13dc630e7d3405d61095094391911f054": {
@@ -43,6 +99,34 @@
         "costUsd": 0.000162
       }
     },
+    "8a660ea38c5cf41984e3bc68d568607b65e304633b7e8064430953878f6decf7": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ec75529f7d5ef73a47ffc0cb74dbcb6057727e2843c33b2f1836266bfecde15",
+      "contextFingerprint": "71d0e1ebddac167aa18383201bf0cd01184fdd5dfbb9d16eeb50bcc2ecd10e57",
+      "sourceText": "**总结：**for_each在实际开发中是最常用遍历算法，需要熟练掌握",
+      "translatedText": "\\*\\*Summary:\\*\\* for_each is the most commonly used traversal algorithm in practical development and must be mastered proficiently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "8a661d06274a79f90bfba9cebe9d68000391fe4e907532a35faf4bbb7c2eab19": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca92b0be98906597b062f0b16fb09619147d085ed466f63965e4dd8afdd71284",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "案例描述：将Person自定义数据类型进行排序，Person中属性有姓名、年龄、身高",
+      "translatedText": "Case description: Sort the custom data type Person, where the attributes in Person include name, age, and height",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "8a695936230102e75fb56bc6bf5c032f3d1752c833a34443e3b2284f1a00ff02": {
       "normalizationVersion": 1,
       "sourceHash": "e9f4f576c62b54005ebd9a8926b728a5abed749f9cf812a287ee2ffbb25d9d6e",
@@ -55,6 +139,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "8a7c0bc191ed6695f6d44de1b5b3cde599c9ac120ff51b7be8dae6570ebe2282": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdb2bee9666cf9a7ae77ddec53f1b78636eaaae78d9f7c65effe0cb1e6a9a009",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### deque大小操作",
+      "translatedText": "#### deque size operations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "8a7d48df7914a16ff07a18ffcb061b9e9c01f8b5d40435ea326d9a3331526830": {
@@ -71,6 +169,20 @@
         "costUsd": 0.000056
       }
     },
+    "8a8a5489327be2b01188cda8c86befcea4a4644a245acc44eeb51f7e8c1afc76": {
+      "normalizationVersion": 1,
+      "sourceHash": "8609d7a67494b251d69ed92386bb89f77ef93fb63981a01f2704ed320d8c28c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常适合处理“不应该频繁发生”的严重错误。",
+      "translatedText": "Exceptions are suitable for handling serious errors that \"should not occur frequently\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "8a91758fe60134d10febacd094f16e1b9246f0d35cd5bb9ee10772ff4ee2e771": {
       "normalizationVersion": 1,
       "sourceHash": "d24a7b64c81ab40fd5acef111347751d960556fea13f30d39241327294c61715",
@@ -83,6 +195,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "8a9cd5c17a6ab3263cc5ba49467f89d0d32c13941b50c10bce9906483045417e": {
+      "normalizationVersion": 1,
+      "sourceHash": "d30bc4055b06cf5cda1d10b9bdc8bdd19285416c61dd017ab24d259d86261768",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但可以写：",
+      "translatedText": "But it can be written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "8a9eab6609d80c33a5e1311c8a53c77b6a2c996220ea91b4b823d6b2dd060c63": {
@@ -111,6 +237,34 @@
         "inputTokens": 153,
         "outputTokens": 33,
         "costUsd": 0.000086
+      }
+    },
+    "8aa76fdcfd4be85d2255ec973951939ba9ccc3129636263213e940bc32caa19a": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b9f9d255c5e5a1c11d38798dd1eb9a3d7af9908f31b6ae036df824b308123a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "取得的就是：",
+      "translatedText": "What is obtained is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "8ac5dc78a8d7cab1fd67d2e95b547d5003b87dae6862b7400e37cf72d5557869": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd495bf2a8e72008eefa648387fb772f3b33b3167c2a559b4b56eada7ae5291b",
+      "contextFingerprint": "9dba07675243b7827e5829105f45dc01dd161f7baabb1d453e066670966de4ff",
+      "sourceText": "无论抛出的异常是什么类型，`catch (...)` 都可以捕获。",
+      "translatedText": "Regardless of the type of exception thrown,`catch (...)` can be caught\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
       }
     },
     "8af3ea1029627f1b93f36bdfd9def9aef903594c73564f2a0cebe4106fbe6bba": {

@@ -43,6 +43,34 @@
         "costUsd": 0
       }
     },
+    "2f4cfb8061f0ece676877d52e19664a8ffa622cb2e8c81a9624ac42f93bd4f97": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b7b63e65c2bb5c347b71ec736526d5a3fb7f25e75d78bdc95e983a787126825",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是显式类型转换，可以简单理解为：",
+      "translatedText": "is explicit type conversion, which can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "2f6e785c30858c18771d6b9eb39dae91b409d1115e71923d40d4c22dcd235b05": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c1efd6479c984592ea445a5e3e64f3c12971c1b59bfb862fcadef5a7a873906",
+      "contextFingerprint": "6a988e35d6eeef1bf61ffeedc608b22bfb387520f86bab9e06b1ebe9f5fc27b1",
+      "sourceText": "C++23 标准库里的 `std::print` / `std::println` 常用两类写法：",
+      "translatedText": "C++ In the standard library, there are `std::print` / `std::println` commonly used in two types of notation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "2f9a5bf57b3296c9b0b03ca83cd3388aa4356fd3ecb863a9fd2d4a9203af7066": {
       "normalizationVersion": 1,
       "sourceHash": "97f368061944d10407090fcfef196b5defdeac22872b0fa388901b7a16a58840",
@@ -71,6 +99,20 @@
         "costUsd": 0.000082
       }
     },
+    "2fd7ff0a96bb336dcaf50dee9babb333141dcc956bc42114667c09b494d8ebee": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cc111d1d4799c5daf8967ccd837ea259bbc6b20e5dd062d5fef7e57e9b66d93",
+      "contextFingerprint": "36485f1976b0cb0eff4e50dab8e904ab51d32a9234d44d3309625ebd1363a589",
+      "sourceText": "正确做法：直接 `return v;`，编译器会自动优化。",
+      "translatedText": "Correct approach: directly `return v;`, the compiler will optimize automatically\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "2fe3a308258c25ecb9bd9f10f031648cfa0b5b92f22d0b60825a7584e4e2dc4c": {
       "normalizationVersion": 1,
       "sourceHash": "68b6b6575c6e10e0413d564760dc9936fbd2afaaf790a9fcfa81516734c0de84",
@@ -83,6 +125,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "2ff54261c260bedce0a18f2b9b1fa4418f4c8bd246f8d0f8f6b55ca4d4944178": {
+      "normalizationVersion": 1,
+      "sourceHash": "589cb8d5c2b9bc47addb08044bbded00f7c4198bc90d2a55f33f16c9d7d0e7bc",
+      "contextFingerprint": "d29b5f3b5ab5579f98c393f70c32330df608a48d1ab2df13c3be935c62597a7e",
+      "sourceText": "* `swap(vec);`  // 将vec与本身的元素互换",
+      "translatedText": "* `swap(vec);`  // Swap vec with its own elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     }
   }

@@ -15,6 +15,62 @@
         "costUsd": 0
       }
     },
+    "f8047c5493232cf4a65c6d2a7984735c334b4a8a1099cfa9fbf639bac5d496aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ea9218dd5f82a3f1d3fca0bc8edba7c8e186195e36d5b6d2bf3bcf83bd0d963",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“原子”表示某个操作在并发观察下不可被拆成一半看到。\n例如一个原子自增不会出现另一个线程只看到“读取完成但写回还没完成”的中间状态。",
+      "translatedText": "\"Atomic\" means that a certain operation cannot be observed as split in half under concurrent observation\\. For example, with an atomic increment, another thread will not see an intermediate state where \"the read has completed but the write\\-back has not yet completed\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 58,
+        "costUsd": 0.000122
+      }
+    },
+    "f8094637195961aa0312a7094eefed40b342fd981c7a65729d48b2005378ad58": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0a5aaf12c82f1c60fd6c1da3fdd5dc3a4d35d63bbfe2993553f0d8205ac92c8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 6：保存回调时要注意捕获生命周期",
+      "translatedText": "### Example 6: Pay attention to capture lifetimes when saving callbacks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "f815ed3a0eb822bcc55be1952cd37e62616d29499f3c2544a32f6586ef311c8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c5aa357aa60d6c0c5669d473103559157e7c5c4b38d6b039ec32867b67208f6",
+      "contextFingerprint": "e241c7ecc57ca84f9b6419695ff0d7a2b4ca87492b09b4b752f92ea78c7660e1",
+      "sourceText": "使用 `weak_ptr` 作为反向指针后，`B.prev` 不参与 `A` 的引用计数，循环所有权被打破，对象便可以正常释放。",
+      "translatedText": "Using `weak_ptr` as a back pointer, `B.prev` does not participate in the reference count of `A`\\. The circular ownership is broken, and the object can be released normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
+    "f81e08c1af3f290725bfa8a7de4e40da0aeb94e7730184c5cab68ec4e4a03c05": {
+      "normalizationVersion": 1,
+      "sourceHash": "caec858b0c499ea7e6fb86fa4a82e486d01902450884322b661a15bdcbb0ad1e",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++17 开始还可以利用类模板参数推导写成：",
+      "translatedText": "C++17 Initially, it can also be written using class template argument deduction as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "f8244e5d44d2f9e284da316e5c7fc3b47451c9e84b2376d3a7ffc7dec2e6d8dd": {
       "normalizationVersion": 1,
       "sourceHash": "77431c4e41b9296d790d2ec02cbb20e094024df5b8f82bbe70d2d2ebfb10f399",
@@ -27,6 +83,90 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "f8394e2e1d8463f9f67443e87035251781c959a5001d3b1f1ae7acce2f32a45a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c72685bbad0e4cc907615607da2e9b690956790c478e785ae69621e201094b5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以直接理解为：",
+      "translatedText": "It can be directly understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "f846e5d599bbab3f3d974ba39a51a68f72b733f3b41e1a0408ffcab5207ec6a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6a2971d1d67887f3d98bebf8d579bc837875a06ac271532cd967bf6e7382950",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此原代码写成：",
+      "translatedText": "Therefore, the original code is written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "f84f49d2c152644639210aa6702a3c3d01e79f8c0ace8fbd1443a9e3c5d4be8b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1c48b7174819615e04e8210f8c714b49ca9e2712141168464603ee6669905b9",
+      "contextFingerprint": "1cc4481292e72c3601b3f56e9ccc76b7477de239a944f55bfe6374d493e7d97d",
+      "sourceText": "> 它永远比 `lock_guard` 更好。",
+      "translatedText": "> It is always better than `lock_guard`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "f85a7254935b37cf41920e8505bc940b4ab2df9d11030eb75f2f773654527700": {
+      "normalizationVersion": 1,
+      "sourceHash": "1991a801a12dc52fe3afface18f3f3d83235d63193a5b8576c489a6a455036c4",
+      "contextFingerprint": "c17566f6a648be131c36661edc5a280e9be514f1f81e48eae07ffb82cfedeea2",
+      "sourceText": "`mutable` 的作用则是允许修改 Lambda 内部按值捕获的副本，它并不会让外部的 `start` 一起变化。",
+      "translatedText": "`mutable` The role of  is to allow modification of the copy captured by value inside the Lambda; it does not cause the external `start` to change together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "f8602f69b3368f364bf147970e4075b70338dc631aa8bf8c7e9e8b4a46fe79fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "56c90835b4ed7ec239490979d77c595c6d9cd2da147373108cc0f43395957648",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等线程 A 离开：",
+      "translatedText": "After thread A leaves:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f86da6f758e244aef88b10e230a87d75349eb1b23c0b02c48309638aa0b64971": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3131c41056c3fbf0bcf6858d3eb14ef7ec747ba897dc232ceabb44728039c28",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是调用：",
+      "translatedText": "Then call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "f87e94b3b97f0154a54196ab80a9616a472055b2a22d087cd9e02260e38c3cf4": {
@@ -57,6 +197,48 @@
         "costUsd": 0.000112
       }
     },
+    "f88bd36ecd60e0e2091a97b90055025430203b69a92f6efd8864f3ffe738b39e": {
+      "normalizationVersion": 1,
+      "sourceHash": "34d5c9fc524de009af78b9f4f089b77788b1d5cd4112127e56691483e48abf03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "首先：",
+      "translatedText": "First:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "f892e3da8fd59880057a10bb1b3cc12df594f29cebdd4903d5a7687c5fe7a20f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c118a4a208328b094ab9cf36ad0f395a41645c34d14e1a0bed655634b053146",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 字符串比较是按字符的ASCII码进行对比",
+      "translatedText": "* String comparison is performed by comparing the ASCII codes of the characters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f8b08af0bf5bc7bb27aebf1b4ee40d814b836fed99aaa8ad53e9dc66134f6b94": {
+      "normalizationVersion": 1,
+      "sourceHash": "53d4a4135558f4d055037427be6c366388e957e26566f56be567c67eae53f5ab",
+      "contextFingerprint": "c1c248b22a00ac0456f020208775f0bf41b190da3c43bb047a7c7326ed7596d9",
+      "sourceText": "### `joinable()`：判断能否 join",
+      "translatedText": "### `joinable()`: Determine whether a join is possible",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "f8d5d782392eb6b3530ff6007c9ff213b4a6e115a7c3665152a19de526e9695f": {
       "normalizationVersion": 1,
       "sourceHash": "ed505d047e1fd29493cadf5f1bd200a9e6c03591c65186f90f38990663d8eaca",
@@ -69,6 +251,34 @@
         "inputTokens": 172,
         "outputTokens": 57,
         "costUsd": 0.00012
+      }
+    },
+    "f8e495e78c82008154a5857f489ad376bdb7a302a167d01c428244d31e8486c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a65c5e8f2845bc39c35f7f37fb61f498cd04dc831561e02034472f6fecb4b9d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 文件输入流对象 可以通过read函数，以二进制方式读数据",
+      "translatedText": "- The file input stream object can read data in binary mode through the read function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "f8ef4f4bd113b4c25ef2abb85f1f1a4790c853c124e8ca0f97ec711a6e9ce766": {
+      "normalizationVersion": 1,
+      "sourceHash": "434828ba721937cbc27ac885601cc7b7b489dd96c308ddc76e744649866f756f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Vector容器嵌套容器",
+      "translatedText": "#### Vector container nesting container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "f8fbfe5fa27cdc98bf8c07cb8031ef6e9b17e1f4e087c50091b86b9692af363a": {

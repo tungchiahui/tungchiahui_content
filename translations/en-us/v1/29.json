@@ -15,6 +15,34 @@
         "costUsd": 0.000114
       }
     },
+    "290abe62e0e92acdbe4ff934354a4f4f9801e414ee8d72ad7d1ef0c81725cdd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "fafa2299c2343c3bc4993f8507bb3f07370345b3173a54cd4c699b2eddc3bda3",
+      "contextFingerprint": "b2665c59690ce7c67b7ea93f2fadf6a920b285dc6224f7c78cff7bf98873225e",
+      "sourceText": "两种写法都会寻找一个能够使用 `a` 来构造 `b` 的构造函数。由于 `a` 的类型是 `Buffer`，所以都会匹配：",
+      "translatedText": "Both forms look for a constructor that can construct `a` using `b`\\. Since the type of `a` is `Buffer` , they both match:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 32,
+        "costUsd": 0.000086
+      }
+    },
+    "293cda3244c1beafc15144708f4b532a85d66c020a4de1fe3ae299ef08813b69": {
+      "normalizationVersion": 1,
+      "sourceHash": "88e34606cc668b802c25cc84e7f4abaf394e7c9927b87a153676fd9748ee9bc6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一共有三种传入方式：",
+      "translatedText": "There are three input methods in total:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "29475da5a66b59195fc46fcec6ca5a7a9ae15fe4b513ff57b41899c14e517ff3": {
       "normalizationVersion": 1,
       "sourceHash": "4a45301334efaa68498a70c9cff0e95b8270eb0b1dad30c2a8a0f1d818d2e0cb",
@@ -43,6 +71,20 @@
         "costUsd": 0
       }
     },
+    "29631b21fc64e940a79fe8726c6be6528129dd0fedbcc35dc9935ad7f6849caa": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa6eca78b4c2c7d0a52ce0f8269fc7e110cd5d89bdab8e635236421008ba6d3d",
+      "contextFingerprint": "2d630fc0c46e8b1bc3a569f41d4018b2cc73f31789edbb61a6085635c576e6d0",
+      "sourceText": "`++counter` 并不等于“天然不可分割的一条操作”。它通常包含读取、计算和写回。多个线程交错执行时就可能丢失更新。",
+      "translatedText": "`++counter` is not equivalent to \"a naturally indivisible single operation\\.\" It usually includes reading, computing, and writing back\\. When multiple threads execute interleaved, updates may be lost\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
     "296df35aca538afeab9a87a07209e7b3c96938d661219698f8dda040e65ecb45": {
       "normalizationVersion": 1,
       "sourceHash": "bc1ed1dbe5a569ce816d5787626ed3cb696afb76730c87bc221929b921b8869c",
@@ -55,6 +97,34 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "299744b4bd37ea79d20bfafc0e0f8ce9df0f8d775c5cbbb106afa7bb30459ca6": {
+      "normalizationVersion": 1,
+      "sourceHash": "603df91bb528182287b7436f00ea3edf1e8c7518dd5921fee0839942fc0af73b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### string容器",
+      "translatedText": "### string container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "29af71c71eb1b554e053d58d4ed20c64c924800c4b92e372ec829ca88427764d": {
+      "normalizationVersion": 1,
+      "sourceHash": "64626961c2765e24308336392643485dfcd13dd8e5683387236f1bd022ed765c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此一个很实用的原则是：",
+      "translatedText": "Therefore, a very practical principle is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "29b7b035dbb40f6e8fbd47f7d4df56bbdce9ef4fabd7699945ffaa21afdc20c0": {
@@ -71,6 +141,34 @@
         "costUsd": 0.000052
       }
     },
+    "29d0200178d6ae60ae933a0fc8819233ee38f7ce5c745846ac456e5897f244e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "e564488477e459ce3af5afa98c1c09df9a77c53d4aef6947e1cd74adfc59ff14",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 掌握set和multiset的区别",
+      "translatedText": "* Master the difference between set and multiset",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "29d380c3a6cacb0801d03cf387d2202e370c97ca5f17cdf0e6bf569469a5caf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee0e4cd7916ed74acd0195b23b5ae41c2c0f0e202c96d5fbe4290948127b13e8",
+      "contextFingerprint": "de20723a79b58358f418fd8d8734a866cad97c7e74dc95559479cdd9efa84638",
+      "sourceText": "现代 C++ 中，很多 `bind` 场景可以用 Lambda 写得更清楚。不过 `std::bind` 在旧项目、ROS2 示例、Boost.Asio 回调、成员函数适配中仍然经常出现，值得掌握。",
+      "translatedText": "In modern C++, many `bind` scenarios can be written more clearly with Lambda\\. However, `std::bind` it still frequently appears in legacy projects, ROS2 examples, Boost.Asio callbacks, and member function adaptation, so it is worth mastering\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 77,
+        "costUsd": 0.000152
+      }
+    },
     "29ddacade79d75d7efcc8e101160a553dae9e670b95689108dea074b01da0635": {
       "normalizationVersion": 1,
       "sourceHash": "3e7f1d1ac294b875478d80bd95b9378da1451b150392da4db429279b068bd819",
@@ -85,6 +183,20 @@
         "costUsd": 0.000051
       }
     },
+    "29de14f52e8f24433bb8a82d86e24bbe3aacd83e8cc2576a6c583f84880fb485": {
+      "normalizationVersion": 1,
+      "sourceHash": "94612c496e0f6e5c6e4f7665151a4befbfe04cb6eca205d402065b5163b98708",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是这里需要针对不同类型执行完全不同的逻辑：",
+      "translatedText": "However, here completely different logic needs to be executed for different types:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "29e899489df13a7e495b822733c92cb12cc82fd128359a682e30baf95db267a0": {
       "normalizationVersion": 1,
       "sourceHash": "c8b2e7a8be6558c926bd6eb733910930ee3ff4e20e1a8a10e4e9d9538d4645da",
@@ -97,6 +209,34 @@
         "inputTokens": 171,
         "outputTokens": 56,
         "costUsd": 0.000119
+      }
+    },
+    "29ed06b5608c384ddf4aadbc5d066a12768a4af72bfed1ddd63277e327552607": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fe7375bdd99b77b88145deaeef2dd876e490f72aba4a1f29fcea54ad4922a64",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的前提是：",
+      "translatedText": "The premise is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "29eeb7aae2c1672cc50fd1bb62e97647fc59680d0731f3380ffdd4bf4804fa32": {
+      "normalizationVersion": 1,
+      "sourceHash": "45ba8dee267680078e050021dcdbeab844c23d218ccf5aa6df746432b6e97486",
+      "contextFingerprint": "ef62bb8658f19941a949aa0a1c5518c729b7650c780139b371768b6aaf9bffa3",
+      "sourceText": "* `template<class T> T plus<T>`                //加法仿函数\n* `template<class T> T minus<T>`              //减法仿函数\n* `template<class T> T multiplies<T>`    //乘法仿函数\n* `template<class T> T divides<T>`         //除法仿函数\n* `template<class T> T modulus<T>`         //取模仿函数\n* `template<class T> T negate<T>`           //取反仿函数",
+      "translatedText": "* `template<class T> T plus<T>`                // Addition functor\n* `template<class T> T minus<T>`              // Subtraction functor\n* `template<class T> T multiplies<T>`    // Multiplication functor\n* `template<class T> T divides<T>`         // Division functor\n* `template<class T> T modulus<T>`         // Modulus functor\n* `template<class T> T negate<T>`           // Negation functor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 44,
+        "costUsd": 0.000103
       }
     }
   }

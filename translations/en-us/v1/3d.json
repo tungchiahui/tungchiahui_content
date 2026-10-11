@@ -29,6 +29,20 @@
         "costUsd": 0.000146
       }
     },
+    "3d24248efaa21a128ba2dad54e512a6777bbf2a11821afa0536669428c6f4b3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f57901224e27406ec32d67a4626bd1eee2212c6b6a3b8c0713e2a64d2f8d0efe",
+      "contextFingerprint": "1db0bd1176bfa67e55ccf0fdb9e51f048e22c85eea1a7728fc7469e5827767fe",
+      "sourceText": "#### 为什么连续调用 `counter()` 会继续累加？",
+      "translatedText": "#### Why does calling `counter()` consecutively continue to accumulate?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "3d2aea4facf8bbcba3010fbb8d8e6388cff9883981216f55195ac32f05d64dd8": {
       "normalizationVersion": 1,
       "sourceHash": "4c9e3210e2ee9c081befab06291a2d6e1c8d6259400e75ab7c533683e323c54f",
@@ -85,6 +99,20 @@
         "costUsd": 0.000195
       }
     },
+    "3d47c2dd5a270407688c3da2d1a2243798deefa394000dfe0ffe7f5b7a667a98": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c3cce1cb91e49853f84ea0f8ff5e4a98417c3616a5002eef436879cdb2cbfb8",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常见错误",
+      "translatedText": "## Common Errors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "3d640e1640a5d973ac54533cb5cf6aa7c3225de18610c80513814e215b4fe729": {
       "normalizationVersion": 1,
       "sourceHash": "8f36a554fbdaaa626502b6ab03662ba27b45d77b2e777aa07ec47881149d4f2d",
@@ -97,6 +125,34 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "3d66c37a8e60a4474be1c34053102243cbb42395dcd9ffbc355c3419f481bed1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e5d974127079f3b1463113dbffd2fc13bf709d30f4f600846e9a8c5934df117",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "typename  --- 表面其后面的符号是一种数据类型，可以用class代替",
+      "translatedText": "typename  \\-\\-\\- The symbol following it indicates a data type; it can be replaced by class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "3d759d810081f224683be795d349471d46a4a049fe7e41afa99feab16e965658": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ac414fc065829e70728cded38d0eac49c6e14ee054e5e2433e7b6ea80163fe5",
+      "contextFingerprint": "f69f72e4eddc85dd09a450b0a12bba96a0faff4ad3ccd208bcdb62132215ad69",
+      "sourceText": "- RAII = 资源获取即初始化，是 C++ 最核心的资源管理惯用法。\n- 构造时获取资源，析构时释放资源，离开作用域保证释放。\n- `std::unique_ptr`、`std::lock_guard`、`std::fstream` 都是 RAII。\n- 多个 `return`、异常、复杂分支下，RAII 的价值最明显。\n- 永远不要在析构函数中抛异常。\n- 理解了 RAII，就为理解智能指针和并发编程打好了基础。",
+      "translatedText": "- RAII = Resource Acquisition Is Initialization, and is the most core resource management idiom in C++\\.\n- Acquire the resource during construction, release the resource during destruction, and ensure release when leaving the scope\\.\n- `std::unique_ptr`and`std::lock_guard`and`std::fstream` are all RAII\\.\n- Multiple `return`and under exceptions and complex branches, the value of RAII is most obvious\\.\n- Never throw exceptions from a destructor\\.\n- Once you understand RAII, you have laid a solid foundation for understanding smart pointers and concurrent programming\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 116,
+        "costUsd": 0.000208
       }
     },
     "3d76bed9c9fa1c2a83c363d0494b65be02656a86bada7174e11f8e322d7885f8": {
@@ -127,6 +183,34 @@
         "costUsd": 0.000091
       }
     },
+    "3d999b7f4b10c2d5f8f88c4b01100b7e2e945e95ba07987093e5d49e7e30225a": {
+      "normalizationVersion": 1,
+      "sourceHash": "26c9fee14dd8ba0c4bd9fb63cbd07ce021603245d58bd5b4dd2f48b23e3cca1f",
+      "contextFingerprint": "a25222ea34810d99144410439b7811e29f7fbd279a6ba4d65df97109a6d00b18",
+      "sourceText": "| 算法 | 规则返回 `true` 后的行为 |\n|:---|:---|\n| `count_if` | 计数加一，然后继续检查后面的元素 |\n| `find_if` | 已经找到，立即停止并返回当前位置 |",
+      "translatedText": "| Algorithm | Returned by rule `true` behavior after |\n|:---|:---|\n| `count_if` | Increment the count by one, then continue checking the following elements |\n| `find_if` | Already found; stop immediately and return the current position |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "3da06933db001ff6536f6b4f79648b7cf88c1e02e525bbc4170d22cba87d94e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "af59867bd5af68e078350151d2512b04dbd9fe4fc0ca95d624256376b40f2fdf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有些时候，我们并不想：",
+      "translatedText": "Sometimes, we do not want to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "3da598465b43666e394512280cb801abf6926d25e91ce84631bc4c1d744b8e59": {
       "normalizationVersion": 1,
       "sourceHash": "e863169c979961aae4c46ce8c1ce7960956915d57642dbf030119b64511df08e",
@@ -155,6 +239,20 @@
         "costUsd": 0.000073
       }
     },
+    "3dabb022202b18c4b28a10fea54aa530291cc412b8b9b3bbe8927e34f1a85168": {
+      "normalizationVersion": 1,
+      "sourceHash": "1cd856a0bebdf3679fb524557e320848a57173b8bb7cea9e0e3321c08c1206c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此最后输出的是：",
+      "translatedText": "Therefore, the final output is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "3db8d09317987722677fcd8a5dbd6d3e9f0c5ea2be628dc354aab48bb28efef4": {
       "normalizationVersion": 1,
       "sourceHash": "b01648d2a5aaec4f7670cef77a75e1d7ca4f1ac9066fa9980c66e8a8fedab252",
@@ -181,6 +279,62 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "3dc529a5f69b21bab0e98d4906b31d56bc46ac1d3a8623ab58c8b8b28a8b9a36": {
+      "normalizationVersion": 1,
+      "sourceHash": "d1a0117bc1907fbb8d91f62708d7491366df617a1c757f0d07bd4f03815bb4aa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最基础的三个操作：",
+      "translatedText": "The three most basic operations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "3dda92954de87dd030b45e75fc246ac25497d256d14e5e4d466bc0e439cf49ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "98a97239e789f8625c8bebbb50e8b2da0e9397d2af55709888b8a14fc9e5cc55",
+      "contextFingerprint": "ef9d48202149701afbb840fc4471e978ea1837ea7bebf6cd40455dfb51b529ff",
+      "sourceText": "> `std::atomic` 保证原子语义，不等于保证底层实现一定 lock-free。",
+      "translatedText": "> `std::atomic` Guaranteeing atomic semantics does not mean guaranteeing that the underlying implementation must necessarily lock-free\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "3ddaf68f06e13addab25761efe0c44278d7e4a9a2718d18fc338ec6d5da4ff6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "85313b46b3d32a6853ee6ab310d02c35d992eded82a8cc69873e8c35e9bc2716",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "标准异常类型已经能解决大多数问题。",
+      "translatedText": "Standard exception types are already sufficient to solve most problems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3de4d0e824a949691f04c22dc4c14b42c6a5eeff22e80b5ceef423882b857c94": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae94431e633fc6c97470f88f4b67756651324d5579ec9daa98e14e3bac9d70b6",
+      "contextFingerprint": "90fde6d18269d6b03700f417705240157f28274f41aad0f2d05f157f2686e95c",
+      "sourceText": "1. 类模板没有自动类型推导的使用方式\n2. 类模板在模板参数列表中可以有默认参数",
+      "translatedText": "1. Class templates have no usage form with automatic type deduction\\.\n2. Class templates can have default parameters in the template parameter list\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "3df5fe7386d8bda78de058ce056bdc3f45f90c1ae7f60f56b090946aed61642c": {

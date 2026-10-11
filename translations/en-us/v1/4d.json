@@ -29,6 +29,48 @@
         "costUsd": 0.000185
       }
     },
+    "4d2d2fedd29697a8d5af35d228297ad24acabe9ba071e662593bd3fdd41bd195": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7218d0d7c58dc3ec6e997c7c7c4daa683808d40eb0b3227734b712dbdac799b",
+      "contextFingerprint": "16283687784db50863c4c7f9228ae253f327ad569b4c71981fb0b2ff61de781e",
+      "sourceText": "函数指针可以放进 `if` 条件中检查：非空指针转换为 `true`，空指针转换为 `false`。**调用空函数指针会产生未定义行为**，因此可能为空时必须先检查。",
+      "translatedText": "Function pointers can be placed in `if` conditional checks: a non\\-null pointer converts to `true`, and a null pointer converts to `false`\\.**Calling a null function pointer causes undefined behavior**; therefore, it must be checked first when it may be null\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 58,
+        "costUsd": 0.00012
+      }
+    },
+    "4d359307fd696ed85c2c77f83f371d6c8f4b8baf3d2072c0586ab741a1a896b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e0c4137add84e36a1cf2d8f3daed8b34c6b90b1970cca230edf80645311a470",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 为什么普通变量不够",
+      "translatedText": "### Why ordinary variables are not enough",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "4d41bfffdff4d7d31c55ac8699a966baa970809ac0d404756d5a6136dc8d5414": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ed1dcd71f98017f1fc1e1ab8f37b162181bd801ce1f401b64ac3a7abdf7bef6",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：遍历时用下标访问另一个容器**",
+      "translatedText": "**Error 3: Accessing Another Container by Index During Iteration**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "4d55433feb34e41934090fd5264a1b018bfd758015e69e8b5caa9fbed0c13368": {
       "normalizationVersion": 1,
       "sourceHash": "bd6464963d9ad9d2b1413782fe86aa7b40bdc24d2bbaa8aaa2cfad6f57faff5c",
@@ -41,6 +83,20 @@
         "inputTokens": 136,
         "outputTokens": 19,
         "costUsd": 0.000064
+      }
+    },
+    "4d5e33fcbe01e66da96badc73f4aa068904f5eaa38b30f71ba149f2d6b68a6aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bec3ee4ea8726548363006b211562518e3ada2fe710f39a97f4b2b99757d6e1",
+      "contextFingerprint": "a8ae7d86836ee7fd4b01afdacbf65554305aac9a6fb2c2bd66a21f4f3bfafc86",
+      "sourceText": "* `template<class T> bool equal_to<T>`                    //等于\n* `template<class T> bool not_equal_to<T>`            //不等于\n* `template<class T> bool greater<T>`                      //大于\n* `template<class T> bool greater_equal<T>`          //大于等于\n* `template<class T> bool less<T>`                           //小于\n* `template<class T> bool less_equal<T>`               //小于等于",
+      "translatedText": "* `template<class T> bool equal_to<T>`                    //Equal to\n* `template<class T> bool not_equal_to<T>`            //Not equal to\n* `template<class T> bool greater<T>`                      //Greater than\n* `template<class T> bool greater_equal<T>`          //Greater than or equal to\n* `template<class T> bool less<T>`                           //Less than\n* `template<class T> bool less_equal<T>`               //Less than or equal to",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 43,
+        "costUsd": 0.000098
       }
     },
     "4d65a5f82b32b4e04f430141c02e83ed0ec2d815ecddc345032209a057b1a2b4": {
@@ -57,6 +113,34 @@
         "costUsd": 0.00006
       }
     },
+    "4d66a1f1e2c9cefccbc7fc6473514fdf55070894f48b60db5c50636dfdc1b578": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e585a430ccfaa5a598ca75dc669c0e971f81d03053e288035f212819354f962",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以",
+      "translatedText": "Therefore",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "4d76be9f06452a5ab46ca7248f31ef47c429a66aac027e711514771c8fc7d549": {
+      "normalizationVersion": 1,
+      "sourceHash": "25b25282038be1664516399ea0c91d6a2467dec2543510874d2e24fc729ae884",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list 数据存取",
+      "translatedText": "#### list data access",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "4d76f738d0fabf6911b381085feed4b715065b78308e684f7ac4b388cf3f18ed": {
       "normalizationVersion": 1,
       "sourceHash": "2868775d2cf4709c5cd9adec697a2329712ec497c5412140c9d73523cd16d9dd",
@@ -69,6 +153,62 @@
         "inputTokens": 151,
         "outputTokens": 30,
         "costUsd": 0.000082
+      }
+    },
+    "4d7f07578862777220d97da2339abe2b158d1af4934d71c6eea1341583f83489": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a8d8341281b41e16f6e6499f332a6fe14909f0319e6faa5668e46e7687b4e3f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，格式控制和对齐",
+      "translatedText": "### Example 2: Based on Example 1, format control and alignment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "4d82fe900ab20ec62ae173b5528a4de397716e70744301a15637a6463f21dea2": {
+      "normalizationVersion": 1,
+      "sourceHash": "4638a447bda0dd75387ee1532643b3830a18c159c5dc19a5ca12412022978d2a",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 利用算法实现对deque容器进行排序",
+      "translatedText": "* Use an algorithm to sort the deque container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "4da199e4dac8e567978ef19c234f9471e6fd0b797569d565a8b283294a2ace8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "92475255eb7b9fdbb70df068e635677a78d31c71d825962f9872ec3f7bc81e4d",
+      "contextFingerprint": "6c222af58ca768135cb2f8585b6d28c0ffd16de54c0282c172250181aecb7017",
+      "sourceText": "**总结：**按值统计用count，按条件统计用count_if",
+      "translatedText": "\\*\\*Summary:\\*\\* Use count for statistics by value, and use count_if for statistics by condition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "4da2eea381e5ffe8ec005ec30c2ba86c6962df9a3e66b1778831fa9dc8c2a1f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1492008111b1ecc416b43d4791cb81da576f6dbf94aa37fdce2a4d6db12ac8a",
+      "contextFingerprint": "dc0064b387bfe0990d7b732c71606300e5aceccea6d86b7958d0597f44554697",
+      "sourceText": "正确做法：普通函数参数不能用 `auto`（C++20 允许，但那是模板语法）。",
+      "translatedText": "Correct approach: ordinary function parameters cannot use `auto`(C++20 is allowed, but that is template syntax)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 37,
+        "costUsd": 0.000092
       }
     },
     "4db96b863ac7f31e870dac4a23391a35575591176c4416357abe51b8bfcad28a": {
@@ -111,6 +251,34 @@
         "inputTokens": 131,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "4dea63825212721d347d80ea6e3237760621dd7c4f7309b549d94b7524d2adf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7998a5e833cf82c277aac93ab7ab4b838582027980d4a138df637a912db27e2",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### stack 基本概念",
+      "translatedText": "#### Basic concepts of stack",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "4df884877b93cd85b05475cd2fd98b314a3586e666f0677753bcd16a42dac128": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ea3686e0fa4608043f711610f9faeee51e3ee7ea42182c335079dcf8c932312",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常与析构函数",
+      "translatedText": "### Exceptions and destructors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

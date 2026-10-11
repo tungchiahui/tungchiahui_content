@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "591214360fe05451e6cd53607f198d9ad489d079d48bcb622acf0f3027d2f352": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8497f6b8f3e45046623935742df2be0f4fef5514f6b3f4a543f54aea1a02337",
+      "contextFingerprint": "bd7e78e5585f53ab91d245c710a8760347054a013b5f607b7e94534b4a35c793",
+      "sourceText": "#### `scoped_lock` 也可以管理一把锁",
+      "translatedText": "#### `scoped_lock` You can also manage a single lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "591e6a0112de5bc8c6d433402479202b5d9d4004a7642bfd4e22d39a33be8167": {
       "normalizationVersion": 1,
       "sourceHash": "a552a139989b1357dcf535cf08b4ba1267630f7c3eb2d9be2f327d542f5d4bd6",
@@ -13,6 +27,20 @@
         "inputTokens": 188,
         "outputTokens": 67,
         "costUsd": 0.000137
+      }
+    },
+    "5930bead6b2049ebacf3d808d657ed026006ff000933d47f92524b05f6beed63": {
+      "normalizationVersion": 1,
+      "sourceHash": "33201ae54105f29f258847b1bf1a5ff4a7cf868f2d001043ffb8eaa28dfa2793",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：利用仿函数可以指定set容器的排序规则",
+      "translatedText": "Summary: Functors can be used to specify the sorting rule of the set container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "593cfba50ed1ffcde14d9a2756e73819894f91c9d80c719ce3710ebfc1155f02": {
@@ -43,6 +71,34 @@
         "costUsd": 0.000056
       }
     },
+    "5946e268d81130c83fb6f208d535f6e529585b3a14ed6887f3824be4881a5b19": {
+      "normalizationVersion": 1,
+      "sourceHash": "8685bf8c6523709a51b452aa79d082c5970111fb01d2001a5453f6e2d837866c",
+      "contextFingerprint": "5cd47e2531177786367e5255032a82e07e235459eb641111d92b4127c301b88b",
+      "sourceText": "| 智能指针 | 所有权含义 | 典型场景 |\n|:---|:---|:---|\n| `std::unique_ptr<T>` | 独占所有权 | 默认选择，一个对象只有一个拥有者 |\n| `std::shared_ptr<T>` | 共享所有权 | 对象确实需要多个拥有者共同延长生命周期 |\n| `std::weak_ptr<T>` | 弱引用，不拥有 | 观察 `shared_ptr` 管理的对象，常用于打破循环引用 |",
+      "translatedText": "| Smart pointers | Ownership semantics | Typical scenarios |\n|:---|:---|:---|\n| `std::unique_ptr<T>` | Exclusive ownership | Default choice; an object has only one owner |\n| `std::shared_ptr<T>` | Shared ownership | The object genuinely needs multiple owners to jointly extend its lifetime |\n| `std::weak_ptr<T>` | Weak reference, non\\-owning | Observe the object managed by `shared_ptr`, commonly used to break cyclic references |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 69,
+        "costUsd": 0.000137
+      }
+    },
+    "597e094b7d513e5ceacb97121c029a8250a594583cfcbef263cfeaa3d5b972b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "40f857d59d95afb2ed4db50b024efd7018764ec6c98f7a201709277d91f3e002",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于本例，这两种写法的效果相同。",
+      "translatedText": "For this example, the two notations have the same effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "597e52dbeb911105ee0bd06814fa95bbd279f73b31f7021fc028304c6ffaca1b": {
       "normalizationVersion": 1,
       "sourceHash": "143f55fe52ba4a5af0074fb8d9f5be096fbadf850ff15d7a0c693d2480ece95c",
@@ -55,6 +111,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "598646d17d16e56ef17a42f757044de364267727220aaf1488c18261ea671867": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a710cf8f7202b9f8f5d72759af3aa1f48f00c8e42c34214c08e2d5649b06b53",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++20 提供了：",
+      "translatedText": "C++20 provides:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "599e17c45f719aafad019e78932a4ad50fe0073745e615d8beb19d5342075097": {
@@ -97,6 +167,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "59fc25d3e5bb2c709a621d20e0d978d7de4037ce672022650a4c2e57467f986d": {
+      "normalizationVersion": 1,
+      "sourceHash": "dea7a092b4783acb364fc2d9890f419992366da349193c2a89fed42ed79f49af",
+      "contextFingerprint": "18a4d36eccdbfa7683cb2d7502c3d693e576c8de16dbdc930b69c8d64c0e0817",
+      "sourceText": "- `find_if(iterator beg, iterator end, _Pred);  `\n\n  // 按值查找元素，找到返回指定位置迭代器，找不到返回结束迭代器位置\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // _Pred 函数或者谓词（返回bool类型的仿函数）",
+      "translatedText": "- `find_if(iterator beg, iterator end, _Pred);  `\n\n  // Find element by value; if found, return an iterator to the specified position; if not found, return the end iterator\n\n  // beg: begin iterator\n\n  // end: end iterator\n\n  // \\_Pred: function or predicate (a functor that returns bool)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
+    "59fd59b2cbd78735516503ae84ece94319062a9045ba24730dd536e079539f1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3272d936345f71e2e695a396ee9054a9451ef07920ceb2e5b33e58abc20af7b1",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对vector中的数据的存取操作",
+      "translatedText": "* Access operations on data in vector",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

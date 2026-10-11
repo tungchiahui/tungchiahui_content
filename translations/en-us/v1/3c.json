@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "3c1ff7bf8ee6982321a276e064fa4ebe172054f3cfd64e84bf0ca5ac2dd15548": {
+      "normalizationVersion": 1,
+      "sourceHash": "03ed7dbe3d1e3635f9613ceb2e7415ed601bbd31a2a9d429e945439968e7126c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见原子读改写操作包括：",
+      "translatedText": "Common atomic read\\-modify\\-write operations include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "3c2367ab7d6ce2ca48cd861c55e5a9a248738131e9cd6460a63b384957079bfc": {
       "normalizationVersion": 1,
       "sourceHash": "a995186eb795147f19eff79a3e74150c552782fee74ea4e029e4c43612e52430",
@@ -43,6 +57,20 @@
         "costUsd": 0.000124
       }
     },
+    "3c31b4a6bd2ccc986ec08e3b6c3b2b051fd6418a514cdec1919cd8639ba3ec13": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d18a3d984bec86518f6b89eb5facfc94cd704fb023f4abec0b4387ae3160666",
+      "contextFingerprint": "161e9271c3d952c71baf1deb7cc242705d5be872e1aa2d0b97e5e9c2cd19f40c",
+      "sourceText": "`std::variant<T1, T2, ...>` 是 C++17 引入的类型安全的联合体。在同一时刻，它只存储其中一种类型的值。访问时编译器会帮你检查，不会出现\"访问了错误类型\"的问题。",
+      "translatedText": "`std::variant<T1, T2, ...>` is a type\\-safe union introduced in C++17\\. At any given time, it stores the value of only one of its types\\. When accessed, the compiler will check for you, so the problem of \"accessing the wrong type\" does not occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 66,
+        "costUsd": 0.000133
+      }
+    },
     "3c34721e0df9ce34b0e6e77132f3e9227127879773538852941b275a09fb9a6d": {
       "normalizationVersion": 1,
       "sourceHash": "0141ad75fa7dc1b01339e5f3c18e1f17d75e19a64686c664fc3277aa26107e46",
@@ -55,6 +83,20 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "3c51fcd83e3773b0f3e24acb5ac79201619bf58d4d1cf1ba08d744baf4c14434": {
+      "normalizationVersion": 1,
+      "sourceHash": "16bd70a84d4857122e6d473eb3c4f2e6c6e141935b0f5f5293c60f3d79abe297",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "结构化绑定让你可以**一行语句把复合类型（pair、tuple、结构体）分解成独立的变量**，代码清晰很多。",
+      "translatedText": "Structured bindings let you**destructure a composite type (pair, tuple, struct) into separate variables in a single statement**—much clearer code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
       }
     },
     "3c62c6ea749e8139e3b3af6469f15bed09407c311e03ea8e7239bca98ba479bb": {
@@ -85,6 +127,62 @@
         "costUsd": 0.000064
       }
     },
+    "3c697c7dc1133f354d24f40bc54e3054df9092502d6880eb04816ff6b0c4bb86": {
+      "normalizationVersion": 1,
+      "sourceHash": "3675aa95e0a2ecda2dc89e16bd33b4e3588ddde3d02a35b152a9e4e34850dfa2",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板中成员函数创建时机",
+      "translatedText": "#### Timing of member function instantiation in class templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3c69dd2f820178191a39bd66fea93e6a79c9638e026bed23b938e1f6d251f0ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "22793b173b8253e83c3c6036ea84b7bc6907db86c506ce79a4f07ca5e39ee6ae",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 如果确实找到了元素，再使用它。",
+      "translatedText": "> If the element is indeed found, then use it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "3c71b4a00e8a9a220516a43afac275a20d761104d838a12b9dbf574cd363be4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "fda59c277f7b75044216ef2b76f2fea3ca96bed5d15f8c456a85d087e94d9adc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里第一个参数就是一个 Lambda。",
+      "translatedText": "Here the first parameter is a Lambda\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "3c7599ed60ff9a24ca92b7ba86cd411bb5913f20eca11dc575e389ad9179d42b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a15e9c21327b181256a4904b0bc7cc422c83be9e322cf1bcf056e72b576a34c1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但我们希望：",
+      "translatedText": "But we hope:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "3c7b8f604dde66ca06856c85f528ca0538f9eabb53c40165bd5b3c37ecee79ff": {
       "normalizationVersion": 1,
       "sourceHash": "3b0be3b0f8940c58c56b7218693e2bf50665911a5e9795a8b7215de7504e8b40",
@@ -97,6 +195,62 @@
         "inputTokens": 138,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "3ca3e368c9bdba02ec0a51f86376b96a02c5656b619cd36e60330ef123a59ee0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7c50716ada93ae2c04db6be6c66d912c6e8bd10a8453101f811023871cd37fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：先收集到新容器，循环结束后统一操作，或者用传统迭代器循环。",
+      "translatedText": "Correct approach: first collect into a new container, and after the loop ends perform the operation uniformly, or use a traditional iterator loop\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "3caa7aff7161a6caedbf0e6f59a919f97f704ad872f8bd1adda5b7aa21670dcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "e740f9da13b2239df914e3c9761c2e72b917d7d95ac8b88c02b23c130cb63af2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行成功以后：",
+      "translatedText": "After successful execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "3cafd1597dd5ba565bea637b18505b6689ed8a9120ecfba68f7e791b96a91a62": {
+      "normalizationVersion": 1,
+      "sourceHash": "2852e92efa8adca55ac03a5c65531cb40df045b11fd6e6b5a14ecbf51d1ac86d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：在示例 3 基础上，using 别名不是新类型",
+      "translatedText": "### Example 4: Building on Example 3, a using alias is not a new type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "3cc212776237bb1a0a3d639168f12e95efbf8758086b282f4477c1d5db4725ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "191b53cd3df1ce622ec22173aee6a8f28f9faad5bec18849169b5cf528488d30",
+      "contextFingerprint": "319850d964c6199f6a1c90394bf913804cf27f80d4f2a63255c3f640d63f424b",
+      "sourceText": "`std::bind` 保存普通参数时默认拷贝。如果你要绑定引用，必须显式使用 `std::ref` 或 `std::cref`。",
+      "translatedText": "`std::bind` When saving ordinary parameters, they are copied by default\\. If you want to bind a reference, you must explicitly use `std::ref` or `std::cref`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "3cdd036c2516a2b1ba5f7a63808f6d503c6620fce4e36c9d783646fda3f6d857": {
@@ -139,6 +293,20 @@
         "inputTokens": 144,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "3cfa630f0df9f33b5c952d5397dc714438759365cd222fe5654ebcb0bbf1f8fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "417da4ada67fd7d33823db58fb72678a0061caa9c3e67e52c5d010f88f75d922",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：move 后不要再使用源对象，或者先检查是否为空。",
+      "translatedText": "Correct approach: after move, do not use the source object again, or check whether it is null first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     }
   }

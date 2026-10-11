@@ -43,6 +43,20 @@
         "costUsd": 0.00005
       }
     },
+    "9131297ee10dd283be1ccb2c30f369f34ec59bd9fcd4520ec4f2067af63360c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fe7c5db53ee23f584f6e34f6e2635125fb1fd82481c59782ad615c31512b3a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**利用fill可以将容器区间内元素填充为 指定的值",
+      "translatedText": "\\*\\*Summary:\\*\\* fill can be used to fill the elements within a container range with a specified value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "914a1fbcf6307ec05e28f8e4e7afa71b5c3a1907aeaa089b9bd5020e072ffb0d": {
       "normalizationVersion": 1,
       "sourceHash": "bc56fa551dff30d4f61893cd79088e9bda30d3d17932c15761f741e093cd90bc",
@@ -55,6 +69,20 @@
         "inputTokens": 141,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "914cd08a724b5821746a87a43e556c65d25de7d36e6545f6be0a765ff0fd29c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8fd493c5f77674c93679b655e6688d3159a090ad20a00531faeaa2b2c32b361",
+      "contextFingerprint": "588863f44e9febd6de99341675b1f1c9e9320039f58df3ad3a67bbabad0c3c6f",
+      "sourceText": "正确做法：需要强制编译期时，把结果放进 `constexpr` 变量、`static_assert`、模板参数中；C++20 起也可以使用 `consteval` 函数。",
+      "translatedText": "Correct approach: when forced compile\\-time evaluation is required, put the result into a `constexpr` variable, `static_assert`, or template parameter; starting from C++20, the `consteval` function can also be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 53,
+        "costUsd": 0.000115
       }
     },
     "914d86b6c69dac3c0ffca98bac77819fab468c1bfcab0e6882ece157769f94a9": {
@@ -85,6 +113,48 @@
         "costUsd": 0.000076
       }
     },
+    "91823ac20f7d29f6941adb59da77ecbcd8905a3af8ce1b4c8bf47b13f957b4b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "9339ee998c088c00b2ebf5ff6dd56d3085d42f9b23a39b2d793f330d7eae881f",
+      "contextFingerprint": "089c1ad62929b5ccd84aa449a92eb8f4a289ecb6416965e17f4c580683a5633e",
+      "sourceText": "1. **C++20 项目用 `std::format` 代替 `stringstream` 和 `sprintf`**：代码简洁、类型安全、性能高。\n2. **C++23 项目用 `std::print`/`std::println` 简化格式化输出**：默认输出到 `stdout`，也可以传 `stderr`。\n3. **格式说明符和 Python 很像**：如果你熟悉 Python 的格式化语法，上手很快。\n4. **如果你的编译器还不支持 C++20/23**，可以使用 `{fmt}` 库（https://github.com/fmtlib/fmt），它是标准化的基础。",
+      "translatedText": "1. **C++20 uses `std::format` to replace `stringstream` and `sprintf`**: concise code, type safety, and high performance\\.\n2. **C++23 uses `std::print`/`std::println` to simplify formatted output**: by default it outputs to `stdout`, and you can also pass `stderr`\\.\n3. **The format specifiers are very similar to Python**: if you are familiar with Python's formatting syntax, you'll get up to speed quickly\\.\n4. **If your compiler does not yet support C++20/23**, you can use the `{fmt}` library (https://github.com/fmtlib/fmt），它是标准化的基础。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 250,
+        "outputTokens": 143,
+        "costUsd": 0.000247
+      }
+    },
+    "9195ef8a8b3c00339e3444473086d61717408d6797f01f5dff5fad00d1bf9ae1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9431a29d971ab4f6d3d408b8ba00dc8cf21c0a07e369ca710f88ab1f75bb719a",
+      "contextFingerprint": "d843ad80ecebd22e27ff066202e3751c70e12afd50c22b2a9dff18cd1ca4629a",
+      "sourceText": "`auto` 最容易被误解的地方是：它不是\"自动变成你想要的类型\"，而是按固定规则推导。尤其遇到引用、`const`、函数返回值时，要主动写清楚你的意图。",
+      "translatedText": "`auto`The most easily misunderstood point is: it does not \"automatically become the type you want,\" but rather infers according to fixed rules\\. This is especially true when encountering references,`const`or function return values, you should proactively write your intent clearly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    },
+    "91a2d39fcc1abdfb7ade7939bdeb96f708129e67e3d54c09fa21343fb343ce0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e78fa3226843109de3c77840dc0cc3c92e0214a73eeceeec0d79fa887e321d1",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 4：以为 constexpr 函数一定在编译期执行**",
+      "translatedText": "**Mistake 4: Assuming that constexpr functions are always executed at compile time**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "91ad1daf36fafbea36dd5adf62f5214e216732387deed50c6ad9f2c0578797fd": {
       "normalizationVersion": 1,
       "sourceHash": "683fdc46003edcac01550bc4bed47249f7a93e0f42d8d31054b774ed587f16c8",
@@ -111,6 +181,76 @@
         "inputTokens": 174,
         "outputTokens": 72,
         "costUsd": 0.000139
+      }
+    },
+    "91c3791ad5dfe3446d56aa0b34fab03460dc54a4248ee1f728c2975e47544904": {
+      "normalizationVersion": 1,
+      "sourceHash": "34ee5447d0df23c40bca7aa210f07aa7c3bee8e08a82f9a9bdfed92c714d7b72",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* 把一个函数传给另一个函数，也就是回调函数\n* 在程序运行过程中选择不同的处理函数\n* 把多个形式相同的函数放进表中统一管理\n* 保存并调用类的成员函数",
+      "translatedText": "* Pass a function to another function, that is, a callback function\n* Select different processing functions during program execution\n* Put multiple functions with the same form into a table for unified management\n* Save and call a class's member function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 51,
+        "costUsd": 0.000111
+      }
+    },
+    "91d3cefcd787dc0c8e10d8d0401b49d4207e09e3fe1f71b478e737479e192ee8": {
+      "normalizationVersion": 1,
+      "sourceHash": "d67001280b0502a99910d62f2bee200c2f0f001920cf9a687c6518f0e280c9f8",
+      "contextFingerprint": "9d21fb7d571ee55c5bf2dc6d596829a027a3fd438b7c8d03b19b216c6ab67ab5",
+      "sourceText": "正确做法：`const int x = n;`（用 const 而不是 constexpr）。",
+      "translatedText": "Correct approach:`const int x = n;`(use const instead of constexpr)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "91d63765a24a684b5bd59030f44f4e3cf7091d7cafc38f20534d94d710010ddc": {
+      "normalizationVersion": 1,
+      "sourceHash": "0923ecf387cc47e25d0c97243a1f315815a438b39df7c73e0c5e8dedabc740fe",
+      "contextFingerprint": "49a0d555db000f445e70a6942e0786a2a51a85351aac47dcdfad83564f931f2a",
+      "sourceText": "### `std::this_thread`",
+      "translatedText": "### `std::this_thread`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "91e25d615ee1fc4af2a73fe9120683467e1826954405c54b029702ff2b7b36db": {
+      "normalizationVersion": 1,
+      "sourceHash": "520a037686aa2ffe329599600a7051ca7b5499e6208ecaa6b73d462d0c87d561",
+      "contextFingerprint": "c40110be22c77e131c633d721cb16a0bf915d6ef6316e8e74c08c14c22d49aa7",
+      "sourceText": "非静态成员函数必须依附某个对象调用，因为函数内部可能访问该对象的数据成员和 `this` 指针。因此，非静态成员函数不能保存在普通函数指针中，需要使用**成员函数指针**。",
+      "translatedText": "Non\\-static member functions must be called on an object because the function may access the object's data members and the `this` pointer\\. Therefore, non\\-static member functions cannot be stored in ordinary function pointers; they require **member function pointers**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 53,
+        "costUsd": 0.000116
+      }
+    },
+    "91f96deacbfe4d80a30fc2bcbd26591093f526cc1b7f0a390c9c3317e4b3d697": {
+      "normalizationVersion": 1,
+      "sourceHash": "f71919faf18527a240d63ab7be489ef5c02e56f905de35f3a17e4eace749ddb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把它简单理解为：",
+      "translatedText": "It can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

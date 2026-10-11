@@ -29,6 +29,20 @@
         "costUsd": 0.000064
       }
     },
+    "b71230bb2c2d70537c0346d1a614f96512830d76f8803f3c4e4112db45471f04": {
+      "normalizationVersion": 1,
+      "sourceHash": "88e9d1d3cc6067e64b6c058d43bdc35a5c78c62cf47983f4b58c17aeee21cedc",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 4：map——对比 C++17 前后的插入结果和遍历写法",
+      "translatedText": "### Example 4: map—Compare the insertion results and traversal syntax before and after C++17",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "b72b5deb4da6b0e915db31e9246e580bc08e77c930206cb88ac3c8976f4976d0": {
       "normalizationVersion": 1,
       "sourceHash": "f312a3c83175c951144440d814e21e704f2f8e4d90cf024fba1dd18a6281a4b4",
@@ -41,6 +55,20 @@
         "inputTokens": 156,
         "outputTokens": 39,
         "costUsd": 0.000094
+      }
+    },
+    "b72bc40e7a97eab4c6b5bd590dd27adddad3871bb136dd0564c5da669b55342b": {
+      "normalizationVersion": 1,
+      "sourceHash": "867c4072f26bdeb6508a701ae5972290bacc10ec20358b0ba5ac0c05031cbf37",
+      "contextFingerprint": "bd1b07e9a34237f5d793e67b455566e926c1896322dc1c6f8df9a5fae44536ac",
+      "sourceText": "* 算术生成算法属于小型算法，使用时包含的头文件为 `#include <numeric>`",
+      "translatedText": "* Arithmetic generation algorithms belong to small algorithms; the header file to include when using them is `#include <numeric>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "b73dfe8ea5b199bed33c98f026a42b85cedc2d1c5ca463e194c0abd8f6d9aa73": {
@@ -69,6 +97,62 @@
         "inputTokens": 203,
         "outputTokens": 80,
         "costUsd": 0.000157
+      }
+    },
+    "b75759e2315c2e216278634e9c367e88ff99941ab90a398ad2a3f75933cf9113": {
+      "normalizationVersion": 1,
+      "sourceHash": "0452ad9c7024c59fe806cef5f295e8a47edf690ba63876caf771a98263d53b52",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 实现两个容器内元素进行互换",
+      "translatedText": "* Implement swapping of elements within two containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "b7659cbf90a3fad90123f44293611813a9e804faaa2481f4f4387959b2311e09": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc6a111c1b5d4244ef482844f7ee46fcb46f3cae8502e2fb0d7a9d5aa1c59bf5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "大小操作：",
+      "translatedText": "Size operations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "b76c4d6c2ff6f234a995d5d35d646d889e6b0b3b2248ce0f37ab1938cbf87358": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ce59a5f56004a9d7e613e7494cb314d50eba2cb9d29bd0ba08f01ad0d367320",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，用 optional 表示\"可能失败的转换\"",
+      "translatedText": "### Example 2: Building on Example 1, use optional to represent a \"conversion that may fail\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "b77b5830ba7a460b315341146721278cd2523422aa2c1fccced69471494d6d7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "87a4919cd8b1c5516a16391180a80fddf67f706b0894f1f81a5c0b1d036e7d5e",
+      "contextFingerprint": "302f38337216b807f0a09c7963d95b2e86f2a14be6cfa965598add9fd9fb62a6",
+      "sourceText": "- 转换`\"123\"`字符串，结果是成功的，为`123`。\n- 转换`\"123abc\"`字符串，结果是成功的，为`123`。\n- 转换`\"3.14\"`字符串，结果是成功的，为`3`。",
+      "translatedText": "- Convert `\"123\"` string, the result is successful, which is `123`\\.\n- Convert `\"123abc\"` string, the result is successful, which is `123`\\.\n- Convert `\"3.14\"` string, the result is successful, which is `3`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 47,
+        "costUsd": 0.000105
       }
     },
     "b79376964c0a6cffc0938b73134efffafba7032f7dd101efbb385f544d4bc9a3": {
@@ -125,6 +209,34 @@
         "inputTokens": 145,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "b7e3c90509dd2c62991d8048fe76e46a771530a5f0b646ac82d94cc9db236fc4": {
+      "normalizationVersion": 1,
+      "sourceHash": "31756fe7c3873c643d588c9657e826fc5c0490fea9eab7d6738c3f7869c2e247",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "STL大体分为六大组件，分别是:**容器、算法、迭代器、仿函数、适配器（配接器）、空间配置器**",
+      "translatedText": "STL is broadly divided into six major components, namely:**containers, algorithms, iterators, functors, adapters, and allocators**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "b7e7a2a5a5ff103334fcd950371ab30db104f5922901b1fb60f087ae038cac4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "38d10ba2a687c90a7b47d31c27e758be2660569e4cb8ce69ec35ee9aec36fccc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "List有一个重要的性质，插入操作和删除操作都不会造成原有list迭代器的失效，这在vector是不成立的。",
+      "translatedText": "An important property of list is that neither insertion nor deletion operations invalidate existing list iterators, which does not hold for vector\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "b7eaf9006cd1e151fdc75e03d52fda6a35d2ccb01205539e63ab1090f5e74076": {

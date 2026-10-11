@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "9900cdd95897325cf51f851a9f5e3521f47e4aca5e2806cccd8cd42b69fe5350": {
+      "normalizationVersion": 1,
+      "sourceHash": "cff4eb1705de60ebdd1b5744813a37dc2712fa977be4b591e3a14750df98435e",
+      "contextFingerprint": "13f555c784de5ad38f5d79bd06677d6b9792b93e147a608ba90f8cacb9d6a550",
+      "sourceText": "如果一个 `noexcept` 函数中真的抛出了异常，程序通常会直接终止。",
+      "translatedText": "If a `noexcept` function actually throws an exception, the program usually terminates directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "990f6099531b402335f16266080c2e298a3ba9a3ce947464205c2d19a169bf40": {
+      "normalizationVersion": 1,
+      "sourceHash": "56f1039c232cefb161d6a5e9d2dee95ff4408ba4cc355dccecd23e7543b18c54",
+      "contextFingerprint": "5ad03f2a20148605b6f205719123e5c8ebfaf66c5c71feb372bb5109820de3f3",
+      "sourceText": "#### find_if",
+      "translatedText": "#### find_if",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "99145d80389a12adbe7886a912f8341750c2d24b9ab64e73c75175f9acdac94b": {
       "normalizationVersion": 1,
       "sourceHash": "fd65fc4f1259d238a5f2583466b4b68ab6fafad679b5a5f513827e3f40cad2a2",
@@ -29,6 +57,20 @@
         "costUsd": 0.000053
       }
     },
+    "991ad660419031248bc33f47c1f6c547fc99bdb539fc10e101d1b87fc66e8f01": {
+      "normalizationVersion": 1,
+      "sourceHash": "bae1883906165416a7ff2177d98dec8749b2cebdaa80d2ffda2554f5e86732c6",
+      "contextFingerprint": "2c88457dbccd24751253cf2f355d358f842f6949cf8f87cef9887cb003674bcb",
+      "sourceText": "- C++17 之前需要通过 `.first/.second`、`std::get<N>()`、成员名或数组下标分别取值。\n- C++17 结构化绑定可以把 pair / tuple / 结构体 / 数组分解成独立变量。\n- C++17 基本语法是 `auto [var1, var2, ...] = expression`。\n- 遍历 map 时 `[key, value]` 是最佳实践（C++17）。\n- insert 返回值用 `[iterator, bool]` 解包非常清晰。",
+      "translatedText": "- C++17 Before, it was necessary to access values separately via `.first/.second`、`std::get<N>()`、member names, or array subscripts\\.\n- C++17 Structured bindings can decompose a pair / tuple / struct / array into independent variables\\.\n- C++17 The basic syntax is `auto [var1, var2, ...] = expression`\\.\n- When iterating over a map, `[key, value]` is the best practice (C++17)\\.\n- Unpacking the insert return value with `[iterator, bool]` is very clear\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 239,
+        "outputTokens": 126,
+        "costUsd": 0.000223
+      }
+    },
     "99277aebd37808a7e995b84d63efdd1c87cfea9e2df9be6a3c4574762c63e7c4": {
       "normalizationVersion": 1,
       "sourceHash": "7fb4cdf052aaadb31aaadfc13b83f00cc4d0658265798ea496814576507ccfec",
@@ -41,6 +83,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "9943e6c456caeb6ba510975782e8fe82378e0683555ef61fdf2bdef0f4b93b3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "90951d3e0b0fb2abd96f7f65a0f97cb61b9ea9916c13b186df72d6ce6c9e6145",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "C++17。编译本节完整示例时，需要启用 C++17 或更高标准，例如：",
+      "translatedText": "C++17\\. To compile the complete example in this section, a standard of C++17 or higher must be enabled, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 51,
+        "costUsd": 0.000112
       }
     },
     "99473c05385571b41becbfcd1a258f89a14daf62cb4281c4ce56c31e580e3a35": {
@@ -71,6 +127,34 @@
         "costUsd": 0.000076
       }
     },
+    "99566a84633f34adc82a8dec24d3e7336f532fd36fe1e19cdad48bd9c10fc0ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d02f823182732e597b8e0f4e93fbd03c9996b8384a5f35728de14a4c5b5e7ff",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**总结：** 选取不同的容器操作数据，可以提升代码的效率",
+      "translatedText": "**Summary:** Selecting different container operations can improve code efficiency\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 18,
+        "costUsd": 0.000065
+      }
+    },
+    "997ca3af0e6a6b9893aa89a1f4ed1ca3c0dc5711e2c3bc8720180cf2bbaf98f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "8040a0c164f83a19b41872da65e62909b83c3944f591f30fc55f44923547b613",
+      "contextFingerprint": "b0fd9c5a8da609d625f85420590f1975c15f2e641badb19881326b73f5288574",
+      "sourceText": "- `NULL` 实际上就是 `0`（在 C++ 中定义为 `#define NULL 0`），它会被当作**整数**来处理，导致类型不匹配。\n- 在某些重载函数中，`NULL` 可能匹配到整数版本的函数而非指针版本。",
+      "translatedText": "- `NULL`Actually, it is `0` (defined in C++ as `#define NULL 0`), which will be treated as an **integer**, causing a type mismatch\\.\n- In some overloaded functions, `NULL` may match the integer version of the function rather than the pointer version\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 64,
+        "costUsd": 0.000132
+      }
+    },
     "99bc0584656f3faa66fe2ac9f4e6f5631be5259794c691c99763135703644444": {
       "normalizationVersion": 1,
       "sourceHash": "bd3063f7972c353a6a5e6dc51fc5fe498c8cb00ff614915052a0cb06fa26c030",
@@ -99,6 +183,62 @@
         "costUsd": 0.000066
       }
     },
+    "99c5fa847423d838a2272ee0a50637385e64de8f633214140d685c0d48006296": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a27e02ddb5b992cbd164206be8dd180ae77dde4c0bdb3487c3969a051ab0ae2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "\\> 返回   1 ",
+      "translatedText": "\\\\\\> Return   1 ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "99cc29aeeab93774a1798f3d2d1bd62cd587e3c7a22d9139d9f8b06247ebc22e": {
+      "normalizationVersion": 1,
+      "sourceHash": "09806848b669520d29e8a4a3cc1302a18eaa0ef041f8b22cc678b3a39bbef642",
+      "contextFingerprint": "daa0ddc04e0bc539618f4b288d520a8a84e2517c66dd9d53cb34fd6afb3a8c87",
+      "sourceText": "#### set_difference",
+      "translatedText": "#### set_difference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "99cc7696aadc8797e481644e0db475b9ea3cd630483f90cee71b1fb0fac06742": {
+      "normalizationVersion": 1,
+      "sourceHash": "7611b5146009817f01ae1f6450294477f827afa9a8036b1d16943735319a3d7c",
+      "contextFingerprint": "3e5ffae11f9208d33c1ea6e85d6308da252324d1c1bb10bf11b7bcddb09f1790",
+      "sourceText": "**错误 3：忘记 `.count()` 直接输出 duration**",
+      "translatedText": "**Error 3: Forgetting to `.count()` directly output duration**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "99cd23e1cceb444056e77f13ec59b6166109196d4a9bc1491c38a913eb77e357": {
+      "normalizationVersion": 1,
+      "sourceHash": "4107ace5a1ce5b7c156e221d7b397970f44f2515e17fe8e4bbc4f4edb0f101c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这段代码访问了多个线程共享的变量：",
+      "translatedText": "This code accesses variables shared by multiple threads:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "99d14570f3ac287c6ab328aa8e04834d8e5ac8c382c9d29b22638a5c03011968": {
       "normalizationVersion": 1,
       "sourceHash": "455011bf7f4316c0ef89f4a5d33c07ae088c5c5b0f68836800dbc9f63bddc6eb",
@@ -125,6 +265,20 @@
         "inputTokens": 143,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "99f6eb46ed436fcb0b4f2b882c1a8a8c3ef2c87c3ff936359f59c0da3dd68e67": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d966b49c51113899ec6ca44dea5a1ef0338b4b39b53f4b24226d046f6713261",
+      "contextFingerprint": "fb831c18ae9dca22ee9ee373db6b4ec3487891bd9c5738d2043646afd6e2db7a",
+      "sourceText": "`catch` 用来捕获异常。",
+      "translatedText": "`catch` Used to catch exceptions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "99f9f1c4ee70b7faf827aecf20fffc1d21f7cb1e2837d3b9c8fbe6d9906a3bee": {

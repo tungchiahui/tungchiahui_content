@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "1d115ce221c263315599664435e9daa04d522669e84aa4a289492b518d85d1c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "c599254f5e79ac39c66084a69dcae35a214693a025b154fac3ad9cc6a83d20b6",
+      "contextFingerprint": "924a95cda698986c6664e09ce01a49525977e8e1fa18736e3d82d43a0fc3f594",
+      "sourceText": "- `push_back(elem);`          //在容器尾部添加一个数据\n- `push_front(elem);`        //在容器头部插入一个数据\n- `pop_back();`                   //删除容器最后一个数据\n- `pop_front();`                 //删除容器第一个数据",
+      "translatedText": "- `push_back(elem);`          // Add a data element at the end of the container\n- `push_front(elem);`        // Insert a data element at the beginning of the container\n- `pop_back();`                   // Delete the last data element of the container\n- `pop_front();`                 // Delete the first data element of the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 54,
+        "costUsd": 0.000113
+      }
+    },
+    "1d1917ac83f89e0e59117d4a353339f639c1d8e4301ceb2b8946accc9ff6bca1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1137c1c5724896eca6553eb96234fe13483af0681883105468c8184743760720",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更加简单。",
+      "translatedText": "Even simpler\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "1d44ae2c2dde505f9b4166b939bb2006f7d108d2d405d27fd057e42f021678d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "869d6c938ae5df81785013ed6db6872cceb843a261ff1a282ce439e1c4f31cd6",
+      "contextFingerprint": "a1d9cbde2ee6ca505dd63c40ea6ffa809727c4af4aa4ccfb1fc06309527af9b5",
+      "sourceText": "1. **函数参数优先用 `std::span<const T>`**：代替 `const vector<T>&`，更通用。\n2. **span 只是视图**：不拥有数据，必须确保底层数据存活。\n3. **子视图零拷贝**：`subspan` 等操作非常高效。\n4. **C++20 才有 span**：如果你的项目用 C++17，可以用 `std::string_view`（字符串版的 span）或第三方库。\n5. **只读参数优先 `span<const T>`**：这样 vector、array、C 数组都能传，而且不会被函数修改。",
+      "translatedText": "1. **Prefer using `std::span<const T>`** for function parameters instead of `const vector<T>&`; it is more general\\.\n2. **span is only a view**：it does not own the data, so you must ensure the underlying data remains alive\\.\n3. **Subview zero\\-copy**：`subspan` and similar operations are very efficient\\.\n4. **C++20 only has span**：if your project uses C++17, you can use `std::string_view` (a string version of span) or a third\\-party library\\.\n5. **Prefer read\\-only parameters `span<const T>`**：this way vector, array, and C arrays can all be passed, and the function will not modify them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 238,
+        "outputTokens": 142,
+        "costUsd": 0.000242
+      }
+    },
     "1d495b80f7e6eedb2d732e47e87cad74bd91ad577080aad709d2d0ad81234650": {
       "normalizationVersion": 1,
       "sourceHash": "5e69f5e0c9874172dfa735c5134762d3d28c15740319e408a3b60b6d3f977f5f",
@@ -13,6 +55,34 @@
         "inputTokens": 199,
         "outputTokens": 99,
         "costUsd": 0.000179
+      }
+    },
+    "1d497e48ea6d625e1f84b1cd1453b1d09d23dd0e0ef93f48d378739218767693": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4dcf84714e9e78714ba18c2dd25180af16be97b8b6b880e0ed55c0ba2f49445",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的线程，都必须先：",
+      "translatedText": "thread must first:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "1d56fdd56547f0b3bda57c4efdacdf0f27a877acea3655fef86e56deb282f754": {
+      "normalizationVersion": 1,
+      "sourceHash": "a551fd7daf4084ccbe65661c57ee9f32276e31cfd6a945a65056ad75dd00f3f4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它本身可以被复制，但调用可调用对象时会还原为对原对象的引用。",
+      "translatedText": "It can itself be copied, but when the callable object is invoked, it is reduced back to a reference to the original object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 33,
+        "costUsd": 0.000084
       }
     },
     "1d5c44f88386d769f9fb3c92242521910806faa9f72725bdcc7bf20ab19b1cd1": {
@@ -29,6 +99,20 @@
         "costUsd": 0.00008
       }
     },
+    "1d69627be16306cea5f2029331cfc7fe0fc84878a74b835331ad5bca63d6dfea": {
+      "normalizationVersion": 1,
+      "sourceHash": "fba06be87646fb5189828fb1cb20b5e71c825451f21816a97d6b169d3c87f263",
+      "contextFingerprint": "815af0332eb1fc9481d782a6eb1dbf6e018804436213c7aa53e684981820d439",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 基础类型别名 | `using Name = Type;` | 语法更直观，`=` 让人一眼看出\"别名 = 原类型\" | typedef 也能做，但 using 更清晰 |\n| 示例 2 | 函数指针别名 | `using Func = int(*)(int,int);` | 名字在中间，比 typedef 的名字夹在中间更好读 | 实际项目中建议用 `std::function` 代替裸函数指针 |\n| 示例 3 | 模板别名 | `template<T> using Vec = vector<T>;` | typedef 做不到模板别名，这是 using 的独特能力 | 非常适合简化嵌套模板类型 |\n| 示例 4 | using 不是新类型 | `using Meter = double`、包装结构体 | 别名提升可读性，结构体提供类型安全 | 需要防止参数传反时，不要只靠 using |",
+      "translatedText": "| Example | What was explained | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Basic type alias | `using Name = Type;` | The syntax is more intuitive,`=` making it clear at a glance that \"alias = original type\" | typedef can also do this, but using is clearer |\n| Example 2 | Function pointer alias | `using Func = int(*)(int,int);` | The name is in the middle, which is easier to read than typedef where the name is sandwiched in the middle | In actual projects, it is recommended to use `std::function` instead of raw function pointers |\n| Example 3 | Template alias | `template<T> using Vec = vector<T>;` | typedef cannot do template aliases; this is a unique capability of using | Very suitable for simplifying nested template types |\n| Example 4 | using is not a new type | `using Meter = double`、wrapper struct | Aliases improve readability, structs provide type safety | When it is necessary to prevent arguments from being passed in the wrong order, do not rely only on using |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 277,
+        "outputTokens": 192,
+        "costUsd": 0.000314
+      }
+    },
     "1d8c78d4dc95a19c04208dd92cdaedbcc8b0ed682263a9879a0186c2aa9e7c79": {
       "normalizationVersion": 1,
       "sourceHash": "d7359674ebcee2b927dc358ca3c1a9f8d07cc8dff36665e788fb44eb1b8d11ac",
@@ -41,6 +125,34 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "1d9ffbf7d343b13576aea0df6668eb2c44539d267ca1abfd411451aeb571a6cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a7ef2264dcbe2548d5ceab1ab04d15672298e1edb082a78fe6eea31957061c4",
+      "contextFingerprint": "fa25e8d9573aba17ffa07985b643e504ed8442a524e868fc367c2c11b3a2408a",
+      "sourceText": "这是 C++ 区别于 C 和其他语言的**核心设计理念之一**，智能指针、lock_guard、fstream 都是 RAII 的实现。",
+      "translatedText": "This is C++ one of the core design philosophies that distinguishes it from C and other languages**core design philosophy**, smart pointers, lock_guard, and fstream are all implementations of RAII\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 63,
+        "costUsd": 0.000129
+      }
+    },
+    "1db38c5415618339b891abb044fb60d0924f06f13e9e461749b21ec103571195": {
+      "normalizationVersion": 1,
+      "sourceHash": "9347fed65a27ff570cff8837869ad5fcbd81b77ed70c64d985bc3d98f7b34945",
+      "contextFingerprint": "775d776e1fcf77ea28c2dff00efa1fbea2c01495c29de03a93f786cd353d3b7e",
+      "sourceText": "### `std::ref()`：真正按引用传递",
+      "translatedText": "### `std::ref()`：Truly pass by reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "1db5214799440a21be3e4a52ee32804bf1539eca33d3f10eb847f8db8d85c543": {
@@ -85,6 +197,34 @@
         "costUsd": 0.00006
       }
     },
+    "1dcef75693768f5e8e47f27b6f7df335baa73a722c89c937bee65cde20c155ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "f04b8d9edbae2c3c3231ac833bb42725dad3bdb8af3b9c7959c670651f86cf34",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：给返回值加 std::move**",
+      "translatedText": "**Mistake 3: Adding std::move to the return value**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "1dd53215a362185641cf310b7292140a7a0653f8d24824ada9417cf1cae293c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd3d141dd370e11758001e923d91f615b1555850cfd44f0e1acb9811808bea51",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是：",
+      "translatedText": "Therefore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "1de5649b06eb24bc4b874c9e105976bdae6a33a39d86ef32ec1376471c17bf24": {
       "normalizationVersion": 1,
       "sourceHash": "7c40274dff0c49f697464caa9760da38ab626e11da6d05d8a2168f4530dbbf84",
@@ -97,6 +237,20 @@
         "inputTokens": 141,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "1dfb042eeb634aae31364dfbaf3cd02860bbc629541cd8e2a0626e83c4f21b54": {
+      "normalizationVersion": 1,
+      "sourceHash": "905a9ed46ff03b7a78c44a298ce9a94d571ede93b02605a14ad9dce0c94f3f62",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：主流的解决方式是第二种，将类模板成员函数写到一起，并将后缀名改为.hpp",
+      "translatedText": "Summary: The mainstream solution is the second one, which is to write the class template member functions together and change the file extension to \\.hpp",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 36,
+        "costUsd": 0.000089
       }
     }
   }

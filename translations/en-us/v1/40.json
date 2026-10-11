@@ -43,6 +43,34 @@
         "costUsd": 0.00007
       }
     },
+    "405882dc81627c3750170c5fcb0842b6697c7d6a47c14e5a29497df22f296acf": {
+      "normalizationVersion": 1,
+      "sourceHash": "8824469f9a90bb5c6c292dcae6131063423b9a37c91fdfa24009594464792c46",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 有并发，但没有并行：单核 CPU 上多个线程轮流执行；\n- 有并发，也有并行：多核 CPU 上多个线程同时计算；\n- 使用并行算法，但不手动创建线程：让标准库或底层运行时决定怎样执行。",
+      "translatedText": "- Concurrency without parallelism: multiple threads execute in turn on a single\\-core CPU;\n- Concurrency with parallelism: multiple threads compute simultaneously on a multi\\-core CPU;\n- Use parallel algorithms, but do not manually create threads: let the standard library or the underlying runtime decide how to execute\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 63,
+        "costUsd": 0.000131
+      }
+    },
+    "406f3960fb1db7bb0bee75b4941f5cb380246eb6e20190cbc4fac7cb31c4ebe0": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a4bf4162a77a70229d40cd135826198b19fdee4f7958e76d56a5da7667693e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一句刚开始看起来可能比较奇怪。",
+      "translatedText": "This sentence may look rather strange at first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "40745c5bca4faab76fa5015bd59066d32b10c3fa21110360b3cf23362deb928d": {
       "normalizationVersion": 1,
       "sourceHash": "cd84c4a40d220177a6f22c1a8e5f4ff6df672d2e9fb3b10dfe73fb72476b44e8",
@@ -57,6 +85,104 @@
         "costUsd": 0.000071
       }
     },
+    "4076581272404d605bc978e4bcb7dce76389d7b11d574ac746e3898b6349d46f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb32131763b03294f55d1a74322fd9fe3473913f3f422f95685492bc8b712a7c",
+      "contextFingerprint": "284c57d98f59cd96a660339c46f153cf05fa8a9addf8c8cccb09fbb2c646830d",
+      "sourceText": "- `std::optional<T>` 要么包含一个 `T`，要么为空。\n- 解决了函数\"可能没结果\"的语义问题，替代 magic value。\n- 用 `has_value()` 或 `if(opt)` 检查，用 `value_or(default)` 安全获取值。\n- 可用于函数返回值、结构体成员、函数参数（但参数不推荐用 optional）。",
+      "translatedText": "- `std::optional<T>` Either contains a `T`, or is empty\\.\n- Resolves the semantic problem that a function \"may have no result\", replacing magic value\\.\n- Use `has_value()` or `if(opt)` to check, and use `value_or(default)` to safely get the value\\.\n- Can be used for function return values, struct members, and function parameters (but optional is not recommended for parameters)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 76,
+        "costUsd": 0.000148
+      }
+    },
+    "407d26671c3781c6dc172c1defda842023d6a1cb4f0b18d1d78e79df3de1f9e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b89ffde8138a932b870eb059caac99d4a1238bd7e586456d3e2a4c14eb02b50",
+      "contextFingerprint": "93f848773469a9fb2a23db791f7b51aa999240eacbd401a5e4b3c0ef98c9b12e",
+      "sourceText": "C++17 开始可以使用 `[*this]`。它不是保存当前对象的指针，而是在创建 Lambda 时复制一份当前对象。",
+      "translatedText": "C++17 can be used starting from `[*this]`\\. It does not store a pointer to the current object; instead, it copies the current object when the Lambda is created\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 48,
+        "costUsd": 0.000106
+      }
+    },
+    "40872a42b21dbbf9afd009656a778a8be2d4a95d0a68482ab1e763d470e5a4ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "bee7238e3989941d22df003ac070338d2d67b2315083f51bff58af0b39ab2109",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样同步规则更加集中，也更不容易漏锁。",
+      "translatedText": "This makes the synchronization rules more centralized and also makes it less likely to miss a lock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "4090a28d11e7c55eeddf5c711e8a4379ada257296da27f99583226f65fa08a38": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd03a85433178d54c3128b4fa2e00e982a7f262a3dad07498433eb4ffb96959f",
+      "contextFingerprint": "1ec17647d94f4a84433310c4d9b159e8bb5a2b02791d649776f66d9333b8ebec",
+      "sourceText": "* `pair<type, type> p ( value1, value2 );`\n* `pair<type, type> p = make_pair( value1, value2 );`",
+      "translatedText": "* `pair<type, type> p ( value1, value2 );`\n* `pair<type, type> p = make_pair( value1, value2 );`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "40a05cc34beb1bfe4840c0bd4c24f47b61897e17f269be0222f019bea1dfcfa8": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a4b3fcfcff64529be53f3bf73f0caced9f43c67c4d10c3e8ab841d45c06b38e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以更准确的理解是：",
+      "translatedText": "So a more accurate understanding is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "40a89094d7817dd8102254467e3542cf46ecda9d32d73077c654d792451181a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f7fbc9dae6613a0feae625bc70cd1e7b18aa88991c27face189acbe5fef46e71",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## std::thread 基础",
+      "translatedText": "## std::thread basics",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "40ba503604aa352b422b2071411d300b0b803ab4f81159ee75121500cae857a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f233b338dce5e74fc63c5b1cfde018b5ae238d6cf521d7ead057d13c9d09bfe",
+      "contextFingerprint": "4dee318724f1197de9cc478f1f56fc4904a619f949ad4907b7f17010828b3909",
+      "sourceText": "#### 范围 `for`",
+      "translatedText": "#### Range `for`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "40bb7ae7fd39144c25cd10a30806cec550c91cc87d47f8d1bc6412ba7f0d74c9": {
       "normalizationVersion": 1,
       "sourceHash": "02338e8f65af1e2ce8819ed91ed1dfc9c228d060eb1407c6a03e1c2cea04dcc4",
@@ -69,6 +195,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "40bc0111305edcbbc6fc37281b8e10b3ce7c721352f7eb53b08f2889c1f8b546": {
+      "normalizationVersion": 1,
+      "sourceHash": "17e967f476c2a3819fbf44682ecbe9e1489581490cf9bbae74798c821905b3a2",
+      "contextFingerprint": "f2f876e659511328574737424fe73d3a7b26611642d3519204db61b02aae6e09",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 统一接收不同容器 | `std::span<const int>` 作为参数 | 一个函数处理 vector/array/C 数组 | span 只是视图，不拥有数据 |\n| 示例 2 | 子视图操作 | `subspan()`、`first()`、`last()` | 零拷贝切片，可以局部处理大数组 | 子视图修改影响原数据 |\n| 示例 3 | 用 span 写通用函数 | `sum(std::span<const double>)` | 通用算法 + 任意连续容器 | 函数内部用 range-for 和 .size() 即可 |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Uniformly accept different containers | `std::span<const int>`As a parameter | A single function handles vector/array/C arrays | span is only a view, it does not own data |\n| Example 2 | Subview operations | `subspan()`、`first()`、`last()` | Zero\\-copy slicing, can locally process large arrays | Subview modifications affect the original data |\n| Example 3 | Use span to write generic functions | `sum(std::span<const double>)` | Generic algorithms \\+ arbitrary contiguous containers | Inside the function, use range-for and \\.size() |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 250,
+        "outputTokens": 135,
+        "costUsd": 0.000237
       }
     },
     "40bc609069c2fae932602e87f4f4fad11c669e55345bc9654802a8e15aa869b3": {

@@ -15,6 +15,20 @@
         "costUsd": 0.000087
       }
     },
+    "6526758357079c6fa619394c15723782b67da2f8cc8443eddcdc50d0c7785ae2": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1e1d6de43734fc07e42795e4461d243ee9be1ea3c4aefd4e173396a69d54878",
+      "contextFingerprint": "84ac109ae2d42616a17e6a6b0f25d755fec37e69dea50e76cd750a8c3d454194",
+      "sourceText": "`static_cast` 适合明确、常规、编译期能检查的转换。比如数值转换、`enum class` 转整数、父类指针指向子类对象等。",
+      "translatedText": "`static_cast` Suitable for explicit, conventional conversions that can be checked at compile time\\. For example, numeric conversions,`enum class` to integer, a base class pointer pointing to a derived class object, etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
     "653a03571cefa35c91f96a4b5b48d33bb50d812748fa0094774dbf01e23fefd1": {
       "normalizationVersion": 1,
       "sourceHash": "963c7f963d9a0ae60c755ca0fc4f665fee13709361e368cd25e288585fe70832",
@@ -43,6 +57,76 @@
         "costUsd": 0.000063
       }
     },
+    "65445653bdfe27823c5bfd4bbf8e0685754e9d0d4eddcda8b713385250fc1d31": {
+      "normalizationVersion": 1,
+      "sourceHash": "b381ecef1c8f107e04d8c03f10d4b9babca58a35e4645f61a55cc11b2e11b7e6",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 工程实践 （重要）",
+      "translatedText": "## Engineering Practice (Important)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "6597f3ecc4997561888fa0cb5c70ee5b55da6d033d6a8193a1ef16985dc25b19": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fce1de8b7dbaaf45d14068e978286571fbdc183f9c802467934c232d1ef403e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在 C 语言中，我们经常看到这种代码：",
+      "translatedText": "In C, we often see code like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "65aa5213cc982679cb2cc42a84b754dc038ae5ce14cdc8f9c8bd2584a0b67a1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a452da99fd61fe7105b686f9d0ea023f87a279b78fd86dc1e74caaa8e5aa6a85",
+      "contextFingerprint": "af1f8afc6b672c147a9e5c0b2f80f509f802d6dd56e0532112c85a867bf44dcc",
+      "sourceText": "1. **用 `using` 代替 `typedef`**：语法更清晰，还支持模板别名。\n2. **善用模板别名简化代码**：例如 `using TaskMap = std::map<int, std::function<void()>>;`。\n3. **不要在头文件中 `using namespace`**：避免命名空间污染。\n4. **using 声明（`using std::cout`）可以用在 .cpp 或函数内部**，简化代码。\n5. **需要强类型时不要只用 using**：using 改善可读性，`struct/class/enum class` 才能改变类型本身。",
+      "translatedText": "1. **Use `using` instead of `typedef`**: the syntax is clearer and it also supports template aliases\\.\n2. **Make good use of template aliases to simplify code**：For example `using TaskMap = std::map<int, std::function<void()>>;`\\.\n3. **Do not use `using namespace`** in header files: avoid namespace pollution\\.\n4. **using declarations (`using std::cout` ) can be used in a \\.cpp file or inside a function** to simplify code\\.\n5. **When strong typing is needed, do not rely only on using**：using improves readability,`struct/class/enum class` Only then can the type itself be changed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 211,
+        "outputTokens": 106,
+        "costUsd": 0.000191
+      }
+    },
+    "65b98608e694d22e02c5e2d4b378afcce99eb0b38b955e90794586c6c952d5ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0268854979304f82acf2cb21c35fdf477e9c2f46337aa7afc0033b51e16eb13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看起来是一句代码，实际通常可以拆成：",
+      "translatedText": "It looks like a single line of code, but in practice it can usually be split into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
+    "65c0fe78a3b4f753c6564c5572fe12f0b5a0d8597c6dd104cb31a222ae9a698b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0dbf44a32bd54444374450461ef58c2e60bc31afed0054afe50c62d8243eb81d",
+      "contextFingerprint": "2b85dffd8860a45a5c6e460b4df114fdc60ffa15d29210917a5245e523e86a7e",
+      "sourceText": "> 依次取出 `names` 中的每个元素，并把当前元素命名为 `name`。",
+      "translatedText": "> Take each element from `names` in order, and name the current element `name`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "65c3dee290db8dd31729fa75dd50e62c5e39bfe09da05f61ecb34e8299474ac2": {
       "normalizationVersion": 1,
       "sourceHash": "605743e9792c69a34c58eec54565e0b2964db8fec2e3de2c4fa8ec865a00ac5c",
@@ -55,6 +139,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "65e9d0e0696b2cdabb98a459a6dd1f077b9a91da4e0fa9c90f0c16d288fcf9ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "150a876e7e41ef85bc17b08ce04c1ddd4b21c32b80cbde28b393b599450abe15",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 核心理解",
+      "translatedText": "#### Core Understanding",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "65f2578381508add3f6eed27290686b5df2940d4d655d3768c85caccf680c6c0": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "120eb8ce577fd9a01983b165e84daf33420f83243852b512119567d9e9a6a793": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1b8ada8751a669931f4b6bfee03ca082ac60a11d608fc3dac1923ce2309ff58",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程 B：",
+      "translatedText": "Thread B:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "121a33ef0a79c74a684ad157151c67982b886c359448d6742320dadf35e8ef0e": {
       "normalizationVersion": 1,
       "sourceHash": "7157329eb4ad770187f85170c6086e94ebf98c94492ef16e9ca854039842ce73",
@@ -15,6 +29,20 @@
         "costUsd": 0.000077
       }
     },
+    "12311bc6f4029171a2a4e8deb7aa63c50e36a8764514ad450710d0707a00e2d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "2882e3bad1ca5f508ee51ffb46d1d542bdf4d1e0f29aa2f42bafb4b0ad1d26ca",
+      "contextFingerprint": "2ee32c71de471bf5cb817c7f3bb1d7056de4b195a685451942b73852e2b37f4d",
+      "sourceText": "| 打开方式    | 解释                       |\n| ----------- | -------------------------- |\n| ios::in     | 为读文件而打开文件         |\n| ios::out    | 为写文件而打开文件         |\n| ios::ate    | 初始位置：文件尾           |\n| ios::app    | 追加方式写文件             |\n| ios::trunc  | 如果文件存在先删除，再创建 |\n| ios::binary | 二进制方式                 |",
+      "translatedText": "| Open mode    | Explanation                       |\n| ----------- | -------------------------- |\n| ios::in     | Open file for reading         |\n| ios::out    | Open file for writing         |\n| ios::ate    | Initial position: end of file           |\n| ios::app    | Append mode for writing to file             |\n| ios::trunc  | If the file exists, delete it first, then create it |\n| ios::binary | Binary mode                 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 77,
+        "costUsd": 0.000151
+      }
+    },
     "1232f27fc3e9132cbe3a5d7e7f03dadf329b6c95850f49fe87dc5ead649d62cb": {
       "normalizationVersion": 1,
       "sourceHash": "52dbfbe05d56deedb64b462265c788388aea4339d297ecdce9b89de99fb2c1ee",
@@ -27,6 +55,20 @@
         "inputTokens": 141,
         "outputTokens": 27,
         "costUsd": 0.000075
+      }
+    },
+    "1239424b012945de4f74835bb730a8ba14b5464d0e797ea7d1773628b25fbf7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "05d922b5248b8d742af4b6373603ef67f7f4c7947f207132fb997f03ade8df44",
+      "contextFingerprint": "981d7014ded7ba9b014e5b203363e5e672e39d52ddd347e468347c026e73e05b",
+      "sourceText": "范围 for 适合\"逐个访问元素\"。如果你的逻辑依赖下标、相邻元素、反向遍历、跳着遍历，或者需要在遍历过程中增删容器元素，传统 `for` 或迭代器循环反而更清楚。",
+      "translatedText": "Range for is suitable for \"accessing elements one by one\\.\" If your logic depends on indices, adjacent elements, reverse traversal, skipping traversal, or if you need to add or remove container elements during traversal, a traditional `for` or iterator loop is actually clearer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 59,
+        "costUsd": 0.000124
       }
     },
     "12430cd123bd64a9a94421cb50e069d248a06942b71ef4c576350831b7171a34": {
@@ -57,6 +99,34 @@
         "costUsd": 0.000069
       }
     },
+    "1267f640f6ec97d90d3d4ee567806517c296405b47aed8f1d540b90e068e95cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb6900f88439c47555620e00325dd4eb78fdf2fc66e569f3914e7ab8fc4f1f70",
+      "contextFingerprint": "740c217273f83f74191d8f49f6611470b520acdd552117f68b9cec602d1cb4ef",
+      "sourceText": "`b->prev` 是 `weak_ptr`，只观察 `A`，不会增加引用计数。因此最终输出为：",
+      "translatedText": "`b->prev` is `weak_ptr`, only observes `A`, and does not increment the reference count\\. Therefore, the final output is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "12768b415f8866884210ffde8f4839ee8a7f047a3e06b1206021668f26e9b05a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7edf4b605e0c20d57f6a199b74fca0aeafaf7f0a66c5abc6092a9abb8be08da5",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：switch 中混用不同 enum class 的值**",
+      "translatedText": "**Error 3: Mixing values from different enum classes in a switch**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "12780745a5ab171e5e7f413cc84c6201965604b75c2b9373f82e3114d16028a8": {
       "normalizationVersion": 1,
       "sourceHash": "511d87c9f299c50dfe2d465a17d86f8bee5aa84b069fb851689771e1d59667b0",
@@ -71,6 +141,48 @@
         "costUsd": 0.000101
       }
     },
+    "129516d0750161af79e69ec94705afa4a570d02928bc66211f116654e156c84e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c33907cdc6ae9ea316dcc1da18b55b0584cd1f2c3de8537b93791e3a8c2fff78",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果两个字符串长度相同：",
+      "translatedText": "If the two strings have the same length:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "12a18273a518a7d22fc47bcdc09826b36becdbd0318a02097b423f558c151900": {
+      "normalizationVersion": 1,
+      "sourceHash": "30c1c09c5fd4d7e5396357e4e341fa72ff220ed51c1a7d3e42a3f809668a7137",
+      "contextFingerprint": "c0c60d6d5203491653a6f77946089701096003eee23c219d723a3fee1940b002",
+      "sourceText": "#### Buffer 示例详解：`std::copy`、`std::move` 与对象初始化",
+      "translatedText": "#### Detailed explanation of Buffer examples:`std::copy`、`std::move` and object initialization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "12ac9deea869734c30b508f2cbdc739475aaf33f48d4646ff89fb88f2610483a": {
+      "normalizationVersion": 1,
+      "sourceHash": "64ed917c8937654591f4096ce5e48d2f20b720e0da09af8a3b36720674b84e5a",
+      "contextFingerprint": "2667f8826ecefd4e7a4d7fb786c027676783b7e0b5fcc5a8c01ce7dabc542864",
+      "sourceText": "* `try`：尝试执行可能出错的代码\n* `throw`：抛出异常\n* `catch`：捕获并处理异常\n* `std::exception`：标准异常基类\n* `std::runtime_error`：常用运行时异常\n* `e.what()`：获取异常信息\n* 异常可以跨函数传递\n* 构造函数可以抛异常\n* 析构函数不要随便抛异常\n* 异常处理要配合 RAII 理解\n* 不要滥用异常",
+      "translatedText": "* `try`: Attempt to execute code that may throw an error\n* `throw`: Throw an exception\n* `catch`: Catch and handle exceptions\n* `std::exception`: Standard exception base class\n* `std::runtime_error`: Common runtime exceptions\n* `e.what()`: Obtain exception information\n* Exceptions can propagate across functions\n* Constructors may throw exceptions\n* Destructors should not throw exceptions casually\n* Exception handling should be understood in conjunction with RAII\n* Do not overuse exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 81,
+        "costUsd": 0.000156
+      }
+    },
     "12b25aab4b63feb1d79df6c61d91ec43ed6fdec4ef73ccbe86c7390a2c13fa72": {
       "normalizationVersion": 1,
       "sourceHash": "bd668f4c8beae8803297c52cae1785185db89ee61f758aa62ecdec23a04231c5",
@@ -83,6 +195,20 @@
         "inputTokens": 160,
         "outputTokens": 36,
         "costUsd": 0.000092
+      }
+    },
+    "12cd86a4d33066ff90bb883d2fae9cc2bbd6a0d0ba8bb0223afd8d0c1d2977d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ec038427d51026192599fb7b263e1d984506515ca8d29a98385efd74aae23d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第三个参数负责告诉它：",
+      "translatedText": "The third parameter tells it:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

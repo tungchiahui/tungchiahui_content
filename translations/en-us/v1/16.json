@@ -29,6 +29,20 @@
         "costUsd": 0.000073
       }
     },
+    "1611a5c8de23004df62c7530a007c7d9fc455ef8ecba2fb469c3420931ce6e99": {
+      "normalizationVersion": 1,
+      "sourceHash": "f19111ca32d5cc915afafac8f56e0649c4cf466c7cb683ffc9a0d0aec806939f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会修改 mutex 自己的内部状态。",
+      "translatedText": "will modify the mutex's own internal state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "16348e160a09396f26579badc72c6216985b9e51b89c0a4894968db8dd6ab08e": {
       "normalizationVersion": 1,
       "sourceHash": "6e521bdce772b1d9f78d1e254560ff37eff1f3262889b78376349d3d692f5153",
@@ -71,6 +85,62 @@
         "costUsd": 0.00006
       }
     },
+    "1652d1623723c1c1e5136e10faa6468e59d711482d8056106de75d3e9e1990f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "38799511bfe6488644cf1e5626ccfea940dfae957e22531dfcc691e3bca25cb1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等价于：",
+      "translatedText": "Equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "1652eacaf9b14e5fc8ea7e99ab91f5d7fb30373bfba8c75ebc45ebbc420894ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7a2ed4e4d54edee6f175b53c6e1568427930e96bb9e67971f53929911958ed7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：bind 和 Lambda 的对比",
+      "translatedText": "### Example 4: Comparison of bind and Lambda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 16,
+        "costUsd": 0.000062
+      }
+    },
+    "16627bcbeb83cb1e3fd4a0e18ca747d29a93ebfbe2b4ec2be483b24b41e23c97": {
+      "normalizationVersion": 1,
+      "sourceHash": "586efb157c01c8f5e4c914570f798839534fa4a4354631564fa6420039d57466",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：用 span 统一接收不同容器类型",
+      "translatedText": "### Example 1: Use span to uniformly accept different container types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "167e7b71257d18505747782b7395f3ed5d2cb9c1ff31c6411711387047b11e8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc4a9bb40acef5b4e7bc44c5d9834a96a222511b41ca39bf105ecc8a9b5f59d3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它会尝试获得 mutex，但不会因为暂时拿不到锁而一直等待。",
+      "translatedText": "It attempts to acquire the mutex, but does not wait indefinitely if the lock is temporarily unavailable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "168d5e49085fd55f6c285a3f323244bdfde6a8e641c297c9b07566122c85a824": {
       "normalizationVersion": 1,
       "sourceHash": "5fce2c82ab64069c0726b2efc55840d9a5ba5954e4997b4ca01713129cacbfe9",
@@ -99,6 +169,34 @@
         "costUsd": 0.000052
       }
     },
+    "1692dee3171e945f0fbbcc2f2dda9d219ace5eb4e25b40418505fbef99a501ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "580b54128b053f30e93de7bf114b6804d47c476ddedfe96c41d63548e42c5436",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "A 拿到了左筷子。",
+      "translatedText": "A got the left chopstick\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "16a2a4500fe33613f576ef244f516962baa1b6f723cb8aa9d90b341381542d07": {
+      "normalizationVersion": 1,
+      "sourceHash": "68c97e7ba97fb731deb8a5a208ace978bd4042a39728e9e3daaad3762cc367ac",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* deque没有容量的概念\n* 判断是否为空   --- empty\n* 返回元素个数   --- size\n* 重新指定个数   --- resize",
+      "translatedText": "* deque does not have the concept of capacity\n* Check whether it is empty   \\-\\-\\- empty\n* Return the number of elements   \\-\\-\\- size\n* Respecify the number of elements   \\-\\-\\- resize",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 45,
+        "costUsd": 0.000101
+      }
+    },
     "16a450122331cdfa520df68d0ce2e0d6cb702669d8844f07b8e2011dbb538181": {
       "normalizationVersion": 1,
       "sourceHash": "e1e504f66f24b6e0812841cb4e531526d07c7eeca826e3f527c5eb5f76d94c63",
@@ -111,6 +209,34 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "16a486cd9c11378ebfb979010900e5c7d9c768410f1ac1dcdd4b9932aab4506e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e18f161c33826ec19719eddda22e57f323c4760136b02b87eeec1c089f332ba8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本质上就是在修改：",
+      "translatedText": "Essentially, it is modifying:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "16a5aad4b60d3ec5655fd2a20151f3d0ae07911f117c772dac6433e2d44f389e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4694df05c930dc794f62b21829a395ecc5780a84a8aaea633acec7e3109572f1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，移动语义让函数返回大对象高效",
+      "translatedText": "### Example 3: Building on Example 2, move semantics make returning large objects from functions efficient",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "16ac616f6d8bb03dae37598e240c6688fcf15685f381bf5adc005884dea2ff33": {
@@ -141,6 +267,20 @@
         "costUsd": 0.000081
       }
     },
+    "16d2b16dce8e133fc8a1cc3ad8ade1cd33d3994a335d898875b8bbccd2c22cff": {
+      "normalizationVersion": 1,
+      "sourceHash": "c10aafa649c06ecab638639cb24340e60b3de3cb8bbb2332de1a685238652c44",
+      "contextFingerprint": "9480ab53b27084a86708cb83261a8dc9bbce6513a2bac93247c6be4a94d52631",
+      "sourceText": "实际上 `shared_mutex` 自己需要维护更加复杂的状态，例如：",
+      "translatedText": "Actually, `shared_mutex` more complex state needs to be maintained by oneself, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
     "16e2f597eb5d3e509e9f458a32b5e41168311ebcb60d1fbcb561292a52b179ec": {
       "normalizationVersion": 1,
       "sourceHash": "7b9f53630439bdac788ee3315df5ab7d57ecd96adcfd9f09441da0731378d142",
@@ -155,6 +295,20 @@
         "costUsd": 0.000117
       }
     },
+    "16e64557b24f514396871200668c82a79f00d737249e429568eac8112c9d1f23": {
+      "normalizationVersion": 1,
+      "sourceHash": "75db767961d1058096704484a4ae786562d19b5fbdae211ad84e1a3cb6645f22",
+      "contextFingerprint": "4c2e3aa919ea9781f5ffb9cd7780a6fad71165bf4f88d4009d8eb20873f6525e",
+      "sourceText": "**运行结果：** 终端没有输出；程序会在当前目录生成二进制文件 `person.txt`，其中写入姓名为“张三”、年龄为 `18` 的 `Person` 对象。",
+      "translatedText": "**Execution result:** The terminal has no output; the program will generate a binary file in the current directory `person.txt`, into which a `18` object with name \"Zhang San\" and age `Person` is written\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
     "16ed78ef9f7521ef8b5a349fc0c785f2552b04cd602f4be7de078b1762ce73e0": {
       "normalizationVersion": 1,
       "sourceHash": "e7aab3de642d61241608228fb01e18dc904ddd228f81e01d5772b534945761aa",
@@ -167,6 +321,20 @@
         "inputTokens": 186,
         "outputTokens": 63,
         "costUsd": 0.000132
+      }
+    },
+    "16ee240a1ce71eab0e1320d915d64cdca35fc22532aa2817a52a044ff1a2c178": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7f7a3c9dd5ec65d957e6db684993b968eb37ffbc95737b648ddec5dfbb1a1a2",
+      "contextFingerprint": "fa7d36f8186a113157a7f9bc7eccfefe71c5da5cf0fd441bcd2488aae20d68e8",
+      "sourceText": "正确做法：`MyClass(MyClass&& other) noexcept { ... }` — 不标记 noexcept 会导致 vector 等容器在扩容时退化为拷贝。",
+      "translatedText": "Correct approach:`MyClass(MyClass&& other) noexcept { ... }` — Not marking it noexcept causes containers such as vector to fall back to copying during reallocation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
       }
     }
   }

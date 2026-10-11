@@ -15,6 +15,34 @@
         "costUsd": 0.000054
       }
     },
+    "271a1364412c377de8afde1357702f813c423123bf442ba600c387663bb8f450": {
+      "normalizationVersion": 1,
+      "sourceHash": "4eafca67289ba7639764fa18736b45ec7ac21d25ac1200f576e5b3b0102aeb87",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**插入和删除的起始下标都是从0开始",
+      "translatedText": "\\*\\*Summary:\\*\\* The starting indices for insertion and deletion both begin at 0",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "2721ffe4cea7cbc86614cddfbb7bd8382c2dee33816e0c7c304358d354ca8a44": {
+      "normalizationVersion": 1,
+      "sourceHash": "f530c557547ab5b29d7c0a22f65c21adbe126040c91850a0cd8793bca18048ce",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 当前线程必须已经持有这把锁。",
+      "translatedText": "> The current thread must already hold this lock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "27353433e04b78e28444e326ad514d213f1d84977ab684ab60958ae545c331de": {
       "normalizationVersion": 1,
       "sourceHash": "dfe6f5536641416218d657143320f2105d874505f8173eb6203887f1492dfdc4",
@@ -41,6 +69,34 @@
         "inputTokens": 146,
         "outputTokens": 35,
         "costUsd": 0.000086
+      }
+    },
+    "275ce1bd9d96b9ebe6379354c99e1ec0f19cdb9a8bd7e617a5761265c42515a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c488bc78d3ac2847c3bfda722637fd5573c83908a0b349531382bb418df15d2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面这个例子故意模拟\"处理到一半发现数据不合法，提前返回\"。正常流程里手动释放和 RAII 看起来差不多，但一旦有多个返回路径，区别就很明显。",
+      "translatedText": "The following example deliberately simulates \"discovering invalid data halfway through processing and returning early\\.\" In the normal flow, manual release and RAII may look similar, but once there are multiple return paths, the difference becomes obvious\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
+    "276fe396f669d0be7f58b8a1dfedab2c5e3c8f1a6f7cea9cc26823786858ce6f": {
+      "normalizationVersion": 1,
+      "sourceHash": "555912f535affcc5b4c4e9683afb4ba56a2f20814c0772a2261cd34686a5e8bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里“原子”只针对这一次读或写。",
+      "translatedText": "Here, \"atomic\" refers only to this single read or write\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "27704ec8ef64bbfb8ef09d79555486224cd73278ee4cb7772d5db855e2d3116b": {
@@ -83,6 +139,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "27ac86ca027b4df5ab73b9e9609bfa12731995828be865e049263ce78ffc7647": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b3b931e0e93993f5026789ad50c536bb4718a97d981ec45e1043859df7f1125",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 一个形象的死锁例子",
+      "translatedText": "### An intuitive example of deadlock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "27add44a096bb771e762f588d52c93735faf384ed419be9149fb8bcc1705689d": {
@@ -139,6 +209,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "27e35fcf84d3518b0194cf38bfba5be87565471241853b5da42522b1ff8375a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0ba0fbfd8635970f998503e03beb0dcf73d5751832d634695930a9528f880a3",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 通过类模板创建的对象，可以有三种方式向函数中进行传参\n* 使用比较广泛是第一种：指定传入的类型",
+      "translatedText": "* An object created via a class template can be passed as an argument to a function in three ways\\.\n* The most widely used is the first one: specifying the type passed in\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
+    "27efcd5b33178e5d7686d007dd69ad9f08c8f1520a55ecd10122259240329c1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1dcf07fa9f55795f3aab06729b766dc88deb9f9da4d4559332e7cf3638da0a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这说明：",
+      "translatedText": "This indicates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

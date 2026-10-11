@@ -29,6 +29,34 @@
         "costUsd": 0.00012
       }
     },
+    "525166b6b98238a6f0de01b8e36eb2ffd2ff60bfebdc1b62890fa0de3d4aa01b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc04a34706c45dd254dc0d51f369a1bbebf4dd5a7fe3bc7a4eddea8673e463c8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就可能产生：",
+      "translatedText": "the following may be produced:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "52539c193803d3d59831e996ab8a21d2f0438bf65f21f6613c72088cc1e4e044": {
+      "normalizationVersion": 1,
+      "sourceHash": "3bd56b7eaa647de76b2245957ee941520ddaefdf04826e48ee25bf8ff6ed9d0e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果代码大量依赖递归锁，有时说明：",
+      "translatedText": "If the code relies heavily on recursive locks, it sometimes indicates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "5257987454f7da1c617eebeca1c4db27769f2553575fcfcd83af1bf36e50fe6d": {
       "normalizationVersion": 1,
       "sourceHash": "dd7a307386b471636d54e55e69e696778705695ececa805d347291ddb2a793b0",
@@ -41,6 +69,48 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "52614a22f015cecb7932e8cf8b69925ef188a63e5b470183188c1ade54a11045": {
+      "normalizationVersion": 1,
+      "sourceHash": "18e0ac47c5c3293b3c86fa7633b19c8ef1cece40abc425d3c1753494373963c8",
+      "contextFingerprint": "d722e79884c2e1e1abcf8252fe73bde9db3cafb5e09a6f6bd80a614986d0648f",
+      "sourceText": "- **构造函数**中获取资源。\n- **析构函数**中释放资源。\n- 当对象离开作用域时，析构函数**一定**会被调用。",
+      "translatedText": "- **constructor**Acquire resources in the\\.\n- **destructor**Release resources in the\\.\n- When an object goes out of scope, the destructor**definitely**will be called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
+    "526ed56e50d0233ae6e1c0504431e41f5d64186a34b394d77becc990ba7a451d": {
+      "normalizationVersion": 1,
+      "sourceHash": "87cf7c58819450d0c9444f0afc3e4134ad06acd928ed182c1807d5a87e2c5f3d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "“临界区尽量小”并不是说：",
+      "translatedText": "\"Keep the critical section as small as possible\" does not mean:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "527505b1b230a4fb5e945d58fc2329a4dbdd286ffef095ef1e290f98bd77bc70": {
+      "normalizationVersion": 1,
+      "sourceHash": "45b26e9b341cde231f39c749522cfaa0448606876d106c117adcaa6af3b9d4b6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 隐式转换",
+      "translatedText": "### Implicit conversion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "527a1853229b7340b4b3de0d0a05675fc96d60e84f76c26d0c9fae754b05e6a5": {
@@ -83,6 +153,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "52ba313e2a924a6575ed226339bb09db45f8b4aeeafd80dde2f8f893b8b4d450": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb04af0dcc0c6fdd803b9a7fa53e9d83cb7085d73943fbad6bd90c3ceb94e022",
+      "contextFingerprint": "4209247eecfb3a91fc47fac31f55c2e6cd622fba8696a02be4a8a53da96b16dc",
+      "sourceText": "也就是说，`count_if` 自己负责：",
+      "translatedText": "In other words,`count_if` responsible for oneself:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "52d58070ffcbbc94866a898d0210df2228e368e9cca419400cad788f85dd8776": {

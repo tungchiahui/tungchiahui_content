@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4a101e0afe2e4c2dd5467eeb59442312f740c9f5d48d87238e8014614a39386c": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cf0ee9f86b0672508d1cadfa20bc267c60f890397d49d7cccd909493adec7b0",
+      "contextFingerprint": "e3720c82b43a89abf2317bd547d46aa0f1218ddad0dad111d946503dec81a5d4",
+      "sourceText": "1. **函数返回多值时优先用 `std::tuple`/`std::pair` + 结构化绑定**，而不是输出参数。\n2. **C++17 中只读遍历 map 时优先用 `const auto& [key, value]`**，避免拷贝，也能清楚表达 key 和 value 的含义。\n3. **解包 insert 返回值**：C++17 的 `auto [it, inserted] = map.insert(...)` 比继续使用 `.first`、`.second` 更直观。\n4. **需要修改原数据时使用 `auto&`**；只读且不想拷贝时使用 `const auto&`。\n5. **维护 C++17 以前的项目时继续使用原有访问方式**：pair 用 `.first/.second`，tuple 用 `std::get<N>()`。",
+      "translatedText": "1. **When a function returns multiple values, prefer `std::tuple`/`std::pair` \\+ structured bindings** rather than output parameters\\.\n2. **C++17 When performing read\\-only traversal of a map, prefer `const auto& [key, value]`** to avoid copies and to clearly express the meaning of the key and value\\.\n3. **Unpacking the return value of insert**： C++17's `auto [it, inserted] = map.insert(...)` is more intuitive than continuing to use `.first`、`.second`\\.\n4. **Use `auto&`** when the original data needs to be modified; use `const auto&` when it is read\\-only and you do not want to copy\\.\n5. **When maintaining projects from before C++17, continue to use the original access methods**： use `.first/.second` for pair, and use `std::get<N>()` for tuple\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 270,
+        "outputTokens": 165,
+        "costUsd": 0.000279
+      }
+    },
     "4a2953674a76cab13c367784cf2026b2f8f5e68c3693e98660cddb035a67bccf": {
       "normalizationVersion": 1,
       "sourceHash": "7365623295efd8461525c9d0ff0053da43c65191b8b5fa367104488c28b858f2",
@@ -29,6 +43,20 @@
         "costUsd": 0.000063
       }
     },
+    "4a39e45e43e74ba675a6d9e9c886b9ba6c91ac224025fd72062c78802f414bf3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef9b71ff730d4c15ac8bce9858e17b3687a8105ac094655174794284f9b28d2b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面两个成员函数指针类型并不相同：",
+      "translatedText": "The following two member function pointer types are not the same:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "4a4868719ebde813f357ce979d08a9bb91833fb03d33c130e5cda1493b0f2a57": {
       "normalizationVersion": 1,
       "sourceHash": "00db72049c325f19de6fd441b1399b059d0dc22c851f0f8cb58147d081f8f015",
@@ -41,6 +69,20 @@
         "inputTokens": 159,
         "outputTokens": 39,
         "costUsd": 0.000095
+      }
+    },
+    "4a4e2bbb855878ea2d1692c2b08d68fe05f3b57db843e9a8c584028d9dac51b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "d65a756a304a6dea869ad32df28ccf42f800f24203edc449a879265fe5c10332",
+      "contextFingerprint": "52acf89a925c869e712d142ca7420e960cebee5583f33196597e9e0c14b3e48b",
+      "sourceText": "`[*this]` 可以避免因为原对象销毁而直接留下一个悬空的 `this` 指针，但它会复制整个对象，因此也要考虑对象是否适合复制以及复制成本。",
+      "translatedText": "`[*this]`This can avoid directly leaving a dangling `this` pointer due to the destruction of the original object, but it copies the entire object, so it is also necessary to consider whether the object is suitable for copying and the copying cost\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 50,
+        "costUsd": 0.000109
       }
     },
     "4a7f511bcebc716eeda080d79458e3697611e606974ef6b095669eb926400d2a": {
@@ -71,6 +113,34 @@
         "costUsd": 0.000052
       }
     },
+    "4a817fabd0fb45e57949bcf95a2229ed0f04e39b0a4dbecba2fc3622c4c86c6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cfa0be7c302966757e72eb48b33b2655a56cb4dc35c40eadf9e82a17111b59f",
+      "contextFingerprint": "d5ac993c9b19a68d2c3814b8d36ab89ed9c9303bd5dee928f6e33154c75a1683",
+      "sourceText": "### `std::mutex` 的基本使用",
+      "translatedText": "### `std::mutex`Basic usage of ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "4a8a0d19445f71db6c1f888f86a38301e27f7d5ccac78bb3880623b516f15727": {
+      "normalizationVersion": 1,
+      "sourceHash": "a64c60e878e2290df197dab95e8a34a3f6cc19f7ca5286434f82e578fc6ea808",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "查询。",
+      "translatedText": "Query\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "4aa55eb0dde14528796f4f255273e4811ce9f97c03d081bf96cfd0110ab8a7c9": {
       "normalizationVersion": 1,
       "sourceHash": "5cfb4aa3aae4a222b25daf12bef1c020e62cf12518afd036a012552c012034b5",
@@ -97,6 +167,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4ac2f9a97f59eb011e4330f818f4d550864780f7ce0573b0461fa043d1fa41f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cf578e718d904eb85160f47e0b4c40cf7e649902e8c96e9cb0c62579d369dc0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板与友元",
+      "translatedText": "#### Class Templates and Friends",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "4ac783769142b160b2ba3e6b1115ef20f9277a057971288fc33ce2935fa97ede": {
@@ -127,6 +211,20 @@
         "costUsd": 0.000054
       }
     },
+    "4ae0f7c563faa22734ac2e50fd65721912a1e391458e566c66f91bb7a019b93d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9aa090a62b37fc7d0b33102d92b3ceb93020e9b5ea16f3eedfd85d2595f7854",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## enum class 适合表示状态和选项",
+      "translatedText": "## enum class is suitable for representing states and options",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "4ae5efa5489e9d8c1a66a064d471f360a448b95c57cd48c097b93d938105df45": {
       "normalizationVersion": 1,
       "sourceHash": "18b42758e786e450e45e05cfa69072a580a9c3f609e0ac3f13f2c4a8fdf36a29",
@@ -139,6 +237,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "4aeedd423989b7481736c74c421e493b9f099163674fb95fcb29d9f0b1a5f3b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8eebddb4e0ec961793cc95f9d3090ec56aff7a8ef1738441311b2cd88acc07ad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以记成：",
+      "translatedText": "It can also be written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "4af65e64696c397ed7f9c56a0eca1b115f2b879517e7ca2bf3a8c1a63ec55fce": {

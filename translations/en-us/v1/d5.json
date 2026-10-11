@@ -15,6 +15,34 @@
         "costUsd": 0.000129
       }
     },
+    "d536b772c18dc7cb82ad1eb2acbeec9e216c833642a079d07aab9045204a2c81": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a049f773b764d8e064dbad5c69d2ba2b231d8e1eefbdd1a31be99f183564d20",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**推荐写法：**",
+      "translatedText": "**Recommended notation:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d55cf3c5655ce7f97a0e2b50db6c807a08d018b2691c8ec7fbd0da4dc14395d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d83c19aff4054ecfb5fa5269e97627d06c9e60ddeb20c73347832b3e88a8929d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这和线程死锁非常类似。",
+      "translatedText": "This is very similar to thread deadlock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "d562e64b904f3bb4251ef437c1dd8f64553dc8627e37908bcd2537316ca9a630": {
       "normalizationVersion": 1,
       "sourceHash": "8143baf1d1e48c2aac4bde2188bf84a6fef22dfdc92bedf6fa6c86aa200e131c",
@@ -29,6 +57,76 @@
         "costUsd": 0.000056
       }
     },
+    "d57c3f494a712251496af1490df4b8acf5acd91185cc595985c4fe20c0c6f7d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee6aa4239f3c0ef1d799af22811e8efe6df563d5161783299779839be2373369",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两次加锁之间，另一个线程可能插进来读取：",
+      "translatedText": "Between the two locks, another thread may interleave and read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "d57fa8e42de36a0150033d8a4991bc6c0a6a22ad496e54c99914b9b199b4ef76": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a2151b2e557c34c72610c524ced035777e2154c8ac570451782d6b7f45742d4",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**比较方式：**",
+      "translatedText": "**Comparison method:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d585558c597f22950773a89b53ed4d80d62de6a9a1ad6a4bd3bef5c139418ea4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b4cc32c59ebf9bfd45d3b645b7a6ea5ca0de819a196390e5ad1f118e3f3146d4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要带超时地等待：",
+      "translatedText": "Need to wait with a timeout:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "d5d657ceeac78c321d602ecee9965b75250cee12b3f970556c45ce6ea83e42fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "7548b8b4187ea069aa7d6e7cabd9c4d85a6a81a5e2befd0300f29197ff9bc8ac",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 持锁期间尽量不要调用锁行为未知的外部代码。",
+      "translatedText": "> While holding a lock, try not to call external code whose locking behavior is unknown\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "d5dfd97ac304cca2f93c3d08aa51debd1379bca8385c76c2e2958009c9780b7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "31f51215f85d626499dc1e6f340ba004334beafb63d1dfa85d88e8fb3463334f",
+      "contextFingerprint": "53bea05765cda7613cc45688976a945d3a55887bfc473b92a6ae07337eedd309",
+      "sourceText": "需要的头文件是 `<memory>`。",
+      "translatedText": "The required header file is `<memory>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "d5e687cfe0772f0fba6733523b31e894e4f43951a4cfc05cc97f5413051f95e6": {
       "normalizationVersion": 1,
       "sourceHash": "6c087b2a5d2613906d78fc9653ea3869dd505b7f54e72c558e9333d9cec54800",
@@ -41,6 +139,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "d5ed444088a84a0a40dd0ae9bdbc7510a2dd5f808995e05d3a0f21a7dd3baf81": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9fc61fac8ca217341e2ebb3cc96e4670b6e56accba24b0dea24242a635e79f5",
+      "contextFingerprint": "636f28a0d50a239b6fc37208156bcd04630a4e596b3ae11f1f2494053ce9c5d4",
+      "sourceText": "* `string& operator+=(const char* str);`                   //重载+=操作符\n* `string& operator+=(const char c);`                         //重载+=操作符\n* `string& operator+=(const string& str);`                //重载+=操作符\n* `string& append(const char *s); `                               //把字符串s连接到当前字符串结尾\n* `string& append(const char *s, int n);`                 //把字符串s的前n个字符连接到当前字符串结尾\n* `string& append(const string &s);`                           //同operator+=(const string& str)\n* `string& append(const string &s, int pos, int n);`//字符串s中从pos开始的n个字符连接到字符串结尾",
+      "translatedText": "* `string& operator+=(const char* str);`                   // Overload the \\+= operator\n* `string& operator+=(const char c);`                         // Overload the \\+= operator\n* `string& operator+=(const string& str);`                // Overload the \\+= operator\n* `string& append(const char *s); `                               // Append string s to the end of the current string\n* `string& append(const char *s, int n);`                 // Append the first n characters of string s to the end of the current string\n* `string& append(const string &s);`                           // Same as operator\\+=(const string& str)\n* `string& append(const string &s, int pos, int n);`// Append n characters of string s starting from pos to the end of the string",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 91,
+        "costUsd": 0.00017
       }
     },
     "d5f541ae921f10b01769cdd8e4574d52569308ff014199f855469e38ab689526": {

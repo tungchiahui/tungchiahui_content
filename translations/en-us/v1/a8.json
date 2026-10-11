@@ -29,6 +29,20 @@
         "costUsd": 0.000051
       }
     },
+    "a8171870ab725f29fef71bccdd58f1a5f63b4a0d035550387a95f9ce63d75a4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e520c4f4ec0a4a5be1e37a95fee512dcb86401c3cd395fd0978bc67f08062d5f",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 统计set容器大小以及交换set容器",
+      "translatedText": "* Obtain the size of a set container and swap set containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "a823ba29f50e43ac2bd01e7f22b4a97198b7340aee248595d2954e45ccf24b51": {
       "normalizationVersion": 1,
       "sourceHash": "cdd2dd64c6bbee792d1f479c15a15df618f226a58e3714d22b1b1b2ed9905901",
@@ -43,6 +57,34 @@
         "costUsd": 0.000057
       }
     },
+    "a8359884d898f547102c8c5fe56c0a5864561870d25706b547b281be54a2c586": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f006b1bdcb640f7f6be7d66922d5783fae4c5957359527b51102254b645ee4d",
+      "contextFingerprint": "e2af12db86b322ddee0b8dee1486e387aa5d50f787d0bba872edd68e5ef01bc9",
+      "sourceText": "- 用 `std::mutex` 保护一段共享状态；\n- 对简单独立变量使用 `std::atomic`；\n- 尽量减少共享可变状态，让每个线程处理自己的数据；\n- 需要等待某个条件时使用 `std::condition_variable`，而不是不断轮询。",
+      "translatedText": "- Use `std::mutex` to protect a piece of shared state;\n- For simple independent variables, use `std::atomic`;\n- Minimize shared mutable state and let each thread work on its own data;\n- When you need to wait for a condition, use `std::condition_variable` instead of continuously polling\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 58,
+        "costUsd": 0.000122
+      }
+    },
+    "a83d11506fbf509a466aa09f3415a53cca35958adef328cf5a66eeab9d719085": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9d3bf72f7d16ffec69170f900652d825ea6bec0fba82cc353b47698025ecf3a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### deque 数据存取",
+      "translatedText": "#### deque data access",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a83f59a981a754e3c387d1f83663563ed34eed4669f1880af1db42a48f0ba9f2": {
       "normalizationVersion": 1,
       "sourceHash": "b2b505b3cadecda1b7232ecf00693058cb81025410d597d32ff34d88cfe32bac",
@@ -55,6 +97,90 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "a866905c925bec281ad3f2e3335e8efb2628fbe13770d00328bdf4eff47ed33c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ad419ee5995fba1ae4c9100204691abfe835a405717d42e026586b2aeb2885c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把两种写法这样对比：",
+      "translatedText": "The two approaches can be compared as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "a867cdfda61f9cdea8ef9ebef3c89d0ca66ae80db10599920c39de8577f75479": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7c4eb24cc9bef40e141834766bc7592d30f4f81ed312438a441be43e0cace43",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一般用来查询：当前系统大概支持多少个线程可以并行执行。一般是CPU 的逻辑核心数 / 硬件线程数。",
+      "translatedText": "Generally used to query: approximately how many threads the current system supports for parallel execution\\. This is usually the number of CPU logical cores / hardware threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "a869b33f3ff5f8b26bf3e7594d2bdd2f98abe3cfb09dc4f2123e0a72dfb26d1d": {
+      "normalizationVersion": 1,
+      "sourceHash": "92294291693ad8a13d0f2b257a64af5ab6a4ebc5f55b225e0c70a1ceccdda58b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以这类写法可以记成：",
+      "translatedText": "Therefore, this type of notation can be remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "a86cc628cd30641d17d9041f3c3425597dc663c538faf19f66800d6a3b6d1659": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a564a1a548a9b0333fa3f0d0fcd7609ba74865cd3463cf459702e9a82dafd62",
+      "contextFingerprint": "09eec7a3f20ed01b041cc3c025233cac04e8e5c75bf9b7d85f9fe2498ae66278",
+      "sourceText": "正确做法：先用 `std::holds_alternative<double>(v)` 检查，或用 `std::get_if`。",
+      "translatedText": "Correct approach: first use `std::holds_alternative<double>(v)` to check, or use `std::get_if`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "a8807b829bc3a2290db2715605ee4cb3788e8bfd7a2240c0f5d299d5252e1c74": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7a273b6437566064bd4c32eaa50a01bff8172dce90dfb549cddd6b3b7c3c314",
+      "contextFingerprint": "ebcb409bd1adc5c50303426a6e8d638022049d7b01435fa5fcab25307240aa1d",
+      "sourceText": "- `std::thread t(f, args...)` 的第一个参数是可调用对象，后面的参数是传给它的实参。\n- 线程参数默认会被保存，引用语义通常要显式使用 `std::ref()` / `std::cref()`。\n- `join()` 等待线程结束，并让线程对象变为 non-joinable。\n- `detach()` 让线程脱离当前 `std::thread` 对象，生命周期风险较大。\n- `joinable()` 判断对象是否仍关联一个可 join 的线程，不等于线程此刻是否正在运行。\n- joinable 的 `std::thread` 析构会调用 `std::terminate()`。\n- `std::thread` 不可复制，但可以移动。\n- 线程共享引用、指针或对象时，必须额外考虑对象生命周期和数据竞争。",
+      "translatedText": "- `std::thread t(f, args...)`The first parameter is a callable object, and the subsequent parameters are the arguments passed to it\\.\n- Thread parameters are saved by default; reference semantics usually require explicit use of `std::ref()` / `std::cref()`\\.\n- `join()` Waits for the thread to finish and makes the thread object become non-joinable\\.\n- `detach()` Detaches the thread from the current `std::thread` object; the lifetime risk is relatively high\\.\n- `joinable()` Determines whether the object is still associated with a joinable thread; it is not equal to whether the thread is currently running\\.\n- A joinable `std::thread` destructor calls `std::terminate()`\\.\n- `std::thread` It is not copyable, but it can be moved\\.\n- When threads share references, pointers, or objects, object lifetime and data races must be considered additionally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 259,
+        "outputTokens": 159,
+        "costUsd": 0.000269
+      }
+    },
+    "a88772bf7b0bde00c2fcb7e7a3ba57536ea54af5860620c7aa68516967279fcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d5300cd4917f22bf4fefe977345a072398158e15bdbeefd75d852c99c5041ae",
+      "contextFingerprint": "fd50979158523c62265786b207ab41fb0e40724ef153bad7bc7b79899677e765",
+      "sourceText": "**错误 3：`auto` 不能用于多变量声明**",
+      "translatedText": "**Error 3:`auto` cannot be used in multi\\-variable declarations**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "a894f6ee038ce7ee03758d3c8639350b1a59aeef6f675164284d75ea726bec34": {
@@ -83,6 +209,76 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "a8982c8fdc6da12d2002d6f8263552ad7337d4573b9cd2a304f2c0958e6e85cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "24f9720e78ab8ca0137c8a720688a942faf140ce96ca6afc15bb3c87b0e1b317",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们人为规定：",
+      "translatedText": "We artificially stipulate:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a8c20fd98cdabb2300dceb2b49078c3776b54e831ca05d225c2f215874d3fb8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e78e559a41da1792f2e6aaaa517526d825d883b64bddb0c9283b9e766c4fa50",
+      "contextFingerprint": "ae7fd167e83f8dd4bde442f465d023be06fd18315db55dd55ba1863043f176fe",
+      "sourceText": "1. **永远用 `enum class` 而不是旧的 `enum`**：类型安全、作用域清晰。\n2. **可以指定底层类型**：嵌入式场景用 `enum class : uint8_t` 节省空间。\n3. **需要整数值时显式用 `static_cast`**：不要指望隐式转换。\n4. **enum class 仍然是整数，可以 switch**：配合 `default` 分支处理未知值。",
+      "translatedText": "1. **Always use `enum class` instead of the old `enum`**: type\\-safe, clear scoping\\.\n2. **You can specify the underlying type**：Use `enum class : uint8_t` in embedded scenarios to save space\\.\n3. **When an integer value is needed, explicitly use `static_cast`**: do not rely on implicit conversion\\.\n4. **enum class is still an integer, can switch**：with the `default` branch to handle unknown values\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 80,
+        "costUsd": 0.000155
+      }
+    },
+    "a8e4e4410b93ecb7b5574c463072e3911a5d63ca76287543bd72c3a8d9a94195": {
+      "normalizationVersion": 1,
+      "sourceHash": "07580d7e8f4ffbf0b1f697f7ec4b8de0f2bd1aac40cb67e12b884bdf737e4960",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 普通函数与函数模板的调用规则",
+      "translatedText": "#### Calling rules for ordinary functions and function templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "a8e50440b2155e6a29fb69f053415c654fb844e845b4be5900627672a2c53fae": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8f4e0ef147a8a609323bea6fb196eecb3d58a1236970640c981c7e826bd3f53",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常处理注意事项",
+      "translatedText": "### Exception Handling Considerations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a8ee533912479d4bf739e1e3f841f5b87389746fae51821aa5a4cd77e89638b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "616c57f8eb3bb2ff528f87495e8872a4cd27cfeb5b80237a7b9082de940e3aca",
+      "contextFingerprint": "5cf8e1971841f195145734208d0007d59656321190dd1a0dc0037bf2793e2e54",
+      "sourceText": "### 扩展示例2：使用 `using` 给函数指针类型起别名",
+      "translatedText": "### Extended example 2: Use `using` to create an alias for a function pointer type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     }
   }

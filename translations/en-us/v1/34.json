@@ -29,6 +29,48 @@
         "costUsd": 0.000052
       }
     },
+    "3426724609da30ca027444b31abf2d7b58b497dbae3e316dc643aebc89391699": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff498689f290b630077b91b13dd977f854e7c502b93dc18fd21a7b55a452b300",
+      "contextFingerprint": "e36f4a3b6eca786484c9392f08c1573ed7a6655570eb9631ea4b8d1629934def",
+      "sourceText": "规定要寻找长度至少为 `6` 的名字。",
+      "translatedText": "It is specified to find names with a length of at least `6`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "342f717664e019934a14df0fa9c7f91bf32102dde92ebfc15a56d9f8b8f81c05": {
+      "normalizationVersion": 1,
+      "sourceHash": "abbfd96aa788beb3745a9fd1140314435d057b3716be8fdafb7023445fbd2c8a",
+      "contextFingerprint": "94b0ff7e5d9b8995ab316d21ac762124e3ce5f6a3bfc293b078483535363310d",
+      "sourceText": "- 只是临时使用对象：用 `T&` 或 `const T&`。\n- 函数可能没有对象：用 `T*` 或 `const T*`。\n- 函数要接管对象：用 `std::unique_ptr<T>`。\n- 函数要共同拥有对象：用 `std::shared_ptr<T>`。",
+      "translatedText": "- Just temporary use of an object: use `T&` or `const T&`\\.\n- Function may not have an object: use `T*` or `const T*`\\.\n- Function needs to take over an object: use `std::unique_ptr<T>`\\.\n- Function needs to co\\-own an object: use `std::shared_ptr<T>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 56,
+        "costUsd": 0.000119
+      }
+    },
+    "343589714a14240c4fc6c6919520fcafe0cb315c6f971da3e844a8e1991ed115": {
+      "normalizationVersion": 1,
+      "sourceHash": "d2874f0178257c1e878ec21c9855c0f9028770526f8662ebad2d1f907e4de1f0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但有时候程序不希望无限等待。",
+      "translatedText": "However, sometimes a program does not want to wait indefinitely\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "34397be4e078eda4632a17d96812671588fba201eb8c51cf7bc22215e6609b2b": {
       "normalizationVersion": 1,
       "sourceHash": "8b932904d8c64111e5b22bb96f1a4279f9f473b0ec3d910215f332dddda9b2d8",
@@ -41,6 +83,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "344e3d07b6049072ac5139d2dae0efcc0e5f4554694beba776cfc267ac9c5b57": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb39e2b13d3b93d1c87c5cc8ad151fe7cb5e3013c7699c25634e23d9ba3431a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设有一个房间：",
+      "translatedText": "Suppose there is a room:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "34500e50784390e5b8be56b13c90d61dd88d550534b98e7bde4ec770cf4a24df": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9fcf3889dc17be5442866e83089511b873c27930891133017e882ca281dbc6e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每个线程都执行：",
+      "translatedText": "Each thread executes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "345466bdb673d05adc8c6e1a7275b628cd54df261ca2fde17cd76834f369d635": {
@@ -127,6 +197,34 @@
         "costUsd": 0.000052
       }
     },
+    "34c2c8cd29ff09814ab0f3b9a59614efc74ccf3b9e34e2859c791d5cac9a402d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ade760495988a1bdc5ffcafea18268e243217fa369649585383e1edf2e882b3c",
+      "contextFingerprint": "fa03ecc33e3da1b16cef581ec1074016ed37a7782b71744e0d5469d21d39c04b",
+      "sourceText": "这行代码使用 `const_cast` 去掉了 `readonly_ref` 上的 `const` 限定，让它重新变成一个可以修改的引用。由于它引用的还是原来的 `value`，所以：",
+      "translatedText": "This line of code uses `const_cast` to remove the `readonly_ref` qualifier on `const` making it a modifiable reference again\\. Since it still refers to the original `value` so:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 39,
+        "costUsd": 0.000096
+      }
+    },
+    "34c960aa213141ca1bfabf30bab7afb0b55980e6b066058c4ee720093280ea64": {
+      "normalizationVersion": 1,
+      "sourceHash": "d4c992d2b4552abe19242eb95f8d34d91ebe0d74a11de25bdf24278b740d2943",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "如果两个线程同时访问同一个内存位置，并且至少有一个线程在写，而这些访问之间又没有正确同步，就可能产生 **data race（数据竞争）**。",
+      "translatedText": "If two threads access the same memory location at the same time, and at least one thread is writing, and those accesses are not properly synchronized with each other, a **data race** may occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
     "34d696d41aeb45d4693036e07943a331252fe113e1124a4c84dc8b6802fe2d5b": {
       "normalizationVersion": 1,
       "sourceHash": "da1ebe1617059f5ca9af4aca724560bc57f2c6234ed355dd34496f8127e050ff",
@@ -153,6 +251,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "34f3ba6738c89c8b185a47e4f7d044bc28a9ae12ee24455fde5f7e26ec008b0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d1528bca80041781d260173c326b69a546ca5e82c8be835b1e1d23c8c75d2f1",
+      "contextFingerprint": "36bcedabac5be8d8fc8d9cda18f3d3f8a528620d5c1c1a8fad1f89330a535379",
+      "sourceText": "### 扩展示例1：使用 `nullptr` 表示空函数指针",
+      "translatedText": "### Extended example 1: Use `nullptr` to represent a null function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "34f577e7ed6f277c4a9ec86ad69415ece7ef78171b417a33888cf48bfd7e180d": {
+      "normalizationVersion": 1,
+      "sourceHash": "778264ad346d975c48c20e38ed23cc01c992994e29e97ed8db4426217950f53b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**swap交换容器时，注意交换的容器要同种类型",
+      "translatedText": "\\*\\*Summary:\\*\\* When swapping containers, ensure that the containers being swapped are of the same type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     }
   }

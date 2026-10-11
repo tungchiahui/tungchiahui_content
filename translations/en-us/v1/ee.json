@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ee000aa9b9c1b55f8347d8f592e651c016faceaaae8a22b1a99757dcb24fe31d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f3f3454196104f8b8c8065a085f9ceac7415a510289460dab37d24ac88b2b3a",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：用 span 接收临时对象**",
+      "translatedText": "**Mistake 2: Receiving temporary objects with span**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "ee09fd9f493ee8afe74721b7dc72142c8c91c0c5c0521cb904ca82878b774dc3": {
+      "normalizationVersion": 1,
+      "sourceHash": "a808647f4336307c082859d7ab802f45f4cf135e24c431bc57d403aa8344ae17",
+      "contextFingerprint": "c7231f3c884dfc352f4e6ba9a323b698c7dc76d4a0f4a5ec79d2f66b03e3e573",
+      "sourceText": "#### `static_cast<std::size_t>`",
+      "translatedText": "#### `static_cast<std::size_t>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ee0fc096eb57b48c10d2aea6626030aed4600a4f1e09319ed611cfb9a5636f8c": {
       "normalizationVersion": 1,
       "sourceHash": "2d15e60b885b84246a5d42f4bbf550f466c1b01188a05b8e46a5a1f80aa104cf",
@@ -13,6 +41,20 @@
         "inputTokens": 144,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "ee27398808db25a14b8ee2aa4b3d7f9e33b92cb4773960d92d5ef2744cf55672": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ec40f717a56f01fc76f76e25186d337b23e18f5a2c95c9e5c74d9bef17027c0",
+      "contextFingerprint": "9a438385e2dea741a73877282ef299b2c00c7b74fff0a0a2c92c238fdad00d22",
+      "sourceText": "上面的写法中，`runtime_error` 会先被 `exception` 捕获，后面的 `runtime_error` 分支就没有意义了。",
+      "translatedText": "In the above pattern, `runtime_error` will be captured first by `exception` and the subsequent `runtime_error` branch becomes meaningless\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 26,
+        "costUsd": 0.000077
       }
     },
     "ee2e3998c0d8d7a0834d082de4f7e7a163212cf61f51e6ee9aef442c7ef5c4aa": {
@@ -57,6 +99,62 @@
         "costUsd": 0.000174
       }
     },
+    "ee49470f8de9e27ae5bf50a80a5c7b2ebe6cf2315d21329f5e65336abe92a171": {
+      "normalizationVersion": 1,
+      "sourceHash": "abd88eeb94aa20d5afb53e61a533efc956b8ae96a42b0f1fb3c104d4c036cab7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面已经学习过函数重载：多个函数可以使用同一个名字，只要参数列表不同。",
+      "translatedText": "We have already learned about function overloading earlier: multiple functions can use the same name, as long as their parameter lists are different\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "ee4d44e28c9da1e2398308d54e22c8192ca6da473293e1d883fc6ff739988d17": {
+      "normalizationVersion": 1,
+      "sourceHash": "42ffe2d3d3353dc51e3b75029a069b3cc51c180759b06870257a8db87fdad465",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 创建了一个多个线程竞争“进入某段临界区资格”的同步对象。",
+      "translatedText": "> Created a synchronization object in which multiple threads compete for the qualification to enter a certain critical section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "ee58ef0472bfa7baa8f2d8581d0d1a3c6954a974a02b94071de91523c1a7648a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c54e16d3de689669962d2b2c2a9950703afec5233ed3bdc1afc92344770aa17",
+      "contextFingerprint": "c482307e4e617134eb8383718e6b96422d0d3f0986a3abb49db0bb81a80f23ee",
+      "sourceText": "> 总结：对象使用 `.*`，对象指针使用 `->*`。",
+      "translatedText": "> Summary: Use for objects `.*`; use for object pointers `->*`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "ee605a17580b1d17a5942d8f02f262b04c1aab7439e85a436835690cee9a2279": {
+      "normalizationVersion": 1,
+      "sourceHash": "53856d5e0de4278f4ccf58858b66251123de92714b07a13183172f26cbe5da30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如：查找find，拷贝copy，删除delete 替换replace，插入insert",
+      "translatedText": "For example: find for search, copy for copy, delete for delete, replace for replace, insert for insert",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "ee6b9ba51236e65fa787171b7899c5a935b871ab641e180b910c18b86a1b5729": {
       "normalizationVersion": 1,
       "sourceHash": "f7e624759047c1a8405af38451c48e51a8ee2024f5811f00f26c2565e3d6bb1d",
@@ -83,6 +181,48 @@
         "inputTokens": 167,
         "outputTokens": 65,
         "costUsd": 0.000129
+      }
+    },
+    "eea02bf5e51f5422ff1d7e34b37a30c1cc2cb9499820099510f60961ce4effd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "4542dcf5e7d6e253ba34bef14fcb194a5ece514b913daa89ad390245d15c8545",
+      "contextFingerprint": "f403200d3a6e1453bd97cc230ac4debe494ea829525f48df83b0df137d953310",
+      "sourceText": "`array` 更像“有 STL 接口的固定数组”，`vector` 更像“会变长的数组”。不要因为 `array` 更轻量就到处用它：只要元素个数运行时才知道，就应该用 `vector`。",
+      "translatedText": "`array` More like a \"fixed array with an STL interface,\"`vector` More like a \"variable\\-length array\\.\" Don't use it everywhere just because `array` is more lightweight: whenever the number of elements is only known at runtime, you should use `vector`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
+    "eea3af959288b22a8b47f5d403698192a554bf7c9b96ea2202a1c0d06e0bdf1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a2598ee4244470423fdf301fcc005cd53406e29459fd4853653c38d92543d03",
+      "contextFingerprint": "7953a84c3409ee61bfb13e0565ac1c8b086781e164007474e5a43d1134a4f830",
+      "sourceText": "C++11 引入了 `using` 别名声明，语法更清晰，还支持**模板别名**（`typedef` 做不到）。",
+      "translatedText": "C++11 introduced `using` alias declarations, with clearer syntax, and also supports **template aliases** (`typedef` could not do this)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "eea64dee0907409d2c94fb6ce3ec76ef308baba9cbadba8ed22df3437b8056d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "aad6a5e381e0aaf5e58038833a43f0e581120dca21c766d39742b90e05ef16b8",
+      "contextFingerprint": "7fd0d3e9a1e8846b36632104dad73e7961a06636f880b97fb7bdac919247dd83",
+      "sourceText": "只能保证对 `x` 和 `y` 各自的原子操作不会撕裂。",
+      "translatedText": "It can only guarantee that the individual atomic operations on `x` and `y` will not be torn\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "eeab1fd54aa22c073de70bf041efde73eaa3af3f2cf702a643774aef2b8eb805": {
@@ -113,6 +253,20 @@
         "costUsd": 0.000071
       }
     },
+    "eec3a28432ccdb897aa08d7e0e72a62c1209b568432c7083e1aab25da96426a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "52ab3bb5f94daf44a6397fa71906483c075a843397b0940ddb9e271eb8e9f543",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但可以转移所有权：",
+      "translatedText": "But ownership can be transferred:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "eec3c816a0630986c5162ffbb7e6cd179f377aaf7244ff61fe562be331d983e7": {
       "normalizationVersion": 1,
       "sourceHash": "a0ca76a380f3a5956d66486525daf17454e5b232f1c4ce58559cb522b38952d8",
@@ -139,6 +293,20 @@
         "inputTokens": 202,
         "outputTokens": 88,
         "costUsd": 0.000167
+      }
+    },
+    "eef1375601b04fac2f21b4bc60afb5c504e06a4446ce0c203119ef84331ca233": {
+      "normalizationVersion": 1,
+      "sourceHash": "59696fe4e91425655968048225b95c07c57806c91823fffd8610f85eab839f16",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际上等价于：",
+      "translatedText": "In fact, this is equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
       }
     },
     "eefcd2d9319e8b40802eeae5ba95cfc2ab80d06991fbb593a8e5f2a3c437fa10": {

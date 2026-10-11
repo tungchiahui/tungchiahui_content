@@ -15,6 +15,20 @@
         "costUsd": 0.000119
       }
     },
+    "a72ad949add60a0de776d7ce75f4d5ce9ac40e79d81050965e290909645eda19": {
+      "normalizationVersion": 1,
+      "sourceHash": "85d482d65efdcad3b39365ff5cabbe09de3d27009cf46fa196a221be88839671",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这段代码里：",
+      "translatedText": "In this code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a73a0993b1f22268a92037d4871dc68f36ebd0f483cd48450b1865b686306454": {
       "normalizationVersion": 1,
       "sourceHash": "89614deb43d57f01bc00deb3cc2bc81d9af300865e135ee0a17f46c8a2733f02",
@@ -27,6 +41,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "a7520efd9a41b511195cbc5a0834479ca1093d698f07c4451d1f9b01698b8be0": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ba94b42e79c279d9184ec7090f62f2def4f42e8ce6d4e4bac4f795724c94be2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最大的问题就是：",
+      "translatedText": "The biggest problem is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a7564d127238b8986af1c4ae060585a1a6cdb6a2deedbd437701e0db2319ab05": {
@@ -57,6 +85,20 @@
         "costUsd": 0.000077
       }
     },
+    "a7744bfd8d1236fee1fdc9c4c7f580d0b2e2f82f7eab3951af85ac2dc7857387": {
+      "normalizationVersion": 1,
+      "sourceHash": "eceaf4b77e7c8d2d4cbb1cab5ff0d45190b726a093c868fea3b529406c914f56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "时才值得考虑。",
+      "translatedText": "only then is it worth considering\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "a7838e0f54c748f6b0754e48e53055cef03fe44ee2aaa7a4d4e2ab1c46587d66": {
       "normalizationVersion": 1,
       "sourceHash": "600f06190a4ad84ff055584ff1d468e418e5e9341d5069c4b93dca79d74632e8",
@@ -83,6 +125,34 @@
         "inputTokens": 143,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "a7b4fc76875088c1b475c36424a5d1f0a0199d3be9b8fd688870c54106c61131": {
+      "normalizationVersion": 1,
+      "sourceHash": "af105ed63e522985f93698b2424459e8ca500651a32b2457ee103e9c50eb4c06",
+      "contextFingerprint": "4d5ad86f5c8a2e7d0425894309b4f677f1e52d1244b1c2bd4e6b73ba40083c63",
+      "sourceText": "`auto` 关键字告诉编译器：\"请帮我根据初始化的值，自动推导出这个变量的类型\"。它并不是弱化类型安全——推导出来的类型在编译时就已经确定，所以仍然是强类型的。",
+      "translatedText": "`auto`The keyword tells the compiler: \"Please infer the type of this variable automatically based on the initialized value\\.\" It does not weaken type safety—the inferred type is already determined at compile time, so it remains strongly typed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 51,
+        "costUsd": 0.000113
+      }
+    },
+    "a7f15a506c5303fd23892c66560a159ea2a4a20a98c33159571295973950044a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9be8e47183e5d162a239b53ed2d4b1443ae8a65fd2438be3a1a5cf1167bfd1c8",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "总结： 利用find可以在容器中找指定的元素，返回值是**迭代器**",
+      "translatedText": "Summary: Use find to locate a specified element in a container; the return value is an**iterator**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     }
   }

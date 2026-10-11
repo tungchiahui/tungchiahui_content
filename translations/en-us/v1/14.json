@@ -15,6 +15,34 @@
         "costUsd": 0.000052
       }
     },
+    "14214070892cb13d42036aea6ce5b8b01c2bdccc36d807e85f53212177a646c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0d4c3e66bfb7fbdd5d0b1eb0a452c54a879ebf6fb436a5c6253cef5a10f3122",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 互换两个容器的元素",
+      "translatedText": "* Swap the elements of two containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "142450e53b6ac76d64a0c02ef5f4837b5a39c71d7cd1c182cb58255d1b09f661": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5d9a8c0ddbea667bfaef299d1c99202c2566f60d7397092a2dd7f6c96686911",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**运行结果示例**：",
+      "translatedText": "**Example run result**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "14301bd98f96ccca4f46457a6033a77f055dfcb80c7934de051439725fd2f3ea": {
       "normalizationVersion": 1,
       "sourceHash": "f4b200d1cf2a2558c31b3421c489e40788730378ba2cfe41bf258c5bc829acf7",
@@ -27,6 +55,104 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "1443853f8c35d76360edbbacd31c79c00bc29f242c28e0e2480962af04dfbad4": {
+      "normalizationVersion": 1,
+      "sourceHash": "5633729e3e84a4ee71111c8a6c90a7c22a0eebadfc4933e26e3edf6a3d440215",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但两个线程明明都执行了一次加法，正确结果应该是：",
+      "translatedText": "But both threads clearly performed one addition each, so the correct result should be:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "14442605cb04f6f42f119c05bed0bc1668bddf9694da5f2aac8387d8941d0a1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "08d3bd8b61830d9183568058c213d609e2e1d1ba3fa572523a769231d8bec6a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完全有可能是",
+      "translatedText": "It is entirely possible that",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "14574f3a3157acf2856ffe5586ba0fbd89ee22bb036a67792d95c028c5f37576": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f57b60c4777785829f75dd6b605910abfc80bfa0ced6978e1fa856ba8b791ae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以后，线程 B 才有机会继续。",
+      "translatedText": "Only then will thread B have a chance to continue\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "145ed8e672f107b18912f1147d7e234bbb203446df9250cb77b1182f9e4a8869": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d4665779ae6050d89df6e8603f60799d4b156cbab42a5710f231ae712d6dd64",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**动态扩展：**",
+      "translatedText": "**Dynamic scaling:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "145fc85e9fb99416adae892c293d721618e2cf5d67d36bc031fdb50c5b8954fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "c884e0b31c6202bd3d0c4fb89d9f70cb7f3257bcb547d0299797b7c0de9021e6",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 其他 mutex 类型",
+      "translatedText": "## Other mutex types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "146c27e0b0e087931ff1ca2c5303b5d5b25ae4299b82a3f60ba3e06f2be4540d": {
+      "normalizationVersion": 1,
+      "sourceHash": "37c2af14a0b918d96c6c0ece314ae109f8fa5e6d5618365b5bb4189891d00508",
+      "contextFingerprint": "5c012e46f66e05e69719b96f44f3eaf4da258ce30c7f0aed30ea911c0b031802",
+      "sourceText": "- `std::span<T>` 是不拥有数据的连续内存视图。\n- 可以统一接收 vector、array、C 数组——一个参数类型覆盖所有。\n- 支持子视图切片（`subspan`、`first`、`last`），零拷贝。\n- span 的生命周期不能超过底层数据。\n- 只适用于连续内存容器。",
+      "translatedText": "- `std::span<T>` is a contiguous view of memory that does not own the data\\.\n- It can uniformly accept vector, array, and C arrays—one parameter type covers all\\.\n- Supports subview slicing (`subspan`、`first`、`last`), with zero copy\\.\n- The lifetime of a span cannot exceed the underlying data\\.\n- It only applies to contiguous memory containers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 76,
+        "costUsd": 0.000148
+      }
+    },
+    "146d0d578420a1f27314dbba73a8cc95cbf534dfc09477e9e3ef66a3a49f9898": {
+      "normalizationVersion": 1,
+      "sourceHash": "4390bace65497edae2b5ba50ae161e3bb5a708bd2b8e20fc54534dceeac09e4f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常与构造函数",
+      "translatedText": "### Exceptions and Constructors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "1485c127e15de3f86593882804cd49cffdd08579cafaa675a0a20d3e78542a86": {
@@ -43,6 +169,62 @@
         "costUsd": 0.000073
       }
     },
+    "14a678957b3e160d98593c8a63dd5d8e8b722a3c3bbaf5bc56ee2b500167b8ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b33f9351bc9b2ca1d84ffc95dad47ab3ee53e68a5eec19c1812a492ac8244e4",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 掌握类模板配合友元函数的类内和类外实现",
+      "translatedText": "* Master the in\\-class and out\\-of\\-class implementations of class templates with friend functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "14a6879aebe4abf38642f0900f7a7a769c490ed1ed4b7715269dad5f005c7bbc": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8db5379b65f8ca099db67f4f456372e300742960b617cb506e3cb0b63fb6d67",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 多把锁的顺序不一致",
+      "translatedText": "### Inconsistent order of multiple locks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "14bbe84ed76bac16a9c4443deebd71690b23db869295d5e33df38f23df2368f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a946525fe6153fc3e8c159eff6c9c5a24ef5d4cb6e9984f5811271e4a0aa293",
+      "contextFingerprint": "115cb785ab1e8d0aeb55ea59185671e0824384a86db07d16ba405b37e6fd824c",
+      "sourceText": "`std::move` 定义在 `<utility>` 中。它的作用不是复制数据，也不是搬运数据，而是把一个表达式转换成可以绑定到右值引用的形式。",
+      "translatedText": "`std::move` is defined in `<utility>`\\. Its purpose is neither to copy data nor to move data, but to convert an expression into a form that can bind to an rvalue reference\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "14c5b5364e32a1d9033817f7843a8f2f3cee08587ab83f5ecdb4a4f6cfdfc05b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3bc90677c7244af055ffe04ac80b6facfc4f98432292a4262fff05dc410cb48d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "我们平时看：",
+      "translatedText": "We usually observe:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "14ca730bc03c061418d7b13e14851ef56f683ad894638783745ce8b2183e5f46": {
       "normalizationVersion": 1,
       "sourceHash": "53595c405001c231675be32e8134718bf9da8dd42c554c7de5cceaec84ef813b",
@@ -55,6 +237,34 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "14d930d26385f082acc2c949a24b46e093c6dfdf433113cc0ea443a181ebe308": {
+      "normalizationVersion": 1,
+      "sourceHash": "b358d4184f9f6cf560885af33050fa46c1f93e3cb0adcac10006b8d3a478c3e1",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "在 ROS2 或机器人项目中，异常处理要谨慎使用。",
+      "translatedText": "In ROS2 or robotics projects, exception handling should be used with caution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "14faa8f998cf998d9d2d06bfbe3e734ec6dcb887b5b2e34bedd46698fbf06b9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "99638a650df2602d2dcf247aa11051323df3ec22c8b5c097016e9dc38077f7dc",
+      "contextFingerprint": "c5826cdacfb9fe8d386548c59bdc13ca99c8f4cd9e72c6fd4d7d9a32baf69380",
+      "sourceText": "运算符 `.*` 表示“通过对象使用成员指针”。调用表达式外层的括号不能省略，因为函数调用运算符 `()` 的优先级高于 `.*`。",
+      "translatedText": "Operator `.*` represents \"use member pointer through object\"\\. The parentheses around the call expression cannot be omitted, because the function call operator `()` has higher precedence than `.*`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 39,
+        "costUsd": 0.000095
       }
     }
   }

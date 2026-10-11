@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a200f7af6ead1ed95ff6a75a7ce04f0523adbd33bfbd53d0e7fb3148cb795f02": {
+      "normalizationVersion": 1,
+      "sourceHash": "528ceef2b0e3a46ff60da9a1992a4885a0614d274d9e0f8b72ed9b53c3857cd8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### string构造函数",
+      "translatedText": "#### string constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "a2053b9d04ef7704b553b4d6ccd32be4c8439c34c80edd48089fd01d40f07456": {
+      "normalizationVersion": 1,
+      "sourceHash": "8df65718aabd99d14d784c37b142fcc2ee093fc504a05f1c844d62b39998f25b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等能力时：",
+      "translatedText": "and other capabilities:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a211d331694b9781e2c402377fc227d12df5b0c1aa568c1a59c46ff7e961ec00": {
       "normalizationVersion": 1,
       "sourceHash": "6735eb39286ee5a7ef16cd755e70a7e130d181eeff3dc525bcb8c955506fb206",
@@ -27,6 +55,76 @@
         "inputTokens": 149,
         "outputTokens": 41,
         "costUsd": 0.000094
+      }
+    },
+    "a231e7e249208ec04abaa4fdfe8181ca83df47824c9c13a717560d6e7c75f838": {
+      "normalizationVersion": 1,
+      "sourceHash": "b69b30929ebb4c55afc67115be96dc29cdd3e770c7180a975ad93b40173d1010",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**分类:**",
+      "translatedText": "**Category:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "a2334517ee1dd58b62d4fe5ae454e4fa8f50fae871c537aeb458bf67c4aa3752": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb8fb180a3c17833cd4f34ae024eccf262adfbb54d54dd7816453941d0c27809",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按值捕获会保存定义 lambda 时的副本；按引用捕获会访问外部变量本身。",
+      "translatedText": "Capture by value saves a copy at the time the lambda is defined; capture by reference accesses the outer variable itself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "a24214f6fb55fa8a7eb479e2defadbb0e956b26ed88208d30c098257a46c0a7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "863f21c46c52ca0c6daabe9b55fd412f7f87e7de39e3f665402b75caaa6767bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是一个 const 成员函数。",
+      "translatedText": "is a const member function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a27263680d74910644e16c6fb8fd642f99bf3f373a4a99eb205e01c6dd2a9591": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff5ca21a333cfd5a77ccf91d927491c7c2d41801d4e62e901199e13c4759e45e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其中 visitor 并不是某一种固定语法，而是任何能够被调用的对象。",
+      "translatedText": "Here, visitor is not a fixed syntax, but any object that can be called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "a2a366d1d443bf20d54a690c104d600eff2755c31c8f6e5554919d523fb3169f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c53a0561fb9d91fc70c6630b87276efe13cee8cd7bd3a447b3f0d66277a3fea6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但如果对象先离开作用域，再去等待线程，就已经太迟：",
+      "translatedText": "But if the object goes out of scope before the thread is joined, it is already too late:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     },
     "a2a6a037bad34f60aecd6a4b426423ff5995993928feb48c326c081c3dfdeea1": {
@@ -85,6 +183,48 @@
         "costUsd": 0.00005
       }
     },
+    "a2c62e0c01832f65ac30c563838bfd4f60420334b982550d5701a33d72620c50": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0e4d89e78a8b0350a3e8837c976d5a136ce59266fc9a2724954a6d192a84ebb",
+      "contextFingerprint": "56f0c864042e0be6eb5e64024afafc81b0c5fdf731c3feb421dc4f1bad80a874",
+      "sourceText": "- `enum class` 避免名字污染，枚举值通过 `枚举名::值` 访问。\n- 不会隐式转换为整数，需要 `static_cast` 显式转换。\n- 可以指定底层类型（`enum class E : uint8_t`）。\n- 适用于表示状态、等级、选项等有限的离散取值集合。",
+      "translatedText": "- `enum class` To avoid name pollution, enumeration values are accessed through `枚举名::值`\\.\n- It is not implicitly converted to an integer; `static_cast` is required for explicit conversion\\.\n- An underlying type can be specified (`enum class E : uint8_t`)\\.\n- It is suitable for representing finite sets of discrete values such as states, levels, and options\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
+    "a2c6a487632d68a0eda7469f4917acc1c5af3fb835172a503143d161b852ab9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "74d7df2291a732aa96cea55ca532343f4b9afa02d7c742a0ab89adfe1d269e2d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "= 返回   0",
+      "translatedText": "= Return   0",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "a2ef2ca6823a79581d6d2b09bf4f6b4dcd97d442ba73cb5617acc52ec5981696": {
+      "normalizationVersion": 1,
+      "sourceHash": "2eec12bd5e550f5809e203def7114db50289ed3beb814ec663addfbeaec5db4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由于它重载了：",
+      "translatedText": "Because it overloads:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "a2f7197dfdeeb3f777745eb2c2f6b34d4546d11eeca9dc6b87adfc0946fbf781": {
       "normalizationVersion": 1,
       "sourceHash": "3f3bbd1e358a9f5e58f2b611c93b6ad3f62ff78f2819a1fa329939db5b7dfb0c",
@@ -97,6 +237,34 @@
         "inputTokens": 176,
         "outputTokens": 58,
         "costUsd": 0.000123
+      }
+    },
+    "a2f9da449f82cc24997b81337628245d44e0d4984a0f2da0ecd62157458f4504": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea8c475737b524ab1cc840e01289a9c471ebeecf747548a8e355703c1640210d",
+      "contextFingerprint": "99da9b883134711d7f07aa55bd678bdac51deb94e6251f537f22d429f40d2ea4",
+      "sourceText": "* 返回bool类型的仿函数称为**谓词**\n* 如果operator()接受一个参数，那么叫做一元谓词\n* 如果operator()接受两个参数，那么叫做二元谓词",
+      "translatedText": "* A functor that returns a bool type is called a**predicate**\n* If operator() accepts one parameter, then it is called a unary predicate\n* If operator() accepts two parameters, then it is called a binary predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
+    "a2fe89a6b462fe4f824c27b53709c91579c256d0c464804d1d9dd0f697647e96": {
+      "normalizationVersion": 1,
+      "sourceHash": "741e2ef196d114acb3c3638a8e504a92bbe00170fda92b9381f23d675ce9c972",
+      "contextFingerprint": "00a24792e006bf7c36466feaaed80aed92b6c1037b1cdd2c9f2e36ba74fd920a",
+      "sourceText": "![1547103297864](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547103297864-abb466b989.webp)",
+      "translatedText": "![1547103297864](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547103297864-abb466b989.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b30c681d4db7238187b703c1b992b81718c839c74e08c77213df28d38c278e8a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2dcf24c498f9a0d1ab9fd1a0c9a1fbf48a76b622860db1624023b1fb3d49f49",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：把回调保存到类成员变量",
+      "translatedText": "### Example 3: Save the callback to a class member variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "b31f1b2d564a77fd87e0dad20de8089fae88187c35bfff5cafe9168522ae36d2": {
       "normalizationVersion": 1,
       "sourceHash": "653af3839f8c862768bb181bf6f0a88b03b86e17de1ae71dad2e6c0d970f0481",
@@ -29,6 +43,20 @@
         "costUsd": 0.000069
       }
     },
+    "b3322f11fb94347aa8a729ff4b2ded398245bce229bd0ce735920573dee66d54": {
+      "normalizationVersion": 1,
+      "sourceHash": "a80e3686b8fb39034db2d5028356358ac2ec4d3026ea55d68c6d17e6897d6a7d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 最重要的 mutex 心智模型",
+      "translatedText": "## The Most Important Mutex Mental Model",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "b33b52bdf52ce3bda578071ac30713d730a257e8c8877bfa2c8dcae1418420e5": {
       "normalizationVersion": 1,
       "sourceHash": "b8951fe2c6f553d1805124ac86b011d0eacaff67c2a6377bbc776b3b5954aca8",
@@ -41,6 +69,20 @@
         "inputTokens": 232,
         "outputTokens": 123,
         "costUsd": 0.000218
+      }
+    },
+    "b33b7f364a5e7d19cae8efb080dcbf1507ae00817b9d0cd5d8b4132edae52ecc": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc9f720cffc31f057ca70646b522ea8fcade8c8dcb3864a782b14f67ef3851b4",
+      "contextFingerprint": "0527a13ba40d1240bd98aee777a15bdc9705d3fb4b9f8c26d8beeafc577c1f7c",
+      "sourceText": "下面两种写法都在创建一个新的对象 `b`：",
+      "translatedText": "Both of the following styles are creating a new object `b`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "b34408eb5190998f0e43202dd21db49a9352ccc58e98aa93c4917756787535c4": {
@@ -57,6 +99,20 @@
         "costUsd": 0.000051
       }
     },
+    "b352a451ec35011e6351fa6290da19a4ed4a903e4ed2425678177b6464279995": {
+      "normalizationVersion": 1,
+      "sourceHash": "125fd7f35db6a5040b7f0d2071e2358d30cc95e375531a37dbfbe9a532e0c080",
+      "contextFingerprint": "5659dbfc4120f963beb110c6777fe12ad26e78f62450915ae9bf187221fd946b",
+      "sourceText": "`shared_ptr` 通过引用计数管理对象。最后一个 `shared_ptr` 销毁或 `reset` 后，对象才会释放。",
+      "translatedText": "`shared_ptr`Manage objects through reference counting\\. Only after the last `shared_ptr` is destroyed or `reset` does the object get released\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
     "b36cbb0a9c373232854318057782e3e570d881026677012e290d0fdadbfbfda0": {
       "normalizationVersion": 1,
       "sourceHash": "d21f15d3d76e3d8f95432b2bc15ee5ac05f63a13f71d8d1b052f5aca23dbc710",
@@ -69,6 +125,34 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "b36dcbdc776f739fabe33ab9477f3b00bfef94de10f2186d8c3ce572b95a6aa7": {
+      "normalizationVersion": 1,
+      "sourceHash": "817478a7a7767c5aa3246f2c37d0eb33c91094ee4b6e7d92e6ae31bdec4578f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "string 类内部封装了很多成员方法",
+      "translatedText": "The string class encapsulates many member methods internally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "b38c7b1af2ceb392a3d1817d45b1717c50d9f75e1ab4f0f9d8348d587c00aaae": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc8f4f2be6f189cd5f7bf69d9f100a722a4206218fa082176dec3e9b0768f5ef",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 判断是否为空   --- empty\n- 返回元素个数   --- size\n- 重新指定个数   --- resize",
+      "translatedText": "- Determine whether it is empty   \\-\\-\\- empty\n- Return the number of elements   \\-\\-\\- size\n- Re\\-specify the count   \\-\\-\\- resize",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 34,
+        "costUsd": 0.000086
       }
     },
     "b396b1018153f5918cffbc67022fcbc51484aa541f53771afc38411f81435bf3": {
@@ -127,6 +211,20 @@
         "costUsd": 0.000051
       }
     },
+    "b3d20753c624054eed4c9cfe9e46a5b77273183e07025fe5541df8e75db8fc85": {
+      "normalizationVersion": 1,
+      "sourceHash": "3822436948dc1f1a47f4eb8a588a84fc1dfe12d4442d9eac029450fe32c62ae8",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 解决方式1：直接包含.cpp源文件\n* 解决方式2：将声明和实现写到同一个文件中，并更改后缀名为.hpp，hpp是约定的名称，并不是强制",
+      "translatedText": "* Solution 1: Directly include the \\.cpp source file\n* Solution 2: Write the declaration and implementation into the same file, and change the extension to \\.hpp\\. hpp is a conventional name, not a mandatory one",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 54,
+        "costUsd": 0.000115
+      }
+    },
     "b3e20ba96283f7a893444ca4b0611a55e0ca7c2bb5a85f48b4d08d15ed5c7119": {
       "normalizationVersion": 1,
       "sourceHash": "f8ab705eac2b8dc72955956bbefdf1faba6beef87b46f2d9c9b6389057c3b650",
@@ -139,6 +237,20 @@
         "inputTokens": 168,
         "outputTokens": 57,
         "costUsd": 0.000119
+      }
+    },
+    "b3f3fabdc94df7e2ce4851172454a4f390a2e36fefcf8e1ad2fdad8987f77c98": {
+      "normalizationVersion": 1,
+      "sourceHash": "70412d1a4f5ebcffeeec6c6c2138a9a433bb8c5ad2e2bfc46b79f6ba89ae085c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：constexpr 变量——必须编译期确定",
+      "translatedText": "### Example 1: constexpr variables — must be determined at compile time",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     }
   }

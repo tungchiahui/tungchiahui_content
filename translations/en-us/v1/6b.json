@@ -15,6 +15,34 @@
         "costUsd": 0.000051
       }
     },
+    "6b0ab493b2dfed89a87715079898b4cdc5e0377cc4cbc74ad198956131bfa39d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fc5c9886332db7ef381a9a077a8cc9df5e5dca88c05b81a6261cfb009a9e7e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "迭代器可以暂时理解成类似指针的对象，用来表示容器中的某个位置。",
+      "translatedText": "An iterator can be temporarily understood as a pointer\\-like object used to represent a certain position in a container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "6b22b5bca4e815aa9a694b53fd08f618c8e394fcf015029ecc0232bedea73fd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "b16ec92fb53c287ed8d467790ff4505a01ac6563a94fee15943116072e514595",
+      "contextFingerprint": "07fa60ced33ebe620239c19440dea790964382785176f74c6fa0b4ed72f82e76",
+      "sourceText": "这也是为什么 `std::vector<std::thread>` 可以工作：容器通过移动而不是复制管理线程对象。",
+      "translatedText": "This is also why `std::vector<std::thread>` can work: the container manages thread objects by moving rather than copying\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
     "6b484022faac3413f5a7669e4a0edc35905f209949e8e3252a46284755a611c3": {
       "normalizationVersion": 1,
       "sourceHash": "342aa2bf9bc8242eda1c9d2971ffaa22e6b7a3547fd02ad7ebf9eb2811d0232d",
@@ -27,6 +55,62 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "6b590ef0332d9529138bff2ba269d5b3a1e100d2f5094cac32525f383824440a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c52ea430e00fcc17e82753a2f5cd9ef3dba9c16985e97282472142fd3d9a048e",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：不同大小的 array 互相赋值**",
+      "translatedText": "**Error 3: Assigning arrays of different sizes to each other**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "6b68af8b55e1a0841e4c3ca211efc6d4c522527337631dd7450518bf2aae8bb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "220ba859335a94b202277c452729c39a791adcd39266c7b07787ddd670cd54ec",
+      "contextFingerprint": "d11e67ce9807288d01bad9922d5fb6bae8518d20f596add31d4a3f43adab009d",
+      "sourceText": "`runtime_error` 属于标准异常类型，可以被 `const exception&` 捕获。",
+      "translatedText": "`runtime_error` belongs to the standard exception type and can be caught by `const exception&`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "6b8e1907ee304afd8ff64939fe6a58728e4cc6377d3ddef9dd30c0b9fa620ac2": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb698c986d93ca822744a76b7c31aa3d24ddf65ece754f5258962d630fbbd0ae",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### mutex 并不会自动“锁住变量”",
+      "translatedText": "### A mutex does not automatically \"lock a variable\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "6baaa0452335bfbfc8eef20ee4d1eae0a9497996c924a2c34674744ce25fc56d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffc50138d85f16b1c2a4559e0814c07a46365126e8ff8397186e71119ad34317",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：忘记写作用域前缀**",
+      "translatedText": "**Error 2: Forgetting to write the scope prefix**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "6bb0015ccff69265110024c68f0e565eaeabac1f5522278f6887359edf9d5c9a": {
@@ -71,6 +155,20 @@
         "costUsd": 0.000051
       }
     },
+    "6bbf047b2aa20238ec5652b52a09a4d5b7ecd32055853979813cb1e52495cda7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2251fc7338756d421caee44e8445d022f5bac7008501fb5dc70e06fdbefd7b76",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 当子类继承的父类是一个类模板时，子类在声明的时候，要指定出父类中T的类型\n* 如果不指定，编译器无法给子类分配内存\n* 如果想灵活指定出父类中T的类型，子类也需变为类模板",
+      "translatedText": "* When the parent class inherited by a subclass is a class template, the subclass must specify the type of T in the parent class when it is declared\\.\n* If not specified, the compiler cannot allocate memory for the subclass\\.\n* If you want to flexibly specify the type of T in the parent class, the subclass must also become a class template\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 76,
+        "costUsd": 0.000147
+      }
+    },
     "6bc81e2355f66148c14ba65751909499d90542ffe8f6a9be2f6e08f38db9ff93": {
       "normalizationVersion": 1,
       "sourceHash": "46ee5c06e4ccaefec1762a1dea65a6581da29a87d4760f19913483671a655567",
@@ -83,6 +181,34 @@
         "inputTokens": 203,
         "outputTokens": 96,
         "costUsd": 0.000177
+      }
+    },
+    "6bd63ba8bcfbba7f856d8a4071096a9e5ad2e48d3485c1126dddfc028e3df66c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e99b82dcd43e24eea04182b0b873fc8306706cf0f199357be532fa6872547eae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的关系。",
+      "translatedText": " relationship\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "6be3e0b16da1d05ab101b0356550ec9b361827b267ace3cd4eaaa984e24aef38": {
+      "normalizationVersion": 1,
+      "sourceHash": "95c166dd6fb6a9b9b4a6eb2490046ae46c178e1d3cfb6b56801d63ef34faa427",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例 2 中最容易混淆的地方主要有三个：",
+      "translatedText": "There are mainly three points in Example 2 that are most easily confused:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "6bef826f511bfa421b059447add368efd1f2d991c95d8426c58aaff91ea755a2": {

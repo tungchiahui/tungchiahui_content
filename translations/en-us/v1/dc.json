@@ -29,6 +29,20 @@
         "costUsd": 0.000081
       }
     },
+    "dc19ecefe4b7d833757a66d097df2996c5aac46d7b2eea8ceb29c3012d9af773": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca2eb786435468ab1a8f0048cedef69324ca65843aceaaa0872cd13a6f9c00c2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们虽然函数名都是：",
+      "translatedText": "Although their function names are all:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "dc3eaaba1bbc9d8ee53c90b8d82fb326d6903eda12ea86a56205739432674730": {
       "normalizationVersion": 1,
       "sourceHash": "4360126d4623f0802f0083e7549a303300ac588e23a501b45d5b61a894a207a9",
@@ -113,6 +127,48 @@
         "costUsd": 0.000156
       }
     },
+    "dc87de6d3fd4867ab267e65468cc17632a4133628947b6fb73c0a14249a786e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "35667ebe6e2dec4488040b84448ea608d2b5093291b69c87621514b1900c93e1",
+      "contextFingerprint": "2554a2c2659475230fde9a9168c79d30e84c3b6fd5abdc8c8698aaebc28e2c1b",
+      "sourceText": "`std::function<返回值(参数列表)>` 可以保存任何签名匹配的可调用对象。",
+      "translatedText": "`std::function<返回值(参数列表)>` Any callable object matching the signature can be saved\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "dc8fdf832496739224e908782d19eaec8f1f7844650b4d0ad3c7aaaaf2049b09": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcd96475c6a71cba95718152fc6928995c23725ed73a050da56fc470a4270e49",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这段代码可以分成三步理解：",
+      "translatedText": "This code can be understood in three steps:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "dc92551a471e0dcc541db5e9b22194633d68c1d9346f7f3e94832c776d44dba4": {
+      "normalizationVersion": 1,
+      "sourceHash": "25819ddb221a880bd19dd79889fbc8264f51bd73d30bc03e6153c24003bc59b2",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## STL- 常用算法",
+      "translatedText": "## STL\\- Common Algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "dca6afd151d70b6a009e268e6035324fe4b0b87d922cd951977407cb0eb56f6b": {
       "normalizationVersion": 1,
       "sourceHash": "53c054a4526bd546dd0eb120515e4e3b6486a06043f5d49ba5544c61119c4877",
@@ -125,6 +181,34 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "dcb67f1155882313d55b948756cd2a5efff29acdd621cae7ade2bdb2720e4d88": {
+      "normalizationVersion": 1,
+      "sourceHash": "8142a46556522d5a4192de523cdb95e16749ed9696b7f5711311522e8e350168",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要：",
+      "translatedText": "Requires:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "dcb7eb4738cc658279d21660040064decb29d73c7dfee1afe57ca8afef8642ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "fdd5eeeaa41a636e57fe1f7ad88ee1d5941b640e63def627bc49772eafb9bf5b",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 普通类中的成员函数一开始就可以创建\n* 类模板中的成员函数在调用时才创建",
+      "translatedText": "* Member functions in an ordinary class can be created from the start\\.\n* Member functions in a class template are created only when they are called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 34,
+        "costUsd": 0.000085
       }
     },
     "dcf491b91c5f9007ab7b4f2fa0544420a94f090c0e7a49075d345267bbb75c0b": {

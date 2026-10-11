@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0f02773baefee5af1e1165c024eee427ec24df9c8d7b93dc696fa8ede0729827": {
+      "normalizationVersion": 1,
+      "sourceHash": "da62184e7363e8c189eb4dfd8583cf9cbdff0a8ce7a3f94ed89d299590f6c04c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### stack容器",
+      "translatedText": "### stack container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0f068b2d31d507b0a7590015884a5d6c3d378100c708aa8fd29d2baadf666bd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "64373ffea0978cff4f701475faa1c23045728a8318368062b6d38598e10fd192",
+      "contextFingerprint": "d25217023cb2530780def02e85356f09a0de03bf8dd0904c983a4fa025a5dba4",
+      "sourceText": "- 把 `double` 转成 `int`。\n- 把 `enum class` 转成整数。\n- 把基类指针安全地转成派生类指针。\n- 临时去掉 `const` 限定，适配旧接口。\n- 在底层代码里把指针、整数、字节视图互相转换。",
+      "translatedText": "- Convert `double` to `int`\\.\n- Convert `enum class` to an integer\\.\n- Safely convert a base class pointer to a derived class pointer\\.\n- Temporarily remove the `const` qualifier to accommodate legacy interfaces\\.\n- In low\\-level code, convert among pointers, integers, and byte views\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 63,
+        "costUsd": 0.000131
+      }
+    },
+    "0f0875772a6e00fc3ff152d11e1a39127ae677fb71e97acb68bb9a3b1d530983": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fa07d2af82243ada53280145a2e44c51b4eeb4d21f2fd8607954f4d7c5c3384",
+      "contextFingerprint": "2a43a39ab6947def7f9cc4a0e8f5d17dc8ad6b60a8ac2f5bf27a8045617e512d",
+      "sourceText": "为了方便理解，也可以“民办”地理解成：\n`detach()` 一调用，当前线程对象就会立刻变成不可 `joinable()`；\n它有点像一个“不会阻塞的 `join()`”——区别在于，`join()` 会等待线程执行结束后再返回，而 `detach()` 不会等待，调用后立即返回，让线程自己在后台继续运行。",
+      "translatedText": "For ease of understanding, it can also be informally understood as: `detach()` As soon as it is called, the current thread object will immediately become un`joinable()`; It is somewhat like a \"non\\-blocking `join()`\"—the difference being that `join()` waits for the thread to finish executing before returning, whereas `detach()` does not wait and returns immediately after being called, allowing the thread to continue running in the background on its own\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 91,
+        "costUsd": 0.000169
+      }
+    },
+    "0f08b4a416771e9873a6d1740995c95a2bf76bc3226ba02f98baff9d186e103f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b919b11be1ca67c2fc5177e9d3d508cdeaf7f4bdc80b954f92e06964f76fed4",
+      "contextFingerprint": "ab1049f315686ecc46039d715460fdaa9db695d1e0ef1fffaeba5d40cb1c5455",
+      "sourceText": "是把 `raw` 按十六进制打印出来。这样就可以看到，`raw` 的十六进制形式和指针 `p` 打印出来的地址基本是一样的。",
+      "translatedText": "is to print `raw` in hexadecimal\\. This way, you can see that the hexadecimal form of `raw` and the address printed by pointer `p` are basically the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
+      }
+    },
     "0f0da3b61bd21330141c9fe578ccbc426426afe75653ff1849cb2b2d7e9e9612": {
       "normalizationVersion": 1,
       "sourceHash": "a91f59b3f5e5bb7c2c03325d2e18a73a0943c4356750a08d429a27065c77d245",
@@ -69,6 +125,20 @@
         "inputTokens": 164,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "0f5b02dd8eeffbe703a4a26b5772732c158c4e747e64cab37d9378b98b159f82": {
+      "normalizationVersion": 1,
+      "sourceHash": "623b95643245c5f7f87d890909d22f37c209f65ce810db20bf5cd58b25dd5e5a",
+      "contextFingerprint": "91a84b1bc7960f025bbf3498caa629fb397a279d56dbcd3907e5ed4077d92662",
+      "sourceText": "这行代码又把整数形式的地址 `raw` 转回了 `int*` 指针。",
+      "translatedText": "This line of code converts the address in integer form `raw` back to a `int*` pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "0f64094c92ec9a079fe1c7c4e18fa73756a91b54caff5f0892eea64ccd54b1c0": {
@@ -169,6 +239,20 @@
         "costUsd": 0.000062
       }
     },
+    "0fab79f72d320be50cdf87757761f80eff11df705a847a0013fd69897438d24d": {
+      "normalizationVersion": 1,
+      "sourceHash": "987f75ac73c4acbf2bdd83439a2db929cfb1cff94dedeb1b7de232af5073c386",
+      "contextFingerprint": "df41b77ca28cd627fceefba27280003635415f37cffe6bb488370dbf69c9cef8",
+      "sourceText": "| 用法 | 说明 |\n|:---|:---|\n| `int* p = nullptr;` | 初始化空指针 |\n| `p == nullptr` | 判断是否为 nullptr |\n| `if (ptr)` | 判断非空 |\n| `func(nullptr)` | 传递空指针参数 |\n| `return nullptr;` | 返回空指针 |",
+      "translatedText": "| Usage | Description |\n|:---|:---|\n| `int* p = nullptr;` | Initialize null pointer |\n| `p == nullptr` | Check if it is nullptr |\n| `if (ptr)` | Check if not null |\n| `func(nullptr)` | Pass null pointer argument |\n| `return nullptr;` | Return null pointer |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "0fac253b09cc84493d3fc01b622234c51baca9258bb7a798ba278a052d248944": {
       "normalizationVersion": 1,
       "sourceHash": "9570a558d86c892e006c3f48b9056b21949dbd7c62320772d1bc08acb878e58b",
@@ -209,6 +293,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0ffe2d251275520d802b58bc87bbd431d54f92539480d1c0235abea6d5e07c64": {
+      "normalizationVersion": 1,
+      "sourceHash": "31970d0baf66414ff3c8f6bacc3c07b397033385b8093fa906ba9bf034f46970",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误写法：**",
+      "translatedText": "**Incorrect usage:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     }
   }

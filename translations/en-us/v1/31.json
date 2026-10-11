@@ -15,6 +15,62 @@
         "costUsd": 0.000063
       }
     },
+    "31148ac98adcf429d2ff66122ce49e1a14cbb0e24b97e948fc0cf1ec3e626016": {
+      "normalizationVersion": 1,
+      "sourceHash": "049c4eb2ff2d23b77a0dfbc0e7623f42ad3d8c2b97fe5e51e37c8ea70c1cbd92",
+      "contextFingerprint": "28a1294318e8e7860b484f65b37c41643cced0078e80730025268a3ceb5d68c5",
+      "sourceText": "因为 `MessageHandler` 重载了：",
+      "translatedText": "Because `MessageHandler` is overloaded:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "311701f1f929035a6bfcb0fbb500d07815adceed46ecf747b0c427099b69bbb4": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff70beaa8667f1895a6c237e5a258e745a1d0955ea3bea11c645ec153d39af78",
+      "contextFingerprint": "45197fa93795bd2a72c2f7e96d6af3ec2cee56e9baabd4c1f81ce8c29b0caf65",
+      "sourceText": "这里的`pos == s.size()`是不成立的，所以返回`std::nullopt`。",
+      "translatedText": "Here, the`pos == s.size()` is not valid, so return`std::nullopt`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "311eb036ec95830330c72120dea8fff57ef2d66f68680e61109c68d40b67982f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0cd9d56f7164e0147101c704ef4c33eade0d5b488bcf4aae76329c36f597f47",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set容器排序",
+      "translatedText": "#### Sorting a set container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "31245bf792f781132b1b4b0ca107d574b13db77975f3603b54705afc3cc863ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0d0e0211abda170673e83a88d7baf7357ff653126f159970d2deead2fb4d1a5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector互换容器",
+      "translatedText": "#### vector container swap",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "3127f85eb3e87fa56c7a20d8ed513f548ec05f95f85ffc87b3d0b46be866e5ee": {
       "normalizationVersion": 1,
       "sourceHash": "0b0d050aace8eb0d5e29a6aa3623598df4a51fef45e1b531980314e0e2373b89",
@@ -27,6 +83,34 @@
         "inputTokens": 144,
         "outputTokens": 22,
         "costUsd": 0.00007
+      }
+    },
+    "315bf7065eb4193a6d5b8dfa2449a1fe2c5d864ab33668c4040929a4d3a1875a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fb0dd8ad40d539fb712eb3e13fa90c6ec2f9b8d06f378a52450347dbc6af0d4",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：visit 的 visitor 没有覆盖所有类型**",
+      "translatedText": "**Error 3: The visitor of visit does not cover all types**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "3160c8a271c8de043185c6100c80a7f3b2c22cc2664aadf0a3543c7c4b8856b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0b60f00c8cf2a5ed751ac51bda11ce47ef767fff4a3be9a7ba49571ca5ec83f",
+      "contextFingerprint": "fd329b4bd98d7604ba32aa2980d941e6a472b973e3bff6eb6ee07db5d6715109",
+      "sourceText": "* `deque& operator=(const deque &deq); `         //重载等号操作符\n\n* `assign(beg, end);`                                           //将[beg, end)区间中的数据拷贝赋值给本身。\n* `assign(n, elem);`                                             //将n个elem拷贝赋值给本身。",
+      "translatedText": "* `deque& operator=(const deque &deq); `        // Overload the assignment operator\n\n* `assign(beg, end);`                                           // Copy and assign the data in the interval \\[beg, end) to itself\\.\n* `assign(n, elem);`                                             // Copy and assign n copies of elem to itself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 45,
+        "costUsd": 0.000104
       }
     },
     "31808b0496e4a616a5e797445ec7d04cd503ba231b597058af8dc7295029aec3": {
@@ -43,6 +127,20 @@
         "costUsd": 0
       }
     },
+    "319cec458868badcf9e4d3d9a16b4f4c108df54894d621bb83842b99d751de89": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebb78a61fd9acbce893b43e193637c1e7b613cecdcd96d87ff6c4d732c266699",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用查找算法",
+      "translatedText": "### Common Search Algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "31ac127349a28b05b9cd06338e046812d5adf95913cde6222705a869259bc048": {
       "normalizationVersion": 1,
       "sourceHash": "61384bad00827a0906b1a8f5ae03ba2925986f06c21435afc76d2b3638b2cc47",
@@ -55,6 +153,20 @@
         "inputTokens": 149,
         "outputTokens": 35,
         "costUsd": 0.000087
+      }
+    },
+    "31b92ff21dad7a1a4bc13278614bb402724ca28cb50eaf7d8a7ebdf6321d510e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fdd607c9587a6e7eaeb84c6ad926c9f0495742e441142054f1880009a113218",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "感觉它就是：",
+      "translatedText": "It feels like it is just:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "31d76094062d9ec15897a13f8ea96533c6d792855066f00d2c11827d9666ae49": {

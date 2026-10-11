@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f90dd914a6518075f15ec059d09d551acd34dc141eea8d43261eea8aece74629": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cb2cdb87d7f99e1c302612b0045b07227c586e981af8da47af79cf8fa3c4a6c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "重新抛出当前异常。",
+      "translatedText": "Rethrow the current exception\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f9113fc46e1f8b31b59edf32ed104b1f4d3420d93d6aa2bb278a17befba8bf2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8ef0721c5f8ab55888f352e784699ab9b206c9b6da544bcf143a422836e280c",
+      "contextFingerprint": "9508cddd007811653d940423b19d0a0b6c759ecab2572d420ae70e5ce21a6230",
+      "sourceText": "### 滥用 reinterpret_cast",
+      "translatedText": "### Misuse reinterpret_cast",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f914f61ff3c6e8384f84d4bd97f2d1ecf40d03dcf55693241c39873752d99caa": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8984c6773fdc2d30c82c1e48c77901ba3988bcbe81f8c6f4357ae9857db2a8b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表示在哪个对象上调用；",
+      "translatedText": "Indicates the object on which the call is made;",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "f919a3c227530ae015fa139c155fab026787bc3a11db2ffe8feaf58b5597848f": {
+      "normalizationVersion": 1,
+      "sourceHash": "60d978ef3a6e339ece562e4b67d2a652cdc19b88359cd14df230410a7de4c252",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "成功时：",
+      "translatedText": "On success:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "f921df663e7b6a67f3581dd183cb4b224eafe7aa8800b5e4a56fa85316af3809": {
       "normalizationVersion": 1,
       "sourceHash": "84075ddfe3b19c7373d95b93dd5e557c62fb774079d262ac2226f5f06844f952",
@@ -15,6 +71,48 @@
         "costUsd": 0
       }
     },
+    "f92b110b91686fa563b312ab8a0c34835cda8f6e840fb969a1796c3852416cdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "c66a0f01fba72883a8547d3d3516043bfa329807b2bed7cde7f9739197e82910",
+      "contextFingerprint": "7a2e463e4e132f5b8106af4eed01b9df4cd7bff1a4ca3da1568cd2c84f9c2fb9",
+      "sourceText": "### 认为 `shared_mutex` 一定更快",
+      "translatedText": "### think `shared_mutex` is necessarily faster",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f92ef05e4a420b9b47319a63e9a22a84af51b9a8b8cc1e2f77683250e27ffd31": {
+      "normalizationVersion": 1,
+      "sourceHash": "8858a8bdb575f1f6b00ffbaf8133dd649824fa89422f67b22057d107f70fa6e2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "外部只需要：",
+      "translatedText": "Externally, only the following is needed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 17,
+        "costUsd": 0.00006
+      }
+    },
+    "f932d4d661af9d8596dbc51e5ff0b92bc02b9bdc4a7e5b4a71cbce6e5baac460": {
+      "normalizationVersion": 1,
+      "sourceHash": "89e8fc4e9503e9f9904c68623c820ba28c6a10988791743790e81b7ad8542d9f",
+      "contextFingerprint": "ab79ea10bccf37d5473587600595e271acaccd8eb2cb83a2eb248ac0d8ddc144",
+      "sourceText": "| 需求 | 推荐时钟 | 原因 |\n|:---|:---|:---|\n| 测量函数耗时 | `steady_clock` | 单调递增，不受系统时间调整影响 |\n| 超时判断 | `steady_clock` | 不会因为系统时间跳变导致超时错误 |\n| 打印当前日期时间 | `system_clock` | 可以转换成日历时间 |\n| 生成日志时间戳 | `system_clock` | 对人类可读 |",
+      "translatedText": "| Requirement | Recommended Clock | Reason |\n|:---|:---|:---|\n| Measure function elapsed time | `steady_clock` | Monotonic, unaffected by system time adjustments |\n| Timeout determination | `steady_clock` | Will not cause timeout errors due to system time jumps |\n| Print current date and time | `system_clock` | Can be converted to calendar time |\n| Generate log timestamps | `system_clock` | Human\\-readable |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 64,
+        "costUsd": 0.000132
+      }
+    },
     "f9353803f82c29f59c01f0c95f4ae11f491c5ee87ed6f0ec816f81fee86e0842": {
       "normalizationVersion": 1,
       "sourceHash": "dbdb4fc060eb32c3cde21db8adb81e05d347f27387a1177faec606c7c540d595",
@@ -27,6 +125,48 @@
         "inputTokens": 141,
         "outputTokens": 26,
         "costUsd": 0.000074
+      }
+    },
+    "f93596581c2015c1f5d47ab1ae78fc6ff599dbe4e85327f68fd4d7004329deb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e44307975bd6963873980225786891d097d3ffde7b9bc3182c25eaf21aa9f0c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际上并不是。",
+      "translatedText": "Actually, that is not the case\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "f9505dc5ec4af9fd09fbc25ed7e392fcd66d1798faf2f23ed59ebaca5ebad986": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a5fcf822ca3370a44872b22a2086f020cc7fc491bfba7fe0cc0595a1a679db8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类模板作用：",
+      "translatedText": "Purpose of class templates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "f9685b2b7c571bb1710683ab968e4597331b8b6221d4c4ded259e981a2987319": {
+      "normalizationVersion": 1,
+      "sourceHash": "387236cb2d6c5a0878463e128184933f4dd157e0a81cc700a70ced7120c32aa6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先看这一句：",
+      "translatedText": "First, look at this sentence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "f968760421c8f18f3ca6a48ec4a24a82e4f6d08ff29bdd5d9a9db30f72192cbd": {
@@ -57,6 +197,20 @@
         "costUsd": 0.000082
       }
     },
+    "f97eace10527d648afdef8f97b998db5d1fe98670d5823b890775ad6c9fa704a": {
+      "normalizationVersion": 1,
+      "sourceHash": "91be8a140721e992ea234fd096e0cfb02bdaabf047c3bc066d894ea6649d8584",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果只有一种简单操作，Lambda 很方便：",
+      "translatedText": "If there is only one simple operation, Lambda is very convenient:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "f98dac300ed5e0258dedb1c57e32b4f9ba2d75d76309c8bdf5231d2d72ab7a6e": {
       "normalizationVersion": 1,
       "sourceHash": "226576ae2bd8898e4a2d8a1b610f21a9ef8d708dd6b804a4b8f629606e0f4cc8",
@@ -69,6 +223,20 @@
         "inputTokens": 159,
         "outputTokens": 38,
         "costUsd": 0.000094
+      }
+    },
+    "f9db910048038b32a8df96d016371a52c2f24e2b3db2c40f25c3f644d38d0d64": {
+      "normalizationVersion": 1,
+      "sourceHash": "80b90031f18e58797ec82f1877a2c3b9cba24714e49aea1af59cd6e4a17bc1a9",
+      "contextFingerprint": "53f159ab4c2b7945bc5dd832b40ebf2b8ac230f44aade9787993cbfa283efd23",
+      "sourceText": "才是 `run(int)` 自己的参数。",
+      "translatedText": "is the `run(int)` own parameter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

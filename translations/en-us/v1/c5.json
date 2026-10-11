@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c5043efb354a16deb62fcaf1aa17d13fbc6bebdfd7de7aeee38c6456af069bdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "6828e4dd1fdb14cab53286c727da7e4c82839eecb8403a2965629b7f3a3ef9b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在“相对时间 / 绝对时间”这个思路上比较类似。",
+      "translatedText": "The approach is relatively similar in terms of \"relative time / absolute time\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "c5276f03c75e6f989830e97afe583e7c20992398dc775cbf611a8e641935f11e": {
       "normalizationVersion": 1,
       "sourceHash": "bedd5fedd7405ea362dbb5eb272b73d00882eeff36002a71f5a1c4d87cbd2bba",
@@ -29,6 +43,34 @@
         "costUsd": 0.000116
       }
     },
+    "c533935936041a129c7a382b00b22f5eba212692340ab921b716ce58e7d32321": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a78b77517e23099b9414a5ccdb23b9f6ec5880cce07a5cd205502ece1ab0416",
+      "contextFingerprint": "df69c5ea62f66b052b7f815ccf3868bcce537b2890a964f5f956a2086efbea2f",
+      "sourceText": "| 需求 | 推荐方式 | 说明 |\n|:---|:---|:---|\n| 保存普通函数或无捕获 Lambda | 函数指针 | 类型简单，没有类型擦除开销 |\n| 保存有捕获 Lambda | Lambda 自身类型或 `std::function` | 普通函数指针无法保存捕获的数据 |\n| 接收任意类型并且只立即调用 | 模板参数 | 通常能保留具体类型并被编译器优化 |\n| 在成员变量中统一保存多种回调 | `std::function` | 可以统一包装多种可调用对象 |\n| 调用指定对象的非静态成员函数 | 成员函数指针 | 调用时必须同时提供对象 |",
+      "translatedText": "| Requirement | Recommended Approach | Description |\n|:---|:---|:---|\n| Store a regular function or a captureless lambda | Function pointer | The type is simple and has no type erasure overhead |\n| Store a lambda with captures | The lambda's own type or `std::function` | A regular function pointer cannot store captured data |\n| Accept any type and only invoke it immediately | Template parameter | Usually preserves the concrete type and is optimized by the compiler |\n| Store multiple callbacks uniformly in a member variable | `std::function` | Can uniformly wrap multiple callable objects |\n| Invoke a non\\-static member function of a specified object | Member function pointer | The object must also be provided when invoking |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 228,
+        "outputTokens": 128,
+        "costUsd": 0.000222
+      }
+    },
+    "c53e77e4c5f210312ee98fb1d9fce671f2298d955f02d09768d202e2f00825d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c9c026bdc3a8f120fe6d6a6f0a43b8b0c689da97124acbdce4fa85830c4c8c8",
+      "contextFingerprint": "1011ece7a53228bd2779aff45277e320c0086abb43fcaee2f4a6470bdb212002",
+      "sourceText": "- `bool binary_search(iterator beg, iterator end, value);  `\n\n  // 查找指定的元素，查到 返回true  否则false\n\n  // 注意: 在**无序序列中不可用**\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // value 查找的元素",
+      "translatedText": "- `bool binary_search(iterator beg, iterator end, value);  `\n\n  // Find the specified element, return true if found, otherwise false\n\n  // Note: Not available in**unordered sequences**\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // value The element to find",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 47,
+        "costUsd": 0.000109
+      }
+    },
     "c562ca838913690f9726722fead7569a888225dee7f62975af0bdf4ca003dc95": {
       "normalizationVersion": 1,
       "sourceHash": "608015e131b799a44c029acc704248eb3bd2c5c5fac828645ae504badc9333b9",
@@ -55,6 +97,34 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "c5889b828609025e3615aebe05abee84bdc4e049196d0f12b77654e2c4e0830c": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3f1bc91c53c5cb05a3b6c9e3ffab320b1e49905fd5352b63e75513824272de3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同样不会正常执行。",
+      "translatedText": "It will likewise not execute normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "c59c1c6ff682ed75cbcbc480a4ffc6e68a856acd0124d35289342e01c8f2b582": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ec3bd5afe7a2d8f633d47946334ea77e375b215edce9c9d4555288914ffd1a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这会产生悬空引用和未定义行为。",
+      "translatedText": "This will result in a dangling reference and undefined behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "c5b7590cf93a144b15ef5102589b44ea3e1a56031463dd24c6a1d50f150c1e6b": {
@@ -99,6 +169,34 @@
         "costUsd": 0.000195
       }
     },
+    "c5c0e89b7295dab5531c45970374983f8b6143398d9cb109aa2d6cc2b1b4368d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cff6cc502c739d9d404a8b49f8dc09d289249e3db571f707160a529ccb37130",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 普通函数与函数模板的区别",
+      "translatedText": "#### Difference between ordinary functions and function templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "c5c65a32621c503b5d2781b23fba25583bf9d71126c9d84319b8b85a491ee4fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c5b0b5ae811f56dca228b8df107e9f0e78632f8a4e05744b7c9ec5b34e27c76",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此它也可以传给：",
+      "translatedText": "Therefore, it can also be passed to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "c5c71a3f21558c10759dd0c4fa76e6614c896192b80e81ec2bf01591382065dd": {
       "normalizationVersion": 1,
       "sourceHash": "d7e1f56ac17fe834dc4fb045127dc03b792e5a6b7c950ae886c7d5b6fb19e6fb",
@@ -111,6 +209,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c5ca61214a4e5ffbd456e7f615833c6e2c0454d3f2990d71c896207f800d48ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "1be1977236c425ddd59a9671c48cd209feee8443ebc75862ce4238f93e46e25c",
+      "contextFingerprint": "547a7a97b382ee1d637884ab1a417ea67a68c83fcd577134660a819466bc4129",
+      "sourceText": "1. **不修改元素：用 `const auto&`** — 这是默认选择。\n2. **修改元素：用 `auto&`** — 明确意图是修改。\n3. **基本类型（int/double）且不修改：可以用 `auto`** — 拷贝开销可忽略。\n4. **需要下标时老老实实用传统 for** — 范围 for 不适合所有场景。\n5. **遍历 map 优先用 `[key, value]` 结构化绑定**（C++17 起）。",
+      "translatedText": "1. **Do not modify elements: use `const auto&`** — this is the default choice\\.\n2. **Modify elements: use `auto&`** — makes the intent to modify explicit\\.\n3. **Fundamental types (int/double) and no modification: you can use `auto`** — the copy overhead is negligible\\.\n4. **When indices are needed, honestly use a traditional for** — the range for is not suitable for all scenarios\\.\n5. **When iterating over a map, prefer `[key, value]` structured bindings** (since C++17)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 118,
+        "costUsd": 0.00021
       }
     },
     "c5cd02297067be54d73d2e9a3b470664021f6a4d1c9b89d280ab4df34de6f0d4": {
@@ -141,6 +253,48 @@
         "costUsd": 0.000125
       }
     },
+    "c5d32c71b65a9d98218e232ed1764ca8434787ca107268195e0792e908a0e65d": {
+      "normalizationVersion": 1,
+      "sourceHash": "58d830fbaac865d0aa55554eea90c1a5b176dedc14d6aea0adf7415669c2786d",
+      "contextFingerprint": "d60568a2378fdada99bd1e940aa687b18df36520961cb2ebe24d48f54eab2a85",
+      "sourceText": "![1547103359158](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547103359158-05f932a647.webp)",
+      "translatedText": "![1547103359158](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547103359158-05f932a647.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c5d39b7efe53e69e6ebc62e92b32450c6073e7fa5b69a00323943a8d1b8e0a60": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c87b917096cd1f50443f622719d0c8804da409b022a557752c15b3ed44a9bc5",
+      "contextFingerprint": "d5ac993c9b19a68d2c3814b8d36ab89ed9c9303bd5dee928f6e33154c75a1683",
+      "sourceText": "### `std::mutex` 到底是什么",
+      "translatedText": "### `std::mutex` What exactly is it",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "c5f0356626f1f36958c4364fb6b658b6cfda82d83b9c277da5b9fe03d8c741b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "8658b84a107fa78e12410d60c6caa36fc804792999dc57dba85dd68639d116fb",
+      "contextFingerprint": "79de8f6346129bd58418825fce1bbcec43c932e39530bdc84e613757318494a3",
+      "sourceText": "一个 `try` 后面可以跟多个 `catch`，用于处理不同类型的异常。",
+      "translatedText": "A `try` can be followed by multiple `catch` to handle different types of exceptions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "c5f9d7963c92e7809197eadc496da6a39158187c4de6a6c423443beff00d1377": {
       "normalizationVersion": 1,
       "sourceHash": "aee69a94a037e4db665f4392869502411496d544d5bf2d0f6942f7b4b33db6c1",
@@ -153,6 +307,20 @@
         "inputTokens": 148,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "c5fadfbea247be2d19b1f937861b4f08f8d5e8735bc80a61fb197866706bd9a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "acd976f7d4371c4746aef4a33404ee38e87b4b06aa7a1fd2c54034d49d573728",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，自定义类的移动构造函数",
+      "translatedText": "### Example 2: Based on Example 1, a custom class's move constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     }
   }

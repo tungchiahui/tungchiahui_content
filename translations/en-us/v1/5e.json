@@ -15,6 +15,20 @@
         "costUsd": 0.0003
       }
     },
+    "5e18db4dc65cf486c4edaa49b043ff646a6fac14a51857ab7d79dcc0c96b26b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ca9822688b7948d20400b6904214c30ba9e04de0913bb06cccff43c5d0771b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "数据存取：",
+      "translatedText": "Data Access:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "5e1900ebd72d135c9316eb58019ee24a05a8c0cf1ada49c36340b47210b2fa2f": {
       "normalizationVersion": 1,
       "sourceHash": "9ae60fda8a7d9cab07723ca6c4e4ac0f861cccd097fc22bd354b81c3c36b0999",
@@ -43,6 +57,20 @@
         "costUsd": 0.000057
       }
     },
+    "5e4093f5dcbaad25cf23f4e02e6c659efaac32cd77ad0ec331c6f5176faf9d3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8222ec497a619cbc6c12809186f10e0c9def265f6aca514139636bdf9251df4",
+      "contextFingerprint": "0dd3aa664c6abcc04525b90bd90ba3957602b23faab37c266760ea05b6c8b881",
+      "sourceText": "### 示例 5：用 steady_clock 做超时判断",
+      "translatedText": "### Example 5: Using steady_clock for timeout determination",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "5e4d42da01eb163828d419764dbeab296772960a09d6c3662ac5ee6c17a491b0": {
       "normalizationVersion": 1,
       "sourceHash": "ad02706553806cb2939419485a3657038159bcfce623aa3909124636384deb5b",
@@ -55,6 +83,20 @@
         "inputTokens": 172,
         "outputTokens": 52,
         "costUsd": 0.000114
+      }
+    },
+    "5e50160d79b17cdbc5bf739c721d7cf488b896df3882ec96c392eb61502ac6bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd30ce7a47fadb07d130ae0d211a362812ea6d549d2e80be50c1378c18d284f1",
+      "contextFingerprint": "b5bfb6d5487d8ed34e41f91a7f544594cab742df0bfa0f933f4cb74d65a4b746",
+      "sourceText": "> 以下内容用于说明函数指针与现代 C++ 特性的联系。这里会解释示例所需的基本语法，但完整理解仍需要学习后面的“现代 C++”章节。初次学习可以先阅读结论，以后再回来复习。",
+      "translatedText": "> The following content is intended to explain the connection between function pointers and modern C++ features\\. Here, the basic syntax required for the examples will be explained, but a complete understanding still requires studying the later \"Modern C++\" chapter\\. Beginners can first read the conclusion and come back to review it later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 83,
+        "costUsd": 0.000157
       }
     },
     "5e5ff8bddc9b051a4a2a08eca626f9f0fab3d66a4e03bbcd04781be562a84770": {
@@ -71,6 +113,20 @@
         "costUsd": 0.000082
       }
     },
+    "5e601a06078d79d83fcb254e8fc684a5acf8029526d95dbf0a26204571d3ec5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "43a1b40eb071eaa691614a022892e7ed7fe92c6a5d2205fbc7acdb1b373649e2",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，using 给函数指针起别名",
+      "translatedText": "### Example 2: Based on Example 1, use using to create an alias for a function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "5e640af270203b775004ffe7860f9bf8212962c1011bbcad4c2c4f0639b5b7d8": {
       "normalizationVersion": 1,
       "sourceHash": "f813ce4ca085f96fd6775788f10e79fd0e99b885e67699ddff41753e671b6db5",
@@ -85,6 +141,34 @@
         "costUsd": 0.000052
       }
     },
+    "5e7ee117a4b91f39f01f108d3d72e007506c3b000a1895c0cb4af0f2de9857cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f58ebb8bc0dd816a7b40d7158d9406d00091a0c99913ae28fcf275b1d4206aa",
+      "contextFingerprint": "2ff0b2244fe7cc80a8a3a599bdeb2650ece9e2bb0de73ce2e714a38bb8b0c673",
+      "sourceText": "拷贝初始化则不允许隐式使用 `explicit` 构造函数：",
+      "translatedText": "Copy initialization does not allow implicit use of the `explicit` constructor:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "5e9b18de0ea9a6c13da854911587c87edd1d7a2c60401c3f33e2f3c7968c91f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5a42f9d1ad114713f6f9c7a49191a3ced22b661e71084577ba1996f4f583174",
+      "contextFingerprint": "b48c4ba940830f9710209314830164e56e7e772e66131489ab8a4050d9977ebf",
+      "sourceText": "但 `unique_lock` 提供了更多控制能力。",
+      "translatedText": "However, `unique_lock` provides more control capabilities\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "5ebe07a683ebbdf17621409025ec62f3f08aafdd0c3bad84ba02e13176f706f7": {
       "normalizationVersion": 1,
       "sourceHash": "3f5c16d11a7f40740744e9ac6619ad83b49ca32f828d62eb918aefe9f6e5f98e",
@@ -97,6 +181,62 @@
         "inputTokens": 163,
         "outputTokens": 42,
         "costUsd": 0.0001
+      }
+    },
+    "5ed907c9d695fc2b89be05d6ed19e27eff22919548f356896f4f2375995a389b": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a0a8be9d0d21f3d97fa362ac1147d2b33453af64eb13780ca2845e38ca3a63a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 修改真正的 const 对象",
+      "translatedText": "### Modify the actual const object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "5edbaf24ac6f92b4dcaa33d4a63992a73234934426885e735266ba68fb2cffd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "176e4c2fc1673824431860322f6947e338b9bbaa3305d5e6bb7c13cdb9b720de",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有时候当前函数捕获异常后，只做一部分处理，然后继续把异常交给上层处理。",
+      "translatedText": "Sometimes, after the current function catches an exception, it only performs part of the handling and then continues to pass the exception to the upper layer for handling\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
+    "5ee16123b0b582bea640cfcff880b367df5a0bd82f205862fe1355a8ae208ae7": {
+      "normalizationVersion": 1,
+      "sourceHash": "c541505e09a7b301994f7616c84b841b3a7d16bc3c8ed9d01ae5d5f339e7f204",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样只需要：",
+      "translatedText": "This way, only the following is needed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 16,
+        "costUsd": 0.000059
+      }
+    },
+    "5eed0e4c90f8017091c68e2686ad3c5c277a49039bb883c4b019736ae2e7ab79": {
+      "normalizationVersion": 1,
+      "sourceHash": "d09b397eb235759ef355a63001e6d2f4652e47c927c1793aae2b4d1c80c7e1a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果希望区分更加具体的错误，也可以自定义异常类。",
+      "translatedText": "If you wish to distinguish more specific errors, you can also define custom exception classes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     }
   }

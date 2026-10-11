@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "de028a6c3dbfa444cf57c2730f9e9d961cf1eada7f13f1ccb3bbe87171c5f2e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "661de657a773f9123358b38d89d3f07d2765728541ccbdb5f817c682b1a84ddb",
+      "contextFingerprint": "1d559a854b4c17d1d4039fbcb0a33cf1ea634295fc7f535ad0ffc1232dbca2d6",
+      "sourceText": "也就是说，`std::atomic` 首先是一个**正确性工具**，其次才可能是性能工具。",
+      "translatedText": "That is to say,`std::atomic` first and foremost it is a**correctness tool** and only secondarily possibly a performance tool\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "de318b12d99ee61821ffa006521a88d9200a6f66321e99265ea3106be83dc9b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f479019ef61a4955cac43ef5138cda1f65bd934963701a0e48ea720f6bbd8e43",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "隐式转换写起来方便，但有些转换可能造成数据丢失：",
+      "translatedText": "Implicit conversions are convenient to write, but some conversions may cause data loss:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "de3edfbfb76fc3b56a2702aedde9911b04eb646454207c5ca1e4003eeeec83f3": {
       "normalizationVersion": 1,
       "sourceHash": "aeb1d6a63f14a5adf5c7ae02d4eb01adbe9daa5ba883d7c2a0986e6062249579",
@@ -29,6 +57,20 @@
         "costUsd": 0.000108
       }
     },
+    "de676572576de8e82c5b92ef3f5d676f0aa1a7c7abcbdc707d09ee622dafabee": {
+      "normalizationVersion": 1,
+      "sourceHash": "1569c5b6f8be18b1dcf4651a5281d51a42277b965174957ac70aeb9679c22461",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 类模板实例化出的对象，向函数传参的方式",
+      "translatedText": "* Ways of passing objects instantiated from class templates as function arguments",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "de6868fd648564c12aa3d3ac566560044282e72bf9cd60aa2b738fe2a7eb65e5": {
       "normalizationVersion": 1,
       "sourceHash": "f13fe3544780f56f70ec208f5575071cbe1c64c6bcf719077811cdd74b7b326b",
@@ -43,6 +85,20 @@
         "costUsd": 0.000073
       }
     },
+    "de7fa44c41c132d547b8a9048c62d9c370f0b0000b14b9022499d871d4949177": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbdb609fa97a5b129c3d62f7e46009d8541e020e63765f644498d0f9a7c12dbd",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 多读单写。",
+      "translatedText": "> Multiple readers, single writer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "de83cfdfdd330dbac6bbcc6c1ce0be3a11cfed5515d2d987c092c4d58938258e": {
       "normalizationVersion": 1,
       "sourceHash": "00e271ca56fb331934456607cf9ae3b62d96688bc7a81995852a186f3600d2ae",
@@ -55,6 +111,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "de88c2163fcd94344c7bb3ab1d395850cd30f30b2404286941abb4d259e6c6c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3af52b091939864d37bf434c352dddbcbf04de454d6715166b7abab219f95eb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：在示例 3 基础上，用 variant 表示消息类型",
+      "translatedText": "### Example 4: Based on Example 3, use variant to represent the message type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "de9eb26894eebeb86f24abb55ad10059ba0bc1f496c620ffd9e3bb73c0a8605c": {
@@ -141,6 +211,62 @@
         "costUsd": 0
       }
     },
+    "ded96126b344d4a6abb9ecd13bbde47506962e07841e65ccb839da39f5759977": {
+      "normalizationVersion": 1,
+      "sourceHash": "79d3770a54f23b4349ae19d2859c82a1fbf1ca754b70477a40d533c94b2a87c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是可能出现：",
+      "translatedText": "Thus it may occur:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "dedee45a0fa4725e179524b65a4f48c5822150e64d5da82637119a443f465dfb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea717c10158763d482e40d3653e322c4873d45d317b43a2cdc3df912a3dc12dd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 显式转换",
+      "translatedText": "### explicit conversion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "dedf584171db461213a234416577638a0ebc1b8c21a009959e6cdc4699e30e1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbf480ec0f85baeb9e63087edb00117dfc68f6501bfcf2c74311a5fde9632f7d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初学阶段可以简单记：",
+      "translatedText": "At the beginner stage, you can simply remember:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "dee565d3e7f110e9a7941707e7fe2b99bb73d88e4ab0873c38ca23013df39621": {
+      "normalizationVersion": 1,
+      "sourceHash": "8cd2f59793042a5193b4d59b8a688f985eb1033c0aa514e542447878748a0538",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 模板的通用性并不是万能的",
+      "translatedText": "* The generality of a template is not omnipotent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "deebcd0f538a1de217e086e657591043ec7d786a19c7e10bf410e80141598fe5": {
       "normalizationVersion": 1,
       "sourceHash": "7891b798d415465931cf948c19c09b199dd648bb38fde75627d12986635d8231",
@@ -153,6 +279,34 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "def09e2538082071b04f38e3df110a74f8adbedc9fe024244e9c06d83c7abd72": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d3c2d386e0ea3aaf62f106b69d66f62a0cd1f669010ca0b910c8594d17f3cc5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "初学阶段可以记成：",
+      "translatedText": "At the beginner stage, it can be remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "defc31854f7a4005bfbd68bcdfac939dec860557847677a329f307a946d21131": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b1a1967065aa621b48b2ede86b159b76e58cda7200c7c2bf69dfb8faefc6006",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误5：调用成员函数指针时没有提供对象",
+      "translatedText": "### Error 5: No object provided when calling a member function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     }
   }

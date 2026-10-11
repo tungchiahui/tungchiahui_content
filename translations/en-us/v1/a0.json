@@ -15,6 +15,76 @@
         "costUsd": 0.000171
       }
     },
+    "a006fbe49781b5b36ad077ccc2a41fda92f8a67a2053b9a6e5ad1ce5338ba0ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "24ffd1053f0b1d736a705922bd6a04c594b0466e43877308f033b14fd5379cad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多个线程都读取：",
+      "translatedText": "Multiple threads all read:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a010efde8d55ad40984aa09c2d3c469d9bbf4f7806613d07b99d53d238ce4b26": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9dfd1bd1f85ec5534333f50a732b857aaff5e7d652cc35ff601d46a85550166",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 采用动态存储分配，不会造成内存浪费和溢出\n* 链表执行插入和删除操作十分方便，修改指针即可，不需要移动大量元素",
+      "translatedText": "* Dynamic storage allocation is used, which does not cause memory waste or overflow\\.\n* Insertion and deletion operations on a linked list are very convenient; only pointers need to be modified, without moving a large number of elements\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 50,
+        "costUsd": 0.000108
+      }
+    },
+    "a013d0858bad433dcb2e83f1d316988775f60e7e8407046ecc1a8e73a422e4f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "585bf4e504b38732929f70adf8e8df5c82f14be410adbdce1f616de6414724e0",
+      "contextFingerprint": "d9c7c53e3609c305d62c9f105c028d7066f5972d824a86db4b93d363647badf0",
+      "sourceText": "`auto` 真正\"丢掉\"的东西只有一种：**表达式的引用性（即\"是否和某个已有对象绑定\"这件事）**。",
+      "translatedText": "`auto` There is only one thing that is truly \"lost\":**the referentiality of an expression (that is, \"whether it is bound to an existing object\")**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
+    "a019df84cc7678ecb4013a400c8d91cfd2d005660b48a7c2289a6ebd30f3359d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1fa8b862ae8cedae7b96b6776e888ebb9a61f0b90fb89a1e53409420fba97831",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "它的第三个参数一次接收**两个元素**：",
+      "translatedText": "Its third parameter receives**two elements**at a time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "a032b2171e75e2b3756ff9fef610d6f0749e1d50774ca4033a23b848be93f229": {
+      "normalizationVersion": 1,
+      "sourceHash": "af3fae365787a96fce021cd357b75aa57797718d51e23a639d6904fe8b2bce3c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最简单的记忆方式：",
+      "translatedText": "The simplest way to remember:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "a03b149733a164d39cf8f33311224cc5a33226960b7d6caaef2f723c346daf0e": {
       "normalizationVersion": 1,
       "sourceHash": "bbff61a5eaa6d1112d541dbb75ccf0d962fdb6fc1d0c8c3776c3141b5952c900",
@@ -41,6 +111,34 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "a056a6b6bd5101aece2c4b7885f5716968eba1701682dd39ed4381de2567d46c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f3a29c0fc574f2079483f3a8ad193dc9e1206b05e3d61733707bd9085859efa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "特别是：",
+      "translatedText": "In particular:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a0575534a7471841f72f36a00240f6df8f7810bd159ed7739f1f1776c3bb8fd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6f10ac182d0c7ad8a5312baf24eeb57f2f2e939b9663f7c738a9318097829d7",
+      "contextFingerprint": "7a5e4d0576623b766d308c99d07115e1164dc52bd186a87b71310897e0f7621d",
+      "sourceText": "如上图，只有第一个有mutex机制的正确输出了`200000`，而其他没mutex机制的输出是不固定的。",
+      "translatedText": "As shown above, only the first one with a mutex mechanism outputs correctly`200000`; the outputs of the others without a mutex mechanism are non\\-deterministic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 39,
+        "costUsd": 0.000093
       }
     },
     "a07015404bed1957d3278b2d992cc81a53f51a4d71e2181eb2b9436dfe3e8781": {
@@ -71,6 +169,48 @@
         "costUsd": 0.00019
       }
     },
+    "a073d6f5e4fdb211534dac8d632cf08f624b1a9e0ed57989a425f4b533f8e2ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "57e22a45ca40f80827c0a1334fd40bbb92ec4bad306a95d43138614b58e03e83",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "建立一个通用函数，其函数返回值类型和形参类型可以不具体制定，用一个**虚拟的类型**来代表。",
+      "translatedText": "Create a generic function whose return type and parameter types may be left unspecified, represented by a**virtual type**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "a07cb9a0e9d8bbe140a6e282f050020934f57dc1264411341c87e22ae21a3561": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1c637565e67ef0acc6c4434413c6aca020887389e127f1a23b957b8ded4c25c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "能够利用所学知识点实现通用的数组",
+      "translatedText": "Be able to use the learned knowledge points to implement a general\\-purpose array",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 21,
+        "costUsd": 0.000066
+      }
+    },
+    "a0868f0e3d366fc51f7fa4f18a0fbb5521a9a0322e7202f222f8dd26b97815c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "708480684653bc8ce7fc9c9bcd30150d4551b34f8e215ff11658d28d6e65ea83",
+      "contextFingerprint": "b71822b3b7e8698cb075bf31c9c7f6559a9bfb3d518918acf021bc8c4721006f",
+      "sourceText": "`const_cast` 只能添加或移除 `const` / `volatile` 限定，不能把 `int` 转成 `double`，也不能把两个不相关的类型互相转换。",
+      "translatedText": "`const_cast` can only be added or removed, `const` / `volatile` qualification, cannot convert `int` to `double`, nor can two unrelated types be converted to each other\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
     "a09019ef3ea404f49301fadc9bcb4e2c55ea44d44c4ca4e00630c5d4106778da": {
       "normalizationVersion": 1,
       "sourceHash": "7a8a19fa08396fddeafe5b9468af23ea2454734b6601a7503a02931434ba7199",
@@ -97,6 +237,34 @@
         "inputTokens": 147,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "a0d3a933dc5542a95fa0ef8f411f9ca7a7cc5cbe4e7fafc835ebf588a76aaa9d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4aa2bf43227270fb624f3726b5bec55a6b0205aa90345f4adcf35dd49941959b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一节重点学习：",
+      "translatedText": "This section focuses on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "a0dd5cc2add757ea7c902ae78e44b38f83a1fc2f4c24565d03b9c93aebce5984": {
+      "normalizationVersion": 1,
+      "sourceHash": "a67fdc2f63160b82748119a2994cff1510ea03992b1551518955942affde96bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有人会觉得：",
+      "translatedText": "Some might think:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     }
   }

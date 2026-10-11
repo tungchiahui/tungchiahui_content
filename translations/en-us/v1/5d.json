@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5d22e44dd1eaa79ec41b09ea4bf7b365082c13a206d41ee470f75803c512dabd": {
+      "normalizationVersion": 1,
+      "sourceHash": "411b5f2a70e72e3e3b14584c2a7416fab5e119719f171ed6c5e070dc278b4deb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "锁越多，可能带来：",
+      "translatedText": "More locks may bring about:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "5d2895fe7a1c63df6f012d98441e207dd687e5f98a8901acfc78cac947f7e05a": {
       "normalizationVersion": 1,
       "sourceHash": "2a10a5f319f7c9a1214fbc4849bd2b00cf08d087c94c8d587bdeab5d83b9c953",
@@ -15,6 +29,34 @@
         "costUsd": 0.000062
       }
     },
+    "5d4807312bfd95342ff1590a3d697fd7d6eeaaa788ddccd3becc6ff88113ce5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e01a02bbe8481e07815aeca8a47f721cafda9a3942a7c1c5fa40d413cd779222",
+      "contextFingerprint": "4cb4ce04470c89c4babd21b71fd2fa87051d8eb63b5cfdd2502d59c6b41ff7ca",
+      "sourceText": "C++17 之前没有结构化绑定。修改 map 的 value 时，通常取得整个 `pair` 的引用，再修改它的 `second`：",
+      "translatedText": "C++Before 17, there were no structured bindings\\. When modifying a map's value, one typically obtained a reference to the entire `pair` and then modified its `second`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
+    "5d485cb555eea0a106d54ac17f5d91475550455f4039ed2545faaf14304aa906": {
+      "normalizationVersion": 1,
+      "sourceHash": "c713488c8e0ce2d62b6f7209ee982e543c2222a6d063c6bd113b0823aaccca4d",
+      "contextFingerprint": "3a0671285cc3cabbcaf8a09ed0b0e2aa5af96cc5a2511d52b76a86b37adf638b",
+      "sourceText": "如果 `find_if` 一直没有找到满足条件的元素，它会返回：",
+      "translatedText": "If `find_if` has not found an element satisfying the condition, it returns:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "5d5a525625447081caf15e2ac98aa8a5d88c0457b251dcca962b1f243e050196": {
       "normalizationVersion": 1,
       "sourceHash": "e3318f0e99e9472fe2ad94e8e53aa2b35ca7beff4a68b05e8e51744e132fbd90",
@@ -27,6 +69,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "5d5f1f99a64d160f2c1e108ad421e1b8580bfa6c0efb2b3fa336feabf0c85fef": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c1555e5f5543c81fb2c19a9aa44ca4f72c20971197996aa6455064828013feb",
+      "contextFingerprint": "6271d53badd3e073040434702071b37bedfd2787986f6a6529e7609923c3adcb",
+      "sourceText": "* `set& operator=(const set &st);`    //重载等号操作符",
+      "translatedText": "* `set& operator=(const set &st);`    // Overload the assignment operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "5d81f531d676f45cb4e72dfa56d77c0eda486f6420507897e833251425c7c1db": {
@@ -55,6 +111,20 @@
         "inputTokens": 157,
         "outputTokens": 34,
         "costUsd": 0.000088
+      }
+    },
+    "5d85289b07aeaabb3dc900d7262e38857d3aa8cd310aa59e9bfabf53debd82e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "f73502a8271ae281b7349ddb7747c558544e4fbcb93396238f914eb7fcfde3ae",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 查找   ---  find    （返回的是迭代器）\n* 统计   ---  count  （对于set，结果为0或者1）",
+      "translatedText": "* find   \\-\\-\\-  find    (returns an iterator)\n* count   \\-\\-\\-  count  (for set, the result is 0 or 1)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
       }
     },
     "5d8816ef764007f05c491953f46176fd6e73ea769a84c48fe61dca7061dea650": {
@@ -113,6 +183,62 @@
         "costUsd": 0.00007
       }
     },
+    "5dd530c027722c00b6ee0c1ecb91c4fc5ffde5430c2f54cdcc9a827f8097d5ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d87209f869ce31fd47adb0d4865f419e35233be04ac307950509832b3e73452",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 给vector容器进行赋值",
+      "translatedText": "* Assign values to a vector container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "5ddece403b6ebf394076d3528387cbe2faa2b35fcd1c188433ceb58ce69b0948": {
+      "normalizationVersion": 1,
+      "sourceHash": "db6fb8e7664cf582ee5b4d3c247272618746c58bc533cc5c652be67a6ee6cdb5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：在示例 4 基础上，auto 返回值和 decltype(auto) 的区别(指针)",
+      "translatedText": "### Example 5: Building on Example 4, the difference between auto return values and decltype(auto) (pointers)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "5de3f6a48e68a8bdd331ad096c7a0cf89d6e5ff2b9220464a1d5c803b9ddd6c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d292c0edcd3f31159db4a949daa1c468efdc19ce549b523ce01e8faab7fcfc0b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过函数指针调用函数也有两种写法：",
+      "translatedText": "Calling a function through a function pointer also has two forms:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "5de4ba56b33ce9fbd0c961b5f652c64ed76be8d4435e704f3b8d7daa6eca3e98": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ab0fe6bb4a5f6396357d0650702f755012ee072829786add713d1a6c80fd722",
+      "contextFingerprint": "9c58f67176e76cb77c92943430c6ff38133fa122fe07e4c8f0a0c79c639d3e15",
+      "sourceText": "### `std::recursive_mutex`",
+      "translatedText": "### `std::recursive_mutex`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "5de802cd652ea48742890b8971fadc20b1732dbe2419ce36494ad7896140ae0e": {
       "normalizationVersion": 1,
       "sourceHash": "76ae3ee8cd97cab30b2a7423f457576ee9c0fe5cf6c98a2db360fb7f8eae0796",
@@ -125,6 +251,48 @@
         "inputTokens": 138,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "5df00eeee6c77b7821fc4f77379190de0957f653531fec05e29df2b036ad19cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7441b413982cdffbcea7dfd29ddd0413837ba9feec5ea97fd592ccbde30d5ce",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "成员函数指针的类型中必须写出它所属的类：",
+      "translatedText": "The type of a pointer to a member function must include the class to which it belongs:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "5df0debe616f4b12058fa79603f7d13bc76194f55bee184f4d5b0dbe6880e7c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0681c09cb55616d50863670c447e3497fd560d42151ba483b1a58650bd78935",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 三种常用 RAII 锁怎么记",
+      "translatedText": "### How to remember the three commonly used RAII locks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "5df52865d0bae687b8cb52db39f15ffc00147df69c580ba3697f57dd7af3afee": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e1a900a949c2df788cf9025576ca04ed7f73b5abad7c2748e9754d8d319b8a1",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 哪一行代码要锁？",
+      "translatedText": "> Which line of code should be locked?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     }
   }

@@ -29,6 +29,20 @@
         "costUsd": 0.000126
       }
     },
+    "2c1c84c7b375d5482e943ee5a0d95d00593fd07d137ad3d1ad4802289a97a170": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ab9434357c38340bcb73df979326add4df55d792dff1e06df00f621a7bdeee3",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### find",
+      "translatedText": "#### find",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "2c2ac11dc396b9774ab6ff95a547bd25bb9a5a46a1cd7d075839e21d11a98e85": {
       "normalizationVersion": 1,
       "sourceHash": "31b2974a16c33f99dae6f728d0db4a19b57c28ffd0b5799708cd9109cea76651",
@@ -85,6 +99,62 @@
         "costUsd": 0.000067
       }
     },
+    "2cacf12f5e3baed473120017cf54aee638497807b3ff9e20dabb607b74d6e2f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2468fe6989761f6bf0c16dc0fd49a85e3d3a1b338bf06eb51906063908fc1d2d",
+      "contextFingerprint": "f6b35cb4cb5eabafe2eeb3d57e38bff614b6bd04f3b0b809791e4720df745582",
+      "sourceText": "1. 能不用指针就不用指针，普通对象和引用优先。\n2. 需要动态所有权时，优先用 `unique_ptr`。\n3. 只有确实有多个所有者时，才用 `shared_ptr`。\n4. 只观察 `shared_ptr` 管理的对象时，用 `weak_ptr`。\n5. 创建智能指针优先使用 `make_unique` 和 `make_shared`。\n6. 函数参数要表达语义：借用、转移、共享不要混用。",
+      "translatedText": "1. Prefer not to use pointers if you can avoid them; prefer ordinary objects and references\\.\n2. When dynamic ownership is needed, prefer `unique_ptr`\\.\n3. Use `shared_ptr` only when there really are multiple owners\\.\n4. When only observing an object managed by `shared_ptr`, use `weak_ptr`\\.\n5. To create smart pointers, prefer `make_unique` and `make_shared`\\.\n6. Function parameters should express semantics: do not mix borrowing, transfer, and sharing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 86,
+        "costUsd": 0.000164
+      }
+    },
+    "2cb4c733515eb2f4f9baa6911c7300f533596d6983cb0d5051be1c4b70af56ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "935535a95bb374c74a9b203444503ab0220b6a2ee2b3bc011d9d1f7f76ed1508",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习目标：能够掌握类模板中的成员函数类外实现",
+      "translatedText": "Learning objective: Be able to master the out\\-of\\-class implementation of member functions in class templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "2cc449ed6e3ef0cadcd51b554741d6e9d66ce46c24bc20f7fa65c7fd6baef737": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f762b58b448d516347536f35d77d1387f6dc4574a720e184b41f6c983738745",
+      "contextFingerprint": "9743a1df8b7293e10cdfaa7ef5d117d58b724d736001bc57b68c700b062fba52",
+      "sourceText": "| 类型 | C++17 之前的访问方式 | C++17 结构化绑定 |\n|:---|:---|:---|\n| `std::pair` | `.first`、`.second` | `auto [first, second] = pair;` |\n| `std::tuple` | `std::get<0>()`、`std::get<1>()` 等 | `auto [a, b, ...] = tuple;` |\n| 结构体 | `.成员名` | `auto [a, b, ...] = object;` |\n| 数组 | `[0]`、`[1]` 等下标 | `auto [a, b, ...] = array;` |",
+      "translatedText": "| Types | Access methods before C++17 | C++17 structured bindings |\n|:---|:---|:---|\n| `std::pair` | `.first`、`.second` | `auto [first, second] = pair;` |\n| `std::tuple` | `std::get<0>()`、`std::get<1>()` etc\\. | `auto [a, b, ...] = tuple;` |\n| Structs | `.成员名` | `auto [a, b, ...] = object;` |\n| arrays | `[0]`、`[1]` etc\\. subscripts | `auto [a, b, ...] = array;` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 57,
+        "costUsd": 0.000123
+      }
+    },
+    "2ccc3a9760aff701d583b9000e0aabf35e33fedfad62ef6df51939298e4e2363": {
+      "normalizationVersion": 1,
+      "sourceHash": "2034af374de1cae0e291594b5fc45e9ad3cbc64bdf81b4a16f4c52d0f71e4795",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以 mutex 的核心效果就是：",
+      "translatedText": "So the core effect of a mutex is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "2cd2f3977c377ca1b570edb7cc2ec2d09140057b07e1437577416c220266e4c3": {
       "normalizationVersion": 1,
       "sourceHash": "95e8df96a2d620a472a699f51590f9ef9477dfb96a2c74aba0648fb8db92d960",
@@ -97,6 +167,48 @@
         "inputTokens": 170,
         "outputTokens": 48,
         "costUsd": 0.000109
+      }
+    },
+    "2cdde34644258c6b231a893b5fbd8ee72bcea0bd97d59c7418ca9d1b79c9753c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b3168ad4d724e164a3507c9565743af8dd748eba837cdd8e62ae4a7662c3c36",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发代码中真正需要思考的，通常不是：",
+      "translatedText": "What truly needs to be considered in concurrent code is usually not:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "2ce7e93cf17e72b07fccbd72dbce04f15e23143df4174584700dedd7ea5c19c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c83d23803165fa5b576c45aa3b236ff7936f6ff694eba2004719337b7dd57535",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类模板与函数模板区别主要有两点：",
+      "translatedText": "There are mainly two differences between class templates and function templates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "2cefaebabb01eaa88545a2551db25548095ec4e30f40cb1fbe3b16cec0616963": {
+      "normalizationVersion": 1,
+      "sourceHash": "13fff8ac4b00595cfd63cf63e1da6fc0b9a7f752a63ab32d9001f281e78f1030",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 等待到哪个时间点。",
+      "translatedText": "> Wait until which point in time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

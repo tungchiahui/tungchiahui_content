@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f30aac99c4235cca954d3a3883146ccaa95e2735243d653de284dd7312d7deab": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2b1723b23fc6c5e5c06e71aed9e4b4ab3d4c6b863088d2d3275600ae4eff6ad",
+      "contextFingerprint": "4fbf673ae1ae69e309ec21b72494e145d0b0366a29c19389fd91a49129d08be5",
+      "sourceText": "- 枚举值有**作用域限定**，需要用 `Color::red` 访问。\n- **不会**隐式转换为整数。\n- 可以**指定底层类型**（如 `enum class Color : uint8_t`）。",
+      "translatedText": "- Enumeration values have**scope qualification**and need to be accessed using`Color::red`\\.\n- **will not**be implicitly converted to integers\\.\n- can**specify the underlying type**(such as`enum class Color : uint8_t`)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
     "f32d4136b310f6e292d7e0df63c4c49bff89c62096fda30e092b626bf47d10c0": {
       "normalizationVersion": 1,
       "sourceHash": "cac7df2ebdac1d304447d5a7cca9043ccc410c8a9c1751833ddb5324a5c0c4ca",
@@ -43,6 +57,48 @@
         "costUsd": 0.000092
       }
     },
+    "f3704a6e8a202ea93b9906c41e37627bac8aad6f2084ea0268f727a04a61bd22": {
+      "normalizationVersion": 1,
+      "sourceHash": "56f9d8561de0fc442768d3ca020a9e81234e094b0dd37b8bea373d379a5f5321",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "必须独占。",
+      "translatedText": "Must be exclusive\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "f3720f3a3dca1e2ba2f0d745442d977d4d4a46b6512db0e640ee3e74a6f294cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "c60dad540815120bde48fbed15c1c871e05e813035476eda391b3bd143858884",
+      "contextFingerprint": "823b87e26931da4c1888b6715356a9f51dc3d3096f70ce4b59856726c3001c21",
+      "sourceText": "正确做法：空字符串用 `std::string s;` 或 `std::string s = \"\";`。",
+      "translatedText": "Correct approach: use `std::string s;` or `std::string s = \"\";` for an empty string\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "f3aba3e81e8a22c83018e7863922534bada22d22c2bb036619839af0258bc4e7": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd5ff0fdf152041f520599b7a7f3c0c31407283fa230f2c88d6d4fa19e8635cf",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 计时和显示时间不要混用",
+      "translatedText": "## Do not mix timing and time display\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "f3b66064857f9e45cb57359f31bc44576cacb18ec4a93e8a82c2f7d52a365f7b": {
       "normalizationVersion": 1,
       "sourceHash": "b8da11258427608513e31c0f095286b207710a72631fa71b6f81106036c835a3",
@@ -57,6 +113,20 @@
         "costUsd": 0.000066
       }
     },
+    "f3c5409dcf2b9055649a1f07ca0144bdd737fd375bfa057b5a00844ce03664d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "de34501f287f20c463b2160f5351338b82e111a56653bdbf33c5b4d7d1bfffdd",
+      "contextFingerprint": "e0b95f7131b6510663a40a3038e0a7239f4d7311c144ecd5ad01caa3c930edb1",
+      "sourceText": "一个常见错误是用 `system_clock` 做超时判断。如果系统时间被 NTP 或用户手动调回去，程序可能“等很久都不超时”。测耗时和超时都优先用 `steady_clock`。",
+      "translatedText": "A common mistake is using `system_clock` for timeout determination\\. If the system time is set back by NTP or manually by the user, the program may \"wait a long time without timing out\\.\" For both measuring elapsed time and timeouts, prefer using `steady_clock`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 58,
+        "costUsd": 0.000122
+      }
+    },
     "f3d5d86ce6797dccb64a2ca39f1ab2ccbd470581ae923582a7e32aa2e1baec2c": {
       "normalizationVersion": 1,
       "sourceHash": "3c0763fed2f180ef7cba4fde920a5e184b6c2801a5056d92820f2e05fa88180c",
@@ -69,6 +139,34 @@
         "inputTokens": 166,
         "outputTokens": 47,
         "costUsd": 0.000107
+      }
+    },
+    "f3dc56915243b443c0770e12be24b73437907faacfabb70f03f078ea37dd1b9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa9e4fc5625a8946a424facd79b9b2a2bd8c7db94f767ae1edbd3599bea90c2c",
+      "contextFingerprint": "38e828e95d84d965ca791640667a48d2cf71042772b531a221e3dac0bdcdffda",
+      "sourceText": "例如，`std::function<int(int, int)>` 可以保存一个“接收两个 `int` 并返回 `int`”的可调用对象，包括普通函数、函数指针、匹配的 Lambda 和函数对象。",
+      "translatedText": "For example,`std::function<int(int, int)>` can store a callable object that accepts two `int` and returns `int`\", including ordinary functions, function pointers, matching lambdas, and function objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 39,
+        "costUsd": 0.000096
+      }
+    },
+    "f3de6e501ea5d6c04b03a5bcf215d7323114b54e16d88fd29a9aa4a9f17f8fb4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9e737c597e35e93134e54c8b880323391874a7663b0ce5b1231a1f4455ed3495",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它最核心的作用可以简单理解成：",
+      "translatedText": "Its most core function can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5f10c0f2daedcffb3329456fb129cdfdd451d3bfdd549908679dba9b2423e41c": {
+      "normalizationVersion": 1,
+      "sourceHash": "13cfb74b69760c9adce02369ee015500412a78822a3d2ca1eb0a1d8818c1281c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而下面的操作是安全的：",
+      "translatedText": "The following operations are safe:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "5f11aa8d8c69b02f057495a58b6d748b35b9b1b525b2216209812775a66bb5e4": {
       "normalizationVersion": 1,
       "sourceHash": "2cdb022dc16d0b617e39ff9cd6c6e92aa23330960b3aba8b00e5005a97943f35",
@@ -43,6 +57,34 @@
         "costUsd": 0.000113
       }
     },
+    "5f32e9afa757e8ac521a0f8971334807535248cd8dcc05ffe68a29d62e75ff22": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5127e78a85109731f25d73dc30942b976f1bc49f2ff212496825954ccc6ce7a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "变量名两侧的括号不能省略：",
+      "translatedText": "The parentheses on both sides of a variable name cannot be omitted:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "5f43f8a64e1d984acf6a8febddb1204c6dee4766f248407005bcd01e7e848d95": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a306677d2c3ae6cc0d3b1c69e0840d953d634f32a5766c064a60348c8eebe2a",
+      "contextFingerprint": "7cfe448fb3101cf3692d51e26dbc3d495172ec0231b6f3bd7bf162c6f7210fb9",
+      "sourceText": "- 标准库并行算法；\n- execution policy；\n- 任务并行；\n- 数据并行；\n- SIMD 与向量化；\n- 线程池与任务调度。",
+      "translatedText": "- Standard library parallel algorithms;\n- execution policy;\n- Task parallelism;\n- Data parallelism;\n- SIMD and vectorization;\n- Thread pools and task scheduling\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 38,
+        "costUsd": 0.000095
+      }
+    },
     "5f5cf1b06a304ada2a751c7c610730f9ed93dc36fe807ba073dd65455df59b32": {
       "normalizationVersion": 1,
       "sourceHash": "474687c42c982bd04fc4c96a426d4e836b731d405332914888b33e96f3c97da5",
@@ -71,6 +113,76 @@
         "costUsd": 0.000149
       }
     },
+    "5f7579e1f7b691d84758fd733c78546009dac11b0751276b39732ced766f14cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "3722d57b0aa9177fc4863a207fb663bd7d46e673507d18c02104877378400d27",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：用 enum class 表示机器人状态",
+      "translatedText": "### Example 4: Representing robot states with enum class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "5f8c10e140b71ac964b1d13e1bb7b81072964b28e568332802938cac25e94095": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3f9587a69b92c1e77b77bfa3c3649f3347c72d4d3743d1876bd903de70b6cab",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对list容器进行数据的插入和删除",
+      "translatedText": "* Insert and delete data in a list container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "5fb55b0862fdca8ef1dfea3d07007a73884288e89bd0b4b9a352a55595d172d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b66bb2125cfe91d47297a4af19acbed2ab00f1dea09d77bd086a6bdee2899a3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：在示例 3 基础上，获取和格式化系统时间",
+      "translatedText": "### Example 4: On the basis of Example 3, obtain and format the system time",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "5fc68f2632aae22e5e8aee5830684cb8e0254028da432b6267bee3b5c1378390": {
+      "normalizationVersion": 1,
+      "sourceHash": "141502b0de52c7765049e36b30065c2901def8b1a10e3ae63c7e303c867c2f08",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如规定：",
+      "translatedText": "For example, it is stipulated:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "5feae39b7d986d887114fd9059e6a68f83400f619e7b0467768e5b1126da78ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "d10187a88eccadf1db6899f755a33edc8115caf834e02f15270ba902b615a87c",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* 串口偶尔读取失败\n* 网络偶尔超时\n* 传感器某一帧数据无效\n* 电机反馈偶尔丢包",
+      "translatedText": "* Serial port occasionally fails to read\n* Network occasionally times out\n* A certain frame of sensor data is invalid\n* Motor feedback occasionally drops packets",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "5fed0d43f8f6b1fb7a57883d889b58d9f3ecd61ce82147edb6f7e92c08396e43": {
       "normalizationVersion": 1,
       "sourceHash": "9ee12e764766a1ecf25521fca05dfe51c515a6e6519758d929058d8598448bbf",
@@ -85,6 +197,20 @@
         "costUsd": 0.000159
       }
     },
+    "5ff98dbb4f5f54c7bf71985240f86ce87f3edb5bbfb78ecc05c25bf991b24350": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a096b6c01ddffad92fa44f3909d7f65d4e8cfdfb7c7cc825f514d47f5a19bc0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：把运行时变量赋给 constexpr**",
+      "translatedText": "**Error 1: Assigning a runtime variable to constexpr**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "5ffe8da063b694797a2769ab45f674307c81fc7bd04ff22a3150363cfad0d90c": {
       "normalizationVersion": 1,
       "sourceHash": "6364a821c216ace50d55f3e0e3d23819c1d9bf161cab45c06f1003014ac9a3de",
@@ -97,6 +223,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "5fff56fe80fa7bdb1cc3c00cdecee24751fd7d1ac23288065cfd139ca4e4d8ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "c99dd32fbce0be0612ef6d55850161946af45ca47c61fe6b6d2a2d3d52d3a15a",
+      "contextFingerprint": "9c8ee6ec5bab802ff73a123883a5af2fe04eed6e037e074361b06d69f2ad6e7c",
+      "sourceText": "* 算术仿函数\n\n* 关系仿函数\n\n* 逻辑仿函数",
+      "translatedText": "* arithmetic functors\n\n* relational functors\n\n* logical functors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     }
   }

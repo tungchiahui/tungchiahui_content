@@ -15,6 +15,34 @@
         "costUsd": 0.000173
       }
     },
+    "7e082b4ab41b2157e9d13775dcfeddd70494b930935f12ac1f8f71152d7ba119": {
+      "normalizationVersion": 1,
+      "sourceHash": "12a2745fe691deffac09a13b24c99cf9be3722aadaccb0683505ee8e283bcbd1",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：span 比它引用的数据活得久**",
+      "translatedText": "**Error 1: The span outlives the data it references**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "7e0b500ac408daf6597c08e83bf12c6c76d198c600dd6cb520a3783bf1081911": {
+      "normalizationVersion": 1,
+      "sourceHash": "edd7a97c7788d8bde26a46e10ef711691792d867c7ccfe131deea3291781eec7",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 持锁时不要随便调用未知代码",
+      "translatedText": "### Do not casually call unknown code while holding a lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "7e12d452942e728c0404c8bd50db5912b11ff12ab2ba368545efb3d9f7483152": {
       "normalizationVersion": 1,
       "sourceHash": "7541f0d54e17105958322122166ae6449b0ebd46da383f67c4be1cc82d27e727",
@@ -27,6 +55,20 @@
         "inputTokens": 174,
         "outputTokens": 65,
         "costUsd": 0.000131
+      }
+    },
+    "7e231aac124969022855225ca65f1abc133842290622b2b42b9ffa21b3489ccc": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9339b1a1d4737b23bad30e18bcdbf1c899c0237e23daeef0ce91e0b8f96cdaf",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 学习顺序",
+      "translatedText": "## Learning Sequence",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "7e2b2eb62e400108565bcc4ab9d78c5f6b9c26cc691bea4e63a630fe128e1115": {
@@ -43,6 +85,20 @@
         "costUsd": 0.000138
       }
     },
+    "7e3f6db75629330165fee2c62cd15baae8863eb0731d5b89a9915bdbeb123fad": {
+      "normalizationVersion": 1,
+      "sourceHash": "e76804858c62fdd9497d2c1c5336f775a938f6ba23675c123c4aad432e1a1120",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "函数对象(仿函数)是一个**类**，不是一个函数",
+      "translatedText": "A function object (functor) is a**class**， not a function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "7e400713e58a25fb8667254dcfb7449b0f85479a15475745a86dc1227536e518": {
       "normalizationVersion": 1,
       "sourceHash": "0f01658006b4facc52483467bf0c403f8661d393a11fcf8dffb590e96b37788f",
@@ -57,6 +113,34 @@
         "costUsd": 0.000054
       }
     },
+    "7e4a88347e4c653315feb88ceb8539d7c1b9003d9742a568b915616335c0dd81": {
+      "normalizationVersion": 1,
+      "sourceHash": "f500506e7d804f37478c6e39c912c5a586869f5c9dcd8bcc0977ec8959b00a79",
+      "contextFingerprint": "9f42cce24ab9c317fad69862639df3ee174f0d38f06817e3a4f4b2c1b8924ec0",
+      "sourceText": "正确做法：`std::format(\"{:.2f}\", 3.14);` 或 `std::format(\"{}\", 3.14);`",
+      "translatedText": "Correct approach:`std::format(\"{:.2f}\", 3.14);` or `std::format(\"{}\", 3.14);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7e5b1032702f7eb5e23284133d065c51e03f02bf034a1d6199232812ffa54c19": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce9f7f92a8aa9bc3bce840414e94b17433cab2f99b628310be28253dce6f9d58",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 标准库提供了很多并发工具，例如：",
+      "translatedText": "C++ The standard library provides many concurrency tools, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "7e6df762ccdc46e82d50426b1945c4a7d516607d9c887def42f13841929b49e8": {
       "normalizationVersion": 1,
       "sourceHash": "044620d56536b42985a151779c1cbf96eb654cdf6e219fff4d8b34dcc2b5d554",
@@ -69,6 +153,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7e7d3b94fc946d0d3d4476d5ecfcb594b89e4b8bd5ed719fce7f8ae0bedf7816": {
+      "normalizationVersion": 1,
+      "sourceHash": "db41353d5324c9cff87ec8fa20faf7425de7118fca10631a2182cb29e36fd2e1",
+      "contextFingerprint": "2ec2e29379c3bbc643142ab9a021c8aaf2992cc721c47d9b98f5412a270f7945",
+      "sourceText": "### 示例 1：旧写法的问题和 unique_ptr 的 RAII",
+      "translatedText": "### Example 1: Problems with the old approach and RAII in unique_ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
       }
     },
     "7e7e3a606bdfdb697a8dd232c93b87983830802d8110025e915128ddff530a0c": {
@@ -99,6 +197,48 @@
         "costUsd": 0.000049
       }
     },
+    "7e925061d67e4382723d7de95950c8643f86a1b524d161bf9a564b7c10fb28a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbe4c5984a445b701265f39010d6c707d33fef5df8a8906bfeeaa50a8ba44e95",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- 怎么遍历容器；\n- 怎么统计数量。",
+      "translatedText": "- How to iterate over the container;\n- How to count the quantity\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "7e9ae70c74b89060d35cb1f9b900d0c578af2b981977d5c174ef50d19d37a0bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d5e21784680c50899d96e2c13521529e57f4164f0276ef7a4886e9d563290e1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：把引用形参误认为 thread 会自动按引用传递",
+      "translatedText": "### Error: Mistaking a reference parameter for a thread automatically passing by reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "7eaf31cfa434256bca7eee0c0e7e65916df4010b47f5156db3e903041095023c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f79811ad154800b5bd16e0f5eaed6425897c3359828e05a9d5aeb94fbd643b7",
+      "contextFingerprint": "c98c1a3f700c73a3de562e54f15450480bef1fcdb7ba062812e9e3e3bd7b05d6",
+      "sourceText": "这里的`std::stoi`函数，他的转换规则是：从字符串开头（必须数字为开头）开始，尽可能解析一个整数；只要能解析出一部分，就算 stoi 本身成功。\n例如：",
+      "translatedText": "Here, the`std::stoi`function's conversion rule is: starting from the beginning of the string (which must begin with a digit), parse an integer as much as possible; as long as a part can be parsed, stoi itself is considered successful\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 60,
+        "costUsd": 0.000124
+      }
+    },
     "7ebaa9937b2853cd7118f2ecefed2144f1c4bf493d0d64c04cff6ffff578ab22": {
       "normalizationVersion": 1,
       "sourceHash": "c6a6be49a4f748d3f291b900045316e7757cbd9a62c1a9cd704065c129ecbe7e",
@@ -113,6 +253,20 @@
         "costUsd": 0.000124
       }
     },
+    "7ec62bfb4671ac982c6fa86ea5f86856f4a9fff4b333f3d566411e8dafc3872d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e943135351084ee6bd1db8afacc43292e402549abfdad42b850c14c28736a201",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而不是：",
+      "translatedText": "rather than:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "7ecb218ef248e3c9bb16b3ea53097086e9a190ebad619328d8c330364724b018": {
       "normalizationVersion": 1,
       "sourceHash": "69cafb04839def464e8da23e9a9a4d4a9f06550fae84736af18d58ca601f3381",
@@ -125,6 +279,20 @@
         "inputTokens": 162,
         "outputTokens": 57,
         "costUsd": 0.000117
+      }
+    },
+    "7ecfa44bcb813ccb1f2ba95c809ac67744a2fd3e0c1ead61155c2eef2094ef85": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3c700a1da122a3ca312a1964dab5c642ec2155df277f32ce23c768d60f357c0",
+      "contextFingerprint": "61d0b2aa56185964f1b0ee9c42ec8e2fcaa984e497e901c96b2fceea2219efb9",
+      "sourceText": "| 用法 | 说明 |\n|:---|:---|\n| `void f(std::span<const int> data)` | 接收任何连续 int 容器 |\n| `std::span<int>(vec)` | 从 vector 创建 |\n| `std::span<int>(arr)` | 从 C 数组创建 |\n| `sp.subspan(offset, count)` | 创建子视图（无拷贝） |",
+      "translatedText": "| Usage | Description |\n|:---|:---|\n| `void f(std::span<const int> data)` | Accepts any contiguous int container |\n| `std::span<int>(vec)` | Create from vector |\n| `std::span<int>(arr)` | Create from C array |\n| `sp.subspan(offset, count)` | Create a subview (no copy) |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 35,
+        "costUsd": 0.00009
       }
     },
     "7ee7fc06ca5ada4dfaa3d50fe8f5a7015bfd0da1f0ae7f6ae47d6a56ceb5164d": {
@@ -153,6 +321,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7ef50e8babe417a6350e9b19d595a69f4ef2c841ed446515094ce4d941b5c035": {
+      "normalizationVersion": 1,
+      "sourceHash": "2548499a80c1a0333ab7eb8bc4c487d9cdc70100385518fc2867648532ecb560",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "栈中只有顶端的元素才可以被外界使用，因此栈不允许有遍历行为",
+      "translatedText": "Only the element at the top of the stack can be accessed externally, so the stack does not allow traversal behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "7ef680614c46d9eb2c7f104c4cb76724d54cc3c4e4118e4940a98e1120cdf912": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac679e6c47fed4071bbd88c5917904e797ad07a39e62d2d7d4154dceefb352da",
+      "contextFingerprint": "b3fecac26d27de0d2e91ab0fcfeef5896c24329e57b726f80261ab33bf65a703",
+      "sourceText": "如果用 `int state = 1`，读代码的人不知道 `1` 是什么；如果用 `enum class RobotState::Running`，语义直接写在类型里，而且不会和其他枚举的 `Running` 混用。",
+      "translatedText": "If you use `int state = 1` a reader of the code will not know what `1` is; if you use `enum class RobotState::Running` the semantics are written directly in the type, and it will not be confused with the `Running` of other enums\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 49,
+        "costUsd": 0.000107
       }
     }
   }

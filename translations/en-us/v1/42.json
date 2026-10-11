@@ -43,6 +43,20 @@
         "costUsd": 0.000155
       }
     },
+    "421d437abe027bcb39a0e7e4ef10c28023747fd12a53ec9549ffa44e9874654d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0cbf6b75a426b34057ad3d9fe99f0d130c372ed3709517f5a47439770eec39d1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector数据存取",
+      "translatedText": "#### Vector data access",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "42214cf8f2d3b45c44e1136b4abd487d9440cb3d877d50c89c1e5fcdbbfeab04": {
       "normalizationVersion": 1,
       "sourceHash": "d28914a602dd407fc439ac4c9ad3a6a2f1d8933e29d70cf756eb292a7c5c1b62",
@@ -55,6 +69,20 @@
         "inputTokens": 135,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "42237e39a0502ed61506675a337a6122c3014dbeb7cff5d91915192b1b9f7ee8": {
+      "normalizationVersion": 1,
+      "sourceHash": "21f3a2404274da6c42276c00ff17b0f47e82f09908f010c221a2e9fa0022f85d",
+      "contextFingerprint": "e4f52fc04d3a60e63148d2d0069b264571786929e1a3e0fd323ec3fcce8d5fe1",
+      "sourceText": "和 `lock_guard` 一样：",
+      "translatedText": "Same as `lock_guard` :",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "423781743c9ed75ac4719152a6f3fab4fc88b76b9946c2b864a0a9e808aa9f1d": {
@@ -85,6 +113,48 @@
         "costUsd": 0.000074
       }
     },
+    "426c9afd73062d8a28a23d71a39d875f23c6b12efd9e66a7a062661d1574c5be": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff25fafbf0063a91aabf14778cf27b0e8e838bdcef268007a09dc7230dd259b9",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**本质：**",
+      "translatedText": "**Essence:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "427dac43f4f608621195b569125b27aceb0b298e133a09a4db9dab8185ba7a4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f159b06828cbb1a5640bf75461bbd45aaeefd64dc9dcb4f258bc991fd6e8770d",
+      "contextFingerprint": "6bfb677a053f0cf41f2d31e833b4e0176184d78c170f6d7ba16295d42acef257",
+      "sourceText": "* `size(); `                             //返回容器中元素的个数\n\n* `empty(); `                           //判断容器是否为空\n\n* `resize(num);`                   //重新指定容器的长度为num，若容器变长，则以默认值填充新位置。\n\n  ​\t\t\t\t\t    //如果容器变短，则末尾超出容器长度的元素被删除。\n\n* `resize(num, elem); `       //重新指定容器的长度为num，若容器变长，则以elem值填充新位置。\n\n   \t\t\t \t \t​\t\t\t\t\t    //如果容器变短，则末尾超出容器长度的元素被删除。",
+      "translatedText": "* `size(); `                             //Return the number of elements in the container\n\n* `empty(); `                           //Determine whether the container is empty\n\n* `resize(num);`                   //Reassign the length of the container to num\\. If the container becomes longer, fill the new positions with the default value\\.\n\n  ​\t\t\t\t\t    //If the container becomes shorter, the elements beyond the container length at the end are deleted\\.\n\n* `resize(num, elem); `       //Reassign the length of the container to num\\. If the container becomes longer, fill the new positions with the value elem\\.\n\n   \t\t\t \t \t​\t\t\t\t\t    //如果容器变短，则末尾超出容器长度的元素被删除。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 108,
+        "costUsd": 0.000193
+      }
+    },
+    "429309c92398e6984176106ef28be12bc55a6846a0563fdf91def8d3b2894156": {
+      "normalizationVersion": 1,
+      "sourceHash": "364ca2483e713757adcec2f4730f8f40a103b7774081ce4655f61319e16a28c4",
+      "contextFingerprint": "e67f27f9e6905dcbab901a716189568aa83d80122a408fe59eafe7ba6a32d453",
+      "sourceText": "| 部分 | 例子 | 含义 |\n|:---|:---|:---|\n| 捕获列表 | `[x, &y]` | 从外部作用域拿哪些变量 |\n| 参数列表 | `(int a, int b)` | 调用 lambda 时传入什么 |\n| 返回值 | `-> int` | 返回类型，通常可以省略 |\n| 函数体 | `{ return a + b; }` | 真正执行的代码 |",
+      "translatedText": "| Part | Example | Meaning |\n|:---|:---|:---|\n| Capture list | `[x, &y]` | Which variables to take from the outer scope |\n| Parameter list | `(int a, int b)` | What to pass in when calling the lambda |\n| Return value | `-> int` | Return type, which can usually be omitted |\n| Function body | `{ return a + b; }` | The code that is actually executed |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 58,
+        "costUsd": 0.000121
+      }
+    },
     "42931304f5a353acc65802c42b32974c9af574f060aa13138b589ffbe699dc5f": {
       "normalizationVersion": 1,
       "sourceHash": "4044d9f45017f31bb7247c9f3cb54dc6d9b2b2a6b8f613b9b4b300562aa0fd34",
@@ -97,6 +167,20 @@
         "inputTokens": 131,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "42942482e00a162132adbb2641a7b0b1db649c54d4fbac794edb4a9374fd38b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fb7470ea4498f6335d6bedb44f36a9f4b96baa04329cf0b5ff00d1aeab2e7fc",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 让资源的生命周期由对象生命周期管理。",
+      "translatedText": "> Let the resource lifecycle be managed by the object lifecycle\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "42966df1fc81cfc2339b79843018b4110d40bb52c1b04c0eaca53476d866dc7e": {
@@ -127,6 +211,20 @@
         "costUsd": 0.000056
       }
     },
+    "42a2b1ff190feef6085c04c96e0a4b84f7087934fce16ca1d37ec83c5f3992bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "55da64e987a84689c8078645946911e315793fc2db5f465c27fd4e0e8dfb0b93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个线程交错执行时，就可能出现：",
+      "translatedText": "When two threads execute interleaved, it is possible for the following to occur:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
     "42a42fd845067e5d95cf44e2085cfbccd2ed02e270319cedf71f796193ad01fa": {
       "normalizationVersion": 1,
       "sourceHash": "ec715cc6b502b4dd949de6c070df248855348b69a0048fa5a713e78b6b225800",
@@ -141,6 +239,20 @@
         "costUsd": 0.000054
       }
     },
+    "42c9f0025f25bbd632d9cbf0bf70d6d242e8716242ab4e3b4bbea48c5e0b6958": {
+      "normalizationVersion": 1,
+      "sourceHash": "c97d46c541d5b0a5953941123864c2f6483c3fe527425aadfec794b89f6adb5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序会调用：",
+      "translatedText": "The program will call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "42d264c42f7ab7fbf7f0f006bfdcbae26f7ee3ebccc0df2cccdd9232e75b8b73": {
       "normalizationVersion": 1,
       "sourceHash": "24004db0535d4ddbaca2436237fa9277d72e56f7f8fb04cc76e4730c8f5c9a2e",
@@ -153,6 +265,20 @@
         "inputTokens": 158,
         "outputTokens": 32,
         "costUsd": 0.000086
+      }
+    },
+    "42e06d2e0cff68569ce6d92cb41552f5c29223aba569179a698bfa84d3378180": {
+      "normalizationVersion": 1,
+      "sourceHash": "21b31cc185170c4d150d7e748da98d143d0a914ce3678609f6afb2248f3a4dec",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 协程适合什么场景",
+      "translatedText": "## What scenarios are coroutines suitable for?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

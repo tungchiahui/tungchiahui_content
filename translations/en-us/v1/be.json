@@ -15,6 +15,20 @@
         "costUsd": 0.000142
       }
     },
+    "be0ff71db68fef076564e796fcc5b45332f004121c2206c4661b5a8366446ad0": {
+      "normalizationVersion": 1,
+      "sourceHash": "956510b8eaa25880b20ba01d3170046e39f3722802cbaf2897dec83e4638985d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 并不是在原空间之后续接新空间，而是找更大的内存空间，然后将原数据拷贝新空间，释放原空间",
+      "translatedText": "* It does not append a new space after the original space; instead, it finds a larger memory space, then copies the original data to the new space and releases the original space\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
     "be30ddcf2513f155b3c6bf2db60d3e1817a7cf9eb57d6d528f6f3c51c8666bab": {
       "normalizationVersion": 1,
       "sourceHash": "eb618f4a25a7eddd93f95bd6ad778638c1fd68478451df968e23a05d48efa99c",
@@ -27,6 +41,34 @@
         "inputTokens": 156,
         "outputTokens": 46,
         "costUsd": 0.000102
+      }
+    },
+    "be4ec1baf1b703647e92e87715f5a90311deeb9c8b34d7efdaf77efe64c01bb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "df5aab78c1d15b1ec35872c6c1def5bbc727294102bf6d731e56bce755fe3cd5",
+      "contextFingerprint": "16df8421b904b186d315070317dc79e56a0492195aa50a69b02276c23098755b",
+      "sourceText": "每个 Lambda 的类型都不同，不能直接放进同一个 `vector`。用 `std::function<void()>` 之后，它们就有了统一类型。",
+      "translatedText": "Each Lambda has a different type and cannot be placed directly into the same `vector`\\. After using `std::function<void()>` they then have a unified type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "be50834cc2644d4478a6e3b278adc70b99c8b12c11d318db8eced76d080fe644": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcd106a29e3a434a355a75a985fadb1f84b2cbe6c1277aac5bf9c7eb0953230b",
+      "contextFingerprint": "c78a1388a2d742cd140ff3f5edd135de44435dae65912fd69eb07ad92819cb92",
+      "sourceText": "* `transform(iterator beg1, iterator end1, iterator beg2, _func);`",
+      "translatedText": "* `transform(iterator beg1, iterator end1, iterator beg2, _func);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "be5a4d1e26aa182b20ab35de51cd6a4b1f86deb59be83b7f19dbdd06417a7753": {
@@ -99,6 +141,34 @@
         "costUsd": 0.000055
       }
     },
+    "be709e20a142384cd1ddacf68e97c42e5245a9d693092a6f8d0a9ef555d07b58": {
+      "normalizationVersion": 1,
+      "sourceHash": "c00a5e7461d5faef0526657791fdb23daa4c2ae95d727903d45e1e09bceea502",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## RAII 锁管理",
+      "translatedText": "## RAII lock management",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "be89c5109a8e3b8cb8cf6c41bbe2a65e17bb28ebdfe64903dfcb37a0e0691ff5": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d7b4a9b6f490b82e46aea91069ca754df1c565e7f7895d4c8c02a54d7f1d040",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 初始化阶段的大错误，可以用异常\n* 运行循环中的常见错误，优先用返回值或状态码",
+      "translatedText": "* Fatal errors during initialization can be handled with exceptions\\.\n* Common errors in the run loop should preferably be handled with return values or status codes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "bea1f993fc43c34270ff3153c545dcd8f6fa39bacb548186d428a985a0bb6232": {
       "normalizationVersion": 1,
       "sourceHash": "72b108adea619143d118f9e7c7f940d0ab4685ecc9c12e43a6f03b1201b0ebfc",
@@ -139,6 +209,34 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "becb91a13202ab92b09d39d9102d7985d2efa2f0c1d58a55ca91f1c7ead310b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "196e8584d60e5191f0e2fbb335cd94e050b2a4257b1407a298cba48dde1ed72f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写入通常使用：",
+      "translatedText": "Writing typically uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "bed36e8883e4e21a839c897d88da8004af80be57b62fb84512113782b90a026f": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fca944ec75705aa77931a008c0291294b47d631bbca80ce80d52c75af033eae",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行过程大致就是：",
+      "translatedText": "The execution process is roughly as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "bef4ecdcd242c471d1be23a7224454df3266b349357ca8dee181099a322408a2": {

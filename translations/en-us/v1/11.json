@@ -15,6 +15,20 @@
         "costUsd": 0.000126
       }
     },
+    "1133273fbc06054a677898a7b560a61a1519a1444c547e9c7d4092fdac8af6a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1406ce503c1074919bb906c6f1cd030beeea01b71ae5ec1c7b9f0559f7b0bac0",
+      "contextFingerprint": "b3c6a5cb51194c9681fdb4856a050298a3b109b220f05fdd089024f5ba3ef0bf",
+      "sourceText": "程序随后以状态码 `1` 结束。",
+      "translatedText": "The program then exits with status code `1`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "113713a8450a7d8ee0fcca3a864c09ad4b81d93689079998f3ed2750a6a32673": {
       "normalizationVersion": 1,
       "sourceHash": "c6278b04b926990e5b3747db7085c7cf2957a95a41eb625487be5256261befeb",
@@ -29,6 +43,90 @@
         "costUsd": 0.000065
       }
     },
+    "1149f3569e4ea99fbb4c38ae5cc98a3abf1a51247e0b9e2943631f01485eb823": {
+      "normalizationVersion": 1,
+      "sourceHash": "304cb7ce6dddc546cac44e6f683f82c8799fd66f1945f659daa754073d898ff9",
+      "contextFingerprint": "a2c55735362c0eac1d4eb12557df2355a22691a932f2ee1c29ce58c79cb9fd24",
+      "sourceText": "### 示例 4：`reinterpret_cast` 做底层重解释",
+      "translatedText": "### Example 4:`reinterpret_cast` Low\\-level reinterpretation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "116cbbd9db59c3fd385c03b904df895b91b2a6655e00de659754ee4feae20a69": {
+      "normalizationVersion": 1,
+      "sourceHash": "63fcd003008dd9af2143df594aaa9a9253e21ca0f6513623e3f7669ef3970cea",
+      "contextFingerprint": "b6b5eb27f4812f3c3840ec2b992b0e02b94600f0c5d58dd7b2e1ed3d28510fff",
+      "sourceText": "学习 `atomic` 时不要一上来就想“无锁算法”。",
+      "translatedText": "When learning `atomic`, do not start by thinking about \"lock\\-free algorithms\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "1179b5fa8a052caef4a1cf39767fade0cde07fddde20a3a74115b2b9b47c8bf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "f57373de5915f75089406a20f99ea28de654d65534f1d1b427368bc8fb69cbc8",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++11 还提供：",
+      "translatedText": "C++11 also provides:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "117ce2ec5f3118ba8bc5fe4f794c0359fd064ca9b9803fd6abdbf4085ede7153": {
+      "normalizationVersion": 1,
+      "sourceHash": "580e083b62a67d5a99e01782c2340b86c45bfe7c510f43c0a0ba89988bfe54cb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 读文件",
+      "translatedText": "#### Read file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "117f79346e1cc9f46f64c516325f2db674cdca06ed81709e34ba5f6afd0c119c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b37195bed8a493aca899aa6add17c0cc571ea7e03cdb094eafdb8c80a02c09d",
+      "contextFingerprint": "b68ad6416641e88ae0c813114f63fca93d8c7954be504dcccc97b4bebfc63d2c",
+      "sourceText": "正确做法：要修改容器元素，用 `for (auto& s : names)`。",
+      "translatedText": "Correct approach: to modify the container element, use `for (auto& s : names)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "118f6f2d1efde58109c772a06f8fb54cd07d7731b536b78ba4206f6b48dc4eb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e785fe2cd3269eafeee1f035394f9ced2cf284cf26f864e135bab46077890f6",
+      "contextFingerprint": "6967d9942f7ddb639350e4ff43250cd80bb308823af1fcc2af4a302a60139086",
+      "sourceText": "- `std::thread`：创建和管理线程；\n- `std::mutex`：保护共享状态；\n- `std::lock_guard` / `std::unique_lock`：用 RAII 管理锁；\n- `std::atomic`：对单个对象执行原子操作；\n- `std::condition_variable`：让线程等待某个条件发生；\n- `std::future` / `std::promise`：在线程或任务之间传递未来结果；\n- `std::jthread` / `std::stop_token`：更现代的线程生命周期和停止请求。",
+      "translatedText": "- `std::thread`: Creating and managing threads;\n- `std::mutex` : Protecting shared state;\n- `std::lock_guard` / `std::unique_lock`: Managing locks with RAII;\n- `std::atomic` : Performing atomic operations on individual objects;\n- `std::condition_variable` : Making threads wait for a condition to occur;\n- `std::future` / `std::promise`: Passing future results between threads or tasks;\n- `std::jthread` / `std::stop_token`: More modern thread lifecycle and stop requests\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 71,
+        "costUsd": 0.000144
+      }
+    },
     "118fc8841e6875ce5e74252b00146e574f2137b33d04f28a3ac04757bdaa2b2e": {
       "normalizationVersion": 1,
       "sourceHash": "dc46042016bbccde75b32343fc478070b90b20c39ba2801219d18f9203c5c60a",
@@ -41,6 +139,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "11a340148b700360529511d7a18c3a925f20c06593d5a3c58e4f056a7aeba1fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "9624783d379e0a07de2438c63f06653c5e3c02568ca695f92736edf8350edc07",
+      "contextFingerprint": "182e00645604d383b62281b4a6b68f630354aa83ee9ce7e11d704cda7f444e1c",
+      "sourceText": "在类的成员函数中，Lambda 可以使用 `[this]` 捕获当前对象的指针。Lambda 访问的仍然是原来的对象，因此对象成员之后发生的变化也能看到。",
+      "translatedText": "In a member function of a class, a lambda can use `[this]` to capture the pointer to the current object\\. The lambda still accesses the original object, so changes to the object's members that occur later are also visible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
       }
     },
     "11a8d3846076dfe4354263e2f11a8f8aa475b5065cb64b8afbe1e49df8491c22": {
@@ -83,6 +195,20 @@
         "inputTokens": 169,
         "outputTokens": 56,
         "costUsd": 0.000118
+      }
+    },
+    "11e3b8e8844e8e0cc798e407823bfe36c4713204b72219164e66c46cf889a856": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e3193794657dd18259df7a1e16c4dbbc84165b6aff845ee4f853a2b1f5b765e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 主动让出执行机会",
+      "translatedText": "#### voluntarily yield the execution opportunity",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "11fe628b2dfe4301e237aa0c2e9dd1b22be132f7bf1d6af7b635222a378bc972": {

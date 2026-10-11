@@ -1,6 +1,132 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7104a87fe5657d685d0044c36afaaca06853642311b89d67926613a22d033a0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "2137ec9edfb5e2f696387b2a06f50272b26908008ea88cc86c712feec9d71f71",
+      "contextFingerprint": "fb5836befdf05bad0f309ee9419b4d08a458a2767b98e3c91977d00697d5d54c",
+      "sourceText": "线程直接访问外部的 `x`。",
+      "translatedText": "The thread directly accesses the external `x`。",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "71138e654e4624aee3d32eab93160aa812dfd53be6227bcebeb9ac36dba280f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "793b6d771fc4ba06062867081aa8cb9ea6b16c2d42ef797942616914a450693f",
+      "contextFingerprint": "bffe7b4b57b1cdd4641404ad0cf6cd5480dbea038024162befb21985feb3b2b1",
+      "sourceText": "这段代码通常可以通过编译，但 `whole_price` 得到的是 `19`，小数部分会被丢弃。因为转换没有明确写出来，阅读代码时也容易忽略它。",
+      "translatedText": "This code usually compiles, but `whole_price` yields `19` and the fractional part is discarded\\. Because the conversion is not explicitly written, it is also easy to overlook when reading the code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "7122bf3b19d2690e02767239c97a4defc491ab843fd8fae77502d1e297484686": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e84402ab6445342162f0e61147baa8b48c086c7035b12e3200bb88c6ebb24f7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它是一种控制流工具，不等于线程，也不天然意味着并行。",
+      "translatedText": "It is a control flow tool; it is not equivalent to a thread, nor does it inherently imply parallelism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
+    "71309690ee8617687fdcf9b10b253c16eebce5974193138bf876e589a624a235": {
+      "normalizationVersion": 1,
+      "sourceHash": "c3bc72390acbdb0d08e81e02b899262dfe7d9e70cc9e812760262e1b41c3d98a",
+      "contextFingerprint": "1faa4b2145eff832835d0b8d7baae8b4048cb0915be1268e1baeffc8265316f8",
+      "sourceText": "| 函数 | 参数 | 含义 |\n|---|---|---|\n| `sleep_for(duration)` | 时间长度 | 再睡多久 |\n| `sleep_until(time_point)` | 时间点 | 睡到什么时候 |",
+      "translatedText": "| Function | Parameter | Meaning |\n|---|---|---|\n| `sleep_for(duration)` | Duration | How much longer to sleep |\n| `sleep_until(time_point)` | Time point | Until what time to sleep |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "714d9c9b47e3621c7d73275b4fc1130c284cdcfa9d6c65bfe9538837f357da32": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d365975b22fc9f2a7f1acced553f842c50e60d7d355362ca33b53224c14c4db",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但：",
+      "translatedText": "However:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "715dc247a6308c4217e8535c17e447e5fda51ce7cc33fe5ba19c0e2558f91b31": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b8f4c62b1caa71a5e7836f895bee714749c58a1a6a8e94dcdc0f6296bfabf9f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "RAII 锁什么时候释放？",
+      "translatedText": "When is the RAII lock released?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "71682120b8065ca4ac4ed74664f76431ecf4b2a92e1c996bc3f8e34fbc672a7a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3dd7084603a6dd04e0d1aeeddb019d522fea01485c088c8260d0992096566a2e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 不要在析构函数中随便抛异常",
+      "translatedText": "#### Do not casually throw exceptions in destructors",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "71699e972807ca16c8304cda2f96b0ef817baab56fea4f627b2b3822b89efb13": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ed63eabea9b6d134da0e30247a7783c9cbef8b53254e17e7033bc8c34a1aec1",
+      "contextFingerprint": "90077da3f3a37bbbcf67c7e9526d80983ade30c39b9af0ddf77b6982bed45676",
+      "sourceText": "`reinterpret_cast` 表示“把这段二进制数据按另一种类型解释”。它绕过了很多类型系统保护，通常只应该出现在非常底层的代码里。",
+      "translatedText": "`reinterpret_cast` means \"interpret this binary data as another type\\.\" It bypasses many type system protections and should usually only appear in very low\\-level code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "71831a8986da86bedf694225113ac05b31ccbc204f5807a605418b79e054bc38": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c279f52141e97b34ea203562f3e94faabe53d5310b78d05617e1d6358e39bfa",
+      "contextFingerprint": "a18f4d9e3dbd8ddd645155f7689767da6775ac5198f0b5d6b3f56369b91e5c39",
+      "sourceText": "#### `std::visit` 第一个参数必须是结构体吗？",
+      "translatedText": "#### `std::visit` Must the first parameter be a struct?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "7186675b89b21cc4fac3144209168882e954ac3711335ef960d43959af99cdb0": {
       "normalizationVersion": 1,
       "sourceHash": "3f76a76004323fbd14dd83b997dc50c8eaec3b6d3961e96fd163668423288a6c",
@@ -13,6 +139,20 @@
         "inputTokens": 165,
         "outputTokens": 49,
         "costUsd": 0.000109
+      }
+    },
+    "719012e1b05f6400430ead3eac25a2efc20047ca1132d51fd7611ab9fcfdbd2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2854556104bb07debca39a0659d2edac0d6bc18fb8db6767413df11065495716",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并且机器有多个 CPU 核心，那么这些任务就可能同时运行。",
+      "translatedText": "and the machine has multiple CPU cores, then these tasks may run simultaneously\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "719b90b505a16ebd20a1cf04a31b73a7ee7a1ff4aa90c2b9b3ef73757e18f0f9": {
@@ -29,6 +169,20 @@
         "costUsd": 0.000082
       }
     },
+    "71b73e0c8c81f466369060387deed85f2399996806970d933995b363231e3383": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9a47c222787c442565e1f5f0eb07d378ac87044a6817948911b98173b1791a1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里：",
+      "translatedText": "Here:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "71bab89c6df1cd6814aa1884bf36d72dff5d2651ef4e6a676b17e8f8a8168456": {
       "normalizationVersion": 1,
       "sourceHash": "4088de1a14590bae36608852c2aa6cd0e9dad29a35288828599fb066696c8abe",
@@ -43,6 +197,34 @@
         "costUsd": 0.00005
       }
     },
+    "71c26b915dfddd7e2fb3bf96efdb9e686755571812fad89d79dc79f844c93794": {
+      "normalizationVersion": 1,
+      "sourceHash": "92a516540c4b8c4bd7980a310be334990b9a4bce0e07b824027c0e97544c656c",
+      "contextFingerprint": "b372b636948482eb3fca1fd518d7009d6466fdd629ac35d59446f5e2a748dafb",
+      "sourceText": "> 即使 C++ 源代码里看起来只有一条语句，也不代表它在多线程环境中天然不可被其他线程干扰。",
+      "translatedText": "> Even if C++ appears to contain only one statement in the source code, it does not mean that it is naturally immune to interference from other threads in a multithreaded environment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 51,
+        "costUsd": 0.00011
+      }
+    },
+    "71ef15891a7617b73080df5515af9a95b20eeba07c388d0ffe865ea6077318df": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ddee6d37ff068f62b6981b2d75feb03421d23c021b5dfd76685405efecf5fa1",
+      "contextFingerprint": "0694fb37b8a729be08769a2f6fbce07ee32b4f4db325f29cd2a90551f3409364",
+      "sourceText": "`variant` 不是为了替代所有继承和多态。它最适合这种情况：类型种类有限，而且你希望编译器提醒你把每种情况都处理掉。",
+      "translatedText": "`variant`It is not meant to replace all inheritance and polymorphism\\. It is best suited for situations where the number of type variants is limited and you want the compiler to remind you to handle every case\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 44,
+        "costUsd": 0.0001
+      }
+    },
     "71f19da473a5c851fad087bfb060e90a58cc9f1bf3ba2191c21f134b529b04fb": {
       "normalizationVersion": 1,
       "sourceHash": "f931321beb0b829f19eb44efa0162de744f0ad4577ea2e6d9ce02448d0a91c46",
@@ -55,6 +237,20 @@
         "inputTokens": 158,
         "outputTokens": 38,
         "costUsd": 0.000093
+      }
+    },
+    "71f6cd309179ff6e8ce7d356f933f518672516009f0b85e4ccd079ee3d0b4360": {
+      "normalizationVersion": 1,
+      "sourceHash": "1095856614b426f4d8f148048053c354e8cb52afa457565807ae85b64785fd3a",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* deque容器的迭代器也是支持随机访问的",
+      "translatedText": "* The iterator of a deque container also supports random access\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     }
   }

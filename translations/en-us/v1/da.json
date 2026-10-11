@@ -15,6 +15,48 @@
         "costUsd": 0.00006
       }
     },
+    "da372b8cd41ba4d6bcbc2f08008fa753c750f140d972547a02093dbc38056258": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f89a5fd789eca836ed80c1de55ac442ca8ab430d97618d42e3733f4ae58120d",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 总结：函数指针类型不仅包含返回值类型，还包含完整的参数类型列表。",
+      "translatedText": "> Summary: A function pointer type includes not only the return type but also the complete parameter type list\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "da51fdbc51862dcade945a9a59551b61393344f29f07690678e8be7e8fb45bb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a5c9ad0b73a4280ad051334bb51deae9519be83fe679cd1d7000b7aadb06a34",
+      "contextFingerprint": "47f67c97c698a71ac647797ef2edd32d4fb94fc07da55c4ecc318bd3a5a5e9d9",
+      "sourceText": "按引用捕获不会延长 `x` 的生命周期，因此必须确保线程使用 `x` 时，`x` 仍然存在。",
+      "translatedText": "Capturing by reference does not extend the lifetime of `x`, so you must ensure that when the thread uses `x` , `x` still exists\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "da521d067a4674879ed5ffaccffe2a6ad390b6ee48cac89741163a1e0a5fb979": {
+      "normalizationVersion": 1,
+      "sourceHash": "af53cdcb7978b1aeb4b377d0ff7ccf7469190e1f54d67de16721e60b07152bee",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 移动构造为什么要清空原对象",
+      "translatedText": "##### Why does move construction need to clear the original object?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "da8a51fadd56ab88c70631b5ee710690cd342aa7198f7b24d9141c6692a92f77": {
       "normalizationVersion": 1,
       "sourceHash": "3d438b7de42e22c7a284537e68917bdd859d91520b770d42379ebab27455b740",
@@ -27,6 +69,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "da8b2b38139cd9b41d8859b9f3ccd28b8e846814f3ef413ff31d21dab9c21fd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "28eb3c4f8b58d5e094a6319b2eaeecfb3414e96c51cfb7637ab4a75810470ea3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：没有 RAII 的问题 vs 有 RAII",
+      "translatedText": "### Example 1: Problems without RAII vs\\. with RAII",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "da92383f75a612f14d03c9f7d88d92f56259b709131053750c527d2a0ecfa015": {
@@ -57,6 +113,34 @@
         "costUsd": 0.000063
       }
     },
+    "da99614ec2b40f5b128d03f7485eb7cbd2ad963359b9459b9fa2741a3bbfa3bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "589e93271bcf1bf1d2e99a3170a792e0efedc1176c2bb50a956f251062a6a019",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果示例（线程 ID 每次运行可能不同）：**",
+      "translatedText": "**Example run result (thread IDs may differ between runs):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "dae44263c414151767785cc55260e6c6850b226d6f74700c9f13bac75e6b89cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ed496f2cfdfef31f04dcab78d2952df7593caa1c873218d4afd1de074337836",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 左值 vs 右值速查表",
+      "translatedText": "## Lvalue vs Rvalue Cheat Sheet",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "dae518a209c974027e23322df8e097412b22c548d78d37e2d22144494a6071a9": {
       "normalizationVersion": 1,
       "sourceHash": "2706f4d724da7becae2f8d1d9dc8941e078c535db58e30c433e8ac18abfc8c6e",
@@ -83,6 +167,20 @@
         "inputTokens": 199,
         "outputTokens": 115,
         "costUsd": 0.000198
+      }
+    },
+    "dafad9675d2d192dbf61d702b5d93dc85ec0576a443d22f12e6b84d5c744611c": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa7ed37813209950006c3036cb1b8420712f1ae4686c3991fb920ce229de07ae",
+      "contextFingerprint": "898fa6f0ddff75288fbb1f6ed94d561244f453179d203a6a2b6c640e38854ec0",
+      "sourceText": "如果抛出的异常类型和 `catch` 中的类型一致，就会进入对应的 `catch` 代码块。",
+      "translatedText": "If the type of the thrown exception matches the type in `catch`, the corresponding `catch` code block will be entered\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     }
   }

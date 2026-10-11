@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "68004fc0ea3f1e9ab961997c5894312e6cc1098e40d6901071701063a4a2cd90": {
+      "normalizationVersion": 1,
+      "sourceHash": "64aeef8052cc09b5920fe5e390f4a2ce02b0d4fb4a7a024198cf853bedceba90",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### deque构造函数",
+      "translatedText": "#### deque constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "680f0262ddbbc6a79a8843d431325e7070465ae18a7662cfb3b13753cde7c418": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a5b218d1dfda3b4c21bd8dbb95aea31305022cf66007410ab65f17d599d83fd",
+      "contextFingerprint": "106b6a404df8ade7afdbb52f2d1ed8aa4a52315c12a16bcb0d42d2efaa82717e",
+      "sourceText": "| 参数 | 含义 |\n|:---|:---|\n| `&Robot::on_message` | 要调用的成员函数 |\n| `this` | 调用这个成员函数的当前对象 |\n| `_1` | `callback()` 调用时传入的第一个参数 |\n| `_2` | `callback()` 调用时传入的第二个参数 |",
+      "translatedText": "| Parameter | Meaning |\n|:---|:---|\n| `&Robot::on_message` | Member function to be called |\n| `this` | The current object calling this member function |\n| `_1` | `callback()` The first parameter passed at call time |\n| `_2` | `callback()` The second parameter passed at call time |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "681501d0896257337ceb2e92258344f9c9cd34727bae69c5ab21f5dcee9d924e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f08449ad833af091e2f2564923691b649173a05024eb85287249af64e08a00c8",
+      "contextFingerprint": "c3a4806a269270c8aaeb3c6443f0e4fa8b463bdefa17aa8dae727944a4764383",
+      "sourceText": "1. 指定传入的类型   --- 直接显示对象的数据类型\n2. 参数模板化           --- 将对象中的参数变为模板进行传递\n3. 整个类模板化       --- 将这个对象类型 模板化进行传递",
+      "translatedText": "1. Specify the passed\\-in type \\-\\-\\- directly display the data type of the object\n2. Parameter templating \\-\\-\\- turn the parameters in the object into templates for passing\n3. Template the entire class \\-\\-\\- template this object type for passing",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 49,
+        "costUsd": 0.000111
+      }
+    },
     "68187d51a1198ecc7d168a50a736b6aad6c8e21ecaba8c7afcff001d9bcb58ae": {
       "normalizationVersion": 1,
       "sourceHash": "3a91f952cac8723a10fb0beeced08ca707f578d2fef20f508c928a1be71b3ed9",
@@ -29,6 +71,62 @@
         "costUsd": 0.000062
       }
     },
+    "6830be1c2657a64a16fbfb679c8de2b94607db5927b136be93fad2d7a9a836b6": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2b47796cc3ed863f9817f13eb61d254f4c352a22d77e491686ed1847acd8590",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 并发最容易出错的地方",
+      "translatedText": "## The most error\\-prone aspects of concurrency",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "68432067090700b70aaa0b03fa55f62962e0d4fe3f8b20a7c14afe59243772f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "92eb1f8db23b449aaab99f3c219fe036b199924cf7b6752cf7198702fbc4b5f5",
+      "contextFingerprint": "ce6cceb9035de31ed2be5afee3e6a95c22d51d1f169803addc7244e56c9bf037",
+      "sourceText": "* set/multiset属于**关联式容器**，底层结构是用**二叉树**实现。",
+      "translatedText": "* set/multiset belongs to**associative containers**and its underlying structure is implemented using a**binary tree**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "68470239e8844756ec37d05e6bcc927a5742d644235777a5fd825f23e0402ce3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca6924a4974dfc6d0e45fda7beb8d27978b39453931f31e39916d8956af1a2fc",
+      "contextFingerprint": "d5b0c58de59d84a54e428a1b67faf3c918166b9c6f65f451b68fc449df6f6555",
+      "sourceText": "**运行结果：** 该代码块依赖同一示例中的 `person.cpp`，不能单独编译；与前面的类模板实现文件一起构建后，本段自身没有终端输出。",
+      "translatedText": "**Operation result:** This code block depends on the `person.cpp` in the same example and cannot be compiled independently; after building together with the preceding class template implementation file, this section itself has no terminal output\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
+    "6848e8dc10e50b87710f700e6527b5bff65863fa6705d0eeee93d234c646e908": {
+      "normalizationVersion": 1,
+      "sourceHash": "64f13787253843d7abb1bfa8af7c10bb9ec439f210ab117cce9c454ea4abefa3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本例不需要继续使用这个位置，所以直接忽略了返回值。",
+      "translatedText": "In this example, this position does not need to be used further, so the return value is directly ignored\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 28,
+        "costUsd": 0.000076
+      }
+    },
     "68509567a1efc8cf3dec7594c6d3a5b6821017bcb30bb611e7cb70d64e6da7c3": {
       "normalizationVersion": 1,
       "sourceHash": "bb7211edef7cb235e5f5e7e0ca15a464419a4a3f40a4038e1d96123e948f8c8f",
@@ -41,6 +139,48 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "6855ba2b5fa2b09c927652aa0c197c6da348e3f939a7cf444d6eeedb9b56f33a": {
+      "normalizationVersion": 1,
+      "sourceHash": "d43598f0467c6dbbf2867902a7e2bb67d6c6807afdf51965fd5a304c81aa5fc0",
+      "contextFingerprint": "91735b0d17f02a2a0de66ad29891e407156ace6b02c73c078f9b35e2fbac4b46",
+      "sourceText": "- `insert(elem);`           //在容器中插入元素。\n- `clear();`                    //清除所有元素\n- `erase(pos);`              //删除pos迭代器所指的元素，返回下一个元素的迭代器。\n- `erase(beg, end);`    //删除区间[beg,end)的所有元素 ，返回下一个元素的迭代器。\n- `erase(key);`            //删除容器中值为key的元素。",
+      "translatedText": "- `insert(elem);`          //Insert an element into the container\\.\n- `clear();`                    //Clear all elements\n- `erase(pos);`              //Delete the element pointed to by the pos iterator and return an iterator to the next element\\.\n- `erase(beg, end);`    //Delete all elements in the range \\[beg,end) and return an iterator to the next element\\.\n- `erase(key);`            //Delete an element with value key from the container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
+    "6872a7f6500bec586dc7f5e8795970b980f68d52c7658293ff0d340160d12c99": {
+      "normalizationVersion": 1,
+      "sourceHash": "3933f7ef3f2b897648d9a50df29dd034048db7fd2a5d99622c0c694c33216d96",
+      "contextFingerprint": "dd935600d2eaed117965f7ffef5214ee6bc09159f29e5cfa4d746b1c0bbd223c",
+      "sourceText": "Lambda 是语言特性，不需要额外头文件。只有配合 STL 算法、`std::function` 等库工具时，才需要包含对应头文件。",
+      "translatedText": "Lambda is a language feature and does not require an additional header file\\. Only when used with STL algorithms,`std::function` and other library utilities is it necessary to include the corresponding header file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
+    "688c30cf70400efd6015d1facba2f9653ffd2207bcec3f52901cc0e4a3efcf10": {
+      "normalizationVersion": 1,
+      "sourceHash": "f98051b2dc5a450cc18a541e48e663d5782ebcd0f139f55cc178ecf2f177af76",
+      "contextFingerprint": "6fd79c74a3910743a1c6c8a87206dc3876036852e00c7a5243967030bb4a1493",
+      "sourceText": "#### 为什么这里有三个 `operator()`？",
+      "translatedText": "#### Why are there three `operator()` here?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "688f542770495bdca9a9a7bd2d1a15b451041741871ef6394b7e4900f761c4be": {
@@ -71,6 +211,76 @@
         "costUsd": 0
       }
     },
+    "6897e57ee4d0d29714190351b09bacb2e16463fb2332e024c9db3340ededfea9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e778fd937b5f0f92b63bb3c24bf12ed67e5aa436eb0d65cfa80aa91e43c996b8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是编译器调用移动构造函数，由移动构造函数真正接管指针：",
+      "translatedText": "Thus the compiler calls the move constructor, and the move constructor truly takes over the pointer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "68b30d6111def5547078cb7b8077e5439a6445dc2d99ad9b54b3d7db51009109": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd3ecd5081aca39c29b0aacf947c67d07b397871a6875e2886d0543493d76863",
+      "contextFingerprint": "c550deccf6ffe1790d6570aec0a758b760c02a00e076188844526036588e4be9",
+      "sourceText": "不需要额外头文件。`nullptr` 是语言关键字。如果需要使用 `std::nullptr_t` 类型，需要 `#include <cstddef>`。",
+      "translatedText": "No additional header file is required\\.`nullptr` is a language keyword\\. To use the `std::nullptr_t` type, `#include <cstddef>` is required\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "68b6aa8f941ef28e5bb632189e894d779effc395bb0202be572d0daf8c2d75b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a641575ab616b34893836fd564ee3235356e16e908e8b6e54d561a4f977f566",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 内建函数对象意义",
+      "translatedText": "#### Significance of built\\-in function objects",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "68c24a0dd496fb3c87199484ec1ed48798e75a9803fa533de2a5e7e6eba20439": {
+      "normalizationVersion": 1,
+      "sourceHash": "144e4199f0d34bf4490263e97d3ce011dd49ce3d235d22d813cf8298b0b4949a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：sort算法非常实用，使用时包含头文件 algorithm即可",
+      "translatedText": "Summary: The sort algorithm is very practical; to use it, simply include the header file algorithm\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 26,
+        "costUsd": 0.000074
+      }
+    },
+    "68c2bf6c83ae19098baf5df70df8a67cdfaf19c90e0d93170736a74ce9562f06": {
+      "normalizationVersion": 1,
+      "sourceHash": "43903fee2fdc1b888706c14ab1293ca4c53f432793a9f930bc574fe381308f32",
+      "contextFingerprint": "3432616237f267c89c225ca7005bcaf951369ee1702e85281b5d9b18de86654e",
+      "sourceText": "总结：find_if按条件查找使查找更加灵活，提供的仿函数可以改变不同的策略",
+      "translatedText": "Summary: find_if Conditional lookup makes searching more flexible, and the provided functors can change different strategies",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
     "68d1106a46db2b40c60e1c10aafcf396b7f605285717f955f9d7f8d4341027c6": {
       "normalizationVersion": 1,
       "sourceHash": "60345c1e9fe78dac5071bef60d6c2d1e9c24da104b7cb670290e4e8a2da69ed0",
@@ -83,6 +293,76 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "68d93167eeae74010192202c4d637d8e5d114da7ac4b7522d55d6ef674fe09d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "58777fd194d62cff46b97dc21b206a06c2a6b3ae166629ab932ecbe34de848dd",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 到底谁负责加锁？",
+      "translatedText": "> Who exactly is responsible for locking?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "68dcf5744012e92b56682254bf03eb1e8e3449a91ab8c571f216002bd87dd75a": {
+      "normalizationVersion": 1,
+      "sourceHash": "264c210a92be163d8063f550105af97c268441226f5a6416052fbc5b10d0e150",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不推荐设计成：",
+      "translatedText": "Not recommended to design as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "68fce4734df68a864681d59b7ea859b6eaa3132e2750bc882c57500247bf402e": {
+      "normalizationVersion": 1,
+      "sourceHash": "71820d8586ff7c5d3302fea7864e1d2230af5f4853cdb73a7d59ebe3dc477a6c",
+      "contextFingerprint": "0bde12f92852915999faf4dc6980a1b69a00ee3d0c06a44c64f692f9346c6347",
+      "sourceText": "1. 把 `unique_ptr` 当普通指针复制。`unique_ptr` 只能移动，不能复制。\n2. 明明只是借用对象，却把参数写成 `shared_ptr`。这会暗示函数也参与共享所有权。\n3. 用一个 `shared_ptr` 的原始指针创建另一个 `shared_ptr`。这样会产生两个控制块，最终可能重复释放。\n4. 两个对象互相用 `shared_ptr` 持有对方，导致循环引用。\n5. 用智能指针管理栈对象。例如把局部变量地址交给 `unique_ptr`，离开作用域时会错误释放栈内存。",
+      "translatedText": "1. Copying `unique_ptr` as a plain pointer\\.`unique_ptr` can only be moved, not copied\\.\n2. Although it is only borrowing the object, the parameter is written as `shared_ptr`\\. This implies that the function also participates in shared ownership\\.\n3. Use one `shared_ptr` raw pointer to create another `shared_ptr`\\. This produces two control blocks and can eventually lead to double free\\.\n4. Two objects each hold the other with `shared_ptr`, causing a circular reference\\.\n5. Use a smart pointer to manage a stack object\\. For example, pass the address of a local variable to `unique_ptr`; when it leaves the scope, it will incorrectly free stack memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 126,
+        "costUsd": 0.000219
+      }
+    },
+    "68fdb47ee10f6ce40d952a59d3b04231f68697d33f69d3f6e7ce6daf406c6ddd": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa7e40448f1683c44ec7ecd1ec62e0f0c801622359fd3bebca63983ad975f026",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## const vs constexpr",
+      "translatedText": "## const vs constexpr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "68fdbb62048c2b19095baf0d0b88c037e77b4b9c9c36172690f2e5469333f76a": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcbdd62732ed838aeef01f73d943c3e79d34dcfa0f88629a6cc1baed10f036ad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类模板中成员函数和普通类中成员函数创建时机是有区别的：",
+      "translatedText": "There is a difference in the timing of creation between member functions in class templates and member functions in ordinary classes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
       }
     }
   }

@@ -29,6 +29,48 @@
         "costUsd": 0.000118
       }
     },
+    "9b300d8d069c534724bab875249e27bcab67b19ef6f0fda3d0a9f862cf65a1ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "84a095c5f0dfbf6f974e7066ffebebc2b8ab2a5809a4a34383a009a4ee1e7321",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "失败时：",
+      "translatedText": "On failure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "9b3c3f4afc65312fc14cac4907331316e5710335cbb82f5175bd5211cb58bd0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a1686b15659fe329bd1ef5ec8ea69e68dfcd46738cccabdd12eb74a47a262cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是成员函数指针；",
+      "translatedText": "is a member function pointer;",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "9b3dc8128ea8ecc19ed8a04194bbe2a3d03926cab9ff2a96a6d66c196862fd18": {
+      "normalizationVersion": 1,
+      "sourceHash": "1801f48d4dd49653b3940bb6c227ec371db708c3aa519bab6e60a0ecb87ee17f",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- 查找   ---  find    （返回的是迭代器）\n- 统计   ---  count  （对于map，结果为0或者1）",
+      "translatedText": "- find   \\-\\-\\-  find    (returns an iterator)\n- count   \\-\\-\\-  count  (for map, the result is 0 or 1)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 38,
+        "costUsd": 0.000093
+      }
+    },
     "9b4f4fe9bd95a90e92e8469573aea9491d3e81c424e778de02d3cb7378f1cb8b": {
       "normalizationVersion": 1,
       "sourceHash": "8ef4b7e75921f33d50054c4d44149fbfe10139e849217f812e6d2d2dc9f6a61e",
@@ -71,6 +113,20 @@
         "costUsd": 0.00016
       }
     },
+    "9ba2f2dbdb03294d3036b004f9401d8b9baa3e12a36e2a8daa458a9fc7b0941e": {
+      "normalizationVersion": 1,
+      "sourceHash": "196f5d2ef30f6241b85fa771d19b2211e899f5eb0c1bfb84b794fce6594d2464",
+      "contextFingerprint": "c09c399c3b6d9fb894ba0f340406d1d654a1d37f4fb27f90becb3b7908f3a625",
+      "sourceText": "`using` 创建的是**别名**，不是新类型。它能让复杂类型更好读，但不能阻止你把两个底层相同的类型混用。",
+      "translatedText": "`using` creates a**type alias**not a new type\\. It can make complex types easier to read, but it cannot prevent you from mixing up two types with the same underlying type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
     "9ba7b2ceff052a924fc4396b7693dd2f1c1fdc6db35d36f1eb07f5e65ad91dea": {
       "normalizationVersion": 1,
       "sourceHash": "d41ba41fe600607f6a03435bfce3f8c1d38314140e797bd8f33a1b0d4daf3e75",
@@ -85,6 +141,34 @@
         "costUsd": 0.000119
       }
     },
+    "9bc9f7466434448747f84d19122e73e3867e0f8afd601c4b9f9dbc6f60e73122": {
+      "normalizationVersion": 1,
+      "sourceHash": "94f350f736d2bd6f58b03b191511ec2af1019286db86c42a8801123e3f915d05",
+      "contextFingerprint": "340a43ce20d680f6e00871c1f8b53de73c0f0fe26665902f5fb00c9af4cc1524",
+      "sourceText": "**运行结果：** 该代码块依赖同一案例中的 `myArray.hpp`，不能单独编译；补齐头文件后，运行结果由 `main` 中的数组打印逻辑产生。",
+      "translatedText": "**Run result:** This code block depends on the `myArray.hpp` in the same case and cannot be compiled independently; after completing the header files, the run result is produced by the array printing logic in `main`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
+    "9bd2abcbf584a04f4e5fcfa0b25f2527dc3a473557cdbf58927496ed02d26449": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e04a8226fc9fd91cadc6afbfc2e76cff802afb0cb7d34d32556858ae06f8569",
+      "contextFingerprint": "3786028c5c2026e82f789fbdc1c5b7ef731497af343211d6fb88e9ef5ff49f58",
+      "sourceText": "| 写法 | 含义 | 注意事项 |\n|:---|:---|:---|\n| `std::make_unique<T>(...)` | 创建独占所有权对象 | C++14 起可用 |\n| `std::move(p)` | 把 `unique_ptr` 所有权转出去 | 移动后原指针通常为空 |\n| `std::make_shared<T>(...)` | 创建共享所有权对象 | 引用计数有开销 |\n| `sp.use_count()` | 查看共享引用计数 | 教学调试可用，业务逻辑不要依赖它 |\n| `std::weak_ptr<T>` | 弱引用，不增加引用计数 | 访问前必须 `lock()` |\n| `p.reset()` | 释放当前管理的对象 | 对 `shared_ptr` 是减少一次引用计数 |",
+      "translatedText": "| Syntax | Meaning | Notes |\n|:---|:---|:---|\n| `std::make_unique<T>(...)` | Create an exclusively owned object | C++ Available since 14 |\n| `std::move(p)` | Transfer ownership of `unique_ptr` out | After the move, the original pointer is usually null |\n| `std::make_shared<T>(...)` | Create a shared\\-ownership object | Reference counting has overhead |\n| `sp.use_count()` | View the shared reference count | Usable for teaching and debugging; do not rely on it in business logic |\n| `std::weak_ptr<T>` | Weak reference; does not increase the reference count | Before access, must `lock()` |\n| `p.reset()` | Release the currently managed object | For `shared_ptr`, this decrements the reference count by one |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 219,
+        "outputTokens": 117,
+        "costUsd": 0.000207
+      }
+    },
     "9bd3f3855af5d64db1d41f6db5a989dbae0294f6ccb52b2394a68558dabe5501": {
       "normalizationVersion": 1,
       "sourceHash": "b4a23bf81e73be5b662679a017dc033fd6585a1b45f22e501f7d33a7bd3c8b1e",
@@ -97,6 +181,20 @@
         "inputTokens": 160,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "9be8077713070c2c1f46261b5d63dd02d76a4e0d1d2f7fe2ca0b2cea296922b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "2dcb0723f26eb494c7bc8c2ad11c5f9df5271d2c32b09fd7257502f09f676f04",
+      "contextFingerprint": "a913f05e45f944178b562a91fa9ecc11c73161da958e2eed647f656833fcd2dc",
+      "sourceText": "`constexpr` 声明一个变量或函数可以在编译期求值。从 C++11 开始引入，后续标准不断增强。",
+      "translatedText": "`constexpr`Declaring a variable or function can be evaluated at compile time\\. Introduced starting from C++11, subsequent standards have continuously enhanced it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 42,
+        "costUsd": 0.000099
       }
     },
     "9bfaf713f7b4f47095738f7b312fdb483efadc2e629404950e8ea109246f03e4": {

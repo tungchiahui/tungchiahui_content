@@ -15,6 +15,20 @@
         "costUsd": 0.000069
       }
     },
+    "c40a673f04782a7f120813a69c6a480d5c9e405c44b24edc9961f850b78a76c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "eaa0f90fd9ad41896574dfe15263cd13f28b36c523db5952a2c14a265b71a066",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "见上方每个示例的\"运行结果\"。",
+      "translatedText": "See the \"run results\" for each example above\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
     "c41ff4e58fc837acf9416f37d46e0900cfef34bdb352b83390d2e1939fea4228": {
       "normalizationVersion": 1,
       "sourceHash": "be35f874c404ad0eba4966bb0f0ba7e12d162a39bbbfd3eeb09c8b99d920fa3b",
@@ -85,6 +99,34 @@
         "costUsd": 0.000057
       }
     },
+    "c46a1941ded32098d6393abaa5aaca7ca8687abe86186f666ec95765850d38aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "11549fadfd579a47c2259af6de1d48c9578a30e8dc15d6318ee30124047dc04f",
+      "contextFingerprint": "043742150623975962fc4e623f2e95d920401ed9e801bbea2774baeaf4615edb",
+      "sourceText": "- `set_difference(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // 求两个集合的差集\n\n  // **注意:两个集合必须是有序序列**\n\n  // beg1 容器1开始迭代器\n  // end1 容器1结束迭代器\n  // beg2 容器2开始迭代器\n  // end2 容器2结束迭代器\n  // dest 目标容器开始迭代器\n\n  ​",
+      "translatedText": "- `set_difference(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // Compute the difference of two sets\n\n  // **Note: Both sets must be ordered sequences**\n\n  // beg1 Iterator to the beginning of container 1   // end1 Iterator to the end of container 1   // beg2 Iterator to the beginning of container 2   // end2 Iterator to the end of container 2   // dest Iterator to the beginning of the destination container\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 90,
+        "costUsd": 0.000169
+      }
+    },
+    "c46d310ef782bec5ac192de12e68adaf350773a4f0ba2764e9b04410e1697a2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "342ca4506aaa95dc09e7747e8bfc5acafb689a22243152e3efa24183206e1235",
+      "contextFingerprint": "e40a5d5f5ff59eabcb98b1d732a4d1ba1f187c598fe681eb87df6878dc7a6d22",
+      "sourceText": "它不需要和其他多个字段一起保持复杂不变量，所以用 `atomic<bool>` 很合适。",
+      "translatedText": "It does not need to maintain complex invariants together with multiple other fields, so using `atomic<bool>` is very appropriate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
     "c47b535a1159bbe5c91a80d36037a3518d29bbe0a497d987dea498e611d19a98": {
       "normalizationVersion": 1,
       "sourceHash": "cf477aed1511f33c93a9518b03fa7648b801b7e385832838967ea39f07702a2e",
@@ -99,6 +141,34 @@
         "costUsd": 0.000075
       }
     },
+    "c4802efe48c6d972de22ea97dfdc5ae483ec66373b428568f6f0601dbc5d530d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed47261037e7ca850cd430ef11d371770b05cfca0388f94e28a03af8396592a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "拷贝完成后，两者保存的内容相同，但管理的是不同的内存：",
+      "translatedText": "After the copy is complete, both hold the same content, but they manage different memory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "c48238a5afcdbf4fa353a1ef89ad144793bfaf04246b1592e0012fe719a2aff6": {
+      "normalizationVersion": 1,
+      "sourceHash": "c387e42d602f650c8658a4468b1796a174ad429ccddf6714a95b1c1d22344041",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种简单停止标记很适合原子变量。",
+      "translatedText": "This simple stop flag is well suited to atomic variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "c482955b0440f00051b6a4543348521c7c428ca1a716ba6545897f841f1e6355": {
       "normalizationVersion": 1,
       "sourceHash": "9614b3c9db6f5168c0367713e13ea3402842d7c7c43414f82ac80edc9581f2ef",
@@ -111,6 +181,20 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "c4857e2a4eeaa91d6ce699dd373392ce01419b94517338669c15b6cdb47a29ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad0a161b249bf7a4b6674718cba30424c62c2d52ed0d09d674e5195e36bd8255",
+      "contextFingerprint": "2fcad32447da4b29347cbcd396a0452177f26942582d7935357e4e63f5f2068b",
+      "sourceText": "* 求交集的两个集合必须的有序序列\n* 目标容器开辟空间需要从**两个容器中取小值**\n* set_intersection返回值既是交集中最后一个元素的位置",
+      "translatedText": "* The two sets whose intersection is to be computed must be ordered sequences\n* The space to be allocated for the target container needs to be taken from**the smaller value of the two containers**\n* set_intersection The return value is also the position of the last element in the intersection",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 68,
+        "costUsd": 0.000133
       }
     },
     "c48b39d4749fd5182e7fc851ed6b94d885f38a90882dd2dc09500f6a3d3906c6": {
@@ -155,6 +239,20 @@
         "costUsd": 0.000101
       }
     },
+    "c4c9f2145d485470482f1fdb6326eb2de55ec02a726ccd5427c42847c8fa0696": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb7273ee48e97592fe19c827d90d1deb87d8b6ba55009c2b9927f12943949363",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还有异常：",
+      "translatedText": "There are also exceptions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "c4caa168d7e44f418719c148840b6afec1e5dbc9ec1ab4b8eb2dbc45fb961b73": {
       "normalizationVersion": 1,
       "sourceHash": "a487cd528430ca451d8387a64ae2b84cd6c22866badfdc38fcb33350e13b84c3",
@@ -167,6 +265,20 @@
         "inputTokens": 146,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "c4eed87f65c40a1892b5eec2e9bf1dd7f81d3380c980b6fdefaecb8477e33792": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd211ad8e0bb3c37a53e470f13a921ddaa0d90e8329cc364ac520a892b9e7e1f",
+      "contextFingerprint": "4f843b19c946a4dc03e785dc07a7e146ee18d4c5aadbc3a693def1a94384da1b",
+      "sourceText": "**错误 1：把 using 别名的 `=` 方向写反**",
+      "translatedText": "**Error 1: Write the `=` direction of the using alias backwards**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     }
   }

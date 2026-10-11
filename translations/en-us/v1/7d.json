@@ -43,6 +43,20 @@
         "costUsd": 0.000056
       }
     },
+    "7d1b701056987f4a2e01a870534f3ea8d14e4adc2e5c8b9307c5531d493b3012": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bd8f664fb3fbb69ba1f50dbd72850f309067f0d0cefc2674c31d3663153edc1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "生活中的栈：",
+      "translatedText": "Stacks in everyday life:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "7d263e1d634334f4b5051b1e83727b1c98496b7888327e89ed970aed9639f3a6": {
       "normalizationVersion": 1,
       "sourceHash": "5f92676d61398ee81f3ad689f1bf30d4d1eebab82ebc312269bf5239d0155de5",
@@ -55,6 +69,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7d3001b454fd313a3bd1398e88d94d165b9c64d279a5493c86210420c8b64761": {
+      "normalizationVersion": 1,
+      "sourceHash": "959313e2b00024dd7a58ad0086fe6591aca5feaa8464c7a3c9449b32fcf22208",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它更偏向性能和吞吐，而不是单纯的程序结构。",
+      "translatedText": "It leans more toward performance and throughput, rather than mere program structure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "7d32be7b59354b3ad937dd19df9000f8e078db1a7cf59f98403a3d2ba457c6e3": {
@@ -71,6 +99,76 @@
         "costUsd": 0.000072
       }
     },
+    "7d38e5c2b38c9cbc4da2f4d9dfd854ce93b570917faf03f5ab8147effc1adf62": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cbf0855c625ce75693ec54678ce10953322f9914f310d84ef21624f43c47b71",
+      "contextFingerprint": "b4bdb70447902ede5b6a7d79b3072d002e3e61fabcb40d0ae04b59183fc9d9f3",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 测量代码耗时 | `steady_clock::now()`、`duration_cast`、字面量 `500ms` | steady_clock 单调递增，适合计时 | 字面量需要 `using namespace std::chrono` |\n| 示例 2 | 时长单位转换 | `1s`、`100ms`、`duration_cast` | 类型自动管理单位，转换时要显式 cast | `duration_cast` 是截断，不是四舍五入 |\n| 示例 3 | 通用计时器 | `measure(function<void()>)` | 包装成一个工具函数，可重复使用 | `steady_clock` 是最佳选择 |\n| 示例 4 | 系统时间和格式化 | `system_clock::now()`、`to_time_t()`、`24h` | system_clock 可以转为日历时间 | system_clock 可能被系统时间调整影响，不用于计时 |",
+      "translatedText": "| Example | What it explains | New syntax introduced | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Measuring code execution time | `steady_clock::now()`、`duration_cast`、literal `500ms` | steady_clock monotonically increasing, suitable for timing | The literal requires `using namespace std::chrono` |\n| Example 2 | Duration unit conversion | `1s`、`100ms`、`duration_cast` | The type automatically manages units; an explicit cast is required when converting | `duration_cast` is truncation, not rounding |\n| Example 3 | Generic timer | `measure(function<void()>)` | Wrap it into a utility function for reuse | `steady_clock` is the best choice |\n| Example 4 | System time and formatting | `system_clock::now()`、`to_time_t()`、`24h` | system_clock can be converted to calendar time | system_clock may be affected by system time adjustments and should not be used for timing |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 286,
+        "outputTokens": 170,
+        "costUsd": 0.00029
+      }
+    },
+    "7d50460d2ea33d9c32ff08452450f6521f9b7954e81464245dc1e19743c4307d": {
+      "normalizationVersion": 1,
+      "sourceHash": "469016844738a2024d2c24f3f5b25dc167916cb80384b350e6e41d3ac0ac30f5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以通常：",
+      "translatedText": "So usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7d657412785af8f99f969b6a65085bb88d4e2219878570f18f240bfff2fe147f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d01a453f15f2556a6b6aeef20e0b72eee078d58787d932a60a768769d26c2e14",
+      "contextFingerprint": "7df54dd353abe5d774a14e731b9dc9042e9aca20e5b4eaa50be74269c52a46f0",
+      "sourceText": "myArray.hpp中代码",
+      "translatedText": "myArray.hpp code in",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "7d6a638501f3c65291a3001a1c4b45164287769f65893b269d86d502a8782844": {
+      "normalizationVersion": 1,
+      "sourceHash": "36c5ca0f034c40d33f5507f335b05e2bf297e28818cf64c7c97c1bc368607899",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用异常类：",
+      "translatedText": "Common exception classes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "7d6cae643195762e7704bad0d992a14fe0f7b79d7ece139a5f269b33afaea0a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea4c96914d397f17ff9e82303a3ef40aef667c533700994335414201e9c07347",
+      "contextFingerprint": "434f3a13838c67040e420ab38e29cd5d13674fe80e589959ca6c4c96dc99d849",
+      "sourceText": "| 用法 | 说明 |\n|:---|:---|\n| `enum class E { A, B, C };` | 基本枚举类 |\n| `enum class E : uint8_t { A, B, C };` | 指定底层类型 |\n| `E::A` | 访问枚举值（带作用域） |\n| `static_cast<int>(E::A)` | 显式转换（不会隐式转换） |\n| `switch (val) { case E::A: ... }` | switch 匹配 |",
+      "translatedText": "| Usage | Description |\n|:---|:---|\n| `enum class E { A, B, C };` | Basic enumeration class |\n| `enum class E : uint8_t { A, B, C };` | Specify the underlying type |\n| `E::A` | Access enumeration value (scoped) |\n| `static_cast<int>(E::A)` | Explicit conversion (no implicit conversion) |\n| `switch (val) { case E::A: ... }` | switch matching |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 40,
+        "costUsd": 0.000097
+      }
+    },
     "7d6e57fd9f428dbdb83d86eb4958cb928ec204ee51c5f20277043339c1d2c22b": {
       "normalizationVersion": 1,
       "sourceHash": "a9241d9e1eed9a4aaf49fdbeacee5425221b8aceae416cf885c952517b36029f",
@@ -83,6 +181,90 @@
         "inputTokens": 202,
         "outputTokens": 86,
         "costUsd": 0.000164
+      }
+    },
+    "7da6a82c6eb8bfd6a93e4eb6b0a62a8d058102b0c8502947d72e023f23dea267": {
+      "normalizationVersion": 1,
+      "sourceHash": "85427450621e3f05ffd99b0495950277d6d4aa3a64516a0e00824925321398a8",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板与函数模板区别",
+      "translatedText": "#### Difference between class templates and function templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "7db71096af58a30804bcd3ac524a48ad5c7dc4c999064c43c80cb4eb1b50b042": {
+      "normalizationVersion": 1,
+      "sourceHash": "7df6bd2d0de76aa664ce3de8c6c28b9cffd6a291a64b42a3bd6d068246b99c4b",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 创建vector容器",
+      "translatedText": "* Create a vector container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "7db8be48e6d52598e88f4e852152c176baa032a8c8b3ee71f9fd3731834999d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "19cfea7f5c133246a16276400faac65a3d846800c5bb486f381a6ba634fa75a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再看这个例子：",
+      "translatedText": "Look at this example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7dc361c25d310bf2080ccbb4f634017a3a9dadbb04f89d89d40e1cce0ac30a1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "46ed0e9254246bebf8fbfd2a192a935cd3cfae321e2d13bdabb548feb9ebf3e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "设计得过于复杂。",
+      "translatedText": "Designed to be overly complex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "7dd1d1927dfd3f6ebf730ec134e7b0940930fcf837d1ea2086cad1c643b3b105": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b6727b1e59c9d2a98759f50434d168c696cd4230fd9db73cc229759723ca37f",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 什么时候不用范围 for",
+      "translatedText": "## When not to use range for",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "7dd615242ecf25a6e8c5751816066393718155c8bb1e49d8345d362ccae58636": {
+      "normalizationVersion": 1,
+      "sourceHash": "1661ea6b6ee0d9985fba8112cca6826748ade0a8ed7524db29b58ceef8a85421",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 案例描述",
+      "translatedText": "#### Case Description",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "7dd629ba147ff9ed43f35adad53995c1de51bc54c54c7bb63a6568b2793b14bc": {
