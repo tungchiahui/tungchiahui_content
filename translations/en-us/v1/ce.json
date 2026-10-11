@@ -15,6 +15,20 @@
         "costUsd": 0.000081
       }
     },
+    "ce0fa32eca8bffc449de8777e94ced1e9e61fd55973a1ac918fd5670d6ab052d": {
+      "normalizationVersion": 1,
+      "sourceHash": "31c3177f72675af397d4d71f4d9fc4cd60bfe5be1f9b861df8e38884fa9c56e3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "确认包名。",
+      "translatedText": "Confirm the package name\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "ce25132d4d3933b9fb96c5ddcb760be07ecd236d0963ce54cac2d537d6c0d4a7": {
       "normalizationVersion": 1,
       "sourceHash": "fde2347ee81ffa5396b53202ae5d81ea517d1d1143e5e1f277f4a2313388bd85",
@@ -27,6 +41,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "ce273b7d8822c4bf080fb394cb48138358eca41c6c6ecf8e38c0c3a42478cc0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "be1d396bee52b0ab305931c41ea9abb7f6e9fa9a1f603c49c9d7ad95167045f1",
+      "contextFingerprint": "5bc48c0ed1a0b4a29a9d8b7c9619e6f425f2af604f10b702a25f77469d69e946",
+      "sourceText": "| 命令 | 作用 |\n|:---|:---|\n| `cmake --preset linux-debug` | 配置工程，生成 Ninja 构建文件 |\n| `cmake --build --preset linux-debug` | 编译源码并链接目标 |\n| `cmake --install build/linux-debug` | 把可执行文件、库、头文件安装到 `install/linux-debug` |\n| `./install/linux-debug/bin/cmake_template` | 运行安装后的程序 |",
+      "translatedText": "| Command | Effect |\n|:---|:---|\n| `cmake --preset linux-debug` | Configure the project and generate Ninja build files |\n| `cmake --build --preset linux-debug` | Compile the source code and link the target |\n| `cmake --install build/linux-debug` | Install the executable files, libraries, and header files to `install/linux-debug` |\n| `./install/linux-debug/bin/cmake_template` | Run the installed program |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 47,
+        "costUsd": 0.000106
       }
     },
     "ce38c0374f8902655eec3693adea97d1f119cc89a2fb2dbc87719d9904803fbd": {
@@ -55,6 +83,20 @@
         "inputTokens": 144,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "ce43bd4927d81753f9060a800c2fb5114a1aec7c4429f96acf70f0ff9901abc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0b31dbc89bf3a6ac4cd43fa5398d8ccba6df7600901a1b2cc3a2b344c93341f",
+      "contextFingerprint": "2a3ec910801918bea33b8a459a7b055dc3edbe08e7c133a3aa790075faabf37e",
+      "sourceText": "1.  查询GPU Compute Capability(CUDA_ARCH_BIN参数):",
+      "translatedText": "1.  Query the GPU Compute Capability (CUDA_ARCH_BIN parameter):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "ce44b327e63c0148a05df7230f2f3d97dd7ffc9bf1340ab6553c341ec377facc": {
@@ -127,6 +169,34 @@
         "costUsd": 0.000067
       }
     },
+    "ce64366bc228ff6e75989122d551a99f1015ffc5fe47e04cd67c875931f4bc2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "56993786864a04a07a8a62ca2967800762b7bf54fbd92b1719c586ccb31ba786",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "后面的 CMake 文件会大量出现：",
+      "translatedText": "The following will appear extensively in the CMake file:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "ce6c8905e61e63ac83ca45ad4d2a8b33b8958a6e3259cc59ace7df36626f5940": {
+      "normalizationVersion": 1,
+      "sourceHash": "754909042c2778ee772c230e72ea3d6b0d6105aa0b856c274375e8899d4927a2",
+      "contextFingerprint": "e8b8529d6638a60d98c2b8ad603cbad54753b3276a17639b745762e8fc08e90d",
+      "sourceText": "然后再`cmake ..`，接着`make install`，此时QT_Projects/QT6/QT6_Template/build/src/QT6TEST/目录下会出现`.h`文件。",
+      "translatedText": "Then `cmake ..`， then `make install`， At this point QT_Projects/QT6/QT6_Template/build/src/QT6TEST/ will appear in the directory `.h` file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "ce72a1a9c6c29ff1e1c754efb7fa2838c980a9a4ceca6c7b6c47b105d6cd2c09": {
       "normalizationVersion": 1,
       "sourceHash": "bfbf3945d71072b2aa0bceaed3e1cb2e2c969ec332e5c1bea6d918e98801744d",
@@ -139,6 +209,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "ce7b0c1704c895d4734ad20f8b948bfa080d96f399fd29133a286378c29ca2c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fb8daef99977db6923c6657d55dccee5ef938b6f4cd79e0e8d575f1cea08fcd",
+      "contextFingerprint": "80447b645fa6f5acc5b7a8cce78d05e4ff923a15fe1d9a980df989e4fdb44792",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image9.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image9.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ce7e930fc0adec8330ee52389210f7a480016a7e93eaefcbc6f1b078ed3d2f7e": {
@@ -253,6 +337,34 @@
         "costUsd": 0.00006
       }
     },
+    "ceb29a21942c7c9c29ffc2420217c111a9ca9429daa36f428b2eb25b7c8bb468": {
+      "normalizationVersion": 1,
+      "sourceHash": "98a68702cb1ea046aaa2f0000e980958505f134f890fd5c5e35129122b453bf8",
+      "contextFingerprint": "2a053c9a6c15279e2794c148bb264d1e5cbe64e0341e88df74a3e0306cb0c2be",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image67.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image67.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "cebbb05adafc66d17d16e1a89bd5cce46fcef3e9ec0d18839ad7cf71cac20061": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9ca90b87a5009c2cf549f68efa4c697aaccab3358de208f266ca79d05457aac",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5.  克隆远程仓库到本地",
+      "translatedText": "5.  Clone the remote repository to the local machine",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "cebfbcc58dfdd44ac1fd19442ca329363048978403bd3d986055e6eb5de8efff": {
       "normalizationVersion": 1,
       "sourceHash": "6dabe6311e6d33fff73201f0ff5f752b11340ec2205d3bb078a25e6ec97ee67e",
@@ -265,6 +377,20 @@
         "inputTokens": 150,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "cece6ee1d8ffa410b00097c3b121677064224a86d50211b63df65a80efbe138b": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe41e9406b224dc4348727a74cf26cd7298c4c4ed45f69a6910f08ea23fa5391",
+      "contextFingerprint": "644ddc43864d5f8c8704e277296794af545899f64327f98f98b2a601e59186b2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image26.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image26.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "cecf799f74cca0188fd82862a1bd5b1e514e4d7cae2633eb58d8b7b4de90e616": {
@@ -281,6 +407,20 @@
         "costUsd": 0.000153
       }
     },
+    "cecff673835355821cc298a8bf4f40301f3e2362a6b30fb282c145135aaaed0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "045d17d5a473e1628cdbd967c456957f9d77593dd4394c4633eb8e51091f5db3",
+      "contextFingerprint": "53c7eec3d2c5b71a961bc1c60d9be76021804688cc7d2173e5535d416d562872",
+      "sourceText": "## `.gitignore` 怎样处理 VSCode 配置",
+      "translatedText": "## `.gitignore` How to Handle VSCode Configuration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "ced92700249f5165dce15cd4612bd4c5f4c2fff7ebe77ea67e34425c84a39159": {
       "normalizationVersion": 1,
       "sourceHash": "112c980ec051363f388dbfd3fcef7782fcaaa5ac9dbdf87a65b23ceaa64bd056",
@@ -293,6 +433,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "cee63553d2182fc503eceaeb2b8fda859a04d1a35e88ec604db5ce11f5ac6263": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fe7f6f5ae06ae9529fd19e4ef3bd1c958c9ab571e22969d91e3ad476a0a4693",
+      "contextFingerprint": "eb59c1c54010ed796ca7a64de4ebdd2ff04aeccba0bf9b99ed90ee111a53d8da",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image7.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image7.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "cee6565e0887616c8cc1a0c408dc8ee2176aa79103d5fbfaacd150c99696eced": {
+      "normalizationVersion": 1,
+      "sourceHash": "73f6d4802b2f75780c43740634569ed46a600d42a3fa7c041a921e99632cc5a3",
+      "contextFingerprint": "1f4a4e407198640933beb9f52cb1e9771c87477fef64687cca954fb8d185c6e1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image23.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image23.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ceeefe2fb69b0b42a293c87f2119db4172b17828315a3e0e19e0260ef77ce5f2": {

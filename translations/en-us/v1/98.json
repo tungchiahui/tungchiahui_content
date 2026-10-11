@@ -99,6 +99,20 @@
         "costUsd": 0.000075
       }
     },
+    "983f05807b4dff287412f4ad00f37c6104eae2ec1d4060bbae3a9d4790ae78f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc1f3bf614105216c9f3f57a9b7c4b5bc85e92b8dd18c2130fddeb557ee40030",
+      "contextFingerprint": "06138517113ef7265f25d2fb8d78d483efe5544331c99c5a1e53d4c387d7813c",
+      "sourceText": "Boost 是大型 C++ 库集合。这里以 `system` 和 `filesystem` 为例。",
+      "translatedText": "Boost is a large collection of C++ libraries\\. Here, `system` and `filesystem` are used as examples\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 34,
+        "costUsd": 0.000088
+      }
+    },
     "98426386da2a6d8b0290c240d6c5dd929bf2a0b1f5e7ed9c013f8b94904c4c81": {
       "normalizationVersion": 1,
       "sourceHash": "656889685244043f976b88ae9fc779932935618f78f6b0679215843a058886cf",
@@ -169,6 +183,20 @@
         "costUsd": 0.000076
       }
     },
+    "989de7fe644531ac9c91e7b6633ce91745f68bb08a30879c45ee9970f779a6da": {
+      "normalizationVersion": 1,
+      "sourceHash": "6298b620d5b5816dd310c1a60611a93ec26063d8b698b0b76bec7134f0f7ca56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在Create Pull Request页面中检查以下内容：",
+      "translatedText": "On the Create Pull Request page, check the following:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "98a03ff15eed59f76f08f47462a49174658f6a707504116db7954afb023f1ad3": {
       "normalizationVersion": 1,
       "sourceHash": "1bfc5f3596609ba88097a646068acb2d23b1f32d6ad24fa2d1926c2fcd948479",
@@ -195,6 +223,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "98abb4493952dfbc133ddf4b4388665b4ef330e82fd901ebcd1926fd0198f55c": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf19597bd5d9dd633a8812efed6220275d86f4ad3554f55f9154b5e5167bb5e5",
+      "contextFingerprint": "ee55b277c51ec1f364727e0af17ecfde78e82469ca2e003eb76887363bdc198b",
+      "sourceText": "6.  进阶（非裸机开发，基于RTOS系统开发）\n\n    1.  常见的RTOS(嵌入式实时操作系统)：FreeRTOS、Nuttx、RT-Thread、μC/OS-II、Xiaomi VelaOS\n\n    2.  FreeRTOS官网：https://www.freertos.org/zh-cn-cmn-s/\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image111.webp)\n\n    4.  FreeRTOS简单理解：拥有多线程库特性并兼容POSIX标准的操作系统\n\n    5.  多线程：系统拥有多个任务(线程)，每个任务(线程)独立并同时运行(可以理解成每个任务都是一个主函数，这些任务都是同时在执行的。具体实现方式以后再学，原理就是PendSV中断等)\n\n7.  进阶(非裸机开发，基于RTOS和ROS2_MicroROS)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image112.webp)\n\n    2.  使用方式：ESP32使用arduino库+FreeRTOS+MicroROS并通过串口与STM32进行通信。\n\n    3.  主要作用之一：可通过WIFI远程与上位机（电脑、工控机）的ROS2进行更加安全、稳定的通信，对比直接用串口通信（rosserial），要好很多(DDS分布式)。\n\n    4.  MicroROS Vs ROSserial的详解链接: https://mp.weixin.qq.com/s/1lQXAA3sV-4GpXAzHiGChQ",
+      "translatedText": "6.  Advanced (non\\-bare\\-metal development, based on RTOS system development)\n\n    1.  Common RTOS (embedded real\\-time operating systems): FreeRTOS, Nuttx, RT-Thread, μC/OS-II, Xiaomi VelaOS\n\n    2.  FreeRTOS official website:https://www.freertos.org/zh-cn-cmn-s/\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image111.webp)\n\n    4.  Simple understanding of FreeRTOS: an operating system with multithreading library features and POSIX standard compatibility\n\n    5.  Multithreading: The system has multiple tasks (threads), each task (thread) runs independently and simultaneously (it can be understood as each task being a main function, and these tasks all execute at the same time\\. The specific implementation will be learned later; the principle is PendSV interrupts, etc\\.)\n\n7.  Advanced (non\\-bare\\-metal development, based on RTOS and ROS2_MicroROS)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image112.webp)\n\n    2.  Usage: ESP32 uses the Arduino library \\+ FreeRTOS+MicroROS and communicates with STM32 through the serial port\\.\n\n    3.  One of the main functions: It can communicate more safely and stably with the ROS2 of the host computer (PC, industrial computer) remotely via WIFI\\. Compared with direct serial communication (rosserial), it is much better (DDS distributed)\\.\n\n    4.  Detailed explanation link comparing MicroROS vs ROSserial:https://mp.weixin.qq.com/s/1lQXAA3sV-4GpXAzHiGChQ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 400,
+        "outputTokens": 310,
+        "costUsd": 0.000493
       }
     },
     "98b15fa6215228420dc8be625c49df047497452f4b51dcbd042f09fc8261e9d0": {
@@ -239,6 +281,20 @@
         "costUsd": 0.000054
       }
     },
+    "98b85f30e7f2297484be8cdeb558a07c6da841b0dcb1ab46125d9bf1924ecb3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec9604e8f57364d86f31f07a32f22272a4c126d4e83cef401a0caa171b24c3bf",
+      "contextFingerprint": "8665b3cb6dcf327465f0dff4459ef1b9a0c132e091561e52cacb92253054a9c7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image253.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image253.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "98ca63cfaf78e66995b4351a36a62b0cd8fe15b5fd0ddd8dd5d63c61db4cb807": {
       "normalizationVersion": 1,
       "sourceHash": "d7402adae433fccb2d8c7e6c156e4a1b7f4817be65f528fad1abb4c7f6f315a9",
@@ -251,6 +307,20 @@
         "inputTokens": 158,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "98ccb7f8ecd306f63b0290d6f1cd39ca75803e81b3b05e671f892d01964949a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b3f48c5b331f0a28af39a6473da005eea4906c082d95271468ed6b8775c8fed",
+      "contextFingerprint": "0445e0d53a0387edecd482d6f3399dad280a24decb6d46074406e1ede9a656a6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image37.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image37.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "98d0145930a00599cbe1231e2c88977ff42a4fc9901c7986780cb558fd58afe1": {
@@ -307,6 +377,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "98e7d26039e7d9c2dde8b8df745a3e4b620e587164d6a61e50ad0e246d0b2349": {
+      "normalizationVersion": 1,
+      "sourceHash": "70443a333e6d0318d256e7fabebc7174405705888bcb61eefa605437f70f6b55",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### opencv编译爆内存的问题",
+      "translatedText": "##### The problem of OpenCV compilation running out of memory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "98fb9495258d373aa839ab07763a8b958ddcbec8e29fa412350ae78a2848caae": {

@@ -71,6 +71,20 @@
         "costUsd": 0.000054
       }
     },
+    "89438a68f9a26002f0ee687449d665ab66709cbbaffd3b08b03afd44c0361a27": {
+      "normalizationVersion": 1,
+      "sourceHash": "8437feca448df71889d4154fd8b6a8c550fb96e2dc0c4565aefb73f15a964184",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "清理 Debug：",
+      "translatedText": "Clean up Debug:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "894407d252a957a61f2b4bec3384719891d71bdc521eb8087fd0517beba4678a": {
       "normalizationVersion": 1,
       "sourceHash": "c824e1030f15a147bde0b2b81c424fcf4fb64c6a2c5a60e38db826bfb3802432",
@@ -111,6 +125,34 @@
         "inputTokens": 147,
         "outputTokens": 21,
         "costUsd": 0.00007
+      }
+    },
+    "896bcd05d824083ed9c75032d88211613a0f98eada740691cbe963a155bc6aca": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab0504edef05cb190189494b7f79925ff1375eb60305b4bf3e5605ecd6f686b4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "创建成功后，VScode会进入PR的Review Mode。在这里可以查看提交记录和文件差异、留言、邀请审查，也可以继续修改代码。",
+      "translatedText": "After successful creation, VSCode will enter PR Review Mode\\. Here you can view commit records and file differences, leave comments, invite reviewers, and continue modifying the code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 41,
+        "costUsd": 0.000098
+      }
+    },
+    "89759035dfd2a893240325bf7ad51c540e87b29f1979444e343bb38f5566c642": {
+      "normalizationVersion": 1,
+      "sourceHash": "63891f460f67dbdaefb27626484bdbb0b600a37e5e76804b09eaf68aaf7468da",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 须知",
+      "translatedText": "###### Notice",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     },
     "8975d0b3e876ddb2764f5a06ef98fbd05207ef52258caae0c59d927f6ae1761e": {
@@ -183,6 +225,20 @@
         "costUsd": 0.000058
       }
     },
+    "8996f9152af20785cd7e7edc4b3b372470c3b58574221fbfd3fae10c00aec555": {
+      "normalizationVersion": 1,
+      "sourceHash": "793cca43a55d74f4e48305d6038920e6f0ae5c9d11d156c753a47bae29187bf6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 方案一(推荐)",
+      "translatedText": "#### Option 1 (Recommended)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "899962171fd5b82edd865359cb1f0fb127ef40df06f944ccdc96ea938293d071": {
       "normalizationVersion": 1,
       "sourceHash": "210fccac90e55897dc0da6b814e62ddf77cb0a347ba42c826a2fab3021976b00",
@@ -195,6 +251,20 @@
         "inputTokens": 186,
         "outputTokens": 67,
         "costUsd": 0.000137
+      }
+    },
+    "89a15f90f9264d5554596cbe50b3dcb125de0a61f9afc46ba4d7fbb970cc7413": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f624550f5635c6009f868b9f6c0867435348693b3367d86223eb5707978b56c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后在 preset 中设置：",
+      "translatedText": "Then set in the preset:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "89a56757a711952a23c787a8cd6e42476d4b476e84812b57bc1a5b291eb4ee4d": {
@@ -295,6 +365,34 @@
         "costUsd": 0.000051
       }
     },
+    "89c1a81e13a51d5080ca74b6718153932b7cd1c21f2a1f1f4f0800f2b4006160": {
+      "normalizationVersion": 1,
+      "sourceHash": "37b58de4a335a33eef130d6457771b894590d5e05b70f5366bb055afa23e4850",
+      "contextFingerprint": "2b51fc0771a57647a980e17fea3e52072b42c4793c8cb50339d4289df2a41c0f",
+      "sourceText": "1. `lib1_src_lib` 自己需要 `project_options`。\n2. 链接 `lib1_src_lib` 的目标也会得到 `project_options`。\n3. `project_warnings` 只用于编译 `lib1_src_lib` 自己，不强迫下游也开启相同 warning。",
+      "translatedText": "1. `lib1_src_lib` the file itself needs `project_options`\\.\n2. link `lib1_src_lib` targets will also get `project_options`\\.\n3. `project_warnings` is only used when compiling `lib1_src_lib` itself, and does not force downstream code to enable the same warning\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
+    "89cc8748cfddf704670f5bfb50bdfc411e0e9744acef978ac708bce349c45409": {
+      "normalizationVersion": 1,
+      "sourceHash": "e075f07d92726428d37dbc89ccb8ed472a38c7ad10818d6cf162459db1c74dfa",
+      "contextFingerprint": "68957d463222abe15ac1c7a61016b44eae0d3d045c780f706599128bb7115b79",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image29.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image29.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "89e0d36b34f6177637b38dcecfc6036fdb9e8ae691bed1cdef66f1e26b0b4511": {
       "normalizationVersion": 1,
       "sourceHash": "b5a091a0bd9e67672fc8caa992f9fbffe6f795ae91f6948e59527d1773a25fdf",
@@ -307,6 +405,20 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "89e23a9f0ce1189b44b5671663cbade6a821ba222cb4da7941d4e028b458fe9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fc59736a9368ce39afa30cb28c72fa443f04f951549df3fcdcb293de051dd70",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "百度搜索北京外国语大学镜像源(亲测，北方最快的源)",
+      "translatedText": "Search Baidu for the Beijing Foreign Studies University mirror source (personally tested, the fastest source in northern China)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 30,
+        "costUsd": 0.00008
       }
     },
     "89ebe15e6b9547812ea5bc2dbb3d57d75e56a1e0fb90584abc070fa6eb5050cb": {

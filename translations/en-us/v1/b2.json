@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b2005abc43fe36929310447ec594db1d82d389d16753e8a7698a3c80fb825d28": {
+      "normalizationVersion": 1,
+      "sourceHash": "d1c41be7a70cc6bba608136b7c74d9df86780387d6ae063311ba413cd9d9d01c",
+      "contextFingerprint": "ed999fdfa549c25af989585383319fb137f38c3facfe64726bcc1709e40c8cf5",
+      "sourceText": "1.  STM32库\n\n    1.  各种开发方式：寄存器，标准库，HAL库，LL库\n\n        1.  寄存器功能简单了解：寄存器就是一个离CPU内核更近的存储结构，所以与CPU内核交换数据比内存（RAM）更快，每个寄存器都有不同的功能，在寄存器里存不同的值，CPU读取后都会实现对应的不同功能。\n\n        2.  库：库是源文件+头文件。stm32的库是由汇编语言、C语言混合编译而成（HAL库、LL库兼容C++）。现有标准库、HAL库、LL库（标准库已淘汰，咱们实验室使用HAL库和LL库）\n\n        3.  各种开发方式的优缺点：\n\n            1.  寄存器：这种开发方式硬件执行效率高，但由于STM32寄存器过于多，用寄存器写可读性差，且麻烦繁琐，故不建议全用寄存器写，在某些场合下可以偶尔使用。（比如在流水灯可直接对寄存器进行移位操作、在调PWM占空比时可直接对CCR寄存器进行赋值等）\n\n            2.  标准库：太老了，现在已经淘汰，该库使用汇编+C语言进行开发，代码可读性很高，但是由于初期对标准库设计有些问题以及一些专利上的问题，导致会出一些问题（比如IIC通信），且时钟配置过于麻烦繁琐，所以咱们于2021级开始就不再使用标准库。\n\n            3.  HAL库、LL库（力推）：ARM公司与ST意法半导体力推的库，符合ARM CMSIS标准，该标准是当今嵌入式开发者都需要遵循的一个标准。该库由汇编语言+C语言进行开发，且兼容C++（头文件中有extern \"C\"条件编译），使用C++的OOP（面向对象）进行开发要方便一万倍。HAL库和LL库仍然被ST公司维护中，其解决掉了标准库的各种确定，比如硬件IIC无法正常使用，时钟配置及其容易。ARM CMSIS标准介绍:https://www.arm.com/technologies/cmsis\n\n        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image44.webp)",
+      "translatedText": "1.  STM32 libraries\n\n    1.  Various development approaches: registers, standard peripheral library, HAL library, LL library\n\n        1.  Brief understanding of register functions: A register is a storage structure closer to the CPU core, so exchanging data with the CPU core is faster than memory (RAM)\\. Each register has different functions; storing different values in a register and having the CPU read them will implement correspondingly different functions\\.\n\n        2.  Library: A library is source files \\+ header files\\. STM32 libraries are compiled from a mix of assembly language and C language (HAL library and LL library are compatible with C++)\\. Existing libraries include the standard peripheral library, HAL library, and LL library (the standard peripheral library has been eliminated; our laboratory uses the HAL library and LL library)\\.\n\n        3.  Advantages and disadvantages of various development approaches:\n\n            1.  Registers: This development approach has high hardware execution efficiency, but because STM32 has too many registers, writing with registers has poor readability and is troublesome and cumbersome, so it is not recommended to write entirely with registers; it can occasionally be used in certain situations\\. (For example, in a running light, shift operations can be performed directly on registers; when adjusting PWM duty cycle, the CCR register can be assigned directly, etc\\.)\n\n            2.  Standard peripheral library: Too old and now eliminated\\. This library was developed using assembly \\+ C language, and the code readability is very high\\. However, due to some problems in the initial design of the standard peripheral library and some patent issues, it can cause problems (such as IIC communication), and clock configuration is too troublesome and cumbersome, so starting with the class of 2021, we no longer use the standard peripheral library\\.\n\n            3.  HAL library, LL library (strongly recommended): Libraries strongly promoted by ARM and STMicroelectronics, compliant with the ARM CMSIS standard, which is a standard that embedded developers today all need to follow\\. This library is developed using assembly language \\+ C language, and is compatible with C++ (the header files contain extern \"C\" conditional compilation)\\. Using C++ OOP (object\\-oriented programming) for development is ten thousand times more convenient\\. The HAL library and LL library are still maintained by ST, and they have solved various certainties of the standard peripheral library, such as hardware IIC being unusable and clock configuration being extremely easy\\. Introduction to the ARM CMSIS standard:https://www.arm.com/technologies/cmsis\n\n        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image44.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 564,
+        "outputTokens": 518,
+        "costUsd": 0.000791
+      }
+    },
     "b20412e5d06a21719082c8183f64b3644391d4ebb678a3356775a8375860f3bf": {
       "normalizationVersion": 1,
       "sourceHash": "9341e00c9b4baca03b0c501296f01f132628d6f99cdd94c25261f8e5d9d57433",
@@ -71,6 +85,34 @@
         "costUsd": 0.00006
       }
     },
+    "b21f011e46ab6e11eab1aa123d7e0b617374f78e382d9e30224b5e7fe72baf92": {
+      "normalizationVersion": 1,
+      "sourceHash": "942a6d6e5c23b1f7494c62cf9293b92d34e21ee05ea079ea052fa11545407935",
+      "contextFingerprint": "9d91c55baf64d9c23ffa2a4dbffb84fc73c41019cb10245ae04c5c11dcdd015f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image149.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image149.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b226e0fe7520f10c5bfdb73b2fda4c38d602c2258f22ffee1d03845d4725eb37": {
+      "normalizationVersion": 1,
+      "sourceHash": "6efb61a940d65bcfbfa64ee5cab6fa9d582a4815bfe3500d989245e52ffd5e9d",
+      "contextFingerprint": "8d72847b9ed2f55b271864febee0172d1af45bcd7a707c3fe8d81991c9ef72c4",
+      "sourceText": "###### CAN_BUS::CMD类的方法(函数) (在can_receive.cpp中)",
+      "translatedText": "###### CAN_BUS::Methods (functions) of the CMD class (in can_receive.cpp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
     "b2302379de8f52d39e002d9bd212fa5e4266d2756e44426cb37eb83f21ceca78": {
       "normalizationVersion": 1,
       "sourceHash": "a502abd8c9c66d7dd3f3f40b6408a2e823264026a46b150a3e2decb50ba34ae4",
@@ -83,6 +125,34 @@
         "inputTokens": 138,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "b23c098291b3ba8e6efe083ab5e1b3c5af89ace6a4d97fbe56a0b5794ed7eaf4": {
+      "normalizationVersion": 1,
+      "sourceHash": "572ae228745a99a59ce770084fe1186f02506afdf870557b11d82b625cdc8511",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为电脑配置的不同，每个电脑的硬件，软件(依赖包)等都不同，所以我能跑起来的你不一定一下就能跑成功。",
+      "translatedText": "Because computer configurations differ, each computer's hardware, software (dependency packages), etc\\. are all different, so what I can run successfully may not necessarily run successfully for you right away\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
+    "b23caebc519e187abc2859fbbb7c825ea8e2df47f2e6d262fb618525fd7a58e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2c2ae8fc6b6d19017bf60d65332abe7b2f1885a3295b6cf82a34a58aa390bb9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 时钟树",
+      "translatedText": "### Clock tree",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "b2419eee8606a0ae7bc2534d0238b9da474c5ef9950c65b468003b1733555170": {
@@ -239,6 +309,20 @@
         "costUsd": 0
       }
     },
+    "b26ada64cbbc73ae4b633f2559e62c8c2fcad5a168cf0ea8fdf141c1719f9aa2": {
+      "normalizationVersion": 1,
+      "sourceHash": "eba838fafc2e3593028f93bdaee7e51de74ace282e5429605bd18b40a64378e1",
+      "contextFingerprint": "5d759f831ca89b150cb9f465a6bf0b7b5170ee33bd9cc5ebebba41f4ef48ffd5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image21.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image21.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b26eb8e6643923543675c84debcb912394bb2e564555ed4cf96bf0cfc62ffc92": {
       "normalizationVersion": 1,
       "sourceHash": "37bc4f3e0243599eaaf0e400132204c96201c32bfe335ba325480eea1a3175f0",
@@ -323,6 +407,34 @@
         "costUsd": 0.000056
       }
     },
+    "b2a9a5408364187f5b5b515b3bfd7ee0f30cbaf7f840935d1d3d042845b2e231": {
+      "normalizationVersion": 1,
+      "sourceHash": "85a0f5656209d9cd335db0b649a59c34a428b4b50fb3de8853c732d005c89932",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面的包你全都可以用apt安装，不用手动编译！！！",
+      "translatedText": "All of the following packages can be installed with apt, no manual compilation required\\!\\!\\!",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "b2aedb987cc171d8bc6b8976adcd8b6d78178e35c11be97903f0adff43d0faff": {
+      "normalizationVersion": 1,
+      "sourceHash": "53b6b90ddc77b4b2dc7fbfbb34e5f1911c661968e8ff3ac83bbf4744d6e37d8b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "armcc(AC5):编译巨慢,开销很小.(仅仅只是开销小)",
+      "translatedText": "armcc(AC5): Compilation is extremely slow, with very low overhead\\. (It is merely low overhead\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 31,
+        "costUsd": 0.000082
+      }
+    },
     "b2b17b0cd96c74b089189c2b467c3568efcb3b9c01f00547cd1d7bf4729e57b7": {
       "normalizationVersion": 1,
       "sourceHash": "cc9f1ecd5d8692e68970a96044224d27bf4f52a1a267d132e3a7e817f1794142",
@@ -365,6 +477,34 @@
         "costUsd": 0.000063
       }
     },
+    "b2bb2804c35a648cc34f5ea2aad6236ec1af98a639d60b65e2e508afa6691209": {
+      "normalizationVersion": 1,
+      "sourceHash": "9829a24b4562abf5a34608a987c69e43fde60ff4f1a44852d7f1ef6aa5b5d2e9",
+      "contextFingerprint": "7e51ca933b4129947887aced28510af5507019b345d61d0dd85be9efc53c8e36",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image3.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image3.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b2c612d6a510290a72749a42151132d7a2477034d66b89ecbd26ae4650cfa098": {
+      "normalizationVersion": 1,
+      "sourceHash": "09de5c6848a53b65756b7eb49f524f236140747804446a4816fcc195333b2394",
+      "contextFingerprint": "205464f35691d7658daee3fd945eab3d7d5a47d51d7a2fe8b90a2c0da803c87b",
+      "sourceText": "####### CAN1_VP_Dual_Loop_Realize CAN1速度位置双环实现函数\n![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image235.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\# CAN1_VP_Dual_Loop_Realize CAN1 speed\\-position dual\\-loop implementation function ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image235.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "b2c6131581965a5007ceb39d129e530b87e9cce87e01f5910360b7ef563ca6b5": {
       "normalizationVersion": 1,
       "sourceHash": "d74e623dc5f04215a3abd0843517bc07df11a0d7c48c9c412389365acb2369a3",
@@ -393,6 +533,20 @@
         "costUsd": 0.000054
       }
     },
+    "b2c87d0b3243a094891a325946b8d5ab89cf94cb52414e47a7bb7548e8264e56": {
+      "normalizationVersion": 1,
+      "sourceHash": "7dff94cf03a2fd299e8a8194453d4ec6bd4ee9474dfb62100d85eae43c3c5f13",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发生了内容冲突，需要手动修改文本冲突才可以！或者其他办法也可以解决，可以查询百度。",
+      "translatedText": "A content conflict has occurred\\. You need to manually modify the text conflict to resolve it\\! Or other methods may also work; you can search Baidu\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
     "b2c87fe46d5c573c92576864e2ee9c848ea67ee197e2d231dc01df23309dc5e5": {
       "normalizationVersion": 1,
       "sourceHash": "46cf5948de9b407a0739ee4ca0c826205bebc9e9456bd1201fbd82e954ee2d49",
@@ -405,6 +559,20 @@
         "inputTokens": 223,
         "outputTokens": 127,
         "costUsd": 0.00022
+      }
+    },
+    "b2c919ae83cbd4a369f6557761f4760545cabcc12a3962a70b5781c51d7098ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "827739d1ffa4a6ea5128da8f5f3ba4cfa3644a14e684375eda22f2742a1472e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见可填值：",
+      "translatedText": "Common fillable values:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "b2cbd8bc19ce736a9575fafbd9c39e63179aa18c238bdb5ff9d7d9e85e0a0539": {
@@ -447,6 +615,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "b2defecc8cc8429a1e3df5d5df6c55e2882594709c583c7bb914d7a19718d002": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bb370fce26cf9aef5334b8c6a668c3262a3d11ade448d2663b7068b9ff5ef0f",
+      "contextFingerprint": "a9dab7fd35e446db66e0222bdac3e2235b114fccae15734de4d43bfec94e5b3b",
+      "sourceText": "2.  其他的不用配置，开箱即用(可以配置一下pkg-config)，",
+      "translatedText": "2.  Others require no configuration and work out of the box (you can configure pkg-config)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     },
     "b2e5f63baf4cf70f2225711b6a4c44f6e7cdf31f31791a23a74ee1346a24b2cd": {
@@ -531,6 +713,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b2fe4da49c57f4e1c3e004b8b82283868cd9d077cbb1b37826eee9d4126e23c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "740338ef68734814aaf0598bd94939eeb732027642f256bebcb3bb17632c9b00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "文件内容：",
+      "translatedText": "File contents:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

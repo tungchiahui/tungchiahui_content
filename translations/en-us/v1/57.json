@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "57097b89d11e5f7adc10523e5188f2a447e5454e998a12cc56f83d53408af0c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b29ccc40e3e0fbcbad1ffb4158d83f05a51bcea37b2d0c086725e4422ae3655",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "version是分支名",
+      "translatedText": "version is the branch name",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "5719bf396152c5d1fa33cc91a952b47aec4884c07147fa659369364d60a4691b": {
       "normalizationVersion": 1,
       "sourceHash": "98e951920a5d85d584796ed9a4ba791bb7ddaabfb59c9466137d755a4f0054d2",
@@ -29,6 +43,34 @@
         "costUsd": 0
       }
     },
+    "5726bb5320371a8ec7ffa42d40b74495d4a5a3ba43ffc86874a9841a5513a0cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "676f0b661dda6960186c792b98cc0e92bde3ad35f2117ba2b5244cfe5bf0aa22",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "出现以上红框部分，就是成功换源了。如果你不换源，下面补依赖的过程可能会巨慢（我具体没试过，猜测），除非你科学了。",
+      "translatedText": "If the red box section above appears, the source change was successful\\. If you do not change the source, the process of installing dependencies below may be extremely slow (I have not actually tried it, just guessing), unless you use a VPN\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 55,
+        "costUsd": 0.000117
+      }
+    },
+    "573ac1c192fcfb05d6fc081929dfbc71377e4fcfe7c4baad51c2d39d0f24e0e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "db228326faa8704b1d114c39f9a4348520144f9e0db3135a4475bbe72b0cef4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "发现文件已经被修改了！",
+      "translatedText": "Found that the file has been modified\\!",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "574887b29a77ca70e5c52a42051613565b41352e5dd314ad36ee7a5b018af103": {
       "normalizationVersion": 1,
       "sourceHash": "b983ef7567d3b8e04196ee3429c0f7647d7c49cc44c5ee66d4921db46bcc4202",
@@ -41,6 +83,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "5759f4f6576bc26bbafd8f63f752f726ada86f49301eec98983248c100cd3911": {
+      "normalizationVersion": 1,
+      "sourceHash": "ded37abaab418acccb5c8823854a165604031342153f7ed4a60ad7e622cdfb79",
+      "contextFingerprint": "476b7fedb109ebb4ebd17fd2d006b67496975df44c6f5f5e197c0ca4aae0c2d1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image273.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image273.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "575ad5f20b28c897bbec6a1e0a47e7225f91a5fc1eb0be9ce7cf973835f0507c": {
@@ -155,6 +211,20 @@
         "costUsd": 0.000054
       }
     },
+    "5782505bab228d3045f8fa6cce086fc6f84445869d6cc8b645685a05258b7f35": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a2398d50d192a337d56f4ad5cddf358777da9211336b9f642039e1cf69c303b",
+      "contextFingerprint": "0f26f44a34055a4ff3ab6c6c8422e4b2d2c55b2057921e3dbf6f92428d445297",
+      "sourceText": "2.  选择接口(Interface)\n\n    1.  原因：FreeRTOS遵循ARM的CMSIS标准。\n\n    2.  选择原则：优先选CMSIS v1，因为CMSIS v2还有些小问题没解决。\n\n    3.  如何选择？\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image246.webp)\n\n3.  配置Include Parameters\n\n    1.  功能：与hal_conf.h(用来开启HAL库的一些功能)一样，用来开启FreeRTOS的一些功能。\n\n    2.  Include Parameters的配置\n\n        1.  CubeMX配置(推荐)\n\n        2.  需要什么功能就Enabled对应的功能即可。（常用的就是vTaskDelayUntil）\n\n        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image247.webp)\n\n        4.  手动编辑头文件配置(不推荐)",
+      "translatedText": "2.  Select the Interface\n\n    1.  Reason: FreeRTOS follows ARM's CMSIS standard\\.\n\n    2.  Selection principle: Prefer CMSIS v1, because CMSIS v2 still has some minor unresolved issues\\.\n\n    3.  How to choose?\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image246.webp)\n\n3.  Configure Include Parameters\n\n    1.  Function: Same as hal_conf.h (used to enable certain features of the HAL library), used to enable certain features of FreeRTOS\\.\n\n    2.  Configuration of Include Parameters\n\n        1.  CubeMX configuration (recommended)\n\n        2.  Simply enable the corresponding feature as needed\\. (The commonly used one is vTaskDelayUntil\\.)\n\n        ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image247.webp)\n\n        4.  Manual header file editing configuration (not recommended)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 249,
+        "outputTokens": 134,
+        "costUsd": 0.000236
+      }
+    },
     "57827a017da55dbe226339e9e26ecd77dba11e11c75f9530817c8536450492c2": {
       "normalizationVersion": 1,
       "sourceHash": "1f04aa3ac6f003b0d73fdd0d39fdd7fc6c3e9e7652c0cddb2adcc17d351435b1",
@@ -267,6 +337,20 @@
         "costUsd": 0.000073
       }
     },
+    "57c1b8a9d62e2f083d8d64e342f1d87effee059b1e1eeed948f6afe4d40843c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ba8e5213554fddbe55a53e40b4891950e2ef375c670277124959aebcd852600",
+      "contextFingerprint": "e70600b8b54f6d80f1648aa2a8970fd68493cb71dc0631a7b0c38d1e88cc3da4",
+      "sourceText": "#######   PID_Calc PID核心计算函数\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image231.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\#   PID_Calc PID core calculation function     ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image231.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
     "57d1a0f505f22edd06c8fc744c18a5867968fe385547d5e7ed5a916a0e3cfb05": {
       "normalizationVersion": 1,
       "sourceHash": "e1ad932c74efcfcd3deca11c4e47f17b73127cc5c9068e4523f443bf8183087a",
@@ -307,6 +391,20 @@
         "inputTokens": 131,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "57f44feeab05d27a4ad7ed47cf5396091003dd5957b78cf013d6f22e9e926472": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3aad95f9f5ab1e1e3aca5d3c094a6073732d2c8ced5902749349d58960cfa9a",
+      "contextFingerprint": "4beb56da3cea73cb1b0242d1b1c8bd9d06e0ee03aea37de5fb6a59988fca89e9",
+      "sourceText": "https://www.bilibili.com/video/BV11R4y1s7jz",
+      "translatedText": "https://www.bilibili.com/video/BV11R4y1s7jz",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "57f694aa6627e10b22c9da7b636558d21ce97d19974e5432954754fff1896a87": {

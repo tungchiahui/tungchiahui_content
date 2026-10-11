@@ -127,6 +127,20 @@
         "costUsd": 0.000063
       }
     },
+    "6a3f5696c16cedf98a261573c7afa153fcae52816a7563d1b4c79c3ca75848f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf4974b51d9e06698030829e990689a3ec9f82205f5cc4309a13778b699c4229",
+      "contextFingerprint": "6c986299d3cbb26d4fcc7c20ab906a030ea1199591c40b292694829bd5bf016e",
+      "sourceText": "| 旧做法 | 新做法 |\n|:---|:---|\n| 手动 `cd build` | `CMakePresets.json` 统一设置 `binaryDir` |\n| 手动设置 Debug / Release | preset 里设置 `CMAKE_BUILD_TYPE` |\n| 手动设置安装路径 | preset 里设置 `CMAKE_INSTALL_PREFIX` |\n| 手动调用 Makefile | preset 指定 Ninja |\n| 手动设置动态库路径 | 安装目标设置 `INSTALL_RPATH` |\n| 手写 VSCode task | VSCode CMake Tools 直接读取 preset |\n| 手写复杂调试脚本 | VSCode CMake Tools 直接运行或调试当前 CMake target |",
+      "translatedText": "| Old approach | New approach |\n|:---|:---|\n| Manual `cd build` | `CMakePresets.json` Unified setting `binaryDir` |\n| Manually set Debug / Release | Set in preset `CMAKE_BUILD_TYPE` |\n| Manually set installation path | Set in preset `CMAKE_INSTALL_PREFIX` |\n| Manually invoke Makefile | Preset specifies Ninja |\n| Manually set dynamic library path | Installation target setting `INSTALL_RPATH` |\n| Hand\\-written VSCode task | VSCode CMake Tools directly reads preset |\n| Hand\\-written complex debug script | VSCode CMake Tools directly runs or debugs the current CMake target |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 225,
+        "outputTokens": 102,
+        "costUsd": 0.00019
+      }
+    },
     "6a4b317f478e1d42bc58111da8bd82fdb861036c6f6c49633225cfa030cc0be0": {
       "normalizationVersion": 1,
       "sourceHash": "950794e866180902b7f89ba2a632d72c99bfb27fa3e0279dc0ad57c39622804d",
@@ -139,6 +153,34 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "6a4c91206c36d4d44bd748e659eefa285fe4c3c32b8f9bdfdc485254c8991474": {
+      "normalizationVersion": 1,
+      "sourceHash": "4793690b363eced9541d63abae5f8dd738c8542b3ecee9bc003cb63b83f17134",
+      "contextFingerprint": "5ca35ac6cb8d9bc855548c7a73f2ba9bf24f6484cc1e0cd1a756cf4c558df612",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image227.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image227.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6a50c4b7ccd7225f5cf8036b531b8a802b3e3ebad735048dff6aa580a09d7505": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef8aed4bc0f4b2de279aaebcf614623eafe4d2bb682256232bd81f7608caee61",
+      "contextFingerprint": "20841bf5c5e94927da2c85a93986b99a50c9e0aaf106255b2b173f3a7419fdcd",
+      "sourceText": "这个阶段读取所有 `CMakeLists.txt` 和 `CMakePresets.json`，检查编译器、第三方库、变量，并生成构建系统文件。",
+      "translatedText": "At this stage, all `CMakeLists.txt` and `CMakePresets.json` are read, the compiler, third\\-party libraries, and variables are checked, and build system files are generated\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
       }
     },
     "6a56927425d3f059f1304a421541fef1c581a94d34b98bddad6fb793875a0b23": {
@@ -197,6 +239,20 @@
         "costUsd": 0.000079
       }
     },
+    "6a66d43186ae87d1dbdaca4b39b5b86efdf2840696878101275b6f679e0161ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "b41cfa9fc1ecddecc079d593c6463f7acb38c6f8f7b757cd06e68a2ced6ee245",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### CMake 写法：简单粗暴版",
+      "translatedText": "### CMake syntax: the simple and brutal version",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "6a6e6c8167e239308864767f963cbdc3e39ca4c44a50981be6d594ec733e36a4": {
       "normalizationVersion": 1,
       "sourceHash": "7cb013c3a37268e63b85551c99047d499d39303bd236b03ffe26a2048181ca3c",
@@ -239,6 +295,20 @@
         "costUsd": 0.000112
       }
     },
+    "6a916d948c2d7e92ffbc504d26db5b8fe5ebeeccfd5433a642ead5ccc4c6c4fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f168ab04f1eab3548b95feb31ab60a1ea3a8e30232b43e979dec62338c22a06",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "armgcc:编译较快,开销略大.(仅仅只是编译快)",
+      "translatedText": "armgcc: Compilation is faster, with slightly larger overhead\\. (It is merely faster to compile\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "6a933569d65a31060cad2255e5acebc73fb2f33a0a59f45ac47f666681c847d9": {
       "normalizationVersion": 1,
       "sourceHash": "74f52e0a58da8b5b5c3445841e0b32492ec3268d4bce60d760975e3eea593e10",
@@ -279,6 +349,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "6aa527ef492dcde55d86a83a738df4c48f75610d1394bccda45563e209901fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "186d546ed9d6bef2f98a37ee76f8cf2a4284c6b5d4c5948c1e7922bc808737bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "推荐路径：",
+      "translatedText": "Recommended path:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "6aadfb061c0b1fbc680be6e9683c85474119934c69b5271eff37131aee6f4c79": {

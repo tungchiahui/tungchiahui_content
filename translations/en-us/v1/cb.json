@@ -43,6 +43,20 @@
         "costUsd": 0.000072
       }
     },
+    "cb27be129697fbc4b644d542ab8e1b490a312181954eb2a50f0404568fa3bc6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "973b4da2af09a93fb0fcb51eb0cccd7bc02cc7965f0fe1c2c486227af5c1ea23",
+      "contextFingerprint": "92c63952b03cfc0674ee62b818179056c03ef8dbb82ca1e0484b58b54c5d3364",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/1787068378293-1ef31793.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/1787068378293-1ef31793.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "cb28c56ec34661de1d27dc1fd4be8c5d6bfdff6d7ce98bda9387528ca35c4fe1": {
       "normalizationVersion": 1,
       "sourceHash": "69fd53abce03fdf839d224183a49c705f9c11efa786cd81ba164bb4913d88d2e",
@@ -155,6 +169,34 @@
         "costUsd": 0.000084
       }
     },
+    "cb6d43192cb5f970555199e1ff892d00b938e1009b1b4a9cd042e8e5b1335adc": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b61fb9b75c82052701373952a63a7cd0aa58f2a4b6b12b8e9ba76c29bfe504b",
+      "contextFingerprint": "b9c05fe1cebe98ef8bd4917c2c24df3db4107aa0de984e5a96ece3c36bf18add",
+      "sourceText": "1.  CAN_BUS::BSP类，该类中包含两个方法：\n\n    1.  CAN_Start是开启CAN通信的函数；\n\n    2.  Filter_Init是CAN通信滤波的函数。\n\n2.  CAN_BUS::DJI_ENCODER类，该类里包含三个方法（该类里的所有函数都由CAN_RX0接收中断回调函数调用）：\n\n    1.  get_motor_measure是处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机各个信息** 函数；\n\n    2.  get_moto_offset是处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机刚开始上电的角度初始值** 函数；\n\n    3.  get_total_angle是处理CAN通信接收到的大疆电机编码器数据，并处理得到 **电机角度值** 函数。（暂时没被调用）\n\n3.  CAN_BUS::CMD类，该类里包含四个方法：\n\n    1.  CAN1_Front是给CAN1 **前** 4个电机发送电流的函数；（对应电调ID：1-4）\n\n    2.  CAN1_Behind是给CAN1 **后** 4个电机发送电流的函数;（对应电调ID：5-8）\n\n    3.  CAN2_Front是是给CAN2 **前** 4个电机发送电流的函数;（对应电调ID：1-4）\n\n    4.  CAN2_Behind是是给CAN2 **后** 4个电机发送电流的函数。（对应电调ID：5-8）",
+      "translatedText": "1.  CAN_BUS::BSP class, which contains two methods:\n\n    1.  CAN_Start is the function for enabling CAN communication;\n\n    2.  Filter_Init is the function for CAN communication filtering\\.\n\n2.  CAN_BUS::DJI_ENCODER class, which contains three methods (all functions in this class are called by the CAN_RX0 receive interrupt callback function):\n\n    1.  get_motor_measure is the function for processing the DJI motor encoder data received via CAN communication and deriving **various motor information**;\n\n    2.  get_moto_offset is the function for processing the DJI motor encoder data received via CAN communication and deriving **the initial motor angle value at power\\-on**;\n\n    3.  get_total_angle is the function for processing the DJI motor encoder data received via CAN communication and deriving **the motor angle value**\\. (Not called for now)\n\n3.  CAN_BUS::CMD class, which contains four methods:\n\n    1.  CAN1_Front is the function for sending current to the **front** 4 motors on CAN1; (corresponding ESC IDs: 1\\-4)\n\n    2.  CAN1_Behind is the function for sending current to the **rear** 4 motors on CAN1; (corresponding ESC IDs: 5\\-8)\n\n    3.  CAN2_Front is the function for sending current to the **front** 4 motors on CAN2; (corresponding ESC IDs: 1\\-4)\n\n    4.  CAN2_Behind is the function for sending current to the **rear** 4 motors on CAN2\\. (corresponding ESC IDs: 5\\-8)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 510,
+        "outputTokens": 413,
+        "costUsd": 0.000649
+      }
+    },
+    "cb6ed8d729dbc2032f86be8659982b1d088418e3f9e062b07f3a6ede99a7dc75": {
+      "normalizationVersion": 1,
+      "sourceHash": "d823b58dd55ae71de7c8dee9f78a4577ecc5fca0109e376a9c770523f4e54478",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 不推荐：顶层集中查找所有库",
+      "translatedText": "### Not recommended: Looking up all libraries centrally at the top level",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "cb70cfb4e59fd691359627d95c0bf2f52542c56a16adb61cbab6cf56ac777257": {
       "normalizationVersion": 1,
       "sourceHash": "270963aacb38905ba9812bdbc41bd8bd2f26b5f64aeec2019bce77fbb935e0d4",
@@ -223,6 +265,20 @@
         "inputTokens": 143,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "cb9a608a9dee7665ed607143d90b0bee4b11ec26c670cd41152a71f663dfa5d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4468e977431af84e66b2a688a8efd84e54df0ea02dfff1d6249ed8af79270e5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### VScode环境配置",
+      "translatedText": "### VSCode environment configuration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "cb9ad403c30484e9251c8b1d05bed716237d2f198855c5a0ad37acc6dca0d338": {

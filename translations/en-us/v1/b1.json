@@ -15,6 +15,48 @@
         "costUsd": 0.000105
       }
     },
+    "b108be43cec96a692ec6b76bd24a78987cbff5af4cd506f5d01df79b0de6d0f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "da564e0ae0b04afb4c0618f53855e6168b80ce2cb0c89e22afd453140b5a7a65",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 添加新的可执行文件",
+      "translatedText": "## Add new executable file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "b10a097be44ec4c24725214416f040f3758d5ad8e2f13e8b4bf07e14392b7513": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f0d41b21800beb6a051865b0168872c551c05e1a4e6b8e949a1ff7b9e30d5fd",
+      "contextFingerprint": "7841cc4d21666616dbf148ae1d5559260ac09813a009129891a52d8b90f06b2f",
+      "sourceText": "单片机MCU环境配置:[电控组环境搭建大全](/wiki/2023-12-10-dian-kong-shi-jue-huan-jing-da-jian)",
+      "translatedText": "Microcontroller MCU environment configuration:[Complete guide to environment setup for the electronic control group](/wiki/2023-12-10-dian-kong-shi-jue-huan-jing-da-jian)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "b11197ebec88a94eb4f319d7be5b9f84abaed94b80aa0539f703916d9964fbc5": {
+      "normalizationVersion": 1,
+      "sourceHash": "59787acf4f46ab4627be1a41559d290c06c087f4084ad80ccef57f5e89415863",
+      "contextFingerprint": "7ff700c4861be9f839864b066d9f596e34124e145f26162bb24840443dfd64a4",
+      "sourceText": "####### CAN2_FrontCAN2 **前** 4个电机发送电流的函数\n![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image224.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\# CAN2_FrontCAN2 **Front** function for sending current to 4 motors ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image224.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "b111ad1e67493f5f063bf0bba32b69159876a66d055451cc4e63248f169a7c00": {
       "normalizationVersion": 1,
       "sourceHash": "a3d1bf0ef3366642365c925b51bc0f931f54ccf23af40bfe72251db13c781f73",
@@ -41,6 +83,20 @@
         "inputTokens": 148,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "b1188d61cebda8b96c642f340ab71d5aa68d562c84ad9c693278936238ffc728": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fe4d5d1b31a051cb7be91eb386d705e20303d430adf8f1199d99e31e7ee8da6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 查看历史版本对比(点击文件)",
+      "translatedText": "#### View historical version comparison (click file)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "b1224b3307ae40b3afeca9d0432392f12f16d6d7c18f5028f2a5e11982fcf02a": {
@@ -211,6 +267,34 @@
         "costUsd": 0.000055
       }
     },
+    "b1526e9541d7d94a39e1e3014fe4a97307701ff86f1d2effa85f951a07e61dfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2821d0480a5968c3d0fca74fb9436cab99fe2b928e0cae05d96db3e4a72a13ef",
+      "contextFingerprint": "7df3f51ba93023634e23c0527fe3093a5199e515c851ac0ad2a6c50e56f4bc64",
+      "sourceText": "3.  插件(VScode的特点就是插件多，不用插件的vscode失去了灵魂)",
+      "translatedText": "3.  Plugins (the defining feature of VSCode is its abundance of plugins; without plugins, VSCode loses its soul)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "b156dc6378294a4bbb76f3af00b0259b0f19d478729cd20dcb391687678d8e55": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c9f3733a1106937fbd3aedafbff7540fbd4a48c82bb376c92820d037ecf5d77",
+      "contextFingerprint": "1a3258d320305e1f727e156637e881807bc030c51bc1fd66b9f8dfc09500ce20",
+      "sourceText": "1.  TOTAL_HEAP_SIZE：如果使用了FreeRTOS，可以在这里修改FreeRTOS的堆区的大小。\n\n2.  memory management scheme：可以修改动态分配内存的算法，一般都使用heap_4算法。\n\n3.  FreeRTOS_HEAP这里的堆区，非彼堆区，而是FreeRTOS从stm32的ZI区中开辟的内存(可以这么理解，其实是FreeRTOS的内核在data,bss,heap,stack等中抢的内存)，而并非从stm32的Heap堆区开辟的内存(在当你选择heap_1,2,4,5算法时)。如果你选择的是heap_3算法，那么将会使用C库的malloc()和free()函数进行开辟堆区内存，这个时候，FreeRTOS就是使用的为stm32的堆区(32的堆区比较小，所以不如heap_4算法)。但是咱们一般都使用heap_4算法进行内存管理，所以这里的***FreeRTOS_HEAP是从stm32_ZI区分配的。(也就是FreeRTOS_HEAP并非直接从heap区申请，而是非常灵活的在RAM中进行申请，可以超过STM32_HEAP的大小)***\n\n4.  因为我们使用的是heap_4算法，所以我们不用对stm32的heap和stack进行修改，只需要对FreeRTOS_HEAP进行修改即可。(也就是对FreeRTOS可操控的stm32的ZI区内存进行分配)",
+      "translatedText": "1.  TOTAL_HEAP_SIZE: If FreeRTOS is used, the size of the FreeRTOS heap can be modified here\\.\n\n2.  memory management scheme: The algorithm for dynamic memory allocation can be modified; generally, the heap_4 algorithm is used\\.\n\n3.  FreeRTOS_HEAP The heap here is not the same heap; rather, it is memory that FreeRTOS has carved out from the STM32's ZI region (it can be understood this way: it is actually memory that the FreeRTOS kernel has seized from data, bss, heap, stack, etc\\.), and is not memory carved out from the STM32's Heap region (when you choose the heap_1, 2, 4, 5 algorithms)\\. If you choose the heap_3 algorithm, then the C library's malloc() and free() functions will be used to allocate heap memory\\. At this time, FreeRTOS is using the STM32's heap region (the STM32's heap region is relatively small, so it is not as good as the heap_4 algorithm)\\. However, we generally use the heap_4 algorithm for memory management, so here the***FreeRTOS_HEAP is allocated from the stm32_ZI region\\. (That is, FreeRTOS_HEAP is not requested directly from the heap region, but is allocated very flexibly in RAM, and can exceed the size of STM32_HEAP\\.)***\n\n4.  Because we use the heap_4 algorithm, we do not need to modify the STM32's heap and stack; we only need to modify FreeRTOS_HEAP\\. (That is, allocate the STM32's ZI region memory that FreeRTOS can control\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 493,
+        "outputTokens": 435,
+        "costUsd": 0.00067
+      }
+    },
     "b1698b410c526395b61f6b676cd8f00328745c87b4a7e66a127cc0669ad97944": {
       "normalizationVersion": 1,
       "sourceHash": "6f4ea4d2d6d75c7db1e7698b84522afebdafe337043ed8b10fca96f0c1047315",
@@ -281,6 +365,20 @@
         "costUsd": 0.000061
       }
     },
+    "b17a4ba49ce7684e7e981ca146a49aaaa167cb0ea6f06cb51628d0ee1450e6f8": {
+      "normalizationVersion": 1,
+      "sourceHash": "954ffe8f042ee88223d250cc86dc2f3ea8ccfc5b36a70b00b3af2fd646dc0a9f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "url是仓库地址",
+      "translatedText": "The URL is the repository address\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "b190ccad29ae4e9d3622b623856fbc10489e1c89dbbc3330d60ef63a6c7b8d1f": {
       "normalizationVersion": 1,
       "sourceHash": "b2752870bb77816e620fa70f365d63445ae1a08c91d743310126800dde3d0d5a",
@@ -337,6 +435,20 @@
         "costUsd": 0.00006
       }
     },
+    "b1a74c7453dd10563f1933303334f5bae1f4a8bf37ec636e1b02194e8b5dc5bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "e794de26cdbdb33826eaf39373fd030cacb77eebce4c1110f51919c1d5892866",
+      "contextFingerprint": "10677e7aa10f255ffe4eca98f64878cf57b0df912c98a1a7b07b508beb4a34f9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image155.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image156.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image155.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image156.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b1ac54908123159f252d1ee9791a8221f3f7345e46feaf246ce21f6d4e31f996": {
       "normalizationVersion": 1,
       "sourceHash": "824a9e43e8658c5643aeaa4f68cd4dc029e6e8e90adf4a0ee210292cadd1853f",
@@ -363,6 +475,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "b1b826c20dbfeb587c886086dc5cdb069b0ae9d466ebf9be10b086bc52d78dc2": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b47c57f3e7eda37f0265b7ac61888991af0c40048161a19eacc384ecc5a52b3",
+      "contextFingerprint": "606024fcf4a1401d7feddaa53f5a11a0e42ab853eae891a9a5b164dba347e733",
+      "sourceText": "bsp_can.cpp是需要自己写的开启CAN通信的代码文件（CubeMX没自动生成的部分，需要手动调用）",
+      "translatedText": "bsp_can.cpp is the code file that you need to write yourself to enable CAN communication (the part not automatically generated by CubeMX, which needs to be called manually)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 48,
+        "costUsd": 0.000106
       }
     },
     "b1c02c323d25a20e0fe587f53bced00eb8a3532f3adaef1b6163d6afc6959aae": {

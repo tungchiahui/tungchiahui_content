@@ -85,6 +85,20 @@
         "costUsd": 0.000059
       }
     },
+    "4b2a149a8f5702343f690c5dc39853b0340326c2b47859da983065c3c28659ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f83428a516ec4bca0f8657481a834851033b488effdcbc41b1dd3d359529d16",
+      "contextFingerprint": "5751d51be9e889a0645bb909aa4afb69b01dc47fa38df6b93403d8a117df0dac",
+      "sourceText": "| STM32 系列 | CPU 内核 | DSP 指令 | FPU 类型 | arm_cos_f32() 性能 | 适合的计算 | 建议使用的函数 |\n|:---|:---|:---|:---|:---|:---|:---|\n| STM32H7 | Cortex-M7 | ✅ 支持 | ✅ 双精度 FPU (DP-FPU) | 🚀 最快（硬件加速） | 高精度计算、机器人、滤波、导航 | arm_cos_f32() |\n| STM32H5 | Cortex-M33 | ✅ 支持 | ✅ 双精度 FPU (DP-FPU) | 🚀 最快（硬件加速） | 高精度计算、滤波、AI 计算 | arm_cos_f32() |\n| STM32F7 | Cortex-M7 | ✅ 支持 | ✅ 单精度 FPU (SP-FPU) | 🔥 很快（硬件加速） | 机器人控制、导航、滤波 | arm_cos_f32() |\n| STM32F4 | Cortex-M4 | ✅ 支持 | ✅ 单精度 FPU (SP-FPU) | 🔥 很快（硬件加速） | 机器人控制、数学运算 | arm_cos_f32() |\n| STM32G4 | Cortex-M4 | ✅ 支持 | ✅ 单精度 FPU (SP-FPU) | 🔥 很快（硬件加速） | 电机控制、滤波 | arm_cos_f32() |\n| STM32L4 | Cortex-M4 | ✅ 支持 | ✅ 单精度 FPU (SP-FPU) | 🔥 很快（硬件加速） | 低功耗计算 | arm_cos_f32() |\n| STM32U5 | Cortex-M33 | ✅ 支持 | ✅ 单精度 FPU (SP-FPU) | 🔥 很快（硬件加速） | 低功耗 AI 计算 | arm_cos_f32() |\n| STM32F3 | Cortex-M4 | ✅ 支持 | ❌ 无 FPU | ⚠️ 较慢（无 FPU，仅 DSP 加速） | 电机控制、信号处理 | arm_cos_q31() |\n| STM32G0 | Cortex-M0+/M4 | ❌ 部分支持 | ❌ 无 FPU（部分 M4 版有 SP-FPU） | ⚠️ 较慢（软件计算） | 基础控制 | arm_cos_q31() |\n| STM32F1 | Cortex-M3 | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 不推荐做浮点计算 | arm_cos_q31() |\n| STM32F0 | Cortex-M0 | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 不推荐做浮点计算 | arm_cos_q31() |\n| STM32L0 | Cortex-M0+ | ❌ 不支持 | ❌ 无 FPU | 🚫 最慢（纯软件计算） | 超低功耗应用 | arm_cos_q31() |",
+      "translatedText": "| STM32 Series | CPU Core | DSP Instructions | FPU Type | arm_cos_f32() Performance | Suitable Computation | Recommended Functions |\n|:---|:---|:---|:---|:---|:---|:---|\n| STM32H7 | Cortex-M7 | ✅ Supported | ✅ Double\\-Precision FPU (DP-FPU) | 🚀 Fastest (Hardware Accelerated) | High\\-Precision Computation, Robotics, Filtering, Navigation | arm_cos_f32() |\n| STM32H5 | Cortex-M33 | ✅ Supported | ✅ Double\\-Precision FPU (DP-FPU) | 🚀 Fastest (Hardware Accelerated) | High\\-Precision Computation, Filtering, AI Computation | arm_cos_f32() |\n| STM32F7 | Cortex-M7 | ✅ Supported | ✅ Single\\-Precision FPU (SP-FPU) | 🔥 Very Fast (Hardware Accelerated) | Robot Control, Navigation, Filtering | arm_cos_f32() |\n| STM32F4 | Cortex-M4 | ✅ Supported | ✅ Single\\-Precision FPU (SP-FPU) | 🔥 Very Fast (Hardware Accelerated) | Robot Control, Mathematical Operations | arm_cos_f32() |\n| STM32G4 | Cortex-M4 | ✅ Supported | ✅ Single\\-Precision FPU (SP-FPU) | 🔥 Very Fast (Hardware Accelerated) | Motor Control, Filtering | arm_cos_f32() |\n| STM32L4 | Cortex-M4 | ✅ Supported | ✅ Single\\-Precision FPU (SP-FPU) | 🔥 Very Fast (Hardware Accelerated) | Low\\-Power Computation | arm_cos_f32() |\n| STM32U5 | Cortex-M33 | ✅ Supported | ✅ Single\\-Precision FPU (SP-FPU) | 🔥 Very Fast (Hardware Accelerated) | Low\\-Power AI Computation | arm_cos_f32() |\n| STM32F3 | Cortex-M4 | ✅ Supported | ❌ No FPU | ⚠️ Slower (No FPU, DSP Acceleration Only) | Motor Control, Signal Processing | arm_cos_q31() |\n| STM32G0 | Cortex-M0\\+/M4 | ❌ Partially Supported | ❌ No FPU (Some M4 versions have SP-FPU) | ⚠️ Slower (Software Computation) | Basic Control | arm_cos_q31() |\n| STM32F1 | Cortex-M3 | ❌ Not Supported | ❌ No FPU | 🚫 Slowest (Pure Software Computation) | Floating\\-Point Computation Not Recommended | arm_cos_q31() |\n| STM32F0 | Cortex-M0 | ❌ Not Supported | ❌ No FPU | 🚫 Slowest (Pure Software Computation) | Floating\\-Point Computation Not Recommended | arm_cos_q31() |\n| STM32L0 | Cortex-M0\\+ | ❌ Not Supported | ❌ No FPU | 🚫 Slowest (Pure Software Computation) | Ultra\\-Low\\-Power Applications | arm_cos_q31() |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 940,
+        "outputTokens": 820,
+        "costUsd": 0.001266
+      }
+    },
     "4b4510c30394e94e1ff8812aa509dea38c22ca449014ed964f96810eed3bec5b": {
       "normalizationVersion": 1,
       "sourceHash": "3f58430e81a2dec1da60b1c12c430a59a69322ee4396f5d9f36166859c8c03e6",
@@ -141,6 +155,20 @@
         "costUsd": 0.000067
       }
     },
+    "4b5935da8eb39e3731b276d1086c70ae9c67e3e8387d472139e0e78ea1e764b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5e94467049ad76fd97fd867183eeead36cb73b9bd3d06b9ae1025806f7220a4",
+      "contextFingerprint": "49db6f5804d92f81d7cdc9ba1c545c69040a949b60423c94a58e71aead2b1f54",
+      "sourceText": "如果 `lib1` 用 Eigen，而 `lib2` 不用，那么只在 `lib1/CMakeLists.txt` 写 Eigen 即可。",
+      "translatedText": "If `lib1` uses Eigen while `lib2` does not, then only in `lib1/CMakeLists.txt` write Eigen\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 22,
+        "costUsd": 0.000072
+      }
+    },
     "4b639c85a741a33c241505ccda92bd3cf6b8ef3359f5dd596761ab69192d18bd": {
       "normalizationVersion": 1,
       "sourceHash": "5176793a9d9a9334a38a40a8246051a0c9b8df638e0214288dcbe162f6c6b5b3",
@@ -189,6 +217,20 @@
       "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
       "sourceText": "服务端输出类似：",
       "translatedText": "The server outputs something like:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "4b78e46336d2d5b632283c4d9af310643265ed0b37b898c5fe4b98a067d0d9c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c6cd1981b33ea7bec7094e3805c8b1559651c47c91b2cc07acdc16ab815a13c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不是安装目录产物：",
+      "translatedText": "Not an installation directory artifact:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -265,6 +307,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "4bdb46109b8de8c2edaad115e6ce70fdf963d5b671e882a67846645000034e29": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6f7e4494391034a6ca17bb8b498f863cdd312620a33cfb55295310a26bdacc7",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 常用的内容(下方教程着重讲CubeMX如何配置，理论知识请看正点原子)",
+      "translatedText": "#### Common content (the tutorial below focuses on how to configure CubeMX; for theoretical knowledge, please refer to ALIENTEK)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
       }
     },
     "4bdc08839a2d52d156eeffeb408a7f57b1a581a42278a1792484d5a2ed161a52": {
@@ -363,6 +419,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4bffdd9c3a7afe38622be4fbac71adec3efcdde48d4b6066b867d2cfe68d470a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b89d88f1b5c6053dca1d58ffcf5392032c676d3d3d7f1f0fc0ee8a7cc6e09702",
+      "contextFingerprint": "e4d962168733c6a612378a0047472e164b49840a6e57ec067eb385946287f625",
+      "sourceText": "**(安装驱动、CUDA、cuDNN教程:**[Vinci机器人队Linux入门教程](/wiki/2024-03-30-linux-jiao-cheng)**)**",
+      "translatedText": "**(Tutorial for installing drivers, CUDA, and cuDNN:**[Vinci Robotics Team Linux Introductory Tutorial](/wiki/2024-03-30-linux-jiao-cheng)**)**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     }
   }

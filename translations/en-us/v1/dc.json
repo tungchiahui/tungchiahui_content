@@ -169,6 +169,48 @@
         "costUsd": 0.000069
       }
     },
+    "dc5f63bdbba9851246fd36ca927e283d95b204b6a0493d57b8a360731d98cafd": {
+      "normalizationVersion": 1,
+      "sourceHash": "519f6b70c8875e5ff971a7caa8b07eb5262aaef798520a766b93dc405b432177",
+      "contextFingerprint": "b7f9a8d09206901d5bf68d52b1efa9160316b7aecfa9f1bfb95c000514759c5c",
+      "sourceText": "pid.cpp是pid控制系统核心的数学算法代码",
+      "translatedText": "pid.cpp is the mathematical algorithm code at the core of the PID control system",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "dc6378df6f97fce4631f44e4fb1d73672e7fe6e4d348f26f236f3c4eddf5be06": {
+      "normalizationVersion": 1,
+      "sourceHash": "b37cff5fee818fee932a7b603abc06792c5cb259605974ebb057ba965c7a776e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用vim修改bash的环境",
+      "translatedText": "Use vim to modify Bash's environment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "dc68a8a03dc6b1ef723e40a670b884f29a3c3d0937a504ca09dcda81cf5299f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a367de86a03358b8032ed8bc1248d96dec95f034c78c0d72f87e3176e881641",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种方式会使编译时间增加至少200%.",
+      "translatedText": "This approach increases compilation time by at least 200%\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "dc6da8130e7701375a4c36f3a2c49c5d49ba7fdb4c412b26a4491cfc71f0dc8c": {
       "normalizationVersion": 1,
       "sourceHash": "338daeae3a58c0bb3af58946dd146b051de20e8656ae804c78d3d0a475ea2608",
@@ -197,6 +239,34 @@
         "costUsd": 0.000057
       }
     },
+    "dc7386c794f7ee49c42f4687dd37c76b49974f8ab487c269592ea6b63e81bb04": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0b3a81cafa3edf5f84a473179f0be2f0a5bf2d6083200ce4e9357271d17f34d",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1.  应用层、驱动层等采用模块集成式，不再采用Src和Inc分离式",
+      "translatedText": "1.  The application layer, driver layer, etc\\. adopt a modular integrated approach, no longer using the Src and Inc separation approach",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "dc784bb7dbeb9a4add736584eb7900959c0e90ab9ed9d3cddae176eff917a2a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7eede51f47a8546aacf40f60e988c5598bca79cdb30567324b8e0aba3aa16e35",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "memx就是指内存块，内部的SRAM和外部的SRAM(外部的不一定有外部的SRAM)。",
+      "translatedText": "memx refers to a memory block, internal SRAM and external SRAM (there may not necessarily be external SRAM)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "dc80fa6e5fa9aa004a59dbd32d5e4b8517ea3bcb42532b6107c5e262ff847d8e": {
       "normalizationVersion": 1,
       "sourceHash": "7fd22d6389c92a8b038da34e7045e1a0d1df81fde5871d238c4cc6b84c07722c",
@@ -223,6 +293,20 @@
         "inputTokens": 143,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "dc876e8eaa7519a899baa19c1840214f06171aae6ca89ba36d4669aa9e972d14": {
+      "normalizationVersion": 1,
+      "sourceHash": "dde16fddc7d4320960c10bf2397842b53a7457a9b64b76d2d799189a64123f05",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面这张图可以从源码看到开启了FPU。",
+      "translatedText": "From the source code in the image below, it can be seen that the FPU is enabled\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 26,
+        "costUsd": 0.000073
       }
     },
     "dc87de6d3fd4867ab267e65468cc17632a4133628947b6fb73c0a14249a786e3": {
@@ -365,6 +449,34 @@
         "costUsd": 0.000064
       }
     },
+    "dccf4715c40067acbdaab22de8605bc1ccb0e0397acc402eeae0dec318e29dbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "36d2968087595c6eacc4a6e3cc110c4a9d6a13d7ed3bae8e4892be6e459d989a",
+      "contextFingerprint": "6825d20f1185530748d7e034384d08d2612dab90fc43cfd29563fdcf330ab703",
+      "sourceText": "使用 Ninja 时，会在 `build/linux-debug` 下生成 `build.ninja`。",
+      "translatedText": "When using Ninja, it generates under `build/linux-debug` `build.ninja`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "dcd09ee3e424921eee72ee851df10f945a440468a6fea77dc422c62217daf5c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e11911608d4a616ebce09d09b33eea88ef32a4dc84b4e3eadac3beda62fbf572",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个模板改成 CMakePresets 后，这些内容都不再需要：",
+      "translatedText": "After this template is changed to CMakePresets, none of these contents are needed anymore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "dcdfc9ff8b847151a4698307c284471d3f66449f3ede9e804b37b38435166476": {
       "normalizationVersion": 1,
       "sourceHash": "c2b04ac02e78c37d557a509ab0a03bef0406ca0253ca99e42d3d3439f2a942fa",
@@ -377,6 +489,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "dce2495e5c7a21dfc66f8c6c58aff32a800eb7e4b1eac495d089ead33ef5b691": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf3bc5850302b60303ff701da5b88b538235b081f779d781fc7784cad6338ea5",
+      "contextFingerprint": "d60ff9fa07f0a0eba77ba3a2ce05e657277cb11a5228d143bc66ddc7a9e8048f",
+      "sourceText": "| 值 | 编译选项倾向 | 说明 |\n|:---|:---|:---|\n| `ON` | `gnu++17` | 允许 GNU 扩展 |\n| `OFF` | `c++17` | 更标准、更可移植 |",
+      "translatedText": "| Value | Compilation Option Preference | Description |\n|:---|:---|:---|\n| `ON` | `gnu++17` | Allow GNU extensions |\n| `OFF` | `c++17` | More standard, more portable |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "dcee251dac22d1838525adcf37a25ab5ebcc1cd29fc218c5b5c4d5613852211f": {
+      "normalizationVersion": 1,
+      "sourceHash": "2abe6c372b391240a2d7f7ea6fbddbf22f008c13d55a89c91412eab5a74615f6",
+      "contextFingerprint": "a48246976e906cd12f9df2ca7f7ae3c2f4ed43bf57c1daf9bb02d637fc459a0e",
+      "sourceText": "1.  操作系统: Linux,Windows,MacOS(本文以Linux为教程)\n\n2.  安装Git",
+      "translatedText": "1.  Operating System: Linux, Windows, macOS (this article uses Linux for the tutorial)\n\n2.  Install Git",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     },
     "dcf27142651343bea981814551882fac39b4f3adb4b38975c5b8bd0b577c0fc7": {

@@ -99,6 +99,20 @@
         "costUsd": 0.000113
       }
     },
+    "081fd902a9e197418b1b68c7b2f26c0fd9461dd5f26aa00c9247c990778699b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8119117f01e6f080a8fc4312bc59cdcce6c97da57cf4c808eab31513abbe2d69",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设你没有FPU，比如STM32F1系列的单片机，也可以通过DSP库来加速三角函数运算，这个DSP库的是通过查表+插值的数学运算方式进行优化的，计算也是比较快。",
+      "translatedText": "Assuming you do not have an FPU, such as with STM32F1 series microcontrollers, you can still accelerate trigonometric function calculations through the DSP library\\. This DSP library is optimized using a mathematical operation method of table lookup plus interpolation, and the calculations are also relatively fast\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 63,
+        "costUsd": 0.000128
+      }
+    },
     "08227f39d251a67edd7245bbf5df1523a95adf29f680d86a13b502a7d43cac49": {
       "normalizationVersion": 1,
       "sourceHash": "cf6e4c7cc68683d2d1da2c48525da15bf4328900a29e6df02c9108e5e8910243",
@@ -167,6 +181,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "084f0c7a44149508a2c3868d91aaa1ab5f9b7a2a08dc996c055921dd00a34957": {
+      "normalizationVersion": 1,
+      "sourceHash": "69b7049615306330514b88febc78a158a9f347986ba171237da9f82171614a4b",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 配置OpenCV环境变量ENV",
+      "translatedText": "#### Configure OpenCV environment variable ENV",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "085fcdca33659647850ea6dd3c052a726c0690c046a06bf578d7e357adae7f85": {
@@ -295,6 +323,20 @@
         "costUsd": 0.000063
       }
     },
+    "089430f60dae3c2f76ac1842e5bb9e2cc5acab1379ed4540e9f8918b0301b7ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "e89f3616aca1303c0c35f7986ea2cf9c090db8dcc999fea2ae9ec94f517ba215",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 合并分支",
+      "translatedText": "#### Merge branches",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "089ddeed20e44f5cc7932a36f787c9926b9e426f2a1ada8c2ae98bf268ee2925": {
       "normalizationVersion": 1,
       "sourceHash": "d5127e16016eb12414d7f03ed00a03cea0919ca3648db16bfd4a0be8a9826a63",
@@ -323,6 +365,20 @@
         "costUsd": 0.000051
       }
     },
+    "08acd3f49323617ac3f45dfcd2316c020dbf7eb61a0bdd959616f8d3ea1f429e": {
+      "normalizationVersion": 1,
+      "sourceHash": "25f6b8b8aa555d79f92aa470a92344ed5b91304f9c177b2a4b2fa1e18d76e664",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相比之下开连续更快，更建议连续",
+      "translatedText": "In comparison, continuous driving is faster, so continuous driving is more recommended\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "08b4bd8e513eb3f6ffd1487570ee89c7b25b63bb819f6b536169488bb67a6a04": {
       "normalizationVersion": 1,
       "sourceHash": "9791326f4f58c6749f036c98744e3b06572ac745b6c01d2030f0ff849ac19f70",
@@ -337,6 +393,20 @@
         "costUsd": 0.000051
       }
     },
+    "08cae4b6bf16991d6239b74bf0d3061e28066d1554a77c58f11050d97083b2d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e099cab400e64cb9aef034ef8fcf87f1421b53dfe4e269ccd9a0a893f4a8053",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### CMake编译",
+      "translatedText": "#### CMake build",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "08cbde48f3bd34337213cd051a9427b4d3479fc12673cdac0b2d878d1868da1c": {
       "normalizationVersion": 1,
       "sourceHash": "fc47ba11be174a85f87ef64e75d1f3654d323f3e00e2df3854422ef64db5143a",
@@ -349,6 +419,48 @@
         "inputTokens": 139,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "08da0ddf65af393570e70db02f40f8db2febdc7514c0dca702133cdec0944bc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "d63334efca5bf078066395d75d2e2fc1ebd513c4ee06bed543a8fd373ed56ec1",
+      "contextFingerprint": "5b74d4c826054e37c6205e354f947fcac4b3ec1507fb47612da1cfca6c87a292",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image33.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image33.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "08db99cf130ab5c6b4395d9e6bb778e826ef759be16f5045e288178b50f23c84": {
+      "normalizationVersion": 1,
+      "sourceHash": "9cf35ccf975af7f1b064fe528214fbb5b5c074a8e85df4dd821ebc1f618fc28f",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "a, **比例控制理解**",
+      "translatedText": "a, **Understanding proportional control**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "08edf2378b7b4f9a05bd634d14206b969520a3876b2a39c4748d3b2ab2d39bfa": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff962127b8d596d4b3da55e8c0120987378696bcc08cfd7d74bf650bd5180d17",
+      "contextFingerprint": "433d1c0f4ee18b01d11858878d09388aa1e460c42ddf0f62c9462de3724e29eb",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image50.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image50.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "08f196394c048130b2dc0a4748d1224edb93ba23397498099956b2a88c7a4241": {

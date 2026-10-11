@@ -15,6 +15,20 @@
         "costUsd": 0.000084
       }
     },
+    "8c0829631eddcd6f6d0d64fd2fbc584b84de90b201b0be9abed8d502dd320a47": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6f7103bfda22ecb5ca2f3e80e212efed6ec9d2aacea439fcd595fee20f49c2d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "为什么不用手写：",
+      "translatedText": "Why not write it by hand:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "8c36b4c1ecf25fc16d0981f571d3b59eab467d02f184bb599ebbea2523974d88": {
       "normalizationVersion": 1,
       "sourceHash": "19cd299e021581bc00460979ac5d4a3388b6e35c5b1b04ea3792bc53ee71afa9",
@@ -153,6 +167,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "8c8a3e036ea98935db1b829ee2f0e35bf2256de263564e106dc449e6e9798ae8": {
+      "normalizationVersion": 1,
+      "sourceHash": "afc578e3b2ab90e8a23092422e77fba7e4e65dd101487e26d2a868c6e78a4554",
+      "contextFingerprint": "f008216afa794f2d2da6d39cd1286b38d2925861bd8de32aa2723fcfd185e12f",
+      "sourceText": "1.  工程构成：stm32工程是由C语言和汇编语言的库组成的工程，所以有主函数，符合C/C++语言的结构。\n\n2.  程序运行顺序：除了预编译等，程序从主函数开始运行，而且非常符合C/C++运行顺序，从主函数开始会逐行运行代码，然后会进入死循环。\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image94.webp)\n\n3.  主函数内必须的组成部分：死循环\\[while(true)或者for(;;)\\]，因为单片机要一直运行下去，所以有个死循环。\n\n4.  HAL库 与 用户自定义库\n\n    1.  库：\n\n        1.  .h文件声明函数\n\n        2.  .c/.cpp文件定义函数\n\n        3.  .c/.cpp文件调用函数\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image95.webp)",
+      "translatedText": "1.  Project composition: an STM32 project is a project composed of C language and assembly language libraries, so it has a main function and conforms to the structure of the C/C\\+\\+ language\\.\n\n2.  Program execution order: apart from preprocessing and similar steps, the program starts running from the main function, and it conforms very closely to the C/C\\+\\+ execution order: starting from the main function, the code runs line by line, and then enters an infinite loop\\.\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image94.webp)\n\n3.  Required components within the main function: an infinite loop\\[while(true)或者for(;;)\\]because the microcontroller must keep running, so there is an infinite loop\\.\n\n4.  HAL library and user\\-defined libraries\n\n    1.  Libraries:\n\n        1.  \\.h files declare functions\n\n        2.  \\.c/\\.cpp files define functions\n\n        3.  \\.c/\\.cpp files call functions\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image95.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 275,
+        "outputTokens": 176,
+        "costUsd": 0.000294
       }
     },
     "8c9806a0ddb2ada8635815776b4ae58b1abcfacbe1253b9105256b388e4c3603": {
@@ -335,6 +363,20 @@
         "inputTokens": 132,
         "outputTokens": 12,
         "costUsd": 0.000054
+      }
+    },
+    "8cfcc1b13befb0aea030fb1401bf44f85d01da457c9e9f70d0a038a00c365266": {
+      "normalizationVersion": 1,
+      "sourceHash": "d83e2d95685e509ab01522e4a59316bc9188c628503890469860db046d274f00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "CMake Tools 运行或调试的通常是 build 目录里的可执行文件：",
+      "translatedText": "CMake Tools typically runs or debugs the executable files in the build directory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     }
   }

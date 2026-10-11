@@ -43,6 +43,20 @@
         "costUsd": 0.000053
       }
     },
+    "3b0fbc14a4b48fea82642aba52f68e85a1ba8263bc947da2af85bb62ff65f860": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6fff2857bcde40af7a26984079b0d8ba59d1ba3726a7a3ac1ba18b47f7d22fa",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 队列",
+      "translatedText": "##### Queue",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "3b21be3c9d03bc50a555c00129f66c06b1a303c6df4c5ff6671400b6b304c7b8": {
       "normalizationVersion": 1,
       "sourceHash": "21bbc67f099d5b1e021807cad7d8d427379d03648434b6a90103e129cde63c24",
@@ -85,6 +99,20 @@
         "costUsd": 0.000076
       }
     },
+    "3b33b41ba90e7e723d4263aad38410d04c204874e5e2e84fc07dd82e348abc3f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a1b01f153b6f6c218f3c0a80e44d34fa10227773b05371b266293199835ff1e",
+      "contextFingerprint": "bfb824a96f9295526971e8419dd1fbc8d2b0b879fbacb38d2e69ba4ea7d74c23",
+      "sourceText": "1.  选择系统时基源(Timebase Source)\n\n    1.  原因：因为FreeRTOS会占用systick，所以需要改时基源。\n\n    2.  选择规则：优先选择功能少的定时器。(比如说F407ZGT6的tim6和tim7的功能比较少)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image244.webp)\n\n    4.  如何选择？（如图）",
+      "translatedText": "1.  Select the system timebase source\n\n    1.  Reason: Because FreeRTOS will occupy SysTick, the timebase source needs to be changed\\.\n\n    2.  Selection rule: Prefer timers with fewer functions\\. (For example, TIM6 and TIM7 on the F407ZGT6 have relatively few functions\\.)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image244.webp)\n\n    4.  How to select? (As shown in the figure)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 79,
+        "costUsd": 0.000153
+      }
+    },
     "3b4a75300d17ccc61934423f80604a9de2b08f127d4ee41bfd8a20ae3631909a": {
       "normalizationVersion": 1,
       "sourceHash": "c45f0d0a66a15712c01c849c8cc49e49e2ff7e4271ace2a50e5e85d525c4ecfa",
@@ -111,6 +139,20 @@
         "inputTokens": 140,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "3b568b8f6695b4588979556c64384b624f09c2db895d4ae273247c9ec59326d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a40a9e51bbc8b80881991c656d4c32e9c42bc66dd2b842f0269b8e16946f828d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不同发行版和版本的包名可能略有差异。如果安装失败，先用：",
+      "translatedText": "Package names may differ slightly across distributions and versions\\. If installation fails, first use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
       }
     },
     "3b677de8be53e12dbed71a01958b09c5a08210d5a53d03c072f726f83a61c9aa": {

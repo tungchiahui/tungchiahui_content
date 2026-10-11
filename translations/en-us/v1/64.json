@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "64064eed1e29af7de090158622953b3056d15ca10ab7afbeca4959710a0ad2de": {
+      "normalizationVersion": 1,
+      "sourceHash": "490f9d00111afc21f549768068a3b9a907d73f723f9402bbd63509ca155aef4d",
+      "contextFingerprint": "9c7d1a4552415aac421007e8ad2c9a095109752fd411cd86f8dfb83c59178062",
+      "sourceText": "`install` 更适合用来验证\"安装后的目录结构和动态库路径是否正确\"。",
+      "translatedText": "`install` It is more suitable for verifying \"whether the installed directory structure and dynamic library paths are correct\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "640d561868e4f924b30e9a509d0806d355686451b2a962818dce3ef921e3fb2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b38728ae918277db2d740004a915dd6b230cf64e1a6a2fd7e76093a2e1c33ee",
+      "contextFingerprint": "88051a6e81797effa3372e9805ab09de73ed5c119d71480b095bd6b52ed029f2",
+      "sourceText": "pid_user.cpp里是调用pid核心代码并进行封装为PID控制器的初始化代码和一些闭环实现代码。",
+      "translatedText": "pid_user.cpp contains the PID core code invocation and encapsulated initialization code for the PID controller, as well as some closed\\-loop implementation code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
     "640dbc7c9ebd1736227f072883b60a1802a3b0b2cc8fc5d41e82dfa264b473fa": {
       "normalizationVersion": 1,
       "sourceHash": "b909e216803faae1a45da41b29f2d443bd38a97c491ab797c36adccf04548d61",
@@ -351,6 +379,34 @@
         "costUsd": 0.000076
       }
     },
+    "64a59bbe020c64306e70952ae62a8a8f0fb5653ce31c197c79f5ab8a80a2e3eb": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ccc822534f0082cd5440aea03b268528cc311b9e64a77cd55b05e844a7555e6",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 黄色的包",
+      "translatedText": "###### Yellow packet",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "64a752a01ff9e4fae4b989961c2224415407ca38aa34d0562450e42d2fc24cb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "900b6cf8051e3561b9d919c9f70a4b05184556170743c8565bc6cf43b5ed1046",
+      "contextFingerprint": "6f72daeba0ed006a7b3cfc104b0387ae45d621a34544ab83d6c6955d773c891e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image6.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image6.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "64a9950a4f8bf2bd44e5f5d473fa13602c3574c68d788731d1fca03d051a30e1": {
       "normalizationVersion": 1,
       "sourceHash": "ed0dd5003402f41e3b29a592292ece2f8fb1ffce4a20783ec5e4e087e419efa0",
@@ -363,6 +419,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "64ad0c2ee0a165cf899c4e139bbd088463f37a4ceb61882ad06c31ce674ffa00": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0b7b25ec027ac72247dac7a41fa5133a063d73e9cab114500b5c58ee978c2f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "进入网站后，",
+      "translatedText": "After entering the website,",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "64dff18c2105b42111f87a5069ca97e0f2ee430f14cb1e7fb063e7c133655c86": {
@@ -419,6 +489,20 @@
         "inputTokens": 154,
         "outputTokens": 41,
         "costUsd": 0.000096
+      }
+    },
+    "64e81d66abd755a84e8c8887795ac180bb17d3dc9c54555cc269a2c6ab662855": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee32393982700e5091cf2d57e420b77070d13bd87f4ce4f6fa88d0c2a04623ae",
+      "contextFingerprint": "2c59c7e30966f796bb883f2874bc20155800d9c5cbea9f3f78d116df64b96986",
+      "sourceText": "####### Pos_X_Realize 码盘定位X坐标实现函数（等你们完善好 码盘OPS-9的C++库你们再补充）\n![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image237.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\# Pos_X_Realize Encoder positioning X\\-coordinate implementation function (once you have perfected the encoder OPS-9 C++ library, you can then supplement it) ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image237.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 63,
+        "costUsd": 0.000132
       }
     },
     "64ea0ee63c872ee44e1dd220b7ae91d2f40053e768a9160d7f426d7bdcedcee3": {

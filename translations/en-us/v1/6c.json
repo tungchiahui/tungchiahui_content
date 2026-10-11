@@ -71,6 +71,20 @@
         "costUsd": 0.000051
       }
     },
+    "6c328e1eeae76f6e9af89b421f0c9f6ef289fa74616d39427a7373d168f289a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a01cfe9954f8c06cdf9fe45aa2a2bc7abffe5f7a17e9c4d2bd75c4beb4ce674f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个模板的目标不是把 CMake 所有语法一次讲完，而是围绕一个真实可运行的工程，理解现代 CMake 最常用的一套写法：",
+      "translatedText": "The goal of this template is not to cover all CMake syntax at once, but rather to understand the most commonly used set of modern CMake practices around a real, runnable project:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
     "6c376ff6ec6c4b4fa4faf729c3800ededfc78ec8189bed48dd5e4a03ff137376": {
       "normalizationVersion": 1,
       "sourceHash": "1cefa87f0b5f0f908cd8b7e8a21a3022c4695c9f8b816633f833a6e1cda386c9",
@@ -127,6 +141,20 @@
         "costUsd": 0.000052
       }
     },
+    "6c6486fa430fbb09f3215db5bd4503254c3304c855cf44ad05294c125610d22c": {
+      "normalizationVersion": 1,
+      "sourceHash": "91e7e87ff8d3d0aa0702fc91294792828636337390eee6f91d08cab37b77e129",
+      "contextFingerprint": "917c8d01459800ebc08ae2d440e59f84e90bdad539e524b6fae8e1af85f36e08",
+      "sourceText": "1.  原因：同队列\n\n2.  信号量：一种特殊的队列，是一种解决同步问题的机制，可以实现对共享资源的有序访问。\n\n3.  分类：二值信号量、计数型信号量(详见正点原子)\n\n4.  同步问题：A做完一个事情，通知B，B才可以做，这叫同步问题。",
+      "translatedText": "1.  Reason: same queue\n\n2.  Semaphore: a special kind of queue, a mechanism for solving synchronization problems, which can achieve orderly access to shared resources\\.\n\n3.  Classification: binary semaphore, counting semaphore (see ALIENTEK for details)\n\n4.  Synchronization problem: after A completes a task, it notifies B, and only then can B perform its task; this is called a synchronization problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 87,
+        "costUsd": 0.000163
+      }
+    },
     "6c6fdf30dcc63fca717b20d7df290ab0274d445f79463b8c1edf8a7488292565": {
       "normalizationVersion": 1,
       "sourceHash": "9e9519d75f3481662e34727e70cae27c8e74ec71fe85b315105d19f2e3213faf",
@@ -139,6 +167,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "6c7059d79630f87f3f350e361899e6fd751eb4dcd700c3d2cf3e1927347f51f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7d0c489000976b657670e6b7b2f7a209d4c174f7c4f235de6c8b6051744846c",
+      "contextFingerprint": "83b41198bea24840429fd758346cd200847a3310106ee0416d854e4dd438a43c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image60.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image60.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6c745261315383eafaca496ee465f5c761db988befa6e1ce20935b35d9fefffd": {
@@ -239,6 +281,20 @@
         "costUsd": 0
       }
     },
+    "6ca29022b8fe77d90383c410758307069538ac4ea9f670c2828e471b8c9976e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a30806bda6858abe577a9751eb100f7cc44f9b5c59dcc559b0eaf8d5bd6c3d4c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "机器人操作系统（ROS）是一组软件库和工具，可帮助您构建机器人应用程序。从驱动程序到最先进的算法，再加上强大的开发工具，ROS为您的下一个机器人项目提供了所需的东西。而且都是开源的。",
+      "translatedText": "The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications\\. From drivers to state\\-of\\-the\\-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project\\. And it's all open source\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 61,
+        "costUsd": 0.000126
+      }
+    },
     "6cad45ee89f60a4fa10773bb2ddd3181b07d924f7d18bb22148ec40f7b07bf72": {
       "normalizationVersion": 1,
       "sourceHash": "1fd90744ea9bed37f0da60ba1a8a7fd85dfa3b931143397540e94bda766a13af",
@@ -295,6 +351,34 @@
         "costUsd": 0.000057
       }
     },
+    "6ce20321fe275fe60d7eaeb996d369515e028446318765586e2a878f4a8bc1db": {
+      "normalizationVersion": 1,
+      "sourceHash": "c98988e0def604154a67f33a71538798d9b86ee098c57db702255e276ec236d3",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "说明 clangd 还在使用 fallback 参数，项目的 include 路径、第三方库\n路径和 C++ 标准都可能识别错误。",
+      "translatedText": "This indicates that clangd is still using fallback parameters, and the project's include paths, third\\-party library paths, and C++ standards may all be recognized incorrectly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
+    "6ce5f9cf73adba7d949e08f64d98a57f80f4357872c1bbe39e98151a08807a0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "83eb9fa2a76229f71a40ac3bc3417d30f0b7bd9be2616c4e37139afc9e157b05",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "否则链接时可能发生符号冲突。",
+      "translatedText": "Otherwise, symbol conflicts may occur during linking\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "6ce8552a2fee6f54b12c86191f6c081e27255e4d2f88f2509dc8c04523fdd4c8": {
       "normalizationVersion": 1,
       "sourceHash": "c8cacb4178436c3050da93aac4ecc723fa417912af50b2a06dcb7660d1c945ea",
@@ -321,6 +405,34 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "6ceea5f481630e3d58211bde304197833a24d6eea929c3d8d8eedd31f3965a3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b83a92799b050b72828fa3af8d104ce48f009b4f4e608685a7c8225ec09e33c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在 VSCode 命令面板执行：",
+      "translatedText": "Run in the VSCode Command Palette:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "6cf310774801ef8e36ecbbce8fc67a0d510e3792cf9f5b63f5a6d5df7cbb35fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "aec4287bb24b8f22fd71cdf605b5d17c03b0cb8807cce8f7095be670e19a96ce",
+      "contextFingerprint": "6434d13b8d78827aec93e27e271528edd421dd50329694f2099ba7e6992506af",
+      "sourceText": "本章用一个 Linux-only 的 CMake 工程模板来讲解 C++ 项目如何组织、构建、安装和引入第三方库。",
+      "translatedText": "This chapter uses a CMake project template from Linux-only to explain how the C++ project is organized, built, installed, and how third\\-party libraries are introduced\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 55,
+        "costUsd": 0.000118
       }
     },
     "6cf64ece16d89ea45c09301fa4e77b4711c3b5967323b76c8765dd17d665dc43": {

@@ -99,6 +99,20 @@
         "costUsd": 0.000056
       }
     },
+    "ab2df9cc77a6204087f26972b51f1d95aa2290f20c90ee32346a5558b3a42609": {
+      "normalizationVersion": 1,
+      "sourceHash": "df389aa0421507e8d4a8219e8b5c2196940e9df9ee530a812cb9d36ec006361c",
+      "contextFingerprint": "90532df59b96076b153f3fe5febf572a921d92ae1d8499d2b186a58771ce3305",
+      "sourceText": "可以发现，在route2分支中被删掉的test.md文件回来了，但是同样被删掉的vinci_sercet.py文件没回来，是因为该文件在提交时被.gitignore文件屏蔽了，不会被提交到本地仓库",
+      "translatedText": "It can be seen that the test.md file that was deleted in the route2 branch has returned, but the vinci_sercet.py file that was also deleted has not returned, because that file was blocked by the \\.gitignore file at commit time and will not be committed to the local repository\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 79,
+        "costUsd": 0.000152
+      }
+    },
     "ab33f520627c44b05df9341cd0b167c48bbaab6e08bc5d8cfdc45cbcf4289be4": {
       "normalizationVersion": 1,
       "sourceHash": "0e85213cb2c2bc488c8d65b350e8a76b72ea3487ec98b438915400110f81b48d",
@@ -111,6 +125,20 @@
         "inputTokens": 140,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "ab40afb8c779cab3991b426a2f0d9269f01f882b30316151acef8ec6e7101d13": {
+      "normalizationVersion": 1,
+      "sourceHash": "90925b7424971f0ba5e3307d424149b5174708922d9ca3f3ad5b088dd4c747c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再设置库之间的依赖和主程序要链接的库：",
+      "translatedText": "Then set up the dependencies between libraries and the libraries that the main program should link against:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "ab487024cae4e94336ba3fb54861111a084fdd1fe1304004db34201bac51b0d5": {
@@ -253,6 +281,20 @@
         "costUsd": 0.000055
       }
     },
+    "ab83a95c2d0eb84e58e466c3f31d394254fba0c24d7beea623d15936ff375abc": {
+      "normalizationVersion": 1,
+      "sourceHash": "5803e2f66df9d847fa8f114107d10953919fcb11cf2df5cd94567e2bed996fe2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在最底下加上下方的内容",
+      "translatedText": "Add the content below at the very bottom",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "ab87dfd66fbc8d00c7b76f836473f82fcadbdab4476abdf0d3dfdd141b7e79b3": {
       "normalizationVersion": 1,
       "sourceHash": "8f36b688b866d1c3de5fed7ccd67198ca6d028be1f31abf953ed17072ef4bbaa",
@@ -351,6 +393,20 @@
         "costUsd": 0.000059
       }
     },
+    "abbca665f329c9a92835c7a12d68e94d1472a1f88b806d19371fe9af116798ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8e8b5b696c71f0f1c6bbc462e2ff823b07bc221b5a90573f87561b11055a801",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 安装库",
+      "translatedText": "## Install Library",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "abc409131d24d4071abcae953ba9c880ffcf4cfab5b7c7f5350b6179b5487690": {
       "normalizationVersion": 1,
       "sourceHash": "42b4cd6b10ba62fa4e9eac4d947b3f990468c09d4c1cfa5a084ee838e38a8026",
@@ -377,6 +433,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "abcdbe931ba0a6cd83b13f25549ed4689c67472fd30793ec4ca736323dddd154": {
+      "normalizationVersion": 1,
+      "sourceHash": "d38d88d0c717cf91ee1f05fd657a3fb1bb8a73fa39bd9954a1cee1d64d68706d",
+      "contextFingerprint": "361c4a418a199d988d1d5613c5e66b36675bec6fd02a901b3e119aecdf7ceb90",
+      "sourceText": "条件编译肯定不能少，一个是防止头文件重复引用的条件编译，一个是把C++链接为C语言的条件编译。（如果忘了，请看[Vinci机器人队C/C++资料](/wiki/2023-10-05-cplusplus-jiao-xue)）",
+      "translatedText": "Conditional compilation is definitely indispensable: one is conditional compilation to prevent repeated inclusion of header files, and the other is conditional compilation to link C++ as C language\\. (If you have forgotten, see[Vinci Robot Team C/C\\+\\+ materials](/wiki/2023-10-05-cplusplus-jiao-xue))\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 74,
+        "costUsd": 0.000145
       }
     },
     "abd75047fc20daffc80aba64f0d435c8b7733c3e29d0dbabc58171f5accb37f4": {
@@ -435,6 +505,20 @@
         "costUsd": 0.000076
       }
     },
+    "abe1b816edd58f4288ed6599fcecfe89749755f1a75f4256ec8ede548544df66": {
+      "normalizationVersion": 1,
+      "sourceHash": "a57eab90aaa1ed3087f1b4ae1cb64c649ef7638432e0ad0d8e67cd0c8eb8f665",
+      "contextFingerprint": "ea79845a46c9c75d2bfa50cccc35ca6ead64e7dff0d6e7e35387dbb7fe060f14",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image14.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image14.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "abe4d31b9622871fb8589eeb650d78c5b4737470aac8a1d11d4b54411bd2f44a": {
       "normalizationVersion": 1,
       "sourceHash": "e27ae90fa2adfe7bb5934bf679ea5004ce687778657c5f3864a7ce127b971910",
@@ -449,6 +533,20 @@
         "costUsd": 0.000059
       }
     },
+    "abf67f3fd93264f28b57ee905ee70a0dcd766b69a511d38e34289c8e3df5bf56": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bee17cff9589749e3812032fd8eb78bf87a1dfe99989f652e72d165f36886ed",
+      "contextFingerprint": "8a20cad9a9e752ae40407c25a415356e935a448d0526e2f943aa2b3e1d0690a1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image90.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image90.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "abfe7a24e2d2e2434754b0061638bc0750497ad6ab7b484e6fea3af9d1d2470c": {
       "normalizationVersion": 1,
       "sourceHash": "4255dabe5696f71cc8e2c4f8a6672d9e5ca4d251dcf855eee8d13dd789668191",
@@ -461,6 +559,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "abfea29ec01eb1b8c1c7dbf3ae6c2e3623bc5621128a3cdfe0dced12ce19aef7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4789701b555429f585588d518f29cf579261105ef55d6c365e2da88a2eb6680f",
+      "contextFingerprint": "695048eea8044befda93d81a8535b153591f1c7ddace1ae3e3feeda2787caea2",
+      "sourceText": "## `find_package` 基本语法",
+      "translatedText": "## `find_package` Basic syntax",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }
