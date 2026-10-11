@@ -113,6 +113,20 @@
         "costUsd": 0.000071
       }
     },
+    "583ce6ac815faa5468e35eaccb445b55d0a22461071ca0c32f03f12abd94404a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f1a68723d1478df8ff4241056fb03b32db0f09ecbcf693d0e343427af881964",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再次编译",
+      "translatedText": "Compile again",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "5844afc0936a2ae04390ad6a0728fb498c0daf4e96b1464ae5fc795a9f9d0933": {
       "normalizationVersion": 1,
       "sourceHash": "edf80fbb32baf6c386757b2d0b65b81d1b84f3f74119933f39536871fa3a4595",
@@ -239,6 +253,20 @@
         "costUsd": 0.000062
       }
     },
+    "587fc2f1f1ed0f0f427097c1c2cb5186483d422a755f8067eb8ffcbcea717954": {
+      "normalizationVersion": 1,
+      "sourceHash": "edbd85ac51b4245d9226284b93685115e106d35cfd783d8b36a08f68c108f6b6",
+      "contextFingerprint": "ca9f02282b1c262c8511142650efd726cdf0b575a6c4e59dc76997bdb99b544a",
+      "sourceText": "1.  原因：全局变量在多线程里是不安全的，多个任务对该变量进行操作时，数据容易受损。\n\n2.  队列：队列是任务到任务、任务到中断、中断到任务数据交流的一种机制(消息传递)\n\n3.  具体内容：详看正点原子视频学习理论知识\n\n4.  调用\n\n    1.  CubeMX配置：(Queue Size选择你要传的数据的比特数(即二进制位数)，Item Size选择数据的类型)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image256.webp)\n\n    3.  调用(详解请看正点原子)：\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image257.webp)",
+      "translatedText": "1.  Reason: Global variables are not safe in multithreading; when multiple tasks operate on the same variable, data is easily corrupted\\.\n\n2.  Queue: A queue is a mechanism for data exchange (message passing) from task to task, task to interrupt, and interrupt to task\\.\n\n3.  Specific content: See the ALIENTEK video for learning the theoretical knowledge\\.\n\n4.  Call\n\n    1.  CubeMX configuration: (Queue Size selects the number of bits of the data you want to transmit (i\\.e\\., the number of binary digits), Item Size selects the data type)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image256.webp)\n\n    3.  Call (for details, see ALIENTEK):\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image257.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 222,
+        "outputTokens": 128,
+        "costUsd": 0.000221
+      }
+    },
     "58893a29b03623a4199371ab01f118bb042658eca8385c002edaacf2912bc4ad": {
       "normalizationVersion": 1,
       "sourceHash": "ae13fb5c23b2ac70857f782e21b34ec7a5f0cb910fb5c46183ce9d0c7670de7f",
@@ -295,6 +323,20 @@
         "costUsd": 0.000058
       }
     },
+    "58a4c58c70383feaadc02590b96b3d8af590bd792d430245df8a6def2c0e60d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7158c8742e68fa07774eca974a52d8637243e2576b8fecda66e6aa07a62514e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### arduino库（Qualcomm Arduino、esp32）",
+      "translatedText": "### Arduino libraries (Qualcomm Arduino, esp32)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "58a8ddd506b6e29e1a701b6cf528fe980194aada5b196d34cf9d453dfe305aae": {
       "normalizationVersion": 1,
       "sourceHash": "b188d1810777bb8a9980373f3a4231b9e84a635eff9bf72da7c0af41fb822838",
@@ -349,6 +391,34 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "58c9c6f5ecc1f4c103ca6ffa3b1382388c7466c858df6333f1fefced49f829a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f36efe2e478d5e00ac17b924a5d1dd313aca517a60c70bf5d67e431e3d8f8c94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以最终可执行文件名就是：",
+      "translatedText": "So the final executable file name is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "58d7a25207d4c34b204d5ae1880fffca36b0ed3c4204492579da56ec6ae3203f": {
+      "normalizationVersion": 1,
+      "sourceHash": "adeacd02bb9d87175d19a0a898db4b19dff379d914c43a6f9959013e78d495fb",
+      "contextFingerprint": "45e6138e3e7f8c90108c4f002b613b6f8080d9b75afa1f83883d172491329ecf",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image291.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image291.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "58d8ba7c1d084cf9b4bbcc8e6daa7004476c3c0f2596eff3cbccb0f396c0b878": {

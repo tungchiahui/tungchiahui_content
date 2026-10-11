@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "fd091cc346ac139f0b861cb3d8575c33f818a9d89b9cf54973b002230fc7a767": {
+      "normalizationVersion": 1,
+      "sourceHash": "9243dfa88057745f481439c752ffabdbcc9de66732b52fa652354dae6ddeb455",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## lib1 的 CMakeLists",
+      "translatedText": "## CMakeLists for lib1",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "fd09ae0cb481b47705e0e520946b1047ba752e920dd2bf10b8345328d5d51553": {
+      "normalizationVersion": 1,
+      "sourceHash": "08fab53ebba523f52e02fcd8e27bdc802413f3a447086dee40cd03c85fce6246",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "改成静态库：",
+      "translatedText": "Change to a static library:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "fd0f28f290ab9c112829654e6b5948512c1a3bbd6b5587ab27c9609ae3a77155": {
       "normalizationVersion": 1,
       "sourceHash": "d15f9517f025a2e706c8cb8028a7fa26922729745b2ceadcba8dd56c44d4f755",
@@ -407,6 +435,20 @@
         "costUsd": 0.000081
       }
     },
+    "fdcb246d8e85637772e9570da23e22679c04bfb1eca7228e4d0f20061a16e384": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e0a3b9c34243b95909cc63e14c7454c3ed0ed6108e9752351494d10e932895d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 新建文件",
+      "translatedText": "#### New File",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "fdcd8ec002c98b509bab2a3a2d4e8b42cfe6a4c57ad0f1fcd8063eef182211e0": {
       "normalizationVersion": 1,
       "sourceHash": "9ea11ea4b3e2fbec2fa7430775295ca4ba56ae1fe8b1b7464bbc39344ccd7380",
@@ -517,6 +559,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "fdfd9aefbe1b38bc9f6918cf464c11fdce11ad3300391c66a34aa3dc0844e826": {
+      "normalizationVersion": 1,
+      "sourceHash": "d05c4724aca0642ef406c1404e0c49c9c1bf34f9f9ecbcaf8cb6ecc098b3af4e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "STM32由于主频比较低，所以运算浮点数运算会非常慢，目前有下列几种办法可以优化sin，cos这种大型浮点数运算。",
+      "translatedText": "Since the STM32 has a relatively low main frequency, floating\\-point operations are very slow\\. Currently, there are several methods available to optimize large floating\\-point operations such as sin and cos\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 44,
+        "costUsd": 0.000102
       }
     },
     "fdff45f503188e6a281111bfb0e46ddc50685f8d627d904cb5b8b03362923e26": {

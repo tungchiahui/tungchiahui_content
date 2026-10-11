@@ -57,6 +57,20 @@
         "costUsd": 0.000058
       }
     },
+    "ea2128be21d2ae9a400428d3f91027a8b2f6a54144622cd47b2024a4433bdd60": {
+      "normalizationVersion": 1,
+      "sourceHash": "d93cc206fdfafa4ffcf83129d5ac1c9a9441e81f4a8104a5b215b780c5784f6b",
+      "contextFingerprint": "e91de8a8e55f77d18f284fae130d8498354ff85791c68e769518f549b553ace9",
+      "sourceText": "8.  将本地仓库push到远程仓库",
+      "translatedText": "8.  Push the local repository to the remote repository",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "ea311f5d15209aa89673359aba6d7c9139e0718e4dde6a245955b651b25eb3dc": {
       "normalizationVersion": 1,
       "sourceHash": "899ad6166dc2046abc5b3c88ceae5727e936a4c3073f0671e4d9f7186169f084",
@@ -127,6 +141,20 @@
         "costUsd": 0.000052
       }
     },
+    "ea427356325ce778724f932aa8adc9989bf3c4fa4613fbbf99028464836f2d80": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fa98491e5fed07408e0afc828bc0ce321bf83d0464cd59b5a5fb4c867706176",
+      "contextFingerprint": "b298a80c18986a52179c0e50099f69113e3aaf0c82ed5ab1c357474353d6cdb5",
+      "sourceText": "1. 谁使用第三方库，谁写 `find_package`。\n2. 第三方依赖集中放在本模块的 `Third-party dependencies` 区块。\n3. 优先链接现代 CMake target，例如 `Eigen3::Eigen`、`OpenCV::opencv_core`。\n4. 不把所有第三方库都堆到顶层 `CMakeLists.txt`。",
+      "translatedText": "1. Whoever uses a third\\-party library writes the `find_package`\\.\n2. Third\\-party dependencies are centrally placed in this module's `Third-party dependencies` section\\.\n3. Prefer linking modern CMake targets, such as `Eigen3::Eigen` and `OpenCV::opencv_core`\\.\n4. Do not pile all third\\-party libraries into the top\\-level `CMakeLists.txt`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 60,
+        "costUsd": 0.000125
+      }
+    },
     "ea484caa7bab14cb5bf7e052b24dc7d90b7294146a3e1572a11cf19b5c22f744": {
       "normalizationVersion": 1,
       "sourceHash": "ff6ad0d949623f71d470dedf8b05e3d8ec4f60e0f7dc75092741e5fec9b0e2de",
@@ -169,6 +197,20 @@
         "costUsd": 0.000057
       }
     },
+    "ea52db1ff75df65b2f018a8244b62653c6da959a6aa1fe0ce0f7bde0188dd2f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "0225bdcedfde60b2b9864bfe676d372aef55bf1196cfde6c0828929cd1fb7b33",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### Fedora或者Rocky",
+      "translatedText": "##### Fedora or Rocky",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "ea630fb13747ea8a85485fedcd7902f19c46688f43b4d0830d730da372d78768": {
       "normalizationVersion": 1,
       "sourceHash": "dffaa61e9fad8a6d47112b45974c8d0dafd284d44d092bdad047382c05390ebc",
@@ -181,6 +223,20 @@
         "inputTokens": 141,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "ea672100bb18926ce71a6a4e6df9ffad69b5f190bcbdb57d3b30e5ba580c4b6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "08edeb21da0d83d002607d031ee82b63c086469363440558bf6cc5c1310dd201",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 添加子目录",
+      "translatedText": "## Add subdirectory",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "ea7e4b3e8997e2d27d55afe52fea28fcbe3f06f7517b8c9c7b891cd41a4449f1": {
@@ -225,6 +281,20 @@
         "costUsd": 0.000197
       }
     },
+    "ea8e6b349b16e49a02f2d72b85716e0c4f29e4985d1dbbaabfe5833846b4911c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c4c28f5594a246a3a6a516c6e1249db748830756e8675d373a71bfc0496a2c7",
+      "contextFingerprint": "402e50e3fb12c5b0026d05a586211c357412f18de3469097da83bb4eedfa7528",
+      "sourceText": "##### ros原装opencv与自己搭建的opencv_cuda冲突的问题",
+      "translatedText": "##### The issue of conflict between ROS's built\\-in OpenCV and a self\\-built opencv_cuda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "ea8f80cb300ff2ea1598ed3d36a759dd60090f8acf1c879970482d2aafe8dd29": {
       "normalizationVersion": 1,
       "sourceHash": "9fd1b1c8231b0a9fc5474fc8b17856daa8be0454f1318f45cf401e24084800b8",
@@ -265,6 +335,20 @@
         "inputTokens": 281,
         "outputTokens": 193,
         "costUsd": 0.000316
+      }
+    },
+    "eaad7e7357227c51a8b0e8a22c17449dda04ab380c19edcae03f2f6d26b97309": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b79e08aff4f977ee47fcffa261989492617c9275abe274317d4585e499ecf12",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "你可以根据你的需要，按照之前的说明来自行增减或修改这些选项。如果 cmake 命令出错，往往是缺少依赖项或配置的生成选项不正确所致，可根据提示信息来检查。如果执行成功，就可以进行编译(进行Makefiles编译)了：",
+      "translatedText": "You can add, remove, or modify these options yourself as needed, following the previous instructions\\. If the cmake command fails, it is usually due to missing dependencies or incorrect generation options in the configuration; check based on the prompt information\\. If it succeeds, you can proceed to compilation (Makefiles compilation):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 69,
+        "costUsd": 0.000139
       }
     },
     "eab0c495ead1b6f7e00b39f4da3a16b53ffd4da2f354d7bbf72901fe0cf1d1fe": {
@@ -321,6 +405,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "eadbe0fd24503a48d58ac728d82e1932a78813399b02a8a3c99967383b0df13c": {
+      "normalizationVersion": 1,
+      "sourceHash": "118215345ac50b90174c2bcc74679f7a969c858f700af1513301c9581deb6e5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "使用STM32CubeMX生成工程，会默认开启FPU，如下图。",
+      "translatedText": "When using STM32CubeMX to generate a project, the FPU is enabled by default, as shown in the figure below\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 33,
+        "costUsd": 0.000084
       }
     },
     "eae93594011a90ecef0b8da4cf8e97f04e804195f5c3636c8cc98a8b0b9fbeca": {

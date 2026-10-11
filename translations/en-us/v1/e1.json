@@ -169,6 +169,20 @@
         "costUsd": 0.000056
       }
     },
+    "e17b8a424a8497c006116fd3d1ae235aacea4f86fffd4a9445e8949a772db85a": {
+      "normalizationVersion": 1,
+      "sourceHash": "86dbc7754bedf1c100ee482149c4afe51af77177d6be15f59a132562dcb95b2b",
+      "contextFingerprint": "ce18eed71c043a90d2165e00dc3760d663eeb4bc9593bfcd9814bc8d4c4b8aeb",
+      "sourceText": "| 生成 OpenCV 的主要依赖项 |\n|:---|\n| 名称 | apt package 名称 | 功能 |\n| 编译系统 | build-essential cmake cmake-gui pkg-config | 生成 OpenCV |\n| 图像库 | libpng-dev libjpeg-dev | 提供各类图像格式的编解码 |\n| OpenBLAS | libopenblas-dev | 利用 CPU 向量运算指令为大量算法提供加速。 |\n| Eigen3 | libeigen3-dev | 提供线性代数相关算法支持 |\n| Intel TBB | libtbb-dev | 在 Intel CPU 上提供高性能并发计算支持 |\n| FFMPEG | libavcodec-dev libavformat-dev libswscale-dev | 提供视频编解码能力 |\n| GStreamer | libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev | 提供流媒体处理能力 |\n| GTK | libgtk-3-dev libcanberra-gtk-module libcanberra-gtk3-module | 图形化用户界面 |\n| Video4Linux | libv4l-dev | Linux摄像头库 |",
+      "translatedText": "| Main dependencies for building OpenCV |\n|:---|\n| Name | apt package name | Function |\n| Build system | build-essential cmake cmake-gui pkg-config | Build OpenCV |\n| Image library | libpng-dev libjpeg-dev | Provides encoding and decoding for various image formats |\n| OpenBLAS | libopenblas-dev | Accelerates a large number of algorithms using CPU vector operation instructions\\. |\n| Eigen3 | libeigen3-dev | Provides support for linear algebra related algorithms |\n| Intel TBB | libtbb-dev | Provides high\\-performance parallel computing support on Intel CPUs |\n| FFMPEG | libavcodec-dev libavformat-dev libswscale-dev | Provides video encoding and decoding capabilities |\n| GStreamer | libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev | Provides streaming media processing capabilities |\n| GTK | libgtk-3-dev libcanberra-gtk-module libcanberra-gtk3-module | Graphical user interface |\n| Video4Linux | libv4l-dev | Linux camera library |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 423,
+        "outputTokens": 303,
+        "costUsd": 0.000491
+      }
+    },
     "e17dbcb7bf1e44ae6af3d21e8c302907efa0d26392a2f512e6943823e74f859f": {
       "normalizationVersion": 1,
       "sourceHash": "4869164c49d9308deb91beab9c5817ffbb324b66122f03d2910cef5f49932736",
@@ -225,6 +239,20 @@
         "costUsd": 0.000066
       }
     },
+    "e1a733aff580b0832272aa9608b6dceb4947ccbcd9e26b7afe0d3a0331651e3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "97f02f65da847aa7aad0b33c779f71b7e2e5c72064d43bca8c4b148f49c8e45b",
+      "contextFingerprint": "9a5dd0607f3d5197712717c420622f100febd03869c5dc3a28fb44c62e6f74b3",
+      "sourceText": "值得注意的是，mingw并不支持windows上的opencv_contrib编译，这在configure一开始就会提示",
+      "translatedText": "It is worth noting that mingw does not support opencv_contrib compilation on Windows, which will be indicated at the very beginning of configure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "e1b421ea115cfa13a68c558774156ad369f17661acb6b2d9d71b9df765750006": {
       "normalizationVersion": 1,
       "sourceHash": "766daa812d1e0eaec763afe70d43f8f5a645c83387a607f2df0a7b7a98b22d26",
@@ -279,6 +307,34 @@
         "inputTokens": 157,
         "outputTokens": 39,
         "costUsd": 0.000094
+      }
+    },
+    "e1e8435ff9293a1021996a0373fc2487a97270ec5be2b972c0f0494160720d52": {
+      "normalizationVersion": 1,
+      "sourceHash": "84d4e0f60005d86a505f174be5bf9cbf01e9b646aada3d376dcfd2ca60caf15c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后删除 C 标准相关设置。",
+      "translatedText": "Then delete the C standard\\-related settings\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "e1ff9b8a67bf736b4fec8981aa05878fdd6a184190adebe702ff93cabbf7a2c7": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb3ac92a4f03eed410da5d54c2389736e0bf7d1033d28d2eb080458446c94204",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果审查后需要继续修改，不需要重新创建PR。只需在同一个功能分支上继续提交并push，新的提交会自动加入当前PR。",
+      "translatedText": "If further modifications are needed after review, there is no need to recreate the PR\\. Simply continue committing and pushing on the same feature branch, and the new commits will automatically be added to the current PR\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 47,
+        "costUsd": 0.000105
       }
     }
   }

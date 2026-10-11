@@ -71,6 +71,20 @@
         "costUsd": 0.000063
       }
     },
+    "1b25def0d5a28599d22e3a19dc0fbcb87a8e822f5bbf21beaf873cbbb7446ffd": {
+      "normalizationVersion": 1,
+      "sourceHash": "8905c1b1d37da54f23c78f1c3bf935ef427e16beb2c3c92fa2d5ffd1a282df6d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "日常开发时，不需要每次都安装。编译后可以直接运行 build 目录里的程序：",
+      "translatedText": "During daily development, there is no need to install it every time\\. After compilation, you can directly run the program in the build directory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "1b2804801a1da159f37eba9d90168e2653ae01e5b0c9fd7ffe157bc911678ad0": {
       "normalizationVersion": 1,
       "sourceHash": "6cdf9b2bd7d854dd1fba8328277278c4a580987196d93fdf3dfbf92aad10301f",
@@ -155,6 +169,48 @@
         "costUsd": 0.000059
       }
     },
+    "1b6dfb6ec002abe7cb2255628e31ea44a9b19b46de3331b78278633f2ec46683": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ef0268b691ef8882e2ff5034589fe9a49b8ba1591eb2f76f9eb6052dae199be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "注意，这里是单向依赖：",
+      "translatedText": "Note that this is a unidirectional dependency:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "1b79386a3cb496687dbe9c88fb1cdef9d84da6693d9c6297d8fff652f183268d": {
+      "normalizationVersion": 1,
+      "sourceHash": "fbe55906606e1920188b2b6b8183b39bda069ff80c8fa645f66988af6fd210f3",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 模板目录结构",
+      "translatedText": "## Template directory structure",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "1ba77dcc9969831104f26ae025209753d2a123aced8e611adec23cf559102ea0": {
+      "normalizationVersion": 1,
+      "sourceHash": "37572aa817d6796879103b32fc75080bdd9e06acb0126781f80556aabdca445b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以可执行文件会从：",
+      "translatedText": "So the executable file will be from:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "1bbaffb0cdd039f0ac8e422274acbfb850c8b458d76486a4da7d9840d0247613": {
       "normalizationVersion": 1,
       "sourceHash": "68d8442c63fc57343d0397092c48b508c707a348b2f0aa1ca9b0f08a6c4b1f9e",
@@ -209,6 +265,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "1bcd619c1140f6843e37aba641f929d2696d7e8bbc2f30e2e865d0ed0375b6fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "09c76e7ece9dbffd0027117c8c3565d8ff93e96e979fd26a6145d43b3d6450aa",
+      "contextFingerprint": "b29812dc63993c3a8dd4d7680221981238688a42001d6a650eded8e3c7bda5c2",
+      "sourceText": "1.  CubeMX创建任务：\n\n    1.  各参数介绍(详看大疆手册)：\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image248.webp)\n\n    3.  一般选择什么参数？\n\n        1.  Task Name(任务名)：英文大写(与Entry Function对应)\n\n        2.  Priority(优先级)：一般选择普通优先级即可(除非有特殊的逻辑)\n\n        3.  Stack Size(栈空间）:128 Words即可\n\n        4.  Entry Function(入口函数名)：英文小写(与Task Name对应)\n\n        5.  Code Generation Option(代码生成选项)：无脑选择As weak(使FreeRTOS线程任务的入口函数以弱函数的形式生成)\n\n        6.  Parameter(参数)：一般NULL即可，如果要用一些特殊功能(比如信号量)，要填一些句柄(比如信号量的句柄)\n\n        7.  Allocation(份额)：无脑选Dynamic，让FreeRTOS动态分配管理即可",
+      "translatedText": "1.  CubeMX task creation:\n\n    1.  Introduction to each parameter (see the DJI manual for details):\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image248.webp)\n\n    3.  What parameters are generally selected?\n\n        1.  Task Name: uppercase English letters (corresponds to Entry Function)\n\n        2.  Priority: generally, the normal priority is sufficient (unless there is special logic)\n\n        3.  Stack Size: 128 Words is sufficient\n\n        4.  Entry Function: lowercase English letters (corresponds to Task Name)\n\n        5.  Code Generation Option: just select As weak (generates the FreeRTOS thread task entry function as a weak function)\n\n        6.  Parameter: generally NULL is sufficient; if some special features are to be used (such as a semaphore), some handles must be filled in (such as the semaphore handle)\n\n        7.  Allocation: just select Dynamic, and let FreeRTOS handle dynamic allocation and management",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 289,
+        "outputTokens": 169,
+        "costUsd": 0.00029
       }
     },
     "1bd764c9d033ead30c3c7215e68fac648dcf5ffc97d68213a5c4d9c5e6ab868d": {
@@ -273,6 +343,20 @@
       "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
       "sourceText": "## World4Drive — ICCV 2025",
       "translatedText": "## World4Drive — ICCV 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "1bfef938a01f938e5ad73795176cb8e4bb7179dcf429f5489e9e18179db0192c": {
+      "normalizationVersion": 1,
+      "sourceHash": "41c642f5eaa2cf76cc9fbc8863840b61d2434914b9399714ea8f36874ad21277",
+      "contextFingerprint": "3583e15d0d3013e704b00b46041f5af36f6edf7da55cbd9cfa98cc5c74b84ae6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image17.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image17.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

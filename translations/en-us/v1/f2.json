@@ -43,6 +43,20 @@
         "costUsd": 0.000059
       }
     },
+    "f230b920a59db682eb049309c2f78a6e2384ac606e1558d2252e484b6d5d3c1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "03180ffcd92dc4b63218c051e0a9e728b8610911625232386cc2da83c50528d1",
+      "contextFingerprint": "490e36b18bd4203b71f524f87cf962bb635b6b37ef43f7c57f4ed9db38fb8f39",
+      "sourceText": "#######   All_Device_Init 将所有设备的PID控制器进行初始化\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image229.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\#   All_Device_Init Initialize the PID controllers of all devices     ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image229.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "f2344ad09d9eb2b021804bb24796925b5ff305ac57d68f1f5548c863bb3633f5": {
       "normalizationVersion": 1,
       "sourceHash": "29e0edeb959d24f6e0860ae0ad081106f8c7ae21919308f879a50d6bf47f4056",
@@ -155,6 +169,20 @@
         "costUsd": 0.000058
       }
     },
+    "f27b2d8e46ab1895faf3d41f182baf28e1c49d08c235ccafb4a0cee264466031": {
+      "normalizationVersion": 1,
+      "sourceHash": "7682d6e4d23e38bb17bba4303de5a488d83dbe7eff99e551d40320342f535a7c",
+      "contextFingerprint": "e1590e9d82b89e04f526e93fef423c98e7853da7dfc9f0b824cce0bc2814e744",
+      "sourceText": "拿bsp_delay.cpp举例",
+      "translatedText": "Take bsp_delay.cpp as an example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "f2811b6bbfd7abe486491da1802eb13b3c945e6e014bbdb968fbbdf0fc9dbf35": {
       "normalizationVersion": 1,
       "sourceHash": "518ca1c5c9952d4045f8209aa42df0866e96566ffcfca172b0feb8987b380523",
@@ -195,6 +223,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "f291e355332aadc66077b50ab88a08f6556b083f7103995cc296e88da431b451": {
+      "normalizationVersion": 1,
+      "sourceHash": "c706c7f1c7170079d32bd4325a2f7ea9c9ec59a3e3c28269b6767626e077ee10",
+      "contextFingerprint": "ff9fb9e250596d371372c47ef98832c9678b4e30c0a9f2f61ee1d264611249a8",
+      "sourceText": "3.  PID算法库\n\n    1.  核心计算函数（非常成熟的控制器，数学算法）\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image207.webp)\n\n    3.  初始化代码(将Kp，Ki，Kd三个参数与输出最大值，积分限赋值赋值给PID句柄pid_v_1或者其他的句柄)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image208.webp)\n\n    5.  反馈环代码\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image209.webp)\n\n    7.  闭环代码调用\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image210.webp)",
+      "translatedText": "3.  PID algorithm library\n\n    1.  Core computation function (a very mature controller, mathematical algorithm)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image207.webp)\n\n    3.  Initialization code (assign the three parameters Kp, Ki, Kd, the output maximum value, and the integral limit to the PID handle pid_v_1 or other handles)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image208.webp)\n\n    5.  Feedback loop code\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image209.webp)\n\n    7.  Closed\\-loop code call\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image210.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 76,
+        "costUsd": 0.00015
       }
     },
     "f294fde6016dafccd06c14cfa14036fcec8017f52fb98e59e100de893c7a33d4": {
@@ -239,6 +281,20 @@
         "costUsd": 0.000071
       }
     },
+    "f2a95b58e54afa10102add7aa47f00d0734425f194ec47a5ba7701bfa95b90d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "815d6da2d0e2474d881f45de953239bd9943c95b4d49f846ff9436ccab1b24b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是全局默认值。",
+      "translatedText": "is the global default\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "f2adde4ed4e4a61cc1a99757a842d3cd08714ea869e46ca6cb00fabb820096bc": {
       "normalizationVersion": 1,
       "sourceHash": "26233067c9dcc73be2b81420c8740a8f305d3431b1cfaac8821be1ee96b46a77",
@@ -251,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "f2bfd390b3cacc234ec977b167303b93043436883fed228cb09146c997786cda": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bbb5bc11a796f9266f36bbf16130b7f14c11ab51f4a0faf941b23f060ced241",
+      "contextFingerprint": "8b539d9738b33fa37ce0c71ebc9c632a76011ec0268aa9c9a73d2f32239b5df2",
+      "sourceText": "2.  手动改编码(点右下角的UTF-8，推荐用下方的插件解决，比手改便捷)：",
+      "translatedText": "2.  Manually change the encoding (click the UTF-8 in the bottom right corner; it is recommended to use the plugin below to solve this, which is more convenient than manual changes):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 51,
+        "costUsd": 0.000109
       }
     },
     "f2ce943c8ee180ddb0e4dce9bd4af245738bd2ca8ce71c0998936d3eab4090fa": {
@@ -279,6 +349,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "f2dea277f2ab062aaaddcc187ba8c4ac035884cfe26eca60baaa6b84d3dabe0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "53f5bf01c809ec9327c9715fff7c229219acce3f1bfffbf8d808b6b85e4903c3",
+      "contextFingerprint": "b8fd8ab231fcbcb722199025c62e326f55e2dd4b64bacdf611c066c420ccf7b9",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image22.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image22.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "f2e20063b11bf8f87342bfd4a8b61be7a3aebb1cf16bd2414cb08de2ab1c82a5": {

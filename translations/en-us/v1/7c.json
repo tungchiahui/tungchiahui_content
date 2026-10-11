@@ -57,6 +57,20 @@
         "costUsd": 0.00006
       }
     },
+    "7c1e95633bd0dcacd5452c833355b4a0d6c279915a5f192e7bc9d2dfb9933931": {
+      "normalizationVersion": 1,
+      "sourceHash": "145f039b16bb10b9cb04cb224eb0874f282120d3fc3bb6794d73a6d56efdc02c",
+      "contextFingerprint": "201d70364298d41f994449a98045eeb05f306f90d80174d6057090746b11a9be",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image170.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image170.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "7c2102a79e81a71ca12178adff2e67b653faac9ed6ab1a1c2237d8cf9a1e1cf2": {
       "normalizationVersion": 1,
       "sourceHash": "13ef09addadc42fb0dbd9c4290e8d919c17220514b3b583bd682518f807b2fe9",
@@ -113,6 +127,48 @@
         "costUsd": 0.000056
       }
     },
+    "7c31b99f624937708a1c472c5b366de8765a3f01662a4cba6df7c83ed2f2ef7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e2fba9a2651e598a0f06ac129fc364df2687282c508f96c75842740ad9b0691",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### cmake -jx编译遇到operator!=或权重weight相关问题",
+      "translatedText": "##### cmake \\-jx compilation encounters operator\\!= or weight\\-related issues",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "7c3c050d9562285c3af7e14ff8aa55a9566095eeaa3d667533087e4313f1a465": {
+      "normalizationVersion": 1,
+      "sourceHash": "0effcc8ce29ab7e8c102d547497251067f248e760a34a319e819cc07368be6ec",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以下是一个总示例：",
+      "translatedText": "The following is a general example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "7c4c35117096734e66e906252fcb8fe59c80fd3081dc80645895040121f91de6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e70329c611276138d35a5687920a6ac0ffb62795d3d402bfb03a17ae0c20a5c8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "给某个 target 添加宏：",
+      "translatedText": "Add a macro to a certain target:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "7c4ca1363aace23832561a2ad08c60c793839df54d2349a74cf5e37f8d3f5b4b": {
       "normalizationVersion": 1,
       "sourceHash": "f7afc4a15973e10f1bec7e0d24e9c768a6f217e769fae9a236df99ddaae07412",
@@ -125,6 +181,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "7c4fa1ce25074897b4c7bb0de57c4243ac48485e8f9997eae59f31ee55409eb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "389716a8807f126cc4b90beed95ba12ea68a24ead55138f25ba85d8a28e353b0",
+      "contextFingerprint": "4e1eef2a815bf5d3dec5e51a17012718fc074c830aed21da0bb5691d6168c40e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image41.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image41.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7c5dd3d67e60499e97c729b6c245aaa210d54070c0761ee75e1b179538e9387f": {
@@ -155,6 +225,20 @@
         "costUsd": 0.000055
       }
     },
+    "7c71dce81fcf72d791b250e44b6ca4cc3a9033a172e581311f08d703f753e91e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b822c5bf0410c871a41b6262948bee3d898822367a6d21c72728f3853de5a308",
+      "contextFingerprint": "1f7f49486a3df32c459d1f8b810b50ac0306466d5c84ecbf6a05831f774b2867",
+      "sourceText": "| 分类 | Linux 常见产物 | 目录 |\n|:---|:---|:---|\n| `LIBRARY` | `.so` 动态库 | `${CMAKE_INSTALL_LIBDIR}` |\n| `ARCHIVE` | `.a` 静态库 | `${CMAKE_INSTALL_LIBDIR}` |\n| `RUNTIME` | 可执行文件 | `${CMAKE_INSTALL_BINDIR}` |",
+      "translatedText": "| Classification | Common Linux artifacts | Directory |\n|:---|:---|:---|\n| `LIBRARY` | `.so` Dynamic library | `${CMAKE_INSTALL_LIBDIR}` |\n| `ARCHIVE` | `.a` Static library | `${CMAKE_INSTALL_LIBDIR}` |\n| `RUNTIME` | Executable file | `${CMAKE_INSTALL_BINDIR}` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 24,
+        "costUsd": 0.000074
+      }
+    },
     "7c736b75afb48c546d049c7d0719333ecde57a6eb136bb1545f4546792c40cbe": {
       "normalizationVersion": 1,
       "sourceHash": "35e3378b9cbe02f366e39a073b0de24f3d9acc93ae2727ee78465393a5338676",
@@ -167,6 +251,20 @@
         "inputTokens": 153,
         "outputTokens": 34,
         "costUsd": 0.000087
+      }
+    },
+    "7c75c82dd3d2a36451bba6b1179268a96dd49bc63de60ff49bb9292a75763004": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc14dbe72ecb8cf632d3edc507341ff9d1d20102e2ca05109a1bc6d800e87fd5",
+      "contextFingerprint": "871d7c3ed2580c698e2a286592beadb7177805abe5cf7d80dee27dc65d91a03f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/1787064461783-99e8dd17.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/1787064461783-99e8dd17.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7c79577e664ddb27ef4b9f66c985b4957c173eb8a6e624ed9df27a574cfac417": {
@@ -239,6 +337,34 @@
         "costUsd": 0.000068
       }
     },
+    "7c99f405346ec4cd084b9e4df0f61ab5c5bdf0b33df58ce49e0d2f6bfa2a48f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "04ed1071ac922785c8808628c20c490648cf8b83634444ad3d79df28ca28f478",
+      "contextFingerprint": "862ca97270971d42a9afd52207936a6a379e9388d6101fd1947b040c4f6cc749",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image89.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image89.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7ca09f5510bc51ee6bd0091371b88c6a80f3ba0b46c96bc50bfc2e9858e3ffe0": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c34cf8e7aa2600820b8321e9c06877d1b816d28fdc5c42343ec554879afa5dc",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 安装并使能DSP库：",
+      "translatedText": "##### Install and enable the DSP library:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "7ca41ea5d3dcc9f569ebd0b036227635053f7698e11d94f6a7e4a398c7dc4bb1": {
       "normalizationVersion": 1,
       "sourceHash": "a85c09b9ba919c43b668aac6a13d95756a0ca1f0eba78353bb4d490de9935e8f",
@@ -251,6 +377,20 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "7cad828cebec79bc356cbb0573883c35975b8651a27828715e25ba8278e16d17": {
+      "normalizationVersion": 1,
+      "sourceHash": "70b1dab8c2494b576f5bf80771b2004a9b2cb870662208e06a269ae3be13a87e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这不是错误，而是系统惯例。",
+      "translatedText": "This is not an error, but rather a system convention\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "7cb2360d68b0c1903dedd7e3a17b120cb38ecff8f184317154ae5c4dc394a8bb": {
@@ -351,6 +491,20 @@
         "costUsd": 0.000059
       }
     },
+    "7ce1d356c3916b6ecdd04fb4a516952f8bbe67ae533ef3d9fc11981e938f6f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a3f1b8511bc774537c730e988b6d46ae6394b30f683503ee64d784f49bc7a3e",
+      "contextFingerprint": "52a5e2448b03926e7de1aa358bbe0affaae7277385632059a39003dd8644aed5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image16.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image16.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "7ce75ed9b6e8e152455efb19243e280a93083db6a01a7856c3ad3eef8e139584": {
       "normalizationVersion": 1,
       "sourceHash": "b539041535622f04978b6d646416f1578785ee6600e07fec438530efba57640b",
@@ -377,6 +531,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "7cee9610e437f0a66cc273d68eacf9063d34e53caa5402a2d491b4e7d08e8367": {
+      "normalizationVersion": 1,
+      "sourceHash": "28be1127ef6919775ab9f5a2227e5d5c58868fd6fb27580849d37a5383bc5cd6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### ①使用CubeMX配置时钟的步骤",
+      "translatedText": "#### ①Steps for configuring the clock using CubeMX",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "7cf39ed2513ce5f8983559b192a73b00ee8dce63296a6a08fad4298e7b2a610f": {

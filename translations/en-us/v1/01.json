@@ -183,6 +183,20 @@
         "costUsd": 0.000054
       }
     },
+    "01696b40953e295fc57057924719a7c9921c4eecb93fd9810e689ac5460bd34a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f59f451201e0b6da12097ab9d1b9d6f39daf6bbc429e6b24e415191d81a41f73",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用指令介绍",
+      "translatedText": "### Introduction to Common Commands",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "01724df611e00a88cd0ac719be3da410899b404b32cd4c0d0d904b70cb2df1ec": {
       "normalizationVersion": 1,
       "sourceHash": "d2e3aeeec346c794cc777291725b069ced434452274db2fbf8e0602b00f3fdf4",
@@ -239,6 +253,20 @@
         "costUsd": 0.000054
       }
     },
+    "0184f92a44c4ce8a41046efbd9037710ed4d74a3336e1a01b2dec81104207a80": {
+      "normalizationVersion": 1,
+      "sourceHash": "143b1f32fc386e1e351f5f3e6a2de9de8057226cf614f8a0c17227afb82913e9",
+      "contextFingerprint": "1a89ac7d8d06794a65d296280464d0a86a391e62d3919f4d5956301fa857507c",
+      "sourceText": "作用：生成 `compile_commands.json`。",
+      "translatedText": "Function: Generate `compile_commands.json`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "019284c1d0e02069208c9dfca4f006082d866dd43d430577bf976f04368f0b82": {
       "normalizationVersion": 1,
       "sourceHash": "7537cda7624ba23dc6de2ae5f4aff2a8c050c054f11e047a2600026c2fd95e54",
@@ -279,6 +307,20 @@
         "inputTokens": 138,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "01c1ff2bd3b837a196607f6822d5cb5a16ddb20cc78c16a2dc85fbce3621cfc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc72b6f8f9b06bd32c25bba2f9c88edd8908507a75efd4d0971d4c21db191898",
+      "contextFingerprint": "aa463aad516db132dae011c61dab6f1badc3228fa3f2a7767a9b8684c84c8599",
+      "sourceText": "| 类型 | 对应产物 | 常用安装目录 |\n|:---|:---|:---|\n| `RUNTIME` | 可执行文件，Windows DLL | `${CMAKE_INSTALL_BINDIR}` |\n| `LIBRARY` | Linux 动态库 `.so` | `${CMAKE_INSTALL_LIBDIR}` |\n| `ARCHIVE` | 静态库 `.a` | `${CMAKE_INSTALL_LIBDIR}` |",
+      "translatedText": "| Type | Corresponding Artifact | Common Installation Directory |\n|:---|:---|:---|\n| `RUNTIME` | Executable, Windows DLL | `${CMAKE_INSTALL_BINDIR}` |\n| `LIBRARY` | Linux Shared Library`.so` | `${CMAKE_INSTALL_LIBDIR}` |\n| `ARCHIVE` | Static Library`.a` | `${CMAKE_INSTALL_LIBDIR}` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
       }
     },
     "01cd1edb173110452303778e38285edd63584e5556fc412a087133706ef07e35": {

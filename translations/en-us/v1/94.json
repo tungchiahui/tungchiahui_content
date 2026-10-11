@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "940886762749c54bc3ed2a5961eb10e0900f5dab20033d9f55a39629012a9bdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a2b83b133f693f6abd54937fc6c738ad1c268f862ddcf9e1d8b2142b68ccf15",
+      "contextFingerprint": "4b060d36e60b75982cc29364c436141b8f59aa8c6a6317b084fabfeecf07b275",
+      "sourceText": "can_receive.cpp里是CANRX0接收中断回调函数的实现，该回调函数里用了一些电机信息数据处理函数，然后还有CAN的4个发送函数。",
+      "translatedText": "can_receive.cpp contains the implementation of the CANRX0 receive interrupt callback function\\. This callback function uses some motor information data processing functions, and also includes the 4 CAN transmit functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 50,
+        "costUsd": 0.000111
+      }
+    },
     "940fff3a5ca6de4fc8b1be25b91ca51b8cf0540ae171a43c463e174e23925d00": {
       "normalizationVersion": 1,
       "sourceHash": "c57f0ab834fe182898a6ce309decf8517d10468b57a0fddfc36a8d99d3d40c89",
@@ -13,6 +27,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "94101e7173a2c30966ec91ad32e845b40069f082ce85d3cae7d98e274835d5d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1b847bdc5f6b423e0b6764180facc86ebb2a8c667284740688b8ccc4d3fdc65",
+      "contextFingerprint": "ad71e02dcaf3f574947a44181bc186b1518e96dbb9ccc557508d296202798822",
+      "sourceText": "`$(grep -c ^processor /proc/cpuinfo)`变量为CPU线程的数量。(这样可以使CPU全力多线程进行编译)",
+      "translatedText": "`$(grep -c ^processor /proc/cpuinfo)`The variable is the number of CPU threads\\. (This allows the CPU to compile with full multithreading\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 29,
+        "costUsd": 0.000078
       }
     },
     "9416f4892a4380035799d9f99c361f48bb26f47fda0d97bf03b9289d568a19ea": {
@@ -57,6 +85,20 @@
         "costUsd": 0.000534
       }
     },
+    "94422b2f0d818314bb5bc70f3a7a61323cce634821ac340c9d27187194e17902": {
+      "normalizationVersion": 1,
+      "sourceHash": "6fb17372509df0b21d6adb4d2135e85e943c54994fe09da9b269e5660cbd3599",
+      "contextFingerprint": "88b03e4c5ec7ff6ed3bfabad07259dbc7db490406c1ff7a349addc455bedf4f9",
+      "sourceText": "而 `PROJECT_NAME` 来自顶层：",
+      "translatedText": "and `PROJECT_NAME` comes from the top level:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "944fbf04d8ebbee15f6c958515d3cd21983c9d59666ab430da94b7e7e9ca3278": {
       "normalizationVersion": 1,
       "sourceHash": "37abbf8b5934be437a121268a94e91dde03b6394000f297665c0a1446a53204c",
@@ -83,6 +125,34 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "945076e7d025e6eed9c3fd4ea774c2d79986b5ec9f6e6143d7afc0d3948b42a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "82b96435b9383426cc58a794f569a453fc43493db289ae378df51335cfb7f02b",
+      "contextFingerprint": "3b8292f05b08025297f211b4a01d7a4e1edfda542b7d0344af2afa75b2360a44",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image19.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image19.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9456b750ffcb7f06e688613571b9beb2feba7a1cb5818fa8b60687195ffbaa1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "86c933ac01733ae3b1dc844e5d94715bcf7a424dc16e587749873fe2647e8f91",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 开启FPU",
+      "translatedText": "#### Enable FPU",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "94574749c53cca6b39de15ac31961818f13e442ec49326e0d2a3ee3e01e591fe": {
@@ -239,6 +309,20 @@
         "costUsd": 0.000051
       }
     },
+    "94a6ab13d07e50db8f9ead3e783dec4a096b5d41c49fd766807911cc47a987b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "7167db525ac974a9bf52381abbb4cc35f6b266ec16a9106802062ec46ab6328b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### CMake 写法",
+      "translatedText": "### CMake syntax",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "94ad2960b14a915b097f123870ddf23da7ca17858a57c1f2172f94821f481766": {
       "normalizationVersion": 1,
       "sourceHash": "7d508af94b7b4b0a48b9047cd05c0560cb6560e48e8f007a248f42697ccaa233",
@@ -265,6 +349,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "94be75319d4886b2f52fe67db8b28f42d4ac8bed19cf2f17b8aac3fbb4f8a798": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bcd25f147a9629e4f690c9e0c9a39926eac0908ec1e27a2d4f3052614bf4309",
+      "contextFingerprint": "e8987bd2bfeba54ba2ba8462a3330b17b0ed3f5da949881be509adbdcb48dae7",
+      "sourceText": "实际项目中，建议把所有 `add_subdirectory` 放在一起，所有主程序链接库也放在一起，文件会更清楚。",
+      "translatedText": "In actual projects, it is recommended to put all `add_subdirectory` together, and also put all main program link libraries together, so the file will be clearer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
       }
     },
     "94c42c9ed4973125a1bec06c93dd0b809bf4fd622a088399da57bd1d09537ddc": {
@@ -321,6 +419,34 @@
         "inputTokens": 166,
         "outputTokens": 48,
         "costUsd": 0.000108
+      }
+    },
+    "94d8fde8769cc7eb2e8032f3e2840b6551bb794e26aa0bae549aa24bb86d6897": {
+      "normalizationVersion": 1,
+      "sourceHash": "eba21d886ed4634d2a9b56f6c1a9fd73bebfc39e7d49bb6cec4ce6c3765966b1",
+      "contextFingerprint": "377db5ea50315e58bf425d026c4d5701a1fe9a7cdbf5281d6be7035f02073c16",
+      "sourceText": "*如果A>B，Err为正，就往水缸里面加水；如果A<B，Err为负，就从水缸里面舀水出来。那么只要预期水平面和实际水平面有差值，我们都会通过水桶去加减水来调整系统。同时Kp的大小也有对系统的性能有影响。如果Kp的值比较大，优点是从B平面达到A平面的速度快，缺点是在B平面已经接近A平面的时候系统会产生比较大的震荡。如果Kp的值比较小，优点是B平面在接近A平面的时候系统震荡小，缺点是从B平面达到A平面的速度慢。*",
+      "translatedText": "*If A\\>B, Err is positive, and water is added to the tank; if A\\<B, Err is negative, and water is scooped out of the tank\\. Therefore, as long as there is a difference between the expected water level and the actual water level, we will adjust the system by adding or removing water through the bucket\\. At the same time, the value of Kp also affects the system's performance\\. If the value of Kp is relatively large, the advantage is that the speed from plane B to plane A is fast, but the disadvantage is that when plane B is already close to plane A, the system will produce relatively large oscillations\\. If the value of Kp is relatively small, the advantage is that the system oscillates little when plane B is close to plane A, but the disadvantage is that the speed from plane B to plane A is slow\\.*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 253,
+        "outputTokens": 185,
+        "costUsd": 0.000298
+      }
+    },
+    "94db3fa4edd3689c57a22d31c18143996f6eabbe3285f21c16c18837073b01c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "043e069a87a6ed3ee152c314efd8382905933d4fb14bdfc9b944ed4ce9bebb9f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "推荐流程：",
+      "translatedText": "Recommended process:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "94e2b70f8c54a7f93dc40a6cf9a1b85b8f33eff099e75626bdcd9c846f1e2539": {

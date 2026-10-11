@@ -43,6 +43,34 @@
         "costUsd": 0.000052
       }
     },
+    "7a2dbcb1c444c6451cf086d71a08371c946af0159ef133e81eaa98c559f5d986": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ea71863846d683eaca88793e107ceb983ea082385ca264fa6564bef277305b1",
+      "contextFingerprint": "daa67bbdb353268fc1334ed5560d834cb15b4fec77bf475c832813ee8b09e1dc",
+      "sourceText": "然后第35行的extern BSP_Delay bsp_delay;是在主函数中进行了创建对象bsp_delay，我们要在这里声明(extern)一下对象(变量)。方便其他的源文件调用。",
+      "translatedText": "Then, at line 35, extern BSP_Delay bsp_delay; an object bsp_delay is created in the main function, and we need to declare (extern) the object (variable) here so that other source files can call it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 77,
+        "costUsd": 0.00015
+      }
+    },
+    "7a2de66db388fcbb139edccfe771fc45825052684f2655a94e3bc2e63601c402": {
+      "normalizationVersion": 1,
+      "sourceHash": "e05e22758422db15624076b94d175909ef7aafcac0e31e65fdec1eaf02266192",
+      "contextFingerprint": "9e0f1eaed0bd5bec4b21ade9ed4126ac9bcfa2b3b5fc4dd509f5c5fc7af8b64f",
+      "sourceText": "[CAN总线](https://so.csdn.net/so/search?q=CAN%E6%80%BB%E7%BA%BF&spm=1001.2101.3001.7020)通信系统是**串行通信**的一种，要优于串口[RS485](https://so.csdn.net/so/search?q=RS485&spm=1001.2101.3001.7020)总线。与I2C、SPI等具有时钟信号的同步通讯方式不同，CAN通讯并不是以时钟信号来进行同步的，它是一种**异步****半双工**通讯。（差分信号，半双工）",
+      "translatedText": "[CAN bus](https://so.csdn.net/so/search?q=CAN%E6%80%BB%E7%BA%BF&spm=1001.2101.3001.7020)The communication system is**a type of serial communication**and is superior to the serial port[RS485](https://so.csdn.net/so/search?q=RS485&spm=1001.2101.3001.7020)bus\\. Unlike synchronous communication methods such as I2C and SPI that have a clock signal, CAN communication is not synchronized by a clock signal; it is a type of**asynchronous \\*\\*\\*\\* half\\-duplex**communication\\. (Differential signal, half\\-duplex)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 85,
+        "costUsd": 0.000161
+      }
+    },
     "7a342178daa73e082b61d4051b1fb2ffd573f7c42dcad1c7dbae67aad19214d0": {
       "normalizationVersion": 1,
       "sourceHash": "71c21ff67a82805030893f271eb6d24c08f27e756a100496c15d9c078e8ba5bf",
@@ -127,6 +155,20 @@
         "costUsd": 0.000059
       }
     },
+    "7a523d0e33c38d2c4f58065cde32d8564aaf99186a1824fcee0c6171a8490fd2": {
+      "normalizationVersion": 1,
+      "sourceHash": "ace2880027c3b7609c28159aacb35b77f951396b62858bbbfcb32e379f470ccc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个条件编译不用管，因为延时在裸机开发和RTOS开发时有区别，所以我加了一行条件编译。",
+      "translatedText": "You can ignore this conditional compilation, because there is a difference in delays between bare\\-metal development and RTOS development, so I added a line of conditional compilation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 38,
+        "costUsd": 0.000092
+      }
+    },
     "7a53b2083f0227ba98683aa28cca1fd6e8a72def019306760082eac66b8fba85": {
       "normalizationVersion": 1,
       "sourceHash": "e3ae30d5c1ae595fbf4a230903d6137edf10ba2df70abd80acea6f1b83222fcc",
@@ -139,6 +181,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "7a5528405efd5bd0c9ef0c07125dad85a575a97cb3ad12781b1c31af9991fb23": {
+      "normalizationVersion": 1,
+      "sourceHash": "1aa0e4361beb53ee00845773e02dbb44df2742ed62167869c311943b9736deeb",
+      "contextFingerprint": "18e120855246ab02466b15b2cc905bfc93cd88cc40d24141658cc5c0a0f7dd21",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image120.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image120.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "7a57a804503343c1df85a33d76064a1e9e731127a74a1d39f21324dbd4278a1e": {
@@ -197,6 +253,20 @@
         "costUsd": 0.000156
       }
     },
+    "7a86ff903e55e561d22c5c4cb3fd5543b1f601f7cf2b36c1bc0a2a59e062cfb9": {
+      "normalizationVersion": 1,
+      "sourceHash": "47488b3711fe7e9da744b1452aed755553a4f03a5ab41313a71e888a01fd7450",
+      "contextFingerprint": "3264c7069e5fc68f8ab14413164d9132e7fe1f79fd4985af41aa0a634a88e1a3",
+      "sourceText": "然后在 `src/lib1/src/eigen3_test.cpp` 中，`lib1` 再调用 `lib2`：",
+      "translatedText": "Then in `src/lib1/src/eigen3_test.cpp` , `lib1` call `lib2`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "7a99fcce1b08aa99c4285236cfcf4f5dbf50204d39068862489ea1d162aaf209": {
       "normalizationVersion": 1,
       "sourceHash": "daa60a7ccffcb8f0562f58765418b5c89e4860a02863a03e0d2f1633beeeb09f",
@@ -209,6 +279,20 @@
         "inputTokens": 173,
         "outputTokens": 56,
         "costUsd": 0.00012
+      }
+    },
+    "7aa054ed1cbca932641cc7d392b769766b767cf00753ef5848c5ca5f73911187": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f2c72ce6ef30502a5607e21b5f56db9b0c9c4344894ad43cd279aabb1a64385",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本节讲三个层次：",
+      "translatedText": "This section covers three levels:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "7aa08f819595e14f647afb105eec86529752f2936d313959285a4df5f597e321": {
@@ -279,6 +363,20 @@
         "inputTokens": 133,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "7ac488054ac5a5825ed06d88ebae574d8628830d04a33fbc07329ea0daa28189": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b87e459fb92b9d27f07f1c0a079d490695517912a3d41192b054c3aacf1394d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后使能DSP库",
+      "translatedText": "Then enable the DSP library",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "7acc863aae796a1e541822b1966112c09ed00a68aa03756a6701367f643b066b": {

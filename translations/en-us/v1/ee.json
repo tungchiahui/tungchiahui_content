@@ -15,6 +15,20 @@
         "costUsd": 0.000065
       }
     },
+    "ee04acd969a88512ce4cea3087f2fb728fef4941dba7dd75b674325600a783b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c001c78656cdf5e3409518e519732ea488d2ba63d943c9af0235dd418c13678",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  找到Msp初始化弱函数（看TIM的基句柄得知是哪个TIMx）",
+      "translatedText": "2.  Find the MSP initialization weak function (determine which TIMx it is from TIM's base handle)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "ee09fd9f493ee8afe74721b7dc72142c8c91c0c5c0521cb904ca82878b774dc3": {
       "normalizationVersion": 1,
       "sourceHash": "a808647f4336307c082859d7ab802f45f4cf135e24c431bc57d403aa8344ae17",
@@ -29,6 +43,20 @@
         "costUsd": 0
       }
     },
+    "ee0eb8e9a2c8641bb468d341a6f0e8acfe43dcf6d6359b0c4ea1dee3d82de0b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "e074e3f0711d33c3130a0059160ac505f9dc53146739ee1e96db2c7ccb197c62",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 环境准备",
+      "translatedText": "### Environment Preparation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "ee0fc096eb57b48c10d2aea6626030aed4600a4f1e09319ed611cfb9a5636f8c": {
       "normalizationVersion": 1,
       "sourceHash": "2d15e60b885b84246a5d42f4bbf550f466c1b01188a05b8e46a5a1f80aa104cf",
@@ -41,6 +69,34 @@
         "inputTokens": 144,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "ee1dedbeb8509fd4dd8c5a9a7fb0a24ba73990525e183e2c7bd50af2a2d4dae7": {
+      "normalizationVersion": 1,
+      "sourceHash": "c07c28abc722aa6978ffea08b9319f2fe96ad7766f679c7b991a74d93cb555c0",
+      "contextFingerprint": "e7d4bef3689cb37295fe372847ce4b6064c9c1d2444c1f3a425c021b6bd08067",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image1.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image1.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "ee2440afaaae828cf252af1fb2fb4fbf2681f30dc983544c9039d40884c9e616": {
+      "normalizationVersion": 1,
+      "sourceHash": "476b25d3dd8f0c370699ec113f67cbc82f6d6ffa652204185ce16b32230972c0",
+      "contextFingerprint": "6a36a1d9aed50268c9bdcd0a439da6c80117c0d1dcb1994ea1337fa235dff1e0",
+      "sourceText": "| 写法 | 说明 |\n|:---|:---|\n| `\"$ORIGIN/../${CMAKE_INSTALL_LIBDIR}\"` | 推荐，安装后相对查找库 |\n| `\"/usr/local/lib\"` | 写死系统路径，不适合模板 |\n| `\"\"` | 不设置 RPATH，需要依赖系统库路径或 `LD_LIBRARY_PATH` |",
+      "translatedText": "| Approach | Description |\n|:---|:---|\n| `\"$ORIGIN/../${CMAKE_INSTALL_LIBDIR}\"` | Recommended, after installation use relative library search |\n| `\"/usr/local/lib\"` | Hardcoded system paths, not suitable for templates |\n| `\"\"` | Do not set RPATH; requires relying on system library paths or `LD_LIBRARY_PATH` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 45,
+        "costUsd": 0.000102
       }
     },
     "ee27398808db25a14b8ee2aa4b3d7f9e33b92cb4773960d92d5ef2744cf55672": {
@@ -155,6 +211,20 @@
         "costUsd": 0.000065
       }
     },
+    "ee5e10d8fa43ed1c7933c278938eb39c1aabb466eb308ca67ec49f486f83d7ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "226d02502c3df9211fd85ee749afe904f518c0c64169392b576025d6ee475be6",
+      "contextFingerprint": "15da1a431fc3bbc2b50381467b5c4c9a3f9719feb53637fa2efa1a6e6bd193e1",
+      "sourceText": "1.  打开CMake-GUI：",
+      "translatedText": "1.  Open CMake-GUI:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "ee605a17580b1d17a5942d8f02f262b04c1aab7439e85a436835690cee9a2279": {
       "normalizationVersion": 1,
       "sourceHash": "53856d5e0de4278f4ccf58858b66251123de92714b07a13183172f26cbe5da30",
@@ -167,6 +237,20 @@
         "inputTokens": 145,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "ee6b1fab0afbaa98471b75f54e79c8ecac6d08cbf8a3671721746581e24995c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "8891a1551a17d762f6e1efc3e374f3821aac076618a34fe639f4556fdfd0a8c1",
+      "contextFingerprint": "2f9e1aabc04f4eb438ca194442b3eb6c17598fa71ca17a86834a4881e71e362c",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image79.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image79.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ee6b9ba51236e65fa787171b7899c5a935b871ab641e180b910c18b86a1b5729": {
@@ -183,6 +267,20 @@
         "costUsd": 0.000072
       }
     },
+    "ee6f7c6c450150179f1daffb193a652bd2a40acf044dd01723db21d943d961d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "1893f2654ff6c5300636b4767a49754fdd583cf1b68ab7517e9b475d7ef8121e",
+      "contextFingerprint": "6710847655fb09f17232c03b60af6b23f6942af6e30be6dd739cb55d052376a1",
+      "sourceText": "** 建议使用Kubuntu 24.04 LTS **\n** 建议学习 ROS2 Jazzy 版本，本教程将基于ROS2 Jazzy **",
+      "translatedText": "\\*\\* Kubuntu 24\\.04 LTS is recommended \\*\\* \\*\\* It is recommended to learn the ROS2 Jazzy version; this tutorial will be based on ROS2 Jazzy \\*\\*",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 63,
+        "costUsd": 0.000131
+      }
+    },
     "ee741671cc87c188837112049bd0f57426c3e61ebdba87abde01de480670d6af": {
       "normalizationVersion": 1,
       "sourceHash": "602402b8a69f5bc7579a23f84ffbe87e3dcc6578227d2a128f26e267416b771e",
@@ -195,6 +293,20 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "ee7472fa7031d1d297de1be23a9ce178d1a05c45312555799f7d9a2bd7f3d1fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "38f213f17a8479a29149ab3950390d8cf1e19f39d19358d6236a9b7bb144e39e",
+      "contextFingerprint": "5f5794f286e483343af307d8a86ff806b8c97c9ef64d4e344832f2c3f6fbde70",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image30.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image30.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ee90f8037b066714ba1ce78b75986844b95da0671334a950cc30d5cc3dd1ecad": {
@@ -321,6 +433,20 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "eed17bcaabe144ec43cd294736592f96d53f5e700f34f047545238819c168b83": {
+      "normalizationVersion": 1,
+      "sourceHash": "d18ca5a4479d565ab4fa80f632c9a11d7c6c33950568a6732b9740d7a993cdff",
+      "contextFingerprint": "5a3db4117283af29e564268cff473ea9700176576f950647aa49f6861f8ed20f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image36.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image36.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "eee8727a5917a36eedbb48011fb3ab72e94ad8200dd0051e38bb3f5a86af2eaf": {

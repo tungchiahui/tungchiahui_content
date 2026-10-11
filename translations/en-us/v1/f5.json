@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f503981718f96df3acf9dbbac03ba79cd830f3a90dc159383815e680cb2a6768": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a1390453ca508d46f0f6b96403a392063cdc96667a281808281a8d1e658947e",
+      "contextFingerprint": "5e07294748d1520fae548ffc4e60997be3363954a4c77ea6f852d3e37adca98a",
+      "sourceText": "4.  构建ROS2\n\n    1.  获取ROS2源码\n\n      找一个要存放ROS2的文件夹,建议在/home分区找,然后在这个文件夹下打开终端.\n\n    ```cmake\n    mkdir -p ./ros2_jazzy/src\n    cd ./ros2_jazzy\n    vcs import --input https://raw.githubusercontent.com/ros2/ros2/jazzy/ros2.repos src\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image32.webp)\n\n    5.  更新系统\n\n      ROS 2 软件包构建在经常更新的 红帽系 系统上。始终建议您在安装新软件包之前确保您的系统是最新的。\n\n    ```cmake\n    sudo dnf upgrade\n    ```\n    8.  初始化并更换rosdep源\n\n    https://mirrors.bfsu.edu.cn/help/rosdistro/\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image33.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image34.webp)\n\n    ```cmake\n\n    # 手动模拟 rosdep init\n    sudo mkdir -p /etc/ros/rosdep/sources.list.d/\n    sudo curl -o /etc/ros/rosdep/sources.list.d/20-default.list -L https://mirrors.bfsu.edu.cn/github-raw/ros/rosdistro/master/rosdep/sources.list.d/20-default.list\n\n    # 加入环境\n    echo 'export ROSDISTRO_INDEX_URL=https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml' >> ~/.bashrc\n\n    # 加载.bashrc\n    source ~/.bashrc\n\n    # 更新rosdep\n    rosdep update\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image35.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image36.webp)\n\n    15.  通过rosdep安装依赖\n\n    ```cmake\n    export ROS_PYTHON_VERSION=3\n\n    rosdep install --from-paths src --ignore-src -y --skip-keys \"fastcdr rti-connext-dds-6.0.1 urdfdom_headers\"\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image37.webp)\n\n      如果出现上面这种错误,使用pip3安装包.\n\n    ```cmake\n    sudo pip3 install flake8-docstrings\n    ```\n\n      然后,使用下面命令忽略掉`flake8-docstrings`.\n\n    ```cmake\n    rosdep install --from-paths src --ignore-src -y \\\n    --skip-keys \"fastcdr rti-connext-dds-6.0.1 urdfdom_headers python3-flake8-docstrings\"\n    ```\n\n      显示成功即可\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image38.webp)\n\n    24.  配置环境(不是红帽系的发行版不用弄)\n\n      如果你是红帽系系统需要下面配置\n\n      可以用下面这些命令暂时定义这些宏。\n\n    ```bash\n    export RPM_PACKAGE_NAME=qt_gui_cpp   # 根据包名调整（如 ros_<package>）\n    export RPM_PACKAGE_VERSION=1.0.0\n    export RPM_PACKAGE_RELEASE=1\n    export RPM_ARCH=$(uname -m)\n    ```\n\n    | 变量名 | 示例值 | 用途 |\n    |:---|:---|:---|\n    | RPM_PACKAGE_NAME | qt_gui_cpp | 定义 RPM 包名 |\n    | RPM_PACKAGE_VERSION | 1.0.0 | 定义 RPM 包版本 |\n    | RPM_PACKAGE_RELEASE | 1 | 定义 RPM 包发行号 |\n    | RPM_ARCH | x86_64 或 arm64 | 定义目标系统架构 |\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image39.webp)\n\n    30.  使用colcon构建源码\n\n    ```cmake\n    colcon build --symlink-install\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image40.webp)\n\n      等待构建完毕,下方就是构建完毕且没错误的样子\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image41.webp)\n\n5.  配置基础环境",
+      "translatedText": "4.  Build ROS2\n\n    1.  Get ROS2 source code\n\n      Find a folder to store ROS2\\. It is recommended to find one in the /home partition, then open a terminal in this folder\\.\n\n    ```cmake\n    mkdir -p ./ros2_jazzy/src\n    cd ./ros2_jazzy\n    vcs import --input https://raw.githubusercontent.com/ros2/ros2/jazzy/ros2.repos src\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image32.webp)\n\n    5.  Update system\n\n      The ROS 2 package is built on a frequently updated Red Hat family system\\. It is always recommended to ensure your system is up to date before installing new packages\\.\n\n    ```cmake\n    sudo dnf upgrade\n    ```\n    8.  Initialize and replace rosdep source\n\n    https://mirrors.bfsu.edu.cn/help/rosdistro/\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image33.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image34.webp)\n\n    ```cmake\n\n    # 手动模拟 rosdep init\n    sudo mkdir -p /etc/ros/rosdep/sources.list.d/\n    sudo curl -o /etc/ros/rosdep/sources.list.d/20-default.list -L https://mirrors.bfsu.edu.cn/github-raw/ros/rosdistro/master/rosdep/sources.list.d/20-default.list\n\n    # 加入环境\n    echo 'export ROSDISTRO_INDEX_URL=https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml' >> ~/.bashrc\n\n    # 加载.bashrc\n    source ~/.bashrc\n\n    # 更新rosdep\n    rosdep update\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image35.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image36.webp)\n\n    15.  Install dependencies via rosdep\n\n    ```cmake\n    export ROS_PYTHON_VERSION=3\n\n    rosdep install --from-paths src --ignore-src -y --skip-keys \"fastcdr rti-connext-dds-6.0.1 urdfdom_headers\"\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image37.webp)\n\n      If the above error occurs, use pip3 to install the package\\.\n\n    ```cmake\n    sudo pip3 install flake8-docstrings\n    ```\n\n      Then, use the following command to ignore it`flake8-docstrings`\\.\n\n    ```cmake\n    rosdep install --from-paths src --ignore-src -y \\\n    --skip-keys \"fastcdr rti-connext-dds-6.0.1 urdfdom_headers python3-flake8-docstrings\"\n    ```\n\n      Displaying success is sufficient\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image38.webp)\n\n    24.  Configure environment (not needed for non\\-Red Hat family distributions)\n\n      If you are on a Red Hat family system, the following configuration is required\n\n      You can use the following commands to temporarily define these macros\\.\n\n    ```bash\n    export RPM_PACKAGE_NAME=qt_gui_cpp   # 根据包名调整（如 ros_<package>）\n    export RPM_PACKAGE_VERSION=1.0.0\n    export RPM_PACKAGE_RELEASE=1\n    export RPM_ARCH=$(uname -m)\n    ```\n\n    | Variable name | Example value | Purpose |\n    |:---|:---|:---|\n    | RPM_PACKAGE_NAME | qt_gui_cpp | Define RPM package name |\n    | RPM_PACKAGE_VERSION | 1\\.0\\.0 | Define RPM package version |\n    | RPM_PACKAGE_RELEASE | 1 | Define RPM package release number |\n    | RPM_ARCH | x86_64 or arm64 | Define target system architecture |\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image39.webp)\n\n    30.  Use colcon to build the source code\n\n    ```cmake\n    colcon build --symlink-install\n    ```\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image40.webp)\n\n      Wait for the build to complete; below is what it looks like when the build is complete and error\\-free\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image41.webp)\n\n5.  Configure basic environment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 451,
+        "outputTokens": 362,
+        "costUsd": 0.00057
+      }
+    },
     "f506cdc98eb0769f6458d4aa1895239092c5e4da07d6f1f748f356788386e535": {
       "normalizationVersion": 1,
       "sourceHash": "4231a0e1fe0281f05c9e1275ba3a4be63292218d96326972289dc6fa96e9507b",
@@ -71,6 +85,20 @@
         "costUsd": 0.000163
       }
     },
+    "f51e9bf417ddf7463571029d316289004abebb2efe3c082950900821dc3d3b28": {
+      "normalizationVersion": 1,
+      "sourceHash": "c42ebd86214461f2ca6e3e182d90069b642ecef246fba32123a8c935ee639e12",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## configure、build、install 的区别",
+      "translatedText": "## Differences between configure, build, and install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "f525a4d8e2e5bffc85677417430ad561f6688ab76d419cb518ad139557302456": {
       "normalizationVersion": 1,
       "sourceHash": "3e48747f688141c6e40304e53555cff54c9986af4a6af0718cf935cffa1be801",
@@ -133,6 +161,34 @@
       "contextFingerprint": "abaf6e200053d20c43e3e6010e95d9094b20e1f56d9c1af8d2e6efc2d43be5fb",
       "sourceText": "### `arrive_and_wait()`",
       "translatedText": "### `arrive_and_wait()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f5675b198613c04bc794f0171c804738af3aaec53c3ae055d88115cccccbb4c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "11edf229bd04ec390dd8f40ac4bb3a06f977e3b0872724a84b73d4277389c332",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 进入ROS官网",
+      "translatedText": "##### Go to the ROS official website",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "f56a4831912a501adbfd52614b5a9e2f03c173810eb18ed7a50289e9fbe01b66": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b8890983eb159a361e6ca8e8b88c3d8d3e8090e66b703385df3419069887aad",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## OpenCV4",
+      "translatedText": "## OpenCV4",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -349,6 +405,48 @@
         "inputTokens": 304,
         "outputTokens": 211,
         "costUsd": 0.000345
+      }
+    },
+    "f5ca39c4eeacdbca537df4d98891ca775aa06138acde03f2b2ac0c1f979749b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab96718e748bc6bbbfe2d86ddce473c1cc361ba59fe2c556c179be01e097dec8",
+      "contextFingerprint": "ad615c3f8cd50573a406854fcadfd7149620d2dbe08f25528978f402fc9a9672",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image122.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image122.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f5e6d01d6a65b4315880f0e4fe2ba6e02ffc65bfa3cde51b0397e2b7763c4f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "d194ae948fa613e3cab0e2ceee8d811b3a19f555fc3ae8aeb680800b8eab8fd0",
+      "contextFingerprint": "42b52c7fed09ff20cfa80b1dd39b3d90f89da5e6224e834e1c989d45151fd8aa",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image28.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image28.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "f5e795c831a8dc5cf6df0e0985504fe89da7b249d1020d0d41687bee34e75324": {
+      "normalizationVersion": 1,
+      "sourceHash": "6352a93b8cc6541e65db6148aab0e5a19ac2ff8be6d42346c1a7d27685607015",
+      "contextFingerprint": "2d37d5b19fddca2aa9c925055070cdd46999ce9fca3d50b99891c6d13ca2a9fa",
+      "sourceText": "不要再反过来让 `lib2` 链接 `lib1`。如果两个库真的需要使用同一段代码，通常应该把公共部分抽到 `common` 之类的新库中。",
+      "translatedText": "Do not, in turn, let `lib2` link `lib1`\\. If two libraries really need to use the same piece of code, the common part should usually be extracted into a new library such as `common`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 45,
+        "costUsd": 0.000102
       }
     },
     "f5ef39c1c1debab5a8dcee5f4e3a092bb100119eb152e79511a6d0e8951069d5": {

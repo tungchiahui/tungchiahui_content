@@ -15,6 +15,48 @@
         "costUsd": 0.000118
       }
     },
+    "e914a21b02a82916cce2256808d0e806ee085ef5fce81777b00c0adffe1e586f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae04311bf99dff30dc4fb305e9806e7c044a5824c354a3bb89da775e69811eb6",
+      "contextFingerprint": "3b75405cae44e4b2bd817c85bebc7657989ab1aac0f67aad64ab9f66fd24e6f8",
+      "sourceText": "| 命令行 | VSCode CMake Tools |\n|:---|:---|\n| `cmake --preset linux-debug` | 选择 `Linux Debug` preset 后 Configure |\n| `cmake --build --preset linux-debug` | 点击 Build |\n| `./build/linux-debug/src/cmake_template` | 选择 `cmake_template` target 后点击运行按钮 |\n| 用 GDB 调试 build 目录产物 | 选择 `cmake_template` target 后点击 Debug 按钮 |",
+      "translatedText": "| Command line | VSCode CMake Tools |\n|:---|:---|\n| `cmake --preset linux-debug` | After selecting the `Linux Debug` preset, Configure |\n| `cmake --build --preset linux-debug` | Click Build |\n| `./build/linux-debug/src/cmake_template` | Select the `cmake_template` target then click the run button |\n| Debug the build directory artifact with GDB | Select the `cmake_template` target then click the Debug button |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 56,
+        "costUsd": 0.00012
+      }
+    },
+    "e91a93a885ece298482abfbabd1a332ef0c427f3151149ee6b40d006bd84a78c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebcdfa46216ce2d1216a48f0e133a7dab2cf61dc53a05785108f63f77ef0aaf1",
+      "contextFingerprint": "2e46edb51ebda2be2dee23d84f4bb31a5fe7ac4b53c42077fa637b9e111bed22",
+      "sourceText": "本模板现在用 `lib1` 调用 `lib2` 做一个单向依赖示例。`src/main.cpp` 只直接调用 `lib1`：",
+      "translatedText": "This template now uses `lib1` to call `lib2` to make a one\\-way dependency example\\.`src/main.cpp` only directly calls `lib1`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "e9335645c82955809b53e8e2d88234283c3801e0c1310ec3e77585a84537042f": {
+      "normalizationVersion": 1,
+      "sourceHash": "73d4c76d3c1b0df0302daf55fe627c42d692973f87ae1d77d46535943ec2aaa1",
+      "contextFingerprint": "a6b9e0eded603a7626d68ee674e30a7324f5147532b1cf2833fb5f8044058add",
+      "sourceText": "1.  物联网(※)\n\n2.  医用设备\n\n3.  工业控制\n\n4.  计算机网络通信(※)\n\n5.  ... ...",
+      "translatedText": "1.  Internet of Things (※)\n\n2.  Medical equipment\n\n3.  Industrial control\n\n4.  Computer network communication (※)\n\n5.  \\.\\.\\. \\.\\.\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "e93379e8b6cbf9d80a292495d0fb530c42af3c3c14a6545a30b5b51ac954ed68": {
       "normalizationVersion": 1,
       "sourceHash": "5e5ae16b962cc42347f6f8fda5d19ddefbb39ad1c787fe78a24d11ce1a89487a",
@@ -71,6 +113,20 @@
         "costUsd": 0.000099
       }
     },
+    "e94ebafc4a041641cfa991432833bc6bf87758516a7889866c17e6ed2a34d233": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd26f4c56c660121fef4685b31da5da573be9b4dd63b56dc09d952c585294528",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "刚上来肯定要引用自己的头文件。",
+      "translatedText": "Of course, at the very beginning, you have to include your own header file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 23,
+        "costUsd": 0.000069
+      }
+    },
     "e95e902d4666434e941f79f1d51539d02f52ad3bb79c8c649d2b60d0ff6a6f09": {
       "normalizationVersion": 1,
       "sourceHash": "982ac21fdb6170ffea168ab4c209f7e8a77165ca02157b9bd41e8ed330a425cc",
@@ -97,6 +153,20 @@
         "inputTokens": 140,
         "outputTokens": 17,
         "costUsd": 0.000063
+      }
+    },
+    "e972198d8660ab460cff0284f9474c1243211833c69fdde6f273b9fd71af68b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "8575addf77c89e827bb59b22e241c3fed0b6521aebef3de89ad9e9ff99a12845",
+      "contextFingerprint": "e5e356ed8dcf215ea97a647f3cb6731562af0f134d4966e8d3e3bd13c0237e3e",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image181.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image181.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e975986f5d802f8b92d1c4e7ee9d1ea5421555a86ec4180a27b87f0420b00d0f": {
@@ -155,6 +225,20 @@
         "costUsd": 0.000056
       }
     },
+    "e98fae6893419794fa154b548f2a32769eca0d3e80818b48aa7ea837db40f226": {
+      "normalizationVersion": 1,
+      "sourceHash": "15dad9d889fab64e2be96a3684fe74f994133c6904e4bbdfafa26baf604aa6f4",
+      "contextFingerprint": "459da38bc7c23ea5c53e8231285a2cd9a8066c1cd4edd9629b4e77647cbc47e6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image17.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image17.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e995d59b3dd74089ed1f1fc314eddc6ae8b9fa34a96d5d0d937e647f6d4a89f7": {
       "normalizationVersion": 1,
       "sourceHash": "150b3be8fa006f43823cc6f4fc71ca3ac299f1c8d41adfa967ca45e2b8d31c17",
@@ -167,6 +251,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "e998702c3216ba9d631a20babbe205704e9a81f5ac4d8584deb844f3eb3f53d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "62ad428becdf7b29b9cbf8ab7470ee5009c1eb51d0013460774b1edafe5e7480",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 文字🦟编码有问题",
+      "translatedText": "###### There is a problem with the text 🦟 encoding\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "e9988968b0f21f7edd87ccaba030c0bddde3181ddbb57ccaa0ff21781e4cec85": {
@@ -211,6 +309,20 @@
         "costUsd": 0.000074
       }
     },
+    "e9a6aca26b5bb87b952e4f8181719004914f27e279ae2332c95d782ede852cf2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f74019c02c8050f839689e0384f551c266d13bb982256954cec98000b2da449c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### build",
+      "translatedText": "### build",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e9a85fe763f830bd4734ec3e9efd2cb697d193896414245bdb640e9890d4de25": {
       "normalizationVersion": 1,
       "sourceHash": "82b455c206e99516ac4f907fbb6234204ca3d1ed5914572ac0208e082d0dac2a",
@@ -223,6 +335,20 @@
         "inputTokens": 143,
         "outputTokens": 28,
         "costUsd": 0.000077
+      }
+    },
+    "e9b3e1e864b62efeee3479269edc6d8339acf09a1449fa95a6f6b393e82e01c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "22a2884e9c1f0080c0c6bd5c39231deaec6bdfddd82b4def23417c76b99be0ea",
+      "contextFingerprint": "919bf47a623e4eae2bebd7a1ee77341d8c99b18b12f8194e9e87c5908cf757a1",
+      "sourceText": "####### Yaw_Realize 陀螺仪IMU的航向角PID实现函数（等你们完善好 陀螺仪IMU的C++库你们再补充）\n![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image236.webp)",
+      "translatedText": "\\#\\#\\#\\#\\#\\#\\# Yaw_Realize Heading angle PID implementation function for the gyroscope IMU (you can supplement it after you finish improving the gyroscope IMU C++ library) ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image236.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 59,
+        "costUsd": 0.000126
       }
     },
     "e9b75c2ae5706e274fb06ff092924c41897b450ae33f2ef80c223844148b5c3f": {

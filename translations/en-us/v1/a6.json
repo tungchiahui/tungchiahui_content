@@ -15,6 +15,20 @@
         "costUsd": 0.000053
       }
     },
+    "a605ae2974d89cf2e8bcd67c9c59e8642c241d1e2feaf23550b0fbbbbb77bc33": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b9e78dbc22b98afbb8cd8167bff7c4d5c40ee78c55bb5fafc83fdcc0bc29e4c",
+      "contextFingerprint": "00f43f49ac6a1b480e5d5d34917e323cc0d9438ef1e40e248b6d382f227743b0",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image42.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image42.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "a60c06dc12d2aba9ec0f91046a74d6c2991c6a3b0399465fb1f5bde92ce43aec": {
       "normalizationVersion": 1,
       "sourceHash": "fc6f8319f02debcb6fa064265cc6a6ee5db534cb03bf784ddfcc06210d983e5d",
@@ -169,6 +183,20 @@
         "costUsd": 0.000067
       }
     },
+    "a644a45dab6e3b07bdf313de35a659fa12097186fe3eab64d9c30c71f54ac79a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1c7778c21380da427d6e2e6b84441ce9f13bc9fd521e4f8bb2806cd130a6dab",
+      "contextFingerprint": "b6f24e2d0e3fddab138355e9a51c4c5039067862b1aca813bd32360de912da5a",
+      "sourceText": "| 写法 | 优点 | 缺点 |\n|:---|:---|:---|\n| 手动列文件 | 明确、可控 | 新增文件要手动改 CMake |\n| `GLOB_RECURSE` | 模板方便，新增文件自动收集 | 文件列表不如手写直观 |",
+      "translatedText": "| Approach | Pros | Cons |\n|:---|:---|:---|\n| Manually list files | Explicit and controllable | Adding new files requires manually editing CMake |\n| `GLOB_RECURSE` | Templates are convenient; new files are collected automatically | The file list is less intuitive than handwriting |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
     "a64956d83ab0e4540fe666e049db3baa5ac2301dd4ef7a051cdd3642961eedd0": {
       "normalizationVersion": 1,
       "sourceHash": "b3145f96ab0e7b97fbcb37d1a29c4d11d65d1ac9ed5b56502aa6d4887335879d",
@@ -195,6 +223,34 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "a660cf823316fd3c8071eaf411b2e2f4e85e7767956d48eb2a66f5c6d26b2034": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f478c12193020e6f7f337d2e7a6b523d64da7b4166b26c1c52744c44fc74387",
+      "contextFingerprint": "f35f04e62f3640894e8947f9fb1fb59a421d85c2630e17b67bfe571a6818a8d6",
+      "sourceText": "ROS1安装请看[ROS机器人操作系统教程](/wiki/2024-07-13-ros1-ji-qi-ren-cao-zuo-xi-tong-jiao-cheng)",
+      "translatedText": "For ROS1 installation, see[ROS Robot Operating System Tutorial](/wiki/2024-07-13-ros1-ji-qi-ren-cao-zuo-xi-tong-jiao-cheng)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "a66afec6d66da903600ed23857b962e16684b748aa660ecac6b87d524b957200": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d3103a0bf29b87ec8fd74df61426f5d9a33259e22a895f64981a3aac1b53d1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见值：",
+      "translatedText": "Common values:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "a66cb676dbdbbccabca87f4dbbecbed1f1a88c4034598e3a3ee271b7d17c2069": {
@@ -267,6 +323,34 @@
         "costUsd": 0.000066
       }
     },
+    "a68df5a2c48e7e01e4b41c93cedc44840c597b3de42d3d28dcee4092b687e4ae": {
+      "normalizationVersion": 1,
+      "sourceHash": "1bb2bc960dc12e97164cb60a4bea6a45aaa735cee8e1fe1ed21ebbc4bc42f4d9",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "更推荐在Linux上部署，一些深度学习的东西，在Linux上的运行速度要明显**远远高于**Windows。",
+      "translatedText": "It is more recommended to deploy on Linux; for some deep learning tasks, the running speed on Linux is significantly**far higher than**Windows\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "a6916e0796a6c0c67bbe58f5b0d0821f11582e428035dfbda62e318a48fde79c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3cf6d54c6709e3718909f05d21ceb1c9ad7c3e3dbc8af6ca081ea1955c1ff268",
+      "contextFingerprint": "5202806e0d743382c154a927e651ddb6acf68c2d92169a6d4a3d9ace02741435",
+      "sourceText": "本模板为了易用，使用 `GLOB_RECURSE CONFIGURE_DEPENDS`。",
+      "translatedText": "For ease of use, this template uses `GLOB_RECURSE CONFIGURE_DEPENDS`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "a697d284ab0993debdf60955e368d314170825cc13ec608f0b423adb9749b3e6": {
       "normalizationVersion": 1,
       "sourceHash": "dae66f0936f5cf493a5fc8160659dde4956d234e35d19ba12fc366990818a897",
@@ -295,6 +379,20 @@
         "costUsd": 0.000053
       }
     },
+    "a6b2548d96cd6a87e84de6db4c37fc192812f472a7050934b1a095902360ab42": {
+      "normalizationVersion": 1,
+      "sourceHash": "45687eec005fce9b2df1e5378469e23ac55c6ea2b4bb0ed67c77a907f5901b56",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 准备工作",
+      "translatedText": "##### Preparation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "a6b95c22765f899a9a139ca1eb022b9d5a040d22995881db408440a3e7bd2108": {
       "normalizationVersion": 1,
       "sourceHash": "22912b5e6476d3364615d9e7dd784564a7c47ebce2904c7cd5325162de1c819f",
@@ -315,6 +413,20 @@
       "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
       "sourceText": "## MaskGWM — CVPR 2025",
       "translatedText": "## MaskGWM — CVPR 2025",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a6c4ae78134f2565a8704dd337cad841aa0fd3e7bdbb082003ad4b719d38f268": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bb8b2f497337e25b3e34e5384d850bc153fe67703c298308aa6d2ac1935b0fe",
+      "contextFingerprint": "44eb0de4102039ff21f183ae1b3779063e55093f8626c0b1c9d67689d2a52718",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image186.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image186.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -377,6 +489,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "a6e93294cb2fbbec477d7e8f930725c50a547de365385aea691752a414d4084d": {
+      "normalizationVersion": 1,
+      "sourceHash": "9be1edc0fcc764df5638fa338d595127cf3d1c699e0a545f15567740a70db535",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### STM32常见问题",
+      "translatedText": "### STM32 Frequently Asked Questions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "a6ea2ea7448e968c0557dfbacf519871ab00259aa12f4e07a877a4dfbb2d7cd3": {

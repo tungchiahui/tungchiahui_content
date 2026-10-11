@@ -197,6 +197,20 @@
         "costUsd": 0.000058
       }
     },
+    "686b81896d5174dc48a495212bf9a19e96a5e91c06489a55f225787ea3823223": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0f0359770c5571a2c1f055a1fd97fbc040c092ea1eea355d438892d46471ded",
+      "contextFingerprint": "07f951dc28e66dd4466b5d6ed40489621c1d4b592fc74346f16188add6ebaf90",
+      "sourceText": "模板默认 `SHARED`，是为了演示安装动态库和 RPATH。",
+      "translatedText": "Template default `SHARED`, to demonstrate installing dynamic libraries and RPATH\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "686fb5ecf65ae5319a6e260fc456b30b102efe6aa39334540314f6ab89c82386": {
       "normalizationVersion": 1,
       "sourceHash": "18e31f7d2852a1dcfcbce2d2b6d4c74bf568679709570848e9baf71b256114f5",
@@ -237,6 +251,20 @@
         "inputTokens": 162,
         "outputTokens": 46,
         "costUsd": 0.000104
+      }
+    },
+    "68855d8c5b89fcf20d14c602633a70dc9a026c70a5e5d1af81fb36119a89915b": {
+      "normalizationVersion": 1,
+      "sourceHash": "c212b43e98fd412b6e447e579266024f4eeaba9e1db4fad4aa7a9c74867bbffa",
+      "contextFingerprint": "a4427e1d2b2a3b0ab853b0d2ca3e8ad3a1b7044b23b75d57fda05c7b1a5fc1e0",
+      "sourceText": "| 写法 | 说明 |\n|:---|:---|\n| `include(GNUInstallDirs)` | 加载 CMake 内置模块 |\n| `include(cmake/ProjectOptions.cmake)` | 相对路径写法 |\n| `include(\"${CMAKE_CURRENT_LIST_DIR}/cmake/ProjectOptions.cmake\")` | 更稳，不受当前工作目录影响 |",
+      "translatedText": "| Syntax | Description |\n|:---|:---|\n| `include(GNUInstallDirs)` | Load a CMake built\\-in module |\n| `include(cmake/ProjectOptions.cmake)` | Relative path syntax |\n| `include(\"${CMAKE_CURRENT_LIST_DIR}/cmake/ProjectOptions.cmake\")` | More robust, not affected by the current working directory |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
       }
     },
     "688c30cf70400efd6015d1facba2f9653ffd2207bcec3f52901cc0e4a3efcf10": {
@@ -309,6 +337,20 @@
         "costUsd": 0.000073
       }
     },
+    "689f10a1fbab9aba540de9982ff5d71c0c2d542e7921cc5b375d0dfc5a81e800": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e1198a0986ea7e8bd8976aa47764afc5eccfefa4b161b359e742c52250a8952",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 清理构建和安装目录",
+      "translatedText": "## Clean the build and installation directories",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "68b30d6111def5547078cb7b8077e5439a6445dc2d99ad9b54b3d7db51009109": {
       "normalizationVersion": 1,
       "sourceHash": "bd3ecd5081aca39c29b0aacf947c67d07b397871a6875e2886d0543493d76863",
@@ -363,6 +405,20 @@
         "inputTokens": 156,
         "outputTokens": 35,
         "costUsd": 0.000089
+      }
+    },
+    "68cd1e4165ab74fbfaaaee9184fa602aeed2b43b021a0257b7971f6922f8ea2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "34dba7af4b09d9f6053ed5293115d70f744769b3b9e35f2c44c1fbd49bdd6352",
+      "contextFingerprint": "311bcffe8aa511cbeb5868b27bf8559f9a14f2ce9a832ce7ca05e6e807fc2f82",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image52.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image52.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "68d1106a46db2b40c60e1c10aafcf396b7f605285717f955f9d7f8d4341027c6": {

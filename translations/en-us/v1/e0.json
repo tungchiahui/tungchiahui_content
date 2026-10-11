@@ -15,6 +15,34 @@
         "costUsd": 0.000084
       }
     },
+    "e007f44b7eddd47f226f88a1f564b22f9f1a699f7944cfa3c45a1fd497842ce3": {
+      "normalizationVersion": 1,
+      "sourceHash": "73454c7850104652b803f43892cc21f8d9b720985ea4a6c6ca5b4aad4a77a831",
+      "contextFingerprint": "f989d2995844344d7652c0a87dde8ad7a0115bb5623c256ca175f7a4050f55c0",
+      "sourceText": "10.  对远程仓库内容进行修改",
+      "translatedText": "10.  Modify the content of the remote repository\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "e01168478a34c08de12cc88ff2b04a8b0686f806f889058e01e8f3bda7949e01": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6cb414eef8ff3cb6b644d770a81f87e08a01fe25a68fb0cb22d77e91c169beb",
+      "contextFingerprint": "a48246976e906cd12f9df2ca7f7ae3c2f4ed43bf57c1daf9bb02d637fc459a0e",
+      "sourceText": "1.  在.cpp源文件中，弱函数的定义前面要加个extern \"C\" 因为__weak是C语言(汇编向量)特有的，所以必须把代码以C语言的形式链接。\n\n2.  代码要写在Begin和End之间，否则再次用CubeMX配置代码后，代码会消失。",
+      "translatedText": "1.  In a \\.cpp source file, the definition of a weak function must be preceded by extern \"C\", because \\_\\_weak is specific to the C language (assembly vectors), so the code must be linked as C code\\.\n\n2.  Code must be written between Begin and End; otherwise, the code will disappear after reconfiguring the code with CubeMX\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 76,
+        "costUsd": 0.000149
+      }
+    },
     "e01a4c698321a1469c5c2b80c87a1fed570708b58f2cafd452fc041b7bbf1945": {
       "normalizationVersion": 1,
       "sourceHash": "f2e13e8a411ae913553732c26977b68517cb90972ab622e98f2d99c1ff2d29f2",
@@ -309,6 +337,20 @@
         "costUsd": 0.000081
       }
     },
+    "e0956839f39f0ab5e819fb93154db3b64bda5abb8f2730f9c35e7483ccb723b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7a43c20bf246e8ff3cea7931e0164c211fccc8acd17542b12cc3cb5c2c6ca47",
+      "contextFingerprint": "8bdc9956ab2a26cf7e168d7e94ce4ec57a3b283fe30d6fa3d114441ea0c6f80f",
+      "sourceText": "## `add_subdirectory(src)`",
+      "translatedText": "## `add_subdirectory(src)`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "e09c31176cccd3825798d90b6faf678f519bc0c2ce5ddc6bec43720f69564d56": {
       "normalizationVersion": 1,
       "sourceHash": "338a3f22c7688c8bca7c46caee053de535f65fbad5694a0861455ab30f555450",
@@ -489,6 +531,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "e0ef3390823156b79526d963b1358f17a3bece2c7907fac208e240c9086f26fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "7aa636c14708353f7700975adc86e242c9ccc4c20561a3020576a1c15abfe2c1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "要把创建的二值信号量的句柄传入任务的parameter参数里。",
+      "translatedText": "Pass the handle of the created binary semaphore into the task's parameter argument\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
       }
     },
     "e0fc4fc58ffb68a0b6ffb9ebb419eeba37c2e61b130db83a00c4490c12ffc637": {

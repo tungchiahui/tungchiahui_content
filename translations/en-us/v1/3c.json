@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "3c15bf1414d7a79beba094418d08fed1a10c0eb5ca7a317a8acf66bd9fd6ddb4": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f0d254ab99a79beb7e3461c0d8176273d038c6e7fedab6c4c6c1cdaa2970886",
+      "contextFingerprint": "e6d04276ca7ea66b3e10ca389e5b817112af814ce9a1cd7554901a8dd2f02511",
+      "sourceText": "CUDA_ARCH_PTX为BIN的最高值，我只设置了一个BIN，所以最高值就是这个8.6。(只有你要给电脑更换显卡的情况下，才要给BIN设置多个值，就需要把你要用的显卡的值全包含在BIN中，而PTX只需要BIN的最高值即可)",
+      "translatedText": "CUDA_ARCH_PTX is the maximum value of BIN\\. I set only one BIN, so the maximum value is 8\\.6\\. (Only when you want to replace the graphics card for the computer do you need to set multiple values for BIN, and you need to include all the values of the graphics cards you want to use in BIN, while PTX only needs the maximum value of BIN\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 98,
+        "costUsd": 0.000177
+      }
+    },
     "3c1ff7bf8ee6982321a276e064fa4ebe172054f3cfd64e84bf0ca5ac2dd15548": {
       "normalizationVersion": 1,
       "sourceHash": "03ed7dbe3d1e3635f9613ceb2e7415ed601bbd31a2a9d429e945439968e7126c",
@@ -139,6 +153,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "3c4df734c3c64392743c19834054c7dfdb0e6f23650388aabc7acb39de2c4ea2": {
+      "normalizationVersion": 1,
+      "sourceHash": "89e2c1e6c9c8be1440f86a935766b296d2f67363684de5f805531e70f0a71920",
+      "contextFingerprint": "e5c6d797da034b18efe8bf93b3c4a0f219f961be169a28d461753be675a11ef2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image71.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image71.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3c51fcd83e3773b0f3e24acb5ac79201619bf58d4d1cf1ba08d744baf4c14434": {
@@ -267,6 +295,20 @@
         "costUsd": 0.000067
       }
     },
+    "3c811bce8c0f8f32367b41192ada2852bfa0757ec1842c6a73e236d69fc699a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "514c6b1b4293f045d29e566c3b13abd6f30be7c9450bf7f2820bc48d79175c8d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一个参数是 target 名，也通常是生成的可执行文件名。",
+      "translatedText": "The first parameter is the target name, which is also usually the name of the generated executable file\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "3ca3e368c9bdba02ec0a51f86376b96a02c5656b619cd36e60330ef123a59ee0": {
       "normalizationVersion": 1,
       "sourceHash": "a7c50716ada93ae2c04db6be6c66d912c6e8bd10a8453101f811023871cd37fa",
@@ -323,6 +365,20 @@
         "costUsd": 0.000085
       }
     },
+    "3cc3cdd3f1dc0557cf57a9526ea8347c7a323bc21b0d84f9301c422acedf5166": {
+      "normalizationVersion": 1,
+      "sourceHash": "345c3b1e55e253de4699b36727e3d4cefd036362bfdc4084cb3c85cae13df65f",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**函数注释格式：**",
+      "translatedText": "**Function comment format:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "3cdd036c2516a2b1ba5f7a63808f6d503c6620fce4e36c9d783646fda3f6d857": {
       "normalizationVersion": 1,
       "sourceHash": "17ce389c2db0d7671e002dc86593e791aa27aea366b2bdbb34d13e8340eb1a2b",
@@ -377,6 +433,20 @@
         "inputTokens": 144,
         "outputTokens": 30,
         "costUsd": 0.00008
+      }
+    },
+    "3cf7d196b81f2fb5b6712190ec65f4a5e062af74827a2d1e8f2d16119c27a5cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf718280250a534009ee1b02fd8a779534ba8ebecb4a77d76f4f5500c543c247",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  正点原子电机专项视频：",
+      "translatedText": "2.  ALIENTEK motor special video:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "3cfa630f0df9f33b5c952d5397dc714438759365cd222fe5654ebcb0bbf1f8fe": {

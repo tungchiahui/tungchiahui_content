@@ -15,6 +15,20 @@
         "costUsd": 0.000051
       }
     },
+    "a204104be1ad0cd30a0e1eb30adc58c97654dcffb075306a46cd54fabbe1c121": {
+      "normalizationVersion": 1,
+      "sourceHash": "35967f1d216c3b2260de11d82a688cca63133f6f010f913953057988393404b2",
+      "contextFingerprint": "83414edb7a9b91396e2069f1f5189d7e93ad035d99d7088a7994965887adaced",
+      "sourceText": "1. 顶层 `CMakeLists.txt` 只做总控。\n2. 公共编译规则放在 `cmake/ProjectOptions.cmake`。\n3. 主程序由 `src/CMakeLists.txt` 管理。\n4. 每个库目录自己管理自己的源码、头文件、安装和第三方依赖。\n5. 头文件路径带模块名，例如 `lib1/eigen3_test.hpp`。\n6. 第三方库放在使用者自己的 `Third-party dependencies` 区块。\n7. 构建参数放在 `CMakePresets.json`，不要写死在顶层 CMake。\n8. 生成目录 `build/`、`install/`、`log/` 不进入 Git。\n9. VSCode 里运行和调试交给 CMake Tools，命令行构建仍然交给 CMakePresets。",
+      "translatedText": "1. Top level `CMakeLists.txt` only performs overall control\\.\n2. Common compilation rules are placed in `cmake/ProjectOptions.cmake`\\.\n3. The main program is managed by `src/CMakeLists.txt`\\.\n4. Each library directory manages its own source code, header files, installation, and third\\-party dependencies\\.\n5. Header file paths include the module name, for example `lib1/eigen3_test.hpp`\\.\n6. Third\\-party libraries are placed in the user's own `Third-party dependencies` block\\.\n7. Build parameters are placed in `CMakePresets.json`; do not hard\\-code them in the top\\-level CMake\\.\n8. Generated directories `build/`、`install/`、`log/` are not included in Git\\.\n9. In VSCode, running and debugging are handled by CMake Tools, while command\\-line builds are still handled by CMakePresets\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 239,
+        "outputTokens": 142,
+        "costUsd": 0.000243
+      }
+    },
     "a2053b9d04ef7704b553b4d6ccd32be4c8439c34c80edd48089fd01d40f07456": {
       "normalizationVersion": 1,
       "sourceHash": "8df65718aabd99d14d784c37b142fcc2ee093fc504a05f1c844d62b39998f25b",
@@ -155,6 +169,20 @@
         "costUsd": 0.000059
       }
     },
+    "a23c5e31671b8e96fadcf3a1da9236c96774b525e0021f471cbeb83098720735": {
+      "normalizationVersion": 1,
+      "sourceHash": "98abbb68a862a4a8b667fbed939816c1480d0a75dbf7a7e9f7e34953c4433621",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  实现的功能：",
+      "translatedText": "2.  Implemented functionality:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "a23f4c6445aa959c478304521a16f9e64704fc1a4a3860c1c7207ff053fd5e21": {
       "normalizationVersion": 1,
       "sourceHash": "a25f3b28c255acabd4ad543fcf3c640330620d034ccda358255e3eb0e59efd72",
@@ -169,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "a2410a4c9386049abe87af934632775dd3eddc2d27ffc9c0f4c9b345d46e20ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "172073c176e4831e08a7bba4cc1c15cf0139804eba2198b2bf614a56dfe2f8d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果库提供 imported target，include 路径和链接库会自动跟着 target 传播。",
+      "translatedText": "If the library provides an imported target, the include paths and linked libraries will automatically propagate with the target\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "a24214f6fb55fa8a7eb479e2defadbb0e956b26ed88208d30c098257a46c0a7e": {
       "normalizationVersion": 1,
       "sourceHash": "863f21c46c52ca0c6daabe9b55fd412f7f87e7de39e3f665402b75caaa6767bc",
@@ -181,6 +223,48 @@
         "inputTokens": 135,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "a250cf1974861224f3f7c74f134bf2c773312ca32418b054a0d656a31fb4b6ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d88020f3334ab76baef8d55e8382e90d96909705dcf94fa518d6e7a02a13ae0",
+      "contextFingerprint": "4bf19a88c08dd2c54c1d82d59c1d2d7e1e4cd297121139d187155826d35af1dd",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image49.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image49.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "a2533c0dac2f8990febdcee3eb080474d675c8732731b96507a102a96f17649f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1be692b42d89a5912a38fd77bd9078b8175a6a55f70dca955ce0239530b5d32a",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 构建命令",
+      "translatedText": "## Build command",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "a25ad45085ffb110e12b40d9c868b5925ba72d6446ec305c0da3af81728ca735": {
+      "normalizationVersion": 1,
+      "sourceHash": "48fff7ba8839f394a6912e1ca8425e32a7bbf1737a84ab44fd1d9075e8dc5f7e",
+      "contextFingerprint": "fef7a8c8e974076155a6a4cc38a802adcf01e5094d6426ec528e3e13a078385b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image182.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image182.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "a27263680d74910644e16c6fb8fd642f99bf3f373a4a99eb205e01c6dd2a9591": {
@@ -239,6 +323,20 @@
         "costUsd": 0.000068
       }
     },
+    "a282f1070c5bf21355467dcc34ebb686283f0c0882663d9d9f0237e2b61def56": {
+      "normalizationVersion": 1,
+      "sourceHash": "b427f19f4243751af17d9176d91760226e86372e6695b635308263b4a371157e",
+      "contextFingerprint": "cb8be7090b3304c76470cae1376ed9a633ca0c0ad38db3cb06d2cce4337ee0b8",
+      "sourceText": "注意：如果使用 C++17 的 `std::filesystem`，很多场景已经不需要 Boost.Filesystem。",
+      "translatedText": "Note: If using C++17's `std::filesystem` many scenarios no longer require Boost.Filesystem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 39,
+        "costUsd": 0.000096
+      }
+    },
     "a29f9aea386c0cef6e1a95e31444a3f2b0f1d1e7a9c0509791ce9b782840fcb8": {
       "normalizationVersion": 1,
       "sourceHash": "7e44458c1768a275575d53060abcf55a67d41794f454ba581972e2dd45b704c2",
@@ -295,6 +393,20 @@
         "costUsd": 0.000077
       }
     },
+    "a2a7bf910a7b199895e3c98e153fe71adf328e70b30e5fa7717931ff3501219d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d88294f0d7ae96f0cb6914460bd4bd6d01ff67a5d981f558075ac2b4ed287fc1",
+      "contextFingerprint": "c197be9ea795e9b23a28a41d343f4993496b9bf29dc574ad3038f519c531d792",
+      "sourceText": "找到对应版本的xacro，然后仓库地址是checkout URI，分支是vcs version,你可以使用git clone一个一个克隆下来，但这是巨麻烦的一件事，所以我们选择ROS2提供给我们的vcs命令进行下载包的源码。",
+      "translatedText": "Find the xacro for the corresponding version, then the repository address is the checkout URI and the branch is the vcs version\\. You can use git clone to clone them one by one, but this is an extremely troublesome task, so we choose the vcs command provided to us by ROS2 to download the source code of the packages\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 185,
+        "outputTokens": 82,
+        "costUsd": 0.000154
+      }
+    },
     "a2ada1cf462dd50d212e4a801a28a5ff734cc6c7380ccf0a7fdc17180e0364d8": {
       "normalizationVersion": 1,
       "sourceHash": "a1ca9771a8e4f5f812912217617a00fc97f8daea896957b7300bd9b56594fb03",
@@ -321,6 +433,20 @@
         "inputTokens": 130,
         "outputTokens": 9,
         "costUsd": 0.00005
+      }
+    },
+    "a2bd76ab24c18432ca70906a71ca0d7c29b928fbd81a04cca7389dd8dc1e2cb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "63f91514e47886376c2d0ce7d34036960d4a8154663d8d2fa42d5a36c41ba1b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "命令行检查：",
+      "translatedText": "Command\\-line check:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "a2c62e0c01832f65ac30c563838bfd4f60420334b982550d5701a33d72620c50": {

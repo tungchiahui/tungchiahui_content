@@ -99,6 +99,20 @@
         "costUsd": 0.000065
       }
     },
+    "0c370e957fcfce9242f43f4e2e03c2b2509dd5218213743bf39308d3f18c8483": {
+      "normalizationVersion": 1,
+      "sourceHash": "219e1cad277eab1f6f3036bd375fdaaccc99bee32e9bf72fd9a065a81d2bc2ce",
+      "contextFingerprint": "7a6aae31f90fc36a281f64ad30eba12f106a5363204fcce81b9d9c5a21b04445",
+      "sourceText": "| 参数 | 作用 |\n|:---|:---|\n| `GLOB_RECURSE` | 递归查找子目录 |\n| `${PREFIX}_SRC_LIST` | 保存结果的变量名 |\n| `CONFIGURE_DEPENDS` | 源文件列表变化时，触发 CMake 重新配置 |\n| `\"src/*.c\"` | 匹配 C 文件 |\n| `\"src/*.cpp\"` | 匹配 C++ 文件 |",
+      "translatedText": "| Parameter | Function |\n|:---|:---|\n| `GLOB_RECURSE` | Recursively search subdirectories |\n| `${PREFIX}_SRC_LIST` | Variable name to store results |\n| `CONFIGURE_DEPENDS` | Trigger CMake reconfiguration when the list of source files changes |\n| `\"src/*.c\"` | Match C files |\n| `\"src/*.cpp\"` | Match C++ files |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 54,
+        "costUsd": 0.000117
+      }
+    },
     "0c5068c8303d9673179904e4250ed95a7b1084a249f2913f5eab7656e65bf6b1": {
       "normalizationVersion": 1,
       "sourceHash": "c266bb62de1c1d042c286f1f39892277b32184fef77c2aa3d8894198c80c86b9",
@@ -225,6 +239,20 @@
         "costUsd": 0.000152
       }
     },
+    "0c5e05d7a1fc53a10209bdff2455b682b0a97f27ea51c8faac8f92c4655e991c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e976ccb7e711c88a8176e9d4073f10f89ace8dd6e19b367c95d00a8eadcbf4ab",
+      "contextFingerprint": "dde9bdde45abd8db268fdb00ff4f50de7673d6bb1c14b8c81850d01cce3e2db1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image60.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image60.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "0c66f4991d55f2e736908b0c8cf053995f5fbb0c311a0a87d7a8f61f916b2b06": {
       "normalizationVersion": 1,
       "sourceHash": "753d60571bed5b0d906f1276773ed3a89b3aeded5319ddd17834af52976f4677",
@@ -237,6 +265,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0c75fc1812257358f7d6d621c43d7ce95fd233e952ea79a3a94c0cb2d8d20f44": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dc348f9ac1960b2fcdbf931d6c89594ecc06276ede5adfa516e7772f2f3a6db",
+      "contextFingerprint": "df4eae04bc770bac0e91d6bf8a449a372a296c1aecfb879091f533b9fa6148b4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image163.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image163.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0c7a43835874f0264e3596ec3cd064a4c3cc502bd4b80226bacd8721ed68816b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b8643c66d03a222bc453fdee1b11e1eaa375537318b3d4063e395f357ab7582",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后写类里的声明。",
+      "translatedText": "Then write the declaration inside the class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "0c996732f9e6a7fd348c7f5b86c70840303b36cff0ed49f0d919e500df5a8c4d": {
@@ -279,6 +335,20 @@
         "inputTokens": 134,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "0ca0cb0c268f290545777af42da8d831ba3908cc7f5f17c0671aeae097bc02ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa9fb91b17ba2fbc04771f02b96b8994586e11bc8647f2994c39be1219034d69",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### DSP加速",
+      "translatedText": "#### DSP acceleration",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "0ca8f40ac70e3b018e515628043c2b015ae3ad4fa46d910d6d477999c2b5966d": {
@@ -351,6 +421,34 @@
         "costUsd": 0
       }
     },
+    "0cd5f8b3017968ee270a8966e249105f4124b8e69a1e4a4e1461317d865044c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "981f9a13ecb4d4ceac2fb9846f15cb770c964c991eb3e5f5163b41a465044bad",
+      "contextFingerprint": "6ab4eaadef38c8a0a7a6ea6dfe0256b4c660c0e510d8328eb01e6f887478bffb",
+      "sourceText": "2.  切换到master分支",
+      "translatedText": "2.  Switch to the master branch",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "0cdd1c4e8ea43861bfcf0c7c4d70e99b1d0fa653f2fc4a0a49277a8149a0cfba": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9e0c8540a92cc884c1188479a7fd6d053de7f428c9fbce91138a2f4d96bd145",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可执行文件安装到：",
+      "translatedText": "Executable installed to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "0ce3c958e64d9987ff6ed785991875b90871e8f1a42f9b46203083113e1c6526": {
       "normalizationVersion": 1,
       "sourceHash": "a30cf64040815283ff30e4da95586c3be5184887888e3bb8ccb3bba0f7b0d297",
@@ -375,6 +473,34 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0ce4ef84d81de26f6476168923f83215253cf8e2bd6f3feb7433a13c67671f48": {
+      "normalizationVersion": 1,
+      "sourceHash": "14f1a1039e693b267465c42681f201d53de05104fedad04b635d3161c3ac1512",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在最底部把这行加上（vim不会使用的，请自行百度）",
+      "translatedText": "Add this line at the very bottom (vim will not use it, please search Baidu yourself)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "0ced03b295c88d2c96f37e295db52ee25877e8361e32acba1c41db2f6063d61c": {
+      "normalizationVersion": 1,
+      "sourceHash": "81b52824851c6bf8de0795fa62f467eb2a89c66987c286f2233e0cbd05abea00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后执行 Configure。",
+      "translatedText": "Then execute Configure\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
       }

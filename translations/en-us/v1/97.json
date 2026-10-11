@@ -43,6 +43,20 @@
         "costUsd": 0.000054
       }
     },
+    "9718fe38d25c846a6c250038ead3e349f4c71ba5813c3f8ceaaa89e65b0a07b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a3adf60c68004ce31844cc3d6b4e30d084f03823851c08f431fd20a2c6cd455",
+      "contextFingerprint": "db05ce8b66b0c2715bc8275f474e4254f930ad32979a1d63685e31e4938bcc78",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image9.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image10.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image9.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image10.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "971ab1375355a98d76e3a077cc01ca35e62785204a3d3e03e4f9bde8f654256f": {
       "normalizationVersion": 1,
       "sourceHash": "4e2346a65b5a1f08d40e566e047daf2b419611b66db197df848c2313728171b0",
@@ -267,6 +281,48 @@
         "costUsd": 0.000061
       }
     },
+    "97856a6a0158e276f5e60fbd4e3e8010c29f8bd0824e4b26d6f79e81042906fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca5963734c339866b80046d7cdfb078c89c7f9cef8abff192c69e89d6f3f5074",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "PCL 是点云库，机器人、三维感知、SLAM 项目中常用。",
+      "translatedText": "PCL is the Point Cloud Library, commonly used in robotics, 3D perception, and SLAM projects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "978626ff52ce23b836d96d00611933b26ad7637ea0aa49a43d8b38f86fcef863": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ee8342a57110cc4207ce1f2b76d0de639556987b6499d4830b2dee566bf0876",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个区块集中写当前模块使用的第三方库。",
+      "translatedText": "This block focuses on the third\\-party libraries used by the current module\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "978a2004e52732822cff74d5637d83781f05e04d1f68adcf304227aae6897d9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ffe6fb2732aeb1c9305bff3cb29ef2889a6e8fc05d9c53150cdecfdd4d86959b",
+      "contextFingerprint": "566afc3273f890e279834640dacc26b2e921b6093b6221af132bae9bbd3a611a",
+      "sourceText": "9.  创建分支并立马切换到分支",
+      "translatedText": "9.  Create a branch and immediately switch to it",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "978d815913ccb004dd21aafa01bc2e38e61757bd536529db95258c0c894f728f": {
       "normalizationVersion": 1,
       "sourceHash": "a1d0fcab814a70fd11b28f24b7c052b120f743483296eb2c7d560101a5ccba0a",
@@ -405,6 +461,34 @@
         "inputTokens": 150,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "97cc7a3790b9b0b84ed8452f9d878732e0ac8aa686041ea59a42d8c63e8c1875": {
+      "normalizationVersion": 1,
+      "sourceHash": "027b0f8b192fd51377d84f03f628a31d9d663563b3a14c5a2875a347740abc97",
+      "contextFingerprint": "b858f6d081bce9094f90c486bdaa380b2f3a53dad79a428f80012710a1e1861f",
+      "sourceText": "#### Vinci机器人队STM32工程标准(Cube+C语言)：",
+      "translatedText": "#### Vinci Robot Team STM32 Project Standard (Cube+C language):",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "97cfe177eb5ebd5665b7073cdb4fa3d807b07c6d05e91b9e882d6010448177e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ca7c664579a7e4e3362ca3acbf08846269dc70dcf08ec24532131f556d684e2",
+      "contextFingerprint": "d4e2d64237a502864fa350fb9373fa690b2bd8632f7aad1f375863868f64486e",
+      "sourceText": "注意：target 名不能重名。`lib1` 和 `lib2` 的 `.cpp` 文件可以都叫 `eigen3_test.cpp`，但 CMake target 不能都叫 `src_lib`。",
+      "translatedText": "Note: target names cannot be duplicated\\.`lib1` and `lib2` of the `.cpp` files can both be named `eigen3_test.cpp`, but CMake targets cannot both be named `src_lib`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 37,
+        "costUsd": 0.000093
       }
     },
     "97d3885e1311713901a45c3b2dc1ef00f0acda597422b3e10b9865da29f78e2c": {

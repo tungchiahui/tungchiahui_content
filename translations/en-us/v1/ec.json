@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ec040e6df8236608ae05cf674cf7bb59da6173efe5015b3f6820d3631e6bf422": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb60dcfc1e521a5201bd2947ea4f0309d1d25eab1a3490fb10ded6abb08e8b0c",
+      "contextFingerprint": "f8ac83d107dc171d75ea4f196e926f8a43ed5fee2ae7b459c3abfdb14293095a",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image242.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image243.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image242.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image243.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ec094092f4f94280806efccda08d43003f6cbd7c9d48730ce1ce579f6fb8cb44": {
       "normalizationVersion": 1,
       "sourceHash": "5a06242ac72f9682200b3a8f1008b6010e14e07f4dfd1f11099c374d5d442307",
@@ -29,6 +43,20 @@
         "costUsd": 0.000062
       }
     },
+    "ec20c7cf8a59ca968c54815764031619ad287edf45bea034d564a199595f8cc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f31d367ba8050d21906ecfb2e7f0c4d17ffc947e95ee35055138183d1c7813e",
+      "contextFingerprint": "5af9d24ecc8e53b6cea8eaf6623726d871052f8e449f8da15a54ef2ec2b7c706",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image239.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image239.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ec32e00425ec77996a2f792a5c4b6e82866d0eb9f8a1dd79570b4bbf80bc7aa1": {
       "normalizationVersion": 1,
       "sourceHash": "a3f4f62cc9628cc2de2ef27a741068db70ffacdee682ebf9934eaf50288035e4",
@@ -41,6 +69,62 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "ec3506a1d413bfa8c15667f9e73f098e80fd6550235959d02c6a4ace2e8d299e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4373a80a43f0875e339efdeb849c7da6c25e19e6a17054f9e5b68b0a840a3699",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再重新 configure：",
+      "translatedText": "Then reconfigure:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "ec3d0b3a637d91edbb6f429ed4c9c698a93da352172936b30fb995c8f7719ac3": {
+      "normalizationVersion": 1,
+      "sourceHash": "d629f37e8e94a2c7212e520e39822a493b28aedda4e36dae2965bc76f9f62a37",
+      "contextFingerprint": "2e011cb0920d5e07fd52582a06d481bce4e838d9b93456bb209002ad48fbb974",
+      "sourceText": "1.  **注意：**\n\n    1.  *一般电流值变量定义为一个数组形式，比如fp32 motor_current_target\\[8\\];这样就成功定义了8个电机要发送的电流值。*\n\n      *速度和角度位置同理，fp32 motor_speed_target\\[8\\];和fp32 motor_position_target\\[8\\];。*\n\n    3.  *C++电机PID库与C语言的电机PID 库有些区别*\n\n        1.  *因为电调ID的范围是1-8，而数组范围是0-7，*\n\n        2.  *所以为了和数组序号一样，这个地方注意一下区别：*\n\n        3.  *C语言库中，i的值为电调ID的值。*\n\n        4.  *C++库中，****i值为电调ID值-1。***",
+      "translatedText": "1.  **Note:**\n\n    1.  *Generally, the current value variables are defined as an array, for example, fp32 motor_current_target\\[8\\]; this successfully defines the current values to be sent to the 8 motors\\.*\n\n      *The same applies to speed and angular position, fp32 motor_speed_target\\[8\\]; and fp32 motor_position_target\\[8\\];\\.*\n\n    3.  *The C++ motor PID library differs somewhat from the C language motor PID library*\n\n        1.  *because the ESC ID range is 1\\-8, while the array range is 0\\-7,*\n\n        2.  *so in order to match the array index, note the difference here:*\n\n        3.  *In the C language library, the value of i is the ESC ID value\\.*\n\n        4.  \\*In the C++ library,\\****the value of i is the ESC ID value \\- 1\\.***",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 299,
+        "outputTokens": 201,
+        "costUsd": 0.000331
+      }
+    },
+    "ec46e000d92b61fd24d21555e1e210126d79943ac768157fadbfadf0fca11379": {
+      "normalizationVersion": 1,
+      "sourceHash": "58a7ad1c0d1e52a31963638335aeee62e64a37523e4e190a6f8f340db84d276c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 检查 gdb",
+      "translatedText": "### Check gdb",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "ec5051bdefc4ba25d207faa0c4ac63f17bc596338720fb60d6c7d010190de175": {
+      "normalizationVersion": 1,
+      "sourceHash": "68f8b6d80c88520f61beab168b2c23b6075aba8b6e382099b20441b40c80471a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### install",
+      "translatedText": "### install",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "ec5481b10d70d39673979e87d70d2ce7c26e3ce74aa8c292fd12a562c3f4eb3b": {
@@ -239,6 +323,20 @@
         "costUsd": 0.000113
       }
     },
+    "ecc76b7beadd37a40cf0f045ee704e3f47a6e3f2f95de4c00de456158415c86d": {
+      "normalizationVersion": 1,
+      "sourceHash": "df873c9c49c6959702fbd7dfa24becdf6f486d74c84510044f3d8ed9cfe470d0",
+      "contextFingerprint": "eb23797e2a2b52488ef82a1d2279f3c075d7ad08521a9780418cd4c76731f616",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image37.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image37.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "eccacde764839d92c20c7ba8ecdfb85f5a290bb8df7e9c6b7973f30362d941d1": {
       "normalizationVersion": 1,
       "sourceHash": "4f0c05035fa3ce39b8b44b26aad32f4c71e16254045126abc69fd1669d08f555",
@@ -349,6 +447,20 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "ecfeda7aa8a4cbd96c3d80ad1d8436b88617ca6aeab1f92d4a72ce6b90c4f272": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fd0540eb13a43650399820fd5e3f62b82801ed5c747701f5bf5c7a57150d56c",
+      "contextFingerprint": "473ac51d082cf4cd0e1ec58f80726f42b1c885647a38e4d4cf9c8b42ae752ca3",
+      "sourceText": "5.  删除掉该分支下的文件",
+      "translatedText": "5.  Delete the files under this branch",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     }
   }

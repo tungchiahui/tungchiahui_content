@@ -29,6 +29,20 @@
         "costUsd": 0.000058
       }
     },
+    "dd241de174f01c68814764761fdc1b658b7938480da056d2967542302bce462b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f166fbf6910c2cc50a5815beee7162e4bfc9171a4009a0a12ad9ccf58d436b5",
+      "contextFingerprint": "b415ca5add7c33a138ff71ecf9069a5b3081b8babaffcf322610215e9360d794",
+      "sourceText": "###### 常见问题",
+      "translatedText": "###### FAQ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "dd25042f5bac007b412feb068f34ee2c54a03a3c74ff3f63b1fa713d3d734eb8": {
       "normalizationVersion": 1,
       "sourceHash": "82ea9ae2b06b65c62e12febe783f6498405a9251a7139589b54ccffbf1e81add",
@@ -43,6 +57,34 @@
         "costUsd": 0.000065
       }
     },
+    "dd3982cef6b76bbb709d687e426c7bb0b62da53df0cd21338d597e4223cac43d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a13c9d6e6ca7817d8d478b06b75ad854d1eb74632362dab4de61d46e1f7692f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是，可以看到，此时我们分配的是一个4字节的内存，但是他扣掉了16字节的内存，这是因为字节对齐的原因，FreeRTOS选择使用用空间换速度的方式进行字节对齐。",
+      "translatedText": "However, it can be seen that at this point we allocated a 4\\-byte block of memory, but it deducted 16 bytes of memory\\. This is due to byte alignment: FreeRTOS chooses to trade space for speed by performing byte alignment\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 57,
+        "costUsd": 0.000119
+      }
+    },
+    "dd3d8f70b5137a1ce9efc4158e52579e47a4513c7ecf0e9e702e71faad115a0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "22011aba23228e395d6f3440c2021fbc73138cf0cae4231d838097f0f853ff4d",
+      "contextFingerprint": "2325ae9527fdf19943a8103c31b762bd38e0a9052de34c3c6cb9c8b256904450",
+      "sourceText": "`nlohmann_json` 是常用 JSON 库，通常是头文件库。",
+      "translatedText": "`nlohmann_json` is a commonly used JSON library, usually a header\\-only library\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
     "dd46420a49f7143443560fc13a8c7cdfa3a290ce984b0b2ed4838d9c983fadfe": {
       "normalizationVersion": 1,
       "sourceHash": "465f9f229430bd4cb2991eaa89d03d04f9415d055c26aa10df72cd53d8410b88",
@@ -55,6 +97,20 @@
         "inputTokens": 154,
         "outputTokens": 45,
         "costUsd": 0.000101
+      }
+    },
+    "dd54ff4bdaa4f30798319010e4d2492513cab68089189ea64650cc25e1a6d069": {
+      "normalizationVersion": 1,
+      "sourceHash": "09a2461a29dd60348a9b8169e03d9d67e8514a0df2f561d99e8700df3c0ebcbd",
+      "contextFingerprint": "fcb551d00c5e7e496b9d9c0435700321e3de0910ca0c8628322a72fb670142ed",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image32.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image32.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "dd5fa2cc40b3ea9b522e01d1acb4d957adabb352fbda12625b5e6656e5bf295b": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000057
       }
     },
+    "dd90aa993c7c7c7b43180c2c13627704bab930907290056c73a0fe655cd1fb12": {
+      "normalizationVersion": 1,
+      "sourceHash": "09d41a617e2096805a6a0267172881825ac6f5920f85bb74b815c45b59fc3464",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Fedora无需额外启用仓库,RHEL需要.",
+      "translatedText": "Fedora requires no additional repository enablement, whereas RHEL does\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
     "dd968d026714b7d54a7a179b29219267f661ca877326ca7448139d468b4c5f84": {
       "normalizationVersion": 1,
       "sourceHash": "57021a6c3a582a75d9b0e8804c4539f7fde5997bb8e0a6b51e73fbfab1b010fe",
@@ -139,6 +209,20 @@
         "inputTokens": 214,
         "outputTokens": 108,
         "costUsd": 0.000194
+      }
+    },
+    "dd9acea38b9c5e310f9a9f7151e92598ecce75ebfc3e289facc27ad5ecc8c942": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa95b1cfebba121af7030e6fbd0cefedfc6faa28ca70fe67e6147b2b4b9bd3dd",
+      "contextFingerprint": "6b760e195ff51626b70f8d8903c5d5eda38855d327934d4c52195e95f4d0c9c5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image289.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/09/image289.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "dd9ca850a451279c1777d25b8849356309378d4fb7dd36dcaff7055179db4621": {
@@ -225,6 +309,20 @@
         "costUsd": 0.00007
       }
     },
+    "ddb240fb248256b4b90a86f430fbbeeebb99887ec45c335a28383b3b8b77c72b": {
+      "normalizationVersion": 1,
+      "sourceHash": "67f4ca5926ddb8f6d5f9256b0b39f88286f47d7ecb2194f7bca63606251b8630",
+      "contextFingerprint": "6b0d433708448a538c4045de64883a3dda098f5b772d0aa6703c947617709ef0",
+      "sourceText": "4.  用VScode打开MDK5工程\n\n    1.  打开工程\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image10.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image11.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image12.webp)\n\n5.  然后就可以用VScode编辑源码了",
+      "translatedText": "4.  Open the MDK5 project with VSCode\n\n    1.  Open the project\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image10.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image11.webp)\n\n    ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/10/image12.webp)\n\n5.  Then you can edit the source code with VSCode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "ddb65d5ae2149f8fef88e4297244391e1f6747c2444c09b106389fe6fb0ef45e": {
       "normalizationVersion": 1,
       "sourceHash": "fd7b7ee8f406cd28c4c13a37ba4bf8c23423af47f6efd1845a6a5b441e3a4acb",
@@ -253,6 +351,20 @@
         "costUsd": 0.000049
       }
     },
+    "ddb9792f858070d257a5a838a16f70ff283d2889abd407385ded7847fd326491": {
+      "normalizationVersion": 1,
+      "sourceHash": "7ee4aae5ec54243cdd475711319a9f7a3b11bf30b83c39f67f77842af0ffeab3",
+      "contextFingerprint": "09391b2e623e6f6d9476d10e863236e152f6afec4570b68ddb6e52b44b6d7bb5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image32.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/29/image32.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "ddbb710b867df71f19914c76927da7ed2174219944118da7338ffba37042ca4a": {
       "normalizationVersion": 1,
       "sourceHash": "46e2ee5209063c3ae210534dd9bf83aeac9873f8be53b3072c9b886f2f825b92",
@@ -279,6 +391,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "ddc5b48779a0bac9ce20ee95c72492effce0a4da96d18bce53748207ba9234db": {
+      "normalizationVersion": 1,
+      "sourceHash": "3424c07f4a85c63e4cb4b7d0874489108a35297fbf3ab315b103a2b160dbd7be",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或者直接打开terminal输入",
+      "translatedText": "Or directly open the terminal and enter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "ddca224bba8cb68ca1425926ea5d87af903d7cdb1f26d86f3f418d1dacac0863": {
