@@ -29,6 +29,34 @@
         "costUsd": 0.000066
       }
     },
+    "050dbde391f2409d8424faf1418b284b5112af2c06c92a8bb94dc999aa908c5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ca0524f14aa5a96d36f12becdc1e7f93df4b7f01aca8410c681f9c04a72b6d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设程序里有：",
+      "translatedText": "Suppose the program contains:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "051265faac9a5fadbf423bf8e165756026b9d0074c3dc5e134aca852352f6f8e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad4d30c77e3532a3a76f048a26ce303f9dff40111ba7b596b8aa06dad0091e8d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 并发代码的基本原则",
+      "translatedText": "## Basic principles of concurrent code",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "05425b8837953ceabc423df2e8416426ec8e58feb911b9609f1d5516a1f7e727": {
       "normalizationVersion": 1,
       "sourceHash": "251e5ab962da343ad3c0021d0a6f11a3c09c006f87b84f99042c408acaa333c8",
@@ -85,6 +113,34 @@
         "costUsd": 0.000122
       }
     },
+    "05535fd53fd73cf81f7d84592b924df7f907d21cab1748cdcd36a91814aea887": {
+      "normalizationVersion": 1,
+      "sourceHash": "c93b59f2ed3ce0d40b04f10e1d8161deb3eab58cc92918b9d4d07ed4c06c05d7",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "函数编译后也存放在内存中，因此函数同样有地址。**函数指针就是保存函数地址的指针变量**。通过函数指针，可以间接调用它所指向的函数。",
+      "translatedText": "After compilation, functions are also stored in memory, so functions likewise have addresses\\.**A function pointer is a pointer variable that stores the address of a function**Through a function pointer, the function it points to can be called indirectly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 53,
+        "costUsd": 0.000114
+      }
+    },
+    "0561dfc9aed57c6835e0090a97a67083d486c495615a38209443913aedde0019": {
+      "normalizationVersion": 1,
+      "sourceHash": "203e5e6bf80758da8fe312a30f988951c46ac0997ac05b02f5cd9baba08c658b",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **这个元素算不算？**",
+      "translatedText": "> **Does this element count?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "0562d9d6f1158e02441920019b48f041cc83c2259b13b35e7819d57d3191c8ef": {
       "normalizationVersion": 1,
       "sourceHash": "b27406c0508126d8cfe5c031f38afd16db94a76fefd5090e1780199d0541fdda",
@@ -139,6 +195,20 @@
         "inputTokens": 162,
         "outputTokens": 37,
         "costUsd": 0.000093
+      }
+    },
+    "057f989ba09a1614ea0fa34822244e8801ae4c4641c006753ce28df5adb01f9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d3cf1f4136234f9b0ed881b9a68f22d9ddd4f51c6a1f2134dbe6b5353a951aa",
+      "contextFingerprint": "fc79d4342131541ad0db56de2d49e920756cc0a2af1de93d6fbb3601d2ba32a2",
+      "sourceText": "范围 for 循环（Range-based for loop）是 C++11 引入的语法糖，让你直接遍历容器（或任何有 `begin()` / `end()` 的类型）中的每个元素，编译器自动生成对应的迭代器代码。",
+      "translatedText": "The range\\-based for loop (Range-based for loop) is syntactic sugar introduced in C++11, allowing you to directly iterate over each element in a container (or any type that has `begin()` / `end()`), with the compiler automatically generating the corresponding iterator code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 73,
+        "costUsd": 0.000145
       }
     },
     "05a8801ac65538f0449b8008004ae2b47c5999dfc0b06217f86ad166ac0a5f0f": {

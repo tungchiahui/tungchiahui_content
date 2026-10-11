@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "6f3dc066952618d83f777c61bd360da5fb711e5637c7cb308fac46ca75c6bf40": {
+      "normalizationVersion": 1,
+      "sourceHash": "030e5c24411dfb2bd0165a3256594dcdc9bc6abd667ac988a1e84a8277d2f10a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但以后代码可能变成：",
+      "translatedText": "But in the future, the code might become:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "6f4ca77e63adc3afd19e11b9623ed02fc1cba271cc5140d4de7779fd2821e0d9": {
       "normalizationVersion": 1,
       "sourceHash": "8565b125e8046cea29f0a8825303160d67faeea0a353fe64d7e253a4f71c1925",
@@ -13,6 +27,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "6f5117061be007852ec2ff34ba91f4698debf6fa1d03d20ec47a54a36635a561": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7d09eafdbf2846fc74c7980802ce592dd8b614bfa31e9518a343aa3bdba4703",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "list的缺点：",
+      "translatedText": "Disadvantages of list:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "6f69c306d486e464c0a24ef82de3228c16103f937060b1f4fb7829457fcda197": {
+      "normalizationVersion": 1,
+      "sourceHash": "745502542c5bd00ce0222448598290e0d122f9dba66ebd16b2bce1b5477eab8c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里的us可能有波动，一般是百位数以内级别的波动。",
+      "translatedText": "The US here may fluctuate, generally within the hundreds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "6f9029362eb657182faf474f633ae90727a705dffb45c9c2494f694ab5b747c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e8586138431e12025c5a5f55f2bf8179090dac3a6b7bcf91b8ba2d735612500",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用拷贝和替换算法",
+      "translatedText": "### Common copy and replace algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "6fa9711d603e06c3106572bb1070f9fbea76d04b495badeac47f1d9783c2fc3d": {
@@ -57,6 +113,20 @@
         "costUsd": 0.000061
       }
     },
+    "6fad76a5fb88cbbac5cf9b40ecf1b4f32cf599725b51921d5dda46a5c1374382": {
+      "normalizationVersion": 1,
+      "sourceHash": "800ede23898918f6cd3bf7c3e709e9fb88aad97b3ad81e9489718d6ea13d1d69",
+      "contextFingerprint": "6f65d6a9e268ffc5af9a82ffd849d23b730691fc63017194bebc23291325c7ea",
+      "sourceText": "`std::copy` 的返回值是目标区域复制结束后的下一个位置。这里复制了 `size` 个元素，因此：",
+      "translatedText": "`std::copy` returns the position immediately after the end of the destination range copy\\. Here, `size` elements were copied, therefore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
     "6fb12c8d455c25e6f7390c674455215625182fcbae6a8f205742aed4bb3cbe58": {
       "normalizationVersion": 1,
       "sourceHash": "682261d72f7214748121096cc5f9ce0e54536a7aa7d884271e1e4bc61bd433a3",
@@ -69,6 +139,48 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "6fc08b5108ace91cd3cc0be9f65d670ec49c3d9b690467bdf1d32c6061738695": {
+      "normalizationVersion": 1,
+      "sourceHash": "5cb226fd63c1b66b7f2d4ee6bdc1dd97a4d54c99000b6bc81ba93be5726438f4",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 仿函数写法非常灵活，可以作为参数进行传递。",
+      "translatedText": "* Functors are very flexible in their syntax and can be passed as parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "6fdaba4e8e68bdaea5a6e6c02f8f0d857f0691dc04f4f6df9e1d9837085e9059": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c8f7acb405429cfad8321f23627f098f0e3dfd90e3b08258fcf3a4a191d13d4",
+      "contextFingerprint": "c2725b1587f1bfe2baa059f5123dea0bcffc60647bcaa3d7385cd94a22c9a3d3",
+      "sourceText": "| 对象 | 拥有它的 `shared_ptr` | 引用计数 |\n|:---|:---|:---:|\n| `A` | `a` | 1 |\n| `B` | `b` | 1 |",
+      "translatedText": "| object | has its `shared_ptr` | reference count |\n|:---|:---|:---:|\n| `A` | `a` | 1 |\n| `B` | `b` | 1 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "6fe9e45a74ea513342efd62648bd83aa83dbc5b87b5f0bbbb0b45deba6df563b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f03c758ab3046640646d405f5fc7dfe960a56dbe2b5366edbe6e7687b04ff6d",
+      "contextFingerprint": "98acb19c0c49ee488eff33cab6bdeffbbe7a7fa184a034055ad2585026627ff8",
+      "sourceText": "同时还想知道切换前到底是什么状态，就可以使用 `exchange()`。",
+      "translatedText": "If you also want to know the exact state before switching, you can use `exchange()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     }
   }

@@ -15,6 +15,48 @@
         "costUsd": 0.000216
       }
     },
+    "b52ec39dfc231d6e5e6089088b5fe0cd9610590232f464bafa4d3cce32f3fa8f": {
+      "normalizationVersion": 1,
+      "sourceHash": "111a975d22cd46d836157dcdbd9e745775e186bf60ef33c9ec2ab7db449f384b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "中控器维护的是每个缓冲区的地址，使得使用deque时像一片连续的内存空间",
+      "translatedText": "The central controller maintains the address of each buffer, making the use of a deque resemble a contiguous memory space\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
+    "b53c49a57e6594ecd41eb0e05e2d578e9c416ca5236f534e393fcd1ae05e30ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8ba93b4cf25dc1b93739c3753d8451f5e2b6907b724153508e4c1895af664be",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## optional 适合\"可能没有\"，不适合\"错误详情很多\"",
+      "translatedText": "## optional is suitable for \"may not have\"; it is not suitable for \"there are many error details\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
+    "b5513fa3443c8cdfef895e887cf49ab1ec97153afdbaf639f22b72efef4e99a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "483e5bef54833c3cd9b527243e5f5ccb2f1ba45d0991a47e39fd63bb23fb2a00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当作用域结束：",
+      "translatedText": "When the scope ends:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "b552d1586bcaa48f1de2a4be3129c2a52d7028b81cc2f329064ea159ab6a30f7": {
       "normalizationVersion": 1,
       "sourceHash": "0a1a08011ab0f41beb68553ead124b70f98b00ff2c9a69f85c233b2ac864d6b6",
@@ -27,6 +69,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b55a97b525d1b28f5615b68a2631c34ae74f5c5dc2ff6022d3308b80c84f82a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "ebb2262d6489ee7b3d850e39818670135bb4fad25c858a19f90ce757f4b3b1d0",
+      "contextFingerprint": "d3742a1cddf0a584f2b3353c3f5eeb25f01598247949e1c0dce3d235a8bd923e",
+      "sourceText": "| 时钟 | 特点 | 用途 |\n|:---|:---|:---|\n| `system_clock` | 系统时间，可转换为日历时间 | 显示时间，时间戳 |\n| `steady_clock` | 单调递增，不会往回跳 | 测量耗时（最常用） |\n| `high_resolution_clock` | 最高精度时钟 | 需要最高精度的计时 |",
+      "translatedText": "| Clock | Characteristics | Uses |\n|:---|:---|:---|\n| `system_clock` | System time, convertible to calendar time | Displays time and timestamps |\n| `steady_clock` | Monotonically increasing, will not jump backwards | Measuring elapsed time (most commonly used) |\n| `high_resolution_clock` | Highest\\-precision clock | Timing requiring the highest precision |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 59,
+        "costUsd": 0.000123
       }
     },
     "b562097c35b0763ee0804a6596dfc5af7d912c2af6ae614c234e1b3036f23d53": {
@@ -43,6 +99,20 @@
         "costUsd": 0.000085
       }
     },
+    "b565de7eba50625cb83d8f3d2fe699b0405f6a5b603541d9b29ec2c3631bcfc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "2cd6f47ab2ec941e641d858e88ceddb0699ff98c7ac8bb04e8299ebaac786a18",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接着：",
+      "translatedText": "Next:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "b588e8aefc5dbffe4408a6b008b8f7325643b05192b77ef082b39fba706ab698": {
       "normalizationVersion": 1,
       "sourceHash": "70c0c5e0e0a4fbcffdf31dc9f81b537e97a09a9ad7c63012ab1ae5dcc6385142",
@@ -55,6 +125,104 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "b5998f6f2ed23c71c3cff1fb32caba7a942d573893a0a991ab9932e7cd2d9fc1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6321c38e9ecf481a3f680e18e93c7bdfb074ef2ecccad94b972c68c67e9f0c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "问题：",
+      "translatedText": "Question:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b5a31e7e6296383489d6e3e219b5f44d07ab9de8637f1c3673060bebe006d11b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f70fbb7ebdd94d9e7adb4d38a06af9a710be75d9e97fcf22a080672cdd909f5f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以学习并发时，重点不是追求线程越多越好，而是先保证程序行为正确。",
+      "translatedText": "Therefore, when learning concurrency, the focus is not on pursuing as many threads as possible, but first ensuring that the program behaves correctly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
+    "b5ca314f3c5764f486630c3d8d6ade3fbecba9d8bf189b890e8ef5d8a9cfc7c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ceb869c88467136cd30953d8709319df7e6cb9df356f482fb39acf95a8897044",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector预留空间",
+      "translatedText": "#### vector reserve space",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "b5e00f9263a8580acd0149f68a83d6d2a91904e288cc0f73bd4fe1c5810e1b7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "160ce3d779e4354605b4cef3079cb1d942e5a4c9a5e5aff7dbcd65d5d514e5fb",
+      "contextFingerprint": "0395ed04a91b7376b8ab6e4bdfacdcc3afe95a2e1e95427e654257ead2ea0940",
+      "sourceText": "![说明: 2015-11-15_214429](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547606475892-675dac77cb.webp)",
+      "translatedText": "![说明: 2015-11-15_214429](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547606475892-675dac77cb.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b5e95bb09faaa80d871da157a45e8b821b254620febeace3b8cd12a596e2aaed": {
+      "normalizationVersion": 1,
+      "sourceHash": "d81e8f45889ee59a8737943c726474968abbfd505de11f6c58072116c00fea1c",
+      "contextFingerprint": "afef8c2fbbe7666293993d95eb79d78b4f7bf77a43f6efe1a57b944fca977063",
+      "sourceText": "* `noexcept` 表示函数不抛异常\n* 析构函数、移动构造函数、底层资源释放函数中经常会看到它\n* 现阶段不需要深入研究底层机制",
+      "translatedText": "* `noexcept` Indicates that the function does not throw exceptions\n* It is often seen in destructors, move constructors, and low\\-level resource release functions\n* At this stage, there is no need to study the underlying mechanism in depth",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 51,
+        "costUsd": 0.000109
+      }
+    },
+    "b5f7566323f488dcb5e29ddcb44c2c81f694036e208e61ab4b01350ca6166284": {
+      "normalizationVersion": 1,
+      "sourceHash": "3807943b01c48fcb14c00fb3c0bfbd46a820f4d1ba9cd91b613cd204a58997eb",
+      "contextFingerprint": "7a4bf1496dab7aa599a9ff2c76da0728903e8b42889f0d81c522d8f1a34bb2b6",
+      "sourceText": "注意：`joinable()` 并不是“线程现在是不是还在运行”。",
+      "translatedText": "Note:`joinable()` This is not \"whether the thread is still running now\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "b5f9b5cf5538a3b368fc8c619740e4a11e2ee8face3589869ea1bafaa246baed": {
+      "normalizationVersion": 1,
+      "sourceHash": "7732e7b7bbcf909d64f6ef46d6137d5a094b4674d30cd341f7c313f5ae27043a",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- 隐式转换：编译器根据上下文自动转换。\n- 显式转换：程序员在代码中明确写出要转换成什么类型。",
+      "translatedText": "- Implicit conversion: the compiler automatically converts based on context\\.\n- Explicit conversion: the programmer explicitly writes in the code what type to convert to\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     }
   }

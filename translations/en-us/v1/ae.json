@@ -1,6 +1,76 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ae1e7dff4e91ca12ef7663dbe6c81f4bd799cfe419017b93c873aab451b2c6da": {
+      "normalizationVersion": 1,
+      "sourceHash": "4692e92c59bc1b476896e915896f35acfe11b8a624511fc6c7d0d8bb25508294",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "构造函数：",
+      "translatedText": "Constructor:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "ae3521401a3f826853f488e976cb147a6b8707120cbc587bb4c8aec32d47b22e": {
+      "normalizationVersion": 1,
+      "sourceHash": "0362588560a462ae76456a6288b877250df7db2fa2771b71e880f1bece355045",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++11（随后的每个版本都有增强）",
+      "translatedText": "C++11 (each subsequent version includes enhancements)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "ae3c0c140c183f88d21a053107b6ab7715f00e2367b8c59ee3181e35bb3c3ccf": {
+      "normalizationVersion": 1,
+      "sourceHash": "96ad7e0cc703ce9e34fbc272609885fd701d2a40afc8fb2693947fd48026282b",
+      "contextFingerprint": "ba468e988183722436ad8be49bb4d49014bb42043ca188825afe13714f1c3524",
+      "sourceText": "- `set_intersection(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // 求两个集合的交集\n\n  // **注意:两个集合必须是有序序列**\n\n  // beg1 容器1开始迭代器\n  // end1 容器1结束迭代器\n  // beg2 容器2开始迭代器\n  // end2 容器2结束迭代器\n  // dest 目标容器开始迭代器",
+      "translatedText": "- `set_intersection(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // Find the intersection of two sets\n\n  // **Note: Both sets must be ordered sequences**\n\n  // beg1 Iterator to the beginning of container 1   // end1 Iterator to the end of container 1   // beg2 Iterator to the beginning of container 2   // end2 Iterator to the end of container 2   // dest Iterator to the beginning of the destination container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 88,
+        "costUsd": 0.000166
+      }
+    },
+    "ae46d09f884ed250fb80ee30a111dd25b21b154464b3c14a1e7b56e07720c042": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7cccfa83c4f4abb430b3525cf920fde3c620b7e1eab5f55db24258d541d3889",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：字符串拼接的重载版本很多，初学阶段记住几种即可",
+      "translatedText": "Summary: There are many overloaded versions of string concatenation; at the beginner stage, it is enough to remember just a few\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 33,
+        "costUsd": 0.000083
+      }
+    },
+    "ae6c10c51a82180cf182622fbe24d46edfac47afef56ed55e6090d1d3530b011": {
+      "normalizationVersion": 1,
+      "sourceHash": "d84b2b0fbfdbb0989542abba8a6a59f1261710642bbd17f9816f29fa9d485b97",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通学习阶段不需要大量自定义异常类，标准异常类已经够用。",
+      "translatedText": "In ordinary learning stages, a large number of custom exception classes are not needed; the standard exception classes are already sufficient\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
     "ae75cb3748e1d84766bc12c749bb82015759b36f83164fc5157b0f9ec8928eac": {
       "normalizationVersion": 1,
       "sourceHash": "654507454c80f3e88a3c31675e0b67176e7a293a4f24345cff2c03671150811d",
@@ -43,6 +113,20 @@
         "costUsd": 0.000052
       }
     },
+    "ae870a471d61e4cf445a35f5858730c94b836de67ce6cfbdbf39ad7f32beeab0": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c831925aa2f931ae2b0a32336eb51807bce16681c44b77c9edf62f441874f2f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以好像最后一定应该输出：",
+      "translatedText": "So it seems that in the end it should definitely output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "ae8d76b04a6bed1c778d0e32ccce25510701f542460c7b58176f31309212260d": {
       "normalizationVersion": 1,
       "sourceHash": "b21f6585af4410d32e16edb3bd5b48fd836321d8bbb429a613f89db5ccc5d187",
@@ -57,6 +141,34 @@
         "costUsd": 0.000085
       }
     },
+    "aea7a57ef8618ddb7a5eaefe546d94bab376776a87ec53494f885bfec4b5d89c": {
+      "normalizationVersion": 1,
+      "sourceHash": "04bf43fa923ef6abbbe5ccb3c014bbc4d75a1942c98bf226d87fc6b613509b2d",
+      "contextFingerprint": "0faa25915ae9ff1d35a32e6aef5766470df1d99d3a127f6579dcedc906ddf3d5",
+      "sourceText": "`atomic` 的关键价值之一，就是能把这**整个过程**做成一个不可被其他线程插进来的原子操作。",
+      "translatedText": "`atomic`One of the key values of  is the ability to make this**entire process**into an atomic operation that cannot be interleaved by other threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 38,
+        "costUsd": 0.000091
+      }
+    },
+    "aeb6ebc3a9ae705635665aeeadff3d98e6eea4fcd1a5fe0bfe78f6b2f40a68ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c8f7a299c6e8c438a4bcb54cde251a2587e786d88e76aa72cb4b5d08eee3a64",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此时线程 B 也想进去：",
+      "translatedText": "At this point, thread B also wants to enter:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "aed6ff10a472f14e08e31a9b573b5f527397437d82906520b4e0e2de77dea99a": {
       "normalizationVersion": 1,
       "sourceHash": "c9412990713c975e8980b42a67e2454551b857453a7789887d8559c7edf29c54",
@@ -69,6 +181,34 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "aef58c53bef98dd8d2f155194ac4ba2824e4b730f16a0d4fe54c5a205065f9fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "5ac52bbafdfa18b2a85489c3bc747aa7680220f926217ac05ceea33451831d18",
+      "contextFingerprint": "5df4cabc6aaa5f681895917560f79abf02b2432de1ed3e9a529d9f15af517eff",
+      "sourceText": "这里的 `*again` 就是在访问 `again` 指向的变量。",
+      "translatedText": "Here, `*again` is accessing the variable pointed to by `again`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "aefe846567d421af6c57fef3ea62ffdf33fa0b1d828998c17e5d9e7ee555f4dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "074a424b50ac7fa74f822536801dc61eb3575c3a563eb05a7291be84a58e08ba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们不是简单读，也不是简单写，而是：",
+      "translatedText": "They are not simple reads, nor simple writes, but rather:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "8c026797c9bca6b8ae2785385c125344bf5d2498c343594be62c426386b1e2a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9cef5b4cdcc0b6391012d66a86b07a27efcfdb12df7215a9dd66bb185cf7d1a",
+      "contextFingerprint": "6c81fc5eafc287e925a09ebd766600f186f96fecc12ca2c3ec0e556dee5a1d27",
+      "sourceText": "* 配置文件不存在\n* 串口打开失败\n* 参数明显错误\n* 初始化失败\n* 程序无法继续运行",
+      "translatedText": "* Configuration file does not exist\n* Failed to open serial port\n* Obvious parameter error\n* Initialization failed\n* The program cannot continue running",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "8c36b4c1ecf25fc16d0981f571d3b59eab467d02f184bb599ebbea2523974d88": {
       "normalizationVersion": 1,
       "sourceHash": "19cd299e021581bc00460979ac5d4a3388b6e35c5b1b04ea3792bc53ee71afa9",
@@ -43,6 +57,20 @@
         "costUsd": 0.000109
       }
     },
+    "8c6b8aec1b135d2d253a16320cdd02a2acd86fb286252e4ed5486581539365d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6df5a65cd10e8856a684056848e055702ee15728f3c6f9feaa438b5e7a4f39ea",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可能是一整组操作：",
+      "translatedText": "It may also be a whole set of operations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "8c76c77e5bc23f9a4cb5df05b5c88b0e84271fce08b4d0faae6545423f506c32": {
       "normalizationVersion": 1,
       "sourceHash": "a1891d3f1ba8d23ecbcf128e672fc01f4cd4bac3fb780e1dd8fa5f9fde4a4b20",
@@ -71,6 +99,20 @@
         "costUsd": 0.000054
       }
     },
+    "8c9d63157ff3f5e43294750e85c78f2cae5a387cba126a57c04fb00da6fd33cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ce59a1d8147a9011d4ec84734b2ddd1a2003df22de2d8833235613c9abd97a3",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## STL初识",
+      "translatedText": "## Introduction to STL",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "8ca2e1a7578612eac3c818b755d0c239da9843bc658a13005676dfe58f61f502": {
       "normalizationVersion": 1,
       "sourceHash": "05e27762e69a5d52c1b2757051f5833d922da6b10bae7bc93be03fae24d631e9",
@@ -85,6 +127,62 @@
         "costUsd": 0.000132
       }
     },
+    "8ca775739468bea325e65ed8f7f8911ce35d5ef4285d4758b98425cbfb55b935": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f328b1ebf85e70b34f0431ba013f56287d0b1d1e548fced1e2abdfca41b9cb4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常并不会互相破坏数据。",
+      "translatedText": "Usually, they do not corrupt each other's data\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "8cb355a1a8ca5da457b7be831dd682abddf53585fc15036a1d5b66aefda939a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "43716cdce16666f6f6be0f135360e9c8e444f69e801e41cfd91a5e436b719281",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有限的步骤，解决逻辑或数学上的问题，这一门学科我们叫做算法(Algorithms)",
+      "translatedText": "A finite sequence of steps to solve a logical or mathematical problem; this discipline is called Algorithms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "8cc0feef9e09eeeb7e13b54a6159b9d84112161317bdbabb78685f7fefc0907a": {
+      "normalizationVersion": 1,
+      "sourceHash": "29a26df4f2ddc243c9d4b66b80a85d0d99573ba109e19f6e4ba34374cec0029e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**二分查找法查找效率很高，值得注意的是查找的容器中元素必须的有序序列",
+      "translatedText": "\\*\\*Summary:\\*\\* The binary search method has very high search efficiency; it is worth noting that the elements in the container being searched must be in an ordered sequence\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 38,
+        "costUsd": 0.000091
+      }
+    },
+    "8cd51d8df0059a069a695b5b2af1e5d53e489c41030ac5a5c4266abacbd115d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "4095329d88478cd6a3287e48417185c61b587cbcc2acc0991ec4adb305011530",
+      "contextFingerprint": "f1a14af5fbe31f051864f351885eb905ddecd76f12e57a2e581ea5f67a69d8b7",
+      "sourceText": "| 写法 | 说明 | 注意事项 |\n|:---|:---|:---|\n| `_1` | 调用新函数时传入的第一个参数 | 来自 `std::placeholders` |\n| `_2` | 调用新函数时传入的第二个参数 | 可以用来调整顺序 |\n| 固定值 | 直接写在 `bind` 参数里 | 默认会被拷贝保存 |\n| `&Class::method` | 成员函数指针 | 后面还要绑定对象 |\n| `this` | 成员函数内部的当前对象指针 | 常作为绑定成员函数时的第二个参数 |\n| `std::ref(x)` | 按引用绑定 `x` | 不写 `std::ref` 通常会拷贝 |",
+      "translatedText": "| Syntax | Description | Notes |\n|:---|:---|:---|\n| `_1` | The first parameter passed when calling a new function | From `std::placeholders` |\n| `_2` | The second parameter passed when calling a new function | Can be used to adjust the order |\n| Fixed value | Written directly in `bind` parameter | By default, it is copied and saved |\n| `&Class::method` | Member function pointer | An object still needs to be bound afterward |\n| `this` | The current object pointer inside a member function | Often used as the second parameter when binding a member function |\n| `std::ref(x)` | Bind by reference `x` | If not written, `std::ref` is usually copied |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 208,
+        "outputTokens": 107,
+        "costUsd": 0.000191
+      }
+    },
     "8cee81c33cfcc29748d72f6521dede54b21ea09aca72f00ec86bdcc070a84e62": {
       "normalizationVersion": 1,
       "sourceHash": "8bd98a06c4a04eb85161902f5f3d55d7855da53bf11dcf8420586fb72cc2671b",
@@ -97,6 +195,20 @@
         "inputTokens": 152,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "8cfa0c3c669f625a72a0633e2aa37188c9f91e6c2038b4cac23a2731b25a278f": {
+      "normalizationVersion": 1,
+      "sourceHash": "71e5c484946b39f73936f4e17249581bea919ffb0b0529fdb962d7bc98cb56e4",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 统计元素个数",
+      "translatedText": "* Count the number of elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
       }
     }
   }

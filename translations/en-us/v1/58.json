@@ -15,6 +15,34 @@
         "costUsd": 0.000092
       }
     },
+    "5821434272ced2bcda48a4dab83b70931ff914919ee232939e1db60d3c2c3581": {
+      "normalizationVersion": 1,
+      "sourceHash": "12961e06ee1e736b68bc50a327a937011b3fa287bd3a9271227938e6a13d8de8",
+      "contextFingerprint": "7cfe448fb3101cf3692d51e26dbc3d495172ec0231b6f3bd7bf162c6f7210fb9",
+      "sourceText": "* 堆内存\n* 文件\n* 串口\n* 网络连接\n* 锁\n* 句柄",
+      "translatedText": "* Heap Memory\n* File\n* Serial Port\n* Network Connection\n* Lock\n* Handle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "582225c569750becd678227bda2e722528a2fe53ec3315cba5e9daff6e29d592": {
+      "normalizationVersion": 1,
+      "sourceHash": "172ba1955dfba28fc0e1547216ddfa67414aeb8cb4e93edcf4c7aa872476f90f",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 求两个集合的并集",
+      "translatedText": "* Find the union of two sets",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "5829b503eee2afb89418975f3eee3c397d1491861fe8d5cdd03f1d19645c45b5": {
       "normalizationVersion": 1,
       "sourceHash": "44e6acfcc13404bc24f9fa7204e7c44703467cbbe6e622b06a358e88da1e348d",
@@ -27,6 +55,48 @@
         "inputTokens": 206,
         "outputTokens": 107,
         "costUsd": 0.000191
+      }
+    },
+    "5832564f53861faaf91b080660f45848a2dcdf6240e23dd963fa58f295f8d0e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "61e301e3702c1c03c03a39ebe407cdc12b50a71ee1e31b51d06d4fd1173cf96f",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- 普通函数；\n- Lambda；\n- 函数对象；\n- 成员函数指针。",
+      "translatedText": "- Ordinary function;\n- Lambda;\n- Function object;\n- Pointer to member function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "5844afc0936a2ae04390ad6a0728fb498c0daf4e96b1464ae5fc795a9f9d0933": {
+      "normalizationVersion": 1,
+      "sourceHash": "edf80fbb32baf6c386757b2d0b65b81d1b84f3f74119933f39536871fa3a4595",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 实现四则运算\n* 其中negate是一元运算，其他都是二元运算",
+      "translatedText": "* Implement the four arithmetic operations\n* Among them, negate is a unary operation, while the others are binary operations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "587686ca60769d15ad50147d7c3356ee45d542a8a487e49b9996e84d93c6cc3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "548f83828df2967af374323ae88400ce794f4717e6a0ecaa9933c3ead3d9e6ce",
+      "contextFingerprint": "d7e289a6cc237f95ceeae50f2dcb176538ccd94ec682bf592f7100a5fd046cb0",
+      "sourceText": "`vector` 的 `at()` 函数在越界时会抛出异常。",
+      "translatedText": "`vector` of `at()` throws an exception when out of bounds\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 16,
+        "costUsd": 0.000062
       }
     },
     "589892dc7e322a02850f8162e86a25eae7aad444a2091a56a1a0586c96ee04c0": {
@@ -57,6 +127,20 @@
         "costUsd": 0.000093
       }
     },
+    "58aa0eaabbbbf307808daa381802f6ced411fefd6e5c1910fd2d4a647c7d75a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6221568b766bcb05df15eafa6ee1b410c8f3199f3cbab7cdcb22dcdf39afda3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Lambda 和 STL 算法配合时最常见：排序、查找、计数、转换都可以把局部逻辑直接写在调用处。",
+      "translatedText": "This is most common when Lambda is used with STL algorithms: sorting, searching, counting, and transforming can all have their local logic written directly at the call site\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
     "58ab910a3c179887b63d12356eb29d7330f1f87c502b5f32d193769eb2704935": {
       "normalizationVersion": 1,
       "sourceHash": "70c1715f925c061b3ea192114ea4c8e28621ea4fd39ec40bca7c8e48a420f5cb",
@@ -69,6 +153,62 @@
         "inputTokens": 180,
         "outputTokens": 66,
         "costUsd": 0.000134
+      }
+    },
+    "58d8ba7c1d084cf9b4bbcc8e6daa7004476c3c0f2596eff3cbccb0f396c0b878": {
+      "normalizationVersion": 1,
+      "sourceHash": "31bedef137070affc76b33b0f3d563928c0eb5578a956c2b888aec55921fb0c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：move 不要用于 const 对象。",
+      "translatedText": "Correct usage: move should not be used on const objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "58da292d827b3a4a6a057fb91f903e95393606e937be1c67c7904fd675495391": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f77472e7bfc2b5277b6bddee4496328a9ab41060dfe51668e5697f16b0ad37c",
+      "contextFingerprint": "adfae71b695b53dd16e35e1722376c2153e7fb07baf4024b76a65b6e512023a6",
+      "sourceText": "需要注意，`std::copy` 不会自动为目标区域申请内存。调用它之前，`data` 必须已经指向足够大的有效内存。本例在成员初始化列表中已经完成了申请：",
+      "translatedText": "Note that `std::copy` does not automatically allocate memory for the destination region\\. Before calling it, `data` must already point to sufficiently large valid memory\\. In this example, the allocation has already been completed in the member initialization list:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
+    "58e4efb097d9e0165798087237cb6d9343ca5814302bd6ed4515f36f33a175a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8f3011f2eaacd9a7e6649cbde25e879bacb2b6763242607e2bda3ae4131f70a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "绝对理解成：",
+      "translatedText": "Absolutely understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "58f916ddcacbaab420e0c47b350b8008f0d865c2c6c952a9fd7a6eb125ae0ad1": {
+      "normalizationVersion": 1,
+      "sourceHash": "3058352546730b63a1291c4486efa8886ff9d25138fca65b309c0500f4d7a2b9",
+      "contextFingerprint": "968cfe0d38fc63900cff628b401570d868113d2a5b233b64292e2f9386f42b18",
+      "sourceText": "![说明: 2015-11-15_225145](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547608564071-bd876889ef.webp)",
+      "translatedText": "![说明: 2015-11-15_225145](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547608564071-bd876889ef.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "58ff7b038a262d98b07d582133372d16af8db003f58ec239a6bd416d6aa4c57c": {

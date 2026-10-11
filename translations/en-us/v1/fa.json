@@ -29,6 +29,20 @@
         "costUsd": 0.000058
       }
     },
+    "fa18758faa5b94764d4ac8ebb087b6f3aadc2550ccf6385feb3031128795e30c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a91a7a2b2f1fc222d9d7ee9163a2bd7e84caa769649aa53aa06e99e959b9f18",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：字符串对比主要是用于比较两个字符串是否相等，判断谁大谁小的意义并不是很大",
+      "translatedText": "Summary: String comparison is mainly used to compare whether two strings are equal; determining which is greater or smaller is not very meaningful\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "fa20d2f87c3f151ecc9fefa7b41d0e36877fd2d9990e34172b32d829a5c9b71a": {
       "normalizationVersion": 1,
       "sourceHash": "9c361ceea6c11921b5ef698e06225a9f3fbbd4f3be54758a8e8c2f81e2444124",
@@ -57,6 +71,34 @@
         "costUsd": 0.000163
       }
     },
+    "fa2a91362dfc26c225cb60e3c2698fd85139bcdd61eaeb5d076337c4d0732896": {
+      "normalizationVersion": 1,
+      "sourceHash": "aff110bd9ab47e1671bf6ef876839196c953892b00f55f0c265ec13cf6c6d241",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "赋值操作：",
+      "translatedText": "Assignment operation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "fa2c476c9a5c26598c53270ae6cfffed5790ebe03491546d4b12fde9347a3c0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "90f54884380715b98891544d67fc16c1026683ef3b1155f31baa6c1515cc29c0",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "需要注意的是，这里转换的是**地址**，不是变量里面保存的值。",
+      "translatedText": "It should be noted that what is converted here is the**address**not the value stored in the variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "fa2c6a0d82458eaa470301e5a14bbf670c34629fa021a7c3b40d5309abdb9c9c": {
       "normalizationVersion": 1,
       "sourceHash": "83add496174292f63c48c74aa56f8990a4afdcdcebf9a6fd2555a7dae855b3dd",
@@ -69,6 +111,48 @@
         "inputTokens": 147,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "fa2d56ab7379c042a5955edd43cd4ab6e0e3e370c5716e9fe9815eab7ad442ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "27e3a6c4e13739ccace14b1791a3968d72eda73705342c7d5f68393af2f8d06b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "建议严格按顺序学习。后面的章节会默认已经理解前面的生命周期、RAII 和同步概念。",
+      "translatedText": "It is recommended to study strictly in order\\. Subsequent chapters will assume that the preceding lifecycle, RAII, and synchronization concepts have already been understood\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "fa3330b785204a58a13dd837662a5e81946dad9dad194f75fd17f4c5435bb8f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a0971e090c1564fb64d8eb0a89d1e6ad9637b2e0b15df64910ada836ac9f10f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果一件事可以拆成几份独立工作：",
+      "translatedText": "If a task can be split into several independent jobs:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "fa38df9505b3e7876e2c9135d0c8f2003ec937c39978d83efb52ffd34dffa61e": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd1ed45d3ca26933b76dfca726143af8105625913e98994b99f467b4232bb874",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**可调用对象（Callable）**。",
+      "translatedText": "**Callable**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 10,
+        "costUsd": 0.000054
       }
     },
     "fa4bc6077fb46bf703c7cbd6dc45c344a46f9b319a2f3f418dc92717e0b72fab": {
@@ -113,6 +197,20 @@
         "costUsd": 0.000083
       }
     },
+    "fa6d0a4de0fe87e19725f168d3d2c3e8a3b8517173a5881f19bec1cf93d640c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c491e391ecb930025b7792ba108aab79eda85c93ddb9d34dd4d2241f0dc0200",
+      "contextFingerprint": "5481bd0e2fc469642db4588787e42703a8d7f4c27114060b6b21037cb89e3d85",
+      "sourceText": "| 场景 | 是否适合 `std::function` | 原因 |\n|:---|:---|:---|\n| 函数里立刻调用一次回调 | 不一定 | 模板参数通常更轻量 |\n| 类成员变量保存一个回调 | 适合 | 成员变量需要稳定类型 |\n| `vector` 保存多个不同 lambda | 适合 | 容器元素必须是同一种类型 |\n| 高频性能热点里的小函数 | 谨慎 | `std::function` 有类型擦除开销 |\n| 只保存无捕获函数 | 函数指针也可以 | 但函数指针不能保存有捕获 lambda |",
+      "translatedText": "| Scenario | Is it suitable?`std::function` | Reason |\n|:---|:---|:---|\n| Calling a callback once immediately inside a function | Not necessarily | Template parameters are usually more lightweight |\n| Storing a callback in a class member variable | Suitable | Member variables need a stable type |\n| `vector`Storing multiple different lambdas | Suitable | Container elements must all be of the same type |\n| A small function in a high\\-frequency performance hotspot | Be cautious | `std::function`There is type erasure overhead |\n| Storing only captureless functions | A function pointer also works | But a function pointer cannot store a capturing lambda |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 216,
+        "outputTokens": 118,
+        "costUsd": 0.000207
+      }
+    },
     "fa7d14a7727442360cef1cfdcaa80cd2c9bf178fca50e4af8c0bf1f5b45f2c9f": {
       "normalizationVersion": 1,
       "sourceHash": "ece8a85930d742841e7d142017ef482b865a5b25b92a9855b2d53c78fb62838b",
@@ -127,6 +225,76 @@
         "costUsd": 0.000052
       }
     },
+    "fa875e16d0c1e52c30246f4f11ef0b0e3d3d62c39b87f29ddd87d06b9520fc1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5dc3d18606aa9ae41e737540360edc34a55039f0efb0cc8262d768b4d2ba8a6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "简单理解：",
+      "translatedText": "Simple understanding:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "fa936953cfa0a11ba3acda2dfce6ba903973c3855db05eb6fcd84a6fd7bbd506": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7353d3efd29bb4e65fe674247ca8520e6c014484204ceb8e125cd463d3eace4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 mutex 已经被其他线程持有：",
+      "translatedText": "If the mutex is already held by another thread:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "faab6fbfa84cba3eeb6c2402972c06ee9002d09d904dd75507e8ce7e0c4e9c97": {
+      "normalizationVersion": 1,
+      "sourceHash": "165511d412d785e7f367c2e84fa57dd36aa8146fa8413ae361e47dc7141b7b08",
+      "contextFingerprint": "09155c4f2542769cbcafd22f11ae2c475022961e704927e803387679721f0064",
+      "sourceText": "1. 需要保存回调时，用 `std::function`。\n2. 需要统一不同类型的回调时，用 `std::function`。\n3. 只是立刻调用一次回调时，可以优先考虑模板参数。\n4. 保存回调时特别注意捕获对象的生命周期。\n5. 不要把 `std::function` 当成所有回调场景的唯一答案，它是清晰性和灵活性的工具，也有一定运行期开销。",
+      "translatedText": "1. When you need to store a callback, use `std::function`\\.\n2. When you need to unify callbacks of different types, use `std::function`\\.\n3. When you only need to invoke a callback once immediately, prefer a template parameter\\.\n4. When storing callbacks, pay special attention to the lifetime of captured objects\\.\n5. Do not treat `std::function` as the sole answer for all callback scenarios; it is a tool for clarity and flexibility, and it also has a certain runtime overhead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 194,
+        "outputTokens": 98,
+        "costUsd": 0.000176
+      }
+    },
+    "facc325391a712c1d05d7c6e06eb60ef28bd844e86672a1ad5d27a238facacf9": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0e9bb0164b6e89a71cdcf56df2340c39b78643767a416dc6b753c9715de6fe0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以粗略理解成：",
+      "translatedText": "It can be roughly understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "fadc1d931ac9a43f1430411daf955b82a7d7201be257f553f0cef0c4dc48af60": {
+      "normalizationVersion": 1,
+      "sourceHash": "53096d2a64890452ea4fdedd77ffeeb16261c3da484cfeb39c8aa33ab76e1d36",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于这种“单个独立计数器”的情况，可以使用：",
+      "translatedText": "For this \"single independent counter\" case, you can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "fafa8879b83d9def4cc9c665ca090e7d62ae1236009e59869d647a8c0761540f": {
       "normalizationVersion": 1,
       "sourceHash": "2b61617a38224f5f6709dd9ff61dee86145da15945bc4bd1a29e4da05dc94592",
@@ -139,6 +307,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "fafaef852221975efd6d5929971836de32ef1e49431abd6295a223387ce5a5aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b393a4b05d632a66b9a879c1f0be0df21b4e37daae11a72b1b739de708d4cb2",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++20 引入了语言级协程支持，常见关键词包括：",
+      "translatedText": "C++20 introduced language\\-level coroutine support, with common keywords including:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
       }
     }
   }

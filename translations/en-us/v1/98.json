@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "98120bdd31687211ae4c31a92feeabf523fec52ffd118cbdaedeb470dc50a090": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a58ee6285bd79ce900eea2e959f8ccf8525a0704b9144c4dec5c4f26894b3d5",
+      "contextFingerprint": "a3a87d0dd10b672100bdbe11cca451985650096cbf8db35d078ff4e994355824",
+      "sourceText": "| RAII 类型 | 管理资源 | 头文件 |\n|:---|:---|:---|\n| `std::unique_ptr` | 动态内存 | `<memory>` |\n| `std::shared_ptr` | 动态内存（共享） | `<memory>` |\n| `std::lock_guard` | 互斥锁 | `<mutex>` |\n| `std::unique_lock` | 互斥锁（灵活） | `<mutex>` |\n| `std::fstream` | 文件句柄 | `<fstream>` |\n| `std::thread` | 线程（需 join/detach） | `<thread>` |",
+      "translatedText": "| RAII types | managed resources | header files |\n|:---|:---|:---|\n| `std::unique_ptr` | dynamic memory | `<memory>` |\n| `std::shared_ptr` | dynamic memory (shared) | `<memory>` |\n| `std::lock_guard` | mutex | `<mutex>` |\n| `std::unique_lock` | mutex (flexible) | `<mutex>` |\n| `std::fstream` | file handle | `<fstream>` |\n| `std::thread` | thread (requires join/detach) | `<thread>` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 53,
+        "costUsd": 0.000117
+      }
+    },
+    "9819cbad63112fb153a2d5cbfb078ab4e78bfd8a2522fd2e9168e1725d1ba5fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4d5754f5b46784ee5a866367093001d17d01b51036fff686feb658026abc5cc",
+      "contextFingerprint": "29e1ede9bd010e1f916baf5c2825a226cba15c3a0ba47898f8a6c2f3dfd81b32",
+      "sourceText": "### `unique_lock` 可以再次加锁",
+      "translatedText": "### `unique_lock` It can be locked again",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "981bc566a481d625f58b0cca4e7a4a76214b031c5a9ebcc0c634789f558301ed": {
       "normalizationVersion": 1,
       "sourceHash": "ff70fd93958797d81386696a67d2dd8e5939c15a121c13daea773328f385ff25",
@@ -15,6 +43,34 @@
         "costUsd": 0.000093
       }
     },
+    "9832de41831d6123206cba46bfb1f6fee12f0fabd4151bf244f4803b16d9ad6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b69bbb9c207790461533a575b86d5873d0e40ba52a65d820b755adb01dedd99",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：bind 默认拷贝参数，需要引用时用 std::ref",
+      "translatedText": "### Example 5: bind copies arguments by default; use std::ref when a reference is needed",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "98426386da2a6d8b0290c240d6c5dd929bf2a0b1f5e7ed9c013f8b94904c4c81": {
+      "normalizationVersion": 1,
+      "sourceHash": "656889685244043f976b88ae9fc779932935618f78f6b0679215843a058886cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：list赋值和交换操作能够灵活运用即可",
+      "translatedText": "Summary: It is sufficient to be able to flexibly apply list assignment and swapping operations\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
     "9857264d605d59fb28c335e0fb621324bd7ddde409b45346f02907962f57f68c": {
       "normalizationVersion": 1,
       "sourceHash": "36858b339cbf97b8247f9ae430d9c85547bae6d62d55c962e2fb48c2119e11bc",
@@ -27,6 +83,34 @@
         "inputTokens": 154,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "985d08e93f88dba74b7f7df445a472a9ca7919418e5c9d1bed19694f91ad7e3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "97d4a0800ebf71350be42a6053da7da639d32cb86379698921fbd45df978082b",
+      "contextFingerprint": "3a0671285cc3cabbcaf8a09ed0b0e2aa5af96cc5a2511d52b76a86b37adf638b",
+      "sourceText": "因此 `find_if` 的第三个参数回答的是：",
+      "translatedText": "Therefore, `find_if` the third parameter of  answers: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "98766d196da2fab402112d726f46742c24019b48fb816e91b5f7229be58e83bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a657f4e9e33ee427cefc535dbcd46be16119a7d9fe8e5e703e22038106340d7e",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对vector容器进行插入、删除操作",
+      "translatedText": "* Insert and delete operations on vector containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "98a03ff15eed59f76f08f47462a49174658f6a707504116db7954afb023f1ad3": {
@@ -83,6 +167,20 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "98e1e8ffd8da2c6880a8d7e1ddb3415f72156d207c3d0b005534ab1d81542d41": {
+      "normalizationVersion": 1,
+      "sourceHash": "981ec682c4403ecec0682f6ce1040207c6ceaf1c4c6f123cd39b0bfd177bffe0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：认为 span 可以用于不连续容器**",
+      "translatedText": "**Error 3: Assuming span can be used with non\\-contiguous containers**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "98fb9495258d373aa839ab07763a8b958ddcbec8e29fa412350ae78a2848caae": {

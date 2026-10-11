@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ba1821413b994df50bc31ab8507b1ccc6735188a806d318497a66b64001d6783": {
+      "normalizationVersion": 1,
+      "sourceHash": "26b709ca4b2ee21734055fd6f2181a8515cbecbebf6036a9384b05431e3bb6e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "区别可以简单记成：",
+      "translatedText": "The difference can be simply remembered as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "ba35da7c3e1a32345ec3786580b55f97edf7a8a22730621abe998e631fd9de2c": {
       "normalizationVersion": 1,
       "sourceHash": "b9a641333f309748324f2cf1bc042f6f13a5e3af5e9d14b168b8a20cf9261fe7",
@@ -29,6 +43,20 @@
         "costUsd": 0.000069
       }
     },
+    "ba45a4da4f552af0a8a25e8e63ddf603d61d6ce75511701b6c5fe117980badb3": {
+      "normalizationVersion": 1,
+      "sourceHash": "154c9dced0dea31aec8f727b6d9cfb9745a25c8cde7d9afa3a43bd82e90b924b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会立即获得 mutex。",
+      "translatedText": "The mutex is acquired immediately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "ba49ae65bfaea65de5eecfebaf0ae71142c9cfdc56924a5738e023d967010be2": {
       "normalizationVersion": 1,
       "sourceHash": "3c516f3d020b77b74bb67c071352e3c59b01148df4f7750e7b86b5b37342e89c",
@@ -41,6 +69,20 @@
         "inputTokens": 143,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "ba590c30072814bb6787899ff30c7dad1482c6616f6c0cd50338c7c98f9ea0f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "f10d3b73c9936c3f9e8ce6f77e6a180c93e5293df250d55c1f7fc911e49c2735",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：在示例 3 基础上，提前 return 时才看出 RAII 的价值",
+      "translatedText": "### Example 4: Building on Example 3, the value of RAII becomes apparent only when returning early",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
       }
     },
     "ba670e10b0feeef280b44289aa6cec57d714bf083282aa229bf6b9b47f9a15b3": {
@@ -113,6 +155,132 @@
         "costUsd": 0.000057
       }
     },
+    "ba934b3566a789912e4336ec122056b436e0a6ca951ebd6dcc9d24935dd4912e": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca2546e69ac86ab38385c333dce838d2bf092085f84e4f20eaf362cdff3879a6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，用 std::visit 处理所有类型",
+      "translatedText": "### Example 3: Based on Example 2, use std::visit to handle all types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "ba9fdee6aa5d0df68de3c7d2a70d24e25f66015f3e60f97d4b936c7594a9e101": {
+      "normalizationVersion": 1,
+      "sourceHash": "b21739550fb1ae67fa0d7eb3e6e94548c39f53a514586652781c9ad78a59580d",
+      "contextFingerprint": "78ae599abcd8e26d185450fb639427117275f1094ea8b2470cbcd12c0ca0a543",
+      "sourceText": "原因不是 `int` 本身不能存数字，而是：",
+      "translatedText": "The reason is not that `int` itself cannot store numbers, but rather:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "baaef3724594023024290334211e271eff06cf479aad8631b0fe7a3c408f8c57": {
+      "normalizationVersion": 1,
+      "sourceHash": "92818b39cd5e27a5be0e1cc76ca109ba05d6521d35efb4b2dd2624d0dc2bf6c0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 重新抛出异常",
+      "translatedText": "### Rethrow exception",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "bab563008fc56cb4e01204ffe6c861515998ff2c7342562704cff14b5578a632": {
+      "normalizationVersion": 1,
+      "sourceHash": "06aa3900b82de2c6906ed059128526d07c8a6a4f3d20cd7114e63e3ac45e70ee",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：忘记 RAII 对象的作用域**",
+      "translatedText": "**Error 3: Forgetting the scope of RAII objects**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "bab7087d9df39a8cb6eaab588a616f331a7dcc503230ee2737ea4640f28fd369": {
+      "normalizationVersion": 1,
+      "sourceHash": "11efd914404bc1f54f4c03f16a960e5d75f239a2a12ea604141ed491d9d66ebb",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> RAII 锁",
+      "translatedText": "> RAII lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "babc7da927dc2ebb9cb8aef516fd6691b6874e516660f402e225fea88584aa08": {
+      "normalizationVersion": 1,
+      "sourceHash": "7da4e638d2257cec2efa79c465fa5a6b02d1c53ee9e42c78d63f3ae6d48e658c",
+      "contextFingerprint": "929afc203e1184850da27cd4ccf3aef47dbcf8b0603ba5df7c6fae8795273cef",
+      "sourceText": "1. 会写基本的 `try / catch / throw`\n2. 会使用 `std::runtime_error`\n3. 会用 `catch (const std::exception& e)` 统一捕获标准异常\n4. 知道异常适合初始化失败，不适合高频控制循环\n5. 理解 RAII 可以避免异常导致资源泄漏",
+      "translatedText": "1. Able to write basic `try / catch / throw`\n2. Can use `std::runtime_error`\n3. Can use `catch (const std::exception& e)` Unifiedly catch standard exceptions\n4. Know that exceptions are suitable for initialization failures, not for high\\-frequency control loops\n5. Understand that RAII can prevent resource leaks caused by exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
+    "bac662b49317c714ad1e2322750b90a8618780913f88158910d2c7a070c33f50": {
+      "normalizationVersion": 1,
+      "sourceHash": "e01a2a53d537324e4dd2d9606b041c931fc01e2b8f2f34f4378ab27f2dd738dc",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用遍历算法",
+      "translatedText": "### Common traversal algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "baca2c0b9b362852f88223ed1aed4a16ebd449553f6331795c23ddcea9b8d21e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2acbc7e91a75f0fcb3c9e8eb515e89d2f34ffb387f03e7509ce660c898c78026",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：deque赋值操作也与vector相同，需熟练掌握",
+      "translatedText": "Summary: The deque assignment operation is also the same as that of vector and must be mastered proficiently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
+    "bae10eaeae07f078849925ba966e4fbf15bbf692baeb609c6ce9e28a3e645ad8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2283a534aed24c8888f79a1ea6a4c1b86e74c6d5a13b83dc430e6f8f18a7927",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "机器人控制中，周期性代码更关注稳定性和实时性，不要让异常在高频控制循环中到处乱飞。",
+      "translatedText": "In robot control, periodic code places greater emphasis on stability and real\\-time performance; do not let exceptions fly around everywhere in high\\-frequency control loops\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "bafbfe397288a01369a65de02fa432483a61fc0942ff31024031b81230814282": {
       "normalizationVersion": 1,
       "sourceHash": "edd1711e1bf4b991005f10f2acba5e5358dbcd18279a810a207ca1c5071bb2ef",
@@ -125,6 +293,20 @@
         "inputTokens": 153,
         "outputTokens": 43,
         "costUsd": 0.000098
+      }
+    },
+    "bafe889a6ffbcb76fd611cd04975eafcb8a91df506e70704c236792c4d3b14b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d64ff9e00143557699655ec6cbfa3a680e50cb03086e6d53d769fd49b854c290",
+      "contextFingerprint": "898c6ebd5295bafa16714719e0272851df7f18a4bef35676d2b3e6c5336d8111",
+      "sourceText": "下面的 `calculate` 不关心具体执行加法还是乘法，只要求传入的函数能够接收两个 `int` 并返回 `int`。",
+      "translatedText": "The following `calculate` does not care whether addition or multiplication is actually performed; it only requires that the passed\\-in function can accept two `int` and return `int`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     }
   }

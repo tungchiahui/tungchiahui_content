@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0d02048c6af041526164a832eb8cd62be29764774ad53afb949ea9ab9d55a42e": {
+      "normalizationVersion": 1,
+      "sourceHash": "01e226cabeaa2a0a8ef98efe36cb4f9f4a245886405d7164b3cf1a3813269a95",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* deque容器构造",
+      "translatedText": "* deque container construction",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "0d1d4b7d760a59e3cfae507dc281ffe86d18c223cd22510ddba65665d69524ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "d6666e25829a12244dd2ba81f37c0b2d8b2500f1be991bf8ff01a54e0fcf63a2",
+      "contextFingerprint": "c86c4e6816114b1abb6e9c534d777e89b867cc22c4a78adae7caeed8fbe9fd62",
+      "sourceText": "C 语言的 `enum` 有几个问题：",
+      "translatedText": "C language's `enum` There are several issues:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "0d1f621f2ba2c2ea24f6094b9056bc06d86323ab4bf80318c6774a04aec2275d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4625624ae92ddc4dc892d741b1ef1f4482466ac5e8a53052bae3d0e1738eccfe",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++17 之前没有统一的“解包”语法。面对不同的复合类型，需要使用各自的访问方式：",
+      "translatedText": "C++Before 17, there was no unified \"unpacking\" syntax\\. For different composite types, their respective access methods needed to be used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 46,
+        "costUsd": 0.000104
+      }
+    },
     "0d23cd6a05ee5a5c0979d06d8a62356e74ef79728298de2f8a9ca3bfbb7684f8": {
       "normalizationVersion": 1,
       "sourceHash": "af514fdb28a9a7d32dbde95c5334bb00e2413a5dc0a3178a96e7a6231297adb2",
@@ -13,6 +55,20 @@
         "inputTokens": 143,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "0d318b1c8e7c65fb291ca08e0244bf1e4d3352e63320bfd0ffb7bdea15dcf976": {
+      "normalizationVersion": 1,
+      "sourceHash": "0fa2a0433aa49ca1a2410302164a488227162c0802f27b87c5320d78339993d7",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### string查找和替换",
+      "translatedText": "#### string search and replace",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "0d5bba38fdd238f75b1526f131058ae655be09a2a5678bf5b64a796a100660cb": {
@@ -29,6 +85,20 @@
         "costUsd": 0.000055
       }
     },
+    "0d62b57f8bf2548f908596fcf5bb62ef9eaf6d2324893818037c0e2f7b21d476": {
+      "normalizationVersion": 1,
+      "sourceHash": "93c65c69d63bc75e2aaf2d693d532f0c239c06939d8a70de89315d2341725a1b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 根本拦不住它。",
+      "translatedText": "A mutex simply cannot stop it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "0d6a8f023a5d206dd5f253b2bae4c8a4896bb4b887c4a2bf2abf5ea92eb20bfd": {
       "normalizationVersion": 1,
       "sourceHash": "4f124758a3e37245141c77916e533f8e6c9def9006e66d4209d78b75dccf399b",
@@ -43,6 +113,20 @@
         "costUsd": 0.000085
       }
     },
+    "0d77f20f103f7fccf9946871ff567ec025a9ac207b34b10020603e0745029839": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c2a6e1f64990edcbe35473707c730f5ac2b8faaa9c4750343e6920389cc6231",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "虽然两个节点都能找到对方，但两个方向的**所有权含义并不相同**：",
+      "translatedText": "Although both nodes can find each other, the**ownership implications are not the same in the two directions**：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "0d7bf62254d4c45152c2696d22c350fd38c466ff4173c52e7283cd8593c55f0e": {
       "normalizationVersion": 1,
       "sourceHash": "f2b1ceda682d79caf87cf47628b9ab0b0c219f6daf6e0350a140ce577d33a75e",
@@ -55,6 +139,132 @@
         "inputTokens": 147,
         "outputTokens": 36,
         "costUsd": 0.000088
+      }
+    },
+    "0d86e3a055e1c6b6471d390c31b95c3b93672c95031ae145effefcd96803a390": {
+      "normalizationVersion": 1,
+      "sourceHash": "7358a32105c650b6a61dbfe65f22ac55dfe1c9a6771418acb51633effa0f7a50",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**例如：**",
+      "translatedText": "**For example:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0d931a2b3295c795cd6c6b3c864dd02c1e013cdb66e2195257baf2cdde616725": {
+      "normalizationVersion": 1,
+      "sourceHash": "7949f19ea7b5372e1ebc51ef331ecf62e94f133a14459ed7c5ce06c375c18a96",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "队列中只有队头和队尾才可以被外界使用，因此队列不允许有遍历行为",
+      "translatedText": "Only the front and rear of the queue can be accessed externally; therefore, the queue does not permit traversal behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "0d96cb82d8072b22d13425d02455d1965e0350bd00d65f760fe9cdede3ac0080": {
+      "normalizationVersion": 1,
+      "sourceHash": "514292f5056f6d96bec49610fe5cc4f16e462465e570a501dd7aac9940f65662",
+      "contextFingerprint": "bd67c7e46438b3c312aa9588528bbfd8a37cf762989e416592841ae5d0ca08cf",
+      "sourceText": "下面讨论的 `auto [a, b]`、`auto& [a, b]` 都是 C++17 结构化绑定语法。结构化绑定不写 `&` 时通常会产生副本；遍历大对象或想修改原数据时，需要考虑使用引用。",
+      "translatedText": "The following discussion of `auto [a, b]` and `auto& [a, b]` are all C++17 structured binding syntax\\. When structured bindings do not write `&`, a copy is usually produced; when iterating over large objects or wanting to modify the original data, you need to consider using references\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 66,
+        "costUsd": 0.000133
+      }
+    },
+    "0dc39ca54656faa661568a91ca385d75a321a865c8810c377472d5d8b1f70e48": {
+      "normalizationVersion": 1,
+      "sourceHash": "96db06967d96938743fde8cd73848045dbf883ef58af2771f89496bc32160d0e",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**可能的运行结果**：",
+      "translatedText": "**Possible run results**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0dc645d3e16324f195a5ad9caf41d76b7e7ff3c7610920e1d66c4dee19687189": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf946e4c035319f4e73573508f0b39cc37bfcdfdaa04e40ccde059959452a11b",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### lock() 的作用是什么",
+      "translatedText": "#### What is the function of lock()?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "0dc6808d3c7c03aff0d13574eebabd690d7aeb9474fe92648c6c7120c007d99f": {
+      "normalizationVersion": 1,
+      "sourceHash": "f470b6051edceaf278a984904c12d7f2380f845370514e83af1026a35d55a7e5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这反映了并发编程中的一个重要思想：",
+      "translatedText": "This reflects an important idea in concurrent programming:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "0dc847e50da6e1c8cd2921da3d026d0621b1a49e19d73a4dbbd32243ab6c10a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b3f38a2575fcb8e44717274b66b888bb2dca34489a86d85d2e217ca20c295fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "局部变量可能在线程使用前就销毁。",
+      "translatedText": "Local variables may be destroyed before they are used by the thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "0dcb49f77531e7caba54e1f6fb3e5126969145a60f52c5eaf4a1e6be63866942": {
+      "normalizationVersion": 1,
+      "sourceHash": "2a78bdbd21f4a703a1acc92dd3d8e8ecc52a1bef328250250105fa3b3af5c30d",
+      "contextFingerprint": "92476fc9641271cbb8329ecebbf590763c434e0f89553b422356b969ee1f77ac",
+      "sourceText": "* `std::exception`\n* `std::runtime_error`\n* `std::logic_error`\n* `std::invalid_argument`\n* `std::out_of_range`\n* `std::bad_alloc`",
+      "translatedText": "* `std::exception`\n* `std::runtime_error`\n* `std::logic_error`\n* `std::invalid_argument`\n* `std::out_of_range`\n* `std::bad_alloc`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "0dfa3854a90d5ea7635d8dfb408f86f79dc890b90e58d7cda2abb0039d81008e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3986f8726798e6e1ad79db0ae8ead97d8926d0d85bdc7092efb8ec2f43a8435",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 示例中使用的 API 和语法",
+      "translatedText": "#### APIs and syntax used in the examples",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

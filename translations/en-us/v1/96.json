@@ -43,6 +43,76 @@
         "costUsd": 0.000059
       }
     },
+    "962bd7cf8db0846e3981e061a19032fc5939a1d63bde7bbd17d5b00675d01d1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4eaa7368bddae0fbfd56393b72e02f5406625399b4afebecbd2442419f0e15f4",
+      "contextFingerprint": "fc132d19205597fa05aa6b3c6a49d6e8e396e8a30e7ed86f186799ef139158f9",
+      "sourceText": "这个差异在单独移动一个对象时看不明显；当 `vector<Buffer>` 大量 `push_back` 触发扩容时，是否 `noexcept` 才会影响容器选择移动还是拷贝。",
+      "translatedText": "This difference is not obvious when moving a single object; only when `vector<Buffer>` large numbers `push_back` trigger reallocation does `noexcept` whether the container chooses to move or copy come into play\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 41,
+        "costUsd": 0.000098
+      }
+    },
+    "96301ae4776d22cf937f60445162801df0b814556db0b83c6f41263a955eaa27": {
+      "normalizationVersion": 1,
+      "sourceHash": "a36686e4a3563363ed68bc9f5635995b73761ff43dab6f152b7d584ec8d6456f",
+      "contextFingerprint": "ae3049dcac4baf73e3e520d86d2a6b13a20fc8ba4c1ccc3e8e38f6dcd9a9d612",
+      "sourceText": "结果为 `true`，表示按照当前规则，`Bob` 应该排在 `Charlie` 前面。",
+      "translatedText": "The result is `true`, which indicates that according to the current rules, `Bob` should be ranked before `Charlie`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "96395314dcdf586ba4665a940174a049f8760d273164cb29123c1cad773c5bc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e1ddaabbf5634b7e5a92290564aa6d0790dcf599c4d64ea7f09f6f5d2c47253",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 尽量使用引用捕获",
+      "translatedText": "#### Prefer to use reference capture",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "96434101a2bc2226d8cc1775dae689d3d09412018d266f51bbbd87bf1505b242": {
+      "normalizationVersion": 1,
+      "sourceHash": "abfd26f99de2a40c44c97c14581881a3238793c2ab9217913fb8d0a417be5489",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，const auto& 和 auto& 的区别",
+      "translatedText": "### Example 2: Based on Example 1, the difference between const auto& and auto&",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "9649f65a02e8e9e288e4598f5ea112230e960b67b74dee4a582a9d60ceb0bb71": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ad05086d29876505299775b8b7f3c8fbc0983a690f49f1d4f930b069456e26a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：swap可以使两个容器互换，可以达到实用的收缩内存效果",
+      "translatedText": "Summary: swap can exchange two containers, which can achieve a practical effect of shrinking memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "9653c926b2da9342bcb5c8fa25835e51e27c8925b15a45914b01461a57755240": {
       "normalizationVersion": 1,
       "sourceHash": "ed7e56a51c0e42b5bdc1ee6b03a81e0366de075b1161808df503ecd109534ff7",
@@ -85,6 +155,76 @@
         "costUsd": 0.000094
       }
     },
+    "9686864dcc91b10de52bcfc46e1a2fd313ae418b1bc001df28faf98879742154": {
+      "normalizationVersion": 1,
+      "sourceHash": "7dccacf7357d122b7f0f383cd7d6deb70bcdcb1f188e26c0a363a79741a5abca",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 输出方式对比",
+      "translatedText": "## Output Mode Comparison",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "9688e378bde80571aad85a5137cac0bc96f4c7d49015d11254a8198aa0156086": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e792fb33b1200e4e89466531969340db4921a058211b897e0a290e6acf2611c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "能使用简单方案时，一般优先简单方案。",
+      "translatedText": "When a simple solution is available, the simple solution is generally preferred\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "96a2425858a940f97d33afb8c3e85c0e13c16572d712f3d24b15aeb0ceb14bd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "31bf7b99ebb29f64d2be8709504e21680872fe9a2ee007ebbf403dfe3f78acd0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并希望修改原对象，应使用：",
+      "translatedText": "and want to modify the original object, you should use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "96b77b20e6527734cf1dd3892bc88b0f8d3db7171acf554bdc2dcebcb8f47839": {
+      "normalizationVersion": 1,
+      "sourceHash": "503216b590c90ea5692f20af50e2d49884c52e0c56ef246a80220ee9c1f95b6e",
+      "contextFingerprint": "e832bc3150b76a5ba6e6f59a382b2b9caa70977dbc7abf955c18181c947f4d15",
+      "sourceText": "> 总结：通常直接用函数名赋值，并使用 `function_pointer(...)` 调用，代码更简洁。",
+      "translatedText": "> Summary: Typically, directly assign the function name and use `function_pointer(...)` to call it; the code is more concise\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "96bb81e6b161f8178703f944dae6433b86c66be42a201fbc7a60a8f38508b25b": {
+      "normalizationVersion": 1,
+      "sourceHash": "4805751c6920f76e2a8e68656aeec53a32e3d997e6709f65479ba793b2e09677",
+      "contextFingerprint": "5122c2826f1ab307c2f48f065d1ec8155e6b80e7580a0978e3351a6f0033c533",
+      "sourceText": "`enum class` 解决了上述所有问题。",
+      "translatedText": "`enum class` All the above problems have been solved\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "96c6f5bfa18884c8c92f7777ad4154c633c5913125fadc807a77efec15913aa4": {
       "normalizationVersion": 1,
       "sourceHash": "c8103235d9542ef5c24a72b538ec382dcea93b8095b307afbd4b4976bd406aa2",
@@ -97,6 +237,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "96cd4038ce28c252a1ad6a4520b8602278d84ebf270e8733b37e26604897a3d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "06746286dd5870c403b41a0d29a08d30ca3d04b2c9db9fd8fea58f227efbcf47",
+      "contextFingerprint": "0b30122d9c038eeba5689243315cb0333e4a56630d37ef77ea4402cbfe6a1075",
+      "sourceText": "`std::size_t` 常用于表示容器大小、字符串长度和数组下标等非负数量。",
+      "translatedText": "`std::size_t`It is often used to represent non\\-negative quantities such as container size, string length, and array index\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "96d03fb33b5da016803c4a05a76a6dccae6d1b5131d3a3cf4e9967e481b439de": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c46bbcf6520299ea360349ef8ac62ff9ea8f79aa9be3feb058c241c689bbb8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样：",
+      "translatedText": "Like so:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "96d858b4d8492f9d7f114e787afb1bb3ed369671d88d23421f1543e2e5dedf9b": {
@@ -127,6 +295,20 @@
         "costUsd": 0.000133
       }
     },
+    "96df8297867e3b359cbe93bfb5606eb6c8c7bb2ec0b641c800f05b757740e2c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "558aae220db9754b080dca5157439eb772da37aabdf93e954b8b8bd897779f93",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果示例（存在数据竞争，实际数字每次可能不同）：**",
+      "translatedText": "**Example run result (due to data races, the actual numbers may differ each time):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "96eeefd775ff76760baceb450ed04b2bcd6c97328b8073a2f257dd516997ad29": {
       "normalizationVersion": 1,
       "sourceHash": "165018cf609c8c8109814dc372e33f49df1a1dedd692c19afb459e6710233bea",
@@ -139,6 +321,34 @@
         "inputTokens": 140,
         "outputTokens": 24,
         "costUsd": 0.000071
+      }
+    },
+    "96f1b8d0d4ac7f4f8ca20da22a8c445ebad299c395a434d4379a0c312c9fed56": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d3149d606b35b40d8e474040d2f9b8ead350184a51c9c1f143dae7222995b2d",
+      "contextFingerprint": "fb073ecc62bf258a0ff028916849f38ac01d84e69d48232ee62d5ae941250530",
+      "sourceText": "是传给 `print_sum` 的参数。",
+      "translatedText": "is the parameter passed to `print_sum`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "96f23b7969ca27e7c46c5ffbb13dc067e0ef9865e9acc1f75047ed136943f431": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb8a11439384d986dd625727fdb25bdab8f6fc5c31de47d4e88f3893904bb34c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**sort属于开发中最常用的算法之一，需熟练掌握",
+      "translatedText": "\\*\\*Summary:\\*\\* Sorting is one of the most commonly used algorithms in development and must be mastered proficiently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
       }
     }
   }

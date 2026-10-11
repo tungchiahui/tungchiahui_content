@@ -15,6 +15,20 @@
         "costUsd": 0.000153
       }
     },
+    "aa20ae131b8f66dbd67c92cb7a7b103c8eb6f6b092272dde6502d7bcd9f429d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "347b4f416b14e63af6877bcb5cfb7cf05a37ed7f601af16d8ea0a13e788ea455",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 使用模板时必须确定出通用数据类型T，并且能够推导出一致的类型",
+      "translatedText": "* When using templates, the generic data type T must be determined, and consistent types must be able to be deduced\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
     "aa266ce6847e571f0e45213c59f0bd1d65960f20d7a02381e35988c1f971516e": {
       "normalizationVersion": 1,
       "sourceHash": "60d35908050e5e176482871b360e07601c5b9ad8b7e4b194fdfc9b1b518e32d9",
@@ -85,6 +99,62 @@
         "costUsd": 0.000126
       }
     },
+    "aa5087fee882e427b2527c6ad3b20ddc4237cd67b2b32c233af956d65cf380d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c38eada751acae85cee13db4f84666a4e193a09dcaecf37e71c17ffda80debf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这才是 mutex 最核心的思想。",
+      "translatedText": "This is the most core idea of a mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "aa52bfa5ecebfcaeb50403de6ba612ae3bb3e8b5df6a0ce5fc7525e5d938d235": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f8e856c1c8b74fbd22eecf622d349c501ef5d2ee499aae1760f81bdee045e0d",
+      "contextFingerprint": "a9ab20ee9788cc784723aecb7b3ab7fac8dbc1ed331db48bb80705a58bd5d6fe",
+      "sourceText": "### 扩展示例5：使用 `static_cast` 选择重载函数",
+      "translatedText": "### Extended example 5: Use `static_cast` to select overloaded functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "aa64f93b8acb0888f6246c244ed2689cc5b28ce95a592f87ff9156bd98028158": {
+      "normalizationVersion": 1,
+      "sourceHash": "d77ec3f5059d55566ad5fa1ca181c948c39b7fc8b7bf7efc010517e19be980bf",
+      "contextFingerprint": "d85b4b934ea82fc0265dcb071daa06bc7fcab82ae36f58d3108da8d7780b3f6e",
+      "sourceText": "当捕获列表为空，也就是写成 `[]` 时，Lambda 可以转换为签名兼容的普通函数指针。",
+      "translatedText": "When the capture list is empty, that is, written as `[]`, a lambda can be converted to an ordinary function pointer with a compatible signature\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "aa705f3605510c1a859fbd6bd10d90f3dc99539bcc9ab12c4688681942cb768d": {
+      "normalizationVersion": 1,
+      "sourceHash": "91ea87a14c9ee24d4137982410febe88dd32e006985fdeeaae01a36d7ce7f53e",
+      "contextFingerprint": "38315fb5d21c9083fe04627befcca9ad21cd600e3b3905859de28231b6246238",
+      "sourceText": "* `string& insert(int pos, const char* s);  `                //插入字符串\n* `string& insert(int pos, const string& str); `        //插入字符串\n* `string& insert(int pos, int n, char c);`                //在指定位置插入n个字符c\n* `string& erase(int pos, int n = npos);`                    //删除从Pos开始的n个字符 ",
+      "translatedText": "* `string& insert(int pos, const char* s);  `                // Insert string\n* `string& insert(int pos, const string& str); `        // Insert string\n* `string& insert(int pos, int n, char c);`                // Insert n characters c at the specified position\n* `string& erase(int pos, int n = npos);`                    // Delete n characters starting from Pos ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    },
     "aa85792f2341946e7bd88b9812e0870e1d1fb3e27c434dfa836edd160efea607": {
       "normalizationVersion": 1,
       "sourceHash": "6b550ebdff995f8825025d3fb3f0d7417ac642e8d2b1a7f82041fac71e75be1d",
@@ -97,6 +167,34 @@
         "inputTokens": 143,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "aa900c01fe34154ca356a7f4ceaabb92ebdb85c9253a35aa8731c46bff1d1064": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd31eee7fc62ec77e18056a47debec8f0bf3c4236e653d95c8e76ca8db2c8ecb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常用的容器中迭代器种类为双向迭代器，和随机访问迭代器",
+      "translatedText": "The iterator types commonly found in containers are bidirectional iterators and random access iterators\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "aaa29d265ca53492be18e1e34a56b972471fdc2f96042b683d7ea62fbce69888": {
+      "normalizationVersion": 1,
+      "sourceHash": "abdbbf4bd955f5867232937013e395722d7fb6123e5277c1dad11c08c048bf51",
+      "contextFingerprint": "c686507db8a8c513158e309b84360c0dc3152b2aabf60c76a441a2a6ddad0a88",
+      "sourceText": "* `list<T> lst;`                               //list采用采用模板类实现,对象的默认构造形式：\n* `list(beg,end);`                           //构造函数将[beg, end)区间中的元素拷贝给本身。\n* `list(n,elem);`                             //构造函数将n个elem拷贝给本身。\n* `list(const list &lst);`            //拷贝构造函数。",
+      "translatedText": "* `list<T> lst;`                               // list is implemented as a template class, with the default construction form of the object:\n* `list(beg,end);`                           // The constructor copies the elements in the range \\[beg, end) to itself\\.\n* `list(n,elem);`                             // The constructor copies n copies of elem to itself\\.\n* `list(const list &lst);`            // Copy constructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 63,
+        "costUsd": 0.000129
       }
     },
     "aaa429fd3969dfed98317b48373da1f68c3589c1e95e0578d03746c2fa5ddcaa": {
@@ -113,6 +211,34 @@
         "costUsd": 0.000068
       }
     },
+    "aaaddb9c4debe6efddf67e0054787563215b8f8e2f444769cc2fbfe8c390d8d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a60bbfb1c14ec44c6fa104970b1b7ab8eced15cdf53fc2c4afec37b9403e095",
+      "contextFingerprint": "81d4d0344566152d34a4d05db3b3573d193f5e6873d18a039d46f748c936269f",
+      "sourceText": "总结：面试题中如果出现查找相邻重复元素，记得用STL中的adjacent_find算法",
+      "translatedText": "Summary: If a problem in an interview asks you to find adjacent duplicate elements, remember to use the adjacent_find algorithm in the STL\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
+    "aabb553793fa26419c8db4ceb5b9617f0811240e1f3d04ea56172bf613b4f9f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "04e4df7b2dce42cc86b17dfbab69067635c7d0b91ee164854bf9163fda44fe06",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 扩展示例3：从函数返回函数指针",
+      "translatedText": "### Extended example 3: returning a function pointer from a function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "aac4e5b6af5affc5daeaca13ed609e1a00118fe617b3189cb79a02de18f9bd4c": {
       "normalizationVersion": 1,
       "sourceHash": "aacab2a501d8c0087594a98418311fbf8a32e0b2360ae7de042a25319dc4a12f",
@@ -125,6 +251,76 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "aacedd34557a562712bccfc6d2ed5e2f68616cde91d79e281938e5ecbe684484": {
+      "normalizationVersion": 1,
+      "sourceHash": "284cb8fb507bbabd9937d6867c0c2a348aa9a61c9d2a6f84a6fee194bdaf1a2b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这不是标准库源码，只是帮助理解析构语义。",
+      "translatedText": "This is not standard library source code; it is only meant to help understand destructor semantics\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "aacfa8441eb9e14a7e4d09b3911cab4052a9e533ae6f8405649bd7b52445e9ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "2881c209ca14118cf3b55115485638594c195a785e5909f900173c6d1943df30",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 函数指针的基本概念",
+      "translatedText": "### Basic Concepts of Function Pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "aacfbfb1e3c2bb6a42c6845df0576d89a1466162db0852f6708ad81263477576": {
+      "normalizationVersion": 1,
+      "sourceHash": "23c42489c3f8a4c4010d7de09c476b3d9f534dd9eec70912cb25dd1fce2e1897",
+      "contextFingerprint": "7e138f88fb91ad48c8b293322532281fe9b9ef97553912b89a7ba838f377dbb4",
+      "sourceText": "> 总结：优先使用明确的函数指针类型选择重载；上下文仍不明确时，再使用 `static_cast`。完整转换规则见后面的 C++ 类型转换章节。",
+      "translatedText": "> Summary: Prefer using an explicit function pointer type to select an overload; when the context is still ambiguous, then use `static_cast`\\. For the complete conversion rules, see the C++ type conversion section later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 55,
+        "costUsd": 0.000118
+      }
+    },
+    "aad254c6d7354fcc20f475d7d9af2f29d461e5eaac60e7038179cdff6c21dd00": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcb4ae1a81aa923f4971f4807e134da1ba64226e97c1943ebab4792277907a80",
+      "contextFingerprint": "52e841f4b6334010f04618d771d830bbec3d67ccdfcddb357f67321bd0a46f11",
+      "sourceText": "| API | 第三个参数回答什么？ |\n|:---|:---|\n| `count_if` | **这个元素算不算？** |\n| `find_if` | **这个元素是不是我要找的？** |\n| `sort` | **`a` 应不应该排在 `b` 前面？** |",
+      "translatedText": "| API | What does the third parameter answer? |\n|:---|:---|\n| `count_if` | **Does this element count?** |\n| `find_if` | **Is this element the one I am looking for?** |\n| `sort` | **`a`Should it be sorted before `b`?** |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 40,
+        "costUsd": 0.000096
+      }
+    },
+    "aae012accffa41c7807b300a9f0e9ce6a7ee070e05950b44ad777a7b07a34938": {
+      "normalizationVersion": 1,
+      "sourceHash": "f447f1acb5ddd7429fafde94a9586160084f2a7bd8ce8b9a0e1796056d5c714c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完成临界区操作以后，就应该：",
+      "translatedText": "After completing the critical section operation, you should:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

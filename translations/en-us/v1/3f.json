@@ -29,6 +29,34 @@
         "costUsd": 0.000081
       }
     },
+    "3f1177ed1e14a8fa958aa35d3bf5f3f8c2c76b655517454f3c040c6155e69b51": {
+      "normalizationVersion": 1,
+      "sourceHash": "c55ec040a06250356720a483c01865163107223926bc44ac7ac092bd0961263f",
+      "contextFingerprint": "21f8ee2438995c5e2196f23f8b480dde09ffea1355ec6b413fa15c842cbdef59",
+      "sourceText": "| 场景 | typedef | using |\n|:---|:---|:---|\n| 基本类型 | `typedef int Integer;` | `using Integer = int;` |\n| 函数指针 | `typedef void (*Func)(int);` | `using Func = void(*)(int);` |\n| 数组 | `typedef int Arr10[10];` | `using Arr10 = int[10];` |\n| 模板别名 | ❌ 不支持 | `using Vec<T> = std::vector<T>;` |",
+      "translatedText": "| Scenario | typedef | using |\n|:---|:---|:---|\n| Primitive types | `typedef int Integer;` | `using Integer = int;` |\n| Function pointers | `typedef void (*Func)(int);` | `using Func = void(*)(int);` |\n| Arrays | `typedef int Arr10[10];` | `using Arr10 = int[10];` |\n| Template aliases | ❌ Not supported | `using Vec<T> = std::vector<T>;` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "3f1d530dddb223954956a1640f7c6e4de61f1c8964fac5390e83a57797e5da48": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8a3fe9027fb5a0a62e260160fc0c175c5c289b71d1ebd37a617094e561c2044",
+      "contextFingerprint": "45fd05ccf5befebb33cc7737e87a25a9826cff9721f0b5d2138381f72bafde05",
+      "sourceText": "- 转换`\"123abc\"`字符串，`val`是123,但`pos`是3。（序号从0开始，如下图）",
+      "translatedText": "- Convert`\"123abc\"`string,`val`is 123, but`pos`is 3\\. (Index starts from 0, as shown in the figure below)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 36,
+        "costUsd": 0.000088
+      }
+    },
     "3f1d91744be06c9a6cabd0401fc6280be73d3d5bf8042b30b1233712e61f2eca": {
       "normalizationVersion": 1,
       "sourceHash": "1c6fe2769d80f0609953d3b16e968d3be4e224f52197e9e50afe9ccedca5715b",
@@ -41,6 +69,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "3f22aa5ca0dfd591158a2ec8a0edbbc06548d077eb6e20f4a0972ec717f3818e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4590c3e36cbf3c0c1c4c2cd88b5fd20bf55f30a0d37b991249eefe8fb2311c9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常不需要额外再写：",
+      "translatedText": "Usually, there is no need to additionally write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "3f470c0cd6a75f1a05a80882c8e8a4d42879b51bd6d8dbf5bbc453ca2c1d652d": {
@@ -99,6 +141,20 @@
         "costUsd": 0.000096
       }
     },
+    "3f685a70cc35cf8830b7db8db754044fac98b200e394c7e8c5af8153e5305d4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed6ec98ddb11846c3b181c8a7e11bdb951ad4d66db903495d377f10ff395a074",
+      "contextFingerprint": "f07a05ab9ccd2ffc55de204b4e6eb835db1f38f08711c80e0cf2de026c0e2233",
+      "sourceText": "`out_of_range` 表示访问越界。",
+      "translatedText": "`out_of_range` indicates an out\\-of\\-bounds access\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "3f708f9fc82f7a1141aa614baca9578c0f7bd388dcf74560ee59d3018ce19012": {
       "normalizationVersion": 1,
       "sourceHash": "bbe2668dd1f772865b9c8b5255df9ce087fea74d244990ad5c86a763258ce8ff",
@@ -127,6 +183,20 @@
         "costUsd": 0.000076
       }
     },
+    "3f8da268ae0bf9d9ffdd5e7b5dae74cee5275808d8eddbbcdb3f826cbc4411e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "77fdcea8c56cb833a90e353d5ed583d65bc48a38f74cbd600ebe9be087355ebc",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 给deque容器进行赋值",
+      "translatedText": "* Assign values to the deque container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "3f9c173f188e05350f892f2e5c300f517161027cf90c82d1628499c362a7e106": {
       "normalizationVersion": 1,
       "sourceHash": "5f90f310a6a0ace962de79ee1a7592afe9e7e1866f3ea88786859a69bfd5e6dd",
@@ -139,6 +209,20 @@
         "inputTokens": 170,
         "outputTokens": 52,
         "costUsd": 0.000114
+      }
+    },
+    "3faed053ccef5d64f1e39e209c4735494df319eeec1a5d8b18268a77986cbb77": {
+      "normalizationVersion": 1,
+      "sourceHash": "c645c777c1172223cba19464a7ed23969cf7521b850e98288dbb8b4c48d6bdd6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以：",
+      "translatedText": "Therefore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "3fb3b076130e864ffe6bc4170b4c1a33c7d1619451005974a47a3442c59e1a54": {
@@ -167,6 +251,34 @@
         "inputTokens": 142,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "3feff69b1594cd5bdf80311652892c958428a65d3f60cdf392889429257b2ea7": {
+      "normalizationVersion": 1,
+      "sourceHash": "28dec3ec112a0865e9fb7ed8101b5936bb5728c755ee0099fe24ac14fd9894fe",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 资源在对象构造时获取，在对象析构时释放。",
+      "translatedText": "> Resources are acquired during object construction and released during object destruction\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 18,
+        "costUsd": 0.000065
+      }
+    },
+    "3ff3b1383e1b1b4cfc732410f3c04cf3fc147039283ae996e14a0d6e74d0282f": {
+      "normalizationVersion": 1,
+      "sourceHash": "07d1dd8db8e3bfaefb2ff3c4f4a458adbcb11496bc5788009d655934d96aa613",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "另一些地方却写：",
+      "translatedText": "Yet in other places it is written:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "3fff819336c12ae693e974ecccc69a2e9ee811f3a221f8c8e782f75d7d484a99": {

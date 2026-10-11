@@ -43,6 +43,62 @@
         "costUsd": 0.000057
       }
     },
+    "a35d700269bbb991b1fa6825b73ceebb5b35260a7d302e74e4c6e84a1eff606b": {
+      "normalizationVersion": 1,
+      "sourceHash": "22ba480cddbaa556e026a61e14638633a487c1056f8f3cbcfe52019119cc34c0",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，实现一个简单的计时器",
+      "translatedText": "### Example 3: Based on Example 2, implement a simple timer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "a35e8f78899e0e78acafd7d812fcf7f84dfcbe570ec70a42637e56d11856d93c": {
+      "normalizationVersion": 1,
+      "sourceHash": "55ca0d588eea8598f32b0efbad25ccad9ac59a8543225342b8ffdd79756f1712",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设写成：",
+      "translatedText": "Assume it is written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "a37127d9bc8b21573354aa8b7c8ae10b205941197fac220f029c1fe788335082": {
+      "normalizationVersion": 1,
+      "sourceHash": "e32510541101801162d0d3c46ef28b6c68038f9916c3d8338a2cbb8733cf6411",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：模板可以提高代码复用，需要熟练掌握",
+      "translatedText": "Summary: Templates can improve code reuse and need to be mastered proficiently\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
+      }
+    },
+    "a37fc7f9a9b7512151d666c63edd949fc6c7cce01d6802621d20276ac0bd2e1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac7f6d85d862eb7defc46ad1c6eeeead9c1bd8541e787a6dd57d3cdb509ed3fe",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "list的优点：",
+      "translatedText": "Advantages of list:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "a385e8c54d587d13a75e9859f89ce6428a52ad88159a9743ad833b8f08f10b82": {
       "normalizationVersion": 1,
       "sourceHash": "441f1c5962de5058b98660d02f34719e9f1f5b99a754fe16e6a0b0eeaf0ae703",
@@ -55,6 +111,48 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "a3984d400022c228e7824886a3e4112437461ec919754fcce2f5d621785491bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b63e07ae842f90da6f68dc9bb1c7846ae8665401adce893c5d0a2da5ba8cc20",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不推荐：",
+      "translatedText": "Not recommended:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a39c231d600d564bb423579005ca7152763ec4f2e3a3dcd49c7497763f835a2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "451051679ad43019404d4ebd12754f89ba93550990512877b34faf8458dd80d5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不是。",
+      "translatedText": "No\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "a3d0659c85239564220817ff8081844c8ff35991c95764b2cca67e317d3dac10": {
+      "normalizationVersion": 1,
+      "sourceHash": "41031ee0f8963ab78b7b446e2f7e2adf60a242aef0050bea834843b4d2ab3824",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "回调函数不是一种新的函数类型。“回调”描述的是函数的使用方式：调用者把函数地址交给另一段代码，另一段代码在需要时调用这个函数。",
+      "translatedText": "A callback function is not a new type of function\\. \"Callback\" describes how a function is used: the caller hands the function address to another piece of code, and that other piece of code calls this function when needed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 51,
+        "costUsd": 0.000111
       }
     },
     "a3ebd5b372260359c0d77c868b8a0d7778be3c9bf235743c065cbeed7e6b818c": {

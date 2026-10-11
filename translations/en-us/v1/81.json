@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "81218555648b49d721f90ad54c4e7c4af68f98c076bc803b8f71aaf1fa4c3f91": {
+      "normalizationVersion": 1,
+      "sourceHash": "110e3708d7cd5c8461de2f72c012e9bcba4d21b667bdb1f2bff74a1750922569",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 临界区应该尽量小",
+      "translatedText": "### The critical section should be as small as possible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "812f7589a40d0d586bceb41fcd8a50b60d03769945bc37f90134cf0f50e6afd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dbb9e9cdac20553d3b511d7a80d7d0487b0be47f851cb9ed39b139dab5497ec",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 异常处理的核心内容：",
+      "translatedText": "C++ Core content of exception handling:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
     "81318178ea48e19beb2ed4693ecc785447b4c27ddee05398ef25c9b1e503a3b7": {
       "normalizationVersion": 1,
       "sourceHash": "72f2bf60915c19a64a2b9d69bd61d45600dcc8f7343656ad19b826693dc9c59b",
@@ -27,6 +55,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "816f130fb9489c6e745a4dedd6ae4a476a410724224cc510002dd084c8a07e0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4a09a9b178b3f3406e3e8872ae36d1de2e6dd33657977431f2ee1467410cb84",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，constexpr 用于模板和编译期检查",
+      "translatedText": "### Example 3: Based on Example 2, constexpr is used for templates and compile\\-time checks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
       }
     },
     "81784a09e2754c7f7e132b5bc32baddf9dcb8320c54ff3e2d2c399d3353a631a": {
@@ -71,6 +113,20 @@
         "costUsd": 0.000151
       }
     },
+    "81a75d1de988de6d44e9eeff64d17e15beefaf7a022ac0c3ae9c0564a7e8ef5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "85a6417a5cacb071e6f56c58e7c963461029eda6b63f962965a468d0cfba4e0f",
+      "contextFingerprint": "9f33a64b3d1f31df2d8f20b2cdbf2623b0bd381651f5cb12c8a6eb46d122642a",
+      "sourceText": "1. 先看手动 `new/delete` 在提前返回时的问题。\n2. 用 `unique_ptr` 解决单一所有权和自动释放。\n3. 用 `std::move` 转移 `unique_ptr` 所有权。\n4. 只有确实共享所有权时，才用 `shared_ptr`。\n5. 用 `weak_ptr` 观察对象并打破循环引用。\n6. 函数参数要表达真实语义：借用、转移、共享是三件不同的事。",
+      "translatedText": "1. First look at the problem with manual `new/delete` on early return\\.\n2. Use `unique_ptr` to solve single ownership and automatic release\\.\n3. Use `std::move` to transfer `unique_ptr` ownership\\.\n4. Only use `shared_ptr` when ownership is genuinely shared\\.\n5. Use `weak_ptr` to observe objects and break reference cycles\\.\n6. Function parameters should express true semantics: borrowing, transfer, and sharing are three different things\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 77,
+        "costUsd": 0.000153
+      }
+    },
     "81b3d66f8674cd14f01d42db1445752080abd6700a5e6bc7148d250f1614281c": {
       "normalizationVersion": 1,
       "sourceHash": "0b51228b7feb9af2f24d31ff6625333eac8f616889f8aac36e1a6ab2390958de",
@@ -113,6 +169,34 @@
         "costUsd": 0.000059
       }
     },
+    "81c8621b0626f937d4e3b4972c5bddb6b13e3a854ad2be79853afcff5d4a991f": {
+      "normalizationVersion": 1,
+      "sourceHash": "6cb965ff0bd62d5690414f700aaff5d99c5325570f1a66c2f63133f590e61126",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仍然可以对 mutex 加锁。",
+      "translatedText": "It is still possible to lock the mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "81cb8387016d984a683c33b2500692594d558cde3a652adaf17864795e44a7ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "f122211fdd2ccc97d8ae5450a7fdc799b162b27e0d3465ebc705bff55976f1d9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：在示例 4 基础上，需要下标时不要硬用范围 for",
+      "translatedText": "### Example 5: Building on Example 4, do not force the use of a range\\-based for loop when subscripts are needed",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "81d85149a4714e39833669464a4e510e87550d1ed97393f25a1d1dcdec0882ac": {
       "normalizationVersion": 1,
       "sourceHash": "49e466b62fb735c7708d9ba44a8209971e71981cb2670c63e66805a198ed8cb9",
@@ -127,6 +211,34 @@
         "costUsd": 0.000137
       }
     },
+    "81e4143ecc317c915db5c52146c4e0c6afdab13f508c7dab50b92ad22db0fe3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa7fdf8bd2ffeaa6367343ee3f8a31d8ba179c79b9e3937e0a02eab5593573dd",
+      "contextFingerprint": "56f5973bad0e26ac4aa07a9274502c282855afedc9bfe6f71388c7e38a4b850f",
+      "sourceText": "`std::function` 从 C++11 开始提供，需要头文件 `<functional>`。",
+      "translatedText": "`std::function` Provided starting from C++11, requires the header file `<functional>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "81e4531ef3a440b83a4ee50345b5799e4a7caf039a9cc9cac81fee870759b788": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff9a40d850c09ec0bcb31b96c3708fbfb2559f69950dc63e50493f76b1c2626a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "占位符的位置决定了原函数接收到的参数顺序。",
+      "translatedText": "The positions of the placeholders determine the order of the arguments received by the original function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "81e6298a3d1e7fe589411f46773de1f512ddbd9b5da661222c42bea8597e05cc": {
       "normalizationVersion": 1,
       "sourceHash": "f4a2b18a6f8f4496547e42a1c955e9f3030865804429eabce52c41f83cac364a",
@@ -139,6 +251,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "81f4a74f08db1e51cc9e92546bab3134c769770f16bbf0594775e74177fda1e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac7def2ee5f6d75e1a5d185e91efb7c62a5b9109943f916479b2b6c2258620d7",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**区别：**",
+      "translatedText": "**Difference:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

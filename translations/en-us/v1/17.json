@@ -15,6 +15,34 @@
         "costUsd": 0.000052
       }
     },
+    "170e16c44d0c4d4b75a1440e5ccf9c2f6729a2153e06bd09cd99ceb63e325c4d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c894ceaaae430805931a67091a5b3067123a84d076360006400d57beb84a98e5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 5：在示例 4 基础上，constexpr 可以运行期调用，consteval 不行",
+      "translatedText": "### Example 5: Building on Example 4, constexpr can be called at runtime, while consteval cannot\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "17134177bf507cf14991b4383da5844222289795955ceea970e10fd78f9f0a5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8c95610683d5b5adf078d9ed12c33a6a6800c86b92981d3aa20e7b014cc2b3a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程和 Lambda 经常配合使用。",
+      "translatedText": "Threads and Lambdas are often used together\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "1715cc31b81aa333be3bb84db2a440778cf592aa8cde66ddf1f3cb81e2423a84": {
       "normalizationVersion": 1,
       "sourceHash": "4e80a207d80a0f3dbe9d619fb4980c290d1be22ef759d3f31fac0bb6de6ddde2",
@@ -41,6 +69,62 @@
         "inputTokens": 180,
         "outputTokens": 71,
         "costUsd": 0.00014
+      }
+    },
+    "174813d43f9a85d30c5c5e4aba4e8c558f5ed528bb9a8fd1e4d32d5629a24357": {
+      "normalizationVersion": 1,
+      "sourceHash": "37df622615e09af3584acc09e601d5cc058155593978224c012f367e38cf4e01",
+      "contextFingerprint": "81e5fb7d14f3e9cebc6f66b3d79336c23a0fafc00f9bd51800a3442287af5c7d",
+      "sourceText": "> 从 `other.data` 开始，复制到 `other.data + size` 之前为止，并把结果写入 `data` 指向的内存。",
+      "translatedText": "> Starting from `other.data`, copy until before `other.data + size`, and write the result to the memory pointed to by `data`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 27,
+        "costUsd": 0.000078
+      }
+    },
+    "175079bc45ed02513b7623caa61e8afe107a93b2cb236eb1bbbf9db66550bff6": {
+      "normalizationVersion": 1,
+      "sourceHash": "a87a9feaa6c239fc48f6dc52cc881e8ea1c7249f5e7790bf4a042d504ebcbeaa",
+      "contextFingerprint": "1cb7208bba9ef9da95e10aceb9fce204c7bbde07bc929305a80a74224281510e",
+      "sourceText": "这个例子故意让函数提前返回。旧写法中，`delete` 没有执行；`unique_ptr` 版本中，即使提前返回也会自动析构。",
+      "translatedText": "This example deliberately causes the function to return early\\. In the old style, `delete` was not executed; in the `unique_ptr` version, destruction occurs automatically even if the function returns early\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 41,
+        "costUsd": 0.000097
+      }
+    },
+    "175b5fda2376192dad111bf8768a10fabf6f484de8ba60a9f976f62f0dd19e44": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa3d37e9a972fea89e6de75f27d5c885c4c255a5e2bab4a9a4d37a76de310413",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际上访问的是：",
+      "translatedText": "What is actually accessed is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "175c7c5ceace0ea574de559508b3d7593daad640d16c2d9e07e111b80b386552": {
+      "normalizationVersion": 1,
+      "sourceHash": "c048f341f2ead6da7c1633f63305ef6c710e24cad2ac3f460a56532af9d49167",
+      "contextFingerprint": "d39d60c1b78c90ab42e2272fb68a0cffa83e97eb62547fb28e305bb0ee5a952e",
+      "sourceText": "`new/delete` 能手动管理动态内存，但它要求你在所有路径上都记得释放资源。一旦函数提前 `return`、抛异常，或者多个对象互相持有指针，就很容易出现内存泄漏、重复释放、悬空指针。",
+      "translatedText": "`new/delete`You can manually manage dynamic memory, but it requires you to remember to release resources on all paths\\. Once a function returns early,`return` throws an exception, or multiple objects hold pointers to each other, memory leaks, double frees, and dangling pointers easily occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 59,
+        "costUsd": 0.000124
       }
     },
     "17609ad6906a2df9eb76b98f22d7b6b8d7260f4bc893cca9786d3cf3acb8f13e": {
@@ -71,6 +155,20 @@
         "costUsd": 0.000057
       }
     },
+    "176bcc286590b9a6add46550994ec3ae9ce1232d0e834a55e9181d5e90691501": {
+      "normalizationVersion": 1,
+      "sourceHash": "885aeeeeec3e27e8a8da54109102aa21d7a76682eebddaeff2e76d80c293c453",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 数据竞争（Data Race）",
+      "translatedText": "> Data Race",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 9,
+        "costUsd": 0.000052
+      }
+    },
     "177c6a6caefb51bae0948fb9923db2afb8978d465da0da65dba842bf1a451d1b": {
       "normalizationVersion": 1,
       "sourceHash": "3261d465d32c5035a9c80439bd0f8eeed35439e1400e9c45b82e035aaa080395",
@@ -83,6 +181,76 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "177f9fd7b1e85721f175278068f5b718a3fc630d650c32aded933dc9a195192a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6cc17092aa6895eed345fe88b3f995668493c1947d580f26a6011865113d1cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数指针的基本语法为：",
+      "translatedText": "The basic syntax of a function pointer is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "17872f89202949e82a93fe79fbaa66d0e69ca5f9678653cefaf3c7b8148cd3db": {
+      "normalizationVersion": 1,
+      "sourceHash": "38e90ddde7839b5ac9feb0cf4d8d9a37cf697dac1a0d432920469f296e6476d9",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "后三种 C++20 同步工具在普通业务代码里没有前几项常用，因此应先把核心并发模型学扎实，再按实际需求使用。",
+      "translatedText": "The latter three C++20 synchronization tools are not as commonly used in ordinary business code as the preceding ones, so you should first build a solid understanding of the core concurrency model, and then use them according to actual needs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 60,
+        "costUsd": 0.000124
+      }
+    },
+    "17899b44c8c5dab335a54a9a848d8be27c1f0a171c6d6829907bbce62541769d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e08dccd48863d3da72af45932ca5bae3443cb9ab977942ed3894d27fd3259488",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**功能描述：**",
+      "translatedText": "**Function description:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "17a513a2fa2ac907f951f84506aca7750c5d0a29b577b20b13c40660e6776a35": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e8b4492525a8557c3aff36b45a42606a911a802a7e98572c867df0214e4a2aa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但是对 mutex：",
+      "translatedText": "However, for mutex:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "17a6c8fc993d8d650e4552f81bdd80d03e45cdfb868611f2ee3e73191f377c5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b475311e39b6cd83d25affab0d890465ebd07f94620a3c81a1c43a6e2b3d652c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果拆成：",
+      "translatedText": "If split into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "17c0c55e29c494e6a72452eb79e75bbfa96c25b35f6ee5d9bbedba573a1098bc": {
@@ -99,6 +267,34 @@
         "costUsd": 0.000056
       }
     },
+    "17c13bc4a22578534fb9b7f98c1749e66ae52a59dd941536b9e1a6236a95cc2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0231b5d524257f306c44cd79db30fd912bd2ae9b4c162388b7962bbaaa104db",
+      "contextFingerprint": "3e813223749694402ea92e7867587901a7578a6e4845166bbaf5a9c0d16f9c78",
+      "sourceText": "### `join()`：等待线程结束",
+      "translatedText": "### `join()`：Wait for thread termination",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "17f430b8fc54b7a8d6dd629d737fe21c43db06d2fd483168b288125770b948e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e9a356fc42aee4984f2ff60e7d89b57080ec18fde98f38661c2974627c8bfe5",
+      "contextFingerprint": "d48983767aeb2228752584ed753c79a2e3cf0c7223016e21bced3c8877bbf52f",
+      "sourceText": "#### `join()` 不会自动延长任意对象生命周期",
+      "translatedText": "#### `join()`does not automatically extend the lifetime of arbitrary objects",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "17f9037d73f0e8cc34e1ad8503644058a3e8e75fc03c890e1420a7829e7d6bf5": {
       "normalizationVersion": 1,
       "sourceHash": "2e797b2d0f625f635380b512ff0e4d82cd17f25dc45c1040fbcbfe8a97cc45f0",
@@ -111,6 +307,20 @@
         "inputTokens": 169,
         "outputTokens": 54,
         "costUsd": 0.000116
+      }
+    },
+    "17fd597e09d380e2ce462cb95908a02ed4e47628eb1949c93a30d0d6e7df46d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e20b927f5f66ad972e8a9c6a561da44c48427cc8f89b64df9d82dda494b56dcf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "字符串的：",
+      "translatedText": "For strings:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

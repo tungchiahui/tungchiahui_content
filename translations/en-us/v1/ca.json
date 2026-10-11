@@ -15,6 +15,90 @@
         "costUsd": 0.000061
       }
     },
+    "ca4130ba7d0b0c5f543a3450580b79d2899459982791c61f705489b3bf6b5b43": {
+      "normalizationVersion": 1,
+      "sourceHash": "2eb928bf075f50d02d774bcc8e6eb9a22fb590b1dd7705070d6e77426a53a3b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "类型转换本身不需要额外头文件。示例代码使用到的库需要对应头文件，例如：",
+      "translatedText": "Type conversion itself does not require additional header files\\. The libraries used in the example code require corresponding header files, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
+    "ca5077d8670cb9f6768c1d9730db0b210cbb1d6643f40e67efebd465892511b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7365b48018264f0a54f962e775c57026c3b85ca44a366d1cd1200802d045c07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把规则概念化成：",
+      "translatedText": "The rule can be conceptualized as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "ca586b9915ad1e2a4a0f4f038854612599e379cfef39f09c2ca069e527ef9898": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ec510c8ab82abf9f8b6cb2966e24552e1a43cbf88ceeefe2bbb14535a4b5742",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常对象可以是普通类型，也可以是标准库异常对象。",
+      "translatedText": "An exception object can be an ordinary type or a standard library exception object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "ca62b3e1c76a3d59d87eddd6124ec559362d688d81e2ebf9e0c7df7b9f2b89ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca50cbf976ce1c9a69ed2502d7851978ddef6520dd5a19afddd56bad91cf0234",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数指针只能指向类型兼容的函数。返回值类型和每个参数的类型都要匹配。",
+      "translatedText": "A function pointer can only point to functions with compatible types\\. The return type and the type of each parameter must match\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "ca68fcde1f49d1dcf7bc3875d4600b5fd062cf8afd3ae13add8d133022c3c864": {
+      "normalizationVersion": 1,
+      "sourceHash": "635be6300b5290d80312325e5b36f83b384aca11fdf08f3d849d6b763a9f9132",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把：",
+      "translatedText": "You can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "ca6f6522bbb6858b5bb3bb85074689ad6023e270c62aa4baecd5bdb0fee6d416": {
+      "normalizationVersion": 1,
+      "sourceHash": "2588663426bc3a3fd90c8f236c4b85d5f642f741cd86c95993742f5787a71e41",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "示例中的代码是：",
+      "translatedText": "The code in the example is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "ca76d079bc3a0cfacdb1aabd3a9341dba9c6a72682819c73aee24270d858796c": {
       "normalizationVersion": 1,
       "sourceHash": "eb8fb63b0f64d5af688becdaf69bbb7d68befb6161ae0241a6e0cadf1707f37f",
@@ -41,6 +125,20 @@
         "inputTokens": 159,
         "outputTokens": 39,
         "costUsd": 0.000095
+      }
+    },
+    "ca8183e618bb2d51b3d57bd7f914f331a5b067c2f7fb5f421ab3099dc6d9028c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a653a7692d83c1cd10a7e1495cac49f94252b3012b5a6df1af060a606b06cb30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：switch 中 case 必须和 switch 表达式是同一枚举类型。",
+      "translatedText": "Correct practice: the case in a switch must be of the same enum type as the switch expression\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "ca8d252c235363fc8ce341350fc25fef258867f71f5009a4d5763330a92356b5": {
@@ -71,6 +169,20 @@
         "costUsd": 0.00006
       }
     },
+    "cab241160c8c3f4262e4c2bd31bcb34b8ae79bc196aa13204fb1c8e0b8fd40bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea1c8075cfdbd89d17c3de892aa750ca604a80007fc93fc688cd3b254fcd478d",
+      "contextFingerprint": "17f3ae088a36c3506770990c36ba4f6a2e86becca69b964550513fec7e19f8e5",
+      "sourceText": "1. 包含头文件   \n\n     \\#include <fstream\\>\n\n2. 创建流对象  \n\n   ifstream ifs;\n\n3. 打开文件并判断文件是否打开成功\n\n   ifs.open(\"文件路径\",打开方式);\n\n4. 读数据\n\n   四种方式读取\n\n5. 关闭文件\n\n   ifs.close();",
+      "translatedText": "1. Include header file   \n\n     \\\\\\#include \\<fstream\\\\\\>\n\n2. Create stream object  \n\n   ifstream ifs;\n\n3. Open the file and check whether it was opened successfully\n\n   ifs.open(\"file path\", open mode);\n\n4. Read data\n\n   Four ways to read\n\n5. Close the file\n\n   ifs.close();",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 83,
+        "costUsd": 0.00016
+      }
+    },
     "cac473b70d824f2f1d03ebb829b9490146ee3b9e1919134d12e3be6e54736a62": {
       "normalizationVersion": 1,
       "sourceHash": "dbf865f2624e60c7c726d1c700835485791faf3c7d83c0654f2b506a5bc7a41f",
@@ -97,6 +209,20 @@
         "inputTokens": 174,
         "outputTokens": 60,
         "costUsd": 0.000125
+      }
+    },
+    "cae96cd7102c5491dd20371a8766376ad5b5c695d02d1595304a53bfe25c5542": {
+      "normalizationVersion": 1,
+      "sourceHash": "afefe724295c5ccdd3bb0ef6d59bb0570d11de47b46be7a7230073a580f4dd75",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "如果没有足够的类型信息，单独写一个重载函数名可能产生二义性。现代 C++ 扩展部分会介绍如何使用显式类型转换进一步指定重载版本。",
+      "translatedText": "If there is insufficient type information, writing an overloaded function name alone may be ambiguous\\. The modern C++ extension section will introduce how to use explicit type casting to further specify the overloaded version\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 54,
+        "costUsd": 0.000117
       }
     }
   }

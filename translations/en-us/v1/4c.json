@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4c0706d6bd482d99c4fabc15238c0c1120f0ef719f0c50556da6e903b6793350": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c8b1e80765dd06cb1beb20546382efc4311b73ea87c8c9e6d5f878c27dc962d",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 的四种显式类型转换是：",
+      "translatedText": "C++ The four explicit type conversions are:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 24,
+        "costUsd": 0.000074
+      }
+    },
+    "4c1d9988b38eaf588ff9c964b4a11377931cc1975a9a1e692ca75c587108163f": {
+      "normalizationVersion": 1,
+      "sourceHash": "343182645f27db9e2423fdf1c17356ae691c9c6cdbd7315d37a05b61149f4acc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果程序确实需要：",
+      "translatedText": "If the program indeed requires:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "4c21f2d4f24e5259e454bc4e2ede37a40d2ce66145431c140db70f56cf912e57": {
       "normalizationVersion": 1,
       "sourceHash": "887a7922a8d8ea8f62bc572743baebbd8e43f75a13987386a621724435b8b9c5",
@@ -43,6 +71,34 @@
         "costUsd": 0.000074
       }
     },
+    "4c4e7bf227f6b3ce675c27d8510256ac0d41d6e88a33678f096a1602d58d7ade": {
+      "normalizationVersion": 1,
+      "sourceHash": "59815673c6c1e064711e1c1c5256cbcb906fbe849eeea826479a8585118eba24",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## std::print 输出到哪里",
+      "translatedText": "## Where does std::print output to?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "4c561a3e0aced61801e04dd899c137fda69814b5d26fa2e4e89dacfb3a5f728e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e1c124fdd8665e8319f1a031e24f86c73f425c44b8cf207123233314f356901",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "在 C++ 内存模型中，数据竞争通常意味着 **未定义行为（undefined behavior）**，并不是简单的“最后结果偶尔少加几次”。编译器可以在未定义行为前提下做出很多看起来反直觉的优化。",
+      "translatedText": "In the C++ memory model, a data race usually implies **undefined behavior** , not simply \"the final result occasionally misses a few additions\\.\" The compiler can perform many seemingly counterintuitive optimizations under the premise of undefined behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
     "4c5b570fa88504af3fde8fa733f22e7eea7ed3b537d4b38333baf99b1480e7a0": {
       "normalizationVersion": 1,
       "sourceHash": "56f5dfcc51d977cb97c1601dacfa04159d6b030392b0823369014582b97214b7",
@@ -55,6 +111,20 @@
         "inputTokens": 150,
         "outputTokens": 35,
         "costUsd": 0.000087
+      }
+    },
+    "4c6eb300b9bf52e969d2860ce0fc4293ac29cb66679f053cf2b60a6f8326e889": {
+      "normalizationVersion": 1,
+      "sourceHash": "db5889a76a1c4e61a05a7a544f0977bf2ef3020861de5d5b77877eb30f02aea5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "刚创建时：",
+      "translatedText": "When newly created:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "4cafe9a543b01df60f73159d85815307ebf44fd025c74f62711ef3592c73462a": {
@@ -71,6 +141,20 @@
         "costUsd": 0.000051
       }
     },
+    "4cb55a62cdd50102a52c54d5431b612a9459ee47c80bf74277232b5cf629ab4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "79763d7d94175315bf1a88af283b9d433346dd56b825c4dbac1d21e98044585a",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 掌握常用的遍历算法",
+      "translatedText": "* Master commonly used traversal algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "4cd84dc5d428f7b938854724c1b332255edbc6e7f22c11bcbc51316ff8d027a3": {
       "normalizationVersion": 1,
       "sourceHash": "f08892d10e6b84b726b592afaeddc0275dd44ba62a41ec1a3db9197a81705e31",
@@ -85,6 +169,34 @@
         "costUsd": 0.000077
       }
     },
+    "4cdab644b89ae7a1373c3673e068887c7d4830883f93bdbcd31f2d52350fe2c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "dab8a5a61976bce30c0a1cf1fe026d74d6baca26c5d25009b20d63fcf1b3fabc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能导致死锁。",
+      "translatedText": "may cause deadlock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "4cddad10e10737da34fe2623199c8790ffe3a613941a3574213e18f692e8fc0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b31f299b2690f51c3acc377750387589c57ad3340814e3336917d4380f6dbd4f",
+      "contextFingerprint": "ea7d9770f7c9c26855f6a5cb94038edac326581ac9ca53234adbaa1688f11e41",
+      "sourceText": "#### binary_search",
+      "translatedText": "#### binary_search",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4ceb4aec6c9c2a86c5128919655ef6bffbfea72250662e46962ee131c0bab373": {
       "normalizationVersion": 1,
       "sourceHash": "32de8174c891fb24bd217cade2d6c398cab6ad5080887157589881850c33bea1",
@@ -97,6 +209,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "4cfe96c2f4774891d6ef05828d262e42522d99b0c32c9463d74a836f3adb59c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a908ca28943f8ff6e96fb8377cf5e28230016114ad0979e3a6c8d02e7ac4697",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "能通过重新整理代码结构避免递归加锁时，通常更加容易维护。",
+      "translatedText": "When recursion\\-induced locking can be avoided by reorganizing the code structure, it is usually easier to maintain\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
       }
     }
   }

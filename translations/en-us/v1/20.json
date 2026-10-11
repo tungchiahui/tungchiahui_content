@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "2004645d7c583fdd407451f226705ede294e9b44eee785718e1bf18f6ef645fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "df0823405730ecb6b6d9175ba816e463d1eedce9d9d8ceb6a85152f93485afb3",
+      "contextFingerprint": "7b24bb10156a30452fc8fc3715951d942a73e0831d748ab150aa086e8184465e",
+      "sourceText": "参数是 `buf2`，返回结果可以简单理解为一个 `Buffer&&`。它相当于告诉编译器：",
+      "translatedText": "The parameter is `buf2`, and the return result can be simply understood as a `Buffer&&`\\. It is equivalent to telling the compiler:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "201fd8dcdd6160e946c11a12ca99f6589da67b2f8d322e6f3537648f1adde13c": {
       "normalizationVersion": 1,
       "sourceHash": "64c5be3c13f1f6fe5b1a3a2a529bcb859af179c28ca90c8a85d3ee71f189e4ca",
@@ -15,6 +29,34 @@
         "costUsd": 0.000095
       }
     },
+    "204741bd7a608a337b8bb36607005a8cfaa133fc5729a8f10764739a6d1ce1ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "ded3a8140540c0d34671f2191b93ec77474160324f184ffc7c87c148e586f86d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对vector容器的容量和大小操作",
+      "translatedText": "* Operations on the capacity and size of a vector container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "20667f4fb663c0e3d65770084dbc3b2b9bf0097fb8085723ca0fecbab38a2545": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e1aa586253d575aa3818e0bad4f5db703101265f8f36aa0a1672bea3c7f9e5a",
+      "contextFingerprint": "d7f7ab097d43e5d203343d5723312819175fad9be5578fb4031bf5e79f306b13",
+      "sourceText": "C 风格强转可能在背后组合多种转换能力，既可能像 `static_cast`，也可能像 `const_cast`，甚至接近 `reinterpret_cast`。代码越底层、类型越复杂，这种“不说明白”的风险就越大。",
+      "translatedText": "A C\\-style cast may combine multiple conversion capabilities behind the scenes, potentially acting like `static_cast`, or like `const_cast`，even approaching `reinterpret_cast`\\. The lower\\-level the code and the more complex the types, the greater the risk of this “not making it clear\\.”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
     "207c1654684d94f11ab0834d73f7fed906fb2e7116069206785580442c7e156d": {
       "normalizationVersion": 1,
       "sourceHash": "f8820b17c8cd935db212201bd292db447c367523fbe647af0af440fd06830af1",
@@ -27,6 +69,48 @@
         "inputTokens": 227,
         "outputTokens": 116,
         "costUsd": 0.000208
+      }
+    },
+    "20845b9b78d501e5a04333437e1fa4df626190d1be425a61c9c1d449fe2bce39": {
+      "normalizationVersion": 1,
+      "sourceHash": "5dca5ccc4f25f6160a9736d38a14bb4621d5ab4316d85c1d75c1c6c1e1a0fdeb",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 向deque容器中插入和删除数据",
+      "translatedText": "* Insert and delete data in a deque container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "209ad39393d1602ecce843040fee4abf98c8ef91a5c5998353d93b73a1cc02d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2d0799fd359d6bbaf18e022721adec8172f7af4f0099ebd1f11af224818f2fc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "以二进制的方式对文件进行读写操作",
+      "translatedText": "Read and write files in binary mode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "20de3081148737009ed914c1b89a810b76f97729fabefd537f39d6bbf4e0953b": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a64ef550153f8fb1b5e0481e1975e556c889f057c0a52f5135ec2737e053d1b",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 中最基础、最常用的同步工具之一就是：",
+      "translatedText": "C++ One of the most basic and most commonly used synchronization tools is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
       }
     },
     "20e9418f758cac33b731fa5262c0813560ad187bb8f3d149c387e1575da90808": {

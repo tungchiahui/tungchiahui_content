@@ -71,6 +71,20 @@
         "costUsd": 0.000075
       }
     },
+    "7c2f506dac259ec1e3acf5a4cea8c3906dd36d26ff9baf7bfe77307e2424925f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1dea70c3d0ab346c7746a1cb4d18ebe72a7756d804b52b59dfc1f2b246bac580",
+      "contextFingerprint": "b48c4ba940830f9710209314830164e56e7e772e66131489ab8a4050d9977ebf",
+      "sourceText": "所以 `unique_lock` 可以进行：",
+      "translatedText": "Therefore, `unique_lock` can perform:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "7c5dd3d67e60499e97c729b6c245aaa210d54070c0761ee75e1b179538e9387f": {
       "normalizationVersion": 1,
       "sourceHash": "8fb6922759f7c481db25414e5296a3f75b18b990d301fb461f37bb2cf924cb2f",
@@ -83,6 +97,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "7c6faba7b8d1cda083aafea625ea3b19a4d9cbae21d7bf530714ab784ddab786": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b159cd611e6369108cc1cbdae10331043f71986f31b31fc6b24d322bff141a3",
+      "contextFingerprint": "559e8bda113ba0a6eaf49efe2b53683a275b03c5eb97358c7c249c99fb52c5ed",
+      "sourceText": "`catch (...)` 一般放在最后。",
+      "translatedText": "`catch (...)` Generally placed at the end\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "7c736b75afb48c546d049c7d0719333ecde57a6eb136bb1545f4546792c40cbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "35e3378b9cbe02f366e39a073b0de24f3d9acc93ae2727ee78465393a5338676",
+      "contextFingerprint": "599f163e859c4c7766c33db1752838c5506665f0d40d4c7cc69bef3dd53b9bfa",
+      "sourceText": "**运行结果：** 程序会因为 `std::thread` 对象析构时仍然 `joinable()` 而调用 `std::terminate()`，示例输出类似：",
+      "translatedText": "**Run result:** The program will, because the `std::thread` object still `joinable()` when destructed, call `std::terminate()`\\. Example output is similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 34,
+        "costUsd": 0.000087
       }
     },
     "7c79577e664ddb27ef4b9f66c985b4957c173eb8a6e624ed9df27a574cfac417": {
@@ -113,6 +155,34 @@
         "costUsd": 0.00007
       }
     },
+    "7c8c73d8a770b9039fedf73dfa71afaa38c2a54e2eefc4b25190e382c8721800": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c57ea9bb55fe96f75e2bb24da652e52fbcb2340c6e73184953e217fa02ab130",
+      "contextFingerprint": "fda7c03fec4ca2fd91c708b05990a94a1151fb14b40836aee4223b1fbf6c1f58",
+      "sourceText": "### 示例 8：使用 `[*this]` 捕获当前对象副本",
+      "translatedText": "### Example 8: Using `[*this]` to capture a copy of the current object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "7cb2360d68b0c1903dedd7e3a17b120cb38ecff8f184317154ae5c4dc394a8bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "be38e039237e0127662905feed0bf61e471cfeecf63934ec579011efbb0df27a",
+      "contextFingerprint": "d6e316702995d3d5b374e3c1a2bd16553bf15ca073abac29edfc3d8f67c2b751",
+      "sourceText": "1. **文本文件**     -  文件以文本的**ASCII码**形式存储在计算机中\n2. **二进制文件** -  文件以文本的**二进制**形式存储在计算机中，用户一般不能直接读懂它们",
+      "translatedText": "1. **Text file**     \\-  The file is stored in the computer in the**ASCII code**form of text\n2. **Binary file** \\-  The file is stored in the computer in the**binary**form of text, and users generally cannot directly understand them",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 58,
+        "costUsd": 0.000121
+      }
+    },
     "7cb7a05580fd00109ccecb53c7f2fcab2eab896f02d8c348d39eee573d6cb00b": {
       "normalizationVersion": 1,
       "sourceHash": "0f884df4f9408dfb6d66dd83518dec75bbaa3c2b3baaadab3b569d1652d42d7e",
@@ -139,6 +209,34 @@
         "inputTokens": 175,
         "outputTokens": 49,
         "costUsd": 0.000112
+      }
+    },
+    "7ccba23219522d0259536054df73e24477ddaedb16c846cef2072e3c66184fdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4df2b3c43a3c0d1cc7eef2f9c0d1cf9387019450a41b3edf344c7a1ee049586",
+      "contextFingerprint": "1117888a1cda6baa12ca7d84df257cba751f68e9e7abe3a3e9e4bb0f51d10c73",
+      "sourceText": "### 用 static_cast 做不安全向下转换",
+      "translatedText": "### Use static_cast to do an unsafe downcast",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "7cd741f87c1a281c43228f13b379babbee316a915acbe05de648ed09d4c8ef3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ceac5aa6f600610b97f6802f4de97c7e5cd2a274feaa901bb6a221bebb4966d3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不需要再写：",
+      "translatedText": "No need to write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "7cf39ed2513ce5f8983559b192a73b00ee8dce63296a6a08fad4298e7b2a610f": {

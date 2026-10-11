@@ -15,6 +15,48 @@
         "costUsd": 0.000135
       }
     },
+    "bd099e24362752fddb4ab7c59fc2674d26b805315d7f83c5f695cf775133a320": {
+      "normalizationVersion": 1,
+      "sourceHash": "39f65c0cfcac6eff500700bec64efd5f1babe1ecb315fff74695804f7e0301b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就是典型例子。",
+      "translatedText": "is a typical example\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "bd15b8eeb8af777bcc66a915277fc65a2f06210ae7ce122a35f47b9f19308921": {
+      "normalizationVersion": 1,
+      "sourceHash": "966f508ef21cbbc9d712ba70a4141a1b82e61747629f288f8f61e276550ac847",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个线程同时执行：",
+      "translatedText": "Two threads executing simultaneously:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "bd256549fa8df50b0e010bef6201d619fc81bca4cd359c35fd2758eb9a2ab497": {
+      "normalizationVersion": 1,
+      "sourceHash": "34fabca9ad42e1a293beda2a6d4aa3fd7a69696491d2f7f14523efddb7da4d60",
+      "contextFingerprint": "f718fb4e9cc5850bb8b66c49541f83b4b33a529179ca08bb2d75871c4d6baee9",
+      "sourceText": "如果调用者只关心“有没有值”，`optional` 很合适；如果调用者需要知道失败原因，单独的 `optional` 就不够了。",
+      "translatedText": "If the caller only cares about \"whether there is a value,\"`optional` is very suitable; if the caller needs to know the reason for failure, a separate `optional` is not enough\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
     "bd296c2f6cb22b58f88fbe77b8139011435b537f9b3293f23a8a0ab5ec6de5fc": {
       "normalizationVersion": 1,
       "sourceHash": "76238de1c5acfce7e3e195aff18c784cdbe84d872226c6b9e187a5a1fbe6bd6f",
@@ -29,6 +71,20 @@
         "costUsd": 0.000069
       }
     },
+    "bd31214130a63683c2640192b9c5e6669a9dc60de72cc44b9d1ac5b87fbd7e85": {
+      "normalizationVersion": 1,
+      "sourceHash": "76b6055b8395dac43afa9acdba633d9dc817117cb8b101acbcace4ca4dc26065",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "错误示例：",
+      "translatedText": "Incorrect example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "bd32e180653f90ef428d9c65bb0d4bb8a5c2652f31aa142d95f0d91940c464f2": {
       "normalizationVersion": 1,
       "sourceHash": "9bca7f4563da79a15ad7bb3b58ac5b4eed00967454def9fc69e815540805c0e2",
@@ -41,6 +97,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "bd4685c7ef75c1cebaa57d019a11e63f703732c7ef088e1bfac1e165eb37f24a": {
+      "normalizationVersion": 1,
+      "sourceHash": "93fd6429b1ac46466a164ca6a7eefd5fa66fcdca77194a9994053c4ca71736a0",
+      "contextFingerprint": "4a4f9abdd0f2b71c665a0b4cb61e28cf4b9a5d68c9fe521c71a0f5a3c25311e1",
+      "sourceText": "编译器会根据 `names` 的元素类型自动推导，近似等价于：",
+      "translatedText": "The compiler automatically infers based on the element type of `names`, approximately equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "bd53f0f631a7b300d43ff2bff41e74c763b191b99760b1bd84a2e07aad24b0ba": {
@@ -71,6 +141,20 @@
         "costUsd": 0.000064
       }
     },
+    "bd65cbe2ccc34230024ab864e085ad0ef04ef2c77da40db5146c93701669a537": {
+      "normalizationVersion": 1,
+      "sourceHash": "b701e68fc72c6076a45ce299b5c78d3b88211245eb99e747a23bf8d934404391",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 同时获得多把 mutex",
+      "translatedText": "> Acquire multiple mutexes simultaneously",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "bd6621a2af26482f773c6a490f011398e9c687c320f2301a060ee8171d630d6d": {
       "normalizationVersion": 1,
       "sourceHash": "3c91643aa11bc1b12052f7cef504a4901bf97ff74d222db0e2bd8adf079ff052",
@@ -99,6 +183,20 @@
         "costUsd": 0.00006
       }
     },
+    "bd6f30197e2e94227e79262d72e7e6bcfac2836e97f0ece639243695654bcf2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "91418d13dc7ceab41cde3b9cd32b0754df8e0fd484030849d792b02bf5992c83",
+      "contextFingerprint": "5bd8cc9eca96199261eba0b577988ecef722330880eaef21c72c8577f0b533a5",
+      "sourceText": "`std::count_if` 可以简单理解为：",
+      "translatedText": "`std::count_if`It can be simply understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "bd785d689e34a176172e4ea62a1ce5870c73968b8f2daf8dad4e0b26c11372da": {
       "normalizationVersion": 1,
       "sourceHash": "bc776427c269c971334bd6473a759b2d98233bc3e5fe208b677b09247f160886",
@@ -111,6 +209,34 @@
         "inputTokens": 169,
         "outputTokens": 54,
         "costUsd": 0.000116
+      }
+    },
+    "bd866c530cfa1986a3f64ce76e1c85671616bb4ab0699dd9964f3d419ab5d9a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "58bae29d750dab8366b4f2776c701e422462ae459dd320e93f3c9590fbce51f4",
+      "contextFingerprint": "25457baf1a7d52449779ba78e7320a8d46768c2b19aac2f66099fd0e01c7a58b",
+      "sourceText": "`std::visit` 的作用就是：",
+      "translatedText": "`std::visit`The function of  is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "bda0a491fb32f5beb138193a59453a113546bb22f47e8ccd5e27a6cb11c9eb5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "661e723a309f1e38db3e2badaab65be8a1cef89f441e1a8d01feb83b74fcd8b1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：把 std::function 作为参数传递回调",
+      "translatedText": "### Example 2: Passing a callback as a std::function parameter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "bdab02d440657756d499ce453b48612cd065cea6f617e7ee5d66ea36f901a962": {
@@ -141,6 +267,20 @@
         "costUsd": 0.000072
       }
     },
+    "bde12646430d2cc01d10b8c1f9884b581ac2d9a5a5b0d8def3f12af67707b331": {
+      "normalizationVersion": 1,
+      "sourceHash": "492a046a5e0182ccfdaac89ec3f22e8dfd1ce98d45b7695764607a888d52451d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它们只是适用场景不同。",
+      "translatedText": "They simply apply to different scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "bde1b012705eb998c153166a39f041c6f35895a470c47d486f7c979600ff0ad1": {
       "normalizationVersion": 1,
       "sourceHash": "c5c199163e3ffdc3a404c9871f6ec401fff7bf245e0f5f565e0ecee99a3fe6c5",
@@ -167,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "bdf2d6221882655459d6c8f62553b105f34c8f4944e4fcbcd21e81b6fe4b1ccb": {
+      "normalizationVersion": 1,
+      "sourceHash": "87af6703050fcdf78bda633cf7c2026fee087d911757834721b1e56966479b07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并行（parallelism）关注的是：",
+      "translatedText": "Parallelism focuses on:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 12,
+        "costUsd": 0.000056
       }
     },
     "bdf78f0a5e05e6131996d532da03cda7c53bef656cb004b3ef598cc39fb7fadf": {

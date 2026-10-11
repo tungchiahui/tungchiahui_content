@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "fd0f28f290ab9c112829654e6b5948512c1a3bbd6b5587ab27c9609ae3a77155": {
+      "normalizationVersion": 1,
+      "sourceHash": "d15f9517f025a2e706c8cb8028a7fa26922729745b2ceadcba8dd56c44d4f755",
+      "contextFingerprint": "66c26df4f75c0619cffb76538145985986d3966b0894bacdc897dad354167a6d",
+      "sourceText": "![说明: 2015-11-19_204101](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547547642923-7161b3d7a8.webp)",
+      "translatedText": "![说明: 2015-11-19_204101](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-clip-image002-1547547642923-7161b3d7a8.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "fd2d70e1dbbf0c29c63b308cc5a9711f6431538e91e8b07eece1c26d010f1c9b": {
       "normalizationVersion": 1,
       "sourceHash": "e993442dffe890c544ca097db0e527dc85305faf811a468a903f9c088438fde6",
@@ -13,6 +27,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "fd358f5d52c78d7b76818b4583eb6f5578cb01bc9ce421bdf94677ae91c6f8cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fd09605c8e24cc19302b6a26f359cb92a738cf7ed95e57556bbc849fad0eca1",
+      "contextFingerprint": "7d0228b1448ad09495d43fd1936cda074bd9b3b9e1b45adce98b6f1259d2e813",
+      "sourceText": "`join()` 只是在它被调用的位置等待目标线程。",
+      "translatedText": "`join()` It only waits for the target thread at the location where it is called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "fd53473eb4daf6077d61472efbf49690f682423e8a2691d5afaa1333929f5995": {
+      "normalizationVersion": 1,
+      "sourceHash": "abc9f56a7a0c924acb545884ad4fde01718a59a62e046d4291e90c2fc485a663",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 如果函数模板和普通函数都可以实现，优先调用普通函数\n2. 可以通过空模板参数列表来强制调用函数模板\n3. 函数模板也可以发生重载\n4. 如果函数模板可以产生更好的匹配,优先调用函数模板",
+      "translatedText": "1. If both a function template and a normal function can implement the call, the normal function is preferred\n2. You can force a call to the function template by using an empty template argument list\n3. Function templates can also be overloaded\n4. If the function template can produce a better match, the function template is preferred",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 67,
+        "costUsd": 0.000133
       }
     },
     "fd5792d626d932eb04833e36165c06bf1a6336c02dd4c0b36fe557b97dab8553": {
@@ -29,6 +71,20 @@
         "costUsd": 0.000076
       }
     },
+    "fd5b44c9cf3d6bc6032074ec2a2892d0328e309f64bffa8d6b3c205cc1fddef3": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfc0c237ef852984d99608c1388c84f023c1eac8e1420505a106ea78cd339ec8",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：忘记初始化就访问**",
+      "translatedText": "**Error 2: Accessing without initialization**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "fd658468a5f8c9a4dc5c29c61d79518a2f222645dd3f61dca450775e337c18c0": {
       "normalizationVersion": 1,
       "sourceHash": "252d8a0d3da98619bacac2d9dc3129ab7c4daf96221a18777e271bcc172323f0",
@@ -41,6 +97,20 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "fd660004f2130fa89d5c300e6255fddaf56207cabf253a4c5a0d68b000bb514d": {
+      "normalizationVersion": 1,
+      "sourceHash": "a637ae7bbd7ddcedf4816060a00cd64b4ac4a7fe876103fe2c10d5ec191f7ff7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个线程的锁顺序不同：",
+      "translatedText": "The lock order of the two threads is different:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "fd748d0421233934b9bf99453b83484fc2def6e3587839501d095bb10e2cb0fa": {
@@ -71,6 +141,48 @@
         "costUsd": 0.000137
       }
     },
+    "fda75704c36a6f8a4da56ea6e5d08bceaa100ec63e9803478791e2082e22737b": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e20928041ca2ef9e7ed6bf4fa23bc27fd8b58408ab4d291da9b65c981d71da2",
+      "contextFingerprint": "1810a6c912f8eb23ad5204a16c941e6bf9120089a000ab2caf82b3f3cbf27039",
+      "sourceText": "这种比`while (!ready) {}`这种空转要好很多，因为空转会一直霸占 CPU，而 `yield()` 会给其他线程更多运行机会。",
+      "translatedText": "This is much better than`while (!ready) {}`busy waiting is much better, because busy waiting will occupy the CPU all the time, while `yield()` gives other threads more opportunities to run\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "fdaae288f4ce70cde772e842a667a79b9d3c4f1c5d3b45a7280133e5d267899d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4db9a7e68019c018e89a07cbdef06ab1f7d630958c9a391dc046a050a39784ae",
+      "contextFingerprint": "2393f1ce193912671002206c31ffcda3db803c425d593db86c8f5cbc3fe68406",
+      "sourceText": "1. **传 `const std::vector<T>&`**：只能接收 vector，不能接收 array 或 C 数组。\n2. **传 `const T* data, size_t size`**：能接收所有，但丢失了大小信息，容易写错。",
+      "translatedText": "1. **Pass `const std::vector<T>&`**: Can only receive vector, cannot receive array or C array\\.\n2. **Pass `const T* data, size_t size`**: Can receive all, but loses size information, prone to errors\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 38,
+        "costUsd": 0.000095
+      }
+    },
+    "fdbe0d7bb9da4b00943ac5743ca02e35001d93588d6e128e2d62e66927c27bcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "26edd74e6b26b1c1486e1f9d7fbeb3627dba221a2ee5a19096c8ed0ec2131270",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它可以使用死锁避免算法尝试获取多把可锁对象。",
+      "translatedText": "It can use a deadlock avoidance algorithm to attempt to acquire multiple lockable objects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "fdbe6cfe811f71f34c57f7e6ff5773849d20f06e2e8949245e81163ef4a4b397": {
       "normalizationVersion": 1,
       "sourceHash": "40eac09c97f782e6751fa29e0eb9dfa008be13c971008a243f5874098714c994",
@@ -83,6 +195,48 @@
         "inputTokens": 140,
         "outputTokens": 16,
         "costUsd": 0.000062
+      }
+    },
+    "fdf1c290f0693f586b23e17e377eb073a784c1e9a08f7df4dafa107b487d44a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "4bb9f417446981117cee52217cee4e0e983ffcc93a1e1329007555c9bb60dc03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果多个函数拥有相同类型，就可以把它们的地址保存在同一个数组中，再通过数组下标选择函数。",
+      "translatedText": "If multiple functions have the same type, their addresses can be stored in the same array, and the function can then be selected by array index\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "fdfb378e03009622ba0c1d9530a548ba60b00d31c54df979f6dd911455d481bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "48b9fff4118d16d683a171f896b748dc746df07e85215a0f6fb4ea7e356c032e",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**概述**:",
+      "translatedText": "**Overview**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "fdfd7e6390204c5b362ee43cc130c55c15581ec836906eaabced71e689bf92d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b9d0771ce744d563e0ea5a7b059170e5b55fd018d70a5f7b6219bc221a46241",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数模板作用：",
+      "translatedText": "Function template purpose:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "fdff45f503188e6a281111bfb0e46ddc50685f8d627d904cb5b8b03362923e26": {

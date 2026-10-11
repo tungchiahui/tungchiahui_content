@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a418ba41b41a74b6761457857df75355756b9f3b34c14ddef06cc23839f0e5bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fa0cf324195988f9fe76ff7d543a3c2a2f80ff2a457b5f1ae6598cfe5d4fc46",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设现在：",
+      "translatedText": "Assume now:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "a41e866b81d859f6a58bb85cbd6f89b05ca327c4450195ca7de71178fd74d769": {
       "normalizationVersion": 1,
       "sourceHash": "0fcb1bf5357d270d5d9f24b4c25ec57abdbd8446572ac5ef95604a137dde9515",
@@ -13,6 +27,20 @@
         "inputTokens": 147,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "a42e6a5a3d4440b5d615aefcdb0f5136286486e445e14e3c07be198eaff96f77": {
+      "normalizationVersion": 1,
+      "sourceHash": "4773f699d263d627f921eef0d3dc6fcb2cf85a535ea8a6c8e4c984f139aad9b9",
+      "contextFingerprint": "fc9228a94d798dd2a7d9098fa4b53fd418f10a3816fff657859ea90e669003f4",
+      "sourceText": "`std::move(buf2)` 使右侧表达式可以匹配：",
+      "translatedText": "`std::move(buf2)` Make the right\\-hand expression match:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "a434691efb677a7cdda183fc1d1c2542a84364bd3c25209871879efd6177b0ee": {
@@ -29,12 +57,40 @@
         "costUsd": 0.000138
       }
     },
+    "a437bdb33f85d746ed3a0f4d28011c163e7764ae03fb52f66c7d5b07a1f60aeb": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae8b81e9c7c4ca5b112eccc216910a25499dd19c400eeb4c7bc3dfc628f10e72",
+      "contextFingerprint": "e9cd87803bd4d75e8efafcbc880e4cfa578071c3f971bccbd35cbf502d705f94",
+      "sourceText": "因为 `again` 重新指向了原来的 `value`，所以：",
+      "translatedText": "Because `again` is redirected back to the original `value`，so:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "a438a353102106f542a40da3d259c79fc50eebcc997d44fa2945bf7937fd3819": {
       "normalizationVersion": 1,
       "sourceHash": "d7f054f2e8569e753390782aedcd495982d07a76fa9fcfec730c52beabf4fbf8",
       "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
       "sourceText": "## 下一步学什么",
       "translatedText": "## What to learn next",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "a43d382576e005bac417b854d0c30aeefdb360461d536d8eb4806c66f206f0cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f0d0ef3f71fe6dbd6d20b21f4910a43f2888ec899d00e8259cf589cb8e026ab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "再例如：",
+      "translatedText": "For another example:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -111,6 +167,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "a4e080cf336ac287a1dc5434cbaee6f81ab4f144478cccb8a2f66e7f6bdcab77": {
+      "normalizationVersion": 1,
+      "sourceHash": "8701360cde38f59fe37e9a727635e8581eb29c9f4698ae4bc5df02d1e93b8bdb",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 如果共享数据存在并发写入，那么对应的读取通常也必须参与同一套同步规则。",
+      "translatedText": "> If there is concurrent writing to shared data, the corresponding reads usually must also participate in the same synchronization rules\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "a4e1a6cea4afde80fb9fba7ac3e9b1a257ad1414e17235d248af5f67cd498346": {

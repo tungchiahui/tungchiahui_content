@@ -1,6 +1,90 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "cc08687ffe7a70a9bc763a76aa87a792f9b643a8b7b1e99e134b79e1911a644e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c80b061d60fb2a202e640062f7ea078a1f9e5c6681fd7335215d36ba3143242",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一个非常重要的方法就是：",
+      "translatedText": "A very important method is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "cc1962f44bd017c6823383ccdf0b49d93de56099e3456ee6e6417346a3cea8bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b03c01d9cd620e23d15689318744815a9a8dbc45a3c070038f2953c0586e07d",
+      "contextFingerprint": "3cda3cdd02165683537515c25092d6b7d00b986719aebb73b3796d98cccb5215",
+      "sourceText": "它表示把 `MyNode::callback` 绑定到当前这个 `MyNode` 对象上，再把调用时的第一个参数传给 `callback`。",
+      "translatedText": "It indicates that `MyNode::callback` is bound to the current `MyNode` object, and then the first argument at call time is passed to `callback`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
+    "cc2657a0c589925b0942ca6a118046711dda1e98f7f88474713025b0ad8bffd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "134199cd5abf85b514b0a5bc087d8329b952b1706a808290a601b335d0b7caa6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而不能有些地方写：",
+      "translatedText": "rather than writing in some places:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "cc296ad82a3caede92bf0050ceb6d71ecb82a9dd9b86ca5c5ebfaf9e32cd30ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "edc2b4cde4ca8f6e19734264626599bf838205c5cce2d97c620d1a717c0639f8",
+      "contextFingerprint": "b1a4e3c3f060f30507e9af0290e522b996161de7b54e112a341e2a6274b47c02",
+      "sourceText": "1. 空的 `std::function` 直接调用。调用前先判断 `if (callback)`。\n2. 签名不匹配。比如回调需要 `int(int, int)`，就不能传入只接收一个参数的可调用对象。\n3. 保存回调时引用捕获了已经销毁的局部变量。\n4. 只需要临时调用一次，也把参数写成 `std::function`，在性能敏感代码中会产生不必要开销。\n5. 以为成员函数可以直接赋给 `std::function<void(int)>`。非静态成员函数还需要对象，下一节会用 `std::bind` 和 Lambda 解决这个问题。",
+      "translatedText": "1. Empty `std::function` Direct call\\. Before calling, first check `if (callback)`\\.\n2. Signature mismatch\\. For example, the callback requires `int(int, int)`，so you cannot pass a callable object that accepts only one parameter\\.\n3. When saving the callback, the reference captured a local variable that has already been destroyed\\.\n4. Even if it only needs to be called temporarily once, also write the parameter as `std::function`，which incurs unnecessary overhead in performance\\-sensitive code\\.\n5. Assuming that a member function can be directly assigned to `std::function<void(int)>`\\. A non\\-static member function also requires an object; the next section will use `std::bind` and Lambda to solve this problem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 223,
+        "outputTokens": 127,
+        "costUsd": 0.00022
+      }
+    },
+    "cc3d8dddca8ed2b70c4a9032c6d54c0d90bde00b5cb31bca6bba92e44c74d0fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "835c93a784c85bb28a73e633d46bfc0a2a3b4d97ee0a3a8e12b04c9d208c081f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要多读单写：",
+      "translatedText": "Requires multiple reads and single writes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "cc3efd869d03d6c5cdc3e24796e404633344a5761db99796bc15cc31bc78ec1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "708eeec7427f820bd4cb2f5176793c419ca28a80757da7101a88156541677f65",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果 lambda 只是立刻调用，引用捕获通常看起来没问题；如果保存到容器、线程、定时器或异步回调里，lambda 可能晚于局部变量执行。保存回调时优先按值捕获需要的数据。",
+      "translatedText": "If a lambda is only called immediately, reference captures usually appear fine; if it is stored in a container, thread, timer, or asynchronous callback, the lambda may execute later than the local variables\\. When storing callbacks, prefer capturing the required data by value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 59,
+        "costUsd": 0.000124
+      }
+    },
     "cc67052655eac700e956fb5296dff199dc276a330958dcb64d6383e913402cee": {
       "normalizationVersion": 1,
       "sourceHash": "06428b81db95e89f293ac7889d35fa8d66ae803e9c7299025a9d985f090237f9",
@@ -13,6 +97,34 @@
         "inputTokens": 146,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "cc715178d2036353fa80ec71c2620c57433ec4135658ce7a20be828bb710b5f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "f394125851c65d1b23935053c47da07ad9e35eca3b26b79c2ad259987fa81614",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 不要让多个线程无保护地同时访问共享可变数据。",
+      "translatedText": "> Do not allow multiple threads to access shared mutable data simultaneously without protection\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "cc7d405d8b448925de28d9e3d4499424ec6f255b39a30f62291f21319e831ee4": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c6b7a657cf6eb6660bb40e48c8b1f521da322195221b2699313bfe25125ae73",
+      "contextFingerprint": "952518b0af83222cb27467d23943075ab0ee766a4c6f214cb8763956a14c72da",
+      "sourceText": "当 `main()` 结束时，局部变量 `a` 和 `b` 虽然会销毁，但两个节点内部仍然互相持有：",
+      "translatedText": "When `main()` ends, the local variables `a` and `b` are destroyed, but the two nodes still hold references to each other internally:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
       }
     },
     "cc88db1d8f8458e590566289780aab42625767d7e79671c17767971179bb0fc0": {
@@ -57,6 +169,34 @@
         "costUsd": 0.000181
       }
     },
+    "cce0b981b237ec670f6b8533dc1355703b9513ec6858334ddab473cf3e4415d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "44c175718e01c781972426fe6422a0926a4204d5be0aacd91615845f8db83970",
+      "contextFingerprint": "cefeb893ca018ffab4e79e8db8736ac8e3b1ab715caa2b1f9f1600d6c08d2a22",
+      "sourceText": "函数原型：`istream& read(char *buffer,int len);`",
+      "translatedText": "Function prototype:`istream& read(char *buffer,int len);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "cce377adc3d996dc2a272675af2e1b6ecf2a175d53943ef22da7d4fb04905c5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8bbc2e82943d0275c8da5e883b2ff86e28a5b2bcc63bc23830c7402f983789cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要更加灵活地控制锁生命周期：",
+      "translatedText": "Need more flexible control over lock lifecycle:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "cce9fbe1a55916c0ceb84af5251c47aeaea2e338629681b4ab780ed15cfc7e09": {
       "normalizationVersion": 1,
       "sourceHash": "f0f48fd3f14abdd62dbfdd86ef72b25e27ea2ee5dcf722a44ba875a76bfc6505",
@@ -97,6 +237,20 @@
         "inputTokens": 161,
         "outputTokens": 49,
         "costUsd": 0.000108
+      }
+    },
+    "ccf07889ec40e6319e403507dbcba5005ce4aaac6262634aa92ba4825ff2aabf": {
+      "normalizationVersion": 1,
+      "sourceHash": "cefe61b2e94e551e5512dd5cba7b5d8643de70454c32cecb887d09d2f3e724e8",
+      "contextFingerprint": "989f3fcb0955b7e4eec5e0595faf74722696682ff560d0329199ac8d07df8043",
+      "sourceText": "`Message` 可能保存三种不同的数据：",
+      "translatedText": "`Message` may store three different types of data:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

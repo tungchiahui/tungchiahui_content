@@ -15,6 +15,62 @@
         "costUsd": 0.000091
       }
     },
+    "6e0433aba6facfa40a67ee6bbbb0f24c51969dc06585d8cac7f43214e9fdd7a9": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f3acb293905c29b985f1fb0a73fafbb4a67ef0ded7a7fdbfb5206d199db1ce3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以如果：",
+      "translatedText": "So if:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6e0614aaffbbcb62518ba0846f7617f57e0bc72da62362b478dc63cc424b919c": {
+      "normalizationVersion": 1,
+      "sourceHash": "596d8ddb5283d4465323e52575ff4c6a466f8da44f35d096f5730b3783ca0531",
+      "contextFingerprint": "f386d431dc56e0beb9d7add5baacb0cff2572410833922a37c604672c1ef1c1a",
+      "sourceText": "* `try`\n* `catch`\n* `throw`",
+      "translatedText": "* `try`\n* `catch`\n* `throw`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "6e065061ce699ef5e0fff01088171d4e9845fb86532d145db7357e270131aa52": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4b02be48b53ec77cd81f8cfed24d9f7f6da3b79d98c771ff7ed94b191d57a88",
+      "contextFingerprint": "4b7c583c09e29002768bc53850e4ce86803c7013f264de2df19b3a134ba4ddb2",
+      "sourceText": "`std::chrono` 提供了三个核心概念：",
+      "translatedText": "`std::chrono` Three core concepts are provided:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "6e0b70ca6f629489a66e7da43e2ad81b4554322f89718f9b0f3abc6b29c5790c": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e13e2d887208447bcc0a13dc5f1beb1c698d1278516ac2da5486ac0dc18921c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但两个人谁都不愿意先放下自己已经拿到的筷子。",
+      "translatedText": "But neither of the two was willing to be the first to put down the chopsticks they had already picked up\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
     "6e0bb1d138b38ddbbcc41a3fc6cd5f06147c5b1aa0bfffd091006f05ef0b570d": {
       "normalizationVersion": 1,
       "sourceHash": "2f51f07060d1ae1d84ee2c2b275aeff6d157dbeba2c199f18d50342d9f2436a8",
@@ -29,6 +85,48 @@
         "costUsd": 0.00008
       }
     },
+    "6e0bf1911c29dbca7c28f34c1b302fc2c1fb4c2097153c247e8623297cef517b": {
+      "normalizationVersion": 1,
+      "sourceHash": "756bf58a752cee4111e6391da73b40018db56532cc59203de2d1b529fc63b68e",
+      "contextFingerprint": "2ec2e29379c3bbc643142ab9a021c8aaf2992cc721c47d9b98f5412a270f7945",
+      "sourceText": "### 示例 2：unique_ptr 的独占所有权和转移",
+      "translatedText": "### Example 2: Exclusive Ownership and Transfer of unique_ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "6e1de9f3a42d48cc85680558f7cfe3705a66b1c868448919a988ecad0a72a85e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4a0ed3b78e2f7a8281c5e6c6b655dbe74cea8995335bdfceec6ed93a38bc52d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数模板案例",
+      "translatedText": "#### Function template case",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6e2b9488e4c393594602c98e31501fe5970e4d895fb8b55e86fd2e169df2407d": {
+      "normalizationVersion": 1,
+      "sourceHash": "21375868aeb6559039d250b9598858b299909a731c8ae56bfc013a75816df55a",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 同一个线程重复进入由同一把锁保护的区域",
+      "translatedText": "> The same thread repeatedly enters a region protected by the same lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "6e3546b7cc33dab1974c2db2d064b00ce1928e495f5d3007f2c758612afc4dab": {
       "normalizationVersion": 1,
       "sourceHash": "e224bab287126f17ecad2fd9d5323b5cb1db29d6239605fca5aba3d294a53ce7",
@@ -41,6 +139,20 @@
         "inputTokens": 139,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "6e391d57cd683d409c4d45b2b766f0d0e981e134dfe360247e556575ef3db820": {
+      "normalizationVersion": 1,
+      "sourceHash": "c54c6eb67e6544c75782a5dc32b7e4299e744b0faebe90f582134c420c87547a",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 为什么需要互斥量",
+      "translatedText": "## Why are mutexes needed?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "6e39f44a12dbdc8e1bf661eee966c2e7bbcc62d69515a34b0682743292c3befd": {
@@ -71,6 +183,132 @@
         "costUsd": 0.000067
       }
     },
+    "6e5893504ba0e7a5301da45968e1056ae38920e3fbd81f7219fc869c6383d821": {
+      "normalizationVersion": 1,
+      "sourceHash": "44494853ceb67916d2da1e779da4d5c7554a3228ebc950532ec14765e0fd07fa",
+      "contextFingerprint": "58456c03b25e6dcf61f4bc4f1327100540fde192d202873071849a337c2f7d33",
+      "sourceText": "`std::sort` 稍微不同：",
+      "translatedText": "`std::sort` Slightly different:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "6e5e4cf583b862d2d1eef3b4c404e87817a9fb1ef795b9a1de82c55a7a7ef91f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfb9283eba75df64b0a0ad9b13acbc5492299ec23bb659ccbbadef2fab845931",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 才真正起作用。",
+      "translatedText": "mutex really takes effect\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 12,
+        "costUsd": 0.000056
+      }
+    },
+    "6e5e8d03fede261f17bc1e6d1c625107c0713b7d6ffa44a730c6318e86263ac3": {
+      "normalizationVersion": 1,
+      "sourceHash": "08a4e6c7fc43d3d18d30b79a988edda237dbae8ecfd97f5061f57cfe2ca8038d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之后：",
+      "translatedText": "Afterwards:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "6e630bc4b40dee35e1dbf6a4f79763e628497d026775582ba2a1dcf4f3268d89": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3f33c92633d4d5893110047261d1dc754b169fd6964b879e0f797001fa3bd22",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数返回结果时，如何表示\"没有结果\"？",
+      "translatedText": "When a function returns a result, how is \"no result\" represented?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "6e6aec0ce2a4e165399e45d3a3738f9669e018b79eb231d4bbf761af5c80b508": {
+      "normalizationVersion": 1,
+      "sourceHash": "83fe6052d9b352a8f0dba15b776186588270543008975338923222d244160e7e",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 搬运容器到另一个容器中",
+      "translatedText": "* Move the container into another container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "6e750cef49d1d9fe6406cd1efbdfe79779123dbe6ac157232578c5d459145b1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "522920e5d3c2fb63139222e7deafaaeae9fb3cd32a56761ee816d00774517ebb",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 给string字符串进行赋值",
+      "translatedText": "* Assign a value to the string variable",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "6e88475adb973abf6342ee1be96be1b930203aa861ed3726a72e7973a68733da": {
+      "normalizationVersion": 1,
+      "sourceHash": "b22e4e3bae61eaea353fdf37ee44509e549e855f6ba3f5f5d2deba82ba10ff98",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以：",
+      "translatedText": "Alternatively:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "6e98b00f5c1b90c59a6b5e5212819f291d7d1921e36d6ae9fb49ec65d9423218": {
+      "normalizationVersion": 1,
+      "sourceHash": "fba00ac949ad5f1f49cb95e8a5fb72f2fe0f17813edace285f1c8e33d0b18d09",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 这个特性是什么",
+      "translatedText": "## What is this feature?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "6ec06e7cdd71b23bbeebef62bc7becd4e351a6e2557098a8725a5083c06e28f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "66769fd5efb5ff0e05e9552c580d57956ba390cb0384b1b4f751c4d365e1c8fb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 自定义异常类",
+      "translatedText": "### Custom exception class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "6ec63940d451c0379d0d50d5510d4c5e89daeea709254df079270feb6ab1785e": {
       "normalizationVersion": 1,
       "sourceHash": "794f5f902bf5f7cede4833c98634e84163f3af4ff725bcd5bd294fdb8e6da4eb",
@@ -83,6 +321,34 @@
         "inputTokens": 144,
         "outputTokens": 27,
         "costUsd": 0.000076
+      }
+    },
+    "6ec86cd1b6b76880477c466679afa198dd996c4c03cfe98b87ccd1dd0bffa8d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1a07ba627971504955a4817017ae53d40b8ee8b911041633a75f266b9002d0f",
+      "contextFingerprint": "ac70fa4911df33e976e6dc48e166b3ca438fae2a0582e6b468ca52a857ef31c2",
+      "sourceText": "`std::variant` 是类型安全的联合体，能存储多种类型之一，并且**知道当前存的是哪种类型**。",
+      "translatedText": "`std::variant` is a type\\-safe union that can store one of multiple types and**knows which type is currently stored**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "6eee1255350797fb8d646b8577eb0660b88e35214882fd6a3c85ead5bed8badc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a445ebda52bb1e019407cf548e77f4695e1044421d0ddcf0f8f20c045e4a6410",
+      "contextFingerprint": "f0ba4da81bce8e304291b1f10de7581d1614bccbd8fc122203c99abc608f8f8b",
+      "sourceText": "返回值类型通常可以由编译器推导，因此 `-> 返回值类型` 经常省略。",
+      "translatedText": "The return type can usually be inferred by the compiler, so `-> 返回值类型` is often omitted\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     }
   }

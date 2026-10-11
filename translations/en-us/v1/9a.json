@@ -43,6 +43,90 @@
         "costUsd": 0.000059
       }
     },
+    "9a3ae12b6c17fe4c857d1227f24cabeee000f8a5b9863b8dc8d27a72aab55ded": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6b38d0d7b2d93f0cea42e7949cd6697b2df47d38893149078d90ce052763e95",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 如果不允许插入重复数据可以利用set\n* 如果需要插入重复数据利用multiset",
+      "translatedText": "* If duplicate data is not allowed to be inserted, set can be used\\.\n* If duplicate data needs to be inserted, multiset can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 36,
+        "costUsd": 0.000087
+      }
+    },
+    "9a670c9c5e7df2bfda9f2fcd2c2b42695f70148ca4e6c5df7868dafefa77a2b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "79e155e2804ce0cf1da1c25a441171c22febb3ba40facfad0648a153510890ee",
+      "contextFingerprint": "fd3410e8e328f20a4c996683c16946c1df03118b4ebc30626e1b4d5dd1a82ab5",
+      "sourceText": "* `string& operator=(const char* s);`             //char*类型字符串 赋值给当前的字符串\n* `string& operator=(const string &s);`         //把字符串s赋给当前的字符串\n* `string& operator=(char c);`                          //字符赋值给当前的字符串\n* `string& assign(const char *s);`                  //把字符串s赋给当前的字符串\n* `string& assign(const char *s, int n);`     //把字符串s的前n个字符赋给当前的字符串\n* `string& assign(const string &s);`              //把字符串s赋给当前字符串\n* `string& assign(int n, char c);`                  //用n个字符c赋给当前字符串",
+      "translatedText": "* `string& operator=(const char* s);`             //Assign a char\\* type string to the current string\n* `string& operator=(const string &s);`         //Assign the string s to the current string\n* `string& operator=(char c);`                          //Assign a character to the current string\n* `string& assign(const char *s);`                  //Assign the string s to the current string\n* `string& assign(const char *s, int n);`     //Assign the first n characters of the string s to the current string\n* `string& assign(const string &s);`         //Assign the string s to the current string\n* `string& assign(int n, char c);`                  //Assign n copies of character c to the current string",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 91,
+        "costUsd": 0.000171
+      }
+    },
+    "9a7499304b850b78861186f531d785655d2849c56bcb695f8faa6aed2c44bd17": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a4619a4f2cb4ff274008bde5f6ebb6f7a21e1c06853150f76a40f275f6bf65b",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**概念：**",
+      "translatedText": "**Concept:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "9a8e84292a7a4a8c50ed6fdd922c672354c52ad7ef75ce772870c1b8c07c31e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1c6eecc895c9ee08f88b96e9ffce6ba20610b7f88a29f7aa3766abb86bbee92",
+      "contextFingerprint": "28524dfafed88d0d07c02285185584fbbce5740cf0b530e3721fa0a624161f12",
+      "sourceText": "#### out_of_range",
+      "translatedText": "#### out_of_range",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "9a9eab5e682b8b96c523c9c9622e19e7343a57fcc91bca56a6cac267277e7085": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac07ee6b0359eac55732dc43f5c67f11ba3bcae7aebf4bb9836e1f70426ed97d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此，更准确的说法是：",
+      "translatedText": "Therefore, a more accurate statement is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "9ac41a3238991a026c44a010b6f4d325f4001f033dedf4c76b15921831d0c18f": {
+      "normalizationVersion": 1,
+      "sourceHash": "3666368c3ff8625092582df47e36cd132b04257d5ff70e5f576938d0d9eab2f4",
+      "contextFingerprint": "55c2037c6b54c3ced637e3d7175385b5081ad631837c2c4c8892edbd794361ef",
+      "sourceText": "`std::chrono` 是 C++11 引入的**类型安全的时间库**，把\"时间点\"、\"时长\"、\"时钟\"概念清晰地分开，单位在类型系统中自动管理，不需要手动换算。",
+      "translatedText": "`std::chrono` is introduced by C++11**a type\\-safe time library**which clearly separates the concepts of \"time point\", \"duration\", and \"clock\"\\. Units are automatically managed in the type system, with no need for manual conversion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 61,
+        "costUsd": 0.000128
+      }
+    },
     "9acb213071b63b3a6c0d2e6d417e7ae18d5c9ca4f978ee7b48b4e364ed58cc9a": {
       "normalizationVersion": 1,
       "sourceHash": "e0209dde2123d9e9c2df37caa985ea2ffa8e78dce5d02e255aed14a7144bf88c",
@@ -55,6 +139,34 @@
         "inputTokens": 138,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "9adf028399cf3a2e3e84e443dea7154d0f8a79167d553a3a0844092f7123a0c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "85b7c476c35fdfc448771e1e0c2da703e86136d368db4ce417b0473f2354783f",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：按值捕获和按引用捕获",
+      "translatedText": "### Example 3: Capture by Value and Capture by Reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "9ae97853610008872263ad24a9bf532a281a70000278209aa8222c95ee87061b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff00e4de6b8f464909bd13d727aacf382b2f739a416e4d058ec82b667a66f975",
+      "contextFingerprint": "6132bb95e471e99fbfaaa79a8d3506a6a8213a02e14efd3b01aaa58c63869cca",
+      "sourceText": "如果需要在 Lambda 中修改这份对象副本，与普通按值捕获类似，可以再配合 `mutable`：",
+      "translatedText": "If you need to modify this copy of the object inside the Lambda, similar to ordinary capture by value, you can additionally combine it with `mutable`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 36,
+        "costUsd": 0.000089
       }
     },
     "9afa7c356dddf71652b3c3955fc8c9861ede4dae3cef0297b72089eb5668e6aa": {

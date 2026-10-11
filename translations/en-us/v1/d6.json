@@ -15,6 +15,76 @@
         "costUsd": 0.000088
       }
     },
+    "d60cf41e8a72ab90b211336e8a32bab1f1ef952f957a7acf7cd1b58c57ccfa3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "08cb003656a2200606d6d854b006697babb43b61e4dc4510bcd4f77b5e136c9c",
+      "contextFingerprint": "c742688a0ef070c105a55c231a3ccbf700c13469c1a1e50fec81a30a39624cbd",
+      "sourceText": "**运行结果：** 终端没有输出；程序会在当前目录生成 `test.txt`，文件内容为：",
+      "translatedText": "**Run result:** No output in the terminal; the program will generate in the current directory `test.txt`, and the file content is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "d62adcafd6e64007fc3de095540976c598727f225cc18ef17e3a659435cabf5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "006f4d05f16f9f61a3c23f73aaef55ff0d5ca9f73ecbbec26220a054705f1219",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同一个参数适配任务，Lambda 往往更直观，因为参数名和调用关系都写得很清楚。",
+      "translatedText": "For the same parameter adaptation task, Lambda is often more intuitive because the parameter names and call relationships are clearly written\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "d62c58b8db0504a0f4c1255f1320daa5994ac61295001a8b6c1a780073f9a2a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfa5bdfd79f901fd5d40f2ee9c571377f970f4ebdf50ddeae36fa8cfc659ab86",
+      "contextFingerprint": "46650a18384b76fcafab0796301b08583c808991f39827175d2fedfa7dda444a",
+      "sourceText": "如果一个 `std::thread` 对象析构时仍满足：",
+      "translatedText": "If a `std::thread` object still satisfies the following when it is destroyed:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "d6384384d30b898195ae44ea378fd71fbb6456e72c521c534ae44eac82d832d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "a899830e52f6cd9c9080e5d2e01e9d00f6e2a8775f5a4c55505112e2c8c6e7ed",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 中输出格式化的字符串一直比较麻烦：",
+      "translatedText": "C++ Outputting formatted strings in C has always been rather troublesome:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "d64752bacc87a7b4eaff8716fce2c996392d7143101e9a149203583051c4d0bc": {
+      "normalizationVersion": 1,
+      "sourceHash": "13aa050066da5d6b96cc184685d119895ac0076e505327b71637fca71115b1b3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "返回字符串长度。例如：",
+      "translatedText": "Returns the string length\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "d64eec7f9a73d953ecfc45e3c35c91cfd5f451ff1526361b68fba8647994252b": {
       "normalizationVersion": 1,
       "sourceHash": "86ea84ece087284df5e8ddc63eab983f5fb50e02f55ae23b12c7d48bedb2b56d",
@@ -29,6 +99,20 @@
         "costUsd": 0.000138
       }
     },
+    "d67bb2b1e3ae1be319914782146eee687e1029df24a743305ce8ddb108ff384c": {
+      "normalizationVersion": 1,
+      "sourceHash": "fffe3498308ce69bb3c4d43fb5d0fc604cc1ae74a1a4267541d58b5431ff67ac",
+      "contextFingerprint": "64913ab64dab2d26d40a7cc8d6fde7d7e12ab5ef5144839627c3623ca664434f",
+      "sourceText": "1. `std::array`：固定大小数组，适合替代 C 风格定长数组。\n2. `string`：字符串容器，负责字符串构造、赋值、拼接、查找和截取。\n3. `vector` / `deque`：常用顺序容器，一个适合尾部连续存储，一个适合双端操作。\n4. `stack` / `queue` / `list`：容器适配器和链表，适合特定访问模式。\n5. `set` / `map`：关联容器，适合去重、排序和键值查找。\n6. 函数对象与谓词：把“可调用逻辑”作为算法参数。\n7. 常用算法：遍历、查找、排序、拷贝替换、算术生成和集合算法。",
+      "translatedText": "1. `std::array`: Fixed\\-size array, suitable as a replacement for C\\-style fixed\\-length arrays\\.\n2. `string` : String container, responsible for string construction, assignment, concatenation, search, and substring extraction\\.\n3. `vector` / `deque` : Commonly used sequence containers, one suitable for contiguous storage at the tail, the other suitable for operations at both ends\\.\n4. `stack` / `queue` / `list` : Container adapters and linked lists, suitable for specific access patterns\\.\n5. `set` / `map` : Associative containers, suitable for deduplication, sorting, and key\\-value lookup\\.\n6. Function objects and predicates: using \"callable logic\" as algorithm parameters\\.\n7. Common algorithms: traversal, search, sorting, copy and replace, arithmetic generation, and set algorithms\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 250,
+        "outputTokens": 146,
+        "costUsd": 0.000251
+      }
+    },
     "d68237b28ad5c08b9b58dc8136e18a9013f0c86efa28641f6ec8fd5b5a8a7c69": {
       "normalizationVersion": 1,
       "sourceHash": "ee1e46feced3d78851c410eed587598a1451b76abeff7df8748f2b4b259d562b",
@@ -41,6 +125,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "d68fad8611d93a33607d02a070b4135228f19cc3e8c189b77350ac5938cbc15e": {
+      "normalizationVersion": 1,
+      "sourceHash": "37d81979ca13ed04ac2d2798ff5fdc1f7463750e428ebd5318401e8a2cda5b56",
+      "contextFingerprint": "8c8767d20a2be250b02d5b8fc822e7256b3572d0574c6279574ce9bfaefdc828",
+      "sourceText": "| 工具 | 特点 | 常见场景 |\n|---|---|---|\n| `std::lock_guard` | 简单，整个作用域始终持锁 | 普通临界区 |\n| `std::unique_lock` | 可以主动解锁、重新加锁、延迟加锁、尝试加锁 | 需要灵活管理锁生命周期 |",
+      "translatedText": "| Tool | Feature | Common scenario |\n|---|---|---|\n| `std::lock_guard` | Simple, the entire scope always holds the lock | Ordinary critical section |\n| `std::unique_lock` | Can actively unlock, relock, delay locking, try locking | Need flexible management of the lock lifecycle |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 49,
+        "costUsd": 0.00011
       }
     },
     "d6c13a7911eaa703f6a89ec54a506ae638ddec4ee2cf147ef2678dcd13604391": {
@@ -83,6 +181,20 @@
         "inputTokens": 142,
         "outputTokens": 27,
         "costUsd": 0.000075
+      }
+    },
+    "d6edb339de73146b86669e276131cd73d6d6c70e1af17f95189efd8cc59fd947": {
+      "normalizationVersion": 1,
+      "sourceHash": "0007475173fa974e2a8c6d626b431bfc57e897ee00a605846190e592e1fdb895",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板成员函数类外实现",
+      "translatedText": "#### Out\\-of\\-class implementation of class template member functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "d6eebbc275c4feea91e58180c9f3c95275ec38c463414aca8b565b531f698740": {

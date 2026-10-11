@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "240398ddab63571b19e67063c377d9b95d64b2b4b5de1a847caad90794462d04": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe1103f5ae6103250c98171c29467ca9e307f47140335f56867e419cc4549390",
+      "contextFingerprint": "2f744f227c100a6f702437ddec9f7684dfc3e1fe707feaa858853c49b809063d",
+      "sourceText": "1. 线程什么时候开始、什么时候结束，谁负责等待它？\n2. 线程函数拿到的参数是副本、引用还是指针？对象会不会提前销毁？\n3. 多个线程同时访问同一份数据时，怎样避免数据竞争？\n4. 多把锁同时使用时，怎样避免死锁？\n5. 一个线程没有工作时，怎样高效等待，而不是一直循环占用 CPU？\n6. 一个任务将在未来产生结果时，怎样取得它的返回值或异常？\n7. 程序退出时，怎样让后台线程安全停止？",
+      "translatedText": "1. When does a thread start and when does it end, and who is responsible for waiting for it?\n2. Are the parameters received by the thread function copies, references, or pointers? Could the object be destroyed early?\n3. When multiple threads access the same data simultaneously, how can data races be avoided?\n4. When multiple locks are used at the same time, how can deadlock be avoided?\n5. When a thread has no work to do, how can it wait efficiently instead of looping continuously and consuming CPU?\n6. When a task will produce a result in the future, how can its return value or exception be obtained?\n7. When the program exits, how can background threads be stopped safely?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 230,
+        "outputTokens": 143,
+        "costUsd": 0.000241
+      }
+    },
     "241d108abb69a98f444e939b3bdf5b2fb3f99e40194b44d8b2359cdf437d14f4": {
       "normalizationVersion": 1,
       "sourceHash": "1e4aee1b0ceed0a11f0fd53d00b52102e9e7fd2ec17d17e6a16e69e3ce6d6da5",
@@ -13,6 +27,34 @@
         "inputTokens": 140,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "241ff999d5127f8d251678b247f25feac3ab4cf32dee90926d434ab7e2771180": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d13231768a4e50729605b51e52eabcdf1432485522919dd8a44194ccd7cbc1e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "功能描述：创建set容器以及赋值",
+      "translatedText": "Function description: create a set container and assign values",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "242104a01789e51b046f8279432c0c2dd2751e8fec14052c3756bfb545ce6ed1": {
+      "normalizationVersion": 1,
+      "sourceHash": "406e6e9d0415cd686e3f0b5d04d8a1230d67adf3464e33610761ec4b068ec0d8",
+      "contextFingerprint": "04118dc78586467a0c29a05c745616de598ee6b72b4d61f7b03d3cc81944d209",
+      "sourceText": "##### 为什么 `Buffer b = a;` 等同于 `Buffer b(a);`",
+      "translatedText": "##### Why is `Buffer b = a;` equivalent to `Buffer b(a);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "242eee82a2949b23138097b2b3bddf6a08a656f973f2339790e2a9f60ada8f3d": {
@@ -29,6 +71,62 @@
         "costUsd": 0.000079
       }
     },
+    "2462231c276bb311ada025f52c8b862c49645c07cd13f38b5303feef7a4d7382": {
+      "normalizationVersion": 1,
+      "sourceHash": "a27e97f58c3b00cc47a626e5ef5712bdb0646ac8d915aa822ff8d9b5d0a53b85",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你只是立刻调用一次，类型不同通常不是问题；但如果你要把回调保存到成员变量里，或者把多个不同回调放进同一个容器里，就需要一个统一类型。",
+      "translatedText": "If you only call it once immediately, differing types are usually not a problem; but if you want to store the callback in a member variable, or put multiple different callbacks into the same container, you need a unified type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 52,
+        "costUsd": 0.000113
+      }
+    },
+    "246abb3564ee05be5184716a82c4f47194dff67f596fc29846403348956a7dd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "e04a2956abe35a5e2ddf89a3dd377a45b2bbe6edd1a0a15ec989aba398e2a033",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：编译期调用时注意参数合法性。",
+      "translatedText": "Correct approach: when calling at compile time, pay attention to the validity of the arguments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
+    "247d2ef9df5e5d95663caf5e05e1387175a0d0a356c5fddd746e75f31bb2a913": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad2ac7b2903e05405703de2e2838625d6fda32296b86c26fe9d269b1f8f763ef",
+      "contextFingerprint": "b52fa187924b4f8008c466e39cc5dcd9c15f7141f893152bc13fa3c9dd56cde8",
+      "sourceText": "#### `unlock()`：释放锁",
+      "translatedText": "#### `unlock()` : Release the lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "249229e6a4ae658c45f2e5326bd2292c528f2f0d92ef019605c24e9650a44e48": {
+      "normalizationVersion": 1,
+      "sourceHash": "0880ec5e06e7f05baec21c44a4e97e05caa48bbca2dcc33ee608744961077c15",
+      "contextFingerprint": "d50035b615b78638b01c15f39c4497b70837a5eeab555a043c5ab19fca8c82c0",
+      "sourceText": "* `try`：放置可能出现异常的代码\n* `throw`：抛出异常\n* `catch`：捕获异常并处理",
+      "translatedText": "* `try`: Place code that may throw an exception\n* `throw`：Throw an exception\n* `catch`：Catch and handle the exception",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "249fe25f9ce2aec37a498f0fa3f5d6471eb87da863711a346fbd02da3ac01ecc": {
       "normalizationVersion": 1,
       "sourceHash": "1538c0d01e623f8545fb4aa49798b2dcb14c3f513eb93a989ce6d0a647342849",
@@ -41,6 +139,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "24a75dfe6eaad0deb5ce7e19322ddce70dc8d4995b83881e605b5c7c9221f6e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "45581e7e972bf98627d9e164743a4848cf5e8e281e818f30abcb82f6756e8044",
+      "contextFingerprint": "78867e4a8ff5b6c8f8a5b735f76ea8446b8cd3fd21322bdc4772a5fa16c8df0a",
+      "sourceText": "* `string();`          \t\t\t\t//创建一个空的字符串 例如: string str;\n\t `string(const char* s);`\t        //使用字符串s初始化\n* `string(const string& str);`    //使用一个string对象初始化另一个string对象\n* `string(int n, char c);`           //使用n个字符c初始化 ",
+      "translatedText": "* `string();`          \t\t\t\t// Create an empty string, for example: string str; \t `string(const char* s);`\t        // Initialize with string s\n* `string(const string& str);`    // Initialize one string object with another string object\n* `string(int n, char c);`           // Initialize with n characters c ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 54,
+        "costUsd": 0.000118
+      }
+    },
+    "24b42ec03ddea9a9779b6c21183ab421b2b73a1eb17edddafafefb48b5844044": {
+      "normalizationVersion": 1,
+      "sourceHash": "21445fdf8e587833e865fd489cb89e2e236ef9c0f10e57081eb7a9098cedaf44",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### map构造和赋值",
+      "translatedText": "#### Map construction and assignment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "24c86ff88ed553a9b9e277c5d36e78c92dc0f5c4e47a165c078e359b8c9bd415": {
+      "normalizationVersion": 1,
+      "sourceHash": "1929073ea6b31b0d2aa836fa2c4df5171be3775a9aa81255e5de4b4cb6402709",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 本章后续方向",
+      "translatedText": "## Direction of the rest of this chapter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "24ca1479cd39db691bdb6de261e8344e37f194daa62e46654f41eee799fb9675": {

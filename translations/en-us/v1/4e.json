@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4e1484eca28a74407924dc94626fd33574db478e2a559ffb89de946be46aae0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "57982f7849f9cf8c0b01dcd0d0c4dd4d7071131dbfd9c37360fccfe500f8e60d",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++17 开始，可以使用结构化绑定一次取出两个值，并根据含义为它们命名：",
+      "translatedText": "C++Starting from 17, structured bindings can be used to extract two values at once and name them according to their meaning:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
     "4e20c1ec5b30178ce157e039c9e491397a036cddba315f1858bdad7120dbba9a": {
       "normalizationVersion": 1,
       "sourceHash": "fae245790d7dbc098ca317c8ace04cf5cc953889cb768e10f8d3bf229e6ad08e",
@@ -13,6 +27,20 @@
         "inputTokens": 142,
         "outputTokens": 28,
         "costUsd": 0.000077
+      }
+    },
+    "4e2e009ab4a18cffd3a20e2d3dbc1d29ed47184baeb681200c7b26a197f43985": {
+      "normalizationVersion": 1,
+      "sourceHash": "921e30dfbeb70a93e84cc417132361da70af400f1de19a3ed54492fa4249519d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常用 RAII 实现",
+      "translatedText": "## Common RAII implementations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "4e369c21ba3b76d6a426f978b15345aded4100589f58e595a5b5c7fbf7d87fe0": {
@@ -29,6 +57,34 @@
         "costUsd": 0.000126
       }
     },
+    "4e3a2864bd65021966a22b3dd0a959e54dc296cf840853ee87924e06f8fed2fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "29e76422f263be2377074f1381923afd7e654530a2188bd2ec105eca6c325de1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里的：",
+      "translatedText": "Here:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "4e3c263ddbd21edec912c49286dbfca234c3f7e70550172728866e58cc778485": {
+      "normalizationVersion": 1,
+      "sourceHash": "d73da6fb26de0bd35f6ec2aaebd83112ab0332be463f5d5669155028dbcb8d89",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是：",
+      "translatedText": "That is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "4e50e15a7fbd05e22c9bff8ccce4dc0bf73297e52f987fb44e7499adeb51b1ea": {
       "normalizationVersion": 1,
       "sourceHash": "ac1c6ad2b0ed78af8f037fc65399658e92b5d97ba1212513ecb0885e0f93b42f",
@@ -41,6 +97,20 @@
         "inputTokens": 157,
         "outputTokens": 47,
         "costUsd": 0.000104
+      }
+    },
+    "4e583e2a8ce93bfd3f7ac2dbb36a94f3b107e39fa8da12881b4751aae24e949e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0672dde426532ab6c083aef341c584a67ae2df219a2cd63a0e061f92f1a4ac4",
+      "contextFingerprint": "4d0e64fe6f0068d9ba9e7d5f99af6e8cccaf291307c5686172dd5aaf3b2e8a25",
+      "sourceText": "* `set<T> st;`                        //默认构造函数：\n* `set(const set &st);`       //拷贝构造函数",
+      "translatedText": "* `set<T> st;`                        // Default constructor:\n* `set(const set &st);`       // Copy constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "4e636dcc27ffe97b272644458d5c0965072530941066e27a726dd7215f695a27": {
@@ -71,6 +141,48 @@
         "costUsd": 0.000053
       }
     },
+    "4e79e94466a098182e285bb5fb0623d543dd50b670343d993e06a3233b276e57": {
+      "normalizationVersion": 1,
+      "sourceHash": "e42426ba5bcda6f3dc56cfd89e64a846f62f238eb697fd068fcf8c81015aff33",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更明确表达“原子地加 1”，并返回加之前的旧值。",
+      "translatedText": "Express \"atomically add 1\" more explicitly, and return the old value before the addition\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "4e805cc34af9d939be0c5291f078bcf87e4552117a33a0f3be74549873d3a9a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2a2ce61ceebd865d25266d237f4fef4103cdd160923a83dddede3bd9e0b2168",
+      "contextFingerprint": "a38b95ff01ca47a15903040a4fbcce0bb6a63b25165a711b8cac4dae48265e3f",
+      "sourceText": "`find_if` 返回的不是字符串本身，而是一个**迭代器**。",
+      "translatedText": "`find_if`What is returned is not the string itself, but an **iterator**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "4e8bad60335bd6e9fdd823276efc48520eba32d73fbad22a8ddd74f5d98bfd57": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0297249328aee9215ac0f2d42532b7d599151d675f4d93f69a6776af50c8b04",
+      "contextFingerprint": "dd1a8d0aa555674bf8dbc107ba83e42c29ad21e5d892c7ad9d8e8efb734f4fb8",
+      "sourceText": "* 重载**函数调用操作符**的类，其对象常称为**函数对象**\n* **函数对象**使用重载的()时，行为类似函数调用，也叫**仿函数**",
+      "translatedText": "* overloading**function call operator**class, whose objects are often called**function object**\n* **function object**when using overloaded (), the behavior is similar to a function call, also called**functor**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 47,
+        "costUsd": 0.000107
+      }
+    },
     "4e908acd525bf971d6465875f85818a72279cc2ea05553dd53e58f3a45802ad3": {
       "normalizationVersion": 1,
       "sourceHash": "c93ae26e770d32259bf63a3f4d4daa264a490777034641d3386994d5f57e61e5",
@@ -97,6 +209,62 @@
         "inputTokens": 152,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "4ea12d1e1dd759ddeb9163d7ebbff7d2e2d3b7835f11547516c5e0740b1375d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "16df4a7be5714897a37ffebaecbddc921453f3b2643f925c47b41f637d0736a4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行关系是：",
+      "translatedText": "The execution relationship is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "4eae6a22daf534c58f2453c6be7bd7eea5fdab3a9426f1789e050add0df79135": {
+      "normalizationVersion": 1,
+      "sourceHash": "5334a46dd6306c41cafdf00761ae6dac608942f11414796f60da9ae7018a5af2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并行强调“是否真的同时执行”。",
+      "translatedText": "Parallelism emphasizes \"whether they actually execute simultaneously\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "4eb3b1ff86dfc710229c1d29d6a5aa4f88d65c9deac5a8398ff32326e94f0ca2": {
+      "normalizationVersion": 1,
+      "sourceHash": "af6aca5aeee1b138175d9f57b166bfba3f5bc9a6de859b8e309feb70135e1506",
+      "contextFingerprint": "655b4f2a5f2784e7834212b85aabfbc08036104475a1a1fa72848e1f44d20ee6",
+      "sourceText": "| 场景 | 推荐 |\n|:---|:---|\n| 消息只有 Text / Number / Quit 三类 | `std::variant` |\n| 状态只有 Idle / Running / Error 几类 | `std::variant` |\n| 解析结果可能是 int / double / string | `std::variant` |\n| 类型种类很多且需要运行时扩展插件 | 继承 + 虚函数 |\n| 所有对象共享一套接口 | 多态接口更自然 |",
+      "translatedText": "| Scenario | Recommendation |\n|:---|:---|\n| Messages have only three types: Text / Number / Quit | `std::variant` |\n| States have only a few types: Idle / Running / Error | `std::variant` |\n| Parse results may be int / double / string | `std::variant` |\n| There are many type kinds and plugins need to be extended at runtime | Inheritance \\+ virtual functions |\n| All objects share one interface | Polymorphic interfaces are more natural |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 83,
+        "costUsd": 0.000157
+      }
+    },
+    "4eb69ffc697cb5ba9bb8a631325008eea1438f45f950804ef09db4b135eb5872": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9accd0a6ae7d342811c5e06fd9be6b1658cdba734a2c3a0074bde6babc704cc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但线程 B 如果直接：",
+      "translatedText": "But if thread B directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "4ebfe015036efef30f7e7d09343acbeb7299d92e65a574a34a6e452880b05587": {
@@ -139,6 +307,90 @@
         "inputTokens": 206,
         "outputTokens": 102,
         "costUsd": 0.000185
+      }
+    },
+    "4edb2b5f1569809941899d26d0caa36ad343dbdee36d5917a996a69f2f30fa1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "842b85b0b1ba6aeb50f00ef9ad5b2ba35ce4641ccd90113000a5a0d7b22157f1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能让其他线程在中间看到不一致状态。",
+      "translatedText": "may cause other threads to see an inconsistent state in between\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "4ee838146e00d8a74d95eef9c9a9c496fb6620c28e7d014d7ca06479aacc3779": {
+      "normalizationVersion": 1,
+      "sourceHash": "425ef9c0b435b7b1c5cebe63c710c597393ef8fe95bdd97d994d771ea72e0192",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Lambda 中的：",
+      "translatedText": "In Lambda:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "4ee929a44408998ff409e42d663235468c6a0db87d8010b74e770120d17b85c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "830567238c8d593faa9d833246d19b3727b5ae56377341aac1c523e3f92c22ab",
+      "contextFingerprint": "091e1a732d2fd7c749c82d508a35bab5f069aa964e583deaae3742d9848b3578",
+      "sourceText": "* `at(int idx); `     //返回索引idx所指的数据\n* `operator[]; `       //返回索引idx所指的数据\n* `front(); `            //返回容器中第一个数据元素\n* `back();`              //返回容器中最后一个数据元素",
+      "translatedText": "* `at(int idx); `     //Return the data pointed to by index idx\n* `operator[]; `       //Return the data pointed to by index idx\n* `front(); `            //Return the first data element in the container\n* `back();`              //Return the last data element in the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 50,
+        "costUsd": 0.000109
+      }
+    },
+    "4eeb1d06c8a16ab8b2571f7561db84f3222c5300855391770de0fe2b73bc6d52": {
+      "normalizationVersion": 1,
+      "sourceHash": "25c0aa5323f164eda58920930400ea2705e57da26a6d033f25e9e1bd7e20b8f0",
+      "contextFingerprint": "ad0a6e84fcc3bfcf665be31279f15f1e79ce663f8ae16836eac66e5752c6c3e8",
+      "sourceText": "* `insert(elem);`           //在容器中插入元素。\n* `clear();`                    //清除所有元素\n* `erase(pos);`              //删除pos迭代器所指的元素，返回下一个元素的迭代器。\n* `erase(beg, end);`    //删除区间[beg,end)的所有元素 ，返回下一个元素的迭代器。\n* `erase(elem);`            //删除容器中值为elem的元素。",
+      "translatedText": "* `insert(elem);`          //Insert elements into the container\\.\n* `clear();`                    //Clear all elements\n* `erase(pos);`              //Delete the element pointed to by the iterator pos, and return an iterator to the next element\\.\n* `erase(beg, end);`    //Delete all elements in the range \\[beg,end), and return an iterator to the next element\\.\n* `erase(elem);`            //Delete the element with value elem from the container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 77,
+        "costUsd": 0.000149
+      }
+    },
+    "4efc94abec4c6a5151d13f5d29b777e4c8381a14a071ec58156c813393c04372": {
+      "normalizationVersion": 1,
+      "sourceHash": "75d1be40b162d38ec38734cfae0e2344d31b5bc56470925bfc7e6c5e2106b0db",
+      "contextFingerprint": "bf69c09030bb96f539250df2f5236310a4fdc5062c07ee687030c208121e21b8",
+      "sourceText": "### 为什么 mutex 经常写成 `mutable` （重要）",
+      "translatedText": "### Why is mutex often written as `mutable` (Important)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "4efdd6e90f0ad729b4f9da76041e95147c6998068bde71011876f51be4eb09e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "27010347a388fecedbde37bc51171100fcb848e7acb3e0d4e8d7db8f995a41df",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "输出：",
+      "translatedText": "Output:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

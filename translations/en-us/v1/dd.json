@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "dd009237520306b32eec1c61d19129c97f762fadbe31b9e4e138456662bdcbc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "338328e65b24e7fbd4b8879afadbf2cb7486abb49ecc97e1f345387644fb21ad",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- map容器进行插入数据和删除数据",
+      "translatedText": "- Inserting data into and deleting data from a map container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "dd25042f5bac007b412feb068f34ee2c54a03a3c74ff3f63b1fa713d3d734eb8": {
+      "normalizationVersion": 1,
+      "sourceHash": "82ea9ae2b06b65c62e12febe783f6498405a9251a7139589b54ccffbf1e81add",
+      "contextFingerprint": "ea895af1390992a3b399a1fe886865b4724b33bc66a001be6cc799c418e0c5bb",
+      "sourceText": "### 示例 7：捕获 `this` 访问当前对象",
+      "translatedText": "### Example 7: Capturing `this` to access the current object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "dd46420a49f7143443560fc13a8c7cdfa3a290ce984b0b2ed4838d9c983fadfe": {
       "normalizationVersion": 1,
       "sourceHash": "465f9f229430bd4cb2991eaa89d03d04f9415d055c26aa10df72cd53d8410b88",
@@ -13,6 +41,20 @@
         "inputTokens": 154,
         "outputTokens": 45,
         "costUsd": 0.000101
+      }
+    },
+    "dd5fa2cc40b3ea9b522e01d1acb4d957adabb352fbda12625b5e6656e5bf295b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee45aad688bd5087c61ef2cd83b08c7ed59e01e285eb2df27a2395a0d4671d55",
+      "contextFingerprint": "2c66edf7b40754a26d737d4d435bc8a386784e776d81d3515c74cf90135801ff",
+      "sourceText": "- `replace_if(iterator beg, iterator end, _pred, newvalue);  `\n\n  // 按条件替换元素，满足条件的替换成指定元素\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // _pred 谓词\n\n  // newvalue 替换的新元素",
+      "translatedText": "- `replace_if(iterator beg, iterator end, _pred, newvalue);  `\n\n  // Replace elements conditionally, elements that satisfy the condition are replaced with the specified element\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // \\_pred Predicate\n\n  // newvalue New element to replace with",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 49,
+        "costUsd": 0.000111
       }
     },
     "dd968f76c89a29290b15e0c024db3d1df871423f3adf3cfc02d001de94300080": {
@@ -29,6 +71,48 @@
         "costUsd": 0.000129
       }
     },
+    "dda22ec6e5ee08f42fef47921bd7fb7889724e2c49549628351dc97bde89e94d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8f7a30c77a99e872078a3844a8e8baf182063347eaacf9cf75f2a286dd842047",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当重载函数名赋给类型明确的函数指针时，编译器会根据函数指针的类型选择匹配的重载版本。",
+      "translatedText": "When an overloaded function name is assigned to a function pointer with an explicit type, the compiler selects the matching overloaded version based on the type of the function pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 40,
+        "costUsd": 0.000094
+      }
+    },
+    "ddacc634c66b14bfee25d9d6868c6839a2190f7cd63f3f8e294215c3a49368d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c8f595e06b6b1799d6b0d6417a1d683d61f32522c00585d730a0d033259c2d1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这是初学 mutex 时非常容易误解的一点。",
+      "translatedText": "This is a point that is very easily misunderstood when first learning about mutexes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "ddbb710b867df71f19914c76927da7ed2174219944118da7338ffba37042ca4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "46e2ee5209063c3ae210534dd9bf83aeac9873f8be53b3072c9b886f2f825b92",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "访问前必须调用：",
+      "translatedText": "Must be called before access:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "ddca224bba8cb68ca1425926ea5d87af903d7cdb1f26d86f3f418d1dacac0863": {
       "normalizationVersion": 1,
       "sourceHash": "deb784704535d632c324e05d2a9a8aab41b7c08fcf1d8953dcf4729af1b39143",
@@ -41,6 +125,20 @@
         "inputTokens": 160,
         "outputTokens": 44,
         "costUsd": 0.000101
+      }
+    },
+    "ddce3b312e095a6e87bea18980cb433920628ed3077c2f0e606c9ae2edabfc7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "383e1f9c3e728942493ba87ca8b170779753fe6d1d7a1493a6ce631da531730d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常用并发工具总览",
+      "translatedText": "## Overview of Common Concurrency Utilities",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "ddd10cdc27a8b1aaac444d2b423497a748dda8bfda72959a1d0b2b7f28f6fa2c": {

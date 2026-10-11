@@ -15,6 +15,48 @@
         "costUsd": 0.00006
       }
     },
+    "922592ea7cc25e953c3da8773281caccca3811881be5b5d25e55236d8d52bf2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "91e7cea8cb1efe13822fc5462f1cbab0799a5f4f6852275a6c105d6c8cd12d24",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### Lambda 捕获也要注意值和引用",
+      "translatedText": "### Lambda capture also requires attention to value and reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "92397136a1e212d7a55c70751dd83e7473e3044861789509327f2874a32ce2d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba31ef17b2d5578a04c66a12fa6852d40cffb44d1a1aba7f5955512d95ced714",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对象不一定始终持有 mutex。",
+      "translatedText": "An object does not necessarily always hold the mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "924999ea4359d9cb07269129bdba1d9cb2800663f0c08fff7e5f7a28c68fda3c": {
+      "normalizationVersion": 1,
+      "sourceHash": "a140b3ec5dd0584b294c13c9115299e5e0c31a2f178b849d8df79e674917013a",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **STL 算法负责通用流程，Lambda 负责描述具体规则。**",
+      "translatedText": "> **The STL algorithm handles the general process, while the Lambda is responsible for describing the specific rules\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "929a1a76ef0d18996aa2b20435ac67c62dcb3ca898f4edaaa2c670ed783e9886": {
       "normalizationVersion": 1,
       "sourceHash": "273a4bd7e781b1402a5b87f643659e5663c846159ac811057c53d5c34b6e6346",
@@ -27,6 +69,20 @@
         "inputTokens": 149,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "92b21421164c2a1b3be077bd828660ee78a94f38f5a0ecfc4c864eb0e3fb1d13": {
+      "normalizationVersion": 1,
+      "sourceHash": "341058560a93dd797a0f03a71b10724992cc0044ca881cf5fd2f06a199bb7e79",
+      "contextFingerprint": "49588f57948f5826cabef681d3854bd1e5e2d7ec7635150965877f571129792a",
+      "sourceText": "函数原型 ：`ostream& write(const char * buffer,int len);`",
+      "translatedText": "Function prototype:`ostream& write(const char * buffer,int len);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "92b7aed2ee015422d2012a09b1ae334adf214d7597362ffc57d41cf31f8a573e": {
@@ -43,6 +99,20 @@
         "costUsd": 0.000106
       }
     },
+    "92bbe73795aeefea1b5b6314542fb8e2a795e7f2a33eb0cd2cab311afb26226b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a27225828ae57c8f0ba5aa3743afb490996a1de7d5c5e22498dd525c52eacdd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发是一种程序组织方式，并行是一种实际执行状态。并发程序不一定并行，但并行执行通常建立在并发任务之上。",
+      "translatedText": "Concurrency is a way of organizing a program, whereas parallelism is an actual execution state\\. A concurrent program is not necessarily parallel, but parallel execution is usually built on concurrent tasks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
     "92c99ad75d7fe28aba5eaa3be13417248e38da3490f3ed2105a0b38da737f87c": {
       "normalizationVersion": 1,
       "sourceHash": "1e6cf0019d5e262f56d91c21859e7feb59a332d7f36e127780890e91e2ec1dc4",
@@ -55,6 +125,20 @@
         "inputTokens": 139,
         "outputTokens": 18,
         "costUsd": 0.000064
+      }
+    },
+    "92cbbf36480ede2ad74da2ac554d732271d62269a83ca7181935a1029f44ae39": {
+      "normalizationVersion": 1,
+      "sourceHash": "df5be7592ffafc4996cec4437634cc736bcdd3289a3f5eb2f382e32f105e76e7",
+      "contextFingerprint": "ae49753c66cc0b4c6f338c6e359d94adaee86c5c2322a0b61bfaf2b209137cd3",
+      "sourceText": "直接书写函数指针类型比较困难。C++11 可以使用 `using` 给已有类型起别名：",
+      "translatedText": "Writing function pointer types directly is rather difficult\\. C++11 You can use `using` to give an alias to an existing type:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
       }
     },
     "92d383b33123baa6ffaa2280bacf0d95f21c87f285a6cafca59ae942e969cd20": {
@@ -97,6 +181,20 @@
         "inputTokens": 135,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "92fdf03a2295bc2e4d4d7617a701230a9fcabe1e9b594eb2f0742169590a7f27": {
+      "normalizationVersion": 1,
+      "sourceHash": "239ebf6f5b3289b405eed949b573fa2b4000c6c4ad0549963b6607194e963151",
+      "contextFingerprint": "33b795d80206b5956841f8b07a508dd389b5abab6f804cfc805a219b40b871e8",
+      "sourceText": "C++11（基础用法），C++14 增加了 `auto` 作为函数返回类型推导，C++17 增加了 `auto` 在结构化绑定等场景中的使用。",
+      "translatedText": "C++11 (basic usage), C++14 added `auto` as function return type deduction, C++17 added `auto` for use in structured bindings and similar scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 63,
+        "costUsd": 0.000132
       }
     }
   }

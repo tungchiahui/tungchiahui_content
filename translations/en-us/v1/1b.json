@@ -43,6 +43,20 @@
         "costUsd": 0.000059
       }
     },
+    "1b39748ad4af8fd8715133f109262b0bd4383b6d4af37a950d9a113985f74b16": {
+      "normalizationVersion": 1,
+      "sourceHash": "afac961e22a43b6cc8983c6f138fa4d72d5727c11bdbfa84e8e25aee3d7993f8",
+      "contextFingerprint": "ad2ca32066787d8c4dd6c0a8f16d519a48e4e223b1df0b6009483193a2d14c4b",
+      "sourceText": "迭代器： `vector<int>::iterator`",
+      "translatedText": "Iterator: `vector<int>::iterator`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "1b4fc1e59d1b9351a7bda45ebf5a9ea13715a9304b4ce78b53d32d23fb0380b0": {
       "normalizationVersion": 1,
       "sourceHash": "80ae20983f9fd6b528824ea9f00e60eca2dab1ab59058a8cb8cb2bbe77d7efc9",
@@ -57,6 +71,48 @@
         "costUsd": 0.000084
       }
     },
+    "1b6c8ae56e56cb6f35f03dddbd98092f6b91c7481b51472870f78e62e69685c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "25752ee3c4dead86254bc9aaca451e1360a50793e4e01ab833b2031e05c9408a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "于是看到一个逻辑上不一致的状态。",
+      "translatedText": "Thus, a logically inconsistent state is observed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "1bcd099e82245f442ae133f4997e3daeac29071aeae716d1d39b763d1b8be2bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "be0bace8d534865a1adb9c306d8338c4cb051bd38b738dae83bca08f4848ec7c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "指定位置操作：",
+      "translatedText": "Position\\-specific operation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "1bd764c9d033ead30c3c7215e68fac648dcf5ffc97d68213a5c4d9c5e6ab868d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cbc5448425ff908ad90acbc34a57ec350466ba7df2301943454605b954152296",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：如果数据量较大，可以一开始利用reserve预留空间",
+      "translatedText": "Summary: If the data volume is large, you can use reserve to preallocate space from the start\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "1bd8af3d7e79377532e7f37c4f9d3c3cce08430d489b11efac3f015031c45113": {
       "normalizationVersion": 1,
       "sourceHash": "8371a2b444fd2d287db7a4d35113b7961a15cd59cd4ab4c56553668efe80d3d4",
@@ -69,6 +125,20 @@
         "inputTokens": 249,
         "outputTokens": 143,
         "costUsd": 0.000247
+      }
+    },
+    "1be661a2e197f16fea409f3d1ee23f2642ebe523b75f60116a19c01df2c15441": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c3b595f83f6f15431c9fb2d62ce5e2533b151b3328e260264aca964f6458cdc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "即使 CPU 只有一个核心，操作系统也可以让不同线程轮流获得执行时间，让这些任务看起来都在推进。",
+      "translatedText": "Even if the CPU has only one core, the operating system can allow different threads to take turns getting execution time, making these tasks appear to be progressing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 37,
+        "costUsd": 0.00009
       }
     },
     "1bf17f50b138cb880a295f1f73916bf86190e0e32be167f6a77390e9146e1137": {

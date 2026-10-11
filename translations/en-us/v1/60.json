@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "60068b53bdf0f4ea484d769d752b3c5db554300628ff6a6c5817a4af8be02599": {
+      "normalizationVersion": 1,
+      "sourceHash": "a14ff01d73655c24a2cae114817d1df0f32de7cf734059382292b312f6119e4a",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 链表灵活，但是空间(指针域) 和 时间（遍历）额外耗费较大",
+      "translatedText": "* Linked lists are flexible, but they incur relatively large extra overhead in space (the pointer field) and time (traversal)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "600d7659861a58932a865a5c0a1c31acb821b995a47f5ece96426aee475dcfcd": {
       "normalizationVersion": 1,
       "sourceHash": "1dac02f29057109c0424c2ab75c50a9659e142d6e7af377aad19aebf298fa9ef",
@@ -13,6 +27,20 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "600efe685f323601db731f53c3988d1fdcd486fc3523bcfda12abba291ee67da": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b4915617ab76ee6ca2e4d51f633bb93edf5b4fd05680c5eaed84c79923d3793",
+      "contextFingerprint": "b987fed7a91e363feac1bf8a909eb3b4449f34238237a7b11afafbfe66d3186c",
+      "sourceText": "- `accumulate(iterator beg, iterator end, value);  `\n\n  // 计算容器元素累计总和\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // value 起始值",
+      "translatedText": "- `accumulate(iterator beg, iterator end, value);  `\n\n  // Calculate the cumulative sum of container elements\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // value Initial value",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 30,
+        "costUsd": 0.000083
       }
     },
     "6012be1a111f97fbfd665ebe76477421a0b0f81d9e3ee2e7fc68ba838e44b81b": {
@@ -29,6 +57,62 @@
         "costUsd": 0.000071
       }
     },
+    "6023bfd944cb4d8784b4c4afd159b3431dd590bf2c52dc3f0f0e293837fa9b9d": {
+      "normalizationVersion": 1,
+      "sourceHash": "76aba711a7509f6d2a20517dd88d3d02808a1b519129b65e7be5fdc7bb6e0bce",
+      "contextFingerprint": "d807496d17686336f1cc082313f218fb1b1c4a27b14f43e8b57aa9f183bfa6c8",
+      "sourceText": "## `std::unique_lock` （常用）",
+      "translatedText": "## `std::unique_lock` (common)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "60272cc1b7d6ff337b5c949a83b7f4323ac1c69ae996552faa0cbf11cd85c6ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "551df584727cde6b99e9acf3e5defe761079f1f0a2f843b9628d3eea4f68234a",
+      "contextFingerprint": "173fa726aa05ca1f0efe1866b694342c86c405a7fe37c17cfe961ab8c1c4916d",
+      "sourceText": "`-pthread` 不只是简单添加一个库，它还可能影响编译阶段与线程相关的宏和选项，因此通常应直接使用 `-pthread`。",
+      "translatedText": "`-pthread`It is not just a simple matter of adding a library; it may also affect thread\\-related macros and options during the compilation phase, so it should usually be used directly with `-pthread`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
+    "602c8f146ffdb62e0914ed7be733495cf529a9c2aef92e0fec2cfde619277c0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "83c224472a150241411cfa9992db2d22152dd4399ac7a0cea5100c43f98dcfc1",
+      "contextFingerprint": "ba7ae149f85cc4d135312c7cf2b53f1457a336b76b6abc8139b5cf5a1691d6a0",
+      "sourceText": "> **阅读提示：** 本章前半部分只使用已经学过的函数、指针和类，需要按顺序掌握。后半部分会扩展到 `nullptr`、`using`、Lambda 和 `std::function` 等现代 C++ 特性。扩展部分会提前解释新语法和 API 的基本用法，但需要学完后面的“现代 C++”章节才能完全看懂。初次学习时可以先了解结论，暂时跳过扩展部分。",
+      "translatedText": "> **Reading tip:** The first half of this chapter uses only functions, pointers, and classes that have already been learned, and must be mastered in order\\. The second half expands to `nullptr` , `using` , Lambda, and `std::function` and other modern C++ features\\. The extension part explains the basic usage of new syntax and APIs in advance, but you need to finish the later \"Modern C++\" chapter to fully understand it\\. On a first pass, you can learn the conclusions first and temporarily skip the extension part\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 229,
+        "outputTokens": 124,
+        "costUsd": 0.000218
+      }
+    },
+    "6035beafb59dba80ee98b83b770b7ed8d9934ac05a449c8521fcec0154e72a24": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a7b7e9be64e8ec492079f39acef48603152b4e72806110bf34adbb9bb2ce2a7",
+      "contextFingerprint": "9af4eb33f1dd9b89812c327db136fa3427f2c0f07575095e4b21b91105f0177b",
+      "sourceText": "* 函数指针保存函数地址，类型中包含函数的返回值和参数列表。\n* 函数名通常可以直接赋给签名兼容的函数指针。\n* 函数指针可以用于回调、运行时选择函数和函数表。\n* 静态成员函数可以使用普通函数指针。\n* 非静态成员函数需要成员函数指针，并且调用时必须提供对象。\n* 对象使用 `.*`，对象指针使用 `->*`。\n* `const` 是成员函数指针类型的一部分。\n* 可能为空的函数指针必须在调用前检查。\n* 现代 C++ 可以使用 `using` 简化类型，用无捕获 Lambda 创建函数指针。\n* 需要统一保存多种可调用对象时，可以使用 `std::function`。",
+      "translatedText": "* A function pointer stores the address of a function, and its type includes the function's return value and parameter list\\.\n* The function name can usually be directly assigned to a function pointer with a compatible signature\\.\n* Function pointers can be used for callbacks, runtime function selection, and function tables\\.\n* Static member functions can use ordinary function pointers\\.\n* Non\\-static member functions require member function pointers, and the object must be provided when calling them\\.\n* Objects use `.*`; object pointers use `->*`\\.\n* `const` is part of the member function pointer type\\.\n* Function pointers that may be null must be checked before being called\\.\n* Modern C++ can use `using` to simplify types and create function pointers from captureless lambdas\\.\n* When multiple callable objects need to be stored uniformly, `std::function` can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 265,
+        "outputTokens": 174,
+        "costUsd": 0.000289
+      }
+    },
     "604bb5e8d0453228e16c8c18040146305d405c4ee5b471de25609647fe2f0c3e": {
       "normalizationVersion": 1,
       "sourceHash": "105b1a5cc419331c01177e3711fad86d67e824b97fdbdc7822677064cb59b2b8",
@@ -43,6 +127,20 @@
         "costUsd": 0.000064
       }
     },
+    "605e305a5b9a93137a4ba9337b2196e1b8df1747b023945d5721e382cdc304cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "76e4f6e19b648b06ba671757cfbc107a995a47b632f7afce997e09262cc95776",
+      "contextFingerprint": "292e330a7ace2b02656a7ff883bddb8c5093bd2ec756dd5df4e3688efce9d020",
+      "sourceText": "- `sort`             //对容器内元素进行排序\n- `random_shuffle`   //洗牌   指定范围内的元素随机调整次序\n- `merge `           // 容器元素合并，并存储到另一容器中\n- `reverse`       // 反转指定范围的元素",
+      "translatedText": "- `sort`             //Sort elements within the container\n- `random_shuffle`   //Shuffle   randomly reorder elements within the specified range\n- `merge `           // Merge container elements and store them into another container\n- `reverse`       // Reverse the elements in the specified range",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 50,
+        "costUsd": 0.000112
+      }
+    },
     "6071debda67348f7a0523e8612df916570a368eaa48bc3ac995e3223ae705405": {
       "normalizationVersion": 1,
       "sourceHash": "3bb844b8548dd5ef2880f485945b8e0da5386f3a9d6505248f0ae24233dd79b2",
@@ -55,6 +153,20 @@
         "inputTokens": 151,
         "outputTokens": 38,
         "costUsd": 0.000091
+      }
+    },
+    "607c7d23841d5a5c44dd9c6a5a147d22ced06ceaee33e2dd0cbbb07a7ba3d2bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "04393ddc44b9b3d5efbf487e8d5f76b0b4cd5b6a02262e3171b09497194c161c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 是：",
+      "translatedText": "mutex is: ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "607f2443d229af149b7fd4d216638185786cb93a771caeb55fcad275fe225b5d": {
@@ -99,6 +211,20 @@
         "costUsd": 0.00006
       }
     },
+    "60a600e0339ec923bb42efd5f2ae9fa9d5ff05ca48ee9cf223e45d71e067c629": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc7d47617dd964d81051160f8c28bca0195b923764df472651f8941dacd7dfd5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 算术仿函数",
+      "translatedText": "#### arithmetic functor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "60ac7200e94f87df5879c04411d2ad10b154ef5887d9bd788ac94eb33e4b5422": {
       "normalizationVersion": 1,
       "sourceHash": "6c608a2192af6704df60cf9ec128bdd86502bb5d5c733a0c2b89a2fd48a4f445",
@@ -127,6 +253,20 @@
         "costUsd": 0.000072
       }
     },
+    "60cc2f233b9e918785b188e30eabf3d9ee0797e7322f8efdc935076c246204b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d0c875eccb14bd141829539bba1530042e2fa544f014a517125cfcf3f26b2c4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它可以支持：",
+      "translatedText": "It can support:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "60e7daa2bfb57b6589b981b6cd3faef60b9b57d8ea0fd4c2d30bc20cac4e1bbf": {
       "normalizationVersion": 1,
       "sourceHash": "a5de7d92c319d0b41c96c1a61db902846695cbd0716ac88f53875240b58e261f",
@@ -153,6 +293,34 @@
         "inputTokens": 148,
         "outputTokens": 31,
         "costUsd": 0.000082
+      }
+    },
+    "60f5a14fb64b9adebae74ff10b20ec2209086160f37d13fe2ffab57bb79dcd88": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1991897131726ecd7b0c2fda8ea46c752f2564a4985934bd66f7fd05cc8e1ee",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：变量个数不匹配**",
+      "translatedText": "**Error 1: Mismatched number of variables**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "60f5ad29acccc041a697e5a0d1dce0b858fb7f608e4fed3d58e5ea94961cf1d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "5953dacef9f4403184c9bc6bf2a32988b730708e4054ee79749d05bfb737a7ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有一种很常见的错误写法：",
+      "translatedText": "There is a very common incorrect way of writing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     },
     "60fdb322705b2629ffa91c743e456db28f5990a6de2681afe54c359fc8bcea4f": {

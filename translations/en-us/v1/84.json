@@ -29,6 +29,20 @@
         "costUsd": 0.000051
       }
     },
+    "84785dc471cb34a546f124aebe48f379f3a6630520a514f5bbc6309963fed005": {
+      "normalizationVersion": 1,
+      "sourceHash": "d79c9754f0282defd0cfbdf41b623ab581510ad5b4a8b6dff88894acf41f6070",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果同时捕获父类异常和子类异常，应该先捕获子类，再捕获父类。",
+      "translatedText": "If a parent class exception and a subclass exception are caught at the same time, the subclass should be caught first, and then the parent class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "8478a3268f3fdcdb90dcb5d0eba1069159678eb816cd49a1deca2d640fe90ba7": {
       "normalizationVersion": 1,
       "sourceHash": "c154e5bda28c7dbabb76cee75a4991a8c8443990932a8cc31cc397624d8493b5",
@@ -41,6 +55,62 @@
         "inputTokens": 130,
         "outputTokens": 9,
         "costUsd": 0.00005
+      }
+    },
+    "849726e6e5f7672216f02208cb1d7ccdd52394278ae3efb5cc024af806fe62ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6613af49892c6948330b4f7d3327977d9440763188e242fd120fe2dc83c81d1",
+      "contextFingerprint": "1117888a1cda6baa12ca7d84df257cba751f68e9e7abe3a3e9e4bb0f51d10c73",
+      "sourceText": "### 示例 1：static_cast 处理常规转换",
+      "translatedText": "### Example 1: static_cast Handle regular conversion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "84bcc9e4be5746d40b33f210b25b9561c3e92fb960c89c6b867a4c9896e2fc8a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d184f145c0285fa1ccea09fddcf19e6ea43aeb52eba36619f6d1d44a112a850",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- 普通函数有函数类型。\n- 函数指针是指针类型。\n- 每个 Lambda 都有编译器生成的独立类型。\n- 函数对象是自定义类类型。",
+      "translatedText": "- A regular function has a function type\\.\n- A function pointer is a pointer type\\.\n- Each lambda has a distinct compiler\\-generated type\\.\n- A function object is a user\\-defined class type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
+    "84dea8d7aca5f0b1a0f8c4ba615cefe7fd436583535cdccd94301adb93573725": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ac21ff716d668238ac081ccf9f5db56bb1cfb03db3c017cb1d4ebe9d1475658",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "函数指针也可以作为另一个函数的参数。被传入并由其他代码调用的函数通常称为**回调函数**。",
+      "translatedText": "A function pointer can also be used as a parameter of another function\\. A function that is passed in and called by other code is usually called a **callback function**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 40,
+        "costUsd": 0.000094
+      }
+    },
+    "84e29a5444866a58d49f31953d58971b425804d4caadd967b068d1ee7fb81714": {
+      "normalizationVersion": 1,
+      "sourceHash": "9047413f0971af7eb54ab7bc8d0c23d98c9c84c1a3e4c7728e60c267c2a0b0a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不能依赖输出一定是：",
+      "translatedText": "Cannot rely on the output always being:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "84ebb67d8c91954cb2f277595eba39ca19de830d04b9de7eea0a1742f83743bf": {

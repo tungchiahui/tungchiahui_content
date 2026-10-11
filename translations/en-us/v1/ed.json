@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ed12dda5e62e8f573181b5549939141e6cef7fcc38b589c291dc8c6911587ec5": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf998b4a7b58f8aeba191724416773a84fe578e2e94e7ba53417c44c3032ccf6",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* vector容器的迭代器是支持随机访问的迭代器",
+      "translatedText": "* The iterator of a vector container is an iterator that supports random access\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "ed27616a851cc09b108fe9a3f9ad18dcaf2f4d7cc04b76530b2ab2e2615e6350": {
       "normalizationVersion": 1,
       "sourceHash": "164a1115270b1206ab21e0879db5bfa075cb4ff6be9447fa76df06acc7f54e46",
@@ -13,6 +27,104 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "ed2b0995d8a880f8dff3e9b714059de76d76a98a9eefd4f1682943ebddbeb33e": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbcd678329b4638d8d863412f256f107f47416c8a042005fb064e175af78684d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不一定必须写：",
+      "translatedText": "Not necessarily required to write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "ed31c31ac67ef8e54acb1df8744d0ae2e503e93a2ad7475be382f70129a845a8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca15a535d669b2b3610b0207c242549907c6daf82c5d5608379272eb6c1ad519",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这条声明可以从变量名向外阅读：",
+      "translatedText": "This declaration can be read outward from the variable name:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "ed6a2ed3642ea4a19ce3b5a0160576748e81527b44412293e38d0ae275691bd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf87c301701f7d4d85c6ce38854c067dd67c462fa4dae0c10c4426c557568b03",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程创建成功后，新线程会开始调用这个可调用对象。",
+      "translatedText": "After the thread is successfully created, the new thread will begin invoking this callable object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "ed803fbe67dce46550f25e8d8af941b477a2e0eb55cb9af4a307dfb8ecc63b94": {
+      "normalizationVersion": 1,
+      "sourceHash": "df124d6338182c65a5a6ba85ee67cd6c4d6f6550118f285a614fedd988126fb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果当前函数没有处理异常，异常会继续向调用它的上层函数传递。",
+      "translatedText": "If the current function does not handle the exception, the exception will continue to be passed to the calling upper\\-level function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "ed9acd9a45d4b148b06d4649b0141fe450486c9880a1d6a157ea8726ad59d4ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "ad26dee06e0ddffab6a349267503d9db8b2227b83ce7842439e3c68cee9834f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "意思就是：",
+      "translatedText": "That is to say:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "ed9bccdf63b6994f4d143d2e89aec4a22390f9311549e21a0114bfa06f389c87": {
+      "normalizationVersion": 1,
+      "sourceHash": "b18790b74a13579a5bb88819d593083f1ff0c12a95b48272669aeb1c4758f729",
+      "contextFingerprint": "b6dd5a6e8e6269200b0f75ac163e08c9f3f7e410aa63d8fffa455c108d2da69e",
+      "sourceText": "如果当前对象就是 `robot`，也就相当于：",
+      "translatedText": "If the current object is exactly `robot`, it is equivalent to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "edaa1dd0e10e4d49e6930d1edc3bd1545a3761155ade4ab78bf78213a564cde3": {
+      "normalizationVersion": 1,
+      "sourceHash": "969978b47e54347d1654e6ffd096cdab3f9913beb57228f8f0a89d4f6b541bb9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "尤其要谨慎在持锁期间执行：",
+      "translatedText": "Be especially cautious about performing the following while holding a lock:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "edabcc33fb8ee2f7eaf94dfd882bd708465acd62c150f6c2438b3000615a2baf": {
@@ -29,6 +141,20 @@
         "costUsd": 0.00014
       }
     },
+    "edb41a55d8951c65b527a458857bc7cc99ab69eb4f6b6c075db2241e0cdfc420": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac95fe324528f4765a40f7d2769ddb49575089769b41d2acd2454e0a54756204",
+      "contextFingerprint": "21230a6417e1fb967f607417a942bb3f632da34acc1176c5aff87020e8c1b312",
+      "sourceText": "* `for_each(iterator beg, iterator end, _func);  `\n\n  // 遍历算法 遍历容器元素\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // _func 函数或者函数对象",
+      "translatedText": "* `for_each(iterator beg, iterator end, _func);  `\n\n  // Traversal algorithm: traverse container elements\n\n  // beg start iterator\n\n  // end end iterator\n\n  // \\_func function or function object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 33,
+        "costUsd": 0.000088
+      }
+    },
     "edc44d164592709666fb77ae56d99645eaadf1c99968fa12e92cd3c3982e94ed": {
       "normalizationVersion": 1,
       "sourceHash": "51e290fab257c1e3f0e3286a32e1f3656b308e077b57ee1a7ed1e67fc1f00c54",
@@ -43,6 +169,48 @@
         "costUsd": 0.000219
       }
     },
+    "edc62245f1b4b681088e806dd2537bbf6bd947058d0f1966dd6b7f153ba823d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1eed8de4129d2a0a20933ef9b372c24e8571032d7315ce83640266624e2d34b0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表示：",
+      "translatedText": "Indicates:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "edc70159d8054cbbb69c750f8a32dc4d6a9a5718732e83d74da3d6fcb7212fd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1681806e3234a76490daa8d309da20343935eb98f5a594c6db8698ece8f843e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这时候可以使用：",
+      "translatedText": "In this case, you can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 15,
+        "costUsd": 0.000058
+      }
+    },
+    "edcf9f203cf30abcbbf51a3a9e2bc56bdcd82084265721f2135428dea124e82e": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b19fbb32ee46294049e6d6145268b4961ff677cd5bee1c03469c60cffbf740f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 不要滥用异常",
+      "translatedText": "#### Do not abuse exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "edd8a3a3566232a84825f4a02d0cb26b3d7ef5ef443b8c684e72b552de5554b2": {
       "normalizationVersion": 1,
       "sourceHash": "37e33346097169643f4c5545682803b3b6d033e1b4a2da1d1ae413c021ea99f8",
@@ -55,6 +223,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "edd95d30904c18df8bb60d165ca2e02029c898fb1bbb183ffd80922e6d060e5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9b3485056d416affbd9eae4be039d77a3d7cab76f9e28487d778ebf67a6874d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些本身都有额外开销。",
+      "translatedText": "These themselves all have additional overhead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "ede1685757a24cedbf2583e6dea7d782f11cb75b6c9137fc048ca1ac8b54a34b": {

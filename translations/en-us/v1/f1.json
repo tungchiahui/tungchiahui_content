@@ -99,6 +99,34 @@
         "costUsd": 0.000052
       }
     },
+    "f145bd1e577c04a052deaa046b30a20e90ddce2d2cf2d93a517862af0af967fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "62071042cdbdd5c02418cc0f652b516b08796127bab1f7100a33b7b5bfd09770",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 什么是临界区",
+      "translatedText": "### What is a critical section?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "f157c128ba826a2e0208c808c27d76fa7e92cb4c35410ae9aefeb8ee069ed414": {
+      "normalizationVersion": 1,
+      "sourceHash": "00e5bcb05ed5ada1b34a13a53855350985a4808470f116d87adf79d003d6e9ea",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 锁对象什么时候析构，mutex 就什么时候释放。",
+      "translatedText": "> When the lock object is destructed, the mutex is released\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "f16a6a006f19937c979eeab95286d4162bd22c816bb4f1d1e10b0e1778eedc6d": {
       "normalizationVersion": 1,
       "sourceHash": "cc6a4ef407a4e16e38739b1ae8dd11178e5c0be7c1eed5bdfee79b4519d10fa8",
@@ -113,6 +141,34 @@
         "costUsd": 0.000065
       }
     },
+    "f17298f33c8d5c6253b149ab05cd83ae91077e224bc487e3fff4445382ef16ee": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3a3b39012d59e6c52f10f047f0828b870639a7bb102d0b491eba061ecba5ed4",
+      "contextFingerprint": "551827215d00ea5d638d060bde9041c4c57f15e0e0da92b4cd1a0ade68e7ebad",
+      "sourceText": "官方定义：调用 `detach()` 后，线程会继续独立运行，而当前 `std::thread` 对象不再与该线程关联。",
+      "translatedText": "Official definition: After calling `detach()`, the thread continues to run independently, and the current `std::thread` object is no longer associated with that thread\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "f176dfd4b67c4b46ec5986578de88d808157a1b2933265f6c5e62c9b2f1d9b7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4961fd13915bfbb63fcce627261190e7f874c15b40e8a3f1813b93d0155708c",
+      "contextFingerprint": "c0f8feff477d950bd412c7109a5a2dfaa85c070d35879564a47f993e9bfc0681",
+      "sourceText": "- 读文件可以利用 ifstream  ，或者fstream类\n- 利用is_open函数可以判断文件是否打开成功\n- close 关闭文件 ",
+      "translatedText": "- To read a file, you can use ifstream, or the fstream class\n- The is_open function can be used to determine whether the file was opened successfully\n- close closes the file ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
     "f17bf76050edd2af752860ebf74db7116b28c2b32fbbfd6ec11665eecd1cc342": {
       "normalizationVersion": 1,
       "sourceHash": "fdf9890d0eae8409230cbef2da438f9910030920b8f961a534cdc0bf417b111a",
@@ -125,6 +181,76 @@
         "inputTokens": 145,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "f19ae1e901fbe0ecd903813382e05611b518dbc1422eba370ba18ab6a9485520": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecc661c42e1a450080bd64afc351f5134a2f13c909551c719364667e0cac6d41",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## STL提高编程",
+      "translatedText": "## STL improves programming",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "f1abe39bd37c5fff2444acdf790549b2a3a01b371bb30f50ad025217be715669": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e8afcb907f0a80c68b18fefbf3cb84220a716f0a7e2a07738ac59e81f3ccdac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这些情况可以考虑在构造函数中抛出异常。",
+      "translatedText": "These situations can be considered for throwing an exception in the constructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "f1c8f4c22624061357307d95a7be20a9e45de63ff2c454c6217b1bad926e9020": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fbe2e4001e57e134efbd84084031017acd1019a0eed2a1eba938364fb1f1908",
+      "contextFingerprint": "61ac0bf67b26ca8301a4d43e240ecdae09b4446cabad7d54873149523d58908b",
+      "sourceText": "- `adjacent_find(iterator beg, iterator end);  `\n\n  // 查找相邻重复元素,返回相邻元素的第一个位置的迭代器\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  ​",
+      "translatedText": "- `adjacent_find(iterator beg, iterator end);  `\n\n  // Find adjacent duplicate elements, returns an iterator to the first position of the adjacent elements\n\n  // beg Start iterator\n\n  // end End iterator\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    },
+    "f1caf147f39485b91693fd2f5bd8e1e98fabaa2fb8acc8170446078288d1c7fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "17cee22ff6a30dee1643086bedbc2a5754a53c1b671641cb926b55f28594e1f0",
+      "contextFingerprint": "99c5a84aaa1ffd34d8f1d11d33fb8319c54cef43e59566d6eabf4d5c58c5ea58",
+      "sourceText": "`span` 不拥有数据，所以“是否 const”非常重要。函数参数默认优先写 `std::span<const T>`，只有明确要修改原数据时才写 `std::span<T>`。",
+      "translatedText": "`span` You do not own the data, so \"whether const\" is very important\\. Function parameters should by default be written as `std::span<const T>` first, and only written as `std::span<T>` when the original data is explicitly intended to be modified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 49,
+        "costUsd": 0.000107
+      }
+    },
+    "f1de24b391db5f44cf25d607502d571e59f2566467a82354fd7252425ef8136d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a522f2140b21e6613ec859ac7c5849177c4fdba3ce63dc155138da440e5200d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设你在写一个程序，它需要同时做几件事：",
+      "translatedText": "Suppose you are writing a program that needs to do several things at the same time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     }
   }

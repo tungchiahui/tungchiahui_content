@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "930203456ffaf9a2046a20790e08ab5c8cd3731872590d6419b6f16283eb1c8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "aab124afcd67fc3a90a43ceaa00b0dca89a895adc446b624ae758c40bde853af",
+      "contextFingerprint": "8aaee6b3be28965c8e28d9595483bdb6d844dc7a91819932624bb742a514e947",
+      "sourceText": "当函数需要返回多个值（如成功标志 + 数据），或者遍历 map 时需要同时拿到 key 和 value，在 C++17 之前需要借助 `std::pair` / `std::tuple` + `std::get<>()` 或 `.first` / `.second`，代码冗长且不易读。",
+      "translatedText": "When a function needs to return multiple values (such as a success flag \\+ data), or when iterating over a map and needing to obtain both the key and value at the same time, before C++17 this required the use of `std::pair` / `std::tuple` \\+ `std::get<>()` or `.first` / `.second`; the code was verbose and hard to read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 80,
+        "costUsd": 0.000153
+      }
+    },
     "9309006d96f356291c2519bfea9ad398427d9b65762e361814ebb302b9508b42": {
       "normalizationVersion": 1,
       "sourceHash": "4d66ec3cba4ea127a1879f90fad58a6b880d13e45ce28f1660afa3e2f0c48ae6",
@@ -13,6 +27,20 @@
         "inputTokens": 153,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "932839885b2a788cd65e2ced05d8e4f4c0147c6e45f912744971184b492e0365": {
+      "normalizationVersion": 1,
+      "sourceHash": "664199b7bde84d4422dd4c6bfd4f26974914bc985877297eee933310940ea18e",
+      "contextFingerprint": "f9a962a98cfa423f3618c8df042c63bd9a1fe8a6467c6e5dd9c432a9328facee",
+      "sourceText": "这些容器分为**序列式容器**和**关联式容器**两种:",
+      "translatedText": "These containers are divided into**sequential containers**and**associative containers**, two types:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "934713b180e4a881b0364c65da8a8ea5dc862047d1621cdaec7526b012dac96c": {
@@ -71,6 +99,34 @@
         "costUsd": 0.000067
       }
     },
+    "938563e67784478917127ee21fbe712a6f4e7510580fd4af6870eccf923871e6": {
+      "normalizationVersion": 1,
+      "sourceHash": "08c1692312fc584c18d7d52293b18bcb2d55cb5f0141f8d79d891eb15bf71efe",
+      "contextFingerprint": "2becb7632322e51f38a6c32b5aa5b944884b6a3541ce43ca455e40b1b6905825",
+      "sourceText": "如果需要按 `const T&` 传递，可以使用：",
+      "translatedText": "If you need to pass by `const T&` , you can use:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "938af2ef7c4f1b4b0928451132ba7b0a3c52ef03bac46380bec49314b61eca21": {
+      "normalizationVersion": 1,
+      "sourceHash": "42d0ef41078ef3d21dbeee66c9e27aac7031ac789105fbf3531ae10fbcb6384d",
+      "contextFingerprint": "6d4ea8f0657b3f54f7bda38b36c60a14ff2603557bfed7473bf45381595eaef7",
+      "sourceText": "* `size();`          //返回容器中元素的数目\n* `empty();`        //判断容器是否为空\n* `swap(st);`      //交换两个集合容器",
+      "translatedText": "* `size();`          // Returns the number of elements in the container\n* `empty();`        // Determines whether the container is empty\n* `swap(st);`      // Swaps two set containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "938b1ef254dfcf4f04940bb4e59a5b7bd2b11c4c487635b07c0d311a544ec4e1": {
       "normalizationVersion": 1,
       "sourceHash": "32b32dcca538bd9b04185117d42ddc0d8c134719a8bb71a4b04105b9a254739c",
@@ -83,6 +139,48 @@
         "inputTokens": 146,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "939388a7768cc201e67c095aeeca3a2687c19eddc8eeef32022b9c812f89b045": {
+      "normalizationVersion": 1,
+      "sourceHash": "b50af830eda6b8e5b1f9e2eb520400a1769e1b456d1bc5ab5f8c109d37d83755",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## array 和 vector 的区别什么时候明显",
+      "translatedText": "## When is the difference between array and vector obvious?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "939d5f3af75a5ed61c18f04b13525258fb528f02df5681ab43933f41450f770a": {
+      "normalizationVersion": 1,
+      "sourceHash": "5fc547a735022136d72ecb3f737c7a62d39e719c80a9b970dc4c92edc6b7f3d8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把它拆开看：",
+      "translatedText": "Break it down:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "93a13d9ede642c020013332fd63744a2067bcc89d98164c2ebe59553def397cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1544c9a47f5944f89a8ca050b76dc28eed2788c8e6a634fb20d0d69845415828",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是取地址，类型是指针。",
+      "translatedText": "is taking the address; the type is a pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "93b270c83822814f56d99f0b48f08efdd2379988e559eecdfc179ab8ccda8d00": {
@@ -111,6 +209,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "93cfa475195c45a482fa5481ffc159ad988cd7c93e2f7f1684c2b3bbd8f9f339": {
+      "normalizationVersion": 1,
+      "sourceHash": "c048c277717ced034c1c47e72d8f41793ce4d293ed627df22312d74b2d4be66d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调用成功后：",
+      "translatedText": "After a successful call:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "93f11e2c875b69436e6aab1669665612d48c53deea292f893902ba011d427c79": {
+      "normalizationVersion": 1,
+      "sourceHash": "979b42a8eb8a6de745ca83549c004644979da4918ef7056eaf53c9c8690f1a9d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通学习阶段只需要知道：",
+      "translatedText": "In the ordinary learning phase, you only need to know:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "93fb6ed3df64dd2ded1d3b2f4c63393661964c312861e66728cb2630e0609a2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fc56a23c73ead4b886fdf5e9751399e5959b535b3d6002954804912612106ff",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "写文件步骤如下：",
+      "translatedText": "The steps to write a file are as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     }
   }

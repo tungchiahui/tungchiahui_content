@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "020041f18203aaf4b96d8b44ba49d5603612ea2c0d1a91e41254da55d2184945": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f8979278c35ac6a77fb1ea347ee1e9d22a3a7e199aa3005621c832b585fd818",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例7：函数重载与函数指针",
+      "translatedText": "### Example 7: Function Overloading and Function Pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "023318273ac069f83d16466754665f8afb03d9b7215e57ffe2da947ae8b12403": {
       "normalizationVersion": 1,
       "sourceHash": "31c0ec00d6445cad01c0f856d1b80d44a7708e26e4ba1fe7d767df71e0883e0b",
@@ -57,6 +71,20 @@
         "costUsd": 0.000057
       }
     },
+    "024d0e69c5278f49379f7f3626261ef44c01fbc886524d6b27cfa5d76bfe7011": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8528dfe6fb121073175c04aa18bcb1236a4710dcd13661788edc63aba23c694",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两个对象析构时都会执行：",
+      "translatedText": "Both objects will execute upon destruction:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "024d454da24df2d695a47936c3ff688852183595d982c03f5db8916c324cd159": {
       "normalizationVersion": 1,
       "sourceHash": "2961909e5bf1053c8ade91d2443c039851b3d8364b762e51727c213dbb90b7e4",
@@ -99,6 +127,20 @@
         "costUsd": 0.000057
       }
     },
+    "025ce2a6df13a422513c2f888dc109628fd8d1fa883d8271ba9a6b0b5fb46bdf": {
+      "normalizationVersion": 1,
+      "sourceHash": "a3218c3c06aa0f44405e3cfad5f067d258e688ba88aec18336d842535909e9d0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 排序案例",
+      "translatedText": "#### Sorting example",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "026fd47106905ba9b1254b07e3fc29b1573a6aa8353a0fc3884f17b20caa565e": {
       "normalizationVersion": 1,
       "sourceHash": "4af9f5a9126de9598a6671f3daba453ec1019794bfaac16e62b89a61c060a408",
@@ -113,6 +155,20 @@
         "costUsd": 0.000147
       }
     },
+    "027e732d623f7a062b831d90efaf4b57af127c6ed90595bae0225c292e51b1a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6be64f55a48e470ef7a0f74568a246c60192e07ea9c86432747247deb55e7e0",
+      "contextFingerprint": "4b6660f21c821112ff744b044f97f4fa948b5c3a4005e9501ab32672508c7ea7",
+      "sourceText": "最后应该由 `t2` 负责 `join()` 或 `detach()`。",
+      "translatedText": "Finally, it should be handled by `t2` or `join()` responsible for `detach()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "0281abbc402dd1d79ff18e0dc52714613ea8ac43fee7f15f9b5d9a750a6108b6": {
       "normalizationVersion": 1,
       "sourceHash": "64879161dd037ebd9b98c9431991d9074920c0f87508651249bab24c5ef25e7c",
@@ -125,6 +181,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "028b8cf27196c6e6eb9810b3a91d64b8721b1fd773a1ad27122d1f61ac9d0ab4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8b15d7a3615c55edecd00669c424bb6b2893c92ef8c584bcd26b6fafc714fbe",
+      "contextFingerprint": "ce78d8f3d1018541334fff7b407c2f39cda963f311cdcece75e42f4196ae84f3",
+      "sourceText": "程序出现严重异常后，在 `main` 函数中统一处理，避免程序直接崩溃且没有错误信息。",
+      "translatedText": "After a serious exception occurs in the program, handle it uniformly in the `main` function to avoid the program crashing directly without any error information\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "029259254a77f37c247e8f7247c27b5fe4d95a8bc8502308242120b7a0192fcd": {
+      "normalizationVersion": 1,
+      "sourceHash": "80a7a8b895ef99ad4b52ffa8a95b2e29e721eb1f53c803a99c96d7e3ced51b7f",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 可以根据key值快速找到value值",
+      "translatedText": "* The value can be quickly found based on the key\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "02ab47abede4e488948d62d1ec8ece97a85cf8c292ca325bc2e29334e6d2f05f": {
+      "normalizationVersion": 1,
+      "sourceHash": "1295b4e6b356625468e800c0f6ff7570090d1d46b17eeaba6a4462704584238f",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 利用仿函数可以指定map容器的排序规则\n* 对于自定义数据类型，map必须要指定排序规则,同set容器",
+      "translatedText": "* Use a functor to specify the sorting rule of the map container\\.\n* For custom data types, the map must specify a sorting rule, same as the set container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 40,
+        "costUsd": 0.000094
       }
     },
     "02ce814b723814037628c269f12a9c0062f6f3a6cafc391703bec9b14c7cc096": {
@@ -183,6 +281,48 @@
         "costUsd": 0.000058
       }
     },
+    "02e4f9bf21ae336348368701671c2a08e960540b555a3fb7fbfe6fac52c7ac53": {
+      "normalizationVersion": 1,
+      "sourceHash": "46400764dfc967b99a5755cf09eb1904f5fa52a668090a18551684e2846c06ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "单独写下面这句通常没有实际效果：",
+      "translatedText": "Writing the following sentence alone usually has no practical effect:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "02efeeb5ecf510643f55bc46721120f40ed61cc7e34c38154699bb174ca4d6fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f37a56e60f5bf12fa621850d5d0a29c8da42bcd5e92e70c2d213caf7f7db2dd",
+      "contextFingerprint": "3dc2ed8f5025c3c681df2f742c387610bd6fc89ca8f060894d2e01fc3e1fce28",
+      "sourceText": "- C++11：基础 Lambda。\n- C++14：泛型 Lambda，也就是参数可以写 `auto`。\n- C++17：`constexpr` Lambda、`[*this]` 捕获。",
+      "translatedText": "- C++11: Basic Lambda\\.\n- C++14: Generic Lambda, that is, parameters can be written as `auto`\\.\n- C++17:`constexpr` Lambda,`[*this]` captures\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 66,
+        "costUsd": 0.000136
+      }
+    },
+    "02f1d43053bb5da406248b908e0bfae7875cd407353e48942544a363bca5a740": {
+      "normalizationVersion": 1,
+      "sourceHash": "87cf8223111e780e90f894f12bc9caf76558b20f84c457e90c7de363bc379c1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为对象销毁时如果再次抛出异常，可能导致程序直接终止。",
+      "translatedText": "Because if an exception is thrown again when the object is destroyed, it may cause the program to terminate directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "02f3a42cec6281e69fd31bc915d21b703a55d75135e28f052b4ae63211053d93": {
       "normalizationVersion": 1,
       "sourceHash": "dd12dab5759a19a767385511b6f8f78a0859d7c0e97da9a29cadd93a70d9f74c",
@@ -211,6 +351,20 @@
         "costUsd": 0
       }
     },
+    "02f7c2da191ceee41c5059859a1b6479b1c4b9a4894244ad18cfbf71c9cf021b": {
+      "normalizationVersion": 1,
+      "sourceHash": "357762555864a85fac062eb6c1ac694daea370a2d821c4808ba65f51233cbeeb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 为什么一个结构体可以像函数一样调用？",
+      "translatedText": "#### Why can a struct be called like a function?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "02fbc4c68115ecda231073279720031ba5f09fd005730ac0eb727c683e7076a0": {
       "normalizationVersion": 1,
       "sourceHash": "634958be0285039dfeb4ea4b7549ab8889f360f5ff13cb823417bad0dcec7c67",
@@ -223,6 +377,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "02fbd12992a4fadbc01b40a96ee4f1717a8aaa9a6237fd2f76b0ec8c89d7f183": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b297ddd4239a6dd0c2323dc84bea8e2894335d9a7f04815794236ad9ee94435",
+      "contextFingerprint": "b1cd2ece3d20956d8a54f5189605c1de6a15e3f5a0a1fbfb4b658f44986facd1",
+      "sourceText": "当 `age < 0` 时，函数会通过 `throw` 抛出异常，程序跳转到 `catch` 中执行。",
+      "translatedText": "When `age < 0`, the function throws an exception via `throw` and the program jumps to `catch` for execution\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 25,
+        "costUsd": 0.000075
       }
     }
   }

@@ -15,6 +15,90 @@
         "costUsd": 0.000071
       }
     },
+    "b204edef729908bd5d33dcbbe340ad289d2874373e7e29686ef2eae4be582133": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e7895ef3f3b0f508bc7962469f13c3868116cb40a954c1fcff478458f052cf9",
+      "contextFingerprint": "7c09cdcba848b9108673ebddbb6ced9c99e89ae276fabefc98bbf0f733da5686",
+      "sourceText": "这里 `count` 是 `int`，而 `result` 是 `double`。编译器会自动把整数 `10` 转换成浮点数 `10.0`，这就是隐式转换。",
+      "translatedText": "Here `count` is `int`，而 `result` is `double`。The compiler automatically converts the integer `10` to the floating\\-point number `10.0`\\. This is implicit conversion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "b21095fcbef63ba4f24f1dcd93fa2a890e26072cc28712a9acb2b1e43df97aa8": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9d06d8aadef70d6c895799ca7c3679bf4b8c1de7c5f513bb6528671081f195b",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "与功能相同的 C 风格强转相比，C++ 的显式类型转换通常不会产生额外的运行开销：",
+      "translatedText": "Compared with a functionally equivalent C\\-style cast, C++ explicit type conversion usually does not incur additional runtime overhead:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "b2302379de8f52d39e002d9bd212fa5e4266d2756e44426cb37eb83f21ceca78": {
+      "normalizationVersion": 1,
+      "sourceHash": "a502abd8c9c66d7dd3f3f40b6408a2e823264026a46b150a3e2decb50ba34ae4",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对string字符串进行插入和删除字符操作",
+      "translatedText": "* Perform character insertion and deletion operations on a string\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "b2419eee8606a0ae7bc2534d0238b9da474c5ef9950c65b468003b1733555170": {
+      "normalizationVersion": 1,
+      "sourceHash": "8dbe4aa40f159f7468877a9fc4ffad67752855cfb80209e7b9e851fc16d40bfb",
+      "contextFingerprint": "56fbb83f19c225faaf866e33ab61c849533605820e74aa30b669ac7800b698c7",
+      "sourceText": "`unique_ptr` 会自动释放内存，不需要手动 `delete[]`。",
+      "translatedText": "`unique_ptr` will automatically release the memory; no manual `delete[]` is required\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "b2437055c15aeb33894c7627b703cd3bc8dd1bf5180c738f3aad533bca05105c": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fdfcda1b8ff4c218521a4586e51906055d96dfba2f0a0ad1f176fac67afc445",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "RAII（Resource Acquisition Is Initialization，资源获取即初始化）是 C++ 中最重要的资源管理惯用法：",
+      "translatedText": "RAII (Resource Acquisition Is Initialization) is the most important resource management idiom in C++:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 35,
+        "costUsd": 0.000091
+      }
+    },
+    "b249e42a623e9a38a6be8312fd80a2e5d234c39abc9c711252d606cfe141ad46": {
+      "normalizationVersion": 1,
+      "sourceHash": "051b0cc1d741fbe6e2d09b215f43377a79a6d975a24580203abbaceba4ad39af",
+      "contextFingerprint": "c1b4ccecceec17268703b5138ca4569e497c72f90fa747f510e5e4b17fb87edc",
+      "sourceText": "- `std::thread` 对象和实际执行线程是什么关系；\n- 构造函数里第一个参数和后续参数分别表示什么；\n- 参数默认是如何保存的；\n- `join()`、`detach()`、`joinable()` 分别改变了什么；\n- 为什么线程对象的析构函数可能直接终止程序；\n- 为什么 `std::thread` 不能复制，但可以移动。",
+      "translatedText": "- `std::thread`What is the relationship between the object and the actual executing thread;\n- What do the first parameter and subsequent parameters in the constructor represent respectively;\n- How are the parameters saved by default;\n- `join()`、`detach()`、`joinable()`What do they each change;\n- Why can the destructor of a thread object directly terminate the program;\n- Why can `std::thread` not be copied, but can be moved\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 82,
+        "costUsd": 0.000156
+      }
+    },
     "b24ca5d7dacd2bec095a918a3c958f56bf87220250e5261e5b6117f86e42faa2": {
       "normalizationVersion": 1,
       "sourceHash": "8aac5e0e3775db2f21c110260552f3a7e47a7ca318b9c1f6c9368de3518cabc0",
@@ -71,6 +155,34 @@
         "costUsd": 0
       }
     },
+    "b26eb8e6643923543675c84debcb912394bb2e564555ed4cf96bf0cfc62ffc92": {
+      "normalizationVersion": 1,
+      "sourceHash": "37bc4f3e0243599eaaf0e400132204c96201c32bfe335ba325480eea1a3175f0",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 整个程序规定统一的锁获取顺序。",
+      "translatedText": "> The entire program enforces a unified lock acquisition order\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "b26f95df0de83dd03dec779b398b669e63d79d265a61dd8df761d7a84196c1b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "08925b7fccdc90f9ac118e560ee933b109405fa9f06f6500ea5c4ba9095f32d0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 谓词概念",
+      "translatedText": "#### Predicate concept",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "b271efb396cea91c9d950011ad3597b4cf4b451efef3c924cb4e76fd05bb959e": {
       "normalizationVersion": 1,
       "sourceHash": "ca67a836e81005a1d6bb783566ea217f7b37f479590550e0ebe665bd290375b2",
@@ -83,6 +195,20 @@
         "inputTokens": 146,
         "outputTokens": 22,
         "costUsd": 0.000071
+      }
+    },
+    "b2773a0381652f3648dc242be0e18b31664dec6629384f52ad0986e9c6f68bbc": {
+      "normalizationVersion": 1,
+      "sourceHash": "deedd8d3a902403672b080c26b9096c3f4db30fb854291a2a1683fb7afd6c60e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果使用普通 mutex：",
+      "translatedText": "If a normal mutex is used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "b283e7cbbaec0f75b05223bb2e64c10fd42df8ce33188d22f7863a8881432d48": {
@@ -113,6 +239,34 @@
         "costUsd": 0.000056
       }
     },
+    "b2b2ec4fd2a332ce3ea45825add43b46e3d19d98fa767474fa49760f466c8ca8": {
+      "normalizationVersion": 1,
+      "sourceHash": "282fa46d06bee5935bfed63592403f09c73eaf35d6f62c67fda94bddb7dd869d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 掌握常用的集合算法",
+      "translatedText": "- Master commonly used collection algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "b2b637924884ff240ed2f6c9bd7b6b309c2c936338f1df3b0a0fce9812d6fd44": {
+      "normalizationVersion": 1,
+      "sourceHash": "6b1bbd7a270b9155e5442f96c1ae657485eb33a4e4f8ef24c02594eaf74054c3",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 对map容器进行查找数据以及统计数据",
+      "translatedText": "- Search for data and perform statistical calculations on the map container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "b2c81090561573fcf0f1fd8cf168bfaec308fb3236bb5e710153bb71fe329b80": {
       "normalizationVersion": 1,
       "sourceHash": "699c9de6b026257fe09c3f1c10f1d6ea9c9cecb4e044c1fe547429f9c628bc26",
@@ -141,6 +295,34 @@
         "costUsd": 0.00022
       }
     },
+    "b2cbd8bc19ce736a9575fafbd9c39e63179aa18c238bdb5ff9d7d9e85e0a0539": {
+      "normalizationVersion": 1,
+      "sourceHash": "d962630e14d7c248645b2d386a8842910140cf1e9af009a50f6aa5b99e9784dc",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常见场景",
+      "translatedText": "## Common scenarios",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "b2ceca39e663c5eafbe72fda8c686c4196d68bab86cf5e1f11120d11823f2c8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3883b4cd1cffff18ad143ea51b09bdda4730140307630927a84bb167b504992",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此多线程编程中第一件非常重要的事情就是：",
+      "translatedText": "Therefore, the first very important thing in multithreaded programming is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "b2e7e84daf9862a4617ca934cb63c75bc7b71c5a6e2117114e7201e76517de24": {
       "normalizationVersion": 1,
       "sourceHash": "9443a70ccf51d3d11b0ef3bc0671b0777a6d793079720af940d6739231fde674",
@@ -153,6 +335,34 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "b2eddd079d66ed6e94b5a3d5d54adb3f40e8bfda3d431cd2e28b5623133be62b": {
+      "normalizationVersion": 1,
+      "sourceHash": "a90ec79cc6baded73b006913217f4441e39ba1068254fc3a4f5a13dc49bbd8d8",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**应用场景：**",
+      "translatedText": "**Application scenario:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "b2eea16af1b93f7da60b8262531bc4659744842c119d2f8aa065f66f1b557a51": {
+      "normalizationVersion": 1,
+      "sourceHash": "86d3b59577e5b7e7cd69257f433858434ab3ab1ce8e4295cb35055a2d1262b2b",
+      "contextFingerprint": "5b7df88bc6aabefaa20245c490b0334fb8abeb0e51ef5cc15286ac8c85fa71ca",
+      "sourceText": "区别在于算法得到 `true` 之后做什么：",
+      "translatedText": "The difference lies in what the algorithm does after obtaining `true`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "b2fae6211a14d279b9879dae363a9c9c980211ea24a8d4ae92fb2ca911c1aa56": {

@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c302971422f81f863fca12f07fb527d5ec0f215a14b81d0374a7d8ab1fc8d586": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e75b57314917ef41d2fb5f159a0740d04f1b0f5f69f005488fe956ee1846b2c",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 示例代码",
+      "translatedText": "## Example code",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c31960b8aac024c24874e60864dd85de4f058f7249ac7ee6c0b9625487e9fec1": {
+      "normalizationVersion": 1,
+      "sourceHash": "1593d6a55b8ec623bb426d8fc43fc8bbd232e9a274b981595e997bcbf482a6d9",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* STL内建了一些函数对象",
+      "translatedText": "* STL has some built\\-in function objects",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "c323c912eb53e7f46c5250d00b3cf81a364f6da37319ad2019e9ac51a09c78b3": {
       "normalizationVersion": 1,
       "sourceHash": "7fad461dcfad8a6d4a1de1b1f688c3b8914904acbe9c396a4fb4543f1b9399e3",
@@ -29,6 +57,62 @@
         "costUsd": 0.000087
       }
     },
+    "c358b972ccf20bd7e9c27dcef421a25186c8ba6470f8e7aa9a1bd6aa4393c593": {
+      "normalizationVersion": 1,
+      "sourceHash": "d95b0f7f78e9faf460fa9abee8bb06d50a96326331a1adad5ea4d6f3bf7a0003",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "RAII 的核心思想是：",
+      "translatedText": "The core idea of RAII is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "c359105461bdf8d929ad008bad0156eb7e59b44b46aa541ce76391bdc6883a2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "345e662c3515187992750bad3bdf5f12b6fc6365e3b9010dc7a318748b660342",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "移动后：",
+      "translatedText": "After moving:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "c35e52b5383862e5293f808fa942e9657efd9463e7d4921e895e68bf7b473bfd": {
+      "normalizationVersion": 1,
+      "sourceHash": "31f9af852d630b488ef0999edab4f6329be881bd4bb2ee945a5e1679103d38ed",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### STL中容器、算法、迭代器",
+      "translatedText": "### Containers, algorithms, and iterators in the STL",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "c36d97bf8768aad8fc61801bae86eb0b956823852840a8fed186914eb73d14a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "7926b0e443a59d8e31491f0c52098f85ca865d6b9d4636839330a5212b1d303a",
+      "contextFingerprint": "3f827f800c3d6c2194ada3dfd64da911e3f319da311f6e675716c0d1aeaf81a4",
+      "sourceText": "会把当时的 `Robot` 对象复制一份保存到 Lambda 内部。此时副本中的：",
+      "translatedText": "will copy the `Robot` object at that time and save it inside the Lambda\\. At this point, in the copy:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
     "c38cf1cad81cb8c25f73faeba24180eeb90e3202a58eb0a89b5079192fae5a69": {
       "normalizationVersion": 1,
       "sourceHash": "9741feccc9afbcb2dd3ceae116c9c5c3c5102e4cd50569a28d9327acc1b4b3e5",
@@ -55,6 +139,48 @@
         "inputTokens": 162,
         "outputTokens": 47,
         "costUsd": 0.000105
+      }
+    },
+    "c39278985182f8e97ff70449d1aa2848a5456d752c00d429ca029b6ccf5e6382": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c195ebe3fb8c0408b8c22c2fa76ed797e0f25db5368d732aa019096b3b85eaa",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 统计map容器大小以及交换map容器",
+      "translatedText": "* Count the size of a map container and swap map containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "c3a5533afad07fa70ea26ad34e860ed7d086cbf76d87cb95042798c3ee243592": {
+      "normalizationVersion": 1,
+      "sourceHash": "a213fe1aaa1419e453e0a2c84b21ff6c3534ca3548244b9b4e19a57aafe00754",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这一节不只要学会“开一个线程”，更重要的是理解：",
+      "translatedText": "This section is not only about learning to \"start a thread\"; more importantly, it is about understanding:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 29,
+        "costUsd": 0.000078
+      }
+    },
+    "c3ad9f4b9fac44fcd7f890e051a204440f34a9372c6efb9862d30932b927f523": {
+      "normalizationVersion": 1,
+      "sourceHash": "11eb52ddee623ae9b1b05e811e200522ed9c0ca3cab5a50f2d7318b48688da02",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 5：C++17 结构化绑定中，修改 map 的 value 必须使用引用",
+      "translatedText": "### Example 5: C++17 In structured bindings, modifying a map's value requires using a reference",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 36,
+        "costUsd": 0.000091
       }
     },
     "c3af42656a366f53691d3a8ba86ac1e9bc8a25f71755489f408eff8e67210a1f": {
@@ -111,6 +237,62 @@
         "inputTokens": 142,
         "outputTokens": 19,
         "costUsd": 0.000066
+      }
+    },
+    "c3def594e439a84a0fe2a9e84728f4c3fe601728d768e0c066da7b5641b79cd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "fed6443eac80274a6df6f8a195a31a693dcb419b639b0b978aee854694037496",
+      "contextFingerprint": "90fde6d18269d6b03700f417705240157f28274f41aad0f2d05f157f2686e95c",
+      "sourceText": "1. 长度不同，短的排前面。\n2. 长度相同，按照字符串字典顺序排列。",
+      "translatedText": "1. Sort by length; shorter ones come first\\.\n2. If the lengths are the same, sort in lexicographical order of the strings\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "c3f171807c89303802512c5437f66e34f0f76fdc9461d86a45a790efc7d817ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5cb2d5796e339fed4599e1ccf0e43b37d45288eb0c4e54670a17c609ede78ed",
+      "contextFingerprint": "62506ff908563f8cc48f0fcf6a4d6716c5cb4ed6cdf59d46e54aad3c35c16685",
+      "sourceText": "### `owns_lock()`",
+      "translatedText": "### `owns_lock()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c3f6d4e7a7b5c92b2c9ce4944e221360d52924385ff30521e863410972fdc670": {
+      "normalizationVersion": 1,
+      "sourceHash": "180b342d54532959c1306212429de69eefc453b2f1358f30e827dff4c8885497",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "则会选择：",
+      "translatedText": "then it will select:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "c3ffe74caf1e1bf6322af9dbd25ef87f1e6ea98b302f5d1b1b9b40c700a92298": {
+      "normalizationVersion": 1,
+      "sourceHash": "115116e0cf7d5bd41bb1404cefecbadfddc421995eae9eb0724e26f81028cfa3",
+      "contextFingerprint": "566a54222aa7299d8ecab1bf3de129685472f205c5adae81a649e46ef3458cf3",
+      "sourceText": "* `string substr(int pos = 0, int n = npos) const;`   //返回由pos开始的n个字符组成的字符串",
+      "translatedText": "* `string substr(int pos = 0, int n = npos) const;`   // Return a string consisting of n characters starting from pos",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     }
   }

@@ -15,6 +15,34 @@
         "costUsd": 0.000089
       }
     },
+    "390d67a558ad5f0bae83d83586e961f6307e5c3ecb14ec33e9c4ef8edeaec382": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbd463dd93d00030c943c1f9b507b40ee3e4e4a7c247ccd3f926307aa5d3fe35",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么这段代码就可以称为：",
+      "translatedText": "Then this piece of code can be called:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "391de7a8204654509b3f642da0306c7ea1a6f30a70dbaa035e457c4825a0c4d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f2aa9cf53f7fff57719eb7403cf47bfcf289927f5dba9008c16f78efd394b75",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "析构函数中应该尽量保证安全释放资源。",
+      "translatedText": "In destructors, resource release should be made as safe as possible\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "3924925e0f365cd4cc7868f8b2bf5f2e531ac9e01ba477a4215765a03690745c": {
       "normalizationVersion": 1,
       "sourceHash": "99adc020646c7c786d42a77f081ab97adc610138b483ef61fd9a008d096a1400",
@@ -29,6 +57,20 @@
         "costUsd": 0.000108
       }
     },
+    "393ebcd9d69160788d2bed8d294034585ebba139b7eb0aef7d6b5bc67170c1b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9daec8a0d811768b47c8af5a36ccf778adfe55374bc2d81f3e2487590a792f0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更应该考虑：",
+      "translatedText": "More importantly, consider:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "3951844cf95eb1e6ee0d8cf90afe68132c00f7efebba7fe89d91f307a77782f9": {
       "normalizationVersion": 1,
       "sourceHash": "ad24a4dc0e521656251a1b7e39d0f2c360e49b12fe8aafd283a5a1adfa69eb14",
@@ -41,6 +83,48 @@
         "inputTokens": 160,
         "outputTokens": 35,
         "costUsd": 0.00009
+      }
+    },
+    "395234059538f84529317d2da7b65f8de7e2c420782bab67e8e2fbae1bb80464": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca06eb05ccdda38f65d95ca0c567fde61e6e5fa29584e89d9e7b0a951c858692",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之后再：",
+      "translatedText": "Afterward:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "396e7f178ddd315aa700c77c999d00d9a4ade4a23b437f94918aa7a47881a2c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "19b0847b971f904e82fb61b7c494504b64378695d424d1105a1431b4db649520",
+      "contextFingerprint": "5bf5591f04de3d3cd4766ffcba52098a7735f62424f8b48e4a78afb2c3ba367b",
+      "sourceText": "- `find`                     //查找元素\n- `find_if`               //按条件查找元素\n- `adjacent_find`    //查找相邻重复元素\n- `binary_search`    //二分查找法\n- `count`                   //统计元素个数\n- `count_if`             //按条件统计元素个数",
+      "translatedText": "- `find`                     //Find element\n- `find_if`               //Find element by condition\n- `adjacent_find`    //Find adjacent duplicate elements\n- `binary_search`    //Binary search method\n- `count`                   //Count the number of elements\n- `count_if`             //Count the number of elements by condition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 49,
+        "costUsd": 0.000109
+      }
+    },
+    "398bccba817dc371735b96ec37dc0348b5432b4d4373cd862ead9f2c0ffaf5d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2e1436dd4a0ca6134662b2e81fda32ebb01a2a3548373d5fa1e44e810d53651",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 类模板中成员函数创建时机是在调用阶段，导致分文件编写时链接不到",
+      "translatedText": "* The member functions in a class template are instantiated at the call stage, which causes linking failures when writing code in separate files\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
       }
     },
     "399f032c1086e7099e158e12d58fb543e890bc9c1711de3dc8d6ee6230a15f59": {
@@ -71,6 +155,20 @@
         "costUsd": 0.000058
       }
     },
+    "39c132aa7acdb55045c5bac93c5bc8bfb48c3851938d078469287cde8bbf5682": {
+      "normalizationVersion": 1,
+      "sourceHash": "c19929d8278d0cfcfde3140a200cd2d9fcb89132de727847878f7856adc02bcc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见状态变化：",
+      "translatedText": "Common state changes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "39e27f73345468e2cfe15fedcf373e10da239320b2fdb143c15e43bdba2de6b3": {
       "normalizationVersion": 1,
       "sourceHash": "65e29cef4f4c755e6ca0964cd059bc5ddba66972a8ddc1d11adfc16a4098830c",
@@ -85,6 +183,20 @@
         "costUsd": 0.000061
       }
     },
+    "39ec8c2e096370b2fe8c9917b7e165b3d876c27332875eff7bc7a3f36fe4ffb5": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5947cf0ebe5126e91af4e5aa64a7729bd713582f3391345b62603c8ab2c8f9b",
+      "contextFingerprint": "3aee6110ea06601256246a995cf0961570d870a0ce8f307e7cf24dac74d91798",
+      "sourceText": "C++11（类型别名语法），C++11 模板别名。",
+      "translatedText": "C++11 (type alias syntax), C++11 template alias\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 36,
+        "costUsd": 0.000092
+      }
+    },
     "39f26f37600f8b6736e1d4ac36981b1c22ffcd71fd09a8856fb07e0b194e0fba": {
       "normalizationVersion": 1,
       "sourceHash": "73da86d757f3746c5290968b5ee86f83c7e7389874150d13111a9206bc2afde7",
@@ -97,6 +209,20 @@
         "inputTokens": 143,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "39f4723815c396e950e2f6c4d15bfb733f07839d3839be1e3645c272d145b11c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6f8180f27c106df25a329bf7f507ff16fd51834f658da7b69c8f1b74eb14c213",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更合理的方式通常是：",
+      "translatedText": "A more reasonable approach is usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

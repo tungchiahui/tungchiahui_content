@@ -57,6 +57,34 @@
         "costUsd": 0.000084
       }
     },
+    "333bc9edbeb5760e432dc2200b3785fad5c419f4ff9e2fb8c5346c4fefd9fb2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f38e850c291c72a97b199920acff4350e71e5c65413a845b288580ea8e2edde9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### string字符串拼接",
+      "translatedText": "#### string concatenation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "33420df1aefe59600dadbb53bb7dcb7d07c01080f771ac02cca6a561c35e544a": {
+      "normalizationVersion": 1,
+      "sourceHash": "152221ee1545893d07423d4f9b40345a4b5e35a3b59f586f858f77de22f7a3f7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：span 只是视图，必须确保底层数据比 span 活得久。",
+      "translatedText": "The correct approach: a span is only a view, so you must ensure the underlying data outlives the span\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "3342981e285346fb0adaa4ab53e192fc73bf980344b4762785320f37ee18c79a": {
       "normalizationVersion": 1,
       "sourceHash": "10f556a88a7c5be292d490e6c415df5fc70eaf01f54ef87008a5e063c065a40d",
@@ -69,6 +97,76 @@
         "inputTokens": 148,
         "outputTokens": 28,
         "costUsd": 0.000078
+      }
+    },
+    "335aee9154f266631f5949b9d7d6a144ce3cf5f1cceaa4cb49de8b8e7244fc17": {
+      "normalizationVersion": 1,
+      "sourceHash": "a64460d4314acd1b35ae1873c5922df9e0bf32c29dca5fd0b92bb6ca10b86337",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "GCC / Clang 在 Linux 上使用标准线程库时通常需要链接 pthread：",
+      "translatedText": "GCC / Clang on Linux typically need to link pthread when using the standard thread library:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "33661d473404206126b9040331ebd27fd211ba035403e786300ee50afa5f33cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "a23ea4dc0de0d138735cc9aacafc69b0177c5a9e78d7950f0b9b107528c15620",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 二元谓词",
+      "translatedText": "#### binary predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "3371119f607cf65932cccaf8f73cd0aaab662bb693b3335e550b6af9327c37bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c428bf096b394aa73fd77c034614561a2739e23eab9f7dfe1fe5ef161182d5a",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：以为 nullptr 可以匹配任意一个指针重载**",
+      "translatedText": "**Error 1: assuming that nullptr can match an arbitrary pointer overload**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "3377620ffe076956006374b93ed72d9d584303963b21d292444e3410ee8b6b13": {
+      "normalizationVersion": 1,
+      "sourceHash": "b370b8ee24a8312f5efe89fac85d1f82a10812be84af8a235a4cdf0fa97c2c37",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：建议全局函数做类内实现，用法简单，而且编译器可以直接识别",
+      "translatedText": "Summary: It is recommended that global functions be implemented inside the class; usage is simple, and the compiler can recognize them directly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "337fcdb12385220d47a77d4d522bbdbcf2039d94e6331bbfa21147091024ae21": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab3891133c3ca5e8afdff62f9c0f57626bc769d6aeb779623338ed83fe4c849b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还可以显式使用：",
+      "translatedText": "It can also be used explicitly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "339c251ae84cf29e5df7203a42df8a76aa5f29b4b26c45eb58dfbb2ef892fbbf": {
@@ -85,6 +183,20 @@
         "costUsd": 0.000079
       }
     },
+    "33a866731669e38bd8759dcae339e9619b8c7f9b7105a4524a3658f8654c3355": {
+      "normalizationVersion": 1,
+      "sourceHash": "c6c6458c24369b4bc176ee4892a4d4dd3db9df0ef54eac442dda6d564b559e7e",
+      "contextFingerprint": "da7192ee84f9b3dfd3deed606b66bb7de2af8451639bb7331fe1b4bdad53eda8",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 基本赋值和 get | `std::variant<int, double, string>`、`std::get<T>(v)` | variant 类型安全，赋值时自动切换类型 | `get<T>` 类型不对会抛异常 |\n| 示例 2 | get_if 安全访问 | `std::get_if<T>(&v)` | 返回指针，类型不对返回 nullptr | 比 get 更安全，推荐使用 |\n| 示例 3 | visit 模式 | `std::visit(lambda, v)` | visit 强制覆盖所有类型，是 variant 的最佳访问方式 | 泛型 lambda + visit 是最简洁的组合 |\n| 示例 4 | 消息分发模式 | struct visitor + variant | 用 variant + visitor 实现类型安全的消息处理 | visitor 必须为每种类型都提供 operator() |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Basic assignment and get | `std::variant<int, double, string>`、`std::get<T>(v)` | variant is type\\-safe and automatically switches types on assignment | `get<T>` an incorrect type will throw an exception |\n| Example 2 | get_if safe access | `std::get_if<T>(&v)` | Returns a pointer; returns nullptr if the type is incorrect | Safer than get, recommended for use |\n| Example 3 | visit pattern | `std::visit(lambda, v)` | visit forces coverage of all types and is the best way to access a variant | Generic lambda \\+ visit is the most concise combination |\n| Example 4 | Message dispatch pattern | struct visitor \\+ variant | Use variant \\+ visitor to implement type\\-safe message handling | The visitor must provide operator() for every type |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 275,
+        "outputTokens": 161,
+        "costUsd": 0.000276
+      }
+    },
     "33c9b13fdeb71311eee44ac9f21d128baebec38d1134d1c981c4423b9e0ffc74": {
       "normalizationVersion": 1,
       "sourceHash": "5621edc521ae8781dab1d32112e6467b6c4172211d3fe452383ad39a7d861b8f",
@@ -99,6 +211,20 @@
         "costUsd": 0.000056
       }
     },
+    "33db0a5a14bc47144bf2453f548c812e631b18eb0051b00118287ae978d51c30": {
+      "normalizationVersion": 1,
+      "sourceHash": "13b1891da1660b58b9d3b6eb7d3e3b9ffaca24ab620cce73a13d48db93fd5324",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "//beg2 目标容器开始迭代器",
+      "translatedText": "//beg2 Iterator to the beginning of the target container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "33f12056f0249ff9709ba83ab87ff345bff8ecd75ec222e6ceb4b388490b9ec1": {
       "normalizationVersion": 1,
       "sourceHash": "d5e60fd4e52842f7110ded0d926cb37f8e8956c2a9f32b7cf72670134af5ba8a",
@@ -111,6 +237,20 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "33f60bf294d0a130813cc6eb68b2401d11087a6acbbf9a041d3e4bd3d583759c": {
+      "normalizationVersion": 1,
+      "sourceHash": "54f0676a1863aee7d9d2ff7808bd1cd834973363a348b592efb231e1cc21ffa6",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 创建了一把可以锁变量的锁。",
+      "translatedText": "> Created a lock that can lock variables\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     }
   }

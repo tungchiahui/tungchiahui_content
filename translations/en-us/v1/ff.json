@@ -57,6 +57,34 @@
         "costUsd": 0.000075
       }
     },
+    "ff59a3f39bac3f6cfc4f8db1a86ebeda6e239b3ea9b928205dd7beebd1fc29fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "c2d6809a270e1e954c2acb4b5603d4e3b8a69a5c765e4902e5eaa5dd07537e0a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数模板语法",
+      "translatedText": "#### Function template syntax",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "ff7d417bae52ceca7291bf28c2212b5ec690a294c9210151c4a06e53723c1976": {
+      "normalizationVersion": 1,
+      "sourceHash": "87fc0db7841d163c41982ec40783e1c8c55633896627cf0e58d996670fd493ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如节点启动阶段：",
+      "translatedText": "For example, during the node startup phase:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "ffa6cd7377c605a1be2a2e954836aeb98348608f74011f14d968a2957bd9b6ba": {
       "normalizationVersion": 1,
       "sourceHash": "cab91c244429d419eae1295e4448bbb4d2f4470e60290e8550736924189454a3",
@@ -83,6 +111,34 @@
         "inputTokens": 158,
         "outputTokens": 37,
         "costUsd": 0.000092
+      }
+    },
+    "ffb73602151bc71fc38577ddcdbdf6c4399f3252c8c0abb65fa63e7e7038ac8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "518437ab59a4b0579ec69afa1b44b6aaed3a520c98c99d633c7c275badb23090",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "表示“以引用语义传递原对象”。",
+      "translatedText": "Indicates \"pass the original object by reference semantics\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "ffcbc6d4bf81bcfa32f9bf32e5902c8dd6f30c169c9c0d66f7f4017ad9f2e890": {
+      "normalizationVersion": 1,
+      "sourceHash": "dfb2a41c9a572a35ba9e4dad6c80cf143fb73a0a4ea7f166afc97defe5aa9ec3",
+      "contextFingerprint": "c533e3876de46f761f81ecc3a48a1cb64361c6ddca4dc192308ad6e6c1bd4ce3",
+      "sourceText": "这里可能产生的运行开销来自“把 `double` 转换成 `int`”这个操作，而不是来自 `static_cast` 语法。即使改成隐式转换或 C 风格强转，这个转换操作仍然存在。",
+      "translatedText": "The runtime overhead that may arise here comes from the operation of converting `double` to `int`\", not from `static_cast` syntax\\. Even if changed to an implicit conversion or C\\-style cast, this conversion operation still exists\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 169,
+        "outputTokens": 46,
+        "costUsd": 0.000106
       }
     },
     "ffd32d88a0f040d286ea4a22e89f26d5f6c05d86ea5ea8dbce84479fe46ce306": {

@@ -15,6 +15,20 @@
         "costUsd": 0.000076
       }
     },
+    "542427e114fd2b386b27a46154697ee8f1453003ae758ce0b3519ada55dcef19": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4153bceb0891745012b1c8f577dbd4a9d70bf7c6d7338395cf339677aa9ebfc",
+      "contextFingerprint": "1b7176a6d9b5eadbba2c023dc0aeb8347989d67c20006135998c95a2a763299d",
+      "sourceText": "- `count_if(iterator beg, iterator end, _Pred);  `\n\n  // 按条件统计元素出现次数\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // _Pred 谓词\n\n  ​",
+      "translatedText": "- `count_if(iterator beg, iterator end, _Pred);  `\n\n  // Count the number of occurrences of elements by condition\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // \\_Pred Predicate\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
     "5433cf6804fb1d679fd0c3ea3cf11235d347850ab55d16cd0223a0b3eb33f01e": {
       "normalizationVersion": 1,
       "sourceHash": "a9046b076154911c4ac04f263a4c45be1409d5ed34d1eea4e4a0d069ba3a3f3d",
@@ -71,6 +85,20 @@
         "costUsd": 0.000066
       }
     },
+    "5445d89bde5cf02278f050b63796340d92ecf634aa98f6d3ec5ae64f2ff6c44d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c9f85abf2373b40eb493d98cc9269d99ab2dd94390461a7a6d31a23f2fa4e86",
+      "contextFingerprint": "cf09cf9f864cfcc70f2f0db66e553a007d61e93eb00ad1d406adff678eefaed9",
+      "sourceText": "1. **能用 auto 的地方尽量用**：减少重复类型声明，让代码更简洁。\n2. **遍历容器要用 `const auto&`**（不修改）或 `auto&`（需要修改），避免意外拷贝。\n3. **明确需要引用的地方要写 `auto&`**：`auto` 不会自动推导出引用。\n4. **`auto` 不能完全替代显式类型**：当类型不明显时（如从函数返回值推导），显式写类型可能更清晰。\n5. **`decltype(auto)` 只在确实要保留引用时使用**：它更精确，也更容易把悬垂引用暴露出来。",
+      "translatedText": "1. **Use auto wherever possible**to reduce repeated type declarations and make the code more concise\\.\n2. **To iterate over containers, use `const auto&`**(when no modification is needed) or `auto&`(when modification is needed), to avoid accidental copies\\.\n3. **Where a reference is explicitly needed, write `auto&`**: `auto` does not automatically deduce a reference\\.\n4. **`auto` cannot fully replace explicit types**When the type is not obvious (such as when deduced from a function return value), writing the type explicitly may be clearer\\.\n5. **`decltype(auto)` Use it only when you really want to preserve references**: it is more precise and also makes dangling references easier to expose\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 128,
+        "costUsd": 0.000225
+      }
+    },
     "544ed5c5c0a0d1adc83dc262446554fc3f7345245e37ada1260fd4bc02c4ba0b": {
       "normalizationVersion": 1,
       "sourceHash": "f46ae173257ab48c720524d39cf4ca94e71d5e091c0fda05e0e853dac997ab33",
@@ -85,6 +113,20 @@
         "costUsd": 0.000127
       }
     },
+    "54507955b9854c6c3b82d4519857187a1ea05fc5515d39ad732a6f7e6fa71117": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4e7952c4232aea9faddc59195be5525bdda0667159929ada04e80e116b54ff1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list 反转和排序",
+      "translatedText": "#### List reversal and sorting",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "5455e545811b8676ca3bbd3a032bcfc189222f895883cfc019a418513f751eb0": {
       "normalizationVersion": 1,
       "sourceHash": "6bbfd44a35a9a57083ab425c9edcb3936fd951e080a398ed847a55b1b8a9776a",
@@ -97,6 +139,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "5464258679888325eae9108720b2100de2e7f8c48bcb2653bd1d9165ab8e9b1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1705afa0ecc721797ae60f1118730d309be786f5ce69df59f987c958fd06ea04",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是说，只要一个东西能够像下面这样调用：",
+      "translatedText": "That is, as long as something can be called as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "5472d01a842e5a71273f6f8fb089023cb83ef51fb74d58d27adcbe89b440a13e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f36e7284cfdbab23f61f05cddfa4188a7ecb3f9b36382ed7012651ff129018ee",
+      "contextFingerprint": "f91fd2d03db9dbc907b9760ba8695857d9cc129e300d3ee43fd85df562000324",
+      "sourceText": "1. `function_pointer` 是变量名。\n2. `*function_pointer` 说明它是一个指针。\n3. `(int, int)` 说明它指向的函数接收两个 `int` 参数。\n4. 最前面的 `int` 说明该函数返回一个 `int`。",
+      "translatedText": "1. `function_pointer` is the variable name\\.\n2. `*function_pointer` indicates that it is a pointer\\.\n3. `(int, int)` indicates that the function it points to takes two `int` parameters\\.\n4. The leading `int` indicates that the function returns a `int`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 44,
+        "costUsd": 0.000102
       }
     },
     "547f98318520d08dfdc1918185acc5f1561b5c534eb62ebd98469561fbde74d5": {
@@ -155,6 +225,20 @@
         "costUsd": 0
       }
     },
+    "54b6d674d325648cd87aa31c0baef8b72aa1da9238d7d5adf24936a29f7e0c3a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d56e991752c0527d773153f51c21408070108fb8764feec6ed23dcfccb6ea45",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就可以直接这样调用：",
+      "translatedText": "You can directly call it like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "54bc74c361c23c1ea1285ab1c586b64a7187bb7559f140f6e23a8e920704473c": {
       "normalizationVersion": 1,
       "sourceHash": "c41fcf917eb1ea66a0e1796e7ccec8fe059a0497346fb41db257351665c04f8b",
@@ -181,6 +265,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "54e668565a649f36c7d4b61c894c9ae24932e81f0a5780eb9320bc816f0404fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "89a49eb2f8a1995f496ace57f26ec4d7a14f556841ae36c1295feef9f8ba7146",
+      "contextFingerprint": "5122c2826f1ab307c2f48f065d1ec8155e6b80e7580a0978e3351a6f0033c533",
+      "sourceText": "`enum class` 最适合表示“有限个离散取值”，比如机器人状态、任务阶段、通信协议命令、UI 模式。",
+      "translatedText": "`enum class` It is most suitable for representing \"a finite number of discrete values,\" such as robot states, task phases, communication protocol commands, and UI modes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 37,
+        "costUsd": 0.000091
       }
     }
   }

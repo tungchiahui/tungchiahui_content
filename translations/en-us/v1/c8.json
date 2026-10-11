@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c81c10226b2887272b86e5992ac2116f9719a6c2df1f3d9ba6f628a496030d9f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7aa93668bec1bfed07650c10706dfa1c867988933eed36e627e3edcf51294c53",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### deque 插入和删除",
+      "translatedText": "#### deque insertion and deletion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "c82244c18435df8fd74b2bfefd51d43491c0c91c7633998636a6fa2f4a06a2e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e304204bdf702e767002023b140c69e2e979d83f55a4e51c1ce5b710baf1b229",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 参数传递与生命周期",
+      "translatedText": "## Parameter Passing and Lifecycle",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "c824663b7614b49a846df4e354ab9c009efcfcf416da1213b705c5aa6d46ac44": {
       "normalizationVersion": 1,
       "sourceHash": "59b97e32bf4fbe91a67fc4d29d7fb8efa3395f8b2c4d36fb9313893409fdd924",
@@ -13,6 +41,34 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "c82f6b017e3e46fae839a5da241f0581ec9084082c81bd977a472dd26d65a759": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca177c617ab34062e903078d89be9d4159ab9f90457a748e7627b5cc62c95d4f",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "总结：STL中**List和vector是两个最常被使用的容器**，各有优缺点",
+      "translatedText": "Summary: In STL,**List and vector are the two most commonly used containers**each with its own advantages and disadvantages\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
+    "c838b7a3cdfac8efe8cfcd7a77a6a0e70ca4d8305b439625d9c1f78fec1e88be": {
+      "normalizationVersion": 1,
+      "sourceHash": "75cf19d4fe0fb4dd46b273b5aa2154a0b322776e307e454c49408e5388f975fe",
+      "contextFingerprint": "ba8567f31922e47ef57f9718f8820f51e5db6e821ccdb9e484b5fbf19bd42823",
+      "sourceText": "`nullptr` 是 C++11 引入的空指针字面量，表示“没有指向任何对象或函数”。它比旧式的 `NULL` 和数字 `0` 类型更明确。",
+      "translatedText": "`nullptr` is the null pointer literal introduced in C++11, representing \"pointing to no object or function\"\\. It is clearer than the older\\-style `NULL` and numeric `0` types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 49,
+        "costUsd": 0.000111
       }
     },
     "c8455070af66ee639ba9ee7615143b6b84a5e9761e1549ff558c3b99fdd8e485": {
@@ -29,6 +85,20 @@
         "costUsd": 0.000055
       }
     },
+    "c8656bf0867048884455af716336a8ac7a1f151f3a879b852122ade3db748659": {
+      "normalizationVersion": 1,
+      "sourceHash": "0a8c3eca5cfd745046262a2e60f7725e00d55f2923880f0e9091f0ce804664e4",
+      "contextFingerprint": "2b69c30c9f177b856c61cad9b040192ec345ecdef0d5745a005e02c8513dfa40",
+      "sourceText": "此时 `a` 拥有 `A`，`b` 拥有 `B`：",
+      "translatedText": "At this time `a` has `A`，`b` has `B`：",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "c86e23b3a17fd0f8acf105a366ed3d6ed6e792b419851ba85da64f2a1c0ae579": {
       "normalizationVersion": 1,
       "sourceHash": "c01294facfe2de6fd8c52a0f3aec94a5f606cc86c4f8c30063251dbde908d3bd",
@@ -43,12 +113,68 @@
         "costUsd": 0.000055
       }
     },
+    "c8a7a78e633e2cdaa1787b59f3785aa8663de10adda78d649713c2063471eecd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7cccd3925869c4a11ffd4cb97db2290737b8fd8d46e416ae333994dafdd2090",
+      "contextFingerprint": "9064b343a379874874f51947121c59ee62f96e95d295e717dee11779620dce7e",
+      "sourceText": "### `++counter` 并不是不可分割的一步",
+      "translatedText": "### `++counter` is not an indivisible step",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "c8be691b226db2ba1fe4b97a62f2a38b8f0661ee54e402b381f0c5fd4cedbee2": {
+      "normalizationVersion": 1,
+      "sourceHash": "66c4547d395beb90bc7aa86131597dff18da4094c7e8f9c897ed25e1346cbf97",
+      "contextFingerprint": "719a2e3d738c0cc3ddb6210d581f20683b9015802f5297f2ecb69499abcac427",
+      "sourceText": "### 尝试加锁：`std::try_to_lock`",
+      "translatedText": "### Attempt to lock: `std::try_to_lock`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c8c5a4aefab9906869b9d4f406721a2bb5fefe2239ca96631175564506f01b22": {
+      "normalizationVersion": 1,
+      "sourceHash": "a83334c4ee4d5275ada028ad9965696c1b77714f5e1788987f1cfdb244a7679e",
+      "contextFingerprint": "64f4fd7d1c6750103385472f98beaee7d35ce4e6b8b94353e84b68196b9d2415",
+      "sourceText": "- `co_await`：等待一个可等待对象，并可能暂停当前协程；\n- `co_yield`：产生一个值，并暂停当前协程；\n- `co_return`：从协程返回结果。",
+      "translatedText": "- `co_await`: wait for an awaitable object, and possibly suspend the current coroutine;\n- `co_yield`: yield a value, and suspend the current coroutine;\n- `co_return`: return a result from the coroutine\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
     "c8d3e27e1bd2adbe7cc414d378d24df1ff855873491adbd6c147efc0e4119208": {
       "normalizationVersion": 1,
       "sourceHash": "7e3a4c6fb46646783f07b4c10347a6ca3466e57761c0df8f13d5fecaf3c749de",
       "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
       "sourceText": "电脑：",
       "translatedText": "Computer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "c8e120c528f162d969accec9e273855a011de28e1499db30236580cbd9bc3ec7": {
+      "normalizationVersion": 1,
+      "sourceHash": "112012409831d696812c8f611cc972801fef34387603d148c8165240c6689c54",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 普通函数",
+      "translatedText": "#### ordinary function",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

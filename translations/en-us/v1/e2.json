@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e219fedb65be16a71e6f855845ccdc3bfc99ba0f8acd95277d496a5447512419": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec131ac7b13db2f33bcd65cf27297a081f916845de2f389e7d2ef9003d8af416",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：variant 中没有默认类型时默认构造**",
+      "translatedText": "**Error 2: Default construction when there is no default type in the variant**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
     "e21ff54e4264749354e4afbabbeb0eaef8887c8316d37df7278b24ba9ae08e40": {
       "normalizationVersion": 1,
       "sourceHash": "19e5e3a704eacd73dc8422f80a85e406592575fde2dc65a97a795ab10af87333",
@@ -29,6 +43,34 @@
         "costUsd": 0.000052
       }
     },
+    "e228fb526a0ae1225c127b4e17cee41394d064fb0e143335453308f4a9cef532": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e68b3fc767d881accf1942d138f0b83f59a82ca7da9b204d03b45ce6e97e5db",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**示例二** set存放自定义数据类型",
+      "translatedText": "**Example 2** Storing custom data types in a set",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "e22a6b39b54003d0cf46cc6eddea3b9ddf50bbc16071b8558650150d850d3b7b": {
+      "normalizationVersion": 1,
+      "sourceHash": "4345351b74c28c303dae306f41b78a4ebd61544465726ff257a3e3c8a9807501",
+      "contextFingerprint": "14c017f8fe7d83cbb9e78b9541f10082aab5e387f4fc11807174351ff96f6d75",
+      "sourceText": "* `find(key);`                  //查找key是否存在,若存在，返回该键的元素的迭代器；若不存在，返回set.end();\n* `count(key);`                //统计key的元素个数",
+      "translatedText": "* `find(key);`                  //Check whether the key exists\\. If it exists, return an iterator to the element for that key; if it does not exist, return set.end();\n* `count(key);`                //Count the number of elements for the key",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 58,
+        "costUsd": 0.00012
+      }
+    },
     "e238436f41311470e1a3166997e91b301fa917672f2316c67e344caed8b0f885": {
       "normalizationVersion": 1,
       "sourceHash": "1e7e83826188d241357412f2d079f623e0ded758204fc020e73c8d0dbe04825a",
@@ -41,6 +83,20 @@
         "inputTokens": 193,
         "outputTokens": 91,
         "costUsd": 0.000168
+      }
+    },
+    "e243d2ba33d3cf1adf8a4938dd4dadea96c5f4ad8e280f27a07c5e8ba85a49ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "61c639fc53d84a7d726ab9d6d3d5a805f5790f0e2c580687107c72a664ae4116",
+      "contextFingerprint": "829c741e005ecc880684e01ae874cb21fcd4729adafa9a909dd29bb086ab744d",
+      "sourceText": "* `for_each`     //遍历容器\n* `transform`   //搬运容器到另一个容器中",
+      "translatedText": "* `for_each`     //Traverse the container\n* `transform`  //Move the container to another container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "e2771e3a10a6cea3cc6b124d53c17f0f53fd5c7f99be1b330f9075cf473ea14e": {
@@ -57,6 +113,90 @@
         "costUsd": 0.000078
       }
     },
+    "e27b9a77dfca9adfc886af443c3eed67f57be9d184fd8a8ad0da50390361cf0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8855021e7b1b6f0e6b221c47802ab0bfbf2bd9a3be20579d39e0059f1ef270e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "才为：",
+      "translatedText": "It is only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "e27de66981b72086c668361b6b5a997bff5e568009a07af21967a86e38cc55f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "605abdc65ad3e4291d05caec7f0f38f9d1d415692d2bd14bf39fa9da1c910b8b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以把两把 mutex 想象成两根筷子。",
+      "translatedText": "You can think of two mutexes as two chopsticks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "e283a36dfb2ceb4c5665da4bc9d1f1a46cb948ad6632a0a4146bf8e12d34f359": {
+      "normalizationVersion": 1,
+      "sourceHash": "24f932a624ca5fff2a4fb53d83843a88848475e061111b620d149f292855b298",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 引用计数是怎样变化的",
+      "translatedText": "#### How does the reference count change?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "e28f32642f4b056719c85ca1d6617b662a741fae0e4c8989eb5936f25c121f9c": {
+      "normalizationVersion": 1,
+      "sourceHash": "72b06b0bd50d67ace9d83dfe0695d2464c27ce925553795f1a550500276bebf5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### string字符存取",
+      "translatedText": "#### string character access",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "e2905088990019be3c1fe9847c0cc9c864ccb1e5df38721205e92263608ebbae": {
+      "normalizationVersion": 1,
+      "sourceHash": "950585a0ffa3f9d3c5c652e7006607be10b36f2d9ead62f94e26eba4abcf9f6f",
+      "contextFingerprint": "ec2be9647b5c28517d0aba5128f495a70ad1a161307e4e5795ee597865c97eab",
+      "sourceText": "`std::atomic<T>` 用来对一个共享对象执行原子操作，定义在：",
+      "translatedText": "`std::atomic<T>` Used to perform atomic operations on a shared object, defined in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "e29af6ed3d8a76c0238428315e584f2b653ce6a97a146d18fe90adfaf3394ef9": {
+      "normalizationVersion": 1,
+      "sourceHash": "048170f877ab60c2c262bc2d1cdb0844ef22d3ff0927deac3635ac511d66a8c5",
+      "contextFingerprint": "4e4be86bec6012c860697d0d63a979af7c88f4aebf99d34c33cdcff7c6305b8b",
+      "sourceText": "### 为什么不推荐手写 `lock()` / `unlock()`",
+      "translatedText": "### Why is it not recommended to handwrite `lock()` / `unlock()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "e29c1f95dc7ea727dcf6940df8b46095642a5c2fe94a74c9fcc79c0a0128c2e7": {
       "normalizationVersion": 1,
       "sourceHash": "2456dae6c8715650ae6bb41ec24599ff65302ea40ea1266183d00665c6566e7c",
@@ -71,6 +211,20 @@
         "costUsd": 0.000058
       }
     },
+    "e2b6192336ab8e49f8e45c59355c290c6d4874ec989ad50b8d00fff1547faf57": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f1d317d5aaa4384db59b033fef41561b55a2acb0614140c43bf48557b26040e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在类外部，可以写：",
+      "translatedText": "Outside the class, you can write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "e2b7d8d5ef6001c8d290d759382d878ccde7ab8c7064578880dfe558f4f5ff89": {
       "normalizationVersion": 1,
       "sourceHash": "a3d0cfd54a64e1dc34470c60b0bf87a7be88313a8645f53ccd4e87ef33d975e0",
@@ -83,6 +237,34 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "e2ccc31ef76336e44f25896687d021b66dca4c571788b01cfcdd1ecce5772eaf": {
+      "normalizationVersion": 1,
+      "sourceHash": "767c5298b000c4515ac216afb2eda74d66218871406a2b849e58c31addad4964",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 多个任务如何在同一段时间内一起推进。",
+      "translatedText": "> How multiple tasks are advanced together within the same period of time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "e2d6e43ae75c565e19ae02724c937358d54b826c6098a4546dee8ff6a7f84c90": {
+      "normalizationVersion": 1,
+      "sourceHash": "94e8f3b9a774a5a19718832bac5b2f7b717d2c3acf035aa5d0f03ded6cc9ebe3",
+      "contextFingerprint": "77100305dcce59473af0d803f6ebc86de972b774e016f6e78e093a037a31bf7a",
+      "sourceText": "| 操作 | 说明 |\n|:---|:---|\n| `v = value;` | 赋值（自动切换类型） |\n| `v.emplace<T>(args...)` | 原地构造 |\n| `std::get<T>(v)` | 获取值（类型不对抛 `std::bad_variant_access`） |\n| `std::get_if<T>(&v)` | 安全获取（类型不对返回 nullptr） |\n| `v.index()` | 返回当前类型的索引（0-based） |\n| `std::visit(visitor, v)` | 用 visitor 模式处理 |\n| `std::holds_alternative<T>(v)` | 判断是否持有 T 类型 |",
+      "translatedText": "| Operation | Description |\n|:---|:---|\n| `v = value;` | Assignment (automatic type switching) |\n| `v.emplace<T>(args...)` | In\\-place construction |\n| `std::get<T>(v)` | Get value (throws if the type is incorrect: `std::bad_variant_access`) |\n| `std::get_if<T>(&v)` | Safe get (returns nullptr if the type is incorrect) |\n| `v.index()` | Return the index of the current type (0\\-based) |\n| `std::visit(visitor, v)` | Process using the visitor pattern |\n| `std::holds_alternative<T>(v)` | Determine whether it holds type T |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 72,
+        "costUsd": 0.000141
       }
     },
     "e2e9337349946c6079671be9df715f09488f64e1e69a9dfb982741243fb058b8": {
@@ -111,6 +293,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "e2ece69a222e90496c9130094574129e171320f34e3a5a80cda4b3dc6ac8480d": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c3f279be7c8bfe7555ac36544496db20a075f718ca3b5e768c27e512372dd0b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "拆成两个部分理解。",
+      "translatedText": "Understand it by splitting it into two parts\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

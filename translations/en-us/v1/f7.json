@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "f727e7c15e9ec1d7b3684e7596ed0f7591abf98ec6bdec656d8e505b723f33ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "76216dac5984dcbbae86792bea4acd53bbf55ec9e394c7c07b03ceae98838aa9",
+      "contextFingerprint": "a8f30e64e167f47a220622b7ee49a17ceff90335af9f2faaf7bdbe3fbbf5f71d",
+      "sourceText": "不过需要真正访问对象时，仍然应该直接使用 `lock()` 并检查返回值。因为从调用 `expired()` 到调用 `lock()` 之间，对象的生命周期仍可能发生变化；`lock()` 能把“检查对象是否存在”和“临时取得所有权”合并为一次安全操作。",
+      "translatedText": "However, when actual access to the object is needed, one should still directly use `lock()` and check the return value\\. Because between the call to `expired()` and the call to `lock()` the object's lifetime may still change; `lock()` can combine \"checking whether the object exists\" and \"temporarily acquiring ownership\" into a single safe operation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
     "f728d007f2f49f789aa557ecbe09ebcf5572e6dd8925d833142cbc8e08b5bc5e": {
       "normalizationVersion": 1,
       "sourceHash": "b4d323dcb9b6bb896524a0a00ab83dd4f39f13481a2fdd6412f5d0c43646f436",
@@ -13,6 +27,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "f74adef0f3bca74a620762d1fffa98e50b2bc60baca0ae5166b54ecf9b3e183e": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5525e7555ed862824c841d9735ddd6234d7b4b47086838db7e85b58c8578ff0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程调度顺序由操作系统和运行环境决定。如果执行顺序本身是程序正确性的必要条件，就必须显式同步。",
+      "translatedText": "Thread scheduling order is determined by the operating system and the runtime environment\\. If the execution order itself is a necessary condition for program correctness, explicit synchronization is required\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 38,
+        "costUsd": 0.000092
       }
     },
     "f75364f910b83ebd920321e3dcf66729d932693d65e06d1f895e8daa73e2d6b2": {
@@ -43,6 +71,20 @@
         "costUsd": 0.000071
       }
     },
+    "f758f8cb327c1d60ce462cb2f0b841fa17fd82fbfb1f487573d57aaecbc16d06": {
+      "normalizationVersion": 1,
+      "sourceHash": "db7205ec6d93c0758f263955db10ffc259f1ab96f6702c39fe406e281f8c0191",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 谓词",
+      "translatedText": "### predicate",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "f78b83a7465baa680ba34b3fe483eff14be032b3903e3a4e94663ac78435b8d2": {
       "normalizationVersion": 1,
       "sourceHash": "81ba7c75b535a7b594ac33fd81c8b13747c6e25775df1c6fe6d3e174a8ebd0dc",
@@ -69,6 +111,48 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "f7a7b027de3c834a5326cf64277e37ed6cc8e193b19ec331b7bcbc7179e1cb44": {
+      "normalizationVersion": 1,
+      "sourceHash": "9cab0058016f8858a44287a244b89912b0ee5ce019416c3a79c66564822b7ebb",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 查找：查找指定字符串是否存在\n* 替换：在指定的位置替换字符串",
+      "translatedText": "* Find: Find whether the specified string exists\n* Replace: Replace the string at the specified position",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "f7abc91cac7c18e9661fb433c8dcbd0c9f15ccf7ba2c62a8d60218e12feab254": {
+      "normalizationVersion": 1,
+      "sourceHash": "b09e5b2fcd61f7cc07450133950a0bc08d09a5fd46309495cb25c16ea11ee34e",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## using 能做什么，不能做什么",
+      "translatedText": "## What can be done with using, and what cannot be done",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "f7b5b8d59992b3723e598c95caf1b5b386d6eacdc70a04bf3922ae6efced4a9c": {
+      "normalizationVersion": 1,
+      "sourceHash": "45727eea6cef2995c2039cb09cf89ebe45b9d81440747664bca4f019b7477acc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "学习完本章后，至少应该能够回答：",
+      "translatedText": "After studying this chapter, you should at least be able to answer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "f7c86c885cc4641f60af81fda840a4144ed0c26ece02d13b412e3d9feaf0fa7f": {

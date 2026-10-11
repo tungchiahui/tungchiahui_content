@@ -15,6 +15,20 @@
         "costUsd": 0.000051
       }
     },
+    "7a28e8e60fbc259ff12f09d6dfa199b9fed6c0201323dcbec8cf6d2415974010": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc60392fe06ef4f0e8fb0236e4cffa9e89d0fbb02cdf46335a5e2b94ca3abf54",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果示例（线程调度不同，顺序可能不同）：**",
+      "translatedText": "**Example run result (thread scheduling differs, so the order may vary):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "7a342178daa73e082b61d4051b1fb2ffd573f7c42dcad1c7dbae67aad19214d0": {
       "normalizationVersion": 1,
       "sourceHash": "71c21ff67a82805030893f271eb6d24c08f27e756a100496c15d9c078e8ba5bf",
@@ -41,6 +55,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "7a429a5df50861f2de55ae88af2c523a7433601508a0330b9941ecc549973bc0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3df5dd9937ab0a08e5af2019c74c543334d8deb46abc2e805283341af0825a0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如线程 A：",
+      "translatedText": "For example, thread A:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "7a4573cb7dede5e1b751ec63d3edaca5f5cf9e43b9a9124e4ffad973fbc41b3c": {
@@ -99,6 +127,20 @@
         "costUsd": 0.000073
       }
     },
+    "7a78cd3bae9dcee37fccaf7d71d6e67c3ffa3b64aabc4a3a8a79a1046679083b": {
+      "normalizationVersion": 1,
+      "sourceHash": "87a53f9f2149ffaec1bad4a676980f1960cb1c3a44753a6cf51471bb8f9418c5",
+      "contextFingerprint": "4930af022e6dabf6b5dd288de0ffcc30f52cba389d6c0d5ccc89d52809f759bf",
+      "sourceText": "| 方面 | const | constexpr |\n|:---|:---|:---|\n| 含义 | 变量不可修改 | 变量或函数可在编译期求值 |\n| 初始化 | 可在运行时初始化 | 必须在编译期初始化 |\n| 函数 | 只能修饰成员函数 | 函数可在编译期执行 |\n| 用途 | 防止变量被修改 | 编译期计算，提高效率 |\n| 示例 | `const int x = get_value();` | `constexpr int x = 5 * 3;` |",
+      "translatedText": "| Aspect | const | constexpr |\n|:---|:---|:---|\n| Meaning | Variable cannot be modified | Variable or function can be evaluated at compile time |\n| Initialization | Can be initialized at runtime | Must be initialized at compile time |\n| Function | Can only modify member functions | Function can be executed at compile time |\n| Purpose | Prevent variables from being modified | Compile\\-time computation, improve efficiency |\n| Example | `const int x = get_value();` | `constexpr int x = 5 * 3;` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 82,
+        "costUsd": 0.000156
+      }
+    },
     "7a99fcce1b08aa99c4285236cfcf4f5dbf50204d39068862489ea1d162aaf209": {
       "normalizationVersion": 1,
       "sourceHash": "daa60a7ccffcb8f0562f58765418b5c89e4860a02863a03e0d2f1633beeeb09f",
@@ -139,6 +181,48 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "7abb9ffaba67a2a1ab42f7f9effac5bbd93e804c3bba2c7bc2bc7192db63d7d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "cff5e6ed96bd56340ce6978f727a06af6820cd19000d4d0dee69e6237c2d8a86",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "结构化绑定（Structured Bindings）是 C++17 引入的语法，允许你将一个结构体、pair、tuple 或数组的元素\"绑定\"到独立的变量名上。",
+      "translatedText": "Structured Bindings are a syntax introduced in C++17 that allow you to \"bind\" the elements of a struct, pair, tuple, or array to independent variable names\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 50,
+        "costUsd": 0.000113
+      }
+    },
+    "7abe3039ea83b1e2fb212e53410195b2dc646e98197f27a4173a6a3ac305aac8": {
+      "normalizationVersion": 1,
+      "sourceHash": "23956bde09f5ac76b2b3084145c04a5ca149b53f7a4af5c463a3bf73a8a413d7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "案例描述:  实现一个通用的数组类，要求如下：",
+      "translatedText": "Case description: Implement a generic array class with the following requirements:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "7ac152d7052b9838a06c79430ddff95dbc7fec821a6f3fd0379d841ce5012003": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3fb1f8f27ffd607047783d73f3c0550a394b9e37ddba51c31f3cff485f72b74",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此输出结果是：",
+      "translatedText": "Therefore, the output result is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "7ae597177875cc3ae8755332e808237595b1d5c5ab3951accf6631c03c5a4be2": {

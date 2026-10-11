@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "751b890d1fd658c752caf21244ae94ff33bc6c7d95c101b71746ca53be884d88": {
+      "normalizationVersion": 1,
+      "sourceHash": "c00a1cf3af6597ced8722357187c595a4f7c9392358158c4d377c8af42ec3854",
+      "contextFingerprint": "af04c42e7bb4d5a902635e1ae2120d4ba36611d9ea7cdb77d33ba2e8e7e4b6bc",
+      "sourceText": "1. `std::copy` 到底复制了什么；\n2. `std::move` 到底做了什么；\n3. 为什么 `Buffer b = a;` 和 `Buffer b(a);` 都会调用拷贝构造函数。",
+      "translatedText": "1. `std::copy` What exactly was copied;\n2. `std::move` What exactly was done;\n3. Why do both `Buffer b = a;` and `Buffer b(a);` invoke the copy constructor?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 29,
+        "costUsd": 0.000081
+      }
+    },
+    "7528889b510d602259659d05f5095b05449ace35bf0de756274eb19e37971f9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "01c197588533c7c449f750d8ef572dd41e868d189510f28bf007c4798ea5786a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常处理主要使用三个关键字：",
+      "translatedText": "Exception handling mainly uses three keywords:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "752f9002b607807d1aecc25235d485279770fedd8193792cf7f4a7137a7f6153": {
       "normalizationVersion": 1,
       "sourceHash": "afff0edb9af28b5c40c1ffa6661cf74cf0df35dda9838e369459277401bd3dc7",
@@ -57,6 +85,34 @@
         "costUsd": 0.000069
       }
     },
+    "7551b70248a2833693fec3eb966fe9a3bfaffda31ae10afa594a64b578c522ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "37bc6f27676ed412d29dd616d1a39617c77edb697f4e8f5970afc3e5552cd33d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "STL中最常用的容器为Vector，可以理解为数组，下面我们将学习如何向这个容器中插入数据、并遍历这个容器",
+      "translatedText": "The most commonly used container in STL is Vector, which can be understood as an array\\. Below, we will learn how to insert data into this container and traverse this container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 42,
+        "costUsd": 0.000098
+      }
+    },
+    "756bee2183c900fffb8ddff1acc397a63be64b3172985fec7a3709821895de91": {
+      "normalizationVersion": 1,
+      "sourceHash": "0da30ffb1c6ca7d5c1f2b6e2f7bab032a26b05a1f22c74f20e61ce79b3dc766d",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 对map容器进行构造和赋值操作",
+      "translatedText": "* Construct and assign values to the map container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "7571316dac326d0e7c69408d139eed25a6f977781787c7154c6685b11bdda2b4": {
       "normalizationVersion": 1,
       "sourceHash": "67f8cbf9b54981ad7d68af139ec45fe4fa0396f1abf2cf8238c13c3efde848fe",
@@ -97,6 +153,62 @@
         "inputTokens": 142,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "75b2bae0007a7962180562d2a9755eab1487f33afc9048f63059f16bc4b24055": {
+      "normalizationVersion": 1,
+      "sourceHash": "375f4be1237b87f2eb10de88e7f29afac8b9d29cc314348fbf1faf44d99e8ae4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### stack 常用接口",
+      "translatedText": "#### Common stack interfaces",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "75c306d9ae4946b92f6d67aec99384651a0894a5305d653631ceb3f4e298d0a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d06915f0cda8ffa1af9d90427878f5ec8b135b976824e9a796343ca39c3c6f7e",
+      "contextFingerprint": "7cfe448fb3101cf3692d51e26dbc3d495172ec0231b6f3bd7bf162c6f7210fb9",
+      "sourceText": "* 文件打开失败\n* 串口打开失败\n* 参数不合法\n* 数组越界\n* 内存申请失败\n* 配置文件格式错误",
+      "translatedText": "* File open failed\n* Failed to open serial port\n* Invalid parameter\n* Array index out of bounds\n* Memory allocation failed\n* Configuration file format error",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
+    "75d7ec641b4dfd7d1266782a80fb657059fb41931f53645302016fe1f1368d25": {
+      "normalizationVersion": 1,
+      "sourceHash": "936d061fc88ec5d1b7f7fc6b246e0b36e2c736b1d3692699cc94495976cf2544",
+      "contextFingerprint": "09b0b43f2f19ea57c819dd3e2deb12b0e4fd9cb10447ee116fd85c04747b103d",
+      "sourceText": "需要注意，`this` 本质上是一个指针。绑定后的回调如果活得比当前对象更久，对象销毁后再调用回调，就可能访问已经失效的 `this`，因此异步回调中仍然要注意对象生命周期。",
+      "translatedText": "Note that `this` is essentially a pointer\\. If the bound callback outlives the current object, calling the callback after the object is destroyed may access an already invalid `this`; therefore, object lifetime must still be considered in asynchronous callbacks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 53,
+        "costUsd": 0.000115
+      }
+    },
+    "75dbebf64057adf3c905594498a057b4410bb0e347d25d16f0606126ebdc6cf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "90c5636e1f19509dcdc2b2efc46725d0e0c7ff50e366753a52b7573faac976bc",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- map容器默认排序规则为 按照key值进行 从小到大排序，掌握如何改变排序规则",
+      "translatedText": "- The default sorting rule for map containers is to sort by key value from smallest to largest\\. Master how to change the sorting rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
       }
     }
   }

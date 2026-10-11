@@ -15,6 +15,90 @@
         "costUsd": 0.00007
       }
     },
+    "9014488f856ce69d0c8591aa8d965edbf354845ce66754c02af9baab442ea484": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9d71d9f1be059503b06477bb2ea83a7d223d62b4aff1ab2d87ed27a29dffa91",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以概括成一句话：",
+      "translatedText": "It can be summarized in one sentence:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "901c474d0ce4771b404de1cdc9d43aa69e31a68a42f5ebe6029d6bf0b8af357d": {
+      "normalizationVersion": 1,
+      "sourceHash": "be8ff0b5bcdd525b8535120110ffdd50fc7a5a97dcd68f85d39d364441ad8814",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但要特别注意：",
+      "translatedText": "But pay special attention to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "905854cefc7127fd93baf29fbc66a51422de3f4e4ab0aed5f3ab09327839e9a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ba9b19f2f2aaf20abcaf71be117ef99caa155a05d4a604b4661d5788da251aa",
+      "contextFingerprint": "24012d9e63733b6c0a1654acc888ebe017b5584affbe80a431d6de90e205661d",
+      "sourceText": "`auto` 会让编译器根据右侧表达式推导变量类型。下面的 `decimal_square` 实际类型仍然是 `double (*)(double)`。",
+      "translatedText": "`auto` lets the compiler deduce the variable type from the expression on the right\\. The following `decimal_square` the actual type is still `double (*)(double)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "90642073b4588be8ded69f8b8baabe821edaaecd972e80ecdb4a80ee2dc28739": {
+      "normalizationVersion": 1,
+      "sourceHash": "f74ff6abb6f91f2c9d01b428bd350c1cb3250c06ae93ae3db1771efc1d56f270",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每轮循环：",
+      "translatedText": "Each cycle:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "9089103dee347d782dc7a855435862871664342afb34ec142bf8c2de191a7111": {
+      "normalizationVersion": 1,
+      "sourceHash": "206cdd2b661a1fe41422a24a32c84576ae17a3b79f0253944ccf6ed4efdcb977",
+      "contextFingerprint": "598e7fc355b7d0acf26e863f3640db8045c2711233dddcafea0ce26416d7e207",
+      "sourceText": "* 尾插   --- push_back\n* 尾删   --- pop_back\n* 头插   --- push_front\n* 头删   --- pop_front\n* 插入   --- insert\n* 删除   --- erase\n* 移除   --- remove\n* 清空   --- clear",
+      "translatedText": "* tail insertion   \\-\\-\\- push_back\n* tail deletion   \\-\\-\\- pop_back\n* head insertion   \\-\\-\\- push_front\n* head deletion   \\-\\-\\- pop_front\n* insert   \\-\\-\\- insert\n* delete   \\-\\-\\- erase\n* remove   \\-\\-\\- remove\n* clear   \\-\\-\\- clear",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 209,
+        "outputTokens": 86,
+        "costUsd": 0.000166
+      }
+    },
+    "90a4609fa73aed5bb933fe3f40ade9e2a1d1e0ade224ac9db5b251cd41655da7": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5f4d11b8fd725c89db5f0228a71b61e7361c0c1ec961ab5574b145e5454abba",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "需要同时管理多把锁：",
+      "translatedText": "Need to manage multiple locks simultaneously:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "90a8048be763478ddb9ae5d15b8e6301534508037829029959776535c7181bdb": {
       "normalizationVersion": 1,
       "sourceHash": "87d61133ecdc0152f73072ec36da768e82042e2df7965587ad5bbb521fc03cf4",
@@ -27,6 +111,48 @@
         "inputTokens": 173,
         "outputTokens": 72,
         "costUsd": 0.000139
+      }
+    },
+    "90a942dccd6cdf195c4510813b0de80c333544b4bb68e2dceb366f1507ec7400": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef4eb40017764bda2c59296bf1bc782d6e5b27e375f48ec0bd3495c73b5830e4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：逻辑仿函数实际应用较少，了解即可",
+      "translatedText": "Summary: Logical functors are rarely used in practice; just understand them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "90b71846d331bf0feea74f6603fbba3fbb8104c3424252b6b0b443a9a0e89795": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcb960c92af8166220dcf2b838c5bcf99bbf37a94900e249124e74fc3d54a87e",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 模板不可以直接使用，它只是一个框架\n* 模板的通用并不是万能的",
+      "translatedText": "* A template cannot be used directly; it is only a framework\\.\n* The generality of a template is not omnipotent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 30,
+        "costUsd": 0.00008
+      }
+    },
+    "90b91c65df241c2b2ededc6c1fb72ba8b101685649198fabc1f5d693fd66d657": {
+      "normalizationVersion": 1,
+      "sourceHash": "20af11ccf1b705f544826d03eb8493070e2256b8c922f214506c353cad80e191",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最后才：",
+      "translatedText": "Finally:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "90bc035060fe44fc2a3d5fb4f199b5a38492d1fde60f571a01830b940d8c91b5": {
@@ -43,6 +169,34 @@
         "costUsd": 0.000154
       }
     },
+    "90d4ba1bd93b6cfe769d1ff3b7096227cc7a95042f8614892fe9a4c9e160c132": {
+      "normalizationVersion": 1,
+      "sourceHash": "e663cd80a9e89998ac0d3693ead645b898135e11c4ab4e6a6b61d90b7c45bfb1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "调用成员函数时，除了成员函数指针，还必须告诉线程“在哪个对象上调用”。",
+      "translatedText": "When calling a member function, besides the member function pointer, you must also tell the thread \"on which object to call it\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "90debdeec6f6a6d6831def524a6aedc7a8a2f41dc5a1337bafa17093f7be2f2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6260bc6e4ef83cad34d56912cd7294b10d2e51f4508c1c8a99015cc27edbafd9",
+      "contextFingerprint": "af615b2a6b8ce1e69bf60af7bbb48310b2487827b05936bbea1598716520cc79",
+      "sourceText": "* `reverse();`   //反转链表\n* `sort();`        //链表排序",
+      "translatedText": "* `reverse();`   // Reverse linked list\n* `sort();`       // Sort linked list",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "90e8c540291aa8e75cc81b8d2af0d0f2e5405f45ca2a2e2f63442b9a092ce74e": {
       "normalizationVersion": 1,
       "sourceHash": "a01c40b4efd30c8ba18f4dae53acc719b49c2b81afba72e0f46da9bab47c6a52",
@@ -55,6 +209,20 @@
         "inputTokens": 142,
         "outputTokens": 24,
         "costUsd": 0.000072
+      }
+    },
+    "90e9528f4b7dd0e3529a4b2bf52ccc379ad6a1308353b89060a85d79213cf02a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ab3516637c1a91242da9f0060029edc503e0e627ed51a4b8d9fbb3a4aeda5f1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 普通指针的问题",
+      "translatedText": "#### The problem with ordinary pointers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
       }
     },
     "90f384b84d811d1734acd2eccb506be0019f44a1d97b3177f0a5ab13ca90c32d": {

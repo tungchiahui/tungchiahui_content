@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "7f003f4c578d14ca1ea103d446cc18ef19d1c40d5de7fce7219a2fb9e522ee69": {
+      "normalizationVersion": 1,
+      "sourceHash": "327de22db81e6ed01e08937bdbf13c2875ebc58ee1a451f316fba0dac89420ea",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 2：在示例 1 基础上，nullptr 解决重载歧义",
+      "translatedText": "### Example 2: Building on Example 1, nullptr resolves overload ambiguity",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 21,
+        "costUsd": 0.00007
+      }
+    },
     "7f168fc08d87f6d2639b55bbaadb26175a10277f1efedd228c79d4cf654f5518": {
       "normalizationVersion": 1,
       "sourceHash": "8fd9b51546ff0c77058dcdf124d9b24944ef3fad30c887f7532178ea3366f9f8",
@@ -29,6 +43,34 @@
         "costUsd": 0.000245
       }
     },
+    "7f4edc53dbd0668bbdaf9b395acd37830bea9cc6dadbd7e77d1c3352ea54f19c": {
+      "normalizationVersion": 1,
+      "sourceHash": "7d2c11cff7f8d2fcb8cf52ef15e38f98bfe9a3a8bf039c0d60ce1d3cb49d5c88",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector赋值操作",
+      "translatedText": "#### vector assignment operation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7f598af0fd3cb3debc744bff368e9f0ba11015df230c0e8308074f97d4bdd3cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "0272a600f82d947dd71bc21918799cc41478487c3067ca10736795e205a6ace4",
+      "contextFingerprint": "496e5ff2f35e163458cdf12eabc06d43cd48111c59cccf8c54207349e5a60352",
+      "sourceText": "下面的 `scale` 是非静态成员函数，会访问当前对象的 `factor_`，因此调用时必须指定一个 `Multiplier` 对象。",
+      "translatedText": "The following `scale` is a non\\-static member function that accesses the current object's `factor_`; therefore, a `Multiplier` object must be specified when calling it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
     "7f5c1f84a046d0aa7cf0c4288880f787994cf4e02dae508ed1b6203b81e3a1b9": {
       "normalizationVersion": 1,
       "sourceHash": "090c62316b2aa6b567889beb65c54a60138532f248bdb8c61065a2d5dfa4cd69",
@@ -41,6 +83,20 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "7f641e69e48ebf863d9dd9647c921d3a66d57d96086b5ede7d1f75190094ed23": {
+      "normalizationVersion": 1,
+      "sourceHash": "88363b3bf347e39fa7ab55f81c4cabb261585105e09029495db9d897cb55a01d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### STL六大组件",
+      "translatedText": "### Six Major Components of STL",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "7f7450796d95f145163198ad6d88be391cf5508a34f2fadd525a201d7c1005bb": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000057
       }
     },
+    "7fa36134c7bce3ff7105b573149e4291ba78fed5a9b7b40c163b1671fc32662c": {
+      "normalizationVersion": 1,
+      "sourceHash": "21420876e6b9fc54e7c8682e514ea2229544971376067ba5cfc455bc4b52b9fe",
+      "contextFingerprint": "09b0ed963392b1c43a4f48e020e037aab63e673f2182c9ccbfd22380f14d940e",
+      "sourceText": "`mutex`可以制造一大段的临界区，而`atomic`不能，所以这种要好几行临界的就用`mutex`。",
+      "translatedText": "`mutex`A large critical section can be created, while`atomic`cannot, so for this kind that requires several lines of critical section, use`mutex`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "7fb9704b6229a2327ea4a22dd1f601a61ce57ccaa52c948f3777931f7c8d0b9a": {
       "normalizationVersion": 1,
       "sourceHash": "e8d0cf3fab28022507cf1ab36902309beeda0706e9f7c767d3b7136134990876",
@@ -111,6 +181,48 @@
         "inputTokens": 140,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "7fc7e4ddd5774eb5758993af5eb0c4185d567533db174a61006a2fecb5eebd49": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac622a332f0eccee5f7a54505ddf673efc39c3d3832d988488cddfaf57dd85c3",
+      "contextFingerprint": "1ec000e3b7440162dacf1e5fa43ed5cc040abe8c46b922db011fa3b248d27111",
+      "sourceText": "`std::find_if` 会按照当前顺序依次调用 Lambda：",
+      "translatedText": "`std::find_if` Lambda will be called sequentially in the current order:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "7fcf3e37c17b686766c75ce098e2f0612d7b67dddc037f3dba868f51c75cd292": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9b777d0b65cb1a2af3036c71d77e3bdadff4f7b9509bc3f5d0eab4a8dbeb056",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 类和对象",
+      "translatedText": "## Classes and objects",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7fd07c8a50ea6e154d51f5436a89314f82f6c43e672d1756e473a98b0d306082": {
+      "normalizationVersion": 1,
+      "sourceHash": "37e492fdd456a9cc4f74c7b9b19621084966d908007e3326fd14ac48c61f0eae",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 隐式转换和显式转换",
+      "translatedText": "## implicit conversion and explicit conversion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "7fd668e1e4b774a4fcd22c1a13508ccabf9eadb4e875e3b2bd27f0ff9ccadc16": {

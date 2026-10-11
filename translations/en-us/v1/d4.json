@@ -29,6 +29,34 @@
         "costUsd": 0.000055
       }
     },
+    "d40ac453a9c8a62aef4c08c1d87aa33d1eb6364bf75266af50e653ae7d29512c": {
+      "normalizationVersion": 1,
+      "sourceHash": "9dfe96d4ee3823fc7632af364c6830088c6201d7c93fec81c4354cd188f713da",
+      "contextFingerprint": "8233c99c33e3617e8a7470e4a0c33b93ede7ea40ca0262d591aa9d846300855f",
+      "sourceText": "这个例子里，`value` 本身是一个普通的 `int` 变量，并不是 `const int`。",
+      "translatedText": "In this example,`value` itself is an ordinary `int` variable, not `const int`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "d443fc7eeb6c2884725d9b9eaf5fcd000403e6dea9c8e732294d6261d7d8a0a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "08adc93689c9003da79fd481ab0d3171419d9f43eb5773fb6240e28d5dcd44c9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "功能描述：栈容器常用的对外接口",
+      "translatedText": "Function description: common external interfaces of the stack container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "d449fda98383bc1b09be80d66f02df6c2459a39c6ed3e989869d82119a590fef": {
       "normalizationVersion": 1,
       "sourceHash": "7444a530f21c3ddc51cadeed89fad521a10f96ed3a88f17c5d270193405564a9",
@@ -41,6 +69,20 @@
         "inputTokens": 180,
         "outputTokens": 71,
         "costUsd": 0.00014
+      }
+    },
+    "d44bb554e3ab567db5763f62bdba5a74f6c5bca2d7220ad5411373fed4d70c58": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6cc8c939cc5117e6ad69cd1d869f904acecb3aa26b38010f8932e69ac0f2766",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**deque与vector区别：**",
+      "translatedText": "**Differences between deque and vector:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "d469b774f7a63da477edb521d96c6ac5c20b2bd5cdc8ed887f7dabdb718c5995": {
@@ -57,6 +99,20 @@
         "costUsd": 0.000086
       }
     },
+    "d46cf1654771f6d0ceb79848df2ead124986b0e632e774a5705c64f19823ca88": {
+      "normalizationVersion": 1,
+      "sourceHash": "890e0949b4e3da17df6421cd11b157e9a19d669ca5c569ac47b12df45767ef53",
+      "contextFingerprint": "fd4e79acd9459f3b29fdd92889a70e3a53419da09557a0d30ffedce20609407c",
+      "sourceText": "1. **测量耗时用 `steady_clock`**：单调递增，不受系统时间调整影响。\n2. **显示时间用 `system_clock`**：可以转为日历时间。\n3. **用字面量 `1s`、`100ms` 而不是直接写数字**：可读性更好。\n4. **`duration_cast` 是截断，不是四舍五入**：精度会丢失，注意使用场景。\n5. **C++20 增加了日历和时区支持**：`std::chrono::year_month_day` 等，更强大。\n6. **超时判断也用 `steady_clock`**：和测耗时一样，不受系统时间调整影响。",
+      "translatedText": "1. **For measuring elapsed time use `steady_clock`**: monotonically increasing, unaffected by system time adjustments\\.\n2. **For displaying time use `system_clock`**: can be converted to calendar time\\.\n3. **Use literals `1s` and `100ms` rather than writing numbers directly**：better readability\\.\n4. **`duration_cast` is truncation, not rounding**：precision is lost, pay attention to the use case\\.\n5. **C++20 added calendar and time zone support**：`std::chrono::year_month_day` etc\\., more powerful\\.\n6. **Timeout determination also uses `steady_clock`**: like measuring elapsed time, unaffected by system time adjustments\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 241,
+        "outputTokens": 118,
+        "costUsd": 0.000214
+      }
+    },
     "d4936e6bb952adce9472ce78b14132fd5b1ebbeb1b5151d1dbaceb53d4ee7266": {
       "normalizationVersion": 1,
       "sourceHash": "3481936eeb4c96d72e5aeb098d4c3dba32752ee5337f89055c8f1a0586994aaf",
@@ -69,6 +125,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "d49388660a52db57de3a9c95b66aaeac6e30a0f2aec93808a1aeffebe188ae18": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b5cd8a59748c172ef6397040cd3ea2f7512ede28ff1b7c46ad84988585e3359",
+      "contextFingerprint": "c7bd3af65ef240f15d4cd0e8b3a9d4d59e258ef9cce79cddf86e766a1b509811",
+      "sourceText": "`GreaterThan{3}` 可以像函数一样被调用，因为结构体定义了：",
+      "translatedText": "`GreaterThan{3}`Can be called like a function because the struct defines:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 18,
+        "costUsd": 0.000065
       }
     },
     "d49d3f978b26c8a0cf41fa0c43ec116dbf20bf7a2bbb5a2f2b3fbe06d5fb00bc": {
@@ -99,6 +169,20 @@
         "costUsd": 0.000133
       }
     },
+    "d4a614a2e07484b889bc52d783e896d7c798b0ba4a2ed58a44a302bdcfd0dbcd": {
+      "normalizationVersion": 1,
+      "sourceHash": "2584dd1d200f3ab58153376388677534ccead2819b9c33a28b5be674df9baf9b",
+      "contextFingerprint": "ad01b566c022607cb616c3fba09532c5c9bcbe36962a73f443f76a596d4f731b",
+      "sourceText": "正确做法：先明确类型：`int* p = nullptr; f(p);`",
+      "translatedText": "Correct approach: first clarify the type:`int* p = nullptr; f(p);`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "d4b0a00cba1a3612b25d52545d0a53d906b0c196e68532dbd9de0b5d588e05b9": {
       "normalizationVersion": 1,
       "sourceHash": "e562eefa6f5b87fb77b588f24fd686f75d036b1622b3e29b13471657c95cb811",
@@ -111,6 +195,62 @@
         "inputTokens": 221,
         "outputTokens": 114,
         "costUsd": 0.000204
+      }
+    },
+    "d4d2b5cddf876e70bba6472603ace5b0649466239b655ef15cf31dc2df853baf": {
+      "normalizationVersion": 1,
+      "sourceHash": "d449efa5e20a3180661edf6f03fa9a170377dc9e0038a69c859d8ff1fa54d9b7",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**推荐做法：**",
+      "translatedText": "**Recommended practice:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "d4d93aca459265f2abdf1b885e9ee9d7d4e4122eb0ab98f2301edac7cf7bb002": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9032c51701c10b1375f6cf8ac22482f5035ef358823b23a4ee951ebb5e38ace",
+      "contextFingerprint": "ec81a443c471397aeb2702656e29b608b484693e36d60f3f1c903b0416dfa882",
+      "sourceText": "- `swap(container c1, container c2);  `\n\n  // 互换两个容器的元素\n\n  // c1容器1\n\n  // c2容器2\n\n  ​",
+      "translatedText": "- `swap(container c1, container c2);  `\n\n  // Swap the elements of two containers\n\n  // c1 container 1\n\n  // c2 container 2\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "d4de8fda6fb9e2f47da016c1770b6678a122ffe5128bf3f67986f9e3cf0e9fbf": {
+      "normalizationVersion": 1,
+      "sourceHash": "74dc0445e0f5e691c4d848e7f5041a23856c98f63e6014e0a1fcf69c79372929",
+      "contextFingerprint": "82b5048ec6da50c473e9c2a03dda217cffed2b72687c8cf0c855440699f5e7a7",
+      "sourceText": "![1547606785041](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547606785041-306b64449c.webp)",
+      "translatedText": "![1547606785041](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/stage5-1547606785041-306b64449c.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d4e0a1c3d10f68c94f7b86e8c8bb069fcb54a5b8c572f8063412a3e69ed195a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d9c6488a2a38ee1833e8244a10470b9a3fecac840458ff224bf22c5ca80adca",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "对于经常发生、可以恢复的小错误，可以用返回值。",
+      "translatedText": "For frequent, recoverable minor errors, return values can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     },
     "d4fb35cdfa31e7406a52681f73b6bc715db1c351672139fc989561be1c4f706f": {

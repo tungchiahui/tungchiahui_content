@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e805b62d3fc1be556e18bad341901e9253c7e5efc2c59f6002dd96ee2742fba6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e451ca35255b1d0b8a8c1da21438ca66284192389703de027ba56c3ac315415a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这并不意味着：",
+      "translatedText": "This does not mean:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "e811793035645ca269968ada569f550ece9d4ad77bdce37f315abfdb5066e395": {
       "normalizationVersion": 1,
       "sourceHash": "0561e901e7de80a33c479a49d1ba3e762b3d554ca12c1d0705e013e3e58d3b3c",
@@ -27,6 +41,34 @@
         "inputTokens": 192,
         "outputTokens": 79,
         "costUsd": 0.000153
+      }
+    },
+    "e82bdb4b714e2f6f0d1553a99f36363789e9f826d575f1f49a90fd9d0bbc5539": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f282619ab917cf487c49d07713fb4c9bcaed48ab7ae1aa46ce5ca24448d7798",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**运行结果（程序最后以状态码 1 结束）：**",
+      "translatedText": "**Run result (the program exits with status code 1 at the end):**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "e82e0cfef64e00b69aefdb22b48ae1f231f8dcc2620d0ae41b3a4c29ccb0828d": {
+      "normalizationVersion": 1,
+      "sourceHash": "59f0372f3bf13b8bd2d5074cea875ac01b30d3da8df6575391469aea2856cacb",
+      "contextFingerprint": "31b892756b0692bcce18b5b0e2b3862a919f90935640b95ff915d5fe0a4016e2",
+      "sourceText": "普通函数指针不能保存有捕获的 Lambda，`std::function` 可以。但 `std::function` 使用类型擦除实现统一包装，存在额外的间接调用开销，某些情况下还可能发生动态内存分配。因此，不应在所有场景中无条件用它替代函数指针。",
+      "translatedText": "An ordinary function pointer cannot store a lambda with captures,`std::function` It can\\. However, `std::function` uses type erasure to implement a unified wrapper, which incurs additional indirect call overhead and may also involve dynamic memory allocation in some cases\\. Therefore, it should not be used unconditionally to replace function pointers in all scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 69,
+        "costUsd": 0.000137
       }
     },
     "e836f3d447385787a3fd0d4a20beb1f9f7b44f6e181e10541f6c3a2b289e1e66": {
@@ -57,6 +99,48 @@
         "costUsd": 0.000068
       }
     },
+    "e854b666ec0e963a217f152470afd51ed1cb6163a1ad732f4f5e1ab0abc61625": {
+      "normalizationVersion": 1,
+      "sourceHash": "bdcd706c4e59c072a99147cba02e7d7d7b0e2345e60e9e225fc99d8d3a597a92",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> mutex 不是把某个变量锁住，而是让所有遵守同一套加锁规则的线程无法同时进入某段代码。",
+      "translatedText": "> A mutex does not lock a particular variable; rather, it prevents all threads that follow the same locking rules from entering a certain section of code at the same time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "e8578dce3f5b1c21f1fb70c57a2a76e6534068ddfa8d73bca5cc99e399fc2039": {
+      "normalizationVersion": 1,
+      "sourceHash": "c67a7319e618db8be1d879d47cf272423535b68171d00e1c25b6905f1c445e28",
+      "contextFingerprint": "df7446f278c51b490332bfdd1afab59e3617aa315bd183a35806bd5a1f97db54",
+      "sourceText": "> 死锁（Deadlock），当然不是V社开发的那个游戏[死锁](https://store.steampowered.com/app/1422450/Deadlock/)。",
+      "translatedText": "> Deadlock, of course, is not the game developed by Valve[deadlock](https://store.steampowered.com/app/1422450/Deadlock/)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "e85ea79feb60e8662f0586114f80402d38f20d079c1ef198d65b9b5f3d1e9709": {
+      "normalizationVersion": 1,
+      "sourceHash": "03b4d8d6d35082f5f24d2c6869db9693969385516a37051264d57740a156f0a5",
+      "contextFingerprint": "26b3cb555561850022e22f69139db5d0fbe76ec792e8020e3aa227a2d6272ad5",
+      "sourceText": "`std::mutex` 定义在：",
+      "translatedText": "`std::mutex` Defined in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "e86d9a8746b621ad99b5d0153273a6ae4a997fd6a971003fa5e125c73aa5e84c": {
       "normalizationVersion": 1,
       "sourceHash": "7f6a301415e9b98be3a53e05ef5d20e4687c89d509ad7aa7715ceba496a7e5d7",
@@ -71,6 +155,20 @@
         "costUsd": 0.000093
       }
     },
+    "e872347a8a1a40216ccc097a609b8de040f4e4cf4ee8c0463435d35580903bbe": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a4ae3a995d3f85df6aa78bf4249135c8268581ca4d5aab03f0717644ef720f5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：重复 join",
+      "translatedText": "### Error: duplicate join",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "e883f6a28be6d8f5bf0e6e85b48579842ed315a11a088c8323fcea91030b3296": {
       "normalizationVersion": 1,
       "sourceHash": "042ca5cbe510df0c9ea65294dde771cda9d20f1427d720b22d501d1c208cb21f",
@@ -83,6 +181,20 @@
         "inputTokens": 150,
         "outputTokens": 30,
         "costUsd": 0.000081
+      }
+    },
+    "e889671ff7effb5790030a5fa7a257f762f6e6a084c8d8ff029744f37f1a5e5a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b0acb7565f7e36b07c8146d49d400cdea61432309f2f749dfbbbf4bf54b1c6f0",
+      "contextFingerprint": "2405b88862d554b7a1bc88bcfc949758f149191ca4a2d2e8d3c0bba4ec938cee",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 创建 array 和基本访问 | `std::array<T, N>`、`size()` | array 大小是编译期常量，`size()` 返回固定值 | 大小必须是编译期常量，不能传变量 |\n| 示例 2 | at() 安全访问和 fill() 填充 | `at()`、`fill()` | `at()` 越界会抛异常；`fill()` 方便批量赋值 | `fill()` 对所有元素赋相同值 |\n| 示例 3 | 对比 C 数组和 array 传参 | `data()`、`const std::array<int,5>&` | array 传参时大小信息不丢失 | array 大小是类型的一部分，不同大小是不同的类型 |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Creating an array and basic access | `std::array<T, N>`、`size()` | The array size is a compile\\-time constant,`size()` returns a fixed value | The size must be a compile\\-time constant; you cannot pass a variable |\n| Example 2 | Safe access with at() and filling with fill() | `at()`、`fill()` | `at()`An out\\-of\\-bounds access throws an exception;`fill()` convenient for batch assignment | `fill()`Assigns the same value to all elements |\n| Example 3 | Comparing C arrays and array parameter passing | `data()`、`const std::array<int,5>&` | When an array is passed as a parameter, size information is not lost | The array size is part of the type; different sizes are different types |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 255,
+        "outputTokens": 155,
+        "costUsd": 0.000263
       }
     },
     "e89db36f6b7bebd7e9996474e8f2ec3e1219f87971b08a0be181ac387b902833": {
@@ -153,6 +265,20 @@
         "inputTokens": 165,
         "outputTokens": 44,
         "costUsd": 0.000103
+      }
+    },
+    "e8d6663b8ff5b6f9faf3404fae635afb2d203a50943c97c53e6ad897cf887889": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9f1ce6fb4601a9f2f28f897fc9f6910b9c972052411b61ac59af5ef67e31a7f",
+      "contextFingerprint": "946aa1b95b4a833554aa655d23397a88b1921f3376b80b4b1b113e2549e06fcd",
+      "sourceText": "例如 `std::sort` 自己知道排序算法应该怎样移动和比较元素，但是它不知道你希望按照数值大小、字符串长度还是其他规则排序。",
+      "translatedText": "For example, `std::sort` it knows how a sorting algorithm should move and compare elements, but it does not know whether you want to sort by numeric value, string length, or some other rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 44,
+        "costUsd": 0.000101
       }
     },
     "e8d800e87b6ab7fcd4fb3b99866a8eda850b28da11f7ce4294bca1346fb1eaf7": {

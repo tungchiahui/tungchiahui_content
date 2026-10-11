@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "030b5a942d097b8ec0e25a44f60c8999df80e71aebe028a932135a68558d0922": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d876e835bc5524b10218a17c8c9f47fcb9d9a25560c0cd35261736b9a8dd530",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可能有三个线程同时第一次进入：",
+      "translatedText": "There may be three threads entering simultaneously for the first time:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
     "03194126dd0a7b94af6f1689b289d04832fdcd3afcbff32e3f58ad95d2a86fd8": {
       "normalizationVersion": 1,
       "sourceHash": "4bd2922cd2f23e1af2f0db1f78b7ccc0f07be99c0fefa5885959d1b6d2030fe1",
@@ -13,6 +27,62 @@
         "inputTokens": 148,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "032b7068722eb86d3de83c53b303e92af0e1d74161094793f6dd63f9190fcf6d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e6857f660606400a47444ad94973d076ca2ac186abd2509bb36ca97a2f906514",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两种方式都可以创建对组，记住一种即可",
+      "translatedText": "Both methods can create a peer group; just remember one of them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
+    "03421c571fc91bbff1ac0f071f72c939ea39aeb60d119f193ae7d5651f983ef8": {
+      "normalizationVersion": 1,
+      "sourceHash": "d0cc6284bb04c059ba41f5ff9297f9ffad85076bb057586d17ded3f0a0d97019",
+      "contextFingerprint": "e13dbcab2b55c12ec8b242d226c5da0fa5decd1f3e64bb84d7b1cf78660fa685",
+      "sourceText": "`nullptr` 是真正的\"空指针类型\"，解决了这些类型安全问题。",
+      "translatedText": "`nullptr` is a true \"null pointer type\" that resolves these type safety issues\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "0342d8794e81faff42b1af6f470106ec01e0ea1cf2377343a2ec4273c56179ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "b50d31dc9f3f528606a5d90cd37503b4b52958ed99593b3a5755c424a3a34e1f",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 最多等待多长时间。",
+      "translatedText": "> Maximum waiting time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "035f46732659e1847bc3fd943db7bd1d05a43f170685ed718943f5bd92f7db02": {
+      "normalizationVersion": 1,
+      "sourceHash": "1418c3631bab741e1fe0311a1f3850aa5e1cc0469b73327051c236dc05849911",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程切换、同步、锁竞争、缓存失效都会带来额外开销。",
+      "translatedText": "Thread switching, synchronization, lock contention, and cache invalidation all introduce additional overhead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 24,
+        "costUsd": 0.000072
       }
     },
     "037a67d218b3480b4d24fd3f90263ce85a24f3755f452c87e3241d6cfaaa3dca": {
@@ -29,6 +99,20 @@
         "costUsd": 0.000071
       }
     },
+    "037d77ca8624c94d497c4d44f598bb40d3e854cdf81af94388f53dade4a10ae7": {
+      "normalizationVersion": 1,
+      "sourceHash": "44ebcbbff4005503239ca30e55c3ec93bc7683c500cd0c55aa9fb4c0ba9d2b26",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为返回的右值引用没有被用于构造、赋值或函数传参，移动构造函数也就不会被调用。",
+      "translatedText": "Because the returned rvalue reference is not used for construction, assignment, or function argument passing, the move constructor will not be called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "03937fc6274b740ec14d2d2d8c1ec7fc40d62138b9cfe6db4a513bb701e4c69d": {
       "normalizationVersion": 1,
       "sourceHash": "936604dbc8307a90dfb6807e3b535e1cc085f0f93f6fb817a91db27d4b8526a2",
@@ -43,6 +127,20 @@
         "costUsd": 0.000053
       }
     },
+    "039689414f7122d2f6844f73a716c86eefac49be7b7c9cdecac6ab646724ec2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5795e5b33442f1fa8645963f25acf0412a0ba5fd65d8cba806f7489602048da",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "在实际 C++ 工程中，不推荐随便抛出字符串，更多时候会使用标准库提供的异常类。",
+      "translatedText": "In actual C++ engineering, it is not recommended to throw strings arbitrarily; more often, exception classes provided by the standard library are used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
     "03a1afdc92570e38a1ca654e8c836807d3559edda983b5d0194eaf72f97882fa": {
       "normalizationVersion": 1,
       "sourceHash": "6a16c8a9c947f586b09fb6a9e635f4b447bec485d0afa3a934dec568dbbd19c6",
@@ -55,6 +153,20 @@
         "inputTokens": 132,
         "outputTokens": 16,
         "costUsd": 0.000059
+      }
+    },
+    "03c664179f6e87963e38de82040dd326469df7957c1eab8a81f14da367bf0455": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e132cb83bc3d736b48dd4886a3eba14f74279ae637255670287c5f0156681d2",
+      "contextFingerprint": "c869d931039369cfc518142a3ff04eae8c23814ad280f544eb36798f6bd04901",
+      "sourceText": "1. 忘记占位符来自 `std::placeholders`。\n2. 把 `_1`、`_2` 的顺序看反，导致实参顺序错误。\n3. 绑定成员函数时忘记绑定对象。\n4. 绑定对象指针后，对象先被销毁，回调还在使用。\n5. 以为 `bind` 默认按引用保存参数。默认是拷贝，需要引用时用 `std::ref`。",
+      "translatedText": "1. Forgot that the placeholder comes from `std::placeholders`\\.\n2. Reversed the order of `_1` and `_2` causing the argument order to be wrong\\.\n3. Forgot to bind the object when binding a member function\\.\n4. After binding an object pointer, the object is destroyed first while the callback is still using it\\.\n5. Assumed that `bind` stores arguments by reference by default\\. The default is copy; when a reference is needed, use `std::ref`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 91,
+        "costUsd": 0.000168
       }
     },
     "03f645e4943f20d93bdb072952c853880a8f6d559db33018d38fd8bafa8e8bb9": {

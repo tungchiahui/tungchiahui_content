@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0b09e7290daa6a4f5c5c97ea7fb024b1ba995beb38a0cb3e3c1b8fad32ce82f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd8b8f8e46fde714e1b41f8d6fdc08621eedc3b68efaa22f7fd63a60b4d918b1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常发生时，已经创建成功的局部对象会自动调用析构函数。",
+      "translatedText": "When an exception occurs, local objects that have already been successfully created will automatically have their destructors called\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
     "0b0bede01bf97461425322b4b3b40328a52ddf4e281c5dc9afe90813d647c7fe": {
       "normalizationVersion": 1,
       "sourceHash": "0d876b8c6bd2f04b36c76886c5c8ed9f99b4ac977c8536806e04dec7669dc968",
@@ -15,6 +29,76 @@
         "costUsd": 0.000051
       }
     },
+    "0b17e14d9eac21ad7407851b131825af374ea5f8c4fe4c87f31198838f7e1198": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab6e2756ece4e16724421d3fdfedf74bf1aaaaa507a3aa9e0dcf3d22a4926f25",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此：",
+      "translatedText": "Therefore:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0b1a430860e87c48a188413810d259d907346bbbfbd88b7bba295e0aafe53e11": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9f08e9f3660cfd350f7029afafbfaaf40c5189592905284e3d005e684b5712e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以一个程序可以：",
+      "translatedText": "So a program can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "0b1dd1d8378308e95d70a6db66742ef9d80d5415692ecef4d0950e2287e6e609": {
+      "normalizationVersion": 1,
+      "sourceHash": "b903fc6de594f62b3e332972064290dc05f619e2977b3589c4ccc985902bc0d1",
+      "contextFingerprint": "90077da3f3a37bbbcf67c7e9526d80983ade30c39b9af0ddf77b6982bed45676",
+      "sourceText": "`reinterpret_cast` 可以用来做一些比较“底层”的类型转换，比如把一个指针转换成整数形式的地址，再把这个整数地址转换回指针。",
+      "translatedText": "`reinterpret_cast`It can be used to perform some relatively \"low\\-level\" type conversions, such as converting a pointer to an integer\\-form address, and then converting that integer address back to a pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
+    "0b241479d1d563845d4221ff9f6e629b9e227546dda03f51e375a9f4d21b19f6": {
+      "normalizationVersion": 1,
+      "sourceHash": "154b904c10757ee39c52c9f40adb92dde31a196428850f12fb559fa25248bba9",
+      "contextFingerprint": "657f5ba97fda9a449f97100e53c2182ce5f73bebda930a939d3a55cd6b83a7b4",
+      "sourceText": "- `std::format(\"{} + {} = {}\", a, b, c)` 返回格式化字符串。\n- `std::print(\"...\")` / `std::println(\"...\")` 直接输出到 `stdout`。\n- `std::println(stderr, \"...\")` 可以输出到标准错误。\n- 类型安全 + 格式强大 + 性能高：结合了 printf 的速度和 cout 的安全性。\n- 格式控制：`{:.2f}` 小数位数、`{:>10}` 对齐、`{:#x}` 进制、`{:04d}` 补零。",
+      "translatedText": "- `std::format(\"{} + {} = {}\", a, b, c)` Return the formatted string\\.\n- `std::print(\"...\")` / `std::println(\"...\")` Directly output to `stdout`\\.\n- `std::println(stderr, \"...\")` Can output to standard error\\.\n- Type safety \\+ powerful formatting \\+ high performance: combines the speed of printf with the safety of cout\\.\n- Format control:`{:.2f}` decimal places,`{:>10}` alignment,`{:#x}` base,`{:04d}` zero padding\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 66,
+        "costUsd": 0.000138
+      }
+    },
+    "0b43b1ecd119cee3c338d4ceb28a3dd59f5c8ee7c47b6494480c879aa5f4abee": {
+      "normalizationVersion": 1,
+      "sourceHash": "95d9db997d054595ea386d4d38b7246de55b4b629d21756c8af2af1074a11785",
+      "contextFingerprint": "a352b509348e666069c7148811634136bc7c9ab8981b5eaa71ca40413cf5432d",
+      "sourceText": "- `random_shuffle(iterator beg, iterator end);  `\n\n  // 指定范围内的元素随机调整次序\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  ​",
+      "translatedText": "- `random_shuffle(iterator beg, iterator end);  `\n\n  // Randomly adjust the order of elements within the specified range\n\n  // beg Start iterator\n\n  // end End iterator\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
     "0b49669f885602cac1c906a60710d3932e2631dfb2b3cb99fbc835886536f324": {
       "normalizationVersion": 1,
       "sourceHash": "3f0c316ce1198a40b397c1701d30dbb656ffbcc7f856cee7f7a2011bff8d2399",
@@ -27,6 +111,20 @@
         "inputTokens": 135,
         "outputTokens": 9,
         "costUsd": 0.000052
+      }
+    },
+    "0b49be38afb876d5c76efd6a09b62d79915fdab1e07ad23023b58fc928c282b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ef7c216e519290c189ac37ab880139bddfa008c814d215c1393d928614d7f09",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "统一锁顺序可以避免很多典型死锁。",
+      "translatedText": "A unified lock ordering can avoid many typical deadlocks\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "0b4b482b0d66b410684fc7b7dafce9720e476b26dd720b107c8fcfd8b39109c8": {
@@ -57,6 +155,20 @@
         "costUsd": 0.000056
       }
     },
+    "0b8096973005c15bff16e00d9f7f1af476ab662efa5a8599da09aed6a53d7c02": {
+      "normalizationVersion": 1,
+      "sourceHash": "07107475f3d944c02f2ab5e89eba94a1d336cd7e69ede8274241a8df1abf47b1",
+      "contextFingerprint": "7f2a8a27f68af8079b14e32f86c7309741d70ebaa99df85a273ea53a6f22cd89",
+      "sourceText": "在 `p` 存活期间，它也会暂时拥有 `A`，因此 `A` 的引用计数会临时从 1 变成 2。离开 `if` 代码块后，`p` 被销毁，引用计数再从 2 变回 1。",
+      "translatedText": "During the lifetime of `p` , it also temporarily holds `A` , so the reference count of `A` temporarily changes from 1 to 2\\. After leaving the `if` code block, `p` is destroyed, and the reference count changes from 2 back to 1\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 57,
+        "costUsd": 0.000123
+      }
+    },
     "0b81436f25b4650d3534e640270d7e774aaf3667f94f4d6fb6553390be731031": {
       "normalizationVersion": 1,
       "sourceHash": "f1ce7668fc1ddfcf572b18a2caf161370015893a2d5a027991669e9aad3c9c31",
@@ -69,6 +181,34 @@
         "inputTokens": 157,
         "outputTokens": 36,
         "costUsd": 0.000091
+      }
+    },
+    "0b87d37f29e0f7cc450ba34fc27ec5027ebfff623b6c8cd4d917e5bde1222b63": {
+      "normalizationVersion": 1,
+      "sourceHash": "2674ce42960d4aaf6605ea59b4afe9019b918bc012fd4845e2cbaf776797b522",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 捕获所有异常",
+      "translatedText": "### Catch all exceptions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "0b8b41e9c0b700b254fd0dc5080d5cff8f99b0df1e69eaa6a3ac8cbcc6894c93": {
+      "normalizationVersion": 1,
+      "sourceHash": "70624089bb9d2ea2928cb577d641c756fa942eff6a25f124d028aac457bc39e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程 A 和线程 B 都在：",
+      "translatedText": "Both thread A and thread B are in:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "0b8ef6339d3bbd8a1d54e31a4726de0e873f001566541b7a12b27a8a3c805e48": {
@@ -111,6 +251,34 @@
         "inputTokens": 157,
         "outputTokens": 36,
         "costUsd": 0.000091
+      }
+    },
+    "0bd870f82f323f9a4c135eb619c6cb112dffdc4e41f5f2d36ce2ef4236a71af3": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8100d0eaa09bf08dd63a1ee3f61474361968c9fd9fe18359e2c5cf1f5dbab9b",
+      "contextFingerprint": "72793598071e1357b2a5ca1ccc5cd384cf6049bd2a134edbf2fad65dc425c5ed",
+      "sourceText": "在学习范围 for 之前，先回顾一下传统 `for` 如何遍历 STL 容器。假设有一个 `vector`：",
+      "translatedText": "Before learning about range for, let's first review how traditional `for` iterates over STL containers\\. Suppose there is a `vector`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "0bffd1bbebecce650952917ceed39808fe63c6d9a4a00c1bff64e2acc70b5812": {
+      "normalizationVersion": 1,
+      "sourceHash": "b100946b62e6f2c7c07bc81fc9d440cf575dd8132f6226e80fcc2a080c207891",
+      "contextFingerprint": "c17975ef85f0bbc1f05dea79e005d3454fc3b7827a9ea5af47101b53c818dc5d",
+      "sourceText": "### 示例 5：函数参数不要滥用 shared_ptr",
+      "translatedText": "### Example 5: Do not abuse function parameters shared_ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     }
   }

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "b8068a11f59d4426908dc53a9fe12c10b8ede941132c4544fbd1a09de3e221ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "189e2eeb48735617c55083dea7f56ea70c04570cb8f45d65cc7745382b48adb0",
+      "contextFingerprint": "3450c050a198bcd7f27d8ae86bdf7b44ee6fd580776909a4a52d055cef0d3a85",
+      "sourceText": "> 总结：复杂的函数指针类型应先使用 `using` 起别名，再作为参数类型或返回值类型。",
+      "translatedText": "> Summary: Complex function pointer types should first use `using` to create an alias, then serve as parameter types or return value types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "b80928f76dbfe7cd81085f511090b5d83ccf2faa07db3dc182a84c50bb623be4": {
       "normalizationVersion": 1,
       "sourceHash": "7d52d6b61ad615e93d46ef3dc3cb823ff155a752387646b61648e5630ab8407f",
@@ -15,6 +29,20 @@
         "costUsd": 0.000084
       }
     },
+    "b8254716a137ea8670e3d6fc1a21128b48369526d424a72fa0634b0419c49df8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5d6e7aa162c124bf1ead5e222f43aa7b7ed413ba004f6ea01e389dce2f8f67df",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 洗牌   指定范围内的元素随机调整次序",
+      "translatedText": "* Shuffle   Randomly reorder elements within a specified range",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "b829ba8ade5ec1ddb37f6bd0631e7205aa373eb502f7bf5e4158dcfb22f140a0": {
       "normalizationVersion": 1,
       "sourceHash": "1f1c6aae6bdf8ad971364fbbd24a543bb56d2647a64910b05f11cdb4afd2cef3",
@@ -27,6 +55,20 @@
         "inputTokens": 134,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "b84b0bd3cd33ed9e1f6ddc57c42dadef99d6e9eb6155b99f1b92528351abe029": {
+      "normalizationVersion": 1,
+      "sourceHash": "0e748f7a7a862b412be8ed7a60d0ef3980d4db31c3e866e69b748263f8745f8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "考虑这样的场景：",
+      "translatedText": "Consider the following scenario:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "b854a6353e3dd3ccd05e5cd6cdddaa64dd89468f43e91ce3921e8640aa1508f4": {
@@ -55,6 +97,20 @@
         "inputTokens": 167,
         "outputTokens": 57,
         "costUsd": 0.000119
+      }
+    },
+    "b871c4ac17fb282ded4e7ba1fada9a370477ff1c910daad3a70973d2e9b0af08": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0dae425da1f892c051c6f46087a70b12a35107997b38ae1becae0146e3356de",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "很多简单场景也允许写成类似普通变量的形式：",
+      "translatedText": "Many simple scenarios can also be written in a form similar to ordinary variables:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "b8730879fd95420d3756edb67312a0af165f0318c59e094ebf784b1253c637f6": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000057
       }
     },
+    "b8871e3e117f923f0909777b5c8cc55039d3dcb2ce7c1e75bd8cab2c52280ace": {
+      "normalizationVersion": 1,
+      "sourceHash": "1fcd1b0103bf1bc0221dd02a5551ccfee2c24727cf5c687cd43754cbfda5b2b7",
+      "contextFingerprint": "8c67309c09d31851a9c7a8730aa383dc3ab50796b06a1dae26b5b3b5bd1feabc",
+      "sourceText": "如果 `old == 10`，说明这次操作把 counter 从 `10` 改成了 `11`。",
+      "translatedText": "If `old == 10` this indicates that this operation changed the counter from `10` to `11`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
     "b89b618508518a57baee572010b36c5118a6e9ffd923184afd922eb6732eb6c7": {
       "normalizationVersion": 1,
       "sourceHash": "8e130111eb6edced0d552efda5f64c17420ee18f6bfce6794305fb0c004f8c65",
@@ -127,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "b8c89ac050d1f1b28e57563fb927e7e267932a0dfa6c623e5abf22198b0f8f40": {
+      "normalizationVersion": 1,
+      "sourceHash": "59c7bb95c324d678bf8c65cce3b8c3c09ba1ac81753997ed5544dc9ace90c2ce",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## bind 和 Lambda 怎么选",
+      "translatedText": "## How to choose between bind and Lambda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "b8cfa76fb20a299197cb32518bc1262555039609ea4b257ab4dc972a6c671dc4": {
       "normalizationVersion": 1,
       "sourceHash": "b8f394f55b6c7db879f4999156962c5cae550faf90b133f0b36eb215170deee9",
@@ -153,6 +237,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "b8ec62a2b1e553b09d7f21919c1bd0ed03fc1eeec8939c0522be34ca2586ff25": {
+      "normalizationVersion": 1,
+      "sourceHash": "243eade64eafe7643e553fb48aab932d8722a8aeb77a799ce5a3bef991386bd1",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 利用仿函数，可以改变排序规则",
+      "translatedText": "- Using functors, the sorting rule can be changed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "b8f4edb6f035d55ba02ce485478ff430f3b01f8c78c0cdcef9c7d62a4546b2f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "df940640a726caf73d3080e96babb85042214ffbec33004e041249d0fbfb329d",
+      "contextFingerprint": "fc7c7406485d3f1ab6405b04a669eb49e58e3c3d9d1ff066724e4ee5607bfcda",
+      "sourceText": "* `push_back(ele);`                                         //尾部插入元素ele\n* `pop_back();`                                                //删除最后一个元素\n* `insert(const_iterator pos, ele);`        //迭代器指向位置pos插入元素ele\n* `insert(const_iterator pos, int count,ele);`//迭代器指向位置pos插入count个元素ele\n* `erase(const_iterator pos);`                     //删除迭代器指向的元素\n* `erase(const_iterator start, const_iterator end);`//删除迭代器从start到end之间的元素\n* `clear();`                                                        //删除容器中所有元素",
+      "translatedText": "* `push_back(ele);`                                         //Insert element ele at the end\n* `pop_back();`                                                //Delete the last element\n* `insert(const_iterator pos, ele);`        //Insert element ele at the position pointed to by the iterator pos\n* `insert(const_iterator pos, int count,ele);`//Insert count copies of element ele at the position pointed to by the iterator pos\n* `erase(const_iterator pos);`                     //Delete the element pointed to by the iterator\n* `erase(const_iterator start, const_iterator end);`//Delete the elements between start and end pointed to by the iterators\n* `clear();`                                                        //Delete all elements in the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 89,
+        "costUsd": 0.000165
       }
     }
   }

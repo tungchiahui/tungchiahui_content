@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "ce0672dcec54b752e060ab2c532226be0962b2c75ac66d44effae726e9e874ab": {
+      "normalizationVersion": 1,
+      "sourceHash": "b35b1e948c8fd78502ad26569f51afe50cab75fdac1729d65a6425ee70152bfc",
+      "contextFingerprint": "15cd3319d210adb318e5980996715d242487d6d1f0471077b6c9fbe774dbed5b",
+      "sourceText": "* `stack<T> stk;`                                 //stack采用模板类实现， stack对象的默认构造形式\n* `stack(const stack &stk);`            //拷贝构造函数",
+      "translatedText": "* `stack<T> stk;`                                 //stack is implemented as a template class; the default constructor form of a stack object\n* `stack(const stack &stk);`            //copy constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "ce25132d4d3933b9fb96c5ddcb760be07ecd236d0963ce54cac2d537d6c0d4a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "fde2347ee81ffa5396b53202ae5d81ea517d1d1143e5e1f277f4a2313388bd85",
+      "contextFingerprint": "9326357851ce14d435cf183f7a546402396fc84fe403ff5858e925c792cec6d2",
+      "sourceText": "结果可能是 `std::terminate()`。",
+      "translatedText": "The result may be `std::terminate()`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "ce38c0374f8902655eec3693adea97d1f119cc89a2fb2dbc87719d9904803fbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5b769b72f5cc121ae1051d3765614e8aea6e09658b135dbfcc893fd398d4aca",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 案例-评委打分",
+      "translatedText": "### Case \\- Judge Scoring",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "ce3c41e1916d3ec4393599382087ffc78592536fdc34c62d95a48844241ac869": {
       "normalizationVersion": 1,
       "sourceHash": "40373dd5698cc9d58bddc178d8de4be8209c179ac535815a1fb0ae54a5d588a2",
@@ -27,6 +69,20 @@
         "inputTokens": 185,
         "outputTokens": 72,
         "costUsd": 0.000142
+      }
+    },
+    "ce48da1caf1cd2528f2d16635eb8c9c48a3d12df2625fa555f5e859a55eef116": {
+      "normalizationVersion": 1,
+      "sourceHash": "e27e3e740227bdc9aae6dec9109b5673a59817ba5c7ff206bae0322cc364f437",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "队列容器允许从一端新增元素，从另一端移除元素",
+      "translatedText": "A queue container allows adding elements at one end and removing elements from the other end\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
       }
     },
     "ce56cac81e15f13c51f83c7fbb569c681c04d62549ecfb17fd56b65a8c8fbd42": {
@@ -71,6 +127,34 @@
         "costUsd": 0.000067
       }
     },
+    "ce72a1a9c6c29ff1e1c754efb7fa2838c980a9a4ceca6c7b6c47b105d6cd2c09": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfbf3945d71072b2aa0bceaed3e1cb2e2c969ec332e5c1bea6d918e98801744d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也就是拷贝构造函数。",
+      "translatedText": "That is, the copy constructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "ce81b16049894b6e34e3e82c95c0192ed638d92612a5b2232d1682a16789e888": {
+      "normalizationVersion": 1,
+      "sourceHash": "55a2b4a506e5cac2dbe5e4dfe233046775cb2d2efec6a270b727708c38d78438",
+      "contextFingerprint": "154ac461a9899608a00c85a420af129aa64458c89169ddbd4ec3bd6ac6b0ad58",
+      "sourceText": "`std::bind` 需要头文件 `<functional>`，占位符在命名空间 `std::placeholders` 中。",
+      "translatedText": "`std::bind` Requires the header file `<functional>`\\. The placeholder is in the namespace `std::placeholders`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 20,
+        "costUsd": 0.000068
+      }
+    },
     "ce8270d48f0acbdfb9049e4b15832892942a2801f0d58945bc71be68656cbbb8": {
       "normalizationVersion": 1,
       "sourceHash": "20cc511909e78fc91e058ae35991b5bdd33f1a4392d6b0e6c74cfac2a98e1792",
@@ -99,6 +183,20 @@
         "costUsd": 0.000113
       }
     },
+    "ceb0096f072c46dc40852791e35af3feb5e896c771c8bd68cb374fd9cb3a80d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5332246452d8ba1230c987125838ead21b828cb3108c6f8e34bafde86f75dfc0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在示例 1 中已经看到：",
+      "translatedText": "As already seen in Example 1:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "cebfbcc58dfdd44ac1fd19442ca329363048978403bd3d986055e6eb5de8efff": {
       "normalizationVersion": 1,
       "sourceHash": "6dabe6311e6d33fff73201f0ff5f752b11340ec2205d3bb078a25e6ec97ee67e",
@@ -111,6 +209,34 @@
         "inputTokens": 150,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "cecf799f74cca0188fd82862a1bd5b1e514e4d7cae2633eb58d8b7b4de90e616": {
+      "normalizationVersion": 1,
+      "sourceHash": "51ecb2568d8f560e3b0d1e6152e07fe58e32a65f79c93feb2e609fd71c437244",
+      "contextFingerprint": "11a33c14cd5900818dd41326ed678b89ebc4cee74bf79ec7810217bbfa2b50ce",
+      "sourceText": "在 C++98 中，函数返回大的对象时会发生**深拷贝**，性能很差。C++11 引入了移动语义，把\"拷贝别人的数据\"变成\"偷走别人的数据\"，大幅提高性能。",
+      "translatedText": "In C++98, when a function returns a large object, a**deep copy**occurs, resulting in poor performance\\. C++11 introduced move semantics, which changes \"copying someone else's data\" into \"stealing someone else's data,\" greatly improving performance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 192,
+        "outputTokens": 79,
+        "costUsd": 0.000153
+      }
+    },
+    "cefda1b9f9cf441ae33e034b4dc0bc02cf33f1622e9933f7207d9a7f1f9f82ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "336e3584d3447334fd831e3db1ad0eb6a81a3b6570574b2e0970fc0b2c62c0a6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 总结",
+      "translatedText": "### Summary",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
       }
     }
   }

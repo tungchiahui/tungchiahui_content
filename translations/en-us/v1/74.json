@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "742a4458fc3e7ba8ad9c531c151699d8c11c64a34bad786d6eeedb192aae9cd0": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f9de99a345287b274bbb2ae5470c77bffa21243f7ad4b0e635d93df2ec32658",
+      "contextFingerprint": "6d4ea8f0657b3f54f7bda38b36c60a14ff2603557bfed7473bf45381595eaef7",
+      "sourceText": "- `size();`          //返回容器中元素的数目\n- `empty();`        //判断容器是否为空\n- `swap(st);`      //交换两个集合容器",
+      "translatedText": "- `size();`          // Return the number of elements in the container\n- `empty();`        // Determine whether the container is empty\n- `swap(st);`      // Swap two set containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "74357247d793b7927adad93f45ef58d802947e28eb0ba8444cebf517e54cf78b": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fb4e347b54e1483bffa4996546942c5e7e8b65fa9135db7da58bf04d77b8e52",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用排序算法",
+      "translatedText": "### Common Sorting Algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "7436755956efe90c208f14e97485b3575e893cf610dbae70d47e37daed40e5e2": {
       "normalizationVersion": 1,
       "sourceHash": "2133e6b787de8de0f0e60511bf12b257483a9c0400efcb9af30d7ef967e40f52",
@@ -71,6 +99,20 @@
         "costUsd": 0.000075
       }
     },
+    "746a3b1b303238d4f2b82bcc86b9228cb792a10b63a4dbd12fd77376ee22370f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7936315663579c555908b0679ad4a0d7d35f5d869b859b272eee660de5634548",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 但临界区也不能乱拆",
+      "translatedText": "### But critical sections also cannot be split arbitrarily\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "746e299e199743864edc514c073182338b7bca818ad98cdd7988e51b90ee14d6": {
       "normalizationVersion": 1,
       "sourceHash": "608aeddcaada192ef67f6578d731529684c502afed3dcd5706eb3da352f2bf4c",
@@ -85,6 +127,20 @@
         "costUsd": 0.000054
       }
     },
+    "747ad4285e39fc92696f710b0d7d56c1381c1888e65ff71fdbe1df4567f7cf78": {
+      "normalizationVersion": 1,
+      "sourceHash": "e2bbbb62a206cb9e591c0c36913402607a3701cd88497314b3cd757ead292cb9",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 中经常会遇到“把一种类型当成另一种类型使用”的场景，例如：",
+      "translatedText": "C++ It is common to encounter scenarios where \"one type is used as another type\", for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
     "74808bf4533aa704e52acd3895ed6d39ba6270a5a4a920b8741d5f3760d5623d": {
       "normalizationVersion": 1,
       "sourceHash": "5c3b7580fd42b372d33e88c63345056c6335e06672767ddc37f463393aa463c2",
@@ -97,6 +153,20 @@
         "inputTokens": 135,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "74821ff38b8004b3909a1fc80a9721297b3e06f75e5d35be98bd769564665e2f": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0aff91621637808b46a580cee7d81d1b291b6bf8296559b59c49bb93a7020b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最终判断的是：",
+      "translatedText": "The final judgment is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "7488b144ed387ca798b6f860f4ff410d289a20993b49e241cc81f66173d2a184": {
@@ -167,6 +237,34 @@
         "inputTokens": 151,
         "outputTokens": 31,
         "costUsd": 0.000083
+      }
+    },
+    "74ea57d5440f5a1b61a4a0ec9352028be0f38ad53a7aebc2bd6260e87ba9ffdb": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b997560cb2a214e5b5a5c2be01a359fe528c5a45a0fff4d53abc73b72c6d5c2",
+      "contextFingerprint": "db052f799b7aff3b06f02984e0423277466b498b2f5d4c8d21ad1b0dbe211f0f",
+      "sourceText": "这时 `observer.lock()` 返回空的 `shared_ptr`，程序进入 `else`，不会访问已经销毁的对象。",
+      "translatedText": "At this point `observer.lock()` returns empty `shared_ptr`; the program enters `else` and does not access objects that have already been destroyed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "74f1e232af8914fc0e26647c82c261cc81b1e93dad094f45e18651e4d641f8ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "28ee25e22fdf6c7a222a6116a9bd01552b8ede22368ab64a7cbff8ceb662390c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不是函数，也不是特殊语法。",
+      "translatedText": "It is neither a function nor special syntax\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     }
   }

@@ -29,6 +29,34 @@
         "costUsd": 0.000068
       }
     },
+    "e432a8a7f2d29c58a9f59a415e2250457fcecacc064eb12536d1552ebcf6deea": {
+      "normalizationVersion": 1,
+      "sourceHash": "84515ff014872a6ac03aab9593573ad94a6e68744675b8e26877a643edafc826",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 暂时拿不到，就一直等待。",
+      "translatedText": "> If it cannot be obtained for the time being, then keep waiting\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 20,
+        "costUsd": 0.000065
+      }
+    },
+    "e432c8acb365484369a8b4a7c41957f18d2c4bd86d526d3fa3892d66b87c6266": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ab9730b7caabb132d697daec9445f058c228c6956804559b41ae5140c77dc32",
+      "contextFingerprint": "ce3d184016ae9fe86bb693351b1ae44ed7636b5c3df453f5f483d85799136999",
+      "sourceText": "| 需求 | using 是否适合 | 说明 |\n|:---|:---|:---|\n| 缩短复杂类型名 | ✅ 适合 | `using Callback = std::function<void(int)>;` |\n| 统一项目里的业务名称 | ✅ 适合 | `using UserId = int;` 让代码更有语义 |\n| 定义模板的简化写法 | ✅ 很适合 | `template<typename T> using Vec = std::vector<T>;` |\n| 防止不同业务类型互相传错 | ❌ 不够 | `using Meter = double;` 和 `using Second = double;` 本质仍都是 double |\n| 创建真正的新类型 | 用 `struct` / `class` / `enum class` | 编译器才能帮你检查混用 |",
+      "translatedText": "| Requirement | Is using suitable? | Description |\n|:---|:---|:---|\n| Shorten complex type names | ✅ Suitable | `using Callback = std::function<void(int)>;` |\n| Unify business names within a project | ✅ Suitable | `using UserId = int;` Make code more semantic |\n| Simplified way to define templates | ✅ Very suitable | `template<typename T> using Vec = std::vector<T>;` |\n| Prevent different business types from being passed incorrectly to each other | ❌ Not enough | `using Meter = double;` and `using Second = double;` are essentially both still double |\n| Create a truly new type | Use `struct` / `class` / `enum class` | Only then can the compiler help you check for mixing |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 101,
+        "costUsd": 0.000185
+      }
+    },
     "e432d2dfc20ec5f56cdf554411450c6d60a10152b6c2209dea8659490bd5188f": {
       "normalizationVersion": 1,
       "sourceHash": "9c5ec4fdd5801ad6a08cb99f2980b98d013455485332975ab1981a57ae1b17c9",
@@ -41,6 +69,118 @@
         "inputTokens": 153,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "e435223453b743524a5098c7e447c29264f36fee2fb7091fce0cd0a744e982c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "588d067a3e49c119731e42d59e1663db3a6c7554e09a18780b13cff8f3853164",
+      "contextFingerprint": "5535de9f558b0a43e7f417476fd2ad0a470ce552c931d8a4cd7e2e42cafedcc7",
+      "sourceText": "### 示例11：`const` 成员函数指针",
+      "translatedText": "### Example 11:`const` Pointer to member function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "e44f69299d9e347cfb06868f77a7f1ee7dc7e274f9845282a9c7264df7aca17a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa77489dde760c267ec09e112781a851855c394ad7ee6f27b0ebee0a3ddfff1d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这正是 Lambda 很常见的用途：STL 算法负责通用流程，Lambda 负责描述具体规则。",
+      "translatedText": "This is exactly a very common use of Lambda: the STL algorithm handles the general flow, while the Lambda describes the specific rule\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
+    "e459097fca8ed61a78c9296f75853b24d45b5a39826095d9170b459f0f5f2a29": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1bf893f47125f6b158ff8468be3bdbceb613cc1661329a1d02705d3d228ea11",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，模板别名（typedef 做不到）",
+      "translatedText": "### Example 3: Building on Example 2, template aliases (which typedef cannot achieve)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "e471195afb23612e0e793eeb04dcaa0afd573861fd9026ee470d621e232ec704": {
+      "normalizationVersion": 1,
+      "sourceHash": "320d2a561c0027d8d6bbc5b525ff622b3286ca353681b0722418b1392e878c8d",
+      "contextFingerprint": "0933a7b86970cc5f9e7f21bbcda1fa1bfc58aa95b7d0e3077bb96ccbdd5a3009",
+      "sourceText": "`detach()` 最大的问题是生命周期很难管理。",
+      "translatedText": "`detach()` The biggest problem is that the lifecycle is very difficult to manage\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "e4819bbbbc5c0c3a30f5ab97208f4e302f4016c004a27513784e0d4ed86dce28": {
+      "normalizationVersion": 1,
+      "sourceHash": "60012c2898e43bca5575c0e4f89acc1dffd82483b30b30b2afd2bb51a2e5fcb3",
+      "contextFingerprint": "cecca9d030bd34921d983588d12cb0bb4b9d3cf6d05274571e5b44818c8987bb",
+      "sourceText": "* `vector<T> v; `               \t\t     //采用模板实现类实现，默认构造函数\n* `vector(v.begin(), v.end());   `       //将v[begin(), end())区间中的元素拷贝给本身。\n* `vector(n, elem);`                            //构造函数将n个elem拷贝给本身。\n* `vector(const vector &vec);`         //拷贝构造函数。",
+      "translatedText": "* `vector<T> v; `               \t\t     //Implemented using a template class, default constructor\n* `vector(v.begin(), v.end());   `       //Copies the elements in the range \\[begin(), end()) to itself\\.\n* `vector(n, elem);`                            //The constructor copies n copies of elem to itself\\.\n* `vector(const vector &vec);`         //Copy constructor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 57,
+        "costUsd": 0.000122
+      }
+    },
+    "e4943d00ff60d88f401c8542a82f3160299ca35a4ab2b0fbd0d6e03d727fac5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a4080ac158fc1a4cb717a3f6bf027af79d81f79c0893df30f6fb84a884ffa75",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "文件类型分为两种：",
+      "translatedText": "File types are divided into two categories:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "e4b73a328a3e8bbd83197e075bfc4225ae5151d3e8cb46dba2917d81b28da370": {
+      "normalizationVersion": 1,
+      "sourceHash": "4180d068279e75fb2aef500cdb451fb8be899ddb80994d7a8370be6bb0f1df7c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此普通场景优先使用 RAII 锁。",
+      "translatedText": "Therefore, in ordinary scenarios, RAII locks are preferred\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "e4c3dd94463f49d9b4b82b62d8780971e6d9622d7767ac3d9d339eff9a0bcd27": {
+      "normalizationVersion": 1,
+      "sourceHash": "7158b10db1ac9f1164d66dd377e95ea18c86aede0235d0ed13899c7be0902c4d",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**功能描述:**  ",
+      "translatedText": "**Function description:**  ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "e4ebf2a270204a60cb449a50f516b1a2ca125fb4a8c609d2f8469b45bcedbaf7": {
@@ -69,6 +209,20 @@
         "inputTokens": 139,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "e4f691c57f063b3c226e3c2f688f51f1b90bea3a6f688b5f4e72c5193c9945c8": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cc403f678411be2511c9a92f61bcfee78878fd0ea09207f4dd03e3538d01835",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "在 C++ 中，数据竞争通常意味着：",
+      "translatedText": "In C++, a data race usually means:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
       }
     },
     "e4fe1191bb9c44eeefa7f15f922d1c0633712e17b105bec917da62b634bafe83": {

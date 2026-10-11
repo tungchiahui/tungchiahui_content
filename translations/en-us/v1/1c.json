@@ -15,6 +15,48 @@
         "costUsd": 0.000105
       }
     },
+    "1c09dcb2cfead7128be4d9e2007143b50009168bce5060385700d309010c9e1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "aa5838962c450d1abbe388a5d6e348cb3a2f2a8d4b6358ac3bdc8913ba2e8e68",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 每一行代码都单独加一次锁。",
+      "translatedText": "> Each line of code is locked separately once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "1c14168a680ca976a365d81f2a94148ed4a6038c644f8988942f1276232313a1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f07a37dc4a4852562babdeaddd703b03b5e253a2236c0d3a8fd77876df74bc3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：optional 和错误信息的区别",
+      "translatedText": "### Example 4: The difference between optional and error information",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "1c1896c97d6caa11af51d4e8240c037e9731530590e66c785587c7cc00f4d253": {
+      "normalizationVersion": 1,
+      "sourceHash": "7fd3a84d8381e1d39d8b62c2824a207c23a9d621d3ab869042571edf56a5f53e",
+      "contextFingerprint": "cc96d8e5ac803648f7f9455a5eb1a2510e53190f3ccf610df3ee0bc8332b3a12",
+      "sourceText": "注意：标准 C++23 的 `std::println` 第一个参数不是 `std::cout`。`std::cout` 是 C++ 的 `std::ostream` 对象，属于 `<iostream>`。你可能在 `{fmt}` 库或某些扩展里见过类似 `fmt::print(std::cout, \"...\")` 的写法，那和标准库 `std::println` 不是同一个接口。",
+      "translatedText": "Note: the standard C++23 's`std::println` first parameter is not `std::cout`\\.`std::cout` is C++ 's `std::ostream` object, which belongs to `<iostream>`\\. You may have seen a similar `{fmt}` syntax in the `fmt::print(std::cout, \"...\")` library or certain extensions, but that is not the same interface as the standard library `std::println`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 200,
+        "outputTokens": 81,
+        "costUsd": 0.000158
+      }
+    },
     "1c18c3b7a3b22d17004bab15ca34a81071a17093979827b3fa6c0b86aea6cc77": {
       "normalizationVersion": 1,
       "sourceHash": "f9f13a9695d755bb20def6692e1cc7c27e52fa744a3da419a012cf18589e4c26",
@@ -55,6 +97,20 @@
         "inputTokens": 189,
         "outputTokens": 88,
         "costUsd": 0.000163
+      }
+    },
+    "1c3b591e5876e51945c122fb19359371380bdfdc4a149ff1800c33ba0c6b2733": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea555c44265f477b6b9f8ab37f0d298e8ec7c67dfe75b0fb3bc94a50f1608804",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "三个算法可以这样记：",
+      "translatedText": "These three algorithms can be remembered as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "1c3ce145b17437313d9ffac1a78662c8ddcbaa746c611242a711ecfbe19bf3e0": {
@@ -99,6 +155,34 @@
         "costUsd": 0.000056
       }
     },
+    "1c5849a7f448b70b983ea7ba0a3c618b707f4df7d1440607543344ca62cd2c34": {
+      "normalizationVersion": 1,
+      "sourceHash": "14b531a12d88be0e38ec5ac85eb99c9c4fdc2d9be003c36e346f207b29f72684",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 逻辑仿函数",
+      "translatedText": "#### logical functor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "1c8930557ef37343bceb080771729379db5618b164767061f6e2a29847f265d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "1e6c24141cf9e44a923531c6587af86057437eaab7ed83d3a51ec4b1e5e8e13a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要这些操作必须作为一个整体被保护，都可以属于同一个临界区。",
+      "translatedText": "As long as these operations must be protected as a whole, they can all belong to the same critical section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 28,
+        "costUsd": 0.000077
+      }
+    },
     "1c8df1a703840a0de2ed5a695f0925c696a5fc13eca42db035d6a2d0dc747378": {
       "normalizationVersion": 1,
       "sourceHash": "df124813edbfadb93c5e23f73062ccf280c8cb3345a87257f4e7750c8e5939d7",
@@ -139,6 +223,20 @@
         "inputTokens": 149,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "1cea379145eb0725eea1e42422929d0d5838b1aad49eaa65e485c73a91641a12": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9a2f15e70afe32c339445d3ab25b600b18fb77af3a7b1cc889bc7a19865756a",
+      "contextFingerprint": "e15e8e6cff0bcf95a84e492acf6bb7126557bea5447d4ac585f1eec46dac6228",
+      "sourceText": "数组下标必须在有效范围内。下面的数组有 3 个元素，因此有效下标是 `0`、`1` 和 `2`。",
+      "translatedText": "Array subscripts must be within a valid range\\. The following array has 3 elements, so the valid subscripts are `0`、`1` and `2`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "1cf79bccdf08edd7a2d833d6503f6e126ea15be2a8d64d95a1048f883162c91f": {

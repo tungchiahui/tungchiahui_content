@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "db0050531fd0bf8b5c238ca4ad93468589f3f4c4467a66edcf773f02ee19e4bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "7088202a083924b520c89cac647a4c9a6548ed7b64785933d3612bcead4574dc",
+      "contextFingerprint": "c1830b26e5c6f6d76cb3458ffab87f8a7f32054e75cd4d9ed5fd53884b2385f2",
+      "sourceText": "- `std::format`（C++20）：类似 Python 的 `f\"{name}: {score}\"`，返回格式化后的 `std::string`。\n- `std::print`（C++23）：类似 Python 的 `print()`，直接把格式化结果输出到 stdout。",
+      "translatedText": "- `std::format`(C++20): Similar to Python's `f\"{name}: {score}\"`, returns the formatted `std::string`\\.\n- `std::print`(C++23): Similar to Python's `print()`, directly outputs the formatted result to stdout\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 58,
+        "costUsd": 0.000124
+      }
+    },
     "db0a4e18b0aa8d5af2a02319689310ac687252952b219ec5817416b660b88fdd": {
       "normalizationVersion": 1,
       "sourceHash": "88585acfb9cbb66edc6501ded6e69580133693a363fb843ebe91f4a97c9f9008",
@@ -43,6 +57,48 @@
         "costUsd": 0.00006
       }
     },
+    "db405b88ae9b931a1be3b6cde4667867996eee689909b0d4bf2338e2f691ab9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b78e6ea5af9f7e7a7d733450f275176a8748cd6905ce8ab3da9e0ba19d83631f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector基本概念",
+      "translatedText": "#### Basic concepts of vector",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "db4130000b21367ced3bd516261ed6117e10b6ac7acc6e7326652a50397a2243": {
+      "normalizationVersion": 1,
+      "sourceHash": "13cc748ce76a7567ece1cdb8094845f2145fe2351278927c96a0a15f5913afe6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例2：函数指针类型必须匹配",
+      "translatedText": "### Example 2: The function pointer type must match",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "db54daeacdfe4fc5bd67ae7364814cc07218d66666d12b60c9953fb24b11dffb": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1f0af25f578ba1bc8245415689c1ec2c1349576635ee05e7fe6f604c4afb67d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 什么是数据竞争",
+      "translatedText": "### What is a data race?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "db6a7a6aa006fda7696e3c7146967d2ae5f2616134728f993641d7f8e9bcfb4f": {
       "normalizationVersion": 1,
       "sourceHash": "2bc42066e217f4e6ad32da4cf1bc36404e1d5d3497d2e0baa7a951ce4ae7e240",
@@ -71,6 +127,62 @@
         "costUsd": 0.000057
       }
     },
+    "db7c1460b8259747d95f87551e6f02ef63a6d9def301b4e4499ddc32b7295dd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "659319f54d7979ec9263bc3a2ff40e03ece3c94ec65245473f51fad7f8259315",
+      "contextFingerprint": "8b17a157222445c2e0dfa6f783e452cacd83b199fb1004cd1f21228ab1bf3a99",
+      "sourceText": "静态成员函数属于类，但不依附某个具体对象，也没有 `this` 指针。因此，可以使用普通函数指针保存静态成员函数的地址。",
+      "translatedText": "A static member function belongs to the class but is not attached to a specific object, and does not have a `this` pointer\\. Therefore, a regular function pointer can be used to store the address of a static member function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 50,
+        "costUsd": 0.000108
+      }
+    },
+    "dbd736bdb90ad212dbf453c172366d23ea5034e56355301be41a325fd02960b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b824102b1d57b722b9153f948a42295b1ab79f551881c35fc11aae07e9e5fcb",
+      "contextFingerprint": "bcda8530d788d5e071621ab297d46f0408a3896f10d45ed2e759ad0f1181f605",
+      "sourceText": "`std::copy` 定义在 `<algorithm>` 中，常见形式可以简化写成：",
+      "translatedText": "`std::copy` defined in `<algorithm>` In common form, it can be simplified as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "dbdf62222ca24d66427271ba48bc27c21b7e94302718913dc487adf4200e31c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "601266d080d260186d8edf9ae74f26b67d62a747d72c5eab36d27a2ee0f60455",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 求两个集合的差集",
+      "translatedText": "* Find the difference of two sets",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "dbe35e569d2d6c9e608074cac6a81a90b8efd7b4de6a428d35e6cb08ae3aef9d": {
+      "normalizationVersion": 1,
+      "sourceHash": "676d95bf4964991e7b7c99b57dc22fdadb05fd6fdcb7e351c1bd1091a18c5b08",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 扩展示例4：无捕获 Lambda 转换为函数指针",
+      "translatedText": "### Extended example 4: Captureless lambda conversion to a function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "dbe68e8b3479fa04f67414409d4d2e6128ddb641686bee5666670113e6353028": {
       "normalizationVersion": 1,
       "sourceHash": "0248863315cb5427b92b021981ea6fc5c03e9b9649d4d1671b1db8e4235f539a",
@@ -83,6 +195,34 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "dbe74f3b5f424e8d187b14ab0302e9e26f1172585719755af2a5ad6223f20ab6": {
+      "normalizationVersion": 1,
+      "sourceHash": "7377796925bd9e06afeb261b066daeccd66290b9e99129e4605b537a221cd148",
+      "contextFingerprint": "850ee1946004b975db4203c1f9665b928b1bc65f0403042d775f5af141470dc7",
+      "sourceText": "`lock_guard` 的特点非常简单：",
+      "translatedText": "`lock_guard`The characteristic is very simple:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "dbea1bd6738f72d8b09b49a44cd40a531eb423f806960e796c5b5d3ad71df4fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fd177a05a30323133292291f2466fe5a1c60f12461ef23aaaeb5daf8e2475b6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并不需要知道：",
+      "translatedText": "There is no need to know:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     },
     "dbfc0d26efd1562e175cd21782abe07d42c99b882c33d01a0ff8004c68d711af": {

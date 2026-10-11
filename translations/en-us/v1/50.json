@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "50255e54383be1aa1b25eca3ba2ba2d4e90a57e71fa4aeadda3b8a19b40bbf44": {
+      "normalizationVersion": 1,
+      "sourceHash": "2790f81ca5e740ce348af2b8eedfb08260665f66a52c5402b3180b4b6bd19ed9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当线程数量超过硬件能够真正并行执行的数量时，操作系统会通过时间片轮转、线程调度等机制，让这些线程交替获得 CPU 执行时间，从宏观上看起来像是在“同时运行”。虽然这不是真正意义上的完全并行，但在很多场景下，从程序运行效果上看和真正并发并没有特别明显的区别。（类似STM32上使用的FreeRTOS，用1个CPU内核来模拟多线程）",
+      "translatedText": "When the number of threads exceeds the number that the hardware can truly execute in parallel, the operating system uses mechanisms such as time slicing and thread scheduling to let these threads alternately obtain CPU execution time, making it appear macroscopically as if they are \"running simultaneously\\.\" Although this is not true full parallelism, in many scenarios, from the perspective of program execution results, there is no particularly noticeable difference from true concurrency\\. (Similar to FreeRTOS used on STM32, which uses one CPU core to simulate multithreading\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 217,
+        "outputTokens": 115,
+        "costUsd": 0.000204
+      }
+    },
+    "5045a781f4c3d746fbeaddc435bcef0177fb49f205279890c5cd4a7358aa04d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "218384bc3809ff1bd840a03a26a259bef0fc1363b3b737d1a0eabb6fe38d74fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通函数和函数对象都可以作为算法条件，但 Lambda 更适合写简短的局部逻辑。",
+      "translatedText": "Both ordinary functions and function objects can serve as algorithm conditions, but Lambda is more suitable for writing short local logic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "504a27d58c3e3f9e3b95d79f04efc5ebb11147526cbf25dda332bdc3d99df513": {
+      "normalizationVersion": 1,
+      "sourceHash": "e79b5718ad8180d378c24f2e10a55aa3cd90e667ee527e392e916f20bd4b3377",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面是安全的：",
+      "translatedText": "The following are safe:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "5059de6416d9c96c6b76af6d06daf6b1d1800e7a903b9788c4fe4197006a600b": {
       "normalizationVersion": 1,
       "sourceHash": "db5381016b503f732e788a77df8932758cef021ed9bbb9fbcfa92895e45ddb0d",
@@ -111,6 +153,48 @@
         "inputTokens": 149,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "50df799d4eaeda96d13e48857610446c2214b9a40c9ccebaebe108b633dc4592": {
+      "normalizationVersion": 1,
+      "sourceHash": "841d0692647d4218a70716bfc26c68fbfb0a0cc25a67d7b8963cf86ddaa18924",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 拷贝初始化和直接初始化并非永远相同",
+      "translatedText": "##### Copy initialization and direct initialization are not always the same",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "50e61035592c9eb17f1684e989c0cf6f7c529654fa52c8a13a04428dd251f988": {
+      "normalizationVersion": 1,
+      "sourceHash": "005d160a9b767a3f7d88a117ca7214f347299b537bd2492a0d83df6809bdf572",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "默认：",
+      "translatedText": "Default:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "50ff681d8bae93c9be022c58013172a3243ae6b463de29a3eb698c3223549fa2": {
+      "normalizationVersion": 1,
+      "sourceHash": "d13f39d62c40e2ee3e54908e2941d818a371b327b301b82085c5b580ffcd0b75",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 让拥有共享数据的类自己管理同步。",
+      "translatedText": "> Let classes that own shared data manage synchronization themselves\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     }
   }

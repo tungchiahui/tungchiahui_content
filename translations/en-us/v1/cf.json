@@ -15,6 +15,20 @@
         "costUsd": 0.00006
       }
     },
+    "cf14d757bfa25ee7e6ba65d1e849f691f1f8c4736a88b0dcb632d43a51227353": {
+      "normalizationVersion": 1,
+      "sourceHash": "b50ae4e9c90463eb8461a31efffcff958f09070d8d3a9acb911f31740cca0283",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**函数对象（Function Object / Functor）**。",
+      "translatedText": "**Function Object / Functor**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 13,
+        "costUsd": 0.000058
+      }
+    },
     "cf1b23a0873f5e40df70a601ead9ee895a15d2bdb294be4e78cd536b438531b1": {
       "normalizationVersion": 1,
       "sourceHash": "864babcabdbee966fa64dfec3fb8d00d1968ce2844dd59d09e63a6f7ecb75050",
@@ -27,6 +41,48 @@
         "inputTokens": 176,
         "outputTokens": 60,
         "costUsd": 0.000125
+      }
+    },
+    "cf25e34465aad81a07f0f89880e8c4074afc409f4eb7545aff5d1d5380bfcca6": {
+      "normalizationVersion": 1,
+      "sourceHash": "528b59863b3bae9f2c1b98e5a6fafb978d79966b86d0c169a3e9445f3932ef5d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 类模板",
+      "translatedText": "### Class template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "cf330f530b60f98479382fd9886e4f069b0dd57540d21cefb10f2d2234c5f4ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e99be1a36757e38ab4741e6f4c24c15a6cd69a72e7bb5d4decf19daf44a00aa",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：在头文件中不加限制地使用 using**",
+      "translatedText": "**Error 2: Unrestricted use of using in header files**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "cf373bba557c7522c3ef34d9bcc996e857e9fbaf24577ae9d34c223d12afcead": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d954efc50fd6260c3d58dbb18f7760c3491850ac59cc7ed3a0db2cf52c509a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它并不会自动保证：",
+      "translatedText": "It does not automatically guarantee:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "cf4faf436e8b9e1bd8a4cf53f3670a35be6e223f71b9c29ead56d3bfd7a35d0e": {
@@ -57,6 +113,20 @@
         "costUsd": 0.000065
       }
     },
+    "cf69a5a84f884184e626fa4c4fcf8af657f63178e9e10d12e50ca6aed266f572": {
+      "normalizationVersion": 1,
+      "sourceHash": "8143699eb07a10025055be98d490e2c6e73c1b54f36c1251f2a5ed51a9e324c4",
+      "contextFingerprint": "a635854eb3f2922baf0c8b6ad55e1cae95b6fe637de031b9b1b97eb97849c0b3",
+      "sourceText": "| 用法 | 说明 | 示例 |\n|:---|:---|:---|\n| `auto` | 自动推导值类型（会丢失引用和 const） | `auto x = 42;` → int |\n| `const auto` | 推导为只读类型 | `const auto s = \"hello\";` |\n| `auto&` | 推导为引用（可修改原值） | `auto& x = vec[0];` |\n| `const auto&` | 推导为只读引用（不拷贝、不可修改） | `const auto& x = get_value();` |\n| `auto*` | 推导为指针 | `auto* p = &x;` |\n| `decltype(auto)` | 保留引用和 cv 限定的完美转发（C++14） | `decltype(auto) x = get_ref();` |",
+      "translatedText": "| Usage | Description | Example |\n|:---|:---|:---|\n| `auto` | Deduce value type automatically (loses references and const) | `auto x = 42;` → int |\n| `const auto` | Deduced as read\\-only type | `const auto s = \"hello\";` |\n| `auto&` | Deduced as reference (can modify the original value) | `auto& x = vec[0];` |\n| `const auto&` | Deduced as read\\-only reference (no copy, not modifiable) | `const auto& x = get_value();` |\n| `auto*` | Deduced as pointer | `auto* p = &x;` |\n| `decltype(auto)` | Perfect forwarding preserving references and cv qualifiers (C++14) | `decltype(auto) x = get_ref();` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 205,
+        "outputTokens": 94,
+        "costUsd": 0.000175
+      }
+    },
     "cf8f556e4f883ba7aceee83ef01379092c1071a6149c13dc564cadaa035de7af": {
       "normalizationVersion": 1,
       "sourceHash": "8801b8f17d3c3b3fdd649d2bf50e6fb812d91f41ea36528856a23d72e27d8290",
@@ -69,6 +139,20 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "cf927eb30fc3046333dfdc6f39876ae3ae409b7b9f82e2ddd42c0cd50f1bc714": {
+      "normalizationVersion": 1,
+      "sourceHash": "79c90d2a6b9029ae7513a1ed5960bbd712fd2e7f904e7eb5a1b233abeeea596f",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "* 判断是否为空  --- empty\n* 返回元素个数  --- size\n* 返回容器容量  --- capacity\n* 重新指定大小  ---  resize",
+      "translatedText": "* Determine whether it is empty  \\-\\-\\- empty\n* Return the number of elements  \\-\\-\\- size\n* Return the container capacity  \\-\\-\\- capacity\n* Respecify the size  \\-\\-\\-  resize",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 42,
+        "costUsd": 0.000098
       }
     },
     "cfca5dab1db487737c63bd9e98f114df128cc3b8d893f6cab2f4c8ce85e440b5": {
@@ -85,6 +169,20 @@
         "costUsd": 0.000102
       }
     },
+    "cfd63201dce9857cb73331cbc3ecfde28f5176453b457f8c394a4a35bfccdc57": {
+      "normalizationVersion": 1,
+      "sourceHash": "75cf16da08d6db0b8d0553265a7369eeb5daf7de23ec324b13f6e3414954bcee",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* 类模板使用只能用显示指定类型方式\n* 类模板中的模板参数列表可以有默认参数",
+      "translatedText": "* Class templates can only be used by explicitly specifying the type\\.\n* The template parameter list in a class template may have default parameters\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 32,
+        "costUsd": 0.000083
+      }
+    },
     "cfd8c9664fa93d8046b816d195b6fac513c131559c9413b60599d2442b6825bf": {
       "normalizationVersion": 1,
       "sourceHash": "122126d3dcf850bc8d2639f887f5b60cedd090b4bb43363f5444d0f05dcd23d3",
@@ -99,6 +197,34 @@
         "costUsd": 0.000057
       }
     },
+    "cfe724f35ad08b2e25102ed79af486ec107fd207e16d8bb789c30dffe74c8dca": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b5bab9059b12498319d5be916861aefcb5d07a84cf63539f5b5ae4e71b46598",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 3：在示例 2 基础上，遍历初始值列表和 map",
+      "translatedText": "### Example 3: Based on Example 2, iterate over the initial value list and the map",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "cff91dc193930a4f5b82d56daf72f35593cb3f67654d39542c4abd3c6a6ed4d5": {
+      "normalizationVersion": 1,
+      "sourceHash": "dec67d96eabbefa768a7cbe04e40792378a6c75a7052045d522b36fcb10b3edd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 多线程输出顺序是不确定的",
+      "translatedText": "### The output order of multiple threads is nondeterministic\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "cffc7d6399929db1c24a418df6b55d39d6f129691b854e2c77b977d9e87a90f2": {
       "normalizationVersion": 1,
       "sourceHash": "6979e97b47b5c5bd485f88aead85a6bfe2cf55bbdfd06a938449edacaad90ace",
@@ -111,6 +237,20 @@
         "inputTokens": 162,
         "outputTokens": 49,
         "costUsd": 0.000108
+      }
+    },
+    "cffd1f1ed5773ef5831a2f575a1949b90d238fba9bb04442c9f3846f14da6f1b": {
+      "normalizationVersion": 1,
+      "sourceHash": "42bba2af4d980feaa5b6ed9095242e7071c8beb94103639ef277446fd060f9ab",
+      "contextFingerprint": "6b017768f4ab6461674fae835cf5bc59feb53a4bda8894e0e16af4b7037d4fbc",
+      "sourceText": "* `int compare(const string &s) const; `  //与字符串s比较\n* `int compare(const char *s) const;`      //与字符串s比较",
+      "translatedText": "* `int compare(const string &s) const; `  // Compare with string s\n* `int compare(const char *s) const;`      // Compare with string s",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
       }
     }
   }

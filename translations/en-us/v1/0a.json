@@ -29,6 +29,20 @@
         "costUsd": 0.000226
       }
     },
+    "0a1c22fd33a76e5a4b25c96490f746450d7ee271b30fe02e7cb2a5aade8ec19e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c5f8d0b5de000bd04b6a8008365ebdb43de5f62b3e465c0c180036697605564",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 从传统 for 到范围 for",
+      "translatedText": "## From Traditional for to Range for",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "0a21c46ea9bc725d1c7db83571d5cffd1f15de76930145d4c9673362fceeb031": {
       "normalizationVersion": 1,
       "sourceHash": "2a420ac75559b86808dc1dff7b7b1a5c314229720c2d7af68defcc1e6ee0153d",
@@ -41,6 +55,20 @@
         "inputTokens": 140,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "0a2d1bc94e95667fb41a992b3dc5eb57e52dc53e448447d309d7251d2586af9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8529a4164ad95b94fc8a22c85f4b96f003c87a367d3ae22e725b029a9326d929",
+      "contextFingerprint": "cd72bbc5ef4b54e9275c440140a9aa5f04041367fb921ca6e3a7cae495450f0e",
+      "sourceText": "| 写法 | Lambda 保存什么 | 原对象后来修改成员后 |\n|:---|:---|:---|\n| `[this]` | 当前对象的指针 | Lambda 能看到新的成员值 |\n| `[*this]` | 当前对象的副本 | Lambda 保留捕获时的成员值 |",
+      "translatedText": "| Notation | What lambdas store | After the original object later modifies a member |\n|:---|:---|:---|\n| `[this]` | A pointer to the current object | The lambda can see the new member value |\n| `[*this]` | A copy of the current object | The lambda retains the member value at capture time |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 56,
+        "costUsd": 0.000117
       }
     },
     "0a3242b389ef82e3e2095f38e9c3c10ae13926e9f79c3dc8096b5b4fe5a58d15": {
@@ -71,6 +99,34 @@
         "costUsd": 0
       }
     },
+    "0a3970d4751c3f4dc7a4cf003085e88b7146febd0da50fba01574f22e5767070": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a7c830fc92f4ee8717b1f2b9706dd8b6db6ac7d3cc874116f10745803d6de70",
+      "contextFingerprint": "7e790332ccec35e42e527f59347d70447fdebaa0502925d1dfa351d33c971c17",
+      "sourceText": "可以粗略理解为 `std::visit` 做了：",
+      "translatedText": "It can be roughly understood as `std::visit` did:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "0a3c16da621ab248325c7a3a2c22023a5fd611ce8b3bb9753cae37fcc8440484": {
+      "normalizationVersion": 1,
+      "sourceHash": "18de7fddfd67c219bfb11725220c6a835179af333b39eb84a0f1a6615f5cedda",
+      "contextFingerprint": "3deb4125c20a39ee5658ee1fbacd9f9f004a548d0768bc0f62d15e03ed684712",
+      "sourceText": "因此C++为了解决这种问题，提供模板的重载，可以为这些**特定的类型**提供**具体化的模板**",
+      "translatedText": "Therefore, C++ to solve this problem, overloads of the template are provided, so that for these**specific types**provide**specialized templates**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 45,
+        "costUsd": 0.000102
+      }
+    },
     "0a428068bfa38722a430d8f24b96f15f628259b6a024c0161eae530257cd31f0": {
       "normalizationVersion": 1,
       "sourceHash": "f8288c3b942e694f4b86d2492d076b537bbfc0f1a07c53d09cce2fd17c63241b",
@@ -83,6 +139,62 @@
         "inputTokens": 175,
         "outputTokens": 63,
         "costUsd": 0.000129
+      }
+    },
+    "0a43ae04714b328c1d3d3ad5ae55397c1f0b3c76a64080fb69933f8fe41e78e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e081b39508e103d79bde868c6f206d138daf898e560d3509c98123e7d4e8b847",
+      "contextFingerprint": "4209247eecfb3a91fc47fac31f55c2e6cd622fba8696a02be4a8a53da96b16dc",
+      "sourceText": "所以这三种写法虽然形式不同，本质上都是在给 `count_if` 提供一个判断规则：",
+      "translatedText": "So although these three ways of writing differ in form, they are essentially all providing a judgment rule for `count_if`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "0a5d60f90099818c0c7a0f57c6d99f4c14f9e9af0d23df4971e4384c16b0c03b": {
+      "normalizationVersion": 1,
+      "sourceHash": "49738a99a21f53cde25986884484fe001f9bf2be988420800ff1da418a4528b7",
+      "contextFingerprint": "9b3bd2219c060ed7fc1c0f432955eafa190f6ec7442af05de300f92b617073e4",
+      "sourceText": "旧代码中也可能看到 `typedef` 写法，两者含义相同：",
+      "translatedText": "You may also see the `typedef` syntax in old code, and both have the same meaning:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "0a675cb98dc6b6153fc9cfcbd8d17aae73f350297e34751ac1d53f06a8868249": {
+      "normalizationVersion": 1,
+      "sourceHash": "b1261b7b4667fc80879e057d3d2c59e93819f2d0ba86eea075330c7afaeb9a0e",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 实现遍历容器",
+      "translatedText": "* Implement container traversal",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0a6835b79846ed182ff35e8dc8c4e6fc2279fcfd3a8c16359a9b1195d6a79e6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "027cd4fe5f092436817dd153ae5a5b253c4485811fcc8151797b151cbf38b7af",
+      "contextFingerprint": "654258c227b296d2e25d6746774b94e36b59d1feafb9e1b3fe5ba3181e20f3d6",
+      "sourceText": "* `sort(iterator beg, iterator end)`  //对beg和end区间内元素进行排序",
+      "translatedText": "* `sort(iterator beg, iterator end)`  //Sort the elements within the range \\[beg, end)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "0a7f5ccb6c9fa6c42e7903ee3a5837340f7938f1375cb12a15e0f91379093634": {
@@ -111,6 +223,20 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "0a8a1bbb499c8cd81f7f24f23ee0ef8527916c12f0a323b4546370b5ae443e98": {
+      "normalizationVersion": 1,
+      "sourceHash": "a68d4b354220249da6638bd1107af0a5bb94845608d5482e2fabc57896d87c1b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "测试时组装三台不同的电脑进行工作",
+      "translatedText": "During testing, assemble three different computers for work",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
       }
     },
     "0a8e7cce2bc5ae94905758741c3d0b9bdac1f3deafaeee5712153c0a293d814b": {
@@ -155,6 +281,20 @@
         "costUsd": 0.000049
       }
     },
+    "0a97835fbf1023ebaebf70196064cbc5165d26043a477b71222f76fd260b1966": {
+      "normalizationVersion": 1,
+      "sourceHash": "49274387e1a441a84799dacef4ab5fbe8f8b37cac54001c86c162c93d32482ff",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：忘记 join 或 detach",
+      "translatedText": "### Error: forgot to join or detach",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
     "0aa0139bed46db2fa13576c66d60aa8d35eac225969c761adfcf2810a846e5f5": {
       "normalizationVersion": 1,
       "sourceHash": "32350593a7fea9043ec39bb5fd0d846fd13885d7a3f408ceda15897e512cd507",
@@ -195,6 +335,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "0acd4f9d4a59946c975cb4bbdfc2402035ab973fee6028e91c98077f3e5b087e": {
+      "normalizationVersion": 1,
+      "sourceHash": "70f37938fd2d17b98aa1c700700dc70370ef67258a21af70d22bf3511ec7ecfd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同一个位置也可以传入函数对象：",
+      "translatedText": "A function object can also be passed at the same position:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 19,
+        "costUsd": 0.000064
+      }
+    },
+    "0ad94d04f172d2aa3eb160d87a9bfe9fbf8f805b380d42ecace77faedb69874a": {
+      "normalizationVersion": 1,
+      "sourceHash": "7775a05913f83da3e2f787d02fe80031c812353033738a138b7c9108680787c7",
+      "contextFingerprint": "df5c24a80f480abbea5f09a1e3fd4bf35551adef4706ef90cce50b0a9ada63ec",
+      "sourceText": "| 写法 | 含义 |\n|:---|:---|\n| `std::bind(f, 10, _1)` | 固定 `f` 的第一个参数为 `10` |\n| `std::bind(f, _2, _1)` | 调换调用时两个参数的顺序 |\n| `std::bind(&C::m, &obj, _1)` | 把成员函数绑定到对象 `obj` |\n| `std::bind(f, std::ref(x), _1)` | 绑定引用，而不是拷贝 |",
+      "translatedText": "| Syntax | Meaning |\n|:---|:---|\n| `std::bind(f, 10, _1)` | Fixed `f` The first parameter of `10` |\n| `std::bind(f, _2, _1)` | Swap the order of the two parameters when calling |\n| `std::bind(&C::m, &obj, _1)` | Bind a member function to object `obj` |\n| `std::bind(f, std::ref(x), _1)` | Bind by reference, not by copy |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "0aefad31c871a8f90b08306769ae0d599cd369e26fa5596af87fb68358cabcd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3dda012646c6aecc6d3a725998d0a081619d346d8ab87107a7fbe62128ddece",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但有时候我们希望更加灵活。",
+      "translatedText": "But sometimes we want more flexibility\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "0af77930f9c2bc362ad9c31ae4554d420efcbf7b7914f5ac7d63a0486cc462d3": {

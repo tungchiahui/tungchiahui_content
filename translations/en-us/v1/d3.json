@@ -15,6 +15,20 @@
         "costUsd": 0.000158
       }
     },
+    "d308072d5259688b09f0431c6a6fe5d38642bcce811fd5b329312cb60f6bbc29": {
+      "normalizationVersion": 1,
+      "sourceHash": "2f10c05a1fef69405fd11582accfb1e79b6dfa3008bf96d884ed45d60c9059ac",
+      "contextFingerprint": "c40b3274eec4c67161cfe85859e791a2d929e6f88655f89a7c1fb94e8897866b",
+      "sourceText": "- `std::chrono` 提供类型安全的时间处理：duration（时长）、time_point（时间点）、clock（时钟）。\n- 用 `steady_clock::now()` 测量耗时，用 `system_clock::now()` 获取系统时间。\n- 字面量 `1s`、`100ms`、`50us` 让时间代码直观易读。\n- `duration_cast` 做单位转换，`.count()` 获取数值。\n- `std::this_thread::sleep_for(500ms)` 做线程休眠。",
+      "translatedText": "- `std::chrono` Provides type\\-safe time handling: duration, time_point (time point), clock\\.\n- Use `steady_clock::now()` to measure elapsed time, and `system_clock::now()` to obtain system time\\.\n- Literals `1s`、`100ms`、`50us` make time code intuitive and readable\\.\n- `duration_cast` Perform unit conversion, `.count()` obtain the value\\.\n- `std::this_thread::sleep_for(500ms)` Perform thread sleep\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 75,
+        "costUsd": 0.000152
+      }
+    },
     "d3189bcaf5f38c3f6edd54ba69d26cad54642ed2d88d592f54fe1964279a2b0f": {
       "normalizationVersion": 1,
       "sourceHash": "29147ffe83af562bd7410089d691a4ff31fc34311fc561811d5586a8644b1006",
@@ -43,6 +57,34 @@
         "costUsd": 0.000051
       }
     },
+    "d3252dab637c5882027cdb9ee54a9b1ff16e1cf83f4c1a7dccf439e8f3f9f1f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c7799ec19cc2a1dc1a58f43600f61dfde7a15ced7e72701d11d2b4269914968",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前先预留协程概念位置。",
+      "translatedText": "Currently, reserve a place for the coroutine concept first\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "d329e63372a9405f5cd361eaefe780ff774eba4e9777ce108f205d8adf88dcb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "27c9eaf9162c80f74dd6219ea88e5ea667957c9010aa024fe1ef6e052e462941",
+      "contextFingerprint": "79b94d633f1a15d390e9d586588c050e6ddfc3ddc72ef2465a146de3575ff50a",
+      "sourceText": "| 用法 | 说明 |\n|:---|:---|\n| `auto [x, y] = pair` | 解包 pair |\n| `auto [a, b, c] = std::tuple<...>(...)` | 解包 tuple |\n| `auto [x, y, z] = struct_obj` | 解包结构体（按成员顺序） |\n| `for (auto& [k, v] : map)` | 遍历 map 时解包 key/value |\n| `auto [it, ok] = map.insert(...)` | 解包 insert 返回的 pair<iterator, bool> |",
+      "translatedText": "| Usage | Description |\n|:---|:---|\n| `auto [x, y] = pair` | Unpack pair |\n| `auto [a, b, c] = std::tuple<...>(...)` | Unpack tuple |\n| `auto [x, y, z] = struct_obj` | Unpack struct (in member order) |\n| `for (auto& [k, v] : map)` | Unpack when iterating over a map key/value |\n| `auto [it, ok] = map.insert(...)` | Unpack the pair\\<iterator, bool\\> returned by insert |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 59,
+        "costUsd": 0.000125
+      }
+    },
     "d330ec852e30934e00ddb025cafdf65b6231c359ed0f445a5a2a09f7db2b8016": {
       "normalizationVersion": 1,
       "sourceHash": "a443560c8d42233c5ce1d5093f080890dd9e9665cb63a4bfabe6741f9b34959e",
@@ -57,6 +99,20 @@
         "costUsd": 0.000142
       }
     },
+    "d3323e56951eec7ac31149da1dc1e3c5a67b272b160f3141cef17da15a43f45b": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4a586f97cd217ff7cdd078c1005794b8e2078a9379f74cbd4a4e2be5b15fe32",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 现在肯定有另一个线程持有 mutex。",
+      "translatedText": "> There must now be another thread holding the mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "d340bb092a90a6ad126af6edd7cf0742176b78b42ee269789e3bb0ee42120d49": {
       "normalizationVersion": 1,
       "sourceHash": "ed2847f33f2005d08b6f510bdbf3d9a74c0c869f44516ae8086f2f329216de56",
@@ -69,6 +125,62 @@
         "inputTokens": 163,
         "outputTokens": 44,
         "costUsd": 0.000102
+      }
+    },
+    "d352b35d36df5ba8900015011becc8915ea6d7810b7cd7c0d3d4fb496ccd83ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "4b355a5a9d18e61a5d04179f4deb485205bb2eadb49c333dc647fa79c0094f39",
+      "contextFingerprint": "e1a4c65553b06ed5b1e9bad51d987db24974cf55417d930b646b23188c5a7352",
+      "sourceText": "有时候一个变量需要存储\"可能是 int，也可能是 string，也可能是 double\"的值。传统的做法是 `union`（C 语言），但它不类型安全——你不知道当前存的是哪种类型，访问错了就崩溃。",
+      "translatedText": "Sometimes a variable needs to store a value that \"might be an int, might be a string, or might be a double\\.\" The traditional approach is `union` (C language), but it is not type\\-safe—you do not know which type is currently stored, and accessing it incorrectly will cause a crash\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 68,
+        "costUsd": 0.000134
+      }
+    },
+    "d3627f1a7ccedc7715077bea14e516acfee746bdc9a1769531e5c2411104b5b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc57ddeb37d8cb7b8dffb6e32705ae640ddbc7c33e624428ee35b1b0b62d9f00",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：参数只有两个的谓词，称为二元谓词",
+      "translatedText": "Summary: A predicate with only two parameters is called a binary predicate\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "d36361c320771275518fba5a339b7d6ee4088b8be615f30c0ebcc617aa1c4bda": {
+      "normalizationVersion": 1,
+      "sourceHash": "83b913331d90840cf41a482385d8f74626381e70abe89b5464eb19094010672a",
+      "contextFingerprint": "091e1a732d2fd7c749c82d508a35bab5f069aa964e583deaae3742d9848b3578",
+      "sourceText": "- `at(int idx); `     //返回索引idx所指的数据\n- `operator[]; `      //返回索引idx所指的数据\n- `front(); `            //返回容器中第一个数据元素\n- `back();`              //返回容器中最后一个数据元素",
+      "translatedText": "- `at(int idx); `     // Return the data indicated by index idx\n- `operator[]; `      // Return the data indicated by index idx\n- `front(); `            // Return the first data element in the container\n- `back();`              // Return the last data element in the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 48,
+        "costUsd": 0.000107
+      }
+    },
+    "d3e33029e545c2aa054cea86de09f705768e1a7d80ed34eed9c597bff2be5f85": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf82cfcb8873c6e0b19f0e6390a5222c440dacc649567cd3c2a4b88e866803a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "永远不会执行。",
+      "translatedText": "will never be executed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "d3e3a5e08c53df4c26977e86d663646328fb4191d18d2859f2c649b3b841e052": {
@@ -111,6 +223,20 @@
         "inputTokens": 150,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "d3f2bb583812be70731b94c5e51bf3065775db48897ae9be09d40970f828477f": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ae785c5201e8309f60158031c09bf9db3e1b5f2c503246dc7c4b010b8ba1e09",
+      "contextFingerprint": "33d97ee6ce393ac8ec05cbb1f1579f67c503ddde260bb8adf94edfabcbed416d",
+      "sourceText": "* `insert(pos,elem);`         //在pos位置插入一个elem元素的拷贝，返回新数据的位置。\n\n* `insert(pos,n,elem);`     //在pos位置插入n个elem数据，无返回值。\n\n* `insert(pos,beg,end);`    //在pos位置插入[beg,end)区间的数据，无返回值。\n\n* `clear();`                           //清空容器的所有数据\n\n* `erase(beg,end);`             //删除[beg,end)区间的数据，返回下一个数据的位置。\n\n* `erase(pos);`                    //删除pos位置的数据，返回下一个数据的位置。\n\n  ​\n\n  ​",
+      "translatedText": "* `insert(pos,elem);`         // Insert a copy of the element elem at position pos, returning the position of the new data\\.\n\n* `insert(pos,n,elem);`     // Insert n copies of elem at position pos, no return value\\.\n\n* `insert(pos,beg,end);`    // Insert the data in the range \\[beg,end) at position pos, no return value\\.\n\n* `clear();`                           // Clear all data from the container\n\n* `erase(beg,end);`             // Delete the data in the range \\[beg,end), returning the position of the next data\\.\n\n* `erase(pos);`                    // Delete the data at position pos, returning the position of the next data\\.\n\n  ​\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 221,
+        "outputTokens": 117,
+        "costUsd": 0.000207
       }
     }
   }

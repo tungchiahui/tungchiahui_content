@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "89027063a8a20d8caf41a5cb769ccc50b127a3b04aae62d1ddd246705664ed18": {
+      "normalizationVersion": 1,
+      "sourceHash": "81d58d749ebc030428d1b0d8fc64122f6f8b925af6b2a9f496ca470e4d336b9f",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### queue 常用接口",
+      "translatedText": "#### Common queue interfaces",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "89211b3f9659ec94c3444cf5abd2fa1cc7e7ccabaa94cc806f5716be87808ded": {
       "normalizationVersion": 1,
       "sourceHash": "cacdd035da5dcda3e58376a62ca2aba3c2466d145a95369aeb646ae0422a8ede",
@@ -15,6 +29,48 @@
         "costUsd": 0.000073
       }
     },
+    "89359942183065215bea77e7cb81f1af946241c52b3fcecb95549d543780efef": {
+      "normalizationVersion": 1,
+      "sourceHash": "41342d76e5abd2d36ddf6646b54f8562872b8cc40e83c60caa4084a7fe28d7c4",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 按条件查找元素",
+      "translatedText": "* Find elements by condition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "894407d252a957a61f2b4bec3384719891d71bdc521eb8087fd0517beba4678a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c824e1030f15a147bde0b2b81c424fcf4fb64c6a2c5a60e38db826bfb3802432",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 程序结束时为什么两个节点都能析构",
+      "translatedText": "#### Why can both nodes be destructed when the program ends?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "894b0979518c362bb46b526cc350f29b586a1987615a7f01e4d4a1f0fcf51467": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f59817a7e8d464ece8cb58fa40d9809f696623e439fd3d209925284f97390f7",
+      "contextFingerprint": "3f006750135490032b3495f5ca68756fe954c9dca856420c4e4687b69426b845",
+      "sourceText": "此时 `msg` 保存的是：",
+      "translatedText": "At this point, `msg` stores:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "8964b6b25c9dbe873b4a2cf19918529ef4b97908533f0da64b6e0fa90b1dad9f": {
       "normalizationVersion": 1,
       "sourceHash": "c495590f7c9c90cba75f541cfdba4b0abf9352d5a633d95088924a028f74e16e",
@@ -27,6 +83,20 @@
         "inputTokens": 147,
         "outputTokens": 21,
         "costUsd": 0.00007
+      }
+    },
+    "8975d0b3e876ddb2764f5a06ef98fbd05207ef52258caae0c59d927f6ae1761e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8683d2c07e5b900f3318ac93f53deb8c3a217e40a8afe86b9fed4e8428597c8",
+      "contextFingerprint": "34a8dbcd439f796e1f48f5c59ab8c332c26b3e81c365d97eeb0356f8a7b58cb0",
+      "sourceText": "1. 小而局部的逻辑优先用 lambda。\n2. 捕获列表尽量显式写 `[x, &y]`，少用默认 `[=]` 和 `[&]`。\n3. 保存回调、线程、定时器、异步操作中优先按值捕获需要的数据。\n4. 只调用一次、不需要保存的回调，可以直接把 lambda 传给算法或函数模板。\n5. 类成员函数中的回调使用 `[this]` 时要保证对象生命周期；需要独立保存对象状态时可以考虑 C++17 的 `[*this]`。\n6. 需要统一保存不同 lambda 时，再使用下一节的 `std::function`。",
+      "translatedText": "1. For small, localized logic, prefer lambdas\\.\n2. Make the capture list as explicit as possible `[x, &y]`, and avoid the default `[=]` and `[&]`\\.\n3. When storing callbacks, threads, timers, or asynchronous operations, prefer capturing the needed data by value\\.\n4. For callbacks that are called only once and do not need to be stored, you can pass the lambda directly to an algorithm or function template\\.\n5. When using `[this]` for callbacks in class member functions, ensure the object's lifetime; if you need to independently preserve the object's state, you can consider C++17's `[*this]`\\.\n6. When you need to store different lambdas uniformly, then use the `std::function` from the next section\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 244,
+        "outputTokens": 154,
+        "costUsd": 0.000258
       }
     },
     "898376b4e48a6841087cb0c2ec46687b33b13cdaed83b5561144f3dbe6a1a0d7": {
@@ -99,6 +169,20 @@
         "costUsd": 0.000059
       }
     },
+    "89adc0a5a54fa698ca40c06e9222e4e78c470e63056d9177b8382d5d8a1c916e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9cf02018925cc478b7a8c760da22aadf644600a470b6f89691945615ae2a1603",
+      "contextFingerprint": "a20527f3c32c3ce1c8ef9a15d9efee4a99f5918b28e97a873ad9d0a3af03c8de",
+      "sourceText": "正确做法：`Status s = Status::Running;`",
+      "translatedText": "Correct approach:`Status s = Status::Running;`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "89b495fb46715e921c02cde77f37b45475c117f9c416b8835c00900ce553b3e1": {
       "normalizationVersion": 1,
       "sourceHash": "81e9e9c8ddb799c6bce2e8a6408ce4844febfbd37917a81c0f26eac3c3fcf13c",
@@ -111,6 +195,62 @@
         "inputTokens": 137,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "89ba6d6f7cb0520a01522153bd850283bb5979e3f8e4cbf140a97e19f41d69ef": {
+      "normalizationVersion": 1,
+      "sourceHash": "7e0180ee9612a5741073c9de720e1bfef384221b7dce5e4e11b13c1d23b65c9f",
+      "contextFingerprint": "db7f5be5d0ca5565cb1790da994f70b89a7fe7a9a4de09365d06d0b9b274be01",
+      "sourceText": "其中 `begin()` 和 `end()` 经常一起出现：",
+      "translatedText": "Among them, `begin()` and `end()`often appear together:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "89e0d36b34f6177637b38dcecfc6036fdb9e8ae691bed1cdef66f1e26b0b4511": {
+      "normalizationVersion": 1,
+      "sourceHash": "b5a091a0bd9e67672fc8caa992f9fbffe6f795ae91f6948e59527d1773a25fdf",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 避免死锁：固定加锁顺序",
+      "translatedText": "### Avoid deadlocks: fixed lock ordering",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "89f00fe81b41753e636f4ae1be84bdc2a0f3be45976080a6e796172fc85c2cae": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6e6351163ecd7533118778d8eb5e2208391607e778936e97877c1f2cd1aa722",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- map不允许容器中有重复key值元素\n- multimap允许容器中有重复key值元素",
+      "translatedText": "- A map does not allow duplicate key elements in the container\\.\n- A multimap allows duplicate key elements in the container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "89f8ae60d6f4a5b741c3b978e22470887a914f70a798c9bf30df723bd61ebf64": {
+      "normalizationVersion": 1,
+      "sourceHash": "656ce5bab402d9f68b442cee3db6b3d0a677d30cab74cb76ea7f62c72516e21c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发编程真正困难的地方并不是“创建一个线程”，而是下面几个问题：",
+      "translatedText": "The truly difficult part of concurrent programming is not \"creating a thread\", but the following issues:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     }
   }

@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "460260c01c05270a2927ce2995877dc74137e27c2c5455531ac45cff4a1766fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "f809ace6bf7b2c230425e848ad9fa8178f2be5db18fa48e789d5bffa3749baab",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例4：把函数指针作为参数——回调函数",
+      "translatedText": "### Example 4: Passing a function pointer as an argument—callback function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "460659d758ef38ac0b7c140e2da4884ccf2de47679cf60a5f327477ad050c1ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d874f9d93af42f23ab95bcdd8aaaafd929f574772851bf109c69ea9725c3ccc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种能力非常适合表达异步流程。",
+      "translatedText": "This capability is very suitable for expressing asynchronous flows\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "460c3d7d554a8e1f106f8c1abe378e783b41ab596b1c65ee1415152e53854406": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f865b0d4d422d3b9df39011ad64f2c4114420e0e718426928b83d8d35d391cc",
+      "contextFingerprint": "a97765bc33e9e2b3f4623426b20d5a8bbec71d487f61436990018eaea5af4986",
+      "sourceText": "* C++另一种编程思想称为 ==泛型编程== ，主要利用的技术就是模板\n\n* C++提供两种模板机制:**函数模板**和**类模板** ",
+      "translatedText": "* C++ Another programming paradigm is called ==generic programming==, and the main technique it uses is templates\\.\n\n* C++ Two template mechanisms are provided:**function templates**and**class templates** ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 61,
+        "costUsd": 0.000127
+      }
+    },
     "461a9d9714aaab201b195b5898e642816e112799d67636b78a1bf93d525fc77a": {
       "normalizationVersion": 1,
       "sourceHash": "d46697296f43ba5a685d35a517749fe8e0f5ba4d3ab052a4916c179a75ba0b30",
@@ -13,6 +55,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "4623526e41192bf277ba5f3324594df4297484180802dc2cec90c59aa257fde1": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2a2ae73190bf388714ed501d147b8cfc8fb511cc3a2a0bb2f8d443040031ac9",
+      "contextFingerprint": "2fcff35503859312ff8f57b5449e7246bcf114c94d620caa94823dd24c1f64ad",
+      "sourceText": "`unique_ptr` 不能复制，只能移动。移动之后，原来的指针会变成空指针。",
+      "translatedText": "`unique_ptr`It cannot be copied, only moved\\. After moving, the original pointer becomes a null pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 25,
+        "costUsd": 0.000074
+      }
+    },
+    "46285546961c64b136d11205b3d53629c821b05e6dd8b055dca4525d9d96e7f5": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a017a2a2cfdaa0f74e1c24856093345592a8f3fd754dbb89490ffc80b2da25e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### pair对组创建",
+      "translatedText": "#### pair group creation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "462905e5e4b9efa88d914ea06e722a668cf61b83c6416a0774b72c5012072dff": {
@@ -43,6 +113,20 @@
         "costUsd": 0.000064
       }
     },
+    "46359caea4a1a27ff64f5fd2f7f1b580835c5c602ba11d9ff5b24dba581c74cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb35083d67286cf64f12bb31be65939f4214ef9c19b043abcc2ad237f40b7731",
+      "contextFingerprint": "f29325bff9c97eb13a817033936ee790514593718952a7fcd16cd34ea4d8f8a4",
+      "sourceText": "* STL(Standard Template Library,**标准模板库**)\n* STL 从广义上分为: **容器(container) 算法(algorithm) 迭代器(iterator)**\n* **容器**和**算法**之间通过**迭代器**进行无缝连接。\n* STL 几乎所有的代码都采用了模板类或者模板函数",
+      "translatedText": "* STL (Standard Template Library,**Standard Template Library**)\n* Broadly speaking, STL is divided into:**containers, algorithms, and iterators\\.**\n* **Containers**and**algorithms**are seamlessly connected through**iterators**\\.\n* Almost all STL code uses template classes or template functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 72,
+        "costUsd": 0.000146
+      }
+    },
     "463ce7fb821364e023bad1bddac8c2f993addd977b80e5bd3b25412ce5bfbf54": {
       "normalizationVersion": 1,
       "sourceHash": "3d9bd21f2fe2d9945f360afb143c313433d1f85ba9189cc6c120de75d0985128",
@@ -55,6 +139,48 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "463d3ae542df5e025b8101297d6630ddd0f358a49bf3df5cf243cec45f448509": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef5611c62827c6dfd16af3ebe44b3ce4a144e783a5ed46b7b7174163cda52d07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它支持：",
+      "translatedText": "It supports:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "466b32e5ec149e1bbd2008fdae19266a3843d9dd5f212075125d37e221a3ed31": {
+      "normalizationVersion": 1,
+      "sourceHash": "ca14d7e63e3733cffc6c7ec455ef086468cc3b5369f8c44c824d398e99e47546",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 模板",
+      "translatedText": "## Template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "467f7f680fcffd0cbeff5acd11432f4d83b66b7c115e199be7ddf3308b4cc813": {
+      "normalizationVersion": 1,
+      "sourceHash": "6162ecb310add498c4d0c9f02776179b312a01bced856c6d2dea624b03e90b54",
+      "contextFingerprint": "9f1ccac9a0200dfb9385faa18c427d60f473657d857703db24d04aed6cbafc40",
+      "sourceText": "`std::span` 提供了**统一的只读（或可写）视图**，不拥有数据，只是一个\"窗口\"，可以统一处理所有连续内存容器。",
+      "translatedText": "`std::span` provides**a unified read\\-only (or writable) view**that does not own data, but is merely a \"window\" that can uniformly handle all contiguous memory containers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 41,
+        "costUsd": 0.000098
       }
     },
     "4688cd47ef7493dfcb1fbcbb61b25973d16065dbd368d5aec8f11fe4abc641da": {
@@ -83,6 +209,20 @@
         "inputTokens": 191,
         "outputTokens": 80,
         "costUsd": 0.000154
+      }
+    },
+    "46ac704e89787c6ebf850cd8f03e13f01fecdf79868d11925e92041444de6376": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a723925aa63c48e3552ea0221e9b6462a10dacd75cd72cce952c83b6b973200",
+      "contextFingerprint": "1096ce85218ca3667d5103e8c0c570581dfc09f6b5215a6e91a99254b895edef",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 从 `pair.first/second` 改为解包 pair | `auto [value, ok] = pair` | C++17 可以一次声明两个有意义的变量名 | 变量名可以自定义，但对应顺序不能改变 |\n| 示例 2 | 从 `std::get<N>()`、数组下标改为统一解包 | `auto [a,b,c] = tuple`、`auto [a,b,c] = array` | C++17 对 tuple 和数组采用相似语法 | 变量个数必须和 tuple、数组的元素个数一致 |\n| 示例 3 | 从 `.成员名` 改为解包结构体 | `auto [x,y,z] = struct_obj` | C++17 按结构体成员声明顺序绑定 | 可绑定的成员需要满足访问条件，且顺序由结构体定义决定 |\n| 示例 4 | 对比 C++17 前后的 map 写法 | `auto [it, ok] = m.insert(...)`、`[name, score]` | 返回值和 map 元素都能直接取出并命名 | `insert` 返回 `pair<iterator, bool>` |",
+      "translatedText": "| Example | What was explained | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | From `pair.first/second` changed to destructuring the pair | `auto [value, ok] = pair` | C++17 can declare two meaningful variable names at once | Variable names can be customized, but the corresponding order cannot be changed |\n| Example 2 | From `std::get<N>()` and array indexing changed to unified destructuring | `auto [a,b,c] = tuple`、`auto [a,b,c] = array` | C++17 uses similar syntax for tuples and arrays | The number of variables must match the number of elements in the tuple or array |\n| Example 3 | From `.成员名` changed to destructuring a struct | `auto [x,y,z] = struct_obj` | C++17 binds in the order in which struct members are declared | The bindable members must satisfy access conditions, and the order is determined by the struct definition |\n| Example 4 | Compare the map syntax before and after C++17 | `auto [it, ok] = m.insert(...)`、`[name, score]` | Return values and map elements can both be extracted and named directly | `insert` returns `pair<iterator, bool>` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 323,
+        "outputTokens": 219,
+        "costUsd": 0.00036
       }
     },
     "46b4366cdd76afdbc468f19f45ccaaff53c7df5e27d84b753874b99ff061df96": {
@@ -127,6 +267,20 @@
         "costUsd": 0.000104
       }
     },
+    "46c4f9ba567876676547060a68a5b08682547731ed19aac5480db886a7f02ba3": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ee055b853d7ef5778af1b11db1eb5265b90049ebe7751fc234ad61dca5a69d9",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常和返回值错误码",
+      "translatedText": "### Exceptions and return value error codes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "46c7e9e4bbfbe8bd275525db28cc052926187a8f8649d12f3e74bf83f37d77e0": {
       "normalizationVersion": 1,
       "sourceHash": "d794f9198a047f0248ebc620fbdec7ee08aab7abbb5558fd17f62d023d3bff4d",
@@ -139,6 +293,48 @@
         "inputTokens": 161,
         "outputTokens": 51,
         "costUsd": 0.00011
+      }
+    },
+    "46de06433070d9e488c85efeb9dbdda8c449d86d95ab0193e5422433e4dcad21": {
+      "normalizationVersion": 1,
+      "sourceHash": "4edde487a19b5a96da78683ab8e93fd20a2e2f7617e3c6a9faf3ce86fbbb8f67",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果一个操作本来就需要：",
+      "translatedText": "If an operation originally requires:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "46eba2a11f1219583e4c565637386a2917509d7e0ea1a38d9edf1bb0cc83ef71": {
+      "normalizationVersion": 1,
+      "sourceHash": "257d5972c7f6307e936f870935026719a54b181b762fa71682e95098f393df3b",
+      "contextFingerprint": "0178ec3e7baabfaddb2a63faea76d801bbdc8ce24b04f170125a4a8e88e865f6",
+      "sourceText": "> `buf2` 原来的资源可以被转移，不必继续保留原来的内容。",
+      "translatedText": "> `buf2` The original resources can be transferred, and there is no need to continue retaining the original content\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
+    "46ec4576a068c40fc2d181f9656e4e571f62916d92771e4d276bb8fb01809515": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0bc4853a3ca9e7746bcf76a0267c6c8c9743dd5946df996818b78c0f3a61b6d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "假设有下面的函数：",
+      "translatedText": "Assume the following function:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }

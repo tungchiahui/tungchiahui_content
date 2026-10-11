@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "880c02cff7750f29618da4e9d183f9c5ac7cc30043b9bafce9a80b2a2075e031": {
+      "normalizationVersion": 1,
+      "sourceHash": "15855435680a9135b07e68937f3923322c3f30a5978b5bcf552e2b7d849a539f",
+      "contextFingerprint": "ed102e6512e24be9a1f1fa21b9d6a6aab604177be3c998850ae8ce63a977be50",
+      "sourceText": "需要注意的是，这个例子能够修改成功，是因为原始对象 `value` 本身不是 `const`，只是我们临时用 `const int&` 这种只读方式去引用它。",
+      "translatedText": "It should be noted that this example can be modified successfully because the original object `value` itself is not `const`; we are only temporarily referencing it in the read\\-only way of `const int&`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 41,
+        "costUsd": 0.000098
+      }
+    },
+    "8812ef7b77f69578f6425ee58b6692a602b52c9d9c4b0bd9d16117d133345819": {
+      "normalizationVersion": 1,
+      "sourceHash": "433ea1314f2a5234d1b0cceadad2da16e0b9048bed7de8900a4ffed2cf41c3f5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数对象使用",
+      "translatedText": "#### Function object usage",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "8819a5749397817e2099d13b4ce9a89ba33e5ce0ba7751f00bdc0b214db5d40f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd75e124eb14282878dfe72a60cf7600404f57e87429a32ea5c531d6ed32247a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### merge",
+      "translatedText": "#### merge",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "881da89529583de92c81039e7f125c5b2b469af1ac1c56ffe77efbd91d287b6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9698f1a5bf6f4e2df13a8e55d4c1eb96d8a9d57b102f4e8c2ba20a943e9b5f70",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 从字符串中获取想要的子串",
+      "translatedText": "* Get the desired substring from a string",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "882498fcf966cbb555d0e9ec3dceba3991f333fd867f127a746ea3c9ba935bec": {
       "normalizationVersion": 1,
       "sourceHash": "6334a66280973c7a13748f9a0d1fb0507569e160ddc1e0af6610976d4fa3f72e",
@@ -15,6 +71,20 @@
         "costUsd": 0.000051
       }
     },
+    "88268669b8f090ef01ac1842ff5855d240a1776b7288a5c9d596b701f79852f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "29f15fcb5f9abd070a9fb9c8a180f2dfeafca33513789864851ee42155b0c95c",
+      "contextFingerprint": "4196a6abc11133c5c66a9e8ef893031e371560921440097e7cff8605656b025d",
+      "sourceText": "这里的状态永远只能是三种之一。相比用 `int state_code` 加一堆额外字段，`variant` 能把每种状态需要的数据放在对应类型里，减少“错误状态却还读 running 字段”这类问题。",
+      "translatedText": "The state here can only ever be one of three\\. Compared to using `int state_code` plus a bunch of extra fields, `variant` can place the data required for each state within the corresponding type, reducing issues like \"reading the running field even though the state is error\\.\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 58,
+        "costUsd": 0.000121
+      }
+    },
     "882f0c710267912b57c0a1281c6fc961537646331536ad6845546795dff2c5c8": {
       "normalizationVersion": 1,
       "sourceHash": "66742d9addd64aa73d71804f4eb3f9a68f1e5b75acee28e45829bd2d86ac2dd6",
@@ -27,6 +97,62 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "8831df4c621a6f7bed132004b0b5560de2c766b3d2bd919486d2b61c795fe514": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b650460d019d15f194880b60210e09e4ce98360454de8f44c4e54b98e7a1e93",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "把这些问题想明白以后，mutex 本身的代码通常反而并不复杂。",
+      "translatedText": "Once these issues are thought through, the mutex's own code is usually not complex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "884267d14666386674e5c702be735f6da50b0b6fe718094a1d3b7dc44bf3441e": {
+      "normalizationVersion": 1,
+      "sourceHash": "97b16582abce78b7ae4a72570c12dfbfbac611dd95e0020ebed1a7c99c5031cc",
+      "contextFingerprint": "514fdddf9a0f1411b910d5a43ad6f4361a2b5a8f0df53f2d0b9e1d557a38bcdf",
+      "sourceText": "这里不是因为外部 `start` 的作用域变大了，而是因为 Lambda 对象 `counter` 自己保存了一份 `start`。",
+      "translatedText": "This is not because the scope of the external `start` has become larger, but rather because the Lambda object `counter` itself has saved a copy of `start`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 35,
+        "costUsd": 0.000088
+      }
+    },
+    "8842f2bf9087484cbe39a51e890e091eca66ed04a6c43b89983977069bbb611e": {
+      "normalizationVersion": 1,
+      "sourceHash": "05d1323dfb72897d54ed42df6a163b44f612ba3e3696bdddce3cb58987a31d94",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 拷贝构造为什么是“深拷贝”",
+      "translatedText": "##### Why is copy construction a “deep copy”?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "884da0eaeee8b861682ebcc8ac44a9cbcf7a3e3344db8f47d36d679279ab1502": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd7e42d296dd0599f6b1f22c07629bfe1164d3a0212bf09071ff12cf39f1acfd",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 关系仿函数",
+      "translatedText": "#### Relation functor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "88610de4929d083cb0a83e14fdb9bff688b7c9a70f0f2e672fa3546ba45993c7": {
@@ -83,6 +209,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "88e6e45fe9345312296deee9b4a1bc672710a045a544e6dc5cc9dfdc04d7f12c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5eccbc45f3a28a98cd196ddb687ba99255d04ea87ee5284c2bb5b759996e0ed0",
+      "contextFingerprint": "2aad15728927baf58bc87ee7ec20ff324c924f153888e807de65390b3ffc497f",
+      "sourceText": "1. **类型别名**：给已有类型起新名字，类似 `typedef` 但语法更清晰。\n2. **模板别名**：给模板类型起别名（`typedef` 做不到这一点）。",
+      "translatedText": "1. **Type aliases** : Give an existing type a new name, similar to `typedef` but with clearer syntax\\.\n2. **Template aliases** : Give a template type an alias (`typedef` cannot do this)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 46,
+        "costUsd": 0.000105
       }
     }
   }

@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a5093cad7bd7469be3622911c114f92e33febc5b82d065626544488350a490e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3620f47caa0b77d4fc6dcd5cbd9000d2fa36e239f231083a847a204ebbc61b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "指向它的函数指针可以声明为：",
+      "translatedText": "A function pointer to it can be declared as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "a53ef5e1853bfd7aa510c86aebfa08ffc8ba8f43abf6fc631623fec7d9d30219": {
+      "normalizationVersion": 1,
+      "sourceHash": "d5f79b70c83be05f0d589ee072d1ca92998a935294445c6cb58e05b9e43886ed",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **什么样的元素才算符合条件？**",
+      "translatedText": "> **What kind of elements qualify as meeting the conditions?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "a55719e0d237514ec1b8f9528551760be5343f64ca2228a153214c0848eec287": {
       "normalizationVersion": 1,
       "sourceHash": "25f2c1c88fc69aaba80aa2dcf41b1c7fa4008688ebb98f8fd51a176313d785be",
@@ -29,6 +57,48 @@
         "costUsd": 0.000139
       }
     },
+    "a5697e838de8af87840c0ef7091e5aa9daf64d39785c4525d8a53a0f71b634b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "e29af2930bcda352459a9da915a06f937ff4626e256a0aeb2bfe375747041398",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就可以作为 visitor。",
+      "translatedText": "it can serve as a visitor\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "a57a0fef08ccaf3f13de8bb7f14ddb496cc587802ee07ca84c870723d9b92ded": {
+      "normalizationVersion": 1,
+      "sourceHash": "974db31bb84344fd43cc5c2e99dae35f7a7a2e7bb46ad101ee2797abd8b4bdb1",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**函数原型：**",
+      "translatedText": "**Function prototype:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a58130aba1d5425b7afe7ee2bbac0ef2584a3974a164efa8f0bc2bddda045ca0": {
+      "normalizationVersion": 1,
+      "sourceHash": "840a7a15d649f5b9477fa6b27c7c8d904a9a6189486bc8ed5bd03d676dbc3ffb",
+      "contextFingerprint": "4b8d1814ffc6bcd736b84c6abad1fb0b2764224a1d5048577d930950589409dd",
+      "sourceText": "对于“单个简单共享变量”的同步，以及“让线程等待某个条件发生”这两类问题，后面的 `std::atomic` 和 `std::condition_variable` 章节会分别继续介绍。",
+      "translatedText": "For the synchronization of a \"single simple shared variable\" and the two types of problems of \"making a thread wait for a certain condition to occur\", the later `std::atomic` and `std::condition_variable` chapters will continue to introduce them respectively\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 49,
+        "costUsd": 0.000108
+      }
+    },
     "a581a902ff4f9834fa2aaf57784d4aa402556caf06272700590d55ec14321bd1": {
       "normalizationVersion": 1,
       "sourceHash": "d6e601802a23319779004e0102248faefdd82dee17aedea71bd26d5ebcfe500a",
@@ -41,6 +111,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "a5969a87cd17a230938c91bce5a8f662de62f625da81188cf3ea2f250ae4637a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1878e1b922ee5bd6997ea865a4467b5ab4d43186c4491bee310c92d392f7be17",
+      "contextFingerprint": "992e1ce16435a84b67adb1bf28b2907f444ef37a322709576619d569af40d482",
+      "sourceText": "C++11 开始，标准库正式提供线程、互斥量、条件变量、原子操作和异步任务等并发工具。到了 C++17、C++20，又继续增加了 `std::scoped_lock`、`std::shared_mutex`、`std::jthread`、`std::stop_token`、`std::latch`、`std::barrier`、`std::semaphore` 等能力。",
+      "translatedText": "C++ Starting from 11, the standard library officially provides concurrency tools such as threads, mutexes, condition variables, atomic operations, and asynchronous tasks\\. By C++17, C++20, it further added `std::scoped_lock`、`std::shared_mutex`、`std::jthread`、`std::stop_token`、`std::latch`、`std::barrier`、`std::semaphore` and other capabilities\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 210,
+        "outputTokens": 92,
+        "costUsd": 0.000174
       }
     },
     "a5a431cf2d314d099a6e073ea888bbacafe7f2f91dfb15d7b272d0558c4bf971": {
@@ -57,6 +141,20 @@
         "costUsd": 0.000079
       }
     },
+    "a5a4485f3984c73e241f5c7ac81652eaefa1b4f2b116cb9c47886354ebcc84fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bbe62cfe4a0f6ddb6d0ff1550fb032d23034173b42a6552ea8f0db44430e23e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list基本概念",
+      "translatedText": "#### Basic concepts of list",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "a5a86987a5f33ea345c684a7dc43dab95f6b982f5df727dc89782dcf9b26d63a": {
       "normalizationVersion": 1,
       "sourceHash": "0941bc8e8675f9a2de68c085c74c9e97eef90db4b927b2ce332ba60ef68996c2",
@@ -71,6 +169,34 @@
         "costUsd": 0.000091
       }
     },
+    "a5c7ce1574be2829e4f5213fe62029c86dd7542d82862c4ef2c5311ba4711953": {
+      "normalizationVersion": 1,
+      "sourceHash": "5371a41b1a66003f23c0c0542120917fe39d7a4bd0a583731b48c58b6d0f743b",
+      "contextFingerprint": "7272d5c5888b6039f06dcf30f4ce23a151a0fff8ba66f0e4e3d123db83e32067",
+      "sourceText": "| 用法 | 说明 | 何时使用 |\n|:---|:---|:---|\n| `for (auto x : c)` | 值拷贝遍历 | 元素类型小（int/double 等） |\n| `for (const auto& x : c)` | 只读引用遍历 | **最常用**，不想拷贝大对象 |\n| `for (auto& x : c)` | 可修改引用遍历 | 需要修改容器中元素 |\n| `for (int x : {1, 2, 3})` | 遍历初始值列表 | 快速遍历已知小集合 |",
+      "translatedText": "| Usage | Description | When to use |\n|:---|:---|:---|\n| `for (auto x : c)` | Value copy traversal | Element type is small (int/double etc\\.) |\n| `for (const auto& x : c)` | Read\\-only reference traversal | **Most commonly used**do not want to copy large objects |\n| `for (auto& x : c)` | Modifiable reference traversal | Need to modify elements in the container |\n| `for (int x : {1, 2, 3})` | Traverse initializer list | Quickly traverse a known small collection |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 80,
+        "costUsd": 0.000154
+      }
+    },
+    "a5c9b2dc8a1db8d52e1ec170c23c6551c7ee5b33a8e9a2c1fb586fda6d6c700c": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e00ee1099495242966ea594f8c8eb18dc7d97b75167d7ee65691b094e2b29bd",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 四种转换怎么选",
+      "translatedText": "## How to Choose Among the Four Conversions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "a5cd024087ecfc6a7cc47a0a956416408aed66b5ab840ae2739fe108aaa1f15f": {
       "normalizationVersion": 1,
       "sourceHash": "3f07530ad41b286b4f907ed4102107fd8e88f58f22dc0f508086971342a1733e",
@@ -83,6 +209,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "a5da3385a716f7c28a5be8ecb9a00ff53f0b27e6508680351d2e7d476e7e4700": {
+      "normalizationVersion": 1,
+      "sourceHash": "81ee0a54aeffa2889b5507b62abe2cf328480be8b4f160fce4b9ad169ef1219a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以设计 mutex 时不要只想：",
+      "translatedText": "So when designing a mutex, do not only think:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "a5f413c4bb2c9db29f3340c838f686817a51655c00a5173cb30ed07bf529a166": {

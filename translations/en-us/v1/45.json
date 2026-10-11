@@ -1,6 +1,160 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "450043d1932f31f5e7719c7e9c804973543b7100ef808db70928ec46a4b8ad87": {
+      "normalizationVersion": 1,
+      "sourceHash": "eedc06c778d0e17d19cd2f997bd694fa1a45ee42e432abb78d4c1794c0e2af5f",
+      "contextFingerprint": "978e4bd3b20b81bbf2827d495aabd4abb05be74608361e078386e4723cf107c1",
+      "sourceText": "这里最关键的不是“前后指针必须分别使用哪一种智能指针”，而是要先判断所有权关系：**真正负责对象生命周期的一方使用 `shared_ptr`，只负责观察的一方使用 `weak_ptr`。**",
+      "translatedText": "The most critical point here is not \"which type of smart pointer must be used for the forward and backward pointers respectively,\" but rather to first determine the ownership relationship:**The party truly responsible for the object's lifetime uses `shared_ptr`, while the party only responsible for observation uses `weak_ptr`\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 63,
+        "costUsd": 0.000125
+      }
+    },
+    "45017feaa1318a0dc4ed5375f6fe55ee392c9b1387a1ff7fde2b1dda5f45e59e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0b1a883732b696c86a64953df9a487c8c4a54686fab5f438a7cbad0f8ab7d32",
+      "contextFingerprint": "cf9e1b006c893c38eef6bf34a0d64db14d1bbed278b716af1839e2c26bf16170",
+      "sourceText": "C 风格数组（`int arr[5]`）有很多缺点：不能直接赋值、传给函数时会退化成指针丢失大小信息、没有边界检查。而 `std::vector` 虽然功能强大，但它是动态分配内存的，有微小的额外开销。",
+      "translatedText": "C\\-style arrays (`int arr[5]` ) have many drawbacks: they cannot be directly assigned, they decay to pointers when passed to functions, losing size information, and they lack bounds checking\\. While `std::vector` is powerful, it uses dynamically allocated memory and incurs a slight overhead\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 58,
+        "costUsd": 0.000123
+      }
+    },
+    "4508fb95b790b7bd74ee7e7f62cd31b170e491db5d29c55043acca49adfacc55": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7f0b9aa4b52c84c549e837e632894c923bc66366507eb50371d7458aca7c512",
+      "contextFingerprint": "35db30e9ca5af4999ce08fd6e8216f9b1b6b04edcd17ebfd699443f29e459859",
+      "sourceText": "- `replace(iterator beg, iterator end, oldvalue, newvalue);  `\n\n  // 将区间内旧元素 替换成 新元素\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  // oldvalue 旧元素\n\n  // newvalue 新元素",
+      "translatedText": "- `replace(iterator beg, iterator end, oldvalue, newvalue);  `\n\n  // Replace old elements in the range with new elements\n\n  // beg Start iterator\n\n  // end End iterator\n\n  // oldvalue Old element\n\n  // newvalue New element",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 39,
+        "costUsd": 0.000098
+      }
+    },
+    "450f37a816b23152f2c6e216e821774b8ac76c0c45ff1c5bfa1a8c27e1481c61": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e51ab043333c327df3d1a40a7173821be8375a1e1f9de0e2e2340a32957a4d4",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* find查找是从左往后，rfind从右往左\n* find找到字符串后返回查找的第一个字符位置，找不到返回-1\n* replace在替换时，要指定从哪个位置起，多少个字符，替换成什么样的字符串",
+      "translatedText": "* find searches from left to right, while rfind searches from right to left\\.\n* After find locates the string, it returns the position of the first character found; if not found, it returns \\-1\\.\n* When replacing, replace must specify from which position to start, how many characters to replace, and what string to replace them with\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 76,
+        "costUsd": 0.000144
+      }
+    },
+    "451d61f76bfb77b81773f03317fde29f78f98c11e26c1e84730123f3b6937221": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d802d9c72961027eb3fe18bbd92db1ccc7dd344f02ce39ffcdd7b030f8a1df8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：map中所有元素都是成对出现，插入数据时候要使用对组",
+      "translatedText": "Summary: All elements in a map appear in pairs; when inserting data, a pair must be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
+    "451ef7d944f47b672de897831922d652817f130065fba3cea11ce1aededb3485": {
+      "normalizationVersion": 1,
+      "sourceHash": "3a3831477652e4360fd7eeb3142f3ecded48664dd2d11dff8eaee0739fad9e67",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Lambda 表达式可以在使用位置定义一个小型匿名函数。基本语法如下：",
+      "translatedText": "A lambda expression can define a small anonymous function at the point of use\\. The basic syntax is as follows:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "4535d3275ec0e12df33f45dc1dca8539486c5d902884a0d5fa2c3adaf458cc38": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd559064c69819aa45e7b53e90d465219fffd764d254af102068e2205b5072f8",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**总结：** 搬运的目标容器必须要提前开辟空间，否则无法正常搬运",
+      "translatedText": "**Summary:** The target container for handling must have space allocated in advance; otherwise, handling cannot proceed normally\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "453aeed350381fd3cc1e7a64319f9507d3dd12532afae34f77840b1b55eacefe": {
+      "normalizationVersion": 1,
+      "sourceHash": "7eae8edc881b8bfc251a9333fe951e5ca67a16c83980b1aaa9a3b673184817b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它回答的问题就是：",
+      "translatedText": "The question it answers is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "454ee0ef73fcc359f6e54d29d038b71a713542d7d32435160232172e7944fe11": {
+      "normalizationVersion": 1,
+      "sourceHash": "6aa06e675de99072a4fdec232591f9b263a7b8834e069d8184d1c2c389760c20",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "构造：",
+      "translatedText": "Construction:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "4569610f6e0857ea641ebcbddc7034b3947cd5d21f5f7dd25275250180914ff6": {
+      "normalizationVersion": 1,
+      "sourceHash": "570e9bb5aa8500fbb099cdbb5cc1ad00a5cde4e59fa5f1ba36f3f966f67cd837",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：auto 不加引用，修改无效**",
+      "translatedText": "**Error 2: auto without reference, modification has no effect**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "45971da773ad80c098c14445f1e59721513ad3b51e3daf5737ce68b6a26451f0": {
+      "normalizationVersion": 1,
+      "sourceHash": "37ee659a835b48c77f8a945f274daafcd3ae294fe6239c331d021fc85691077a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以示例的排序结果是：",
+      "translatedText": "So the example's sorting result is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "45a187d7945337d977dfabac335420a2158b7bf1c966e22406becb8b896648a5": {
       "normalizationVersion": 1,
       "sourceHash": "fffff2e1eada58167e11845e96c150d8d8be1aedb5d0568de9d77c16cb47fb91",
@@ -13,6 +167,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "45a5774afa7f326aa0519775e6ecc8700205119e64747cd62e246706ed8ee13f": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c7eea1f6e6ce91ed46309b08d3224477cb68ed6c6b1bd134dc93aea91db2aad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其他需要这把 mutex 的线程只能：",
+      "translatedText": "Other threads that need this mutex can only:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "45afa63a2e07b41d76245582f7af706223efbf23f5f235a7db586b8d06ee9719": {
@@ -43,6 +211,20 @@
         "costUsd": 0.000062
       }
     },
+    "45b7ba1a429e388eee373251b9316b7912dd2d86b0a20f92e38348e4243051ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "8182347d770bb895fdeb14a4fa4925b388838a479cceddf44a5f659221fb3273",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "标准库提供：",
+      "translatedText": "The standard library provides:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "45c7e6706c1a2c85911e077c488f97b16a0ea8dcc26d3f7c03ebc9f1d5f7d3e0": {
       "normalizationVersion": 1,
       "sourceHash": "c9c56f1d9497fe27fb2c9c983c057e5aa85ec39a86cb5fb07459b436d79ffae6",
@@ -55,6 +237,48 @@
         "inputTokens": 141,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "45d91d827d7b7174d7aeeefe4fd5fc51a61a48aba6616fa66887f2b79e07e17a": {
+      "normalizationVersion": 1,
+      "sourceHash": "41227b5092b0f9d20c8b7ae2b7848fa322f7c479f49eeb538131d34c02085b19",
+      "contextFingerprint": "f7cffe5368648a20572c8954fac3dbb60f9099ad0cde2b45de0db99bd5d8b70f",
+      "sourceText": "#### `std::find_if`：这个元素是不是我要找的？",
+      "translatedText": "#### `std::find_if`: Is this element the one I'm looking for?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "45e4f89c8f2a7e9d8cee2aefc63478470eaf75b9e0056ce59653ee1b3d981b65": {
+      "normalizationVersion": 1,
+      "sourceHash": "f31ede75007e1fbd829c1a295a15639a9015b126dba2a6854f6d22312fb48b84",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一句话总结：",
+      "translatedText": "One\\-sentence summary:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "45f7509b1f070fd86124da32f72b1cdd78bf22011bec0fef9997c746fc56d820": {
+      "normalizationVersion": 1,
+      "sourceHash": "41b458e5d81b5b76688360be888dd8548c4ab3ab38430e6f0d45f9b59b9084c7",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 注意：不要依赖参数调用时可能发生的隐式类型转换。函数本身的类型必须与函数指针类型兼容。",
+      "translatedText": "> Note: Do not rely on implicit type conversions that may occur when calling arguments\\. The type of the function itself must be compatible with the function pointer type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 37,
+        "costUsd": 0.000091
       }
     }
   }

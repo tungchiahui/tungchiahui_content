@@ -15,6 +15,34 @@
         "costUsd": 0
       }
     },
+    "5a288c6a833458a3c9cb9003537cc4d759e35ab70fe3575ba269ec3122507f9e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f52c9dae511946ab3b486d5946f84d4d5bcfd407d09426a2bed1a090189300cb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### transform",
+      "translatedText": "#### transform",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "5a2c139c9ee92b9909b4ed737ad08104f88f226b264d2e3c983db5f1df0ac374": {
+      "normalizationVersion": 1,
+      "sourceHash": "3ec0f85349ca55be4622ed1fc40fedea9fd6f3a0701ba709d41baa1abe100769",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以手写成循环：",
+      "translatedText": "It can also be written manually as a loop:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "5a3c53a632f2ab6e444042c66ad4bf8422934200fb4c9cac7da97591ae621333": {
       "normalizationVersion": 1,
       "sourceHash": "e1ffb17ac3d53a973669e141a404192d25f33ea43335fc5fafcd67597875d919",
@@ -99,6 +127,20 @@
         "costUsd": 0.000114
       }
     },
+    "5a7a798abd4a6311c46fb4013af3a27eee032bdf019f32ac932f66a0eca95b04": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d0e1a778a12425ea80c26bf682b9b4ac422acd55057a1b9324ac32f4f9b9a4b",
+      "contextFingerprint": "457f1af6fa111f9872ce70a57b94af56d264df9b33a7d306412673403aee9125",
+      "sourceText": "`weak_ptr` 不拥有对象，因此它不能保证自己观察的对象仍然存在。也正因为如此，不能直接写：",
+      "translatedText": "`weak_ptr`does not own the object, so it cannot guarantee that the object it observes still exists\\. For this reason, one cannot directly write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 34,
+        "costUsd": 0.000087
+      }
+    },
     "5a954d224bb86dd95ad56635689d0a0193aea652f1cc7090a632e1027288e236": {
       "normalizationVersion": 1,
       "sourceHash": "a6390ba01e1ea422f5e1e9635a563b36e8c9095d74773cb182732de6104b6ba4",
@@ -109,6 +151,20 @@
       "model": "deepseek-flash",
       "usage": {
         "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "5a98fcce2841649b711033acf1f90772a00eea1fb49b245abc963c83ee3a148a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6760bea0933c6feae6543e3438b96c6e18ec1b6e3ce0eccbfef6b6ff3bc815b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "< 返回  -1",
+      "translatedText": "\\< Back  \\-1",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
         "outputTokens": 12,
         "costUsd": 0.000055
       }
@@ -125,6 +181,20 @@
         "inputTokens": 152,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "5ab0457380ad9c94be9e13763aa1d9a0e99e32426c0501244cb7824f1f5024cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "5df2a5379ab5aead9ce893b31f1f2fd5a7cb81082e8e653953a17e1204c627c0",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**注意：**",
+      "translatedText": "**Note:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "5ad03217b75b43e4a6ff3307bd00cb42261910804e80f8146a2ea810f92b9be1": {
@@ -153,6 +223,34 @@
         "inputTokens": 136,
         "outputTokens": 21,
         "costUsd": 0.000066
+      }
+    },
+    "5ae54d6f18d005ab97a69d31acbc93ee472dec66fb25939c2d3bf27724c243c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f01a20c87b436007f5ea912e3d1a3cde96bac4c3090f6d91d1b2b26de329280",
+      "contextFingerprint": "981d7014ded7ba9b014e5b203363e5e672e39d52ddd347e468347c026e73e05b",
+      "sourceText": "传统的 `for` 循环遍历容器需要写三要素（初始化、条件、递增），容易出错：下标越界、用错边界条件、类型不匹配等等。",
+      "translatedText": "Traditional `for` loop traversal of containers requires writing three elements (initialization, condition, increment), which is error\\-prone: out\\-of\\-bounds indexing, using the wrong boundary condition, type mismatch, and so on\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 163,
+        "outputTokens": 48,
+        "costUsd": 0.000107
+      }
+    },
+    "5aee45af4904633dd5de02bcfa9d583dfa7fa8fcca582f97b44059d8b7f6feb0": {
+      "normalizationVersion": 1,
+      "sourceHash": "7393dd839c15075fdc5ee7e2bb5bf30ff836b120a8d432957950c0afaa605dd8",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 明确哪一份共享状态由哪一把 mutex 保护。",
+      "translatedText": "> Specify which shared state is protected by which mutex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 18,
+        "costUsd": 0.000065
       }
     }
   }

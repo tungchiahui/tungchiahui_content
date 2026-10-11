@@ -15,6 +15,34 @@
         "costUsd": 0.0001
       }
     },
+    "18102e65dec9c71be1965ec511f3a4ba68d6e4051325768dc804a800644bf961": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b069052774a051fd1699164ef8322362b31f9f38b2ed5611805386d7b93b6f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "仍然可能产生数据竞争。",
+      "translatedText": "data races may still occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "181218ba469cf73b7943f2bf4e2c49a7d724873126b8f883019db13e12b815d4": {
+      "normalizationVersion": 1,
+      "sourceHash": "af5f8da0213f635e5b640b41930842e4ab69a135d36adc80074c28c789f90665",
+      "contextFingerprint": "97ec27a63a8b25615288b7bc5eb8231ece7917054a52b0b6c574278b3b90f5cd",
+      "sourceText": "`exchange()` 会原子地：",
+      "translatedText": "`exchange()`will atomically:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "18259755af01f93b937667703d6b208d6f75f3d86fb828fab39dd9437366fafe": {
       "normalizationVersion": 1,
       "sourceHash": "fb00e40945373b636ad8eb165d63de8e8f4b165078ee8235c55a9f4e82488704",
@@ -27,6 +55,34 @@
         "inputTokens": 143,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "1829a2fa6d5d372640a3666503463a0d741db0523c61ae7f721f32aecd1b696c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3914ca0570904ebc7707950d5f7721e4f634f5f72e7cb324ff2d47c81b7ac18e",
+      "contextFingerprint": "3ee17d8ed162e528484ceb703d40daaff75e0484ed86225d88617c1d5b981655",
+      "sourceText": "* 对于自定义数据类型，必须要指定排序规则，否则编译器不知道如何进行排序\n\n* 高级排序只是在排序规则上再进行一次逻辑规则制定，并不复杂",
+      "translatedText": "* For custom data types, a sorting rule must be specified; otherwise, the compiler does not know how to sort them\\.\n\n* Advanced sorting merely applies an additional logical rule on top of the sorting rule, and it is not complex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 52,
+        "costUsd": 0.00011
+      }
+    },
+    "18571a7cdf04de0ac7c98e20923f7b34f3ead4c236834da9460c99aaf4e683c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1f4c980c22e5ef13a8e0a7380157c8541839b459b71893f41bde928ba8da98ce",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Lambda 为什么也能作为 Visitor？",
+      "translatedText": "#### Why can a Lambda also serve as a Visitor?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "18626fa1caf3e760b830ada2c9f2def0cdaed616458d97dc93c6ed1c16722bba": {
@@ -43,6 +99,76 @@
         "costUsd": 0.000056
       }
     },
+    "18634e3798651f4114faf901cef67abf9fb839486f29848eb111044aec2737fa": {
+      "normalizationVersion": 1,
+      "sourceHash": "6780639388643b5b8346abea950af58458b3be302d33673e6f19e13e1b656bad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "只要函数类型相同，一个函数指针就可以在不同时间指向不同函数。这可以把“选择执行哪个操作”和“执行操作”分开。",
+      "translatedText": "As long as the function type is the same, a function pointer can point to different functions at different times\\. This can separate \"choosing which operation to execute\" from \"executing the operation\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 47,
+        "costUsd": 0.000105
+      }
+    },
+    "1865c9ffec09ece6f3a5722205a802760ce4b4776effa2aacdeffe21a77a7248": {
+      "normalizationVersion": 1,
+      "sourceHash": "870fafd2fa2c12566749c762b645c8efab8609a71fa79e4ebdf87282a5329533",
+      "contextFingerprint": "9dda87b9f0f19124046d4ed245a5a9768c77ba5027f71c2a75f872eb738649b8",
+      "sourceText": "下面介绍的 `static_cast`、`dynamic_cast`、`const_cast` 和 `reinterpret_cast`，都是 C++ 提供的显式类型转换。",
+      "translatedText": "The following described `static_cast`、`dynamic_cast`、`const_cast` and `reinterpret_cast` are all explicit type conversions provided by C++\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 34,
+        "costUsd": 0.000089
+      }
+    },
+    "1866efa0cb2f53e0b4540aec328775a118c4c73bd5891c4d33f77735558caedf": {
+      "normalizationVersion": 1,
+      "sourceHash": "74ee232fdcf8b6513e71d3c4e400271523e96d6cb3ea5f784823a22fd0af214f",
+      "contextFingerprint": "6132bb95e471e99fbfaaa79a8d3506a6a8213a02e14efd3b01aaa58c63869cca",
+      "sourceText": "按值捕获的变量默认在 lambda 内是只读的。加上 `mutable` 后，可以修改 lambda 自己保存的副本，但不会修改外部变量。",
+      "translatedText": "A variable captured by value is read\\-only inside the lambda by default\\. After adding `mutable`, you can modify the copy stored by the lambda itself, but it will not modify the external variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
+    "187080fa2d942b113e82e4dd8426eda85d068200b4960149101e64cc2565bbc9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3044d5ad8b081113bb7df87ceca2ab0172bab0d690ec74b14fd5e3cc79f352e7",
+      "contextFingerprint": "28a1294318e8e7860b484f65b37c41643cced0078e80730025268a3ceb5d68c5",
+      "sourceText": "它就是创建了一个临时的 `MessageHandler` 对象。",
+      "translatedText": "It just created a temporary `MessageHandler` object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
+    "187fbced7209c6d23ff5ed90a80ae4b36a0dcfc203d1109d6f3368501d1be055": {
+      "normalizationVersion": 1,
+      "sourceHash": "8089e50942ab21088cb138823141c681ce11af471b808343a8ec494df86d8a61",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以从思想上来说：",
+      "translatedText": "So conceptually speaking:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "18899b543bfa96c827cf91db2efb7b8832aad38c283d40c83ed429ec4129fa78": {
       "normalizationVersion": 1,
       "sourceHash": "a3e98b8a0e9345cdddbcb47b3c837690ecfbd1891a1d839f8b843e5ce081e3b1",
@@ -55,6 +181,34 @@
         "inputTokens": 147,
         "outputTokens": 29,
         "costUsd": 0.000079
+      }
+    },
+    "189a1c73f26c54d18a5f1c04ab58bb0eaa734cb5b5b817dd9a2ec3c3bbd6a612": {
+      "normalizationVersion": 1,
+      "sourceHash": "810e403a20dd68c9ab9181d7ef6936d3f0828fc74c949a2c1344209babad98b9",
+      "contextFingerprint": "46650a18384b76fcafab0796301b08583c808991f39827175d2fedfa7dda444a",
+      "sourceText": "这是 `std::thread` 最容易让初学者误解的地方之一。",
+      "translatedText": "This is `std::thread` one of the places most likely to confuse beginners\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "18aa3ee49e1bacdcf41113809d26e0698098ab38db4437075f313bee7cd9d0fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ad9738291b413b0303e259922391af7e59b8891dbfd517c1f62c10072915930",
+      "contextFingerprint": "f90a4604cf7cfa28295e362c19d6046f381bfdb345c83eede8ff663ba0e62db1",
+      "sourceText": "#### 为什么反向指针不能也使用 shared_ptr",
+      "translatedText": "#### Why can't the reverse pointer also use shared_ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 25,
+        "costUsd": 0.000074
       }
     },
     "18ad9778ead13a0577ba34f40da653b5b089d0292638013a93b7ebc90cce7129": {

@@ -71,6 +71,20 @@
         "costUsd": 0.000051
       }
     },
+    "835d8dba729ceff57a8c58adb6921da1c997865a96727c309d18338a9da8d226": {
+      "normalizationVersion": 1,
+      "sourceHash": "f65a7e7b7917b04ff5d1c9d8cb77e2ecebb71fe2e0aa00ce8b5da637695f2db1",
+      "contextFingerprint": "c7f08bfb9686214e180450882e080587feeb4aad093c395c576a63b42d19133c",
+      "sourceText": "`std::array<T, N>` 是 STL 中封装了固定大小数组的容器模板。它大小在编译时确定，不动态分配内存（在栈上），包装了 C 数组同时提供 STL 容器的标准接口。",
+      "translatedText": "`std::array<T, N>` is a container template in the STL that encapsulates a fixed\\-size array\\. Its size is determined at compile time, it does not dynamically allocate memory (it is on the stack), and it wraps a C array while providing the standard interface of an STL container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 175,
+        "outputTokens": 59,
+        "costUsd": 0.000124
+      }
+    },
     "836789cde46912339056076666ac26ba3789392276c634dcf2aa5c033b2e8c7f": {
       "normalizationVersion": 1,
       "sourceHash": "daae4aa9c68335682887816d23af7dbb3fc3c1fe5a55a4d178a50c198b2e3fb6",
@@ -85,6 +99,48 @@
         "costUsd": 0.000068
       }
     },
+    "83703cf02b026ea1103cf607ea23eae28b671d648bed183f4d9161d2d1384856": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e325e97a74fa17367c5e0953c2bf8709c87c16dac6a8e9466e7704257092b15",
+      "contextFingerprint": "844e9cce7083cd9b1f68dae676f30adaa131bbf244b1f9b9ec49cd913265d5d0",
+      "sourceText": "- `empty();`            //判断堆栈是否为空\n- `size(); `              //返回栈的大小",
+      "translatedText": "- `empty();`            // Determine whether the stack is empty\n- `size(); `              // Return the size of the stack",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "837c32548b07b444f89845e4bd14d8d1242ff7d6e6f258cbf145963e17031897": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc6c9ba5530dcb957a36f87cb14a6b552d67ecdcf0a5940ea844160a89179616",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常更加直接。",
+      "translatedText": "usually more direct\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "838d8fe756e34f1132e35e683692aaa2830d98ab1868940f12c759403e92c5ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "f5d80d816ffe9ba1f2d487209c54c3a8af2cfad19aeb2de1d562b592b715ccc1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### catch 捕获顺序",
+      "translatedText": "### catch capture order",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "83a8b09f6a0973ca386bab3568e2b7fc523609164da231e25c7d8112c14a886f": {
       "normalizationVersion": 1,
       "sourceHash": "8239d4fa13f26257d315cb6f4d41a7963301a2fe75bd2f7d7ead467c55155e1b",
@@ -97,6 +153,20 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "83b5bf36c5a3e9d7ef0035fedad3690cdb8344ba8b5f19273929962441ebff3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "fa4d847ca54d047a9cbc2bfb73f3d15ae7e0ee6cf311d99207e2c3bbe4bdad41",
+      "contextFingerprint": "b8e1024f1d872c422c5523e2f0ddaf4a12a19de29a3a489290b1b210b71be8da",
+      "sourceText": "* push_back(elem);//在容器尾部加入一个元素\n* pop_back();//删除容器中最后一个元素\n* push_front(elem);//在容器开头插入一个元素\n* pop_front();//从容器开头移除第一个元素\n* insert(pos,elem);//在pos位置插elem元素的拷贝，返回新数据的位置。\n* insert(pos,n,elem);//在pos位置插入n个elem数据，无返回值。\n* insert(pos,beg,end);//在pos位置插入[beg,end)区间的数据，无返回值。\n* clear();//移除容器的所有数据\n* erase(beg,end);//删除[beg,end)区间的数据，返回下一个数据的位置。\n* erase(pos);//删除pos位置的数据，返回下一个数据的位置。\n* remove(elem);//删除容器中所有与elem值匹配的元素。",
+      "translatedText": "* push_back(elem);//Add an element at the end of the container\n* pop_back();//Remove the last element in the container\n* push_front(elem);//Insert an element at the beginning of the container\n* pop_front();//Remove the first element from the beginning of the container\n* insert(pos,elem);//Insert a copy of the elem element at position pos, and return the position of the new data\\.\n* insert(pos,n,elem);//Insert n elem data at position pos, with no return value\\.\n* insert(pos,beg,end);//Insert the data in the range \\[beg,end) at position pos, with no return value\\.\n* clear();//Remove all data from the container\n* erase(beg,end);//Delete the data in the range \\[beg,end), and return the position of the next data\\.\n* erase(pos);//Delete the data at position pos, and return the position of the next data\\.\n* remove(elem);//Delete all elements in the container that match the value elem\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 323,
+        "outputTokens": 238,
+        "costUsd": 0.000383
       }
     },
     "83cd71ff2795a58c9e09e79833eee14f2614ba8fdcea7df967b3ae7957389876": {

@@ -29,6 +29,34 @@
         "costUsd": 0
       }
     },
+    "693b313bd3eabfced70559f69ad2137aaaa07dd2e9a110f47b99af1e10d04a5e": {
+      "normalizationVersion": 1,
+      "sourceHash": "62a901f462f8694ff123f689d6106a3288464dbed7cd09437eae621e9cf9439b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "等线程 A：",
+      "translatedText": "Wait for thread A:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "69420292f71e6a08ba0ac0ab958379d161b3dc6932604840e1ebb1cb75bfb41b": {
+      "normalizationVersion": 1,
+      "sourceHash": "8d13a10af68956812c9c7e049d560a2e9b774c245ec13846c251a60289989739",
+      "contextFingerprint": "24effcd54779d9200708c91dccd31a8d788accfcf2e44da531289d384ef61a58",
+      "sourceText": "注意第一段输出里没有 `old resource destroyed`，这就是手动 `new/delete` 在复杂路径下最容易出的错。",
+      "translatedText": "Note that the first output does not contain `old resource destroyed`, which is the most common error when manually adding `new/delete` in complex paths\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
     "69477d0c9b450626da4fe3fe5e4092bf0eb2ee98c2395e90d33044ce7e7cd9f1": {
       "normalizationVersion": 1,
       "sourceHash": "bc5de85868cf8d7f3529948eafc153a36614daad78d63b9a7f08c25f135354bd",
@@ -71,6 +99,34 @@
         "costUsd": 0.000055
       }
     },
+    "696bf4abd3b49fdbd9a94b2f5ef7d0c4f43a29932aae5ba93a88e0893313fd2d": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f1b8c05bf3a00f7d8e93030075ebdfe71b7f466f133b682fa53ad071dfdb091",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**set和multiset区别**：",
+      "translatedText": "**Difference between set and multiset**:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "697a47d5f6cf1884a1733798dc71b87fb5cd4152fa87569a16d76dc54f8955bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "48adbeb86584dc906fd2153eefd7b569d83b3eab369f7ab49d56c58cf6931ef9",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 常用时钟对比",
+      "translatedText": "## Comparison of Common Clocks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "697d2b3f92bbf7de5531768269f72da8d44e177abc742caa46ceab8e39c813c7": {
       "normalizationVersion": 1,
       "sourceHash": "0372ad768a55dddd7bc45d025b70e45f11d377f207dec601c57d7c906f3a686f",
@@ -99,6 +155,20 @@
         "costUsd": 0.000104
       }
     },
+    "69820248f2dd66dc0001e58e836c7c69b52097f5b302c6d8c953f067966ddaf8": {
+      "normalizationVersion": 1,
+      "sourceHash": "849e470adae17aca3c122724d7ad43bc9dd546d9b91680579c7c9bc96d4a3179",
+      "contextFingerprint": "01040c8e9b6886ca658ecc35c6d2f71a84727f0aa22a58e140f97f368a626cfe",
+      "sourceText": "中的 `min_length` 是 `int`。转换以后，两边使用适合的同类整数类型进行比较。",
+      "translatedText": " where `min_length` is `int`\\. After conversion, both sides are compared using suitable integer types of the same kind\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "698471f399f0a8611e2117fb95d3149b682ecbdcc2812707f4b9dddbbec66ac5": {
       "normalizationVersion": 1,
       "sourceHash": "2125f2df7318cfdcd0a75d42afad797c56f41a49af097bf9035e9bd46d0e1994",
@@ -111,6 +181,20 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "6989b98c75fdb1a2397a02e33dcbb44ac75af339b83ffd2e6ea78633f0632153": {
+      "normalizationVersion": 1,
+      "sourceHash": "f82df84ec4c165cbbc3077b1997d632fe8f5f3298783ae3f538196c1710dcc8f",
+      "contextFingerprint": "de76b7f9cf679a4d69db76c032988e5b977b88030450ff0a3cf72f850251bb8d",
+      "sourceText": "有了类型别名，函数也可以方便地返回一个函数指针。下面的 `select_operation` 根据字符返回对应函数的地址。如果字符无法识别，则返回 `nullptr`。",
+      "translatedText": "With type aliases, functions can also conveniently return a function pointer\\. The following `select_operation` returns the address of the corresponding function based on the character\\. If the character cannot be recognized, it returns `nullptr`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 46,
+        "costUsd": 0.000104
       }
     },
     "69c5bea76687a318dc423fb7945e3d624e68933a52d61b0a2b9c584a1e954a39": {
@@ -139,6 +223,48 @@
         "inputTokens": 146,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "69d60166f1b1a560ef3473d9186ff94c8d44da7fb4446f06918e319849e9412a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c1b2214aa9f0e580026c05c4f47a4444f80f1254b5b82034c94c8875b88363d0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "全局函数类内实现 - 直接在类内声明友元即可",
+      "translatedText": "Global function implementation within a class \\- simply declare it as a friend inside the class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "69f86296f305510fba01540bd571896f29fddbd52871eb237a84ecdde72d66b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "38f1f6817a843fcbb8c42797ea4d49227207c070e2a90546e69da5fc2036a278",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果每个函数都只靠返回值判断错误，代码会变得比较复杂。",
+      "translatedText": "If every function determined errors solely by return values, the code would become relatively complex\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "69fbed74d86326cb3b4e51a9f9855a7c5bc491d6e250ae6a87dfc0412dda21b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a30473c434689a4455f4dd21ae14f5f01a9791a6a238ad0380b40ea60bccc2d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "操作文件的三大类:",
+      "translatedText": "Three major categories of file operations:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

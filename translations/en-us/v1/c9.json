@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "c9011f683d917bc844a04c3f5787044dcbcb1886cf9df8ec22e16f243963fe0e": {
+      "normalizationVersion": 1,
+      "sourceHash": "76124bc797548b284c98b06cd6697ddb3050d6484ca9a19e703f185a1797ba1a",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 只给写操作加锁",
+      "translatedText": "### Lock only write operations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c90293f90bc8c4e119a26ff72ff6afe08f0bc976038e189e0c67991f0e8534db": {
+      "normalizationVersion": 1,
+      "sourceHash": "1770728a030e9fd0f5d54483d92a133f713c1fde8cb57b98045bdbce30051f4e",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 掌握常用的算术生成算法",
+      "translatedText": "- Master commonly used arithmetic generation algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "c908d17f3d27b637a628e977b1f70811ba6a0b3608221eb65365a5dc011453a7": {
+      "normalizationVersion": 1,
+      "sourceHash": "53a60dcb88d6f9e76cb8e25bfe3a1fd669301c79baffa88d73835e1ac00dab76",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此只有真的需要这种灵活性时才使用。",
+      "translatedText": "Therefore, use this only when such flexibility is truly needed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "c90c2b3b8dfd2951e36c99bc68a31bb3483fcaa96fa137d7630d8736fb554e9a": {
       "normalizationVersion": 1,
       "sourceHash": "11de3823d33f831413099aab8a2c9bbd59d2c55e893d2cc3697aafaba39eac59",
@@ -29,6 +71,20 @@
         "costUsd": 0.00006
       }
     },
+    "c91e417085ebe3b99f91fedaf4170872858f2f2ded26fd605d925b1af8d4fb99": {
+      "normalizationVersion": 1,
+      "sourceHash": "faa674d2004f9ae0d0a23ae2a88d9b59806e69d21b2bc7adac68eb25465798d0",
+      "contextFingerprint": "8331b4edce8a3d71c8568de9d5b5b436dc9aa89499c809f30414395258546817",
+      "sourceText": "这个例子中，三轴数据必须正好是 3 个值。用 `std::array<double, 3>` 可以把这个约束写进类型里；如果误传 `std::array<double, 2>`，编译期就会报错。",
+      "translatedText": "In this example, the three\\-axis data must be exactly 3 values\\. Use `std::array<double, 3>` to encode this constraint into the type; if you mistakenly pass `std::array<double, 2>`, a compile\\-time error will occur\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 167,
+        "outputTokens": 44,
+        "costUsd": 0.000103
+      }
+    },
     "c924f66ba54eebbe92707663c3633f2a6fdb3262da60eaf8fb1618b4979e0f2d": {
       "normalizationVersion": 1,
       "sourceHash": "8e289b8fd430e7567dd96e5b8745fc4f0541e50c1985f8fb28ed00f6f4438a8a",
@@ -41,6 +97,20 @@
         "inputTokens": 154,
         "outputTokens": 37,
         "costUsd": 0.000091
+      }
+    },
+    "c92912984f844f3eb37bf701d530b77930c4e2c24c934701cf8c73b162f99e17": {
+      "normalizationVersion": 1,
+      "sourceHash": "9f98591db10aa7dae38f9601720ab418288b6909a62c3881260cf4591c05a66d",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 1：函数返回 pair——从 C++17 前的成员访问到结构化绑定",
+      "translatedText": "### Example 1: Function returning a pair—from member access before C++17 to structured bindings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 35,
+        "costUsd": 0.000089
       }
     },
     "c92b9438abb764c49a37c73fc77c9c78ab09d0cd4df0c6259f29da2f51d095f8": {
@@ -57,6 +127,34 @@
         "costUsd": 0.000051
       }
     },
+    "c948a0f3ace7eeccf96ecee78dcfbd6cc846055584540b8792bbd866ca4def3b": {
+      "normalizationVersion": 1,
+      "sourceHash": "47b4a07020b314ed99feddd98ebf6244210354adf9b602e72c98c550e0f802b7",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**普通函数与函数模板区别：**",
+      "translatedText": "**Difference between ordinary functions and function templates:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "c94aa1b29c9b560859ef40b22598a9c27d461cf7070263c01b96d2a77f29917f": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9f2e5d0f562e7a674ba2d7e211bb75299439e8e357f390586ef3642d4bd3022",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 临界区太小",
+      "translatedText": "### Critical section too small",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "c9559780261e21e5f6ff951df37915425a164f44c8c9cd8143793ce74b1cd7ef": {
       "normalizationVersion": 1,
       "sourceHash": "de95f9d2c12c039f5fde86832362645b4e463ebfae0d3d2652518fc0e6fa5a2b",
@@ -71,6 +169,34 @@
         "costUsd": 0.000162
       }
     },
+    "c96400d4ea6f66a4345ca433e77770fc6719b52a111d0f93ac1c02ac05ed4f9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "02fda4ecad0b6c8310628367edf2c66978018fff398e38fde47dd963747f88ed",
+      "contextFingerprint": "3194119de4ccd5eeaafb8f182d53deec0bc9fec14700cb8780896acc01972964",
+      "sourceText": "- 外部 `start`：始终还是 `0`。\n- `counter` 内部保存的 `start`：第一次调用变成 `1`，第二次调用继续变成 `2`。",
+      "translatedText": "- External `start`: always still `0`\\.\n- `counter` Internally stored `start`: the first call becomes `1`; the second call continues to become `2`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 33,
+        "costUsd": 0.000086
+      }
+    },
+    "c96c80d80cf929d11ff4e1091ce5bcee4331a562aad1b4e2b17fdc5bf20296fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d96e12df6b83e5fe555e9f7d5e99190392215041e650e607fb3a504f43a2db32",
+      "contextFingerprint": "133f6cae9219d938ec20de89a6a274189309ae773a9bb9619122e89e6030e1de",
+      "sourceText": "### ROS2 / 机器人项目中的异常使用思路",
+      "translatedText": "### ROS2 / Exception usage ideas in robotics projects",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
     "c978ae8c75196057e5aa74c6138819d90c601d3cfcbf7cdea6be25348b38865f": {
       "normalizationVersion": 1,
       "sourceHash": "3a48ad79cba166a748e0f3be1d94525d4ec53a1c14e7b990f94e573e965791b9",
@@ -83,6 +209,20 @@
         "inputTokens": 134,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "c98ed370a8ceb4d16a1e65f830d47cd5eab4325260fd1fde834eb4bf2a8e3b51": {
+      "normalizationVersion": 1,
+      "sourceHash": "867a0aa917d4c9cbfb1dfe4d3131ce8178bb06ac0654565e139f29ccff8eb5a1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 锁保护的是“共享状态”",
+      "translatedText": "### Locks protect \"shared state\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "c997b2d420adde65e615b486b1b82ac9607a6195e698f5cae3a162096ff08647": {
@@ -113,6 +253,34 @@
         "costUsd": 0.000075
       }
     },
+    "c9add7e58c2a9c155de68d2a6979b9a012f43653a242475ef32e2dda860f4672": {
+      "normalizationVersion": 1,
+      "sourceHash": "8945418ff87193e6a969027057a84bba7a03a3c380e222920750d18e954e167b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一寸照片模板：",
+      "translatedText": "One\\-inch photo template:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "c9b6028c7498fcd4a9721bf7d75c83285ed36168030daee00a2b0413c68e6000": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab81f8752b6a69d0fbda76b283490751928158e770ca17fe028f763b678564b7",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "C++ 提供了 **异常处理** 机制，用来把“正常逻辑”和“错误处理逻辑”分开。",
+      "translatedText": "C++ provides an **exception handling** mechanism to separate \"normal logic\" from \"error handling logic\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 38,
+        "costUsd": 0.000095
+      }
+    },
     "c9b74b79ecc8cd505e4dc12b34b9b18dfb068658e4675d20edf3f0215154e12e": {
       "normalizationVersion": 1,
       "sourceHash": "331184a0d5268a79735fc37d406f7e570232c9d4770c05b41ca06b9cca3b76dc",
@@ -139,6 +307,48 @@
         "inputTokens": 133,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "c9cc3e8fe6db0801e4fceb29d16bfc01fbfaa6ca5379d73f4d294e7cadb64158": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1e94bc765419fbc249e56d1faf084a2babdf2671f36c2ca7ca067c01643f685",
+      "contextFingerprint": "9d57549c89d6c031498bc7fa35a77d62a3afd8f3ade328a0ee48349b74e1239e",
+      "sourceText": "#### set_union",
+      "translatedText": "#### set_union",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "c9e612cc12588297b9287875352fd5ebde230da6aa88c0a2af640e9e1ed87c67": {
+      "normalizationVersion": 1,
+      "sourceHash": "fae3332eda448f520848309bb780702ba6a6304197d03205050ea2fc54410b6e",
+      "contextFingerprint": "0634045ec5f5f4b6e2386db132bc31418c0582adedf428da1303cc6ff52e826c",
+      "sourceText": "1. `b` 销毁后，`B` 的引用计数从 2 变成 1，因为 `a->next` 仍然拥有 `B`。\n2. `a` 销毁后，`A` 的引用计数从 1 变成 0，于是 `A` 被析构。\n3. `A` 被销毁时，它的成员 `next` 也随之销毁，`B` 的引用计数从 1 变成 0。\n4. 最后 `B` 被析构。",
+      "translatedText": "1. `b`After destruction,`B`'s reference count changes from 2 to 1 because `a->next` still owns `B`\\.\n2. `a`After destruction,`A`'s reference count changes from 1 to 0, so `A` is destructed\\.\n3. `A`When  is destroyed, its member `next` is also destroyed, and `B`'s reference count changes from 1 to 0\\.\n4. Finally, `B` is destructed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 85,
+        "costUsd": 0.000166
+      }
+    },
+    "c9fc53e51368cf4fc51c625234415b04ee900bf52a9df972e73df60d427b4dce": {
+      "normalizationVersion": 1,
+      "sourceHash": "f748f0b4d4482e38df6991b8a70018cbcbad221d16103053cd83914859a70a80",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例3：运行时切换不同的函数",
+      "translatedText": "### Example 3: Switching between different functions at runtime",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     }
   }

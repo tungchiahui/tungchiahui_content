@@ -15,6 +15,34 @@
         "costUsd": 0.000084
       }
     },
+    "060ba4616cbd431073f0fcab4b312b2d5065c77cb8a29d98133ecdf879f53f1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3c0b08df299075c429b9471bf7a5dbd77e027c66fca169fc2057bbd2f52d6c07",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 学习路线",
+      "translatedText": "## Learning Path",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "0612392573b4da7ce08029b55a78583122445a1f7184a3fbcf8466098358936b": {
+      "normalizationVersion": 1,
+      "sourceHash": "66b650fc75a7369d1ba4d7393dcadc8ff1fa7b092d7db4898bdff1652bab012b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当前先预留这个位置，等并发基础学完后再展开会更合适。",
+      "translatedText": "For now, let's reserve this spot; it will be more appropriate to expand on it after finishing the fundamentals of concurrency\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 32,
+        "costUsd": 0.000082
+      }
+    },
     "0654d7693656ad48ca28d549668c63e8c2ce4c42b872b025fb7006ab7f83234c": {
       "normalizationVersion": 1,
       "sourceHash": "aed244a44ced4977e7e18034b39f50f18d7ee303756e570d0b51e6bf8809e8b7",
@@ -43,6 +71,34 @@
         "costUsd": 0
       }
     },
+    "066bd001618d1c5dd6082adb9e75674036d1fe0582bf9da091717fc90abd8b8c": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b9811a5bad33e2aa36aa678ccd297d87f76ddc1efec7014e29b41c1126ddc35",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：每个 auto 变量各自声明。",
+      "translatedText": "Correct approach: declare each auto variable separately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "067c5db2f488b66717667985a56b0752a8f962292d36309466201ca1898c70d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce2ce638af14f3928794efe2456d3554cd92609009b595bfb3659c5b1449b2a8",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* map中所有元素都是pair\n* pair中第一个元素为key（键值），起到索引作用，第二个元素为value（实值）\n* 所有元素都会根据元素的键值自动排序",
+      "translatedText": "* All elements in a map are pairs\n* The first element in a pair is the key (key value), which serves as an index, and the second element is the value (real value)\n* All elements are automatically sorted according to the key value of the elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 168,
+        "outputTokens": 59,
+        "costUsd": 0.000122
+      }
+    },
     "0692bbc6a95342c3adf5a21b627e3740df3deae4bc76830f4bcc8dfc3e3c6a42": {
       "normalizationVersion": 1,
       "sourceHash": "9334274364eb37fe3981b2c60dad1322b12c113d1c0fc104b953d204209b546f",
@@ -55,6 +111,62 @@
         "inputTokens": 134,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "0695320c1a90b2fb8441d57ddfab845d4a614d79a6750098110ee92ba26ff3bf": {
+      "normalizationVersion": 1,
+      "sourceHash": "ec1caf3b78a6e209fe69d3408196e60ccca199d920213dbdc7a3f190bb544bf8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "template  ---  声明创建模板",
+      "translatedText": "template  \\-\\-\\-  Declare creation template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "06971a3defb16a4fd9096a734fb91ae685a2064bfef43a79d2f951a738ee2b24": {
+      "normalizationVersion": 1,
+      "sourceHash": "152c479495ad2981d672174301ba1e1465d3df8c75fe594af71e40f4af753e6b",
+      "contextFingerprint": "1a565baa05f8fa524b99e77b9215c9fa54fe2ed141b210f1a96b9c7395419598",
+      "sourceText": "底层基于 `{fmt}` 库，性能极高——接近甚至超过 `printf`。",
+      "translatedText": "Built on the `{fmt}` library, it delivers extremely high performance—approaching or even exceeding that of `printf`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "06c281bee7d59912befc84522bc8299f3720689c146d77b68e0a3a43d30af231": {
+      "normalizationVersion": 1,
+      "sourceHash": "2df754e8e14c815943be90dd273095741cec477c64d8eee6f20695f1ac98c99d",
+      "contextFingerprint": "09c578831711d654fcdb6cb4254a4c65dd7229cbb405c742ec97583b84eef184",
+      "sourceText": "下标写法直观，但只适用于 `vector`、`array` 等支持下标访问的容器；迭代器写法可以用于更多 STL 容器，但代码较长。范围 for 隐藏了 `begin()`、`end()` 和迭代器递增等细节，更直接地表达“依次处理容器中的每个元素”。",
+      "translatedText": "The subscript syntax is intuitive, but it only applies to containers that support subscript access, such as `vector` and `array`; the iterator syntax can be used with more STL containers, but the code is longer\\. The range for loop hides details such as `begin()` and `end()` and iterator increment, and more directly expresses “process each element in the container in sequence\\.”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 77,
+        "costUsd": 0.00015
+      }
+    },
+    "06c924ab252ed10e7c6defc568320b2b1618f0dc282115f88b37e971c1298d1a": {
+      "normalizationVersion": 1,
+      "sourceHash": "384b09d56287506ed75466a0e014ac3dee1ded768171df7b43d32908c5a30da7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "//end1 源容器结束迭代器",
+      "translatedText": "//end1 Source container end iterator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
       }
     },
     "06e7dd34c7d6552fb56c55de70e806d538d902e10261e9a796f2901bf728b50f": {

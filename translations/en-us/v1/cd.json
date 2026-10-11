@@ -57,6 +57,62 @@
         "costUsd": 0.000055
       }
     },
+    "cd67b7ab4658d75d4d2df512ca20b58f70ff76eb889736e486f529815d1c14e1": {
+      "normalizationVersion": 1,
+      "sourceHash": "b8bfb3e871398d6db1d02baaa0a282dfdc0b822d6b60462e5f8adf6563ac5dd8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误：认为线程函数结束后 joinable 自动变 false",
+      "translatedText": "### Error: assuming that joinable automatically becomes false after the thread function ends",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "cd6be2aedbaf43e2683646cea226247641938ab237edc569fe7c834355d43397": {
+      "normalizationVersion": 1,
+      "sourceHash": "a14368cfe0084bb5acd0610c9644de78367ce490695c7aa6fdbd7afd853de039",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "完全由程序员自己管理。",
+      "translatedText": "Fully managed by the programmers themselves\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "cd80c0b3ffec9b5bf533e4670615d776fea909f7e6cedaaa6870d27282ac897e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c95f536f825200a58ac246466cf9a8f34e0e3caba5a861f3e0c79238682bb5ad",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 4：把 nullptr 当布尔值用在非预期的地方**",
+      "translatedText": "**Error 4: Using nullptr as a Boolean value in an unexpected place**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 21,
+        "costUsd": 0.000069
+      }
+    },
+    "cd8445fc6ccb13d50b56d478d6917a9e739a276621825e05b3b7801fa40b1335": {
+      "normalizationVersion": 1,
+      "sourceHash": "8ca0eb686fadb7cb6ffb6c01fab3b75cef683ff07b90d5c3ad4d89204b5ae8a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有捕获的 Lambda 需要在自身对象中保存捕获的数据，因此不能转换为普通函数指针：",
+      "translatedText": "A capturing lambda needs to store the captured data in its own object, so it cannot be converted to an ordinary function pointer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 32,
+        "costUsd": 0.000084
+      }
+    },
     "cd93ac762ab3f7239e90d715b508e719141608484c7f6b58b5f53cb284917975": {
       "normalizationVersion": 1,
       "sourceHash": "e3a0527bd5d7d2d7b00d96b3ffc032db72a2fccc4e3eccaf6767fa084d8eafad",
@@ -113,6 +169,34 @@
         "costUsd": 0.00015
       }
     },
+    "cdd3636c991d5c68f5311d09d578e636d471974a429dafa2c2dae64907a9f25d": {
+      "normalizationVersion": 1,
+      "sourceHash": "c77c540373318c6e2d2a4636fb9105bb780727354d9fed7f38ae1ba71f239aa1",
+      "contextFingerprint": "4afc6ce66fead2129788016d9117d73b35211263b172c1302a1526cb67a3c8aa",
+      "sourceText": "### `std::scoped_lock`",
+      "translatedText": "### `std::scoped_lock`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "cdded6c701d64448311bfb7e90fc0aad5e7874fca55d001ed817e63abea6ccec": {
+      "normalizationVersion": 1,
+      "sourceHash": "985f8b97a21423cba7baf605b3e1962749cf31b18de95719adfd507794894444",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程 A：",
+      "translatedText": "Thread A:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "cdf1ce96ab0d17ae8b8a09ba7c598e1d68d7d1075b0ff7e9030158900ac5ae7d": {
       "normalizationVersion": 1,
       "sourceHash": "a11efe845e6398ca2391fe347f659710ecef210bd0b4d7697547bdcbd310dee2",
@@ -124,6 +208,20 @@
       "usage": {
         "inputTokens": 135,
         "outputTokens": 9,
+        "costUsd": 0.000052
+      }
+    },
+    "cdf90e9d35c288a4825a62070f57a8ff7f575fc0d5b885f9ffd1de3e0785f183": {
+      "normalizationVersion": 1,
+      "sourceHash": "339c7ad8c7bef7261df48d49bc4b28972829fd0428917248ba3c5679dad67bac",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 常用集合算法",
+      "translatedText": "### Common collection algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
         "costUsd": 0.000052
       }
     },
@@ -139,6 +237,20 @@
         "inputTokens": 148,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "cdfda25dea188860df9c2ca49c585080cb8a7efa91f5245fb6ea2ffd6d5c4995": {
+      "normalizationVersion": 1,
+      "sourceHash": "c737273a6769623738c5c7cc7476142809edfa1717a08eecea2b86dde1e9a004",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 二进制文件",
+      "translatedText": "### Binary file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

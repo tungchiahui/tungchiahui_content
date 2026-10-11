@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "19095684ffaacc1f88551ea0ff0503fd0958eafa24c69c9c9ee63981c09f029d": {
+      "normalizationVersion": 1,
+      "sourceHash": "d13796e0bf895ce9ec4650a741cb7b89e66fa3fa69c8d72b0003b50d240d21ac",
+      "contextFingerprint": "0a02cafbfc81f6e644039672d9a733493f554dca57d0fc39e5a24dea5d9afef0",
+      "sourceText": "### `lock_guard` 和 `unique_lock` 怎么选",
+      "translatedText": "### `lock_guard` and `unique_lock` how to choose",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "191f9e19017fd3b203f0a700f74499cdf20bc4ba52702a66e59b023d1bf2f9d8": {
+      "normalizationVersion": 1,
+      "sourceHash": "cf2a58f77a2d907d25ac4913399595985926c3a9357f8d4658b73376f1e01ea0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：关系仿函数中最常用的就是greater<>大于",
+      "translatedText": "Summary: The most commonly used relational functor is greater\\<\\>, for greater\\-than\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
     "1923bb0a3577fd3e61621d7f66f5b7d804a0859291d4d607cc3c1cb642c8de4d": {
       "normalizationVersion": 1,
       "sourceHash": "6340263371271c45be2712412f246e8bb9e66c73d2517d85f3974b8c5bfcef45",
@@ -29,6 +57,20 @@
         "costUsd": 0.000069
       }
     },
+    "193203c9f2794549e44a326f58b69bb6f4c42eb4892dc6015f5776a98e34f233": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae1632220f9816b0a083e8f8de2c8c6d12d13d926e4b50ffb8aa8d9e945d0603",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "简单记忆：",
+      "translatedText": "Simple memory:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "1932c247121995913e3688144ff4967ab36e6d4f97b45e1308cfa63ba7839053": {
       "normalizationVersion": 1,
       "sourceHash": "286395619880f5feacf8597d69e010ca60119ff434d11327f0e71335c32eeaf3",
@@ -55,6 +97,20 @@
         "inputTokens": 171,
         "outputTokens": 75,
         "costUsd": 0.000142
+      }
+    },
+    "1946859c66c463c627657f378d9e1cd40a6e25f26b1354b1b21cbac199b3ea39": {
+      "normalizationVersion": 1,
+      "sourceHash": "fab1d4879605e5d1b14a2bd678128539c1670fee70fa6ddb4c8f7d3cbfee2a5d",
+      "contextFingerprint": "dd6c20a8cd72b8d1df55b77419d7cce64fdea13ce6b40d05e5f6e2a9d70f5e16",
+      "sourceText": "- `std::string`：参数是字符串；\n- `&`：使用引用，不额外复制整个字符串；\n- `const`：只读取这个字符串，不修改它。",
+      "translatedText": "- `std::string`: the parameter is a string;\n- `&`: use a reference, without additionally copying the entire string;\n- `const`: only read this string, do not modify it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 37,
+        "costUsd": 0.000092
       }
     },
     "195a9bdd2fa87060ec1bb3186a7372763ee57603582141e8fad00d40bc78216d": {
@@ -99,6 +155,20 @@
         "costUsd": 0.000083
       }
     },
+    "196a5561e1eb94b98e2dfb1ff9baf9c3be54970af1eae3b2735625ee5a02954a": {
+      "normalizationVersion": 1,
+      "sourceHash": "47bd1bdd1b745359e16bf3c5efc5287f7efd661bd43b638d917de7d16be7c21e",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 适合使用返回值的情况",
+      "translatedText": "#### Cases suitable for using return values",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "197997694d7b0786868fc355e4ef7176ecd997427a1229a4c47330f72b0f867b": {
       "normalizationVersion": 1,
       "sourceHash": "f6218b7717cb4124adb5e2113b3abf286058c9febcfc45f250ae14448b7784d7",
@@ -139,6 +209,48 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "19dbba50ebe085364541f3f5448825a214439fc477a63c3b632d27eae319f661": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d61070b6ccdf1b6e4ec5097fb8de59cfc667d03028d6656c511f0d4fbb72467",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "执行后：",
+      "translatedText": "After execution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "19f1283e65803900f2e7634dbcf23bf661848b2e44c97ea22d1de09d33a69add": {
+      "normalizationVersion": 1,
+      "sourceHash": "bf3016b17f6d52b2f39903b54900731c21fb71e183a1175797e7528217697a2c",
+      "contextFingerprint": "963df846cc5d7d8a8ee02707131d22ce401d0cce89d548720f2fe15001958e5f",
+      "sourceText": "总结：使用内建函数对象时，需要引入头文件 `#include <functional>`",
+      "translatedText": "Summary: When using built\\-in function objects, the header file must be included `#include <functional>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "19f67c06c226baccc2b197f3aa9ea39895e6eba92253e6aa65921a50bf288e63": {
+      "normalizationVersion": 1,
+      "sourceHash": "121f39df22da5895d8e2baf9ec63567d9e38fc8bfd4a6906399abe12f8c78316",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "负责：",
+      "translatedText": "Responsible for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     }
   }

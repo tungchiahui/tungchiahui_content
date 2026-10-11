@@ -29,6 +29,20 @@
         "costUsd": 0.000075
       }
     },
+    "ac3c249c4ee38a1873f6511cc1e3593d5c093c818b33a512dae880090bf01103": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a42ee9cbdd687a19aef40b2bbfdfe0a8a3deb580db3515c1142247e275f4c0f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "创建的对象类型是一样的，只不过后者是临时对象。",
+      "translatedText": "The object type created is the same, except that the latter is a temporary object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
     "ac499f753d0e30c675b357685d24692a3cf96dfacb8e5485d8fea935577d76cc": {
       "normalizationVersion": 1,
       "sourceHash": "3dfab64e3b25f2bf6cc4e4af66e28a2ec003e339bf6fdf130dda3b6628b5c3fd",
@@ -43,6 +57,20 @@
         "costUsd": 0.000052
       }
     },
+    "ac4c96235ce61e7bf04ba1d0c8a1cccef2b4e01bbeaa073c25183a5540db66cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d372a155218f2ce370b7fd919748e152b1dc87f6b4781a635c689e3ac05d321",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "程序运行时产生的数据都属于临时数据，程序一旦运行结束都会被释放",
+      "translatedText": "Data generated during program execution is temporary data, and it will be released once the program finishes running\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "ac50f313c5ae146d3418d43a315c02bc3c993f5592613f0af63a52a5c3e4778a": {
       "normalizationVersion": 1,
       "sourceHash": "8435dda228481ff99d4fdfba6315c2f5baeebd76319ca2cb1d49c26c7d656178",
@@ -55,6 +83,34 @@
         "inputTokens": 141,
         "outputTokens": 30,
         "costUsd": 0.000079
+      }
+    },
+    "ac5435220ccc56510ce4c888b999eaffbb8b54b4ba8abfe994a37ed640e22789": {
+      "normalizationVersion": 1,
+      "sourceHash": "35a8903a8cafdb9e2db8ed12ef4d84d019d16e8eadc574475e8aa0b4c381e8c8",
+      "contextFingerprint": "c7fd879e0455610b9fa90e114ef733e2c5c8327ec326a196a00bcaa74b971495",
+      "sourceText": "`value` 是一个普通的 `int` 变量，里面保存的值是 `42`。",
+      "translatedText": "`value` is an ordinary `int` variable, and the value stored in it is `42`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "ac82efa76c1d294eeb68583b267955af4f0bf0f119e3b904e7273ce512017c1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "7592bfedff780aa0669c97333d2d3115a70e5da371f5b33fb654894dbd88b2de",
+      "contextFingerprint": "403b276ea9ade4263b275ca8b714b3397d6fd849aff7c225d1efb5d42f96a065",
+      "sourceText": "RAII 是编程理念，不需要特定头文件。但 RAII 的实现分散在各处：`<memory>`（智能指针）、`<mutex>`（锁）、`<fstream>`（文件流）等。",
+      "translatedText": "RAII is a programming concept and does not require a specific header file\\. However, the implementation of RAII is scattered in various places:`<memory>`(smart pointers),`<mutex>`(locks),`<fstream>`(file streams), etc\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 51,
+        "costUsd": 0.000111
       }
     },
     "ac8f5f2ba356e7d954ad076b57406ee01f54ac89fb9e5d65280f471ba7b476d8": {
@@ -99,6 +155,62 @@
         "costUsd": 0.000079
       }
     },
+    "acaed858301dd9e580459e50b70f06b289fbf2a7779e6705f852cf6d62cfbfc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "d706f451ce2e3a2e0a70e5e66da8c98c12374eb331236b4ed8cc90823d9a140b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 6：在示例 5 基础上，auto 返回值和 decltype(auto) 的区别(引用)",
+      "translatedText": "### Example 6: Building on Example 5, the difference between auto return values and decltype(auto) (references)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 31,
+        "costUsd": 0.000084
+      }
+    },
+    "acb98cc36a2c1c87b9f677f5b64923a5782aa72c6b5b925139a9184d3964e993": {
+      "normalizationVersion": 1,
+      "sourceHash": "7a8146674f2959c0b3bc225a9c8ef22cf4adb04f22adb94e7e2d083aec8b56ee",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更好的设计通常是：",
+      "translatedText": "A better design is usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "accff73cdb1a586792f35ca9cadd38320dd6bfeb25e1f75e5e055eafeb333892": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a40be9e6e548589ad8599ec967e5f23fd6ea234be2c91448f3977c3dcb33930",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它做了两件事：",
+      "translatedText": "It does two things:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "acdd68891f9c8eceae63038f8407028db6d049e55f40aaaab1ac1982895ad962": {
+      "normalizationVersion": 1,
+      "sourceHash": "8863a8c3265c5adaf5758fe266e842cbd53997d64f8f5ba1baa9d3cbc251b499",
+      "contextFingerprint": "774fdc4ceba32efe1e5b117c47fd93c84f0809b5ef5f79a77d4f814cceea6793",
+      "sourceText": "- `copy`                      // 容器内指定范围的元素拷贝到另一容器中\n- `replace`                // 将容器内指定范围的旧元素修改为新元素\n- `replace_if `          // 容器内指定范围满足条件的元素替换为新元素\n- `swap`                     // 互换两个容器的元素",
+      "translatedText": "- `copy`                      // Copy the elements in the specified range within the container to another container\n- `replace`                // Modify the old elements in the specified range within the container to new elements\n- `replace_if `          // Replace the elements that meet the condition in the specified range within the container with new elements\n- `swap`                     // Swap the elements of two containers",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 68,
+        "costUsd": 0.000136
+      }
+    },
     "ace8b7b2ff6de465d75c427ff7483ed88b524eadebf10833a9a4ed6de6473a26": {
       "normalizationVersion": 1,
       "sourceHash": "3b5debbef3eda081c9a6d1ff3560b2ad19712b15e0a12869907f6a7c28b251d4",
@@ -111,6 +223,20 @@
         "inputTokens": 141,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "acefb705d408ef5803e6a6c3fc5c011c35c7316daea9ade14f64f24cc7422296": {
+      "normalizationVersion": 1,
+      "sourceHash": "fb186969afffc8f0c5aeda7e096f5f3ebf7ddf8c953a00c49afde9cb983b493e",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 利用仿函数，可以改变排序规则",
+      "translatedText": "* Using a functor, the sorting rule can be changed\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "acf492c17882b0f0b0b6eeb2a69ad616000cccb794e64c91194161aa050c8666": {

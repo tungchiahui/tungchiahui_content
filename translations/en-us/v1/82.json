@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "8207b61393805d7619b384b7f7e3723657238baba24a84c1f6cf08cc349c4a98": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d672bf5473717d73346dcef886de47e5f8364a2f889f314bb1a9f18fe06e4aa",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 小结",
+      "translatedText": "## Summary",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "8208fdecd0983efad7ce49936dcc449d47383074be12e220090ba4ce7a95520b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ea67d4dff6b1c97b0900efeff5b8ff72c7b93ce2aaf52e38b9330e76804696fb",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 认为 mutex 会自动保护变量",
+      "translatedText": "### Assuming that a mutex automatically protects variables",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
     "822087706aa200b89f9c27cf9afa347399bf45ecc8968f35185dca843f6e0565": {
       "normalizationVersion": 1,
       "sourceHash": "685103e619fae579a1d77d09abe98be446b9c8b64235aba65aa9332c53d51bad",
@@ -27,6 +55,34 @@
         "inputTokens": 158,
         "outputTokens": 53,
         "costUsd": 0.000111
+      }
+    },
+    "8228e372f9f19563ae79b86c9f6649a3b82887a15e551d44e8c3bb2cfac9c90d": {
+      "normalizationVersion": 1,
+      "sourceHash": "0132d048834726a6559f33b2724a69c22ed6672579350dc9c36947cab280d314",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原则：能不用强转就不用；必须强转时，优先选择语义最窄、最能说明意图的转换。",
+      "translatedText": "Principle: Avoid explicit casts whenever possible; when a cast is necessary, prefer the conversion with the narrowest semantics that best conveys the intent\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 35,
+        "costUsd": 0.000089
+      }
+    },
+    "82402c11055e7bc416d96efc59ca88707a119a5002f3457561ed2fbd579d51f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bbfc3befff8327b1bb9cc8576d464903cfa2cb3fbd24522cbefa9fdf92d6b25",
+      "contextFingerprint": "1ced26eea97e0a94aae8a3fddc66c9672ca3d4eafb82e362aa011fef3a1fd591",
+      "sourceText": "非静态成员函数需要对象才能调用。`std::bind` 的第二个参数通常就是对象指针、对象引用或智能指针。",
+      "translatedText": "A non\\-static member function requires an object to be called\\.`std::bind` The second parameter is usually an object pointer, object reference, or smart pointer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 35,
+        "costUsd": 0.000089
       }
     },
     "8247c0d6070af27c7b70a7117f6c5199bdc617e96575cf4894b3ccbf1f5115b7": {
@@ -71,6 +127,76 @@
         "costUsd": 0
       }
     },
+    "82705c883b516db070c89d39764142f309cded504e1a20bbc093cc5dc95495b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bdd78e1f520d4c054483bb69ed8f067ea561ff70dee787a8b9728152b54207a",
+      "contextFingerprint": "20e019d0062bff5d2264d70986280b37ccd3a2b13bb322d2e3cdc543c9174bba",
+      "sourceText": "在传统 C/C++ 中，用 `NULL` 或 `0` 表示空指针。但这有问题：",
+      "translatedText": "In traditional C/C\\+\\+, use `NULL` or `0` to represent a null pointer\\. But this has a problem:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 36,
+        "costUsd": 0.000091
+      }
+    },
+    "8275678bb27e76f774a3c4d0b155d7d160b7166707d76d4a7302a253cfafbb1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "03910178c2c1e70a45139a056051ee174eace4429d404b3f1df657fab3b7e7dd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：旧回调写法和 lambda 的区别",
+      "translatedText": "### Example 1: Difference between the old callback style and lambda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "8276379c4bb18192d3549495d36d98fcda5e269af134c046fc6aaf618d89334a": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b331f19c606ba7b96601060ad27719475c421513b27c4dc22657bf00cfe0bfc",
+      "contextFingerprint": "fb494b68fcbbf6f6be99f93e09db9f5e89696d350d8f4ba16b8481c19a273ea2",
+      "sourceText": "`func3()` 抛出异常后，`func2()` 和 `func1()` 都没有处理，最后异常传递到 `main()` 中被捕获。",
+      "translatedText": "`func3()` After the exception is thrown,`func2()` and `func1()` are not handled, and the exception is finally propagated to `main()` and caught\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "82ac7a1081731b0c49b94b5d568ba1bd3326e0f0e84f6966c0a5ab7adf710da7": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a093675d1e1503dfa66a88980261668e56c775a5315f6a6466090d67fe44f15",
+      "contextFingerprint": "1619f6e50fdf59b0df1f1e44f8914a36becb6ba2fddda20ebf4f4b14b9223329",
+      "sourceText": "正确做法：先 `if (opt)` 检查，或用 `opt.value_or(default)`。",
+      "translatedText": "Correct approach: first `if (opt)` check, or use `opt.value_or(default)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
+      }
+    },
+    "82ad2c6e4a9f6fa2bbe282480b7fcdf683bde130eca07db28a59b8bd2509b7fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "5119e168f6340165f7fd04b85d5de98ea7919ddb8d4d84e0ace7674aab86ad3d",
+      "contextFingerprint": "7b2f659359afbf51624ce3cc603989c90e92402fe509e1070b4ef291563b0ed7",
+      "sourceText": "- `constexpr` 变量必须在编译期确定，可以用作数组大小、模板参数等。\n- `constexpr` 函数可以在编译期执行（参数也都是 constexpr 时）。\n- `constexpr` 函数也可以运行期调用；`consteval` 才是必须编译期调用。\n- `const` 强调\"不可修改\"，`constexpr` 强调\"编译期求值\"。\n- C++17 起 lambda 可以用 `constexpr`。\n- `static_assert` + constexpr 函数 = 编译期安全网。",
+      "translatedText": "- `constexpr` Variables must be determined at compile time and can be used as array sizes, template parameters, etc\\.\n- `constexpr` Functions can be executed at compile time (when all arguments are also constexpr)\\.\n- `constexpr` Functions can also be called at runtime;`consteval` only then must they be called at compile time\\.\n- `const` Emphasizes \"non\\-modifiable\",`constexpr` Emphasizes \"compile\\-time evaluation\"\\.\n- C++Since 17, lambdas can use `constexpr`\\.\n- `static_assert` \\+ constexpr functions = compile\\-time safety net\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 114,
+        "costUsd": 0.000205
+      }
+    },
     "82c7e9fa967dbaeacaee75466a909fcc761a3200becf94e9df36ab3815d330e6": {
       "normalizationVersion": 1,
       "sourceHash": "6ad0b1458d5b99d16c5c579df30f82b78b9e6622163f1c1c0a0cbb617f9a78c8",
@@ -83,6 +209,48 @@
         "inputTokens": 156,
         "outputTokens": 35,
         "costUsd": 0.000089
+      }
+    },
+    "82db3d82f974be5f626c43a0b730c81eb3c4a58a182cc6024a211c958c65057b": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bcb1b95b0be9375ac45eb070f226b5dd9439b9ea6ebc4d0d230b195b76a96a2",
+      "contextFingerprint": "842aa14705f1f2f38da32a6709a2cd39a0d97963ebe795d6331cf2f4a4bd36ba",
+      "sourceText": "| 场景 | 是否用 `std::move` | 原因 |\n|:---|:---|:---|\n| 把已有对象的资源转给另一个对象 | ✅ | 明确转移所有权或内容 |\n| 把 `unique_ptr` 传给接收所有权的函数 | ✅ | `unique_ptr` 不能拷贝，只能移动 |\n| `return` 局部变量 | ❌ | 让编译器做 RVO / NRVO |\n| 对 `const` 对象 | ❌ | const 对象不能被真正移动，通常变成拷贝 |\n| move 后还想继续读原对象内容 | ❌ | moved-from 对象只保证可析构、可重新赋值 |",
+      "translatedText": "| Scenario | Whether to use `std::move` | Reason |\n|:---|:---|:---|\n| Transfer the resources of an existing object to another object | ✅ | Explicitly transfer ownership or contents |\n| Pass `unique_ptr` to a function that takes ownership | ✅ | `unique_ptr` cannot be copied, only moved |\n| `return` local variable | ❌ | Let the compiler perform RVO / NRVO |\n| For a `const` object | ❌ | A const object cannot be truly moved, and is usually turned into a copy |\n| After move, still want to continue reading the contents of the original object | ❌ | moved-from The object is only guaranteed to be destructible and reassignable |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 240,
+        "outputTokens": 135,
+        "costUsd": 0.000234
+      }
+    },
+    "82f19d698fcf672754ccd54568b8d860d60a1447066332209b3958609595c11c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e7388b619b153797070c20ea29ec71ca77a3028061954c0e62a4cac905969473",
+      "contextFingerprint": "9dcacaf8ead7b9ca4d6c96a284b8d65c993a40a6dd392073567736dbe1631920",
+      "sourceText": "即使发生异常，`vector` 对象也会自动析构，内部内存会自动释放。",
+      "translatedText": "Even if an exception occurs,`vector` the object is automatically destructed, and its internal memory is automatically released\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
+      }
+    },
+    "82f5777ee1e256781592c010e9f19bf0cf9c13284474a03a17b0fd81b9e9b59c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f9b8990958d6353deff0433453c211dc60f6e9a0b07a86d352693e511fb5ff5d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Lambda",
+      "translatedText": "#### Lambda",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

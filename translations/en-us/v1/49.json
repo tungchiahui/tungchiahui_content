@@ -15,6 +15,20 @@
         "costUsd": 0.000052
       }
     },
+    "49110fe6a41b4ec58b57e93702c6a13226ac5328696670c9b81701aec89923ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "457d753b8e714b3eedb5c9a8256df67149c6896a9a7cce9a4e5c6440db46b11d",
+      "contextFingerprint": "bba11e4275f129e1f0878433d8d866f140975f2dbd6e4bf2c13d89ef0e535e3c",
+      "sourceText": "#### `try_lock()`：拿不到就算了",
+      "translatedText": "#### `try_lock()`：If you can't get it, then forget it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 18,
+        "costUsd": 0.000062
+      }
+    },
     "492b9a06bebb26cb4950db156cf29063ca41b28b009ab3065de93edb15824817": {
       "normalizationVersion": 1,
       "sourceHash": "1574c18276f540a061e68c1ff1243f2a6a92dc7df1867b263fd4e6b5e97fe4a8",
@@ -43,6 +57,20 @@
         "costUsd": 0.000099
       }
     },
+    "493fdc5f470a250c2bcfdece16f713500c8d5344c3d715666846c6f179e17a1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "31318cd3c6ded5a63a7d2dcba97422605834f80e0c763ccac826d051ec5e1b34",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "其他线程如果再：",
+      "translatedText": "If other threads again:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "49599ee152dfd36b4907584264f34c47a1c4f9ad999c2c3dd85dc415a45a3ab7": {
       "normalizationVersion": 1,
       "sourceHash": "09546b2b59a5e8ff084611560697cdf44c4bb34bf33accf0a44ef4922d886cf1",
@@ -55,6 +83,34 @@
         "inputTokens": 166,
         "outputTokens": 47,
         "costUsd": 0.000107
+      }
+    },
+    "49604332c6448460d116b7f7ef51294bf7a23384b74ae7751709efbad826ceda": {
+      "normalizationVersion": 1,
+      "sourceHash": "59565ebed7f93e204e9e58480160b3d296079db1e205841203c77f41e838bf5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "之后可以：",
+      "translatedText": "Afterward, you can:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "49694a04bb07ea7b8bf50e0bc07bd25e8bd58978cb5051a13762b972869288c9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c7c400231267bb1a62846d0a5bfc7c299a3c10ef7ee1174f3505667bf8b689ae",
+      "contextFingerprint": "a0d5b28dc469b9ac8ab8772d13b57b41314de68ad404fb050b875e09b6f06431",
+      "sourceText": "如果析构函数抛异常，且同时有另一个异常正在传播，程序会直接 `std::terminate`。析构函数应标记 `noexcept` 并捕获所有异常。",
+      "translatedText": "If a destructor throws an exception while another exception is already propagating, the program will directly `std::terminate`\\. Destructors should be marked `noexcept` and catch all exceptions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 38,
+        "costUsd": 0.000094
       }
     },
     "496fa66425383b53d19a5cb046c9a91913ad6f43c499263aac1119ae64296bf0": {
@@ -71,6 +127,34 @@
         "costUsd": 0.000066
       }
     },
+    "497f5a5adece691124e5ae61d29ee2ea19c188699865b4cc26504ce725e1ca4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1e6e5d9bc1dfcddefab44bcc3a8dc1b8f8e3d9c8e3fa1579053fdf00e583948",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：move 之后继续使用源对象**",
+      "translatedText": "**Error 1: Continuing to use the source object after move**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "49879d349bcf3f9a36b844e49025b9c8ee70ad3cda57fdf93247d2e4dcce64b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "f3827bbffe1916f178467c0df082d0e1181c3730f180714972029a19d40bd254",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "每个容器都有自己专属的迭代器",
+      "translatedText": "Each container has its own dedicated iterator\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "49a0ae6e25993471419026ebec1197d31f3845ca8a77e97548863da9d430999f": {
       "normalizationVersion": 1,
       "sourceHash": "8c9af6ca7cc48c0d0895e7a9ded242575a76128fda84d2d2fa04beb58a18b091",
@@ -85,6 +169,48 @@
         "costUsd": 0.000055
       }
     },
+    "49aa89b9c92bb82a736ea6b8ed2c1ac0e854d6d2f110c2de39fcea91e03d4a45": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d65a7e80af9822e4de47af00d5646243aa70896b4c764f628535f5f9021b3c5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector存放内置数据类型",
+      "translatedText": "#### Vector stores built\\-in data types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "49acf955a7ac888fbd19a032e76340f89829806d6558c21745e681d0619b3365": {
+      "normalizationVersion": 1,
+      "sourceHash": "a46c5c42fc88e218bcd4f5cc92d26ae77fc322a335ffd6bf45098fa8f60a6a10",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如一个任务状态从：",
+      "translatedText": "For example, a task status changes from:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "49af29bdc71de7e79eb3443cfe7bacf049b8be319c858a57dfabd7e20345e1ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "c5e6f6bf4190594df6eaef8704ec8393a6f3e48f1cbee47c05fa7d765a49a061",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "两者对应的是不同的形参类型。",
+      "translatedText": "The two correspond to different parameter types\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "49c4d5b71fcf4b8889e35465adb6dc152aaa8af7bfff287ae340f95a0833a95e": {
       "normalizationVersion": 1,
       "sourceHash": "69ecd7d093a6284236358741c2250045d0394e38630f0bae38e0f6a563a40ba7",
@@ -97,6 +223,20 @@
         "inputTokens": 138,
         "outputTokens": 19,
         "costUsd": 0.000065
+      }
+    },
+    "49c7f2f7996daee7e470035cd03b4836909f0955273819d0cce8bf6f3e4de17c": {
+      "normalizationVersion": 1,
+      "sourceHash": "f83035b6bde927202eccebd53fc46132ce257b6d335fe2d80523fb0d6121e712",
+      "contextFingerprint": "9293bb7ebe1a67744f7eb85192805cc0c1af3e2d8ead595c8c89fb33de1e64bd",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | 旧 enum 问题 vs enum class | `enum class`、`static_cast<int>()` | 旧 enum 名字污染、隐式转 int；enum class 解决 | 需要整数值时必须显式转换 |\n| 示例 2 | 指定底层类型和 switch 用法 | `enum class : uint8_t`、switch + enum class | 指定底层类型能节省内存（如嵌入式场景） | `sizeof(enum class)` 不等于成员个数 |\n| 示例 3 | 在 struct 中使用 enum class | enum class 做 struct 成员、比较操作 | 表示状态、等级等有限取值集合 | enum class 支持 `==`, `<`, `>` 等比较 |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Old enum problem vs enum class | `enum class`、`static_cast<int>()` | Old enum name pollution, implicit conversion to int; enum class solves this | Must explicitly convert when an integer value is needed |\n| Example 2 | Specifying the underlying type and switch usage | `enum class : uint8_t`、switch \\+ enum class | Specifying the underlying type can save memory (e\\.g\\., embedded scenarios) | `sizeof(enum class)` is not equal to the number of members |\n| Example 3 | Using enum class in a struct | enum class as a struct member, comparison operations | Represents finite value sets such as states and levels | enum class supports `==`, `<`, `>` and other comparisons |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 260,
+        "outputTokens": 152,
+        "costUsd": 0.000261
       }
     },
     "49da6d77ef8d42648ace22ad8d65bf6b7c9ec42b5a5004dfd7a66ed0d376e31f": {

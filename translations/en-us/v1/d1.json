@@ -15,6 +15,34 @@
         "costUsd": 0.000052
       }
     },
+    "d112ff9c649c4d4948f8b5aac083bd69c56f51b436c2de0b651e92619b3ee568": {
+      "normalizationVersion": 1,
+      "sourceHash": "f8f5cbec195266a65eaa7dfaa0bd8d52b64f82f542fa00e4ae0bf79d6f0ce7a1",
+      "contextFingerprint": "4e5e3a3b92b99c8abf2c7ccede7f7ec2a9f2d2de28b8f79392ad0784f415c01d",
+      "sourceText": "> **补充：** 当前 `Buffer` 类手动管理动态内存，但只实现了析构函数、拷贝构造函数和移动构造函数。若还要安全支持 `b = a` 和 `b = std::move(a)`，还应实现拷贝赋值运算符与移动赋值运算符，这通常称为 **Rule of Five（五法则）**。",
+      "translatedText": "> **Note:** The current `Buffer` class manually manages dynamic memory, but only implements the destructor, copy constructor, and move constructor\\. To also safely support `b = a` and `b = std::move(a)` copy assignment operator and move assignment operator should also be implemented, which is commonly called the **Rule of Five**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 187,
+        "outputTokens": 62,
+        "costUsd": 0.000131
+      }
+    },
+    "d129034f395a7e847ac58c25a119681813253dadc729c810dd2c7bee67787eed": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b61f2856e3b8126e96969ed4a5516ee4087e28686802e8b0e3a2d28a64f2b94",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以得到：",
+      "translatedText": "So we obtain:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "d139f56ecb778c046e43ea7a8bba984c682abfc6fa184d7553f4ed3c09537808": {
       "normalizationVersion": 1,
       "sourceHash": "7aa8968b441cc07591cc64dc0c40d7bb60b6892a5f8e2d2792f82a96841fc6ec",
@@ -27,6 +55,20 @@
         "inputTokens": 144,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "d13b16b3cece287bb86b08413f68e6bb89599c4b41883edea5ed050963c97a67": {
+      "normalizationVersion": 1,
+      "sourceHash": "c98569c65c957c8b5bd0bad58f1a897169bfa2ef10c1f69c6a3a8564696b0473",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "PPT模板：",
+      "translatedText": "PPT template:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "d15472978c4366ac03623879a53547f5e4560ffc16ee21949c43d17e19772253": {
@@ -85,6 +127,20 @@
         "costUsd": 0.000069
       }
     },
+    "d16ed85cd498f68ee88caa2d2e49aa841402dce710a2ee1cbe5f2f6c930deb20": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bbab97474700828ea1b59cc530668c27527fb0a0ab9973e570229b8758ddbc3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以拆成：",
+      "translatedText": "Can be broken down into:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "d19b4b8b3403cf74449e86bf2734b458658c7598f02a5de9a8d8f5d8c528293d": {
       "normalizationVersion": 1,
       "sourceHash": "0c2877d6f48af496e097f2c7518e1dcafe8254e7e21fe07654157ecc06902cf5",
@@ -97,6 +153,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "d1ab8fb5ac11a54aab5e39f28e2e28cb6dbed6491a96c6c2ed56aa6aef394620": {
+      "normalizationVersion": 1,
+      "sourceHash": "dff1268972ade814c2940d8695db2b63d89024b2004c0f06c405b8576c62d4aa",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### map基本概念",
+      "translatedText": "#### Basic concepts of map",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "d1b63e42f2e58f11eb5c5167b3ab6a8d330eee69b82bc9107d5e80bf524e38b0": {
@@ -167,6 +237,34 @@
         "inputTokens": 144,
         "outputTokens": 21,
         "costUsd": 0.000069
+      }
+    },
+    "d1ec6aab12fb7557070c060ad7edc10ae93854caabc06fdfc544ba5923cdcdf7": {
+      "normalizationVersion": 1,
+      "sourceHash": "57686bd65b9c04159ea609fc2a1afaed39569ed25ba62c6d1a45300583b6c925",
+      "contextFingerprint": "c89e8be62037b3f236e4d58228d36dcb2fb6b61444cf9c7f9e36bb4d82458c0a",
+      "sourceText": "1. **return 时不要加 std::move**：让编译器自动优化（RVO/NRVO）。\n2. **赋值给已有对象时用 `std::move(source)`**：用 `target = std::move(source)` 避免拷贝。\n3. **move 后不要再用源对象**（除非重新赋值或重置）。\n4. **移动构造函数必须标记 `noexcept`**：否则 STL 容器在扩容时不会调用它。\n5. **`std::move` 不移动任何东西**：它只是类型转换，把左值变成右值引用。真正的移动发生在移动构造函数或移动赋值运算符中。",
+      "translatedText": "1. **Do not add std::move on return**: let the compiler optimize automatically (RVO/NRVO)\\.\n2. **Use when assigning to an existing object `std::move(source)`**: use `target = std::move(source)` to avoid copying\\.\n3. **Do not use the source object again after move**(unless reassigned or reset)\\.\n4. **Move constructors must be marked `noexcept`**: otherwise STL containers will not call it during reallocation\\.\n5. **`std::move` does not move anything**: it is just a type cast that turns an lvalue into an rvalue reference\\. The actual move happens in the move constructor or move assignment operator\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 126,
+        "costUsd": 0.000223
+      }
+    },
+    "d1f1cc2fbf2a8c398616de17fe8b748e024eea43934389eda68560c8cf9fd249": {
+      "normalizationVersion": 1,
+      "sourceHash": "8a8bba2f54fecfe8ae7ae59be101b207911b0ab7b7a18412f2db4001e9c60482",
+      "contextFingerprint": "b97594ae71c0cd5e0b52937945919d72857de2ec1bbe05768ddea7d6e66d8469",
+      "sourceText": "如果只是存 5 个整数，`array` 和 `vector` 看起来都能用。但放到工程里，差异主要体现在“大小是否固定”和“是否需要动态扩容”：",
+      "translatedText": "If you are just storing 5 integers,`array` and `vector` both seem usable\\. But in engineering, the difference mainly lies in \"whether the size is fixed\" and \"whether dynamic expansion is needed\":",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 47,
+        "costUsd": 0.000106
       }
     },
     "d1f1f23aa54a0d3646a5de48fb26e47b7406ef4377c61a2f23315de7c8bdfe5f": {

@@ -15,6 +15,34 @@
         "costUsd": 0
       }
     },
+    "7041e74eb2fe50e7692d48c7bb0256f2b21676a88dd0822767c848e21297caee": {
+      "normalizationVersion": 1,
+      "sourceHash": "dc17c3787c10932bac11ccacfd8a31693b37581ddb9f03e7a00a0d36c233282f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "解决：",
+      "translatedText": "Solution:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "704c2cb53dce44a9f0edcb4d897f0bcac33988b43afd709a02bd229f594fa4a5": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d4db86ee811bec320b02c02a0b6fc027e56b7f12bb846f56025bfd40d49963e",
+      "contextFingerprint": "17ea474378e8046da0de75ee995cd219c3a4dec84b1169fc578f7f4d08156377",
+      "sourceText": "- 返回 `-1` 或 `nullptr`：语义不清晰，且 `-1` 可能是合法值。\n- 返回 `bool` + 输出参数：代码冗长，需要先声明变量。\n- 抛出异常：异常有开销，且\"查不到\"往往不算异常情况。",
+      "translatedText": "- Return `-1` or `nullptr`: semantics are unclear, and `-1` may be a valid value\\.\n- Return `bool` \\+ output parameter: the code is verbose and requires declaring a variable first\\.\n- Throw an exception: exceptions have overhead, and \"not found\" is often not an exceptional case\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 181,
+        "outputTokens": 62,
+        "costUsd": 0.000129
+      }
+    },
     "704d3507e00bb05c903eab6b9259d982574daf61d168ed2b0f7e63c516daf2c6": {
       "normalizationVersion": 1,
       "sourceHash": "6feab25533b5447912aac24a8faf170f075ed8f443da8a3eaae6aa53d570c5f2",
@@ -57,6 +85,20 @@
         "costUsd": 0.000056
       }
     },
+    "7087b03859acf5cea6c20e4ef405ccd73d4c5258791250904fcf52f588eb58fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "eb8d15973c1f5f7a087c9d20265130d376b41377b639add8b745abd27019eccc",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 并发与并行",
+      "translatedText": "## Concurrency and Parallelism",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
     "709e564da527b433df046c15fa84947065319beb3115d633eeaa29db178cf83c": {
       "normalizationVersion": 1,
       "sourceHash": "3f45a88b65c361469b4b974f90f5f799a336b63e4a2f3b35afe00d576ee6f386",
@@ -69,6 +111,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "70bc1f5e0872facc84a8186ceab21c63ff23826cca43583ed388381a946b3ae6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b9659fc8274d1606d4ed3ed632c703d54b0fe2b5465e9b67e8835f8f629aa75",
+      "contextFingerprint": "6f04ba8a786e737491c5be804d57198770cf421ecf8bf548b1332967752f83c6",
+      "sourceText": "- `std::variant<T1, T2, ...>` 是类型安全的联合体。\n- `std::get<T>(v)` 直接获取（不安全），`std::get_if<T>(&v)` 返回指针（安全）。\n- `std::visit(visitor, v)` 是最推荐的方式，强制覆盖所有类型。\n- 适用于消息分发、可选配置、状态机等场景。",
+      "translatedText": "- `std::variant<T1, T2, ...>` is a type\\-safe union\\.\n- `std::get<T>(v)` Direct access (unsafe),`std::get_if<T>(&v)` return pointer (safe)\\.\n- `std::visit(visitor, v)` is the most recommended approach, enforcing coverage of all types\\.\n- Suitable for scenarios such as message dispatch, optional configuration, and state machines\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 55,
+        "costUsd": 0.000119
       }
     },
     "70ca739987d2f46aa26b4c043ac014677e9e825b90fd079242bc63d9ea0e1214": {
@@ -97,6 +153,20 @@
         "inputTokens": 192,
         "outputTokens": 76,
         "costUsd": 0.000149
+      }
+    },
+    "70f5ab5e3994c1d6d60d9c97f876fc55a5bd060bfa27969ea96d77b5c0f92376": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fb143ee64e65cc486fe2927029c86b59273bf5e3685cfd2f604c2397eedaff6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第一种写法更容易阅读，通常建议在教程、头文件和函数定义中保留有意义的参数名。",
+      "translatedText": "The first form is easier to read, and it is usually recommended to retain meaningful parameter names in tutorials, header files, and function definitions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
       }
     }
   }

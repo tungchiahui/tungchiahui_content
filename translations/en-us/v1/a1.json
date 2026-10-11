@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "a1045278e7b9fb3cfd497bd5b789abd056925a0c35eeb5f93ca5641bffa2fcea": {
+      "normalizationVersion": 1,
+      "sourceHash": "177f3b39edc931b1c1fb4a1fa8be507f2a66e3a56e2989a3b6fd0ea0135155c0",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 函数模板注意事项",
+      "translatedText": "#### Function Template Considerations",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a118e77f96a8876a1175e74f3591fd86b19adb13696d0e2c1db23813d59faafe": {
+      "normalizationVersion": 1,
+      "sourceHash": "2d08114d5fd86aed3d60e53fc9264f5ee33126e8b9c27fce7bbe2575a31d6636",
+      "contextFingerprint": "6c81fc5eafc287e925a09ebd766600f186f96fecc12ca2c3ec0e556dee5a1d27",
+      "sourceText": "* 文件操作必须包含头文件 fstream\n* 读文件可以利用 ofstream  ，或者fstream类\n* 打开文件时候需要指定操作文件的路径，以及打开方式\n* 利用<<可以向文件中写数据\n* 操作完毕，要关闭文件",
+      "translatedText": "* File operations must include the header file fstream\n* To read a file, you can use ofstream, or the fstream class\n* When opening a file, you need to specify the path to the file to be operated on, as well as the open mode\n* You can use \\<\\< to write data to the file\n* After the operation is complete, close the file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 80,
+        "costUsd": 0.000149
+      }
+    },
+    "a11ec79b01f1aa8fd9a18f9d04880dd2b21f8f9572796f929ef5a63a7ad8dec2": {
+      "normalizationVersion": 1,
+      "sourceHash": "91db03886cf29b645a2a15e3c253543b51d6aeef9d29559de7c4070a4aaaf659",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "主要技术点：",
+      "translatedText": "Key technical points:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "a162789566874786844dd2f4fbeef817d970fb140c5b3df0538b161c4566ead8": {
       "normalizationVersion": 1,
       "sourceHash": "707031f7b89c9cd5192297d82e9622e1bd0098f6b0e1205a9606112e3d6e2594",
@@ -13,6 +55,48 @@
         "inputTokens": 136,
         "outputTokens": 13,
         "costUsd": 0.000057
+      }
+    },
+    "a1797c0f8cab3253c52aa9e050faed1a103493e3b3a588ec9ca35355e8af6dcf": {
+      "normalizationVersion": 1,
+      "sourceHash": "93171c40733f7aae4534b8c1309892f666d07d30b47dbc61ce0cdd046852357a",
+      "contextFingerprint": "7913c77599035ac8eed00e24998e869aff605a9b2df8eb53c232573f6434f839",
+      "sourceText": "| 表达含义 | 推荐写法 | 不要混用 |\n|:---|:---|:---|\n| 空指针 | `T* p = nullptr;` | 不要写 `NULL` 或 `0` |\n| 空智能指针 | `std::shared_ptr<T> p = nullptr;` | 不要手动 new/delete |\n| 空字符串 | `std::string s;` 或 `\"\"` | 不要用 `nullptr` |\n| 可能没有返回值 | `std::optional<T>` | 不要硬塞一个\"特殊值\" |\n| 容器为空 | `v.empty()` | 不要和指针是否为空混淆 |",
+      "translatedText": "| Express meaning | Recommended usage | Do not mix |\n|:---|:---|:---|\n| Null pointer | `T* p = nullptr;` | Do not write `NULL` or `0` |\n| Null smart pointer | `std::shared_ptr<T> p = nullptr;` | Do not manually new/delete |\n| Empty string | `std::string s;` or `\"\"` | Do not use `nullptr` |\n| May have no return value | `std::optional<T>` | Do not force in a \"special value\" |\n| Container is empty | `v.empty()` | Do not confuse with whether the pointer is null |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 196,
+        "outputTokens": 82,
+        "costUsd": 0.000158
+      }
+    },
+    "a18cddb71f3ac6a712a62ade2461e7d4730d363d152d635e776034283749cb1e": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4357030db67ce49025e131738217391d13107df4a7393e01a8630a987816e0b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "相比：",
+      "translatedText": "Compared to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "a18fe03a977ce61b49f53e6f0fe10169d50ff90e5676c9c862dd5f72b9c0f72b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7cfd9f1f85cce52b21016c4811e8a856e7bbc4754f7bdcd52e358196e09a9968",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "共同组成一个完整的用户状态，那么更合理的是：",
+      "translatedText": "Together they form a complete user state, so it is more reasonable that:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     },
     "a19fd297702dca27d7e78369ee69ed4d58e13da18d59ae5f2324b5cc68e0108d": {
@@ -55,6 +139,34 @@
         "inputTokens": 142,
         "outputTokens": 20,
         "costUsd": 0.000067
+      }
+    },
+    "a1acf12aea54731751d30234ef8113a5bb0dd63c809e495e09ed0f60b285bc0f": {
+      "normalizationVersion": 1,
+      "sourceHash": "62a6dd2ca1726b9805e8f95f6ad70a4a0d304fd1bd80325d3e4cb11fef0dae6d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样即使当前成员函数是：",
+      "translatedText": "Thus, even if the current member function is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "a1c32a0fb9dbb9daa48aeb058163c7abc6dea7212455d67134edd9b3dfee9a99": {
+      "normalizationVersion": 1,
+      "sourceHash": "a71c0371a339e40c57cc59e4e3229fd96c97b2e039f6d1b37c0bf6db0b29b2db",
+      "contextFingerprint": "677f2c83c246f6ae5f8c6a8ceec74f6e76b5781cea2ce452e9a675622bb7c206",
+      "sourceText": "就再使用字符串的字典顺序决定谁在前面。例如 `Alice` 和 `David` 长度都是 `5`，因此比较：",
+      "translatedText": "then use the lexicographic order of the strings to determine which comes first\\. For example, `Alice` and `David` both have length `5`therefore compare:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "a1f75f98fbebcbe1bfd1affbc1ceaea2da41a20e3497ff75b2f2c49e7eb65d6e": {

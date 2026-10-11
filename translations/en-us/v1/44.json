@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "44382808cbda3c5cb72bc1a31f6dde7edd93862b67ccdc4d0c7ffc393feb7ecc": {
+      "normalizationVersion": 1,
+      "sourceHash": "9bb3c2744ca11c1e4473b44e2248761e1cf786d3fab5f8b121a8c98c12176429",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "看到：",
+      "translatedText": "See:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "44473257bfd8d50880261498e7d2e47b5e60fc983894522b14e0a6b93bdbdffe": {
       "normalizationVersion": 1,
       "sourceHash": "ebfccfb1183a7048412930aa2513bab9d837524f6f07119e45aaed96dc841d46",
@@ -15,6 +29,62 @@
         "costUsd": 0.000119
       }
     },
+    "445f7f0cd2a9442f007d9232c3f55e288ab4443538730aba387b47cdfc9ef6b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "629af5394aa009622dbbf314757d0fddf7c6d699cb0fb09c3d46a28e4151d8f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "功能更多也意味着状态更复杂。",
+      "translatedText": "More features also mean more complex state\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "44860d92bc1fa84207f9b6d65449968a0f9c8ce13a0819530d56cc7848a24590": {
+      "normalizationVersion": 1,
+      "sourceHash": "23a92448383d94f0fcd79787c7f59ff0de4349bd16d3770ce7635c5f0ce8ad43",
+      "contextFingerprint": "aae41e93a335e95618eb7a7be007342d57a333a0bfc226842a54883644ccab6f",
+      "sourceText": "创建 Lambda 时 `speed_` 是 `10`，之后原对象把 `speed_` 修改成 `20`。因为 `[this]` 指向的仍然是原对象，所以调用 Lambda 时读到的是 `20`。",
+      "translatedText": "When creating the Lambda, `speed_` is `10`; afterward, the original object changes `speed_` to `20`\\. Because `[this]` still points to the original object, when the Lambda is called, what is read is `20`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 46,
+        "costUsd": 0.000105
+      }
+    },
+    "4487bea913de3893ed7b08860c93edb22a0535fb08a524dd80095ac95287d8ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c4983c493c995a3282cbb52c261a12b8ed02c1ac60b9c2fa3d60d408223eb76",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "mutex 并不知道：",
+      "translatedText": "mutex does not know:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "44977be632c476387b1dccb71422b08fc501bdcc623cb1e5bd3d9cd091639ad1": {
+      "normalizationVersion": 1,
+      "sourceHash": "5572c51925cf77bb0f3e24c8799dd1a92fbed9e71ddbdf075d4ff589c9cfca87",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程 B 才有机会获得它。",
+      "translatedText": "Only then does Thread B have a chance to acquire it\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "449f830e011f16e2d43e038cd81b56b92c2f36b31c1d3f2e126fb26fc4c205b6": {
       "normalizationVersion": 1,
       "sourceHash": "fb403d09c0b81d0e7410e74a9ca5ad1553d8069be3a8c7dfbede9a7280b3295e",
@@ -27,6 +97,34 @@
         "inputTokens": 151,
         "outputTokens": 37,
         "costUsd": 0.00009
+      }
+    },
+    "44d4dcff682996b2a4cd753eddc24d1aa6ea77d5dd34d24eb376c885b8a0570e": {
+      "normalizationVersion": 1,
+      "sourceHash": "042ed5aaf072104a0718c2f8d824cd766803d8b930c73d8a92175ed4432e34e1",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "RAII 利用 C++ 对象生命周期确定性，**自动管理资源**，让你不再需要手动释放。",
+      "translatedText": "RAII leverages the determinism of C++ object lifetimes,**automatically managing resources**so that you no longer need to release them manually\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 43,
+        "costUsd": 0.0001
+      }
+    },
+    "44e5af11d3ec4a79cc8c86c21e16f6988de347cbb48ebf91477e4bdf0e60ac8d": {
+      "normalizationVersion": 1,
+      "sourceHash": "e481fa8352da09eb77ea4e9f2b52ef8edacc58c60f06c53caa871f9a2b6c30a2",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "第三个参数就是这个“判断规则”。它并不一定非得是普通函数，只要是可以像函数一样调用的对象就可以，包括普通函数、函数对象和 Lambda。这些东西统称为**可调用对象（Callable）**。",
+      "translatedText": "The third parameter is this \"judgment rule\\.\" It does not necessarily have to be an ordinary function; any object that can be called like a function will do, including ordinary functions, function objects, and lambdas\\. These things are collectively called**callable objects (Callables)**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 176,
+        "outputTokens": 66,
+        "costUsd": 0.000132
       }
     }
   }

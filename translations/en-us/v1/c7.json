@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "c712bb5f3e9d417e7eb60e3d9ad63a4c0b1863c8a9a071e6437414d97e6bd6fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "5baa6c87e6fa23228924cdc2daa6ee014942c40754ab1b13d02c18084fca001f",
+      "contextFingerprint": "879731a8e4d97734b90af23a5501e4cdf2a9593d9893153715186e2f370ae7ce",
+      "sourceText": "* `map<T1, T2> mp;`                     //map默认构造函数: \n* `map(const map &mp);`             //拷贝构造函数",
+      "translatedText": "* `map<T1, T2> mp;`                     // Default constructor of map: \n* `map(const map &mp);`             // Copy constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "c72ccabe06b99aafe9b051053c82d7919f2766dff9d1863cdddd2ee0e1dff95e": {
       "normalizationVersion": 1,
       "sourceHash": "ba402f2d724632b11a8eb2dd509eec5783e297337f246674a2d86742c39061f8",
@@ -27,6 +41,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c73af3805bd95738b5336af584616fb10c1c86ef87ca3ce8816a942c37bb1d23": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc05b3a315cdb072456e163dacc2cb0772c34c60d8d24eea2f74771485df9909",
+      "contextFingerprint": "c3d877ed1643c54647efce3b9995222184d13dad1152ec007181825aa8188c36",
+      "sourceText": "### `std::visit` 与 Visitor 机制",
+      "translatedText": "### `std::visit` and the Visitor mechanism",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "c7471c75f828e6a58a7e163a94f90909486be3e968f5821b11abd3fbc5d5c4b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a07e8927b0c4d69cb1b930baff2b5a614701eb3cb3ed81c5577c64913e46647",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并且我们希望：",
+      "translatedText": "And we hope:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "c7510035aa8d70acd03fc37222d63b3a9f0dbaf8993443bd86b46c1984de949d": {
@@ -43,6 +85,34 @@
         "costUsd": 0.000076
       }
     },
+    "c75adb2710e8d65745f3594bfa7e8adb9e75b57c1ae6a6e20a6755b080458f58": {
+      "normalizationVersion": 1,
+      "sourceHash": "aba136b5ccef9364a6335d30a2b71f0e41262159462dc945f104b4e2f6d73c23",
+      "contextFingerprint": "ed20173df5125317d9a8c4d79aa59f6467d9d74741d702b0dac53575f9c3a4b2",
+      "sourceText": "| 场景 | 推荐 |\n|:---|:---|\n| 简单固定参数 | Lambda 或 `bind` 都可以 |\n| 参数关系需要读得很清楚 | Lambda |\n| 绑定成员函数给旧接口 | `bind` 很常见，也可以用 Lambda |\n| 需要复杂逻辑、条件判断 | Lambda |\n| 阅读旧代码或 ROS2/Boost.Asio 示例 | 必须看懂 `bind` |",
+      "translatedText": "| Scenario | Recommendation |\n|:---|:---|\n| Simple fixed parameters | Lambda or `bind` both work |\n| The parameter relationships need to be read very clearly | Lambda |\n| Binding a member function to an old interface | `bind` is very common, and a Lambda can also be used |\n| Requires complex logic, conditional judgment | Lambda |\n| Reading old code or ROS2/Boost.Asio examples | Must understand `bind` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 83,
+        "costUsd": 0.000159
+      }
+    },
+    "c761e46da07fb69672f9b54a89d1eaa5ffbe491d79781e40f4ee3e2f1a7b3f12": {
+      "normalizationVersion": 1,
+      "sourceHash": "62be7c33f54a13f1313a51c800a80f336ab319783659427b6fb40272353919bf",
+      "contextFingerprint": "0a309d5e72f1067c6303d5b62c02fcf0f47325af8ab17b692cbb0d1a26eb2c9c",
+      "sourceText": "`find_if` 和 `sort` 使用的是同一种设计思想，只是它们向规则函数提出的问题不同。",
+      "translatedText": "`find_if` and `sort` use the same design philosophy; they simply pose different questions to the rule function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 24,
+        "costUsd": 0.000074
+      }
+    },
     "c790275292b6869853a81976f2b4a7a8cb55c1e0bfdd61965131468a0f0cfeff": {
       "normalizationVersion": 1,
       "sourceHash": "c7e4bd9a02402cbc1c4ed465fa65f6db391d7d158b944ca3ca4f6cbb9344440f",
@@ -55,6 +125,62 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "c7d4a7bdc5aa53c6ad915f8d6f767ee9b001bebe32dd81318b93b611d9cfd998": {
+      "normalizationVersion": 1,
+      "sourceHash": "5e41a0863e7fc9a51ce34c739889f6621c8eca1447628fd2037361eb8153433e",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### RAII 为什么适合管理锁",
+      "translatedText": "### Why RAII is suitable for managing locks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "c7e4c6487efb4163b2aa24e359e033a3753f9b885a1f50f75088ca1fd144c5fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "38bb31b5334292f6cef02532068d0c4a0d60494290f0b568445dc674ee34121b",
+      "contextFingerprint": "3ee17d8ed162e528484ceb703d40daaff75e0484ed86225d88617c1d5b981655",
+      "sourceText": "* 自动类型推导，必须推导出一致的数据类型T,才可以使用\n\n* 模板必须要确定出T的数据类型，才可以使用",
+      "translatedText": "* For automatic type deduction, a consistent data type T must be deduced before it can be used\\.\n\n* The template must determine the data type of T before it can be used\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
+    "c7fc5136567eec19372106e1df3bb0e0a7e156eedefee159d13daf2e75e247d7": {
+      "normalizationVersion": 1,
+      "sourceHash": "cae640b973a8a1159f69cb3e522e56c531fbcfec6ac795453902ecf1f23d4f2c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这段代码可以看成一个只有两个节点的双向链表：",
+      "translatedText": "This code can be viewed as a doubly linked list with only two nodes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "c7fd933451f3d2ac65664e230e964b906cdadb05962d5883e32e5c8785d0b7ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "98a5fd003186329b78ff13f4c7c24b28faa6f078f2139719c9950f575bed5730",
+      "contextFingerprint": "63d6af3a5d545cc4e5968495567978f4274d87e0f48958bf5c9eea6989b4bdd4",
+      "sourceText": "#### `MessageHandler{}` 是什么？",
+      "translatedText": "#### `MessageHandler{}`What is it?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

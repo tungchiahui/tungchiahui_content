@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "bb0e768ad41a871cf2000d345c66479898d56e34f224695756c8c54c9034ba32": {
+      "normalizationVersion": 1,
+      "sourceHash": "db172c3340209edf1b701d430b1482f09d045a53ac6815eac7ea7016e729645f",
+      "contextFingerprint": "d9d7c7c81d579f8ddd61ed9b2a234fbd844f9b1613fa5a101e19f9d3d32298aa",
+      "sourceText": "> **按照当前排序规则，`a` 是否应该排在 `b` 前面？**",
+      "translatedText": "> **According to the current sorting rule, should `a` be placed before `b`?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "bb134b92f06b78a21fded1ebca5386a65801781f8fdd24f9d614b535726a2fc6": {
       "normalizationVersion": 1,
       "sourceHash": "a359d3e64cb875978bf75fcb240fb55b400a9843d585cee6da38c94eea5e7a89",
@@ -13,6 +27,20 @@
         "inputTokens": 155,
         "outputTokens": 32,
         "costUsd": 0.000085
+      }
+    },
+    "bb1e2dd15ef9edd70d848a522dfc0001d1e477dd58e8a48ea2b14479189e22e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "02de3a59786baefd3030e17bef6511a60f45650bba7ccd6ff9dbf886a46d01c3",
+      "contextFingerprint": "950ea5244326211e01275077d4c6d1bcb002bfc33cda3e7aa5fe28045e9f4301",
+      "sourceText": "栈中进入数据称为  --- **入栈**  `push`",
+      "translatedText": "Pushing data onto the stack is called \\-\\-\\- **push**  `push`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
       }
     },
     "bb23a31d6761e2a2278c65b52d9a47ed9e692de43a6d1c0b0c1aef300459dede": {
@@ -29,6 +57,34 @@
         "costUsd": 0.000075
       }
     },
+    "bb3889a93443b005cfb8f7f238b3d784784cedc675642835cf4ff40ca68e0a9b": {
+      "normalizationVersion": 1,
+      "sourceHash": "cad22eff1e0a401cde07b08741850eebfbd95359f2440006e21e5d89e05e7853",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "否则其他线程会长时间拿不到锁。",
+      "translatedText": "Otherwise, other threads will be unable to acquire the lock for a long time\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 23,
+        "costUsd": 0.000069
+      }
+    },
+    "bb442f760d87f836dae7d42514707fa5cb7d744fc791a6e396c3304e06eac81b": {
+      "normalizationVersion": 1,
+      "sourceHash": "41b87627b5256a143bd12cbf910f06d649341c5fcccc3012c9d14121a14b0fd9",
+      "contextFingerprint": "3c97ca16d660174aa2e6615c33ab86330e834ed0ff67cdb3aaa2813b0ed360f0",
+      "sourceText": "- 范围 for 遍历容器的语法是 `for (const auto& x : container)`。\n- `const auto&` 只读引用（默认选择），`auto&` 可修改引用，`auto` 值拷贝。\n- 适用于任何有 `begin()` / `end()` 的类型（STL 容器、初始值列表等）。\n- 遍历过程中不能增删容器元素，会导致迭代器失效。",
+      "translatedText": "- The syntax for range\\-based for loop traversal of a container is `for (const auto& x : container)`\\.\n- `const auto&` read\\-only reference (default choice),`auto&` modifiable reference,`auto` value copy\\.\n- Applicable to any type that has `begin()` / `end()` (STL containers, initializer lists, etc\\.)\\.\n- During traversal, container elements cannot be added or removed, as this will cause iterator invalidation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 193,
+        "outputTokens": 80,
+        "costUsd": 0.000154
+      }
+    },
     "bb5becbcf7ffc083001c6b738a5f26d2f7fc331e3470730fade971edf835ee0c": {
       "normalizationVersion": 1,
       "sourceHash": "c5cccbe738a04e5f8b759e4a6ac58a1b845ab20a3b23ebf21144a8d286dc08dd",
@@ -43,6 +99,20 @@
         "costUsd": 0.00014
       }
     },
+    "bb70595c45e81fbf2c17fed92513dfa0f035a460f1505a7e3b83c9889a20c8fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "25b4ba98d3b98fb10300d9e395d79bbd55862989de921e34a8c0cb8515839146",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常与 RAII",
+      "translatedText": "### Exceptions and RAII",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "bb910545927df5a15f41a3c57713065bb97151bf8f98a28b564d61891331bdc8": {
       "normalizationVersion": 1,
       "sourceHash": "400c93e062d35521a3ac7b1ae18746152e1b3db0f581be1611a57adfd9b5f469",
@@ -55,6 +125,20 @@
         "inputTokens": 173,
         "outputTokens": 50,
         "costUsd": 0.000112
+      }
+    },
+    "bbaad688e0565d4e67831349768c72f3883a29e3691e105db637617b1c4f9cf8": {
+      "normalizationVersion": 1,
+      "sourceHash": "99a8be2ae1a80e727ead19e3d512199492f779f6eb974a6c880a4c03d34946a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "锁不是越多越安全。",
+      "translatedText": "More locks do not necessarily mean greater security\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
       }
     },
     "bbae400b9782a923245c856fdfd2d885b6978d070f94466620026ea5b1f01c23": {
@@ -85,6 +169,20 @@
         "costUsd": 0.000243
       }
     },
+    "bbcb387aa510d9144a98b298adaadb864f417b5f5f671e4c27c57f590872de09": {
+      "normalizationVersion": 1,
+      "sourceHash": "c020efefc65f6e32e3f7f7078f9c62bd1f8ac8f633eae2e36fea7f1e12a66e87",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "全局函数类外实现 - 需要提前让编译器知道全局函数的存在",
+      "translatedText": "Implementation of global functions outside the class \\- the compiler needs to be made aware of the existence of the global function in advance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 31,
+        "costUsd": 0.000081
+      }
+    },
     "bbd09e98fb94abcd31a112f8387706e5c54efa871a595af10354f374615d513f": {
       "normalizationVersion": 1,
       "sourceHash": "2f27b3055ed5c3f3b3c3ae44b8154c3e439b2fa584db53a91626f85acde1fdf2",
@@ -99,6 +197,76 @@
         "costUsd": 0.000082
       }
     },
+    "bbd79240c5923144033273b2d3a1f728d2009257d3c331e76532315f861a570f": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd1ade7dabbf5b053d2917a730a50ac62d65cb133c2b4fcb584be7252d464cbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "第三个参数回答的是：",
+      "translatedText": "The third parameter answers:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "bbdbe433fe2806fabd380464f39bfc8416f76e3abfa85e2f57c66654dedc5354": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3c69ae78479f5529376ff59f17d07ad0572abef81125c151710351311a02398",
+      "contextFingerprint": "b929d3ad2b56af641369615d09bb6a726ea91ed6f3cf338bf5728ebd81a166ff",
+      "sourceText": "* 插入和删除提供的位置是迭代器！\n* 尾插   ---  push_back\n* 尾删   ---  pop_back\n* 头插   ---  push_front\n* 头删   ---  pop_front",
+      "translatedText": "* The positions provided for insertion and deletion are iterators\\!\n* Push back   \\-\\-\\-  push_back\n* Pop back   \\-\\-\\-  pop_back\n* Push front   \\-\\-\\-  push_front\n* Pop front   \\-\\-\\-  pop_front",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 82,
+        "costUsd": 0.000159
+      }
+    },
+    "bbdccf3ce83acf46d9205f472e2b343ab37cafc621c5e688790c076ec99587bd": {
+      "normalizationVersion": 1,
+      "sourceHash": "c47bd2962a31d3c771c3d31ccfc7faa8f48e48c656eeb7040fdf8bf2d9e29f83",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 3：using 声明和 using 别名混淆**",
+      "translatedText": "**Error 3: Confusing using declarations with using aliases**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "bbe3692e315df464e16351a6071fd8134d4eabd410a70bce5f52b708acaf6c61": {
+      "normalizationVersion": 1,
+      "sourceHash": "c46ac4166c11a0265ba61cd42c0696deba62faf51a6b662082cbd9d413473425",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数参数应该表达真实语义：",
+      "translatedText": "Function parameters should express true semantics:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "bbf0c6aa99303c78302799387ad09c576e694381392cf35b0816238f5fe5a034": {
+      "normalizationVersion": 1,
+      "sourceHash": "f123a39fcfcb8f96de5d605b842fb0554d9b952f00c2a76b367acea3f18913b2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按值捕获会产生拷贝，还可能造成对象切片问题。",
+      "translatedText": "Capturing by value creates a copy and may also cause object slicing issues\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
     "bbf166b78452378d1e03d44bfc857207963aa11664f407cda1572e9860516cdb": {
       "normalizationVersion": 1,
       "sourceHash": "d40b4fd9419e95d1c368c76e98b5dd9940ced99f3b0cad79ac0fc021f5671e54",
@@ -111,6 +279,20 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "bbf7b3026f80507a3b932fa1f8df94c2758dd5f9544b564adae56dfadd6a4510": {
+      "normalizationVersion": 1,
+      "sourceHash": "af6af1b90b673daed06fc64a0e875a63a609f597687194a4777142a9ffbd014d",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 一次性初始化",
+      "translatedText": "## One\\-time initialization",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     }
   }

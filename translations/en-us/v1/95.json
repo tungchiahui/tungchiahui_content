@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "9530067eb6ff606853325e482a9706f27004522fc3d8e39a6a5756debba857b8": {
+      "normalizationVersion": 1,
+      "sourceHash": "927865b7217626a994d6ab3c0dd0d23a81cd0c839605893608ed83e02f44e824",
+      "contextFingerprint": "6a9fef0e1db8efc9663db06d6ffab154bd4b3e513f98066240925caf62e7dd5a",
+      "sourceText": "在 ROS2 中，遍历传感器数据列表、遍历节点列表等场景频繁使用范围 for。在 Boost.Asio 中，也常用范围 for 遍历连接列表。掌握了 `const auto&` 这个惯用法，你能写出和优秀开源项目风格一致的代码。",
+      "translatedText": "In ROS2, range\\-for is frequently used in scenarios such as iterating over sensor data lists and iterating over node lists\\. In Boost.Asio, range\\-for is also commonly used to iterate over connection lists\\. Once you have mastered `const auto&` this idiom, you can write code in a style consistent with excellent open\\-source projects\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 198,
+        "outputTokens": 86,
+        "costUsd": 0.000163
+      }
+    },
+    "9554ef17fb3acf0895e24a951bfc1c9b1284edad1d91a8686c2e4ee019bb4fc8": {
+      "normalizationVersion": 1,
+      "sourceHash": "12f289320a908f2310df481748bd717977d6817f54bdb75fb49aaa70f71a5670",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## variant 适合\"有限几种类型之一\"",
+      "translatedText": "## variant suitable for \"one of a finite number of types\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "955a318cc1e28e079c82e10b41ba051c7ff32074047dcd6292ddae1a66f2da92": {
       "normalizationVersion": 1,
       "sourceHash": "a9337ae68d232fea25f87b9bd7e6305302344693559db1ae31e8272b99466508",
@@ -13,6 +41,34 @@
         "inputTokens": 131,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "95617f251267c844826b398721f7a67ad84b33a50ecfa18763ab3b672b0af5c3": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d9adc4c88ce4267ede39e595a14260de0d071c27d94f7e5e41d715a1d447fc3",
+      "contextFingerprint": "150c11dd7f42aad3bfe162ebcce1c7b1fda87828a95e512ff830006aca97986d",
+      "sourceText": "#### `std::sort`：`a` 应不应该排在 `b` 前面？",
+      "translatedText": "#### `std::sort`：`a` Should it be placed before `b`?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "956bedd02be81b72740471b74e1bb90c69b131794fa9874a72340929e4be4984": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e3c8183ad0ee35bc9c8b1f4a1d0ef00f18813377b0785943e2c0b6cddee3ffa",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### list构造函数",
+      "translatedText": "#### list constructor",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "956ca7d62df5c4ebf00562012fa26790e757f9d4cc15e325de48290f1914c6af": {
@@ -29,6 +85,48 @@
         "costUsd": 0.000052
       }
     },
+    "956ed9485339e7098e40a45bca29ec8b8cc52fb379bd49a7850b7bf21c743979": {
+      "normalizationVersion": 1,
+      "sourceHash": "afffcfd501da4a7e4ff278e11c6b3cd1308db607c5d083330404da75fb21995b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这就是并行：",
+      "translatedText": "This is parallelism:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "9580d29a7e718c7cade6b29e4bb70fba8f552b12f49589b9bd8900516b5231ed": {
+      "normalizationVersion": 1,
+      "sourceHash": "8866a46a4d9cefc5e507c3a5f5e7ac449744555597fa0f04e9dc86b6ad5f937e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "关键在于：",
+      "translatedText": "The key is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "95835e2787e648a89b6e078ed9e9d1f5fc3c1c4611c422dbe5cfa3e2411169b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee83b3caab7898311e0ae192d301c48e7cffd779503565dd49dcec24192528bf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面的代码中：",
+      "translatedText": "In the above code:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "958992259297dcacd5f6a6684e528c60d6c869377f2bc7c9afc24d1adbf50f73": {
       "normalizationVersion": 1,
       "sourceHash": "f80e17f86d23574aace2f138ccf0d9f169967564299b6eb49a3e3bc2d5070714",
@@ -43,6 +141,34 @@
         "costUsd": 0.00006
       }
     },
+    "9596737a15f86aba9175e65dee5bad5265765641a70ea148d549b8bc07479e12": {
+      "normalizationVersion": 1,
+      "sourceHash": "bba710b8cdbfc5c8530b4116fcbb369616535cdf9e33fd7d91ee9ee80715de6f",
+      "contextFingerprint": "0f6235e2e9731c60808073b6bcc69c814935b72a20f0fdbe0220fda94877d1d5",
+      "sourceText": "正确做法：用 `constexpr` 常量，或者改用 `std::vector`。",
+      "translatedText": "Correct approach: use the `constexpr` constant, or switch to `std::vector`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "95989c9e337328c28aca1e736fae48ebb53dd3bf9ed870e690583a0859d83283": {
+      "normalizationVersion": 1,
+      "sourceHash": "22554f5f5df289b9be7722c775e4948ff81256a421c8b7d66aade26fcd4fd02b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "函数指针常用于：",
+      "translatedText": "Function pointers are commonly used for:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "95a0c41f33653d860f1c0999e0ddf1365b32ecf0e065e4e32c978166f8659849": {
       "normalizationVersion": 1,
       "sourceHash": "5efa685e78ae2a833cbb2c6f51654196e54573f9356411e8d8a0c19b61a6196b",
@@ -55,6 +181,20 @@
         "inputTokens": 142,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "95c9941634fde0747056e9566729474dfe8d153fe3fd0a1b9a443baf3ae14b89": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ec87d8994ea9e288434aa8d9a3d10377f8cf99e785f677b82a0a340495fa33d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：固定普通函数的部分参数",
+      "translatedText": "### Example 1: Fix some arguments of an ordinary function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     }
   }

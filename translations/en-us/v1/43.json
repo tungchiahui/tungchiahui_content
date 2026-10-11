@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4303e736c9c8483dfc139d82a73e2b8bc40a96502d353911fd99906fe78955ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "51d3085292d8d80a00534c3096c635d371779f89ae7c2295884424aa61ec0561",
+      "contextFingerprint": "1499f761f568aa5b45400bd0530419d7776c51e844d993dd8a43014a239c9b3b",
+      "sourceText": "栈中弹出数据称为  --- **出栈**  `pop`",
+      "translatedText": "Popping data from the stack is called \\-\\-\\- **Pop**  `pop`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "430dea6e5dba802c08cf4e5a6ecadae41bf9efd95530a2a2bd83a16bcdb9204a": {
       "normalizationVersion": 1,
       "sourceHash": "dd47363254596d8f8bb166249b9301bc27a253072cd7c3e3500d2fd77e5fac7b",
@@ -29,6 +43,20 @@
         "costUsd": 0.000068
       }
     },
+    "431f176a8ff29fb3bcf275bc024bb746096e253c5fe771d48476bf0349bd203e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2480cf5209a4e117a576b1b7e55a3a2552006a810c7fb2e6390211382865bf4b",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 函数模板",
+      "translatedText": "### Function template",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "4324ee7dc4fb2f5b27b491cab887bb847ab2beee9ef37c5a683d41f614d322db": {
       "normalizationVersion": 1,
       "sourceHash": "e393c96fe7876f0b1b08e8757cfb5153fbbe4609691c60641806256f04bafd5f",
@@ -41,6 +69,20 @@
         "inputTokens": 154,
         "outputTokens": 38,
         "costUsd": 0.000092
+      }
+    },
+    "432d049201d45775d4811dc25f4b0d1883fb07af92bb037c0b5a0f39ee1a0d1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "c474d509b2980c91cab3c35250d3312639288e6064973560506f2f84835d3279",
+      "contextFingerprint": "7dfc165bc08177a312a8460d4f29a5ae020a6a5b1a76b35be9838f3e7b59e4a9",
+      "sourceText": "但如果使用 C++20，还应该了解后面的 `std::jthread` 和 `std::stop_token`，因为它们提供了更结构化的协作式停止机制。",
+      "translatedText": "However, if using C++20, you should also understand the following `std::jthread` and `std::stop_token`, as they provide a more structured cooperative stopping mechanism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
       }
     },
     "4344385ffb3b79a86f98cb0dc4e06516083e84260e345bcf1d8332d301afb9ff": {
@@ -57,6 +99,34 @@
         "costUsd": 0.000099
       }
     },
+    "43483e50c4cf5c394811c94b80de3fa61451991d142b9074fef26fa3fa36cea6": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee04444b1c0e1f4acc89a56f66c402249472f5b2189a1f300643028c94278b4a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以并行优化时要关心：",
+      "translatedText": "Therefore, when optimizing in parallel, pay attention to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "435bcd72e4e3a51ad52a9f929550dc506d4777e0e78470d3e0691aa47c7cb593": {
+      "normalizationVersion": 1,
+      "sourceHash": "c02e73fa24fde7ca91b3301f959f71ac88002bc6b6beee40e792786dad1e1905",
+      "contextFingerprint": "f5e1a44ca0bfc2047e6ab8525fb1808abd6e87a2302f8c15d4f4686fbda8a6e5",
+      "sourceText": "- `reverse(iterator beg, iterator end);  `\n\n  // 反转指定范围的元素\n\n  // beg 开始迭代器\n\n  // end 结束迭代器\n\n  ​",
+      "translatedText": "- `reverse(iterator beg, iterator end);  `\n\n  // Reverses the elements in the specified range\n\n  // beg The beginning iterator\n\n  // end The ending iterator\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 31,
+        "costUsd": 0.000083
+      }
+    },
     "4365a3466d8939e610470631c8b634b5578c76fdabae4c2e655be3e320477403": {
       "normalizationVersion": 1,
       "sourceHash": "a835c2224d714e97edcc47d360bc472dbd54f4449d23b40540ea52c3facd1dfb",
@@ -71,6 +141,76 @@
         "costUsd": 0.000081
       }
     },
+    "438fea7121a85bf2e29396a9cd173f3110128bbdbe0f328a5fc03d4a873fe375": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c600226c8353c201235511cbf1614d2ef8fa7a36677c5a2f8acd0a47d4b7ef4",
+      "contextFingerprint": "8e1836792102f681d68aaf60723c122c0d62c5ed8d2a0ebdcd4b6f1871c03fca",
+      "sourceText": "##### `std::move`：本身并不移动数据",
+      "translatedText": "##### `std::move`：itself does not move data",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "43932ccad1c3e1ad8546a627b6c2b236c0a1fc3a5dd374c5531ff84d27c0acd6": {
+      "normalizationVersion": 1,
+      "sourceHash": "15011c73f88661facffec60d103f745b85d46887754437823f87854609371793",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### vector插入和删除",
+      "translatedText": "#### Vector insertion and deletion",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "43a26203556d1194aa9fced1339b464146dba89f12140c300f225b13a6ef0cea": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2f1e4327e49d5896d5b6a735960e7faf3bcdc1d34b880e1966ebb04ceabe8c0",
+      "contextFingerprint": "6bae12b8323d588e23ced4b99608d04ce4599d89fb740465b768d5888ab4e6c3",
+      "sourceText": "### 最基础的 `load()` 和 `store()`",
+      "translatedText": "### The most basic `load()` and `store()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "43cba17a53ba17ad7dfe6f212cfed9528f458bde63de76eacd944c454094f655": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f62e7ee887cf1d06c8a295e55d2ad400dd993c4a32ecb82d6dd338bb6c1d163",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "而是希望：",
+      "translatedText": "Instead, the hope is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "43cf7c88f21a250dd5f3212905dec70dc5cad279436d9ba149b43b01a7d38db7": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d756de083475b6e4af4fb4025a43c1e22d12a8fa6b9c76f607331e2a1008437",
+      "contextFingerprint": "f9a962a98cfa423f3618c8df042c63bd9a1fe8a6467c6e5dd9c432a9328facee",
+      "sourceText": "算法分为:**质变算法**和**非质变算法**。",
+      "translatedText": "The algorithms are divided into:**mutating algorithms**and**non\\-mutating algorithms**\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "43d3c329c41ee6c971d3f63d8675f6e88161584ae49bb25f7bc19e68086303e3": {
       "normalizationVersion": 1,
       "sourceHash": "2689c3b71421a000636071423cc429af6430d7c0a9007155f6c36d7347a2f539",
@@ -83,6 +223,20 @@
         "inputTokens": 142,
         "outputTokens": 15,
         "costUsd": 0.000061
+      }
+    },
+    "43ed81555c000e556b7579ad7eec773398dabcc24571e33dc518c8d9d1817223": {
+      "normalizationVersion": 1,
+      "sourceHash": "f6a0c2e7c19ca213d0caabda4352f00bca55088de69179db4b62f28453aa54e6",
+      "contextFingerprint": "3f6e14276fa0d737068271000527ba6d9578b7fd9219fa6ec1b41d25242ed468",
+      "sourceText": "那么 `raw` 保存的就是这个地址对应的整数形式。",
+      "translatedText": "Then `raw` stores the integer form corresponding to this address\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     }
   }

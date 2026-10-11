@@ -15,6 +15,20 @@
         "costUsd": 0.000075
       }
     },
+    "72147814a4bbbfbf00d89278ae55eb5f5f54115e81861fe9e25e4fdd2cf2dd4c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab29c2b3472408727f6ad2ec6ba40b8b70baf6a389b4bf8a45ee5761e9f25f1f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "编译时报错（这是 format 比 printf 安全的地方）。",
+      "translatedText": "Compilation error (this is where format is safer than printf)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
     "72165f4b7ab9effafee88f5e2719ae15cfb54b519ef07fe3024344f0da0f8de8": {
       "normalizationVersion": 1,
       "sourceHash": "6fe045681c8bf7c796fed3eaf12e1a4f7301a5f59e55ae918204aa17815c943e",
@@ -27,6 +41,90 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "721f60b8f7b47f6810f4845a722abb27d0d742f971d8132ab1da55c3e26f02d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "a7ee05f7ed027c2f79cda2acfedcfb9a08b357eb42069aa1ef12f3e01761c430",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Lambda 的优势在于：如果这个判断规则只在这里使用一次，就可以直接写在算法旁边，不需要额外定义一个函数或结构体。",
+      "translatedText": "The advantage of a Lambda is that if this judgment rule is used only once here, it can be written directly next to the algorithm, without the need to define an additional function or struct\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 44,
+        "costUsd": 0.0001
+      }
+    },
+    "722dba3933ddf8fee8b39d96cb79c8a16b12292f4ad90d592beeb94934131d14": {
+      "normalizationVersion": 1,
+      "sourceHash": "957c40b0a1b6f551774a46a34058648a7699125ddb47734f8759360d548e1cb3",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **算法自己负责“怎么做”，你提供的函数负责“按照什么规则做”。**",
+      "translatedText": "> **The algorithm itself is responsible for \"how to do it,\" while the function you provide is responsible for \"according to what rules to do it\\.\"**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 37,
+        "costUsd": 0.000088
+      }
+    },
+    "7234a55b87ba382ba19a4aed9c540d3ab1936802dfaf473232f9cb80345cbe44": {
+      "normalizationVersion": 1,
+      "sourceHash": "f46fae5fe2d10cbff8a7cc9ba0b1e1dc8152429ce7a02a89a46dc9930ef02fdd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "处理：",
+      "translatedText": "Processing:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "723a26b5d7f933de11e382b94974d423b102feffae79673210ac3b8aa4f8aade": {
+      "normalizationVersion": 1,
+      "sourceHash": "a6a3c212786a69450887b45859bce16ce66af3572aab3785a62667dcbbe85743",
+      "contextFingerprint": "d34129ffa4e96027d5969e0ffca3dff0d90e5353c20f70402d2c45de305d3ba3",
+      "sourceText": "#### invalid_argument",
+      "translatedText": "#### invalid_argument",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "723e46c2de91068b3d434f9a4a22df0f981efa56d111cfc52b093756e67cbd09": {
+      "normalizationVersion": 1,
+      "sourceHash": "d07cac337bdbd15b7b7d94873d181d089f4103241efc104d4d996473dfa09d90",
+      "contextFingerprint": "eb81d9eb5736e0345c400c3542b52ace7fb8153a99db3375a7c64f656b961c92",
+      "sourceText": "| 需求 | 推荐 |\n|:---|:---|\n| 就地写一段短逻辑 | Lambda |\n| 把回调保存成变量或成员 | `std::function` |\n| 把多个不同 lambda 放入容器 | `std::function` |\n| 调用一次且性能敏感 | 函数模板 |",
+      "translatedText": "| Requirement | Recommendation |\n|:---|:---|\n| Write a short logic inline | Lambda |\n| Store the callback as a variable or member | `std::function` |\n| Put multiple different lambdas into a container | `std::function` |\n| Called once and performance\\-sensitive | Function template |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 47,
+        "costUsd": 0.000106
+      }
+    },
+    "725d16f131fab2e0b20c02542e1a9f60815a475c471dec98da747a1a5f19ddd3": {
+      "normalizationVersion": 1,
+      "sourceHash": "458ec52dc88b8fd6a34271bc840b067ca0c1902da009806507aa043ccb912328",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "- 掌握常用的拷贝和替换算法",
+      "translatedText": "- Master commonly used copy and replace algorithms",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "726131abae92cdc7acf25e428c5c12b7ecce4e873929f7393301416adde93942": {
@@ -43,6 +141,104 @@
         "costUsd": 0.000052
       }
     },
+    "7264d42c5b7948f4595a45f25bd94f2d0df83965658f2b0e6692156c345d3298": {
+      "normalizationVersion": 1,
+      "sourceHash": "a1cc234315b63e36b2fbadcedb6599768275bd673e921b792b65e11ae3b2c6b8",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### noexcept 简介",
+      "translatedText": "### Introduction to noexcept",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "7269479ff0f7f666363ce98bf631ecec3af8b1e88fe040edc26aea7ecf042c17": {
+      "normalizationVersion": 1,
+      "sourceHash": "54ee771f5b683f8ac49679531fa331d1cdffcb24857622df52e78db3d76e53c5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板与继承",
+      "translatedText": "#### Class Templates and Inheritance",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "727b9b85977307a9fa0040bc5dc098fcbf815dce8630b4fc384fe0d84251bb20": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d3bcba05e96bba63cfb19091bdea69d0ab768e0d921888455686a7d165dfdb7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有关捕获列表和 Lambda 类型的完整解释，见后面的 Lambda 表达式章节。",
+      "translatedText": "For a complete explanation of capture lists and lambda types, see the Lambda Expressions section later\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 24,
+        "costUsd": 0.000073
+      }
+    },
+    "727da991a56b5f8a9cbed15e17de90013e9e185ac667ed3e89f73389ff01e23e": {
+      "normalizationVersion": 1,
+      "sourceHash": "9fa4f4e8e02543ccbfd26fba9f779a2b798df9303aafccc06784f21aab64fcd7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "正确做法：变量个数必须等于复合类型的元素个数。",
+      "translatedText": "Correct approach: the number of variables must equal the number of elements in the composite type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "728582154dfe4cd0d8d8e261b8c403d0885357299684fff1e3d94b5e05c6dde7": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ebbab7aa183150f95d38b4e3438f349edd0c2085215f08b22fa54713efbdab2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "RAII 的核心思想之前已经学过：",
+      "translatedText": "The core idea of RAII has been learned before:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
+    "728b676c33bd77471c6514a90ccb50b914ed8814b0734c67a52bfa5ce074b7b1": {
+      "normalizationVersion": 1,
+      "sourceHash": "327af46b2247483e4bd0452f67c033a6bc115a2a5cc4eee144054abc9c9dd05a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "线程数量超过硬件能同时执行的数量后，操作系统需要不断切换线程。",
+      "translatedText": "When the number of threads exceeds the number that the hardware can execute simultaneously, the operating system must continuously switch threads\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "7295708a2ed7572ba57032d9a112917638750f88053cd7b9427a46824327c8c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "a63a7dbc3bbfc1af4aa10808503eea8da846356ec649475e3a08d643782347c2",
+      "contextFingerprint": "70d4b9ac3769ce9f6b4b6b6fcb0f1d8943b4ebc1d9129549de31a91445066703",
+      "sourceText": "| 需求 | 推荐写法 | 说明 |\n|:---|:---|:---|\n| `double` 转 `int` | `static_cast<int>(x)` | 明确可能丢失小数 |\n| `enum class` 转整数 | `static_cast<int>(e)` | 枚举类不会隐式转整数 |\n| 基类指针转派生类指针，并且不确定真实类型 | `dynamic_cast<Derived*>(p)` | 转换失败可判断 `nullptr` |\n| 去掉 `const` 适配旧接口 | `const_cast<T*>(p)` | 前提是旧接口不会修改真正的 const 对象 |\n| 指针和整数互转、底层字节解释 | `reinterpret_cast<T>(x)` | 非常底层，优先避免 |",
+      "translatedText": "| Requirement | Recommended写法 | Description |\n|:---|:---|:---|\n| `double` cast to `int` | `static_cast<int>(x)` | Explicitly acknowledges possible loss of fractional part |\n| `enum class` cast to integer | `static_cast<int>(e)` | Enum classes are not implicitly converted to integers |\n| Base class pointer to derived class pointer, and the actual type is uncertain | `dynamic_cast<Derived*>(p)` | Conversion failure can be checked with `nullptr` |\n|  remove `const` adapt to legacy interface | `const_cast<T*>(p)` | Provided that the legacy interface does not modify the actual const object |\n| Pointer\\-to\\-integer conversion and low\\-level byte interpretation | `reinterpret_cast<T>(x)` | Very low\\-level; avoid if possible |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 101,
+        "costUsd": 0.000184
+      }
+    },
     "72a6af6aa0ab22fa6211041191fcc3d01f73feda278069bf80d1ec12dd4de1ea": {
       "normalizationVersion": 1,
       "sourceHash": "44ca67837439b9fd9fdfbb3e3274ae24f30ea09dc1639f0d12cfadc27c5a56cd",
@@ -57,6 +253,20 @@
         "costUsd": 0.000091
       }
     },
+    "72b29c16331ab7059d5c32060c38fe31cecb18dafb0f4c6f2ee4a7c1bbe358c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9c7132b75b5cf2f9d61411611f0aa2aed7366f2aecd9430a967bca68a398e5fa",
+      "contextFingerprint": "9dba07675243b7827e5829105f45dc01dd161f7baabb1d453e066670966de4ff",
+      "sourceText": "如果不关心异常的具体类型，可以使用 `catch (...)` 捕获所有异常。",
+      "translatedText": "If you do not care about the specific type of exception, you can use `catch (...)` to catch all exceptions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 27,
+        "costUsd": 0.000075
+      }
+    },
     "72b53fb01f100e9e709b885f87067c9d3d4bbe026ee8e81242c38dd7ea9228a7": {
       "normalizationVersion": 1,
       "sourceHash": "f876295ea44110d752695ecf43e0b2a651c943bde1e52afd2891ae61ccb65c1b",
@@ -69,6 +279,48 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "72e0c385d6e25627e6c5787d72c147543002d62f8bae60fff1d9af9c78c38842": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc651f7f85ab14805c4b989e2bda49b2986bbb05aba4b152ee0bdf8c40a1b829",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "但实际开发中，普通场景不推荐手动写：",
+      "translatedText": "However, in actual development, manual writing is not recommended for ordinary scenarios:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "72ed68e9e1cf144bce1d1f995eb228ed95567884f3003a54f3f2ee1bd8a2ad1c": {
+      "normalizationVersion": 1,
+      "sourceHash": "3e1470716b82813e69dcc8cbe7a34a5663eabeaefecaf410228a8b28c7a596cd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接着执行：",
+      "translatedText": "Then execute:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "72f1ecae52f6ca3cb061067100e08f09341079c17854c1ef58c19f1ba0df30e9": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3017938a20e6a2f61971b5615d711c442e0da5683436146cd4ca752b176db39",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 捕获 std::exception",
+      "translatedText": "### catch std::exception",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

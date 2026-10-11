@@ -29,6 +29,20 @@
         "costUsd": 0.000204
       }
     },
+    "9e1f7a82c635b6925a8d4a19effe71294d417d162b4ccf414a11eea24660463b": {
+      "normalizationVersion": 1,
+      "sourceHash": "b054904f405be10f455f219c78b6e18cc955cbe47813cc752f98760751550621",
+      "contextFingerprint": "dbbbf9c3c1f84be4c2cdc94d9a1eef010d4a1d8ba9bc4a2e3202c2873239b48b",
+      "sourceText": "因为 `name.size()` 返回的是 `std::size_t`，而：",
+      "translatedText": "Because `name.size()` returns `std::size_t` whereas:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
     "9e2e5d57036fc47a78b4f8a1fe1f291b7c0ed6e0053381bcc9847d0ffae13897": {
       "normalizationVersion": 1,
       "sourceHash": "b52b64920ac23c140ce71489924de1c0a69644f47c077abb2af81173668e3ab9",
@@ -55,6 +69,48 @@
         "inputTokens": 135,
         "outputTokens": 17,
         "costUsd": 0.000061
+      }
+    },
+    "9e3ab5e9c86214d2b89eb02a09b6b8b923e6d42bf13bb5afde5df689556a1191": {
+      "normalizationVersion": 1,
+      "sourceHash": "015c9f31a17f302e1a66d9586950c66217ab11f83a5e281f43a2db8c399518cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因为：",
+      "translatedText": "Because:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "9e75ca41ea2b44f05c6f2101d4f0e27f6b8adabba4947e5ff64c3e594baf4e56": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c7c6aacc3204ec2aa317fe841a912359cb3d106d433884b02e7f23f42be865e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "移动构造函数没有重新申请数组，也没有复制 1000 个元素，而是直接接管指针：",
+      "translatedText": "The move constructor does not reallocate the array, nor does it copy 1000 elements; instead, it directly takes over the pointer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
+    "9e7802f7a88b1699d524c556b4b5be31cf509eff26a8fd7067ad337e8f943c5c": {
+      "normalizationVersion": 1,
+      "sourceHash": "ab6e865ba5155c6c8589f3715caff4e97010e36e3bd241726ba0c7a96ad3c65c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "都应该谨慎。",
+      "translatedText": "All should be cautious\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
       }
     },
     "9e8ff4c9c5dab8e892d5cda7c526f7279769c7f110f0936200084b686814cda3": {
@@ -85,6 +141,20 @@
         "costUsd": 0.000059
       }
     },
+    "9ea1077256e47ea6017f4ce9f6bf7ca04e44d4559ea3b6c40b3fc9366c3219e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "683494db1dee2dfa8bc346020ded4b20b9620d1137f90a72250edffa0bfa4113",
+      "contextFingerprint": "e0e610f95bd6b529411db6f39f798934f97bdf17f0684cb93086ff90c4009ec4",
+      "sourceText": "* 不同之处在于数组是静态空间，而vector可以**动态扩展**",
+      "translatedText": "* The difference is that an array is static space, while a vector can**dynamically expand**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "9ea12e6ade670624e108d19f5afccb102176d2d6c77f9a0b7372aaa15e075412": {
       "normalizationVersion": 1,
       "sourceHash": "1eeb55434b6aa6e78d9aaaff1e2315baf4bbbe6e11504046fc52f652f35e81d1",
@@ -97,6 +167,62 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "9ea85e8d21e2302b1e2c27766f31a16ad110e5e58f019de4ffc31ff532613806": {
+      "normalizationVersion": 1,
+      "sourceHash": "b26a79d3846527ae5515ef7f5793c38a1375b0c726353d27a4f366f98b18de96",
+      "contextFingerprint": "6f753b2008a30e6caec52c3a979f1e744ede73a2290147e1c86b65706b477912",
+      "sourceText": "正确做法：如果需要小数，用 `duration<double>` 或 `duration_cast<milliseconds>` 保留精度。",
+      "translatedText": "Correct approach: If decimals are needed, use `duration<double>` or `duration_cast<milliseconds>` to preserve precision\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "9eab9ece23d2bdff3bb4a145e2206ca8cc5601ac126694be7d0ee3acd12705b4": {
+      "normalizationVersion": 1,
+      "sourceHash": "b92f29874fee1ac4e6e6e494d908ac778a036a84da2102580344ae244714b04f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "最终只成功完成一次。",
+      "translatedText": "In the end, it was successfully completed only once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
+    "9eb22a96f5c1d024eeac806e53e8772e9983f5c67dc9860ca0970b087c354cd5": {
+      "normalizationVersion": 1,
+      "sourceHash": "7c4f3bbea5273a1ce0dba14a54b01bc3d6aeee112e6a51beca1744dc0f48c526",
+      "contextFingerprint": "cd0b728aa15666043028b52947e5f79707ab473f636bca9a14b555bea02aff27",
+      "sourceText": "**需要的标准版本：** C++11。",
+      "translatedText": "**Required standard version:** C++11\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 23,
+        "costUsd": 0.000072
+      }
+    },
+    "9eb2a70507fccf2a6cc2e1b3d4a45d4cce5fbbd7332d55722a852be8011273b5": {
+      "normalizationVersion": 1,
+      "sourceHash": "db2606afbef4f191d0b824bd0b25aa99e0d995c3135e4c7bf07fbd4cc00871fe",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 函数指针",
+      "translatedText": "## Function pointer",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "9ebfe626ca9a5d4b9ca3d19602047046e1a20de0163b2f89aa1125722f0afe83": {
@@ -113,6 +239,20 @@
         "costUsd": 0.000078
       }
     },
+    "9ed6554b6e40c061e85dc6e10e1bff3636b08e6d18f4f75d2239c38ea5eeb5c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "38058cea6f1f6f5858c925988e182715b02ecaefd5baa681d2c814f7cda15c9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么这两个操作可能应该属于同一个临界区：",
+      "translatedText": "Then these two operations should probably belong to the same critical section:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "9ed6a865be3016880a21017e4f100731ffd56568251f4fdd5ab4ee0caa2fb7c7": {
       "normalizationVersion": 1,
       "sourceHash": "4289b8932bd6b0c9c05badd0e6152344fcb7567a4dbed8c750593010dfa473a1",
@@ -127,6 +267,20 @@
         "costUsd": 0.000052
       }
     },
+    "9ed8754a47368964a10ac58ceeb8eb566fd8c03c7c8de3c3a383171ee9a2d370": {
+      "normalizationVersion": 1,
+      "sourceHash": "e4e0d95af4460ff8d307e7bc647cbc47242625545c417293b96aeec483d8cafe",
+      "contextFingerprint": "2ca34cbd72632e3a2aa29c6821bd01c880a2612a935954b92f5aa5fe0b48a956",
+      "sourceText": "### 延迟加锁：`std::defer_lock`",
+      "translatedText": "### Deferred locking:`std::defer_lock`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "9ed9ca6aacb6c9fc4da807cb730a651737c53a46435ed38515f698eef6db2c85": {
       "normalizationVersion": 1,
       "sourceHash": "fa43c1cf8cbf24df2024fc3e8aee35b48c52554f6ed008d3cd6b709915318fa8",
@@ -139,6 +293,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "9efc72953a76717a34c6f4aa152f475bebed86be1b23dbf86ab72bcc9153041c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1aa64763ea898e93bc01d83c427f79f86700ebd7f7c5d7003eb66494e1a82bc5",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 多个 catch 捕获不同类型异常",
+      "translatedText": "### Catching different types of exceptions with multiple catch blocks",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
       }
     }
   }

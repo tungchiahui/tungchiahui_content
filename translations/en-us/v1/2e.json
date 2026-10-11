@@ -15,6 +15,48 @@
         "costUsd": 0.000058
       }
     },
+    "2e136ed8b735c84dec6409e9a741369d61c8201800ebebe583c443c05e677c0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4d5ecdbf185f11fa6eec0bf1c94eb586272748edea5e868a30375d204baf8805",
+      "contextFingerprint": "521ea884f18b45e9da7f100c3d6c4d7c1e6b7b317a5c9f19e40fc6da55087365",
+      "sourceText": "> 对于本例中的同类型对象拷贝，`Buffer b = a;` 和 `Buffer b(a);` 都调用拷贝构造函数；但“拷贝初始化”和“直接初始化”在所有场景下并不完全等价。",
+      "translatedText": "> For the copy of objects of the same type in this example, `Buffer b = a;` and `Buffer b(a);` both call the copy constructor; however, \"copy initialization\" and \"direct initialization\" are not completely equivalent in all scenarios\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 47,
+        "costUsd": 0.000106
+      }
+    },
+    "2e16e066f506839491ab6b7202581dea81a65007b1124bd325255abfff299dc7": {
+      "normalizationVersion": 1,
+      "sourceHash": "4f3a3f859b1f32189011a990e3724b177246d502267ef384705ac0ee8d8b0664",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接下来：",
+      "translatedText": "Next:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "2e344f1741209a8078677bfb6ce7d66f9a068bd3c28e83add467c753bf247b92": {
+      "normalizationVersion": 1,
+      "sourceHash": "037373916b990bd65ef48141aa18b89a972800cfd501c3cb45c3533927433981",
+      "contextFingerprint": "59fc17ee25671938b0a16b1952268550612b57c1f15d89b87275ea58afdf8f12",
+      "sourceText": "| 需求 | 推荐写法 | 原因 |\n|:---|:---|:---|\n| 只读访问每个元素 | 范围 for | 最简洁 |\n| 修改每个元素的值 | `for (auto& x : c)` | 直接改原元素 |\n| 需要下标 | 传统 `for (size_t i = 0; ...)` | 下标是逻辑的一部分 |\n| 比较相邻元素 | 传统 for | 要访问 `i` 和 `i - 1` |\n| 遍历时删除元素 | 迭代器循环 / 算法 | 范围 for 容易触发迭代器失效 |",
+      "translatedText": "| Requirement | Recommended form | Reason |\n|:---|:---|:---|\n| Read\\-only access to each element | Range for | Most concise |\n| Modify the value of each element | `for (auto& x : c)` | Directly modify the original element |\n| Need the index | Traditional `for (size_t i = 0; ...)` | The index is part of the logic |\n| Compare adjacent elements | Traditional for | Need to access `i` and `i - 1` |\n| Delete elements during traversal | Iterator loop / algorithm | Range for easily triggers iterator invalidation |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 201,
+        "outputTokens": 88,
+        "costUsd": 0.000166
+      }
+    },
     "2e975d7055253af912f0091154b5d15db055e433ed6b872d226624480e3ebf34": {
       "normalizationVersion": 1,
       "sourceHash": "6c792882d58ef04635332774a96be206ca62b62bb275f14a7447fbf23bb0a0d4",
@@ -27,6 +69,34 @@
         "inputTokens": 136,
         "outputTokens": 15,
         "costUsd": 0.000059
+      }
+    },
+    "2ea3b242b317ae4f8ee02a6e7643a3ce03d1dcf3ba94c5c17ca9fc39e9a4e750": {
+      "normalizationVersion": 1,
+      "sourceHash": "036890a8603be8d53c1c7250fee71256f19949b3b589d78cfb244e7b60d2491e",
+      "contextFingerprint": "cb28e2ff9899e790ac25507e23752329607e5a6fc949989133a331481804f9fd",
+      "sourceText": "- `std::format`：C++20\n- `std::print`：C++23",
+      "translatedText": "- `std::format`：C++20\n- `std::print`：C++23",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2eb3b4c5005eeca8744bb794d15a06bfa214def363f905c20f9d3370727bc744": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2fba515961d24d8ef2f948d3badef27cde3fcf1f98918db13d28d474e310656",
+      "contextFingerprint": "2d99e20bf1f37b4ad0b012662de423c078fe142893851bfc472155ba9e4430ae",
+      "sourceText": "### `atomic` 不等于“整个对象线程安全”",
+      "translatedText": "### `atomic` is not equal to \"the entire object is thread\\-safe\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 19,
+        "costUsd": 0.000064
       }
     },
     "2eb553cb59b3638828e0fb41005c80faefcc486c7a0d8a9519faf1d4baf68536": {
@@ -97,6 +167,20 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "2ef09b56910ae881ab8f60c0fae39d7b8d583ed37b1f5c450750b8ac7a5aa9f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "189845d461518b98b22fd4447db7a727fda2baf866d09ba85f1154fc1e09e90b",
+      "contextFingerprint": "b9d9798fac7dc9576cddd399f8fd230b87783546abd7bb3a541f1a5a7114a0f3",
+      "sourceText": "* 长久以来，软件界一直希望建立一种可重复利用的东西\n\n* C++的**面向对象**和**泛型编程**思想，目的就是**复用性的提升**\n\n* 大多情况下，数据结构和算法都未能有一套标准,导致被迫从事大量重复工作\n\n* 为了建立数据结构和算法的一套标准,诞生了**STL**\n\n  ​",
+      "translatedText": "* For a long time, the software community has hoped to establish something reusable\n\n* C++'s**object\\-oriented**and**generic programming**ideas, with the goal of**improving reusability**\n\n* In most cases, data structures and algorithms have lacked a standard, forcing people to undertake a great deal of repetitive work\n\n* To establish a standard for data structures and algorithms, there was born**STL**\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 206,
+        "outputTokens": 97,
+        "costUsd": 0.000179
       }
     },
     "2efb0ebefae373b8e6b929e2e1358e065a195172bdc3e259723304eb894ea622": {

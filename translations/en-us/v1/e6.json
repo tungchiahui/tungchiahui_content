@@ -1,6 +1,76 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "e6063ef991e978853512153c08ace68ba37d3ecbedb9b13f22412775cc9e9fca": {
+      "normalizationVersion": 1,
+      "sourceHash": "0689c548e2346c15bb9f04104a2c9ffa00a641a45a941baca7dda8c19b997673",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此时：",
+      "translatedText": "At this point:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
+    "e607f9d264378831a363e5471849f98f2c16951f4001240327b153ae76e8ae80": {
+      "normalizationVersion": 1,
+      "sourceHash": "1614be1ab0ce0effaf2c4f979631266989482874b30fdb633cdba5e793e02578",
+      "contextFingerprint": "49e6392440ad862fc425ea3f0f904a637ca0bd0c148c50d650b705d1d5ebb30e",
+      "sourceText": "这两次 `load()` 各自是原子的，但它们并不会自动组成一个“同时读取两个值”的整体事务。\n想要同时读取俩，还是用`mutex`方便点。",
+      "translatedText": "These two `load()` are each atomic, but they do not automatically form a single transaction that reads both values at the same time\\. If you want to read both at the same time, it is still more convenient to use `mutex`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 52,
+        "costUsd": 0.000112
+      }
+    },
+    "e609d3413b433ca2a0a1967f672c64c194cf36f3d4b8fd5188136d213455fcee": {
+      "normalizationVersion": 1,
+      "sourceHash": "70c66d8191f5c89d00c77f275efd67035c3a8ee39c7713be29d18c824650f3ce",
+      "contextFingerprint": "55b072c0356a3c45777493727c652aa4dafd1c04d2dbb3d659a4ee4b5d28f370",
+      "sourceText": "第一次得到 `true` 时停止，因此 `it` 最终指向 `Charlie`：",
+      "translatedText": "Stop when `true` is obtained for the first time, so `it` ultimately points to `Charlie`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "e60b8e783925e6858da7fb1db26617f9158306add5d6bcafaf64c967784b2562": {
+      "normalizationVersion": 1,
+      "sourceHash": "680676269dabbe09d7a24da5300ad3bd2e8e389dcb820be782386c0d2e3affbf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "赋值的函数原型：",
+      "translatedText": "Function prototype for assignment:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "e6333f23f1fb003ebe8a90bf0c87a0068b185a38342f38fd804aad43ab677bd8": {
+      "normalizationVersion": 1,
+      "sourceHash": "1d5869a168869f2df692ce15c7ac8cc7763df2313bcd63dbb0e672bf2b34083a",
+      "contextFingerprint": "70cd039dc7ed8d614065e49d8f73d59ac1b3bb0d7e5e148e344c9cc884456ef6",
+      "sourceText": "### 示例 2：dynamic_cast 安全判断真实对象类型",
+      "translatedText": "### Example 2: dynamic_cast Safely determine the actual object type",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 28,
+        "costUsd": 0.000079
+      }
+    },
     "e63851771e3559d3863828c2e6235b428fc5b80a916a2fa96516f59b272ce405": {
       "normalizationVersion": 1,
       "sourceHash": "7a41dd919488d9912b804010342583577d7ebbbc05b6471f1b761d40bea83b67",
@@ -13,6 +83,20 @@
         "inputTokens": 137,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "e65c70aa421d1ee3dd1fb3f0e36be500ac35cd84f3ccca2c64ca9c99d192d509": {
+      "normalizationVersion": 1,
+      "sourceHash": "db3ee8d9c96680d36c9ec360a1db9b281e5389c3cfb9697b12cff00f3f844d9a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按引用捕获：",
+      "translatedText": "Capture by reference:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "e6633f9980f98d1ab6508f7d2c70bbda9d135f633cc3ac97dc86d8e3f3ad3c05": {
@@ -57,6 +141,20 @@
         "costUsd": 0.000232
       }
     },
+    "e68af7da8e30cfcb5c5268901a667c8fc101fe09c880a235f247346a4dbddaf5": {
+      "normalizationVersion": 1,
+      "sourceHash": "6abb556c083512eed514fbb074ed4a9c76f93ffd0930f75e4fc9e2e782e963a5",
+      "contextFingerprint": "036288973a440e16844eebeace743df02cb50e1bf333e8ea7c76a8ff623b5bdc",
+      "sourceText": "##### `std::copy`：真正复制一段元素",
+      "translatedText": "##### `std::copy`: Actually duplicate a segment of elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "e68f183c1898f4aca0273d942d4233b777198c0979aa83a9d8fbb3744ff86ebf": {
       "normalizationVersion": 1,
       "sourceHash": "1a58f14cd364f9e43c56007063cc1a17f4d7ebbf610f41ae730fc2c45c31c5c1",
@@ -83,6 +181,62 @@
         "inputTokens": 203,
         "outputTokens": 116,
         "costUsd": 0.000201
+      }
+    },
+    "e69c4ab3d53f3f83c324f85dc978eeb5f7df66d6fb10c28fe9287cbc63f8b106": {
+      "normalizationVersion": 1,
+      "sourceHash": "ee276de75baeb82350272b4ddb8af35898b2e3633ec50bbb53088e6ef4cac0d6",
+      "contextFingerprint": "1c892bcbceb2444ddb40dea11e62864e815486f9895e6d7ff304897997e9864d",
+      "sourceText": "C 风格强转写法 `(目标类型)表达式` 能做很多事，但问题也在这里：它太“万能”，读代码的人很难一眼看出这次转换到底是普通数值转换、继承层级转换、去掉 `const`，还是危险的底层重解释。",
+      "translatedText": "C\\-style cast syntax `(目标类型)表达式` can do many things, but that is exactly the problem: it is too \"all\\-purpose,\" and readers of the code can hardly tell at a glance whether this conversion is an ordinary numeric conversion, an inheritance hierarchy conversion, removing `const` , or a dangerous low\\-level reinterpretation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 67,
+        "costUsd": 0.000134
+      }
+    },
+    "e6a3d44e241ccbc931c8c1bcbf6e803b30c6523543aa86cae15a63c550f53f19": {
+      "normalizationVersion": 1,
+      "sourceHash": "17b19157f915308eff36cb067180b610d64d83dd56604628c372913274920d1e",
+      "contextFingerprint": "b526092f7524216384b37389666866c74bc06b6f7fc9d7be82b936e56adb41bb",
+      "sourceText": "`std::function` 是标准库 `<functional>` 头文件提供的通用可调用对象包装器。它的基本语法是：",
+      "translatedText": "`std::function` is a general\\-purpose callable object wrapper provided by the standard library `<functional>` header file\\. Its basic syntax is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "e6baaeee567dc7c9ac61e4c3c6dbbbcf8923539fb10896a23699242f0eb06eae": {
+      "normalizationVersion": 1,
+      "sourceHash": "c240c4f5015e454c68457ffaa45cf94a1aa2a8a9de494a3324b51a9859521eda",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不过：",
+      "translatedText": "However:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "e6db17de92f3869c44105896ea352fce023adb346a6ac3c89aaaf607baf557f1": {
+      "normalizationVersion": 1,
+      "sourceHash": "2513ea753f8bd2b450e2c44387087b1cbb342280317dc6c07b9fc84533af4338",
+      "contextFingerprint": "97bf667e1ac668c5fe59775fc923c22e23d240c09f804b35f786e827b2d730c4",
+      "sourceText": "这种根据下标选择行为的写法称为**表驱动**。它可以减少很长的 `if...else` 或 `switch`，但使用下标前必须检查范围。",
+      "translatedText": "This style of selecting behavior based on an index is called a**table\\-driven**approach\\. It can reduce very long `if...else` or `switch`sequences, but the range must be checked before using the index\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 45,
+        "costUsd": 0.000102
       }
     },
     "e6ff45947846c562890eb4fb58273a3cb6d7032015fadc9fa7cbdf6aa88a3dfb": {

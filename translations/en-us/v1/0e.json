@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0e2a91443bffe8cb9f18333f694f7e133972aaa4cf5a4cbdae64909a222b5472": {
+      "normalizationVersion": 1,
+      "sourceHash": "290bb27c0af6b95ff7f333b54939352fe24faaddae02b00928f77c20aff19f16",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "功能描述：",
+      "translatedText": "Function Description:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "0e2af878069de30893f1ee476d44f7e06e35a0ea7df3297c6a811fe340bfc098": {
+      "normalizationVersion": 1,
+      "sourceHash": "f08ca6d08723e122409e2d4a18c8f49942cbcf2036ebe35bfe1170a965b26cc1",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "本章把 C++ 面向对象部分集中在一起：先学习封装和对象生命周期，再看对象模型、友元、运算符重载，最后进入继承和多态。",
+      "translatedText": "This chapter brings together the object\\-oriented part of C++: first we study encapsulation and object lifetime, then look at the object model, friends, and operator overloading, and finally move on to inheritance and polymorphism\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 172,
+        "outputTokens": 57,
+        "costUsd": 0.00012
+      }
+    },
     "0e2be7cbd66417c5e5d08c3a106c090ac359232f986327f90923aa9af04d1b6d": {
       "normalizationVersion": 1,
       "sourceHash": "3fe858bf7c9cf0702529675f8f47c2eff2abdba115015712589989c05b5361c1",
@@ -15,6 +43,20 @@
         "costUsd": 0.000071
       }
     },
+    "0e35e8a0102a3ecbfa48bfa3dbfc42a05fc657403a513b86cef0f493f9d16e17": {
+      "normalizationVersion": 1,
+      "sourceHash": "d7f4b1cd00ef5458b54bf0a38d5f9e7504c843f30c5dd9424eb37f946eebd783",
+      "contextFingerprint": "82ad70cf69d39361c2ab74da4ed5f63930213ed2d195492da1bed0127a55b921",
+      "sourceText": "- 第二个参数是 `std::variant`\n- 第一个参数是一个**可调用对象（Callable）**\n- `std::visit` 会根据 `variant` 当前保存的数据类型，调用对应的处理函数",
+      "translatedText": "- The second parameter is `std::variant`\n- The first parameter is a**callable object (Callable)**\n- `std::visit` and will, based on the `variant`currently stored data type, call the corresponding handler function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 43,
+        "costUsd": 0.000099
+      }
+    },
     "0e40529476d599523e30e2d3d4fc4b65039ca71b448c067a77c731870e6f4437": {
       "normalizationVersion": 1,
       "sourceHash": "5e2a5131234539ce6494337610f5c074b989dec4554847c17917c83d73422f5f",
@@ -27,6 +69,34 @@
         "inputTokens": 146,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "0e5eaee2d9be42f932f02fefd5f21b1f76d487de51d70569b68e7776a31fca24": {
+      "normalizationVersion": 1,
+      "sourceHash": "fc622edad124104253a34ba13b216fee78aa9db095dc94321ae5906970e35816",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "有时你已经有一个函数，但它的参数和目标接口不匹配：",
+      "translatedText": "Sometimes you already have a function, but its parameters and target interface do not match:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "0e5f540151eddf5c884ba7612979d1f030ed69b0aaf41c88d356d4eb3ef32688": {
+      "normalizationVersion": 1,
+      "sourceHash": "b3df69dd8147fdec6bf18bb08f7d6a8629110a6701b88d622e4878be6021e0cd",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### list容器",
+      "translatedText": "### list container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "0e637542a969ea00c2a11f6e86d5f34c991fb81d9c0761ecb11694af55cd198e": {
@@ -99,6 +169,20 @@
         "costUsd": 0.000059
       }
     },
+    "0e983d361d9287015fc330089a537a55f2c65071bb3b96a5e3388c9c51a40a50": {
+      "normalizationVersion": 1,
+      "sourceHash": "2ab97d632c82068c4331485e636713c8e640f056f12172fe4952790511d45acf",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 掌握类模板成员函数分文件编写产生的问题以及解决方式",
+      "translatedText": "* Master the problems arising from writing class template member functions across multiple files and their solutions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
     "0e9a16c9769d3d6aa2323363b290923f9c7b4464b19a730ef28e172e3887229c": {
       "normalizationVersion": 1,
       "sourceHash": "a6ac2de9924b7b409c8cf397df7a59d544db75bbe738157252db4928eb2e4606",
@@ -113,6 +197,48 @@
         "costUsd": 0.000161
       }
     },
+    "0eb875ba3dd784964ea14964c6ce5909b3f1418396e10a851665183b9dabbb11": {
+      "normalizationVersion": 1,
+      "sourceHash": "b174190e1316240dce9d2fa108d3253c43a5fa6575f8110cb49221f2410b144a",
+      "contextFingerprint": "d70cd2959ef5404175671062e6789373ef44c4449a5b53c8f2308b1830dcfffe",
+      "sourceText": "`a->next` 也是一个 `shared_ptr`，它和 `b` 共同拥有 `B`，所以 `B` 的引用计数由 1 变成 2。",
+      "translatedText": "`a->next` is also a `shared_ptr`, which together with `b` shares `B`，so the reference count of `B` changes from 1 to 2\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "0ee88b3961b594208db44ce82bea1e349480c9adda9051c15e04a9ee3bad8015": {
+      "normalizationVersion": 1,
+      "sourceHash": "2dd73825537c50e137758eb1ece412812d8c2a8ab6fb394a2a4ce258a36395d8",
+      "contextFingerprint": "893036ca1d2688a709ad38df5d4003de760881c21f0866666fff0c82befca33a",
+      "sourceText": "1. 为 `buf2` 重新申请一块独立的数组内存；\n2. 把 `buf1` 数组中的每个元素复制到新内存中。",
+      "translatedText": "1. Allocate a separate block of array memory for `buf2`;\n2. Copy each element in the `buf1` array to the new memory\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
+    "0eeabff4a28c11681eaf1245d5c84d87d19b5a36be75290056d24e22096f8fbb": {
+      "normalizationVersion": 1,
+      "sourceHash": "58314ace90f0d210ca180abb6cd9d3da7da605a8d7dd003ceb99e5b2ffb240f2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "同时：",
+      "translatedText": "Simultaneously:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "0ef0e7244c14e7202a817270938548c8b2eedca9e21e7297097b136d7c5a761a": {
       "normalizationVersion": 1,
       "sourceHash": "7c2718b195be1dda1d906c507451dabd17fee038a1144b3a20a5a6c716b38e9e",
@@ -125,6 +251,20 @@
         "inputTokens": 132,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "0ef65d69f8d936d91984c5d090e64f6e31ed6078a5223ea3600c0db3f7f19186": {
+      "normalizationVersion": 1,
+      "sourceHash": "51ae22009a0cd095bb26de75b6024c38b0dde358a1b44fa0fc366b07c166727e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "100000 次。",
+      "translatedText": "100,000 times\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     }
   }

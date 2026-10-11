@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "2b1112ed5dad61faef2dde14dd27f03c7f94e15bb9d039dd317c11edeb4fc80c": {
+      "normalizationVersion": 1,
+      "sourceHash": "13d614a4a55bfaf6fb61cd0fcbca13736e8ad0d3ea858234dcd73782a7be7f40",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不过，需要区分“转换写法的开销”和“转换操作本身的开销”。例如，把浮点数转换成整数可能需要执行实际的处理器指令：",
+      "translatedText": "However, it is necessary to distinguish between \"the overhead of conversion syntax\" and \"the overhead of the conversion operation itself\\.\" For example, converting a floating\\-point number to an integer may require executing actual processor instructions:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 51,
+        "costUsd": 0.00011
+      }
+    },
+    "2b2f425e2503db92b31ee089520a587c7cbebec04b699172e14fcebafabe1f06": {
+      "normalizationVersion": 1,
+      "sourceHash": "40d05fbcb7edc549e4d95e32c8e7d4e9d2bf2a97c6acbac1003a28224c8433b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "还可以：",
+      "translatedText": "Also available:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "2b349e1abe515cc013f494538989b94b88fe7ee227ec726acad0c0f98538d850": {
+      "normalizationVersion": 1,
+      "sourceHash": "929350cc9bd75449a2fd7c3c7b699e7086f8dc0a0d6685a5989ca5945643356f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并且没有任何同步措施。",
+      "translatedText": "and there are no synchronization measures\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "2b3ba427554d558feb8223f8facef152d11d515708b8424e49432094cde558f2": {
       "normalizationVersion": 1,
       "sourceHash": "2640dfdf9f64090a278c05479e796a4002111b6ccab612eee656c23fe59e4ce7",
@@ -27,6 +69,20 @@
         "inputTokens": 169,
         "outputTokens": 55,
         "costUsd": 0.000117
+      }
+    },
+    "2b414b78aa8deb4c835bd2d0fbc390e9cecb62ea3f1f70026f8cfc7ad420bcd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "05f832bbc62a473d0ee8cc6c8d826c0dee58f0bea9a8d9c4881d5cdb7a5f075a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "真正危险的是：",
+      "translatedText": "What is truly dangerous is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "2b4cc528723da068a188deab8d728ed7b7cfd87a80a9e5b70e5847a0970a68e9": {
@@ -71,6 +127,20 @@
         "costUsd": 0.000053
       }
     },
+    "2b6eec913a8890341649b8cbb854e99ee1b11705f1c1fafefabb107d0cc79b84": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc95f27c95d36c9e9ccc5364feb8ddea403b31fd8613559d3cf43e5998ab150c",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Vector存放自定义数据类型",
+      "translatedText": "#### Storing custom data types in Vector",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "2b7e4aaabd631ea8e8c67ee7f7f3f4a3b7f98acc814ce0be61389aff081920be": {
       "normalizationVersion": 1,
       "sourceHash": "87ef3e62a481904aecff74c559bbabe43565ee8bca17838a914efe730b982bf5",
@@ -85,6 +155,34 @@
         "costUsd": 0
       }
     },
+    "2b830e81dd25c1cf1f1815128c930a82fcfa56bd9bb51418d11ad5fcee9e09c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "0c1e1a321cfc5dee90d4ee5915ec502820b03e041dbe118f1445085c93b85b59",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "智能指针把\"谁负责释放对象\"写进类型里：",
+      "translatedText": "Smart pointers encode \"who is responsible for freeing the object\" into the type:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
+      }
+    },
+    "2b83cbb7e81202ac912151306c860fc0c7507623e99e2d5ff81cdfc4537b0fdc": {
+      "normalizationVersion": 1,
+      "sourceHash": "96f67c6b6338e593120d13dfee969b5e9278902f79465bb0ed4144322d302636",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 查找相邻重复元素",
+      "translatedText": "* Find adjacent duplicate elements",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "2b9b992963a9b74618547daa581feefb74919e6480d3a44009e7a83a8a51c98b": {
       "normalizationVersion": 1,
       "sourceHash": "8a038a435f925b58adb11ea3078cea432971e785214546f74db30a012ea34156",
@@ -97,6 +195,62 @@
         "inputTokens": 138,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "2b9fd72c8464c2d2edb2033cc2e3d9f5617ca74717bd2a9d4b7e1576774d3f70": {
+      "normalizationVersion": 1,
+      "sourceHash": "0b358a332708e9c68efb0efd9ba1f8913743479ee53c6ba1b793282403bb8e97",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：类模板和函数模板语法相似，在声明模板template后面加类，此类称为类模板",
+      "translatedText": "Summary: Class templates and function templates have similar syntax; after declaring the template template, add a class, and this class is called a class template\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
+    "2ba632ad6dbf323d05761e37f34faa6ac89e11656a5958551f94bd9d2aab3994": {
+      "normalizationVersion": 1,
+      "sourceHash": "e5ee94ecad5e30c8e1f0908185e0f993e6069e96e938123d89a6ba7d2945b102",
+      "contextFingerprint": "c701f725421998bdb6185527df286ee4b11fae2a528f67a802c66ab83b220cc0",
+      "sourceText": "**注意：** 文件打开方式可以配合使用，利用|操作符",
+      "translatedText": "**Note:** File opening modes can be used in combination with the \\| operator\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
+    "2bb4a0f49a80262c1f04a415d0d08074d3f229fb0cc0673289d6bee020c48092": {
+      "normalizationVersion": 1,
+      "sourceHash": "b410141222799a1044994a0311baa2c447a3f774571751ef5e50831bd475821f",
+      "contextFingerprint": "b7405ab56f20de89582bad75646125eb7885919658832d8e2021a0237658a397",
+      "sourceText": "- `set_union(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // 求两个集合的并集\n\n  // **注意:两个集合必须是有序序列**\n\n  // beg1 容器1开始迭代器\n  // end1 容器1结束迭代器\n  // beg2 容器2开始迭代器\n  // end2 容器2结束迭代器\n  // dest 目标容器开始迭代器\n\n  ​",
+      "translatedText": "- `set_union(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);  `\n\n  // Compute the union of two sets\n\n  // **Note: Both sets must be ordered sequences**\n\n  // beg1 Iterator to the beginning of container 1   // end1 Iterator to the end of container 1   // beg2 Iterator to the beginning of container 2   // end2 Iterator to the end of container 2   // dest Iterator to the beginning of the destination container\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 203,
+        "outputTokens": 90,
+        "costUsd": 0.000169
+      }
+    },
+    "2bc74803563a2d99bd1e56c5b004e629e0ee789c97cfe71f48a76285882c78cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb018ebceabc1c9f67606d691d9fb26681d9eed7b8a3ff265887d529e176d72b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按值捕获：",
+      "translatedText": "Capture by value:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "2bd3d08c3162fcdf518a5c3e5fa41b91e5033895fe94530d4f4b0f301ff2343c": {
@@ -139,6 +293,20 @@
         "inputTokens": 152,
         "outputTokens": 30,
         "costUsd": 0.000082
+      }
+    },
+    "2beb5e43c55f03b3cf14fb4f3c3374711b1c6d422a1b5cb5c36eea99fbac58d1": {
+      "normalizationVersion": 1,
+      "sourceHash": "cc93cb93bbb5b2ba76d8271786b6215343908d55f42a7ea3b51b2bb46de64a33",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 4：把多个不同回调放进同一个容器",
+      "translatedText": "### Example 4: Put multiple different callbacks into the same container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "2bec78a6b1aec4638e9446cdefd7ca0961d0a195d5700b966706aad898dbb191": {

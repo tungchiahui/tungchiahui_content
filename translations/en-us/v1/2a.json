@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "2a0daaa8a8088695bba32d800b1460afe35ede157b4521f6b21b71ec93a8cd45": {
+      "normalizationVersion": 1,
+      "sourceHash": "f348a5e5f4364cf85b43f2e2861556ed521d43da1f81db8d4fbe6b9797f84cd7",
+      "contextFingerprint": "e9d7926fefb9371d91800cf9645ceb1da43f06ced2274eebd65fb994ba6b824d",
+      "sourceText": "### `std::thread` 对象不是“线程本身”",
+      "translatedText": "### `std::thread` The object is not the “thread itself”",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "2a198b31cbbe638c03ac516411f68e32eb56eb3be0d3db0388ebb3326afecce6": {
       "normalizationVersion": 1,
       "sourceHash": "4d6b669cd7c99f53ea65298a63df0e18e246c1158132129166c0a014185017bd",
@@ -13,6 +27,48 @@
         "inputTokens": 142,
         "outputTokens": 22,
         "costUsd": 0.000069
+      }
+    },
+    "2a1cd08099f38aa4583a6fbbb9f44cbf3d2f17f213b826a78b6c458aa4970751": {
+      "normalizationVersion": 1,
+      "sourceHash": "666c47d7ab30055c76f8708bebc2860cfed242f09588203dcdeb626b24ef7910",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：用 optional 表示\"可能找不到\"",
+      "translatedText": "### Example 1: Using optional to indicate \"may not be found\"",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "2a2870ae9f0ae93729888ab1bfd956b3d9f61152a1599c179f32441dd895f2ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "6e4090921f80ff2240ea80824ae21a1eee355cb77745d858eea3a40a46b0d714",
+      "contextFingerprint": "da0982144978cac79032bd33035ea78bc97ca5b618e6798ba86da1105279ed2c",
+      "sourceText": "#### adjacent_find",
+      "translatedText": "#### adjacent_find",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2a350bba853b707d1023710706e6036f391641dfc38fe81c657a4748b50fee43": {
+      "normalizationVersion": 1,
+      "sourceHash": "72ce05391ba1a4847d3abd2d67292b2e243fd5d25659026ab630f0850985f103",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "本来应该整体更新的数据被拆开：",
+      "translatedText": "The data that should have been updated as a whole was split apart:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "2a48cfc0801280398fc948d9bdd1839c07e75f308ad9333a7c79a20581057243": {
@@ -29,6 +85,20 @@
         "costUsd": 0.00006
       }
     },
+    "2a510dd417005c0b3dbe2fb1666cf8eb23f5eda1ad85cec635a92492d075f10a": {
+      "normalizationVersion": 1,
+      "sourceHash": "3fd273644c9acc7c30d09198238c76f06b03ee807be4a431b7b833bdf6c2cd52",
+      "contextFingerprint": "e36b0b6f9486199821a14371870ba89d025182927b0fedae5c4cdb5829a141a1",
+      "sourceText": "这个例子中，`calculate` 不关心具体传进来的是普通函数还是 lambda，只要求签名是 `int(int, int)`。",
+      "translatedText": "In this example,`calculate` does not care whether what is passed in is an ordinary function or a lambda; it only requires the signature to be `int(int, int)`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 36,
+        "costUsd": 0.000089
+      }
+    },
     "2a63b77fa58e71ff781209fbf26b76550dc227259243ca12c6335f97682b513e": {
       "normalizationVersion": 1,
       "sourceHash": "3612bb93bdabf3cd65aca8a138720b2edfad9ff116167f7c4d495aae61619afc",
@@ -41,6 +111,20 @@
         "inputTokens": 132,
         "outputTokens": 11,
         "costUsd": 0.000053
+      }
+    },
+    "2a648f023e1cfb733ef095802fb3395ab04b945210c9fe6d361cd5da85604582": {
+      "normalizationVersion": 1,
+      "sourceHash": "57050c6b73cd8544fd2d7097adae817ab7ace10641aa5f42490b534c21ffb7c4",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例5：函数指针作为参数时也可以省略参数名",
+      "translatedText": "### Example 5: When a function pointer is used as a parameter, the parameter name can also be omitted",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 28,
+        "costUsd": 0.000076
       }
     },
     "2a72c89058fb7261cebf73c06c6ed646b8fdd84d43211760b0a2abb8805d89e3": {
@@ -167,6 +251,20 @@
         "inputTokens": 151,
         "outputTokens": 39,
         "costUsd": 0.000093
+      }
+    },
+    "2af6d9c55574eaac81063d1aff7c1b595949ffe4ec414362465d657406c92dea": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd25f6b76264b4298a732c15de18a6c7244b868f2f95ed7601eee7a03ffd30a0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "当类模板碰到继承时，需要注意一下几点：",
+      "translatedText": "When a class template encounters inheritance, the following points need to be noted:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 22,
+        "costUsd": 0.000069
       }
     }
   }

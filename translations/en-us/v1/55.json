@@ -15,6 +15,34 @@
         "costUsd": 0.00011
       }
     },
+    "5503e36c82411e21ccfad2127641a1277c5310738cc0507068824c4f6535b43a": {
+      "normalizationVersion": 1,
+      "sourceHash": "63b79b01a91eb0bf1627f595313706b8c74f23eaea79293cf7bfd4ad78380aad",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "常见资源包括：",
+      "translatedText": "Common resources include:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "550626f560cfe3c6f01d108fccefdc39e2a63499735d59d12e5f5f7fcc22fee7": {
+      "normalizationVersion": 1,
+      "sourceHash": "bd0e070a73586ce031d865dd3c18b87955f1fe129b94d88b82fa299ebea324b1",
+      "contextFingerprint": "7cfe448fb3101cf3692d51e26dbc3d495172ec0231b6f3bd7bf162c6f7210fb9",
+      "sourceText": "- 入队   --- push\n- 出队   --- pop\n- 返回队头元素   --- front\n- 返回队尾元素   --- back\n- 判断队是否为空   --- empty\n- 返回队列大小   --- size",
+      "translatedText": "- Enqueue   \\-\\-\\- push\n- Dequeue   \\-\\-\\- pop\n- Return the front element   \\-\\-\\- front\n- Return the back element   \\-\\-\\- back\n- Determine whether the queue is empty   \\-\\-\\- empty\n- Return the queue size   \\-\\-\\- size",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 171,
+        "outputTokens": 52,
+        "costUsd": 0.000114
+      }
+    },
     "550a522603668082ddb9fb6a9ed3dda5945d76900abf1218c9dbfa0844e34d8a": {
       "normalizationVersion": 1,
       "sourceHash": "799f7f55356b8d5e0c26063bb7fbf8a2ca65275b9ae5de0eb882ea0d43b12063",
@@ -41,6 +69,20 @@
         "inputTokens": 155,
         "outputTokens": 37,
         "costUsd": 0.000091
+      }
+    },
+    "552b48092e177301687a81d5eabe077c7ebfd54cef0134bc9c03edec51b17f44": {
+      "normalizationVersion": 1,
+      "sourceHash": "9908aae840ba9a9a03d16bd9f9d2d98da8cef64a5b9fedeb3c57ab4560e1b91a",
+      "contextFingerprint": "aea835fcb041f508b6cfb8e8fa2e9fbc1a4c50aff22b37d32876476c183d69a7",
+      "sourceText": "但 `std::move(buf2)` 这一表达式本身不会修改 `buf2`。真正转移资源的是随后被调用的移动构造函数或移动赋值运算符。",
+      "translatedText": "However, `std::move(buf2)` this expression itself does not modify `buf2`\\. It is the subsequently invoked move constructor or move assignment operator that actually transfers the resource\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 34,
+        "costUsd": 0.000087
       }
     },
     "55300d60443be92d7f4fdb82fdddee84c010fbb745007dc7fa7412cee52c1ec2": {
@@ -71,6 +113,34 @@
         "costUsd": 0.000053
       }
     },
+    "55478f3e977417133a3942a116cac2a495e09fa69b2413a976fd0f1a9024bf7f": {
+      "normalizationVersion": 1,
+      "sourceHash": "bb9cd81f2ff30ed8c89a6432b846734b84e3020a190273dbf0ff2465b0441f0d",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 4：在示例 3 基础上，C++17 结构化绑定遍历 map",
+      "translatedText": "### Example 4: Based on Example 3, C++17 Traverse a map with structured bindings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 36,
+        "costUsd": 0.00009
+      }
+    },
+    "5548536d8c6b76421c6137aca811d856190511e6374273d8c57212bab506a81c": {
+      "normalizationVersion": 1,
+      "sourceHash": "75b12f79d5867e9e166e53d0babe19c016f88b587d9859b5638bc889a07db4a3",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "隐式转换是由编译器自动完成的转换，代码中不需要写出转换操作。例如：",
+      "translatedText": "An implicit conversion is a conversion performed automatically by the compiler; the conversion operation does not need to be written in the code\\. For example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 35,
+        "costUsd": 0.000087
+      }
+    },
     "5552e7826a3a114142cb62c3240a01307e8e34a4acd476af4320b7909370fc77": {
       "normalizationVersion": 1,
       "sourceHash": "64d55a4e5dcce5210c782711c68f7162f289c965111407f5e2661be0427c9967",
@@ -83,6 +153,62 @@
         "inputTokens": 154,
         "outputTokens": 36,
         "costUsd": 0.00009
+      }
+    },
+    "555df84843b47633f13e9e288a5d00a072303de54ad4020ec81179e7a438ecf8": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f0858e26aa3ca4edf4192a79a51473a192d3b532058e95846696d994566f13b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "所以常见写法是：",
+      "translatedText": "So the common way of writing it is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "556f22df4115e1c4151203fd4a1247e7d9a19debc64ae626600169102329d5e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "a0dd49f4937d3fd89b4bf3caddb6d5de74a11098f35d7d38e0eb8ce51e5972e1",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从语法分类上看：",
+      "translatedText": "From a grammatical classification perspective:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "557ccded2f6c373fd1d89b499c84089885ddb7128496848f02e04493a385f44b": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0cc0c399c73d79d42d335d21e4c6a77d66cda7a396c6108df04863cba1f4a5d",
+      "contextFingerprint": "72a8dee293dc92b2ad88ed57217658cb21c037a14a9a4d62b6fbfcfd51aa54be",
+      "sourceText": "`count_if` 会把 `numbers` 中的元素一个一个传给它，过程可以近似理解成：",
+      "translatedText": "`count_if` will pass the elements in `numbers` one by one to it; the process can be approximately understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 27,
+        "costUsd": 0.000076
+      }
+    },
+    "5583b0360f4928e8a99ad9e30264d28268341503ad55b8a1232f6bc9a839534e": {
+      "normalizationVersion": 1,
+      "sourceHash": "57a467ed59d29efd99a1bcc82bfcd2841f27ff2c3690d966f7a2074ab56e2adf",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* map插入方式很多，记住其一即可",
+      "translatedText": "* There are many ways to insert into a map; just remember one of them\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 22,
+        "costUsd": 0.000068
       }
     },
     "55909797dc50c849434bb7b59af5ba3a8bdc7effd24b097ce14bbb78e8b72a72": {
@@ -99,6 +225,20 @@
         "costUsd": 0.000055
       }
     },
+    "5592e8953089fe7a06a774dd13b49c4e322e9b1eb9af82a44c24d775e2742a43": {
+      "normalizationVersion": 1,
+      "sourceHash": "aac7484fb85abe88f4c6fc8d707b721697cd0b5815678eba07288f8f160a162b",
+      "contextFingerprint": "b5d7b9f7898f7f1b97de54ae5bc15c5b8069ab8f12042f4de1c45be2559f919b",
+      "sourceText": "所以`joinable()`看的是他现在能不能被`join()`或者`detach()`，上面两个例子中：\n当这个线程对象使用默认构造，或者说没有被给一个可调用对象的时候，这时候是`false`;\n还有这个线程对象已经被`join()`或者`detach()`的时候，也会变成`false`。",
+      "translatedText": "Therefore`joinable()`it depends on whether it can currently be`join()`or`detach()`, in the above two examples: When this thread object uses the default constructor, or in other words is not given a callable object, at this time it is`false`; Also, when this thread object has already been`join()`or`detach()`it will also become`false`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 74,
+        "costUsd": 0.000144
+      }
+    },
     "5598486b26af3bf07c93172d987c45b007f86a7049803d12c5c91b54fc8d2eb6": {
       "normalizationVersion": 1,
       "sourceHash": "441bbaa59ed9bf046c8fb3183f48cf091ff3c26254d24d59a97cb7f5ae524360",
@@ -111,6 +251,48 @@
         "inputTokens": 130,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "55a74376962ea7ea3a4bdc93e3a8adbb7220b23d4c547a8cbdb67ac77fff3ad2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f83cf5c6d12daae0aad97850c7e4cfc1a04e92bf39c1c3d40128a771e0c033d3",
+      "contextFingerprint": "9a293d09ddae9a96ba69fdac29be9f24a1b7d06b37d2e22d8d1a473f153ff31c",
+      "sourceText": "### `std::atomic<bool>`：状态标记",
+      "translatedText": "### `std::atomic<bool>` : Status flag",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "55c18187674644a4e22a2e282510e857c33017212781ee5b8dfed8ca001a8a64": {
+      "normalizationVersion": 1,
+      "sourceHash": "dface56612e34e2d5449db442a5cfa4e1ae7510f41e6825e8959764eac91c85d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 函数对象",
+      "translatedText": "### Function object",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "55d1676ae57b5f4c752ad841e429af9a34722801bf9b18ca7397c470a61eef0d": {
+      "normalizationVersion": 1,
+      "sourceHash": "68d8399daa616b140a2cbe4b1ef99960900a267f4e972e4781af51f14e5c18c5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "异常可以跨函数传递。",
+      "translatedText": "Exceptions can propagate across functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "55dbf5a295704ba4d0c9177e3adc7c21fe4ebcec7e6dfabd94434ad4dc9b6c80": {
@@ -127,6 +309,20 @@
         "costUsd": 0.000054
       }
     },
+    "55e3bebf92dadcb1b73fcba1c4aabb2afb61e8d7bdf662e92f7b4ba2a900912b": {
+      "normalizationVersion": 1,
+      "sourceHash": "ac4884a80a6c88a7f0a19f1fa1b0964becc7f95954a52ec188833b6d97e7223e",
+      "contextFingerprint": "a15b20906195bf0c76b917fbf2981b4174ac77d1af64ee61f04ab3061d72ef73",
+      "sourceText": "> 这把 mutex 已经被我提前锁好了，你不要再调用 `lock()`，只需要从现在开始接管它，最后负责释放。",
+      "translatedText": "> I have already locked this mutex in advance, so you should not call `lock()` again; just take it over from now on and be responsible for releasing it at the end\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 41,
+        "costUsd": 0.000096
+      }
+    },
     "55e83fb441674e07b7a5503b5e3a9aeeb82441fb56e36d59e1f0c6f2a68df85b": {
       "normalizationVersion": 1,
       "sourceHash": "0833c12478b56f8c295a9edec296045b77e76829e5d6a919e832af92dc515001",
@@ -139,6 +335,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "55ee362780d12cad4c86dea926674d543a02140cfda0b9b7aef07f5f24a3aa2b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5bfa8d8a68973c8431993d8a34362d702a56e34d6f52c0dd1985a5a4e0fd3241",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 并行和并发的区别",
+      "translatedText": "## The difference between parallelism and concurrency",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
       }
     }
   }

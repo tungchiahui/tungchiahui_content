@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4f1fc909136c2a91c4346b5765f3bf3de2f7609d7c4823ebf9bd0e2033fa58e4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f3bc7fef5e1ded1975c6c8271f133ed915293048f4558227e0a5591499d5539",
+      "contextFingerprint": "210cfbcd177ab3cc98deb18d5612102258f09891ae28deb257946a77f626f264",
+      "sourceText": "| 操作 | 说明 |\n|:---|:---|\n| `a[i]` | 随机访问（不检查越界） |\n| `a.at(i)` | 随机访问（检查越界） |\n| `a.size()` | 返回元素个数（编译期常量） |\n| `a.empty()` | 是否为空（永远为 false） |\n| `a.front()` | 返回第一个元素 |\n| `a.back()` | 返回最后一个元素 |\n| `a.fill(val)` | 用 val 填充所有元素 |\n| `a.data()` | 返回底层 C 数组指针 |",
+      "translatedText": "| Operation | Description |\n|:---|:---|\n| `a[i]` | Random access (no bounds checking) |\n| `a.at(i)` | Random access (with bounds checking) |\n| `a.size()` | Returns the number of elements (compile\\-time constant) |\n| `a.empty()` | Whether it is empty (always false) |\n| `a.front()` | Returns the first element |\n| `a.back()` | Returns the last element |\n| `a.fill(val)` | Fills all elements with val |\n| `a.data()` | Returns a pointer to the underlying C array |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 188,
+        "outputTokens": 72,
+        "costUsd": 0.000143
+      }
+    },
+    "4f2f9956a434570d5ccfef63df17be4d344d9de614e27339c82a5c682f03ff6a": {
+      "normalizationVersion": 1,
+      "sourceHash": "e0472b5245f78d6d5ecdf041877657874cf048ede27f85524f5e2c2ed9388a8b",
+      "contextFingerprint": "3225aefa8b9824266d58ddd9bdc1c450abc0ddaca0cf1a5883c2d3486c1f2960",
+      "sourceText": "容器：     `vector`",
+      "translatedText": "Container:     `vector`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "4f38b49a44052336fdce486170038a60e488a365a3cb1478ff2103b34e41109a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a4205b1254ee4d16aa1ed70afcfff11dba55008088ccde8a27f3d20319a90253",
+      "contextFingerprint": "20ea8f964a15ca0c17958a33194e8059506c1fefbae36f4889b08750b2eaf783",
+      "sourceText": "**错误 2：用 system_clock 测量耗时**",
+      "translatedText": "**Error 2: Measuring elapsed time with system_clock**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 25,
+        "costUsd": 0.000075
+      }
+    },
+    "4f527fdb990f6b837bbc5fc34adeb192e80083047a1f30ee50a7e640022133a0": {
+      "normalizationVersion": 1,
+      "sourceHash": "dcd8402af419419514a78faf7977ea6afc66efd11252ffa7244cac1935e1c544",
+      "contextFingerprint": "d55369a8871da1db3e8b2e6214069f327f5f37c677caff3d41b257385df4283d",
+      "sourceText": "### `std::call_once`",
+      "translatedText": "### `std::call_once`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4f5d6a891728bfc105891488090cd07c176981e998dd40ef7e87d6b18791f737": {
       "normalizationVersion": 1,
       "sourceHash": "0cd778d0650dc03d3937f49ce207383673fa1a56fced535266029cd2cc167672",
@@ -57,6 +113,34 @@
         "costUsd": 0.000159
       }
     },
+    "4fb6b9e3dfd55b575f22fabc41123df814419014990ee2418cfdb40284b9d392": {
+      "normalizationVersion": 1,
+      "sourceHash": "6365d70136d536e2b95e12b1f3bb2824f4c58136d03631f298e39aabc2d2bed1",
+      "contextFingerprint": "6f912a5a75cc6c2e6708e9dbde821e9d400fc8a3199e43ef2fdcc89d0e857dbd",
+      "sourceText": "所以我们可以使用 `{}` 创建一个局部作用域：",
+      "translatedText": "So we can use `{}` to create a local scope:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
+    "4fc80f86d2698587f7c4ddb94f0990d564c3a69339eb0788a0839338fabd983e": {
+      "normalizationVersion": 1,
+      "sourceHash": "e711b6153b35bcbc10657301a984ac0770482ac1f0d0d120cfedcc995964288f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "就可能一直卡在那里。",
+      "translatedText": "it may just stay stuck there\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "4fd9ff557ea5b73a4283f5d4d3e6a0981a4bacc2dd18c3824fc9ac9f42f9357f": {
       "normalizationVersion": 1,
       "sourceHash": "5c5d89c673ab2cc253464ea223d86f20715f0e8a2e22adda8ad6caa65aa6e449",
@@ -69,6 +153,20 @@
         "inputTokens": 147,
         "outputTokens": 26,
         "costUsd": 0.000076
+      }
+    },
+    "4fef9b7901f7a7087f08d906b6443be003dee539a7cfb924ad776f9b54fa6f89": {
+      "normalizationVersion": 1,
+      "sourceHash": "4866b30e30e9f7c277ca4a3c19409725ae3268c7942a6bfc18e244d359f7fdc3",
+      "contextFingerprint": "c1e2997caccd5dc73374d341c70b324e2fbb9630a957145c0217778ff70ff2de",
+      "sourceText": "### 示例 3：结构体——从成员访问到 C++17 结构化绑定",
+      "translatedText": "### Example 3: Structs — From member access to C++17 structured bindings",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
       }
     }
   }

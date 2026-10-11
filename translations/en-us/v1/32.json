@@ -15,6 +15,34 @@
         "costUsd": 0.000055
       }
     },
+    "3219f612a1d868a6f9a109c0fbfc1285ee212a6f1ff6f8e47e324293d5065334": {
+      "normalizationVersion": 1,
+      "sourceHash": "33c8175f41a77614fcb642c37ab5b728b44db2e018bdd1ace1809188428eb2cd",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**算法：**",
+      "translatedText": "**Algorithm:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "321f9c067e10798cb7b238d57bc92829502dd36f481759780bc9a97f3765dd71": {
+      "normalizationVersion": 1,
+      "sourceHash": "75f481482f5926597bec52087f30b310983f113d652a2559a3d07410716868cd",
+      "contextFingerprint": "72b56d6b0da963e7822422e26328f9c42206cb877c1b5866a325234d895333c2",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1788876531473-3c31ee22.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1788876531473-3c31ee22.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "323281c13b73f0ed7bfe865ea93f35060000379a1ac302fcda348bcbfcc68e96": {
       "normalizationVersion": 1,
       "sourceHash": "4fe9d6132c398ea3ba5fc179c138a466152494467b8782531c624944bf73ba80",
@@ -43,6 +71,90 @@
         "costUsd": 0.000071
       }
     },
+    "323c967c4d4b0e49df67a63dc3285b6bb7decae01231bdca04f3439df75e6fcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "c9f585752882fcce17609cdac1de46534a4ea17ff612224e0eb60be6fd2c9b8a",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 1：在析构函数中抛出异常**",
+      "translatedText": "**Error 1: Throwing an exception in a destructor**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
+    "3244eadf07dc114c8847791ce4e90e73943e353bbd82413abd4f2317e962d44b": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f41062723f42654b203af39af1c6cd21e1ebae54ca6442c1818b53170891251",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此手动管理：",
+      "translatedText": "Therefore manually manage:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "324b9ebdc67d11447849d10e2f8839a0da2955d131255c90d3edae25eb56af2e": {
+      "normalizationVersion": 1,
+      "sourceHash": "657652fb5513d66e7a80cba765c5b84ea53aa0585da2df7faa36d903a295ef96",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "一句话记忆：能不用就不用；必须用时，把转换意图写清楚。",
+      "translatedText": "One\\-sentence takeaway: Avoid it if possible; when it must be used, state the conversion intent clearly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
+    "325e98e4e91dd3e7588e11b141eb612215782c58b778b0010491583964379297": {
+      "normalizationVersion": 1,
+      "sourceHash": "fd4c0db316858ac0f255fbe81117b30ab40c86970d2a7c37f643c8d43b5e0d8d",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "* 函数模板利用关键字 template\n* 使用函数模板有两种方式：自动类型推导、显示指定类型\n* 模板的目的是为了提高复用性，将类型参数化",
+      "translatedText": "* Function templates use the keyword template\n* There are two ways to use function templates: automatic type deduction and explicit type specification\n* The purpose of templates is to improve reusability by parameterizing types",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 45,
+        "costUsd": 0.000102
+      }
+    },
+    "326c5f0ccfecd166d4e53f227669caa911d7c283d71db159490f47c0266ee63c": {
+      "normalizationVersion": 1,
+      "sourceHash": "adb713843032c9b4a1a1b1570782f8b0f50e2f8321f4790da54d94986ba531f2",
+      "contextFingerprint": "dc0bc218c6d59f3f6fca64716da090d03221ee9865f19ebd3e2b61f0a89c0553",
+      "sourceText": "正确做法：头文件中避免 `using namespace`，只在 .cpp 的实现文件或函数内部使用。",
+      "translatedText": "Correct approach: avoid in header files `using namespace`, and use it only in the \\.cpp implementation file or inside functions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "328517a8c1ba4d80ac919b8a3b699bf44b71572abf2be4479f894d1e6b8114cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "195ed8e657105c1fbf6b25f6052eb20df9b10902c9be2e318d0036c4b8c03cf6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "内部又尝试获得：",
+      "translatedText": "Internally, it also attempts to obtain:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
     "3288a6aa4651973be6c510db5a5173601ef03384d30d84dfb2398ea49322d066": {
       "normalizationVersion": 1,
       "sourceHash": "1a4147c24f52cf65d3bae6ada54555dc8592e2b4be995b901ff0210051a1fc2a",
@@ -55,6 +167,20 @@
         "inputTokens": 131,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "328c35557c77da2e843421f25575779f4b57be52a2e70fd4a2509c23e48b76b2": {
+      "normalizationVersion": 1,
+      "sourceHash": "213ed2f8b4618400a5ae523a15aec355d0be644749eac43b2e11030badcc3482",
+      "contextFingerprint": "8718b6169774b9b84019120b8b85c31325183a4aa1438ae1d3d8f2ae708e1ca0",
+      "sourceText": "`shared_mutex` 允许多个线程同时读，但管理成本也更高。",
+      "translatedText": "`shared_mutex` It allows multiple threads to read simultaneously, but the management cost is also higher\\. ",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 23,
+        "costUsd": 0.000071
       }
     },
     "328d95edbaca7a5fcae4520413b83b7505c8c80a44048bb951602396db098ba9": {
@@ -83,6 +209,20 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "32a23a84141921bfcfc2150b9369f92b45b1c8b39ba5edc3b1ba7f6bdd0f3d45": {
+      "normalizationVersion": 1,
+      "sourceHash": "05ef6352de9efeb74c38bcd60274a8a491e5e96d144625861fd8349ff4b0e73f",
+      "contextFingerprint": "cd145fc1e6eb6595f2c96854256e20ba2db4dcd375c90e016cac81bca388f081",
+      "sourceText": "比较形象一点的说法：当前线程主动告诉操作系统调度器：“我现在可以先让一下 CPU，你可以考虑让别的线程先运行。”\n`yield()` 只是“主动让出这次 CPU 调度机会”，但马上又被调度回来也是完全可能的。",
+      "translatedText": "To put it more vividly: the current thread actively tells the operating system scheduler: \"I can yield the CPU for now, and you may consider letting another thread run first\\.\" `yield()`It merely \"voluntarily gives up this CPU scheduling opportunity,\" but it is entirely possible that it will immediately be scheduled back\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 180,
+        "outputTokens": 71,
+        "costUsd": 0.00014
       }
     },
     "32a3d84a0b4c603a1f6dc8039e71edbded7e033abcce96c8e621062309e64d45": {
@@ -127,6 +267,20 @@
         "costUsd": 0.000069
       }
     },
+    "32b053f8555ec21014b65e4b86d45c2651859a867d01ad57ed2bb3be458b7ee9": {
+      "normalizationVersion": 1,
+      "sourceHash": "c015a140cfb0004bc0fdc40bb21661cacfe85e1d408074faa30593bf7f512396",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**accumulate使用时头文件注意是 numeric，这个算法很实用",
+      "translatedText": "\\*\\*Summary:\\*\\* When using accumulate, note that the header file is numeric\\. This algorithm is very practical\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 27,
+        "costUsd": 0.000077
+      }
+    },
     "32bea37ac3c266bb7b0889a885ed845bb340a7b347cddcf116f92bf66ed7117c": {
       "normalizationVersion": 1,
       "sourceHash": "db05f85c3db125ce182d27858f53dc57caafc39bf4c4f044bcfc6605e67c1f75",
@@ -139,6 +293,34 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "32cfe099d6d91b7e15797158e635a9c126730e8e6c12c6fbbf84b9fcffa75cec": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8ec7ef2e6626b701bff88c5855ac5922ea940e8b0e8c27de80d419e9cfbb001",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "现代 C++ 中，应该优先使用：",
+      "translatedText": "In modern C++, preference should be given to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "32e00b1f5695f5c4301d6415ed3d63203596672a269bdd655f23e393d2d3c8e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef9da77451889e62061823a5d82833c4c8f63e5add279d28c44b1fc6385d0aaa",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 类型转换 对比 C风格强转 会增加运行开销吗",
+      "translatedText": "## Type Conversion Comparison: Does C\\-style casting increase runtime overhead?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 18,
+        "costUsd": 0.000065
       }
     },
     "32eafd36296e141b87970947da40869691ea4cfea14c3b0a71ef4fafd20bd71b": {
@@ -167,6 +349,20 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "32fc4ad32d36cab89d5480a878560115550a1ed0e04d440254d93a1381561853": {
+      "normalizationVersion": 1,
+      "sourceHash": "cfaa9a566c96a573e82cc5e9b7d9dc4b37018d09855ca403dc8a634c27a346a4",
+      "contextFingerprint": "a0ad7f62bc42a7a6abfc09baf472778e0bbc62f58eef0b78c09fdfe3588d384f",
+      "sourceText": "假设你的 CPU 是 `8 核 16 线程`，那么 `std::thread::hardware_concurrency()` 通常会返回 `16`。",
+      "translatedText": "Assume your CPU is `8 核 16 线程`, then `std::thread::hardware_concurrency()` usually returns `16`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 18,
+        "costUsd": 0.000065
       }
     }
   }

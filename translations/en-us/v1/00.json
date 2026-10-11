@@ -1,6 +1,90 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "00034de6f650ce00eb8190acecfc119a790f586aefd0ddd9b323cf5fe782e3f7": {
+      "normalizationVersion": 1,
+      "sourceHash": "7be24d1eb52c4d9049cebc11bc067ed0fe17c44f84cc1d09a623a62306e3a1d5",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "范围 for 循环让你写\"对容器中每个元素做...\"的代码时，不再需要关心下标和迭代器细节，代码更简洁安全。",
+      "translatedText": "Range\\-based for loops let you write \"do \\.\\.\\. for each element in the container\" code without worrying about index and iterator details, making the code more concise and safer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 40,
+        "costUsd": 0.000097
+      }
+    },
+    "00082a412bc51528da04c9f54255862312a14db620e54f14d791dd63d71cf37a": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c946f82f5041fe7fff4d50ae37e8166ed38d09d852eb2fe0c0149e881c1e6d5",
+      "contextFingerprint": "335b47048c29f6ea1a1aa17dbf9fcee64cf3f81dab56660693e864f94d9a958c",
+      "sourceText": "#### `std::cref()`",
+      "translatedText": "#### `std::cref()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "000dbf8bd022095634a944e20da1cd0885fda78dc3e80a6f1ee6b08c6764755e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f47a1af277fafc4316786edd077df6c4db89fadc6d85cd290592d684d8c629ca",
+      "contextFingerprint": "e2271b99351a364a8185310038040a73f901795aff747bd5215df8584ef79067",
+      "sourceText": "* `int find(const string& str, int pos = 0) const;`              //查找str第一次出现位置,从pos开始查找\n* `int find(const char* s, int pos = 0) const; `                     //查找s第一次出现位置,从pos开始查找\n* `int find(const char* s, int pos, int n) const; `               //从pos位置查找s的前n个字符第一次位置\n* `int find(const char c, int pos = 0) const; `                       //查找字符c第一次出现位置\n* `int rfind(const string& str, int pos = npos) const;`      //查找str最后一次位置,从pos开始查找\n* `int rfind(const char* s, int pos = npos) const;`              //查找s最后一次出现位置,从pos开始查找\n* `int rfind(const char* s, int pos, int n) const;`              //从pos查找s的前n个字符最后一次位置\n* `int rfind(const char c, int pos = 0) const;  `                      //查找字符c最后一次出现位置\n* `string& replace(int pos, int n, const string& str); `       //替换从pos开始n个字符为字符串str\n* `string& replace(int pos, int n,const char* s); `                 //替换从pos开始的n个字符为字符串s",
+      "translatedText": "* `int find(const string& str, int pos = 0) const;`              //Find the first occurrence of str, starting from pos\n* `int find(const char* s, int pos = 0) const; `                     //Find the first occurrence of s, starting from pos\n* `int find(const char* s, int pos, int n) const; `               //Find the first occurrence of the first n characters of s, starting from pos\n* `int find(const char c, int pos = 0) const; `                       //Find the first occurrence of character c\n* `int rfind(const string& str, int pos = npos) const;`      //Find the last occurrence of str, starting from pos\n* `int rfind(const char* s, int pos = npos) const;`              //Find the last occurrence of s, starting from pos\n* `int rfind(const char* s, int pos, int n) const;`              //Find the last occurrence of the first n characters of s, starting from pos\n* `int rfind(const char c, int pos = 0) const;  `                      //Find the last occurrence of character c\n* `string& replace(int pos, int n, const string& str); `       //Replace n characters starting from pos with string str\n* `string& replace(int pos, int n,const char* s); `                 //Replace n characters starting from pos with string s",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 250,
+        "outputTokens": 138,
+        "costUsd": 0.000241
+      }
+    },
+    "00108032ef6ed054a646eded5a0619a2c56b0c3b6e0e3c3c8cf82a1de3faab2a": {
+      "normalizationVersion": 1,
+      "sourceHash": "529f91e59451352f141a4988414e0898e81665fb384ce1bc1d56c7a1cffddf27",
+      "contextFingerprint": "fe29f1e98ca6689ce0a12cfbfb0d1cdc50f9668fd5a8de6f5bac1a56a4e8c0ec",
+      "sourceText": "`throw` 之后，`delete[] p;` 不会执行，可能造成内存泄漏。",
+      "translatedText": "`throw` After that,`delete[] p;` will not be executed, which may cause a memory leak\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "0026cb6caee0eab06b056d430a4cc3a24cd1d81823e976488679638941d4d0e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "3b7056359e7e020d2a09566cbe93c4fa3fbc4691b9a16356375b39bf5f9ac6cf",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### set构造和赋值",
+      "translatedText": "#### set construction and assignment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
+    "00270a88f5fb9d139981684cbd9d77a704e82e5a3662a964beb1bd448c9611cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "77aa222712cb2df16804cd4ca4393b6912ed87ee1e8d171a1f93fa34d966b9b5",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**仿函数原型：**",
+      "translatedText": "**Functor prototype:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "00374d7d245a5e9533d03ce21be1f7dd1b0f295c5efb72b6c691c5c06c712fc0": {
       "normalizationVersion": 1,
       "sourceHash": "31470a3aac9a5703473ba47e80732926747dc3dfb7e758d0afecae286b158f1a",
@@ -13,6 +97,20 @@
         "inputTokens": 149,
         "outputTokens": 27,
         "costUsd": 0.000078
+      }
+    },
+    "0043d87e61a22d1082424bd369656949300bc671c217ae7354b41ff703e240d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "8422b3ebf07049c76c9ad2e11c6d1fcfa94459a2b3181c657aeb11cd416a2e1c",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：测量一段代码的执行时间",
+      "translatedText": "### Example 1: Measuring the execution time of a piece of code",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "0044e54e0c57b19eb0bbf3af92ed783cc135304b5be34b5f397ba1b6126924c8": {
@@ -43,6 +141,48 @@
         "costUsd": 0.000064
       }
     },
+    "009fac882c4bf767ee3a1a71db5c0ba2ae21db36e7eba2b00088b630fbac2064": {
+      "normalizationVersion": 1,
+      "sourceHash": "4dc67bc7859a5bd8f59b9c4f1a972bb2c16f73ac61cdf5bba27a58ab851b90e7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "比较适合：",
+      "translatedText": "More suitable:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "00a6782c28d0ef50fabf9a96d5b7cdc298920100bbbcbc57222bd12e691afc76": {
+      "normalizationVersion": 1,
+      "sourceHash": "fac61271b6a9ae19a6e802830c491ac8ea6f3457acb98321e2367673f63bd1f6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "string管理char*所分配的内存，不用担心复制越界和取值越界等，由类内部进行负责",
+      "translatedText": "string manages the memory allocated by char\\*, so there is no need to worry about copy out\\-of\\-bounds or access out\\-of\\-bounds; this is handled internally by the class\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 42,
+        "costUsd": 0.000096
+      }
+    },
+    "00a8a47a19a05d556a6e485b3f4115a507523ded48945d04030b4d22c3b8ed23": {
+      "normalizationVersion": 1,
+      "sourceHash": "09be2a1993fe0f33a2237ed814cfd0e53cdfc528817bb00d8a65f9b6cc3c42f1",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 模板的概念",
+      "translatedText": "### Concept of Templates",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "00c22d9c762f2c34f2c0bbfa2202ddca56636b09f86b271311c3815211998d5e": {
       "normalizationVersion": 1,
       "sourceHash": "82eb7e419fc559ac989bf13a6f083d4e5fce3f71eb16ad19c7c6110a2294d88b",
@@ -55,6 +195,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "00c6c7aa98fecdbfd7e4fe3740c18919b113f3a2ab8d6aa64168845a7f6072b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9c487597096102fbfb58559d9f0ea303be0b7598322ab32e5b0baf021469d86",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "更适合初学的顺序是：",
+      "translatedText": "A more beginner\\-friendly order is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "00cfe10515c2463a83cb5c191180876dbc8ed7b1408b72db3250fc29bf7a81ba": {

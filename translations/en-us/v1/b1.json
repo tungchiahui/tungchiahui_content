@@ -15,6 +15,48 @@
         "costUsd": 0.000074
       }
     },
+    "b1147b6f0b13ae3e84a9ef4bfd619652acdd3b880580f027234382adfc5c6304": {
+      "normalizationVersion": 1,
+      "sourceHash": "b678ca881225b0449911977ca75a9e1b6ea116db7cf0b2652f128fbc5091776d",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "这些内容属于 C++ 标准库并发基础。",
+      "translatedText": "These contents belong to C++ standard library concurrency fundamentals\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 26,
+        "costUsd": 0.000076
+      }
+    },
+    "b122dbcf9af00f0bbf8ad369bcf94df83728a94bfae1aba343f7e1d1b30ff46c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d112bfc8ece1c9dffe34ea802ca3ddb775a626f6b2f286ccda72190e4c37a28e",
+      "contextFingerprint": "27ea34e63de955ac550ff17cb4be456891441d23fa403f87f0ed2e9996ca74c9",
+      "sourceText": "> 查看 `variant` 当前保存的是哪一种类型，然后自动调用 visitor 中能够处理这个类型的函数。",
+      "translatedText": "> Check `variant` which type is currently stored, and then automatically call the function in the visitor that can handle this type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "b124a91acc37a80fcef44ab1bc8f7ee7178cfced1ca06d386cb8df6d4775f656": {
+      "normalizationVersion": 1,
+      "sourceHash": "aba8cb17d15fdde462c4817cbe6612e5fcf1a62697c7dbf22d2b50a797008642",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 文件输出流对象 可以通过write函数，以二进制方式写数据",
+      "translatedText": "* The file output stream object can write data in binary mode through the write function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
+      }
+    },
     "b126844c911b6932db681ad5aaa648bdcd9bedcd2bd7ad6adfdedb8b638fe0ca": {
       "normalizationVersion": 1,
       "sourceHash": "ae8aba58393fe714512760deb6a988052686fda91e94846c4acca2da5101347c",
@@ -27,6 +69,20 @@
         "inputTokens": 144,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "b126c9945d076eb54310a994c6c86968bb62b2aded31c3d30b6c91757fdc2998": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd3ef03afd623b36f4f042df2e161d8d4e3e64846f63d9da1763696aa32d96c7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个函数要回答：",
+      "translatedText": "This function should answer:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "b128603c666184fc56fb3edeb21ce304fb65722babb434ac0a761a35512149fb": {
@@ -43,6 +99,48 @@
         "costUsd": 0.0001
       }
     },
+    "b12a1f80649c9bb4f69f21216f7b22ff111785989ca90ae744e85136f9d015d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "0864f1ff70d924527983aeab9a415de4bd7ea9f8f2af36a63ae76fa2ea163084",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "必须让所有线程遵守：",
+      "translatedText": "All threads must comply with:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "b1369a644c9cfe0cf5eb49e8e59437ab9134243574e4b91de0c4e7fcd02c5df6": {
+      "normalizationVersion": 1,
+      "sourceHash": "38e5fbbe2375baae9c8ea426220d50748c6c02f1f73f51b9c11dba2d6b601a9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "也可以写成：",
+      "translatedText": "It can also be written as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
+    "b144f34182b052f2942ad7d8a61ef73e9f71399f47d604f625d041940ee4bfa2": {
+      "normalizationVersion": 1,
+      "sourceHash": "2245325653a428253b156ac63a93b6d1e3857dde8d51a807640307d67e2516b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "基本结构是：",
+      "translatedText": "The basic structure is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "b1698b410c526395b61f6b676cd8f00328745c87b4a7e66a127cc0669ad97944": {
       "normalizationVersion": 1,
       "sourceHash": "6f4ea4d2d6d75c7db1e7698b84522afebdafe337043ed8b10fca96f0c1047315",
@@ -55,6 +153,146 @@
         "inputTokens": 168,
         "outputTokens": 56,
         "costUsd": 0.000118
+      }
+    },
+    "b1747c8e6ea60466002da6b61582aba89050f33411dc0dc18f39f13be615ff11": {
+      "normalizationVersion": 1,
+      "sourceHash": "0492a7992bb9388caf0ab36df13082b8f2a1c83aabe1b345b1cd4c1f3bd66a23",
+      "contextFingerprint": "929d41902bf609ddb63be5c1f028dc89f228defb0358e2bb868ccff95f79644e",
+      "sourceText": "这里 `&printer` 必须在 `print_any` 和 `print_ok` 使用期间一直有效。如果绑定后的回调会被保存到更久的地方，通常要考虑智能指针或更明确的生命周期管理。",
+      "translatedText": "Here `&printer` must remain valid during use of `print_any` and `print_ok`\\. If the bound callback will be stored somewhere longer\\-lived, smart pointers or more explicit lifetime management usually need to be considered\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 165,
+        "outputTokens": 42,
+        "costUsd": 0.0001
+      }
+    },
+    "b17a18da0382899eed136a921f6653e420892112088f35c5a4b45149c2c7a060": {
+      "normalizationVersion": 1,
+      "sourceHash": "5538f8bb709c2bc4075c570b317f6b9ce9c8728fe880a24edd426103b8046fc9",
+      "contextFingerprint": "946aa1b95b4a833554aa655d23397a88b1921f3376b80b4b1b113e2549e06fcd",
+      "sourceText": "然后 `std::sort` 使用 Lambda 作为排序规则：",
+      "translatedText": "Then `std::sort` Use Lambda as the sorting rule:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "b190ccad29ae4e9d3622b623856fbc10489e1c89dbbc3330d60ef63a6c7b8d1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b2752870bb77816e620fa70f365d63445ae1a08c91d743310126800dde3d0d5a",
+      "contextFingerprint": "b1daa2a28b4d2185eb5308a50a3b60335cc6c9a53b64ccdd1bc33db342bbf221",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789198016819-8e10d05f.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789198016819-8e10d05f.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b199a66ac73b3d255e8a6c2b4e2b3b4a7cbb16c0f770b17f58f03934ff90ccda": {
+      "normalizationVersion": 1,
+      "sourceHash": "d69820674869f3a6b85209a2c4d9a46957c2b839b183361b803d19ff4510634f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "C 风格强转写起来短：",
+      "translatedText": "C\\-style casts are short to write:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "b19ad8d4b0bb30536b2a99d4a7547a498345c9f5c65656b4858d0bc73a3f60c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "82fcabff39ac221c0f85a00daf7bfb4ff526fc428b7799966811e430923c1cd3",
+      "contextFingerprint": "c2d1a64365c1c7d60d1b7e29f71189931ca0a3409ab1b2d6adc9ab0d090794fa",
+      "sourceText": "## C++ 标准版本",
+      "translatedText": "## C++ Standard Edition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 19,
+        "costUsd": 0.000066
+      }
+    },
+    "b1a1959ac4ef878580f31f3834537b1d912076f9e58c1b6ac2b21957c5331350": {
+      "normalizationVersion": 1,
+      "sourceHash": "d40006bef73298bc362636a9ffe18eef3d8fcdf10fce8528da089b0f9fa84f22",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：nullptr 基本使用",
+      "translatedText": "### Example 1: Basic usage of nullptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 15,
+        "costUsd": 0.00006
+      }
+    },
+    "b1ac54908123159f252d1ee9791a8221f3f7345e46feaf246ce21f6d4e31f996": {
+      "normalizationVersion": 1,
+      "sourceHash": "824a9e43e8658c5643aeaa4f68cd4dc029e6e8e90adf4a0ee210292cadd1853f",
+      "contextFingerprint": "4bc1041fdec36542baeae9cb1a0fc3fd6c4c672f76db96cfff934d2e48d95ef7",
+      "sourceText": "* `template<class T> bool logical_and<T>`              //逻辑与\n* `template<class T> bool logical_or<T>`                //逻辑或\n* `template<class T> bool logical_not<T>`              //逻辑非",
+      "translatedText": "* `template<class T> bool logical_and<T>`              //logical AND\n* `template<class T> bool logical_or<T>`                //logical OR\n* `template<class T> bool logical_not<T>`              //logical NOT",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
+    "b1b00168b4f57b12674742970a9658ed5bcb18c099037dde50fb5766b3400e21": {
+      "normalizationVersion": 1,
+      "sourceHash": "99b8447ed2b7a1632beeae44d773fea08305e150936b7268a029c3c78ce6038e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果对象已经存在，再使用等号，才是赋值：",
+      "translatedText": "If the object already exists, then using the equals sign is an assignment:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "b1c02c323d25a20e0fe587f53bced00eb8a3532f3adaef1b6163d6afc6959aae": {
+      "normalizationVersion": 1,
+      "sourceHash": "a107c2100daa20e331a8cbc22b58fcb2957413f64d35be2f422d7c869abddf7f",
+      "contextFingerprint": "e078645bf356ddac3f440e51e8de8b71694441ed972d99f34d698413b3313d07",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | constexpr vs const | `constexpr int size = 10;`、数组大小 | constexpr 必须编译期初始化，可以用作数组大小 | const 可以在运行时初始化，不保证编译期 |\n| 示例 2 | constexpr 函数 | 循环在 constexpr 函数中 | 同一个函数可编译期调用也可运行时调用 | 编译期调用时所有参数也必须是编译期常量 |\n| 示例 3 | constexpr 用于 static_assert | `static_assert()` | 编译期检查，不通过直接编译失败 | static_assert 的参数必须是编译期常量 |\n| 示例 4 | constexpr lambda | `constexpr auto f = [](int x) constexpr {...};` | lambda 也能编译期求值 | C++17 起支持，两个 constexpr 都要写 |\n| 示例 5 | constexpr vs consteval | `consteval` | consteval 函数只能编译期调用 | C++20 才有 consteval |",
+      "translatedText": "| Example | What was discussed | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | constexpr vs const | `constexpr int size = 10;`array size | constexpr must be initialized at compile time and can be used as an array size | const can be initialized at runtime and is not guaranteed to be at compile time |\n| Example 2 | constexpr function | loops inside a constexpr function | the same function can be called at compile time or at runtime | when called at compile time, all arguments must also be compile\\-time constants |\n| Example 3 | constexpr used for static_assert | `static_assert()` | compile\\-time checking; if it fails, compilation fails immediately | the arguments of static_assert must be compile\\-time constants |\n| Example 4 | constexpr lambda | `constexpr auto f = [](int x) constexpr {...};` | a lambda can also be evaluated at compile time | supported since C++17; both constexpr keywords must be written |\n| Example 5 | constexpr vs consteval | `consteval` | a consteval function can only be called at compile time | consteval is only available in C++20 |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 339,
+        "outputTokens": 246,
+        "costUsd": 0.000397
+      }
+    },
+    "b1d2c43dcf1f359b56ca96570413d7d99b3cb6e2c3a99ef6e904ecdf86711597": {
+      "normalizationVersion": 1,
+      "sourceHash": "f697f9c54eeaa8fdb4c094e9479ba92d8f9a51633a7433b81dc912e6829b2d61",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++ 提供了四个更明确的类型转换运算符，让转换意图写在代码里。",
+      "translatedText": "C++ provides four more explicit type conversion operators, letting the conversion intent be written in the code\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 34,
+        "costUsd": 0.000088
       }
     },
     "b1f7b64e340e35f72658d8758770c4829f58c1dfc8e1c5fb1c9a74b36b548108": {

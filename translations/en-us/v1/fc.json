@@ -29,6 +29,48 @@
         "costUsd": 0.00008
       }
     },
+    "fc33ac75757220f0306ee5c5aad14f5c2e1283f0db6afa338886c42e3cffb832": {
+      "normalizationVersion": 1,
+      "sourceHash": "dd71c1aad196844a3f882b8f742f53ac121fc8a11c9f82c833774cb80687c0c3",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 错误2：函数类型不匹配",
+      "translatedText": "### Error 2: Function type mismatch",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
+    "fc4802935bc8e674474278046abd0eea88581551b47a11305de67108a757acde": {
+      "normalizationVersion": 1,
+      "sourceHash": "39b69d90e81eb8bccce9f380562fb07fb8b5b9396e9282a7307fac29a04c9108",
+      "contextFingerprint": "26c2e688843c213c238962555e1027a8c25a017baa77ed3a6b3e7d8cfb1ba494",
+      "sourceText": "* 所有元素都会在插入时自动被排序",
+      "translatedText": "* All elements are automatically sorted upon insertion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 14,
+        "costUsd": 0.000059
+      }
+    },
+    "fc48bf6d1525d20e5a8000197fac3974a4e11b0ae82c5dcf72ad8e1734fcdd54": {
+      "normalizationVersion": 1,
+      "sourceHash": "375c7b18c2991c5f3b243f915a373f9e70af89675d87a0392907da2607b0546d",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### string子串",
+      "translatedText": "#### string substring",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "fc4c8611c099dff9021b6b9e62fe70c8c7fecdf9ca03512d4fc5c99969b69332": {
       "normalizationVersion": 1,
       "sourceHash": "d36848e52909dcf95fed4e72111f16f6feeb79662d37bf0c175a07d5dd6a984c",
@@ -41,6 +83,20 @@
         "inputTokens": 652,
         "outputTokens": 535,
         "costUsd": 0.000838
+      }
+    },
+    "fc4cb320db4e6603c7350ecc1bb8889515eba2c5792e5514af051fdfe311670a": {
+      "normalizationVersion": 1,
+      "sourceHash": "9d9c8cd3649eeb81f58b67d2fc3148d2bf6cea4c6ee65f337dab2054d6446165",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "总结：类模板中成员函数类外实现时，需要加上模板参数列表",
+      "translatedText": "Summary: When implementing member functions of a class template outside the class, the template parameter list must be added\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "fc4e806f69df9eb1ddb2c2d4dcf892bb2bee549bf3f2130ea35c8d1210531a5c": {
@@ -85,6 +141,48 @@
         "costUsd": 0.000051
       }
     },
+    "fc7eabbb8c2e91988803bb4108e50f038cd38e1505fdd01c9d206645420ac847": {
+      "normalizationVersion": 1,
+      "sourceHash": "29a31a8015b93877dc4492b35e33204e5d2e2ca4797b8f2cf367090b8637d265",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 示例 1：旧 enum vs enum class",
+      "translatedText": "### Example 1: Old enum vs enum class",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "fc8d54a4ec0403e93e38cbee4a7f8b8cb5c1e33d7ea205e28ab473c457921eb1": {
+      "normalizationVersion": 1,
+      "sourceHash": "244899b0c0e0118a3aceac780a5c328527ce8b4569d7d3eafc60c632598f7f71",
+      "contextFingerprint": "5786e5c78afa4c9363d480feb234b532cb605e1ab7f1d8d0d215c63017298959",
+      "sourceText": "> 当前线程在这里阻塞，直到 `t` 所关联的线程执行结束。",
+      "translatedText": "> The current thread blocks here until the thread associated with `t` finishes executing\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 20,
+        "costUsd": 0.000068
+      }
+    },
+    "fc978e07e748dae8a523a507d25dde685fc0762b277c35b459bd0063c8906859": {
+      "normalizationVersion": 1,
+      "sourceHash": "f4b463902f55d63601aaf245d404fb18335b27be45e7bde03b1680798492e86d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "判断调用的是构造函数还是赋值运算符，关键不在于有没有等号，而在于左侧对象是否正在被创建。",
+      "translatedText": "Whether a constructor or an assignment operator is called depends not on whether there is an equals sign, but on whether the object on the left is being created\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 37,
+        "costUsd": 0.00009
+      }
+    },
     "fc9de476b88a2ebffcfc6ce134360a522fb57fe8873611dbafeae76f30e13b53": {
       "normalizationVersion": 1,
       "sourceHash": "e82bf018c92bb7f0dad99c2bb5f20e2998c698406af5acb3f2b93f6b00280ec7",
@@ -111,6 +209,62 @@
         "inputTokens": 144,
         "outputTokens": 26,
         "costUsd": 0.000075
+      }
+    },
+    "fca513a7d940ef9e83c1c0e19e07a1437c758302783868c3b081ed2fab8959cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "f1e4064f58d033cd9dbe6d6fe9f3781ae8e1ea48b7fb96526cfc18dc0cacf0d6",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### map容器排序",
+      "translatedText": "#### Sorting a map container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
+      }
+    },
+    "fcb1e122f89029d0f4de0505fe9d325ace341c4de110ffab97718d6c38c0fdd9": {
+      "normalizationVersion": 1,
+      "sourceHash": "2fe8760783a7aca4bd5f27b3a2c526f0a5c077a096bd35c4becd5a916774f3ac",
+      "contextFingerprint": "4ea28f4d29a6f4727936850d0e5684d18ccd9349ae6182dc923ce9ee40e93e58",
+      "sourceText": "`nullptr` 是 C++11 引入的关键字，类型是 `std::nullptr_t`，可以隐式转换为任何类型的指针，但**不能**隐式转换为整数类型。这让编译器能区分\"空指针\"和\"整数 0\"。",
+      "translatedText": "`nullptr` is a keyword introduced in C++11, and its type is `std::nullptr_t`; it can be implicitly converted to a pointer of any type, but **cannot** be implicitly converted to an integer type\\. This allows the compiler to distinguish between a \"null pointer\" and the \"integer 0\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 184,
+        "outputTokens": 73,
+        "costUsd": 0.000143
+      }
+    },
+    "fcc165454d547ae143667d2776b6a6a53114db38ca2b25439dbe8403d38621fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbc0011753d1fb777b54e329fd45c1ea84531bb52a3e3e994a58fd805fc94b59",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样就算以后代码中出现：",
+      "translatedText": "In this way, even if the following appears in the code later:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 21,
+        "costUsd": 0.000066
+      }
+    },
+    "fcc599a25d3ea6970cc8c7ac03eb1cf330410e214623d78c3216dd00b844df34": {
+      "normalizationVersion": 1,
+      "sourceHash": "47ac71c4af04d8989aadc350108388d5df7b161b5e62fdd74c5d911317c817cf",
+      "contextFingerprint": "ded08da38304aea554f5bc1bd608d72d39e7f0154438c17677849bed293f352d",
+      "sourceText": "- `A` 通过 `next` 拥有 `B`，因此 `next` 使用 `std::shared_ptr<Node>`。\n- `B` 通过 `prev` 观察 `A`，但不负责延长 `A` 的生命周期，因此 `prev` 使用 `std::weak_ptr<Node>`。",
+      "translatedText": "- `A` through `next` owns `B`; therefore, `next` use `std::shared_ptr<Node>`\\.\n- `B` through `prev` observation `A` but is not responsible for extending the lifetime of `A`; therefore, `prev` use `std::weak_ptr<Node>`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 39,
+        "costUsd": 0.000096
       }
     },
     "fcc793c0042558b989adcb060b6a2b20e016199c37f124c9167983000c0742fb": {

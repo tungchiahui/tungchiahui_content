@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "4b0e52e8cf43a5c5afa851bf55b145afab0f2480edb244443df0f1fba8059924": {
+      "normalizationVersion": 1,
+      "sourceHash": "27a62376fd635abf7fc60b3432283c57747f305ab7d0d05c756fb96f3c9543cb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "上面的例子使用的是：",
+      "translatedText": "The above example uses:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "4b14d6ad4e0e6c44f235fb386045fc0404c206a352ef8782dbdbefc370e48d3d": {
       "normalizationVersion": 1,
       "sourceHash": "16519e1177aaf0d73a80b6fbb3dd53156b1d5d4f07996af1511f183c64bbdefd",
@@ -13,6 +27,62 @@
         "inputTokens": 142,
         "outputTokens": 23,
         "costUsd": 0.000071
+      }
+    },
+    "4b2637169cf7496f2536cc92ecc057fcc47ce7c98b03ae55f1572ed3a17793cc": {
+      "normalizationVersion": 1,
+      "sourceHash": "65516cc4dd8c13db4ad461505d458dac6abd87516ef6b864805f2dad3c3aabe3",
+      "contextFingerprint": "e9093554dc643c5c23a6bfa4748c805b2dfd17209467563878eb8f50b81b2b46",
+      "sourceText": "多个线程同时运行时，如果它们会访问同一份**共享数据**，并且其中至少有一个线程会修改这份数据，就必须开始考虑线程同步问题。",
+      "translatedText": "When multiple threads run simultaneously, if they access the same **shared data** and at least one of them modifies this data, thread synchronization must be considered\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 37,
+        "costUsd": 0.000093
+      }
+    },
+    "4b4510c30394e94e1ff8812aa509dea38c22ca449014ed964f96810eed3bec5b": {
+      "normalizationVersion": 1,
+      "sourceHash": "3f58430e81a2dec1da60b1c12c430a59a69322ee4396f5d9f36166859c8c03e6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果：",
+      "translatedText": "If:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "4b4a9f57c465d5fe118e2d26c801879085c4ec9ba52be8c73bc11bcd7bae513e": {
+      "normalizationVersion": 1,
+      "sourceHash": "5c063ac52d29147ba79dd922275ee72fa14926ab713efec64cbe1d9e22df1549",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "**总结：**merge合并的两个容器必须的有序序列",
+      "translatedText": "\\*\\*Summary:\\*\\* The two containers merged by merge must be ordered sequences\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "4b6f1b35b6aed58209c1fc7bcce619c61992f5a5982bdad9d028e7059d69112e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d47ccb2163cf5083d0907345f95653c31e22f4f2d264d12082a4a4d9872c068",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 某段初始化代码只能成功执行一次。",
+      "translatedText": "> A certain piece of initialization code can only be executed successfully once\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
       }
     },
     "4b71bcc2133d567f900e6b5ac87c488ed3acfede267137d3cde7994d3c6c9ae6": {
@@ -57,6 +127,20 @@
         "costUsd": 0.000055
       }
     },
+    "4bde8a882b9ae47b56ba6b006dcda07987106e8b0d54cb4d8c3c4aa4cdd541d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "0d0a7705820657ab457b2382016503a85c8c58eb755e505375c520dcc4c828fb",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 为什么这个例子更适合用结构体 Visitor？",
+      "translatedText": "#### Why is this example more suitable for using a struct Visitor?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 18,
+        "costUsd": 0.000063
+      }
+    },
     "4bdf7422ce3e59ae5076e11492878a370254627799cceb0de50f2999571a5b75": {
       "normalizationVersion": 1,
       "sourceHash": "8a41a9bf09dfaf20ea5e30bd2842611cb78b68ecb514f7b35e253851e1c3aceb",
@@ -69,6 +153,34 @@
         "inputTokens": 145,
         "outputTokens": 23,
         "costUsd": 0.000072
+      }
+    },
+    "4be46db973d48f419ec2e170bacac34895c6405ab6e4527902ff35a694807339": {
+      "normalizationVersion": 1,
+      "sourceHash": "c88837acff444aa7f19f08b9f802b307f4ae1a28a3486453be326b7be8781fac",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++17",
+      "translatedText": "C++17",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4beafedcc8b1c1c6151d03ad0a1ab690dbe965372728a5f3f107b15b3e740f4e": {
+      "normalizationVersion": 1,
+      "sourceHash": "5192b5edb1069bf908f53ee4c6c5acf0dc9995e3aa7c1eea36666590f5c59231",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**功能：**",
+      "translatedText": "**Function:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     }
   }

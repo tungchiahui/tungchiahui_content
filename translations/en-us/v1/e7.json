@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "e72c1cbcb5cc1cdc9786caca628596e57674017b5271e10e7960664e1af4cb3d": {
+      "normalizationVersion": 1,
+      "sourceHash": "6bcd0135d14bec054d76253268cdcc76a344ae144103f39c7373ada444466bb7",
+      "contextFingerprint": "936d7d4f2f81ec7fd3d3541b4fd52075f3a2fe7230aa39341d00d0ffeb6f0bae",
+      "sourceText": "C++20/23 引入了 `std::format`（格式化字符串）和 `std::print`（直接输出），结合了 Python 风格的简洁和 C++ 的类型安全 + 高性能。",
+      "translatedText": "C++20/23 introduced `std::format` (formatted strings) and `std::print` (direct output), combining Python\\-style conciseness with C++'s type safety \\+ high performance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 179,
+        "outputTokens": 56,
+        "costUsd": 0.000121
+      }
+    },
     "e753b00598f266db92fe00fcd6299f8925a3a1845f825eb4c2976d71d9a5072d": {
       "normalizationVersion": 1,
       "sourceHash": "6f1246327b6b07cc839be4c527506e2da42b9d256cba266b94a503086065205b",
@@ -41,6 +55,48 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "e778b85017ee91558b22a8e087555b3c9cea7d99453290ac9dde2d7c8ae61919": {
+      "normalizationVersion": 1,
+      "sourceHash": "25ca87153a4337012a1894d311d8fc8caed33f9f151b975988ec424e314b6867",
+      "contextFingerprint": "6bb929473821d8b4f859abfd752e785cdabb7519407f8e0869fd9a71c7503269",
+      "sourceText": "而在 `Robot` 自己的成员函数内部，`this` 就是当前对象的指针，所以可以直接写：",
+      "translatedText": "And within `Robot` its own member function,`this` is the pointer to the current object, so you can write directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "e799cb45129a433c67f7190a8e3bac46fe163d46667b5b6afa3d341be8905ba3": {
+      "normalizationVersion": 1,
+      "sourceHash": "e71391cedcd9f3e7cc4dc9350086a5647bb7ceab189bb5e4804b419a59f11cda",
+      "contextFingerprint": "15b544a77187f6f92be3eab9873743566d47278afa79301aa85a8d75122d3933",
+      "sourceText": "- `set_intersection`          // 求两个容器的交集\n\n- `set_union`                       // 求两个容器的并集\n\n- `set_difference `              // 求两个容器的差集\n\n  ​",
+      "translatedText": "- `set_intersection`          // Find the intersection of two containers\n\n- `set_union`                       // Find the union of two containers\n\n- `set_difference `              // Find the difference of two containers\n\n  ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 35,
+        "costUsd": 0.00009
+      }
+    },
+    "e79ff7e76bd8811ee33af812d6d6533cd8a38bf1dab88bf53c3525985929c829": {
+      "normalizationVersion": 1,
+      "sourceHash": "0ebd4705bbb305a0a7b7fa7a76146912451b88d4d08e367a9049742fba13f87b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "可以通过以下命令在终端里看你的电脑在什么时区里",
+      "translatedText": "You can use the following command in the terminal to see what time zone your computer is in\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
       }
     },
     "e7a3943b944a9bf259b033a690a234d211e7600ace633b1d64b9e37645f6da10": {

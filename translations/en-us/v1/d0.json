@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "d011f4ae988712dc56826ef81b6e60c42ab29e7a35b85743b0a01725d30a34a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "8db38b6ed71f2d3fb6c44c182a42246bc19c168a7c2d9032ada65a56ff0eb334",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "确实需要同一个线程重复进入同一个临界区时：",
+      "translatedText": "Indeed, this is needed when the same thread must repeatedly enter the same critical section:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 24,
+        "costUsd": 0.000071
+      }
+    },
     "d01affdab2ad7e303358e6202e017c9e3c843ae1ecdcc87b8491db859d6d7288": {
       "normalizationVersion": 1,
       "sourceHash": "8195031cd19ddc2caa3a9e396aca938fd5761848f10bfe28deb3121d3cf27d03",
@@ -29,6 +43,20 @@
         "costUsd": 0.000064
       }
     },
+    "d0514961e24d99e60d12e24f5dbcb7070e1853443d2f8024aaca235142b9b515": {
+      "normalizationVersion": 1,
+      "sourceHash": "5b46259d8da001a171516bedc9c3c600bc972ba2d22700cef30a8d357500f67c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通常：",
+      "translatedText": "Usually:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "d06292fa896355c30cd9f8f38ddbe95376655d5ece439e11a5b8c693ee1e8949": {
       "normalizationVersion": 1,
       "sourceHash": "2a48215f287d6788b94243326b309c6415e1aec6efecf6aa12f63da0da8aeb93",
@@ -41,6 +69,48 @@
         "inputTokens": 175,
         "outputTokens": 54,
         "costUsd": 0.000118
+      }
+    },
+    "d066f63097f6220678904dce73ef7e2770e030a17e63f284b531e4bfba46071c": {
+      "normalizationVersion": 1,
+      "sourceHash": "90ea5acdb32e04d00f1b6a6e241aa46ff5fa46093be37b250cb1bf76b590ead2",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "C++20",
+      "translatedText": "C++20",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "d07b968354d049cec1e4ade34179f91d643b6496ab8c7e94123cdfaf38269dd7": {
+      "normalizationVersion": 1,
+      "sourceHash": "246b23c7ca633af9bf8fd40149db2b55148bdb7c7931c0bd13384bcf545a7625",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "的对象也叫：",
+      "translatedText": "The objects of also called:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "d08589f33d939717f74b4848429835d2a3529e055fdc7a54916929b910d50363": {
+      "normalizationVersion": 1,
+      "sourceHash": "904823a7ca33a886af1a6c47d958b0c3d92d3c6c36c7069e1a668f5d39de3a88",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此很多情况下，线程拿到的是参数副本。",
+      "translatedText": "Therefore, in many cases, the thread obtains a copy of the parameter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 21,
+        "costUsd": 0.000067
       }
     },
     "d0910003a49d26f79b58ca6a333f64a9638c250a64a68f4e2fa8d2669ebcd411": {
@@ -57,6 +127,20 @@
         "costUsd": 0.00006
       }
     },
+    "d09b84080c9f6251ee881632b691ce1fc43e1ab4738f05a2162e814ea1f35082": {
+      "normalizationVersion": 1,
+      "sourceHash": "663ec893b4d7b0ec2f208dba5abe08d39e6a833bf4f0810ca34d0af57fd61c8e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "或者：",
+      "translatedText": "Or:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "d0b495257ce81bff68a300e13f17b34f2276b8293edd53dabdd56d3455cdf3ea": {
       "normalizationVersion": 1,
       "sourceHash": "3ba50b4cdfea45ffebd53b26f15fca24e5559b6f93bbdf4d3f5811fc27d03d70",
@@ -69,6 +153,34 @@
         "inputTokens": 202,
         "outputTokens": 93,
         "costUsd": 0.000173
+      }
+    },
+    "d0ecdfb034bffcc1c5ead7196bf875143edd74458fa14d2dda603039806ce4ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "12da2678d058ce9d8c626dadb4cb8da69fae61759b42a80287f01a9da7b1ab60",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通逻辑直接写：",
+      "translatedText": "Write ordinary logic directly:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
+    "d0ef74dcc11fe9fc3d3a07c40fb25c05cfb5d95163d31fa6fef0e8fb662c3512": {
+      "normalizationVersion": 1,
+      "sourceHash": "4453cb3fe2e74652e071713565fd363b630f87759f5164d25945683cdd4ebbdc",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### main 函数中可以统一捕获严重异常",
+      "translatedText": "#### Severe exceptions can be uniformly caught in the main function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 18,
+        "costUsd": 0.000063
       }
     },
     "d0f0faf2ab7b1cc79500a69dbe2c7b098732986d3521b7e8f6329dd39fcf0f4a": {

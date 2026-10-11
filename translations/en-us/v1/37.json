@@ -1,6 +1,48 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "370ccd610cbd6398295806386adf7cf5228925b453880b73e9f7532f7f32df4b": {
+      "normalizationVersion": 1,
+      "sourceHash": "03955782dcb800a9a047e365399fdb14592aaddf418a350e580b9f3fb4ab78bd",
+      "contextFingerprint": "bb26927f34e3728d4bdd015764f8cceaeb1617e5b5a0946f9076d6ead397df22",
+      "sourceText": "1. 包含头文件   \n\n     \\#include <fstream\\>\n\n2. 创建流对象  \n\n   ofstream ofs;\n\n3. 打开文件\n\n   ofs.open(\"文件路径\",打开方式);\n\n4. 写数据\n\n   ofs << \"写入的数据\";\n\n5. 关闭文件\n\n   ofs.close();\n\n   ​",
+      "translatedText": "1. Include header file   \n\n     \\\\\\#include \\<fstream\\\\\\>\n\n2. Create stream object  \n\n   ofstream ofs;\n\n3. Open file\n\n   ofs.open(\"file path\", open mode);\n\n4. Write data\n\n   ofs \\<\\< \"data to write\";\n\n5. Close file\n\n   ofs.close();\n\n   ​",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 202,
+        "outputTokens": 81,
+        "costUsd": 0.000158
+      }
+    },
+    "370d8b582f27d1b4028075d986cd77e4aff363be66f72f7095b1a277199ead6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "625b41ef9d3b75819d6c73d05979df61ea833e0a1449b652e7b5c4e2555dd796",
+      "contextFingerprint": "d92778e2cfdc2fc3bbf6943f37b9e9ee259aab65254a5fc1dab8cea71ce04158",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789278766269-efd65a5f.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/10/05/1789278766269-efd65a5f.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "370d97bf9355fc81aeccb60b5934f481b830eea0b7727d3df60dd915ad59e0a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "224a036e335340e02cc9d224a699d0b84ba6cfa368780e7b28c599ce170a2c7c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "因此实际工程中，经常使用下面这种写法：",
+      "translatedText": "Therefore, in practical engineering, the following notation is often used:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
+      }
+    },
     "371f1474b48379a94b5883252ef001af7b3353e699a50afb924c67f0b4678f42": {
       "normalizationVersion": 1,
       "sourceHash": "5ae4fa4040e6928d86b4dbd25ea0dc9ce85bedd92501f11fda61962de30a8790",
@@ -13,6 +55,34 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "372c8a7609acb50865cd6cb68abfb90185b1be08691145bc0d46cf268ac6598c": {
+      "normalizationVersion": 1,
+      "sourceHash": "74e4f673c3ff6d49d527c3fa62f33dc469af0efcd14111a26a57693c80af0766",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "普通函数、函数指针、Lambda、函数对象都可以\"被调用\"，它们统称为可调用对象。但它们的具体类型并不一样：",
+      "translatedText": "Ordinary functions, function pointers, lambdas, and function objects can all be \"called,\" and they are collectively referred to as callable objects\\. However, their concrete types are not the same:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 48,
+        "costUsd": 0.000105
+      }
+    },
+    "373222168d3ac7caf59674ef1b4001ea4caa2541daafe61f70278874b88eb524": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae31de5f764707fca4bac86b8cb29e0e928a8a4c0ea0f43753c49a9810c640cb",
+      "contextFingerprint": "aa95ac3b3bba6190f8449f27a0c75a42845e4ff757bf413ae3740d5be4db73e0",
+      "sourceText": "基础原理理解完 `std::thread` 后，建议继续学习本章后面的 `std::jthread` 与 `std::stop_token`。",
+      "translatedText": "After understanding the basic principles `std::thread`, it is recommended to continue learning the subsequent `std::jthread` and `std::stop_token` in this chapter\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 28,
+        "costUsd": 0.000078
       }
     },
     "37367be325c03231066def760cdafc12bd7b2a5256c556ac5b3a323f0b06be6e": {
@@ -41,6 +111,20 @@
         "inputTokens": 150,
         "outputTokens": 26,
         "costUsd": 0.000077
+      }
+    },
+    "375d11e1ff5910dbef163215bad76eb608c7b820d06d52edb19649c5100c7a56": {
+      "normalizationVersion": 1,
+      "sourceHash": "7056fdc5f20f80ede28ce9f7dd31662e0c10953cb626bb8b8dfc82d4cc04ffb6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "创建电脑类提供让电脑工作的函数，并且调用每个零件工作的接口",
+      "translatedText": "Create a computer class that provides functions to make the computer work, and calls the interface through which each component works\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 29,
+        "costUsd": 0.000078
       }
     },
     "375eef7de16b44421f2c887b02ad12b0744ce17ba737ac0304415cc6834116b3": {
@@ -85,6 +169,76 @@
         "costUsd": 0.000105
       }
     },
+    "377017a3eb329688b8267b9988fafc6c210069a704c05b31d0f79fa07c6715b0": {
+      "normalizationVersion": 1,
+      "sourceHash": "a66f6786cbc5060590c23200ffb25e3e91fcb6b1478570777000b53b4e613279",
+      "contextFingerprint": "84f739426181e5f969ab7ef10eccc7b79c4bbea85f6614813d06ce85c64a3046",
+      "sourceText": "#### `shared_lock` 和 `unique_lock`",
+      "translatedText": "#### `shared_lock` and `unique_lock`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
+    "37773dd90f891c043e12298a9e5d0652fe2fb9e62be766e5e02f187fcb0ebe0a": {
+      "normalizationVersion": 1,
+      "sourceHash": "22a1b3c30e9533b7533a2e6c713b29c679a67af66c5917138efef8e3e1811cab",
+      "contextFingerprint": "96a0153a95fb1fccda480b17dde71a3ab57128d68af9b782f93954ff034b677c",
+      "sourceText": "`[start]` 是按值捕获。可以近似理解为编译器生成了这样的对象：",
+      "translatedText": "`[start]` is captured by value\\. It can be approximately understood as the compiler generating an object like this:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "377de36a3098220862d43718ce2871ed5c6a03a5827a46d2e9caaedc7c2d99aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd04c3be57f6ba2e1551d5d9448e4956390fd33e41689b119349c3b9260a9c58",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**错误 2：把 RAII 对象创建在堆上**",
+      "translatedText": "**Mistake 2: Creating RAII objects on the heap**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 20,
+        "costUsd": 0.000067
+      }
+    },
+    "37930319789c148b2c055cff24b12c10492d470cfe51142d7fa5b3526a75a7d2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1ac3470371a851cb8ed68170efb4c8e6dc8cb60647911552f56c6ee72fa2f998",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 文本文件",
+      "translatedText": "### Text file",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "37a3df367613699d564581e11d0cad08226d817dcc3498fdbaeeae21bedfa6dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "a8de6fffda7e4702dd29be300527c55b3a7f5d9aaa4640c5cf895d15a43a8e2d",
+      "contextFingerprint": "091e3aba24713ead9b75e4b1f3f2234db7e448d1303beeecefd8312a18a163ac",
+      "sourceText": "这也是 ROS2 和 Boost.Asio 中很常见的写法，例如：",
+      "translatedText": "This is also a very common way of writing in ROS2 and Boost.Asio, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
     "37b11074e1da7f6722aa1343e19c0aad812f8375cef26779ff8d5ec7c524e79d": {
       "normalizationVersion": 1,
       "sourceHash": "487db40eb1eeb1d825e59aa5222b61ca41fe2c366624f8b6cd3c34cae332bcde",
@@ -127,6 +281,20 @@
         "costUsd": 0.000071
       }
     },
+    "37dba02a127fd32ff82c920f7c9820319ccb8836430db48b2411944460135cd1": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9e3c1538777b6436ac196db0b306a8a4b8dec676059124d1e3b56a7179e84a6",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**构造：**",
+      "translatedText": "**Construction:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "37e116e75bd50c00b20cd09f61673ea9ca153dd891ccf967420d5c6e7548740c": {
       "normalizationVersion": 1,
       "sourceHash": "100796c76ed6b7d8aaa17721965b1f994538f32bd823bc5b1d67d2f88857276e",
@@ -139,6 +307,20 @@
         "inputTokens": 191,
         "outputTokens": 74,
         "costUsd": 0.000147
+      }
+    },
+    "37e3c8d86136bb4ad4e354639fa3e2de78e687684d37e5e4d7b782d33accf59b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a70eaf99bed327a6d840d7722d5cfca02c2ceabca1670578f0622ac2004f2fd",
+      "contextFingerprint": "bbfafa204a3f2c4d1e7c2544649964e697f540038da55dae4318350f2b264d34",
+      "sourceText": "也可以先使用 `expired()` 判断：",
+      "translatedText": "You can also first use `expired()` to determine:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 16,
+        "costUsd": 0.00006
       }
     },
     "37f8a987f66c8a9a40c6449bb1e716b8af57ba705eef6ee0b3a0eac1cf913557": {

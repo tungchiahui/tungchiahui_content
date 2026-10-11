@@ -1,6 +1,62 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "5b03461b90922765af5e9c69649642df6ecc9af4b98ad7228e3243ccc93227a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "14385a56a123ccecd6120418e8413413b4d7dadc7207b67e18a93734a0f923e1",
+      "contextFingerprint": "17c2ba7f1be67592e09448b1ea152c7f33d37a9a85b084eb723e3136cdd775e4",
+      "sourceText": "| 转换方式 | 主要用途 | 安全程度 |\n|:---|:---|:---|\n| `static_cast<T>(expr)` | 常规类型转换，如数值、枚举、父子类上行转换 | 常用，编译期检查 |\n| `dynamic_cast<T>(expr)` | 多态类型的安全向下转换 | 运行期检查，失败返回 `nullptr` 或抛异常 |\n| `const_cast<T>(expr)` | 添加或移除 `const` / `volatile` 限定 | 要非常克制 |\n| `reinterpret_cast<T>(expr)` | 底层二进制重解释，如指针和整数互转 | 最危险，少用 |",
+      "translatedText": "| Conversion method | Primary use | Safety level |\n|:---|:---|:---|\n| `static_cast<T>(expr)` | Conventional type conversion, such as numeric, enum, and parent\\-child class upcasting | Commonly used, compile\\-time checking |\n| `dynamic_cast<T>(expr)` | Safe downcasting of polymorphic types | Runtime checking, returns `nullptr` on failure or throws an exception |\n| `const_cast<T>(expr)` | Add or remove `const` / `volatile` qualifiers | Use very sparingly |\n| `reinterpret_cast<T>(expr)` | Low\\-level binary reinterpretation, such as converting between pointers and integers | Most dangerous, use sparingly |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 207,
+        "outputTokens": 96,
+        "costUsd": 0.000178
+      }
+    },
+    "5b1c2c5997c672ee928b18a3da47cb5f0a56e0b95cbb7eefabac42204df7cf1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "b81419698813fbf0017379f70c6398affc8f8baceb3b0f5149a2d2da4455185e",
+      "contextFingerprint": "1a96ed672d1565be53ddb0b5c7b11c03bd494d416681ccad4dc1fe69e50a7826",
+      "sourceText": "`std::function` 就是标准库提供的通用可调用对象包装器。",
+      "translatedText": "`std::function` It is the general\\-purpose callable object wrapper provided by the standard library\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 21,
+        "costUsd": 0.000068
+      }
+    },
+    "5b1d9d518267c552cb84775881def20f594ace2a6b220a86f72e84aa4f8965c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c395d46704cc8afdf13466bd5d9d1623fbdd73a523b407ebc4e3cedb3cef249",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里修改的仍然只是 Lambda 内部保存的对象副本，不会修改外面的原对象。",
+      "translatedText": "What is modified here is still only the copy of the object stored inside the Lambda, and the original object outside will not be modified\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
+    "5b28df6c0be983a8088d64807c5ea19b71d47d0803eb7507fd1c4b7900db8904": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e923111a5a8f8c2df643ba860d3ec9de44faa8208d7f405dd14fc8aef73b6a6",
+      "contextFingerprint": "7f4e0c022afce41ac15dcae7f930861fb79b0e88d6756fc649f9942e39721a96",
+      "sourceText": "#### `const std::string&` 和 `.size()`",
+      "translatedText": "#### `const std::string&` and `.size()`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "5b2d3f36921a857084ae9c9b74f56351b0807d70c7ffbbe7960622138d268db6": {
       "normalizationVersion": 1,
       "sourceHash": "242802f2eea287305eac410a024f14d80126269cb8a2ae4b15b1507b180d33bf",
@@ -43,6 +99,20 @@
         "costUsd": 0.000061
       }
     },
+    "5b4babce94ccb4a111fde16000d1c068a9a9b3b81464d96bbfaaf0daa4656d2c": {
+      "normalizationVersion": 1,
+      "sourceHash": "5125319db1337ed85b7b5e9da53b08e6a5e171da5179f1cf7caff4c13a16f83a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "并发是：",
+      "translatedText": "Concurrency is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 11,
+        "costUsd": 0.000053
+      }
+    },
     "5b4fd087f8f41f2c03bcb9dcf836f1429561f02c57b8bee81c84cfed9f375e54": {
       "normalizationVersion": 1,
       "sourceHash": "adb977a5725adb4e69cdd69ff9e1110001bacfbb6a9295fe27d59e2280b5a804",
@@ -55,6 +125,20 @@
         "inputTokens": 146,
         "outputTokens": 24,
         "costUsd": 0.000073
+      }
+    },
+    "5b536596e53aa2b9c900eb087ed3d9675f1a823a3bd240ebfc20fcdf0a4e8998": {
+      "normalizationVersion": 1,
+      "sourceHash": "46499c9657bb4e9d0576f7416d189eaa862e994bfb78d3152eed0253389e8e58",
+      "contextFingerprint": "04d5a2bc4ed1d8811a43e0f87e69ed5315398d030d3008c234177ded0059da36",
+      "sourceText": "这行代码比较的是 `p` 和 `again` 这两个指针保存的地址是否相同。",
+      "translatedText": "This line of code compares whether the addresses stored in the two pointers `p` and `again` are the same\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 147,
+        "outputTokens": 26,
+        "costUsd": 0.000076
       }
     },
     "5b5884766921f7586b1c15507fc838c8a7c5532fa7c8acd778c709064e8ae91a": {
@@ -83,6 +167,34 @@
         "inputTokens": 168,
         "outputTokens": 60,
         "costUsd": 0.000123
+      }
+    },
+    "5b9203096953001e09d52fb210e4987fdc3156350a5cbc3d1a3b5f7204183fc6": {
+      "normalizationVersion": 1,
+      "sourceHash": "e1723306ddd0e1f1da442ed122b992b04fb74e2204304acfc4f03236e7dc0406",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 延迟初始化一个函数内部的 static 对象",
+      "translatedText": "> Lazily initialize a static object inside a function",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "5ba362eb8aa7feb2cc36d0f1f7a9286b2045badbc36f44e43c5100a4463464cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "238cce0cd25a0f6bda494a8a802b85dd86093078ae6d95d86ef64b6aa3d4267e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个示例除了 Lambda，还使用了一些常见的 STL API。",
+      "translatedText": "In addition to Lambda, this example also uses some common STL APIs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 142,
+        "outputTokens": 21,
+        "costUsd": 0.000068
       }
     },
     "5bc6de94c804d96ec2156623e917501a49ac5b02c3f8b53298caa75ed3fad5c8": {

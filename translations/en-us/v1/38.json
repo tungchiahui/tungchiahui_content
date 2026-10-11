@@ -57,6 +57,34 @@
         "costUsd": 0.000085
       }
     },
+    "38140ae5429cc44a40705737476ce093d1c8bd7e789ddbb261c2a56612c3d3e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ef636c3d49241ace3c008bfd64a63685a71b0f2985b60e086c7b821bce1a2016",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 运行结果",
+      "translatedText": "## Operation result",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
+    "383532c4a1f2cc7c7c950501e1cb09ed10b5659cc83de7f9fbdf4521878deea9": {
+      "normalizationVersion": 1,
+      "sourceHash": "3485eba25d9b3c9d9d01c327129babaef4ccb44fc4aca525e85447d446ddf26f",
+      "contextFingerprint": "950ea5244326211e01275077d4c6d1bcb002bfc33cda3e7aa5fe28045e9f4301",
+      "sourceText": "队列中进数据称为 --- **入队**    `push`",
+      "translatedText": "Inserting data into a queue is called \\-\\-\\- **enqueue**    `push`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "384c607cb02664a6f2883ff921137a283cb9e47d8930902a39b5e0b44bc99cc6": {
       "normalizationVersion": 1,
       "sourceHash": "1e67a3edd55dd4b054b42e46e7aa02968ca8680e47a1375cfa94b70b91d0a32a",
@@ -99,6 +127,20 @@
         "costUsd": 0.000173
       }
     },
+    "385cfdf0bd5843bf87659c8e34b0435b5064e663ea12011062040ca88a1d5e48": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2502e0b72ee2ce3a4c7ebc91a8b7203381432b46a38c6cfa7b65c82c06ae39f",
+      "contextFingerprint": "6c81fc5eafc287e925a09ebd766600f186f96fecc12ca2c3ec0e556dee5a1d27",
+      "sourceText": "* 参数读取失败\n* 配置文件不存在\n* 串口无法打开\n* CAN 设备无法打开\n* 硬件初始化失败",
+      "translatedText": "* Parameter read failed\n* Configuration file does not exist\n* Serial port cannot be opened\n* CAN device cannot be opened\n* Hardware initialization failed",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
+      }
+    },
     "3863fe02732ebcf6ab080411dea2eb29ac815b8838534d082ee13634e366c49a": {
       "normalizationVersion": 1,
       "sourceHash": "0109b587a6d23da935f0bffdf6cd5d459ba7bed31b3010092b6ea746f5847979",
@@ -111,6 +153,48 @@
         "inputTokens": 181,
         "outputTokens": 72,
         "costUsd": 0.000141
+      }
+    },
+    "387a333d2301e3d1599c54f1d59446409ef2e995f924819bff7eab896943aea2": {
+      "normalizationVersion": 1,
+      "sourceHash": "27575fcb3efe18b92f78ca0d6b2eb9565e1736eb9b26b9359c1c308418038258",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面两条函数声明含义相同：",
+      "translatedText": "The following two function declarations have the same meaning:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "38acea43328309a6dd3e92be3a1a39c1641a04d2c9fb4382cdbf6e770dd6b028": {
+      "normalizationVersion": 1,
+      "sourceHash": "4775896a9390f87e5736aee7e515d0861c0d6e34d216898bf5123e233846b422",
+      "contextFingerprint": "091e3aba24713ead9b75e4b1f3f2234db7e448d1303beeecefd8312a18a163ac",
+      "sourceText": "在 ROS2 中，发布消息、传输大量传感器数据（如点云、图像）时，移动语义能避免大数据拷贝。在 Boost.Asio 中，异步操作的回调参数大量使用移动语义来高效传递数据缓冲区。",
+      "translatedText": "In ROS2, when publishing messages and transmitting large amounts of sensor data (such as point clouds and images), move semantics can avoid copying large data\\. In Boost.Asio, callback parameters for asynchronous operations make extensive use of move semantics to efficiently pass data buffers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 195,
+        "outputTokens": 73,
+        "costUsd": 0.000147
+      }
+    },
+    "38d06a29982d1934c956ccd85d7adedb0f973ec25f050e3636427144e3ba885b": {
+      "normalizationVersion": 1,
+      "sourceHash": "40bb8f60ed6c6a186f9fb8cd2e1ada4d858a7c23ff73b89d06938590ba999866",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 异常在函数之间传递",
+      "translatedText": "### Exceptions propagate between functions",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "38d0e94b72bdf74611268927e35ff84183a66d9e204dd65a74fcf500c1f5b2ba": {
@@ -127,6 +211,20 @@
         "costUsd": 0.00013
       }
     },
+    "38d4325f5118c8e041d780c9ff5a0b222cc3a2ce38be4b858dbd849798284850": {
+      "normalizationVersion": 1,
+      "sourceHash": "e8ad4cc0b33265954ea4bed8c9f0311c52f96435632529800e588a471ee8e4cc",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "在 C++ 中，程序运行过程中可能会出现各种错误，例如：",
+      "translatedText": "In C++, various errors may occur during program execution, for example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 30,
+        "costUsd": 0.000082
+      }
+    },
     "38da9c6aa0b02af0946b1b8474aac2a21cb4d7ea5353b8085352cefa6f4fc919": {
       "normalizationVersion": 1,
       "sourceHash": "4ad9411c9010f62f8bf9c6c698e0ada6457829b4e78fbc9eadf6cfb84eff4e7e",
@@ -141,6 +239,20 @@
         "costUsd": 0.000107
       }
     },
+    "38e24eb1bdfe8d97f876d9f3759a2ed16c10b0fd4faa276303cc4a463e0d3e88": {
+      "normalizationVersion": 1,
+      "sourceHash": "8c966d54d1ac64fca38c9aa0e588f6a458302c8f0be05693c2adcc6dd82a63eb",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## constexpr、consteval、constinit 的区别",
+      "translatedText": "## Differences between constexpr, consteval, and constinit",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 19,
+        "costUsd": 0.000065
+      }
+    },
     "38e42081aafd64369d2a63a11f1bee7f59defa1d3ca7f092db6121aeb77ad5ba": {
       "normalizationVersion": 1,
       "sourceHash": "0f4fbbf33fad53610512136ac6381cef2694858ff7e2a8774a68f95b5a71dbca",
@@ -153,6 +265,34 @@
         "inputTokens": 146,
         "outputTokens": 27,
         "costUsd": 0.000077
+      }
+    },
+    "38ec28489f0f385a147ef3a8f6a91341b895982b5d3c44b25c9a4bd8f9fdefbb": {
+      "normalizationVersion": 1,
+      "sourceHash": "eebec18a5ec7625516c4e8487a5ade5cf5f5eb13c6586a5015b1f6a8671bc404",
+      "contextFingerprint": "3d058d9a86ca2bf31c70855ea621d28238bd06eb4a2e3ef3d74e8082fab684da",
+      "sourceText": "更重要的是，在 C++ 里这不只是“结果偶尔不准”，而是 **数据竞争**，属于未定义行为。",
+      "translatedText": "More importantly, in C++ this is not just \"occasionally inaccurate results\", but rather a **data race** and constitutes undefined behavior\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 42,
+        "costUsd": 0.000099
+      }
+    },
+    "38eff1483a15a163fccc14e1ad7189cdfda47119449196ca52b82945f23dba34": {
+      "normalizationVersion": 1,
+      "sourceHash": "35ded09b7f30536ed10efec97efe8c3c89da3d2b3b0fd1b6d4f357c9ebff5415",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它不一定必须传两把以上 mutex。",
+      "translatedText": "It does not necessarily have to pass more than two mutexes\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     }
   }

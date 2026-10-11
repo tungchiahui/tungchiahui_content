@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "510479578d98cbc210439e048ccf5a0bebe7766cd83ae6dea5caea38851874e0": {
+      "normalizationVersion": 1,
+      "sourceHash": "727e7fb92fc1a0f136019b7d6d43c8f1b591734bf2f5bf0ba77ab1faa007f6d8",
+      "contextFingerprint": "675088f90c1faaea2f3f52ba7bfce408f347bbfa7321b80e34e2ad69cf5c8707",
+      "sourceText": "但在学习原子语义时，显式写 `load()` / `store()` 更容易看出这里发生的是原子访问。",
+      "translatedText": "But when learning atomic semantics, explicitly writing `load()` / `store()` makes it easier to see that an atomic access is occurring here\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 30,
+        "costUsd": 0.000081
+      }
+    },
+    "510612ca01cfcf2949ed3a0c408bdcc2e4d86d705f538464ceacd2d52d161180": {
+      "normalizationVersion": 1,
+      "sourceHash": "55ac1d1a114c18834a3bf896daff742c4a5b70a808ef6db4e84519ebfe9395f1",
+      "contextFingerprint": "0a943aa6fc86915264768956fe76e8dfd0275a9101477b98dfa4908f4fd5a01e",
+      "sourceText": "* `map& operator=(const map &mp);`    //重载等号操作符",
+      "translatedText": "* `map& operator=(const map &mp);`    // Overload the assignment operator",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "510af4e946b5a2730cc16861ec5abee7de2d921375ae1a6e12b40a335854d280": {
       "normalizationVersion": 1,
       "sourceHash": "3aedb34cdb5ac55942180b61ceb9754574476b4f994f182a115170d3c272612f",
@@ -13,6 +41,90 @@
         "inputTokens": 136,
         "outputTokens": 20,
         "costUsd": 0.000065
+      }
+    },
+    "5113d402a97d1ec199fef73c5c7f5b151e76810c3012e23cdaf4f21885437297": {
+      "normalizationVersion": 1,
+      "sourceHash": "c099e3f2e9aadbac478639ede3794ff9c9a7944431e1da8a1d34e837c6c4f6c0",
+      "contextFingerprint": "a6e2137bd80806e8aee888f6305d1951750219bfa03cd8972fec7c279e1e0419",
+      "sourceText": "因此最后得到 `3`。",
+      "translatedText": "Thus, we finally obtain `3`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
+    "511964a648d544895bf0d0bf32ed8c19b92c0e379c23bf5dcc6ce61d1b91cf96": {
+      "normalizationVersion": 1,
+      "sourceHash": "188726f5128ebaeb7a7e4753fcb57e2b2ef0ef49e0f5945fc1ff8e9d18b74fdb",
+      "contextFingerprint": "7f16f0fe38bb583b868224312265e3ddbee56a9c68c8cf04e5a687818bc4722e",
+      "sourceText": "由于它们都指向 `value`，所以结果是：",
+      "translatedText": "Since they all point to `value` the result is:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 138,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "512e5e70863f51304d8983f10ea448380dc66b26ea046e3c8f925c21658201b7": {
+      "normalizationVersion": 1,
+      "sourceHash": "d02668050cd7722688de55b00e9c8fe0d662b98334c4cee3f790410457acb3e1",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 类模板对象做函数参数",
+      "translatedText": "#### Class template objects as function parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
+      }
+    },
+    "515ddae3c1bec1a2912e6ca6b07cc9621dc2b13c28cb47df835003f9fb0f9758": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b26b58b113fb067ff577219542c010ffb05feacdb566565e60de55c4a215b56",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 持锁调用未知函数",
+      "translatedText": "### Calling an unknown function while holding a lock",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 16,
+        "costUsd": 0.00006
+      }
+    },
+    "5166ddf3330c32561b212666c521d99f6f82bbd76aa1bc83766273a9cf8153af": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd6e2a359a47bb8dca77bf2de16d62b19b09098f585659a9a1c0f77ca4bb153a",
+      "contextFingerprint": "38b8b80f3a5aaf9c61def73f2681c1d54bbcbf8ec093ce37f5abec270d3260f0",
+      "sourceText": "同样，`std::find_if` 自己知道怎样从前往后查找，但是它不知道“什么样的元素才算你要找的元素”。",
+      "translatedText": "Similarly,`std::find_if` it knows how to search from front to back, but it does not know \"what kind of element counts as the element you are looking for\"\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 151,
+        "outputTokens": 39,
+        "costUsd": 0.000093
+      }
+    },
+    "516bc9ee6165ac8a8d5aa4b9cada2863ee0930ec95fb550b12803294102f598a": {
+      "normalizationVersion": 1,
+      "sourceHash": "1489e3049711d71f82a4bc3c11051cee36bc9a8d4ec3fce1ba75c440c4415cc4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "原因：",
+      "translatedText": "Reason:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "517a8626b866b2edd471f1796567adefcd77f1852d935cf7fa3130321e43e268": {
@@ -41,6 +153,34 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "51b30ff14c02018df1a39697ae259290086f270c5f2214dfd4f1ec21e8196cc5": {
+      "normalizationVersion": 1,
+      "sourceHash": "94e7adaf57ff73088159324bd5c396cdc6b0dc2e7a707b27d1b6e4a520d3422a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这只是同一个地址的十进制写法。",
+      "translatedText": "This is just the decimal representation of the same address\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "51f1859145a821912d7b4fc606b6ef81649c35b084a53b4bdc70034c4211fe96": {
+      "normalizationVersion": 1,
+      "sourceHash": "b9aca2649605f7d14b47a1ac6a98fea885ea73ae9d27dbfbc2ef974d0b253f12",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "迭代器使用非常类似于指针，初学阶段我们可以先理解迭代器为指针",
+      "translatedText": "The use of iterators is very similar to pointers; at the beginner stage, we can first understand iterators as pointers\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 31,
+        "costUsd": 0.000081
       }
     },
     "51f397cc6313fe89997e3f4011284dbf37a016a98de4b7633d93a95fd7ea1757": {

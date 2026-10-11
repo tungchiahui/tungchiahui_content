@@ -1,6 +1,34 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "470a7cf9ff817db98765db6797d5f1f0627f8a08af5791d8715bd0cf21d083cf": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f2bb82a30757e16bb37a294eaa6c00d58d5e57800b6c6e3647c202c9bd525ca",
+      "contextFingerprint": "790923bec0d117332a6468177018a6b6718d765bbbbb6eb558cdcdfc6c5d950f",
+      "sourceText": "* `empty(); `                            //判断容器是否为空\n\n* `capacity();`                      //容器的容量\n\n* `size();`                              //返回容器中元素的个数\n\n* `resize(int num);`             //重新指定容器的长度为num，若容器变长，则以默认值填充新位置。\n\n  ​\t\t\t\t\t      //如果容器变短，则末尾超出容器长度的元素被删除。\n\n* `resize(int num, elem);`  //重新指定容器的长度为num，若容器变长，则以elem值填充新位置。\n\n  ​\t\t\t\t              //如果容器变短，则末尾超出容器长度的元素被删除",
+      "translatedText": "* `empty(); `                            // Determine whether the container is empty\n\n* `capacity();`                      // Capacity of the container\n\n* `size();`                              // Return the number of elements in the container\n\n* `resize(int num);`             // Respecify the length of the container as num\\. If the container becomes longer, fill the new positions with the default value\\.\n\n  ​\t\t\t\t\t      // If the container becomes shorter, the elements beyond the container length at the end are deleted\\.\n\n* `resize(int num, elem);`  // Respecify the length of the container as num\\. If the container becomes longer, fill the new positions with the value elem\\.\n\n  ​\t\t\t\t              // If the container becomes shorter, the elements beyond the container length at the end are deleted",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 237,
+        "outputTokens": 143,
+        "costUsd": 0.000243
+      }
+    },
+    "4728aace24a22ac8fd85fc8d782414aa03147eb8b4661a954e8119622bb637d3": {
+      "normalizationVersion": 1,
+      "sourceHash": "08155e2e6df0331976e501f97f1ca3cee83e461abd3b84ad92228f107f1d65c5",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### deque容器基本概念",
+      "translatedText": "#### Basic concepts of deque container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "47303ff8f014880efc426de0868188fa0c4c5075ac644ad79731f6516f2c3fdd": {
       "normalizationVersion": 1,
       "sourceHash": "477f75ac52b5e006dda7edece2bd98c74be94a3a12488422cae5e99db2123af4",
@@ -13,6 +41,34 @@
         "inputTokens": 134,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "4745c9a675d2060a0194efad5b0dfb65da4b88d7423d8be27333c44015e15113": {
+      "normalizationVersion": 1,
+      "sourceHash": "317031fc95dbb2c03db5d9971d18a23b05d1bc6d3d75d88859ab644aa781a938",
+      "contextFingerprint": "39b8fbfd61fcb48b9d472ad98113648c66c40eb67513003403491cc01fd46cf6",
+      "sourceText": "> **当前元素是不是我要找的？**",
+      "translatedText": "> **Is the current element the one I am looking for?**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
+    "474cedfb7a31ccf16384d0cc09a03ed39169e2b1252d5dff3b8e212bac6c35f2": {
+      "normalizationVersion": 1,
+      "sourceHash": "c0526fd2493b69963080965c7bef7cf82c96d7663b1d72dcf5851e10a7c79a62",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "它的函数模板可以简化理解为：",
+      "translatedText": "Its function template can be simplified and understood as:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
       }
     },
     "474dfeb74ede0eea1e5bd01b918d918ff26189ee1aa63489bc0041552b0db4c0": {
@@ -43,6 +99,34 @@
         "costUsd": 0.000175
       }
     },
+    "47683a62c9eea212e7d24f9d1a6eb10a6ae32b3b4df12f64cfab913727cf3b98": {
+      "normalizationVersion": 1,
+      "sourceHash": "4fcf7c638089be88c3dc1d5abf14ff323650aea504303423c561f76e07576a17",
+      "contextFingerprint": "c6517f8c63888fb82cecdab411f891a480d001497f788f51e9b6af698cf3cfa2",
+      "sourceText": "> 必须保证程序的每一条离开路径都正确释放锁。",
+      "translatedText": "> It must be ensured that every exit path of the program correctly releases the lock\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 22,
+        "costUsd": 0.000069
+      }
+    },
+    "4772ce6ed460831f06d32110e920e8b5c018e88ffde0d363ccc2ec26286785c5": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ce81fe580d76d9472f30360268d831c533106c851beab689ef3f021a22868a7",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "* set不允许容器中有重复的元素\n* multiset允许容器中有重复的元素",
+      "translatedText": "* set does not allow duplicate elements in the container\n* multiset allows duplicate elements in the container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 25,
+        "costUsd": 0.000073
+      }
+    },
     "477cc71ef6d2cbd03bf2b3bb9cc5e62bf17bdb5fb55129a4aaac1667bac993ed": {
       "normalizationVersion": 1,
       "sourceHash": "7db1bf5b27bbf1778f370126e39f86b99c522be1c7bd4178b50a4c277f8f76ed",
@@ -57,6 +141,34 @@
         "costUsd": 0.000055
       }
     },
+    "4798d7cd66e2329db8aaeb40caec07d53a961c66e037696e09af1bf2048a5d24": {
+      "normalizationVersion": 1,
+      "sourceHash": "beba831bdfaca7767a56585738977b28fe17930a55e69cf6c53a0206ad876c5a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "下面的代码存在数据竞争：",
+      "translatedText": "The following code has a data race:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 15,
+        "costUsd": 0.000059
+      }
+    },
+    "47a884a98aa792fda89b18aa4b492db949161c1bfa9bc64949750d29a4ed8978": {
+      "normalizationVersion": 1,
+      "sourceHash": "bbc38c1876fdfe127ed84e37c156be4ee31698af8420304c978a9b40ac39be88",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果你的意图本来就是：",
+      "translatedText": "If your intention was originally:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "47ae8f6234313337fbc9d8ad5da67fd43e4b6b151308a704865bd7ce3731c769": {
       "normalizationVersion": 1,
       "sourceHash": "86ad5826c0f66c5712ea599f8401a9cf8127c09ea5ebaafb45d67f022bc8d5cf",
@@ -69,6 +181,48 @@
         "inputTokens": 171,
         "outputTokens": 47,
         "costUsd": 0.000108
+      }
+    },
+    "47bb596365d7c584dbce66739d7056298c22b750d8c7036666cc4cd23efde0c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "f86f77ab27f05b79f4276245a1e937de9b087b2d572bf0d46e69fd4f9fc53d3f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "智能指针本质上是 RAII：智能指针对象离开作用域时，它的析构函数会自动释放所管理的对象。",
+      "translatedText": "Smart pointers are essentially RAII: when a smart pointer object goes out of scope, its destructor automatically releases the managed object\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
+    "47c7efc4aa16697bc46b023d9ca0f3a6e5d0e845dcbc52b530c69430508b7d6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d5b7ee835b14469bbe5d828fed186c40b3a135398f1c375cd04148cddf20baf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "二进制方式读文件主要利用流对象调用成员函数read",
+      "translatedText": "Reading files in binary mode mainly uses a stream object to call the member function read\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 141,
+        "outputTokens": 23,
+        "costUsd": 0.00007
+      }
+    },
+    "47d3dcc720b638da1094190e12847bf7792273accaf732a28bfe62ca3313c597": {
+      "normalizationVersion": 1,
+      "sourceHash": "679400821e57be64e4525dd7d9ae191ea92bf9796fb6360737ea0a5d4b87a1ef",
+      "contextFingerprint": "d5f20a932bfb3898fdec57b6de4f06b6c9a4601e9902ae98c8dab0b7cbfba6c4",
+      "sourceText": "算法：     `for_each`",
+      "translatedText": "Algorithm:     `for_each`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "47e032944bce31377241f28c04c0fcc5f3d50c7c8f2a4c0da4777887d573bd6b": {
@@ -97,6 +251,48 @@
         "inputTokens": 132,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "47f2e378a66dd4a18b732a491e9e0db1839b5d2e1be0c4bdd4d7a6af3abdd1a3": {
+      "normalizationVersion": 1,
+      "sourceHash": "2c1a21686d1da9a885e3e177a80c293f8da0727a5628647fe4a11d93443ba731",
+      "contextFingerprint": "2ec1334f617abc14515d03ec25ecefd5a55f77a158c3d48dbce55a0a64d862b7",
+      "sourceText": "| 示例 | 讲了什么 | 新出现的语法 | 为什么这样写 | 注意事项 |\n|:---|:---|:---|:---|:---|\n| 示例 1 | nullptr 基本用法 | `nullptr`、`p == nullptr` | 初始化指针为\"空\"，类型安全 | nullptr 的类型是 `std::nullptr_t` |\n| 示例 2 | 解决重载歧义 | 重载函数中 nullptr 匹配指针版本 | NULL 不能区分整数和指针重载，nullptr 可以 | 这就是 nullptr 替代 NULL 的核心原因 |\n| 示例 3 | 模板和智能指针 | `shared_ptr = nullptr`、`if(sp)` | 智能指针也能用 nullptr 初始化 | 智能指针的 bool 转换等价于 `!= nullptr` |\n| 示例 4 | 多个指针重载 | `int*`、`double*`、`nullptr` | nullptr 能排除整数重载，但不能替你选择具体指针类型 | 多个指针重载时先把 nullptr 放进明确类型的指针变量 |",
+      "translatedText": "| Example | What it explains | Newly introduced syntax | Why it is written this way | Notes |\n|:---|:---|:---|:---|:---|\n| Example 1 | Basic usage of nullptr | `nullptr`、`p == nullptr` | Initialize a pointer to \"null\", type\\-safe | The type of nullptr is `std::nullptr_t` |\n| Example 2 | Resolving overload ambiguity | In overloaded functions, nullptr matches the pointer version | NULL cannot distinguish between integer and pointer overloads, but nullptr can | This is the core reason nullptr replaces NULL |\n| Example 3 | Templates and smart pointers | `shared_ptr = nullptr`、`if(sp)` | Smart pointers can also be initialized with nullptr | The bool conversion of a smart pointer is equivalent to `!= nullptr` |\n| Example 4 | Multiple pointer overloads | `int*`、`double*`、`nullptr` | nullptr can exclude integer overloads, but it cannot choose a specific pointer type for you | When there are multiple pointer overloads, first put nullptr into a pointer variable with an explicit type |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 286,
+        "outputTokens": 180,
+        "costUsd": 0.000302
+      }
+    },
+    "47fe87b6b89e8ce81b89f4d1a49eb536ef538fd142ec06a2702bfae6623fc8c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4e8c04bac0c0a47a7c1e124bb496949e23528e902455f13f9586e6ffaf3f929",
+      "contextFingerprint": "e13dbcab2b55c12ec8b242d226c5da0fa5decd1f3e64bb84d7b1cf78660fa685",
+      "sourceText": "`nullptr` 只表示\"没有指向任何对象的指针\"。它不是整数 0，也不是空字符串，更不是容器为空。",
+      "translatedText": "`nullptr`It only means \"a pointer that does not point to any object\\.\" It is not the integer 0, nor an empty string, much less an empty container\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 40,
+        "costUsd": 0.000095
+      }
+    },
+    "47fe8f98bc28c4bec29d4fc472ec77fa078d4a3ecc91bec06f2674978d2d532d": {
+      "normalizationVersion": 1,
+      "sourceHash": "58b6a70a32b5422864032b19e73839cdf794e5a5cc58aef9fef2869b4a6f39ac",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "那么所有线程都必须：",
+      "translatedText": "Then all threads must:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     }
   }
