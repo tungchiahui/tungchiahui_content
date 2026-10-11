@@ -85,6 +85,20 @@
         "costUsd": 0.000081
       }
     },
+    "b40f78b4f916f3d0ce9cb7ae4c4a39f89049da5aa8152bf4d7d12806223a9b25": {
+      "normalizationVersion": 1,
+      "sourceHash": "1aabf922a15a20e28924d5bf56bd65ba61d4e71f2b115d61ef3ff088260373fa",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "问题跟踪：在 Issues 和 Pull Requests 中，开发者使用 Markdown 来描述问题、提供解决方案。",
+      "translatedText": "Issue tracking: In Issues and Pull Requests, developers use Markdown to describe problems and provide solutions\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 152,
+        "outputTokens": 26,
+        "costUsd": 0.000077
+      }
+    },
     "b4125cb72ea128c367aae0e30ef4ad3d262624c3443d6f576a252d04f035c1eb": {
       "normalizationVersion": 1,
       "sourceHash": "f2d88c49f254a7dd5656fa8356db3e609b4c58bcf6d3cc2abb849363f80a4045",
@@ -113,12 +127,54 @@
         "costUsd": 0.000056
       }
     },
+    "b414d643b2c0355386cd8f26e1301615a08687199a2c4b721e952564187368a4": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2ce6c66edf282efe09486f15dd96a9e69428b698a30ba49a978a97bcc8d9281",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这个下面的路径建议默认，你也可以选择其他地方，但需要保证纯英文路径和有权限的路径（如果你不懂，建议默认）。",
+      "translatedText": "For the path below, it is recommended to use the default; you may also choose another location, but you need to ensure that the path is purely in English and that you have permissions for it (if you are unsure, it is recommended to use the default)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 156,
+        "outputTokens": 60,
+        "costUsd": 0.000119
+      }
+    },
     "b4156099dba81b854ed790f93cb02098b60cb5a0f1096da2894e8e8584143cc6": {
       "normalizationVersion": 1,
       "sourceHash": "f64709e4c10bee096f1bab0458d69ea2733b9f69a05019d690dff79bb544e5d4",
       "contextFingerprint": "bc1c00ed4b960a7092476b164eea986ebe74edb57ae910fcaf11f13086e395df",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1685.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1685.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b4158269c9dbc424aa64da514d41de3ece721c313098c54185d8deb8388680da": {
+      "normalizationVersion": 1,
+      "sourceHash": "c4198739bec5b3c6d9492c64a0eb7cc7bb88cbdd01db66d8d99c96e4aeb1e120",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "先编译",
+      "translatedText": "Compile first",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "b41602547f707eabe724dee90cfefe6f64ab013c18f31265e6b4d470a851c722": {
+      "normalizationVersion": 1,
+      "sourceHash": "35df60656cc47bbea7f75026783f877bad60a55a5da6a7a97870bdeeb020a6d3",
+      "contextFingerprint": "cfbb866ada0ac2493600ffdd6837c6de9d76a542ca01720bfd1bd3fe72b18887",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776084345222.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776084345222.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -153,6 +209,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "b4273cc7103db7331949d24767351b03e83b2de7c36b6d7a504a411b62fac1ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "db643e643b47a56fc7e7ae6d4ea44f24e6ae3df97a6198df005c2f5bbedb333f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "从结构上看，Mat 类由两部分组成：矩阵头（header）和指向实际数据的指针。矩阵头中包含矩阵的尺寸、存储方式、数据地址以及引用计数等信息。矩阵头的大小是固定的，不会随着矩阵尺寸的变化而改变。",
+      "translatedText": "Structurally, the Mat class consists of two parts: a matrix header and a pointer to the actual data\\. The matrix header contains information such as the matrix dimensions, storage method, data address, and reference count\\. The size of the matrix header is fixed and does not change with the size of the matrix\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 182,
+        "outputTokens": 68,
+        "costUsd": 0.000137
       }
     },
     "b42bc1337fc6a2e02dc36c76c8272cf0002246715d7c1d25c073547cc36f2b6c": {
@@ -393,6 +463,20 @@
         "costUsd": 0
       }
     },
+    "b46bc334f1642adb5904289c27fb31479439900cc03945e9fe880726e2556a62": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2bb645c3dbb315e0665ba43d410f5b1d3bc8cfcef993160c9cfd2421f1380fd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "提高写作效率：无需频繁使用鼠标进行格式设置，可以保持思路的连贯性。写作者可以专注于内容创作，而不被格式问题分散注意力。",
+      "translatedText": "Improve writing efficiency: There is no need to frequently use the mouse for formatting, allowing you to maintain continuity of thought\\. Writers can focus on content creation without being distracted by formatting issues\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 162,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
     "b47589717cdfdf59ccebce0f644942fa319d18555a182fdc25d60bfb67815ef2": {
       "normalizationVersion": 1,
       "sourceHash": "c6d1c2702355ef1b4ac428c12a070f26feaadd1b65a5ecd1f2edde9508d3c129",
@@ -581,6 +665,34 @@
       "contextFingerprint": "fefe77d866009bc4e3fd7460ac9fabb43985213dbb2ebb082701126fcbf0f8fb",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image780.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image780.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b4abedcd911e14a19cc35758943288a77426f64e8574d09f9d8fb372db8e23ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "ed18ff9d90c726b22969415ad5f9407ebc59324aa18b19f7764553bdb74049f3",
+      "contextFingerprint": "62d84bc9bc1fd7020e127e14c4edd931339e80f0709110366cf60d57179495d4",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039772398-5692ec0e.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039772398-5692ec0e.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "b4b3b84a5bbc2b265544ce5428a00d84fcbdbc95c8c0a8f2145696163aade687": {
+      "normalizationVersion": 1,
+      "sourceHash": "208d43fddf12d066a7ae3f05e79c19c4c24834dca42bc09de1989505bdd540eb",
+      "contextFingerprint": "ea1bc498eb69bb90aad1da32e05900992bc605acb1bfdbf9e56ba578c6f7c7d8",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768100027759.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768100027759.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -827,6 +939,20 @@
         "costUsd": 0.000065
       }
     },
+    "b4e4eef47764f3c2e794dd5eabfa093513ba93f02b0db7f53feecb4323908a6c": {
+      "normalizationVersion": 1,
+      "sourceHash": "13aec189c21289c44ac4a92f3c8430dad6d6335b48717128d0802f6695afe69c",
+      "contextFingerprint": "26b01df08c07596f135670d7198aa2e3963925124cfb3d51038c5c353c2eb42f",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787042596409-ec5e2023.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787042596409-ec5e2023.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b4eb364168898d55cef92dfdf579933a7927b963da823346cc3d85bd44a4b764": {
       "normalizationVersion": 1,
       "sourceHash": "6a70180e4cc511f073bda1bc796cdb470c5c2a6e4274db44c6e9b360457cbb88",
@@ -895,6 +1021,20 @@
         "inputTokens": 150,
         "outputTokens": 32,
         "costUsd": 0.000084
+      }
+    },
+    "b4fb8eed1be47389c4dbf3e18cdd20e186af444d36a498ed818d53c0f4e4f405": {
+      "normalizationVersion": 1,
+      "sourceHash": "f50cf6e36a10a310f963102cd4fc2041ddb77a9074ee9c9d50bb03a2156392e1",
+      "contextFingerprint": "c9aadab625bc1013e033b670aa43561258b93d9da336a7e71e743b2bed38368a",
+      "sourceText": "代码清单2-34 VideoWriter.cpp 保存视频文件",
+      "translatedText": "Listing 2\\-34 VideoWriter.cpp Save Video File",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 148,
+        "outputTokens": 25,
+        "costUsd": 0.000075
       }
     },
     "b4fd47a586db5f6e63a3b56168bc7a3275632dbd55fbe5d943f3225ff429c6f1": {

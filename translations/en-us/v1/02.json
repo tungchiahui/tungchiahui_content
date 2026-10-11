@@ -99,6 +99,20 @@
         "costUsd": 0.000072
       }
     },
+    "02250bd329f981790899d24611749fdaccdcc9d68f7ee223b0486ad7b8137b52": {
+      "normalizationVersion": 1,
+      "sourceHash": "af063c0d7d71c1dfe07aadc888798b68ab7886107e7b873dd2b95180ae4ee4d0",
+      "contextFingerprint": "b25ba54d1d61272d171d9aa3e301572336f15c2a9b05ffecab72af71fa45e0cc",
+      "sourceText": "- `serverExe` ： 就填二进制程序名 `openocd`或者`openocd.exe`\n- `serverParameters` ：填那两个openOCD参数，参考 [openocd的两个-f参数](#openocd-parameters)\n- `serverHost` ：OpenOCD GDB Server 默认监听 localhost，一般不用改\n- `serverPort` ：OpenOCD 默认 GDB 端口 为 `3333`\n- `serverCwd` ： 填`serverExe`这个二进制程序在哪个目录底下\n- 添加`liveWatch`参数（重要）",
+      "translatedText": "- `serverExe` : Just enter the binary program name `openocd`or`openocd.exe`\n- `serverParameters` : enter those two OpenOCD parameters, refer to [The two \\-f parameters of openocd](#openocd-parameters)\n- `serverHost` : The OpenOCD GDB Server listens on localhost by default, generally no need to change\n- `serverPort` : The default GDB port of OpenOCD is `3333`\n- `serverCwd` : Enter`serverExe`Which directory is this binary program located in\n- Add`liveWatch`parameter (important)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 204,
+        "outputTokens": 90,
+        "costUsd": 0.00017
+      }
+    },
     "02279c707e95e8433c673527ad85598b34a7d897f705a3e30d604c02e9e3eea1": {
       "normalizationVersion": 1,
       "sourceHash": "73bffd7b8992f0f50ce5845de684fee0427891c07ac01ce0ae0f526b73c2115a",
@@ -209,6 +223,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "023f8f4440d87d31d2097b7bf14dd31c4843df46283ee3be694230dd3764c715": {
+      "normalizationVersion": 1,
+      "sourceHash": "553e4192f430344aea851fea17f04d347d00a0d5c136c03fc6595a6aa20b0b1f",
+      "contextFingerprint": "8a141a28619c602a481d893aa98a1a7cf88ecf5ac962504b8cf90b4e8ab83f97",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768396481018.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768396481018.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "0241b87dc6c01575e0fc0f648dff6180b239c2ca40056a073775f0c66100c61d": {
@@ -323,6 +351,34 @@
         "costUsd": 0
       }
     },
+    "025ee44ca4ef87ee553f55461f337518daee7fa8784f230d6bb5d128a1d14f21": {
+      "normalizationVersion": 1,
+      "sourceHash": "05b6c98f7f5328146ef1d99a8110ba0d169aae20c06193691a9830dd768c4330",
+      "contextFingerprint": "5e2ed4cf0522c06c8fcd7c7f57a514719a063890340dbcf02412a79a22f23a88",
+      "sourceText": "提示：Scalar结构中变量的个数一定要与定义中的通道数相对应。如果Scalar结构中变量的个数大于通道数，则位置在大于通道数之后的数值将不会被读取，例如执行a(2,2,CV_8UC2,Scalar(0,0,255))后，每个像素值都将是(0,0)，而255不会被读取；如果Scalar结构中变量的个数小于通道数，则会以0补充。",
+      "translatedText": "Note: The number of variables in the Scalar structure must correspond to the number of channels in the definition\\. If the number of variables in the Scalar structure is greater than the number of channels, values positioned after the number of channels will not be read\\. For example, after executing a(2,2,CV_8UC2,Scalar(0,0,255)), each pixel value will be (0,0), and 255 will not be read\\. If the number of variables in the Scalar structure is less than the number of channels, it will be supplemented with 0\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 226,
+        "outputTokens": 133,
+        "costUsd": 0.000228
+      }
+    },
+    "0262ec143c245ab20f724df5731fe00050f756f17997e0542116cb31b8605979": {
+      "normalizationVersion": 1,
+      "sourceHash": "d28371f202375f76fd47c50d2721ef64adf2cb15f8fc5fab1fb1c8d98006298b",
+      "contextFingerprint": "9bf34d654b90b83cda4f48e9b872ded363760c345fb671e2781ec255e1dc4ab5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image86.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image86.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "026d878c7eb1cf148da1dc57eb82483618851efe8e57f4e67cf7165b5b2beddd": {
       "normalizationVersion": 1,
       "sourceHash": "cc603921928fda7f61a52d8a4ed17b850e5964c16eb48d5248dcaaaf970884f0",
@@ -391,6 +447,20 @@
         "inputTokens": 133,
         "outputTokens": 11,
         "costUsd": 0.000054
+      }
+    },
+    "02887a5eebeb50e0aab32b16417a2bc45daa2ad638d71c60c086c040e4bab69d": {
+      "normalizationVersion": 1,
+      "sourceHash": "4ab0f73ab0e50935470f86006e9d260ebc6f57ab3dd4fc770f59ef637d9ee309",
+      "contextFingerprint": "6aeb32ebdf12dd68675ec1cabada0207b101cb19cc6d183fda6c796d1b812139",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514511458-cc1182c5.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514511458-cc1182c5.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "028b8cf27196c6e6eb9810b3a91d64b8721b1fd773a1ad27122d1f61ac9d0ab4": {

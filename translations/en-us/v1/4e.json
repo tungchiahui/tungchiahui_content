@@ -85,6 +85,20 @@
         "costUsd": 0
       }
     },
+    "4e113f0c9cbee2ac41ae17f759f03203af6b9be2f0849cc3cbacf37b0ae5c10b": {
+      "normalizationVersion": 1,
+      "sourceHash": "078b2d4c7ac9bb9678835d3c9ccc753cc888e8714a875ab560fef52991874294",
+      "contextFingerprint": "e06e6550cd5fd7bd41e2db1d385f29cedaf86d730b1e81dd665d1f11b977a7f7",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768101174406.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768101174406.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4e1484eca28a74407924dc94626fd33574db478e2a559ffb89de946be46aae0d": {
       "normalizationVersion": 1,
       "sourceHash": "57982f7849f9cf8c0b01dcd0d0c4dd4d7071131dbfd9c37360fccfe500f8e60d",
@@ -253,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "4e5094387256ea7a5a701cc01828899aca6c7db34d53991e7cdeb016d67b76e3": {
+      "normalizationVersion": 1,
+      "sourceHash": "760a2f8eefb3540b8c48f892b5b851c83693754afc465d85a71bae8084874a88",
+      "contextFingerprint": "5ff6cde375a5399eb17823aee49a35c3654fae14952a0254a8f60a0ed56e540f",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935970620.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935970620.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4e50e15a7fbd05e22c9bff8ccce4dc0bf73297e52f987fb44e7499adeb51b1ea": {
       "normalizationVersion": 1,
       "sourceHash": "ac1c6ad2b0ed78af8f037fc65399658e92b5d97ba1212513ecb0885e0f93b42f",
@@ -307,6 +335,20 @@
         "inputTokens": 141,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "4e6170f159ab1e77d011c942d334a6fbeab100c9a10e2a5e22b13299eae3b932": {
+      "normalizationVersion": 1,
+      "sourceHash": "8b1ad54d93364a437082047f7f6e8ee6043f466db47c0987eb6ee244f62911ed",
+      "contextFingerprint": "10c3274a1fa480c93aa05f6dc3b5963aaf6fe894cdac1b1db5a0e3186c10d744",
+      "sourceText": "（这里的64位指的是amd64和X86_64,如果你是ARM64请下载下方那个Linux ARM里的64位）",
+      "translatedText": "(The 64\\-bit here refers to amd64 and X86_64\\. If you are on ARM64, please download the 64\\-bit version under Linux ARM below\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 161,
+        "outputTokens": 49,
+        "costUsd": 0.000108
       }
     },
     "4e636dcc27ffe97b272644458d5c0965072530941066e27a726dd7215f695a27": {
@@ -531,6 +573,20 @@
         "inputTokens": 172,
         "outputTokens": 67,
         "costUsd": 0.000132
+      }
+    },
+    "4e931aea4e10d8dd055012054fa55827a7f5d650f2df324ffc08e496537ac8c0": {
+      "normalizationVersion": 1,
+      "sourceHash": "e88dff816f6763d4acd2c370b4272676cfb5b25cc78345f061234140eaa78a14",
+      "contextFingerprint": "980d1b07df0af1a4d6ec57f45598ad8add629425b7e3710cca491a4151606f5a",
+      "sourceText": "Markdown 段落没有特殊的格式，直接编写文字就好，**段落的换行是使用两个以上空格 或者 回车(常用)。**",
+      "translatedText": "Markdown paragraphs have no special formatting; just write the text directly,**For a line break within a paragraph, use two or more spaces or press Enter (commonly used)\\.**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 43,
+        "costUsd": 0.0001
       }
     },
     "4e93f44a0c65b6b032d7dc0aa7d240fb97498ab58787b80b6eeb805ebd2457ce": {
@@ -979,6 +1035,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4ef8590497bf05b5fc83e00b9924b082876021464bad0943d9b6238044fba91d": {
+      "normalizationVersion": 1,
+      "sourceHash": "082240aac490963e45a3268636e7892fe5e319b853f0db1dd79c9af6cb3ef466",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "此函数运行后会继续执行后面程序。如果后面程序执行完直接退出，那么显示的图像有可能闪一下就消失，因此在需要显示图像的程序中，往往会在imshow()函数后跟有cv::waitKey()函数，用于将程序暂停一段时间。waitKey()函数是以毫秒计的等待时长，如果参数默认或者为\"0\"，那么表示等待用户按键结束该函数。",
+      "translatedText": "After this function runs, the program continues executing subsequent code\\. If the subsequent code finishes and exits directly, the displayed image may flash and disappear\\. Therefore, in programs that need to display images, the imshow() function is often followed by the cv::waitKey() function to pause the program for a period of time\\. The waitKey() function specifies the waiting duration in milliseconds\\. If the parameter is default or \"0\", it means waiting for the user to press a key to end the function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 212,
+        "outputTokens": 107,
+        "costUsd": 0.000192
       }
     },
     "4efc94abec4c6a5151d13f5d29b777e4c8381a14a071ec58156c813393c04372": {

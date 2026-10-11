@@ -253,6 +253,20 @@
         "costUsd": 0.000063
       }
     },
+    "f24a3bc158969fbbc3e9339dc076158947f43a369b797d49181d06aee0af388c": {
+      "normalizationVersion": 1,
+      "sourceHash": "d37e6d92f74e560ba921b33cb848421ddc0425aa9b3b7e4fc55870a085d773c6",
+      "contextFingerprint": "a8d922a35a1ff47528dd0c296820182bd3fb2d06f609b3ceb5668273e8b13049",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image113.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image113.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "f24bea4e8398b3cf7101b4f9241921621057b96bbf0087789e61a7ac9b587962": {
       "normalizationVersion": 1,
       "sourceHash": "7b419a6317f939f10813f9627eee03a6e98da32dbf749d406d2124a12c9c0404",
@@ -421,6 +435,20 @@
         "costUsd": 0.000088
       }
     },
+    "f2746435d7a36c8bd138fc7bd6ae4fa2c9be0edcff9c1331649a3615e7cee82d": {
+      "normalizationVersion": 1,
+      "sourceHash": "f99a46a96c23026ecca0f6bc7e659e1df147ee78067b51658b9c8ca626dbc1fe",
+      "contextFingerprint": "52ecfb2d6fe1317149152f286ba2e37cac02e539244025d038a5d8f0bdde7709",
+      "sourceText": "Mat类的迭代器变量类型是cv::MatIterator_<>，在定义时同样需要在尖括号中声明数据的变量类型。Mat类迭代器的起始是Mat.begin<>()，结束是Mat.end<>()，与其他迭代器用法相同，通过\"++\"运算实现指针位置向下迭代，数据的读取方式是先读取第一个元素的每一个通道，之后再读取第二个元素的每一个通道，直到最后一个元素的最后一个通道。",
+      "translatedText": "The iterator variable type of the Mat class is cv::MatIterator\\_\\<\\>, and when defining it, the data variable type also needs to be declared within the angle brackets\\. The start of the Mat class iterator is Mat.begin\\<\\>(), and the end is Mat.end\\<\\>()\\. Its usage is the same as other iterators: the \"\\+\\+\" operation is used to iterate the pointer position downward\\. The data reading method is to first read each channel of the first element, and then read each channel of the second element, until the last channel of the last element\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 230,
+        "outputTokens": 135,
+        "costUsd": 0.000231
+      }
+    },
     "f2751e3bc2abce1bf6681f53c70116c09595c92593e44231261be117c4984880": {
       "normalizationVersion": 1,
       "sourceHash": "616dc0b25a4302dd84bdd561f677336ac64dd2d588c8b1c63f3db5d29d11b97a",
@@ -433,6 +461,20 @@
         "inputTokens": 137,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "f276d08e6bf8b931fb9003ed8ba78b8fd3d1be3d5e88aa57a4c3f27f82a98745": {
+      "normalizationVersion": 1,
+      "sourceHash": "c021780b4586ab811898c1e003aac90788e4730825f806051ee819bad148d0a7",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后打开vscode",
+      "translatedText": "Then open vscode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "f27852c7d592a1da22be8b8f0a9d9de2be7bdf531059f184078b2a85ddd13032": {

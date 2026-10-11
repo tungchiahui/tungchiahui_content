@@ -617,6 +617,20 @@
         "costUsd": 0.000063
       }
     },
+    "97ac1b36d92c7b371eb6dbd8e1f9ece55933589a3d3ac6d6dd6f2b87f4bbb6c4": {
+      "normalizationVersion": 1,
+      "sourceHash": "0642aac7dc88d7b088ab85dfec1b04fa211fa5f5d3eba23e2a6599ec1f10ccdb",
+      "contextFingerprint": "c957f04de832f7c26acdea5d83a9d42ff1898eb695591a508084979bd704cdc7",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image115.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image115.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "97aef07b2193df9f86dd96b1093719b83cef582377a859383606524ee7a430bc": {
       "normalizationVersion": 1,
       "sourceHash": "c8677482782dc287a358f718ca7c39576c8f01541bfed5371d55177c52d68bed",
@@ -685,6 +699,34 @@
         "inputTokens": 150,
         "outputTokens": 34,
         "costUsd": 0.000086
+      }
+    },
+    "97c6c3c69a51d84b915dc7c5323b48c75cf371eaa57a37c08f6b7d2e8ece70bb": {
+      "normalizationVersion": 1,
+      "sourceHash": "3251ca3217ecf5a2686bc593993f14244e1b192a5a6b80b32141116e05520f30",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "ESP32S3 的外部中断功能能够以非常精确的方式捕捉外部事件的触发。开发者可以通过配\n置中断触发方式（如上升沿、下降沿、任意电平、低电平保持、高电平保持等）来适应不同的\n外部事件，并在事件发生时立即中断当前程序的执行，转而执行中断服务函数。",
+      "translatedText": "The ESP32S3's external interrupt function can capture the triggering of external events in a highly precise manner\\. Developers can adapt to different external events by configuring the interrupt trigger mode (such as rising edge, falling edge, any level, low\\-level hold, high\\-level hold, etc\\.), and when an event occurs, immediately interrupt the execution of the current program and switch to executing the interrupt service function\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 197,
+        "outputTokens": 86,
+        "costUsd": 0.000163
+      }
+    },
+    "97cb389fb54a3fee349fb7cac55834d612a85d74ca97b804ff981eec7a37c5ba": {
+      "normalizationVersion": 1,
+      "sourceHash": "f88c04d3c371e4d2ae78dd352c28f98305b4fdf334b3f1f417895816e665f983",
+      "contextFingerprint": "064cde89c0642f03bfc1a1a31b3636d9b29ea17e4bfb33fcb3a420171b1a6ae0",
+      "sourceText": "在对图像的不同通道有所了解之后，接下来将对每个通道内图像像素的相关操作进行介绍。关于像素的相关概念，在前面已经有所了解，例如在CV_8U的图像中，像素取值范围由黑到白被分成了256份，灰度值为0～255来表示这个变化的过程。因此，像素灰度值的大小表示的是某个位置像素的亮暗程度，同时灰度值的变化程度也表示了图像纹理的变化程度，因此，了解像素的相关操作是了解图像内容的第一步。",
+      "translatedText": "After gaining an understanding of the different channels of an image, the next step is to introduce operations related to image pixels within each channel\\. The relevant concepts of pixels have been introduced earlier; for example, in a CV_8U image, the pixel value range is divided into 256 levels from black to white, and the grayscale value from 0 to 255 represents this process of change\\. Therefore, the magnitude of a pixel's grayscale value indicates the brightness or darkness of the pixel at a certain position, and at the same time, the degree of change in grayscale value also indicates the degree of change in image texture\\. Thus, understanding pixel\\-related operations is the first step in understanding image content\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 236,
+        "outputTokens": 155,
+        "costUsd": 0.000257
       }
     },
     "97cc7a3790b9b0b84ed8452f9d878732e0ac8aa686041ea59a42d8c63e8c1875": {
@@ -895,6 +937,34 @@
         "inputTokens": 131,
         "outputTokens": 9,
         "costUsd": 0.000051
+      }
+    },
+    "97ec175bdb183599290c2a4632c3ace64d812bada0b693ddd5ba71af7d1a5d6e": {
+      "normalizationVersion": 1,
+      "sourceHash": "8be06733af2a477fb624d5f0fe4d1f2a18543533da1aa959a1b146f84e9e02c0",
+      "contextFingerprint": "3ad634fa2242579aa959e060252f043b62e8fa6a3915cd3fd06e22f6c48a2222",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776421629435.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776421629435.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "97f653ac4b7bb3f652e5d806a8b20ecba7c061ca0a636e1e7933711ac80297d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e363469572bcdb661b12063cd0be84195337a0dd55e2eec0d4336a832b0c988",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "大多数 Markdown 处理器会自动为标题创建锚点（anchor），便于页面内跳转：",
+      "translatedText": "Most Markdown processors automatically create anchors for headings to facilitate in\\-page navigation:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 22,
+        "costUsd": 0.000072
       }
     },
     "97fde25a9578e332646264ecb47f17b8e7ec64fa90d8f2adffdfdf760bb50719": {

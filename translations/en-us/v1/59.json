@@ -155,6 +155,20 @@
         "costUsd": 0.000054
       }
     },
+    "592377ce69d8855ba03cee2344ba2b7d6b5a789d7ed0a1a0ce7447ac470778cd": {
+      "normalizationVersion": 1,
+      "sourceHash": "221fb1ae958620dcdfa60f09a0d51da899075c9489158e8d2a171543cd1d97c4",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 时钟树",
+      "translatedText": "#### Clock tree",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "592d3d2bb2898c28d08179430d7bd701d421487c0a7bf083cbeb93d6c0336641": {
       "normalizationVersion": 1,
       "sourceHash": "0105f9d233d5f8ab382718e0ba9ce5411f5fab4aaa3d6f16c2886dc067ccd8a4",
@@ -323,6 +337,20 @@
         "costUsd": 0.00006
       }
     },
+    "5957a41cb002abf8d37906b638c0241915e1065284812a6e27afee6bf108044d": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb1f253c90ea0d0dbeb4071a473c6693c0fb7e690a419fc1366e820c416e2a5e",
+      "contextFingerprint": "f1a1bf8d414159c29ccf075598c1c26f052725d7f62942964a12d22b02d77943",
+      "sourceText": "在上一节里,我们在`app_main`里的死循环里一直跑按键扫描函数的方式其实叫做`轮询`,这类函数叫做`阻塞式函数`,如果你学过STM32,你肯定深有体会什么是`阻塞式`,什么是`中断式`.",
+      "translatedText": "In the previous section, we kept running the key scanning function in the infinite loop inside`app_main`, and this approach is actually called`轮询`, and this type of function is called`阻塞式函数`\\. If you have studied STM32, you will surely have a deep understanding of what`阻塞式`, and what`中断式`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 65,
+        "costUsd": 0.000129
+      }
+    },
     "595f6ac710f764da3d874f7106b9c6c173faa0a49c32acf2bffacc49279182d1": {
       "normalizationVersion": 1,
       "sourceHash": "95f4bdc5d905438a706693a69141042fc6cfa068189a403855df304016112fc1",
@@ -363,6 +391,34 @@
         "inputTokens": 136,
         "outputTokens": 12,
         "costUsd": 0.000056
+      }
+    },
+    "5976546ea9352f098bc25ec62e521d496c959856db7cb524493ec9f341a423cb": {
+      "normalizationVersion": 1,
+      "sourceHash": "1a84d71476ef4432f5926b8c0b2e83f6daa10719639395f84b914bf489fc892b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这种方式主要用于在原图中截图使用。不过需要注意的是，通过这种方式构造的Mat类与已有Mat类享有共同的数据，即如果两个Mat类中有一个数据发生更改，那么另一个也会随之更改。",
+      "translatedText": "This method is mainly used for taking a screenshot from the original image\\. However, it should be noted that a Mat object constructed in this way shares the same data with an existing Mat object, that is, if the data in one of the two Mat objects is modified, the other will change accordingly\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 170,
+        "outputTokens": 66,
+        "costUsd": 0.000131
+      }
+    },
+    "597a22c8bf67544fbd869c53b02e8ad88a670be9de6a547db5c03916e6778a7e": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a4abd9bbb6245b3ba006ea667e88f8ae00494aad24788a1575a5bd9ed9c7eb9",
+      "contextFingerprint": "f11a1eebaa0a64112dbd4070bb92296797e586eca2ed5a1e21b9b73a91c15cf7",
+      "sourceText": "***`（本教程为2026年4月创建的，可能与以后的版本有些出入）`***",
+      "translatedText": "***`（本教程为2026年4月创建的，可能与以后的版本有些出入）`***",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "597a62916f835312e1bea23bd827f1a81197f5f44c42910c0f92db1c10896587": {
@@ -533,6 +589,20 @@
         "costUsd": 0.000053
       }
     },
+    "598feec11fb3de7298a6448e3b309573558da18e80e98a3a73dcdbb889b6b877": {
+      "normalizationVersion": 1,
+      "sourceHash": "2b5a4aed0ce7e090009a373d55b1dede46c5259f18a80982336f52f57ae29d07",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "接下来重头戏,按键扫描函数,下面注释讲的很详细,自己可以好好分析分析代码.",
+      "translatedText": "Next comes the main part, the key scanning function\\. The comments below explain it in detail, so you can carefully analyze the code yourself\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 34,
+        "costUsd": 0.000086
+      }
+    },
     "59908aa8c3b7628b8ef633c9e98364739fa617687f5c8d40913d47e6dc556886": {
       "normalizationVersion": 1,
       "sourceHash": "de9ce37e7ed51ba57be59d6f1b50f300ed3a057eea5369e977e2d3c324fae581",
@@ -545,6 +615,20 @@
         "inputTokens": 140,
         "outputTokens": 26,
         "costUsd": 0.000074
+      }
+    },
+    "599712892faf57ee159a6c67e1ca7e15c9ed901a1ff64be03e096deed04b6a32": {
+      "normalizationVersion": 1,
+      "sourceHash": "5f1d7440334e79c878dee30ad1812d2a7c480783de269c898f2d77f493e9ee78",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**自动编号 vs 手动编号：**",
+      "translatedText": "**Automatic numbering vs manual numbering:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 14,
+        "costUsd": 0.000058
       }
     },
     "59998043c5312543eae0708ff1a295b1503d1c3b3f16943d2cb1db8258d13f09": {
@@ -589,6 +673,20 @@
         "costUsd": 0.000075
       }
     },
+    "599f0b30eac947260a0b48adfe9d1b1c621440567f4ed2f8dc94eee47e5f7ca0": {
+      "normalizationVersion": 1,
+      "sourceHash": "8fa98e3ccf4557dcd7242921e028ca71af836f5fc809e8506ebba777d04eac05",
+      "contextFingerprint": "fab09bd8c78202120810957427d7dbd3516faa328bd87a0da98833be392d676d",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768364863022.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768364863022.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "59a838dd3cf19295ee82183b19267a44d4dc48ebce57a953aea25991598743c3": {
       "normalizationVersion": 1,
       "sourceHash": "22da62a501e39e994d0f7ccc18fe08aec037341d61d90ab5bba5d9e0d0b68e2e",
@@ -609,6 +707,20 @@
       "contextFingerprint": "56a84d6e2d06fff7ad78d3d6c23d092fbec21fd6c63210cf811bdd9484699eb7",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1469.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1470.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1469.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1470.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "59acdbfd63864288bc781f5633d49d413f64a1a4028d461b0224b2990671e1d6": {
+      "normalizationVersion": 1,
+      "sourceHash": "2bacd348ee2fd6f86efea2e15003a995243e6dc40731306f439fa37eebdea47c",
+      "contextFingerprint": "5a0e4eb1bd3dfa1d8aad81df5ac721921b7dccf9c9487624d765ce3a59e0e974",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935447878.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935447878.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -643,6 +755,20 @@
         "inputTokens": 141,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "59bc3700f87c4f7d5766901002b0465d24546c09b7c8adebd6dbffbf45a734ac": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5ce246311d2ff0f18a195a4694fa37d1597e6e695f29bc40c2bac2f9987b0d0",
+      "contextFingerprint": "9074e3441ee4af3d69ab0867796e93bde71d0aff38b1eaf16c65464060b43db5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791523805618-93a96d4e.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791523805618-93a96d4e.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "59bf0ff56be4482166463892b76c9d3860194796659af2d096222f06a0184b3d": {
@@ -687,6 +813,20 @@
         "costUsd": 0
       }
     },
+    "59c5d2418b00a3be4cf04a3c49ee71fa476ece530d602affc10e8eb3f0a49394": {
+      "normalizationVersion": 1,
+      "sourceHash": "659af2bcff6267042c4d83a32dfea0bc1420d6e988ff2b80ad6e95add8fbecab",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "由于FileStorage类中默认构造函数没有任何参数，因此没有声明打开的文件和操作的类型，此时需要通过FileStorage类中的open()函数单独进行声明。该函数的原型在代码清单2-36中给出。",
+      "translatedText": "Since the default constructor in the FileStorage class has no parameters, the file to be opened and the type of operation are not declared\\. In this case, they need to be declared separately through the open() function in the FileStorage class\\. The prototype of this function is given in Code Listing 2\\-36\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 173,
+        "outputTokens": 69,
+        "costUsd": 0.000135
+      }
+    },
     "59c7af1441ab93034c11b8f16b8eedf9603a1f4d82aa9cbf1718a193400a7f36": {
       "normalizationVersion": 1,
       "sourceHash": "82b724a94b8decaf9c20e04a306bd9bb52674c1eb4edaceeb27803c4b80ae356",
@@ -713,6 +853,20 @@
         "inputTokens": 201,
         "outputTokens": 111,
         "costUsd": 0.000194
+      }
+    },
+    "59c96d72d98ce24649e64e7345adf54fe43823e74e51b5a678cae4835a71f3c6": {
+      "normalizationVersion": 1,
+      "sourceHash": "411c384ab5824aec0b9b8d93ced9086fab8119e5265c00653c93beb8095d8428",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "是RHEL系下载64位RPM",
+      "translatedText": "For RHEL\\-based systems, download the 64\\-bit RPM\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "59c9d01d888a2d2efc20ab944a6b2c906c9d785b0dca50471d2b3c823cdb718b": {
@@ -867,6 +1021,20 @@
         "inputTokens": 138,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "59e6b943d432ef48097b5431d726eb5dfa33c4c0d2a9edf251a21e41570e400d": {
+      "normalizationVersion": 1,
+      "sourceHash": "5a64a946fb697df1962eaa2dcf083c7c782a818ca761f60a208077f5bbc3b6bc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "💻 桌面端应用",
+      "translatedText": "💻 Desktop Application",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "59e77f08ef7a39c7d60f654e609ebeb9f865c5f1ac3328b8323979af9abca463": {

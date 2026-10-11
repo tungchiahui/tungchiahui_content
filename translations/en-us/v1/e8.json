@@ -309,6 +309,20 @@
         "costUsd": 0.000095
       }
     },
+    "e8576b52c48d5ebcdb51eca5e91ff0d3d2d75c4fa0fdad79608c9698f239091a": {
+      "normalizationVersion": 1,
+      "sourceHash": "20a8067cb51356dc98b5a816d3d941da4892ff72b1d6bdc7ee1b7ae9e9462d16",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 数学公式",
+      "translatedText": "## Mathematical formula",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "e8578dce3f5b1c21f1fb70c57a2a76e6534068ddfa8d73bca5cc99e399fc2039": {
       "normalizationVersion": 1,
       "sourceHash": "c67a7319e618db8be1d879d47cf272423535b68171d00e1c25b6905f1c445e28",
@@ -687,6 +701,20 @@
         "costUsd": 0.000086
       }
     },
+    "e8aadf0f07334a660f87afdd7c7829fca1b29ac3013132552fb5233e9fda06fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "598d8b700aa407b0ff684b4847b2efee77bf12b81ba37f23f726aa354fa16817",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面我们分析过Mat类矩阵在内存中的存放方式，矩阵中每一行中的每个元素都是挨着存放的，如果找到每一行元素的起始地址位置，那么读取矩阵中每一行不同位置的元素时将指针在起始位置向后移动若干位即可。在代码清单2-21中，给出了通过指针ptr读取Mat类矩阵元素的代码实现。\n代码清单2-21 指针ptr读取Mat类矩阵元素",
+      "translatedText": "We previously analyzed how Mat class matrices are stored in memory\\. Each element in each row of the matrix is stored contiguously\\. If the starting address of each row's elements is found, then when reading elements at different positions in each row of the matrix, it suffices to move the pointer backward by several positions from the starting position\\. In code listing 2\\-21, the code implementation for reading Mat class matrix elements via the pointer ptr is given\\. Code Listing 2\\-21 Reading Mat class matrix elements via the pointer ptr",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 219,
+        "outputTokens": 115,
+        "costUsd": 0.000204
+      }
+    },
     "e8abfea49549c30ff98671315cbd3510a880b4466ae5eb506b14c78773dfaae0": {
       "normalizationVersion": 1,
       "sourceHash": "ae84766513e995821bc74b481619424c747103a3505b88f1a3733714cdab8618",
@@ -783,6 +811,20 @@
         "inputTokens": 136,
         "outputTokens": 17,
         "costUsd": 0.000062
+      }
+    },
+    "e8b94b0ec74866f04cbfa152ccf1e754d70fbfd86ec43a7bde1485185223cd07": {
+      "normalizationVersion": 1,
+      "sourceHash": "7b16d41e98546755960b8a4a553f4b66aa364f503a91fa1368c1d1870a827739",
+      "contextFingerprint": "13dc37615054237e0c7709eaeeae870786cc82f246848c5d03fd819812a87cdb",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image102.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image102.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e8bf4b4e140a224017154cbce3e8fd95787d542d284598a4bbbb4e416aeb57e7": {
@@ -1007,6 +1049,34 @@
         "inputTokens": 134,
         "outputTokens": 13,
         "costUsd": 0.000056
+      }
+    },
+    "e8f22f1037ca91911a62e69b8bb7ed2db38bd353f6824860d55959c6c57ff47e": {
+      "normalizationVersion": 1,
+      "sourceHash": "2e24e337375430081fecce976bea7f091854c95f252e4091872f162b15982edd",
+      "contextFingerprint": "fc4d45a9c6b096b2e2002f1207be58a5cd53581133bf9a07cc9495a63288692c",
+      "sourceText": "首先可以安装一个VScode插件叫做`Markdown All in One`,然后还有`Markdown Preview Enhanced`.",
+      "translatedText": "First, you can install a VSCode extension called `Markdown All in One`, and then there is also `Markdown Preview Enhanced`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
+    "e8f5052f790447e360ff302a68d5083cf0b1eddab4a3918fb432bb96d4f2456e": {
+      "normalizationVersion": 1,
+      "sourceHash": "abb8556988d82bad524ab597f6bfbef76754be3aac50348a1075c3c8da75f424",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### main函数入口参数",
+      "translatedText": "##### main function entry parameters",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "e8fece375a63372dd3896e742e64d8f3a54123130cab699e24cc781484816012": {

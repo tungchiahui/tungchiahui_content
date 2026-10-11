@@ -267,6 +267,20 @@
         "costUsd": 0
       }
     },
+    "ce5564b6c0111204dc2884aa3182c8fd07582b04377e9a5139b5b646268e3267": {
+      "normalizationVersion": 1,
+      "sourceHash": "4dea173610f24ef5aab6c593a31bf4ac0103a91d451c37021209a39325cc36bf",
+      "contextFingerprint": "1c39896bf87664d283cfbe05dde77a9cecfcff035b38f564f747142ebe124026",
+      "sourceText": "- filename: 保存图像的地址和文件名，包含图像格式。\n- img: 将要保存的Mat类矩阵变量。\n- params: 保存图片格式属性设置标志。\n该函数用于将Mat类矩阵保存成图像文件，如果成功保存，则返回true，否则返回false。可以保存的图像格式参考imread()函数能够读取的图像文件格式，通常使用该函数只能保存8位单通道图像和3通道BGR彩色图像，但是可以通过更改第三个参数保存成不同格式的图像。不同图像格式能够保存的图像位数如下：\n- 16位无符号(CV_16U)图像可以保存成PNG、JPEG、TIFF格式文件；\n- 32位浮点(CV_32F)图像可以保存成PFM、TIFF、OpenEXR和Radiance HDR格式文件；\n- 4通道(Alpha通道)图像可以保存成PNG格式文件。\n该函数第三个参数在一般情况下不需要填写，保存成指定的文件格式只需要直接在第一个参数后面更改文件后缀，但是当需要保存的Mat类矩阵中数据比较特殊时（如16位深度数据），则需要设置第三个参数。第三个参数的设置方式如代码清单2-31所示，常见的可选择设置标志在表2-6中给出。",
+      "translatedText": "- filename: The address and filename for saving the image, including the image format\\.\n- img: The Mat class matrix variable to be saved\\.\n- params: Flags for setting image format attributes\\. This function is used to save a Mat class matrix as an image file\\. If saved successfully, it returns true; otherwise, it returns false\\. The image formats that can be saved refer to the image file formats that can be read by the imread() function\\. Typically, this function can only save 8\\-bit single\\-channel images and 3\\-channel BGR color images, but images in different formats can be saved by changing the third parameter\\. The number of bits of images that can be saved in different image formats is as follows:\n- 16\\-bit unsigned (CV_16U) images can be saved as PNG, JPEG, and TIFF format files;\n- 32\\-bit floating\\-point (CV_32F) images can be saved as PFM, TIFF, OpenEXR, and Radiance HDR format files;\n- 4\\-channel (Alpha channel) images can be saved as PNG format files\\. The third parameter of this function generally does not need to be filled in\\. To save as a specified file format, you only need to directly change the file extension after the first parameter\\. However, when the data in the Mat class matrix to be saved is relatively special (such as 16\\-bit depth data), the third parameter needs to be set\\. The setting method of the third parameter is shown in code listing 2\\-31, and common optional setting flags are given in Table 2\\-6\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 405,
+        "outputTokens": 341,
+        "costUsd": 0.000531
+      }
+    },
     "ce56cac81e15f13c51f83c7fbb569c681c04d62549ecfb17fd56b65a8c8fbd42": {
       "normalizationVersion": 1,
       "sourceHash": "e7a56a5c35e418d2eb1238d57ac8bf5867229518a317b4ad239284fcff0a402c",
@@ -477,6 +491,20 @@
         "costUsd": 0.000073
       }
     },
+    "ce854c832ffc5de9b87fa038ce744ef4f30ce3d088141f65aa00b34517016270": {
+      "normalizationVersion": 1,
+      "sourceHash": "38c7a184e65baeab59116c45a16c167fbe678c491608737670f9f05eec3508b9",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**缩写和链接：**",
+      "translatedText": "**Abbreviations and Links:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "ce8566d1cc1a8f3c96353bba298bf6ee768c040d04851b421bba2dc6adb41f74": {
       "normalizationVersion": 1,
       "sourceHash": "75c00f1689fe0c15cdca3a689ed94cfbe427df0b827a48de3aff3e2a6c5b5156",
@@ -531,6 +559,20 @@
         "inputTokens": 135,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "ce98f5bd0838a84ee00f34605968dd179e818f200586c4d9849264db9a5d03a2": {
+      "normalizationVersion": 1,
+      "sourceHash": "34f7cfa4a61ebf977a6180887a4733e448fc030cc82d5c75d90526807e02e4bd",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "列表项中的换行：",
+      "translatedText": "Line break in list items:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 13,
+        "costUsd": 0.000057
       }
     },
     "ce9e8f56b094d50db361718644bc03f42933a7e87aee98c5af2b3f0cddabb50b": {
@@ -797,6 +839,20 @@
         "inputTokens": 138,
         "outputTokens": 20,
         "costUsd": 0.000066
+      }
+    },
+    "cedf52d52247d7cabf9bd913d8af9be2e94c4f5521da14df2cf52bf7fcb54975": {
+      "normalizationVersion": 1,
+      "sourceHash": "f283d4e8c42ff91012c29070bccef9464f7c77502f97fff2bfa2c44e1bc0305a",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 常用 LaTeX 命令",
+      "translatedText": "#### Common LaTeX Commands",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "cee63553d2182fc503eceaeb2b8fda859a04d1a35e88ec604db5ce11f5ac6263": {

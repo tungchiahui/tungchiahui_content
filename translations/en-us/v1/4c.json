@@ -43,6 +43,20 @@
         "costUsd": 0.000084
       }
     },
+    "4c1212ba15c19b143dfe2c29f174ab073ffff5ba9c9ec88537351ebe1b72674a": {
+      "normalizationVersion": 1,
+      "sourceHash": "b359c3f5e8d0f0cf2d8fd27ce49627bef0adb2645ad9cb9b77c644d5cc6d9fa0",
+      "contextFingerprint": "44fd706f2400e04380ce1e716d780ee3716269ef9d5f4e1b11e0803e02e879c4",
+      "sourceText": "`intr_type`是是否启用中断类型.<br>",
+      "translatedText": "`intr_type`Whether to enable the interrupt type\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 13,
+        "costUsd": 0.000056
+      }
+    },
     "4c12ba51a491ecfe269de5d92b0ecad1b16dbfb38e87afbfb3d66ffb0e70d426": {
       "normalizationVersion": 1,
       "sourceHash": "6b0560734da27501d439890204bb2d3cc5d026c030e4ffc66f2ba715b8d49a0a",
@@ -139,6 +153,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "4c22f223bb019e19d827538f991a5ce7ea3642dd3ff39abe5652415d19f107f3": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c4abb5dd82dbaab0460e2f26e963e465620309d94c96dd3c494bb274c6ad1ac",
+      "contextFingerprint": "2fbec3f34c2758089fb0314ae78e5e2804b44c216447c48ef26218332a787ecc",
+      "sourceText": "（但是CubeMX6.15.0有bug,这个选择GCC编译器并没有用，还需要后续自己手动选择编译器，以后可能会修复这个bug.）",
+      "translatedText": "(However, CubeMX6.15.0 there is a bug: selecting the GCC compiler here has no effect, and you still need to manually select the compiler later\\. This bug may be fixed in the future\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 166,
+        "outputTokens": 54,
+        "costUsd": 0.000115
       }
     },
     "4c29b15c3460f23b1fc1d49072d650a2552d74f500c52a90d5acda4cd10cdece": {
@@ -547,6 +575,20 @@
         "costUsd": 0.000062
       }
     },
+    "4c764f8568e89f3dcb40ca01e5cf5253b2285e7e600d650ba3b1a46641bb6d22": {
+      "normalizationVersion": 1,
+      "sourceHash": "564296c9f95e815331b209cf528733e799ece3c7ba47fb1ffa40b7c0e47de5b9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这样每次编译过于麻烦了，所以我们使用强大的VScode来一键编译。",
+      "translatedText": "Compiling this way every time is too cumbersome, so we use the powerful VSCode for one\\-click compilation\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 29,
+        "costUsd": 0.000079
+      }
+    },
     "4c7bb444a4792e1d0944610f7f3783f67b5553f5e21ba6d677aa34343ce9f767": {
       "normalizationVersion": 1,
       "sourceHash": "6657ca6ba46f258ff01f56ab19a901ac7ca070b46151ebb3f05527fdb9775a82",
@@ -575,6 +617,20 @@
         "costUsd": 0.000208
       }
     },
+    "4c856859f2155009f85ab9042e5484de5ca00796f409d00cb3714dd1b0b03478": {
+      "normalizationVersion": 1,
+      "sourceHash": "e3e508f1d0ea9564312a1fa0f4ffdc2125e243871d1228ce923ce103dc8baace",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "按照下图所示，把你要监视的变量输入到最顶上的框里，就可以加入到实时监视框里了。",
+      "translatedText": "As shown in the figure below, enter the variable you want to monitor in the top box, and it will be added to the real\\-time watch box\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 37,
+        "costUsd": 0.000091
+      }
+    },
     "4c8e01911e73df723fb1409c3f8961c76bb9c33e4e0a53eb30efb79669c7f583": {
       "normalizationVersion": 1,
       "sourceHash": "d5dc4f4f13838913fded5542600092c8ad148c11dc62ad36d52bd0544f0c6f27",
@@ -601,6 +657,20 @@
         "inputTokens": 134,
         "outputTokens": 14,
         "costUsd": 0.000057
+      }
+    },
+    "4c9676d23e5bd2d15daf46fc0465715919c65cb4f663027f3067608f306cb23d": {
+      "normalizationVersion": 1,
+      "sourceHash": "294561f6c9fbe5eaf4e7604a0cdf66a1bc20a3baf71e1c3a09986a703adfbfc9",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过at方法读取元素需要在后面跟上\"<数据类型>\"，如果此处的数据类型与矩阵定义时的数据类型不相同，就会出现因数据类型不匹配而产生的报错信息。该方法以坐标的形式给出需要读取的元素坐标(行数, 列数)。需要说明的是，如果矩阵定义的是uchar类型的数据，那么在需要输入数据的时候，需要强制转换成int类型的数据进行输出，否则输出的结果并不是整数。",
+      "translatedText": "To read an element via the at method, you need to append \"\\<data type\\>\"\\. If the data type here differs from the data type used when the matrix was defined, an error message will occur due to the data type mismatch\\. This method specifies the coordinates of the element to be read in the form of (row number, column number)\\. It should be noted that if the matrix is defined with uchar\\-type data, then when data needs to be input, it must be cast to int\\-type data for output; otherwise, the output result will not be an integer\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 214,
+        "outputTokens": 122,
+        "costUsd": 0.000211
       }
     },
     "4c9969dd2a0a479fbf990bb32bcc6f1b89cc539c6b65b4037896dd0d778c88a4": {
@@ -729,6 +799,20 @@
         "costUsd": 0.000055
       }
     },
+    "4cacc318530c84015cc552386f71831248f48f93a09e867abb5004c6e7ae46f9": {
+      "normalizationVersion": 1,
+      "sourceHash": "f2b4d62b49f06aea27c58dee73494b516dc105aa5c9c6ceac77e081599314743",
+      "contextFingerprint": "310bf650a616e9f1154d20e60af063a23ac44ad84f44b0c1d67ca33566e6ba68",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935820486.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767935820486.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "4cad0f5ca9db0b25aeffe9575c6f72a8c78a3f37bfae258e531c000e925deb5b": {
       "normalizationVersion": 1,
       "sourceHash": "a0dd3bf843e617425bc7851a26ce8f7f606d76f4a9ef4b311701a9d3f33956c7",
@@ -791,6 +875,20 @@
       "contextFingerprint": "f6e6282d2524fce97019a7fe00ce0ff3ae90c9d6cd93d5655d495f1b465b373e",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1415.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1416.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1415.webp)![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1416.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "4cbd7db0cc00aedbcdf535417a1483a4a0992da4cec7306724632ccc6b47cc48": {
+      "normalizationVersion": 1,
+      "sourceHash": "19d14b92dab7d7f4c6f89451122944e1e9ecfb1509e4d09b1a0b2aeb6a60bc95",
+      "contextFingerprint": "52ba332f6de5a5013619eda6b330a01d948ed913a3cd8a721feed337b59c92ae",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image49.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image49.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -979,6 +1077,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4ce260e526ad8ba28af46a1d5ade4e7b5734cf6cd35e059877d9764de733644a": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a8c4ab22bf96cc4db53cf4ed4fc621eea4b4f54bd865895deddbcba3d96dfe0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "打开终端输入",
+      "translatedText": "Open the terminal and enter",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 12,
+        "costUsd": 0.000054
       }
     },
     "4ceb4aec6c9c2a86c5128919655ef6bffbfea72250662e46962ee131c0bab373": {

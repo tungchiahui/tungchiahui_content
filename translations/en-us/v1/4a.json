@@ -155,6 +155,20 @@
         "costUsd": 0.000054
       }
     },
+    "4a22e8919028830047b3fb3e856b80161db343487d8ab557e93aa939c26feef2": {
+      "normalizationVersion": 1,
+      "sourceHash": "f0f237dad44f12b2457e28a95f8c246e8f785f3badd08be70a1c07c23b786381",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "复制输出结果：",
+      "translatedText": "Copy output result:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "4a2953674a76cab13c367784cf2026b2f8f5e68c3693e98660cddb035a67bccf": {
       "normalizationVersion": 1,
       "sourceHash": "7365623295efd8461525c9d0ff0053da43c65191b8b5fa367104488c28b858f2",
@@ -209,6 +223,20 @@
         "inputTokens": 148,
         "outputTokens": 29,
         "costUsd": 0.00008
+      }
+    },
+    "4a36e5a009b39b255658e82f2d13fbed4d35c14f36e95f1a3850c2ee74e72a25": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9cfa3ae44e98174a6384721d95a2ebb23666f84d757c88b94504f68d8d6a6b8",
+      "contextFingerprint": "c447c440cb29c833ed5d36acc1f3b6a58f409fcd1f4992322bca31b700027fb0",
+      "sourceText": "在`serverCwd`后面，`runEntry`前面加上：",
+      "translatedText": "At`serverCwd` later,`runEntry` prefix with:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 15,
+        "costUsd": 0.00006
       }
     },
     "4a3828c5316fe83dfc71e00418767417b4a120a1dac55f5b795c26c2262d12c4": {
@@ -377,6 +405,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "4a7743518f3146c6977b7a7cc50df9528a47df471c6f43709f047e96ad7eec0b": {
+      "normalizationVersion": 1,
+      "sourceHash": "00706f7aa35de0111a47aceec99a0a915c2eb265362c7719aee714291248b747",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "该函数主要用于将多个图像合并成一个多通道图像，该函数也具有两种不同的函数原型，每一种函数原型都与split()函数相对应，两种原型分别输入数组形式的图像数据和向量(vector)形式的图像数据，在输入数组形式数据的原型中，还需要输入数组的长度。合并函数的输出结果是一个多通道的图像，其通道数目是所有输入图像通道数目的总和。这里需要说明的是，用于合并的图像并非都是单通道的，也可以是多个通道数目不相同的图像合并成一个通道更多的图像。虽然这些图像的通道数目可以不相同，但是需要所有图像具有相同的尺寸和数据类型。",
+      "translatedText": "This function is primarily used to merge multiple images into a single multi\\-channel image\\. This function also has two different function prototypes, each corresponding to the split() function\\. The two prototypes respectively accept image data in array form and image data in vector form\\. In the prototype that accepts data in array form, the length of the array must also be provided\\. The output of the merge function is a multi\\-channel image, whose number of channels is the sum of the channel counts of all input images\\. It should be noted here that the images used for merging are not necessarily all single\\-channel; multiple images with different numbers of channels can also be merged into an image with more channels\\. Although these images may have different numbers of channels, all images are required to have the same size and data type\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 251,
+        "outputTokens": 163,
+        "costUsd": 0.000271
       }
     },
     "4a78e9e2b3eb52b18f67ef04872bb951dd0b2860af65a3db12a59546caf907c0": {
@@ -617,6 +659,20 @@
         "costUsd": 0.000053
       }
     },
+    "4ab54ec9ffea2fca3d59809816ab5fa7fb5fb5a233ea20cc3ac8c51b6c65e8ea": {
+      "normalizationVersion": 1,
+      "sourceHash": "3d34ee7de399e36f711efbac80be3ac7a3c0f56e165faede2bd55170f4f2f8dc",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 代码区块",
+      "translatedText": "### code block",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
+      }
+    },
     "4aba8dc3c012f792c3191430e7b0afbfa4d81c3b498a1abf2abeaed1c17e931b": {
       "normalizationVersion": 1,
       "sourceHash": "fc33250a7d2e796bb7ad263ace1c31239530bb181570e68362acedc3c8181efe",
@@ -671,6 +727,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "4aca709d46dc6124a558f2e9e47ede423f7eab339bcd8b8732b3ea70e484d067": {
+      "normalizationVersion": 1,
+      "sourceHash": "029a14ad18f371e2dabf7b3013753bc68f8a0be2a0d8c9bdcc3abe06a02d1bed",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面已经介绍了如何通过程序读取图像数据，本节将介绍OpenCV中为读取视频文件和调用摄像头而设计的VideoCapture类。",
+      "translatedText": "Previously, we introduced how to read image data programmatically\\. This section will introduce the VideoCapture class in OpenCV, which is designed for reading video files and accessing cameras\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 41,
+        "costUsd": 0.000097
       }
     },
     "4acf0a2f70377ac78281d0b9343e1db32dda1c97ae8441b1ea2376f61bafbb0b": {

@@ -29,6 +29,20 @@
         "costUsd": 0
       }
     },
+    "dd04575031dc2668430d8c67917ac946b0620e1b0b4f5a6ebe1b30c7923cb238": {
+      "normalizationVersion": 1,
+      "sourceHash": "651324b205537bddec94ebc92299efda633df33b9c4d42f21c9529a2f587679c",
+      "contextFingerprint": "f2fd764c1acdbfa7d11b192fe2819a17dfdae983233dc7328616f9c652c31164",
+      "sourceText": "| 语言 / 类型 | 推荐标识符 | 常用标识符 / 别名 | 示例 |\n|---|---|---|---|\n| Bash | `bash` | `sh`, `shell` | ` ```bash ` |\n| POSIX Shell | `sh` | `shell` | ` ```sh ` |\n| Zsh | `zsh` | — | ` ```zsh ` |\n| Fish | `fish` | — | ` ```fish ` |\n| PowerShell | `powershell` | `ps1` | ` ```powershell ` |\n| Windows Batch | `batch` | `bat`, `cmd` | ` ```batch ` |\n| Console / 终端会话 | `console` | `shell-session` | ` ```console ` |\n| 纯文本 | `text` | `plaintext`, `txt` | ` ```text ` |",
+      "translatedText": "| Language / Type | Recommended identifier | Common identifier / Alias | Example |\n|---|---|---|---|\n| Bash | `bash` | `sh`, `shell` | ` ```bash ` |\n| POSIX Shell | `sh` | `shell` | ` ```sh ` |\n| Zsh | `zsh` | — | ` ```zsh ` |\n| Fish | `fish` | — | ` ```fish ` |\n| PowerShell | `powershell` | `ps1` | ` ```powershell ` |\n| Windows Batch | `batch` | `bat`, `cmd` | ` ```batch ` |\n| Console / Terminal session | `console` | `shell-session` | ` ```console ` |\n| Plain text | `text` | `plaintext`, `txt` | ` ```text ` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 183,
+        "outputTokens": 57,
+        "costUsd": 0.000124
+      }
+    },
     "dd0b017f6daa96e41eb60a7f6459505f3a0f7006ec4d65e80bb78500512e90f8": {
       "normalizationVersion": 1,
       "sourceHash": "1c5e9bb70587ee34c3e2de29a9a3946ba8fba2e8821456d81a770d2395c2be4e",
@@ -323,12 +337,40 @@
         "costUsd": 0.000052
       }
     },
+    "dd660d1355cade43ecc4a205234bb9d7a51a8152e588759c91be30130f336099": {
+      "normalizationVersion": 1,
+      "sourceHash": "271a9dc797c3c245c26ca2c42216edf61852d2d6fe9e2ca7d9254b0a2d985704",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**重要信息提示**",
+      "translatedText": "**Important Information Notice**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "dd671d2844ead034ff4b1cba184e49aa6076d8cbfbae7058678f583b6e9b001d": {
       "normalizationVersion": 1,
       "sourceHash": "67a499f0e1982c588c62df4376aa27df91cd082c0c8dd39ef3ae1602545b45a3",
       "contextFingerprint": "906134d642216034a859cf3eb73f2580434f306f1eacefaa4be870c5db832bd4",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1671.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1671.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "dd6a3e86e1e28899b987300eb7264cb13e1502d2a0a861bd649bd57ae6f7e1be": {
+      "normalizationVersion": 1,
+      "sourceHash": "4df425de947c89b10096d6bceb49b9e548a32eafdeffbf9916f25585def3cb32",
+      "contextFingerprint": "f3bec258ede2e0485dac7466fb82ab3d8769918e79c7cbba083784e9e4f82791",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767936602550.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1767936602550.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -349,6 +391,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "dd77c76f82d611a51c47832ade2282498404a8f518cecc84b24c40d12b15c379": {
+      "normalizationVersion": 1,
+      "sourceHash": "231a8dd5f3998e27757d50357bcb646a5cf007e9f726e5a301556b46680913a2",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "GRAY模型并不是一个彩色模型，而是一个灰度图像的模型，其命名使用的是英文单词gray的全字母大写。灰度图像只有单通道，灰度值根据图像位数不同由0到最大依次表示由黑到白，例如8UC1格式中，由黑到白被量化为256个等级，通过0～255表示，其中255表示白色。彩色图像具有颜色丰富、信息含量大的特性，但是灰度图在图像处理中依然具有一定的优势。例如，灰度图像具有相同尺寸相同压缩格式所占容量小、易于采集、便于传输等优点。常用的RGB模型转成灰度图的方式如式(3-2)所示。",
+      "translatedText": "The GRAY model is not a color model, but a grayscale image model; its name uses the English word gray in all uppercase letters\\. A grayscale image has only a single channel\\. Depending on the image bit depth, grayscale values from 0 to the maximum represent black to white in sequence\\. For example, in the 8UC1 format, black to white is quantized into 256 levels, represented by 0 to 255, where 255 represents white\\. Color images have the characteristics of rich colors and high information content, but grayscale images still have certain advantages in image processing\\. For example, grayscale images offer the advantages of small storage size for the same dimensions and compression format, ease of acquisition, and convenience of transmission\\. The commonly used method for converting an RGB model to a grayscale image is shown in Equation (3\\-2)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 266,
+        "outputTokens": 183,
+        "costUsd": 0.0003
       }
     },
     "dd7eea5f8eefdc23d89d2ac967c463f55597d51950f2f096e31410cfbbcdf12f": {
@@ -673,6 +729,20 @@
         "costUsd": 0.00007
       }
     },
+    "ddad4c6e57e73eff6494d233ccfc705bc06f84bde54ab591a1ea07e84ab0b9fc": {
+      "normalizationVersion": 1,
+      "sourceHash": "6a236c7564d62c7c01a7f0a06591f8eac90754ae99e556bc74d81a983d550970",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "用VScode打开新创建的文件夹",
+      "translatedText": "Open the newly created folder with VSCode",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
     "ddb240fb248256b4b90a86f430fbbeeebb99887ec45c335a28383b3b8b77c72b": {
       "normalizationVersion": 1,
       "sourceHash": "67f4ca5926ddb8f6d5f9256b0b39f88286f47d7ecb2194f7bca63606251b8630",
@@ -741,6 +811,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "ddb9ccb90b5edb0e126aa32eef8cc14bd0d60d14b021dc65de40d8e853565e65": {
+      "normalizationVersion": 1,
+      "sourceHash": "d32438bd0c4307a37fe0a37f0e040d9cecb0b8fbff403d8847aca80b80617a62",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "如果需要构造的矩阵尺寸比已有矩阵小，并且存储的是已有矩阵的子内容，那么可以用代码清单2-9中的方法进行构建。",
+      "translatedText": "If the matrix to be constructed is smaller in size than an existing matrix and stores a sub\\-content of the existing matrix, then it can be constructed using the method in Code Listing 2\\-9\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 46,
+        "costUsd": 0.000103
       }
     },
     "ddbb710b867df71f19914c76927da7ed2174219944118da7338ffba37042ca4a": {

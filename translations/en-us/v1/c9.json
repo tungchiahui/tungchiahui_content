@@ -85,6 +85,20 @@
         "costUsd": 0.000051
       }
     },
+    "c90afc07b621221f11e3df73bf47ba453094bafdff2c843033b5429c2409e51a": {
+      "normalizationVersion": 1,
+      "sourceHash": "c498c9a3612bbfc2935b72195ccf197d134fee8ef3900533b57f6b8f988cba80",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "便携性：Markdown 文件是纯文本格式，可以在任何文本编辑器中打开和编辑，不依赖特定的软件或操作系统。",
+      "translatedText": "Portability: Markdown files are in plain text format, can be opened and edited in any text editor, and do not depend on specific software or operating systems\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 157,
+        "outputTokens": 39,
+        "costUsd": 0.000094
+      }
+    },
     "c90c2b3b8dfd2951e36c99bc68a31bb3483fcaa96fa137d7630d8736fb554e9a": {
       "normalizationVersion": 1,
       "sourceHash": "11de3823d33f831413099aab8a2c9bbd59d2c55e893d2cc3697aafaba39eac59",
@@ -211,6 +225,20 @@
         "costUsd": 0.000051
       }
     },
+    "c92ff43613d3a534de41ef8903bcefbbf2e8acfb01e2b107b6ef96d3a3ca30b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd81b5b940d4260940b89046db6bbf44a5197c4455ab2af3e4b6d046c214783c",
+      "contextFingerprint": "f4d8d61807972599a72a5ce99391d1853a32633daa81394a87e87e35faaab53e",
+      "sourceText": "1. 查找设备\n    1. Windows\n    如果你是windows,则右键`此电脑`,点`管理`\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375429763.webp)\n\n    看到下面正常检测出来了\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375466417.webp)\n\n    2. Linux\n    如果你是linux,则打开终端\n\n    ```bash\n    ls /dev | grep USB\n    # 或者\n     ls /dev | grep ACM\n    ```\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449184448.webp)\n\n    看是否有设备被检测出来.如上图,我的为`/dev/ttyACM0`.\n\n2. 下载\n    1. Windows\n    如果你是Windows,则要先选模式为`JTAG`,端口为检测出来的端口`COM4`,芯片型号为`esp32s3`,然后点击`清理`,`构建`,`烧录`.\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375800452.webp)\n\n    然后选择yes\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375960461.webp)\n\n\n    如图烧录好了\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768376077047.webp)\n\n   2. Linux\n    如果你是Linux,则要先选模式为`JTAG`,端口为检测出来的端口`/dev/ttyACM0`,芯片型号为`esp32s3`,然后点击`清理`,`构建`,`烧录`.\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449239886.webp)\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449318480.webp)\n\n    这里选yes\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449382096.webp)\n\n    如下图就是烧录成功了(如果你不能正常下载,请往下面找`常见问题`)\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768539121456.webp)",
+      "translatedText": "1. Device Detection\n    1. Windows     If you are on Windows, right\\-click`此电脑`, click`管理`\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375429763.webp)\n\n    You will see it has been detected properly as shown below\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375466417.webp)\n\n    2. Linux     If you are on Linux, open a terminal\n\n    ```bash\n    ls /dev | grep USB\n    # 或者\n     ls /dev | grep ACM\n    ```\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449184448.webp)\n\n    Check whether any device is detected\\. As shown above, mine is`/dev/ttyACM0`\\.\n\n2. Download\n    1. Windows     If you are on Windows, first select the mode as`JTAG`, set the port to the detected port`COM4`, and the chip model to`esp32s3`, then click`清理`,`构建`,`烧录`\\.\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375800452.webp)\n\n    Then select yes\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768375960461.webp)\n\n\n    It is flashed as shown in the figure\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768376077047.webp)\n\n   2. Linux     If you are on Linux, first select the mode as`JTAG`, set the port to the detected port`/dev/ttyACM0`, and the chip model to`esp32s3`, then click`清理`,`构建`,`烧录`\\.\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449239886.webp)\n\n    ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449318480.webp)\n\n    Select yes here     ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768449382096.webp)\n\n    The figure below indicates successful flashing (if you cannot download normally, please look below`常见问题`)     ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768539121456.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 277,
+        "outputTokens": 187,
+        "costUsd": 0.000308
+      }
+    },
     "c93afdf8931aebce2a8f793788bb50bf75ff06101beaa425774700719974129b": {
       "normalizationVersion": 1,
       "sourceHash": "5261f85d8608c54ea52cd5a069bdbfd7d79e1bd188e59758455c47292c9d8368",
@@ -237,6 +265,20 @@
         "inputTokens": 143,
         "outputTokens": 29,
         "costUsd": 0.000078
+      }
+    },
+    "c93eb7badc878f0d46ba6c2c20b0ffd3afae6a8e960f3cb86e37e4584705207a": {
+      "normalizationVersion": 1,
+      "sourceHash": "28988bf1ebe10cdbd94b19bca2f60351f5a0b4e7080070eae38f88ef2abaafdd",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### Mat 类构造与赋值",
+      "translatedText": "#### Mat Class Construction and Assignment",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "c948a0f3ace7eeccf96ecee78dcfbd6cc846055584540b8792bbd866ca4def3b": {
@@ -293,6 +335,20 @@
         "inputTokens": 141,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "c951fd72a4651434a4ebd35cea005dc06ad9ec22dd9762f0396a8ac857b27f55": {
+      "normalizationVersion": 1,
+      "sourceHash": "db6b9bc3ad9b0deb98f4defe84c868ec844904dd0422017e9ab9648cc3e6654e",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "基础语法",
+      "translatedText": "Basic Syntax",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "c9559780261e21e5f6ff951df37915425a164f44c8c9cd8143793ce74b1cd7ef": {
@@ -461,6 +517,20 @@
         "inputTokens": 138,
         "outputTokens": 15,
         "costUsd": 0.00006
+      }
+    },
+    "c981d48ed9cd8c53861817a292d73b82ef5c501171181e94d8ea87693dfa6b4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "658791df3e2f417ba4a99c5dd4bc1120f1618487d735d7c3eb2f74430ee131b3",
+      "contextFingerprint": "23d0bcd836b48ba19b61c834e2d5b9db3796197edb5a679649c2708d4ba35120",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image61.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image61.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "c9834e6d2ab0560fdb929a3c7505faba3458711a68d750d9ec51c99f70f4a2e2": {
@@ -643,6 +713,20 @@
         "inputTokens": 133,
         "outputTokens": 12,
         "costUsd": 0.000055
+      }
+    },
+    "c9b34a46f1b3efaea912c60fb5d5ef3c3ef47473df745583ec048099439b6498": {
+      "normalizationVersion": 1,
+      "sourceHash": "d8b9787ad4a0c657e89678bfe492a00d075489668e356c59e4862780fbe458ce",
+      "contextFingerprint": "3cd1e176e03f6bf8b535e47e236aa5a20de6d48ec7a04e9c57b31c97ea184cc8",
+      "sourceText": "复制basic工程,并粘贴到你存放代码的文件夹,然后重命名为N01_LED.",
+      "translatedText": "Copy the basic project, paste it into your code folder, and then rename it to N01_LED\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 34,
+        "costUsd": 0.000087
       }
     },
     "c9b5ad04015a43662135f087839acb914f9ec4f2368d7737e970ea9613a5cc33": {

@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "610055550ffeca80cc7d9fb35a4b3242e3fb2dd9163a9e30731f0b841ec37f5d": {
+      "normalizationVersion": 1,
+      "sourceHash": "8e76d8916eb4adc0d6e43e4d22f7b94a42303bb20d15307cdd79c47b78042f6a",
+      "contextFingerprint": "3de938545726ee004d30da3e682575b65c4f7b7d58f0d65228f26a326e5ceeac",
+      "sourceText": "##### 安装JLink驱动",
+      "translatedText": "##### Install JLink Driver",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "6104c983440ba32066dd3e36703c94febdb1948c8c4ecab38db504086459f61a": {
       "normalizationVersion": 1,
       "sourceHash": "3a258289d32cd90d186e7a47c5e27ff17d162243fb7cb076ebdcf39b0c7d50e3",
@@ -71,6 +85,34 @@
         "costUsd": 0.000065
       }
     },
+    "611bc7c729f854b965737f6b4a90b470f4607a63acbd0cec5ccf52b20d7da6e2": {
+      "normalizationVersion": 1,
+      "sourceHash": "21db7414e3bf91d1f0cc7d83830bb7ca223695bea34cdd390ba543e4509631ae",
+      "contextFingerprint": "b9efa2abc0894d2a43357dc553aaef8638deba1647e079c929f317c71f206b12",
+      "sourceText": "为了直观地感受同一张图像在不同颜色空间中的样子，在代码清单3-2中给出了前面几种颜色模型互相转换的程序，运行结果如图3-4所示。需要说明的是，Lab颜色模型具有负数，而通过imshow()函数显示的图像无法显示负数，因此在结果中给出了利用Image Watch插件显示图像在Lab模型中的样子。在程序中，为了防止转换后出现数值越界的情况，我们先将CV_8U类型转成CV_32F类型后再进行颜色模型的转换。",
+      "translatedText": "To intuitively experience how the same image appears in different color spaces, Code Listing 3\\-2 provides a program for converting among the aforementioned color models, and the running results are shown in Figure 3\\-4\\. It should be noted that the Lab color model contains negative values, and images displayed via the imshow() function cannot display negative values; therefore, the results include the appearance of the image in the Lab model as displayed using the Image Watch plugin\\. In the program, to prevent out\\-of\\-range values after conversion, we first convert the CV_8U type to the CV_32F type before performing the color model conversion\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 248,
+        "outputTokens": 146,
+        "costUsd": 0.00025
+      }
+    },
+    "611ca1daca977f5bef0f7cfe087c95a2464a376d96981c9e17aab3eb3bda3260": {
+      "normalizationVersion": 1,
+      "sourceHash": "f678169d15f659b14aa9a26ed185e210f2ad94a5d48e2bcda99aa0a2b1f6fe62",
+      "contextFingerprint": "06da37ff2651e7d37627946df5f181a2d43d9b2ccfaa5237aaafd232b17c9ad0",
+      "sourceText": "与`led`的差不多.但是注意,这里的模式为输入模式,然后要启用上拉电阻.",
+      "translatedText": "Similar to`led`But note that the mode here is input mode, and then the pull\\-up resistor must be enabled\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 149,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
     "61209d2c5fc06a24e81d4f21923713dd76c3a8b3f15623295766f204a4e8321f": {
       "normalizationVersion": 1,
       "sourceHash": "d0852e7ef3606eac69f212489f5c2235b20ae5b2974e6575f746cfd39aff0476",
@@ -83,6 +125,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "61276d64a9c3937e8b0d57c1ed9a4503396e0cc7158ac6703ef0e4047b08577b": {
+      "normalizationVersion": 1,
+      "sourceHash": "5258f5e23758a974173bf877f7cb119858d0214c9e49ef1377c81db031f2de61",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- 👉 num 是父类\n- 👉 int 和 double 是子类",
+      "translatedText": "- 👉 num is the parent class\n- 👉 int and double are subclasses",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 21,
+        "costUsd": 0.000069
       }
     },
     "612b345207e6d8fa04dd644363ecd88467a944d31870b5cf9f520b77620be077": {
@@ -309,6 +365,20 @@
         "costUsd": 0.000051
       }
     },
+    "6167b2a793e875dfe2626b1297e6b88d96ab90c84f4ee90bcdac56bd6ba4b56a": {
+      "normalizationVersion": 1,
+      "sourceHash": "ce4f86cc85ee6ec6dcf1df29bb4ae42bd3497faf956be01cefe69f168f196793",
+      "contextFingerprint": "c8d701f1949338e1d4db1c30582c041d767fb9f1f3ded12c8ec0c15f0d6f97a1",
+      "sourceText": "1. 如果你是linux且遇到下面的这个问题",
+      "translatedText": "1. If you are on Linux and encounter the following issue",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 17,
+        "costUsd": 0.000061
+      }
+    },
     "6168228c3a8b128e10f82f68ca074cf3f848f1ac2058a6fa2a924ea9349ac7bf": {
       "normalizationVersion": 1,
       "sourceHash": "e8c1a53035d06cc65be502b103ab1b3bcb6c29fbeb3db8aa4fe39ac238b934fe",
@@ -391,6 +461,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "616f170fa98536ba4e47d644f50333d89af53f716c725b96cea839ffff0da859": {
+      "normalizationVersion": 1,
+      "sourceHash": "30127e69e08559bf3425a32e648eefba33716727a69493a58c2bdb7ba1b97506",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 图像存储容器",
+      "translatedText": "### Image storage container",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "617576c9189e22d57b41f65f301a2ca56fe340385508820f191b7ba7a7f0671c": {
@@ -533,6 +617,20 @@
         "costUsd": 0.000105
       }
     },
+    "61c5c1f8e5a8e99a9e7668b18229a96b9fc1b5a630efaaeee176285a78f1ab1f": {
+      "normalizationVersion": 1,
+      "sourceHash": "cb3d02c7d25975a61075becb60ff02d47c1eba8a7cc8fe793e60cf61191210c3",
+      "contextFingerprint": "cb0c8a2f9b54bafd8893657e9bf5d4c4d9bdc6f33a31462bb07b8a117ce083c1",
+      "sourceText": "`level`是输出的电平是高还是低,填0就是低,填1就是高.",
+      "translatedText": "`level`It is whether the output level is high or low\\. Filling in 0 means low, and filling in 1 means high\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 33,
+        "costUsd": 0.000084
+      }
+    },
     "61c61d1904aa642711ab1f12e99f5f7cec15291b3229f47c339e33b1c85fc04f": {
       "normalizationVersion": 1,
       "sourceHash": "e518d3dc9786dad267e3651658abc7ec2cb0c9dac08c7aeb2be590dc8a30e7ce",
@@ -637,6 +735,20 @@
       "contextFingerprint": "7a9c42361df0094aa82f96826e172c5ccb1b88ce1f3a700ac0a918b647163cbf",
       "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1012.webp)",
       "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1012.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "61e4a20628dfda430dabc45e0523256b46210cc7e6e7ee4e3b2a8178da92fe65": {
+      "normalizationVersion": 1,
+      "sourceHash": "077d65246c09386576dd9a24e267d85b0733cc4a73c1cd153fe7867a6f4beab5",
+      "contextFingerprint": "935c9688e87b96b2eeda76f176c9d1a03ce40297e682e4016d4303dfc775b0ec",
+      "sourceText": "1. `configFiles`:",
+      "translatedText": "1. `configFiles`:",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {

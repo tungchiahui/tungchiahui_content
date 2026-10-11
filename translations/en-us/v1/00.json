@@ -351,6 +351,20 @@
         "costUsd": 0
       }
     },
+    "005b5dd96abd331eb451ff1a85f5199a5fce9f6f347c51fca72344bf151f312b": {
+      "normalizationVersion": 1,
+      "sourceHash": "75e6d38021bf46ecb4bdc414cb2b7df604e01947d6764885c93abb20f10c00d0",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。",
+      "translatedText": "Markdown is a lightweight markup language that allows people to write documents in a plain\\-text format that is easy to read and write\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 153,
+        "outputTokens": 32,
+        "costUsd": 0.000085
+      }
+    },
     "005e490f58ad8a75956f5f65d803dfb9f35007c695b5e950df99fdc29ae488b5": {
       "normalizationVersion": 1,
       "sourceHash": "1cfb16ca41c25a1e05a847ce6e070dd3b6dc445c24d065573e6969ca90dff6a9",
@@ -461,6 +475,20 @@
         "inputTokens": 141,
         "outputTokens": 19,
         "costUsd": 0.000066
+      }
+    },
+    "0071d70eeabda63644071864b87f557798ada7b393852e8c0b1eee127352c87f": {
+      "normalizationVersion": 1,
+      "sourceHash": "7bbcd891289067b05d2fe4346ef5cdf194935f0d5b9b0a9d46967659fdef21c6",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 转义",
+      "translatedText": "## Escape",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 9,
+        "costUsd": 0.000051
       }
     },
     "00761f509ea9f49c86d23409842c7fc23223536bf16602676e6af176dd716a8f": {
@@ -743,6 +771,20 @@
         "costUsd": 0.000068
       }
     },
+    "00afc3887bba2241b5a46397d100873971239f5dadba27860756514110bea6ce": {
+      "normalizationVersion": 1,
+      "sourceHash": "b7aa8fe8201a79406a5a8b46b81473e13575915197946a50ed22071a4c7fbde1",
+      "contextFingerprint": "b1a63d557e2d76dd9133d881ecb82522ea8a338c8c4ea971a289c71d1e57b9f6",
+      "sourceText": "| 标志参数                           | 简记  | 作用                                                  |\n| :----------------------------- | :-- | :-------------------------------------------------- |\n| IMWRITE_JPEG_QUALITY         | 1   | 保存成JPEG格式的文件的图像质量，分成0～100等级，默认95                    |\n| IMWRITE_JPEG_PROGRESSIVE     | 2   | 增强JPEG格式，启用为1，默认值为0 (False)                         |\n| IMWRITE_JPEG_OPTIMIZE        | 3   | 对JPEG格式进行优化，启用为1，默认参数为0 (False)                     |\n| IMWRITE_JPEG_LUMA_QUALITY   | 5   | JPEG格式文件单独的亮度质量等级，分成0～100，默认为0                      |\n| IMWRITE_JPEG_CHROMA_QUALITY | 6   | JPEG格式文件单独的色度质量等级，分成0～100，默认为0                      |\n| IMWRITE_PNG_COMPRESSION      | 16  | 保存成PNG格式文件压缩级别，0～9，值越大意味着更小尺寸和更长的压缩时间，默认值为1（最佳速度设置） |\n| IMWRITE_TIFF_COMPRESSION     | 259 | 保存成TIFF格式文件压缩方案                                     |",
+      "translatedText": "| Flag parameter                           | Abbreviation  | Function                                                  |\n| :----------------------------- | :-- | :-------------------------------------------------- |\n| IMWRITE_JPEG_QUALITY         | 1   | Image quality for files saved in JPEG format, ranging from 0 to 100, default 95                    |\n| IMWRITE_JPEG_PROGRESSIVE     | 2   | Enhance JPEG format; enable by setting to 1, default value is 0 (False)                         |\n| IMWRITE_JPEG_OPTIMIZE        | 3   | Optimize JPEG format; enable by setting to 1, default parameter is 0 (False)                     |\n| IMWRITE_JPEG_LUMA_QUALITY   | 5   | Separate luminance quality level for JPEG format files, ranging from 0 to 100, default 0                      |\n| IMWRITE_JPEG_CHROMA_QUALITY | 6   | Separate chrominance quality level for JPEG format files, ranging from 0 to 100, default 0                      |\n| IMWRITE_PNG_COMPRESSION      | 16  | Compression level for files saved in PNG format, 0–9; larger values mean smaller size and longer compression time, default value is 1 (best speed setting) |\n| IMWRITE_TIFF_COMPRESSION     | 259 | Compression scheme for files saved in TIFF format                                     |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 361,
+        "outputTokens": 263,
+        "costUsd": 0.000424
+      }
+    },
     "00b0a0894b2522d2632ab42b4c95fc11268fe5223ea95170e6a555e344efe588": {
       "normalizationVersion": 1,
       "sourceHash": "185d7f622cfbac6c90c2f7faa178bc7aea81c43de253757dade83d92a15990a5",
@@ -783,6 +825,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "00c334fb4536498f6c9d4bcf838e3544385c043925ec507b000bed0b68ebeed4": {
+      "normalizationVersion": 1,
+      "sourceHash": "80c3549a921e1cb7f05a224cb7b24b9333cd417d984569dc7c3e7ad7fa4662e8",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "例如要安装OpenAI,则搜索OpenAI",
+      "translatedText": "For example, to install OpenAI, search for OpenAI",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 17,
+        "costUsd": 0.000063
       }
     },
     "00c409b3433ac328c5bc371acf78a61764843e563ffb4127be7ed8975e2dcfb8": {

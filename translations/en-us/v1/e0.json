@@ -43,6 +43,20 @@
         "costUsd": 0.000062
       }
     },
+    "e0050c5bbd3c9f2d03de80cb13c4db2b9c16c60d23f001d6147976b5381352ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "9a78673afb776432a693be6c506f7ca4072f609de4b3725cf651f0e24efdb689",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在学习如何读取Mat类矩阵元素之前，首先需要知道Mat类变量在计算机中是如何存储的。多通道的Mat类矩阵类似于三维数据，而计算机的存储空间是一个二维空间，因此Mat类矩阵在计算机中存储时是将三维数据变成二维数据，先存储第一个元素每个通道的数据，之后再存储第二个元素每个通道的数据。每一行的元素都按照这种方式进行存储，因此，如果我们找到了每个元素的起始位置，那么可以找到这个元素中每个通道的数据。图2-5展示了一个三通道矩阵的存储方式，其中连续的蓝色、绿色和红色方块分别代表每个元素的3个通道。",
+      "translatedText": "Before learning how to read elements of a Mat class matrix, it is first necessary to understand how Mat class variables are stored in a computer\\. A multi\\-channel Mat class matrix is similar to three\\-dimensional data, whereas a computer's storage space is a two\\-dimensional space\\. Therefore, when a Mat class matrix is stored in a computer, the three\\-dimensional data is converted into two\\-dimensional data: first the data of each channel of the first element is stored, and then the data of each channel of the second element is stored\\. The elements of each row are stored in this manner\\. Therefore, if we find the starting position of each element, we can find the data of each channel in that element\\. Figure 2\\-5 shows the storage method of a three\\-channel matrix, in which the consecutive blue, green, and red squares respectively represent the 3 channels of each element\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 259,
+        "outputTokens": 181,
+        "costUsd": 0.000295
+      }
+    },
     "e0066c68b7dd29252889fc65e2a952709a33a5fd3fc05b1d2841838687203e91": {
       "normalizationVersion": 1,
       "sourceHash": "7d4afc350875a5da7821a84a125038d83f3232bf021e1208700703a5605141bd",
@@ -181,6 +195,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "e025f136eaa4e83101b5cb89ae0b4f6a032dfd44cbcb0544b317f4191dcdcbee": {
+      "normalizationVersion": 1,
+      "sourceHash": "dbd6ec9a5b8a2b84ac7a27100999d2d828e0c84872638dd2ec0ec706e4e0828c",
+      "contextFingerprint": "e7e76949d2ed8e51b88e473e4c903ffdddc6fa8717d27f4d2273a67deeb3e5d8",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514636597-868e4658.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1791514636597-868e4658.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "e0266d5de6f5802f41a3fda8ce90730e5c7c22870a7fa453f59be72249d7f160": {
@@ -645,6 +673,20 @@
         "costUsd": 0.000057
       }
     },
+    "e0a5c24dd92db9d501682616cc436e8a37df3b2b7cc976fce3a0ec0199a49725": {
+      "normalizationVersion": 1,
+      "sourceHash": "7236fad1400b1c11a26179ec3403218f10758b9597003727b841196cb1a3959c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "这里需要注意的是，当两个Mat类变量进行加减运算时，必须保证两个矩阵中的数据类型是相同的，即两个分别保存int和double数据类型的Mat类变量不能进行加减运算。与常规的乘除法不同之处在于，常数与Mat类变量运算结果的数据类型保留Mat类变量的数据类型，例如，double类型的常数与int类型的Mat类变量运算，最后结果仍然为int类型。在代码清单2-17的最后一行代码中，Mat类变量减去一个常数，表示的含义是Mat类变量中的每一个元素都要减去这个常数。",
+      "translatedText": "It should be noted here that when performing addition and subtraction operations on two Mat class variables, the data types in the two matrices must be the same, that is, two Mat class variables that store int and double data types respectively cannot undergo addition and subtraction operations\\. Unlike conventional multiplication and division, the data type of the result of an operation between a constant and a Mat class variable retains the data type of the Mat class variable\\. For example, when a double\\-type constant is operated on with an int\\-type Mat class variable, the final result is still of int type\\. In the last line of code in code listing 2\\-17, subtracting a constant from a Mat class variable means that this constant must be subtracted from every element in the Mat class variable\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 244,
+        "outputTokens": 157,
+        "costUsd": 0.000262
+      }
+    },
     "e0a6b8684d934c526c551d51008ee4573185732820b375debaec0df08f5e167e": {
       "normalizationVersion": 1,
       "sourceHash": "3b0dbfb697a9d8bd7e47eac72752f66a91758120f8f7871ffd0d3f63e077a7ed",
@@ -727,6 +769,34 @@
         "inputTokens": 242,
         "outputTokens": 119,
         "costUsd": 0.000216
+      }
+    },
+    "e0ad403d17b50ce15187dbab1402ec348d0bac3218827277ee8151815304704b": {
+      "normalizationVersion": 1,
+      "sourceHash": "37ca0aac516ff1386d91286ee3309dfb9a1398041dfe248ca4b4af0178315172",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "离线编写：可以在任何文本编辑器中离线编写文章，然后批量发布，提高了写作的灵活性。",
+      "translatedText": "Offline writing: Articles can be written offline in any text editor and then published in batches, improving writing flexibility\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 29,
+        "costUsd": 0.00008
+      }
+    },
+    "e0afb83d3e7a6abec9551b717f655e8b2cf2e119feca68b6bd608cdf20017c3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "f44bd7d62f2e37154583f7a32f2a3102fc36c815b17f7dda457f11bdbe19eda6",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "引用块用于突出显示重要信息、引用他人观点或创建视觉层次。",
+      "translatedText": "Blockquotes are used to highlight important information, quote others' viewpoints, or create visual hierarchy\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 26,
+        "costUsd": 0.000075
       }
     },
     "e0b1dd0728849c407e59385d67d2d13fe09b7da14d4f63609b57e062844af1ed": {
@@ -855,6 +925,20 @@
         "costUsd": 0
       }
     },
+    "e0cbf7549ab659918c0e0813f1b376c55339b22c160e8ca9a6f9063f7102292c": {
+      "normalizationVersion": 1,
+      "sourceHash": "1c90d318c30b689f6a2d66905a1be4659031309bd1cd87aca10efb480726e791",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "锚点链接用于在同一文档内跳转，特别适合长文档的导航：",
+      "translatedText": "Anchor links are used to jump within the same document and are especially suitable for navigating long documents:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 146,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "e0cd3f68842473bfd83403d00e02f23397cb87be57381c22565f44081fa1c8e9": {
       "normalizationVersion": 1,
       "sourceHash": "bc9f09ebc2a442edc3a976795d41da146289996031ecaccfb248a34496689fe5",
@@ -867,6 +951,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "e0ce6da8cacdae83d958c77a8e8e769f53273d5d7201c8fbb84058d7020083a6": {
+      "normalizationVersion": 1,
+      "sourceHash": "715d48a3d22b5cc2d7281e6ba253683f325d5a6d4c0dec3254a5704a7e392fcc",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "实际应用示例：",
+      "translatedText": "Practical application example:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "e0d28ffe8bc815e3bd700b65596029cd0f6d2be8b28343d83236d7e014fa4d26": {

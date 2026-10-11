@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "0806b8a2bd9c6a5527df7ad540ed13479ec8aef5e6dc6b2a51efcfb58fd1d434": {
+      "normalizationVersion": 1,
+      "sourceHash": "a9ed049b230baaf2d810ae171abd77161b5d6bf64e55d449d0d2c8aea072c9f9",
+      "contextFingerprint": "c4b216af2089737b0ce16b7e46a830c15a3f717a08f74030a9e94569029a42c5",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image94.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image94.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "080d90d2acf68e52c50eab6f054e561cd5c5019e952d5b3ff8a5943519991ae8": {
       "normalizationVersion": 1,
       "sourceHash": "daa442f33e445fa329cad485ca6678758baf70ca61ddf027be9815ae9bc75887",
@@ -225,6 +239,34 @@
         "costUsd": 0.000086
       }
     },
+    "083c5ee65f7f23659a1436b445b1d01d46f6413579e38c24db1d5eda67624db2": {
+      "normalizationVersion": 1,
+      "sourceHash": "6ed8b75499bdb9e9cc295c8eaed4058404c6b1301a82c1b148027dfa98e39b9a",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- mvbegin: 分离后的单通道图像，为数组形式，数组大小需要与图像的通道数相同。\n- m: 待分离的多通道图像。\n- mv: 分离后的单通道图像，为向量(vector)形式。",
+      "translatedText": "- mvbegin: The separated single\\-channel images, in array form; the array size must be the same as the number of channels of the image\\.\n- m: The multichannel image to be separated\\.\n- mv: The separated single\\-channel images, in vector form\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 178,
+        "outputTokens": 60,
+        "costUsd": 0.000126
+      }
+    },
+    "08474c9eb9696231c8f9e25094c27a6ae0f9b0282d04bfd314a26e40669df1f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "d9c8566aafe86b5e7f55ad2feb56ed27124e8f672043d406a5a804062e0c054f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "标记语言是一种用特定符号来描述文档结构和格式的语言。传统的标记语言如 HTML 功能强大但语法复杂，而轻量级标记语言则简化了这一过程。",
+      "translatedText": "A markup language is a language that uses specific symbols to describe the structure and formatting of a document\\. Traditional markup languages such as HTML are powerful but have complex syntax, whereas lightweight markup languages simplify this process\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 47,
+        "costUsd": 0.000106
+      }
+    },
     "0849d15e20ee3e6f0bf308c558b989f0412157aaaf5611a5d836acf5bffd7cf6": {
       "normalizationVersion": 1,
       "sourceHash": "09cdbb433966ea235f30537c4556d19ba161f17494d4246fd77c4ffbe87130ce",
@@ -307,6 +349,20 @@
         "inputTokens": 136,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "0851752f8bb477f47c60025eff08f7fc93f0396fbc454d8d0c84e2b98f50210b": {
+      "normalizationVersion": 1,
+      "sourceHash": "32858e6b9086a2cd2f3055847114ea0f2440695330f2cf91006305717bc68d68",
+      "contextFingerprint": "dcdc844f87933cf13c733afa80279d4f48c42918a6d1f35b2a96ee3151219598",
+      "sourceText": "| 标志参数                  | 简记         | 作用                   |\n| :-------------------- | :--------- | :------------------- |\n| WINDOW_NORMAL        | 0x00000000 | 显示图像后，允许用户随意调整窗口大小   |\n| WINDOW_AUTOSIZE      | 0x00000001 | 根据图像大小显示窗口，不允许用户调整大小 |\n| WINDOW_OPENGL        | 0x00001000 | 创建窗口的时候会支持OpenGL     |\n| WINDOW_FULLSCREEN    | 1          | 全屏显示窗口               |\n| WINDOW_FREERATIO     | 0x00000100 | 调整图像尺寸以充满窗口          |\n| WINDOW_KEEPRATIO     | 0x00000000 | 保持图像的比例              |\n| WINDOW_GUI_EXPANDED | 0x00000000 | 创建的窗口允许添加工具栏和状态栏     |\n| WINDOW_GUI_NORMAL   | 0x00000010 | 创建没有状态栏和工具栏的窗口       |",
+      "translatedText": "| Flag Parameter                  | Abbreviation         | Function                   |\n| :-------------------- | :--------- | :------------------- |\n| WINDOW_NORMAL        | 0x00000000 | After displaying the image, allows the user to freely adjust the window size   |\n| WINDOW_AUTOSIZE      | 0x00000001 | Displays the window according to the image size and does not allow the user to resize it |\n| WINDOW_OPENGL        | 0x00001000 | Supports OpenGL when creating the window     |\n| WINDOW_FULLSCREEN    | 1          | Displays the window in fullscreen               |\n| WINDOW_FREERATIO     | 0x00000100 | Scales the image to fill the window          |\n| WINDOW_KEEPRATIO     | 0x00000000 | Maintains the image aspect ratio              |\n| WINDOW_GUI_EXPANDED | 0x00000000 | The created window allows adding a toolbar and status bar     |\n| WINDOW_GUI_NORMAL   | 0x00000010 | Creates a window without a status bar and toolbar       |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 332,
+        "outputTokens": 237,
+        "costUsd": 0.000384
       }
     },
     "0858d2245bcb76589ece63f06976a021a56fbf088dc7da97cf7753b93f70247b": {
@@ -505,6 +561,20 @@
         "costUsd": 0.000078
       }
     },
+    "087dae60881eec877c9672ce1d8ee2cddd46e9e187bd3be9f63057cbd067fd66": {
+      "normalizationVersion": 1,
+      "sourceHash": "af0760a96b108e220b3dab5cb9cb0d36ddb5662a65b1c283ef303b05b87890cf",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "alt 文本最佳实践：",
+      "translatedText": "alt text best practices:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 12,
+        "costUsd": 0.000055
+      }
+    },
     "08802c1eee55f3730c909bd923d96b0eb88ba2576d0f79b81dfff2fe55455eca": {
       "normalizationVersion": 1,
       "sourceHash": "d19cbd355f287363b04929aa332210a6b64d3c95237a5017c7aea96030a96e1b",
@@ -643,6 +713,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "08be999004079fc224598cd9dfc8bc7f1c19313dbb0d832ef69397e6ba5d64b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "66f29f1223ef27dce5c75bad040c2bab51e0eedb4af97998aec9689790ceffc1",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**三者本质区别:**",
+      "translatedText": "**Essential differences among the three:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 13,
+        "costUsd": 0.000056
       }
     },
     "08bf363d074fe71a0ae4100edc9e6a90893d2300ce32061357b7c286f3497c4a": {

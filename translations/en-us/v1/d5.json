@@ -71,6 +71,20 @@
         "costUsd": 0.000129
       }
     },
+    "d51beb5d5c91531e97e984522faf4f0c05c6f279edc3a12bcedfb4d1609fba90": {
+      "normalizationVersion": 1,
+      "sourceHash": "713ea9c62afe68c8ab229e6e805e6efb0511c11359a719dbd8b869604843307b",
+      "contextFingerprint": "bfd70c14a1eebce83133278a8e18c712edad68c87fede2a553a2c45b74cf23e1",
+      "sourceText": "这种赋值方式首先将需要存入Mat类中的变量存入一个数组中，之后通过设置Mat类矩阵的尺寸和通道数将数组变量拆分成矩阵，这种拆分方式可以自由定义矩阵的通道数。当矩阵中的元素数目大于数组中的数据时，将用1.0737418e+08填充赋值给矩阵；当矩阵中元素的数目小于数组中的数据时，将矩阵赋值完成后，数组中剩余数据将不再赋值。由数组赋值给矩阵的过程是首先将矩阵中第一个元素的所有通道依次赋值，之后再赋值下一个元素。为了更好地体会这个过程，我们将定义的b和c矩阵在图2-4中给出。",
+      "translatedText": "This assignment method first stores the variables to be stored in the Mat class into an array, and then splits the array variables into a matrix by setting the size and number of channels of the Mat class matrix\\. This splitting method can freely define the number of channels of the matrix\\. When the number of elements in the matrix is greater than the data in the array, 1\\.0737418e+08 will be used to fill and assign to the matrix; when the number of elements in the matrix is less than the data in the array, after the matrix assignment is completed, the remaining data in the array will no longer be assigned\\. The process of assigning from an array to a matrix is to first assign all channels of the first element in the matrix in sequence, and then assign the next element\\. To better understand this process, the b and c matrices we defined are given in Figure 2\\-4\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 267,
+        "outputTokens": 196,
+        "costUsd": 0.000316
+      }
+    },
     "d51e4cf088c610dd8931f087db99696f49cb106560a31c1c370cb505472c5452": {
       "normalizationVersion": 1,
       "sourceHash": "a776eff6ae1263168889a367ea49cf56e60b5998d06c4a9fe9307ea7ae1dd7b1",
@@ -407,6 +421,20 @@
         "costUsd": 0.000144
       }
     },
+    "d588c2c0724aafe2312cc7ff4c79d4aedfb9b2f89ddfd2e51a31f9ba6d356d90": {
+      "normalizationVersion": 1,
+      "sourceHash": "381e99da24be7b9a102eeeafb18e433287baf5131ea1be16f92a68be0830b36a",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "不再只是创业团队使用",
+      "translatedText": "No longer used only by startup teams",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "d588f191f61aef3ce4c2be925ed9b6078146c5928deadf12dee2f0ea2540c982": {
       "normalizationVersion": 1,
       "sourceHash": "b6f6b36ea767a4dfe6c20a75f0485d0223fa7102259f13296551f95a6cf1f4b3",
@@ -547,6 +575,20 @@
         "costUsd": 0
       }
     },
+    "d5c5dde2c6a6e361f8fc0926c069f37760be92c39383a972f77ece66a9ed00ad": {
+      "normalizationVersion": 1,
+      "sourceHash": "941292e999891889efdd9b3c1c2e174ae5d12efd1f0737072ec4fee259bf22c7",
+      "contextFingerprint": "602034f454271d144a036a6367628cce4ecc61d244af396e8b8619c267564921",
+      "sourceText": "# 为什么选择 Markdown",
+      "translatedText": "# Why Choose Markdown",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "d5cf777c474da7dd80313938d217156cfe7195f3fad5a59798b4a7e1ca4ed6b8": {
       "normalizationVersion": 1,
       "sourceHash": "c9de845c5d5e6138d1a1314a8a0f0c47ce5bed58283872bd56298a283eba1622",
@@ -601,6 +643,20 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "d5d7e7fab31058bba0fd714d5aac8ca64b564b49923d3ebfb86eb9a7fbdb32d0": {
+      "normalizationVersion": 1,
+      "sourceHash": "cd800c8e1902c24e12d13655e3c7195de8a11433a5d8dcf876e15ed8ef53aab4",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过红、绿、蓝3种颜色不同比例的混合能够让图像展现出五彩斑斓的颜色，这种模型称为RGB颜色模型。RGB颜色模型是最常见的颜色模型之一，常用于表示和显示图像。为了能够表示3种颜色的混合，图像以多通道的形式分别存储某一种颜色的红色分量、绿色分量和蓝色分量。除RGB颜色模型外，图像的颜色模型还有YUV、HSV等模型，分别表示图像的亮度、色度、饱和度等分量。了解图像颜色空间对分割拥有颜色区分特征的图像具有重要的帮助，例如提取图像中的红色物体可以通过比较图像红色通道的像素值来实现。",
+      "translatedText": "By mixing the three colors red, green, and blue in different proportions, images can display a rich array of colors\\. This model is called the RGB color model\\. The RGB color model is one of the most common color models and is often used to represent and display images\\. To represent the mixture of the three colors, images store the red component, green component, and blue component of a certain color separately in a multi\\-channel format\\. In addition to the RGB color model, image color models also include YUV, HSV, and other models, which respectively represent components such as brightness, chrominance, and saturation of the image\\. Understanding image color spaces is of great help for segmenting images with color\\-distinguishing features\\. For example, extracting red objects from an image can be achieved by comparing the pixel values of the image's red channel\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 257,
+        "outputTokens": 176,
+        "costUsd": 0.000289
       }
     },
     "d5dfd97ac304cca2f93c3d08aa51debd1379bca8385c76c2e2958009c9780b7f": {

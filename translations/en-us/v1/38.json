@@ -477,6 +477,34 @@
         "costUsd": 0.000194
       }
     },
+    "38865a4765dd43514bc7a88f17c69ad312acb4518db3627dc57a879b1c8263fe": {
+      "normalizationVersion": 1,
+      "sourceHash": "c054b96af7076ade8f81056a0df8b7200bb5c6f01c03299f670df7e0d3986d56",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "然后就成功下载了程序并进入了Debug",
+      "translatedText": "Then the program was successfully downloaded and entered Debug",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 137,
+        "outputTokens": 16,
+        "costUsd": 0.000061
+      }
+    },
+    "388e0c41347531b149faf136ba36399c32298eceb4526acc8f57596eef6330b3": {
+      "normalizationVersion": 1,
+      "sourceHash": "ecdb8e876021f14d4e91346f5ca771f6e157b6d09ba4b9cb9d20cff0aeb917c9",
+      "contextFingerprint": "3fd991b4e761573c79629296b56c57a05ae1eaaad624c5a33b4ab3e3f0668cc9",
+      "sourceText": "#### 下载串口驱动",
+      "translatedText": "#### Download serial port driver",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
+      }
+    },
     "388e8614d4fbbb6404b087b59e360a997e15663837157bdf49e7a772c98d60a4": {
       "normalizationVersion": 1,
       "sourceHash": "53de6bdd794c246872ed31a36955b5b5e3eb8761d22f6bc9ab63174f04b9464e",
@@ -547,6 +575,20 @@
         "costUsd": 0.000056
       }
     },
+    "389e0329a2adcf05350f8ec06509def513f89a28dd91479bc0e1d7beb94c5fbd": {
+      "normalizationVersion": 1,
+      "sourceHash": "d3b940d222b863388988e9a236f15e9a8ca9dd367eb46f0e8ca6516b5e3fae51",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多行引用：",
+      "translatedText": "Blockquote:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "38a05975d641bdd7dd629949e6b5291826dcca53097a3a55ea42e240205390d2": {
       "normalizationVersion": 1,
       "sourceHash": "2c7f12b85e5d41c35b88711f9b8a03ca4e6c3abe461fb8df90d7cdb071016ec3",
@@ -601,6 +643,34 @@
         "inputTokens": 195,
         "outputTokens": 73,
         "costUsd": 0.000147
+      }
+    },
+    "38b24261fd17cec9eef78eed467134ef78a808e5678054c6ef9b3d38f5ae374e": {
+      "normalizationVersion": 1,
+      "sourceHash": "22a378a4a6f2e4843dea8bb549230e8abb75ec03a02bc9aa1dc941c180c5391b",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- eye(): 构建一个单位矩阵，前两个参数为矩阵的行数和列数，第三个参数为矩阵存放的数据类型与通道数。如果行和列不相等，则在矩阵的(1,1)、(2,2)、(3,3)等主对角位置处为1。\n- diag(): 构建对角矩阵，其参数必须是Mat类型的一维变量，用来存放对角元素的数值。\n- ones(): 构建一个全为1的矩阵，参数含义与eye()相同。\n- zeros(): 构建一个全为0的矩阵，参数含义与eye()相同。",
+      "translatedText": "- eye(): Constructs an identity matrix\\. The first two parameters are the number of rows and columns of the matrix, and the third parameter is the data type and number of channels in which the matrix is stored\\. If the number of rows and columns is not equal, then 1 is placed at the main diagonal positions (1,1), (2,2), (3,3), etc\\.\n- diag(): Constructs a diagonal matrix\\. Its parameter must be a one\\-dimensional variable of type Mat, used to store the values of the diagonal elements\\.\n- ones(): Constructs a matrix all of whose elements are 1\\. The meanings of the parameters are the same as for eye()\\.\n- zeros(): Constructs a matrix all of whose elements are 0\\. The meanings of the parameters are the same as for eye()\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 251,
+        "outputTokens": 173,
+        "costUsd": 0.000283
+      }
+    },
+    "38b30c2dde15dc2da51e212e39f7f5245777e2894985b625d5c7b59951486372": {
+      "normalizationVersion": 1,
+      "sourceHash": "28a22d5dc1b6c4d4f8d2fadd11e9dc820fdf5e819bf3d2fb06fac23cc3981c89",
+      "contextFingerprint": "8b4b07076213fe372229390a5a6585e6a4f3e149b29b3fd9a595e761ed89ff44",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image81.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image81.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "38b892085ae8b64b6d9cee2c71a859c1b9936421d6495dedd37829f47603b417": {

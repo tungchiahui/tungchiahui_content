@@ -197,6 +197,20 @@
         "costUsd": 0
       }
     },
+    "6e3334e4c5a3ae7e2285d16804756c03bfd1f35071d44c7fa31aaed50c2351aa": {
+      "normalizationVersion": 1,
+      "sourceHash": "33e37694bc7da79846de043dbbebdfff056dd81c368128cecc227ce01500c0dc",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "与我们日常所看到的图像不同，数字图像在计算机中是以矩阵的形式存储的。矩阵中的每一个元素都用于描述图像中的某种信息，例如亮度、颜色等，如图 2-1 所示。\n数字图像处理的本质，就是通过一系列操作，从这些矩阵数据中提取更深层次信息的过程。因此，学习图像处理的第一步，就是掌握如何对这些矩阵数据进行操作。\n对于接触过 C++ 编程的读者来说，字符串通常以 string 类型存储，整数以 int 类型存储。同样地，在 OpenCV 中，提供了一个 Mat 类用于存储矩阵数据。\n本节将详细介绍 Mat 类的使用方法及其支持的运算，通过学习，可以在程序中灵活地使用 Mat 类型变量。",
+      "translatedText": "Unlike the images we see in everyday life, digital images are stored in computers in the form of matrices\\. Each element in the matrix is used to describe some kind of information in the image, such as brightness, color, etc\\., as shown in Figure 2\\-1\\. The essence of digital image processing is the process of extracting deeper\\-level information from these matrix data through a series of operations\\. Therefore, the first step in learning image processing is to master how to operate on these matrix data\\. For readers who have been exposed to C++ programming, strings are usually stored as the string type, and integers are stored as the int type\\. Similarly, in OpenCV, a Mat class is provided for storing matrix data\\. This section will introduce in detail how to use the Mat class and the operations it supports\\. Through this learning, you will be able to flexibly use Mat\\-type variables in programs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 290,
+        "outputTokens": 197,
+        "costUsd": 0.000324
+      }
+    },
     "6e3546b7cc33dab1974c2db2d064b00ce1928e495f5d3007f2c758612afc4dab": {
       "normalizationVersion": 1,
       "sourceHash": "e224bab287126f17ecad2fd9d5323b5cb1db29d6239605fca5aba3d294a53ce7",
@@ -267,6 +281,20 @@
         "costUsd": 0.000072
       }
     },
+    "6e3ee6187839f81573989f38d2386b754ebb99533cb4b670f8d25052724c9fb6": {
+      "normalizationVersion": 1,
+      "sourceHash": "6d70fa816060e54dc441c94099fadacac8804d61877908471d3822b5b94a2b98",
+      "contextFingerprint": "6e9a5d2e246ff38846677314984133dc84396abbc33c1613d4fd921d2e5f5590",
+      "sourceText": "- rows: 矩阵的行数。\n- cols: 矩阵的列数。\n- type: 存储数据的类型。\n- s: 给矩阵中每个像素赋值的参数变量，例如Scalar(0,0,255)。",
+      "translatedText": "- rows: the number of rows of the matrix\\.\n- cols: the number of columns of the matrix\\.\n- type: the type of data stored\\.\n- s: the parameter variable that assigns a value to each pixel in the matrix, for example Scalar(0,0,255)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 177,
+        "outputTokens": 65,
+        "costUsd": 0.000132
+      }
+    },
     "6e3f5b9eef901bb679a778d6d38adc9ae68985f194305117bf15ede9badc8a68": {
       "normalizationVersion": 1,
       "sourceHash": "e7f6df9560add41961c56cb1896641408bf70635f63d5f8a74bbad582cdd2534",
@@ -307,6 +335,20 @@
         "inputTokens": 138,
         "outputTokens": 21,
         "costUsd": 0.000067
+      }
+    },
+    "6e4ea3e530d93995f52c4ef45289854952f6e9dbca889bc676c49ea49f6ec6fb": {
+      "normalizationVersion": 1,
+      "sourceHash": "771fb9d61399248a103d53b5e2e92d2ed178d3a1a996fd8e602994ac71e8ff6f",
+      "contextFingerprint": "40a88038a7ef12b6429e57d13456dd4fdec3d5a67f654f76886d91250b380d2d",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768100049539.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768100049539.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6e54b18b23b2a00ae9e7d7bcb71c66e59a69f76031040ef8eb458e764a438c7c": {
@@ -351,6 +393,20 @@
         "costUsd": 0.000054
       }
     },
+    "6e58f33f9c6e7288259ad6a8ac6233745db9b876bdbb422c20abafee74a6f4dc": {
+      "normalizationVersion": 1,
+      "sourceHash": "18d142991c491711edca321778d9cbc4a776244c43699997ab9f49b87045efe6",
+      "contextFingerprint": "b233ee3f13a667018e094e0344111a6fbca9963766311c094e1b3ab09b6f4bf6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039939171-d4dae0cd.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787039939171-d4dae0cd.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6e5bb5aec4ae7c0bb99d4b384debb3641c6cafc1154752e5ff5e946f6c32b82d": {
       "normalizationVersion": 1,
       "sourceHash": "fa06872d5d7ffaf953ed7c84f6a770fdf34cdf6a8e8a917956ba8591d3e1ab0e",
@@ -393,6 +449,20 @@
         "costUsd": 0.000052
       }
     },
+    "6e62b2509f283b1e9b70b73f3feb3072adc8ed2505a5cffd475c8bc57e12dbdd": {
+      "normalizationVersion": 1,
+      "sourceHash": "3afeb68b3a20f43330f3f09a7f2accad56ee30afc616c43ae1aaa7271f14ef08",
+      "contextFingerprint": "d9a81f6d8c2e36ce25d471148c52e352a807a5d3216e9233185fae63edc46045",
+      "sourceText": "接下来,编辑`udev`",
+      "translatedText": "Next, edit `udev`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
     "6e630bc4b40dee35e1dbf6a4f79763e628497d026775582ba2a1dcf4f3268d89": {
       "normalizationVersion": 1,
       "sourceHash": "b3f33c92633d4d5893110047261d1dc754b169fd6964b879e0f797001fa3bd22",
@@ -405,6 +475,20 @@
         "inputTokens": 141,
         "outputTokens": 21,
         "costUsd": 0.000068
+      }
+    },
+    "6e69366b075db811036a753869d37126bdca78091aa245da68186a45c3c4bf01": {
+      "normalizationVersion": 1,
+      "sourceHash": "fe1de56326f822145fa02c1fb777e7728de2b9e658ebf61b4a21a251b2aca2f7",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**常见用法示例：**",
+      "translatedText": "**Common usage examples:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 133,
+        "outputTokens": 11,
+        "costUsd": 0.000054
       }
     },
     "6e6aec0ce2a4e165399e45d3a3738f9669e018b79eb231d4bbf761af5c80b508": {
@@ -505,6 +589,20 @@
         "costUsd": 0.000062
       }
     },
+    "6e7797e0c247d6a96b4467a49ec11a832bcdc2b1cf59cd758c640d6c7935f9c2": {
+      "normalizationVersion": 1,
+      "sourceHash": "1b234b9578ce4ea6b4c2da083380c37bd27ad0944fa34e8323057b1402ddc6bc",
+      "contextFingerprint": "b0a16b6f55f0154a43273bcf926250e79c9efccba9112c44668bb52a7e692e12",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776084574108.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776084574108.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "6e7a08acc9c4941dd8207a02b4f6871db45ff8c94532a5b1ffe060c257a8cecb": {
       "normalizationVersion": 1,
       "sourceHash": "00433f9144261cf25fe8067ba97a259db9f54255dcef007bf1c5188ad32eb7ce",
@@ -517,6 +615,20 @@
         "inputTokens": 135,
         "outputTokens": 14,
         "costUsd": 0.000058
+      }
+    },
+    "6e7bd98e4fc1621e17a5d7f7731320865fba096fd98a29e4ab3975dfc2569ff0": {
+      "normalizationVersion": 1,
+      "sourceHash": "54f8bb7d0edc5ad62a1d1a497ab356039dcf6c31d9007e418f93ce2c40912283",
+      "contextFingerprint": "c5dcdf7cd6ddab70ccc7714f387e2d953146ef121989ef653b9a64c352ea759c",
+      "sourceText": "并点击最新版的安装，比如我这里最新版是v5.5.2",
+      "translatedText": "and click to install the latest version, for example, here the latest version is v5.5.2",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 150,
+        "outputTokens": 33,
+        "costUsd": 0.000085
       }
     },
     "6e7d956f0f24c0a08310015872b98c46d801cf0f321c5b0137154e2c8c517b0d": {
@@ -589,6 +701,20 @@
         "costUsd": 0
       }
     },
+    "6eaafc248db6f6cc9316b4aba6973e6584ca867c0851f4233bc7fbf6cd3ad921": {
+      "normalizationVersion": 1,
+      "sourceHash": "e9914a0ea04637a3e061aa6bc06c08fc6be1cd9e1b61e44f02490f69dcd7825f",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "HSV是色度(Hue)、饱和度(Saturation)和亮度(Value)的简写，通过名字也可以看出该模型通过这3个特性对颜色进行描述。色度是色彩的基本属性，就是平时常说的颜色，例如红色、蓝色等；饱和度是指颜色的纯度，饱和度越高色彩越纯和越艳，饱和度越低，色彩则逐渐地变灰和变暗，饱和度的取值范围是0～100%；亮度是颜色的明亮程度，其取值范围由0到计算机中允许的最大值。由于色度、饱和度和亮度的取值范围不同，因此其颜色空间模型用锥形表示，如图3-2所示。相比于RGB模型3个颜色分量与最终颜色联系不直观的缺点，HSV模型更加符合人类感知颜色的方式：颜色、深浅及亮暗。",
+      "translatedText": "HSV is the abbreviation for Hue, Saturation, and Value\\. As can be seen from the name, this model describes colors through these three attributes\\. Hue is the basic attribute of color, which is commonly referred to as color, such as red, blue, etc\\.; saturation refers to the purity of the color\\. The higher the saturation, the purer and more vivid the color; the lower the saturation, the more the color gradually becomes gray and dark\\. The value range of saturation is 0% to 100%; value is the brightness of the color, and its value range is from 0 to the maximum value allowed in the computer\\. Since the value ranges of hue, saturation, and value are different, its color space model is represented by a cone, as shown in Figure 3\\-2\\. Compared with the shortcoming of the RGB model that the three color components are not intuitively related to the final color, the HSV model is more in line with the way humans perceive color: color, shade, and brightness\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 295,
+        "outputTokens": 213,
+        "costUsd": 0.000345
+      }
+    },
     "6eae691aae8e4819853a1b2527209b00917fc6af6543beada59dd5120f58bb7b": {
       "normalizationVersion": 1,
       "sourceHash": "2d2ae11e54e0247d3f3ff01c49f0646f881cf54b2bef136f81e66e2ddf2457cd",
@@ -615,6 +741,20 @@
         "inputTokens": 137,
         "outputTokens": 16,
         "costUsd": 0.000061
+      }
+    },
+    "6eb1dfbf2cfc60ea77ef96ccb5be8d05230ffa998a1add35eea7b1da735ff12c": {
+      "normalizationVersion": 1,
+      "sourceHash": "e80414b86da367cea678170f2cb32c001521ae8f82d9c5ca33bd485050d86abb",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "多行代码内容\n可以包含空行\n保持原有缩进",
+      "translatedText": "Multi\\-line code content can contain blank lines preserve original indentation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 22,
+        "costUsd": 0.00007
       }
     },
     "6eb30d736ebbbd60a684c67b13e212466c3e0740be816f3498f417d9d90d5940": {
@@ -881,6 +1021,20 @@
         "inputTokens": 174,
         "outputTokens": 68,
         "costUsd": 0.000134
+      }
+    },
+    "6ee524c1fee54aa99637ed548023f47d16bfe4cf09333f89e4a03bf4d36de3ec": {
+      "normalizationVersion": 1,
+      "sourceHash": "7f4250b734e0c67343c1649681a8c5d1ffd1ed4a8f5dfc5c755766750d11d811",
+      "contextFingerprint": "5dce9c745d1365ecf8f8d35eefbe041ce5be4717dab7508c1663b451346216d1",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787041737976-8337eb33.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787041737976-8337eb33.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "6ee72efdff68155f5a02f490ef85138dea808c926de7108722e345330919f843": {

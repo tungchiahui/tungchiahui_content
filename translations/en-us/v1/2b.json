@@ -15,6 +15,20 @@
         "costUsd": 0
       }
     },
+    "2b066ef01a83257b6f89ff5da3077adf91c6c6eb4fcbe0d335293ac153c1728d": {
+      "normalizationVersion": 1,
+      "sourceHash": "47fc9b3d0f19339af0be8c99af0a5fed362110d94155a1276c2dd82874eae136",
+      "contextFingerprint": "78fe019e991dccc537b1b4ad6263c95d0ad8b50fcf8f48668b140257f42ff06f",
+      "sourceText": "检查 `package.json`。正常应该类似：",
+      "translatedText": "Check `package.json`\\. Normally it should be similar to:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 136,
+        "outputTokens": 17,
+        "costUsd": 0.000062
+      }
+    },
     "2b0748fdcbe7c0f1797d6409aef107a073e3759cd435d797405dfc715be6ba10": {
       "normalizationVersion": 1,
       "sourceHash": "7718841d1db3c9a782f47de4e1c71b4ab7d7b1625b6d0bf474c368297d078cfc",
@@ -167,6 +181,34 @@
         "inputTokens": 140,
         "outputTokens": 23,
         "costUsd": 0.00007
+      }
+    },
+    "2b1c69e1ebb0d1afa2f4881839897200d3f069262d2829b66bbb37f980088a62": {
+      "normalizationVersion": 1,
+      "sourceHash": "64a4800280f75a99282cb46014894fbfd3b54a2d1a956bacfc4582dd9ffac1d5",
+      "contextFingerprint": "1ee86c928697c83b04c21c28e7de634c5273b6ac22f61bfb7ac906bddc865f2b",
+      "sourceText": "##### ST-Link",
+      "translatedText": "##### ST-Link",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "2b2e0f13b7e7d45f6083e2b150b598e7342135eb56ff141660cf6ff30c2026e8": {
+      "normalizationVersion": 1,
+      "sourceHash": "ff5c13a49e075aed93574a2c4f9eb2b8ba4e33704396a31929f4b8f10c4e9ec2",
+      "contextFingerprint": "0a2976fd9b46a42ba0ea76bcae8a301149726de1318899e00564b44b261efd7a",
+      "sourceText": "然后会出现这个条，他会下载程序到板子（仅J-link）\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)",
+      "translatedText": "Then this bar will appear, and it will download the program to the board (only J-link) ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/17/1776432143180.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 36,
+        "costUsd": 0.00009
       }
     },
     "2b2f425e2503db92b31ee089520a587c7cbebec04b699172e14fcebafabe1f06": {
@@ -379,6 +421,20 @@
         "costUsd": 0
       }
     },
+    "2b603b85287f909829be58d764c87ca82c2cb2ae3b21e7dd6b319e52d94113dd": {
+      "normalizationVersion": 1,
+      "sourceHash": "69152e63ed53e9175908e7912b5e3c44e3cd4526a6bc77257decd54551bed60d",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "内容管理：博主可以专注于内容创作，而不必担心复杂的 HTML 编码。文章的格式化通过简单的标记即可完成。",
+      "translatedText": "Content management: bloggers can focus on content creation without worrying about complex HTML coding\\. Article formatting is accomplished through simple markup\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 154,
+        "outputTokens": 30,
+        "costUsd": 0.000083
+      }
+    },
     "2b611c8eba0da6d3c943785fd6302916bf5f3dc7d03745844c27836aa97bf768": {
       "normalizationVersion": 1,
       "sourceHash": "ce134bc26aed679260be83453f70971f499a161f2433de396c4c937ad26adaf1",
@@ -573,6 +629,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "2b87f891e2682c800a8bf67bc24f4375023e67bcf3f1c8b73b433f00669d22b9": {
+      "normalizationVersion": 1,
+      "sourceHash": "4cd0cef4c8c68866cc90495f54be04b187b6e51e0ff795a6e144c34c9dd59f8c",
+      "contextFingerprint": "677f71f236b1c020e336baf6390304c0fca268fb4d7e1b20c38620d4d316b22f",
+      "sourceText": "该函数能够将不同数据类型的变量名称和变量值写入文件中。该函数的第一个参数是写入文件中的变量名称。第二个参数是变量值，代码清单2-37中的变量值是int类型，但是在FileStorage类中提供了write()函数的多个重载函数，分别用于实现将`double、String、Mat、vector<String>`",
+      "translatedText": "This function can write variable names and variable values of different data types to a file\\. The first parameter of this function is the variable name written to the file\\. The second parameter is the variable value\\. In code listing 2\\-37, the variable value is of type int, but the FileStorage class provides multiple overloaded write() functions, respectively used to implement writing`double、String、Mat、vector<String>`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 190,
+        "outputTokens": 81,
+        "costUsd": 0.000155
       }
     },
     "2b8a27c0675fb6649c7c313b3db5544cac3014d3cc53ff850eadfb649708bac8": {
@@ -799,6 +869,20 @@
         "costUsd": 0
       }
     },
+    "2bd323abbfaaa51e0fd9859b86bc281982c4058c250cf22531752c2877da632b": {
+      "normalizationVersion": 1,
+      "sourceHash": "38274d9abc857d332bcdac7e2dd916c48f71d5b183ce8f53f0ec870f439d0912",
+      "contextFingerprint": "4870fc3fb3767a2449a2ad9469f119b7346d6587bee1bae3083fe77343694b8f",
+      "sourceText": "这些属性之间互相组合可以得到多数Mat类矩阵的属性，例如step属性与cols属性组合，可以求出每个元素所占据的字节数，再与channels()属性结合，就可以知道每个通道的字节数，进而知道矩阵中存储的数据量的类型。下面通过一个例子具体说明每个属性的用处：用Mat(3, 4, CV_32FC3)定义一个矩阵，这时通道数channels()为3；列数cols为4；行数rows为3；矩阵中元素的个数为3×4，结果为12；每个元素的字节数为32/8×channels()，本例最后结果为12；以字节为单位的有效长度step为elemSize()×cols，本例结果为48。",
+      "translatedText": "By combining these attributes with one another, most attributes of Mat class matrices can be obtained\\. For example, by combining the step attribute with the cols attribute, the number of bytes occupied by each element can be determined\\. Then, by further combining this with the channels() attribute, the number of bytes per channel can be known, and thereby the type of data volume stored in the matrix can be understood\\. The use of each attribute is illustrated in detail with an example below: define a matrix using Mat(3, 4, CV_32FC3)\\. In this case, the number of channels channels() is 3; the number of columns cols is 4; the number of rows rows is 3; the number of elements in the matrix is 3 × 4, which equals 12; the number of bytes per element is 32/8 × channels(), and in this example the final result is 12; the effective length step in bytes is elemSize() × cols, and in this example the result is 48\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 284,
+        "outputTokens": 221,
+        "costUsd": 0.000351
+      }
+    },
     "2bd3d08c3162fcdf518a5c3e5fa41b91e5033895fe94530d4f4b0f301ff2343c": {
       "normalizationVersion": 1,
       "sourceHash": "6163c345d50bfc5d246060b4e605aabb9db6bfbd538642aa2155dd0010975e9b",
@@ -841,6 +925,20 @@
         "costUsd": 0.000058
       }
     },
+    "2bd8d1d4bde293e8f41dfb673b8474a4a08a046eb0b6e9c2a05adceca84c749d": {
+      "normalizationVersion": 1,
+      "sourceHash": "afacd7cdbd6074c0e39ad2aaccfe33a8848e56d509040f30da86100c8a16f252",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "在图像颜色模型中，不同的分量存放在不同的通道中，如果我们只需要颜色模型的某一个分量，例如只需要处理RGB图像中的红色通道，那么可以将红色通道从3个通道的数据中分离出来再进行处理，这种方式可以减少数据所占据的内存，加快程序的运行速度。同时，当我们分别处理完多个通道后，需要将所有通道合并在一起重新生成RGB图像。针对图像多通道的分离与混合，OpenCV 4中提供了split()函数和merge()函数用于满足这些需求。",
+      "translatedText": "In an image color model, different components are stored in different channels\\. If we only need one component of the color model, for example, if we only need to process the red channel in an RGB image, then we can separate the red channel from the data of the three channels and then process it\\. This approach can reduce the memory occupied by the data and speed up the program's execution\\. At the same time, after we have processed multiple channels separately, we need to merge all the channels together to regenerate the RGB image\\. For the separation and merging of multiple image channels, OpenCV 4 provides the split() function and the merge() function to meet these needs\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 231,
+        "outputTokens": 141,
+        "costUsd": 0.000239
+      }
+    },
     "2bdaa12eae2b165f675c8b62463779c43fd006a029cc36772cc4c613a6870b40": {
       "normalizationVersion": 1,
       "sourceHash": "085e0026bfe57cab847e948b3ea809f001694847f65047851c330ddb7d150d99",
@@ -853,6 +951,20 @@
         "inputTokens": 160,
         "outputTokens": 40,
         "costUsd": 0.000096
+      }
+    },
+    "2bdea415d6084784c588fce14e64c2639028eccf0f5c37a5b943bad139b6edcc": {
+      "normalizationVersion": 1,
+      "sourceHash": "ba035589eba4ef56a7b8d78d5741f1360ee32a964b77ac87a6639347ad605409",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码清单2-13 利用枚举法赋值示例",
+      "translatedText": "Code Listing 2\\-13 Example of Assignment Using Enumeration Method",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "2be0b319ff45952c0556561dbb68e40c36bbb10639ea9f4f5933c8013de4949d": {
@@ -937,6 +1049,20 @@
         "inputTokens": 173,
         "outputTokens": 62,
         "costUsd": 0.000127
+      }
+    },
+    "2bfda4c299f82036969d9ee0b0d0df4c328be7568d6855c58395c168340f1a3e": {
+      "normalizationVersion": 1,
+      "sourceHash": "1095d9f31c732ab1e39d4ce13f2347afea31af4260ded7278c20fcb5e57d285e",
+      "contextFingerprint": "ed1715c55b94513d256e3aad538e36b25b9aedf5df6898d432cb50531edf40c2",
+      "sourceText": "- 自动识别功能依赖于具体的 Markdown 解析器\n- 为了确保兼容性，建议使用标准的链接语法\n- 某些特殊字符可能影响自动识别",
+      "translatedText": "- The automatic recognition feature depends on the specific Markdown parser\n- To ensure compatibility, it is recommended to use the standard link syntax\n- Certain special characters may affect automatic recognition",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 40,
+        "costUsd": 0.000096
       }
     }
   }

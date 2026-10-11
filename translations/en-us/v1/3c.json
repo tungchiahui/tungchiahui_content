@@ -57,6 +57,20 @@
         "costUsd": 0.000177
       }
     },
+    "3c15db4695d2b0037c8984f84e3b0cad7180e3d47ff91e12886361b15777eb01": {
+      "normalizationVersion": 1,
+      "sourceHash": "81fac571930633a703769018dac528db59b7a3f15cc4dbf3ebcbfaecbc63c857",
+      "contextFingerprint": "9d42fe875e1b9bfad1030cac6ff5c63c957519b5b96cfc8a3abb3167eb382084",
+      "sourceText": "可以测试下,当按下按键的时候,LED灯会翻转电平.<br>",
+      "translatedText": "You can test it: when the button is pressed, the LED will toggle its level\\.<br>",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 143,
+        "outputTokens": 24,
+        "costUsd": 0.000072
+      }
+    },
     "3c173d276d0af266dabc2456840f8f6e2745dac7fd7636587162cc3a227a35e7": {
       "normalizationVersion": 1,
       "sourceHash": "924c8308fc1f833c0284d005d2be03e452ff6da3d46de05757ee212cf38ab1fc",
@@ -141,6 +155,20 @@
         "costUsd": 0
       }
     },
+    "3c2ae05398684f63b0268c5b119c2ff7a721fe34845c040814e50ffc536414ff": {
+      "normalizationVersion": 1,
+      "sourceHash": "bc373b8a7c12b17c09c79e2d48d8f5e61fe7b5cbd4c5d370c48fbc8461fe79f9",
+      "contextFingerprint": "325b9914a3d9695240ffe279db6bf8d1cc595590c400468b258f26d310d09abd",
+      "sourceText": "这里检查的是 `/dev/bus/usb/...`。如果另外还要打开板载虚拟串口 `/dev/ttyACM*`，那是串口设备的权限，需要分别排查。",
+      "translatedText": "Here, what is being checked is `/dev/bus/usb/...`\\. If additionally the onboard virtual serial port `/dev/ttyACM*` needs to be opened, that involves the permissions of the serial device and must be investigated separately\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 155,
+        "outputTokens": 42,
+        "costUsd": 0.000097
+      }
+    },
     "3c2b4d425968a3d6dd1d3e2db12d3aae426f138b54a6b7d41a988c54ff1559f2": {
       "normalizationVersion": 1,
       "sourceHash": "f31783e46f34e91db612736e20a83900c069d3ec69439b90a4bf1a4670ee5553",
@@ -211,6 +239,20 @@
         "costUsd": 0
       }
     },
+    "3c36e50c3f58d939560991884ead910ff065c8940c8b45f5d386ae4869293c26": {
+      "normalizationVersion": 1,
+      "sourceHash": "31bffb2525ebd15f8dff6729b4892ff1b1c95c31750dffb0897bcd8d48ab3d9b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "代码清单3-3 convertTo()函数原型",
+      "translatedText": "Code Listing 3\\-3 convertTo() function prototype",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 139,
+        "outputTokens": 18,
+        "costUsd": 0.000064
+      }
+    },
     "3c3cd37f627ef9e090b67528b0fcd393439f727dc2abd68a7ea56724d9accbe0": {
       "normalizationVersion": 1,
       "sourceHash": "bdeab394b75cd48d4b26e774eef7b91b0f3ef4201336475d42adbbc7f99df4b0",
@@ -265,6 +307,20 @@
         "inputTokens": 133,
         "outputTokens": 10,
         "costUsd": 0.000052
+      }
+    },
+    "3c43286d3324d1af62fed546cbfec630298e002a13828270e2a096025e7c76f4": {
+      "normalizationVersion": 1,
+      "sourceHash": "bfc0611e577b5948817d8b6bb37387f84d43679698347fa349beb4afd2edbf46",
+      "contextFingerprint": "5c7ebc188ecc5cff420ad333d091b3b95acdc207e83d248ca5826d987da4b73b",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787056749084-49d6b687.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/12/25/1787056749084-49d6b687.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "3c4434238148c25902a8818ea7babe27a63c61c3c2aedafa9cf0ae30274eadbe": {
@@ -617,6 +673,20 @@
         "costUsd": 0
       }
     },
+    "3c9364a1db20b6f1166a8dffd3f38e9e9387a34320d64f4f4141e8bc0a3a1d17": {
+      "normalizationVersion": 1,
+      "sourceHash": "d827d9256af8fc63f299de610f41318444afbbdf86d829823979af4c57c6fb09",
+      "contextFingerprint": "d68235ab77c2bbd34e91b518ac7267ce9095614f6dd6bec5efd043e9a966b52a",
+      "sourceText": "| 赋值方向            | 是否可以直接赋值 | 说明         |\n| --------------- | -------- | ---------- |\n| int → num       | ✅ 可以     | 子类给父类      |\n| double → num    | ✅ 可以     | 子类给父类      |\n| num → int       | ❌ 不行     | 可能是 double |\n| num → double    | ❌ 不行     | 可能是 int    |\n| int → double    | ❌ 不行     | Dart 不自动转  |\n| double → int    | ❌ 不行     | 会丢失小数      |\n| int → int       | ✅        |            |\n| double → double | ✅        |            |\n| num → num       | ✅        |            |",
+      "translatedText": "| Assignment direction            | Can it be assigned directly? | Description         |\n| --------------- | -------- | ---------- |\n| int → num       | ✅ Yes     | Subclass to superclass      |\n| double → num    | ✅ Yes     | Subclass to superclass      |\n| num → int       | ❌ No     | May be a double |\n| num → double    | ❌ No     | May be an int    |\n| int → double    | ❌ No     | Dart does not convert automatically  |\n| double → int    | ❌ No     | Loses the fractional part      |\n| int → int       | ✅        |            |\n| double → double | ✅        |            |\n| num → num       | ✅        |            |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 236,
+        "outputTokens": 117,
+        "costUsd": 0.000212
+      }
+    },
     "3c9580ee017b89dcd26a2a709358c7854e959a9c380abc97e285280fd14de7c6": {
       "normalizationVersion": 1,
       "sourceHash": "c1706d6e67e6d673fa5b8649c60b606a5a04a488d9589f95d5bbacd8e6e5d334",
@@ -769,6 +839,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "3cc843886caa3da1384e12ff968798855e7f56efe903bb82e493682dc83515e5": {
+      "normalizationVersion": 1,
+      "sourceHash": "207400e4071f7183f0924fe1d130aa419abe06d37a07bacc764a7f9eec780ed3",
+      "contextFingerprint": "de8606eb1196c9ac7724ad57ec2afb7a6770b5c14c1cf2824558b08a67b8930f",
+      "sourceText": "1. 手机 + 桌面端 + Web + IoT 融合\n2. 多设备协同\n3. 统一 UI 技术栈\n4. Flutter 正是这个时代的产物。",
+      "translatedText": "1. Mobile \\+ desktop \\+ Web \\+ IoT convergence\n2. Multi\\-device collaboration\n3. Unified UI technology stack\n4. Flutter is precisely the product of this era\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 159,
+        "outputTokens": 36,
+        "costUsd": 0.000091
       }
     },
     "3cd2b73b0724f8a66419b81f7b90810d6a00a7d781fff059c3cf5e4043274d63": {
@@ -951,6 +1035,20 @@
         "inputTokens": 135,
         "outputTokens": 16,
         "costUsd": 0.00006
+      }
+    },
+    "3cff0ea67651aefce5151c802742b3907f454b8add640bcce1bee8a27c8a8952": {
+      "normalizationVersion": 1,
+      "sourceHash": "797cb922a65fd6bf2ca70c38b17abd35d450c5a15066abdc962d7b49f48fd31d",
+      "contextFingerprint": "90dfdf809d44d821cd446fb0dbbeb254b397e8091e71e328e03a6d0f2b47c273",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image103.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image103.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     }
   }

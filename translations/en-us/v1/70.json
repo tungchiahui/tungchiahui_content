@@ -15,6 +15,20 @@
         "costUsd": 0.00008
       }
     },
+    "70054993388e3f3a13e967f8527e59a7f1a8ac2a0acc233d0590395046970a9a": {
+      "normalizationVersion": 1,
+      "sourceHash": "4330cc68415e9466103fb066e294989435df9eb283678f004e05467e6bef7235",
+      "contextFingerprint": "62704be7e4c8a51bc54623a56307f89edeaaa0696f946f9d6f98f28c22312adb",
+      "sourceText": "该节与`C/C++`高度相似.",
+      "translatedText": "This section is highly similar to`C/C++`\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "700594c86e781384d77c6d9bb0507a0f108a4270a0dec7c528cd2bd6be508ee5": {
       "normalizationVersion": 1,
       "sourceHash": "244f274c609e35f63c31c400cf4fbab6d5f303942ebbea43c7a5459cea1bdedc",
@@ -27,6 +41,20 @@
         "inputTokens": 157,
         "outputTokens": 34,
         "costUsd": 0.000088
+      }
+    },
+    "70082f34d9e03fb8f1085a20ea29c6d3b896cb06eb245af0c51538412d8a02ca": {
+      "normalizationVersion": 1,
+      "sourceHash": "4a688e26d331e4b5e68e106941d368433fd6c1c70f3f965d073fac1d28ed484d",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 本教程适合谁？",
+      "translatedText": "### Who is this tutorial for?",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 12,
+        "costUsd": 0.000055
       }
     },
     "700922e58fd6202b2ef8a7ecd17df493a47c41d848ee1219a47230b3a14165ea": {
@@ -55,6 +83,20 @@
         "inputTokens": 142,
         "outputTokens": 25,
         "costUsd": 0.000073
+      }
+    },
+    "7012f897690b6eade54aad85371d5ae0da3043c3740785ff7d7db61907f4df43": {
+      "normalizationVersion": 1,
+      "sourceHash": "4636328b024114cc029b4a592060b601a54efe52a3f3ad3d5fbd936d75a09638",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "通过与代码清单2-27对比，调用摄像头与读取视频文件相比，只有第一个参数不同。调用摄像头时，第一个参数为要打开的摄像头设备的ID，ID的命名方式从0开始。从摄像头中读取图像数据的方式与从视频中读取图像数据的方式相同，通过\">>\"符号读取当前时刻相机拍摄到的图像。并且，在读取视频时，VideoCapture类具有的属性同样可以使用。我们将代码清单2-28中的视频文件改成摄像头ID(0)，再次运行修改后的代码清单2-28中的程序，运行结果如图2-7所示。",
+      "translatedText": "By comparing with Code Listing 2\\-27, calling the camera differs from reading a video file only in the first parameter\\. When calling the camera, the first parameter is the ID of the camera device to be opened, with IDs starting from 0\\. The method for reading image data from the camera is the same as that for reading image data from a video: the image captured by the camera at the current moment is read using the \"\\>\\>\" symbol\\. Moreover, when reading a video, the properties of the VideoCapture class can also be used\\. We change the video file in Code Listing 2\\-28 to the camera ID (0), run the modified program in Code Listing 2\\-28 again, and the result is shown in Figure 2\\-7\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 252,
+        "outputTokens": 162,
+        "costUsd": 0.00027
       }
     },
     "7019226a3b53da244f037cd1ffd466dda99497f57fd7eddae450cbcd62a35387": {
@@ -239,6 +281,20 @@
         "costUsd": 0.000057
       }
     },
+    "7054ed65c3e5f96dbf050449cd1e64cfde4b7c57688fc15cb26f555c48cd106b": {
+      "normalizationVersion": 1,
+      "sourceHash": "65f0f70f45848da2e1e11a37940b8f1477ff2ffd5ba1353c48f97360bee1c48b",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "会议记录：清晰的标题结构和列表格式，让会议要点一目了然。",
+      "translatedText": "Meeting notes: A clear title structure and list format make the key meeting points clear at a glance\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 144,
+        "outputTokens": 26,
+        "costUsd": 0.000075
+      }
+    },
     "7055ef28eb4b361b759d0ab245f424fcd02de2ee6588fddf806a014a3faff617": {
       "normalizationVersion": 1,
       "sourceHash": "f99c266be134476a62ef689f368d56f297b0cadf017686de022bdeb83c3634b1",
@@ -273,6 +329,34 @@
       "contextFingerprint": "30715b294f9717d31d61e606a3cbe76341aa6bc29312389dc28c370b94f3c258",
       "sourceText": "## `target_compile_features`",
       "translatedText": "## `target_compile_features`",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
+    "7064d6a28fb025a14eee437be19a614cb2e065ad390a2c154bfafcd0e07c6023": {
+      "normalizationVersion": 1,
+      "sourceHash": "9ff91429312846f2a08aebe024e94eded69998c79fd43861c15f91c549f00346",
+      "contextFingerprint": "129bb669dad119609ef42756a29663223d013d53a6e4f0ab310e86f903010056",
+      "sourceText": "**包含代码：**",
+      "translatedText": "**Includes code:**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
+      }
+    },
+    "70653673722afea680a508bffe99f165ede630dea8187d0a4a0b2e91dad8cc27": {
+      "normalizationVersion": 1,
+      "sourceHash": "ae54ce3a69c5927179884b8dbc3e318a06e55bdec00b9396a8ae2cb8c70741fe",
+      "contextFingerprint": "b832ea2a335110176316e536c61f8c4dcf7d99b3b49b26263067ec7c58ed49c6",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image46.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image46.webp)",
       "provider": "deepseek",
       "model": "deepseek-flash",
       "usage": {
@@ -379,6 +463,20 @@
         "costUsd": 0.000054
       }
     },
+    "70961c89f0194241b72fa3115e2d1bb4a2752d914071ce7c772975b19efcd607": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f4e9cd8069ecece62fef7022aa4fb0a8ea99a260b425d9bfdf378da1aab6e0c",
+      "contextFingerprint": "66b69a790a205c5f7582212598ab88c8d2dff629a2c79c7f2e22ea8d7fb9f692",
+      "sourceText": "然后再编辑一下`main.c`:",
+      "translatedText": "Then edit it a bit`main.c`:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 134,
+        "outputTokens": 14,
+        "costUsd": 0.000057
+      }
+    },
     "709e1f97f0cec12c34318d51ff6467d9458f0a46f7386575fd37066956c0a348": {
       "normalizationVersion": 1,
       "sourceHash": "1241bad7d49b275c0f2b981f1414d4340ff87716b069f22a3e971690c87f4eb1",
@@ -419,6 +517,20 @@
         "inputTokens": 178,
         "outputTokens": 62,
         "costUsd": 0.000128
+      }
+    },
+    "70aa78a9bd9250a857873fbe83f313299d7bfe34a2d123df6fcadb4bdaf43326": {
+      "normalizationVersion": 1,
+      "sourceHash": "6c29343f674830155e89764b1edc8aa4d2e178b6ad7fc36916a6bb0447b7c54c",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前一小节已经介绍了 3 种构造 Mat 类变量的方法，但是后两种没有给变量初始化赋值，本小将重点介绍如何灵活地构造并赋值 Mat 类变量。根据 OpenCV 的源码定义，关于 Mat 类的构造方式共有 20 余种，然而，在平时一些简单的应用程序中，很多复杂的构造方式并没有太多的用武之地，因此本书重点讲解作者在学习和做项目中常用的构造与赋值方式。",
+      "translatedText": "The previous subsection introduced three methods for constructing Mat class variables, but the latter two did not initialize the variables with values\\. This subsection focuses on how to flexibly construct and assign values to Mat class variables\\. According to the OpenCV source code definitions, there are more than 20 ways to construct the Mat class\\. However, in simple everyday applications, many complex construction methods are not very useful\\. Therefore, this book focuses on the construction and assignment methods commonly used by the author in learning and project work\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 225,
+        "outputTokens": 107,
+        "costUsd": 0.000196
       }
     },
     "70ae6c95f0b717848af861c65af44ad2bf0d5f5ad32a87e2f8a0fa5abaf48705": {
@@ -505,6 +617,20 @@
         "costUsd": 0.000055
       }
     },
+    "70c2c3c6fcb3d85b5ea4a734603352354998ff346b64c1214999073aab3fea6b": {
+      "normalizationVersion": 1,
+      "sourceHash": "364334bc027d07f72aa423223bd86123d24ba30fb8d21876c9f6a6b66193544f",
+      "contextFingerprint": "6290e643c30760b3c6a4c5b9890c5a2137c0fe01b627c9751d0a81d9ea862022",
+      "sourceText": "- `---:` 设置内容和标题栏居右对齐。\n- `:---` 设置内容和标题栏居左对齐。\n- `:---:` 设置内容和标题栏居中对齐。",
+      "translatedText": "- `---:` Set the content and title bar to be right\\-aligned\\.\n- `:---` Set the content and title bar to be left\\-aligned\\.\n- `:---:` Set the content and title bar to be center\\-aligned\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 158,
+        "outputTokens": 44,
+        "costUsd": 0.000101
+      }
+    },
     "70ca739987d2f46aa26b4c043ac014677e9e825b90fd079242bc63d9ea0e1214": {
       "normalizationVersion": 1,
       "sourceHash": "4da535c1cf6f9ad2d86c3a3df7a0f78a95e2d6d87c8d800034e44e2e46a48733",
@@ -561,6 +687,20 @@
         "costUsd": 0.000086
       }
     },
+    "70d91203f6a70458815b42ffcb06237b48f1d376e8ea2328c525199b12ef8fb2": {
+      "normalizationVersion": 1,
+      "sourceHash": "be26a609cbe48fd25e45b6822e7e4c1edf1f390593fbb9f461c2e44d9f25beac",
+      "contextFingerprint": "e9ab825208cc42d8e6801307027ac720eddf11c617c511d17c223addcefb4293",
+      "sourceText": "## 表格",
+      "translatedText": "## Table",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 130,
+        "outputTokens": 8,
+        "costUsd": 0.000049
+      }
+    },
     "70db647cf335986d6e68e98fc20027802ae567ccfbb4c573fe4aedf4f5ee7f7e": {
       "normalizationVersion": 1,
       "sourceHash": "7d1a89bc094c21678a021ff86d0e5cc5808858b74eab7d815f4c698688adca1b",
@@ -587,6 +727,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "70e1809cb0c7c5514f5f261ff40c5b67c18bbd5487dae8aa900849045ec32b20": {
+      "normalizationVersion": 1,
+      "sourceHash": "38785817a4671470749e24f2a303de088abaebbcf62f1fc0b592ed2b078ddb29",
+      "contextFingerprint": "c7f871525bc6d64b33379f002e5e3edd9bb90864aceabbdc2a6806de562ecf28",
+      "sourceText": "我们打开原理图,看看按键是哪个引脚?,<br>\n由于我的板子没有自定义的按键,所以我选择用`BOOT`的按键当按键.",
+      "translatedText": "Let's open the schematic and see which pin the button is on\\.<br> Since my board does not have a custom button, I chose to use the button of`BOOT`as the button\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 160,
+        "outputTokens": 45,
+        "costUsd": 0.000102
       }
     },
     "70e393ea73086926f2d52793b7b49cadf4e6736cf0a00385cfeea6cb71801387": {

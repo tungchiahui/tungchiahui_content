@@ -169,6 +169,20 @@
         "costUsd": 0.000092
       }
     },
+    "9917d52a99858ed86f69ba38cc5c8d84887bbaa238d28cac9ddd6c4c115816d9": {
+      "normalizationVersion": 1,
+      "sourceHash": "d1e74dfc9cec2bb90d0830501a339db4114eda8dffd16070bf3e3f7a11729363",
+      "contextFingerprint": "334381918947006220c8b5c8283d156f6a6b45bd733498b9b44cda81462f819d",
+      "sourceText": "前面对于RGB颜色模型已经有所介绍，该模型的命名方式是采用3种颜色的英文首字母，分别是红色(Red)、绿色(Green)和蓝色(Blue)。虽然该颜色模型的命名方式是红色在前，但是在OpenCV中却是相反的顺序，第一个通道是蓝色(B)分量，第二个通道是绿色(G)分量，第三个通道是红色(R)分量。根据存储顺序的不同，OpenCV 4中提供了这种顺序的反序格式，用于存储第一个通道是红色分量的图像，但是这两种格式图像的颜色空间是相同的，颜色空间模型如图3-1所示。3个通道对于颜色描述的范围是相同的，因此RGB颜色模型的空间构成是一个立方体。在RGB颜色模型中，所有的颜色都是由这3种颜色通过不同比例的混合得到，如果3种颜色分量都为0，则表示为黑色，如果3种颜色的分量相同且都为最大值，则表示为白色。每个通道都表示某一种颜色0～1的过程，不同位数的图像表示将这个颜色变化过程细分成不同的层级，例如8UC3格式的图像每个通道将这个过程量化成256个等级，分别由0～255表示。在这个模型的基础上增加第四个通道即为RGBA模型，第四个通道表示颜色的透明度，当没有透明度需求的时候，RGBA模型就会退化成RGB模型。",
+      "translatedText": "The RGB color model has been introduced previously\\. This model is named using the English initials of three colors: Red, Green, and Blue\\. Although the color model is named with red first, in OpenCV the order is reversed: the first channel is the Blue (B) component, the second channel is the Green (G) component, and the third channel is the Red (R) component\\. Depending on the storage order, OpenCV 4 provides a reverse\\-order format of this order for storing images in which the first channel is the red component, but the color space of these two image formats is the same\\. The color space model is shown in Figure 3\\-1\\. The three channels have the same range for color description; therefore, the spatial structure of the RGB color model is a cube\\. In the RGB color model, all colors are obtained by mixing these three colors in different proportions\\. If all three color components are 0, the color is represented as black; if the three color components are the same and all at their maximum values, the color is represented as white\\. Each channel represents the process of a certain color from 0 to 1, and images with different bit depths represent this color variation process subdivided into different levels\\. For example, an image in 8UC3 format quantizes this process into 256 levels per channel, represented by 0 to 255 respectively\\. Adding a fourth channel to this model yields the RGBA model\\. The fourth channel represents color transparency\\. When there is no need for transparency, the RGBA model degenerates into the RGB model\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 395,
+        "outputTokens": 327,
+        "costUsd": 0.000511
+      }
+    },
     "991ad660419031248bc33f47c1f6c547fc99bdb539fc10e101d1b87fc66e8f01": {
       "normalizationVersion": 1,
       "sourceHash": "bae1883906165416a7ff2177d98dec8749b2cebdaa80d2ffda2554f5e86732c6",
@@ -293,6 +307,20 @@
         "inputTokens": 0,
         "outputTokens": 0,
         "costUsd": 0
+      }
+    },
+    "992f3777da57649d974ae3cd1d56f76af2aa1bb201ec83a82a7afbfb9516a14d": {
+      "normalizationVersion": 1,
+      "sourceHash": "b6340eca90bd04798f538bb8de00be92558e258e2369867579fe7df7fe8a2a1f",
+      "contextFingerprint": "7f8b208e80d5e5c27e9737241454a1577fcabcab6aeba3c17f98fe9c0eecfc40",
+      "sourceText": "图2-6 读取视频程序运行结果\n![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776174431344.webp)",
+      "translatedText": "Figure 2\\-6 Result of running the video reading program ![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/04/13/1776174431344.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 140,
+        "outputTokens": 20,
+        "costUsd": 0.000066
       }
     },
     "9943e6c456caeb6ba510975782e8fe82378e0683555ef61fdf2bdef0f4b93b3a": {
@@ -643,6 +671,20 @@
         "inputTokens": 130,
         "outputTokens": 8,
         "costUsd": 0.000049
+      }
+    },
+    "99d2f30999ae812ebfa8d14d784410a135d63da64d10f31aec17c3e941cc0d72": {
+      "normalizationVersion": 1,
+      "sourceHash": "a5692869197a8e778731388a51743db29b316b133a201b803782403daba0e0e6",
+      "contextFingerprint": "264038dd1ba440ab1af575119ac2d8befdece6c2b6568b9403e23e25611eb0af",
+      "sourceText": "### 重要注意事项：",
+      "translatedText": "### Important Notes:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 132,
+        "outputTokens": 10,
+        "costUsd": 0.000052
       }
     },
     "99e9f3ba3bcea0c61868116063c44710ad2c4ca930b4a4df7a5b347a4deb7fc2": {

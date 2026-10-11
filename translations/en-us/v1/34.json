@@ -99,6 +99,20 @@
         "costUsd": 0.000052
       }
     },
+    "34229d6bd5b6bdd775030251d0c5b429c588ce7922d4aedc3f9da74632dc87c1": {
+      "normalizationVersion": 1,
+      "sourceHash": "060aacac084d4d3bf52b871972c87816bf8f65fb8cd7306bfcd590cb35e2ee6f",
+      "contextFingerprint": "72b8659084851738d3eadc80f8bf65bb4a859caa5e2693043d1836251fc5cf47",
+      "sourceText": "咱们需要再更改一下工作区下的CMakeLists.txt从而来让编译的时候生成.hex和.bin（没办法，就得这么麻烦，我也不知道为啥CubeMX不给全干好）",
+      "translatedText": "We need to modify CMakeLists.txt in the workspace again so that \\.hex and \\.bin are generated during compilation (no way around it—it has to be this troublesome; I don't know why CubeMX doesn't do it all properly)\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 174,
+        "outputTokens": 63,
+        "costUsd": 0.000128
+      }
+    },
     "342665346033e6690fea3d8c7d0d210b93412a686a95f10682e84d98fc525ccf": {
       "normalizationVersion": 1,
       "sourceHash": "a7eb9ec3ff90190714c4344c241fd184268fe89626d804e959531eba0d99354d",
@@ -209,6 +223,20 @@
         "inputTokens": 136,
         "outputTokens": 18,
         "costUsd": 0.000063
+      }
+    },
+    "3436e2feddb5c66269885254d8ef61980df6be00714a75ebbd3be27dffc6e312": {
+      "normalizationVersion": 1,
+      "sourceHash": "4e445a74aa40b8608413e6ec636310ab1f8fc25fd49c2cf7df5b0dfb5e59f2fd",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- name: 写入文件中的变量名称。\n- val: 变量值。",
+      "translatedText": "- name: Name of the variable written to the file\\.\n- val: Variable value\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 145,
+        "outputTokens": 23,
+        "costUsd": 0.000072
       }
     },
     "3437bfc47f6d48d13a3cd2706b059dddf2894d5ce15a4b6b1f42985af269f7a5": {
@@ -687,6 +715,20 @@
         "costUsd": 0.000057
       }
     },
+    "349b78579b990fe603e7bda54a01cc3610279876982a6d289f1556340c937a4a": {
+      "normalizationVersion": 1,
+      "sourceHash": "a2b8d6a8134c3e0daeb3d7404756b189888d19ca6ecdc2726e8ebf8526d88e9c",
+      "contextFingerprint": "7f4f219edcaf69339a97274035da370ebb10ed6aed1d0580d1dc551bed24f270",
+      "sourceText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768390289518.webp)",
+      "translatedText": "![alt text](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/01/07/1768390289518.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "349b83252d206d38d27a480acc76565f348d5fd26fd69de385cfdda62848154d": {
       "normalizationVersion": 1,
       "sourceHash": "fe4d9d2ba56b7e485d933d2284433e1906d248f000ce4d3b5338855b43145e7d",
@@ -699,6 +741,20 @@
         "inputTokens": 141,
         "outputTokens": 19,
         "costUsd": 0.000066
+      }
+    },
+    "349bfe366d67a2824cc7c0fbe3aab79c04ac325bfd992b773b205ceebcbe0b15": {
+      "normalizationVersion": 1,
+      "sourceHash": "c8445687ba26d1114982360b3529f59da0f86994b0291dc89cce3425072292a0",
+      "contextFingerprint": "0d81b8715127a09d034cb0dde8875abf0691bc6e23bdabbcf6cf3cec1210606a",
+      "sourceText": "| 语言 / 类型 | 推荐标识符 | 常用标识符 / 别名 | 示例 |\n|---|---|---|---|\n| STM32 C | `c` | — | ` ```c ` |\n| STM32 C++ | `cpp` | `c++`, `cxx` | ` ```cpp ` |\n| ROS 2 C++ | `cpp` | `c++`, `cxx` | ` ```cpp ` |\n| ROS 2 Python | `python` | `py` | ` ```python ` |\n| CMakeLists.txt | `cmake` | — | ` ```cmake ` |\n| package.xml | `xml` | — | ` ```xml ` |\n| ROS 2 参数文件 | `yaml` | `yml` | ` ```yaml ` |\n| URDF | `xml` | — | ` ```xml ` |\n| Xacro | `xml` | `xacro` | ` ```xml ` |\n| SDF | `xml` | `sdf` | ` ```xml ` |\n| Gazebo World | `xml` | — | ` ```xml ` |\n| Linux 命令 | `bash` | `sh`, `shell` | ` ```bash ` |\n| 终端命令 + 输出 | `console` | `shell-session` | ` ```console ` |\n| Dockerfile | `dockerfile` | `docker` | ` ```dockerfile ` |\n| Docker Compose | `yaml` | `yml` | ` ```yaml ` |\n| JSON | `json` | — | ` ```json ` |\n| TOML | `toml` | — | ` ```toml ` |\n| INI / Conf | `ini` | — | ` ```ini ` |\n| Makefile | `makefile` | `make` | ` ```makefile ` |\n| Git Diff | `diff` | `patch` | ` ```diff ` |\n| 日志 / 普通输出 | `text` | `plaintext`, `txt` | ` ```text ` |",
+      "translatedText": "| Language / Type | Recommended identifier | Common identifier / alias | Example |\n|---|---|---|---|\n| STM32 C | `c` | — | ` ```c ` |\n| STM32 C++ | `cpp` | `c++`, `cxx` | ` ```cpp ` |\n| ROS 2 C++ | `cpp` | `c++`, `cxx` | ` ```cpp ` |\n| ROS 2 Python | `python` | `py` | ` ```python ` |\n| CMakeLists.txt | `cmake` | — | ` ```cmake ` |\n| package.xml | `xml` | — | ` ```xml ` |\n| ROS 2 parameter file | `yaml` | `yml` | ` ```yaml ` |\n| URDF | `xml` | — | ` ```xml ` |\n| Xacro | `xml` | `xacro` | ` ```xml ` |\n| SDF | `xml` | `sdf` | ` ```xml ` |\n| Gazebo World | `xml` | — | ` ```xml ` |\n| Linux command | `bash` | `sh`, `shell` | ` ```bash ` |\n| Terminal command \\+ output | `console` | `shell-session` | ` ```console ` |\n| Dockerfile | `dockerfile` | `docker` | ` ```dockerfile ` |\n| Docker Compose | `yaml` | `yml` | ` ```yaml ` |\n| JSON | `json` | — | ` ```json ` |\n| TOML | `toml` | — | ` ```toml ` |\n| INI / Conf | `ini` | — | ` ```ini ` |\n| Makefile | `makefile` | `make` | ` ```makefile ` |\n| Git Diff | `diff` | `patch` | ` ```diff ` |\n| Log / plain output | `text` | `plaintext`, `txt` | ` ```text ` |",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 309,
+        "outputTokens": 180,
+        "costUsd": 0.000309
       }
     },
     "349ca12bf1fa2253b2c11646a482f61996f5f1ea8d600be22cfd1e49dd4cefdb": {

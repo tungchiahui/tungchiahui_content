@@ -71,6 +71,20 @@
         "costUsd": 0
       }
     },
+    "b70ed34ef6f0369bd41d214792a9040fde1092a882379b1001171cb9a3d36bee": {
+      "normalizationVersion": 1,
+      "sourceHash": "74e43fed75d37529330d3296d0deee6a073001e62c3355271bfeafb556bf5d4e",
+      "contextFingerprint": "89386a7bbcd034f928ab1dfcea98e7fa9d033a31efe7a684171313d5f7ecd992",
+      "sourceText": "接下来再编写`led.c`的内容:\n由于看我自己板子的原理图,我的板子的IO43是LED灯的控制引脚,所以下面我初始化IO43.(我这里只有IO43,IO44接了个普通灯,没办法,只能先把`menuconfig`里的`Channel for console output`换成`none`,而你的灯不用改这个)",
+      "translatedText": "Next, write the content of`led.c` Because looking at my own board's schematic, IO43 on my board is the LED control pin, so next I will initialize IO43\\. (Here I only have IO43; IO44 is connected to an ordinary light, so there is no way around it—I can only first replace the `menuconfig` in `Channel for console output` with `none`, while your light does not need to change this\\.)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 191,
+        "outputTokens": 89,
+        "costUsd": 0.000165
+      }
+    },
     "b71230bb2c2d70537c0346d1a614f96512830d76f8803f3c4e4112db45471f04": {
       "normalizationVersion": 1,
       "sourceHash": "88e9d1d3cc6067e64b6c058d43bdc35a5c78c62cf47983f4b58c17aeee21cedc",
@@ -323,6 +337,20 @@
         "costUsd": 0.000145
       }
     },
+    "b7515b248c8b02549fa25df12f5bbb370aac79ff258cf5e562ec99e2f95a78fd": {
+      "normalizationVersion": 1,
+      "sourceHash": "356d456dc1e4ffb89ff0c0d27d1eed1ac8ebac6644eeeb49da05e04454cd26b4",
+      "contextFingerprint": "669b26fa18e376c3e95382520cdebadc520be0dd52bfb5da62e1d0dda3af1751",
+      "sourceText": "- 定义：在Dart语言中，通过编译静态检查将运行时空指针提前暴露\n- 特点：将空指针异常从运行时提前至编译时，减少线上崩溃",
+      "translatedText": "- Definition: In the Dart language, runtime null pointer issues are exposed in advance through compile\\-time static checks\n- Feature: Moves null pointer exceptions from runtime to compile time, reducing production crashes",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 164,
+        "outputTokens": 44,
+        "costUsd": 0.000102
+      }
+    },
     "b753b339cacffd69a5031987a2c44972f83727c1b144eee21837d4105b7dafe6": {
       "normalizationVersion": 1,
       "sourceHash": "eb1b97b49580eb92980ba9155440200d64d3c83a0e5901e236b5314fbd9fa5af",
@@ -505,6 +533,20 @@
         "costUsd": 0
       }
     },
+    "b773cb382978cf2c716b44fcffff015e91bd561d423a21aa0f5be97324ab7415": {
+      "normalizationVersion": 1,
+      "sourceHash": "71370950fd21ad68302265b3cc3c72a3c760d80fb88b078490e72e50e78f7728",
+      "contextFingerprint": "cf6031dad08682bafe91ec819e824d123a7b030af9a1cfa69d237333860ae537",
+      "sourceText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image70.webp)",
+      "translatedText": "![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2025/07/18/image70.webp)",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
+      }
+    },
     "b7749ffece54b3baaca5cabbe9d233a534ebe3a79a21caab13844d1b1f91b1ee": {
       "normalizationVersion": 1,
       "sourceHash": "6cd33fbbef4897430e1e36cf9a09a0ccb045cffc5e0f2f6b3d10ed4e1e82b9c1",
@@ -517,6 +559,20 @@
         "inputTokens": 191,
         "outputTokens": 73,
         "costUsd": 0.000145
+      }
+    },
+    "b77556b641819ff5ce29a0c0c131924ec40bf1ab2d83de0ee2eb188047b8abba": {
+      "normalizationVersion": 1,
+      "sourceHash": "0f99860a26274dc1188be24e7ea9d37521b00a7a78818606fbe85f85f6c68d2e",
+      "contextFingerprint": "cc9db3d0d54d89f9f0620dfd8eb2c5b613d8a58bc786791f2a97a2d54f34e03f",
+      "sourceText": "随着 OpenCV 的不断发展，库中引入了 C++ 接口，并提供了 Mat 类用于数据存储。Mat 类采用自动内存管理机制，有效解决了内存释放问题。当变量不再使用时，其占用的内存会被自动释放。",
+      "translatedText": "With the continuous development of OpenCV, the C++ interface was introduced into the library, and the Mat class was provided for data storage\\. The Mat class adopts an automatic memory management mechanism, which effectively solves the problem of memory release\\. When a variable is no longer used, the memory it occupies is automatically released\\.",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 189,
+        "outputTokens": 77,
+        "costUsd": 0.00015
       }
     },
     "b775d552532c147cfae6fe3f457f41eddb6a7f9619e3a737351b4a43dc21f962": {
@@ -841,6 +897,20 @@
         "costUsd": 0.000054
       }
     },
+    "b7d5d618be4cdf2c9b27a968e5fef9093fc51adc09f216ca73c89297399ba633": {
+      "normalizationVersion": 1,
+      "sourceHash": "76e8d018644f88dc0aeafaeb1f9e31d183705dccbda52f59817a5f5e66f5ff3e",
+      "contextFingerprint": "459667e525f9477f1eb814b1839a12357a1bc7a1c2423f17a4d6b38eeaf9bc38",
+      "sourceText": "这里的`-c transport select xxx`是选协议：",
+      "translatedText": "Here`-c transport select xxx`is the protocol selection:",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 135,
+        "outputTokens": 14,
+        "costUsd": 0.000058
+      }
+    },
     "b7d6d02d111cfd7a4a10a166bfd6286972875749f383e763011c8b3523c19f48": {
       "normalizationVersion": 1,
       "sourceHash": "c36b2eaca375895e0bc23c6d02ac7e3ecd687edfee1fb1fea07e717e4cd3d852",
@@ -867,6 +937,20 @@
         "inputTokens": 145,
         "outputTokens": 32,
         "costUsd": 0.000082
+      }
+    },
+    "b7dfb5cb163f6f0df905bd5acef88d25aa59244ae2d19ad7d696164529326aa4": {
+      "normalizationVersion": 1,
+      "sourceHash": "42894bc4ff77c98cb93b2bd09b4c42f181cedf8bbc6512d253955bd36c13977a",
+      "contextFingerprint": "c8b7e289da3ee744bd97ccc4ae4cbf606a267371d8ab25e854802e76f328edb7",
+      "sourceText": "1. **gpio_config**",
+      "translatedText": "1. **gpio_config**",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "usage": {
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "costUsd": 0
       }
     },
     "b7e3c90509dd2c62991d8048fe76e46a771530a5f0b646ac82d94cc9db236fc4": {
