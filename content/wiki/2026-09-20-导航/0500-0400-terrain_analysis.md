@@ -36,9 +36,11 @@ title: "terrain_analysis（近场地面与障碍高差分析）"
 
 所以，坡道分析先沿着这条顺序看：**地面高度选得对不对 → 坡点有没有被删掉 → 下游是否把正常高差当成障碍。** 动态物体清理、旧点保留时间和更新次数主要解决其他问题；当坡面点缺失时再检查它们的间接影响。
 
-### ros__parameters（ROS节点参数）
+### 参数
 
-#### 参数表
+#### ros__parameters（ROS节点参数）
+
+##### 参数表
 
 ```yaml
 terrain_analysis:
@@ -100,15 +102,15 @@ terrain_analysis:
 | `maxRelZ` | `0.5` | m，相对输入位姿的 `odom` z | **上实物前必须核对并正确配置** | 有效高度上界 | 接受更多高点，顶棚或悬空结构也可能进入 | 过滤更多高点，可能漏障 | 与 `vehicleHeight` 的参考基准不同；地面采样与正常输出严格使用此上界 |
 | `disRatioZ` | `0.2` | 无量纲，m/m | **实物运行时重点观察，有问题再针对性调整** | 随水平距离扩大入缓存的上下高度窗口 | 远处缓存候选高度范围更宽 | 远处缓存候选范围更窄，0不扩大 | 入缓存及更新筛选使用；最终地面采样与输出仍用固定 `minRelZ/maxRelZ`，不能保证扩大后的坡面点会输出 |
 
-#### 参数详解
+##### 参数详解
 
-##### scanVoxelSize（点云降采样尺度）
+###### scanVoxelSize（点云降采样尺度）
 
 当前0.05 m表示累计点云重采样时的三维体素边长。同一小体素中的点合成代表点，可以压缩重复扫描；调得更大可能减少窄障碍、边缘和有效地面样本，调得更小则增加点数和处理负担。
 
 源码另外固定了1.0 m的历史缓存分块和0.2 m的平面地面格子。`scanVoxelSize` 不改变这两种格子的尺寸，也不等于代价地图分辨率。地面样本来自平面格子的3×3邻域，`minBlockPointNum` 判断的是这个邻域收集到的高度样本数。
 
-##### decayTime、noDecayDis 与 clearingDis（旧点保留、免衰减与事件清图）
+###### decayTime、noDecayDis 与 clearingDis（旧点保留、免衰减与事件清图）
 
 新点进入缓存时，`intensity` 暂存“该帧时间戳减首次点云时间戳”，用于历史管理；输出时再改为高度差。容器 PCL 的体素滤波默认平均各字段，因此年龄判定针对重采样代表点，不能理解为逐个原始点精确保留时间。
 
@@ -126,7 +128,7 @@ terrain_analysis:
 
 `clearingDis` 仅在清图事件触发后使用，清掉的是 `d < clearingDis` 的点。当前0没有正半径清除区；`joy` 的第6个按钮可触发清图，`map_clearing` 的 Float32 消息会覆盖清图半径并触发处理。原注释“该距离外的点会被清除”方向相反，不能照此理解。清图只影响本节点缓存，不是删除 Point-LIO 地图；本轮未发布任何清图消息。
 
-##### useSorting、quantileZ 与 considerDrop（地面高度选择与低处高差处理）
+###### useSorting、quantileZ 与 considerDrop（地面高度选择与低处高差处理）
 
 每个0.2 m平面格先收集邻域高度。`useSorting=True` 时排序并取下标 `floor(quantileZ×N)` 的高度；当前 `quantileZ=0.2`，例如10个样本会取下标2，即从低到高第3个样本。它可以减少极低离群点对“最低地面”的影响，但分位比例过高也可能把障碍底部或坡面较高部分当作地面。
 
@@ -139,13 +141,13 @@ terrain_analysis:
 
 当前局部代价地图的强度下限为0.1 m。地面估计抬高会降低凸起的高度差，可能让低障碍低于该门槛；估计过低则可能把正常地面标成障碍。后续实物应同时检查地面、低障碍和坡面，不能只看点云是否连续。
 
-##### limitGroundLift 与 maxGroundLift（地面估计抬升限制）
+###### limitGroundLift 与 maxGroundLift（地面估计抬升限制）
 
 启用限制且使用排序时，地面估计不会高于“邻域最低高度 + `maxGroundLift`”。它限制的是分位地面相对最低样本的抬升，不是云台升降、底盘离地高度或每帧地面变化率。
 
 当前 `limitGroundLift=False`，所以 `maxGroundLift=0.3` 不影响结果，暂不调整。最低样本本身若为低离群点，开启限制也可能将地面压低。
 
-##### clearDyObs 及其几何门槛（动态残留点筛选）
+###### clearDyObs 及其几何门槛（动态残留点筛选）
 
 这个开关用旧点与最新回波做格子级候选筛选，不估计物体速度，也不创建“动态物体走过就永久禁行”的区域。候选计数每轮重建，最后只筛掉本轮仍被标记的格子输出；缓存老点的移除另由衰减等规则处理。
 
@@ -170,7 +172,7 @@ terrain_analysis:
 
 遮挡、稀疏回波或位姿错误可能使静态障碍也暂时缺少“本帧确认”，从而被误筛。当前 `minDyObsPointNum=1` 比较敏感；应观察障碍离开后的残留和静态物体被遮挡时的结果，再判断是否需要调整，而不是直接根据原注释关闭或修改。
 
-##### noDataObstacle、noDataBlockSkipNum 与 minBlockPointNum（缺数据区域与最少地面样本）
+###### noDataObstacle、noDataBlockSkipNum 与 minBlockPointNum（缺数据区域与最少地面样本）
 
 `noDataObstacle=True` 且初始化完成时，地面样本不足的格子会生成4个障碍标记点，`z` 设为输入位姿高度，`intensity` 设为 `vehicleHeight`。这表示主动阻挡欠数据区域；False 只是不生成这些点，未知区域怎样通行仍由下游决定。
 
@@ -178,7 +180,7 @@ terrain_analysis:
 
 `minBlockPointNum=10` 仍然生效：正常地形点输出要求邻域地面样本数至少10。提高它会减少稀疏格输出，降低它可能保留更多细小障碍，但也更依赖少量、不稳定的地面样本。它同时受降采样尺度、衰减时间和实际点密度影响。
 
-##### vehicleHeight（地形输出高差上限）
+###### vehicleHeight（地形输出高差上限）
 
 正常地形点要求 `0≤h<vehicleHeight`，当前即0～0.5 m，不包含0.5 m上界。`h` 相对估计地面，`minRelZ/maxRelZ` 则相对输入雷达位姿的 `odom` z，两者参考基准不同。
 
@@ -186,13 +188,13 @@ terrain_analysis:
 
 当前正常输出高度差还与下游0.1 m障碍下限共同作用，因此进入局部障碍标记的正常点，高度差通常需落在0.1～0.5 m之间，并通过其他过滤。当前数值是否适合实车尚无测量结论。
 
-##### voxelPointUpdateThre 与 voxelTimeUpdateThre（缓存点云更新门槛）
+###### voxelPointUpdateThre 与 voxelTimeUpdateThre（缓存点云更新门槛）
 
 每个1.0 m缓存分块的新入点计数达到100，或距离该块上次更新达到1.0秒，就重新降采样并筛除过期点；清图事件也会强制更新。计数在更新后清零，计时采用输入点云时间。
 
 增大门槛通常减少这一阶段的更新频率，减小则增加处理次数。它们不是发布频率参数，也不是地面样本数门槛；发布由新点云处理驱动，实际频率还受负载影响。先沿用当前值，若历史残留或计算负担异常，再与 `decayTime` 一起检查。
 
-##### minRelZ、maxRelZ 与 disRatioZ（相对输入位置的高度窗口）
+###### minRelZ、maxRelZ 与 disRatioZ（相对输入位置的高度窗口）
 
 设 `Δz=z_point−z_input_pose`，`d` 为 `odom` 中的水平距离。入缓存以及缓存更新时使用：
 
@@ -208,7 +210,7 @@ terrain_analysis:
 
 这些高度沿 `odom` 的 z 轴，并相对输入 `lidar_odometry` 的位置，不是相对底盘原点或云台 pitch 层。需先确认雷达到地面高度、`odom` 的方向以及 IMU／雷达位姿转换；参考系错误不能通过单纯加大窗口解决。本轮不修改重力方向或任何工程参数。
 
-##### 启动来源与当前验证范围
+###### 启动来源与当前验证范围
 
 整套 reality／simulation 启动分别默认使用对应目录的 `nav2_params.yaml`，经 `navigation_launch.py` 将处理后的参数文件交给该节点，并把节点名设为 `terrain_analysis` 以匹配 YAML。包内独立 XML launch 和 C++ 默认值是另外的来源，例如独立 XML 的 `decayTime=1.0`、`noDecayDis=1.75`、`vehicleHeight=1.5`，不能套用本表；直接运行可执行文件也不会自动加载整套 YAML。
 

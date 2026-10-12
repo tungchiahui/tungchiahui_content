@@ -77,9 +77,11 @@ wz_final = wz_nav2 + wz_spin
 
 当前实物、仿真的 `FollowPath.enable_rotation` 都是 False，普通路径跟踪时该控制器自身给出的导航角速度为0。因此尚未改自旋设置时，实物默认不附加自旋，仿真默认附加3.14 rad/s，约每2秒一圈。Nav2恢复旋转等行为另有指令来源，速度平滑器也可能保留过渡过程，不能推成整个导航链永远只输出0角速度。
 
-### ros__parameters（ROS节点参数）
+### 参数
 
-#### 参数表
+#### ros__parameters（ROS节点参数）
+
+##### 参数表
 
 本表以当前实物 YAML 为基准；仿真差异单列。`local_plan_topic` 没写在这两份 YAML 中，但源码会声明并读取，当前使用其默认值。
 
@@ -108,9 +110,9 @@ fake_vel_transform:
 | `cmd_spin_topic` | `"cmd_spin"` | 不适用，话题名称；消息数值为 rad/s | **根据实际功能需求开启或设置** | 接收并保存新的附加底盘自旋量 | 不适用 | 不适用 | 类型 example_interfaces/msg/Float32；消息覆盖旧值，不是逐次累加；收到消息本身不立即发布速度 |
 | `init_spin_speed` | `0.0`；仿真 `3.14` | rad/s，带正负号的附加量 | **根据实际功能需求开启或设置** | 启动时给附加自旋量赋初值 | 数值更偏正方向，最终效果取决于导航分量与符号 | 数值更偏负方向；负值绝对值变大可能反向转得更快 | 并非最大转速；cmd_spin覆盖后使用新值；0只关闭附加量，不保证导航角速度为0 |
 
-#### 参数详解
+##### 参数详解
 
-##### odom_topic、robot_base_frame 与 fake_robot_base_frame（输入里程计与真实、虚拟云台系）
+###### odom_topic、robot_base_frame 与 fake_robot_base_frame（输入里程计与真实、虚拟云台系）
 
 `odom_topic` 当前接 `sensor_scan_generation` 的 `odometry`；消息位姿参考系预期为 `odom`，`child_frame_id` 为 `gimbal_yaw`。本节点读这个位姿的 yaw，发布父系 `gimbal_yaw` 到子系 `gimbal_yaw_fake` 的反向 yaw 变换，约50 Hz，平移为零。
 
@@ -118,7 +120,7 @@ fake_vel_transform:
 
 MID360继续挂在 `gimbal_yaw`，随实际 yaw、不随实际 pitch 转动；实际 yaw、pitch 分别只在 `gimbal_yaw_joint`、`gimbal_pitch_joint`，两个 odom 关节固定。虚拟系不是增加第二个实际 yaw，串口 JointState仍按机械相对角填 `{relative_pitch, relative_yaw, 0, 0}`。
 
-##### input_cmd_vel_topic、output_cmd_vel_topic 与MCU配合（速度输入与输出话题）
+###### input_cmd_vel_topic、output_cmd_vel_topic 与MCU配合（速度输入与输出话题）
 
 当前跟踪控制器把路径转到局部代价地图的机体系；该系配置为 `gimbal_yaw_fake`，据此计算 x、y速度。跟踪输出经 `cmd_vel_controller → velocity_smoother → cmd_vel_nav2_result`，再进入本节点；导航行为也可输出到 `cmd_vel_nav2_result`。
 
@@ -128,7 +130,7 @@ MID360继续挂在 `gimbal_yaw`，随实际 yaw、不随实际 pitch 转动；�
 
 这条参考系结论只针对上述导航链。手柄等若绕过本节点直接发布 `cmd_vel`，不自动获得同样的转换；它们的速度参考系及同名话题的使用方式需要另行核对，本块不展开修改。
 
-##### init_spin_speed 与 cmd_spin_topic：改的是附加量
+###### init_spin_speed 与 cmd_spin_topic：改的是附加量
 
 当前实物 `init_spin_speed=0.0`，仿真为3.14。本节原先统一写“默认3.14 rad/s”，现按两份配置区分；前文“数据对接”仍保留3.14示例，不代表当前实物默认值，本轮不改写该旧章节。北极熊官方实物 YAML 当前采用3.14，这是原包设置，当前工程的具体值应以本表为准。[北极熊官方配置](https://github.com/SMBU-PolarBear-Robotics-Team/pb2025_sentry_nav/blob/main/pb2025_nav_bringup/config/reality/nav2_params.yaml)
 
@@ -151,7 +153,7 @@ ros2 topic pub --once /cmd_spin example_interfaces/msg/Float32 "{data: 0.0}"
 
 源码直接相加，没有对最终角速度限幅或平滑。上游平滑器处理的是相加之前的速度，不能据其限值认定相加后的总量已受同样限制。是否适合实车需结合底盘能力及下位机限制核对，本轮不调整转速。
 
-##### local_plan_topic、use_sim_time 与源码疑点
+###### local_plan_topic、use_sim_time 与源码疑点
 
 本节点近似配对的是 `Odometry` 和 `Path`，不是带时间戳的速度；输入速度没有时间戳，只缓存最近值。收到局部路径会刷新“控制器活跃”时间；最近0.5秒内有路径时，非零速度等待配对回调处理，否则直接按当前保存的 yaw 转换。近似配对不能证明路径、位姿、速度对应同一时刻。
 
@@ -164,7 +166,7 @@ ros2 topic pub --once /cmd_spin example_interfaces/msg/Float32 "{data: 0.0}"
 
 这里不展开此前搁置的导航走停或 `map→odom` 时效排查，仅记录本节点的代码前提。
 
-##### 启动来源与当前验证范围
+###### 启动来源与当前验证范围
 
 整套 reality／simulation 启动分别默认使用对应目录的 `nav2_params.yaml`，可由 `params_file` 指定；导航 launch给节点或组件加载处理后的参数文件，并重写已有 `use_sim_time`。两种模式都把该节点命名为 `fake_vel_transform`，匹配 YAML。
 

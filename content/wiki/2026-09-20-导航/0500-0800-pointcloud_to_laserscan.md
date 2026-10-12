@@ -29,9 +29,11 @@ terrain_map_ext（odom系地形点）
 | 以为扫描固定20 Hz，实际不是 | `scan_time`、输入点云周期 | 0.05 s只写入消息，发布由点云回调驱动，没有20 Hz发布定时器 |
 | 有点云却没有扫描 | 下游订阅、坐标TF、字段 | 没人订阅扫描时不接点云；当前需要有效TF以及XYZ、intensity字段 |
 
-### ros__parameters（ROS节点参数）
+### 参数
 
-#### 参数表
+#### ros__parameters（ROS节点参数）
+
+##### 参数表
 
 前13项对应当前实物 YAML；仿真仅 `use_sim_time=True`。另外列出源码默认的3项，明确TF等待与无回波编码的条件。
 
@@ -74,9 +76,9 @@ pointcloud_to_laserscan:
 | `queue_size` | 硬件并发线程数，源码默认；YAML未配置 | 消息数，计数 | **通常保持当前值，不作为优先调试项** | 设置点云订阅及TF消息过滤队列深度 | 可暂存更多消息，可能增加积压 | 缓存更少，TF未就绪时更易丢消息 | 默认随机器而变；不是CPU工作线程数、发布频率或扫描点数 |
 | `inf_epsilon` | `1.0`，源码默认；YAML未配置 | m，超出量程的附加值 | **当前运行不使用这个参数，暂不调整** | use_inf=False时生成无回波哨兵值 | 启用该分支后：哨兵值离range_max更远 | 启用该分支后：哨兵值更接近range_max | 当前use_inf=True，不参与结果；False时默认无回波为10+1=11 m；启用时宜保持正附加值，避免落入有效量程 |
 
-#### 参数详解
+##### 参数详解
 
-##### target_frame：扫描的中心和方向是底盘，不是云台或雷达
+###### target_frame：扫描的中心和方向是底盘，不是云台或雷达
 
 当前输入 `terrain_map_ext` 的点坐标在odom中；转换使用输入消息时间戳对应的 `base_footprint←odom`，随后以转换后的x、y、z筛选。输出 `obstacle_scan.header.frame_id` 为base_footprint，时间戳沿用输入。
 
@@ -90,7 +92,7 @@ pointcloud_to_laserscan:
 
 若target_frame设空，源码不转换点，直接在输入系中计算。当前输入为odom，这就变成以odom原点和方向作虚拟中心；机器人移动后，它不等价于仍以底盘为中心投影。
 
-##### min_height、max_height 与两项intensity：两把不同的尺
+###### min_height、max_height 与两项intensity：两把不同的尺
 
 高度窗口看 `z_base_footprint`，即点相对底盘原点、沿底盘z轴的坐标；高差窗口看 `intensity`，即上游地形分析给出的“离估计地面多远”。它们单位都是m，但基准不同。
 
@@ -112,7 +114,7 @@ pointcloud_to_laserscan:
 
 本地实现要求float类型的XYZ与intensity字段；没有intensity字段的点云不能直接套用。若接原始雷达点，intensity可能恢复为反射强度，这时0.1／2.0不再代表10 cm／2 m；不应仅换话题继续沿用当前解释。
 
-##### angle_min、angle_max 与 angle_increment：整圈分成720格
+###### angle_min、angle_max 与 angle_increment：整圈分成720格
 
 当前角域约为-180°～+180°，增量约0.5°，源码生成720个距离项。角度是目标系中的 `atan2(y,x)`，不是雷达垂直视场、安装倾角或云台机械yaw范围。
 
@@ -122,7 +124,7 @@ pointcloud_to_laserscan:
 
 源码先以 `ceil((angle_max-angle_min)/angle_increment)` 建数组，再计算下标。当前实现没有检查下标是否越界，而角度上界允许通过；当角域与增量恰好形成整数分格时，上界点存在越界路径。当前近似整圈设置得到720项，不能据此证明其他角度组合的边界安全；该缺口尚无运行触发记录。
 
-##### range_min 与 range_max：底盘周围的水平圆环
+###### range_min 与 range_max：底盘周围的水平圆环
 
 当前保留0.3～10.0 m水平距离的点，按 `sqrt(x²+y²)` 计算，不含z。相同x、y而高度不同的点，只要过高度／高差窗口，测距数值就一样。
 
@@ -130,7 +132,7 @@ pointcloud_to_laserscan:
 
 增大range_max只允许更多已经存在的远点，不能让雷达看到更远，也不能恢复上游删点。当前slam_toolbox另配置min_laser_range=0.3、max_laser_range=10.0，两级范围应一起核对；下游参数用途另属建图参数块。
 
-##### scan_time：时间字段，不是发布频率开关
+###### scan_time：时间字段，不是发布频率开关
 
 LaserScan定义中scan_time表示扫描之间的时间间隔。这里没有测量实际间隔，只把参数0.05 s写入消息；输出由输入点云驱动，实际周期取决于地形点云、TF与计算过程。
 
@@ -138,7 +140,7 @@ LaserScan定义中scan_time表示扫描之间的时间间隔。这里没有测�
 
 实际发布周期应按对应启动模式测量后核对。修改scan_time只会改字段，不会使10 Hz输入变成20 Hz扫描，也不会给各个角度格补出真实采样时间。
 
-##### use_inf 与 inf_epsilon：无回波不等于确定空地
+###### use_inf 与 inf_epsilon：无回波不等于确定空地
 
 True先把每格距离设为+∞，再用最近合格点覆盖；某格没有合格点就保留∞。False则先设为range_max+inf_epsilon，当前默认组合是11 m，仍超出10 m有效量程。
 
@@ -146,7 +148,7 @@ True先把每格距离设为+∞，再用最近合格点覆盖；某格没有合
 
 输出只填ranges，不填LaserScan.intensities。这里的两项intensity参数用于挑选输入点，并不把地形高差继续作为扫描强度发布。
 
-##### 默认TF参数与订阅条件
+###### 默认TF参数与订阅条件
 
 `transform_tolerance=0.01 s` 在当前代码中作为转换查询的等待超时；它不是点云和TF可以错开0.01秒的补偿量，也没有把消息时间戳前移／后移。TF消息过滤器按输入时间等待目标变换，queue_size控制其队列以及点云订阅深度。TF转换失败的回调直接返回，不用单位变换继续生成扫描。
 
@@ -154,7 +156,7 @@ True先把每格距离设为+∞，再用最近合格点覆盖；某格没有合
 
 默认queue_size取硬件并发线程数，适合先沿用；若消息排队或TF等待导致丢点，再按实际数据率和负载核对，不把队列长度当成工作线程数。
 
-##### 启动来源与验证状态
+###### 启动来源与验证状态
 
 | 启动方式 | 配置与输入输出来源 |
 |---|---|

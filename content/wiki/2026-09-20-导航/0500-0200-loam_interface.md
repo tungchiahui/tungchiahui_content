@@ -8,9 +8,11 @@ title: "loam_interface（Point-LIO输出的坐标与话题适配）"
 
 以下按 2026-10-10 当前源码与实物 YAML 核对。参数名与当前值可以确认，但 IMU、雷达和底盘的完整位姿转换存在源码疑点，不能把话题有输出等同于坐标关系正确。
 
-### ros__parameters（ROS节点参数）
+### 参数
 
-#### 参数表
+#### ros__parameters（ROS节点参数）
+
+##### 参数表
 
 ```yaml
 loam_interface:
@@ -34,15 +36,15 @@ loam_interface:
 
 六项都有作用，本块没有当前完全不参与运行的参数。五项业务参数只在构造时读取，源码没有运行时更新处理；运行中写入同名参数不会重建订阅或更新缓存，需在另行授权的重启中应用。`use_sim_time` 由 ROS2 管理，不属于这五项。
 
-#### 参数详解
+##### 参数详解
 
-##### use_sim_time（系统时间与仿真时间选择）
+###### use_sim_time（系统时间与仿真时间选择）
 
 False 使用系统时间；True 使用 `/clock` 提供的 ROS 时间。TF 缓存用的是节点时钟，Point-LIO、关节 TF 和本节点必须处于一致的时间域。
 
 本节点不会用当前时间重新标记输入位姿。切换时间源也不会修正雷达点时间单位、传感器时钟同步或旧时间戳；此前仿真转换器的秒／微秒不一致仍未解决。
 
-##### state_estimation_topic 与 registered_scan_topic（输入里程计与配准点云）
+###### state_estimation_topic 与 registered_scan_topic（输入里程计与配准点云）
 
 | 方向 | 话题 | 消息与坐标含义 |
 |---|---|---|
@@ -57,13 +59,13 @@ False 使用系统时间；True 使用 `/clock` 提供的 ROS 时间。TF 缓存
 
 本节点只写输出里程计的位姿，不转传输入速度和协方差，这些字段保持默认零值，不能据此判断车辆静止或估计没有不确定性。
 
-##### odom_frame（输出里程计与点云参考系）
+###### odom_frame（输出里程计与点云参考系）
 
 当前保持 `odom`。节点对点云执行刚体变换，对位姿左乘同一缓存矩阵，然后填写输出参考系名称。它没有验证输入位姿的 `header.frame_id` 与 `child_frame_id` 是否符合预期，也没有按输入名称查询 `camera_init → odom`。
 
 因此改为其他名字不会自动获得该参考系的变换。`odom` 是输出命名，实际轴向、原点和重力关系取决于缓存与 Point-LIO 初始化，不能靠名称判定正确。
 
-##### base_frame（初始化基准的底盘坐标系）
+###### base_frame（初始化基准的底盘坐标系）
 
 首次收到位姿时，节点按该消息时间戳查询 `base_footprint ← front_mid360`，最大等待0.5秒；失败则告警并放弃本次位姿，后续位姿回调重试。首次成功后，把当时的雷达安装与关节变换存为固定矩阵 `C`，后续位姿和点云都使用它。
 
@@ -71,7 +73,7 @@ False 使用系统时间；True 使用 `/clock` 提供的 ROS 时间。TF 缓存
 
 固定缓存本身不等于错误：两个固定参考系之间的对齐通常应保持固定，运动中的雷达→底盘变换由下游 `sensor_scan_generation` 按点云时间查询。需要确认的是 `C` 是否正确代表 `odom` 与 `camera_init` 的关系，不能简单改成每帧跟随云台更新。Point-LIO 的初始旋转还受重力对齐影响，不能默认输入初始姿态一定是单位旋转。
 
-##### lidar_frame（雷达坐标系与输出里程计子系）
+###### lidar_frame（雷达坐标系与输出里程计子系）
 
 当前 `front_mid360` 与模型中的雷达名称一致，但上游 `body` 是内部 IMU。设 `T_AB` 表示把 B 系坐标转换到 A 系，W=`camera_init`、I=内部 IMU、L=`front_mid360`、O=`odom`，完整雷达位姿一般应满足：
 
@@ -83,7 +85,7 @@ T_{OL}(t)=T_{OW}\,T_{WI}(t)\,T_{IL}
 
 Point-LIO 配准点云已经使用 `mapping.extrinsic_R/T`，而位姿发布直接取滤波器的 IMU 位置和姿态。当前实物 `extrinsic_R` 为单位矩阵，`extrinsic_T=[-0.011,-0.02329,+0.04412] m` 非零；轴向一致不代表两个原点相同。缺少这一步时，雷达绕 IMU 转动的杆臂效应可能表现为位置误差。单纯改 `lidar_frame` 或话题名无法补齐外参；先记录这一接口缺口，工程修改另行授权。
 
-##### 启动配置与源码缺口
+###### 启动配置与源码缺口
 
 | 启动方式 | 这块参数从哪里来 | 需要区分的值 |
 |---|---|---|
@@ -97,7 +99,7 @@ Point-LIO 配准点云已经使用 `mapping.extrinsic_R/T`，而位姿发布直�
 
 源码位置：`loam_interface/src/loam_interface.cpp` 的参数读取、点云回调和位姿回调；`point_lio/src/laserMapping.cpp` 的 `set_posestamp/publish_odometry`，以及 `point_lio/src/Estimator.cpp` 的 `pointBodyToWorld`。上述包均位于 `src/pb2025_sentry_nav/`。
 
-##### 已观察与待核实事项
+###### 已观察与待核实事项
 
 - **源码能确认：** 六项参数的使用、输入输出话题、首次 TF 缓存、IMU 位姿未补雷达外参、初始化保护缺失，以及 launch 配置来源。
 - **仿真已观察：** 2026-10-08 的独立 Point-LIO 检查在静止和约20 cm低速往返时有正常位姿与配准点云；该检查没有覆盖本节点和下游的完整转换，也没有独立云台 yaw 验证，不能据此认定这里的接口正确。
