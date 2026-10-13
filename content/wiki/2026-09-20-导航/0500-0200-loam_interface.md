@@ -105,5 +105,5 @@ Point-LIO 配准点云已经使用 `mapping.extrinsic_R/T`，而位姿发布直�
 - **仿真已观察：** 2026-10-08 的独立 Point-LIO 检查在静止和约20 cm低速往返时有正常位姿与配准点云；该检查没有覆盖本节点和下游的完整转换，也没有独立云台 yaw 验证，不能据此认定这里的接口正确。
 - **必须实物核实：** MID360 实际安装位置与轴向、内部雷达／IMU 外参、机械 yaw/pitch 零位与方向、串口角度单位和含义、各消息的时钟一致性，以及 Point-LIO 重力目标参考系与导航 `odom` 的关系。当前约定要求 JointState 使用机械相对角，世界 IMU 姿态不能代替关节角；本轮不修改重力方向。
 
-旧章节仍有两处与当前模型冲突：把 `rel_yaw` 填到 `gimbal_yaw_odom_joint` 的旧表，以及“雷达挂在 `gimbal_yaw_odom` 与 `gimbal_yaw` 没有区别”的说法。当前两个 odom 关节固定，实际 yaw 在 `gimbal_yaw_joint`、实际 pitch 在 `gimbal_pitch_joint`，串口 position 为 `{relative_pitch, relative_yaw, 0, 0}`；MID360 随 yaw 转动，不随 pitch 转动。本块按当前模型说明，旧章节原文保留待审查。
+机械关系与[Linux与MCU数据对接](/wiki/2026-09-20-dao-hang/0400-0100-linux-yu-mcu-shu-ju-dui-jie)、[MID360安装位置](/wiki/2026-09-20-dao-hang/0300-0200-mid360-an-zhuang-wei-zhi)一致：两个odom关节固定，实际yaw在`gimbal_yaw_joint`、实际pitch在`gimbal_pitch_joint`，串口position为`{relative_pitch, relative_yaw, 0, 0}`。MID360挂在实际yaw关节之后，随yaw、不随pitch；不能用关节之前的`gimbal_yaw_odom`替代其挂载层。
 
