@@ -176,5 +176,42 @@ max_dist_sq = 3.0 m² → 最大对应点距离约 sqrt(3) = 1.73 m
 - **必须实物测量／文件来源核实：** PCD与二维地图的共同基准、建图与启动云台零位、雷达／内部IMU／底盘外参、地图米制尺度及实际起点、可见结构与动态干扰、正确位置下的匹配稳定性。当前重力方向和点时间问题继续保留待核实。
 
 
+### 开发问题
+
+#### 关掉small_gicp
+
+| 原模板 | 对应静态版本 |
+|---|---|
+| `localization_launch.py` | `localization_static_launch.py` |
+| `rm_navigation_reality_launch.py` | `rm_navigation_reality_static_launch.py` |
+| `rm_navigation_simulation_launch.py` | `rm_navigation_simulation_static_launch.py` |
+
+主要调整是关闭 small_gicp、增加静态 map → odom；导航节点继续复用原来的 navigation_launch.py
+
+#### 日志某些报错
+
+| 日志原文 | 含义 |
+|---|---|
+| `GICP did not converge.` | 本次点云配准没有收敛 |
+| `No accumulated points to process.` | 没收到可处理的实时点云 |
+| `TF lookup failed...` | 初始化需要的 TF 查询失败 |
+| `Couldn't read PCD file...` | 先验 PCD 读取失败 |
+
+##### GICP did not converge.
+
+点云对不上，要自己跑一边slam建出来PCD，然后再使用这个PCD进行匹配。
+
+##### No accumulated points to process.
+
+这条提示表示 small_gicp 的实时点云缓存为空，发生在匹配之前。现在先查数据有没有送到，暂时不用调匹配参数或初始位姿。
+
+它默认订阅的是 /registered_scan，数据链是：
+
+```text
+MID360 → Point-LIO → /cloud_registered
+                         ↓ loam_interface
+                   /registered_scan → small_gicp
+```
+
 
 
