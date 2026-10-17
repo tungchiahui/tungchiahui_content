@@ -126,7 +126,7 @@ target_link_libraries(${PROJECT_NAME}
 
 这里用 `PRIVATE`，表示：
 
-1. 主程序自己使用 C++17 编译要求。
+1. 主程序自己使用模板默认的 C++20 编译要求。
 2. 主程序自己开启 warning。
 3. 主程序不需要把这些要求再传给别人，因为可执行文件一般不会被其他 target 链接。
 
@@ -312,7 +312,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 
 作用：设置安装后的可执行文件运行时如何找到动态库。
 
-本模板的库安装到：
+下面以 `${CMAKE_INSTALL_LIBDIR}` 为 `lib64` 的系统为例，库安装到：
 
 ```text
 install/linux-debug/lib64/
@@ -337,7 +337,7 @@ install/linux-debug/lib64/liblib1_src_lib.so
 install/linux-debug/lib64/liblib2_src_lib.so
 ```
 
-`$ORIGIN` 表示可执行文件所在目录，也就是：
+这里的属性设置在可执行文件上，`$ORIGIN` 表示该可执行文件所在目录，也就是：
 
 ```text
 install/linux-debug/bin
@@ -362,10 +362,22 @@ install/linux-debug/lib64
 | 写法 | 说明 |
 |:---|:---|
 | `"$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"` | 推荐，安装后相对查找库 |
+| `"$ORIGIN"` | 设置在动态库上时，从该动态库所在目录查找同目录的依赖库 |
 | `"/usr/local/lib"` | 写死系统路径，不适合模板 |
 | `""` | 不设置 RPATH，需要依赖系统库路径或 `LD_LIBRARY_PATH` |
 
-因为本模板已经设置 RPATH，所以不需要旧脚本去 `source` 环境变量。
+模板中还存在 `main.cpp -> lib1 -> lib2` 的依赖关系，因此 `src/lib1/CMakeLists.txt` 也为 `lib1` 设置了自己的搜索路径：
+
+```cmake
+set_target_properties(${PREFIX}_src_lib PROPERTIES
+  INSTALL_RPATH "$ORIGIN"
+)
+```
+
+这段配置位于 `lib1` 的 CMake 文件中，所以 `${PREFIX}` 为 `lib1`。此处 `$ORIGIN` 表示 `liblib1_src_lib.so` 所在目录，用来查找同目录的 `liblib2_src_lib.so`。
+Linux 上常见的 `DT_RUNPATH` 只用于当前对象的直接依赖，不会自动传给依赖库继续使用；因此只给主程序设置路径，仍可能找不到 `lib1` 所需的 `lib2`。相关规则见 [Linux 动态链接器说明](https://man7.org/linux/man-pages/man8/ld.so.8.html)。
+
+主程序和 `lib1` 分别设置路径后，保持 `bin/` 与库目录的相对位置即可运行本模板，无需额外设置 `LD_LIBRARY_PATH`；整体复制安装目录后仍然适用。
 
 ## 安装主程序
 
@@ -439,6 +451,11 @@ target_link_libraries(${PREFIX}_src_lib
 # =======
 # Install
 # =======
+# 安装后从自身所在目录查找同目录的 lib2
+set_target_properties(${PREFIX}_src_lib PROPERTIES
+  INSTALL_RPATH "$ORIGIN"
+)
+
 install(TARGETS ${PREFIX}_src_lib
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
@@ -804,11 +821,13 @@ install/linux-debug/include/lib1/eigen3_test.hpp
 
 ## lib2 和 lib1 的关系
 
-`lib2/CMakeLists.txt` 和 `lib1/CMakeLists.txt` 基本一样，只是：
+`lib2/CMakeLists.txt` 和 `lib1/CMakeLists.txt` 的源码收集、依赖管理与安装结构基本相同，模块前缀改为：
 
 ```cmake
 set(PREFIX "lib2")
 ```
+
+当前 `lib1` 依赖同目录的 `lib2`，因此额外设置了 `INSTALL_RPATH "$ORIGIN"`；`lib2` 使用的 Eigen 是头文件库，本例无需为它添加同样的动态库搜索路径。
 
 所以 target 变成：
 

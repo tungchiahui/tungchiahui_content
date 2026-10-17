@@ -8,10 +8,10 @@ title: "CMakePresets与构建安装"
 
 ```json
 {
-  "version": 6,
+  "version": 3,
   "cmakeMinimumRequired": {
     "major": 3,
-    "minor": 25,
+    "minor": 22,
     "patch": 0
   },
   "configurePresets": [
@@ -56,7 +56,7 @@ title: "CMakePresets与构建安装"
 ### `version`
 
 ```json
-"version": 6
+"version": 3
 ```
 
 表示 `CMakePresets.json` 文件格式版本，不是项目版本。
@@ -66,7 +66,8 @@ title: "CMakePresets与构建安装"
 | 值 | 含义 |
 |:---|:---|
 | `1`、`2`、`3`、... | CMake preset 文件格式版本 |
-| `6` | 本模板使用的版本，适合 CMake 3.25 及以上 |
+| `3` | 本模板使用的版本，CMake 3.21 起支持；本工程统一要求 CMake 3.22 及以上 |
+| `6` | CMake 3.25 起支持，新增打包预设和工作流预设等功能 |
 
 注意：
 
@@ -74,33 +75,35 @@ title: "CMakePresets与构建安装"
 2. 如果想兼容更老的 CMake，要降低 `version`，但某些字段可能不能再用。
 3. 如果本机 CMake 很新，也不一定要用最高 preset 版本；够用即可。
 
+本模板只使用格式 `3` 已支持的配置和构建预设，因此 Ubuntu 22.04 的 CMake 3.22.1 就能读取。格式与字段说明见 [CMake 3.22 预设文档](https://cmake.org/cmake/help/v3.22/manual/cmake-presets.7.html)；格式 `6` 的新增功能见 [CMake 3.25 预设文档](https://cmake.org/cmake/help/v3.25/manual/cmake-presets.7.html#format)。
+
 ### `cmakeMinimumRequired`
 
 ```json
 "cmakeMinimumRequired": {
   "major": 3,
-  "minor": 25,
+  "minor": 22,
   "patch": 0
 }
 ```
 
-表示读取这个 preset 文件所需的最低 CMake 版本。
+声明工程要求的最低 CMake 版本。CMake 还会单独检查自己是否支持前面的预设格式版本，两个条件都要满足。
 
 可以填什么：
 
 | 字段 | 示例 | 含义 |
 |:---|:---|:---|
 | `major` | `3` | 主版本号 |
-| `minor` | `25` | 次版本号 |
+| `minor` | `22` | 次版本号 |
 | `patch` | `0` | 补丁版本号 |
 
-这个模板要求 CMake >= 3.25，是因为顶层 `CMakeLists.txt` 也写了：
+本模板以 CMake 3.22 为兼容基线，顶层 `CMakeLists.txt` 同样写为：
 
 ```cmake
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.22)
 ```
 
-二者最好保持一致。
+二者保持一致。Ubuntu 22.04 可以直接使用 CMake 3.22.1；如果把旧模板改为这个配置，需要同时修改顶层最低版本、预设格式 `version` 和这里的 `minor` 三处，原有的 Debug / Release 预设、目录和 Ninja 生成器保持不变。
 
 ## `configurePresets`
 
@@ -348,7 +351,7 @@ preset 目录。
 
 1. 项目头文件显示找不到。
 2. Eigen、OpenCV 等第三方库显示找不到。
-3. C++ 标准识别错误，例如工程使用 C++23，clangd 却按照 C++17 分析。
+3. C++ 标准识别错误，例如工程使用 C++20，clangd 却按照 C++17 分析。
 4. 跳转定义、自动补全和错误提示不准确。
 
 推荐在项目根目录创建 `.clangd`：

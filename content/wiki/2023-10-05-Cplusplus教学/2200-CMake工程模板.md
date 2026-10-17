@@ -4,6 +4,9 @@ title: "CMake工程模板"
 
 本章用一个 Linux-only 的 CMake 工程模板来讲解 C++ 项目如何组织、构建、安装和引入第三方库。
 
+模板源码见 [CMake_Template](https://github.com/tungchiahui/CMake_Template)。当前最低要求为 **CMake 3.22**，`CMakePresets.json` 使用**格式版本 3**，默认 C++ 标准为 **C++20**。
+Ubuntu 22.04 可以直接使用系统软件源提供的 **CMake 3.22.1**，准备好 Ninja、C++ 编译器和 Eigen 3 后即可构建，无需为本模板升级 CMake。在容器中开发时，这些工具应安装在容器内，供 VSCode CMake Tools 使用。
+
 这个模板的目标不是把 CMake 所有语法一次讲完，而是围绕一个真实可运行的工程，理解现代 CMake 最常用的一套写法：
 
 1. 顶层 `CMakeLists.txt` 只做工程总控。
@@ -91,6 +94,8 @@ cmake --install build/linux-release
 ```
 
 `install` 更适合用来验证"安装后的目录结构和动态库路径是否正确"。
+
+当前模板已在 Ubuntu 22.04 容器中使用 CMake 3.22.1、GCC 11.4 和临时 Ninja 验证 Debug / Release 的配置、构建、安装与运行；保持内部目录结构并整体复制安装目录后，程序也能直接运行。
 
 ## configure、build、install 的区别
 
