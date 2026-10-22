@@ -48,6 +48,14 @@ World Model（世界模型）的核心通常可以概括为：
 
 > “状态表示 + 动力学预测 + 可选解码/任务头”适合作为分析框架，但不是所有论文都采用同一种结构。
 
+### 结构实例：DINO-WM
+
+![DINO-WM：观测编码、动作条件特征预测与规划代价](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/10/23/1792660599873-879baf21.webp)
+
+读图重点：左侧 DINOv2 将观测编码成状态表示，中间动力学模型预测未来特征，右侧 Planning loss 比较预测特征与目标特征，并用于优化候选动作。图中展示了世界模型及使用它的规划流程。
+
+图片来源：[DINO-WM 官方项目的模型结构图](https://dino-wm.github.io/mfiles/figs/model_arch.png)，对应[论文图 2](https://arxiv.org/html/2411.04983v2#S3.F2)。
+
 ---
 
 ## World Model（世界模型）不等于 Renderer（渲染器）、Simulator（模拟器）和 Planner（规划器）
@@ -143,6 +151,26 @@ NWM、DINO-WM                     GWM、X-MOBILITY
 **World Model（世界模型）既可以在执行时预测候选动作的未来，也可以主要用于学习更好的 Policy（策略）。**
 
 因此，**“使用 World Model（世界模型）”并不等于“部署时一定进行 MPC（模型预测控制）搜索”。**
+
+### 在线规划实例：NWM 的候选轨迹评价
+
+![NWM：候选轨迹对应的未来图像及目标匹配损失](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/10/23/1792660602301-b26052bc.webp)
+
+读图重点：P1、P2、P3 是三个候选轨迹，右侧展示各自预测的末帧。NWM 用预测末帧与目标图像的 LPIPS 距离评分，图中 P3 的损失最低，为 0.369，因此获得优先选择。
+
+图片来源：[Navigation World Models，论文图 7](https://arxiv.org/html/2412.03572v1#S4.F7)。
+
+### 策略学习实例：GWM 的三维世界建模
+
+![GWM：图像重建三维高斯场景、潜在动力学预测与未来场景解码](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2026/10/23/1792660603436-7edbe0ce.webp)
+
+读图重点：三维高斯用于表示场景，3D VAE 将其压缩为潜在特征，动作条件动力学模型预测未来，再解码得到未来高斯场景。
+
+**怎样用于决策：** 在论文的模仿学习设置中，GWM 将扩散模型第一次去噪后的中间特征交给 BC-Transformer 或 Diffusion Policy，由策略输出动作序列。上图展示的是未来场景预测链路，策略模块没有画在图中。
+
+**与 NWM 的区别：** 上面的 NWM 实例利用未来图像评价和选择候选轨迹；这里的 GWM 利用世界建模得到的特征支持策略学习，执行时由策略生成动作。论文还探索了将 GWM 作为学习式模拟器，预测状态和奖励以支持强化学习训练。
+
+图片来源：[GWM 官方项目的方法图](https://gaussian-world-model.github.io/resources/method/pipeline.png)。策略接口参见[论文 §3.3](https://arxiv.org/html/2508.17600v1#S3.SS3)。
 
 ### 从 WM 到 WAM
 
