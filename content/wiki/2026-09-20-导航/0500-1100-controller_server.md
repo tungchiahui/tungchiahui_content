@@ -247,9 +247,14 @@ dt=0.05 s时，PID先算P=kp×e，积分累加e×dt，D=kd×(e−上一轮e)/dt�
 
 ###### enable_rotation与三项rotation增益（当前只输出平移）
 
-当前False使本插件angular.z=0。正常路径跟踪不因此失去横移能力；全向底盘可沿前视点方向平移。后续fake_vel_transform仍可叠加cmd_spin，行为服务器也有自己的恢复动作，不能据此断言底盘在整套系统中永不转动。
+当前False使本插件angular.z=0。正常路径跟踪不因此失去横移能力；全向底盘可沿前视点方向平移。
+后续fake_vel_transform仍可叠加cmd_spin，行为服务器也有自己的恢复动作，不能据此断言底盘在整套系统中永不转动。
 
 若以后启用旋转，默认旋转误差取前视位姿四元数的yaw，**不是**atan2(y_carrot,x_carrot)这个平移方向角；use_rotate_to_heading=True时改取当前转换后路径末端的yaw。需要确认虚拟参考系的朝向定义、目标路径姿态、底盘执行以及反馈，不能把这组参数当云台关节控制器。
+
+**设置了 enable_rotation: false，跟踪控制器直接输出 wz_nav2=0；**
+不让导航来控制云台的转向。
+
 
 ###### min_max_sum_error与transform_tolerance（未接线的积分参数与真实TF等待）
 
