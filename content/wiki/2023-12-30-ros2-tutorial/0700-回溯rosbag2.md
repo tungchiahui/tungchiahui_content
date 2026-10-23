@@ -52,17 +52,65 @@ ros2 pkg create cpp02_rosbag --build-type ament_cmake --dependencies rclcpp rosb
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1237.webp)
 
-record是用来将消息序列化的。(录制)
+record是用来将消息序列化的，但实际上比这个复杂。(录制)
 
-play是用来反序列化消息的。(回放)
+play是用来反序列化消息的，但实际上比这个复杂。(回放)
+
+```text
+ROS 2 Message
+    ↓ serialization
+serialized bytes
+    ↓ rosbag2 + timestamp + topic metadata + storage plugin
+bag
+```
+
+序列化只是录制过程中的一个环节。
+
+record 实际上包含：
+
+```text
+发现 Topic
+    ↓
+建立 Subscription
+    ↓
+接收序列化消息
+    ↓
+记录时间戳
+    ↓
+交给 Storage Plugin
+    ↓
+写入磁盘
+```
+
+```text
+读取 bag
+    ↓
+按照记录时间调度消息
+    ↓
+创建 Publisher
+    ↓
+按照 QoS 发布
+    ↓
+ROS 2 其他节点重新收到消息
+```
+
+这一点非常重要，因为后面所有 QoS 问题，**本质上就是 Recorder 是订阅者、Player 是发布者**。
 
 info是用来输出bag文件的相关信息的。比如有多少条消息，录制起始时间和终止时间以及持续时间。
 
-reindex是重建bag文件，可以修改bag源数据文件。
+reindex是重建bag文件，可以根据现有 bag 数据重新构建 metadata。
+例如异常退出导致 metadata.yaml 缺失或损坏时，它很有价值。
 
 list是输出rosbag2中可用的插件(高阶应用)。
 
-convert我们可以用这个给bag文件修改扩展名，也可以把多个bag文件合并成一个文件。
+convert我们可以用这个给bag重新读取再写出一个新的 bag，也可以把多个bag文件合并成一个文件。
+可以用来：
+- 合并 bag
+- 拆分 bag
+- 重新选择话题
+- 改 storage
+- 压缩/解压
+- 修改序列化格式
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1238.webp)
 
@@ -96,11 +144,44 @@ cd进想保存bag的目录，然输入record指令，后面跟话题名称，然
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1245.webp)
 
-这个yaml文件是源数据文件。
+```text
+my_bag/
+├── metadata.yaml
+└── my_bag_0.db3
+```
+其中：
 
-db3是SQLite数据库，这个是移动端(比如手机)常用的数据库。
+```text
+metadata.yaml
+    → bag 的描述信息
+    → 录了哪些 topic
+    → topic 类型
+    → 消息数量
+    → duration
+    → storage id
+    → bag 分片信息
+    ...
+
+*.db3
+    → SQLite3 storage plugin 真正保存的消息数据
+```
+
+db3是SQLite数据库，这个是移动端(比如手机)常用的数据库，但其他平台其实也可以用。
+所以 .db3 才是主要的数据载体。
 
 这个数据库就存储了录制的数据。
+
+Humble 默认用 SQLite3 storage plugin 保存 bag。
+
+而且存储插件是可替换的。你本机究竟有哪些插件，不应该靠猜，应该直接：
+
+```text
+ros2 bag list storage
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/1792764659701-0064e3a3.webp)
+
+Humble 的 CLI 会根据系统实际注册的 writer 插件决定 -s/--storage 可以选择什么。[ROS 2 Humble rosbag2 README](https://github.com/ros2/rosbag2/blob/humble/README.md)
 
 ### rosbag2 C++案例分析及框架搭建
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1246.webp)
