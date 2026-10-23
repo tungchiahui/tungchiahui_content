@@ -183,6 +183,386 @@ ros2 bag list storage
 
 Humble 的 CLI 会根据系统实际注册的 writer 插件决定 -s/--storage 可以选择什么。[ROS 2 Humble rosbag2 README](https://github.com/ros2/rosbag2/blob/humble/README.md)
 
+### rosbag2中的QoS
+
+前面已经知道，rosbag2 在录制和回放时并不是单纯地“读写文件”：
+
+```text
+录制：Publisher → rosbag2 Recorder（Subscriber）
+
+回放：rosbag2 Player（Publisher）→ Subscriber
+```
+
+因此，只要 rosbag2 参与 ROS 2 通信，就同样要遵守 ROS 2 的 QoS（Quality of Service）规则。
+
+ROS 2 的 QoS 策略很多，例如 History、Depth、Reliability、Durability、Deadline、Liveliness 等。
+
+对于 rosbag2 的录制和回放，首先最需要理解的是：
+
+- Reliability：`Reliable` 和 `Best Effort`
+- Durability：`Transient Local` 和 `Volatile`
+
+官方文档：
+
+- [ROS 2 Humble：Quality of Service settings](https://github.com/ros2/ros2_documentation/blob/humble/source/Concepts/Intermediate/About-Quality-of-Service-Settings.rst)
+- [ROS 2 Humble：Overriding QoS Policies for Recording and Playback](https://github.com/ros2/ros2_documentation/blob/humble/source/How-To-Guides/Overriding-QoS-Policies-For-Recording-And-Playback.rst)
+
+#### Request / Offered 模型
+
+ROS 2 中，Publisher 和 Subscriber 的 QoS 并不是“必须完全相同”才能通信。
+
+它采用的是 Request / Offered 模型：
+
+```text
+Publisher
+    ↓
+Offered QoS（提供的服务质量）
+
+Subscriber
+    ↓
+Requested QoS（请求的服务质量）
+```
+
+只有 Publisher 提供的 QoS 能满足 Subscriber 请求的 QoS，两者才能正常通信。
+
+所以不能简单理解成：
+
+```text
+Publisher QoS == Subscriber QoS
+```
+
+而应该理解成：
+
+```text
+Publisher 提供的能力
+        ↓
+能不能满足 Subscriber 的要求？
+```
+
+这个规则对普通 ROS 2 节点成立，对 rosbag2 也一样成立。
+
+录制时：
+
+```text
+原节点 Publisher
+        ↓
+rosbag2 Recorder Subscriber
+```
+
+回放时：
+
+```text
+rosbag2 Player Publisher
+        ↓
+算法节点 Subscriber
+```
+
+#### Reliability
+
+Reliability 决定消息传输过程中，对“消息是否必须尽量送达”的要求。
+
+**Reliable** 可以理解为：
+
+```text
+尽量保证消息送达
+如果底层发现消息丢失，可以进行重传等处理
+```
+
+**Best Effort** 可以理解为：
+
+```text
+尽最大努力发送
+如果某条消息丢失，不要求一定重传
+更加关注最新的数据
+```
+
+很多高频传感器数据使用的 Sensor Data QoS Profile 会采用 `Best Effort`。对于这类数据，相比于等待旧数据重传，系统通常更关心最新的传感器数据。
+
+Reliability 的兼容关系如下：
+
+| Publisher Offered | Subscriber Requested | 是否兼容 |
+|---|---|---|
+| Best Effort | Best Effort | ✅ |
+| Best Effort | Reliable | ❌ |
+| Reliable | Best Effort | ✅ |
+| Reliable | Reliable | ✅ |
+
+最容易混淆的是下面两种情况：
+
+```text
+Best Effort Publisher
+        ↓
+Reliable Subscriber
+
+❌ 不兼容
+```
+
+原因是 Subscriber 要求“可靠传输”，但 Publisher 只提供 Best Effort，无法满足 Subscriber 的要求。
+
+反过来：
+
+```text
+Reliable Publisher
+        ↓
+Best Effort Subscriber
+
+✅ 兼容
+```
+
+因为 Publisher 提供的能力已经能够满足 Subscriber 较低的要求。
+
+因此，`Reliable` 并不是简单意义上的“比 Best Effort 更高级，所以任何时候都应该选 Reliable”。
+
+QoS 的核心是：**双方是否兼容，以及这种通信策略是否适合当前数据。**
+
+#### Durability
+
+Durability 主要决定：**一个 Subscriber 后加入通信时，能不能收到 Publisher 之前已经发布过的数据。**
+
+**Volatile** 可以理解为：
+
+```text
+只接收建立通信之后的新消息
+不保留之前已经发布的历史消息
+```
+
+例如：
+
+```text
+Publisher：A  B  C
+
+                Subscriber 在这里启动
+
+Publisher：          D  E
+```
+
+如果 Subscriber 使用 Volatile，它通常只关心：
+
+```text
+D  E
+```
+
+而不会要求得到之前的：
+
+```text
+A  B  C
+```
+
+**Transient Local** 则允许 Publisher 为后加入的 Subscriber 保留一定的历史样本。
+
+可以把它理解成：
+
+```text
+Publisher
+   │
+   ├── 发布消息
+   │
+   └── 在本地保留历史样本
+             ↓
+       Late Joiner Subscriber
+```
+
+它的行为和 ROS 1 中 latched publisher 的概念有一定相似之处。
+
+Durability 的兼容关系如下：
+
+| Publisher Offered | Subscriber Requested | 是否兼容 |
+|---|---|---|
+| Volatile | Volatile | ✅ |
+| Volatile | Transient Local | ❌ |
+| Transient Local | Volatile | ✅ |
+| Transient Local | Transient Local | ✅ |
+
+其中：
+
+```text
+Volatile Publisher
+        ↓
+Transient Local Subscriber
+
+❌ 不兼容
+```
+
+因为 Subscriber 要求能够获得 Transient Local 的历史数据能力，但 Publisher 并没有提供这种能力。
+
+而：
+
+```text
+Transient Local Publisher
+        ↓
+Volatile Subscriber
+
+✅ 可以通信
+```
+
+但 Volatile Subscriber 并不会因为 Publisher 是 Transient Local，就自动要求得到建立通信之前的历史数据。
+
+#### /tf_static为什么特殊
+
+`/tf_static` 是理解 Durability 很典型的例子。
+
+静态 TF 的特点是：
+
+```text
+变换关系基本不会变化
+        ↓
+没有必要像动态 /tf 一样持续高频发布
+```
+
+例如机器人中的某个固定传感器变换：
+
+```text
+base_link
+    ↓
+laser_link
+```
+
+这个静态关系可能在系统启动时就已经发布。
+
+假设：
+
+```text
+10:00:00
+Static TF Publisher 发布 /tf_static
+
+10:00:20
+rosbag2 Recorder 才启动
+```
+
+如果 Recorder 只能接收启动之后的新数据，而 `/tf_static` 后面又没有重新发布，那么这个 bag 就可能缺少关键的静态坐标变换。
+
+因此 `/tf_static` 使用 `Transient Local` Durability，使后加入的 Subscriber 也有机会获得之前保留的静态 TF 数据。
+
+这也是为什么录制 SLAM、定位和导航数据时，不能只确认“bag 里面有没有 `/tf`”，还需要关注 `/tf_static` 是否被正确录制。
+
+#### rosbag2会自动适配QoS
+
+理解 QoS 以后，也不要走到另一个极端：
+
+```text
+是不是录每一个 Topic 都必须手动写 QoS？
+```
+
+通常不是。
+
+ROS 2 Humble 的 rosbag2 在录制时会根据发现到的 Publisher 尝试调整 Recorder 的 Requested QoS；在回放时，也会尝试保留原 Topic 原先 Offered 的 QoS。
+
+因此大多数普通 Topic 不需要手动指定 QoS。
+
+但是在一些需要明确控制行为的场景中，例如：
+
+- 关键传感器 Topic
+- `/tf_static`
+- 同一个 Topic 存在多个 Publisher，并且 QoS 不完全一致
+- 默认自动适配无法满足实际录制或回放需求
+- 希望实验中的 QoS 行为固定、可复现
+
+就可以使用 rosbag2 的 QoS Override。
+
+#### 查看Topic实际使用的QoS
+
+不要只根据源码、Topic 名字或者经验猜测实际 QoS。
+
+系统真正运行起来后，可以使用：
+
+```bash
+ros2 topic info -v /topic_name
+```
+
+查看该 Topic 当前 Publisher 和 Subscriber 实际使用的 QoS。
+
+例如重点观察：
+
+```text
+Reliability
+Durability
+History
+Depth
+```
+
+尤其在实车中，最终的 rosbag2 配置应该以**实际运行时的 Topic 和 QoS**为准。
+
+#### rosbag2 QoS Override
+
+rosbag2 可以通过 YAML 文件为特定 Topic 覆盖 QoS。
+
+例如：
+
+```yaml
+/tf_static:
+  reliability: reliable
+  durability: transient_local
+```
+
+如果某个传感器 Topic 实际使用 Best Effort，也可以按实际情况配置：
+
+```yaml
+/sensor_points:
+  reliability: best_effort
+  durability: volatile
+```
+
+这里的 `/sensor_points` 只是示例。实际工程中应当先运行系统，再通过 `ros2 topic info -v` 确认真实 Topic 和 QoS。
+
+录制时使用：
+
+```bash
+ros2 bag record \
+  --qos-profile-overrides-path qos_overrides.yaml \
+  /topic1 /topic2
+```
+
+此时 QoS Override 影响的是：
+
+```text
+rosbag2 Recorder
+        ↓
+Subscription QoS
+```
+
+回放时使用：
+
+```bash
+ros2 bag play \
+  --qos-profile-overrides-path qos_overrides.yaml \
+  my_bag
+```
+
+此时 QoS Override 影响的是：
+
+```text
+rosbag2 Player
+        ↓
+Publisher QoS
+```
+
+所以同一个参数在 record 和 play 中的作用对象并不相同。
+
+最终可以把这一节的关系整理成：
+
+```text
+录制
+
+原 Publisher
+    │ Offered QoS
+    ↓
+rosbag2 Recorder
+    Requested QoS
+
+
+回放
+
+rosbag2 Player
+    │ Offered QoS
+    ↓
+算法 Subscriber
+    Requested QoS
+```
+
+理解这个模型以后，后面处理传感器数据、`/tf_static` 以及 rosbag2 的 QoS Override，就不再只是记配置参数，而是在判断：
+
+> **Publisher 提供的 QoS，能不能满足 Subscriber 请求的 QoS。**
+
 ### rosbag2 C++案例分析及框架搭建
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1246.webp)
 
