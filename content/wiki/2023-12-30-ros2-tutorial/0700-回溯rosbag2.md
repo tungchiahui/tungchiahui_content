@@ -1197,6 +1197,11 @@ rosbag2 Player
       ROS 2 节点
 ```
 
+到这里，rosbag2 在实际使用中最常见的录制、回放和配置能力已经基本覆盖。
+
+对于一般工程，优先复用官方提供的 `ros2 bag record`、`ros2 bag play` 等工具，再通过参数、配置文件和 Launch 进行组织即可，没有必要为了录包功能重新实现一套 Recorder 或 Player。
+
+下面的 C++ Writer / Reader 示例主要用于理解 `rosbag2_cpp` 的程序接口和基本工作原理。
 ### rosbag2 C++案例分析及框架搭建
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2023/12/30/image1246.webp)
 
