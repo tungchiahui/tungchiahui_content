@@ -31,7 +31,7 @@ ros2 action send_goal /trajectory_controller/follow_joint_trajectory \
   ]}}" --feedback
 ```
 
-### 本次容器实测结果
+### 成功时的示例输出
 
 ```text
 error_code: 0

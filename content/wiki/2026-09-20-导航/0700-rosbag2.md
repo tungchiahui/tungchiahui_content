@@ -22,6 +22,7 @@ nav_bag_tools/
 ├── config/
 │   ├── slam_topics.yaml
 │   └── slam_qos.yaml
+├── recordings/               # 每次录制生成一个子目录，已被Git忽略
 └── src/
     ├── demo01_writer.cpp
     └── demo02_reader.cpp
@@ -118,26 +119,28 @@ source install/setup.bash
 
 ```bash
 export ROS_DOMAIN_ID=6
-ros2 launch nav_bag_tools record_slam.launch.py \
-  output_dir:="$PWD/recordings"
+ros2 launch nav_bag_tools record_slam.launch.py
 ```
 
-`output_dir`必须显式给出，避免把文件写到不明确的工作目录。它是bag的父目录；未指定`bag_name`时，程序自动创建带时间戳的新bag目录，并打印解析后的绝对位置。在工控机上，应使用工控机自己的工程或数据磁盘路径，尽量在运行驱动的容器／机器本地录制。
+默认保存到当前工程源码包下的`src/nav_bag_tools/recordings/`，每次录制在里面生成一个独立的bag目录。未指定`bag_name`时，目录名为`slam_年月日_时分秒_微秒`，启动时会打印绝对路径。该目录已加入工程的Git忽略规则。
+
+默认路径通过`--symlink-install`安装后的launch链接定位源码目录，不依赖终端当前工作目录。在工控机上编译运行时，指向工控机自己的源码工程；应尽量在运行驱动的容器／机器本地录制。仍可通过`output_dir:=/data/recordings`改存到其他磁盘；使用源码目录作为默认位置时，按上面的命令保留`--symlink-install`编译选项。
 
 也可以指定实验名称：
 
 ```bash
 ros2 launch nav_bag_tools record_slam.launch.py \
-  output_dir:="$PWD/recordings" \
   bag_name:=gimbal_yaw_01 \
   include_debug:=false
 ```
+
+这个例子会生成`src/nav_bag_tools/recordings/gimbal_yaw_01/`，目录内包含`metadata.yaml`和SQLite的`.db3`分卷。
 
 同名bag目录已存在时拒绝覆盖；下一次换新名称。录制不会自动启动／重启SLAM，可先启动录制器，再启动驱动和算法，让录制覆盖初始化阶段；中途接入运行中的SLAM，需要在实验说明中记下开始时间与此前已经运行的情况。
 
 | 录制参数 | 默认值 | 含义 |
 |---|---|---|
-| `output_dir` | 必填 | bag父目录；支持`~`和相对路径，启动时解析成绝对路径 |
+| `output_dir` | 源码包内的`recordings/` | bag父目录；可覆盖，支持`~`和相对路径，启动时解析成绝对路径 |
 | `bag_name` | 自动生成 | 新bag目录名；不能填写多级路径 |
 | `topics_file` | 包内`slam_topics.yaml` | 话题列表配置 |
 | `qos_file` | 包内`slam_qos.yaml` | 官方rosbag2 QoS覆盖配置 |
@@ -176,7 +179,7 @@ ros2 launch nav_bag_tools record_slam.launch.py \
 source install/setup.bash
 export ROS_DOMAIN_ID=106
 ros2 launch nav_bag_tools play_slam.launch.py \
-  bag_path:="$PWD/recordings/gimbal_yaw_01" \
+  bag_path:="$PWD/src/nav_bag_tools/recordings/gimbal_yaw_01" \
   mode:=view \
   rate:=1.0
 ```
@@ -191,7 +194,7 @@ ros2 launch nav_bag_tools play_slam.launch.py \
 source install/setup.bash
 export ROS_DOMAIN_ID=106
 ros2 launch nav_bag_tools play_slam.launch.py \
-  bag_path:="$PWD/recordings/gimbal_yaw_01" \
+  bag_path:="$PWD/src/nav_bag_tools/recordings/gimbal_yaw_01" \
   mode:=reprocess \
   start_paused:=true
 ```
@@ -255,7 +258,7 @@ launch关闭了播放器的终端键盘控制，以免依赖子进程能否收�
 先在本地回放ROS域录一份低负载测试数据，核对`bag info`中的类型、数量和时间范围；再短时进行实车静止、底盘静止而云台yaw缓慢转动、已知距离直行往返等独立实验。每次记录真实动作，算法输出的里程计不能作为自己的独立真值。
 
 ```bash
-ros2 bag info "$PWD/recordings/gimbal_yaw_01"
+ros2 bag info "$PWD/src/nav_bag_tools/recordings/gimbal_yaw_01"
 ```
 
 对必要原始输入检查是否有实际数据，核对时间戳是否有异常间隔；检查多个静态TF发布者的关键边是否都保存。事件话题未触发和关键传感器断流需要区别记录。实车高带宽话题避免叠加远程`hz`／`echo`／RViz订阅，用短时试录确认驱动和算法没有明显受影响，再延长录制。
@@ -269,6 +272,7 @@ ros2 bag info "$PWD/recordings/gimbal_yaw_01"
 - `reprocess`暂停启动、通过服务恢复，收到6路选定输入及`/clock`；未收到历史`/tf`、`/map`和`/cloud_registered`。
 - `view`能播放历史TF、地图及点云；在静态消息已播过后才加入的Transient Local监听者仍取得两条测试静态边。
 - 混合持久性的`/rosout`发布者在加入显式Volatile配置后，最终测试未再出现该QoS不兼容告警。
+- 移除独立包装脚本后，重新验证以上流程；另验证默认时间戳命名、含空格的输出及配置路径、debug追加、仿真时间录制、同名目录拒绝覆盖，以及重算模式禁止混入debug输出。
 
 这些检查验证的是官方命令封装、配置与模式选择。**尚未验证实车全带宽长期录制、真实点云内容质量、异常断电恢复或完整离线SLAM重算效果。**
 
