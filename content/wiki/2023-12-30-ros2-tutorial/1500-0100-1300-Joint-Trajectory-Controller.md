@@ -84,4 +84,4 @@ ros2 control switch_controllers --deactivate trajectory_controller \
 
 ---
 
-[返回 Humble 总览](1500-0100-Humble.md) · 上一篇：[命令转发与常用控制接口](1500-0100-1200-命令转发与常用控制接口.md) · 下一篇：[机械臂物理仿真](1500-0100-1400-机械臂物理仿真.md)
+[返回 Humble 总览](/wiki/2023-12-30-ros2-tutorial/1500-0100-humble) · 上一篇：[命令转发与常用控制接口](/wiki/2023-12-30-ros2-tutorial/1500-0100-1200-ming-ling-zhuan-fa-yu-chang-yong-kong-zhi-jie-kou) · 下一篇：[机械臂物理仿真](/wiki/2023-12-30-ros2-tutorial/1500-0100-1400-ji-xie-bi-wu-li-fang-zhen)
