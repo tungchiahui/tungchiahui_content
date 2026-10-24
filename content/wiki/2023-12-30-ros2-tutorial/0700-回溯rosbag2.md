@@ -195,12 +195,12 @@ Humble 的 CLI 会根据系统实际注册的 writer 插件决定 -s/--storage �
 
 因此，只要 rosbag2 参与 ROS 2 通信，就同样要遵守 ROS 2 的 QoS（服务质量，Quality of Service）规则。
 
-ROS 2 的 QoS 策略很多，例如 History（历史策略）、Depth（队列深度）、Reliability（可靠性）、Durability（持久性）、Deadline（截止期限）、Liveliness（活跃性）等。
+ROS 2 的 QoS 策略很多，例如 History（历史策略）、Depth（队列深度）、Reliability（可靠性）、Durability（持久性）、Deadline（截止期限）、Liveliness（活跃性） 等。
 
 对于 rosbag2 的录制和回放，首先最需要理解的是：
 
-- Reliability（可靠性）：`Reliable`（可靠）和 `Best Effort`（尽力而为）
-- Durability（持久性）：`Transient Local`（本地瞬态）和 `Volatile`（易失性）
+- Reliability（可靠性）：`Reliable`（可靠） 和 `Best Effort`（尽力而为）
+- Durability（持久性）：`Transient Local`（本地瞬态） 和 `Volatile`（易失性）
 
 官方文档：
 
