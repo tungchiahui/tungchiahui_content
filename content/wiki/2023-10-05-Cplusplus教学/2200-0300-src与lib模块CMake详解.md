@@ -37,9 +37,11 @@ target_link_libraries(${PROJECT_NAME}
     lib2_src_lib
 )
 
-set_target_properties(${PROJECT_NAME} PROPERTIES
-  INSTALL_RPATH "$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"
-)
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+  set_target_properties(${PROJECT_NAME} PROPERTIES
+    INSTALL_RPATH "$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"
+  )
+endif()
 
 install(TARGETS ${PROJECT_NAME}
   RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
@@ -304,6 +306,8 @@ lib2_src_lib
 
 ## `INSTALL_RPATH`
 
+本节讲的是 Linux 安装后的动态库搜索路径，所以当前模板把它放在 `if(CMAKE_SYSTEM_NAME STREQUAL "Linux")` 中。Windows 预设使用静态项目库，不进入这个分支。
+
 ```cmake
 set_target_properties(${PROJECT_NAME} PROPERTIES
   INSTALL_RPATH "$ORIGIN/../${CMAKE_INSTALL_LIBDIR}"
@@ -393,9 +397,9 @@ install(TARGETS ${PROJECT_NAME}
 
 | 类型 | 对应产物 | 常用安装目录 |
 |:---|:---|:---|
-| `RUNTIME` | 可执行文件，Windows DLL | `${CMAKE_INSTALL_BINDIR}` |
+| `RUNTIME` | 本模板的可执行文件 | `${CMAKE_INSTALL_BINDIR}` |
 | `LIBRARY` | Linux 动态库 `.so` | `${CMAKE_INSTALL_LIBDIR}` |
-| `ARCHIVE` | 静态库 `.a` | `${CMAKE_INSTALL_LIBDIR}` |
+| `ARCHIVE` | 静态库 | `${CMAKE_INSTALL_LIBDIR}` |
 
 主程序是可执行文件，所以使用：
 
@@ -421,7 +425,7 @@ file(GLOB_RECURSE ${PREFIX}_SRC_LIST CONFIGURE_DEPENDS
   "${CMAKE_CURRENT_LIST_DIR}/src/*.cpp"
 )
 
-add_library(${PREFIX}_src_lib SHARED
+add_library(${PREFIX}_src_lib
   ${${PREFIX}_SRC_LIST}
 )
 
@@ -451,10 +455,12 @@ target_link_libraries(${PREFIX}_src_lib
 # =======
 # Install
 # =======
-# 安装后从自身所在目录查找同目录的 lib2
-set_target_properties(${PREFIX}_src_lib PROPERTIES
-  INSTALL_RPATH "$ORIGIN"
-)
+# On Linux, find lib2 in the same installed library directory.
+if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+  set_target_properties(${PREFIX}_src_lib PROPERTIES
+    INSTALL_RPATH "$ORIGIN"
+  )
+endif()
 
 install(TARGETS ${PREFIX}_src_lib
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
@@ -545,7 +551,7 @@ set(lib1_SRC_LIST
 ## 双层变量展开
 
 ```cmake
-add_library(${PREFIX}_src_lib SHARED
+add_library(${PREFIX}_src_lib
   ${${PREFIX}_SRC_LIST}
 )
 ```
@@ -585,22 +591,22 @@ ${lib1_SRC_LIST}
 ## `add_library`
 
 ```cmake
-add_library(${PREFIX}_src_lib SHARED
+add_library(${PREFIX}_src_lib
   ${${PREFIX}_SRC_LIST}
 )
 ```
 
-作用：创建库 target。
+作用：创建库 target。本模板不显式填写类型，使用 `BUILD_SHARED_LIBS` 的设置：Linux 预设为动态库，Windows 预设为静态库。
 
 常见类型：
 
 | 类型 | 产物 | 说明 |
 |:---|:---|:---|
-| `SHARED` | `.so` | 动态库，本模板使用 |
+| `SHARED` | Linux 下为 `.so` | 动态库 |
 | `STATIC` | `.a` | 静态库 |
 | `MODULE` | `.so` | 插件模块，不用于普通链接 |
 | `OBJECT` | `.o` | 对象库 |
-| 不写 | 由 `BUILD_SHARED_LIBS` 决定 |
+| 不写 | 由 `BUILD_SHARED_LIBS` 决定 | 本模板使用 |
 
 如果想改成静态库：
 
@@ -610,7 +616,7 @@ add_library(${PREFIX}_src_lib STATIC
 )
 ```
 
-如果希望用户用 preset 控制静态或动态，可以写：
+本模板已经采用由 preset 控制静态或动态的写法：
 
 ```cmake
 add_library(${PREFIX}_src_lib
@@ -898,3 +904,9 @@ target_link_libraries(${PROJECT_NAME}
 ```
 
 实际项目中，建议把所有 `add_subdirectory` 放在一起，所有主程序链接库也放在一起，文件会更清楚。
+
+### Windows 安装后的目录
+
+Windows 主程序安装到 `bin/`，两个项目静态库安装到 `lib/`，公开头文件安装到 `include/`。源文件和函数声明仍与 Linux 共用。
+
+`lib1` 和 `lib2` 的依赖关系继续通过 `target_link_libraries` 表达。日常练习选择 Windows 预设后直接构建、运行即可。

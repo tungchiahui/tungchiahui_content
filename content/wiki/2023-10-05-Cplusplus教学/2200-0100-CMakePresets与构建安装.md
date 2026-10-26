@@ -16,25 +16,58 @@ title: "CMakePresets与构建安装"
   },
   "configurePresets": [
     {
-      "name": "linux-debug",
-      "displayName": "Linux Debug",
+      "name": "base",
+      "hidden": true,
       "generator": "Ninja",
-      "binaryDir": "${sourceDir}/build/linux-debug",
+      "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
         "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
-        "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/linux-debug"
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/${presetName}"
+      }
+    },
+    {
+      "name": "linux-debug",
+      "displayName": "Linux Debug",
+      "inherits": "base",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      },
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": "ON"
       }
     },
     {
       "name": "linux-release",
       "displayName": "Linux Release",
-      "generator": "Ninja",
-      "binaryDir": "${sourceDir}/build/linux-release",
+      "inherits": "linux-debug",
       "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Release",
-        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
-        "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/linux-release"
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "windows-debug",
+      "displayName": "Windows GCC Debug",
+      "inherits": "base",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      },
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "BUILD_SHARED_LIBS": "OFF"
+      }
+    },
+    {
+      "name": "windows-release",
+      "displayName": "Windows GCC Release",
+      "inherits": "windows-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
       }
     }
   ],
@@ -46,10 +79,50 @@ title: "CMakePresets与构建安装"
     {
       "name": "linux-release",
       "configurePreset": "linux-release"
+    },
+    {
+      "name": "windows-debug",
+      "configurePreset": "windows-debug"
+    },
+    {
+      "name": "windows-release",
+      "configurePreset": "windows-release"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "linux-debug",
+      "configurePreset": "linux-debug",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "linux-release",
+      "configurePreset": "linux-release",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "windows-debug",
+      "configurePreset": "windows-debug",
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "windows-release",
+      "configurePreset": "windows-release",
+      "output": {
+        "outputOnFailure": true
+      }
     }
   ]
 }
 ```
+
+后面逐项解释时，很多地方继续用 `linux-debug` 举例。Windows 对应使用 `windows-debug`，Release 则分别使用 `linux-release`、`windows-release`；当前系统可选择的配置由 `condition` 决定。
 
 ## 根字段
 
@@ -75,7 +148,7 @@ title: "CMakePresets与构建安装"
 2. 如果想兼容更老的 CMake，要降低 `version`，但某些字段可能不能再用。
 3. 如果本机 CMake 很新，也不一定要用最高 preset 版本；够用即可。
 
-本模板只使用格式 `3` 已支持的配置和构建预设，因此 Ubuntu 22.04 的 CMake 3.22.1 就能读取。格式与字段说明见 [CMake 3.22 预设文档](https://cmake.org/cmake/help/v3.22/manual/cmake-presets.7.html)；格式 `6` 的新增功能见 [CMake 3.25 预设文档](https://cmake.org/cmake/help/v3.25/manual/cmake-presets.7.html#format)。
+本模板只使用格式 `3` 已支持的配置、构建、测试和平台条件字段，因此 Ubuntu 22.04 的 CMake 3.22.1 就能读取。格式与字段说明见 [CMake 3.22 预设文档](https://cmake.org/cmake/help/v3.22/manual/cmake-presets.7.html)；格式 `6` 的新增功能见 [CMake 3.25 预设文档](https://cmake.org/cmake/help/v3.25/manual/cmake-presets.7.html#format)。
 
 ### `cmakeMinimumRequired`
 
@@ -400,6 +473,15 @@ clangd: Restart language server
 让 clangd 独立负责代码分析。这属于个人 VSCode 设置，不需要写入 CMake
 模板。
 
+Windows 的数据库位于 `build/windows-debug/compile_commands.json`，因此 `.clangd` 要对应改成：
+
+```yaml
+CompileFlags:
+  CompilationDatabase: build/windows-debug
+```
+
+`CMAKE_EXPORT_COMPILE_COMMANDS` 在 Ninja 生成器下适用，两种平台都保持使用 Ninja。Windows 中 clangd 查询 GCC 标准库路径的配置见 [Windows开发环境搭建与测试](/wiki/2023-10-05-cplusplus-jiao-xue/0100-0200-windows-kai-fa-huan-jing-da-jian-yu-ce-shi)。
+
 #### 检查 clangd 是否真的生效
 
 在 VSCode 中打开：
@@ -482,6 +564,17 @@ cmake --preset linux-release
 ./install/linux-debug/bin/cmake_template
 ```
 
+### `BUILD_SHARED_LIBS`
+
+当前模板的库类型由预设选择：
+
+| 预设 | 值 | 项目中的库 |
+|:---|:---|:---|
+| Linux Debug / Release | `ON` | 动态库 |
+| Windows Debug / Release | `OFF` | 静态库 |
+
+Release 预设继承对应 Debug 预设中的设置。两种系统使用同一份函数声明和源文件，按照自己的预设构建即可。这里控制的是模板自己创建的库，第三方安装包仍按各自提供的方式使用。
+
 ## `buildPresets`
 
 `buildPresets` 是"构建阶段"的 preset。
@@ -539,9 +632,29 @@ cmake --build --preset linux-debug
 
 必须对应 `configurePresets` 中已经存在的 `name`。
 
-## 常见可扩展字段
+## `testPresets`
 
-初学时可以先不用，但以后可能会见到。
+当前模板还带有测试预设，例如：
+
+```json
+{
+  "name": "windows-debug",
+  "configurePreset": "windows-debug",
+  "output": { "outputOnFailure": true }
+}
+```
+
+构建完成后执行：
+
+```powershell
+ctest --preset windows-debug
+```
+
+Linux 则使用 `ctest --preset linux-debug`。CTest 会运行原始 Eigen 示例，并检查输出中是否包含 `Determinant = -2`。后面修改 `main.cpp` 做语法练习时，输出变化会使这个原始示例测试失败；应该按新程序的要求修改测试，而不是把测试当作所有练习的统一运行命令。
+
+## 继承、平台条件与其他字段
+
+当前模板已经用到了 `hidden` 和 `inherits` 来复用配置，下面再解释它们的含义。
 
 ### `description`
 
@@ -573,6 +686,30 @@ cmake --build --preset linux-debug
 }
 ```
 
+### `${presetName}`
+
+公共预设把目录写成：
+
+```json
+"binaryDir": "${sourceDir}/build/${presetName}"
+```
+
+当 `windows-debug` 继承公共配置时，`${presetName}` 会展开成 `windows-debug`；使用 `linux-release` 时则展开成 `linux-release`。因此不同平台、不同构建类型有自己的缓存和安装目录。
+
+### `condition`
+
+例如 Windows 预设使用：
+
+```json
+"condition": {
+  "type": "equals",
+  "lhs": "${hostSystemName}",
+  "rhs": "Windows"
+}
+```
+
+这里检查运行 CMake 的宿主系统。Linux 对应 `Linux`，Windows 对应 `Windows`。在 Windows 原生 CMake 中，配置列表只显示 Windows 的预设；公共 `base` 预设由于设置了 `hidden: true`，也不会单独显示。
+
 ### `environment`
 
 设置环境变量。
@@ -584,7 +721,7 @@ cmake --build --preset linux-debug
 }
 ```
 
-一般不建议模板默认写死编译器，除非你的项目明确要求某个工具链。
+本模板的 Windows 预设明确选择 `gcc` 和 `g++`，保证使用本教程的 MinGW-w64 路线，但没有写死它们的绝对路径。Linux 默认让 CMake 从系统环境选择编译器。自己的工具位置可以放进 `CMakeUserPresets.json`，不要把个人电脑路径提交到公共预设中。
 
 ### `targets`
 
@@ -621,6 +758,8 @@ cmake --install build/linux-debug
 ```
 
 安装命令需要传入构建目录，因为安装规则是在 configure 阶段生成到构建目录里的。
+
+以下图形化步骤和截图以 Linux 为例。Windows 选择 `Windows GCC Debug`，程序路径改为 `build/windows-debug/bin/cmake_template.exe`，其他操作的意义相同。
 
 ## VSCode CMake Tools 工作流
 
