@@ -1173,3 +1173,34 @@ chassis 坐标系原点
     <xmacro_define_value name="gimbal_pitch_height" value="0.09641" />
 ```
 
+### 修改nav launch
+
+导航的launch默认不会读取robot_description.yaml
+
+所以`src/pb2025_sentry_nav/pb2025_nav_bringup/launch/robot_state_publisher_launch.py`里要把
+
+```python
+                launch_arguments={
+                    "namespace": namespace,
+                    "use_sim_time": use_sim_time,
+                    "robot_name": robot_name,
+                    "use_rviz": "False",
+                }.items(),
+```
+
+改成：
+
+```python
+                launch_arguments={
+                    "namespace": namespace,
+                    "use_sim_time": use_sim_time,
+                    "robot_name": robot_name,
+                    "use_rviz": "False",
+                    "params_file": os.path.join(
+                    pkg_robot_description_dir,
+                    "params",
+                    "robot_description.yaml",
+                    ),
+                }.items(),
+```
+
