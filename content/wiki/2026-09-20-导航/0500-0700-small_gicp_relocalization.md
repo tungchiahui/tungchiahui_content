@@ -4,6 +4,20 @@ title: "small_gicp_relocalization（先验点云地图重定位）"
 
 ## small_gicp_relocalization（先验点云地图重定位）
 
+```text
+雷达＋内置 IMU
+  → Point-LIO：估计自身运动
+  → loam_interface：转换到 odom 参考系
+  → sensor_scan_generation：结合机器人模型、关节 TF
+       ├─ 发布 odom → base_footprint
+       └─ 发布 /odometry，实际表示 odom → gimbal_yaw
+
+small_gicp 重定位
+  → 与已有地图匹配
+  → 发布 map → odom
+```
+
+
 ### 实车先看：地图、起点和云台零位
 
 这个节点在**已有地图导航模式 `slam:=False`** 下，把当前配准点云与先验PCD地图对齐，输出 `map → odom` 的位置、朝向修正。它不直接控制车轮或云台，也不是重新创建地形障碍的节点；`slam:=True` 的整套启动不运行它。
