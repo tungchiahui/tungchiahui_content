@@ -432,3 +432,12 @@ https://console.cloud.tencent.com/tcr/repository
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598222658-0cf38323.webp)
 
 ![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598241692-6776c11b.webp)
+
+验证：
+
+```bash
+docker buildx imagetools inspect \
+  hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598418089-5c2e8522.webp)
