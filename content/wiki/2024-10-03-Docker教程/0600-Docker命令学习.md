@@ -141,3 +141,294 @@ docker load -i myimage.tar
 
 ##### 腾讯的TCR
 
+###### 环境搭建
+
+这是一个国内docker镜像托管站，可以在中国大陆，中国香港，海外各主要城市托管你的镜像。建议使用中国香港服务器。
+
+TCR个人版：
+
+打开网站：https://console.cloud.tencent.com/tcr
+
+可以看到`docker login`要用的用户名和密码。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795593774544-1c62cda2.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795593951621-e950a940.webp)
+
+新建一个命名空间，类似dockerhub的username一样。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795593666146-3aa84e03.webp)
+
+登陆
+
+```bash
+# 中国大陆TCR
+docker login ccr.ccs.tencentyun.com
+
+# 中国香港TCR（推荐）
+docker login hkccr.ccs.tencentyun.com
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795594000136-f7b775d9.webp)
+
+登陆成功。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795594010602-96e437c3.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795595924634-88346e05.webp)
+
+###### 推送方式一（全新推送）
+
+这种方式就是直接将本地的 Docker 镜像推送到腾讯云 TCR，不需要经过 Docker Hub。
+
+同样以中国香港 TCR 为例。
+
+首先确保已经创建好命名空间，并且登录成功：
+
+```bash
+docker login hkccr.ccs.tencentyun.com
+```
+
+**1. 本地已经有 Docker 镜像**
+
+如果你已经通过 `docker build` 构建好了镜像，可以直接修改镜像标签，再推送到 TCR。
+
+先查看本地镜像：
+
+```bash
+docker images
+```
+
+比如我的镜像为 `tungchiahui/ros:humble-curc`，想推送到 TCR，就需要先给它添加一个 TCR 的镜像标签：
+
+```bash
+docker tag \
+  tungchiahui/ros:humble-curc \
+  hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+然后推送：
+
+```bash
+docker push hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+推送完成后，打开 TCR 控制台，就可以看到你的镜像了，不需要提前手动创建仓库。
+
+注意：这种方式适合普通的单架构本地镜像。如果是 `amd64` 和 `arm64` 双架构镜像，建议使用下面的 Buildx 方法。
+
+**2. 从 Dockerfile 直接构建并推送（推荐）**
+
+如果你有 Dockerfile，可以直接构建镜像并推送到 TCR。
+
+先进入 Dockerfile 所在目录：
+
+比如我的：
+
+```bash
+cd ~/UserFolder/MySource/ros-docker/ROS2_Humble_Nav2
+```
+
+普通单架构构建：
+
+```bash
+docker build \
+  -t hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc \
+  .
+```
+
+构建完成后推送：
+
+```bash
+docker push hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+上面的方式默认构建当前设备对应的 CPU 架构。
+
+如果想同时构建 `amd64` 和 `arm64`，可以使用 Docker Buildx。
+
+**3. 使用 Buildx 构建并推送多架构镜像（推荐）**
+
+这种方式比较适合 ROS2 开发环境，因为同一个镜像可以同时给普通 x86 工控机和 ARM 开发板使用。
+
+首先查看 Buildx：
+
+```bash
+docker buildx ls
+```
+
+如果还没有创建支持多架构构建的 Builder，可以新建一个：
+
+```bash
+docker buildx create \
+  --name multiarch_builder \
+  --driver docker-container \
+  --use
+```
+
+如果已经有 `multiarch_builder`，直接选择即可：
+
+```bash
+docker buildx use multiarch_builder
+```
+
+初始化 Builder：
+
+```bash
+docker buildx inspect --bootstrap
+```
+
+注意：Builder 还需要具备对应架构的构建能力，比如通过 QEMU 或原生 ARM 节点构建 `arm64`。
+
+接下来直接构建并推送：
+
+```bash
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  -t hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc \
+  --push \
+  .
+```
+
+参数说明：
+
+| 参数 | 作用 |
+|---|---|
+| `--platform` | 指定构建的 CPU 架构 |
+| `linux/amd64` | 普通 Intel/AMD x86-64 设备 |
+| `linux/arm64` | ARM64 设备，例如树莓派 5 |
+| `-t` | 指定镜像名称和 Tag |
+| `--push` | 构建完成后直接推送到镜像仓库 |
+| `.` | 使用当前目录作为 Docker 构建上下文 |
+
+这里的 `--push` 会在构建完成后直接上传到 TCR，不需要再执行 `docker push`。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598033176-e37d4842.webp)
+
+**4. 验证推送结果**
+
+推送完成后，可以查看 TCR 上的镜像信息：
+
+```bash
+docker buildx imagetools inspect \
+  hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+如果是双架构镜像，正常可以看到：
+
+```text
+linux/amd64
+linux/arm64
+```
+
+之后就可以在其他机器上直接拉取：
+
+```bash
+docker pull hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+Docker 会自动选择适合当前设备 CPU 架构的镜像。
+
+**注意：**
+
+- TCR 个人版只需要先创建 Namespace，首次推送时可以自动创建镜像仓库。
+- 中国大陆 TCR 使用 `ccr.ccs.tencentyun.com`，中国香港 TCR 使用 `hkccr.ccs.tencentyun.com`，不要弄混，否则可能出现 `403 Forbidden`。
+- `docker push` 不会自动生成其他 CPU 架构的镜像，多架构构建推荐使用 `docker buildx build --push`。
+- 如果构建或上传过程中网络不稳定，可以考虑先推送 Docker Hub，再使用方式二中的 `skopeo copy` 同步到 TCR。但 Skopeo 默认通过本机中转数据，上传速度仍受本地网络影响。
+
+###### 推送方式二（从dockerhub复制）
+
+推荐方式二，可以你先推送到dockerhub上，再从dockerhub去同步到tcr.
+
+安装`skopeo`：
+
+```bash
+# Ubuntu
+sudo apt install skopeo
+
+# Fedora
+sudo dnf install skopeo
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795594206147-065a423c.webp)
+
+先清理 Skopeo 中可能失效的 TCR 凭证：
+
+```bash
+# 中国大陆
+skopeo logout ccr.ccs.tencentyun.com
+
+# 中国香港
+skopeo logout hkccr.ccs.tencentyun.com
+```
+
+登陆：
+
+```bash
+# 中国大陆
+skopeo login ccr.ccs.tencentyun.com
+
+# 中国香港
+skopeo login hkccr.ccs.tencentyun.com
+```
+
+看看是不是登陆上了，查看下用户名：
+
+```bash
+# 中国大陆
+skopeo login --get-login ccr.ccs.tencentyun.com
+
+# 中国香港
+skopeo login --get-login hkccr.ccs.tencentyun.com
+```
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795594915089-4646e8ac.webp)
+
+比如我的为`tungchiahui/ros:humble-curc`，那么用户名命名空间为`tungchiahui`，镜像名为`ros`，tag为`humble-curc`。
+
+你现在需要知道你的命名空间，和你想给这个镜像起什么名字，比如我的dockerhub和tcr都为`tungchiahui/ros:humble-curc`，那么用户名命名空间为`tungchiahui`，镜像名为`ros`，tag为`humble-curc`。
+
+| 参数 | 作用 |
+|---|---|
+| --all	| 复制所有架构 |
+| --src-no-creds | 匿名读取公开的 Docker Hub 镜像 |
+| --retry-times 5 |	遇到可重试错误时，最多重试 5 次 |
+| --image-parallel-copies 2	| 最多同时传输 2 个镜像层，降低并发压力 |
+
+下面以中国香港为例：
+
+```bash
+skopeo copy \
+  --all \
+  --src-no-creds \
+  --retry-times 5 \
+  --image-parallel-copies 2 \
+  docker://docker.io/dockerhub用户名命名空间/你的镜像名:tag名 \
+  docker://hkccr.ccs.tencentyun.com/你的命名空间/你的镜像名:tag名
+```
+
+比如
+
+```bash
+skopeo copy \
+  --all \
+  --src-no-creds \
+  --retry-times 5 \
+  --image-parallel-copies 2 \
+  docker://docker.io/tungchiahui/ros:humble-curc \
+  docker://hkccr.ccs.tencentyun.com/tungchiahui/ros:humble-curc
+```
+
+###### 验证推送结果
+
+https://console.cloud.tencent.com/tcr/repository
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598000679-d1f5e480.webp)
+
+但看上图是私有的，需要修改成公开。
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598204650-a4145755.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598222658-0cf38323.webp)
+
+![](https://cdn.tungchiahui.cn/tungwebsite/assets/images/2024/10/03/1795598241692-6776c11b.webp)
