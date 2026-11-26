@@ -1,5 +1,5 @@
 ---
-title: World-Model与移动机器人路径规划
+title: 组会｜World-Model与移动机器人路径规划
 ---
 
 ## World Model（世界模型）与移动机器人路径规划
